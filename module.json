@@ -2,7 +2,7 @@
     "id": "pf2e-compendium-extra-cn",
     "title": "PF2e 第三方模组合集中文翻译",
     "description": "Chinese translations for various PF2e third-party modules and adventure packs, including Battlezoo, Season of Ghosts, Abomination Vaults, Claws of the Tyrant, and more.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "compatibility": {
         "minimum": "12",
         "verified": "13"
@@ -29,7 +29,7 @@
     ],
     "url": "https://github.com/takaqiao/pf2e-compendium-extra-cn",
     "manifest": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/module.json",
-    "download": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/download/1.0.1/pf2e-compendium-extra-cn-1.0.1.zip",
+    "download": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/download/1.0.2/pf2e-compendium-extra-cn-1.0.2.zip",
     "bugs": "https://github.com/takaqiao/pf2e-compendium-extra-cn/issues",
-    "changelog": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/tag/1.0.1"
+    "changelog": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/tag/1.0.2"
 }
