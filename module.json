@@ -2,7 +2,7 @@
     "id": "pf2e-compendium-extra-cn",
     "title": "Translation: 中文[PF2E额外合集包]",
     "description": "Chinese translation for extra pf2e compendium",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "compatibility": {
         "minimum": "12",
         "verified": "13"
@@ -29,7 +29,7 @@
     ],
     "url": "https://github.com/takaqiao/pf2e-compendium-extra-cn",
     "manifest": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/module.json",
-    "download": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/download/1.0.8/pf2e-compendium-extra-cn-v1.0.8.zip",
+    "download": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/download/1.0.9/pf2e-compendium-extra-cn-v1.0.9.zip",
     "bugs": "https://github.com/takaqiao/pf2e-compendium-extra-cn/issues",
-    "changelog": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/tag/1.0.8"
+    "changelog": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/tag/1.0.9"
 }
