@@ -1,3 +1,8 @@
 .venv/
 __pycache__/
 *.pyc
+
+# Local backups & build artifacts
+*.bak
+*.bak.*
+/release/*.zip
