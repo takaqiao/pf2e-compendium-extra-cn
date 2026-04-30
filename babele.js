@@ -1,39 +1,31 @@
 const MODULE_ID = 'pf2e-compendium-extra-cn';
-let registered = false;
 
-function isAlreadyRegistered(babele) {
+function isInPatchState(babele) {
   const state = babele?.__ondemandPatch;
-  const inState = state?.registeredModules?.some?.((m) => m?.module === MODULE_ID);
-  const inModules = babele?.modules?.some?.((m) => m?.module === MODULE_ID);
-  return Boolean(inState || inModules);
+  return state?.registeredModules?.some?.((m) => m?.module === MODULE_ID) ?? false;
 }
 
-function registerTranslation(babele) {
-  if (registered) return false;
+function ensureRegistered(babele) {
   if (typeof Babele === 'undefined' || !babele || typeof babele.register !== 'function') return false;
-  if (isAlreadyRegistered(babele)) {
-    registered = true;
-    return false;
-  }
+  if (isInPatchState(babele)) return false;
   babele.register({
     module: MODULE_ID,
     lang: 'cn',
     dir: 'compendium',
   });
-  registered = true;
-  console.log(`${MODULE_ID} | 第三方模组中文翻译已加载`);
   return true;
 }
 
 Hooks.once('babele.init', (babele) => {
-  registerTranslation(babele);
+  if (ensureRegistered(babele)) {
+    console.log(`${MODULE_ID} | 第三方模组中文翻译已加载 (babele.init)`);
+  }
 });
 
 Hooks.once('ready', async () => {
   const babele = game.babele;
-  const wasLate = !registered;
-  if (!registerTranslation(babele) && !wasLate) return;
-  if (!wasLate) return;
+  if (!ensureRegistered(babele)) return;
+  console.log(`${MODULE_ID} | 已在 ready 阶段补注册`);
   try {
     if (typeof babele?.loadLabels === 'function') {
       await babele.loadLabels();
@@ -43,7 +35,7 @@ Hooks.once('ready', async () => {
       await babele.loadTitleIndex();
       babele.applyTitleIndex?.();
     }
-    console.log(`${MODULE_ID} | 已在 ready 阶段补注册并刷新标签`);
+    console.log(`${MODULE_ID} | labels/titles 已刷新`);
   } catch (e) {
     console.warn(`${MODULE_ID} | 补注册后刷新失败`, e);
   }
