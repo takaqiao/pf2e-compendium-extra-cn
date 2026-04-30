@@ -16,6 +16,33 @@ function ensureRegistered(babele) {
   return true;
 }
 
+function refreshUI() {
+  try {
+    ui.sidebar?.render?.(true);
+  } catch {}
+  try {
+    const windows = ui.windows ?? {};
+    for (const app of Object.values(windows)) {
+      const name = app?.constructor?.name ?? '';
+      if (name.includes('Compendium') || name.includes('Sidebar')) {
+        app.render?.(true);
+      }
+    }
+  } catch {}
+}
+
+async function refreshTranslations(babele) {
+  if (typeof babele?.loadLabels === 'function') {
+    await babele.loadLabels();
+    babele.applyLabels?.();
+  }
+  if (typeof babele?.loadTitleIndex === 'function') {
+    await babele.loadTitleIndex();
+    babele.applyTitleIndex?.();
+  }
+  refreshUI();
+}
+
 Hooks.once('babele.init', (babele) => {
   if (ensureRegistered(babele)) {
     console.log(`${MODULE_ID} | 第三方模组中文翻译已加载 (babele.init)`);
@@ -27,15 +54,8 @@ Hooks.once('ready', async () => {
   if (!ensureRegistered(babele)) return;
   console.log(`${MODULE_ID} | 已在 ready 阶段补注册`);
   try {
-    if (typeof babele?.loadLabels === 'function') {
-      await babele.loadLabels();
-      babele.applyLabels?.();
-    }
-    if (typeof babele?.loadTitleIndex === 'function') {
-      await babele.loadTitleIndex();
-      babele.applyTitleIndex?.();
-    }
-    console.log(`${MODULE_ID} | labels/titles 已刷新`);
+    await refreshTranslations(babele);
+    console.log(`${MODULE_ID} | labels/titles 已刷新并触发 UI 重渲染`);
   } catch (e) {
     console.warn(`${MODULE_ID} | 补注册后刷新失败`, e);
   }
