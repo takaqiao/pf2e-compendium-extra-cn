@@ -4,17 +4,17 @@
 
 - 工作区：`C:\Users\Taka\Desktop\fvtt\`（翻译文件编辑处）
 - 发布区：`C:\Users\Taka\Desktop\fvttpublish\pf2e-compendium-extra\`（GitHub 仓库）
-- 翻译文件位置：`compendium/cn/` 目录下
+- 翻译文件位置：`compendium/` 目录下（参照 pf2e_compendium_chn 的发布结构，原 `compendium/cn/` 已扁平化）
 - GitHub 仓库：`takaqiao/pf2e-compendium-extra-cn`
 
 ## 每次更新标准流程
 
 ### 1. 复制更新的翻译文件
 
-将工作区的翻译 JSON 文件复制到发布区的 `compendium/cn/` 目录：
+将工作区的翻译 JSON 文件复制到发布区的 `compendium/` 目录：
 
 ```powershell
-Copy-Item "C:\Users\Taka\Desktop\fvtt\<文件名>.json" "C:\Users\Taka\Desktop\fvttpublish\pf2e-compendium-extra\compendium\cn\" -Force
+Copy-Item "C:\Users\Taka\Desktop\fvtt\<文件名>.json" "C:\Users\Taka\Desktop\fvttpublish\pf2e-compendium-extra\compendium\" -Force
 ```
 
 ### 2. 更新 module.json（三处必改）
