@@ -30,7 +30,8 @@
         ]
     },
     "esmodules": [
-        "babele.js"
+        "babele.js",
+        "inject-homebrew.js"
     ],
     "url": "https://github.com/takaqiao/pf2e-compendium-extra-cn",
     "manifest": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/module.json",
