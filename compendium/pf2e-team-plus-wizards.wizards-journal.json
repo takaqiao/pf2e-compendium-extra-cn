@@ -11,7 +11,7 @@
                 },
                 "Deliberations": {
                     "name": "深思 Deliberations",
-                    "text": "<p>要获得深思，将 @UUID[Compendium.pf2e-team-plus-wizards.wizards-player-options.HUHhazPaEmAYROsR]{深思} 特性添加到你的角色卡。</p><hr /><p>深思如下：</p><ul><li><p>@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.JlNvN1QNCommMV6L]{通灵学}</p></li><li><p>@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.9xHPr3UBVRXTYQYj]{密符学}</p></li><li><p>@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.AQeYmDu5dTDbDuX8]{动力学}</p></li><li><p>@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.nU1yI8Z4H9eP34Fb]{盗术学}</p></li><li><p>@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.1ml5lTQ9hvDXwLi3]{死灵学派}</p></li></ul>"
+                    "text": "<p>要获得深思，将 @UUID[Compendium.pf2e-team-plus-wizards.wizards-player-options.HUHhazPaEmAYROsR]{深思} 特性添加到你的角色卡。</p><hr /><p>深思如下：</p><ul><li><p>@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.JlNvN1QNCommMV6L]{通灵学派}</p></li><li><p>@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.9xHPr3UBVRXTYQYj]{密符学派}</p></li><li><p>@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.AQeYmDu5dTDbDuX8]{动力学派}</p></li><li><p>@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.nU1yI8Z4H9eP34Fb]{盗术学派}</p></li><li><p>@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.1ml5lTQ9hvDXwLi3]{死灵学派}</p></li></ul>"
                 },
                 "New Class Feats": {
                     "name": "新职业专长 New Class Feats",

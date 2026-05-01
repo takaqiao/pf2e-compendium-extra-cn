@@ -40,7 +40,7 @@
         },
         "Vital Pululation": {
             "name": "生机爆发 Vital Pululation",
-            "description": "<p><strong>需求</strong> 你的咒缚值为2或更高，且你处于遭遇战中。</p><hr /><p>你的生命力自身向外爆发。你施放3动作@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{治疗术}，阶级等于你能不消耗法术槽施放的第二高阶法术。你被排除在此治疗效果之外。</p>",
+            "description": "<p><strong>需求</strong> 你的咒缚值为2或更高，且你处于遭遇战中。</p><hr /><p>你的生命力自身向外爆发。你施放3动作@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{治疗术}，阶级等于你能不消耗法术位施放的第二高阶法术。你被排除在此治疗效果之外。</p>",
             "prerequisites": [
                 {
                     "value": "生命秘奥"
@@ -83,7 +83,7 @@
         },
         "Dream Come True": {
             "name": "美梦成真 Dream Come True",
-            "description": "<p>You dive into the mind of a creature, making it appear as if one of its fantasies has come true, or perhaps one of its nightmares. Choose either fantasy or nightmare when you Cast the Spell and the target must attempt a Will save as you create figments from one of its dreams.</p><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} until the end of your next turn. If you chose a fantasy, the target is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞} for as long as it is off-guard. If you chose a nightmare, the target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧} in addition to being off-guard and it cannot reduce its frightened condition below 1 while off-guard from this effect. The target can attempt to disbelieve the effect with a single action with the concentrate trait.</p><p><strong>Failure</strong> As success, except the duration of the off-guard condition is 1 minute.</p><p><strong>Critical Failure</strong> As failure, except the frightened and stupefied values increase to 2. If you chose fantasy, the target is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂} by the effect and the fascinated condition does not end until the target disbelieves the illusion. If you chose nightmare, the target is also @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑} for as long as it is frightened.</p>"
+            "description": "<p>你潜入一名生物的心智之中，使其感觉自己的某个幻想（或某个梦魇）已成真。当你施放此法术时选择幻想或梦魇，目标须尝试一次意志豁免，因为你正以其梦境之一塑造幻象。</p><p><strong>大成功</strong> 目标不受影响。</p><p><strong>成功</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，至你下一回合结束。若你选择幻想，目标在措手不及期间另 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1级}。若你选择梦魇，目标除措手不及外另 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2级}，且其在因此效果而处于措手不及期间，惊惧不能降低至 1 级以下。目标可花费一个具专注特征的单一动作以尝试识破此效果。</p><p><strong>失败</strong> 同成功，但措手不及之持续时间为 1 分钟。</p><p><strong>大失败</strong> 同失败，但惊惧与呆滞值提升至 2 级。若你选择幻想，目标因此效果 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}，且迷魂状态直至目标识破幻象方可结束。若你选择梦魇，目标在惊惧期间另 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}。</p>"
         },
         "Halt Steps": {
             "name": "止步 Halt Steps",
@@ -135,7 +135,7 @@
         },
         "Enlightening Spell": {
             "name": "启明法术 Enlightening Spell",
-            "description": "<p>你能在施法过程中启明生物。如你下次动作为以你的先知法术槽施放针对盟友的法术，则盟友在接受法术效果后可作为免费动作进行回忆知识。如你咒缚，他们的检定获得环境加值，等于你的咒缚值。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.BgVgR3Jnc7zUNeVX]{效果：启慧法术}</p>"
+            "description": "<p>你能在施法过程中启明生物。如你下次动作为以你的先知法术位施放针对盟友的法术，则盟友在接受法术效果后可作为免费动作进行回忆知识。如你咒缚，他们的检定获得环境加值，等于你的咒缚值。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.BgVgR3Jnc7zUNeVX]{效果：启慧法术}</p>"
         },
         "Fall Upwards": {
             "name": "向上坠落 Fall Upwards",
@@ -173,14 +173,14 @@
         },
         "The Mystery Grows": {
             "name": "秘奥渐长 The Mystery Grows",
-            "description": "<p>Your curio’s power is growing rapidly, reawakening ancient powers or becoming a conduit of power to your allies. You gain the following action.</p><h2>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.A7RfY8hjBQ4qYReT]{秘奥渐长}</h2><p>@Embed[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.A7RfY8hjBQ4qYReT inline]</p>"
+            "description": "<p>你的奇物之力正迅速增长，唤醒古老的力量，或成为通往你盟友的力量管道。你获得以下动作。</p><h2>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.A7RfY8hjBQ4qYReT]{秘奥渐长}</h2><p>@Embed[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.A7RfY8hjBQ4qYReT inline]</p>"
         },
         "All-Seer": {
             "name": "全见者 All-Seer",
             "description": "<p>你具有远超自身之幻象。你将@UUID[Compendium.pf2e.spells-srd.Item.zvKWclOZ7A53DObE]{鹰眼术}作为神圣法术习得并加入你的先知法术汇总，且对你为标志法术。当你施放天眼通时，它获得以下提升效果：</p><p><strong>提升（+1）</strong> 距离增加250尺。</p>",
             "prerequisites": [
                 {
-                    "value": "能够从法术槽施法"
+                    "value": "能够从法术位施法"
                 }
             ]
         },
@@ -312,11 +312,11 @@
         },
         "Terrible Size": {
             "name": "可怖之巨 Terrible Size",
-            "description": "<p>Your inner beast transforms your physique. You grow to size Large and your equipment grows with you, but returns to natural size if removed. You become clumsy 1 and your reach increases by 5 feet (or by 10 feet if you were Tiny). You gain a +10-foot status bonus to all your Speeds. This does not end morph effects that do not affect your size, such as body of the beast.</p><hr /><p><strong>Heightened (5th)</strong> You can choose to instead grow to size Huge. The status bonus to Speeds increases to a +20-foot status bonus, and your reach increases by 10 feet (or 15 feet if you were Tiny).</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.9mDckQWMjaJjxL79]{效果：恐怖体型}</p>"
+            "description": "<p>你内里的野兽改造你的体格。你增大至大型体型，你的装备随之增大，但若被取下则恢复正常体型。你 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1级}，且你的触及范围增加 5 尺（若你原为微型则增加 10 尺）。你对所有速度获得 +10 尺状态加值。此效果不会终止那些不影响你体型的形变效果，例如「野兽之躯」。</p><hr /><p><strong>高阶 (5 阶)</strong> 你可改为增大至超大型体型。速度的状态加值增加至 +20 尺，触及范围增加 10 尺（若你原为微型则增加 15 尺）。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.9mDckQWMjaJjxL79]{效果：恐怖体型}</p>"
         },
         "Enlightened Reliquarian": {
             "name": "启明圣物守护者 Enlightened Reliquarian",
-            "description": "<p>When magic is too great to sustain with the body, it is imbued into an object. With time, the power within these items grows, and they become artifacts. While some artifacts are lost over the millenia, and others are sealed away, some are found again. And sometimes, one becomes the focus of an oracle’s mystery.</p><p>Whether guided to the relic by fate or by creating a miraculous tool themselves, Enlightened Reliquarians channel the power of the divine through a strange curio. These curios are sacred artifacts and relics, and are generally associated with the mystery of the oracle. For example, a battle mystery oracle with a weapon curio may be wielding a sword once used by Iomedae herself. Meanwhile, a flame oracle’s utensil might be a bottle of lit oil carrying an ancient ritual fire, kept alight for centuries.</p><h2>Curse of the Reliquarian <span style=\"float:right\">1st</span></h2><p>As the oracle shares its mystery with the relic, there is simultaneously more and less strain from their powers placed on them. With less raw divine magic flowing through them, the oracle is less ravaged by their curse. Without the clouding haze of magic a traditional oracle suffers through, an enlightened reliquarian can truly see and understand their mystery. You must select @UUID[Compendium.pf2e-team-plus-oracles-remastered.items.Item.1EUmjV0gH1eYFizZ]{启明圣物守护者献身} as your 2nd-level class feat.</p><p><strong>Prerequisites</strong> You must be an oracle.</p><p><strong>Class Feature Adustments:</strong></p><ul style=\"list-style-type:none\"><li><p>You don't gain the @UUID[Compendium.pf2e.classfeatures.Item.iwAzV1IlQ2pMHQoB]{神术许可} class feature.</p></li><li><p>You don't gain the @UUID[Compendium.pf2e.classfeatures.Item.571c1aGnvNVwfF6b]{先知启明} class feature.</p></li><li><p>You gain the @UUID[Compendium.pf2e.classfeatures.Item.eTQZQGPMIZJHIR6J]{先知感知} class feature at 1st level instead of 11th level.</p></li><li><p>You also gain the following class features and adjustments:</p></li></ul><p><strong>Spellcasting Adjustment:</strong> Your spellcasting capabilities are more restricted. At 1st level, you can cast one 1st-rank spell and five cantrips. As you increase in level, your number of spell slots and the highest rank of spells you can cast from spell slots increases, shown in Enlightened Reliquarian Spells per Day. Because the power of your mystery is mostly contained within your sibylline artifact, you have no more than two spell slots of your highest rank and, if you can cast 2nd-rank spells or higher, two spell slots of 1 rank lower than your highest spell rank. For anything that requires the ability to cast spells of a certain rank that's lower than the highest slots you have, you still qualify even if you no longer have spell slots at those ranks.</p><table class=\"pf2e\"><thead><tr><th>Your Level</th><th>Cantrips</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th><th>10th</th></tr></thead><tbody><tr><td>1</td><td>5</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>2</td><td>5</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>3</td><td>5</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>4</td><td>5</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>5</td><td>5</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>6</td><td>5</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>7</td><td>5</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>8</td><td>5</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>9</td><td>5</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>10</td><td>5</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>11</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>12</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>13</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td></tr><tr><td>14</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td></tr><tr><td>15</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td></tr><tr><td>16</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td></tr><tr><td>17</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td></tr><tr><td>18</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td></tr><tr><td>19</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td></tr><tr><td>20</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td></tr></tbody></table><p><strong>Spellcasting Repertoire Adjustment:</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank spells of your choice and five cantrips of your choice. You choose these from the common spells from the divine tradition, or from other spells from that tradition to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell level. Your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, such as granted spells from your oracle mystery, it doesn't give you another spell slot, and vice versa.</p><p>You add to this spell repertoire as you increase in level. Each time you get a spell slot, you add a spell of the same level to your spell repertoire. At 2nd level, you select another 1st-rank spell. At 3rd level, you add the first 2nd-rank spell to your repertoire. At 4th level you gain your second and your spell repertoire reaches its maximum size of five spells.</p><p>At 5th level, in addition to adding two 3rd-rank spells to your repertoire, you lose your lowest rank of spell slots. Any time you lose a rank of spell slots, you lose two spells in your repertoire as well. These can come from spells you already know or out of the number of new spells you're learning. On levels in which you don't change your spell slots, you can swap out multiple spells, as described below.</p><p><strong>Swapping Spells in Your Repertoire:</strong> As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. If it's a level at which you lose a set of lower-rank slots, you can replace the two in either order. You can also instead swap a cantrip. You can also swap out spells by retraining during downtime.</p><p>At 6th level and every even level thereafter, you can swap out any number of your spells for different spells of a level you can cast. When you do, you must keep at least one spell you can cast with your lowest level of spell slots so you don't end up with slots you can't use. For instance, at 6th level you would need to keep at least one 2nd-rank spell, but all your other spells could be 3rd rank.</p>",
+            "description": "<p>当魔法之伟力难以由肉身所承载时，便寄寓于物。随时间流转，这些物品中之力量日益增长，最终化为神器。诸般神器，有些湮灭于千年长河，有些则被封存，有些则又被重新发现。而有时，其中一者会成为先知秘奥的焦点。</p><p>无论是被命运引向圣物，还是亲手造就一具奇迹工具，启明圣物守护者通过一具奇异的奇物引导神性之力。这些奇物即是神圣的神器与圣物，通常与先知的秘奥相关联。例如，一名战斗秘奥的先知，其武器奇物可能正是一柄曾被尤莫黛本人挥舞过的剑；与此同时，一名烈焰秘奥之器皿，可能是装着延续数百年仪式之火的点燃油瓶。</p><h2>圣物守护者诅咒 <span style=\"float:right\">1 阶</span></h2><p>当先知与圣物分享其秘奥之时，二者所承之力压迫亦同时增减。流经先知的纯粹神圣魔力减少，先知便不再被诅咒如此摧残。无传统先知所承受的魔法蒙翳之雾，启明圣物守护者得以真正看清并理解其秘奥。你必须选择 @UUID[Compendium.pf2e-team-plus-oracles-remastered.items.Item.1EUmjV0gH1eYFizZ]{启明圣物守护者献身} 作为你的 2 级职业专长。</p><p><strong>先决条件</strong> 你必须为先知。</p><p><strong>职业特性调整：</strong></p><ul style=\"list-style-type:none\"><li><p>你不获得 @UUID[Compendium.pf2e.classfeatures.Item.iwAzV1IlQ2pMHQoB]{神术许可} 职业特性。</p></li><li><p>你不获得 @UUID[Compendium.pf2e.classfeatures.Item.571c1aGnvNVwfF6b]{先知启明} 职业特性。</p></li><li><p>你于 1 级而非 11 级获得 @UUID[Compendium.pf2e.classfeatures.Item.eTQZQGPMIZJHIR6J]{先知感知} 职业特性。</p></li><li><p>你另获得以下职业特性与调整：</p></li></ul><p><strong>施法调整：</strong>你的施法能力受到更多限制。在 1 级，你可施放一道 1 环法术与 5 道戏法。随等级提升，你的法术位数量与可施放的最高环级法术也会增加，详见「启明圣物守护者每日法术」。由于你的秘奥之力大多被收纳于你那如卡珊德拉般的神器内，你最高环级法术位最多只有 2 个；若你能施放 2 环或更高环级法术，则比你最高环级低 1 阶的法术位也最多只有 2 个。任何要求能施放某一较低环级法术之能力，即便你已无该环级之法术位，你仍视为符合该要求。</p><table class=\"pf2e\"><thead><tr><th>等级</th><th>戏法</th><th>1 环</th><th>2 环</th><th>3 环</th><th>4 环</th><th>5 环</th><th>6 环</th><th>7 环</th><th>8 环</th><th>9 环</th><th>10 环</th></tr></thead><tbody><tr><td>1</td><td>5</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>2</td><td>5</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>3</td><td>5</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>4</td><td>5</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>5</td><td>5</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>6</td><td>5</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>7</td><td>5</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>8</td><td>5</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>9</td><td>5</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>10</td><td>5</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>11</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>12</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>13</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td></tr><tr><td>14</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td></tr><tr><td>15</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td></tr><tr><td>16</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td></tr><tr><td>17</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td></tr><tr><td>18</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td></tr><tr><td>19</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td></tr><tr><td>20</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td></tr></tbody></table><p><strong>法术目录调整：</strong>你能施放的法术集合称作你的法术目录。在 1 级，你自选学习两道 1 环法术与五道戏法。这些法术可从神圣自然传统的常见法术中选取，或自你具有访问权的该传统的其他法术中选取。你可使用相应环级的法术位施放你法术目录中的任意法术。你的法术位与你法术目录中的法术彼此独立。若某项专长或其他能力将一道法术加入你的法术目录（例如先知秘奥所赐法术），它并不会授予你额外的法术位，反之亦然。</p><p>随等级提升，你向法术目录添加新法术。每当你获得一个法术位，便向法术目录添加一道相同环级的法术。在 2 级，你再选取一道 1 环法术。在 3 级，你向法术目录添加首个 2 环法术。在 4 级，你获得第二道 2 环法术，法术目录达到至多 5 道法术之上限。</p><p>在 5 级时，除将两道 3 环法术加入法术目录外，你还失去最低环级的法术位。每当你失去一个环级的法术位时，你也会失去法术目录中的两道法术。这两道法术可来自已知法术，亦可从新学法术之名额中扣除。在不变更法术位的等级，你可如下文所述置换多道法术。</p><p><strong>置换法术目录中之法术：</strong>当你为法术目录习得新法术时，你或许希望置换一些已学法术。每当你升等级并习得新法术时，你可将一道旧法术置换为相同环级的另一道法术。若该等级你失去一组较低环级法术位，则你可按任意顺序进行此两次置换。你也可改为置换一道戏法。你也可在闲暇期间通过再训练置换法术。</p><p>从 6 级起每偶数等级，你可将任意数量的法术置换为你能施放之环级的不同法术。当你这么做时，你必须保留至少一道可用最低环级法术位施放的法术，以免出现你无法使用的法术位。例如，在 6 级时你须至少保留一道 2 环法术，但你其他法术皆可为 3 环。</p>",
             "prerequisites": [
                 {
                     "value": "你必须是先知。"
@@ -325,7 +325,7 @@
         },
         "Contagious Festivities": {
             "name": "感染欢宴 Contagious Festivities",
-            "description": "<p>You know how to kick things off when it gets hectic, dancing around the battlefield, consuming to your hearts content, and getting others to partake in the festivities. You attempt to coax a creature within 10 feet of you into engaging in festivities by having the target attempt a @Check|will|against:spell] save. If you target an ally, they can choose to get a result of a failure on their save without rolling.</p><p><strong>Critical Success</strong> The creature rebukes your attempts to coax it and is temporarily immune to future attempts for 1 minute.</p><p><strong>Success</strong> The creature is slightly bemused by your attempts, it cannot take hostile action against you until the end of its next turn. If you take a hostile action against the creature, it becomes temporarily immune to this effect for 1 minute.</p><p><strong>Failure</strong> The creature indulges you. As success, the creature must also use one of its actions to [[/act perform]] or to consume food or drink or it becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心}. After it completes the action, it gains a status bonus to damage equal to twice your cursebound value until the end of your next turn. @UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.z6Hq3CfTIt2XoSx8]{效果：传染狂欢}</p><p><strong>Critical Failure</strong> The creature becomes lost in the moment. As failure, except the creature must use all of its actions to engage in the festivities and is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞} until the end of your next turn.</p>",
+            "description": "<p>当一切变得纷乱时，你深谙如何启动局面——你在战场上起舞，恣意享受，并令他人参与狂欢。你尝试劝诱 10 尺内一名生物加入欢宴，方法是让目标尝试一次 @Check[will|against:spell] 豁免。若你以盟友为目标，则其可选择不掷骰直接得到失败结果。</p><p><strong>大成功</strong> 该生物拒绝了你的劝诱，并在 1 分钟内对未来之尝试暂时免疫。</p><p><strong>成功</strong> 该生物因你的尝试而略感困惑，至其下一回合结束前，它无法对你采取敌对行动。若你对该生物采取敌对行动，则其在 1 分钟内对此效果暂时免疫。</p><p><strong>失败</strong> 该生物配合你。同成功，但该生物还须以其一项动作执行 [[/act perform]] 或饮食，否则它 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1级}。完成该动作后，至你下一回合结束前，它对伤害获得等同你咒缚值两倍的状态加值。@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.z6Hq3CfTIt2XoSx8]{效果：传染狂欢}</p><p><strong>大失败</strong> 该生物沉醉于此刻。同失败，但该生物必须以其所有动作参与狂欢，并 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1级}，至你下一回合结束。</p>",
             "prerequisites": [
                 {
                     "value": "狂欢秘奥"
@@ -334,7 +334,7 @@
         },
         "Overwhelming Festivities": {
             "name": "压倒性狂欢 Overwhelming Festivities",
-            "description": "<p>You exude festivity and resplendent indulgence, throttling emotions, causing them to overwhelm the mind. When an enemy in the emanation fails a save against an emotion effect or gains the frightened condition from an effect, it also takes 3d4 persistent mental damage.</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.m7RLoqSYkgvv8pyz]{灵气：席卷狂欢}</p><hr /><p><strong>Heightened (+2)</strong> The persistent damage increases by 1d4 and the radius of the emanation increases by 5 feet.</p>"
+            "description": "<p>你散发欢宴与华美沉溺之气，将情绪推向极致，令其压垮心智。每当弥漫光环内的敌人对某项情绪效果豁免失败，或因某效果获得惊惧状态时，它额外承受 3d4 持续心灵伤害。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.m7RLoqSYkgvv8pyz]{灵气：席卷狂欢}</p><hr /><p><strong>高阶 (+2)</strong> 持续伤害增加 1d4，且弥漫光环半径增加 5 尺。</p>"
         },
         "Sensory Roots": {
             "name": "感知根须 Sensory Roots",
@@ -372,7 +372,7 @@
         },
         "The Land Protects Us": {
             "name": "大地护佑 The Land Protects Us",
-            "description": "<p>Though you often serve as a protector of the land, the land can also serve to protect you. You create a wall of natural terrain that sprouts from the ground in a 15-foot radius around you that is 10 feet high and lasts for 1 minute. Creatures that attempt to pass through the barrier must attempt a @Check[reflex|against:spell] save, or they take @Damage[2d8[persistent,bleed]]{2d8 persistent bleed} damage. If you’re cursebound 2 when you use The Land Protects Us, the barrier is 20 feet high and the persistent bleed damage is @Damage[3d8[persistent,bleed]]{3d8}, and if you’re cursebound 3, it is instead 30 feet high and the persistent bleed damage increases to @Damage[4d8[persistent,bleed]]{4d8}.</p>",
+            "description": "<p>纵然你常作大地之守护者，大地亦会反过来护佑你。你于自身周围 15 尺半径内自地下生长出一道天然地形之墙，高 10 尺，持续 1 分钟。试图穿越此屏障的生物须尝试一次 @Check[reflex|against:spell] 豁免，否则承受 @Damage[2d8[persistent,bleed]]{2d8 持续流血} 伤害。当你使用「大地护佑」时若你处于咒缚 2 级，墙高增至 20 尺，持续流血伤害提升至 @Damage[3d8[persistent,bleed]]{3d8}；若你处于咒缚 3 级，则改为 30 尺高，持续流血伤害增加至 @Damage[4d8[persistent,bleed]]{4d8}。</p>",
             "prerequisites": [
                 {
                     "value": "森林秘奥，或山岳秘奥"
@@ -456,11 +456,11 @@
         },
         "Golden Touch": {
             "name": "点石成金 Golden Touch",
-            "description": "<p><strong>Domain</strong> wealth (apocryphal)</p><hr /><p>Your hand transmutes anything it touches to gold. The target must make a Fortitude save; If the target is an object held by a creature, the creature makes the Fortitude save.</p><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target transmutes partially into gold. The target gains a weakness 4 to bludgeoning and electricity damage. The target takes a –2 circumstance penalty to Stealth checks or applies this penalty to any creature holding it if it was an item.</p><p><strong>Failure</strong> The transmutation is more powerful. As success, but the weakness to bludgeoning and electricity is doubled. If the target is a creature, it is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢}. If the target is an object, it grants a –2 circumstance penalty to checks or DCs made with the object if it is not already made of gold.</p><p><strong>Critical Failure</strong> As failure, but the target becomes @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{石化} as if made of gold for the duration. If the target was an object, it is treated as having the @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{破损} condition if it is not already made of gold.</p><hr /><p><strong>Heightened (+1)</strong> The weakness to bludgeoning and electricity on success increases by 1.</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.TwARzUtpp7SCSpEX]{效果：点金之触}</p>"
+            "description": "<p><strong>领域</strong> 财富（伪经）</p><hr /><p>你的手将其触及之物嬗变为黄金。目标须进行强韧豁免；若目标是被生物持有的物品，则由该生物进行强韧豁免。</p><p><strong>大成功</strong> 目标不受影响。</p><p><strong>成功</strong> 目标部分嬗变为黄金。目标对钝击与电击伤害获得弱点 4。目标对潜行检定承受 –2 环境减值；若为物品，则将此减值施加于持用之生物。</p><p><strong>失败</strong> 嬗变更为强烈。同成功，但对钝击与电击的弱点加倍。若目标为生物，则其 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1级}。若目标为物品，则在该物品并非由黄金构成的情况下，赋予使用该物品所进行的检定或 DC 一项 –2 环境减值。</p><p><strong>大失败</strong> 同失败，但目标在持续期间内 @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{石化}（如同由黄金所造）。若目标为物品，且该物品并非由黄金构成，则视其为具有 @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{破损} 状态。</p><hr /><p><strong>高阶 (+1)</strong> 成功时对钝击与电击的弱点增加 1。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.TwARzUtpp7SCSpEX]{效果：点金之触}</p>"
         },
         "Fantasms of Fire": {
             "name": "火焰幻影 Fantasms of Fire",
-            "description": "<p>Smoke and flickering visions of flame fill your senses, and harmless flickers of obscuring flames also fill your space. You create smoke in a @Template[emanation|distance:15] that provides concealment that lasts for 1 minute or until dispersed by a strong wind. You ignore concealment inside the smoke, but treat all creatures outside the smoke as concealed to you, as mysterious fantasms flash within the flames. Creatures inside the smoke cannot see outside the smoke even if they have smoke vision or a similar ability that would allow them to ignore the effects of concealment from smoke. Creatures that need to breath that end their turn in the area take @Damage[(@actor.conditions.cursebound.value)[fire]]{fire damage equal to your cursebound value}. If your cursebound value is 2 when you use Fantasms of Fire, the emanation is a @Template[emanation|distance:20], and if your cursebound value is 3 when you use Fantasms of Fire, the emanation is a @Template[emanation|distance:30].</p>",
+            "description": "<p>烟与摇曳之火焰幻象充塞你的感官，无害的闪烁火焰也充满你所在空间。你于 @Template[emanation|distance:15] 内创造提供遮蔽的烟雾，持续 1 分钟或被强风驱散为止。你忽视烟雾内之遮蔽，但将烟雾外的所有生物视作对你遮蔽，因为神秘的幻影在火焰中闪现。烟雾内之生物即便具备烟雾视觉或类似可忽视烟雾遮蔽效果之能力，亦无法看见烟雾外。需要呼吸的生物在该区域内结束回合时承受 @Damage[(@actor.conditions.cursebound.value)[fire]]{等同于你咒缚值的火焰伤害}。当你使用「火焰幻影」时若你咒缚值为 2，则弥漫光环改为 @Template[emanation|distance:20]；若咒缚值为 3，则改为 @Template[emanation|distance:30]。</p>",
             "prerequisites": [
                 {
                     "value": "火焰秘奥"
@@ -469,7 +469,7 @@
         },
         "Ice Guardian": {
             "name": "冰之守卫 Ice Guardian",
-            "description": "<p>You create a guardian made of ice to defend you. An ice sculpture of Large size appears adjacent to you and attempts to defend you and your allies. You and your allies gain lesser cover while you are adjacent to the guardian, and you can Sustain the spell to increase the cover it grants to standard cover until the beginning of your next turn or to move the guardian to another area by having it Stride with its land Speed of 25 feet. The guardian can be destroyed and has [[/r 30+(@item.level -3)*10]] Hit Points, an AC of [[/r 22+(@item.level -3)*3]], [[/r 3+(@item.level -3)*3]] weakness to bludgeoning damage, and immunity to cold.</p><hr /><p><strong>Heightened (+1)</strong> The guardian’s AC and weakness increases by 3, and its Hit Points increase by 10.</p>"
+            "description": "<p>你创造一具由冰构成的守卫以保护自己。一座大型体型的冰雕出现于你身侧，并尝试守护你与你的盟友。当你紧邻该守卫时，你与你的盟友获得轻度掩蔽；你可维持该法术，至你下回合开始前将其授予的掩蔽提升至标准掩蔽，或令该守卫以其 25 尺陆地速度 行走 至另一区域。该守卫可被摧毁，具有 [[/r 30+(@item.level -3)*10]] 生命值，AC 为 [[/r 22+(@item.level -3)*3]]，对钝击伤害的弱点为 [[/r 3+(@item.level -3)*3]]，并对冷冻免疫。</p><hr /><p><strong>高阶 (+1)</strong> 守卫的 AC 与弱点提升 3，其生命值增加 10。</p>"
         },
         "Curse of the Ancient Summit": {
             "name": "古老山峰之咒 Curse of the Ancient Summit",
@@ -477,7 +477,7 @@
         },
         "Fractal Frosting": {
             "name": "分形霜冻 Fractal Frosting",
-            "description": "<p>The frost lives on the fringe of your fingertips, splitting into tiny fractures of freezing rays. You cast @UUID[Compendium.pf2e.spells-srd.Item.IxhGEKl63R4QBvkj]{冻伤} as part of casting fractal frosting. For the duration of fractal frosting, you can cast frostbite with a range of 60 feet, targeting up to three different targets within range. You create difficult terrain in a @Template[emanation|distance:5] in the area around each of the targets that lasts for 1 round.</p><hr /><p><strong>Heightened (9th)</strong> For the duration, when you cast frostbite, the target takes a –5-foot status penalty to its Speed for 1 round on a failure or a –15-foot status penalty to its Speed on a critical failure.</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.OPBNdJPRJgcGVqp1]{效果：分形结霜}</p>"
+            "description": "<p>霜寒栖于你指尖边缘，分裂为冰冻光线的微小裂痕。施放「分形霜冻」时，作为施放的一部分，你同时施放 @UUID[Compendium.pf2e.spells-srd.Item.IxhGEKl63R4QBvkj]{冻伤}。在「分形霜冻」持续期间，你可以以 60 尺射程施放冻伤，对范围内至多三个不同目标。你于每个目标周围的区域 @Template[emanation|distance:5] 内创造困难地形，持续 1 轮。</p><hr /><p><strong>高阶 (9 阶)</strong> 在持续期间，当你施放冻伤时，目标在豁免失败时其速度承受 –5 尺状态减值 1 轮，大失败时改为 –15 尺状态减值。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.OPBNdJPRJgcGVqp1]{效果：分形结霜}</p>"
         },
         "Curse of Inevitable Rot (Team+)": {
             "name": "必至腐朽之咒（Team+） Curse of Inevitable Rot (Team+)",
@@ -485,11 +485,11 @@
         },
         "Juggernaut of Jagged Stone": {
             "name": "尖石巨像 Juggernaut of Jagged Stone",
-            "description": "<p>You call upon the mountain within, and you become its avatar. Rock formations form on your skin, giving you the appearance of a living mountain. You gain resistance 6 to physical damage, except adamantine. You're immune to death effects, disease, drained, fatigued, healing, nonlethal attacks, paralyzed, poison, sickened, vitality, and void; any of those conditions you had when the spell is cast are suspended until the spell ends, then return with their remaining duration when the spell ends.</p><p>Your fist Strikes have a 1d10 damage die, lose the finesse and agile traits, and gain the shove trait, and you become Large in size and are clumsy 1.</p><p>In this form, you don't need to breathe. Your Bulk is 24, and you become too dense to Swim in water, automatically sinking to the bottom. You can Dismiss the spell.</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.MzalS4gzqOn5NTr8]{效果：岩棱巨魁}</p><hr /><p><strong>Heightened (+1)</strong> The physical resistance increases by 1.</p>"
+            "description": "<p>你召唤内里之山岳，化身为其化身。岩石构造在你皮肤上形成，使你状如一座活山。你对物理伤害（精金除外）获得抗力 6。你免疫死亡效果、疾病、流失、疲乏、治疗、非致命攻击、麻痹、毒素、恶心、生命力与虚空；任一你于法术施放时已具备的状态被中止，至法术结束时以剩余持续时间恢复。</p><p>你的拳脚打击伤害骰为 1d10，失去灵巧与娴熟特征，并获得推撞特征；你成为大型体型且笨拙 1。</p><p>在此形态下，你无需呼吸。你的体积为 24，且变得过于致密以致无法在水中游泳——会自动沉至水底。你可驱散此法术。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.MzalS4gzqOn5NTr8]{效果：岩棱巨魁}</p><hr /><p><strong>高阶 (+1)</strong> 物理抗力增加 1。</p>"
         },
         "Trepidation Spell": {
             "name": "惶恐法术 Trepidation Spell",
-            "description": "<p>When exerting your will over the mind of a creature, you send them harrowing visions of the future. If your next action is to Cast a Spell that is at least 2 ranks below your maximum rank and requires a Will save, the creature is also @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧} on a failure or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧} on a critical failure. If the creature is immune to emotion, fear, or mental effects, it is immune to this frightened condition.</p>"
+            "description": "<p>当你对生物之心智施加意志时，你向其传递骇人的未来景象。若你的下一动作是施放一道至少低于你最高环级 2 环、且需要意志豁免的法术，目标生物在豁免失败时另获得 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1级}，大失败时改为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2级}。若该生物免疫情绪、恐惧或心灵效果，则它对此惊惧状态免疫。</p>"
         },
         "Vision of the Perfect Creation": {
             "name": "完美造物之幻象 Vision of the Perfect Creation",
@@ -501,7 +501,7 @@
         },
         "Ray of Light": {
             "name": "光线 Ray of Light",
-            "description": "<p>You shoot a beam of light from your hands, dispelling darkness and blinding enemies. All creatures in the area must make a basic Fortitude save or take 1d6 fire damage. Creatures with the shadow trait or with light blindness take a –2 status penalty to their save. Creatures that fail their save are also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩} for 1 round, or @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} for 1 round and then dazzled for 1 minute if it was a critical failure. The spell leaves an ambient light in each square of the area which sheds like a torch for 1 minute.</p><hr /><p><strong>Heightened (+1)</strong> Increase the fire damage by 1d6 and the distance of the line by 5 feet.</p>"
+            "description": "<p>你自双手射出一道光束，驱散黑暗并致盲敌人。区域内所有生物须进行一次基础强韧豁免，否则承受 1d6 火焰伤害。具暗影特征或具光照失明的生物对此豁免承受 –2 状态减值。豁免失败的生物另 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩} 1 轮；若为大失败，则改为 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} 1 轮，随后目眩 1 分钟。该法术于区域每一格留下持续 1 分钟、犹如火炬般明亮的环境光。</p><hr /><p><strong>高阶 (+1)</strong> 火焰伤害增加 1d6，线形距离增加 5 尺。</p>"
         },
         "Curse of Gelid Presence": {
             "name": "冰封临在之咒 Curse of Gelid Presence",
@@ -517,7 +517,7 @@
         },
         "Creature's Howl": {
             "name": "野兽之嗥 Creature's Howl",
-            "description": "<p>You unleash an awful roar at your opponents, enough to chill them to the bones. All enemies in the area that can hear your howl must attempt a Will save. Regardless of their result, they become temporarily immune for 1 minute.</p><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}.</p><p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧} and @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑} for 1 round.</p><hr /><p><strong>Heightened (9th)</strong> The area increases to a 60-foot emanation.</p>"
+            "description": "<p>你向敌人发出可怕的咆哮，足以令其骨髓为之冻僵。区域内所有能听见你嗥叫的敌人须尝试一次意志豁免。无论结果如何，它们在 1 分钟内对此暂时免疫。</p><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1级}。</p><p><strong>失败</strong> 该生物 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2级}。</p><p><strong>大失败</strong> 该生物 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧3级} 且 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑} 1 轮。</p><hr /><p><strong>高阶 (9 阶)</strong> 区域增加至 60 尺弥漫光环。</p>"
         },
         "The Hour of Rallying": {
             "name": "聚集之时 The Hour of Rallying",
@@ -721,11 +721,11 @@
         },
         "Enchanting Rhapsody": {
             "name": "魅惑狂想曲 Enchanting Rhapsody",
-            "description": "<p>You use your music to influence your foes to do as you wish. Enemy creatures in the initial area or that end their turn in the area must make a Will save.</p><p><strong>Critical Success</strong> The target is unaffected and is temporarily immune for 1 minute.</p><p><strong>Success</strong> The target takes a –1 status penalty to their saves against mental effects until they leave the area and for 1 round after. @UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.xw2Z41yDSg7JW4hb]{效果：魅惑狂想曲}</p><p><strong>Failure</strong> As success, except the target is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂} until they leave the area and for 1 round after and the status penalty increases to –2.</p><p><strong>Critical Failure</strong> As failure, but the target must spend the first action on each of its turns to [[/act perform variant=dance]] by dancing to the music for as long as it is fascinated.</p>"
+            "description": "<p>你以音乐影响敌人，让其依你心意行事。位于初始区域内或于该区域内结束回合的敌人须进行一次意志豁免。</p><p><strong>大成功</strong> 目标不受影响，并在 1 分钟内暂时免疫。</p><p><strong>成功</strong> 目标对心灵效果之豁免承受 –1 状态减值，直至其离开该区域并继续 1 轮。@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.xw2Z41yDSg7JW4hb]{效果：魅惑狂想曲}</p><p><strong>失败</strong> 同成功，但目标在离开该区域之前及离开后 1 轮内 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}，且状态减值提升至 –2。</p><p><strong>大失败</strong> 同失败，但目标须于其每个回合的第一动作执行 [[/act perform variant=dance]] 随音乐起舞，持续到不再迷魂为止。</p>"
         },
         "Escape Time's Shackles": {
             "name": "逃离时之桎梏 Escape Time's Shackles",
-            "description": "<p>You speed up your personal time bubble, allowing time to pass over you more quickly. Your body moves forward in time, causing 1 minute of time to effectively pass over for you. Any effects or conditions with a duration are immediately reduced by 1 minute. Roll saving throws, flat checks, damage, and any other rolls for those effects normally as if the time had passed. If your cursebound value is 2, you cause 1 hour of time to pass, and if your cursebound value is 3 you cause 1 day of time to pass. Escape Time's Shackles does not remove the cursebound condition or allow you to rest or make your daily preparations again.</p>",
+            "description": "<p>你加速自身的时间气泡，使时间于你身上更快流逝。你的躯体向时间前方推进，使 1 分钟时间于你身上有效流逝。任何带有持续时间的效果或状态立即缩短 1 分钟。如同时间已经流逝那般，正常掷出豁免、平稳检定、伤害以及那些效果的任何其他掷骰。若你的咒缚值为 2，则使 1 小时时间流逝；若你的咒缚值为 3，则使 1 天时间流逝。「逃离时之桎梏」不会移除咒缚状态，亦不允许你再次休息或进行每日准备。</p>",
             "prerequisites": [
                 {
                     "value": "时间秘奥"
@@ -738,11 +738,11 @@
         },
         "Unknowable Icon": {
             "name": "不可知图腾 Unknowable Icon",
-            "description": "<p><strong>Domain</strong> glyph (apocryphal)</p><hr /><p>You transcribe ancient and forgotten knowledge into a single rune that overwhelms and shatters the mind. You place a rune on a 5-foot square of a flat surface within your reach which remains dormant until a living creature other than you comes within 10 feet of it. After a creature comes within 10 feet, the rune becomes active after 1 round has passed and all creatures in a 10-foot emanation of the rune must attempt a basic Will Save or take 1d12 mental and 1d4 spirit damage. On a critical failure, the creature is also @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d12 mental and 1d4 spirit.</p>"
+            "description": "<p><strong>领域</strong> 符印（伪经）</p><hr /><p>你将远古而被遗忘的知识抄录于一道符文之中，能压垮并粉碎心智。你将一道符文置于你触及范围内一处 5 尺方格的平面上，此符文保持休眠，直到你以外的一名活物进入其 10 尺范围内。生物进入 10 尺范围 1 轮后，符文激活，符文 10 尺弥漫光环内的所有生物须尝试一次基础意志豁免，否则承受 1d12 心灵伤害与 1d4 灵魂伤害。大失败时，该生物另获得 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2级}。</p><hr /><p><strong>高阶 (+1)</strong> 伤害增加 1d12 心灵与 1d4 灵魂。</p>"
         },
         "Feel My Pain": {
             "name": "感我之痛 Feel My Pain",
-            "description": "<p><strong>Trigger</strong> You take persistent damage.</p><hr /><p>You share your pain when it is dealt to you. Choose a creature within 30 feet of you. The creature must attempt a @Check[will|against:spell] save against your spell DC, taking the same persistent damage you take if it fails its save.</p>",
+            "description": "<p><strong>触发</strong> 你受到持续伤害。</p><hr /><p>当痛苦施加于你时，你将之分予他人。选择 30 尺内一名生物。该生物须以你的法术 DC 尝试一次 @Check[will|against:spell] 豁免，若失败则承受与你相同的持续伤害。</p>",
             "prerequisites": [
                 {
                     "value": "幽暗秘奥，或寒冰秘奥"
@@ -751,7 +751,7 @@
         },
         "Well of Joy": {
             "name": "欢欣之井 Well of Joy",
-            "description": "<p>You fill an ally with hope for the future, granting them a renewed sense of vigor and joy. Choose a creature within 30 feet. The chosen creature gains 4 temporary Hit Points for 1 minute. If you’re cursebound 1 when you use Well of Joy, the creature gains 8 temporary Hit Points, if you’re cursebound 2 they gain 16 temporary Hit Points, and if you’re cursebound 3 they gain 24 temporary Hit Points. In addition, they are immune to fear effects while they have temporary Hit Points. If the creature has the @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧} condition it is suspended until the they no longer have temporary Hit Points, which returns with the same value as when it was suspended.</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.2G2KHpPCP3VZggC9]{效果：欢乐之井}</p>"
+            "description": "<p>你以对未来的希望充盈一名盟友，赐予他们焕然一新的活力与欢愉。选择 30 尺内一名生物。所选生物在 1 分钟内获得 4 点临时生命值。当你使用「欢欣之井」时若你处于咒缚 1 级，该生物获得 8 点临时生命值；若处于咒缚 2 级，则为 16 点临时生命值；若处于咒缚 3 级，则为 24 点临时生命值。此外，在拥有临时生命值期间，他们对恐惧效果免疫。若该生物处于 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧} 状态，则该状态被中止，直至其不再拥有临时生命值；中止结束后，惊惧以中止时的相同等级恢复。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.2G2KHpPCP3VZggC9]{效果：欢乐之井}</p>"
         },
         "Curse of the Everpresent Sonata": {
             "name": "永驻奏鸣之咒 Curse of the Everpresent Sonata",
@@ -763,7 +763,7 @@
         },
         "Foreseen Retaliation": {
             "name": "预见反击 Foreseen Retaliation",
-            "description": "<p>Your foresight not only protects your ally, but allows them to retaliate in kind. When you use Reveal the Mystery while benefiting from The Mystery Grows, you grant your ally the same status bonus to damage to its Strikes against the target of your Curio’s Foresight.</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.z1p6jvxvqmks2kU9]{效果：先知反击}</p>",
+            "description": "<p>你的预见之力不仅护佑你的盟友，还能让其以同样方式反击。当你在「秘奥渐长」的益处下使用「揭示秘奥」时，你赐予盟友相同的状态加值至其对你「奇物预见」目标进行的打击之伤害。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.z1p6jvxvqmks2kU9]{效果：先知反击}</p>",
             "prerequisites": [
                 {
                     "value": "秘奥渐长"
@@ -788,7 +788,7 @@
         },
         "Purge Sickness": {
             "name": "净化病恙 Purge Sickness",
-            "description": "<p><strong>Requirements</strong> You have the sickened condition.</p><hr /><p>Your body is so accustomed to being ravaged by your curse that other such consequences are easily dismissed. You retch to reduce your sickened condition, gaining your cursebound value as a status bonus to your check to remove the condition. If you’re cursebound 2 when you use Purge Sickness, you treat your degree of success as one step better.</p>",
+            "description": "<p><strong>需求</strong> 你处于恶心状态。</p><hr /><p>你的肉身已习惯被诅咒摧残，故其他此类后果可轻易摆脱。你呕吐以降低恶心状态，并获得等同你咒缚值的状态加值至你解除此状态的检定。若你使用「净化病恙」时处于咒缚 2 级，则你的成功程度提高一级。</p>",
             "prerequisites": [
                 {
                     "value": "野兽秘奥，或腐疫秘奥"
@@ -797,7 +797,7 @@
         },
         "Tectonic Fracture": {
             "name": "构造断裂 Tectonic Fracture",
-            "description": "<p>With a long stare, you see where the world is weakest and shatter it. You stomp on the ground creating difficult terrain in a @Template[cone|distance:15] and creatures in the area must attempt a @Check[reflex|against:spell] save. If you are cursebound 2 when you use Tectonic Fracture, the area is a @Template[cone|distance:30] and if you are cursebound 3, it is instead a @Template[cone|distance:45].</p><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} until the beginning of your next turn.</p><p><strong>Critical Failure</strong> The creature is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}.</p>",
+            "description": "<p>你以悠长凝视见出世界最脆弱之处并使之崩裂。你重踏地面，于 @Template[cone|distance:15] 内造成困难地形，区域内生物须尝试一次 @Check[reflex|against:spell] 豁免。当你使用「构造断裂」时若你处于咒缚 2 级，则区域改为 @Template[cone|distance:30]；若处于咒缚 3 级，则改为 @Template[cone|distance:45]。</p><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 该生物 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，至你下一回合开始为止。</p><p><strong>大失败</strong> 该生物被击 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>",
             "prerequisites": [
                 {
                     "value": "山岳秘奥"
@@ -806,7 +806,7 @@
         },
         "Atavistic Landslide": {
             "name": "返祖崩塌 Atavistic Landslide",
-            "description": "<p>All things crumble with time, even ancient mountains, and you shall endure even this. At the end of each turn for 1 minute, you create a landslide of rubble and boulders that travels in a @Template[line|distance:35], except the line passes through you at the center point with an equal line on each side of you. The landslide deals @Damage[1d10[bludgeoning]|basic] damage to all creatures in the area with a @Check[reflex|basic|agaist:spell] save and creatures that critically fail their save are also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}. You can't Dismiss this landslide, but you can suppress the effect for 1 round with a Sustain action. The landslide is suppressed if you fall unconscious. If you become cursebound 3 or 4 at any point during Atavistic Landslide's duration, the line increases to a @Template[line|distance:55] and the damage increases to @Damage[2d10[bludgeoning]|basic].</p>",
+            "description": "<p>万物终随时间而崩塌，纵是亘古之山岳，但你却能扛过。在 1 分钟内每回合结束时，你创造一阵由碎石与巨砾构成的塌方，于 @Template[line|distance:35] 内移动；不过，该线形以你为中点穿过，两侧各有相等长度的线形。该塌方对区域内所有生物以 @Check[reflex|basic|agaist:spell] 豁免造成 @Damage[1d10[bludgeoning]|basic] 伤害；豁免大失败的生物另被击 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。你不能驱散此塌方，但可以维持动作于 1 轮内压制此效果。若你失去意识，则塌方被压制。若在「返祖崩塌」持续期间内你的咒缚值变为 3 或 4，线形增大至 @Template[line|distance:55]，伤害提升至 @Damage[2d10[bludgeoning]|basic]。</p>",
             "prerequisites": [
                 {
                     "value": "山岳秘奥"
@@ -815,11 +815,11 @@
         },
         "Glimpse Future": {
             "name": "瞥见未来 Glimpse Future",
-            "description": "<p>Though your eyes can't let you see everything that is around you, they show you images of what is to come. You [[/act recall-knowledge statistic=spell options=glimpse-future]] on a single creature within 30 feet of you using your spell attack modifier for your check against a standard DC for the creature's level, except you treat a critical failure as a failure, and the check loses the secret trait. If your check was successful, you can choose to give the target a –2 status penalty to the next attack roll or save before the beginning of your next turn. Regardless of the result, the target is temporarily immune to Glimpse Future for 1 hour.</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.13dAWN3gcT3uqOBw]{效果：未来一瞥}</p>"
+            "description": "<p>纵然你的双眼无法让你看清周围一切，它们却向你展现即将到来的景象。你以你的法术攻击调整值替代检定，对你 30 尺内单一生物执行一次 [[/act recall-knowledge statistic=spell options=glimpse-future]]，对照该生物等级的标准 DC，但大失败视作失败，且检定失去秘密特征。若你的检定成功，你可选择令目标在你下回合开始前对其下一次攻击掷骰或豁免承受 –2 状态减值。无论结果如何，目标在 1 小时内对「瞥见未来」暂时免疫。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.13dAWN3gcT3uqOBw]{效果：未来一瞥}</p>"
         },
         "Show to Remember": {
             "name": "记忆之示 Show to Remember",
-            "description": "<p>You fill a creature's mind with an overwhelming din that disorients the target. Choose a creature within 30 feet of you, that creature must attempt a @Check[will|against:spell] save.</p><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞} and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙} for 1 round.</p><p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞} and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙} for 1 minute. The creature can spend a single action with the concentrate trait to attempt a new Will save against the effect.</p><p><strong>Critical Failure</strong> As failure, except the creature is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢} for as long as they are stupefied.</p>",
+            "description": "<p>你以无可压制的喧嚣充塞生物之心智，使其失序。选择 30 尺内一名生物，该生物须尝试一次 @Check[will|against:spell] 豁免。</p><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1级} 且 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1级} 1 轮。</p><p><strong>失败</strong> 该生物 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1级} 且 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1级} 1 分钟。该生物可花费一个具专注特征的动作以重新尝试一次意志豁免对抗此效果。</p><p><strong>大失败</strong> 同失败，但该生物在呆滞期间额外 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1级}。</p>",
             "prerequisites": [
                 {
                     "value": "狂欢秘奥，或歌秘奥"
@@ -828,7 +828,7 @@
         },
         "Dance, Dance": {
             "name": "舞，舞，舞 Dance, Dance",
-            "description": "<p>Your music floods the minds of two adjacent creatures, compelling them to move in time. Choose two creatures within 30 feet of you that are adjacent to each other. Both creatures must attempt a @Check[will|against:spell] save, but both creatures use the better result between them when determining the result of the effect. If you choose a willing ally as one of the targets, they can choose to get a result of a failure without rolling, but their movement triggers reactions to creatures other than the targets of this effect normally.</p><p><strong>Critical Success</strong> The creatures do not move and a willing ally is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地} from the shuffle.</p><p><strong>Success</strong> Both creatures sway in a dance, moving 5 feet in a direction of your choice, remaining adjacent to one another. This is forced movement.</p><p><strong>Failure</strong> As success, except both creatures move up to 10 feet, remaining adjacent to one another for the entirety of the movement.</p>",
+            "description": "<p>你的乐音淹没两名相邻生物的心智，迫使其随节拍移动。选择 30 尺内两名彼此相邻的生物。两名生物均须尝试一次 @Check[will|against:spell] 豁免，但确定效果结果时，两者使用其中较好的结果。若你选择一名自愿盟友作为目标之一，则其可选择不掷骰直接得到失败结果，但其移动会正常触发非该效果目标之生物的反应。</p><p><strong>大成功</strong> 两名生物不移动，自愿盟友被乱步击 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><p><strong>成功</strong> 两名生物随之起舞，向你所选方向移动 5 尺，并保持彼此相邻。此为强制移动。</p><p><strong>失败</strong> 同成功，但两名生物移动至多 10 尺，整段移动期间保持彼此相邻。</p>",
             "prerequisites": [
                 {
                     "value": "歌秘奥"
@@ -837,11 +837,11 @@
         },
         "Prism of Power": {
             "name": "力之棱镜 Prism of Power",
-            "description": "<p>You conjure an intangible magical prism that interacts with magic as if it were light. You create a prism that occupies a @Template[square|distance:5] within range. When you create the prism, select one of the following options.</p><ul><li><p><strong>Diffract</strong> Magic enters the prism and is split into a spectrum. If a line spell enters the area of the prism, the area changes from a line to a cone and its size is equal to half the remaining feet the line could travel before it entered the prism in the same direction the line could travel (minimum 5 feet).</p></li><li><p><strong>Refract</strong> Magic entering the prism can change directions, even around corners. If a spell attack targets the prism or a line spell passes through its space, and doing so does not require all of the spell’s range, it can alter directions. Determine your spell's line of effect and line of sight from the prism, as well as whether creatures have cover against the spell. The spell can exceed its normal range as measured from you, as long as it's within its normal range from the prism.</p></li><li><p><strong>Scatter</strong> Magic is dispersed and reflected all around the prism. You can target 2 creatures with a spell attack by targeting the prism, targeting up to 2 creatures within 5 feet of the prism. For the purposes of a spell attack roll, you roll your spell attack roll once and compare the result against the AC of both creatures.</p></li></ul>"
+            "description": "<p>你召唤一具无形的魔法棱镜，与魔法的交互方式如同光线一般。你于射程内创造一具占据 @Template[square|distance:5] 方格的棱镜。当你创造该棱镜时，选择以下选项之一。</p><ul><li><p><strong>分光</strong> 魔法进入棱镜后被分解为光谱。若一道线形法术进入棱镜区域，该区域从线形改为锥形，其大小等于线形法术进入棱镜前在同方向上剩余可行进尺数的一半（最少 5 尺）。</p></li><li><p><strong>折射</strong> 进入棱镜的魔法可改变方向，甚至可绕过转角。若一次法术攻击以棱镜为目标，或一道线形法术穿过其空间，且如此做并不需要法术全部射程，则其可改变方向。请以棱镜为起点确定该法术之效果线与视野线，并判定生物对该法术是否具备掩蔽。该法术可超出自你测量的正常射程，只要其仍在自棱镜测量的正常射程内即可。</p></li><li><p><strong>散射</strong> 魔法被驱散并向棱镜周围反射。你以棱镜为法术攻击目标即可同时以 2 名生物为目标，目标须为棱镜 5 尺内之至多 2 名生物。就法术攻击掷骰而言，你只投掷一次法术攻击掷骰，并将结果与两名生物的 AC 比较。</p></li></ul>"
         },
         "Accursed Flame Form": {
             "name": "咒缚火焰形态 Accursed Flame Form",
-            "description": "<p><strong>Requirements </strong>Your cursebound value is 2 or greater and you’re in an encounter.</p><hr /><p>You let sacred fire consume you, transforming you into a burning monster. You gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.1K6AYGisvo9gqdhs]{元素形态} heightened to the highest rank spell you can cast. You must choose an elemental form with the fire trait.</p><p><strong>Special</strong> If you have access to @UUID[Compendium.pf2e-team-plus-magic.items.bK4rp20XuJRWGsEv]{元素变形} (Magic+), you can choose to gain the effects of elemental shift heightened to the highest rank spell you can cast and you must select the fire elemental aspect.</p>",
+            "description": "<p><strong>需求</strong> 你的咒缚值为 2 或更高，且你处于战斗中。</p><hr /><p>你让圣火吞噬自身，化身为一具燃烧之怪物。你获得 @UUID[Compendium.pf2e.spells-srd.Item.1K6AYGisvo9gqdhs]{元素形态} 的效果，并高位至你能施放的最高环级法术。你必须选择一种具有火焰特征的元素形态。</p><p><strong>特殊</strong> 若你具备 @UUID[Compendium.pf2e-team-plus-magic.items.bK4rp20XuJRWGsEv]{元素变形}（Magic+），你可改为获得「元素变形」的效果（高位至你能施放的最高环级法术），且你必须选择火焰元素层面。</p>",
             "prerequisites": [
                 {
                     "value": "火焰秘奥"
@@ -850,7 +850,7 @@
         },
         "Reverse Movement": {
             "name": "逆转移动 Reverse Movement",
-            "description": "<p>You refract time in order to cover a great distance and then return to where you started. You mark your current location with a figment of your form and leave translucent images of yourself when you move for a number of rounds equal to 1 plus your cursebound value ([[/r (1+ @actor.conditions.cursebound.value )#rounds]]), tracing back to the space you first used this action. During this time, you gain access to the Reversal Move free action. After you use Reversal Move, you end this effect.</p><p><strong>Reversal Move</strong> <span class=\"action-glyph\">f</span> (divine, oracle, teleportation)</p><hr /><p><strong>Effect</strong> You swap places with your shadow in a burst of darkness. You create magical darkness that lasts until the end of your next turn in a 15-foot emanation around the position of your shadowy duplicate and yourself. You can choose to change positions with your shadow when you use this action, and if you do, the spell gains the teleportation trait.</p>",
+            "description": "<p>你折射时间，借此跨越长距离后再返回起点。你以你形态的虚像标记当前位置，并于移动时留下半透明的自身影像，持续轮数等同于 1 加上你咒缚值（[[/r (1+ @actor.conditions.cursebound.value )#rounds]]），追溯至你首次使用此动作的空间。在此期间，你可使用「逆转移动」自由动作。使用「逆转移动」之后，此效果结束。</p><p><strong>逆转移动</strong> <span class=\"action-glyph\">f</span>（神圣自然、先知、传送）</p><hr /><p><strong>效果</strong> 你与你的影子在一阵黑暗爆发中互换位置。你于你与影分身位置周围 15 尺弥漫光环内创造魔法黑暗，持续至你下回合结束。当你使用此动作时可选择与影子互换位置，若如此做，该法术获得传送特征。</p>",
             "prerequisites": [
                 {
                     "value": "时间秘奥"
@@ -859,7 +859,7 @@
         },
         "Spirit Steps": {
             "name": "精魂之步 Spirit Steps",
-            "description": "<p>Requirements Your cursebound value is 2 or greater and you’re in an encounter.</p><hr /><p>Your body fades into ectoplasm, leaving you a translucent figure with a visible skeleton and chains tying you to the earth. You gain the incorporeal trait for 1 minute and a resistance to all damage (except spirit, vitality, or ghost touch) equal to twice your cursebound value, but you cannot pass through solid objects or walls. If your cursebound value is 3 when you use Spirit Steps, you can pass through solid objects, including walls while incorporeal. When inside an object, you can’t perceive, attack, or interact with anything outside the object, and if you start your turn in an object, you’re @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢} until the end of your turn. You and corporeal creatures can pass through on another, but neither of you can end your movement in the other’s space. If you are in the area of a solid object or wall when this effect ends, you take @Damage[(@actor.level)[spirit]]{spirit damage equal to your level} as you are shunted to the nearest space you could occupy.</p>",
+            "description": "<p><strong>需求</strong> 你的咒缚值为 2 或更高，且你处于战斗中。</p><hr /><p>你的躯体化为外质，让你呈半透明形态，可见骨骼与束缚于大地的链条。在 1 分钟内你获得非实体特征，并对所有伤害（灵魂、生命力或鬼触除外）获得等同你咒缚值两倍之抗力，但你不能穿过实心物体或墙壁。当你使用「精魂之步」时若咒缚值为 3，则你处于非实体形态期间可穿过实心物体（包括墙壁）。当你处于物体之中时，你无法察觉、攻击或交互物体之外的任何事物；若你以物体内开始回合，则在该回合结束前 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1级}。你与实体生物可彼此穿过，但你们均不能在对方所在空间结束移动。若此效果结束时你位于实心物体或墙壁所在区域，则你被推送至最近可占据空间，并承受 @Damage[(@actor.level)[spirit]]{等同你等级的灵魂伤害}。</p>",
             "prerequisites": [
                 {
                     "value": "骨骸秘奥"
@@ -868,7 +868,7 @@
         },
         "Preparatory Cremation": {
             "name": "火化预备 Preparatory Cremation",
-            "description": "<p><strong>Trigger</strong> A creature within 30 feet of you takes fire damage.</p><hr /><p>You cause a burned creature to become ash-like, making them brittle and weak. The creature gains a weakness to physical damage equal to twice your cursebound value until the end of your next turn. Attacks that deal physical damage gain the death trait against the target while they have this weakness, their body turning into dust and ash if killed in this way.</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.Qkrxlll3LxBXBXup]{效果：预备焚化}</p>",
+            "description": "<p><strong>触发</strong> 30 尺内一名生物受到火焰伤害。</p><hr /><p>你令一名被灼伤的生物变得如灰烬般脆弱无力。该生物对物理伤害获得弱点，等同你咒缚值的两倍，直至你下一回合结束。在该弱点持续期间，对其造成的物理伤害的攻击获得死亡特征；若以此方式被杀，其躯体便会化作尘埃与灰烬。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.Qkrxlll3LxBXBXup]{效果：预备焚化}</p>",
             "prerequisites": [
                 {
                     "value": "灰烬秘奥"
@@ -877,11 +877,11 @@
         },
         "Matchmaker": {
             "name": "媒人 Matchmaker",
-            "description": "<p><strong>Domain</strong> passion (apocryphal)</p><hr /><p>You gaze into the heart of the yearning, and find what will help their hearts settle. When you cast this spell, you Recall Knowledge with a special skill called Love Lore, in which you become trained for the duration. You find out if the target of your Recall Knowledge is the object of desire or yearns for another creature or object. You can also cast this spell to Make a [[/act request skill=love-lore]] to convince creatures to go on romantic excursions with others. If the target of the spell would not usually be willing to do so, the spell automatically fails.</p><hr /><p><strong>Heightened (2nd)</strong> You become an expert in Love Lore for the duration.</p><p><strong>Heightened (4th)</strong> You become a master in Love Lore for the duration.</p><p><strong>Heightened (8th)</strong> You become legendary in Love Lore for the duration</p>"
+            "description": "<p><strong>领域</strong> 激情（伪经）</p><hr /><p>你凝视渴望者的内心，找出能令其心安定的对象。当你施放此法术时，你以一项称为「爱学」的特殊技能进行回忆知识，并在持续期间内对其受训。你可探知你回忆知识的目标是渴望对象本身，抑或心系另一名生物或物品。你亦可施放此法术以进行 [[/act request skill=love-lore]]，劝说生物与他人进行浪漫之约。若该法术目标通常不愿如此，则法术自动失败。</p><hr /><p><strong>高阶 (2 阶)</strong> 你在持续期间内对爱学成为专家。</p><p><strong>高阶 (4 阶)</strong> 你在持续期间内对爱学成为大师。</p><p><strong>高阶 (8 阶)</strong> 你在持续期间内对爱学成为传奇。</p>"
         },
         "Chosen Disciples": {
             "name": "天选门徒 Chosen Disciples",
-            "description": "<p>You have guided your followers to learn great secrets of your mystery. During your daily preparations, you can choose to grant one of your followers a 1st-rank divine spell in your oracle spell repertoire, gaining the ability to Cast the Spell once per day. At least 10th level, you can choose to grant one 2nd-rank spell in your oracle spell repertoire in addition to the 1st-rank divine spell, and if you are at least 12th level, you can choose to grant one 3rd-rank spell in your oracle spell repertoire in addition to the 1st-rank and 2nd-rank divine innate spell. If you have multiple followers, you can divide these spells among them.</p>",
+            "description": "<p>你已引导你的追随者学习你秘奥之中的伟大奥秘。在你的每日准备期间，你可选择赐予一名追随者你先知法术目录中的一道 1 环神圣法术，使其每日一次施放此法术。在 10 级或更高时，你可选择于赐予 1 环神圣法术之外，再赐予你先知法术目录中的一道 2 环法术；若你至少为 12 级，则除 1 环与 2 环神圣自然法术外，还可再赐予你先知法术目录中的一道 3 环法术。若你拥有多名追随者，可在他们之间分配这些法术。</p>",
             "prerequisites": [
                 {
                     "value": "学徒之志"
@@ -890,7 +890,7 @@
         },
         "Orb of Brilliance": {
             "name": "辉煌之球 Orb of Brilliance",
-            "description": "<p>The enemy of the dark is the light, and it flees with great speed in its presence. You send out a burst of light in a @Template[burst|distance:20] within 500 feet. The burst generates bright light in the area and dim light 20 feet out from the area for up to 1 minute. Mist, fog, or other similar concealment does not grant the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽} condition to creatures in the area unless the concealment would be the result of an effect that cannot be used to Hide (such as blur). The orb can be seen from great distances and creatures that end their turn within the area take a status penalty to Perception checks equal to your cursebound value.</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.4O0gLYll9fdNQkCa]{效果：辉煌法球}</p>",
+            "description": "<p>暗之死敌即是光，光所到之处暗则疾速逃逸。你向 500 尺范围内一处发出 @Template[burst|distance:20] 的爆发光芒。该爆发于该区域产生明亮光照，并于该区域外延 20 尺产生昏暗光照，持续至多 1 分钟。雾、烟或其他类似之遮蔽不会赋予该区域内生物 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽} 状态，除非该遮蔽来自不可用于「藏匿」的效果（例如「模糊」）。该法球可于极远距离被看见，且在该区域内结束回合的生物对察觉检定承受等同于你咒缚值的状态减值。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.4O0gLYll9fdNQkCa]{效果：辉煌法球}</p>",
             "prerequisites": [
                 {
                     "value": "光秘奥"
@@ -899,7 +899,7 @@
         },
         "Unmitigated Gaze of the Curio": {
             "name": "奇物无遮凝视 Unmitigated Gaze of the Curio",
-            "description": "<p>Your foresight has become so intense, the target of your focus cannot escape you. You gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]{真知视} on creatures that you have a +2 status bonus to AC and saves against from Curio’s Foresight.</p>",
+            "description": "<p>你的预见之力如此强烈，你聚焦的目标无法逃离。对那些你因「奇物预见」而获得 +2 状态加值至 AC 与豁免对抗的生物，你获得 @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]{真知视} 的效果。</p>",
             "prerequisites": [
                 {
                     "value": "启明圣物守护者献身"
@@ -908,7 +908,7 @@
         },
         "Seismic Shift": {
             "name": "地震位移 Seismic Shift",
-            "description": "<p>You bring the rocky mountain beneath your feet to propel you forward. You move up to 30 feet, the earth moving beneath your feet as it propels you to your destination, avoiding difficult terrain. You must end your movement in an unoccupied space where you have solid footing. Every square you pass through becomes difficult terrain for 1 minute. This movement isn't a Stride, but you measure the distance in a similar way, and it still triggers reactions caused by movement. You can't transport anyone else with you.</p><hr /><p><strong>Heightened (+1)</strong> Increase the distance you move by 5 feet.</p>"
+            "description": "<p>你将脚下的岩山驱使，将自己向前推送。你移动至多 30 尺，大地在你脚下涌动，将你推向目的地，避开困难地形。你必须以未被占据且具有稳固立足点的空间结束移动。你穿越的每一格在 1 分钟内成为困难地形。此移动并非「行走」，但其距离以类似方式衡量，且仍会触发由移动引发的反应。你不能携带任何其他人同行。</p><hr /><p><strong>高阶 (+1)</strong> 你的移动距离增加 5 尺。</p>"
         },
         "Vision of the Glorious Victory": {
             "name": "辉煌胜利之幻象 Vision of the Glorious Victory",
@@ -916,7 +916,7 @@
         },
         "Amplified Accompaniment": {
             "name": "扩声伴奏 Amplified Accompaniment",
-            "description": "<p><strong>Requirements</strong> Your cursebound value is 2 or greater and you’re in an encounter.</p><hr /><p>The music of your curse works to bolster other sounds instead of drowning them out, amplifying it and making creatures more sensitive to sound. For 1 minute, your music plays fervently in an aura in a 30-foot emanation bolstering other sounds and you must include yourself in the area and are included in the effects. Auditory and sonic effects originating within the area increase their range by 30 feet and linguistic effects no longer require that the target share a language while within the area. Creatures within the area gain a weakness to sonic damage equal to your cursebound value or increase their weakness to sonic damage by the same amount. Creatures with immunity to sonic damage are still immune.</p><hr /><p><strong>Foundry Note</strong> Besides the granting of sonic weakness, the rest, you'll have to handle manually (including increasing existing weaknesses). If your cursebound value changes while this aura is active, reapply the aura.</p>",
+            "description": "<p><strong>需求</strong> 你的咒缚值为 2 或更高，且你处于战斗中。</p><hr /><p>你诅咒之乐转而强化其他声响，而非将其淹没——它放大声响并令生物对声音更加敏感。在 1 分钟内，你的乐音狂热地于 30 尺弥漫光环之光环内播放，强化其他声响；你必须将自身纳入区域内并受效果影响。源自该区域内的听觉与音波效果其射程增加 30 尺，而该区域内之语言性效果不再要求目标共享语言。区域内之生物对音波伤害获得等同你咒缚值的弱点，或将其对音波伤害的弱点提升相同量。免疫音波伤害的生物仍然免疫。</p><hr /><p><strong>Foundry 注</strong> 除赋予音波弱点外，其余效果（包括提升既有弱点）须手动处理。若此光环生效期间你的咒缚值变化，须重新应用该光环。</p>",
             "prerequisites": [
                 {
                     "value": "歌秘奥"
@@ -925,15 +925,15 @@
         },
         "Protection of the Mystery": {
             "name": "秘奥护佑 Protection of the Mystery",
-            "description": "<p>Your mystery seeks to protect you, even when unprepared. Once per day you can cast @UUID[Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw]{权变} as an divine innate spell heightened to a rank equal to half your level rounded up.</p>"
+            "description": "<p>你的秘奥时刻寻求护佑你，即便你毫无准备。每天一次，你可以将 @UUID[Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw]{权变} 作为神圣自然法术施放，高位至等同你等级一半（向上取整）的环级。</p>"
         },
         "The More The Merrier": {
             "name": "人多更欢 The More The Merrier",
-            "description": "<p>What fun one can have when you are surrounded by revelers and debauchery. You create a crowd of illusory creatures of Medium size that fill all unoccupied spaces within the area. The area is difficult terrain and creatures cannot communicate or use auditory or linguistic actions on creatures more than 10 feet away from them while in the area.</p><p>In addition, you or your allies can spend a single action to Interact or Perform, causing the crowd in adjacent squares to become greater difficult terrain for 1 round. Creatures can attempt to disbelieve the crowd by spending a single action to Interact or Sense Motive on it. You and your allies ignore difficult and greater difficult terrain caused by the crowd.</p>"
+            "description": "<p>当你被狂欢者与放纵之氛围环绕时，可享多大乐趣！你于该区域内所有未被占据的空间内创造一群中型体型的幻象生物。该区域成为困难地形，且区域内生物无法对距离自己 10 尺以外的生物使用通讯或听觉、语言性动作。</p><p>此外，你或你的盟友可花费单一动作进行交互或表演，令相邻方格内的人群在 1 轮内成为更高阶困难地形。生物可花费单一动作交互或察言观色以试图识破该人群。你与你的盟友忽视该人群产生的困难地形与更高阶困难地形。</p>"
         },
         "Harness the Light": {
             "name": "驾驭光辉 Harness the Light",
-            "description": "<p>You draw all the light into a tiny focal point, and disperse it in a small burst. Choose a magical source of light within 30 feet of you, and attempt to @Check[counteract|statistic:spell] it. If you created the magical light, you automatically succeed at your check to counteract. If you successfully counteract the magical light, all creatures in a @Template[emanation|distance:10] of the light source must succeed at a @Check[reflex|against:spell] save or they @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩} for a number of rounds equal to your cursebound value. If the creature critically failed its save against this effect, it is also @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} for 1 round. If the target was a creature or shares its space with a creature, you must include the creature in the effect.</p><p>If you are cursebound and you target your curse’s light with this effect, you can produce the effect without attempting to counteract your magical light and you treat your degree of success on your save as one step better.</p>",
+            "description": "<p>你将所有光汇入一个微小焦点，再使其在小范围爆发中扩散。选择 30 尺内某个魔法光源，并尝试 @Check[counteract|statistic:spell] 之。若该魔法光源由你所创造，则你的对抗检定自动成功。若你成功对抗该魔法光源，光源 @Template[emanation|distance:10] 内所有生物须以 @Check[reflex|against:spell] 豁免成功，否则 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩} 等同你咒缚值的轮数。若生物对此效果豁免大失败，则另 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} 1 轮。若目标是生物或与生物共占同一空间，则你须将该生物纳入效果中。</p><p>若你处于咒缚状态，并以此效果作用于你诅咒之光，则你可不进行对抗你魔法光源的检定即产生此效果，并将豁免的成功程度视为高一级。</p>",
             "prerequisites": [
                 {
                     "value": "光秘奥"
@@ -942,7 +942,7 @@
         },
         "Carnivorous Vegetation": {
             "name": "食肉植被 Carnivorous Vegetation",
-            "description": "<p>You cause the plants around you to become carnivorous. You cause all plant-life in a @Template[emanation|distance:15] to become carnivorous, harming creatures that end their turn within the area and causing them to take @Damage[(4 + floor(@actor.level / 2 - 6))d6[acid],(4 + floor(@actor.level / 2 - 6))d6[piercing]] damage with a @Check[fortitude|basic|against:spell] save. You and allies within the area get a degree of success one better than rolled on a saving throw.</p><p>Particularly large plants within the area when you first use the effect, such as trees, can choose to deal @Damage[(4 + floor(@actor.level / 2 - 6))d6[acid],(4 + floor(@actor.level / 2 - 6))d6[bludgeoning]]{bludgeoning damage} instead of piercing damage and each have their own emanation that produces the same effect. The emanation is a number of feet equal to the size of the plant, such as a 5-foot emanation for a bush that occupies a 5-foot square or a 15-foot emanation for a tree that occupies a 15-foot square. A creature in any of the areas attempts one basic Reflex save against the spell no matter how many overlapping vegetation areas it's caught in and the type of damage dealt is determined by the nearest to the vegetation (subject to GM discretion).</p><p>At 14th level, and every 2 levels thereafter, the acid damage and piercing damage each increase by 1d6.</p>",
+            "description": "<p>你令周遭植物变得食肉。你令 @Template[emanation|distance:15] 内之所有植物变得食肉，伤害于该区域内结束回合的生物，使其承受 @Damage[(4 + floor(@actor.level / 2 - 6))d6[acid],(4 + floor(@actor.level / 2 - 6))d6[piercing]] 伤害（@Check[fortitude|basic|against:spell] 豁免）。你与区域内之盟友所掷豁免之成功程度提升一级。</p><p>当你首次使用该效果时，区域内特别巨大的植物（如树木）可选择改造成 @Damage[(4 + floor(@actor.level / 2 - 6))d6[acid],(4 + floor(@actor.level / 2 - 6))d6[bludgeoning]]{钝击伤害}（替代穿刺伤害），且其各自具有相同效果之独立弥漫光环。该弥漫光环之尺数等同该植物体积——例如占据 5 尺方格之灌木为 5 尺弥漫光环，占据 15 尺方格之树木为 15 尺弥漫光环。无论一名生物处于多少重叠植物区域，它仅须以基础反射豁免对抗此法术一次，所造成的伤害类型由距离最近的植被决定（由 GM 裁定）。</p><p>14 级时，及此后每 2 级，酸性伤害与穿刺伤害各增加 1d6。</p>",
             "prerequisites": [
                 {
                     "value": "森林秘奥"
@@ -955,7 +955,7 @@
         },
         "Nourishing Rot": {
             "name": "滋养之腐 Nourishing Rot",
-            "description": "<p><strong>Trigger</strong> A creature within 30 feet gains the sickened condition or becomes diseased.</p><p><strong>Requirements</strong> Your cursebound value is 2 or greater and you’re in an encounter.</p><hr /><p>While sickness plagues your body, the illness of others cleanses you. You regain Hit Points equal to your level plus your cursebound value (@Damage[(@actor.level * @actor.conditions.cursebound.value)[healing]]).</p>",
+            "description": "<p><strong>触发</strong> 30 尺内一名生物获得恶心状态或染病。</p><p><strong>需求</strong> 你的咒缚值为 2 或更高，且你处于战斗中。</p><hr /><p>当病痛侵蚀你的肉身时，他人之疾患却能净化你。你恢复等同你等级加上你咒缚值的生命值（@Damage[(@actor.level * @actor.conditions.cursebound.value)[healing]]）。</p>",
             "prerequisites": [
                 {
                     "value": "腐疫秘奥"
@@ -964,11 +964,11 @@
         },
         "Garden of Crystals": {
             "name": "水晶花园 Garden of Crystals",
-            "description": "<p><strong>Domain</strong> earth (apocryphal)</p><hr /><p>You cause crystals to grow from the ground around you. The area becomes difficult terrain, though you can ignore it. Select three @Template[burst|distance:5]s at least partially within the area; enormous clusters of crystals grow here, filled with magic energy. These crystalline structures are 10 feet high and occupy the area, moving any creatures in the area to the nearest adjacent space. When standing adjacent to one of these clusters, creatures' critical hits are empowered, dealing 1d10 force damage.</p><hr /><p><strong>Heightened (+2)</strong> The force damage increases by 1d10.</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.NsA3mbbBphp9kx77]{效果：水晶花园}</p>"
+            "description": "<p><strong>领域</strong> 大地（伪经）</p><hr /><p>你令水晶自你周围的地面生长。该区域成为困难地形，但你可忽略之。在区域内（至少部分位于其中）选择三个 @Template[burst|distance:5]；这些位置生长出庞大的水晶簇，充满魔力。这些晶体结构高 10 尺，占据该区域，将区域内任何生物移至最近相邻空间。当生物紧邻其中一簇水晶时，其暴击受到强化，额外造成 1d10 力场伤害。</p><hr /><p><strong>高阶 (+2)</strong> 力场伤害增加 1d10。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.NsA3mbbBphp9kx77]{效果：水晶花园}</p>"
         },
         "Hunter's Rush": {
             "name": "猎者疾袭 Hunter's Rush",
-            "description": "<p>You hone in on one enemy, becoming the target of your bestial animosity. Choose an enemy you can see. You Stride twice towards that enemy. If you end your movement within melee reach of the chosen enemy, you can make a melee Strike against that enemy. If this Strike hits, you deal an extra die of weapon damage. If you are cursebound 2 when you use Hunter's Rush, increase this to two extra dice, and if you are cursebound 3, increase it to three extra dice.</p>",
+            "description": "<p>你专注于一名敌人，将其作为你兽性敌意的目标。选择一名你能看见的敌人。你向该敌人 行走 两次。若你以近战触及范围内一格结束移动，可对该敌人进行一次近战打击。若此次打击命中，你额外造成一颗武器伤害骰。当你使用「猎者疾袭」时若你处于咒缚 2 级，该额外伤害骰提升至两颗；若处于咒缚 3 级，则提升至三颗。</p>",
             "prerequisites": [
                 {
                     "value": "野兽秘奥"
@@ -981,7 +981,7 @@
         },
         "Claimed by Ancestors": {
             "name": "祖灵召回 Claimed by Ancestors",
-            "description": "<p><strong>Trigger</strong> You or an ally within 60 feet would be reduced to 0 Hit Points or killed.</p><p><strong>Requirements</strong> Your cursebound value is 2 or greater and you’re in an encounter.</p><hr /><p>Your ancestors surge around an unconscious body, dragging them back to their feet and fighting through them. The triggering creature does not die or gain the dying condition and regains @Damage[(@actor.level * @actor.conditions.cursebound.value)[healing]] Hit Points equal to your level x your cursebound condition value. However, the sudden surge from your ancestor is difficult to acclimate to, leaving the triggering creature @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑} for 1 round unless it succeeds at a @Check[will|against:spell] save. If the triggering creature would have been killed, it treats its save against this confusion condition as one step worse.</p>",
+            "description": "<p><strong>触发</strong> 你或 60 尺内一名盟友将被减至 0 生命值或被杀死。</p><p><strong>需求</strong> 你的咒缚值为 2 或更高，且你处于战斗中。</p><hr /><p>你的祖灵涌现于一具失去意识的身躯之周围，将其拖回站立姿态并借其身躯继续战斗。触发该效果的生物不会死亡，亦不获得濒死状态，并恢复等同你等级乘以你咒缚值的生命值（@Damage[(@actor.level * @actor.conditions.cursebound.value)[healing]]）。然而，源自你祖灵的猛烈涌动难以适应，使触发效果的生物 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑} 1 轮，除非其以 @Check[will|against:spell] 豁免成功。若触发该效果的生物本应被杀死，则其对此困惑状态的豁免视为成功程度低一级。</p>",
             "prerequisites": [
                 {
                     "value": "先祖秘奥"
@@ -990,7 +990,7 @@
         },
         "Familiar Dark": {
             "name": "熟稔之暗 Familiar Dark",
-            "description": "<p>The darkness is an old friend, familiar and comforting. You gain greater darkvision for 1 minute and create darkness in a @Template[emanation|distance:15]. If you are cursebound 2 when you use Familiar Dark, the aura is a @Template[emanation|distance:30] and if you are cursebound 3, it is instead a @Template[emanation|distance:120].</p>",
+            "description": "<p>黑暗如同你的故友，熟稔且令你安心。你获得高级黑暗视觉持续 1 分钟，并在 @Template[emanation|distance:15] 内制造黑暗。当你使用「熟稔之暗」时若你处于咒缚 2 级，该光环改为 @Template[emanation|distance:30]；若你处于咒缚 3 级，则改为 @Template[emanation|distance:120]。</p>",
             "prerequisites": [
                 {
                     "value": "幽暗秘奥"
@@ -999,7 +999,7 @@
         },
         "Storm Spell": {
             "name": "风暴法术 Storm Spell",
-            "description": "<p><strong>Requirements</strong> Your cursebound value is 2 or greater and you're in an encounter.</p><hr /><p>You transform the components of a spell to become powerful blasts of storm magic. If your next action is to Cast a Spell with the air, cold, electricity, or water traits that targets an area, you transform it into a storm spell. The area of the spell becomes difficult terrain and hazardous terrain for a number of rounds equal to your cursebound value. A creature that moves through the area takes damage equal to the spell's rank for every square of that area it moves through. This damage is electricity damage or bludgeoning damage, chosen when you Cast the Spell.</p>",
+            "description": "<p><strong>需求</strong> 你的咒缚值为 2 或更高，且你处于战斗中。</p><hr /><p>你将法术之要素转化为强大的风暴魔法爆发。若你的下一动作是施放一道目标为某区域、且具有空气、冷冻、电击或水特征的法术，你将其转化为风暴法术。该法术之区域成为困难地形与危险地形，持续轮数等同于你的咒缚值。穿越此区域的生物每经过其中一格便承受等同于该法术环级的伤害。该伤害为电击伤害或钝击伤害，由你在施放该法术时选择。</p>",
             "prerequisites": [
                 {
                     "value": "风暴秘奥"
@@ -1008,7 +1008,7 @@
         },
         "Astral Daydream": {
             "name": "星界白日梦 Astral Daydream",
-            "description": "<p>You leverage your connection to the spirit itself, your soul swiftly dancing between worlds, bringing back a gift from the beyond. You become stupefied 1 until the end of your next turn. While stupefied, you gain resistance equal to your cursebound value plus half your level to mental damage and become trained in a skill of your choice. If you were already trained in the chosen skill, you instead gain a +1 status bonus to your next check with the chosen skill for the duration, or a +2 status bonus if you are cursebound 2 when you use Astral Daydream.</p>"
+            "description": "<p>你借助与精魂自身的连结，灵魂迅捷地在异界之间起舞，并自彼方携回一份馈赠。你直至下一回合结束 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1级}。在呆滞期间，你对心灵伤害获得抗力，等同你咒缚值加上你等级一半，并对自选的一项技能成为受训。若你已对该所选技能受训，则改为获得 +1 状态加值至你下一次以该技能进行的检定，持续效果时长；若你使用「星界白日梦」时处于咒缚 2 级，则改为 +2 状态加值。</p>"
         },
         "Curse of Eternal Reverie": {
             "name": "永恒梦呓之咒 Curse of Eternal Reverie",
@@ -1016,7 +1016,7 @@
         },
         "Divine Rampage": {
             "name": "神圣狂暴 Divine Rampage",
-            "description": "<p><strong>Requirements</strong> Your cursebound value is 2 or greater and you’re in an encounter.</p><hr /><p>You become one with the beast, leaving you in an uncontrollable state and a destructive monster. The following effects apply until after you reduce a creature to 0 Hit Points and then attempt a @Check[will|against:spell-dc] to end this destructive state. You can choose to forgo this Will save and continue your rampage. If you have not been targeted or included in the area of effect of a hostile action for 1 round, you can attempt a Will save to end this destructive state at the end of your turn.</p><ul><li><p>You don’t treat anyone as your ally, except for flanking enemies (though they might still treat you as theirs).</p></li><li><p>You must use all your actions to Strike, cast offensive cantrips, use offensive cursebound actions, or to facilitate attacking, such as drawing a weapon, moving so a target is in reach, and so forth.</p></li><li><p>Your unarmed attacks gain the forceful trait.</p></li><li><p>When you reduce a creature to 0 Hit Points, you regain Hit Points equal to half your level plus your cursebound value.</p></li></ul>",
+            "description": "<p><strong>需求</strong> 你的咒缚值为 2 或更高，且你处于战斗中。</p><hr /><p>你与野兽合一，陷入无法控制之状态，化为破坏性的怪物。以下效果持续应用，直到你将一名生物减至 0 生命值之后，尝试一次 @Check[will|against:spell-dc] 以结束此破坏状态。你可选择不进行此意志豁免而继续狂暴。若你在 1 轮内未被任何敌对动作以你为目标或将你纳入效果区域，则可在你回合结束时尝试一次意志豁免以结束此破坏状态。</p><ul><li><p>你不将任何人视为盟友，但侧背的敌人除外（不过它们仍可将你视为其盟友）。</p></li><li><p>你必须以所有动作进行打击、施放具攻击性的戏法、使用具攻击性的咒缚动作，或为攻击作准备（例如拔出武器、移动以使目标进入触及范围等）。</p></li><li><p>你的徒手攻击获得强力特征。</p></li><li><p>当你将一名生物减至 0 生命值时，你恢复等同你等级一半加上你咒缚值的生命值。</p></li></ul>",
             "prerequisites": [
                 {
                     "value": "野兽秘奥"
@@ -1034,15 +1034,15 @@
         },
         "Body of the Beast": {
             "name": "野兽之躯 Body of the Beast",
-            "description": "<p>Animalistic power surges through you as you channel your divinity. You gain an unarmed attack in the brawling group as the beast within you emerges. The unarmed attack’s Strikes deal additional damage equal to your cursebound condition value. If your cursebound value is 2, you gain a +1 status bonus to Strikes with your unarmed attack while the spell is active, or a +2 if you are cursebound value is 3 or greater.</p><ul><li><p>Jaws that deal 1d8 piercing damage</p></li><li><p>Claws that deal 1d4 slashing damage with the agile and finesse traits</p></li><li><p>Horns or antlers that deal 1d6 piercing damage with the shove trait</p></li><li><p>Tentacles or tail that deal 1d4 bludgeoning damage with the reach trait</p></li></ul><hr /><p><strong>Heightened (4th)</strong> You can select up to 2 unarmed attacks instead of 1 or increase the die size of one of your unarmed attacks by one step.</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.alBwXHEEIgpe42Vt]{效果：野兽之躯}</p>"
+            "description": "<p>当你引导你的神性之时，兽性力量在你身躯中涌动。你内里之野兽显现，让你获得一项徒手攻击，归类于斗殴武器组。该徒手攻击的打击额外造成等同于你咒缚状态值的伤害。当你的咒缚值为 2 时，在法术生效期间你以该徒手攻击进行打击获得 +1 状态加值；若咒缚值为 3 或更高，则为 +2。</p><ul><li><p>颚部攻击：1d8 穿刺伤害</p></li><li><p>利爪：1d4 挥砍伤害，具有灵巧与娴熟特征</p></li><li><p>角或鹿角：1d6 穿刺伤害，具有推撞特征</p></li><li><p>触手或尾部：1d4 钝击伤害，具有及远特征</p></li></ul><hr /><p><strong>高阶 (4 阶)</strong> 你可选择最多 2 项徒手攻击而非 1 项；或将其中一项徒手攻击的伤害骰大小增加一档。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.alBwXHEEIgpe42Vt]{效果：野兽之躯}</p>"
         },
         "Web of Darkness": {
             "name": "黑暗之网 Web of Darkness",
-            "description": "<p>All the darkness in the area latches on like in webbed strands of shadow, hindering their movements. All enemy creatures in the area must attempt a Reflex save. Creatures can try to Escape the strands of darkness, and it or others can attempt to cut themselves free from the darkness by attacking the strands (the strands have AC [[/r 30+(@item.level - 6)*3]] and [[/r 30+(@item.level - 6)*5]] Hit Points). You can Dismiss the spell.</p><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes a –5-foot circumstance penalty to its Speed.</p><p><strong>Failure</strong> As success, except the creature has a –10-foot circumstance penalty to its Speed and it can’t move more than 30 feet away from the space it was in when you Cast the Spell.</p><p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}.</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.mOwOxk8Uwyz8hra5]{效果：暗网}</p><hr /><p><strong>Heightened (+1)</strong> The strands’ AC increases by 3, and their Hit Points increase by 5.</p>"
+            "description": "<p>区域内所有黑暗如同暗影之蛛丝般附着，妨碍其移动。区域内所有敌方生物须尝试一次反射豁免。生物可尝试逃脱黑暗之丝，亦可与他人通过攻击来切断脱身（黑丝具有 AC [[/r 30+(@item.level - 6)*3]] 与 [[/r 30+(@item.level - 6)*5]] 生命值）。你可驱散此法术。</p><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物对其速度承受 –5 尺环境减值。</p><p><strong>失败</strong> 同成功，但该生物对其速度承受 –10 尺环境减值，且其无法距离施放法术时所在空间超过 30 尺。</p><p><strong>大失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}。</p><p>@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.mOwOxk8Uwyz8hra5]{效果：暗网}</p><hr /><p><strong>高阶 (+1)</strong> 黑丝的 AC 增加 3，生命值增加 5。</p>"
         },
         "Hardened to Suffering": {
             "name": "因苦而坚 Hardened to Suffering",
-            "description": "<p>Your curse hardens you to outside pain. You gain your choice of a +1 item bonus to AC or increase the item bonus of any armor you are wearing by 1 until the end of your next turn. While you are benefiting from this bonus to AC, you gain resistance to physical damage equal to 2 plus twice your cursebound value.</p>"
+            "description": "<p>你的诅咒令你对外来痛苦更加坚毅。你自选获得一项 +1 物品加值至 AC，或将你所穿戴任何护甲的物品加值提高 1，直至你下一回合结束。在你受益于此 AC 加值期间，你对物理伤害获得抗力，等同 2 加上你咒缚值的两倍。</p>"
         },
         "Vision of the Unraveling Secret": {
             "name": "解秘之幻象 Vision of the Unraveling Secret",
