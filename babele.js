@@ -17,18 +17,24 @@ function ensureRegistered(babele) {
 }
 
 function refreshUI() {
+  try { ui.sidebar?.render?.(true); } catch {}
   try {
-    ui.sidebar?.render?.(true);
-  } catch {}
-  try {
-    const windows = ui.windows ?? {};
-    for (const app of Object.values(windows)) {
+    for (const app of Object.values(ui.windows ?? {})) {
       const name = app?.constructor?.name ?? '';
-      if (name.includes('Compendium') || name.includes('Sidebar')) {
-        app.render?.(true);
-      }
+      if (name.includes('Compendium') || name.includes('Sidebar')) app.render?.(true);
     }
   } catch {}
+}
+
+async function persistToWorldSettings(babele) {
+  if (!game.user?.isGM) return;
+  try {
+    if (typeof babele?.shareLabels === 'function') await babele.shareLabels();
+    if (typeof babele?.shareTitleIndex === 'function') await babele.shareTitleIndex();
+    console.log(`${MODULE_ID} | 合并后的 labels/titles 已写入世界设置（下次启动 babele.init 即可读到）`);
+  } catch (e) {
+    console.warn(`${MODULE_ID} | shareLabels/shareTitleIndex 写入失败`, e);
+  }
 }
 
 async function refreshTranslations(babele) {
@@ -40,6 +46,7 @@ async function refreshTranslations(babele) {
     await babele.loadTitleIndex();
     babele.applyTitleIndex?.();
   }
+  await persistToWorldSettings(babele);
   refreshUI();
 }
 
@@ -51,11 +58,15 @@ Hooks.once('babele.init', (babele) => {
 
 Hooks.once('ready', async () => {
   const babele = game.babele;
-  if (!ensureRegistered(babele)) return;
+  if (!ensureRegistered(babele)) {
+    if (game.user?.isGM && isInPatchState(babele)) {
+      await persistToWorldSettings(babele);
+    }
+    return;
+  }
   console.log(`${MODULE_ID} | 已在 ready 阶段补注册`);
   try {
     await refreshTranslations(babele);
-    console.log(`${MODULE_ID} | labels/titles 已刷新并触发 UI 重渲染`);
   } catch (e) {
     console.warn(`${MODULE_ID} | 补注册后刷新失败`, e);
   }
