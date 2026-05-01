@@ -224,7 +224,7 @@
         },
         "Mighty Summons": {
             "name": "强力召唤 Mighty Summons",
-            "description": "<p>与魂偶共处的经验使你成为召唤其他生物的大师。若你下一动作为以召唤师法术槽施放具召唤特征的法术，你召唤生物时视该法术环为高1阶。若你以@UUID[Compendium.pf2e.actionspf2e.2KV87ponbWXgGIhZ]{并行行动}施放具召唤特征的法术，则该塑形施法适用于你所施放法术——前提是它是「并行行动」紧前的动作。</p>\n<p><strong>特别</strong>若由此召唤的生物阶级须高于10阶法术（如你具@UUID[Compendium.pf2e.feats-srd.wPjNjyh60fYKrDXl]{传奇召唤师}），则改为召唤一只比指定等级高2级的生物。</p>"
+            "description": "<p>与魂偶共处的经验使你成为召唤其他生物的大师。若你下一动作为以召唤师法术位施放具召唤特征的法术，你召唤生物时视该法术环为高1阶。若你以@UUID[Compendium.pf2e.actionspf2e.2KV87ponbWXgGIhZ]{并行行动}施放具召唤特征的法术，则该塑形施法适用于你所施放法术——前提是它是「并行行动」紧前的动作。</p>\n<p><strong>特别</strong>若由此召唤的生物阶级须高于10阶法术（如你具@UUID[Compendium.pf2e.feats-srd.wPjNjyh60fYKrDXl]{传奇召唤师}），则改为召唤一只比指定等级高2级的生物。</p>"
         },
         "Incarnate Manifestation": {
             "name": "化身显化 Incarnate Manifestation",
@@ -403,7 +403,7 @@
                     "value": "魔法学徒"
                 },
                 {
-                    "value": "能从法术槽施放法术之能力"
+                    "value": "能从法术位施放法术之能力"
                 }
             ]
         },
