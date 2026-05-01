@@ -16,16 +16,6 @@ function ensureRegistered(babele) {
   return true;
 }
 
-function refreshUI() {
-  try { ui.sidebar?.render?.(true); } catch {}
-  try {
-    for (const app of Object.values(ui.windows ?? {})) {
-      const name = app?.constructor?.name ?? '';
-      if (name.includes('Compendium') || name.includes('Sidebar')) app.render?.(true);
-    }
-  } catch {}
-}
-
 async function persistToWorldSettings(babele) {
   if (!game.user?.isGM) return;
   try {
@@ -47,7 +37,6 @@ async function refreshTranslations(babele) {
     babele.applyTitleIndex?.();
   }
   await persistToWorldSettings(babele);
-  refreshUI();
 }
 
 Hooks.once('babele.init', (babele) => {
