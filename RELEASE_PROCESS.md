@@ -4,7 +4,10 @@
 
 - 工作区：`C:\Users\Taka\Desktop\fvtt\`（翻译文件编辑处）
 - 发布区：`C:\Users\Taka\Desktop\fvttpublish\pf2e-compendium-extra\`（GitHub 仓库）
-- 翻译文件位置：`compendium/` 目录下（参照 pf2e_compendium_chn 的发布结构，原 `compendium/cn/` 已扁平化）
+- 翻译文件位置：
+  - `compendium/`：babele 翻译的合集包 JSON（每个 pack 一个文件 + `labels.json` + `titles.json`）
+  - `homebrew/`：PF2e 系统的 homebrew 翻译 JSON（每个 PF2e 模组一个 `<moduleId>.homebrew.json`），由 `scripts/inject-homebrew.js` 在 `setup` 钩子里覆盖 `CONFIG.PF2E.{weaponTraits, featTraits, baseWeaponTypes, traitsDescriptions, ...}`
+  - `scripts/`：构建/运行时辅助脚本
 - GitHub 仓库：`takaqiao/pf2e-compendium-extra-cn`
 
 ## 每次更新标准流程
@@ -51,10 +54,10 @@ git push
 ### 5. 打包 ZIP
 
 ```powershell
-Compress-Archive -Path module.json,babele.js,compendium,.gitignore -DestinationPath "pf2e-compendium-extra-cn-vA.B.C.zip" -Force
+Compress-Archive -Path module.json,babele.js,compendium,homebrew,scripts,.gitignore -DestinationPath "pf2e-compendium-extra-cn-vA.B.C.zip" -Force
 ```
 
-只打包 FVTT 实际需要的内容（`module.json` / `babele.js` / `compendium/` / `.gitignore`）；不要 `-Path *`，否则会把 `glossary_sog.json`、备份文件、`release/`、脚本目录等都塞进 zip。
+只打包 FVTT 实际需要的内容（`module.json` / `babele.js` / `compendium/` / `homebrew/` / `scripts/` / `.gitignore`）；不要 `-Path *`，否则会把 `glossary_sog.json`、备份文件、`release/` 等都塞进 zip。`scripts/inject-homebrew.js` 是运行时脚本，必须打进去；`scripts/regen-labels-titles.py` 是构建期脚本，进 zip 没害处也不浪费什么空间。
 
 ### 6. 创建 GitHub Release
 
@@ -80,6 +83,7 @@ Remove-Item _tmp_release_notes.md, pf2e-compendium-extra-cn-vA.B.C.zip
 - **忘记上传 `module.json` 到 release**：FVTT manifest 检查拿不到新版本信息
 - **ZIP 打包前未更新 module.json**：ZIP 内的 module.json 版本号不对
 - **新增 pack 文件后忘了跑 regen 脚本**：sidebar 上的 pack 名称仍是英文 —— 因为 patch 在 babele.init 阶段读 `labels.json` / `titles.json` 索引，而不是去解析每个 pack 文件
+- **homebrew 翻译放进了 `compendium/`**：babele 不读这种文件（结构是 `{moduleId, moduleTitle, homebrew}` 不是 `{label, entries, ...}`），结果什么都不会生效。必须放在 `homebrew/` 下并由 `scripts/inject-homebrew.js` 在 setup 钩子覆盖 `CONFIG.PF2E.*`
 
 ## FVTT 更新机制说明
 
