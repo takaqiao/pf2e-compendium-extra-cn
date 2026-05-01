@@ -1,0 +1,159 @@
+{
+	"PF2E": {
+		"TEAMPLUS": {
+			"ORACLES": {
+				"Prompt": {
+					"Cursebound": "Choose your cursebound value.",
+					"BodyOfTheBeastSecond": "Select another feature or increase the die size of one.",
+					"WishfulThinking": {
+						"First": "Select a benefit.",
+						"Second": "Select a second benefit."
+					},
+					"ComfortOfStruggle": "Choose an effect.",
+					"Heritage": "Choose a heritage.",
+					"SpeakInTongues": "Choose a language.",
+					"GoldenTouch": "Choose the spell's target.",
+					"Vision": "Choose a vision.",
+					"Curio": "Choose a curio.",
+					"Armour": "Choose an armour.",
+					"Toolkit": "Choose a toolkit or an item associated with a skill action."
+				},
+				"Label": {
+					"Cursebound1OrNot": "Cursebound 1 or not Cursebound",
+					"NotCursebound": "Not Cursebound",
+					"Cursebound1": "Cursebound 1",
+					"Cursebound2": "Cursebound 2",
+					"Cursebound3": "Cursebound 3",
+					"MonstrousChangeEmotion": "Curse of Monstrous Change (vs emotion effects)",
+					"MindsEyeWinkUsingItem": "Mind's Eye Wink (when using target item)",
+					"WishfulThinking": {
+						"SpellModToDeception": "Spell attack mod difference",
+						"BonusToAttack": "Bonus to attack rolls and saving throws",
+						"BonusToSkill": "Bonus to a specific skill check",
+						"ClimbSpeed": "Climb Speed of 30 feet",
+						"SwimSpeed": "Swim Speed of 30 feet",
+						"FlySpeed": "Fly Speed of 30 feet"
+					},
+					"ComfortOfStruggle": {
+						"Bonus": "Spell attack bonus",
+						"Penalty": "Saving throw penalty"
+					},
+					"AllSeer": {
+						"Title": "Heightened (+1)",
+						"Text": "Increase the range by 250 feet."
+					},
+					"UrgeClemency": "Urge Clemency (you or ally recently threatened or harmed the target)",
+					"Automummification": "Target creature has not seen you move since you cast Automummification",
+					"GoldenTouch": {
+						"Creature": "Creature",
+						"Object": "Object",
+						"CreaturesObject": "An object held by a creature",
+						"WhileUsing": "Golden Touch (while using the object)"
+					},
+					"MoonlitFolly": "The moon is visible",
+					"VisionOfWeepingHeart": {
+						"Desc": "@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.QlTyEcU2SubiAYXQ]{Effect: Glimpse of Redemption (Weeping Heart)} is granted instead to the ally.",
+						"AwakenedStateTitle": "Awakened State",
+						"AwakenedStateText": "Instead of making an enemy who refuses redemption through Glimpse of Redemption enfeebled 2, you can choose to instead make the target @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for the same duration.",
+						"Cursebound3Title": "Cursebound 3",
+						"Cursebound3Text": "If the enemy refuses, it takes @Damage[(@actor.abilities.cha.mod)[spirit,persistent]] damage.",
+						"Cursebound4Title": "Cursebound 4",
+						"Cursebound4Text": "You gain an additional reaction you can use only for Glimpse of Redemption."
+					},
+					"TheVisionIsClear": "Enemy whose future you read would off-guard you",
+					"PerfectUnderstanding": "Enemy who is in your Aura of Foresight would off-guard you",
+					"WeaponCurioFirstStrike": "First Strike against enemy in Aura of Foresight",
+					"CharmCurioRollTwiceOnReflex": "Roll twice on next Reflex save",
+					"UtensilQuickAlchemy": "Utensil Curio — Using item created with Quick Alchemy",
+					"FractalFrosting": {
+						"6th": "For the duration of @UUID[Compendium.pf2e-team-plus-oracles-remastered.items.Item.UmP8nuC0f2DiMZOB]{Fractal Frosting}, you can cast frostbite with a range of 60 feet, targeting up to three different targets within range. You create difficult terrain in a @Template[emanation|distance:5] in the area around each of the targets that lasts for 1 round.",
+						"9th": "For the duration, when you cast frostbite, the target takes a –5-foot status penalty to its Speed for 1 round on a failure or a –15-foot status penalty to its Speed on a critical failure. @UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.OPBNdJPRJgcGVqp1]{Effect: Fractal Frosting}"
+					},
+					"SelfStitchingWoundsConditions": "Lasts as long as you're at least cursebound 2, and you stay conscious during an encounter.",
+					"HideFromDoom": {
+						"Normal": "Normal Resistance",
+						"Double": "Double Resistance"
+					}
+				},
+				"Note": {
+					"CrypticMurmurings": {
+						"CriticalSuccess": "Your GM warns you of an upcoming encounter or danger; for example, if your murmur was “the shell walks the steps”, you would learn of a graveknight lurking near a nearby stairwell. You gain the effects of a critical success with Recall Knowledge on a creature or subject of the encounter or danger. You and your allies gain a +2 circumstance bonus to Initiative for the relevant encounter as long as it occurs within the next day. @UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.uARfEyHX1ni4NSHM]{Effect: Cryptic Murmurings}",
+						"Success": "You learn two interpretations of your riddle, one correct and one incorrect. For example, with “the shell walks the steps”, it may hint at a graveknight, or it may be about a crab-like jah-tohl patrolling the area. You and your allies gain a +1 circumstance bonus to Initiative for the relevant encounter as long as it occurs within the next day. @UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.uARfEyHX1ni4NSHM]{Effect: Cryptic Murmurings}",
+						"Failure": "You fail to decipher the riddle.",
+						"CriticalFailure": "You come to the wrong understanding. You learn an incorrect piece of information, such as only learning about jah-tohls. You and your allies have a –2 circumstance penalty to Initiative for the relevant encounter as long as it occurs within the next day. @UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.uARfEyHX1ni4NSHM]{Effect: Cryptic Murmurings}"
+					},
+					"TrepidationSpell": "If your next action is to Cast a Spell that is at least 2 ranks below your maximum rank and requires a Will save, the creature is also @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} on a failure or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} on a critical failure. If the creature is immune to emotion, fear, or mental effects, it is immune to this frightened condition.",
+					"TheLurkingStorm": "You deal half of the damage as bludgeoning damage and half the damage as electricity damage. First, roll the spell's damage as normal, then run this macro: @UUID[Compendium.pf2e-team-plus-oracles-remastered.macros.Macro.zXVHS0P36YHQTA1k]{The Lurking Storm}",
+					"EternalBanquet": "Effects with the olfactory trait can trigger your weakness.",
+					"OverwhelmingFestivities": {
+						"Title": "Overwhelming Festivities",
+						"Text": "When you fail a saving throw against an emotion effect or gain the frightened condition, you take @Damage[(2 + (ceil(@item.level /2)-1))d4[mental,persistent]] damage."
+					},
+					"EverpresentSonata": "When you attempt to Cast a Spell that does not have the auditory or sonic traits, you must attempt a @Check[flat|dc:10] or you lose the spell."
+				},
+				"AllowedDrops": {
+					"Weapon": "Weapon",
+					"Armour": "Armour",
+					"Heritage": "Heritage"
+				},
+				"Curios": {
+					"Armament": {
+						"AccursedCurio": "Your curio is armor which is worn. You become trained in medium and heavy armor and your curio armor is an armor of your choice that has the comfort trait in addition to its normal statistics.",
+						"CurioAdept": "You gain resistance to critical hits and precision damage equal to twice your cursebound value. You become an expert in proficiency with heavy, medium, and light armor as well as unarmored defense when you gain the Major Curse class feature.",
+						"WielderOfMysteries": "You gain armor specialization effects with your curio armor. For the purposes of specialization effects, treat light armor and unarmored defense as medium leather armor. You become a master in proficiency with heavy, medium, and light armor as well as unarmored defense when you gain the Extreme Curse class feature.",
+						"CuriosRevelation": "The target gains resistance to physical damage equal to twice your cursebound value, or thrice your cursebound value if your cursebound value is 3 or greater. These effects last until the beginning of your next turn or until they leave your aura of foresight. @UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.Fz8AuURnheTi95JT]{Effect: Reveal the Mystery (Armament)}",
+						"CuriosForm": "You increase the AC of your battle form by 1. <strong>Foundry Note</strong> The battleform code is uh, dubious. You'll just have to keep track of this manually."
+					},
+					"Charm": {
+						"AccursedCurio": "Your curio is a lucky item, which is L Bulk and worn. You become an expert in Reflex saves. You reduce damage you take from Reflex saves by your cursebound value.",
+						"CurioAdept": "When you roll a success on a basic Reflex save, you get a critical success instead. While cursebound, you reduce the damage you take from a basic Reflex save by twice your cursebound value.",
+						"WielderOfMysteries": "You become a master in Reflex saves. When you critically fail at a Reflex save, you get a failure instead. While cursebound, you reduce the damage you take from a Reflex save by thrice your cursebound value.",
+						"CuriosRevelation": "The target can roll twice on a Reflex save it makes and take the better result. These effects last until the beginning of your next turn or until they leave your aura of foresight. This is a fortune effect. @UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.CfxQmfeZmRW96FcC]{Effect: Reveal the Mystery (Charm)}",
+						"CuriosForm": "You increase the Speed of your battle form by 10 feet."
+					},
+					"Finery": {
+						"AccursedCurio": "Your curio is an outfit or special ware, which is worn. Anytime you gain the frightened condition, reduce its value by 1. While you’re cursebound, you have a status bonus to saves against fear effects equal to your cursebound value.",
+						"CurioAdept": "Allies in the aura of your Curio’s Foresight gain your status bonus to saves against fear effects. If you’re cursebound, when allies in the aura would reduce their frightened condition at the end of their turn, they reduce it by 2 instead of 1.",
+						"WielderOfMysteries": "You are immune to fear effects. You grant resistance to mental damage equal to twice your cursebound value to yourself and all allies within the aura of your Curio’s Foresight.",
+						"CuriosRevelation": "You reduce the target’s frightened condition by 1 or attempt to @Check[counteract] one ongoing mental effect it is suffering from, gaining a status bonus to your counteract check equal to your cursebound value. The counteract rank is equal to half your level rounded up.",
+						"CuriosForm": "You gain a +2 status bonus to Intimidation checks."
+					},
+					"Script": {
+						"AccursedCurio": "Your curio is a book or cryptic tome of some kind which is wielded in 1 hand. You become trained in one skill with the Recall Knowledge action and a Lore skill appropriate for your mystery. You gain the @UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]{Dubious Knowledge} skill feat. While you’re cursebound, you gain a status bonus to Recall Knowledge equal to your cursebound value.",
+						"CurioAdept": "You gain a skill increase to a skill with the Recall Knowledge action and to a Lore skill of your choice. Your allies deal additional damage equal to your cursebound value to creatures you have successfully used Recall Knowledge against while within the aura of Curio’s Foresight. @UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.GtF0Z0OrIa1z1L8Q]{Effect: Recalled Knowledge on from Script Curio}",
+						"WielderOfMysteries": "You can Recall Knowledge as a free action at the beginning of each of your turns when your aura of foresight is active. You grant allies a status bonus to Recall Knowledge checks equal to your cursebound value while within the aura of your Curio’s Foresight.",
+						"CuriosRevelation": "The target can Recall Knowledge as a free action with the flourish trait and it gains a status bonus to its check equal to your cursebound value. These effects last until the beginning of your next turn or until they leave your aura of foresight. @UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.QhMPcBQyDa2dQugQ]{Effect: Reveal the Mystery (Script)}",
+						"CuriosForm": "You can speak in your battle form even if it could not normally speak. If your battle form allows speech, you instead gain a +2 status bonus to Recall Knowledge."
+					},
+					"Tool": {
+						"AccursedCurio": "Your curio is a unique tool, which must be a toolkit or an item necessary to use a skill action, such as a crowbar or instrument which is wielded in the required number of hands or worn as tools. Choose a skill that requires a toolkit or an item to perform. The skill is your curio’s skill, in which you become trained and gain a 1st-level skill feat for that skill. At 2nd level, you become an expert in your curio’s skill. While you’re cursebound, you gain a +1 status bonus to skill checks you make that require the use of your curio.",
+						"CurioAdept": "You become a master in your curio’s skill. While cursebound, you can Stride 10 feet plus an additional 5 feet x your cursebound value ([[/r 10 + 5 * @actor.conditions.cursebound.value]] feet) as part of a skill action or activity of your curio’s skill by giving it the flourish trait. You must Stride before you use the skill action and you cannot Stride in this way if the skill action already has the flourish trait.",
+						"WielderOfMysteries": "You become legendary in your curio’s skill. You can use skill actions on valid targets within the aura of your Curio’s Foresight as if they were adjacent to you. If your cursebound value is 3 or greater, your status bonus to skill checks with your tools increases to +2.",
+						"CuriosRevelation": "The target becomes trained in your curio’s skill. If the target was already trained, they instead gain your status bonus to skill checks with the chosen skill and you reduce the DC of skill actions to target that ally by 2. These effects last until the beginning of your next turn or until they leave your aura of foresight. @UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.mQm3xqfHYU0ybFfC]{Effect: Reveal the Mystery (Tool)}",
+						"CuriosForm": "You have 2 hands in your battle form even if it would not normally allow hands. You retain the ability to use your tools while in your battle form."
+					},
+					"Utensil": {
+						"AccursedCurio": "Your curio is a simple utensil such as a glass or knife which is wielded in 1 hand. You become trained in Crafting and gain the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.Jkl5KOZih7MoMqAJ]{Quick Alchemy} benefits, creating up to 4 versatile vials during your daily preparations. You remember item formulas you learn from your curio and don’t need a formula book for them. You treat the hands used to wield your utensil as free for the purposes of actions related to your alchemy and for holding alchemical items.",
+						"CurioAdept": "You gain the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.Jkl5KOZih7MoMqAJ]{Advanced Alchemy} benefits. You can use advanced alchemy to create 4 alchemical consumables. When you create an alchemical item with Quick Alchemy while cursebound, the item gains a status bonus to damage and healing equal to twice your cursebound value. This applies only to the initial damage or healing the alchemical item deals when Activated. An individual creature takes this damage or benefits from this healing only once per Activation, even if it would damage or heal that creature multiple times.",
+						"WielderOfMysteries": "The number of versatile vials you gain during your daily preparations increases to 5. The status bonus to damage and healing increases to thrice your cursebound value.",
+						"CuriosRevelation": "You can use Quick Alchemy and immediately throw the created item to an ally within your aura. The ally must have a hand free and must spend their reaction to catch the item with your throw being the trigger. The item remains until the end of the allies next turn instead of the end of your turn or until they leave your aura of foresight.",
+						"CuriosForm": "You can use Quick Alchemy in your battle form."
+					},
+					"Weapon": {
+						"AccursedCurio": "Your curio is a weapon which is wielded in the required number of hands. You gain the @UUID[Compendium.pf2e.feats-srd.Item.x9wxQ61HNkAVbDHr]{Weapon Proficiency} general feat. You deal additional damage equal to your cursebound value on Strikes with your weapon and critical hits you make with your weapons gain the weapon's critical specialization benefit while you’re cursebound.",
+						"CurioAdept": "You gain @UUID[Compendium.pf2e.feats-srd.Item.NMWXHGWUcZGoLDKb]{Reactive Strike} as an oracle feat.",
+						"WielderOfMysteries": "You gain an additional reaction each turn which you can only use for Reactive Strike. You increase the additional damage on Strikes with your curio weapon to be twice your cursebound value.",
+						"CuriosRevelation": "The target gains a status bonus equal to the status bonus to AC on the attack roll and damage of the first Strike it makes against an enemy in your aura of foresight. This includes the increased status bonus against creatures you successfully made your Perception check from Curio’s Foresight against. These effects last until the beginning of your next turn or until they leave your aura of foresight. @UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.xgOChgPTCFr6MjHJ]{Effect: Reveal the Mystery (Weapon)}",
+						"CuriosForm": "You apply effects that would apply to your curio weapon Strikes, such as the status bonuses to damage, to the Strikes granted by your battle form."
+					}
+				}
+			}
+		}
+	},
+	"SF2E": {
+		"Trait": { "Traversal": "Traversal" },
+		"TraitDescription": {
+			"Traversal": "These abilities can easily be adapted for other forms of movement. An action with this trait includes one or more Stride actions but can be easily adapted to other modes of movement. You can substitute a Burrow, Climb, Fly, or Swim action in place of any Stride actions if you have the corresponding movement type. (Any adjustments to the Stride, such as gaining a bonus or penalty to your Speed, still apply to the substituted movement type.)"
+		}
+	}
+}
