@@ -186,7 +186,7 @@
         },
         "Spirit of the Rushing River": {
             "name": "奔涌河流之精魂 Spirit of the Rushing River",
-            "description": "<p>你的神使通过将你变形为奔涌流水的元素化身来协助你，该形态持续1分钟。你已接近实现自己的命运，如同狂暴河流的水流，没有任何东西能阻挡你前进。这使你获得虫群与水（特征），免疫于无法移动、擒拿和束缚（状态）状态；你获得等于自身等级一半的火焰与物理伤害抗力，以及等于自身等级一半的区域与泼水伤害弱点。你可以进入仅有几英寸宽的空间。你不会获得母巢思维能力，因此你仍会正常受到心灵效果影响。作为虫群，你不能说话、施放法术、使用需要双手的操作动作、启动你的魔法物品，或用你正常的躯体进行任何打击。你获得「激流奔涌」动作。你会保持此形态1分钟，或直到你解消此次启动。</p>"
+            "description": "<p>你的神使通过将你变形为奔涌流水的元素化身来协助你，该形态持续1分钟。你已接近实现自己的命运，如同狂暴河流的水流，没有任何东西能阻挡你前进。这使你获得虫群与水（特征），免疫于无法移动、擒拿和束缚（状态）状态；你获得等于自身等级一半的火焰与物理伤害抗力，以及等于自身等级一半的区域与溅射伤害弱点。你可以进入仅有几英寸宽的空间。你不会获得母巢思维能力，因此你仍会正常受到心灵效果影响。作为虫群，你不能说话、施放法术、使用需要双手的操作动作、启动你的魔法物品，或用你正常的躯体进行任何打击。你获得「激流奔涌」动作。你会保持此形态1分钟，或直到你解消此次启动。</p>"
         },
         "Multiversal Starlit God Form": {
             "name": "多元宇宙星辉神祇形态 Multiversal Starlit God Form",
@@ -199,7 +199,7 @@
         },
         "Pill Condensation": {
             "name": "药丸凝缩 Pill Condensation",
-            "description": "<p>你可以像培育气一样，将你的炼金灵药的力量凝炼并净化，直到剩下的是一团坚实、封装起来的浓缩能量。当你制作一种灵药时，你可以改为将其准备成药丸。吃喝药丸的生物必须尝试进行一次对抗你的职业DC或法术DC（取较高者）的 @Check[fortitude|against:class-spell] 豁免骰，并且在失败时陷入 @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心}，在大失败时陷入 @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心}。对于因吃喝药丸而对恶心（状态）进行的豁免骰，你获得比掷骰结果高一级的确定成功度。药丸失去灵药（特征），其持续时间变为正常灵药的双倍，并将其效果的骰子体型提升一级（最大为 d12），但这些效果不会在药丸被吃喝后立即开始，而是在 1轮后才开始生效。药丸可以作为同一个交交互作的一部分被拔出并吃喝。</p>",
+            "description": "<p>你可以像培育气一样，将你的炼金灵药的力量凝炼并净化，直到剩下的是一团坚实、封装起来的浓缩能量。当你制作一种灵药时，你可以改为将其准备成药丸。吃喝药丸的生物必须尝试进行一次对抗你的职业DC或法术DC（取较高者）的 @Check[fortitude|against:class-spell] 豁免骰，并且在失败时陷入 @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心}，在大失败时陷入 @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心}。对于因吃喝药丸而对恶心（状态）进行的豁免骰，你获得比掷骰结果高一级的确定成功度。药丸失去灵药（特征），其持续时间变为正常灵药的双倍，并将其效果的骰子体型提升一级（最大为 d12），但这些效果不会在药丸被吃喝后立即开始，而是在 1轮后才开始生效。药丸可以作为同一个交互的一部分被拔出并吃喝。</p>",
             "prerequisites": [
                 {
                     "value": "外部炼金术"
@@ -295,7 +295,7 @@
         },
         "Butting In": {
             "name": "插手 Butting In",
-            "description": "<p><strong>需求</strong> 你正持用一把珉中武器</p><hr /><p>敌人犯下了无视你的错误，而你立即用武器的柄端猛击其手部。你对由反击打击授予的打击获得+1环境加值；此外，现在除了操纵动作外，它在重击时还会打断触发的远程攻击和移动动作。</p>",
+            "description": "<p><strong>需求</strong> 你正持用一把珉中武器</p><hr /><p>敌人犯下了无视你的错误，而你立即用武器的柄端猛击其手部。你对由反应打击授予的打击获得+1环境加值；此外，现在除了操纵动作外，它在重击时还会打断触发的远程攻击和移动动作。</p>",
             "prerequisites": [
                 {
                     "value": "米纳坦战士献身"
@@ -335,7 +335,7 @@
             "description": "<p>长时间的练习与自我连接让你找到了真正的自我。你获得一个你为“Lingering Anamnesis”所选择的族裔的5级或以下族裔专长。</p><p><strong>强化</strong> 你还会从所选族裔中获得一个9级或以下的族裔专长。</p>",
             "prerequisites": [
                 {
-                    "value": "残留记忆 পুনর্জাগրণ"
+                    "value": "残留记忆"
                 }
             ]
         },
@@ -378,7 +378,7 @@
             "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span> 打击</p><hr /><p>这个玻璃球中装着两种彼此分离的液体：一种是病态的黄色油液，另一种是来自地底龙类的、颜色刺眼的绿色蒸馏唾液。摇晃后掷出时，它会爆裂成刺鼻的火种。这是年轻的地底龙类祝龙为围攻鬼神阴魔的堡垒而研发的武器，相比生物，它对物体造成的伤害更大。一瓶祝龙之液会造成3d8酸性伤害和4d4持续性酸性伤害，但对未被持握的生命物品会造成双倍伤害。受到双倍伤害的非魔法生命物品，每次被命中时其硬度还会永久降低1——如果其硬度将被降低到小于0，则其获得等于1的酸性伤害和火焰伤害弱点；如果其已经具有弱点，则这些数值各增加1。炸弹目标5尺内的易燃物体会立即起火，无论炸弹的攻击掷骰结果如何，都会在每轮受到1d4火焰伤害，直到火焰被扑灭。许多类型会给予攻击掷骰物品加值。</p>"
         },
         "Compass of Luong Phung": {
-            "name": "罗盘·Luong Phung Compass of Luong Phung",
+            "name": "梁冯之罗盘 Compass of Luong Phung",
             "description": "<p>寻找海蛇并不容易——除非你愿意在海上等待，带上供品并赢得它们的青睐。即便如此，你也可能发现自己身处飓风眼中。接触这枚罗盘时，你会感到一阵镇静与宽慰，仿佛终于迎来了顺风。</p><p><strong>护甲</strong> 你在驾驶水上载具的检定中获得+1物品加值。</p><p><strong>武器</strong> 当罗盘被固定其上时，该武器具有水下符文。</p><p><strong>启动</strong> 施放法术；<strong>效果</strong> 你施放<em>@UUID[Compendium.pf2e.spells-srd.tXa5vOu5giBNCjdR]{指路术}</em>。除了该戏法的效果外，罗盘本身还会在1分钟内指向一只海龙的大致方向，并且随着你愈发接近，指针会发出更明亮的光芒。若你在暗夜将罗盘与海龙星座对齐，则会改为生成一道持续1分钟的光束，以再次找到Luong Phung。</p>"
         },
         "Cocoon": {
@@ -395,7 +395,7 @@
         },
         "Rhythm of a Thousand Souls": {
             "name": "千魂之律 Rhythm of a Thousand Souls",
-            "description": "<p><strong>需求</strong> 你正处于春秋道的效果影响下。</p><hr /><p>洞察与肾上腺素揭示了万物之间的联系，无论是在你内在之歌中，还是在敌人的节律之中。选择一个你能看见的生物并掷一个 d20。在你的下个回合开始之前，下次你对所选生物进行 Strike，或针对其制造的一个效果尝试进行豁免骰时，你可以使用这次掷骰的结果来代替重新掷骰。在你的下个回合开始之前，除非你使用这个结果，否则你不能对该生物进行 Strike。</p>",
+            "description": "<p><strong>需求</strong> 你正处于春秋道的效果影响下。</p><hr /><p>洞察与肾上腺素揭示了万物之间的联系，无论是在你内在之歌中，还是在敌人的节律之中。选择一个你能看见的生物并掷一个 d20。在你的下个回合开始之前，下次你对所选生物进行打击，或针对其制造的一个效果尝试进行豁免骰时，你可以使用这次掷骰的结果来代替重新掷骰。在你的下个回合开始之前，除非你使用这个结果，否则你不能对该生物进行打击。</p>",
             "prerequisites": [
                 {
                     "value": "春祖都"
@@ -503,7 +503,7 @@
         },
         "Reach Through Air": {
             "name": "穿过空气触及 Reach Through Air",
-            "description": "<p>你学会将气劲投射到躯体之外，延伸你的攻击。进行一次近战 Strike，此次打击的触及增加 5尺。若该徒手攻击或武器具有卸武、推撞或摔绊特征，你可以改为使用对应的动作，而非进行 Strike。</p><p><strong>Energize</strong> 触及改为增加 15尺，而非 5尺。</p>",
+            "description": "<p>你学会将气劲投射到躯体之外，延伸你的攻击。进行一次近战打击，此次打击的触及增加 5尺。若该徒手攻击或武器具有卸武、推撞或摔绊特征，你可以改为使用对应的动作，而非进行打击。</p><p><strong>充能</strong> 触及改为增加 15尺，而非 5尺。</p>",
             "prerequisites": [
                 {
                     "value": "气塑者献身"
@@ -525,7 +525,7 @@
         },
         "Form of the Imperial": {
             "name": "帝王形态 Form of the Imperial",
-            "description": "<p>你已学会呈现你的龙类形态。如果你的下一个动作是施放<em>@UUID[Compendium.pf2e-team-plus-tian-xia.player-options.V3GVl8DGAwp8HvOK]{帝龙频道}</em>，你还会获得一个<em>@UUID[Compendium.pf2e.spells-srd.5c692cCcTDXjSEzk]{巨龙形态}</em>的效果，其法术环阶提升至等于你等级一半并向上取整的环阶。你必须为你的战斗形态选择你的帝龙。处于该战斗形态时，你可以使用你从此变体中获得的动作和行动。</p>",
+            "description": "<p>你已学会呈现你的龙类形态。如果你的下一个动作是施放<em>@UUID[Compendium.pf2e-team-plus-tian-xia.player-options.V3GVl8DGAwp8HvOK]{引导帝龙}</em>，你还会获得一个<em>@UUID[Compendium.pf2e.spells-srd.5c692cCcTDXjSEzk]{巨龙形态}</em>的效果，其法术环阶提升至等于你等级一半并向上取整的环阶。你必须为你的战斗形态选择你的帝龙。处于该战斗形态时，你可以使用你从此变体中获得的动作和行动。</p>",
             "prerequisites": [
                 {
                     "value": "帝龙使者献身"
@@ -571,7 +571,7 @@
             ]
         },
         "Bird's Eye View": {
-            "name": "鸟类瞰 दृश्य Bird's Eye View",
+            "name": "鸟瞰视角 Bird's Eye View",
             "description": "<p>你呼唤鸟群，将其知识分享给你。你在持续时间内获得母巢思维能力。此外，在持续时间内，你可以用宗教代替正常的技能进行所有回忆知识检定，且当你如此做时，你的确定成功度视为提升一级。</p>"
         },
         "Frighten Prey": {
@@ -606,8 +606,8 @@
             ]
         },
         "Hongali Weapon Familiarity": {
-            "name": "洪加利武器熟悉 Hongali Weapon Familiarity",
-            "description": "<p>自幼起，你便接受了传统弘阿里武器的训练，其中包括著名的弘阿里角弓。当你持握 @UUID[Compendium.pf2e.equipment-srd.rQWaJhI5Bko5x14Z]{匕首}、@UUID[Compendium.pf2e.equipment-srd.aXuJh4i8HqSu6NYV]{长矛}，或 @UUID[Compendium.pf2e.equipment-srd.tOhoGvmCMw4JpWcS]{矛} 时，将其伤害骰体型提高一级。你熟悉 @UUID[Compendium.pf2e.equipment-srd.War0uyLBx1jA0Ge7]{战斧}、@UUID[Compendium.pf2e.equipment-srd.e4NwsnPnpQKbDZ9F]{复合短弓}、@UUID[Compendium.pf2e.equipment-srd.a5DlDpB3RuSIvLIC]{弘阿里角弓} 和 @UUID[Compendium.pf2e.equipment-srd.hIgqLgH3YcLZBeoT]{短弓}——就熟练度而言，你将其中任何军用武器视为简易武器，并将任何高等武器视为军用武器。</p><p>在5级时，每当你以这些武器之一造成重击时，你获得其重击专精效果。</p>",
+            "name": "洪阿里武器熟悉 Hongali Weapon Familiarity",
+            "description": "<p>自幼起，你便接受了传统洪阿里武器的训练，其中包括著名的洪阿里角弓。当你持握 @UUID[Compendium.pf2e.equipment-srd.rQWaJhI5Bko5x14Z]{匕首}、@UUID[Compendium.pf2e.equipment-srd.aXuJh4i8HqSu6NYV]{长矛}，或 @UUID[Compendium.pf2e.equipment-srd.tOhoGvmCMw4JpWcS]{矛} 时，将其伤害骰体型提高一级。你熟悉 @UUID[Compendium.pf2e.equipment-srd.War0uyLBx1jA0Ge7]{战斧}、@UUID[Compendium.pf2e.equipment-srd.e4NwsnPnpQKbDZ9F]{复合短弓}、@UUID[Compendium.pf2e.equipment-srd.a5DlDpB3RuSIvLIC]{洪阿里角弓} 和 @UUID[Compendium.pf2e.equipment-srd.hIgqLgH3YcLZBeoT]{短弓}——就熟练度而言，你将其中任何军用武器视为简易武器，并将任何高等武器视为军用武器。</p><p>在5级时，每当你以这些武器之一造成重击时，你获得其重击专精效果。</p>",
             "prerequisites": [
                 {
                     "value": "洪嘎利驭马领主献身"
@@ -664,7 +664,7 @@
         },
         "Chun Jo Do": {
             "name": "春祖都 Chun Jo Do",
-            "description": "<p>自从乔亚加建成以来，已有无数代修道骑士为其效力，而你是其中最新的一员。你时常沉思毗提婆的一条教诲，并让它引导你服务社群。你首次获得此专长时，从以下选项中选择一项，获得通过你的躯体引导它的能力。当你使用这个动作时，你获得所选项的效果，持续1分钟。</p><hr /><p><strong>Kyung Seong</strong> 你的移动带着不受拘束的优雅，如飞行中的鸟类。你的各项速度获得+10尺状态加值。如果你至少为13级，除了正常效果外，你还获得飞行术的效果。</p><p><strong>Jung Seong</strong> 你以一种充满争胜心的方式感受世界，坚定地将自己锚定于此刻。你的擒拿检定获得+1状态加值，且你对抗强迫移动以及会使你陷入倒地（状态）的效果时，强韧豁免获得+1状态加值。如果你至少为13级，该状态加值提高为+2。</p><p><strong>Chyel Seong</strong> 你的四肢变得如钢铁般耀光，在神术低语的引导下用于防御。你的拳击获得招架特征，且当你使用这个动作时，你获得招架的效果。当该效果生效期间，若你正受益于招架提供的环境加值，你可以花费你的反应动作来使伤害减少等同于你等级的数值。如果你至少为13级，你拳击的招架所提供的环境加值改为+2而非+1。</p><p><strong>Ma Seong</strong> 你的躯体对痛苦与喜悦同样变得感官麻木；即便躯体衰败，你的奉献仍旧坚韧术。你获得对精准伤害和重击的抗力，数值等同于你的等级。如果你至少为13级，该抗力改为等同于你等级的两倍，而非你的等级。</p><p><strong>Shin Seong</strong> 你的心智被崇高的警觉所充满，使你在危急处境中保持镇定。你对情绪效果获得+1状态加值，且在你的回合结束时，你的惊惧（状态）值减少2，而非1。如果你至少为13级，该状态加值提高为+2，且每当你获得惊惧（状态）时，其值减少1。</p><hr /><p><strong>特殊</strong> 你可以多次选择此专长，每次都会获得一种可用于 Chun Jo Do 的新效果许可。</p>",
+            "description": "<p>自从乔亚加建成以来，已有无数代修道骑士为其效力，而你是其中最新的一员。你时常沉思毗提婆的一条教诲，并让它引导你服务社群。你首次获得此专长时，从以下选项中选择一项，获得通过你的躯体引导它的能力。当你使用这个动作时，你获得所选项的效果，持续1分钟。</p><hr /><p><strong>Kyung Seong</strong> 你的移动带着不受拘束的优雅，如飞行中的鸟类。你的各项速度获得+10尺状态加值。如果你至少为13级，除了正常效果外，你还获得飞行术的效果。</p><p><strong>Jung Seong</strong> 你以一种充满争胜心的方式感受世界，坚定地将自己锚定于此刻。你的擒拿检定获得+1状态加值，且你对抗强迫移动以及会使你陷入倒地（状态）的效果时，强韧豁免获得+1状态加值。如果你至少为13级，该状态加值提高为+2。</p><p><strong>Chyel Seong</strong> 你的四肢变得如钢铁般耀光，在神术低语的引导下用于防御。你的拳击获得招架特征，且当你使用这个动作时，你获得招架的效果。当该效果生效期间，若你正受益于招架提供的环境加值，你可以花费你的反应动作来使伤害减少等同于你等级的数值。如果你至少为13级，你拳击的招架所提供的环境加值改为+2而非+1。</p><p><strong>Ma Seong</strong> 你的躯体对痛苦与喜悦同样变得感官麻木；即便躯体衰败，你的奉献仍坚韧不拔。你获得对精准伤害和重击的抗力，数值等同于你的等级。如果你至少为13级，该抗力改为等同于你等级的两倍，而非你的等级。</p><p><strong>Shin Seong</strong> 你的心智被崇高的警觉所充满，使你在危急处境中保持镇定。你对情绪效果获得+1状态加值，且在你的回合结束时，你的惊惧（状态）值减少2，而非1。如果你至少为13级，该状态加值提高为+2，且每当你获得惊惧（状态）时，其值减少1。</p><hr /><p><strong>特殊</strong> 你可以多次选择此专长，每次都会获得一种可用于 Chun Jo Do 的新效果许可。</p>",
             "prerequisites": [
                 {
                     "value": "朝鲜人神社守护者献身"
@@ -751,7 +751,7 @@
         },
         "Birds of a Feather": {
             "name": "鸟类一丘之貉 Birds of a Feather",
-            "description": "<p>你与麻雀一同训练了如此之久，以至于你天生便已加入它们的群 flock。选择 @UUID[Compendium.pf2e.spells-srd.Xxdwkt0EEDgP1LGc]{力量之歌}作曲戏法，或 @UUID[Compendium.pf2e.spells-srd.4EmLum6EdvXxbxCj]{群鸟掠心}妖术戏法之一。你分别获得所选法术，作为一个神术作曲戏法或一个神术妖术戏法。此选择一经作出，便无法更改。</p>",
+            "description": "<p>你与麻雀一同训练了如此之久，以至于你天生便已加入它们的鸟群。选择 @UUID[Compendium.pf2e.spells-srd.Xxdwkt0EEDgP1LGc]{力量之歌}作曲戏法，或 @UUID[Compendium.pf2e.spells-srd.4EmLum6EdvXxbxCj]{群鸟掠心}妖术戏法之一。你分别获得所选法术，作为一个神术作曲戏法或一个神术妖术戏法。此选择一经作出，便无法更改。</p>",
             "prerequisites": [
                 {
                     "value": "朝鲜人神社守护者献身"
@@ -885,7 +885,7 @@
         },
         "Vocal Mediation": {
             "name": "言语调解 Vocal Mediation",
-            "description": "<p>你的训练使你对自身躯体的自然机能拥有更强的控制，并且你能够运用内在之歌，在更短时间的休整中帮助自己和盟友恢复。你花费 10分钟进行冥想，同时通过表演运用你的内在之歌，进行一次对抗你的等级标准 DC 的 @Check[performance|dc:@self.level] 检定。</p><hr /><p><strong>大成功</strong> 你和你 30尺内的盟友恢复等同于你等级两倍的生命值，若原本具有疲乏（状态）则失去该状态，并将末日和流失（状态）的严重程度降低 2。</p><p><strong>成功</strong> 如同成功，但恢复的生命值改为等同于你的等级，且末日和流失（状态）的严重程度仅降低 1。</p>",
+            "description": "<p>你的训练使你对自身躯体的自然机能拥有更强的控制，并且你能够运用内在之歌，在更短时间的休整中帮助自己和盟友恢复。你花费 10分钟进行冥想，同时通过表演运用你的内在之歌，进行一次对抗你的等级标准 DC 的 @Check[performance|dc:@self.level] 检定。</p><hr /><p><strong>大成功</strong> 你和你 30尺内的盟友恢复等同于你等级两倍的生命值，若原本具有疲乏（状态）则失去该状态，并将毁灭和流失（状态）的严重程度降低 2。</p><p><strong>成功</strong> 如同成功，但恢复的生命值改为等同于你的等级，且毁灭和流失（状态）的严重程度仅降低 1。</p>",
             "prerequisites": [
                 {
                     "value": "朝鲜人神社守护者献身"
@@ -915,7 +915,7 @@
         },
         "Line of Succession": {
             "name": "继承顺位 Line of Succession",
-            "description": "<p><strong>触发</strong> 你将被降至0 生命值。</p><p><strong>需求</strong> 你正在引导你的龙类，且在 60尺内有至少一名你能看见的盟友。</p><hr /><p>优秀的统治者总会有应急预案。选择一名 60尺内的盟友，指定其承担保全继承序列的职责。该盟友获得 40点临时生命值、AC 和为使其更接近你的动作或行动所进行的技能检定获得 +2状态加值，持续 1分钟。该盟友在其每个回合中必须至少花费 1 个动作向你移动，或使用一个交交互作来接触你。当你的盟友使用一个交交互作接触你时，你立即恢复 @Damage[20[healing]] 生命值，@UUID[Compendium.pf2e.actionspf2e.OdIUybJ3ddfL7wzj]{站立}，并开始 @UUID[Compendium.pf2e-team-plus-tian-xia.player-options.V3GVl8DGAwp8HvOK]{帝龙频道}，使用你在被降至0 生命值之前「引导帝龙」剩余的持续时间。以这种方式失去濒死（状态）时，你不会获得 @UUID[Compendium.pf2e.conditionitems.Yl48xTdMh3aeQYL2]{受伤1级} 状态；若你已具有该状态，则你的受伤值不会增加 1。在你的盟友使用一个交交互作接触你之后，他们不再需要在其每个回合中至少花费 1 个动作向你移动或接触你。</p><p>@UUID[Compendium.pf2e-team-plus-tian-xia.misc.F8WOIWRiYH5kDvKn]{效果：继承顺位}</p>",
+            "description": "<p><strong>触发</strong> 你将被降至0 生命值。</p><p><strong>需求</strong> 你正在引导你的龙类，且在 60尺内有至少一名你能看见的盟友。</p><hr /><p>优秀的统治者总会有应急预案。选择一名 60尺内的盟友，指定其承担保全继承序列的职责。该盟友获得 40点临时生命值、AC 和为使其更接近你的动作或行动所进行的技能检定获得 +2状态加值，持续 1分钟。该盟友在其每个回合中必须至少花费 1 个动作向你移动，或使用一个交互来接触你。当你的盟友使用一个交互接触你时，你立即恢复 @Damage[20[healing]] 生命值，@UUID[Compendium.pf2e.actionspf2e.OdIUybJ3ddfL7wzj]{站立}，并开始 @UUID[Compendium.pf2e-team-plus-tian-xia.player-options.V3GVl8DGAwp8HvOK]{引导帝龙}，使用你在被降至0 生命值之前「引导帝龙」剩余的持续时间。以这种方式失去濒死（状态）时，你不会获得 @UUID[Compendium.pf2e.conditionitems.Yl48xTdMh3aeQYL2]{受伤1级} 状态；若你已具有该状态，则你的受伤值不会增加 1。在你的盟友使用一个交互接触你之后，他们不再需要在其每个回合中至少花费 1 个动作向你移动或接触你。</p><p>@UUID[Compendium.pf2e-team-plus-tian-xia.misc.F8WOIWRiYH5kDvKn]{效果：继承顺位}</p>",
             "prerequisites": [
                 {
                     "value": "帝龙使者献身"
@@ -940,7 +940,7 @@
         },
         "Body of the Kami Dedication": {
             "name": "神灵之躯体献身 Body of the Kami Dedication",
-            "description": "<p>一位神灵与你的灵魂相系，在保护你的同时引导你去履行某种可能的命运。你在自然上成为受训；如果你已经受训，则在自然上成为专家。你与一位神灵缔结联系，它会在你的旅途中为你提供建议，并根据你的行为改变它对你的态度。</p><p><strong>诫命</strong> 保护自然与荒野，保护无辜者，反对贪婪以及对自然世界的剥削 </p><p><strong>禁忌</strong> 渴求肉体享乐，在文明的统治体系内寻求权力</p><p>如果你做出足够多对你的神灵而言属于禁忌的行为，你会失去你从此变体获得的魔法属性以及任何动作。只有在你通过进行一次赎罪仪式而忏悔后，这些属性才能恢复。你获得以下自由动作中的一个，由你的神灵显现并向你提供协助。</p><p>在你使用了一个从此变体获得的动作或行动后，你的神灵能量会被耗尽，并且在1小时内无法再次协助你。</p>",
+            "description": "<p>一位神灵与你的灵魂相系，在保护你的同时引导你去履行某种可能的命运。你在自然上成为受训；如果你已经受训，则在自然上成为专家。你与一位神灵缔结联系，它会在你的旅途中为你提供建议，并根据你的行为改变它对你的态度。</p><p><strong>典范</strong> 保护自然与荒野，保护无辜者，反对贪婪以及对自然世界的剥削 </p><p><strong>禁忌</strong> 渴求肉体享乐，在文明的统治体系内寻求权力</p><p>如果你做出足够多对你的神灵而言属于禁忌的行为，你会失去你从此变体获得的魔法属性以及任何动作。只有在你通过进行一次赎罪仪式而忏悔后，这些属性才能恢复。你获得以下自由动作中的一个，由你的神灵显现并向你提供协助。</p><p>在你使用了一个从此变体获得的动作或行动后，你的神灵能量会被耗尽，并且在1小时内无法再次协助你。</p>",
             "prerequisites": [
                 {
                     "value": "你曾在精魂之森或神灵存在的地点冒死捍卫自然"
@@ -1085,7 +1085,7 @@
             ]
         },
         "Lingering Anamnesis": {
-            "name": "残留记忆 পুনর্জাগրণ Lingering Anamnesis",
+            "name": "残留记忆 Lingering Anamnesis",
             "description": "<p>你记得一些自己在成为自动机之前拥有的属性和技能。从你生前所属的族裔中选择一个不具有构装体特征的族裔。所选族裔是你前世的族裔。你获得一个1级的武器熟悉族裔专长，或一个授予「额外学识」技能专长的1级族裔专长。你所选择的族裔专长必须来自你所选的族裔。</p><p><strong>强化</strong> 再从所选族裔中获得一个额外的1级族裔专长，只要该族裔专长不要求你所缺乏的任何生理特征即可。</p>",
             "prerequisites": [
                 {
@@ -1159,7 +1159,7 @@
         },
         "Chorus Made Manifest": {
             "name": "显现之合唱团 Chorus Made Manifest",
-            "description": "<p>你将 Phi Deva 导入自己的物理形态中。持续 1分钟，你获得将形态从当前形态转变为战斗形态的能力；该战斗形态类似于由无数鸟类组成的鸟群，是由麻雀形状的暗影与羽毛闪动构成的微型生物。你可以将此形态作为施放此法术的一部分来进入，并且在持续时间内，你可以用带有专注（特征）的单动作在你的正常形态与战斗形态之间切换。当处于此形态时，你获得动物与集群（特征）。你不会获得母巢思维能力，因此你仍会正常受到心灵效果的影响。你可以解消该法术。</p><p>你获得以下数据和能力：</p><ul><li><p>你获得对物理伤害的抗力 8，以及对区域与泼水伤害的弱点 8。</p></li><li><p>你可以进入只有几英寸宽的空间，让你的鸟群穿过缝隙移动。</p></li><li><p>昏暗视觉，以及 60尺的飞行速度。</p></li><li><p>你获得「合唱集群攻击」，它对 15尺锥形内的所有生物造成 4d6点音波伤害，并进行基础强韧豁免；你可以用单动作使用它。强韧豁免大失败的生物还会耳聋 1轮。处于此形态时，你不能进行打击。</p></li></ul>"
+            "description": "<p>你将 Phi Deva 导入自己的物理形态中。持续 1分钟，你获得将形态从当前形态转变为战斗形态的能力；该战斗形态类似于由无数鸟类组成的鸟群，是由麻雀形状的暗影与羽毛闪动构成的微型生物。你可以将此形态作为施放此法术的一部分来进入，并且在持续时间内，你可以用带有专注（特征）的单动作在你的正常形态与战斗形态之间切换。当处于此形态时，你获得动物与集群（特征）。你不会获得母巢思维能力，因此你仍会正常受到心灵效果的影响。你可以解消该法术。</p><p>你获得以下数据和能力：</p><ul><li><p>你获得对物理伤害的抗力 8，以及对区域与溅射伤害的弱点 8。</p></li><li><p>你可以进入只有几英寸宽的空间，让你的鸟群穿过缝隙移动。</p></li><li><p>昏暗视觉，以及 60尺的飞行速度。</p></li><li><p>你获得「合唱集群攻击」，它对 15尺锥形内的所有生物造成 4d6点音波伤害，并进行基础强韧豁免；你可以用单动作使用它。强韧豁免大失败的生物还会耳聋 1轮。处于此形态时，你不能进行打击。</p></li></ul>"
         },
         "Zodiac Spirit": {
             "name": "黄道精魂 Zodiac Spirit",
@@ -1181,7 +1181,7 @@
         },
         "Monstrous Turn": {
             "name": "怪物回合 Monstrous Turn",
-            "description": "<p><strong>触发</strong> 当一个生物在你对其处于@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}时，对你进行一次近战 Strike。</p><hr /><p>当敌人试图趁你不备时，你突然将脸变形到背后，正面迎上他们。在触发的攻击发生之前，进行一次威吓检定，以对攻击者施展挫败士气。</p>",
+            "description": "<p><strong>触发</strong> 当一个生物在你对其处于@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}时，对你进行一次近战打击。</p><hr /><p>当敌人试图趁你不备时，你突然将脸变形到背后，正面迎上他们。在触发的攻击发生之前，进行一次威吓检定，以对攻击者施展挫败士气。</p>",
             "prerequisites": [
                 {
                     "value": "付丧傀儡传承"
@@ -1203,7 +1203,7 @@
         },
         "Pham Lê Ngọc's Sightglasses": {
             "name": "范黎玉的观景眼镜 Pham Lê Ngọc's Sightglasses",
-            "description": "<p>这枚观景镜是一块带有轻微虹彩光泽的圆形玻璃，镶嵌在带有掩蔽盖的黄铜环中。装置闭合时，它看起来像一枚猎表式怀表，盖子上压印着范黎玉的私人海豹纹章。</p><hr /><p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）你要么打开装置并将其举到眼前，要么合上装置并将其穿戴。该物品的效果会根据你的用法而改变。</p><p><strong>手持</strong> 当你透过观景镜阅读时，你可以理解作为书面语言的龙语含义。此效果不能让你理解密码、使用隐喻包裹的语言等内容（由GM裁定）。你无需灌注即可使用此效果。</p><p><strong>穿戴</strong> 在侠会境内时，你的社群检定获得+2物品加值，同时你的所有侠会学识检定也获得该加值。</p>"
+            "description": "<p>这枚观景镜是一块带有轻微虹彩光泽的圆形玻璃，镶嵌在带有掩蔽盖的黄铜环中。装置闭合时，它看起来像一枚猎表式怀表，盖子上压印着范黎玉的私人印章。</p><hr /><p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）你要么打开装置并将其举到眼前，要么合上装置并将其穿戴。该物品的效果会根据你的用法而改变。</p><p><strong>手持</strong> 当你透过观景镜阅读时，你可以理解作为书面语言的龙语含义。此效果不能让你理解密码、使用隐喻包裹的语言等内容（由GM裁定）。你无需灌注即可使用此效果。</p><p><strong>穿戴</strong> 在侠会境内时，你的社群检定获得+2物品加值，同时你的所有侠会学识检定也获得该加值。</p>"
         },
         "Lesson of Impermanence": {
             "name": "无常训诫 Lesson of Impermanence",
@@ -1397,7 +1397,7 @@
             "description": "<p><strong>先决条件</strong> 天夏语、还语或米卡尼亚语</p><hr /><p>古代圣贤王者的美德，最好通过天族宫廷的惯用语与典故来理解和表达。你习得龙语和天族语。此外，当你尝试一项使用龙语、天族语、还语、天夏语或米卡尼亚语的语言学动作或行动时，你可以用社交代替外交来 @UUID[Compendium.pf2e.actionspf2e.OX4fy22hQgUHDr0q]{建立印象}，并用社交代替表演来 @UUID[Compendium.pf2e.actionspf2e.EEDElIyin4z60PXx]{表演}。</p>"
         },
         "Channel Imperial Dragon": {
-            "name": "帝龙频道 Channel Imperial Dragon",
+            "name": "引导帝龙 Channel Imperial Dragon",
             "description": "<p>你引导你所结盟的帝龙之力。你开始引导你的龙类，获得你的龙类类型对应的特征。你获得等同于你等级一半的抗力，用于抵抗你的龙类的伤害类型；并且对具有此特征的效果的豁免获得+1状态加值。</p><p>@UUID[Compendium.pf2e-team-plus-tian-xia.misc.Item.T1anyR2H0dGPnaYa]{效果：引导帝龙}</p><p>你可以维持该法术，使你直到下个回合结束前，对外交和威吓的检定获得+1状态加值。该法术获得与你的龙类相关联的根源。</p><p>@UUID[Compendium.pf2e-team-plus-tian-xia.misc.Item.iGhsifgRECSITO8i]{效果：引导帝龙（维持）}</p><hr /><p><strong>升阶（+3）</strong> 对外交和威吓的状态加值提高1。</p>"
         },
         "Nascent Soul": {
@@ -1501,7 +1501,7 @@
         },
         "Incredible Eagle": {
             "name": "不可思议的鹰 Incredible Eagle",
-            "description": "<p>你的鹰威严无比，在力量与辉光上远胜任何其他猛禽。为你的宠物鹰从以下魔宠属性中选择两项，使其获得这些属性：@UUID[Compendium.pf2e.familiar-abilities.92lgSEPFIDLvKOCF]{伴奏者}、@UUID[Compendium.pf2e.familiar-abilities.7ZxPS0UU7pf7wjp0]{使节}、@UUID[Compendium.pf2e.familiar-abilities.mK3mAUWiRLZZYNdz]{回避伤害（反射）}、@UUID[Compendium.pf2e.familiar-abilities.BXssJhTJjKrfojwG]{健步如飞}、@UUID[Compendium.pf2e.familiar-abilities.2fiQzoEKu6YUnrU9]{独行魔宠}、@UUID[Compendium.pf2e.familiar-abilities.Ms8EVO2mNbr4Zp1i]{递送物品}、@UUID[Compendium.pf2e.familiar-abilities.qTxH8mSOvc4PMzrP]{同类交谈}、@UUID[Compendium.pf2e-animal-companions.AC-Construct-Breakthroughs.A3UROfr7qu1iWNKy]{心灵手巧}、@UUID[Compendium.pf2e.familiar-abilities.v7zE3tKQb9G6PaYU]{犯罪同伙}、@UUID[Compendium.pf2e.familiar-abilities.jevzf9JbJJibpqaI]{技能训练}、@UUID[Compendium.pf2e.familiar-abilities.fmsVItn94FeY5Q3X]{私家侦探}、@UUID[Compendium.pf2e.familiar-abilities.zyMRLQnFCQVpltiR]{说话}、@UUID[Compendium.pf2e.familiar-abilities.aEKA3YWekLhEhuV8]{展现威胁}，或 @UUID[Compendium.pf2e.familiar-abilities.Le8UWr5BU8rV3iBf]{坚韧}。如果你获得一只新的宠物鹰，你可以在首次获得它时为其选择2项属性。如果你选择了说话，那么你与这只鹰可以改为用一种只有你们彼此才能理解的方式交流。</p>",
+            "description": "<p>你的鹰威严无比，在力量与辉光上远胜任何其他猛禽。为你的宠物鹰从以下魔宠属性中选择两项，使其获得这些属性：@UUID[Compendium.pf2e.familiar-abilities.92lgSEPFIDLvKOCF]{伴奏者}、@UUID[Compendium.pf2e.familiar-abilities.7ZxPS0UU7pf7wjp0]{使节}、@UUID[Compendium.pf2e.familiar-abilities.mK3mAUWiRLZZYNdz]{回避伤害（反射）}、@UUID[Compendium.pf2e.familiar-abilities.BXssJhTJjKrfojwG]{健步如飞}、@UUID[Compendium.pf2e.familiar-abilities.2fiQzoEKu6YUnrU9]{独行魔宠}、@UUID[Compendium.pf2e.familiar-abilities.Ms8EVO2mNbr4Zp1i]{递送物品}、@UUID[Compendium.pf2e.familiar-abilities.qTxH8mSOvc4PMzrP]{同类交谈}、@UUID[Compendium.pf2e-animal-companions.AC-Construct-Breakthroughs.A3UROfr7qu1iWNKy]{念动之手巧}、@UUID[Compendium.pf2e.familiar-abilities.v7zE3tKQb9G6PaYU]{犯罪同伙}、@UUID[Compendium.pf2e.familiar-abilities.jevzf9JbJJibpqaI]{技能训练}、@UUID[Compendium.pf2e.familiar-abilities.fmsVItn94FeY5Q3X]{私家侦探}、@UUID[Compendium.pf2e.familiar-abilities.zyMRLQnFCQVpltiR]{说话}、@UUID[Compendium.pf2e.familiar-abilities.aEKA3YWekLhEhuV8]{展现威胁}，或 @UUID[Compendium.pf2e.familiar-abilities.Le8UWr5BU8rV3iBf]{坚韧}。如果你获得一只新的宠物鹰，你可以在首次获得它时为其选择2项属性。如果你选择了说话，那么你与这只鹰可以改为用一种只有你们彼此才能理解的方式交流。</p>",
             "prerequisites": [
                 {
                     "value": "驯鹰骑手"
@@ -1649,7 +1649,7 @@
         },
         "Grasp the Truth": {
             "name": "掌握真相 Grasp the Truth",
-            "description": "<p>你已瞥见关于自身存在的一项崇高真理，使你的躯体与精魂与你的信念相融，直至你超越凡躯，既是一个人，也同样是一种理念。平平无奇的凡人必须依赖其存在中那份充满希望的核心，相信只要努力就会有更好的明天；而你如今则拥有一颗由自我知识铸就、不可摧折的核心。你将不死，亦无需休息——这便是你信念的隧渊。直到一切胆敢将其意志强加于凡人生命之上的存在都化为尘土，你都将从这项真理中汲取力量。</p><p>你停止衰老。若你曾连续超过一年零一日不再追求「正义之息」专长中提供的戒律，你便会恢复衰老，直到你进行一次赎罪仪式为止。</p><p>此外，你获得@UUID[Compendium.pf2e.feats-srd.zGrUu3dUtqHrqGuo]{破除诅咒}技能专长，即使你未满足其先决条件；并且你可以每小时一次将@UUID[Compendium.pf2e.spells-srd.y3jlOfgsQH1JjkJE]{祝圣之地}作为异能天生法术施放，且无需支付其开销。或者，你可以花费8小时以探索行动施放「祝圣之地」，将其阶位升高至你等级的一半（向上取整），并将其持续时间延长至1个月。</p>",
+            "description": "<p>你已瞥见关于自身存在的一项崇高真理，使你的躯体与精魂与你的信念相融，直至你超越凡躯，既是一个人，也同样是一种理念。平平无奇的凡人必须依赖其存在中那份充满希望的核心，相信只要努力就会有更好的明天；而你如今则拥有一颗由自我知识铸就、不可摧折的核心。你将不死，亦无需休息——这便是你信念的隧渊。直到一切胆敢将其意志强加于凡人生命之上的存在都化为尘土，你都将从这项真理中汲取力量。</p><p>你停止衰老。若你曾连续超过一年零一日不再追求「正义之息」专长中提供的禁忌，你便会恢复衰老，直到你进行一次赎罪仪式为止。</p><p>此外，你获得@UUID[Compendium.pf2e.feats-srd.zGrUu3dUtqHrqGuo]{破除诅咒}技能专长，即使你未满足其先决条件；并且你可以每小时一次将@UUID[Compendium.pf2e.spells-srd.y3jlOfgsQH1JjkJE]{祝圣之地}作为异能天生法术施放，且无需支付其开销。或者，你可以花费8小时以探索行动施放「祝圣之地」，将其阶位升高至你等级的一半（向上取整），并将其持续时间延长至1个月。</p>",
             "prerequisites": [
                 {
                     "value": "正义吐息"
@@ -1682,7 +1682,7 @@
         },
         "Insult To Injury": {
             "name": "雪上加霜 Insult To Injury",
-            "description": "<p><strong>需求</strong> 你正持握至少一把钗。</p><hr /><p>你的钗化为残酷的凶器，能够利用敌人犯下的每一个错误。当你成功对一个生物执行卸武时，你可以对该生物造成等同于你力量调整值的钝击伤害。你可以让此次攻击成为非致命，且不受减值。</p>",
+            "description": "<p><strong>需求</strong> 你正持握至少一把钗。</p><hr /><p>你的钗化为残暴的凶器，能够利用敌人犯下的每一个错误。当你成功对一个生物执行卸武时，你可以对该生物造成等同于你力量调整值的钝击伤害。你可以让此次攻击成为非致命，且不受减值。</p>",
             "prerequisites": [
                 {
                     "value": "三指拳击献身"
@@ -1820,7 +1820,7 @@
             ]
         },
         "Hongali Charge": {
-            "name": "洪加利冲锋 Hongali Charge",
+            "name": "洪阿里冲锋 Hongali Charge",
             "description": "<p>在5级时，每当你用这些武器之一造成重击时，你获得其重击专精效果。你可以借助坐骑的速度来增强你的射击。你命令你的动物伙伴进行支援，然后疾驰两次。在这两次疾驰中，它的速度获得+10尺的环境加值。</p><hr /><p><strong>特殊</strong> 如果你的动物伙伴拥有飞奔行动，它可以改为使用飞奔而非两次疾驰，且其速度改为获得+20尺的环境加值。</p>",
             "prerequisites": [
                 {
@@ -2243,7 +2243,7 @@
         },
         "A Humble Voice Amongst the Thousand": {
             "name": "千人之中一位谦卑的声音 A Humble Voice Amongst the Thousand",
-            "description": "<p>菲天女的歌声蹂躏你的肉体形态，你被纳入那既为一体亦为万千的众群之中。你真切地成为鸟群的一员，纷争与创造的韵律如今皆为你所见。你获得<em>@UUID[Compendium.pf2e-team-plus-tian-xia.player-options.BHt7Adf0Ew6zrw4D]{鸟类瞰 दृश्य}</em>聚能法术。</p>",
+            "description": "<p>菲天女的歌声蹂躏你的肉体形态，你被纳入那既为一体亦为万千的众群之中。你真切地成为鸟群的一员，纷争与创造的韵律如今皆为你所见。你获得<em>@UUID[Compendium.pf2e-team-plus-tian-xia.player-options.BHt7Adf0Ew6zrw4D]{鸟瞰视角}</em>聚能法术。</p>",
             "prerequisites": [
                 {
                     "value": "鸟类一丘之貉"
@@ -2301,16 +2301,16 @@
         },
         "Sword Qi Wave (QYAu)": {
             "name": "剑气波 Sword Qi Wave",
-            "description": "<p>你将气聚于武器或手中，挥砍释放出一道毁灭性的锥形能量。你学得 <em>@UUID[Compendium.pf2e-team-plus-tian-xia.player-options.cRnnxbFQLUzvgnPG]{剑气波}</em> 修真者聚能法术。</p>",
+            "description": "<p>你将气聚于武器或手中，挥砍释放出一道毁灭性的锥形能量。你学得 <em>@UUID[Compendium.pf2e-team-plus-tian-xia.player-options.cRnnxbFQLUzvgnPG]{剑气波}</em> 修行者聚能法术。</p>",
             "prerequisites": [
                 {
-                    "value": "修真者献身"
+                    "value": "修行者献身"
                 }
             ]
         },
         "Fighting Retreat": {
             "name": "战斗撤退 Fighting Retreat",
-            "description": "<p><strong>需求</strong> 你处于骑乘状态。</p><hr /><p>你已精通洪加里马主那种令人畏惧的打了就跑战术，能够在以全速飞奔远离敌人时向其射击，或突然转向发动攻击。你可以<strong>命令</strong>你的坐骑进行两次Stride，并在这些行走中的任意时点用一把属于弓弩武器队伍的武器进行一次Strike。你进行此次打击时，在第二个射程增量内进行远程攻击所承受的减值会被忽略。如果你的坐骑拥有<strong>飞奔</strong>行动，你可以<strong>命令</strong>你的坐骑进行<strong>飞奔</strong>，而不是进行两次Stride。作为「战斗撤退」一部分所进行的行走不会触发反应动作。</p>",
+            "description": "<p><strong>需求</strong> 你处于骑乘状态。</p><hr /><p>你已精通洪加里马主那种令人畏惧的打了就跑战术，能够在以全速飞奔远离敌人时向其射击，或突然转向发动攻击。你可以<strong>命令</strong>你的坐骑进行两次疾行，并在这些移动中的任意时点用一把属于弓弩武器组的武器进行一次打击。你进行此次打击时，在第二个射程增量内进行远程攻击所承受的减值会被忽略。如果你的坐骑拥有<strong>飞奔</strong>行动，你可以<strong>命令</strong>你的坐骑进行<strong>飞奔</strong>，而不是进行两次疾行。作为「战斗撤退」一部分所进行的移动不会触发反应动作。</p>",
             "prerequisites": [
                 {
                     "value": "洪嘎利驭马领主献身"
@@ -2337,7 +2337,7 @@
         },
         "Master of Garments": {
             "name": "衣装大师 Master of Garments",
-            "description": "<p>你毕生致力于理解衣着。人们穿着打扮的样式中自会显露出某种规律，从日常服饰到礼仪华服；理解布料，便是理解一个人。理解他们希望展现什么、他们对自己讲述怎样的故事，以及他们希望他人从自己身上看到怎样的霍普。尽管你对自己的制作投入了无尽的奉献时光，你知道自己还有太多东西需要学习。你本可以作为一名谦逊的裁缝，过上舒适的生活，但你渴望更伟大的真理。</p><p>选择两项属性提升。其中一项必须为<strong>魅力</strong>或<strong>智力</strong>，另一项为自由属性提升。</p><p>你在手艺（技能）和潮流学识（技能）上受训。当你使用潮流学识（技能）来赚钱时，你可以通过开创一种新的时尚设计，将该任务的等级视为比正常高2级。如果该任务为20级，那么当你掷骰获得成功时，你获得大成功的效果。</p>"
+            "description": "<p>你毕生致力于理解衣着。人们穿着打扮的样式中自会显露出某种规律，从日常服饰到礼仪华服；理解布料，便是理解一个人。理解他们希望展现什么、他们对自己讲述怎样的故事，以及他们希望他人从自己身上看到怎样的希望。尽管你对自己的制作投入了无尽的奉献时光，你知道自己还有太多东西需要学习。你本可以作为一名谦逊的裁缝，过上舒适的生活，但你渴望更伟大的真理。</p><p>选择两项属性提升。其中一项必须为<strong>魅力</strong>或<strong>智力</strong>，另一项为自由属性提升。</p><p>你在手艺（技能）和潮流学识（技能）上受训。当你使用潮流学识（技能）来赚钱时，你可以通过开创一种新的时尚设计，将该任务的等级视为比正常高2级。如果该任务为20级，那么当你掷骰获得成功时，你获得大成功的效果。</p>"
         },
         "Ant's Steps": {
             "name": "蚂蚁的步骤 Ant's Steps",
@@ -2349,7 +2349,7 @@
             ]
         },
         "Barong": {
-            "name": "巴隆ഗ് Barong",
+            "name": "巴龙剑 Barong",
             "description": "<p>这把剑的长度可变，而且特别沉重；由于挥击时剑身展开如扇，后续的挥砍会格外致命。</p>"
         },
         "Entwined Destiny": {
@@ -2367,7 +2367,7 @@
         },
         "Intimidating Channel": {
             "name": "威吓引导 Intimidating Channel",
-            "description": "<p>注入你气势中的龙类精华足以震慑敌人，使其迟疑。你施放<em>@UUID[Compendium.pf2e-team-plus-tian-xia.player-options.V3GVl8DGAwp8HvOK]{帝龙频道}</em>，随后可以立即尝试对一个敌人进行@UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{挫败士气}。</p>",
+            "description": "<p>注入你气势中的龙类精华足以震慑敌人，使其迟疑。你施放<em>@UUID[Compendium.pf2e-team-plus-tian-xia.player-options.V3GVl8DGAwp8HvOK]{引导帝龙}</em>，随后可以立即尝试对一个敌人进行@UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{挫败士气}。</p>",
             "prerequisites": [
                 {
                     "value": "帝龙使者献身"
@@ -2645,7 +2645,7 @@
         },
         "Breath of Righteousness": {
             "name": "正义吐息 Breath of Righteousness",
-            "description": "<p>你献身于正义，不论境况或背景如何，都为平平无奇的凡人众生寻求凡人处境的改善。作为一名战士学者，你鄙夷冷漠超然的天堂与不洁的精魂，将对人民有益之事置于难以言喻的宇宙法则之上。</p><p>你的存在本身会如火焰般灼烧异界入侵者与黑暗精魂。你可以使用神秘学来@UUID[Compendium.pf2e.actionspf2e.1xRFPTFtWtGJ9ELw]{察言观色}；当有人试图对你说谎时，若你的神秘学DC高于你的察觉DC，则使用你的神秘学DC来判定其是否成功，因为你的双眼能以超自然的精准识破谎言。</p><p>你的打击与修行者法术在触发圣洁、精魂或邪秽弱点时，视为具有圣洁、精魂或邪秽；你所持用的武器和你的无武装攻击获得幽冥属性符文的效果。你获得对圣洁和邪秽伤害的弱点，数值等于你等级的一半。</p><p>最后，你获得以下戒律。若你未能遵循此戒律，或获得圣洁或邪秽（特征），你便失去此专长的效果，直到你不再具有圣洁或邪秽，且已施行赎罪仪式为止。</p><p><strong>戒律</strong> 建立一个和平且自主的社会，并通过社会基础设施照料人民</p>",
+            "description": "<p>你献身于正义，不论境况或背景如何，都为平平无奇的凡人众生寻求凡人处境的改善。作为一名战士学者，你鄙夷冷漠超然的天堂与不洁的精魂，将对人民有益之事置于难以言喻的宇宙法则之上。</p><p>你的存在本身会如火焰般灼烧异界入侵者与黑暗精魂。你可以使用神秘学来@UUID[Compendium.pf2e.actionspf2e.1xRFPTFtWtGJ9ELw]{察言观色}；当有人试图对你说谎时，若你的神秘学DC高于你的察觉DC，则使用你的神秘学DC来判定其是否成功，因为你的双眼能以超自然的精准识破谎言。</p><p>你的打击与修行者法术在触发圣洁、精魂或邪秽弱点时，视为具有圣洁、精魂或邪秽；你所持用的武器和你的无武装攻击获得幽冥属性符文的效果。你获得对圣洁和邪秽伤害的弱点，数值等于你等级的一半。</p><p>最后，你获得以下禁忌。若你未能遵循此禁忌，或获得圣洁或邪秽（特征），你便失去此专长的效果，直到你不再具有圣洁或邪秽，且已施行赎罪仪式为止。</p><p><strong>禁忌</strong> 建立一个和平且自主的社会，并通过社会基础设施照料人民</p>",
             "prerequisites": [
                 {
                     "value": "修行者献身"
@@ -2657,7 +2657,7 @@
         },
         "Morphing Snare": {
             "name": "变形制作圈套 Morphing Snare",
-            "description": "<p><strong>需求</strong> 你已使一个生物陷入 @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{受擒}。</p><hr /><p>你持续将自己的躯体缠绕在敌人周围，使其难以说话。对被擒拿的敌人进行一次徒手近战 Strike。成功时，目标陷入闷声状态，直到你的下个回合开始或其成功脱逃，以先发生者为准。当目标处于闷声状态时，其说话声不会高于低语，且它必须在进行任何需要说话的动作时成功通过一次 @Check[flat|dc:10]，否则失去该动作。对于同时需要说话和操纵动作的动作，目标只需进行一次 DC 10 纯骰检定，而不是因被擒拿而额外进行一次。</p>",
+            "description": "<p><strong>需求</strong> 你已使一个生物陷入 @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{受擒}。</p><hr /><p>你持续将自己的躯体缠绕在敌人周围，使其难以说话。对被擒拿的敌人进行一次徒手近战打击。成功时，目标陷入闷声状态，直到你的下个回合开始或其成功脱逃，以先发生者为准。当目标处于闷声状态时，其说话声不会高于低语，且它必须在进行任何需要说话的动作时成功通过一次 @Check[flat|dc:10]，否则失去该动作。对于同时需要说话和操纵动作的动作，目标只需进行一次 DC 10 纯骰检定，而不是因被擒拿而额外进行一次。</p>",
             "prerequisites": [
                 {
                     "value": "付丧傀儡传承"
@@ -2760,8 +2760,8 @@
             ]
         },
         "Locking Guard": {
-            "name": "锁门守备 Locking Guard",
-            "description": "<p><strong>触发</strong> 你触及内的一个生物使用武器对你进行一次打击并严重失败。</p><p><strong>需求</strong> 你正持握两把港人武器。</p><hr /><p>你娴熟地招架并将敌人的武器夹困在你的一把武器与其自身躯体之间。对触发该效果的生物尝试一次 @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{擒拿}。你不需要有空出的手。若你成功，该生物不能使用触发用的武器执行任何动作，除了以「放开」它之外，直到其不再处于被擒拿状态。生物可以放开该武器，以自动成功进行其脱逃。</p>",
+            "name": "锁械守备 Locking Guard",
+            "description": "<p><strong>触发</strong> 你触及内的一个生物使用武器对你进行一次打击并严重失败。</p><p><strong>需求</strong> 你正持握两把米纳坦武器。</p><hr /><p>你娴熟地招架并将敌人的武器夹困在你的一把武器与其自身躯体之间。对触发该效果的生物尝试一次 @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{擒拿}。你不需要有空出的手。若你成功，该生物不能使用触发用的武器执行任何动作，除了以「放开」它之外，直到其不再处于被擒拿状态。生物可以放开该武器，以自动成功进行其脱逃。</p>",
             "prerequisites": [
                 {
                     "value": "米纳坦战士献身"

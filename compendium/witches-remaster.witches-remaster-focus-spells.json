@@ -26,7 +26,7 @@
         },
         "Warped Visage": {
             "name": "扭曲容貌 Warped Visage",
-            "description": "<p>你扭曲目标的容貌，使其变为难以辨认且丑陋的版本。该生物必须进行一次强韧豁免。</p>\n<p><strong>成功</strong> 目标不受影响。</p>\n<p><strong>失败</strong> 目标在持续时间内变为 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1级}。每个回合你首次持续此法术时，目标 30尺内的一个盟友必须进行一次 @Check[type:will|dc:resolve(@actor.attributes.spellDC.value)]，否则变为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1级}；大失败则为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2级}。被此效果作为目标的生物 10分钟内对此暂时免疫。</p>\n<p><strong>大失败</strong> 同失败，但目标变为 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2级}，且生物在受惊期间不视目标为盟友。</p>"
+            "description": "<p>你扭曲目标的容貌，使其变为难以辨认且丑陋的版本。该生物必须进行一次强韧豁免。</p>\n<p><strong>成功</strong> 目标不受影响。</p>\n<p><strong>失败</strong> 目标在持续时间内变为 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1级}。每个回合你首次持续此法术时，目标 30尺内的一个盟友必须进行一次 @Check[type:will|dc:resolve(@actor.attributes.spellDC.value)]，否则变为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1级}；大失败则为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2级}。被此效果作为目标的生物 10分钟内对此暂时免疫。</p>\n<p><strong>大失败</strong> 同失败，但目标变为 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2级}，且生物在惊惧期间不视目标为盟友。</p>"
         },
         "Famed Figure": {
             "name": "传奇人物 Famed Figure",
@@ -38,7 +38,7 @@
         },
         "Mark of Mystery": {
             "name": "奥秘之印 Mark of Mystery",
-            "description": "<p>你将秘印之质的连结分支至盟友。该目标盟友的身上某处亦获得你的庇护主之印，让你判定印记效果时可使用该盟友的位置（亦可使用你自己的）。</p>\n<p>此外，当生物在此法术激活期间以有害效果将你或盟友作为目标时，他们必须进行一次意志豁免。豁免失败的生物变为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1级}；大失败则变为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2级}。无论结果如何，豁免成功或不再因你的印记受惊的生物，1小时内对此效果免疫。下列与你根源相关类型的生物对你效果的豁免承受 -1 状态减值；无心智的生物不会因无心智而对受惊状态免疫（但可能因其他原因免疫）。该减值也施加于你相应根源的施法者与巨龙。</p>\n<ul style=\"list-style:none\">\n<li><strong>奥术</strong> 野兽、构装体、元素</li>\n<li><strong>神圣</strong> 天界、邪魔、监临、亡灵</li>\n<li><strong>神秘</strong> 异常、星界、幽魂、软泥、精魂</li>\n<li><strong>原初</strong> 动物、野兽、元素、妖精、真菌、植物</li>\n</ul>\n<p>@UUID[Compendium.witches-remaster.witches-remaster-effects.Item.0MYmoIO5mSb6QBFm]{法术效果：奥秘之印（状态减值）}</p>"
+            "description": "<p>你将秘印之质的连结分支至盟友。该目标盟友的身上某处亦获得你的庇护主之印，让你判定印记效果时可使用该盟友的位置（亦可使用你自己的）。</p>\n<p>此外，当生物在此法术激活期间以有害效果将你或盟友作为目标时，他们必须进行一次意志豁免。豁免失败的生物变为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1级}；大失败则变为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2级}。无论结果如何，豁免成功或不再因你的印记惊惧的生物，1小时内对此效果免疫。下列与你根源相关类型的生物对你效果的豁免承受 -1 状态减值；无心智的生物不会因无心智而对惊惧状态免疫（但可能因其他原因免疫）。该减值也施加于你相应根源的施法者与巨龙。</p>\n<ul style=\"list-style:none\">\n<li><strong>奥术</strong> 野兽、构装体、元素</li>\n<li><strong>神圣</strong> 天界、邪魔、监临、亡灵</li>\n<li><strong>神秘</strong> 异常、星界、幽魂、软泥、精魂</li>\n<li><strong>原初</strong> 动物、野兽、元素、妖精、真菌、植物</li>\n</ul>\n<p>@UUID[Compendium.witches-remaster.witches-remaster-effects.Item.0MYmoIO5mSb6QBFm]{法术效果：奥秘之印（状态减值）}</p>"
         },
         "Familiar Lesson": {
             "name": "魔宠秘传 Familiar Lesson",
@@ -62,7 +62,7 @@
         },
         "Grant Wish": {
             "name": "实现愿望 Grant Wish",
-            "description": "<p>你赋予生物高声说出一个微小愿望的能力，但其实现方式并不直白。在其回合内，生物可以以一个具有语言与听觉特征的自由动作说出一个愿望，使其下一个需要进行攻击骰或技能检定的动作或行动，对该动作或行动中由其所选其中一次攻击骰或技能检定获得 +1状态加值。</p>\n<p>然而，你的庇护主在你赋予愿望的同时扭曲它，吸食其生命使其更接近死亡。如果该生物在所赋予加值的检定中失败，则它变为 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1级}；若已枯竭则其数值增加 1。来自此法术的枯竭状态为暂时性，仅在法术持续时间内存在，而非通常的时间；但移除该枯竭状态并不会恢复因枯竭通常会失去的生命值。</p>\n<hr />\n<p><strong>升阶（7 阶）</strong> 状态加值提升至 +2。</p>\n<p>@UUID[Compendium.witches-remaster.witches-remaster-effects.Item.i4AhIPLETqNqStN7]{法术效果：实现愿望}</p>"
+            "description": "<p>你赋予生物高声说出一个微小愿望的能力，但其实现方式并不直白。在其回合内，生物可以以一个具有语言与听觉特征的自由动作说出一个愿望，使其下一个需要进行攻击骰或技能检定的动作或行动，对该动作或行动中由其所选其中一次攻击骰或技能检定获得 +1状态加值。</p>\n<p>然而，你的庇护主在你赋予愿望的同时扭曲它，吸食其生命使其更接近死亡。如果该生物在所赋予加值的检定中失败，则它变为 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1级}；若已具备流失状态则其数值增加 1。来自此法术的流失状态为暂时性，仅在法术持续时间内存在，而非通常的时间；但移除该流失状态并不会恢复因流失通常会失去的生命值。</p>\n<hr />\n<p><strong>升阶（7 阶）</strong> 状态加值提升至 +2。</p>\n<p>@UUID[Compendium.witches-remaster.witches-remaster-effects.Item.i4AhIPLETqNqStN7]{法术效果：实现愿望}</p>"
         },
         "Sudden Outbreak": {
             "name": "暴发瘟疫 Sudden Outbreak",
@@ -70,7 +70,7 @@
         },
         "Evil Eye+": {
             "name": "邪眼+ Evil Eye+",
-            "description": "<p>你庇护主的怨怼显化为一道恶意而妒忌的凝视。如果目标意志豁免失败，它变为 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1级}（大失败则为反胃 2）。目标的反胃状态持续到你下一回合结束；每次你持续此法术，便将持续时间延长至你下一回合结束。当法术激活且你能看见目标时，反胃数值不能减至 1 以下。</p>"
+            "description": "<p>你庇护主的怨怼显化为一道恶意而妒忌的凝视。如果目标意志豁免失败，它变为 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1级}（大失败则为恶心2级）。目标的恶心状态持续到你下一回合结束；每次你持续此法术，便将持续时间延长至你下一回合结束。当法术激活且你能看见目标时，恶心数值不能减至 1 以下。</p>"
         },
         "Aura of Violent Light": {
             "name": "暴烈光华灵气 Aura of Violent Light",
@@ -150,7 +150,7 @@
         },
         "Judge Soul": {
             "name": "审判灵魂 Judge Soul",
-            "description": "<p>当你审判他人灵魂时，你的判决便是终决。在射程内选择一个目标。效果取决于该目标是活体还是亡灵。目标承受 6d6 虚空伤害；若它具有虚空治疗，则改为承受 6d6 生机伤害；并依其豁免承受相应效果。被此法术减至 0 生命值的生物会死亡；若是亡灵则永久被毁，且无法通过任何方式被复生或复活，唯有强力魔法（如 @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{愿望术} 仪式）可救之。生物在你施放此法术时，以及在后续回合首次持续此法术时进行强韧豁免，并承受相应效果。</p>\n<p>所有因此法术死亡或被毁的生物会成为你庇护主之境的幽魂。如果你曾施放过此法术且导致他人死亡，那么当你死亡时，你将转生为天界生物、邪魔、元素、妖婆或其他与你庇护主相宜的实体。如同往常规则，你以这种方式仅会模糊地像梦一般记得你的前世。</p>\n<p><strong>大成功</strong> 目标不受影响，法术结束。</p>\n<p><strong>成功</strong> 目标承受半额伤害并变为 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1级}，然后法术结束。</p>\n<p><strong>失败</strong> 目标承受全额伤害，变为 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1级}；若已枯竭则其数值增加 1。</p>\n<p><strong>大失败</strong> 目标承受双倍伤害，变为 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失2级}；若已枯竭则其数值增加 2。</p>"
+            "description": "<p>当你审判他人灵魂时，你的判决便是终决。在射程内选择一个目标。效果取决于该目标是活体还是亡灵。目标承受 6d6 虚空伤害；若它具有虚空治疗，则改为承受 6d6 生机伤害；并依其豁免承受相应效果。被此法术减至 0 生命值的生物会死亡；若是亡灵则永久被毁，且无法通过任何方式被复生或复活，唯有强力魔法（如 @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{愿望术} 仪式）可救之。生物在你施放此法术时，以及在后续回合首次持续此法术时进行强韧豁免，并承受相应效果。</p>\n<p>所有因此法术死亡或被毁的生物会成为你庇护主之境的幽魂。如果你曾施放过此法术且导致他人死亡，那么当你死亡时，你将转生为天界生物、邪魔、元素、妖婆或其他与你庇护主相宜的实体。如同往常规则，你以这种方式仅会模糊地像梦一般记得你的前世。</p>\n<p><strong>大成功</strong> 目标不受影响，法术结束。</p>\n<p><strong>成功</strong> 目标承受半额伤害并变为 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1级}，然后法术结束。</p>\n<p><strong>失败</strong> 目标承受全额伤害，变为 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1级}；若已具备流失状态则其数值增加 1。</p>\n<p><strong>大失败</strong> 目标承受双倍伤害，变为 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失2级}；若已具备流失状态则其数值增加 2。</p>"
         },
         "Devoted Glory": {
             "name": "虔诚荣光 Devoted Glory",

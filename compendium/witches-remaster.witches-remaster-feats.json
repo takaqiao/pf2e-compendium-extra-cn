@@ -32,7 +32,7 @@
         },
         "Accursed Armaments": {
             "name": "诅咒战具 Accursed Armaments",
-            "description": "<p>你的战具已成为你法咒魔法的强化器，而你的魔法则增强你的战具能力。当你 @UUID[Compendium.witches-remaster.witches-remaster-feats.Item.OAKFEmT9z1Y6IGIH]{女巫武装} 攻击受你某个法咒影响的生物时，打击获得 +1环境加值。</p>\n<p>此外，当你以源自女巫战具的迒手攻击成功打击一个受你某个法咒影响的生物时，对方额外承受等同于该法咒等级两倍的持续流血伤害。</p>\n<p>如果你拥有 @UUID[Compendium.pf2e.feats-srd.Item.VOgAiCqC5kpIpLaf]{共鸣打击}，则其对你法咒豁免的减值持续到对方不再承受由诅咒战具造成的持续流血伤害为止。</p>",
+            "description": "<p>你的战具已成为你法咒魔法的强化器，而你的魔法则增强你的战具能力。当你 @UUID[Compendium.witches-remaster.witches-remaster-feats.Item.OAKFEmT9z1Y6IGIH]{女巫武装} 攻击受你某个法咒影响的生物时，打击获得 +1环境加值。</p>\n<p>此外，当你以源自女巫战具的徒手攻击成功打击一个受你某个法咒影响的生物时，对方额外承受等同于该法咒等级两倍的持续流血伤害。</p>\n<p>如果你拥有 @UUID[Compendium.pf2e.feats-srd.Item.VOgAiCqC5kpIpLaf]{共鸣打击}，则其对你法咒豁免的减值持续到对方不再承受由诅咒战具造成的持续流血伤害为止。</p>",
             "prerequisites": [
                 {
                     "value": "女巫战具"
@@ -57,7 +57,7 @@
         },
         "Rites Of Transfiguration+": {
             "name": "化形仪式+ Rites Of Transfiguration+",
-            "description": "<p>你能让你庇护主之力适应需求，将其他生物变形为更适合其行为或你心意的形态。你的魔宠学得 @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{诅咒变形}，即使<em>诅咒变形</em>不在你根源的法术列表中也是如此。通过花费 10分钟与你的魔宠相通，你可以将你已准备的 6 阶或更高阶法术中的一个，替换为同阶的诅咒变形法术。</p>\n<p>每日一次，你可以以一个具有专注特征的单动作将一个相宜的法术换出。</p>"
+            "description": "<p>你能让你庇护主之力适应需求，将其他生物变形为更适合其行为或你心意的形态。你的魔宠学得 @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{恶咒变形术}，即使<em>恶咒变形术</em>不在你根源的法术列表中也是如此。通过花费 10分钟与你的魔宠相通，你可以将你已准备的 6 阶或更高阶法术中的一个，替换为同阶的恶咒变形术法术。</p>\n<p>每日一次，你可以以一个具有专注特征的单动作将一个相宜的法术换出。</p>"
         },
         "Monstrous Familiar": {
             "name": "异怪魔宠 Monstrous Familiar",
@@ -65,7 +65,7 @@
         },
         "Arch-Familiar": {
             "name": "大魔宠 Arch-Familiar",
-            "description": "<p>你的魔宠已演化为名副其实的怪物，而非仅是你的助手。你的魔宠每日从下列项中获得 2 项额外魔宠能力：自主、灵巧、主形态、擅长、言语或施法。</p>\n<p>此外，在每日准备期间，你可以选择让你的魔宠变大至中型生物。它获得一种迒手攻击，并能够以此 5尺触及的迒手攻击进行打击。你魔宠的迒手攻击造成 1d6 由你选择的钝击、穿刺或挥砍伤害，属拳斗武器组，并具有敏捷、巧劲与迒手特征。你的魔宠以你迒手攻击的调整值进行其自身的迒手攻击；你「重击拳套」上的任何符文也施加于你魔宠的迒手攻击。</p>\n<hr />\n<p><strong>特殊</strong> 如果你拥有 @UUID[Compendium.witches-remaster.witches-remaster-feats.Item.OAKFEmT9z1Y6IGIH]{女巫武装}，则你魔宠也获得源自该专长的迒手攻击，作为另一种迒手攻击。</p>",
+            "description": "<p>你的魔宠已演化为名副其实的怪物，而非仅是你的助手。你的魔宠每日从下列项中获得 2 项额外魔宠能力：自主、灵巧、主形态、擅长、言语或施法。</p>\n<p>此外，在每日准备期间，你可以选择让你的魔宠变大至中型生物。它获得一种徒手攻击，并能够以此 5尺触及的徒手攻击进行打击。你魔宠的徒手攻击造成 1d6 由你选择的钝击、穿刺或挥砍伤害，属拳斗武器组，并具有敏捷、巧劲与徒手特征。你的魔宠以你徒手攻击的调整值进行其自身的徒手攻击；你「重击拳套」上的任何符文也施加于你魔宠的徒手攻击。</p>\n<hr />\n<p><strong>特殊</strong> 如果你拥有 @UUID[Compendium.witches-remaster.witches-remaster-feats.Item.OAKFEmT9z1Y6IGIH]{女巫武装}，则你魔宠也获得源自该专长的徒手攻击，作为另一种徒手攻击。</p>",
             "prerequisites": [
                 {
                     "value": "魔宠"
@@ -112,7 +112,7 @@
         },
         "Wayward Gifts": {
             "name": "歧途馈赠 Wayward Gifts",
-            "description": "<p>你的庇护主授予你源自其神秘教诲的超自然馈赠。当你处于战斗中且至少有一项法咒激活时，你根据你的根源获得下列效果。</p>\n<ul style=\"list-style-type:none\">\n<li><strong>奥术</strong> 你的魔法漾出未驯之力。你的奥秘检定获得 +1状态加值；当你从法术位施放一个会造成伤害且无持续时间的法术时，该法术伤害获得等同于法术环的状态加值。</li>\n<li><strong>神圣</strong> 你获得神性之力。你的宗教检定获得 +1状态加值，且你获得圣洁特征或邪恶特征。如果你信奉某位神祇，且其神圣祝佑要求选定，则你必须选择你神祇的祝佑特征。</li>\n<li><strong>神秘</strong> 你已踏入真正黑暗的魔法之旅。你的神秘检定获得 +1状态加值，且对心灵伤害获得等同于你等级一半（最少 1）的抗力。</li>\n<li><strong>原初</strong> 你的魔法如自然之精魂。你的自然检定获得 +1状态加值；每次你持续法咒时获得等同于其等级的临时生命值，持续至你下一回合开始。</li>\n</ul>\n<p>@UUID[Compendium.witches-remaster.witches-remaster-effects.Item.phm5kEBTaUT9hjDo]{效果：歧途馈赠}</p>",
+            "description": "<p>你的庇护主授予你源自其神秘教诲的超自然馈赠。当你处于战斗中且至少有一项法咒激活时，你根据你的根源获得下列效果。</p>\n<ul style=\"list-style-type:none\">\n<li><strong>奥术</strong> 你的魔法漾出未驯之力。你的奥秘检定获得 +1状态加值；当你从法术位施放一个会造成伤害且无持续时间的法术时，该法术伤害获得等同于法术环的状态加值。</li>\n<li><strong>神圣</strong> 你获得神性之力。你的宗教检定获得 +1状态加值，且你获得圣洁特征或邪秽特征。如果你信奉某位神祇，且其神圣祝佑要求选定，则你必须选择你神祇的祝佑特征。</li>\n<li><strong>神秘</strong> 你已踏入真正黑暗的魔法之旅。你的神秘检定获得 +1状态加值，且对心灵伤害获得等同于你等级一半（最少 1）的抗力。</li>\n<li><strong>原初</strong> 你的魔法如自然之精魂。你的自然检定获得 +1状态加值；每次你持续法咒时获得等同于其等级的临时生命值，持续至你下一回合开始。</li>\n</ul>\n<p>@UUID[Compendium.witches-remaster.witches-remaster-effects.Item.phm5kEBTaUT9hjDo]{效果：歧途馈赠}</p>",
             "prerequisites": [
                 {
                     "value": "初始秘传"
@@ -147,7 +147,7 @@
         },
         "Witch's Hut+": {
             "name": "女巫之屋+ Witch's Hut+",
-            "description": "<p>你的家是一座听从你命令的活化建筑。通过进行一项耗时 1天的仪式，你将一间小屋、小型住宅、有篷货车、帐篷或类似建造物（最大可至庞大尺寸）变为活化物体。</p>\n<p>该屋使用你的 AC、豁免调整值与察觉调整值，具有 150 HP 与硬度 10。它具有「构装体护甲」能力，意味着一旦其生命值降至一半以下，或被重击命中后立即触发，其 AC 在被修理之前降低 4。</p>\n<p>你可以以一个具有听觉与专注特征的单动作向该屋下达命令。</p>\n<ul>\n<li><strong>攻击</strong> 该屋以其结构的一部分敲击相邻的敌人，对其进行一次攻击。此攻击为近战法术攻击骰，使用你的法术攻击骰调整值；命中时造成 4d8 加上你施法调整值的钝击伤害，重击则造成双倍伤害。</li>\n<li><strong>戒备</strong> 该屋以你的察觉调整值在 120尺内监视入侵者，并在发现时尖叫。</li>\n<li><strong>潜伏</strong> 该屋显现为同类的普通寻常物体。这是 10 阶幻象效果。</li>\n<li><strong>跃移</strong> 该屋旋转或腾空跃起，然后施放 10 阶 @UUID[Compendium.pf2e.spells-srd.Item.69L70wKfGDY66Mk9]{传送术}，将其自身与其内所有生物一同传送。</li>\n<li><strong>锁闭</strong> 该屋砰然关闭，每个入口被「锁定术」封闭。你可再次发出此命令以解锁其入口。</li>\n<li><strong>移动</strong> 该屋获得 60尺速度（必要时长出巨型鸟腿或骨腿），并执行你下达的极简单的移动命令，例如「跟着我」或「朝那个方向移动」。</li>\n<li><strong>位移</strong> 该屋静止 24小时后，作为一个 7 阶 <em><a class=\"content-link\" draggable=\"true\" data-pack=\"pf2e.spells-srd\" data-uuid=\"Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ\" data-id=\"5bTt2CvYHPvaR7QQ\">位面变换</a></em> 法术前往另一个位面。你必须在下达命令时选定目的地，且必须对该目的地位面具有具体了解才能前往。当此命令完成时你必须在屋内，否则当屋抵达新位面时它会立即恢复为同类的普通建筑。</li>\n</ul>\n<p>你同时只能拥有一座女巫之屋。如果你激活一座新屋，则之前的屋立即恢复为其原本、寻常的形态。如果你死亡，该屋将无限期地遵循你最后下达的命令。</p>"
+            "description": "<p>你的家是一座听从你命令的活化建筑。通过进行一项耗时 1天的仪式，你将一间小屋、小型住宅、有篷货车、帐篷或类似建造物（最大可至庞大尺寸）变为活化物体。</p>\n<p>该屋使用你的 AC、豁免调整值与察觉调整值，具有 150 HP 与硬度 10。它具有「构装体护甲」能力，意味着一旦其生命值降至一半以下，或被重击命中后立即触发，其 AC 在被修理之前降低 4。</p>\n<p>你可以以一个具有听觉与专注特征的单动作向该屋下达命令。</p>\n<ul>\n<li><strong>攻击</strong> 该屋以其结构的一部分敲击相邻的敌人，对其进行一次攻击。此攻击为近战法术攻击骰，使用你的法术攻击骰调整值；命中时造成 4d8 加上你施法调整值的钝击伤害，重击则造成双倍伤害。</li>\n<li><strong>戒备</strong> 该屋以你的察觉调整值在 120尺内监视入侵者，并在发现时尖叫。</li>\n<li><strong>潜伏</strong> 该屋显现为同类的普通寻常物体。这是 10 阶幻象效果。</li>\n<li><strong>跃移</strong> 该屋旋转或腾空跃起，然后施放 10 阶 @UUID[Compendium.pf2e.spells-srd.Item.69L70wKfGDY66Mk9]{传送术}，将其自身与其内所有生物一同传送。</li>\n<li><strong>锁闭</strong> 该屋砰然关闭，每个入口被「固锁术」封闭。你可再次发出此命令以解锁其入口。</li>\n<li><strong>移动</strong> 该屋获得 60尺速度（必要时长出巨型鸟腿或骨腿），并执行你下达的极简单的移动命令，例如「跟着我」或「朝那个方向移动」。</li>\n<li><strong>位移</strong> 该屋静止 24小时后，作为一个 7 阶 <em><a class=\"content-link\" draggable=\"true\" data-pack=\"pf2e.spells-srd\" data-uuid=\"Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ\" data-id=\"5bTt2CvYHPvaR7QQ\">异界传送</a></em> 法术前往另一个位面。你必须在下达命令时选定目的地，且必须对该目的地位面具有具体了解才能前往。当此命令完成时你必须在屋内，否则当屋抵达新位面时它会立即恢复为同类的普通建筑。</li>\n</ul>\n<p>你同时只能拥有一座女巫之屋。如果你激活一座新屋，则之前的屋立即恢复为其原本、寻常的形态。如果你死亡，该屋将无限期地遵循你最后下达的命令。</p>"
         },
         "Borrowed Lesson": {
             "name": "借用秘传 Borrowed Lesson",
@@ -160,7 +160,7 @@
         },
         "Witch's Armaments+": {
             "name": "女巫战具+ Witch's Armaments+",
-            "description": "<p>你庇护主之力改变你的躯体，确保你永不无防。你获得下列迒手攻击之一。</p>\n<ul>\n<li><strong>秘指</strong> 你的指甲超自然地长而锐利。你获得一种「指甲」迒手攻击，造成 1d6 挥砍伤害，属拳斗武器组，并具有迒手特征。当你首次获得此专长时，你为你的指甲选择凶猛或纤巧，根据所选获得敏捷或巧劲特征。你可以花费 1天的休息时间改造指甲以互换这些特征。</li>\n<li><strong>铁齿</strong> 颌骨咔嗒一声，你的牙齿变形为长长的金属尖。你获得一种「颚」迒手攻击，造成 1d8 穿刺伤害，属拳斗武器组。</li>\n<li><strong>活发</strong> 你可以瞬间将你的发丝、眉毛、胡须或八字胡延长或缩短数尺，并操控发丝作为武器使用，但你的控制不够精细以进行更需灵巧的工作。你获得一种「发丝」迒手攻击，造成 1d4 钝击伤害；属拳斗武器组；并具有敏捷、卸武、巧劲、绊倒与迒手特征。</li>\n</ul>\n<hr />\n<p><strong>特殊</strong> 你可以多次选择此专长，每次获得不同的迒手攻击。</p>"
+            "description": "<p>你庇护主之力改变你的躯体，确保你永不无防。你获得下列徒手攻击之一。</p>\n<ul>\n<li><strong>秘指</strong> 你的指甲超自然地长而锐利。你获得一种「指甲」徒手攻击，造成 1d6 挥砍伤害，属拳斗武器组，并具有徒手特征。当你首次获得此专长时，你为你的指甲选择凶猛或纤巧，根据所选获得敏捷或巧劲特征。你可以花费 1天的休息时间改造指甲以互换这些特征。</li>\n<li><strong>铁齿</strong> 颌骨咔嗒一声，你的牙齿变形为长长的金属尖。你获得一种「颚」徒手攻击，造成 1d8 穿刺伤害，属拳斗武器组。</li>\n<li><strong>活发</strong> 你可以瞬间将你的发丝、眉毛、胡须或八字胡延长或缩短数尺，并操控发丝作为武器使用，但你的控制不够精细以进行更需灵巧的工作。你获得一种「发丝」徒手攻击，造成 1d4 钝击伤害；属拳斗武器组；并具有敏捷、卸武、巧劲、绊倒与徒手特征。</li>\n</ul>\n<hr />\n<p><strong>特殊</strong> 你可以多次选择此专长，每次获得不同的徒手攻击。</p>"
         },
         "Marked Territory": {
             "name": "秘印领域 Marked Territory",
@@ -184,7 +184,7 @@
         },
         "Crystal Sage": {
             "name": "水晶贤者 Crystal Sage",
-            "description": "<p>你已通过与庇护主的对话学得水晶所能传授的秘密。你时常在身上携带水晶器物，无论是水晶球、魔镜，或散装宝石的小袋。你可以花费 10分钟产生 @UUID[Compendium.pf2e.spells-srd.Item.HXhWYJviWalN5tQ2]{透耳} 的效果。如果你在施法上为大师，你可以改为产生 @UUID[Compendium.pf2e.spells-srd.Item.zvKWclOZ7A53DObE]{鹰眼术} 的效果；如果你在施法上为传奇，则你可以产生两者效果，但两个法术必须以同一位置为目标。</p>"
+            "description": "<p>你已通过与庇护主的对话学得水晶所能传授的秘密。你时常在身上携带水晶器物，无论是水晶球、魔镜，或散装宝石的小袋。你可以花费 10分钟产生 @UUID[Compendium.pf2e.spells-srd.Item.HXhWYJviWalN5tQ2]{锐耳术} 的效果。如果你在施法上为大师，你可以改为产生 @UUID[Compendium.pf2e.spells-srd.Item.zvKWclOZ7A53DObE]{鹰眼术} 的效果；如果你在施法上为传奇，则你可以产生两者效果，但两个法术必须以同一位置为目标。</p>"
         },
         "Chant": {
             "name": "诵唱 Chant",
@@ -268,7 +268,7 @@
             "description": "<p>你获得 @UUID[Compendium.witches-remaster.witches-remaster-focus-spells.Item.0LjAMzxSwfJbNEE4]{女巫之瓶} 法咒。</p>",
             "prerequisites": [
                 {
-                    "value": "炼釜"
+                    "value": "大釜"
                 }
             ]
         },

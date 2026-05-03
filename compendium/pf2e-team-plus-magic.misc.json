@@ -131,7 +131,7 @@
         },
         "Drag Under": {
             "name": "拖入水中 Drag Under",
-            "description": "<p><strong>需求</strong> 层面以打击为最后动作命中一名生物。</p><hr /><p>层面以与所需打击相同之多重攻击减值对该生物进行@Check[type:athletics|against:ac]检定。成功时，目标@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{受擒}，层面随即游泳至多其游泳速度的一半。目标在移动完成前保持受擒且与之相邻。</p>"
+            "description": "<p><strong>需求</strong> 层面以打击为最后动作命中一名生物。</p><hr /><p>层面以与所需打击相同之多重攻击减值对该生物进行@Check[type:athletics|against:ac]检定。成功时，目标@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱}，层面随即游泳至多其游泳速度的一半。目标在移动完成前保持擒抱且与之相邻。</p>"
         },
         "Wind-Up Key": {
             "name": "发条钥匙 Wind-Up Key",
@@ -227,7 +227,7 @@
         },
         "Essence Conduit": {
             "name": "精质导管 Essence Conduit",
-            "description": "<p>你将自身化作魔法精质之导管。直至你回合结束，下次你以1或2动作施放法术时，即便该法术原本不会增加你的精质（如聚能法术），你的精质也会增加1。如该法术为1动作精质法术，则你不会经历精质泄露。</p><p><strong>特别</strong> 若你为召唤师并以@UUID[Compendium.pf2e.actionspf2e.2KV87ponbWXgGIhZ]{并行行动}使用精质导管，则可改为：当你的魂偶以并行行动之动作施放1或2动作法术，或使用一个由其类型或进化专长授予的2动作魂偶能力时，你的精质增加1。</p>"
+            "description": "<p>你将自身化作魔法精质之导管。直至你回合结束，下次你以1或2动作施放法术时，即便该法术原本不会增加你的精质（如聚能法术），你的精质也会增加1。如该法术为1动作精质法术，则你不会经历精质泄露。</p><p><strong>特别</strong> 若你为召唤师并以@UUID[Compendium.pf2e.actionspf2e.2KV87ponbWXgGIhZ]{并行行动}使用精质导管，则可改为：当你的幻灵以并行行动之动作施放1或2动作法术，或使用一个由其类型或进化专长授予的2动作幻灵能力时，你的精质增加1。</p>"
         },
         "Spell Effect: Celestial Shift": {
             "name": "法术效果：天界变形 Spell Effect: Celestial Shift",
@@ -507,7 +507,7 @@
         },
         "Capture Soul": {
             "name": "捕灵 Capture Soul",
-            "description": "<p>层面尝试捕捉一名活体生物或不死生物之灵魂。目标须以@Check[will|dc:@actor.flags.pf2e.aspectDC]豁免，但生命值超过40的生物视其结果为正常一阶之上。如层面以活体生物为目标，此活动获得死亡特征。无论结果如何，该生物之后1分钟内暂时免疫。</p><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 如该生物为活体，则@UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{流失1级}（或将流失状态等级提升1）。如为实体不死，则@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭2级}1分钟。如为非实体不死，则@UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞2级}1分钟。</p><p><strong>大失败</strong> 层面捕获该生物之灵魂。如其为活体则死亡，如为不死则被毁，且其灵魂回归层面。层面法术随即结束，因层面将灵魂送回骸骨之地。</p>"
+            "description": "<p>层面尝试捕捉一名活体生物或不死生物之灵魂。目标须以@Check[will|dc:@actor.flags.pf2e.aspectDC]豁免，但生命值超过40的生物视其结果为正常一阶之上。如层面以活体生物为目标，此活动获得死亡特征。无论结果如何，该生物之后1分钟内暂时免疫。</p><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 如该生物为活体，则@UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{流失1级}（或将流失状态等级提升1）。如为实体不死，则@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭2级}1分钟。如为非实体不死，则@UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞2级}1分钟。</p><p><strong>大失败</strong> 层面捕获该生物之灵魂。如其为活体则死亡，如为不死则被毁，且其灵魂回归层面。层面法术随即结束，因层面将灵魂送回骨园。</p>"
         },
         "Captivating Performer": {
             "name": "迷人表演者 Captivating Performer",
@@ -567,7 +567,7 @@
         },
         "Effect: Eldritch Resilience": {
             "name": "效果：诡奇韧性 Effect: Eldritch Resilience",
-            "description": "<p><em>来自@UUID[Compendium.pf2e-team-plus-magic.items.m6MtdQkJnNUA3mzJ]{诡奇韧性}。</em></p><p>神秘搭档获得临时生命值，等于塑形施法所用法术环之两倍（若该法术为戏法则为其阶级）。这些临时生命值持续至你的神秘链结仍激活时。</p>"
+            "description": "<p><em>来自@UUID[Compendium.pf2e-team-plus-magic.items.m6MtdQkJnNUA3mzJ]{诡奇韧性}。</em></p><p>神秘搭档获得临时生命值，等于塑法所用法术环之两倍（若该法术为戏法则为其阶级）。这些临时生命值持续至你的神秘链结仍激活时。</p>"
         },
         "Prey On The Weary": {
             "name": "猎食疲者 Prey On The Weary",

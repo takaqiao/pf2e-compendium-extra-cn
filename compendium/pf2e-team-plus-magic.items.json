@@ -12,7 +12,7 @@
     },
     "folders": {
         "Archetypes & Feats": "架构与专长 Archetypes & Feats",
-        "Familiar Forbisens": "魔宠禁忌 Familiar Forbisens",
+        "Familiar Forbisens": "魔宠禁忆 Familiar Forbisens",
         "Feats": "专长 Feats",
         "Aspect Caller": "层面召唤者 Aspect Caller",
         "Spells": "法术 Spells",
@@ -38,7 +38,7 @@
         "Shift": "变形 Shift",
         "Archmage": "大法师 Archmage",
         "Aspect Morpher": "层面变形者 Aspect Morpher",
-        "Advanced Forbisens": "高级禁忌 Advanced Forbisens",
+        "Advanced Forbisens": "高级禁忆 Advanced Forbisens",
         "Essence Casting": "精质施法 Essence Casting"
     },
     "entries": {
@@ -107,7 +107,7 @@
         },
         "Entertainer": {
             "name": "艺人 Entertainer",
-            "description": "<p><strong>所需能力数</strong> 2</p><p><strong>授予能力</strong> @UUID[Compendium.pf2e.familiar-abilities.92lgSEPFIDLvKOCF]{伴奏者}、@UUID[Compendium.pf2e.familiar-abilities.cT5octWchU4gjrhP]{心灵手巧} 或 @UUID[Compendium.pf2e.familiar-abilities.zyMRLQnFCQVpltiR]{说话}、@UUID[Compendium.pf2e.familiar-abilities.jevzf9JbJJibpqaI]{技能训练}（表演）</p><hr /><p>你的魔宠是一名艺人，深谙如何呈现表演。</p><p><strong>@UUID[Compendium.pf2e-team-plus-magic.items.tg93Tw6KBAolQQsz]{高级艺人}</strong> 你可命令你的魔宠花费 2 个动作进行表演，将其结果与一名观察者的意志 DC 比较。若你的魔宠成功，目标对其迷魂 1 轮。若该观察者处于需要立即关注的情境（例如战斗），你的魔宠必须大成功才能令其迷魂，且此表演动作获得「失能」特征。在掷检定前你必须先选择你魔宠试图迷魂的生物；该目标随后于 1 小时内对此暂时免疫。</p>"
+            "description": "<p><strong>所需能力数</strong> 2</p><p><strong>授予能力</strong> @UUID[Compendium.pf2e.familiar-abilities.92lgSEPFIDLvKOCF]{伴奏者}、@UUID[Compendium.pf2e.familiar-abilities.cT5octWchU4gjrhP]{念动之手巧} 或 @UUID[Compendium.pf2e.familiar-abilities.zyMRLQnFCQVpltiR]{说话}、@UUID[Compendium.pf2e.familiar-abilities.jevzf9JbJJibpqaI]{技能训练}（表演）</p><hr /><p>你的魔宠是一名艺人，深谙如何呈现表演。</p><p><strong>@UUID[Compendium.pf2e-team-plus-magic.items.tg93Tw6KBAolQQsz]{高级艺人}</strong> 你可命令你的魔宠花费 2 个动作进行表演，将其结果与一名观察者的意志 DC 比较。若你的魔宠成功，目标对其迷魂 1 轮。若该观察者处于需要立即关注的情境（例如战斗），你的魔宠必须大成功才能令其迷魂，且此表演动作获得「失能」特征。在掷检定前你必须先选择你魔宠试图迷魂的生物；该目标随后于 1 小时内对此暂时免疫。</p>"
         },
         "Targeted Ward": {
             "name": "定向守护 Targeted Ward",
@@ -145,7 +145,7 @@
         },
         "Summon Ooze Aspect": {
             "name": "召唤黏液层面 Summon Ooze Aspect",
-            "description": "<p>你召唤一只软泥来助你。你召唤一只 @UUID[Compendium.pf2e-team-plus-magic.journals.2ywfGZz3We3np1MB.JournalEntryPage.HqRDK6jf5vAVwt2l]{黏液层面}，体型最大可至中型。</p><p>@UUID[Compendium.pf2e-team-plus-magic.actors.yRcCXxoHCNGSWSh0]{黏液层面} @UUID[Compendium.pf2e-team-plus-magic.misc.Item.SlQSir9DtX0rI0lA]{法术效果：黏液层面数据}</p><p>@UUID[Compendium.pf2e-team-plus-magic.macros.PP7f16PmxFqgNgPM]{召唤黏液层面}</p>"
+            "description": "<p>你召唤一只黏液来助你。你召唤一只 @UUID[Compendium.pf2e-team-plus-magic.journals.2ywfGZz3We3np1MB.JournalEntryPage.HqRDK6jf5vAVwt2l]{黏液层面}，体型最大可至中型。</p><p>@UUID[Compendium.pf2e-team-plus-magic.actors.yRcCXxoHCNGSWSh0]{黏液层面} @UUID[Compendium.pf2e-team-plus-magic.misc.Item.SlQSir9DtX0rI0lA]{法术效果：黏液变形}</p><p>@UUID[Compendium.pf2e-team-plus-magic.macros.PP7f16PmxFqgNgPM]{召唤黏液层面}</p>"
         },
         "Summon Animal Aspect": {
             "name": "召唤动物层面 Summon Animal Aspect",
@@ -222,7 +222,7 @@
         },
         "Ooze Shift": {
             "name": "黏液变形 Ooze Shift",
-            "description": "<p>你变形为一只软泥。施放法术时，你可选择一只 @UUID[Compendium.pf2e-team-plus-magic.journals.2ywfGZz3We3np1MB.JournalEntryPage.HqRDK6jf5vAVwt2l]{黏液层面} 作为你的层面战斗形态。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.SlQSir9DtX0rI0lA]{法术效果：黏液变形}</p><hr /><p><strong>高阶</strong> 依 @UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.s5plpLZzwemVg4RC] 之规则。</p>"
+            "description": "<p>你变形为一只黏液。施放法术时，你可选择一只 @UUID[Compendium.pf2e-team-plus-magic.journals.2ywfGZz3We3np1MB.JournalEntryPage.HqRDK6jf5vAVwt2l]{黏液层面} 作为你的层面战斗形态。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.SlQSir9DtX0rI0lA]{法术效果：黏液变形}</p><hr /><p><strong>高阶</strong> 依 @UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.s5plpLZzwemVg4RC] 之规则。</p>"
         },
         "Alaznist's Embrace": {
             "name": "阿拉兹尼斯特之拥 Alaznist's Embrace",
@@ -316,7 +316,7 @@
         },
         "Immobilizing": {
             "name": "锁定 Immobilizing",
-            "description": "<p>当你从佩戴此指环之手中爆发魔法时，便以魔法冰、石或木将敌人封住。每枚符文专精于冷冻、土、暗影或木之一，并因此获得相应特征。当你以一道无持续时间且具该符文特征之法术法术攻击大成功时，目标除非以 @Check[dc:24|type:fortitude] 豁免成功，否则直至你下一回合结束 @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢1级}。</p>"
+            "description": "<p>当你从佩戴此指环之手中爆发魔法时，便以魔法冰、石或木将敌人封住。每枚符文专精于冷冻、土、暗影或木之一，并因此获得相应特征。当你以一道无持续时间且具该符文特征之法术攻击大成功时，目标除非以 @Check[dc:24|type:fortitude] 豁免成功，否则直至你下一回合结束 @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢1级}。</p>"
         },
         "Ranged Resonance": {
             "name": "远程共鸣 Ranged Resonance",
@@ -383,8 +383,8 @@
             ]
         },
         "Spellshaping Paragon": {
-            "name": "塑形施法典范 Spellshaping Paragon",
-            "description": "<p>你于操控魔法能量上具有独特技艺，能为应对任何情境准备魔法捷径与调整。每日当你准备或恢复法术时，从下列你尚未具备之塑形施法专长中选择一项：@UUID[Compendium.pf2e.feats-srd.bVng7Mkrj4UnQzLo]{燃烧法术}、@UUID[Compendium.pf2e.feats-srd.sIeuPW0j39fTZm08]{藏匿法术}、@UUID[Compendium.pf2e.feats-srd.nroOy0PBeEUGdUXD]{浸水法术}、@UUID[Compendium.pf2e.feats-srd.riQ8sn3Gpbr3LdtR]{飞驰法术}、@UUID[Compendium.pf2e.feats-srd.BWomK7EVY0WXxWgh]{远法术}、@UUID[Compendium.pf2e.feats-srd.U9SrWgLJ8JoAKIy0]{崩岩法术} 或 @UUID[Compendium.pf2e.feats-srd.FoWO4RnHRwfEIC7Q]{扩展法术}。你于至下次每日准备前获得该专长。</p><hr /><p><strong>特殊</strong> 你可花费一神话点作为交互动作以重写自己的魔法，将所选专长替换为上述列表中之另一项。</p>",
+            "name": "塑法典范 Spellshaping Paragon",
+            "description": "<p>你于操控魔法能量上具有独特技艺，能为应对任何情境准备魔法捷径与调整。每日当你准备或恢复法术时，从下列你尚未具备之塑法专长中选择一项：@UUID[Compendium.pf2e.feats-srd.bVng7Mkrj4UnQzLo]{燃烧法术}、@UUID[Compendium.pf2e.feats-srd.sIeuPW0j39fTZm08]{藏匿法术}、@UUID[Compendium.pf2e.feats-srd.nroOy0PBeEUGdUXD]{浸水法术}、@UUID[Compendium.pf2e.feats-srd.riQ8sn3Gpbr3LdtR]{飞驰法术}、@UUID[Compendium.pf2e.feats-srd.BWomK7EVY0WXxWgh]{远法术}、@UUID[Compendium.pf2e.feats-srd.U9SrWgLJ8JoAKIy0]{崩岩法术} 或 @UUID[Compendium.pf2e.feats-srd.FoWO4RnHRwfEIC7Q]{扩展法术}。你于至下次每日准备前获得该专长。</p><hr /><p><strong>特殊</strong> 你可花费一神话点作为交互动作以重写自己的魔法，将所选专长替换为上述列表中之另一项。</p>",
             "prerequisites": [
                 {
                     "value": "大法师献身"
@@ -478,7 +478,7 @@
         },
         "Summon Celestial Aspect": {
             "name": "召唤天界层面 Summon Celestial Aspect",
-            "description": "<p>你召唤一股天界之力听你差遣。你召唤一只 @UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.ABdvu7T0B57zoJRm]{天界层面}，体型最大可至中型。</p><p>@UUID[Compendium.pf2e-team-plus-magic.actors.XwCNmhi9qFUDqfYW]{天界层面} @UUID[Compendium.pf2e-team-plus-magic.misc.GNSz5ksf9fux0j7u]{法术效果：天界层面数据}</p><p>@UUID[Compendium.pf2e-team-plus-magic.macros.5XcIPo95buZhwrzv]{召唤天界层面}</p>"
+            "description": "<p>你召唤一股天界之力听你差遣。你召唤一只 @UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.ABdvu7T0B57zoJRm]{天界层面}，体型最大可至中型。</p><p>@UUID[Compendium.pf2e-team-plus-magic.actors.XwCNmhi9qFUDqfYW]{天界层面} @UUID[Compendium.pf2e-team-plus-magic.misc.GNSz5ksf9fux0j7u]{法术效果：天界变形}</p><p>@UUID[Compendium.pf2e-team-plus-magic.macros.5XcIPo95buZhwrzv]{召唤天界层面}</p>"
         },
         "Localized Eclipse": {
             "name": "局部食日 Localized Eclipse",
@@ -494,11 +494,11 @@
         },
         "Scientific": {
             "name": "科学的 Scientific",
-            "description": "<p><strong>先决条件</strong> 你必须具备 @UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金} 才能选取此禁忆。</p><p><strong>所需能力数</strong> 2</p><p><strong>授予能力</strong> @UUID[Compendium.pf2e.familiar-abilities.Rv1KTRioaZOWyQI6]{炼金肠道} 或 @UUID[Compendium.pf2e.familiar-abilities.8Z1UkLEWkFWIjOF8]{毒素容器}、@UUID[Compendium.pf2e.familiar-abilities.7QosmRHlyLLhU1hX]{实验助手}、@UUID[Compendium.pf2e.familiar-abilities.cT5octWchU4gjrhP]{心灵手巧}</p><hr /><p>你的魔宠于炼金领域出类拔萃。</p><p><strong>@UUID[Compendium.pf2e-team-plus-magic.items.6bH6g4uCWjqM81AQ]{高级科学的}</strong> 你的魔宠获得 @UUID[Compendium.pf2e.familiar-abilities.jevzf9JbJJibpqaI]{技能训练}（制作）以及自选的 @UUID[Compendium.pf2e.familiar-abilities.ModT5b0jvnaitzJH]{额外炼金} 或 @UUID[Compendium.pf2e.familiar-abilities.ZtKb89o1PPhwJ3Lx]{制剂} 之一；不过若你魔宠的禁忆选择为「炼金兽腑」，则你必须选择炼金炸弹；若选择为「毒素储藏」，则你必须为这些能力选择炼金毒素。</p>"
+            "description": "<p><strong>先决条件</strong> 你必须具备 @UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金} 才能选取此禁忆。</p><p><strong>所需能力数</strong> 2</p><p><strong>授予能力</strong> @UUID[Compendium.pf2e.familiar-abilities.Rv1KTRioaZOWyQI6]{炼金肠道} 或 @UUID[Compendium.pf2e.familiar-abilities.8Z1UkLEWkFWIjOF8]{毒素容器}、@UUID[Compendium.pf2e.familiar-abilities.7QosmRHlyLLhU1hX]{实验助手}、@UUID[Compendium.pf2e.familiar-abilities.cT5octWchU4gjrhP]{念动之手巧}</p><hr /><p>你的魔宠于炼金领域出类拔萃。</p><p><strong>@UUID[Compendium.pf2e-team-plus-magic.items.6bH6g4uCWjqM81AQ]{高级科学的}</strong> 你的魔宠获得 @UUID[Compendium.pf2e.familiar-abilities.jevzf9JbJJibpqaI]{技能训练}（制作）以及自选的 @UUID[Compendium.pf2e.familiar-abilities.ModT5b0jvnaitzJH]{额外炼金} 或 @UUID[Compendium.pf2e.familiar-abilities.ZtKb89o1PPhwJ3Lx]{制剂} 之一；不过若你魔宠的禁忆选择为「炼金兽腑」，则你必须选择炼金炸弹；若选择为「毒素储藏」，则你必须为这些能力选择炼金毒素。</p>"
         },
         "Summon Fiend Aspect": {
             "name": "召唤魔类层面 Summon Fiend Aspect",
-            "description": "<p>你束缚一名邪魔听你差遣。你召唤一只 @UUID[Compendium.pf2e-team-plus-magic.journals.2ywfGZz3We3np1MB.JournalEntryPage.zTdtg6CPxmqwus1D]{魔类层面}，体型最大可至中型。</p><p>@UUID[Compendium.pf2e-team-plus-magic.actors.d0cX3r5XBLoC9Aan] @UUID[Compendium.pf2e-team-plus-magic.misc.NtuTEQoDNpPqOkUL]{法术效果：魔类变形}</p><p>@UUID[Compendium.pf2e-team-plus-magic.macros.BWW9xQ4rGI81L4KI]</p>"
+            "description": "<p>你束缚一名魔族听你差遣。你召唤一只 @UUID[Compendium.pf2e-team-plus-magic.journals.2ywfGZz3We3np1MB.JournalEntryPage.zTdtg6CPxmqwus1D]{魔类层面}，体型最大可至中型。</p><p>@UUID[Compendium.pf2e-team-plus-magic.actors.d0cX3r5XBLoC9Aan] @UUID[Compendium.pf2e-team-plus-magic.misc.NtuTEQoDNpPqOkUL]{法术效果：魔类变形}</p><p>@UUID[Compendium.pf2e-team-plus-magic.macros.BWW9xQ4rGI81L4KI]</p>"
         },
         "Empyreal Dragonbreath Greatsword (Greater)": {
             "name": "天极龙息巨剑（中阶） Empyreal Dragonbreath Greatsword (Greater)",
@@ -510,7 +510,7 @@
         },
         "Power Ring (Platinum)": {
             "name": "威能指环（铂金） Power Ring (Platinum)",
-            "description": "<p>这看似一条简单的金属环带，当魔法穿过你手指时便以神秘热度闪耀。你可以为威能指环添加特殊指环符文以进一步提升你对魔法的掌控。激活时，它会赋予你的攻击法术更高的精度。在每日准备期间，从你能施放、且需要法术攻击掷骰的戏法中选择至多 5 道。所选戏法可以忽视该指环之激活频率。你可以为该指环灌注三枚指环符文。</p><p>当你植入此指环时，你可选择将施法属性调整值增加 1，或将其增加至 +5（取较高值）。</p><p><strong>激活——真言法术</strong> <span class=\"action-glyph\">f</span>（繁艺、操作、塑形施法）</p><p><strong>频率</strong> 每 10 分钟一次</p><hr /><p>指环之魔法引导你的攻击。若你的下一动作是施放一道需要法术攻击掷骰之法术，则你的法术攻击掷骰获得 +3 物品加值。若该法术有多个目标，加值适用于所有目标。若你以此效果修饰之法术能在维持时进行额外法术攻击掷骰，物品加值同样适用于这些法术攻击掷骰。</p>"
+            "description": "<p>这看似一条简单的金属环带，当魔法穿过你手指时便以神秘热度闪耀。你可以为威能指环添加特殊指环符文以进一步提升你对魔法的掌控。激活时，它会赋予你的攻击法术更高的精度。在每日准备期间，从你能施放、且需要法术攻击掷骰的戏法中选择至多 5 道。所选戏法可以忽视该指环之激活频率。你可以为该指环灌注三枚指环符文。</p><p>当你植入此指环时，你可选择将施法属性调整值增加 1，或将其增加至 +5（取较高值）。</p><p><strong>激活——真言法术</strong> <span class=\"action-glyph\">f</span>（繁艺、操作、塑法）</p><p><strong>频率</strong> 每 10 分钟一次</p><hr /><p>指环之魔法引导你的攻击。若你的下一动作是施放一道需要法术攻击掷骰之法术，则你的法术攻击掷骰获得 +3 物品加值。若该法术有多个目标，加值适用于所有目标。若你以此效果修饰之法术能在维持时进行额外法术攻击掷骰，物品加值同样适用于这些法术攻击掷骰。</p>"
         },
         "Dynamic Vampiric Feast": {
             "name": "动态吸血盛宴 Dynamic Vampiric Feast",
@@ -518,7 +518,7 @@
         },
         "Power Ring (Silver)": {
             "name": "威能指环（白银） Power Ring (Silver)",
-            "description": "<p>这看似一条简单的金属环带，当魔法穿过你手指时便以神秘热度闪耀。你可以为威能指环添加特殊指环符文以进一步提升你对魔法的掌控。激活时，它会赋予你的攻击法术更高的精度。在每日准备期间，从你能施放、且需要法术攻击掷骰的戏法中选择至多 3 道。所选戏法可以忽视该指环之激活频率。你可以为该指环灌注两枚指环符文。</p><p><strong>激活——真言法术</strong> <span class=\"action-glyph\">f</span>（繁艺、操作、塑形施法）</p><p><strong>频率</strong> 每 10 分钟一次</p><hr /><p>指环之魔法引导你的攻击。若你的下一动作是施放一道需要法术攻击掷骰之法术，则你的法术攻击掷骰获得 +2 物品加值。若该法术有多个目标，加值适用于所有目标。若你以此效果修饰之法术能在维持时进行额外法术攻击掷骰，物品加值同样适用于这些法术攻击掷骰。</p>"
+            "description": "<p>这看似一条简单的金属环带，当魔法穿过你手指时便以神秘热度闪耀。你可以为威能指环添加特殊指环符文以进一步提升你对魔法的掌控。激活时，它会赋予你的攻击法术更高的精度。在每日准备期间，从你能施放、且需要法术攻击掷骰的戏法中选择至多 3 道。所选戏法可以忽视该指环之激活频率。你可以为该指环灌注两枚指环符文。</p><p><strong>激活——真言法术</strong> <span class=\"action-glyph\">f</span>（繁艺、操作、塑法）</p><p><strong>频率</strong> 每 10 分钟一次</p><hr /><p>指环之魔法引导你的攻击。若你的下一动作是施放一道需要法术攻击掷骰之法术，则你的法术攻击掷骰获得 +2 物品加值。若该法术有多个目标，加值适用于所有目标。若你以此效果修饰之法术能在维持时进行额外法术攻击掷骰，物品加值同样适用于这些法术攻击掷骰。</p>"
         },
         "Magic Tome (6th-Rank Essence Spell)": {
             "name": "魔法典籍（6阶精质法术） Magic Tome (6th-Rank Essence Spell)",
@@ -551,7 +551,7 @@
             ]
         },
         "Howl of Winter (Greater)": {
-            "name": "凛冬之嚎（中阶） Howl of Winter (Greater)",
+            "name": "凛冬之嚎（高阶） Howl of Winter (Greater)",
             "description": "<p><strong>激活</strong> <span class=\"action-glyph\">2</span> 交互、打击</p><hr /><p>这件法器枪不知何故看似一柄天然形成的冰锥状手枪。激活该法器枪——以一名生物为目标，并自选以法术攻击掷骰或火器攻击掷骰对照该目标之 AC。该法器枪具有 30 尺射程增量。该法器枪喷出彻骨极地寒风，造成 @Damage[12d6[cold]] 伤害，随后融化。</p><p><strong>大成功</strong> 目标承受双倍伤害，且其速度于 1 分钟内承受 -10 尺状态减值。</p><p><strong>成功</strong> 同大成功，但目标承受全额伤害，且其速度于 1 分钟内承受 -5 尺状态减值。</p>"
         },
         "Voracious Drain": {
@@ -572,7 +572,7 @@
             "description": "<p><strong>周期 1</strong> 你不会如精质循环般将精质归零，而是让你的精质从 9 提升至 10。这意味着从下回合起，你便可施放一道 10 环法术。当你如此做时，你的精质降至 0，但不会进行额外的精质循环。</p>"
         },
         "Bloodstained Bandana (Greater)": {
-            "name": "血染头巾（中阶） Bloodstained Bandana (Greater)",
+            "name": "血染头巾（高阶） Bloodstained Bandana (Greater)",
             "description": "<p>这件深色头巾被鲜血浸染并结成硬痂，已无法分辨它原先是什么颜色或图案。佩戴此头巾会增强你的嗅觉，但仅限于鲜血之气味。你获得 30 尺射程的精确血感。血感让你能察觉正承受持续流血伤害、或处于濒死或受伤状态的生物。你也能察觉新近溅出的血液之独立水洼或液滴。GM 裁定下，无血生物不能被你的血感察觉。</p><p>你忽视以正承受持续流血伤害之生物为目标的平稳检定，并将以正承受持续流血伤害之隐蔽生物为目标的平稳检定减至 5。</p>"
         },
         "Warped Reflection": {
@@ -603,7 +603,7 @@
         },
         "Culprit": {
             "name": "首谋 Culprit",
-            "description": "<p><strong>所需能力数</strong> 2</p><p><strong>授予能力</strong> @UUID[Compendium.pf2e.familiar-abilities.v7zE3tKQb9G6PaYU]{犯罪同伙}、@UUID[Compendium.pf2e.familiar-abilities.jevzf9JbJJibpqaI]{技能训练}（欺诈或盗术），以及由你「技能训练」选择决定的另一项魔宠能力</p><hr /><p>你的魔宠口才出众且容易交流。若你选择「技能训练」（盗术），你的魔宠获得 @UUID[Compendium.pf2e.familiar-abilities.cT5octWchU4gjrhP]{心灵手巧}；若选择「技能训练」（欺诈），则获得 @UUID[Compendium.pf2e.familiar-abilities.zyMRLQnFCQVpltiR]{说话}。</p><p><strong>@UUID[Compendium.pf2e-team-plus-magic.items.VsqOHgyx52lQPRgV]{高级首谋}</strong> 当你的魔宠对你的检定进行援助时，你可选择放弃其赐予之环境加值，转而以你的调整值与你魔宠对触发检定之调整值各掷一次该检定，取较高结果。此为命运效果。</p>"
+            "description": "<p><strong>所需能力数</strong> 2</p><p><strong>授予能力</strong> @UUID[Compendium.pf2e.familiar-abilities.v7zE3tKQb9G6PaYU]{犯罪同伙}、@UUID[Compendium.pf2e.familiar-abilities.jevzf9JbJJibpqaI]{技能训练}（欺诈或盗术），以及由你「技能训练」选择决定的另一项魔宠能力</p><hr /><p>你的魔宠口才出众且容易交流。若你选择「技能训练」（盗术），你的魔宠获得 @UUID[Compendium.pf2e.familiar-abilities.cT5octWchU4gjrhP]{念动之手巧}；若选择「技能训练」（欺诈），则获得 @UUID[Compendium.pf2e.familiar-abilities.zyMRLQnFCQVpltiR]{说话}。</p><p><strong>@UUID[Compendium.pf2e-team-plus-magic.items.VsqOHgyx52lQPRgV]{高级首谋}</strong> 当你的魔宠对你的检定进行援助时，你可选择放弃其赐予之环境加值，转而以你的调整值与你魔宠对触发检定之调整值各掷一次该检定，取较高结果。此为命运效果。</p>"
         },
         "Dynamic Guidance": {
             "name": "动态神导术 Dynamic Guidance",
@@ -673,8 +673,8 @@
             "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（原初, 毒素）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（原初, 毒素）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
         },
         "Refract Eidolon's Aspect": {
-            "name": "折射魂偶层面 Refract Eidolon's Aspect",
-            "description": "<p>你的魂偶与你之羁绊本身便是一种异常强大之层面。通过改变流经其中之魔法，你可将其转化为多种变体——犹如光线穿过棱镜。你解显化你的魂偶，并在魂偶原所在空间相邻空间召唤三个层面，受你 1 分钟之控制。这些层面必须是你已知、且与你魂偶共享一项特征之层面。由于这些都是你魂偶之层面，它们共享其心智——你可像与魂偶一般与其交流并对其施法。所召唤的层面以你的动作如同你魂偶般行事；当你使用具备「并行」特征之动作时，你可对其中一个层面使用之，犹如其为你的魂偶（例如「同心而行」）。若所召唤层面之一被减至 0 生命值，你承受 20 心灵伤害（因其被驱散）。若你于层面召唤生物在场时显化魂偶，则作为该活动之一部分，你立即解散所有层面召唤生物。</p><hr /><p><strong>特殊</strong> 若你具有 Summoners+ 之裂分魂偶，所有魂偶皆未显化，所折射之层面便出现于其任一空间或其相邻空间。</p>",
+            "name": "折射幻灵层面 Refract Eidolon's Aspect",
+            "description": "<p>你的幻灵与你之羁绊本身便是一种异常强大之层面。通过改变流经其中之魔法，你可将其转化为多种变体——犹如光线穿过棱镜。你解显化你的幻灵，并在幻灵原所在空间相邻空间召唤三个层面，受你 1 分钟之控制。这些层面必须是你已知、且与你幻灵共享一项特征之层面。由于这些都是你幻灵之层面，它们共享其心智——你可像与幻灵一般与其交流并对其施法。所召唤的层面以你的动作如同你幻灵般行事；当你使用具备「并行」特征之动作时，你可对其中一个层面使用之，犹如其为你的幻灵（例如「同心而行」）。若所召唤层面之一被减至 0 生命值，你承受 20 心灵伤害（因其被驱散）。若你于层面召唤生物在场时显化幻灵，则作为该活动之一部分，你立即解散所有层面召唤生物。</p><hr /><p><strong>特殊</strong> 若你具有 Summoners+ 之裂分幻灵，所有幻灵皆未显化，所折射之层面便出现于其任一空间或其相邻空间。</p>",
             "prerequisites": [
                 {
                     "value": "层面预知者"
@@ -745,7 +745,7 @@
         },
         "Darkened Forest Shift": {
             "name": "晦林变形 Darkened Forest Shift",
-            "description": "<p>你的化身投下野性之影。你可变形为 @UUID[Compendium.pf2e-team-plus-magic.items.TXZWyxFYuhQeQ5ue]{害虫变形} @UUID[Compendium.pf2e-team-plus-magic.misc.gEkEhXzPL5ZBdSKU]{法术效果：害虫变形} 中所列任一形态。当你变形为该法术所赐之形态时，你获得所选形态于「晦林变形」环级版本之全部效果。每次维持此法术时，你可选择改变为相关法术中可用的另一形态。</p><hr /><p><strong>高阶 (2 阶)</strong> 你也可变形为 @UUID[Compendium.pf2e-team-plus-magic.items.lV8etIlOczlCbJ46]{动物变形} @UUID[Compendium.pf2e-team-plus-magic.misc.TLIkcaSk5Zx3iFjK]{法术效果：动物变形} 中所列形态。</p><p><strong>高阶 (5 阶)</strong> 你也可变形为 @UUID[Compendium.pf2e-team-plus-magic.items.bK4rp20XuJRWGsEv]{元素变形} @UUID[Compendium.pf2e-team-plus-magic.misc.ARrJ3NLQQRzneYjc]{（法术效果：元素变形）} 中所列形态。</p>"
+            "description": "<p>你的化身投下野性之影。你可变形为 @UUID[Compendium.pf2e-team-plus-magic.items.TXZWyxFYuhQeQ5ue]{害虫变形} @UUID[Compendium.pf2e-team-plus-magic.misc.gEkEhXzPL5ZBdSKU]{法术效果：害虫变形} 中所列任一形态。当你变形为该法术所赐之形态时，你获得所选形态于「晦林变形」环级版本之全部效果。每次维持此法术时，你可选择改变为相关法术中可用的另一形态。</p><hr /><p><strong>高阶 (2 阶)</strong> 你也可变形为 @UUID[Compendium.pf2e-team-plus-magic.items.lV8etIlOczlCbJ46]{动物变形} @UUID[Compendium.pf2e-team-plus-magic.misc.TLIkcaSk5Zx3iFjK]{法术效果：动物变形} 中所列形态。</p><p><strong>高阶 (5 阶)</strong> 你也可变形为 @UUID[Compendium.pf2e-team-plus-magic.items.bK4rp20XuJRWGsEv]{元素变形} @UUID[Compendium.pf2e-team-plus-magic.misc.ARrJ3NLQQRzneYjc]{法术效果：元素变形} 中所列形态。</p>"
         },
         "Dynamic Gouging Claw": {
             "name": "动态穿凿尖爪 Dynamic Gouging Claw",
@@ -784,7 +784,7 @@
         },
         "Scepter of Second Chances": {
             "name": "再机权杖 Scepter of Second Chances",
-            "description": "<p>这种权杖以桦树制成，纸状之树皮像活树般脱落。树皮迅速消失——一些持用者会在其上写下秘密心愿，看着它们消失，期望它们于现实中实现。</p><div class=\"team-plus-statblock\"><p><strong>激活——危险赔率</strong> <span class=\"action-glyph\">1</span>（操作、塑形施法）</p><p><strong>频率</strong> 每小时一次</p><hr /><p>若你的下一动作是施放一道会以单一生物为目标且需意志豁免之法术，且目标其豁免成功，你可使用反应迫使该生物重新掷豁免，并采用新结果。此为厄运效果。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——显化心愿</strong> <span class=\"action-glyph\">3</span>（操作）</p><p><strong>频率</strong> 每日一次；</p><p><strong>消耗</strong> 至少 5 环法术位</p><hr /><p>你与 30 尺内之盟友可显化更佳之现实，持续轮数等同你所消耗法术位之环级。在持续期间，受影响之生物可选择重掷一次攻击掷骰、豁免或技能检定。其必须采用新结果（即便更差）。此为命运效果。</p></div>"
+            "description": "<p>这种权杖以桦树制成，纸状之树皮像活树般脱落。树皮迅速消失——一些持用者会在其上写下秘密心愿，看着它们消失，期望它们于现实中实现。</p><div class=\"team-plus-statblock\"><p><strong>激活——危险赔率</strong> <span class=\"action-glyph\">1</span>（操作、塑法）</p><p><strong>频率</strong> 每小时一次</p><hr /><p>若你的下一动作是施放一道会以单一生物为目标且需意志豁免之法术，且目标其豁免成功，你可使用反应迫使该生物重新掷豁免，并采用新结果。此为厄运效果。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——显化心愿</strong> <span class=\"action-glyph\">3</span>（操作）</p><p><strong>频率</strong> 每日一次；</p><p><strong>消耗</strong> 至少 5 环法术位</p><hr /><p>你与 30 尺内之盟友可显化更佳之现实，持续轮数等同你所消耗法术位之环级。在持续期间，受影响之生物可选择重掷一次攻击掷骰、豁免或技能检定。其必须采用新结果（即便更差）。此为命运效果。</p></div>"
         },
         "Mirage Dragonbreath Bec de Corbin": {
             "name": "蜃景龙息长喙锤 Mirage Dragonbreath Bec de Corbin",
@@ -805,7 +805,7 @@
         },
         "Scepter of Purifying": {
             "name": "净化权杖 Scepter of Purifying",
-            "description": "<p>该权杖以其握柄之沸腾气味令人识别。</p><div class=\"team-plus-statblock\"><p><strong>激活——净化法术</strong> <span class=\"action-glyph\">1</span>（操作、塑形施法）</p><p><strong>频率</strong> 每小时一次</p><hr /><p>若你的下一动作是施放一道会为单一生物恢复生命值之法术，你可于该法术常规效果之外尝试对抗目标的恶心状态——以你所施法术之环级作为对抗调整值。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——净化波</strong> <span class=\"action-glyph\">3</span>（操作）</p><p><strong>频率</strong> 每日一次；</p><p><strong>消耗</strong> 至少 4 环法术位</p><hr /><p>你为 @Template[type:cone|distance:30] 内的所有生物每环级恢复 @Damage[1d8[healing]] 生命值。你可尝试对抗该区域内所有生物的恶心状态，或区域内单一目标受到的疾病或毒素——以你所消耗法术位之环级作为对抗调整值。</p></div>"
+            "description": "<p>该权杖以其握柄之沸腾气味令人识别。</p><div class=\"team-plus-statblock\"><p><strong>激活——净化法术</strong> <span class=\"action-glyph\">1</span>（操作、塑法）</p><p><strong>频率</strong> 每小时一次</p><hr /><p>若你的下一动作是施放一道会为单一生物恢复生命值之法术，你可于该法术常规效果之外尝试对抗目标的恶心状态——以你所施法术之环级作为对抗调整值。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——净化波</strong> <span class=\"action-glyph\">3</span>（操作）</p><p><strong>频率</strong> 每日一次；</p><p><strong>消耗</strong> 至少 4 环法术位</p><hr /><p>你为 @Template[type:cone|distance:30] 内的所有生物每环级恢复 @Damage[1d8[healing]] 生命值。你可尝试对抗该区域内所有生物的恶心状态，或区域内单一目标受到的疾病或毒素——以你所消耗法术位之环级作为对抗调整值。</p></div>"
         },
         "Sticky Wicket": {
             "name": "黏滞门户 Sticky Wicket",
@@ -900,7 +900,7 @@
         },
         "Power of Blood": {
             "name": "血之力 Power of Blood",
-            "description": "<p>当某些法师依赖书籍、聚焦工具或神祇时，你将魔法之源带于自身之内。若你选择此职业架构，你必须选择「血法师献身」作为你的 2 级职业专长。</p><p><strong>先决条件：</strong>你必须能流血，且具备职业之施法职业特性。</p><p><strong>血法师调整：</strong>将你的最大生命值增加你的等级。当你以法术位施放法术时，你承受等同该法术环级的持续流血伤害。此持续流血伤害绕过任何抗力或免疫。此外，你结束持续流血伤害之平稳检定 DC 由 15 减至 12；若你至少为 9 级则减至 10；至少 13 级则减至 8；至少 17 级则减至 5（若有特别有效之协助则在此基础上再减 5，最少为 17 级时自动成功）。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.fZntOuJKiFAVWB3h]{流血法术} 塑形施法。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.5HLm2qhSCzUr090m]{血法师与血法专长}</p>"
+            "description": "<p>当某些法师依赖书籍、聚焦工具或神祇时，你将魔法之源带于自身之内。若你选择此职业架构，你必须选择「血法师献身」作为你的 2 级职业专长。</p><p><strong>先决条件：</strong>你必须能流血，且具备职业之施法职业特性。</p><p><strong>血法师调整：</strong>将你的最大生命值增加你的等级。当你以法术位施放法术时，你承受等同该法术环级的持续流血伤害。此持续流血伤害绕过任何抗力或免疫。此外，你结束持续流血伤害之平稳检定 DC 由 15 减至 12；若你至少为 9 级则减至 10；至少 13 级则减至 8；至少 17 级则减至 5（若有特别有效之协助则在此基础上再减 5，最少为 17 级时自动成功）。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.fZntOuJKiFAVWB3h]{流血法术} 塑法。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.5HLm2qhSCzUr090m]{血法师与血法专长}</p>"
         },
         "Dynamic Haste": {
             "name": "动态加速术 Dynamic Haste",
@@ -908,7 +908,7 @@
         },
         "Propulsor": {
             "name": "推进器 Propulsor",
-            "description": "<p>你将魔法之线穿过推进与湍流之小门。</p><p><strong>小门特征</strong> 力场、水</p><p><strong>系链魔法</strong> 当你以「水」特征之法术法术攻击成功，或一名生物对此法术豁免失败时，你将目标向你所选方向推开 5 尺（若你的法术攻击大成功或该生物豁免大失败则为 10 尺）。此为强制移动。当你施放一道力场法术时，你可移除你小门之领域区域内某生物之倒地状态——犹如其使用了 @UUID[Compendium.pf2e.actionspf2e.OdIUybJ3ddfL7wzj]{站立} 动作。该「站立」动作不会引发反应。</p><p><strong>压倒性小门</strong> 当你以「水」特征且造成钝击伤害之法术施法时，你可选择改造为力场伤害（替代钝击伤害）。当你以一道不需要豁免之力场法术对生物造成伤害时，他们须以你的法术 DC 进行 @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)] 豁免。豁免失败的生物 @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及} 直至下一回合结束；豁免大失败时被击 @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地}。</p>",
+            "description": "<p>你将魔法之线穿过推进与湍流之小门。</p><p><strong>小门特征</strong> 力场、水</p><p><strong>系链魔法</strong> 当你以「水」特征之法术攻击成功，或一名生物对此法术豁免失败时，你将目标向你所选方向推开 5 尺（若你的法术攻击大成功或该生物豁免大失败则为 10 尺）。此为强制移动。当你施放一道力场法术时，你可移除你小门之领域区域内某生物之倒地状态——犹如其使用了 @UUID[Compendium.pf2e.actionspf2e.OdIUybJ3ddfL7wzj]{站立} 动作。该「站立」动作不会引发反应。</p><p><strong>压倒性小门</strong> 当你以「水」特征且造成钝击伤害之法术施法时，你可选择改造为力场伤害（替代钝击伤害）。当你以一道不需要豁免之力场法术对生物造成伤害时，他们须以你的法术 DC 进行 @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)] 豁免。豁免失败的生物 @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及} 直至下一回合结束；豁免大失败时被击 @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地}。</p>",
             "prerequisites": [
                 {
                     "value": "至少能取用一项具力场特征的法术"
@@ -924,7 +924,7 @@
         },
         "Power Ring (Iron)": {
             "name": "威能指环（铁） Power Ring (Iron)",
-            "description": "<p>这看似一条简单的金属环带，当魔法穿过你手指时便以神秘热度闪耀。你可以为威能指环添加特殊指环符文以进一步提升你对魔法的掌控。激活时，它会赋予你的攻击法术更高的精度。在每日准备期间，从你能施放、且需要法术攻击掷骰的戏法中选择 1 道。所选戏法可以忽视该指环之激活频率。你可以为该指环灌注一枚指环符文。</p><p><strong>激活——真言法术</strong> <span class=\"action-glyph\">f</span>（繁艺、操作、塑形施法）</p><p><strong>频率</strong> 每 10 分钟一次</p><hr /><p>指环之魔法引导你的攻击。若你的下一动作是施放一道需要法术攻击掷骰之法术，则你的法术攻击掷骰获得 +1 物品加值。若该法术有多个目标，加值适用于所有目标。若你以此效果修饰之法术能在维持时进行额外法术攻击掷骰，物品加值同样适用于这些法术攻击掷骰。</p>"
+            "description": "<p>这看似一条简单的金属环带，当魔法穿过你手指时便以神秘热度闪耀。你可以为威能指环添加特殊指环符文以进一步提升你对魔法的掌控。激活时，它会赋予你的攻击法术更高的精度。在每日准备期间，从你能施放、且需要法术攻击掷骰的戏法中选择 1 道。所选戏法可以忽视该指环之激活频率。你可以为该指环灌注一枚指环符文。</p><p><strong>激活——真言法术</strong> <span class=\"action-glyph\">f</span>（繁艺、操作、塑法）</p><p><strong>频率</strong> 每 10 分钟一次</p><hr /><p>指环之魔法引导你的攻击。若你的下一动作是施放一道需要法术攻击掷骰之法术，则你的法术攻击掷骰获得 +1 物品加值。若该法术有多个目标，加值适用于所有目标。若你以此效果修饰之法术能在维持时进行额外法术攻击掷骰，物品加值同样适用于这些法术攻击掷骰。</p>"
         },
         "Plant Shape+": {
             "name": "植物形态+ Plant Shape+",
@@ -997,7 +997,7 @@
         },
         "Assistant": {
             "name": "助手 Assistant",
-            "description": "<p><strong>所需能力数</strong> 2</p><p><strong>授予能力</strong> @UUID[Compendium.pf2e.familiar-abilities.cT5octWchU4gjrhP]{心灵手巧}、@UUID[Compendium.pf2e.familiar-abilities.jevzf9JbJJibpqaI]{技能训练}（一项需要工具的技能）、@UUID[Compendium.pf2e.familiar-abilities.uUrsZ4WvhjKjFjnt]{工具驮兽}</p><hr /><p>你的魔宠擅于使用工具并协助你的工作。</p><p><strong>@UUID[Compendium.pf2e-team-plus-magic.items.xiDjduyosXBVMhOv]{高级助手}</strong> 你的魔宠可挥舞至多 1 体积（替代至多 L 体积）之工具。你的魔宠可以以其「技能训练」之所选技能使用本来要求受训熟练度的动作。</p>"
+            "description": "<p><strong>所需能力数</strong> 2</p><p><strong>授予能力</strong> @UUID[Compendium.pf2e.familiar-abilities.cT5octWchU4gjrhP]{念动之手巧}、@UUID[Compendium.pf2e.familiar-abilities.jevzf9JbJJibpqaI]{技能训练}（一项需要工具的技能）、@UUID[Compendium.pf2e.familiar-abilities.uUrsZ4WvhjKjFjnt]{工具驮兽}</p><hr /><p>你的魔宠擅于使用工具并协助你的工作。</p><p><strong>@UUID[Compendium.pf2e-team-plus-magic.items.xiDjduyosXBVMhOv]{高级助手}</strong> 你的魔宠可挥舞至多 1 体积（替代至多 L 体积）之工具。你的魔宠可以以其「技能训练」之所选技能使用本来要求受训熟练度的动作。</p>"
         },
         "Magic Tome (7th-Rank Essence Spell)": {
             "name": "魔法典籍（7阶精质法术） Magic Tome (7th-Rank Essence Spell)",
@@ -1163,7 +1163,7 @@
         },
         "Scepter of Sickening": {
             "name": "致恶心权杖 Scepter of Sickening",
-            "description": "<p>这种权杖通常呈绿色与棕色相间，触感令人不适、油腻，或散发淡淡却令人反感的气味。以该杖增强法术会为其增添些许令人作呕之魔法，使魔法目标感到不适。</p><div class=\"team-plus-statblock\"><p><strong>激活——致恶心法术</strong> <span class=\"action-glyph\">1</span>（操作、塑形施法）</p><p><strong>频率</strong> 每小时一次</p><hr /><p>若你的下一动作是施放一道带基础强韧豁免的法术，豁免失败之生物 @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心1级}（豁免大失败为 @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心2级}）。无论该法术是否造成伤害，目标皆受影响。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——腐臭光环</strong> <span class=\"action-glyph\">3</span>（操作）</p><p><strong>频率</strong> 每日一次</p><p><strong>消耗</strong> 至少 3 环法术位</p><hr /><p>你于 @Template[distance:20|type:emanation] 内散发腐臭光环，持续轮数等同所消耗法术位之环级。在该区域内结束回合的生物 @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心1级} 或将其恶心值增加 1（最高至恶心 4）。该区域内之生物不能将其恶心状态降至 1 级以下。</p></div>"
+            "description": "<p>这种权杖通常呈绿色与棕色相间，触感令人不适、油腻，或散发淡淡却令人反感的气味。以该杖增强法术会为其增添些许令人作呕之魔法，使魔法目标感到不适。</p><div class=\"team-plus-statblock\"><p><strong>激活——致恶心法术</strong> <span class=\"action-glyph\">1</span>（操作、塑法）</p><p><strong>频率</strong> 每小时一次</p><hr /><p>若你的下一动作是施放一道带基础强韧豁免的法术，豁免失败之生物 @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心1级}（豁免大失败为 @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心2级}）。无论该法术是否造成伤害，目标皆受影响。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——腐臭光环</strong> <span class=\"action-glyph\">3</span>（操作）</p><p><strong>频率</strong> 每日一次</p><p><strong>消耗</strong> 至少 3 环法术位</p><hr /><p>你于 @Template[distance:20|type:emanation] 内散发腐臭光环，持续轮数等同所消耗法术位之环级。在该区域内结束回合的生物 @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心1级} 或将其恶心值增加 1（最高至恶心 4）。该区域内之生物不能将其恶心状态降至 1 级以下。</p></div>"
         },
         "Advanced Culprit": {
             "name": "高级首谋 Advanced Culprit",
@@ -1209,7 +1209,7 @@
         },
         "Verdant Bola": {
             "name": "翠绿绊索 Verdant Bola",
-            "description": "<p><strong>激活</strong> <span class=\"action-glyph\">2</span> 交互、打击</p><hr /><p>这件法器枪看似一柄末端缠满藤蔓与坚果的弹弓，而非某种火器。激活该法器枪——以一名生物为目标，并自选以法术攻击掷骰或火器攻击掷骰对照该目标之反射 DC。该法器枪具有 20 尺射程增量。</p><p><strong>大成功</strong> 目标 @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚}，直至你下一回合结束，或其以你的法术 DC 作为脱困 DC 逃脱。</p><p><strong>成功</strong> 同大成功，但目标 @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{受擒}（替代束缚）。</p>"
+            "description": "<p><strong>激活</strong> <span class=\"action-glyph\">2</span> 交互、打击</p><hr /><p>这件法器枪看似一柄末端缠满藤蔓与坚果的弹弓，而非某种火器。激活该法器枪——以一名生物为目标，并自选以法术攻击掷骰或火器攻击掷骰对照该目标之反射 DC。该法器枪具有 20 尺射程增量。</p><p><strong>大成功</strong> 目标 @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚}，直至你下一回合结束，或其以你的法术 DC 作为脱困 DC 逃脱。</p><p><strong>成功</strong> 同大成功，但目标 @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱}（替代束缚）。</p>"
         },
         "Magic Tome (9th-Rank Essence Spell)": {
             "name": "魔法典籍（9阶精质法术） Magic Tome (9th-Rank Essence Spell)",
@@ -1259,7 +1259,7 @@
         },
         "Scourging": {
             "name": "鞭笞 Scourging",
-            "description": "<p>以鞭笞指环施放的法术会在目标身上留下持续创伤。每枚符文专精于酸性、电击、火焰或物理伤害，指环获得伤害类型之特征；若伤害类型为物理，则获得「力场」特征。当你以一道无持续时间且造成该符文伤害类型之法术法术攻击大成功时，目标也承受 @Damage[1d10[@item.flags.pf2e.rulesSelections.scourging.damageType, persistent]] 持续伤害（与该法术伤害类型相同；若该法术造成物理伤害则改为流血伤害）。若该法术本就造成持续伤害，结束该持续伤害的 DC 增加 2。</p>"
+            "description": "<p>以鞭笞指环施放的法术会在目标身上留下持续创伤。每枚符文专精于酸性、电击、火焰或物理伤害，指环获得伤害类型之特征；若伤害类型为物理，则获得「力场」特征。当你以一道无持续时间且造成该符文伤害类型之法术攻击大成功时，目标也承受 @Damage[1d10[@item.flags.pf2e.rulesSelections.scourging.damageType, persistent]] 持续伤害（与该法术伤害类型相同；若该法术造成物理伤害则改为流血伤害）。若该法术本就造成持续伤害，结束该持续伤害的 DC 增加 2。</p>"
         },
         "Void Weapon": {
             "name": "虚空武器 Void Weapon",
@@ -1276,7 +1276,7 @@
         },
         "Erosior": {
             "name": "侵蚀术 Erosior",
-            "description": "<p>你将魔法之线穿过化学与矿物之操作之小门。</p><p><strong>小门特征</strong> 酸性、土</p><p><strong>系链魔法</strong> 当你以「土」特征之法术法术攻击成功，或一名生物对其豁免失败时，你于目标相邻方格创造困难地形。当你以「酸性」特征之法术法术攻击成功，或一名生物对其豁免失败时，你于目标所有相邻方格创造危险地形。该危险地形每次有生物穿过时造成 @Damage[@item.rank[acid]]{等同该法术环级之酸性伤害}。该困难地形与危险地形于你小门之领域生效期间持续存在于同一区域。</p><p><strong>压倒性小门</strong> 当你以「酸性」特征之法术造成伤害时，你可选择改造为钝击伤害（替代酸性伤害）。当你以「土」特征且需要豁免之法术施法时，目标在豁免失败时其速度承受 -5 尺状态减值 1 轮，大失败时承受 -10 尺状态减值。@UUID[Compendium.pf2e-team-plus-magic.misc.54mC3SyjiHMKrioO]{效果：侵蚀术}</p>",
+            "description": "<p>你将魔法之线穿过化学与矿物之操作之小门。</p><p><strong>小门特征</strong> 酸性、土</p><p><strong>系链魔法</strong> 当你以「土」特征之法术攻击成功，或一名生物对其豁免失败时，你于目标相邻方格创造困难地形。当你以「酸性」特征之法术攻击成功，或一名生物对其豁免失败时，你于目标所有相邻方格创造危险地形。该危险地形每次有生物穿过时造成 @Damage[@item.rank[acid]]{等同该法术环级之酸性伤害}。该困难地形与危险地形于你小门之领域生效期间持续存在于同一区域。</p><p><strong>压倒性小门</strong> 当你以「酸性」特征之法术造成伤害时，你可选择改造为钝击伤害（替代酸性伤害）。当你以「土」特征且需要豁免之法术施法时，目标在豁免失败时其速度承受 -5 尺状态减值 1 轮，大失败时承受 -10 尺状态减值。@UUID[Compendium.pf2e-team-plus-magic.misc.54mC3SyjiHMKrioO]{效果：侵蚀术}</p>",
             "prerequisites": [
                 {
                     "value": "至少能取用一项具酸蚀特征的法术"
@@ -1326,7 +1326,7 @@
         },
         "Elemental Shift": {
             "name": "元素变形 Elemental Shift",
-            "description": "<p>你变形为自然之元素之力。施放法术时，你可选择任一 @UUID[Compendium.pf2e-team-plus-magic.journals.2ywfGZz3We3np1MB.JournalEntryPage.7uM4JwbEJVzFrkiH]{元素层面} 作为你的层面战斗形态。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.ARrJ3NLQQRzneYjc]{（法术效果：元素变形）}</p><hr /><p><strong>高阶</strong> 依 @UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.s5plpLZzwemVg4RC] 之规则。</p>"
+            "description": "<p>你变形为自然之元素之力。施放法术时，你可选择任一 @UUID[Compendium.pf2e-team-plus-magic.journals.2ywfGZz3We3np1MB.JournalEntryPage.7uM4JwbEJVzFrkiH]{元素层面} 作为你的层面战斗形态。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.ARrJ3NLQQRzneYjc]{法术效果：元素变形}</p><hr /><p><strong>高阶</strong> 依 @UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.s5plpLZzwemVg4RC] 之规则。</p>"
         },
         "Soaring Shape+": {
             "name": "翱翔形态+ Soaring Shape+",
@@ -1378,7 +1378,7 @@
         },
         "Sanguine Sculpting": {
             "name": "鲜血雕塑 Sanguine Sculpting",
-            "description": "<p>你向法术之魔法框架注入少量鲜血以灌注可塑威能。你使用一个单一动作的塑形施法。当你施放该法术时，你的生命值减少等同于你以该塑形施法所修饰之法术的环级。此非伤害，因此不能被减少、抵抗或以任何其他方式减弱，否则法术失败。</p><hr /><p><strong>特殊</strong> 若你具备 @UUID[Compendium.pf2e.feats-srd.HASFgAZ7spYleeaq]{血术师入门}，你可改为消耗等同该法术环级的血法生命值。</p>",
+            "description": "<p>你向法术之魔法框架注入少量鲜血以灌注可塑威能。你使用一个单一动作的塑法。当你施放该法术时，你的生命值减少等同于你以该塑法所修饰之法术的环级。此非伤害，因此不能被减少、抵抗或以任何其他方式减弱，否则法术失败。</p><hr /><p><strong>特殊</strong> 若你具备 @UUID[Compendium.pf2e.feats-srd.HASFgAZ7spYleeaq]{血术师入门}，你可改为消耗等同该法术环级的血法生命值。</p>",
             "prerequisites": [
                 {
                     "value": "血法师献身"
@@ -1478,7 +1478,7 @@
         },
         "Carrier": {
             "name": "携带者 Carrier",
-            "description": "<p><strong>所需能力数</strong> 2</p><p><strong>授予能力</strong> @UUID[Compendium.pf2e.familiar-abilities.Ms8EVO2mNbr4Zp1i]{递送物品} 或 @UUID[Compendium.pf2e.familiar-abilities.9PsptrEoCC4QdM23]{贴身仆宠}、@UUID[Compendium.pf2e.familiar-abilities.BXssJhTJjKrfojwG]{健步如飞}、@UUID[Compendium.pf2e.familiar-abilities.cT5octWchU4gjrhP]{心灵手巧}</p><hr /><p>你的魔宠擅长物品传递。</p><p><strong>高级携带者</strong> 你的魔宠可以以「交互」处置至多 1 体积之物品。当其使用「物品传递」时，可在传递物品之前再以一个动作移动；当其使用「随侍」时，可多取出一件物品。</p>"
+            "description": "<p><strong>所需能力数</strong> 2</p><p><strong>授予能力</strong> @UUID[Compendium.pf2e.familiar-abilities.Ms8EVO2mNbr4Zp1i]{递送物品} 或 @UUID[Compendium.pf2e.familiar-abilities.9PsptrEoCC4QdM23]{贴身仆宠}、@UUID[Compendium.pf2e.familiar-abilities.BXssJhTJjKrfojwG]{健步如飞}、@UUID[Compendium.pf2e.familiar-abilities.cT5octWchU4gjrhP]{念动之手巧}</p><hr /><p>你的魔宠擅长物品传递。</p><p><strong>高级携带者</strong> 你的魔宠可以以「交互」处置至多 1 体积之物品。当其使用「物品传递」时，可在传递物品之前再以一个动作移动；当其使用「随侍」时，可多取出一件物品。</p>"
         },
         "Reactive Aspect Transformation": {
             "name": "反应层面变形 Reactive Aspect Transformation",
@@ -1571,18 +1571,18 @@
         },
         "Immobilizing (Greater)": {
             "name": "锁定（中阶） Immobilizing (Greater)",
-            "description": "<p>当你从佩戴此指环之手中爆发魔法时，便以魔法冰、石或木将敌人封住。每枚符文专精于冷冻、土、暗影或木之一，并因此获得相应特征。</p><p>当你以一道无持续时间且具该符文特征之法术法术攻击大成功时，目标除非以 @Check[dc:34|type:fortitude] 豁免成功，否则直至你下一回合结束 @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢1级}。</p><p>若你以第二道具备所选特征之法术攻击大成功命中已被「锁定」符文减缓的生物，该生物须再尝试一次 @Check[dc:34|type:fortitude|traits:incapacitation]。失败时，该生物 @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢2级}（替代缓慢 1）并将持续时间延长至你下一回合结束。大失败时，目标改为 @UUID[Compendium.pf2e.conditionitems.dTwPJuKgBQCMxixg]{石化} 1 分钟（此为失能效果）。</p>"
+            "description": "<p>当你从佩戴此指环之手中爆发魔法时，便以魔法冰、石或木将敌人封住。每枚符文专精于冷冻、土、暗影或木之一，并因此获得相应特征。</p><p>当你以一道无持续时间且具该符文特征之法术攻击大成功时，目标除非以 @Check[dc:34|type:fortitude] 豁免成功，否则直至你下一回合结束 @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢1级}。</p><p>若你以第二道具备所选特征之法术攻击大成功命中已被「锁定」符文减缓的生物，该生物须再尝试一次 @Check[dc:34|type:fortitude|traits:incapacitation]。失败时，该生物 @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢2级}（替代缓慢 1）并将持续时间延长至你下一回合结束。大失败时，目标改为 @UUID[Compendium.pf2e.conditionitems.dTwPJuKgBQCMxixg]{石化} 1 分钟（此为失能效果）。</p>"
         },
         "Scourging (Greater)": {
             "name": "鞭笞（中阶） Scourging (Greater)",
-            "description": "<p>以鞭笞指环施放的法术会在目标身上留下持续创伤。每枚符文专精于酸性、电击、火焰或物理伤害，指环获得伤害类型之特征；若伤害类型为物理，则获得「力场」特征。当你以一道无持续时间且造成该符文伤害类型之法术法术攻击大成功时，目标也承受 @Damage[2d10[@item.flags.pf2e.rulesSelections.scourging.damageType, persistent]] 持续伤害（与该法术伤害类型相同；若该法术造成物理伤害则改为流血伤害）。若该法术本就造成持续伤害，结束该持续伤害的 DC 增加 2。由「真言法术」修饰的法术攻击掷骰所造之伤害忽视目标抗力（包括此符文造成的持续伤害）。</p>"
+            "description": "<p>以鞭笞指环施放的法术会在目标身上留下持续创伤。每枚符文专精于酸性、电击、火焰或物理伤害，指环获得伤害类型之特征；若伤害类型为物理，则获得「力场」特征。当你以一道无持续时间且造成该符文伤害类型之法术攻击大成功时，目标也承受 @Damage[2d10[@item.flags.pf2e.rulesSelections.scourging.damageType, persistent]] 持续伤害（与该法术伤害类型相同；若该法术造成物理伤害则改为流血伤害）。若该法术本就造成持续伤害，结束该持续伤害的 DC 增加 2。由「真言法术」修饰的法术攻击掷骰所造之伤害忽视目标抗力（包括此符文造成的持续伤害）。</p>"
         },
         "Magic Bell (5th-Rank Essence Spell)": {
             "name": "魔法之钟（5阶精质法术） Magic Bell (5th-Rank Essence Spell)",
             "description": "<p>魔法之钟蕴含特殊的魔法音律与音调，让其能在片刻之间提供咒诵之完整益处。</p><p><strong>激活——施放法术</strong></p><p><strong>频率</strong> 每日一次</p><hr /><p>你以咒诵之方式施放一道 5 环或更低之精质法术，但使用其常规施法时间——无须延长，亦不会减少你的精质抽取或精质池。当你以魔法之钟施放精质法术时，其不要求特定数量之精质，亦不影响你的精质池（如咒诵之常规效果）；例如，你的精质不会增加 1，亦不会循环至 0。若你于战斗中使用魔法之钟施放一道有持续时间的法术，其持续时间为其常规持续时间或战斗结束时（取较先到者；这与战斗中施放精质法术之常规效果相同）。</p>"
         },
         "Awaken Forbisen": {
-            "name": "觉醒禁忌 Awaken Forbisen",
+            "name": "觉醒禁忆 Awaken Forbisen",
             "description": "<p>你强化你魔宠之形态，依你所选之力量灌注一组永久能力。</p><p><strong>成功</strong> 该魔宠永久获得所选「禁忆」之能力；只要你保留当前魔宠，你便失去 2 项可自由选取的魔宠能力。</p><p><strong>失败</strong> 该魔宠未能催化。你仍可如常为其选择能力。</p>"
         },
         "Triplicate Casting": {
@@ -1611,7 +1611,7 @@
         },
         "Summon Seer": {
             "name": "召唤先知 Summon Seer",
-            "description": "<p>你与魂偶相处之经验让你于驾驭层面上颇为出色。你习得一道能召唤与你魂偶共享一项特征之生物的召唤法术，并将其永久加入你的法术目录而不计入目录之容量；该法术对你而言始终为标志法术。若召唤法术之层面与你魂偶有密切关联（例如你魂偶是野兽魂偶时的「召唤动物层面」之层面），即便其不与你魂偶共享特征，你也可选择之（由 GM 裁定）。</p>",
+            "description": "<p>你与幻灵相处之经验让你于驾驭层面上颇为出色。你习得一道能召唤与你幻灵共享一项特征之生物的召唤法术，并将其永久加入你的法术目录而不计入目录之容量；该法术对你而言始终为标志法术。若召唤法术之层面与你幻灵有密切关联（例如你幻灵是野兽幻灵时的「召唤动物层面」之层面），即便其不与你幻灵共享特征，你也可选择之（由 GM 裁定）。</p>",
             "prerequisites": [
                 {
                     "value": "你能施放层面法术"
@@ -1775,7 +1775,7 @@
         },
         "Summon Dragon Aspect": {
             "name": "召唤龙族层面 Summon Dragon Aspect",
-            "description": "<p>你召唤一只巨龙听你掌控。你召唤一只 @UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.XaX4kPgcKyHxbVZS]{龙族层面}，体型最大可至中型。</p><p>@UUID[Compendium.pf2e-team-plus-magic.actors.IdIHKlhbug40fjr8]{龙族层面} @UUID[Compendium.pf2e-team-plus-magic.misc.Item.fFFQHKmFs2YBbHPK]{法术效果：龙族层面数据}</p><p>@UUID[Compendium.pf2e-team-plus-magic.macros.GvjC0mbROC1FyiZp]{召唤龙族层面}</p>"
+            "description": "<p>你召唤一只巨龙听你掌控。你召唤一只 @UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.XaX4kPgcKyHxbVZS]{龙族层面}，体型最大可至中型。</p><p>@UUID[Compendium.pf2e-team-plus-magic.actors.IdIHKlhbug40fjr8]{龙族层面} @UUID[Compendium.pf2e-team-plus-magic.misc.Item.fFFQHKmFs2YBbHPK]{法术效果：龙族变形}</p><p>@UUID[Compendium.pf2e-team-plus-magic.macros.GvjC0mbROC1FyiZp]{召唤龙族层面}</p>"
         },
         "Scissored Assault": {
             "name": "剪式突袭 Scissored Assault",
@@ -1801,7 +1801,7 @@
         },
         "Scepter of Energy Ablation": {
             "name": "能量消蚀权杖 Scepter of Energy Ablation",
-            "description": "<p>此类权杖通常以重铁制成，并具备类似某些剑之大型护手。</p><div class=\"team-plus-statblock\"><p><strong>激活——能量消融</strong> <span class=\"action-glyph\">1</span>（操作、塑形施法）</p><hr /><p>若你的下一动作是施放一道造成至少一种能量伤害（酸性、冷冻、电击、火焰、力场、音波、生命力或虚空）之法术，你于下一回合结束前对该法术可造成的某种能量类型获得等同该法术环级的抗力。@UUID[Compendium.pf2e-team-plus-magic.misc.m8c2qvWRzj1FDY6c]{效果：能量消融}</p></div><div class=\"team-plus-statblock\"><p><strong>激活——能量摒弃</strong> <span class=\"action-glyph\">3</span>（操作）</p><p><strong>频率</strong> 每日一次；</p><p><strong>消耗</strong> 至少 2 环法术位</p><hr /><p>你为 30 尺内的所有盟友赐予对你所选某种能量伤害类型的抗力，等同你所消耗法术位之环级两倍，持续轮数等同于所消耗法术位之环级。@UUID[Compendium.pf2e-team-plus-magic.misc.oo9MDcLeNtHCccRq]{效果：能量摒弃}</p></div>"
+            "description": "<p>此类权杖通常以重铁制成，并具备类似某些剑之大型护手。</p><div class=\"team-plus-statblock\"><p><strong>激活——能量消融</strong> <span class=\"action-glyph\">1</span>（操作、塑法）</p><hr /><p>若你的下一动作是施放一道造成至少一种能量伤害（酸性、冷冻、电击、火焰、力场、音波、生命力或虚空）之法术，你于下一回合结束前对该法术可造成的某种能量类型获得等同该法术环级的抗力。@UUID[Compendium.pf2e-team-plus-magic.misc.m8c2qvWRzj1FDY6c]{效果：能量消融}</p></div><div class=\"team-plus-statblock\"><p><strong>激活——能量摒弃</strong> <span class=\"action-glyph\">3</span>（操作）</p><p><strong>频率</strong> 每日一次；</p><p><strong>消耗</strong> 至少 2 环法术位</p><hr /><p>你为 30 尺内的所有盟友赐予对你所选某种能量伤害类型的抗力，等同你所消耗法术位之环级两倍，持续轮数等同于所消耗法术位之环级。@UUID[Compendium.pf2e-team-plus-magic.misc.oo9MDcLeNtHCccRq]{效果：能量摒弃}</p></div>"
         },
         "Animal Shift": {
             "name": "动物变形 Animal Shift",
@@ -1818,7 +1818,7 @@
         },
         "Scepter of Heightening": {
             "name": "提升权杖 Scepter of Heightening",
-            "description": "<p>这种通常以抛光木瘤制成的权杖让使用者达到新的力量高度，借由一道法术之能量暂时让其许多法术更具威能。</p><div class=\"team-plus-statblock\"><p><strong>激活——提升法术</strong> <span class=\"action-glyph\">1</span>（操作、塑形施法）</p><p><strong>频率</strong> 每小时一次</p><hr /><p>若你的下一动作是施放一道至少比你最高环级法术位低 3 环的法术，则就基于其高位环级而决定的数值效果（如伤害、治疗、增加之区域、加值或减值）而言，你将该法术之环级视为高 2 环。你不获得与高位环级关联的其他效果，例如能多目标多名生物或将该法术视为更高环级以用于对抗或「失能」特征。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——你的力量之巅</strong> <span class=\"action-glyph\">3</span>（操作）</p><p><strong>频率</strong> 每日一次</p><p><strong>消耗</strong> 至少 4 环法术位</p><hr /><p>在持续期间，你可使用此杖之「提升」塑形施法，犹如其频率为每轮一次（替代每小时一次）。此效果持续轮数等同你所消耗法术位之环级。</p></div>"
+            "description": "<p>这种通常以抛光木瘤制成的权杖让使用者达到新的力量高度，借由一道法术之能量暂时让其许多法术更具威能。</p><div class=\"team-plus-statblock\"><p><strong>激活——提升法术</strong> <span class=\"action-glyph\">1</span>（操作、塑法）</p><p><strong>频率</strong> 每小时一次</p><hr /><p>若你的下一动作是施放一道至少比你最高环级法术位低 3 环的法术，则就基于其高位环级而决定的数值效果（如伤害、治疗、增加之区域、加值或减值）而言，你将该法术之环级视为高 2 环。你不获得与高位环级关联的其他效果，例如能多目标多名生物或将该法术视为更高环级以用于对抗或「失能」特征。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——你的力量之巅</strong> <span class=\"action-glyph\">3</span>（操作）</p><p><strong>频率</strong> 每日一次</p><p><strong>消耗</strong> 至少 4 环法术位</p><hr /><p>在持续期间，你可使用此杖之「提升」塑法，犹如其频率为每轮一次（替代每小时一次）。此效果持续轮数等同你所消耗法术位之环级。</p></div>"
         },
         "Owned Magic": {
             "name": "私有魔法 Owned Magic",
@@ -1834,7 +1834,7 @@
         },
         "Luminor": {
             "name": "辉光者 Luminor",
-            "description": "<p>你将魔法之线穿过辉煌与热度之小门。</p><p><strong>小门特征</strong> 火焰、光照</p><p><strong>系链魔法</strong> 你所有的火焰法术均获得「光照」特征。当你以「火焰」特征之法术法术攻击成功，或一名生物对该法术豁免失败时，该生物承受 @Damage[@item.level[persistent,fire]]{持续火焰伤害}，等同该法术之环级。若该法术本就造成持续火焰伤害，则改为将持续火焰伤害提升此数值。</p><p><strong>压倒性小门</strong> 当你以「火焰」特征之法术造成伤害时，你可选择改造为灵魂伤害（替代火焰伤害）。你也可以以系链魔法将火焰伤害改造为灵魂伤害。当你以「光照」特征且需要豁免之法术时，目标在大失败时 1 轮内 @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{目盲}。</p>",
+            "description": "<p>你将魔法之线穿过辉煌与热度之小门。</p><p><strong>小门特征</strong> 火焰、光照</p><p><strong>系链魔法</strong> 你所有的火焰法术均获得「光照」特征。当你以「火焰」特征之法术攻击成功，或一名生物对该法术豁免失败时，该生物承受 @Damage[@item.level[persistent,fire]]{持续火焰伤害}，等同该法术之环级。若该法术本就造成持续火焰伤害，则改为将持续火焰伤害提升此数值。</p><p><strong>压倒性小门</strong> 当你以「火焰」特征之法术造成伤害时，你可选择改造为灵魂伤害（替代火焰伤害）。你也可以以系链魔法将火焰伤害改造为灵魂伤害。当你以「光照」特征且需要豁免之法术时，目标在大失败时 1 轮内 @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{目盲}。</p>",
             "prerequisites": [
                 {
                     "value": "至少能取用一项具火焰特征的法术"
@@ -1880,7 +1880,7 @@
         },
         "Scepter of Quickening": {
             "name": "迅捷权杖 Scepter of Quickening",
-            "description": "<p>此类权杖几乎总以稳定化的水银抛光打造，让其在最微弱光线下也能闪光。尽管如此，它们看上去总是略微失焦，仿佛它们移动得过快以至于一眼看不清。</p><div class=\"team-plus-statblock\"><p><strong>激活——迅捷施法</strong> <span class=\"action-glyph\">f</span>（专注、塑形施法）</p><p><strong>频率</strong> 每日一次</p><hr /><p>若你下一动作是施放一道戏法或一道至少比你最高环级法术位低 2 环之法术，则其施法所需动作数减 1（最少 1 个动作）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——疾赴战场</strong> <span class=\"action-glyph\">3</span>（操作）</p><p><strong>频率</strong> 每日一次</p><p><strong>消耗</strong> 至少 8 环法术位</p><hr /><p>你与 30 尺内之所有盟友 @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{迅捷} 1 分钟，且每轮额外动作仅能用于打击与行走动作。</p></div>"
+            "description": "<p>此类权杖几乎总以稳定化的水银抛光打造，让其在最微弱光线下也能闪光。尽管如此，它们看上去总是略微失焦，仿佛它们移动得过快以至于一眼看不清。</p><div class=\"team-plus-statblock\"><p><strong>激活——迅捷施法</strong> <span class=\"action-glyph\">f</span>（专注、塑法）</p><p><strong>频率</strong> 每日一次</p><hr /><p>若你下一动作是施放一道戏法或一道至少比你最高环级法术位低 2 环之法术，则其施法所需动作数减 1（最少 1 个动作）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——疾赴战场</strong> <span class=\"action-glyph\">3</span>（操作）</p><p><strong>频率</strong> 每日一次</p><p><strong>消耗</strong> 至少 8 环法术位</p><hr /><p>你与 30 尺内之所有盟友 @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{迅捷} 1 分钟，且每轮额外动作仅能用于打击与行走动作。</p></div>"
         },
         "Effect: Maintaining Incantations": {
             "name": "效果：维持咒诵 Effect: Maintaining Incantations",
@@ -1976,8 +1976,8 @@
             "description": "<p>魔法护符承载咒诵之力，使法术效果能在精质常规界限之外维持，并无须缩减你精质池或长篇咒诵。</p><p><strong>激活——延长咒诵</strong> <span class=\"action-glyph\">f</span>（操作）</p><p><strong>频率</strong> 每日一次</p><hr /><p>若你的下一动作是以咒诵施放一道 9 环或更低之精质法术，在咒诵结束时，你可将护符戴于法术目标之上（若有多个目标则戴于其一，或若法术作用于区域则置于该地点显著点上）。这使该法术效果可持续至其持续时间结束、或护符仍在原处时，而不会减少你的精质抽取或精质池，亦不会结束任何之前之长咒诵。</p>"
         },
         "Eidolon's Bretheren": {
-            "name": "魂偶之兄 Eidolon's Bretheren",
-            "description": "<p>你以你与魂偶之羁绊增强你的召唤。你可以以通常以魂偶为目标的召唤师法术为你的层面召唤生物作为目标。此外，当你使用低于自身最高环级的层面召唤法术时，你不会承受累积减值。</p>",
+            "name": "幻灵之兄 Eidolon's Bretheren",
+            "description": "<p>你以你与幻灵之羁绊增强你的召唤。你可以以通常以幻灵为目标的召唤师法术为你的层面召唤生物作为目标。此外，当你使用低于自身最高环级的层面召唤法术时，你不会承受累积减值。</p>",
             "prerequisites": [
                 {
                     "value": "层面召唤者献身"
@@ -2026,11 +2026,11 @@
         },
         "Scepter of Greater Distances": {
             "name": "更远距离权杖 Scepter of Greater Distances",
-            "description": "<p>这种权杖有时被误认为小型法杖，由竹子或其他生长迅速之植物制成。</p><div class=\"team-plus-statblock\"><p><strong>激活——远法术</strong> <span class=\"action-glyph\">1</span>（操作、塑形施法）</p><hr /><p>若你的下一动作是施放一道有射程之法术，将该法术之射程增加 30 尺。如延长法术射程之标准做法所示，若该法术常规射程为「触及」，则将其射程延长至 30 尺。若你具有 @UUID[Compendium.pf2e.feats-srd.BWomK7EVY0WXxWgh]{远法术} 专长，则将该法术射程改为增加 45 尺（替代 30 尺）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——动起距离</strong> <span class=\"action-glyph\">3</span>（操作）</p><p><strong>频率</strong> 每日一次；</p><p><strong>消耗</strong> 至少 2 环法术位</p><hr /><p>你为 30 尺内的所有盟友赐予 +10 尺速度状态加值，以及对会施加禁足、受擒或束缚状态之效果的 DC 与检定 +1 状态加值，持续轮数等同于你所消耗法术位之环级。</p></div>"
+            "description": "<p>这种权杖有时被误认为小型法杖，由竹子或其他生长迅速之植物制成。</p><div class=\"team-plus-statblock\"><p><strong>激活——远法术</strong> <span class=\"action-glyph\">1</span>（操作、塑法）</p><hr /><p>若你的下一动作是施放一道有射程之法术，将该法术之射程增加 30 尺。如延长法术射程之标准做法所示，若该法术常规射程为「触及」，则将其射程延长至 30 尺。若你具有 @UUID[Compendium.pf2e.feats-srd.BWomK7EVY0WXxWgh]{远法术} 专长，则将该法术射程改为增加 45 尺（替代 30 尺）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——动起距离</strong> <span class=\"action-glyph\">3</span>（操作）</p><p><strong>频率</strong> 每日一次；</p><p><strong>消耗</strong> 至少 2 环法术位</p><hr /><p>你为 30 尺内的所有盟友赐予 +10 尺速度状态加值，以及对会施加禁足、受擒或束缚状态之效果的 DC 与检定 +1 状态加值，持续轮数等同于你所消耗法术位之环级。</p></div>"
         },
         "Precision": {
             "name": "精准 Precision",
-            "description": "<p>精准指环可将巨量能量汇聚成单一细射线，让其与常规法术具有同样威力。</p><p><strong>激活——精炼法术</strong> <span class=\"action-glyph\">1</span>（塑形施法）你将魔法约束于单一目标。若你的下一动作是施放一道以区域为目标且需反射或强韧豁免之法术，你可改为以射程内一名生物为目标，并对其 AC 进行一次法术攻击掷骰。如此一来，目标成为该法术的唯一受影响生物；攻击未中时该法术无效，法术攻击成功时仅产生豁免失败的效果，法术攻击大成功时仅产生豁免大失败的效果。你将该指环之物品加值应用于此攻击掷骰。</p>"
+            "description": "<p>精准指环可将巨量能量汇聚成单一细射线，让其与常规法术具有同样威力。</p><p><strong>激活——精炼法术</strong> <span class=\"action-glyph\">1</span>（塑法）你将魔法约束于单一目标。若你的下一动作是施放一道以区域为目标且需反射或强韧豁免之法术，你可改为以射程内一名生物为目标，并对其 AC 进行一次法术攻击掷骰。如此一来，目标成为该法术的唯一受影响生物；攻击未中时该法术无效，法术攻击成功时仅产生豁免失败的效果，法术攻击大成功时仅产生豁免大失败的效果。你将该指环之物品加值应用于此攻击掷骰。</p>"
         },
         "Essence Summoner": {
             "name": "精质召唤师 Essence Summoner",
@@ -2114,7 +2114,7 @@
         },
         "Wicket Infusion": {
             "name": "门户灌注 Wicket Infusion",
-            "description": "<p>你能为通常不会触发你小门行为之法术灌注。若你的下一动作是从聚能点或法术位施放一道不具备你小门特征之法术，则其仍会如同具备你某一项小门特征般触发你的牵引魔法效果。该法术不会获得所选特征，且当你使用此塑形施法时你必须选择要灌注哪一项特征。</p>",
+            "description": "<p>你能为通常不会触发你小门行为之法术灌注。若你的下一动作是从聚能点或法术位施放一道不具备你小门特征之法术，则其仍会如同具备你某一项小门特征般触发你的牵引魔法效果。该法术不会获得所选特征，且当你使用此塑法时你必须选择要灌注哪一项特征。</p>",
             "prerequisites": [
                 {
                     "value": "诡奇门户者献身"
@@ -2140,7 +2140,7 @@
         },
         "Bleeding Spell": {
             "name": "流血法术 Bleeding Spell",
-            "description": "<p>你已学会让被魔法所伤者流血。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.fZntOuJKiFAVWB3h]{流血法术} 塑形施法。</p>",
+            "description": "<p>你已学会让被魔法所伤者流血。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.fZntOuJKiFAVWB3h]{流血法术} 塑法。</p>",
             "prerequisites": [
                 {
                     "value": "血法师献身"
@@ -2219,7 +2219,7 @@
         },
         "Summon Entity Aspect": {
             "name": "召唤实体层面 Summon Entity Aspect",
-            "description": "<p>你召唤一只实体听你差遣。你召唤一只 @UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.xDO6Iqzk8uT6l0U3]{实体层面}，体型最大可至中型。</p><p>@UUID[Compendium.pf2e-team-plus-magic.actors.wRsUCpiKvEUlONAx]{实体层面} @UUID[Compendium.pf2e-team-plus-magic.misc.whmVZjlcusY18Z2r]{法术效果：实体层面数据}</p><p>@UUID[Compendium.pf2e-team-plus-magic.macros.Macro.8aXsOzBSLPYSYOta]{召唤实体层面}</p>"
+            "description": "<p>你召唤一只实体听你差遣。你召唤一只 @UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.xDO6Iqzk8uT6l0U3]{实体层面}，体型最大可至中型。</p><p>@UUID[Compendium.pf2e-team-plus-magic.actors.wRsUCpiKvEUlONAx]{实体层面} @UUID[Compendium.pf2e-team-plus-magic.misc.whmVZjlcusY18Z2r]{法术效果：实体变形}</p><p>@UUID[Compendium.pf2e-team-plus-magic.macros.Macro.8aXsOzBSLPYSYOta]{召唤实体层面}</p>"
         },
         "Fused Aspect Form": {
             "name": "融合层面形态 Fused Aspect Form",
@@ -2313,7 +2313,7 @@
         },
         "Summon Elemental Aspect": {
             "name": "召唤元素层面 Summon Elemental Aspect",
-            "description": "<p>你召唤一名元素生物降临。你召唤一只 @UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.7uM4JwbEJVzFrkiH]{元素层面}，体型最大可至小型。</p><p>@UUID[Compendium.pf2e-team-plus-magic.actors.bmXqQTbhXycBBnvy]{元素层面} @UUID[Compendium.pf2e-team-plus-magic.misc.ARrJ3NLQQRzneYjc]{（法术效果：元素变形）}</p><p>@UUID[Compendium.pf2e-team-plus-magic.macros.Macro.wL8DVU1LATUKHevP]{召唤元素层面}</p>"
+            "description": "<p>你召唤一名元素生物降临。你召唤一只 @UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.7uM4JwbEJVzFrkiH]{元素层面}，体型最大可至小型。</p><p>@UUID[Compendium.pf2e-team-plus-magic.actors.bmXqQTbhXycBBnvy]{元素层面} @UUID[Compendium.pf2e-team-plus-magic.misc.ARrJ3NLQQRzneYjc]{法术效果：元素变形}</p><p>@UUID[Compendium.pf2e-team-plus-magic.macros.Macro.wL8DVU1LATUKHevP]{召唤元素层面}</p>"
         },
         "Aspect Adept": {
             "name": "层面行家 Aspect Adept",
@@ -2329,7 +2329,7 @@
         },
         "Calling": {
             "name": "召唤 Calling",
-            "description": "<p>你的指环以其会召唤之生物的能量与面孔翻涌。</p><p><strong>激活——真言召唤</strong> <span class=\"action-glyph\">f</span>（繁艺、操作、塑形施法）</p><p><strong>频率</strong> 每 10 分钟一次</p><hr /><p>指环的魔法引导你的攻击。若你的下一动作是施放一道会召唤能进行打击之生物的法术，所召唤之生物对其打击获得等同你力之指环之物品加值的状态加值。在该召唤法术结束之前，你不能使用「真言法术」。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.vIXDS3gCZR0ftsyd]{效果：呼唤指环符文}</p>"
+            "description": "<p>你的指环以其会召唤之生物的能量与面孔翻涌。</p><p><strong>激活——真言召唤</strong> <span class=\"action-glyph\">f</span>（繁艺、操作、塑法）</p><p><strong>频率</strong> 每 10 分钟一次</p><hr /><p>指环的魔法引导你的攻击。若你的下一动作是施放一道会召唤能进行打击之生物的法术，所召唤之生物对其打击获得等同你力之指环之物品加值的状态加值。在该召唤法术结束之前，你不能使用「真言法术」。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.vIXDS3gCZR0ftsyd]{效果：呼唤指环符文}</p>"
         },
         "Wicket Conjurer": {
             "name": "门户施咒者 Wicket Conjurer",

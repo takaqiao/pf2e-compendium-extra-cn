@@ -34,7 +34,7 @@
         },
         "By Thine Authority": {
             "name": "奉汝权柄 By Thine Authority",
-            "description": "<p><strong>需求</strong> 你持有一份你用 @UUID[Compendium.pf2e-team-plus-tian-xia.misc.jtAILwSlLZIpjB9g]{权威宣告} 制作的文件并将其<strong>储存</strong>起来，且有一只<strong>空手</strong>，或你正拿着这份文件。</p><hr /><p>你以凯旋般的姿态展示这份文件，自信地以权威宣示其真实性。对你15尺内、会尊重该文件权威的生物，进行一次对抗其<strong>意志</strong>DC的 @Check[society|against:will] 检定。作为同一次检定的一部分，你可以在展示时对该文件的权威说谎，但若你这么做，你此次尝试会受到–2环境减值。无论结果如何，生物都会在1天内暂时免疫此效果。</p><hr /><p><strong>大成功</strong> 该生物变为 @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧2级}，且在受惊期间不能对你采取敌对动作。若你或你的盟友对该生物采取敌对动作，该生物便可正常采取敌对动作，但仍保持受惊。</p><p><strong>成功</strong> 如大成功，但该生物变为 @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧1级}。</p>"
+            "description": "<p><strong>需求</strong> 你持有一份你用 @UUID[Compendium.pf2e-team-plus-tian-xia.misc.jtAILwSlLZIpjB9g]{权威宣告} 制作的文件并将其<strong>储存</strong>起来，且有一只<strong>空手</strong>，或你正拿着这份文件。</p><hr /><p>你以凯旋般的姿态展示这份文件，自信地以权威宣示其真实性。对你15尺内、会尊重该文件权威的生物，进行一次对抗其<strong>意志</strong>DC的 @Check[society|against:will] 检定。作为同一次检定的一部分，你可以在展示时对该文件的权威说谎，但若你这么做，你此次尝试会受到–2环境减值。无论结果如何，生物都会在1天内暂时免疫此效果。</p><hr /><p><strong>大成功</strong> 该生物变为 @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧2级}，且在惊惧期间不能对你采取敌对动作。若你或你的盟友对该生物采取敌对动作，该生物便可正常采取敌对动作，但仍保持惊惧。</p><p><strong>成功</strong> 如大成功，但该生物变为 @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧1级}。</p>"
         },
         "Effect: Imperial Aura (Penalty, Soverign)": {
             "name": "效果：帝国灵气（减值，君主） Effect: Imperial Aura (Penalty, Soverign)",
@@ -57,12 +57,12 @@
             "description": "<p>你的神灵呼唤附近的藤蔓与根须来阻碍你的目标，使你的掷骰获得+1状态加值。</p>"
         },
         "Effect: Feed on Water": {
-            "name": "效果：水吸血 Effect: Feed on Water",
+            "name": "效果：以水为食 Effect: Feed on Water",
             "description": "<p>你获得等同于你等级的临时生命值，只要你持续引导你的龙类，这些临时生命值就会持续存在。</p>"
         },
         "Effect: Spirit of the Rushing River": {
             "name": "效果：奔流河流精魂 Effect: Spirit of the Rushing River",
-            "description": "<p>这赋予你虫群和水（特征），对动弹不得、擒拿和束缚（状态）具有免疫，你对火焰和物理伤害具有等于你等级一半的抗力，并对区域和泼水伤害具有等于你等级一半的弱点。你可以挤入仅有数英寸宽的空间。你不会获得母巢思维能力，因此你仍会正常受到心灵效果的影响。作为虫群，你不能说话、施放法术、使用需要双手的操纵动作、启动你的魔法物品，或以你正常的躯体进行任何打击。你获得「奔涌激流」动作。</p>"
+            "description": "<p>这赋予你虫群和水（特征），对动弹不得、擒拿和束缚（状态）具有免疫，你对火焰和物理伤害具有等于你等级一半的抗力，并对区域和溅射伤害具有等于你等级一半的弱点。你可以挤入仅有数英寸宽的空间。你不会获得母巢思维能力，因此你仍会正常受到心灵效果的影响。作为虫群，你不能说话、施放法术、使用需要双手的操纵动作、启动你的魔法物品，或以你正常的躯体进行任何打击。你获得「奔涌激流」动作。</p>"
         },
         "Effect: Feed on Metal": {
             "name": "效果：吸血金属 Effect: Feed on Metal",
@@ -93,7 +93,7 @@
             "description": "<p>你的神灵为你提供协助，你在该检定上获得+2状态加值。</p>"
         },
         "Hongali Support Benefit": {
-            "name": "洪加利支援增益 Hongali Support Benefit",
+            "name": "洪阿里支援增益 Hongali Support Benefit",
             "description": "<p>直到你下个回合开始时，若你正骑乘你的动物伙伴，并且在此前一个动作中移动了10尺或更多，随后以弓弩组武器进行一次远程打击，则为该次打击的伤害增添一个等于武器伤害骰数量两倍的环境加值。</p><p>@UUID[Compendium.pf2e-team-plus-tian-xia.misc.Item.L6Uz6Hgz85dOQZFa]{效果：}</p>"
         },
         "Effect: Step on the Wind (Energize)": {
@@ -170,7 +170,7 @@
         },
         "Spell Effect: Chorus Made Manifest": {
             "name": "法术效果：显化之颂歌 Spell Effect: Chorus Made Manifest",
-            "description": "<p>持续时间为 1分钟，你获得将当前形态转变为战斗形态的能力；该战斗形态类似由无数鸟类构成的群 flock，由麻雀形状的暗影与羽毛闪动组成，这些都是超小型生物。你可以在施放此法术时作为其一部分进入该形态，并且在持续时间内以带有专注（特征）的单动作在你的正常形态与战斗形态之间切换。处于此形态时，你获得动物和集群（特征）。你不会获得母巢思维能力，因此你仍会正常受到心灵效果影响。你可以解消该法术。</p><p>你获得以下数据和能力：</p><ul><li><p>你获得对物理伤害的抗力 8，以及对区域和泼水伤害的弱点 8。</p></li><li><p>你可以挤入仅有几英寸宽的空间，让你的鸟群穿过缝隙移动。</p></li><li><p>昏暗视觉，以及 60尺的飞行速度。</p></li><li><p>你获得「合唱集群攻击」，它对 15尺锥形内的所有生物造成 4d6点音波伤害，并需要进行基础强韧豁免；你可以用单动作使用它。强韧豁免大失败的生物还会耳聋 1轮。处于此形态时，你不能进行打击。</p></li></ul>"
+            "description": "<p>持续时间为 1分钟，你获得将当前形态转变为战斗形态的能力；该战斗形态类似由无数鸟类构成的鸟群，由麻雀形状的暗影与羽毛闪动组成，这些都是超小型生物。你可以在施放此法术时作为其一部分进入该形态，并且在持续时间内以带有专注（特征）的单动作在你的正常形态与战斗形态之间切换。处于此形态时，你获得动物和集群（特征）。你不会获得母巢思维能力，因此你仍会正常受到心灵效果影响。你可以解消该法术。</p><p>你获得以下数据和能力：</p><ul><li><p>你获得对物理伤害的抗力 8，以及对区域和溅射伤害的弱点 8。</p></li><li><p>你可以挤入仅有几英寸宽的空间，让你的鸟群穿过缝隙移动。</p></li><li><p>昏暗视觉，以及 60尺的飞行速度。</p></li><li><p>你获得「合唱集群攻击」，它对 15尺锥形内的所有生物造成 4d6点音波伤害，并需要进行基础强韧豁免；你可以用单动作使用它。强韧豁免大失败的生物还会耳聋 1轮。处于此形态时，你不能进行打击。</p></li></ul>"
         },
         "Cycle Energy": {
             "name": "循环能量 Cycle Energy",
@@ -230,7 +230,7 @@
         },
         "Effect: Rhythm of a Thousand Souls": {
             "name": "效果：千魂律动 Effect: Rhythm of a Thousand Souls",
-            "description": "<p>选择一个你能看见的生物并掷一个 d20。在你的下个回合开始之前的下一次中，当你对所选生物进行 Strike，或尝试对其制造的一个效果进行豁免骰时，你可以使用该结果作为你的掷骰结果，而不是重新掷骰。直到你的下个回合开始前，除非你使用这个结果，否则你不能对该生物进行 Strike。</p>"
+            "description": "<p>选择一个你能看见的生物并掷一个 d20。在你的下个回合开始之前的下一次中，当你对所选生物进行打击，或尝试对其制造的一个效果进行豁免骰时，你可以使用该结果作为你的掷骰结果，而不是重新掷骰。直到你的下个回合开始前，除非你使用这个结果，否则你不能对该生物进行打击。</p>"
         },
         "Stance: Prong Typhoon Stance": {
             "name": "架势：双刺台风架势 Stance: Prong Typhoon Stance",
@@ -270,7 +270,7 @@
         },
         "Maglalatik Stance": {
             "name": "玛格拉拉提克架势 Maglalatik Stance",
-            "description": "<p><strong>需求</strong> 你穿着马格拉拉提克护甲，且双手各持一枚椰子壳</p><hr /><p>你运用由椰子壳半片制成的护甲，以及手中的椰子壳，编织出一首由自身躯体敲击声构成的守护之歌。当你处于此架势时，椰子壳的伤害骰提升为 d6，并获得娴熟与招架特征。当你进行表演时，你获得招架特征的效果，视同你花费了一个单动作，但你可以选择将该环境加值给予一名邻接的盟友而非自己。该加值持续至你下个回合开始，或直到其不再与你邻接，以先发生者为准。</p><hr /><p>特殊 如果你拥有 Dueling Parry，则你通过招架特征给予自己与盟友的环境加值提高为 +2。</p>"
+            "description": "<p><strong>需求</strong> 你穿着马格拉拉提克护甲，且双手各持一枚椰子壳</p><hr /><p>你运用由椰子壳半片制成的护甲，以及手中的椰子壳，编织出一首由自身躯体敲击声构成的守护之歌。当你处于此架势时，椰子壳的伤害骰提升为 d6，并获得娴熟与招架特征。当你进行表演时，你获得招架特征的效果，视同你花费了一个单动作，但你可以选择将该环境加值给予一名邻接的盟友而非自己。该加值持续至你下个回合开始，或直到其不再与你邻接，以先发生者为准。</p><hr /><p><strong>特殊</strong> 如果你拥有决斗招架，则你通过招架特征给予自己与盟友的环境加值提高为 +2。</p>"
         },
         "Kyoryū’s Wrath": {
             "name": "恐龙之怒 Kyoryū’s Wrath",

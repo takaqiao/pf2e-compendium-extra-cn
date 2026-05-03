@@ -14,7 +14,7 @@
     "entries": {
         "Effect: Reverberate": {
             "name": "效果：反弹声波 Effect: Reverberate",
-            "description": "<p>你的小器械产生一阵高频。你的打击对敌人施加回响效果，并在 1分钟内获得听觉特征。当你成功打击一个生物后，直到你下一回合开始前，该生物对抗听觉效果承受 -1环境减值；当其受到听觉效果伤害时，承受额外等同于你智力调整值的伤害。回响结束后，你的小器械需重新调音变得不可用，1分钟内你不能再次使用回响。免疫听觉特征的生物仍然可以被你的打击正常作用，即便它们对回响的效果免疫，但它们对回响的伤害免疫。</p>\n"
+            "description": "<p>你的小器械产生一阵高频。你的打击对敌人施加反弹声波效果，并在 1分钟内获得听觉特征。当你成功打击一个生物后，直到你下一回合开始前，该生物对抗听觉效果承受 -1环境减值；当其受到听觉效果伤害时，承受额外等同于你智力调整值的伤害。反弹声波结束后，你的小器械需重新调音变得不可用，1分钟内你不能再次使用反弹声波。免疫听觉特征的生物仍然可以被你的打击正常作用，即便它们对反弹声波的效果免疫，但它们对反弹声波的伤害免疫。</p>\n"
         },
         "Effect: Invigoration Link": {
             "name": "效果：充能连接 Effect: Invigoration Link",
@@ -22,7 +22,7 @@
         },
         "Effect: Reverberate Enemy": {
             "name": "效果：反弹声波敌人 Effect: Reverberate Enemy",
-            "description": "<p>当你以回响打击敌人后，将此效果施加给该敌人。</p>"
+            "description": "<p>当你以反弹声波打击敌人后，将此效果施加给该敌人。</p>"
         },
         "Effect: Frigerate": {
             "name": "效果：制冷 Effect: Frigerate",
@@ -38,7 +38,7 @@
         },
         "Effect: Perfected Appendages": {
             "name": "效果：完美附肢 Effect: Perfected Appendages",
-            "description": "<p>如果你选择进行一次打击，你的附肢视为迒手攻击，造成 1d4 由你选择的钝击、穿刺或挥砍伤害，并具有触及特征，属于拳斗武器组。你在获得此专长时即选定伤害类型，但可以花费 1小时调整附肢以将伤害更改为另一种你所选的类型。</p>"
+            "description": "<p>如果你选择进行一次打击，你的附肢视为徒手攻击，造成 1d4 由你选择的钝击、穿刺或挥砍伤害，并具有触及特征，属于拳斗武器组。你在获得此专长时即选定伤害类型，但可以花费 1小时调整附肢以将伤害更改为另一种你所选的类型。</p>"
         },
         "Effect: Elemental Entanglement Success": {
             "name": "效果：元素纠缠成功 Effect: Elemental Entanglement Success",

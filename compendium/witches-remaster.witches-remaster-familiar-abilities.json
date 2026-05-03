@@ -142,7 +142,7 @@
         },
         "Menacing": {
             "name": "威慑 Menacing",
-            "description": "<p>你的魔宠可以将视觉特征添加到其威吓中，以移除语言与听觉特征；并且当它不与目标共享语言时，其威吓不承受减值。如果你的魔宠对其威吓目标处于无踪或隐藏状态，则其检定获得 +1环境加值。你的魔宠必须具备 @UUID[Compendium.pf2e.familiar-abilities.Item.jevzf9JbJJibpqaI]{技能训练（威吓）} 魔宠能力才能选择此项。</p>"
+            "description": "<p>你的魔宠可以将视觉特征添加到其挫败士气中，以移除语言与听觉特征；并且当它不与目标共享语言时，其挫败士气不承受减值。如果你的魔宠对其挫败士气目标处于无踪或隐藏状态，则其检定获得 +1环境加值。你的魔宠必须具备 @UUID[Compendium.pf2e.familiar-abilities.Item.jevzf9JbJJibpqaI]{技能训练（威吓）} 魔宠能力才能选择此项。</p>"
         },
         "Familiar of Sunlit Dawn": {
             "name": "日出之魔宠 Familiar of Sunlit Dawn",

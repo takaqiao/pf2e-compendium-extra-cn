@@ -4,10 +4,10 @@
     "homebrew": {
         "baseWeapons": {
             "barong": "巴龙剑 Barong",
-            "coconut-shell": "椰壳 Coconut Shell",
+            "coconut-shell": "椰子壳 Coconut Shell",
             "kampilan": "坎皮兰刀 Kampilan",
-            "talibong": "塔利邦刀 Talibong",
-            "ginunting": "吉努廷刀 Ginunting"
+            "talibong": "塔利邦 Talibong",
+            "ginunting": "金宁廷 Ginunting"
         },
         "featTraits": {
             "qi-shape": {

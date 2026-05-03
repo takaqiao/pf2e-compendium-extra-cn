@@ -37,7 +37,7 @@
         },
         "Lightning-Paced Productivity": {
             "name": "闪电级生产力 Lightning-Paced Productivity",
-            "description": "<p>你能像别人数到 3 一样轻易地构思详尽蓝图，仅在转瞬之间完成。每日一次，你可以以一个 3动作、具有专注与操作特征的行动尝试制造一件物品。该物品等级不能高于你等级的一半，且你必须知晓其配方。你仍须以原料形式提供其费用并至少有一只手空闲才能进行此行动。</p>",
+            "description": "<p>你能像别人数到 3 一样轻易地构思详尽蓝图，仅在转瞬之间完成。每日一次，你可以以一个 3动作、具有专注与操作特征的行动尝试制作一件物品。该物品等级不能高于你等级的一半，且你必须知晓其配方。你仍须以原料形式提供其费用并至少有一只手空闲才能进行此行动。</p>",
             "prerequisites": [{"value": "超高效专注"}]
         },
         "Expert Magitek Spellcasting": {
@@ -60,7 +60,7 @@
         },
         "Hyperproductive Focus": {
             "name": "超高效专注 Hyperproductive Focus",
-            "description": "<p>当你专心做事时，你便进入超高效迷狂状态，忽略一切干扰直到完成工作。你制造物品所需时间减半。如果你在制作上为传奇、拥有该物品的配方且检定大成功，你可以将制造所需时间额外减少 1天，最低至 1小时。</p>"
+            "description": "<p>当你专心做事时，你便进入超高效迷狂状态，忽略一切干扰直到完成工作。你制作物品所需时间减半。如果你在制作上为传奇、拥有该物品的配方且检定大成功，你可以将制作所需时间额外减少 1天，最低至 1小时。</p>"
         },
         "Full Metal Sheeting": {
             "name": "全金属甲衣 Full Metal Sheeting",
@@ -96,7 +96,7 @@
         "Gadget Conglomeration": {
             "name": "装置集合 Gadget Conglomeration",
             "description": "<p>你已学会创造可多次使用的装置，有时甚至能让两次激活同时进行以产生更有利的效果。当你在每日准备期间创建临时装置时，你可以选择将两件临时装置合并为一件装置，过程消耗两件装置，并将它们融合成一个单元。当该装置被激活时，可以使用其中任一效果，或两种效果都使用；并以激活动作数较多的那件来确定所需动作数。使用该装置的生物决定该装置效果的发生顺序。</p>",
-            "prerequisites": [{"value": "装置师献身"}, {"value": "传奇制造"}]
+            "prerequisites": [{"value": "装置师献身"}, {"value": "传奇制作"}]
         },
         "Gadgeteer Dedication": {
             "name": "装置师献身 Gadgeteer Dedication",
@@ -119,12 +119,12 @@
         },
         "Megaton Strike+": {
             "name": "百万吨打击+ Megaton Strike+",
-            "description": "<p>你激活大发明中的齿轮、爆炸物及其他隐藏机件，进行一次强力攻击。你进行一次打击，造成额外一颗武器伤害骰。如果你至少 10级，则增至两颗额外伤害骰；至少 18级，则增至三颗额外伤害骰。可进行的打击类型取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你以一次近战迒手攻击或近战武器进行打击。要使用近战武器，你必须在每日准备时事先用特殊机件准备好它。</li>\n<li><strong>构装体</strong> 你的从仆大发明进行打击。</li>\n<li><strong>武器</strong> 你以你的武器大发明进行打击。</li>\n<li><strong>治疗 </strong>你以你的大发明进行打击。</li>\n<li><strong>科法 </strong>你施放科法射线。你将额外伤害骰加在成功上，或加在大成功上将其翻倍。</li>\n<li><strong>装置 </strong>你以一次近战迒手攻击或近战武器进行打击。要使用近战武器，你必须在每日准备时事先用特殊机件准备好它。</li>\n</ul>\n<p><strong>不稳定功能</strong> 你向打击注入更多力量，但有让大发明出现应力裂缝的风险。在「百万吨打击」上添加不稳定特征。该打击多得另外一颗额外伤害骰，使总数为：4级 2 颗、10级 3 颗、18级 4 颗。</p>\n<p><strong>特殊</strong> 如果你的大发明是从仆，它可代你执行此动作。</p>",
+            "description": "<p>你激活大发明中的齿轮、爆炸物及其他隐藏机件，进行一次强力攻击。你进行一次打击，造成额外一颗武器伤害骰。如果你至少 10级，则增至两颗额外伤害骰；至少 18级，则增至三颗额外伤害骰。可进行的打击类型取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你以一次近战徒手攻击或近战武器进行打击。要使用近战武器，你必须在每日准备时事先用特殊机件准备好它。</li>\n<li><strong>构装体</strong> 你的从仆大发明进行打击。</li>\n<li><strong>武器</strong> 你以你的武器大发明进行打击。</li>\n<li><strong>治疗 </strong>你以你的大发明进行打击。</li>\n<li><strong>科法 </strong>你施放科法射线。你将额外伤害骰加在成功上，或加在大成功上将其翻倍。</li>\n<li><strong>装置 </strong>你以一次近战徒手攻击或近战武器进行打击。要使用近战武器，你必须在每日准备时事先用特殊机件准备好它。</li>\n</ul>\n<p><strong>不稳定功能</strong> 你向打击注入更多力量，但有让大发明出现应力裂缝的风险。在「百万吨打击」上添加不稳定特征。该打击多得另外一颗额外伤害骰，使总数为：4级 2 颗、10级 3 颗、18级 4 颗。</p>\n<p><strong>特殊</strong> 如果你的大发明是从仆，它可代你执行此动作。</p>",
             "prerequisites": [{"value": "护甲、构装体、武器、治疗、科法或装置大发明"}]
         },
         "Perfect Appendages": {
             "name": "完美附肢 Perfect Appendages",
-            "description": "<p>你的机械附肢运作几近真肢——或许更强。每条单独的附肢可举起最多 3 体积，并能在其基础动作之外进行复杂动作（如 @Compendium[pf2e.actionspf2e.cYdz2grcOcRt4jk6]{解除装置} 或 @Compendium[pf2e.actionspf2e.1kGNdIIhuglAjIp9]{治疗伤势}）。此外，当你使用机械附肢的不稳定功能时，仅需使用一条附肢，且可以擒拿或打击生物，而非将它们移位。如果你选择进行打击，你的附肢视为迒手攻击，造成 1d4 由你选择的钝击、穿刺或挥砍伤害，并具有触及特征，属拳斗武器组。你在获得此专长时即选定伤害类型，但可以花费 1小时调整附肢以将伤害更改为另一种你所选的类型。</p>\n<p>@UUID[Compendium.pf2e-team-plus-inventors.inventors-effects.Item.K8OvnmW45Z6516jN]{效果：完美附肢}</p>",
+            "description": "<p>你的机械附肢运作几近真肢——或许更强。每条单独的附肢可举起最多 3 体积，并能在其基础动作之外进行复杂动作（如 @Compendium[pf2e.actionspf2e.cYdz2grcOcRt4jk6]{解除装置} 或 @Compendium[pf2e.actionspf2e.1kGNdIIhuglAjIp9]{治疗伤势}）。此外，当你使用机械附肢的不稳定功能时，仅需使用一条附肢，且可以擒拿或打击生物，而非将它们移位。如果你选择进行打击，你的附肢视为徒手攻击，造成 1d4 由你选择的钝击、穿刺或挥砍伤害，并具有触及特征，属拳斗武器组。你在获得此专长时即选定伤害类型，但可以花费 1小时调整附肢以将伤害更改为另一种你所选的类型。</p>\n<p>@UUID[Compendium.pf2e-team-plus-inventors.inventors-effects.Item.K8OvnmW45Z6516jN]{效果：完美附肢}</p>",
             "prerequisites": [{"value": "天才附肢"}]
         },
         "Manifold Gadgets": {
@@ -134,8 +134,8 @@
         },
         "Basic Gadgets": {
             "name": "基础装置 Basic Gadgets",
-            "description": "<p>对你而言，某些装置过于基础，制造起来不值一提。当你在每日准备期间创建临时装置时，只要它们等级不高于你等级的一半，你便可以使用其中一件临时装置创建出两件相同类型的临时装置。如果你在制作上为传奇，则可改为创建四件相同类型的装置。</p>",
-            "prerequisites": [{"value": "装置师献身"}, {"value": "大师制造"}]
+            "description": "<p>对你而言，某些装置过于基础，制作起来不值一提。当你在每日准备期间创建临时装置时，只要它们等级不高于你等级的一半，你便可以使用其中一件临时装置创建出两件相同类型的临时装置。如果你在制作上为传奇，则可改为创建四件相同类型的装置。</p>",
+            "prerequisites": [{"value": "装置师献身"}, {"value": "大师制作"}]
         },
         "Architected Manipulation": {
             "name": "架构操控 Architected Manipulation",
@@ -179,8 +179,8 @@
             "prerequisites": [{"value": "护甲、构装体、武器、治疗、科法或装置大发明"}]
         },
         "Calculated Spellshape": {
-            "name": "算计塑形施法 Calculated Spellshape",
-            "description": "<p>你以你的大发明塑形法术。你获得一个具有塑形施法特征的法师职业专长。就满足其先决条件而言，你的法师等级等同于你的角色等级。</p>",
+            "name": "算计塑法 Calculated Spellshape",
+            "description": "<p>你以你的大发明塑法。你获得一个具有塑法特征的法师职业专长。就满足其先决条件而言，你的法师等级等同于你的角色等级。</p>",
             "prerequisites": [{"value": "科法大发明"}]
         },
         "Blast-Proof": {
@@ -194,11 +194,11 @@
         "Reverse Engineer": {
             "name": "逆向工程师 Reverse Engineer",
             "description": "<p>你极擅长对物品进行逆向工程以获取配方，或仅是拆解之以让其失效。你的制作检定在从物品逆向工程出配方时获得 +2环境加值。如果你的制作检定大成功，你可以选择同时获得配方并将原物品重新组装；让你保留配方与该物品，而非配方与等同于该物品价值一半的原料。此外，你可以使用制作代替盗术来「解除装置」或「撬锁」。</p>",
-            "prerequisites": [{"value": "受训制造"}]
+            "prerequisites": [{"value": "受训制作"}]
         },
         "Condition Causation Theory": {
             "name": "状态致因理论 Condition Causation Theory",
-            "description": "<p>你认为，正如机器中弱点之间存在连锁效应——利用一种状态会让进一步的缺陷显而易见。你产生一个理论时进行预测。</p>\n<p><strong>预测</strong>：你预测一种会让敌人对额外倾向开放的状态。从下列状态中选择一项：@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{笨拙}、@Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋}、@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭}、@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{受惊}、@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{反胃} 或 @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞}。在你下一回合开始时，你进入「测试」阶段。</p>\n<p><strong>测试</strong>：当你能看见的 30尺内某敌人首次获得你预测的状态时，进行 @Check[type:flat|dc:11|showDC:all]。无论成功与否，你都进入「分析」阶段。</p>\n<p><strong>分析</strong>：如果纯骰检定失败，你发现它们虽不受你理论左右，但仍存在其他可利用之处。你得知它最弱的豁免，并可立即预测另一种状态，并在下一回合开始时再次进入「测试」阶段。如果纯骰检定成功，你发现具有该状态会降低你目标的整体效率。只要生物具有所列状态，或直到你停止维持你的理论之前，它们对你均处于 @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}。</p>"
+            "description": "<p>你认为，正如机器中弱点之间存在连锁效应——利用一种状态会让进一步的缺陷显而易见。你产生一个理论时进行预测。</p>\n<p><strong>预测</strong>：你预测一种会让敌人对额外倾向开放的状态。从下列状态中选择一项：@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{笨拙}、@Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋}、@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭}、@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧}、@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心} 或 @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞}。在你下一回合开始时，你进入「测试」阶段。</p>\n<p><strong>测试</strong>：当你能看见的 30尺内某敌人首次获得你预测的状态时，进行 @Check[type:flat|dc:11|showDC:all]。无论成功与否，你都进入「分析」阶段。</p>\n<p><strong>分析</strong>：如果纯骰检定失败，你发现它们虽不受你理论左右，但仍存在其他可利用之处。你得知它最弱的豁免，并可立即预测另一种状态，并在下一回合开始时再次进入「测试」阶段。如果纯骰检定成功，你发现具有该状态会降低你目标的整体效率。只要生物具有所列状态，或直到你停止维持你的理论之前，它们对你均处于 @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}。</p>"
         },
         "Voice Modulation": {
             "name": "语音调制 Voice Modulation",
@@ -246,13 +246,13 @@
         },
         "Unavoidable Ray": {
             "name": "无可避免射线 Unavoidable Ray",
-            "description": "<p>你的 <em>@UUID[Compendium.pf2e-team-plus-inventors.inventors-spells.rLpTFGCUUdXtUbaL]{科法射线}</em> 可以蜿蜒曲折以确保命中你的对手。在你下一次回合结束前施放科法射线时，你获得「必中打击」的效果。</p>",
+            "description": "<p>你的 <em>@UUID[Compendium.pf2e-team-plus-inventors.inventors-spells.rLpTFGCUUdXtUbaL]{科法射线}</em> 可以蜿蜒曲折以确保命中你的对手。在你下一次回合结束前施放科法射线时，你获得「料敌机先」的效果。</p>",
             "prerequisites": [{"value": "科法大发明"}]
         },
         "Stasis Capsule": {
             "name": "停滞胶囊 Stasis Capsule",
             "description": "<p>你能创造一座停滞胶囊，将奄奄一息者重新唤回。你可以花费 10分钟构建一座停滞胶囊，能容纳最多 4 名小型或中型生物，占据 @Template[type:square|distance:10]。当生物在胶囊内时，你可以使用制作代替医疗来「治疗伤势」，包括使用你较高的制作熟练度尝试更困难的「治疗伤势」检定。当你以这种方式「治疗伤势」时，你只进行一次检定并将相应数值施加于停滞胶囊内的所有生物（包括大失败时造成伤害）。如果你在制作上为传奇，你可以将胶囊扩展为 @Template[type:square|distance:20]，并容纳两倍数量的小型或中型生物，或更大体型的生物。就容量而言，你可以将一只大型生物视为两只中型生物，将一只巨型生物视为两只大型生物。</p>",
-            "prerequisites": [{"value": "受训医疗"}, {"value": "专家制造"}]
+            "prerequisites": [{"value": "受训医疗"}, {"value": "专家制作"}]
         },
         "Identify Flaws": {
             "name": "识别缺陷 Identify Flaws",
@@ -260,7 +260,7 @@
         },
         "Death Link": {
             "name": "死亡链接 Death Link",
-            "description": "<p>你已学会让链接同时瞄准敌人与盟友。你可以以敌人代替盟友作为「充能连接」的目标。如果如此，敌人在你每个链接激活回合开始时承受与原本会赋予的临时生命值数量相同的 @Damage[(floor((@actor.level)/2) +2)[void]] 伤害（若敌人具有虚空治疗，则为 @Damage[(floor((@actor.level)/2) +2)[vitality]] 伤害），基础强韧豁免。如果生物在对你「死亡链接」的豁免上大成功，则该链接立即结束。你也可以以正受激活链接影响的敌人作为你「灼热修复」的目标，造成与本会恢复同等数量的伤害（基础强韧豁免）；之后该「充能连接」结束。在你「灼热修复」上豁免失败的生物变为反胃 1，大失败则反胃 2。在你以这种方式使用「灼热修复」之后，你在 1天内不能再以该生物为「充能连接」的目标。</p>",
+            "description": "<p>你已学会让链接同时瞄准敌人与盟友。你可以以敌人代替盟友作为「充能连接」的目标。如果如此，敌人在你每个链接激活回合开始时承受与原本会赋予的临时生命值数量相同的 @Damage[(floor((@actor.level)/2) +2)[void]] 伤害（若敌人具有虚空治疗，则为 @Damage[(floor((@actor.level)/2) +2)[vitality]] 伤害），基础强韧豁免。如果生物在对你「死亡链接」的豁免上大成功，则该链接立即结束。你也可以以正受激活链接影响的敌人作为你「灼热修复」的目标，造成与本会恢复同等数量的伤害（基础强韧豁免）；之后该「充能连接」结束。在你「灼热修复」上豁免失败的生物变为恶心 1，大失败则恶心 2。在你以这种方式使用「灼热修复」之后，你在 1天内不能再以该生物为「充能连接」的目标。</p>",
             "prerequisites": [{"value": "治疗大发明"}]
         }
     }

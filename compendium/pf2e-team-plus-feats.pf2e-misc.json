@@ -29,15 +29,15 @@
         },
         "Feral Lunge": {
             "name": "野性猛冲 Feral Lunge",
-            "description": "<p>你凶猛地扑向敌人。你向一个敌人跨步，然后向其 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃} 或 @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}。如果你结束此移动时处于近战触及内，你可以以非拳头迒手攻击进行一次近战打击，且攻击骰获得 +1环境加值。</p>"
+            "description": "<p>你凶猛地扑向敌人。你向一个敌人跨步，然后向其 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃} 或 @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}。如果你结束此移动时处于近战触及内，你可以以非拳头徒手攻击进行一次近战打击，且攻击骰获得 +1环境加值。</p>"
         },
         "Effect: Wrathful Protector": {
             "name": "效果：愤怒护卫 Effect: Wrathful Protector",
-            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.SrgRgADZEd2PAUHB]{盛怒护卫} 授予</p><p>你对被标记敌人的伤害获得 +4状态加值。如果你至少 16级，状态加值增至 +6。你获得 @UUID[Compendium.pf2e-team-plus-feats.pf2e-misc.Item.jnNObtugln5yFMjo]{狂怒回应} 勇行行动。</p>"
+            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.SrgRgADZEd2PAUHB]{盛怒护卫} 授予</p><p>你对被标记敌人的伤害获得 +4状态加值。如果你至少 16级，状态加值增至 +6。你获得 @UUID[Compendium.pf2e-team-plus-feats.pf2e-misc.Item.jnNObtugln5yFMjo]{狂怒回应} 无畏动作。</p>"
         },
         "Effect: Establish Etiquette": {
             "name": "效果：确立礼仪 Effect: Establish Etiquette",
-            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.hOZcktZvOn2aWQp9]{建立礼仪} 授予</p><p>每个回合该生物未遵循已确立的礼仪，其攻击骰承受 -1环境减值；如果你的社群检定大成功，则承受 -2环境减值。如果它遵循已确立的礼仪，其攻击骰直至下一回合获得 +1环境加值，或它打破礼仪（立即重新承受减值）。生物可以选择以一个具有听觉或专注特征的单动作过早结束你的「确立礼仪」，从而拒绝你对礼仪的诉求。</p><p>你与你的盟友在对该生物采取行动时必须选择遵循已确立的礼仪；如果你不遵循该礼仪，效果立即结束，所有目睹你或盟友违反者在 1天内对你的「确立礼仪」暂时免疫。</p><p><strong>十步</strong> 你选择仅以远程武器进行打击，且仅在其第一射程增量内。</p><p><strong>不光彩攻击</strong> 你选择忽略对 AC 的环境减值。</p><p><strong>仅手</strong> 你选择仅以非架势的迒手攻击进行打击。</p><p><strong>无言</strong> 你选择不使用听觉或语言动作。</p><p><strong>单手</strong> 你选择保留一只手空闲。</p><p><strong>让路</strong> 你选择每回合恰好进行一次具有移动特征的动作。</p><p><strong>独斗</strong> 你选择不攻击此轮内已被另一生物攻击过的生物。</p>"
+            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.hOZcktZvOn2aWQp9]{建立礼仪} 授予</p><p>每个回合该生物未遵循已确立的礼仪，其攻击骰承受 -1环境减值；如果你的社群检定大成功，则承受 -2环境减值。如果它遵循已确立的礼仪，其攻击骰直至下一回合获得 +1环境加值，或它打破礼仪（立即重新承受减值）。生物可以选择以一个具有听觉或专注特征的单动作过早结束你的「确立礼仪」，从而拒绝你对礼仪的诉求。</p><p>你与你的盟友在对该生物采取行动时必须选择遵循已确立的礼仪；如果你不遵循该礼仪，效果立即结束，所有目睹你或盟友违反者在 1天内对你的「确立礼仪」暂时免疫。</p><p><strong>十步</strong> 你选择仅以远程武器进行打击，且仅在其第一射程增量内。</p><p><strong>不光彩攻击</strong> 你选择忽略对 AC 的环境减值。</p><p><strong>仅手</strong> 你选择仅以非架势的徒手攻击进行打击。</p><p><strong>无言</strong> 你选择不使用听觉或语言动作。</p><p><strong>单手</strong> 你选择保留一只手空闲。</p><p><strong>让路</strong> 你选择每回合恰好进行一次具有移动特征的动作。</p><p><strong>独斗</strong> 你选择不攻击此轮内已被另一生物攻击过的生物。</p>"
         },
         "Crash Together": {
             "name": "并肩冲撞 Crash Together",
@@ -57,7 +57,7 @@
         },
         "Effect: Savage Success": {
             "name": "效果：野性大胜 Effect: Savage Success",
-            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.3hakMj2ZU7iSe1iu]{野蛮成功} 授予</p><p>你的非拳头近战迒手打击对伤害获得等同于武器伤害骰数量的环境加值。你获得 @UUID[Compendium.pf2e-team-plus-feats.pf2e-misc.Item.0sLZW5D6ziJY7yD0]{野性猛冲} 勇行行动。</p>"
+            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.3hakMj2ZU7iSe1iu]{野蛮成功} 授予</p><p>你的非拳头近战徒手打击对伤害获得等同于武器伤害骰数量的环境加值。你获得 @UUID[Compendium.pf2e-team-plus-feats.pf2e-misc.Item.0sLZW5D6ziJY7yD0]{野性猛冲} 无畏动作。</p>"
         },
         "Effect: Opening Accompaniment": {
             "name": "效果：开场伴奏 Effect: Opening Accompaniment",
@@ -89,7 +89,7 @@
         },
         "Effect: Devastating Finish": {
             "name": "效果：毁灭终结 Effect: Devastating Finish",
-            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.QrDy2f0BYBWnzFCM]{毁灭终局} 授予</p><p>你的 @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{挫败士气} 获得 +2环境加值。你获得 @UUID[Compendium.pf2e-team-plus-feats.pf2e-misc.Item.UoIjmafqNeVuiKRc]{下一个？} 勇行动作。</p>"
+            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.QrDy2f0BYBWnzFCM]{毁灭终局} 授予</p><p>你的 @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{挫败士气} 获得 +2环境加值。你获得 @UUID[Compendium.pf2e-team-plus-feats.pf2e-misc.Item.UoIjmafqNeVuiKRc]{下一个？} 无畏动作。</p>"
         },
         "Effect: Ritual Glyphs": {
             "name": "效果：仪式符印 Effect: Ritual Glyphs",
@@ -101,7 +101,7 @@
         },
         "Effect: Quick Cuisine": {
             "name": "效果：快手料理 Effect: Quick Cuisine",
-            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.u1Yj7NCED4myTRDu]{快速烹饪} 授予</p><p>你下次的强韧豁免获得 +1环境加值（如果该效果会施加反胃状态，则为 +2环境加值；失败时改为承受 -2环境减值）。大成功时，你获得等同于此效果起源者等级一半加上其智力调整值的临时生命值。</p>"
+            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.u1Yj7NCED4myTRDu]{快速烹饪} 授予</p><p>你下次的强韧豁免获得 +1环境加值（如果该效果会施加恶心状态，则为 +2环境加值；失败时改为承受 -2环境减值）。大成功时，你获得等同于此效果起源者等级一半加上其智力调整值的临时生命值。</p>"
         },
         "Twist from Harm": {
             "name": "扭身避害 Twist from Harm",
@@ -113,7 +113,7 @@
         },
         "Unleash Kaiju Strength": {
             "name": "释放怪兽之力 Unleash Kaiju Strength",
-            "description": "<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你让怪兽之力的一部分逃出你身，让毁灭性破坏紧随其后。你在你周围的 @Template[type:emanation|distance:40] 范围内产生 @UUID[Compendium.pf2e.spells-srd.Item.x7SPrsRxGb2Vy2nu] 的效果。在 1分钟内，你的迒手打击额外造成 2d8 与你所幸存怪兽相关能量类型的伤害；并对该能量类型获得 10点抗力。</p>"
+            "description": "<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你让怪兽之力的一部分逃出你身，让毁灭性破坏紧随其后。你在你周围的 @Template[type:emanation|distance:40] 范围内产生 @UUID[Compendium.pf2e.spells-srd.Item.x7SPrsRxGb2Vy2nu] 的效果。在 1分钟内，你的徒手打击额外造成 2d8 与你所幸存怪兽相关能量类型的伤害；并对该能量类型获得 10点抗力。</p>"
         },
         "Pinpoint Assault": {
             "name": "精准突击 Pinpoint Assault",
@@ -133,7 +133,7 @@
         },
         "Effect: Unleash Kaiju Strength": {
             "name": "效果：释放怪兽之力 Effect: Unleash Kaiju Strength",
-            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-misc.Item.Ig8amOmlbl6VkzzK]{释放怪兽之力} 授予</p><p>你的迒手打击额外造成 2d8 与你所幸存怪兽相关能量类型的伤害；并对该能量类型获得 10点抗力。</p>"
+            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-misc.Item.Ig8amOmlbl6VkzzK]{释放怪兽之力} 授予</p><p>你的徒手打击额外造成 2d8 与你所幸存怪兽相关能量类型的伤害；并对该能量类型获得 10点抗力。</p>"
         },
         "Effect: Off-Handed Insult": {
             "name": "效果：旁敲讽语 Effect: Off-Handed Insult",
@@ -145,7 +145,7 @@
         },
         "Effect: Magical Feedback": {
             "name": "效果：魔法反馈 Effect: Magical Feedback",
-            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.0ScSmP7dkiE9a5uv]{魔法反馈} 授予</p><p>你获得 @UUID[Compendium.pf2e-team-plus-feats.pf2e-misc.Item.BZizB3VFYoo6bGcs]{激涌唤起} 勇行行动。</p>"
+            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.0ScSmP7dkiE9a5uv]{魔法反馈} 授予</p><p>你获得 @UUID[Compendium.pf2e-team-plus-feats.pf2e-misc.Item.BZizB3VFYoo6bGcs]{激涌唤起} 无畏动作。</p>"
         },
         "Effect: Moonscarred": {
             "name": "效果：月伤 Effect: Moonscarred",
@@ -169,7 +169,7 @@
         },
         "Who's Next?": {
             "name": "下一个？ Who's Next?",
-            "description": "<p><strong>需求</strong> 你在上一回合内将一个生物减至 0 生命值，且未使用 @UUID[Compendium.pf2e.feats-srd.Item.gjec0ts3wkFbjvHN]{下一个就是你} 反应</p><hr /><p><strong>效果</strong> 在击倒敌人之后，你挑衅他人冒犯你。所有 30尺内、目睹该所需生物被减至 0 生命值的敌人必须以你的威吓 DC 进行 @Check[will|against:intimidation] 豁免。</p><hr /><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 该生物变为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1级}，且只要它能看见你，便不能将受惊状态降至 1 以下。</p><p><strong>大失败</strong> 同失败，但该生物变为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2级}。此外，如果该生物等级不高于你，它在受惊期间获得 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑} 状态。</p>"
+            "description": "<p><strong>需求</strong> 你在上一回合内将一个生物减至 0 生命值，且未使用 @UUID[Compendium.pf2e.feats-srd.Item.gjec0ts3wkFbjvHN]{下一个就是你} 反应</p><hr /><p><strong>效果</strong> 在击倒敌人之后，你挑衅他人冒犯你。所有 30尺内、目睹该所需生物被减至 0 生命值的敌人必须以你的威吓 DC 进行 @Check[will|against:intimidation] 豁免。</p><hr /><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 该生物变为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1级}，且只要它能看见你，便不能将惊惧状态降至 1 以下。</p><p><strong>大失败</strong> 同失败，但该生物变为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2级}。此外，如果该生物等级不高于你，它在惊惧期间获得 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑} 状态。</p>"
         },
         "Effect: Defensive Flight Maneuver": {
             "name": "效果：防御飞行机动 Effect: Defensive Flight Maneuver",
@@ -209,7 +209,7 @@
         },
         "Effect: Can't Stop, Won't Stop": {
             "name": "效果：永不停步 Effect: Can't Stop, Won't Stop",
-            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.1VT95tETP9FBKDTU]{不停不息} 授予</p><p>你对你所选的某项豁免获得等同于你重伤值的状态加值。你获得 @UUID[Compendium.pf2e-team-plus-feats.pf2e-misc.Item.g92q06HvQQvyj445]{屹立不倒} 勇行反应。</p>"
+            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.1VT95tETP9FBKDTU]{不停不息} 授予</p><p>你对你所选的某项豁免获得等同于你重伤值的状态加值。你获得 @UUID[Compendium.pf2e-team-plus-feats.pf2e-misc.Item.g92q06HvQQvyj445]{屹立不倒} 无畏反应。</p>"
         },
         "Still Standing": {
             "name": "屹立不倒 Still Standing",
@@ -225,7 +225,7 @@
         },
         "Effect: Honed-Shot Precision": {
             "name": "效果：精准射击 Effect: Honed-Shot Precision",
-            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.NgBZh1OX80hX7OHA]{磨砺射击精准} 授予</p><p>你对被标记敌人的远程打击每颗武器伤害骰额外造成 1点精准伤害。你获得 @UUID[Compendium.pf2e-team-plus-feats.pf2e-misc.Item.Ig9HaamKNFhmhIYk]{精准突击} 勇行反应。</p>"
+            "description": "<p>由 @UUID[Compendium.pf2e-team-plus-feats.pf2e-player-options.Item.NgBZh1OX80hX7OHA]{磨砺射击精准} 授予</p><p>你对被标记敌人的远程打击每颗武器伤害骰额外造成 1点精准伤害。你获得 @UUID[Compendium.pf2e-team-plus-feats.pf2e-misc.Item.Ig9HaamKNFhmhIYk]{精准突击} 无畏反应。</p>"
         },
         "Effect: Teacher's Aura": {
             "name": "效果：教师之灵 Effect: Teacher's Aura",
@@ -237,7 +237,7 @@
         },
         "Furious Response": {
             "name": "狂怒回应 Furious Response",
-            "description": "<p>你向冒犯你盟友的敌人猛进。你可以选择跨步或打击三次——为这三次选择中的每一次在跨步与打击之间作出选择。你的跨步必须朝向「愤怒护卫」所要求的敌人；你的打击必须以同一敌人为目标。</p><p>或者，你可以施放一个会造成伤害且最多 3动作施放的法术，而非跨步或打击三次。如果你选择施放一个 2动作或更短时间的法术，你可以在施放该法术之前作为「狂怒回应」的一部分使用一个你能取用的 1动作塑形施法。该法术必须以所要求的敌人为目标，或将其包含于其作用区域之中。</p>"
+            "description": "<p>你向冒犯你盟友的敌人猛进。你可以选择跨步或打击三次——为这三次选择中的每一次在跨步与打击之间作出选择。你的跨步必须朝向「愤怒护卫」所要求的敌人；你的打击必须以同一敌人为目标。</p><p>或者，你可以施放一个会造成伤害且最多 3动作施放的法术，而非跨步或打击三次。如果你选择施放一个 2动作或更短时间的法术，你可以在施放该法术之前作为「狂怒回应」的一部分使用一个你能取用的 1动作塑法。该法术必须以所要求的敌人为目标，或将其包含于其作用区域之中。</p>"
         },
         "Effect: Sprint Count": {
             "name": "效果：冲刺计数 Effect: Sprint Count",

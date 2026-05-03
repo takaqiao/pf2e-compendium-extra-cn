@@ -26,7 +26,7 @@
         },
         "Virtue's Light": {
             "name": "贤德之光 Virtue's Light",
-            "description": "<p>你高举圣印，让它发出一道驱散邪恶与绝望的光芒。弥漫范围内所有邪恶生物对圣洁获得等同于法术环两倍的弱点。如果它们已具备对圣洁的弱点，则该弱点提高同等数值。</p>\n<p>@UUID[Compendium.clerics-remaster.clerics-effects.Item.qblHDaq9VTKUYQAQ]{效果：贤德之光}</p>"
+            "description": "<p>你高举圣徽，让它发出一道驱散邪恶与绝望的光芒。弥漫范围内所有邪恶生物对圣洁获得等同于法术环两倍的弱点。如果它们已具备对圣洁的弱点，则该弱点提高同等数值。</p>\n<p>@UUID[Compendium.clerics-remaster.clerics-effects.Item.qblHDaq9VTKUYQAQ]{效果：贤德之光}</p>"
         },
         "Ruler of Everything": {
             "name": "万物统御 Ruler of Everything",
@@ -38,7 +38,7 @@
         },
         "Residual Bad Luck": {
             "name": "残余厄运 Residual Bad Luck",
-            "description": "<p>你向目标灌入厄运的幻视，使其因怕失败而忐忑。目标必须进行一次意志豁免。</p>\n<hr />\n<p><strong>成功 </strong>目标不受影响。</p>\n<p><strong>失败 </strong>目标变为 @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧1级}。如果目标在其下个回合结束之前的某次攻击骰或技能检定中失败，那么该回合结束时它的受惊状态不会减 1。</p>\n<p><strong>大失败</strong> 同失败，但目标变为受惊 2。</p>"
+            "description": "<p>你向目标灌入厄运的幻视，使其因怕失败而忐忑。目标必须进行一次意志豁免。</p>\n<hr />\n<p><strong>成功 </strong>目标不受影响。</p>\n<p><strong>失败 </strong>目标变为 @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧1级}。如果目标在其下个回合结束之前的某次攻击骰或技能检定中失败，那么该回合结束时它的惊惧状态不会减 1。</p>\n<p><strong>大失败</strong> 同失败，但目标变为惊惧 2。</p>"
         },
         "Repairomancy": {
             "name": "修复术 Repairomancy",
@@ -70,7 +70,7 @@
         },
         "Hope Prevails": {
             "name": "希望永存 Hope Prevails",
-            "description": "<p>你向目标生物倾注汹涌的希望，试图抚平其恐惧与忧伤。你立即将目标的 @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧} 状态减少 2。如果这会使受惊状态减至 0，且该状态由持续效果造成，你可以尝试对抗该目标所遭受的某一恐惧效果。你施放此法术所花费的动作数决定其目标、范围、区域和其他参数。</p>\n<p><span class=\"action-glyph\">1 </span>该法术距离为接触。</p>\n<p><span class=\"action-glyph\">2</span>  （专注）该法术距离 30尺。目标在 1分钟内对抗恐惧效果的豁免另外获得 +2状态加值。@UUID[Compendium.clerics-remaster.clerics-effects.Item.ePFN29cDDvUqLuQc]{效果：希望永存}</p>\n<p><span class=\"action-glyph\">3 </span>（专注）你在 @Template[type:emanation|distance:30] 范围内散播希望。这以爆裂内的所有生物为目标。</p>"
+            "description": "<p>你向目标生物倾注汹涌的希望，试图抚平其恐惧与忧伤。你立即将目标的 @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧} 状态减少 2。如果这会使惊惧状态减至 0，且该状态由持续效果造成，你可以尝试对抗该目标所遭受的某一恐惧效果。你施放此法术所花费的动作数决定其目标、范围、区域和其他参数。</p>\n<p><span class=\"action-glyph\">1 </span>该法术距离为接触。</p>\n<p><span class=\"action-glyph\">2</span>  （专注）该法术距离 30尺。目标在 1分钟内对抗恐惧效果的豁免另外获得 +2状态加值。@UUID[Compendium.clerics-remaster.clerics-effects.Item.ePFN29cDDvUqLuQc]{效果：希望永存}</p>\n<p><span class=\"action-glyph\">3 </span>（专注）你在 @Template[type:emanation|distance:30] 范围内散播希望。这以爆裂内的所有生物为目标。</p>"
         },
         "Long Live the Revolution": {
             "name": "革命万岁 Long Live the Revolution",
@@ -82,7 +82,7 @@
         },
         "Heretic's Disguise": {
             "name": "异端伪装 Heretic's Disguise",
-            "description": "<p>你将自身裹于神圣能量中，使你能行某些便宜之事，并让你在你神祇的敌人之中行走时不被识破。你改变你的服饰、物品以及外观的某些细节，使你看起来像是某一邪教、派系或组织的成员。你的幻象服饰与物品赋予你 +4环境加值，用于尝试假扮成该组织的成员；即便组织成员不认识你，他们通常也会给你一次自陈是新人或不知名成员的机会。如果尝试对你察言观色的生物属于你伪装所对应的组织，你的察觉 DC 对其察言观色获得 +2状态加值。</p>\n<p>如果你信奉某位神祇，你将能够在不引起神祇不悦或丧失能力的前提下进行违反诫命与禁忌的行为，但你必须处于受胁迫或有被你神祇之敌发现的风险之下，否则你行为的正常后果照旧（由 GM 裁决）。</p>\n<p>@UUID[Compendium.clerics-remaster.clerics-effects.Item.q05kPdAVtyGYX90K]{效果：异端伪装}</p>"
+            "description": "<p>你将自身裹于神圣能量中，使你能行某些便宜之事，并让你在你神祇的敌人之中行走时不被识破。你改变你的服饰、物品以及外观的某些细节，使你看起来像是某一邪教、派系或组织的成员。你的幻象服饰与物品赋予你 +4环境加值，用于尝试假扮成该组织的成员；即便组织成员不认识你，他们通常也会给你一次自陈是新人或不知名成员的机会。如果尝试对你察言观色的生物属于你伪装所对应的组织，你的察觉 DC 对其察言观色获得 +2状态加值。</p>\n<p>如果你信奉某位神祇，你将能够在不引起神祇不悦或丧失能力的前提下进行违反典范与禁忌的行为，但你必须处于受胁迫或有被你神祇之敌发现的风险之下，否则你行为的正常后果照旧（由 GM 裁决）。</p>\n<p>@UUID[Compendium.clerics-remaster.clerics-effects.Item.q05kPdAVtyGYX90K]{效果：异端伪装}</p>"
         }
     }
 }

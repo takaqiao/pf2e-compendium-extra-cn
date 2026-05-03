@@ -13,7 +13,7 @@
     "folders": {
         "Wand Adroitness": "魔杖娴熟 Wand Adroitness",
         "Feats": "专长 Feats",
-        "Experimental Spellshaping": "实验塑形施法 Experimental Spellshaping",
+        "Experimental Spellshaping": "实验性塑法 Experimental Spellshaping",
         "Quintessential Experimentation": "精质实验 Quintessential Experimentation",
         "Focus Spells": "聚能法术 Focus Spells",
         "School Spells": "学派法术 School Spells",
@@ -233,8 +233,8 @@
             ]
         },
         "Experimental Spellshaping+": {
-            "name": "实验塑形施法+ Experimental Spellshaping+",
-            "description": "<p>你的论文主张：通过在施法时改变变量与参数，可更高效地实现塑形施法之魔法实践——模仿远古时代必须自行研究法术的法师们。这使你能高效访问各种塑形施法效果。</p><p>你获得一项你所选择的1级塑形施法法师专长。从4级开始，你每日准备时可选择获得一项等级要求不超过你等级的塑形施法法师专长，可使用至下次每日准备时。</p>"
+            "name": "实验性塑法+ Experimental Spellshaping+",
+            "description": "<p>你的论文主张：通过在施法时改变变量与参数，可更高效地实现塑法之魔法实践——模仿远古时代必须自行研究法术的法师们。这使你能高效访问各种塑法效果。</p><p>你获得一项你所选择的1级塑法法师专长。从4级开始，你每日准备时可选择获得一项等级要求不超过你等级的塑法法师专长，可使用至下次每日准备时。</p>"
         },
         "Linked to Undeath": {
             "name": "链结不死 Linked to Undeath",
@@ -280,7 +280,7 @@
         },
         "School of Wandering Steps": {
             "name": "行旅学派 School of Wandering Steps",
-            "description": "<p>在远古时期，法师以徒步周游世界并在需要时出现于正确之处而闻名。这些法师周游世界以观奇迹，传播魔法并教授他人其方法。在现代，仍有人沿循像古法师贾腾贝或科比斯拉尼这样人物的脚步过此生活。你或许接受过正规教育却离开以见识世界，你或许与一位向你展示世道之师同行，亦或许你只是通过过自己的生活习得所学。</p><p><span style=\"font-family:Roboto, sans-serif\"><strong>课程</strong></span></p><ul><li><span style=\"font-family:Roboto, sans-serif\"><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.tXa5vOu5giBNCjdR]{指路术}</em>、<em>@UUID[Compendium.pf2e.spells-srd.uZK2BYzPnxUBnDjr]{绊足藤}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>1阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.PGVhjDbzC4lf6aXF]{面包屑}</em>、<em>@UUID[Compendium.pf2e.spells-srd.4c1c6eNzU1PFGkAy]{坚忍}</em>、<em>@UUID[Compendium.pf2e.spells-srd.KcLVELhCUcKXxiKE]{顺风而行}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>2阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.UirEIHILQgip87qv]{慷慨冲动}</em>、<em>@UUID[Compendium.pf2e.spells-srd.9XHmC2JgTUIQ1CCm]{迷雾术}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>3阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.IFuEzfmmWyNwVbhY]{安全通道}</em>、<em>@UUID[Compendium.pf2e.spells-srd.KsWhliKfUs3IpW3c]{棘墙术}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>4阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Wpgt5TYcTHLDei6J]{贪攫之土}</em>、<em>@UUID[Compendium.pf2e.spells-srd.1NLMPmyCB2MBoCuR]{龟兔赛跑}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>5阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.3E1p58MNQMO4GAxt]{时间迟滞}</em>、<em>@UUID[Compendium.pf2e.spells-srd.SwUiVavHKMWG7t5K]{真言术}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>6阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.yrZA4k2VAqEP8xx7]{斥退}</em>、<em>@UUID[Compendium.pf2e.spells-srd.uqlxMQQeSGWEVjki]{真景术}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>7阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.smiVuoFMSgY2FTOO]{曼舞之泉}</em>、<em>@UUID[Compendium.pf2e.spells-srd.ggtZTxeyEnDYbt6f]{片刻复位}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>8阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.rwCh2qTYPA44KEoK]{梦境会议}</em>、<em>@UUID[Compendium.pf2e.spells-srd.JAaETUBg0xlttpCH]{召唤大法师}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>9阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.KPDHmmjJiw7PhTYF]{辉煌宅邸}</em></span></li></ul><p><strong>学派法术</strong> 初始：<em>@UUID[Compendium.pf2e-team-plus-wizards.wizards-player-options.rEQnHxJ2COtkYDHi]{魔法之图}</em>；高级：<em>@UUID[Compendium.pf2e-team-plus-wizards.wizards-player-options.kHjT8RQ1tC3MX11t]{前路险阻}</em></p><p>*<em>你将此法术作为奥术法术习得与施放</em></p>"
+            "description": "<p>在远古时期，法师以徒步周游世界并在需要时出现于正确之处而闻名。这些法师周游世界以观奇迹，传播魔法并教授他人其方法。在现代，仍有人沿循像古法师贾腾贝或科比斯拉尼这样人物的脚步过此生活。你或许接受过正规教育却离开以见识世界，你或许与一位向你展示世道之师同行，亦或许你只是通过亲历生活习得所学。</p><p><span style=\"font-family:Roboto, sans-serif\"><strong>课程</strong></span></p><ul><li><span style=\"font-family:Roboto, sans-serif\"><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.tXa5vOu5giBNCjdR]{指路术}</em>、<em>@UUID[Compendium.pf2e.spells-srd.uZK2BYzPnxUBnDjr]{绊足藤}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>1阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.PGVhjDbzC4lf6aXF]{面包屑}</em>、<em>@UUID[Compendium.pf2e.spells-srd.4c1c6eNzU1PFGkAy]{坚忍}</em>、<em>@UUID[Compendium.pf2e.spells-srd.KcLVELhCUcKXxiKE]{顺风而行}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>2阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.UirEIHILQgip87qv]{慷慨冲动}</em>、<em>@UUID[Compendium.pf2e.spells-srd.9XHmC2JgTUIQ1CCm]{迷雾术}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>3阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.IFuEzfmmWyNwVbhY]{安全通道}</em>、<em>@UUID[Compendium.pf2e.spells-srd.KsWhliKfUs3IpW3c]{棘墙术}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>4阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Wpgt5TYcTHLDei6J]{贪攫之土}</em>、<em>@UUID[Compendium.pf2e.spells-srd.1NLMPmyCB2MBoCuR]{龟兔赛跑}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>5阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.3E1p58MNQMO4GAxt]{时间迟滞}</em>、<em>@UUID[Compendium.pf2e.spells-srd.SwUiVavHKMWG7t5K]{真言术}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>6阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.yrZA4k2VAqEP8xx7]{斥退}</em>、<em>@UUID[Compendium.pf2e.spells-srd.uqlxMQQeSGWEVjki]{真景术}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>7阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.smiVuoFMSgY2FTOO]{曼舞之泉}</em>、<em>@UUID[Compendium.pf2e.spells-srd.ggtZTxeyEnDYbt6f]{片刻复位}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>8阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.rwCh2qTYPA44KEoK]{梦境会议}</em>、<em>@UUID[Compendium.pf2e.spells-srd.JAaETUBg0xlttpCH]{召唤大法师}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>9阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.KPDHmmjJiw7PhTYF]{辉煌宅邸}</em></span></li></ul><p><strong>学派法术</strong> 初始：<em>@UUID[Compendium.pf2e-team-plus-wizards.wizards-player-options.rEQnHxJ2COtkYDHi]{魔法之图}</em>；高级：<em>@UUID[Compendium.pf2e-team-plus-wizards.wizards-player-options.kHjT8RQ1tC3MX11t]{前路险阻}</em></p><p>*<em>你将此法术作为奥术法术习得与施放</em></p>"
         },
         "Scry Spell Theft": {
             "name": "占视窃法 Scry Spell Theft",
@@ -345,7 +345,7 @@
         },
         "School of Planar Jurisprudence": {
             "name": "位面法理学派 School of Planar Jurisprudence",
-            "description": "<p>纵观宇宙及其他位面，皆有人通过主权权威寻求秩序。从书写现实根本规则的永恒，到审判亡者之引魂使者，再到为正义而战的执政天使及惩处罪者的恶魔，律法之实践者无处不在。最伟大的政治家、立法者与律师就读于埃格利安魔法艺术学院或阿尔玛斯大学，并将研究集中于完善由这些关心律法之位面所提议的律法。从恶魔学律师到阿卡夏官僚，这些法师以律法治理宇宙。</p><p><span style=\"font-family:Roboto, sans-serif\"><strong>课程</strong></span></p><ul><li><span style=\"font-family:Roboto, sans-serif\"><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.EqdSKqr8Qj5TUhMR]{估量术}</em>、<em>@UUID[Compendium.pf2e.spells-srd.BvNbDwFYaidKJG9j]{时之感}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>1阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.2tHYKoVc5YhSewDO]{灌铅步伐}</em>、<em>@UUID[Compendium.pf2e.spells-srd.aIHY2DArKFweIrpf]{指令}</em>、<em>@UUID[Compendium.pf2e.spells-srd.TjWHgXqPv5jywMti]{随身书阁}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>2阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.q5qmNn144ZJGxnvJ]{宽严得体}</em>、<em>@UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG]{解除魔法}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>3阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.B3eLlbaPxOYHcs1o]{迷失时光诅咒}</em>、<em>@UUID[Compendium.pf2e.spells-srd.rfFZKfeCSweFv7P3]{末日将至}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>4阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.D6BcAoWFxHYTKwVZ]{时代沼泽}</em>、<em>@UUID[Compendium.pf2e.spells-srd.HqTI6wRrck1YXp3F]{心灵感应}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>5阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.R9xqCBblkS5KE4y7]{短讯术}</em>、<em>@UUID[Compendium.pf2e.spells-srd.ba12fO37w7O37gim]{召唤律则*}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>6阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.OsOhx3TGIZ7AhD0P]{支配术}</em>、<em>@UUID[Compendium.pf2e.spells-srd.uqlxMQQeSGWEVjki]{真景术}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>7阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.HES5jvGiNZZnJycK]{力场监牢}</em>、<em>@UUID[Compendium.pf2e.spells-srd.AlbpWWN87yGegoAF]{洞烛机先}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>8阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Oj1PJBMQD9vuwCv7]{迷障术}</em>、<em>@UUID[Compendium.pf2e.spells-srd.y2cQYLr5mljDSu1G]{无休监控}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>9阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.ZqmP9gijBmK7y8Xy]{判决武器*}</em></span></li></ul><p><strong>学派法术</strong> 初始：<em>@UUID[Compendium.pf2e-team-plus-wizards.wizards-player-options.wqFMsuigkgN7yQN0]{召集陪审}</em>；高级：<em>@UUID[Compendium.pf2e-team-plus-wizards.wizards-player-options.gwG0MQ46uSaLTqCc]{审判之手}</em></p><p>*<em>你将此法术作为奥术法术习得与施放</em></p>"
+            "description": "<p>纵观宇宙及其他位面，皆有人通过主权权威寻求秩序。从书写现实根本规则的永恒，到审判亡者之引魂使者，再到为正义而战的执政天使及惩处罪者的恶魔，律法之实践者无处不在。最伟大的政治家、立法者与律师就读于埃格利安魔法艺术学院或阿尔玛斯大学，并将研究集中于完善由这些关心律法之位面所提议的律法。从恶魔学律师到阿卡夏官僚，这些法师以律法治理宇宙。</p><p><span style=\"font-family:Roboto, sans-serif\"><strong>课程</strong></span></p><ul><li><span style=\"font-family:Roboto, sans-serif\"><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.EqdSKqr8Qj5TUhMR]{估量术}</em>、<em>@UUID[Compendium.pf2e.spells-srd.BvNbDwFYaidKJG9j]{时之感}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>1阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.2tHYKoVc5YhSewDO]{灌铅步伐}</em>、<em>@UUID[Compendium.pf2e.spells-srd.aIHY2DArKFweIrpf]{指令}</em>、<em>@UUID[Compendium.pf2e.spells-srd.TjWHgXqPv5jywMti]{随身书阁}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>2阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.q5qmNn144ZJGxnvJ]{宽严得体}</em>、<em>@UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG]{解除魔法}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>3阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.B3eLlbaPxOYHcs1o]{光阴诅咒}</em>、<em>@UUID[Compendium.pf2e.spells-srd.rfFZKfeCSweFv7P3]{末日将至}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>4阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.D6BcAoWFxHYTKwVZ]{时代沼泽}</em>、<em>@UUID[Compendium.pf2e.spells-srd.HqTI6wRrck1YXp3F]{心灵感应}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>5阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.R9xqCBblkS5KE4y7]{短讯术}</em>、<em>@UUID[Compendium.pf2e.spells-srd.ba12fO37w7O37gim]{召唤律则*}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>6阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.OsOhx3TGIZ7AhD0P]{支配术}</em>、<em>@UUID[Compendium.pf2e.spells-srd.uqlxMQQeSGWEVjki]{真景术}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>7阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.HES5jvGiNZZnJycK]{力场监牢}</em>、<em>@UUID[Compendium.pf2e.spells-srd.AlbpWWN87yGegoAF]{洞烛机先}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>8阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Oj1PJBMQD9vuwCv7]{迷障术}</em>、<em>@UUID[Compendium.pf2e.spells-srd.y2cQYLr5mljDSu1G]{无休监控}</em></span></li><li><span style=\"font-family:Roboto, sans-serif\"><strong>9阶：</strong> <em>@UUID[Compendium.pf2e.spells-srd.ZqmP9gijBmK7y8Xy]{判决武器*}</em></span></li></ul><p><strong>学派法术</strong> 初始：<em>@UUID[Compendium.pf2e-team-plus-wizards.wizards-player-options.wqFMsuigkgN7yQN0]{召集陪审}</em>；高级：<em>@UUID[Compendium.pf2e-team-plus-wizards.wizards-player-options.gwG0MQ46uSaLTqCc]{审判之手}</em></p><p>*<em>你将此法术作为奥术法术习得与施放</em></p>"
         },
         "Slot Rehearsed Reload": {
             "name": "槽位预演重装 Slot Rehearsed Reload",
@@ -358,7 +358,7 @@
         },
         "Basic Offense": {
             "name": "基础攻势 Basic Offense",
-            "description": "<p>你有一道比其他戏法更为强大的特定戏法。每日准备时，选择一道奥术传统的戏法——其造成伤害、无持续时间、且需2动作施放。你可选择以单一动作施放该法术，将该法术造成伤害减半，并赋予其炫技特征。或者，你可将施放法术所需动作数提升至3动作，使每阶伤害提升2。法术其他效果同原法术。你不能对以此方式修改的法术使用塑形施法。</p>",
+            "description": "<p>你有一道比其他戏法更为强大的特定戏法。每日准备时，选择一道奥术传统的戏法——其造成伤害、无持续时间、且需2动作施放。你可选择以单一动作施放该法术，将该法术造成伤害减半，并赋予其炫技特征。或者，你可将施放法术所需动作数提升至3动作，使每阶伤害提升2。法术其他效果同原法术。你不能对以此方式修改的法术使用塑法。</p>",
             "prerequisites": [
                 {
                     "value": "本初完美主义论文"
@@ -424,7 +424,7 @@
         },
         "Dangerous Fluxes": {
             "name": "危险通量 Dangerous Fluxes",
-            "description": "<p>你可使你的类位面通量在物理上具形，使位面能量渗漏而出。当你施放<em>@UUID[Compendium.pf2e-team-plus-wizards.wizards-player-options.7exSZrsaySDHtobU]{类位面通量}</em>时，你可将施法时间提升至单一动作，从你的通量创造@Template[type:emanation|distance:5]。在通量区域内开始回合的生物承受等于法术环两倍的伤害（基础@Check[fortitude|against:spell|basic]豁免）。伤害类型由你所选位面决定，且爆发持续至法术激活期满。</p><ul style=\"columns:2\"><li><p><strong>星界</strong> @Damage[(2*(ceil(@actor.level/2)))[mental]]</p></li><li><p><strong>骸骨之地</strong> @Damage[(2*(ceil(@actor.level/2)))[spirit]]</p></li><li><p><strong>造物熔炉</strong> @Damage[(2*(ceil(@actor.level/2)))[vitality]]</p></li><li><p><strong>初界</strong> @Damage[(2*(ceil(@actor.level/2)))[mental]]</p></li><li><p><strong>气元素位面</strong> @Damage[(2*(ceil(@actor.level/2)))[electricity]]</p></li><li><p><strong>土元素位面</strong> @Damage[(2*(ceil(@actor.level/2)))[bludgeoning]]</p></li><li><p><strong>火元素位面</strong> @Damage[(2*(ceil(@actor.level/2)))[fire]]</p></li><li><p><strong>金属位面</strong> @Damage[(2*(ceil(@actor.level/2)))[slashing]]</p></li><li><p><strong>水元素位面</strong> @Damage[(2*(ceil(@actor.level/2)))[cold]]</p></li><li><p><strong>木属位面</strong> @Damage[(2*(ceil(@actor.level/2)))[piercing]]</p></li><li><p><strong>天界诸界</strong> @Damage[(2*(ceil(@actor.level/2)))[spirit]|traits:holy] 具神圣特征</p></li><li><p><strong>魔界诸界</strong> @Damage[(2*(ceil(@actor.level/2)))[spirit]|traits:unholy] 具亵渎特征</p></li><li><p><strong>幽冥界</strong> @Damage[(2*(ceil(@actor.level/2)))[void]]</p></li><li><p><strong>虚空</strong> @Damage[(2*(ceil(@actor.level/2)))[void]]</p></li></ul>",
+            "description": "<p>你可使你的类位面通量在物理上具形，使位面能量渗漏而出。当你施放<em>@UUID[Compendium.pf2e-team-plus-wizards.wizards-player-options.7exSZrsaySDHtobU]{类位面通量}</em>时，你可将施法时间提升至单一动作，从你的通量创造@Template[type:emanation|distance:5]。在通量区域内开始回合的生物承受等于法术环两倍的伤害（基础@Check[fortitude|against:spell|basic]豁免）。伤害类型由你所选位面决定，且爆发持续至法术激活期满。</p><ul style=\"columns:2\"><li><p><strong>星界</strong> @Damage[(2*(ceil(@actor.level/2)))[mental]]</p></li><li><p><strong>骨园</strong> @Damage[(2*(ceil(@actor.level/2)))[spirit]]</p></li><li><p><strong>造物熔炉</strong> @Damage[(2*(ceil(@actor.level/2)))[vitality]]</p></li><li><p><strong>初界</strong> @Damage[(2*(ceil(@actor.level/2)))[mental]]</p></li><li><p><strong>气元素位面</strong> @Damage[(2*(ceil(@actor.level/2)))[electricity]]</p></li><li><p><strong>土元素位面</strong> @Damage[(2*(ceil(@actor.level/2)))[bludgeoning]]</p></li><li><p><strong>火元素位面</strong> @Damage[(2*(ceil(@actor.level/2)))[fire]]</p></li><li><p><strong>金属位面</strong> @Damage[(2*(ceil(@actor.level/2)))[slashing]]</p></li><li><p><strong>水元素位面</strong> @Damage[(2*(ceil(@actor.level/2)))[cold]]</p></li><li><p><strong>木属位面</strong> @Damage[(2*(ceil(@actor.level/2)))[piercing]]</p></li><li><p><strong>天界诸界</strong> @Damage[(2*(ceil(@actor.level/2)))[spirit]|traits:holy] 具神圣特征</p></li><li><p><strong>魔界诸界</strong> @Damage[(2*(ceil(@actor.level/2)))[spirit]|traits:unholy] 具亵渎特征</p></li><li><p><strong>幽冥界</strong> @Damage[(2*(ceil(@actor.level/2)))[void]]</p></li><li><p><strong>虚空</strong> @Damage[(2*(ceil(@actor.level/2)))[void]]</p></li></ul>",
             "prerequisites": [
                 {
                     "value": "类位面熔炼者献身"
@@ -513,7 +513,7 @@
         },
         "Scholar's Lore": {
             "name": "学者学识 Scholar's Lore",
-            "description": "<p>你精通你学派的学术。你两次获得@UUID[Compendium.pf2e.feats-srd.BocFD2KV0qgUC76x]{额外学识}技能专长，但须选择两项与你奥术学派相符的学识——例如，战斗魔法学派的法师可选择攻城学识与战争学识，而群星占星学派的法师可选择永恒学识与占星学识。此外，遭遇中你首次以学者学识技能成功使用回忆知识鉴定一只生物时，该生物在该遭遇中你下次施放的法术之豁免与AC上承受–1状态减值。</p><hr /><p><strong>特别</strong> 若你为统一魔法理论学派之法师，可为额外学识选择任意学识技能。</p>",
+            "description": "<p>你精通你学派的学术。你两次获得@UUID[Compendium.pf2e.feats-srd.BocFD2KV0qgUC76x]{额外学识}技能专长，但须选择两项与你奥术学派相符的学识——例如，战斗魔法学派的法师可选择攻城学识与战争学识，而群星占星学派的法师可选择永恒学识与占星学识。此外，遭遇中你首次以学者学识技能成功使用回忆知识鉴定一只生物时，该生物在该遭遇中你下次施放的法术之豁免与AC上承受–1状态减值。</p><hr /><p><strong>特别</strong> 若你为统一法论学派之法师，可为额外学识选择任意学识技能。</p>",
             "prerequisites": [
                 {
                     "value": "奥术学派"
@@ -551,11 +551,11 @@
             "description": "<p><strong>需求</strong> 你正持有你的法术书。</p><hr /><p>法术书是蕴藏无价笔记的强力工具。当你将心神投入翻阅其页面、寻索可信赖的法术时，你便能不经准备而再现它。在每日准备时，选取等于你智力调整值一半数量的法术作为你的「翻阅法术」。如果你至少为10级，则可改为选取等于你智力调整值数量的法术。</p><p>当你进入此姿态时，选定一名生物、灵祟或物体作为目标，并指定你「翻阅法术」之一。该法术成为你的翻阅法术。你可以消耗一个任意阶级的已准备法术位，以施放你的翻阅法术，使其阶级提升至所消耗法术位的阶级；但当你以此方式施放法术时，须将目标包含在该法术效果中。当你以此方式施放法术后，由于你需频繁回顾笔记，你处于@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}状态，直至你下回合开始。</p>"
         },
         "Shaped Spell": {
-            "name": "塑形法术 Shaped Spell",
-            "description": "<p>你可预先塑形法术。每日准备时，从你已准备的法术中选择数量不超过你智力调整值且需2动作或更少施放的法术作为塑形法术。这些法术获得你所知的1动作塑形施法之效果，使你能以法术之常规动作耗费施放它们。你可为不同塑形法术选择不同塑形施法，且法术获得塑形施法之特征及其自身特征。施放该法术时你仍须支付塑形施法之耗费、频率或要求。你不能对塑形法术使用塑形施法。</p>",
+            "name": "塑法 Shaped Spell",
+            "description": "<p>你可预先塑法。每日准备时，从你已准备的法术中选择数量不超过你智力调整值且需2动作或更少施放的法术作为塑法。这些法术获得你所知的1动作塑法之效果，使你能以法术之常规动作耗费施放它们。你可为不同塑法选择不同塑法，且法术获得塑法之特征及其自身特征。施放该法术时你仍须支付塑法之耗费、频率或要求。你不能对塑法使用塑法。</p>",
             "prerequisites": [
                 {
-                    "value": "实验塑形论文"
+                    "value": "实验性塑法论文"
                 }
             ]
         },
@@ -661,7 +661,7 @@
         },
         "Dueling Cantrips": {
             "name": "决斗戏法 Dueling Cantrips",
-            "description": "<p>你可以你最简单的魔法（无需准备）挥使魔杖。当你以戏法进行法术攻击检定时，你可应用「决斗法杖」之效果，且无需满足其要求。</p>",
+            "description": "<p>你可以你最简单的魔法（无需准备）挥使魔杖。当你以戏法进行法术攻击检定时，你可应用「决斗魔杖」之效果，且无需满足其要求。</p>",
             "prerequisites": [
                 {
                     "value": "魔杖娴熟论文"
@@ -679,7 +679,7 @@
         },
         "Wand Adroitness": {
             "name": "魔杖娴熟 Wand Adroitness",
-            "description": "<p>你的论文阐述：魔杖远不止是单一法术之便携容器。这些工具使施法者能像剑客般以娴熟与精准来面对决斗，谨慎且精确地向反对你者的核心施法。你以一根由你设计、具奥术特征的临时魔杖开始游戏。如其遗失或被毁，可经1天休闲时间制作一根新的临时魔杖。</p><p>每日准备时，你可选择一个法师法术位放入临时魔杖，使你的魔杖获得所选法术并失去该法术位。你的临时魔杖可被过载，但不会获得破损状态，亦不能被毁。你获得@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.4QuDNcfU3ZnLGyPe]{决斗法杖}塑形施法。</p>"
+            "description": "<p>你的论文阐述：魔杖远不止是单一法术之便携容器。这些工具使施法者能像剑客般以娴熟与精准来面对决斗，谨慎且精确地向反对你者的核心施法。你以一根由你设计、具奥术特征的临时魔杖开始游戏。如其遗失或被毁，可经1天休闲时间制作一根新的临时魔杖。</p><p>每日准备时，你可选择一个法师法术位放入临时魔杖，使你的魔杖获得所选法术并失去该法术位。你的临时魔杖可被过载，但不会获得破损状态，亦不能被毁。你获得@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.4QuDNcfU3ZnLGyPe]{决斗魔杖}塑法。</p>"
         },
         "Perilous Road Ahead": {
             "name": "前路险阻 Perilous Road Ahead",
@@ -695,10 +695,10 @@
         },
         "Shared Cantrip": {
             "name": "共享戏法 Shared Cantrip",
-            "description": "<p>你善于操纵戏法。你使用一项1动作塑形施法，然后施放一道2动作或更少（或3动作或更少）的戏法，以与该戏法相同的动作数完成此活动。</p><hr /><p><strong>特别</strong> 若你的法术DC至少为大师，频率为每10分钟一次（而非每小时）。</p>",
+            "description": "<p>你善于操纵戏法。你使用一项1动作塑法，然后施放一道2动作或更少（或3动作或更少）的戏法，以与该戏法相同的动作数完成此活动。</p><hr /><p><strong>特别</strong> 若你的法术DC至少为大师，频率为每10分钟一次（而非每小时）。</p>",
             "prerequisites": [
                 {
-                    "value": "实验塑形论文"
+                    "value": "实验性塑法论文"
                 }
             ]
         },
@@ -782,7 +782,7 @@
         },
         "Simulacric Spellcraft": {
             "name": "拟形施法 Simulacric Spellcraft",
-            "description": "<p>通过探索镜像之魔法、人造矮人之艺术，甚至更深的奥秘，你已揭开复制生命之非常规方法。你以魔法创造一个外貌几乎与你一模一样、细节微毫毕现的复制体，并通过魔法与你相系。</p><p>你的复制体类似魂偶，但具备你的熟练度、属性调整值、徒手攻击、职业专长与职业特性。它具施放法术活动，可像你一样施放法术，但其施法时与你共享法术位与专注池。你与之共享动作与生命值（如魂偶常规般），但即使物品不具魂偶特征，只要你也能激活该物品，它就可以激活带有激活的物品。你与复制体只能其一准备魔典或法杖，但你可在选择时在二者之间作选择。你的复制体共享你的豁免、护甲等级与徒手攻击调整值，但环境与状态加值与减值各自适用。如你被打降至0生命值，你的复制体被还原为基本物质，你须花费10分钟以重塑。你获得@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.2LSsvzMnX6ahXRFO]{拟形施法}活动。</p>"
+            "description": "<p>通过探索镜像之魔法、人造矮人之艺术，甚至更深的奥秘，你已揭开复制生命之非常规方法。你以魔法创造一个外貌几乎与你一模一样、细节微毫毕现的复制体，并通过魔法与你相系。</p><p>你的复制体类似幻灵，但具备你的熟练度、属性调整值、徒手攻击、职业专长与职业特性。它具施放法术活动，可像你一样施放法术，但其施法时与你共享法术位与专注池。你与之共享动作与生命值（如幻灵常规般），但即使物品不具幻灵特征，只要你也能激活该物品，它就可以激活带有激活的物品。你与复制体只能其一准备魔典或法杖，但你可在选择时在二者之间作选择。你的复制体共享你的豁免、护甲等级与徒手攻击调整值，但环境与状态加值与减值各自适用。如你被打降至0生命值，你的复制体被还原为基本物质，你须花费10分钟以重塑。你获得@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.2LSsvzMnX6ahXRFO]{拟形施法}活动。</p>"
         },
         "Superior Vitalization": {
             "name": "精妙活化 Superior Vitalization",
@@ -845,10 +845,10 @@
         },
         "Sacred Geometry": {
             "name": "神圣几何 Sacred Geometry",
-            "description": "<p>你通过最好被遗忘的数学公式接入魔法之线。你使用一项你所知的1动作塑形施法，并掷[[/r 1d20]]。如结果为1、4、6、8、9、10、12、14、15、16、18或20，则须以@Check[will|against:spell]豁免对抗你的法术DC。</p><hr /><p><strong>大成功</strong> 你不受影响。</p><p><strong>成功</strong> 你1分钟内不能再使用「神圣几何」。</p><p><strong>失败</strong> 同成功，但持续时间为1小时。</p><p><strong>大失败</strong> 同失败，但你还@UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞1级}1轮。</p>",
+            "description": "<p>你通过最好被遗忘的数学公式接入魔法之线。你使用一项你所知的1动作塑法，并掷[[/r 1d20]]。如结果为1、4、6、8、9、10、12、14、15、16、18或20，则须以@Check[will|against:spell]豁免对抗你的法术DC。</p><hr /><p><strong>大成功</strong> 你不受影响。</p><p><strong>成功</strong> 你1分钟内不能再使用「神圣几何」。</p><p><strong>失败</strong> 同成功，但持续时间为1小时。</p><p><strong>大失败</strong> 同失败，但你还@UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞1级}1轮。</p>",
             "prerequisites": [
                 {
-                    "value": "至少一项1动作塑形施法"
+                    "value": "至少一项1动作塑法"
                 }
             ]
         },
@@ -858,7 +858,7 @@
         },
         "Flick and Point": {
             "name": "弹指指敌 Flick and Point",
-            "description": "<p><strong>触发</strong> 你掷先攻。</p><hr /><p>你已学会执行有助于命中法术攻击检定的战术。你立即交互以拔出你的临时魔杖，并可在上一轮未进行成功法术攻击检定情况下使用「决斗法杖」，但你须以先攻顺序中后于你的生物为目标，方能获得对法术攻击检定的状态加值。</p>",
+            "description": "<p><strong>触发</strong> 你掷先攻。</p><hr /><p>你已学会执行有助于命中法术攻击检定的战术。你立即交互以拔出你的临时魔杖，并可在上一轮未进行成功法术攻击检定情况下使用「决斗魔杖」，但你须以先攻顺序中后于你的生物为目标，方能获得对法术攻击检定的状态加值。</p>",
             "prerequisites": [
                 {
                     "value": "魔杖娴熟论文"
@@ -893,11 +893,11 @@
             ]
         },
         "Multishaped Spell": {
-            "name": "多重塑形法术 Multishaped Spell",
-            "description": "<p>你已创造一种新型法术之形态。从你具有之1动作或更短的塑形施法法师专长中选择两项。你将其合并为一项新塑形施法，施放法术时同时获得两者效果。如该塑形施法具耗费、频率、触发或任何要求，你须满足两者之要求方能使用合并塑形施法。</p>",
+            "name": "多重塑法 Multishaped Spell",
+            "description": "<p>你已创造一种新型法术之形态。从你具有之1动作或更短的塑法法师专长中选择两项。你将其合并为一项新塑法，施放法术时同时获得两者效果。如该塑法具耗费、频率、触发或任何要求，你须满足两者之要求方能使用合并塑法。</p>",
             "prerequisites": [
                 {
-                    "value": "实验塑形论文"
+                    "value": "实验性塑法论文"
                 }
             ]
         },

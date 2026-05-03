@@ -13,9 +13,9 @@
     "folders": {},
     "entries": {
         "Monitor Aspect": {
-            "name": "监视者相 Monitor Aspect",
-            "tokenName": "监视者相 Monitor Aspect",
-            "prototypeToken": "监视者相 Monitor Aspect",
+            "name": "监督层面 Monitor Aspect",
+            "tokenName": "监督层面 Monitor Aspect",
+            "prototypeToken": "监督层面 Monitor Aspect",
             "items": {
                 "Legal Lore": {
                     "name": "律法学识 Legal Lore"
@@ -23,19 +23,19 @@
             }
         },
         "Animal Aspect": {
-            "name": "动物相 Animal Aspect",
-            "tokenName": "动物相 Animal Aspect",
-            "prototypeToken": "动物相 Animal Aspect"
+            "name": "动物层面 Animal Aspect",
+            "tokenName": "动物层面 Animal Aspect",
+            "prototypeToken": "动物层面 Animal Aspect"
         },
         "Undead Aspect": {
-            "name": "不死相 Undead Aspect",
-            "tokenName": "不死相 Undead Aspect",
-            "prototypeToken": "不死相 Undead Aspect"
+            "name": "不死层面 Undead Aspect",
+            "tokenName": "不死层面 Undead Aspect",
+            "prototypeToken": "不死层面 Undead Aspect"
         },
         "Dragon Aspect": {
-            "name": "龙相 Dragon Aspect",
-            "tokenName": "龙相 Dragon Aspect",
-            "prototypeToken": "龙相 Dragon Aspect",
+            "name": "龙族层面 Dragon Aspect",
+            "tokenName": "龙族层面 Dragon Aspect",
+            "prototypeToken": "龙族层面 Dragon Aspect",
             "items": {
                 "Disaster Lore": {
                     "name": "灾祸学识 Disaster Lore"
@@ -52,19 +52,19 @@
             }
         },
         "Plant Aspect": {
-            "name": "植物相 Plant Aspect",
-            "tokenName": "植物相 Plant Aspect",
-            "prototypeToken": "植物相 Plant Aspect"
+            "name": "植物层面 Plant Aspect",
+            "tokenName": "植物层面 Plant Aspect",
+            "prototypeToken": "植物层面 Plant Aspect"
         },
         "Celestial Aspect": {
-            "name": "天界相 Celestial Aspect",
-            "tokenName": "天界相 Celestial Aspect",
-            "prototypeToken": "天界相 Celestial Aspect"
+            "name": "天界层面 Celestial Aspect",
+            "tokenName": "天界层面 Celestial Aspect",
+            "prototypeToken": "天界层面 Celestial Aspect"
         },
         "Elemental Aspect": {
-            "name": "元素相 Elemental Aspect",
-            "tokenName": "元素相 Elemental Aspect",
-            "prototypeToken": "元素相 Elemental Aspect",
+            "name": "元素层面 Elemental Aspect",
+            "tokenName": "元素层面 Elemental Aspect",
+            "prototypeToken": "元素层面 Elemental Aspect",
             "items": {
                 "Fire Lore": {
                     "name": "火焰学识 Fire Lore"
@@ -87,9 +87,9 @@
             }
         },
         "Fiend Aspect": {
-            "name": "邪魔相 Fiend Aspect",
-            "tokenName": "邪魔相 Fiend Aspect",
-            "prototypeToken": "邪魔相 Fiend Aspect",
+            "name": "魔类层面 Fiend Aspect",
+            "tokenName": "魔类层面 Fiend Aspect",
+            "prototypeToken": "魔类层面 Fiend Aspect",
             "items": {
                 "Legal Lore": {
                     "name": "律法学识 Legal Lore"
@@ -97,14 +97,14 @@
             }
         },
         "Construct Aspect": {
-            "name": "构装相 Construct Aspect",
-            "tokenName": "构装相 Construct Aspect",
-            "prototypeToken": "构装相 Construct Aspect"
+            "name": "构装层面 Construct Aspect",
+            "tokenName": "构装层面 Construct Aspect",
+            "prototypeToken": "构装层面 Construct Aspect"
         },
         "Thurse Aspect": {
-            "name": "巨魔相 Thurse Aspect",
-            "tokenName": "巨魔相 Thurse Aspect",
-            "prototypeToken": "巨魔相 Thurse Aspect",
+            "name": "霜巨层面 Thurse Aspect",
+            "tokenName": "霜巨层面 Thurse Aspect",
+            "prototypeToken": "霜巨层面 Thurse Aspect",
             "items": {
                 "Fire Lore": {
                     "name": "火焰学识 Fire Lore"
@@ -130,19 +130,19 @@
             }
         },
         "Fey Aspect": {
-            "name": "精类相 Fey Aspect",
-            "tokenName": "精类相 Fey Aspect",
-            "prototypeToken": "精类相 Fey Aspect"
+            "name": "精类层面 Fey Aspect",
+            "tokenName": "精类层面 Fey Aspect",
+            "prototypeToken": "精类层面 Fey Aspect"
         },
         "Entity Aspect": {
-            "name": "实体相 Entity Aspect",
-            "tokenName": "实体相 Entity Aspect",
-            "prototypeToken": "实体相 Entity Aspect"
+            "name": "实体层面 Entity Aspect",
+            "tokenName": "实体层面 Entity Aspect",
+            "prototypeToken": "实体层面 Entity Aspect"
         },
         "Ooze Aspect": {
-            "name": "泥怪相 Ooze Aspect",
-            "tokenName": "泥怪相 Ooze Aspect",
-            "prototypeToken": "泥怪相 Ooze Aspect",
+            "name": "黏液层面 Ooze Aspect",
+            "tokenName": "黏液层面 Ooze Aspect",
+            "prototypeToken": "黏液层面 Ooze Aspect",
             "items": {
                 "Legal Lore": {
                     "name": "律法学识 Legal Lore"

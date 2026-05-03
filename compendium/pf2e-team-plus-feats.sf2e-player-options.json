@@ -69,7 +69,7 @@
         },
         "Magical Feedback": {
             "name": "魔法反馈 Magical Feedback",
-            "description": "<p><strong>触发</strong> 你于一场战斗中第二次以「驱散魔法」或「反制法术」成功对抗一道法术。</p><hr /><p>你将所驱散法术中的部分魔法能量再利用以增强自身。你恢复你最近用于驱散魔法或反制法术的法术位。若你以此法术位施放法术，则该法术获得「大胆」特征。在你停止庆祝胜利后，此法术位失去。你获得 @UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.BZizB3VFYoo6bGcs]{激涌唤起} 大胆活动。</p>",
+            "description": "<p><strong>触发</strong> 你于一场战斗中第二次以「解除魔法」或「反制法术」成功对抗一道法术。</p><hr /><p>你将所驱散法术中的部分魔法能量再利用以增强自身。你恢复你最近用于解除魔法或反制法术的法术位。若你以此法术位施放法术，则该法术获得「无畏」特征。在你停止庆祝凯旋后，你便失去此法术位。你获得 @UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.BZizB3VFYoo6bGcs]{激涌唤起} 无畏活动。</p>",
             "prerequisites": [
                 {
                     "value": "反制法术，或能施放解除魔法"
@@ -78,7 +78,7 @@
         },
         "Solitary Workforce": {
             "name": "独行劳力 Solitary Workforce",
-            "description": "<p>你之劳作效率超过十二同辈。对任何需要多名生物体力劳作之活动，你视为两名生物——只掷一次检定并以其结果决定每名你所替代之参与者的效果。若你为劳作学识专家，你视为四名生物；若为大师，则六名；若为传奇，则八名。若你以「劳作学识」 @UUID[Compendium.sf2e.actionssf2e.Item.QyzlsLrqM0EEwd7j]{赚取收入}，就所获货币而言，你将任务等级视为高一级；若为大师则高 2 级；若为传奇则高 4 级。</p><p>此外，当你以劳作学识赚取收入成功时，若这是你与之首次互动，则对你于该活动期间一同共事或为之效力的任何生物，你获得一次成功 @UUID[Compendium.sf2e.actionssf2e.Item.OX4fy22hQgUHDr0q]{建立印象} 之效果（成功程度与你的检定相同）。</p>",
+            "description": "<p>你之劳作效率超过十二同辈。对任何需要多名生物体力劳作之活动，你视为两名生物——只掷一次检定并以其结果决定每名你所替代之参与者的效果。若你为劳工学识专家，你视为四名生物；若为大师，则六名；若为传奇，则八名。若你以「劳工学识」 @UUID[Compendium.sf2e.actionssf2e.Item.QyzlsLrqM0EEwd7j]{赚取收入}，就所获货币而言，你将任务等级视为高一级；若为大师则高 2 级；若为传奇则高 4 级。</p><p>此外，当你以劳工学识赚取收入成功时，若这是你与之首次互动，则对你于该活动期间一同共事或为之效力的任何生物，你获得一次成功 @UUID[Compendium.sf2e.actionssf2e.Item.OX4fy22hQgUHDr0q]{建立印象} 之效果（成功程度与你的检定相同）。</p>",
             "prerequisites": [
                 {
                     "value": "劳工学识熟练度为受训"
@@ -127,7 +127,7 @@
         },
         "Can't Stop, Won't Stop": {
             "name": "不停不息 Can't Stop, Won't Stop",
-            "description": "<p><strong>触发</strong> 你获得 @UUID[Compendium.sf2e.conditions.Item.Yl48xTdMh3aeQYL2]{受伤} 状态或提升你受伤值。</p><hr /><p>从死亡边缘归来不会让你恐惧，反令你忆起活着的感觉。你对自选的一项豁免获得等同你受伤值的状态加值。你获得 @UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.g92q06HvQQvyj445]{屹立不倒} 大胆反应。</p>",
+            "description": "<p><strong>触发</strong> 你获得 @UUID[Compendium.sf2e.conditions.Item.Yl48xTdMh3aeQYL2]{受伤} 状态或提升你受伤值。</p><hr /><p>从死亡边缘归来不会让你恐惧，反令你忆起活着的感觉。你对自选的一项豁免获得等同你受伤值的状态加值。你获得 @UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.g92q06HvQQvyj445]{屹立不倒} 无畏反应。</p>",
             "prerequisites": [
                 {
                     "value": "拼死硬抗"
@@ -228,7 +228,7 @@
         },
         "Savage Success": {
             "name": "野蛮成功 Savage Success",
-            "description": "<p><strong>触发</strong> 你以非拳头的近战徒手攻击将一名敌人减至 0 生命值。</p><hr /><p>嗜血充满你的心智，你进入原始凶猛之状态。你以非拳头之近战徒手打击对伤害获得等同武器伤害骰数的环境加值。你获得 @UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.0sLZW5D6ziJY7yD0]{野性猛冲} 大胆活动。</p>",
+            "description": "<p><strong>触发</strong> 你以非拳头的近战徒手攻击将一名敌人减至 0 生命值。</p><hr /><p>嗜血充满你的心智，你进入原始凶猛之状态。你以非拳头之近战徒手打击对伤害获得等同武器伤害骰数的环境加值。你获得 @UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.0sLZW5D6ziJY7yD0]{野性猛冲} 无畏活动。</p>",
             "prerequisites": [
                 {
                     "value": "除拳以外你拥有一项永久近战徒手攻击"
@@ -559,7 +559,7 @@
         },
         "Divine Arsenal": {
             "name": "神圣军械 Divine Arsenal",
-            "description": "<p>你精通你神祇所偏爱的武器。你获得使用神祇偏爱武器之权限；就熟练度而言，若该武器原为军用武器则视为简易武器，若原为进阶武器则视为军用武器。</p><p>此外，你受神祇之诫命与禁忌约束；若你违反神祇之诫命或犯下禁忌，你便会受神祇诅咒，并失去此专长之效益，直至你完成赎罪仪式。</p>",
+            "description": "<p>你精通你神祇所偏爱的武器。你获得使用神祇偏爱武器之权限；就熟练度而言，若该武器原为军用武器则视为简易武器，若原为进阶武器则视为军用武器。</p><p>此外，你受神祇之典范与禁忌约束；若你违反神祇之典范或犯下禁忌，你便会受神祇诅咒，并失去此专长之效益，直至你完成赎罪仪式。</p>",
             "prerequisites": [
                 {
                     "value": "你信奉一位偏好军用或进阶武器的神祇"
@@ -890,7 +890,7 @@
         },
         "Reshaped Spell": {
             "name": "重塑法术 Reshaped Spell",
-            "description": "<p>你将塑形施法之名照实奉行——重新塑形所施法术之形态以覆盖不同区域。若你下一动作是施放区域为锥形或线形的法术，你可将该法术之区域改为线形或锥形（互换）。就法术覆盖区域而言，线形长度始终是锥形的两倍，锥形长度始终是线形的一半。</p>"
+            "description": "<p>你将塑法之名照实奉行——重新塑形所施法术之形态以覆盖不同区域。若你下一动作是施放区域为锥形或线形的法术，你可将该法术之区域改为线形或锥形（互换）。就法术覆盖区域而言，线形长度始终是锥形的两倍，锥形长度始终是线形的一半。</p>"
         },
         "Untangle Ally": {
             "name": "解缚盟友 Untangle Ally",
@@ -1154,7 +1154,7 @@
             "description": "<p>你是经验老道的骗子与作弊者，连仿冒牌组或其他作弊工具都无须使用。当玩游戏或赌博时，纵使你未使用 @UUID[Compendium.sf2e.equipment.Item.6NEOf1UznG4Po0Qi]{灌铅骰} 或 @UUID[Compendium.sf2e.equipment.Item.Q4KkKGGXq4bNGHh2]{带标记的扑克牌}，你仍可选择作弊——巧妙操纵游戏工具于己有利。如此做时，你于所玩游戏期间的游戏学识或赌博学识检定获得 +1 环境加值。</p><p>为辨明你是否在作弊，观察者除任何其他探测作弊之检定外，还须以你的游戏学识或赌博学识 DC 进行察觉检定成功。若你为游戏学识或赌博学识大师，环境加值提升至 +2。</p>",
             "prerequisites": [
                 {
-                    "value": "Games Lore or Gambling学识熟练度为受训"
+                    "value": "游戏学识或赌博学识熟练度为受训"
                 }
             ]
         },
@@ -1202,7 +1202,7 @@
         },
         "Honed-Shot Precision": {
             "name": "磨砺射击精准 Honed-Shot Precision",
-            "description": "<p><strong>触发</strong> 你对一名敌人远程打击大成功，且该敌人在此次打击后仍高于 0 生命值。</p><hr /><p>你击中要害，让你有机会完成最后一击。你的远程打击对该敌人每枚武器伤害骰额外造成 1 点精准伤害。你获得 @UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.Ig9HaamKNFhmhIYk]{精准突击} 大胆反应。</p>",
+            "description": "<p><strong>触发</strong> 你对一名敌人远程打击大成功，且该敌人在此次打击后仍高于 0 生命值。</p><hr /><p>你击中要害，让你有机会完成最后一击。你的远程打击对该敌人每枚武器伤害骰额外造成 1 点精准伤害。你获得 @UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.Ig9HaamKNFhmhIYk]{精准突击} 无畏反应。</p>",
             "prerequisites": [
                 {
                     "value": "至少在一项军用远程武器上受训"
@@ -1369,7 +1369,7 @@
         },
         "Devastating Finish": {
             "name": "毁灭终局 Devastating Finish",
-            "description": "<p><strong>触发</strong> 你将一名等级不低于你等级减 4、且原本满血的生物减至 0 生命值。</p><hr /><p>当你将某人送入坟墓时，你变得可怖而毁灭。你的 @UUID[Compendium.sf2e.actionssf2e.Item.2u915NdUyQan6uKF]{挫败士气} 获得 +2 环境加值；目睹你将触发该效果生物减至 0 生命值的、等级不高于你的敌人，在能看见你期间，他们由你挫败士气施加的 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{惊惧} 状态不能降至 1 级以下。你获得 @UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.UoIjmafqNeVuiKRc]{下一个？} 大胆动作。</p>",
+            "description": "<p><strong>触发</strong> 你将一名等级不低于你等级减 4、且原本满血的生物减至 0 生命值。</p><hr /><p>当你将某人送入坟墓时，你变得可怖而具毁灭性。你的 @UUID[Compendium.sf2e.actionssf2e.Item.2u915NdUyQan6uKF]{挫败士气} 获得 +2 环境加值；目睹你将触发该效果生物减至 0 生命值的、等级不高于你的敌人，在能看见你期间，他们由你挫败士气施加的 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{惊惧} 状态不能降至 1 级以下。你获得 @UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.UoIjmafqNeVuiKRc]{下一个？} 无畏动作。</p>",
             "prerequisites": [
                 {
                     "value": "下一个就是你"
@@ -1441,7 +1441,7 @@
         },
         "Wrathful Protector": {
             "name": "盛怒护卫 Wrathful Protector",
-            "description": "<p><strong>触发</strong> 你成功打击一名在上一回合内对盟友大成功命中之敌人。</p><hr /><p>当你目睹盟友受重创时，你以振奋之斥责回敬。你获得等同你等级一半的临时生命值，并对触发该效果的敌人之伤害获得 +4 状态加值。若你击倒触发之敌人，你可选择其盟友之一作为「盛怒护卫」之新目标，但该敌人必须于当前战斗中对你或盟友之一采取过敌对动作。若触发的敌人无盟友，你便停止庆祝胜利。若你至少为 16 级，状态加值提升至 +6。你获得 @UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.jnNObtugln5yFMjo]{狂怒回应} 大胆活动。</p><p>@UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.1Byt0JWIVk6ijxE2]{效果：愤怒护卫}</p>",
+            "description": "<p><strong>触发</strong> 你成功打击一名在上一回合内对盟友大成功命中之敌人。</p><hr /><p>当你目睹盟友受重创时，你以振奋之斥责回敬。你获得等同你等级一半的临时生命值，并对触发该效果的敌人之伤害获得 +4 状态加值。若你击倒触发之敌人，你可选择其盟友之一作为「盛怒护卫」之新目标，但该敌人必须于当前战斗中对你或盟友之一采取过敌对动作。若触发的敌人无盟友，你便停止庆祝凯旋。若你至少为 16 级，状态加值提升至 +6。你获得 @UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.jnNObtugln5yFMjo]{狂怒回应} 无畏活动。</p><p>@UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.1Byt0JWIVk6ijxE2]{效果：愤怒护卫}</p>",
             "prerequisites": [
                 {
                     "value": "军用武器熟练度为专家"
@@ -1513,7 +1513,7 @@
         },
         "Divine Intervention": {
             "name": "神圣干预 Divine Intervention",
-            "description": "<p>你对神祇的研习与奉献已让其投身于你于凡世之胜利，他们将主动参与你之成功。你获得与你神祇关联之中阶恩典，但你必须遵守其诫命与禁忌。若你违反神祇诫命或犯下禁忌，你便获得对该神祇的中阶诅咒，直至赎罪为止。</p><p>每日一次，只要你与神祇关系良好，你便可花费一个具「专注」特征的单一动作，对你等级的极困难 DC 进行 @Check[religion|dc:@self.level|adjustment:5] 检定，以获得你神祇之高阶恩典。若你成功，该高阶恩典持续 1d4 轮（大成功为 1 分钟）。若你检定大失败，则受你神祇之中阶诅咒影响 1 小时。</p>",
+            "description": "<p>你对神祇的研习与奉献已让其投身于你于凡世之胜利，他们将主动参与你之成功。你获得与你神祇关联之中阶恩典，但你必须遵守其典范与禁忌。若你违反神祇典范或犯下禁忌，你便获得对该神祇的中阶诅咒，直至赎罪为止。</p><p>每日一次，只要你与神祇关系良好，你便可花费一个具「专注」特征的单一动作，对你等级的极困难 DC 进行 @Check[religion|dc:@self.level|adjustment:5] 检定，以获得你神祇之高阶恩典。若你成功，该高阶恩典持续 1d4 轮（大成功为 1 分钟）。若你检定大失败，则受你神祇之中阶诅咒影响 1 小时。</p>",
             "prerequisites": [
                 {
                     "value": "宗教技能熟练度为传奇"
@@ -1723,7 +1723,7 @@
             "description": "<p>经过长时间的推理与博弈游戏后，你练就一副铁面扑克脸，使他人无法看穿你的真实动机。当你撒谎时，可选择以游戏学识或赌博学识替代欺诈；当某生物试图对你 @UUID[Compendium.sf2e.actionssf2e.Item.1xRFPTFtWtGJ9ELw]{察言观色} 以判断你是否撒谎时，你可选择以你的游戏学识或赌博学识 DC 替代你的欺诈 DC。</p>",
             "prerequisites": [
                 {
-                    "value": "Games Lore or Gambling学识熟练度为大师"
+                    "value": "游戏学识或赌博学识熟练度为大师"
                 }
             ]
         },
@@ -1980,7 +1980,7 @@
             "description": "<p><strong>触发</strong> 你将受到虚空伤害。</p><hr /><p>你曾感受过食尸鬼的饥饿之咒并幸存。然而，你所感的饥饿——既是难以餍足的雄心，也是字面意义上的贪婪——仍残留于你之中，正如其在诅咒显现之前于你内里休眠那般。你于 1 分钟内获得虚空治疗；若触发的效果也会为不死生物恢复生命值（例如「伤害」），你便如该效果之常规效果般恢复生命值。</p><p>作为代价，只要你具备此虚空治疗，你便对血肉感到无可遏制的饥饿。在此状态下，当你看到一名活着的生物被减至 0 生命值时，你必须对你等级的标准 DC 进行意志豁免，否则你因吞噬其血肉之欲望被压垮而对其 @UUID[Compendium.sf2e.conditions.Item.AdPVz7rbaVSRxHFg]{迷魂}；若你豁免大失败，则改为 @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{震慑1级}。该迷魂状态不会正常结束，并持续至你不再能感知该被减至 0 生命值之生物、该生物恢复生命值，或你花费 3 个动作（这些动作无须连续）平复你吞噬血肉之欲望为止。</p>",
             "prerequisites": [
                 {
-                    "value": "你曾在禁忌欲望诅咒中存活"
+                    "value": "你曾在禁忌渴求诅咒中存活"
                 }
             ]
         },
@@ -2146,7 +2146,7 @@
         },
         "Work-Life Balance": {
             "name": "工作生活平衡 Work-Life Balance",
-            "description": "<p>你能将工作与你生活的其他部分清晰分隔。在闲暇期间，每当你以一周时间从事 @UUID[Compendium.sf2e.actionssf2e.Item.QyzlsLrqM0EEwd7j]{赚取收入} 之外的活动时，你也可以在该周间断工作 1 天来赚取收入。若你为劳作学识大师，则提升至每周 3 天；若你为传奇，则在不进行赚取收入活动的每一天，你都可以赚取 1 天收入。</p>",
+            "description": "<p>你能将工作与你生活的其他部分清晰分隔。在闲暇期间，每当你以一周时间从事 @UUID[Compendium.sf2e.actionssf2e.Item.QyzlsLrqM0EEwd7j]{赚取收入} 之外的活动时，你也可以在该周间断工作 1 天来赚取收入。若你为劳工学识大师，则提升至每周 3 天；若你为传奇，则在不进行赚取收入活动的每一天，你都可以赚取 1 天收入。</p>",
             "prerequisites": [
                 {
                     "value": "劳工学识熟练度为专家"
@@ -2173,7 +2173,7 @@
         },
         "Establish Etiquette": {
             "name": "建立礼仪 Establish Etiquette",
-            "description": "<p>纵使在战斗中，亦有规则要遵守、有规范要保持。当你使用「建立礼仪」时，选择 30 尺内另一名生物，对其意志 DC 进行 @Check[society|against:will] 检定。若成功，你激起该生物的骄傲、荣誉或其他特质，让其在 1 分钟内遵守一项既定礼仪；其于此后 1 小时内对你的「建立礼仪」免疫。</p><p>每回合该生物若不遵守既定礼仪，则其攻击掷骰承受 -1 环境减值；若你社群检定大成功，则承受 -2 环境减值。若其遵守既定礼仪，则在其下回合或破礼仪前其攻击掷骰获得 +1 环境加值（破礼仪时立即重新承受减值）。该生物可花费一个具「听觉」或「专注」特征的单一动作以拒绝你建立礼仪之请求来提前结束此效果。</p><p>当你与盟友对该生物采取动作时，必须选择遵循既定礼仪；若你不遵守既定礼仪而对该生物如此做，效果立即结束，且所有目睹你或盟友如此做的生物 1 日内对你的「建立礼仪」暂时免疫。</p><p>@UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.1LTTY9ZdDmC6WFGf]{效果：确立礼仪}</p><p><strong>10 步距离</strong> 你选择只用远程武器进行打击，且只在其首个射程增量内。</p><p><strong>不光彩打击</strong> 你选择忽略 AC 之环境减值。</p><p><strong>仅徒手</strong> 你选择只以非姿态之徒手攻击进行打击。</p><p><strong>无言</strong> 你选择不使用听觉或语言性动作。</p><p><strong>单手</strong> 你选择保持一只手空闲。</p><p><strong>让路权</strong> 你选择每回合只采取一个具「移动」特征之动作。</p><p><strong>单挑</strong> 你选择不攻击本回合已被另一生物攻击之生物。</p>",
+            "description": "<p>纵使在战斗中，亦有规则要遵守、有规范要保持。当你使用「建立礼仪」时，选择 30 尺内另一名生物，对其意志 DC 进行 @Check[society|against:will] 检定。若成功，你激起该生物的骄傲、荣誉或其他特质，让其在 1 分钟内遵守一项既定礼仪；其于此后 1 小时内对你的「建立礼仪」免疫。</p><p>每回合该生物若不遵守既定礼仪，则其攻击掷骰承受 -1 环境减值；若你社群检定大成功，则承受 -2 环境减值。若其遵守既定礼仪，则在其下回合或破礼仪前其攻击掷骰获得 +1 环境加值（破礼仪时立即重新承受减值）。该生物可花费一个具「听觉」或「专注」特征的单一动作以拒绝你建立礼仪之请求来提前结束此效果。</p><p>当你与盟友对该生物采取动作时，必须选择遵循既定礼仪；若你不遵守既定礼仪而对该生物如此做，效果立即结束，且所有目睹你或盟友如此做的生物 1 日内对你的「建立礼仪」暂时免疫。</p><p>@UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.1LTTY9ZdDmC6WFGf]{效果：确立礼仪}</p><p><strong>十步</strong> 你选择只用远程武器进行打击，且只在其首个射程增量内。</p><p><strong>不光彩攻击</strong> 你选择忽略 AC 之环境减值。</p><p><strong>仅手</strong> 你选择只以非姿态之徒手攻击进行打击。</p><p><strong>无言</strong> 你选择不使用听觉或语言性动作。</p><p><strong>单手</strong> 你选择保持一只手空闲。</p><p><strong>让路</strong> 你选择每回合只采取一个具「移动」特征之动作。</p><p><strong>独斗</strong> 你选择不攻击本回合已被另一生物攻击之生物。</p>",
             "prerequisites": [
                 {
                     "value": "社群技能熟练度为受训"
@@ -2226,23 +2226,23 @@
             ]
         },
         "Spellshaping Synergy": {
-            "name": "塑形施法协同 Spellshaping Synergy",
-            "description": "<p><strong>需求</strong> 你正在使用「共享塑形施法」。你只需在使用此团队配合时满足该需求，无须在维持时持续满足。</p><hr /><p>你已学会通过将自身魔法签名与他人编织来帮助他人塑形施法。你 @UUID[Compendium.sf2e.actionssf2e.Item.dLgAMt3TbkmLkUqE]{预备} 对你搭档施放的法术使用一个你已知的 1 动作塑形施法。你必须指定欲使用的塑形施法。若该盟友施放一道可受所选塑形施法影响之法术，你的搭档可选择如同已对其法术应用了塑形施法那般施放。即使你的搭档使用其自身之塑形施法动作，他们也只能以此方式对法术应用一项塑形施法。当你施放法术时，你的搭档亦可如此预备一个 1 动作塑形施法。</p><p>在后续回合，你可继续以同一触发条件使用反应（如同你已使用「预备」），或花费一个具「专注」特征的单一动作将塑形施法换为另一项你已知的塑形施法。若你搭档预备了一个 1 动作塑形施法，他们也可于后续回合如此做。</p>",
+            "name": "塑法协同 Spellshaping Synergy",
+            "description": "<p><strong>需求</strong> 你正在使用「共享塑法」。你只需在使用此团队配合时满足该需求，无须在维持时持续满足。</p><hr /><p>你已学会通过将自身魔法签名与他人编织来帮助他人塑法。你 @UUID[Compendium.sf2e.actionssf2e.Item.dLgAMt3TbkmLkUqE]{预备} 对你搭档施放的法术使用一个你已知的 1 动作塑法。你必须指定欲使用的塑法。若该盟友施放一道可受所选塑法影响之法术，你的搭档可选择如同已对其法术应用了塑法那般施放。即使你的搭档使用其自身之塑法动作，他们也只能以此方式对法术应用一项塑法。当你施放法术时，你的搭档亦可如此预备一个 1 动作塑法。</p><p>在后续回合，你可继续以同一触发条件使用反应（如同你已使用「预备」），或花费一个具「专注」特征的单一动作将塑法换为另一项你已知的塑法。若你搭档预备了一个 1 动作塑法，他们也可于后续回合如此做。</p>",
             "prerequisites": [
                 {
-                    "value": "共享塑形施法"
+                    "value": "共享塑法"
                 }
             ]
         },
         "Shared Spellshaping": {
-            "name": "共享塑形施法 Shared Spellshaping",
-            "description": "<p><strong>需求</strong> 你的搭档能施法。</p><hr /><p>你与搭档共享塑形施法的奥秘。选择一项你能使用的塑形施法动作，你的搭档亦选择一项他们能使用的塑形施法动作（如有）。在使用此团队配合时，若你们彼此相距 15 尺以内，则可使用对方所选的塑形施法动作。若所选塑形施法动作有需求，则你们二人皆受该需求约束；若其有频率限制，则该频率适用于你们二人。</p>",
+            "name": "共享塑法 Shared Spellshaping",
+            "description": "<p><strong>需求</strong> 你的搭档能施法。</p><hr /><p>你与搭档共享塑法的奥秘。选择一项你能使用的塑法动作，你的搭档亦选择一项他们能使用的塑法动作（如有）。在使用此团队配合时，若你们彼此相距 15 尺以内，则可使用对方所选的塑法动作。若所选塑法动作有需求，则你们二人皆受该需求约束；若其有频率限制，则该频率适用于你们二人。</p>",
             "prerequisites": [
                 {
                     "value": "能施放法术"
                 },
                 {
-                    "value": "你至少拥有一项具有塑形施法特征的动作"
+                    "value": "你至少拥有一项具有塑法特征的动作"
                 }
             ]
         },
@@ -2407,8 +2407,8 @@
             ]
         },
         "Spellshaper Initiate": {
-            "name": "塑形施法新进 Spellshaper Initiate",
-            "description": "<p>你已掌握一些塑形施法的基础知识。你获得 @UUID[Compendium.sf2e.feats.Item.FoWO4RnHRwfEIC7Q]{扩展法术} 或 @UUID[Compendium.sf2e.feats.Item.BWomK7EVY0WXxWgh]{远法术} 职业专长，且该专长视为你职业的职业专长。</p>",
+            "name": "塑法新进 Spellshaper Initiate",
+            "description": "<p>你已掌握一些塑法的基础知识。你获得 @UUID[Compendium.sf2e.feats.Item.FoWO4RnHRwfEIC7Q]{扩展法术} 或 @UUID[Compendium.sf2e.feats.Item.BWomK7EVY0WXxWgh]{远法术} 职业专长，且该专长视为你职业的职业专长。</p>",
             "prerequisites": [
                 {
                     "value": "能从法术位施放法术"
