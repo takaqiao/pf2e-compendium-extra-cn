@@ -1,0 +1,32 @@
+{
+  "label": "动作\nActions",
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
+  },
+  "folders": {},
+  "entries": {
+    "Consume Thrall": {
+      "name": "吞噬残骸 Consume Thrall",
+      "description": "<p><strong>频率</strong> 每 10 分钟一次</p><p><strong>需求</strong> 你 15 尺内存在你创造的一具残骸。</p><hr /><p>你碾碎一具残骸仆从，其形体化作尘埃，而死灵术的魔力则被你吞噬。你摧毁 15 尺内由你创造的一具残骸，并恢复 1 聚能点。</p>\n<hr />\n<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Requirements</strong> One of your thralls is within 15 feet of you.</p><hr /><p>You crumble one of your thralls to dust to consume its necromantic magic. You destroy one of your thralls within 15 feet of you and regain 1 Focus Point.</p>"
+    },
+    "Inevitable Return": {
+      "name": "强制复生 Inevitable Return",
+      "description": "<p><strong>触发</strong> 60 尺内的一名敌人死亡。</p><hr /><p>你身边亡者的死亡只会成为你不死大军源源不绝的燃料。你在触发尸体所在的空间唤起一具残骸。这具残骸在 1 分钟后崩解。</p>\n<hr />\n<p><strong>Trigger</strong> An enemy within 60 feet dies.</p><hr /><p>The deaths of those around you simply fuel your undead army. You raise a thrall in the triggering corpse's space. This thrall falls apart after 1 minute.</p>"
+    },
+    "Invoke Rune": {
+      "name": "激发符文 Invoke Rune",
+      "description": "<p><strong>激发 魔法 符文工匠</strong> 你念出一个或多个在你30尺内符文的名字。符文会迸发出强大的力量，应用其激发条目中的效果。然后符文就会消散，它的任务完成了。您可以通过单次激发符文动作激发任意数量的符文，但会受到多个相同符文影响的生物只会受到一次影响，重复效果也是如此。</p>\n<hr />\n<p>You utter the name of one or more of your runes within 30 feet. The rune blazes with power, applying the effect in its Invocation entry. The rune then fades away, its task completed. You can invoke any number of runes with a single Invoke Rune action, but creatures that would be affected by multiple copies of the same specific rune are affected only once, as normal for duplicate effects.</p>"
+    },
+    "Trace Rune": {
+      "name": "描画符文 Trace Rune",
+      "description": "<p><strong>需求</strong> 你有一只空手或持握着工匠工具包。</p><hr /><p>你的手指舞动，闪耀着光芒留下符文的图像。你可将一个符文应用于与符文用法描述相符的一个相邻目标。符文会一直保留到你的下个回合结束。如果你花费2个动作来描画一个符文，你会在空中绘制符文，并使其出现在30尺内的一个目标身上。你可以通过这种方式应用任意数量的符文。</p>\n<hr />\n<p><strong>Requirements</strong> You have a hand free or are holding an artisan's toolkit.</p><hr /><p>Your fingers dance, glowing light leaving behind the image of a rune. You apply one rune to an adjacent target matching the rune's Usage description. The rune remains until the end of your next turn. If you spend 2 actions to Trace a Rune, you draw the rune in the air and it appears on a target within 30 feet. You can have any number of runes applied in this way.</p>"
+    }
+  }
+}

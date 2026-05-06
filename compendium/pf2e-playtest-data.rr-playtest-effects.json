@@ -1,0 +1,88 @@
+{
+  "label": "效果\nEffects",
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
+  },
+  "folders": {},
+  "entries": {
+    "Effect: Salt Stone": {
+      "name": "效果：盐石 Effect: Salt Stone",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.F5Ou81lhzj5hR8FC]{Salt Stone} 授予</p><p>你选择一件正在挥舞的武器，该武器获得<em>幽冥</em>符文的效果。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.F5Ou81lhzj5hR8FC]{Salt Stone}</p><p>You choose a weapon you're wielding, and that weapon gains the effects of a <em>ghost touch</em> rune.</p>"
+    },
+    "Effect: Armored Shelter": {
+      "name": "效果：装甲庇护 Effect: Armored Shelter",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.7Wyg7Z4HpK5NABep]{Armored Shelter} 授予</p><p>你的 AC 以及对抗范围效果的反射豁免获得 +2 环境加值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.7Wyg7Z4HpK5NABep]{Armored Shelter}</p><p>You gain a +2 circumstance bonus to your AC and to Reflex saves against area effects.</p>"
+    },
+    "Effect: Flying Hurdle Stunt": {
+      "name": "效果：飞跃跨栏险招 Effect: Flying Hurdle Stunt",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.fokv6TmlUPqWFCzA]{Flying Hurdle Stunt} 授予</p><p>你对被标记生物进行的近战打击获得 +1 环境加值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.fokv6TmlUPqWFCzA]{Flying Hurdle Stunt}</p><p>You gain a +1 circumstance bonus to melee Strikes against the marked creature.</p>"
+    },
+    "Effect: Fortify Self": {
+      "name": "效果：固守自身 Effect: Fortify Self",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.UhvvPxTVhkHC0JSs]{Fortify Self} 授予</p><p>你获得对所有物理伤害的抗力，数值等同于你的等级。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.UhvvPxTVhkHC0JSs]{Fortify Self}</p><p>You gain resistance to all physical damage equal to your level.</p>"
+    },
+    "Effect: Weapon Twist Stunt": {
+      "name": "效果：绞械险招 Effect: Weapon Twist Stunt",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.q7NLvMt4M4a6ikTZ]{Weapon Twist Stunt} 授予</p><p>你对所选攻击承受环境减值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.q7NLvMt4M4a6ikTZ]{Weapon Twist Stunt}</p><p>You take a circumstance penalty to the selected attack.</p>"
+    },
+    "Effect: Apply Spirit Oil": {
+      "name": "效果：涂抹精油 Effect: Apply Spirit Oil",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.HqeK2CH6iKjBaPuL]{Apply Spirit Oil} 授予</p><p>你所选武器获得致命d8特征，若已具有致命特征则将其骰面提升一阶。如果你的精油是强化的，则所选武器还会额外造成 1d4 点所选类型的持续伤害。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.HqeK2CH6iKjBaPuL]{Apply Spirit Oil}</p><p>Your selected weapon gains the deadly d8 trait, or increases the die size of its deadly trait by one step if it already had it. If your oil is reinforced, the selected weapon also deals an additional 1d4 persistent damage type of a selected damage type.</p>"
+    },
+    "Effect: Share Insight": {
+      "name": "效果：分享洞察 Effect: Share Insight",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.QaPE8FIbbuVxcQCx]{Share Insight} 授予</p><p>你根据你所选标志性工具获得相应效益。</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade}</strong> 你身周 30 尺内的盟友，对其造成的任何伤害忽略你猎物 3 点该种伤害的抗力。</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.iihaKfTGSfA3kExA]{Chymist's Vials}</strong> 你身周 30 尺内的盟友获得低光视觉，若已拥有低光视觉则改为获得黑暗视觉，并能够在 30 尺内以精确感官侦测你的猎物。</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply}</strong> 你身周 30 尺内的盟友对抗你猎物的豁免获得 +1 状态加值。</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq]{Warded Mail}</strong> 你身周 30 尺内的盟友对你猎物造成的伤害获得 5 点抗力。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.QaPE8FIbbuVxcQCx]{Share Insight}</p><p>You gain a benefit based on your chosen signature tool.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade}</strong> Allies within 30 feet of you ignore 3 points of your quarry's resistance to any damage they deal.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.iihaKfTGSfA3kExA]{Chymist's Vials}</strong> Allies within 30 feet of you gain low-light vision, or darkvision if they already had low-light vision, and can detect your quarry as a precise sense within 30 feet.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply}</strong> Allies within 30 feet of you gain a +1 status bonus to saving throws against your quarry.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq]{Warded Mail}</strong> Allies within 30 feet of you have resistance 5 to damage dealt by your quarry.</p>"
+    },
+    "Effect: Opening Gambit": {
+      "name": "效果：开局战术 Effect: Opening Gambit",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.sdtF7tkMlBSDw5rN]{Opening Gambit} 授予</p><p>你的先攻在成功时等于 19 + 你的先攻调整值，在失败时等于 1 + 你的先攻调整值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.sdtF7tkMlBSDw5rN]{Opening Gambit}</p><p>Your initiative is equal to 19 + your initiative modifier on a success, or 1 + your initiative modifier on a failure.</p>"
+    },
+    "Effect: Chymist's Eye (Reinforced)": {
+      "name": "效果：炼金师之眼（强化） Effect: Chymist's Eye (Reinforced)",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.yDiXffIZxAGHQMAv]{Chymist's Eye} 授予</p><p>你获得一项视觉感官。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.yDiXffIZxAGHQMAv]{Chymist's Eye}</p><p>You gain a vision sense.</p>"
+    },
+    "Effect: Fated Foe": {
+      "name": "效果：宿命之敌 Effect: Fated Foe",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Cf48dHaL719aeQ9B]{Fated Foe} 授予</p><p>你获得等同于你等级两倍的临时生命值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Cf48dHaL719aeQ9B]{Fated Foe}</p><p>You gain temporary Hit Points equal to twice your level.</p>"
+    },
+    "Effect: Final Flourish": {
+      "name": "效果：终幕绝技 Effect: Final Flourish",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.CdZfI7HreCVZ1TtO]{Final Flourish} 授予</p><p>你获得等同于你等级一半的临时生命值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.CdZfI7HreCVZ1TtO]{Final Flourish}</p><p>You gain temporary Hit Points equal to half your level.</p>"
+    },
+    "Effect: Gouging Strike": {
+      "name": "效果：凿击 Effect: Gouging Strike",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.e60Af3Ej0FY4Unq3]{Gouging Strike} 授予</p><p>你对物理伤害获得脆弱3。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.e60Af3Ej0FY4Unq3]{Gouging Strike}</p><p>You gain weakness 3 to physical damage.</p>"
+    },
+    "Effect: Mark Quarry": {
+      "name": "效果：标记猎物 Effect: Mark Quarry",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.pLEBGC3EMeUlFLqq]{Mark Quarry} 授予</p><p>你将一个生物标记为你的猎物。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.pLEBGC3EMeUlFLqq]{Mark Quarry}</p><p>You mark a creature as your quarry.</p>"
+    },
+    "Effect: Paired Bloodseeker": {
+      "name": "效果：成对觅血者 Effect: Paired Bloodseeker",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.KoAStTpjmvRMyS6x]{Paired Bloodseeker} 授予</p><p>你将一件你所选的单手简单或军用武器指定为觅血之刃。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.KoAStTpjmvRMyS6x]{Paired Bloodseeker}</p><p>You designate a one-handed simple or martial weapon of your choice as a bloodseeker blade.</p>"
+    },
+    "Effect: Adrenaline": {
+      "name": "效果：肾上腺素 Effect: Adrenaline",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.HAjDJbdawcI5TjTG]{Adrenaline} 授予</p><p>你获得肾上腺素。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.HAjDJbdawcI5TjTG]{Adrenaline}</p><p>You gain adrenaline.</p>"
+    },
+    "Effect: Blood for Blood (Half Level)": {
+      "name": "效果：以血还血（半等级） Effect: Blood for Blood (Half Level)",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.A3F3XKjkZVrwefU1]{Blood for Blood} 授予</p><p>你获得等同于你等级一半的临时生命值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.A3F3XKjkZVrwefU1]{Blood for Blood}</p><p>You gain temporary Hit Points equal to half your level.</p>"
+    },
+    "Effect: Catalyzing Flask (Reinforced)": {
+      "name": "效果：催化烧瓶（强化） Effect: Catalyzing Flask (Reinforced)",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.x32HdwKV2RiGEPCw]{Catalyzing Flask} 授予</p><p>你的强韧、反射或意志豁免获得 +1 状态加值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.x32HdwKV2RiGEPCw]{Catalyzing Flask}</p><p>You gain a +1 status bonus to Fortitude, Reflex, or Will saves.</p>"
+    },
+    "Effect: Vigorous Adrenaline": {
+      "name": "效果：活力肾上腺素 Effect: Vigorous Adrenaline",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.VBuu68KGe9xoTj4K]{Vigorous Adrenaline} 授予</p><p>你获得等于你等级加上你体质调整值的临时生命值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.VBuu68KGe9xoTj4K]{Vigorous Adrenaline}</p><p>You gain temporary Hit Points equal to your level plus your Constitution modifier.</p>"
+    }
+  }
+}

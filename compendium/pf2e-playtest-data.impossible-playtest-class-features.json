@@ -1,0 +1,140 @@
+{
+  "label": "职业特性\nClass Features",
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
+  },
+  "folders": {
+    "Runesmith Features": "符文工匠特性\nRunesmith Features",
+    "Grim Fascinations": "阴森痴迷\nGrim Fascinations",
+    "Necromancer Features": "死灵师特性\nNecromancer Features"
+  },
+  "entries": {
+    "Unnatural Fortitude": {
+      "name": "反常强韧 Unnatural Fortitude",
+      "description": "<p>你的肉体得到了死灵术的强化。你在强韧豁免上的熟练等级提升至大师。当你在强韧豁免中掷出成功，你改为得到大成功结果。</p>\n<hr />\n<p>Your body has been necromantically enhanced. Your proficiency rank for Fortitude saves increases to master. When you roll a success at a Fortitude save, you get a critical success instead.</p>"
+    },
+    "Runic Repertoire": {
+      "name": "符文库 Runic Repertoire",
+      "description": "<p>你所掌握的符文集合称为你的符文库。1 级时，你可以学习4个符文。你可以从符文列表中的常见符文以及你具有许可的罕见或稀有符文中选择符文。  随着你等级的提高，你可以在你的符文库里添加更多的符文。只要符文是常见的（或者你具有许可的），并且其等级等于或低于你的等级，你就可以将任何符文添加到你的符文库中。</p>\n<hr />\n<p>The collection of runes that you know is called your runic repertoire. At 1st level, you learn 4 runes of your choice. You choose these from the common runes on the rune list as well as uncommon or rarer runes you have access to.</p>"
+    },
+    "Grave Spells": {
+      "name": "墓穴法术 Grave Spells",
+      "description": "<p>你超凡的死灵术造诣使你能够产生被称作墓穴法术的独特效果。墓穴法术是一种聚能法术。施放聚能法术消耗 1 聚能点。你在每日准备期间回复全部聚能点，并且可以花费 10 分钟使用专注（Refocus）活动与亡者沟通、冥想当地的超自然活动，或是精研系统解剖学来回复 1 聚能点。</p><p>聚能法术会与戏法一样，自动升阶至你等级的一半，向上取整。聚能法术不需要法术位，你也不能使用法术位来施放它们。某些专长会赋予你更多的聚能法术。</p><p>你的聚能池中能保有的最大聚能点数等同于你掌握的聚能法术数量，但永远不能超过 3 点。聚能法术的完整规则参见《玩家核心》第 298 页。</p><p>你在 1 级时通过你的阴森痴迷获得一个墓穴法术，并以拥有 1 聚能点的聚能池起步。你可以通过死灵师专长习得更多的墓穴法术。</p><h3>墓穴戏法</h3><p>墓穴戏法是一种特殊的墓穴法术，无需消耗聚能点，因此你可以任意施放它们。墓穴戏法与你通过死灵师施法选择的戏法是分开计算的。与其它戏法不同，你无法在后续等级遗忘通过死灵师专长获取的墓穴戏法，除非你通过重训失去了相应的专长。</p><p>你习得创造残骸（create thrall）墓穴戏法，该戏法允许你召唤一具作为消耗品的残骸为你而战，并可能成为你其它法术的祭品。关于残骸的更多信息见第 3 页。</p>\n<hr />\n<p>Your necromantic prowess allows you to create unique effects called grave spells. Grave spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to speak to the dead, meditate on local supernatural activity, or contemplate anatomical truths.</p><p>Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Certain feats give you more focus spells.</p><p>The maximum Focus Points your focus pool can hold is equal to the number of focus spells you have, but it can never be more than 3 points. The full rules for focus spells appear on page 298 of Player Core.</p><p>You gain a grave spell from your grim fascination at 1st level and start with a focus pool of 1 Focus Point. You can learn additional grave spells through necromancer feats.</p><h3>Grave Cantrips</h3><p>Grave cantrips are special grave spells that don't cost Focus Points, so you can use them as often as you like. Grave cantrips are in addition to the cantrips you choose with necromancer spellcasting. Unlike other cantrips, you can't swap out grave cantrips gained from necromancer feats at a later level, unless you swap out the specific feat via retraining.</p><p>You learn the create thrall grave cantrip, which allows you to summon an expendable thrall to attack for you, and potentially provide fodder for your other spells. More information about thralls can be found on page 3.</p>"
+    },
+    "Runic Crafter": {
+      "name": "符文匠人 Runic Crafter",
+      "description": "<p>你对秘传符文的研究让你在制作其更常见的同类时也颇为娴熟。你获得 @UUID[Compendium.pf2e.feats-srd.Item.xWY5omyIcILNR7y1]{Magical Crafting} 技能专长，即使你未达成其先决条件。当你的等级达到对应物品等级时，你自动获得护甲基础符文（<em>armor potency</em> 与 <em>resilient</em>）、护盾基础符文（<em>reinforcing</em>）以及武器基础符文（<em>weapon potency</em> 与 <em>striking</em>）的配方。你对自己的符文研习得如此透彻，能够凭记忆便绘制出来，因此你不需要配方书来记录你所学会制作的任何符文配方。</p>\n<hr />\n<p>Your study of secret runes leaves you well practiced in crafting their more common cousins. You gain the @UUID[Compendium.pf2e.feats-srd.Item.xWY5omyIcILNR7y1]{Magical Crafting} skill feat, even if you don't meet the prerequisites. You automatically gain the formulas for the fundamental armor runes (<em>armor potency</em> and <em>resilient</em>), fundamental shield rune (<em>reinforcing</em>), and fundamental weapon runes (<em>weapon potency</em> and <em>striking</em>) as soon as your level equals each item's. You practice your runes so thoroughly you can draw them by heart, and so do not need a formula book to record the formula of any runes you learn how to create.</p>"
+    },
+    "Flesh Magician": {
+      "name": "血肉魔巫 Flesh Magician",
+      "description": "<p>血肉魔巫，亦称为肉灵师，是毁灭、生成与操控血肉与肌肉的专家。他们的残骸通常以丧尸或其他死肉造物的形态出现。</p><p><strong>职业专长</strong> 亡者之重</p><p><strong>通用专长</strong> @UUID[Compendium.pf2e.feats-srd.Item.AmP0qu7c5dlBSath]{Toughness}</p><p><strong>残骸强化</strong> 即使残骸已被摧毁，你仍可利用其血肉。每当你的一具残骸被摧毁时，你可以使该残骸在被摧毁的空间留下困难地形。该困难地形持续 10 分钟。</p>\n<hr />\n<p>Flesh magicians, also known as caromancers, are experts at the destruction, production, and manipulation of flesh and muscles. Their thralls generally take on the form of zombies and other creatures of dead flesh.</p><p><strong>Class Feat</strong> Dead Weight</p><p><strong>General Feat</strong> @UUID[Compendium.pf2e.feats-srd.Item.AmP0qu7c5dlBSath]{Toughness}</p><p><strong>Thrall Enhancement</strong> You can still make use of a destroyed thrall's flesh. Whenever one of your thralls is destroyed, you can cause the thrall to leave behind difficult terrain in the space they were destroyed. The difficult terrain lasts for 10 minutes.</p>"
+    },
+    "Smith's Weapon Expertise": {
+      "name": "符文工匠武器专家 Smith's Weapon Expertise",
+      "description": "<p>你致力于学习复杂的武器。你在简易武器，军用武器和无武装攻击上的熟练度提升至专家。</p>\n<hr />\n<p>You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.</p>"
+    },
+    "Epitaph": {
+      "name": "墓志铭 Epitaph",
+      "description": "<p>自魔法奥秘的至深窖藏中，你发掘出了一道蕴含强大异能魔力的法咒。你获得一个10环法术位并且可以使用死灵师施法能力在法术位中准备法术。你无法在升级时习得更多10环法术或是获得相应法术位，赋予额外法术位或允许你不消耗法术位进行施法的能力不适用于10环法术。你仅能通过尸骸终解（Mortem Ultimatum）死灵师专长来获得第二个10环法术位。</p>\n<hr />\n<p>From the deepest crypts of magical knowledge, you summon forth a spell of immense occult power. You gain a single 10th-level spell slot and can prepare a spell in that slot using necromancer spellcasting. You don't gain more 10th-level spells as you level up, unlike other spell slots, and you can't use 10th-level slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You can take the Mortem Ultimatum necromancer feat to gain a second slot.</p>"
+    },
+    "Master Necromancy": {
+      "name": "大师死灵术 Master Necromancy",
+      "description": "<p>亡者之魂对你俯首帖耳，惟命是从。你在法术攻击调整和法术DC上的熟练等级提升至大师。</p>\n<hr />\n<p>The souls of the dead heed your beck and call. Your proficiency ranks for spell attack modifier and spell DC increase to master.</p>"
+    },
+    "Necromancer Spellcasting": {
+      "name": "死灵师施法 Necromancer Spellcasting",
+      "description": "<p>你对生命与死亡本质的探索带给了你施放异能法术的力量。你成为一名施法者，可以使用施放法术（Cast a Spell）活动来施放异能根源中的法术。作为死灵师，你的施法咒语通常是为亡者所唱的挽歌、安魂曲及其它仪式，而你的施法姿势则由反常的肌肉蠕动与骨骼震颤组成。</p><p>在 1 级时，你可以从你的挽歌（见下文）中每日早晨准备一个 1 环法术与五个戏法。准备的法术会持续到你施放它们或再次准备法术为止。你每日可以准备的法术数量称为你的法术位。</p><p>当你的死灵师等级提升时，你每日可以准备的法术数量以及你能够施放的最高法术环位也会随之增加，详见死灵师每日法术一表。</p><p>你的某些法术需要你尝试一次法术攻击检定，或者需要你的敌人对你的法术 DC 进行掷骰（通常是尝试一次豁免掷骰），以判定它们的效果。由于你的关键属性是智力，你的法术攻击调整与法术 DC 使用你的智力调整值。计算这些数据的具体方法见《玩家核心》第 403 页。</p><h3>升阶法术</h3><p>当你获得 2 环或更高的法术位时，你可以将这些法术位填入低环法术的更强版本。这会提升此法术的环级，将其升阶至与法术位环级相等。许多法术在升阶至特定环级时具有特定的效果提升。</p><h3>戏法</h3><p>你的某些法术是戏法。戏法是一种特殊的法术，不消耗法术位。你可以任意施放戏法，每日不限次数。戏法总会自动升阶至你等级的一半，向上取整——这通常等同于你最高的死灵师法术位环级。例如，作为 1 级死灵师，你的戏法是 1 环法术；作为 5 级死灵师，你的戏法是 3 环法术。</p><h3>挽歌</h3><p>你的异能法术成为回响于你身躯、骨骼乃至魂灵之内的内在挽歌的一部分。每日准备法术时，你便将挽歌的部分碎片具象为音声。</p><p>你的挽歌中包含你所选的十个异能戏法与五个 1 环异能法术。你可以从异能根源法术列表上的常见法术，或是其它你拥有许可的异能法术中选择。</p><p>每当你升级时，你将两个新的异能法术添加到挽歌当中——可以是任意你拥有相应法术位的环级——你可以从你根源的常见法术、其它你拥有许可的法术，或是通过学习法术（Learn a Spell）所习得的法术中选择。</p>\n<hr />\n<p>Your study into the nature of life and death have resulted in the ability to cast occult spells. You are a spellcaster, and you can cast spells of the occult tradition using the Cast a Spell activity. As a necromancer, your chants generally evoke the laments, requiems, and other rites for the dead, while your gestures evoke unnatural movement of muscle and cracking of bone.</p><p>At 1st level, you can prepare one 1st-rank spell and five cantrips each morning from your dirge (see below). Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare each day is called your spell slots.</p><p>As you increase in level as a necromancer, the number of spells you can prepare each day increases, as does the highest rank of spell you can cast, as shown in Necromancer Spells per Day table.</p><p>Some of your spells require you to attempt a spell attack to see how effective they are or for your enemies to roll against your spell DC (typically by attempting a saving throw). Since your key attribute is Intelligence, your spell attack modifier and spell DC use your Intelligence modifier. Details on calculating these statistics appear on page 403 of Player Core.</p><h3>Heightening Spells</h3><p>When you get spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain ranks.</p><h3>Cantrips</h3><p>Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest rank of necromancer spell slot you have. For example, as a 1st- level necromancer, your cantrips are 1st-rank spells, and as a 5th-level necromancer, your cantrips are 3rd-rank spells.</p><h3>Dirge</h3><p>Your occult spells become a part of an internal dirge that echoes throughout your body, bones, and even your spirit. Each day to prepare your spells, you pull forth pieces of your dirge to vocalize.</p><p>Your dirge contains your choice of ten occult cantrips and five 1st-rank occult spells. You choose these from the common spells on the occult spell list or from other occult spells you gain access to.</p><p>Each time you gain a level, you add two occult spells to your dirge, of any spell rank for which you have spell slots, chosen from common spells of your tradition or others you gain access to and learn via Learn a Spell.</p>"
+    },
+    "Grim Fascination": {
+      "name": "阴森痴迷 Grim Fascination",
+      "description": "<p>作为死灵师，你在1级时选择一种阴森痴迷。这象征你专注于某个死灵术领域，并在该领域中取得了更加精熟的掌握。不过，阴森痴迷并不会使你无法研习其它形式的死灵术。你选择的阴森痴迷将赋予你一项职业专长，该专长为你提供第一个墓穴法术，一项通用专长，以及一项应用于你创造的所有残骸的强化效果。</p>\n<hr />\n<p>As a necromancer, you select one grim fascination at 1st level. This fascination is a focus of necrotic study that you have developed a greater mastery over. However, grim fascinations don't prevent you from studying and using other forms of necromancy. Your choice of grim fascination grants you a class feat that gives you your first grave spell, a general feat, and a thrall enhancement that applies to any thrall you create.</p>"
+    },
+    "Weapon Expertise": {
+      "name": "武器专家 Weapon Expertise",
+      "description": "<p>你深入研究了自己所用武器在战斗中纷繁复杂的细节。你在简易武器和无武装攻击上的熟练等级提升至专家。</p>\n<hr />\n<p>You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons and unarmed attacks increase to expert.</p>"
+    },
+    "Smith's Weapon Mastery": {
+      "name": "工匠武器大师 Smith's Weapon Mastery",
+      "description": "<p>你完全了解了自己的武器。你在简易武器，军用武器和无武装攻击上的熟练度提升至大师。</p>\n<hr />\n<p>You fully understand your weapons. Your proficiency ranks for simple and martial weapons and unarmed attacks increase to master.</p>"
+    },
+    "Runes and their Creation": {
+      "name": "符文及其创造 Runes and their Creation",
+      "description": "<p>通过精研细究，你已将秘传符文的知识铭刻于心智与躯体之中。你可以将特殊的符文工匠符文施加于物品和生物之上，赋予承载者以魔法效应。你必须知晓某符文方可使用它，而你通过符文库职业特性来习得符文。</p><h3>施加符文</h3><p>所有符文都可以通过两种方式之一施加：可以将符文蚀刻其上，或仅作刻画。蚀刻的符文是雕刻、墨绘或烙印的，但此类施加并不会伤害生物或物品。蚀刻符文需要工匠工具组。你的魔法可同时维持至多 2 个蚀刻符文，并且你可以在每日准备期间以及在探索模式下花 10 分钟时蚀刻任意数量直至此上限的符文。随着你等级的提升，你同时可拥有的蚀刻符文上限也会增加。你的蚀刻符文持续存在直到被消耗或移除，或直到你蚀刻的符文超过上限——此时你最早的符文将消退。</p><p>刻画的符文是用尘土、光线或类似短暂介质轻轻绘制而成的。你可以使用 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-actions.Item.wamCImlN6xwUHzyk]{Trace Rune} 动作来刻画符文。</p><h3>激发符文</h3><p>魔法浮于唇齿之间，你可以诵出你已施加的符文之真名，使用激发动作将其唤至力量。你获得 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-actions.Item.ozrq9hAuigjzwe9C]{Invoke Rune} 激发动作。</p><h3>符文魔法</h3><p>符文是魔法效果。某些符文具有特定的传统特征；例如，元素性的岚束，雷之符文是原初符文。任何不具有特定传统特征的符文，若你受过该传统对应技能的训练，可以将其按某一传统的风格书写来赋予其相应特征（例如，若你受过奥秘训练，便可以制作奥术风格的帕鲁纳，光照符文）。任何需要豁免的符文均使用你的符文工匠职业 DC。</p><p>尽管符文并非法术，但某些影响法术的事物同样会影响符文。限制你施法的能力（例如被变形为战斗形态）或防御法术的能力（例如某种防御其他法术的法术，或某种生物对法术豁免的加值）也同样会作用于刻画或激发符文，但你仍可以继续受益于符文的效果。</p><p>你所使用的任何符文均与你同等级。例如，若你 5 级，你的符文便是 5 级（其反制等阶为 3 阶），即便你在 1 级便习得该符文。与法术类似，许多符文会随你等级提升而变得更强。在这些情况下，符文以一项或多项“等级”条目结尾。该条目要么列出符文得到提升的具体等级，要么以加号条目描述按固定级别提升的效果。例如，一个具有“等级（+4）”条目的 1 级符文将在 5、9、13 和 17 级时变强。</p>\n<hr />\n<p>Through meticulous study, you have carved the knowledge of secret runes into your mind and body. You can apply special runesmith runes onto objects and creatures, which grant the bearer magical effects. You must know a rune to use it, and you learn runes via the runic repertoire class feature.</p><h3>Applying Runes</h3><p>All runes can be applied in one of two ways: a rune can be etched on or merely traced. An etched rune is carved, inked, or branded in, though this application does not damage the creature or item. Etching runes requires an artisan's toolkit. Your magic can sustain up to 2 etched runes at a time, and you can etch any number of runes up to this maximum during your daily preparations and when you spend 10 minutes in exploration mode. As you increase in level, the maximum amount of etched runes you can have at a given time increases. Your etched runes remain indefinitely until they're expended or removed, or until you etch more runes than your maximum, which causes your oldest rune to fade.</p><p>A traced rune is drawn lightly in dust, light, or a similar fleeting medium. You can trace runes with the @UUID[Compendium.pf2e-playtest-data.impossible-playtest-actions.Item.wamCImlN6xwUHzyk]{Trace Rune} action.</p><h3>Invoking Runes</h3><p>Magic on your lips, you can pronounce the true name of a rune you have applied, calling it to power using invocation actions. You gain the @UUID[Compendium.pf2e-playtest-data.impossible-playtest-actions.Item.ozrq9hAuigjzwe9C]{Invoke Rune} invocation action.</p><h3>Runic Magic</h3><p>Runes are magical effects. Some runes have a specific tradition trait; for instance, the elemental ranshu, rune of thunder is a primal rune. Any rune that doesn't have a specific tradition trait can be written in the style of one of the four magical traditions to give it that trait if you are trained in that tradition's skill (for instance, you could create an arcane pluuna, rune of illumination if you were trained in Arcana). Any runes that require a saving throw use your runesmith class DC.</p><p>Though runes aren't spells, some things that affect spells also affect runes. Abilities that restrict you from casting spells (such as being polymorphed into a battle form) or protect against spells (such as a spell that protects against other spells or a creature's bonus to saves against spells) also apply to tracing or invoking runes, though you can continue to benefit from a rune's effects.</p><p>Any rune you use is the same level you are. For instance, if you're 5th level, your runes would be 5th level (and their counteract rank would be 3rd rank), even if you gained the rune at 1st level. Similar to spells, many runes get more powerful as you increase in level. In these cases, the rune ends with one or more \"Level\" entries. This either lists the levels at which the rune gets an upgrade or has an entry with a plus sign that describes a benefit that increases on a regular basis. For instance, a 1st-level rune with a \"Level (+4)\" entry would get stronger at 5th, 9th, 13th, and 17th levels.</p>"
+    },
+    "Undead Lore": {
+      "name": "不死学识 Undead Lore",
+      "description": "<p>你对生命与死亡中最为黑暗的奥秘的探索，使你掌握了理解不死魔法所必需的知识。你在不死学识上受训——这是一种特殊的学识技能，可被用作对不死生物、作祟以及由不死生物或其它死灵师造成的效果进行 @Compendium[pf2e.actionspf2e.Recall Knowledge]{Recall Knowledge}，但无法被用于对其它内容回忆知识。</p><p>在 3 级时，你在不死学识上的熟练度提升至专家；在 7 级时提升至大师；在 15 级时提升至传奇。</p>\n<hr />\n<p>Your delves into the darkest secrets of life and death have prepared you for the understanding necessary to comprehend undead magic. You become trained in Undead Lore, a special lore skill that can be used to @Compendium[pf2e.actionspf2e.Recall Knowledge]{Recall Knowledge} regarding undead creatures, haunts, and effects caused by undead creatures or other necromancers, but that can't be used to Recall Knowledge of other topics.</p><p>At 3rd level, you become an expert in Undead Lore; at 7th level, you become a master in Undead Lore; and at 15th level, you become legendary in Undead Lore.</p>"
+    },
+    "Expert Necromancy": {
+      "name": "专家死灵术 Expert Necromancy",
+      "description": "<p>你掌控的死灵术记忆更加精熟。你在法术攻击调制与法术DC上的熟练等级提升至专家。</p>\n<hr />\n<p>You wield the necromantic arts with greater finesse. Your proficiency ranks for spell attack modifier and spell DC increase to expert.</p>"
+    },
+    "Expert Runes": {
+      "name": "符文专家 Expert Runes",
+      "description": "<p>你在魔法文本方面的专长为你的符文魔法带来了更多力量。你的符文工匠职业DC熟练度升至专家。</p>\n<hr />\n<p>Your expertise in magical scripting lends further power to your runic magic. Your proficiency rank for runesmith class DC increases to expert.</p>"
+    },
+    "Smith's Endurance": {
+      "name": "工匠的耐力 Smith's Endurance",
+      "description": "<p>长时间沉浸在制作中，不吃不喝，你的身体会变得更加强健。你的强韧豁免熟练度提升至大师。当你的强韧豁免取得成功时，你改为获得大成功。</p>\n<hr />\n<p>Your body is toughened by long days immersed in crafting, without break for food or drink. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead.</p>"
+    },
+    "Masterful Runes": {
+      "name": "符文大师 Masterful Runes",
+      "description": "<p>你是一位真正的魔法笔、羽毛笔和雕刻刀大师。你的符文工匠职业DC熟练度提升至大师。</p>\n<hr />\n<p>You are a true master of the magical brush, quill, and engraver. Your proficiency rank for runesmith class DC increases to master.</p>"
+    },
+    "Greater Runic Optimization": {
+      "name": "高等符文优化 Greater Runic Optimization",
+      "description": "<p>你的武器符文与你自身的内在魔法相协调，使其伤害进一步倍增。使用带有强击符文的武器时，你会造成4点额外伤害。如果武器带有高等强击符文，伤害会增加到5，如果带有上等强击符文，伤害会增加到6。</p>\n<hr />\n<p>Your weapon runes harmonize with your own innate magic, multiplying their damage even further. You deal 4 additional damage with weapons bearing a striking rune. This damage increases to 5 if the weapon bears a greater striking rune and 6 if it bears a major striking rune.</p>"
+    },
+    "Spirit Monger": {
+      "name": "魂灵商贩 Spirit Monger",
+      "description": "<p>魂灵商贩，亦称为命魂师，他们追寻灵魂的奥秘，玩弄生者与亡者的永恒能量。他们的残骸常以幽灵和魂灵的形态出现。</p><p><strong>职业专长</strong> 生命分流</p><p><strong>通用专长</strong> @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard}</p><p><strong>残骸强化</strong> 你的残骸虽仍与物质世界相系，却拥有非实体的本质。每当你的一具残骸即将造成物理伤害时，你可以选择改为造成精魂或虚空伤害。</p>\n<hr />\n<p>Spirit mongers, also known as vitamancers, seek the secrets of the soul and play with the eternal energies of the living and dead. Their thralls often resemble ghosts and spirits.</p><p><strong>Class Feat</strong> Life Tap</p><p><strong>General Feat</strong> @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard}</p><p><strong>Thrall Enhancement</strong> Your thralls, while still being tied to the physical world, have an incorporeal essence. Whenever one of your thralls would deal physical damage, you can choose for that damage to be spirit or void damage instead.</p>"
+    },
+    "Legendary Runes": {
+      "name": "符文传奇 Legendary Runes",
+      "description": "<p>你雕刻的符文如同传奇之手绘制——每一个字符都精确无误，但又有自己独特的风格。你的符文工匠职业DC熟练度提升至传奇。</p>\n<hr />\n<p>The runes you carve are drawn with a legendary hand—each character precise, yet a style distinctly your own. Your proficiency rank for runesmith class DC increases to legendary.</p>"
+    },
+    "Legendary Necromancy": {
+      "name": "传奇死灵术 Legendary Necromancy",
+      "description": "<p>你一手操弄生命，一手掌控死亡，死灵术的循环任你塑造。你在法术攻击调整和法术DC上的熟练等级提升至传奇。</p>\n<hr />\n<p>Death in one hand, life in the other, you shape the cycles of necromancy. Your proficiency ranks for spell attack modifier and spell DC increase to legendary.</p>"
+    },
+    "Mastery of Life and Death": {
+      "name": "操弄生死 Mastery of Life and Death",
+      "description": "<p>你在研习生与死的精巧平衡之后，掌握了在其间起舞的秘诀。当你施放法术，或使用能力从而造成虚能或命能伤害时，应用目标在虚能与命能中抗力或免疫较弱的一方。举例而言，若目标免疫虚能但对命能无任何抗力或免疫，你的相应法术视为对其造成命能伤害。对命能和虚能同时应用的抗力或免疫（以及对全伤害的抗力或免疫）如常生效。</p>\n<hr />\n<p>You have studied the delicate balance of life and death to such a point that you can dance between them with ease. Whenever you cast a spell or use an ability that would deal void or vitality damage, use the weaker of the target's resistance or immunity to void or to vitality. For instance, if the creature were immune to void and had no resistance or immunity to vitality damage, it would take vitality damage from the spell or ability. Resistance or immunity to both (or to all damage) applies as normal.</p>"
+    },
+    "Inevitable Return": {
+      "name": "强制复生 Inevitable Return",
+      "description": "<p>在你身边，亡者无法安眠。你获得 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-actions.Item.jyhYP51XI09DFSqy]{Inevitable Return} 反应。</p>\n<hr />\n<p>The dead do not rest around you. You gain the @UUID[Compendium.pf2e-playtest-data.impossible-playtest-actions.Item.jyhYP51XI09DFSqy]{Inevitable Return} reaction.</p>"
+    },
+    "Bone Shaper": {
+      "name": "塑骨灵匠 Bone Shaper",
+      "description": "<p>塑骨灵匠，亦称为塑骨师，从死者的骸骨中塑造他们想要之物，或仅凭扩展塑造小块骨片便能创造出新的骨骼。</p><p><strong>职业专长</strong> 骨矛</p><p><strong>通用专长</strong> @UUID[Compendium.pf2e.feats-srd.Item.Ux73dmoF8KnavyUD]{Fleet}</p><p><strong>残骸强化</strong> 你的残骸构造精良且灵动敏捷。每当你的一具或多具残骸将要因某需要反射豁免的效果而受到伤害时，你可以尝试一次 @Check[flat|dc:15]。若成功，你选择一具残骸，使其不受任何伤害；若大成功，则所有这些残骸均不受任何伤害。</p>\n<hr />\n<p>Bone shapers, also known as osteomancers, craft what they desire from the skeletons of the dead or simply create new skeletons by expanding and shaping small bone pieces.</p><p><strong>Class Feat</strong> Bone Spear</p><p><strong>General Feat</strong> @UUID[Compendium.pf2e.feats-srd.Item.Ux73dmoF8KnavyUD]{Fleet}</p><p><strong>Thrall Enhancement</strong> Your thralls are well constructed and nimble. Whenever one or more of your thralls would take damage from an effect requiring a Reflex save, you can attempt a @Check[flat|dc:15]. If you succeed, you choose one thrall to take no damage, and on a critical success none of the thralls take the damage.</p>"
+    },
+    "Runic Optimization": {
+      "name": "符文优化 Runic Optimization",
+      "description": "<p>你已学会利用武器符文的魔力造成更大伤害。使用带有 <em>striking</em> 强击符文的武器时，你会造成 2 点额外伤害。如果武器带有 <em>greater striking</em> 高等强击符文，伤害增加到 3；如果带有 <em>major striking</em> 上等强击符文，伤害增加到 4。</p>\n<hr />\n<p>You've learned to draw upon the magic of weapon runes to deal greater damage. You deal 2 additional damage with weapons bearing a <em>striking</em> rune. This damage increases to 3 if the weapon bears a <em>greater striking</em> rune and 4 if it bears a <em>major striking</em> rune.</p>"
+    },
+    "Consume Thrall": {
+      "name": "吞噬残骸 Consume Thrall",
+      "description": "<p>死灵循环允许你抹除一具自己的残骸，以恢复部分魔力，并更频繁地使用墓穴法术。你获得 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-actions.Item.1rdzH632tdgpCAGc]{Consume Thrall} 动作。</p>\n<hr />\n<p>The cycle of necromancy allows you to eradicate one of your own thralls to restore some of your magic and use your grave spells more frequently. You gain the @UUID[Compendium.pf2e-playtest-data.impossible-playtest-actions.Item.1rdzH632tdgpCAGc]{Consume Thrall} action.</p>"
+    },
+    "Grim Wards": {
+      "name": "冷酷守卫 Grim Wards",
+      "description": "<p>你创造死灵守卫保护自己免受不死生物与效果造成的心智伤害。你在意志豁免上的熟练等级提升至专家。当你于对抗一个来自不死生物或作祟的心灵或占据效果的意志豁免中获得成功，你改为得到大成功结果。</p>\n<hr />\n<p>You have created wards to protect yourself against the mental harm caused by undead creatures and effects. Your proficiency rank for Will saves increases to expert. When you roll a success at a Will save against a mental or possession effect caused by an undead or haunt, you get a critical success instead.</p>"
+    },
+    "Undying Resilience": {
+      "name": "不死韧性 Undying Resilience",
+      "description": "<p>即便死神也无法从你手中夺走你的躯体。你在强韧豁免上的 熟练等级提升至传奇。当你在强韧豁免中掷出成功，你改为得到大成功结果。当你在强韧豁免中掷出大失败，你改为得到失败结果。当你在对抗伤害性效果的强韧豁免中失败，你仅承受半额伤害。</p>\n<hr />\n<p>Death cannot claim your body easily. Your proficiency rank for Fortitude saves increases to legendary. When you roll a success on a Fortitude save, you get a critical success instead. When you roll a critical failure on a Fortitude save, you get a failure instead. When you fail a Fortitude save against a damaging effect, you take half damage.</p>"
+    },
+    "Assured Runic Crafter": {
+      "name": "可靠符文匠人 Assured Runic Crafter",
+      "description": "<p>你已经习惯了在野外描画和蚀刻符文，所以在安静的工作室里，你很难出错。当你在休整期（《玩家核心》）掷骰检定来制作魔法物品时，且该物品是一个永久符文时，你会得到比你的制作检定结果高一级成功度的结果。</p>\n<hr />\n<p>You're so used to tracing and etching runes in the field that when given the peace and quiet of a proper workshop, it's hard for things to go astray. When you roll a check to Craft a magic item in downtime and that item is a permanent rune, you get the outcome one degree of success better than the result of your Crafting check.</p>"
+    }
+  }
+}

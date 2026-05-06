@@ -1,0 +1,172 @@
+{
+  "label": "职业特性\nClass Features",
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
+  },
+  "folders": {
+    "Daredevil": "狂徒\nDaredevil",
+    "Shared": "共享\nShared",
+    "Slayer": "猎杀者\nSlayer"
+  },
+  "entries": {
+    "Daredevil's Endurance": {
+      "name": "狂徒耐力 Daredevil's Endurance",
+      "description": "<p>你习惯了承受打击并从后果中恢复。你获得 @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard} 通用专长，并且当你通过 @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9] 或 @UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{Battle Medicine} 获得治疗时，你的治疗量获得等于你等级的环境加值。</p>\n<hr />\n<p>You're used to taking punishment and recovering from the aftermath. You gain the @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard} general feat, and when you receive healing from @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9] or @UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{Battle Medicine}, you gain a circumstance bonus to the healing equal to your level.</p>"
+    },
+    "Slayer Expertise": {
+      "name": "猎杀者专家 Slayer Expertise",
+      "description": "<p>你对工具的使用更加熟练。你的猎杀者职业DC熟练等级提升至专家。</p>\n<hr />\n<p>Your use of your tools is more skillful. Your proficiency rank for your slayer class DC increases to expert.</p>"
+    },
+    "Monster Lore": {
+      "name": "怪物学识 Monster Lore",
+      "description": "<p>你的训练与经验让你拥有关于危险怪物的全面知识，即便面对从未见过的生物，你也常能正确推断出关于它的信息。你成为怪物学识熟练，这是一项特殊的学识技能，可用于 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} 关于任意类别非人形生物的信息，但通常仅能识别其显著的脆弱、抗力以及最薄弱的防御。怪物学识不能用于回想生物以外其他主题的知识。</p><p>在3级时，你成为怪物学识专家；在7级时，你成为怪物学识大师；在15级时，你成为怪物学识传奇。</p>\n<hr />\n<p>Your training and experience means you have comprehensive knowledge about dangerous monsters, and can often correctly deduce information about even creatures that are new to you. You become trained in Monster Lore, a special lore skill that can be used to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about non-humanoid creatures of any kind, but typically only to identify their notable vulnerabilities, resistances, and weakest defenses. Monster Lore can't be used to Recall Knowledge about topics other than creatures.</p><p>At 3rd level, you become an expert in Monster Lore; at 7th level, you become a master in Monster Lore; and at 15th level, you become legendary in Monster Lore.</p>"
+    },
+    "Enduring Adrenaline": {
+      "name": "持久肾上腺素 Enduring Adrenaline",
+      "description": "<p>战斗的快感让你屹立不倒。你的狂徒职业DC熟练等级提升至大师。每当你获得肾上腺素时，你还会获得等于你等级一半的临时生命值，持续到你下一回合开始。</p>\n<hr />\n<p>The rush of combat keeps you on your feet. Your proficiency rank for your daredevil class DC increases to master. Whenever you gain adrenaline, you also gain a number of temporary Hit Points equal to half your level that last until the beginning of your next turn.</p>"
+    },
+    "Consecrated Panoply": {
+      "name": "祝圣武备 Consecrated Panoply",
+      "description": "<p>无论你是否信奉某位神祇，你都知道神祇的器物对你所猎捕的许多生物而言是亵神之物。你的标志性工具是一件背带或外套，其中藏有看似无穷无尽的护符与祝圣武器，无论是显露在外还是藏于暗袋之中，它们的祝福都能保护你并刺穿你的猎物。</p><p><strong>初始增益—护佑符</strong> 当你穿戴此标志性工具时，其中的祝圣护符能保护你免受伤害。你对抗你猎物的豁免获得+1状态加值。</p><p><strong>强化</strong> 你对抗具有战利品任一特征的生物，以及对抗战利品任一传统法术的豁免也获得+1状态加值。</p><p><strong>猎杀技巧—</strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.BR1P3Dy0gjsuKu7V]{Hunting Spike}</p><p><strong>专精军械（7级）</strong> 你的狩猎尖刺等同于+1精制匕首。此外，它们被视为冷铁或白银，由你在强化军械库时选择。在13级时，它们等同于+2大精制匕首。在19级时，它们等同于+3大师精制匕首，并且当你 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} 时，你可以选择让它们被视为精金而非冷铁或白银。</p>\n<hr />\n<p>Whether you worship a deity or not, you know that their trappings are anathema to many of the creatures you hunt. Your signature tool is a harness or coat that contains a seemingly endless array of charms and consecrated weapons, whether worn openly or in hidden pockets, and their blessings protect you and skewer your prey in equal measure.</p><p><strong>Initial Benefit—Safeguard Charms</strong> While wearing this signature tool, the consecrated charms within protect you from harm. You gain a +1 status bonus to saving throws against your quarry.</p><p><strong>Reinforced</strong> You also gain a +1 status bonus to saving throws against creatures with any of the trophy's traits and against spells of any of the trophy's traditions.</p><p><strong>Slaying Technique—</strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.BR1P3Dy0gjsuKu7V]{Hunting Spike}</p><p><strong>Specialized Arsenal (7th)</strong> Your hunting spikes function as a +1 striking daggers. In addition, they are treated as either cold iron or silver, chosen when you Reinforce your Arsenal. At 13th level, they function as +2 greater striking daggers. At 19th level, they function as +3 major striking daggers, and you can choose for them to be treated as adamantine instead of cold iron or silver when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}.</p>"
+    },
+    "Weapon Mastery": {
+      "name": "武器大师 Weapon Mastery",
+      "description": "<p>你精通战斗技艺。你对简易武器、军用武器和无武装攻击的熟练等级提升至大师。</p>\n<hr />\n<p>You've mastered combat prowess. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master.</p>"
+    },
+    "Slayer's Sight": {
+      "name": "猎杀者视界 Slayer's Sight",
+      "description": "<p>你能注意到猎物存在的哪怕是最微小的迹象，并瞬间做出反应。你的察觉熟练等级提升至大师。 此外，每当你投掷先攻进行战斗时，你总是获得一个反应动作，尽管你只能将其用于猎杀者专长或职业特性的反应动作。GM可能仍会照常根据情况裁定你可以在你的第一个回合之前使用其他反应动作。</p>\n<hr />\n<p>You can notice even the tiniest signs of your quarry's presence and react to them in an instant. Your proficiency rank for Perception increases to master. In addition, you always gain a reaction whenever you roll initiative for combat, though you can use it only for reactions from slayer feats or class features. The GM might still rule that you can use other reactions before your first turn based on the situation, as normal.</p>"
+    },
+    "Persistent Focus": {
+      "name": "执着专注 Persistent Focus",
+      "description": "<p>你对猎物的一心一意让你难以动摇。你的意志豁免熟练等级提升至大师。当你在意志豁免中骰出成功时，你改为获得大成功。</p>\n<hr />\n<p>Your single-minded pursuit of your quarry makes you difficult to sway. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead.</p>"
+    },
+    "On the Hunt": {
+      "name": "猎杀时刻 On the Hunt",
+      "description": "<p>无论你是否正在面对你的猎物，你的猎杀者本能都让你能抓住任何机会，追逐战斗的快感直至胜利。你获得 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt} 反应。</p>\n<hr />\n<p>Whether you're facing your quarry or not, your slayer's instincts let you seize on any advantage, chasing the thrill of battle to victory. You gain the @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt} reaction.</p>"
+    },
+    "Adrenaline": {
+      "name": "肾上腺素 Adrenaline",
+      "description": "<p>当你从对手致命的刀锋间穿梭，做出把性命与肢体押上赌桌的险招时，危险的快感会冲刷你的血脉。这种亢奋状态称为肾上腺素。</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.umW1IeaFUyl4K5qT]</p><p>你通过执行具有风险特征的动作来获得肾上腺素。GM可能会判定某个特别危险的动作（例如跳过深邃的裂谷或冲过危险地形）具有风险特征。此类险招通常至少涉及一个动作，并且要么自动对你造成伤害，要么在技能检定或豁免失败时有对你造成伤害的风险。</p><p>你在风险动作开始时（在你移动或尝试任何掷骰之前）获得肾上腺素，肾上腺素持续到你下一回合开始，因此你必须不断执行风险动作以保持肾上腺素流动。通常，你只在战斗遭遇中获得并保持肾上腺素，当遭遇结束时，你会失去肾上腺素。</p><p>为了帮助你获得肾上腺素，你获得 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.av2WNd6sz9r0VH4C]{Daring Stunt} 动作。其他狂徒动作，例如某些职业专长，需要你拥有肾上腺素才能使用。</p>\n<hr />\n<p>As you slip past the deadly blades of your opponents and perform stunts that put life and limb on the line, the thrill of danger washes through your veins. This heightened state is called adrenaline.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.umW1IeaFUyl4K5qT]</p><p>You gain adrenaline by performing actions that have the risky trait. The GM might determine that a particularly dangerous action, such as leaping a deep chasm, or sprinting across hazardous terrain, gains the risky trait. Such stunts typically involve at least one action and either automatically deal damage to you or risk dealing damage as the result of a failed skill check or saving throw.</p><p>You gain adrenaline at the start of the risky action (before you move or attempt any rolls) and the adrenaline lasts until the beginning of your next turn, so you must constantly perform risky actions to keep your adrenaline flowing. Normally, you gain and keep adrenaline only in combat encounters, and when an encounter ends, you lose adrenaline.</p><p>To help you gain adrenaline, you gain the @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.av2WNd6sz9r0VH4C]{Daring Stunt} action. Other daredevil actions, such as certain class feats, require you to have adrenaline.</p>"
+    },
+    "Stunt Damage": {
+      "name": "险招伤害 Stunt Damage",
+      "description": "<p>当你将敌人砸向景物时，会造成真正的伤害。当你拥有肾上腺素并强迫目标移动，且该移动被一个支点（见后文）打断时，目标受到 1d6 加上你力量调整值的钝击伤害（@Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]）。该伤害在 5 级、9 级、13 级与 17 级时各增加 1d6。</p><hr /><p><strong>支点（Prop）：</strong>支点可以是任何足够大且坚固的东西，供你蹬踏。这包括比你大的生物，或者是墙壁、柱子或其他耐用的地形特征。GM 根据具体情况决定生物或物体是否算作支点。例如，GM 可能会因为巨型泥怪的原生质稠度而决定你不能将其用作支点。</p>\n<hr />\n<p>When you smash your enemy into the scenery, it does real damage. Whenever you have adrenaline and force a target to move, and the movement is interrupted by a prop (see below), the target takes an amount of bludgeoning damage equal 1d6 plus your Strength modifier (@Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]). This damage increases by 1d6 at 5th, 9th, 13th, and 17th level.</p><hr /><p><strong>Prop:</strong> A prop can be anything large and sturdy enough for you to push yourself off of. This includes a creature that is larger than you or a wall, column, or other durable terrain feature. The GM decides whether a creature or object counts as a prop, depending on the circumstances. For instance, the GM might decide that you can't use a Huge ooze as a prop, due to the consistency of its protoplasm.</p>"
+    },
+    "Daredevil’s Fortitude": {
+      "name": "狂徒强韧 Daredevil’s Fortitude",
+      "description": "<p>通过将自己置于危险之中所承受的所有打击，你的身体变得更加强壮。你的强韧豁免熟练等级提升至大师。当你在强韧豁免中骰出成功时，你改为获得大成功。</p>\n<hr />\n<p>Your body has grown stronger from all the beatings you've taken by throwing yourself into danger. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead.</p>"
+    },
+    "Slayer Mastery": {
+      "name": "猎杀者大师 Slayer Mastery",
+      "description": "<p>你对工具的使用无与伦比。你的猎杀者职业DC熟练等级提升至大师。</p>\n<hr />\n<p>Your use of your tools is unparalleled. Your proficiency rank for your slayer class DC increases to master.</p>"
+    },
+    "Bloodseeking Blade": {
+      "name": "觅血之刃 Bloodseeking Blade",
+      "description": "<p>你与自己武器之间的连结比大多数猎杀者更为紧密。你的标志性工具是一件由你选择的0级常见简单或军用武器。当你 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} 时，你可以指定另一件简单或军用武器作为你的标志性工具，并将你的特殊调整转移到它上面。</p><p><strong>初始增益—血槽</strong> 如果你的猎物对此标志性工具造成的物理伤害具有抗力，你忽略其中相当于1+武器伤害骰数的抗力。</p><p><strong>强化</strong> 你每回合用此标志性工具进行的第一次打击，额外造成1d6点战利品的某一种伤害类型的伤害，由你在强化军械库时选择。该额外伤害在11级时增加至2d6，19级时增加至3d6。</p><p><strong>猎杀技巧—</strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Tb9oo0tm4XjudslZ]{Honed Strike}</p><p><strong>专精军械（7级）</strong> 你获得此标志性工具的致命专精效果，并且初始增益适用于此标志性工具所造成伤害的任何抗力，而不仅是物理伤害。此外，此标志性工具获得 @UUID[Compendium.pf2e.equipment-srd.Item.P6v2AtJw7AUwaDzf]{Fearsome}、@UUID[Compendium.pf2e.equipment-srd.Item.qlunQzfnzPQpMG6U]{Returning} 或 @UUID[Compendium.pf2e.equipment-srd.Item.roeYtwlIe65BPMJ1]{Shifting} 属性符文之一的效果，由你在强化军械库时选择。</p>\n<hr />\n<p>You have an even closer connection to your weapon than most slayers. Your signature tool is a level 0 common simple or martial weapon of your choice. You can designate a different simple or martial weapon as your signature tool when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}, transferring your special adjustments to it.</p><p><strong>Initial Benefit—Bloody Fuller</strong> If your quarry is resistant to physical damage dealt by this signature tool, you ignore an amount of that resistance equal to 1 + the number of weapon damage dice.</p><p><strong>Reinforced</strong> Your first Strike with this signature tool each turn deals 1d6 additional damage of one of the trophy's damage types, chosen when you Reinforce your Arsenal. The extra damage increases to 2d6 at 11th level and to 3d6 at 19th level.</p><p><strong>Slaying Technique—</strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Tb9oo0tm4XjudslZ]{Honed Strike}</p><p><strong>Specialized Arsenal (7th)</strong> You gain access to the critical specialization effects of this signature tool, and the initial benefit applies to any resistance to damage dealt by this signature tool, not just physical damage. In addition, this signature tool gains the effects of either a @UUID[Compendium.pf2e.equipment-srd.Item.P6v2AtJw7AUwaDzf]{Fearsome}, @UUID[Compendium.pf2e.equipment-srd.Item.qlunQzfnzPQpMG6U]{Returning}, or @UUID[Compendium.pf2e.equipment-srd.Item.roeYtwlIe65BPMJ1]{Shifting} property rune, chosen when you Reinforce your Arsenal.</p>"
+    },
+    "Specialized Arsenal": {
+      "name": "专精军械 Specialized Arsenal",
+      "description": "<p>你对武器的了解使它们更加有效。使用你达到专家熟练度的武器和无武装攻击时，你造成2点额外伤害。如果你达到大师熟练度，此伤害增加至3点；如果达到传奇，则增加至4点。此外，你获得你标志性工具的专精军械增益。</p>\n<hr />\n<p>Your knowledge of your weapons makes them far more effective. You deal 2 additional damage with weapons and unarmed attacks in which you're an expert. This damage increases to 3 if you're a master, and 4 if you're legendary. In addition, you gain the specialized arsenal benefit of your signature tool.</p>"
+    },
+    "Armor Expertise": {
+      "name": "护甲专家 Armor Expertise",
+      "description": "<p>你花了太多时间在护甲里，你知道如何充分利用它的保护。你的轻甲和中甲熟练等级，以及无甲防御熟练等级提升至专家。</p>\n<hr />\n<p>You have spent so much time in armor that you know how to make the most of its protection. Your proficiency ranks for light and medium armor, as well as for unarmored defense, increase to expert.</p>"
+    },
+    "Greater Specialized Arsenal": {
+      "name": "高等专精军械 Greater Specialized Arsenal",
+      "description": "<p>你深厚的经验使你使用工具和武器更加有效。你的专精军械伤害在使用专家熟练度的武器和无武装攻击时增加至4点，大师熟练度时增加至6点，传奇熟练度时增加至8点。你获得你第二个标志性工具的专精军械增益。</p>\n<hr />\n<p>Your knowledge of your weapons makes them far more effective. You deal 2 additional damage with weapons and unarmed attacks in which you're an expert. This damage increases to 3 if you're a master, and 4 if you're legendary. In addition, you gain the specialized arsenal benefit of your signature tool.</p>"
+    },
+    "Will Expertise": {
+      "name": "意志专家 Will Expertise",
+      "description": "<p>作为一名狂徒意味着不屈服于恐惧。你的意志豁免熟练等级提升至专家。</p>\n<hr />\n<p>Being a daredevil means not giving into fear. Your proficiency rank for Will saves increases to expert.</p>"
+    },
+    "Improved Stunt Flexibility": {
+      "name": "精通灵活险招 Improved Stunt Flexibility",
+      "description": "<p>你过去的功绩为你应对未来的挑战做好了准备。当你在每日准备期间使用灵活险招时，你可以获得两个狂徒专长而不是一个。第一个专长必须是8级或更低，第二个专长可以是最高14级，你可以使用第一个专长来满足第二个专长的先决条件。你必须满足所有专长的先决条件，并且两个专长都必须具有<strong>风险</strong>特征。</p>\n<hr />\n<p>Your past exploits have prepared you for tomorrow's challenges. When you use stunt flexibility during your daily preparations, you can gain two daredevil feats instead of one. While the first feat must be of 8th level or lower, the second feat can be up to 14th level, and you can use the first feat to meet the prerequisites of the second feat. You must meet all the feats' prerequisites, and both feats must have the risky trait.</p>"
+    },
+    "Armor Mastery": {
+      "name": "护甲大师 Armor Mastery",
+      "description": "<p>你对护甲的技巧进一步提高，轻松挡开打击。你的轻甲和中甲熟练等级，以及无甲防御熟练等级提升至大师。</p>\n<hr />\n<p>Your skill with your armor further improves, warding off blows with ease. Your proficiency ranks for light and medium armor, as well as for unarmored defense, increase to master.</p>"
+    },
+    "Weapon Expertise": {
+      "name": "武器专家 Weapon Expertise",
+      "description": "<p><strong>狂徒</strong> 在你的手中，简易武器变得危险。你对简易武器、军用武器和无武装攻击的熟练等级提升至专家。</p><p><strong>猎杀者</strong> 你与你的武器建立了更紧密的联系。你对简易武器、军用武器和无武装攻击的熟练等级提升至专家。</p>\n<hr />\n<p><strong>Daredevil</strong> In your hands, simple weapons become dangerous. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.</p><p><strong>Slayer</strong> You've developed a stronger connection with your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.</p>"
+    },
+    "Greater Persistent Focus": {
+      "name": "高等执着专注 Greater Persistent Focus",
+      "description": "<p>你受过训练的心灵几乎坚不可摧。你的意志豁免熟练等级提升至传奇。当你在意志豁免中骰出大失败时，你会获得失败。当你在对抗造成伤害的效果的意志豁免中失败时，你受到的伤害减半。</p>\n<hr />\n<p>Your trained mind is almost impenetrable. Your proficiency rank for Will saves increases to legendary. When you roll a critical failure on a Will save, you get a failure instead. When you fail a Will save against an effect that deals damage, you halve the damage you take.</p>"
+    },
+    "Tip of the Tongue": {
+      "name": "信手拈来 Tip of the Tongue",
+      "description": "<p>你对怪物百科全书般的知识让你能迅速回想起基本信息。你获得怪物学识对应的 @UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{Assurance} 与 @UUID[Compendium.pf2e.feats-srd.Item.H3I2X0f7v4EzwxuN]{Automatic Knowledge} 技能专长。</p>\n<hr />\n<p>Your encyclopedic knowledge of monsters allows you to quickly recall basic information. You gain the @UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{Assurance} and @UUID[Compendium.pf2e.feats-srd.Item.H3I2X0f7v4EzwxuN]{Automatic Knowledge} skill feats for Monster Lore.</p>"
+    },
+    "Deny Advantage": {
+      "name": "否决优势 Deny Advantage",
+      "description": "<p>即使肾上腺素没有充盈你的全身，敌人也很难抓住你的破绽。对于和你等级相同或更低的隐藏、未被察觉或包夹生物，以及和你等级相同或更低、正在使用突袭的生物，你不会因此 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}。然而，它们仍然可以协助其盟友进行包夹。</p>\n<hr />\n<p>Even when adrenaline isn't flooding your system, your enemies find it hard to get the drop on you. You aren't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to hidden, undetected, or flanking creatures of your level or lower, or creatures of your level or lower using surprise attack. However, they can still help their allies flank.</p>"
+    },
+    "Warded Mail": {
+      "name": "符护链甲 Warded Mail",
+      "description": "<p>你的护甲不仅仅是简单的防护——它与你完美贴合，配合你的动作并阻挡你的猎物。你的标志性工具是一套由你选择的0级常见护甲。当你 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} 时，你可以指定另一套护甲作为你的标志性工具，并将你的特殊调整转移到它上面。此外，你成为重甲熟练，且每当你获得一项让你在中甲熟练度达到专家或更高的职业特性时，你也在重甲上获得相同的熟练度。</p><p><strong>初始增益—强固铠片</strong> 当你穿戴此标志性工具时，你对你猎物所造成的物理伤害获得抗力，其值等于2+护甲威能符文之值。</p><p><strong>强化</strong> 你对战利品的某一种伤害类型也获得抗力，其值等于1+你等级的一半，由你在强化军械库时选择。</p><p><strong>猎杀技巧—</strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.7Wyg7Z4HpK5NABep]{Armored Shelter}</p><p><strong>专精军械（7级）</strong> 你获得此标志性工具的护甲专精效果，且初始增益对你猎物所造成的所有伤害都给予抗力。此外，你可以以单个互动动作穿上或脱下此标志性工具。</p>\n<hr />\n<p>Your armor is more than simple protection—it fits you perfectly, matching your movements and warding off your quarry. Your signature tool is a set of level 0 common armor of your choice. You can designate a different set of armor as your signature tool when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}, transferring your special adjustments to it. In addition, you become trained in heavy armor, and whenever you gain a class feature that grants you expert or greater proficiency in medium armor, you also gain that proficiency in heavy armor.</p><p><strong>Initial Benefit—Fortified Plate</strong> While wearing this signature tool, you gain resistance to physical damage dealt by your quarry equal to 2 + the value of the armor’s potency rune.</p><p><strong>Reinforced</strong> You also gain resistance equal to 1 + half your level to one of the trophy's damage types, chosen when you Reinforce your Arsenal.</p><p><strong>Slaying Technique—</strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.7Wyg7Z4HpK5NABep]{Armored Shelter}</p><p><strong>Specialized Arsenal (7th)</strong> You gain access to the armor specialization effects of this signature tool, and the initial benefit grants resistance to all damage dealt by your quarry. In addition, you can don or doff this signature tool as a single Interact action.</p>"
+    },
+    "Evasive Reflexes": {
+      "name": "反射闪避 Evasive Reflexes",
+      "description": "<p>你学会了快速移动以躲避爆炸、龙息和更糟的情况。你的反射豁免熟练等级提升至大师。当你在反射豁免中骰出成功时，你改为获得大成功。</p>\n<hr />\n<p>You've learned to move quickly to avoid explosions, dragons' breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</p>"
+    },
+    "Daredevil's Stunt": {
+      "name": "狂徒险招 Daredevil's Stunt",
+      "description": "<p>别人看到的是危险，你看到的是削弱和妨碍敌人的机会。你获得一个额外的1级狂徒专长，该专长必须具有<strong>风险</strong>特征。</p>\n<hr />\n<p>Where others see danger, you see opportunities to debilitate and inconvenience your enemies. You gain an additional 1st-level daredevil feat that must have the risky trait.</p>"
+    },
+    "Stunt Flexibility": {
+      "name": "灵活险招 Stunt Flexibility",
+      "description": "<p>有时不同的情况需要不同的战术。当你进行每日准备时，你可以用另一个6级或更低等级的狂徒专长替换你通过<strong>狂徒险招</strong>获得的1级专长，前提是你满足该专长的先决条件、尚未拥有该专长且该专长具有<strong>风险</strong>特征。你可以使用该专长直到你的下一次每日准备。</p>\n<hr />\n<p>Sometimes different situations require different maneuvers. When you make your daily preparations, you can replace the 1st-level feat you gained through daredevil's stunt with another daredevil feat of 6th level or lower that you meet the prerequisites for, don't already have, and has the risky trait. You can use that feat until your next daily preparations.</p>"
+    },
+    "Chymist's Vials": {
+      "name": "炼金师药瓶 Chymist's Vials",
+      "description": "<p>你相信战斗在开始之前就已经胜出大半，因此你利用自己对炼金术与草药学的知识来确保胜利。你的标志性工具是一件 @UUID[Compendium.pf2e.equipment-srd.Item.4ftXXUCBHcf4b0MH]{Alchemist's Toolkit}，其中装有以下特殊的炼金调配物，你穿戴它时可以使用这些物品。当你 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} 时，你可以指定另一件炼金师工具组作为你的标志性工具，并将你的特殊调整转移到它上面。此外，你获得 @UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{Alchemical Crafting} 技能专长。</p><p><strong>初始增益—</strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.yDiXffIZxAGHQMAv]{Chymist's Eye}</p><p><strong>猎杀技巧—</strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.iCrcpEFp5MJRbgcW]{Ignition Vial}</p><p><strong>专精军械（7级）</strong> 点火药剂和炼金师之眼的频率均变为每轮一次。</p>\n<hr />\n<p>You believe that a battle is won well before it begins, and you use your knowledge of alchemy and herbalism to guarantee victory. Your signature tool is an @UUID[Compendium.pf2e.equipment-srd.Item.4ftXXUCBHcf4b0MH]{Alchemist's Toolkit} that contains the following special alchemical concoctions, which you can use while wearing it. You can designate a different alchemist's toolkit as your signature tool when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}, transferring your special adjustments to it. In addition, you gain the @UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{Alchemical Crafting} skill feat.</p><p><strong>Initial Benefit—</strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.yDiXffIZxAGHQMAv]{Chymist's Eye}</p><p><strong>Slaying Technique—</strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.iCrcpEFp5MJRbgcW]{Ignition Vial}</p><p><strong>Specialized Arsenal (7th)</strong> The frequency of Ignition Vial and Chymist's Eye both become once per round.</p>"
+    },
+    "Audacious Combatant": {
+      "name": "无畏斗士 Audacious Combatant",
+      "description": "<p>你的肾上腺素为你不断攻击提供动力。当你拥有肾上腺素并使用具有<strong>连携</strong>特征的动作进行攻击时，你在回合内第二次攻击的多重攻击减值为-4（若为灵巧攻击则为-3）而非-5，第三次或后续攻击的多重攻击减值为-8（若为灵巧攻击则为-6）而非-10。</p>\n<hr />\n<p>Your adrenaline fuels you to attack again and again. Whenever you have adrenaline and make an attack as part of an action with the press trait, your multiple attack penalty is –4 (–3 with an agile attack) on your second attack of the turn instead of –5, and –8 (–6 with an agile attack) on your third or subsequent attack of the turn instead of –10.</p>"
+    },
+    "Slayer's Quarry": {
+      "name": "猎杀者猎物 Slayer's Quarry",
+      "description": "<p>身为猎杀者，当你仔细研究并追踪某个特定目标时，你会格外有效。你获得以下增益，使你能够追踪你的猎物，并在击败它时取得你的奖品。</p><h2>标记猎物</h2><p>对于选择狩猎何种猎物，你没有太多偏好，只要你认为它值得即可。你获得 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.pLEBGC3EMeUlFLqq]{Mark Quarry} 行动。</p><h2>获取战利品</h2><p>当你的猎物终于倒下时，你可以迅速取得一件战利品并以之强化自己的工具，为下一场狩猎做好准备。你获得一个个人的战利品收藏，那是一个轻负重、无金钱价值的容器，用来存放你的战利品。你的战利品收藏一次最多可以容纳5件未使用的战利品。你也获得 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.xCzDScyYpmhxPNTF]{Claim Trophy} 与 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce Arsenal} 行动，以获取并使用战利品。</p><h2>战利品</h2><p>战利品在你每日准备时被用于强化军械库，为你的狩猎工具增添额外的增益。战利品的性质取决于你的猎物，但每件战利品都有某些共通特性，由它所取自的生物决定。虽然为了你的猎杀者专长与职业特性的目的，所有战利品都关联于一种魔法传统，但它们本身并非天生具有魔法，且除非取自的生物有传统特征，否则战利品也不带传统特征。一些猎杀者专长与职业特性可能也会引用战利品所取自生物的某项特定特征，超出战利品的共通特性范畴。</p><p><strong>特征</strong> 战利品的特征是该生物所拥有的任何特征，但不包括稀有度或体型特征。</p><p><strong>伤害类型</strong> 战利品的伤害类型是该生物可以通过其打击或非施法能力造成的任何伤害类型，或是该生物对其具有免疫的伤害类型。</p><p><strong>传统</strong> 战利品所关联的传统包括与该生物传统特征匹配的传统（若有），以及它能施放的任何法术的传统（若有）。如果该生物既无传统特征，也无施放法术的能力，则战利品的传统为超自然。</p><p>在1级时，你已经拥有一件战利品，你在冒险之前的某场战斗中取得了它，或在训练期间被赠予它。如果你正在创建更高等级的猎杀者，则你每拥有2级就额外获得一件战利品。你的初始战利品具有以下你选择的特性。</p><p><strong>特征</strong> 异怪、野兽、巨龙、巨人或不死之一。</p><p><strong>伤害类型</strong> 冷冻、火焰、电击或精神之一。</p><p><strong>传统</strong> 秘法、神圣、原始或超自然之一</p>\n<hr />\n<p>As a slayer, you are especially effective when you carefully research and track a particular target. You gain the following benefits, allowing you to track your quarry and claim your prize when you defeat it.</p><h2>Mark Quarry</h2><p>You have little preference in which prey you choose to hunt, so long as you deem it worthy. You gain the @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.pLEBGC3EMeUlFLqq]{Mark Quarry} activity.</p><h2>Claim Trophy</h2><p>When your quarry finally falls, you can swiftly claim a trophy and use it to reinforce your own tools, readying yourself for the next hunt. You gain a personal trophy case, a container of light bulk with no monetary value which you use to store your trophies. Your trophy case can carry up to 5 unused trophies at a time. You also gain the @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.xCzDScyYpmhxPNTF]{Claim Trophy} and @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce Arsenal} activities to claim and use trophies.</p><h2>Trophies</h2><p>Trophies are used to Reinforce your Arsenal during your daily preparations, adding additional benefits to your hunting tools. The nature of your trophies varies depending on your quarry, but each has certain common characteristics, determined by the creature from which it was claimed. While all trophies have an associated magical tradition for the purposes of your slayer feats and class features, they are not inherently magical and don't have a tradition trait unless the creature they were claimed from did. Some slayer feats and class features might also reference a particular characteristic of the creature a trophy was claimed from, beyond a trophy's common characteristics.</p><p><strong>Traits</strong> A trophy's traits are any traits the creature had, not including rarity or size traits.</p><p><strong>Damage Types</strong> A trophy's damage types are any damage types which the creature could deal with its Strikes or non-spellcasting abilities, or which the creature had immunity to.</p><p><strong>Traditions</strong> A trophy is associated with the traditions matching the creature's tradition trait, if any, and the tradition of any spells it could cast, if any. If the creature had neither a tradition trait nor the ability to cast spells, the trophy's tradition is occult.</p><p>At 1st level, you have a single trophy already, which you claimed in a battle before your adventures or were given during your training. If you are creating a higher-level slayer, you start with an additional trophy for every 2 levels you have. Your starting trophy has the following characteristics of your choice.</p><p><strong>Traits</strong> One of aberration, beast, dragon, giant, or undead.</p><p><strong>Damage Types</strong> One of cold, fire, electricity, or spirit.</p><p><strong>Traditions</strong> One of arcane, divine, primal, or occult</p>"
+    },
+    "Propelling Strides": {
+      "name": "助推步法 Propelling Strides",
+      "description": "<p>你可以蹬墙或借助大型生物来获得一些速度。如果在移动动作开始时你与一个<strong>支点</strong>（prop，见侧边栏）相邻，你在该移动动作中获得+10尺速度环境加值。</p>\n<hr />\n<p>You can push yourself off a wall or large creature to gain some speed. If you are adjacent to a prop (see sidebar) at the beginning of a move action, you gain a +10-foot circumstance bonus to your Speeds for that move action.</p>"
+    },
+    "Expanded Arsenal": {
+      "name": "扩展军械 Expanded Arsenal",
+      "description": "<p>你增强了你的猎杀者军械库，使你能面对更大的挑战。选择第二个标志性工具。你获得其正常增益，但不获得其专精军械增益。</p>\n<hr />\n<p>You have enhanced your slayer's arsenal, allowing you to face ever greater challenges. Choose a second signature tool. You gain its normal benefits, but not its specialized arsenal benefit.</p>"
+    },
+    "Fated Foe": {
+      "name": "宿命之敌 Fated Foe",
+      "description": "<p>你难以被杀死，任何企图杀你之人只会引来你的怒火。你获得 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Cf48dHaL719aeQ9B]{Fated Foe} 自由动作。</p>\n<hr />\n<p>You are difficult to kill, and an attempt to do so only incurs your wrath. You gain the @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Cf48dHaL719aeQ9B]{Fated Foe} free action.</p>"
+    },
+    "Daredevil Expertise": {
+      "name": "狂徒专家 Daredevil Expertise",
+      "description": "<p>你鲁莽的技术让你难以对抗。你的狂徒职业DC熟练等级提升至专家。</p>\n<hr />\n<p>Your reckless techniques make you difficult to stand against. Your proficiency rank for your daredevil class DC increases to expert.</p>"
+    },
+    "Perception Mastery": {
+      "name": "察觉大师 Perception Mastery",
+      "description": "<p>你培养了敏锐的意识和对细节的关注。你的察觉熟练等级提升至大师。</p>\n<hr />\n<p>You've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master.</p>"
+    },
+    "Slayer's Arsenal": {
+      "name": "猎杀者军械库 Slayer's Arsenal",
+      "description": "<p>身为猎杀者，你拥有一套狩猎工具的军械库，可以专门加以准备以针对当前的猎物。你的狩猎工具在他人手中没有任何效果。如果你失去任何狩猎工具，你可以用一周的休整时间补齐所有缺失的工具。许多狩猎工具代表特定一件装备，通常是一件0级常见物品，你自动获得且无需付费；你可以用同类的新物品替换该工具，或将符文添加到合规的物品上，但你必须正常付费。在1级时，你拥有一件标志性工具，那是你格外亲近、并且特别擅长加以改造以适应猎物的特殊狩猎工具。选择一件标志性工具，获得其初始增益与一项称为猎杀技巧的独特动作。</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade}</strong> 你的标志性工具是一件独特而强大的武器。</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.iihaKfTGSfA3kExA]{Chymist's Vials}</strong> 你的标志性工具是一组独特的炼金药瓶以及调制更多药瓶所需的器材。</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply}</strong> 你的标志性工具是一组祝圣的护符与副武器。</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq]{Warded Mail}</strong> 你的标志性工具是一套坚固、量身定制的护甲。</p><p>除了标志性工具之外，你还可以通过猎杀者职业专长获得称为辅助工具的额外狩猎工具，以扩展你的军械库。</p>\n<hr />\n<p>As a slayer, you have an arsenal of hunting tools which you specially prepare to target your current quarry. Your hunting tools have no effect in anyone's hands but yours. If you lose any of your hunting tools, you can replace all missing tools with one week of downtime. Many hunting tools represent a specific piece of equipment, typically a level 0 common item , which you gain automatically and don't need to pay for; you can replace such a tool with a new item of the same kind or add runes to an eligible item, but you must pay for them normally. At 1st level, you have a signature tool, a special hunting tool for which you have a particular affinity and which you are especially adept at modifying to suit your quarry. Choose a signature tool, gaining its initial benefit and a unique action called a slaying technique.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade}</strong> Your signature tool is a unique and powerful weapon.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.iihaKfTGSfA3kExA]{Chymist's Vials}</strong> Your signature tool is a set of unique alchemical vials and the equipment to prepare more.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply}</strong> Your signature tool is a set of consecrated charms and side-arms.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq]{Warded Mail}</strong> Your signature tool is a suit of sturdy, customized armor.</p><p>In addition to your signature tool, you can gain extra hunting tools called secondary tools through slayer class feats, expanding your arsenal.</p>"
+    },
+    "Galvanized Mobility": {
+      "name": "激昂机动 Galvanized Mobility",
+      "description": "<p>当你滑过或翻滚过敌人身边时，他们很难击中你。你在对抗由你触发的反应动作的攻击时，AC获得+1环境加值；当你拥有肾上腺素时，此加值增加到+2。</p>\n<hr />\n<p>Your foes have difficulty striking you as you slip and tumble past them. You gain a +1 circumstance bonus to your AC against attacks from reactions you trigger; this bonus increases to +2 when you have adrenaline.</p>"
+    }
+  }
+}

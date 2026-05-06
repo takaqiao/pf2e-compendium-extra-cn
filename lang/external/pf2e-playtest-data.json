@@ -1,0 +1,124 @@
+{
+    "PFPT": {
+        "Daredevil": {
+            "Adrenaline": {
+                "Alteration": "执行此动作可获得肾上腺素。"
+            },
+            "BreakawayAttack": {
+                "DamageLabel": "就地取材 — 伤害类型"
+            },
+            "ExhilaratingAthlete": {
+                "Addendum": "你垂直跳跃的距离增加到 5 尺。如果你的速度至少为 15 尺，你的水平跳跃距离增加到 15 尺；如果你的速度至少为 30 尺，则增加到 20 尺。",
+                "Note": "你的跳高和跳远 DC 降低 10。这不与其他降低这些 DC 的能力叠加。"
+            },
+            "RiskyOverextension": {
+                "Label": "孤注一掷 — 添加致命"
+            },
+            "ScramblingRetreat": {
+                "Label": "仓促撤退"
+            },
+            "WeaponTwistStunt": {
+                "ModifierLabel": "绞械险招（卸除武器）"
+            }
+        },
+        "Slayer": {
+            "ApplySpiritOil": {
+                "ReinforcedPrompt": "你的精油是否经过强化？"
+            },
+            "BloodseekingBlade": {
+                "BloodyFuller": {
+                    "Label": "血槽",
+                    "Note": "如果你的猎物对此标志性工具造成的物理伤害有抗力，你忽略其中等于 1 + 武器伤害骰数量的抗力点数。",
+                    "Reinforced": {
+                        "ToggleLabel": "血槽 — 强化先发打击"
+                    }
+                },
+                "Label": "觅血之刃",
+                "SpecializedArsenal": {
+                    "Note": "如果你的猎物对此标志性工具造成的任意伤害有抗力，你忽略其中等于 1 + 武器伤害骰数量的抗力点数。",
+                    "ToggleLabel": "觅血之刃 — 强化军械库"
+                }
+            },
+            "ChymistsVials": {
+                "IgnitionVial": {
+                    "Reinforced": {
+                        "ToggleLabel": "点火药剂 — 强化伤害"
+                    }
+                },
+                "Label": "炼金师药瓶"
+            },
+            "ConsecratedPanoply": {
+                "HuntingSpike": {
+                    "Label": "狩猎尖刺",
+                    "MaterialToggleLabel": "狩猎尖刺 — 材质",
+                    "TraitLabel": "狩猎尖刺 — 特征"
+                },
+                "Label": "祝圣武备",
+                "SafeguardCharms": {
+                    "Label": "守护符咒",
+                    "Reinforced": {
+                        "ToggleLabel": "守护符咒 — 应用强化加值"
+                    }
+                }
+            },
+            "PersonalizedGear": {
+                "PairedBloodseekerToggleLabel": "配对觅血武器具有招架特征"
+            },
+            "Reinforced": {
+                "Label": "强化"
+            },
+            "RepellingShield": {
+                "ToggleLabel": "击退之盾已举起"
+            },
+            "ShareInsight": {
+                "BloodseekingBlade": {
+                    "Note": "你忽略猎物对你造成的任意伤害的 3 点抗力。"
+                },
+                "ToggleLabel": "共享洞察 — 防御来自猎杀者猎物或瞄准其的攻击"
+            },
+            "ShiftingCombination": {
+                "ToggleLabel": "换位连击减值"
+            },
+            "SlayersArsenal": {
+                "Prompt": "选择一项标志性工具。"
+            },
+            "SpikedSurcoat": {
+                "Reinforced": {
+                    "ToggleLabel": "尖刺战袍 — 强化伤害"
+                }
+            },
+            "ViciousSpike": {
+                "Note": "你造成原本命中时所造成的伤害，将所有伤害骰视为骰出 1。（这适用于来自武器符文、法术与特殊能力的所有伤害骰，而非仅仅是武器伤害骰。）"
+            },
+            "WardedMail": {
+                "FortifiedPlate": {
+                    "Reinforced": {
+                        "ToggleLabel": "坚固板甲 — 强化抗力"
+                    }
+                },
+                "Label": "符护链甲"
+            }
+        },
+        "Trait": {
+            "Daredevil": "狂徒",
+            "Diacritic": "修饰",
+            "Grave": "墓穴",
+            "Invocation": "激发",
+            "Necromancer": "死灵师",
+            "Relentless": "追猎",
+            "Risky": "风险",
+            "Rune": "符文",
+            "Runesmith": "符文工匠",
+            "Slayer": "猎杀者",
+            "Thrall": "残骸"
+        },
+        "TraitDescription": {
+            "Diacritic": "<p>修饰符文是一种特殊类型的符文，它不会直接作用于生物或物体，而是作用于另一个符文本身，对基础符文进行修改或增强。修饰符文永远不能单独使用，任何可以移除或激发基础符文的效果都会同时移除或激发修饰符文。一个符文只能有一个修饰符文。</p>\n<hr />\n<p>A diacritic is a special type of rune that is not applied directly to a creature or object, but rather to another rune itself, modifying or empowering that base rune. A diacritic can never be applied by itself, and any effect that would remove or invoke the base rune always also removes or invokes the diacritic rune. A rune can have only one diacritic.</p>",
+            "Invocation": "<p>激发动作允许符文工匠通过说出符文的真名来激发符文的力量。激发要求你能用有力的声音清晰地念出符文，并需求你在目标符文 30 尺范围内，除非其他能力改变了这一需求。目标符文会在动作结束后立即消散。</p>\n<hr />\n<p>An invocation action allows a runesmith to surge power through a rune by uttering its true name. Invocation requires you to be able to speak clearly in a strong voice and requires that you be within 30 feet of the target rune or runes unless another ability changes this. The target rune then fades away immediately after the action resolves.</p>",
+            "Relentless": "<p>具有追猎特征的动作是你训练得几乎成为本能的特殊技巧。你可以使用从猎杀时刻获得的额外动作来执行任何具有追猎特征的动作（在 2 动作或 3 动作的追猎特征活动中，亦可与你正常的一个或多个动作组合使用）。</p>\n<hr />\n<p>Actions with the relentless trait are special techniques that you have trained to use on instinct. You can use any action with the relentless trait with the extra action you get from On the Hunt (in addition to one or more of your normal actions, in the case of 2– or 3–action activities with the relentless trait).</p>",
+            "Risky": "<p>具有此特征的动作会给予你肾上腺素，直到你下一回合开始。你在带有风险特征的动作开始时（在你移动或尝试任何掷骰之前）获得肾上腺素，即使与风险动作相关的攻击或技能检定失败，你也能保留你的肾上腺素。</p>\n<hr />\n<p>Actions with this trait grant you adrenaline until the beginning of your next turn. You gain adrenaline at the start of the risky action (before you move or attempt any rolls) and you retain your adrenaline even if an attack or skill check associated with the risky action fails.</p>",
+            "Rune": "<p>符文工匠不会施法，但他们可以通过符文施加各种魔法效果。符文可以通过<strong>蚀刻</strong>或<strong>描画</strong>来应用。蚀刻的符文在探索模式下应用，并无限持续，而描画的符文只能持续到你的下个回合结束。但它们的效果是一样的。有几种能力涉及到带有你符文的生物，也就是符文携带者——任何将你的符文之一应用到其身体或所持装备上的生物。</p>\n<hr />\n<p>A runesmith doesn't cast spells, but they can apply various magical effects through runes. Runes can be applied via <strong>etching</strong> or <strong>tracing</strong>. Etched runes are applied in exploration mode and last indefinitely, while traced runes last only until the end of your next turn. Their effects, however, are the same. Several abilities refer to creatures bearing one of your runes, known as rune-bearers—this is any creature who has one of your runes applied to its body or to any gear it is holding.</p>",
+            "Thrall": "<p>残骸是一种不死生物，但不是具有被召唤特征的仆从。它们无法执行动作，但具有多种其它用途。除非特别注明，残骸的体型为小型或中型（由你在创造时决定）并且必须被创造于一个未被占据的空间。残骸可以视同具有近战无武装打击（Strike）能力一般进行夹击。残骸具有 1 HP，并且会自动被攻击命中，同时自动在所有豁免中失败。残骸免疫流血、死亡效果、疾病、心灵与毒素。残骸在需要判定等级时视为 −1 级生物。创造残骸的法术或能力具有残骸特征。</p>\n<hr />\n<p>Thralls are undead creatures, but they are not minions with the summoned trait. They can't take actions, but they can be used for various abilities. Unless noted otherwise, a thrall is Small or Medium (chosen by you when you create it) and must be created in an unoccupied space. A thrall can contribute to flanking as though it were able to make melee unarmed Strikes. A thrall has 1 Hit Point, is automatically hit by attacks, and automatically fails all saving throws. A thrall is immune to bleed, death effects, disease, mental, and poison. A thrall is level −1 if an effect needs to refer to its level. Spells or abilities that create thralls have the thrall trait.</p>"
+        }
+    }
+}

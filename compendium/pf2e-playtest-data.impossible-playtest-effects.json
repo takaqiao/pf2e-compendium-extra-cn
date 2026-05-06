@@ -1,0 +1,100 @@
+{
+  "label": "效果\nEffects",
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
+  },
+  "folders": {},
+  "entries": {
+    "Effect: Ectoplasmic Aura": {
+      "name": "效果：魂能灵光 Effect: Ectoplasmic Aura",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.eefWtZieXWoMQETi]{Ectoplasmic Aura} 授予</p><p>你的 AC 获得 +1 环境加值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.eefWtZieXWoMQETi]{Ectoplasmic Aura}</p><p>You gain a +1 circumstance bonus to AC.</p>"
+    },
+    "Effect: Esvadir, Rune of Whetstones": {
+      "name": "效果：伊斯瓦迪尔，砥石符文 Effect: Esvadir, Rune of Whetstones",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.Eu4ud1MsMIhy24CR]{Esvadir, Rune of Whetstones} 授予</p><p>该武器每枚武器伤害骰额外造成 2 点持续流血伤害。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.Eu4ud1MsMIhy24CR]{Esvadir, Rune of Whetstones}</p><p>The weapon deals an additional 2 persistent bleed damage per weapon damage die.</p>"
+    },
+    "Effect: Rovan, Seal of the Dead Vault Rune": {
+      "name": "效果：洛网，死之库封印符文 Effect: Rovan, Seal of the Dead Vault Rune",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.yL4Yam21U0RwbaEN]{Rovan, Seal of the Dead Vault Rune} 授予</p><p>你的陆地速度承受 –20 尺减值，所有其他速度承受 –40 尺减值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.yL4Yam21U0RwbaEN]{Rovan, Seal of the Dead Vault Rune}</p><p>You take a –20-foot penalty to your land Speed and a –40-foot penalty to all other Speeds.</p>"
+    },
+    "Effect: Remote Detonation": {
+      "name": "效果：远程引爆 Effect: Remote Detonation",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.EArC1mxaneUs1Pzr]{Remote Detonation} 授予</p><p>你对抗符文的豁免承受 –1 环境减值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.EArC1mxaneUs1Pzr]{Remote Detonation}</p><p>You take a –1 circumstance penalty on saving throws against runes.</p>"
+    },
+    "Spell Effect: Bind Heroic Spirit": {
+      "name": "法术效果：束缚英魂 Spell Effect: Bind Heroic Spirit",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-spells.Item.rJ4dm9Vw7KJUKcoE]{Bind Heroic Spirit} 授予</p><p>你的攻击掷骰和豁免获得 +3 状态加值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-spells.Item.rJ4dm9Vw7KJUKcoE]{Bind Heroic Spirit}</p><p>You gain a +3 status bonus to attack rolls and saving throws.</p>"
+    },
+    "Effect: Ur-, Diacritic Rune of Intensity": {
+      "name": "效果：乌-，强度修饰符文 Effect: Ur-, Diacritic Rune of Intensity",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.mJV8HVSelLajRMtJ]{Ur-, Diacritic Rune of Intensity} 授予</p><p>你的伤害获得等同于本源符文工匠智力调整值的状态加值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.mJV8HVSelLajRMtJ]{Ur-, Diacritic Rune of Intensity}</p><p>You gain a status bonus to damage equal to the origin runesmith's Intelligence modifier</p>"
+    },
+    "Effect: Reinforced Skeleton": {
+      "name": "效果：强固骨骸 Effect: Reinforced Skeleton",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.1w5HY9sssinfLo9l]{Reinforced Skeleton} 授予</p><p>你速度的状态加值提升至 +20 尺。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.1w5HY9sssinfLo9l]{Reinforced Skeleton}</p><p>The status bonus to your Speed increases to +20 feet.</p>"
+    },
+    "Effect: Inth-, Diacritic Rune of Corruption": {
+      "name": "效果：阴思-，腐化修饰符文 Effect: Inth-, Diacritic Rune of Corruption",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.8AksFXlcywERvqKV]{Inth-, Diacritic Rune of Corruption} 授予</p><p>由基础符文造成的所有伤害都获得不洁特征。如果你是圣洁生物，则你陷入衰弱 1。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.8AksFXlcywERvqKV]{Inth-, Diacritic Rune of Corruption}</p><p>Any damage dealt by the base rune gains the unholy trait. If you're a holy creature, you become enfeebled 1.</p>"
+    },
+    "Effect: Zohk, Rune of Homecoming": {
+      "name": "效果：宙克，归家符文 Effect: Zohk, Rune of Homecoming",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.dy2PWy8R42gxpnzt]{Zohk, Rune of Homecoming} 授予</p><p>如果你的移动会让你停止于比回合开始时更靠近本源符文工匠的位置，你的所有速度获得 +15 尺状态加值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.dy2PWy8R42gxpnzt]{Zohk, Rune of Homecoming}</p><p>You gain a +15-foot status bonus to your Speeds if your movement would end closer to the origin runesmith than you started your turn.</p>"
+    },
+    "Effect: Ghostly Resonance": {
+      "name": "效果：幽魂共鸣 Effect: Ghostly Resonance",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.iSaeKHpXib4kO2CM]{Ghostly Resonance} 授予</p><p>你选择的攻击获得幽冥符文的效益。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.iSaeKHpXib4kO2CM]{Ghostly Resonance}</p><p>Your chosen attack gains the benefits of a ghost touch rune.</p>"
+    },
+    "Effect: Kojastri, Rune of Insulation": {
+      "name": "效果：科雅斯特里，隔绝符文 Effect: Kojastri, Rune of Insulation",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.LiEb1gKaBfF08xOK]{Kojastri, Rune of Insulation} 授予</p><p>你获得自选寒冷、电击或火焰的抗力，且任何以徒手攻击或非长距离近战武器对你造成伤害的生物，会承受 2d6 点所选类型的伤害。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.LiEb1gKaBfF08xOK]{Kojastri, Rune of Insulation}</p><p>You gain resistance to your choice of cold, electricity, or fire, and any creature that damages you with an unarmed attack or non-reach melee weapon takes 2d6 damage of the chosen type.</p>"
+    },
+    "Effect: Marssyl, Rune of Impact": {
+      "name": "效果：马瑟尔，冲击符文 Effect: Marssyl, Rune of Impact",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.KGQvlQDy4QT23tO5]{Marssyl, Rune of Impact} 授予</p><p>所选武器每枚武器伤害骰造成 1 点钝击溅射伤害。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.KGQvlQDy4QT23tO5]{Marssyl, Rune of Impact}</p><p>The chosen weapon deals 1 bludgeoning splash damage per weapon damage die.</p>"
+    },
+    "Effect: Holtrik, Rune of Dwarven Ramparts": {
+      "name": "效果：霍特瑞克，矮人城墙符文 Effect: Holtrik, Rune of Dwarven Ramparts",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.azxAqh6vmhgK2dzR]{Holtrik, Rune of Dwarven Ramparts} 授予</p><p>你盾牌的 AC 加值令其对 AC 的环境加值提升 1 点。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.azxAqh6vmhgK2dzR]{Holtrik, Rune of Dwarven Ramparts}</p><p>Your shield's AC bonus increases its circumstance bonus to AC by 1.</p>"
+    },
+    "Effect: Become as Spirit": {
+      "name": "效果：化身魂灵 Effect: Become as Spirit",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.yU5UsMnUXpQ9U8xt]{Become as Spirit} 授予</p><p>你获得对所有伤害（力场、幽冥、魂能、活力伤害除外）的抗力，数值等于你等级的一半（向下取整）。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.yU5UsMnUXpQ9U8xt]{Become as Spirit}</p><p>You gain resistance to all damage (except force, ghost touch, spirit, or vitality) equal to half your level (rounded down).</p>"
+    },
+    "Effect: Oljinex, Rune of Cowards' Bane": {
+      "name": "效果：奥金奈克斯，懦夫之灾符文 Effect: Oljinex, Rune of Cowards' Bane",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.Q4INkfHzqn6tm4LM]{Oljinex, Rune of Cowards' Bane} 授予</p><p>当所选盾牌处于举起状态时，你对抗物理远程攻击的 AC 获得 +1 状态加值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.Q4INkfHzqn6tm4LM]{Oljinex, Rune of Cowards' Bane}</p><p>While the chosen shield is raised, you gain a +1 status bonus to AC against physical ranged attacks.</p>"
+    },
+    "Effect: Elemental Revision": {
+      "name": "效果：元素修改 Effect: Elemental Revision",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.QW43JtWz3pVZMsKj]{Elemental Revision} 授予</p><p>你选择一件武器上的<em>酸蚀</em>、<em>炽焰</em>、<em>冻寒</em>、<em>电击</em>或<em>雷鸣</em>符文，将其改变为该列表中的任意其他符文。如果本源者为 15 级或以上，则该列表也包含这些符文的高等版本。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.QW43JtWz3pVZMsKj]{Elemental Revision}</p><p>You select a weapon's <em>corrosive</em>, <em>flaming</em>, <em>frost</em>, <em>shock</em>, or <em>thundering</em> rune and you change it into any other rune from that list. If the origin is 15th level or higher, the greater version of the runes are included in the list.</p>"
+    },
+    "Spell Effect: Muscle Barrier": {
+      "name": "法术效果：肌腱之壁 Spell Effect: Muscle Barrier",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-spells.Item.OKHzvgfvdR3qqiqR]{Muscle Barrier} 授予</p><p>你的运动检定获得 +1 状态加值，并获得临时生命值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-spells.Item.OKHzvgfvdR3qqiqR]{Muscle Barrier}</p><p>You gain a +1 status bonus to athletics checks and temporary Hit Points.</p>"
+    },
+    "Effect: Feikris, Rune of Gravity": {
+      "name": "效果：菲克瑞斯，重力符文 Effect: Feikris, Rune of Gravity",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.WJ472N5rUoZfPMp3]{Feikris, Rune of Gravity} 授予</p><p>你的运动检定获得 +2 物品加值。如果本源符文工匠为 17 级或以上，加值提升至 +3。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.WJ472N5rUoZfPMp3]{Feikris, Rune of Gravity}</p><p>You gain a +2 item bonus to Athletics checks. If the origin runesmith is 17th level or higher, the bonus increases to +3.</p>"
+    },
+    "Effect: Pluuna, Rune of Illumination": {
+      "name": "效果：帕鲁纳，光照符文 Effect: Pluuna, Rune of Illumination",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.eHKXdrPV1Vkev8Wt]{Pluuna, Rune of Illumination} 授予</p><p>你在 20 尺散发范围内散发明亮光照，并将昏暗光照延伸至 40 尺。你以及处于该散发范围内的生物，潜行检定承受 –1 物品减值。 </p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.eHKXdrPV1Vkev8Wt]{Pluuna, Rune of Illumination}</p><p>You shed bright light in a 20-foot emanation and dim light to 40 feet. You and creatures in the emanation take a –1 item penalty to Stealth checks. </p>"
+    },
+    "Effect: Ichelsu, Rune of Observation": {
+      "name": "效果：伊切尔苏，观察符文 Effect: Ichelsu, Rune of Observation",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.cO1zNpHbEZiSphNp]{Ichelsu, Rune of Observation} 授予</p><p>你获得<em>识破无形</em>的效果，且无法被夹击。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.cO1zNpHbEZiSphNp]{Ichelsu, Rune of Observation}</p><p>You gain the effects of <em>see the unseen</em> and cannot be flanked.</p>"
+    },
+    "Effect: Pluuna, Rune of Illumination (Stealth Penalty)": {
+      "name": "效果：帕鲁纳，光照符文（潜行减值） Effect: Pluuna, Rune of Illumination (Stealth Penalty)",
+      "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.eHKXdrPV1Vkev8Wt]{Pluuna, Rune of Illumination} 授予</p><p>你的潜行检定承受 –1 物品减值。</p>\n<hr />\n<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-runes.Item.eHKXdrPV1Vkev8Wt]{Pluuna, Rune of Illumination}</p><p>You take a –1 item penalty to Stealth checks.</p>"
+    }
+  }
+}

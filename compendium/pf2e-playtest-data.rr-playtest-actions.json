@@ -1,0 +1,63 @@
+{
+  "label": "动作\nActions",
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
+  },
+  "folders": {
+    "Daredevil": "狂徒\nDaredevil",
+    "Slayer": "猎杀者\nSlayer"
+  },
+  "entries": {
+    "Armored Shelter": {
+      "name": "装甲庇护 Armored Shelter",
+      "description": "<p><strong>需求</strong> 你正穿着你的@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq]{Warded Mail}标志性工具</p><hr /><p><strong>效果</strong> 你调整护甲的位置以更好地保护自己。在你下个回合结束之前，或直到你离开当前所在方格，或使用一个攻击动作之前（以先发生者为准），你的AC以及对抗区域效果的反射豁免获得+2环境加值。</p>\n<hr />\n<p><strong>Requirements</strong> You are wearing your @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq]{Warded Mail} signature tool</p><hr /><p><strong>Effect</strong> You position your armor to better protect you. You gain a +2 circumstance bonus to your AC and to Reflex saves against area effects until the end of your next turn or until you move from your current space or use an attack action, whichever comes first.</p>"
+    },
+    "Hunting Spike": {
+      "name": "狩猎尖刺 Hunting Spike",
+      "description": "<p><strong>需求</strong> 你有一只空着的手，并且穿戴着你的 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply} 标志性工具</p><hr /><p><strong>效果</strong> 你抽出一支狩猎尖刺并以之进行打击，狩猎尖刺是一类被特殊祝圣的工具，其功能与匕首相同。你的狩猎尖刺具有神圣或邪恶特征，由你 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} 时选择。你的武备中始终备有更多尖刺可供取用，但它们对除你以外的人毫无价值，且不能被蚀刻符文或以其他方式改造。</p>\n<hr />\n<p><strong>Requirements</strong> You have a free hand and are wearing your @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply} signature tool</p><hr /><p><strong>Effect</strong> You draw and Strike with one of your hunting spikes, specially consecrated tools which function as daggers. Your hunting spikes have either the holy or unholy trait, chosen when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}. Your panoply always contains more spikes to draw, but they are worthless to anyone but you and cannot be etched with runes or otherwise modified.</p>"
+    },
+    "Fated Foe": {
+      "name": "宿命之敌 Fated Foe",
+      "description": "<p><strong>频率</strong> 每 10 分钟一次</p><p><strong>触发</strong> 一名生物即将将你降至 0 生命值。</p><hr /><p>你拒绝被斩杀，转而对那个企图将你击倒的对手反戈一击。你避免被击昏，保留在 1 生命值上，你的 @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded} 状态增加 1，并且你在 1 分钟内获得等于你等级两倍的临时生命值。如果触发该效果的生物等级高于你，你立即将其宣告为你的猎物，取代你现有的猎物，并且对于任何允许你在 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} 时改变其属性的狩猎工具（例如觅血之刃标志性工具初始增益所造成的伤害类型），你都可以为其选择新的选项。</p>\n<hr />\n<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Trigger</strong> A creature would reduce you to 0 Hit Points.</p><hr /><p>You refuse to be slain, turning on one who would try to fell you. You avoid being knocked out and remain at 1 Hit Point, your @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded} condition increases by 1, and you gain temporary Hit Points equal to twice your level for 1 minute. You immediately declare the triggering creature your quarry if its level is higher than yours, replacing your existing one, and can choose new options for any of your hunting tools that allow you to change their properties when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} (such as the damage type dealt by a bloodseeking blade signature tool's initial benefit).</p>"
+    },
+    "On the Hunt": {
+      "name": "猎杀时刻 On the Hunt",
+      "description": "<p><strong>触发</strong> 你看到你的猎物被致命一击，或 60 尺内任何生物被降至 0 生命值。</p><hr /><p>你投身战斗，加倍努力。你获得 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} 状态直到你下一回合结束，但你只能用这个额外动作来快步、行走，或使用具有追猎特征的动作。</p>\n<hr />\n<p><strong>Trigger</strong> You see your quarry be critically hit, or any creature within 60 feet be reduced to 0 Hit Points.</p><hr /><p>You throw yourself into battle, redoubling your efforts. You gain the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition until the end of your next turn, but can use the extra action only to Step, Stride, or use an action with the relentless trait.</p>"
+    },
+    "Honed Strike": {
+      "name": "精磨打击 Honed Strike",
+      "description": "<p>你凝神静气，调整呼吸，然后发动打击。使用你的觅血之刃标志性工具发动一次打击。你的攻击掷骰获得+2环境加值，并忽略目标的@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}状态。</p>\n<hr />\n<p>You center yourself and calm your breathing, then strike. Make a Strike with your bloodseeking blade signature tool. You gain a +2 circumstance bonus to your attack roll and ignore the target's @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition.</p>"
+    },
+    "Reinforce Arsenal": {
+      "name": "强化军械库 Reinforce Arsenal",
+      "description": "<p><strong>需求</strong> 你正在进行每日准备。</p><hr /><p>你可以用战利品箱中未使用的战利品来强化你的任意数量的狩猎工具，赋予它们其强化条目中列出的任何额外增益。一件狩猎工具一次只能用一个战利品强化；如果你再次强化同一件工具，你会将之前的战利品收回到你的战利品箱。即使你没有强化任何狩猎工具，一些狩猎工具也允许你在强化军械库时选择其属性，例如觅血之刃标志性工具初始增益所造成的伤害类型。</p>\n<hr />\n<p><strong>Requirements</strong> You are performing your daily preparations.</p><hr /><p>You can reinforce any number of your hunting tools with unused trophies from your trophy case, granting them any additional benefits listed in their reinforced entry. A hunting tool can be reinforced with only a single trophy at a time; if you reinforce the same tool again, you return the previous trophy to your trophy case. Even if you didn't reinforce any of your hunting tools, some hunting tools also allow you to make choices about their properties when you Reinforce your Arsenal, such as the damage type dealt by a bloodseeking blade signature tool's initial benefit.</p>"
+    },
+    "Daring Stunt": {
+      "name": "大胆险招 Daring Stunt",
+      "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p>你纵身投入战局，试图摆弄一个敌人。你行走或 @UUID[Compendium.pf2e.actionspf2e.Item.Leap]。如果你有相应的移动类型，你可以在掘地、攀爬、飞行或游泳时使用大胆险招来代替行走。你必须移动至少10尺，并在移动结束时与至少一个敌人相邻。在你移动结束时，你可以尝试对你触及范围内的一个敌人进行 [[/act grapple]]、[[/act reposition]]、[[/act shove]] 或 [[/act trip]]。你必须满足该动作的所有要求。</p>\n<hr />\n<p><strong>Frequency</strong> once per round</p><hr /><p>You hurl yourself into the fray and try to maneuver a foe. You Stride or @UUID[Compendium.pf2e.actionspf2e.Item.Leap]. You can use Daring Stunt while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type. You must move at least 10 feet and end your movement adjacent to at least one enemy. At the end of your movement, you can attempt to [[/act grapple]], [[/act reposition]], [[/act shove]], or [[/act trip]] one enemy within your reach. You must meet all the requirements of that action.</p>"
+    },
+    "Ignition Vial": {
+      "name": "点火药剂 Ignition Vial",
+      "description": "<p><strong>频率</strong> 每分钟一次</p><hr /><p><strong>效果</strong> 你饮下一瓶点火药剂，然后从口中喷出一团致命能量云。处于@Template[cone|distance:15]中的生物承受@Damage[(1+ceil(@actor.level / 2))d4[fire]|options:area-damage]伤害，并以你的职业DC进行一次@Check[reflex|against:slayer|basic|options:area-effect]豁免。该伤害在3级时增加1d4，之后每2级再增加1d4。</p><p><strong>强化</strong> 点火药剂造成战利品的非物理伤害类型之一（如果有的话）的伤害以替代火焰，并具有相应的特征以替代火焰特征。</p>\n<hr />\n<p><strong>Frequency</strong> once per minute</p><hr /><p><strong>Effect</strong> You drink an ignition vial, then blow a cloud of deadly energy from your mouth. Creatures in a @Template[cone|distance:15] take @Damage[(1+ceil(@actor.level / 2))d4[fire]|options:area-damage] damage with a @Check[reflex|against:slayer|basic|options:area-effect] save against your class DC. The damage increases by 1d4 at 3rd level and every 2 levels thereafter.</p><p><strong>Reinforced</strong> Ignition Vial deals one of the trophy's non-physical damage types, if any, instead of fire, and has the matching trait instead of fire.</p>"
+    },
+    "Mark Quarry": {
+      "name": "标记猎物 Mark Quarry",
+      "description": "<p>你指定单一一只生物，花费10分钟聆听关于它的传闻、在图书馆中研究它，或观察它的踪迹。当你完成情报收集后，GM会告诉你该生物的等级是否等于或高于你的等级。如果是，你便可以将该生物标记为你的猎物，让你的工具准备就绪以猎捕它。</p><p>当你 [[/act track options=target:mark:quarry]] 你的猎物时，你的求生检定获得+2环境加值；当你以怪物学识检定 [[/act recall-knowledge skill=monster-lore options=target:mark:quarry]] 关于你的猎物的信息时，你也获得+2环境加值。你也根据你的猎杀者军械库获得额外增益。你一次只能将一只生物指定为你的猎物，该指定持续到你再次使用标记猎物，或直到你的等级超越你的猎物等级为止。如果你在使用标记猎物时已经有一只生物被指定为你的猎物，则前一只生物在24小时内不能再次成为你的猎物。</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.tAFw2ybe6aI9Sxe2]{Effect: Mark Quarry}</p>\n<hr />\n<p>You designate a single creature, spending 10 minutes listening to rumors about it, researching it in a library, or taking note of its tracks. After you finish gathering details, the GM tells you whether or not the creature's level is equal to or higher than yours. If it is, you can mark that creature as your quarry, preparing your tools to hunt it.</p><p>You gain a +2 circumstance bonus to Survival checks when you [[/act track options=target:mark:quarry]] your quarry and to Monster Lore checks to [[/act recall-knowledge skill=monster-lore options=target:mark:quarry]] about your quarry. You also gain additional benefits based on your slayer's arsenal. You can have only one creature designated as your quarry at a time, and the designation lasts until you use Mark Quarry again or until your level exceeds your quarry's. If you already had a creature designated as your quarry when you used Mark Quarry, the first creature can't be your quarry again for 24 hours.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.tAFw2ybe6aI9Sxe2]{Effect: Mark Quarry}</p>"
+    },
+    "Claim Trophy": {
+      "name": "获取战利品 Claim Trophy",
+      "description": "<p><strong>需求</strong> 你能接触到一只在死亡时是你猎物的生物的遗体。</p><hr /><p>你花费 1 分钟从被你击败的猎物身上取得一件战利品，并将其加入你的战利品收藏，以备强化你的猎杀者军械库之用。战利品的具体形式取决于猎物本身；它可能是一颗龙牙或一片龙皮、一具巫妖空荡荡的灵魂笼，或是一名暴君铠甲的碎片。如果你在战利品收藏已满时获取战利品，你需要选择丢弃其中一件。</p><p>作为获取战利品的一部分，你也可以立即用它来 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}。这让你可以用这件新战利品强化你的一件狩猎工具，并就其属性做出你在每日准备中强化军械库时通常需做出的任意选择。当你以此方式强化军械库时，你不能强化任何其他狩猎工具，也不能就除了用新战利品强化的那件以外的任何狩猎工具的属性做出选择。</p>\n<hr />\n<p><strong>Requirements</strong> You have access to the remains of a creature that was your quarry when it died.</p><hr /><p>You spend 1 minute gathering a trophy from your defeated quarry and add it to your trophy case, preparing it to reinforce your slayer's arsenal. The exact nature of the trophy varies depending on the quarry; it might be a dragon's fang or hide, a lich's empty soul cage, or fragments of a tyrant's armor. If you Claim a Trophy while your trophy case is full, you choose which to discard.</p><p>As part of Claiming a Trophy, you can also immediately @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} with it. This allows you to reinforce one of your hunting tools with the new trophy and make any choices about its properties that you normally make when you Reinforce your Arsenal during your daily preparations. When you Reinforce your Arsenal this way, you can't reinforce or make any choices about the properties of any hunting tools except the one you reinforce with the new trophy.</p>"
+    },
+    "Chymist's Eye": {
+      "name": "炼金师之眼 Chymist's Eye",
+      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p><strong>效果</strong> 你饮下一瓶炼金师之眼药剂，在接下来的 10 分钟内获得在 30 尺内侦测你猎物的精确感官能力。</p><p><strong>强化</strong> 在该持续时间内，你还获得一项该战利品来源生物所拥有的特殊视觉能力，例如黑暗视觉或云巨人的云隙视觉。</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.o7YVfZi0c84Ds4sY]{Effect: Chymist's Eye (Reinforced)}</p>\n<hr />\n<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> You drink a chymist's eye vial, gaining the ability to detect your quarry within 30 feet as a precise sense for the next 10 minutes.</p><p><strong>Reinforced</strong> You also gain one special vision ability the creature the trophy was claimed from had, such as darkvision or a cloud giant's cloudsight, for the duration.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.o7YVfZi0c84Ds4sY]{Effect: Chymist's Eye (Reinforced)}</p>"
+    }
+  }
+}

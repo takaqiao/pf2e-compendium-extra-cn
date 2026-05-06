@@ -1,0 +1,130 @@
+{
+  "label": "残骸\nThralls",
+  "mapping": {
+    "tokenName": "prototypeToken.name",
+    "prototypeToken": "prototypeToken.name",
+    "blurb": "system.details.blurb",
+    "publicNotes": "system.details.publicNotes",
+    "items": {
+      "path": "items",
+      "converter": "fromPack"
+    }
+  },
+  "folders": {},
+  "entries": {
+    "Living Graveyard": {
+      "name": "活体坟场 Living Graveyard",
+      "tokenName": "活体坟场 Living Graveyard",
+      "prototypeToken": "活体坟场 Living Graveyard",
+      "publicNotes": "<p>残骸是一种不死生物，但不是具有被召唤特征的仆从。它们无法执行动作，但具有多种其它用途。除非特别注明，残骸的体型为小型或中型（由你在创造时决定）并且必须被创造于一个未被占据的空间。残骸可以视同具有近战无武装打击（Strike）能力一般进行夹击。残骸具有1HP，并且会自动被攻击命中，同时自动在所有豁免中失败。残骸免疫流血，死亡效果，疾病，心灵与毒素。残骸在需要判定等级时视为−1级生物。创造残骸的法术或能力具有残骸特征。</p>\n<hr />\n<p>Thralls are undead creatures, but they are not minions with the summoned trait. They can’t take actions, but they can be used for various abilities. Unless noted otherwise, a thrall is Small or Medium (chosen by you when you create it) and must be created in an unoccupied space. A thrall can contribute to flanking as though it were able to make melee unarmed Strikes. A thrall has 1 Hit Point, is automatically hit by attacks, and automatically fails all saving throws. A thrall is immune to bleed, death effects, disease, mental, and poison. A thrall is level –1 if an effect needs to refer to its level. Spells or abilities that create thralls have the thrall trait.</p>",
+      "items": {
+        "Living Graveyard": {
+          "name": "活体坟场 Living Graveyard",
+          "description": "<p>你召唤出一具体型为巨型的残骸，其拥有 400 生命值。该残骸是一座由埋葬死者将其连为一体的、可移动的坟墓与墓碑构成的庞大组合。活体坟场剧烈震荡。@Template[type:emanation|distance:10] 内的所有生物都必须成功通过一次强韧豁免，否则陷入 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}。此外，五具 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-thralls.Actor.ISmLeI8zNc6YWysQ]{thralls}（使用基础残骸数据）从墓中跌落至与活体坟场邻接的空位之中。这些额外的残骸持续至本法术结束。</p><p>在每个后续轮，每轮一次，你可以维持本法术，使活体坟场行走至多 60 尺，并使另外三具残骸从墓中沿其路径跌落至空位之中。</p>\n<hr />\n<p>You conjure forth a Gargantuan thrall that has 400 Hit Points. This thrall is a walking bulk of graves and tombstones held together by the buried dead. The living graveyard violently shakes. All creatures in a @Template[type:emanation|distance:10] must succeed a Fortitude saving throw or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. Additionally, five @UUID[Compendium.pf2e-playtest-data.impossible-playtest-thralls.Actor.ISmLeI8zNc6YWysQ]{thralls} (using the base thrall statistics) fall from their graves into empty spaces adjacent to the living graveyard. These additional thralls last until the spell ends.</p><p>Once per round on subsequent turns, you can Sustain the spell to have the living graveyard Stride up to 60 feet and cause three additional thralls to fall from their graves into empty spaces along its path.</p>"
+        },
+        "Thrall - Automatically Hit": {
+          "name": "残骸 - 自动命中 Thrall - Automatically Hit",
+          "description": "<p>A thrall is automatically hit.</p>"
+        },
+        "Thrall - Fails all Saving Throws": {
+          "name": "残骸 - 所有豁免自动失败 Thrall - Fails all Saving Throws",
+          "description": "<p>A thrall automatically fails all saving throws. </p>"
+        }
+      }
+    },
+    "Thrall": {
+      "name": "残骸 Thrall",
+      "tokenName": "残骸 Thrall",
+      "prototypeToken": "残骸 Thrall",
+      "publicNotes": "<p>残骸是一种不死生物，但不是具有被召唤特征的仆从。它们无法执行动作，但具有多种其它用途。除非特别注明，残骸的体型为小型或中型（由你在创造时决定）并且必须被创造于一个未被占据的空间。残骸可以视同具有近战无武装打击（Strike）能力一般进行夹击。残骸具有1HP，并且会自动被攻击命中，同时自动在所有豁免中失败。残骸免疫流血，死亡效果，疾病，心灵与毒素。残骸在需要判定等级时视为−1级生物。创造残骸的法术或能力具有残骸特征。</p>\n<hr />\n<p>Thralls are undead creatures, but they are not minions with the summoned trait. They can’t take actions, but they can be used for various abilities. Unless noted otherwise, a thrall is Small or Medium (chosen by you when you create it) and must be created in an unoccupied space. A thrall can contribute to flanking as though it were able to make melee unarmed Strikes. A thrall has 1 Hit Point, is automatically hit by attacks, and automatically fails all saving throws. A thrall is immune to bleed, death effects, disease, mental, and poison. A thrall is level –1 if an effect needs to refer to its level. Spells or abilities that create thralls have the thrall trait.</p>",
+      "items": {
+        "Thrall - Automatically Hit": {
+          "name": "残骸 - 自动命中 Thrall - Automatically Hit",
+          "description": "<p>A thrall is automatically hit.</p>"
+        },
+        "Thrall - Fails all Saving Throws": {
+          "name": "残骸 - 所有豁免自动失败 Thrall - Fails all Saving Throws",
+          "description": "<p>A thrall automatically fails all saving throws. </p>"
+        }
+      }
+    },
+    "Perfected Thrall": {
+      "name": "完化残骸 Perfected Thrall",
+      "tokenName": "完化残骸 Perfected Thrall",
+      "prototypeToken": "完化残骸 Perfected Thrall",
+      "publicNotes": "<p>残骸是一种不死生物，但不是具有被召唤特征的仆从。它们无法执行动作，但具有多种其它用途。除非特别注明，残骸的体型为小型或中型（由你在创造时决定）并且必须被创造于一个未被占据的空间。残骸可以视同具有近战无武装打击（Strike）能力一般进行夹击。残骸具有1HP，并且会自动被攻击命中，同时自动在所有豁免中失败。残骸免疫流血，死亡效果，疾病，心灵与毒素。残骸在需要判定等级时视为−1级生物。创造残骸的法术或能力具有残骸特征。</p>\n<hr />\n<p>Thralls are undead creatures, but they are not minions with the summoned trait. They can’t take actions, but they can be used for various abilities. Unless noted otherwise, a thrall is Small or Medium (chosen by you when you create it) and must be created in an unoccupied space. A thrall can contribute to flanking as though it were able to make melee unarmed Strikes. A thrall has 1 Hit Point, is automatically hit by attacks, and automatically fails all saving throws. A thrall is immune to bleed, death effects, disease, mental, and poison. A thrall is level –1 if an effect needs to refer to its level. Spells or abilities that create thralls have the thrall trait.</p>",
+      "items": {
+        "Thrall - Automatically Hit": {
+          "name": "残骸 - 自动命中 Thrall - Automatically Hit",
+          "description": "<p>A thrall is automatically hit.</p>"
+        },
+        "Thrall - Fails all Saving Throws": {
+          "name": "残骸 - 所有豁免自动失败 Thrall - Fails all Saving Throws",
+          "description": "<p>A thrall automatically fails all saving throws. </p>"
+        },
+        "Strike": {
+          "name": "打击 Strike"
+        }
+      }
+    },
+    "Conglomerate of Limbs": {
+      "name": "残肢聚合 Conglomerate of Limbs",
+      "tokenName": "残肢聚合 Conglomerate of Limbs",
+      "prototypeToken": "残肢聚合 Conglomerate of Limbs",
+      "publicNotes": "<p>残骸是一种不死生物，但不是具有被召唤特征的仆从。它们无法执行动作，但具有多种其它用途。除非特别注明，残骸的体型为小型或中型（由你在创造时决定）并且必须被创造于一个未被占据的空间。残骸可以视同具有近战无武装打击（Strike）能力一般进行夹击。残骸具有1HP，并且会自动被攻击命中，同时自动在所有豁免中失败。残骸免疫流血，死亡效果，疾病，心灵与毒素。残骸在需要判定等级时视为−1级生物。创造残骸的法术或能力具有残骸特征。</p>\n<hr />\n<p>Thralls are undead creatures, but they are not minions with the summoned trait. They can’t take actions, but they can be used for various abilities. Unless noted otherwise, a thrall is Small or Medium (chosen by you when you create it) and must be created in an unoccupied space. A thrall can contribute to flanking as though it were able to make melee unarmed Strikes. A thrall has 1 Hit Point, is automatically hit by attacks, and automatically fails all saving throws. A thrall is immune to bleed, death effects, disease, mental, and poison. A thrall is level –1 if an effect needs to refer to its level. Spells or abilities that create thralls have the thrall trait.</p>",
+      "items": {
+        "Conglomerate of Limbs": {
+          "name": "残肢聚合 Conglomerate of Limbs",
+          "description": "<p>由 @UUID[Compendium.pf2e-playtest-data.impossible-playtest-spells.Item.OOmk0XI3lzhn42JT]{Conglomerate of Limbs} 召唤</p><p>每当一名敌人在与该残骸邻接的位置开始其回合时，其必须成功通过一次强韧豁免，否则被该残骸 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}，持续 1 轮或直到其逃脱。在每个后续轮，每轮一次，你可以维持此法术，使该残骸以其众多肢体拖曳自身在地面上前行，行走至多 15 尺。</p><hr /><p><strong>升阶（+1）</strong> 该残骸的生命值提高 10 点。</p>\n<hr />\n<p>Conjured by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-spells.Item.OOmk0XI3lzhn42JT]{Conglomerate of Limbs}</p><p>Whenever an enemy begins its turn adjacent to this thrall, it must succeed at a Fortitude saving throw or become @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by the thrall for 1 round or until it Escapes. Once per round on subsequent turns, you can Sustain the spell to have the thrall Stride up to 15 feet, using its many limbs to drag itself across the ground.</p><hr /><p><strong>Heightened (+1)</strong> The thrall's Hit Points increase by 10.</p>"
+        },
+        "Thrall - Automatically Hit": {
+          "name": "残骸 - 自动命中 Thrall - Automatically Hit",
+          "description": "<p>A thrall is automatically hit.</p>"
+        },
+        "Thrall - Fails all Saving Throws": {
+          "name": "残骸 - 所有豁免自动失败 Thrall - Fails all Saving Throws",
+          "description": "<p>A thrall automatically fails all saving throws. </p>"
+        }
+      }
+    },
+    "Skeletal Lancer": {
+      "name": "骷髅枪兵 Skeletal Lancer",
+      "tokenName": "骷髅枪兵 Skeletal Lancer",
+      "prototypeToken": "骷髅枪兵 Skeletal Lancer",
+      "publicNotes": "<p>残骸是一种不死生物，但不是具有被召唤特征的仆从。它们无法执行动作，但具有多种其它用途。除非特别注明，残骸的体型为小型或中型（由你在创造时决定）并且必须被创造于一个未被占据的空间。残骸可以视同具有近战无武装打击（Strike）能力一般进行夹击。残骸具有1HP，并且会自动被攻击命中，同时自动在所有豁免中失败。残骸免疫流血，死亡效果，疾病，心灵与毒素。残骸在需要判定等级时视为−1级生物。创造残骸的法术或能力具有残骸特征。</p>\n<hr />\n<p>Thralls are undead creatures, but they are not minions with the summoned trait. They can’t take actions, but they can be used for various abilities. Unless noted otherwise, a thrall is Small or Medium (chosen by you when you create it) and must be created in an unoccupied space. A thrall can contribute to flanking as though it were able to make melee unarmed Strikes. A thrall has 1 Hit Point, is automatically hit by attacks, and automatically fails all saving throws. A thrall is immune to bleed, death effects, disease, mental, and poison. A thrall is level –1 if an effect needs to refer to its level. Spells or abilities that create thralls have the thrall trait.</p>",
+      "items": {
+        "Thrall - Automatically Hit": {
+          "name": "残骸 - 自动命中 Thrall - Automatically Hit",
+          "description": "<p>A thrall is automatically hit.</p>"
+        },
+        "Thrall - Fails all Saving Throws": {
+          "name": "残骸 - 所有豁免自动失败 Thrall - Fails all Saving Throws",
+          "description": "<p>A thrall automatically fails all saving throws. </p>"
+        },
+        "Skeletal Lance": {
+          "name": "骨枪 Skeletal Lance"
+        }
+      }
+    },
+    "Recurring Nightmare": {
+      "name": "梦魇重现 Recurring Nightmare",
+      "tokenName": "梦魇重现 Recurring Nightmare",
+      "prototypeToken": "梦魇重现 Recurring Nightmare",
+      "publicNotes": "<p>残骸是一种不死生物，但不是具有被召唤特征的仆从。它们无法执行动作，但具有多种其它用途。除非特别注明，残骸的体型为小型或中型（由你在创造时决定）并且必须被创造于一个未被占据的空间。残骸可以视同具有近战无武装打击（Strike）能力一般进行夹击。残骸具有1HP，并且会自动被攻击命中，同时自动在所有豁免中失败。残骸免疫流血，死亡效果，疾病，心灵与毒素。残骸在需要判定等级时视为−1级生物。创造残骸的法术或能力具有残骸特征。</p>\n<hr />\n<p>Thralls are undead creatures, but they are not minions with the summoned trait. They can’t take actions, but they can be used for various abilities. Unless noted otherwise, a thrall is Small or Medium (chosen by you when you create it) and must be created in an unoccupied space. A thrall can contribute to flanking as though it were able to make melee unarmed Strikes. A thrall has 1 Hit Point, is automatically hit by attacks, and automatically fails all saving throws. A thrall is immune to bleed, death effects, disease, mental, and poison. A thrall is level –1 if an effect needs to refer to its level. Spells or abilities that create thralls have the thrall trait.</p>",
+      "items": {
+        "Thrall - Automatically Hit": {
+          "name": "残骸 - 自动命中 Thrall - Automatically Hit",
+          "description": "<p>A thrall is automatically hit.</p>"
+        },
+        "Share Space": {
+          "name": "共享空间 Share Space",
+          "description": "<p>Unlike other thralls, the nightmare can share space with other creatures, and other creatures can move through its space with ease.</p>"
+        },
+        "Thrall - Fails all Saving Throws": {
+          "name": "残骸 - 所有豁免自动失败 Thrall - Fails all Saving Throws",
+          "description": "<p>A thrall automatically fails all saving throws. </p>"
+        }
+      }
+    }
+  }
+}

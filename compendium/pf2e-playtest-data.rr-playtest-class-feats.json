@@ -1,0 +1,547 @@
+{
+  "label": "职业专长\nFeats",
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
+  },
+  "folders": {
+    "Level 16": "16级\nLevel 16",
+    "Level 12": "12级\nLevel 12",
+    "Level 18": "18级\nLevel 18",
+    "Level 20": "20级\nLevel 20",
+    "Level 8": "8级\nLevel 8",
+    "Level 2": "2级\nLevel 2",
+    "Level 10": "10级\nLevel 10",
+    "Level 4": "4级\nLevel 4",
+    "Level 14": "14级\nLevel 14",
+    "Level 6": "6级\nLevel 6",
+    "Level 1": "1级\nLevel 1",
+    "Slayer": "猎杀者\nSlayer",
+    "Daredevil": "狂徒\nDaredevil"
+  },
+  "entries": {
+    "Opportunistic Maneuver Stunt": {
+      "name": "借机战技险招 Opportunistic Maneuver Stunt",
+      "description": "<p><strong>需求</strong> 目标的体型不能比你大一级以上。</p><hr /><p>你抓住一个敌人，将其置于你盟友武器的攻击路线上。你行走。如果此次移动结束时有一个生物在你的触及范围内，尝试一次 @Check[athletics|against:fortitude] 检定对抗该目标的强韧 DC。</p><hr /><p><strong>大成功</strong> 你移动目标最多 10 尺。在这次移动中它必须保持在你的触及范围内，并且你不能将其移动进入或穿过障碍物。如果目标在此次移动结束时进入你一个盟友的触及范围，该盟友可以以一个反应动作对它进行一次近战打击。目标对此次攻击 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}。</p><p><strong>成功</strong> 如同大成功，但目标只被移动 5 尺，并且不会措手不及。</p><p><strong>失败</strong> 你移动目标 5 尺。在这次移动中它必须保持在你的触及范围内，并且你不能将其移动进入或穿过障碍物。</p><p><strong>大失败</strong> 你的险招适得其反。目标可以移动你最多 10 尺，然后你 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}。</p>\n<hr />\n<p><strong>Requirements</strong> The target can’t be more than one size larger than you.</p><hr /><p>You grab a foe and position them into the way of an ally's weapon. You Stride. If this movement ends with a creature in your reach, attempt an @Check[athletics|against:fortitude] check against the Fortitude DC of that target.</p><hr /><p><strong>Critical Success</strong> You move the target up to 10 feet. It must remain within your reach during this movement, and you can't move it into or through obstacles. If the target ends this movement within reach of one of your allies, that ally can attempt a melee Strike against it as a reaction. The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against this attack.</p><p><strong>Success</strong> As critical success, but the target is moved only 5 feet and isn't off-guard.</p><p><strong>Failure</strong> You move the target 5 feet. It must remain within your reach during this movement, and you can't move it into or through obstacles.</p><p><strong>Critical Failure</strong> Your stunt backfires. The target can move you up to 10 feet and then you fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+    },
+    "Risky Overextension": {
+      "name": "孤注一掷 Risky Overextension",
+      "description": "<p>你将全部力量投入到第二次攻击中。进行一次近战打击。在计算多重攻击减值时，这算作两次攻击。如果此次打击命中，你获得一次重击。如果你掷出重击，你的武器或无武装攻击还会获得致命 d10 特征（这会替换它已有的任何致命特征）。如果你大失败，你陷入 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}。无论你是否命中，你直到你的下一回合开始都 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}。</p>\n<hr />\n<p>You put all your might into a second attack. Make a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, you get a critical hit. If you roll a critical hit, your weapon or unarmed attack also gains the deadly d10 trait (this replaces any deadly trait it already has). If you critically miss, you become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}. Whether or not you hit, you are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.</p>"
+    },
+    "Expansive Panoply": {
+      "name": "广博武备 Expansive Panoply",
+      "description": "<p>虽然一块短而锋利的金属是非常通用的工具，但你知道它并不适合所有场合。当你使用 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.BR1P3Dy0gjsuKu7V]{Hunting Spike} 时，你可以拔出并用功能如同木棒、飞镖或短剑的尖钉进行打击，而不是匕首。这改变了它们的特征、伤害以及武器类别和组别，但它们在其他方面遵循你正常狩猎尖钉的相同规则。</p>\n<hr />\n<p>While a short, sharp piece of metal is a remarkably versatile tool, you know that it is not appropriate for every occasion. When you use @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.BR1P3Dy0gjsuKu7V]{Hunting Spike}, you can draw and Strike with spikes that function as clubs, darts, or shortswords, rather than daggers. This changes their traits, damage, and weapon category and group, but they otherwise follow the same rules as your normal hunting spikes.</p>",
+      "prerequisites": [
+        {
+          "value": "祝圣武备标志性工具 consecrated panoply signature tool"
+        }
+      ]
+    },
+    "Shifting Hunt": {
+      "name": "变幻狩猎 Shifting Hunt",
+      "description": "<p>你总是准备好调整你的装备以适应狩猎的需要。当你交互以改变组合或模组武器的配置，或改变你对双手武器的握法时，该动作对你获得追猎特征。</p><hr /><p><strong>特殊</strong> 如果你有具有组合、模组或双手特征的 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade} 标志性工具，你可以为每种配置选择不同的选项，用于需要在强化军械库时做出选择的猎杀者职业特性或专长。例如，你可以为武器的每种配置选择觅血之刃初始增益的不同伤害类型。</p>\n<hr />\n<p>You are always ready to adapt your equipment to the needs of the hunt. Interacting to change the configuration of a combination or modular weapon or to change your grip on a two-hand weapon gains the relentless trait for you.</p><hr /><p><strong>Special</strong> If you have a @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade} signature tool with the combination, modular, or two-hand trait, you can choose different options for each configuration for slayer class features or feats that require you to make a choice when you Reinforce your Arsenal. For example, you can choose different damage types for bloodseeking blade's initial benefit for each of your weapon's configurations.</p>"
+    },
+    "Wall Slam": {
+      "name": "猿猴攀跃 Wall Slam",
+      "description": "<p><strong>需求</strong> 你的两侧各至少有一个支点。</p><hr /><p>你在两个支点之间攀爬，以获得对敌人的高度优势。垂直 [[/act leap]]；你必须在距离你原位置不超过 10 尺的未被占据空间结束跳跃。如果你在至少一个敌人的近战触及范围内结束移动，你可以尝试一次运动检定 [[/act trip options=wall-slam]] 该敌人，检定获得 +2 环境加值。</p>\n<hr />\n<p><strong>Requirements</strong> There are at least two props on opposite sides of you.</p><hr /><p>You scramble up between two props to gain a height advantage on an enemy. [[/act leap]] vertically; you may end your Leap in an unoccupied space that is no more than 10 feet from your original position. If you end your movement within melee reach of at least one enemy, you can attempt an Athletics check to [[/act trip options=wall-slam]] that enemy with a +2 circumstance bonus to the check.</p>"
+    },
+    "Exhilarating Athlete": {
+      "name": "亢奋健将 Exhilarating Athlete",
+      "description": "<p>危险的快感帮助你跳得更高更远。当你拥有 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.HAjDJbdawcI5TjTG]{Adrenaline} 时，你获得以下好处。</p><ul><li>你获得等于你陆地速度一半的攀爬和游泳速度。</li><li>你的 @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jumps} 和 @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jumps} 的 DC 降低 10。这不与其他降低这些 DC 的能力叠加。</li><li><p>你垂直 @UUID[Compendium.pf2e.actionspf2e.Item.Leap] 的距离增加到 5 尺。如果你的速度至少为 15 尺，你的水平跳跃距离增加到 15 尺；如果你的速度至少为 30 尺，则增加到 20 尺。</p><p></p></li></ul>\n<hr />\n<p>The thrill of danger helps you to jump higher and farther. While you have @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.HAjDJbdawcI5TjTG]{Adrenaline}, you gain the following benefits.</p><ul><li>You gain climb and swim Speeds equal to half your land Speed.</li><li>The DCs of your @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jumps} and @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jumps} decrease by 10. This doesn't combine with other abilities that reduce those DCs.</li><li><p>The distance you can move with a vertical @UUID[Compendium.pf2e.actionspf2e.Item.Leap] increases to 5 feet. Your distance for a horizontal Leap increases to 15 feet if your Speed is at least 15 feet, or to 20 feet if your Speed is at least 30 feet.</p><p></p></li></ul>"
+    },
+    "Instant Enmity": {
+      "name": "瞬间仇恨 Instant Enmity",
+      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>触发</strong> 你看到一个生物对你或你的盟友采取敌对行动。</p><hr /><p>你将你的狩猎集中在一个意想不到但可憎的敌人身上。如果触发该反应的生物等级等于或高于你的等级，它暂时成为你的猎物，持续1分钟，在此期间取代你之前的猎物。如果它的等级低于你，反应动作被浪费，但一旦过了10分钟，你可以在同一天再次使用瞬间仇恨。你不能从使用瞬间仇恨声明的猎物那里 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.xCzDScyYpmhxPNTF]{Claim a Trophy}。</p>\n<hr />\n<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You see a creature take a hostile action against you or one of your allies.</p><hr /><p>You focus your hunt on an unexpected but loathsome foe. If the triggering creature's level is equal to or higher than yours, it temporarily becomes your quarry for 1 minute, replacing your previous quarry for the duration. If its level is lower than yours, the reaction is wasted, but you can use Instant Enmity again on the same day once 10 minutes have passed. You can't @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.xCzDScyYpmhxPNTF]{Claim a Trophy} from a quarry you declared using Instant Enmity.</p>"
+    },
+    "Daring Critical": {
+      "name": "危险猛击 Daring Critical",
+      "description": "<p><strong>狂徒</strong> 你最冒险的攻击也是最致命的。当你拥有肾上腺素并在一个带有连携特征的动作中使用你达到大师熟练度的武器或无武装攻击进行打击时，如果你在骰子上掷出19且该结果为成功，则你获得大成功。如果结果为失败，则此能力无效。</p>\n<hr />\n<p>Your riskiest attacks are also your deadliest. When you have adrenaline and Strike with a weapon or unarmed attack for which you have master proficiency during a press action, you critically succeed if you roll a 19 on the die as long as that result would be a success. This has no effect on a 19 if the result would be a failure.</p>"
+    },
+    "Bold Bluffs": {
+      "name": "大胆虚招 Bold Bluffs",
+      "description": "<p>你的诡计让你能找到敌人防御中的弱点，尽管你有孤注一掷的风险。你 [[/act feint traits=risky]] 的尝试获得风险特征。</p>\n<hr />\n<p>Your tricks allow you to find a weak spot in your foe's defenses, though you risk overextending yourself. Your attempts to [[/act feint traits=risky]] gain the risky trait.</p>"
+    },
+    "Unerring Edge": {
+      "name": "必中锋刃 Unerring Edge",
+      "description": "<p>你可以从最轻微的动作中发现敌人，让你的刀刃准确命中。当你使用 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Tb9oo0tm4XjudslZ]{Honed Strike} 时，你忽略目标的 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 状态以及 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} 状态，并且攻击检定的环境加值增加到 +3。</p>\n<hr />\n<p>You can detect your foe from the slightest movement, letting your blade strike true. When you use @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Tb9oo0tm4XjudslZ]{Honed Strike}, you ignore the target's @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} condition as well as its @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition, and the circumstance bonus to your attack roll increases to +3.</p>",
+      "prerequisites": [
+        {
+          "value": "觅血之刃标志性工具 bloodseeking blade signature tool"
+        }
+      ]
+    },
+    "Ever Vigilant": {
+      "name": "恒久警惕 Ever Vigilant",
+      "description": "<p>即使分心，你也能追逐猎物。在你每个回合开始时，当你恢复动作时，你获得一个额外的反应动作，只能用于 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt}。</p>\n<hr />\n<p>You can pursue your prey even when distracted. At the start of each of your turns when you regain your actions, you gain an additional reaction that can be used only to go @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt}.</p>"
+    },
+    "Knee to the Nethers": {
+      "name": "膝击要害 Knee to the Nethers",
+      "description": "<p>你抓住一个敌人，以便更好地打击其最脆弱的部位。尝试对触及范围内的一个生物进行 [[/act grapple]]。如果你成功，对你 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} 或 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 的那个生物进行一次无武装近战打击。你不需要空闲的手来进行此次打击。如果该攻击命中并造成伤害，目标还会陷入 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}。擒拿和打击都计入你的多重攻击减值，但在你进行完两次攻击之前不会增加减值。</p>\n<hr />\n<p>You grab a foe to better strike at their most sensitive regions. Attempt to [[/act grapple]] a creature within your reach. If you succeed, make an unarmed melee Strike against that creature you have @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}. You don't need a free hand to make this Strike. If that attack hits and deals damage, the target is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. Both the Grapple and the Strike count toward your multiple attack penalty, but you don't increase the penalty until you've made both attacks.</p>"
+    },
+    "Sudden Pounce": {
+      "name": "骤然猛扑 Sudden Pounce",
+      "description": "<p>你毫不犹豫地跳入战团。进行一次 [[/act long-jump]]。如果你落在至少一个敌人的近战触及范围内，你可以对该敌人进行一次近战打击。如果你跳跃了至少 15 尺，敌人对这次打击 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}。</p>\n<hr />\n<p>You leap into the fray with abandon. Make a [[/act long-jump]]. If you land within melee reach of at least one enemy, you can make a melee Strike against that enemy. If you leapt at least 15 feet, the enemy is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to this Strike.</p>"
+    },
+    "Drink Adaptation Serums": {
+      "name": "饮用适应血清 Drink Adaptation Serums",
+      "description": "<p>你喝下你的适应血清，这是一种旨在保护你免受极端条件影响的独特混合物，你将其作为次要工具获得。在接下来的一个小时内，你获得以下效果之一，在你 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} 时选择。</p><ul><li>你将严重或极度寒冷视为轻度寒冷，将难以置信的寒冷视为严重寒冷。</li><li>你将严重或极度炎热视为轻度炎热，将难以置信的炎热视为严重炎热。</li></ul><p><strong>强化</strong> 在持续时间内，你还获得等于你等级的抗力，对抗由危险地形或进入/在特定区域开始回合（如 @UUID[Compendium.pf2e.spells-srd.Item.MlpbeZ61Euhl0d60]{Toxic Cloud} 或 @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu]{Wall of Fire}）造成伤害的效果所造成的任何战利品伤害类型的伤害。</p>\n<hr />\n<p>You drink your adaptation serums, a unique brew intended to protect you from extreme conditions which you gain as a secondary tool. For the next hour, you gain one of the following effects, chosen when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}.</p><ul><li>You treat severe or extreme cold as mild cold, and you treat incredible cold as severe cold.</li><li>You treat severe or extreme heat as mild heat, and you treat incredible heat as severe heat.</li></ul><p><strong>Reinforced</strong> For the duration, you also gain resistance equal to your level to damage of any of the trophy's damage types dealt by hazardous terrain or by an effect that would damage you upon entering or starting your turn in a particular area, such as @UUID[Compendium.pf2e.spells-srd.Item.MlpbeZ61Euhl0d60]{Toxic Cloud} or @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu]{Wall of Fire}.</p>",
+      "prerequisites": [
+        {
+          "value": "炼金师药瓶标志性工具 chymist's vials signature tool"
+        }
+      ]
+    },
+    "Pressing Pummel": {
+      "name": "连击重拳 Pressing Pummel",
+      "description": "<p><strong>需求</strong> 你拥有肾上腺素。</p><hr /><p>你将全部力量倾注于后续攻击。进行一次近战打击。如果此打击命中，你造成额外的 1d10 伤害，伤害类型与你的打击相同。如果你至少是 10 级，增加到 2d10，如果你至少是 18 级，增加到 3d10。</p>\n<hr />\n<p><strong>Requirements</strong> You have adrenaline.</p><hr /><p>You put all your might behind a follow up attack. Make a melee Strike. If this Strike hits, you deal an extra 1d10 damage of the same type of damage of your Strike. If you're at least 10th level, increase this to 2d10, and if you're at least 18th level, increase it to 3d10.</p>"
+    },
+    "Blood For Blood": {
+      "name": "以血还血 Blood For Blood",
+      "description": "<p><strong>需求</strong> 一个生物在你的上一回合结束之后对你造成了重击。</p><hr /><p>你凶狠地反击你的敌人，复仇使你重新振作。对所需生物进行一次打击。如果此打击命中，你获得等于你等级一半或触发攻击造成的伤害的临时生命值，取其低者，持续1分钟。</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.unA01lIdrj424i0Y]{Effect: Blood for Blood (Half Level)}</p>\n<hr />\n<p><strong>Requirements</strong> A creature critically hit you with an attack since the end of your previous turn.</p><hr /><p>You viciously return your foe's attack, reinvigorating yourself with your vengeance. Make a Strike against the required creature. If this Strike hits, you gain temporary Hit Points equal to half your level or the damage the triggering attack dealt, whichever is lower, which last for 1 minute.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.unA01lIdrj424i0Y]{Effect: Blood for Blood (Half Level)}</p>"
+    },
+    "Wheeling Pull Stunt": {
+      "name": "旋身拉拽险招 Wheeling Pull Stunt",
+      "description": "<p><strong>需求</strong> 目标的体型不能比你大一级以上。</p><hr /><p>你拉扯敌人的盔甲或衣服以改变他们的位置。尝试一次 @Check[athletics|against:reflex] 检定对抗你触及范围内一个生物的反射DC。</p><hr /><p><strong>大成功</strong> 你的目标 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} 直到你下一回合结束，除非你移动或目标逃脱。你快步远离目标，并将目标移动最多10尺；它必须保持与你相邻，并保持受擒于你。</p><p><strong>成功</strong> 如同大成功，但当你快步时，你只移动目标5尺。</p><p><strong>失败</strong> 如果你之前使该目标陷入受擒或 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}，这些状态结束。你可以快步远离目标。</p><p><strong>大失败</strong> 你的险招适得其反。你触发反应动作，如同你移出了你开始时的方格。</p>\n<hr />\n<p><strong>Requirements</strong> The target can't be more than one size larger than you.</p><hr /><p>You pull at an enemy's armor or clothes to shift their position. Attempt an @Check[athletics|against:reflex] check against the Reflex DC of a creature within your reach.</p><hr /><p><strong>Critical Success</strong> Your target is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} until the end of your next turn unless you move or your target Escapes. You Step away from the target and you move the target up to 10 feet; it must remain adjacent to you and it remains grabbed by you.</p><p><strong>Success</strong> As critical success, but when you Step, you move the target only 5 feet.</p><p><strong>Failure</strong> If you already had the target grabbed or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, those conditions end. You can Step away from the target.</p><p><strong>Critical Failure</strong> Your stunt backfires. You trigger reactions as if you had moved out of the square you started in.</p>"
+    },
+    "Personalized Gear": {
+      "name": "个性化装备 Personalized Gear",
+      "description": "<p>你的标志性工具比大多数猎杀者更符合你的规格，增强了其性能。如果你有具有格挡特征的 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade} 标志性工具，用它防御获得的 AC 环境加值增加到 +2，如果你有具有背刺特征的觅血之刃标志性工具，额外精准伤害增加 1。如果你有 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq]{Warded Mail} 标志性工具，如果它还没有舒适特征，它将获得该特征，并且你忽略其对你速度的降低。</p>\n<hr />\n<p>Your signature tool is even more closely fit to your specifications than most slayers, enhancing its performance. If you have a @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade} signature tool with the parry trait, the circumstance bonus to AC from positioning it defensively increases to +2, and if you have a bloodseeking blade signature tool with the backstabber trait, the extra precision damage increases by 1. If you have a @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq]{Warded Mail} signature tool, it gains the comfort trait if it didn't already have it, and you ignore its reduction to your speed.</p>",
+      "prerequisites": [
+        {
+          "value": "觅血之刃或符护链甲标志性工具 bloodseeking blade or warded mail signature tool"
+        }
+      ]
+    },
+    "Trip Up": {
+      "name": "趁势摔绊 Trip Up",
+      "description": "<p>你在攻击后紧接着对目标的下肢进行一次横扫。进行一次近战打击。如果你命中并造成伤害，目标陷入 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} 直到你下一回合开始（如果是重击则为 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}）。</p>\n<hr />\n<p>You follow up an attack with a sweeping blow at a target's lower limbs. Make a melee Strike. If you hit and deal damage, the target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the beginning of your next turn (or @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} on a critical hit).</p>"
+    },
+    "Inferno Vial": {
+      "name": "炼狱瓶 Inferno Vial",
+      "description": "<p>你为你的引燃瓶开发了一种更不稳定的混合物，使其能量扩散得更远。当你使用 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.iCrcpEFp5MJRbgcW]{Ignition Vial} 时，它伤害 @Template[type:cone|distance:30] 内的生物，而不是 15 尺。</p>\n<hr />\n<p>You have developed a far more volatile mix for your ignition vials, making their energy spread much farther. When you use @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.iCrcpEFp5MJRbgcW]{Ignition Vial}, it damages creatures in a @Template[type:cone|distance:30], rather than 15 feet.</p>",
+      "prerequisites": [
+        {
+          "value": "炼金师药瓶标志性工具 chymist’s vials signature tool"
+        }
+      ]
+    },
+    "Final Flourish": {
+      "name": "终幕绝技 Final Flourish",
+      "description": "<p><strong>需求</strong> 你在本回合将一个生物的生命值降至0。</p><hr /><p>随着一个炫耀的动作，你甩掉刀刃上的血或重新武装你的武器，让自己重新振作。你获得等于你等级一半的临时生命值，持续1分钟。然后你可以交互以切换武器或为你持用的武器装填。</p>\n<hr />\n<p><strong>Requirements</strong> You reduced a creature to 0 Hit Points this turn.</p><hr /><p>With a showy flourish, you flick blood off your blade or rearm your weapon, invigorating yourself. You gain temporary Hit Points equal to half your level, which last for 1 minute. You can then Interact to swap weapons or reload a weapon you're wielding.</p>"
+    },
+    "Rebounding Fall Stunt": {
+      "name": "反弹坠落险招 Rebounding Fall Stunt",
+      "description": "<p><strong>需求</strong> 目标的体型不能比你大一级以上。</p><hr /><p>你缠住敌人的下肢，试图将他们和你一起带倒。你 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}，并尝试一次 @Check[acrobatics|against:fortitude] 检定对抗你触及范围内一个生物的强韧 DC。</p><hr /><p><strong>大成功</strong> 目标倒地，你对其造成险招伤害（@Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]）。你立即 @UUID[Compendium.pf2e.actionspf2e.Item.OdIUybJ3ddfL7wzj]{Stand}，且不会触发反应动作。</p><p><strong>成功</strong> 如同大成功，但目标不受到伤害。</p><p><strong>失败</strong> 虽然你没把目标带倒，但你可以立即向远离它的方向 @UUID[Compendium.pf2e.actionspf2e.Item.Tj055UcNm6UEgtCg]{Crawl}。</p><p><strong>大失败</strong> 你的险招适得其反，你因坠落受到 @Damage[1d6[bludgeoning]] 伤害。你在下一回合之前不能站立。</p>\n<hr />\n<p><strong>Requirements</strong> The target can't be more than one size larger than you.</p><hr /><p>You entangle a foe's lower limbs as you attempt to bring them down with you. You fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and attempt an @Check[acrobatics|against:fortitude] check against the Fortitude DC of a creature within your reach.</p><hr /><p><strong>Critical Success</strong> The target falls prone and you deal stunt damage to them (@Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]). You immediately @UUID[Compendium.pf2e.actionspf2e.Item.OdIUybJ3ddfL7wzj]{Stand}, which doesn't trigger reactions.</p><p><strong>Success</strong> As critical success, but the target takes no damage.</p><p><strong>Failure</strong> Though you don't bring your target down with you, you can immediately @UUID[Compendium.pf2e.actionspf2e.Item.Tj055UcNm6UEgtCg]{Crawl} away from them.</p><p><strong>Critical Failure</strong> Your stunt backfires and you take @Damage[1d6[bludgeoning]] damage from the fall. You can't Stand until your next turn.</p>"
+    },
+    "Peculiar Weaponry": {
+      "name": "奇门兵器 Peculiar Weaponry",
+      "description": "<p>你专精于一种不寻常的武器，无论是普通士兵的装备还是极少数人能使用的独特工具。如果你的觅血之刃标志性工具是简易武器，将其伤害骰大小增加一级。此外，你的觅血之刃标志性工具可以是进阶武器，除了简易或军用武器之外，并且在熟练度方面，你将任何你指定为标志性工具的进阶武器视为军用武器。</p>\n<hr />\n<p>You specialize in an unusual weapon, whether a common soldier's armament or a unique tool few can use. If your bloodseeking blade signature tool is a simple weapon, increase its damage die size by one step. In addition, your bloodseeking blade signature tool can be an advanced weapon, in addition to simple or martial, and you treat any advanced weapon you've designated as your signature tool as if it were a martial weapon for the purposes of proficiency.</p>",
+      "prerequisites": [
+        {
+          "value": "觅血之刃标志性工具 bloodseeking blade signature tool"
+        }
+      ]
+    },
+    "Salt Stone": {
+      "name": "盐石 Salt Stone",
+      "description": "<p>你掏出你的盐石，一块干燥的魔法化合物块，并在你持用的武器上刮擦。在接下来的 1 分钟内，该武器可以伤害虚体生物，如同它拥有 @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch} 符文。如果你的猎物拥有再生，该武器还会使你猎物的再生失效，如同它造成了适当类型的伤害。</p>\n<hr />\n<p>You draw your salt stone, a small block of dried magical compounds, and scrape it along a weapon you're wielding. For the next minute, that weapon can damage incorporeal creatures as if it had a @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch} rune. If your quarry has regeneration, the weapon also deactivates your quarry's regeneration as if it dealt damage of the appropriate type.</p>"
+    },
+    "Defensive Hunt": {
+      "name": "防御狩猎 Defensive Hunt",
+      "description": "<p><strong>触发</strong> 你被你的猎物重击。</p><hr /><p>即使在危险时刻，你也能化劣势为机会。你以自由动作 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt}。</p>\n<hr />\n<p><strong>Trigger</strong> You are critically hit by your quarry.</p><hr /><p>Even in a moment of danger, you turn weakness into opportunity. You go @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt} as a free action.</p>",
+      "prerequisites": [
+        {
+          "value": "炼金师药瓶标志性工具 chymist's vials signature tool"
+        }
+      ]
+    },
+    "Ultimate Stunt Flexibility": {
+      "name": "终极灵活险招 Ultimate Stunt Flexibility",
+      "description": "<p>你的经验让你能改变策略以应对任何情况。当你使用灵活险招获得狂徒专长时，你获得三个狂徒专长而不是两个。第一个专长仍必须是8级或更低，第二个专长可以是最高14级，第三个专长可以是最高18级。</p><p>你可以使用第一个专长来满足第二个或第三个专长的先决条件，使用第二个专长来满足第三个专长的先决条件。你必须正常满足所有三个专长的其他先决条件，并且它们都必须具有连携特征。</p><p>此外，你可以通过花费1小时训练来适应冒险的挑战。如果你这样做，你可以重新选择通过灵活险招选择的专长，就像你进行了每日准备一样。你不能换掉你已经使用过的有限使用能力，例如 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.UhvvPxTVhkHC0JSs]{Fortify Self}。</p>\n<hr />\n<p>Your experience allows you to change your strategies to meet any situation. When you gain a daredevil feat using stunt flexibility, you gain three daredevil feats instead of two. While the first feat must still be 8th level or lower, the second feat can be up to 14th level, and the third feat can be up to 18th level.</p><p>You can use the first feat to meet the prerequisites of the second or third feats and the second feat to meet the prerequisites of the third feat. You must meet all three feats' other prerequisites normally, and they must all have the press trait.</p><p>In addition, you can adapt to the challenges of adventuring by spending 1 hour to train. If you do, you can reselect the feats chosen with stunt flexibility as if you had made your daily preparations. You can't trade out limited-use abilities that you've already used, such as @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.UhvvPxTVhkHC0JSs]{Fortify Self}.</p>",
+      "prerequisites": [
+        {
+          "value": "精通灵活险招 improved stunt flexibility"
+        }
+      ]
+    },
+    "Slayer's Tricks": {
+      "name": "猎杀者戏法 Slayer's Tricks",
+      "description": "<p>你学会了一些简单的魔法戏法，以便在紧要关头补充你的工具。你获得两个常见的异能戏法作为内在法术。这些法术以及你从猎杀者专长获得的任何其他法术的施法属性调整值是感知，而不是魅力。只要你施放的法术来自猎杀者专长，施法对你获得追猎特征。</p><hr /><p><strong>特殊</strong> 如果你有 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply} 标志性工具，你可以为此专长以及任何其他允许你选择内在法术的猎杀者专长选择神术法术而不是异能法术。</p>\n<hr />\n<p>You've learned a few simple magical tricks to supplement your tools in a pinch. You gain two common occult cantrips as innate spells. Your spellcasting attribute modifier for these spells and any other spells you gain from slayer feats is Wisdom, rather than Charisma. Casting a Spell gains the relentless trait for you, as long as the spell you cast came from a slayer feat.</p><hr /><p><strong>Special</strong> If you have a @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply} signature tool, you can choose divine spells rather than occult spells for this feat and for any other slayer feats that allow you to choose innate spells.</p>"
+    },
+    "Can't Catch Me": {
+      "name": "抓不到我 Can't Catch Me",
+      "description": "<p>你从敌人的每一次攻击中溜走。在每个敌人的回合开始时，你获得一个额外的反应动作，该反应动作只能在该回合中用于执行 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.JsY7pHr0HDQt0yLX]{Scrambling Retreat}。</p>\n<hr />\n<p>You slip away from each of your enemy's attacks. At the start of each enemy's turn, you gain an extra reaction you can use only during that turn to perform @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.JsY7pHr0HDQt0yLX]{Scrambling Retreat}.</p>",
+      "prerequisites": [
+        {
+          "value": "仓促撤退 Scrambling Retreat"
+        }
+      ]
+    },
+    "Apply Spirit Oil": {
+      "name": "涂抹精魂油 Apply Spirit Oil",
+      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>需求</strong> 你有一只空闲的手并持用着一把武器。</p><hr /><p>你有一个装着油和树脂的恶臭混合物的小罐子作为次要工具。你拿出一块浸有精魂油的布擦拭你的武器，神奇地增强其锋利度并使其笼罩在幽灵之火中。持续 1 分钟，所需武器获得致命 d8 特征，或者如果它已经有了，将其致命特征的骰子大小增加一级。</p><p><strong>强化</strong> 持续 1 分钟，所需武器在重击时还会造成额外的 1d4 持续伤害。持续伤害是战利品的伤害类型之一，在你 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} 时选择。</p>\n<hr />\n<p><strong>Frequency</strong> once per day</p><p><strong>Requirements</strong> You have a free hand and are wielding a weapon.</p><hr /><p>You have a small pot containing a foul concoction of oil and resin as a secondary tool. You draw a cloth coated in your spirit oil and wipe it along your weapon, magically enhancing its edge and limning it in ghostly fire. For 1 minute, the required weapon gains the deadly d8 trait, or increases the die size of its deadly trait by one step if it already had it.</p><p><strong>Reinforced</strong> For 1 minute, the required weapon also deals an additional 1d4 persistent damage on a critical hit. The persistent damage is of one of the trophy's damage types, chosen when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}.</p>"
+    },
+    "Deadly Rush": {
+      "name": "致命冲刺 Deadly Rush",
+      "description": "<p>当你冲上前进行快速攻击时，你的武器变成了致命的工具。当你使用 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.lxbXVxze6QhFM2Am]{Rushing Stride} 进行打击并造成重击时，如果是使用具有致命特征的武器，你将该特征的骰子数量翻倍。当你使用猛冲步进行打击时，如果使用的是不具有致命特征的武器，它在这次攻击中获得致命 d8 特征。</p>\n<hr />\n<p>When you dash forward to make a swift attack, your weapon becomes a deadly instrument. When you score a critical hit during the Strike you make with @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.lxbXVxze6QhFM2Am]{Rushing Stride} with a weapon that has the deadly trait, you double the number of dice from that trait. When you Strike during Rushing Stride with a weapon doesn't have the deadly trait, it gains the deadly d8 trait for that attack instead.</p>",
+      "prerequisites": [
+        {
+          "value": "猛冲步 Rushing Stride"
+        }
+      ]
+    },
+    "Scrambling Retreat": {
+      "name": "仓促撤退 Scrambling Retreat",
+      "description": "<p><strong>触发</strong> 你成为一次近战攻击的目标。</p><p><strong>需求</strong> 你拥有肾上腺素且未超载。</p><hr /><p>你在对抗该攻击的 AC 上获得 +2 环境加值。攻击结算后，你可以行走最多一半速度。如果你这样做，攻击者可以用自由动作行走跟随你，在你移动过程中保持你在其触及范围内，直到你停止移动或他已移动其全速。</p>\n<hr />\n<p><strong>Trigger</strong> You're targeted by a melee attack.</p><p><strong>Requirements</strong> You have adrenaline and you aren't encumbered.</p><hr /><p>You gain a +2 circumstance bonus to AC against the attack. After the attack, you can Stride up to half your Speed. If you do, the attacker can Stride to follow you as a free action, keeping you in their reach throughout their movement until you stop moving or they have moved their full Speed.</p>"
+    },
+    "Field-Forged Tools": {
+      "name": "战地铸造工具 Field-Forged Tools",
+      "description": "<p>你处理怪物部件和回收装备的经验使你能够直接从你的战利品中制作武器和护甲。即使你不符合先决条件，你也获得 @UUID[Compendium.pf2e.feats-srd.Item.kajI2r9RmtW5xYL7]{Monster Crafting} 技能专长，当你使用它时，除了怪物的尸体外，你还可以消耗一个未使用的战利品，将该战利品整合到物品的制作中。如果你后来将该物品指定为狩猎工具（例如，觅血之刃或符护链甲标志性工具），你获得其强化增益，如同你用消耗的战利品强化了它一样。你仍然可以用另一个战利品正常强化该物品，你可以通过一个带有操作特征的1分钟行动切换它使用的战利品特性。</p>\n<hr />\n<p>Your experience working with monster parts and salvaged equipment makes you adept enough to create weapons and armor directly from your trophies. You gain the @UUID[Compendium.pf2e.feats-srd.Item.kajI2r9RmtW5xYL7]{Monster Crafting} skill feat even if you don't qualify for its prerequisites, and when you use it you can consume an unused trophy in addition to the body of a monster, incorporating the trophy into the item's construction. If you later designate the item as a hunting tool (for example, a bloodseeking blade or warded mail signature tool), you gain its reinforced benefits as if you had reinforced it with the consumed trophy. You can still reinforce the item normally with another trophy, and you can switch which trophy's characteristics it uses as a 1-minute activity with the manipulate trait.</p>"
+    },
+    "Paired Bloodseeker": {
+      "name": "成对觅血者 Paired Bloodseeker",
+      "description": "<p>无论你是携带两把相同的武器还是一把有用的副武器，你的标志性武器都是成对的，用暴风雨般的打击威胁你的猎物。你获得一把成对觅血者作为次要工具，这是你选择的一把 0 级普通单手简易或军用武器。当你 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} 时，你可以指定一把不同的单手武器作为你的第二把刀刃，并将你的特殊调整转移到其上。</p><p>你的成对觅血者获得你 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade} 标志性工具的初始增益，除了额外伤害骰是 d4 而不是 d6。当你的觅血之刃标志性工具获得专精军械增益时，它也获得。你可以用你的成对觅血者代替觅血之刃标志性工具使用磨砺一击，或任何其他要求你持用或用觅血之刃标志性工具打击的能力。</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.uCzopTPhAXrFEGTD]{Effect: Paired Bloodseeker}</p>\n<hr />\n<p>Whether you carry two identical weapons or a useful sidearm, your signature weapon is paired, threatening your quarry with a storm of blows. You gain a paired bloodseeker as a secondary tool, which is a level 0 common one-handed simple or martial weapon of your choice. You can designate a different one-handed weapon as your second blade when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}, transferring your special adjustments to it.</p><p>Your paired bloodseeker gains the initial benefit of your @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade} signature tool, except that you roll d4s instead of d6s for the additional damage. It also gains the specialized arsenal benefit when your bloodseeking blade signature tool does. You can use Honed Strike, or any other ability that requires you to wield or Strike with a bloodseeking blade signature tool, with your paired bloodseeker instead.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.uCzopTPhAXrFEGTD]{Effect: Paired Bloodseeker}</p>",
+      "prerequisites": [
+        {
+          "value": "觅血之刃标志性工具 bloodseeking blade signature tool"
+        }
+      ]
+    },
+    "Shattering Breakaway": {
+      "name": "碎裂取材 Shattering Breakaway",
+      "description": "<p>当你在对手身上打碎一件物品时，它的碎片会留在他们的皮肤里。你可以将 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.MW9pnWb4SPbdJIt0]{Breakaway Attack} 作为一个双动作行动使用，先交互捡起一个像玻璃瓶或类似的东西，并用它进行一次近战打击。如果此攻击命中并造成伤害，你的目标受到等于伤害骰数量两倍的持续流血伤害，因为物品在生物身上破碎。只要目标承受持续流血伤害，它还会陷入 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}。如果你捡起的物品是魔法物品，则此次打击照常生效，但不造成持续伤害。</p>\n<hr />\n<p>As you shatter an object against an opponent, its pieces stay lodged in their skin. You can use @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.MW9pnWb4SPbdJIt0]{Breakaway Attack} as a two-action activity to Interact to pick up an object like a glass bottle or something similar and make a melee Strike with it. If this hits and deals damage, your target takes persistent bleed damage equal to double the number of damage dice as the item shatters against its form. The target is also @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} for as long as it is taking persistent bleed damage. If the item you pick up is magical, the Strike functions as normal and doesn't deal persistent damage.</p>",
+      "prerequisites": [
+        {
+          "value": "就地取材 Breakaway Attack"
+        }
+      ]
+    },
+    "Deadly Advantage": {
+      "name": "致命优势 Deadly Advantage",
+      "description": "<p>你对处于虚弱状态的敌人占据上风。当你拥有肾上腺素时，你对 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy} 或 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled} 生物进行的打击伤害检定获得环境加值。此加值等于目标笨拙或力竭状态值中较高者的两倍。如果你在运动技能上达到大师，此加值提升至目标笨拙或力竭状态值中较高者的三倍。</p>\n<hr />\n<p>You take the upper hand against foes in a weakened state. When you have adrenaline, you gain a circumstance bonus to damage rolls for Strikes against @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled} creatures. The bonus is equal to double the target's clumsy or enfeebled condition, whichever is higher. If you're a master in Athletics, increase the bonus to triple the target's clumsy or enfeebled condition, whichever is higher.</p>"
+    },
+    "Breakaway Attack": {
+      "name": "就地取材 Breakaway Attack",
+      "description": "<p><strong>狂徒 绝技 风险</strong> 你利用周围的一件物品进行出其不意的攻击。描述你如何利用环境（例如扔锅碗瓢盆，踢松柱子使脚手架倒塌，或者猛地开关门）。你与描述的物体<strong>交互</strong>，然后根据你的描述用它进行近战或远程打击。你在重拳缠手带上的任何基础符文都适用于此打击。近战打击具有<strong>娴熟</strong>和<strong>致命 d8</strong>特征；它造成1d8钝击伤害。远程打击的射程增量为20尺，具有<strong>致命 d10</strong>和<strong>助进</strong>特征；它造成1d6钝击伤害。如果物体是一个你可以拿在手里的普通0级物品，它会被摧毁；否则，它会掉落在你目标所在的方格内。GM可以根据你的描述和具体情况决定你的就地取材造成不同类型的伤害。</p>\n<hr />\n<p>You use a piece of your surroundings to make a surprising attack. Describe how you are using your environment (throwing a pot or pan, kicking a loose post to make scaffolding fall, or slamming a door open or shut, for example). You Interact with the described object and then make a melee or ranged Strike with it, as appropriate for your description. Any fundamental runes you have on a handwraps of might blows apply to this Strike. A melee Strike has the finesse and deadly d8 traits; it deals d8 bludgeoning damage. A ranged Strike has a range increment of 20 feet and the deadly d10 and propulsive traits; it deals 1d6 bludgeoning damage. If the object is a mundane level 0 item that you could have held in your hand, it is destroyed; otherwise, it falls to the ground in your target's space. The GM can determine that your Breakaway Attack deals a different type of damage, depending on your description and the circumstances.</p>"
+    },
+    "Pack Slayer": {
+      "name": "群体杀手 Pack Slayer",
+      "description": "<p>你知道即使是较弱的怪物，只要数量足够多，也是有价值的猎物。你可以将一组至少三个完全相同类型的生物（例如一群狼人）@UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.pLEBGC3EMeUlFLqq]{Mark as your Quarry}，即使它们的等级低于你。就你的猎杀者专长和职业特性而言，你将该群体的任何成员视为你的猎物，但你永远只能从该群体的一个成员那里 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.xCzDScyYpmhxPNTF]{Claim a Trophy}。</p>\n<hr />\n<p>You know that even lesser monsters make for worthy prey in enough numbers. You can @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.pLEBGC3EMeUlFLqq]{Mark as your Quarry} a group of at least three creatures of the exact same type, such as a pack of werewolves, even if their level is lower than yours. You treat any member of the group as your quarry for the purposes of your slayer feats and class features, but you can only ever @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.xCzDScyYpmhxPNTF]{Claim a Trophy} from a single member of the group.</p>"
+    },
+    "Stunt Driver": {
+      "name": "险招驾驶员 Stunt Driver",
+      "description": "<p>当你操控载具时，你感到肾上腺素飙升。当你驾驶载具采取具有鲁莽特征的动作时，该动作获得风险特征。你在保持载具控制的驾驶检定上获得 +2 环境加值。此外，无论载具大小，你都将所有载具视为支点，并且当你身处载具上时可以使用它们作为支点，即使它们正在移动。</p>\n<hr />\n<p>When in control of a vehicle, you feel your adrenaline surging. When you take a reckless action while piloting a vehicle, that action gains the risky trait. You gain a +2 circumstance bonus to the piloting check keep control of the vehicle. In addition, you treat all vehicles as props, regardless of their size, and can use them as props while you are on board the vehicle, even when they are in motion.</p>",
+      "prerequisites": [
+        {
+          "value": "驱车学识、航空学识或航海学识受训 trained in Driving Lore, Piloting Lore, or Sailing Lore"
+        }
+      ]
+    },
+    "Impenetrable Shelter": {
+      "name": "坚不可摧掩体 Impenetrable Shelter",
+      "description": "<p>你的护甲覆盖着如此多层的特殊材料和处理，以至于它几乎可以保护你免受任何伤害。当你使用 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.7Wyg7Z4HpK5NABep]{Armored Shelter} 时，你在对抗区域效果的所有豁免上获得+2环境加值，而不仅仅是反射豁免。</p>\n<hr />\n<p>Your armor is covered in so many layers of special materials and treatments that it protects you from almost any harm. When you use @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.7Wyg7Z4HpK5NABep]{Armored Shelter}, you gain a +2 circumstance bonus to all saves against area effects, not just Reflex saves.</p>",
+      "prerequisites": [
+        {
+          "value": "符护链甲标志性工具 warded mail signature tool"
+        }
+      ]
+    },
+    "Forceful Kickoff Stunt": {
+      "name": "强力蹬踏险招 Forceful Kickoff Stunt",
+      "description": "<p><strong>需求</strong> 目标的体型不能比你大一级以上。</p><hr /><p>你一脚蹬在敌人胸口，在向后跳跃的同时将他们蹬开。尝试一次 @Check[acrobatics|against:fortitude] 检定对抗你触及范围内一个生物的强韧 DC。</p><hr /><p><strong>大成功</strong> 目标被推离你 15 尺。你 @UUID[Compendium.pf2e.actionspf2e.Item.Leap] 离开目标，此移动不会触发反应动作。</p><p><strong>成功</strong> 如同大成功，但目标只被推离 5 尺。</p><p><strong>失败</strong> 你跳跃离开目标。</p><p><strong>大失败</strong> 你的险招适得其反。你 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}，直到你下一回合开始。</p>\n<hr />\n<p><strong>Requirements</strong> The target can't be more than one size larger than you.</p><hr /><p>You plant a foot in an enemy's chest, pushing them away as your leap backward. Attempt an @Check[acrobatics|against:fortitude] check against the Fortitude DC of a creature within your reach.</p><hr /><p><strong>Critical Success</strong> The target is pushed 15 feet away from you. You @UUID[Compendium.pf2e.actionspf2e.Item.Leap] away from the target, and this movement doesn't trigger reactions.</p><p><strong>Success</strong> As critical success, but the target is pushed only 5 feet.</p><p><strong>Failure</strong> You Leap away from the target.</p><p><strong>Critical Failure</strong> Your stunt backfires. You are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the beginning of your next turn.</p>"
+    },
+    "Share Insight": {
+      "name": "分享洞察 Share Insight",
+      "description": "<p>你对猎物的理解如此透彻，以至于你可以轻松指导你的盟友利用它。每天当你 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} 时，选择以下增益之一；你只能选择与你拥有的标志性工具相关的增益。当你分享洞察时，你的盟友获得所选增益，持续 1 分钟。</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade}</strong> 你 30 尺内的盟友在造成任何伤害时忽略你猎物的 3 点抗力。</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.iihaKfTGSfA3kExA]{Chymist's Vials}</strong> 你 30 尺内的盟友获得昏暗视觉，如果他们已经有昏暗视觉则获得黑暗视觉，并且可以以精确感官侦测 30 尺内的猎物。</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply}</strong> 你 30 尺内的盟友在对抗你猎物的豁免骰上获得 +1 状态加值。</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq]{Warded Mail}</strong> 你 30 尺内的盟友对你猎物造成的伤害拥有 5 点抗力。</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.Xwo4jfTkwTLW2RHQ]{Effect: Share Insight}</p>\n<hr />\n<p>Your understanding of your quarry is so complete that you can easily guide your allies to exploit it. Each day when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}, choose one of the following benefits; you can choose only a benefit associated with a signature tool you have. When you Share Insight, your allies gain the chosen benefit for 1 minute.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.Nl1Aqj6JTdMv0qbB]{Bloodseeking Blade}</strong> Allies within 30 feet of you ignore 3 points of your quarry's resistance to any damage they deal.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.iihaKfTGSfA3kExA]{Chymist's Vials}</strong> Allies within 30 feet of you gain low-light vision, or darkvision if they already had low-light vision, and can detect your quarry as a precise sense within 30 feet.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply}</strong> Allies within 30 feet of you gain a +1 status bonus to saving throws against your quarry.</p><p><strong>@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.e2yHoiqZP7PM22Cq]{Warded Mail}</strong> Allies within 30 feet of you have resistance 5 to damage dealt by your quarry.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.Xwo4jfTkwTLW2RHQ]{Effect: Share Insight}</p>"
+    },
+    "Wall Sweep": {
+      "name": "猫反扑 Wall Sweep",
+      "description": "<p><strong>触发</strong> 你将因一个强制移动效果被移动。</p><p><strong>需求</strong> 你拥有肾上腺素且与至少一个支点相邻。</p><hr /><p>你利用周围环境从强制移动中获得动量。你可以增加最多10尺的强制移动距离。如果你这样做，你决定强制移动将你带向何处（而不是强制移动的源头），但你不能让这次强制移动结束在你原来的空间。</p>\n<hr />\n<p><strong>Trigger</strong> You would be moved by a forced movement effect.</p><p><strong>Requirements</strong> You have adrenaline and are adjacent to at least one prop.</p><hr /><p>You use the environment around you to gain momentum from your forced movement. You can increase the amount of forced movement by up to 10 feet. If you do, you decide where your forced movement takes you (instead of the origin of the forced movement), though you can't end this forced movement in your original space.</p>"
+    },
+    "Daring Reversal": {
+      "name": "惊世反转 Daring Reversal",
+      "description": "<p>你在攻击后紧接着进行一次猛烈的推撞，为自己腾出空间。对触及范围内夹击你的敌人之一进行一次近战打击，然后尝试一次运动检定 [[/act shove]] 该敌人。你不需要空手即可尝试此推撞。此检定具有与初始攻击相同的多重攻击减值，且不计入你的多重攻击减值。另一个夹击你的敌人随后对你 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}，直到你下一回合结束。</p>\n<hr />\n<p>You follow up an attack with a punishing shove to give yourself some space. Make a melee Strike against one of the flanking enemies that is within your reach and then attempt an Athletics check to [[/act shove]] that enemy. You don't need a hand free to attempt this Shove. This check has the same multiple attack penalty of the initial attack and doesn't count toward your multiple attack penalty. The other enemy flanking you is then @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to you until the end of your next turn.</p>"
+    },
+    "Endless Enmity": {
+      "name": "无尽仇恨 Endless Enmity",
+      "description": "<p>你总是准备好面对伤害你或你盟友的生物。@UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.3rDrEZt3dP96OfQW]{Instant Enmity} 的频率变为每 10 分钟一次。</p>\n<hr />\n<p>You are always ready to face a creature that harms you or your allies. The frequency of @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.3rDrEZt3dP96OfQW]{Instant Enmity} becomes once per 10 minutes.</p>",
+      "prerequisites": [
+        {
+          "value": "瞬间仇恨 Instant Enmity"
+        }
+      ]
+    },
+    "Double Quarry": {
+      "name": "双重猎物 Double Quarry",
+      "description": "<p>你改进的准备工作允许你同时为两个敌人准备工具。你可以同时指定最多两个生物作为你的猎物。如果你在已经有两个猎物的情况下 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.pLEBGC3EMeUlFLqq]{Mark Quarry}，你选择替换哪一个。</p>\n<hr />\n<p>Your improved preparations allow you to ready your tools for two foes at once. You can have up to two creatures designated as your quarry at the same time. If you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.pLEBGC3EMeUlFLqq]{Mark Quarry} while you already have two quarries, you choose which to replace.</p>"
+    },
+    "Fortify Self": {
+      "name": "固守自身 Fortify Self",
+      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>需求</strong> 你拥有肾上腺素。</p><hr /><p>你绷紧身体，准备承受因你的鲁莽而不可避免会受到的伤害。你获得对所有物理伤害的抗力，数值为你等级的一半，持续到你的下一回合开始。</p>\n<hr />\n<p><strong>Frequency</strong> once per hour</p><p><strong>Requirements</strong> You have adrenaline.</p><hr /><p>You brace your body for the damage you will inevitably take due to your recklessness. You gain resistance to all physical damage equal to half your level until the beginning of your next turn.</p>"
+    },
+    "Scrambling Roll": {
+      "name": "仓促翻滚 Scrambling Roll",
+      "description": "<p>通过前扑和翻滚，你可以避开危险的效果。除了原有的触发条件外，你还可以在尝试反射豁免之前使用 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.JsY7pHr0HDQt0yLX]{Scrambling Retreat}。如果你这样做，环境加值将适用于你对抗触发效果的反射豁免。如果你在尝试豁免后行走，且效果的来源是一个生物，该生物可以用一个自由动作向你的方向行走相同的距离。</p>\n<hr />\n<p>With a dive and a tumble, you can avoid dangerous effects. You can use @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.JsY7pHr0HDQt0yLX]{Scrambling Retreat} before attempting a Reflex save, in addition to its original trigger. If you do, the circumstance bonus applies to your Reflex save against the triggering effect. If you Stride after attempting the save, and the source of the effect is a creature, that creature can Stride up to the same distance toward you as a free action.</p>",
+      "prerequisites": [
+        {
+          "value": "仓促撤退 Scrambling Retreat"
+        },
+        {
+          "value": "特技专家 expert in Acrobatics"
+        }
+      ]
+    },
+    "Vigorous Adrenaline": {
+      "name": "活力肾上腺素 Vigorous Adrenaline",
+      "description": "<p><strong>需求</strong> 你拥有肾上腺素。</p><hr /><p>你停下来喘口气以强化自己。你获得等于你等级加上你体质调整值的临时生命值，持续到你下一回合开始。此外，你将以下一种你拥有的状态的数值减少 1：@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}、@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled} 或 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened}。然后你失去肾上腺素。</p>\n<hr />\n<p><strong>Requirements</strong> You have adrenaline.</p><hr /><p>You pause to take a breath to fortify yourself. You gain temporary Hit Points equal to your level plus your Constitution modifier that last until the start of your next turn. Additionally, you reduce the value by 1 of one of the following conditions you have @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, or @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened}. You then lose adrenaline.</p>"
+    },
+    "Headsmash": {
+      "name": "碎颅击 Headsmash",
+      "description": "<p><strong>需求</strong> 你拥有肾上腺素，一个生物受擒或束缚于你，并且你和该生物都与同一个支点相邻。</p><hr /><p>在肾上腺素的驱动下，你将敌人的头撞向坚固的物体。尝试一次 @Check[athletics|against:fortitude] 检定对抗 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} 生物的强韧DC。</p><hr /><p><strong>大成功</strong> 你对目标造成 @Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]{stunt damage}，目标必须尝试一次 @Check[fortitude|against:daredevil|options:inflicts:stunned|traits:incapacitation] 豁免对抗你的职业DC，否则陷入 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}；这是一个失能效果。你的目标保持受擒或 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 于你，直到你下一回合结束或直到他们逃脱。</p><p><strong>成功</strong> 如同大成功，但目标只陷入 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}。你的目标保持受擒或束缚于你，直到你下一回合结束或直到他们逃脱。</p><p><strong>失败</strong> 你对目标造成一半的险招伤害。你的目标随后不再受擒或束缚于你。</p><p><strong>大失败</strong> 你的目标不再受擒或束缚于你。你的目标可以擒拿你，如同它成功对你使用了 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} 动作，或者强迫你摔倒并陷入 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}。</p>\n<hr />\n<p><strong>Requirements</strong> You have adrenaline, you have a creature grabbed or restrained, and you and the grabbed creature are both adjacent to the same prop.</p><hr /><p>Fueled by adrenaline, you drive an enemy's head into a sturdy object. Attempt an @Check[athletics|against:fortitude] check against the Fortitude DC of the @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} creature.</p><hr /><p><strong>Critical Success</strong> Your deal @Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]{stunt damage} to your target, who must attempt a @Check[fortitude|against:daredevil|options:inflicts:stunned|traits:incapacitation] save against your class DC or become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}; this is an incapacitation effect. Your target remains grabbed or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by you until the end of your next turn or they Escape.</p><p><strong>Success</strong> As critical success, but the target is only @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}. Your target remains grabbed or restrained by you until the end of your next turn or they Escape.</p><p><strong>Failure</strong> You deal half your stunt damage to the target. Your target is then no longer grabbed or restrained by you.</p><p><strong>Critical Failure</strong> Your target is no longer grabbed or restrained by you. Your target can either grab you, as if it succeeded at using the @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} action against you, or force you to fall and land @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+    },
+    "Bloodscent": {
+      "name": "血腥嗅觉 Bloodscent",
+      "description": "<p>只需一瞥，你就能判断目标离倒下还有多远。你对一个你能看到的生物 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}。如果你成功，在接下来的一分钟内，你知道该生物的所有状态及其剩余生命值的大致百分比。如果你的目标是你的猎物或正在承受持续流血伤害，你可以以自由动作使用此能力。</p>\n<hr />\n<p>With a glance, you can judge how close your target is to falling. You @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about a single creature you can see. If you succeed, for the next minute you know all conditions that creature has and an approximate percentage of its remaining Hit Points. You can use this ability as a free action if the creature you target is your quarry or is taking persistent bleed damage.</p>"
+    },
+    "Cure-All": {
+      "name": "万能药 Cure-All",
+      "description": "<p>你获得一瓶万能药作为次要工具。你可以花费 1 分钟将其涂抹在盟友身上，移除以下一种状态：@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}、@UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Petrified}、@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened} 或 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}。如果盟友处于 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}，他们还会获得 @Damage[1[healing]]{1 Hit Point}。目标随后在 24 小时内暂时免疫万能药。</p><p><strong>强化</strong> 你可以使用万能药尝试反制战利品来源生物 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.xCzDScyYpmhxPNTF]{Claimed} 时施加的任何一种苦难，使用你的职业 DC – 10 作为反制检定调整值。</p>\n<hr />\n<p>You gain a vial of cure-all as a secondary tool. You can spend 1 minute to apply it to an ally, removing one of the following conditions: @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Petrified}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened}, or @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}. If the ally was @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, they also gain @Damage[1[healing]]{1 Hit Point}. The target is then temporarily immune to cure-alls for 24 hours.</p><p><strong>Reinforced</strong> You can instead use a cure-all to attempt to counteract any one affliction applied by the creature the trophy was @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.xCzDScyYpmhxPNTF]{Claimed} from, using your Class DC – 10 as your counteract check modifier.</p>",
+      "prerequisites": [
+        {
+          "value": "炼金师药瓶标志性工具 chymist's vials signature tool"
+        }
+      ]
+    },
+    "Blood Rush": {
+      "name": "鲜血冲动 Blood Rush",
+      "description": "<p><strong>触发</strong> 你投掷先攻，且你能看到你的猎物。</p><hr /><p>与目标进入战斗的肾上腺素推动你向前。你以自由动作 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt}。</p>\n<hr />\n<p><strong>Trigger</strong> You roll initiative, and you can see your quarry.</p><hr /><p>The adrenaline of entering combat with your target pushes you forward. You go @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt} as a free action.</p>"
+    },
+    "Relentless Counterstrike": {
+      "name": "无情反击 Relentless Counterstrike",
+      "description": "<p><strong>触发</strong> 你因使用装甲掩体、@UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raising a Shield} 或使用具有格挡特征的武器防御而获得 AC 环境加值，并且一次如果没有该加值就会命中的攻击未命中你。</p><hr /><p>你重定向攻击的势头，将自己投入战斗。你以自由动作 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt}。</p>\n<hr />\n<p><strong>Trigger</strong> You have a circumstance bonus to your AC from using Armored Shelter, @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raising a Shield}, or positioning a weapon with the parry trait defensively, and you are missed by an attack that would have hit without that bonus.</p><hr /><p>You redirect an attack's momentum to throw yourself into the fight. You go @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt} as a free action.</p>"
+    },
+    "Double Breakaway": {
+      "name": "双重取材 Double Breakaway",
+      "description": "<p>你同时用两件物品砸向一个敌人。当你双手空闲时，你可以将 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.MW9pnWb4SPbdJIt0]{Breakaway Attack} 作为一个双动作活动使用，先交互两次捡起两个物体，然后用两个物体同时对一个目标进行一次近战打击。此次打击造成额外一颗伤害骰。如果你用此次打击重击，直到你下一回合开始，目标还会陷入 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}。如同通常情况，用于进行这些攻击的两件物品都会被摧毁（或掉落在地）。</p>\n<hr />\n<p>You break two items simultaneously against a single enemy's body. When you have two hands free, you can use @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.MW9pnWb4SPbdJIt0]{Breakaway Attack} as a 2-action activity to Interact twice to pick up two objects and make a melee Strike with both objects simultaneously against one target. This Strike deals an extra die of damage. If you critically hit with this Strike, the target is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the beginning of your next turn. As normal, both items used to make these attacks are destroyed (or fall to the ground).</p>",
+      "prerequisites": [
+        {
+          "value": "就地取材 Breakaway Attack"
+        }
+      ]
+    },
+    "Don't Mess with Me": {
+      "name": "别惹我 Don't Mess with Me",
+      "description": "<p><strong>需求</strong> 你拥有肾上腺素。</p><p><strong>触发</strong> 你对一名敌人造成重击。</p><hr /><p>在重击一名敌人后，你凶狠地瞪向另一名敌人。尝试对 60 尺内一个并非你重击目标的生物进行 [[/act demoralize]]；该动作失去听觉特征，并且如果该生物不懂你的语言，你不会受到减值。如果你在威吓上拥有传奇熟练度，你可以用自由动作在相同触发条件下使用此能力。</p>\n<hr />\n<p><strong>Requirements</strong> You have adrenaline.</p><p><strong>Trigger</strong> You get a critical hit on an enemy.</p><hr /><p>After striking an enemy hard, you glare menacingly at another. Attempt to [[/act demoralize]] a creature within 60 feet that isn't the enemy you critically hit; the action loses the auditory trait, and you don't take a penalty if the creature doesn't understand your language. If you have legendary proficiency in Intimidation, you can use this as a free action with the same trigger.</p>",
+      "prerequisites": [
+        {
+          "value": "威吓受训 trained in Intimidation"
+        }
+      ]
+    },
+    "Eternal Hunt": {
+      "name": "永恒狩猎 Eternal Hunt",
+      "description": "<p><strong>触发</strong> 你结束你的回合。</p><hr /><p>你总能看到投身战斗的机会，不需要等待机会出现。你以自由动作 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt}。</p>\n<hr />\n<p><strong>Trigger</strong> You end your turn.</p><hr /><p>You can always see an opening to throw yourself into battle, and don't need to wait for one to present itself. You go @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt} as a free action.</p>"
+    },
+    "Caroming Charge": {
+      "name": "弹射冲锋 Caroming Charge",
+      "description": "<p><strong>需求</strong> 你拥有肾上腺素。</p><hr /><p>你在敌人之间穿行，并在经过时击打他们。你行走两次。作为此移动的一部分，你可以穿过敌人占据的空间。如同通常情况，此移动可以触发反应动作，且你不能在敌人占据的空间结束移动。你对你穿过的每个敌人造成 @Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]{stunt damage}。</p>\n<hr />\n<p><strong>Requirements</strong> You have adrenaline.</p><hr /><p>You move between your foes and batter them as you pass by. You Stride twice. You can move through enemies as part of this movement. As normal, this movement can trigger reactions, and you can't end your movement in an enemy's space. You deal @Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]{stunt damage} to each enemy you move through.</p>"
+    },
+    "Gouging Strike": {
+      "name": "凿击 Gouging Strike",
+      "description": "<p>你扭动武器，深深凿入猎物，使他们变得脆弱。进行一次近战打击。如果此打击命中，你造成一个额外的持续流血伤害骰，骰子大小与打击的武器伤害骰相同。目标获得对物理伤害的弱点 3，直到你下一回合开始或直到它不再承受此持续流血伤害，以先发生者为准。</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.qzPg2gpSvdYpo375]{Effect: Gouging Strike}</p>\n<hr />\n<p>You twist your weapon, gouging your prey deeply and making them vulnerable. Make a melee Strike. If this Strike hits, you deal an additional die of persistent bleed damage with the same die size as the Strike's weapon damage dice. The target gains weakness 3 to physical damage until the start of your next turn or until it is no longer taking this persistent bleed damage, whichever comes first.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.qzPg2gpSvdYpo375]{Effect: Gouging Strike}</p>"
+    },
+    "Spectral Lenses": {
+      "name": "幽冥镜片 Spectral Lenses",
+      "description": "<p>你获得幽冥镜片作为次要工具，其形式为经过特殊处理的眼镜或涂在眼睛上的有毒药膏。你可以用一个单独的交互动作佩戴或取下幽冥镜片。佩戴时，你获得 @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9] 的效果。</p><p><strong>强化</strong> 佩戴时，你在 [[/act seek options=spectral-lenses-seek]] 或 @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU] 具有任何战利品特征的生物的察觉检定上还获得 +1 状态加值，并且你将针对具有任何战利品特征的 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} 或 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 生物的纯骰检定 DC 降低 2（通常分别降至 3 和 9）。</p>\n<hr />\n<p>You gain spectral lenses as a secondary tool, which take the form of either specially treated glasses or a noxious ointment you apply to your eyes. You can apply or remove your spectral lenses as a single Interact action. While applied, you gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9].</p><p><strong>Reinforced</strong> While applied, you also gain a +1 status bonus to Perception checks to [[/act seek options=spectral-lenses-seek]] or @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU] for creatures with any of the trophy's traits, and you reduce the DC for the flat check to target @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} creatures with any of the trophy's traits by 2 (typically to 3 and 9, respectively).</p>"
+    },
+    "Flying Hurdle Stunt": {
+      "name": "飞跃跨栏险招 Flying Hurdle Stunt",
+      "description": "<p><strong>需求</strong> 目标的体型不能比你大一级以上。</p><hr /><p>你强行抓住对手并翻过它的头顶。尝试一次 @Check[athletics|against:reflex] 检定对抗你触及范围内一个生物的反射 DC。</p><hr /><p><strong>大成功</strong> 你进入目标所在空间，目标被移动最多 10 尺到你刚才离开的空间。你的移动不会触发反应动作，不过如果没有足够空间让目标进入你刚刚腾出的区域，该动作失败。直到你下一回合开始，你对目标的近战打击获得 +1 环境加值。</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.9zOoYdGPhrR4DRs0]{Effect: Flying Hurdle Stunt}</p><p><strong>成功</strong> 如同大成功，但你不会获得打击加值。</p><p><strong>失败</strong> 你没抓稳目标，无法翻越过去，但你可以立即快步，不过你必须保持与目标相邻。</p><p><strong>大失败</strong> 你的险招适得其反。你陷入 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}，持续到你下一回合开始，并且你会触发反应动作，如同你执行了一个操作动作。</p>\n<hr />\n<p><strong>Requirements</strong> The target can't be more than one size larger than you.</p><hr /><p>You forcefully grab an opponent and flip yourself over their head. Attempt an @Check[athletics|against:reflex] check against the Reflex DC of a creature within your reach.</p><hr /><p><strong>Critical Success</strong> You enter the target's space and the target is moved up to 10 feet into the space you just left. Your movement doesn't trigger reactions, though if there isn't enough room for the target to fit in the area you just vacated, the action fails. You gain a +1 circumstance bonus to melee Strikes against the target until the beginning of your next turn.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.9zOoYdGPhrR4DRs0]{Effect: Flying Hurdle Stunt}</p><p><strong>Success</strong> As critical success, but you don't gain the bonus to Strikes.</p><p><strong>Failure</strong> You don't get enough of a grip on your target to flip over them, but you can immediately Step, through you must remain adjacent to the target.</p><p><strong>Critical Failure</strong> Your stunt backfires. You become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the beginning of your next turn and you trigger any reactions as if you had performed a manipulate action.</p>"
+    },
+    "Bouncing Hurl": {
+      "name": "弹跳投掷 Bouncing Hurl",
+      "description": "<p>你将一件物品从一个敌人身上弹开击中另一个敌人。你可以将 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.MW9pnWb4SPbdJIt0]{Breakaway Attack} 作为一个双动作行动使用，先交互捡起一个物体并进行一次远程打击。然后，当物品从你的第一个目标身上反弹时，你可以以相同的多重攻击减值对第一个目标 15 尺内的另一个敌人进行第二次远程打击；无论实际距离如何，此打击视作目标在你的一倍射程增量内。用于进行这些攻击的物品在你进行第二次攻击后不会被摧毁或掉落在地。</p>\n<hr />\n<p>You bounce an item off one foe to hit another. You can use @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.MW9pnWb4SPbdJIt0]{Breakaway Attack} as a 2-action activity to Interact to pick up an object and make a ranged Strike. Then, as the item ricochets off your first target, you can then make a second ranged Strike at the same multiple attack penalty against a different enemy that is within 15 feet of the first target; this Strike functions as if the target were within one range increment of you, regardless of the actual distance. The item used to make these attacks isn't destroyed or doesn't fall to the ground after you make the second attack.</p>",
+      "prerequisites": [
+        {
+          "value": "就地取材 Breakaway Attack"
+        }
+      ]
+    },
+    "Topple the Dominoes": {
+      "name": "连环推倒 Topple the Dominoes",
+      "description": "<p>你试图在经过时迅速推倒几个敌人。你行走。在移动路径上的任意点选择最多三个你触及范围内的敌人，并选择是对每个敌人进行 [[/act shove]] 还是 [[/act trip]]。对每个敌人分别投掷运动检定。每次攻击都计入你的多重攻击减值，但在你进行完所有尝试之前不会增加你的减值。</p>\n<hr />\n<p>In a swift motion, you attempt to push a handful of foes as you move past them. You Stride. Choose up to three enemies within your reach at any point along the way and choose whether to [[/act shove]] or [[/act trip]] each one. Roll a separate Athletics check against each enemy. Each attack counts toward your multiple attack penalty, but you do not increase your penalty until you have made all your attempts.</p>",
+      "prerequisites": [
+        {
+          "value": "运动大师 master in Athletics"
+        }
+      ]
+    },
+    "High-Flying Tumble Stunt": {
+      "name": "高飞翻滚险招 High-Flying Tumble Stunt",
+      "description": "<p>你跳过敌人的空间，可能使其失去平衡。你水平 @UUID[Compendium.pf2e.actionspf2e.Item.Leap]。在此移动期间，你可以尝试穿过一个敌人的空间。一旦你尝试进入其空间，立即尝试一次 @Check[athletics|against:reflex] 检定对抗敌人的反射 DC。</p><hr /><p><strong>大成功</strong> 你穿过敌人的空间。如果你没有足够的速度完全穿过其空间，你会获得与失败相同的效果。该敌人 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} 直到你回合结束。</p><p><strong>成功</strong> 如同大成功，除了敌人不会措手不及。</p><p><strong>失败</strong> 你的移动结束，并且你触发反应动作，如同你移出了你开始时的方格。</p><p><strong>大失败</strong> 如同失败，但你在触发反应动作前先 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}。</p>\n<hr />\n<p>You jump through an enemy's space, possibly rendering them off balance. You @UUID[Compendium.pf2e.actionspf2e.Item.Leap] horizontally. During this movement, you can try to move through the space of one enemy. Attempt an @Check[athletics|against:reflex] check against the enemy's Reflex DC as soon as you try to enter its space.</p><hr /><p><strong>Critical Success</strong> You move through the enemy's space. If you don't have enough Speed to move all the way through its space, you get the same effect as a failure. The enemy is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your turn.</p><p><strong>Success</strong> As critical success, except the enemy isn't off-guard.</p><p><strong>Failure</strong> Your movement ends, and you trigger reaction as if you had moved out of the square you started in.</p><p><strong>Critical Failure</strong> As failure, but you first fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} before triggering reactions.</p>"
+    },
+    "Crossbow Slayer": {
+      "name": "弩弓杀手 Crossbow Slayer",
+      "description": "<p>你发现弩的灵活性是你完美的伴侣，你急切地重新装填它以重返战斗。用于装填的交互动作对你获得追猎特征。</p><hr /><p><strong>特殊</strong> 如果你有 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply} 标志性工具，你可以在装填弩时装入一根狩猎尖钉。下次你使用 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.BR1P3Dy0gjsuKu7V]{Hunting Spike} 时，其投掷特征使用弩的射程增量。</p>\n<hr />\n<p>You find that a crossbow's versatility is the perfect companion to your own, and you eagerly reload it to get back in the fight. Interacting to reload gains the relentless trait for you.</p><hr /><p><strong>Special</strong> If you have a @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.6Tvz8UCMxDx0nxHa]{Consecrated Panoply} signature tool, you can load a hunting spike into a crossbow when you reload it. The next time you use @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.BR1P3Dy0gjsuKu7V]{Hunting Spike}, its thrown trait uses the crossbow's range increment.</p>"
+    },
+    "Eager Hunter": {
+      "name": "渴求猎手 Eager Hunter",
+      "description": "<p>你如此渴望接近你的猎物，以至于每一个机会都推动你前进。当你 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt} 时，你可以通过自由动作向最近的敌人快步。</p>\n<hr />\n<p>You are so eager to reach your prey that every opening propels you forward. When you go @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.O0SU1cAh8ijq7Z4J]{On the Hunt}, you can Step towards the nearest enemy as a free action.</p>"
+    },
+    "Lucky Spark": {
+      "name": "幸运火花 Lucky Spark",
+      "description": "<p><strong>触发</strong> 你尝试进行一次豁免骰，但尚未掷骰。</p><p><strong>需求</strong> 你拥有肾上腺素。</p><hr /><p>你在最需要的时候利用你的肾上腺素。在触发的豁免上掷骰两次并获得 +2 环境加值，使用较好的结果。然后你立即失去肾上腺素。</p>\n<hr />\n<p><strong>Trigger</strong> You attempt a saving throw, but haven't rolled yet</p><p><strong>Requirements</strong> You have adrenaline.</p><hr /><p>You tap into your adrenaline when you need it the most. Roll the triggering save twice with a +2 circumstance bonus, and use the better result. You then immediately lose adrenaline.</p>"
+    },
+    "Arm Bloodburst Phial": {
+      "name": "装填爆血瓶 Arm Bloodburst Phial",
+      "description": "<p><strong>频率</strong> 每 10 分钟一次</p><hr /><p>你的爆血瓶是一瓶不稳定的怪物血液，设计用于附着在武器上时引爆，你将其作为次要工具获得。你将爆血瓶锁定在你持用的武器上。如果该武器是远程武器，你还可以在装填爆血瓶作为弹药时交互装填它。你在本回合用该武器进行的下一次打击获得溅射特征，并造成额外的 12d6 持续流血伤害和 12 点持续流血溅射伤害。你免疫此溅射伤害。如果你有一只空闲的手，你可以改为装填爆血瓶以将其视为炼金炸弹，你可以在回合结束前用它打击一次，造成 @Damage[12d6[persistent,bleed]] 伤害和 12 点持续流血溅射伤害。在 17 级，持续流血伤害在这两种情况下都增加到 @Damage[14d6[persistent,bleed]|shortLabel]。</p><p><strong>强化</strong> 你的爆血瓶造成额外的 1d6 伤害和 1 点溅射伤害，伤害类型为战利品的一种非物理伤害类型。</p>\n<hr />\n<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>Your bloodburst phial is an ampoule of volatile monster blood designed to detonate when attached to a weapon, which you gain as a secondary tool. You lock your bloodburst phial into a weapon you're wielding. If that weapon is a ranged weapon, you can also Interact to reload it as you load the phial as ammunition. Your next Strike with that weapon this turn gains the splash trait and deals an additional 12d6 persistent bleed damage and 12 persistent bleed splash damage. You are immune to this splash damage. If you have a free hand, you can instead arm your bloodburst phial to treat it as an alchemical bomb, which you can Strike with once before the end of the turn to deal @Damage[12d6[persistent,bleed]] damage and 12 persistent bleed splash damage. At 17th level, the persistent bleed damage increases to @Damage[14d6[persistent,bleed]|shortLabel] in either case.</p><p><strong>Reinforced</strong> Your bloodburst phial deals an additional 1d6 damage and 1 splash damage of one of the trophy's non-physical damage types.</p>"
+    },
+    "Rushing Stride": {
+      "name": "猛冲步 Rushing Stride",
+      "description": "<p><strong>需求</strong> 你没有肾上腺素。</p><hr /><p>你一头冲进危险中，以此点燃你的肾上腺素之火。你行走。在此移动结束时，如果你在一个敌人的近战触及范围内，你可以对该敌人进行一次近战打击。如果你这样做，直到你下一回合开始，你对被你攻击的敌人之外的所有其他敌人 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}。</p>\n<hr />\n<p><strong>Requirements</strong> You don’t have adrenaline.</p><hr /><p>You run headlong into danger to stoke the fire of your adrenaline. You Stride. At the end of this movement, if you are within melee reach of an enemy, you can make a melee Strike against that enemy. If you do, you are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against all other enemies except the one you attacked until the beginning of your next turn.</p>"
+    },
+    "Unbound Hunt": {
+      "name": "无拘狩猎 Unbound Hunt",
+      "description": "<p><strong>猎杀者</strong> 你已经超越了训练的极限，任何技术都可以成为你狩猎的一部分。你在每个回合使用的第一个动作或行动对你获得<strong>追猎</strong>特征。</p>\n<hr />\n<p>You've exceeded the limits of your training, and any technique can be part of your hunt. The first action or activity you use on each of your turns gains the relentless trait for you.</p>"
+    },
+    "Obliterate": {
+      "name": "抹杀 Obliterate",
+      "description": "<p><strong>死亡 猎杀者</strong> 集中你所有的感官于目标，你准备进行一次毁灭性的攻击。对你的猎物进行一次打击。如果你命中，打击造成最大伤害。打击之后，你的回合结束。</p>\n<hr />\n<p>Focusing all your senses on your target, you prepare for a destructive attack. Make a Strike against your quarry. If you hit, the Strike deals maximum damage. After the Strike, your turn ends.</p>"
+    },
+    "Wall of Will": {
+      "name": "意志之墙 Wall of Will",
+      "description": "<p>当你准备防御时，你的意志力如此猛烈，以至于他人难以接近你。当你受益于装甲掩体时，每回合你的猎物第一次试图作为移动动作的一部分进入与你相邻的方格时，它必须先尝试一次对抗你职业 DC 的 @Check[will|against:slayer] 豁免。如果失败，它无法进入该方格且动作被打断。</p>\n<hr />\n<p>When you prepare to defend yourself, your willpower is so fierce that you are difficult to even approach. While you are benefiting from Armored Shelter, the first time each turn your quarry attempts to enter a space adjacent to you as part of a move action it must first attempt a @Check[will|against:slayer] save against your class DC. If it fails, it doesn't enter that space and the action is disrupted.</p>",
+      "prerequisites": [
+        {
+          "value": "符护链甲标志性工具 warded mail signature tool"
+        }
+      ]
+    },
+    "Armored Fortress": {
+      "name": "装甲堡垒 Armored Fortress",
+      "description": "<p><strong>需求</strong> 你受益于装甲掩体或举起盾牌。</p><hr /><p>你知道如何定位你的护甲或盾牌来保护你的盟友和你自己。直到你离开当前方格或使用攻击动作，你的盟友可以在你身后 @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover}。</p>\n<hr />\n<p><strong>Requirements</strong> You are benefiting from Armored Shelter or have a shield raised.</p><hr /><p>You know how to position your armor or shield to protect your allies as well as yourself. Until you move from your current space or use an attack action, your allies can @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} behind you.</p>"
+    },
+    "Freewheeling Strike": {
+      "name": "随心猛击 Freewheeling Strike",
+      "description": "<p><strong>需求</strong> 你与至少一个支点相邻。</p><hr /><p>利用周围的环境，你滑过敌人，并沿途攻击每一个敌人。你行走，但在整个移动过程中你必须保持与支点相邻。对沿途任何时刻在你触及范围内的每个敌人进行一次近战打击。每次攻击都计入你的多重攻击减值，但在你进行完所有攻击之前不会增加你的减值。你在移动期间只能对单个生物进行一次打击。</p>\n<hr />\n<p><strong>Requirements</strong> You are adjacent to at least one prop.</p><hr /><p>Using your environment, you slip past your enemies, attacking each along the way. Stride, but you must remain adjacent to props during your entire movement. Make a melee Strike against each enemy that is within your reach at any point along the way. Each attack counts toward your multiple attack penalty, but you do not increase your penalty until you have made all your attacks. You can Strike a single creature only once during your movement.</p>"
+    },
+    "Escape Shuffle": {
+      "name": "脱逃滑步 Escape Shuffle",
+      "description": "<p><strong>需求</strong> 你被一个生物擒拿或束缚。</p><hr /><p>即使敌人认为他们已经把你困住了，你也从他们的抓握中扭动出来，强迫他们移动。你尝试从一个生物的 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} 或 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 中 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}。如果你成功，你还可以尝试对该生物进行 [[/act reposition]]。在你尝试这两次检定之后才增加你的多重攻击减值。无论你是否成功移位你的目标，你都可以快步。</p>\n<hr />\n<p><strong>Requirements</strong> You’re grabbed or restrained by a creature.</p><hr /><p>Even if they think they've got you right where they want you, you squirm from their grasp in a way that forces them to move. You attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} from being @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by a creature. If you succeed, you can also attempt to [[/act reposition]] that creature. Don't increase your multiple attack penalty until after you attempted both checks. Regardless of whether you succeed at Repositioning your target, you can Step.</p>"
+    },
+    "Storm of Debris": {
+      "name": "瓦砾风暴 Storm of Debris",
+      "description": "<p>你迅速向彼此接近的一群敌人投掷大量不同物体。你可以将 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.MW9pnWb4SPbdJIt0]{Breakaway Attack} 作为一个三动作行动使用，对 20 尺内一个 @Template[type:burst|distance:15] 内的每个敌人进行一次远程打击，在每次攻击前交互拿起一个新物品。这对你的多重攻击减值计为三次攻击，但直到你进行完所有攻击后，你的多重攻击减值才会增加。</p>\n<hr />\n<p>You quickly hurl a myriad of different objects at a group of enemies in close proximity to each other. You can use @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-feats.Item.MW9pnWb4SPbdJIt0]{Breakaway Attack} as a three-action activity to make a ranged Strike against each enemy in a @Template[type:burst|distance:15] within 20 feet, Interacting to pick up a new item before you make each attack. This counts as three attacks for your multiple attack penalty, but your multiple attack penalty doesn't increase until after you've made all the attacks.</p>",
+      "prerequisites": [
+        {
+          "value": "就地取材 Breakaway Attack"
+        }
+      ]
+    },
+    "Hit or Miss": {
+      "name": "不中则亡 Hit or Miss",
+      "description": "<p>有时你必须冒巨大的风险才能击倒敌人。进行一次近战打击。它获得以下大成功、失败和大失败效果，取代任何其他效果。</p><hr /><p><strong>大成功</strong> 你根据你的武器或无武装攻击进行一次伤害检定并造成三倍伤害。</p><p><strong>失败</strong> 你的攻击造成原本命中伤害的一半，不包括所有伤害骰。（除武器伤害骰外，这还会移除来自武器符文、法术和特殊能力的伤害骰。）</p><p><strong>大失败</strong> 你未命中，且你打击的目标可以作为反应动作对你进行一次近战打击。</p>\n<hr />\n<p>Sometimes you have to take big risks to take down your enemy. Make a melee Strike. It gains the following critical success, failure, and critical failure effects, replacing any other effects.</p><hr /><p><strong>Critical Success</strong> You make a damage roll according to your weapon or unarmed attack and deal triple damage.</p><p><strong>Failure</strong> Your attack deals half of any damage it would have dealt on a hit, excluding all damage dice. (This removes damage dice from weapon runes, spells, and special abilities, in addition to weapon damage dice.)</p><p><strong>Critical Failure</strong> You miss, and the target of your Strike can make a melee Strike against you as a reaction.</p>"
+    },
+    "Weapon Twist Stunt": {
+      "name": "绞械险招 Weapon Twist Stunt",
+      "description": "<p><strong>需求</strong> 你至少有一只手空闲。目标的体型不能比你大一级以上。</p><hr /><p>你抓住敌人的武器，试图通过转动身体来旋转它。尝试一次 @Check[acrobatics|against:reflex] 检定对抗触及范围内一个生物的反射 DC。如果你另一只手挥舞着具有卸武特征的武器，你在此检定上获得 +1 环境加值。</p><hr /><p><strong>大成功</strong> 你将物品从目标手中击落。它掉落在目标占据空间的地上，如果你与目标相邻，也可以是你占据空间的地上，由你选择。</p><p><strong>成功</strong> 目标使用该物品进行的攻击受到 -2 环境减值，直到它的下一回合结束。</p><p><strong>失败</strong> 目标使用该物品进行的攻击受到 -1 环境减值，直到它的下一回合结束。</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.KPtuzICWfWFGRHIT]{Effect: Weapon Twist Stunt}</p><p><strong>大失败</strong> 你的险招适得其反。你的目标可以强迫你掉落一件你持用的物品（它掉落在你空间的地面上），或者立即以一个自由动作对你进行一次近战打击。</p>\n<hr />\n<p><strong>Requirements</strong> You have at least one hand free. The target can’t be more than one size larger than you.</p><hr /><p>You grab at an enemy's weapon and attempt to spin it with a turn of your body. Attempt an @Check[acrobatics|against:reflex] check against the Reflex DC of a creature within reach. If you are wielding a weapon with the disarm trait in your other hand, you gain a +1 circumstance bonus to this check.</p><hr /><p><strong>Critical Success</strong> You knock the item out of the target's grasp. It falls to the ground in your choice of the target's space or your space if you are adjacent to the target.</p><p><strong>Success</strong> Your target takes a –2 circumstance penalty to attacks with the item until the end of its next turn.</p><p><strong>Failure</strong> Your target takes a –1 circumstance penalty to attacks with the item until the end of its next turn.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.KPtuzICWfWFGRHIT]{Effect: Weapon Twist Stunt}</p><p><strong>Critical Failure</strong> Your stunt backfires. Your target can either force you to drop one item you are wielding (it falls to the ground in your space) or immediately make a melee Strike against you as a free action.</p>"
+    },
+    "Vicious Spike": {
+      "name": "恶毒尖钉 Vicious Spike",
+      "description": "<p>你狩猎尖钉上的层层祝福意味着它们总是能见血。当你使用 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.BR1P3Dy0gjsuKu7V]{Hunting Spike} 时，打击获得以下失败效果。</p><p><strong>失败</strong> 你造成如同命中时的伤害，将所有伤害骰视为掷出 1。（这适用于来自武器符文、法术和特殊能力的所有骰子，不仅仅是武器伤害骰。）</p>\n<hr />\n<p>The layered blessings on your hunting spikes mean they always draw blood. When you use @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.BR1P3Dy0gjsuKu7V]{Hunting Spike}, the Strike gains the following failure effect.</p><p><strong>Failure</strong> You deal the damage you would have dealt on a hit, treating all damage dice as if they rolled a 1. (This applies to all dice from weapon runes, spells, and special abilities, not just weapon damage dice.)</p>",
+      "prerequisites": [
+        {
+          "value": "祝圣武备标志性工具 consecrated panoply signature tool"
+        }
+      ]
+    },
+    "Open Wound": {
+      "name": "开放伤口 Open Wound",
+      "description": "<p>你的武器总能找到猎物的伤口，指引你的双手。正在承受持续流血伤害的生物对你 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}。</p>\n<hr />\n<p>Your weapons can always find your prey's wounds, guiding your hands. Creatures that are taking persistent bleed damage are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to you.</p>"
+    },
+    "Reckless Abandon": {
+      "name": "肆无忌惮 Reckless Abandon",
+      "description": "<p>你的肾上腺素让你能以超自然的速度行动。在你拥有肾上腺素期间，你处于 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} 状态。你只能用你的额外动作执行风险动作。</p>\n<hr />\n<p>Your adrenaline allows you to act with preternatural speed. You're @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} while you have adrenaline. You can use your extra action only to perform a risky action.</p>"
+    },
+    "Terrifying Bloodlust": {
+      "name": "恐怖嗜血 Terrifying Bloodlust",
+      "description": "<p><strong>频率</strong> 每 10 分钟一次</p><hr /><p>你的意志本身就是一种可怕的武器。你释放你的杀意，强迫 60 尺内能看到你的每个敌人尝试一次对抗你职业 DC 的 @Check[will|against:slayer|options:area-effect,inflicts:sickened] 豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}。</p><p><strong>失败</strong> 该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}。</p><p><strong>大失败</strong> 该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}。</p>\n<hr />\n<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>Your will is a terrifying weapon in its own right. You unleash your killing intent, forcing each enemy within 60 feet that can see you to attempt a @Check[will|against:slayer|options:area-effect,inflicts:sickened] save against your class DC.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}.</p>"
+    },
+    "Repelling Shield": {
+      "name": "斥力护盾 Repelling Shield",
+      "description": "<p>你获得一面斥力护盾作为次要工具，这是你选择的一面0级普通盾牌。当你 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} 时，你可以指定一面不同的盾牌作为你的斥力护盾，并将你的特殊调整转移到其上。当你的斥力护盾举起时，你在对抗由你猎物创造的区域效果的反射豁免上获得+2环境加值。此外，你获得 @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} 通用专长。</p><p><strong>强化</strong> 除了物理伤害外，你可以用你的斥力护盾进行盾牌格挡以应对攻击造成的任何战利品伤害类型的伤害。</p>\n<hr />\n<p>You gain a repelling shield as a secondary tool, which is a level 0 common shield of your choice. You can designate a different shield as your repelling shield when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}, transferring your special adjustments to it. While your repelling shield is raised, you gain a +2 circumstance bonus to Reflex saving throws against area effects created by your quarry. In addition, you gain the @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} general feat.</p><p><strong>Reinforced</strong> You can Shield Block with your repelling shield in response to taking any of the trophy's damage types from an attack, in addition to physical damage.</p>"
+    },
+    "Opening Gambit": {
+      "name": "开局战术 Opening Gambit",
+      "description": "<p><strong>需求</strong> 你即将投掷先攻。</p><hr /><p>当战斗开始时，你执行一个可能让你先发制人的小特技。尝试一次 @Check[acrobatics] 或 @Check[athletics] 检定，对抗遭遇中最高等级生物的标准DC，但GM可以根据情况指定不同的DC。无论结果如何，你在遭遇的第一轮获得 @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.HAjDJbdawcI5TjTG]{Adrenaline}。</p><hr /><p><strong>成功</strong> 你的先攻等于19+你的先攻调整值。</p><p><strong>失败</strong> 你的先攻等于1+你的先攻调整值。</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.ntVmBcm7n9SsBPXh]{Effect: Opening Gambit}</p>\n<hr />\n<p><strong>Requirements</strong> You are about to roll initiative.</p><hr /><p>As combat begins, you perform a minor stunt that might allow you to make the first move. Attempt an @Check[acrobatics] or @Check[athletics] check against a standard DC for the highest-level creature in the encounter, though the GM can assign a different DC based on the circumstances. Regardless of the result, you gain @UUID[Compendium.pf2e-playtest-data.rr-playtest-class-features.Item.HAjDJbdawcI5TjTG]{Adrenaline} during your first round of the encounter.</p><hr /><p><strong>Success</strong> Your initiative is equal to 19 + your initiative modifier.</p><p><strong>Failure</strong> Your initiative is equal to 1 + your initiative modifier.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.ntVmBcm7n9SsBPXh]{Effect: Opening Gambit}</p>"
+    },
+    "Accompanying Strike": {
+      "name": "随势一击 Accompanying Strike",
+      "description": "<p><strong>需求</strong> 你使用上一个动作进行了单手武器近战打击且未命中。</p><hr /><p>虽然你的第一次攻击未命中，但你挥动武器再次打击。用同一把武器进行一次打击，为它增加回摆特征，并将伤害骰的大小增加一级。</p>\n<hr />\n<p><strong>Requirements</strong> You used your previous action to make a melee Strike with a one-handed weapon that missed.</p><hr /><p>Though your first attack missed, you bring your weapon around for another blow. Make a Strike with the same weapon, adding the backswing trait and increasing the size of the damage die by one step.</p>"
+    },
+    "Heightened Awareness": {
+      "name": "敏锐感知 Heightened Awareness",
+      "description": "<p>你的感官随着战斗的兴奋而刺痛。当你拥有肾上腺素并尝试纯骰检定以瞄准 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} 和 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 的生物时，你投掷两次并取较高结果；这是一个幸运效果。此外，当你处于一个等级不高于你的 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} 生物 10 尺内并拥有肾上腺素时，该生物对你来说只是藏匿。</p>\n<hr />\n<p>Your senses tingle with the excitement of combat. When you have adrenaline and you attempt a flat check to target @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} and @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} creatures, you roll twice and take the higher result; this is a fortune effect. In addition, when you are within 10 feet of an @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} creature of your level or lower and have adrenaline, that creature is instead only hidden from you.</p>"
+    },
+    "Tumbling Tricks": {
+      "name": "翻滚巧技 Tumbling Tricks",
+      "description": "<p>你用特技滑过敌人的空间。你 [[/act tumble-through traits=risky]] 的尝试获得风险特征，并获得以下大成功和大失败结果（除了正常的穿身翻滚结果外）。</p><hr /><p><strong>大成功</strong> 你的移动不触发反应动作。</p><p><strong>大失败</strong> 如同失败，并且你 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}，直到你下一回合开始。</p>\n<hr />\n<p>You slip through enemies' spaces with minor stunts. Your attempts to [[/act tumble-through traits=risky]] gain the risky trait and gain the following critical success and critical failure outcomes (in addition to the normal Tumble Through outcomes).</p><hr /><p><strong>Critical Success</strong> Your movement doesn't trigger reactions.</p><p><strong>Critical Failure</strong> As failure, and you are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the beginning of your next turn.</p>",
+      "prerequisites": [
+        {
+          "value": "特技受训 trained in Acrobatics"
+        }
+      ]
+    },
+    "Expanded Spell Slates": {
+      "name": "扩展法术石板 Expanded Spell Slates",
+      "description": "<p>你进一步扩展了你的魔法戏法收藏。你获得一个 4 环常见异能法术作为内在法术，每天可以施放一次。在 14 级，你获得一个 5 环常见异能法术，在 16 级，你获得一个 6 环常见异能法术，每个都作为内在法术，每天可以施放一次。</p>\n<hr />\n<p>You have further expanded your collection of magical tricks. You gain a 4th-rank common occult spell as an innate spell, which you can cast once per day. At 14th level, you gain a 5th-rank common occult spell, and at 16th level you gain a 6th-rank common occult spell, each as an innate spell which you can cast once per day.</p>",
+      "prerequisites": [
+        {
+          "value": "法术石板 Spell Slates"
+        }
+      ]
+    },
+    "Shifting Combination": {
+      "name": "变幻组合 Shifting Combination",
+      "description": "<p><strong>需求</strong> 你持用着具有组合、模组或双手特征的武器。</p><hr /><p>在一阵动作中，你用所需武器打击，交互以改变其配置或改变你的握法，然后再次打击同一目标。如果两次打击都不是在具有灵巧特征的配置下进行的，第二次打击受到 -2 减值。两次打击都使用你当前的多重攻击减值，如果两次都命中，合并它们的伤害并仅应用抗力和弱点一次。</p>\n<hr />\n<p><strong>Requirements</strong> You are wielding a weapon with the combination, modular, or two-hand trait.</p><hr /><p>In a flurry of movement, you Strike with the required weapon, Interact to change its configuration or change your grip on it, then Strike the same target again. If neither Strike is made in a configuration with the agile trait, the second Strike takes a –2 penalty. Both Strikes use your current multiple attack penalty, and if both hit, combine their damage and apply resistances and weaknesses only once.</p>",
+      "prerequisites": [
+        {
+          "value": "变幻狩猎 Shifting Hunt"
+        }
+      ]
+    },
+    "Catalyzing Flask": {
+      "name": "催化烧瓶 Catalyzing Flask",
+      "description": "<p>你获得一个催化烧瓶作为次要工具，这是一个特殊的炼金小瓶，包含你选择的 1 级普通炼金灵药。你可以每天启动一次灵药而不消耗它，因为其中的怪物部件与剩余的液体反应产生更多并强化灵药。如果你在同一天第二次启动灵药，它将被完全消耗。当你 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} 时，你可以指定一个你等级或更低的不同的炼金灵药作为你催化烧瓶的内容物，替换之前的灵药，如果它被完全消耗，则重新装满烧瓶。</p><p><strong>强化</strong> 当你启动催化烧瓶中的灵药时，你还会在强韧、反射或意志豁免上获得 +1 状态加值，取决于战利品来源生物哪项调整值最高。此加值持续 1 分钟。</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.usg85pETUqE6EwP5]{Effect: Catalyzing Flask (Reinforced)}</p>\n<hr />\n<p>You gain a catalyzing flask as a secondary tool, a special alchemical vial which contains a level 0 common alchemical elixir of your choice. You can Activate the elixir within without consuming it once per day, as the monster parts within react with the remaining fluid to produce more and fortify the elixir. If you Activate the elixir a second time on the same day, it is fully consumed. You can designate a different alchemical elixir of your level or lower as the contents of your catalyzing flask when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}, replacing the previous elixir and refilling the flask if it was fully consumed.</p><p><strong>Reinforced</strong> When you Activate the elixir within your catalyzing flask, you also gain a +1 status bonus to Fortitude, Reflex, or Will saves, whichever the creature the trophy was claimed from had the highest modifier in. This bonus lasts for 1 minute.</p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-effects.Item.usg85pETUqE6EwP5]{Effect: Catalyzing Flask (Reinforced)}</p>",
+      "prerequisites": [
+        {
+          "value": "炼金师药瓶标志性工具 chymist's vials signature tool"
+        }
+      ]
+    },
+    "Spiked Surcoat": {
+      "name": "钉刺战袍 Spiked Surcoat",
+      "description": "<p>你在护甲外穿着一件布满凶残尖刺的战袍，你将其作为一种次要工具获得。当穿着钉刺战袍时，每当你被无武装打击、非长触及近战武器打击命中，或被 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} 时，攻击者受到等于1+你护甲潜能符文值的 @Damage[1[piercing]|options:spiked-surcoat]{piercing damage}。</p><p><strong>强化</strong> 尖刺造成额外1点战利品的一种伤害类型的伤害。</p>\n<hr />\n<p>You wear a set of vicious spikes over your armor, which you gain as a secondary tool. While wearing your spiked surcoat, whenever you are hit by an unarmed Strike, a Strike with a non-reach melee weapon, or @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, the attacker takes @Damage[1[piercing]|options:spiked-surcoat]{piercing damage} equal to 1 + the value of your armor's potency rune.</p><p><strong>Reinforced</strong> The spikes deal an additional 1 damage of one of the trophy's damage types.</p>",
+      "prerequisites": [
+        {
+          "value": "符护链甲标志性工具 warded mail signature tool"
+        }
+      ]
+    },
+    "Spell Slates": {
+      "name": "法术石板 Spell Slates",
+      "description": "<p>你学会了如何用一套特别准备的护身符或符文来扩展你的魔法戏法，你将其作为次要工具获得。你获得一个 1 环常见异能法术和一个 2 环常见异能法术作为内在法术，每个法术每天可以施放一次。在 8 级时，你还获得一个 3 环常见异能法术作为内在法术，每天可以施放一次。</p><p><strong>强化</strong> 你获得一个额外的常见内在法术，其环级等于或低于你从猎杀者专长获得的最高环级内在法术，每天可以施放一次。这个额外的法术必须属于战利品的根源，当你 @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal} 时，你可以将其换成具有相同限制的不同法术。</p>\n<hr />\n<p>You've learned how to expand your magical tricks with a set of specially prepared charms or runes, which you gain as a secondary tool. You gain a 1st-rank common occult spell and a 2nd-rank common occult spell as innate spells, each of which you can cast once per day. At 8th level, you also gain a 3rd-rank common occult spell as an innate spell which you can cast once per day.</p><p><strong>Reinforced</strong> You gain an additional common innate spell of a rank equal to or less than the highest-rank innate spell you have from slayer feats, which you can cast once per day. This additional spell must be of the trophy's tradition, and you can swap it for a different spell with the same restrictions when you @UUID[Compendium.pf2e-playtest-data.rr-playtest-actions.Item.Wagb9XE34NpQQ8yy]{Reinforce your Arsenal}.</p>",
+      "prerequisites": [
+        {
+          "value": "猎杀者戏法 Slayer's Tricks"
+        }
+      ]
+    }
+  }
+}

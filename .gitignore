@@ -6,3 +6,13 @@ __pycache__/
 *.bak
 *.bak.*
 /release/*.zip
+
+# Playtest translation build pipeline (working files; scripts kept locally)
+/tools/playtest/agent-input/
+/tools/playtest/agent-out/
+/tools/playtest/source-md/
+/tools/playtest/playtest-cn-source.json
+/tools/playtest/missing-after-docx.json
+/tools/playtest/build-report.txt
+/tools/playtest/coverage.txt
+/tools/playtest/verify-report.txt

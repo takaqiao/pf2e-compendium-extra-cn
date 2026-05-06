@@ -1,0 +1,147 @@
+{
+  "_doc": "Manual overrides for entries the docx-md parser missed or where the docx heading differs from the FVTT entry name. Build-bilingual.py merges these on top of playtest-cn-source.json.",
+  "by_pack": {
+    "impossible-playtest-runes": {
+      "Aiuen, The Elf-Gate Key Rune": {
+        "name_cn": "艾厄恩，精灵门钥符文",
+        "desc_html_cn": "<p><strong>奥术 精灵 符文 符文工匠 传送</strong></p><p><strong>用法</strong> 绘制在一个生物上</p><p><strong>激发</strong> 你可以将符文携带者传送到与你其他任意符文相邻的位置，只要它处于同一位面。非自愿目标可以尝试一次意志豁免来抵抗此次传送。</p><p><strong>特殊</strong> 如果你能够施放魔法印记（sigil）戏法，那么除了你的任意符文外，你还可以使用艾厄恩的激发来传送符文携带者到与你任意处于同一位面的魔法印记响铃的位置。</p>"
+      },
+      "Rovan, Seal of the Dead Vault Rune": {
+        "name_cn": "洛网，死之库封印符文",
+        "desc_html_cn": "<p><strong>神术 土 符文 符文工匠</strong></p><p><strong>用法</strong> 绘制在一个生物上</p><p><strong>激发</strong>（土，失能） 符文携带者周围10尺弥漫范围内的地面变为困难地形，符文携带者必须尝试一次强韧豁免，因为其周围的大地在尝试包裹禁锢它。符文携带者随后临时免疫你的洛网，死之库封印24小时。</p><p><strong>大成功</strong> 生物不受影响</p><p><strong>成功</strong> 携带者陷入缓慢1，持续1轮。</p><p><strong>失败</strong> 携带者陷入缓慢2，持续1轮。</p><p><strong>大失败</strong> 携带者被困在一个巨大的压缩土球中，陷入缓慢2，束缚，目盲。如果持有者无法在3轮内逃离球体，就会陷入石化。一年后，球体周围会形成一座小山，将被埋葬的囚犯隐藏起来。在小山的顶端，有一块刻有这个符文的石头。反制这块石头就能释放囚犯。</p>"
+      }
+    },
+    "impossible-playtest-thralls": {
+      "Thrall": {
+        "name_cn": "残骸",
+        "desc_html_cn": "<p>残骸是一种不死生物，但不是具有被召唤特征的仆从。它们无法执行动作，但具有多种其它用途。除非特别注明，残骸的体型为小型或中型（由你在创造时决定）并且必须被创造于一个未被占据的空间。残骸可以视同具有近战无武装打击（Strike）能力一般进行夹击。残骸具有1HP，并且会自动被攻击命中，同时自动在所有豁免中失败。残骸免疫流血，死亡效果，疾病，心灵与毒素。残骸在需要判定等级时视为−1级生物。创造残骸的法术或能力具有残骸特征。</p>"
+      },
+      "Skeletal Lancer": {
+        "name_cn": "骷髅枪兵",
+        "desc_html_cn": "<p>这具残骸持有长触及10尺的骨枪。当一名敌人在骷髅枪兵残骸的触及内进行打击（Strike），骷髅枪兵将对其造成5点穿刺伤害。即使一名敌人在复数名骷髅枪兵的触及内，也只会因此受到一次伤害。在每个后续轮中一次，你可以维持（Sustain）此法术来指挥任意数量的骷髅枪兵行走（Stride）至多30尺。</p>"
+      }
+    },
+    "impossible-playtest-journals": {
+      "Classes": {
+        "name_cn": "职业",
+        "desc_html_cn": ""
+      }
+    },
+    "rr-playtest-journals": {
+      "Classes": {
+        "name_cn": "职业",
+        "desc_html_cn": ""
+      }
+    },
+    "rr-playtest-classes": {
+      "Slayer": {
+        "name_cn": "猎杀者",
+        "desc_html_cn": "<p><em>世界充满了危险而强大的存在，但猎杀者知道没有不可战胜的威胁。你可能是一个追求更稀有猎物的猎手，一个守护弱者的勇士，或者是一个执着追猎宿敌的复仇者；无论动机为何，几乎无人能在追猎单一强敌方面胜过你。凭借专门打造的军械、过往狩猎所得的战利品，以及你不屈的意志，你总是比上一次更为充分地准备迎接新的猎物。</em></p>"
+      },
+      "Daredevil": {
+        "name_cn": "狂徒",
+        "desc_html_cn": "<p><em>你冲入他人畏缩不前之处，对任何危险都毫不在意。你在背水一战、以寡敌众的时刻中茁壮成长。你冲过战场，看似要迎向敌人，却用一个惊人的险招让他们措手不及、踉跄后退。整个过程，肾上腺素在你体内奔涌，助燃着你对风险的热爱。</em></p>"
+      }
+    },
+    "rr-playtest-class-features": {
+      "Stunt Damage": {
+        "name_cn": "险招伤害",
+        "desc_html_cn": "<p>当你将敌人砸向景物时，会造成真正的伤害。当你拥有肾上腺素并强迫目标移动，且该移动被一个支点（见后文）打断时，目标受到 1d6 加上你力量调整值的钝击伤害（@Damage[(ceil(@actor.level/4)d6+@actor.system.abilities.str.mod)[bludgeoning]]）。该伤害在 5 级、9 级、13 级与 17 级时各增加 1d6。</p><hr /><p><strong>支点（Prop）：</strong>支点可以是任何足够大且坚固的东西，供你蹬踏。这包括比你大的生物，或者是墙壁、柱子或其他耐用的地形特征。GM 根据具体情况决定生物或物体是否算作支点。例如，GM 可能会因为巨型泥怪的原生质稠度而决定你不能将其用作支点。</p>"
+      }
+    },
+    "impossible-playtest-class-feats": {
+      "Bone Speaker": {
+        "name_cn": "解读骨相",
+        "desc_html_cn": "<p>你可以通过一名活体生物体内或体表的骨骼组织来使用不死学识对其进行 @Compendium[pf2e.actionspf2e.Recall Knowledge]{Recall Knowledge}。若你如此做，你仅能获得该生物生理学相关的信息——你无法得知任何关于后天习得或物品赋予的能力的信息。此外，你可以使用不死学识代替医疗技能对一具包含骨骼的死去生物的尸体进行法医检验。</p>"
+      }
+    },
+    "impossible-playtest-class-features": {
+      "Runic Optimization": {
+        "name_cn": "符文优化",
+        "desc_html_cn": "<p>你已学会利用武器符文的魔力造成更大伤害。使用带有 <em>striking</em> 强击符文的武器时，你会造成 2 点额外伤害。如果武器带有 <em>greater striking</em> 高等强击符文，伤害增加到 3；如果带有 <em>major striking</em> 上等强击符文，伤害增加到 4。</p>"
+      }
+    },
+    "impossible-playtest-classes": {
+      "Runesmith": {
+        "name_cn": "符文工匠",
+        "desc_html_cn": "<p>所有交流的核心是文字，而所有魔法的核心是符文。你既是学者又是艺术家，致力于研究这些神秘的符号，学习雕刻、蚀刻、烙印和绘制魔法的构件，以引导比自己更强大的力量。</p>"
+      }
+    }
+  },
+  "_terminology_extra": {
+    "thrall": "残骸",
+    "create thrall": "创造残骸",
+    "consume thrall": "吞噬残骸",
+    "grave spell": "墓穴法术",
+    "grave cantrip": "墓穴戏法",
+    "trace a rune": "刻画符文",
+    "trace rune": "刻画符文",
+    "etch a rune": "蚀刻符文",
+    "invocation": "激发",
+    "diacritic": "修饰",
+    "rune-bearer": "符文携带者",
+    "diacritic rune": "修饰符文",
+    "quarry": "猎物",
+    "mark quarry": "标记猎物",
+    "claim trophy": "获取战利品",
+    "trophies": "战利品",
+    "reinforced": "强化",
+    "relentless": "追猎",
+    "flourish": "绝技",
+    "press": "连携",
+    "prop": "支点",
+    "risky": "风险",
+    "adrenaline": "肾上腺素",
+    "stunt": "险招",
+    "stunt damage": "险招伤害",
+    "necromancer": "死灵师",
+    "runesmith": "符文工匠",
+    "daredevil": "狂徒",
+    "slayer": "猎杀者",
+    "bloodseeking blade": "觅血之刃",
+    "chymist's vials": "炼金师药瓶",
+    "consecrated panoply": "祝圣武备",
+    "warded mail": "符护链甲",
+    "spirit oil": "精油",
+    "signature tools": "标志性工具",
+    "secondary tools": "辅助工具",
+    "bone shaper": "塑骨灵匠",
+    "flesh magician": "血肉魔巫",
+    "spirit monger": "魂灵商贩",
+    "grim fascination": "阴森痴迷",
+    "mastery of life and death": "操弄生死",
+    "undead lore": "不死学识",
+    "necromancer spellcasting": "死灵师施法",
+    "runic repertoire": "符文库",
+    "runic magic": "符文魔法",
+    "runic crafter": "符文匠人",
+    "runic optimization": "符文优化",
+    "runic reprisal": "符文报复",
+    "runic tattoo": "符文刺青",
+    "audacious combatant": "无畏斗士",
+    "daring stunt": "大胆险招",
+    "propelling strides": "助推步法",
+    "daredevil's stunt": "狂徒险招",
+    "daredevil's endurance": "狂徒耐力",
+    "stunt flexibility": "灵活险招",
+    "evasive reflexes": "反射闪避",
+    "on the hunt": "猎杀时刻",
+    "monster lore": "怪物学识",
+    "slayer's arsenal": "猎杀者军械库",
+    "slayer's quarry": "猎杀者猎物",
+    "reinforce arsenal": "强化军械库",
+    "perception expertise": "察觉专家",
+    "weapon expertise": "武器专家",
+    "weapon specialization": "武器专精",
+    "greater weapon specialization": "高等武器专精",
+    "weapon mastery": "武器大师",
+    "skill feats": "技能专长",
+    "general feats": "通用专长",
+    "ancestry feats": "族裔专长",
+    "skill increases": "技能提升",
+    "attribute boosts": "属性提升",
+    "initial proficiencies": "初始熟练",
+    "ancestry and background": "族裔与背景",
+    "shield block": "盾牌格挡"
+  }
+}

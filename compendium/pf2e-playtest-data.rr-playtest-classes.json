@@ -1,0 +1,24 @@
+{
+  "label": "职业\nClasses",
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
+  },
+  "folders": {},
+  "entries": {
+    "Slayer": {
+      "name": "猎杀者 Slayer",
+      "description": "<p><em>世界充满了危险而强大的存在，但猎杀者知道没有不可战胜的威胁。你可能是一个追求更稀有猎物的猎手，一个守护弱者的勇士，或是一个执着追猎宿敌的复仇者；无论动机为何，几乎无人能在追猎单一强敌方面胜过你。凭借专门打造的军械、过往狩猎所得的战利品，以及你不屈的意志，你总是比上一次更为充分地准备迎接新的猎物。</em></p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-journals.JournalEntry.ySXKYCwTMwG7xpmk.JournalEntryPage.50V7VJjmpl8Q4yia]{Slayer}</p>\n<hr />\n<p><em>The world is full of dangerous and mighty beings, but slayers know that no threat is unbeatable. You could be a trapper in pursuit of rarer game, a brave defender of the weak, or a dogged pursuer of a hated nemesis; whatever your reasons, few are more skilled than you at hunting singular and deadly foes. Equipped with an arsenal of specialized tools, the spoils of your previous hunts, and your indomitable spirit, you are always more prepared for each new quarry than the last.</em></p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-journals.JournalEntry.ySXKYCwTMwG7xpmk.JournalEntryPage.50V7VJjmpl8Q4yia]{Slayer}</p>"
+    },
+    "Daredevil": {
+      "name": "狂徒 Daredevil",
+      "description": "<p><em>你冲入他人畏缩不前之处，对任何危险都毫不在意。你在背水一战、以寡敌众的时刻中茁壮成长。你冲过战场，看似要迎向敌人，却用一个惊人的险招让他们措手不及、踉跄后退。整个过程，肾上腺素在你体内奔涌，助燃着你对风险的热爱。</em></p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-journals.JournalEntry.ySXKYCwTMwG7xpmk.JournalEntryPage.9ZLYbyo7uf9xnmF9]{Daredevil}</p>\n<hr />\n<p><em>You rush headlong where others fear to tread, heedless of any dangers. You thrive in those moments where your back is up against the wall and the odds are against you. You dash across the battlefield seemingly to face an enemy only to catch them by surprise with an astounding stunt that sends them reeling. All the while, adrenaline courses through your body, fueling your appetite for risk.</em></p><p>@UUID[Compendium.pf2e-playtest-data.rr-playtest-journals.JournalEntry.ySXKYCwTMwG7xpmk.JournalEntryPage.9ZLYbyo7uf9xnmF9]{Daredevil}</p>"
+    }
+  }
+}
