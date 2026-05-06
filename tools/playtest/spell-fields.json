@@ -1,0 +1,59 @@
+{
+  "_doc": "Per-spell translations of system.range.value / system.target.value / system.duration.value. Babele applies these via the mapping declared in build-bilingual.py for the impossible-playtest-spells pack.",
+  "Create Thrall": {
+    "range": "30 尺",
+    "duration": "1 分钟"
+  },
+  "Bone Spear": {
+    "range": "10 尺",
+    "target": "1 名生物（见正文）"
+  },
+  "Muscle Barrier": {
+    "range": "60 尺",
+    "target": "1 具残骸",
+    "duration": "1 分钟"
+  },
+  "Conglomerate of Limbs": {
+    "range": "60 尺",
+    "duration": "1 分钟"
+  },
+  "Dead Weight": {
+    "range": "60 尺",
+    "target": "1 具你的残骸",
+    "duration": "1 轮"
+  },
+  "Living Graveyard": {
+    "range": "100 尺",
+    "duration": "1 分钟"
+  },
+  "Flesh Tsunami": {
+    "range": "30 尺"
+  },
+  "Necrotic Bomb": {
+    "range": "60 尺",
+    "target": "1 具残骸"
+  },
+  "Life Tap": {
+    "range": "30 尺",
+    "target": "1 具残骸"
+  },
+  "Recurring Nightmare": {
+    "range": "30 尺",
+    "duration": "1 分钟"
+  },
+  "Zombie Horde": {
+    "range": "60 尺",
+    "duration": "1 分钟"
+  },
+  "Perfected Thrall": {
+    "range": "60 尺",
+    "duration": "1 分钟"
+  },
+  "Skeletal Lancers": {
+    "range": "60 尺",
+    "duration": "1 分钟"
+  },
+  "Bind Heroic Spirit": {
+    "duration": "1 分钟"
+  }
+}

@@ -23,6 +23,7 @@ ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parent.parent  # /root/pf2e-compendium-extra-cn
 SOURCE_JSON = ROOT / "playtest-cn-source.json"
 OVERRIDES_JSON = ROOT / "overrides.json"
+SPELL_FIELDS_JSON = ROOT / "spell-fields.json"
 AGENT_OUT = ROOT / "agent-out"
 EXTRACTED_DIR = Path("/tmp/playtest-output")
 COMPENDIUM_DIR = REPO / "compendium"
@@ -110,6 +111,64 @@ def normalize_en_key(en: str) -> str:
     return s
 
 
+# Leading trait line residue from docx (`__狂徒 风险__` -> `<strong>狂徒 风险</strong>`).
+# These appear inside `<p>` paragraphs at the start of feat/action descriptions
+# but PF2e renders traits separately above the description, so inline duplication
+# is undesirable. Strip when the strong content is only Chinese trait keywords
+# (no labels like `频率`/`需求` which take other characters or are followed by
+# non-trait text). The whitelist captures known PF2e traits seen in playtest content.
+TRAIT_WORDS = {
+    # Class traits
+    "死灵师", "符文工匠", "狂徒", "猎杀者",
+    # Playtest-specific
+    "残骸", "墓穴", "符文", "修饰", "激发",
+    "风险", "绝技", "连携", "险招", "追猎", "强化", "塑法",
+    # Action timing
+    "自由动作", "反应", "单动作", "双动作", "三动作",
+    # Magic traditions
+    "异能", "神术", "奥术", "原能", "超自然",
+    # Common traits
+    "罕见", "非常见", "唯一", "攻击", "专注", "操作",
+    "隐密", "视觉", "听觉", "触觉", "心灵", "情绪", "恐惧",
+    "神圣", "邪秽", "幻术", "塑形", "传送", "塑法",
+    # Damage / energy
+    "火", "寒冷", "电击", "雷鸣", "钝击", "穿刺", "挥砍",
+    "力场", "毒素", "疾病", "流血", "阴气", "阳气",
+    "命能", "虚能", "死亡", "光照",
+    # Misc
+    "魔法", "魔法物品", "印记", "持续", "操弄",
+    "幸运", "增益", "减损", "降级",
+}
+
+
+def _is_trait_only_run(text: str) -> bool:
+    """True if the inner-strong text is purely a list of trait words / brackets."""
+    raw = text.strip()
+    if not raw:
+        return False
+    # Remove brackets and split by whitespace
+    cleaned = re.sub(r"[\[\]]", " ", raw)
+    tokens = [t for t in cleaned.split() if t]
+    if not tokens or len(tokens) > 8:
+        return False
+    return all(t in TRAIT_WORDS for t in tokens)
+
+
+_TRAIT_LEAD_RE = re.compile(r"^<p><strong>([^<]+)</strong>(\s*)")
+
+
+def strip_trait_lead(html: str) -> str:
+    """Strip a leading `<p><strong>{traits}</strong> ` if the strong content is
+    purely PF2e trait keywords. Returns html unchanged otherwise.
+    """
+    m = _TRAIT_LEAD_RE.match(html)
+    if not m:
+        return html
+    if _is_trait_only_run(m.group(1)):
+        return "<p>" + html[m.end():]
+    return html
+
+
 def load_cn_lookup(source: dict, overrides: dict) -> dict:
     """Build a lookup keyed by (pack_hint, en_norm) -> entry dict.
 
@@ -120,6 +179,11 @@ def load_cn_lookup(source: dict, overrides: dict) -> dict:
     base_by_en: dict = {}
     for cls, entries in source.get("by_class", {}).items():
         for ek, entry in entries.items():
+            # Strip leading docx-style trait lines (e.g. `<p><strong>狂徒 风险</strong> ...`)
+            # — PF2e renders traits separately above the description, so inline
+            # duplication is undesirable.
+            entry = dict(entry)
+            entry["desc_html_cn"] = strip_trait_lead(entry.get("desc_html_cn", ""))
             existing = base_by_en.get(ek)
             if existing is None or len(entry["desc_html_cn"]) > len(
                 existing["desc_html_cn"]
@@ -194,7 +258,9 @@ def merge_agent_into_lookup(lookup: dict, agent_out: dict) -> None:
             existing[ek] = {
                 "name_cn": entry.get("name_cn", ""),
                 "name_en": entry.get("name_en", ""),
-                "desc_html_cn": entry.get("desc_html_cn", entry.get("description_cn", "")),
+                "desc_html_cn": strip_trait_lead(
+                    entry.get("desc_html_cn", entry.get("description_cn", ""))
+                ),
             }
 
 
@@ -355,7 +421,7 @@ def detect_entry_type(entries: dict) -> str:
     return "item"
 
 
-def build_pack(pack: str, lookup: dict) -> dict:
+def build_pack(pack: str, lookup: dict, spell_fields: dict | None = None) -> dict:
     """Read the extracted English JSON, return the translated structure."""
     src_path = EXTRACTED_DIR / f"pf2e-playtest-data.{pack}.json"
     if not src_path.exists():
@@ -365,8 +431,15 @@ def build_pack(pack: str, lookup: dict) -> dict:
         data = json.load(f)
     out: dict = {}
     out["label"] = PACK_LABELS.get(pack, data.get("label", pack))
-    if "mapping" in data:
-        out["mapping"] = data["mapping"]
+    mapping = dict(data.get("mapping", {})) if "mapping" in data else {}
+    # For the spells pack, add range/target/duration fields so Babele can
+    # apply per-entry CN values.
+    if pack == "impossible-playtest-spells" and spell_fields:
+        mapping["range"] = "system.range.value"
+        mapping["target"] = "system.target.value"
+        mapping["duration"] = "system.duration.value"
+    if mapping:
+        out["mapping"] = mapping
     out["folders"] = translate_folders(data.get("folders", {}))
     entries = data.get("entries", {})
     entry_type = detect_entry_type(entries)
@@ -380,6 +453,13 @@ def build_pack(pack: str, lookup: dict) -> dict:
             new_entry, was = translate_actor_entry(pack, orig_en, entry, lookup)
         else:
             new_entry, was = translate_item_entry(pack, orig_en, entry, lookup)
+        # Augment spell entries with range/target/duration translations
+        if pack == "impossible-playtest-spells" and spell_fields:
+            sf = spell_fields.get(orig_en)
+            if isinstance(sf, dict):
+                for fk in ("range", "target", "duration"):
+                    if sf.get(fk):
+                        new_entry[fk] = sf[fk]
         new_entries[orig_en] = new_entry
         if was:
             translated_count += 1
@@ -413,6 +493,13 @@ def main():
         if OVERRIDES_JSON.exists()
         else {}
     )
+    spell_fields = (
+        json.loads(SPELL_FIELDS_JSON.read_text(encoding="utf-8"))
+        if SPELL_FIELDS_JSON.exists()
+        else {}
+    )
+    # Drop the _doc comment key
+    spell_fields = {k: v for k, v in spell_fields.items() if not k.startswith("_")}
     lookup = load_cn_lookup(source, overrides)
     if args.merge_agent_out:
         agent_out = load_agent_out()
@@ -426,7 +513,7 @@ def main():
     report_lines: list = []
     grand_total = grand_translated = 0
     for pack in PACK_LABELS:
-        result = build_pack(pack, lookup)
+        result = build_pack(pack, lookup, spell_fields)
         if not result:
             continue
         stats = result.pop("__stats", {})

@@ -24,11 +24,11 @@
         },
         "Thrall - Automatically Hit": {
           "name": "残骸 - 自动命中 Thrall - Automatically Hit",
-          "description": "<p>A thrall is automatically hit.</p>"
+          "description": "<p>残骸自动被攻击命中。</p>\n<hr />\n<p>A thrall is automatically hit.</p>"
         },
         "Thrall - Fails all Saving Throws": {
           "name": "残骸 - 所有豁免自动失败 Thrall - Fails all Saving Throws",
-          "description": "<p>A thrall automatically fails all saving throws. </p>"
+          "description": "<p>残骸自动在所有豁免中失败。</p>\n<hr />\n<p>A thrall automatically fails all saving throws. </p>"
         }
       }
     },
@@ -40,11 +40,11 @@
       "items": {
         "Thrall - Automatically Hit": {
           "name": "残骸 - 自动命中 Thrall - Automatically Hit",
-          "description": "<p>A thrall is automatically hit.</p>"
+          "description": "<p>残骸自动被攻击命中。</p>\n<hr />\n<p>A thrall is automatically hit.</p>"
         },
         "Thrall - Fails all Saving Throws": {
           "name": "残骸 - 所有豁免自动失败 Thrall - Fails all Saving Throws",
-          "description": "<p>A thrall automatically fails all saving throws. </p>"
+          "description": "<p>残骸自动在所有豁免中失败。</p>\n<hr />\n<p>A thrall automatically fails all saving throws. </p>"
         }
       }
     },
@@ -56,11 +56,11 @@
       "items": {
         "Thrall - Automatically Hit": {
           "name": "残骸 - 自动命中 Thrall - Automatically Hit",
-          "description": "<p>A thrall is automatically hit.</p>"
+          "description": "<p>残骸自动被攻击命中。</p>\n<hr />\n<p>A thrall is automatically hit.</p>"
         },
         "Thrall - Fails all Saving Throws": {
           "name": "残骸 - 所有豁免自动失败 Thrall - Fails all Saving Throws",
-          "description": "<p>A thrall automatically fails all saving throws. </p>"
+          "description": "<p>残骸自动在所有豁免中失败。</p>\n<hr />\n<p>A thrall automatically fails all saving throws. </p>"
         },
         "Strike": {
           "name": "打击 Strike"
@@ -79,11 +79,11 @@
         },
         "Thrall - Automatically Hit": {
           "name": "残骸 - 自动命中 Thrall - Automatically Hit",
-          "description": "<p>A thrall is automatically hit.</p>"
+          "description": "<p>残骸自动被攻击命中。</p>\n<hr />\n<p>A thrall is automatically hit.</p>"
         },
         "Thrall - Fails all Saving Throws": {
           "name": "残骸 - 所有豁免自动失败 Thrall - Fails all Saving Throws",
-          "description": "<p>A thrall automatically fails all saving throws. </p>"
+          "description": "<p>残骸自动在所有豁免中失败。</p>\n<hr />\n<p>A thrall automatically fails all saving throws. </p>"
         }
       }
     },
@@ -95,11 +95,11 @@
       "items": {
         "Thrall - Automatically Hit": {
           "name": "残骸 - 自动命中 Thrall - Automatically Hit",
-          "description": "<p>A thrall is automatically hit.</p>"
+          "description": "<p>残骸自动被攻击命中。</p>\n<hr />\n<p>A thrall is automatically hit.</p>"
         },
         "Thrall - Fails all Saving Throws": {
           "name": "残骸 - 所有豁免自动失败 Thrall - Fails all Saving Throws",
-          "description": "<p>A thrall automatically fails all saving throws. </p>"
+          "description": "<p>残骸自动在所有豁免中失败。</p>\n<hr />\n<p>A thrall automatically fails all saving throws. </p>"
         },
         "Skeletal Lance": {
           "name": "骨枪 Skeletal Lance"
@@ -114,15 +114,15 @@
       "items": {
         "Thrall - Automatically Hit": {
           "name": "残骸 - 自动命中 Thrall - Automatically Hit",
-          "description": "<p>A thrall is automatically hit.</p>"
+          "description": "<p>残骸自动被攻击命中。</p>\n<hr />\n<p>A thrall is automatically hit.</p>"
         },
         "Share Space": {
           "name": "共享空间 Share Space",
-          "description": "<p>Unlike other thralls, the nightmare can share space with other creatures, and other creatures can move through its space with ease.</p>"
+          "description": "<p>与其他残骸不同，梦魇可以与其他生物共享空间，其他生物也可以轻松地从它所占的空间中通过。</p>\n<hr />\n<p>Unlike other thralls, the nightmare can share space with other creatures, and other creatures can move through its space with ease.</p>"
         },
         "Thrall - Fails all Saving Throws": {
           "name": "残骸 - 所有豁免自动失败 Thrall - Fails all Saving Throws",
-          "description": "<p>A thrall automatically fails all saving throws. </p>"
+          "description": "<p>残骸自动在所有豁免中失败。</p>\n<hr />\n<p>A thrall automatically fails all saving throws. </p>"
         }
       }
     }

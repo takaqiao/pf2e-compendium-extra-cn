@@ -22,7 +22,7 @@
     },
     "Invoke Rune": {
       "name": "激发符文 Invoke Rune",
-      "description": "<p><strong>激发 魔法 符文工匠</strong> 你念出一个或多个在你30尺内符文的名字。符文会迸发出强大的力量，应用其激发条目中的效果。然后符文就会消散，它的任务完成了。您可以通过单次激发符文动作激发任意数量的符文，但会受到多个相同符文影响的生物只会受到一次影响，重复效果也是如此。</p>\n<hr />\n<p>You utter the name of one or more of your runes within 30 feet. The rune blazes with power, applying the effect in its Invocation entry. The rune then fades away, its task completed. You can invoke any number of runes with a single Invoke Rune action, but creatures that would be affected by multiple copies of the same specific rune are affected only once, as normal for duplicate effects.</p>"
+      "description": "<p>你念出一个或多个在你30尺内符文的名字。符文会迸发出强大的力量，应用其激发条目中的效果。然后符文就会消散，它的任务完成了。您可以通过单次激发符文动作激发任意数量的符文，但会受到多个相同符文影响的生物只会受到一次影响，重复效果也是如此。</p>\n<hr />\n<p>You utter the name of one or more of your runes within 30 feet. The rune blazes with power, applying the effect in its Invocation entry. The rune then fades away, its task completed. You can invoke any number of runes with a single Invoke Rune action, but creatures that would be affected by multiple copies of the same specific rune are affected only once, as normal for duplicate effects.</p>"
     },
     "Trace Rune": {
       "name": "描画符文 Trace Rune",

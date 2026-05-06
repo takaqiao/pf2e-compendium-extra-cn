@@ -19,6 +19,18 @@
       "Skeletal Lancer": {
         "name_cn": "骷髅枪兵",
         "desc_html_cn": "<p>这具残骸持有长触及10尺的骨枪。当一名敌人在骷髅枪兵残骸的触及内进行打击（Strike），骷髅枪兵将对其造成5点穿刺伤害。即使一名敌人在复数名骷髅枪兵的触及内，也只会因此受到一次伤害。在每个后续轮中一次，你可以维持（Sustain）此法术来指挥任意数量的骷髅枪兵行走（Stride）至多30尺。</p>"
+      },
+      "Thrall - Automatically Hit": {
+        "name_cn": "残骸 - 自动命中",
+        "desc_html_cn": "<p>残骸自动被攻击命中。</p>"
+      },
+      "Thrall - Fails all Saving Throws": {
+        "name_cn": "残骸 - 所有豁免自动失败",
+        "desc_html_cn": "<p>残骸自动在所有豁免中失败。</p>"
+      },
+      "Share Space": {
+        "name_cn": "共享空间",
+        "desc_html_cn": "<p>与其他残骸不同，梦魇可以与其他生物共享空间，其他生物也可以轻松地从它所占的空间中通过。</p>"
       }
     },
     "impossible-playtest-journals": {

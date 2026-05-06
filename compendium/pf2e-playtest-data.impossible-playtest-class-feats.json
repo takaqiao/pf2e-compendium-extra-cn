@@ -62,7 +62,7 @@
     },
     "Conceal Spell": {
       "name": "匿藏法术 Conceal Spell",
-      "description": "<p><strong>[专注] [死灵师] [塑法]</strong> 依靠纯粹的精神力，你可以简化施法所需要的咒语和手势，让其几乎不被察觉。如果你下个动作是施法，该法术获得晦匿特征，藏匿了发光的符文，魔法的火花，和其他通常会泄露你施法的呈现。该特征藏匿的只有法术的施法动作和呈现，不包括其效果，所以观察者还是能看到有条射线从你那边飞射而出，或看到你消失在空气中。</p>\n<hr />\n<p>By shaping the magical energies and parameters of your spells all in your head through sheer concentration, you can simplify the incantations and gestures needed to spellcast, leaving them barely noticeable. If the next action you use is to Cast a Spell, the spell gains the subtle trait, hiding the shining runes, sparks of magic, and other manifestations that would usually give away your spellcasting. The trait hides only the spell's spellcasting actions and manifestations, not its effects, so an observer might still see a ray streak out from you or see you vanish into thin air.</p>"
+      "description": "<p>依靠纯粹的精神力，你可以简化施法所需要的咒语和手势，让其几乎不被察觉。如果你下个动作是施法，该法术获得晦匿特征，藏匿了发光的符文，魔法的火花，和其他通常会泄露你施法的呈现。该特征藏匿的只有法术的施法动作和呈现，不包括其效果，所以观察者还是能看到有条射线从你那边飞射而出，或看到你消失在空气中。</p>\n<hr />\n<p>By shaping the magical energies and parameters of your spells all in your head through sheer concentration, you can simplify the incantations and gestures needed to spellcast, leaving them barely noticeable. If the next action you use is to Cast a Spell, the spell gains the subtle trait, hiding the shining runes, sparks of magic, and other manifestations that would usually give away your spellcasting. The trait hides only the spell's spellcasting actions and manifestations, not its effects, so an observer might still see a ray streak out from you or see you vanish into thin air.</p>"
     },
     "Read the Bones": {
       "name": "解读骨相 Read the Bones",
@@ -111,7 +111,7 @@
     },
     "Expanded Glossary": {
       "name": "扩充词汇 Expanded Glossary",
-      "description": "<p><strong>符文工匠</strong> 你所记忆的符文比许多同行业的人都多。添加2个符文到你的符文库中。  <strong>14级</strong></p>\n<hr />\n<p>You have memorized more runes than many in your craft. Add 2 runes to your runic repertoire.</p>"
+      "description": "<p>你所记忆的符文比许多同行业的人都多。添加2个符文到你的符文库中。  <strong>14级</strong></p>\n<hr />\n<p>You have memorized more runes than many in your craft. Add 2 runes to your runic repertoire.</p>"
     },
     "Bony Barrage": {
       "name": "白骨弹幕 Bony Barrage",
@@ -128,11 +128,11 @@
     },
     "Forge New Word": {
       "name": "铸就新词 Forge New Word",
-      "description": "<p><strong>符文工匠</strong> 在你的技艺巅峰，你已经铸就出了一个新的伟大力量符文，一段新的理想表达或话语，将被用于制作。你创造一个符文，并将其添加进你的符文库。为符文命名。该符文具有任意一个4环及以下，施法消耗不超过两个动作的，常见法术（或你具有许可的法术）的效果。该符文具有独特特征和你选择的魔法特征，其用法与基础法术的目标相匹配（例如，以生物为目标的法术可以绘制在生物身上）。</p>\n<hr />\n<p>At the pinnacle of your art, you have forged a new great rune of power, a new ideal expression or utterance to be added to the craft. You create a rune and add it to your runic repertoire. Name the rune. This rune has the effects of any one spell that is common (or to which you otherwise have access), of 4th rank or lower, and that costs no more than 2 actions to cast. This rune has the unique trait and a magical trait of your choosing, and its usage matches the target of the base spell (for instance, a spell that would target a creature can be drawn on a creature).</p>"
+      "description": "<p>在你的技艺巅峰，你已经铸就出了一个新的伟大力量符文，一段新的理想表达或话语，将被用于制作。你创造一个符文，并将其添加进你的符文库。为符文命名。该符文具有任意一个4环及以下，施法消耗不超过两个动作的，常见法术（或你具有许可的法术）的效果。该符文具有独特特征和你选择的魔法特征，其用法与基础法术的目标相匹配（例如，以生物为目标的法术可以绘制在生物身上）。</p>\n<hr />\n<p>At the pinnacle of your art, you have forged a new great rune of power, a new ideal expression or utterance to be added to the craft. You create a rune and add it to your runic repertoire. Name the rune. This rune has the effects of any one spell that is common (or to which you otherwise have access), of 4th rank or lower, and that costs no more than 2 actions to cast. This rune has the unique trait and a magical trait of your choosing, and its usage matches the target of the base spell (for instance, a spell that would target a creature can be drawn on a creature).</p>"
     },
     "Transpose Etching": {
       "name": "换位蚀刻 Transpose Etching",
-      "description": "<p><strong>操作 符文工匠</strong> 用捏住的手势，你可以拾起一个词将其移动到别处。你移动30尺内你的一个符文到30尺内一个不同目标上。  <strong>6级</strong></p>\n<hr />\n<p>With a pinching gesture, you pick up a word and move it elsewhere. You move any one of your runes within 30 feet to a different target within 30 feet.</p>"
+      "description": "<p>用捏住的手势，你可以拾起一个词将其移动到别处。你移动30尺内你的一个符文到30尺内一个不同目标上。  <strong>6级</strong></p>\n<hr />\n<p>With a pinching gesture, you pick up a word and move it elsewhere. You move any one of your runes within 30 feet to a different target within 30 feet.</p>"
     },
     "Astral Composite Invocation": {
       "name": "精神复合激发 Astral Composite Invocation",
@@ -176,7 +176,7 @@
     },
     "Smithing Weapons Familiarity": {
       "name": "工匠武器熟稔 Smithing Weapons Familiarity",
-      "description": "<p><strong>符文工匠</strong> 虽然你是一名工匠，但你精通使用本行业的工具来抵御敌人。你熟悉锤，镐，短刃——在熟练度方面，你将这些武器中的军用武器视作建议武器，进阶武器视作军用武器。  <strong>4级</strong></p>\n<hr />\n<p>Though you are an artisan, you are well versed in using the tools of your trade to fend off enemies. You have familiarity with weapons in the hammer, pick, and knife weapon groups—for the purposes of proficiency, you treat any of these that are martial weapons as simple weapons and any that are advanced weapons as martial weapons.</p>"
+      "description": "<p>虽然你是一名工匠，但你精通使用本行业的工具来抵御敌人。你熟悉锤，镐，短刃——在熟练度方面，你将这些武器中的军用武器视作建议武器，进阶武器视作军用武器。  <strong>4级</strong></p>\n<hr />\n<p>Though you are an artisan, you are well versed in using the tools of your trade to fend off enemies. You have familiarity with weapons in the hammer, pick, and knife weapon groups—for the purposes of proficiency, you treat any of these that are martial weapons as simple weapons and any that are advanced weapons as martial weapons.</p>"
     },
     "Define the Canvas": {
       "name": "界定画布 Define the Canvas",
@@ -212,7 +212,7 @@
     },
     "Dance of Bloody Ink": {
       "name": "血墨之舞 Dance of Bloody Ink",
-      "description": "<p><strong>符文工匠</strong> 当你挥舞武器时，你的武器就是你的画笔，伤口会在目标的肉体上形成有力量的文字。你激发一个你正在持用的武器上的符文，然后用武器打击。如果命中，你可以进行快步，用同一把武器再次进行打击。如果第二次打击命中，你在打击目标身上描画一个符文。这两次打击都会计入多重攻击减值，但在你完成所有攻击之前减值不会增加。</p>\n<hr />\n<p>As you lash out, your weapon is your brush, wounds forming words of power in your target's flesh. You Invoke a Rune on a melee weapon you are wielding and Strike with the weapon. On a hit, you can Step and Strike again with the same weapon. If the second Strike hits, you Trace a Rune onto the target of the Strike. Both attacks counts toward your multiple attack penalty, but you do not increase your penalty until you have made all your attacks.</p>"
+      "description": "<p>当你挥舞武器时，你的武器就是你的画笔，伤口会在目标的肉体上形成有力量的文字。你激发一个你正在持用的武器上的符文，然后用武器打击。如果命中，你可以进行快步，用同一把武器再次进行打击。如果第二次打击命中，你在打击目标身上描画一个符文。这两次打击都会计入多重攻击减值，但在你完成所有攻击之前减值不会增加。</p>\n<hr />\n<p>As you lash out, your weapon is your brush, wounds forming words of power in your target's flesh. You Invoke a Rune on a melee weapon you are wielding and Strike with the weapon. On a hit, you can Step and Strike again with the same weapon. If the second Strike hits, you Trace a Rune onto the target of the Strike. Both attacks counts toward your multiple attack penalty, but you do not increase your penalty until you have made all your attacks.</p>"
     },
     "Ectoplasmic Aura": {
       "name": "魂能灵光 Ectoplasmic Aura",
@@ -232,7 +232,7 @@
     },
     "Living Lexicon": {
       "name": "活字典 Living Lexicon",
-      "description": "<p><strong>符文工匠</strong> 你的符文知识无穷无尽。你添加一个额外符文到你的符文库中。  <strong>20级</strong></p>\n<hr />\n<p>Your knowledge of runes knows no bounds. You gain an additional rune in your runic repertoire.</p>"
+      "description": "<p>你的符文知识无穷无尽。你添加一个额外符文到你的符文库中。  <strong>20级</strong></p>\n<hr />\n<p>Your knowledge of runes knows no bounds. You gain an additional rune in your runic repertoire.</p>"
     },
     "Ghostly Resonance": {
       "name": "幽魂共鸣 Ghostly Resonance",
@@ -249,7 +249,7 @@
     },
     "Distant Invocation": {
       "name": "极远激发 Distant Invocation",
-      "description": "<p><strong>符文工匠</strong> 你与符文的联系可以延伸到更远的距离。你的任何激发能力的射程都会增加30尺（通常从 30尺增加到60尺）。</p>\n<hr />\n<p>Your connection to your runes stretches over even greater distances. You add 30 feet to the range of any of your invocation abilities (typically increasing the range from 30 to 60 feet).</p>"
+      "description": "<p>你与符文的联系可以延伸到更远的距离。你的任何激发能力的射程都会增加30尺（通常从 30尺增加到60尺）。</p>\n<hr />\n<p>Your connection to your runes stretches over even greater distances. You add 30 feet to the range of any of your invocation abilities (typically increasing the range from 30 to 60 feet).</p>"
     },
     "Return Unto Runes": {
       "name": "封入符文 Return Unto Runes",
@@ -285,7 +285,7 @@
     },
     "Lifesense": {
       "name": "生命感知 Lifesense",
-      "description": "<p><strong>[[死灵师]</strong> 你与生命和死亡力量的连接使你在一瞥之间便能感知生物的生命力量。你获得30尺生命感知作为模糊感官。这一感官令你可以探知距离内的所有活体与不死生物。此外，你知晓30尺内所有活体或不死生物的当前HP和临时生命值。</p>\n<hr />\n<p>Your connection to life and death allows you to sense the life force of a creature with a glance. You gain imprecise lifesense with a range of 30 feet. This sense allows you to detect living and undead creatures within range. Additionally, you know the current Hit Points and temporary Hit Points of any living or undead creature you can see within 30 feet.</p>"
+      "description": "<p>你与生命和死亡力量的连接使你在一瞥之间便能感知生物的生命力量。你获得30尺生命感知作为模糊感官。这一感官令你可以探知距离内的所有活体与不死生物。此外，你知晓30尺内所有活体或不死生物的当前HP和临时生命值。</p>\n<hr />\n<p>Your connection to life and death allows you to sense the life force of a creature with a glance. You gain imprecise lifesense with a range of 30 feet. This sense allows you to detect living and undead creatures within range. Additionally, you know the current Hit Points and temporary Hit Points of any living or undead creature you can see within 30 feet.</p>"
     },
     "Perfected Thrall": {
       "name": "完化残骸 Perfected Thrall",

@@ -61,7 +61,7 @@
     },
     "Daring Critical": {
       "name": "危险猛击 Daring Critical",
-      "description": "<p><strong>狂徒</strong> 你最冒险的攻击也是最致命的。当你拥有肾上腺素并在一个带有连携特征的动作中使用你达到大师熟练度的武器或无武装攻击进行打击时，如果你在骰子上掷出19且该结果为成功，则你获得大成功。如果结果为失败，则此能力无效。</p>\n<hr />\n<p>Your riskiest attacks are also your deadliest. When you have adrenaline and Strike with a weapon or unarmed attack for which you have master proficiency during a press action, you critically succeed if you roll a 19 on the die as long as that result would be a success. This has no effect on a 19 if the result would be a failure.</p>"
+      "description": "<p>你最冒险的攻击也是最致命的。当你拥有肾上腺素并在一个带有连携特征的动作中使用你达到大师熟练度的武器或无武装攻击进行打击时，如果你在骰子上掷出19且该结果为成功，则你获得大成功。如果结果为失败，则此能力无效。</p>\n<hr />\n<p>Your riskiest attacks are also your deadliest. When you have adrenaline and Strike with a weapon or unarmed attack for which you have master proficiency during a press action, you critically succeed if you roll a 19 on the die as long as that result would be a success. This has no effect on a 19 if the result would be a failure.</p>"
     },
     "Bold Bluffs": {
       "name": "大胆虚招 Bold Bluffs",
@@ -228,7 +228,7 @@
     },
     "Breakaway Attack": {
       "name": "就地取材 Breakaway Attack",
-      "description": "<p><strong>狂徒 绝技 风险</strong> 你利用周围的一件物品进行出其不意的攻击。描述你如何利用环境（例如扔锅碗瓢盆，踢松柱子使脚手架倒塌，或者猛地开关门）。你与描述的物体<strong>交互</strong>，然后根据你的描述用它进行近战或远程打击。你在重拳缠手带上的任何基础符文都适用于此打击。近战打击具有<strong>娴熟</strong>和<strong>致命 d8</strong>特征；它造成1d8钝击伤害。远程打击的射程增量为20尺，具有<strong>致命 d10</strong>和<strong>助进</strong>特征；它造成1d6钝击伤害。如果物体是一个你可以拿在手里的普通0级物品，它会被摧毁；否则，它会掉落在你目标所在的方格内。GM可以根据你的描述和具体情况决定你的就地取材造成不同类型的伤害。</p>\n<hr />\n<p>You use a piece of your surroundings to make a surprising attack. Describe how you are using your environment (throwing a pot or pan, kicking a loose post to make scaffolding fall, or slamming a door open or shut, for example). You Interact with the described object and then make a melee or ranged Strike with it, as appropriate for your description. Any fundamental runes you have on a handwraps of might blows apply to this Strike. A melee Strike has the finesse and deadly d8 traits; it deals d8 bludgeoning damage. A ranged Strike has a range increment of 20 feet and the deadly d10 and propulsive traits; it deals 1d6 bludgeoning damage. If the object is a mundane level 0 item that you could have held in your hand, it is destroyed; otherwise, it falls to the ground in your target's space. The GM can determine that your Breakaway Attack deals a different type of damage, depending on your description and the circumstances.</p>"
+      "description": "<p>你利用周围的一件物品进行出其不意的攻击。描述你如何利用环境（例如扔锅碗瓢盆，踢松柱子使脚手架倒塌，或者猛地开关门）。你与描述的物体<strong>交互</strong>，然后根据你的描述用它进行近战或远程打击。你在重拳缠手带上的任何基础符文都适用于此打击。近战打击具有<strong>娴熟</strong>和<strong>致命 d8</strong>特征；它造成1d8钝击伤害。远程打击的射程增量为20尺，具有<strong>致命 d10</strong>和<strong>助进</strong>特征；它造成1d6钝击伤害。如果物体是一个你可以拿在手里的普通0级物品，它会被摧毁；否则，它会掉落在你目标所在的方格内。GM可以根据你的描述和具体情况决定你的就地取材造成不同类型的伤害。</p>\n<hr />\n<p>You use a piece of your surroundings to make a surprising attack. Describe how you are using your environment (throwing a pot or pan, kicking a loose post to make scaffolding fall, or slamming a door open or shut, for example). You Interact with the described object and then make a melee or ranged Strike with it, as appropriate for your description. Any fundamental runes you have on a handwraps of might blows apply to this Strike. A melee Strike has the finesse and deadly d8 traits; it deals d8 bludgeoning damage. A ranged Strike has a range increment of 20 feet and the deadly d10 and propulsive traits; it deals 1d6 bludgeoning damage. If the object is a mundane level 0 item that you could have held in your hand, it is destroyed; otherwise, it falls to the ground in your target's space. The GM can determine that your Breakaway Attack deals a different type of damage, depending on your description and the circumstances.</p>"
     },
     "Pack Slayer": {
       "name": "群体杀手 Pack Slayer",
@@ -408,11 +408,11 @@
     },
     "Unbound Hunt": {
       "name": "无拘狩猎 Unbound Hunt",
-      "description": "<p><strong>猎杀者</strong> 你已经超越了训练的极限，任何技术都可以成为你狩猎的一部分。你在每个回合使用的第一个动作或行动对你获得<strong>追猎</strong>特征。</p>\n<hr />\n<p>You've exceeded the limits of your training, and any technique can be part of your hunt. The first action or activity you use on each of your turns gains the relentless trait for you.</p>"
+      "description": "<p>你已经超越了训练的极限，任何技术都可以成为你狩猎的一部分。你在每个回合使用的第一个动作或行动对你获得<strong>追猎</strong>特征。</p>\n<hr />\n<p>You've exceeded the limits of your training, and any technique can be part of your hunt. The first action or activity you use on each of your turns gains the relentless trait for you.</p>"
     },
     "Obliterate": {
       "name": "抹杀 Obliterate",
-      "description": "<p><strong>死亡 猎杀者</strong> 集中你所有的感官于目标，你准备进行一次毁灭性的攻击。对你的猎物进行一次打击。如果你命中，打击造成最大伤害。打击之后，你的回合结束。</p>\n<hr />\n<p>Focusing all your senses on your target, you prepare for a destructive attack. Make a Strike against your quarry. If you hit, the Strike deals maximum damage. After the Strike, your turn ends.</p>"
+      "description": "<p>集中你所有的感官于目标，你准备进行一次毁灭性的攻击。对你的猎物进行一次打击。如果你命中，打击造成最大伤害。打击之后，你的回合结束。</p>\n<hr />\n<p>Focusing all your senses on your target, you prepare for a destructive attack. Make a Strike against your quarry. If you hit, the Strike deals maximum damage. After the Strike, your turn ends.</p>"
     },
     "Wall of Will": {
       "name": "意志之墙 Wall of Will",

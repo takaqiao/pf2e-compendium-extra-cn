@@ -98,7 +98,7 @@
     },
     "Weapon Expertise": {
       "name": "武器专家 Weapon Expertise",
-      "description": "<p><strong>狂徒</strong> 在你的手中，简易武器变得危险。你对简易武器、军用武器和无武装攻击的熟练等级提升至专家。</p><p><strong>猎杀者</strong> 你与你的武器建立了更紧密的联系。你对简易武器、军用武器和无武装攻击的熟练等级提升至专家。</p>\n<hr />\n<p><strong>Daredevil</strong> In your hands, simple weapons become dangerous. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.</p><p><strong>Slayer</strong> You've developed a stronger connection with your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.</p>"
+      "description": "<p>在你的手中，简易武器变得危险。你对简易武器、军用武器和无武装攻击的熟练等级提升至专家。</p><p><strong>猎杀者</strong> 你与你的武器建立了更紧密的联系。你对简易武器、军用武器和无武装攻击的熟练等级提升至专家。</p>\n<hr />\n<p><strong>Daredevil</strong> In your hands, simple weapons become dangerous. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.</p><p><strong>Slayer</strong> You've developed a stronger connection with your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.</p>"
     },
     "Greater Persistent Focus": {
       "name": "高等执着专注 Greater Persistent Focus",
