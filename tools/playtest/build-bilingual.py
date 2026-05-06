@@ -49,6 +49,39 @@ PACK_LABELS = {
     "rr-playtest-journals": "日志\nJournals",
 }
 
+# The source module's R&R class items (Slayer, Daredevil) already include a
+# journal cross-link in the description, but the Impossible Playtest class
+# items (Necromancer, Runesmith) do not. Add the missing link to those two
+# so the class sheet links to the journal overview.
+CLASS_JOURNAL_LINKS = {
+    "Necromancer": {
+        "uuid": "Compendium.pf2e-playtest-data.impossible-playtest-journals.JournalEntry.ZjdvLAsp4jRYUkkK.JournalEntryPage.igAu7sMd5J8F7WjZ",
+        "label_en": "Necromancer",
+        "label_cn": "Necromancer",
+    },
+    "Runesmith": {
+        "uuid": "Compendium.pf2e-playtest-data.impossible-playtest-journals.JournalEntry.ZjdvLAsp4jRYUkkK.JournalEntryPage.uZmNPE7d0D7L8Z9g",
+        "label_en": "Runesmith",
+        "label_cn": "Runesmith",
+    },
+}
+
+
+def append_class_journal_link(orig_en: str, cn_html: str, en_html: str) -> tuple[str, str]:
+    """For class entries, append a journal-link paragraph to both halves.
+
+    The source module's class items have no journal cross-link in the
+    description; we synthesize one. Babele resolves the {label} via the
+    target page's translated name at render time, so the link reads bilingually
+    in the rendered sheet.
+    """
+    info = CLASS_JOURNAL_LINKS.get(orig_en)
+    if not info:
+        return cn_html, en_html
+    cn_para = f"<p>详见职业概述：@UUID[{info['uuid']}]{{{info['label_cn']}}}</p>"
+    en_para = f"<p>See also: @UUID[{info['uuid']}]{{{info['label_en']}}}</p>"
+    return cn_html + cn_para, en_html + en_para
+
 # Folder names from extracted JSONs map to bilingual.
 FOLDER_TRANSLATIONS = {
     "Necromancer": "死灵师\nNecromancer",
@@ -321,6 +354,10 @@ def translate_item_entry(
     en_desc = entry.get("description", "")
     cn_name = cn_entry["name_cn"] if cn_entry else ""
     cn_desc = cn_entry["desc_html_cn"] if cn_entry else ""
+    # For class items (-classes packs), append a journal cross-link to both
+    # halves so readers can navigate to the journal page from the class sheet.
+    if pack.endswith("-playtest-classes"):
+        cn_desc, en_desc = append_class_journal_link(orig_en, cn_desc, en_desc)
     out["name"] = bilingual_name(cn_name, en_name)
     if "description" in entry:
         out["description"] = bilingual_desc(cn_desc, en_desc)
