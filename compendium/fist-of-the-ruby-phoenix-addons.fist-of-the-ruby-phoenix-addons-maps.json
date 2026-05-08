@@ -1,6 +1,7 @@
 {
   "label": "赤凰斗士：附加内容（地图） FoTRP: Addons (Maps)",
   "folders": {
+    "4. In Search of Sponsorship": "4. 寻求赞助 4. In Search of Sponsorship",
     "G. Creature Dens": "G. 兽巢",
     "2. Survive": "2. 求生",
     "H. Taumatan Shrines": "H. 陶玛塔神龛",
@@ -40,6 +41,12 @@
       "name": "C1. 海滩场地",
       "drawings": {
         "Created by Chasarooni": "由 Chasarooni 创作"
+      }
+    },
+    "A5. Lantern Lodge Gallery": {
+      "name": "A5. 灯笼会议厅 A5. Lantern Lodge Gallery",
+      "notes": {
+        "A5. Lantern Lodge Gallery": "A5. 灯笼会议厅 A5. Lantern Lodge Gallery"
       }
     },
     "C2. Forest Site": {

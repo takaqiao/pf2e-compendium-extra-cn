@@ -32,6 +32,16 @@
       "name": "第一本：绝岛之殇",
       "description": "<p>本资源是 Kalnix 重制版的赤凰斗士冒险地图，原书由 Paizo 出版。可在此处购买原书：<a href=\"https://paizo.com/products/btq02eca?Pathfinder-Adventure-Path-Fists-of-the-Ruby-Phoenix\">Paizo 商城</a>。</p><p>欢迎在 Discord 与 Reddit 找到 Kalnix 的更多作品。</p>",
       "caption": "Paizo《赤凰斗士》冒险路线的地图重制",
+      "macros": {
+        "Ruby Palace Arena - Lava Toggle": {
+          "name": "赤玉宫竞技场 - 熔岩切换",
+          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"5x3xN2nWfDAK2yz3\"\nconst tileId= \"q6gwHCCeqgRAXHaT\"\nconst states = [{x: -2700, y: 2600},{x: 2600, y: 1900}]\nmoveTile(sceneId, tileId, states)\n\n// get the current state of the tile to know which position it is in\nconst tileDoc = canvas.scene.tiles.get(\"RlkXosdhXSPtixON\");\n\n// Arrays of secret does for the walls of each position\nconst doors = [\"Zr5rVLQOPfIDFWAO\",\"EZumCcquA9ocqUEL\",\"0EOJgQfTXWXoMU9g\",\"26e4RTh16BB3BwlC\"]\n\ntoggleDoors(doors)\n\n// function to toggle the doors from open to closed or closed to open\nasync function toggleDoors(doorArray)\n{\n\tconst wallIds = doorArray\n\n\tconst {CLOSED, OPEN} = CONST.WALL_DOOR_STATES;\n\tconst {SECRET} = CONST.WALL_DOOR_TYPES;\n\tconst secretDoors = canvas.scene.walls.filter(w => {\n\t  return wallIds.includes(w.id);\n\t});\n\tconst updates = secretDoors.map(w => {\n\t  return {_id: w.id, ds: w.ds === CLOSED ? OPEN : CLOSED};\n\t});\n\tawait canvas.scene.updateEmbeddedDocuments(\"Wall\", updates);\n}"
+        },
+        "Ruby Palace - Elemental Toggle": {
+          "name": "赤玉宫 - 元素切换",
+          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"5x3xN2nWfDAK2yz3\"\nconst tileId= \"VVxRWbIRODk01As5\"\nconst states = [{x: -2700, y: 0},{x: 2600, y: 1900}]\nmoveTile(sceneId, tileId, states)"
+        }
+      },
       "scenes": {
         "Abandoned Prison": {
           "name": "废弃监狱"
@@ -103,16 +113,6 @@
           "name": "瞭望塔"
         }
       },
-      "macros": {
-        "Ruby Palace Arena - Lava Toggle": {
-          "name": "赤玉宫竞技场 - 熔岩切换",
-          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"5x3xN2nWfDAK2yz3\"\nconst tileId= \"q6gwHCCeqgRAXHaT\"\nconst states = [{x: -2700, y: 2600},{x: 2600, y: 1900}]\nmoveTile(sceneId, tileId, states)\n\n// get the current state of the tile to know which position it is in\nconst tileDoc = canvas.scene.tiles.get(\"RlkXosdhXSPtixON\");\n\n// Arrays of secret does for the walls of each position\nconst doors = [\"Zr5rVLQOPfIDFWAO\",\"EZumCcquA9ocqUEL\",\"0EOJgQfTXWXoMU9g\",\"26e4RTh16BB3BwlC\"]\n\ntoggleDoors(doors)\n\n// function to toggle the doors from open to closed or closed to open\nasync function toggleDoors(doorArray)\n{\n\tconst wallIds = doorArray\n\n\tconst {CLOSED, OPEN} = CONST.WALL_DOOR_STATES;\n\tconst {SECRET} = CONST.WALL_DOOR_TYPES;\n\tconst secretDoors = canvas.scene.walls.filter(w => {\n\t  return wallIds.includes(w.id);\n\t});\n\tconst updates = secretDoors.map(w => {\n\t  return {_id: w.id, ds: w.ds === CLOSED ? OPEN : CLOSED};\n\t});\n\tawait canvas.scene.updateEmbeddedDocuments(\"Wall\", updates);\n}"
-        },
-        "Ruby Palace - Elemental Toggle": {
-          "name": "赤玉宫 - 元素切换",
-          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"5x3xN2nWfDAK2yz3\"\nconst tileId= \"VVxRWbIRODk01As5\"\nconst states = [{x: -2700, y: 0},{x: 2600, y: 1900}]\nmoveTile(sceneId, tileId, states)"
-        }
-      },
       "folders": {
         "FoTRP Book 1 Macros": "赤凰斗士 第一本 宏命令",
         "Fists of the Ruby Phoenix Book 1 Map Remakes by Kalnix": "赤凰斗士 第一本 地图重制（Kalnix）"
@@ -121,6 +121,28 @@
     "Book 3: King of the Mountain": {
       "name": "第三本：山中之王",
       "description": "<p>《山巅之王》的地图重制 Map remakes for King of the Mountain</p>",
+      "macros": {
+        "Kaifen Bay Beach: Spirit World Shift": {
+          "name": "凯芬湾海滩：灵界切换",
+          "command": "// define a fundtion to move the tile between states\nasync function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"3j8nhMxLU5bjEayt\"\nconst tileId= \"UN6Hx9YlxwJng7Cj\"\nconst states = [{x: -3800, y: 800},{x: 1000, y: 800}]\n\n// If statement to make sure that darkness goes with past, light goes with present\nif(canvas.scene.darkness == 0)\n{\n// change the scene darkness over time\ncanvas.scene.update({darkness: .5}, {animateDarkness: 5000})\n// wait for 5000ms until you actually change the position of the tiles\nawait new Promise(r => setTimeout(r, 5000));\n}\nelse\n{\n// change the scene darkness over time\ncanvas.scene.update({darkness: 0}, {animateDarkness: 5000})\n// wait for 5000ms until you actually change the position of the tiles\nawait new Promise(r => setTimeout(r, 5000));\n}\n\n\nmoveTile(sceneId, tileId, states)"
+        },
+        "Grand Dojo: Ancient Forest Toggle": {
+          "name": "大道场：远古森林切换",
+          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n          // remove the weather\n          game.scenes.viewed.update({weather: \"\"});\n        }\n        else {\n          // make it fall\n          game.scenes.viewed.update({weather: \"leaves\"});\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"lvjqhMMgo50OEXvw\"\nconst tileId= \"10YJjVgDZZp2hXBQ\"\nconst states = [{x: -1200, y: -3750},{x: 1200, y: 1200}]\nmoveTile(sceneId, tileId, states)"
+        },
+        "Grand Dojo: Midnight Lake Toggle": {
+          "name": "大道场：午夜湖泊切换",
+          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n          // remove the snow\n          game.scenes.viewed.update({weather: \"\"});\n        }\n        else {\n          // make it snow\n          game.scenes.viewed.update({weather: \"snow\"});\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"lvjqhMMgo50OEXvw\"\nconst tileId= \"XRuxGftSJe2TDEo7\"\nconst states = [{x: 3600, y: -3750},{x: 1200, y: 1200}]\nmoveTile(sceneId, tileId, states)\n\n// If statement to make sure that darkness goes with past, light goes with present\nif(canvas.scene.darkness == 0)\n{\n// change the scene darkness over time\ncanvas.scene.update({darkness: .4}, {animateDarkness: 4000})\n// wait for 5000ms until you actually change the position of the tiles\nawait new Promise(r => setTimeout(r, 4000));\n\n}\nelse\n{\n// change the scene darkness over time\ncanvas.scene.update({darkness: 0}, {animateDarkness: 4000})\n// wait for 5000ms until you actually change the position of the tiles\nawait new Promise(r => setTimeout(r, 4000));\n}"
+        },
+        "Grand Dojo: Scorching Desert": {
+          "name": "大道场：灼热沙漠",
+          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"lvjqhMMgo50OEXvw\"\nconst tileId= \"EIqoLYoNONZzcsXc\"\nconst states = [{x: -1200, y: 6300},{x: 1200, y: 1200}]\nmoveTile(sceneId, tileId, states)"
+        },
+        "Grand Dojo: Windswept Ravine": {
+          "name": "大道场：风袭峡谷",
+          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"lvjqhMMgo50OEXvw\"\nconst tileId= \"JHHKIhzJW5JVRKWc\"\nconst states = [{x: 3600, y: 6300},{x: 1200, y: 1200}]\nmoveTile(sceneId, tileId, states)"
+        }
+      },
       "scenes": {
         "Iron Mountain Peak": {
           "name": "铁山之巅"
@@ -217,28 +239,6 @@
           "name": "碎裂之螺"
         }
       },
-      "macros": {
-        "Kaifen Bay Beach: Spirit World Shift": {
-          "name": "凯芬湾海滩：灵界切换",
-          "command": "// define a fundtion to move the tile between states\nasync function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"3j8nhMxLU5bjEayt\"\nconst tileId= \"UN6Hx9YlxwJng7Cj\"\nconst states = [{x: -3800, y: 800},{x: 1000, y: 800}]\n\n// If statement to make sure that darkness goes with past, light goes with present\nif(canvas.scene.darkness == 0)\n{\n// change the scene darkness over time\ncanvas.scene.update({darkness: .5}, {animateDarkness: 5000})\n// wait for 5000ms until you actually change the position of the tiles\nawait new Promise(r => setTimeout(r, 5000));\n}\nelse\n{\n// change the scene darkness over time\ncanvas.scene.update({darkness: 0}, {animateDarkness: 5000})\n// wait for 5000ms until you actually change the position of the tiles\nawait new Promise(r => setTimeout(r, 5000));\n}\n\n\nmoveTile(sceneId, tileId, states)"
-        },
-        "Grand Dojo: Ancient Forest Toggle": {
-          "name": "大道场：远古森林切换",
-          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n          // remove the weather\n          game.scenes.viewed.update({weather: \"\"});\n        }\n        else {\n          // make it fall\n          game.scenes.viewed.update({weather: \"leaves\"});\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"lvjqhMMgo50OEXvw\"\nconst tileId= \"10YJjVgDZZp2hXBQ\"\nconst states = [{x: -1200, y: -3750},{x: 1200, y: 1200}]\nmoveTile(sceneId, tileId, states)"
-        },
-        "Grand Dojo: Midnight Lake Toggle": {
-          "name": "大道场：午夜湖泊切换",
-          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n          // remove the snow\n          game.scenes.viewed.update({weather: \"\"});\n        }\n        else {\n          // make it snow\n          game.scenes.viewed.update({weather: \"snow\"});\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"lvjqhMMgo50OEXvw\"\nconst tileId= \"XRuxGftSJe2TDEo7\"\nconst states = [{x: 3600, y: -3750},{x: 1200, y: 1200}]\nmoveTile(sceneId, tileId, states)\n\n// If statement to make sure that darkness goes with past, light goes with present\nif(canvas.scene.darkness == 0)\n{\n// change the scene darkness over time\ncanvas.scene.update({darkness: .4}, {animateDarkness: 4000})\n// wait for 5000ms until you actually change the position of the tiles\nawait new Promise(r => setTimeout(r, 4000));\n\n}\nelse\n{\n// change the scene darkness over time\ncanvas.scene.update({darkness: 0}, {animateDarkness: 4000})\n// wait for 5000ms until you actually change the position of the tiles\nawait new Promise(r => setTimeout(r, 4000));\n}"
-        },
-        "Grand Dojo: Scorching Desert": {
-          "name": "大道场：灼热沙漠",
-          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"lvjqhMMgo50OEXvw\"\nconst tileId= \"EIqoLYoNONZzcsXc\"\nconst states = [{x: -1200, y: 6300},{x: 1200, y: 1200}]\nmoveTile(sceneId, tileId, states)"
-        },
-        "Grand Dojo: Windswept Ravine": {
-          "name": "大道场：风袭峡谷",
-          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"lvjqhMMgo50OEXvw\"\nconst tileId= \"JHHKIhzJW5JVRKWc\"\nconst states = [{x: 3600, y: 6300},{x: 1200, y: 1200}]\nmoveTile(sceneId, tileId, states)"
-        }
-      },
       "folders": {
         "FoTRP Book 3 Macros": "赤凰斗士 第三本 宏命令",
         "Fists of the Ruby Phoenix Book 3 Map Remakes by Kalnix": "赤凰斗士 第三本 地图重制（Kalnix）",
@@ -249,6 +249,20 @@
       "name": "第二本：比赛开始！",
       "description": "<p>本资源是 Kalnix 重制版的赤凰斗士冒险地图，原书由 Paizo 出版。可在此处购买原书：<a href=\"https://paizo.com/products/btq02eca?Pathfinder-Adventure-Path-Fists-of-the-Ruby-Phoenix\">Paizo 商城</a>。</p><p>欢迎在 Discord 与 Reddit 找到 Kalnix 的更多作品。</p>",
       "caption": "Paizo《赤凰斗士》冒险路线的地图重制",
+      "macros": {
+        "Tower Form: Double Trapdoor Toggle": {
+          "name": "高塔形态：双活板门切换",
+          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"mpbuEqn34hecR4bi\"\nconst tileId= \"en0CHica4ltbYJtK\"\nconst states = [{x: 150, y: 1350},{x: 2100, y: 1650}]\nmoveTile(sceneId, tileId, states)\n\n// get the current state of the tile to know which position it is in\nconst tileDoc = canvas.scene.tiles.get(\"RlkXosdhXSPtixON\");\n\n// Arrays of secret does for the walls of each position\nconst doors = [\"zQeCdh3QWoL9Xw9F\",\"CGGhDB2Dmyzw5jvk\",\"6dABSOreJrskSm2u\",\"d7AJVFJdX0mTTMYj\"]\n\ntoggleDoors(doors)\n\n// function to toggle the doors from open to closed or closed to open\nasync function toggleDoors(doorArray)\n{\n\tconst wallIds = doorArray\n\n\tconst {CLOSED, OPEN} = CONST.WALL_DOOR_STATES;\n\tconst {SECRET} = CONST.WALL_DOOR_TYPES;\n\tconst secretDoors = canvas.scene.walls.filter(w => {\n\t  return wallIds.includes(w.id);\n\t});\n\tconst updates = secretDoors.map(w => {\n\t  return {_id: w.id, ds: w.ds === CLOSED ? OPEN : CLOSED};\n\t});\n\tawait canvas.scene.updateEmbeddedDocuments(\"Wall\", updates);\n}"
+        },
+        "Tower Form: Single Trapdoor Toggle": {
+          "name": "高塔形态：单活板门切换",
+          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"mpbuEqn34hecR4bi\"\nconst tileId= \"DY6nlm1HQR8oDTyo\"\nconst states = [{x: 150, y: 900},{x: 1650, y: 1950}]\nmoveTile(sceneId, tileId, states)\n\n// get the current state of the tile to know which position it is in\nconst tileDoc = canvas.scene.tiles.get(\"RlkXosdhXSPtixON\");\n\n// Arrays of secret does for the walls of each position\nconst doors = [\"PJROHeobYUZ5zTNy\",\"PEM2KLxcv1IjqjPH\"]\n\ntoggleDoors(doors)\n\n// function to toggle the doors from open to closed or closed to open\nasync function toggleDoors(doorArray)\n{\n\tconst wallIds = doorArray\n\n\tconst {CLOSED, OPEN} = CONST.WALL_DOOR_STATES;\n\tconst {SECRET} = CONST.WALL_DOOR_TYPES;\n\tconst secretDoors = canvas.scene.walls.filter(w => {\n\t  return wallIds.includes(w.id);\n\t});\n\tconst updates = secretDoors.map(w => {\n\t  return {_id: w.id, ds: w.ds === CLOSED ? OPEN : CLOSED};\n\t});\n\tawait canvas.scene.updateEmbeddedDocuments(\"Wall\", updates);\n}"
+        },
+        "Tower Form: Floating Platform Toggle": {
+          "name": "高塔形态：悬浮平台切换",
+          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"mpbuEqn34hecR4bi\"\nconst tileId= \"vgcOXDXM7pIZSmvk\"\nconst states = [{x: 150, y: 1800},{x: 4650, y: 2550}]\nmoveTile(sceneId, tileId, states)\n\n// get the current state of the tile to know which position it is in\nconst tileDoc = canvas.scene.tiles.get(\"RlkXosdhXSPtixON\");\n\n// Arrays of secret does for the walls of each position\nconst doors = [\"jhlals4euceuxick\",\"TFOaUtr6fWyo0bBE\"]\n\ntoggleDoors(doors)\n\n// function to toggle the doors from open to closed or closed to open\nasync function toggleDoors(doorArray)\n{\n\tconst wallIds = doorArray\n\n\tconst {CLOSED, OPEN} = CONST.WALL_DOOR_STATES;\n\tconst {SECRET} = CONST.WALL_DOOR_TYPES;\n\tconst secretDoors = canvas.scene.walls.filter(w => {\n\t  return wallIds.includes(w.id);\n\t});\n\tconst updates = secretDoors.map(w => {\n\t  return {_id: w.id, ds: w.ds === CLOSED ? OPEN : CLOSED};\n\t});\n\tawait canvas.scene.updateEmbeddedDocuments(\"Wall\", updates);\n}"
+        }
+      },
       "scenes": {
         "Air Battle": {
           "name": "空中之战"
@@ -300,20 +314,6 @@
           "drawings": {
             "Created by @Ryokatsudon on Twitter": "由 Twitter 用户 @Ryokatsudon 创作"
           }
-        }
-      },
-      "macros": {
-        "Tower Form: Double Trapdoor Toggle": {
-          "name": "高塔形态：双活板门切换",
-          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"mpbuEqn34hecR4bi\"\nconst tileId= \"en0CHica4ltbYJtK\"\nconst states = [{x: 150, y: 1350},{x: 2100, y: 1650}]\nmoveTile(sceneId, tileId, states)\n\n// get the current state of the tile to know which position it is in\nconst tileDoc = canvas.scene.tiles.get(\"RlkXosdhXSPtixON\");\n\n// Arrays of secret does for the walls of each position\nconst doors = [\"zQeCdh3QWoL9Xw9F\",\"CGGhDB2Dmyzw5jvk\",\"6dABSOreJrskSm2u\",\"d7AJVFJdX0mTTMYj\"]\n\ntoggleDoors(doors)\n\n// function to toggle the doors from open to closed or closed to open\nasync function toggleDoors(doorArray)\n{\n\tconst wallIds = doorArray\n\n\tconst {CLOSED, OPEN} = CONST.WALL_DOOR_STATES;\n\tconst {SECRET} = CONST.WALL_DOOR_TYPES;\n\tconst secretDoors = canvas.scene.walls.filter(w => {\n\t  return wallIds.includes(w.id);\n\t});\n\tconst updates = secretDoors.map(w => {\n\t  return {_id: w.id, ds: w.ds === CLOSED ? OPEN : CLOSED};\n\t});\n\tawait canvas.scene.updateEmbeddedDocuments(\"Wall\", updates);\n}"
-        },
-        "Tower Form: Single Trapdoor Toggle": {
-          "name": "高塔形态：单活板门切换",
-          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"mpbuEqn34hecR4bi\"\nconst tileId= \"DY6nlm1HQR8oDTyo\"\nconst states = [{x: 150, y: 900},{x: 1650, y: 1950}]\nmoveTile(sceneId, tileId, states)\n\n// get the current state of the tile to know which position it is in\nconst tileDoc = canvas.scene.tiles.get(\"RlkXosdhXSPtixON\");\n\n// Arrays of secret does for the walls of each position\nconst doors = [\"PJROHeobYUZ5zTNy\",\"PEM2KLxcv1IjqjPH\"]\n\ntoggleDoors(doors)\n\n// function to toggle the doors from open to closed or closed to open\nasync function toggleDoors(doorArray)\n{\n\tconst wallIds = doorArray\n\n\tconst {CLOSED, OPEN} = CONST.WALL_DOOR_STATES;\n\tconst {SECRET} = CONST.WALL_DOOR_TYPES;\n\tconst secretDoors = canvas.scene.walls.filter(w => {\n\t  return wallIds.includes(w.id);\n\t});\n\tconst updates = secretDoors.map(w => {\n\t  return {_id: w.id, ds: w.ds === CLOSED ? OPEN : CLOSED};\n\t});\n\tawait canvas.scene.updateEmbeddedDocuments(\"Wall\", updates);\n}"
-        },
-        "Tower Form: Floating Platform Toggle": {
-          "name": "高塔形态：悬浮平台切换",
-          "command": "async function moveTile(sceneId, tileId, states) {\n    if (canvas.scene.id === sceneId) {\n      const changeTile = canvas.scene.tiles.get(tileId);\n      let originalState = true;\n      Object.keys(states[0]).forEach((k) => {\n        if (Object.keys(diffObject(changeTile, states[0])).length > 0) {\n          originalState = false;\n        }\n      });\n      changeTile.update(states[originalState ? 1 : 0]);\n    }\n  }\nconst sceneId = \"mpbuEqn34hecR4bi\"\nconst tileId= \"vgcOXDXM7pIZSmvk\"\nconst states = [{x: 150, y: 1800},{x: 4650, y: 2550}]\nmoveTile(sceneId, tileId, states)\n\n// get the current state of the tile to know which position it is in\nconst tileDoc = canvas.scene.tiles.get(\"RlkXosdhXSPtixON\");\n\n// Arrays of secret does for the walls of each position\nconst doors = [\"jhlals4euceuxick\",\"TFOaUtr6fWyo0bBE\"]\n\ntoggleDoors(doors)\n\n// function to toggle the doors from open to closed or closed to open\nasync function toggleDoors(doorArray)\n{\n\tconst wallIds = doorArray\n\n\tconst {CLOSED, OPEN} = CONST.WALL_DOOR_STATES;\n\tconst {SECRET} = CONST.WALL_DOOR_TYPES;\n\tconst secretDoors = canvas.scene.walls.filter(w => {\n\t  return wallIds.includes(w.id);\n\t});\n\tconst updates = secretDoors.map(w => {\n\t  return {_id: w.id, ds: w.ds === CLOSED ? OPEN : CLOSED};\n\t});\n\tawait canvas.scene.updateEmbeddedDocuments(\"Wall\", updates);\n}"
         }
       },
       "folders": {

@@ -4262,18 +4262,21 @@
     "titles": {
       "Bonmu Hexcrawl Map": "邦木六角网格地图 Bonmu Hexcrawl Map",
       "Fist of the Ruby Phoenix: Addons (Book 1)": "赤凰斗士：附加内容（第一本） Fist of the Ruby Phoenix: Addons (Book 1)",
-      "Fists of the Ruby Phoenix: Addons (Book 2)": "赤凰斗士：附加内容（第二本） Fists of the Ruby Phoenix: Addons (Book 2)"
+      "Fists of the Ruby Phoenix: Addons (Book 2)": "赤凰斗士：附加内容（第二本） Fists of the Ruby Phoenix: Addons (Book 2)",
+      "Fists of the Ruby Phoenix: Addons (Book 2) (hmLe)": "赤凰斗士：附加内容（第二本） Fists of the Ruby Phoenix: Addons (Book 2)"
     }
   },
   "fist-of-the-ruby-phoenix-addons.fist-of-the-ruby-phoenix-addons-maps": {
     "folders": {
       "2. Survive": "2. 求生",
       "3. The Empress at the Top of the World": "3. 世界之巅的女皇",
+      "4. In Search of Sponsorship": "4. 寻求赞助 4. In Search of Sponsorship",
       "C. Fighting Sites": "C. 比武场地",
       "G. Creature Dens": "G. 兽巢",
       "H. Taumatan Shrines": "H. 陶玛塔神龛"
     },
     "titles": {
+      "A5. Lantern Lodge Gallery": "A5. 灯笼会议厅 A5. Lantern Lodge Gallery",
       "C1. Beach Site": "C1. 海滩场地",
       "C2. Forest Site": "C2. 森林场地",
       "E. Stone Market": "E. 石市",
@@ -10421,7 +10424,11 @@
     }
   },
   "pf2e.fists-of-the-ruby-phoenix-bestiary": {
-    "folders": {},
+    "folders": {
+      "Book 1 - Despair on Danger Island": "第一本：绝岛之殇 Book 1 - Despair on Danger Island",
+      "Book 2 - Ready? Fight!": "第二本：比赛开始 Book 2 - Ready? Fight!",
+      "Book 3 - King of the Mountain": "第三本：山巅之王 Book 3 - King of the Mountain"
+    },
     "titles": {
       "Abbot Tsujon": "住持祖建",
       "Agile Warrior": "灵巧战士 Agile Warrior",
@@ -10438,7 +10445,6 @@
       "Arms of Balance (Ranya Shibhatesh)": "兰雅·什瓦纳特丝（八臂调和） Arms of Balance (Ranya Shibhatesh)",
       "Arms of Balance (Usvani)": "乌斯瓦利（八臂调和） Arms of Balance (Usvani)",
       "Artus Rodrivan": "阿图斯·罗德里万 Artus Rodrivan",
-      "Berberoka": "夸巴洛卡 Berberoka",
       "Blue Viper (Level 14)": "蓝蝮蛇（14级） Blue Viper (Level 14)",
       "Blue Viper (Level 16)": "蓝蝮蛇（16级） Blue Viper (Level 16)",
       "Blue Viper (Level 20)": "蓝蝮蛇（20 级）",
@@ -10499,7 +10505,6 @@
       "Mafika Ayuwari": "马菲卡·阿尤瓦里 Mafika Ayuwari",
       "Mage of Many Styles": "巧变法师 Mage of Many Styles",
       "Mammoth Turtle": "猛犸象龟 Mammoth Turtle",
-      "Manananggal": "马纳南加尔 Manananggal",
       "Master Xun": "大师勋 Master Xun",
       "Melodic Squall": "旋律暴风 Melodic Squall",
       "Mogaru's Breath": "魔加鲁的吐息 Mogaru's Breath",
@@ -10507,8 +10512,6 @@
       "Nai Yan Fei": "奈燕妃 Nai Yan Fei",
       "Old Man Statue": "老衲像 Old Man Statue",
       "Orochi": "八岐大蛇",
-      "Peng": "鹏 Peng",
-      "Phuthi": "普希·努瓦 Phuthi",
       "Planar Terra-cotta Soldier": "次元兵马俑士兵 Planar Terra-cotta Soldier",
       "Planar Terra-cotta Squadron": "次元兵马俑卫队 Planar Terra-cotta Squadron",
       "Portal Eater": "传送门吞噬者 Portal Eater",
