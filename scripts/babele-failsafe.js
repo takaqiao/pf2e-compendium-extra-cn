@@ -22,7 +22,12 @@ const SAMPLE_PACKS = [
   'pf2e.menace-under-otari-bestiary',
 ];
 
+function isPr43Active(babele) {
+  return !!babele?.__pf2eCompendiumChn28;
+}
+
 Hooks.once('babele.init', (babele) => {
+  if (isPr43Active(babele)) return;
   const patchedInit = babele.init;
   const originalInit = babele.__ondemandPatch?.original?.init;
   if (!originalInit || !patchedInit || patchedInit === originalInit) return;
@@ -36,6 +41,7 @@ Hooks.once('babele.init', (babele) => {
 Hooks.once('ready', async () => {
   const babele = game.babele;
   if (!babele) return;
+  if (isPr43Active(babele)) return;
   if (!babele.initialized) {
     try { await babele.init(); } catch { return; }
   }
