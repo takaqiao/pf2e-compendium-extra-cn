@@ -45,28 +45,46 @@ jobs:
           echo "download URL ok: $DOWNLOAD"
 
       - name: Build module zip
+        # White-list: only ship files FVTT actually needs at runtime.
+        # See RELEASE_PROCESS.md "ZIP 打包" section. Adding new top-level
+        # files (e.g. dev-only glossaries, build artifacts, docs) will NOT
+        # accidentally leak into release archives unless added here.
         run: |
           ZIP_NAME="${{ steps.version.outputs.zip_name }}"
-          zip -r "$ZIP_NAME" . \
-            -x ".git/*" \
-            -x ".github/*" \
-            -x ".gitignore" \
-            -x "release/*" \
-            -x "RELEASE_PROCESS.md" \
-            -x "*.zip" \
-            -x "*.bak" \
-            -x "*.bak.*" \
-            -x ".DS_Store" \
-            -x "Thumbs.db"
+          zip -r "$ZIP_NAME" \
+            module.json \
+            babele.js \
+            inject-lang.js \
+            compendium \
+            homebrew \
+            lang \
+            scripts \
+            .gitignore
           ls -la "$ZIP_NAME"
           unzip -l "$ZIP_NAME" | tail -5
+
+      - name: Generate release body
+        # Use the tag commit's full message (subject + body) as the release
+        # notes — that's where the detailed change description lives — and
+        # append the standard install/requires footer template.
+        run: |
+          {
+            git log -1 --format=%B "${{ steps.version.outputs.tag }}"
+            echo ""
+            echo "---"
+            echo ""
+            cat .github/release-body-template.md
+          } > _release_body.md
+          echo "::group::release body"
+          cat _release_body.md
+          echo "::endgroup::"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.tag }}
           name: v${{ steps.version.outputs.version }}
-          body_path: .github/release-body-template.md
+          body_path: _release_body.md
           fail_on_unmatched_files: true
           files: |
             module.json
