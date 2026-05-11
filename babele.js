@@ -1,49 +1,91 @@
 const MODULE_ID = 'pf2e-compendium-extra-cn';
+const CHN_MODULE_ID = 'pf2e_compendium_chn';
+
+// Mirrored from chn 2.9.7's `registerTranslationSources` so we can compensate
+// when chn's own babele.init handler skips registration (see comment below).
+// Source: https://github.com/AlphaStarguide/pf2e_compendium_chn/blob/main/babele.js
+const CHN_LANG_ALIASES = ['cn', 'zh-CN', 'zh_Hans', 'zh-Hans'];
+const CHN_DIRS = ['zh-CN', 'compendium'];
 
 /**
  * Registration entry point for extra against the legacy chn on-demand patch
- * (state on `babele.__ondemandPatch`). The PR43 chn uses a different state
- * object and is handled in `scripts/chn-pr43-bridge.js`.
+ * (state on `babele.__ondemandPatch`). PR43 chn uses a different state object
+ * and is handled in `scripts/chn-pr43-bridge.js`.
  *
- * Why three hooks: chn's patch installs its `babele.register` wrapper
- * *during* the `babele.init` hook, but Foundry fires hook callbacks in
- * registration order — so depending on module load order our
- * `babele.register` call here can run *before* chn's wrapper installs,
- * hit the native method, and never get recorded into
- * `state.registeredModules`. Without that record, the patched
- * `initOnDemand` doesn't know about our `compendium/` directory and the
- * whole compendium silently drops in lightweight mode.
+ * Two distinct timing problems we have to work around — both in chn 2.9.7:
  *
- *  - `babele.init`: primary path. Works in full mode and in ondemand mode
- *    when chn's patch installs before our handler runs.
- *  - `setup`: safety net. The patch is definitely installed by here, and
- *    `initOnDemand` hasn't run yet (it runs at foundry-ready), so a
- *    second register call lands in `state.registeredModules` in time.
- *  - `ready`: final fallback. If we're still missing from the patch
- *    state, register now and re-run `applyRuntimeTranslations` so our
- *    titles/folders actually hit every pack (`applyTitleIndex` alone
- *    only updates state, it doesn't iterate `game.packs`).
+ * 1) Our own registration races chn's `babele.register` wrapper install.
+ *    chn-patch installs the recording wrapper inside its `babele.init`
+ *    handler, but hook callbacks fire in registration order. Depending on
+ *    module load order our `babele.register` call here can hit the native
+ *    method and never get recorded into `state.registeredModules`. Without
+ *    that record, the patched `initOnDemand` doesn't know about extra's
+ *    `compendium/` directory and our translations silently drop.
  *
- * `babele.register` and `recordTranslationModuleRegistration` both dedupe,
- * so calling register multiple times is safe.
+ * 2) chn 2.9.7 skips its OWN registration in both modes. Its babele.js
+ *    only calls `babele.register` when `game.settings.get('babele',
+ *    'loadingMode') === 'full'`, but chn's patch registers that setting
+ *    in a `Hooks.once('init', ...)` callback that runs AFTER babele's
+ *    init handler fires `Hooks.callAll('babele.init')` (babele loads
+ *    before chn, so babele's init handler fires first). The setting
+ *    read throws/returns undefined, `currentLoadingMode()` falls back
+ *    to ONDEMAND, registerTranslationSources is skipped. Net effect:
+ *    chn never lands in `state.registeredModules` or babele's native
+ *    sourceRegistry. Full mode → native init has no chn source → chn
+ *    translations don't apply at all. Ondemand mode → state.registered-
+ *    Modules has no chn dirs → initOnDemand can't fetch chn's labels/
+ *    titles/pack jsons either. We can't change chn, so we register chn
+ *    on its behalf using its known config.
+ *
+ * Three hooks, idempotent at every level (state.registeredModules dedupes
+ * by JSON, native sourceRegistry dedupes by source name):
+ *
+ *  - `babele.init`: primary path. chn-patch installs before our handler
+ *    runs (chn loads before extra), so `babele.register` is the recording
+ *    wrapper by the time we call it. Both extra and the chn-compensation
+ *    registrations land in state.registeredModules + sourceRegistry.
+ *  - `setup`: safety net. Catches the edge case where chn-patch hadn't
+ *    installed yet during our babele.init handler. By setup the patch is
+ *    always installed and the patched `babele.init()` (which locks
+ *    sourceRegistry in full mode) hasn't run yet — it runs at foundry-
+ *    ready, so register is still safe.
+ *  - `ready`: final fallback (ondemand only — full mode locks
+ *    sourceRegistry after `babele.init()`). If we're still missing,
+ *    register and call `babele.applyRuntimeTranslations({rebuildDocument-
+ *    IndexNow})` so the late registration actually re-translates every
+ *    pack (`applyTitleIndex` alone only updates state; it doesn't
+ *    iterate `game.packs`).
  */
 
 function getPatchState(babele) {
   return babele?.__ondemandPatch ?? null;
 }
 
-function isInPatchState(babele) {
-  return !!getPatchState(babele)?.registeredModules?.some?.((m) => m?.module === MODULE_ID);
+function isInPatchState(babele, moduleId) {
+  return !!getPatchState(babele)?.registeredModules?.some?.((m) => m?.module === moduleId);
 }
 
-function ensureRegistered(babele) {
+function ensureExtraRegistered(babele) {
   if (typeof Babele === 'undefined' || !babele || typeof babele.register !== 'function') return false;
-  if (isInPatchState(babele)) return false;
+  if (isInPatchState(babele, MODULE_ID)) return false;
   babele.register({
     module: MODULE_ID,
     lang: 'cn',
     dir: 'compendium',
   });
+  return true;
+}
+
+function ensureChnRegistered(babele) {
+  if (!babele || typeof babele.register !== 'function') return false;
+  // No patch state → chn module isn't loaded (or its patch failed to install);
+  // either way, this compensation is meaningless and we shouldn't register on
+  // chn's behalf into a babele where chn's converters etc. aren't even there.
+  if (!getPatchState(babele)) return false;
+  if (isInPatchState(babele, CHN_MODULE_ID)) return false;
+  for (const lang of CHN_LANG_ALIASES) {
+    babele.register({ module: CHN_MODULE_ID, lang, dirs: CHN_DIRS });
+  }
   return true;
 }
 
@@ -58,10 +100,10 @@ async function persistToWorldSettings(babele) {
 }
 
 async function reapplyAfterLateRegistration(babele) {
-  // Re-read labels/titleIndex so they include our directory after the
-  // late register, then ask the patched runtime to re-translate every
-  // pack and rebuild the document index. `applyTitleIndex` alone only
-  // updates state — it doesn't iterate `game.packs`.
+  // Re-read labels/titleIndex so they include all newly-registered directories,
+  // then ask the patched runtime to re-translate every pack and rebuild the
+  // document index. `applyTitleIndex` alone only updates state — it doesn't
+  // iterate `game.packs`, so titles would stay English without this step.
   try {
     await babele.loadLabels?.();
     await babele.loadTitleIndex?.();
@@ -76,31 +118,54 @@ async function reapplyAfterLateRegistration(babele) {
 }
 
 Hooks.once('babele.init', (babele) => {
-  if (ensureRegistered(babele)) {
+  if (ensureChnRegistered(babele)) {
+    console.log(`${MODULE_ID} | 代 chn 注册翻译源 (babele.init) — chn 2.9.7 自身的 loadingMode 时序 bug 跳过了注册`);
+  }
+  if (ensureExtraRegistered(babele)) {
     console.log(`${MODULE_ID} | 第三方模组中文翻译已加载 (babele.init)`);
   }
 });
 
 Hooks.once('setup', () => {
   const babele = game.babele;
-  if (!babele) return;
-  // PR43 chn uses a different state object — leave it to chn-pr43-bridge.js.
-  if (!getPatchState(babele)) return;
-  if (ensureRegistered(babele)) {
-    console.log(`${MODULE_ID} | setup 阶段补注册到 on-demand patch`);
+  if (!babele || !getPatchState(babele)) return;
+  if (ensureChnRegistered(babele)) {
+    console.log(`${MODULE_ID} | setup 阶段代 chn 补注册`);
+  }
+  if (ensureExtraRegistered(babele)) {
+    console.log(`${MODULE_ID} | setup 阶段补注册 extra 到 on-demand patch`);
   }
 });
 
 Hooks.once('ready', async () => {
   const babele = game.babele;
-  if (!babele) return;
-  if (!getPatchState(babele)) return;
+  if (!babele || !getPatchState(babele)) return;
 
-  if (isInPatchState(babele)) {
+  // Full mode locks the source registry after `babele.init()` runs (which
+  // happens earlier in foundry-ready, before our hook). If chn/extra somehow
+  // missed both prior hooks, there's nothing useful we can do in full mode —
+  // attempting babele.register would throw `#assertConfigurable`. Only the
+  // ondemand path leaves the state mutable here.
+  const missingChn = !isInPatchState(babele, CHN_MODULE_ID);
+  const missingExtra = !isInPatchState(babele, MODULE_ID);
+  if (!missingChn && !missingExtra) {
     if (game.user?.isGM) await persistToWorldSettings(babele);
     return;
   }
-  if (!ensureRegistered(babele)) return;
-  console.log(`${MODULE_ID} | ready 阶段补注册`);
-  await reapplyAfterLateRegistration(babele);
+
+  let changed = false;
+  try {
+    if (ensureChnRegistered(babele)) {
+      console.log(`${MODULE_ID} | ready 阶段代 chn 补注册`);
+      changed = true;
+    }
+    if (ensureExtraRegistered(babele)) {
+      console.log(`${MODULE_ID} | ready 阶段补注册 extra`);
+      changed = true;
+    }
+  } catch (e) {
+    console.warn(`${MODULE_ID} | ready 阶段补注册失败（全量模式下 source registry 已锁定？）`, e);
+    return;
+  }
+  if (changed) await reapplyAfterLateRegistration(babele);
 });
