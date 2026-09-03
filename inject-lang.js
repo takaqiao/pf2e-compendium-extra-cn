@@ -28,6 +28,7 @@ const MODULE_ID = 'pf2e-compendium-extra-cn';
 // translations as work proceeds.
 const EXTERNAL_LANG_SOURCES = [
   'pf2e-playtest-data',
+  'fist-of-the-ruby-phoenix-addons',
 ];
 
 Hooks.once('i18nInit', async () => {
