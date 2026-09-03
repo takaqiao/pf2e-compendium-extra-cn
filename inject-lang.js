@@ -29,6 +29,15 @@ const MODULE_ID = 'pf2e-compendium-extra-cn';
 const EXTERNAL_LANG_SOURCES = [
   'pf2e-playtest-data',
   'fist-of-the-ruby-phoenix-addons',
+  // abomination-vaults-expanded keeps its journal prose in its own languages/cn.json
+  // (the Babele pack's page bodies are just @Localize pointers). That file was upstreamed
+  // to the module author, so a module update overwrites any local edit - overriding it
+  // here is what keeps the Chinese ours.
+  'abomination-vaults-expanded',
+  // pf2e-abomination-vaults ships only lang/en.json, so the importer dialog and the two
+  // bridge macros render in English no matter the world language. Babele cannot reach
+  // these - they are i18n keys, not compendium documents.
+  'pf2e-abomination-vaults',
 ];
 
 Hooks.once('i18nInit', async () => {

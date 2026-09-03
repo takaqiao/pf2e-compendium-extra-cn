@@ -1,0 +1,263 @@
+{
+  "label": "足迹与地图 日志\nFootsteps and Maps Journals",
+  "folders": {},
+  "entries": {
+    "D8 Blueprint Level One": {
+      "name": "D8 第一层蓝图 D8 Blueprint Level One",
+      "pages": {
+        "D8 Blueprint Level One": {
+          "name": "D8 第一层蓝图 D8 Blueprint Level One",
+          "src": "modules/footsteps-of-otari/artwork/npc-maps/d8-av-blueprint-level01.webp"
+        }
+      }
+    },
+    "B12 Graulgust's Sketch": {
+      "name": "B12 格劳格斯特的素描 B12 Graulgust's Sketch",
+      "pages": {
+        "B12 Graulgust's Sketch": {
+          "name": "B12 格劳格斯特的素描 B12 Graulgust's Sketch",
+          "src": "modules/footsteps-of-otari/artwork/npc-maps/B12-Graulgust-library-sketch.webp"
+        }
+      }
+    },
+    "D8 Blueprint Level Two": {
+      "name": "D8 蓝图 等级 二 D8 Blueprint Level Two",
+      "pages": {
+        "D8 Blueprint Level Two": {
+          "name": "D8 蓝图 等级 二 D8 Blueprint Level Two",
+          "src": "modules/footsteps-of-otari/artwork/npc-maps/d8-av-blueprint-level02.webp"
+        }
+      }
+    },
+    "H45 Drow Map": {
+      "name": "H45 卓尔地图 H45 Drow Map",
+      "pages": {
+        "H45 Drow Map": {
+          "name": "H45 卓尔地图 H45 Drow Map",
+          "src": "modules/footsteps-of-otari/artwork/npc-maps/H45-DrowMap.webp"
+        }
+      }
+    },
+    "G10 Blueprint Level Six": {
+      "name": "G10 蓝图 等级 六 G10 Blueprint Level Six",
+      "pages": {
+        "G10 Blueprint Level Six": {
+          "name": "G10 蓝图 等级 六 G10 Blueprint Level Six",
+          "src": "modules/footsteps-of-otari/artwork/npc-maps/D10-av-blueprint-level06.webp"
+        }
+      }
+    },
+    "A10 Boss Skrawng's Map of Level One": {
+      "name": "A10 斯夸老大的第一等级地图 A10 Boss Skrawng's Map of Level One",
+      "pages": {
+        "A10 Boss Skrawng's Map of Level One": {
+          "name": "A10 斯夸老大的第一等级地图 A10 Boss Skrawng's Map of Level One",
+          "src": "modules/footsteps-of-otari/artwork/npc-maps/A10-boss-skrawng-map-lvl01.webp"
+        }
+      }
+    },
+    "D8 Blueprint Level Three": {
+      "name": "D8 蓝图 等级 三 D8 Blueprint Level Three",
+      "pages": {
+        "D8 Blueprint Level Three": {
+          "name": "D8 蓝图 等级 三 D8 Blueprint Level Three",
+          "src": "modules/footsteps-of-otari/artwork/npc-maps/d8-av-blueprint-level03.webp"
+        }
+      }
+    },
+    "G10 Blueprint Level Seven": {
+      "name": "G10 蓝图 等级七 G10 Blueprint Level Seven",
+      "pages": {
+        "G10 Blueprint Level Seven": {
+          "name": "G10 蓝图 等级七 G10 Blueprint Level Seven",
+          "src": "modules/footsteps-of-otari/artwork/npc-maps/D10-av-blueprint-level07.webp"
+        }
+      }
+    },
+    "G10 Blueprint Level Five": {
+      "name": "G10 蓝图 等级 五 G10 Blueprint Level Five",
+      "pages": {
+        "G10 Blueprint Level Five": {
+          "name": "G10 蓝图 等级 五 G10 Blueprint Level Five",
+          "src": "modules/footsteps-of-otari/artwork/npc-maps/D10-av-blueprint-level05.webp"
+        }
+      }
+    },
+    "C4 Watching Wall": {
+      "name": "C4 偷窥墙 C4 Watching Wall",
+      "pages": {
+        "C4 Watching Wall": {
+          "name": "C4 偷窥墙 C4 Watching Wall",
+          "src": "modules/footsteps-of-otari/artwork/c4-watching-wall.webp"
+        }
+      }
+    },
+    "Urevian's Blueprint - Arena": {
+      "name": "乌瑞维安的蓝图 - 竞技场 Urevian's Blueprint - Arena",
+      "pages": {
+        "Urevian's Blueprint - Arena": {
+          "name": "乌瑞维安的蓝图 - 竞技场 Urevian's Blueprint - Arena",
+          "src": "modules/footsteps-of-otari/artwork/npc-maps/D10-av-blueprint-level05.webp"
+        }
+      }
+    },
+    "H5 Caligni Maps": {
+      "name": "H5 卡林吉地图 H5 Caligni Maps",
+      "pages": {
+        "H5 Caligni Maps": {
+          "name": "H5 卡林吉地图 H5 Caligni Maps",
+          "src": "modules/footsteps-of-otari/artwork/npc-maps/H5%20-%20Caligni%20maps.webp"
+        }
+      }
+    },
+    "B17-E17 Chafkem's Drawing": {
+      "name": "B17-E17 查夫凯姆的绘图 B17-E17 Chafkem's Drawing",
+      "pages": {
+        "B17-E17 Chafkem's Drawing": {
+          "name": "B17-E17 查夫凯姆的绘图 B17-E17 Chafkem's Drawing",
+          "src": "modules/footsteps-of-otari/artwork/npc-maps/b17-chafkem-arena-level.webp"
+        }
+      }
+    },
+    "A10 Boss Skrawng's Map of LevelTwo": {
+      "name": "A10 斯夸老大的二层地图 A10 Boss Skrawng's Map of LevelTwo",
+      "pages": {
+        "A10 Boss Skrawng's Map of LevelTwo": {
+          "name": "A10 斯夸老大的二层地图 A10 Boss Skrawng's Map of LevelTwo",
+          "src": "modules/footsteps-of-otari/artwork/npc-maps/A10-boss-skrawng-map-lvl02.webp"
+        }
+      }
+    },
+    "Nhimbaloth Skull": {
+      "name": "宁布洛斯之颅 Nhimbaloth Skull",
+      "pages": {
+        "Nhimbaloth Skull": {
+          "name": "宁布洛斯之颅 Nhimbaloth Skull",
+          "src": "modules/footsteps-of-otari/artwork/nhimbaloth-the-empty-death.webp"
+        }
+      }
+    },
+    "Odd's Stories - Expanded": {
+      "name": "怪谈故事 - 扩展版 Odd's Stories - Expanded",
+      "pages": {
+        "Bookshop": {
+          "name": "书店 Bookshop",
+          "text": "<p>这家温馨的书店井然有序且干净。（大部分工作由隐形仆役完成！）书架上塞满了关于冒险、谜团与魔法的故事——另有较小的非虚构与学术类分区。房间里零散摆放着几把椅子，让顾客能舒适地浏览与阅读。</p><p><br />北侧拉着一幅红色天鹅绒帘幕，帘幕下方有一块写着“私人”的小牌子。在店铺后方靠近一张书桌的地方，有一扇上锁的门，门上标着“特别馆藏”。</p>"
+        },
+        "Sun Room": {
+          "name": "日光室 Sun Room",
+          "text": "<p>光亮术从巨大的玻璃窗流入这个房间，照亮了一张小桌子，莫里宾特在这里与Carlthe或受宠的客人享用一斑点茶。他经常被发现坐在这里阅读。</p>"
+        },
+        "Kitchen": {
+          "name": "厨房 Kitchen",
+          "text": "<p>这间布置精良的厨房里，弥漫着令人愉悦的香味，食物正处于准备或享用的各个阶段。南墙边摆着一座大型柴火烤炉，房间中央放着一张可供四人就坐的餐桌。莫里宾特是一位天赋异禀的厨师，通常会在桌子或架子上摆放一些食物。</p>"
+        },
+        "Back Room": {
+          "name": "后室 Back Room",
+          "text": "<p>房间东侧摆着一张抄写员的讲台，周围散落着莫里宾特的“伟大小说”的书页……但到目前为止，大多是对其他作家作品的拙劣模仿与零散拼凑的翻写。</p><p>西南角有两个展示柜，里面放着莫里宾特认为过于珍贵或敏感、不适合留在公共房间的书。他通常随身携带钥匙。</p>"
+        },
+        "WC": {
+          "name": "WC WC",
+          "text": "<p>一间陈设简朴、由魔法维持的盥洗室。地板上铺着藤编垫子，这样你从浴缸里出来时脚就不会那么冷。北墙上的橱柜里放着干净的毛巾、肥皂和其他洗漱用品。</p>"
+        },
+        "Pantry": {
+          "name": "储藏室 Pantry",
+          "text": "<p>这间储藏室存货充足，备有大量新鲜食物、腌渍保存的食品和各类物资。若有需要，足够这两人撑上好几个月。卡尔瑟有点像个“囤粮族”——他已确保在紧急情况或饥荒来临时，他们拥有所需的一切。</p>"
+        },
+        "Printing Press": {
+          "name": "印刷机 Printing Press",
+          "text": "<p>新鲜墨水与纸张的气味充满了这间房室，房间中央立着一台老旧的印刷机。不惜重金、煞费苦心地从艾巴萨罗姆运来。北侧墙边堆放着一箱箱的物资、工具与工程项目。</p><p></p><p>一扇简单的活板门从这一侧可以用插销闩上，通向下方的主楼层。西墙上一扇大窗让自然光照入，并可俯瞰前方街道。房间后部一扇大型推拉门为阁楼提供货物出入的许可。门旁几英尺处有一台大型绞盘用螺栓固定在地板上，角落里放着几卷绳索。</p><p></p><p>一张吊床挂在角落里。这间房既是卡尔瑟的避难所，也是他的工坊。</p>"
+        },
+        "Bedroom": {
+          "name": "卧室 Bedroom",
+          "text": "<p>一张铺着羽绒被和枕头的华丽大床占据了房间的大部分空间。西南侧的书架上书籍的摆放显得十分古怪，毫无顺序可言。你找到一本关于妖精王子奇幻故事的书，旁边则是一本文本，描述着发条机械的机械原理。</p><p>房间两侧的五斗柜里放着住客的个人物品。房间一侧有一只画架，旁边随意堆着一摞画作。它们都相当精美，多为工匠、平民与日常生活的肖像画，画作上都以一个简单的“C”署名。</p>"
+        },
+        "Sitting Room": {
+          "name": "起居室 Sitting Room",
+          "text": "<p>莫尔尔宾特和卡尔瑟很少招待客人。这间房似乎更多是为了给他们提供一个可以舒适地在休息室里放松的地方而布置的。一面墙边摆着一张舒适的沙发，另一面墙边则是一张更为硬挺的贵妃椅。靠着一面墙放着一张带镜子的梳妆台，抽屉里装着简单的梳理用品。</p><p><br />一座珍贵的古董发条落地钟在整点时发出浑厚洪亮的报时声。</p>"
+        },
+        "Wizard's Sanctum": {
+          "name": "法师圣域 Wizard's Sanctum",
+          "text": "<p>塔顶通过环绕房间的许多大窗户，提供了对奥塔里的全景视野。地板上刻着一幅与基本方位对齐的图像，一架充满魔法的星盘和一台强力望远镜摆放在此，基本上无人使用。</p><p><br />对于一位巫师来说，这间工作室的陈设相当简朴。莫里宾特花更多时间在这里创作他的“伟大小说”，而不是练习魔法或研究仪式。他的法术书放在东侧的书架上，几份珍贵的卷轴和有用的文本散落各处。还有一套炼金工具包的内容物以及一些未完成的项目。</p>"
+        },
+        "The Odd Couple": {
+          "name": "古怪二人组 The Odd Couple",
+          "text": "<h2>莫里宾特</h2><p>莫里宾特是一位友善的店主，也是个“纸上谈兵”的冒险家，对充满神秘与魔法的奇幻故事抱有满腔热情。（无视 AP 里那段关于他“永远皱着眉头”的描述吧，原作者只是碰巧赶上了他心情不好的那天。）他通常待人热情、外向。他喜欢激发人们的思想与想象力——他常说那是“魔法的真正源泉”。他在交谈中会有点结巴，但反应敏捷，还带点讽刺意味。（我在现实中用来进行角色扮演的灵感是 Bob Newhart）</p><p>比起拿自己的健康与舒适去冒险，莫里更愿意泡上一杯茶，读读冒险故事。“世上所有值得学的东西，你都能在书里读到。”他手头有一堆像同人文水准、写到一半就搁置的故事草稿；他坚信总有一天这些会成为伟大的虚构作品。</p><p>他读书极多，对任何一切奥秘与秘法的主题都充满好奇。不过在细节方面他可能会有点怕。他比大多数人更享受生活的舒适与奢华，也有点贪心。倒不是自私，只是他经常会向顾客“加购推销”，或以额外花费提供超过他们真正所需的东西。</p><h2>卡尔瑟</h2><p>卡尔瑟务实且行动力强，深度参与社区事务与地方政治。他在书店楼上的阁楼里经营着本区域唯一的印刷机，并用它主要出版非虚构作品、学校教材，以及社会主义政治小册子。正是他安排了与艾利莫拉·印科霍兹那份利润丰厚的契约，让书店有了稳定的收入来源。尽管为“资产阶级”工作令他不太舒服，但书店和印刷机都需要钱——他首先是个讲实际的人。</p><p>尽管如此，他确实会出版并分发海报与小册子，倡导工厂与林业的安全工作条件，并揭露迪奥贝尔的木材大亨与财团的种种过度行为。他在工人中很受欢迎；他们未必总能听懂他在讲什么，但会感激他站在自己这边。另一方面，镇长和许多人往往并不欣赏这些文字的内容。</p><h2>一对伴侣</h2><p>莫里宾特与卡尔瑟在艾巴萨罗姆的大学相识。二人都是文学与文字力量的信徒，但各自对其运用与意义有着不同的实践与解读。许多热烈的哲学辩论让他们越走越近，他们彼此怀有深深的尊重与爱：莫里宾特触及人们的心灵与思想，而卡尔瑟守护他们的健康与福祉。他们并未因此相互冲突，反而将之视为同一枚硬币的两面——尽管直到今天，他们在餐桌上仍会讨论得火热！<br /><br />当卡尔瑟的行动主义使他难以继续留在艾巴萨罗姆时，他们决定搬到奥塔里。回归基础，回到人民身边，在那里成为学习与教育的灯塔。《怪谈故事》就此建立……</p>"
+        }
+      }
+    },
+    "Bookshop - Expanded": {
+      "pages": {
+        "Printing Press": {
+          "name": "印刷机 Printing Press",
+          "text": "<p>屋里满是新鲜油墨与纸张的气味，房间正中立着一台老式印刷机——当年不惜重金，费尽周折才从首都运到这里。北面墙边堆着一箱箱物料、工具和半成品。</p><p></p><p>一扇简易的活板门通往楼下的主层，可以从这一侧闩上。西墙上一扇大窗引入自然光，也能望见门前的街道。后侧有一道大推拉门，供货物出入阁楼。门外几尺处，一台大绞盘用螺栓固定在地板上，角落里堆着几卷绳索。</p><p></p><p>一个角落里挂着张吊床。这个房间既是卡莱尔的避风港，也是他的工坊。</p>"
+        },
+        "Back Room": {
+          "name": "后室 Back Room",
+          "text": "<p>房间东侧摆着一张抄写员用的斜面书案，案上和四周散落着马利那部“伟大小说”的稿页……只可惜到目前为止，它多半只是拾人牙慧，把别的作家的作品东拼西凑地重述一遍。</p><p>西南角立着两只陈列柜，里面收着莫利宾特认为太过贵重或太过敏感、不宜留在公共区域的书。钥匙通常由他随身带着。</p>"
+        },
+        "Bedroom": {
+          "name": "卧室 Bedroom",
+          "text": "<p>一张铺着羽绒被与羽毛枕的奢华大床占去了这个房间的大半。西南角的书架排得古怪，毫无章法可言：一本讲述精类王子的奇想故事，紧挨着一部阐述发条机械原理的著作。</p><p> 两侧的衣柜里放着住户的私人物品。房间的一侧摆着一副画架，旁边胡乱堆着一叠画作。这些画都相当动人，多是工匠、平民与日常生活的肖像，落款只有一个简单的“C”。</p>"
+        },
+        "Bookshop": {
+          "name": "书店 Bookshop",
+          "text": "<p>这家温馨的书店整洁而井井有条。（大部分活儿都是隐形仆役干的！）书架上塞满了冒险、悬疑与魔法题材的故事，另有几个较小的分区放着非虚构与学术类书籍。屋里零星摆着几把椅子，让顾客可以舒舒服服地翻阅阅读。</p><p><br />北侧垂着一道红色天鹅绒帘幕，帘幕上方挂着一块写有“内部区域”的小牌子；店铺后方一张书桌后面，是一扇上了锁的门，门上标着“特藏”。</p>"
+        },
+        "Kitchen": {
+          "name": "厨房 Kitchen",
+          "text": "<p>这间设备齐全的厨房里弥漫着诱人的香气，各色食物或在备料，或正被享用。南墙边是一座烧柴的大烤炉，房间正中摆着一张四人餐桌。马利厨艺不俗，桌上或架子上通常都摆着些吃食。</p>"
+        },
+        "Pantry": {
+          "name": "储藏室 Pantry",
+          "text": "<p>这间储藏室备货充足，新鲜食材、腌渍食品与各类物资一应俱全，必要时足够两人吃上好几个月。卡莱尔多少有点“囤积备灾”的癖好——他要确保万一遇上急难或饥荒，家里什么都不缺。</p>"
+        },
+        "Sitting Room": {
+          "name": "起居室 Sitting Room",
+          "text": "<p>马利和卡莱尔很少待客。这个房间的布置，看起来更像是为他们自己准备的舒适休憩之所：一面墙边是柔软的沙发，另一面墙边则是较为硬挺的贵妃榻。靠墙还摆着一张带镜子的梳妆台，抽屉里放着简单的梳洗用品。</p><p><br />一座名贵的古董发条落地钟每逢整点便发出浑厚的报时声。</p>"
+        },
+        "Sun Room": {
+          "name": "日光室 Sun Room",
+          "text": "<p>光线透过一扇扇大玻璃窗洒进这个房间，照亮了一张小桌——马利常在这里与卡莱尔或贵客一同品茶。平日里也常能看见他坐在这儿读书。</p>"
+        },
+        "The Odd Couple": {
+          "name": "古怪二人组 The Odd Couple",
+          "text": "<h2>马利</h2><p>马利是个和善的店主，也是个纸上谈兵的冒险家，痴迷于各种悬疑与魔法的奇妙故事。他通常热情而外向，最喜欢激发人们的头脑与想象力——用他常挂在嘴边的话说，那才是“魔法真正的源头”。他说话时略有些结巴，却机敏过人，还带点讽刺的幽默。（我扮演他时的现实原型是鲍勃·纽哈特）</p><p>比起拿自己的身体和舒适去冒险，马利更愿意端一杯茶，读别人的冒险故事。“该学的东西，书里都能读到。”他攒了一堆零零散散、同人小说水准的半成品故事，却坚信它们终有一天会成为伟大的文学作品。</p><p>他博览群书，对一切奥术与异能相关的题材都充满好奇——只不过一旦讲到细节，他也会有点受不了。他比常人更贪图安逸与享受，还有那么一点贪财。倒不是自私，只是他常常给顾客“加价推销”，或者让人多花些钱买下其实并不需要的东西。</p><h2>卡莱尔</h2><p>卡莱尔是个务实而积极的人，深深投入社区事务与本地政治。他在书店楼上的阁楼里经营着这一带唯一的一台印刷机，主要用它印制非虚构读物、学校用的教科书，以及社会主义政治小册子。正是他谈成了与本地贵族那份利润丰厚的合同，为书店带来稳定的收入。尽管替“资产阶级”干活让他浑身不自在，可书店和印刷机都需要钱——归根结底，他是个讲实际的人。</p><p>即便如此，他仍然印制并散发海报与传单，呼吁改善磨坊与林业的劳动安全，揭露木材大亨与上流阶层的横行无忌。工人们很喜欢他——他们未必总能听懂他在讲什么，却很领情他站在自己这一边。另一方面，镇长和其他不少人，往往并不欣赏这些文字。</p><h2>一对伴侣</h2><p>马利和卡莱尔相识于首都的大学。两人都研习文学与文字的力量，却各自以不同的方式运用和诠释它。一场又一场热烈的哲学辩论让他们越走越近，彼此怀着深深的敬重与爱意。马利想要抵达人们的心灵与头脑，卡莱尔则关心他们的健康与生计。可这两者并不冲突，他们后来渐渐明白，那不过是同一枚硬币的两面——尽管直到今天，两人还是常在餐桌上争得面红耳赤！<br /><br />后来卡莱尔的政治活动让他们在首都难以立足，于是决定搬到一座小镇：回归本源，回到民众中间，在那里成为知识与教育的灯塔。书店就这样开张了……</p>"
+        },
+        "WC": {
+          "name": "盥洗室 WC",
+          "text": "<p>一间陈设简单、由魔法维持洁净的盥洗室。地面铺着一张藤编垫子，这样从浴缸里出来时脚下不至于太凉。北墙的柜子里放着干净的毛巾、香皂和其他盥洗用品。</p>"
+        },
+        "Wizard's Sanctum": {
+          "name": "法师圣域 Wizard's Sanctum",
+          "text": "<p>塔楼的这处顶层四面环绕着一扇扇大窗，可以饱览整座村庄的景致。地板上镌刻着一幅按东南西北方位对齐的图案，一具魔法星盘和一架强力望远镜摆在这里，却几乎无人动用。</p><p><br />对一位法师来说，这间工作室其实相当简陋。比起施法或研究仪式，马利在这里花更多时间写他那部“伟大小说”。他的法术书立在东侧的书架上，四下散落着几卷贵重的卷轴和有用的典籍，还有一套炼金工具的零碎家什以及几件没做完的活计。</p>"
+        }
+      },
+      "name": "书店——扩展版 Bookshop - Expanded"
+    },
+    "R3ruQHfcRHYKfD5Q": {
+      "name": "B12 格劳格斯特的素描 B12 Graulgust's Sketch",
+      "pages": {
+        "B12 Graulgust's Sketch": {
+          "name": "B12 格劳格斯特的素描 B12 Graulgust's Sketch"
+        }
+      }
+    },
+    "jmUTkwDzJTBiEeQp": {
+      "name": "A10 斯夸老大的二层地图 A10 Boss Skrawng's Map of LevelTwo",
+      "pages": {
+        "A10 Boss Skrawng's Map of LevelTwo": {
+          "name": "A10 斯夸老大的二层地图 A10 Boss Skrawng's Map of LevelTwo"
+        }
+      }
+    },
+    "qf5WkKVvnyIercVj": {
+      "name": "D8 第一层蓝图 D8 Blueprint Level One",
+      "pages": {
+        "D8 Blueprint Level One": {
+          "name": "D8 第一层蓝图 D8 Blueprint Level One"
+        }
+      }
+    }
+  }
+}

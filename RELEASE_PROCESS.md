@@ -42,40 +42,49 @@ python scripts\regen-labels-titles.py
 
 **注意**：`manifest` 字段使用 `latest/download/module.json`，无需修改。
 
-### 4. Git 提交并推送
+### 4. 提交并推 tag —— 发版由 CI 完成
+
+`.github/workflows/release.yml` 监听形如 `X.Y.Z` 的 tag（`on.push.tags: "[0-9]+.[0-9]+.[0-9]+"`）。
+推上 tag 之后 CI 会自己完成打包与发布，**不要再手工 `gh release create`**，否则会和 CI 撞车。
 
 ```powershell
 cd C:\Users\Taka\Desktop\fvttpublish\pf2e-compendium-extra
 git add -A
 git commit -m "release: vA.B.C - <简要变更说明>"
 git push
+git tag A.B.C
+git push origin A.B.C     # <- 这一步才是发版触发器
+gh run watch
 ```
 
-### 5. 打包 ZIP
+CI 依次做四件事：
 
-```powershell
-Compress-Archive -Path module.json,babele.js,compendium,homebrew,scripts,.gitignore -DestinationPath "pf2e-compendium-extra-cn-vA.B.C.zip" -Force
+1. 校验 `module.json` 的 `version` 与 tag 一致、`download` URL 指向该 tag
+2. 按**白名单**打包（见 §5）
+3. 建 release，同时上传 zip 与 `module.json`（`fail_on_unmatched_files: true`）
+4. 向 foundryvtt.com 的 package registry 发布该版本
+
+**release notes 取自被打 tag 那个 commit 的 message**（`git log -1 --format=%B`）
+＋ `.github/release-body-template.md`。所以 commit message 就是 changelog：沿用
+`release: vX.Y.Z - <摘要>` ＋ 空行 ＋ 项目符号正文。
+
+⚠️ 若 PR 走 squash-merge，GitHub 会用 PR 标题+描述替换掉 commit message。
+CI 读的是 **tag 所在 commit** 的 message —— 要么把同样正文写进 PR 描述，
+要么用 `--merge` 合并。
+
+### 5. zip 白名单（CI 内，仅供核对）
+
+```
+module.json  babele.js  inject-lang.js  compendium  homebrew  lang  scripts  .gitignore
 ```
 
-只打包 FVTT 实际需要的内容（`module.json` / `babele.js` / `compendium/` / `homebrew/` / `scripts/` / `.gitignore`）；不要 `-Path *`，否则会把 `glossary_sog.json`、备份文件、`release/` 等都塞进 zip。`scripts/inject-homebrew.js` 是运行时脚本，必须打进去；`scripts/regen-labels-titles.py` 是构建期脚本，进 zip 没害处也不浪费什么空间。
+`inject-lang.js` 与 `lang/` **必须在内**：`module.json` 的 `esmodules` 声明了
+`inject-lang.js`，漏掉它模组会因 404 起不来；`lang/external/<模组id>.json` 是用来
+覆盖第三方模组自带 i18n 的载荷。
 
-### 6. 创建 GitHub Release
-
-准备 release notes 文件 `_tmp_release_notes.md`，然后：
-
-```powershell
-gh release create A.B.C pf2e-compendium-extra-cn-vA.B.C.zip module.json --title "vA.B.C" --notes-file _tmp_release_notes.md
-```
-
-**必须同时上传两个文件**：
-- `pf2e-compendium-extra-cn-vA.B.C.zip`（FVTT 下载的模组包）
-- `module.json`（FVTT 通过 manifest URL 检查更新用）
-
-### 7. 清理临时文件
-
-```powershell
-Remove-Item _tmp_release_notes.md, pf2e-compendium-extra-cn-vA.B.C.zip
-```
+> 本文件此前的 §5–§7 写的是手工 `Compress-Archive` + `gh release create` 流程。
+> 那与 CI 并存会撞车，且那份 `-Path` 清单**漏了 `inject-lang.js` 和 `lang`**，
+> 照它打出来的包会缺一个已声明的 esmodule。已废弃。
 
 ## 常见错误
 
