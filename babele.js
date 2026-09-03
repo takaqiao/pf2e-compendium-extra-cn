@@ -169,3 +169,57 @@ Hooks.once('ready', async () => {
   }
   if (changed) await reapplyAfterLateRegistration(babele);
 });
+
+/**
+ * Guarantee that THIS module wins wherever it shares a collection with another
+ * translation source.
+ *
+ * Why this is needed at all: babele merges the files that target one collection with
+ * `CompendiumTranslation.merge()`, which is a **shallow spread of `entries`**. For an
+ * Adventure pack that is all-or-nothing - `pf2e-abomination-vaults.av` has exactly one
+ * entry key ("Abomination Vaults"), so whichever file loads last replaces the other
+ * outright. Measured against the installed 4.1.3 pack: our file binds 100% of 4,534
+ * documents, `pf2e_compendium_chn`'s binds 32% (its journals target a different AV
+ * release). Losing the race silently swaps the good one for the thin one.
+ *
+ * Ordering used to be implied by registration order, and the `ensureChnRegistered`
+ * compensation above happened to register chn first. chn 3.x registers itself
+ * unconditionally, so that no longer holds and the order is now whatever esmodule
+ * evaluation gives. Rather than assume, assert.
+ *
+ * `orderedSourcesFor` (translation-source-discovery.js) sorts UNRANKED sources first and,
+ * among ranked ones, by ascending index - so the LAST name in the priority array is the
+ * one that wins the merge.
+ *
+ * Idempotent: if we are already last, nothing is written.
+ */
+Hooks.once('ready', async () => {
+  if (!game.user?.isGM) return;
+  const babele = game.babele;
+  if (!babele || typeof babele.setSourcePriority !== 'function') return;
+
+  const me = `module:${MODULE_ID}:cn`;
+  let overlaps = [];
+  try {
+    const diagnostics = await babele.sourceDiagnostics?.();
+    overlaps = diagnostics?.translation?.overlaps ?? [];
+  } catch (e) {
+    console.warn(`${MODULE_ID} | 无法读取 babele 源诊断，跳过优先级断言`, e);
+    return;
+  }
+
+  for (const overlap of overlaps) {
+    const names = (overlap?.sources ?? []).map((s) => (typeof s === 'string' ? s : s?.name)).filter(Boolean);
+    if (!names.includes(me) || names[names.length - 1] === me) continue;
+    const ordered = [...names.filter((n) => n !== me), me];
+    try {
+      await babele.setSourcePriority(overlap.collection, ordered);
+      console.warn(
+        `${MODULE_ID} | ${overlap.collection}：本模组原本不是最后加载的翻译源，` +
+        `已改为 ${ordered.join(' < ')}（babele 浅合并，最后加载者整包胜出）`,
+      );
+    } catch (e) {
+      console.warn(`${MODULE_ID} | 设置 ${overlap.collection} 的源优先级失败`, e);
+    }
+  }
+});

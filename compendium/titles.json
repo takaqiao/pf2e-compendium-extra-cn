@@ -5,10 +5,24 @@
       "Abomination Vaults: Addons": "憎恨魔窟：附加内容 Abomination Vaults: Addons"
     }
   },
+  "abomination-vaults-addons.abomination-vaults-addons-scenes": {
+    "folders": {},
+    "titles": {
+      "Blades for Glades": "伐木之刃 Blades for Glades",
+      "Log Flume | Down Hill": "运木水槽｜下坡段 Log Flume | Down Hill",
+      "Log Flume | Loading Tower": "运木水槽｜装载塔 Log Flume | Loading Tower",
+      "Odd Stories": "奇谭书屋 Odd Stories",
+      "Otari Fishery": "奥塔里渔场 Otari Fishery",
+      "Otari Market": "奥塔里市场 Otari Market",
+      "Thirsty Alpaca (Restored) - F1": "口渴的羊驼（复原）- 一层 Thirsty Alpaca (Restored) - F1",
+      "Thirsty Alpaca (Restored) - F2": "口渴的羊驼（复原）- 二层 Thirsty Alpaca (Restored) - F2",
+      "Thirsty Alpaca Ruins": "口渴的羊驼废墟 Thirsty Alpaca Ruins"
+    }
+  },
   "abomination-vaults-expanded.abomination-vaults-expanded": {
     "folders": {},
     "titles": {
-      "Abomination Vaults: Expanded": "憎恨魔窟：扩展版 Abomination Vaults: Expanded"
+      "Abomination Vaults: Expanded": "憎恨魔窟：扩展 Abomination Vaults: Expanded"
     }
   },
   "battlezoo-ancestries-living-legends-pf2e.yol-actions": {
@@ -4294,25 +4308,49 @@
       "Book 3: King of the Mountain": "第三本：山中之王"
     }
   },
-  "footsteps-of-otari.footsteps-of-otari-Journals": {
+  "footsteps-and-maps.footsteps-and-maps-journals": {
     "folders": {},
     "titles": {
       "A10 Boss Skrawng's Map of Level One": "A10 斯夸老大的第一等级地图 A10 Boss Skrawng's Map of Level One",
       "A10 Boss Skrawng's Map of LevelTwo": "A10 斯夸老大的二层地图 A10 Boss Skrawng's Map of LevelTwo",
       "B12 Graulgust's Sketch": "B12 格劳格斯特的素描 B12 Graulgust's Sketch",
       "B17-E17 Chafkem's Drawing": "B17-E17 查夫凯姆的绘图 B17-E17 Chafkem's Drawing",
+      "Bookshop - Expanded": "书店——扩展版 Bookshop - Expanded",
       "C4 Watching Wall": "C4 偷窥墙 C4 Watching Wall",
-      "D8 Blueprint Level One": "D8 蓝图 等级 一 D8 Blueprint Level One",
-      "D8 Blueprint Level Three": "D8 蓝图 等级三 D8 Blueprint Level Three",
+      "D8 Blueprint Level One": "D8 第一层蓝图 D8 Blueprint Level One",
+      "D8 Blueprint Level Three": "D8 蓝图 等级 三 D8 Blueprint Level Three",
       "D8 Blueprint Level Two": "D8 蓝图 等级 二 D8 Blueprint Level Two",
       "G10 Blueprint Level Five": "G10 蓝图 等级 五 G10 Blueprint Level Five",
       "G10 Blueprint Level Seven": "G10 蓝图 等级七 G10 Blueprint Level Seven",
       "G10 Blueprint Level Six": "G10 蓝图 等级 六 G10 Blueprint Level Six",
       "H45 Drow Map": "H45 卓尔地图 H45 Drow Map",
-      "H5 Caligni Maps": "H5 卡琳妮地图 H5 Caligni Maps",
+      "H5 Caligni Maps": "H5 卡林吉地图 H5 Caligni Maps",
       "Nhimbaloth Skull": "宁布洛斯之颅 Nhimbaloth Skull",
       "Odd's Stories - Expanded": "怪谈故事 - 扩展版 Odd's Stories - Expanded",
-      "Urevian's Blueprint - Arena": "乌瑞维安的蓝图 - 竞技场 Urevian's Blueprint - Arena"
+      "R3ruQHfcRHYKfD5Q": "B12 格劳格斯特的素描 B12 Graulgust's Sketch",
+      "Urevian's Blueprint - Arena": "乌瑞维安的蓝图 - 竞技场 Urevian's Blueprint - Arena",
+      "jmUTkwDzJTBiEeQp": "A10 斯夸老大的二层地图 A10 Boss Skrawng's Map of LevelTwo",
+      "qf5WkKVvnyIercVj": "D8 第一层蓝图 D8 Blueprint Level One"
+    }
+  },
+  "footsteps-and-maps.footsteps-and-maps-macros": {
+    "folders": {},
+    "titles": {
+      "Open Footsteps Control": "打开脚步声控制面板 Open Footsteps Control"
+    }
+  },
+  "footsteps-and-maps.footsteps-and-maps-scenes": {
+    "folders": {},
+    "titles": {
+      "Bookshop-Exterior": "书店-外景 Bookshop-Exterior",
+      "Bookshop-Ground Floor": "书店-一层 Bookshop-Ground Floor",
+      "Bookshop-Second Floor": "书店-二层 Bookshop-Second Floor",
+      "Bookshop-Third Floor": "书店-三层 Bookshop-Third Floor",
+      "Caligni Maps": "卡利尼地图 Caligni Maps",
+      "Drow Map": "卓尔地图 Drow Map",
+      "Urevian's Blueprints": "乌瑞维安的蓝图 Urevian's Blueprints",
+      "Volluk's Blueprints": "沃鲁克的蓝图 Volluk's Blueprints",
+      "Wrin's Wonders": "瓦琳的奇珍屋 Wrin's Wonders"
     }
   },
   "kctg-2e.kctg-2e": {
@@ -17331,6 +17369,32 @@
     "folders": {},
     "titles": {
       "Tianze's Gauntlight Extras": "天泽的凄凉灯塔额外内容 Tianze's Gauntlight Extras"
+    }
+  },
+  "tianzes-otari-extras.tianzes-otari-extras": {
+    "folders": {},
+    "titles": {
+      "Tianze's Otari Extras": "天泽的奥塔里额外内容 Tianze's Otari Extras"
+    }
+  },
+  "tianzes-otari-extras.tianzes-otari-shops": {
+    "folders": {},
+    "titles": {
+      "Also Crisp and Fresh": "也是鲜脆果蔬 Also Crisp and Fresh",
+      "Brelda's Bakery": "布蕾尔达烘焙坊 Brelda's Bakery",
+      "Clodia's Clothery": "克洛迪娅裁缝铺 Clodia's Clothery",
+      "Crisp and Fresh": "鲜脆果蔬 Crisp and Fresh",
+      "Crook's Nook": "骗子之角 Crook's Nook",
+      "Crow's Casks": "鸦之酒桶 Crow's Casks",
+      "Crow's Elixirs": "乌鸦灵药 Crow's Elixirs",
+      "Dawnflower Library Store": "晨花图书馆商店 Dawnflower Library Store",
+      "Fishery Sundries": "渔场杂货 Fishery Sundries",
+      "Hunk's Hunks of Meat": "亨克的大块肉 Hunk's Hunks of Meat",
+      "Lathenar's Pots": "拉森纳陶器铺 Lathenar's Pots",
+      "Lathenar's Shop": "拉森纳商铺 Lathenar's Shop",
+      "Magical Sundries": "魔法杂货 Magical Sundries",
+      "Osprey Club Store": "鱼鹰俱乐部商店 Osprey Club Store",
+      "Rowdy Rockfish Inn and Tavern": "喧闹石斑鱼旅店与酒馆 Rowdy Rockfish Inn and Tavern"
     }
   },
   "wise-gaming-plus-pack-242.wise-plus-pack-242-Items": {

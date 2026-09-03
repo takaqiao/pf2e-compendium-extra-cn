@@ -1,0 +1,32 @@
+{
+  "label": "足迹与地图 场景\nFootsteps and Maps Scenes",
+  "entries": {
+    "Bookshop-Exterior": {
+      "name": "书店-外景 Bookshop-Exterior"
+    },
+    "Bookshop-Ground Floor": {
+      "name": "书店-一层 Bookshop-Ground Floor"
+    },
+    "Bookshop-Second Floor": {
+      "name": "书店-二层 Bookshop-Second Floor"
+    },
+    "Bookshop-Third Floor": {
+      "name": "书店-三层 Bookshop-Third Floor"
+    },
+    "Caligni Maps": {
+      "name": "卡利尼地图 Caligni Maps"
+    },
+    "Drow Map": {
+      "name": "卓尔地图 Drow Map"
+    },
+    "Urevian's Blueprints": {
+      "name": "乌瑞维安的蓝图 Urevian's Blueprints"
+    },
+    "Volluk's Blueprints": {
+      "name": "沃鲁克的蓝图 Volluk's Blueprints"
+    },
+    "Wrin's Wonders": {
+      "name": "瓦琳的奇珍屋 Wrin's Wonders"
+    }
+  }
+}
