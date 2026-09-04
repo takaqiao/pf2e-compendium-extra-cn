@@ -74,11 +74,11 @@
             },
             "Challenge 2 - Skills": {
               "name": "挑战二 - 技能 Challenge 2 - Skills",
-              "text": "<p>考验在午夜开始，那时骗子之角已经打烊，客人也都散尽。</p><p>这是一场在时间紧迫下对贼活、敏捷与隐秘的检验。本项测试应在遭遇模式下进行。</p><ul><li><p><strong>第一轮</strong> —— 开锁</p><ul><li><p>候选人必须打开某个舱口上的一把劣质锁：</p><ul><li><p>需要两次成功的@Check[type:thievery|dc:15]检定才能打开（每次 1 个动作）。会员们会记下候选人一共尝试了多少次。</p></li></ul></li></ul></li><li><p><strong>接下来两轮</strong> —— 捉迷藏</p><ul><li><p> 本轮开始时，两名会员（特技演员，见下文）会朝桥下区的两端飞奔而去，试图找出候选人在下述步骤中的藏身之处。</p></li><li><p>这两名盗贼会在第 3 轮结束时从桥下区的两端赶到。</p></li><li><p>候选人必须打开舱口（1 个动作），然后跳下舱口并借势荡出，落到下方的木板道上（1 个动作）。</p><ul><li><p>一次成功的@Check[type:dexterity|dc:20]检定</p></li><li><p>在盗贼赶到之前，至少一次成功的@Check[type:hide|dc:20]检定。</p></li></ul></li></ul></li><li><p><strong>最后一轮</strong>，候选人必须一直不被特技演员发现，直到两名特技演员都找到他，或直到宣布时限已到。</p><ul><li><p>针对每名特技演员的 DC 进行三次成功的@Check[type:stealth|dc:20]检定。他们并不协同行动。</p></li></ul></li></ul><h3>对手</h3><p>2 @UUID[Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953]{特技演员}</p><h3>考验通过标准</h3><p>可接受的最低标准如下：</p><ul><li><p>在第 1 步中，锁最多在 3 个动作之内被打开。</p></li><li><p>在第 2 步中，候选人成功落到木板道上。</p></li><li><p>在第 3 步中，候选人至少能在一名特技演员的一次搜索动作下继续保持躲藏。</p></li></ul>"
+              "text": "<p>考验在午夜开始，那时骗子之角已经打烊，客人也都散尽。</p><p>这是一场在时间紧迫下对贼活、敏捷与隐秘的检验。本项测试应在遭遇模式下进行。</p><ul><li><p><strong>第一轮</strong> —— 开锁</p><ul><li><p>候选人必须打开某个舱口上的一把劣质锁：</p><ul><li><p>需要两次成功的@Check[type:thievery|dc:15]检定才能打开（每次 1 个动作）。会员们会记下候选人一共尝试了多少次。</p></li></ul></li></ul></li><li><p><strong>接下来两轮</strong> —— 捉迷藏</p><ul><li><p> 本轮开始时，两名会员（特技演员，见下文）会朝桥下区的两端飞奔而去，试图找出候选人在下述步骤中的藏身之处。</p></li><li><p>这两名盗贼会在第 3 轮结束时从桥下区的两端赶到。</p></li><li><p>候选人必须打开舱口（1 个动作），然后跳下舱口并借势荡出，落到下方的木板道上（1 个动作）。</p><ul><li><p>一次成功的@Check[type:dexterity|dc:20]检定</p></li><li><p>在盗贼赶到之前，至少一次成功的@Check[type:hide|dc:20]检定。</p></li></ul></li></ul></li><li><p><strong>最后一轮</strong>，候选人必须一直不被特技演员发现，直到两名特技演员都找到他，或直到宣布时限已到。</p><ul><li><p>针对每名特技演员的 DC 进行三次成功的@Check[type:stealth|dc:20]检定。他们并不协同行动。</p></li></ul></li></ul><h3>对手</h3><p>2 @UUID[Compendium.pf2e.pathfinder-npc-core.Actor.5KojtpJA0T5xoum4]{特技演员}</p><h3>考验通过标准</h3><p>可接受的最低标准如下：</p><ul><li><p>在第 1 步中，锁最多在 3 个动作之内被打开。</p></li><li><p>在第 2 步中，候选人成功落到木板道上。</p></li><li><p>在第 3 步中，候选人至少能在一名特技演员的一次搜索动作下继续保持躲藏。</p></li></ul>"
             },
             "Challenge 3 - Treachery Test": {
               "name": "挑战三 - 背叛测试 Challenge 3 - Treachery Test",
-              "text": "<p>最后一项考验是盗贼式的格斗。在桥下区域中，候选人会与一名会员搭档，对抗另外两名会员，同时接受伊娜斯梅拉与其余俱乐部成员的观察。</p><p>这项演练的重点并不在于这名盗贼是否格斗出众，尽管评判战斗本领当然也是其中一环。盗贼格斗考验的重点，是评估候选人与他人组队配合得如何、面对挫败时反应如何，以及他有多大的背叛倾向。</p><p>身为行会会长，伊娜斯梅拉早已见识过形形色色的背叛，她宁可不接纳任何被她判定为奸诈之徒的人。</p><p>因此，候选人会被刻意安排去对付一个比他更强的对手，此人会尽可能地骚扰与刁难候选人，好看看他面对挫败时如何应对。</p><h3>盟友</h3><p>2 @UUID[Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953]{特技演员}</p><h3>对手</h3><p>2 @UUID[Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953]{特技演员}</p><p>1 @UUID[Compendium.pf2e.pathfinder-npc-core.Actor.sSa18Ra6zGc4Mp71]{窃贼}</p><h3>考验通过标准</h3><p>每一名观战的会员都会按 1 至 5 的简单等级为候选人的整体表现打分。8 名会员中至少有 5 人给出 3 分或更高，即视为通过。</p>"
+              "text": "<p>最后一项考验是盗贼式的格斗。在桥下区域中，候选人会与一名会员搭档，对抗另外两名会员，同时接受伊娜斯梅拉与其余俱乐部成员的观察。</p><p>这项演练的重点并不在于这名盗贼是否格斗出众，尽管评判战斗本领当然也是其中一环。盗贼格斗考验的重点，是评估候选人与他人组队配合得如何、面对挫败时反应如何，以及他有多大的背叛倾向。</p><p>身为行会会长，伊娜斯梅拉早已见识过形形色色的背叛，她宁可不接纳任何被她判定为奸诈之徒的人。</p><p>因此，候选人会被刻意安排去对付一个比他更强的对手，此人会尽可能地骚扰与刁难候选人，好看看他面对挫败时如何应对。</p><h3>盟友</h3><p>2 @UUID[Compendium.pf2e.pathfinder-npc-core.Actor.5KojtpJA0T5xoum4]{特技演员}</p><h3>对手</h3><p>2 @UUID[Compendium.pf2e.pathfinder-npc-core.Actor.5KojtpJA0T5xoum4]{特技演员}</p><p>1 @UUID[Compendium.pf2e.pathfinder-npc-core.Actor.sSa18Ra6zGc4Mp71]{窃贼}</p><h3>考验通过标准</h3><p>每一名观战的会员都会按 1 至 5 的简单等级为候选人的整体表现打分。8 名会员中至少有 5 人给出 3 分或更高，即视为通过。</p>"
             },
             "Conclusion": {
               "name": "结语 Conclusion",
@@ -4558,7 +4558,7 @@
             },
             "Bless": {
               "name": "祝福术 Bless",
-              "description": "<p>来自众界的祝福加护你同伴的攻击得以命中。你和你在弥漫中的盟友在攻击骰上获得+1状态加值。每轮一次，你可以维持该法术将弥漫的半径增加10尺。</p>\n<p>祝福术可以反制@UUID[Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx]。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.RfCEHpMoEAZvB9IZ]</p>"
+              "description": "<p>来自众界的祝福加护你同伴的攻击得以命中。你和你在弥漫中的盟友在攻击骰上获得+1状态加值。每轮一次，你可以维持该法术将弥漫的半径增加10尺。</p>\n<p>祝福术可以反制@UUID[Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx]。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Gqy7K6FnbLtwGpud]</p>"
             },
             "Sanctuary": {
               "name": "庇护术 Sanctuary",
