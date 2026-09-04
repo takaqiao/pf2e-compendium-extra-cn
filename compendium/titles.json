@@ -5331,6 +5331,13 @@
       "Abomination Vaults": "憎恨魔窟 Abomination Vaults"
     }
   },
+  "pf2e-beginner-box.adventures": {
+    "folders": {},
+    "titles": {
+      "Menace Under Otari": "奥塔里地下的威胁 Menace Under Otari",
+      "Pirate King's Plunder": "海盗王的掠夺品 Pirate King's Plunder"
+    }
+  },
   "pf2e-claws-of-the-tyrant.claws-of-the-tyrant": {
     "folders": {},
     "titles": {
@@ -17363,6 +17370,44 @@
     "folders": {},
     "titles": {
       "Murder in Metal City": "金属之城谋杀案 Murder in Metal City"
+    }
+  },
+  "shopping-experience.common-shops": {
+    "folders": {},
+    "titles": {
+      "(Level 01 Potions) Rahahksenwe": "（01级 药水）拉哈克森维 (Level 01 Potions) Rahahksenwe",
+      "(Level 02 Weapons) Dolgra Vraj": "（02级 武器）多尔格拉·弗拉杰 (Level 02 Weapons) Dolgra Vraj",
+      "(Level 03 Scrolls) Free Captain Thea Moon's \"Lost and Found\"": "（03级 卷轴）自由船长西娅·穆恩的“失物招领” (Level 03 Scrolls) Free Captain Thea Moon's \"Lost and Found\"",
+      "(Level 04 Apparell) Nayantara Haldar": "（04级 服饰）纳扬塔拉·哈尔达尔 (Level 04 Apparell) Nayantara Haldar",
+      "(Level 05 Alchemicals) Loohi": "（05级 炼金品）卢希 (Level 05 Alchemicals) Loohi",
+      "(Level 06 Armor) Abula Afari": "（06级 护甲）阿布拉·阿法里 (Level 06 Armor) Abula Afari",
+      "(Level 07 Scrolls) Tiz": "（07级 卷轴）提兹 (Level 07 Scrolls) Tiz",
+      "(Level 08 Alchemicals) Woodpecker": "（08级 炼金品）啄木鸟 (Level 08 Alchemicals) Woodpecker",
+      "(Level 09 Armor) Iardlenthenvass Gehin": "（09级 护甲）亚德伦森瓦斯·盖辛 (Level 09 Armor) Iardlenthenvass Gehin",
+      "(Level 10 Weapons) Lodem Snowdraft": "（10级 武器）洛登·雪飘 (Level 10 Weapons) Lodem Snowdraft",
+      "(Level 11 Apparell) Yakami Tahoko": "（11级 服饰）矢上·多穗子 (Level 11 Apparell) Yakami Tahoko",
+      "(Level 12 Tools) Dilduminist Zellad": "（12级 工具）迪尔杜米尼斯特·泽拉德 (Level 12 Tools) Dilduminist Zellad",
+      "(Level 13 Alchemicals) Kerialnamu": "（13级 炼金品）凯里亚尔纳姆 (Level 13 Alchemicals) Kerialnamu",
+      "(Level 14 Weapons) Orimon Coltor": "（14级 武器）奥里蒙·科尔托 (Level 14 Weapons) Orimon Coltor",
+      "(Level 15 Armor) The Evergrowth": "（15级 护甲）长青林 (Level 15 Armor) The Evergrowth",
+      "(Level 16 Scrolls) Norcero Leaffall": "（16级 卷轴）诺尔塞罗·落叶 (Level 16 Scrolls) Norcero Leaffall",
+      "(Level 17 Weapons) Kivuli": "（17级 武器）基伍利 (Level 17 Weapons) Kivuli",
+      "(Level 18 Apparell) Xerkaadaarn Palewith": "（18级服饰）泽卡达恩·帕勒维斯 (Level 18 Apparell) Xerkaadaarn Palewith",
+      "(Level 19 Scrolls) Wanda's Wizarding Wares": "（19级卷轴）旺达的法师用品店 (Level 19 Scrolls) Wanda's Wizarding Wares",
+      "(Level 20 Potions) Haamaah's Floating Empire": "（20级药水）哈玛阿的浮空帝国 (Level 20 Potions) Haamaah's Floating Empire"
+    }
+  },
+  "shopping-experience.otari-shops": {
+    "folders": {},
+    "titles": {
+      "Blades for Glades": "伐木之刃 Blades for Glades",
+      "Crooks Nook": "骗子之角 Crooks Nook",
+      "Dawnflower Library": "晨花图书馆 Dawnflower Library",
+      "Odd Stories": "奇谭书屋 Odd Stories",
+      "Otari Garrison": "奥塔里卫队 Otari Garrison",
+      "Otari Market": "奥塔里市场 Otari Market",
+      "Stone Ring Pond": "石环池塘 Stone Ring Pond",
+      "Wrin's Wonders": "瓦琳的奇珍异宝 Wrin's Wonders"
     }
   },
   "tianzes-gauntlight-extras.tianzes-gauntlight-extras": {
