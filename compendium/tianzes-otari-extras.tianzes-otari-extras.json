@@ -11,7 +11,7 @@
             },
             "Thirsty Alpaca Ruin": {
               "name": "口渴的羊驼废墟 Thirsty Alpaca Ruin",
-              "text": "<blockquote><p>你面前是一个壮观的、堆满瓦砾的深坑。镇民们已经清走了墙体与屋顶较大的残块，剩下的是建筑石料、木材、被褥与家具混作一团。</p><p>坑的北墙附近搭着一座简易棚屋。</p></blockquote><hr /><p>这个坑深 6 到 8 尺，有绳子的话爬进爬出毫无难度，没有绳子也只需 DC 10。</p><h1>诡异的灯火</h1><p>如果玩家在天完全黑透之后前来，废墟南端附近的两处光源会亮起。龙术士每晚都会点上这些灯火几个小时，好把那些好奇又胆大的人挡在自己的棚屋之外。</p><h1>吓人的声响</h1><p>无论白天黑夜，当玩家靠近棚屋时，里面的狗头人就会发出吓人的呻吟声，好把胆小的人赶走。</p><h1>死去的狗头人</h1><p>在坑的中央附近，一片血迹与带血的脚印一路通向一具狗头人战士的尸体。</p><p>用这个宏让这只狗头人显现出来：</p><p>@UUID[Macro.ZxEchksOJCeaGiLk]{切换死亡狗头人可见性}</p><p><em><strong>注意</strong>：这只狗头人是用图块而非角色来表现的，以免某个模组或系统强制让死亡指示物隐形。</em></p><p>这只狗头人身上值钱的东西已经被搜刮一空。</p><h1>简易棚屋</h1><p>棚屋后面藏着两名狗头人战士和一名狗头人斥候，正盯着玩家角色。如果玩家角色靠得太近，他们会先用远程攻击开打。其中一名战士会试图下到坑洞里去向首领报信。</p><p>1: @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.rPaHIh0ICnTLnRO6]{狗头人斥候}</p><p>2: @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.r9w1n85mp9Ip4QiS]{狗头人战士}</p>"
+              "text": "<blockquote><p>你面前是一个壮观的、堆满瓦砾的深坑。镇民们已经清走了墙体与屋顶较大的残块，剩下的是建筑石料、木材、被褥与家具混作一团。</p><p>坑的北墙附近搭着一座简易棚屋。</p></blockquote><hr /><p>这个坑深 6 到 8 尺，有绳子的话爬进爬出毫无难度，没有绳子也只需 DC 10。</p><h1>诡异的灯火</h1><p>如果玩家在天完全黑透之后前来，废墟南端附近的两处光源会亮起。龙术士每晚都会点上这些灯火几个小时，好把那些好奇又胆大的人挡在自己的棚屋之外。</p><h1>吓人的声响</h1><p>无论白天黑夜，当玩家靠近棚屋时，里面的狗头人就会发出吓人的呻吟声，好把胆小的人赶走。</p><h1>死去的狗头人</h1><p>在坑的中央附近，一片血迹与带血的脚印一路通向一具狗头人战士的尸体。</p><p>用这个宏让这只狗头人显现出来：</p><p>@UUID[Macro.ZxEchksOJCeaGiLk]{切换死亡狗头人可见性}</p><p><em><strong>注意</strong>：这只狗头人是用图块而非角色来表现的，以免某个模组或系统强制让死亡指示物隐形。</em></p><p>这只狗头人身上值钱的东西已经被搜刮一空。</p><h1>简易棚屋</h1><p>棚屋后面藏着两名狗头人战士和一名狗头人斥候，正盯着玩家角色。如果玩家角色靠得太近，他们会先用远程攻击开打。其中一名战士会试图下到坑洞里去向首领报信。</p><p>1: @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.PcHQDmPTztw32PhL]{狗头人斥候}</p><p>2: @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.BIZfjoz8DZt75EDn]{狗头人战士}</p>"
             },
             "Kobold Warren Entry": {
               "name": "狗头人巢穴入口 Kobold Warren Entry",
@@ -19,7 +19,7 @@
             },
             "Kobold Warren": {
               "name": "狗头人巢穴 Kobold Warren",
-              "text": "<blockquote><p>越过成堆的碎石，三只狗头人围坐在一张破旧的桌子旁，吃着令人作呕的食物，用他们含混不清的语言交谈。桌边燃着一堆篝火。</p></blockquote><img src=\"modules/tianzes-otari-extras/Assets/Vignettes/Kobolds-Dining.jpg\" /><p><em>（图片由 Bing Image Creator 提供）</em></p><p>这支胆大包天的狗头人入侵小队由一名红鳞狗头人龙术士率领：</p><p>1: @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.CJuHwIRCAgTB1SEl]{红鳞狗头人龙术士}</p><p>1: @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.rPaHIh0ICnTLnRO6]{狗头人斥候}</p><p>1: @UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.fhItdltCmcAZkvcI]{狗头人陷阱大师}</p><p>2:@UUID[Compendium.pf2e.pathfinder-bestiary.Actor.r9w1n85mp9Ip4QiS]{狗头人战士}</p><p>狗头人斥候在西北侧的巢穴中熟睡，其中一名狗头人战士在西南侧的巢穴中熟睡。</p><h1>遭遇要点</h1><ul><li><p>如果地面上的那名狗头人战士成功爬下梯子向首领报了信，而英雄们又紧随其后追了下来，那么就在战斗中追加一名狗头人战士，外加入口附近洞穴里的那两只狗头人，并唤醒睡觉洞穴中的狗头人。</p></li><li><p>如果玩家角色一次性招惹了所有这些狗头人，这场战斗会非常艰难。不过狗头人不会追着玩家角色爬上梯子。而且他们只会警戒一两个小时，之后就会散开去做各自的日常事务。</p></li><li><p>红鳞狗头人龙术士带着一只玛瑙犬。为了不让这场遭遇失衡，龙术士在尝试激活它时应当失手，让它掉在地上。@Check[perception|dc:15]才能看见它落地。否则，在搜刮战利品时也很容易发现这只犬。</p></li><li><p>在巢穴中熟睡的狗头人斥候与狗头人战士需要完整的一轮来醒来、起身、抓起武器并开始向战场移动。</p></li></ul><h1>狗头人战术</h1><ul><li><p>所有狗头人都拥有偷袭，能造成额外伤害。虽然他们不用隐匿来投先攻，但可以用一个动作躲藏，从而让对手对他们处于措手不及状态。</p></li><li><p>狗头人战士拥有匆忙撤退这一特长，能让他们迅速脱身，且很少给对手反应打击的机会。</p></li><li><p>狗头人陷阱大师可以用快速陷阱动作布设陷阱，用三个动作架起一处尖刺陷阱。陷阱大师只应在处于隐蔽状态或正在撤退时尝试这么做。</p></li><li><p>狗头人斥候带着一把弩，比战士更难对付。</p></li></ul><h1>财宝</h1><p>每只狗头人都把自己大部分值钱的东西带在身上。此外，他们各自还在睡垫附近或下面放着装东西的口袋。所有这些物品都汇总在火坑旁的@UUID[Actor.eNli7XDXWRou3i0C]{狗头人巢穴宝藏}指示物中。</p><h1>经验</h1><p>整场冒险大约应为每位玩家提供 100 点经验值。</p><p></p>"
+              "text": "<blockquote><p>越过成堆的碎石，三只狗头人围坐在一张破旧的桌子旁，吃着令人作呕的食物，用他们含混不清的语言交谈。桌边燃着一堆篝火。</p></blockquote><img src=\"modules/tianzes-otari-extras/Assets/Vignettes/Kobolds-Dining.jpg\" /><p><em>（图片由 Bing Image Creator 提供）</em></p><p>这支胆大包天的狗头人入侵小队由一名红鳞狗头人龙术士率领：</p><p>1: @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.CJuHwIRCAgTB1SEl]{红鳞狗头人龙术士}</p><p>1: @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.PcHQDmPTztw32PhL]{狗头人斥候}</p><p>1: @UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.fhItdltCmcAZkvcI]{狗头人陷阱大师}</p><p>2:@UUID[Compendium.pf2e.pathfinder-monster-core.Actor.BIZfjoz8DZt75EDn]{狗头人战士}</p><p>狗头人斥候在西北侧的巢穴中熟睡，其中一名狗头人战士在西南侧的巢穴中熟睡。</p><h1>遭遇要点</h1><ul><li><p>如果地面上的那名狗头人战士成功爬下梯子向首领报了信，而英雄们又紧随其后追了下来，那么就在战斗中追加一名狗头人战士，外加入口附近洞穴里的那两只狗头人，并唤醒睡觉洞穴中的狗头人。</p></li><li><p>如果玩家角色一次性招惹了所有这些狗头人，这场战斗会非常艰难。不过狗头人不会追着玩家角色爬上梯子。而且他们只会警戒一两个小时，之后就会散开去做各自的日常事务。</p></li><li><p>红鳞狗头人龙术士带着一只玛瑙犬。为了不让这场遭遇失衡，龙术士在尝试激活它时应当失手，让它掉在地上。@Check[perception|dc:15]才能看见它落地。否则，在搜刮战利品时也很容易发现这只犬。</p></li><li><p>在巢穴中熟睡的狗头人斥候与狗头人战士需要完整的一轮来醒来、起身、抓起武器并开始向战场移动。</p></li></ul><h1>狗头人战术</h1><ul><li><p>所有狗头人都拥有偷袭，能造成额外伤害。虽然他们不用隐匿来投先攻，但可以用一个动作躲藏，从而让对手对他们处于措手不及状态。</p></li><li><p>狗头人战士拥有匆忙撤退这一特长，能让他们迅速脱身，且很少给对手反应打击的机会。</p></li><li><p>狗头人陷阱大师可以用快速陷阱动作布设陷阱，用三个动作架起一处尖刺陷阱。陷阱大师只应在处于隐蔽状态或正在撤退时尝试这么做。</p></li><li><p>狗头人斥候带着一把弩，比战士更难对付。</p></li></ul><h1>财宝</h1><p>每只狗头人都把自己大部分值钱的东西带在身上。此外，他们各自还在睡垫附近或下面放着装东西的口袋。所有这些物品都汇总在火坑旁的@UUID[Actor.eNli7XDXWRou3i0C]{狗头人巢穴宝藏}指示物中。</p><h1>经验</h1><p>整场冒险大约应为每位玩家提供 100 点经验值。</p><p></p>"
             },
             "Into the Ruins": {
               "name": "深入废墟 Into the Ruins",
@@ -35,7 +35,7 @@
             },
             "Blocked Passages": {
               "name": "堵塞的通道 Blocked Passages",
-              "text": "<p>南面是两处被部分挖开的区域，正是“口渴的羊驼”真正塌陷下去的地方。每条通道里都有一只狗头人在清理瓦砾。他们专注于手上的活计，直到玩家角色走到 15 尺以内才有机会察觉。</p><p>2 @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.r9w1n85mp9Ip4QiS]{狗头人战士}</p>"
+              "text": "<p>南面是两处被部分挖开的区域，正是“口渴的羊驼”真正塌陷下去的地方。每条通道里都有一只狗头人在清理瓦砾。他们专注于手上的活计，直到玩家角色走到 15 尺以内才有机会察觉。</p><p>2 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.BIZfjoz8DZt75EDn]{狗头人战士}</p>"
             },
             "Glimpse of Passage Beyond": {
               "name": "窥见深处的通道 Glimpse of Passage Beyond",
@@ -78,7 +78,7 @@
             },
             "Challenge 3 - Treachery Test": {
               "name": "挑战三 - 背叛测试 Challenge 3 - Treachery Test",
-              "text": "<p>最后一项考验是盗贼式的格斗。在桥下区域中，候选人会与一名会员搭档，对抗另外两名会员，同时接受伊娜斯梅拉与其余俱乐部成员的观察。</p><p>这项演练的重点并不在于这名盗贼是否格斗出众，尽管评判战斗本领当然也是其中一环。盗贼格斗考验的重点，是评估候选人与他人组队配合得如何、面对挫败时反应如何，以及他有多大的背叛倾向。</p><p>身为行会会长，伊娜斯梅拉早已见识过形形色色的背叛，她宁可不接纳任何被她判定为奸诈之徒的人。</p><p>因此，候选人会被刻意安排去对付一个比他更强的对手，此人会尽可能地骚扰与刁难候选人，好看看他面对挫败时如何应对。</p><h3>盟友</h3><p>2 @UUID[Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953]{特技演员}</p><h3>对手</h3><p>2 @UUID[Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953]{特技演员}</p><p>1 @UUID[Compendium.pf2e.npc-gallery.Actor.B09JfuBZHjcRXztU]{窃贼}</p><h3>考验通过标准</h3><p>每一名观战的会员都会按 1 至 5 的简单等级为候选人的整体表现打分。8 名会员中至少有 5 人给出 3 分或更高，即视为通过。</p>"
+              "text": "<p>最后一项考验是盗贼式的格斗。在桥下区域中，候选人会与一名会员搭档，对抗另外两名会员，同时接受伊娜斯梅拉与其余俱乐部成员的观察。</p><p>这项演练的重点并不在于这名盗贼是否格斗出众，尽管评判战斗本领当然也是其中一环。盗贼格斗考验的重点，是评估候选人与他人组队配合得如何、面对挫败时反应如何，以及他有多大的背叛倾向。</p><p>身为行会会长，伊娜斯梅拉早已见识过形形色色的背叛，她宁可不接纳任何被她判定为奸诈之徒的人。</p><p>因此，候选人会被刻意安排去对付一个比他更强的对手，此人会尽可能地骚扰与刁难候选人，好看看他面对挫败时如何应对。</p><h3>盟友</h3><p>2 @UUID[Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953]{特技演员}</p><h3>对手</h3><p>2 @UUID[Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953]{特技演员}</p><p>1 @UUID[Compendium.pf2e.pathfinder-npc-core.Actor.sSa18Ra6zGc4Mp71]{窃贼}</p><h3>考验通过标准</h3><p>每一名观战的会员都会按 1 至 5 的简单等级为候选人的整体表现打分。8 名会员中至少有 5 人给出 3 分或更高，即视为通过。</p>"
             },
             "Conclusion": {
               "name": "结语 Conclusion",
@@ -193,7 +193,7 @@
           "pages": {
             "Encounter - Rival Gang": {
               "name": "遭遇 - 敌对帮派 Encounter - Rival Gang",
-              "text": "<p>这场遭遇应当安排在上午晚些时候，届时所有摊贩都已摆好当天的摊子，午市的高峰正要开始。</p><p>当至少一位英雄走近基莱诺的摊位时，开始这场遭遇。</p><p>一伙盗贼身穿刻意伪装的衣物、带着特意准备的物件，好让所有人误以为他们出自鱼鹰俱乐部；他们从基莱诺摊位以东的草地上向市集发起袭击。</p><p>袭击开始后，基莱诺会朝最近的英雄咆哮道：</p><blockquote><p>我听说你和你的朋友们在镇上帮了不少人的忙。帮我把这些混账赶出去，我重重有赏。</p></blockquote><h2>背景</h2><p>鱼鹰俱乐部就是本地的盗贼公会。它由音雅丝米拉在骗子之角经营，她小心地约束成员，绝不让他们对镇上的商户下手。这让她与镇长维持着互不相犯的关系。</p><p>这伙盗贼来自东南方的一个匪帮。他们决定袭击这座镇子，为的是让音雅丝米拉颜面扫地，并挑拨鱼鹰俱乐部与奥塔里民众和商人之间的关系。</p><p>这是一次笨拙的袭击，但对摊贩和顾客依然构成威胁。</p><h2>匪帮</h2><p>2 名 @UUID[Compendium.pf2e.npc-gallery.Actor.KPUDfkVpemug2gKj]{劫匪}——他用短柄斧或投石索攻击，并能以一个自由动作挫败对手士气。被他挫败士气的对手对他而言处于措手不及状态。</p><p>4 名 @UUID[Compendium.pf2e.pfs-season-1-bestiary.Actor.ZMGXiRuVZ8r7hQVe]{强盗斥候}——他们用短弓或炽火胶保持距离作战。其中三人已被削弱；可按需调整。</p><h2>战术</h2><p>这伙匪徒会迅速行动，挫败摊贩和顾客的士气，能抢多少抢多少，尽量制造混乱。随后他们会撤向停在码头等候的一艘船。他们会设法尽早干掉基莱诺，因为他们认定他是最大的威胁。</p><p>他们的计划包括尽可能避开卫兵，尤其是避免进入卫兵借机攻击的范围。他们会仔细观察，专挑卫兵注意力被引开时下手。</p><p>他们万万没料到市集上会有一支能打的冒险者队伍。</p><p>如果你有兴致再画一张地图，这场遭遇很容易演变成一场惊心动魄的追逐：沿着大路一直追到渔场和码头，甚至追上那艘船。</p><h2>盟友</h2><p>现场有三名卫兵可以协助，但他们多半忙于保护旁观的平民：</p><p>3 名 @UUID[Compendium.pf2e.npc-gallery.Actor.rsATu823vatRe7QJ]{卫兵}——卫兵与卫兵弓手共用同一份角色卡。他们同样拥有借机攻击。他们带着弩和钝击武器，其中包括闷棍。</p><p>摊贩全是非战斗人员，可能的例外是以下几位：</p><p><strong>基莱诺</strong>，2 级@UUID[Compendium.pf2e.npc-gallery.Actor.cAOWcPIjtZYXYZ3i]{商人}</p><p><strong>齐克</strong>，1 级@UUID[Compendium.pf2e.npc-gallery.Actor.8WFGygPv7UHh7zdJ]{药剂师}</p><p><strong>贝瑟拉</strong>，1 级@UUID[Compendium.pf2e.npc-gallery.Actor.sKSfQmJMEsj8QN12]{初仪门徒}</p><p>如果你决定把他们也加入战斗，请从模组包中调出这些非玩家角色卡，并相应调整其等级。为增添色彩，你不妨让他们从自家摊桌上抄起东西助战。</p><p>若真把他们加进战斗，别忘了同时增加敌方战斗员，否则这场遭遇会迅速变得毫无难度。</p><h2>经验</h2><p>这场遭遇价值 40 点经验值。</p><h2>宝藏</h2><p>基莱诺说话算话，他给每位英雄付 5 枚金币。</p><p>除了敌方标记身上的战利品之外，他们还带着几件值钱物件，由卫兵队长交给英雄们：</p><p>@UUID[Actor.g80tntJEkpVGYXFC]{劫匪战利品}</p><p>最后，当音雅丝米拉听说这场针对她的阴谋，只要匪徒被杀死或被擒获，她也会给每人 5 枚金币。</p><p>这还可能引出另一项任务：音雅丝米拉或镇长派英雄们沿海岸南下，去调查那伙匪帮。</p>"
+              "text": "<p>这场遭遇应当安排在上午晚些时候，届时所有摊贩都已摆好当天的摊子，午市的高峰正要开始。</p><p>当至少一位英雄走近基莱诺的摊位时，开始这场遭遇。</p><p>一伙盗贼身穿刻意伪装的衣物、带着特意准备的物件，好让所有人误以为他们出自鱼鹰俱乐部；他们从基莱诺摊位以东的草地上向市集发起袭击。</p><p>袭击开始后，基莱诺会朝最近的英雄咆哮道：</p><blockquote><p>我听说你和你的朋友们在镇上帮了不少人的忙。帮我把这些混账赶出去，我重重有赏。</p></blockquote><h2>背景</h2><p>鱼鹰俱乐部就是本地的盗贼公会。它由音雅丝米拉在骗子之角经营，她小心地约束成员，绝不让他们对镇上的商户下手。这让她与镇长维持着互不相犯的关系。</p><p>这伙盗贼来自东南方的一个匪帮。他们决定袭击这座镇子，为的是让音雅丝米拉颜面扫地，并挑拨鱼鹰俱乐部与奥塔里民众和商人之间的关系。</p><p>这是一次笨拙的袭击，但对摊贩和顾客依然构成威胁。</p><h2>匪帮</h2><p>2 名 @UUID[Compendium.pf2e.pathfinder-npc-core.Actor.FBq4bqtKUBpJUCMU]{劫匪}——他用短柄斧或投石索攻击，并能以一个自由动作挫败对手士气。被他挫败士气的对手对他而言处于措手不及状态。</p><p>4 名 @UUID[Compendium.pf2e.pfs-season-1-bestiary.Actor.ZMGXiRuVZ8r7hQVe]{强盗斥候}——他们用短弓或炽火胶保持距离作战。其中三人已被削弱；可按需调整。</p><h2>战术</h2><p>这伙匪徒会迅速行动，挫败摊贩和顾客的士气，能抢多少抢多少，尽量制造混乱。随后他们会撤向停在码头等候的一艘船。他们会设法尽早干掉基莱诺，因为他们认定他是最大的威胁。</p><p>他们的计划包括尽可能避开卫兵，尤其是避免进入卫兵借机攻击的范围。他们会仔细观察，专挑卫兵注意力被引开时下手。</p><p>他们万万没料到市集上会有一支能打的冒险者队伍。</p><p>如果你有兴致再画一张地图，这场遭遇很容易演变成一场惊心动魄的追逐：沿着大路一直追到渔场和码头，甚至追上那艘船。</p><h2>盟友</h2><p>现场有三名卫兵可以协助，但他们多半忙于保护旁观的平民：</p><p>3 名 @UUID[Compendium.pf2e.pathfinder-npc-core.Actor.Aktz95gNNzfAiTzk]{卫兵}——卫兵与卫兵弓手共用同一份角色卡。他们同样拥有借机攻击。他们带着弩和钝击武器，其中包括闷棍。</p><p>摊贩全是非战斗人员，可能的例外是以下几位：</p><p><strong>基莱诺</strong>，2 级@UUID[Compendium.pf2e.pathfinder-npc-core.Actor.qCKNT6U8O0su578A]{商人}</p><p><strong>齐克</strong>，1 级@UUID[Compendium.pf2e.pathfinder-npc-core.Actor.h4gPulyY9uzkAbyo]{药剂师}</p><p><strong>贝瑟拉</strong>，1 级@UUID[Compendium.pf2e.pathfinder-npc-core.Actor.PBb2WprHhEIQE9jN]{初仪门徒}</p><p>如果你决定把他们也加入战斗，请从模组包中调出这些非玩家角色卡，并相应调整其等级。为增添色彩，你不妨让他们从自家摊桌上抄起东西助战。</p><p>若真把他们加进战斗，别忘了同时增加敌方战斗员，否则这场遭遇会迅速变得毫无难度。</p><h2>经验</h2><p>这场遭遇价值 40 点经验值。</p><h2>宝藏</h2><p>基莱诺说话算话，他给每位英雄付 5 枚金币。</p><p>除了敌方标记身上的战利品之外，他们还带着几件值钱物件，由卫兵队长交给英雄们：</p><p>@UUID[Actor.g80tntJEkpVGYXFC]{劫匪战利品}</p><p>最后，当音雅丝米拉听说这场针对她的阴谋，只要匪徒被杀死或被擒获，她也会给每人 5 枚金币。</p><p>这还可能引出另一项任务：音雅丝米拉或镇长派英雄们沿海岸南下，去调查那伙匪帮。</p>"
             }
           }
         },
@@ -202,7 +202,7 @@
           "pages": {
             "An Accusation": {
               "name": "一句指控 An Accusation",
-              "text": "<p><em>注：这场遭遇假定英雄们已经在当地攒下了一点「善解疑难」的名声。</em></p><h2>布置</h2><p>往酒馆里安排几位别的镇民，让他们散坐在店内各处。把齐克激活在烤炉旁边。</p><h2>遭遇开场</h2><p>一天傍晚，队伍正在乌鸦之酒桶里放松，某张牌桌旁忽然爆出一句挑衅：「你出千！」</p><p>西墙边那张桌子上的两名牌客霍地起身，拳头开始飞舞。附近吧台边的另外两人也冲过来加入。其余客人纷纷跳起来围观。</p><p>玛吉洛急匆匆跑到英雄们跟前。</p><blockquote><p>要是你们能在不闹出人命的前提下把这场斗殴摆平，我给你们每人 5 枚金币。哦，要是什么都没砸坏，另有酬谢！</p></blockquote><h2>斗殴者</h2><p>@UUID[Compendium.pf2e.pfs-season-1-bestiary.Actor.XiGTud90i1WkJYz2]{被冒犯的赌徒}——他相当确信自己被出千坑了，不会轻易罢休。</p><p>@UUID[Compendium.pf2e.npc-gallery.Actor.DFurZlcpcNrUmmER]{地痞}——出千的正是这名地痞，他也是这几人中最能打的。打起来之后，他怕被关进牢里而不肯收手，但也不会拼到你死我活。</p><p>@UUID[Compendium.pf2e.fall-of-plaguestone-bestiary.Actor.BgBTntoz1qQ3h1X5]{醉酒农夫}——这位农夫只是趁乱发泄一下，很容易被制伏。他站在地痞那一边。</p><p>@UUID[Compendium.pf2e.extinction-curse-bestiary.Actor.s6Yfy1AgPp4ky7QI]{醉鬼搏击手}——这家伙逮着什么由头都要打一架，肚子里更是灌满了壮胆的酒。他站在赌徒那一边。</p><h2>斗殴</h2><p>打斗开始后，店里的客人会在四名斗殴者周围让出一片空地。场面应当乱成一团，但没有哪一个是真要见血的。</p><p>玛吉洛会时不时大喊：现在收手，她就不去叫治安官。她会给他们三次收手的机会，每轮一次。</p><h2>非暴力解决的办法</h2><p>以下是英雄们可以用来平息事态、不必动过多武力的一些做法：</p><ul><li><p>用@Check[diplomacy|dc:15]讲道理让他们清醒过来</p></li><li><p>缴械斗殴者：@Check[disarm|dc:15]</p></li><li><p>分开斗殴者：@Check[athletics|dc:15]</p></li><li><p>用欺骗制造分神来吸引注意：@Check[deception|dc:15]</p></li><li><p>挫败士气：@Check[intimidation|dc:15]</p></li></ul><p>可行的办法数不胜数。</p><h2>后续</h2><p>斗殴者被制伏后，玛吉洛会向他们每人索取一笔代价，作为不去叫治安官的交换。</p><p>他们还都得帮忙收拾残局，由英雄们在旁看着。</p><ul><li><p>她向赌徒索要那副象牙骰子。如果他有异议，她会说他本该来找她，而不是动手打架。</p></li><li><p>她要地痞交出那笔来路不正的赢款——12 枚金币。</p></li><li><p>她向农夫要两袋谷物。</p></li><li><p>她要搏击手做一周的工。</p></li></ul><h2>经验</h2><p>按 2 级队伍计算：</p><p>制伏这几个闹事者获得 40 点经验值</p><p>若无任何非玩家角色被杀，额外获得 20 点经验值。</p><h2>宝藏</h2><p>玛吉洛会如约付出许诺的金币，还会把那 12 枚金币在被冒犯的赌徒和英雄们之间分掉。她会把象牙骰子送给英雄们，并额外附上五瓶药水。</p><p>数额按 4 名玩家计算。</p><p>@UUID[Actor.iZm7lK2pnQm9pn2h]{闹事酒客战利品}</p><p></p><p></p>"
+              "text": "<p><em>注：这场遭遇假定英雄们已经在当地攒下了一点「善解疑难」的名声。</em></p><h2>布置</h2><p>往酒馆里安排几位别的镇民，让他们散坐在店内各处。把齐克激活在烤炉旁边。</p><h2>遭遇开场</h2><p>一天傍晚，队伍正在乌鸦之酒桶里放松，某张牌桌旁忽然爆出一句挑衅：「你出千！」</p><p>西墙边那张桌子上的两名牌客霍地起身，拳头开始飞舞。附近吧台边的另外两人也冲过来加入。其余客人纷纷跳起来围观。</p><p>玛吉洛急匆匆跑到英雄们跟前。</p><blockquote><p>要是你们能在不闹出人命的前提下把这场斗殴摆平，我给你们每人 5 枚金币。哦，要是什么都没砸坏，另有酬谢！</p></blockquote><h2>斗殴者</h2><p>@UUID[Compendium.pf2e.pfs-season-1-bestiary.Actor.XiGTud90i1WkJYz2]{被冒犯的赌徒}——他相当确信自己被出千坑了，不会轻易罢休。</p><p>@UUID[Compendium.pf2e.classfeatures.Actor.3KPZ7svIO6kmmEKH]{地痞}——出千的正是这名地痞，他也是这几人中最能打的。打起来之后，他怕被关进牢里而不肯收手，但也不会拼到你死我活。</p><p>@UUID[Compendium.pf2e.fall-of-plaguestone-bestiary.Actor.BgBTntoz1qQ3h1X5]{醉酒农夫}——这位农夫只是趁乱发泄一下，很容易被制伏。他站在地痞那一边。</p><p>@UUID[Compendium.pf2e.extinction-curse-bestiary.Actor.s6Yfy1AgPp4ky7QI]{醉鬼搏击手}——这家伙逮着什么由头都要打一架，肚子里更是灌满了壮胆的酒。他站在赌徒那一边。</p><h2>斗殴</h2><p>打斗开始后，店里的客人会在四名斗殴者周围让出一片空地。场面应当乱成一团，但没有哪一个是真要见血的。</p><p>玛吉洛会时不时大喊：现在收手，她就不去叫治安官。她会给他们三次收手的机会，每轮一次。</p><h2>非暴力解决的办法</h2><p>以下是英雄们可以用来平息事态、不必动过多武力的一些做法：</p><ul><li><p>用@Check[diplomacy|dc:15]讲道理让他们清醒过来</p></li><li><p>缴械斗殴者：@Check[disarm|dc:15]</p></li><li><p>分开斗殴者：@Check[athletics|dc:15]</p></li><li><p>用欺骗制造分神来吸引注意：@Check[deception|dc:15]</p></li><li><p>挫败士气：@Check[intimidation|dc:15]</p></li></ul><p>可行的办法数不胜数。</p><h2>后续</h2><p>斗殴者被制伏后，玛吉洛会向他们每人索取一笔代价，作为不去叫治安官的交换。</p><p>他们还都得帮忙收拾残局，由英雄们在旁看着。</p><ul><li><p>她向赌徒索要那副象牙骰子。如果他有异议，她会说他本该来找她，而不是动手打架。</p></li><li><p>她要地痞交出那笔来路不正的赢款——12 枚金币。</p></li><li><p>她向农夫要两袋谷物。</p></li><li><p>她要搏击手做一周的工。</p></li></ul><h2>经验</h2><p>按 2 级队伍计算：</p><p>制伏这几个闹事者获得 40 点经验值</p><p>若无任何非玩家角色被杀，额外获得 20 点经验值。</p><h2>宝藏</h2><p>玛吉洛会如约付出许诺的金币，还会把那 12 枚金币在被冒犯的赌徒和英雄们之间分掉。她会把象牙骰子送给英雄们，并额外附上五瓶药水。</p><p>数额按 4 名玩家计算。</p><p>@UUID[Actor.iZm7lK2pnQm9pn2h]{闹事酒客战利品}</p><p></p><p></p>"
             }
           }
         },
@@ -2918,7 +2918,7 @@
           "items": {
             "Antidote (Lesser)": {
               "name": "次等解毒剂 Antidote (Lesser)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>解毒剂能帮助你对抗毒物。在饮用解毒剂后，你在对抗毒素的强韧豁免上获得持续6小时的+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.7z1iY4AaNEAIKuAU]</p>"
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>解毒剂能帮助你对抗毒物。在饮用解毒剂后，你在对抗毒素的强韧豁免上获得持续6小时的+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]</p>"
             },
             "Alchemist's Fire (Lesser)": {
               "name": "炽火胶 Alchemist's Fire (Lesser)",
@@ -2938,11 +2938,11 @@
             },
             "Antiplague (Lesser)": {
               "name": "抗生素 Antiplague (Lesser)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>抗生素能够强化身体针对疾病的免疫力。在饮用抗生素后，你在对抗疾病的强韧豁免检定上获得持续24小时的+2物品加值；这个加值可以适用于你对抗疾病发展的每日豁免。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.kkDbalYEavzRpYlp]</p>"
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>抗生素能够强化身体针对疾病的免疫力。在饮用抗生素后，你在对抗疾病的强韧豁免检定上获得持续24小时的+2物品加值；这个加值可以适用于你对抗疾病发展的每日豁免。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.mVgLCbZgafIylRzh]</p>"
             },
             "Eagle Eye Elixir (Lesser)": {
               "name": "次等鹰眼灵药 Eagle Eye Elixir (Lesser)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>在你饮用这瓶灵药后，你能够注意到最细微的视觉细节。在接下来一个小时内，你在察觉检定上获得+1物品加值，如果这个检定是用于寻找密门和陷阱则为+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.VCypzSu659eC6jNi]</p>"
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>在你饮用这瓶灵药后，你能够注意到最细微的视觉细节。在接下来一个小时内，你在察觉检定上获得+1物品加值，如果这个检定是用于寻找密门和陷阱则为+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.VOSQ77DV4BnAkP7m]</p>"
             },
             "Potion of Water Breathing": {
               "name": "水下呼吸药水 Potion of Water Breathing",
@@ -3107,7 +3107,7 @@
             },
             "Antidote (Lesser)": {
               "name": "次等解毒剂 Antidote (Lesser)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>解毒剂能帮助你对抗毒物。在饮用解毒剂后，你在对抗毒素的强韧豁免上获得持续6小时的+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.7z1iY4AaNEAIKuAU]</p>"
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>解毒剂能帮助你对抗毒物。在饮用解毒剂后，你在对抗毒素的强韧豁免上获得持续6小时的+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]</p>"
             },
             "Bag of Holding (Type I)": {
               "name": "I型次元袋 Bag of Holding (Type I)",
@@ -3325,7 +3325,7 @@
             },
             "Numbing Tonic (Minor)": {
               "name": "下等顽钝补剂 Numbing Tonic (Minor)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>顽钝补剂能让人轻易地克服战斗带来的痛苦，蔑视他人软弱无力的攻击。当你喝下灵药时，你在接下来一分钟内的每个回合开始时获得2点临时生命值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.BTWuGksjSU1SYUcf]</p>"
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>顽钝补剂能让人轻易地克服战斗带来的痛苦，蔑视他人软弱无力的攻击。当你喝下灵药时，你在接下来一分钟内的每个回合开始时获得2点临时生命值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.rmVyC6Xb8O9WPvZz]</p>"
             },
             "Bloodeye Coffee": {
               "name": "血眼咖啡 Bloodeye Coffee",
@@ -3450,7 +3450,7 @@
             },
             "Antidote (Lesser)": {
               "name": "次等解毒剂 Antidote (Lesser)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>解毒剂能帮助你对抗毒物。在饮用解毒剂后，你在对抗毒素的强韧豁免上获得持续6小时的+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.7z1iY4AaNEAIKuAU]</p>"
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>解毒剂能帮助你对抗毒物。在饮用解毒剂后，你在对抗毒素的强韧豁免上获得持续6小时的+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]</p>"
             },
             "Elixir of Life (Minor)": {
               "name": "下等生命灵药 Elixir of Life (Minor)",

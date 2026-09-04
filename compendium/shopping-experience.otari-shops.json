@@ -777,7 +777,7 @@
         },
         "Mentalist's Staff": {
           "name": "心灵师法杖 Mentalist's Staff",
-          "description": "<p>这根抛光的杖上带着旋涡状的图案，让人想起大脑的褶皱。持握该法杖时，你在辨识心灵法术的检定上获得+2环境加值。</p>\n<p><strong>启动</strong> 施法</p>\n<p><strong>效果</strong> 你从法杖中花费一定数量的充能次数以从其列表中施展一个法术。</p>\n<hr />\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]{晕眩术}</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{讯息传递} ，@UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{幻痛术}</li>\n</ul>\n<hr />\n<p><strong>制作需求</strong> 为列表上所有法术提供一次对应环级的施法。</p>"
+          "description": "<p>这根抛光的杖上带着旋涡状的图案，让人想起大脑的褶皱。持握该法杖时，你在辨识心灵法术的检定上获得+2环境加值。</p>\n<p><strong>启动</strong> 施法</p>\n<p><strong>效果</strong> 你从法杖中花费一定数量的充能次数以从其列表中施展一个法术。</p>\n<hr />\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]{晕眩晕术}</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{讯息传递} ，@UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{幻痛术}</li>\n</ul>\n<hr />\n<p><strong>制作需求</strong> 为列表上所有法术提供一次对应环级的施法。</p>"
         },
         "Formula Book (Blank)": {
           "name": "配方簿 Formula Book (Blank)",
