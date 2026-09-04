@@ -234,7 +234,7 @@
             },
             "Numbing Tonic (Moderate)": {
               "name": "麻木药剂（中等） Numbing Tonic (Moderate)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>麻木补剂让你更容易挺过战斗的痛楚，并无视本会使你衰弱的打击。当你饮用该灵药时，你获得10点临时生命值；此外，在接下来的1分钟内，你在自己每个回合开始时再次获得10点临时生命值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.EqXWI80FBz59VC6v]{效果：麻木补剂（中等）}</p>"
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>麻木补剂让你更容易挺过战斗的痛楚，并无视本会使你衰弱的打击。当你饮用该灵药时，你获得10点临时生命值；此外，在接下来的1分钟内，你在自己每个回合开始时再次获得10点临时生命值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.rmVyC6Xb8O9WPvZz]{效果：麻木补剂（中等）}</p>"
             },
             "Spider Root": {
               "name": "蛛根 Spider Root",
@@ -270,7 +270,7 @@
             },
             "Eagle Eye Elixir (Greater)": {
               "name": "鹰眼药剂（强效） Eagle Eye Elixir (Greater)",
-              "description": "<p><strong>激活</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>你喝下此炼金药剂后，会注意到细微的视觉细节。在接下来的1小时内，你在察觉检定上获得+3物品加值；当尝试寻找隐藏门与陷阱时，该加值为+4。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.kgotU0sFmtAHYySB]{效果：鹰眼炼金药剂（强效）}</p>"
+              "description": "<p><strong>激活</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>你喝下此炼金药剂后，会注意到细微的视觉细节。在接下来的1小时内，你在察觉检定上获得+3物品加值；当尝试寻找隐藏门与陷阱时，该加值为+4。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.VOSQ77DV4BnAkP7m]{效果：鹰眼炼金药剂（强效）}</p>"
             },
             "Life Shot (Moderate)": {
               "name": "生命射击（中等） Life Shot (Moderate)",
@@ -294,7 +294,7 @@
             },
             "Soothing Tonic (Greater)": {
               "name": "舒缓补剂（强效） Soothing Tonic (Greater)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>舒缓补剂是一种令人愉悦的咸香调配饮品，能加速你的自然治疗，使你的伤口随着时间更快恢复。你获得快速治疗5，持续1分钟。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Vj2vytSr9jEtesYu]{效果：舒缓补剂（强效）}</p>"
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>舒缓补剂是一种令人愉悦的咸香调配饮品，能加速你的自然治疗，使你的伤口随着时间更快恢复。你获得快速治疗5，持续1分钟。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.p5KpVsJVzhoJ4OrS]{效果：舒缓补剂（强效）}</p>"
             },
             "Tyrant Ampoule": {
               "name": "暴君安瓿 Tyrant Ampoule",
@@ -358,7 +358,7 @@
             },
             "Chromatic Jellyfish Oil (Moderate)": {
               "name": "幻色水母油（中等） Chromatic Jellyfish Oil (Moderate)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>由从水母与稀有植物中萃取的数种不同色泽的油制成，虹彩水母油的各层在瓶中堆叠，形成一道彩虹。饮用虹彩水母油后的10分钟内，你获得10点对精准伤害以及来自大成功或大失败的额外伤害的抗力。该效果持续期间，你无视因穿过狭窄空间移动而导致的困难地形（这些空间尚不足以迫使你进行@UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{挤入}），且你在成功挤入空间时每轮可移动5尺（若为大成功或大失败则为每轮10尺）。你也可以以你速度的一半进行@UUID[Compendium.pf2e.actionspf2e.Item.Tj055UcNm6UEgtCg]{匍匐}。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.vdNgW5I9AnI1x4Nq]{效果：虹彩水母油（中等）}</p>"
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>由从水母与稀有植物中萃取的数种不同色泽的油制成，虹彩水母油的各层在瓶中堆叠，形成一道彩虹。饮用虹彩水母油后的10分钟内，你获得10点对精准伤害以及来自大成功或大失败的额外伤害的抗力。该效果持续期间，你无视因穿过狭窄空间移动而导致的困难地形（这些空间尚不足以迫使你进行@UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{挤入}），且你在成功挤入空间时每轮可移动5尺（若为大成功或大失败则为每轮10尺）。你也可以以你速度的一半进行@UUID[Compendium.pf2e.actionspf2e.Item.Tj055UcNm6UEgtCg]{匍匐}。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.YUj20zJ4bNAoc0nJ]{效果：虹彩水母油（中等）}</p>"
             },
             "Cognitive Mutagen (Greater)": {
               "name": "认知诱变剂（强效） Cognitive Mutagen (Greater)",
@@ -394,7 +394,7 @@
             },
             "Frost Vial (Greater)": {
               "name": "霜冻小瓶（高等） Frost Vial (Greater)",
-              "description": "<p><strong>激活</strong> <span class=\"action-glyph\">1</span> 打击</p><hr /><p>这瓶小瓶中的亮蓝色液体试剂在暴露于空气中时会迅速吸收热量。寒霜小瓶会造成所列的寒冷伤害与寒冷溅射伤害。命中时，目标的速度在其下一回合结束前受到状态减值。</p>\n<p>你获得+2物品加值于攻击掷骰，炸弹造成3d6寒冷伤害与3点寒冷溅射伤害，且目标承受-10英尺减值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.nJRoiSyd67eQ1dYj]{效果: 寒霜小瓶（强效）}</p>"
+              "description": "<p><strong>激活</strong> <span class=\"action-glyph\">1</span> 打击</p><hr /><p>这瓶小瓶中的亮蓝色液体试剂在暴露于空气中时会迅速吸收热量。寒霜小瓶会造成所列的寒冷伤害与寒冷溅射伤害。命中时，目标的速度在其下一回合结束前受到状态减值。</p>\n<p>你获得+2物品加值于攻击掷骰，炸弹造成3d6寒冷伤害与3点寒冷溅射伤害，且目标承受-10英尺减值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.LdmzgBOTjCete4F7]{效果: 寒霜小瓶（强效）}</p>"
             },
             "Ghost Charge (Greater)": {
               "name": "幽灵冲锋（强效） Ghost Charge (Greater)",
@@ -402,7 +402,7 @@
             },
             "Glue Bomb (Greater)": {
               "name": "黏胶炸弹（强效） Glue Bomb (Greater)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 打击</p>\n<hr />\n<p>黏胶炸弹是一种无害的爆炸装置，会迸裂出黏稠物质。当你用黏胶炸弹击中一个生物时，该生物的各项速度在1分钟内受到–15英尺的状态减值。你在攻击掷骰上获得+2物品加值，且@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱} DC为28。</p>\n<p>在大成功或大失败时，与坚固表面接触的生物会被黏在表面上，并在1轮内@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}；而通过翅膀飞行的生物其翅膀会被缠住，导致其安全地落到地面，并在1轮内无法再次飞行。在水中的生物不受黏胶炸弹的有效影响。</p>\n<p>目标可以通过逃脱，或花费总计3个交互动作小心移除黏稠物质来结束任何效果。这些交互动作不必连续进行，其他生物也可以提供这些动作。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.csA4UAD2tQq7RjT8]{效果：黏胶炸弹（高等）}</p>"
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 打击</p>\n<hr />\n<p>黏胶炸弹是一种无害的爆炸装置，会迸裂出黏稠物质。当你用黏胶炸弹击中一个生物时，该生物的各项速度在1分钟内受到–15英尺的状态减值。你在攻击掷骰上获得+2物品加值，且@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱} DC为28。</p>\n<p>在大成功或大失败时，与坚固表面接触的生物会被黏在表面上，并在1轮内@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}；而通过翅膀飞行的生物其翅膀会被缠住，导致其安全地落到地面，并在1轮内无法再次飞行。在水中的生物不受黏胶炸弹的有效影响。</p>\n<p>目标可以通过逃脱，或花费总计3个交互动作小心移除黏稠物质来结束任何效果。这些交互动作不必连续进行，其他生物也可以提供这些动作。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.sgQknR94qDt5ILBx]{效果：黏胶炸弹（高等）}</p>"
             },
             "Juggernaut Mutagen (Greater)": {
               "name": "主宰突变剂（强效） Juggernaut Mutagen (Greater)",
@@ -434,7 +434,7 @@
             },
             "Silver Crescent (Moderate)": {
               "name": "银色新月（中等） Silver Crescent (Moderate)",
-              "description": "<p>酸爽的罗望子与青柠辣椒风味注入一枚银色新月，其最初被制作出来以援助那些与不死生物作战的人。持续1小时，你如同火把般散发清冷的白色光亮术，并且你获得对抗嗅觉效果的豁免检定+2物品加值。在散发此光亮术期间，若你可见，则你不能处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态；若你处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}状态，则你改为处于隐蔽而非未察觉。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.qWeEmDft3tRWlIwy]{效果：银色新月（中等）}</p>\n<hr />\n<p><strong>次要效果</strong> <span class=\"action-glyph\">2</span></p>\n<p><strong>效果</strong> 一道光线降下，照射你在120尺内选择的一个5尺方形区域。任何位于该空间内的生物承受@Damage[7d6[vitality]]伤害，并进行一次@Check[reflex|dc:28|basic]；在豁免失败时，该生物将处于@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}状态直到其下个回合结束。就弱点、抗力等用途而言，此效果视为银。该银色新月变为惰性。</p>"
+              "description": "<p>酸爽的罗望子与青柠辣椒风味注入一枚银色新月，其最初被制作出来以援助那些与不死生物作战的人。持续1小时，你如同火把般散发清冷的白色光亮术，并且你获得对抗嗅觉效果的豁免检定+2物品加值。在散发此光亮术期间，若你可见，则你不能处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态；若你处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}状态，则你改为处于隐蔽而非未察觉。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.KFq5wnjdzyrycEnB]{效果：银色新月（中等）}</p>\n<hr />\n<p><strong>次要效果</strong> <span class=\"action-glyph\">2</span></p>\n<p><strong>效果</strong> 一道光线降下，照射你在120尺内选择的一个5尺方形区域。任何位于该空间内的生物承受@Damage[7d6[vitality]]伤害，并进行一次@Check[reflex|dc:28|basic]；在豁免失败时，该生物将处于@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}状态直到其下个回合结束。就弱点、抗力等用途而言，此效果视为银。该银色新月变为惰性。</p>"
             },
             "Silvertongue Mutagen (Greater)": {
               "name": "银舌诱变剂（强效） Silvertongue Mutagen (Greater)",
@@ -518,7 +518,7 @@
             },
             "Exsanguinating Ammunition (Major)": {
               "name": "放血弹药（强效） Exsanguinating Ammunition (Major)",
-              "description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>该弹药包含一个小型储槽，内装一种黏稠的红色物质，当你启动它时会涂覆在弹药上。该物质会使生物更容易出血。在你用已启动的放血弹药对一个生物造成伤害后的1分钟内，该生物获得对持续性流血伤害的弱点5。此外，为结束持续性流血伤害所进行的任何纯骰检定的DC从15提高至17（在接受特别有效的协助时从10提高至12），持续时间内有效。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.mrwg2XftLtSLj197]{效果: 放血弹药（强效）}</p>"
+              "description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>该弹药包含一个小型储槽，内装一种黏稠的红色物质，当你启动它时会涂覆在弹药上。该物质会使生物更容易出血。在你用已启动的放血弹药对一个生物造成伤害后的1分钟内，该生物获得对持续性流血伤害的弱点5。此外，为结束持续性流血伤害所进行的任何纯骰检定的DC从15提高至17（在接受特别有效的协助时从10提高至12），持续时间内有效。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Fz3cSffzDAxhCh2D]{效果: 放血弹药（强效）}</p>"
             },
             "Fury Cocktail (Moderate)": {
               "name": "狂怒鸡尾酒（中等） Fury Cocktail (Moderate)",
@@ -538,7 +538,7 @@
             },
             "Insight Coffee (Moderate)": {
               "name": "洞见咖啡（中等） Insight Coffee (Moderate)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>洞见咖啡是研究炼金术的调查员常选的饮品，在萃取过程中会注入炼金调味。你饮用洞见咖啡后的1小时内，若你拥有战略打击职业特性，你的战略打击职业特性所提供的额外伤害将改用d8而非d6。你还会获得+3物品加值，用于以该物品制作时所选混合口味决定的技能来进行回忆知识的检定。</p><ul><li><strong>双倍咖啡</strong> 宗教</li><li><strong>榛果</strong> 自然</li><li><strong>摩卡</strong> 奥秘</li><li><strong>香草</strong> 社会</li><li><strong>南瓜香料</strong> 秘法</li><li><strong>太妃糖</strong> 医学</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.kkXy5JWC7OTBqTKg]{效果: 洞见咖啡（中等）}</p>"
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>洞见咖啡是研究炼金术的调查员常选的饮品，在萃取过程中会注入炼金调味。你饮用洞见咖啡后的1小时内，若你拥有战略打击职业特性，你的战略打击职业特性所提供的额外伤害将改用d8而非d6。你还会获得+3物品加值，用于以该物品制作时所选混合口味决定的技能来进行回忆知识的检定。</p><ul><li><strong>双倍咖啡</strong> 宗教</li><li><strong>榛果</strong> 自然</li><li><strong>摩卡</strong> 奥秘</li><li><strong>香草</strong> 社会</li><li><strong>南瓜香料</strong> 秘法</li><li><strong>太妃糖</strong> 医学</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.2qHgwcYtCg4csC2w]{效果: 洞见咖啡（中等）}</p>"
             },
             "Lodestone Bomb": {
               "name": "磁石炸弹 Lodestone Bomb",
@@ -546,7 +546,7 @@
             },
             "Ooze Ammunition (Greater)": {
               "name": "软泥弹药（高等） Ooze Ammunition (Greater)",
-              "description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<hr />\n<p>软泥弹药是一个装有黏性物质的胶囊。若你用已启动的软泥弹药命中一个生物，它造成酸蚀伤害而非其正常伤害类型，且该生物随后直到其结束这些效果前，速度受到-10尺减值，并承受 @Damage[3d4[persistent,acid]] 伤害。若为重击，除其他效果外，该生物还会在1轮内成为 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}。目标可以通过 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}（DC 29）这团黏性泡沫来结束这些效果。其他生物也可以提供这些动作，但这样做会使协助的生物承受该弹药持续酸蚀伤害的一半。结束该效果的生物仍会在该回合承受持续伤害。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.6Pwdim01PH447CeS]{效果：软泥弹药（高等）}</p>"
+              "description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<hr />\n<p>软泥弹药是一个装有黏性物质的胶囊。若你用已启动的软泥弹药命中一个生物，它造成酸蚀伤害而非其正常伤害类型，且该生物随后直到其结束这些效果前，速度受到-10尺减值，并承受 @Damage[3d4[persistent,acid]] 伤害。若为重击，除其他效果外，该生物还会在1轮内成为 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}。目标可以通过 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}（DC 29）这团黏性泡沫来结束这些效果。其他生物也可以提供这些动作，但这样做会使协助的生物承受该弹药持续酸蚀伤害的一半。结束该效果的生物仍会在该回合承受持续伤害。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.m77YnEX1T7bdk7Qa]{效果：软泥弹药（高等）}</p>"
             },
             "Poison Fizz (Moderate)": {
               "name": "毒液气泡（中等） Poison Fizz (Moderate)",
@@ -1903,7 +1903,7 @@
               "name": "助手 - 团体遭遇（等级 7） Helper - Group Encounter (Lvl 7)"
             },
             "qgXRtQlRnn5wiIqu": {
-              "description": "精英@UUID[Compendium.pf2e.pathfinder-bestiary-3.Actor.cbduxhlI7JbONLXF]{蹒跚丧尸部队} +弱化@UUID[Compendium.pf2e.pathfinder-bestiary.Actor.FJo8VkrM7kLkHa5D]{笨重丧尸}"
+              "description": "精英@UUID[Compendium.pf2e.pathfinder-monster-core-2.Actor.WQYzPF4cN4msA8lw]{蹒跚丧尸部队} +弱化@UUID[Compendium.pf2e.pathfinder-monster-core.Actor.EDYKUdYmilw3rgJg]{笨重丧尸}"
             }
           }
         },
@@ -1986,7 +1986,7 @@
               "description": "1 名精英宁布洛斯祭司和 2 名宁布洛斯邪教徒（非精英）（见 GM 指南）"
             },
             "Weo9Ufxn9DEmdtMg": {
-              "description": "精英@UUID[Compendium.pf2e.npc-gallery.GoGNtiHuYycppLPk]{赏金猎人}（配银制武器），正在追捕杰尔·梅兹勄"
+              "description": "精英@UUID[Compendium.pf2e.pathfinder-npc-core.dNATu2RQLFYY3hYn]{赏金猎人}（配银制武器），正在追捕杰尔·梅兹勄"
             },
             "lpRcSogG8L6FFGzY": {
               "description": "3 只精英@Actor[Ghast]{妖鬼}"
@@ -1998,10 +1998,10 @@
               "description": "精英@Actor[Will-o'-Wisp]和 4 名宁布洛斯祭司（非精英）（见 GM 指南）"
             },
             "mmOFUW2uFdrBEYXg": {
-              "description": "精英@UUID[Compendium.pf2e.npc-gallery.0Ex7rBuiJVu2NwCz]{恶魔学者}和精英@UUID[Compendium.pf2e.npc-gallery.K2STan8izudm9eEn]{反圣武士}"
+              "description": "精英@UUID[Compendium.pf2e.pathfinder-npc-core.hR9n5d0tfyOkeZFb]{恶魔学者}和精英@UUID[Compendium.pf2e.npc-gallery.K2STan8izudm9eEn]{反圣武士}"
             },
             "Mbnu7WM7DhsCFu1h": {
-              "description": "精英@UUID[Compendium.pf2e.pathfinder-bestiary-2.FERUCyMwvy4Nejou]{地狱猫}和 2 只精英@UUID[Compendium.pf2e.pathfinder-monster-core.6UrgCT8MwC8CeGbu]{爆燃魔}"
+              "description": "精英@UUID[Compendium.pf2e.pathfinder-monster-core-2.U0pKGj1yJemGAXyc]{地狱猫}和 2 只精英@UUID[Compendium.pf2e.pathfinder-monster-core.6UrgCT8MwC8CeGbu]{爆燃魔}"
             },
             "9vcLja54i4d42YcF": {
               "description": "精英@UUID[Compendium.pf2e.lost-omens-monsters-of-myth-bestiary.10srqxC7QZy0dq2g]{幽魂魔鬼}"
