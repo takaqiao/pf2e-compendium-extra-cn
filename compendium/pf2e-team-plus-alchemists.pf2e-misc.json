@@ -1,0 +1,438 @@
+{
+  "label": "杂项（PF2e） Miscellaneous",
+  "entries": {
+    "Advanced Vials (Bottler)": {
+      "name": "进阶制剂（装瓶师） Advanced Vials (Bottler)",
+      "description": "<p>你的炼金奴仆如今更为强大。当你以一份万用制剂创造炼金奴仆时，你可以改为创造一个体型至多为大型、且具有10尺触及的奴仆。在16级时，你可以创造体型至多为超大型的奴仆；在20级时，你可以创造体型至多为巨型的奴仆。该奴仆必须能如膨胀特征的常规规则那样容纳于该区域内。@UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.Item.LA2vUFIr0kUiIjto]{效果：进阶制剂（实验师）}</p>"
+    },
+    "Advanced Vials (Chrysopoet)": {
+      "name": "进阶制剂（点金师） Advanced Vials (Chrysopoet)",
+      "description": "<p>当你以一份万用制剂绘制法阵时，你可以将一次单动作的物质冲击作为你绘制法阵那个动作的一部分来使用。</p>"
+    },
+    "Advanced Vials (Experimenter)": {
+      "name": "进阶制剂（实验家） Advanced Vials (Experimenter)",
+      "description": "<p>当你激发一份万用制剂以执行一项技能动作时，你在该技能动作所对应技能上被视为具有专家熟练度；若你原本已是专家，则视为大师。若你在所选技能上已经是大师，你改为对该技能动作获得 +2 物品加值。</p>"
+    },
+    "Advanced Vials (Gastronome)": {
+      "name": "进阶制剂（美食家） Advanced Vials (Gastronome)",
+      "description": "<p>你能调配风味的层次，使其中任何一味都不至于喧宾夺主，从而让餐食的炼金特性得以彰显。你可以选择为炼金食品注入2种风味而非1种。要为一份炼金食品注入两种风味，你必须花费2份万用制剂。</p>"
+    },
+    "Advanced Vials (Munitioner)": {
+      "name": "进阶制剂（弹药师） Advanced Vials (Munitioner)",
+      "description": "<p>在你每个回合开始时，你可以以一个自由动作用一份万用制剂为你正持握的武器装填。</p>"
+    },
+    "Advanced Vials (Phytologist)": {
+      "name": "进阶制剂（植物学家） Advanced Vials (Phytologist)",
+      "description": "<p>你可以用你的万用制剂在至多8个相连方格中生出草木，而非4个。</p>"
+    },
+    "Alchemical Transmutation": {
+      "name": "炼金嬗变 Alchemical Transmutation",
+      "description": "<p>你可以将物质由一种类型嬗变为另一种，借助嬗变法阵改变它，以产生能量或其他物质。</p><p>在你的每日准备期间，你可以用炼金原材料和一件书写工具创造出数量等于2+你的智力调整值的嬗变法阵。你可以用绘制法阵动作激发这些嬗变法阵，从而在满足该法阵的需求时，如同元能使一般使用涌动。</p><p>你可以将涌动的配方加入你的配方簿，但只能通过你从此变体获得的职业特性或专长来这么做。你将物质冲击这项涌动加入你的配方簿，然后再加入两项来自你研究课题的1级元能使涌动。</p><p>在3级以及此后每2级，你可以向你的配方簿中加入一项新的涌动，其等级不得高于你炼金术士等级的一半。</p>"
+    },
+    "Antipathic Vial": {
+      "name": "相克制剂 Antipathic Vial",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> 交互</p><hr /><p>这只小玻璃瓶中盛着一种奇特物质，其作用如同某个存在的对立面。当你激发此制剂时，你将该物质洒在一个相邻生物身上。你使该生物对你选择的一种伤害类型获得弱点，或将你已知它具有的某项弱点提高所列的数值。</p><p>或者，你也可以将你已知的一项抗力降低同等数值，即等同于你本会提高既有弱点的数值。</p><p>这些效果持续1轮，或直到该生物花费一个交互动作抹除该物质为止。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.Item.YLELon4velZ8FI8h]{效果：相克制剂}</p>"
+    },
+    "Effect: Advanced Vial (Experimenter)": {
+      "name": "效果：进阶制剂（实验家） Effect: Advanced Vial (Experimenter)",
+      "description": "<p>当你激发一份万用制剂以执行一项技能动作时，你在该技能动作所对应技能上被视为具有专家熟练度；若你原本已是专家，则视为大师。若你在所选技能上已经是大师，你改为对该技能动作获得 +2 物品加值。</p>"
+    },
+    "Effect: Alchemical Roast": {
+      "name": "效果：炼金烤肉 Effect: Alchemical Roast",
+      "description": "<p>当你吃下这份烤肉以激发它之后，你在对抗疾病的豁免上获得 +1 物品加值，持续24小时，或直到你进行每日准备为止，以先发生者为准。</p>"
+    },
+    "Effect: Antipathic Vial": {
+      "name": "效果：相克制剂 Effect: Antipathic Vial",
+      "description": "<p><strong>类型</strong> 次级；等级 1 </p><p>你使该生物对你选择的一种伤害类型获得 1 点弱点，或将它既有的一项弱点提高 2 点。</p><hr /><p><strong>类型</strong> 中级；等级 4 </p><p>你使该生物对你选择的一种伤害类型获得 3 点弱点，或将它既有的一项弱点提高 5 点。</p><hr /><p><strong>类型</strong> 高级；等级 12 </p><p>你使该生物对你选择的一种伤害类型获得 5 点弱点，或将它既有的一项弱点提高 8 点。</p><hr /><p><strong>类型</strong> 超级；等级 18 </p><p>你使该生物对你选择的一种伤害类型获得 8 点弱点，或将它既有的一项弱点提高 12 点。</p>"
+    },
+    "Effect: Aromatic Lavender (Greater)": {
+      "name": "效果：芬芳薰衣草（高级） Effect: Aromatic Lavender (Greater)",
+      "description": "<p>若你使用自己的生存 DC，你对分神或掩盖行踪的检定获得 +2 物品加值。该薰衣草的生存 DC 为 25。若你的分神检定大成功，目标还会陷入 @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 1}</p>"
+    },
+    "Effect: Aromatic Lavender (Major)": {
+      "name": "效果：芬芳薰衣草（超级） Effect: Aromatic Lavender (Major)",
+      "description": "<p>若你使用自己的生存 DC，你对分神或掩盖行踪的检定获得 +3 物品加值。该薰衣草的生存 DC 为 35。若你的分神检定成功，目标还会陷入 @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 1}</p>"
+    },
+    "Effect: Aromatic Lavender (Moderate)": {
+      "name": "效果：芬芳薰衣草（中级） Effect: Aromatic Lavender (Moderate)",
+      "description": "<p>若你使用自己的生存 DC，你对分神或掩盖行踪的检定获得 +1 物品加值。该薰衣草的生存 DC 为 20。</p>"
+    },
+    "Effect: Befuddling Irrwurz (Greater)": {
+      "name": "效果：昏乱迷途根（高级） Effect: Befuddling Irrwurz (Greater)",
+      "description": "<p>你对该检定获得 +3 物品加值。只要你的虚招不是大失败，你就可以迫使目标向你选择的方向移步。</p>"
+    },
+    "Effect: Befuddling Irrwurz (Lesser)": {
+      "name": "效果：昏乱迷途根（次级） Effect: Befuddling Irrwurz (Lesser)",
+      "description": "<p>你对该检定获得 +1 物品加值。若你的虚招为大成功，你可以迫使目标向你选择的方向移步。</p>"
+    },
+    "Effect: Befuddling Irrwurz (Moderate)": {
+      "name": "效果：昏乱迷途根（中级） Effect: Befuddling Irrwurz (Moderate)",
+      "description": "<p>你对该检定获得 +2 物品加值。若你的虚招为成功，你可以迫使目标向你选择的方向移步。</p>"
+    },
+    "Effect: Bioluminscent Risotto": {
+      "name": "效果：生物荧光烩饭 Effect: Bioluminscent Risotto",
+      "description": "<p>以食用方式激发这份烩饭后，当你处于昏暗光照或黑暗的区域时，你在 5 尺弥漫范围内散发明亮光照，并在其外 5 尺内散发昏暗光照。这些效果持续 24 小时，或直到你进行每日预备为止，以先发生者为准。</p>"
+    },
+    "Effect: Bramble Knot (Greater)": {
+      "name": "效果：荆棘结（高级） Effect: Bramble Knot (Greater)",
+      "description": "<p>该荆棘结的运动调整值为 +27。若你使用自己的运动调整值，你对该检定获得 +3 物品加值。就你的摔绊而言，你可以将体型至多为超巨型的生物作为目标。</p>"
+    },
+    "Effect: Bramble Knot (Lesser)": {
+      "name": "效果：荆棘结（次级） Effect: Bramble Knot (Lesser)",
+      "description": "<p>该荆棘结的运动调整值为 +10。若你使用自己的运动调整值，你对该检定获得 +1 物品加值。就你的摔绊而言，你可以将体型至多为大型的生物作为目标。</p>"
+    },
+    "Effect: Bramble Knot (Moderate)": {
+      "name": "效果：荆棘结（中级） Effect: Bramble Knot (Moderate)",
+      "description": "<p>该荆棘结的运动调整值为 +16。若你使用自己的运动调整值，你对该检定获得 +2 物品加值。就你的摔绊而言，你可以将体型至多为巨型的生物作为目标。</p>"
+    },
+    "Effect: Buoyant Hyacinth (Greater)": {
+      "name": "效果：浮力风信子（高级） Effect: Buoyant Hyacinth (Greater)",
+      "description": "<p>你对游泳检定获得 +2 物品加值，并获得等同于你速度的游泳速度。若你已具有游泳速度，则改为对你的游泳速度获得 +10 尺状态加值。</p>"
+    },
+    "Effect: Buoyant Hyacinth (Major)": {
+      "name": "效果：浮力风信子（超级） Effect: Buoyant Hyacinth (Major)",
+      "description": "<p>你对游泳检定获得 +3 物品加值，获得等同于你速度的游泳速度，并对你的游泳速度获得 +10 尺状态加值。若你已具有游泳速度，则改为对你的游泳速度获得 +20 尺状态加值。</p>"
+    },
+    "Effect: Buoyant Hyacinth (Moderate)": {
+      "name": "效果：浮力风信子（中级） Effect: Buoyant Hyacinth (Moderate)",
+      "description": "<p>你对游泳检定获得 +1 物品加值，并将你游泳的距离增加 10 尺。</p>"
+    },
+    "Effect: Captivating Fern Flower (Lesser)": {
+      "name": "效果：魅惑蕨花（次级） Effect: Captivating Fern Flower (Lesser)"
+    },
+    "Effect: Captivating Fern Flower (Major)": {
+      "name": "效果：魅惑蕨花（超级） Effect: Captivating Fern Flower (Major)",
+      "description": "<p>该蕨花的交涉调整值为 +26。若你使用自己的交涉调整值，你对该检定获得 +3 物品加值。你将搜集信息所需的时间缩短至 1 小时，且可以将留下印象作为 3 动作活动执行。</p>"
+    },
+    "Effect: Captivating Fern Flower (Moderate)": {
+      "name": "效果：魅惑蕨花（中级） Effect: Captivating Fern Flower (Moderate)",
+      "description": "<p>该蕨花的交涉调整值为 +15。若你使用自己的交涉调整值，你对该检定获得 +2 物品加值。你将搜集信息与留下印象所需的时间减半。</p>"
+    },
+    "Effect: Concealing Puffball (Greater)": {
+      "name": "效果：遮蔽尘菌（高级） Effect: Concealing Puffball (Greater)",
+      "description": "<p>你对潜行检定获得 +3 物品加值，并可以将激发该炼金植物所需的动作数提高至至多 3 个动作，且可以进行次数等同于激发该炼金植物所花动作数的潜行。</p>"
+    },
+    "Effect: Concealing Puffball (Lesser)": {
+      "name": "效果：遮蔽尘菌（次级） Effect: Concealing Puffball (Lesser)",
+      "description": "<p>你对潜行检定获得 +1 物品加值。</p>"
+    },
+    "Effect: Concealing Puffball (Moderate)": {
+      "name": "效果：遮蔽尘菌（中级） Effect: Concealing Puffball (Moderate)",
+      "description": "<p>你对潜行检定获得 +2 物品加值，并可以将激发该炼金植物所需的动作数提高至 2 个动作，且可以在该次激发中进行两次潜行。</p>"
+    },
+    "Effect: Conker Flail (Greater)": {
+      "name": "效果：马栗连枷（高级） Effect: Conker Flail (Greater)",
+      "description": "<p>该连枷持续生效 3 轮，运动调整值为 +16。若你使用自己的运动调整值，你对该检定或打击获得 +2 物品加值。当你引爆栗子以对物体进行打击时，你无视该物体 8 点硬度。</p>"
+    },
+    "Effect: Conker Flail (Major)": {
+      "name": "效果：马栗连枷（超级） Effect: Conker Flail (Major)",
+      "description": "<p>该连枷持续生效 4 轮，运动调整值为 +27。若你使用自己的运动调整值，你对该检定或打击获得 +3 物品加值。当你引爆栗子以对物体进行打击时，你无视该物体 16 点硬度。</p>"
+    },
+    "Effect: Conker Flail (Moderate)": {
+      "name": "效果：马栗连枷（中级） Effect: Conker Flail (Moderate)",
+      "description": "<p>该连枷持续生效 2 轮，运动调整值为 +10。若你使用自己的运动调整值，你对该检定或打击获得 +1 物品加值。当你引爆栗子以对物体进行打击时，你无视该物体 4 点硬度</p>"
+    },
+    "Effect: Croque Matron": {
+      "name": "效果：主母三明治 Effect: Croque Matron",
+      "description": "<p>你对神圣法术，以及由圣洁或邪秽（于制作时选定）所造成的伤害获得 8 点抗力，持续 24 小时，或直到你进行每日预备为止，以先发生者为准。</p>"
+    },
+    "Effect: Cursebreaking Pierogi": {
+      "name": "效果：破咒波兰饺 Effect: Cursebreaking Pierogi",
+      "description": "<p>你对神秘法术获得 8 点抗力，且当你进行对抗诅咒的豁免时，可以掷两次并取较好的结果，持续 24 小时，或直到你进行每日预备为止，以先发生者为准。</p>"
+    },
+    "Effect: Dousing Aloe (Greater)": {
+      "name": "效果：灭火芦荟（高级） Effect: Dousing Aloe (Greater)",
+      "description": "<p>该生物获得 10 点火焰抗力。</p>"
+    },
+    "Effect: Dousing Aloe (Lesser)": {
+      "name": "效果：灭火芦荟（次级） Effect: Dousing Aloe (Lesser)",
+      "description": "<p>该生物获得 4 点火焰抗力。</p>"
+    },
+    "Effect: Energizing Taffy": {
+      "name": "效果：提神太妃糖 Effect: Energizing Taffy",
+      "description": "<p>这种粉色太妃糖注入了大量刺激性试剂与糖分，以致食用起来几乎堪称危险。食用该太妃糖后，你对速度获得 +20 尺物品加值，持续 1 分钟。此效果结束后，你在 1 小时内陷入疲乏。</p>"
+    },
+    "Effect: Field Benefit (Gastronome)": {
+      "name": "效果：课题增益（美食家） Effect: Field Benefit (Gastronome)",
+      "description": "<p>当一个生物食用你所制作、具有「加工」特征的炼金食物时，它在 1 小时内获得等同于你智力调整值一半（最低 1）的临时生命值。在这些临时生命值失去后，该生物对此效果暂时免疫 1。</p>"
+    },
+    "Effect: Field Vial (Experimenter)": {
+      "name": "效果：课题制剂（实验家） Effect: Field Vial (Experimenter)",
+      "description": "<p>当你激发一份万用制剂时，你可以改为制造一件具有「炼金」特征、持续 1 轮的特殊工具。当你以此方式激发万用制剂时，你可以选择将一个技能动作或活动作为激发该制剂之动作的一部分，且激发该制剂所花的动作数与该技能动作或活动本身所需的动作数相同。就该动作而言，你视为对该技能动作所对应的技能受训；若你原本已对相应技能受训，则改为对该技能动作获得 +1 物品加值。</p>"
+    },
+    "Effect: Field Vials (Gastronome)": {
+      "name": "效果：课题制剂（美食家） Effect: Field Vials (Gastronome)",
+      "description": "<p>你可以选择消耗一份万用制剂，为食物添加一种风味；此举可作为制作该炼金食物的一部分。在生物食用该食物并使用其加值之前，或该食物被摧毁之前，你无法取回用于调味的那份万用制剂。一个生物同时至多受你课题制剂的 1 种风味影响，食用另一种风味会立即终止先前所注入的所有风味效果。你可以从下列风味中选择。</p><ul><li><p><strong>咸味</strong> 该炼金食物还在接下来 1 小时内，为其自选的单次强韧豁免提供 +2 状态加值。</p></li><li><p><strong>酸味</strong> 该炼金食物还在接下来 1 小时内，为其自选的单次意志豁免提供 +2 状态加值。</p></li><li><p><strong>甜味</strong> 该炼金食物还在接下来 1 小时内，为其自选的单次反射豁免提供 +2 状态加值。</p></li><li><p><strong>苦味</strong> 该炼金食物还在接下来 1 小时内，将解除持续伤害的平稳检定降低 5。</p></li><li><p><strong>鲜味</strong> 该炼金食物还在接下来 1 小时内，为其自选的单次技能检定提供 +2 状态加值。</p></li></ul>"
+    },
+    "Effect: Goblin Pickle": {
+      "name": "效果：地精酸黄瓜 Effect: Goblin Pickle",
+      "description": "<p>食用该地精酸黄瓜后，你在 1 分钟内对溅射伤害与范围伤害获得 2 点抗力。</p>"
+    },
+    "Effect: Humor Leech": {
+      "name": "效果：体液水蛭 Effect: Humor Leech",
+      "description": "<p>当水蛭附着时，你承受 1 点持续流血伤害，获得对某一种能量类型的抗力，并根据制作该水蛭时所选的添加剂获得一项额外效果。你可以选择让终结该持续流血伤害的平稳检定失败，以将此效果延长至至多 1 分钟；此后水蛭会脱落并消散。</p><p><strong>黄胆质</strong> 被这条黄色水蛭吸食的病人很快会变得易怒。你对火焰伤害获得 2 点抗力。当你以打击重击命中时，你额外造成 2 点精准伤害。</p><p><strong>黑胆质</strong> 被这条黑色水蛭吸食的病人往往变得专注且目标明确。你对寒冷伤害获得 2 点抗力。当你重击命中一个生物时，你可以立即对该目标生物进行一次回忆知识检定。</p><p><strong>黏液质</strong> 被这条蓝色水蛭吸食的病人往往变得安静而放松。你对精魂伤害获得 2 点抗力。当你重击命中时，你获得 5 点临时生命值，持续 1 轮。</p><p><strong>多血质</strong> 被这条红色水蛭吸食的病人会感到自信而善于社交。你对心灵伤害获得 2 点抗力。当你重击命中时，你将自身的惊惧状态降低 1，或在 1 轮内对基于魅力的技能检定获得 +2 环境加值。</p>"
+    },
+    "Effect: Hypnotic Reeds (Greater)": {
+      "name": "效果：催眠芦苇（高级） Effect: Hypnotic Reeds (Greater)",
+      "description": "<p>该催眠芦苇的表演调整值为 +27。若你使用自己的表演调整值，你对该检定获得 +3 物品加值。你可以以任意数量的观察者为目标。若你选择以单一观察者为目标，你的演出不会因处于需要立即关注的情境而获得「失能」特征。</p>"
+    },
+    "Effect: Hypnotic Reeds (Lesser)": {
+      "name": "效果：催眠芦苇（次级） Effect: Hypnotic Reeds (Lesser)",
+      "description": "<p>该催眠芦苇的表演调整值为 +10。若你使用自己的表演调整值，你对该检定获得 +1 物品加值。你最多可以以 4 名观察者为目标。</p>"
+    },
+    "Effect: Hypnotic Reeds (Moderate)": {
+      "name": "效果：催眠芦苇（中级） Effect: Hypnotic Reeds (Moderate)",
+      "description": "<p>该催眠芦苇的表演调整值为 +16。若你使用自己的表演调整值，你对该检定获得 +2 物品加值。你最多可以以 10 名观察者为目标。若你选择以单一观察者为目标，你的演出不会因处于需要立即关注的情境而获得「失能」特征。</p>"
+    },
+    "Effect: Internal Alchemy Mutagens": {
+      "name": "效果：内丹突变药剂 Effect: Internal Alchemy Mutagens",
+      "description": "<p>当你饮用你以高速炼金制作的突变药剂时，你对打击造成的伤害获得 +2 状态加值。若你的突变药剂未授予徒手攻击，则在该突变药剂持续期间，你拳头的伤害骰由 1d4 提升为 1d6。在你受自身突变药剂影响期间，你以拳头进行致命攻击时不承受减值。若你至少为 11 级，该伤害的状态加值提升至 +4。</p>"
+    },
+    "Effect: Internal Alchemy Processed": {
+      "name": "效果：内丹加工 Effect: Internal Alchemy Processed",
+      "description": "<p>当你食用你以高速炼金制作、具有「加工」特征的炼金食物时，在其持续期间你可以获得一次对强韧豁免的 +1 状态加值，该加值持续 1 分钟。若你至少为 11 级，该状态加值提升至 +2。</p>"
+    },
+    "Effect: Ledge Creeper": {
+      "name": "效果：攀壁藤 Effect: Ledge Creeper",
+      "description": "<p>攀壁藤以能轻易攀附附近岩石的本领而闻名，其炼金变种可以迅速生长以协助应对坠落。你可以将激发该物品作为你尝试抓住边缘的一部分；若你原本持握着该物品，你可以使用持握它的那只手。你对你的杂技检定或反射豁免获得 +2 环境加值，且无论你已坠落多远都不会承受伤害。若你成功抓住边缘，且你能在止住坠落之处站立，则在藤蔓将你安全托起的同时，你立即以一个自由动作站立。</p>"
+    },
+    "Effect: Mandrake Gum": {
+      "name": "效果：曼德拉草胶 Effect: Mandrake Gum"
+    },
+    "Effect: Morphic Vial": {
+      "name": "效果：塑造制剂 Effect: Morphic Vial",
+      "description": "<p><strong>类型</strong> 次级；等级 1 </p><p>直到你下回合结束前，你对杂技与运动获得 +1 状态加值。 </p><hr /><p><strong>类型</strong> 中级；等级 4 </p><p>直到你下回合结束前，你对杂技与运动获得 +2 状态加值。 </p><hr /><p><strong>类型</strong> 高级；等级 12 </p><p>直到你下回合结束前，你对杂技与运动获得 +3 状态加值。 </p><hr /><p><strong>类型</strong> 超级；等级 18 </p><p>直到你下回合结束前，你对杂技与运动获得 +4 状态加值。</p>"
+    },
+    "Effect: Nettle Balm (Greater)": {
+      "name": "效果：荨麻药膏（高级） Effect: Nettle Balm (Greater)",
+      "description": "<p>该平稳检定降低至 @Check[flat|showDC:all|dc:6]，且你对协助复苏过程中所需的任何技能检定获得 +2 物品加值。</p>"
+    },
+    "Effect: Nettle Balm (Major)": {
+      "name": "效果：荨麻药膏（超级） Effect: Nettle Balm (Major)",
+      "description": "<p>该平稳检定降低至 @Check[flat|showDC:all|dc:4]，且你对协助复苏过程中所需的任何技能检定获得 +3 物品加值。</p>"
+    },
+    "Effect: Nettle Balm (Moderate)": {
+      "name": "效果：荨麻药膏（中级） Effect: Nettle Balm (Moderate)",
+      "description": "<p>该平稳检定降低至 @Check[flat|showDC:all|dc:8]，且你对协助复苏过程中所需的任何技能检定获得 +1 物品加值。</p>"
+    },
+    "Effect: Odoriferous Cheese (Lesser)": {
+      "name": "效果：浓臭奶酪（次级） Effect: Odoriferous Cheese (Lesser)",
+      "description": "<p>食用时，这种感受在 1 分钟内极大地提升你的嗅觉。你的气味成为射程 30 的不精确感官。</p>"
+    },
+    "Effect: Odoriferous Cheese (Moderate)": {
+      "name": "效果：浓臭奶酪（中级） Effect: Odoriferous Cheese (Moderate)",
+      "description": "<p>食用时，这种感受在 1 分钟内极大地提升你的嗅觉。你的气味成为射程 30 的精确感官。</p>"
+    },
+    "Effect: Olobigonde Fugu": {
+      "name": "效果：奥洛比贡德河豚 Effect: Olobigonde Fugu",
+      "description": "<p>以食用方式激发该河豚后，你对抗毒素的豁免获得 +2 物品加值，并获得 6 点毒素抗力，持续 24 小时，或直到你进行每日预备为止，以先发生者为准。</p>"
+    },
+    "Effect: Pliable Marzipan": {
+      "name": "效果：柔韧杏仁糖 Effect: Pliable Marzipan",
+      "description": "<p>在此形态下，你对穿刺伤害获得 8 点抗力，且就判定你能通过的空间而言，你视为体型小 2 级。</p>"
+    },
+    "Effect: Rapid Equations": {
+      "name": "效果：快速演算 Effect: Rapid Equations",
+      "description": "<p><strong>大成功</strong> 你算出了针对敌人的完美一击。直到你下回合结束前，你无视目标的隐蔽、标准掩蔽或较小掩蔽，并将因藏匿而进行的平稳检定由 11 降至 @Check[flat|dc:5]。你以炼金物品对该目标造成的伤害获得 +4 状态加值。</p><p><strong>成功</strong> 同大成功，但伤害的状态加值为 +2。</p>"
+    },
+    "Effect: Ravenous Flytrap (Greater)": {
+      "name": "效果：贪食捕蝇草（高级） Effect: Ravenous Flytrap (Greater)",
+      "description": "<p>该捕蝇草持续生效 3 轮，运动调整值为 +16。若你使用自己的运动调整值，你对该检定获得 +2 物品加值。你的擒拿距离增加 5 尺。</p><p></p>"
+    },
+    "Effect: Ravenous Flytrap (Major)": {
+      "name": "效果：贪食捕蝇草（超级） Effect: Ravenous Flytrap (Major)",
+      "description": "<p>该捕蝇草持续生效 4 轮，运动调整值为 +27。若你使用自己的运动调整值，你对该检定获得 +3 物品加值。你的擒拿距离增加 10 尺。</p>"
+    },
+    "Effect: Ravenous Flytrap (Moderate)": {
+      "name": "效果：贪食捕蝇草（中级） Effect: Ravenous Flytrap (Moderate)",
+      "description": "<p>该捕蝇草持续生效 2 轮，运动调整值为 +10。若你使用自己的运动调整值，你对该检定获得 +1 物品加值。</p>"
+    },
+    "Effect: Recondite Sourdough": {
+      "name": "效果：奥秘酸面包 Effect: Recondite Sourdough",
+      "description": "<p>你对奥术法术获得 8 点抗力，且当你进行对抗语言效果的豁免时，可以掷两次并取较好的结果，持续 24 小时，或直到你进行每日预备为止，以先发生者为准。</p>"
+    },
+    "Effect: Render Circle": {
+      "name": "效果：绘制法阵 Effect: Render Circle"
+    },
+    "Effect: Spotlight Sunflower (Lesser)": {
+      "name": "效果：聚光向日葵（次级） Effect: Spotlight Sunflower (Lesser)",
+      "description": "<p>该聚光灯的射程为 30 尺，且你的盟友对察觉检定获得 +1 物品加值，用于侦测你以聚光灯指出位置的生物。</p>"
+    },
+    "Effect: Spotlight Sunflower (Major)": {
+      "name": "效果：聚光向日葵（超级） Effect: Spotlight Sunflower (Major)",
+      "description": "<p>该聚光灯的射程为 120 尺，且你的盟友对察觉检定获得 +3 物品加值，用于侦测你以聚光灯指出位置的生物。</p>"
+    },
+    "Effect: Spotlight Sunflower (Moderate)": {
+      "name": "效果：聚光向日葵（中级） Effect: Spotlight Sunflower (Moderate)",
+      "description": "<p>这道聚光的射程为 60 尺；当你以这道聚光指出位置时，你的盟友在用于发现该生物的察觉检定上获得 +2 物品加值。</p>"
+    },
+    "Effect: Stickyweed Sprig (Greater)": {
+      "name": "效果：黏草嫩枝（高级） Effect: Stickyweed Sprig (Greater)",
+      "description": "<p>你的触及范围延长 10 尺，且你的检定获得 +3 物品加值。</p>"
+    },
+    "Effect: Stickyweed Sprig (Lesser)": {
+      "name": "效果：黏草嫩枝（次级） Effect: Stickyweed Sprig (Lesser)",
+      "description": "<p>你的触及范围延长 5 尺，且你的检定获得 +1 物品加值。</p>"
+    },
+    "Effect: Stickyweed Sprig (Moderate)": {
+      "name": "效果：黏草嫩枝（中级） Effect: Stickyweed Sprig (Moderate)",
+      "description": "<p>你的触及范围延长 10 尺，且你的检定获得 +2 物品加值。</p>"
+    },
+    "Effect: Vivisective Vial": {
+      "name": "效果：解剖制剂 Effect: Vivisective Vial",
+      "description": "<p><strong>类型</strong> 次级；等级 1 </p><p>该武器在打击时造成 1d4 点精准伤害，持续 1 轮。若你以这件因你的万用制剂而造成精准伤害的武器进行打击并大成功，则目标额外承受 2 点持续流血伤害。 </p><hr /><p><strong>类型</strong> 中级；等级 4 </p><p>该武器在打击时造成 2d4 点精准伤害，持续 1 轮。若你以这件因你的万用制剂而造成精准伤害的武器进行打击并大成功，则目标额外承受 3 点持续流血伤害。 </p><hr /><p><strong>类型</strong> 高级；等级 12 </p><p>该武器在打击时造成 3d6 点精准伤害，持续 1 轮。若你以这件因你的万用制剂而造成精准伤害的武器进行打击并大成功，则目标额外承受 6 点持续流血伤害。 </p><hr /><p><strong>类型</strong> 超级；等级 18 </p><p>该武器在打击时造成 4d6 点精准伤害，持续 1 轮。若你以这件因你的万用制剂而造成精准伤害的武器进行打击并大成功，则目标额外承受 10 点持续流血伤害。</p>"
+    },
+    "Effect: Warrior's Chew": {
+      "name": "效果：战士肉干 Effect: Warrior's Chew",
+      "description": "<p>当你正在咀嚼战士肉干时，至多持续 10 分钟，你使用近战武器的伤害掷骰获得 +1 物品加值</p>"
+    },
+    "Effect: Wriggling Kudzu (Greater)": {
+      "name": "效果：蠕动葛藤（高级） Effect: Wriggling Kudzu (Greater)",
+      "description": "<p>这株葛藤拥有 +15 的巧手调整值。你可以对需要巧手大师熟练度的陷阱进行解除装置。若你使用自己的巧手调整值，则该检定获得 +2 物品加值。</p>"
+    },
+    "Effect: Wriggling Kudzu (Major)": {
+      "name": "效果：蠕动葛藤（超级） Effect: Wriggling Kudzu (Major)",
+      "description": "<p>这株葛藤拥有 +26 的巧手调整值。你可以对需要巧手传奇熟练度的陷阱进行解除装置。若你使用自己的巧手调整值，则该检定获得 +3 物品加值。</p>"
+    },
+    "Effect: Wriggling Kudzu (Moderate)": {
+      "name": "效果：蠕动葛藤（中级） Effect: Wriggling Kudzu (Moderate)",
+      "description": "<p>这株葛藤拥有 +9 的巧手调整值。你可以对需要巧手专家熟练度的陷阱进行解除装置。若你使用自己的巧手调整值，则该检定获得 +1 物品加值。</p>"
+    },
+    "Effect: Wrought Sirloin": {
+      "name": "效果：锻铁西冷牛排 Effect: Wrought Sirloin",
+      "description": "<p>你获得对原能法术以及动物、元素生物或精怪所造成伤害的 8 点抗力，持续 24 小时，或直到你进行每日准备为止，以先发生者为准。</p>"
+    },
+    "Effect: Ymeri's Own Curry": {
+      "name": "效果：伊莫利亲制咖喱 Effect: Ymeri's Own Curry",
+      "description": "<p>这道咖喱以火之元素领主之名命名，注入了与之相称的辛辣香料。尽管入口瞬间的效果痛苦难当，但以进食的方式激发这道咖喱后，你在 24 小时内获得对火焰与寒冷伤害的 9 点抗力。在此抗力持续期间，你获得喷火嗝这项活动。</p>"
+    },
+    "Eigth Additional Impulse": {
+      "name": "第八项额外涌动 Eigth Additional Impulse",
+      "description": "<p>你获得一项额外的涌动</p>"
+    },
+    "Field Discovery (Bottler)": {
+      "name": "课题发现（装瓶师） Field Discovery (Bottler)",
+      "description": "<p>当你激发的瓶装怪物需要进行一次并非纯骰检定的 d20 投骰时，若 @Check[alchemist|defense:ac|traits:expandable] 高于所列的调整值，则改用前者。当你激发一个会造成伤害或治疗生物的瓶装怪物时，它额外造成等同于你智力调整值的伤害或治疗。这仅适用于该瓶装怪物在被激发时造成的最初那次伤害或治疗。每个瓶装怪物对同一个生物只会造成一次这份伤害或提供一次这份治疗，即使该效果本会多次伤害或治疗该生物。</p>"
+    },
+    "Field Discovery (Chrysopoet)": {
+      "name": "课题发现（点金术士） Field Discovery (Chrysopoet)",
+      "description": "<p>当你准备一个嬗变法阵时，你可以选择为该法阵注入两个你配方簿中与该法阵元素相符的涌动。若该法阵拥有一种以上的元素，你可以为任何与该法阵元素相符的元素选择涌动。</p>"
+    },
+    "Field Discovery (Experimenter)": {
+      "name": "课题发现（实验师） Field Discovery (Experimenter)",
+      "description": "<p>你可以用高速炼金制造出具有炼金特征但不具有消耗品特征的物品，例如 @UUID[Compendium.pf2e.equipment-srd.gdaLHiWRhB1l2Xr3]{炼金喷火器}，如同它是消耗品一般。若该物品需要装填炼金炸弹才能使用，例如炼金术士喷火器或炼金弩，你可以额外花费若干万用制剂，使该物品预先装填好你本可用高速炼金制造出的相应数量的炸弹。该物品及装入其中的任何弹药在劣化之前可持续 1 分钟。</p>"
+    },
+    "Field Discovery (Gastronome)": {
+      "name": "课题发现（美食家） Field Discovery (Gastronome)",
+      "description": "<p>你的餐食效力更为强大。你的炼金食品所授予的临时生命值等于你等级的一半加上你的智力调整值。</p>"
+    },
+    "Field Discovery (Munitioner)": {
+      "name": "课题发现（弹药师） Field Discovery (Munitioner)",
+      "description": "<p>你是使用爆散型炼金弹药的神射手。当你以具有溅射特征的炼金弹药进行打击时，你可以让该弹药造成等同于你智力调整值（最低 1）的溅射伤害，以取代通常的数值。</p>"
+    },
+    "Field Discovery (Phytologist)": {
+      "name": "课题发现（植物学家） Field Discovery (Phytologist)",
+      "description": "<p>当你激发一株炼金植物时，你可以选择制造出一个 5 尺见方的困难地形，其位置须与你相邻、与用来激发该炼金植物之动作的目标相邻，或与该动作所指向的区域相邻（由 GM 裁定）。</p>"
+    },
+    "Fifth Additional Impulse": {
+      "name": "第五项额外涌动 Fifth Additional Impulse",
+      "description": "<p>你获得一项额外的涌动</p>"
+    },
+    "Final Additional Impulse": {
+      "name": "最终额外涌动 Final Additional Impulse",
+      "description": "<p>你获得一项额外的涌动</p>"
+    },
+    "First Additional Impulse": {
+      "name": "第一项额外涌动 First Additional Impulse",
+      "description": "<p>你获得一项额外的涌动</p>"
+    },
+    "Fourth Additional Impulse": {
+      "name": "第四项额外涌动 Fourth Additional Impulse",
+      "description": "<p>你获得一项额外的涌动</p>"
+    },
+    "Greater Field DIscovery (Phytologist)": {
+      "name": "高等课题发现（植物学家） Greater Field DIscovery (Phytologist)",
+      "description": "<p>当你激发一株炼金植物时，由于它仍在持续生长，你可以在它被激发后的 1 分钟内再次激发这株植物。你获得该炼金植物的增益，如同你重新激发了它一般，其中包括使用作为该次激发一部分而进行的动作或活动。</p>"
+    },
+    "Greater Field Discovery (Bottler)": {
+      "name": "高等课题发现（装瓶师） Greater Field Discovery (Bottler)",
+      "description": "<p>当你激发一个瓶装怪物时，你可以作为该活动的一部分额外花费一个动作，使其效果在被激发时触发一次，并在激发之后的下一个回合结束时再触发一次。若该瓶装怪物是被投掷出去的，则它从被投掷到的同一个方格再次触发。</p>"
+    },
+    "Greater Field Discovery (Chrysopoet)": {
+      "name": "高等课题发现（点金术士） Greater Field Discovery (Chrysopoet)",
+      "description": "<p>当你准备一个嬗变法阵时，你可以选择为该法阵注入三个（而非两个）你配方簿中与该法阵元素相符的涌动。</p>"
+    },
+    "Greater Field Discovery (Experimenter)": {
+      "name": "高等课题发现（实验师） Greater Field Discovery (Experimenter)",
+      "description": "<p>你在使用具有炼金特征的临时武器的伤害掷骰上，以及使用不具有消耗品特征的炼金物品（例如炼金术士喷火器）的伤害掷骰上，加上你的完整智力调整值。</p>"
+    },
+    "Greater Field Discovery (Gastronome)": {
+      "name": "高等课题发现（美食家） Greater Field Discovery (Gastronome)",
+      "description": "<p>你的餐食经过精心制作，用以提振盟友的士气。当一个生物拥有由你的炼金食品所授予的临时生命值时，它在攻击掷骰、伤害以及对抗心灵效果的豁免上获得 +1 状态加值。</p>"
+    },
+    "Greater Field Discovery (Munitioner)": {
+      "name": "高等课题发现（弹药师） Greater Field Discovery (Munitioner)",
+      "description": "<p>当你以造成溅射伤害的炼金弹药打击一名生物时，你可以选择把其伤害生物的区域改为一条 10 尺的直线。</p>"
+    },
+    "Instant Circles": {
+      "name": "瞬绘法阵 Instant Circles",
+      "description": "<p>你几乎可以瞬间绘制出嬗变法阵。你永久处于迅捷状态，且该额外动作只能用于 @UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.BZZYvhEg5o8QpInP]{绘制法阵}。</p>"
+    },
+    "Matter Blast": {
+      "name": "物质冲击 Matter Blast",
+      "description": "<p><span class=\"action-glyph\">1</span> 至 <span class=\"action-glyph\">2</span></p><p><strong>需求</strong> 你已绘制了一个法阵，并满足该法阵的需求。</p><hr /><p>你从法阵中汲取力量，重组附近的物质，将其化为对敌之兵刃。以你嬗变法阵所属的元素，对一个生物的 AC 进行一次近战或远程涌动攻击。近战物质冲击的伤害掷骰加上你的力量调整值。若你使用 2 动作的物质冲击，则你的伤害掷骰获得等同于你智力调整值的状态加值。 </p><p>元素决定伤害骰、伤害类型与射程（远程冲击时）。若伤害类型并非物理伤害类型，则该冲击获得对应的特征。就涌动、专长与先决条件而言，此活动视为元素冲击。</p><ul><li><strong>气</strong> 1d6 电击或挥砍，60 尺</li><li><strong>土</strong> 1d8 钝击或穿刺，30 尺</li><li><strong>火</strong> 1d6 火焰，射程 60 尺</li><li><strong>金</strong> 1d8 穿刺或挥砍，30 尺</li><li><strong>水</strong> 1d8 钝击或寒冷，30 尺</li><li><strong>木</strong> 1d8 钝击或命能，30 尺</li></ul><hr /><p><strong>大成功</strong> 目标承受双倍伤害。</p><p><strong>成功</strong> 目标承受全额伤害。</p><hr /><p><strong>等级 (+4)</strong> 伤害增加一枚骰子。</p>"
+    },
+    "Matter Expenditure": {
+      "name": "物质耗用 Matter Expenditure",
+      "description": "<p>你可以补充制剂，以防你的法阵破碎。你获得物质耗用这个自由动作。</p>"
+    },
+    "Matter-Expenditure": {
+      "name": "物质耗用 Matter-Expenditure",
+      "description": "<p><strong>成本</strong> 2 份万用制剂</p><hr /><p>你有能力通过耗用手边的物质来稳定物质。若你的下一个动作是使用具有满溢特征的涌动，你便以你所支付的万用制剂作为成本保住你的嬗变法阵，使其得以在通常的持续时间内保持生效。</p>"
+    },
+    "Morphic Vial": {
+      "name": "塑造制剂 Morphic Vial",
+      "description": "<p><strong>激发</strong> 1 交互</p><hr /><p>这只烧瓶中盛着一种蠕动的液体，仿佛充满了生机。当你以交互动作饮下这份制剂时，你会变得远为敏捷而强壮。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.CyCziUL6ERtcJoPs]{效果：塑造制剂}</p>"
+    },
+    "Protoplasmic Template": {
+      "name": "原生质模板 Protoplasmic Template",
+      "description": "<p><strong>激发</strong> 1 交互</p><hr /><p>这只小玻璃瓶迸发出生命，创造出一个听命于你的生物，或是充当你魔宠的共生体。你创造出一个小型生物，它如同魔宠一般运作，拥有所列数量的、由你选择的魔宠能力，并具有仆从特征。当你激发它时，该魔宠获得 2 个动作。若你选择这项效果，则该原生质制剂获得膨胀特征。 </p><p>或者，若你已拥有一个魔宠，你也可以改为将这只生物体作为共生体来强化你的魔宠，使其获得所列数量的魔宠能力。你可以在激发它时把该生物体附着到一个相邻的魔宠身上，或由该魔宠花费一个交互动作将其吞食。 </p><p>在选择魔宠能力时，你不能选择那些具有频率限制或提供额外资源的魔宠能力或主人能力，例如额外炼金或施法类的魔宠能力。</p>"
+    },
+    "Render Circle": {
+      "name": "绘制法阵 Render Circle",
+      "description": "<p><strong>成本</strong> 1 个嬗变法阵</p><p><strong>需求</strong> 你有一只手空闲。</p><hr /><p>你绘制出一个能让你操控物质的嬗变法阵。你绘制一个你已准备好的嬗变法阵。该法阵持续 1 分钟，或直到你使用具有满溢特征的涌动为止。</p><p>你可以把嬗变法阵绘制在一件你正握持或挥舞的物品上、一件穿戴的物品上，或绘制在以你为中心的 @Template[type:emanation|distance:10] 范围内。你可以使用绑定于该法阵的涌动，且你的物质冲击使用绑定于该法阵的元素。你可以把多个嬗变法阵施加于同一个区域或同一件物品上。</p><p><strong>物品</strong> 你把自己所占的空间视为你御能灵光的范围，且该范围随你的移动而移动。你必须正握持或挥舞该物品，或有一只手空闲，才能使用绑定于该法阵的涌动，包括你的物质冲击。 </p><p><strong>弥漫</strong> 你把该区域视为你御能灵光的范围，且该嬗变法阵的区域固定不动。你只有在该区域之内或与之相邻时，才能使用绑定于该法阵的涌动。</p>"
+    },
+    "Second Additional Impulse": {
+      "name": "第二项额外涌动 Second Additional Impulse",
+      "description": "<p>你获得一项额外的涌动</p>"
+    },
+    "Seventh Additional Impulse": {
+      "name": "第七项额外涌动 Seventh Additional Impulse",
+      "description": "<p>你获得一项额外的涌动</p>"
+    },
+    "Sixth Additional Impulse": {
+      "name": "第六项额外涌动 Sixth Additional Impulse",
+      "description": "<p>你获得一项额外的涌动</p>"
+    },
+    "Third Additional Impulse": {
+      "name": "第三项额外涌动 Third Additional Impulse",
+      "description": "<p>你获得一项额外的涌动</p>"
+    },
+    "Transmutation Expertise": {
+      "name": "嬗变专家训练 Transmutation Expertise",
+      "description": "<p>你在嬗变一道上已是专家，你的法阵也变得更为灵活。你的炼金术士职业 DC 熟练等级提升至专家。此外，你在每日准备期间可以准备的嬗变法阵数量提升至 4 + 你的智力调整值。</p>"
+    },
+    "Transmutation Mastery": {
+      "name": "嬗变大师训练 Transmutation Mastery",
+      "description": "<p>你已是嬗变一道的大师。你的炼金术士职业 DC 熟练等级提升至大师。</p>"
+    },
+    "Vivisective Vial": {
+      "name": "解剖制剂 Vivisective Vial",
+      "description": "<p><strong>激发</strong> 1 交互</p><hr /><p>这只小玻璃瓶中盛着一种强效药剂，可涂敷于武器之上。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.XCem5wH9reNZ0i5H]{效果：解剖制剂}</p>"
+    },
+    "Volatile Vial": {
+      "name": "易爆制剂 Volatile Vial",
+      "description": "<p><strong>激发</strong> 1 交互</p><hr /><p>这份制剂的挥发性极具破坏力，它会在 20 尺内的一片区域留下危险的火焰，以取代通常的效果。在该区域内开始其回合、或穿过其所占空间的生物会承受伤害。该危险地形持续 1 分钟。</p>"
+    }
+  }
+}

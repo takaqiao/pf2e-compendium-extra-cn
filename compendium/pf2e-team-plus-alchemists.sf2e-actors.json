@@ -1,0 +1,20 @@
+{
+  "label": "角色（SF2e） Actors",
+  "entries": {
+    "Clay Homunculus": {
+      "name": "黏土人造人 Clay Homunculus",
+      "tokenName": "黏土人造人 Clay Homunculus",
+      "prototypeToken": "黏土人造人 Clay Homunculus",
+      "items": {
+        "Homunculus Teamwork": {
+          "name": "人造人协作 Homunculus Teamwork",
+          "description": "<p>多个人造人能迅速完成各项任务。你可以用单个动作命令所有由你创造、且能听见你的人造人协同工作，共同执行一项任务。在与其他人造人协同工作时，这些人造人为检定提供 +2 环境加值；若在场的人造人足够多，它们还能尝试那些通常需要更大体型生物才能进行的检定。在判定体型时，2 个人造人视为小型生物，4 个人造人视为中型生物，8 个人造人视为大型生物，16 个人造人视为超大型生物，32 个人造人视为巨型生物。</p>"
+        },
+        "Clay Body": {
+          "name": "黏土之躯 Clay Body",
+          "description": "<p>黏土人造人非常脆弱。它无法进行打击，也无法以攻击瞄准生物。</p>"
+        }
+      }
+    }
+  }
+}
