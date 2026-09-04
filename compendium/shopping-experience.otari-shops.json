@@ -310,7 +310,7 @@
         },
         "Thieves' Toolkit (Infiltrator Picks)": {
           "name": "专家级盗贼工具包-替换开锁器 Thieves' Toolkit (Infiltrator Picks)",
-          "description": "<p>这些是@UUID[Compendium.pf2e.equipment-srd.Item.6nrCxNQFycUVFOV2]{专家级盗贼工具包 Thieves' Toolkit (Infiltrator)}的替换开锁器。</p>"
+          "description": "<p>这些是@UUID[Compendium.pf2e.equipment-srd.Item.6nrCxNQFycUVFOV2]{专家级盗贼工具包}的替换开锁器。</p>"
         },
         "Disguise Kit (Replacement Cosmetics)": {
           "name": "化装工具包-替换化妆品 Disguise Kit (Replacement Cosmetics)",
@@ -1130,7 +1130,7 @@
         },
         "Viper Arrow": {
           "name": "蝰蛇箭 Viper Arrow",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span> 命令</p>\n<p>这支箭的箭杆包裹着细密的绿色鳞片，铁质箭头分作两个尖端，几乎像一对毒牙。</p>\n<p>启动后的蝰蛇箭命中目标后，箭矢会变成一条@UUID[Compendium.pf2e.pathfinder-bestiary.Actor.lFlXmieuHTBIonhj]{蝰蛇}。目标如同被咬中一般受到蝰蛇毒液的影响。随后蝰蛇落在与目标邻接的一个空位上。</p>\n<p>这条蝰蛇带有被召唤特征，即使你没有使用维持法术动作，它也会在你回合结束时行动。它由GM控制，但通常会攻击被箭射中的那个生物。蝰蛇在1分钟后消失，被杀死时也会消失。</p>\n<p><strong>制作需求</strong> 提供一次@UUID[Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu]{召唤动物}的施法</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span> 命令</p>\n<p>这支箭的箭杆包裹着细密的绿色鳞片，铁质箭头分作两个尖端，几乎像一对毒牙。</p>\n<p>启动后的蝰蛇箭命中目标后，箭矢会变成一条@UUID[Compendium.pf2e.pathfinder-monster-core.Actor.1uVwkGlqYzyWaDMy]{蝰蛇}。目标如同被咬中一般受到蝰蛇毒液的影响。随后蝰蛇落在与目标邻接的一个空位上。</p>\n<p>这条蝰蛇带有被召唤特征，即使你没有使用维持法术动作，它也会在你回合结束时行动。它由GM控制，但通常会攻击被箭射中的那个生物。蝰蛇在1分钟后消失，被杀死时也会消失。</p>\n<p><strong>制作需求</strong> 提供一次@UUID[Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu]{召唤动物}的施法</p>"
         },
         "Salve of Slipperiness": {
           "name": "滑溜软膏 Salve of Slipperiness",
@@ -1166,7 +1166,7 @@
         },
         "Gecko Potion": {
           "name": "壁虎药水 Gecko Potion",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p><em>壁虎药水</em>是一种粘稠的黄褐色药水，其中悬浮着一些沙粒。喝下这瓶药水后5分钟内，你的指尖会长出上千根极其微小的刚毛，使其能吸附在物体上。你在@UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]和@UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]{手上功夫 Palm an Object}检定和对抗@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}的反射豁免DC上获得+1物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.buJnkFBzL4e22ASp]{效果：壁虎药水}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p><em>壁虎药水</em>是一种粘稠的黄褐色药水，其中悬浮着一些沙粒。喝下这瓶药水后5分钟内，你的指尖会长出上千根极其微小的刚毛，使其能吸附在物体上。你在@UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]和@UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]{手上功夫}检定和对抗@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}的反射豁免DC上获得+1物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.buJnkFBzL4e22ASp]{效果：壁虎药水}</p>"
         },
         "Fear Gem": {
           "name": "恐惧宝石 Fear Gem",
@@ -1345,7 +1345,7 @@
         },
         "Beacon Shot": {
           "name": "信标箭矢 Beacon Shot",
-          "description": "<p><strong>弹药</strong> 箭，矢 </p>\n<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p><em>信标箭矢</em>的杆上装点着闪闪发亮的宝石微粒。当一支启动的<em>信标箭矢</em>命中了一个目标，它牢牢嵌入目标体内并喷出火星，持续1分钟。如果目标是 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形 Invisible}的，他在本来不能看到他的生物眼中变成了@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]。如果目标处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]状态，火星也能抵消掉该状态。</p>\n<p>生物可以通过一个交互动作，并成功通过一个@Check[type:athletics|dc:20|name:Remove Beacon Shot]检定以移除嵌入体内的箭或矢。</p>"
+          "description": "<p><strong>弹药</strong> 箭，矢 </p>\n<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p><em>信标箭矢</em>的杆上装点着闪闪发亮的宝石微粒。当一支启动的<em>信标箭矢</em>命中了一个目标，它牢牢嵌入目标体内并喷出火星，持续1分钟。如果目标是 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}的，他在本来不能看到他的生物眼中变成了@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]。如果目标处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]状态，火星也能抵消掉该状态。</p>\n<p>生物可以通过一个交互动作，并成功通过一个@Check[type:athletics|dc:20|name:Remove Beacon Shot]检定以移除嵌入体内的箭或矢。</p>"
         },
         "Potion of Leaping": {
           "name": "跳跃药水 Potion of Leaping",
@@ -1584,7 +1584,7 @@
         },
         "Thieves' Toolkit (Infiltrator Picks)": {
           "name": "专家级盗贼工具包-替换开锁器 Thieves' Toolkit (Infiltrator Picks)",
-          "description": "<p>这些是@UUID[Compendium.pf2e.equipment-srd.Item.6nrCxNQFycUVFOV2]{专家级盗贼工具包 Thieves' Toolkit (Infiltrator)}的替换开锁器。</p>"
+          "description": "<p>这些是@UUID[Compendium.pf2e.equipment-srd.Item.6nrCxNQFycUVFOV2]{专家级盗贼工具包}的替换开锁器。</p>"
         },
         "Blue Dragonfly Poison": {
           "name": "蓝蜻蜓毒 Blue Dragonfly Poison",
@@ -1603,11 +1603,11 @@
           "description": "<p>巨蟾蜍的毒腺可以作为一种特殊的毒药原料被采集，诨名为“蟾蜍泪”（可能是由于采集过程需要从眼睛后面挖出毒腺）。一只巨蟾蜍的毒腺可以提供制造一剂毒药的材料。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">A</span> 交互（摄入）</p>\n<p><strong>豁免检定</strong> @Check[type:fortitude|dc:19]</p>\n<p><strong>潜伏期</strong> 5分钟</p>\n<p><strong>最大持续时间</strong> 30分钟</p>\n<p><strong>阶段1</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1} (10分钟）</p>\n<p><strong>阶段2</strong> 呆滞1和@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑} (1分钟）</p>"
         },
         "Thieves' Tools (Concealable Picks)": {
-          "description": "<p>这是一些 @UUID[Compendium.pf2e.equipment-srd.Item.Ejmv9IHGp9Ad9dgu]{盗贼工具包（隐蔽）Thieves' Tools (Concealable)}的替换品。</p>",
+          "description": "<p>这是一些 @UUID[Compendium.pf2e.equipment-srd.Item.Ejmv9IHGp9Ad9dgu]{盗贼工具包（隐蔽）}的替换品。</p>",
           "name": "盗贼工具包（隐蔽替换品） Thieves' Tools (Concealable Picks)"
         },
         "Thieves' Tools (Concealable)": {
-          "description": "<p>你需要盗贼工具包来使用贼活技能@UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{开锁}或@UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{解除装置}。 专家级盗贼工具包提供你在开锁和解除装置的检定+1物品加值。</p>\n<p>小巧的结构和结实的材料使得这套盗贼工具包更容易贴身携带而不被发现。你使用@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]{隐藏物件 Conceal a Object}隐藏这套盗贼工具包时获得+1物品加值</p>\n<p>如果你的盗贼工具损坏了，你可以用换上新的适合你工具的 @UUID[Compendium.pf2e.equipment-srd.Item.TxMFNfkoccirCitP]{开锁器}的方式来修理它们。这不需要使用修复操作。</p>",
+          "description": "<p>你需要盗贼工具包来使用贼活技能@UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{开锁}或@UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{解除装置}。 专家级盗贼工具包提供你在开锁和解除装置的检定+1物品加值。</p>\n<p>小巧的结构和结实的材料使得这套盗贼工具包更容易贴身携带而不被发现。你使用@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]{隐藏物件}隐藏这套盗贼工具包时获得+1物品加值</p>\n<p>如果你的盗贼工具损坏了，你可以用换上新的适合你工具的 @UUID[Compendium.pf2e.equipment-srd.Item.TxMFNfkoccirCitP]{开锁器}的方式来修理它们。这不需要使用修复操作。</p>",
           "name": "盗贼工具包（隐蔽） Thieves' Tools (Concealable)"
         }
       },

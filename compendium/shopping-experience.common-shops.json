@@ -33,7 +33,7 @@
         },
         "Elixir of Life (Moderate)": {
           "name": "中等生命灵药 Elixir of Life (Moderate)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>生命灵药能加速活物的自然愈合进程并增强其免疫系统。饮下此灵药后，你恢复[[/r (5d6+12)[healing]]]{5d6+12点生命值}，并在10分钟内于对抗疾病和毒素的豁免上获得+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Yxssrnh9UZJAM0V7]{效果：中等生命灵药}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>生命灵药能加速活物的自然愈合进程并增强其免疫系统。饮下此灵药后，你恢复[[/r (5d6+12)[healing]]]{5d6+12点生命值}，并在10分钟内于对抗疾病和毒素的豁免上获得+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{效果：中等生命灵药}</p>"
         },
         "Vanishing Coin": {
           "name": "消失钱币 Vanishing Coin",
@@ -45,7 +45,7 @@
         },
         "Potion of Cold Resistance (Moderate)": {
           "name": "中等寒冷抗力药水 Potion of Cold Resistance (Moderate)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>喝下这瓶厚重滋补的药水后，你获得针对寒冷伤害的10点抗力，持续1小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.KYzuzY8TNZmwqgBx]{效果：中等寒冷抗力药水}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>喝下这瓶厚重滋补的药水后，你获得针对寒冷伤害的10点抗力，持续1小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Iw3CtHFpD3gGVjis]{效果：中等寒冷抗力药水}</p>"
         },
         "Daredevil Boots": {
           "name": "鲁莽者之靴 Daredevil Boots",
@@ -53,11 +53,11 @@
         },
         "Cloak of the Bat": {
           "name": "蝙蝠披风 Cloak of the Bat",
-          "description": "<p>这件披风是由几条棕色和黑色的贵重丝带缝纫而成的，能够在隐秘检定上为你提供+2物品加值，同时在用来@UUID[Compendium.pf2e.actionspf2e.Item.Qf1ylAbdVi1rkc8M]{空中机动 Maneuver in Flight}的特技检定中提供+2物品加值。你也可以用你的脚挂在任何能承载你的体重的表面上，但如果你需要在倒挂时移动，你仍然需要尝试一次运动检定进行@UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">D</span> 命令，交互</p>\n<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p><strong>效果</strong> 你可以将披风转变成如蝙蝠一样的翅膀，这能为你提供30尺的飞行速度，持续10分钟；你也可以对自己施展一次4环级的 @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{害兽形态 Pest Form} 将自己变成一只蝙蝠。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.ioGzmVSmMGXWWBYb]{效果：蝙蝠披风}</p>"
+          "description": "<p>这件披风是由几条棕色和黑色的贵重丝带缝纫而成的，能够在隐秘检定上为你提供+2物品加值，同时在用来@UUID[Compendium.pf2e.actionspf2e.Item.Qf1ylAbdVi1rkc8M]{空中机动}的特技检定中提供+2物品加值。你也可以用你的脚挂在任何能承载你的体重的表面上，但如果你需要在倒挂时移动，你仍然需要尝试一次运动检定进行@UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">D</span> 命令，交互</p>\n<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p><strong>效果</strong> 你可以将披风转变成如蝙蝠一样的翅膀，这能为你提供30尺的飞行速度，持续10分钟；你也可以对自己施展一次4环级的 @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{害兽形态} 将自己变成一只蝙蝠。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.ioGzmVSmMGXWWBYb]{效果：蝙蝠披风}</p>"
         },
         "Potion of Fire Resistance (Moderate)": {
           "name": "中等火焰抗力药水 Potion of Fire Resistance (Moderate)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>喝下这瓶厚重滋补的药水后，你获得针对火焰伤害的10点抗力，持续1小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.8zKGaGrkTd8ALqJO]{效果：中等火焰抗力药水}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>喝下这瓶厚重滋补的药水后，你获得针对火焰伤害的10点抗力，持续1小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.34gtdURRTZMS5bDK]{效果：中等火焰抗力药水}</p>"
         },
         "Phylactery of Faithfulness": {
           "name": "虔信经匣 Phylactery of Faithfulness",
@@ -113,7 +113,7 @@
         },
         "Sleeves of Storage (Greater)": {
           "name": "高等袖里乾坤 Sleeves of Storage (Greater)",
-          "description": "<p>这身松垮的长袍有一对空间宽大的袖筒，每只袖筒中都藏着一个异次元空间。它们的作用与@UUID[Compendium.pf2e.equipment-srd.Item.jaEEvuQ32GjAa8jy]{I型空间袋 Spacious Pouch(Type I)}类似，能容纳至多20负载的物品（两只总计40负载），但单件物品不得超过1负载；袖筒会在满负载时略微变重。你可以使用一只未被占用的手进行交互动作来从一只袖筒中取出一件物品。</p>\n<p>若一只袖筒被完全清空，你可以将自己的魔宠置入该异次元空间。它可以在你的袖筒中舒适地生存至多4小时，但随后就会开始<em>窒息</em>。在你的袖筒中，它不会成为任何效果的对象，也不受任何效果的影响，但你也不会从任何主人能力中获益。一名魔宠可以使用一个具有<em>操作</em>和<em>移动</em>特征的单动作来离开袖筒。你无法将其它生物置入袖筒，也无法将体型大于超小型的魔宠置入袖筒。当你的魔宠位于袖筒中时，你无法向该袖筒中放置物品。</p>"
+          "description": "<p>这身松垮的长袍有一对空间宽大的袖筒，每只袖筒中都藏着一个异次元空间。它们的作用与@UUID[Compendium.pf2e.equipment-srd.Item.jaEEvuQ32GjAa8jy]{I型空间袋}类似，能容纳至多20负载的物品（两只总计40负载），但单件物品不得超过1负载；袖筒会在满负载时略微变重。你可以使用一只未被占用的手进行交互动作来从一只袖筒中取出一件物品。</p>\n<p>若一只袖筒被完全清空，你可以将自己的魔宠置入该异次元空间。它可以在你的袖筒中舒适地生存至多4小时，但随后就会开始<em>窒息</em>。在你的袖筒中，它不会成为任何效果的对象，也不受任何效果的影响，但你也不会从任何主人能力中获益。一名魔宠可以使用一个具有<em>操作</em>和<em>移动</em>特征的单动作来离开袖筒。你无法将其它生物置入袖筒，也无法将体型大于超小型的魔宠置入袖筒。当你的魔宠位于袖筒中时，你无法向该袖筒中放置物品。</p>"
         }
       },
       "name": "（10级 武器）洛登·雪飘 (Level 10 Weapons) Lodem Snowdraft",
@@ -265,7 +265,7 @@
         },
         "Thieves' Toolkit (Infiltrator Picks)": {
           "name": "专家级盗贼工具包-替换开锁器 Thieves' Toolkit (Infiltrator Picks)",
-          "description": "<p>这些是@UUID[Compendium.pf2e.equipment-srd.Item.6nrCxNQFycUVFOV2]{专家级盗贼工具包 Thieves' Toolkit (Infiltrator)}的替换开锁器。</p>"
+          "description": "<p>这些是@UUID[Compendium.pf2e.equipment-srd.Item.6nrCxNQFycUVFOV2]{专家级盗贼工具包}的替换开锁器。</p>"
         },
         "Mentalist's Staff": {
           "name": "心灵师法杖 Mentalist's Staff",
@@ -541,7 +541,7 @@
       "items": {
         "Sleeves of Storage": {
           "name": "袖里乾坤 Sleeves of Storage",
-          "description": "<p>这身松垮的长袍有一对空间宽大的袖筒，每只袖筒中都藏着一个异次元空间。它们的作用与@UUID[Compendium.pf2e.equipment-srd.Item.jaEEvuQ32GjAa8jy]{I型空间袋 Spacious Pouch(Type I)}类似，能容纳至多5负载的物品（两只总计10负载），但单件物品不得超过1负载；袖筒会在满负载时略微变重。你可以使用一只未被占用的手进行交互动作来从一只袖筒中取出一件物品。</p>\n<p>若一只袖筒被完全清空，你可以将自己的魔宠置入该异次元空间。它可以在你的袖筒中舒适地生存至多1小时，但随后就会开始<em>窒息</em>。在你的袖筒中，它不会成为任何效果的对象，也不受任何效果的影响，但你也不会从任何主人能力中获益。一名魔宠可以使用一个具有<em>操作</em>和<em>移动</em>特征的单动作来离开袖筒。你无法将其它生物置入袖筒，也无法将体型大于超小型的魔宠置入袖筒。当你的魔宠位于袖筒中时，你无法向该袖筒中放置物品。</p>"
+          "description": "<p>这身松垮的长袍有一对空间宽大的袖筒，每只袖筒中都藏着一个异次元空间。它们的作用与@UUID[Compendium.pf2e.equipment-srd.Item.jaEEvuQ32GjAa8jy]{I型空间袋}类似，能容纳至多5负载的物品（两只总计10负载），但单件物品不得超过1负载；袖筒会在满负载时略微变重。你可以使用一只未被占用的手进行交互动作来从一只袖筒中取出一件物品。</p>\n<p>若一只袖筒被完全清空，你可以将自己的魔宠置入该异次元空间。它可以在你的袖筒中舒适地生存至多1小时，但随后就会开始<em>窒息</em>。在你的袖筒中，它不会成为任何效果的对象，也不受任何效果的影响，但你也不会从任何主人能力中获益。一名魔宠可以使用一个具有<em>操作</em>和<em>移动</em>特征的单动作来离开袖筒。你无法将其它生物置入袖筒，也无法将体型大于超小型的魔宠置入袖筒。当你的魔宠位于袖筒中时，你无法向该袖筒中放置物品。</p>"
         },
         "Salamander Elixir (Lesser)": {
           "name": "次等火蜥蜴灵药 Salamander Elixir (Lesser)",
@@ -939,7 +939,7 @@
         },
         "Potion of Fire Resistance (Lesser)": {
           "name": "次等火焰抗力药水 Potion of Fire Resistance (Lesser)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>喝下这瓶浓稠的强身药水后，你获得针对火焰伤害的抗力5，持续1小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.OwHOtzI31nrfYKQ9]{效果：次等火焰抗力药水}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>喝下这瓶浓稠的强身药水后，你获得针对火焰伤害的抗力5，持续1小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.34gtdURRTZMS5bDK]{效果：次等火焰抗力药水}</p>"
         },
         "Energy Breath Potion (Cold, Lesser)": {
           "name": "次等寒冷能量吐息药水 Energy Breath Potion (Cold, Lesser)",
@@ -1099,7 +1099,7 @@
       "items": {
         "Elixir of Life (Lesser)": {
           "name": "次等生命灵药 Elixir of Life (Lesser)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>生命灵药能加速活物的自然愈合进程与免疫系统。饮下这瓶灵药后，你恢复[[/r (3d6+6)[healing]]]{3d6+6点生命值}，并在10分钟内于对抗疾病和毒素的豁免上获得+1物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.EpB7yJPEuG6ez4z3]{效果：次等生命灵药}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>生命灵药能加速活物的自然愈合进程与免疫系统。饮下这瓶灵药后，你恢复[[/r (3d6+6)[healing]]]{3d6+6点生命值}，并在10分钟内于对抗疾病和毒素的豁免上获得+1物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{效果：次等生命灵药}</p>"
         },
         "Sturdy Shield (Minor)": {
           "name": "下等百炼盾 Sturdy Shield (Minor)",
@@ -1107,11 +1107,11 @@
         },
         "Antidote (Moderate)": {
           "name": "中等解毒剂 Antidote (Moderate)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>解毒剂能保护你抵御毒物。饮下解毒剂后，你在对抗毒素的强韧豁免上获得+3物品加值，持续6小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.mi4Md1fB2XThCand]{效果：中等解毒剂}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>解毒剂能保护你抵御毒物。饮下解毒剂后，你在对抗毒素的强韧豁免上获得+3物品加值，持续6小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]{效果：中等解毒剂}</p>"
         },
         "Vermin Repellent Agent (Lesser)": {
           "name": "次等驱虫药剂 Vermin Repellent Agent (Lesser)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">3</span> 交互</p>\n<hr />\n<p>这种特制乳膏可作驱虫剂，用以驱赶昆虫。</p>\n<p>驱虫剂还会与若干常见的昆虫毒液结合，削弱其效力，并增强穿戴者免疫系统对毒液的抵抗。</p>\n<p>涂抹到皮肤上后，驱虫剂令你在对抗毒素的强韧豁免上获得+1物品加值，持续4小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.OAN5Fj21PJPhIqRU]{效果：次等驱虫药剂}</p>\n<hr />\n<p>此外，任何节肢动物（昆虫、蜘蛛、蝎子、螃蟹及类似的无脊椎动物）在尝试以近战打击攻击你，或以集群攻击（例如蜘蛛群的蜂拥撕咬）攻击你时，都必须尝试一次意志豁免（DC 17）。该节肢动物随后临时免疫1分钟。</p>\n<hr />\n<p><strong>大成功</strong> 该生物可以正常行动。</p>\n<p><strong>成功</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p>\n<p><strong>失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}。</p>\n<p><strong>大失败</strong> 该生物陷入惊惧2，并且@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}。</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">3</span> 交互</p>\n<hr />\n<p>这种特制乳膏可作驱虫剂，用以驱赶昆虫。</p>\n<p>驱虫剂还会与若干常见的昆虫毒液结合，削弱其效力，并增强穿戴者免疫系统对毒液的抵抗。</p>\n<p>涂抹到皮肤上后，驱虫剂令你在对抗毒素的强韧豁免上获得+1物品加值，持续4小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.UhV9TLdFjtSOppog]{效果：次等驱虫药剂}</p>\n<hr />\n<p>此外，任何节肢动物（昆虫、蜘蛛、蝎子、螃蟹及类似的无脊椎动物）在尝试以近战打击攻击你，或以集群攻击（例如蜘蛛群的蜂拥撕咬）攻击你时，都必须尝试一次意志豁免（DC 17）。该节肢动物随后临时免疫1分钟。</p>\n<hr />\n<p><strong>大成功</strong> 该生物可以正常行动。</p>\n<p><strong>成功</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p>\n<p><strong>失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}。</p>\n<p><strong>大失败</strong> 该生物陷入惊惧2，并且@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}。</p>"
         },
         "Mistform Elixir (Lesser)": {
           "name": "次等雾化灵药 Mistform Elixir (Lesser)",
@@ -1151,7 +1151,7 @@
         },
         "Antiplague (Moderate)": {
           "name": "中等抗生素 Antiplague (Moderate)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>抗生素能强化身体对疾病的抵抗。饮下抗生素后，你在对抗疾病的强韧豁免上获得+3物品加值，持续24小时；这一加值同样适用于你对抗疾病发展的每日豁免。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.HeRHBo2NaKy5IxhU]{效果：中等抗生素}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>抗生素能强化身体对疾病的抵抗。饮下抗生素后，你在对抗疾病的强韧豁免上获得+3物品加值，持续24小时；这一加值同样适用于你对抗疾病发展的每日豁免。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.mVgLCbZgafIylRzh]{效果：中等抗生素}</p>"
         },
         "Thunderstone (Moderate)": {
           "name": "中等暴雷石 Thunderstone (Moderate)",
@@ -1183,7 +1183,7 @@
         },
         "Eagle Eye Elixir (Moderate)": {
           "name": "中等鹰眼灵药 Eagle Eye Elixir (Moderate)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>饮下这瓶灵药后，你能注意到细微的视觉细节。在接下来的一小时内，你在察觉检定上获得+2物品加值，用于寻找密门和陷阱时则为+3。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Wa4317cqU4lJ8vAQ]{效果：中等鹰眼灵药}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>饮下这瓶灵药后，你能注意到细微的视觉细节。在接下来的一小时内，你在察觉检定上获得+2物品加值，用于寻找密门和陷阱时则为+3。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.VOSQ77DV4BnAkP7m]{效果：中等鹰眼灵药}</p>"
         },
         "Stone Fist Elixir": {
           "name": "石拳灵药 Stone Fist Elixir",
@@ -1195,7 +1195,7 @@
         },
         "Frost Vial (Moderate)": {
           "name": "中等霜冻瓶 Frost Vial (Moderate)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 打击</p>\n<hr />\n<p>这支小瓶中的液态试剂一旦接触空气便迅速吸热。霜冻瓶造成所列的寒冷伤害与寒冷溅射伤害。命中时，目标在其速度上承受状态减值，直到它的下一回合结束。许多种类的霜冻瓶还会在攻击骰上提供物品加值。</p>\n<p>你在攻击骰上获得+1物品加值，该炸弹造成2d6寒冷伤害和2点寒冷溅射伤害，目标承受-10尺减值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.dv0IKm5syOdP759w]{效果：中等霜冻瓶}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 打击</p>\n<hr />\n<p>这支小瓶中的液态试剂一旦接触空气便迅速吸热。霜冻瓶造成所列的寒冷伤害与寒冷溅射伤害。命中时，目标在其速度上承受状态减值，直到它的下一回合结束。许多种类的霜冻瓶还会在攻击骰上提供物品加值。</p>\n<p>你在攻击骰上获得+1物品加值，该炸弹造成2d6寒冷伤害和2点寒冷溅射伤害，目标承受-10尺减值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.LdmzgBOTjCete4F7]{效果：中等霜冻瓶}</p>"
         },
         "Leather Armor": {
           "name": "皮甲 Leather Armor",
@@ -1239,7 +1239,7 @@
         },
         "Elixir of Life (Greater)": {
           "name": "高等生命灵药 Elixir of Life (Greater)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>生命灵药能加速活物的自然愈合进程并增强其免疫系统。饮下这瓶灵药后，你恢复[[/r (7d6+18)[healing]]]{7d6+18 生命值}，并在10分钟内于对抗疾病与毒素的豁免检定上获得+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Z9oPh462q82IYIZ6]{效果：高等生命灵药}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>生命灵药能加速活物的自然愈合进程并增强其免疫系统。饮下这瓶灵药后，你恢复[[/r (7d6+18)[healing]]]{7d6+18 生命值}，并在10分钟内于对抗疾病与毒素的豁免检定上获得+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{效果：高等生命灵药}</p>"
         },
         "Demon Armor": {
           "name": "恶魔甲 Demon Armor",
@@ -1275,7 +1275,7 @@
         },
         "Elixir of Life (Major)": {
           "name": "上等生命灵药 Elixir of Life (Major)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>生命灵药能加速活物的自然愈合进程并增强其免疫系统。饮下这瓶灵药后，你恢复[[/r (8d6+21)[healing]]]{8d6+21 生命值}，并在10分钟内于对抗疾病与毒素的豁免检定上获得+3物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.PpLxndUSgzgs6dd0]{效果：上等生命灵药}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>生命灵药能加速活物的自然愈合进程并增强其免疫系统。饮下这瓶灵药后，你恢复[[/r (8d6+21)[healing]]]{8d6+21 生命值}，并在10分钟内于对抗疾病与毒素的豁免检定上获得+3物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{效果：上等生命灵药}</p>"
         },
         "Wovenwood Shield (Major)": {
           "name": "上等织木盾 Wovenwood Shield (Major)",
@@ -1295,11 +1295,11 @@
         },
         "Potion of Acid Resistance (Greater)": {
           "name": "高等酸蚀抗力药水 Potion of Acid Resistance (Greater)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>饮下这瓶浓稠而强身的药水，可在1小时内获得酸蚀伤害抗力15。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.sEa4TGXGBxku1V7o]{效果：高等酸蚀抗力药水}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>饮下这瓶浓稠而强身的药水，可在1小时内获得酸蚀伤害抗力15。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.k8Gt8zfPOhkYOn1A]{效果：高等酸蚀抗力药水}</p>"
         },
         "Fanged (Major)": {
           "name": "上等獠牙 Fanged (Major)",
-          "description": "<p>当蚀刻上这枚符文时，武器的柄或杆上会浮现出与狼牙印记吻合的凹槽。把<em>獠牙</em>武器叼在嘴里，你就可以变身为一只动物。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互（魔法，变形，变化系）</p>\n<hr />\n<p><strong>效果</strong> 你变身为一种小型或中型动物，用嘴叼着<em>獠牙</em>武器；该动物与你联系最紧密的动物相匹配（蜥蜴人会变成蜥蜴，狐妖变成狐狸，动物本能为鹿的野蛮人变成鹿，诸如此类），若没有特定的动物适用，则变成狼。在这种形态下，即使你没有手，也依然能用<em>獠牙</em>武器攻击。然而你只能用<em>獠牙</em>武器攻击，你没有手，也没有持握物品的能力。对于取决于你用几只手持握物品的效果（比如双手特性），你视为用两只手持握该武器。你可以解消这个效果；如果你丢下<em>獠牙</em>武器（无论是否出于你的意愿），效果会自动结束。</p>\n<p>在动物形态下，你获得昏暗视觉、30尺范围内的模糊嗅觉，以及速度上的+10尺物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.mkjcgwDBeaOUolVe]{效果：上等獠牙符文动物形态}</p>"
+          "description": "<p>当蚀刻上这枚符文时，武器的柄或杆上会浮现出与狼牙印记吻合的凹槽。把<em>獠牙</em>武器叼在嘴里，你就可以变身为一只动物。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互（魔法，变形，变化系）</p>\n<hr />\n<p><strong>效果</strong> 你变身为一种小型或中型动物，用嘴叼着<em>獠牙</em>武器；该动物与你联系最紧密的动物相匹配（蜥蜴人会变成蜥蜴，狐妖变成狐狸，动物本能为鹿的野蛮人变成鹿，诸如此类），若没有特定的动物适用，则变成狼。在这种形态下，即使你没有手，也依然能用<em>獠牙</em>武器攻击。然而你只能用<em>獠牙</em>武器攻击，你没有手，也没有持握物品的能力。对于取决于你用几只手持握物品的效果（比如双手特性），你视为用两只手持握该武器。你可以解消这个效果；如果你丢下<em>獠牙</em>武器（无论是否出于你的意愿），效果会自动结束。</p>\n<p>在动物形态下，你获得昏暗视觉、30尺范围内的模糊嗅觉，以及速度上的+10尺物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.zDQmjp5YSwZtrgX9]{效果：上等獠牙符文动物形态}</p>"
         },
         "Deflecting Branch": {
           "name": "偏斜之枝 Deflecting Branch",
@@ -1459,7 +1459,7 @@
         },
         "Beacon Shot": {
           "name": "信标箭矢 Beacon Shot",
-          "description": "<p><strong>弹药</strong> 箭，矢 </p>\n<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p><em>信标箭矢</em>的杆上装点着闪闪发亮的宝石微粒。当一支启动的<em>信标箭矢</em>命中了一个目标，它牢牢嵌入目标体内并喷出火星，持续1分钟。如果目标是 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形 Invisible}的，他在本来不能看到他的生物眼中变成了@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]。如果目标处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]状态，火星也能抵消掉该状态。</p>\n<p>生物可以通过一个交互动作，并成功通过一个@Check[type:athletics|dc:20|name:Remove Beacon Shot]检定以移除嵌入体内的箭或矢。</p>"
+          "description": "<p><strong>弹药</strong> 箭，矢 </p>\n<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p><em>信标箭矢</em>的杆上装点着闪闪发亮的宝石微粒。当一支启动的<em>信标箭矢</em>命中了一个目标，它牢牢嵌入目标体内并喷出火星，持续1分钟。如果目标是 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}的，他在本来不能看到他的生物眼中变成了@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]。如果目标处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]状态，火星也能抵消掉该状态。</p>\n<p>生物可以通过一个交互动作，并成功通过一个@Check[type:athletics|dc:20|name:Remove Beacon Shot]检定以移除嵌入体内的箭或矢。</p>"
         },
         "Rope of Climbing (Moderate)": {
           "name": "中等攀爬绳 Rope of Climbing (Moderate)",
@@ -1503,7 +1503,7 @@
         },
         "Vermin Repellent Agent (Major)": {
           "name": "上等驱虫药剂 Vermin Repellent Agent (Major)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">3</span> 交互</p>\n<hr />\n<p>这种特制乳膏可作为驱虫剂，用来驱避昆虫。</p>\n<p>驱虫剂还能与多种常见的昆虫毒液结合，削弱其效力，并增强穿戴者的免疫系统以抵抗毒液。</p>\n<p>一旦涂抹在皮肤上，驱虫剂会在4小时内给予你对抗毒素的强韧豁免+4物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.e6dXfbKzv5sNr1zh]{效果：上等驱虫药剂}</p>\n<hr />\n<p>此外，任何节肢动物（昆虫、蜘蛛、蝎子、螃蟹以及类似的无脊椎动物）在试图以近战打击攻击你时，或以集群攻击（例如蜘蛛群的蜂拥撕咬）攻击你时，都必须尝试一次意志豁免（DC 35）。该节肢动物随后获得1分钟的临时免疫。</p>\n<hr />\n<p><strong>大成功</strong> 该生物可以正常行动。</p>\n<p><strong>成功</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p>\n<p><strong>失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}。</p>\n<p><strong>大失败</strong> 该生物陷入惊惧2，并且@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}。</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">3</span> 交互</p>\n<hr />\n<p>这种特制乳膏可作为驱虫剂，用来驱避昆虫。</p>\n<p>驱虫剂还能与多种常见的昆虫毒液结合，削弱其效力，并增强穿戴者的免疫系统以抵抗毒液。</p>\n<p>一旦涂抹在皮肤上，驱虫剂会在4小时内给予你对抗毒素的强韧豁免+4物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.UhV9TLdFjtSOppog]{效果：上等驱虫药剂}</p>\n<hr />\n<p>此外，任何节肢动物（昆虫、蜘蛛、蝎子、螃蟹以及类似的无脊椎动物）在试图以近战打击攻击你时，或以集群攻击（例如蜘蛛群的蜂拥撕咬）攻击你时，都必须尝试一次意志豁免（DC 35）。该节肢动物随后获得1分钟的临时免疫。</p>\n<hr />\n<p><strong>大成功</strong> 该生物可以正常行动。</p>\n<p><strong>成功</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p>\n<p><strong>失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}。</p>\n<p><strong>大失败</strong> 该生物陷入惊惧2，并且@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}。</p>"
         },
         "Staff of Phantasms (Major)": {
           "name": "上等魅影法杖 Staff of Phantasms (Major)",
@@ -1519,7 +1519,7 @@
         },
         "Frost Brand": {
           "name": "霜烙 Frost Brand",
-          "description": "<p>这柄<em>+2高等强击@UUID[Compendium.pf2e.equipment-srd.Item.Sexud7FdxIrg50vU]{高等冻寒 Frost (Greater)}巨剑</em>简单得像冰之碎片。<em>霜烙</em>会自动熄灭@Template[type:emanation|distance:20]范围内所有非魔法火焰。持握它时，你获得火焰抗力5。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令，交互</p>\n<p><strong>效果</strong> 你将<em>霜烙</em>插入正持续的魔法火焰区域中，剑刃会以[[/r 1d20+27 #Counteract]]{+27}的反制调整值尝试反制该火焰。若失败，它无法再次尝试反制同一火焰。</p>"
+          "description": "<p>这柄<em>+2高等强击@UUID[Compendium.pf2e.equipment-srd.Item.Sexud7FdxIrg50vU]{高等冻寒}巨剑</em>简单得像冰之碎片。<em>霜烙</em>会自动熄灭@Template[type:emanation|distance:20]范围内所有非魔法火焰。持握它时，你获得火焰抗力5。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令，交互</p>\n<p><strong>效果</strong> 你将<em>霜烙</em>插入正持续的魔法火焰区域中，剑刃会以[[/r 1d20+27 #Counteract]]{+27}的反制调整值尝试反制该火焰。若失败，它无法再次尝试反制同一火焰。</p>"
         },
         "Scroll of Canticle of Everlasting Grief (Rank 8)": {
           "name": "永恸悲歌卷轴（8环） Scroll of Canticle of Everlasting Grief (Rank 8)",
@@ -1739,7 +1739,7 @@
         },
         "Brewer's Regret (Greater)": {
           "name": "高等酿造师的悔恨 Brewer's Regret (Greater)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<hr />\n<p>当酿造师做出一批自己也不愿入口的东西时，他们通常会把它熬浓，加入没药、艾蒿提取物和紫盐，再卖给寻找廉价三明治馅料的厨师。这种浓稠的咸酸味会毁掉大多数其他食物的滋味，却也会激起强烈的求生欲——只为能尝到别的任何东西。食用后1小时内，你在对抗死亡与虚能效果的豁免上获得+3物品加值。此外，你的毁灭状态值降低1点（最低降至0）。你每天只能用酿造师的悔恨降低一次毁灭状态值，且在你这么做之后，当天不能再通过@UUID[Compendium.pf2e.spells-srd.Item.SnaLVgxZ9ryUFmUr]{复原术}降低毁灭状态值（反之亦然）。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Ja3PlqLuD9aSaPNZ]{效果：高等酿造师的悔恨}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<hr />\n<p>当酿造师做出一批自己也不愿入口的东西时，他们通常会把它熬浓，加入没药、艾蒿提取物和紫盐，再卖给寻找廉价三明治馅料的厨师。这种浓稠的咸酸味会毁掉大多数其他食物的滋味，却也会激起强烈的求生欲——只为能尝到别的任何东西。食用后1小时内，你在对抗死亡与虚能效果的豁免上获得+3物品加值。此外，你的毁灭状态值降低1点（最低降至0）。你每天只能用酿造师的悔恨降低一次毁灭状态值，且在你这么做之后，当天不能再通过@UUID[Compendium.pf2e.spells-srd.Item.SnaLVgxZ9ryUFmUr]{复原术}降低毁灭状态值（反之亦然）。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.9e6iVkPpGqJYwMyb]{效果：高等酿造师的悔恨}</p>"
         },
         "Peshpine Grenade (Greater)": {
           "name": "高等佩什尖刺手雷 Peshpine Grenade (Greater)",
@@ -1755,11 +1755,11 @@
         },
         "Elixir of Life (Greater)": {
           "name": "高等生命灵药 Elixir of Life (Greater)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>生命灵药能加速活物的自然愈合进程并增强其免疫系统。饮下这瓶灵药后，你恢复[[/r (7d6+18)[healing]]]{7d6+18 生命值}，并在10分钟内于对抗疾病与毒素的豁免检定上获得+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Z9oPh462q82IYIZ6]{效果：高等生命灵药}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>生命灵药能加速活物的自然愈合进程并增强其免疫系统。饮下这瓶灵药后，你恢复[[/r (7d6+18)[healing]]]{7d6+18 生命值}，并在10分钟内于对抗疾病与毒素的豁免检定上获得+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{效果：高等生命灵药}</p>"
         },
         "Antiplague (Major)": {
           "name": "上等抗生素 Antiplague (Major)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>抗生素能够强化身体针对疾病的抵抗力。在饮用抗生素后，你在对抗疾病的强韧豁免上获得持续24小时的+4物品加值；这个加值也适用于你对抗疾病发展的每日豁免。</p>\n<p>当你饮用抗生素时，你能够立即尝试一次豁免检定，对抗一种正在影响你的、等级为14或更低的疾病。如果你成功，你即从该疾病中康复。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.qVKrrKpTghgMIuGH]{效果：上等抗生素}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>抗生素能够强化身体针对疾病的抵抗力。在饮用抗生素后，你在对抗疾病的强韧豁免上获得持续24小时的+4物品加值；这个加值也适用于你对抗疾病发展的每日豁免。</p>\n<p>当你饮用抗生素时，你能够立即尝试一次豁免检定，对抗一种正在影响你的、等级为14或更低的疾病。如果你成功，你即从该疾病中康复。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.mVgLCbZgafIylRzh]{效果：上等抗生素}</p>"
         },
         "Monkey's Fist": {
           "name": "猴拳 Monkey's Fist",
@@ -1775,7 +1775,7 @@
         },
         "Antidote (Major)": {
           "name": "上等解毒剂 Antidote (Major)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>解毒剂能帮助你对抗毒物。在饮用解毒剂后，你在对抗毒素的强韧豁免上获得持续6小时的+4物品加值；并且当你饮用解毒剂时，你能够立即尝试一次豁免检定，对抗一种正在影响你的、等级为14或更低的毒素。如果你成功，该毒素即被中和。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.1mKjaWC65KWPuFR4]{效果：上等解毒剂}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>解毒剂能帮助你对抗毒物。在饮用解毒剂后，你在对抗毒素的强韧豁免上获得持续6小时的+4物品加值；并且当你饮用解毒剂时，你能够立即尝试一次豁免检定，对抗一种正在影响你的、等级为14或更低的毒素。如果你成功，该毒素即被中和。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]{效果：上等解毒剂}</p>"
         },
         "Alchemist Goggles (Greater)": {
           "name": "高等炼金护目镜 Alchemist Goggles (Greater)",
@@ -1839,7 +1839,7 @@
         },
         "Frost Brand": {
           "name": "霜烙 Frost Brand",
-          "description": "<p>这柄<em>+2高等强击@UUID[Compendium.pf2e.equipment-srd.Item.Sexud7FdxIrg50vU]{高等冻寒 Frost (Greater)}巨剑</em>简单得像冰之碎片。<em>霜烙</em>会自动熄灭@Template[type:emanation|distance:20]范围内所有非魔法火焰。持握它时，你获得火焰抗力5。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令，交互</p>\n<p><strong>效果</strong> 你将<em>霜烙</em>插入正持续的魔法火焰区域中，剑刃会以[[/r 1d20+27 #Counteract]]{+27}的反制调整值尝试反制该火焰。若失败，它无法再次尝试反制同一火焰。</p>"
+          "description": "<p>这柄<em>+2高等强击@UUID[Compendium.pf2e.equipment-srd.Item.Sexud7FdxIrg50vU]{高等冻寒}巨剑</em>简单得像冰之碎片。<em>霜烙</em>会自动熄灭@Template[type:emanation|distance:20]范围内所有非魔法火焰。持握它时，你获得火焰抗力5。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令，交互</p>\n<p><strong>效果</strong> 你将<em>霜烙</em>插入正持续的魔法火焰区域中，剑刃会以[[/r 1d20+27 #Counteract]]{+27}的反制调整值尝试反制该火焰。若失败，它无法再次尝试反制同一火焰。</p>"
         },
         "Dread Ampoule (Major)": {
           "name": "上等恐怖安瓿 Dread Ampoule (Major)",
@@ -1927,7 +1927,7 @@
         },
         "Skyrider Sword (Greater)": {
           "name": "高等御天之剑 Skyrider Sword (Greater)",
-          "description": "<p>这把<em>+3高等强击高等电击巨剑</em>有着宽阔平坦的剑身，可以支撑一个中等体型或更小的持用者。魔法能让剑在空中翱翔，带着它的持有者一起飞行。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 命令</p>\n<p><strong>需求</strong> 你至少用一只手拿着剑</p>\n<hr />\n<p><strong>效果</strong> 你跃身站上腾空而起的剑。你获得25尺的飞行速度或你的陆地速度，以较慢者为准，但你不能用这把武器进行打击，除非通过武器的另一个启动效果（见下文）。你可以解消该启动；如果你不再用至少一只手握住这把武器，效果会自动结束。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.vOgD9wfStLX1utte]{效果：高等御天之剑}</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p>\n<p><strong>需求</strong> 你正在驾驭你的武器</p>\n<hr />\n<p><strong>效果</strong> 你御剑飞向敌人，在你飞过时攻击它。你飞行，在你移动中的任何时候用这把武器进行一次近战打击。</p>"
+          "description": "<p>这把<em>+3高等强击高等电击巨剑</em>有着宽阔平坦的剑身，可以支撑一个中等体型或更小的持用者。魔法能让剑在空中翱翔，带着它的持有者一起飞行。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 命令</p>\n<p><strong>需求</strong> 你至少用一只手拿着剑</p>\n<hr />\n<p><strong>效果</strong> 你跃身站上腾空而起的剑。你获得25尺的飞行速度或你的陆地速度，以较慢者为准，但你不能用这把武器进行打击，除非通过武器的另一个启动效果（见下文）。你可以解消该启动；如果你不再用至少一只手握住这把武器，效果会自动结束。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Nbgf8zvHimdQqIu6]{效果：高等御天之剑}</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p>\n<p><strong>需求</strong> 你正在驾驭你的武器</p>\n<hr />\n<p><strong>效果</strong> 你御剑飞向敌人，在你飞过时攻击它。你飞行，在你移动中的任何时候用这把武器进行一次近战打击。</p>"
         },
         "Healing Potion (Major)": {
           "name": "上等治疗药水 Healing Potion (Major)",
@@ -2140,7 +2140,7 @@
         },
         "Cantrip Deck (Full Pack)": {
           "name": "戏法套牌（全卡包） Cantrip Deck (Full Pack)",
-          "description": "<p>为了把魔法知识传播得尽可能广，内希斯的信徒们摸索出一种把戏法封入卡牌的办法，连不会施法的人也能使用。这副牌由厚实的羊皮纸卡片组成，每张约有一张扑克牌的一半大小。卡面上以工整朴素的字体只写着该戏法的名称，并按其学派用颜色区分。</p>\n<p>这一整包共24张卡牌——核心规则书中的每个戏法各一张。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 或更多（想象，交互）</p>\n<hr />\n<p><strong>效果</strong> 你想象出自己想要的戏法，那张卡牌便浮到牌堆顶端，你将它抽出。牌组以1环法术的形式施放该戏法，DC为15，法术攻击调整值为+5。戏法生效的同时，卡牌化为齑粉。此次启动所花费的动作数，与你所选戏法的施放动作数相同。</p>\n<hr />\n<ul>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.gISYsBFby1TiXfBt]{酸液飞溅}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]{虚能噬}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{光亮}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]{晕眩晕术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{侦测魔法}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.kcelf6IHl3L9VXXg]{命能袭}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.qwZBXN6zBoB9BHXE]{圣枪术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf]{电弧击}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.RA7VKcen3p56rVyZ]{严厉护卫}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.atlgGNI1E1Ox3O3a]{幻音术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs]{神导术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.tXa5vOu5giBNCjdR]{指路术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{光亮}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]{念动之手}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{传讯术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{魔法伎俩}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]{燃火术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.gYjPm7YwGtEa1oxh]{冰冻射线}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.OhD2Z6rIGGD5ocZA]{阅读灵光}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{护盾术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.AUctDF2fqPZN2w4W]{魔法印记}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.SnjhtQYexDtNDdEg]{稳定伤势}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]{绊足藤}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7]{念动射弹}</li>\n</ul>"
+          "description": "<p>为了把魔法知识传播得尽可能广，内希斯的信徒们摸索出一种把戏法封入卡牌的办法，连不会施法的人也能使用。这副牌由厚实的羊皮纸卡片组成，每张约有一张扑克牌的一半大小。卡面上以工整朴素的字体只写着该戏法的名称，并按其学派用颜色区分。</p>\n<p>这一整包共24张卡牌——核心规则书中的每个戏法各一张。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 或更多（想象，交互）</p>\n<hr />\n<p><strong>效果</strong> 你想象出自己想要的戏法，那张卡牌便浮到牌堆顶端，你将它抽出。牌组以1环法术的形式施放该戏法，DC为15，法术攻击调整值为+5。戏法生效的同时，卡牌化为齑粉。此次启动所花费的动作数，与你所选戏法的施放动作数相同。</p>\n<hr />\n<ul>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.gISYsBFby1TiXfBt]{酸液飞溅}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]{虚能噬}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{光亮}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]{晕眩晕术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{侦测魔法}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.kcelf6IHl3L9VXXg]{命能袭}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.qwZBXN6zBoB9BHXE]{圣枪术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf]{电弧击}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.RA7VKcen3p56rVyZ]{严厉护卫}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.atlgGNI1E1Ox3O3a]{幻音术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs]{神导术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.tXa5vOu5giBNCjdR]{指路术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{光亮}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]{念动之手}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{传讯术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{魔法伎俩}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{燃火术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.gYjPm7YwGtEa1oxh]{冰冻射线}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.OhD2Z6rIGGD5ocZA]{阅读灵光}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{护盾术}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.AUctDF2fqPZN2w4W]{魔法印记}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.SnjhtQYexDtNDdEg]{稳定伤势}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]{绊足藤}</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7]{念动射弹}</li>\n</ul>"
         }
       },
       "name": "（01级 药水）拉哈克森维 (Level 01 Potions) Rahahksenwe",
@@ -2182,7 +2182,7 @@
         },
         "Glue Bomb (Moderate)": {
           "name": "中等黏胶炸弹 Glue Bomb (Moderate)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 打击</p>\n<hr />\n<p>黏胶炸弹是一种无害的爆破装置，里面塞满了黏性物质。当你用黏胶炸弹命中一名生物时，该生物的所有速度承受-15尺状态减值，持续1分钟。你在攻击骰上获得+1物品加值，@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}DC为19。</p>\n<p>一旦造成重击，与固体表面接触的生物会被黏在该表面上，并陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}状态1轮；靠翅膀飞行的生物则会被缠住翅膀，安全落到地面，并在1轮内无法再度飞行。黏胶炸弹对身处水中的生物无效。</p>\n<p>目标可以通过逃脱，或累计花费3个交互动作小心清除黏性物质，来结束这些效果。这些交互动作不必连续，其他生物也可以代为提供。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.MEreOgnjoRiXPEuq]{效果：中等黏胶炸弹}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 打击</p>\n<hr />\n<p>黏胶炸弹是一种无害的爆破装置，里面塞满了黏性物质。当你用黏胶炸弹命中一名生物时，该生物的所有速度承受-15尺状态减值，持续1分钟。你在攻击骰上获得+1物品加值，@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}DC为19。</p>\n<p>一旦造成重击，与固体表面接触的生物会被黏在该表面上，并陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}状态1轮；靠翅膀飞行的生物则会被缠住翅膀，安全落到地面，并在1轮内无法再度飞行。黏胶炸弹对身处水中的生物无效。</p>\n<p>目标可以通过逃脱，或累计花费3个交互动作小心清除黏性物质，来结束这些效果。这些交互动作不必连续，其他生物也可以代为提供。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.sgQknR94qDt5ILBx]{效果：中等黏胶炸弹}</p>"
         },
         "Bomb Snare": {
           "name": "炸弹圈套 Bomb Snare",
@@ -2202,7 +2202,7 @@
         },
         "Antidote (Moderate)": {
           "name": "中等解毒剂 Antidote (Moderate)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>解毒剂能帮你抵御毒物。饮下解毒剂后，你在对抗毒素的强韧豁免上获得+3物品加值，持续6小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.mi4Md1fB2XThCand]{效果：中等解毒剂}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>解毒剂能帮你抵御毒物。饮下解毒剂后，你在对抗毒素的强韧豁免上获得+3物品加值，持续6小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]{效果：中等解毒剂}</p>"
         },
         "Backfire Mantle (Greater)": {
           "name": "高等逆火披风 Backfire Mantle (Greater)",
@@ -2218,7 +2218,7 @@
         },
         "Elixir of Life (Moderate)": {
           "name": "中等生命灵药 Elixir of Life (Moderate)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>生命灵药能加速活物的自然愈合进程并增强其免疫系统。饮下此灵药后，你恢复[[/r (5d6+12)[healing]]]{5d6+12点生命值}，并在10分钟内于对抗疾病和毒素的豁免上获得+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.Yxssrnh9UZJAM0V7]{效果：中等生命灵药}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>生命灵药能加速活物的自然愈合进程并增强其免疫系统。饮下此灵药后，你恢复[[/r (5d6+12)[healing]]]{5d6+12点生命值}，并在10分钟内于对抗疾病和毒素的豁免上获得+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{效果：中等生命灵药}</p>"
         },
         "Cheetah's Elixir (Greater)": {
           "name": "高等猎豹灵药 Cheetah's Elixir (Greater)",
@@ -2242,7 +2242,7 @@
         },
         "Antiplague (Moderate)": {
           "name": "中等抗生素 Antiplague (Moderate)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>抗生素能强化身体对疾病的抵抗力。饮下抗生素后，你在对抗疾病的强韧豁免上获得+3物品加值，持续24小时；这个加值同样适用于你对抗疾病发展的每日豁免。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.HeRHBo2NaKy5IxhU]{效果：中等抗生素}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>抗生素能强化身体对疾病的抵抗力。饮下抗生素后，你在对抗疾病的强韧豁免上获得+3物品加值，持续24小时；这个加值同样适用于你对抗疾病发展的每日豁免。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.mVgLCbZgafIylRzh]{效果：中等抗生素}</p>"
         },
         "Thunderstone (Moderate)": {
           "name": "中等暴雷石 Thunderstone (Moderate)",
@@ -2312,7 +2312,7 @@
         },
         "Thurible of Revelation (Moderate)": {
           "name": "中等揭示香炉 Thurible of Revelation (Moderate)",
-          "description": "<p>这只黄铜香炉悬在一段链条上。大多数<em>揭示香炉</em>都饰有盘旋的天族语文字，不过也有一些是铁制的，刻着魔鬼语或恶魔语文字。</p>\n<p><strong>启动—焚香</strong> <span class=\"action-glyph\">2</span>（操作）</p>\n<p><strong>开销</strong> 价值至少5gp的熏香</p>\n<hr />\n<p><strong>效果</strong> 你点燃香炉中的熏香，它会燃烧1小时。在这段时间内，只要你持握着香炉，你在宗教检定上就获得+2物品加值，并且当你解译宗教性质的文书时投出的大失败都改为失败。</p>\n<p>每日一次，当你启动香炉时，你可以增强它的揭示效果。在该次启动期间，你可以用一个交互动作将香炉举到眼前，透过烟雾窥视，从而在1轮内获得@UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{见人所未见}的效果。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.UlalLihKzDxcOdXL]{效果：中等揭示香炉}</p>"
+          "description": "<p>这只黄铜香炉悬在一段链条上。大多数<em>揭示香炉</em>都饰有盘旋的天族语文字，不过也有一些是铁制的，刻着魔鬼语或恶魔语文字。</p>\n<p><strong>启动—焚香</strong> <span class=\"action-glyph\">2</span>（操作）</p>\n<p><strong>开销</strong> 价值至少5gp的熏香</p>\n<hr />\n<p><strong>效果</strong> 你点燃香炉中的熏香，它会燃烧1小时。在这段时间内，只要你持握着香炉，你在宗教检定上就获得+2物品加值，并且当你解译宗教性质的文书时投出的大失败都改为失败。</p>\n<p>每日一次，当你启动香炉时，你可以增强它的揭示效果。在该次启动期间，你可以用一个交互动作将香炉举到眼前，透过烟雾窥视，从而在1轮内获得@UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{见人所未见}的效果。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lO95TwgihBdTilAB]{效果：中等揭示香炉}</p>"
         },
         "Jawbreaker Shield": {
           "name": "裂颌者盾牌 Jawbreaker Shield",
@@ -2332,7 +2332,7 @@
         },
         "Glue Bomb (Greater)": {
           "name": "高等黏胶炸弹 Glue Bomb (Greater)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 打击</p>\n<hr />\n<p>黏胶炸弹是一种无害的爆破装置，内部充满黏性物质。当你用黏胶炸弹命中一名生物时，该生物的所有速度承受-15尺状态减值，持续1分钟。你在攻击骰上获得+2物品加值，且@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}DC为28。</p>\n<p>一旦造成重击，与固体表面接触的生物会被黏在该表面上，并陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}状态，持续1轮；以翅膀飞行的生物则会被缠住翅膀，安全落到地面，并在1轮内无法再度飞行。黏胶炸弹对身处水中的生物没有效果。</p>\n<p>目标可以通过逃脱，或花费累计3个交互动作小心地清除黏性物质，来结束这些效果。这些交互动作不必连续，其他生物也可以代为提供。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.csA4UAD2tQq7RjT8]{效果：高等黏胶炸弹}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 打击</p>\n<hr />\n<p>黏胶炸弹是一种无害的爆破装置，内部充满黏性物质。当你用黏胶炸弹命中一名生物时，该生物的所有速度承受-15尺状态减值，持续1分钟。你在攻击骰上获得+2物品加值，且@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}DC为28。</p>\n<p>一旦造成重击，与固体表面接触的生物会被黏在该表面上，并陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}状态，持续1轮；以翅膀飞行的生物则会被缠住翅膀，安全落到地面，并在1轮内无法再度飞行。黏胶炸弹对身处水中的生物没有效果。</p>\n<p>目标可以通过逃脱，或花费累计3个交互动作小心地清除黏性物质，来结束这些效果。这些交互动作不必连续，其他生物也可以代为提供。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.sgQknR94qDt5ILBx]{效果：高等黏胶炸弹}</p>"
         },
         "Sovereign Glue": {
           "name": "至强胶水 Sovereign Glue",
