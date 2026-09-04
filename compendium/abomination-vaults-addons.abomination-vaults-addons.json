@@ -299,7 +299,7 @@
             },
             "Bless": {
               "name": "祝福术 Bless",
-              "description": "<p>来自彼界的祝福帮助你的伙伴精准命中。你和你的盟友在处于该灵光范围内时，攻击掷骰获得+1状态加值。此后每轮一次，在后续回合中，你可以维持该法术，使灵光的半径增加10英尺。</p>\n<p>祝福术可以反制 @UUID[Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx]{绝望术}。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.RfCEHpMoEAZvB9IZ]{灵光：祝福术}</p>"
+              "description": "<p>来自彼界的祝福帮助你的伙伴精准命中。你和你的盟友在处于该灵光范围内时，攻击掷骰获得+1状态加值。此后每轮一次，在后续回合中，你可以维持该法术，使灵光的半径增加10英尺。</p>\n<p>祝福术可以反制 @UUID[Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx]{绝望术}。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Gqy7K6FnbLtwGpud]{灵光：祝福术}</p>"
             },
             "Daze": {
               "name": "晕眩术 Daze",

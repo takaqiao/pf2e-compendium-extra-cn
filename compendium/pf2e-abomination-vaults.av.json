@@ -5946,7 +5946,7 @@
           "items": {
             "Viper Arrow": {
               "name": "蝰蛇箭 Viper Arrow",
-              "description": "<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 命令术</p>\n<p>这支箭的箭杆覆盖着细密的绿色鳞片，铁制箭头末端分成两点，几乎像獠牙一样。</p>\n<p>被启动的蝰蛇箭命中一个目标后，箭矢会变形为一条@Compendium[pf2e.pathfinder-bestiary.lFlXmieuHTBIonhj]{蝰蛇}。目标会受到蝰蛇的毒素影响，如同被咬伤一般。随后蝰蛇会落在与目标相邻的一处开阔空间中。</p>\n<p>蝰蛇具有被召唤（特征），并在你的回合结束时行动，即使你没有使用维持法术动作。它由GM控制，但通常会攻击箭矢击中的那个生物。蝰蛇会在1分钟后或被杀死时消失。</p>\n<p><strong>制作需求</strong> 提供一次施放<em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{召唤动物}</em></p>"
+              "description": "<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 命令术</p>\n<p>这支箭的箭杆覆盖着细密的绿色鳞片，铁制箭头末端分成两点，几乎像獠牙一样。</p>\n<p>被启动的蝰蛇箭命中一个目标后，箭矢会变形为一条@UUID[pf2e.pathfinder-monster-core.1uVwkGlqYzyWaDMy]{蝰蛇}。目标会受到蝰蛇的毒素影响，如同被咬伤一般。随后蝰蛇会落在与目标相邻的一处开阔空间中。</p>\n<p>蝰蛇具有被召唤（特征），并在你的回合结束时行动，即使你没有使用维持法术动作。它由GM控制，但通常会攻击箭矢击中的那个生物。蝰蛇会在1分钟后或被杀死时消失。</p>\n<p><strong>制作需求</strong> 提供一次施放<em>@Compendium[pf2e.spells-srd.4YnON9JHYqtLzccu]{召唤动物}</em></p>"
             },
             "Bracelet of Dashing": {
               "name": "冲刺手镯 Bracelet of Dashing",
@@ -8507,7 +8507,7 @@
             },
             "Antiplague (Moderate)": {
               "name": "抗疫药剂（中级） Antiplague (Moderate)",
-              "description": "<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互</p>\n<p>抗疫剂可以强化身体对抗疾病的防御。饮用抗疫剂后，你在24小时内获得对抗疾病的强韧豁免检定+3物品加值；这同样适用于你每日进行的、用于判定疾病进展的豁免检定。</p>\n<p>@Compendium[pf2e.equipment-effects.HeRHBo2NaKy5IxhU]{效果：抗疫剂（中等）}</p>"
+              "description": "<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互</p>\n<p>抗疫剂可以强化身体对抗疾病的防御。饮用抗疫剂后，你在24小时内获得对抗疾病的强韧豁免检定+3物品加值；这同样适用于你每日进行的、用于判定疾病进展的豁免检定。</p>\n<p>@UUID[pf2e.equipment-effects.mVgLCbZgafIylRzh]{效果：抗疫剂（中等）}</p>"
             }
           },
           "prototypeToken": "贾法基的实验室 Jafaki's Laboratory"
@@ -11606,7 +11606,7 @@
             },
             "Staff of Healing (Greater)": {
               "name": "治疗法杖（强效） Staff of Healing (Greater)",
-              "description": "<p>这根法杖由光滑的白木制成，两端各以一枚金色十字封顶，其上镶嵌着数量众多的红宝石凸圆形宝石。治疗法杖在你使用自身的法术位或使用法杖的充能施放治疗术法术时，令你恢复的生命值获得物品加值。</p>\n<p><strong>启动</strong> 施法</p>\n<p><strong>效果</strong> 你消耗法杖中一定数量的充能，以从其法术列表中施放一个法术。</p>\n<p><strong>制作需求</strong> 提供一次施放所有列出的等级的所有列出的法术。</p>\n<p>该物品对<em>治疗术</em>法术所给予的物品加值为+2。</p>\n<ul>\n<li><strong>戏法</strong> <em>@Compendium[pf2e.spells-srd.SnjhtQYexDtNDdEg]{稳定伤势}</em></li>\n<li><strong>1环</strong> <em>@Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{治疗术}</em></li>\n<li><strong>2环</strong> <em>@Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{治疗术}</em> <em>@Compendium[pf2e.spells-srd.SnaLVgxZ9ryUFmUr]{复原术}</em> <em>@Compendium[pf2e.spells-srd.Et8RSCLx8w7uOLvo]{复原感官}</em></li>\n<li><strong>3环</strong> <em>@Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{治疗术}</em> <em>@Compendium[pf2e.spells-srd.RneiyehRO6f7LP44]{移除疾病}</em></li>\n</ul>"
+              "description": "<p>这根法杖由光滑的白木制成，两端各以一枚金色十字封顶，其上镶嵌着数量众多的红宝石凸圆形宝石。治疗法杖在你使用自身的法术位或使用法杖的充能施放治疗术法术时，令你恢复的生命值获得物品加值。</p>\n<p><strong>启动</strong> 施法</p>\n<p><strong>效果</strong> 你消耗法杖中一定数量的充能，以从其法术列表中施放一个法术。</p>\n<p><strong>制作需求</strong> 提供一次施放所有列出的等级的所有列出的法术。</p>\n<p>该物品对<em>治疗术</em>法术所给予的物品加值为+2。</p>\n<ul>\n<li><strong>戏法</strong> <em>@Compendium[pf2e.spells-srd.SnjhtQYexDtNDdEg]{稳定伤势}</em></li>\n<li><strong>1环</strong> <em>@Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{治疗术}</em></li>\n<li><strong>2环</strong> <em>@Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{治疗术}</em> <em>@Compendium[pf2e.spells-srd.SnaLVgxZ9ryUFmUr]{复原术}</em> <em>@Compendium[pf2e.spells-srd.Et8RSCLx8w7uOLvo]{复原感官}</em></li>\n<li><strong>3环</strong> <em>@Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{治疗术}</em> <em>@UUID[pf2e.spells-srd.SUKaxVZW2TlM8lu0]{移除疾病}</em></li>\n</ul>"
             },
             "Shortsword": {
               "name": "短剑 Shortsword",
@@ -11695,7 +11695,7 @@
             },
             "Bravo's Brew (Moderate)": {
               "name": "布拉沃的佳酿（中等） Bravo's Brew (Moderate)",
-              "description": "<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互</p>\n<p>这瓶起泡啤酒赋予勇气。饮用这瓶药剂后的接下来1小时内，你的意志豁免获得+2物品加值；若进行对抗恐惧(术)的意志豁免，则为+3。</p>\n<p>@Compendium[pf2e.equipment-effects.wTZnKkT0K4Tdy8mD]{效果：勇士佳酿（中等）}</p>"
+              "description": "<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互</p>\n<p>这瓶起泡啤酒赋予勇气。饮用这瓶药剂后的接下来1小时内，你的意志豁免获得+2物品加值；若进行对抗恐惧(术)的意志豁免，则为+3。</p>\n<p>@UUID[pf2e.equipment-effects.eh7EqmDBDW30ShCu]{效果：勇士佳酿（中等）}</p>"
             },
             "Topaz Gemstone": {
               "name": "黄玉宝石 Topaz Gemstone"
@@ -16825,7 +16825,7 @@
             },
             "I61. Hall of Priests": {
               "name": "I61. 祭司大厅 I61. Hall of Priests",
-              "text": "<p class=\" box-text narrative-block\">这座巨大的房间由与北面那扇气势迫人的乌黑大门相同的黑色石材建成。东、西两侧墙壁各排列着四处壁龛，共八处。每处壁龛中都残留着玉色雕像的遗骸。所有雕像都已被亵渎；没有任何一尊还保留着头部，大多数缺失双手，还有一尊只剩下一双赤裸的脚立在基座上。与黑门相对的穹顶室内矗立着一座由沉重石块雕刻而成的巨大石王座。</p>\n<p>在贝科拉的时代之前很久，这里曾是宁布洛斯邪教半公开的礼拜区域。那些寻求复仇、想要将仇敌彻底抹消，或希望失去的挚爱能以幽灵（特征）的形态归来的人，会在王座与坐在王座上的生物周围留下供品与祭献——那生物被称作女士的耳语，而它至今仍坐在那里。求道者希望那被裹覆的骸骨会起身，带领他们穿过三扇门道之一，接受成为邪教入会者的考验。女士的耳语有时会一动不动地沉寂数年，也有时会连续数日不间断地引领新的邪教徒。尽管连资深邪教徒也从未理解女士的耳语与宁布洛斯之间的联系，但无人质疑这具骸骨作为通往邪教成员身份之门的角色。</p>\n<p>然而邪教徒确实知道，只有被女士的耳语引入东侧门道的人才能加入邪教。西侧门道通向阴惨的命运，专为那些甚至不配接受入教测试的人所准备。</p>\n<p>女士的耳语是一种独特的不死生物，与侍奉@Compendium[pf2e.pathfinder-bestiary.pkNWilK2pHZ5TDsd]{收割者死神}的@Compendium[pf2e.pathfinder-bestiary.mGr4e6fH3w8ewcSX]{次级死神}有着遥远的亲缘关系。由于早已湮没的原因，这具骸骨生物与宁布洛斯被不可逆转地绑定在一起。它知道英雄们来到此地是为直面贝科拉，也不适合加入如今已不复存在的邪教，但它仍决定让他们经历入会试炼，希望借此削弱并杀死他们。女士的耳语命令着宁布洛斯之门内众多的恐怖鬼火效忠，但当英雄们初至时此处并无恐怖鬼火为它防卫，因此它会谨慎地应对英雄。</p>\n<p>女士的耳语起身并同时举起双手，做出示意和平的手势。随后它指向东侧门道，低声呢喃每位英雄的名字，一个接一个。它迈步走向东侧门道，示意英雄跟随。</p>\n<section class=\"box-text encounter\"><header><img src=\"modules/pf2e-abomination-vaults/assets/journal-images/icons/encounter/skull.webp\" width=\"100\" />\n<section>\n<h2>遭遇</h2>\n<h2>中等 9</h2>\n</section>\n<section>\n<div>\n<p>@Actor[dWOK0nzGWyc5NkNz]{女士的耳语}</p>\n</div>\n<p>80 XP</p>\n</section>\n</header>\n<article>\n<p>如果英雄发动攻击，女士的耳语会用利爪猛然反击，将英雄传送离开，最好传送到相邻且有危险微灵与陷阱的房间中。若它受到超过50点伤害便会逃离，但会在撤退时试图引诱英雄更深入宁布洛斯之门。</p>\n</article>\n</section>"
+              "text": "<p class=\" box-text narrative-block\">这座巨大的房间由与北面那扇气势迫人的乌黑大门相同的黑色石材建成。东、西两侧墙壁各排列着四处壁龛，共八处。每处壁龛中都残留着玉色雕像的遗骸。所有雕像都已被亵渎；没有任何一尊还保留着头部，大多数缺失双手，还有一尊只剩下一双赤裸的脚立在基座上。与黑门相对的穹顶室内矗立着一座由沉重石块雕刻而成的巨大石王座。</p>\n<p>在贝科拉的时代之前很久，这里曾是宁布洛斯邪教半公开的礼拜区域。那些寻求复仇、想要将仇敌彻底抹消，或希望失去的挚爱能以幽灵（特征）的形态归来的人，会在王座与坐在王座上的生物周围留下供品与祭献——那生物被称作女士的耳语，而它至今仍坐在那里。求道者希望那被裹覆的骸骨会起身，带领他们穿过三扇门道之一，接受成为邪教入会者的考验。女士的耳语有时会一动不动地沉寂数年，也有时会连续数日不间断地引领新的邪教徒。尽管连资深邪教徒也从未理解女士的耳语与宁布洛斯之间的联系，但无人质疑这具骸骨作为通往邪教成员身份之门的角色。</p>\n<p>然而邪教徒确实知道，只有被女士的耳语引入东侧门道的人才能加入邪教。西侧门道通向阴惨的命运，专为那些甚至不配接受入教测试的人所准备。</p>\n<p>女士的耳语是一种独特的不死生物，与侍奉@UUID[pf2e.pathfinder-monster-core.WoICHri7raCYv1wU]{次级死神}的@UUID[pf2e.pathfinder-monster-core.kKFfigxrJ2vbJazp]{收割者死神}有着遥远的亲缘关系。由于早已湮没的原因，这具骸骨生物与宁布洛斯被不可逆转地绑定在一起。它知道英雄们来到此地是为直面贝科拉，也不适合加入如今已不复存在的邪教，但它仍决定让他们经历入会试炼，希望借此削弱并杀死他们。女士的耳语命令着宁布洛斯之门内众多的恐怖鬼火效忠，但当英雄们初至时此处并无恐怖鬼火为它防卫，因此它会谨慎地应对英雄。</p>\n<p>女士的耳语起身并同时举起双手，做出示意和平的手势。随后它指向东侧门道，低声呢喃每位英雄的名字，一个接一个。它迈步走向东侧门道，示意英雄跟随。</p>\n<section class=\"box-text encounter\"><header><img src=\"modules/pf2e-abomination-vaults/assets/journal-images/icons/encounter/skull.webp\" width=\"100\" />\n<section>\n<h2>遭遇</h2>\n<h2>中等 9</h2>\n</section>\n<section>\n<div>\n<p>@Actor[dWOK0nzGWyc5NkNz]{女士的耳语}</p>\n</div>\n<p>80 XP</p>\n</section>\n</header>\n<article>\n<p>如果英雄发动攻击，女士的耳语会用利爪猛然反击，将英雄传送离开，最好传送到相邻且有危险微灵与陷阱的房间中。若它受到超过50点伤害便会逃离，但会在撤退时试图引诱英雄更深入宁布洛斯之门。</p>\n</article>\n</section>"
             },
             "I62. Oblivion Fall": {
               "name": "I62. 遗忘坠落 I62. Oblivion Fall",
