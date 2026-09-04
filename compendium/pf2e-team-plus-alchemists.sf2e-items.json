@@ -1,0 +1,1081 @@
+{
+  "label": "物品（SF2e） Items",
+  "entries": {
+    "Chain Reaction": {
+      "name": "连锁反应 Chain Reaction",
+      "description": "<p>你打量着敌人身上正持续生效的效果，找到了将其痛苦推升为自我延续的痛楚连锁的办法。当你以你的炼金物品（例如炸弹或毒素）对一个生物造成持续伤害时，若该生物已经承受着同一类型的持续伤害，则你改为将所造成的持续伤害量提高等同于你等级的一半。你对同一份持续伤害只能提高一次。</p>"
+    },
+    "Explosive Ammunition": {
+      "name": "爆炸弹药 Explosive Ammunition",
+      "description": "<p><strong>成本</strong> 1份炼金弹药与1颗炼金炸弹 </p><hr><p>你在弹药顶端调制出一种受撞击便会爆炸的挥发性粉末。你激发该调制物，它的作用如同与所提供弹药同类型的炼金弹药。当你用装填了该调制物的武器进行打击时，武器的伤害类型改用所提供炸弹的伤害类型，而非其通常的伤害类型。若炸弹与弹药都具有溅射特征，则该调制物也具有溅射特征，且其溅射伤害的类型与炸弹相同。 </p><hr><p><strong>特殊</strong> 若你是@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-items.2p2OY7PwKJfHbXqN]{弹药师}并且已获得你的课题发现，你可以将该调制物装填进你正挥舞的武器中作为此活动的一部分，且此活动获得华丽特征。</p>"
+    },
+    "Traveler's Coddle": {
+      "name": "旅者炖菜 Traveler's Coddle",
+      "description": "<p><strong>激发</strong> 10 分钟（操作）</p><hr /><p>这锅用香肠、培根、土豆和洋葱炖成、并以炼金试剂处理过的浓汤，能让你有力气连续行军数小时。吃下它之后，就陆地旅行而言，你的速度获得 +5 尺物品加值。该效果持续 24 小时，或直到你进行每日准备为止，以先到者为准。</p>"
+    },
+    "Self-Destructing Monster": {
+      "name": "自爆怪物 Self-Destructing Monster",
+      "description": "<p>你可以让瓶装怪物在办完事之后爆炸。瓶装怪物的效果结束后，它会炸开，对其 20 尺内的生物造成 @Damage[((1+floor((@actor.level -4)/4))d6)[fire]] 伤害，可进行 @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|basic:true] 豁免。若该瓶装怪物具备冷冻或水特征，则爆炸改为造成 @Damage[((1+floor((@actor.level -4)/4))d6)[cold]] 伤害，并以冷冻特征取代火焰特征。自 8 级起，其后每 4 级伤害提高 1d6。</p>"
+    },
+    "Homunculus Clay (Greater)": {
+      "name": "人造人黏土（高级） Homunculus Clay (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">3</span>（专注，操作）</p><hr><p>这种黏土含有能模拟生命本身的试剂，可以被塑造成一个私人仆从。当你激发它时，这团黏土产出 8 个@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-actors.cCZQpPqm4hTlqi7w]{黏土人造人}。该人造人保持活动 1 小时，此后便会干涸。</p>"
+    },
+    "Alchemist's Heart (Lesser)": {
+      "name": "炼金师之心（次级） Alchemist's Heart (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>这块带磁性的天然磁石形如一颗心脏，中央裂开一道缝。当炼金师之心被掰成两半而激发时，无论相隔多远，两瓣都会缓缓朝彼此靠拢。只要你随身带着炼金师之心的一半，你便始终能辨明另一半所在的方向，以及你与它之间的大致距离。此物常为结伴踏上险途的同伴所用，也可用来追踪失窃的货物。当炼金师之心的一半来到另一半 5 尺之内后，或持续时间 24 小时结束后，它便就此失效。</p>"
+    },
+    "Medicinal Hotpot (Moderate)": {
+      "name": "药膳火锅（中级） Medicinal Hotpot (Moderate)",
+      "description": "<p><strong>激发 </strong>10 分钟（操作）</p><hr /><p>这锅熬煮的药草为食物注入了治疗特性。以食用方式激发之后，每当你因某个治疗效果回复生命值时，你额外回复 @Damage[3d6+3[healing]]。此额外治疗只适用于该效果所提供的首次治疗。即使某个效果会多次治疗同一名生物，该生物在每个效果上也只能从此治疗中获益一次。这些效果持续 24 小时，直到你进行每日准备，或直到你已通过此效果获得 3 次额外治疗为止，以先发生者为准。</p>"
+    },
+    "Bomb Flurry": {
+      "name": "炸弹连投 Bomb Flurry",
+      "description": "<p><strong>动作</strong> <span class=\"action-glyph\">1</span> 至 <span class=\"action-glyph\">3</span></p><p><strong>成本</strong> 数量由所使用动作数决定的万用制剂</p><p><strong>需求</strong> 你能够使用 @UUID[Compendium.pf2e-anachronism.actions.yzNJgwzV9XqEhKc6]{高速炼金} 制造一枚炸弹。</p><hr><p>你制造出数量惊人的炸弹，并将它们一齐掷出。你使用高速炼金制造出一大片炸弹爆发，其范围大小由你为此活动花费的动作数决定，并消耗上列数量的万用制剂来制造等量的炸弹——这些炸弹必须全部是同一种类——再将它们掷向目标区域。区域内的生物必须对抗你的职业 DC 进行一次 @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|basic:true] 豁免，失败时受到被该炸弹命中的效果，大失败时受到被重击命中的效果。豁免成功的生物仍会受到该炸弹会造成的任何溅射伤害。该爆发必须位于该炸弹的第一个射程增量之内。你的多重攻击减值适用于此活动的 DC，且在计算你的多重攻击减值时，此活动视为两次攻击。</p><p><span class=\"action-glyph\">1</span> 所需万用制剂的数量为 2，范围为一个 @Template[type:burst|distance:10]。</p><p><span class=\"action-glyph\">2</span> 所需万用制剂的数量为 4，范围为两个互不重叠的 @Template[type:burst|distance:10]。</p><p><span class=\"action-glyph\">3</span> 所需万用制剂的数量为 6，范围为三个互不重叠的 @Template[type:burst|distance:10]。</p>"
+    },
+    "Experimenter": {
+      "name": "实验师 Experimenter",
+      "description": "<p>你对炼金术的钻研专注于种类繁多的炼金物品所具备的随机应变之能与实用价值。</p><p><strong>配方</strong> 两个不具有炸弹、灵药或毒素特征的常见1级炼金物品。</p><p><strong>课题增益</strong> 你可以将炼金物品当作临时武器挥舞，且使用具有炼金特征的临时武器进行攻击掷骰时不承受通常的–2减值。你使用的临时武器伤害骰最低为1d6，若该临时武器具有敏捷特征则最低为1d4。你在使用具有炼金特征的临时武器的伤害掷骰上加上你智力调整值的一半。</p><p><strong>课题制剂</strong> 你的万用制剂可以在紧要关头制造出恰好解决问题的物品。当你激发一份万用制剂时，你可以改为制造出一件具有炼金特征、持续1轮的特殊工具。当你以这种方式激发万用制剂时，你可以选择将一个技能动作或活动作为激发该制剂之动作的一部分来使用，此时激发该制剂所需的动作数与该技能动作或活动本身所需的动作数相同。就该动作而言，你被视为在该技能动作对应的技能上受过训练；若你原本就已受训于该对应技能，则改为在该技能动作上获得+1物品加值。@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.vJTgjT719RZqLpzk]{效果：实验师制剂}</p><p><strong>课题发现（5级）</strong> 你可以用高速炼金制造出具有炼金特征但不具有消耗品特征的物品，例如炼金术士喷火器，如同它是消耗品一般。若该物品需要装填炼金炸弹才能使用，例如炼金术士喷火器或炼金弩，你可以额外花费若干万用制剂，使该物品预先装填好你本可用高速炼金制造出的相应数量的炸弹。该物品及装入其中的任何弹药在劣化之前可持续1分钟。</p><p><strong>进阶制剂（11级）</strong> 当你激发万用制剂以施行一个技能动作时，就该技能动作对应的技能而言你被视为专家；若你原本已是专家，则视为大师。若你在所选技能上原本已是大师，则改为在该技能动作上获得+2物品加值。@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.LA2vUFIr0kUiIjto]{效果：进阶实验师制剂}</p><p><strong>高等课题发现（13级）</strong> 你在使用具有炼金特征的临时武器的伤害掷骰上、以及使用不具有消耗品特征的炼金物品（例如炼金术士喷火器）的伤害掷骰上，加上你的完整智力调整值。</p>"
+    },
+    "Surfing Grass": {
+      "name": "冲浪草 Surfing Grass",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.Tj055UcNm6UEgtCg]{爬行}</p><hr /><p>这种奇特的禾本科植物异常坚韧，带有近乎橡胶的质感，能载着你沿地表滑行。你可以在进行爬行时激发本物品，草籽会在你身下迅速抽芽，轻巧地托着你向前飘移。你以爬行移动的距离增加 10 尺。这次移动结束时，你可以选择让草把你顶起身来，结束 @UUID[Compendium.sf2e.conditions.j91X7x0XSomq8d60]{倒地} 状态。</p>"
+    },
+    "Medicinal Hotpot (Lesser)": {
+      "name": "药膳火锅（次级） Medicinal Hotpot (Lesser)",
+      "description": "<p><strong>激发 </strong>10 分钟（操作）</p><hr /><p>这锅熬煮的药草为食物注入了治疗特性。以食用方式激发之后，每当你因某个治疗效果回复生命值时，你额外回复 @Damage[1d6+1[healing]]。此额外治疗只适用于该效果所提供的首次治疗。即使某个效果会多次治疗同一名生物，该生物在每个效果上也只能从此治疗中获益一次。这些效果持续 24 小时，直到你进行每日准备，或直到你已通过此效果获得 3 次额外治疗为止，以先发生者为准。</p>"
+    },
+    "Spell Pyrophore (Major)": {
+      "name": "法术引火剂（超级） Spell Pyrophore (Major)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +27 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[10d4[fire],10d4[spirit]]，并进行一次 @Check[fortitude|dc:38|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
+    },
+    "Alchemical Angel (Lesser)": {
+      "name": "炼金天使（次级） Alchemical Angel (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这瓶云雾般的液体中跳动着一颗天族之心，它或是人工造就，或是从一位被杀天使的精质中采集而来。药瓶启封时，一位天族现身，为你的盟友赐福，随后消散为一团芬芳的云雾。该天使的体型为中型。你激发它时，它飞行 60 尺，随后以至多 4 个相邻生物为目标。存活生物回复 @Damage[6d6[healing]] 生命值。具有虚能治疗的生物则改为承受 @Damage[6d6[vitality]] 伤害，并进行一次 @Check[fortitude|dc:37|basic] 豁免。该天使带来的治疗与伤害均为魔法性。</p><hr /><p><strong>制作需求</strong> 提供一位近期被杀天族的精质，其生物等级须等于或高于本物品的等级。</p>"
+    },
+    "Chosen Monstrosities": {
+      "name": "选定怪物 Chosen Monstrosities",
+      "description": "<p>你尤其擅长把你的怪物放出来，因为你为它们的投放拟定了精确的攻击模式。在你的每日准备期间，从你配方簿中的瓶装怪物里选择 2 个，它们将成为你的选定瓶装怪物，直到你下一次每日准备为止。你可以将互动以拔出选定瓶装怪物、或对选定瓶装怪物使用@UUID[Compendium.pf2e-anachronism.actions.yzNJgwzV9XqEhKc6]{高速炼金}，作为一个具有绝技特征的自由动作来进行。 </p><p>在 5 级时，你可以再选择一个瓶装怪物，此后每 5 级再增加一个，至 20 级时最多可选择 6 个瓶装怪物。</p>"
+    },
+    "Detection Strips": {
+      "name": "侦测试纸 Detection Strips",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">x</span> y</p><hr /><p>这些小纸条经过炼金试剂处理，在特定生物出现时会变色。制作侦测试纸时，选定某一类生物特征，例如异怪、精魂或精类。激发后的 24 小时内，若该类生物进入侦测试纸 30 尺范围内，纸条便会由白转蓝。</p>"
+    },
+    "Halfling Sandwich (Moderate)": {
+      "name": "半身人三明治（中级） Halfling Sandwich (Moderate)",
+      "description": "<p><strong>激发 </strong>10 分钟（操作）</p><hr /><p>以传统半身人方式制作三明治的技艺是如此精确，以至于大约一百年前它意外地跨进了炼金术的领域。在接下来 1 小时内，你可以选择在一次由你自选的攻击掷骰、技能检定或豁免上获得 +2 状态加值，仅限一次。无论结果如何，你都会暂时免疫此效果 1 天。</p>"
+    },
+    "Ravenous Flytrap (Major)": {
+      "name": "贪食捕蝇草（超级） Ravenous Flytrap (Major)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.PMbdMWc2QroouFGD]{擒拿}</p><hr><p>这株经炼金强化的捕蝇草，说得最客气也只能称作永不知足。你可以把本物品的激发作为你@UUID[Compendium.sf2e.actions.PMbdMWc2QroouFGD]{擒拿} 的一部分。若 +27 运动调整值高于你自己的运动调整值，你的擒拿可以改用它，逃脱所需的运动 DC 亦以此计算。若你使用自己的运动调整值，则该检定获得 +3 物品加值。你可以在 4 轮内持续用捕蝇草进行擒拿。你的擒拿触及范围增加 10 尺。你可以放开捕蝇草而不结束擒拿，此举令逃脱该擒拿的 DC 降低 5，并把目标固定在其当前空间上；但若该生物成功解除擒抱状态或逃脱，这株植物便会枯萎而死。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.d5458GCTuuyJRCmd]{效果：贪食捕蝇草（超级）}</p>"
+    },
+    "Olobigonde Fugu": {
+      "name": "奥洛比贡德河豚 Olobigonde Fugu",
+      "description": "<p><strong>激发</strong> 1 分钟（操作）</p><hr><p>奥洛比贡德河豚取材自水元素位面上那种臭名昭著的鱼类的剧毒鱼肉，只有称职的炼金师才敢尝试烹制。以食用的方式激发这份河豚之后，你在对抗毒素的豁免上获得 +2 物品加值，并获得毒素抗力 6，持续 24 小时或直到你进行每日准备为止，以先到者为准。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.EblCR8Wp8Qh5PUm1]{效果：奥洛比贡德河豚}</p>"
+    },
+    "Chrysopoet Dedication": {
+      "name": "点金术士入门 Chrysopoet Dedication",
+      "description": "<p>你将炼金物品的力量与自身转化之力融为一体，把你的技艺与特定炼金物品强力地结合起来。选择一个 4 级的点金术士变体灌注专长。你获得该专长，并忽略其等级先决条件。</p>"
+    },
+    "Munitioner": {
+      "name": "弹药师 Munitioner",
+      "description": "<p>你是一名弹药师，一名专精于弹药量产与枪械化学的炼金术士。</p><p><strong>配方</strong> 两种常见的 1 级炼金弹药。</p><p><strong>课题增益</strong> 你懂得如何一边制造炼金弹药，一边把它装填进武器。当你使用 @UUID[Compendium.pf2e-anachronism.actions.yzNJgwzV9XqEhKc6]{高速炼金} 制造一份炼金弹药时，你可以作为该动作的一部分，用这份弹药为你手持的一件火器重新装填。就熟练度而言，你将具有装填 1 的军用武器视为简易武器，并将具有装填 1 的高级武器视为军用武器。</p><p><strong>课题制剂</strong> 你可以用你的万用制剂制造实验性弹药。你可以把万用制剂当作一种特殊的炼金弹药使用，它造成 1 点火焰溅射伤害并具有溅射特征。每轮一次，你可以互动，以一个具有华丽特征的自由动作用一份制剂为你正持用的武器重新装填。</p><p><strong>课题发现（5 级）</strong> 你是使用爆散型炼金弹药的神射手。当你以具有溅射特征的炼金弹药进行打击时，你可以让该弹药造成等同于你智力调整值（最低 1）的溅射伤害，以取代通常的数值。</p><p><strong>进阶制剂（11 级）</strong> 在你每个回合开始时，你可以以一个自由动作用一份万用制剂为你正持用的武器重新装填。</p><p><strong>高级课题发现（13 级）</strong> 当你以造成溅射伤害的炼金弹药打击一名生物时，你可以选择把其区域改为一条 10 尺的直线来伤害生物。</p>"
+    },
+    "Mystic Chymistry": {
+      "name": "秘法炼金术 Mystic Chymistry",
+      "description": "<p>炼金术中某些古老的分支把这门技艺当作一种神秘学修行，其信奉者追求抵达灵性的圆满。发源于黄金之路的秘法流派认为，炼成贤者之石并非终点，而只是一块垫脚石。正如铅被提纯为金，沿着通往伟大工作的道路前行，也能把凡人的灵魂提纯为更崇高之物。</p><p>你的实践技能是神秘学。你只能用高速炼金制作不具备变形特征的炼金灵药，以及具备生机或虚空特征的炼金物品，且这样制作出来的成品会获得下列增益。</p><p><strong>炼金灵药</strong> 受你以高速炼金制作的灵药影响的生物，还会在对抗心灵效果的豁免上获得 +1 状态加值，并获得灵魂伤害抗力，其数值等于 2 加所服用灵药物品等级的一半。该抗力的持续时间等同于该灵药效果的持续时间或 1 轮，取较长者。若你至少为 11 级，该状态加值提升至 +2。</p><p><strong>生机与虚空</strong> 当你要用以高速炼金制作的、具备虚空或生机特征的物品对生物造成伤害时，你可以选择改为造成等量的灵魂伤害。该物品获得灵魂特征；若该物品具备生机特征，则还获得圣洁特征，若具备虚空特征，则还获得邪秽特征。</p><p></p>"
+    },
+    "Tackfied Trail Ammunition (Greater)": {
+      "name": "黏迹弹药（高级） Tackfied Trail Ammunition (Greater)",
+      "description": "<p><strong>弹药</strong> 任意</p><p><strong>激发 </strong><span class=\"action-glyph\"><strong>1</strong></span> 互动</p><hr /><p>用黏迹弹药射出弹丸时，弹丸会在射击武器与目标之间留下一道黏稠的胶状细丝。</p><p>若你的打击成功，且目标位于你 30 尺内，你便在武器与目标之间造出一条如绳索般作用的细丝。这条细丝以直线把你和目标连在一起，持续 1 分钟；目标或其他人可以攻击细丝将其扯断。细丝的 AC 为 36，生命值为 80，逃脱 DC 为 36。若目标与你的距离超出细丝的最大射程，细丝会在被用于一次打击后自动溶解。细丝存在期间，目标除非尝试逃脱，否则无法移动超过该最大距离。有细丝连接你与目标时，你无法用该武器进行远程打击，除非该武器有多根枪管；但你可以进行互动来移除细丝，或为武器重新装填以移除细丝。</p><p>你也可以选择用打击瞄准某个特定的 5 尺方格而非生物，这样的方格 AC 通常为 10；此时绳索会附着在该方格而非生物上，如同一条牢牢固定在你所选空间上的绳索。以这种方式使用黏迹弹药时，你可以用一个互动动作拉动细丝，把自己拽向目标空间，移动结束后效果立即终止。你必须落在坚实地面的空间上，否则会立刻坠落。这属于强迫移动。</p>"
+    },
+    "Agglomerative Cannonball (Greater)": {
+      "name": "凝聚炮弹（高级） Agglomerative Cannonball (Greater)",
+      "description": "<p><strong>弹药</strong> 枪弹</p><p><strong>激发 </strong><span class=\"action-glyph\"><strong>1</strong></span> 互动</p><hr /><p>这瓶精细金属粉末的内容物在射出时会凝结成巨大而致密的弹丸。已激发的凝聚炮弹对其目标额外造成 6 点钝击伤害，且该打击获得拆毁特征。命中时，目标还会被击退 5 尺，重击时则为 10 尺。此为强迫移动。</p>"
+    },
+    "Mimic Melange": {
+      "name": "拟形怪混料 Mimic Melange",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子看上去装满了褐色的橡胶与眼球。开瓶之后，拟形怪混料会变形成为你所选的一件常见人造物品形态的拟形怪。它并不具备该物品的功能，但会保持 1 小时，在众目睽睽之下隐匿（@Check[perception|dc:19] 检定）。在此状态下，若有生物在与该拟形怪邻接的位置停留超过 1 轮，或有生物与它互动，它会立刻咬向最近的目标，造成 @Damage[1d8+4[piercing] 伤害（@Check[reflex|dc:19|basic] 豁免），随后溶解。</p><p><strong>制作需求</strong> 提供一具拟形怪的尸体。</p>"
+    },
+    "Hypnotic Reeds (Lesser)": {
+      "name": "催眠芦苇（次级） Hypnotic Reeds (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.EEDElIyin4z60PXx]{演出}</p><hr><p>这些芦竹水苇经过改造，能长出音孔，成为天然生长的笛子。你可以将激发该物品作为你演出的一部分。当你这样做时，将你演出的结果与至多 4 个生物的意志 DC 比较。若你成功，目标生物被这些芦苇@UUID[Compendium.sf2e.conditions.AdPVz7rbaVSRxHFg]{迷魂} 1 轮。若目标生物处于需要立即关注的情境中（例如战斗），你必须大成功才能使其迷魂，且该演出动作获得失能特征。若 +10 的表演调整值高于你自己的表演调整值，你可以用它替代你自己的调整值来进行演出；若你这样做，你的检定获得 +1 物品加值。这些芦苇持续 1 分钟，你可以在后续回合继续使用它们进行演出。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.qWx446Ve3lxWaGUO]{效果：催眠芦苇（次级）}</p>"
+    },
+    "Distilled Linnorm": {
+      "name": "蒸馏蛇龙 Distilled Linnorm",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>望进这只装满深红液体、其中满是蛇龙血肉碎块的小瓶，会令人心生不安。激发时，它造出一头巨型湖沼蛇龙。该蛇龙跨步至多 35 尺，并对其移动结束时与之相邻的一个生物施加死亡诅咒。该生物必须进行一次 @Check[will|dc:38] 豁免。 </p><p><strong>制作需求</strong> 提供一具湖沼蛇龙的尸体。 </p><hr /><p><strong>大成功</strong> 该生物不受影响。 </p><p><strong>成功</strong> 1 分钟内，该生物以任何方式（例如治疗法术或医疗技能）恢复生命值时，只能恢复应恢复数值的一半。 </p><p><strong>失败</strong> 同成功，但该生物在持续时间内完全无法从治疗效果中恢复生命值。 </p><p><strong>大失败</strong> 同失败，但效果持续 1 小时。</p>"
+    },
+    "Phlogiston Grease": {
+      "name": "燃素油脂 Phlogiston Grease",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span>（操作）</p><hr /><p>这种偏红的黏浆散发着浓重的焦木气味。当它被倾倒或涂抹在一片 10 尺见方的表面上时，该表面会变得可燃，如同木制的一般。你也可以把它涂在一个相邻的生物身上而非某个区域；若你如此做，该生物必须成功通过一次 @Check[fortitude|dc:28] 豁免。若该生物豁免失败，其火焰抗力降低 5；若它没有火焰抗力，则其火焰弱点提高 5（若它原本也没有火焰弱点，则获得数值为 5 的火焰弱点）。若该生物对火焰免疫，它会失去该免疫，改为获得等同于其等级的火焰抗力。这些效果持续 1 分钟，或直到该区域已燃烧 4 轮，或该生物已四次受到火焰伤害为止，以先到者为准。</p>"
+    },
+    "Terotricus Root Preserve": {
+      "name": "枯萎黏菌根浸制品 Terotricus Root Preserve",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这截泰罗崔库斯的细小根须装在一只小瓶中，一经催发便会暴涨成一头庞然巨物。当你激发它时，你把这罐腌渍根掷向 30 尺内的一个空间，一头巨型泰罗崔库斯随即在该区域迅速长成。@Template[type:emanation|distance:60] 范围内所有非魔法的植物（但不包括植物生物）都会枯萎，并长出恶臭的霉斑与黏滑的蘑菇，树木与灌木丛提供的一切掩蔽与隐蔽都随之消失。若泰罗崔库斯藉此效果吞食了植物，它会立即释放孢子，其 30 尺内的生物必须尝试一次 @Check[fortitude|dc:39] 豁免，否则其所有速度承受 –10 尺状态减值，持续 1 分钟。豁免大失败的生物会被 @UUID[Compendium.sf2e.conditions.eIcWbB5o3pP6OIMe]{禁足}，直到其逃脱（DC 39）为止。 </p><p><strong>制作需求</strong> 提供一株死去的泰罗崔库斯的根。</p>"
+    },
+    "Boreal Mint (Major)": {
+      "name": "北境薄荷（超级） Boreal Mint (Major)",
+      "description": "<p>这颗薄荷糖灌注了制作霜冻瓶所用的反应剂，能把你的口腔冷却到几近结冰的温度。持续1小时，只要你在用于回忆知识的那项技能上至少受训，你的回忆知识检定就获得物品加值。</p><p><strong>次要效果</strong> <span class=\"action-glyph\">2</span> （寒冷）你呼出一团冰冷的雾气，形成一个 @Template[type:cone|distance:15]。范围内的非魔法火焰会被自动扑灭。具有火焰特征或免疫火焰的生物受到 @Damage[10d6[cold[]，并可进行一次 @Check[reflex|dc:33|basic] 豁免。</p>"
+    },
+    "Befuddling Irrwurz (Lesser)": {
+      "name": "昏乱迷途根（次级） Befuddling Irrwurz (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.QNAVeNKtHA0EUw4X]{虚招}</p><hr><p>迷途根又被称作歧路根，通常生长在曾经存在通往初界之传送门的地方，但也可以借由炼金术催生。你可以把激发迷途根作为你虚招的一部分。当你这么做时，你将它掷到敌人脚边使其失去平衡，你的虚招检定获得+1物品加值。若你的虚招是大成功，你可以迫使目标朝你选择的方向快步。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.zzixp6eSKLmaZN1w]{效果：昏乱迷途根（次级）}</p>"
+    },
+    "Combine Concoctions": {
+      "name": "合并调合物 Combine Concoctions",
+      "description": "<p><strong>先决条件</strong> 至少两个共享同一类炼金物品的调合物专长 </p><hr><p>你对所有调合物的配比都精准无比，即使能力天差地别也能保持稳定。在每日准备时，选择你拥有的两个共享同一类炼金物品的调合物专长。你可以用一个 3 动作的活动，把两个调合物的效果合并成单一调合物，并立即激发它。例如，你可以用合并调合物把一份@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-items.rGqkw6liNprNLpF8]{突变酊剂}调合物与一份@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-items.DE4Fagmyf7CFjo6s]{毒液亲和}调合物合并，因为它们都会制造突变药剂。</p>"
+    },
+    "6W0b5P54K65GRegi": {
+      "name": "炼金天使（次级） Alchemical Angel (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这瓶云雾般的液体中跳动着一颗天族之心，它或是人工造就，或是从一位被杀天使的精质中采集而来。药瓶启封时，一位天族现身，为你的盟友赐福，随后消散为一团芬芳的云雾。该天使的体型为中型。你激发它时，它飞行 25 尺，随后以至多 2 个相邻生物为目标。存活生物回复 @Damage[2d6[healing]] 生命值。具有虚能治疗的生物则改为承受 @Damage[2d6[vitality]] 伤害，并进行一次 @Check[fortitude|dc:18|basic] 豁免。该天使带来的治疗与伤害均为魔法性。</p><hr /><p><strong>制作需求</strong> 提供一位近期被杀天族的精质，其生物等级须等于或高于本物品的等级。</p>"
+    },
+    "Tackfied Trail Ammunition (Lesser)": {
+      "name": "黏迹弹药（次级） Tackfied Trail Ammunition (Lesser)",
+      "description": "<p><strong>弹药</strong> 任意</p><p><strong>激发 </strong><span class=\"action-glyph\"><strong>1</strong></span> 互动</p><hr /><p>用黏迹弹药射出弹丸时，弹丸会在射击武器与目标之间留下一道黏稠的胶状细丝。</p><p>若你的打击成功，且目标位于你 30 尺内，你便在武器与目标之间造出一条如绳索般作用的细丝。这条细丝以直线把你和目标连在一起，持续 1 分钟；目标或其他人可以攻击细丝将其扯断。细丝的 AC 为 21，生命值为 30，逃脱 DC 为 21。若目标与你的距离超出细丝的最大射程，细丝会在被用于一次打击后自动溶解。细丝存在期间，目标除非尝试逃脱，否则无法移动超过该最大距离。有细丝连接你与目标时，你无法用该武器进行远程打击，除非该武器有多根枪管；但你可以进行互动来移除细丝，或为武器重新装填以移除细丝。</p><p>你也可以选择用打击瞄准某个特定的 5 尺方格而非生物，这样的方格 AC 通常为 10；此时绳索会附着在该方格而非生物上，如同一条牢牢固定在你所选空间上的绳索。以这种方式使用黏迹弹药时，你可以用一个互动动作拉动细丝，把自己拽向目标空间，移动结束后效果立即终止。你必须落在坚实地面的空间上，否则会立刻坠落。这属于强迫移动。</p>"
+    },
+    "Medicinal Hotpot (Greater)": {
+      "name": "药膳火锅（高级） Medicinal Hotpot (Greater)",
+      "description": "<p><strong>激发 </strong>10 分钟（操作）</p><hr /><p>这锅熬煮的药草为食物注入了治疗特性。以食用方式激发之后，每当你因某个治疗效果回复生命值时，你额外回复 @Damage[5d6+5[healing]]。此额外治疗只适用于该效果所提供的首次治疗。即使某个效果会多次治疗同一名生物，该生物在每个效果上也只能从此治疗中获益一次。这些效果持续 24 小时，直到你进行每日准备，或直到你已通过此效果获得 3 次额外治疗为止，以先发生者为准。</p>"
+    },
+    "Pickled Dragon (Greater)": {
+      "name": "腌渍龙（高级） Pickled Dragon (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这瓶奇异液体中封存着一枚龙的胚胎，一经释放便会被超速催熟至相应的年龄。瓶身破开时，胚胎迅速成长，并释放出一次强力的吐息攻击。吐息武器的伤害类型与形状在制作时选定，与所提供的龙的吐息攻击具有相同的伤害类型、相同的形状。若该龙的吐息攻击不造成伤害，则伤害类型为精神。腌渍龙获得相应的元素特性。当你激发它时，它会飞行指定的距离，然后使用其吐息攻击。</p><hr /><p>龙胚会长成一头超大型的成年角龙、预兆龙或类似的龙。它至多飞行 60 尺，并使用其吐息攻击，对区域内的每个生物造成 @Damage[8d6|options:area-damage] 伤害（@Check[fortitude|dc:28|basic] 豁免）。豁免大失败的生物还会额外受到 @Damage[3d4[persistent]] 伤害。</p><ul><li><p><strong>锥形</strong> 该区域为 @Template[type:cone|distance:45]。</p></li><li><p><strong>直线</strong> 该区域为 @Template[type:line|distance:60]。</p></li><li><p><strong>爆发</strong> 该区域为 60 尺内的 @Template[type:burst|distance:20]。</p></li></ul><hr /><p><strong>制作需求</strong> 提供一具带有龙特性、且生物等级不低于该物品等级的生物尸体。腌渍龙的每一种伤害类型与吐息武器的组合都需要一份单独的配方。</p>"
+    },
+    "Gray Dust Ammunition (Lesser)": {
+      "name": "灰尘弹药（次级） Gray Dust Ammunition (Lesser)",
+      "description": "<p><strong>弹药</strong> 任意</p><p><strong>激发 </strong><span class=\"action-glyph\"><strong>1</strong></span> 互动</p><hr /><p>这种弹药灌注了来自法力废土的辐射尘埃，因而在射向施法者时会产生不稳定的效果。在接下来 1 分钟内，他们第一次施放法术时，自身的魔法会反噬，使其受到@Damage[8d4[force]]伤害，并进行一次@Check[fortitude|dc:25|basic]豁免。大失败时，该生物还会陷入@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞 2}状态 1 轮。</p>"
+    },
+    "Wrought Sirloin": {
+      "name": "锻铁西冷牛排 Wrought Sirloin",
+      "description": "<p><strong>激发</strong> 1 分钟（操作）</p><hr><p>这份强化过的西冷牛排佐以绿叶蔬菜。牛排中的铁已被炼金术改造为寒铁，使其拥有对抗原能魔法的强大力量。以进食的方式激发这份西冷之后，你获得对原能法术以及动物、元素生物或精怪所造成伤害的 8 点抗力，持续 24 小时，或直到你进行每日准备为止，以先发生者为准。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.vFkrXIujLH10zSI7]{效果：锻铁西冷}</p>"
+    },
+    "Mutating Bomb": {
+      "name": "突变炸弹 Mutating Bomb",
+      "description": "<p><strong>成本</strong> 1 枚炼金炸弹与 1 份炼金突变剂</p><hr /><p>你制造出一枚以骇人突变削弱敌人的炸弹。你以该调和物进行一次打击，视其为与所提供材料同类型的炸弹。打击成功时，该炸弹的目标必须进行一次对抗你职业DC的强韧豁免。若你的打击是大成功，则目标的该次豁免承受 –2 环境减值。</p><hr /><p><strong>成功</strong> 目标不受影响。</p><p><strong>失败</strong> 目标的身体被短暂扭曲改变，在 1 轮内获得所提供突变剂的缺陷。若某份突变剂的缺陷需要作出选择（例如银舌突变剂），则由你作出选择。若某项缺陷会使目标在某项技能上变为未受训，则该生物在其技能检定中改用相关的属性调整值，而非其技能调整值。</p><p><strong>大失败</strong> 同失败，但效果持续 4 轮。在其每个回合结束时，它可以尝试一次新的强韧豁免以将剩余持续时间减少 1 轮，大成功时则完全结束该效果。</p>"
+    },
+    "Curative Aglaophotis": {
+      "name": "疗愈阿格劳弗提斯 Curative Aglaophotis",
+      "description": "<p><strong>激发</strong> @UUID[Compendium.sf2e.actions.1kGNdIIhuglAjIp9]{治疗伤势}</p><hr /><p>阿格劳弗提斯在神秘学家中声名远播，也频频出现于死灵之书中。它无法自然生长，只能完全依靠炼金术培育。你可以在进行治疗伤势活动时激发本物品。你这样做时，也一并净化了灵魂：除常规效果外，你还将目标的 @UUID[Compendium.sf2e.conditions.3uh1r86TzbQvosxv]{毁灭} 状态降低 1 级，大成功时则降低 2 级。</p><p>此外，若目标身受诅咒，你还可以尝试解除该诅咒，以你治疗伤势的结果作为解除该诅咒的结果。解除等级等于该物品等级的一半。</p><p>无论你治疗伤势的结果如何，目标在 1 天内对这些效果暂时免疫。</p>"
+    },
+    "Internal Alchemy": {
+      "name": "内丹术 Internal Alchemy",
+      "description": "<p>在天夏的龙华帝国，炼金术常与冥想、严格的饮食修习以及修炼之术相结合，用以改造自身。对这些内丹修行者而言，身体便是实验室，通过审慎的实验，它可以被一步步引向长生不朽。继任者诸邦往往发展出各自的炼金流派：在天景，炼金术士钻研内热与御风之法；而在桓廓，形体姿态与架势则是施行内丹术的关键一环。</p><p>你的实践技能是运动。你只能用高速炼金制作具有加工特征的炼金食品与突变药剂，且当你这样做时，它们会获得下列增益。</p><p><strong>突变药剂</strong> 当你服用自己用高速炼金制作的突变药剂时，你的打击伤害获得 +2 状态加值。若你的突变药剂不提供徒手攻击，则在该突变药剂的持续时间内，你的拳伤害骰由 1d4 提升至 1d6。当你受自己的突变药剂影响时，以拳进行致命攻击不承受减值。若你至少为 11 级，该伤害状态加值提升至 +4。</p><p><strong>加工</strong> 当你食用自己用高速炼金制作的加工炼金食品时，在其持续时间内你可以获得一次持续 1 分钟的强韧豁免 +1 状态加值。若你至少为 11 级，该状态加值提升至 +2。</p>"
+    },
+    "Concealing Puffball (Lesser)": {
+      "name": "遮蔽尘菌（次级） Concealing Puffball (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.VMozDqMMuK5kpoX4]{潜行}</p><hr><p>这枚格外膨胀的担子菌标本被挤压时会炸开一团孢子云。你可以在潜行时激发此物品，你的潜行检定获得 +1 物品加值，并且你在潜行中进入的所有方格都会留下孢子。这些孢子提供@UUID[Compendium.sf2e.conditions.DmAIPqOBomZ7H95W]{隐蔽}，持续到你的下一回合结束。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.WEKdjn7LktX1GBL8]{效果：遮蔽尘菌（次级）}</p>"
+    },
+    "Croque Matron": {
+      "name": "主母三明治 Croque Matron",
+      "description": "<p><strong>激发</strong> 1 分钟（操作）</p><hr><p>这份美味三明治中灌注了以圣化之水熬煮浓缩制成的酱汁。以吃下三明治的方式将其激发后，你在 24 小时内，或直到你进行每日准备为止（以先到者为准），获得 8 点抗力，用以抵抗神术法术，以及圣洁或邪秽（于制作时选定）所造成的伤害。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.uW2ZO2NI0EUjJ89Z]{效果：主母三明治}</p>"
+    },
+    "Dousing Aloe (Greater)": {
+      "name": "灭火芦荟（高级） Dousing Aloe (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.feats.wYerMk6F1RZb0Fwt]{战地医疗}</p><hr><p>这株以炼金术培育的芦荟，其凝胶呈柔和的蓝色，触手生凉。你可以把灭火芦荟存放在 @UUID[Compendium.sf2e.equipment.s1vB3HdXjMigYAnY]{医疗工具包} 中，并在使用战地医疗时将其激发。你这样做时，你战地医疗的承受者身上所有持续火焰伤害都会终止。芦荟涂敷后的 1 分钟内，目标获得 10 点火焰抗力，且移除持续火焰伤害所需的纯骰检定降低 5。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.QGUdJd2KbNuSYYRD]{效果：灭火芦荟（高级）}</p>"
+    },
+    "Dousing Aloe (Lesser)": {
+      "name": "灭火芦荟（次级） Dousing Aloe (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.feats.wYerMk6F1RZb0Fwt]{战地医疗}</p><hr><p>这株以炼金术培育的芦荟，其凝胶呈柔和的蓝色，触手生凉。你可以把灭火芦荟存放在 @UUID[Compendium.sf2e.equipment.s1vB3HdXjMigYAnY]{医疗工具包} 中，并在使用战地医疗时将其激发。你这样做时，你战地医疗的承受者身上所有持续火焰伤害都会终止。芦荟涂敷后的 1 分钟内，目标获得 4 点火焰抗力，且移除持续火焰伤害所需的纯骰检定降低 5。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.3VWyJy44sK75YHHG]{效果：灭火芦荟（次级）}</p>"
+    },
+    "Alkaline Mire (Major)": {
+      "name": "碱性泥沼（超级） Alkaline Mire (Major)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span>（操作）</p><hr /><p>这种紫色的泥泞淤浆常被用来中和泥怪的强酸。将其涂抹在一个生物身上后，该生物在1分钟内获得16点强酸伤害抗力。当你拥有此抗力期间，若一个具有泥怪特征的生物以徒手攻击成功打击你，它会受到@Damage[16]伤害。此伤害没有伤害类型，且无法被抗力减免。</p>"
+    },
+    "Slushwand": {
+      "name": "冰沙杖 Slushwand",
+      "description": "<p>这个小型容器连接着一根加长软管与一支长杖，用于喷洒雪泥般的寒霜。必须将共两瓶 @UUID[Compendium.pf2e-anachronism.equipment.EpxmUtLpCkE8R6KJ]{霜冻瓶} 装入杖底球状容器的插槽中，并清除杖上残留的任何残渣或冰霜。以此方式正确装填长杖需要 1 分钟。当长杖伸展并按下扳机时，霜冻瓶中的内容物会自杖头喷向指定区域。此杖造成的伤害由装入其中最弱的那瓶霜冻瓶决定。</p><p><strong>激发</strong> <span class=\"action-glyph\">2</span> （寒冷、操作）需求 冰沙杖已装填；效果 你将长杖指向一片区域，耗尽两瓶已装填的霜冻瓶，在射程内的数个相连方格中制造出一片雪泥区域。区域内的生物根据装入杖中最弱的那瓶霜冻瓶承受寒冷伤害，如下所述。基础反射豁免大失败的生物还会对其速度承受一项状态减值，直到其下一回合结束。</p><p><strong>次级霜冻瓶</strong>：此杖在 15 尺内的 4 个相连方格中造成 @Damage[1d6[cold]]（@Check[reflex|dc:15|basic|options:area-damage] 豁免）。对速度的状态减值为 –5 尺减值。</p><p><strong>中级霜冻瓶</strong>：此杖在 15 尺内的 4 个相连方格中造成 @Damage[2d6[cold]] 伤害（@Check[reflex|dc:17|basic|options:area-damage] 豁免）。对速度的状态减值为 –10 尺减值。</p><p><strong>高级霜冻瓶</strong>：此杖在 15 尺内的 6 个相连方格中造成 @Damage[6d6[cold]] 伤害（@Check[reflex|dc:28|basic|options:area-damage] 豁免）。对速度的状态减值为 –10 尺减值。</p><p><strong>超级霜冻瓶</strong>：此杖造成 @Damage[10d6[cold]] 伤害（@Check[reflex|dc:37|basic|options:area-damage] 豁免），作用于 120 尺内的一个 @Template[type:burst|distance:20] 范围。在 15 尺内的 8 个相连方格中。对速度的状态减值为 –15 尺减值。</p>"
+    },
+    "Necroptosis Ammunition": {
+      "name": "坏死弹药 Necroptosis Ammunition",
+      "description": "<p><strong>弹药</strong> 任意</p><p><strong>激发 </strong><span class=\"action-glyph\"><strong>1</strong></span> 互动</p><hr /><p>这枚弹药中的化学化合物会让活物的细胞肿胀并猛烈爆裂。在被激发后的坏死弹药命中之后，于目标的下一个回合结束时，目标及其 15 尺内的所有生物都会受到 @Damage[6d6[void]] 伤害，可进行一次 @Check[fortitude|dc:37|basic] 豁免。</p>"
+    },
+    "Grub's Up": {
+      "name": "开饭啦 Grub's Up",
+      "description": "<p>动作 <span class=\"action-glyph\">1</span> 至 <span class=\"action-glyph\">2</span></p><hr /><p>常言道，做菜时必须边做边尝才能确保味道到位，于是你毫不耽搁地把成品一口吞下。你通过互动抽取一份食用时间为 2 个动作以内的炼金食物，或使用高速炼金制造一份食用时间为 2 个动作以内的炼金食物，然后把它喂给一个相邻的自愿生物，从而将其激发。若该炼金食物只需 1 个动作即可激发，你可以将开饭啦作为单个动作使用。该生物必须花费自己的反应来吃下这份食物。若你拥有能用高速炼金一次制造多份炼金食物的能力（例如双份制剂职业特性），你用此动作只能把其中一份所造食物喂给一个生物。</p>"
+    },
+    "Captivating Fern Flower (Moderate)": {
+      "name": "魅惑蕨花（中级） Captivating Fern Flower (Moderate)",
+      "description": "<p><strong>激发</strong> @UUID[Compendium.sf2e.actions.plBGdZhqq5JBl1D8]{搜集信息}或@UUID[Compendium.sf2e.actions.OX4fy22hQgUHDr0q]{建立印象}</p><hr><p>这种稀有的花朵只在夏至前夜自然绽放，可一旦绽放，便会让佩戴它的人对旁人极具吸引力。你可以将激发本物品作为你建立印象的一部分。这样做时，你的建立印象获得视觉特征，且你以建立印象瞄准多个生物时所受的减值降低 2。或者，你可以将这朵蕨花用作你搜集信息活动的一部分，并可改用 +15 的交涉调整值（若其高于你自己的调整值）。若你使用自己的交涉调整值，则你的检定获得 +2 物品加值。你将搜集信息与建立印象所需的时间减半。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.QMnAGTlfgew1BUwM]{效果：魅惑蕨花（中级）}</p>"
+    },
+    "Rake's Lollipop": {
+      "name": "浪子棒棒糖 Rake's Lollipop",
+      "description": "<p>这种插在小棍上的煮糖硬糖原本是给烟民做的替代品，如今却成了某种叛逆的象征，颇受那些急于替自己搏名声的恶棍与黑骑士青睐。棒棒糖里的化学物质旨在让你在压力之下保持冷静从容；在至多 10 分钟内，你的威吓检定获得 +2 物品加值。</p><p><strong>次要效果</strong> <span class=\"action-glyph\">f</span> <strong>触发</strong> 你掷先攻；<strong>效果</strong> 你用牙齿嚼碎棒棒糖，把满口混有肾上腺素的糖浆释入体内。你在战斗的第一个回合获得 @UUID[Compendium.sf2e.conditions.nlCjDvLMf2EkV2dl]{迅捷}；这个额外动作只能用来行走或打击。随后你在 1 天内对此效果暂时免疫。</p>"
+    },
+    "Cursebreaking Pierogi": {
+      "name": "破咒波兰饺 Cursebreaking Pierogi",
+      "description": "<p><strong>激发</strong> 1 分钟（操作）</p><hr><p>这些波兰饺在猎巫者中广受欢迎，其用盐里掺入了抗魔法的化合物。以吃下波兰饺的方式将其激发后，你在 24 小时内，或直到你进行每日准备为止（以先到者为准），获得 8 点对神秘法术的抗力；并且当你尝试对抗诅咒进行豁免时，可以骰两次并取较好的结果。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.RR6KP3gZvz2pqAEs]{效果：破咒波兰饺}</p>"
+    },
+    "Pill Furnace (Greater)": {
+      "name": "丹炉（高级） Pill Furnace (Greater)",
+      "description": "<p><strong>激发</strong> 可变</p><hr /><p>此物源自龙华帝国炼金术士的手艺，是一口装饰华丽的钢制大锅，形似带盖的坩埚。被封入丹炉中的炼金物品会被炉内的药材强化、精炼，出炉时化为强力的升级版本。你可以用一个耗时 1 分钟的活动，将单个炼金物品放入丹炉之中。随后你必须以该物品的制作 DC 进行一次制作检定。该物品的伤害与治疗获得 +2 状态加值；若你的制作至少达到大师，则改为获得 +4 状态加值。此状态加值仅适用于该物品造成的初始伤害或治疗，不适用于炼金物品造成的持续伤害或溅射伤害。若该物品的初始伤害或治疗会以多个生物为目标，则将此状态加值减半。</p><p>这一超大号的丹炉带有一间桑拿般的冥想室，可供人在其中静修。你可以将一个中型或更小的生物装入炉室，借由炼金试剂与压力，将惊人的力量灌注进封闭其中的生物体内。你以一个耗时 8 小时的流程激发丹炉，然后依据被封入生物的等级，对应的标准 DC 进行一次制作检定。激发时间结束后，该生物在 1 个月内无法再安全地使用高级丹炉。你也可以像使用普通丹炉那样，用高级丹炉精炼炼金物品。丹炉能够容纳大型或更大的生物，但每比中型大一个体型级别，该物品的负载便翻倍。</p><hr /><p><strong>大成功</strong> 丹炉萃炼出炉内生物的精魄，使其得以被精炼为更强大的存在。被封入的生物可以进行重新训练，效果如同已花费 1 个月进行重新训练。 </p><p><strong>成功</strong> 同大成功，但该生物只能如同已花费 1 周进行重新训练。 </p><p><strong>大失败</strong> 过程操之过急，该生物的经脉逆转。该生物陷入 @UUID[Compendium.sf2e.conditions.4D2KBtexWXa6oUMR]{流失 2}。</p>"
+    },
+    "Pickled Dragon (Moderate)": {
+      "name": "腌渍龙（中级） Pickled Dragon (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这瓶奇异液体中封存着一枚龙的胚胎，一经释放便会被超速催熟至相应的年龄。瓶身破开时，胚胎迅速成长，并释放出一次强力的吐息攻击。吐息武器的伤害类型与形状在制作时选定，与所提供的龙的吐息攻击具有相同的伤害类型、相同的形状。若该龙的吐息攻击不造成伤害，则伤害类型为精神。腌渍龙获得相应的元素特性。当你激发它时，它会飞行指定的距离，然后使用其吐息攻击。</p><hr /><p>龙胚会长成一头大型的幼年角龙、预兆龙或类似的龙。它至多飞行 40 尺，并使用其吐息攻击，对区域内的每个生物造成 @Damage[4d6|options:area-damage] 伤害（@Check[fortitude|dc:23|basic] 豁免）。豁免大失败的生物还会额外受到 @Damage[2d4[persistent]] 伤害。</p><ul><li><p><strong>锥形</strong> 该区域为 @Template[type:cone|distance:30]。</p></li><li><p><strong>直线</strong> 该区域为 @Template[type:line|distance:45]。</p></li><li><p><strong>爆发</strong> 该区域为 20 尺内的 @Template[type:burst|distance:10]。</p></li></ul><hr /><p><strong>制作需求</strong> 提供一具带有龙特性、且生物等级不低于该物品等级的生物尸体。腌渍龙的每一种伤害类型与吐息武器的组合都需要一份单独的配方。</p>"
+    },
+    "Conker Flail (Lesser)": {
+      "name": "马栗连枷（次级） Conker Flail (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.SjmKHgI7a5Z9JzBx]{破拆} 或 <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.VjxZFuUXrCU94MWR]{打击}</p><hr /><p>这枚超大号马栗外面长着一层带刺的壳，还长出一根结实的绳状茎柄。你可以在尝试破拆或对物体进行打击时激发此物品。你可以持续使用马栗连枷进行这些动作，直到你的下一回合结束。 </p><p>当你用马栗连枷尝试破拆时，若 +5 的运动调整值高于你自己的运动调整值，你可以改用它。使用马栗连枷时，你不会因缺乏合适工具而在破拆检定上承受减值。 </p><p>当用于对物体进行打击时，马栗连枷视为连枷类的简易武器，造成 @Damage[1d6[piercing]|options:razing] 伤害，并具有摧毁特性。 </p><p>你可以选择在破拆或打击时引爆这枚栗子，这样做能让你的检定或攻击骰获得 +2 环境加值。栗子引爆后，马栗连枷立即朽坏。</p>"
+    },
+    "Warding Moly": {
+      "name": "守护摩吕草 Warding Moly",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.1OagaWtBpVXExToo]{回忆知识}</p><hr /><p>这株神秘的草药以泰坦之血浸润过，能够反制强大的法术。你可以在进行回忆知识以鉴定一个法术时激发这株莫利草。</p><p>这样做时，你把莫利草抹在脉搏周围，低声念诵咒文的片段，从而为自己注入炼金防护。在此后 24 小时内，你第一次针对所鉴定的那个法术进行豁免时，可以掷两次并取较高结果，且该豁免获得 +4 物品加值。这是一个幸运效果。</p>"
+    },
+    "Master of Manuscripts": {
+      "name": "典籍大师 Master of Manuscripts",
+      "description": "<p>你对奥秘密码的钻研已臻精深，甚至学会了如何把自己的配方书转化为魔典。你可以将魔典当作配方书使用。你可以花费一小时，用炼金溶剂抹去魔典中原有的文字，并将你的配方转录进去。尽管你多半无法准备法术，你依然懂得如何把这些密码典籍中的教诲运用于自己的造物。凡是影响「造成某一特征伤害之法术」的魔典激发，也可以改用带有该特征的炼金炸弹来激发（例如将 @UUID[Compendium.pf2e-anachronism.equipment.GkQJfRZC749piiBr]{闪烁冻雨之书} 与 @UUID[Compendium.pf2e-anachronism.equipment.EpxmUtLpCkE8R6KJ]{霜冻瓶} 搭配使用）；而凡是影响「具有治疗特征之法术」的魔典激发，也可以改用带有治疗特征的灵药来激发（例如将 @UUID[Compendium.pf2e-anachronism.equipment.AVBhZdhq6qCp96Se]{毁灭与新生法典} 与 @UUID[Compendium.pf2e-anachronism.equipment.TZUskLT7yvP7N2co]{生命灵药} 搭配使用）。</p>"
+    },
+    "Alter Admixture+": {
+      "name": "回炉混调+ Alter Admixture+",
+      "description": "<p><strong>需求</strong> 你正握持或穿戴着一套炼金工具包。</p><hr /><p>有时，你需要让自己的炼金混合物适应新的状况。通过一段耗时10分钟的流程，你把一件以高阶炼金术制造的物品改造成另一件炼金物品。你必须知晓新物品的配方，且新物品的物品等级不能高于原物品。新物品仍然保留灌注特征，并且在原物品本应保持效力的期间内一直保持效力。</p>"
+    },
+    "Venomous Geniality": {
+      "name": "毒性亲和 Venomous Geniality",
+      "description": "<p><strong>成本</strong> 1 份可赋予徒手攻击的炼金突变药剂，以及 1 份带有接触或伤口特征的炼金毒素。 </p><hr /><p>你把一份改变躯体的突变药剂与手头的一份毒素调和起来，让你的形态能够为其天生攻击分泌该毒素。你激发这份调合物，照常获得所用突变药剂的效果，唯一的差别是：你的下一次徒手打击会附带你所用的毒素。若该毒素是接触毒素，以这种方式施加时不会影响你自己。在该突变药剂的效果持续期间，你可以使用单个动作再分泌一剂所选毒素，附加到你在突变药剂生效期间进行的下一次徒手打击上。</p>"
+    },
+    "Halfling Sandwich (Lesser)": {
+      "name": "半身人三明治（次级） Halfling Sandwich (Lesser)",
+      "description": "<p><strong>激发 </strong>10 分钟（操作）</p><hr /><p>以传统半身人方式制作三明治的技艺是如此精确，以至于大约一百年前它意外地跨进了炼金术的领域。在接下来 1 小时内，你可以选择在一次由你自选的攻击掷骰、技能检定或豁免上获得 +1 状态加值，仅限一次。无论结果如何，你都会暂时免疫此效果 1 天。</p>"
+    },
+    "Craft Alkahest": {
+      "name": "制作万能溶剂 Craft Alkahest",
+      "description": "<p>你已解开原初物质的奥秘，学会了如何制造万能溶剂。你习得万能溶剂的配方，并可将其加入你的配方书。</p>"
+    },
+    "Mortality Revision": {
+      "name": "凡躯改造 Mortality Revision",
+      "description": "<p>正如铅可以点化为金，你的躯体亦可嬗变为更高的存在。你已运用炼金术的教诲，将自身提升至更高的存在层次。你获得 60 尺的飞行速度，无需呼吸、进食或饮水，并获得再生 1——它在你每个回合开始时为你回复 1 点生命值。你不会因承受生命值伤害而死亡，你的濒死状态也无法提升到足以杀死你的数值（这会让大多数生物的濒死状态止步于濒死 3），不过若你的受伤值达到 4 或更高，你会一直保持昏迷，直到你的伤势得到治疗。若你承受强酸或火焰伤害，你的再生会失效，直到你下一回合结束之后才恢复。</p>"
+    },
+    "Propulsion Bomb": {
+      "name": "推进炸弹 Propulsion Bomb",
+      "description": "<p>通过在炸弹里加入一些中和剂，你可以借爆炸把自己震飞出去。你可以为一枚炼金炸弹加装额外的推进装置，让它把你推离爆炸范围。若该炸弹的攻击命中，除炸弹的常规效果之外，只要你处在其溅射伤害的范围之内，你就可以朝任意方向 @UUID[Compendium.sf2e.actions.d5I6018Mci2SWokk]{跳跃} 至多 30 尺。你必须落在坚实地面的空间上，否则你会在使用下一个动作后坠落。如同其他「使用下一个动作后坠落」的效果一样，即便你在该回合不再使用任何动作，你仍会在回合结束时坠落。</p>"
+    },
+    "Expanding Foam (Moderate)": {
+      "name": "膨胀泡沫（中级） Expanding Foam (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这个小瓶中盛有液态试剂，另一个装着不同溶液的玻璃小瓶漂浮在其中。玻璃破碎时，两种溶液发生反应，生成迅速膨胀的泡沫，并很快硬化成坚固而厚实的表面。激发时，将此小瓶掷向30尺内的一处空间，制造出一个填满@Template[type:burst|distance:20]的物体。被摧毁的泡沫区段可以照常通行。区域内的非魔法火焰立即熄灭。区域内的生物被移往它们自选的最近边缘处。这是强制移动。</p><p>这堵墙每5尺乘5尺的区段拥有AC 10、硬度18和80点生命值。它免疫重击与精准伤害，并拥有火焰抗力15。</p>"
+    },
+    "Alchemical Roast": {
+      "name": "炼金烤肉 Alchemical Roast",
+      "description": "<p><strong>激发</strong> 10 分钟（操作）</p><hr><p>这道烤肉以炼金试剂处理过的肉类与蔬菜制成，而非采用传统烹饪手法，能强健你的体魄。你吃下烤肉将其激发后，在 24 小时内、或直到你进行每日准备为止（以先到者为准），你对抗疾病的豁免获得 +1 物品加值。若你在这 24 小时内休息，你回复的生命值为通常所得的两倍。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.t1N76y4raclLihcY]{效果：炼金烤肉}</p>"
+    },
+    "Transmute Metals": {
+      "name": "嬗变金属 Transmute Metals",
+      "description": "<p>你已解开了炼制贤者之石的最初几项秘密，明白了如何把金属转化为其他种类。在进行制作停机动作时，你可以把任意金属转化为另一种金属。这会消耗等同于两种金属价格差额的金币。</p>"
+    },
+    "Augmentative Vial": {
+      "name": "增幅药瓶 Augmentative Vial",
+      "description": "<p><strong>成本</strong> 1份万用制剂 </p><p><strong>需求</strong> 你已在一件物品上绘制了法阵。 </p><hr><p>你通过添加额外的物质来增幅这件物品。若你的下一个动作是使用物质冲击，该物品便会被你冲击的力量所灌注。所获增益取决于所需的物品，并持续到你下一回合结束。</p><p>若该物品被握持或持用，你打击时会依据你@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}的每颗武器伤害骰额外造成1点伤害。此伤害的类型与你的物质冲击所造成的类型相同。若该物品是穿戴的，你获得等同于你等级一半的抗力，抗力类型为你物质冲击的伤害类型。 </p><hr><p><strong>特殊</strong> 若你拥有@UUID[Compendium.pf2e-anachronism.feats.Gvx8Mdg5mxUtTD5g]{武器注能}职业专长，则当你使用武器注能时，可以把这份额外伤害应用到你的物质冲击上。</p>"
+    },
+    "Nettle Balm (Lesser)": {
+      "name": "荨麻药膏（次级） Nettle Balm (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 协助恢复（操作）</p><hr /><p>这种用荨麻制成的刺痛药膏用起来或许并不好受，但其药效足以把人从更剧烈的痛楚中震醒。你可以把激发这份药膏作为你针对强酸或火焰伤害进行协助恢复的一部分。被触碰的生物立即尝试一次 @Check[flat|dc:4] 以终结该持续伤害，失败时照常受到伤害。</p>"
+    },
+    "Goblin Pickle": {
+      "name": "地精酸黄瓜 Goblin Pickle",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>这根酸黄瓜曾浸泡在炼金醋液中。哥布林炼金术士对它青睐有加，而地精酸黄瓜同样经过特别调制，能让爆炸带来的伤害轻上一些。吃下地精酸黄瓜后，你在 1 分钟内获得对溅射伤害与区域伤害的抗力 2。</p>"
+    },
+    "Seed Bomb": {
+      "name": "种子炸弹 Seed Bomb",
+      "description": "<p><strong>成本</strong> 1 枚具备溅射特征的炼金炸弹，以及 1 株以生物为目标的炼金植物</p><hr /><p>种荚被灌注进炼金炸弹的化学物质当中，并在其溅出的液体里发芽。你先把炼金植物植入炼金炸弹，再以该炼金炸弹进行打击，从而在炸弹溅射伤害波及的区域内造出一片草木区域。</p><p>随后你在打击之后立即激发该炼金植物，包括其激发所含的任何动作；它可以像你身处草木区域之中那样，以草木区域内的生物为目标。以这种方式投放时，炼金植物较不稳定，其任何效果（若有）的持续时间缩短为 1 轮。</p>"
+    },
+    "Refined Circle": {
+      "name": "精炼法阵 Refined Circle",
+      "description": "<p>你已把对某一种元素的掌控磨练到极致，因而能在物质守恒上做到分毫不差。选择一种你能为嬗变法阵准备的元素。此选择一经作出便不可更改。当你在每日准备中绘制嬗变法阵时，只要该法阵只含单一元素，你就可以为所选元素一次造出两个嬗变法阵，而非一个。你在每日准备中想为多少个嬗变法阵这样做都可以。</p>"
+    },
+    "Conker Flail (Major)": {
+      "name": "马栗连枷（超级） Conker Flail (Major)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.SjmKHgI7a5Z9JzBx]{破拆} 或 <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.VjxZFuUXrCU94MWR]{打击}</p><hr><p>这枚超大号马栗外面长着一层带刺的壳，还长出一根结实的绳状茎柄。你可以在尝试破拆或对物体进行打击时激发此物品。你可以持续使用马栗连枷进行这些动作，持续 4 轮。</p><p>当你用马栗连枷尝试破拆时，若 +27 的运动调整值高于你自己的运动调整值，你可以改用它。若你使用自己的运动调整值，则你的检定或打击获得 +3 物品加值。使用马栗连枷时，你不会因缺乏合适工具而在破拆检定上承受减值。</p><p>当用于对物体进行打击时，马栗连枷视为连枷类的简易武器，造成 @Damage[1d6[piercing]|options:razing] 伤害，并具有摧毁特性。</p><p>你可以选择在破拆或打击时引爆这枚栗子，这样做能让你的检定或攻击骰获得 +2 环境加值，并且你无视该物体 16 点硬度。栗子引爆后，马栗连枷立即朽坏。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.o9NU2yBDBAryVxQX]{效果：马栗连枷（超级）}</p>"
+    },
+    "Ammunition Infusion": {
+      "name": "弹药灌注 Ammunition Infusion",
+      "description": "<p><strong>需求</strong> 你正持用一件能够发射炼金弹药的武器，并且已绘制好一个嬗变法阵。</p><hr><p>你将弹药与你嬗变之力的能量结合起来。你使用@UUID[Compendium.pf2e-anachronism.actions.yzNJgwzV9XqEhKc6]{高速炼金}制造一份所需武器能够使用的炼金弹药。若你的下一个动作是远程物质冲击，你可以激发该炼金弹药，将其作为物质冲击的一部分使用，并将所需武器的特征应用到你的物质冲击上。若你的物质冲击命中，该涌动便获得你弹药的效果。你使用自己的涌动攻击调整值来进行这次攻击检定。</p>"
+    },
+    "Nymph Doll (Moderate)": {
+      "name": "宁芙玩偶（中级） Nymph Doll (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只小瓶里装着一缕树精的头发，漂浮在防腐黏液之中。当你激发它时，玩偶会成形为一只中型宁芙。位于该宁芙的 @Template[type:cone|distance:30] 范围内的敌方生物必须成功通过一次 @Check[will|29] 豁免，否则会因其美貌而变为 @UUID[Compendium.sf2e.conditions.dfCMdR4wnpbYNTix]{震慑 1}。该宁芙展露美貌之后，很快便融回黏液并消散。</p><p><strong>制作需求</strong> 提供一具等级等于或高于本物品等级的已故宁芙的发缕。</p>"
+    },
+    "Alchemical Angel (Moderate)": {
+      "name": "炼金天使（中级） Alchemical Angel (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这瓶云雾般的液体中跳动着一颗天族之心，它或是人工造就，或是从一位被杀天使的精质中采集而来。药瓶启封时，一位天族现身，为你的盟友赐福，随后消散为一团芬芳的云雾。该天使的体型为中型。你激发它时，它飞行 35 尺，随后以至多 2 个相邻生物为目标。存活生物回复 @Damage[4d6[healing]] 生命值。具有虚能治疗的生物则改为承受 @Damage[4d6[vitality]] 伤害，并进行一次 @Check[fortitude|dc:23|basic] 豁免。该天使带来的治疗与伤害均为魔法性。</p><hr /><p><strong>制作需求</strong> 提供一位近期被杀天族的精质，其生物等级须等于或高于本物品的等级。</p>"
+    },
+    "Consumptive Infusion": {
+      "name": "食用灌注 Consumptive Infusion",
+      "description": "<p>通过将一座法阵转移到食物的制作之中，你可以把变化之力灌注给他人。若你的下一个动作是使用 @UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，你可以将一份炼金食物或一份药剂而非一个生物作为目标。当某个生物吃下或喝下你所指定的物品时，它可以使用你的物质爆发一次；这一使用机会在效果的持续时间结束时、或自你以食用灌注指定该物品起满 1 天后失效。吃下它的生物无需绘制变化法阵即可使用物质爆发。该生物以你的数据来结算效果，但涌动攻击骰改用它自己的体质调整值，而非你的智力调整值。吃下或喝下灌注了物质爆发的物品的生物，在 1 天内不能再吃下另一份。</p>"
+    },
+    "Pliable Marzipan": {
+      "name": "柔韧杏仁糖 Pliable Marzipan",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr><p>这种糖渍杏仁面团常被塑成迷你蔬菜或小动物之类的有趣造型，能让食用者变得和它一样可塑。食用之后，你会在 1 分钟内变得如面团般柔软、如黏土般可塑。在此形态下，你获得穿刺伤害抗力 8，并且在判定你能穿过哪些空间时，视为体型小 2 级。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.JkJGFnc7JfitgxGI]{效果：柔韧杏仁糖}</p>"
+    },
+    "Bristle Boar Flask": {
+      "name": "鬃毛野猪烧瓶 Bristle Boar Flask",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这个装满液态毛皮与獠牙的烧瓶，其内容物一接触到氧气就会凝结成一头中型的鬃毛野猪。该鬃毛野猪沿 @Template[type:line|distance:40] 冲锋。它必须对沿途每个生物尝试推撞，检定使用 [[/r 1d20+10]]{+10} 的运动调整值，把它们推向冲锋路线的两侧、清出一条通路。它按沿这条线行进时遭遇的先后顺序进行这些检定；若某次检定失败，它立即停下，线上更远处的生物不受影响。被它的推撞检定大成功的生物还会因尖刺扎入体内而受到 @Damage[1d6[piercing]] 伤害。 </p><p><strong>制作需求</strong> 提供一头鬃毛野猪的尸体。</p>"
+    },
+    "Kraken Calamari (Greater)": {
+      "name": "克拉肯鱿鱼圈（高级） Kraken Calamari (Greater)",
+      "description": "<p><strong>激发</strong> 10 分钟（操作）</p><hr /><p>虽然未必真由克拉肯制成，这道以鱿鱼为主料的菜肴确实含有能让生物明显变得柔韧的化学物质。以食用的方式激发这道鱿鱼圈后，你在用于逃脱、挤入或翻滚的特技检定上获得 +2 物品加值，持续 24 小时，或直到你进行每日准备为止，以先发生者为准。</p>"
+    },
+    "Compost Monstrosity": {
+      "name": "堆肥怪物 Compost Monstrosity",
+      "description": "<p><strong>成本</strong> 1 份炼金植物与 1 份瓶装怪物 </p><hr><p>你培育出一颗炼金植物的种子，它靠瓶装怪物中生物留下的残余物质茁壮生长。你激发这份调合物，其效果如同你选定的瓶装怪物。在瓶装怪物的动作结束时，它不会溶解，而是在其移动终点所在方格的 5 尺范围内种下一株炼金植物。这株炼金植物保持休眠，直到你花费相应数量的动作激发它，或者过去 1 分钟，以先发生者为准。你可以把激发这株炼金植物的效果指向生物，如同你身处它被种下的那个 5 尺方格中。 </p><hr><p><strong>特殊</strong> 若你拥有@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-items.JyzIw4d39QUbVsBS]{触发生长}职业专长，你可以改为让这株炼金植物保持休眠，直到有生物进入它被种下的方格 5 尺内，此时你可以花费你的反应激发它。</p>"
+    },
+    "Bottle-O-Ooze (Minor)": {
+      "name": "软泥瓶（初级） Bottle-O-Ooze (Minor)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只小型软泥，并在原位保持1分钟。若该软泥的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:16] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。软泥所占的空间可以穿越，但其每一格都视为困难地形。该软泥可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该软泥需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该软泥拥有以下数据：<strong>AC</strong> 7；<strong>HP</strong> 16；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 2、穿刺 2；<strong>弱点</strong> 范围伤害 2、溅射伤害 2</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的软泥残骸。</p>"
+    },
+    "Bandersnatch Bottle": {
+      "name": "班德斯奈奇瓶 Bandersnatch Bottle",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只玻璃瓶里的内容物看上去像是毛皮，却又如黏稠的液体般流动。被激发时，它会造出一头巨型班德斯奈奇。这头班德斯奈奇以自己的灵敏嗅觉作为精确感官、以[[/r 1d20+30]]{+30}的感知搜索65尺内的一个生物，随后朝它行走至多50尺，并以[[/r 1d20+28]]{+28}的攻击调整值发动一次尖颚打击。该打击造成@Damage[3d12+19[piercing]]伤害，触及为15尺。随后这头班德斯奈奇便崩解消散。 </p><p><strong>制作需求</strong> 提供一具班德斯奈奇的尸体。</p>"
+    },
+    "Hermetic Kit": {
+      "name": "赫尔墨斯工具组 Hermetic Kit",
+      "description": "<p><strong>激发</strong> 1 小时</p><hr /><p>这套天文器具包含星盘、浑仪、望远镜，以及其他用于追踪天体运行的工具。炼金术士用这些工具观测天界这一宏观世界对物质世界这一微观世界的影响。特定的炼金实验会被安排在与行星及天体方位相合的时刻进行，以求效率最大化。当你激发此物品时，你可以用这些工具进行观测星象活动。</p><p><strong>激发</strong>–<strong>观测星象</strong>（操作） <strong>频率</strong> 每周一次；<strong>需求</strong> 你身处户外且能够观测星辰；<strong>效果</strong> 你观测星辰，为下一次实验预先记下心得。进行一次@Check[crafting|dc:@self.level]检定，对抗等同于你等级的标准DC。</p><hr /><p><strong>大成功</strong> 本周内你的下一次制作检定获得 +4 环境加值。 </p><p><strong>成功</strong> 同大成功，但环境加值为 +2。 </p><p><strong>大失败</strong> 天体连珠预示着不利于你制作的星象。本周内你进行的下一个制作休整活动承受 –2 环境减值。</p>"
+    },
+    "Transmutation Expansion": {
+      "name": "嬗变扩展 Transmutation Expansion",
+      "description": "<p>你精进了运用嬗变阵的技艺，得以驾驭更高层次的物质操控。当你准备一座嬗变阵时，你可以选择在阵中额外准备一个记载于你配方簿中的涌动。该涌动所属的元素必须是该阵能够准备的元素。</p>"
+    },
+    "Triggered Growth": {
+      "name": "触发生长 Triggered Growth",
+      "description": "<p><strong>动作</strong> <span class=\"action-glyph\">1</span> 至 <span class=\"action-glyph\">3</span></p><hr /><p>你把自己的植物播进地里，好让它们在须臾之间破土而出、听你差遣。你进行互动来取出一株炼金植物、取出一份万用制剂，或使用高速炼金制造一株激发所需动作不超过 3 个的炼金植物。随后你把这株炼金植物种进相邻的方格，种植所花费的动作数与激发它所需的动作数相同。这株炼金植物会保持休眠，直到有生物进入其种植空间 5 尺内；此时你可以花费你的反应激发它，并瞄准触发生物，如同你身处它所种植的那个 5 尺空间中一样。若这株炼金植物是用高速炼金制造的，它最多能休眠 1 分钟然后分解；否则它会在 1 天后分解。</p>"
+    },
+    "Bramble Knot (Moderate)": {
+      "name": "荆棘结（中级） Bramble Knot (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.ge56Lu1xXVFYUnLP]{摔绊}</p><hr><p>一丛速生的悬钩子灌木向四周伸出带刺的拱形茎条。你可以作为你的摔绊的一部分激发此物品。当你这么做时，你对单一生物尝试一次摔绊。若 +16 的运动调整值高于你自己的运动调整值，你可以改用它进行这次摔绊；若你这么做，你的检定获得 +2 物品加值。就这次摔绊而言，你可以将体型至多为巨型的生物作为目标。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.ENdQ46x0MY7Yr6f9]{效果：荆棘结（中级）}</p>"
+    },
+    "Alchemical Angel (Greater)": {
+      "name": "炼金天使（高级） Alchemical Angel (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这瓶云雾般的液体中跳动着一颗天族之心，它或是人工造就，或是从一位被杀天使的精质中采集而来。药瓶启封时，一位天族现身，为你的盟友赐福，随后消散为一团芬芳的云雾。该天使的体型为中型。你激发它时，它飞行 45 尺，随后以至多 3 个相邻生物为目标。存活生物回复 @Damage[6d6[healing]] 生命值。具有虚能治疗的生物则改为承受 @Damage[6d6[vitality]] 伤害，并进行一次 @Check[fortitude|dc:28|basic] 豁免。该天使带来的治疗与伤害均为魔法性。</p><hr /><p><strong>制作需求</strong> 提供一位近期被杀天族的精质，其生物等级须等于或高于本物品的等级。</p>"
+    },
+    "Preserved Pteranodon": {
+      "name": "浸制无齿翼龙 Preserved Pteranodon",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这个罐子里装着一具缩小的无齿翼龙标本，双翼蜷缩在身周。激发时，一只大型无齿翼龙爆裂而出，朝敌人猛冲过去攻击片刻。该无齿翼龙至多飞行 40 尺，并以 [[/r 1d20+8]]{+8} 调整值进行一次喙部打击，造成 @Damage[1d10[piercing]] 伤害。若为重击命中，无齿翼龙会啄向目标双眼，令其在 1 轮内@UUID[Compendium.sf2e.conditions.TkIyaNPgTZFBCCuh]{目眩}。随后它迅速干瘪，化为乌有。</p><p><strong>制作需求</strong> 提供一具无齿翼龙的尸体。</p>"
+    },
+    "Spell Pyrophore (Greater)": {
+      "name": "法术引火剂（高级） Spell Pyrophore (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +17 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[6d4[fire],6d4[spirit]]，并进行一次 @Check[fortitude|dc:28|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
+    },
+    "Homunculus Clay (Moderate)": {
+      "name": "人造人黏土（中级） Homunculus Clay (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">3</span>（专注，操作）</p><hr><p>这种黏土含有能模拟生命本身的试剂，可以被塑造成一个私人仆从。当你激发它时，这团黏土产出 4 个@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-actors.cCZQpPqm4hTlqi7w]{黏土人造人}。该人造人保持活动 10 分钟，此后便会干涸。</p>"
+    },
+    "Nymph Doll (Greater)": {
+      "name": "宁芙玩偶（高级） Nymph Doll (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只小瓶里装着一缕树精的头发，漂浮在防腐黏液之中。当你激发它时，玩偶会成形为一只中型宁芙。位于该宁芙的 @Template[type:cone|distance:30] 范围内的敌方生物必须成功通过一次 @Check[will|38] 豁免，否则会因其美貌而变为 @UUID[Compendium.sf2e.conditions.dfCMdR4wnpbYNTix]{震慑 2}；若为大失败，则变为 @UUID[Compendium.sf2e.conditions.dfCMdR4wnpbYNTix]{震慑} 1 轮。该宁芙展露美貌之后，很快便融回黏液并消散。</p><p><strong>制作需求</strong> 提供一具等级等于或高于本物品等级的已故宁芙的发缕。</p>"
+    },
+    "Phial of Slurk": {
+      "name": "泥蛙小瓶 Phial of Slurk",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>一只被压扁的泥蛙，其橡胶般的躯体铺贴在这个玻璃圆筒的内壁上，时不时轻轻呱上一声。开启时，它会膨胀成一只中型泥蛙，并朝 30 尺内的一个生物喷射黏液，该生物必须尝试一次 @Check[reflex|dc:17] 豁免。豁免失败的生物变为 @UUID[Compendium.sf2e.conditions.i3OJZU2nk64Df3xm]{笨拙 1}，并在速度上承受 –5 尺状态减值，持续 1 小时或直到黏液被清除为止。被缠住的生物或与其相邻的生物可以用两个互动动作清除黏液；若该生物的豁免为大失败，则需要三个互动动作。这些动作不必连续进行，也不必由同一个生物做出。 </p><hr /><p><strong>制作需求</strong> 提供一具泥蛙的尸体。</p>"
+    },
+    "Potent Potables": {
+      "name": "强效饮剂 Potent Potables",
+      "description": "<p>即便使用原始的配方，你的炼金物品依然保有最高水准的效力。当你以 @UUID[Compendium.pf2e-anachronism.actions.yzNJgwzV9XqEhKc6]{高速炼金} 制造一个炼金物品时，在判定失能特性或那些以物品等级为依据的效果时，你可以将该炼金物品的物品等级提升至与你的等级相同。</p>"
+    },
+    "Rapid Equations": {
+      "name": "快速演算 Rapid Equations",
+      "description": "<p>你飞快地算了一通，推演自己与目标之间的距离、武器的重量、速度、角度等等，好把完美的一击对准。对 30 尺内一名生物的 AC 进行一次 @Check[crafting|against:ac] 检定。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.Acoy6DaxbMN3PP69]{效果：快速演算}</p><hr><p><strong>大成功</strong> 你算出了对付敌人的完美一击。直到你的下一回合结束，你无视目标的遮蔽以及标准掩蔽或次级掩蔽，并把因隐蔽而需要的平坦检定从 11 降为 @Check[flat|dc:5]。你以炼金物品对该目标造成的伤害获得 +4 状态加值。</p><p><strong>成功</strong> 同大成功，但伤害的状态加值改为 +2。</p>"
+    },
+    "Bottled Meal": {
+      "name": "瓶装餐食 Bottled Meal",
+      "description": "<p><strong>成本</strong> 1 份非诱变类炼金药剂与 1 份带有加工特征的炼金食物</p><hr /><p>你把炼金食物中的关键营养与风味蒸馏浓缩成一小瓶可速饮的炼金浓缩液，让人无需坐下用餐即可迅速服下。当这份瓶装餐食调合物被服下时，你立即获得该炼金食物以及该药剂的效果。该炼金食物的效果持续 1 分钟。</p>"
+    },
+    "Kyahahaha!": {
+      "name": "呀哈哈哈！ Kyahahaha!",
+      "description": "<p><strong>触发</strong> 你以一件炼金物品进行的打击、或一次并非微不足道的制作检定获得大成功。</p><hr /><p>你把自己的才华展露无遗，仰头放声狂笑。对受到触发动作影响的每个敌人尝试[[/act demoralize statistic=crafting]]，使用你的制作熟练度而非威吓。你为此检定只掷一次骰，并将结果分别与每个敌人比较。无论检定结果如何，随后每个生物都会在 1 分钟内对呀哈哈哈！暂时免疫。</p>"
+    },
+    "Bomb Fist": {
+      "name": "炸弹铁拳 Bomb Fist",
+      "description": "<p>你把全身力量灌注到一记装填了炸弹的重拳中。以一枚炸弹进行一次近战打击。若你的打击成功，则包含该打击目标在内的20尺直线范围内的所有生物都会受到该炸弹的溅射伤害，而非其通常范围。若该打击是重击，则你对该打击目标造成的溅射伤害翻倍。 </p><hr><p><strong>特殊</strong> 若你拥有 @UUID[Compendium.pf2e-anachronism.feats.gyVcJfZTmBytLsXq]{溅射扩展} 专长，或其他能扩大溅射伤害半径的能力，你可以让溅射伤害改为一条40尺直线。</p>"
+    },
+    "Promethean Sciences": {
+      "name": "普罗米修斯科学 Promethean Sciences",
+      "description": "<p>对某些炼金师而言，目标是创造生命。这些科学家或许相信，唯有通过创造生命才能理解生命的真正起源，因而竭力想把这一过程逆向解析出来。乌斯塔拉夫的莱皮德施塔特大学设有一整个院系，专门研究人造人及其他人工生命形式的创造。与此同时，奈克斯的炼金师之城厄诺皮翁，则是该国顶尖肉体扭曲师的家园。</p><p>你的实践技能是自然。你只能用高速炼金制作炼金植物与瓶装怪物，且这样制作出来的成品会获得下列增益。</p><p><strong>炼金植物</strong> 当你创造一株会以其他生物为目标的炼金植物时，就该次激发所用的动作或活动而言，你的触及范围增加 5 尺。当你的炼金师职业 DC 达到专家时，该触及范围改为增加 10 尺；若你的炼金师职业 DC 为大师，则改为增加 15 尺。</p><p><strong>瓶装怪物</strong> 当你创造一只会以其他生物为目标的瓶装怪物时，你可以选择让它成为良性怪物或恐怖怪物。若你选择恐怖怪物，则对抗该瓶装怪物效果的豁免失败的生物、或被该瓶装怪物成功命中攻击掷骰或技能检定的生物，会陷入 @UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧 1}。这是一个恐惧效果。若你选择良性怪物，该生物在 1 轮内获得 +1 状态加值于攻击掷骰，以及对抗恐惧效果的豁免。</p>"
+    },
+    "Tackfied Trail Ammunition (Moderate)": {
+      "name": "黏迹弹药（中级） Tackfied Trail Ammunition (Moderate)",
+      "description": "<p><strong>弹药</strong> 任意</p><p><strong>激发 </strong><span class=\"action-glyph\"><strong>1</strong></span> 互动</p><hr /><p>用黏迹弹药射出弹丸时，弹丸会在射击武器与目标之间留下一道黏稠的胶状细丝。</p><p>若你的打击成功，且目标位于你 30 尺内，你便在武器与目标之间造出一条如绳索般作用的细丝。这条细丝以直线把你和目标连在一起，持续 1 分钟；目标或其他人可以攻击细丝将其扯断。细丝的 AC 为 27，生命值为 50，逃脱 DC 为 27。若目标与你的距离超出细丝的最大射程，细丝会在被用于一次打击后自动溶解。细丝存在期间，目标除非尝试逃脱，否则无法移动超过该最大距离。有细丝连接你与目标时，你无法用该武器进行远程打击，除非该武器有多根枪管；但你可以进行互动来移除细丝，或为武器重新装填以移除细丝。</p><p>你也可以选择用打击瞄准某个特定的 5 尺方格而非生物，这样的方格 AC 通常为 10；此时绳索会附着在该方格而非生物上，如同一条牢牢固定在你所选空间上的绳索。以这种方式使用黏迹弹药时，你可以用一个互动动作拉动细丝，把自己拽向目标空间，移动结束后效果立即终止。你必须落在坚实地面的空间上，否则会立刻坠落。这属于强迫移动。</p>"
+    },
+    "Memory Mugwort": {
+      "name": "记忆艾草 Memory Mugwort",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.1OagaWtBpVXExToo]{回忆知识}（神秘学或宗教）</p><hr /><p>这些经炼金浸润的艾属草药散发着苦甜的气味，能唤起你尚未拥有的记忆。激发该物品是你用来「回忆知识」的同一动作的一部分。你对周围最近的危险（若存在）尝试一次回忆知识，从而了解你 500 尺内的一只生物或一处危害。该次回忆知识的 DC 为该生物或危害等级的困难 DC。即使该生物或危害通常不允许你使用你为回忆知识所选的技能，你也可以用这种方式进行回忆知识。无论结果如何，在吸入这股香气之后，你都会陷入 @UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞1级} 1 轮。</p>"
+    },
+    "Nettle Balm (Major)": {
+      "name": "荨麻药膏（超级） Nettle Balm (Major)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 协助恢复（操作）</p><hr><p>这种用荨麻制成的刺痛药膏用起来或许并不好受，但其药效足以把人从更剧烈的痛楚中震醒。你可以把激发这份药膏作为你针对强酸或火焰伤害进行协助恢复的一部分。被触碰的生物立即尝试一次 @Check[flat|dc:4] 以终结该持续伤害，失败时照常受到伤害。而且你在协助恢复所需的任何技能检定上获得 +3 物品加值。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.MLXhe1mvLkKSzPYd]{效果：荨麻药膏（超级）}</p>"
+    },
+    "Revitalizing Bun": {
+      "name": "焕活面包 Revitalizing Bun",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>这个温热的面包卷里填满了强身固本的配料，能坚定食用者的意志。吃下它后，你在 1 小时内感到精力焕发。在此期间，你可以用一个带有专注特征的单动作恢复 1 点聚能点。在你借此效果恢复聚能点之后，你在 1 天内对其效果暂时免疫。若你没有聚能池，此面包卷不产生任何效果。</p>"
+    },
+    "Extemporized Strikes": {
+      "name": "即兴打击 Extemporized Strikes",
+      "description": "<p>你能用各式各样的物品迅速发动攻击。当你通过互动抽取一件炼金物品、抽取一瓶万用制剂，或使用@UUID[Compendium.pf2e-anachronism.actions.yzNJgwzV9XqEhKc6]{高速炼金}制造一件炼金物品时，你还可以将该物品当作临时武器进行一次近战打击。若你拥有能用高速炼金一次制造多件物品的能力（例如双份制剂职业特性），你只能用其中一件所造物品进行打击。</p><p>若你正受益于@UUID[Compendium.pf2e-anachronism.equipment.FNDq4NFSN0g2HKWO]{重拳缠手带}，则在缠手带的物品加值更高时改用缠手带的物品加值，并可以选择改用它的伤害骰数量。若你使用缠手带的武器伤害骰数量，缠手带上的属性符文也同样生效，前提是这些符文能够适用于该临时武器（由GM裁定）。</p>"
+    },
+    "Bizarre Jars": {
+      "name": "怪奇标本罐 Bizarre Jars",
+      "description": "<p>你在罐中装满浸制标本或培育出的奇物，并把它们与你的炼金成分混合，藉以预知前方的危险。即使不满足前置条件，你也获得 @UUID[Compendium.sf2e.feats.tGIXuk0XeWmG04CX]{荒野见识} 技能专长；而且当你使用荒野见识时，在一切用途上你都以制作代替生存。此外，若你在该活动中消耗2个万用制剂，则在接下来的10分钟内，你对抗你所探知的生物时先攻获得 +2 环境加值。</p>"
+    },
+    "Nettle Balm (Moderate)": {
+      "name": "荨麻药膏（中级） Nettle Balm (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 协助恢复（操作）</p><hr><p>这种用荨麻制成的刺痛药膏用起来或许并不好受，但其药效足以把人从更剧烈的痛楚中震醒。你可以把激发这份药膏作为你针对强酸或火焰伤害进行协助恢复的一部分。被触碰的生物立即尝试一次 @Check[flat|dc:8] 以终结该持续伤害，失败时照常受到伤害。而且你在协助恢复所需的任何技能检定上获得 +1 物品加值。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.PY5fZKIJAUNURskY]{效果：荨麻药膏（中级）}</p>"
+    },
+    "Elemental Vial": {
+      "name": "元素瓶 Elemental Vial",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>打开这个小瓶会释放出一股奔涌的能量，凝聚成一只可怖的超大型元素生物。此类小瓶有多个种类，例如装有气元素的旋风瓶，或装有火元素的烈焰瓶。元素生物会依其元素释放一次攻击。具有气、水、木特征的元素生物使用猛烈拍击，具有土、火、金特征的元素生物使用灾祸降临。本物品与该效果各自获得用于制作此瓶的元素所对应的元素特征。</p><p><strong>猛烈拍击</strong>（魔法）@Template[type:cone|distance:30]范围内的每个生物必须通过一次@Check[fortitude|dc:27]豁免，否则被从元素生物身边击飞。被击飞而撞上坚固物体的生物停止移动，并承受@Damage[4d6[bludgeoning]]伤害。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物朝锥形的方向被推开10尺。这是强制移动。</p><p><strong>失败</strong> 同成功，但该生物被推开20尺。</p><p><strong>大失败</strong> 同失败，但该生物在移动结束时还会被击倒而@UUID[Compendium.sf2e.conditions.j91X7x0XSomq8d60]{倒地}。</p><hr /><p><strong>灾祸降临</strong>（魔法）@Template[type:line|distance:30]范围内的每个生物必须通过一次@Check[reflex|dc:27|basic]豁免，否则被元素奔流轰击，承受@Damage[4d8]伤害。该直线还会留下危险地形，对在该区域内结束回合的生物、以及每次穿过其中一格的生物造成@Damage[1d8]伤害。若来源是土元素生物，伤害类型为钝击；火元素生物则为火焰；金元素生物则为挥砍。</p><hr /><p><strong>制作需求</strong> 提供一只被杀死的元素生物留下的魔法残渣。元素瓶的每种元素特征都需要单独的配方。</p>"
+    },
+    "Bottler": {
+      "name": "装瓶师 Bottler",
+      "description": "<p>你钻研怪物炼金术，即炼金怪物的创造与装瓶之道。</p><p><strong>配方</strong> 两个 1 级普通瓶装怪物。</p><p><strong>课题增益</strong> 当你制作瓶装怪物、或以高速炼金创造瓶装怪物时，你始终视为拥有所需的尸体。当你激发一个瓶装怪物时，你总是可以作为该活动的一部分把该瓶装怪物投掷至多 20 尺，即使该瓶装怪物通常并不允许被投掷；它从落地的方格开始生效。对于本就可以投掷的瓶装怪物，你还将其投掷距离增加 10 尺。</p><p><strong>课题制剂</strong> 你的万用制剂可以获得可扩展特征，从而作为瓶装怪物而非炸弹使用。当你把一份万用制剂作为瓶装怪物激发时，你可以将该制剂投掷到 20 尺内的一个方格，在那里创造出一个持续 1 分钟的炼金奴仆。作为该激发的一部分，你可以让由此效果创造的一个奴仆进行一次近战徒手打击，其攻击检定使用 @Check[alchemist|defense:ac|traits:attack,expandable]。这次攻击造成你选择的 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[bludgeoning]]、@Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[bludgeoning]] 或 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[bludgeoning]] 伤害，伤害类型在你激发该制剂时选择。这次打击使用并计入你的多重攻击减值。当你获得中级万用制剂时，伤害提升至 2d6，且你的奴仆的攻击检定获得 +1 物品加值。当你获得高级万用制剂时，伤害提升至 3d6，且你的奴仆的攻击检定获得 +2 物品加值；当你获得超级万用制剂时，伤害提升至 4d6，且你的奴仆的攻击检定获得 +3 物品加值。</p><p><strong>课题发现（5 级）</strong> 当你激发的瓶装怪物需要进行一次并非平值检定的 d20 投骰时，若你的炼金术士职业 DC – 10 高于所列的调整值，则改用前者。当你激发一个会造成伤害或治疗生物的瓶装怪物时，它额外造成等同于你智力调整值的伤害或治疗。这仅适用于该瓶装怪物在被激发时造成的最初那次伤害或治疗。每个瓶装怪物对同一个生物只会造成一次这份伤害或提供一次这份治疗，即使该效果本会多次伤害或治疗该生物。</p><p><strong>进阶制剂（11 级）</strong> 你的炼金奴仆如今更为强大。当你以万用制剂创造炼金奴仆时，你可以改为创造一个体型至多为大型的奴仆，且它拥有 10 尺的触及。在 16 级时，你可以创造体型至多为巨型的奴仆；在 20 级时，你可以创造体型至多为超巨型的奴仆。该奴仆必须能按可扩展特征的常规规则容纳于该区域中。</p><p><strong>高等课题发现（13 级）</strong> 当你激发一个瓶装怪物时，你可以作为该活动的一部分额外花费一个动作，使其效果在被激发时触发一次，并在激发之后的下一个回合结束时再触发一次。若该瓶装怪物是被投掷出去的，则它从被投掷到的同一个方格再次触发。</p>"
+    },
+    "Mandrake Gum": {
+      "name": "曼德拉草胶 Mandrake Gum",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> @UUID[Compendium.sf2e.actions.MHLuKy4nQO2Z4Am1]{急救}（稳定伤势）</p><hr><p>此物取自人形的曼德拉草植株，炼金术士们私下传言它能让死者复生，只是代价并不体面。你可以将这团胶质口服给予目标，把激发该物品作为你「进行急救」以使一名生物稳定伤势的同一活动的一部分。你可以尝试对一名在最近 1 分钟内死亡的生物稳定伤势，由曼德拉草胶使其复生。就你稳定伤势的检定而言，生物的濒死值等于 4 加上它已死亡的轮数。若你的医疗检定成功，你使该生物带着 1 点生命值复生，且该生物变为 @UUID[Compendium.sf2e.conditions.Yl48xTdMh3aeQYL2]{受伤1级}。</p><p>以此方式复生之后，该生物获得植物特征：其身上会长出成片的曼德拉草增生，喊叫时嗓音变得尖利，并获得等同于其等级一半的火焰弱点。这些效果可通过为期一周的治疗与一次 @Check[medicine|dc:35|basic] 检定移除。生物在受这些效果影响期间无法再被曼德拉草胶复生。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.trltun9mNywaN2CX]{效果：曼德拉草胶}</p>"
+    },
+    "Self-Experimentation": {
+      "name": "自体实验 Self-Experimentation",
+      "description": "<p>你在自己身上做实验，以制造出不寻常的生理效应。你获得 @UUID[Compendium.pf2e-anachronism.feats.9OaF7Lkrtvusg5AA]{植入体技师} 技能专长，即使你不满足其先决条件；并且在涉及植入体的检定中，你可以用制作代替医疗。为自己移植植入体时，你总是可以选择自动成功。</p><p>若你能取得一具尸体，其器官保存完好、且与某个你已掌握配方的植入体相关，则你进行移植植入体的检定时获得 +2 环境加值。</p>"
+    },
+    "Bramble Knot (Lesser)": {
+      "name": "荆棘结（次级） Bramble Knot (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.ge56Lu1xXVFYUnLP]{摔绊}</p><hr><p>一丛速生的悬钩子灌木向四周伸出带刺的拱形茎条。你可以作为你的摔绊的一部分激发此物品。当你这么做时，你对单一生物尝试一次摔绊。若 +10 的运动调整值高于你自己的运动调整值，你可以改用它进行这次摔绊；若你这么做，你的检定获得 +1 物品加值。就这次摔绊而言，你可以将体型至多为大型的生物作为目标。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Om98nkb6tM4SjQRn]{效果：荆棘结（次级）}</p>"
+    },
+    "Alchemist's Heart (Greater)": {
+      "name": "炼金师之心（高级） Alchemist's Heart (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>这块带磁性的天然磁石形如一颗心脏，中央裂开一道缝。当炼金师之心被掰成两半而激发时，无论相隔多远，两瓣都会缓缓朝彼此靠拢。只要你随身带着炼金师之心的一半，你便始终能辨明另一半所在的方向，以及你与它之间的大致距离。此物常为结伴踏上险途的同伴所用，也可用来追踪失窃的货物。当炼金师之心的一半来到另一半 5 尺之内后，它便就此失效。</p>"
+    },
+    "Befuddling Irrwurz (Moderate)": {
+      "name": "昏乱迷途根（中级） Befuddling Irrwurz (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.QNAVeNKtHA0EUw4X]{虚招}</p><hr><p>迷途根又名迷路根，通常生长在昔日通往初界的传送门所在之处，但也能借由炼金术催生。你可以在虚招的过程中激发迷途根。这样做时，你把它掷到敌人脚下使其失去平衡，并为你的虚招检定获得 +2 物品加值。若你的虚招成功，你可以迫使目标朝你选择的方向移步。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.WwDT13vI6eE01eWf]{效果：昏乱迷途根（中级）}</p>"
+    },
+    "Spell Pyrophore (Minor)": {
+      "name": "法术引火剂（初级） Spell Pyrophore (Minor)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +8 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[1d4[fire],1d4[spirit]]，并进行一次 @Check[fortitude|dc:19|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
+    },
+    "Biolumncescent Risotto": {
+      "name": "生物荧光烩饭 Biolumncescent Risotto",
+      "description": "<p><strong>激发</strong> 10分钟（操作）</p><hr /><p>这道绵密的烩饭使用了从幽暗地域的生物荧光蘑菇中提取的粉末，能让食用者的皮肤泛起微弱的辉光。在你吃下烩饭将其激发之后，当你身处昏暗光照或黑暗区域时，你会在5尺散发范围内发出明亮光照，并在其外5尺范围内发出昏暗光照。这些效果持续24小时，或直到你进行每日准备为止，以先发生者为准。</p>"
+    },
+    "Chrysopoet": {
+      "name": "点金术士 Chrysopoet",
+      "description": "<h2>炼金嬗变</h2><p>你已经明白，一切物质都能分解为最简单的元素，只要在化学上稍作调整，并遵循等价交换的自然法则，你便能改变物质，甚至在某些情况下将其转化为能量。本职业特性会改变你炼金术士的炼金术职业特性。若你选择这一职业变体，你必须选择点金术士入门作为你 2 级的职业专长。</p><p><strong>先决条件</strong>：你必须是炼金术士。 </p><p><strong>点金术士调整</strong>：你不获得@UUID[Compendium.pf2e-anachronism.class-features.Pe0zmIqyTBc2Td0I]{高阶炼金术}。你在 1 级获得炼金嬗变职业特性。你拥有等同于你炼金术士职业 DC 的涌动 DC。你获得嬗变专家、物质消耗、嬗变大师与瞬发法阵职业特性，用以取代@UUID[Compendium.pf2e-anachronism.class-features.7JK2a1D3VeWDcObo]{强效炼金术}、@UUID[Compendium.pf2e-anachronism.class-features.3e1PlMXmlSwKoc6d]{炼金术专家}、@UUID[Compendium.pf2e-anachronism.class-features.76cwNLJEm4Yetnee]{双重调制}、@UUID[Compendium.pf2e-anachronism.class-features.eG7FBDjCdEFzW9V9]{炼金术大师}与@UUID[Compendium.pf2e-anachronism.class-features.tVxAFMBen8D516BQ]{充裕制剂}。你必须选择点金术士研究课题。</p><h2>点金术士研究课题</h2><p>你钻研如何借由化学科学与反应特性来操控物质。 </p><p><strong>配方</strong> 两个必须使用不同元素的涌动。 </p><p><strong>课题增益</strong> 你拥有等同于你炼金术士职业 DC 的涌动 DC，且就涌动而言，你的御能师等级等同于你的等级。你可以如同御能师那样绑定并使用束门环。 </p><p><strong>课题制剂</strong> 你以化学调剂为仪式法阵注入奇异的力量。若是为了重现一个在最近 1 分钟内绘制过的法阵，你可以使用万用制剂来绘制法阵，而不必使用嬗变法阵。若你以高速炼金的快速制剂选项所创造的万用制剂来绘制法阵，则该法阵持续至你下一回合结束，而非持续 1 分钟。 </p><p><strong>课题发现（5 级）</strong> 当你准备一个嬗变法阵时，你可以选择为该法阵注入两个你配方簿中与该法阵元素相符的涌动。若该法阵拥有一种以上的元素，你可以为任何与该法阵元素相符的元素选择涌动。 </p><p><strong>进阶制剂（11 级）</strong> 当你使用万用制剂绘制法阵时，你可以将一个单动作的物质冲击作为你绘制法阵这个动作的一部分来使用。 </p><p><strong>高等课题发现（13 级）</strong> 当你准备一个嬗变法阵时，你可以选择为该法阵注入三个（而非两个）你配方簿中与该法阵元素相符的涌动。</p>"
+    },
+    "Bramble Knot (Greater)": {
+      "name": "荆棘结（高级） Bramble Knot (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.ge56Lu1xXVFYUnLP]{摔绊}</p><hr><p>一丛速生的悬钩子灌木向四周伸出带刺的拱形茎条。你可以作为你的摔绊的一部分激发此物品。当你这么做时，你对单一生物尝试一次摔绊。若 +27 的运动调整值高于你自己的运动调整值，你可以改用它进行这次摔绊；若你这么做，你的检定获得 +3 物品加值。就这次摔绊而言，你可以将体型至多为超巨型的生物作为目标。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.lpqdX6tto8RubLmc]{效果：荆棘结（高级）}</p>"
+    },
+    "Plant Expertise": {
+      "name": "植物专精 Plant Expertise",
+      "description": "<p>你对炼金植物的钻研强化了你的技艺。在每日准备时，从你的配方书中选择两株需要以技能动作激发的炼金植物。直到你的下一次每日准备为止，你在该技能动作所对应的技能上获得熟练。若你两次选择了同一株炼金植物，则改为在所选技能上达到专家，直到你的下一次每日准备为止。 </p><p>在 12 级时，你改为在两项技能上达到专家而非熟练；若你选择了同一株炼金植物，则在一项技能上达到大师。</p>"
+    },
+    "Wriggling Kudzu (Moderate)": {
+      "name": "蠕动葛藤（中级） Wriggling Kudzu (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> @UUID[Compendium.sf2e.actions.cYdz2grcOcRt4jk6]{解除装置}</p><hr><p>这份经过改造的葛属植物样本必须保存在玻璃小瓶中，因为它一经释放便会疯狂生长；它由内而外瓦解机关的用途再怎么强调也不为过。你可以在对陷阱或复杂装置进行解除装置时，将激发本物品作为该动作的一部分，让它附着在目标上 1 分钟。进行解除装置检定时，你视同持有合适的盗贼工具；若 +9 的巧手调整值高于你自己的巧手调整值，你可以改用它来替代自己的巧手调整值进行解除装置。若你使用自己的巧手调整值，则该检定获得 +1 物品加值。</p><p>在附着于陷阱或复杂装置之后，你可以继续尝试针对该目标的解除装置检定。若你成功解除该装置，它会在剩余的持续时间内保持解除状态；此后葛藤枯萎，陷阱或复杂装置恢复正常运作。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.9fTBUDQ71Pcs4Hva]{效果：蠕动葛藤（中级）}</p>"
+    },
+    "Bottle-O-Ooze (Lesser)": {
+      "name": "软泥瓶（次级） Bottle-O-Ooze (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只中型软泥，并在原位保持1分钟。若该软泥的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:18] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。软泥所占的空间可以穿越，但其每一格都视为困难地形。该软泥可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该软泥需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该软泥拥有以下数据：<strong>AC</strong> 9；<strong>HP</strong> 58；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 7、穿刺 7；<strong>弱点</strong> 范围伤害 7、溅射伤害 7</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的软泥残骸。</p>"
+    },
+    "Halfling Sandwich (Greater )": {
+      "name": "半身人三明治（高级） Halfling Sandwich (Greater )",
+      "description": "<p><strong>激发 </strong>10 分钟（操作）</p><hr /><p>以传统半身人方式制作三明治的技艺是如此精确，以至于大约一百年前它意外地跨进了炼金术的领域。在接下来 1 小时内，你可以选择在一次由你自选的攻击掷骰、技能检定或豁免上获得 +3 状态加值，仅限一次。无论结果如何，你都会暂时免疫此效果 1 天。</p>"
+    },
+    "Kun Caviar": {
+      "name": "鲲鱼子酱 Kun Caviar",
+      "description": "<p><strong>激发</strong> 10 分钟（操作）</p><hr /><p>这种鱼子酱以天夏那可憎的鲲之卵制成，必须经过大量炼金处理，才能压制其中蕴含的邪祟能量。以食用的方式激发这份鱼子酱后，你会获得心智的澄明，以及对更美好世界的渴望——正如一头鲲初次见到太阳时那样。食用鲲鱼子酱之后，当你首次因具有命能特征的效果而回复生命值时，你获得@UUID[Compendium.sf2e.conditions.nlCjDvLMf2EkV2dl]{迅捷}，持续 1 轮。你只能用这个迅捷动作来行走或打击。若你拥有虚能治疗，你将失去它。这些效果持续 24 小时，或直到你进行每日准备为止，以先发生者为准。</p>"
+    },
+    "Alkaline Mire (Minor)": {
+      "name": "碱性泥沼（初级） Alkaline Mire (Minor)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span>（操作）</p><hr /><p>这种紫色的泥泞淤浆常被用来中和泥怪的强酸。将其涂抹在一个生物身上后，该生物在1分钟内获得2点强酸伤害抗力。当你拥有此抗力期间，若一个具有泥怪特征的生物以徒手攻击成功打击你，它会受到@Damage[2]伤害。此伤害没有伤害类型，且无法被抗力减免。</p>"
+    },
+    "Alkaline Mire (Lesser)": {
+      "name": "碱性泥沼（次级） Alkaline Mire (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span>（操作）</p><hr /><p>这种紫色的泥泞淤浆常被用来中和泥怪的强酸。将其涂抹在一个生物身上后，该生物在1分钟内获得4点强酸伤害抗力。当你拥有此抗力期间，若一个具有泥怪特征的生物以徒手攻击成功打击你，它会受到@Damage[4]伤害。此伤害没有伤害类型，且无法被抗力减免。</p>"
+    },
+    "Non-Somniac": {
+      "name": "无眠者 Non-Somniac",
+      "description": "<p>借助奇特的化学化合物，你已消除了身体对睡眠的需求。你不再睡眠，也不会因缺乏休息而变为 @UUID[Compendium.sf2e.conditions.HL2l2VRSaQHu9lUw]{疲乏}。若某个法术或效果会让你陷入睡眠，你改为在其持续时间内变为 @UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞 3} 与 @UUID[Compendium.sf2e.conditions.i3OJZU2nk64Df3xm]{笨拙 3}。你可以用药剂强迫自己入睡，但通常一次不超过 4 小时。</p><p>当你进行一项耗时 1 天的休整活动时，你总是可以同时进行 @UUID[Compendium.sf2e.actions.rmwa3OyhTZ2i2AHl]{制作} 休整活动——因为你白天做一项休整活动，夜里再做一项。</p>"
+    },
+    "Boreal Mint (Greater)": {
+      "name": "北境薄荷（高级） Boreal Mint (Greater)",
+      "description": "<p>这颗薄荷糖灌注了制作霜冻瓶所用的反应剂，能把你的口腔冷却到几近结冰的温度。持续1小时，只要你在用于回忆知识的那项技能上至少受训，你的回忆知识检定就获得物品加值。</p><p><strong>次要效果</strong> <span class=\"action-glyph\">2</span> （寒冷）你呼出一团冰冷的雾气，形成一个 @Template[type:cone|distance:15]。范围内的非魔法火焰会被自动扑灭。具有火焰特征或免疫火焰的生物受到 @Damage[8d6[cold]]，并可进行一次 @Check[reflex|dc:29|basic] 豁免。</p>"
+    },
+    "Ultratoxic Ammunition": {
+      "name": "超毒弹药 Ultratoxic Ammunition",
+      "description": "<p><strong>成本</strong> 1 份炼金弹药与 1 份带有伤口特征的炼金毒素 </p><hr /><p>超毒弹药经过专门设计，能把毒素直接送入生物身体最要害的部位，将毒素凝聚于单一弹尖之上。被超毒弹药击中的生物必须针对该毒素进行一次强韧豁免。若你的打击是大成功，目标该次豁免的成功度降低一级。 </p><hr /><p><strong>大成功</strong> 该生物不受影响 </p><p><strong>成功</strong> 该生物处于该毒素的第 1 阶段 </p><p><strong>失败</strong> 该生物处于该毒素的第 2 阶段。 </p><p><strong>大失败</strong> 该生物处于该毒素的第 3 阶段。</p>"
+    },
+    "Reefclaw Gumbo": {
+      "name": "礁爪浓汤 Reefclaw Gumbo",
+      "description": "<p><strong>激发</strong> 10 分钟（操作）</p><hr /><p>这道浓汤风味格外出众，传统上以礁爪熬制（不过换成任何甲壳类都行），能激起食用者的斗志。激发本物品后，你在 1 小时内可以使用「礁爪狂乱」反应。</p><p><strong>礁爪狂乱</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 你将被降至 0 生命值；<strong>需求</strong> 你的近战触及范围内有一名生物；<strong>效果</strong> 你在陷入 @UUID[Compendium.sf2e.conditions.fBnFDH2MTzgFijKf]{失去意识} 之前进行一次近战打击。随后你在 1 天内对此效果暂时免疫。</p>"
+    },
+    "Kraken Calamari (Major)": {
+      "name": "克拉肯鱿鱼圈（超级） Kraken Calamari (Major)",
+      "description": "<p><strong>激发</strong> 10 分钟（操作）</p><hr /><p>虽然未必真由克拉肯制成，这道以鱿鱼为主料的菜肴确实含有能让生物明显变得柔韧的化学物质。以食用的方式激发这道鱿鱼圈后，你在用于逃脱、挤入或翻滚的特技检定上获得 +3 物品加值，持续 24 小时，或直到你进行每日准备为止，以先发生者为准。</p>"
+    },
+    "Captivating Fern Flower (Greater)": {
+      "name": "魅惑蕨花（高级） Captivating Fern Flower (Greater)",
+      "description": "<p><strong>激发</strong> @UUID[Compendium.sf2e.actions.plBGdZhqq5JBl1D8]{搜集信息}或@UUID[Compendium.sf2e.actions.OX4fy22hQgUHDr0q]{建立印象}</p><hr><p>这种稀有的花朵只在夏至前夜自然绽放，可一旦绽放，便会让佩戴它的人对旁人极具吸引力。你可以将激发本物品作为你建立印象的一部分。这样做时，你的建立印象获得视觉特征，且你以建立印象瞄准多个生物时所受的减值降低 2。或者，你可以将这朵蕨花用作你搜集信息活动的一部分，并可改用 +26 的交涉调整值（若其高于你自己的调整值）。若你使用自己的交涉调整值，则你的检定获得 +32 物品加值。你将搜集信息所需的时间缩短至 1 小时，并可以将建立印象作为 3 动作的活动来进行。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.ePMZjZHGqC6sCMyk]{效果：魅惑蕨花（超级）}</p>"
+    },
+    "Agglomerative Cannonball (Moderate)": {
+      "name": "凝聚炮弹（中级） Agglomerative Cannonball (Moderate)",
+      "description": "<p><strong>弹药</strong> 枪弹</p><p><strong>激发 </strong><span class=\"action-glyph\"><strong>1</strong></span> 互动</p><hr /><p>这瓶精细金属粉末的内容物在射出时会凝结成巨大而致密的弹丸。已激发的凝聚炮弹对其目标额外造成 3 点钝击伤害，且该打击获得拆毁特征。重击时，目标还会被击退 10 尺。此为强迫移动。</p>"
+    },
+    "Crook's Raskovnik": {
+      "name": "盗贼拉斯科夫尼克 Crook's Raskovnik",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> @UUID[Compendium.sf2e.actions.2EE4aF4SZpYf0R6H]{开锁}</p><hr /><p>这种四叶草药在野外出了名地难找，因而许多炼金术士都在设法在没有种子的情况下把它造出来。拉斯科夫尼克有着不可思议的能力：被它擦拭过的锁，其内部结构会被削弱，从而自行弹开。你可以在进行开锁时激发拉斯科夫尼克。你的检定不需要盗贼工具，且无论锁的复杂程度如何，所需的成功次数都减至一次，让你只要一次检定成功就能把锁打开。</p>"
+    },
+    "Aromatic Lavender (Lesser)": {
+      "name": "芬芳薰衣草（次级） Aromatic Lavender (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.GkmbTGfg8KcgynOA]{分神} 或 @UUID[Compendium.sf2e.actions.SB7cMECVtE06kByk]{掩盖行踪}</p><hr /><p>这束气味甜腻得令人作呕的薰衣草花枝，在焚烧之后效力会大增。你可以把激发此物品作为你分神的一部分。当你这么做时，该次分神获得嗅觉特征，取代它通常会因姿势或言语而获得的特征。 </p><p>或者，你也可以在进行掩盖行踪探索活动时使用这束薰衣草：若@Check[survival|dc:15|showDC:all|immutable]高于你自己的生存DC，你可以改用前者。</p>"
+    },
+    "Conker Flail (Greater)": {
+      "name": "马栗连枷（高级） Conker Flail (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.SjmKHgI7a5Z9JzBx]{破拆} 或 <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.VjxZFuUXrCU94MWR]{打击}</p><hr><p>这枚超大号马栗外面长着一层带刺的壳，还长出一根结实的绳状茎柄。你可以在尝试破拆或对物体进行打击时激发此物品。你可以持续使用马栗连枷进行这些动作，持续 3 轮。</p><p>当你用马栗连枷尝试破拆时，若 +16 的运动调整值高于你自己的运动调整值，你可以改用它。若你使用自己的运动调整值，则你的检定或打击获得 +2 物品加值。使用马栗连枷时，你不会因缺乏合适工具而在破拆检定上承受减值。</p><p>当用于对物体进行打击时，马栗连枷视为连枷类的简易武器，造成 @Damage[1d6[piercing]|options:razing] 伤害，并具有摧毁特性。</p><p>你可以选择在破拆或打击时引爆这枚栗子，这样做能让你的检定或攻击骰获得 +2 环境加值，并且你无视该物体 8 点硬度。栗子引爆后，马栗连枷立即朽坏。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.yGJZdEB1TV8B8YVH]{效果：马栗连枷（高级）}</p>"
+    },
+    "Splitting Tree Splatter (Moderate)": {
+      "name": "裂木溅液（中级） Splitting Tree Splatter (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.7blmbDrQFNfdT731]{推撞}</p><hr /><p>这朵超大的茶梨花因饱含树液而膨胀，只要碰到它的花柱，便随时可以朝对手喷射。你可以把激发这朵花作为你推撞的一部分：将花猛推向该生物，同时它朝对方喷出一大团树液，把对方向后推开并留下一片黏糊。你可以在推撞中改用 +10 的运动调整值来代替你自己的运动调整值，前提是它高于你自己的。若你使用自己的运动调整值，你的检定获得 +1 物品加值。若该生物接触到屏障或物体，那团花粉便黏附在其表面，使该生物获得 @UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及} 状态，直到目标离开该屏障，或花费一个动作交互以清除花粉。</p>"
+    },
+    "Splitting Tree Splatter (Lesser)": {
+      "name": "裂木溅液（次级） Splitting Tree Splatter (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.7blmbDrQFNfdT731]{推撞}</p><hr /><p>这朵超大的茶梨花因饱含树液而膨胀，只要碰到它的花柱，便随时可以朝对手喷射。你可以把激发这朵花作为你推撞的一部分：将花猛推向该生物，同时它朝对方喷出一大团树液，把对方向后推开并留下一片黏糊。你可以在推撞中改用 +5 的运动调整值来代替你自己的运动调整值，前提是它高于你自己的。若该生物接触到屏障或物体，那团花粉便黏附在其表面，使该生物获得 @UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及} 状态，直到目标离开该屏障，或花费一个动作交互以清除花粉。</p>"
+    },
+    "Stickyweed Sprig (Moderate)": {
+      "name": "黏草嫩枝（中级） Stickyweed Sprig (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.ijZ0DDFpMkWqaShd]{手上功夫} 或 @UUID[Compendium.sf2e.actions.RDXXE7wMrSPCLv5k]{盗窃}</p><hr><p>这种拉拉藤在盗贼中广受欢迎，以能黏住任何东西著称，可以用来延长扒手的触及范围。你可以在进行手上功夫或盗窃时激发本物品。这样做时，你的检定获得 +2 物品加值，并且就该次手上功夫或盗窃而言，你的触及范围延长 10 尺——黏草会从你掌中生长出来，缠住目标物品。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.vPhP2aAN8Go8IwPD]{效果：黏草嫩枝（中级）}</p>"
+    },
+    "Liquid Ore Louse": {
+      "name": "液态矿虱 Liquid Ore Louse",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这种氧化液体在开封后会干燥凝结成一只中型矿虱的形态。这只矿虱朝你指定的一件金属物品移动至多 30 尺，并以其唾液对该物品尝试一次 [[/r 1d20+11]]{+11} 的打击，造成 @Damage[3d6[acid]] 伤害。若该打击针对的是另一个生物所持握或挥舞的金属物品，则该打击改为对抗该生物的 AC，而非该物品的 AC。此伤害无视硬度。若此效果的目标是一面盾牌且打击成功，则该盾牌获得破损状态。</p><p><strong>制作需求</strong> 提供一只矿虱的尸体。</p>"
+    },
+    "Lily Landing Pad": {
+      "name": "睡莲着陆垫 Lily Landing Pad",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1 </span>至<span class=\"action-glyph\"> 3</span> @UUID[Compendium.sf2e.actions.d5I6018Mci2SWokk]{跳跃}、@UUID[Compendium.sf2e.actions.2HJ4yuEFY1Cast4h]{跳高}或@UUID[Compendium.sf2e.actions.JUvAvruz7yRQXfz2]{跳远}</p><hr /><p>这些睡莲种荚经过改造，一接触水便会迅速开花。你可以将激发该物品作为你用于跳跃的同一个活动的一部分。当你完成跳跃时，你会在脚下展开一片睡莲叶，它占据你所占的同一空间。这片睡莲叶持续 1 分钟，漂浮在你落点处任何水体的水面上，其作用如同坚实的地面。若水深不足 20 尺，睡莲叶会牢牢锚定在水底而不移动；否则它会顺着水流的方向漂移，速度由水流决定（由 GM 裁定）。若睡莲叶被展开在湍流或漩涡之类动荡的水域中，它只持续 1 轮而非 1 分钟。</p>"
+    },
+    "Cardinal Moss": {
+      "name": "指北苔藓 Cardinal Moss",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.fJImDBQfqfjKJOhk]{辨别方向}</p><hr /><p>这份鲜艳的苔藓样本被放在物体表面上时会迅速生长，但只在朝北的一面绽放紫色花朵。你可以将激发本物品作为你辨别方向的一部分。就辨别方向而言，指北苔藓视为一具罗盘。</p>"
+    },
+    "Bottle-O-Ooze (Greater)": {
+      "name": "软泥瓶（高级） Bottle-O-Ooze (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只巨型软泥，并在原位保持1分钟。若该软泥的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:28] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。软泥所占的空间可以穿越，但其每一格都视为困难地形。该软泥可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该软泥需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该软泥拥有以下数据：<strong>AC</strong> 18；<strong>HP</strong> 70；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 10、穿刺 10；<strong>弱点</strong> 范围伤害 10、溅射伤害 10</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的软泥残骸。</p>"
+    },
+    "Monstrous Infusion": {
+      "name": "怪物灌注 Monstrous Infusion",
+      "description": "<p><strong>需求</strong> 你已绘制一座嬗变法阵。</p><hr><p>你以你所选元素的力量灌注一份瓶装怪物。你使用 @UUID[Compendium.pf2e-anachronism.actions.yzNJgwzV9XqEhKc6]{高速炼金} 制造一份激发所需动作不超过 2 个的瓶装怪物。若你的下一个动作是 @UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，则你激发所选的瓶装怪物，以取代你物质冲击的通常效果。若你的涌动 DC 更高，你可以用它取代该瓶装怪物效果的 DC。你的瓶装怪物获得相应的元素特征，并在其效果结束时使用一次物质冲击。你使用自己的调整值与数据来进行该物质冲击，如常施加你的多重攻击减值，并以瓶装怪物所创造之生物的位置来判定射程以及任何适用的掩蔽。若该瓶装怪物造成伤害，则其伤害类型变为与你的物质冲击相同的伤害类型。</p>"
+    },
+    "Aromatic Lavender (Greater)": {
+      "name": "芬芳薰衣草（高级） Aromatic Lavender (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.GkmbTGfg8KcgynOA]{分神} 或 @UUID[Compendium.sf2e.actions.SB7cMECVtE06kByk]{掩盖行踪}</p><hr><p>这束气味甜腻得令人作呕的薰衣草花枝，在焚烧之后效力会大增。你可以把激发此物品作为你分神的一部分。当你这么做时，该次分神获得嗅觉特征，取代它通常会因姿势或言语而获得的特征。</p><p>或者，你也可以在进行掩盖行踪探索活动时使用这束薰衣草：若@Check[survival|dc:25|showDC:all|immutable]高于你自己的生存DC，你可以改用前者。</p><p>若你使用自己的生存DC，你的分神或掩盖行踪检定获得+2物品加值。若你的分神检定大成功，目标还会陷入@UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心 1}。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.h7aZUa4T1yiI94w2]{效果：芬芳薰衣草（高级）}</p>"
+    },
+    "Splitting Tree Splatter (Greater)": {
+      "name": "裂木溅液（高级） Splitting Tree Splatter (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.7blmbDrQFNfdT731]{推撞}</p><hr /><p>这朵超大的茶梨花因饱含树液而膨胀，只要碰到它的花柱，便随时可以朝对手喷射。你可以把激发这朵花作为你推撞的一部分：将花猛推向该生物，同时它朝对方喷出一大团树液，把对方向后推开并留下一片黏糊。你可以在推撞中改用 +16 的运动调整值来代替你自己的运动调整值，前提是它高于你自己的。若你使用自己的运动调整值，你的检定获得 +2 物品加值。若该生物接触到屏障或物体，那团花粉便黏附在其表面，使该生物获得 @UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及} 状态，直到目标离开该屏障，或花费一个动作交互以清除花粉。</p>"
+    },
+    "Alchemical Alembic": {
+      "name": "炼金蒸馏器 Alchemical Alembic",
+      "description": "<p>这套炼金玻璃器皿由三部分构成：一只葫芦形的蒸馏釜（炼金液体在其中受热蒸馏）、一顶扣在蒸馏釜上的盖罩（用以收集蒸汽并将其导入一根向下倾斜的导管），以及一只承接最终液体的接收瓶。当你花费休整时间制作一件炼金消耗品时，你可以将制作 DC 提高 2，从而在该批次中额外造出 2 件物品。举例来说，你可以在休整活动中借助炼金蒸馏器制作次级生命灵药：把制作它的 DC 提高 2，则你成功制作该批次时会额外获得两瓶次级生命灵药。</p>"
+    },
+    "Subliming Aludel": {
+      "name": "升华器 Subliming Aludel",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> 互动</p><hr /><p>这件梨形玻璃器皿（也叫哲人蛋）叠放在一组其他升华罐之上，并与热源相连。当你激发这只升华罐时，它能把内部的物质转化为气体，同时让它们保留自身的炼金属性。你可以进行互动，把一枚炸弹或一瓶能恢复生命值的药剂放进升华罐里，将其变成气体。升华罐在被激发 1 轮后，会在 @Template[type:emanation|distance:5] 范围内制造一片气云，气云提供隐蔽，持续 4 轮。</p><p>若所用的炼金物品是炸弹，这片气云同时也是有害地形，对穿过该有害地形任意 5 尺空间、或在该区域内开始其回合的生物造成等同于该物品等级一半（最少 1）的伤害。</p><p>若所用的炼金物品是药剂，这片气云会为在该区域内结束其回合的生物恢复等同于该物品等级一半（最少 1）的生命值。</p>"
+    },
+    "Chemical Spill": {
+      "name": "化学泼洒 Chemical Spill",
+      "description": "<p><strong>成本</strong> 1 份万用制剂 </p><hr /><p>你拔开一瓶化学药剂的瓶塞，一边倾倒一边拔腿就跑，在地面上留下一道腐蚀性液体的痕迹。你行走。在你行走时，你沿途留下一条持续 3 轮的有害地形。穿过这片有害地形的生物，每进入该区域的一个方格，就受到等同于你等级一半的酸蚀伤害。</p>"
+    },
+    "Calcination pot": {
+      "name": "煅烧罐 Calcination pot",
+      "description": "<p>这个铁制容器的构造能把炼金物品里的液体煮干，只留下细腻的粉末。你可以花费 10 分钟煮沸一件炸弹、药剂或毒物的内容物，将其煅烧成粉末，并进行一次对抗其制作 DC 的制作检定。若你成功，你就把该物品熬成了煅烧粉末；若你失败，该物品在此过程中被摧毁。当一件物品被化为煅烧粉末后，其体积降为可忽略，并且除非有生物在对抗你的制作 DC 的察觉检定中成功，否则无法辨认出它原属何种物品。你可以用与煅烧它时相同的流程为某件物品的煅烧粉末复水，成功则使其恢复常态，失败则将其摧毁。</p><p>若该炼金物品原本是炸弹，那么用单个交互动作配合一套炼金术士工具包，就能把它当作同类炸弹在一个 5 尺方格内引爆，它会在你使用该交互动作之后 1 轮爆炸。区域内的生物或物体受到该炸弹溅射伤害的影响。</p><p>若该炼金物品原本是药剂，那么可以把它加进一份非魔法饮品，使该饮品具有与同类药剂相同的效果。你不能把煅烧后的药剂加进另一份药剂或魔药之中。</p><p>若该炼金物品原本是毒物，那么它在此状态下失去接触或注入特征，并获得摄入特征，发作时间为 1 分钟。你可以用一个交互动作把它施加到食物上以激发该毒物，其效果在食物被食用时按摄入类毒物的常规规则生效。</p>"
+    },
+    "Rebis of Perfection": {
+      "name": "完美雷比斯 Rebis of Perfection",
+      "description": "<p>通过以完美的比例调和四大精质，你摸索出了释放雷比斯——那完美生命体——之力的办法。雷比斯是对立面的统一：日与月、阳性与阴性、灵性与物质。在获得此专长时，选择一位代表完美存在之研究的神祇。你绘制炼金符印，并借助特定的试剂与灵性器具，以模仿神明伟力的方式，暂时把一名生物提升至神圣的完美境界。每天一次，你可以用一个三动作活动、消耗 4 瓶多用途药瓶，产生你在获得此专长时所选神祇的 @UUID[Compendium.sf2e.spells.ckUOoqOM7Kg7VqxB]{天神下凡} 法术效果。你可以让此效果以一名邻接生物为目标，而非以你自己为目标。该效果属于炼金而非魔法，但在其他方面与该法术相同。</p>"
+    },
+    "Warrior's Chew": {
+      "name": "战士肉干 Warrior's Chew",
+      "description": "<p>这块坚韧的怪物肉干在被咀嚼时会分泌皮质醇与肾上腺素。当你正在咀嚼战士肉干时，至多持续 10 分钟，你使用近战武器的伤害骰获得 +1 物品加值。</p><p><strong>次要效果</strong> <span class=\"action-glyph\">r</span>（幸运）触发 你以近战武器成功打击一个生物；效果 你以炼金术强化的力量放声咆哮。将触发本效果的那次打击的伤害掷两次，并取较高的结果。此后你对此效果获得 1 天的临时免疫。</p>"
+    },
+    "Explosive Infusion": {
+      "name": "爆裂灌注 Explosive Infusion",
+      "description": "<p><strong>需求</strong> 你已绘制了一个嬗变法阵。 </p><hr><p>你将手边的爆炸物灌注进你的冲击之中。你使用@UUID[Compendium.pf2e-anachronism.actions.yzNJgwzV9XqEhKc6]{高速炼金}制造一颗炸弹。若你的下一个动作是@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，则目标受到该炸弹的影响，其结果与你物质冲击的结果相同。若该炸弹造成伤害，你可以选择让你的物质冲击造成与炸弹相同的伤害，或造成其通常的伤害类型。若该炸弹具有溅射特征，则你照常造成溅射伤害，并以你物质冲击的目标作为该炸弹的目标。</p>"
+    },
+    "Oil of Malleability": {
+      "name": "延展之油 Oil of Malleability",
+      "description": "<p><strong>激发</strong> 1 分钟（操作）</p><hr /><p>这种闪亮的油一经涂抹便能让金属变得延展。你把这种油涂抹在体积 3 或更低的非魔法金属物件上，使其获得可塑的性质。你可以使用多份剂量并额外花费相应的时间来激发它，以针对体积更大的物件。一旦你激发它，涂有此油的物品硬度降低 15。若某物品的硬度因此效果降为 0，该金属便会变得柔软易弯。因此效果而变软的金属武器在打击上获得 –2 物品加值，并造成非致命伤害。这些效果持续 1 小时，之后该金属会恢复到原本的坚硬程度。</p>"
+    },
+    "Boreal Mint (Moderate)": {
+      "name": "北境薄荷（中级） Boreal Mint (Moderate)",
+      "description": "<p>这颗薄荷糖灌注了制作霜冻瓶所用的反应剂，能把你的口腔冷却到几近结冰的温度。持续1小时，只要你在用于回忆知识的那项技能上至少受训，你的回忆知识检定就获得物品加值。</p><p><strong>次要效果</strong> <span class=\"action-glyph\">2</span> （寒冷）你呼出一团冰冷的雾气，形成一个 @Template[type:cone|distance:15]。范围内的非魔法火焰会被自动扑灭。具有火焰特征或免疫火焰的生物受到 @Damage[6d6[cold]]，并可进行一次 @Check[reflex|dc:24|basic] 豁免。</p>"
+    },
+    "Spotlight Sunflower (Moderate)": {
+      "name": "聚光向日葵（中级） Spotlight Sunflower (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.sn2hIy1iIJX9Vpgj]{指出位置}</p><hr><p>这朵向日葵的花瓣中被注入了生物发光细胞。这朵闪耀的向日葵可以被放置在与你相邻的一个方格里，像火炬一样发光，并持续 1 小时。你可以把激发此物品作为你指出位置的一部分。当你如此做时，闪耀的向日葵会把它的聚光射入 60 尺内一个生物所在的方格，照亮该区域，并使其他生物在看见该目标的察觉检定上获得 +2 物品加值。只要你处于该向日葵 30 尺内且此效果仍在持续，你就可以继续用这朵向日葵来指出位置。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.cjD7GRKEz6jAj8Cy]{效果：聚光向日葵（次级）}</p>"
+    },
+    "Toxic Infusion": {
+      "name": "毒性灌注 Toxic Infusion",
+      "description": "<p><strong>需求</strong> 你已绘制好一座嬗变阵。 </p><hr><p>你懂得如何为物质注入毒性，把元素嬗变得剧毒无比。你使用 @UUID[Compendium.pf2e-anachronism.actions.yzNJgwzV9XqEhKc6]{高速炼金} 制造一份毒素。若你的下一个动作是 @UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，且该次物质冲击成功，则目标受到该毒素影响。若你的涌动 DC 更高，你可以用它取代该毒素的 DC。若该生物对毒素免疫，或改换伤害类型对它更为不利，你可以选择让它承受你物质冲击的伤害类型而非毒素伤害；但这样做时伤害减半。</p>"
+    },
+    "Captivating Fern Flower (Lesser)": {
+      "name": "魅惑蕨花（次级） Captivating Fern Flower (Lesser)",
+      "description": "<p><strong>激发</strong> @UUID[Compendium.sf2e.actions.plBGdZhqq5JBl1D8]{搜集信息}或@UUID[Compendium.sf2e.actions.OX4fy22hQgUHDr0q]{建立印象}</p><hr><p>这种稀有的花朵只在夏至前夜自然绽放，可一旦绽放，便会让佩戴它的人对旁人极具吸引力。你可以将激发本物品作为你建立印象的一部分。这样做时，你的建立印象获得视觉特征，且你以建立印象瞄准多个生物时所受的减值降低 2。或者，你可以将这朵蕨花用作你搜集信息活动的一部分，并可改用 +9 的交涉调整值（若其高于你自己的调整值）。若你使用自己的交涉调整值，则你的检定获得 +1 物品加值。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.mcHfhErS9jnOZFI2]{效果：魅惑蕨花（次级）}</p>"
+    },
+    "Alkaline Mire (Greater)": {
+      "name": "碱性泥沼（高级） Alkaline Mire (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种紫色的泥浆常用来中和泥怪的强酸。将其涂抹在一个生物身上后，该生物在 1 分钟内获得强酸伤害抗力 12。当你拥有此抗力时，若一个具有泥怪特征的生物以徒手攻击成功打击你，它会承受 @Damage[12]。此伤害为无类型伤害，无法被抗力减免。</p>"
+    },
+    "Basic Matter Chemistry": {
+      "name": "基础物质化学 Basic Matter Chemistry",
+      "description": "<p>通过进行等价交换，你可以操控物质。你将@UUID[Compendium.pf2e-anachronism.actions.nTBrvt2b9wngyr0i]{基础御术}涌动加入你的配方簿。你的嬗变法阵始终允许你使用基础御术涌动，且它不计入你在嬗变法阵中准备的涌动数量。 </p><p>此外，你可以花费1分钟，在没有激活的嬗变法阵的情况下使用基础御术，但仅限于对应某个你已准备且尚未使用的嬗变法阵的元素。</p>"
+    },
+    "Canopic Canister (Major)": {
+      "name": "卡诺皮克罐（超级） Canopic Canister (Major)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这个陶土容器在经过充分摇晃后砸碎，会释放出一只丧尸。丧尸朝你选择的方向蹒跚移动至多所列的距离，并持续所列的时长。完成这次移动后，它便留在原地不动；在它仍持续生效的你的每个回合开始时，它会对你选择的一个邻接生物尝试一次打击，且只要有能力，它就必须攻击一个邻接生物。就与其他生物形成夹击而言，丧尸视为一个生物，其等效生物等级等于本物品的等级。丧尸视为不死生物，生命值降至 0 时即被摧毁，且它的任何豁免都自动大失败。</p><p>丧尸的体型介于中型到超大型之间，移动至多 15 尺，攻击检定为 [[/r 1d20+26]]{+26}，造成 @Damage[5d6[bludgeoning]] 伤害。该生物持续 1 分钟。<strong>AC</strong> 37；<strong>HP</strong> 130（虚能治疗）；<strong>免疫</strong> 流血、死亡效果、疾病、心灵、麻痹、毒素、失去意识；<strong>弱点</strong> 挥砍 25、命能 25</p><p><strong>制作需求</strong> 提供一具生物等级等于或高于本物品等级的生物尸体。</p>"
+    },
+    "Phoenix Flagon": {
+      "name": "凤凰酒壶 Phoenix Flagon",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只酒壶灼热发亮，内部流转的橙色与红色几乎像是羽毛。激发时，一只超巨型凤凰破壶而出。它至多飞行 60 尺；飞行途中位于其路径上的生物需进行一次 @Check[reflex|dc:34] 豁免，否则受到 @Damage[6d6[fire]] 伤害。这只凤凰会灼烧邪秽之物；若对某个邪秽生物而言更为不利（由 GM 判定），该生物改为受到 @Damage[6d6[spirit]|traits:holy] 伤害而非火焰伤害。 </p><p><strong>制作需求</strong> 提供一撮凤凰的骨灰。</p>"
+    },
+    "Drum Stone Amplifier": {
+      "name": "石鼓扩音器 Drum Stone Amplifier",
+      "description": "<p>拍击这面鼓时，它会把声波扩散到更广的范围。必须在鼓底的插槽中共装入两颗 @UUID[Compendium.pf2e-anachronism.equipment.Xnqglykl3Cif8rN9]{爆破石}。按此法正确装填这面鼓需要 1 分钟。演奏这面鼓时，爆破石会在鼓的内壁反弹，随后把声波逼向你的四周。这面鼓造成的伤害，取决于装入鼓中最弱的那颗爆破石的强度。</p><p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作、音波） <strong>需求</strong> 这面鼓已装填；效果 你双手猛击鼓面，令声浪自你四周的弥漫范围向外爆开。你可以选择该弥漫范围的尺寸，其上限取决于装入鼓中最弱的那颗爆破石。区域内的生物依据装入鼓中最弱的那颗爆破石承受音波伤害，如下所列。基础反射豁免大失败的生物 @UUID[Compendium.sf2e.conditions.9PR9y0bi4JPKnHPR]{耳聋} 1 轮。</p><p><strong>次级爆破石</strong>：这面鼓造成 @Damage[1d4[sonic]]（@Check[reflex|dc:15|basic|options:area-damage] 豁免），范围为 @Template[type:emanation|distance:10]。</p><p><strong>中级爆破石</strong>：这面鼓造成 @Damage[2d4[sonic]] 伤害（@Check[reflex|dc:17|basic|options:area-damage]豁免），范围为 @Template[type:emanation|distance:20]。</p><p><strong>高级爆破石</strong>：这面鼓造成 @Damage[6d4[sonic]] 伤害（@Check[reflex|dc:28|basic|options:area-damage] 豁免），范围为 @Template[type:emanation|distance:30]。</p><p><strong>超级爆破石</strong>：这面鼓造成 @Damage[10d4[sonic]] 伤害（@Check[reflex|dc:37|basic|options:area-damage] 豁免），范围为 @Template[type:emanation|distance:20]。</p>"
+    },
+    "Ymeri's Own Curry": {
+      "name": "伊莫利亲制咖喱 Ymeri's Own Curry",
+      "description": "<p><strong>激发</strong> 10 分钟（操作）</p><hr><p>这道咖喱以火之元素领主之名命名，注入了与之相称的辛辣香料。尽管入口瞬间的效果痛苦难当，但以进食的方式激发这道咖喱后，你在 24 小时内获得对火焰与寒冷伤害的 9 点抗力。在此抗力持续期间，你获得喷火嗝这项活动。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.PoWNqqBMpjAPW02P]{效果：伊莫利亲制咖喱}</p><p><strong>喷火嗝</strong> <span class=\"action-glyph\">2</span>（专注、火焰）<strong>频率</strong> 每小时一次；<strong>效果</strong> 你在一个 @Template[type:cone|distance:15] 范围内造成 @Damage[18d6[fire]] 伤害，可进行 @Check[reflex|dc:38|basic] 豁免。</p>"
+    },
+    "Botanical Infusion": {
+      "name": "植物灌注 Botanical Infusion",
+      "description": "<p><strong>需求</strong> 你已绘制一个嬗变法阵。</p><hr><p>你深知只要方法得当，自然之物极易被灌注嬗变的性质。你使用 @UUID[Compendium.pf2e-anachronism.actions.yzNJgwzV9XqEhKc6]{高速炼金} 制造一株只需单一动作即可激发、且以单一生物为目标的炼金植物。若你的下一个动作是近战 @UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，你便在该次物质冲击的过程中激发这株炼金植物。若你的物质冲击成功，你便以该炼金植物的激发效果指向那只生物，如同你亲自激发了它一般。 </p><hr><p><strong>特殊</strong> 若你拥有 @UUID[Compendium.pf2e-team-plus-alchemists.sf2e-items.JyzIw4d39QUbVsBS]{触发生长} 炼金术士专长，你可以改为以此效果使用单一动作的触发生长，把你近战物质冲击的效果延后到你花费反应、指向触发了你植物的那只生物之时。若你已有多重攻击减值，你的物质冲击将承受你使用触发生长时所具有的多重攻击减值。这是少数几种在非你回合时也适用多重攻击减值的情形之一。</p>"
+    },
+    "Canopic Canister (Moderate)": {
+      "name": "卡诺皮克罐（中级） Canopic Canister (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这个陶土容器在经过充分摇晃后砸碎，会释放出一只丧尸。丧尸朝你选择的方向蹒跚移动至多所列的距离，并持续所列的时长。完成这次移动后，它便留在原地不动；在它仍持续生效的你的每个回合开始时，它会对你选择的一个邻接生物尝试一次打击，且只要有能力，它就必须攻击一个邻接生物。就与其他生物形成夹击而言，丧尸视为一个生物，其等效生物等级等于本物品的等级。丧尸视为不死生物，生命值降至 0 时即被摧毁，且它的任何豁免都自动大失败。</p><p>丧尸的体型介于中型到大型之间，移动至多 25 尺，攻击检定为 [[/r 1d20+13]]{+13}，造成 @Damage[3d6[bludgeoning]] 伤害。该生物持续 4 轮。<strong>AC</strong> 27；<strong>HP</strong> 80（虚能治疗）；<strong>免疫</strong> 流血、死亡效果、疾病、心灵、麻痹、毒素、失去意识；<strong>弱点</strong> 挥砍 20、命能 20</p><p><strong>制作需求</strong> 提供一具生物等级等于或高于本物品等级的生物尸体。</p>"
+    },
+    "Poisonous Blood": {
+      "name": "毒血 Poisonous Blood",
+      "description": "<p>你用酊剂改造了自己的血液，令其成为一锅化学毒素。当一个生物以徒手攻击对你的近战打击成功命中时，它必须以你的职业 DC 进行一次强韧豁免，否则陷入 @UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心 1}（大失败则改为 @UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心 2}）。若你正承受着持续流血伤害，则生物的这次豁免受到 –2 环境减值。试图饮用你血液的生物同样必须进行这次强韧豁免。</p>"
+    },
+    "Nymph Doll (Lesser)": {
+      "name": "宁芙玩偶（次级） Nymph Doll (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只小瓶里装着一缕树精的头发，漂浮在防腐黏液之中。当你激发它时，玩偶会成形为一只中型宁芙。位于该宁芙的 @Template[type:cone|distance:30] 范围内的敌方生物必须成功通过一次 @Check[will|23] 豁免，否则会因其美貌而变为 @UUID[Compendium.sf2e.conditions.eIcWbB5o3pP6OIMe]{禁足}。该宁芙展露美貌之后，很快便融回黏液并消散。 </p><p><strong>制作需求</strong> 提供一具等级等于或高于本物品等级的已故宁芙的发缕。</p>"
+    },
+    "Herbal Extracts": {
+      "name": "草药萃取 Herbal Extracts",
+      "description": "<p><strong>成本</strong> 1 份炼金食物与 1 株能提供物品加值的炼金植物</p><hr /><p>你把炼金植物的香草、种子与香料灌注进食物之中。你食用一份炼金食物，或将它喂给一个相邻的盟友。在该炼金食物的效果持续期间，食用它的生物可以使用一次通常属于该炼金植物激发过程一部分的动作，并在其检定上获得该植物所提供的物品加值。</p>"
+    },
+    "Smash Flask": {
+      "name": "砸瓶 Smash Flask",
+      "description": "<p>装满化学药剂的玻璃瓶可以成为绝佳的武器。你可以把炸弹当作近战武器使用，并以一次近战打击来激发它们。当你以炸弹进行近战打击时，它获得回摆与灵巧特征。若你的打击成功且该炸弹具有溅射特征，你将其造成的任何溅射伤害提高你力量调整值的一半。你无视自己以炸弹进行近战打击所产生的溅射伤害。若你的打击失败，炸弹保持完好而不会被摧毁，也不造成溅射伤害；但在大失败时，你承受该炸弹本会因你的打击而造成的任何溅射伤害，且炸弹在此过程中被摧毁。</p>"
+    },
+    "Bottle-O-Ooze (Major)": {
+      "name": "软泥瓶（超级） Bottle-O-Ooze (Major)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只超巨型软泥，并在原位保持1分钟。若该软泥的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:37] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。软泥所占的空间可以穿越，但其每一格都视为困难地形。该软泥可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该软泥需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该软泥拥有以下数据：<strong>AC</strong> 27；<strong>HP</strong> 100；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 16、穿刺 16；<strong>弱点</strong> 范围伤害 16、溅射伤害 16</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的软泥残骸。</p>"
+    },
+    "Cloud Giant Bean (Moderate)": {
+      "name": "云巨人豆（中级） Cloud Giant Bean (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.pprgrYQ1QnIDGZiy]{攀爬}</p><hr /><p>这颗豆子以一则古老寓言命名，会长成一株异常巨大的菜豆藤。你可以在攀爬时激发这颗豆子。若你激发豆子时的首次攀爬成功，你可以选择自动攀上豆茎高度一半的距离，因为你在藤茎开始拔高时便攀附其上。豆子化作一株豆茎，最高可长到 300 尺。豆茎让试图攀爬它的生物在检定上获得 +2 物品加值；若生物从豆茎上坠落，其用于@UUID[Compendium.sf2e.actions.3yoajuKjwHZ9ApUY]{抓住边缘}的特技检定或反射豁免同样获得该加值。豆茎最多可以支撑 8 个小型生物、4 个中型生物、2 个大型生物或 1 个超大型生物。在豆茎折断前，它可以支撑任意数量的微型生物，或等量的负载。豆茎在 1 小时后开始朽坏。</p>"
+    },
+    "Energizing Taffy": {
+      "name": "提神太妃糖 Energizing Taffy",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr><p>这块粉色太妃糖注入了大量刺激性试剂与糖分，食用它几乎称得上危险。吃下提神太妃糖后，你的速度在1分钟内获得+20尺物品加值。此效果结束后，你陷入@UUID[Compendium.sf2e.conditions.HL2l2VRSaQHu9lUw]{疲乏}状态1小时。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Ho0ZATJtoQ29Pu35]{效果：提神太妃糖}</p>"
+    },
+    "Munition Shot": {
+      "name": "弹药射击 Munition Shot",
+      "description": "<p><strong>需求</strong> 你正持用一件装填了未激发炼金弹药的远程武器。</p><hr /><p>你已精于把弹药的激发融入一次时机得当的攻击。你激发所需的炼金弹药，然后以所需的武器进行打击。</p>"
+    },
+    "Hypnotic Reeds (Greater)": {
+      "name": "催眠芦苇（高级） Hypnotic Reeds (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.EEDElIyin4z60PXx]{演出}</p><hr><p>这些芦竹水苇经过改造，能长出音孔，成为天然生长的笛子。你可以将激发该物品作为你演出的一部分。当你这样做时，将你演出的结果与任意数量生物的意志 DC 比较。若你成功，目标生物被这些芦苇@UUID[Compendium.sf2e.conditions.AdPVz7rbaVSRxHFg]{迷魂} 1 轮。若目标生物处于需要立即关注的情境中（例如战斗），你必须大成功才能使其迷魂，且该演出动作获得失能特征。若你选择只以单独一名观察者为目标，你的演出便不会因处于需要立即关注的情境而获得失能特征。若 +27 的表演调整值高于你自己的表演调整值，你可以用它替代你自己的调整值来进行演出；若你这样做，你的检定获得 +3 物品加值。这些芦苇持续 1 分钟，你可以在后续回合继续使用它们进行演出。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.NPV1Vh7y4SHSzC9x]{效果：催眠芦苇（高级）}</p>"
+    },
+    "Nettle Balm (Greater)": {
+      "name": "荨麻药膏（高级） Nettle Balm (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 协助恢复（操作）</p><hr><p>这种用荨麻制成的刺痛药膏用起来或许并不好受，但其药效足以把人从更剧烈的痛楚中震醒。你可以把激发这份药膏作为你针对强酸或火焰伤害进行协助恢复的一部分。被触碰的生物立即尝试一次 @Check[flat|dc:6] 以终结该持续伤害，失败时照常受到伤害。而且你在协助恢复所需的任何技能检定上获得 +2 物品加值。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.uAyoDD99VZmMNcxF]{效果：荨麻药膏（高级）}</p>"
+    },
+    "Concealing Puffball (Greater)": {
+      "name": "遮蔽尘菌（高级） Concealing Puffball (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.VMozDqMMuK5kpoX4]{潜行}</p><hr><p>这枚格外膨胀的担子菌标本被挤压时会炸开一团孢子云。你可以在潜行时激发此物品，你的潜行检定获得 +3 物品加值，并且你在潜行中进入的所有方格都会留下孢子。这些孢子提供@UUID[Compendium.sf2e.conditions.DmAIPqOBomZ7H95W]{隐蔽}，持续到你的下一回合结束。你可以把激发这株炼金植物所需的动作数增加到至多三个动作，并可以@UUID[Compendium.sf2e.actions.VMozDqMMuK5kpoX4]{潜行}相当于你为激发这株炼金植物所花动作数的次数。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.A2BzOqazSR9lcqm3]{效果：遮蔽尘菌（高级）}</p>"
+    },
+    "Hormetic Elixir": {
+      "name": "毒物兴奋药剂 Hormetic Elixir",
+      "description": "<p><strong>成本</strong> 1 份具有治疗特征的炼金药剂，以及 1 份具有食入特征的炼金毒素</p><hr /><p>你发现，低剂量的毒素与治疗药剂混合后能带来有益的效果。当你饮下毒物兴奋药剂的调剂时，你如常获得该治疗药剂的效果。此外，你还会获得所服毒素的反转效果：在你每个回合结束时回复等同于该物品等级的生命值，持续的轮数等同于该毒素的阶段数。</p>"
+    },
+    "Alkahest": {
+      "name": "万能溶剂 Alkahest",
+      "description": "<p><strong>激发</strong> 13 小时</p><hr /><p>拥有制作万能溶剂专长的炼金术士会将此物品的配方加入自己的配方簿。这使他们每月可在每日准备期间以高阶炼金术制造一次万能溶剂。与其他以高阶炼金术造出的物品不同，万能溶剂的效力可维持 1 个月，或直到该炼金术士制出新的一批为止。这是造出万能溶剂的唯一途径。</p><p>这种液体黑到极致，落在眼中如同一片空间的缺失。万能溶剂是普适的溶媒，其腐蚀之力强大到能把浸入其中的物体解构为构成现实的本源精质：物质、心智、精魂与生命。当你把一件物体浸过万能溶剂，它便被还原为这四种原初物质，就此彻底毁灭。即便是通常只能以特定方式摧毁的物体，例如神器，也会被万能溶剂解构。这些精质可用来制作任何等值之物；举例来说，若你溶解了神器至臻长袍，余下的精质便足以制作任何同等或更低稀有度与等级的物品，哪怕那件物品同样是神器——比如用这些残余造出一枚遗忘玺戒。</p><p>万能溶剂同样能溶解自愿的活体生物或尸体，只是这必须与处理物体时一样审慎。被溶解于万能溶剂中的活体生物会因此死亡，但其精质可用来创造另一个同等或更低等级的活体生物。</p><p>举例来说，仔细解剖一头古灰烬龙并把它的残骸溶于万能溶剂，便能用所得的精质造出一尊古煞像。以杀死一个生物来重造另一个生物的过程始终极不稳定，未必能得到预期的结果。视其新形态而定，这可能导致记忆扭曲、全无记忆，或性情大变。</p>"
+    },
+    "Emboldening Haggis (Lesser)": {
+      "name": "壮胆羊杂布丁（次级） Emboldening Haggis (Lesser)",
+      "description": "<p><strong>激发</strong> 10分钟（操作）</p><hr /><p>这道带有坚果风味的布丁由羊内脏、燕麦、香草以及数种兴奋剂制成，可帮助食用者克服恐惧。通过食用来激发此羊杂布丁后，你在24小时内、或直到你进行每日准备为止（以先到者为准），获得对抗恐惧效果的+1状态加值。</p>"
+    },
+    "Canopic Canister (Minor)": {
+      "name": "卡诺皮克罐（初级） Canopic Canister (Minor)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这个陶土容器在经过充分摇晃后砸碎，会释放出一只丧尸。丧尸朝你选择的方向蹒跚移动至多所列的距离，并持续所列的时长。完成这次移动后，它便留在原地不动；在它仍持续生效的你的每个回合开始时，它会对你选择的一个邻接生物尝试一次打击，且只要有能力，它就必须攻击一个邻接生物。就与其他生物形成夹击而言，丧尸视为一个生物，其等效生物等级等于本物品的等级。丧尸视为不死生物，生命值降至 0 时即被摧毁，且它的任何豁免都自动大失败。</p><p>丧尸的体型介于小型到中型之间，移动至多 15 尺，攻击检定为 [[/r 1d20+6]]{+6}，造成 @Damage[1d6[bludgeoning]] 伤害。该生物持续 2 轮。<strong>AC</strong> 12；<strong>HP</strong> 20（虚能治疗）；<strong>免疫</strong> 流血、死亡效果、疾病、心灵、麻痹、毒素、失去意识；<strong>弱点</strong> 挥砍 5、命能 5</p><p><strong>制作需求</strong> 提供一具生物等级等于或高于本物品等级的生物尸体。</p>"
+    },
+    "Dweomerflacon (Greater)": {
+      "name": "咒猫瓶（高级） Dweomerflacon (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只小瓶中盈满暗紫色的油亮光泽与闪烁的漩涡。激发时，它生出一头中型咒猫。它向前疾冲，传送到 25 尺内一个它能看见的方格，并造出 8 环 @UUID[Compendium.sf2e.spells.JOdOpbPDl7nqvJUm]{法术解除结界} 的效果（解除调整值为 +22），范围为 @Template[type:cone|distance:10]，持续 1 分钟，而非通常的持续时间。该生物必须在一片完整无阻的开阔空间中形成这个球体，使其边缘不会穿过任何生物或物体，否则效果立即结束（不过在效果持续期间，生物可以进入该结界）。造出结界之后，该生物便消散于虚无。</p><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的咒猫尸体。</p>"
+    },
+    "Pill Furnace (Moderate)": {
+      "name": "丹炉（中级） Pill Furnace (Moderate)",
+      "description": "<p><strong>激发</strong> 1 小时</p><hr /><p>此物源自龙华帝国炼金术士的手艺，是一口装饰华丽的钢制大锅，形似带盖的坩埚。被封入丹炉中的炼金物品会被炉内的药材强化、精炼，出炉时化为强力的升级版本。你可以用一个耗时 1 分钟的活动，将单个炼金物品放入丹炉之中。随后你必须以该物品的制作 DC 进行一次制作检定。该物品的伤害与治疗获得 +2 状态加值；若你的制作至少达到大师，则改为获得 +4 状态加值。此状态加值仅适用于该物品造成的初始伤害或治疗，不适用于炼金物品造成的持续伤害或溅射伤害。若该物品的初始伤害或治疗会以多个生物为目标，则将此状态加值减半。</p>"
+    },
+    "Concealing Puffball (Moderate)": {
+      "name": "遮蔽尘菌（中级） Concealing Puffball (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.VMozDqMMuK5kpoX4]{潜行}</p><hr><p>这枚格外膨胀的担子菌标本被挤压时会炸开一团孢子云。你可以在潜行时激发此物品，你的潜行检定获得 +2 物品加值，并且你在潜行中进入的所有方格都会留下孢子。这些孢子提供@UUID[Compendium.sf2e.conditions.DmAIPqOBomZ7H95W]{隐蔽}，持续到你的下一回合结束。你可以把激发这株炼金植物所需的动作数增加到两个动作，并可以在此次激发中@UUID[Compendium.sf2e.actions.VMozDqMMuK5kpoX4]{潜行}两次。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.QNepnNyb4izD2GVY]{效果：遮蔽尘菌（中级）}</p>"
+    },
+    "Ravenous Flytrap (Greater)": {
+      "name": "贪食捕蝇草（高级） Ravenous Flytrap (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.PMbdMWc2QroouFGD]{擒拿}</p><hr><p>这株经炼金强化的捕蝇草，说得最客气也只能称作永不知足。你可以把本物品的激发作为你@UUID[Compendium.sf2e.actions.PMbdMWc2QroouFGD]{擒拿} 的一部分。若 +16 运动调整值高于你自己的运动调整值，你的擒拿可以改用它，逃脱所需的运动 DC 亦以此计算。若你使用自己的运动调整值，则该检定获得 +2 物品加值。你可以在 3 轮内持续用捕蝇草进行擒拿。你的擒拿触及范围增加 5 尺。你可以放开捕蝇草而不结束擒拿，此举令逃脱该擒拿的 DC 降低 5，并把目标固定在其当前空间上；但若该生物成功解除擒抱状态或逃脱，这株植物便会枯萎而死。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.GMyyIR9zUl2x7Z8r]{效果：贪食捕蝇草（高级）}</p>"
+    },
+    "Barnacle Tree Seed": {
+      "name": "藤壶树种子 Barnacle Tree Seed",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> @UUID[Compendium.sf2e.actions.PM5jvValFkbFH3TV]{骑乘}</p><hr /><p>传说中有一种藤壶树，这种极不寻常的树上长着巨大的藤壶，而藤壶里孕育着龙。虽然最初的故事多半是杜撰，炼金术士们却当真培育出了这样的造物。当你激发此物品时，你在自身邻接处造出一棵占据@Template[type:burst|distance:5]、高30尺的树。若这棵树位于土壤之中并存续到持续时间结束，它会作为一棵普通的树留存下来，继续生长繁茂。GM可以裁定在某些不宜生长的环境中，该树会立即消失。</p><p>树上有5个大藤壶。当一个生物使用互动打开一个藤壶时，一只@UUID[Compendium.pf2e.rage-of-elements-bestiary.NhmmvWicMmhXuKJo]{花口龙}会从中现身，并保持活跃1小时。打开藤壶的生物可以选择赋予该花口龙仆从与坐骑特征，从而骑乘它并把它当作坐骑使用。当你激发藤壶树种子时，你可以把互动并骑乘一只花口龙作为该次激发的一部分。这些花口龙不会在没有命令的情况下行动，也无法对其他生物使用敌对动作。</p>"
+    },
+    "Odoriferous Cheese (Moderate)": {
+      "name": "浓臭奶酪（中级） Odoriferous Cheese (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr><p>这块洗浸皮的牛奶奶酪经过炼金强化，气味浓烈得惊人。食用之后，这股冲击会在 1 分钟内大幅提升你的嗅觉。你的嗅觉成为射程 30 的精确感官。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.PhGsbNjFzrk1XzC7]{效果：浓臭奶酪（中级）}</p>"
+    },
+    "Wriggling Kudzu (Major)": {
+      "name": "蠕动葛藤（超级） Wriggling Kudzu (Major)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> @UUID[Compendium.sf2e.actions.cYdz2grcOcRt4jk6]{解除装置}</p><hr><p>这份经过改造的葛属植物样本必须保存在玻璃小瓶中，因为它一经释放便会疯狂生长；它由内而外瓦解机关的用途再怎么强调也不为过。你可以在对陷阱或复杂装置进行解除装置时，将激发本物品作为该动作的一部分，让它附着在目标上 1 分钟。进行解除装置检定时，你视同持有合适的盗贼工具；若 +26 的巧手调整值高于你自己的巧手调整值，你可以改用它来替代自己的巧手调整值进行解除装置。若你使用自己的巧手调整值，则该检定获得 +3 物品加值。</p><p>在附着于陷阱或复杂装置之后，你可以继续尝试针对该目标的解除装置检定。若你成功解除该装置，它会在剩余的持续时间内保持解除状态；此后葛藤枯萎，陷阱或复杂装置恢复正常运作。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.BTHPjkExtSbO7Uek]{效果：蠕动葛藤（超级）}</p>"
+    },
+    "Dweomerflacon (Lesser)": {
+      "name": "咒猫瓶（次级） Dweomerflacon (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只小瓶中盈满暗紫色的油亮光泽与闪烁的漩涡。激发时，它生出一头中型咒猫。它向前疾冲，传送到 25 尺内一个它能看见的方格，并造出 4 环 @UUID[Compendium.sf2e.spells.JOdOpbPDl7nqvJUm]{法术解除结界} 的效果（解除调整值为 +13），范围为 @Template[type:cone|distance:10]，持续 1 分钟，而非通常的持续时间。该生物必须在一片完整无阻的开阔空间中形成这个球体，使其边缘不会穿过任何生物或物体，否则效果立即结束（不过在效果持续期间，生物可以进入该结界）。造出结界之后，该生物便消散于虚无。</p><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的咒猫尸体。</p>"
+    },
+    "Stickyweed Sprig (Greater)": {
+      "name": "黏草嫩枝（高级） Stickyweed Sprig (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.ijZ0DDFpMkWqaShd]{手上功夫} 或 @UUID[Compendium.sf2e.actions.RDXXE7wMrSPCLv5k]{盗窃}</p><hr><p>这种拉拉藤在盗贼之间广受欢迎，以能黏附于任何东西而闻名，可用来延长扒手的触及范围。你可以把激发此物品作为你手上功夫或盗窃的一部分。当你如此做时，你的检定获得 +3 物品加值，并在此次手上功夫或盗窃中将你的触及范围延长 20 尺，因为黏草会自你掌中生长出来并攀附到目标物体上。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.DirgAE1SvzliFSlA]{效果：黏草枝（高级）}</p>"
+    },
+    "Pickled Dragon (Major)": {
+      "name": "腌渍龙（超级） Pickled Dragon (Major)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这瓶奇异液体中封存着一枚龙的胚胎，一经释放便会被超速催熟至相应的年龄。瓶身破开时，胚胎迅速成长，并释放出一次强力的吐息攻击。吐息武器的伤害类型与形状在制作时选定，与所提供的龙的吐息攻击具有相同的伤害类型、相同的形状。若该龙的吐息攻击不造成伤害，则伤害类型为精神。腌渍龙获得相应的元素特性。当你激发它时，它会飞行指定的距离，然后使用其吐息攻击。</p><hr /><p>龙胚会长成一头巨型的远古角龙、预兆龙或类似的龙。它至多飞行 90 尺，并使用其吐息攻击，对区域内的每个生物造成 @Damage[14d6|options:area-damage] 伤害（@Check[fortitude|dc:37|basic] 豁免）。豁免大失败的生物还会额外受到 @Damage[4d4[persistent]] 伤害。</p><ul><li><p><strong>锥形</strong> 该区域为 @Template[type:cone|distance:60]。</p></li><li><p><strong>直线</strong> 该区域为 @Template[type:line|distance:120]。</p></li><li><p><strong>爆发</strong> 该区域为 20 尺内的 @Template[type:burst|distance:30]。</p></li></ul><hr /><p><strong>制作需求</strong> 提供一具带有龙特性、且生物等级不低于该物品等级的生物尸体。腌渍龙的每一种伤害类型与吐息武器的组合都需要一份单独的配方。</p>"
+    },
+    "Anthropotomical Studies": {
+      "name": "人体解剖研究 Anthropotomical Studies",
+      "description": "<p>有些炼金术士穷尽一生去破解肉体的奥秘，其动机有高尚的，也有并不高尚的。在神术被禁绝的拉哈多姆，学生们钻研着接种与病菌学说这类新近的医学理论。与此同时，乌斯塔拉夫则有着利润丰厚的盗墓行当，以及暗巷中的木乃伊走私生意，其主顾多半是那些进行不道德实验与骗局的炼金术士。无论出于何种动机，这类炼金术士通常更青睐外科医生的刀刃而非高爆炸药……而且他们清楚地知道该把刀用在生物躯体的哪个部位。</p><p>你的流派技能是医疗。你只能用高速炼金制造具有治疗或伤口特征的炼金物品，而当你这么做时，它们会获得下列增益。</p><p><strong>治疗</strong> 当你以高速炼金制造一件具有治疗特征的物品时，你可以额外花费一个动作来强化该物品：进行一次秘密医疗检定，其DC与治疗伤势的DC相同。当某个生物受到你所造物品的影响时，你同时按照你的检定结果回复对应数量的HP（若你的结果是大失败，则改为造成伤害）。这不会移除受伤状态。一个生物以此方式被治疗后，1天内对该效果暂时免疫；若你的医疗熟练度为大师级，则为1小时。</p><p><strong>伤口</strong> 当你以高速炼金制造的伤口毒剂打击一个生物时，若目标处于@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}状态，或正在承受流血伤害，则它对抗该毒剂的豁免受到–2环境减值。</p>"
+    },
+    "Boreal Mint (Lesser)": {
+      "name": "北境薄荷（次级） Boreal Mint (Lesser)",
+      "description": "<p>这颗薄荷糖灌注了制作霜冻瓶所用的反应剂，能把你的口腔冷却到几近结冰的温度。持续1小时，只要你在用于回忆知识的那项技能上至少受训，你的回忆知识检定就获得物品加值。</p><p><strong>次要效果</strong> <span class=\"action-glyph\">2</span> （寒冷）你呼出一团冰冷的雾气，形成一个 @Template[type:cone|distance:15]。范围内的非魔法火焰会被自动扑灭。具有火焰特征或免疫火焰的生物受到 @Damage[4d6[cold]]，并可进行一次 @Check[reflex|dc:18|basic] 豁免。</p>"
+    },
+    "Aromatic Lavender (Major)": {
+      "name": "芬芳薰衣草（超级） Aromatic Lavender (Major)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.GkmbTGfg8KcgynOA]{分神} 或 @UUID[Compendium.sf2e.actions.SB7cMECVtE06kByk]{掩盖行踪}</p><hr><p>这束气味甜腻得令人作呕的薰衣草花枝，在焚烧之后效力会大增。你可以把激发此物品作为你分神的一部分。当你这么做时，该次分神获得嗅觉特征，取代它通常会因姿势或言语而获得的特征。</p><p>或者，你也可以在进行掩盖行踪探索活动时使用这束薰衣草：若@Check[survival|dc:35|showDC:all|immutable]高于你自己的生存DC，你可以改用前者。</p><p>若你使用自己的生存DC，你的分神或掩盖行踪检定获得+3物品加值。若你的分神检定大成功，目标还会陷入@UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心 1}。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.h7aZUa4T1yiI94w2]{效果：芬芳薰衣草（高级）}</p>"
+    },
+    "Bottle-O-Ooze (Moderate)": {
+      "name": "软泥瓶（中级） Bottle-O-Ooze (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只大型软泥，并在原位保持1分钟。若该软泥的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:23] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。软泥所占的空间可以穿越，但其每一格都视为困难地形。该软泥可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该软泥需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该软泥拥有以下数据：<strong>AC</strong> 15；<strong>HP</strong> 58；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 7、穿刺 7；<strong>弱点</strong> 范围伤害 7、溅射伤害 7</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的软泥残骸。</p>"
+    },
+    "Mandragora Tube": {
+      "name": "曼德拉苟拉试管 Mandragora Tube",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这支玻璃试管内盛着一份油液，其中封存有一颗畸形的块茎。试管碎裂时，块茎会长成一只小型曼德拉苟拉，并立刻开始尖叫。@Template[type:cone|distance:15] 内每个非曼德拉苟拉生物都必须尝试一次 @Check[will|dc:18] 豁免。</p><hr /><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 该生物陷入 @UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心1级}。</p><p><strong>大失败</strong> 该生物陷入 @UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心2级}，并在其保持恶心状态期间持续 @UUID[Compendium.sf2e.conditions.9PR9y0bi4JPKnHPR]{耳聋}。</p><hr /><p><strong>制作需求</strong> 提供一具曼德拉苟拉的尸体。</p>"
+    },
+    "Distant Circle": {
+      "name": "远距法阵 Distant Circle",
+      "description": "<p><strong>成本</strong> 1 份万用制剂 </p><p><strong>需求</strong> 你已在某个区域内绘制了一座法阵。 </p><hr /><p>你可以运用双向法阵的技法，在远处引动物质操控。直到你的下个回合开始为止，你都可以使用一个在 30 尺内某座法阵中准备好的涌动。 </p><p>就该涌动而言，你以你法阵区域内的一个方格作为起点，而非你自己所在的方格。</p>"
+    },
+    "Canopic Canister (Greater)": {
+      "name": "卡诺皮克罐（高级） Canopic Canister (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这个陶土容器被充分摇晃并砸碎后会释放出一只僵尸。该僵尸朝你选择的方向蹒跚移动至多所列的距离，并持续所列的时间。这次移动之后它便保持不动；在它仍然存在的你的每个回合开始时，它对你选择的一个相邻生物尝试一次打击，且只要力所能及，它就必须攻击一个相邻生物。就与其他生物夹击而言，该僵尸视为一个生物，其等效生物等级等同于其物品等级。该僵尸视为不死生物，当它降至 0 生命值时被摧毁，且它的任何豁免检定都自动大失败。</p><p>该僵尸的体型介于中型与大型之间，移动至多 25 尺，攻击检定为 [[/r 1d20+17]]{+17}，造成 @Damage[4d6[bludgeoning]] 伤害。该生物持续 5 轮。<strong>AC</strong> 27；<strong>HP</strong> 80（虚空治疗）；<strong>免疫</strong> 流血、死亡效果、疾病、精神、麻痹、毒素、昏迷；<strong>弱点</strong> 挥砍 20、生机 20</p><p><strong>制作需求</strong> 提供一具生物等级等于或高于本物品等级的生物尸体。</p>"
+    },
+    "Fume Ammunition": {
+      "name": "烟雾弹药 Fume Ammunition",
+      "description": "<p><strong>弹药</strong> 任意</p><p><strong>激发 </strong><span class=\"action-glyph\"><strong>1</strong></span> 互动</p><hr /><p>这种弹药会在目标周围释放出一团气体。该生物受到@Damage[(3d4)[acid,persistent]]伤害。只要它仍在承受这份毒素伤害，它就处于@UUID[Compendium.sf2e.conditions.TkIyaNPgTZFBCCuh]{目眩}状态，无法看穿这团气云。</p>"
+    },
+    "Homunculus Clay (Lesser)": {
+      "name": "人造人黏土（次级） Homunculus Clay (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">3</span>（专注，操作）</p><hr><p>这种黏土含有能模拟生命本身的试剂，可以被塑造成一个私人仆从。当你激发它时，这团黏土产出 2 个@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-actors.cCZQpPqm4hTlqi7w]{黏土人造人}。该人造人保持活动 1 分钟，此后便会干涸。</p>"
+    },
+    "Athanor Tower": {
+      "name": "炼金炉塔 Athanor Tower",
+      "description": "<p>这座多层的黏土熔炉也被称作哲人之炉或奥秘之炉。当填满木炭后，它会缓慢而均匀地加热炉内的炼金原料。这让炼金术士得以架好它便动身远行，同时确信自己归来时能取得完美制成的成品。你可以花费10分钟架设此塔，让它在你不在场时制造一件炼金物品：进行一次秘密制作检定，以在你不在场的情况下制造一件你知晓配方的炼金物品。使用此塔制作物品时，你无需花费制作该物品所需的休整时间。若你成功，该物品会在你本应耗费的正常制作时间过后变为可取用。物品必须在完成后的1天之内从塔中取出，否则就会因被此塔过度加工而毁坏。若你的制作检定大失败，此塔会陷入破损状态，直到你或另一个生物对它进行修理之后才能再次使用。</p>"
+    },
+    "Buoyant Hyacinth (Greater)": {
+      "name": "浮力风信子（高级） Buoyant Hyacinth (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.c8TGiZ48ygoSPofx]{游泳}</p><hr><p>这株凤眼莲的组织如海绵般松软，会成团裹在你身上让你保持漂浮。你可以作为你的游泳动作的一部分激发此物品，你的游泳检定获得 +2 物品加值，并获得等同于你速度的游泳速度。若你已经拥有游泳速度，则改为使你的游泳速度获得 +10 状态加值。若你位于水下，你在自己每个回合结束时上浮 30 尺；不过你可以花费单个动作与这些海绵状组织交互、使其吸水或排水，从而中止或恢复这一效果。此效果至多持续 10 分钟，或持续到你不再游泳为止，以先发生者为准。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.EoMjnPNCBlM6pIgi]{效果：浮力风信子（高级）}</p>"
+    },
+    "Buoyant Hyacinth (Moderate)": {
+      "name": "浮力风信子（中级） Buoyant Hyacinth (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.c8TGiZ48ygoSPofx]{游泳}</p><hr><p>这株凤眼莲的组织如海绵般松软，会成团裹在你身上让你保持漂浮。你可以作为你的游泳动作的一部分激发此物品，你的游泳检定获得 +1 物品加值，并将你游泳移动的距离增加 10 尺。若你位于水下，你在自己每个回合结束时上浮 30 尺；不过你可以花费单个动作与这些海绵状组织交互、使其吸水或排水，从而中止或恢复这一效果。此效果至多持续 10 分钟，或持续到你不再游泳为止，以先发生者为准。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.zHZhQga8qFfDLvBl]{效果：浮力风信子（中级）}</p>"
+    },
+    "Purifying Pie": {
+      "name": "净化馅饼 Purifying Pie",
+      "description": "<p><strong>激发</strong> 10 分钟（操作）</p><hr /><p>这块馅饼酥松浓香，馅料中掺有炼金催化剂。饼中的化合物会对亵渎能量起反应，强化你的身体以抵御之。吃下它完成激发后，你在 24 小时内、或直到你进行每日准备为止（以先到者为准），获得抗力 8 对抗不圣洁生物造成的精魂伤害与虚空伤害。</p>"
+    },
+    "Emboldening Haggis (Moderate)": {
+      "name": "壮胆羊杂布丁（中级） Emboldening Haggis (Moderate)",
+      "description": "<p><strong>激发</strong> 10分钟（操作）</p><hr /><p>这道带有坚果风味的布丁由羊内脏、燕麦、香草以及数种兴奋剂制成，可帮助食用者克服恐惧。通过食用来激发此羊杂布丁后，你在24小时内、或直到你进行每日准备为止（以先到者为准），获得对抗恐惧效果的+1状态加值。在此效果持续期间，你可以有一次在自己回合结束时将恐慌状态降低2点而非1点。</p>"
+    },
+    "Gastronome": {
+      "name": "美食家 Gastronome",
+      "description": "<p>你是一位美食家，同时钻研炼金术与烹饪之艺。</p><p><strong>配方</strong> 两个 1 级普通炼金食物。</p><p><strong>课题增益</strong> 你的餐点让盟友们吃得饱足。当一个生物食用你制作的、具有加工特征的炼金食物时，它获得等同于你智力调整值一半（最低 1）的临时生命值，持续 1 小时。该生物在失去这些临时生命值后，暂时免疫此效果 1。</p><p><strong>课题制剂</strong> 你备有一整套秘制配料，能让任何餐点更上一层楼。你可以选择消耗一瓶万用制剂为食物添加一种风味，这可以作为制作该炼金食物的一部分完成。在生物吃下这份食物并用掉它提供的加值之前，或在这份食物被毁坏之前，你无法收回用于调味的那瓶万用制剂。一个生物一次只能处于你课题制剂的一种风味效果之下，食用另一种风味会立即结束此前所有已灌注风味的效果。你可以从下列风味中选择。</p><ul><li><p><strong>咸味</strong> 该炼金食物还在接下来 1 小时内为一次由其自选的强韧豁免提供 +2 状态加值。</p></li><li><p><strong>酸味</strong> 该炼金食物还在接下来 1 小时内为一次由其自选的意志豁免提供 +2 状态加值。</p></li><li><p><strong>甜味</strong> 该炼金食物还在接下来 1 小时内为一次由其自选的反射豁免提供 +2 状态加值。</p></li><li><p><strong>苦味</strong> 该炼金食物还在接下来 1 小时内将移除持续伤害所需的纯骰检定降低 5。</p></li><li><p><strong>鲜味</strong> 该炼金食物还在接下来 1 小时内为一次由其自选的技能检定提供 +2 状态加值。</p></li></ul><p><strong>课题发现（5级）</strong> 你的餐点效力变得更强。你的炼金食物所给予的临时生命值等于你等级的一半加上你的智力调整值。</p><p><strong>进阶制剂（11级）</strong> 你能以不让任何一种风味压过其他风味的方式调和风味，让餐点的炼金特性得以充分展现。你可以选择为炼金食物灌注 2 种风味而非 1 种。为一份炼金食物灌注两种风味必须花费 2 瓶万用制剂。</p><p><strong>高等课题发现（13级）</strong> 你的餐点经过精心调制，能够鼓舞盟友的士气。当一个生物拥有你的炼金食物所给予的临时生命值时，它在攻击掷骰、伤害以及对抗心灵效果的豁免上获得 +1 状态加值。</p>"
+    },
+    "Pickled Dragon (Minor)": {
+      "name": "腌渍龙（初级） Pickled Dragon (Minor)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这瓶奇异液体中封存着一枚龙的胚胎，一经释放便会被超速催熟至相应的年龄。瓶身破开时，胚胎迅速成长，并释放出一次强力的吐息攻击。吐息武器的伤害类型与形状在制作时选定，与所提供的龙的吐息攻击具有相同的伤害类型、相同的形状。若该龙的吐息攻击不造成伤害，则伤害类型为精神。腌渍龙获得相应的元素特性。当你激发它时，它会飞行指定的距离，然后使用其吐息攻击。</p><hr /><p>龙胚会长成一头超小型的家龙。它至多飞行 15 尺，并使用其吐息攻击，对区域内的每个生物造成 @Damage[1d6|options:area-damage] 伤害（@Check[fortitude|dc:15|basic] 豁免）。豁免大失败的生物还会额外受到 @Damage[1[persistent]] 伤害。</p><ul><li><p><strong>锥形</strong> 该区域为 @Template[type:cone|distance:10]。</p></li><li><p><strong>直线</strong> 该区域为 @Template[type:line|distance:15]。</p></li><li><p><strong>爆发</strong> 该区域为 20 尺内的单个方格。</p></li></ul><hr /><p><strong>制作需求</strong> 提供一具带有龙特性、且生物等级不低于该物品等级的生物尸体。腌渍龙的每一种伤害类型与吐息武器的组合都需要一份单独的配方。</p>"
+    },
+    "Osteoanabolic Broth": {
+      "name": "壮骨浓汤 Osteoanabolic Broth",
+      "description": "<p><strong>激发</strong> 10 分钟（操作）</p><hr /><p>这道浓汤里有鲜美的肉块与香草，还有一锅能大幅强健骨骼的奶白汤底。以食用的方式激发这份浓汤之后，你获得钝击伤害抗力 8，且不受坠落伤害，持续 24 小时或直到你进行每日准备为止，以先到者为准。</p>"
+    },
+    "Alchemical Angel (Minor)": {
+      "name": "炼金天使（初级） Alchemical Angel (Minor)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这瓶云雾般的液体中跳动着一颗天族之心，它或是人工造就，或是从一位被杀天使的精质中采集而来。药瓶启封时，一位天族现身，为你的盟友赐福，随后消散为一团芬芳的云雾。该天使的体型为中型。你激发它时，它飞行 15 尺，随后以单个相邻生物为目标。存活生物回复 @Damage[1d6[healing]] 生命值。具有虚能治疗的生物则改为承受 @Damage[1d6[vitality]] 伤害，并进行一次 @Check[fortitude|dc:16|basic] 豁免。该天使带来的治疗与伤害均为魔法性。</p><hr /><p><strong>制作需求</strong> 提供一位近期被杀天族的精质，其生物等级须等于或高于本物品的等级。</p>"
+    },
+    "Dweomerflacon (Moderate)": {
+      "name": "咒猫瓶（中级） Dweomerflacon (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这个小瓶中充盈着深紫色的油亮光泽与闪耀的漩涡。激发时，它会生出一只中型咒猫。咒猫向前疾冲，传送到25尺内它能看见的一处空间，并制造出6环@UUID[Compendium.sf2e.spells.JOdOpbPDl7nqvJUm]{法术解除结界}的效果（解除调整值为+17），范围为一个@Template[type:cone|distance:10]，且持续1分钟而非通常的持续时间。该生物必须在一片完整而开阔的空间中形成这个球体，使其边缘不会穿过任何生物或物体，否则效果立即结束（不过效果持续期间生物可以进入该球体）。制造出球体后，咒猫便消散于虚无。</p><p><strong>制作需求</strong> 提供一具等级等于或高于本物品等级的咒猫尸体。</p>"
+    },
+    "Humor Leech": {
+      "name": "体液水蛭 Humor Leech",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr><p>这条水蛭经过炼金浸渍，可以改变患者血液中的体液比例。当水蛭吸附上来时，你受到 1 点持续流血伤害，获得对某一特定能量类型的抗力，并根据制作这条水蛭时所选的添加剂获得一项额外效果。你可以选择让用于终止该持续流血伤害的纯骰检定失败，从而将效果延长至最多 1 分钟；此后水蛭便会脱落并消散。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.VFw3X2HnC43REpCj]{效果：体液水蛭}</p><p><strong>胆汁质</strong> 被这条黄色水蛭吸吮的患者很快就会变得暴躁易怒。你获得对火焰伤害的抗力 2。当你以打击造成重击时，你额外造成 2 点精准伤害。</p><p><strong>抑郁质</strong> 被这条黑色水蛭吸吮的患者往往变得专注而务实。你获得对寒冷伤害的抗力 2。当你对一个生物造成重击时，你可以立即对该目标生物掷一次回忆知识检定。</p><p><strong>黏液质</strong> 被这条蓝色水蛭吸吮的患者往往变得安静而放松。你获得对精魂伤害的抗力 2。当你造成重击时，你获得 5 点临时生命值，持续 1 轮。</p><p><strong>多血质</strong> 被这条红色水蛭吸吮的患者会感到自信而合群。你获得对心灵伤害的抗力 2。当你造成重击时，你将自身的恐慌状态降低 1，或在 1 轮内获得基于魅力的技能检定 +2 环境加值。</p>"
+    },
+    "Cauthooj Egg": {
+      "name": "迷音鸟卵 Cauthooj Egg",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这个瓶中盛有一枚悬浮在炼金浴液里的迷音鸟卵。当你激发它时，一只中型迷音鸟破卵而出，胡乱地啼鸣着，并选择 35 尺内的一个生物。迷音鸟随后行走至多 30 尺，以 [[/r 1d20+22]]{+22} 的调整值对该生物的反射 DC 尝试一次贼活检定。若迷音鸟成功，它便夺走该生物正持用或挥舞的一件物品，或该生物能以单个动作拔出的一件物品（由 GM 裁定）。若它成功从生物身上夺得物品，随后便行走至多 35 尺。之后迷音鸟溶解消散，物品掉落在它移动结束时所在的空间中。 </p><p><strong>制作需求</strong> 提供一具迷音鸟的尸体。</p>"
+    },
+    "Expanding Foam (Greater)": {
+      "name": "膨胀泡沫（高级） Expanding Foam (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这个小瓶中盛有液态试剂，另一个装着不同溶液的玻璃小瓶漂浮在其中。玻璃破碎时，两种溶液发生反应，生成迅速膨胀的泡沫，并很快硬化成坚固而厚实的表面。激发时，将此小瓶掷向30尺内的一处空间，制造出一个填满@Template[type:burst|distance:30]的物体。被摧毁的泡沫区段可以照常通行。区域内的非魔法火焰立即熄灭。区域内的生物被移往它们自选的最近边缘处。这是强制移动。</p><p>该区域是一个30尺爆发。这堵墙每5尺乘5尺的区段拥有AC 10、硬度22和120点生命值。它免疫重击与精准伤害，并拥有火焰抗力20。</p>"
+    },
+    "Moonlight Chocolate": {
+      "name": "月光巧克力 Moonlight Chocolate",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>这块黑巧克力以经炼金强化的可可与砂糖制成，能让你在深夜依旧保持警醒。以食用方式激发这块巧克力之后，你在陷入力竭之前可保持清醒的时长延长 2 小时（通常为 16 小时）。你可以继续食用月光巧克力，将陷入力竭之前可保持清醒的时长延长至最多 32 小时。在力竭状态下食用月光巧克力不会产生任何效果。</p>"
+    },
+    "Nectar Pastille": {
+      "name": "花蜜锭剂 Nectar Pastille",
+      "description": "<p>这种硬糖以炼金提纯的原料与取自神域的蜂蜜制成，任何食用者都会因此得到启迪。含着这枚花蜜锭剂时，你会变为圣洁（若你原本并非如此），并获得 @UUID[Compendium.sf2e.spells.jwK43yKsHTkJQvQ9]{见人所未见} 法术的效果，至多持续 1 小时。</p><p><strong>次要效果</strong> <span class=\"action-glyph\">1</span> 当你咬碎这枚锭剂、令花蜜恣意流淌时，一缕不朽之力在你体内涌动。你进行一次打击。若你的打击成功，你额外造成 @Damage[(4d8)[spirit]|holy] 伤害，且你的打击获得圣洁特征。</p>"
+    },
+    "Compound Ammunition": {
+      "name": "复合弹药 Compound Ammunition",
+      "description": "<p>你可以把两种弹药合而为一，使它们在火器的一次射击中同时生效。制作这种复合弹药时，你必须额外消耗一份万用制剂，且所用材料必须属于你能以高速炼金制造的炼金弹药。当这份复合弹药被装入武器后，用该武器进行的下一次打击会同时带有两种弹药的效果。例如，你可以合并两份@UUID[Compendium.pf2e-anachronism.equipment.Oo0KZTmFsu9iCAR9]{下等生命子弹}弹药，做出治疗量翻倍的复合炼金弹药；或者把一份@UUID[Compendium.pf2e-anachronism.equipment.CGmJzsdRb5aJ4eFn]{次等元素弹药}与一份@UUID[Compendium.pf2e-anachronism.equipment.arNOPU7h8nNbnZ1N]{次等痛苦弹药}合并，造成 1d4 点持续毒素伤害、1 点持续火焰伤害与 1 点火焰溅射伤害。若某份弹药会造成一种以上的持续伤害或溅射伤害，它会将两种伤害都作为效果的一部分造成。</p>"
+    },
+    "Gray Dust Ammunition (Greater)": {
+      "name": "灰尘弹药（高级） Gray Dust Ammunition (Greater)",
+      "description": "<p><strong>弹药</strong> 任意</p><p><strong>激发 </strong><span class=\"action-glyph\"><strong>1</strong></span> 互动</p><hr /><p>这种弹药灌注了来自法力废土的辐射尘埃，因而在射向施法者时会产生不稳定的效果。在接下来 1 分钟内，他们第一次施放法术时，自身的魔法会反噬，使其受到@Damage[16d4[force]]伤害，并进行一次@Check[fortitude|dc:34|basic]豁免。大失败时，该生物还会陷入@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞 2}状态 1 轮。</p>"
+    },
+    "Ravenous Flytrap (Moderate)": {
+      "name": "贪食捕蝇草（中级） Ravenous Flytrap (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.PMbdMWc2QroouFGD]{擒拿}</p><hr><p>这株经炼金强化的捕蝇草，说得最客气也只能称作永不知足。你可以把本物品的激发作为你@UUID[Compendium.sf2e.actions.PMbdMWc2QroouFGD]{擒拿} 的一部分。若 +10 运动调整值高于你自己的运动调整值，你的擒拿可以改用它，逃脱所需的运动 DC 亦以此计算。若你使用自己的运动调整值，则该检定获得 +1 物品加值。你可以在 2 轮内持续用捕蝇草进行擒拿。你可以放开捕蝇草而不结束擒拿，此举令逃脱该擒拿的 DC 降低 5，并把目标固定在其当前空间上；但若该生物成功解除擒抱状态或逃脱，这株植物便会枯萎而死。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.AlpYvmP7nqn0JhAQ]{效果：贪食捕蝇草（中级）}</p>"
+    },
+    "Cockatrice Dust": {
+      "name": "鸡蛇兽之尘 Cockatrice Dust",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这个小瓶中装满了鸡蛇兽石化遗骸磨成的粉末。粉末倾倒而出后会重新拼成一副骨架，并长出血肉、鳞片与羽毛，在你身旁形成一只小型鸡蛇兽。这只鸡蛇兽行走 20 尺，并啄击射程内的一个生物。该生物必须进行一次 @Check[fortitude|dc:18] 豁免，否则会轻微钙化，陷入@UUID[Compendium.sf2e.conditions.xYTAsEpcJE1Ccni3]{缓慢 1} 1 轮；若其豁免大失败，则改为@UUID[Compendium.sf2e.conditions.xYTAsEpcJE1Ccni3]{缓慢 2}。随后鸡蛇兽石化并碎裂成尘。</p><p><strong>制作需求</strong> 提供一具鸡蛇兽的尸体。</p>"
+    },
+    "Agglomerative Cannonball (Lesser)": {
+      "name": "凝聚炮弹（次级） Agglomerative Cannonball (Lesser)",
+      "description": "<p><strong>弹药</strong> 枪弹</p><p><strong>激发 </strong><span class=\"action-glyph\"><strong>1</strong></span> 互动</p><hr /><p>这瓶精细金属粉末的内容物在射出时会凝结成巨大而致密的弹丸。已激发的凝聚炮弹对其目标额外造成 1 点钝击伤害，且该打击获得拆毁特征。重击时，目标还会被击退 5 尺。此为强迫移动。</p>"
+    },
+    "Ledge Creeper": {
+      "name": "攀壁藤 Ledge Creeper",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">r</span> @UUID[Compendium.sf2e.actions.3yoajuKjwHZ9ApUY]{抓住边缘}</p><hr><p>攀壁藤以能轻易攀附于附近岩石而闻名，其炼金变种则可以迅速生长，用来缓解坠落。你可以将激发该物品作为你尝试抓住边缘的一部分；若你原本正握持着它，你仍可使用握持它的那只手。你的特技检定或反射豁免获得 +2 环境加值，且无论你已坠落多远，你都不会受到伤害。若你成功抓住边缘，且在你止住坠落之处可以@UUID[Compendium.sf2e.actions.OdIUybJ3ddfL7wzj]{站立}，则藤蔓会将你安全托起，你立即以一个自由动作站立。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.sqBKR08WkGMiU2Mc]{效果：攀壁藤}</p>"
+    },
+    "Cloud Giant Bean (Greater)": {
+      "name": "云巨人豆（高级） Cloud Giant Bean (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.pprgrYQ1QnIDGZiy]{攀爬}</p><hr /><p>这颗豆子以一则古老寓言命名，会长成一株异常巨大的菜豆藤。你可以在攀爬时激发这颗豆子。若你激发豆子时的首次攀爬成功，你可以选择自动攀上豆茎高度一半的距离，因为你在藤茎开始拔高时便攀附其上。豆子化作一株豆茎，最高可长到 1,000 尺。豆茎让试图攀爬它的生物在检定上获得 +3 物品加值；若生物从豆茎上坠落，其用于@UUID[Compendium.sf2e.actions.3yoajuKjwHZ9ApUY]{抓住边缘}的特技检定或反射豁免同样获得该加值。豆茎最多可以支撑 8 个中型生物、4 个大型生物、2 个超大型生物或 1 个巨型生物。在豆茎折断前，它可以支撑任意数量的小型或微型生物，或等量的负载。豆茎在 1 小时后开始朽坏。</p>"
+    },
+    "Chemical Tank (Moderate)": {
+      "name": "化学储罐（中级） Chemical Tank (Moderate)",
+      "description": "<p>这个金属罐背在你的背上，并通过一根加固管道与一件武器相连。它能容纳 4 枚炸弹，且所有炸弹必须为同一类型（例如@UUID[Compendium.pf2e-anachronism.equipment.Item.yd3kEK21YknZLlcT]{次等炽火胶}）。当该储罐连接到会消耗炼金炸弹的炼金物品上时（例如@UUID[Compendium.pf2e-anachronism.equipment.gdaLHiWRhB1l2Xr3]{炼金喷火器}），它会在该物品被激发之后的下一个回合结束时，自动为其装填所需数量的炼金炸弹，无需清理或准备该物品。必须先将足量的炸弹装入储罐才能使用，装填的过程中会顺带清理罐体与管道。以此方式正确装填储罐需要 1 分钟。</p>"
+    },
+    "Ravenous Flytrap (Lesser)": {
+      "name": "贪食捕蝇草（次级） Ravenous Flytrap (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.PMbdMWc2QroouFGD]{擒拿}</p><hr /><p>这株经炼金强化的捕蝇草，说得最客气也只能称作永不知足。你可以把本物品的激发作为你@UUID[Compendium.sf2e.actions.PMbdMWc2QroouFGD]{擒拿} 的一部分。若 +5 运动调整值高于你自己的运动调整值，你的擒拿可以改用它，逃脱所需的运动 DC 亦以此计算。你可以持续用捕蝇草进行擒拿，直到你的下一回合结束。你可以放开捕蝇草而不结束擒拿，此举令逃脱该擒拿的 DC 降低 5，并把目标固定在其当前空间上；但若该生物成功解除擒抱状态或逃脱，这株植物便会枯萎而死。</p>"
+    },
+    "Chemical Tank (Greater)": {
+      "name": "化学储罐（高级） Chemical Tank (Greater)",
+      "description": "<p>这个金属罐背在你的背上，并通过一根加固管道与一件武器相连。它能容纳 8 枚炸弹，且所有炸弹必须为同一类型（例如@UUID[Compendium.pf2e-anachronism.equipment.Item.yd3kEK21YknZLlcT]{次等炽火胶}）。当该储罐连接到会消耗炼金炸弹的炼金物品上时（例如@UUID[Compendium.pf2e-anachronism.equipment.gdaLHiWRhB1l2Xr3]{炼金喷火器}），它会在该物品被激发之后的下一个回合结束时，自动为其装填所需数量的炼金炸弹，无需清理或准备该物品。必须先将足量的炸弹装入储罐才能使用，装填的过程中会顺带清理罐体与管道。以此方式正确装填储罐需要 1 分钟。</p>"
+    },
+    "Compressed Gogiteth": {
+      "name": "压缩高基特斯 Compressed Gogiteth",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只烧瓶内部塞满了无数形似指节的关节与纤细的骨状结构。当玻璃破碎时，一只高基特斯从中舒展开来。它最多行走 40 尺，共三次。每次行走中它可以在任意时点用腿部对其触及范围内的一个生物尝试一次 [[/r 1d20+18]]{+18} 打击，造成 @Damage[3d8+8[piercing]] 伤害；每次攻击必须针对不同的生物，但这些打击不施加多重攻击减值。若其中任何一次打击的结果是大失败，效果立即结束，高基特斯溶解成潮湿的盐块。</p><p><strong>制作需求</strong> 提供一具高基特斯的尸体。</p>"
+    },
+    "Noisome Garum": {
+      "name": "恶臭鱼露 Noisome Garum",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>这种发酵鱼酱自伊布利多斯进口，以鲜美的旨味与惊人的恶臭闻名，抹在任何一小口食物上都能提味。酱中的炼金化合物会迅速分解，并经由你的腺体散发出来，制造出骇人的难闻气味。在与你相邻处结束其回合的生物必须进行一次 @Check[fortitude|dc:30] 豁免，否则变为 @UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心 1}。这些效果持续 1 分钟。</p>"
+    },
+    "Preserve Organs": {
+      "name": "保全内脏 Preserve Organs",
+      "description": "<p>你对自己的内脏施行了炼金术，让要害免于受创。当你被重击命中时，进行一次 @Check[flat|dc:17|showDC:all]。若成功，该次重击变为普通命中。若你至少为 18 级，此平坦检定改为 @Check[flat|dc:14|showDC:all]，而非 DC 17。</p>"
+    },
+    "Spell Pyrophore (Lesser)": {
+      "name": "法术引火剂（次级） Spell Pyrophore (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +128 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[4d4[fire],4d4[spirit]]，并进行一次 @Check[fortitude|dc:23|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
+    },
+    "Gelatine Mobogo": {
+      "name": "莫波戈胶冻 Gelatine Mobogo",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只玻璃小瓶中，裹着蛙卵的紫色胶冻不住颤动。当你激发它时，一只超大型莫波戈凝聚成形。它向上飞起至多 20 尺，随后唱起沼泽之歌，影响 20 尺内所有能听见它的生物。能听见这首歌的生物必须尝试一次@Check[will|dc:27]豁免。豁免失败的生物陷入@UUID[Compendium.sf2e.conditions.xYTAsEpcJE1Ccni3]{缓慢 1}状态 1 轮；若大失败，则陷入@UUID[Compendium.sf2e.conditions.xYTAsEpcJE1Ccni3]{缓慢 2}状态[[/r 1d4]]{1d4 轮}。唱完这首歌后，蛙鸣化作汩汩声响，这只生物爆成一滩胶冻，随即溶解消失。</p><p><strong>制作需求</strong> 提供一具莫波戈的尸体。</p>"
+    },
+    "Goblin Mixto": {
+      "name": "哥布林三明治 Goblin Mixto",
+      "description": "<p><strong>激发</strong> 1 分钟（操作）</p><hr /><p>这份压制三明治结合了镣铐群岛风味的猪肩肉、火腿、杜鲁玛奶酪、芥末，当然还有炼金地精酸黄瓜。在吃下这份三明治将其激发后，你获得对溅射伤害与区域伤害的抗力 4。这些效果持续 24 小时，或持续到你进行每日准备为止，以先到者为准。</p>"
+    },
+    "Dragon Turtle Haniver": {
+      "name": "龙龟哈尼弗 Dragon Turtle Haniver",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>一头龙龟干瘪风干的遗骸浸在这只瓶中的油里。当你激发它时，瓶中之物化作一头超大型龙龟，掀起一场海啸。该龙龟造出一道巨浪，造成 @Damage[2d6[bludgeoning]] 伤害，范围为 @Template[type:cone|distance:30]（@Check[reflex|dc:25|basic] 基础豁免）。对距离超过 15 尺的生物，巨浪的伤害提高 2d6。豁免失败的生物被击倒，陷入 @UUID[Compendium.sf2e.conditions.j91X7x0XSomq8d60]{倒地}。随后龙龟消散。</p><p><strong>制作需求</strong> 提供一具龙龟的尸体</p>"
+    },
+    "Pickled Dragon (Lesser)": {
+      "name": "腌渍龙（次级） Pickled Dragon (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这瓶奇异液体中封存着一枚龙的胚胎，一经释放便会被超速催熟至相应的年龄。瓶身破开时，胚胎迅速成长，并释放出一次强力的吐息攻击。吐息武器的伤害类型与形状在制作时选定，与所提供的龙的吐息攻击具有相同的伤害类型、相同的形状。若该龙的吐息攻击不造成伤害，则伤害类型为精神。腌渍龙获得相应的元素特性。当你激发它时，它会飞行指定的距离，然后使用其吐息攻击。</p><hr /><p>龙胚会长成一头超小型的家龙。它至多飞行 30 尺，并使用其吐息攻击，对区域内的每个生物造成 @Damage[2d6|options:area-damage] 伤害（@Check[fortitude|dc:17|basic] 豁免）。豁免大失败的生物还会额外受到 @Damage[1d4[persistent]] 伤害。</p><ul><li><p><strong>锥形</strong> 该区域为 @Template[type:cone|distance:15]。</p></li><li><p><strong>直线</strong> 该区域为 @Template[type:line|distance:30]。</p></li><li><p><strong>爆发</strong> 该区域为 20 尺内的 @Template[type:burst|distance:5]。</p></li></ul><hr /><p><strong>制作需求</strong> 提供一具带有龙特性、且生物等级不低于该物品等级的生物尸体。腌渍龙的每一种伤害类型与吐息武器的组合都需要一份单独的配方。</p>"
+    },
+    "Alchemist's Heart (Moderate)": {
+      "name": "炼金师之心（中级） Alchemist's Heart (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>这块带磁性的天然磁石形如一颗心脏，中央裂开一道缝。当炼金师之心被掰成两半而激发时，无论相隔多远，两瓣都会缓缓朝彼此靠拢。只要你随身带着炼金师之心的一半，你便始终能辨明另一半所在的方向，以及你与它之间的大致距离。此物常为结伴踏上险途的同伴所用，也可用来追踪失窃的货物。当炼金师之心的一半来到另一半 5 尺之内后，或持续时间 1 年结束后，它便就此失效。</p>"
+    },
+    "Jabberwock Jar": {
+      "name": "炸脖龙罐 Jabberwock Jar",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只盛满非现实色彩的绝妙瓶子让人难以直视，古怪的声响自瓶内呼呼传出。激发时，一头超大型炸脖龙自瓶中现身，向前飞出至多 60 尺，随后开始咕噜低吼。从下列低吼效果中选择一项。</p><p><strong>困惑</strong>（情绪，心灵）@Check[will|dc:40] 豁免失败的生物陷入@UUID[Compendium.sf2e.conditions.yblD8fOR1J8rDwEQ]{困惑}，持续 [[/r 1d4]]{1d4} 轮。</p><p><strong>音波束</strong>（音波）该生物 40 尺内的所有生物受到 @Damage[20d6[sonic]] 伤害，并进行一次 @Check[will|dc:40|basic] 豁免。</p>"
+    },
+    "Genic Infusion": {
+      "name": "基因灌注 Genic Infusion",
+      "description": "<p><strong>需求</strong> 你已绘制好一座变化法阵。 </p><hr><p>只要施用得当，你转化的就不只是物质，还有你自己。你使用@UUID[Compendium.pf2e-anachronism.actions.yzNJgwzV9XqEhKc6]{高速炼金}制造一份突变药剂。若你的下一个动作是@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，你改为激发该突变药剂以取代物质冲击的常规效果，并在突变药剂的持续时间内获得你物质冲击的元素特征。在突变药剂的效果持续期间，你的无武装攻击每有一个物质冲击的伤害骰便额外造成 1 点伤害。这份额外伤害与你的物质冲击的伤害类型相同。</p>"
+    },
+    "Buoyant Hyacinth (Major)": {
+      "name": "浮力风信子（超级） Buoyant Hyacinth (Major)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.c8TGiZ48ygoSPofx]{游泳}</p><hr><p>这株凤眼莲的组织如海绵般松软，会成团裹在你身上让你保持漂浮。你可以作为你的游泳动作的一部分激发此物品，你的游泳检定获得 +3 物品加值，并获得等同于你速度的游泳速度，以及使该游泳速度获得 +10 状态加值。若你已经拥有游泳速度，则改为使你的游泳速度获得 +20 状态加值。若你位于水下，你在自己每个回合结束时上浮 30 尺；不过你可以花费单个动作与这些海绵状组织交互、使其吸水或排水，从而中止或恢复这一效果。此效果至多持续 10 分钟，或持续到你不再游泳为止，以先发生者为准。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.UOzieSP99sxCAejL]{效果：浮力风信子（超级）}</p>"
+    },
+    "Spotlight Sunflower (Lesser)": {
+      "name": "聚光向日葵（次级） Spotlight Sunflower (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.sn2hIy1iIJX9Vpgj]{指出位置}</p><hr><p>这朵向日葵的花瓣中被注入了生物发光细胞。这朵闪耀的向日葵可以被放置在与你相邻的一个方格里，像火炬一样发光，并持续 1 小时。你可以把激发此物品作为你指出位置的一部分。当你如此做时，闪耀的向日葵会把它的聚光射入 30 尺内一个生物所在的方格，照亮该区域，并使其他生物在看见该目标的察觉检定上获得 +1 物品加值。只要你处于该向日葵 30 尺内且此效果仍在持续，你就可以继续用这朵向日葵来指出位置。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.cjD7GRKEz6jAj8Cy]{效果：聚光向日葵（次级）}</p>"
+    },
+    "Spotlight Sunflower (Major)": {
+      "name": "聚光向日葵（超级） Spotlight Sunflower (Major)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.sn2hIy1iIJX9Vpgj]{指出位置}</p><hr><p>这朵向日葵的花瓣中被注入了生物发光细胞。这朵闪耀的向日葵可以被放置在与你相邻的一个方格里，像火炬一样发光，并持续 1 小时。你可以把激发此物品作为你指出位置的一部分。当你如此做时，闪耀的向日葵会把它的聚光射入 120 尺内一个生物所在的方格，照亮该区域，并使其他生物在看见该目标的察觉检定上获得 +3 物品加值。只要你处于该向日葵 30 尺内且此效果仍在持续，你就可以继续用这朵向日葵来指出位置。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.A2fZsysXGMpwmc2Z]{效果：聚光向日葵（超级）}</p>"
+    },
+    "Food of the Gods": {
+      "name": "众神之食 Food of the Gods",
+      "description": "<p><strong>激发</strong> 10 分钟（操作）</p><hr /><p>众神之食被誉为烹饪界的贤者之石，是一道极尽繁复、极为罕有的大餐。它由炼金制成的仙馔、远道运来的食材以及格外稀有的肉类与香草构成。能够正确做出众神之食是传奇厨师的招牌；而尝试制作却失败，则会给你的声誉留下永久的污点。在吃下这道餐点将其激发后，你将餐点准备期间选定的一项属性调整值提升 1，或将其提升至 +4，二者取高。这些效果不与巅峰物品的效果叠加。众神之食的效果持续 24 小时，或持续到你进行每日准备为止，以先到者为准。</p>"
+    },
+    "Buoyant Hyacinth (Lesser)": {
+      "name": "浮力风信子（次级） Buoyant Hyacinth (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.c8TGiZ48ygoSPofx]{游泳}</p><hr /><p>这株凤眼莲的组织如海绵般松软，会成团裹在你身上让你保持漂浮。你可以作为你的游泳动作的一部分激发此物品，并将你游泳移动的距离增加 5 尺。若你位于水下，你在自己每个回合结束时上浮 30 尺；不过你可以花费单个动作与这些海绵状组织交互、使其吸水或排水，从而中止或恢复这一效果。此效果至多持续 10 分钟，或持续到你不再游泳为止，以先发生者为准。</p>"
+    },
+    "Encapsulated Titanosaur": {
+      "name": "封装泰坦巨龙 Encapsulated Titanosaur",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这枚胶囊沉重得惊人，其调和液中封着一块泰坦巨龙的踝骨。激发时，一只巨型泰坦巨龙浮现而出。泰坦巨龙移动至多30尺，随后以后腿立起并重重砸向地面，复制8环@UUID[Compendium.sf2e.spells.x7SPrsRxGb2Vy2nu]{地震术}的效果（对抗坍塌的基础@Check[reflex|dc:35]），但这些效果不具魔法性，且泰坦巨龙不会在自身下方制造裂隙。随后泰坦巨龙化回骨骸，并碎为尘土。 </p><p><strong>制作需求</strong> 提供一具泰坦巨龙的尸体。</p>"
+    },
+    "Chemical Poliorcetica": {
+      "name": "化学攻城术 Chemical Poliorcetica",
+      "description": "<p>炼金术已缓慢而稳定地成为战争艺术中的常见工具，在神雨与地狱火危机之后尤其如此。随着安多安开始以火器武装军队，随着拉哈多姆的精纯卫队准备抵御神圣力量，随着盖布准备进军奈克斯，对炼金武器的需求正不断上升。与此同时，在法力废土这类魔法一向不稳定的地区，或是在阿卡迪亚的神射之地这类重工业而轻法术的地方，这类武器一直被广泛使用。对某些人而言，炼金武器是一种革新；在别的地方，它们则是在别无选择的土地上活下去的必需品。你的修习技能为生存。</p><p>你只能使用高速炼金来制造炼金弹药或炼金炸弹，而当你这样做时，它们获得下列增益。</p><p><strong>弹药</strong> 当你制造出会造成溅射伤害的炼金弹药时，你还可以选择让用来以该弹药进行打击的武器在此次打击中获得散射 5 尺特征。若该武器已经具有散射特征，你可以改为选择将其散射特征的范围增加 5 尺。</p><p><strong>炸弹</strong> 当你制造出炸弹时，你可以不把它用作打击的一部分，而是进行互动，将炸弹放置在一个邻接方格中，或把它附着在触及范围内的一件物体上。炸弹会留在该空间内，直到有生物穿过该空间、有人对该物体使用具有操作特征的动作，或经过 4 轮为止，以先发生者为准。与炸弹处于同一空间的生物，或对该物体使用具有操作特征的动作的生物，会如同你以该炸弹进行了一次成功的打击那样受到炸弹的伤害。若炸弹附着在物体上，则它会如同你以其进行了一次成功的打击那样对该物体造成伤害。</p>"
+    },
+    "Recondite Sourdough": {
+      "name": "奥秘酸面包 Recondite Sourdough",
+      "description": "<p><strong>激发</strong> 1 分钟（操作）</p><hr><p>用来做这款酸面包的酵母是以奥术能量发酵的。吃下这块面包完成激发后，你在 24 小时内、或直到你进行每日准备为止（以先到者为准），获得 8 点抗力对抗奥术法术，并且在尝试对抗语言效果的豁免时可以掷两次，取较好的结果。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.4k3SdhuE0Wj1CWQb]{效果：奥秘酸面包}</p>"
+    },
+    "Hypnotic Reeds (Moderate)": {
+      "name": "催眠芦苇（中级） Hypnotic Reeds (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.EEDElIyin4z60PXx]{演出}</p><hr><p>这些芦竹水苇经过改造，能长出音孔，成为天然生长的笛子。你可以将激发该物品作为你演出的一部分。当你这样做时，将你演出的结果与至多 10 个生物的意志 DC 比较。若你成功，目标生物被这些芦苇@UUID[Compendium.sf2e.conditions.AdPVz7rbaVSRxHFg]{迷魂} 1 轮。若目标生物处于需要立即关注的情境中（例如战斗），你必须大成功才能使其迷魂，且该演出动作获得失能特征。若你选择只以单独一名观察者为目标，你的演出便不会因处于需要立即关注的情境而获得失能特征。若 +16 的表演调整值高于你自己的表演调整值，你可以用它替代你自己的调整值来进行演出；若你这样做，你的检定获得 +2 物品加值。这些芦苇持续 1 分钟，你可以在后续回合继续使用它们进行演出。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.rr3PbQvJNCDT2NSA]{效果：催眠芦苇（中级）}</p>"
+    },
+    "Wriggling Kudzu (Greater)": {
+      "name": "蠕动葛藤（高级） Wriggling Kudzu (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> @UUID[Compendium.sf2e.actions.cYdz2grcOcRt4jk6]{解除装置}</p><hr><p>这份经过改造的葛属植物样本必须保存在玻璃小瓶中，因为它一经释放便会疯狂生长；它由内而外瓦解机关的用途再怎么强调也不为过。你可以在对陷阱或复杂装置进行解除装置时，将激发本物品作为该动作的一部分，让它附着在目标上 1 分钟。进行解除装置检定时，你视同持有合适的盗贼工具；若 +15 的巧手调整值高于你自己的巧手调整值，你可以改用它来替代自己的巧手调整值进行解除装置。若你使用自己的巧手调整值，则该检定获得 +2 物品加值。</p><p>在附着于陷阱或复杂装置之后，你可以继续尝试针对该目标的解除装置检定。若你成功解除该装置，它会在剩余的持续时间内保持解除状态；此后葛藤枯萎，陷阱或复杂装置恢复正常运作。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.9tGy52QEkg4nwFyc]{效果：蠕动葛藤（高级）}</p>"
+    },
+    "Mutagenic Tincture": {
+      "name": "突变酊剂 Mutagenic Tincture",
+      "description": "<p><strong>成本</strong> 1 份突变剂与 1 份具有瞬发效果的灵药</p><hr /><p>你以恰到好处的分量将一份突变剂与一份灵药的药剂混合起来，从而兼得两者的特性。当你饮下这份调和物时，你获得所用突变剂的效果。在该突变剂的效果结束之前，你可以花费一个具有专注特征的单一动作，获得你与突变剂混合的那份灵药的效果，如同你饮下了它一般。</p>"
+    },
+    "Wriggling Kudzu (Lesser)": {
+      "name": "蠕动葛藤（次级） Wriggling Kudzu (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> @UUID[Compendium.sf2e.actions.cYdz2grcOcRt4jk6]{解除装置}</p><hr /><p>这份经过改造的葛属植物样本必须保存在玻璃小瓶中，因为它一经释放便会疯狂生长；它由内而外瓦解机关的用途再怎么强调也不为过。你可以在对陷阱或复杂装置进行解除装置时，将激发本物品作为该动作的一部分，让它附着在目标上 1 分钟。进行解除装置检定时，你视同持有合适的盗贼工具；若 +5 的巧手调整值高于你自己的巧手调整值，你可以改用它来替代自己的巧手调整值进行解除装置。</p><p>在附着于陷阱或复杂装置之后，你可以继续尝试针对该目标的解除装置检定。若你成功解除该装置，它会在剩余的持续时间内保持解除状态；此后葛藤枯萎，陷阱或复杂装置恢复正常运作。</p>"
+    },
+    "Bio-Bomb": {
+      "name": "生物炸弹 Bio-Bomb",
+      "description": "<p>成本 1 枚会造成伤害的炼金炸弹与 1 个瓶装怪物</p><hr /><p>你通过灌注一只怪物来制造一枚活体炸弹。你激发这份调和物，其运作方式与你所选的瓶装怪物相同。在激发结束时，该生物不会溶解，而是猛烈爆炸。在其效果本应结束时，所有与该瓶装怪物相邻的生物都会受到点数等同于该炸弹等级的伤害，并可对抗你的职业 DC 进行一次 @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|basic:true] 豁免。若你所用的炸弹通常会造成溅射伤害，则将该伤害加入此效果。此伤害的类型与该炸弹所造成的伤害类型相同。</p>"
+    },
+    "Stickyweed Sprig (Lesser)": {
+      "name": "黏草嫩枝（次级） Stickyweed Sprig (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.ijZ0DDFpMkWqaShd]{手上功夫} 或 @UUID[Compendium.sf2e.actions.RDXXE7wMrSPCLv5k]{盗窃}</p><hr><p>这种拉拉藤在盗贼之间广受欢迎，以能黏附于任何东西而闻名，可用来延长扒手的触及范围。你可以把激发此物品作为你手上功夫或盗窃的一部分。当你如此做时，你的检定获得 +1 物品加值，并在此次手上功夫或盗窃中将你的触及范围延长 5 尺，因为黏草会自你掌中生长出来并攀附到目标物体上。</p><p> @UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.WTS2IUEy6J5WzMi7]{效果：黏草枝（次级）}</p>"
+    },
+    "Polymorphic Mutagen": {
+      "name": "变形突变药剂 Polymorphic Mutagen",
+      "description": "<p><strong>成本</strong> 1 份能提供徒手攻击的炼金突变药剂与 1 个瓶装怪物 </p><hr /><p>通过蒸馏那些用于创造生命的炼金试剂，你把自己突变成一头怪物。你饮下一份突变药剂。随着突变药剂生效，你变形为一只混种生物，从而获得该瓶装怪物的各项能力。你的徒手攻击造成的伤害骰与平常相同，但伤害类型改为与你所选的生物类型相符，并获得该徒手攻击相应的特性（由 GM 裁定）。 </p><p>在突变药剂的持续时间内，你可以使用一次该瓶装怪物的效果，所需动作数与激发该瓶装怪物以产生该效果时相同。你被视为由该瓶装怪物创造出的生物，并以你当前的空间作为该生物的空间。若该效果通常需要由瓶装怪物创造的生物进行移动，则你在用于激发该效果的活动中进行移动。你使用此活动之后，突变药剂的效果立即结束。</p>"
+    },
+    "Agglomerative Cannonball (Major)": {
+      "name": "凝聚炮弹（超级） Agglomerative Cannonball (Major)",
+      "description": "<p><strong>弹药</strong> 枪弹</p><p><strong>激发 </strong><span class=\"action-glyph\"><strong>1</strong></span> 互动</p><hr /><p>这瓶精细金属粉末的内容物在射出时会凝结成巨大而致密的弹丸。已激发的凝聚炮弹对其目标额外造成 10 点钝击伤害，且该打击获得拆毁特征。命中时，目标还会被击退 5 尺，重击时则为 15 尺。此为强迫移动。此为强迫移动。</p>"
+    },
+    "Manticore Matrass": {
+      "name": "蝎狮长颈瓶 Manticore Matrass",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这支长颈瓶内，一张龇牙咧嘴的类人面孔紧贴着玻璃，一条布满尖刺的长尾沿瓶颈向上盘绕。当你激发它时，一只大型蝎狮会破瓶而出。蝎狮迅速自尾部射出一排尖刺。它可以选择以 40 尺内的一名生物为目标，或以距它 20 尺内、且彼此相距 20 尺内的两名生物为目标。它使用其尖刺打击，该打击具有 [[/r 1d20+14]]{+14} 调整值，并造成 @Damage[1d10+5[piercing]] 伤害。若蝎狮以两名不同生物为目标，则它对每名生物各进行一次独立的打击；就蝎狮的多重攻击减值而言，这只算作一次打击，且该减值直到两次攻击都完成之后才会提高。若蝎狮将两根尖刺都掷向同一名生物，则它只进行一次打击。若该攻击命中，它造成单根尖刺的伤害，但目标会被钉在原地，陷入 @UUID[Compendium.sf2e.conditions.eIcWbB5o3pP6OIMe]{禁足}，直到它脱困或强行打开该尖刺（两种方式的 DC 均为 21）。此后，蝎狮溶解为一滩满是尖刺的液体。</p><p><strong>制作需求</strong> 提供一具蝎狮的尸体。</p>"
+    },
+    "Alkaline Mire (Moderate)": {
+      "name": "碱性泥沼（中级） Alkaline Mire (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span>（操作）</p><hr /><p>这种紫色的泥泞淤浆常被用来中和泥怪的强酸。将其涂抹在一个生物身上后，该生物在1分钟内获得8点强酸伤害抗力。当你拥有此抗力期间，若一个具有泥怪特征的生物以徒手攻击成功打击你，它会受到@Damage[8]伤害。此伤害没有伤害类型，且无法被抗力减免。</p>"
+    },
+    "Cucrubit of Krooth": {
+      "name": "食鳄兽葫芦瓶 Cucrubit of Krooth",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>一头覆鳞的恐怖生物在这只葫芦形玻璃器皿中抽搐着。激发时，一头大型食鳄兽现身。它跨步或游泳至多 30 尺，随后用颚部打击攻击一个生物；该打击的攻击调整值为 [[/r 1d20+15]]{+15}，并具有致命 d10、毒素、触及特征。打击成功时造成 @Damage[2d10+5[piercing]] 伤害，随后它便消散，把牙齿留在被咬生物的血肉之中。该生物受到 @Damage[1d6[bleed]] 伤害，并陷入 @UUID[Compendium.sf2e.conditions.4D2KBtexWXa6oUMR]{流失 1}。只要牙齿仍在，这两者都无法被治愈。要安全地取出牙齿，需要一次成功的 @UUID[Compendium.sf2e.actions.MHLuKy4nQO2Z4Am1]{急救} 或 @UUID[Compendium.sf2e.actions.SjmKHgI7a5Z9JzBx]{破拆} 检定（两种方式的 DC 均为 24）。此举并不终止流血或使目标稳定，而是取出牙齿并移除流失状态，但它不会自动终止持续流血伤害。</p><p><strong>制作需求</strong> 提供一具食鳄兽的尸体。</p>"
+    },
+    "Ferromagnetizer Ammunition": {
+      "name": "铁磁弹药 Ferromagnetizer Ammunition",
+      "description": "<p><strong>弹药</strong> 子弹</p><p><strong>激发 </strong><span class=\"action-glyph\"><strong>1</strong></span> 互动</p><hr /><p>这枚天然磁石弹丸的磁性极强，甚至需要专门的火药才能让它离开射出它的武器。当一个生物被铁磁弹药击中时，它穿戴的任何金属护甲、使用的任何金属物品都会变得沉重而难以操控。若目标穿着金属护甲，或本身由金属构成，它陷入@UUID[Compendium.sf2e.conditions.D5mg6Tc7Jzrj6ro7]{超载}状态 1 轮。若目标正握持或挥舞金属物品，它必须尝试一次@Check[reflex|dc:22]豁免，豁免失败时陷入超载状态 1 轮，大失败时还会掉落这些金属物品。</p>"
+    },
+    "Conker Flail (Moderate)": {
+      "name": "马栗连枷（中级） Conker Flail (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.SjmKHgI7a5Z9JzBx]{破拆} 或 <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.VjxZFuUXrCU94MWR]{打击}</p><hr><p>这颗超大号的马栗外面裹着一层带刺的硬壳，还从中生出一根坚韧的绳状梗。你可以在尝试破拆、或对物体发动打击时激发本物品。你可以在 2 轮内持续使用马栗连枷来执行这些动作。</p><p>当你用马栗连枷尝试破拆时，若 +10 的运动调整值高于你自己的运动调整值，你可以改用 +10。若你使用自己的运动调整值，则你的检定或打击获得 +1 物品加值。使用马栗连枷时，你不会因缺少合适工具而在破拆检定上承受减值。</p><p>用于对物体发动打击时，马栗连枷视为连枷组的简易武器，造成 @Damage[1d6[piercing]|options:razing] 伤害，并具有拆毁特征。</p><p>你可以在破拆或打击时选择让马栗爆开：这样做能让你的检定或攻击骰获得 +2 环境加值，并让你无视该物体 4 点硬度。马栗爆开之后，马栗连枷立即损毁。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.CDsNSXfdHkugg392]{效果：马栗连枷（中级）}</p>"
+    },
+    "Impact Jelly": {
+      "name": "缓冲凝胶 Impact Jelly",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span>（操作）</p><hr /><p>这种蓝色凝胶被触碰时会诡异地泛起涟漪。一瓶缓冲凝胶可覆盖 10 尺见方的区域，持续 1 分钟。落入铺有该凝胶区域的生物，将本次坠落视为缩短 50 尺，且它本应受到的任何坠落伤害都变为非致命伤害。本会因落在缓冲凝胶上而受到伤害的生物，可以尝试一次特技或运动检定，其 DC 为 10，且其每坠落 10 尺该 DC 增加 1，成功则可在坠落之后保持站立。</p><p>位于凝胶中的生物进行@UUID[Compendium.sf2e.actions.d5I6018Mci2SWokk]{跳跃}、@UUID[Compendium.sf2e.actions.JUvAvruz7yRQXfz2]{跳远}或@UUID[Compendium.sf2e.actions.2HJ4yuEFY1Cast4h]{跳高}时，其跳跃时移动的距离至多增加 10 尺。</p>"
+    },
+    "Acid Cannon": {
+      "name": "强酸炮 Acid Cannon",
+      "description": "<p>这把火器形似一根架在重型握把上的加固金属管，管口收束成锥形喷嘴。必须将共计两瓶 @UUID[Compendium.pf2e-anachronism.equipment.M1k5QQc1qQLxzyCK]{强酸瓶} 装入武器底部的插槽，并将管身清理干净、完成预热。以此方式正确装填强酸炮需要 1 分钟。扣下已装填强酸炮的扳机时，强酸瓶中的液体被虹吸入枪管，并自枪口喷出，化作一片强酸爆发。强酸炮造成的伤害取决于炮内所装最弱的那瓶强酸瓶。</p><p><strong>激发</strong> <span class=\"action-glyph\">2</span> （强酸，操作） <strong>需求</strong> 强酸炮已装填；<strong>效果</strong> 你扣下扳机，耗尽两瓶已装填的强酸瓶以喷出强酸。区域内的生物依炮内所装最弱的强酸瓶承受持续强酸伤害，如下所述。</p><p><strong>次级强酸瓶</strong>：强酸炮造成 @Damage[1d6[acid,persistent]]（@Check[reflex|dc:15|basic|options:area-damage] 豁免），范围为 30 尺内的 @Template[type:burst|distance:5]。</p><p><strong>中级强酸瓶</strong>：强酸炮造成 @Damage[2d6[acid,persistent]] 伤害（@Check[reflex|dc:17|basic|options:area-damage] 豁免），范围为 60 尺内的 @Template[type:burst|distance:5]。</p><p><strong>高级强酸瓶</strong>：强酸炮造成 @Damage[6d6[acid,persistent]] 伤害（@Check[reflex|dc:28|basic|options:area-damage] 豁免），范围为 90 尺内的 @Template[type:burst|distance:10]。</p><p><strong>超级强酸瓶</strong>：强酸炮造成 @Damage[10d6[acid,persistent]] 伤害（@Check[reflex|dc:37|basic|options:area-damage] 豁免），范围为 120 尺内的 @Template[type:burst|distance:20]。</p>"
+    },
+    "Aromatic Lavender (Moderate)": {
+      "name": "芬芳薰衣草（中级） Aromatic Lavender (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.GkmbTGfg8KcgynOA]{分神} 或 @UUID[Compendium.sf2e.actions.SB7cMECVtE06kByk]{掩盖行踪}</p><hr><p>这束气味甜腻得令人作呕的薰衣草花枝，在焚烧之后效力会大增。你可以把激发此物品作为你分神的一部分。当你这么做时，该次分神获得嗅觉特征，取代它通常会因姿势或言语而获得的特征。</p><p>或者，你也可以在进行掩盖行踪探索活动时使用这束薰衣草：若@Check[survival|dc:20|showDC:all|immutable]高于你自己的生存DC，你可以改用前者。</p><p>若你使用自己的生存DC，你的分神或掩盖行踪检定获得+1物品加值。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.HRaCF7B6g2nUgh0F]{效果：芬芳薰衣草（中级）}</p>"
+    },
+    "Befuddling Irrwurz (Greater)": {
+      "name": "昏乱迷途根（高级） Befuddling Irrwurz (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> @UUID[Compendium.sf2e.actions.QNAVeNKtHA0EUw4X]{虚招}</p><hr><p>迷途根又被称作歧路根，通常生长在曾经存在通往初界之传送门的地方，但也可以借由炼金术催生。你可以把激发迷途根作为你虚招的一部分。当你这么做时，你将它掷到敌人脚边使其失去平衡，你的虚招检定获得+3物品加值。只要你的虚招不是大失败，你就可以迫使目标朝你选择的方向快步。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.tTCw4vZTPKoVY1Qk]{效果：昏乱迷途根（高级）}</p>"
+    },
+    "Ultimate Transmutation": {
+      "name": "终极嬗变 Ultimate Transmutation",
+      "description": "<p>你掌握了一项对绝大多数人而言全然不可能的嬗变。选择一个等级需求不高于本专长等级的元素使涌动专长，把它加入你的配方簿。你可以像准备其他涌动那样，把该涌动准备进你的嬗变阵中。 </p><hr /><p><strong>特殊</strong> 你可以多次选择本专长。每次选择时，你都获得另一个元素使涌动专长。</p>"
+    },
+    "Expanding Foam (Lesser)": {
+      "name": "膨胀泡沫（次级） Expanding Foam (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这个小瓶中盛有液态试剂，另一个装着不同溶液的玻璃小瓶漂浮在其中。玻璃破碎时，两种溶液发生反应，生成迅速膨胀的泡沫，并很快硬化成坚固而厚实的表面。激发时，将此小瓶掷向30尺内的一处空间，制造出一个填满@Template[type:burst|distance:10]的物体。被摧毁的泡沫区段可以照常通行。区域内的非魔法火焰立即熄灭。区域内的生物被移往它们自选的最近边缘处。这是强制移动。 </p><p>这堵墙每5尺乘5尺的区段拥有AC 10、硬度14和50点生命值。它免疫重击与精准伤害，并拥有火焰抗力10。</p>"
+    },
+    "Take Notes": {
+      "name": "记录笔记 Take Notes",
+      "description": "<p><strong>触发</strong> 你以外的一个生物被重击命中，或豁免大失败。</p><p><strong>需求</strong> 你能看见该触发效果的来源与触发生物。</p><hr /><p>在战场上目睹了某些结果之后，你为日后的研究记下笔记。你立即尝试对触发生物进行 @UUID[Compendium.sf2e.actions.1OagaWtBpVXExToo]{回忆知识}。只要你的检定不是失败，这次回忆知识总能让你得知该生物的一项弱点或抗力（大失败时得知的弱点或抗力是错误的）。</p>"
+    },
+    "Phytologist": {
+      "name": "植物学家 Phytologist",
+      "description": "<p>你专精于炼金植物的培育与繁衍。 </p><p><strong>配方</strong> 两种 1 级炼金植物的常见类型。 </p><p><strong>课题增益</strong> 你能够驾驭自己对植物的精通，发挥它们的效力与适用范围。当你激发一株在其激发过程中需要你进行技能检定的炼金植物时，你可以选择改用你的制作调整值并承受 –2 减值，而非通常的技能调整值。若该炼金植物为该技能检定提供物品加值，则你在使用制作调整值时照常把该物品加值计入检定。 </p><p><strong>课题制剂</strong> 你的多用途药瓶可以当作炼金植物使用：把药瓶掷向 20 尺内的一个方格，从而萌发出至多 4 个相连方格的草木。这些草木提供次级掩蔽，持续 1 分钟。若你在激发药瓶时与这些草木相邻，你可以把 @UUID[Compendium.sf2e.actions.ust1jJSCZQUhBZIz]{寻找掩蔽} 或 @UUID[Compendium.sf2e.actions.XMcnh4cSI32tljXa]{躲藏} 作为该激发的一部分。 </p><p><strong>课题发现（5 级）</strong> 当你激发一株炼金植物时，你可以选择在与你相邻的方格、用来激发该炼金植物的动作的目标所在方格，或它所影响的区域之中，制造一片 5 尺见方的困难地形（由 GM 裁定）。 </p><p><strong>进阶制剂（11 级）</strong> 你可以用多用途药瓶造出至多 8 个相连方格的草木，而非 4 个。 </p><p><strong>高等课题发现（13 级）</strong> 当你激发一株炼金植物时，由于它仍在生长，你可以在其被激发之后的 1 分钟内再次激发该植物一次。你获得该炼金植物的增益，如同你再次激发了它一般，包括使用作为该激发一部分的动作或活动。</p>"
+    },
+    "Honeyed Voice": {
+      "name": "蜜嗓 Honeyed Voice",
+      "description": "<p>这颗蜜球是在炼金调剂中熬煮而成的。含服时，它会柔化你的嗓音，令你的声音格外悦耳动听。持续至多 1 小时，当你运用嗓音时，你的表演检定获得 +2 物品加值。</p><p><strong>次要效果</strong> <span class=\"action-glyph\">2</span>（听觉）吞下这枚含片、任其在喉中融化，你便能唱出近乎惊人的美妙歌声。持续 1 分钟，当你为进行@UUID[Compendium.sf2e.actions.EEDElIyin4z60PXx]{演出}而掷表演检定时，你可以掷两次并取较高的结果。这是一个幸运效果。</p>"
+    },
+    "Draconic Steak": {
+      "name": "龙肉排 Draconic Steak",
+      "description": "<p><strong>激发</strong> 10 分钟（操作）</p><hr /><p>这道以龙兽血肉（或合成替代品）制成的肉排格外紧实，却又多汁。这份肉排会把巨龙的信息素掺入你的天然气味之中。激发肉排之后，你对以嗅觉作为不精确或精确感官的生物进行威吓检定时获得 +2 环境加值。具有嗅觉的动物除非被驱使，否则不太会攻击你（由 GM 裁定）。这些效果持续 24 小时，或直到你进行每日准备为止，以先到者为准。</p>"
+    },
+    "Spell Pyrophore (Moderate)": {
+      "name": "法术引火剂（中级） Spell Pyrophore (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +17 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[6d4[fire],6d4[spirit]]，并进行一次 @Check[fortitude|dc:28|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
+    },
+    "Electro-Magnetic Rod": {
+      "name": "电磁棒 Electro-Magnetic Rod",
+      "description": "<p>这根末端带有圆球的金属棒在握柄内部设有一个用于容纳蓄电的腔室。必须将共两瓶@UUID[Compendium.pf2e-anachronism.equipment.AFR01HVd7DcZvkpP]{瓶装闪电}装入握柄上的插槽，并清除棒身上的一切污染物与颗粒。以这种方式正确装填需要1分钟。按下已装填电磁棒上的按钮时，瓶装闪电的电力会被抽入末端的圆球，再导向一个生物。此棒造成的伤害由装入棒中最弱的那瓶瓶装闪电决定。</p><p><strong>激发</strong> <span class=\"action-glyph\">2</span> （电击、操作） <strong>需求</strong> 此棒已装填；<strong>效果</strong> 你将此棒指向一个目标，耗尽两瓶已装填的瓶装闪电，制造出一道闪电击中30尺内的一个目标；随后，除非最初目标的豁免为大成功，否则闪电会弧射至距最初目标15尺内的另一个生物。被闪电作为目标的生物承受电击伤害，其数值取决于装入棒中最弱的那瓶瓶装闪电，如下所述。基础反射豁免大失败的生物直到你的下回合开始前陷入@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}。</p><p><strong>次级瓶装闪电</strong>：此棒造成@Damage[1d6[electricity]]（@Check[reflex|dc:15|basic|options:area-damage] 豁免），并可在第一个目标之后再命中一个生物。</p><p><strong>中级瓶装闪电</strong>：此棒造成@Damage[2d6[electricity]]伤害（@Check[reflex|dc:17|basic|options:area-damage]豁免），并可在第一个目标之后再命中两个生物。</p><p><strong>高级瓶装闪电</strong>：此棒造成@Damage[6d6[electricity]]伤害（@Check[reflex|dc:28|basic|options:area-damage] 豁免），并可在第一个目标之后再命中三个生物。</p><p><strong>超级瓶装闪电</strong>：此棒造成@Damage[10d6[electricity]]伤害（@Check[reflex|dc:37|basic|options:area-damage] 豁免），并可在第一个目标之后再命中四个生物。</p>"
+    },
+    "Canopic Canister (Lesser)": {
+      "name": "卡诺皮克罐（次级） Canopic Canister (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这个陶土容器被充分摇晃并砸碎后会释放出一只僵尸。该僵尸朝你选择的方向蹒跚移动至多所列的距离，并持续所列的时间。这次移动之后它便保持不动；在它仍然存在的你的每个回合开始时，它对你选择的一个相邻生物尝试一次打击，且只要力所能及，它就必须攻击一个相邻生物。就与其他生物夹击而言，该僵尸视为一个生物，其等效生物等级等同于其物品等级。该僵尸视为不死生物，当它降至 0 生命值时被摧毁，且它的任何豁免检定都自动大失败。</p><p>该僵尸的体型介于小型与中型之间，移动至多 15 尺，攻击检定为 [[/r 1d20+8]]{+8}，造成 @Damage[2d6[bludgeoning]] 伤害。该生物持续 3 轮。<strong>AC</strong> 16；<strong>HP</strong> 40（虚空治疗）；<strong>免疫</strong> 流血、死亡效果、疾病、精神、麻痹、毒素、昏迷；<strong>弱点</strong> 挥砍 10、生机 10</p><p><strong>制作需求</strong> 提供一具生物等级等于或高于本物品等级的生物尸体。</p>"
+    },
+    "Alchemical Claw": {
+      "name": "炼金爪 Alchemical Claw",
+      "description": "<p>这套五枚金属爪固定在一只手套上，手套内缝有一套导管系统与一系列毒液储囊。你可以为炼金爪的储囊装入至多 3 份伤口类毒物，装满后即无法再加。当你使用注射特征时，你可以在已装入的各份毒物之间选择，以决定注入哪一种。</p>"
+    },
+    "Odoriferous Cheese (Lesser)": {
+      "name": "浓臭奶酪（次级） Odoriferous Cheese (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr><p>这块洗浸皮的牛奶奶酪经过炼金强化，气味浓烈得惊人。食用之后，这股冲击会在 1 分钟内大幅提升你的嗅觉。你的嗅觉成为射程 30 的模糊感官。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.4SVykCZ9dN535VlY]{效果：浓臭奶酪（次级）}</p>"
+    },
+    "Circumventing Agents": {
+      "name": "规避试剂 Circumventing Agents",
+      "description": "<p>你运用对生物解剖构造的知识来绕开它的伤害防护。你向炼金炸弹、炼金毒药，或能授予徒手攻击的突变药剂中混入额外试剂，赋予它绕过抗力的性质。选择一个距你 30 尺内、你已知晓其某项抗力的生物（通常来自一次回忆知识检定），并选定它的一种抗力。若你将此添加剂用于炸弹或毒药，它可无视等同于你等级的该项抗力。若你将此添加剂用于突变药剂，则该突变药剂的徒手攻击可无视等同于你等级一半的该项抗力。</p>"
+    }
+  }
+}

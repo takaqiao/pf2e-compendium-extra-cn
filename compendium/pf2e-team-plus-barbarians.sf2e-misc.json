@@ -1,0 +1,178 @@
+{
+  "label": "杂项（SF2e） Miscellaneous",
+  "entries": {
+    "Stand Firm": {
+      "name": "坚定立场 Stand Firm",
+      "description": "<p>你稳住脚步，变得极难被移动。如果这是一次遭遇的第一轮且你未超载、也未穿着重型护甲，你可以以自由动作使用「稳如磐石」。你将你的近战攻击的触及增加5尺，并在直到你下个回合开始前成为 @UUID[Compendium.sf2e.conditions.Item.eIcWbB5o3pP6OIMe]{禁足}。在你处于禁足期间，针对试图移动你的效果，就禁足的DC而言，你使用你的强韧DC作为该DC。</p><p><strong>特殊</strong> 若你拥有 @UUID[Compendium.pf2e-anachronism.class-features.Item.88Q33X2a0iYPkbzd]{强力狂暴} 职业特性，则当你以自由动作使用「稳如磐石」时，你在第一个回合中进行的第一次打击会造成等同于你的狂暴伤害的额外伤害。</p>"
+    },
+    "Effect: One With The Animal": {
+      "name": "效果：与兽合一 Effect: One With The Animal",
+      "description": "<p>你变成与你的本能相关联类型的一种动物，持续 1分钟。你在此形态下无法说话，也无法进行带有语言的动作，并且你的道具会被吸收到你体内；你的道具的恒定能力仍可运作，而你不能启动任何物品。你在此形态下获得动物、微光视觉，以及一种射程为 30尺的模糊感官嗅觉。你会保持此形态直到你解消效果。你可以在此形态下 @UUID[Compendium.pf2e-anachronism.actions.Ah5g9pDwWF9b9VW9]{狂暴}，若你这么做，则该效果结束，并在狂暴时恢复为你的正常形态。你获得你在狂暴时被授予的徒手攻击，但你将其伤害骰降低 2 个阶梯。若你的徒手攻击的伤害骰为 d6 或更低，则你在此形态下不会获得该徒手攻击。只要你处于此形态，你就获得下列列出的数据。</p><p><strong>蚂蚁、螳螂、蝎子、蜘蛛</strong>你的体型为超小型，拥有以射程 30尺的模糊感官表现的震动感知，并获得 30尺的攀爬速度。</p><p><strong>猿、熊、猫、蛇</strong>你的体型为中型，获得 30尺的攀爬速度，且你的嗅觉为精确感官而非模糊感官。</p><p><strong>甲龙、雷龙、象、霸王龙</strong>你的体型为大型，拥有 10尺触及，并且笨拙 1。</p><p><strong>蝙蝠、鸟、黄蜂</strong>你获得 30尺的飞行速度。</p><p><strong>野猪、公牛、鹿、独角兽</strong>你的速度获得 +20尺状态加值。</p><p><strong>螃蟹、青蛙、虎鲸、海豹、鲨鱼</strong>你获得 30尺的游泳速度，并且可以在水下呼吸。</p><p><strong>鳄鱼、海龟</strong>你获得 30尺的游泳速度，以及 AC 的 +1状态加值。</p><p><strong>迅猛龙、狼</strong>你的速度获得 +10尺状态加值，且你的嗅觉为精确感官而非模糊感官。</p>"
+    },
+    "Effect: Bolstered by the Ancestor": {
+      "name": "效果：受祖先鼓舞 Effect: Bolstered by the Ancestor",
+      "description": "<p><em>来自@UUID[Compendium.pf2e-team-plus-barbarians.sf2e-items.MuCPsDYkSMcI5Ukh]{受祖先鼓舞}。</em></p><hr /><p>若你在所选技能上为传奇，则你改为在狂暴时对所选技能获得+2状态加值。</p>"
+    },
+    "Effect: Protective Runes": {
+      "name": "效果：防护符文 Effect: Protective Runes",
+      "description": "<p>当你被可怕的重击击中时，你的符文会迅速飞向撞击点。作为反应动作，当你在狂暴时，你可以让自己对一次以你为目标的攻击获得AC+2环境加值。你必须在得知该次攻击的结果之前声明你正在使用你的反应动作。</p>"
+    },
+    "Effect: Walk With Spirits": {
+      "name": "效果：与灵同行 Effect: Walk With Spirits",
+      "description": "<p>你化为一个狂暴的灵体。你变为虚体，并获得等于你速度一半的飞行速度。当你选择将你的伤害改为灵魂伤害时，对有形生物的打击会如常影响有形生物，且你的狂暴抗力变为对所有伤害（除了力场）具有抗力。直到你的狂暴结束前，这些效果持续存在。</p>"
+    },
+    "Effect: Furious Concoction": {
+      "name": "效果：狂怒调合物 Effect: Furious Concoction",
+      "description": "<p>你创造出一份持续1分钟的狂怒调合物。狂怒调合物的效果与缺陷由随机决定：先掷一次[[/r d20]]以决定效果，然后再掷一次d20以决定缺陷。需要进行豁免的效果使用你的职业DC。</p><table><thead><tr><td style=\"width:7.5%\"><p style=\"text-align:center\">d20</p></td><td><p style=\"text-align:center\">效果</p></td><td><p style=\"text-align:center\">缺陷</p></td></tr></thead><tbody><tr><td style=\"padding-inline:4px\"><p style=\"text-align:center\">1</p></td><td style=\"padding-inline:4px\"><p><strong>灾厄酿剂</strong> 为第二个缺陷掷骰。忽略任何结果包含1或20的掷骰。</p></td><td style=\"padding-inline:4px\"><p><strong>可怕的缺陷</strong> 掷骰两次并承受2个缺陷。忽略任何结果包含1的掷骰。</p></td></tr><tr><td style=\"padding-inline:4px\"><p style=\"text-align:center\">2-4</p></td><td style=\"padding-inline:4px\"><p><strong>巨量生长</strong> 你变为巨型，触及增加10尺（若你原本为大型或更小），且你的装备随你一起增大体型。你在持续时间内为@UUID[Compendium.sf2e.conditions.i3OJZU2nk64Df3xm]{笨拙}。</p></td><td style=\"padding-inline:4px\"><p><strong>爆炸</strong> 你爆炸，对5尺放射范围内的所有生物（包括你自己）造成@Damage[10d6[fire]]伤害，进行一次@Check[basic:true|type:reflex|against:classDC]豁免。</p></td></tr><tr><td style=\"padding-inline:4px\"><p style=\"text-align:center\">5-7</p></td><td style=\"padding-inline:4px\"><p><strong>怪异之翼</strong> 你获得45尺飞行速度。</p></td><td style=\"padding-inline:4px\"><p><strong>麻木大脑</strong> 你在持续时间内为@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞}。</p></td></tr><tr><td style=\"padding-inline:4px\"><p style=\"text-align:center\">8-10</p></td><td style=\"padding-inline:4px\"><p><strong>额外肢体</strong> 获得一对额外的手臂来帮助你攻击。你所有攻击的多重攻击减值在第二次攻击时为-3（若为灵巧则为-2），第三次或后续攻击时为-6（若为灵巧则为-4）。</p></td><td style=\"padding-inline:4px\"><p><strong>陌生的解剖结构</strong> 当你以带有操作的行动时，你必须尝试一次DC 5纯骰检定，否则该行动失去。</p></td></tr><tr><td style=\"padding-inline:4px\"><p style=\"text-align:center\">11-13</p></td><td style=\"padding-inline:4px\"><p><strong>诡异之眼</strong> 你获得一个@UUID[Compendium.sf2e.spells.uqlxMQQeSGWEVjki]{真景术}法术的效果，其环阶等于你等级的一半，且其反制调整值等于你的职业DC - 10。</p></td><td style=\"padding-inline:4px\"><p><strong>你为什么要喝那个？！</strong> 在你停止狂暴前，你受到@Damage[2d8[persistent,poison]]伤害。</p></td></tr><tr><td style=\"padding-inline:4px\"><p style=\"text-align:center\">14-16</p></td><td style=\"padding-inline:4px\"><p><strong>钢铁之肤</strong> 你获得对所有物理伤害的抗力，数值等于你的狂暴抗力。</p></td><td style=\"padding-inline:4px\"><p><strong>细胞紊乱</strong> 你从带有治疗的法术或物品中恢复的生命值减半，持续1小时。</p></td></tr><tr><td style=\"padding-inline:4px\"><p style=\"text-align:center\">17-19</p></td><td style=\"padding-inline:4px\"><p><strong>喷吐武器</strong> 你获得一种喷吐武器，作为一个2行动行动，在一个@Template[distance:20|type:cone]中造成@Damage[15d6]伤害，进行一次@Check[basic:true|type:reflex|against:classDC]豁免。伤害类型为寒冷或火焰伤害，在你使用狂怒调合物时随机决定。在你使用喷吐武器后，你在[[/r 1d4]]轮内不能再次使用它。</p></td><td style=\"padding-inline:4px\"><p><strong>残破之躯</strong> 在此效果期间你第一次被重击时，你失去部分敏捷，AC承受–1减值，且所有你的速度承受–10尺状态减值。</p></td></tr><tr><td style=\"padding-inline:4px\"><p style=\"text-align:center\">20</p></td><td style=\"padding-inline:4px\"><p><strong>奇迹酿剂</strong> 掷骰两次并获得2个效果。忽略任何结果包含1或20的掷骰。</p></td><td style=\"padding-inline:4px\"><p><strong>令人惊讶的益处</strong> 为第二个效果掷骰。忽略任何结果包含1或20的掷骰。</p></td></tr></tbody></table>"
+    },
+    "Effect: Call the Ethereal Breach": {
+      "name": "效果：召唤以太裂隙 Effect: Call the Ethereal Breach",
+      "description": "<p>以太之物的短暂本质扎下根基。范围发散内的生物获得10尺飞行速度、@UUID[Compendium.sf2e.conditions.i3OJZU2nk64Df3xm]{笨拙}，以及等同于你等级的物理伤害抗力，除非该伤害将由具有@UUID[Compendium.pf2e-anachronism.equipment.JQdwHECogcTzdd8R]{幽冥}属性的武器或徒手攻击造成。</p>"
+    },
+    "Bolster Hope": {
+      "name": "鼓舞希望 Bolster Hope",
+      "description": "<p><strong>触发</strong> 一名敌人以一次打击将一名盟友作为目标，且你们双方都在你15尺范围内。</p><p><strong>需求</strong> 你未处于负重状态，且未穿着重型护甲。</p><hr><p>你在痛苦与毁灭面前鼓舞你的盟友。尝试进行一次 @Check[type:diplomacy|defense:will]{交涉} 检定，对抗该触发敌人的意志DC。</p><p><strong>大成功或大失败</strong> 该触发敌人对触发盟友的打击承受–2环境减值，且你的盟友获得 @UUID[Compendium.pf2e-team-plus-barbarians.sf2e-misc.Item.xVAGPe1NX6QEwQ7O]{振奋}。</p><p><strong>成功</strong> 同大成功或大失败，但环境减值为–1。</p><hr><p><strong>特殊</strong> 若你拥有 @UUID[Compendium.pf2e-anachronism.class-features.Item.88Q33X2a0iYPkbzd]{强力狂暴} 职业特性，则在一次遭遇中，你第一次对一名曾对你的某位盟友造成伤害的敌人进行打击时，你造成等同于你的狂暴伤害的额外伤害。</p>"
+    },
+    "Effect: Shattered Response": {
+      "name": "效果：破碎回应 Effect: Shattered Response",
+      "description": "<p>你的打击会造成额外伤害，数值等于该盾牌被摧毁时给予你的AC加值。如果你拥有高等武器专精，此额外伤害加倍。</p>"
+    },
+    "Effect: Furious Anatomy": {
+      "name": "效果：狂怒解剖学 Effect: Furious Anatomy"
+    },
+    "Protective Runes": {
+      "name": "防护符文 Protective Runes",
+      "description": "<p>当你遭受可怕的重击时，你的符文会迅速飞向冲击点。作为反应动作，你可以在狂暴期间，对一次以你为目标的单次打击使自己获得AC+2环境加值。你必须在知道该次打击结果之前声明你正在使用你的反应动作。</p>"
+    },
+    "Effect: Call of the Ancestor": {
+      "name": "效果：先祖的呼唤 Effect: Call of the Ancestor"
+    },
+    "Effect: Destined Kill Fulfilled": {
+      "name": "效果：命定之杀已实现 Effect: Destined Kill Fulfilled",
+      "description": "<p>如果你将你命中注定要杀死的目标降至0 生命值，你的姿态立即结束，并且你获得等同于你等级的临时生命值，持续至你狂暴结束为止。如果该生物高于你的等级，你还会在狂暴结束前获得对意志豁免的 +2状态加值。</p>"
+    },
+    "Wildblood Spellcasting": {
+      "name": "狂野血统施法 Wildblood Spellcasting",
+      "description": "<p>你获得施法（行动）的许可，但对你而言，除非你从其他来源获得施法（行动）的许可（例如多职业献身专长），否则它带有狂暴。你从此职业变体及其专长获得的法术获得狂暴。你在你根源的法术的法术攻击掷骰与法术DC上为受训。到第9等级，你的法术攻击调整与法术DC的熟练度等级提升至专家；到第17等级，你的法术攻击调整与法术DC的熟练度等级提升至大师。你的狂暴法术的关键施法能力为魅力。为了学习新法术，你将你的血统法术视为你根源的法术。你不会从你所选择的血统中获得任何其他能力。</p><p>每日，你可以施放一个1环法术和三个戏法。你必须已知晓法术才能施放它们，并通过法术储备职业特性学习它们。你每日能施放的法术数量称为你的法术储备。随着你作为野蛮人等级的提升，你血统中的魔法会赐予你额外且更强大的法术位。你的法术位总数以及你能施放的最高环法术在下表中列出。由于你的血狂暴期间会释放大量魔法能量，你的最高环法术位不超过两个；并且若你能施放2环或更高环法术，则你还拥有两个比你最高法术环低1环的法术位。你仍然可以通过此变体授予的专长获得额外法术位。</p><p>你可以花费1分钟进入专注状态，使你即使未处于狂暴中也能使用施法（行动）来施放一个带有狂暴的法术。此心境持续到你施放（行动）、狂暴，或因任何原因陷入无力状态之后（以先发生者为准）。</p><table class=\"pf2e\"><thead><tr><th>你的等级</th><th>戏法</th><th>1环</th><th>2环</th><th>3环</th><th>4环</th><th>5环</th><th>6环</th><th>7环</th><th>8环</th><th>9环</th><th>10环</th></tr></thead><tbody><tr><td>1</td><td>5</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>2</td><td>5</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>3</td><td>5</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>4</td><td>5</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>5</td><td>5</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>6</td><td>5</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>7</td><td>5</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>8</td><td>5</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>9</td><td>5</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>10</td><td>5</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>11</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>12</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>13</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td></tr><tr><td>14</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td></tr><tr><td>15</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td></tr><tr><td>16</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td></tr><tr><td>17</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td></tr><tr><td>18</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td></tr><tr><td>19</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td></tr><tr><td>20</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td></tr></tbody></table>"
+    },
+    "Stance: Destined Kill": {
+      "name": "架势：命定杀戮 Stance: Destined Kill",
+      "description": "<p>你对所选敌人的攻击掷骰获得+1环境加值，并对其处于@UUID[Compendium.sf2e.conditions.Item.AdPVz7rbaVSRxHFg]{迷魂}状态。你对除目标以外的生物进行攻击掷骰时承受–1环境减值。若你对你命定之杀的目标以外的生物采取敌对动作，你立即结束你的架势，除非这些动作是与目标交战所必需的，例如尝试摆脱受擒状态（由GM酌情决定）。</p><p>如果你将你的命定之杀降至0生命值，你的架势立即结束，你获得等同于你等级的临时生命值，并持续到你不再狂暴为止。如果该生物的等级高于你的等级，你还会在狂暴结束前获得+2状态加值于意志豁免。</p><p>@UUID[Compendium.pf2e-team-plus-barbarians.sf2e-misc.Item.NmoeGOyv73LeJbjr]{效果：命定之杀已实现}</p>"
+    },
+    "Effect: Wildblood Infusion": {
+      "name": "效果：野血灌注 Effect: Wildblood Infusion",
+      "description": "<p>如果你施放法术，你的近战打击在你下个回合结束前造成额外的狂暴伤害，并且如果该法术造成了伤害，你的额外伤害的伤害类型变为与该法术的伤害相同。如果该法术造成多种伤害类型，当该法术的伤害结算时，你选择你的打击获得哪一种伤害类型。</p>"
+    },
+    "Furious Cacophony": {
+      "name": "狂怒喧嚣 Furious Cacophony",
+      "description": "<p><strong>需求</strong> 你未处于负重状态，且未穿着重型护甲。</p><hr><p>你放声高歌或奏响乐曲，其威势足以撼动对手的灵魂深处。当你释放出这道狂暴的音爆时，@Template[type:cone|distance:15] 内的所有生物都必须进行一次 @Check[type:fortitude|dc:performance] 豁免，对抗你的表演DC，并依结果承受 @Damage[max(1, @actor.level - 3)d6[sonic]] 伤害。如果此刻是一场遭遇的第一轮，你可以将狂暴作为此活动的一部分进行，且此活动获得繁艺特征。在3级以及之后的每个等级，你的喧嚣伤害增加1d6。</p><p><strong>大成功</strong> 你造成双倍伤害，且该生物在1轮内@UUID[Compendium.sf2e.conditions.Item.9PR9y0bi4JPKnHPR]{耳聋}并@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}。</p><p><strong>成功</strong> 你造成全额伤害，且该生物在1轮内耳聋。</p><p><strong>失败</strong> 你造成一半伤害。</p><p><strong>大失败</strong> 该生物不受影响。</p><hr><p><strong>特殊</strong> 若你拥有 @UUID[Compendium.pf2e-anachronism.class-features.88Q33X2a0iYPkbzd]{强力狂暴} 职业特性，则当你使用狂怒喧嚣时，你可以选择创造一个 @Template[type:cone|distance:30]，而非一个15尺锥形。</p>"
+    },
+    "Cold Judgement": {
+      "name": "冷酷审判 Cold Judgement",
+      "description": "<p>你冷酷地以无情审判你的敌人，因为无情即是对你自己的仁慈。如果这是一次遭遇的第一轮，且你未处于负荷状态，也未穿着重型护甲，你可以将冷酷审判作为自由动作使用。掷骰一次察觉检定以 @UUID[Compendium.sf2e.actions.Item.BlAOM2X92SI6HMtJ]{搜索}，并将其与当前遭遇中一个你并未对其处于无踪状态的敌人的 [[/act seek dc=deception]]{欺瞒 DC}、[[/act seek dc=stealth]]{潜行 DC}，或其等级的标准 DC（取其中较高者）进行比较。除你搜索的正常结果外，你的搜索还会获得以下效果。</p><p><strong>大成功或大失败</strong> GM 从以下关于该敌人的信息中选择两条告诉你：该敌人最高的弱点是哪一种、该敌人哪一种豁免的调整值最低、该敌人拥有的一项免疫、或该敌人最高的抗力是哪一种。若出现并列，GM 应随机选择其一。在你获得这些信息后，该敌人在 1小时内免疫你的冷酷审判。</p><p><strong>成功</strong> 同大成功或大失败，但 GM 只从上述列表中选择一条信息告诉你。</p><hr><p><strong>特殊</strong> 若你拥有 @UUID[Compendium.pf2e-anachronism.class-features.Item.88Q33X2a0iYPkbzd]{强力狂暴}职业特性，当你将冷酷审判作为自由动作使用时，你在自己第一回合中进行的第一次打击造成等同于你狂暴伤害的额外伤害。</p>"
+    },
+    "Breach Blow": {
+      "name": "破界重击 Breach Blow",
+      "description": "<p>你的打击强大到足以撼动现实的织构，并唤出你所在位面的残余。你进行一次近战打击，并在一个必须包含你此次打击之目标的 @Template[distance:10|type:cone] 内制造虚幻的困难地形；在这次打击中，你对其获得来自你的狂暴的任何伤害加值。该困难地形持续到你下个回合结束。一名生物在使用一次[[/act seek]]动作后，或以其他方式花费动作与幻象交互，并进行一次察觉检定对抗你的职业DC后，可以如常尝试识破该效果。若其成功识破，则在剩余持续时间内无视该效果，但之后每次使用「破界重击」都必须分别进行识破。</p>"
+    },
+    "Effect: Body Bludgeon": {
+      "name": "效果：躯体钝击 Effect: Body Bludgeon",
+      "description": "<p><em>来自@UUID[Compendium.pf2e-team-plus-barbarians.sf2e-items.NuVhLGH5kPGQLtMo]{躯体钝击}</em></p><hr /><p>你获得一次徒手打击，其数据取决于该被擒拿或被束缚生物的体型。</p>"
+    },
+    "Effect: Invigorating Speech": {
+      "name": "效果：振奋演说 Effect: Invigorating Speech",
+      "description": "<p>如果该生物在接下来1小时内进入一场与你的演讲相关的遭遇，则它在大成功或大失败时获得15点临时生命值，或在成功时获得10点临时生命值，并且对抗死亡与恐惧效果的豁免获得+2状态加值，持续1分钟。</p>"
+    },
+    "Effect: Stand Firm": {
+      "name": "效果：坚定立场 Effect: Stand Firm",
+      "description": "<p>你将你的近战攻击的触及增加5尺，并在直到你下个回合开始前成为 @UUID[Compendium.sf2e.conditions.Item.eIcWbB5o3pP6OIMe]{禁足}。在你处于禁足期间，针对试图移动你的效果，就禁足的DC而言，你使用你的强韧DC作为该DC。</p>"
+    },
+    "Spell Repertoire (Wildblood)": {
+      "name": "法术库（狂血） Spell Repertoire (Wildblood)",
+      "description": "<p>你能够施放的法术集合称为你的法术剧目。在1级时，你学会两个你选择的1环法术和三个戏法，其中两个可自由选择，另一个由你的血统决定。你从与你血统相对应的根源的常见法术、你血统的巫术赋礼法术，或该根源中你拥有许可的其他法术中进行选择。如果你从血统获得的法术可以被维持，则该法术的维持动作获得狂暴。你可以通过使用一个适当法术环位的法术位来施放你法术剧目中的任何法术。你的法术位与法术剧目中的法术是分开的。如果某个专长或其他能力将一个法术加入你的法术剧目，它不会给予你额外的法术位，反之亦然。</p><p>随着你等级提升，你会将更多法术加入该法术剧目。每当你获得一个法术位时，你就将一个同环位的法术加入你的法术剧目。在2级时，你再选择一个1环法术。在3级时，你将第一个2环法术加入你的剧目。在4级时，你获得第二个2环法术，你的法术剧目达到其最大体量，为五个法术。</p>"
+    },
+    "War Rune Pocket": {
+      "name": "战斗符文口袋 War Rune Pocket",
+      "description": "<p>你的符文扭曲变形为武器，你可以让它们从虚无中出现在你手中。选择一把你熟练的简易、军用或高级武器。</p><p>你可以交互以将所选武器存放在你的某个纹身中并将其取回。</p><p>你可以交互从你的纹身中抽出这把武器，然后以单动作使用它进行打击。</p>"
+    },
+    "Furious Anatomy": {
+      "name": "狂怒解剖学 Furious Anatomy",
+      "description": "<p><strong>触发</strong> 一个相邻的敌人对你造成伤害。</p><hr /><p>你不同寻常的解剖结构会以同样方式回应该生物。触发的敌人必须尝试进行一次对抗你的职业DC的 @Check[type:will|basic:true|against:classDC] 豁免，否则受到 @Damage[(floor(@actor.level/2) + @actor.system.abilities.con.mod)[@actor.flags.sf2e.fleshInstinct.damageType]] 伤害，数值等于你等级的一半加上你的体质调整值。豁免失败的生物还会承受你血肉显现所列出的效果；豁免大失败的生物还会受到 @Damage[(1 + floor((@actor.level + 1) / 3))[persistent,@actor.flags.sf2e.fleshInstinct.bleedDamage]] 伤害。该持续伤害在4级时增加1点，并在之后每3个等级再增加1点。伤害类型由你的血肉显现决定，并且该反应动作获得所列出的特征。若你的狂怒解剖学的伤害类型为物理伤害，则持续伤害为流血伤害。所列出的效果持续至你下个回合结束。</p><p><strong>翻涌孔口</strong> 该生物获得 @UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞}。</p><p><strong>胡言乱语之口</strong> 该生物获得 @UUID[Compendium.sf2e.conditions.9PR9y0bi4JPKnHPR]{耳聋}。</p><p><strong>触手丝缕</strong> 该生物获得 @UUID[Compendium.sf2e.conditions.i3OJZU2nk64Df3xm]{笨拙}。</p><p><strong>长舌喙突</strong> 该生物获得 @UUID[Compendium.sf2e.conditions.MIRkyAjyBeXivMa7]{力竭}。</p><p><strong>不眨之眼</strong> 该生物获得 @UUID[Compendium.sf2e.conditions.TkIyaNPgTZFBCCuh]{目眩}。</p><p><strong>扭曲痉挛</strong> 该生物因你而处于 @UUID[Compendium.sf2e.conditions.AdPVz7rbaVSRxHFg]{迷魂}；你对该生物采取的敌对动作不会结束此迷魂，但你的盟友对其采取的敌对动作仍会结束该迷魂。</p><p>@UUID[Compendium.pf2e-team-plus-barbarians.sf2e-misc.FkF29ynszmKcnWYX]{效果：狂怒解剖学}</p>"
+    },
+    "Welcome Misery": {
+      "name": "欢迎苦难 Welcome Misery",
+      "description": "<p>你拥抱自身的痛苦，将其作为振奋的手段。若这是遭遇的第一轮，且你未处于负载或穿着重型护甲，你可以将「欢迎苦难」作为自由动作使用。你受到等同于@Damage[max(1,@actor.level/2)]{你等级的一半}（最低 1）的伤害。此伤害无法以任何方式减免或避免。直到你下个回合开始，你对抗听觉效果的状态加值加倍，且你忽略由惊惧导致的、对你攻击掷骰的状态减值。</p><p><strong>特殊</strong> 若你拥有@UUID[Compendium.pf2e-anachronism.class-features.Item.88Q33X2a0iYPkbzd]{强力狂暴}职业特性，当你将「欢迎苦难」作为自由动作使用时，你在自己第一回合内进行的第一次打击会造成等同于你狂暴伤害的额外伤害。</p>"
+    },
+    "Effect: Spirit Empathy": {
+      "name": "效果：灵魂共感 Effect: Spirit Empathy",
+      "description": "<p>你拥有与周遭灵体沟通的非凡本领。在接下来的1小时内，当附近的灵体协助你完成目标时，你可以以+1状态加值使用@UUID[Compendium.sf2e.actions.EwgTZBWsc8qKaViP]{调查}与@UUID[Compendium.sf2e.actions.TiNDYUGlMmxzxBYU]{搜索}活动。若在此期间你与灵体或作祟之物进入遭遇，你的先攻检定获得+2环境加值。若你拥有武器专精，该状态加值提高至+2；若你拥有高等武器专精，则提高至+3。</p>"
+    },
+    "Mad Science": {
+      "name": "疯狂科学 Mad Science",
+      "description": "<p><strong>消耗</strong> 1 个多用小瓶</p><p><strong>需求</strong> 你正穿戴一件装置，且其中至少存放了 1 个多用小瓶。</p><hr /><p>你的装置启动你突变剂的凝结，将其直接注入你的身体。你制造并立即消耗 1 个你配方簿中、等级不高于你自身等级的炼金突变剂，且无需花费通常的炼金原材料金钱成本，也无需尝试一次制作检定。该物品具有灌注。</p>"
+    },
+    "Effect: Runic Metal": {
+      "name": "效果：符文金属 Effect: Runic Metal"
+    },
+    "Effect: Reckless Rage": {
+      "name": "效果：鲁莽狂暴 Effect: Reckless Rage",
+      "description": "<p>你以鲁莽的狂暴透支自己，使你从凡人变为怒火的化身。</p><p>你进入狂暴，并获得以下额外效果：</p><ul><li><p>你获得对你的野蛮人职业DC的+2状态加值。</p></li><li><p>你的豁免检定和AC承受–1减值。</p></li><li><p>你将来自狂暴抗力的抗力翻倍。</p></li><li><p>你在结束狂暴后1小时内处于@UUID[Compendium.sf2e.conditions.Item.HL2l2VRSaQHu9lUw]{疲乏}状态。</p></li></ul><p><strong>特殊</strong> 若你拥有血怒者或狂野之血本能，则你改为获得对你的法术攻击调整和法术DC的+2状态加值，而非对你的野蛮人职业DC的加值。</p>"
+    },
+    "Raging Stride": {
+      "name": "狂怒奔行 Raging Stride",
+      "description": "<p><strong>需求</strong> 该生物是从不羁本能获得的动物伙伴。</p><hr><p>你的动物伙伴释放其内心野兽并投入战斗。你的动物伙伴使用 @UUID[Compendium.pf2e-anachronism.actions.Ah5g9pDwWF9b9VW9]{狂暴}，然后立即向你或一名敌人疾行。</p>"
+    },
+    "Whirling Advance": {
+      "name": "旋风突进 Whirling Advance",
+      "description": "<p><strong>需求</strong> 你未处于负载状态，且未穿着重型护甲。</p><hr /><p>你以武器与凶猛交织成的旋风逼近你的敌人。选择你30尺内的一名敌人，然后尝试一次对抗目标意志DC的 @Check[type:acrobatics|defense:will]{杂技} 检定。然后你进行跨步。</p><p>如果你的检定成功，则就夹击所选生物而言，你在移动期间所占据的任何方格都被视为已被占据，直到你下个回合开始。</p>"
+    },
+    "Effect: Victorious Runes": {
+      "name": "效果：胜利符文 Effect: Victorious Runes",
+      "description": "<p>当你对一个生物造成重击时，你获得等于你的等级加上你的力量调整值的临时生命值，持续1轮。</p>"
+    },
+    "Effect: Welcome Misery": {
+      "name": "效果：欢迎苦难 Effect: Welcome Misery",
+      "description": "<p>直到你下一回合开始前，你对抗听觉效果的状态加值翻倍，并且你无视因惊惧而对你的攻击掷骰造成的状态减值。</p>"
+    },
+    "Effect: Legacy Unravels": {
+      "name": "效果：传承瓦解 Effect: Legacy Unravels",
+      "description": "<p>你唤起自身传承的力量，你的遗痕武器获得你选择的一个武器符文的增益：@UUID[Compendium.pf2e-anachronism.equipment.Wm0X7Pfd1bfocPSv]{侵蚀}、@UUID[Compendium.pf2e-anachronism.equipment.XszNvxnymWYRaoTp]{炽焰}、@UUID[Compendium.pf2e-anachronism.equipment.M5M1WJ5KzbYfRGsY]{霜冻}、@UUID[Compendium.pf2e-anachronism.equipment.JQdwHECogcTzdd8R]{幽冥}、@UUID[Compendium.pf2e-anachronism.equipment.qlunQzfnzPQpMG6U]{回力}、@UUID[Compendium.pf2e-anachronism.equipment.NVst7e69agGG9Qwd]{电击}或@UUID[Compendium.pf2e-anachronism.equipment.dTxbaa7HSiJbIuNN]{雷鸣}。该符文会持续到你不再狂暴或你不再持用你的遗痕武器为止。若你将要给予一把武器的属性符文数量超过其正常上限，则其中一个现有的属性符文（由你选择）会被压制，直到你解消该效果或该效果结束。</p><p>若你至少为15级，将锋锐加入你可选择的符文列表，并且也可以选择@UUID[Compendium.pf2e-anachronism.equipment.vQUIUAFOTOWj3ohh]{侵蚀}、@UUID[Compendium.pf2e-anachronism.equipment.Item.RSZwUlCzUX7Nb4UA]{炽焰}、@UUID[Compendium.pf2e-anachronism.equipment.Item.Sexud7FdxIrg50vU]{霜冻}、@UUID[Compendium.pf2e-anachronism.equipment.Item.TEa1oKZbwsOvC6TZ]{电击}以及@UUID[Compendium.pf2e-anachronism.equipment.Item.Lb7F2BR9X9TF1vjX]{雷鸣}的强效类型。</p>"
+    },
+    "Giddy Step": {
+      "name": "欢快步伐 Giddy Step",
+      "description": "<p><strong>触发</strong> 你在一次近战打击中成功。</p><p><strong>需求</strong> 你未处于负荷状态且未穿着重型护甲。</p><hr><p>你的打击让你感到热情的喜悦，令你想要移动。你踏步进入一个方格，使触发的目标仍在你的触及范围内。</p><p><strong>特殊</strong> 如果你拥有@UUID[Compendium.pf2e-anachronism.class-features.Item.88Q33X2a0iYPkbzd]{强力狂暴}职业特性，则你在第一个回合中进行的第一次打击造成等同于你的狂暴伤害的额外伤害。</p>"
+    },
+    "Stalking Stroke": {
+      "name": "潜行突刺 Stalking Stroke",
+      "description": "<p>你以无声的机敏接近敌人，以近乎不可能的隐蔽性靠近。你对一名你能看见的敌人进行 @UUID[Compendium.sf2e.actions.Item.VMozDqMMuK5kpoX4]{潜行}。若你在移动结束时具备进行一次打击的能力，且该打击对该敌人会造成你从狂暴获得的额外伤害，则你可以对该敌人进行一次打击。若你选择进行一次打击，且你的隐匿检定超过所选敌人的察觉DC，则在你的打击之后之前，你对该敌人处于隐藏状态。</p>"
+    },
+    "Furious Stride": {
+      "name": "狂怒奔袭 Furious Stride",
+      "description": "<p>你将身体逼至极限以获得速度提升。若你接下来使用的下一个动作或行动包含一次疾行，则该次疾行获得狂暴，且你必须进行一次 @Check[type:fortitude|dc:@self.level|adjustment:5] 豁免，对抗等同于你等级的困难DC。</p><p><strong>大成功或大失败</strong> 你的下一次疾行的速度增加10尺。</p><p><strong>成功</strong> 同大成功或大失败，但你的下一次疾行的速度增加5尺。</p><p><strong>失败</strong> 在你完成疾行后，你的速度在1轮内承受–5尺的状态减值。</p><p><strong>大成功或大失败</strong> 同失败，但该减值为–10尺的状态减值。</p>"
+    },
+    "Effect: Revitalizing Blood": {
+      "name": "效果：复苏之血 Effect: Revitalizing Blood",
+      "description": "<p><em>来自 @UUID[Compendium.pf2e-team-plus-barbarians.sf2e-items.Item.cl8TzbIe9JTyRFPH]{复苏之血}。</em></p>"
+    },
+    "Effect: Bolster Hope": {
+      "name": "效果：鼓舞希望 Effect: Bolster Hope",
+      "description": "<p>触发的敌人对触发的盟友进行打击时承受–2/–1环境减值。</p>"
+    },
+    "Effect: Invigorated": {
+      "name": "效果：振奋 Effect: Invigorated",
+      "description": "<p>给予你所选表达式的振奋效果。 </p><p>你每轮不能获得振奋加值超过一次。若你拥有 @UUID[Compendium.pf2e-anachronism.class-features.Item.qMtyQGUllPdgpzUo]{狂暴复苏} 职业特性，则临时生命值的数量等于你从狂暴中正常会获得的数量。 </p><p>当你的临时生命值降至0时，删除此效果。</p>"
+    },
+    "Effect: Heedless Swig": {
+      "name": "效果：鲁莽痛饮 Effect: Heedless Swig",
+      "description": "<p>你获得+1对伤害的状态加值，持续时间为2轮外加等于该物品等级一半的轮数。如果你为7级，该对伤害的状态加值提升至+2；如果你为15级，则提升至+4。</p><hr /><p><strong>FoundryVTT 注记 </strong>手动编辑持续时间，以包含来自物品等级一半的额外持续时间。</p>"
+    },
+    "Cleave+": {
+      "name": "顺势斩+ Cleave+",
+      "description": "<p><strong>触发</strong> 你的近战打击杀死一个生物或使其失去意识，且另一名敌人处于你一次近战打击的触及范围内。</p><hr><p>你挥击贯穿一名敌人，顺势砍向另一名。对第二名敌人进行一次近战打击。</p>"
+    },
+    "Great Cleave+": {
+      "name": "强力顺势斩+ Great Cleave+",
+      "description": "<p>你的狂怒带着你的武器贯穿多名敌人。你每回合第一次@UUID[Compendium.pf2e-anachronism.feats.Item.GE96a0UGPYM74qjI]{顺势斩}时，你的多重攻击减值不会增加。当你顺势斩时，如果你的打击同样杀死了目标或使其失去意识，你可以继续进行近战打击，直到你进行的某次打击未能杀死生物也未使其失去意识，或直到你的近战触及范围内没有生物为止，以先发生者为准。</p>"
+    }
+  }
+}

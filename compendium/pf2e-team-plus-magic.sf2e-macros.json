@@ -1,0 +1,50 @@
+{
+  "label": "宏（SF2e） Macros",
+  "entries": {
+    "Summon Celestial Aspect": {
+      "name": "召唤天界层面 Summon Celestial Aspect"
+    },
+    "Summon Entity Aspect": {
+      "name": "召唤实体层面 Summon Entity Aspect"
+    },
+    "Summon Fiend Aspect": {
+      "name": "召唤魔类层面 Summon Fiend Aspect"
+    },
+    "Summon Dragon Aspect": {
+      "name": "召唤龙族层面 Summon Dragon Aspect"
+    },
+    "Summon Monitor Aspect": {
+      "name": "召唤监督层面 Summon Monitor Aspect"
+    },
+    "Summon Ooze Aspect": {
+      "name": "召唤黏液层面 Summon Ooze Aspect"
+    },
+    "Summon Fey Aspect": {
+      "name": "召唤精类层面 Summon Fey Aspect"
+    },
+    "Summon Animal Aspect": {
+      "name": "召唤动物层面 Summon Animal Aspect"
+    },
+    "Summon Plant Aspect": {
+      "name": "召唤植物层面 Summon Plant Aspect"
+    },
+    "Summon Construct Aspect": {
+      "name": "召唤构装层面 Summon Construct Aspect"
+    },
+    "Summon Undead Aspect": {
+      "name": "召唤不死层面 Summon Undead Aspect"
+    },
+    "Summon Thurse Aspect": {
+      "name": "召唤霜巨层面 Summon Thurse Aspect"
+    },
+    "Summon Elemental Aspect": {
+      "name": "召唤元素层面 Summon Elemental Aspect"
+    },
+    "Create Aspect": {
+      "name": "创造层面 Create Aspect"
+    },
+    "Advance Essence": {
+      "name": "推进精质 Advance Essence"
+    }
+  }
+}

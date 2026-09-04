@@ -1,20 +1,34 @@
 {
-    "label": "投骰表 Roll Tables",
-    "folders": {},
-    "entries": {
-        "Fortune Reader": {
-            "name": "占卜师 Fortune Reader",
-            "description": "",
-            "results": {
-                "1": "重投一次，但只能选择其中一组掷骰作为你下一次结果",
-                "20": "掷两次，将两组掷骰都加入触发你反应的事件中",
-                "14-16": "远程攻击骰与察觉「搜索」检定",
-                "5-7": "反射豁免骰与巧手检定",
-                "11-13": "法术攻击骰与技能检定",
-                "2-4": "近战攻击骰与运动检定",
-                "17-19": "意志豁免骰与外交检定",
-                "8-10": "强韧豁免骰与恢复检定"
-            }
+  "label": "投骰表 Roll Tables",
+  "entries": {
+    "Fortune Reader": {
+      "name": "占卜师 Fortune Reader",
+      "results": {
+        "DRGBOLNBKkK92SaW": {
+          "description": "远程攻击掷骰，以及用于搜索的察觉检定"
+        },
+        "H4vohWnth5UIqhXM": {
+          "description": "反射豁免与盗术检定"
+        },
+        "ILbxMvXhx1UOkEgh": {
+          "description": "重新掷骰，你的下一个结果只选取其中一次掷骰"
+        },
+        "KvAOC1QfXwh0Xom8": {
+          "description": "法术攻击掷骰与技能检定"
+        },
+        "PMKpBwPCESrtUANq": {
+          "description": "近战攻击掷骰与运动检定"
+        },
+        "YMomHlrvPq7mp5fn": {
+          "description": "意志豁免与交涉检定"
+        },
+        "jbI3Ja3gNffraEHq": {
+          "description": "强韧豁免与恢复检定"
+        },
+        "yogvmjW39VJ4tEDf": {
+          "description": "掷两次，将两组掷骰都加入你反应的触发条件"
         }
+      }
     }
+  }
 }

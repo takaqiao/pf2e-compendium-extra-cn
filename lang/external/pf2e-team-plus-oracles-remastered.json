@@ -1,0 +1,161 @@
+{
+  "PF2E": {
+    "TEAMPLUS": {
+      "ORACLES": {
+        "Prompt": {
+          "Cursebound": "选择你的咒缚值。",
+          "BodyOfTheBeastSecond": "选择另一项特征，或将其中一项的骰子尺寸提高一级。",
+          "WishfulThinking": {
+            "First": "选择一项增益。",
+            "Second": "选择第二项增益。"
+          },
+          "ComfortOfStruggle": "选择一种效果。",
+          "Heritage": "选择一个传承。",
+          "SpeakInTongues": "选择一种语言。",
+          "GoldenTouch": "选择该法术的目标。",
+          "Vision": "选择一个异象。",
+          "Curio": "选择一件奇物。",
+          "Armour": "选择一件护甲。",
+          "Toolkit": "选择一套工具，或一件与某项技能动作相关的物品。"
+        },
+        "Label": {
+          "Cursebound1OrNot": "咒缚 1 级或未处于咒缚",
+          "NotCursebound": "未处于咒缚",
+          "Cursebound1": "咒缚 1 级",
+          "Cursebound2": "咒缚 2 级",
+          "Cursebound3": "咒缚 3 级",
+          "MonstrousChangeEmotion": "怪物变形之咒（对抗情绪效果）",
+          "MindsEyeWinkUsingItem": "心眼一瞬（使用目标物品时）",
+          "WishfulThinking": {
+            "SpellModToDeception": "法术攻击调整值之差",
+            "BonusToAttack": "攻击骰与豁免骰的加值",
+            "BonusToSkill": "指定技能检定的加值",
+            "ClimbSpeed": "30 尺攀爬速度",
+            "SwimSpeed": "30 尺游泳速度",
+            "FlySpeed": "30 尺飞行速度"
+          },
+          "ComfortOfStruggle": {
+            "Bonus": "法术攻击加值",
+            "Penalty": "豁免骰减值"
+          },
+          "AllSeer": {
+            "Title": "高阶 (+1)",
+            "Text": "距离增加 250 尺。"
+          },
+          "UrgeClemency": "劝慈（你或盟友最近威胁或伤害过该目标）",
+          "Automummification": "自你施放自我木乃伊化以来，目标生物没有看到你移动过",
+          "GoldenTouch": {
+            "Creature": "生物",
+            "Object": "物件",
+            "CreaturesObject": "由生物持有的物件",
+            "WhileUsing": "点石成金（使用该物件时）"
+          },
+          "MoonlitFolly": "月亮可见",
+          "VisionOfWeepingHeart": {
+            "Desc": "改为将 @UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.QlTyEcU2SubiAYXQ]{效果：救赎一瞥（泣心）} 授予该盟友。",
+            "AwakenedStateTitle": "觉醒状态",
+            "AwakenedStateText": "当敌人拒绝通过救赎一瞥获得救赎时，你可以选择不使其力竭 2 级，而是使目标 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2 级} 相同的持续时间。",
+            "Cursebound3Title": "咒缚 3 级",
+            "Cursebound3Text": "如果该敌人拒绝，它受到 @Damage[(@actor.abilities.cha.mod)[spirit,persistent]] 伤害。",
+            "Cursebound4Title": "咒缚 4 级",
+            "Cursebound4Text": "你获得一个额外反应，且只能用于救赎一瞥。"
+          },
+          "TheVisionIsClear": "被你读取未来的敌人本会令你措手不及",
+          "PerfectUnderstanding": "位于你先见之灵气中的敌人本会令你措手不及",
+          "WeaponCurioFirstStrike": "对先见之灵气内敌人的第一次打击",
+          "CharmCurioRollTwiceOnReflex": "下一次反射豁免掷两次骰",
+          "UtensilQuickAlchemy": "器皿奇物 —— 使用由高速炼金创造的物品",
+          "FractalFrosting": {
+            "6th": "在 @UUID[Compendium.pf2e-team-plus-oracles-remastered.items.Item.UmP8nuC0f2DiMZOB]{分形结霜} 的持续时间内，你可以以 60 尺射程施放冻伤术，并以射程内至多三个不同目标为目标。你在每个目标周围的 @Template[emanation|distance:5] 范围内制造困难地形，持续 1 轮。",
+            "9th": "在持续时间内，当你施放冻伤术时，目标在失败时于 1 轮内对速度承受 –5 尺状态减值，大失败时则对速度承受 –15 尺状态减值。@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.OPBNdJPRJgcGVqp1]{效果：分形结霜}"
+          },
+          "SelfStitchingWoundsConditions": "只要你至少处于咒缚 2 级，且在遭遇中保持清醒，此效果就持续。",
+          "HideFromDoom": {
+            "Normal": "常规抗力",
+            "Double": "双倍抗力"
+          }
+        },
+        "Note": {
+          "CrypticMurmurings": {
+            "CriticalSuccess": "你的 GM 会警示你即将到来的遭遇或危险；例如，若你的低语是「壳行于阶」，你便会得知有一名墓骑士正潜伏在附近的楼梯间。你获得对该遭遇或危险中某个生物或主题进行回忆知识大成功的效果。只要相关遭遇发生在接下来一天之内，你与你的盟友对其先攻获得 +2 环境加值。@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.uARfEyHX1ni4NSHM]{效果：晦涩低语}",
+            "Success": "你得知该谜语的两种解读，一种正确，一种错误。例如「壳行于阶」既可能暗示墓骑士，也可能是指一只在该区域巡逻的蟹形贾托尔。只要相关遭遇发生在接下来一天之内，你与你的盟友对其先攻获得 +1 环境加值。@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.uARfEyHX1ni4NSHM]{效果：晦涩低语}",
+            "Failure": "你未能解读该谜语。",
+            "CriticalFailure": "你得出了错误的理解，获知一条错误信息，例如只得知了贾托尔的存在。只要相关遭遇发生在接下来一天之内，你与你的盟友对其先攻承受 –2 环境减值。@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.uARfEyHX1ni4NSHM]{效果：晦涩低语}"
+          },
+          "TrepidationSpell": "如果你的下一个动作是施放一个至少比你的最高环级低 2 环、且需要意志豁免的法术，则该生物在失败时还会 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1 级}，大失败时 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2 级}。如果该生物对情绪、恐惧或心灵效果免疫，则它对此惊惧状态免疫。",
+          "TheLurkingStorm": "你以钝击伤害造成一半伤害，以电击伤害造成另一半伤害。先按常规投掷该法术的伤害，然后运行此宏：@UUID[Compendium.pf2e-team-plus-oracles-remastered.macros.Macro.zXVHS0P36YHQTA1k]{潜伏风暴}",
+          "EternalBanquet": "具有嗅觉特征的效果可以触发你的弱点。",
+          "OverwhelmingFestivities": {
+            "Title": "席卷狂欢",
+            "Text": "当你对抗情绪效果的豁免失败，或获得惊惧状态时，你受到 @Damage[(2 + (ceil(@item.level /2)-1))d4[mental,persistent]] 伤害。"
+          },
+          "EverpresentSonata": "当你尝试施放不具有听觉或音波特征的法术时，你必须进行一次 @Check[flat|dc:10]，否则你失去该法术。"
+        },
+        "AllowedDrops": {
+          "Weapon": "武器",
+          "Armour": "护甲",
+          "Heritage": "传承"
+        },
+        "Curios": {
+          "Armament": {
+            "AccursedCurio": "你的奇物是一件穿戴的护甲。你成为中甲与重甲的已受训，且你的奇物护甲是你选择的一件护甲，除常规数据外还具有舒适特征。",
+            "CurioAdept": "你获得对重击与精准伤害的抗力，等同于你咒缚值的两倍。当你获得高等诅咒职业特性时，你在重甲、中甲、轻甲以及无甲防御的熟练度上成为专家。",
+            "WielderOfMysteries": "你的奇物护甲能获得护甲专精效果。就专精效果而言，将轻甲与无甲防御视为中甲皮甲。当你获得极境诅咒职业特性时，你在重甲、中甲、轻甲以及无甲防御的熟练度上成为大师。",
+            "CuriosRevelation": "目标获得对物理伤害的抗力，等同于你咒缚值的两倍；若你的咒缚值为 3 或更高，则为三倍。这些效果持续到你下个回合开始时，或直到它们离开你的先见之灵气为止。@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.Fz8AuURnheTi95JT]{效果：揭示秘示域（军械）}",
+            "CuriosForm": "你的战斗形态的 AC 提高 1。<strong>Foundry 注</strong> 战斗形态的代码呃……不太靠谱，这一条只能你自己手动记着。"
+          },
+          "Charm": {
+            "AccursedCurio": "你的奇物是一件幸运物品，为 L 负重且为穿戴。你在反射豁免上成为专家。你将自己受到的反射豁免伤害减少你的咒缚值。",
+            "CurioAdept": "当你在基础反射豁免上掷出成功时，改为获得大成功。处于咒缚时，你将自己受到的基础反射豁免伤害减少你咒缚值的两倍。",
+            "WielderOfMysteries": "你在反射豁免上成为大师。当你的反射豁免大失败时，改为获得失败。处于咒缚时，你将自己受到的反射豁免伤害减少你咒缚值的三倍。",
+            "CuriosRevelation": "目标可以在其进行的一次反射豁免上掷两次骰并取较好结果。这些效果持续到你下个回合开始时，或直到它们离开你的先见之灵气为止。这是一个幸运效果。@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.CfxQmfeZmRW96FcC]{效果：揭示秘示域（护符）}",
+            "CuriosForm": "你的战斗形态的速度提高 10 尺。"
+          },
+          "Finery": {
+            "AccursedCurio": "你的奇物是一套服装或特殊制品，为穿戴。每当你获得惊惧状态时，将其数值降低 1。处于咒缚时，你对抗恐惧效果的豁免获得状态加值，等同于你的咒缚值。",
+            "CurioAdept": "位于你奇物之先见的灵气内的盟友，其对抗恐惧效果的豁免获得你的状态加值。若你处于咒缚，当灵气内的盟友在其回合结束时降低惊惧状态时，改为降低 2 而非 1。",
+            "WielderOfMysteries": "你对恐惧效果免疫。你为自己以及位于你奇物之先见的灵气内的所有盟友，授予对心灵伤害的抗力，等同于你咒缚值的两倍。",
+            "CuriosRevelation": "你将目标的惊惧状态降低 1，或尝试 @Check[counteract] 一个它正承受的持续心灵效果，并对反制检定获得等同于你咒缚值的状态加值。反制环级等于你等级的一半（向上取整）。",
+            "CuriosForm": "你对威吓检定获得 +2 状态加值。"
+          },
+          "Script": {
+            "AccursedCurio": "你的奇物是某种书籍或晦涩典籍，以单手持用。你在一项带有回忆知识动作的技能，以及一项与你的秘示域相称的学识技能上成为已受训。你获得 @UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]{可疑知识} 技能专长。处于咒缚时，你对回忆知识获得状态加值，等同于你的咒缚值。",
+            "CurioAdept": "你对一项带有回忆知识动作的技能以及一项你选择的学识技能获得技能提升。当你的盟友位于奇物之先见的灵气内时，他们对被你成功使用回忆知识的生物造成额外伤害，等同于你的咒缚值。@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.GtF0Z0OrIa1z1L8Q]{效果：由经文奇物回忆知识}",
+            "WielderOfMysteries": "当你的先见灵气激活时，你可以在自己每个回合开始时以自由动作进行回忆知识。你为位于你奇物之先见的灵气内的盟友授予回忆知识检定的状态加值，等同于你的咒缚值。",
+            "CuriosRevelation": "目标可以以带有华彩特征的自由动作进行回忆知识，且其检定获得等同于你咒缚值的状态加值。这些效果持续到你下个回合开始时，或直到它们离开你的先见之灵气为止。@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.QhMPcBQyDa2dQugQ]{效果：揭示秘示域（经文）}",
+            "CuriosForm": "即使你的战斗形态通常无法说话，你也能在其中说话。若你的战斗形态本就允许说话，则改为对回忆知识获得 +2 状态加值。"
+          },
+          "Tool": {
+            "AccursedCurio": "你的奇物是一件独特的工具，必须是一套工具包或使用某项技能动作所必需的物品，例如撬棍或乐器，以所需数量的手持用或作为工具穿戴。选择一项需要工具包或某件物品才能进行的技能，该技能即为你的奇物技能，你在其上成为已受训，并获得该技能的一个 1 级技能专长。2 级时，你在奇物技能上成为专家。处于咒缚时，你在需要使用你的奇物的技能检定上获得 +1 状态加值。",
+            "CurioAdept": "你在奇物技能上成为大师。处于咒缚时，你可以在进行奇物技能的技能动作或行动时，通过赋予其华彩特征来跨步 10 尺外加 5 尺乘以你的咒缚值（[[/r 10 + 5 * @actor.conditions.cursebound.value]] 尺）。你必须先跨步再使用该技能动作，且若该技能动作本就带有华彩特征，则你无法以此方式跨步。",
+            "WielderOfMysteries": "你在奇物技能上成为传奇。你可以对位于你奇物之先见的灵气内的合法目标使用技能动作，如同它们与你邻接一般。若你的咒缚值为 3 或更高，你使用工具的技能检定状态加值提高至 +2。",
+            "CuriosRevelation": "目标在你的奇物技能上成为已受训。若目标本就已受训，则改为获得你在该技能检定上的状态加值，且你将以该盟友为目标的技能动作 DC 降低 2。这些效果持续到你下个回合开始时，或直到它们离开你的先见之灵气为止。@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.mQm3xqfHYU0ybFfC]{效果：揭示秘示域（工具）}",
+            "CuriosForm": "即使你的战斗形态通常不具有手，你在其中也拥有 2 只手。你在战斗形态中保留使用工具的能力。"
+          },
+          "Utensil": {
+            "AccursedCurio": "你的奇物是一件简单器皿，例如玻璃杯或小刀，以单手持用。你在制作上成为已受训，并获得 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.Jkl5KOZih7MoMqAJ]{高速炼金} 的增益，在每日准备期间创造至多 4 个万用制剂。你记得从奇物中学到的物品配方，无需为它们准备配方簿。就与炼金相关的动作以及持握炼金物品而言，你持用器皿的那只手视为空闲。",
+            "CurioAdept": "你获得 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.Jkl5KOZih7MoMqAJ]{高阶炼金术} 的增益。你可以使用高阶炼金术创造 4 件炼金消耗品。当你处于咒缚并以高速炼金创造炼金物品时，该物品对伤害与治疗获得状态加值，等同于你咒缚值的两倍。此加值只适用于该炼金物品被激发时造成的初始伤害或治疗。即使某次激发会多次伤害或治疗同一生物，该生物每次激发也只受此伤害或获此治疗一次。",
+            "WielderOfMysteries": "你在每日准备期间获得的万用制剂数量提高至 5 个。对伤害与治疗的状态加值提高至你咒缚值的三倍。",
+            "CuriosRevelation": "你可以使用高速炼金，并立即将创造出的物品抛给你灵气内的一名盟友。该盟友必须有一只手空闲，并须以你的投掷为触发条件、花费其反应来接住该物品。该物品保留到该盟友下个回合结束时，而非你的回合结束时，或直到他们离开你的先见之灵气为止。",
+            "CuriosForm": "你可以在战斗形态中使用高速炼金。"
+          },
+          "Weapon": {
+            "AccursedCurio": "你的奇物是一件武器，以所需数量的手持用。你获得 @UUID[Compendium.pf2e.feats-srd.Item.x9wxQ61HNkAVbDHr]{武器擅长} 通用专长。处于咒缚时，你以该武器进行的打击造成额外伤害，等同于你的咒缚值，且你以武器造成的重击命中获得该武器的重击专精增益。",
+            "CurioAdept": "你获得 @UUID[Compendium.pf2e.feats-srd.Item.NMWXHGWUcZGoLDKb]{反应打击} 作为先知专长。",
+            "WielderOfMysteries": "你每回合获得一个额外反应，且只能用于反应打击。你以奇物武器进行打击的额外伤害提高至你咒缚值的两倍。",
+            "CuriosRevelation": "目标对其向你先见之灵气内的敌人所进行的第一次打击，其攻击骰与伤害获得等同于该 AC 状态加值的状态加值。这也包括针对你以奇物之先见成功进行察觉检定的生物所获得的提升后状态加值。这些效果持续到你下个回合开始时，或直到它们离开你的先见之灵气为止。@UUID[Compendium.pf2e-team-plus-oracles-remastered.misc.Item.xgOChgPTCFr6MjHJ]{效果：揭示秘示域（武器）}",
+            "CuriosForm": "本会适用于你奇物武器打击的效果（例如伤害的状态加值），同样适用于你的战斗形态所授予的打击。"
+          }
+        }
+      }
+    }
+  },
+  "SF2E": {
+    "Trait": {
+      "Traversal": "越障"
+    },
+    "TraitDescription": {
+      "Traversal": "这些能力可以轻易改用其他移动方式。带有此特征的动作包含一次或多次跨步动作，但可以轻易改用其他移动模式。若你拥有对应的移动方式，你可以用穴行、攀爬、飞行或游泳动作替代其中任何跨步动作。（任何对跨步的调整，例如速度的加值或减值，仍适用于被替换的移动方式。）"
+    }
+  }
+}
