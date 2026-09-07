@@ -1,0 +1,116 @@
+{
+  "label": "专长",
+  "entries": {
+    "Larger Than Life": {
+      "name": "超凡伟岸 Larger Than Life",
+      "description": "<p>强大的半神有时会像神祇及其化身一样，拥有超乎寻常的身躯。你的体型变为大型（若原本已是大型，则仍为大型，但在该体型类别内变得更大一些），获得10尺触及，近战伤害获得+2状态加值，并且始终处于@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}状态。你可以使用一个具有专注特征的两动作行动，缩回原本的体型，使自己更接近寻常凡人的模样；这样做时，你也失去上述触及、状态加值和笨拙状态。你会保持这一状态，直到再次使用该两动作行动，恢复为新的较大体型。</p>"
+    },
+    "Divine Initiate Spell": {
+      "name": "神授入门法术 Divine Initiate Spell",
+      "description": "<p>你获得了一个符合自身宗教的特殊法术，可以赐予忠诚的牧师，也可以每日亲自施放。从任意法术列表中选择一个1环级法术；大多数半神会选择神术列表之外的法术，因为这样对牧师更有帮助，但若你愿意，也可以不顾牧师的抱怨，选择神术列表中的法术。你可以每日一次将其作为神术天生法术施放。即使此法术不在神术法术列表中，你的牧师也可以准备它，并将其作为神术法术施放。</p>"
+    },
+    "Delve into Domain": {
+      "name": "深究领域 Delve into Domain",
+      "description": "<p>你更深入地发掘自身与领域的联系，从而获得更多力量。你可以每日一次，将通过@UUID[Compendium.battlezoo-ancestries-demigods.feats-pf2e.Item.iTfFkwf2wszK6noS]{借取领域之力}选择的领域所赋予的4环级领域法术作为神术天生法术施放。如此施放时，它是天生法术而非聚能法术，因此不消耗聚能点。</p>"
+    },
+    "Wanderer's Sacred Animal Form": {
+      "name": "漫游者圣兽形态 Wanderer's Sacred Animal Form",
+      "description": "<p>你能变为一种与你的圣兽相符的特定形态，作为和平使者，并使用该动物的特殊移动方式。这个形态独特而鲜明，每次变化都完全相同。你的动物形态带有某种通常不太显眼的超自然迹象，表明它非同寻常或与你的信仰有关，例如毛皮、鳞片或羽毛上出现小小的宗教徽记，或在光照下闪烁光芒。使用漫游者圣兽形态视为为欺骗的@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}用途制作伪装，但只能变为你的这一替代形态。在此动物形态下，你获得4环级@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]的数据，但体型与你的圣兽相同，不一定是微型；并且获得该圣兽通常具有的攀爬、飞行、陆地和游泳速度，各项均为20尺。你可以无限期维持此替代形态，再次使用此动作即可恢复真实形态。</p><hr /><p><strong>特殊</strong> 若你拥有@UUID[Compendium.battlezoo-ancestries-demigods.feats-pf2e.Item.VrtV8s8XtMc4fQQl]{圣兽形态}专长，可以立即将其重新训练为其他专长。</p>"
+    },
+    "Divine Emissary Spell": {
+      "name": "神授使者法术 Divine Emissary Spell",
+      "description": "<p>你获得了第三个符合自身宗教的法术，最虔诚的牧师可以学会它，你也可以每日亲自施放。从任意法术列表中选择一个4环级或5环级法术；大多数半神会选择神术列表之外的法术，因为这样对牧师更有帮助，但若你愿意，也可以不顾牧师的抗议，选择神术列表中的法术。你可以每日一次将其作为神术天生法术施放；若选择的是持续时间不超过1分钟的4环级法术，则可以改为每小时一次，将其作为神术天生法术施放。即使此法术不在神术法术列表中，你的牧师也可以准备它，并将其作为神术法术施放。</p>"
+    },
+    "Favored Weapon Familiarity": {
+      "name": "偏好武器熟悉 Favored Weapon Familiarity",
+      "description": "<p>你一直对某种武器格外亲近，因此将其选为自身宗教的偏好武器。若你的偏好武器是进阶武器，计算熟练度时将其视为军用武器。若它是军用武器，计算熟练度时将其视为简易武器。若它是简易武器，将该武器的伤害骰提高一个级别。若你的偏好武器是伤害骰低于d6的无武装攻击（例如拳击），则将伤害骰提高一个级别。</p>"
+    },
+    "Deific Insight": {
+      "name": "神祇洞见 Deific Insight",
+      "description": "<p>当你汲取自身神性时，能够揭开多元宇宙奥秘的一角；这些秘密化为晦涩的线索，指引你的道路。你可以每小时一次，将@UUID[Compendium.pf2e.spells-srd.Item.pkcOby5prOausy1k]作为神术天生法术施放。</p>"
+    },
+    "Orisons of Power": {
+      "name": "神能祷言 Orisons of Power",
+      "description": "<p>你能够汲取比普通半神更多的神术戏法。每天你可以选择两个而非一个神术戏法，作为神术天生法术施放。</p>"
+    },
+    "Keeper of Prayers": {
+      "name": "祈祷守望者 Keeper of Prayers",
+      "description": "<p>你能听见信徒的祈祷，偶尔也会回应。每当一名信徒向你祈求某事时，你都能大致感知其所求。你不会听见祈祷的确切措辞，因为当宗教足够庞大、许多人同时祈祷时，你的心智将无法处理。这种联系只会传达发自内心的祈祷，以满足信徒真正的需要与愿望，不能用来通信或汇报。每10分钟一次，你可以使用一个具有专注和心灵特征的三动作行动，向一名信徒传达不超过25词的信息，回应其在过去10分钟内作出的一次此类祈祷。无论信徒身处何处，你都能这样做，即使对方与你不在同一颗星球或同一位面。</p>"
+    },
+    "Limited Immortality": {
+      "name": "有限永生 Limited Immortality",
+      "description": "<p>如同次要恶魔领主、高天领主、妖精领主等其他弱小神祇，你能够死而复生，但并非毫无限制。死亡时，只要你仍有至少一名信徒，就可以让身体以符合自身宗教主题和领域的方式消失，例如化为一阵耀眼闪光，留下装备、盟友以及杀死你的人；由于你已经死亡，这个决定由你的灵魂作出，而多数情况下，除非你预计盟友很快就能复活你，否则通常会选择如此做。若选择消失，你便迁入一名信徒的灵魂之中。经过[[/br 1d4 #days]]{1d4天}，只要该信徒每天至少向你祈祷一次，你便会在其祈祷结束时现身，健康完全恢复，身着一套与你的宗教象征相关的朴素衣装。此后，该信徒便无法再帮助你用有限永生复活。你每月只能用有限永生死而复生一次。如果在这段时间内再次死亡，你便会一直死去。此外，还有一种具体且鲜为人知的方法能永久杀死你，例如使用槲寄生，或击中你脚跟上的一小块位置；以这种方式被杀时，即使过去一个月没有使用过有限永生，你也无法使用它。你可以与GM共同设计这个致命弱点；除非有人专门研究并发现秘密，否则它应该极少出现。</p>"
+    },
+    "Demigod Lore": {
+      "name": "半神学识 Demigod Lore",
+      "description": "<p>你对宗教与诸神的国度、自身宗教的主要技能，以及身为半神、游走于凡人与神祇之间的生活都有深刻了解。你的宗教和神圣技能的熟练等级变为受训。若你本就会自动受训于其中某项技能（例如通过背景或职业），则改为受训于一项自选技能。你还获得针对半神学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长。</p>"
+    },
+    "Auspicious Animal": {
+      "name": "祥瑞圣兽 Auspicious Animal",
+      "description": "<p>你可以派出自己的@UUID[Compendium.battlezoo-ancestries-demigods.journals-pf2e.JournalEntry.5hcIjt7NsVFznieI.JournalEntryPage.ITImTyYjZ91IQtQx#initial-boons]{圣兽}传递消息或预兆。每小时一次，你可以花费1分钟，向附近一只能看见并听见你的圣兽投喂食物。你将一个自己熟知的显眼地点或地标的影像、方向和距离印入圣兽脑海。你还可以在它身上系上一件至多为轻型负载的小物品或便条，或让它做一个简单动作作为预兆，例如猫头鹰鸣叫或掠过头顶，而非开门、攻击某人或偷窃物品。若难以判断：如果你想让预兆中的动作本身替你达成其他目的，而不只是传达信仰的预兆，那么该动作就不属于简单预兆。</p><p>动物会尽力抵达目的地；若成功到达，它便会作出预兆动作，或在携带消息时留在附近，允许非敌对生物接近并取下系着的物品。预兆或消息传达完毕，或经过24小时后，效果结束，以先发生者为准。如果范围内没有你的圣兽，使用祥瑞圣兽的尝试便会失败。</p>"
+    },
+    "Sacred Animal Form": {
+      "name": "圣兽形态 Sacred Animal Form",
+      "description": "<p>你能变为一种与你的圣兽相符的特定形态，作为和平使者。这个形态独特而鲜明，每次变化都完全相同。你的动物形态带有某种通常不太显眼的超自然迹象，表明它非同寻常或与你的信仰有关，例如毛皮、鳞片或羽毛上出现小小的宗教徽记，或在光照下闪烁光芒。使用圣兽形态视为为欺骗的@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}用途制作伪装，但只能变为你的这一替代形态。在此动物形态下，你获得1环级@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]的数据，但体型与你的圣兽相同，不一定是微型；若圣兽是水生动物，你获得20尺游泳速度，且没有陆地速度。与通常的1环级<em>害兽形态</em>相同，即使圣兽平时拥有其他速度，你也不会获得。你可以无限期维持此替代形态，再次使用此动作即可恢复真实形态。</p>"
+    },
+    "Divine Flight": {
+      "name": "神力飞行 Divine Flight",
+      "description": "<p><strong>频率</strong> 每日一次</p><hr /><p>无论是长出翅膀、借助气流托起身体、改变重力，还是采用其他与你的宗教和领域有关的方式，你都能暂时获得飞行能力。你获得等于陆地速度的飞行速度，持续10分钟。根据你对飞行方式的描述，神力飞行可能获得额外特征，由GM决定（例如，长出翅膀具有化形特征，借助气流移动具有气特征）。</p>"
+    },
+    "Demigod's Talent": {
+      "name": "半神天赋 Demigod's Talent",
+      "description": "<p>身为半神，你很容易认同某种神卫信条，或精进偏好武器的技艺。你获得@UUID[Compendium.pf2e.feats-srd.Item.0YjetnLVIUz9zQt5]{神卫入门}（成为侍奉你自己的神卫），或一个与偏好武器直接相符的原型入门专长（例如，偏好武器为弓时，@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.o71hqcfzhCKXcSml]符合要求；偏好武器为双手武器时，@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.RoF5NOFBefXAPftS]符合要求；但偏好武器为弯刀时，@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.O9P1YgtiCgHlPNp5]并不符合要求，尽管它有一个涉及弯刀的专长，因为弯刀并非该原型的主要重点）。若选择神卫入门，你无需满足属性调整值先决条件。</p><hr /><p><strong>特殊</strong> 经GM许可，你也可以通过此专长选择@UUID[Compendium.pf2e.feats-srd.Item.qvWmW5JWpVBDyGqe]{神源者入门}，使用你自身的神性火花；但在这种情况下，此专长为稀有。这一选项十分契合主题，但即使GM允许半神角色，也可能出于规则原因不允许它。因此，你最好先与GM讨论神源者入门，了解其在本团中是否有所改动。</p>"
+    },
+    "Favored Weapon Critical": {
+      "name": "偏好武器重击 Favored Weapon Critical",
+      "description": "<p>你能充分发挥偏好武器重击的威力。你获得偏好武器的重击专精效果。</p>"
+    },
+    "Mortal Roots": {
+      "name": "凡人根源 Mortal Roots",
+      "description": "<p>无论你作为神祇成长到何种境界，都不会忘记自己的凡人根源。你获得针对凡人之身族裔能力所选族裔的@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊}通用专长，并额外获得该族裔的一个1级族裔专长。</p>"
+    },
+    "Draw Upon Domain": {
+      "name": "借取领域之力 Draw Upon Domain",
+      "description": "<p>选择一个你能赐予信徒的领域。你可以每日一次，将该领域赋予的1环级领域法术作为神术天生法术施放。如此施放时，它是天生法术而非聚能法术，因此不消耗聚能点。</p><hr /><p><strong>特殊</strong> 若你已经通过@UUID[Compendium.battlezoo-ancestries-demigods.boons-pf2e.Item.jn3y8wulCNFtB3b9]{第一领域}等恩赐获得领域，则借取领域之力必须选择其中一个领域；若你拥有多个领域，可以在日常准备期间，将借取领域之力的领域改为该列表中的另一个领域。若你已经拥有借取领域之力，后来获得第一领域恩赐，则必须选择与借取领域之力相同的领域。</p>"
+    },
+    "Deific Presence": {
+      "name": "神祇威仪 Deific Presence",
+      "description": "<p>你的准神威仪强烈得几乎化为有形的灵光，让盟友心生敬畏，敌人感到恐惧。你选择受训于交涉或威吓。若你受训于交涉（或后来变为受训于交涉），你获得@UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{集体印象}技能专长。若你受训于威吓（或后来变为受训于威吓），你获得@UUID[Compendium.pf2e.feats-srd.Item.gUqvezs2zzoTXFAI]{集体胁迫}和@UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{金刚怒目}技能专长。</p>"
+    },
+    "Divine Hierophant Spell": {
+      "name": "神授大祭司法术 Divine Hierophant Spell",
+      "description": "<p>你获得了第三个（也可能是第四个）符合自身宗教的法术，信仰中真正的圣徒与大祭司可以学会它，你也可以每日亲自施放。从任意法术列表中选择一个6环级或7环级法术；大多数半神会选择神术列表之外的法术，因为这样对牧师更有帮助，但若你愿意，也可以不顾牧师的反对，选择神术列表中的法术。你可以每日一次将其作为神术天生法术施放；若选择的是持续时间不超过1分钟的6环级法术，则可以改为每小时一次，将其作为神术天生法术施放。即使此法术不在神术法术列表中，你的牧师也可以准备它，并将其作为神术法术施放。</p><hr /><p><strong>特殊</strong> 大多数半神不会同时获得本专长和@UUID[Compendium.battlezoo-ancestries-demigods.feats-pf2e.Item.7G3CFjVXSRSj7K1L]{神授使者法术}。若你两者皆有，可能正在逐渐成为一位能赐予格外多神祇法术的魔法之神。</p>"
+    },
+    "Divine Adept Spell": {
+      "name": "神授进阶法术 Divine Adept Spell",
+      "description": "<p>你又获得了一个符合自身宗教的特殊法术，经验丰富的牧师可以学会它，你也可以每日亲自施放。从任意法术列表中选择一个2环级或3环级法术；大多数半神会选择神术列表之外的法术，因为这样对牧师更有帮助，但若你愿意，也可以不顾牧师的怒视，选择神术列表中的法术。你可以每日一次将其作为神术天生法术施放；若选择的是持续时间不超过1分钟的2环级法术，则可以改为每小时一次，将其作为神术天生法术施放。即使此法术不在神术法术列表中，你的牧师也可以准备它，并将其作为神术法术施放。</p>"
+    },
+    "Perpetual Flight": {
+      "name": "恒久飞行 Perpetual Flight",
+      "description": "<p>你的飞行能力永久生效。你始终获得神力飞行的效果，而非每天只能使用一次、持续10分钟。使用神力飞行时，你的飞行速度在其持续时间内获得+20尺状态加值。</p>"
+    },
+    "Demigod's Hunch": {
+      "name": "半神预感 Demigod's Hunch",
+      "description": "<p>若你专注于灵魂中的神性部分，就能大致预感某项冒险会充满危险还是有所收获，尽管并非完全准确。你可以每小时一次，将@UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]作为神术天生法术施放。</p>"
+    },
+    "I Can Go the Distance": {
+      "name": "我能走到终点 I Can Go the Distance",
+      "description": "<p>你游历世界，传播信仰、宣扬事迹，随着时日推移，旅途也变得更加轻松。你的旅行速度获得+10尺状态加值；这不会影响战斗中的速度。此外，你在对抗使你变为@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}的效果时，豁免获得+1环境加值；若对抗此类效果的豁免成功，则改为大成功。</p>"
+    },
+    "Sacred Animal Affinity": {
+      "name": "圣兽亲和 Sacred Animal Affinity",
+      "description": "<p>你能够与你的圣兽交流，并且与这类动物格外亲近。你能与你的圣兽（见第15页）以及非常相似的动物交谈并理解它们（例如，若你的圣兽像库一样是大黄蜂蝠，你便能与蝙蝠交谈并理解它们）。你可以对圣兽使用交涉技能，在@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}或@UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{请求}时获得+2环境加值。多数情况下，即使尚未建立印象，圣兽对你的初始态度也已是友善，因为它们能感受到与你的联系，本能地喜欢你。</p>"
+    },
+    "You're Welcome!": {
+      "name": "不必客气！ You're Welcome!",
+      "description": "<p>身为半神，你知道如何充分利用满足他人愿望的神力展示。你的交涉熟练等级变为专家。当你用神力向其他生物提供他们所需的帮助或协助时，可以立即对其中至多10个生物进行交涉检定以@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}，获得+1环境加值（若你的交涉达到大师，则为+2环境加值），无需额外花费动作。若你拥有@UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{集体印象}技能专长，则使用本专长时，可以对通常通过该技能专长所能影响的两倍数量的生物建立印象，且仍无需额外花费动作。</p>"
+    }
+  },
+  "folders": {
+    "17th Level": "17级 17th Level",
+    "9th Level": "9级 9th Level",
+    "13th Level": "13级 13th Level",
+    "1st Level": "1级 1st Level",
+    "5th Level": "5级 5th Level"
+  }
+}

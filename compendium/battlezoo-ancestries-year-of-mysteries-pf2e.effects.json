@@ -1,38 +1,105 @@
 {
-  "label": "效果\nEffects",
-  "mapping": {
-    "name": "name",
-    "description": "system.description.value"
-  },
-  "folders": {},
+  "label": "效果",
   "entries": {
     "Effect: Repel Magic": {
       "name": "效果：排斥魔法 Effect: Repel Magic",
-      "description": "<p>由 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.nAC5tdl5sp3shGWF]{驱斥魔法} 授予</p><p>你对抗魔法效果的豁免获得+1环境加值。</p>\n<p>Granted by @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.nAC5tdl5sp3shGWF]{Repel Magic}</p><p>You gain a +1 circumstance bonus to saving throws against magical effects.</p>"
+      "description": "<p>由@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.nAC5tdl5sp3shGWF]{排斥魔法}赋予</p><p>你对抗魔法效果的豁免获得+1环境加值。</p>"
     },
     "Effect: Spore Shot": {
       "name": "效果：孢子射击 Effect: Spore Shot",
-      "description": "<p>由 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.GxtCSjpjbdBk4MlJ]{孢子射击} 授予</p><p>你的速度受到–10英尺的环境减值。</p>\n<p>Granted by @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.GxtCSjpjbdBk4MlJ]{Spore Shot}</p><p>You take a –10-foot circumstance penalty to your Speeds.</p>"
+      "description": "<p>由@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.GxtCSjpjbdBk4MlJ]{孢子射击}赋予</p><p>你的各项速度承受–10尺环境减值。</p>"
     },
     "Effect: Monospore Mimicry": {
       "name": "效果：单孢拟态 Effect: Monospore Mimicry",
-      "description": "<p>由 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.b5VHlE1Q2RIbW7on]{单孢子拟态} 授予</p><p>你获得等同于你等级一半的抗力，以对抗所选元素。</p>\n<p>Granted by @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.b5VHlE1Q2RIbW7on]{Monospore Mimicry}</p><p>You gain resistance equal to half your level against the chosen element.</p>"
+      "description": "<p>由@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.b5VHlE1Q2RIbW7on]{单孢拟态}赋予</p><p>你获得对所选元素的抗力，数值等于自身等级的一半。</p>"
     },
     "Effect: Sheltering Cap": {
-      "name": "效果：庇护之帽 Effect: Sheltering Cap",
-      "description": "<p>你获得AC+1环境加值。</p>\n<p>You gain a +1 circumstance bonus to AC.</p>"
+      "name": "效果：庇护菌盖 Effect: Sheltering Cap",
+      "description": "<p>你的AC获得+1环境加值。</p>"
     },
     "Effect: Towering Thicket": {
-      "name": "效果：高耸灌木丛 Effect: Towering Thicket",
-      "description": "<p>由 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.JliWTCdjEhe3kPrX]{Towering Thicket} 授予</p><p>你变为巨型。你的装备随你一同变大。你变为笨拙1，且你的触及增加到15尺。你获得+4状态加值至近战伤害。</p>\n<p>Granted by @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.JliWTCdjEhe3kPrX]{Towering Thicket}</p><p>You become Huge. Your equipment grows with you. You become clumsy 1 and your reach increases to 15 feet. You gain a +4 status bonus to melee damage.</p>"
+      "name": "效果：高耸灌丛 Effect: Towering Thicket",
+      "description": "<p>由@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.JliWTCdjEhe3kPrX]{高耸灌丛}赋予</p><p>你变为巨型，装备随之一同变大。你陷入笨拙1，触及增加至15尺。你的近战伤害获得+4状态加值。</p>"
     },
     "Effect: Many-Eyed Survey": {
       "name": "效果：多眼勘察 Effect: Many-Eyed Survey",
-      "description": "<p>你获得全方位视野。</p>\n<p>You gain all-around vision.</p>"
+      "description": "<p>你获得全域视野。</p>"
     },
     "Effect: Extend Hyphae": {
       "name": "效果：延展菌丝 Effect: Extend Hyphae",
-      "description": "<p>由 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.wdARdD73NPJrWOxl]{延伸菌丝} 授予</p><p>你获得颤动感知作为一种模糊感官，射程为80英尺。</p>\n<p>Granted by @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.wdARdD73NPJrWOxl]{Extend Hyphae}</p><p>You gain tremorsense as an imprecise sense with a range of 80 feet.</p>"
+      "description": "<p>由@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.wdARdD73NPJrWOxl]{延展菌丝}赋予</p><p>你获得80尺震颤感知，这是一种模糊感官。</p>"
+    },
+    "Effect: Plague-Eater": {
+      "name": "效果：噬疫者 Effect: Plague-Eater",
+      "description": "<p>由</p><p>你获得等于自身等级一半的临时生命值。</p>"
+    },
+    "Effect: Accept Offering": {
+      "name": "效果：接受供奉 Effect: Accept Offering",
+      "description": "<p>由@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.2EFT1q9gSweELRk3]{接受供奉}赋予</p><p>你的攻击骰、豁免和AC获得+1状态加值。</p>"
+    },
+    "Effect: Wisdom of the Stars (Critical Failure)": {
+      "name": "效果：星辰智慧（大失败） Effect: Wisdom of the Stars (Critical Failure)",
+      "description": "<p>由@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.clnWDJrHG93jdj8l]{星辰智慧}赋予</p><p>你的先攻检定承受-1减值。</p>"
+    },
+    "Effect: Shoreline Healing": {
+      "name": "效果：海岸疗愈 Effect: Shoreline Healing",
+      "description": "<p>你获得等于自身等级加1的快速医疗，持续4轮。</p>"
+    },
+    "Effect: Protect Kindred": {
+      "name": "效果：守护亲友 Effect: Protect Kindred",
+      "description": "<p>由@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.gAPl1ADF6vbj685f]{守护亲友}赋予</p><p>你的AC获得+3环境加值。</p>"
+    },
+    "Effect: Invoke Oath": {
+      "name": "效果：唤起誓约 Effect: Invoke Oath",
+      "description": "<p>触发该能力的检定获得+2环境加值。</p>"
+    },
+    "Effect: Adaptive Locomotion": {
+      "name": "效果：适应性移动 Effect: Adaptive Locomotion",
+      "description": "<p>你迅速适应环境，获得新的移动方式，鳞片也会变色以映照周遭。在10分钟内，你用于[[/act hide]]或[[/act sneak]]的隐秘检定获得+2环境加值，并获得下列一项速度。</p><ul><li><p>掘地15尺。</p></li><li><p>攀爬40尺。</p></li><li><p>飞行30尺。</p></li><li><p>游泳50尺。</p></li></ul><p>你可以选择提前解消适应性移动的效果。若如此，即使没有掩护或隐蔽，你也会暂时对所有生物成为藏匿状态，从而可以作为解消动作的一部分潜行，移动至多等于自身速度的距离（此次潜行可以最后使用一次适应性移动赋予的速度）。此次移动结束时，适应性移动的所有效果均结束；因此，若想在此次潜行后保持藏匿或无踪，你需要另有掩护或隐蔽来源。</p>"
+    },
+    "Effect: Wisdom of the Stars": {
+      "name": "效果：星辰智慧 Effect: Wisdom of the Stars",
+      "description": "<p>由@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.clnWDJrHG93jdj8l]{星辰智慧}赋予</p><p>你的先攻检定获得等于此效果标记数值的环境加值。</p>"
+    },
+    "Effect: Golden Indomitability": {
+      "name": "效果：黄金不屈 Effect: Golden Indomitability",
+      "description": "<p>你的AC、豁免和攻击骰获得+2状态加值，持续1分钟。</p>"
+    },
+    "Effect: Raft of Land Otters": {
+      "name": "效果：陆獭浮群 Effect: Raft of Land Otters",
+      "description": "<p>来源：</p><p>你获得25尺游泳速度。</p>"
+    },
+    "Effect: Hungry Otter": {
+      "name": "效果：饥饿之獭 Effect: Hungry Otter",
+      "description": "<p>来源：</p><p>你获得等于自身等级一半的临时生命值。</p>"
+    },
+    "Effect: Water Shield": {
+      "name": "效果：水流护盾 Effect: Water Shield",
+      "description": "<p>你以魔法控制身边的水流，将其布置在周围保护自己；你的AC获得+1环境加值，直到你的下个回合开始。如果你的一侧尾巴空闲，可以协助引导水流，且附近至少有10加仑水，则改为获得+2环境加值。</p>"
+    },
+    "Effect: Ouroboros": {
+      "name": "效果：衔尾蛇 Effect: Ouroboros",
+      "description": "<p>你获得再生15，持续1分钟，在你的每个回合开始时恢复15点生命值。具有再生期间，你不会因伤害死亡，且你的濒死状态无法增加至足以使你死亡的数值（大多数情况下，这意味着不会超过濒死3）；但若你的受伤值达到4或更高，你会保持@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，直到伤势得到处理。如果你受到寒冷或火焰伤害，再生会失效，直到你的下个回合结束后才恢复。</p><p>每当你因衔尾蛇恢复生命值，你也会重新长出一个受损或毁坏的器官（如果有）。在此效果持续期间，你还可以花费一个交互动作，将断肢按在断离处以重新接上。</p>"
+    },
+    "Effect: Venomous Strike": {
+      "name": "效果：毒液打击 Effect: Venomous Strike",
+      "description": "<p>在你的下个回合结束前，你的下一次成功徒手攻击额外造成1d6毒素伤害。此伤害的增量为1d6，首次在3级生效，此后每2级再增加一次。</p>"
+    },
+    "Effect: Poison Spray": {
+      "name": "效果：毒液喷射 Effect: Poison Spray",
+      "description": "<p>由@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.dNNUanwuH3kmMCbI]{毒液喷射}赋予</p><p>你的所有检定和DC承受–1状态减值。</p>"
+    },
+    "Effect: Blood on the Air": {
+      "name": "效果：血腥气息 Effect: Blood on the Air",
+      "description": "<p>来源：</p><p>你对抗嗅觉效果的所有强韧豁免承受–4减值。</p>"
+    },
+    "Effect: Censure Foe": {
+      "name": "效果：谴责仇敌 Effect: Censure Foe",
+      "description": "<p>由@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.V7KI5csX4rM9gpBe]{谴责仇敌}赋予</p><p>你对被标记生物的打击额外造成1d6精魂伤害。此伤害在13级时提高至2d6精魂伤害。</p>"
+    },
+    "Effect: Invigorating Victory": {
+      "name": "效果：振奋胜利 Effect: Invigorating Victory",
+      "description": "<p>你获得等于自身等级一半的临时生命值，持续1分钟。</p>"
     }
   }
 }

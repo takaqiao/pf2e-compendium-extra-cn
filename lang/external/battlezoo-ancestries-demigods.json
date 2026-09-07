@@ -1,0 +1,18 @@
+{
+    "BZDEMI": {
+        "SpecificRule": {
+            "BlessingOfDivinity": {
+                "Bane": "绝望术",
+                "Bless": "祝福术"
+            },
+            "TricksterDemigod": {
+                "Prompt": "选择你的诡计手段",
+                "StickyFingers": "妙手空空",
+                "Words": "巧舌如簧"
+            }
+        },
+        "Trait": {
+            "Demigod": "半神"
+        }
+    }
+}

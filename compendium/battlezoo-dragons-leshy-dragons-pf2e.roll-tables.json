@@ -1,0 +1,46 @@
+{
+  "label": "掷骰表",
+  "entries": {
+    "Spore Breath Random Effect": {
+      "name": "孢子吐息随机效果 Spore Breath Random Effect",
+      "results": {
+        "1djjPsJodWRYSLPl": {
+          "description": "若大成功，该生物不受影响。若成功，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续1轮，且轮廓被月光勾勒，持续1分钟。可见生物被月光勾勒轮廓时，无法处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态。若生物处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}状态，受月光影响时它处于隐蔽状态，而非无踪。若失败，效果同成功，但该生物目眩持续1分钟。若大失败，效果同成功，但该生物困惑持续1轮，目眩持续1分钟。意志豁免；光亮特征。"
+        },
+        "1iWCsprQWFVRfKob": {
+          "description": "若失败，生物陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}，持续1轮；若大失败则持续2轮。意志豁免；情绪、心灵和原能特征。"
+        },
+        "6Czk6HicOEzF60Jg": {
+          "description": "若失败，生物陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，持续1轮；若大失败则陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢2}，持续1轮。强韧豁免。"
+        },
+        "FhQifxVflqAJ54I5": {
+          "description": "若大成功，该生物不受影响。若成功，该生物开始在不合时宜的时候轻笑，使其作为反应一部分进行的所有检定承受–2状态减值，持续1轮。若失败，该生物被无法控制的大笑所困，无法使用反应，持续2轮。若大失败，该生物完全笑得无法自已，无法使用反应，持续2轮，且陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，持续2轮。意志豁免；情绪和心灵特征。"
+        },
+        "KB0IwviaeLEnePeb": {
+          "description": "若大成功，该生物不受影响。若成功，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1}，但该流失状态在1分钟后结束。若失败，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失2}。若大失败，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失4}。强韧豁免。"
+        },
+        "L0dSDbRx2CEOhEKD": {
+          "description": "若大成功，该生物不受影响。若成功，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}，持续1轮。若失败，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭3}，持续1轮，以及力竭1，持续1分钟。若大失败，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭4}，持续1轮，以及@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}，持续1分钟。强韧豁免。"
+        },
+        "O6xNtpHD6LnHMXJ7": {
+          "description": "该生物暴露于衰耗黏液疾病。若大成功，该生物不受影响。若成功，该生物对抗衰耗黏液的豁免检定承受–1状态减值，直到感染该疾病或经过1天，以先发生者为准。若失败，该生物感染第1阶段的衰耗黏液疾病。若大失败，该生物感染第2阶段的衰耗黏液疾病。强韧豁免；疾病特征。6 若失败，生物陷入@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}，持续1轮；若大失败则持续2轮。强韧豁免；失能特征。"
+        },
+        "YCxvaobMRwLhW1TV": {
+          "description": "若失败，生物陷入@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，持续[[/gmr 1d6 #rounds]]{1d6轮}；若大失败则持续1分钟。由于此效应不会阻止持续噪声将其唤醒，它很可能很快就被战斗声惊醒，但仍会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}并掉落手中持有的物品。强韧豁免；失能和睡眠特征。"
+        },
+        "kjwDsTFtGwpKSEIp": {
+          "description": "选择命令区域内所有生物靠近你、逃离（如同陷入@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}状态）、放开手中持有的物品、@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}或站在原地。在服从你的命令之前，它们无法延迟或采取反应。若失败，该生物必须将其下一回合的第一个动作用于按照你的命令执行一个单动作；若大失败，该生物必须将其下一回合的所有动作用于服从你的命令。意志豁免；听觉、语言和心灵特征。"
+        },
+        "muNpKwplAESr75Cf": {
+          "description": "若大成功，该生物不受影响。若成功，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续1轮。若失败，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}，持续1轮，以及呆滞1，持续1分钟。若大失败，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞3}，持续1轮，以及呆滞2，持续1分钟。意志豁免；心灵特征。"
+        },
+        "o40yeHobLezLVza5": {
+          "description": "若失败，生物陷入@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}，持续1轮；若大失败则持续2轮。强韧豁免；失能特征。"
+        },
+        "rULTSilt5BkCPFuJ": {
+          "description": "若失败，生物从你身边逃跑，持续1轮；若大失败则持续2轮。意志豁免；失能和心灵特征。"
+        }
+      }
+    }
+  }
+}

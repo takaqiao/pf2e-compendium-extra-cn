@@ -1,0 +1,17 @@
+{
+  "moduleId": "battlezoo-immortals",
+  "moduleTitle": "Battlezoo Ancestries: Immortals by Roll For Combat",
+  "homebrew": {
+    "featTraits": {
+      "asmodean-contractor": "BZI.Trait.AsmodeanContractor",
+      "eldritch-horror": "BZI.Trait.EldritchHorror",
+      "fates-chosen": "BZI.Trait.FatesChosen",
+      "god-beast": "BZI.Trait.GodBeast",
+      "saint": "BZI.Trait.Saint",
+      "spell-lich": "BZI.Trait.SpellLich",
+      "transcendence": "BZI.Trait.Transcendence",
+      "true-ancestor": "BZI.Trait.TrueAncestor",
+      "manifestation": "BZI.Trait.Manifestation"
+    }
+  }
+}

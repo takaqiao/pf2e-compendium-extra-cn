@@ -1,0 +1,61 @@
+{
+  "label": "效果",
+  "entries": {
+    "Effect: Cloak of Leaves": {
+      "name": "效果：叶之披风 Effect: Cloak of Leaves",
+      "description": "<p>你的防御等级获得+2环境加值，持续1分钟。不过，在持续期间，每当你受到火焰伤害，枝叶就会着火，对你额外造成@Damage[1d6[persistent,fire]]伤害。若你从单一效应受到的火焰伤害超过自身等级的三倍，披风就会被烧毁，提前结束叶之披风，并使你在剩余持续时间内改为承受防御等级的–2减值。</p>"
+    },
+    "Effect: Drain Vigor": {
+      "name": "效果：汲取活力 Effect: Drain Vigor",
+      "description": "<p>幽影龙获得25临时生命值。</p>"
+    },
+    "Effect: Magma Breath": {
+      "name": "效果：熔岩吐息 Effect: Magma Breath",
+      "description": "<p>你受到6d6持续火焰伤害，且所有速度承受–10尺状态减值。</p>"
+    },
+    "Effect: Hyperfocus Speed": {
+      "name": "效果：凝能疾飞 Effect: Hyperfocus Speed",
+      "description": "<p>你获得100尺飞行速度，且此飞行速度获得+20尺状态加值。</p>"
+    },
+    "PkKHk6I0eBoqjBCO": {
+      "name": "效果：反射鳞片 Effect: Reflecting Scales",
+      "description": "<p>你对自己选择的一种伤害类型获得抗力5。你可以结束此效应，每阻止10伤害，就对@Template[emanation|distance:20]内所有生物造成1d6所选类型的伤害，最高10d6伤害（@Check[type:reflex|against:class-spell|basic]）</p><p>@Damage[((@item.badge.value)d6)[@item.flags.pf2e.rulesSelections.damageType]]</p>"
+    },
+    "ZKv4XJckfKGACp1V": {
+      "name": "效果：反射鳞片 Effect: Reflecting Scales",
+      "description": "<p>远程法术攻击检定未命中太古水晶龙时，法术会被反射回施法者；施法者必须以相同的攻击调整值进行第二次远程法术攻击检定，对抗自己的防御等级，以确定反射的法术是否转而命中自己。</p>"
+    },
+    "Effect: Bespell Claw": {
+      "name": "效果：附法龙爪 Effect: Bespell Claw",
+      "description": "<p>由@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.J79fnSbEsn2gNs8p]{附法龙爪}赋予</p><p>你的龙族徒手攻击额外造成1d6伤害，其类型取决于你刚刚施放的法术所属的魔法传统。</p><ul><li><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">奥术</strong> 力场</li><li><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">神术</strong> 精魂</li><li><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">异能</strong> 心灵</li><li><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">原能</strong> 穿刺</li></ul>"
+    },
+    "Effect: Dragon's Endurance": {
+      "name": "效果：巨龙耐力 Effect: Dragon's Endurance",
+      "description": "<p>你获得等于自身等级两倍的临时生命值。</p>"
+    },
+    "Effect: Conductive Scales": {
+      "name": "效果：导能鳞片 Effect: Conductive Scales",
+      "description": "<p>你的防御等级获得+1状态加值。</p>"
+    },
+    "Effect: Berryseed Cannon": {
+      "name": "效果：莓籽炮 Effect: Berryseed Cannon",
+      "description": "<p>你获得4d8临时生命值。</p>"
+    },
+    "Effect: Harden Scales": {
+      "name": "效果：硬化鳞片 Effect: Harden Scales",
+      "description": "<p>你获得物理伤害抗力10，精金伤害除外。不过，每次应用此抗力后，抗力值减少1。减少物理伤害10次后，抗力降至0，效应结束。</p>"
+    },
+    "Effect: Dragon's Tenacity": {
+      "name": "效果：巨龙坚韧 Effect: Dragon's Tenacity",
+      "description": "<p>你获得等于自身等级一半的临时生命值。</p>"
+    },
+    "Efect: Gaze Between Realms": {
+      "name": "效果：窥视诸界 Efect: Gaze Between Realms",
+      "description": "<p>龙的打击对抗虚体生物时，具有<em>幽冥</em>性能符文的效果。</p>"
+    },
+    "Effect: Majestic Spell": {
+      "name": "效果：威仪法术 Effect: Majestic Spell",
+      "description": "<p>你对抗施法者的威吓检定获得环境加值。</p>"
+    }
+  }
+}

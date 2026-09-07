@@ -1,0 +1,9 @@
+{
+  "label": "装备",
+  "entries": {
+    "Candypearl": {
+      "name": "糖珠 Candypearl",
+      "description": "<p>这颗散发甜香的魔法珍珠不断发出一圈淡蓝色的光，轻轻摇曳，宛如潟湖水面的倒影。将珍珠放入口中时，它尝起来就像一块美味的糖果。吞下珍珠的生物会从体内发出这种光芒，并获得在水中呼吸的能力，持续4小时。时间结束时，它会突然感到一阵恶心，并将珍珠吐出来。被吐出的珍珠不再发光，且在1周内无法再用于获得水下呼吸的能力；之后，珍珠会恢复原先的所有能力。</p><hr /><p>@UUID[Compendium.battlezoo-release-the-kraken-pf2e.release-the-kraken-effects.Item.W1je7ehWKVHvbdoh]{效果：糖珠}</p>"
+    }
+  }
+}

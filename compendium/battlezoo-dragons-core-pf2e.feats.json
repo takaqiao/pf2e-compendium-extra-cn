@@ -1,0 +1,445 @@
+{
+  "label": "专长",
+  "entries": {
+    "Incredible Resistance": {
+      "name": "极致抗力 Incredible Resistance",
+      "description": "<p>你积蓄了魔法，使抗力超出永恒龙通常能够达到的程度。你从@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.1hGu3cOJWT78kaOG]{龙族抗力}获得的抗力提高至等于你的等级。</p>"
+    },
+    "Draconic Resistance": {
+      "name": "龙族抗力 Draconic Resistance",
+      "description": "<p>你重新激活了保护身体的魔法通路，使自己免受通常用于自身喷吐武器的伤害类型所伤。你获得对传承对应伤害类型的抗力，数值等于你等级的一半（最低1）。</p>"
+    },
+    "Change Shape": {
+      "name": "变身 Change Shape",
+      "description": "<p>你可以化为类人生物的模样，以更不起眼的形态隐藏巨龙的威仪。你的类人形态是你成长地区普遍存在的一种常见小型或中型类人族裔（通常为人类）的特定形态。此形态独一无二，具有鲜明特点，而你每次都会变成同一个形态。你的类人形态可能有某种暗示自身龙种的显著特征，例如惊人的翠绿眼眸或头发中的一缕铜色，也可能与同族裔的其他类人生物毫无区别。使用变身视为为欺骗技能的乔装用途进行伪装，但只能用来变成你的另一形态。在此形态下，你失去因身为龙而获得的所有徒手打击，改为获得拳头打击。你无法使用需要类人形态所不具备的身体部位的其他能力；例如，没有翅膀就不能使用需要翅膀的专长。依照通常规则，若你因体型增大获得触及，例如由@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.na4crplWCHFk2DGM]{赋能体量}或@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.zxehqDLw1ULh9QMp]{赋能体型}获得的触及，在另一形态下会失去该触及。你可以无限期保持另一形态，并且可以再次使用此动作变回真正的龙形态。</p><hr /><p><strong>特殊</strong> 某些永恒龙牺牲了夜视能力，在其他能力之外发展出了变换另一形态的力量。你可以选择不选取此专长，而是以用昏暗视觉替代黑暗视觉为代价，将变身作为族裔增益获得。如果作出此选择，你以后无法重训变身，但可以花费一个1级专长重新获得黑暗视觉。</p>"
+    },
+    "Reptile Speaker": {
+      "name": "爬行类交流 Reptile Speaker",
+      "description": "<p>虽然声称龙可能属于爬行类动物实在荒谬，但你对长鳞的动物仍有强烈的亲近感。你可以向爬行类动物提问、听懂它们的回答，并对它们使用交涉技能。由GM决定哪些动物属于此能力的适用范围。</p>"
+    },
+    "Draconic Frenzy": {
+      "name": "龙之狂怒 Draconic Frenzy",
+      "description": "<p>你以狂乱的徒手攻击猛击敌人。从你的爪击、噬咬以及通过额外徒手攻击获得的徒手攻击中组合进行三次打击。角、噬咬和尾巴打击各自最多使用一次，爪击和翼击各自最多使用两次。你可以任意安排打击顺序。例如，你可以噬咬一次、爪击两次，或噬咬一次、尾巴打击一次、爪击一次，但不能噬咬两次、爪击一次，也不能爪击三次。</p>"
+    },
+    "Camouflage": {
+      "name": "伪装 Camouflage",
+      "description": "<p>你能轻松伪装融入自然环境，鳞片随周围区域的颜色和纹样而变化。即使没有掩蔽或隐蔽，你也可以在自然环境中@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{躲藏}；如果在自然环境中结束@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}时没有掩蔽或隐蔽，你也不会自动变为可见。</p>"
+    },
+    "Dragon Lore": {
+      "name": "龙类学识 Dragon Lore",
+      "description": "<p>你知晓自远古流传至今的龙族故事，这些教诲让你充满傲气和足以震慑其他生物的气度。你的奥法和威吓获得受训熟练度。如果你本会自动在其中一项技能上获得受训（例如来自背景或职业），则改为在自选的一项技能上获得受训。你还获得以龙类学识为所选学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长。</p>"
+    },
+    "Constrict": {
+      "name": "紧勒 Constrict",
+      "description": "<p><strong>需求</strong> 一个生物处于由你造成的@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态。</p>\n<hr />\n<p>你在继续用爪将敌人固定在原地的同时，用尾巴紧勒处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}状态的敌人，榨尽其生机。该生物受到等于[[/r (@actor.system.details.level.value + @actor.abilities.str.mod)[bludgeoning]]]{你的等级 + 你的力量调整值}的钝击伤害，并进行豁免对抗你的职业DC。</p>"
+    },
+    "Animal Shape": {
+      "name": "动物形态 Animal Shape",
+      "description": "<p>你可以化为动物的模样，将自己伪装成一只不起眼的小动物。你的动物形态是一种超小型陆生动物的特定形态。此形态独一无二，具有鲜明特点，而你每次都会变成同一个形态。你的动物形态可能有某种暗示自身龙种的显著特征，例如宁静的龙眼，或毛发、鳞片中的一抹特殊颜色，也可能与其他同种动物毫无区别。使用动物形态视为为欺骗技能的乔装用途进行伪装，但只能用来变成你的另一形态。在此超小型动物形态下，你获得1环<em>@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{害兽形态}</em>的数据。你可以无限期保持另一形态，并且可以再次使用此动作变回真正的龙形态。</p>"
+    },
+    "Deep Breath": {
+      "name": "深呼吸 Deep Breath",
+      "description": "<p>你可以深吸一口气，喷出更强大的吐息，但之后需要更久才能恢复。使用龙息时，你可以选择深吸一口气。如此做时，你的龙息造成的伤害使用的d4数量变为通常的两倍（@Damage[(max(2,ceil(@actor.level/2))*2)d4[@actor.flags.pf2e.dragonAncestry.damageType]]）；若原本是30尺线形，区域扩大为60尺线形；若原本是15尺锥形，区域扩大为30尺锥形；若原本是30尺内的5尺爆发，区域扩大为60尺内的10尺爆发。你在[[/r 10*1d4 #Recharge Deep Breath (Minutes)]]{1d4 × 10}分钟内不能再次在使用龙息时深吸一口气。</p>"
+    },
+    "Lingering Breath": {
+      "name": "残余龙息 Lingering Breath",
+      "description": "<p>无论是熊熊烈焰、有毒云雾、从天而降的雷电，还是飞旋的雪花，你都能调整喷吐武器，使其留下一个持续存在的区域，伤害胆敢逗留其中的生物。如果你的下一个动作是龙息，其区域内会留下一种残余效果，对在区域内结束回合的生物造成伤害，伤害类型与龙息相同，但伤害骰数量为其一半，并进行基本反射豁免，DC与你的龙息相同。此残余效果持续1d4轮，使用与你确定龙息恢复所需时间时相同的那次d4掷骰结果。即使你使用龙之威势提前恢复龙息，也不会影响残余龙息的持续时间。</p>"
+    },
+    "Overwhelming Breath": {
+      "name": "破抗龙息 Overwhelming Breath",
+      "description": "<p>你将削弱魔法能量抗力的能力与龙息结合。除法术外，你也可以将@UUID[Compendium.pf2e.feats-srd.Item.tXNfWDa6P7bCKrCt]{强能}动作用于龙息动作，即使它是通常仅适用于法术的超魔动作。将强能应用于龙息，或与你传承对应伤害类型相同的法术时，强能使你的吐息或法术忽略等于你等级两倍的能量抗力，而不是等于你等级的数值。</p>"
+    },
+    "Dragon's Flight": {
+      "name": "龙之飞行 Dragon's Flight",
+      "description": "<p>你已为双翼恢复足够的力量，能够随时飞行！传统派龙类或许不觉得这有多了不起，但对永恒龙而言，这却是较难达成的壮举之一，即使你的其他力量已经远远超出原本的能力。你始终拥有25尺飞行速度。</p>"
+    },
+    "Animal Speaker": {
+      "name": "动物语者 Animal Speaker",
+      "description": "<p>你或许仍最喜欢爬行类动物，但这并不意味着你只会与它们交谈。你可以与所有动物交谈，而不仅限于爬行类动物。你对动物@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}（通常使用交涉技能）的检定获得+1环境加值。</p>"
+    },
+    "Dragon Breath": {
+      "name": "龙息 Dragon Breath",
+      "description": "<p>你深深吸气，以强劲的吐息释放体内储存的能量。根据你的传承，龙息是@Template[type:line|distance:30]、@Template[type:cone|distance:15]或30尺内的@Template[type:burst|distance:5]，造成@Damage[max(2,ceil(@actor.level/2))d4[@actor.flags.pf2e.dragonAncestry.damageType]]伤害，伤害类型由传承决定。区域内每个生物都必须进行@Check[type:reflex|against:class-spell|basic:true]豁免，对抗你的职业DC或法术DC中较高者。如果伤害类型为毒素，豁免改为@Check[type:fortitude|against:class-spell|basic:true]；如果伤害类型为心灵，豁免改为@Check[type:will|against:class-spell|basic:true]。你在10分钟内不能再次使用此能力；从3级起，则改为在[[/r 1d4 #Dragon Breath Cooldown]]轮内不能再次使用此能力。</p><p>伤害在5级时增加1d4，此后每2级再增加同量伤害，最高在19级时达到10d4伤害。</p><p><strong>特殊</strong> 如果你的喷吐武器伤害类型有对应特征，你的龙息动作获得该特征。例如，如果你是红龙，你的龙息获得火焰特征。</p>"
+    },
+    "Tail Swipe": {
+      "name": "猛烈扫尾 Tail Swipe",
+      "description": "<p>你伸长尾巴，划出一道弧线扫向两名敌人。使用尾巴徒手攻击进行一次近战打击，将攻击骰结果与至多两名敌人的AC比较；两名敌人必须彼此邻接，且各自都处于你的近战触及内，或至多超出你的近战触及5尺。只投掷一次伤害骰，并将结果应用于每个被命中的生物。计算多次攻击减值时，猛烈扫尾视为两次攻击。横扫特征的调整值适用于你所有的猛烈扫尾攻击；请注意，龙族族裔赋予的尾巴徒手攻击具有横扫特征。</p>"
+    },
+    "Frightful Presence": {
+      "name": "恐怖威压 Frightful Presence",
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>你用力量环绕自身，令所有胆敢靠近者恐惧。在1分钟内，你获得一个以自身为中心、范围为@Template[type:emanation|distance:20]的恐怖威压灵光。进入灵光的敌人（或在你启动灵光时已位于其中的敌人）必须进行@Check[type:will|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者，结果如下。此后，它们在1分钟内暂时免疫此效果。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受威压影响。</p>\n<p><strong>成功</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}。</p>\n<p><strong>失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}。</p>\n<p><strong>大失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧4}。</p>"
+    },
+    "Impenetrable Scales": {
+      "name": "坚不可摧之鳞 Impenetrable Scales",
+      "description": "<p>你的鳞片变得更加难以击穿，赋予你更强的增益。你可以选择让鳞片成为重甲；如果这样做，其数据会改变，赋予你AC的+5物品加值，敏捷上限为+1，检定减值为-3，速度减值为-10尺，力量值要求为18。无论你是否选择让鳞片成为重甲，你都会从鳞片获得护甲专精效果。由于鳞片属于板甲组，此增益赋予你等于1 + 鳞片的潜能符文数值的挥砍伤害抗力；如果你选择将鳞片变为重甲，则抗力等于2 + 鳞片的潜能符文数值。是否将鳞片变为重甲的决定是永久性的。</p>\n<hr />\n<p><em>注：选取此专长后，一件具有正确数据的护甲会加入你的物品栏。你可以用符文进一步自定义它，或在替换此专长时将其删除。请记得装备此物品以获得增益。</em></p>"
+    },
+    "Sturdy Scales": {
+      "name": "坚固鳞片 Sturdy Scales",
+      "description": "<p>你采用了另一种强化鳞片的方法，使其迅速获得如同一套护甲般的惊人强度。你的鳞片是一套属于板甲组的中甲，赋予AC的+4物品加值，敏捷上限为+1，检定减值为–2，速度减值为–5尺，力量值要求为16。</p>\n<p>你永远无法穿戴其他护甲或脱下鳞片；不过，你仍不会因睡眠而陷入疲乏。最后，你可以如同对普通中甲那样，在鳞片上蚀刻护甲符文或附着护符。</p>\n<p><em>注：选取此专长后，一件具有正确数据的护甲会加入你的物品栏。你可以用符文进一步自定义它，或在替换此专长时将其删除。请记得装备此物品以获得增益。</em></p>"
+    },
+    "Draconic Pride": {
+      "name": "巨龙傲气 Draconic Pride",
+      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你不可战胜、不可逾越、伟岸无匹，绝非区区凡物，因此没有什么能击败你。至少，你的傲慢让你对此深信不疑。使你的惊惧状态值降低1。在1分钟内，每当你陷入惊惧时，使其状态值降低1。然而，一旦你的傲慢被击破，便会引发灾难性的焦虑。若你在巨龙傲气生效期间对抗恐惧效果的豁免大失败，此效果立即结束，且此次大失败使你获得的惊惧状态值不再降低，而是提高1。</p>"
+    },
+    "Aeternal Stride": {
+      "name": "永恒跨步 Aeternal Stride",
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>你利用永恒之光仪式的余力，挖掘未来的潜能，使自己能在眨眼间移动。你获得两个动作，可以用来跳跃、站立、快步或行走。如果你拥有相应的速度，还可以将掘地、攀爬、飞行或游泳加入此列表。此次移动快到旁人只能看到一团模糊的影子，且在你移动时无法行动，连通常会由你的移动触发的自由动作或反应动作也无法使用。</p>"
+    },
+    "Basic Dragon Mage Spellcasting": {
+      "name": "基础龙法师施法 Basic Dragon Mage Spellcasting",
+      "description": "<p>你强化了通过永恒之光仪式获得的法术力量；如今，你不再只能施放戏法。你获得基础施法增益。每次从龙法师变体获得一种新环级的法术位时，在你的法术库中加入一道相应环级的法术：可以是你传承所属传统的常见法术，也可以是你已经学会或发现的该传统的其他法术。</p>"
+    },
+    "Stunning Frenzy": {
+      "name": "震慑狂怒 Stunning Frenzy",
+      "description": "<p>你狂怒时的力量让一个对手难以承受。如果你将龙之狂怒或盘绕狂怒的所有攻击都用于同一目标，且任意一次打击命中并造成伤害，目标就必须进行@Check[type:fortitude|against:class|traits:incapacitation]豁免对抗你的职业DC，失败则陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}（大失败则为@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑3}）。这是失能效果。</p>\n<p><strong>特殊</strong> 如果你获得盘绕狂怒专长，可以将一个8级、10级或12级专长重训为震慑狂怒。这不遵循通常的重训规则，通常你不能重训为在原专长等级时不满足条件的专长。</p>"
+    },
+    "Incredible Palette": {
+      "name": "非凡味觉 Incredible Palette",
+      "description": "<p>你的味觉超乎寻常，而且能安全地摄入各种东西。你获得@UUID[Compendium.pf2e.feats-srd.Item.fOIUmDGa9gkeCHA0]{神之舌}通用专长，即使不满足其察觉先决条件。你对抗摄入体内的事物（例如摄入型毒药和疾病）的豁免还获得+2环境加值。若你在此类豁免中成功，改为大成功。</p>"
+    },
+    "Mushroom Burst": {
+      "name": "蘑菇迸裂 Mushroom Burst",
+      "description": "<p><strong>触发</strong> 一名邻接生物对你造成穿刺或挥砍伤害，或一名生物以近战徒手攻击对你造成穿刺或挥砍伤害。</p><hr /><p>敌人伤害你时，会戳破你身上生长的一个或多个蘑菇，使自身暴露于有毒孢子。触发生物受到等于你等级的毒素伤害，并进行@Check[type:fortitude|against:class|basic:true]豁免对抗你的职业DC。若大失败，它还陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}。</p>"
+    },
+    "Lingering Bite": {
+      "name": "余威噬咬 Lingering Bite",
+      "description": "<p>当你用魔法强化龙牙时，效果会附着在敌人身上。如果你以@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.vL4zzn94yUSkuSuc]{毁灭噬咬}命中，敌人还会受到2d8持续伤害，其伤害类型与额外伤害相同。如果你至少为18级，此持续伤害提高至3d8。</p>"
+    },
+    "Scaled Bulwark": {
+      "name": "鳞甲壁垒 Scaled Bulwark",
+      "description": "<p>即使单靠反应还不足以避开危险，你的鳞片也能保护你免受伤害。如果你选择让鳞片成为重甲，它们获得壁垒特征。</p>"
+    },
+    "Furious Momentum": {
+      "name": "狂怒之势 Furious Momentum",
+      "description": "<p>随着你无休止地猛攻，龙族攻击的狂怒与势头不断积累，在一连串狂怒攻击中愈发强大。你从龙族族裔获得的所有徒手攻击都获得叠劲特征。</p>"
+    },
+    "Breath Magic": {
+      "name": "吐息施法 Breath Magic",
+      "description": "<p><strong>需求</strong> 你可以使用龙息。</p>\n<hr />\n<p>每条龙的吐息都由魔法驱动，而你通过深入研究这一过程，学会了用吐息传递法术。如果你的下一个动作是用龙法师法术位施放一道具有区域且无持续时间的法术，你可以选择将该法术的区域改为龙息的区域。如此一来，你用吐息传递法术，因此在1d4轮内无法使用龙息，尽管该法术取代了龙息通常具有的所有效果。如果你拥有深呼吸，可以选择应用它来扩大法术区域，但如此做便必须依照深呼吸的通常规则，等待1d4 × 10分钟才能再次使用深呼吸。</p>"
+    },
+    "Harden Scales": {
+      "name": "硬化鳞片 Harden Scales",
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你将一股力量注入鳞片，使它们增厚变硬，以抵御接下来的数次攻击。在10分钟内，你获得对物理伤害的抗力10，精金除外。不过，每当此抗力生效，其数值就减少1。当它减免物理伤害10次、抗力降至0时，此效果结束。</p>"
+    },
+    "Ravager's Wings": {
+      "name": "蹂躏者之翼 Ravager's Wings",
+      "description": "<p>你一次性为双翼灌满能量，而不再经历漫长的赋能过程，从而能够自由飞行。你获得等于自身速度的飞行速度。</p><hr /><p><strong>特殊</strong> 如果你拥有@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.UuljRIghpzrgEDLx]{赋能双翼}、@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.Oq891TwP97hYLjKw]{导能双翼}或@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.dqhFC3lx911GZ8EX]{龙之飞行}专长，可以遵循通常的重训规则，立即将它们重训为其他族裔专长。</p>"
+    },
+    "Breath of the Dragon": {
+      "name": "巨龙之息 Breath of the Dragon",
+      "description": "<p>你将魔法集中用于强化喷吐武器，使其超越大多数永恒龙。你获得@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.ndBtaylDGWNDB7Cf]{龙息}专长，但你的龙息使用d6而非d4造成伤害。如果你拥有深呼吸专长，它会将伤害提高至通常数量两倍的d6，而非通常数量两倍的d4。</p><p>如果你已拥有龙息专长，可以立即将其重训。</p>"
+    },
+    "Practiced Flight": {
+      "name": "娴熟飞行 Practiced Flight",
+      "description": "<p>你或许已经能自行飞行，或许还不能，但无论如何，你一直在恢复能让你更善于飞行的通路，因此只要飞起来，你就能飞得更快、更灵活。每当你拥有飞行速度时，你的飞行速度获得+5尺状态加值，用于空中机动的特技检定获得+1环境加值。如果你的特技为大师，飞行速度的状态加值提高至+10尺；如果你的特技为传奇，飞行速度的状态加值提高至+15尺。</p>"
+    },
+    "Draconic Haste": {
+      "name": "巨龙加速 Draconic Haste",
+      "description": "<p>你借助永恒之光仪式赋予魔法的迅速适应之力，暂时提升身体的速度。你每天可以对自己施放一次<em>@UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{加速术}</em>，视为你传承所属传统的天生法术。</p>"
+    },
+    "Blasting Bite": {
+      "name": "爆破噬咬 Blasting Bite",
+      "description": "<p>你毁灭性的噬咬伴随着能量爆炸，将敌人向后轰飞。如果你以毁灭噬咬命中，可以选择对敌人释放一次爆炸，将其击退。如此做时，目标必须进行@Check[type:fortitude|against:class]豁免对抗你的职业DC。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标被向后推开5尺。</p>\n<p><strong>失败</strong> 目标被向后推开10尺。</p>\n<p><strong>大失败</strong> 目标被向后推开20尺；如果你用三个动作进行毁灭噬咬，则为30尺。</p>"
+    },
+    "Gather Frenzy": {
+      "name": "蓄势狂怒 Gather Frenzy",
+      "description": "<p>你通过永恒之光仪式变得灵活的全部魔法能量通路积蓄力量，使与你传承的喷吐武器相应的魔法显现和能量明显地环绕着你。如果你的下一个动作是龙之狂怒或盘绕狂怒，你进行的所有打击的伤害骰都获得等于武器伤害骰数量的状态加值，并忽略数值等于你等级的目标抗力。</p>"
+    },
+    "Lashing Constrict": {
+      "name": "甩击紧勒 Lashing Constrict",
+      "description": "<p>当你用身体盘绕紧勒敌人时，可以甩动尾巴，将其砸向附近的另一生物，再把它送回爪中牢牢抓住。与受擒敌人邻接的另一名敌人也受到你的紧勒伤害，不过第二名敌人必须进行基本@Check[type:reflex|against:class|basic:true]豁免对抗你的职业DC，取代基本强韧豁免。</p>"
+    },
+    "Draconic Spellshaper": {
+      "name": "龙族塑法者 Draconic Spellshaper",
+      "description": "<p>你与自身魔法的协调已臻顶峰。其他龙法师需要竭尽全力才能完成的龙族塑法，对你而言如呼吸般自然。你可以将龙法师专长中的塑法单动作，或龙法师专长中在下一个动作是@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.ndBtaylDGWNDB7Cf]{龙息}时产生效果的单动作（例如@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.yvIbTaoZIgrXYTJN]{扩展吐息}），作为自由动作使用。</p>"
+    },
+    "Collective Aid": {
+      "name": "协力援助 Collective Aid",
+      "description": "<p>如果你是乐园龙，你借助天堂的协作本性；如果你是毒蕈龙，则借助大型群落中的共同生活经验，从而更轻松地帮助盟友。你用于@UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{协助}的检定获得+4环境加值。</p>"
+    },
+    "Living Breath": {
+      "name": "活化吐息 Living Breath",
+      "description": "<p>你能将足够多的魔法注入吐息，赋予它一丝生命，使其继续依照你的命令行动。如果你的下一个动作是使用龙息造成伤害，你可以将喷吐武器转化为活化吐息。在最初的效果结算后，于你的回合结束时，吐息凝聚成龙的形状，由构成喷吐武器的能量或物质组成，占据@Template[type:line|distance:10|width:10]{10尺乘10尺}的空间，出现在你从喷吐武器区域内选定的位置。从你的下一回合起，你可以维持此效果，使活化吐息移动至多60尺。在它移动结束时，处于其区域内的所有生物受到[[/r 10d6]]伤害，类型与你的龙息相同，并进行@Check[type:reflex|dc:resolve(@actor.attributes.spellDC.value)|basic:true]豁免对抗你的法术DC；此伤害不会附带通常作用于受到你龙息伤害的生物的额外效果。你可以维持此效果，最长持续1分钟，且在维持期间不能再次使用龙息。</p>"
+    },
+    "Aura of Fear": {
+      "name": "恐惧灵光 Aura of Fear",
+      "description": "<p>你的魔法能量化为骇人的波浪在周身翻涌，形成@Template[type:emanation|distance:30]{30尺灵光}，令所有胆敢靠近者恐惧。任何进入此灵光的敌人都必须进行@Check[type:will|against:class]豁免对抗你的职业DC，失败则陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}，大失败则为@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}。随后，它在24小时内暂时免疫此效果。</p>"
+    },
+    "Stabilize Mass": {
+      "name": "稳固体量 Stabilize Mass",
+      "description": "<p>你能维持更大的体型，而不再承受通常对灵活性的负面影响。你不再因赋能体量专长而陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}。</p>"
+    },
+    "Back to Your Roots": {
+      "name": "溯本归源 Back to Your Roots",
+      "description": "<p>尽管你的传承不同寻常，你仍利用永恒之光仪式，与自己的另一种龙族传承建立了强烈的神秘联系。你获得在1级时为确定喷吐武器及类似专长的效果而选择的龙族传承的全部增益。这不仅赋予你该传承列出的增益，还允许你选取要求属于该传承的专长和其他角色选项。</p>"
+    },
+    "Empower Scales": {
+      "name": "赋能鳞片 Empower Scales",
+      "description": "<p>你将魔法引向鳞片，恢复了它们过去的一部分坚韧。你的鳞片赋予AC的+1物品加值，敏捷上限为+4。你在使用鳞片时为受训；鳞片不使用你的护甲或无甲防御熟练度。从7级起，如果你的无甲防御熟练度更高，你可以使用该熟练度。</p>\n<p>此外，你可以将基础符文和性能符文直接刻入鳞片。如果这样做，潜能符文会提高鳞片的AC物品加值，就像通常对护甲的效果一样。你也可以在鳞片上附着护符。如果你穿戴任何护甲，鳞片上的基础符文和性能符文就会失效；如果你的鳞片上已附着护符，而你又穿上附着了护符的护甲，两枚护符都会失效，且必须重新附着。和探险者服装一样，你的鳞片不是护甲，因此你无法在其上刻入指定了特定护甲类型的性能符文。</p>\n<hr />\n<p><em>注：选取此专长后，一件具有正确数据的护甲会加入你的物品栏。你可以用符文进一步自定义它，或在替换此专长时将其删除。请记得装备此物品以获得增益。由于系统限制，无法创建自定义的护甲熟练度，因此这件护甲物品被设定为无论等级高低，都使用无甲防御熟练度计算AC。</em></p>"
+    },
+    "Ravager's Scales": {
+      "name": "蹂躏者之鳞 Ravager's Scales",
+      "description": "<p>你将大量魔法集中于鳞片，使它们更全面地保护你免受伤害。你获得@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.H4Xd2W1f4Ecvc90n]{赋能鳞片}族裔专长，但你的鳞片改为赋予AC的+2物品加值，敏捷上限为+3。如果你已拥有赋能鳞片专长，可以立即将其重训。</p>"
+    },
+    "Consolidate Wings": {
+      "name": "凝聚翼力 Consolidate Wings",
+      "description": "<p>你凝聚双翼的力量，以便更轻松地将速度提升应用于双翼，并专注于拓展龙族魔法的其他部分。如果你的陆地速度更高，你可以将@UUID[Compendium.pf2e.feats-srd.Item.zQgdTW7CPYw8km5F]{龙之飞行}提供的飞行速度提高至等于陆地速度。此外，你额外获得一个1级和一个5级龙族族裔专长。</p>"
+    },
+    "Bespell Claw": {
+      "name": "附法龙爪 Bespell Claw",
+      "description": "<p><strong>频率</strong> 每回合一次</p>\n<p><strong>需求</strong> 你最近的一个动作是施放非戏法法术。</p>\n<hr />\n<p>你将上一个所施放法术的残余能量注入从龙族族裔获得的一种徒手攻击。直到你的回合结束，该徒手攻击额外造成1d6伤害，其类型取决于你刚刚施放的法术所属的学派。</p>\n<ul>\n<li><strong>防护系</strong> 力场伤害。</li>\n<li><strong>咒法系</strong>或<strong>变化系</strong> 与该徒手攻击相同的类型。</li>\n<li><strong>预言系</strong>、<strong>惑控系</strong>或<strong>幻术系</strong> 心灵伤害。</li>\n<li><strong>塑能系</strong> 该法术造成的一种伤害类型；如果该法术不造成伤害，则为力场伤害。</li>\n<li><strong>死灵系</strong> 负能伤害。</li>\n</ul>\n<p>@UUID[Compendium.battlezoo-dragons-core-pf2e.effects.Item.ftR269fBvcaUKwe1]{效果：附法龙爪}</p>"
+    },
+    "Spore Breath": {
+      "name": "孢子吐息 Spore Breath",
+      "description": "<p>使用龙息时，你可以喷出锥形的随机孢子，而不是含有致命毒素的孢子，不过这样做时，连你自己也无法预知结果。每小时一次，当你使用@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.ndBtaylDGWNDB7Cf]{龙息}时，投掷1d12并查阅下表，确定一种孢子效果。将喷吐武器的效果从毒素伤害改为下列效果，使用所列豁免，并在所有效果都拥有的原能特征之外，添加所列特征。掷出5时的流失黏液疾病具有以下效果：</p><p><strong>流失黏液</strong>（疾病）；等级10；在疾病治愈前，目标无法从流失黏液造成的流失状态中恢复。</p><p><strong>阶段1</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1}（1天）</p><p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失3}（1天）</p><p><strong>阶段3</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失4}和@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}（1天）</p><p><strong>阶段4</strong> 流失4、@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}和@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢2}（1天）</p><p><strong>阶段5</strong> 死亡，目标崩解为一滩污秽的黏液。</p><p>@UUID[Compendium.battlezoo-dragons-leshy-dragons-pf2e.roll-tables.RollTable.VsEz3ZpP8ZGcNcUy]{孢子吐息随机效果}</p><table class=\"pf2-table remaster\"><thead><tr><th>1d12</th><th>孢子吐息随机效果</th></tr></thead><tbody><tr><td>1</td><td>失败时，生物陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}1轮，大失败则为2轮。@Check[will|against:class-spell|traits:emotion,mental,primal]豁免；情绪、心灵和原能特征。</td></tr><tr><td>2</td><td>选择命令区域内的所有生物靠近你、逃离（如同具有@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}状态）、松开手中物品、俯身@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}或站在原地。在执行你的命令之前，它们不能延迟或使用反应动作。失败时，该生物必须用下一回合的第一个单动作执行你的命令；大失败时，该生物必须用下一回合的所有动作执行你的命令。@Check[will|against:class-spell|traits:primal,auditory,linguistic,mental]豁免；听觉、语言和心灵特征。</td></tr><tr><td>3</td><td>大成功时，生物不受影响。成功时，该生物开始在不合时宜的时刻轻笑，使其作为反应动作一部分进行的所有检定承受–2状态减值，持续1轮。失败时，该生物无法抑制大笑，2轮内无法使用反应动作。大失败时，该生物彻底笑得无法自已，2轮内无法使用反应动作，并陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，持续2轮。@Check[will|against:class-spell|traits:primal,emotion,mental]豁免；情绪和心灵特征。</td></tr><tr><td>4</td><td>大成功时，生物不受影响。成功时，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮，并被月光勾勒出轮廓1分钟。可见生物在被月光勾勒时不能处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态。如果生物处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}状态，受到月光影响时会处于隐蔽而非无踪状态。失败时，效果与成功相同，但该生物目眩1分钟。大失败时，效果与成功相同，但该生物困惑1轮且目眩1分钟。@Check[will|against:class-spell|traits:primal,light]豁免；光亮特征。</td></tr><tr><td>5</td><td>该生物暴露于流失黏液疾病。大成功时，生物不受影响。成功时，该生物对抗流失黏液的豁免承受–1状态减值，直到感染此疾病或经过1天，以先发生者为准。失败时，该生物感染流失黏液疾病，处于阶段1。大失败时，该生物感染流失黏液疾病，处于阶段2。@Check[fortitude|against:class-spell|traits:primal,disease]豁免；疾病特征。6 失败时，生物陷入@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮，大失败则为2轮。@Check[fortitude|against:class-spell|traits:primal,incapacitation]豁免；失能特征。</td></tr><tr><td>6</td><td>失败时，生物陷入@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮，大失败则为2轮。@Check[fortitude|against:class-spell|traits:primal,incapacitation]豁免；失能特征。</td></tr><tr><td>7</td><td>失败时，生物从你身边@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]1轮，大失败则为2轮。@Check[will|against:class-spell|traits:primal,incapacitation,mental]豁免；失能和心灵特征。</td></tr><tr><td>8</td><td>大成功时，生物不受影响。成功时，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1}，但此流失状态在1分钟后结束。失败时，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失2}。大失败时，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失4}。@Check[fortitude|against:class-spell]豁免。</td></tr><tr><td>9</td><td>失败时，生物陷入@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，持续[[/gmr 1d6 #rounds]]{1d6轮}，大失败则为1分钟。由于此效果不会阻止它们被持续的噪声唤醒，它们很可能很快就会被战斗的声响惊醒，但仍会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}并掉落手中物品。@Check[fortitude|against:class-spell|traits:primal,incapacitation,sleep]豁免；失能和睡眠特征。</td></tr><tr><td>10</td><td>失败时，生物陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，持续1轮；大失败时，则陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢2}，持续1轮。@Check[fortitude|against:class-spell]豁免。</td></tr><tr><td>11</td><td>大成功时，生物不受影响。成功时，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续1轮。失败时，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}，持续1轮，并陷入呆滞1，持续1分钟。大失败时，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞3}，持续1轮，并陷入呆滞2，持续1分钟。@Check[will|against:class-spell|traits:primal,mental]豁免；心灵特征。</td></tr><tr><td>12</td><td>大成功时，生物不受影响。成功时，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}，持续1轮。失败时，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭3}，持续1轮，并陷入力竭1，持续1分钟。大失败时，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭4}，持续1轮，并陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}，持续1分钟。@Check[fortitude|against:class-spell]豁免。</td></tr></tbody></table>"
+    },
+    "Forest Shape": {
+      "name": "森林形态 Forest Shape",
+      "description": "<p>你唤起体内的森林之力，化为一棵树。你变成与自身体型和年龄相同的树木。除此之外，此效果与<em>@UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{树化术}</em>相同。</p>"
+    },
+    "Hoarded Spell": {
+      "name": "珍藏法术 Hoarded Spell",
+      "description": "<p>你珍爱并牢牢收藏自己的法术，因此能够轻松重复使用较弱的法术。如果你接下来的动作是施放一道4环或更低环、无持续时间的法术，你便将残余能量存入非实体的宝藏中，以备再次使用。你可以在自己下一回合结束前再次施放该法术，无需消耗法术位。你不能对已珍藏的法术再次使用珍藏法术，以将其施放超过两次。</p>"
+    },
+    "Dragon's Endurance": {
+      "name": "巨龙耐力 Dragon's Endurance",
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>你短暂地让魔法在体内激涌，化为防护之力，在短时间内将伤害挡在身外。你获得等于自身等级两倍的临时生命值，持续1轮。</p>\n<p>@UUID[Compendium.battlezoo-dragons-core-pf2e.effects.Item.S5pPHb8uwhe4fzWu]{效果：巨龙耐力}</p>"
+    },
+    "Lethal Claws": {
+      "name": "致命龙爪 Lethal Claws",
+      "description": "<p>你的爪击格外致命，轻易便能造成重创。使用龙族族裔赋予的爪击徒手攻击进行打击时，若骰面掷出19，且该结果为成功，则改为大成功。如果掷出19仍会失败，此能力不产生效果。</p>"
+    },
+    "Coiling Frenzy": {
+      "name": "盘绕狂暴 Coiling Frenzy",
+      "description": "<p>你打击敌人，并盘绕住它。以任意顺序进行一次爪击和一次尾巴打击，两次都针对同一目标。如果任意一次打击命中，你自动@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}目标，使其陷入由你造成的@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}状态。</p>"
+    },
+    "Wyrm's Size": {
+      "name": "上古龙体型 Wyrm's Size",
+      "description": "<p>你将永恒之光仪式带来的压倒性魔力化为庞大身躯，使其他生物为之敬畏。根据你的传承，你可能变得与你同族中最年长的远古巨龙一般巨大，也可能比它们所能达到的最大体型还要庞大。你的体型增大至巨型，触及增加至20尺。这不会改变你的其他数据。</p>"
+    },
+    "Quenching Breath": {
+      "name": "灭火吐息 Quenching Breath",
+      "description": "<p>你的吐息用大量水流淹没区域，足以轻易地瞬间扑灭普通火焰。你龙息区域内的所有非魔法火焰都会熄灭。</p>"
+    },
+    "Channel Wings": {
+      "name": "导能双翼 Channel Wings",
+      "description": "<p>你将日益增长的魔力导入双翼，暂时恢复完整的飞行能力。你从@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.UuljRIghpzrgEDLx]{赋能双翼}获得的飞行速度提高至25尺。</p>"
+    },
+    "Summon Draconic Servitor": {
+      "name": "召唤龙族侍从 Summon Draconic Servitor",
+      "description": "<p>你凭借与较弱龙类的联系，召来一条龙并肩作战。它的战斗力或许远不及你，但仍能提供支援和龙族的怒火。你每天可以施放一次<em>@UUID[Compendium.pf2e.spells-srd.Item.kghwmH3tQjMIhdH1]{召唤巨龙}</em>，视为你传承所属传统的5环天生法术。</p>"
+    },
+    "Antipodal Duality": {
+      "name": "两极兼修 Antipodal Duality",
+      "description": "<p>大多数龙只能将魔法集中于战斗技艺或高等施法，无法兼顾两者，而你在永恒之光仪式后独特的成长方式，使你格外适合将两者悉数掌握。你获得@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.sZYW94SRXqOvdUNo]{龙族蹂躏者奉献}或@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.TgjyOEJ1j1QvlMvW]{龙法师奉献}中尚未拥有的那个专长，即使通常情况下，你必须先选取更多龙族蹂躏者或龙法师变体专长才能选取另一个奉献专长。</p>"
+    },
+    "Channel Scales": {
+      "name": "灌能鳞片 Channel Scales",
+      "description": "<p>你将强大魔法导入鳞片，使其增厚，并进一步强化其力量。鳞片的AC物品加值提高至+3，敏捷上限变为+2。你保留鳞片上刻入的所有符文，它们现在影响鳞片的新数据；如果你的无甲防御熟练度更高，鳞片仍可以使用该熟练度。</p>"
+    },
+    "Dragon's Tenacity": {
+      "name": "巨龙坚韧 Dragon's Tenacity",
+      "description": "<p>你导引魔法强化自身的坚韧，不仅变得更能承受打击，还从命运中汲取适应潜能，抵挡每天最初受到的一点伤害。你的生命值上限增加等于自身等级的数值。在每日准备期间，你获得等于自身等级一半的临时生命值，持续到下一次每日准备，或直到这些临时生命值被耗尽。</p>"
+    },
+    "Leshy Roots": {
+      "name": "莱西根源 Leshy Roots",
+      "description": "<p>与其他莱西龙相比，你与莱西根源更为亲近。你获得以莱西族裔为所选族裔的@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊}通用专长，即使该专长通常只能选择常见族裔；你还获得一个1级莱西族裔专长。你可以选取要求拥有相应莱西传承的莱西族裔专长（林木龙对应叶莱西，花卉龙对应莲莱西，丰收龙对应葫芦莱西，海带龙对应藻莱西，毒蕈龙对应真菌莱西）；任何根据莱西传承影响真菌或植物的专长，例如@UUID[Compendium.pf2e.feats-srd.Item.kpn4R65YlD38iAIS]{返璞归原}和@UUID[Compendium.pf2e.feats-srd.Item.KYKK1vLqGIxXH5Tu]{同根交谈}，也都使用相应的莱西传承。</p>"
+    },
+    "Enspelled Breath": {
+      "name": "附法吐息 Enspelled Breath",
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<p><strong>需求</strong> 你可以使用龙息。</p>\n<hr />\n<p>你开发出了一种强大却消耗巨大的招式，以备危急时使用：将吐息和法术结合，造成毁灭性的组合效果。你使用龙息，同时使用吐息施法来施放一道需要两个或更少动作的法术。区域内的生物同时受到两种效果的影响。</p>"
+    },
+    "Dragon Mage Dedication": {
+      "name": "龙法师奉献 Dragon Mage Dedication",
+      "description": "<p>你研习更深奥的魔法，学习与你的龙族传承相应的魔法传统的秘密。你在该魔法传统对应的技能上获得受训（奥术对应奥法，原能对应自然，异能对应神秘，神术对应宗教）；如果你已经在该技能上受训，则改为在另一项自选技能上受训。</p>\n<p>你获得施放法术行动的使用权。你获得一个法术库，其中包含你传承对应传统的两个常见戏法，也可以选择你学会或发现的该传统的其他戏法。你在该传统法术的法术攻击骰和法术DC上为受训。你的龙法师变体法术的关键施法属性，是龙族族裔固定属性提升所提升的心智属性；如果该固定属性提升提高的是身体属性，则关键施法属性为魅力。这些法术是你传承所属传统的龙法师法术。</p>\n<p><strong>特殊</strong> 在获得另外两个龙法师变体专长之前，你不能选取另一个奉献专长。</p>"
+    },
+    "Hyperfocus Speed": {
+      "name": "凝能疾飞 Hyperfocus Speed",
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你学会了将全部魔法潜能直接转化为飞行速度，以暂时限制使用魔法为代价，换取极为迅捷的移动。你获得100尺飞行速度，最长持续10分钟；如果你已有飞行速度，则将其提高至100尺。此飞行速度还获得+20尺状态加值，总计为120尺。此效果最长持续10分钟。效果持续期间，你不能施放法术或启动大多数魔法物品，但仍可以饮用魔法药水。你可以解消此效果。</p>"
+    },
+    "Magic Resistance": {
+      "name": "魔法抗力 Magic Resistance",
+      "description": "<p>你导引魔法能量，形成一层能剥离敌方魔法的薄薄防护能量场。你对抗魔法的豁免获得+1状态加值。</p>"
+    },
+    "Empower Wings": {
+      "name": "赋能双翼 Empower Wings",
+      "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p>你已向双翼注入足够多的魔法，开始恢复它们在永恒之光仪式前的原有功能，但要让它们长时间托起你这样的身躯，还需要一段时日。你进行飞行。如果你通常没有飞行速度，则在此次移动中获得15尺飞行速度。如果此次移动结束时你不在坚实地面上，就会坠落。</p><hr /><p><strong>特殊</strong> 你记得如何飞行，以及如何在坠落时稳住身形；你的翅膀已经足够强健，即使没有飞行速度，也能尝试@UUID[Compendium.pf2e.actionspf2e.Item.qm7xptMSozAinnPS]{着陆}。</p>"
+    },
+    "Hoard Hauler": {
+      "name": "宝藏搬运者 Hoard Hauler",
+      "description": "<p>你曾带着足够多的宝藏四处奔走，如今能轻松举起和搬运超出自身体型及力量通常所能承受的重量。你的运动获得受训熟练度；如果你已在运动上受训，则改为在另一项自选技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.C0Tcelg3BAPhML6J]{体健负重}技能专长。</p>"
+    },
+    "Majestic Spell": {
+      "name": "威仪法术 Majestic Spell",
+      "description": "<p>龙族魔法比大多数其他族裔的魔法更古老，也更令人敬畏；它们居然认为研究自己的魔法就能理解你的魔法，实在可笑，不过你也许足够有礼，不会当场笑出声。</p>\n<p>如果你的下一个动作是施放法术，其显现和成分会充满非凡的龙族威仪，呈现异常强烈的视觉景象、咆哮声以及其他效果，使该法术几乎无法辨认。例如，你的火球术可能化为一条完全由火焰构成的蜿蜒巨龙，扑向敌人后紧紧盘起，再炸成漫天烟火。它也可能显现为一轮微型太阳，先发出光芒，再膨胀变红，最终化为烈焰新星爆开。</p>\n<p>有能力施放该法术的生物不会自动认出它是什么法术。此外，目睹你施法的生物使用回忆知识辨识此法术的检定，以及在施法过程中反制此法术的检定（例如反制法术），都承受–2环境减值。最后，直到你的下一回合结束，你针对这些生物的威吓检定获得+1环境加值；如果你施放的法术是以法术位施放的6环或更高环法术，威吓检定的环境加值提高至+2。</p>\n<p>@UUID[Compendium.battlezoo-dragons-core-pf2e.effects.Item.XR3AyDjzwwcdkD1x]{效果：威仪法术}</p>"
+    },
+    "Dragon's Instincts": {
+      "name": "巨龙本能 Dragon's Instincts",
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 你使用察觉投掷先攻。</p>\n<hr />\n<p>你的龙族本能提醒你危险将至，确保你已准备好抢先反应。投掷两次先攻，并取较高结果。</p>"
+    },
+    "Join Dreamscape": {
+      "name": "踏入梦境 Join Dreamscape",
+      "description": "<p>你进入一个生物的梦境传递消息，或更深入地进入附近生物的梦境。你每天可以施放一次<em>@UUID[Compendium.pf2e.spells-srd.Item.yM3KTTSAIHhyuP14]{托梦术}</em>，视为异能天生法术。如果你的<em>托梦术</em>目标是30尺内正在睡眠做梦的生物，此效果获得维持的持续时间，你可以派遣梦中的自我进入它的梦境；只要你不断维持此效果，且它仍在做梦，就能留在那里，最长为维持法术通常允许的10分钟。在此期间，你是它梦境中的观察者，但可以向它传递消息，它也能回复你。除此之外，你无法与它的梦境互动，但梦境也无法伤害你。</p>"
+    },
+    "Expert Dragon Mage Spellcasting": {
+      "name": "专家龙法师施法 Expert Dragon Mage Spellcasting",
+      "description": "<p>你的魔力进一步蓬勃成长；仅用拓展自身魔法容量的这段短暂时光，你就学会了通常只有技艺精湛、完全成年的施法龙类才能施放的法术。你获得专家施法增益。</p>"
+    },
+    "Bullying Bite": {
+      "name": "凌虐噬咬 Bullying Bite",
+      "description": "<p>对付落入你掌握的敌人时，你能使出更强大的噬咬。当你对处于由你造成的受擒或束缚状态的生物使用@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.vL4zzn94yUSkuSuc]{毁灭噬咬}时，你造成的额外伤害等于武器伤害骰数量加上毁灭噬咬的额外伤害骰数量。例如，如果你拥有高等强击符文，在12级时，双动作毁灭噬咬会额外造成5点伤害，三动作毁灭噬咬会额外造成7点伤害。</p>"
+    },
+    "Corona of Power": {
+      "name": "能量冠冕 Corona of Power",
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你用能量、毒素或心灵力量的冠冕环绕自身。在1分钟内，任何触碰你，或用徒手攻击或不具触及特征的近战武器伤害你的生物，都受到@Damage[3d6[@actor.flags.pf2e.dragonHeritage.damageType]]伤害，类型为你传承对应的伤害类型。</p>"
+    },
+    "Recurring Fear": {
+      "name": "恐惧再临 Recurring Fear",
+      "description": "<p>你能更频繁地激发自己的恐怖威压。你可以每小时使用一次@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.tMRIAbKCYsK9n9we]{恐怖威压}，而不是每天一次。</p>"
+    },
+    "Draconic Advance": {
+      "name": "巨龙突进 Draconic Advance",
+      "description": "<p>你骤然加速，冲入战场。行走两次。如果你移动结束时，至少一名敌人处于你的近战触及内，你可以使用从龙族族裔获得的一种徒手攻击，对该敌人进行一次近战打击。如果你从龙族族裔获得了相应的移动类型，可以用掘地、攀爬、飞行或游泳代替行走。</p>"
+    },
+    "Draconic Cantrip": {
+      "name": "龙族戏法 Draconic Cantrip",
+      "description": "<p>你恢复了一部分天生魔法，能够用它施放你传承所属传统的一个戏法。从你传承所列传统对应的法术列表中选择一个戏法。你可以将该戏法作为天生法术施放。依照通常规则，戏法升阶至你等级的一半，向上取整。</p>"
+    },
+    "Dragonet Form": {
+      "name": "小龙形态 Dragonet Form",
+      "description": "<p>你可以缩小成自身的迷你小龙形态。你的体型缩小至超小型，外貌可能也会更加可爱，不过任何熟悉你正常体型下外貌的人仍能轻易认出你。你可以无限期保持另一形态，并且可以再次使用此动作变回真正的龙形态。</p>"
+    },
+    "Reflecting Scales": {
+      "name": "反射鳞片 Reflecting Scales",
+      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你将能量集中于鳞片，在保护自身的同时储存力量，以便释放强大的爆发。选择酸蚀、寒冷、火焰、力场、电击、心灵、毒素、音波或精魂伤害。你获得对所选伤害类型的抗力5，持续5分钟。鳞片的颜色随所选伤害类型而改变，通常变为与该伤害类型相关的一种龙类或其他有鳞生物的颜色。鳞片在保护你时积蓄能量。每次使用反射鳞片时，记录鳞片防止了多少伤害。效果持续期间，你可以再次使用反射鳞片（忽略其频率条目），使储存的全部能量在@Template[type:emanation|distance:20]内爆发。此次爆炸对区域内所有生物造成所选类型的伤害：鳞片每防止10点伤害，就造成1d6伤害；如果鳞片防止了100点伤害，则达到最高10d6伤害，并进行@Check[type:reflex|against:class-spell]豁免对抗你的职业DC或法术DC中较高者。如此做后，反射鳞片的效果提前结束。</p>"
+    },
+    "Ride the Breath": {
+      "name": "乘息而行 Ride the Breath",
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你将吐息凝聚为强大的线形攻击，再将全身塑成喷吐武器中的能量或物质，随攻击一同前进。长度至多120尺的@Template[type:line|distance:120]{线形}区域内的生物受到@Damage[18d6[@actor.flags.pf2e.dragonAncestry.damageType]]伤害，类型为你传承对应的伤害类型，并进行@Check[reflex|against:class-spell|basic]豁免对抗你的职业DC或法术DC中较高者。你在区域的另一端重新凝聚成形。虽然你的移动仍能触发反应动作，但在你化为闪电、火焰等形态时，大多数反应通常无法影响你，除非该反应能反制乘息而行，或GM判定它能影响这道奔涌的线形吐息本身。</p>"
+    },
+    "Draconic Momentum": {
+      "name": "龙之威势 Draconic Momentum",
+      "description": "<p>当你的狂怒格外有效时，你借助势头激发魔法，使喷吐武器恢复可用。如果你的龙之狂怒或盘绕狂怒中至少一次打击造成重击，你的龙息立即恢复可用，可以再次使用，无需等待通常的[[/r 1d4 #Breath Weapon Cooldown]]{1d4轮}。这不会影响@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.RD9Q6lWgKO7wyv6n]{深呼吸}专长的恢复时间。</p><p><strong>特殊</strong> 如果你获得@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.OAq4tXiz5n6uVOdJ]{盘绕狂怒}专长，可以立即将一个8级、10级或12级专长重训为龙之威势。这不遵循通常的重训规则，通常你不能重训为在原专长等级时不满足条件的专长。</p>"
+    },
+    "Ancient's Size": {
+      "name": "远古龙体型 Ancient's Size",
+      "description": "<p>你将魔力导向体型，进一步长大，同时保持原本体型下的反应能力。你的体型增大至超大型，触及增加至15尺。这不会改变你的其他数据。</p>"
+    },
+    "Hoard Warder": {
+      "name": "宝藏守卫 Hoard Warder",
+      "description": "<p>你学会了使用防护魔法，在窃贼觊觎宝藏时发出警报，也能用同样的魔法保护夜间营地。你每天可以施放一次<em>@UUID[Compendium.pf2e.spells-srd.Item.4WAib3GichxLjp5p]{警报术}</em>，视为你传承所属传统的天生法术。</p>"
+    },
+    "Master Dragon Mage Spellcasting": {
+      "name": "大师龙法师施法 Master Dragon Mage Spellcasting",
+      "description": "<p>你已掌握使自己能够自发施法的魔法通路，获得通常只有技艺最精湛的远古龙施法者才能掌握的强大魔法。你获得大师施法增益。</p>"
+    },
+    "Empowered Mass": {
+      "name": "赋能体量 Empowered Mass",
+      "description": "<p>你将魔法集中用于长大身体，并强化骨骼与身体结构，以承受增大的体型。你永久获得<em>@UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{变巨术}</em>的效果，变为大型，触及增加至10尺，陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}，且近战伤害获得+2状态加值。</p>"
+    },
+    "Bite of Opportunity": {
+      "name": "借机噬咬 Bite of Opportunity",
+      "description": "<p><strong>触发</strong> 你触及内的一名生物使用操作动作或移动动作、进行远程攻击，或在其使用的移动动作期间离开一个方格。</p><hr /><p>敌人疏于防备时，你狠狠咬向它。对触发生物进行一次噬咬打击。如果你的攻击造成重击，且触发的是操作动作，你打断该动作。此次打击不计入你的多次攻击减值，也不受你的多次攻击减值影响。</p>"
+    },
+    "Bullying Frenzy": {
+      "name": "凌虐狂怒 Bullying Frenzy",
+      "description": "<p>你的狂怒不再只能造成直接伤害，还能让你在敌人承受怒火时击打并摔擒它们。你可以将@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.7K89c3dmPCa1euqA]{龙之狂怒}中任意数量的打击替换为@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}或@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}尝试。</p>"
+    },
+    "Dragon Scent": {
+      "name": "巨龙嗅觉 Dragon Scent",
+      "description": "<p>魔法流经你的鼻腔，恢复敏锐的嗅觉，让你能够嗅出附近的窃贼和其他忘记掩盖气味的躲藏生物。你获得范围30尺的模糊灵敏嗅觉。</p>"
+    },
+    "Amphibious Ease": {
+      "name": "两栖自如 Amphibious Ease",
+      "description": "<p>你将魔法导入全身，使你能同样轻松地在水中和陆地上移动。如果你的传承赋予你10尺游泳速度，该游泳速度提高至25尺。如果你选择从传承获得10尺陆地速度，该陆地速度提高至25尺。</p>"
+    },
+    "Draconic Breadth": {
+      "name": "龙族法术广度 Draconic Breadth",
+      "description": "<p>随着永恒之光仪式的效果扩展、力量增长，你的魔法通路变得更加宽广，使你每天能施放更多法术。除你最高的两个龙法师法术位环级外，将从龙法师变体专长获得的各环级法术库法术数量和法术位数量各增加1。</p>"
+    },
+    "Ethereal Hoard": {
+      "name": "以太宝藏 Ethereal Hoard",
+      "description": "<p>你专注于与宝藏的联系，将宝藏送入灵界深处，那里鲜有人能寻到。你可以花费1分钟，将由总容积不超过你等级的物品组成的宝藏送往灵界最深处；你可以解消此效果，将全部宝藏带回自己当前所在的位置，否则此效果的持续时间没有上限。宝藏中不能包含任何生物，即使生物位于异次元空间内也不行。宝藏的时间正常流逝，并受到灵界的环境效果影响。尽管可能性极低，仍有可能被灵界的生物偶然发现。拥有以太宝藏的龙通常会收藏少量体积小而价值高的物品，而不是堆积如山的铜币或银币，以便将全部宝藏送入灵界。</p>"
+    },
+    "Dive and Exhale!": {
+      "name": "俯冲吐息！ Dive and Exhale!",
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>你短暂冲上空中再俯冲下来，同时向四周释放吐息。你垂直向上飞行15尺，再沿直线飞向60尺内地面上一个自选的空位，在落点周围喷吐，对落点@Template[type:emanation|distance:10]内的所有生物造成伤害，伤害骰数量为通常的两倍。你必须能够使用龙息，才能使用俯冲吐息；使用俯冲吐息后，你在1小时内不能再次使用龙息。</p>"
+    },
+    "Energize Jaws": {
+      "name": "赋能龙牙 Energize Jaws",
+      "description": "<p>当你咬出关键的一击时，龙牙会留下与你喷吐武器相关的残余能量、心灵后效或毒素。你的噬咬造成重击时，额外造成1d4持续伤害，类型为你的对应伤害类型。</p>"
+    },
+    "Conductive Scales": {
+      "name": "导能鳞片 Conductive Scales",
+      "description": "<p>当你通过魔法通路引出魔力时，你让力量涌过鳞片，短暂增强防护。每当你施放一个非戏法的龙法师法术，你的AC获得+1状态加值，持续到你的下一回合开始。</p>\n<p>@UUID[Compendium.battlezoo-dragons-core-pf2e.effects.Item.qjVxfRc9jqbMUBDm]{效果：导能鳞片}</p>"
+    },
+    "Draconic Ravager Dedication": {
+      "name": "龙族蹂躏者奉献 Draconic Ravager Dedication",
+      "description": "<p>你开始将永恒之光仪式带来的复苏魔力集中于身体，恢复徒手攻击、增厚鳞片，使自身显得威风凛凛。你获得@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.tBde07BZAz6oI1P5]{额外徒手攻击}专长，获得你传承可选的一种额外徒手攻击。此外，你从龙族族裔获得的爪击和噬咬徒手攻击，以及从额外徒手攻击专长获得的徒手攻击，其伤害骰提升一级：噬咬从1d6变为1d8，其他徒手攻击从1d4变为1d6。如果你在职业DC上尚未受训，则在龙族蹂躏者的职业DC上获得受训，使用你的力量调整值或敏捷调整值中较高者。</p>\n<p><strong>特殊</strong> 在获得另外两个龙族蹂躏者变体专长之前，你不能选取另一个奉献专长。</p>"
+    },
+    "Adjust Size": {
+      "name": "调整体型 Adjust Size",
+      "description": "<p>你如今理解了魔法与体型的联系，能够轻松变换体型。你变为中型，或龙族蹂躏者专长赋予你的任意一种体型。你的触及和占据空间随所选体型改变（中型触及5尺，大型触及10尺，超大型触及15尺，巨型触及20尺）。此体型持续到你再次使用调整体型。调整体型获得你龙族传承对应的魔法传统特征。</p>"
+    },
+    "Additional Unarmed Attack": {
+      "name": "额外徒手攻击 Additional Unarmed Attack",
+      "description": "<p>你将魔法导入身体的某个部位，将它磨炼为强大的徒手攻击。你获得该额外攻击，视为搏击武器组的徒手攻击。从你传承可选的额外攻击中选择一种。</p>\n<ul>\n<li>角徒手攻击造成1d4穿刺伤害，具有致命d6和娴熟特征。</li>\n<li>尾巴徒手攻击造成1d4钝击伤害，具有娴熟、横扫和摔绊特征。</li>\n<li>翼击徒手攻击造成1d4钝击伤害，具有回摆、娴熟和推撞特征。</li>\n</ul>\n<p><strong>特殊</strong> 如果你的传承有不止一种可选的额外徒手攻击，你可以多次获得此专长，每次选择不同的徒手攻击。</p>"
+    },
+    "Draconic Hubris": {
+      "name": "巨龙狂妄 Draconic Hubris",
+      "description": "<p><strong>频率</strong> 每小时一次</p>\n<p><strong>触发</strong> 你即将进行一次豁免，且其大失败效果与失败效果不同。</p>\n<hr />\n<p>你的自我评价膨胀到了令人眩晕的高度，使你坚信没有什么能伤害你。投掷两次豁免，并取较好的结果。然而，如果此豁免仍然失败，你对失败可能性的彻底不信会招致毁灭，使你改为大失败。</p>"
+    },
+    "Hoard Deposit": {
+      "name": "存入宝藏 Hoard Deposit",
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>无论相隔多远，你都与宝藏保持联系，因此能从远处向其中存入物品。你花费10分钟专注于脑海中的宝藏形象，将至多3容积的非活体、非魔法物体传送至宝藏中。</p>"
+    },
+    "Underwater Mastery": {
+      "name": "水下精通 Underwater Mastery",
+      "description": "<p>你练习运用魔法通路来提高游泳速度，同时学会感知周围水波的流动。你的游泳速度获得+5尺状态加值，且每当你处于水下时，获得范围30尺的水波感知，视为模糊感官。如果你的运动为大师，游泳速度的状态加值提高至+10尺；如果你的运动为传奇，游泳速度的状态加值提高至+15尺。</p>"
+    },
+    "Devastating Bite": {
+      "name": "毁灭噬咬 Devastating Bite",
+      "description": "<p>你将体内的魔力聚集到喉中，但并非使出喷吐武器，而是咬出威力惊人的一击。进行一次噬咬打击。如果你花费两个动作且此次打击命中，你造成额外伤害，类型与你龙族传承的喷吐武器相同。额外伤害等于你噬咬打击的一个武器伤害骰（对龙族蹂躏者而言通常为1d8）。你也可以改为花费3个动作，进行更具毁灭性的噬咬，将额外伤害提高至两个武器伤害骰（通常为2d8）。</p><p>如果你至少为10级，此专长的额外伤害翻倍：花费2个动作通常额外造成2d8伤害，花费3个动作通常额外造成4d8伤害。如果你至少为18级，此专长的额外伤害变为三倍：花费2个动作通常额外造成3d8伤害，花费3个动作通常额外造成6d8伤害。</p>"
+    },
+    "Spellturning Scales": {
+      "name": "反法鳞片 Spellturning Scales",
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 一个7环或更低环的法术以你为目标。</p>\n<hr />\n<p>你迅速用恰当的魔法为鳞片赋能，将敌人的法术反射回去。对触发法术进行一次反制检定，反制环级为7，反制调整值为你的法术DC-10或职业DC-10中较高者。成功时，此效果被反射给施法者。如果施法者具有类似能力，例如<em>@UUID[Compendium.pf2e.spells-srd.Item.OOELvfkTedBMlWtq]{法术反转}</em>法术，它可以用该能力将法术反射回你，而此次尝试自动成功；同理，如果敌人对你的法术使用<em>法术反转</em>，你也可以使用反法鳞片自动将法术反射回去。</p>"
+    },
+    "Draconic Verve": {
+      "name": "巨龙活力 Draconic Verve",
+      "description": "<p>你集中魔法恢复摆脱昏沉的能力，使别人更难迫使你入睡或麻痹。你对抗会造成麻痹状态的效果，以及具有睡眠特征且会使你入睡的效果的豁免获得+1环境加值；如果你对抗此类效果的豁免成功，改为大成功。如果一个效果使你入睡或获得麻痹状态至少2轮，将其持续时间减少1轮。</p>"
+    },
+    "Widen Breath": {
+      "name": "扩展吐息 Widen Breath",
+      "description": "<p>你导引吐息，将满腔怒火倾泻到更广的区域。如果你的下一个动作是使用龙息，其区域依相应形状扩大为30尺锥形、60尺线形或10尺爆发。如果你还使用深呼吸专长深吸一口气，区域则依相应形状改为扩大至60尺锥形、120尺线形或20尺爆发。</p>"
+    },
+    "Earthbound": {
+      "name": "束缚于地 Earthbound",
+      "description": "<p>你很清楚，若没有魔法维持沉重的身躯悬空，自己的飞行能力便十分有限；但正是这些魔法知识，让你特别擅长将其他飞行者拽落地面，并为此感到格外快意。你每天可以施放一次<em>@UUID[Compendium.pf2e.spells-srd.Item.gPvtmKMRpg9I9D7H]{地缚术}</em>，视为你传承所属传统的天生法术。</p>"
+    },
+    "Empowered Size": {
+      "name": "赋能体型 Empowered Size",
+      "description": "<p>你利用不断增长的魔力增大体型，同时专注于保持长大过程中的协调。得益于蹂躏者训练，即使体型更大，你仍能行动自如。你的体型增大至大型，触及增加至10尺。这不会改变你的其他数据。</p>"
+    }
+  },
+  "folders": {
+    "Level 9": "9级 Level 9",
+    "Level 2": "2级 Level 2",
+    "Level 17": "17级 Level 17",
+    "Level 1": "1级 Level 1",
+    "Level 8": "8级 Level 8",
+    "Level 12": "12级 Level 12",
+    "Level 18": "18级 Level 18",
+    "Level 6": "6级 Level 6",
+    "Level 14": "14级 Level 14",
+    "Dragon Mage Archetype": "龙法师变体 Dragon Mage Archetype",
+    "Level 16": "16级 Level 16",
+    "Level 5": "5级 Level 5",
+    "Ancestry Feats": "族裔专长 Ancestry Feats",
+    "Level 10": "10级 Level 10",
+    "Level 13": "13级 Level 13",
+    "Draconic Ravager Archetype": "龙族蹂躏者变体 Draconic Ravager Archetype",
+    "Level 4": "4级 Level 4",
+    "Level 20": "20级 Level 20"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "label": "传承",
+  "entries": {
+    "Seer Demigod": {
+      "name": "先知半神 Seer Demigod",
+      "description": "<p>你的智慧、洞察和理解力让你能够作出明智选择，帮助他人化解冲突，有时甚至能猜测未来的走向，洞穿无知与愚昧的帷幕；因此，你可能在获得神性之前，就已被称为先知或宗教导师。你充盈着睿智的美德。你获得黑暗视觉，在黑暗和微光中看得如同明亮光照下一样清楚，而且你在黑暗中的视觉是全彩的，而非只有黑白。</p><p>你的致命缺陷选择犹疑或脆弱。</p>"
+    },
+    "Warrior Demigod": {
+      "name": "勇士半神 Warrior Demigod",
+      "description": "<p>你的勇敢、力量和武艺让你即使面对看似绝无胜算的局面，也能继续战斗、击败敌人；因此，你可能在获得神性之前，就已被称为真正的勇士或英雄。你充盈着勇气的美德。你从半神族裔获得的生命值由8提高至10，并选择获得@UUID[Compendium.battlezoo-ancestries-demigods.feats-pf2e.Item.9TDebttbBRA4f2hQ]{偏好武器熟悉}族裔专长或@UUID[Compendium.pf2e.feats-srd.Item.AmP0qu7c5dlBSath]{健壮}通用专长。</p><p>你的致命缺陷选择傲慢或脆弱。</p>"
+    },
+    "Savior Demigod": {
+      "name": "救赎者半神 Savior Demigod",
+      "description": "<p>你的耐心、仁慈和同理心，让你向身边所有人施以善意与援手；因此，你可能在获得神性之前，就已被称为救赎者或圣徒。你充盈着慈悲的美德。你受训于医疗技能；若已受训于医疗，则改为受训于一项自选技能。你还获得@UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{战地医疗}技能专长。使用战地医疗或@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}恢复的生命值获得+1状态加值。此加值也适用于任何治疗法术的首次治疗；对于同一个法术，此加值对每个生物只能生效一次，即使该法术多次治疗该生物也是如此。</p><p>你的致命缺陷选择犹疑、傲慢或脆弱。</p>"
+    },
+    "Trickster Demigod": {
+      "name": "诡术者半神 Trickster Demigod",
+      "description": "<p>你的狡黠、机智与顽皮天性，让你热衷于恶作剧和惹是生非；因此，你可能在获得神性之前，就已被称为诡术者或无赖。你充盈着诡计的美德。选择你是巧舌如簧，还是妙手空空。若选择口才，你受训于欺骗，并获得@UUID[Compendium.pf2e.feats-srd.Item.B6HbYsLBWb1RR6Fx]{蛊惑人心}和@UUID[Compendium.pf2e.feats-srd.Item.Dvz54d6aPhjsmUux]{将计就计}技能专长。若选择巧手，你受训于贼活，并获得@UUID[Compendium.pf2e.feats-srd.Item.5eNKs6738aykAhK2]{阴招}和@UUID[Compendium.pf2e.feats-srd.Item.jDdOqFmZLwE4dblQ]{扒手}技能专长。无论选择哪种，若已受训于所选技能，则改为受训于另一项自选技能。</p><p>你的致命缺陷选择傲慢或脆弱。</p>"
+    },
+    "Genius Demigod": {
+      "name": "天才半神 Genius Demigod",
+      "description": "<p>你的才智、想象力和创造力，可能在你获得神性之前就已让你享有天才之名。你充盈着创新的美德。你选择受训于奥法、手艺、神秘或社群。若由于某种原因，你已经受训于所有这些技能，则改为受训于另一项自选技能。凭借天赋，只要你肯研究某个主题，几乎就能掌握其全部基础知识。在GM为你用一项受训技能@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}暗骰检定之前，你可以告诉GM，你想发挥自己的天才。如此做时，若@UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{驾轻就熟}技能专长的结果会成功，你便直接采用该结果，无需掷骰；若该结果会失败，GM则照常为你暗骰检定。这不会赋予你驾轻就熟技能专长，你也无需拥有该专长；你可以对任何受训技能使用此能力。</p><p>你的致命缺陷选择犹疑、傲慢或脆弱。</p>"
+    }
+  }
+}

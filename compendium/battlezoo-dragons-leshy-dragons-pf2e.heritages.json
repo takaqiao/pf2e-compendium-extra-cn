@@ -1,0 +1,32 @@
+{
+  "label": "传承",
+  "entries": {
+    "Floral Dragon": {
+      "name": "花卉龙 Floral Dragon",
+      "description": "<p>你是一条花卉龙，出身于窥探死亡彼岸的神秘学者与仪式师世系。花卉龙属于莱西龙，与之对应的莱西为莲莱西。你获得植物特征。你对抗虚体生物的武器与徒手攻击变为魔法攻击；若原本已具魔法性质，则改为获得<em>幽冥</em>性能符文的效果。你的关联伤害类型为毒素（由花粉与花香构成的粉雾），吐息形状为锥形，额外徒手攻击为尾巴和翼击。你的第一项族裔属性提升可以选择智力，而非力量。你的法术为原能。你可以选择是否获得@UUID[Compendium.battlezoo-dragons-leshy-dragons-pf2e.heritages.Item.tSNQr2shqKYSrsjR]。</p>"
+    },
+    "Kelp Dragon": {
+      "name": "海带龙 Kelp Dragon",
+      "description": "<p>你是一条海带龙，出身于热爱创造与收集杰出雕塑、争强好胜的水生工匠世系。海带龙属于莱西龙，与之对应的莱西为藻莱西。你获得植物特征。你仍需呼吸，但也获得两栖特征，能够在水和空气中呼吸。你获得10尺游泳速度；不过，你可以改为选择获得25尺游泳速度，同时将陆地速度降至10尺。你的关联伤害类型为钝击（由藻类、池沼浮垢和死水构成的洪流），吐息形状为锥形，额外徒手攻击为角和尾巴。你的第一项族裔属性提升可以选择体质，而非力量。你的法术为原能。你可以选择是否获得@UUID[Compendium.battlezoo-dragons-leshy-dragons-pf2e.heritages.Item.tSNQr2shqKYSrsjR]。</p>"
+    },
+    "Arboreal Dragon": {
+      "name": "林木龙 Arboreal Dragon",
+      "description": "<p>你是一条林木龙，出身于在森林中与莱西及妖精共同生活、信奉诸多民俗禁忌的木匠世系。林木龙属于莱西龙，与之对应的莱西为叶莱西。你获得植物特征，身体覆盖宽大扁平的叶片，即使不飞行也能兜住风。无论坠落多远，你都不受坠落伤害。你的关联伤害类型为穿刺（纠缠成丛的带刺枝叶），吐息形状为线形，额外徒手攻击为角和尾巴。你的第一项族裔属性提升可以选择智力，而非力量。你的法术为原能。你可以选择是否获得@UUID[Compendium.battlezoo-dragons-leshy-dragons-pf2e.heritages.Item.tSNQr2shqKYSrsjR]。</p>"
+    },
+    "Harvest Dragon": {
+      "name": "丰收龙 Harvest Dragon",
+      "description": "<p>你是一条丰收龙，出身于园艺师与活动策划者世系，既因酿制药水的技艺闻名，也因热爱节庆而知名。丰收龙属于莱西龙，与之对应的莱西为葫芦莱西。你获得植物特征。你身上长满丰硕的水果与蔬菜，你和盟友每天可以用一次交互动作采摘。能从水果或蔬菜中获取营养的活物，可以在采摘后一小时内用交互动作食用，恢复1d8生命值；你的等级在1级之后每提高2级，额外恢复1d8生命值。此效应具有治疗、原能和命能特征。你的关联伤害类型为毒素（喷洒的种子与毒莓），吐息形状为锥形，额外徒手攻击为尾巴。你的第一项族裔属性提升可以选择智力，而非力量。你的法术为原能。你可以选择是否获得@UUID[Compendium.battlezoo-dragons-leshy-dragons-pf2e.heritages.Item.tSNQr2shqKYSrsjR]。</p>"
+    },
+    "Power of the Sun": {
+      "name": "太阳之力 Power of the Sun",
+      "description": "<p>你如同树木与其他绿色植物一样，通过光合作用获取营养。通常你不需要为食物付费，但若1周没有阳光，就会开始挨饿。你可以从特殊配制的瓶装阳光中获取营养，以替代天然阳光，但其价格为标准口粮的10倍（每周4金币）。</p>"
+    },
+    "Toadstool Dragon": {
+      "name": "毒蕈龙 Toadstool Dragon",
+      "description": "<p>你是一条毒蕈龙，出身于居住在大型群落、热爱共同生活的美食家世系。毒蕈龙属于新出现的莱西龙家族，与之对应的莱西为真菌莱西。你获得真菌特征。你身上的生物发光真菌能够持续发光，具有@UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]法术的效果。你可以花费一个具有专注特征的单动作，停止发光或重新开始发光。你还获得@UUID[Compendium.pf2e.feats-srd.Item.1Eceqc6zbMj2x0q9]{老厨子}技能专长。你的关联伤害类型为毒素（孢子云），吐息形状为锥形，额外徒手攻击为角和尾巴。你的第一项族裔属性提升可以选择体质，而非力量。你的法术为原能。</p>"
+    }
+  },
+  "folders": {
+    "Features": "能力 Features"
+  }
+}

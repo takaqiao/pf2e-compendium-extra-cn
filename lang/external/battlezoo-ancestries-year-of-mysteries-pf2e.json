@@ -1,0 +1,81 @@
+{
+    "YOMY": {
+        "Fable": {
+            "AMonsterStory": {
+                "HornGrapple": "角（擒拿）",
+                "HornShove": "角（推撞）",
+                "JawsGrapple": "噬咬（擒拿）",
+                "JawsShove": "噬咬（推撞）",
+                "TuskGrapple": "獠牙（擒拿）",
+                "TuskShove": "獠牙（推撞）"
+            }
+        },
+        "Kushtaka": {
+            "AwokenDreamer": "你已失去无魂族裔能力。",
+            "MartialKushtakaWeapons": "陆獭人军用武器",
+            "ToysOfTorment": "折磨玩具"
+        },
+        "Language": {
+            "Saurid": "蜥族语"
+        },
+        "Mushie": {
+            "MonosporeMimicry": {
+                "AlternateLabel": "单孢拟态——造成另一种伤害"
+            },
+            "Polyspore": {
+                "Prompt": "选择一种蘑菇人传承。"
+            },
+            "PonderoudPush": {
+                "AnotherSkill": "其他技能",
+                "Prompt": "将运动提升至专家，或将另一项技能提升至受训？"
+            },
+            "SporeShot": {
+                "Acid": "<p>伴随孢子喷出的黏液黏住目标。目标的各项速度受到–10尺环境减值，持续至你的下个回合开始或目标逃脱为止，以先发生者为准。逃脱DC等于你的职业DC。</p><p>@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.effects.Item.FnNxnFx8DmC5HmGU]</p>",
+                "Label": "孢子",
+                "Mental": "<p>有毒孢子削弱目标的力量。目标陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}，持续至你的下个回合开始。</p>",
+                "Poison": "<p>孢子引发令人迷失方向的幻觉。目标陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续至你的下个回合开始。</p>",
+                "Sonic": "<p>喧嚣震撼目标的耳朵。目标陷入@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋}，持续1分钟。</p>",
+                "Spirit": "<p>孢子短暂地附着在目标的灵魂上。目标必须通过一次对抗你职业DC的@Check[fortitude|against:class]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>"
+            },
+            "SporeSpray": {
+                "AlternateLabel": "孢子喷射——造成另一种伤害"
+            }
+        },
+        "Saurus": {
+            "AdaptiveLocomotion": {
+                "Prompt": "选择一种速度。"
+            },
+            "SaurusSenses": {
+                "Prompt": "你的族裔属性缺陷是什么？"
+            },
+            "WeightedManuevers": {
+                "Prompt": "选择一个动作。"
+            }
+        },
+        "SeaSerpent": {
+            "AncientMonster": "在同一回合内以分叉尾命中两次。",
+            "ShorelineNiche": {
+                "Prompt": "选择一种环境",
+                "Label": "身处与你的海岸生态位相符的环境。"
+            },
+            "WaterShield": "超过10加仑的水"
+        },
+        "Trait": {
+            "Enigmite": "谜灵",
+            "Fable": "寓言裔",
+            "HouseSpirit": "家宅精灵",
+            "Imp": "小鬼",
+            "Kushtaka": "陆獭人",
+            "Mushie": "蘑菇人",
+            "Sasquatch": "大脚野人",
+            "Saurus": "蜥族",
+            "SeaSerpent": "大海蛇",
+            "WillOWisp": "鬼火"
+        },
+        "WillOWisp": {
+            "DazzlingStrikes": {
+                "Note": "当你以触须或鬼火焰打击重击时，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续1轮。"
+            }
+        }
+    }
+}

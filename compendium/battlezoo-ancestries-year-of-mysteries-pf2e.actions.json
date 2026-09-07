@@ -1,29 +1,66 @@
 {
-  "label": "动作\nActions",
-  "mapping": {
-    "name": "name",
-    "description": "system.description.value"
-  },
-  "folders": {
-    "Will-o'-Wisp": "鬼火\nWill-o'-Wisp",
-    "Mushie": "蘑菇怪\nMushie"
-  },
+  "label": "动作",
   "entries": {
     "Many-Eyed Survey": {
       "name": "多眼勘察 Many-Eyed Survey",
-      "description": "<p>你仔细审视周围环境，确保没有人能趁你不备。直到你下一个回合开始，你获得全方位视野，这会使你无法被夹击。</p>\n<p>You carefully survey your surroundings, ensuring that no one can get the drop on you. Until the start of your next turn, you gain all-around vision, which prevents you from being flanked.</p>"
+      "description": "<p>你仔细审视周围环境，确保无人能趁你不备。直到你的下个回合开始，你获得全域视野，因此不会被夹击。</p>"
     },
     "Steer Constellation": {
       "name": "引导星座 Steer Constellation",
-      "description": "<p>你调整每一道星座光的距离与方向。只要它仍在你的效果线之内，你就可以将每一道光移动到离你最多120英尺远。</p>\n<p>You adjust the distance and direction to each of your constellation lights. You can move each light up to 120 feet away from you, as long as it remains in your line of effect.</p>"
+      "description": "<p>你调整每一道星座光点相对自己的距离与方向。只要光点仍在你的效果线内，你就可以将每一道光点移动至距你最远120尺的位置。</p>"
     },
     "Tether Soul": {
       "name": "系魂 Tether Soul",
-      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>触发</strong> 一名濒死的盟友的濒死值将要增加，且该盟友在30英尺内</p><hr /><p><strong>效果</strong> 你伸出一条触须钩住盟友的灵魂，短暂阻止其从身体飘离。该盟友的濒死值不增加。</p>\n<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> A dying ally's dying value would increase, and that ally is within 30 feet</p><hr /><p><strong>Effect</strong> You extend a tendril to hook onto the ally's soul, momentarily preventing it from drifting away from their body. The ally's dying value does not increase.</p>"
+      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>触发</strong> 30尺内一名濒死盟友的濒死值将要增加</p><hr /><p><strong>效果</strong> 你伸出一条卷须钩住盟友的灵魂，暂时阻止它飘离身体。该盟友的濒死值不增加。</p>"
     },
     "Extend Hyphae": {
       "name": "延展菌丝 Extend Hyphae",
-      "description": "<p><strong>需求</strong> 你正站在一处你的菌丝能够穿过的表面上</p><hr /><p><strong>效果</strong> 你在地下延伸一张菌丝网络，提升你感知震动的能力。直到你下个回合开始时，你的震动感知射程提升至80英尺。</p>\n<p><strong>Requirements</strong> You are standing on a surface that your hyphae can pass through</p><hr /><p><strong>Effect</strong> You extend a network of hyphae underground, improving your ability to sense vibrations. Until the start of your next turn, the range of your tremorsense increases to 80 feet.</p>"
+      "description": "<p><strong>使用条件</strong> 你正站在菌丝能够穿过的表面上</p><hr /><p><strong>效果</strong> 你在地下延展菌丝网络，增强感知振动的能力。直到你的下个回合开始，你的震颤感知范围增加至80尺。</p>"
+    },
+    "Slither": {
+      "name": "蜿行 Slither",
+      "description": "<p><strong>使用条件</strong> 你处于@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}状态，且你的速度至少为10尺</p><hr><p><strong>效果</strong> 你贴地蜿行，移动至多等于你速度一半的距离，并继续保持倒地。</p>"
+    },
+    "Position Plates": {
+      "name": "调整骨板 Position Plates",
+      "description": "<p><strong>使用条件</strong> 你的骨板未破损</p><hr><p><strong>效果</strong> 你调整背部骨板的位置，以更好地抵挡有害攻击；你的AC获得+1环境加值，直到你的下个回合开始。你可以用一个交互动作，以一只手支撑骨板。在你放开骨板前，这只手不再空闲，也无法持握其他东西，但稳固的支撑会使AC的环境加值从+1提高至+2。</p>"
+    },
+    "Keep Away": {
+      "name": "保持距离 Keep Away",
+      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>触发</strong> 60尺内的一个生物通过行走向你靠近</p><hr /><p><strong>效果</strong> 你的身体、态度乃至本性都仿佛在呐喊：“离我远点！”目标进行一次意志豁免。若失败，该生物此次行走将所有方格视为困难地形。若大失败，此次行走被打断，该生物不再继续移动。</p>"
+    },
+    "Release Venom": {
+      "name": "释放毒液 Release Venom",
+      "description": "<p>你从毒腺中释放毒素，准备将其注入敌人体内。在你的下个回合结束前，若你使用蛇人族裔赋予的尖牙进行打击并成功，就会向目标注入一剂毒液。目标随后必须以你的职业DC或法术DC中较高者为难度，进行一次@Check[fortitude|dc:class-or-spell|traits:injury,poison]豁免以对抗蛇人毒液。</p><hr><p><strong>蛇人毒液</strong>（伤口、毒素）</p><p><strong>频率</strong> 每小时一次</p><p><strong>最长持续时间</strong> 6轮</p><p><strong>阶段1</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}（1轮）</p><p><strong>阶段2</strong> @Damage[1d4[poison]]伤害及力竭1（1轮）</p><p><strong>阶段3</strong> @Damage[1d4[poison]]伤害及力竭1（1轮）</p>"
+    },
+    "Invoke Oath": {
+      "name": "唤起誓约 Invoke Oath",
+      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>触发</strong> 你即将进行一次与履行自己所立血誓条款直接相关的攻击检定或技能检定</p><hr><p><strong>效果</strong> 你坚定心志，提醒自己履行誓约的重要性。触发该能力的检定获得+2环境加值。</p>"
+    },
+    "Can't Fool a Fool": {
+      "name": "骗不了傻子 Can't Fool a Fool",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><p><strong>触发</strong> 你对抗一个具有心灵或幻术特征的效果进行豁免，结果为失败但不是大失败</p><hr /><p><strong>效果</strong> 这一切似乎复杂过了头，怎么想也说不通。你重掷触发此反应的豁免，但若再次掷出失败，则将此次失败改为大失败。</p>"
+    },
+    "Hot or Cold Luck": {
+      "name": "冷热运势 Hot or Cold Luck",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p><strong>效果</strong> 你用温暖或冰冷的手触碰一个生物。若选择温暖的手，该生物获得一点好运；若选择冰冷的手，则获得一点厄运。这份运气本身没有直接效果，但分别具有幸运或厄运特征。依照幸运与厄运效果相互作用的通常规则，它可以抵消即将生效或已经存在的幸运或厄运效果。在你的每个回合开始时，进行一次@Check[flat|dc:11|showDC:all]。若失败，这份运气结束。</p>"
+    },
+    "Golden Indomitability": {
+      "name": "黄金不屈 Golden Indomitability",
+      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>使用条件</strong> 你处于受伤状态，或你的当前生命值不高于最大生命值的一半</p><hr><p><strong>效果</strong> 鲜血流过你的金色鳞片，你振作意志，回想起自己一次次从逆境中幸存并变得更强的经历。你的AC、豁免和攻击骰获得+2状态加值，持续1分钟。</p>"
+    },
+    "Venomous Strike": {
+      "name": "毒液打击 Venomous Strike",
+      "description": "<p><strong>频率</strong> 每天一次</p><hr><p><strong>效果</strong> 你挤出毒刺中的毒液，将其涂遍全身。在你的下个回合结束前，你的下一次成功徒手攻击额外造成1d6毒素伤害。此伤害的增量为1d6，首次在3级生效，此后每2级再增加一次。</p>"
     }
+  },
+  "folders": {
+    "Sea Serpent": "大海蛇 Sea Serpent",
+    "Mushie": "蘑菇人 Mushie",
+    "Fable": "寓言裔 Fable",
+    "Serpentfolk": "蛇人 Serpentfolk",
+    "Saurus": "蜥族 Saurus",
+    "House Spirit": "家宅精灵 House Spirit",
+    "Will-o'-Wisp": "鬼火 Will-o'-Wisp"
   }
 }

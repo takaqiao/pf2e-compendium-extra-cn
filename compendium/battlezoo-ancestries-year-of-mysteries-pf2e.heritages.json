@@ -1,69 +1,248 @@
 {
-  "label": "传承\nHeritages",
-  "mapping": {
-    "name": "name",
-    "description": "system.description.value"
-  },
-  "folders": {
-    "Will-o'-Wisp": "鬼火\nWill-o'-Wisp",
-    "Mushie": "蘑菇仔\nMushie"
-  },
+  "label": "传承",
   "entries": {
     "Pseudospore Mushie": {
-      "name": "拟孢子蘑菇仔 Pseudospore Mushie",
-      "description": "<p>你的培育者使用魔法将通常不会用孢子进行繁殖的生物的生物精华制成孢子。因此，你获得了与另一种非真菌族裔相关的外观特性。如果该族裔的成员通常为超小体型，则你的体型为超小；否则，你为小型。你获得该族裔的 @UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{Adopted Ancestry} 通用专长。由GM酌情决定，你可能会获得该族裔的非机制性外在特征，但这些特征未体现在该族裔的基础能力中。</p>\n<p>Your cultivators used magic to make spores out of the biological essence of creatures that don't usually use spores in their reproduction. As a result, you developed cosmetic features associated with another nonfungal ancestry. Your size is Tiny if members of that ancestry are typically Tiny; otherwise, you are Small. You gain the @UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{Adopted Ancestry} general feat for that ancestry. At the GM's discretion, you might gain nonmechanical external features of the ancestry that are not represented in the ancestry's base abilities.</p>"
+      "name": "拟孢蘑菇人 Pseudospore Mushie",
+      "description": "<p>你的培育者用魔法将通常不以孢子繁殖的生物的生命精华制成孢子。因此，你长出了与另一种非真菌族裔相关的外观特征。若该族裔成员通常为微型，你的体型也为微型；否则，你为小型。你获得针对该族裔的@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊}通用专长。GM可以酌情允许你拥有该族裔基础能力未体现、且不带来规则效果的外部特征。</p>"
     },
     "Bulbous Mushie": {
-      "name": "球形蘑菇怪 Bulbous Mushie",
-      "description": "<p>你的血脉源自永远好奇且信任他人的博尔巴洛斯。和博尔巴洛斯一样，你会从你的菌盖分泌出黏稠的红色黏液。你获得等同于你等级一半的酸抗力（最低 1）。此外，你菌盖分泌的黏液能帮助你更快清除有害的酸蚀。你用于移除持续性酸伤害的纯骰检定 DC 为 10 而非 DC 15；如果另一名生物使用特别合适的动作来协助，则该 DC 降为 DC 5。</p>\n<p>Your lineage descends from ever-curious and trusting bolbaloses. Like a bolbalos, you secrete a sticky red slime from your cap. You gain acid resistance equal to half your level (minimum 1). Additionally, the slime from your cap helps you clear away harmful acids more quickly. Your flat check to remove persistent acid damage is DC 10 instead of DC 15, which is reduced to DC 5 if another creature uses a particularly appropriate action to help.</p>"
+      "name": "球腹蘑菇人 Bulbous Mushie",
+      "description": "<p>你的血脉源于始终好奇而轻信他人的博尔巴洛斯菌。和它们一样，你会从菌盖分泌黏稠的红色黏液。你获得等于自身等级一半的酸蚀抗力（最低1）。此外，菌盖的黏液能帮你更快清除有害酸液。你用于移除持续酸蚀伤害的纯骰检定DC为10，而非15；若另一生物用特别合适的动作协助，则降至DC 5。</p>"
     },
     "Draconic Mushie": {
-      "name": "龙裔蘑菇仔 Draconic Mushie",
-      "description": "<p>来自强大毒蝇伞龙的孢子是你传承的一部分。你获得@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.VLwFJ30lHqls0M7Y]{Cluster's Coordination}族裔专长。你可以选择具有毒蝇伞龙血脉的龙族后裔可用的族裔专长。</p>\n<p>Spores from a mighty toadstool dragon are part of your heritage. You gain the @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.VLwFJ30lHqls0M7Y]{Cluster's Coordination} ancestry feat. You can take the ancestry feats available to draconic scions with toadstool dragon lineage.</p>"
+      "name": "龙裔蘑菇人 Draconic Mushie",
+      "description": "<p>强大的毒蕈龙孢子是你传承的一部分。你获得@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.VLwFJ30lHqls0M7Y]{菌群协作}族裔专长。你可以选取毒蕈龙血脉的龙裔能够选择的族裔专长。</p>"
     },
     "Extinguished Wisp": {
-      "name": "熄灭幽火 Extinguished Wisp",
-      "description": "<p>与你大多数鬼火不同，你的身体不会发出辉光。你可能天生如此，或许曾遭遇过压倒性的黑暗魔法。你甚至可能曾是折磨者鬼火，为了切断你与亵渎魔法的联系并重新获得可见的身体而牺牲了你的光。你失去辉光族裔能力，使你看起来像一种飘忽但不发光的形态，有点像灵体或元素生物，但你获得微光视野和黑暗视觉。</p>\n<p>Unlike most will-o'-wisps, your body doesn't glow. You might have been born this way, or you might have had an encounter with overwhelming darkness magic. You might even be a former tormentor wisp who sacrificed your light to sever your connection to profane magic and regain a visible body. You lose the glow ancestry ability, causing you to look like a wispy but unglowing form looking somewhat like a spirit or an elemental, but you gain both low-light vision and darkvision.</p>"
+      "name": "熄光鬼火 Extinguished Wisp",
+      "description": "<p>与大多数鬼火不同，你的身体不发光。你可能天生如此，也可能曾遭遇强大的黑暗魔法。你甚至可能曾是折磨者鬼火，为切断自身与亵渎魔法的联系、重获可见之躯而牺牲了光芒。你失去辉光族裔能力，外观成为缥缈却不发光的形体，有些像精魂或元素生物；但你同时获得昏暗视觉与黑暗视觉。</p>"
     },
     "Skulking Wisp": {
       "name": "潜行鬼火 Skulking Wisp",
-      "description": "<p>你擅长在不被察觉的情况下潜行。你获得隐匿的受训（熟练度）等级。如果你已经在隐匿中为受训，你改为在你选择的一项技能中成为受训。你还获得@UUID[Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG]{地形潜伏者}技能专长。你可以将熄灭你辉光族裔能力所发出的光作为进行[[/act hide]]或[[/act sneak]]动作的一部分。</p>\n<p>You have a knack for skulking around undetected. You gain the trained proficiency rank in Stealth. If you were already trained in Stealth, you instead become trained in a skill of your choice. You also gain the @UUID[Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG]{Terrain Stalker} skill feat. You can extinguish the light from your glow ancestry ability as a part of the action to [[/act hide]] or [[/act sneak]].</p>"
+      "description": "<p>你擅长悄然潜行，不被发现。你的隐秘熟练度变为受训；若隐秘已受训，则改为一项自选技能受训。你还获得@UUID[Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG]{地形潜伏}技能专长。你可以在进行下列动作时，作为动作的一部分熄灭辉光族裔能力的光芒：[[/act hide]]或[[/act sneak]].</p>"
     },
     "Thicket Mushie": {
-      "name": "荆棘蘑菇怪 Thicket Mushie",
-      "description": "<p>一只高大而强壮的荆棘海胆的孢子在你全身扎下根，发育成绿色的尖刺。你的体型为中型。你获得一种尖刺徒手攻击，造成1d6钝击伤害。你的尖刺属于搏斗组，并具有灵巧和徒手特征。</p>\n<p>The spores of a towering and mighty thicket urchin took root across your body, developing into green spines. Your size is Medium. You have a spine unarmed attack that deals 1d6 bludgeoning damage. Your spine is in the brawling group and has the finesse and unarmed traits.</p>"
+      "name": "灌丛蘑菇人 Thicket Mushie",
+      "description": "<p>高大强壮的灌丛刺球孢子在你全身扎根，长成绿色尖刺。你的体型为中型。你获得尖刺徒手攻击，造成1d6钝击伤害。尖刺属于斗殴武器组，具有娴熟和徒手特征。</p>"
     },
     "Treesighted Mushie": {
-      "name": "树视菇菇 Treesighted Mushie",
-      "description": "<p>树眼真菌用来寄生附着在树木上并汲取其汁液与秘密的同样孢子融入了你的身体，发育成一张不断抽动与转动的眼睛网络，同时朝向数个方向以警戒危险或洞察隐藏的真相。你可以使用 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.7P6TsZycPvzGHBrE]{多眼勘察} 动作。</p>\n<p>The same spores that the tree of eyes fungus uses to parasitically attach to trees and feed on their sap and secrets blended into your body, developing as a network of eyes that constantly twitch and swivel, facing in several directions at once to watch for danger or hidden truths. You can use the @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.7P6TsZycPvzGHBrE]{Many-Eyed Survey} action.</p>"
+      "name": "树眼蘑菇人 Treesighted Mushie",
+      "description": "<p>眼之树真菌用来寄生树木、汲取树液与秘密的孢子融入了你的身体，发育成一张眼睛网络。这些眼睛不断抽动、转向，同时注视多个方向，提防危险或探寻隐藏的真相。你可以使用@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.7P6TsZycPvzGHBrE]{多眼勘察}动作。</p>"
     },
     "Percussive Mushie": {
-      "name": "打击蘑菇怪 Percussive Mushie",
-      "description": "<p>你帽子的共鸣使你成为一件行走的乐器，就像你那鼓帽祖先一样。你的头是一面鼓，你可以用鼓槌或钝击武器来敲奏。它起初是一面标准鼓，但其品质会随着你的成长而提升。在3级时，你在使用头部作为鼓进行表演检定时获得+1物品加值；在9级时该加值提高至+2；在17级时提高至+3。</p><p>你在表演上受训，并且你获得适用于打击乐器的 @UUID[Compendium.pf2e.feats-srd.Item.lFwfUvH2708rl6i3]{Virtuosic Performer} 技能专长。</p>\n<p>The resonance of your cap makes you a walking musical instrument, much like your drumcap forebears. Your head is a drum, which you can play with mallets or bludgeoning weapons. While it begins as a standard drum, its quality improves as you grow. At 3rd level, you gain a +1 item bonus to Performance checks using your head as a drum, which increases to a +2 bonus at 9th level and a +3 bonus at 17th level.</p><p>You are trained in Performance, and you gain the @UUID[Compendium.pf2e.feats-srd.Item.lFwfUvH2708rl6i3]{Virtuosic Performer} skill feat for percussion instruments.</p>"
+      "name": "鼓奏蘑菇人 Percussive Mushie",
+      "description": "<p>菌盖的共鸣使你成为一件行走的乐器，正如你的鼓盖菌先祖。你的头部是一面鼓，可以用鼓槌或钝击武器敲奏。它起初相当于普通鼓，但品质会随你成长而提高。在3级时，你用头部当鼓进行的表演检定获得+1物品加值；加值在9级时提高至+2，在17级时提高至+3。</p><p>你的表演熟练度为受训，并获得针对打击乐器的@UUID[Compendium.pf2e.feats-srd.Item.lFwfUvH2708rl6i3]{精湛演技}技能专长。</p>"
     },
     "Floating Wisp": {
-      "name": "漂浮灵火 Floating Wisp",
-      "description": "<p>在地面上方上下浮动对你来说是第二天性。你的空中把戏帮助你避开危险的地面——并且可能诱使他人踉跄跌入你的陷阱。你获得 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.PJISFLeMO4DTIkcF]{Twinkling Hover} 专长。</p>\n<p>Bobbing around above the ground is second nature to you. Your aerial tricks help you avoid dangerous ground–and potentially trick others into stumbling into your traps. You gain the @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.PJISFLeMO4DTIkcF]{Twinkling Hover} feat.</p>"
+      "name": "漂浮鬼火 Floating Wisp",
+      "description": "<p>你天生就习惯在地面上方上下漂浮。空中把戏能帮你避开危险地面，也可能诱使他人跌入陷阱。你获得@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.PJISFLeMO4DTIkcF]{闪烁悬浮}专长。</p>"
     },
     "Monospore Mushie": {
-      "name": "单孢蘑菇仔 Monospore Mushie",
-      "description": "<p>你是完全由蘑菇孢子培育出来的。你的身体没有因其他真菌的影响而发展出其他特性，而是发展出了敏锐的视力。即使不需要光，你也能在地下生活得和在地表一样舒适。你获得黑暗视觉。</p>\n<p>You were cultivated exclusively with mushie spores. Instead of developing other features from the influence of another fungus, your body developed keen eyesight. Without the need for light, you can live just as comfortably underground as you can on the surface. You gain darkvision.</p>"
+      "name": "单孢蘑菇人 Monospore Mushie",
+      "description": "<p>你完全由蘑菇人的孢子培育而成。你的身体没有受其他真菌影响而长出别的特征，而是发展出敏锐的视力。不依赖光线，让你在地下也能像在地表一样自在生活。你获得黑暗视觉。</p>"
     },
     "Phantasmal Mushie": {
-      "name": "幻象蘑菇小精灵 Phantasmal Mushie",
-      "description": "<p>尽管你所源自的幻雾珊瑚会附着在灵魂上以吞噬它们，你却学会了利用你与彼岸的联结来转而帮助盟友。除了吞食腐败物质外，当灵魂前往来世时留下的残渣也能为你提供养分。你获得 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.pDLQmMyIwV0Zk9Kw]{Tether Soul} 反应动作（）。</p>\n<p>While the phasmogorgia you're descended from latch on to souls to consume them, you've learned to use your connection to the beyond to help your allies instead. In addition to consuming decaying matter, you can derive sustenance from the residue left over when souls pass on to the afterlife. You gain the @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.pDLQmMyIwV0Zk9Kw]{Tether Soul} reaction.</p>"
+      "name": "幻灵蘑菇人 Phantasmal Mushie",
+      "description": "<p>你的先祖幻雾珊瑚菌会攀附灵魂并将其吞食，但你学会了利用与彼岸的联系来帮助盟友。除摄食腐朽物质外，你也能从灵魂前往来世时留下的残余中汲取养分。你获得@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.pDLQmMyIwV0Zk9Kw]{系魂}反应。</p>"
     },
     "Frigid Wisp": {
-      "name": "寒霜幽光 Frigid Wisp",
-      "description": "<p>你冰冷的蓝色光芒源自严寒夜晚沼泽地上摇曳的灯笼。你族裔的光源是寒冷而非火焰或电力。基于你光源的能力获得寒冷（特征）。你获得 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.sAS9i1MtcghuTE5O]{灯笼的抗力} 专长，用于寒冷伤害，并且你将环境寒冷效果视为降低一个等级的极端（难以置信的寒冷变为极端，极端寒冷变为严重，依此类推）。</p>\n<p>Your cold blue light is born from the lanterns that flicker over marshlands on frigid nights. The light source from your ancestry is cold instead of fire or electricity. Abilities that are based on your light source gain the cold trait. You gain the @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.sAS9i1MtcghuTE5O]{Lantern's Resistance} feat for cold damage, and you treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on).</p>"
+      "name": "寒霜鬼火 Frigid Wisp",
+      "description": "<p>你的冷蓝色光芒诞生自寒夜里沼泽上闪烁的灯火。你的族裔光源为寒冷，而非火焰或电击。以光源为基础的能力获得寒冷特征。你获得针对寒冷伤害的@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.sAS9i1MtcghuTE5O]{灯火抗性}专长，并将环境寒冷效果视为严酷程度降低一级（奇寒变为极寒，极寒变为严寒，以此类推）。</p>"
     },
     "Captivating Wisp": {
-      "name": "摄魂磷火 Captivating Wisp",
-      "description": "<p>你用自身光芒的舞动与摇曳迷惑并吸引所有观看者。你获得表演的受训（熟练度）等级。如果你已在表演中受训，你改为在你选择的一项技能中受训。你也获得 @UUID[Compendium.pf2e.feats-srd.Item.7LB00jkh6JaJr3vS]{迷人表演} 技能专长。当你的族裔辉光处于激活状态时，使用视觉形式的表演进行 [[/act perform]] 动作时，你一次能使陷入着迷的生物数量是正常的两倍。</p>\n<p>You captivate and confound those who watch the dance and sway of your lights. You gain the trained proficiency rank in Performance. If you were already trained in Performance, you instead become trained in a skill of your choice. You also gain the @UUID[Compendium.pf2e.feats-srd.Item.7LB00jkh6JaJr3vS]{Fascinating Performance} skill feat. While the glow from your ancestry is active, you can fascinate twice as many creatures with the [[/act perform]] action at the same time as normal when using a visual form of performance.</p>"
+      "name": "惑人鬼火 Captivating Wisp",
+      "description": "<p>你的光芒舞动摇曳，让观看者沉迷而困惑。你的表演熟练度变为受训；若表演已受训，则改为一项自选技能受训。你还获得@UUID[Compendium.pf2e.feats-srd.Item.7LB00jkh6JaJr3vS]{迷魂表演}技能专长。当族裔辉光生效时，你以视觉表演形式进行[[/act perform]]动作，能同时使生物迷魂的数量为通常的两倍。</p>"
     },
     "Constellation Wisp": {
-      "name": "星座灵火 Constellation Wisp",
-      "description": "<p>你周围环绕着由四道光组成的星座，你可以将其作为自身的延伸来控制。这些光会在你的辉光处于激活状态时出现，而如果你压制你的辉光，它们会立刻消失。当你说话时，你的声音回响会从每一道星座之光中传出。你可以使用 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.VdV5iGB8TDhvqHqZ]{引导星座} 来调整星座之光的位置。未使用引导星座移动过的光，或在消失后重新出现的光，会留在你的方格中。</p><p>这些光保持其相对于你的距离与方向，并会在你移动时随之移动。若没有可供该光占据的空间，例如它必须进入墙内，则它会改为移动到最近的有效方格。若一道光将要离开你的效果线，它会闪烁消失，直到你下一次引导星座。</p>\n<p>You are surrounded by a constellation of four lights that you can control as an extension of yourself. The lights appear whenever your glow is active, and vanish immediately if you suppress your glow. When you speak, an echo of your voice emerges from each of the constellation lights. You can adjust the constellation lights' positioning with @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.VdV5iGB8TDhvqHqZ]{Steer Constellation}. Lights that haven't been moved with Steer Constellation or that have reappeared after vanishing remain in your square.</p><p>The lights maintain their relative distance and direction to you, moving whenever you move. If there isn't a space for the light to occupy, such as if it would have to go into a wall, it instead moves to the closest valid square. If a light would leave your line of effect, it winks out until the next time you Steer Constellation.</p>"
+      "name": "星座鬼火 Constellation Wisp",
+      "description": "<p>四道光点组成的星座环绕着你，你可以将它们作为自身的延伸来操控。光点在辉光生效时出现，在你压抑辉光时立即消失。你说话时，每道星座光点都会传出你声音的回响。你可以用@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.VdV5iGB8TDhvqHqZ]{引导星座}调整光点的位置。未曾用引导星座移动的光点，或消失后重新出现的光点，都留在你的方格内。</p><p>光点与你保持相对距离和方向，随你一同移动。若某处没有可供光点占据的空间，例如必须进入墙壁时，它会改为移动至最近的有效方格。若光点将要离开你的效果线，它会消失，直到你下次引导星座。</p>"
+    },
+    "Venomous": {
+      "name": "毒液型 Venomous",
+      "description": "<p>你的海岸栖息着体型远大于你的猎物，你也因此适应了伏击。你不靠蛮力杀死敌人，而是将其毒倒。你的体型为小型。此外，你获得毒液打击活动。</p><p><strong>@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.plWASdkWK5OHYlmN]</strong> <span class=\"action-glyph\">1</span></p><p><strong>频率</strong> 每天一次</p><hr><p><strong>效果</strong> 你挤出毒刺中的毒液，将其涂遍全身。在你的下个回合结束前，你的下一次成功徒手攻击额外造成1d6毒素伤害。此伤害的增量为1d6，首次在3级生效，此后每2级再增加一次。</p>"
+    },
+    "Domovoi": {
+      "name": "宅老儿 Domovoi",
+      "description": "<p>你是一名宅老儿，能为家宅拨弄运势的家宅精灵。你的体型为微型。你获得@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.cCOeIpn9mlbL05gB]{冷热运势}动作。</p>"
+    },
+    "Deinonychus": {
+      "name": "恐爪龙 Deinonychus",
+      "description": "<p>你比其他蜥族更小，身体流线型且覆盖羽毛，适于迅速灵活地移动。你的体型为中型而非大型。如果愿意，你可以将族裔赋予的力量提升改为敏捷提升。若如此，你仍可选择敏捷缺陷；提升与缺陷会相互抵消，而你可以将自由属性提升用于敏捷。你的速度增加5尺。此外，你水平跳跃时额外移动5尺。</p>"
+    },
+    "Stegosaurus": {
+      "name": "剑龙 Stegosaurus",
+      "description": "<p>你的背部排列着一列醒目的鸢形骨板，可以调整位置来抵挡伤害。你获得@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.8AQhZWCpoMbg2cW8]{调整骨板}动作。若你具有盾牌格挡反应，可以用调整好位置的骨板配合该专长，即使它们不是盾牌。你的骨板硬度为3，HP为12，破损阈值为6；骨板不是物品，且生命值降至0时也不会被摧毁。当骨板破损时，直到其生命值恢复至高于破损阈值，你都无法调整骨板。每当你因@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]恢复生命值，骨板也恢复同等生命值。每当你使用允许你举起盾牌的能力，可以改为调整骨板，并将通常要求盾牌的使用条件改为适用于骨板。由于骨板不是盾牌，其他作用于盾牌或要求盾牌的能力无法用于骨板。你可以在骨板上蚀刻盾牌符文。</p>"
+    },
+    "Triceratops": {
+      "name": "三角龙 Triceratops",
+      "description": "<p>你的头部周围长有壮观的骨质头盾，可能带有流苏状边缘、凸缘或鲜艳的色彩。无论具体长相如何，它都十分醒目，让你的言语更有分量。选择交涉或威吓，你在该技能上的熟练度变为受训。若选择交涉，你获得@UUID[Compendium.pf2e.feats-srd.Item.0GF2j54roPFIDmXf]{当头棒喝}和@UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{集体印象}技能专长。若选择威吓，你获得@UUID[Compendium.pf2e.feats-srd.Item.gUqvezs2zzoTXFAI]{集体胁迫}和@UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{金刚怒目}技能专长。</p>"
+    },
+    "Ankylosaurus": {
+      "name": "甲龙 Ankylosaurus",
+      "description": "<p>你的身体覆盖着坚固的装甲骨板。骨板视为板甲组的中甲，提供+4物品加值至AC，敏捷上限为+1，检定减值为–2，速度减值为–5，力量需求值为+2，并具有舒适特征。你永远不能穿着其他护甲，也不能移除装甲骨板。你可以在骨板上蚀刻护甲符文。</p>"
+    },
+    "Brownie": {
+      "name": "棕仙 Brownie",
+      "description": "<p>你是一名棕仙，格外擅长迅速收拾和修补东西的家宅精灵。你的体型可选择小型或微型。盟友陷入急迫危险时，你的修补本领也很有用。当你协助正在承受持续伤害的盟友恢复时，所需动作数减少1，最低为1个动作。协助恢复通常需要2个动作，因此你通常只需1个动作；若特定情境下需要更久，你仍能节省1个动作。你也可以选择花费协助恢复通常所需的全部动作，使恢复检定的DC降低2。</p>"
+    },
+    "Multitailed Serpentfolk": {
+      "name": "多尾蛇人 Multitailed Serpentfolk",
+      "description": "<p>你至少长有两条尾巴。依照成长地区的习俗，你可能从小被教导，多出来的尾巴是好运的象征，甚至意味着不止一个人的灵魂住在你体内。无论多尾有何玄妙含义，它们确实能让你轻松保持平衡。你的特技熟练度变为受训（若特技已受训，则选择另一项技能），并获得@UUID[Compendium.pf2e.feats-srd.Item.CnqMJR8e9jqJR7MM]{四平八稳}技能专长。通过协调使用尾巴，你用于保持平衡的特技检定获得+1环境加值；若你的特技熟练度为大师，则提高至+2环境加值。</p>"
+    },
+    "Apatosaurus": {
+      "name": "迷惑龙 Apatosaurus",
+      "description": "<p>你的脖子很长，进行简单动作时可以暂时将其伸至10尺触及。你可以用长颈的触及进行需要一只空闲手的简单交互动作，即使双手正忙于其他事。你以牙齿轻轻衔住物件来完成这些动作。你不能用脖子完成需要手指或高超手部灵活性的动作，包括任何需要检定才能完成的动作；你也不能用它持握物品，但可以短暂拾起物品并立即交给空闲的手。这不会提高你头部或颈部其他用法的触及，例如噬咬徒手攻击。</p>"
+    },
+    "Whiptail Girtablilu": {
+      "name": "鞭尾蝎人 Whiptail Girtablilu",
+      "description": "<p>所有蝎人都长有尾刺，但有些蝎人在战斗中能使其发挥格外致命的作用。除蝎钳外，你还获得尾刺徒手攻击，造成1d6穿刺伤害。尾刺属于斗殴武器组，具有灵巧、背刺和徒手特征。</p>"
+    },
+    "Antivenomous Serpentfolk": {
+      "name": "抗毒蛇人 Antivenomous Serpentfolk",
+      "description": "<p>其他地底居民偏爱用毒，地表又有无数带毒的物种；你的先祖必须适应毒素、学会抵御其侵害才能生存。</p><p>你获得等于自身等级一半的毒素抗力（最低1）。你每次对抗毒素苦难的豁免成功，都会使其阶段降低2；若是恶性毒素，则降低1。每次对抗持续生效的毒素取得大成功时，其阶段降低3；若是恶性毒素，则降低2。</p>"
+    },
+    "Mist-Cloaked": {
+      "name": "雾披型 Mist-Cloaked",
+      "description": "<p>你是难觅踪迹的大海蛇，宁愿藏身水下，也不愿暴露在上方的空气中。你的体型为中型。你的隐秘熟练度变为受训（若隐秘已受训，则选择另一项技能）。当水体为你提供次等掩蔽时，你可以相对于水面[[/act take-cover]]并获得高等掩蔽（若体型仍为中型，通常需要天然水域至少深2尺）；通常，你必须位于足够深、能提供标准掩蔽的水中，才能在相对于水面寻找掩蔽时获得高等掩蔽。依照通常规则，此掩蔽不适用于与你同在水下的其他生物。这让你可以如同通常具有高等掩蔽时那样[[/act hide]]。若你成功[[/act sneak]]，并在回合结束前以下一个动作于新位置再次寻找掩蔽，你可以保持高等掩蔽。</p>"
+    },
+    "Desertstrider Girtablilu": {
+      "name": "沙行蝎人 Desertstrider Girtablilu",
+      "description": "<p>多数蝎人社群守护某一处遗迹，你的族人却是游牧者，穿越沙漠前往需要他们的地方。你的速度为30尺，而非25尺。你擅长在沙地移动，忽略沙漠中的天然困难地形。</p>"
+    },
+    "Cautionary Fable": {
+      "name": "警示寓言裔 Cautionary Fable",
+      "description": "<p>你的故事是一则警告：别靠近，此地危险。故事中可能有一段道路、一条湍急溪流，或某种有害的植物或野兽，但人们讲述它的目的，是让其他人远离。你获得@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.8cgg00tjS0hBxBLQ]{保持距离}反应。</p>"
+    },
+    "Starsoul Girtablilu": {
+      "name": "星魂蝎人 Starsoul Girtablilu",
+      "description": "<p>你生于吉星之下，或出身于世代占星的家系；即使肉眼看不见星座，你也能不可思议地洞悉其方位。你获得@UUID[Compendium.pf2e.spells-srd.Item.tXa5vOu5giBNCjdR]作为神术天生戏法。依照通常规则，戏法会升阶至你等级的一半，向上取整。当你施放天生<em>指路术</em>时，可以选择将施法结果“交给星辰”；此时GM可以让它指向任何方向，也许会引领你前往星辰选定之地，也可能像通常那样指向北方。</p>"
+    },
+    "Gruesome Fable": {
+      "name": "骇人寓言裔 Gruesome Fable",
+      "description": "<p>你的故事充满鲜血、残肢与恐怖，讲出来就是为了让人震惊作呕。因此，你自己倒是有副极能承受这些的肠胃。你对抗苦难及防止陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]状态的豁免获得+1环境加值；用于移除恶心状态的豁免获得+2环境加值。</p>"
+    },
+    "Forgotten Fable": {
+      "name": "遗忘寓言裔 Forgotten Fable",
+      "description": "<p>你的故事……其实不合情理。以前可不是这样！很多很多年前，它完全说得通，至少和其他寓言一样说得通。但多年过去，故事变了，文化也变了，而两者的变化方向未必相同。如今，你的故事成了旧日遗物，是人们机械传诵的费解传说。好在你已经活了很久，也积攒了不少本领，让自己的故事比大多数故事多了些可能性。每天进行日常准备时，选择一项技能，你在该技能上的熟练度变为受训，持续至下次准备。由于此熟练度是暂时的，你不能以其满足技能提升或专长等永久角色选项的先决条件。</p>"
+    },
+    "Coiled": {
+      "name": "盘绕型 Coiled",
+      "description": "<p>你全身肌肉起伏，能够以整个身躯攻击船只。最好的方式就是盘住船身、将其挤碎，再拖入水下。你的体型为大型。你的运动熟练度变为受训（若运动已受训，则选择另一项技能），并获得巨人摔角术技能专长。</p><p>此外，你的徒手攻击忽略物体至多5点硬度。当你使一个物体处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态时，你对其进行徒手打击，将任何低于成功的结果视为普通成功。若你大成功且身处水中，可以将该物体向水下移动5尺。这些益处仅适用于物体，不适用于生物。</p>"
+    },
+    "Rock-Dweller": {
+      "name": "岩栖型 Rock-Dweller",
+      "description": "<p>你更喜欢陆地而非水域，不过仍需较高湿度来维持鳞片健康。选择此传承时，选择小型或中型作为你的体型。你的陆地速度从15尺增加至25尺，游泳速度从25尺降低至15尺。</p>"
+    },
+    "Smallpace Girtablilu": {
+      "name": "小步蝎人 Smallpace Girtablilu",
+      "description": "<p>有些蝎人远比同类小，因而更便于在狭窄空间活动。你的体型为中型而非大型，且不具有通常的力量提升或敏捷缺陷。你的蝎钳徒手攻击造成1d6钝击伤害而非1d8，但具有灵巧和娴熟特征。最后，你的特技熟练度为受训，并额外获得@UUID[Compendium.pf2e.feats-srd.Item.3G8xUlgCjRmRJNfP]{迅速挤入}技能专长。</p>"
+    },
+    "Depth-Adapted": {
+      "name": "深水适应型 Depth-Adapted",
+      "description": "<p>你潜入深海，避开浅水区的危险。海底少有障碍，使你更容易感知周围变化。你时刻警觉，随时准备迎战或逃离。你的体型为小型。你获得黑暗视觉。</p>"
+    },
+    "Hardy Girtablilu": {
+      "name": "坚韧蝎人 Hardy Girtablilu",
+      "description": "<p>你的家园环境格外严酷，遮风避雨之处更少，使你逐渐适应了极端环境的影响。你将炎热和寒冷温度均视为比通常低一个严酷等级；例如，将酷热视为炎热，将极寒视为严寒。</p>"
+    },
+    "Tyrannosaurus Rex": {
+      "name": "霸王龙 Tyrannosaurus Rex",
+      "description": "<p>巨大的颌骨、锋利的牙齿与强劲的咬合力昭示着你是真正的顶级掠食者。你获得@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.VFfd9a0lmYPZr8l6]{天生攻击}专长，但必须选择噬咬，且你的噬咬造成1d8穿刺伤害，而非1d6穿刺伤害。</p>"
+    },
+    "Slithering Serpentfolk": {
+      "name": "蜿行蛇人 Slithering Serpentfolk",
+      "description": "<p>你的修长躯干适合快速贴地移动，灵活的四肢也能收起，以免碍事。你获得无肢本能族裔专长。</p>"
+    },
+    "Dreamwaker Kushtaka": {
+      "name": "梦醒陆獭人 Dreamwaker Kushtaka",
+      "description": "<p>“纵使足迹遍远疆，变化真相莫相忘。侧耳倾听魂声唤，寻回魂魄身方全。”</p><p>所有陆獭人都诞生于灵魂与肉体分离之时，旧日的自我被抹去，新的存在由此形成。你的灵魂比大多数同类停留得更近，与新形态联系也更紧密，向你透露前生的秘密。即使不满足等级先决条件，你仍获得@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.rdMiYazNM1svVkFl]{重拾前尘}陆獭人族裔专长。</p>"
+    },
+    "Deep Girtablilu": {
+      "name": "地底蝎人 Deep Girtablilu",
+      "description": "<p>并非所有神殿或古老遗迹都位于地表。有些地下遗址始终深埋地下，另一些则原本位于地表，经过数世纪流沙变迁而被掩埋。守护这些地点的蝎人已经适应了地下环境。你获得黑暗视觉。</p>"
+    },
+    "Killmoulis": {
+      "name": "基尔穆利斯 Killmoulis",
+      "description": "<p>你是一名基尔穆利斯，长着醒目大鼻子的家宅精灵。你的体型为微型。你获得一种特殊感官：30尺模糊灵敏嗅觉。这意味着你可以用嗅觉确定生物所在的位置。若你位于该生物的下风处，GM通常会将范围加倍；若位于上风处，则减半。对于最喜爱的食物，你的嗅觉尤其敏锐。侦测面粉气味时，你的模糊灵敏嗅觉范围增加至500尺。</p><p>此外，当你试图定位灵敏嗅觉范围内的无踪生物时，察觉检定获得+2环境加值。</p>"
+    },
+    "Deep Mystic Serpentfolk": {
+      "name": "幽深秘法蛇人 Deep Mystic Serpentfolk",
+      "description": "<p>你的魔法赐福赋予你更多奥秘知识。只有泽斯蛇人能够选择此传承。</p><p>你的先祖赐福能力赋予两个戏法，而非一个。选择这些戏法时，你既可以从奥术列表中选择，也可以从神术列表中选择。无论戏法源于哪个列表，你都将其作为奥术天生法术施放。</p>"
+    },
+    "Atavistic Serpentfolk": {
+      "name": "返祖蛇人 Atavistic Serpentfolk",
+      "description": "<p>斯拉努斯的赐福在你体内澎湃流转，让你自幼便具有当今罕见的力量。你获得双重赐福族裔专长，以及另一种自选的蛇人传承。由于你既是阿泼夫也是泽斯蛇人，你可以选择任意蛇人传承。此外，往昔的神圣知识涌入你的脑海，使你的宗教熟练度变为受训（若宗教已受训，则选择另一项技能）。</p><p>然而，如此众多的赐福也有代价。你的身体格外冷血，仿佛回到了远古蛇人尚不必应对地表温度变化的年代。你同时获得寒冷和火焰伤害弱点，数值等于自身等级的一半（最低1）。</p>"
+    },
+    "Zashiki-Warashi": {
+      "name": "座敷童子 Zashiki-Warashi",
+      "description": "<p>你是一名座敷童子，孩童般的家宅精灵，其行迹有时会被误认为闹鬼的征兆。你的体型为小型。你所到之处，人们会听见古怪声响，如空房间里的砰砰声、窸窣声或清脆的孩童笑声。有时，他们还会看见转眼就消失的景象，例如短暂显现的脚印。这些现象往往令目击者不安，却又感到莫名慰藉。你可以随时制造这些及其他幻灵般的异象。你可以施放@UUID[Compendium.pf2e.spells-srd.Item.0zU8CPejjQFnhZFI]作为异能天生法术。你从家宅精灵族裔能力和专长中获得的所有法术都属于异能，而非原能。</p>"
+    },
+    "Ancient Monster": {
+      "name": "远古巨怪 Ancient Monster",
+      "description": "<p>你的祖先是曾令海洋闻风丧胆的远古大海蛇，你的分尾上长有锯齿状鳞片。你的体型为大型。此外，你的分尾攻击获得多用挥砍特征。若你未持握任何东西，分尾两侧都空闲，并在同一回合内以分尾成功命中同一生物两次（每侧各一次），目标受到@Damage[1d4[persistent,bleed]]伤害，并额外受到等于你的徒手攻击在攻击骰上物品加值的持续流血伤害（如果有该加值）。</p>"
+    },
+    "Gnawer Kushtaka": {
+      "name": "啃噬陆獭人 Gnawer Kushtaka",
+      "description": "<p>“利齿碎壳裂肉裳，咬穿血肉啮骨忙。撕扯研磨皆成屑，尝过之物命不长。”</p><p>如同与你相似的水獭，你长有格外强劲的利齿，适合咬碎甲壳、撕裂骨骼。你获得尖牙徒手攻击，造成1d4穿刺伤害。尖牙属于斗殴武器组，具有娴熟、撕扯和徒手特征。</p>"
+    },
+    "Plaguebearer Kushtaka": {
+      "name": "载疫陆獭人 Plaguebearer Kushtaka",
+      "description": "<p>“抽髓离骨涂足尖，死刃污秽莫洗干。腐败夺息敌难喘，毒箭锈刀尽收命。”</p><p>载疫者来自专门散播毒素与疾病的陆獭人村落。他们用这些古老手段，在劫掠前削弱凡人村落：把箭浸入海葵毒液，将刀刺入腐烂鲸尸，或使用一切可得的生物战手段。因此，他们已经能够抵御这些手法，也懂得如何最有效地减轻其危害。</p><p>你获得等于自身等级一半的毒素抗力（最低1）；对抗所有非魔法疾病的强韧豁免获得+2环境加值，对抗所有魔法疾病的强韧豁免获得+1环境加值。</p>"
+    },
+    "Curious Fable": {
+      "name": "寻因寓言裔 Curious Fable",
+      "description": "<p>你的故事尝试解释世界：大象的鼻子为什么那么长？潮汐为什么涨落？海狸为什么筑坝？你的解释……大概不怎么准确，却很善于让人信服。你的欺骗熟练度为受训，并获得@UUID[Compendium.pf2e.feats-srd.Item.6Z4e3B9vePYpibcy]{天花乱坠}专长，即使你的欺骗熟练度尚未达到专家。</p>"
+    },
+    "River Warden Kushtaka": {
+      "name": "守河陆獭人 River Warden Kushtaka",
+      "description": "<p>“钩织网间绳浸透，束缚湿紧不松手。河流送来皆收取，守河之道尽于此。”</p><p>作为守河陆獭人，你能愉快而轻松地游泳、穿越河流急湍。你获得15尺游泳速度；用于抵抗推撞或移位的强韧豁免和DC获得+1环境加值。</p>"
+    },
+    "Uncanny Fable": {
+      "name": "诡异寓言裔 Uncanny Fable",
+      "description": "<p>你的故事诡异而反常，暗示着凡世及其之外或许存在远超哲思所能想象的事物。从异能法术列表中选择一个戏法。你可以随意将其作为异能天生法术施放。戏法会升阶至你等级的一半，向上取整。</p>"
+    },
+    "Venomous Serpentfolk": {
+      "name": "毒液蛇人 Venomous Serpentfolk",
+      "description": "<p>你的力量赐福不仅赋予你修长锋利的尖牙，也赋予致命的毒腺，让你的咬击能够带毒。只有阿泼夫蛇人能够选择此传承。</p><p>@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.Ek8KPY1qmcqLRzED]{释放毒液}</p><p>依照伤口毒素的通常规则，若你的尖牙打击大失败，或尖牙打击成功却未造成穿刺伤害，毒液会无害地消耗掉。</p>"
+    },
+    "Moonlight Kushtaka": {
+      "name": "月光陆獭人 Moonlight Kushtaka",
+      "description": "<p>“幽暗之中辨微光，追猎猎物送其亡。夜影之中潜行处，他人双眼已迷茫。”</p><p>如同与你相似的水獭，你适应了光照不足的环境，无论黄昏、夜晚还是水下。你获得昏暗视觉。</p>"
+    },
+    "Hob": {
+      "name": "霍布 Hob",
+      "description": "<p>你是一名霍布，喜爱恶作剧的家宅精灵。你的体型为微型。依照霍布的悠久传统，你长着一双妙手，最适合恶作剧，让重要物件在不合时宜的时候失踪。你的贼活熟练度为受训（若贼活已受训，则选择另一项技能），并额外获得@UUID[Compendium.pf2e.feats-srd.Item.jDdOqFmZLwE4dblQ]{扒手}技能专长。只要物件无人看管，你可以对至多轻负载的物件使用@UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]{手上功夫}。</p>"
+    },
+    "Tree-Scaling": {
+      "name": "攀树型 Tree-Scaling",
+      "description": "<p>你的故乡林木与水域交错，例如红树林沼泽或温带森林。你不在地面爬行，而是在树间移动。你的体型为中型。你获得10尺攀爬速度，但陆地速度从15尺降低至10尺。</p>"
+    },
+    "Nisse": {
+      "name": "尼瑟 Nisse",
+      "description": "<p>你是一名尼瑟，以远超娇小体型的力气著称的家宅精灵。你的体型为微型，但不受微型生物通常的负载限制。你能如小型或中型生物一样负重，而非只能携带通常负载的一半；你也像小型或中型生物一样处理轻负载与可忽略负载的物件。不过，适合你体型的微型武器与护甲仍依照通常规则降低负载。此外，即使不满足运动先决条件，你仍获得@UUID[Compendium.pf2e.feats-srd.Item.C0Tcelg3BAPhML6J]{体健负重}技能专长。</p>"
+    },
+    "Seafarer Kushtaka": {
+      "name": "航海陆獭人 Seafarer Kushtaka",
+      "description": "<p>“蒙皮绑紧舟骨架，船首灯火照浪花。逐浪掠沫任驰骋，四海汪洋是我家！”</p><p>航海陆獭人是高明的水手，驾着皮划艇穿行冰冷的北方海域时如鱼得水。你的生存熟练度变为受训；若生存已受训，则选择另一项技能。你还获得针对航海学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}技能专长。你将环境寒冷效果视为严酷程度降低一级（奇寒变为极寒，极寒变为严寒，以此类推）。</p>"
+    },
+    "Comic Fable": {
+      "name": "诙谐寓言裔 Comic Fable",
+      "description": "<p>你的故事是个笑话，一段冗长轶事，末尾有个像模像样的笑点。大多数寓言裔源于恐怖故事，但幽默有时同样令人难忘，尤其是嘲弄凡人的愚蠢与短视时。你未必是个傻子，却偶尔能以很有用的方式故意装傻。你获得@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.RppXkDhRXxH5E4Ay]{骗不了傻子}反应。</p>"
+    },
+    "Moralizing Fable": {
+      "name": "劝诫寓言裔 Moralizing Fable",
+      "description": "<p>你的故事关乎社会规范与公共道德：有德者获赏，作恶者受罚。当然，这需要能分辨两者。你靠故事赋予的本能来判断，而非依赖凡人用以区分的感官线索。选择宗教（若侧重美德与道德）或社群（若侧重礼仪与“得体”举止），你在该技能上的熟练度变为受训。此外，若有人试图对你说谎，而所选技能DC高于你的察觉DC，则用该技能DC代替察觉DC来判断其是否成功。</p>"
     }
+  },
+  "folders": {
+    "Sea Serpent": "大海蛇 Sea Serpent",
+    "Saurus": "蜥族 Saurus",
+    "House Spirit": "家宅精灵 House Spirit",
+    "Mushie": "蘑菇人 Mushie",
+    "Girtablilu": "蝎人 Girtablilu",
+    "Fable": "寓言裔 Fable",
+    "Serpentfolk": "蛇人 Serpentfolk",
+    "Will-o'-Wisp": "鬼火 Will-o'-Wisp",
+    "Kushtaka": "陆獭人 Kushtaka"
   }
 }

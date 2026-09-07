@@ -1,0 +1,9 @@
+{
+  "label": "效果",
+  "entries": {
+    "Effect: Divine Flight": {
+      "name": "效果：神力飞行 Effect: Divine Flight",
+      "description": "<p>由@UUID[Compendium.battlezoo-ancestries-demigods.feats-pf2e.Item.XHgLvlKJ6rK8sh0z]{神力飞行}赋予</p><p>你获得等于陆地速度的飞行速度。</p>"
+    }
+  }
+}

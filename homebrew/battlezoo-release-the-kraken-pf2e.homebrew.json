@@ -1,0 +1,9 @@
+{
+  "moduleId": "battlezoo-release-the-kraken-pf2e",
+  "moduleTitle": "Battlezoo Adventures: Release the Kraken for Pathfinder 2e by Roll for Combat",
+  "homebrew": {
+    "creatureTraits": {
+      "living-spell": "活体法术"
+    }
+  }
+}

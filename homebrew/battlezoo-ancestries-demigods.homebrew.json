@@ -1,0 +1,12 @@
+{
+  "moduleId": "battlezoo-ancestries-demigods",
+  "moduleTitle": "Battlezoo Ancestries: Demigods by Roll for Combat",
+  "homebrew": {
+    "featTraits": {
+      "demigod": "BZDEMI.Trait.Demigod"
+    },
+    "creatureTraits": {
+      "demigod": "BZDEMI.Trait.Demigod"
+    }
+  }
+}

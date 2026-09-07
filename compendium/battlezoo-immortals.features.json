@@ -1,0 +1,266 @@
+{
+  "label": "特性",
+  "entries": {
+    "Eternal Hero": {
+      "name": "永恒英雄 Eternal Hero",
+      "description": "<p>虽然英雄点通常属于游戏外的机制，但命运偏袒于你，定期给予你第二个英雄点池，让你留在它选定的道路上。你获得第二个英雄点池，每个游戏日的日常准备期间恢复至满值。此池的英雄点上限等于1加你的命定值。由于它是独立的英雄点池，任何要求你花费“全部”英雄点的效果，只会耗尽其中一个池（由你选择）；任何要求同时花费多个英雄点的效果（例如机械降神显化），都必须从同一个池中花费全部所需英雄点。</p>"
+    },
+    "Steal Magic": {
+      "name": "窃取魔法 Steal Magic",
+      "description": "<p>敌人的法术固然低劣，但有时至少还算有趣，值得偷来。选择距你60尺＋20尺×你的命定值范围内、身上正有生效法术效果的一名敌人，尝试对该法术进行反制检定。反制环级等于你等级的一半，向上取整；反制调整值为你的法术DC – 10（@Check[spell|options:counteract,steal-magic]），并获得等于1加命定值的状态加值。若成功，你窃取该法术效果，持续其剩余时间，使其改为影响你而非敌人（若有其他目标，仍正常影响它们）。你同时只能维持一个窃取来的法术。若前一个窃取法术仍在持续时，你再次使用窃取魔法并成功偷来另一个法术效果，则前一个法术对你的效果结束。</p>"
+    },
+    "Absorb Magic": {
+      "name": "吸收魔力 Absorb Magic",
+      "description": "<p>魔法正是你不朽的根源，因此你能将敌人的魔法化为更旺盛的活力，又有什么奇怪的呢？每当你对抗敌人法术的豁免成功时，获得等于该法术环级三倍的临时生命值，持续1小时。</p><p>@UUID[Compendium.battlezoo-immortals.effects.Item.aTsf5oU7S5VFuqCl]{效果：吸收魔力}</p>"
+    },
+    "Drink Blood": {
+      "name": "饮血 Drink Blood",
+      "description": "<p>如今你已觉醒为真祖，长出了尖牙，也获得了饮血的能力。若愿意，你仍可食用其他食物和饮料，但鲜血尝起来更好；将血加入其他菜肴，也会像香料一般令其格外美味。即使少量鲜血，也能维持你一段时间。身为永生者，即便完全不吃不喝，包括不饮血，你也不会死，但会极其难受。</p><p>你获得造成1d6穿刺伤害的尖牙无武装攻击。尖牙属于搏击武器组，具有擒拿与无武装特征。你可以花费一个动作，饮用一个有血液的活物的血；它必须处于@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}、因你的尖牙而@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}、@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态，或自愿接受。如此做时，它变为@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1}；若此前没有流失状态，你获得临时生命值，持续1小时。临时生命值等于该生物的等级，再加上该生物等级的一半乘以你的命定值。</p>"
+    },
+    "Dominating Gaze": {
+      "name": "支配凝视 Dominating Gaze",
+      "description": "<p><strong>频率</strong> 每日次数等于你的命定值</p><hr /><p>当你凝聚目光时，只要与你对视的生物意志动摇，你就能夺取其控制权。此能力具有@UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]法术的效果，环级等于你等级的一半，向上取整；但你可以影响魅惑威仪灵光中的任意生物，而非仅限30尺射程内。</p>"
+    },
+    "Healing Grace": {
+      "name": "治愈恩典 Healing Grace",
+      "description": "<p>天堂的恩典充盈于你，让你能够轻易治愈盟友。你可以将@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]作为神术天生法术施放，升阶至等于你等级一半的环级，向上取整，每日次数等于命定值。</p>"
+    },
+    "Divide and Conquer": {
+      "name": "分身制敌 Divide and Conquer",
+      "description": "<p>你的身体是封印超越现实与几何之恐怖的异界结界，这也意味着它可以用正常身体做不到的方式分割。你将身体一分为二。你必须在两个身体之间分配双手，以及持握武器、盾牌与其他持用物品的能力；例如，一个身体可以持握双手武器，或武器加盾牌，但另一个身体就无法持握任何东西，即使你通常拥有能持物、与主手交替使用的小型备用手，或类似特性也是如此。除此之外，两半身体都拥有完成所需任务的必要身体结构。你通过在两者间分配通常的动作来控制它们。例如，怪物向其中一半冲锋后，你可以用三个动作，让受攻击的一半举起盾牌，另一半行走至夹击位置，再让其中一半进行打击。两半仍是同一个生物的一部分，因此共享生命值，以及大多数有益或有害的状态与效果。不过，某些基于实际位置的效果可以只影响其中一半，通常包括@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}、@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}、@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，或因夹击而产生的@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}等源于位置、而非整体身心状况的状态。分身会一直持续，直到两半彼此相邻时你再次使用此动作，使它们重新合一。</p><p>若你为命定3，可以用同样方式分为至多三部分。</p>"
+    },
+    "Adversity Breeds Strength": {
+      "name": "逆境铸就力量 Adversity Breeds Strength",
+      "description": "<p>真正的英雄，只有在旅途中遭遇压倒性的困境、承受艰难挫折之后，才能攀上最高峰；你也能从逆境中获得力量。若敌人对你重击，或你对抗敌人的豁免大失败，只要永恒英雄池中的英雄点尚未达到上限，你就恢复其中一个英雄点。</p>"
+    },
+    "Scatter the Weaklings with Primordial Fear": {
+      "name": "以原初恐惧驱散弱者 Scatter the Weaklings with Primordial Fear",
+      "description": "<p>弱小的存在本能地知道，自己何时正面对世界秩序顶端的存在。生物首次进入距你30尺＋10尺×你的命定值的范围内时（无论是它们进入灵光，还是你靠近它们），必须尝试@Check[will|against:class-spell]豁免，对抗你的职业DC或法术DC中的较高者，效果如下。此后，它们暂时免疫你的灵光，持续24小时。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}。</p><p><strong>失败</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}。</p><p><strong>大失败</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧3}，并且@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}，持续1轮。</p>"
+    },
+    "Stygian Whispers": {
+      "name": "斯泰吉亚低语 Stygian Whispers",
+      "description": "<p>你的灵魂听过地狱第五层谎言的低语，使你能够与所有哪怕只怀有一丝可供地狱利用之欲望的生物交流。你获得心灵感应，范围为80尺＋40尺×你的命定值；任何拥有心智，并具有想法、欲望或需求的生物，你都能与其交流，即使没有共同语言，或对方根本没有语言，包括动物等智力低下的生物。你的心灵感应会尽可能准确地将思想和观念转化为对方能理解的形式；若对方对世界的理解与你截然不同，内容可能会被简化或扭曲，类似于使用@UUID[Compendium.pf2e.spells-srd.Item.BBvV7qoXGdw09q1C]之类的效果。你的欺骗熟练等级变为专家；若你至少为3级，则变为大师。若命定值为3且你至少为7级，则欺骗变为传奇。你获得数量等于命定值的欺骗技能专长。第一个可以是受训或专家技能专长；若你已是大师，第二个也可以是大师技能专长；若你已是传奇，最后一个也可以是传奇技能专长。你忽略这些专长的等级先决条件，但必须满足包括技能熟练等级在内的其他先决条件。</p>"
+    },
+    "Saint's Mercy": {
+      "name": "圣徒慈悲 Saint's Mercy",
+      "description": "<p>你的祝福充满天堂无尽的慈悲，解除盟友的苦难。若你使用的下个动作是施放@UUID[Compendium.battlezoo-immortals.spells.Item.GtDrHlOHSFdIbS14]，则对每个受到你的<em>圣徒祝福</em>治疗的生物，尝试反制其身上的一种苦难或下列状态之一，反制检定获得等于命定值的状态加值。你必须选择同一种状态或苦难，尝试从所有生物身上移除，而不能为每个生物分别选择不同的状态或苦难。</p><p>你可以尝试移除的状态包括@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]、@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]、@UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]、@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]、@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]、@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]、@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]、@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]、@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]、@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]、@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]、@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]、@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]、@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]、@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]和@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]。</p>"
+    },
+    "Plot Armor": {
+      "name": "主角光环 Plot Armor",
+      "description": "<p>你的英雄之旅还不能就此结束！命运为你准备了更美好、更光明的未来。除了英雄点的通常用途外，你还可以花费一个英雄点，让敌人对你进行的一次攻击骰重掷。</p>"
+    },
+    "Spell Lich Dweomers": {
+      "name": "法术巫妖秘法 Spell Lich Dweomers",
+      "description": "<p>你的法术变得远比从前强大。在法术巫妖魔法赋予的法术之外，再获得一个4环级天生法术、一个5环级天生法术和一个6环级天生法术。法术巫妖魔法与法术巫妖秘法赋予你的所有法术，都可以各自每日施放两次，而非每日一次。当你的命定值达到3时，通过法术巫妖秘法选择的4环级法术改为由法术巫妖魔法赋予的4环级法术，你还额外获得一个7环级天生法术。</p>"
+    },
+    "Charming Presence": {
+      "name": "魅惑威仪 Charming Presence",
+      "description": "<p>你拥有吸血鬼诱人的气质，能让受害者放松警惕；身为真祖，你还能将其用于更多方面。生物首次进入距你30尺＋10尺×你的命定值的范围内时（无论是它们进入灵光，还是你靠近它们），必须尝试@Check[will|against:class-spell]豁免，对抗你的职业DC或法术DC中的较高者。失败时，它们对你变为友善（但此后仍会依据你的行为，正常地改善或恶化态度）。豁免成功的生物永久免疫你的魅惑威仪；若你在某个生物进入魅惑威仪前对其采取敌对行为，就会打破吸血鬼魅力的迷魂之效，使该生物永久免疫你的魅惑威仪。</p>"
+    },
+    "Alien Mind": {
+      "name": "异界心智 Alien Mind",
+      "description": "<p>作为容器的“你”，与体内异界憎恶的“你”之间的屏障已经薄弱到让双方的心智开始融合。你仍保有足够的自我意识，能够理解凡人，并暂时依恋过去的生活；但大多数袭向你的心智威胁都已无法令你动摇。当生物尝试对你使用心灵效果时，你可以选择将其导向那超越思维、不可理解的异界憎恶，从而免疫该效果；也可以用残存的近似凡人的心智处理它，接受效果。你逐次作出选择；若你并未察觉某个效果，则默认免疫，保护你免受未知的心灵攻击。除异怪外，任何生物主动与你建立直接精神接触，例如心灵感应或读取思想，都会接触到你体内的异界自我，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]，状态值等于你的命定值，持续1分钟。若由你主动建立精神接触，则不会发生此事，因为此时对方接触的是你较为安全的部分。</p>"
+    },
+    "Illusions of Malebolge": {
+      "name": "玛尔博吉幻象 Illusions of Malebolge",
+      "description": "<p>你的灵魂曾沐浴于地狱第六层的幻象之中，让你能够以幻象披身，随手创造幻术。你可以随意对自己施放@UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]，升阶至等于你等级一半的环级，向上取整。你还可以每天施放@UUID[Compendium.pf2e.spells-srd.Item.Ucf8eynbZMfUucjE]，次数等于你的命定值；若你至少为11级，这些<em>幻象场景</em>法术也会升阶至等于你等级一半的环级，向上取整。</p>"
+    },
+    "Markets of Dis": {
+      "name": "迪斯市场 Markets of Dis",
+      "description": "<p>你的灵魂见识过地狱之城迪斯的景象，那里什么都能买卖……当然，价钱得合适。你可以利用契约中的条款，随时买卖任何常见物品，只需花费10分钟安排交付。你甚至可能通过为迪斯的魔鬼提供服务或人情，换取更稀有的货物。此外，以这种方式购买物品时，你获得等于5%×命定值的折扣（命定3时折扣最高为15%，让你能以标准价格的85%从迪斯购买物品），但出售物品时不会获得类似益处。</p>"
+    },
+    "Strike Down the Foe with Claws of Wrath and Power": {
+      "name": "以愤怒与力量之爪击倒敌人 Strike Down the Foe with Claws of Wrath and Power",
+      "description": "<p>道理其实很简单：你拥有神兽之力。随着这股力量在体内奔涌，你的打击格外强劲。所有基于力量的武器攻击和无武装攻击，都造成等于1加你的命定值的额外伤害。</p>"
+    },
+    "Reflecting Countermagic": {
+      "name": "反射魔法反制 Reflecting Countermagic",
+      "description": "<p>你的魔法反制能够将敌人的攻击法术反弹给他们，把有益法术转移给自己。使用魔法反制成功反制一个法术时，你可以选择将其反射回施法者，而非使其无效。如此做时，法术以施法者为目标（且仅以其为目标，即使原本可以有更多目标）；若法术具有区域，则其效果以施法者为中心。或者，只要你在射程内，也可以将有益法术反射到自己身上。如此做时，法术以你为目标（且仅以你为目标，即使原本可以有更多目标）；若法术具有区域，则其效果以你为中心。</p>"
+    },
+    "A Turn for the Worse": {
+      "name": "急转直下 A Turn for the Worse",
+      "description": "<p>命运对你的明显偏爱，已不止于保护你免受伤害、让攻击和技能更容易成功，甚至还会让敌人在对抗你的法术和能力时急转直下。除了英雄点的通常用途外，你还可以花费一个英雄点，强迫敌人重掷一次对抗你的法术或能力的豁免。</p>"
+    },
+    "Stigmata": {
+      "name": "圣痕 Stigmata",
+      "description": "<p>当你流血时，苦痛会化为他人的救济，在你身上形成可见的圣痕或其他标记。你可以用自由动作使自己受到@Damage[1d4[persistent,bleed]]伤害。只要你正承受来自任意来源的持续出血伤害，每当你受到敌人造成的伤害时（但不包括失去生命值，或将盟友的伤害转移给自己），记录自你上个回合结束以来受到的伤害总量（包括该回合结束时的持续伤害）；每受到2点伤害，便向圣痕池加入1点可用于治疗的生命值。</p><p>@UUID[Compendium.battlezoo-immortals.effects.Item.xSizd6zOpwQAcGyg]{效果：圣痕}</p><p>在你的回合中，若使用为盟友恢复生命值的效果，你可以分配额外治疗，每消耗圣痕池中的1点生命值，额外恢复1点生命值；分配的对象和时机由你决定。在你的回合结束时、承受该回合的持续伤害之前，圣痕池中剩余的生命值全部失去。</p><p>例如，自上个回合以来，你总共受到65点伤害，那么圣痕池中就有32点可用生命值。若随后施放两动作圣徒祝福来治疗三名盟友，你可以把圣痕池中的32点生命值分配给他们作为额外治疗，例如为其中一人额外恢复8点生命值，另一人恢复14点，第三人恢复10点。此时圣痕池已空，因此即使本回合再使用另一个治疗效果，也无法附加治疗；若没有用完圣痕池中的生命值，剩余部分也会在回合结束时失去。</p>"
+    },
+    "Martyr's Blood": {
+      "name": "殉道者之血 Martyr's Blood",
+      "description": "<p>你可以代替盟友流血，而当你重新站起时，也将为他们带来得救的希望。每天可使用的次数等于命定值：当距你30尺＋10尺×你的命定值范围内的一名盟友将受到伤害时，你可以使用反应，选择改由自己失去等量生命值；若如此做，伤口便会神秘地出现在你身上。此时，毒素等大多数附加效果会随伤口转移，改为影响你而非盟友；但附着能力造成的@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}等取决于敌人与盟友身体位置关系的效果，仍会影响盟友。</p><p>此外，每当你推进圣徒途径并完全恢复时，可以选择只恢复正常生命值的一半，而非全部生命值。若如此做，你可以将剩余的生命值分配给距你60尺＋20尺×你的命定值范围内的盟友。</p>"
+    },
+    "Cocytan Ambition": {
+      "name": "库凯图斯野心 Cocytan Ambition",
+      "description": "<p>你的灵魂已抵达地狱第七层，让你能够临时订立小交易，应对各种突发情况。你可以不掷检定，改为提出交易，以某种代价换取成功或益处；你可以同时提出想要的益处与愿付的代价，也可以让GM自行决定代价。无论哪种方式，你都可以与GM协商一个地狱认可的公平价格。只要最终能够获胜，地狱通常愿意放弃相当可观的短期收益。例如，你可以请求在关键时刻获得力量强化或援军，交换持续的萎靡不适，或日后更长时间的服役。GM可能判定地狱（或GM本人）不愿接受交易，或所求结果不在地狱能够干涉的范围内；后一种情况通常是因为有其他更高层次的力量介入，直接插手会招致反制。</p>"
+    },
+    "Countermagic": {
+      "name": "魔法反制 Countermagic",
+      "description": "<p><strong>触发</strong> 一个生物施放法术，且该生物或法术效果位于距你60尺＋20尺×你的命定值的范围内</p><hr /><p>看其他施法者对你的法术技艺作出拙劣模仿，实在有趣；用自身魔法拨开他们的法术，也再容易不过。你消耗一个法术位，尝试反制触发此反应的法术。消耗的必须是法术巫妖途径赋予的法术，或能够施放一个在主题上与被反制法术相符或相对的法术位；你的反制检定获得等于1加命定值的状态加值。</p>"
+    },
+    "Incorruptible Purity": {
+      "name": "不染纯净 Incorruptible Purity",
+      "description": "<p>你的身心与灵魂始终纯净，任何事物都无法腐化你。若强韧或意志豁免成功，则改为大成功；若强韧或意志豁免大失败，则改为失败。若你对其中一种豁免已获得这两项增益（通常来自赋予该豁免传奇熟练等级的职业特性），则该类豁免失败时，改为成功。</p>"
+    },
+    "Avernal Flame": {
+      "name": "阿弗纳斯之焰 Avernal Flame",
+      "description": "<p>你的灵魂曾沐浴于地狱第一层，因此能够释放一阵狱火爆发。你获得邪秽特征。你获得神术聚能法术@UUID[Compendium.battlezoo-immortals.spells.Item.LxZLx1OwLmjSWsbf]，并可通过在脑海中核对契约细节，或冥想灵魂曾惊鸿一瞥的地狱景象来再聚能。若你处于命定状态，每天可以不消耗聚能点施放<em>狱火爆发</em>，次数等于命定值。</p>"
+    },
+    "Transcend Fate": {
+      "name": "超脱命运 Transcend Fate",
+      "description": "<p>你超越了命运为你安排的角色，不再是它的傀儡。你已挣脱所有牵线。这可能意味着你与命运融为一体，获得亲自左右天平、将另一位凡人擢升为命运选民的能力；也可能意味着你选择保留凡性，唾弃命运、反抗宿命，最终微笑着按自己的意愿死去；或是走向另一种同样惊世骇俗的结局。无论如何，你最终确实开辟了自己的道路。</p>"
+    },
+    "Emerge from Chrysalis of Flesh": {
+      "name": "破出血肉之茧 Emerge from Chrysalis of Flesh",
+      "description": "<p>这对所有相关者都很危险，但当你需要处理影响身体的问题时，可以像打破蛋壳——更准确地说，破开虫茧——那样裂开身躯，让血肉脱落在地，显露其下的另一个自己。你获得异能聚能法术@UUID[Compendium.battlezoo-immortals.spells.Item.FIHFMEhRZWZjoH5I]，并可通过白日梦接触血肉牢笼内的真实自我来再聚能。若你处于命定状态，每天可以不消耗聚能点施放<em>破出血肉之茧</em>，次数等于命定值。</p>"
+    },
+    "Heavenly Ascension": {
+      "name": "升入天堂 Heavenly Ascension",
+      "description": "<p>你升入天堂，永远获封为圣徒，受到所有曾被你触动过人生之人的敬奉。这次升天可能使你成为某位神祇的神使，也可能让你自身成为弱等神祇；无论如何，你都将在天堂承担重要职责，远离凡间的烦扰。</p>"
+    },
+    "Reach for the Stars and Challenge the Cosmos": {
+      "name": "伸手摘星，挑战寰宇 Reach for the Stars and Challenge the Cosmos",
+      "description": "<p>当你伸手摘星时，便能以真正神兽的身份向寰宇呼喊，发出挑战；你的身躯也随之增长。你的体型变为超巨型，触及从15尺提高至20尺。</p>"
+    },
+    "Sanguine Grail": {
+      "name": "鲜血圣杯 Sanguine Grail",
+      "description": "<p>身为真祖，你的鲜血如同邪秽圣杯般饱含不朽之力，会自动净除侵蚀身体的苦难，使你免受其害。你获得疾病和毒素免疫。</p>"
+    },
+    "Incomprehensible Anatomy": {
+      "name": "不可理解的生理构造 Incomprehensible Anatomy",
+      "description": "<p>你的身体与存在，只不过是容纳着不可理解异界存在的外壳，敌人似乎找不到你真正的弱点，又有什么奇怪的呢？你对精准伤害和重击额外伤害获得等于等级一半的抗力；若处于命定状态，此抗力再增加等级一半乘以命定值。例如，命定1时，抗力等于完整等级；不要先将等级除半并向下取整，再进行乘法。对重击的抗力，不能将攻击伤害降至低于普通命中本应造成的伤害。</p>"
+    },
+    "Trample the Chaff that Stands in Your Way": {
+      "name": "践碎挡路草芥 Trample the Chaff that Stands in Your Way",
+      "description": "<p>你是不可阻挡的巨物，会碾碎沿途的一切。你行走至多两倍速度的距离，可以穿过体型至少比你小一级的生物所占据的空间，践踏、碾压每个你进入其空间的生物。每次使用践碎挡路草芥时，对同一个生物只能尝试践踏一次。你造成拳击打击的伤害，伤害骰提高为d8；若你拥有爪击、利爪或足部无武装攻击，且更愿意使用，也可以改为造成其伤害。被践踏生物受到的伤害，取决于其对抗你的职业DC的@Check[reflex|against:class|basic]豁免。</p>"
+    },
+    "Invincible Luck": {
+      "name": "无敌幸运 Invincible Luck",
+      "description": "<p>你的主角运气好得近乎骇人，几乎能让你免疫所有可以凭敏捷反射、强健体魄或坚定意志避开的效果。首次掷某次豁免时，若结果为失败或大失败，则重掷。每当你因幸运效果重掷，且本应采用第二次结果时，改为采用较好的结果。最后，你可以对同一次掷骰使用多个幸运效果，只要除第一个外，其余都是重掷效果；如此做时，所有重掷都不应用第一个幸运效果的任何效果。例如，若第一个幸运效果让你掷两次取较高结果，然后你又用第二个幸运效果重掷，那么你只重掷一次，而不是再次掷两次取较高结果。</p>"
+    },
+    "Aura of Succor": {
+      "name": "救济灵光 Aura of Succor",
+      "description": "<p>仅仅是你的存在，就能安抚盟友，让他们缓解困扰自身的状态。你的救济灵光是半径为15尺＋5尺×你的命定值的弥漫区域。每当盟友在灵光中结束回合时，其@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]、@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]、@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]和@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]的状态值各降低1。</p>"
+    },
+    "Eternal Night": {
+      "name": "永夜 Eternal Night",
+      "description": "<p>你已褪去凡性的最后残迹，彻底接纳古老真祖的心态。凡人的事务，甚至昔日伙伴的事情，都不再令你挂怀。你退出旧日生活，开启新的人生，或许还能获得更强大的力量。</p>"
+    },
+    "Defy Geometry": {
+      "name": "违逆几何 Defy Geometry",
+      "description": "<p>你逆着现实的接缝移动，那种违背常理的怪异让目睹者厌恶得发抖……却能让你不减速地绕过障碍、避开敌人的攻击。你沿对角线移动时，每格只消耗5尺移动距离，而非在5尺和10尺之间交替，因此在宽阔空间中，除了最宽大的障碍外，你几乎能视其他障碍如无物。你的对角线移动不会触发由移动引发的反应；沿横向或纵向移动时，生物仍可对你使用这些反应，但你对抗此类反应的AC获得等于命定值的环境加值。</p>"
+    },
+    "Devour the Food that Kindly Served Itself Up": {
+      "name": "吞噬贴心送上门的食物 Devour the Food that Kindly Served Itself Up",
+      "description": "<p>你尝试吞食一个体型至少比你小一级、处于你造成的@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态的生物。若被吞食生物的体型已达到你能吞食的上限，在消化它之前，你无法再次吞食其他生物。若其体型小于上限，通常还可以吞食更多生物；数量上限由GM决定。你尝试@Check[athletics|against:reflex]检定，对抗目标的反射DC。若成功，你吞下该生物。由于你已经将其吞下，它不再占用你的双手、嘴巴或其他身体部位，你也不再主动与其擒抱，因此可以带着体内的敌人正常自由移动，但不能攻击自己吞下的生物。</p><p>被吞食的生物处于受擒和@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}状态，且必须屏息，否则开始窒息。你每有两级，被吞食生物在最初被吞下时，以及之后仍被吞食期间的每个回合结束时，受到1d6钝击伤害（若出现你仍为一级却已推进至第七阶段的罕见情况，伤害最低为1d6）（@Damage[((max(1,floor(@actor.level/2)))d6)[bludgeoning]]）。若受害者成功逃脱受擒状态，就会从你的嘴里出来。这也会释放当前被你的嘴或颚擒抱的其他生物。被吞食生物可以从体内攻击你，但只能使用无武装攻击，或轻型负载及以下的武器。你对此类攻击处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态。若一次攻击或法术对你造成的穿刺或挥砍伤害达到或超过你等级的两倍，被吞食生物便能破体而出。无论是通过逃脱还是剖开身体逃出的生物，都能立即呼吸，并离开你的空间。</p><p>若你在吞食一个或多个生物期间死亡，触及范围能够到达你尸体的生物，可以合计花费3个动作，使用造成穿刺或挥砍伤害的武器或无武装攻击剖开你，救出一个被吞食生物……但你是不朽的神兽，因此想通过这种方式获救，前景实在渺茫。</p>"
+    },
+    "Inherit the World and Become Your True Self": {
+      "name": "承继世界，成就真我 Inherit the World and Become Your True Self",
+      "description": "<p>你彻底成为神兽，再次漫步世间，从远古先祖手中继承世界的一切美丽与辉煌。你的身体完全变为庞大无比的巨兽，远超第八阶段的体型，甚至可能长达数百尺。身为神兽的本能与思维方式，与你昔日的凡人自我大相径庭，你就此离去，踏入全新的人生。</p>"
+    },
+    "Form of the Night": {
+      "name": "暗夜形态 Form of the Night",
+      "description": "<p>身为真祖，阳光不会令你恐惧，但你最熟悉的仍是夜行生物与笼罩地面的浓雾，而你可以变为这些形态。使用暗夜形态时，选择变为蝙蝠、狼、雾团，或恢复真实形态。</p><p>变为蝙蝠具有4环级@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]的效果，但你在蝙蝠形态中仍可使用尖牙打击。变为狼时，从两种增益中选择一种：获得犬类@UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]的效果，环级最高为4或你等级的一半、向上取整，两者取较低者；或者仅变成狼的外貌，除拥有四条腿、没有手臂，因此不能用手持握任何物品外，数据不变。变为雾团具有@UUID[Compendium.pf2e.spells-srd.Item.V8wXOsoejQhe6CyG]的效果。暗夜形态的变化会一直持续，直到你再次使用暗夜形态变换形态，或推进永生途径；推进途径总会让你恢复真实形态。</p>"
+    },
+    "Deus Ex Machina": {
+      "name": "机械降神 Deus Ex Machina",
+      "description": "<p>当命运真正站在你这一边时，即使荒唐之事也能成真。你可以从同一个池中花费2个英雄点，让叙事与情节向有利于你的方向扭转。向GM概述你想要什么，GM会选择并叙述一个对你有利、却不太可能发生的幸运转机或故事元素。这类机械降神很少直接替你达成目标，例如碾压战斗中的敌人，或强迫商人接受谈判，但能显著改善局面。例如，战斗不利时盟军援兵赶到，或敌人被迫撤退去处理另一项威胁；又或者，你需要谈判的商会负责人，恰好是失联多年的童年好友。</p>"
+    },
+    "Blood Bond": {
+      "name": "血之羁绊 Blood Bond",
+      "description": "<p>真祖之血能够与生物和武器建立羁绊。你可以进行一场耗时1分钟的仪式，喂一名自愿生物喝下一滴鲜血；此后，你能够与其心灵交流，并能使用一个具有专注特征的单动作，以其感官替代自己的感官，或切换回自身感官。该生物对抗你的效果时，意志豁免承受等于1加你的命定值的状态减值。所有这些效果持续1天；若你为命定2，则持续1周；若为命定3，则持续1个朔望月。</p><p>此外，你可以用鲜血与一件武器建立羁绊；过程需要你持握该武器，并向其灌注鲜血，持续10分钟。若选择建立这种血之羁绊，你的真祖之血就会取代武器的本质，将其纳入自身。你可以使用一个具有专注特征的单动作，让武器无论身在何处，都炸成一滩鲜血，然后从你的血中重塑，出现在手中。</p>"
+    },
+    "Reach for the Sky and Grasp the Moon": {
+      "name": "伸手向天，掌中揽月 Reach for the Sky and Grasp the Moon",
+      "description": "<p>想将月亮揽入掌中，就必须伸手向天。神兽之力使你越来越接近原初形态，你的身躯也继续增长。你的体型变为巨型，触及从10尺提高至15尺。</p>"
+    },
+    "Magic Incarnate": {
+      "name": "魔法化身 Magic Incarnate",
+      "description": "<p>你已成为魔法的化身，超越凡人躯壳，与魔法的源头本身融为一体。在这全新状态下，你能进行何种魔法实验、取得何种发现，或许远超凡人理解；但若你屈尊分享，必将彻底改变全世界对魔法的认知。</p>"
+    },
+    "Saint's Blessing": {
+      "name": "圣徒祝福 Saint's Blessing",
+      "description": "<p>你的触碰为盟友带来治疗与防护的祝福。你获得圣洁特征。你获得神术聚能法术@UUID[Compendium.battlezoo-immortals.spells.Item.GtDrHlOHSFdIbS14]，并可通过祈祷，或思索美德、天堂、自我牺牲或神性来再聚能。若处于命定状态，每天可以不消耗聚能点施放圣徒祝福，次数等于命定值。</p>"
+    },
+    "Darkness of Caina": {
+      "name": "凯纳阿之暗 Darkness of Caina",
+      "description": "<p>独处于地狱第八层的黑暗中时，你再也看不见周围的一切，抛却了大部分残存的凡人自我，以狱火灌注自身。你获得火焰免疫，等于等级加命定值的毒素抗力，以及等于等级一半加命定值的物理伤害抗力，银除外。</p>"
+    },
+    "Elude Reality": {
+      "name": "逸出现实 Elude Reality",
+      "description": "<p><strong>触发</strong> 你将受到敌对动作或效果造成的伤害。你逸出现实，短暂逃往现实之外。触发此反应的动作或效果的来源，必须尝试@Check[flat|dc:resolve(1 + 2*@actor.flags.system.fated)]检定，DC等于1加你命定值的两倍。若失败，该动作或效果不影响你。无论结果如何，你都会留在现实之外，无法行动，但这个现实中的任何事物也无法攻击你或以你为目标，直到当前回合结束（通常是触发生物的回合，除非由反应触发）。届时，你重新进入现实，位置最多距原位4个对角线方格，且只能沿对角线移动（若四格均朝同一方向，可能相距至多30尺）。返回现实后，你在[[/gmr 1d4 #Recharge Elude Reality]]{1d4轮}内无法再次使用逸出现实。</p>"
+    },
+    "Wrapped in a Mystery, Inside an Enigma": {
+      "name": "谜团包裹，奥秘深藏 Wrapped in a Mystery, Inside an Enigma",
+      "description": "<p>作为容器的“你”，与体内异界憎恶的“你”之间的屏障已经薄弱到让双方的心智开始融合。你仍保有足够的自我意识，能够理解凡人，并暂时依恋过去的生活；但大多数袭向你的心智威胁都已无法令你动摇。当生物尝试对你使用心灵效果时，你可以选择将其导向那超越思维、不可理解的异界憎恶，从而免疫该效果；也可以用残存的近似凡人的心智处理它，接受效果。你逐次作出选择；若你并未察觉某个效果，则默认免疫，保护你免受未知的心灵攻击。除异怪外，任何生物主动与你建立直接精神接触，例如心灵感应或读取思想，都会接触到你体内的异界自我，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]，状态值等于你的命定值，持续1分钟。若由你主动建立精神接触，则不会发生此事，因为此时对方接触的是你较为安全的部分。</p>"
+    },
+    "Spell Aegis": {
+      "name": "法术庇护 Spell Aegis",
+      "description": "<p>法术在你面前不值一提，只配成为延续你不朽的燃料。若你对抗法术的豁免大失败，则改为失败。若你对抗造成伤害的法术时豁免普通失败，则只承受一半伤害。若你对抗法术的豁免成功，则改为大成功。</p>"
+    },
+    "Reach for the Peak and Behold the Sun": {
+      "name": "登临峰顶，仰望骄阳 Reach for the Peak and Behold the Sun",
+      "description": "<p>唯有登临山巅，才能真正沐浴太阳的辉光。你的身体长得更高，四肢伸得更长，触及也随之增长，呼应你的志向。你的触及从5尺提高至10尺。</p>"
+    },
+    "Impossible Envelopment": {
+      "name": "悖理吞没 Impossible Envelopment",
+      "description": "<p>你的身体能容纳深不可测的异界恐怖，那么，能够吞没比自己更大的生物，又有什么奇怪的呢？选择一个与你相邻的生物，其体型最多可以比你大若干级，级数等于你的命定值。你尝试将它吞入体内，送往异界恐怖所在之处。该生物必须尝试@Check[reflex|against:class-spell]豁免，对抗你的职业DC或法术DC中的较高者，以避免被吞没。无法行动的生物自动大失败。若豁免成功，则不会被吞没。</p><p>豁免失败的生物被拉入你的身体。你同时只能以这种方式容纳一个生物。该生物处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}、@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}状态，且必须屏息，否则开始窒息。它在最初被吞没时，以及之后仍被吞没期间的每个回合结束时，受到等于你等级的心灵伤害，以及等于你等级的精魂伤害（@Damage[(@actor.level)[mental],(@actor.level)[spirit]]）。被吞没生物可以通过[[/act escape against=spell]]，对抗你的职业DC或法术DC中的较高者来脱困。它可以攻击你，但只能使用无武装攻击，或轻型负载及以下的武器，不能使用更重的武器。你对该攻击处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态。若一次攻击或法术对你造成的穿刺或挥砍伤害达到或超过你等级的两倍，被吞没生物便能破体而出。无论通过哪种方式脱困，它都能立即呼吸，并离开你的空间。</p><p>若你死亡，你的身体失去凝聚力，被吞没生物便会自动获释……但你是不朽的，因此它们很难指望这种事发生；即使真的发生，你体内的异界恐怖，也就是你的真实自我，恐怕也已重获自由……</p>"
+    },
+    "Create Vampires": {
+      "name": "创造吸血鬼 Create Vampires",
+      "description": "<p>你可以给刚死去不久的人喂下大量鲜血，再将其埋葬，从而创造拥有自由意志的吸血鬼；此过程至少需要10分钟。下次日落后，尸体会从棺材或其他埋葬处重新爬出，成为拥有自由意志的吸血鬼衍体；若足够强大，则成为完整的吸血鬼。新吸血鬼不是真祖，也不受你控制，但其对抗你的意志豁免承受等于1加你命定值的状态减值，让你更容易以威仪魅惑它，或在达到第七阶段后以凝视夺取其控制权。若新吸血鬼自愿，你也可以与其建立血之羁绊，如同对其他自愿生物一样。</p>"
+    },
+    "Vaults of Erebus": {
+      "name": "厄瑞波斯宝库 Vaults of Erebus",
+      "description": "<p>据说，罪的代价就是死亡；但既然你已不朽，契约便改以大笔污秽钱财支付报酬。如今你的灵魂已降至地狱第三层，是时候收款了。毕竟，金钱是万恶之源。</p><p>你获得的金钱取决于达到的等级；随着等级继续提升，地狱会不断送来更多钱财。下列数值累积计算，因此若你首次获得此显化时为4级，地狱会立即送来230金币（40 + 70 + 120）。表中没有1级数值；你最早到2级才会获得钱财。20+所列数值，适用于在20级完成约相当于一个完整等级的冒险；即使不能升到21级，你仍能从地狱获得多得令人作呕的财富。若你的命定值为3，便会将表中金钱再领取一遍，包括所有过去与未来的款项。</p><h2>表6-66：按角色等级支付的地狱报酬</h2><table class=\"pf2-table\"><thead><tr><th>达到的等级</th><th>该等级的报酬</th></tr></thead><tbody><tr><td>2</td><td>40金币</td></tr><tr><td>3</td><td>70金币</td></tr><tr><td>4</td><td>120金币</td></tr><tr><td>5</td><td>200金币</td></tr><tr><td>6</td><td>320金币</td></tr><tr><td>7</td><td>500金币</td></tr><tr><td>8</td><td>720金币</td></tr><tr><td>9</td><td>1,000金币</td></tr><tr><td>10</td><td>1,400金币</td></tr><tr><td>11</td><td>2,000金币</td></tr><tr><td>12</td><td>2,800金币</td></tr><tr><td>13</td><td>4,000金币</td></tr><tr><td>14</td><td>6,000金币</td></tr><tr><td>15</td><td>9,000金币</td></tr><tr><td>16</td><td>13,000金币</td></tr><tr><td>17</td><td>20,000金币</td></tr><tr><td>18</td><td>30,000金币</td></tr><tr><td>19</td><td>48,000金币</td></tr><tr><td>20</td><td>80,000金币</td></tr><tr><td>20+</td><td>140,000金币</td></tr></tbody></table>"
+    },
+    "Just a Flesh Wound": {
+      "name": "只是皮肉伤 Just a Flesh Wound",
+      "description": "<p>即使某次攻击看似致命，命运也会设法揭示那不过是皮肉伤：可能是珍爱的纪念品卸去部分力道，也可能只是你运气好。每当敌人对你重击时，重掷其攻击骰。若第二次结果仍是重击，敌人依然对你重击；若第二次结果不是重击，该攻击则变为普通命中。若你更愿意花费一个英雄点使用主角光环，期待攻击彻底失手，也可以选择这样做。</p>"
+    },
+    "Nessian Descent": {
+      "name": "降入奈瑟斯 Nessian Descent",
+      "description": "<p>你的灵魂已降至地狱第九层，地狱深坑的最底部。你在那里最终成为强大而不朽的魔鬼，或许是一位地狱公爵，或是魔鬼国度中另一位举足轻重的人物。你的凡人生活已彻底结束，永恒岁月即将开始。毕竟，宁在地狱为王，不在天堂为仆！</p>"
+    },
+    "Grow Forth Bold and Indomitable": {
+      "name": "昂然成长，坚不可摧 Grow Forth Bold and Indomitable",
+      "description": "<p>你或许还没有神兽那么庞大，却已足够高大，且开始显露与你终将完全成为的神兽相符的兽类特征。若原本不是大型，你的体型变为大型；若原本是微型且触及为0尺，则将触及提高至5尺，否则这不会改变触及。对抗试图对你[[/act disarm]]、[[/act grapple]]、[[/act reposition]]、[[/act shove]]或[[/act trip]]的尝试时，你的强韧与反射DC获得等于1加命定值的环境加值；此加值也适用于对抗会卸除你的武器、使你@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}、强迫你移动或将你击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}的效果的豁免。若某个效果强迫你移动，你可以将强制移动距离减少至多5尺，再加上5尺×你的命定值。</p>"
+    },
+    "In Media Res": {
+      "name": "从故事中途开始 In Media Res",
+      "description": "<p>每位真正的英雄都知道，从故事中途开始，便能获得克服一切障碍的势头。若本次游戏开始时，仍处于上次游戏的同一个冒险日，距离休息并进行下次日常准备之前还有更多遭遇，你便以3个而非1个英雄点开始本次游戏。这些点数位于通常的英雄点池中，该池每次游戏刷新，上限为3个英雄点。</p>"
+    },
+    "Spell Potency": {
+      "name": "法术威能 Spell Potency",
+      "description": "<p>魔法听从你的号令，鲜有人能抵挡你的法力。你获得@UUID[Compendium.battlezoo-immortals.spells.Item.S7LzPQ94ipFQSpuk]聚能法术，其根源与你的法术巫妖根源相同；你可以通过让自身与魔法的结构协调共鸣来再聚能。每天，你可以不消耗聚能点施放法术威能，次数等于命定值。</p>"
+    },
+    "Vampiric Regeneration": {
+      "name": "吸血鬼再生 Vampiric Regeneration",
+      "description": "<p>真祖的再生能力通常会保存能量，留待必须逃过必死结局的危急时刻；但你的鲜血足够强大，只要真正伤重流血，就能启动再生。每当你的生命值低于上限的一半时，便获得等于等级一半的快速治疗（最低为1；不过，若你在1级就已到第6阶段，恐怕发生了不寻常的事）；若你为命定3，此快速治疗提高至等于完整等级。</p><p>这项快速治疗与你的整体不朽之力同源，因此，若你受到某种克星造成的伤害，快速治疗就会失效1轮。这些克星是世上少数能真正杀死你的生物、神器或效果。</p>"
+    },
+    "Widespread Blessing": {
+      "name": "广施祝福 Widespread Blessing",
+      "description": "<p>你能够将圣徒的祝福散播四周，治愈众人。你的圣徒祝福变为动作数可变的法术，可以用一个或两个动作施放。用两个动作施放时，它影响半径为15尺＋5尺×你的命定值的弥漫区域内所有盟友（仅限盟友，不包括你自己），且恢复的生命值减半；区域内所有盟友都获得AC与豁免的状态加值。</p>"
+    },
+    "Spell Lich Magic": {
+      "name": "法术巫妖魔法 Spell Lich Magic",
+      "description": "<p>你<em>就是</em>魔法，因此能施放各种法术并不奇怪。选择一个魔法根源，作为你的法术巫妖根源；之后的显化也会使用它。你获得一个该根源的戏法，作为天生法术，并额外获得数量等于命定值的戏法。你可以每日一次施放一个该根源的1环级法术。若处于命定状态，你会获得额外的天生法术，环级最高为1加命定值；也就是说，最终除了原本的1环级法术，你还会拥有一个2环级、一个3环级和一个4环级法术。只有当这些天生法术的环级不高于你等级的一半、向上取整时，你才能施放；若等级过低，无法施放其中一个或多个法术，则每有一个暂时无法施放的法术，你就可以改为额外施放一次自己较低环级的天生法术之一。</p>"
+    },
+    "Reforged in Phlegethon": {
+      "name": "弗莱格颂重铸 Reforged in Phlegethon",
+      "description": "<p>你的灵魂降至地狱第四层，在返回凡间前在那里重铸，让你获得了些许魔鬼的韧性与视力。你获得等于等级加命定值的火焰抗力，以及高等黑暗视觉。</p>"
+    },
+    "Unfathomable Appearance": {
+      "name": "不可名状的外貌 Unfathomable Appearance",
+      "description": "<p>历经多次险死还生之后，体内泄露出的异界恐怖扭曲了你的外貌，形成许多令人不安的畸异特征，让近距离看见你的人初见之下便恶心得翻江倒海。除异怪外的活物首次进入距你30尺＋10尺×你的命定值的范围内时（无论是它们进入灵光，还是你靠近它们），必须尝试@Check[fortitude|against:class-spell]豁免，对抗你的职业DC或法术DC中的较高者，效果如下。此后，它们暂时免疫你的灵光，持续24小时。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物的所有检定与DC承受–1状态减值，直到其下个回合的第一个动作结束后；若该生物免疫恶心状态，或由于其他原因，@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}对它造成的妨碍更小，则可以改为选择恶心1。</p><p><strong>失败</strong> 该生物恶心1。</p><p><strong>大失败</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}并@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，持续1轮。</p>"
+    }
+  },
+  "folders": {
+    "God Beast": "神兽 God Beast",
+    "Asmodean Contractor": "阿斯摩蒂斯契约者 Asmodean Contractor",
+    "Spell Lich": "法术巫妖 Spell Lich",
+    "Fate's Chosen": "命运选民 Fate's Chosen",
+    "Saint": "圣徒 Saint",
+    "True Ancestor Vampire": "真祖吸血鬼 True Ancestor Vampire",
+    "Eldritch Horror": "异界恐怖 Eldritch Horror"
+  }
+}
