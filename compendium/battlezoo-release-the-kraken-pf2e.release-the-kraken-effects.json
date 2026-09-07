@@ -1,0 +1,25 @@
+{
+  "label": "效果",
+  "entries": {
+    "Effect: Juxtapose": {
+      "name": "效果：并相 Effect: Juxtapose",
+      "description": "<p>塔哈伽塔失去其物理抗力，且对并相的生物进行检定时投掷两次。</p>"
+    },
+    "Effect: Candypearl": {
+      "name": "效果：糖珠 Effect: Candypearl",
+      "description": "<p>吞下珍珠的生物会从体内发出这种光芒，并获得在水中呼吸的能力，持续4小时。</p>"
+    },
+    "Effect: Demon Soul": {
+      "name": "效果：恶魔之魂 Effect: Demon Soul",
+      "description": "<p>辉光恶魔绵羊长大至中型，身体燃起火焰，使其打击额外造成1d6火焰伤害。它的羊毛化为一团浓密呛人的黑烟，使其对所有其他生物处于@Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{隐蔽}状态。最后，辉光恶魔绵羊获得烟雾视觉，使它能看穿烟雾。</p>"
+    },
+    "Effect: Supercharge Spell": {
+      "name": "效果：法术超载 Effect: Supercharge Spell",
+      "description": "<p>如果下一个动作是施放一个造成伤害的法术，该法术的伤害获得+7环境加值。这些额外伤害仅适用于施放法术时的初始伤害，不适用于持续伤害，也不适用于具有持续时间的法术在后续时间里造成的伤害。</p>"
+    },
+    "Effect: Supercharge Spell (Single Target)": {
+      "name": "效果：法术超载（单一目标） Effect: Supercharge Spell (Single Target)",
+      "description": "<p>如果下一个动作是施放一个造成伤害的法术，该法术的伤害获得+14环境加值。这些额外伤害仅适用于施放法术时的初始伤害，不适用于持续伤害，也不适用于具有持续时间的法术在后续时间里造成的伤害。</p>"
+    }
+  }
+}

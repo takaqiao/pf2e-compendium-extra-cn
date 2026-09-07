@@ -1,0 +1,23 @@
+{
+    "BZI": {
+        "EternalHero": {
+            "EternalHeroPoints": "永恒英雄点"
+        },
+        "Trait": {
+            "AsmodeanContractor": "阿斯摩蒂斯契约者",
+            "EldritchHorror": "异界恐怖",
+            "FatesChosen": "命运选民",
+            "GodBeast": "神兽",
+            "Saint": "圣徒",
+            "SpellLich": "法术巫妖",
+            "Transcendence": "超脱",
+            "TrueAncestor": "真祖",
+            "Manifestation": "显化"
+        },
+        "TrueAncestor": {
+            "VampiricRegeneration": {
+                "Note": "这项快速治疗与你的永生之力同源，因此，若你受到某种克星造成的伤害，快速治疗就会失效1轮。这些克星是世上少数能真正杀死你的生物、神器或效应。"
+            }
+        }
+    }
+}

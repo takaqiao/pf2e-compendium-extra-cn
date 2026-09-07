@@ -1,0 +1,30 @@
+{
+  "moduleId": "battlezoo-ancestries-year-of-mysteries-pf2e",
+  "moduleTitle": "Battlezoo Ancestries: Year of Mysteries for Pathfinder 2e by Roll For Combat",
+  "homebrew": {
+    "creatureTraits": {
+      "fable": "YOMY.Trait.Fable",
+      "house-spirit": "YOMY.Trait.HouseSpirit",
+      "kushtaka": "YOMY.Trait.Kushtaka",
+      "mushie": "YOMY.Trait.Mushie",
+      "saurus": "YOMY.Trait.Saurus",
+      "sea-serpent": "YOMY.Trait.SeaSerpent",
+      "serpentfolk": "PF2E.TraitSerpentfolk",
+      "will-o-wisp": "YOMY.Trait.WillOWisp"
+    },
+    "featTraits": {
+      "fable": "YOMY.Trait.Fable",
+      "house-spirit": "YOMY.Trait.HouseSpirit",
+      "girtablilu": "PF2E.TraitGirtablilu",
+      "kushtaka": "YOMY.Trait.Kushtaka",
+      "mushie": "YOMY.Trait.Mushie",
+      "saurus": "YOMY.Trait.Saurus",
+      "sea-serpent": "YOMY.Trait.SeaSerpent",
+      "serpentfolk": "PF2E.TraitSerpentfolk",
+      "will-o-wisp": "YOMY.Trait.WillOWisp"
+    },
+    "languages": {
+      "saurid": "YOMY.Language.Saurid"
+    }
+  }
+}

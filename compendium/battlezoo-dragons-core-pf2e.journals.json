@@ -1,0 +1,14 @@
+{
+  "label": "日志",
+  "entries": {
+    "Battlezoo Dragons: Core": {
+      "name": "战兽龙族：核心 Battlezoo Dragons: Core",
+      "pages": {
+        "Welcome to Battlezoo Dragons: Core": {
+          "name": "欢迎使用战兽龙族：核心 Welcome to Battlezoo Dragons: Core",
+          "text": "<p><em>战兽龙族：核心</em>是在Foundry虚拟桌面中运行战兽龙族系列任何内容所必需的基础模块。它收录了其他战兽龙族模块所依赖的全部共享资源，例如重刊的专长、能力、物品及系统引用。该模块为整个系列使用的角色选项和规则提供基础，确保以龙为主题的各场冒险能够顺畅整合并保持一致。</p><p>目前的战兽龙族系列由以下模块组成：</p><ul><li><p><a href=\"https://battlezoo.com/products/battlezoo-ancestries-dragons-for-foundry-vtt?variant=40481055801444\"><strong>战兽族裔：龙族：</strong></a>为你的开拓者游戏增添巨龙之力。超过45种独特的龙族族裔，让你能扮演各式各样的真龙。</p></li><li><a href=\"https://battlezoo.com/products/battlezoo-dragons-fairy-dragons-for-foundry-vtt?variant=44731338555492\"><strong>战兽族裔：仙灵龙：</strong></a>一个与妖精世界相联、天性顽皮的龙族家族。</li><li><a href=\"https://battlezoo.com/products/battlezoo-dragons-misfit-dragons-for-foundry-vtt?variant=45065299886180\"><strong>战兽族裔：异类龙：</strong></a>龙族世界中的异类，饱受奇异魔法事故之苦。</li><li><a href=\"https://battlezoo.com/products/battlezoo-dragons-leshy-dragons-for-foundry-vtt?variant=45302709911652\"><strong>战兽族裔：莱西龙：</strong></a>一个与莱西、植物及真菌相联的龙族家族。</li><li><a href=\"https://battlezoo.com/products/battlezoo-dragons-battle-dragons-for-foundry-vtt?variant=45973428600932\"><strong>战兽族裔：战斗龙：</strong></a>强大的龙，痴迷于狩猎的刺激与战斗的快感。</li></ul>"
+        }
+      }
+    }
+  }
+}

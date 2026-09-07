@@ -1,0 +1,49 @@
+{
+  "label": "动物伙伴",
+  "entries": {
+    "Indigo Giant Snail": {
+      "name": "靛蓝巨蜗牛 Indigo Giant Snail",
+      "description": "<p>靛蓝巨蜗牛是一种栖息于沿海地区、体型格外庞大的有毒软体动物。它们形似舌头的齿舌上布满数千枚细齿。它们可以将麻痹毒液注入这些牙齿，甚至借助可伸缩的吻部将牙齿像鱼叉一样射出，钩住猎物并将其拉回。</p><p><strong>体型</strong> 中型</p><p><strong>近战</strong> <span class=\"action-glyph\">1</span> 齿舌，伤害1d8穿刺</p><p>力量+3，敏捷+1，体质+3，智力–4，感知+1，魅力+0 生命值8</p><p><strong>技能</strong> 运动</p><p><strong>感官</strong> 无听觉，灵敏嗅觉（模糊）30尺</p><p><strong>速度</strong> 15尺，游泳20尺</p><p><strong>支援增益</strong> 每当你创造破绽时，你的巨蜗牛便准备通过齿舌上的中空牙齿注入麻痹毒液。直到你的下回合开始，每当你以打击命中巨蜗牛触及范围内的生物时，该生物陷入笨拙1，持续1轮；这是毒素效果。</p><p><strong>进阶战技</strong> @UUID[Compendium.battlezoo-release-the-kraken-pf2e.release-the-kraken-animal-companions.Item.1zgatRKxGIONXdaF]</p>"
+    },
+    "Tooth Harpoon Spear": {
+      "name": "齿叉投矛 Tooth Harpoon Spear",
+      "description": "<p>靛蓝巨蜗牛从齿舌上射出一枚注满毒液的牙齿，试图刺中敌人，使其中毒并将其拉近。它对20尺内的一个目标进行远程攻击检定。如果攻击命中，便造成蜗牛齿舌打击的伤害，并使目标陷入笨拙1，持续1轮；此处的笨拙状态是毒素效果。随后，蜗牛可以尝试进行运动检定来移位该生物：成功时将其向蜗牛拉近至多10尺，大成功时拉近至多20尺。这次移位尝试既不承受蜗牛的多次攻击减值，也不计入该减值。</p>"
+    },
+    "Animal Companion": {
+      "name": "动物伙伴 Animal Companion",
+      "description": "<p>以下是幼年动物伙伴的基础数据，大多数角色最初获得的动物伙伴都属于此类。你应根据所选动物的类型调整这些数据。动物伙伴计算调整值和DC的方式与你相同，但有一处区别：它们只能获得作用于速度和AC的物品加值（AC的物品加值最高为+3）。随着你等级提升，你可能有机会让动物伙伴进阶，使其变得更强。</p><p>动物伙伴的初始数据如下。</p><ul><li><strong>等级：</strong> 你的动物伙伴等级与你相同。</li><li><strong>熟练：</strong> 你的动物伙伴在其徒手攻击、无甲防御、具装（一种供动物使用的护甲）、所有豁免、察觉、特技和运动方面均为受训。动物伙伴无法使用需要较高智力的能力，例如@UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{胁迫}或解译文书，即使其对应技能达到受训也不行，除非它拥有允许这样做的专精。</li><li><strong>属性调整值：</strong> 动物伙伴最初使用其数据栏中列出的基础属性调整值。</li><li><strong>生命值：</strong> 你的动物伙伴获得其类型提供的族裔生命值；此外，你每有一级，它还获得等于6加其体质调整值的生命值。</li></ul>"
+    },
+    "Archelon Support Benefit": {
+      "name": "古巨龟支援收益 Archelon Support Benefit",
+      "description": "<p>古巨龟规划好缓慢而稳健的移动路线，以避开危险。使用此动作后，它在自身回合结束前采取的任何基本移动动作均不触发反应。</p>"
+    },
+    "Island Turtle": {
+      "name": "岛龟 Island Turtle",
+      "description": "<p>岛龟是自然界体型最大的龟类，只有传说中具有魔力的岛屿海龟才能在体型上胜过它们。它们在陆地上行动迟缓笨重，但防护出色；龟甲很适合承载为水陆两用而设计的专用骑乘鞍具。</p><p><strong>体型</strong> 大型</p><p><strong>近战</strong> <span class=\"action-glyph\">1</span> 噬咬，伤害1d8穿刺</p><p><strong>力量</strong> +3，<strong>敏捷</strong> +1，<strong>体质</strong> +2，<strong>智力</strong> -3，<strong>感知</strong> +2，<strong>魅力</strong> +0</p><p><strong>生命值</strong> 8</p><p><strong>技能</strong> 运动</p><p><strong>感官</strong> 昏暗视觉</p><p><strong>速度</strong> 15尺，游泳40尺</p><p><strong>特殊</strong> 深呼吸（古巨龟可以屏息约2小时），@UUID[Compendium.pf2e.actionspf2e.Item.PM5jvValFkbFH3TV]</p><p><strong>支援增益</strong> 古巨龟规划好缓慢而稳健的移动路线，以避开危险。使用此动作后，它在自身回合结束前采取的任何基本移动动作均不触发反应。</p><p><strong>进阶战技</strong> @UUID[Compendium.battlezoo-release-the-kraken-pf2e.release-the-kraken-animal-companions.Item.jEvI5BnQfsSCU1Te]{龟甲庇护}</p>"
+    },
+    "Archelon": {
+      "name": "古巨龟 Archelon",
+      "description": "<p>古巨龟是自然界体型最大的龟类，只有传说中具有魔力的岛屿海龟才能在体型上胜过它们。它们在陆地上行动迟缓笨重，但防护出色；龟甲很适合承载为水陆两用而设计的专用骑乘鞍具。</p><p><strong>体型</strong> 大型</p><p><strong>近战</strong> <span class=\"action-glyph\">1</span> 噬咬，伤害1d8穿刺</p><p><strong>力量</strong> +3，<strong>敏捷</strong> +1，<strong>体质</strong> +2，<strong>智力</strong> -4，<strong>感知</strong> +2，<strong>魅力</strong> +0</p><p><strong>生命值</strong> 8</p><p><strong>技能</strong> 运动</p><p><strong>感官</strong> 昏暗视觉</p><p><strong>速度</strong> 15尺，游泳40尺</p><p><strong>特殊</strong> 深呼吸（古巨龟可以屏息约2小时），@UUID[Compendium.pf2e.actionspf2e.Item.PM5jvValFkbFH3TV]</p><p><strong>支援增益</strong> 古巨龟规划好缓慢而稳健的移动路线，以避开危险。使用此动作后，它在自身回合结束前采取的任何基本移动动作均不触发反应。</p><p><strong>进阶战技</strong> @UUID[Compendium.battlezoo-release-the-kraken-pf2e.release-the-kraken-animal-companions.Item.jEvI5BnQfsSCU1Te]{龟甲庇护}</p>"
+    },
+    "Giant Snail Support Benefit": {
+      "name": "巨蜗牛支援收益 Giant Snail Support Benefit",
+      "description": "<p>每当你创造破绽时，你的巨蜗牛便准备通过齿舌上的中空牙齿注入麻痹毒液。直到你的下回合开始，每当你以打击命中巨蜗牛触及范围内的生物时，该生物陷入笨拙1，持续1轮；这是毒素效果。</p>"
+    },
+    "Shell Sanctuary": {
+      "name": "龟甲庇护 Shell Sanctuary",
+      "description": "<p>古巨龟将头部与四肢缩入龟甲，以加强防御。缩在龟甲内时，它对抗所有攻击均获得高等掩蔽，并使其他生物在对抗穿过其所占方格的攻击时获得标准掩蔽。古巨龟必须先花费一个动作伸出龟甲，才能打击、移动或采取其他任何肢体动作。</p>"
+    },
+    "Island Fortress": {
+      "name": "岛屿堡垒 Island Fortress",
+      "description": "<p>岛屿海龟的体型增大为巨型，噬咬的触及范围变为10尺。它的强韧豁免熟练提升至传奇，体质调整值增加1。</p>"
+    }
+  },
+  "folders": {
+    "Features": "能力 Features",
+    "Ancestries": "族裔 Ancestries",
+    "Components (Automatically Granted)": "组件（自动授予） Components (Automatically Granted)",
+    "Support Benefits": "支援收益 Support Benefits",
+    "Advanced Maneuvers": "进阶战技 Advanced Maneuvers",
+    "Specialized Companion": "特化伙伴 Specialized Companion"
+  }
+}

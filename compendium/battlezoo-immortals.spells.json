@@ -1,0 +1,21 @@
+{
+  "label": "法术",
+  "entries": {
+    "Emerge from Chrysalis of Flesh": {
+      "name": "破出血肉之茧 Emerge from Chrysalis of Flesh",
+      "description": "<p>你像破茧般裂开身躯，让血肉脱落在地，显露其下的另一个自己。这会自动移除影响身体的所有持续伤害（通常是持续心灵伤害和持续精魂伤害以外的所有持续伤害），并根据花费的动作数产生额外效果。</p><ul><li><span class=\"pf2-icon\">1</span> 你移除影响身体的持续伤害，并恢复等于1加命定值的生命值。</li><li><span class=\"pf2-icon\">2</span> 新生的自我摆脱了旧身体所遭受的重伤与不良效果。你移除影响身体的持续伤害，并恢复等于5加命定值的生命值。此外，你尝试反制影响旧身体的每一种状态与苦难。成功时，新身体不再带有对应状态。你无法以这种方式反制影响心智或精魂的效果。例如，新身体可以摆脱毒素和@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]状态；你也可以蜕去旧皮，让对方手中只剩皮囊，以反制擒拿，但无法以此反制@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]状态，因为它影响的是心智。</li></ul><hr /><p><strong>升阶（+1）</strong> 治疗量增加1加你的命定值；若花费两个动作，则增加5加你的命定值。</p>"
+    },
+    "Saint's Blessing": {
+      "name": "圣徒祝福 Saint's Blessing",
+      "description": "<p>你触碰盟友，赐予治疗与防护的祝福。目标恢复5点生命值，再额外恢复等于你命定值的生命值。其AC与豁免还获得等于1加你命定值的状态加值（命定3时最高为+4），持续1轮。</p><p>@UUID[Compendium.battlezoo-immortals.effects.Item.Ubc3YDzJKTq45Gc0]{法术效果：圣徒祝福}</p><hr /><p><strong>升阶（+1）</strong> 治疗量增加5加你的命定值。</p>"
+    },
+    "Spell Potency": {
+      "name": "法术威能 Spell Potency",
+      "description": "<p>你增强自身魔法的力量，将法术技艺与一个特定敌人联系起来。在持续时间内，你可以执行以下选项一次：让自己对抗目标的法术攻击骰获得状态加值；让自己对抗目标某个法术的AC获得状态加值；让自己对抗目标某个法术的豁免获得状态加值；或让目标对抗你的某个法术时，豁免承受状态减值。该状态加值或状态减值等于1加你的命定值。此加值或减值应用一次后，法术威能即告结束。</p><p>@UUID[Compendium.battlezoo-immortals.effects.Item.hlXnmZu3p0Txn4fW]{法术效果：法术威能}</p>"
+    },
+    "Hellfire Burst": {
+      "name": "狱火爆发 Hellfire Burst",
+      "description": "<p>你爆发出直接来自地狱深坑的狱火。伤害与区域取决于花费的动作数。伤害的一半为火焰伤害，向上取整，其余为精魂伤害。</p><ul><li><span class=\"pf2-icon\">1</span> 狱火在半径至多5尺的弥漫区域内喷发，造成1d4加你的命定值的伤害。</li><li><span class=\"pf2-icon\">2</span> 狱火在半径至多15尺＋5尺×你的命定值的弥漫区域内喷发，造成2d4加你的命定值的伤害。</li><li><span class=\"pf2-icon\">3</span> 狱火在半径至多30尺＋10尺×你的命定值的弥漫区域内喷发，造成2d4加你的命定值的伤害。</li></ul><hr /><p><strong>升阶（+1）</strong> 若花费一个动作，伤害增加1d4加你的命定值；若花费两个或三个动作，则增加2d4加你的命定值。</p>"
+    }
+  }
+}

@@ -1,307 +1,1182 @@
 {
-  "label": "专长\nFeats",
-  "mapping": {
-    "name": "name",
-    "description": "system.description.value"
-  },
-  "folders": {
-    "Dragon Feats": "巨龙专长\nDragon Feats",
-    "Level 1": "等级 1\nLevel 1",
-    "Will-o'-Wisp": "鬼火\nWill-o'-Wisp",
-    "Level 5": "等级 5\nLevel 5",
-    "Mushie": "蘑菇仔\nMushie",
-    "Level 9": "等级 9\nLevel 9",
-    "Level 13": "等级 13\nLevel 13",
-    "Level 17": "等级 17\nLevel 17"
-  },
+  "label": "专长",
   "entries": {
     "Sheltering Cap": {
-      "name": "庇护帽 Sheltering Cap",
-      "description": "<p>你坚固的帽子是一件无价的工具，能够保护你的重要器官免受伤害。你以防御姿态举起帽子，在直到你下个回合开始前获得对AC的+1环境加值。</p>\n<p>Your sturdy cap is an invaluable tool for protecting your vital organs from harm. You raise your cap defensively, gaining a +1 circumstance bonus to AC until the beginning of your next turn.</p>"
+      "name": "庇护菌盖 Sheltering Cap",
+      "description": "<p>坚固的菌盖是保护重要器官免受伤害的宝贵工具。你防御性地抬起菌盖，使AC获得+1环境加值，直到你的下个回合开始。</p>"
     },
     "Primal Transport": {
-      "name": "原始传送 Primal Transport",
-      "description": "<p>你找到了一种方法，利用你的蕈灵巨龙魔法在某些森林固定物之间传送。如果你是林木巨龙，你可以请求树精和树木援助以缩短旅程。如果你是伞菌巨龙，你则发现了一种让自己通过蘑菇环（也称为仙灵环）进行传送的方法，正如传奇所说，仙灵也能如此。你每天一次可以将 @UUID[Compendium.pf2e.spells-srd.Item.F1qxaqsEItmBura2] 作为先天原初法术施放。如果你是林木巨龙，它如常运作；但如果你是伞菌巨龙，则你不是在两棵树之间传送，而是在两个仙灵环之间传送。</p>\n<p>You've found a way to use your leshy dragon magic to transport between certain forest fixtures. If you're an arboreal dragon, you can ask the dryads and trees for aid to shorten your journey. If you're a toadstool dragon, you've instead found a way to transport yourself through rings of mushrooms, also known as fairy rings, much as fairies can according to legend. You can cast @UUID[Compendium.pf2e.spells-srd.Item.F1qxaqsEItmBura2] as an innate primal spell once per day. If you're an arboreal dragon, this works as normal, but if you're a toadstool dragon, instead of transporting yourself between two trees, you transport between two fairy rings.</p>"
+      "name": "原能传送 Primal Transport",
+      "description": "<p>你找到利用莱西龙魔法在森林中特定地点之间传送的方法。若你是林木龙，可以请求木林仙女和树木帮助你缩短旅程。若你是毒蕈龙，则找到穿越蘑菇环的方法；这种环也称仙灵环，传说仙灵便能这样穿行。你可以每天一次将@UUID[Compendium.pf2e.spells-srd.Item.F1qxaqsEItmBura2]作为原能天生法术施放。若你是林木龙，它依照通常规则运作；若你是毒蕈龙，则改为在两个仙灵环之间传送，而非两棵树之间。</p>"
     },
     "Ghost Lantern": {
-      "name": "幽灵（特征）灯笼 Ghost Lantern",
-      "description": "<p>你的形态尤为阴森。你可能在漂浮的光芒核心携带一颗幽魂骷髅，或许环绕你的光之触须与骷髅手指有着令人不安的相似之处。你获得“威吓”技能的受训（熟练度）；如果你已在“威吓”中为受训（熟练度），则改为在你选择的一项技能中获得受训（熟练度）。你获得 @UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{Intimidating Glare} 技能专长。每当你 [[/act demoralize]] 一名生物时，你可以在其之前以自由动作（）压制或恢复你天生的辉光。</p>\n<p>Your form is particularly eerie. You might carry a spectral skull at the heart of your floating light, or perhaps the tendrils of light that surround you bear an uncanny resemblance to skeletal fingers. You gain the trained proficiency rank in Intimidation; if you were already trained in Intimidation, you instead become trained in a skill of your choice. You gain the @UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{Intimidating Glare} skill feat. Whenever you [[/act demoralize]] a creature, you can suppress or resume your natural glow as a free action just before.</p>"
+      "name": "幽冥灯火 Ghost Lantern",
+      "description": "<p>你的形态格外阴森。漂浮光团的中心可能有一颗幽灵头骨，也可能是周围的光之卷须与骷髅手指惊人地相似。你的威吓熟练度变为受训；若威吓已受训，则改为一项自选技能受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{金刚怒目}技能专长。每当你对一个生物[[/act demoralize]]时，可以在此之前用一个自由动作压抑或恢复天生辉光。</p>"
     },
     "Night Light": {
       "name": "夜光 Night Light",
-      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你将周围环境中的所有光吸入体内，像斗篷一样披在身上，同时将其他一切投入彻底的黑暗之中。持续1分钟，你在一个@Template[type:emanation|distance:5]中散发明亮光照，但在一个@Template[type:emanation|distance:25]中的所有其他方格都被投入彻底的黑暗。你可以清晰地看穿你创造的黑暗，但其他具有黑暗视觉（但不包括高等黑暗视觉）的生物几乎无法看穿环绕着你的黑暗。他们将透过黑暗看到的目标视为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}。</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p>You draw in all light from your surroundings, wearing it like a cloak while casting everything else into pitch blackness. For 1 minute, you shed bright light in a @Template[type:emanation|distance:5], but all other squares in a @Template[type:emanation|distance:25] are cast into pitch darkness. You can see clearly through the darkness you've created, but other creatures with darkvision (but not greater darkvision) can barely see through the darkness that surrounds you. They treat targets seen through the darkness as @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}.</p>"
+      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你吸尽周围光线，将其披作斗篷，让其余一切陷入漆黑。在1分钟内，你在@Template[type:emanation|distance:5]内散发明亮光照，但@Template[type:emanation|distance:25]内的其他所有方格都陷入漆黑。你可以清楚看穿自己创造的黑暗，但其他具有黑暗视觉而非高等黑暗视觉的生物只能勉强看穿；它们将透过这片黑暗看到的目标视为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}。</p>"
     },
     "Fungal Emissary": {
       "name": "真菌使者 Fungal Emissary",
-      "description": "<p>你花了大量时间在各个社群之间担任使者，或许作为你的蘑菇人村落对外界的代表。你很擅长让大群人站在你这边。你在交涉中成为受训，并获得@UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{Group Impression}技能专长。若你在使用Group Impression成功对一群人[[/act make-an-impression]]之后，尝试对该群人[[/act gather-information options=\"fungal-emissary\"]]，你在这次尝试中获得@UUID[Compendium.pf2e.feats-srd.Item.4RjDxgvNXNl5GG9d]{Hobnobber}技能专长的好处。</p><hr /><p><strong>特殊</strong> 若你拥有Hobnobber技能专长，则你改为在成功的Group Impression之后，对收集情报检定获得+1环境加值（若你在交涉中为大师则为+2）。</p>\n<p>You've spent considerable time serving as an emissary between communities, perhaps as a representative of your mushie village to the outside world. You're well-versed in getting large groups of people on your side. You become trained in Diplomacy, and you gain the @UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{Group Impression} skill feat. If you attempt to [[/act gather-information options=\"fungal-emissary\"]] with a group of people after using Group Impression to successfully [[/act make-an-impression]] on them, you gain the benefits of the @UUID[Compendium.pf2e.feats-srd.Item.4RjDxgvNXNl5GG9d]{Hobnobber} skill feat on the attempt.</p><hr /><p><strong>Special</strong> If you have the Hobnobber skill feat, you instead gain a +1 circumstance bonus to Gather Information checks after successful Group Impressions (+2 if you are a master in Diplomacy).</p>"
+      "description": "<p>你长期在不同社群之间担任使者，或许是代表蘑菇人村落与外界交往，因此很懂得如何争取大群人的支持。你的交涉熟练度变为受训，并获得@UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{集体印象}技能专长。若你尝试向一群人[[/act gather-information options=\"fungal-emissary\"]]，且此前你已用集体印象成功对他们[[/act make-an-impression]]，则此次尝试获得@UUID[Compendium.pf2e.feats-srd.Item.4RjDxgvNXNl5GG9d]{飞短流长}技能专长的益处。</p><hr /><p><strong>特殊</strong> 若你已有飞短流长技能专长，则改为在成功的集体印象之后，搜集信息检定获得+1环境加值（若交涉熟练度为大师，则为+2）。</p>"
     },
     "Leshy Roots": {
-      "name": "莱西根系 Leshy Roots",
-      "description": "<p>你比其他莱西龙更接近自己的莱西根源。你获得@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{收养族裔}通用专长，选择莱西族裔，尽管该专长通常仅对常见族裔开放；你还获得一个1级莱西族裔专长。你可以选择需要你对应莱西传承的莱西族裔专长（树叶莱西对应林木龙，莲花莱西对应花卉龙，葫芦莱西对应丰收龙，海藻莱西对应海带龙，或真菌莱西对应伞菇龙），并且任何基于莱西传承而影响真菌或植物的专长（如@UUID[Compendium.pf2e.feats-srd.Item.kpn4R65YlD38iAIS]{仪式回归}与@UUID[Compendium.pf2e.feats-srd.Item.KYKK1vLqGIxXH5Tu]{与同类交谈}）都与对应的莱西传承相匹配。</p>\n<p>You are closer to your leshy roots than other leshy dragons. You gain the @UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{Adopted Ancestry} general feat, for the leshy ancestry, even though that feat is normally only available for common ancestries, and you also gain one 1st-level leshy ancestry feat. You can take leshy ancestry feats that require your corresponding leshy heritage (leaf leshy for arboreal dragon, lotus leshy for floral dragon, gourd leshy for harvest dragon, seaweed leshy for kelp dragon, or fungus leshy for toadstool dragon), and any feats that affect fungi or plants based on leshy heritage like @UUID[Compendium.pf2e.feats-srd.Item.kpn4R65YlD38iAIS]{Ritual Reversion} and @UUID[Compendium.pf2e.feats-srd.Item.KYKK1vLqGIxXH5Tu]{Speak with Kindred} match the corresponding leshy heritage.</p>"
+      "name": "莱西根源 Leshy Roots",
+      "description": "<p>与其他莱西龙相比，你更接近自身的莱西根源。你获得针对莱西族裔的@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊}通用专长，即使它通常只能选择常见族裔；你还获得一项1级莱西族裔专长。你可以选取要求对应莱西传承的族裔专长（林木龙对应树叶莱西，花卉龙对应莲花莱西，丰收龙对应葫芦莱西，海带龙对应海藻莱西，毒蕈龙对应真菌莱西）。任何根据莱西传承作用于真菌或植物的专长，例如@UUID[Compendium.pf2e.feats-srd.Item.kpn4R65YlD38iAIS]{返璞归原}和@UUID[Compendium.pf2e.feats-srd.Item.KYKK1vLqGIxXH5Tu]{同根交谈}，也都采用对应的莱西传承。</p>"
     },
     "Rescuing Light": {
-      "name": "拯救光 Rescuing Light",
-      "description": "<p><strong>频率</strong> 每日一次</p><p><strong>需求</strong> 你的微光族裔能力处于激活状态，且你正在控制一个可移动的魔法光源（例如一个光法术或星座小精灵的星座之光之一）</p><p><strong>触发</strong> 一次攻击命中你，并将对你造成伤害。</p><hr /><p>在伤害降临你的瞬间，你撤退到更安全的地点。选择一个位于60英尺内且在你的效果线内、并包含一个由你控制的可移动魔法光源的方格。你与该光源交换位置，获得10点对所有由触发攻击造成的伤害的抗力，然后传送至该光源原本所在的方格（若其方格为无效目标，则传送至最近的未被占据的方格）。该光源熄灭。</p>\n<p><strong>Frequency</strong> once per day</p><p><strong>Requirements</strong> your glow ancestry ability is active and you are controlling a mobile magical light source (such as a light spell or one of the constellation lights of a constellation wisp)</p><p><strong>Trigger</strong> An attack hits you and would deal damage to you.</p><hr /><p>In the moment that harm befalls you, you retreat to safer ground. Choose a square with 60 feet and in your line of effect that contains a mobile magical light source under your control. You switch places with that light source, gaining resistance 10 to all damage dealt by the triggering attack, then teleporting to the light's original square (or the nearest unoccupied square if its square is an invalid target). The light source goes out.</p>"
+      "name": "救援之光 Rescuing Light",
+      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>使用条件</strong> 你的辉光族裔能力正生效，且你控制着一个可移动的魔法光源（例如光亮法术，或星座鬼火的某道星座光点）</p><p><strong>触发</strong> 一次攻击命中你，并将对你造成伤害。</p><hr /><p>伤害降临的瞬间，你退往安全之处。在60尺内、你的效果线中，选择一个含有受你控制的可移动魔法光源的方格。你与该光源交换位置：先获得对触发攻击造成的所有伤害的抗力10，然后传送至光源原本的方格（若该方格不是有效目标，则传送至最近的未占据方格）。光源随之熄灭。</p>"
     },
     "Negate Magic": {
       "name": "抵消魔法 Negate Magic",
-      "description": "<p><strong>频率</strong> 每日一次</p><p><strong>触发</strong> 你成为某个法术的目标或处于该法术的区域内</p><hr /><p>你也许不是折磨鬼火，但你已经摸索出一种技巧，用以复制它们反魔法能力的一部分。希望你没有为此牺牲什么太重要的东西作为回报。你尝试对该法术进行一次 @Check[class-spell]{反制} 检定。你的反制位阶等于你等级的一半（向上取整），你的反制调整值等于你的职业DC –10与法术DC –10中较高者。若成功，你不受该法术影响，但该法术仍会如常影响其他目标或区域内的生物。</p>\n<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> you are targeted by or in the area of a spell</p><hr /><p>You might not be a tormentor wisp, but you've figured out a trick for replicating a portion of their antimagic abilities. Hopefully you didn't have to sacrifice anything too important in return. You attempt a @Check[class-spell]{Counteract} check against the spell. Your counteract rank is equal to half your level rounded up and your counteract modifier is equal to the higher of your class DC –10 or your spell DC –10. On a success, you are unaffected by the spell, but it affects other targets or creatures in the area normally.</p>"
+      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>触发</strong> 你成为法术的目标，或处于法术区域内</p><hr /><p>你或许不是折磨鬼火，却找到了模仿其部分反魔法能力的诀窍。希望你没有为此牺牲什么太重要的东西。你针对该法术尝试进行一次@Check[class-spell]{反制}检定。你的反制环阶等于自身等级的一半，向上取整；反制调整值为职业DC –10或法术DC –10中较高者。若成功，你不受该法术影响，但其他目标或区域内的生物仍正常受其影响。</p>"
     },
     "Follow the Light": {
-      "name": "追随光 Follow the Light",
-      "description": "<p><strong>频率</strong> 每日一次</p><hr /><p>你闪烁起舞，引诱毫无戒心者走向毁灭。选择至多三个30尺内的生物进行引诱。你的每个目标必须尝试一次 @Check[will|against:class-spell] 豁免，对抗你的职业DC或法术DC中较高者，结果如下。被你 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{着迷} 的生物，其豁免检定承受–2环境减值。</p><hr /><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 该生物必须在其下个回合将第一个动作用于接近你。</p><p><strong>大失败</strong> 该生物必须在其下个回合将其所有动作用于接近你。一旦其与你相邻，他们会因被你的光所摄而呆立不动，从而浪费任何剩余动作。</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p>You flicker and dance to draw the unwary to their doom. Choose up to three creatures within 30 feet to lure in. Each of your targets must attempt a @Check[will|against:class-spell] save against the higher of your class DC or spell DC, with the following results. Creatures @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by you take a –2 circumstance penalty to their saving throws.</p><hr /><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The creature must spend the first action on their next turn to approach you.</p><p><strong>Critical Failure</strong> The creature must use all of their actions on their next turn to approach you. Once they are adjacent to you, they waste any remaining actions by standing still, transfixed by your light.</p>"
+      "name": "追随光芒 Follow the Light",
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你闪烁起舞，引诱疏于戒备者走向末路。选择30尺内至多三个生物作为引诱目标。每个目标都必须进行一次@Check[will|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者，结果如下。因你而@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}的生物，其豁免承受–2环境减值。</p><hr /><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 该生物必须将下个回合的第一个动作用于接近你。</p><p><strong>大失败</strong> 该生物必须将下个回合的所有动作用于接近你。一旦与你邻接，它就会被你的光芒摄住，站在原地不动，浪费剩余所有动作。</p>"
     },
     "Radiant Rush": {
-      "name": "光辉冲锋 Radiant Rush",
-      "description": "<p><strong>频率</strong> 每日一次</p><hr /><p>你变形为一道光束，灼烧路径上的一切。该线段连接你的方格与120英尺内一个未被占据的方格。线段上的所有生物承受 @Damage[14d6[@actor.flags.pf2e.lightSource]] 伤害，并进行一次基础反射豁免，对抗你的职业DC或法术DC中较高者。伤害类型由你的光源族裔能力决定。然后你出现在该线段远端的未被占据方格中。</p><p>此过程以光速将你重新定位，从而阻止由你的 Radiant Rush 触发的反应动作（），但仍允许那些能够以同等速度作出反应并影响光的反应动作（）。</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p>You transform into a beam of light that burns everything in its path. The line connects your square to an unoccupied square within 120 feet. All creatures in the line take @Damage[14d6[@actor.flags.pf2e.lightSource]] damage, with a basic Reflex save against the higher of your class DC or spell DC. The damage type is determined by your light source ancestry ability. You then appear in the unoccupied square at the far end of the line.</p><p>This process relocates you at the speed of light, preventing reactions triggered by your Radiant Rush, except ones that could react at the same speed and affect light.</p>"
+      "name": "辉光疾驰 Radiant Rush",
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你变为一道光束，灼烧路径上的一切。这条线连接你的方格与120尺内一个未被占据的方格。线上的所有生物受到@Damage[14d6[@actor.flags.pf2e.lightSource]]伤害，并对你的职业DC或法术DC中较高者进行基础反射豁免。伤害类型取决于你的光源族裔能力。随后，你出现在线段远端的未占据方格。</p><p>此过程以光速移动你，使辉光疾驰不会触发反应，除非该反应能够以同等速度作出反应并影响光。</p>"
     },
     "Shadowsight": {
       "name": "暗影视觉 Shadowsight",
-      "description": "<p>大多数鬼火依靠其天然的辉光来视物，但你的双眼已适应昏暗的状态。你获得微光视野。如果你已经拥有微光视野，你获得黑暗视觉。</p><hr /><p><strong>特殊</strong> 你可以选择此专长两次，以先获得微光视野，再获得黑暗视觉。</p>\n<p>Most will-o'-wisps rely on their natural glow to see, but your eyes have adapted to murky conditions. You gain low-light vision. If you already have low-light vision, you gain darkvision.</p><hr /><p><strong>Special</strong> You can take this feat twice in order to gain low-light vision and then darkvision.</p>"
+      "description": "<p>多数鬼火依赖天生辉光视物，你的眼睛却已适应昏暗环境。你获得昏暗视觉；若已有昏暗视觉，则获得黑暗视觉。</p><hr /><p><strong>特殊</strong> 你可以选取本专长两次，先获得昏暗视觉，再获得黑暗视觉。</p>"
     },
     "Will-o-Wisp Lore": {
       "name": "鬼火学识 Will-o-Wisp Lore",
-      "description": "<p>你举止优雅，并培养出一股神秘的灵光。无论你是运用自己在诡计方面的天赋成为一位仁慈的向导，还是致命的陷阱，你都拥抱那些先行者的根源。你获得体操和欺瞒的受训（熟练度）。如果你本会在这些技能之一上自动成为受训（熟练度）（例如来自你的背景或职业），则你改为在你选择的一项技能上成为受训（熟练度）。</p><p>你还获得@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore}通用专长，选择鬼火学识。</p>\n<p>You move with grace and cultivate an aura of mystery. Whether you use your knack for subterfuge to be a benevolent guide or a deadly snare, you embrace the traditions of those who came before you. You gain the trained proficiency rank in Acrobatics and Deception. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice.</p><p>You also gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} general feat for Will-o'-Wisp Lore.</p>"
+      "description": "<p>你举止优雅，散发神秘气息。无论你用诡谋天赋成为善意的向导还是致命的圈套，你都继承着前人的传统。你的特技和欺骗熟练度变为受训。若你会自动在其中一项技能上受训（例如来自背景或职业），则改为在一项自选技能上受训。</p><p>你还获得针对鬼火学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}通用专长。</p>"
     },
     "Mushie Lore": {
-      "name": "蘑菇学识 Mushie Lore",
-      "description": "<p>你研究过众多蘑菇人社群的文化，并且你知道无论流落到何处都能生长并茁壮。</p><p>你获得自然与生存的受训（熟练度）。如果你会自动在这些技能之一中成为受训（例如来自你的背景或职业），你改为在你选择的一项技能中成为受训。</p><p>你还获得@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore}通用专长，用于蘑菇人学识。</p>\n<p>You've studied the cultures of numerous mushie communities, and you know how to grow and thrive wherever you wind up.</p><p>You gain the trained proficiency rank in Nature and Survival. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice.</p><p>You also gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} general feat for Mushie Lore.</p>"
+      "name": "蘑菇人学识 Mushie Lore",
+      "description": "<p>你研究过众多蘑菇人社群的文化，知道无论走到哪里，都能扎根并茁壮成长。</p><p>你的自然和生存熟练度变为受训。若你会自动在其中一项技能上受训（例如来自背景或职业），则改为在一项自选技能上受训。</p><p>你还获得针对蘑菇人学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}通用专长。</p>"
     },
     "Twinkling Flight": {
       "name": "闪烁飞行 Twinkling Flight",
-      "description": "<p>你不再贴近地面，而是可以飞向天空，如同上方的群星般闪烁。你始终拥有25英尺的飞行速度。</p>\n<p>Instead of staying near the ground, you can take to the sky, twinkling like the stars above. You have a fly Speed of 25 feet at all times.</p>"
+      "description": "<p>你不再局限于近地悬浮，而是能飞上天空，如繁星般闪烁。你始终具有25尺飞行速度。</p>"
     },
     "Collective Aid": {
-      "name": "集体援助 Collective Aid",
-      "description": "<p>你引导天界的协作本质（若你是乐园龙），或你在大型群落中的群居生活（若你是伞菌龙），以更轻松地协助你的盟友。你在进行@UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{援助}的检定时获得+4环境加值。</p>\n<p>You channel the collaborative nature of Heaven, if you're a paradise dragon, or your communal life in large colonies, if you're a toadstool dragon, to more easily assist your allies. You gain a +4 circumstance bonus on checks to @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aid}.</p>"
+      "name": "协力援助 Collective Aid",
+      "description": "<p>若你是乐园龙，你引导天界的协作本性；若你是毒蕈龙，你发挥大型菌落的群居精神，从而更轻松地帮助盟友。你的@UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{协助}检定获得+4环境加值。</p>"
     },
     "Spore Shot": {
       "name": "孢子射击 Spore Shot",
-      "description": "<p>你会产生用于自我防卫的特化孢子，并能以加压的空气气流将其从体内发射出去。你获得一次孢子射程徒手攻击，射程增量为30尺，造成1d4点毒素伤害，并具有多用心灵（特征）。若你是幻象菇菇，则将多用心灵替换为多用灵体；若你是敲击菇菇，则替换为多用音波；若你是球状菇菇，则替换为多用酸液。</p><p>孢子徒手攻击在大成功或大失败命中时会产生额外效果，取决于伤害类型。孢子不会加入重击专精效果。</p><p><strong>酸液：</strong>伴随孢子的黏稠黏液怪会粘住目标。其速度在你下个回合开始前，或直到其逃脱为止（以先发生者为准），承受–10尺环境减值。逃脱DC等于你的职业DC。@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.effects.Item.FnNxnFx8DmC5HmGU]{效果: Spore Shot}</p><p><strong>毒素：</strong>有毒孢子会削弱目标的力量。目标在你下个回合开始前为@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1}。</p><p><strong>心灵：</strong>孢子会引发令人迷失方向的幻觉。目标在你下个回合开始前为@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}。</p><p><strong>音波：</strong>喧嚣声浪淹没目标的耳朵。目标@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 1分钟。</p><p><strong>灵体：</strong>孢子会短暂附着于目标的灵魂。目标必须在对抗你的职业DC时于@Check[fortitude|against:class]豁免中成功，否则为@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}。</p>\n<p>You produce specialized spores for self-defense, which you can launch from your body on pressurized currents of air. You gain a spore ranged unarmed attack with a range increment of 30 feet that deals 1d4 poison damage with the versatile mental trait. Replace versatile mental with versatile spirit if you are a phantasmal mushie, versatile sonic if you are a percussive mushie, or versatile acid if you're a bulbous mushie.</p><p>The spore unarmed attack has additional effects on a critical hit, depending on the damage type. Spores do not add critical specialization effects.</p><p><strong>Acid:</strong> The gooey slime that accompanies the spores sticks to the target. It takes a –10-foot circumstance penalty to its Speeds until the start of your next turn or until it Escapes. The Escape DC is equal to your class DC, whichever comes first. @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.effects.Item.FnNxnFx8DmC5HmGU]{Effect: Spore Shot}</p><p><strong>Poison:</strong> The toxic spores sap the target's strength. The target is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the start of your next turn.</p><p><strong>Mental:</strong> The spores induce disorienting hallucinations. The target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the start of your next turn.</p><p><strong>Sonic:</strong> The din overwhelms the target's ears. The target is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute.</p><p><strong>Spirit:</strong> The spores momentarily latch on to the target's soul. The target must succeed at a @Check[fortitude|against:class] save against your class DC or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
+      "description": "<p>你产生专门用于自卫的孢子，以加压气流从体内发射。你获得孢子远程徒手攻击，射程增量为30尺，造成1d4毒素伤害，具有多用心灵特征。若你是幻灵蘑菇人，将多用心灵替换为多用精魂；若是鼓奏蘑菇人，替换为多用音波；若是球腹蘑菇人，替换为多用酸蚀。</p><p>孢子徒手攻击重击时，按伤害类型产生额外效果。孢子不附加重击专精效果。</p><p><strong>酸蚀：</strong> 伴随孢子的黏液粘住目标，使其各项速度承受–10尺环境减值，直到你的下个回合开始或目标逃脱，以先发生者为准。逃脱DC等于你的职业DC。@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.effects.Item.FnNxnFx8DmC5HmGU]{效果：孢子射击}</p><p><strong>毒素：</strong> 有毒孢子削弱目标力量，使其陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}，直到你的下个回合开始。</p><p><strong>心灵：</strong> 孢子引发令人迷失方向的幻觉，使目标陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，直到你的下个回合开始。</p><p><strong>音波：</strong> 喧嚣震撼目标双耳，使其陷入@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋}，持续1分钟。</p><p><strong>精魂：</strong> 孢子暂时攀附目标灵魂。目标必须通过对抗你职业DC的@Check[fortitude|against:class]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>"
     },
     "Drink Essence": {
       "name": "饮取精华 Drink Essence",
-      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你将根系扎入相邻的一个生物，汲取其生命力以强化你自身的活力。该生物必须进行一次 @Check[fortitude|against:class-spell] 豁免，以对抗你的职业DC或法术DC中较高者。若你是幻灵菇菇，这些根系是形而上的触须，会钩住其灵魂；若你是树视菇菇，它们则是会钻入其身体的实体根系。</p><hr /><p><strong>成功</strong> 目标不受影响。</p><p><strong>失败</strong> 目标陷入 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}，或若其已处于 drained 状态则其 drained 值增加 1（至多为 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 3}）。你获得等同于该生物等级一半的临时生命值，持续 1 分钟。</p><p><strong>大成功或大失败 失败</strong> 目标陷入 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}，或若其已处于 drained 状态则其 drained 值增加 2（至多为 drained 3）。你获得等同于该生物等级的临时生命值，持续 1 分钟。</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p>You sink roots into an adjacent creature, draining them to bolster your own vitality. The creature must attempt a @Check[fortitude|against:class-spell] save against the higher of your class DC or spell DC. If you're a phantasmal mushie, these roots are metaphysical tendrils that hook into their soul; if you're a treesighted mushie, they are instead physical roots that burrow into their body.</p><hr /><p><strong>Success</strong> The target is unaffected.</p><p><strong>Failure</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} or increases its drained value by 1 if it was already drained (to a maximum of @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 3}). You gain a number of temporary Hit Points equal to half the creature's level for 1 minute.</p><p><strong>Critical Failure</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}, or increases its drained value by 2 if it was already drained (to a maximum of drained 3). You gain a number of temporary Hit Points equal to the creature's level for 1 minute.</p>"
+      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你将根须扎入一个邻接生物，汲取其精华以充实自身生命力。该生物必须对你的职业DC或法术DC中较高者进行一次@Check[fortitude|against:class-spell]豁免。若你是幻灵蘑菇人，根须是勾住灵魂的无形卷须；若你是树眼蘑菇人，则是钻入肉体的实体根须。</p><hr /><p><strong>成功</strong> 目标不受影响。</p><p><strong>失败</strong> 目标陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1}；若已处于流失，则流失值增加1，最高@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失3}。你获得等于该生物等级一半的临时生命值，持续1分钟。</p><p><strong>大失败</strong> 目标陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失2}；若已处于流失，则流失值增加2，最高流失3。你获得等于该生物等级的临时生命值，持续1分钟。</p>"
     },
     "Unerring Illumination": {
-      "name": "无误照明 Unerring Illumination",
-      "description": "<p>精明的鬼火会持续警戒那些看不见的敌人，随时准备将它们带入无可逃脱的光之中。即使是臭名昭著的折磨者鬼火，当你决定照亮它们时也无法逃脱。你每小时一次可以将 @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE] 作为天生的异术法术施放。</p>\n<p>Canny will-o'-wisps remain on-guard against foes that can't be seen, ready to bring them into inescapable light. Even the notorious tormentor wisps can't escape when you decide to illuminate them. You can cast @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE] as an innate occult spell once per hour.</p>"
+      "name": "无遁之光 Unerring Illumination",
+      "description": "<p>精明的鬼火始终警惕看不见的敌人，随时准备将其暴露在无处可逃的光中。你决意照亮对方时，连声名狼藉的折磨鬼火也无法逃脱。你可以每小时一次将@UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]作为异能天生法术施放。</p>"
     },
     "Telepathic Spores": {
       "name": "心灵感应孢子 Telepathic Spores",
-      "description": "<p>你用原始魔法强化了你的信号孢子，使它们能够向所有类型的生物传递信息，而不只是菌类。</p><p>你获得射程为30英尺的心灵感应。这使你能够与所列射程内的任何生物进行心灵交流，只要你们共享一种语言。这不会让你获得对其思想的任何特殊许可，并且所传达的信息不会比正常言语更多。</p><p>在17级时，心灵感应的射程增加到100英尺。</p>\n<p>You've augmented your signaling spores with primal magic, allowing them to transmit information to all types of creatures, not just fungi.</p><p>You gain telepathy with a range of 30 feet. This allows you to communicate mentally with any creatures within the listed range, as long as you share a language. This doesn't give you any special access to their thoughts, and communicates no more information than normal speech would.</p><p>At 17th level, the range of telepathy increases to 100 feet.</p>"
+      "description": "<p>你以原能魔法强化信号孢子，让它们能向各种生物传递信息，而不仅是真菌。</p><p>你获得30尺心灵感应，可以与范围内共享一种语言的任何生物进行心灵交流。这不会让你特殊地读取对方思想，也不会比正常交谈传达更多信息。</p><p>在17级时，心灵感应范围增加至100尺。</p>"
     },
     "Towering Thicket": {
-      "name": "高耸灌木丛 Towering Thicket",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你刺激你的真菌身躯以令人眩晕的速度膨胀。新生长扩大了你的触及并增强了你的力量。你获得4环 @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV] 的效果，持续1分钟。</p>\n<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>You spur your fungal body to expand at a dizzying rate. The new growth expands your reach and bolsters your strength. You gain the effects of 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV] for 1 minute.</p>"
+      "name": "高耸灌丛 Towering Thicket",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你促使真菌身躯飞速膨胀，新生组织延长触及并增强力量。你获得4环@UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]的效果，持续1分钟。</p>"
     },
     "Spore Talk": {
       "name": "孢子交谈 Spore Talk",
-      "description": "<p>你的信号孢子所携带的不仅仅是关于你情绪的微妙信息。借助你的孢子，你可以将特定词语无声地传达给10英尺内所有有感知能力的真菌。真菌只有在它们与你使用相同语言时才能理解你。</p>\n<p>Your signaling spores carry more than just subtle information about your moods. Using your spores, you can communicate specific words silently to all sapient fungi within 10 feet. Fungi only understand you if they share the language you are using.</p>"
+      "description": "<p>你的信号孢子不仅能传达微妙的情绪信息。你可以利用孢子，将具体话语无声地传给10尺内所有具有智慧的真菌。只有与你共享所用语言的真菌才能理解。</p>"
     },
     "Unerring Navigator": {
-      "name": "百发百中的领航员 Unerring Navigator",
-      "description": "<p>在令人困惑的地形中辨明方向对你而言已是本能。你可能会运用你的能力引导他人找到宝藏，或在带领他人进入你自己阴险的迷宫时避免迷路。你可以将 @UUID[Compendium.pf2e.spells-srd.Item.tXa5vOu5giBNCjdR] 作为一种天生的异界戏法施放。你这样做时，你可以选择如常从该法术获得信息，或选择120尺内的一个目标并将信息传递给对方。当你以非自身的生物为目标时，对方要么会突然意识到北方的方向，要么会获得一种模糊的印象，回忆起你上次到访该地点时它的样子。该印象的细节不足，无法提供比你用素描或描述所能表达的更多信息。</p>\n<p>Orienting yourself in confusing terrain is second nature. You might use your abilities to guide others to treasure, or to avoid getting lost while leading others into your own devious mazes. You can cast @UUID[Compendium.pf2e.spells-srd.Item.tXa5vOu5giBNCjdR] as an innate occult cantrip. When you do, you can either receive the information from the spell normally or choose a target within 120 feet and transmit the information to them. When you target a creature that isn't yourself, they either receive a sudden awareness of which direction is north or a vague impression of what the location looked like the last time you were there. This impression isn't detailed enough to provide more information than you could with a sketch or description.</p>"
+      "name": "无误领航 Unerring Navigator",
+      "description": "<p>你天生善于在复杂地形中辨明方向。你可以借此引导他人寻宝，也可以在将人引入自己精心布置的迷宫时避免迷路。你可以将@UUID[Compendium.pf2e.spells-srd.Item.tXa5vOu5giBNCjdR]作为异能天生戏法施放。施放时，你可以通常地获得法术信息，也可以选择120尺内的一个目标，将信息传给它。若目标不是你自己，它会突然知道北方的方向，或获得你上次造访某处时该地景象的模糊印象。这种印象不够细致，无法提供超过速写或口述的信息。</p>"
     },
     "Harmless Hillock": {
       "name": "无害小丘 Harmless Hillock",
-      "description": "<p>你安顿下来，并将自己伪装成一座小型天然土丘。直到你下次采取动作前，你看起来像是一堆覆有草地与矮小常绿灌木的土堆。你获得 +2 环境加值，用于 [[/act impersonate options=\"impersonate:hillock\"]] 一座土丘的欺瞒检定与DC，并且如果你在欺瞒上未受训，你对欺瞒检定的熟练度加值等同于你的等级。伪装成土丘只需要你花费 1 动作，而非 10 分钟，并且不需要你拥有伪装工具包。</p>\n<p>You settle down and disguise yourself as a small natural hillock. Until the next time you act, you appear to be a mound of dirt covered in grass and short evergreen bushes. You gain a +2 circumstance bonus on Deception checks and DCs to [[/act impersonate options=\"impersonate:hillock\"]] a hillock, and if you're untrained in Deception, your proficiency bonus to Deception checks is equal to your level. Impersonating a hillock takes you 1 action, rather than 10 minutes, and does not require you to have a disguise kit.</p>"
+      "description": "<p>你伏下身体，伪装成一座天然小丘。直到下次行动，你看起来都像覆着草与矮小常绿灌木的土堆。你用于[[/act impersonate options=\"impersonate:hillock\"]]小丘的欺骗检定和DC获得+2环境加值；若欺骗未受训，你在欺骗检定上的熟练加值等于自身等级。乔装成小丘只需1个动作，而非10分钟，且无需伪装工具。</p>"
     },
     "Treacherous Flora": {
-      "name": "险恶植物群 Treacherous Flora",
-      "description": "<p><strong>频率</strong> 每日一次</p><hr /><p>一丛尖锐叶片与布满荆棘的枝条、海藻、真菌、蔬菜或花朵从你的身体上翻滚坠落，向外倾泻，在灵光范围内的地面上制造困难地形。持续1分钟，你在自身周围获得一个危险植物灵光，范围为@Template[type:emanation|distance:10]。灵光范围内的地面为困难地形，且在灵光范围内地面上开始其回合的敌人会受到等同于你传承吐息武器的同类型伤害，数值等于你的等级（@Damage[@actor.level[poison]]），并需进行一次@Check[reflex|against:class-spell|basic]豁免，以你职业DC或法术DC中较高者为DC。</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p>A thicket of sharp leaves and thorn-covered branches, kelp, fungi, vegetables, or flowers tumble down from your body, cascading outward and creating difficult terrain on the ground within the aura. For 1 minute, you gain a treacherous flora aura in a @Template[type:emanation|distance:10] around you. The ground within the aura is difficult terrain, and foes who start their turn on the ground within the aura take damage of the same type as your heritage's breath weapon equal to your level (@Damage[@actor.level[poison]]), with a @Check[reflex|against:class-spell|basic] save against the higher of you class DC or spell DC.</p>"
+      "name": "险恶植被 Treacherous Flora",
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>尖叶、荆棘枝、海带、真菌、蔬菜或花卉从你身上滚落，向外铺展，在灵光内的地面形成困难地形。你获得以自身为中心、范围为@Template[type:emanation|distance:10]的险恶植被灵光，持续1分钟。灵光内的地面为困难地形；在其中地面上开始回合的敌人，受到等于你等级的伤害，类型与你传承的喷吐武器相同（@Damage[@actor.level[poison]]），并对你的职业DC或法术DC中较高者进行@Check[reflex|against:class-spell|basic]豁免。</p>"
     },
     "Fungal Stampede": {
-      "name": "真菌狂奔 Fungal Stampede",
-      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你横冲直撞地碾过你的敌人，如同你的真菌先祖一般践踏他们。疾步两次，在移动途中可以穿过任何挡路生物的空间，对这些生物造成 @Damage[16d6[bludgeoning]] 伤害，并以你的职业DC与法术DC中较高者为基准进行一次 @Check[reflex|against:class-spell|basic] 豁免；若该生物比你更小且其豁免大失败，则其还会被击倒 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}。你的移动不会触发反应动作。</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p>You run roughshod over your foes, trampling over them like your fungal forbears. Stride twice, moving through the spaces of any creatures in your way, dealing those creatures @Damage[16d6[bludgeoning]] damage with a @Check[reflex|against:class-spell|basic] save against the higher of your class DC and spell DC; if the creature is smaller than you and critically fails their save, they're also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. Your movement doesn't trigger reactions.</p>"
+      "name": "真菌奔踏 Fungal Stampede",
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你如真菌先祖般横冲直撞，踏过敌人。行走两次，可以穿过沿途所有生物的空间，并对这些生物造成@Damage[16d6[bludgeoning]]伤害，目标对你的职业DC或法术DC中较高者进行@Check[reflex|against:class-spell|basic]豁免；若生物比你小且豁免大失败，还会被击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。你的移动不触发反应。</p>"
     },
     "Twinkling Hover": {
       "name": "闪烁悬浮 Twinkling Hover",
-      "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p>你在空气中短暂悬停。你飞行。若你通常没有飞行速度，你在此次移动中获得15尺的飞行速度。若你在此次移动结束时不在坚实地面上，你会坠落。</p>\n<p><strong>Frequency</strong> once per round</p><hr /><p>You hover briefly in the air. You Fly. If you don't normally have a fly Speed, you gain a fly Speed of 15 feet for this movement. If you aren't on solid ground at the end of this movement, you fall.</p>"
+      "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p>你在空中短暂悬浮。你飞行；若通常没有飞行速度，则此次移动获得15尺飞行速度。若移动结束时不在坚实地面上，你会坠落。</p>"
     },
     "Wink Out": {
-      "name": "眨眼消失 Wink Out",
-      "description": "<p>当你熄灭在你形体上舞动的无热、幽灵般的火焰时，你的身体从视线中淡去，滑入光与影的边界之间。你每小时可以将4环 @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB] 作为一项异能天生法术施放一次。施放此法术会自动压制你的天生辉光，无需花费一个动作。</p>\n<p>When you quench the heatless, ghostly flames that dance across your form, your body fades from sight, slipping between the borders of light and shadow. You can cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB] as an occult innate spell once per hour. Casting this spell automatically suppresses your innate glow without spending an action.</p>"
+      "name": "熄光隐形 Wink Out",
+      "description": "<p>你熄灭形体上跃动、没有热量的幽灵火焰，身体便淡出视线，滑入光与影的边界。你可以每小时一次将4环@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]作为异能天生法术施放。施放此法术时会自动压抑天生辉光，无需花费动作。</p>"
     },
     "Wispflame": {
-      "name": "鬼火焰 Wispflame",
-      "description": "<p>你可以将一小片你的赋生命质穿过空气发射出去以伤害你的敌人。你获得一项 wispflame 远程徒手攻击，射程增量为30英尺，并具有魔法（特征），造成1d4点伤害，其伤害类型来自你的光源（通常为电击或火焰伤害），并且属于斗殴武器组。</p>\n<p>You can launch a tiny fragment of your animating essence through the air to harm your foes. You gain a wispflame ranged unarmed attack with a range increment of 30 feet and the magical trait that deals 1d4 damage of the type from your light source (typically electricity or fire damage) and is in the brawling weapon group.</p>"
+      "name": "鬼火之焰 Wispflame",
+      "description": "<p>你能将维系自身生命的一小片精华射向空中，伤害敌人。你获得鬼火之焰远程徒手攻击，射程增量为30尺，具有魔法特征，造成1d4伤害，类型取决于光源（通常是电击或火焰），属于斗殴武器组。</p>"
     },
     "Fungal Concoctor": {
       "name": "真菌调制师 Fungal Concoctor",
-      "description": "<p>你可以运用自己对真菌的广博知识来酿制有用的材料。无论你选择将这些知识用于治疗伤势，还是制作致命毒素，你的天然亲和力都能派上用场。你获得 @UUID[Compendium.pf2e.feats-srd.Item.y7DDs03GtDnmhxFp]{Poisoner Dedication} 或 @UUID[Compendium.pf2e.feats-srd.Item.MJg24e9fJd7OASvF]{Medic Dedication} 之一；你必须满足该专长的正常先决条件，但即使你通常在从当前变体获得更多专长之前不能再选取另一个献身专长，你仍然会获得该专长。</p>\n<p>You can use your extensive knowledge of fungi to brew up useful materials. Whether you choose to apply that knowledge to treat injuries or craft deadly toxins, your natural affinity comes in handy. You gain either @UUID[Compendium.pf2e.feats-srd.Item.y7DDs03GtDnmhxFp]{Poisoner Dedication} or @UUID[Compendium.pf2e.feats-srd.Item.MJg24e9fJd7OASvF]{Medic Dedication}; you must meet the feat's normal prerequisites, but you gain the feat even if you normally couldn't take another dedication feat until you take more feats from your current archetype.</p>"
+      "description": "<p>你能够运用丰富的真菌知识调制有用的材料。无论用来治疗伤势还是制造致命毒素，天生亲和力都能派上用场。你获得@UUID[Compendium.pf2e.feats-srd.Item.y7DDs03GtDnmhxFp]{投毒者入门}或@UUID[Compendium.pf2e.feats-srd.Item.MJg24e9fJd7OASvF]{医师入门}；必须满足该专长的通常先决条件，但即使通常需要先选取当前原型的更多专长才能选取另一项入门专长，你仍能获得它。</p>"
     },
     "Confounding Disappearance": {
-      "name": "困惑性消失 Confounding Disappearance",
-      "description": "<p>你可以从视线中完全消失，同时召唤一个完美的幻象来吸引你敌人的注意并扰乱他们的感官。只需一个念头，你的影像便如同在荡漾水面上的倒影般分裂开来，在原地只留下一个逼真的魅影。你可以每小时一次，以先天法术施放6环 @UUID[Compendium.pf2e.spells-srd.Item.WPXzPl7YbMEIGWfi] 作为秘法先天法术。施放该法术会自动压制你的先天辉光，无需花费一个动作。此外，如果在你施放该法术之前你的辉光处于激活状态，则该法术创造的幻象复制体会产生你辉光灵光的一个复制品。</p>\n<p>You can vanish entirely from sight while conjuring a perfect illusion to draw your foes’ attention and confound their senses. With a thought, your image splits like a reflection across rippling water, leaving only a convincing phantom in your place. You can cast 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.WPXzPl7YbMEIGWfi] as an occult innate spell once per hour. Casting this spell automatically suppresses your innate glow without spending an action. Additionally, if your glow was active before you cast the spell, the illusory duplicate that the spell creates produces a replica of your glow aura.</p>"
+      "name": "迷踪消失 Confounding Disappearance",
+      "description": "<p>你能完全消失，同时制造完美幻象吸引敌人注意、扰乱其感官。心念一动，你的身影便像水面涟漪中的倒影般分开，原地只留下逼真的幻影。你可以每小时一次将6环@UUID[Compendium.pf2e.spells-srd.Item.WPXzPl7YbMEIGWfi]作为异能天生法术施放。施法时自动压抑天生辉光，无需花费动作。此外，若施法前辉光正在生效，法术创造的幻象复制体也会复制辉光灵光。</p>"
     },
     "Searing Tendril": {
-      "name": "灼热触须 Searing Tendril",
-      "description": "<p>你能够投射的光之触须变成致命的武器。你获得一次触须徒手攻击，其造成1d6点伤害，伤害类型与你的光源相同（通常为电击或火焰伤害）。你的触须具有灵巧、魔法与徒手特性，并属于搏斗武器组。</p>\n<p>The tendrils of light that you can project become lethal weapons. You gain a tendril unarmed attack that deals 1d6 damage of the type from your light source (typically electricity or fire damage). Your tendril has the finesse, magical, and unarmed traits and is in the brawling weapon group.</p>"
+      "name": "灼热卷须 Searing Tendril",
+      "description": "<p>你投射出的光之卷须成为致命武器。你获得卷须徒手攻击，造成1d6伤害，类型取决于光源，通常是电击或火焰。卷须具有娴熟、魔法和徒手特征，属于斗殴武器组。</p>"
     },
     "Cluster's Coordination": {
-      "name": "集群协调 Cluster's Coordination",
-      "description": "<p>你引导自己在大型群落中的群居生活，以便更轻松地协助盟友。你在进行 @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{援助} 的检定时获得+4环境加值。</p>\n<p>You channel your communal life in large colonies to more easily assist your allies. You gain a +4 circumstance bonus on checks to @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aid}.</p>"
+      "name": "菌群协作 Cluster's Coordination",
+      "description": "<p>你发挥大型菌落的群居精神，更轻松地帮助盟友。你用于@UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{协助}的检定获得+4环境加值。</p>"
     },
     "Mycelial Clone": {
       "name": "菌丝分身 Mycelial Clone",
-      "description": "<p>菌丝网络擅长储存与传递信息，但你已将对菌丝的掌控提升到了新的层次。你可以花费 1 小时创造一个与你自身相同的菌丝克隆体，并将其与你的灵魂相连。这个克隆体会维持在类似睡眠的恍惚中，无法以任何方式行动，不过它会持续接收关于你的记忆与经历的稳定信息流。蘑菇人通常会在安全地点制造克隆体，例如在地下，附着于树根之上。制造第二个克隆体会打破你灵魂与第一个克隆体的连接，使其散解为无智慧的真菌。</p><p>若你在拥有一个活跃克隆体时死亡，灵魂连接会将你的灵魂拉入克隆体，阻止你前往来世。克隆体拥有你所有的记忆与能力，并且现在可以正常行动。克隆体可能是你意识与人格的延续，或者根据其生长的环境条件而拥有不同的人格。你死亡时影响你身体的负面状态不会转移至克隆体，但影响你心智或灵体的状态（例如诅咒）会转移。</p><p>克隆的身体需要一些时间才能准备好制造新的克隆体。在通过重生进入克隆体而避开死亡之后，你在 1 个月内无法再次制造新的克隆体。</p>\n<p>Mycelial networks are skilled at storing and transferring information, but you've taken your mastery over mycelia to the next level. You can spend 1 hour to create a mycelial clone of yourself and link it to your soul. This clone remains in a sleeplike trance and can't act in any way, though they receive a steady stream of information about your memories and experiences. Mushies typically create their clones in secure locations, such as underground, attached to the roots of trees. Creating a second clone breaks your soul's link to the first clone, causing it to disperse into nonsapient fungi.</p><p>If you die while you have an active clone, the soul link draws your soul into the clone, preventing you from passing on to the afterlife. The clone has all of your memories and abilities and can now act normally. The clone might be a continuation of your consciousness and personality, or they may have a different personality depending upon the conditions of their growth. Negative conditions that affected your body when you died don't transfer to the clone, but conditions affecting your mind or spirit, such as curses, do transfer.</p><p>It takes some time for a cloned body to be ready to produce a new clone. After avoiding death by rebirthing into a clone, you can't make a new clone again for 1 month.</p>"
+      "description": "<p>菌丝网络善于储存和传递信息，你却将菌丝掌控推进到了新境界。你可以花费1小时，创造一个自己的菌丝分身，并将它与灵魂相连。分身维持类似睡眠的恍惚状态，无法采取任何行动，但会不断接收你的记忆与经历。蘑菇人通常在安全之处创造分身，例如地下、依附树根的位置。创造第二个分身会切断灵魂与第一个分身的联系，使后者消散成无智慧的真菌。</p><p>若你死亡时存在一个有效分身，灵魂联系会将灵魂引入其中，阻止你前往来世。分身拥有你的全部记忆和能力，从此能够正常行动。它可能延续你的意识与人格，也可能因生长条件而具有不同性格。死亡时影响肉体的负面状态不会转移，但诅咒等影响心智或精魂的状态会转移。</p><p>分身身体需要一段时间才能制造新分身。通过在分身中重生逃过死亡后，1个月内你无法再次创造分身。</p>"
     },
     "Smother Light": {
-      "name": "闷灭光 Smother Light",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你的光已被熄灭，而你也能将同样的命运施加于穿过你道路的其他光源。你抽离空气与神秘力量，以切断60英尺内一处无人看管光源的燃料。小型非魔法光源，如火把与提灯，会自动熄灭；区域至多为1格的非魔法火焰也会熄灭。要熄灭一处魔法光源，尝试一次@Check[class-spell]{反制}检定。你的反制阶位等于你等级的一半（向上取整），你的反制调整值等于你的职业DC –10或你的法术DC –10中较高者。反制一处魔法光源会压制其光持续1分钟，但不会压制任何其他效果。</p>\n<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>Your light has been extinguished, and you can inflict that same fate on other lights that cross your path. You draw away both air and mystical power to cut off the fuel from an unattended light within 60 feet. Small non-magical light sources like torches and lanterns are automatically extinguished, as are non-magical flames with an area of up to 1 square. To extinguish a magical light source, attempt a @Check[class-spell]{Counteract} check. Your counteract rank is equal to half your level (rounded up) and your counteract modifier is equal to the higher of your class DC –10 or your spell DC –10. Counteracting a magical light source suppresses its light for 1 minute but does not suppress any other effects.</p>"
+      "name": "熄灭光芒 Smother Light",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你的光已熄灭，也能让遇见的其他光源遭遇同样命运。你抽走空气与神秘力量，切断60尺内一个无人看管光源的燃料。火把、提灯等小型非魔法光源，以及范围至多1格的非魔法火焰，都会自动熄灭。若要熄灭魔法光源，进行一次@Check[class-spell]{反制}检定。你的反制环阶等于自身等级的一半，向上取整；反制调整值为职业DC –10或法术DC –10中较高者。反制魔法光源会压抑其光芒1分钟，但不压抑其他效果。</p>"
     },
     "Massive Mushroom": {
       "name": "巨型蘑菇 Massive Mushroom",
-      "description": "<p>创造你的真菌孢子源自一种格外巨大的物种。你已经变得足够强壮，能够激活这些孢子沉睡的潜能并经历一次显著的生长突增。你变为大型，持续获得 @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV] 的效果。</p><hr /><p><strong>特殊</strong> 若伪孢子蘑菇人是由来自大型族裔的孢子制成，则在GM酌情决定下，可能拥有选择此专长的许可。</p>\n<p>The fungal spores that created you originated from a particularly massive species. You've become strong enough to activate these spores' dormant potential and undergo a major growth spurt. You become Large, gaining the effects of @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV] constantly.</p><hr /><p><strong>Special</strong> Pseudospore mushies who are made with spores from a Large ancestry might have access to this feat at the GM's discretion.</p>"
+      "description": "<p>创造你的真菌孢子源于格外庞大的物种。如今你已足够强大，能够唤醒孢子潜能，迎来剧烈生长。你的体型变为大型，并恒定获得@UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]的效果。</p><hr /><p><strong>特殊</strong> 若拟孢蘑菇人所用孢子来自大型族裔，GM可以酌情允许其选取本专长。</p>"
     },
     "Feed on Fear": {
       "name": "以恐惧为食 Feed on Fear",
-      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>需求</strong> 30英尺内的一名生物处于恐慌或具有濒死（状态）</p><hr /><p>你品味恐惧的滋味，无论是对特定威胁的畏惧，还是对迫近死亡的存在性恐怖。你获得等同于处于恐慌或濒死的生物等级两倍数量的临时生命值。你也获得如同吃过一顿正餐般的饱足感。</p>\n<p><strong>Frequency</strong> once per hour</p><p><strong>Requirements</strong> A creature within 30 feet is frightened or has the dying condition</p><hr /><p>You savor the taste of terror, whether it be fear of a specific threat or the existential dread of impending death. You gain a number of temporary Hit Points equal to twice the frightened or dying creature's level. You also gain nourishment as if you'd eaten a full meal.</p>"
+      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>使用条件</strong> 30尺内一个生物正处于惊惧或濒死状态</p><hr /><p>你品味恐惧，无论是对具体威胁的畏惧，还是死亡将至的存在性恐慌。你获得等于该惊惧或濒死生物等级两倍的临时生命值，也获得如同吃过一顿饱饭的营养。</p>"
     },
     "Endless Flora": {
-      "name": "无尽繁茂 Endless Flora",
-      "description": "<p>你那阴险的植物再生速度比大多数永恒莱西龙还快。你可以将 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.LpxF6MynyCcpk128]{Treacherous Flora} 的使用频率从每天1次改为每小时1次。</p>\n<p>Your treacherous flora regrow faster than most aeternal leshy dragons. You can use @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.LpxF6MynyCcpk128]{Treacherous Flora} once per hour instead of once per day.</p>"
+      "name": "无尽植被 Endless Flora",
+      "description": "<p>你的险恶植被再生速度比多数永恒莱西龙更快。你可以每小时一次使用@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.LpxF6MynyCcpk128]{险恶植被}，而非每天一次。</p>"
     },
     "Monospore Mimicry": {
       "name": "单孢拟态 Monospore Mimicry",
-      "description": "<p>当其他传承的蘑菇人会在培育时将其适应潜能的大部分用于与其他物种杂交，而你将这种潜能保留到了成年。对一个位于你触及内的敌人进行一次近战打击。若该攻击命中，它造成其通常的伤害，并且你提取并吸收其部分精华来保护自己。你得知该生物在酸、寒冷、电击、火焰或音波伤害中，对哪些伤害类型具有抗力或免疫。若该生物对这些元素中的至少一种具有抗力或免疫，则选择一种他们所防护的元素。你获得等同于你等级一半的该元素抗力，持续1分钟。</p><hr /><p><strong>特殊</strong> 若你拥有@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.GxtCSjpjbdBk4MlJ]{Spore Shot}或@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.xK6LSS6Gv07FAj7r]{Spore Spray}专长，则当你从单孢拟态获得抗力时，你的Spore Shot获得相同伤害类型的多用特性，并且你可以选择让你的Spore Spray造成该伤害类型。无论哪种情况，若这导致一种对这些专长而言通常不可能的伤害类型，则在必要时使用毒素伤害的特殊效果（添加力竭（状态））。</p>\n<p>While mushies of other heritages use much of their adaptive potential to hybridize with other species at cultivation, you've retained that potential into adulthood. Make a melee Strike against a foe within your reach. If the attack hits, it deals its typical damage, and you extract and absorb some of their essence to defend yourself. You learn which of acid, cold, electricity, fire, or sonic damage the creature has a resistance or immunity to. If the creature has a resistance or immunity to at least one of these elements, choose one element that they are warded against. You gain an amount of resistance equal to half your level against that element for 1 minute.</p><hr /><p><strong>Special</strong> If you have the @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.GxtCSjpjbdBk4MlJ]{Spore Shot} or @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.xK6LSS6Gv07FAj7r]{Spore Spray} feat, while you have resistance from Monospore Mimicry, your Spore Shot gains the versatile trait for the same damage type and you can choose to have your Spore Spray deal that damage type. In either case, if this results in a damage type not normally possible for those feats, use the special effect from poison damage (adding the enfeebled condition) if necessary.</p>"
+      "description": "<p>其他传承的蘑菇人在培育时便将大部分适应潜能用于与别的物种混合，而你将这份潜能保留至成年。对触及内一个敌人进行近战打击。若命中，造成通常伤害，并抽取、吸收目标部分精华来防御自身。你得知该生物对酸蚀、寒冷、电击、火焰和音波伤害中的哪些类型具有抗力或免疫。若它至少抵御其中一种，选择一种受防护的元素；你获得对该元素的抗力，数值等于自身等级的一半，持续1分钟。</p><hr /><p><strong>特殊</strong> 若你拥有@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.GxtCSjpjbdBk4MlJ]{孢子射击}或@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.xK6LSS6Gv07FAj7r]{孢子喷射}专长，具有单孢拟态抗力期间，孢子射击获得对应伤害类型的多用特征，孢子喷射也可以选择造成该类型伤害。无论哪种情况，若因此采用这些专长通常不能造成的伤害类型，则需要时使用毒素伤害的特殊效果，即施加力竭状态。</p>"
     },
     "Hyphae Network": {
       "name": "菌丝网络 Hyphae Network",
-      "description": "<p>当你站在一种比坚实石头更柔软可塑的表面上时，你的菌丝会延伸进地面以探测细微的震动。你获得不精确的颤动感知，射程为20英尺。你也可以使用@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.wdARdD73NPJrWOxl]{延伸菌丝}动作。</p>\n<p>When standing on a surface that is more pliable than solid stone, your hyphae extend into the ground to detect subtle vibrations. You gain imprecise tremorsense with a range of 20 feet. You can also use the @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.wdARdD73NPJrWOxl]{Extend Hyphae} action.</p>"
+      "description": "<p>站在比坚岩柔软的表面上时，你的菌丝会深入地面，感知细微振动。你获得20尺模糊震颤感知，也可以使用@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.wdARdD73NPJrWOxl]{延展菌丝}动作。</p>"
     },
     "Smushie": {
-      "name": "冰沙 Smushie",
-      "description": "<p>你可以把身体挤压到足以进入狭窄空间的程度，并从任何试图束缚你的事物中扭动脱身。你在进行 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} 或 @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Squeeze} 的检定时获得+1环境加值，并且当你在进行挤压或逃脱时大失败，你改为失败。</p>\n<p>You can squish your body down to fit into narrow spaces and wriggle out of anything that would attempt to restrain you. You gain a +1 circumstance bonus on checks to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} or @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Squeeze}, and when you critically fail while Squeezing or Escaping, you get a failure instead.</p>"
+      "name": "挤挤菇 Smushie",
+      "description": "<p>你可以压扁身体，钻入狭窄的空间，并扭动身躯挣脱束缚。你在@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}或@UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{挤入}检定上获得+1环境加值；当你在挤入或逃脱时大失败，你改为失败。</p>"
     },
     "Tiny Transformation": {
       "name": "微型变形 Tiny Transformation",
-      "description": "<p>你是由空气与光构成的生物，其特性远比传统血肉更具可塑性。你可以将身体压缩成紧凑的动物形态。你获得 @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl] 的效果，直到你再次使用 Tiny Transformation 以结束该效果。</p>\n<p>You are a creature of air and light, features far more malleable than conventional flesh. You can compress your body into a compact animal form. You gain the effects of @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl] until you use Tiny Transformation again to end the effect.</p>"
+      "description": "<p>你是由空气与光构成的生物，这些特质远比寻常血肉更易塑形。你可以将身体压缩成小巧的动物形态。你获得@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]的效果，直到你再次使用微型变形结束此效果。</p>"
     },
     "Extended Hover": {
-      "name": "延长悬停 Extended Hover",
-      "description": "<p>你可以在不接触坚实地面的情况下覆盖更远的距离。你从 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.PJISFLeMO4DTIkcF]{Twinkling Hover} 获得的飞行速度提升至25英尺。</p>\n<p>You can cover a greater distance without touching down on solid ground. The fly Speed you gain from @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.PJISFLeMO4DTIkcF]{Twinkling Hover} increases to 25 feet.</p>"
+      "name": "延伸悬浮 Extended Hover",
+      "description": "<p>你可以飞越更远的距离，而不必落在坚实的地面上。你从@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.PJISFLeMO4DTIkcF]{闪烁悬浮}获得的飞行速度提升至25尺。</p>"
     },
     "Pathogenic Coexistence": {
       "name": "病原共存 Pathogenic Coexistence",
-      "description": "<p>作为单孢子蘑菇人，你的身体拥有尚未开发的潜能，能够与不同物种共存而不受伤害。你对抗疾病、对抗真菌，以及对抗代表孢子或微观生物的环境危害时的所有豁免检定获得+1环境加值。若你在因该加值而受益的豁免检定上掷骰得到成功，则改为大成功；若你拥有另一项也会以这种方式提升豁免的不同能力（例如战士（职业）的久经沙场职业特性），则当你在该豁免上掷骰得到大失败时，改为失败。</p>\n<p>As a monospore mushie, your body has untapped potential to coexist with different species without coming to harm. You gain a +1 circumstance bonus to all saving throws against diseases, against fungi, and against environmental hazards that represent spores or microscopic organisms. If you roll a success on a saving throw benefiting from this bonus, you get a critical success instead; if you have a different ability that would improve the save in this way (such as the battle hardened fighter class feature), if you roll a critical failure on the save you get a failure instead.</p>"
+      "description": "<p>作为单孢蘑菇人，你的身体蕴藏着尚未发掘的潜能，能够与不同物种共存而不受伤害。你对抗疾病、真菌，以及由孢子或微生物构成的环境危害时，所有豁免检定获得+1环境加值。如果你在受此加值影响的豁免检定中掷出成功，则改为大成功；如果你拥有另一项能以此方式提升豁免结果的能力（例如战士的久经沙场职业特性），那么当你在该豁免中掷出大失败时，改为失败。</p>"
     },
     "Squishie": {
-      "name": "脆皮 Squishie",
-      "description": "<p><strong>触发</strong> 你将要受到钝击伤害</p><hr /><p>你的身体会迅速从钝击中反弹，通过挤压而非破裂来吸收冲击。你获得等同于你等级的抗力，用于抵御触发的钝击伤害。若触发的伤害是坠落伤害，则你改为完全抵消该坠落伤害。</p>\n<p><strong>Trigger</strong> You would take bludgeoning damage</p><hr /><p>Your body quickly rebounds from blunt impacts by squishing instead of breaking. You gain an amount of resistance equal to your level against the triggering bludgeoning damage. If the triggering damage is falling damage, you instead negate the falling damage entirely.</p>"
+      "name": "弹弹菇 Squishie",
+      "description": "<p><strong>触发</strong>你将受到钝击伤害。</p><hr /><p>受到钝物冲击时，你的身体会挤压变形而非破裂，并迅速恢复原状。你对触发的钝击伤害获得等于你等级的抗力。如果触发伤害是坠落伤害，则改为完全抵消该坠落伤害。</p>"
     },
     "Polyspore Mushie": {
-      "name": "多孢蘑菇怪 Polyspore Mushie",
-      "description": "<p>你由两种或更多强健的真菌菌株培育而成。其中一种菌株在你早期生长中占据主导，但随着时代推移，第二种菌株的影响逐渐增强，塑造了你的身体以及你的力量。选择一个你尚未拥有的、列于本专长先决条件中的传承。你获得该传承及其益处。</p>\n<p>You were cultivated from two or more strong strains of fungi. One of these strains predominated in your early growth, but a second strain's influence has grown over time, shaping your body as well as your powers. Choose one of the heritages listed in this feat's prerequisites that you don't already have. You gain that heritage and its benefits.</p>"
+      "name": "多孢蘑菇人 Polyspore Mushie",
+      "description": "<p>你由两种或更多强健的真菌菌株培育而成。其中一种菌株在你早期生长时占据主导地位，但随着时间推移，第二种菌株的影响逐渐增强，塑造了你的身体和力量。从本专长先决条件列出的传承中，选择一个你尚未拥有的传承。你获得该传承及其益处。</p>"
     },
     "Herbal Growths": {
-      "name": "草药增生 Herbal Growths",
-      "description": "<p>生长在你身体各处的植物或真菌具有药用特性，可以采收用来制作天然的药膏与疗法。你可以在不使用医者工具的情况下进行 @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}，并且你的盟友也可以在不使用医者工具的情况下对你进行 Treat Wounds。你获得 @UUID[Compendium.pf2e.feats-srd.Item.WC4xLBGmBsdOdHWu]{Natural Medicine} 技能专长。每天一次，当你使用自然来 Treat Wounds 时，你或一名拥有 Natural Medicine 的盟友可以从你身体上采摘新鲜的药用材料，即使你不在荒野中也能获得新鲜材料。</p>\n<p>The plants or fungi growing across your body have medicinal properties and can be harvested to create natural poultices and remedies. You can @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} without healer's tools, and your allies can Treat your Wounds without healer's tools. You gain the @UUID[Compendium.pf2e.feats-srd.Item.WC4xLBGmBsdOdHWu]{Natural Medicine} skill feat. Once per day, you or an ally with Natural Medicine can pick fresh medicinal ingredients from your body while using Nature to Treat Wounds, granting fresh ingredients even if you're not in the wilderness.</p>"
+      "name": "药草生长 Herbal Growths",
+      "description": "<p>你身上生长的植物或真菌具有药用特性，可以采收，用于制作天然药膏和药物。你无需医者工具即可@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}，盟友也无需医者工具即可为你治疗伤势。你获得@UUID[Compendium.pf2e.feats-srd.Item.WC4xLBGmBsdOdHWu]{自然疗法}技能专长。每日一次，你或一名拥有自然疗法的盟友可以在使用自然技能治疗伤势时，从你身上采摘新鲜的药用材料；即便你不在荒野中，也能获得新鲜材料。</p>"
     },
     "Stalksight": {
-      "name": "潜踪视野 Stalksight",
-      "description": "<p>你无法抗拒满足好奇心的机会。你的身体已经对你爱管闲事的天性作出反应，让你能够伸长你的眼柄去偷看你本不该看见的东西。你 [[/act seek]]，并将你的起始方格选择为任意一个与你相邻的方格。这可能让你能够看到拐角或障碍物的另一侧，从站在你前方的生物肩膀上方偷看，或以其他方式四处窥探。如果你处于躲藏状态，使用 Stalksight 不会自动让你变为被观察到，但你必须进行一次新的秘密潜行检定以避免被发现。</p>\n<p>You can't resist an opportunity to sate your curiosity. Your body has responded to your meddlesome nature, allowing you to extend your eyestalks to peek at things you shouldn't be able to see. You [[/act seek]], choosing your starting square as any square adjacent to yourself. This can potentially allow you to see around corners or barriers, to peek over the shoulder of a creature standing in front of you, or otherwise snoop around. If you are Hiding, using Stalksight doesn't automatically make you observed, but you must attempt a new secret Stealth check to avoid being caught.</p>"
+      "name": "柄眼窥视 Stalksight",
+      "description": "<p>你无法抗拒满足好奇心的机会。你的身体回应了这份爱管闲事的天性，使你可以伸长眼柄，偷看本来看不到的事物。你进行[[/act seek]]，并将任意一个与你相邻的方格选作起始方格。这可能让你看见拐角或障碍物后方，从站在你前方的生物肩头窥视，或以其他方式四处探看。如果你正在躲藏，使用柄眼窥视不会自动使你变为可见，但你必须尝试一次新的隐秘秘密检定，以免被发现。</p>"
     },
     "Clinging Climb": {
       "name": "紧附攀爬 Clinging Climb",
-      "description": "<p>无论你分泌黏稠的黏液怪，还是使用诸如球茎或根须之类的特性来附着在表面上，你都是攀爬大师。你获得10尺的攀爬速度。</p>\n<p>Whether you exude sticky slime or use features like bulbs or roots to cling to surfaces, you're a masterful climber. You gain a climb Speed of 10 feet.</p>"
+      "description": "<p>无论是分泌黏液，还是用球茎或根须等身体结构附着在表面上，你都是攀爬好手。你获得10尺攀爬速度。</p>"
     },
     "Sculpt Light": {
-      "name": "塑造光 Sculpt Light",
-      "description": "<p>你以极其谨慎的方式塑造从你身体散发出的光。作为一个专注动作，你可以改变你辉光所发出的光的体型与强度，将其降低到如摇曳烛光般微弱，或提高到如咆哮篝火般炽盛。你在自己选择的半径内散发光照，最大至80英尺，其中明亮光照的半径至多为40英尺，其余为昏暗光照。此外，你可以将 @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4] 作为一环秘法戏法施放。你如此做时，可以选择你能用辉光创造的任意半径与强度。</p><hr /><p><strong>特殊</strong> 若你是 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.heritages.Item.y9eit9oXj127duYO]，你可以在进行 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.VdV5iGB8TDhvqHqZ]{Steer Constellation} 的动作的一部分时，对你的任意一个或全部星座之光的体型与强度进行相同的改变。</p>\n<p>You sculpt the light that emanates from your body with great care. As a single concentrate action, you can alter the size and intensity of the light from your glow, bringing it down as low as a flickering candle or as high as a roaring bonfire. You shed light in a radius of your choice up to 80 feet, with at most a 40-foot radius of bright light and the rest of dim light. Additionally, you can cast @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4] as an occult cantrip. When you do, you can choose any radius and intensity that you could create with your glow.</p><hr /><p><strong>Special</strong> If you are a @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.heritages.Item.y9eit9oXj127duYO], you can perform the same alterations on the size and intensity of any or all of your constellation lights as a part of the action to @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.VdV5iGB8TDhvqHqZ]{Steer Constellation}.</p>"
+      "name": "雕琢光芒 Sculpt Light",
+      "description": "<p>你细致地塑造从体内散发的光芒。你可以用一个专注单动作，改变辉光的照明范围与强度，将它调暗至如摇曳的烛火，或调亮至如熊熊篝火。你可以自行选择照明半径，至多为80尺，其中明亮光照的半径至多为40尺，其余为昏暗光照。此外，你可以施放@UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]，作为异能戏法。如此做时，你可以选择自己的辉光所能产生的任意半径与强度。</p><hr /><p><strong>特殊</strong>如果你是@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.heritages.Item.y9eit9oXj127duYO]，你可以对任意一盏或全部星座之光的范围与强度作出同样的调整，作为@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.VdV5iGB8TDhvqHqZ]{引导星座}动作的一部分。</p>"
     },
     "Ponderous Push": {
-      "name": "笨重推击 Ponderous Push",
-      "description": "<p>你喜欢搬动东西，尤其是当你能用你那富有弹性的肚皮时。你在运动中成为受训；如果你已经受训，你可以选择在运动中成为专家，或在你选择的另一项技能中成为受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8]{泰坦摔跤手}技能专长，并且你可以仅用你的肚皮对生物进行[[/act shove]]；当你这样做时，你可以推撞体型至多为超巨型的生物。</p>\n<p>You enjoy moving things around, especially when you can use your bouncy belly. You become trained in Athletics; if you're already trained you can choose whether to become an expert in Athletics or to become trained in a different skill of your choice. You gain the @UUID[Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8]{Titan Wrestler} skill feat, and you can [[/act shove]] creatures using only your belly; when you do, you can Shove creatures of up to size Gargantuan.</p>"
+      "name": "重躯推撞 Ponderous Push",
+      "description": "<p>你喜欢推移东西，尤其喜欢用富有弹性的肚皮来做这件事。你的运动熟练度变为受训；如果已经受训，你可以选择将运动提升至专家，或使另一项自选技能变为受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8]{巨人摔角术}技能专长，并且仅用肚皮就能[[/act shove]]生物；如此做时，你可以推撞体型至多为超巨型的生物。</p>"
     },
     "Trick of the Light": {
       "name": "光之诡计 Trick of the Light",
-      "description": "<p><strong>触发</strong> 一名对手疾步</p><hr /><p>你用迷惑性的光与扭曲的幻觉扰乱对手的方向感，诱使其走向错误的方向。该对手必须掷骰进行一次 @Check[will|against:class-spell] 意志豁免，对抗你更高的职业DC或法术DC。</p><hr /><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 在此次触发的疾步的剩余时间内，该生物进入的所有方格均为困难地形。</p><p><strong>大成功或大失败</strong> 在此次触发的疾步的剩余时间内，该生物按你选择的方向与路径移动。这是强迫移动。</p>\n<p><strong>Trigger</strong> An opponent Strides</p><hr /><p>You confound your opponent's sense of direction with beguiling lights and twisting hallucinations, tricking them into walking in the wrong direction. The opponent must roll a @Check[will|against:class-spell] save against the higher of your class DC or spell DC.</p><hr /><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> For the rest of the triggering Stride, all squares the creature enters are difficult terrain.</p><p><strong>Critical Failure</strong> The creature moves in a direction and path of your choosing for the rest of the triggering Stride. This is forced movement.</p>"
+      "description": "<p><strong>触发</strong>一名对手行走。</p><hr /><p>你用迷惑的光芒和扭曲的幻觉扰乱对手的方向感，诱使其走向错误的方向。该对手必须进行一次@Check[will|against:class-spell]豁免，对抗你的职业DC或法术DC，取较高者。</p><hr /><p><strong>成功</strong>该生物不受影响。</p><p><strong>失败</strong>在触发行走的剩余移动中，该生物进入的所有方格都视为困难地形。</p><p><strong>大失败</strong>在触发行走的剩余移动中，该生物沿你选择的方向和路线移动。这是强迫移动。</p>"
     },
     "Mycelial Speaker": {
-      "name": "菌丝代言者 Mycelial Speaker",
-      "description": "<p>你的信号孢子让你无需共享语言即可与真菌建立基本交流。你可以向真菌提问、从真菌处获得回答，并对真菌使用交涉（技能）。你在与真菌进行交涉检定时获得+2环境加值。</p>\n<p>Your signaling spores let you establish rudimentary communication with fungi without the need for a shared language. You can ask questions of, receive answers from, and use the Diplomacy skill with fungi. You gain a +2 circumstance bonus to Diplomacy checks with fungi.</p>"
+      "name": "菌丝语者 Mycelial Speaker",
+      "description": "<p>你的信号孢子使你无需共同语言，就能与真菌进行基本交流。你可以向真菌提问、获得它们的回答，并对真菌使用交涉技能。你对真菌进行交涉检定时获得+2环境加值。</p>"
     },
     "Twinkling Companion": {
       "name": "闪烁伙伴 Twinkling Companion",
-      "description": "<p>你吸引了一小点忠诚跟随你的光点。你获得一只魔宠。你可以花费 1 个魔宠能力来给予你的魔宠辉光，如同你的族裔能力。</p><hr /><p><strong>特殊</strong> 如果你已经从其他特性获得了一只魔宠，你可以选择闪烁同伴，以永久给予你的魔宠辉光族裔能力，而不消耗魔宠能力。</p>\n<p>You've drawn in a little mote of light that loyally follows you. You gain a familiar. You can spend 1 familiar ability to give your familiar glow, as your ancestry ability.</p><hr /><p><strong>Special</strong> If you already have a familiar from some other feature, you can take Twinkling Companion to grant your familiar the glow ancestry ability permanently without costing a familiar ability.</p>"
+      "description": "<p>你吸引来一小粒忠诚跟随你的光点。你获得一个魔宠。你可以花费1项魔宠能力，使魔宠获得与你族裔能力相同的辉光。</p><hr /><p><strong>特殊</strong>如果你已经从其他特性获得魔宠，可以选取闪烁伙伴，使你的魔宠永久获得辉光族裔能力，且不消耗魔宠能力名额。</p>"
     },
     "Soul Beacon": {
       "name": "灵魂信标 Soul Beacon",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p><p><strong>触发</strong> 60尺内的一个闹鬼被完全禁用，或60尺内的一个不死生物被摧毁。</p><p><strong>需求</strong> 你必须在过去1分钟内要么成功通过一次用于禁用该闹鬼的检定，要么对该不死生物造成过伤害；你不需要在最终检定中成功或打出最后一击。</p><hr /><p>不了解内情的人可能会把你误认为迷失的灵魂，尤其是当他们看见注定沉沦的灵体聚集在你身边时。但他们错了——你并非死亡牵引下的受害者，而是一名安静的牧者，引导逝者走向安宁。你帮助这些迷失的灵魂找到新的道路，缓解他们的折磨，并给予他们最后一次获得清明的机会。触发的闹鬼或不死生物的灵魂碎片会附着在你身上1分钟，低声诉说些许记忆或遗憾。在此期间，你可以尝试一次察觉检定来[[/act sense-motive]]，以获得一条关于该灵魂动机的线索，例如此人变为不死生物之前的欲望，或该闹鬼未竟之事。该检定的DC为该不死生物或闹鬼的等级对应的标准DC。</p>\n<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Trigger</strong> A haunt within 60 feet is fully disabled or an undead within 60 feet is destroyed.</p><p><strong>Requirements</strong> You must have either succeeded at a check to disable the haunt or dealt damage to the undead in the last minute; you don't need to succeed at the final check or deal the final blow.</p><hr /><p>The uninformed might mistake you for a lost soul, especially if they see doomed spirits flocking to you. But they are mistaken—for you are no victim of death's pull, but a quiet shepherd guiding the fallen toward peace. You help these lost souls find a new path, easing their torment and granting them one final chance at clarity. A fragment of the triggering haunt or undead's soul clings to you for 1 minute, whispering faint memories or regrets. During this time, you can attempt a Perception check to [[/act sense-motive]] to receive a clue about the soul's motivations, such as the desires of the person prior to becoming undead or the haunt's unfinished business. The DC of the check is a standard DC for the undead or haunt's level.</p>"
+      "description": "<p><strong>频率</strong>每10分钟一次</p><p><strong>触发</strong>60尺内的一个作祟被完全解除，或60尺内的一个不死生物被摧毁。</p><p><strong>使用条件</strong>你必须在过去一分钟内，成功通过一次解除该作祟的检定，或对该不死生物造成过伤害；你不必是通过最后一次检定或造成最后一击的人。</p><hr /><p>不了解内情的人可能误以为你是迷失的灵魂，尤其是在看到注定沉沦的灵体向你聚集时。但他们错了：你并非受死亡牵引的受害者，而是静静引导逝者走向安宁的牧者。你帮助这些迷失的灵魂找到新的道路，减轻它们的痛苦，并给予它们最后一次获得清明的机会。触发的作祟或不死生物的一片灵魂碎片会依附于你1分钟，低声诉说模糊的记忆或遗憾。在此期间，你可以尝试一次察觉检定来[[/act sense-motive]]，获得一条有关该灵魂动机的线索，例如此人生前的愿望，或该作祟未了的心愿。此检定的DC为该不死生物或作祟等级对应的标准DC。</p>"
     },
     "Repel Magic": {
       "name": "排斥魔法 Repel Magic",
-      "description": "<p><strong>触发</strong> 你尝试对抗一个魔法效果进行豁免，但你尚未掷骰。</p><hr /><p>有害的魔法很难附着在你不断变化的身体上。直到本回合结束，你对抗魔法效果的豁免获得+1环境加值。该加值也适用于触发的豁免。</p>\n<p><strong>Trigger</strong> You attempt a saving throw against a magical effect, but you haven't rolled yet.</p><hr /><p>It's difficult for harmful magic to cling to your ever-shifting body. You gain a +1 circumstance bonus to saving throws against magical effects until the end of this turn. This bonus also applies to the triggering save.</p>"
+      "description": "<p><strong>触发</strong>你尝试对抗魔法效果的豁免检定，但尚未掷骰。</p><hr /><p>有害魔法很难附着在你不断变化的身体上。直到本回合结束，你对抗魔法效果的豁免检定获得+1环境加值。此加值也适用于触发的豁免。</p>"
     },
     "Reject Magic": {
       "name": "拒绝魔法 Reject Magic",
-      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>需求</strong> 你在对抗一个法术的豁免中失败，该法术对你施加了具有持续时间的效果（例如负面状态），且该效果仍在生效</p><hr /><p>有害的魔法或许已将你攫住，但你可以激活你与生俱来的抗力来松动它的钳制。对该法术进行一次新的豁免掷骰。若你的新结果优于你原本的结果，则以你新结果的效果取代你最初豁免结果所造成的持续效果。“拒斥魔法”不会撤销该法术在过去已造成的任何效果，例如已承受的伤害。</p><p>你不能对同一个法术使用“拒斥魔法”超过一次，即使其持续时间超过1小时。</p>\n<p><strong>Frequency</strong> once per hour</p><p><strong>Requirements</strong> You failed a saving throw against a spell that imposes an effect with a duration on you, such as a negative condition, and that effect is still active</p><hr /><p>Harmful magic might have caught you in its grasp, but you can activate your innate resistance to loosen its grip. Roll a new saving throw against the spell. If your new result is better than your original result, replace the ongoing effects from your initial saving throw result with the effects from your new one. Reject Magic doesn't undo any effects the spell had in the past, such as damage taken.</p><p>You can't use Reject Magic more than once on the same spell, even if its duration is more than 1 hour.</p>"
+      "description": "<p><strong>频率</strong>每小时一次</p><p><strong>使用条件</strong>你在对抗某个法术的豁免检定中失败，该法术对你施加了具有持续时间的效果，例如负面状态，且该效果仍在生效。</p><hr /><p>有害魔法或许已将你攫住，但你能激发天生的抵抗能力，松开它的钳制。对该法术进行一次新的豁免检定。如果新结果优于原结果，则以新结果对应的效果，替代最初豁免结果造成的持续效果。拒绝魔法不会撤销该法术过去已经造成的效果，例如已受的伤害。</p><p>你不能对同一次法术使用拒绝魔法超过一次，即便其持续时间超过1小时。</p>"
     },
     "Spore Explosion": {
       "name": "孢子爆炸 Spore Explosion",
-      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你用微小的孢子荚为一片区域播下种子，这些孢子荚在被扰动时会爆炸成有毒云雾。孢子荚覆盖60英尺内的一个 @Template[square|distance:10] ，并持续1小时或直到被扰动。一名进行 @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{搜索} 的生物可以通过一次 @Check[perception|against:class-spell|rollerRole:target] 检定注意到孢子；察觉DC等于你的职业DC或法术DC中较高者。若一名体型为小型或更大的生物踩到有孢子荚的方格，孢子荚会喷发，释放其孢子。区域内所有生物都必须尝试一次 @Check[fortitude|against:class-spell] 豁免，对抗你的职业DC或法术DC中较高者，以避免受到 @Damage[10d6[poison]] 伤害并让其眼睛被孢子填满。</p><hr /><p><strong>大成功或大失败：成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物受到一半伤害，并在1轮内处于 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩} 状态。</p><p><strong>失败</strong> 该生物受到全部伤害，并在1轮内处于 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} 状态，随后在1分钟内目眩。</p><p><strong>大成功或大失败：失败</strong> 该生物受到全部伤害，并在1分钟内目盲。</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p>You seed an area with tiny spore pods that detonate into toxic clouds when disturbed. The spore pods cover a @Template[square|distance:10] within 60 feet and last for 1 hour or until disturbed. A creature who @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{Searches} can notice the spores with a @Check[perception|against:class-spell|rollerRole:target] check; the Perception DC is equal to the higher of your class DC or spell DC. If a creature of size Small or larger steps on a square with spore pods, the pods erupt, releasing their spores. All creatures in the area must attempt a @Check[fortitude|against:class-spell] save against the higher of your class DC or spell DC to avoid taking @Damage[10d6[poison]] damage and having their eyes filled with spores.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p><p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round and then dazzled for 1 minute.</p><p><strong>Critical Failure</strong> The creature takes full damage and is blinded for 1 minute.</p>"
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p>你在一片区域布下微小的孢子囊，它们受到扰动时会炸开，形成有毒云雾。孢子囊覆盖60尺内的一个@Template[square|distance:10]，持续1小时或直到受到扰动。进行@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{搜寻}的生物可以通过一次@Check[perception|against:class-spell|rollerRole:target]检定注意到孢子；察觉DC等于你的职业DC或法术DC，取较高者。如果一个小型或更大的生物踏入有孢子囊的方格，孢子囊便会爆开，释放孢子。区域内所有生物必须尝试一次@Check[fortitude|against:class-spell]豁免，对抗你的职业DC或法术DC，取较高者，以免受到@Damage[10d6[poison]]伤害并被孢子迷住双眼。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p><p><strong>成功</strong>该生物受到一半伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮。</p><p><strong>失败</strong>该生物受到全部伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1轮，随后目眩1分钟。</p><p><strong>大失败</strong>该生物受到全部伤害，并目盲1分钟。</p>"
     },
     "Dazzling Strikes": {
       "name": "炫目打击 Dazzling Strikes",
-      "description": "<p>你已精炼对流经你形体的奇异力量的掌握，发展出新的技巧，将你自身的身体化作活焰与灵体的武器。你获得你尚未拥有的 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.Uic1IiMuwaTSkYfW]{Searing Tendril} 或 @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.PrKCDR8besIjPbBP]{Wispflame} 专长之一（若你已同时拥有这两个专长，则改为获得你选择的另一个1级族裔专长）。当你以触须或鬼火焰打击造成大成功或大失败时，目标获得 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} 状态，持续1轮。这是一个大成功或大失败专精效果。</p>\n<p>You've refined your mastery over the strange power that courses through your form, developing new techniques to wield your very body as a weapon of living flame and spirit. You gain whichever of the @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.Uic1IiMuwaTSkYfW]{Searing Tendril} or @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.PrKCDR8besIjPbBP]{Wispflame} feats that you didn't already have (or gain another 1st-level ancestry feat of your choice if you already had both feats). When you critically hit with a tendril or wispflame Strike, the target is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round. This is a critical specialization effect.</p>"
+      "description": "<p>你更加精熟地掌控流经身体的奇异力量，发展出新的技巧，将自身化作活焰与精魂的武器。你获得尚未拥有的@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.Uic1IiMuwaTSkYfW]{灼热卷须}或@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.PrKCDR8besIjPbBP]{鬼火之焰}专长（如果你已经同时拥有两者，则改为获得另一项自选的1级族裔专长）。当你用卷须或鬼火之焰打击造成重击时，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮。这是重击专精效果。</p>"
     },
     "Plant Scholar": {
       "name": "植物学者 Plant Scholar",
-      "description": "<p>你对植物的知识无与伦比。你受训于自然技能，并且你获得 @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} 专长，分别用于草药学识与植物学识。如果你本会自动在自然技能中成为受训（例如来自你的背景或职业），则你改为在你选择的一项技能中成为受训。</p>\n<p>Your knowledge of plants is unmatched. You're trained in Nature and you gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} feats for Herbalism Lore and Plant Lore. If you would automatically become trained in Nature (from your background or class, for example), you instead become trained in a skill of your choice.</p>"
+      "description": "<p>你的植物知识无与伦比。你的自然熟练度为受训，且你获得分别用于草药学识和植物学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长。如果你会自动在自然技能上成为受训（例如由背景或职业提供），则改为在一项自选技能上成为受训。</p>"
     },
     "Incredible Palette": {
-      "name": "不可思议调色板 Incredible Palette",
-      "description": "<p>你的味觉超乎寻常，你可以安全地摄入各式各样的东西。你获得 @UUID[Compendium.pf2e.feats-srd.Item.fOIUmDGa9gkeCHA0]{Supertaster} 通用专长，即使你不满足察觉先决条件也一样。你还获得对抗你摄入之物的豁免+2环境加值，例如摄入型毒素与疾病。若你在此类豁免中掷骰得到成功，则改为大成功。</p>\n<p>Your sense of taste is preternatural, and you can safely ingest all sorts of things. You gain the @UUID[Compendium.pf2e.feats-srd.Item.fOIUmDGa9gkeCHA0]{Supertaster} general feat, even if you don't meet the Perception prerequisite. You also gain a +2 circumstance bonus to saving throws against things you ingest, such as ingested poisons and diseases. If you roll a success on such a saving throw, you get a critical success instead.</p>"
+      "name": "非凡味觉 Incredible Palette",
+      "description": "<p>你的味觉超乎寻常，能够安全地摄入各式各样的东西。你获得@UUID[Compendium.pf2e.feats-srd.Item.fOIUmDGa9gkeCHA0]{神之舌}通用专长，即便你不满足其察觉先决条件。你对抗摄入之物（例如摄入型毒素和疾病）的豁免检定还会获得+2环境加值。如果你在此类豁免检定中掷出成功，则改为大成功。</p>"
     },
     "Luminous Surge": {
       "name": "辉光涌动 Luminous Surge",
-      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>需求</strong> 你当前正通过你的辉光能力发出光</p><hr /><p>你将自身的发光潜能凝聚成一次强力闪光，然后将其爆发出去以伤害你的敌人。处于@Template[type:emanation|distance:20]内的敌人受到@Damage[((1+ceil(@actor.level/2))d6)[@actor.flags.pf2e.lightSource]|options:area-damage]伤害，并进行一次@Check[reflex|against:class-spell|basic]豁免，对抗你的职业DC或法术DC中较高者。伤害类型由你的光源族裔能力决定。豁免失败的生物还会在1轮内陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}状态；若为大失败，则在1轮内陷入@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}状态。</p><p>在15级以及此后每2级，伤害增加1d6，最高在19级时达到11d6伤害。</p><p>使用“光辉涌动”后，你的辉光会熄灭，且你在1分钟内无法恢复它。</p>\n<p><strong>Frequency</strong> once per hour</p><p><strong>Requirements</strong> You are currently emitting light from your glow ability</p><hr /><p>You gather your luminous potential into a potent flash before surging it out to harm your foes. Foes in a @Template[type:emanation|distance:20] take @Damage[((1+ceil(@actor.level/2))d6)[@actor.flags.pf2e.lightSource]|options:area-damage] damage with a @Check[reflex|against:class-spell|basic] save against the higher of your class DC or spell DC. The damage type is determined by your light source ancestry ability. Creatures that fail the save are also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round, or @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round on a critical failure.</p><p>The damage increases by 1d6 at 15th level and every 2 levels thereafter, to a maximum of 11d6 damage at 19th level.</p><p>After using Luminous Surge, your glow is extinguished, and you can't restore it for 1 minute.</p>"
+      "description": "<p><strong>频率</strong>每小时一次</p><p><strong>使用条件</strong>你当前正以辉光能力发光。</p><hr /><p>你将发光的潜能凝成强烈闪光，随后迸发而出，伤害敌人。@Template[type:emanation|distance:20]内的敌人受到@Damage[((1+ceil(@actor.level/2))d6)[@actor.flags.pf2e.lightSource]|options:area-damage]伤害，可进行@Check[reflex|against:class-spell|basic]豁免，对抗你的职业DC或法术DC，取较高者。伤害类型由你的光源族裔能力决定。豁免失败的生物还会陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮，大失败时则陷入@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1轮。</p><p>此伤害在15级时增加1d6，此后每2级再增加一次，至19级时最高达到11d6伤害。</p><p>使用辉光涌动后，你的辉光熄灭，且1分钟内无法恢复。</p>"
     },
     "Lantern's Resistance": {
-      "name": "灯笼的抗力 Lantern's Resistance",
-      "description": "<p>你天生就受到为你永恒光辉提供能量的元素保护。你获得等同于你等级一半的抗力，以抵御来自你的光源的伤害类型（电击或火焰，除非你是寒霜小精灵）。</p>\n<p>You are innately protected against the element that powers your eternal glow. You gain resistance equal to half your level against the damage type from your light source (either electricity or fire, unless you're a frigid wisp).</p>"
+      "name": "灯火抗性 Lantern's Resistance",
+      "description": "<p>你天生受到保护，能够抵御为永恒辉光供能的元素。你对光源对应的伤害类型获得等于你等级一半的抗力（除非你是寒霜鬼火，否则为电击或火焰）。</p>"
     },
     "Bouncy Cap": {
-      "name": "弹跳帽 Bouncy Cap",
-      "description": "<p><strong>频率</strong> 每分钟一次</p><p><strong>触发</strong> 一个打击对你严重失手，或一个打击因为@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.1DuskqTP1hY4eFiG]{Sheltering Cap}提供的环境加值而未命中你。</p><hr /><p>你的对手可能想伤害你，但你的帽子实在太有弹性。你将触发的攻击改向一个相邻的生物。攻击者随后对你选择的目标重骰该次攻击。</p>\n<p><strong>Frequency</strong> once per minute</p><p><strong>Trigger</strong> Either a Strike critically misses you, or a Strike misses you because of the circumstance bonus provided by @UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.1DuskqTP1hY4eFiG]{Sheltering Cap}.</p><hr /><p>Your opponent might have meant to hurt you, but your cap is simply too bouncy. You redirect the triggering attack to an adjacent creature. The attacker then rerolls the attack against your chosen target.</p>"
+      "name": "弹性菌盖 Bouncy Cap",
+      "description": "<p><strong>频率</strong>每分钟一次</p><p><strong>触发</strong>一次对你的打击大失败，或因@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.1DuskqTP1hY4eFiG]{庇护菌盖}提供的环境加值而未能命中你。</p><hr /><p>对手本想伤害你，可你的菌盖实在太有弹性。你将触发的攻击转向一个相邻生物。攻击者随后对你选择的目标重掷该次攻击。</p>"
     },
     "Reconceptualize": {
       "name": "重新构想 Reconceptualize",
-      "description": "<p>你对自身次级形态的外观拥有更强的掌控力。每当你采取次级形态时，你可以改变你表面上的身高、体重、脸型、性别标记以及其他身体特性，只要这些变化仍在你所拟形怪的族裔所可能具有的范围之内。你无法复制某个特定个体的特征。</p><p>虽然大多数鬼火的族裔会因其发光的躯体而显而易见，但你能以极高的精确度改变你的光，使你看起来像是你次级形态所拟形怪的族裔成员。你可以使用 [[/act impersonate]] 来假装属于该族裔，而无需伪装工具包。</p>\n<p>You gain greater control over the appearance of your secondary form. Whenever you assume your secondary form, you can change your apparent height, weight, face shape, gender markers, and other physical features, so long as they are within the bounds of possibility for the ancestry that you are mimicking. You can't replicate the features of a specific individual.</p><p>While the ancestry of most will-o'-wisps is obvious from their glowing bodies, you can alter your light with such precision that you appear to be a member of the ancestry that your secondary form mimics. You can use [[/act impersonate]] to pretend to belong to that ancestry without a disguise kit.</p>"
+      "description": "<p>你对次要形态的外貌有了更强的掌控力。每当你采用次要形态时，都可以改变外在的身高、体重、脸型、性别特征及其他身体特征，只要仍处于你所模仿族裔的可能范围之内。你无法复制某个特定个体的特征。</p><p>虽然大多数鬼火的族裔从发光的身体就能一目了然，但你可以精确调整光芒，使自己看起来像是次要形态所模仿族裔的一员。你可以无需伪装工具，就使用[[/act impersonate]]假装属于该族裔。</p>"
     },
     "Fascinating Cuteness": {
-      "name": "迷人的可爱 Fascinating Cuteness",
-      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你开心地拍打着帽子并跳起舞来，以分散周围人的注意力。所有位于 @Template[type:emanation|distance:30] 内的生物必须进行一次 @Check[will|against:class-spell] 豁免，对抗你职业DC或法术DC中较高者，以避免被迷住。通常，与您一同旅行了相当长时间的生物（例如你的队友）对你的“迷人可爱”免疫。你可以维持“迷人可爱”最长 1 分钟。</p><hr /><p><strong>成功</strong> 该生物不受影响，并在 24 小时内对“迷人可爱”暂时免疫。</p><p><strong>失败</strong> 该生物因你的可爱而陷入 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{着迷} 状态。</p><p><strong>大成功或大失败</strong> 同失败，但若你攻击该生物的盟友，着迷不会结束；若你攻击受着迷的生物本身，则仍会照常结束。</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p>You beat happily on your cap and do a dance to distract those around you. All creatures within a @Template[type:emanation|distance:30] must attempt a @Check[will|against:class-spell] save against the higher of your class DC or spell DC to avoid being entranced. Typically, creatures that have traveled with you for a significant time, such as your fellow party members, are immune to your Fascinating Cuteness. You can Sustain Fascinating Cuteness for up to 1 minute.</p><hr /><p><strong>Success</strong> The creature is unaffected and is temporarily immune to Fascinating Cuteness for 24 hours.</p><p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by your cuteness.</p><p><strong>Critical Failure</strong> As failure, except the fascination does not end if you attack one of the creature's allies; it still ends normally if you attack the fascinated creature.</p>"
+      "name": "可爱迷人 Fascinating Cuteness",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p>你欢快地拍打菌盖并跳起舞来，分散周围生物的注意力。@Template[type:emanation|distance:30]内的所有生物必须尝试一次@Check[will|against:class-spell]豁免，对抗你的职业DC或法术DC，取较高者，以免沉迷其中。通常，与你同行了很长时间的生物，例如队友，免疫你的可爱迷人。你可以维持可爱迷人，至多持续1分钟。</p><hr /><p><strong>成功</strong>该生物不受影响，并在24小时内暂时免疫可爱迷人。</p><p><strong>失败</strong>该生物因你的可爱而陷入@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。</p><p><strong>大失败</strong>如同失败，但你攻击该生物的盟友时，迷魂不会结束；如果你攻击迷魂生物本身，迷魂仍会正常结束。</p>"
     },
     "Sprout Mushroom Ring": {
-      "name": "萌芽蘑菇环 Sprout Mushroom Ring",
-      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>仙灵和伞菌龙也许会专注于蘑菇环的神秘特性，称之为仙灵环。但你并未忽视其更为切实的起源。你使巨人蘑菇在你60尺内的一处地面上以15尺半径成环状迸发而出（本质上，它们填满一个@Template[type:emanation|distance:15]的外侧24个方格，形成一个单环且对角方向没有空隙）。这些蘑菇高5尺、宽5尺，它们为穿过的生物提供更强的困难地形，并提供标准掩蔽。蘑菇在外观上粗略地与你相似，使你的所在位置难以分辨。若你本会从蘑菇获得掩蔽，你改为获得更强掩蔽。1分钟后，这些蘑菇会缩小。如果地面适合蘑菇生长，它们会变成一圈该地区原生的正常大小蘑菇。否则，它们会化为尘埃。</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p>Fairies and toadstool dragons might focus on the mystical properties of rings of mushrooms, calling them fairy rings. But you haven't lost sight of their more tangible origins. You cause giant mushrooms to spring up on the ground in a ring with a 15-foot radius within 60 feet of you (essentially, they fill the outer 24 squares of a @Template[type:emanation|distance:15], a single ring with no diagonal gaps). The mushrooms are 5 feet tall and 5 feet wide, and they provide greater difficult terrain to creatures passing through them, as well as standard cover. The mushrooms superficially resemble you, making your location hard to distinguish. If you would have cover from the mushrooms, you instead gain greater cover. After 1 minute, the mushrooms shrink down. If the ground is suitable for mushroom growth, they turn into a ring of normal-sized mushrooms of a type that's native to the region. Otherwise, they turn into dust.</p>"
+      "name": "催生蘑菇环 Sprout Mushroom Ring",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p>妖精与毒蕈龙也许更关注蘑菇环的神秘性质，称其为妖精环。但你没有忽略它们更为实在的起源。你使巨大的蘑菇在60尺内的地面上长出，形成半径15尺的圆环（实际上，它们填满了@Template[type:emanation|distance:15]最外侧的24个方格，形成一个斜对角也没有空隙的单层圆环）。这些蘑菇高5尺、宽5尺，对穿行其中的生物构成高等困难地形，并提供标准掩蔽。蘑菇的外观与你相似，使你的位置难以分辨。如果你本会从这些蘑菇获得掩蔽，则改为获得高等掩蔽。1分钟后，蘑菇会缩小。如果地面适合蘑菇生长，它们会变成一圈当地原生种类、正常大小的蘑菇；否则便化为尘土。</p>"
     },
     "Mushroom Messenger": {
       "name": "蘑菇信使 Mushroom Messenger",
-      "description": "<p>你一直担任最关键且备受尊敬的信使角色，在遥远的聚居地之间传递重要情报。你总能确保自己携带的信息送达预定的收件人——所以，如果你的好奇心偶尔驱使你在转交前偷看一眼信件，这真的能怪你吗？你在社交获得受训（熟练度）熟练度等级，以及 @UUID[Compendium.pf2e.feats-srd.Item.WeQGWvlWdeLeOlCN]{Glean Contents} 技能专长。此外，当你尝试进行欺瞒或隐匿检定以避免因开启封缄信件、偷偷从别人肩膀上窥视文件，或以其他方式阅读并非写给你的讯息而被抓包时，你获得+1环境加值。</p>\n<p>You've held the most essential and respected role of messenger, carrying vital information between distant settlements. You always ensure that the information you carry reaches its intended recipient, so can you really be blamed if your curiosity sometimes drives you to take a peek at a letter before passing it along? You gain the trained proficiency rank in Society and the @UUID[Compendium.pf2e.feats-srd.Item.WeQGWvlWdeLeOlCN]{Glean Contents} skill feat. Additionally, you gain a +1 circumstance bonus to any Deception or Stealth checks you attempt to avoid being caught opening sealed letters, surreptitiously peering at a document over someone's shoulder, or otherwise reading messages that aren't intended for you.</p>"
+      "description": "<p>你曾担任至关重要、备受尊敬的信使，在遥远的聚落之间传递重要消息。你总能确保所携信息送达预定的收件人；那么，如果好奇心偶尔驱使你在转交前偷看一眼信件，又怎能怪你呢？你的社群熟练度变为受训，并获得@UUID[Compendium.pf2e.feats-srd.Item.WeQGWvlWdeLeOlCN]{字里探花}技能专长。此外，当你尝试避免因拆开密封信件、偷偷从他人肩头窥视文书，或以其他方式阅读并非写给你的消息而被发现时，欺骗或隐秘检定获得+1环境加值。</p>"
     },
     "Sticky Constellation": {
-      "name": "黏滞星座 Sticky Constellation",
-      "description": "<p>你的星座幽絮拥有黏性的触须，使其能够附着在他人身上。当你的星座幽絮进入一个自愿生物的方格时，你可以将幽絮附着在该生物身上。幽絮会随被附着的生物一起移动。只要幽絮仍保持附着，它就可以移出你的视觉线，并在距离你最多500英尺处也不会闪烁消失并返回到你身边。你始终知晓你的幽絮与你之间的距离与方向。当你说话时，你可以选择由你的哪些（如果有的话）星座幽絮传递你声音的回响。虽然生物无法通过幽絮直接与你交流，但它们或许可以通过以预先约定的模式移动自身（从而带动你所附着的幽絮），借助你对距离与方向的感知，在远处向你传递信息。</p>\n<p>Your constellation wisps have sticky tendrils that allow them to attach to others. When your constellation wisp enters the square of a willing creature, you can attach the wisp to that creature. The wisp moves with the attached creature. As long as the wisp remains attached, it can move out of your line of sight and up to 500 feet away from you without winking out and returning to you. You are always aware of the distance and direction to your wisps. When you speak, you can choose which (if any) of your constellation wisps transmit echoes of your voice. While creatures can't communicate with you directly through the wisp, they might be able to send you messages at a distance by moving themselves (and thus your attached wisp) in pre-arranged patterns, counting on your awareness of the distance and direction to get across the message.</p>"
+      "name": "黏附星座 Sticky Constellation",
+      "description": "<p>你的星座鬼火拥有黏性卷须，可以附着在他者身上。当星座鬼火进入一个自愿生物的方格时，你可以将其附着在该生物身上。鬼火会随被附着的生物一同移动。只要仍然附着，鬼火就可以移出你的视线，且与你相距至多500尺，而不会熄灭并返回你身边。你始终知道这些鬼火与你之间的距离与方向。你说话时，可以选择让哪些星座鬼火传出你声音的回响，也可以一个都不选。虽然生物无法通过鬼火直接与你交流，但它们或许可以按预先约定的规律移动自己，从而带动附着的鬼火，利用你对距离与方向的感知，在远处向你传递信息。</p>"
     },
     "Phantasmal Senses": {
-      "name": "幻象感官 Phantasmal Senses",
-      "description": "<p>你对灵体精华的祖传熟悉已发展为对灵魂能量的持续感知。你获得灵体感官，作为一种射程为30尺的模糊感官。灵体感官使你能感知射程内生物的灵体，包括活的生物、大多数非无心智的不死生物，以及出没现象。如同你的听觉与其他模糊感官一样，你仍需要 [[/act seek]] 才能定位一个未被侦测到的生物。</p><p>由于灵体感官侦测的是灵体精华而非物理躯体，它可以侦测由法术投射出的灵体，例如投影影像，或侦测占据了原本无灵魂的物体的灵体。它无法侦测无灵魂的躯体、构装体或物体，并且如同大多数感官一样，它无法穿透坚固物体。</p>\n<p>Your ancestral familiarity with spiritual essence has developed into a constant sense for the energy of souls. You gain spiritsense as an imprecise sense with a range of 30 feet. Spiritsense enables you to sense the spirits of creatures, including living creatures, most non-mindless undead, and haunts within the listed range. As with your hearing and other imprecise senses, you still need to [[/act seek]] to locate an undetected creature.</p><p>As spiritsense detects spiritual essence, not physical bodies, it can detect spirits projected by spells such as project image or possessing otherwise soulless objects. It can't detect soulless bodies, constructs, or objects, and like most senses, it doesn't penetrate through solid objects.</p>"
+      "name": "幻灵感官 Phantasmal Senses",
+      "description": "<p>你对精魂本质的祖传熟悉，已发展为对灵魂能量的持续感知。你获得灵魂感知，作为范围30尺的模糊感官。灵魂感知让你能够感知范围内生物的灵魂，包括活体生物、大多数并非无心智的不死生物，以及作祟。如同听觉与其他模糊感官，你仍需[[/act seek]]才能定位一个无踪生物。</p><p>由于灵魂感知探测的是精魂本质，而非物理躯体，它能够察觉由投影术等法术投射出的灵魂，或附身于原本无魂物品中的灵魂。它无法探测无魂的躯体、构装体或物品，也如同大多数感官一样，无法穿透坚实的物体。</p>"
     },
     "Spore Spray": {
       "name": "孢子喷射 Spore Spray",
-      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你释放一阵武器化的孢子洪流来压制你的敌人。你选择的一个@Template[type:emanation|distance:30]或一个@Template[type:cone|distance:60]内的所有生物必须针对孢子进行一次@Check[fortitude|against:class-spell]豁免，孢子造成@Damage[(ceil(@actor.level/2)+1)d6[poison]|options:area-damage]伤害并具有额外效果。13级以上每高2级，伤害增加1d6，19级时最多为11d6伤害。你可以选择不造成毒素伤害：若你是幻灵菇，则改为灵体伤害；若你是打击菇，则改为音波伤害；若你是球泡菇，则改为酸蚀伤害；若你具有任何其他传承，则改为精神伤害。若你选择精神伤害，豁免类型改为意志。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物受到一半伤害。</p><p><strong>失败</strong> 该生物受到全额伤害。若你造成毒素伤害，则其获得@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1}直到你下个回合开始；若你造成精神伤害，则其获得@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}直到你下个回合结束；若你造成灵体伤害，则其获得@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}直到你下个回合开始；若你造成音波伤害，则其获得@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}持续1分钟。若你造成酸蚀伤害，则其速度获得–10尺的环境减值，持续1轮或直到其逃脱，以先发生者为准。</p><p><strong>大失败</strong> 该生物受到双倍伤害。若你造成毒素伤害，则其获得@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}直到你下个回合开始；若你造成精神伤害，则其获得@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}直到你下个回合结束。若你造成酸蚀、音波或灵体伤害，则其除了承受一次失败的效果外，还会获得@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}。</p>\n<p><strong>Frequency</strong> once per hour</p><hr /><p>You release a torrent of weaponized spores to overwhelm your foes. All creatures in your choice of a @Template[type:emanation|distance:30] or a @Template[type:cone|distance:60] must roll a @Check[fortitude|against:class-spell] save against the spores, which deal @Damage[(ceil(@actor.level/2)+1)d6[poison]|options:area-damage] damage and have additional effects. Increase the damage by 1d6 for every 2 levels above 13, to a maximum of 11d6 damage at level 19. Instead of dealing poison damage, you can choose to deal spirit damage if you are a phantasmal mushie, sonic damage if you are a percussive mushie, acid damage if you are a bulbous mushie, or mental damage if you have any other heritage. If you choose mental damage, the saving throw type changes to Will.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage.</p><p><strong>Failure</strong> The creature takes full damage. They are @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the start of your next turn if you dealt poison damage, @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the end of your next turn if you dealt mental damage, @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your start of your next turn if you dealt spirit damage, or @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute if you dealt sonic damage. If you dealt acid damage, they take a –10-foot circumstance penalty to its Speeds for 1 round or until they Escape, whichever comes first.</p><p><strong>Critical Failure</strong> The creature takes double damage. They are @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} until the start of your next turn if you dealt poison damage or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} until the end of your next turn if you dealt mental damage. If you dealt acid, sonic, or spirit damage, they are @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} in addition to the effects from a failure.</p>"
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p>你释放出汹涌的武器化孢子，压制敌人。你选择一个@Template[type:emanation|distance:30]或一个@Template[type:cone|distance:60]，范围内所有生物都必须对孢子进行一次@Check[fortitude|against:class-spell]豁免。孢子造成@Damage[(ceil(@actor.level/2)+1)d6[poison]|options:area-damage]伤害，并产生额外效果。每比13级高2级，伤害增加1d6，至19级时最高达到11d6伤害。你可以选择不造成毒素伤害：如果你是幻灵蘑菇人，可改为造成精魂伤害；如果你是鼓奏蘑菇人，可改为音波伤害；如果你是球腹蘑菇人，可改为酸蚀伤害；如果你拥有其他任何传承，可改为心灵伤害。如果选择心灵伤害，豁免类型改为意志。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p><p><strong>成功</strong>该生物受到一半伤害。</p><p><strong>失败</strong>该生物受到全部伤害。如果你造成毒素伤害，它会陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}直到你的下个回合开始；如果你造成心灵伤害，它会陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}直到你的下个回合结束；如果你造成精魂伤害，它会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}直到你的下个回合开始；如果你造成音波伤害，它会陷入@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋}1分钟。如果你造成酸蚀伤害，它的速度承受–10尺环境减值，持续1轮或直到其逃脱，取先发生者。</p><p><strong>大失败</strong>该生物受到双倍伤害。如果你造成毒素伤害，它会陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}直到你的下个回合开始；如果你造成心灵伤害，它会陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}直到你的下个回合结束。如果你造成酸蚀、音波或精魂伤害，除失败的效果外，它还会陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>"
     },
     "Hypnotic Gaze": {
       "name": "催眠凝视 Hypnotic Gaze",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你聚焦你的眼斑以催眠并吸引一名敌人。一名60尺内的生物必须尝试进行一次 @Check[will|against:class-spell] 豁免，对抗你职业DC或法术DC中较高者。</p><hr /><p><strong>成功</strong> 目标不受影响。</p><p><strong>失败</strong> 目标必须在其下一次动作中向你迈步移动，如果这次移动结束时与您相邻，则会坠落 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{俯卧}。</p><p><strong>大失败</strong> 同失败，但目标必须在其下一回合中用尽其所有动作来如此行动。</p>\n<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>You focus your eyespots to hypnotize and draw in one of your foes. One creature within 60 feet must attempt a @Check[will|against:class-spell] save against the higher of your class or spell DC.</p><hr /><p><strong>Success</strong> The target is unaffected.</p><p><strong>Failure</strong> The target must use its next action to Stride toward you, falling @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} if it ends this movement adjacent to you.</p><p><strong>Critical Failure</strong> As a failure, except the target must use all of its actions on its next turn to do so.</p>"
+      "description": "<p><strong>频率</strong>每10分钟一次</p><hr /><p>你聚焦眼斑，催眠并吸引一名敌人。60尺内的一个生物必须尝试一次@Check[will|against:class-spell]豁免，对抗你的职业DC或法术DC，取较高者。</p><hr /><p><strong>成功</strong>目标不受影响。</p><p><strong>失败</strong>目标必须用其下一个动作向你行走；如果这次移动在与你相邻的位置结束，它便@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><p><strong>大失败</strong>如同失败，但目标必须在其下个回合用全部动作如此行动。</p>"
     },
     "Curious Nature": {
       "name": "好奇天性 Curious Nature",
-      "description": "<p>你天生好奇并信任他人。即使在最糟糕的情况下，你也仍抱持着和平解决的希望。然而当这些希望破灭时，你会迅速付诸行动来保护你的朋友。在战斗的第一个轮中，在你行动之前，你处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}状态。若你在第一个轮中行动前因措手不及导致的AC减值使你受到了本来可以避免的伤害，则你获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}状态1轮。你只能用这个额外动作来疾行或挪步。</p>\n<p>You are intrinsically curious and trusting of others. Even in the worst circumstances, you hold out hope for a peaceful solution. When these hopes are dashed, though, you are quick to spring into action to protect your friends. During the first round of combat, you are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until you have acted. If the penalty to AC from being off-guard before you've acted on the first round causes you to take damage you otherwise would have avoided, you are @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for 1 round. You can use this extra action only to Stride or Step.</p>"
+      "description": "<p>你天生好奇，也信任他人。即便身处最糟糕的境地，你仍希望能和平解决问题。然而，当希望破灭时，你会迅速行动，保护朋友。在战斗的第一轮，你在行动前处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态。如果第一轮行动前，措手不及造成的AC减值使你受到本可避免的伤害，你便获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}1轮。你只能用这个额外动作行走或快步。</p>"
+    },
+    "Powerful Tail": {
+      "name": "强力尾巴 Powerful Tail",
+      "description": "<p><strong>频率</strong> 每轮一次</p><p><strong>使用条件</strong> 你的上个动作是使用天生攻击专长赋予的尾巴打击成功命中一个生物。</p><hr><p>你顺势追击，用强劲的尾巴将敌人击倒或推开。用尾巴尝试进行运动检定，对目标[[/act shove]]或[[/act trip]]，即使你没有空闲的手。此次检定通常适用多次攻击减值，但你掷两次并取较高结果；这是幸运效果。</p>"
+    },
+    "Ouroboros": {
+      "name": "衔尾蛇 Ouroboros",
+      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>使用条件</strong> 你的当前生命值低于最大生命值的一半，或你的某个器官受损或毁坏</p><hr><p>斯拉努斯曾凭借力量在无尽吞食自身尾巴的过程中存活；你的身体也呼应着这种力量，具有强大的自我重建能力。轻伤不会唤醒它，这股力量潜伏于你体内，留待真正需要时才释放。</p><p>你获得再生15，持续1分钟，在你的每个回合开始时恢复15点生命值。具有再生期间，你不会因伤害死亡，且你的濒死状态无法增加至足以使你死亡的数值（大多数情况下，这意味着不会超过濒死3）；但若你的受伤值达到4或更高，你会保持@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，直到伤势得到处理。如果你受到寒冷或火焰伤害，再生会失效，直到你的下个回合结束后才恢复。</p><p>每当你因衔尾蛇恢复生命值，你也会重新长出一个受损或毁坏的器官（如果有）。在此效果持续期间，你还可以花费一个交互动作，将断肢按在断离处以重新接上。</p>"
+    },
+    "Whirlpool": {
+      "name": "旋尾漩涡 Whirlpool",
+      "description": "<p>你旋转分尾，制造涡流，将附近生物拉向自己。@Template[type:emanation|distance:15]内所有生物必须对你的职业DC进行一次@Check[reflex|against:class]豁免。与你身处同一水体的目标，此豁免承受−2环境减值。若目标结束移动时与你邻接，你可以对它尝试一次打击。</p><hr><p><strong>大成功</strong> 无效果。</p><p><strong>成功</strong> 目标向你靠近5尺。</p><p><strong>失败</strong> 目标向你靠近10尺，并陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到其下个回合开始。</p><p><strong>大失败</strong> 如同失败，但目标陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>"
+    },
+    "Lend a Hand": {
+      "name": "施以援手 Lend a Hand",
+      "description": "<p>有时，你的工作需要多一只手帮忙，或者你不想让别人注意到你正在做什么。幸运的是，需要时你能创造一只隐形的手来帮助你。你可以施放@UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]，作为原能天生戏法。</p>"
+    },
+    "Nameless": {
+      "name": "无名无姓 Nameless",
+      "description": "<p>你的故事从未赋予你姓名，而姓名这种东西似乎也不符合你的气质。这偶尔十分方便，因为研究一个无名之人并不容易，也让人们听到的有关你的消息不甚可靠，与其他传说混杂在一起。这也让你更容易改变自己的故事。对你进行@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的DC提高2，而你使用灵活体裁族裔能力的DC降低2。当某人对你回忆知识成功但未大成功时，除准确信息外，还会获得一条关于你的错误信息（通常是在你使用灵活体裁族裔能力之前曾经属实的信息，或出现在你故事的某些版本中、但如今已不再为真的说法）。</p>"
+    },
+    "Exceptional Senses": {
+      "name": "卓越感官 Exceptional Senses",
+      "description": "<p>即使在蜥族之中，你的感官也格外敏锐。若你尚未拥有蜥族感官的两项感官能力，就获得先前未选的一项（昏暗视觉或模糊灵敏嗅觉）。若你已经拥有两项，则获得黑暗视觉，并使模糊灵敏嗅觉的范围加倍。</p><hr><p><strong>特殊</strong> 若你起初并未拥有蜥族感官的两项能力，可以选取本专长两次。首次获得原本没有的蜥族感官；第二次获得黑暗视觉，并使灵敏嗅觉范围加倍。</p>"
+    },
+    "Kushtaka Persuasion": {
+      "name": "陆獭人蛊惑 Kushtaka Persuasion",
+      "description": "<p>你知道如何用天生魔法迷惑敌人。你可以每天一次将@UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]作为1环原能天生法术施放。在8级时，该法术升阶至2环；此后每3级再升阶一环，最高在20级时达到6环。</p>"
+    },
+    "Shoreline Healing": {
+      "name": "海岸疗愈 Shoreline Healing",
+      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>使用条件</strong> 你身处与海岸生态位相符的环境</p><hr><p>你献身于自己的海岸，它也以力量回报你；永恒的潮汐与古老的精魂使你的身躯和决心焕然一新。你获得等于自身等级加1的快速医疗，持续4轮。</p>"
+    },
+    "No Place Like Home": {
+      "name": "无处胜家园 No Place Like Home",
+      "description": "<p><strong>频率</strong> 每周一次</p><p><strong>使用条件</strong> 你必须拥有一间房屋或其他位于固定地点、不移动的永久居所（不能是马车、船只或其他载具、移动住所）。若不止一处，在获得本专长时选择你作为家宅精灵与之神秘相连的一处；若失去该家园，你可以花费一周休整时间与另一处居所调谐。</p><hr /><p>金窝银窝，不如自己的草窝。你花费1分钟想象自己的家，期间可以与至多四个其他生物手拉手围成一圈。一分钟结束后，你将鞋跟轻轻相碰，使自己与其他参与者立即传送离开，出现在家门槛之前，只要家园位于1,000英里内。在17级时，只要家园与你位于同一星球和位面，就可以传送到家门槛前。</p>"
+    },
+    "Augmented Arcana": {
+      "name": "强化奥术 Augmented Arcana",
+      "description": "<p>通过谨慎运用与研习，你唤醒了魔法赐福中更深层的力量。</p><p>选择一个3环奥术法术和一个4环奥术法术，两者都必须是你具有许可的法术。你可以每天各一次将所选法术作为奥术天生法术施放。</p><hr><p><strong>特殊</strong> 若你是幽深秘法蛇人，也可以从具有许可的神术列表法术中选择强化奥术赋予的法术，但无论选择哪个列表，你仍将其作为奥术天生法术施放。</p>"
+    },
+    "Kushtaka Lore": {
+      "name": "陆獭人学识 Kushtaka Lore",
+      "description": "<p>在陆獭人村落生活的经历，让你掌握了本族裔的基本知识，以及族人生活方式所需的关键技能。你的隐秘和生存熟练度变为受训。若你会自动在其中一项技能上受训（例如来自背景或职业），则改为在一项自选技能上受训。</p><p>你还获得针对陆獭人学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}技能专长。</p>"
+    },
+    "Good as New!": {
+      "name": "焕然如新！ Good as New!",
+      "description": "<p>出了岔子，盟友总能指望你迅速修补妥当。你的手艺与医疗熟练度变为受训（若两者都已受训，则选择另一项技能）。你还可以选择获得@UUID[Compendium.pf2e.feats-srd.Item.ASy9AKEIRxPYUi5o]{迅速修理}或@UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{战地医疗}技能专长。</p>"
+    },
+    "Ancestral Magic": {
+      "name": "先祖魔法 Ancestral Magic",
+      "description": "<p>你发掘了先祖本能，并以自身的内在火焰加以强化，获得施放一些法术的能力。你可以将抵抗能量伤害作为7环原能天生法术、行动无碍作为4环原能天生法术施放，两者每天各一次。</p><hr><p><strong>特殊</strong> 若你拥有学说火花，先祖魔法赋予的法术改用你在学说火花中选择的魔法传统。</p>"
+    },
+    "Deny Passage": {
+      "name": "禁止通行 Deny Passage",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><p><strong>触发</strong> 一个敌对生物试图穿过与你邻接的空间</p><hr /><p>为了保护立誓守护之物，你训练自己将敌人的步伐截停。尝试进行一次@Check[athletics|against:reflex]检定，对抗目标的反射DC。</p><hr /><p><strong>大成功</strong> 你将该生物击倒。它在试图穿过的空间中@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><p><strong>成功</strong> 你挡住该生物，使它停在试图穿过的空间。</p><p><strong>失败</strong> 你未能阻止该生物移动。</p><p><strong>大失败</strong> 你自己失去平衡，给了该生物可乘之机。它经过你身边时，可以选择将你击倒，或将你推开5尺。</p>"
+    },
+    "A Name to Know": {
+      "name": "家喻户晓之名 A Name to Know",
+      "description": "<p>你的名字每个孩子都知道：你是杰克、镜中的玛丽，或许是狼巫婆。多数人听你自报家门并不相信，却仍不免留下深刻印象。若你以名字介绍自己，且当地流传着你的故事，那么当你尝试[[/act make-an-impression]]或[[/act coerce]]时，视情况获得@UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{集体印象}或@UUID[Compendium.pf2e.feats-srd.Item.gUqvezs2zzoTXFAI]{集体胁迫}技能专长的益处，且此次建立印象或胁迫检定获得+1环境加值；若相应技能的熟练度为大师，则提高至+2环境加值。</p>"
+    },
+    "Accept Offering": {
+      "name": "接受供奉 Accept Offering",
+      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>触发</strong> 一个生物花费一个交互动作，取出普通食物或饮品呈给你，或将已经持握的普通食物或饮品呈给你。</p><p><strong>使用条件</strong> 你有一只空闲的手，且触发生物能够触及你，将供品递给你。</p><hr /><p>当他人向你献上美味供品，你可以赐予其好运。食物或饮品必须比清水、口粮更讲究，是没有特殊效果的普通食品而非魔法或炼金制品，而且必须合你心意。大多数家宅精灵喜欢牛奶、蜂蜜、面包或酒之类的美食。你接受该生物的供品，将其接入空闲的手中。该生物的攻击骰、豁免和AC获得+1状态加值，直到其下个回合结束。</p>"
+    },
+    "Titan Swallow": {
+      "name": "泰坦吞食 Titan Swallow",
+      "description": "<p>蛇能够吞下与自己体型相当的生物，使修长的身体鼓起一大块；你的生理结构也不例外。你能极大地张开颌骨、扩张体内空间，吞下至多与你同体型的生物。若目标未超过通常的吞食体型上限（即比你小两个体型类别的体型），你可以每10分钟使用一次吞咽巨口，而非每小时一次。</p>"
+    },
+    "Clever Hunter": {
+      "name": "机敏猎手 Clever Hunter",
+      "description": "<p>你是精明的猎手，将惊人的耐心与对周围环境的深刻了解结合起来，抢占先机。你的隐秘熟练度变为受训。若你会自动在隐秘上受训（例如来自背景或职业），则改为在一项自选技能上受训。此外，你获得@UUID[Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG]{地形潜伏}技能专长，但必须选择灌木丛；你可以不进行隐秘检定而@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]至多10尺，而非5尺。</p>"
+    },
+    "Enduring Oath": {
+      "name": "长存誓约 Enduring Oath",
+      "description": "<p>对多数蛇人而言，血誓的力量来自文化规范与信仰的结合。但对你而言，誓约具有真正的魔法与精神力量。</p><p>你可以花费1小时，与另一个自愿生物互立血誓。双方都必须发誓做或不做某件具体的事；例如，双方都发誓不泄露彼此的某些秘密。若一方故意违背誓言，另一方会自动知道誓约已被打破，但不知道具体发生了什么。誓约不具备特殊知识或核实信息的能力，因此不能用来收集情报。例如，蛇人不能先发誓绝不逮捕无辜者，再随机逮捕某个嫌疑人，反复交替这一过程以查明真凶。</p><p>你同时维持的血誓数量没有上限。GM可以酌情决定，反复违背自身誓约的蛇人最终会遭遇魔法后果。</p><p>只要你至少立过一道血誓，就可以使用唤起誓约动作（立誓的另一方不能使用此动作）</p><p>@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.O28SVP2njmsjdKWB]{唤起誓约}</p>"
+    },
+    "Guardian of the Gates": {
+      "name": "门户守卫 Guardian of the Gates",
+      "description": "<p>你获赐力量，能够守护一处地点，抵御来自界外的危险闯入者，并惩戒企图突破防御之人。你可以每天各一次将@UUID[Compendium.pf2e.spells-srd.Item.y3jlOfgsQH1JjkJE]和@UUID[Compendium.pf2e.spells-srd.Item.hVU9msO9yGkxKZ3J]作为神术天生法术施放。在16级时，你的天生<em>神圣狂怒</em>升阶至5环，在19级时升阶至6环。</p>"
+    },
+    "Ward of the Blessed": {
+      "name": "蒙福庇护 Ward of the Blessed",
+      "description": "<p>诸神赐你恩惠，让你能够保护盟友免受伤害。选择@UUID[Compendium.pf2e.spells-srd.Item.gMODOGamz88rgHuf]或@UUID[Compendium.pf2e.spells-srd.Item.8xRzLhwGL7Dgy3EZ]。你可以每天一次将所选法术作为神术天生法术施放。</p><hr /><p><strong>特殊</strong> 你可以选取本专长两次，第二次选择另一个法术。</p>"
+    },
+    "Dinosaur Hatchling": {
+      "name": "恐龙幼崽 Dinosaur Hatchling",
+      "description": "<p>你与一只恐龙幼崽建立了魔法联系。你获得一只魔宠，但所选动物必须是微型恐龙或其他微型史前爬行动物。</p>"
+    },
+    "Kushtaka Magic": {
+      "name": "陆獭人魔法 Kushtaka Magic",
+      "description": "<p>你唤醒了陆獭人的固有魔法。选择下列一个戏法：@UUID[Compendium.pf2e.spells-srd.Item.0zU8CPejjQFnhZFI], @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]或@UUID[Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7]。你可以随意将其作为原能天生法术施放。</p>"
+    },
+    "Tale Teller": {
+      "name": "说书人 Tale Teller",
+      "description": "<p>对寓言裔而言，掌控叙事是一项生存技能。他们会将其练得炉火纯青，也就不难理解了。你获得@UUID[Compendium.pf2e.feats-srd.Item.4M5zIlJ8EvjQDtg9]{贵人入门}专长，即使通常需要先选取当前原型的更多专长才能选取另一项入门专长。</p>"
+    },
+    "Girtablilu Lore": {
+      "name": "蝎人学识 Girtablilu Lore",
+      "description": "<p>你认真倾听长辈传下的故事，在夜间篝火旁听古老神祇与远古探险的传说听得入迷。你的宗教和生存熟练度变为受训。若你会自动在其中一项技能上受训（例如来自背景或职业），则改为在一项自选技能上受训。你还获得针对蝎人学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}技能专长。</p>"
+    },
+    "Intense Venom": {
+      "name": "烈性毒液 Intense Venom",
+      "description": "<p>你的毒液更加浓烈，补充速度也更快。你可以每分钟使用一次释放毒液。此外，你的天然毒素升级为烈性蛇人毒液。</p><hr><p><strong>强效蛇人毒液</strong>（伤口、毒素）</p><p><strong>最长持续时间</strong> 6轮</p><p><strong>阶段1</strong> @Damage[1d6[poison]]伤害及@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}（1轮）</p><p><strong>阶段2</strong> @Damage[2d6[poison]]伤害及@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}（1轮）</p><p><strong>阶段3</strong> @Damage[3d6[poison]]伤害及@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭3}（1轮）</p>"
+    },
+    "A Mundane Story": {
+      "name": "平凡的故事 A Mundane Story",
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>每个故事都需要许多小配角与不起眼的角色。虽然你通常不屑一顾，但真有需要时，也不是不会扮演。你变成一个适合当前情境、无聊而无关紧要的人。你获得3环@UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]的效果，持续1小时或直到你变回原形；但它是变形效果而非幻术，且只能呈现典型而泛泛的“背景人物”外貌。你可以假扮“仆人”或“信使”，却不能模仿具体人物，也不能变成与眼前情境格格不入的人。</p><hr /><p><strong>特殊</strong> 若你拥有@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.ywlM8JJsoSP3jUc5]{常见的故事}专长，可以每天多次使用平凡的故事。这些使用的总持续时间为每天1小时，你可以在各次使用之间恢复原形。</p>"
+    },
+    "Tunneler": {
+      "name": "掘隧者 Tunneler",
+      "description": "<p>你的始祖斯拉努斯曾凿穿坚岩，建造宏伟的地下通道网络。虽然你的手与牙齿还不足以破石，却很适合快速挖穿泥土等松软材料。你获得15尺掘地速度。</p>"
+    },
+    "Dual Heritage": {
+      "name": "双重传承 Dual Heritage",
+      "description": "<p>你的蛇人血脉来源多样，能运用多位先祖的代表性能力。除原有传承外，你获得一种尚未拥有的蛇人传承</p>"
+    },
+    "Awoken Dreamer": {
+      "name": "梦醒者 Awoken Dreamer",
+      "description": "<p>你历经重重考验，始终坚持，终于夺回曾被剥离的灵魂。你失去@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.features.Item.mmaOFHiYcLPDP0no]族裔能力。选择一项未受训技能、两项受训技能和一项专家技能；这四项技能各获得一次技能提升，体现前生的知识与训练。灵魂与身体如今重归一体，再没有人能让你忘记真正的自己；每当你对抗@UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]法术或会使你陷入@UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]状态的效果进行豁免时，掷两次并取较高结果；此益处是幸运效果。</p><p>此外，你额外获得@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.bwacwZKdJQ3LO5ji]{灵魂容貌}族裔专长。若你已有灵魂容貌，则改为获得另一项满足先决条件的1级陆獭人族裔专长。</p>"
+    },
+    "Emotional Echoes": {
+      "name": "情绪回响 Emotional Echoes",
+      "description": "<p>你能联系曾承载强烈情绪的物件中残留的精魂。你可以每天一次对触及的任意物体施放@UUID[Compendium.pf2e.spells-srd.Item.5LYi9Efs6cko4GGL]作为原能天生法术。此外，你可以每小时一次将<em>阅读物体</em>作为原能天生法术，对属于你或你曾视作家人之人（例如近亲或队友）的物体施放。这两种使用频率相互独立；例如，你可以先对家人所属的物体施放<em>阅读物体</em>，然后立即使用每天一次的阅读物体，对另一物体再施放一次，无需等满一小时。</p>"
+    },
+    "Sea Serpent Lore": {
+      "name": "大海蛇学识 Sea Serpent Lore",
+      "description": "<p>你寻访其他大海蛇的消息，时常前往偏僻水道，循着水手、游学者及古老河岸社群夸耀的传说追寻。你的自然和社群熟练度变为受训。若你会自动在其中一项技能上受训（例如来自背景或职业），则改为在一项自选技能上受训。你还获得针对大海蛇学识的额外学识通用专长。</p>"
+    },
+    "Pincer Grab": {
+      "name": "钳击攫抓 Pincer Grab",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你以一个流畅动作攻击敌人，试图将其捉入蝎钳。用蝎钳进行一次近战打击；若命中，尝试进行一次[[/act grapple]]检定抓住目标。两次尝试都计入多次攻击减值，但直到擒拿结算完毕才计入这次打击增加的减值。你以此方式使目标@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}期间，不能用蝎钳攻击。</p>"
+    },
+    "Terrifying Glare": {
+      "name": "恐怖瞪视 Terrifying Glare",
+      "description": "<p>你懂得利用体型、姿态和气势，使他人敬畏或恐惧，一眼就能唤醒深埋已久的原始恐惧。你的威吓熟练度变为受训。若你会自动在威吓上受训（例如来自背景或职业），则改为在一项自选技能上受训。此外，你获得@UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{金刚怒目}和@UUID[Compendium.pf2e.feats-srd.Item.ar2DUlvDK4LDcH9J]{迅速胁迫}技能专长。</p>"
+    },
+    "Eternal Scholar": {
+      "name": "永恒学者 Eternal Scholar",
+      "description": "<p>你从不停下对周围一切考古意义的探究。探索期间，即使你采用另一种调查策略，也会获得@UUID[Compendium.pf2e.actionspf2e.Item.EwgTZBWsc8qKaViP]{调查}的效果，除非你选择不这样做（也许是担心读墙上的文字会触发某种符文陷阱）。</p><hr /><p><strong>特殊</strong> 若你拥有@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.fXWraEMbn12A0hIg]专长，那么每当你调查时，也会搜索火球符文陷阱之类的文字陷阱；一旦发现，便能在为时已晚之前停止调查。</p>"
+    },
+    "Water Shield": {
+      "name": "水流护盾 Water Shield",
+      "description": "<p><strong>使用条件</strong> 你身处至少有1加仑静水或流水的区域。</p><hr><p>你以魔法控制身边的水流，将其布置在周围保护自己；你的AC获得+1环境加值，直到你的下个回合开始。如果你的一侧尾巴空闲，可以协助引导水流，且附近至少有10加仑水，则改为获得+2环境加值。</p>"
+    },
+    "Deep Cleaning": {
+      "name": "深度清洁 Deep Cleaning",
+      "description": "<p>当你把某物或某人擦洗干净时，也能净化毒素，甚至去除诅咒。每天一次，你可以花费1分钟，彻底擦洗一个正受毒素、疾病或诅咒苦难影响的生物或物体。若目标是不自愿的生物，必须先使其受到束缚。对该苦难进行反制检定，尝试将其移除。你的反制环阶等于自身等级的一半，向上取整；反制调整值为职业DC –10或法术DC –10中较高者（@Check[class-spell|options:counteract]{反制}）。无论结果如何，在你的反制环阶提高前，都不能再次用深度清洁对抗同一个苦难。</p>"
+    },
+    "A Monster Story": {
+      "name": "怪物的故事 A Monster Story",
+      "description": "<p>许多故事以利爪长牙的猛兽为主角，那就是你。选择本专长时，选择获得以下一种攻击：造成1d4挥砍伤害、具有灵巧和娴熟特征的爪击徒手攻击；造成1d6穿刺伤害、具有多用钝击特征，并可选擒拿或推撞特征的角、噬咬或獠牙徒手攻击；或者造成1d6钝击伤害、具有回摆特征的尾巴徒手攻击。这些徒手攻击都属于斗殴武器组。你的故事变化，你也随之改变；你可以在任意等级选取本专长，也可以通过重训获得、舍弃本专长，或改变其赋予的攻击类型。</p><hr /><p><strong>特殊</strong> 你可以将本专长再次选作5级族裔专长。若如此，你获得剩余两种徒手攻击。</p>"
+    },
+    "Pet Thought": {
+      "name": "宠养念头 Pet Thought",
+      "description": "<p>作为寓言裔，你本质上是凝结成形的思想，也知道去哪里捕捉其他念头。日常准备期间，你探入思想的星界领域，从以太中摘取一个合适的思想形体。当日剩余时间内，你获得针对一项自选学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长。你不能连续两天选择同一学识。</p>"
+    },
+    "Ophidian Companion": {
+      "name": "蛇类伙伴 Ophidian Companion",
+      "description": "<p>旅途中，你遇见一条鳞片花纹与你惊人相似的巨蛇，并与它建立了本能的联系。它作为友善而忠诚的伙伴与你同行。你获得@UUID[Compendium.pf2e.feats-srd.Item.wdmUH6hdat7jpEWt]{兽王入门}原型专长，以蛇作为幼年动物伙伴。即使你的自然未受训，或通常必须先选取当前原型的更多专长才能选取另一项入门专长，你仍可以选取蛇类伙伴。若蛇伙伴死亡，你可以花费一周休整时间举行仪式，召回它的精魂。仪式无需费用，能使蛇复生并保留全部记忆。</p>"
+    },
+    "Scorpion Empathy": {
+      "name": "蝎类共感 Scorpion Empathy",
+      "description": "<p>你与蝎子建立了联系，能与它们进行简单交流。你可以向蝎子提问、听取回答，并对它们使用交涉技能。多数情况下，野生蝎子会给你说明来意的机会。你对蝎子[[/act make-an-impression options=\"target:tag:scorpion\"]]时，以及向对你友善或乐于帮助的蝎子提出请求时，获得+2环境加值。</p>"
+    },
+    "Split Tail Capsize": {
+      "name": "分尾倾覆 Split Tail Capsize",
+      "description": "<p><strong>使用条件</strong> 你的分尾两侧都空闲，且上个动作是一次成功的徒手打击</p><p><strong>频率</strong> 每分钟一次</p><hr><p>身为毁船者，你学会了如何撕裂船壳。你将分尾绕至目标两侧，猛拉使其@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。你尝试对目标[[/act trip]]，使用作为前提的那次打击所用的多次攻击减值。若目标是物体且被你击倒，其硬度也降低5，持续1轮。</p><hr><p><strong>特殊</strong> 若你具有盘绕型大海蛇传承，降低硬度与忽略至多5点硬度的能力依照通常规则叠加；此外，目标是生物时，你也能降低其硬度。</p>"
+    },
+    "Taste For Drama": {
+      "name": "戏剧嗅觉 Taste For Drama",
+      "description": "<p>故事离不开强烈情绪，而你具有嗅出情绪的第六感，而且真的是用嗅觉。你获得30尺情绪感知，这是一种粗略感官；与所有粗略感官一样，它大致只和普通人类的嗅觉一样准确，而对你而言，它确实如同只有你闻得到的气味。通常，你只能感知非常强烈的情绪，例如野蛮人的狂暴、某人正处于@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]状态，或炽热的恋情、精神崩溃。你至少能粗略区分不同类型的情绪，例如分清恐惧与激情。</p><p>你也能判断某处最近是否曾出现如此强烈的情绪。大多数情绪“气味”（其实更像星界印记）约一小时后消散，但极其强烈的情绪，例如惨烈谋杀伴随的恐惧，可能残留更久。</p>"
+    },
+    "Often Translated": {
+      "name": "广译四方 Often Translated",
+      "description": "<p>有些故事困守一地，你的故事却传遍四方。它曾被世间各种语言讲述，因此你的一小部分懂得所有这些语言。日常准备期间，你可以专注于某地流传的故事版本，熟练掌握一种常见语言，或另一种你具有许可的语言，直到下次准备。由于此知识是暂时的，你不能以其满足永久角色选项的先决条件。</p>"
+    },
+    "Perilous Fangs": {
+      "name": "凶险尖牙 Perilous Fangs",
+      "description": "<p>当你用尖牙咬住喉咙，可以从伤口猛扯出来，也可以稍作停顿注入毒液。你的尖牙打击重击时，可以选择造成@Damage[1d4[persistent,bleed]]伤害或@Damage[1d4[persistent,poison]]伤害。此持续伤害与灵活尖牙专长的持续伤害叠加。</p>"
+    },
+    "Shifting Stories": {
+      "name": "故事变迁 Shifting Stories",
+      "description": "<p>故事通常很难改变，但你知道如何掀起轩然大波。使用@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.features.Item.pgE1L6cphCROHs1a]时，你可以尝试@Check[performance|dc:@self.level|adjustment:2]{困难}或@Check[performance|dc:@self.level|adjustment:5]{极难}DC，而非标准DC。</p><p>若你通过困难DC检定，重训专长或技能提升只需2天，重训属性点分配、背景、职业能力或传承只需4天。若通过极难DC检定，重训专长和技能提升只需一天，其他上述项目只需2天。</p>"
+    },
+    "Pet Idea": {
+      "name": "宠养意念 Pet Idea",
+      "description": "<p>你已积累了捕猎思想的经验，如今开始捕捉更大的猎物。用@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.9HdrQFWBiDzsUxSK]{宠养念头}选择一项学识时，你还获得针对该学识的@UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{驾轻就熟}和@UUID[Compendium.pf2e.feats-srd.Item.H3I2X0f7v4EzwxuN]{耳熟能详}技能专长。</p>"
+    },
+    "Mast Explorer": {
+      "name": "桅杆攀行者 Mast Explorer",
+      "description": "<p>你学会抓住船桅，将身体撑到甲板上方。你获得10尺攀爬速度。</p><hr><p><strong>特殊</strong> 若你具有攀树型大海蛇传承，你的陆地速度从10尺提高至20尺，攀爬速度也提高至等于陆地速度。</p>"
+    },
+    "Swallowing Jaws": {
+      "name": "吞咽巨口 Swallowing Jaws",
+      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>使用条件</strong> 一个至少比你小两个体型类别的生物，被你的巨口弄至@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}。</p><hr><p>你张脱下颌，将受擒生物整个吞下。尝试进行一次@Check[athletics|defense:reflex]检定，对抗受擒生物的反射DC。若成功，你吞下该生物，不再用巨口擒住它，且无法攻击已经吞下的生物。你的胃部破裂值等于自身等级的两倍。被吞食生物在你体内处于受擒状态；吞食后的第一轮结束后，它必须屏息，否则可能窒息。若它逃脱你的受擒状态，就会从你口中离开。被吞食生物可以攻击你，但只能使用徒手攻击或轻负载及以下的武器；你对这些攻击@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]。若你因单次攻击或法术受到的穿刺或挥砍伤害达到或超过破裂值，被吞食生物会剖开你的胃部脱身，离开你的空间。你也可以花费一个动作，将被吞食生物吐入一个自选邻接方格。</p>"
+    },
+    "Predator's Advantage": {
+      "name": "掠食者优势 Predator's Advantage",
+      "description": "<p>敌人最虚弱时，你本能地乘胜追击。正在承受持续流血伤害的生物对你@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>"
+    },
+    "Serpentine Arcana": {
+      "name": "蛇之奥术 Serpentine Arcana",
+      "description": "<p>你的魔法赐福苏醒，让你本能地掌握更强大的施法知识。</p><p>选择一个1环奥术法术和一个2环奥术法术，两者都必须是你具有许可的法术。你可以每天各一次将所选法术作为奥术天生法术施放。</p><hr><p><strong>特殊</strong> 若你是幽深秘法蛇人，也可以从具有许可的神术列表法术中选择蛇之奥术赋予的法术，但无论选择哪个列表，你仍将其作为奥术天生法术施放。</p>"
+    },
+    "Sustenance Conservation": {
+      "name": "节粮省水 Sustenance Conservation",
+      "description": "<p>你习惯在沙漠里靠极少的食物和饮水维生。你只需同体型生物通常食物与饮水量的一半，就能避免饥饿和干渴。你可以不吃不喝而不受伤害的时间，为等于体质调整值 + 1的周数，而非这么多天；但之后必须吃喝超过平常所需的量来补偿。若你的体质调整值因某种原因低于+0，你仍能三天不吃不喝而不受伤害。</p>"
+    },
+    "Grabbing Tail": {
+      "name": "攫抓之尾 Grabbing Tail",
+      "description": "<p><strong>频率</strong> 每分钟一次</p><p><strong>使用条件</strong> 你的上个动作是一次成功命中邻接生物的近战徒手攻击。</p><hr><p>攻击邻接生物后，你将身体盘绕上去，试图捕住并挤压它。该生物必须对你的职业DC进行一次@Check[reflex|against:class]豁免。</p><hr><p><strong>成功</strong> 无效果。</p><p><strong>失败</strong> 目标被你盘绕的身体弄至@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}；这不占用分尾的任意一侧（若你因某种原因没有分尾族裔能力，也不占用手）。</p><p><strong>大失败</strong> 如同失败，但目标改为@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}。</p>"
+    },
+    "Unseen Assistant": {
+      "name": "无形助手 Unseen Assistant",
+      "description": "<p>你善于不露痕迹地帮助他人。当你花费动作准备@UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{协助}或使用协助反应时，若此前已进行@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{躲藏}或@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}，就不会仅因准备或实施协助而自动变为可见。若你处于藏匿或无踪时，协助检定大成功，则专家熟练度赋予的环境加值从+2提高至+3，大师熟练度则从+3提高至+4。</p>"
+    },
+    "Livestock Speaker": {
+      "name": "家畜语者 Livestock Speaker",
+      "description": "<p>你花了许多时间照料牲畜，倾听田野间虫鸣鸟叫，并留意野兽声音中透露的掠食者踪迹。你学会理解动物的交流方式，也能以它们理解的方式回应。你听到的动物声音不再是无意义的噪声，而是交谈。你可以向动物提问、听取回答，并对它们使用交涉技能。多数情况下，野生动物会给你说明来意的机会。你对动物[[/act make-an-impression options=\"target:trait:animal\"]]的检定获得+1环境加值。</p>"
+    },
+    "Kindle the Spark": {
+      "name": "点燃火花 Kindle the Spark",
+      "description": "<p>你与“起源”之源的联系增强了，或许源于信仰、研习，也可能纯属偶然。从学说火花所选的魔法传统中，选择一个常见1环法术和一个常见2环法术。你可以每天各一次将所选法术作为相应魔法传统的天生法术施放。</p>"
+    },
+    "Curse Eater": {
+      "name": "噬咒者 Curse Eater",
+      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>触发</strong> 你对抗具有诅咒特征的法术或效果进行豁免，结果为成功或大成功</p><hr /><p>抵挡敌人的诅咒后，你将其能量吸入体内，再向外排出，将触发效果反弹给施术者。施术者必须如同自己是效果的原始目标一样进行豁免。若你的豁免大成功，其豁免承受-2环境减值。</p>"
+    },
+    "Saurus Trample": {
+      "name": "蜥族践踏 Saurus Trample",
+      "description": "<p><strong>频率</strong> 每天一次</p><hr><p>你行走至多两倍速度的距离，可以穿过生物占据的空间，并践踏每个进入其空间的生物。每个被践踏生物受到@Damage[12d8[bludgeoning]]伤害，并可进行一次@Check[reflex|basic:true|against:class-spell]。体型小于你的生物若反射豁免失败，还会被击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>"
+    },
+    "Invigorating Victory": {
+      "name": "振奋胜利 Invigorating Victory",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><p><strong>触发</strong> 你将一个敌人降至0生命值。</p><hr><p>击败敌人后，你放声咆哮，发出振奋自己的胜利吼声。你获得等于自身等级一半的临时生命值，持续1分钟。</p>"
+    },
+    "Water Friend": {
+      "name": "水族之友 Water Friend",
+      "description": "<p>你与河海中的生物天生亲近。你可以向栖居河流、大海与海洋的动物提问、听取回答，并对其使用交涉技能，例如鱼、海豹、水獭、鲨鱼等自然生物；你对这些生物的交涉检定获得+1环境加值。GM可以酌情允许此能力也用于与河海环境中遇到的某些水栖或两栖野兽交流。</p>"
+    },
+    "Walk-On Role": {
+      "name": "龙套角色 Walk-On Role",
+      "description": "<p>像样的故事都需要许多背景人物，有时得由你来提供。你可以每天两次将@UUID[Compendium.pf2e.spells-srd.Item.f8SBoXiXQjlCKqly]作为2环异能天生法术施放。在12级时，以及此后每3级，该法术再升阶一环，最高在18级时达到5环。</p>"
+    },
+    "Scorpion Companion": {
+      "name": "蝎类伙伴 Scorpion Companion",
+      "description": "<p>你与沙漠中游荡的一只蝎子建立了联系。你获得@UUID[Compendium.pf2e.feats-srd.Item.wdmUH6hdat7jpEWt]{兽王入门}专长，即使通常必须先选取当前原型的更多专长才能选取另一项入门专长。它赋予你一只幼年动物伙伴，而且必须选择蝎子。若想让伙伴进阶，仍须依照通常规则选取兽王专长。</p>"
+    },
+    "Elusive Legend": {
+      "name": "难觅传说 Elusive Legend",
+      "description": "<p>魔法手段极难侦测到你，让你保持神出鬼没，或许成为岸上居民口中的地方传说或神秘生物。你对抗心灵效果的豁免获得+4状态加值。你也会尝试反制任何侦测、揭露或探知效果，以自身等级的一半（向上取整）为反制等级，并以隐秘调整值、职业DC、法术DC – 10三者中最高者为反制调整值。反制成功时，该效果通常运作，但无法侦测你及你的随身物品。例如，@UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]仍会侦测区域内的其他魔法，却不会侦测你身上的任何魔法。</p>"
+    },
+    "Resonating Roar": {
+      "name": "共振咆哮 Resonating Roar",
+      "description": "<p>你强劲的咆哮会使受影响者感到肉体痛楚。每当你用震魂咆哮成功对一个生物[[/act demoralize]]时，该生物还会受到@Damage[9d6[sonic]]伤害（若挫败士气大成功，则为@Damage[9d12[sonic]]伤害）。</p>"
+    },
+    "Fanged Jaws": {
+      "name": "利齿噬咬 Fanged Jaws",
+      "description": "<p>你长着一对能迅速刺穿护甲的尖牙。你获得噬咬徒手攻击，造成@Damage[1d6[piercing]]伤害，具有娴熟和擒拿特征，属于斗殴武器组。</p>"
+    },
+    "Household Helper": {
+      "name": "家务助手 Household Helper",
+      "description": "<p>你格外擅长帮助家人。你用于@UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{协助}家人的检定获得+4环境加值。</p>"
+    },
+    "Compact Form": {
+      "name": "袖珍形态 Compact Form",
+      "description": "<p>你可以缩小成迷你版的自己，更便于钻入狭缝、避开窥探。你的体型缩至微型，模样也可能更可爱，但熟悉你通常外貌的人仍能轻易认出你。你可以无限期保持此形态，再次使用此动作便恢复原本体型。</p>"
+    },
+    "Cue": {
+      "name": "提词 Cue",
+      "description": "<p>有时，故事需要某人按特定方式行事。人们肯配合当然最好，偶尔却需要你推一把。你可以每天一次将@UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]作为1环异能天生法术施放，但你的版本还具有晦匿特征，因为你将提词融入了日常言谈。若目标豁免大成功，就会意识到你试图以魔法影响它；无论如何，即使旁人看不出那是法术，也能明显听见你发出了命令。</p>"
+    },
+    "Call for Guidance": {
+      "name": "祈求指引 Call for Guidance",
+      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>重要行动将至，你恳求神祇、自然或命运为你干预。若你的下个动作是进行攻击检定或技能检定，掷两次并取较好的结果。</p>"
+    },
+    "Expanded Shoreline": {
+      "name": "拓展海岸 Expanded Shoreline",
+      "description": "<p>你学会适应新的地区，往往需要慢慢习惯。从海岸生态位族裔能力的列表中再选择一种环境。处于这种环境时，你可以使用要求身处与海岸生态位相符环境的能力。若你因某种原因原本没有海岸生态位，则改为获得该能力。</p>"
+    },
+    "Ripples in the Earth": {
+      "name": "大地涟漪 Ripples in the Earth",
+      "description": "<p>你能感应周围地面的振动，察觉其上行走者的动静。只要站在沙土或未经加工的岩石等天然地面上，你就获得30尺震颤感知，这是一种模糊感官。</p>"
+    },
+    "Cavern Climber": {
+      "name": "洞穴攀爬者 Cavern Climber",
+      "description": "<p>你或许不如蛇柔软，但额外的肢体与鳞片纹理能帮你抓牢表面，轻松攀爬。你获得10尺攀爬速度。</p>"
+    },
+    "Fictitious Cousins": {
+      "name": "虚构亲族 Fictitious Cousins",
+      "description": "<p>寓言裔通常将幻念裔视为顽劣、不成熟的弟妹。说实话，多数寓言裔都觉得这层亲缘有点丢脸。但你不同，你喜欢这些古怪亲族。你获得针对幻念裔族裔的@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊}通用专长，即使它通常只能选择常见族裔；你还获得一项1级幻念裔族裔专长。</p>"
+    },
+    "Dune Burrower": {
+      "name": "沙丘掘行者 Dune Burrower",
+      "description": "<p>你擅长掘入地下，狩猎时埋伏待机，战斗时出其不意。你获得15尺掘地速度。</p>"
+    },
+    "Tail Rush": {
+      "name": "尾推疾行 Tail Rush",
+      "description": "<p>只要没有持握太多东西，你就可以伸展分尾，推着身体高速掠过地面。当分尾至少一侧原本空闲时，你的陆地速度获得+10尺状态加值；此移动方式会占用那一侧尾巴。</p>"
+    },
+    "Feign Immortality": {
+      "name": "佯装不死 Feign Immortality",
+      "description": "<p>你面对危险与伤痛的韧性令敌人不安。你的威吓熟练度变为专家；若已为专家，则改为一项自选技能受训。</p><p>受伤时，你故意表现得对骇人的伤口毫不在意，让敌人恐惧于你或许根本无法被打败。你处于受伤状态时，威吓检定获得等于受伤值的环境加值，最高在@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{受伤3}时为+3。</p>"
+    },
+    "Shadow in the Mist": {
+      "name": "雾中之影 Shadow in the Mist",
+      "description": "<p>雾气环绕身体，使你化作雾中的影子。你获得@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态，直到你的下个回合结束。依照具有明显视觉表现的隐蔽效果的通常规则，你不能利用这种隐蔽来[[/act hide]].</p><hr><p><strong>特殊</strong> 每分钟一次，你可以用自由动作而非单动作使用雾中之影。</p>"
+    },
+    "Persuasive Retort": {
+      "name": "蛊惑反驳 Persuasive Retort",
+      "description": "<p><strong>触发</strong> 你正观察的一个生物尝试对你打击或[[/act demoralize]]，但检定失败。</p><p><strong>使用条件</strong>你仍有一次@UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]天生施法次数可用，其来源为@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.0I1O8rJFspRjXN1X]{陆獭人蛊惑}。</p><hr><p>敌人未能伤害你时，你悄然渗入其心智，平息它对你的暴力情绪。你消耗一次陆獭人蛊惑赋予的天生<em>魅惑术</em>施法次数，对进行触发检定的生物施放。</p><hr><p><strong>特殊</strong> 陆獭人蛊惑专长赋予的天生<em>魅惑术</em>从每天一次改为每小时一次。</p>"
+    },
+    "Flexible Fangs": {
+      "name": "灵活尖牙 Flexible Fangs",
+      "description": "<p>你获得尖牙徒手攻击的重击专精效果。每当尖牙重击，你可以使用斗殴武器的通常重击专精效果，或用尖牙撕裂目标。若选择撕裂，目标受到自选的1d6持续流血伤害或1d6持续毒素伤害，并在此伤害上获得等于尖牙打击攻击骰物品加值的物品加值。</p><p>此外，你的尖牙徒手攻击获得擒拿特征。</p>"
+    },
+    "Pincer Crush": {
+      "name": "巨钳挤压 Pincer Crush",
+      "description": "<p><strong>使用条件</strong> 一个生物在你的蝎钳中处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态，且此状态来自@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.6inLfo7DV3NI7cl5]{钳击攫抓}专长。</p><hr /><p>你收紧蝎钳，挤压目标的生命，对其造成@Damage[(ternary(gte(@actor.level,17),4,3))d8[bludgeoning]]伤害；该生物对你的职业DC或法术DC中较高者进行@Check[reflex|against:class-spell|basic]豁免。在17级时，伤害提高至4d8。</p>"
+    },
+    "Flare Fins": {
+      "name": "展鳍威吓 Flare Fins",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr><p>鳍之间的薄膜收紧，使鳍张开。你展开鳍，让敌人不安、更容易受惊。30尺内所有敌人必须对你的职业DC进行一次@Check[will|against:class]豁免。</p><hr><p><strong>大成功</strong> 无效果。</p><p><strong>成功</strong> 该敌人对抗恐惧效果的豁免承受−2状态减值，持续1轮。</p><p><strong>失败</strong> 该敌人对抗恐惧效果的豁免承受−2状态减值，持续1分钟，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}。</p><p><strong>大失败</strong> 如同失败，但该敌人改为@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}，而非惊惧1。</p>"
+    },
+    "House Spirit Lore": {
+      "name": "家宅精灵学识 House Spirit Lore",
+      "description": "<p>你知道如何照料房屋、让它宾至如归，无论是修缮，还是依当地文化传统装饰。</p><p>你的手艺和社群熟练度变为受训。若你会自动在其中一项技能上受训，则改为在一项自选技能上受训。</p><p>你还获得针对家宅精灵学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}通用专长。</p>"
+    },
+    "Plague-Eater": {
+      "name": "噬疫者 Plague-Eater",
+      "description": "<p>被你抵御的疾病只会使你更强。每当你抵抗疾病的豁免成功，包括阻止已有疾病进入下一阶段时，你获得等于自身等级一半的临时生命值（最低1），持续1小时。</p><p>此外，每当你豁免成功、本应结束身上的一种疾病时，你可以选择继续患有该疾病，并停留在阶段1。</p><p>@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.effects.Item.5QAHqueziwa4zobf]{效果：噬疫者}</p>"
+    },
+    "Starlit Omens": {
+      "name": "星光预兆 Starlit Omens",
+      "description": "<p>你以星座占卜的技艺日益精深，能够窥见更多未来。你可以每小时使用一次预言星座，而非每天一次；使用时，也可以改为施放@UUID[Compendium.pf2e.spells-srd.Item.pkcOby5prOausy1k]作为神术天生法术。你仍须能够看见夜空。</p>"
+    },
+    "Advanced Household Magic": {
+      "name": "进阶家务魔法 Advanced Household Magic",
+      "description": "<p>施放家务魔法赋予的<em>魔法伎俩</em>时，你能发挥法术每一种用途更大的潜力。</p><ul><li><strong>烹饪：</strong> 你一次可以影响至多10磅非活体材料，改变温度的范围也更大，分别能降至足以结冰或升至足以沸水的温度。你还可以用通常可通过烹饪工具或技法实现的方式，改变材料的颜色与质地。</li><li><strong>抬举：</strong> 你可以抬起至多1负载的物体，使其离地至多10尺、离你至多30尺。</li><li><strong>制作：</strong> 你可以制造至多1负载的临时物体。</li><li><strong>整理：</strong> 除物体外，你还可以清洁、染色或弄脏墙壁、地板等表面。每轮专注可以清洁5尺见方的表面；清洁物体则每负载需要1轮。你也可以花约1分钟为一个生物整理仪容，清洁身体、去除异味并将头发梳成简单发型。</li></ul>"
+    },
+    "Hungry Otter": {
+      "name": "饥饿之獭 Hungry Otter",
+      "description": "<p>用尖牙攻击时，你撕扯血肉并吞下扯落的肉块。每当尖牙徒手攻击重击，你都获得其重击专精效果。此外，只要目标不免疫流血伤害，每次尖牙重击造成伤害，你都获得等于自身等级一半的临时生命值，持续1轮。</p><p>@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.effects.Item.bUrLgTnjE5kFegnf]{效果：饥饿之獭}</p>"
+    },
+    "Natural Counterbalance": {
+      "name": "天生配重 Natural Counterbalance",
+      "description": "<p>你的尾巴能平衡身体的动作。你的特技熟练度变为受训。若你会自动在特技上受训（例如来自背景或职业），则改为在一项自选技能上受训。此外，你获得@UUID[Compendium.pf2e.feats-srd.Item.CnqMJR8e9jqJR7MM]{四平八稳}技能专长，用于保持平衡的特技检定获得+2环境加值。</p>"
+    },
+    "Soul Resurgence": {
+      "name": "灵魂复苏 Soul Resurgence",
+      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>触发</strong> 你将降至0生命值，但不会立即死亡</p><hr><p>你与前生灵魂的联系格外紧密。那个曾经、也可能再次成为你的存在，仍试图保护这副凡躯。你避免被击倒，保持在1生命值，且受伤值增加1。</p>"
+    },
+    "Hybrid Heritage": {
+      "name": "混合传承 Hybrid Heritage",
+      "description": "<p>你的身体一直以奇特而独一无二的方式混合着不止一种恐龙的特征，如今你终于获得两者完整的力量。除现有传承外，你再获得一种不同的蜥族传承。</p>"
+    },
+    "Limbless Mastery": {
+      "name": "无肢精通 Limbless Mastery",
+      "description": "<p>你轻松贴地蜿行，从敌人脚下穿过。使用蜿行动作时，可以移动完整速度，而非一半速度。蜿行时，你可以穿过比你至少大两个体型类别的生物空间，而非至少大三个；你还可以在[[/act tumble-through]]时用蜿行代替行走，只要你处于@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}状态。若翻滚时使用蜿行，该次翻滚的特技检定获得+2环境加值。</p>"
+    },
+    "Bloodletting Attacks": {
+      "name": "放血攻击 Bloodletting Attacks",
+      "description": "<p>你的天生攻击使敌人血流如注。通过天生攻击专长获得、造成穿刺或挥砍伤害的徒手攻击，重击时额外造成1d4持续流血伤害。</p>"
+    },
+    "Potent Venom": {
+      "name": "强效毒液 Potent Venom",
+      "description": "<p>你的毒液更加浓烈，补充速度也更快。你可以每10分钟使用一次释放毒液。此外，你的蛇人毒液升级为强效蛇人毒液。</p><hr><p><strong>强效蛇人毒液</strong>（伤口、毒素）</p><p><strong>最长持续时间</strong> 6轮</p><p><strong>阶段1</strong> @Damage[1d4[poison]]伤害及@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}（1轮）</p><p><strong>阶段2</strong> @Damage[2d4[poison]]伤害及力竭1（1轮）</p><p><strong>阶段3</strong> @Damage[3d4[poison]]伤害及力竭1（1轮）</p>"
+    },
+    "A Neverending Story": {
+      "name": "永不落幕的故事 A Neverending Story",
+      "description": "<p>只要有人讲述，故事就会活着。它们成长、变化、转化，却几乎从不死去。你也一样。</p><p>死亡时，你可以选择返回诞生自己的集体潜意识。下次有人讲述你的故事，你的灵魂可以选择在故事结尾重新现身，在最富戏剧性的时机从黑暗中走出，或跨过门口。你至少能粗略感知讲述发生的地点与情境，也可以等待更合适的一次复述；有些寓言裔会等上几十年，只为那场完美的讲述。</p><p>但这有代价，因为故事不会两次讲得完全相同。用永不落幕的故事逃过死亡时，你立刻重训自己拥有的最高等级职业专长。无论任何情况，你都永远不能再次选择或获得原来的那项专长。</p><p>若以此方式复生后的一周内再次死亡，你的故事会变得过于支离破碎而消散，使你真正死去。若未能复生，你最终会被代表同一故事的另一个寓言裔取代，但那将不再是<em>你</em>.</p>"
+    },
+    "Ambulating Tail": {
+      "name": "行走之尾 Ambulating Tail",
+      "description": "<p><strong>频率</strong> 每分钟一次</p><p><strong>使用条件</strong> 你正用一侧尾巴获得尾推疾行的状态加值</p><hr><p>你的分尾肌肉强健，能撑起身体爆发出高速。直到你的回合结束，尾推疾行的状态加值从+10尺提高至+30尺。</p>"
+    },
+    "Shoreline Vigil": {
+      "name": "海岸守望 Shoreline Vigil",
+      "description": "<p>在与你海岸生态位相符的环境中，你始终严阵以待。你获得+2先攻环境加值；若先攻骰与敌人相同，由你先行动。</p>"
+    },
+    "Shoreline Sprint": {
+      "name": "海岸冲刺 Shoreline Sprint",
+      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>使用条件</strong> 你身处与海岸生态位相符的环境</p><hr><p>你熟悉自己的海岸环境，足以汲取其中能量向前疾驰。你行走两次。</p>"
+    },
+    "Predator's Teeth": {
+      "name": "掠食者之齿 Predator's Teeth",
+      "description": "<p>你长着天生掠食者的凶狠牙齿，也懂得如何在战斗中有效运用。你获得尖牙徒手攻击，造成1d6穿刺伤害，属于斗殴武器组，具有娴熟和徒手特征。</p><hr><p><strong>特殊</strong> 具有啃噬陆獭人传承的陆獭人选取本专长时，其尖牙伤害骰从d4提高至d6，并获得擒拿特征，替代本专长的通常益处。</p>"
+    },
+    "Fable Lore": {
+      "name": "寓言裔学识 Fable Lore",
+      "description": "<p>寓言裔诞生时就带着一些知识：社会如何运作、人们如何行事，以及故事如何发展和传播。你的交涉与社群熟练度变为受训。若你会自动在其中一项技能上受训（例如来自背景或职业），则改为在一项自选技能上受训。你还获得针对寓言裔学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}通用专长。</p>"
+    },
+    "Fascinating Storyteller": {
+      "name": "引人入胜的说书人 Fascinating Storyteller",
+      "description": "<p>你讲故事时，人们或许会停下来听，即使他们原本根本没有这个打算。你可以每天一次将@UUID[Compendium.pf2e.spells-srd.Item.IihxWhRfpsBgQ5jS]作为3环异能天生法术施放。</p>"
+    },
+    "Comprehend the Origin": {
+      "name": "领悟起源 Comprehend the Origin",
+      "description": "<p>你相信自己已彻底理解“起源”，而理解带来了强大力量。从学说火花所选的魔法传统中，选择一个常见5环法术和一个常见6环法术。你可以每天各一次将所选法术作为相应传统的天生法术施放。</p>"
+    },
+    "Censure Foe": {
+      "name": "谴责仇敌 Censure Foe",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你专注于60尺内一个敌人，将其标记为信仰或故土之敌。目标必须对你的职业DC或法术DC中较高者进行一次@Check[will|against:class-spell]豁免。此后，目标暂时免疫谴责仇敌，持续1分钟。</p><hr /><p><strong>大成功</strong> 目标不受影响。</p><p><strong>成功</strong> 直到你的回合结束，你对该生物的打击额外造成1d6精魂伤害；在13级时提高至2d6精魂伤害。</p><p><strong>失败</strong> 你对该生物的打击额外造成1d6精魂伤害，持续2轮；在13级时提高至2d6精魂伤害。持续时间在9级时增加至3轮，13级时增加至4轮，17级时增加至5轮。</p><p>@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.effects.Item.sPFgAAtDPIdd5sPI]{效果：谴责仇敌}</p>"
+    },
+    "Whispered Talents": {
+      "name": "低语天赋 Whispered Talents",
+      "description": "<p>陆獭人的诅咒将本领直接低语入你的脑海，让你具备成为海上劫掠者或与一个载体结契的能力。你获得@UUID[Compendium.pf2e.feats-srd.Item.4zaU3GlTGMNqLFS8]{魔宠大师入门}或@UUID[Compendium.pf2e.feats-srd.Item.l1eCHNahsBb7rUkT]{海贼入门}专长，即使通常必须先选取当前原型的更多专长才能选取另一项入门专长，或你的威吓尚未受训。</p>"
+    },
+    "Natural Attack": {
+      "name": "天生攻击 Natural Attack",
+      "description": "<p>你善于运用曾保护恐龙先祖的天生武器与攻击。依照你的传承，从下列徒手攻击中获得一种；它属于斗殴武器组，具有列出的伤害和特征。若你不具有本书的蜥族传承，则由GM决定你能获得哪些徒手攻击。</p><ul><li><p><strong>足击</strong>：1d6钝击（娴熟、推撞、徒手）；可供甲龙、迷惑龙、剑龙、三角龙和霸王龙选择</p></li><li><p><strong>角</strong>：1d4穿刺（致命d8、娴熟、徒手）；可供甲龙和三角龙选择</p></li><li><p><strong>噬咬</strong>：1d6穿刺（娴熟、擒拿、徒手）；可供恐爪龙和霸王龙选择</p></li><li><p><strong>尾巴</strong>：1d4钝击（娴熟、横扫、摔绊、徒手）；可供甲龙、迷惑龙、剑龙和霸王龙选择</p></li><li><p><strong>利爪</strong>：1d4挥砍（灵巧、娴熟、徒手）；可供恐爪龙选择</p></li></ul><hr><p><strong>特殊</strong> 你可以多次选取本专长，每次选择该传承可选的不同徒手攻击。若你具有剑龙传承并选择尾巴徒手攻击，则尾巴获得多用穿刺特征。</p>"
+    },
+    "Saurus Lore": {
+      "name": "蜥族学识 Saurus Lore",
+      "description": "<p>你的先祖历经世代发展，但你仍珍视久远岁月里的生活与教训。过去是未来的基石，你选择培育这些古老根源。你的自然和生存熟练度变为受训。若你会自动在其中一项技能上受训（例如来自背景或职业），则改为在一项自选技能上受训。你还获得分别针对蜥族学识和恐龙学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}通用专长。</p>"
+    },
+    "Pointless Tale": {
+      "name": "漫无主题的故事 Pointless Tale",
+      "description": "<p>有些故事就是……哪里也去不了。它们东拉西扯，兜兜转转，又绕回自己。大多数寓言裔觉得这种毫无结构的故事令人反感，你却发现它们颇有用处。你可以每天一次将@UUID[Compendium.pf2e.spells-srd.Item.pBevG6bSQOiyflev]作为1环异能天生法术施放。</p>"
+    },
+    "Spiritual Immunity": {
+      "name": "灵体免疫 Spiritual Immunity",
+      "description": "<p>身体与灵魂的联系进一步松动，直接攻击灵魂或精神本质的存在无法再轻易影响你，但你也失去了感知它们的能力。你免疫作祟的效果，以及虚体精魂和虚体亡灵的大多数效果，却也无法意识到它们的存在；你无法用任何感官感知虚体亡灵，因此它们对你始终处于藏匿或无踪。虚体精魂与亡灵只能通过在物质世界显现的效果影响你。例如，幽灵法师施放火球术或骚灵投掷物体可以伤害你，但幽灵平民的恐怖呻吟和幽灵之手打击不能。</p><hr><p><strong>特殊</strong> 本质上属于犬类的作祟、虚体精魂与亡灵（例如幻影狼）忽略本专长效果；你能看见它们并与之互动，它们也能与你互动。</p>"
+    },
+    "Off the Map": {
+      "name": "地图之外 Off the Map",
+      "description": "<p>你知道如何走出地图边界，藏进无人探访之处，沿着唯有荒野与潮汐知晓的遗忘路径前行。每当你[[/act avoid-notice]]并以隐秘掷先攻时，也进行一次生存检定；若身处与海岸生态位相符的环境，该检定获得+2环境加值。GM将生存检定结果与每个敌人的察觉DC比较。若成功，你对该目标获得隐蔽，直到其首个回合开始；即使没有其他掩护或隐蔽来源，也可能因此对其[[/act hide]]或[[/act sneak]]经过。</p><p></p>"
+    },
+    "Flying Fins": {
+      "name": "飞行之鳍 Flying Fins",
+      "description": "<p>你的鳍伸长并相连，形成帆状结构。你获得等于陆地速度或游泳速度中较高者的飞行速度；使用振鳍跃起时，可以在垂直跳跃后选择飞行，而非鳍翼滑翔。</p>"
+    },
+    "Disappear": {
+      "name": "潜水隐踪 Disappear",
+      "description": "<p><strong>触发</strong> 你成为一次打击的目标</p><p><strong>使用条件</strong> 你正在可供寻找掩蔽的水体中游泳</p><hr><p>你潜入水下，消失无踪。你[[/act hide]]；若成功，攻击未命中。若大成功，还可以游泳5尺。潜水隐踪带来的藏匿最晚持续至你的下个回合结束，或直到你采取通常会结束躲藏的动作；但你可以[[/act sneak]]或[[/act hide]]来延长它</p>"
+    },
+    "Soul-Rending Storytelling": {
+      "name": "撕魂叙事 Soul-Rending Storytelling",
+      "description": "<p>有些故事永远不应被讲述。它们被封存，或遭有意遗忘，从未落笔、从未演出。世上确有危险的故事，而你恰好知道一个。你可以每天一次将@UUID[Compendium.pf2e.spells-srd.Item.Ht35SDf9PDStJfoC]作为异能天生法术施放，但你的精魂挽歌只造成@Damage[12d6[spirit]]伤害，而非14d6；你也不是歌唱，而是在讲述其中一个禁忌故事。</p>"
+    },
+    "Bonded Vessel": {
+      "name": "联结容器 Bonded Vessel",
+      "description": "<p>你与容器的联系几乎不受限制。你可以持续感知@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.vFtS8rTc0OCyhXBl]{灵魂容器}赋予的魔宠所感知的一切，并通过它说话；声音湿润咕噜，却仍能听懂。</p>"
+    },
+    "Quick Shed": {
+      "name": "快速蜕皮 Quick Shed",
+      "description": "<p>多数蛇人大约每月蜕皮一次，你却能快速催动蜕皮，除去外来污染物。若你正受到接触身体的来源造成的持续伤害，例如火焰或酸蚀，而非纯心灵效果或流血伤害，则会除去该污染物，除非它格外顽固。若移除DC为15或更低，持续伤害自动结束；若DC高于15，则将结束持续伤害的DC降低至10，并立即进行一次移除检定。</p><p>快速蜕皮会自动清除皮肤表面的非魔法染料和黏合剂。GM可以酌情让它也赋予一次额外豁免，以对抗接触毒素等通过接触皮肤起效的有害效果。</p>"
+    },
+    "Fluttering Leap": {
+      "name": "振鳍跃起 Fluttering Leap",
+      "description": "<p><strong>使用条件</strong> 你的分尾一侧空闲，且正站在坚实表面上，可以[[/act leap]].</p><hr><p>如同飞鱼，你并非真正飞翔，而是在水花间滑行。你用分尾垂直向上跳跃至多20尺，然后鳍翼滑翔。若分尾两侧都空闲，则可以改为垂直向上跳跃至多30尺，再鳍翼滑翔。</p>"
+    },
+    "Sthranus Serpent": {
+      "name": "斯拉努斯之蛇 Sthranus Serpent",
+      "description": "<p>你将神兽斯拉努斯的一缕韧性注入蛇魔宠，使它化为金鳞的斯拉努斯之蛇，几乎任何伤势都能恢复。有些蛇人仗着它的恢复能力，反复将魔宠送入险境；另一些将它视为应受尊重的神圣生物，认为如此行事是亵渎。还有些人兼取两种看法，认为让魔宠历险，比认定它需要保护更为尊重。</p><p>你的斯拉努斯之蛇魔宠每休息10分钟，就恢复等于你等级两倍的生命值。若它死亡，只要身体未被彻底摧毁，就会从剩余的最大躯体部分缓慢再生。24小时后，它会以满生命值苏醒。</p>"
+    },
+    "Apex Arcana": {
+      "name": "巅峰奥术 Apex Arcana",
+      "description": "<p>你终于释放出魔法赐福的全部潜能。选择一个5环奥术法术和一个6环奥术法术，两者都必须是你具有许可的法术。你可以每天各一次将所选法术作为奥术天生法术施放。</p><hr><p><strong>特殊</strong> 若你是幽深秘法蛇人，也可以从具有许可的神术列表法术中选择巅峰奥术赋予的法术，但无论选择哪个列表，你仍将其作为奥术天生法术施放。</p>"
+    },
+    "Venomous Sting": {
+      "name": "毒液尾刺 Venomous Sting",
+      "description": "<p>你的尾刺含有能削弱敌人力量的毒素。尾刺徒手攻击重击敌人时，你获得特殊重击专精效果：目标陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}，直到你的下个回合开始。若你通常也会获得斗殴武器组的重击专精效果，则每次重击时可选择使用哪一种。</p><p>此外，被尾刺徒手攻击重击的敌人受到1d4持续毒素伤害。</p>"
+    },
+    "Creation, Destruction": {
+      "name": "创造与毁灭 Creation, Destruction",
+      "description": "<p>创造你、或接受你效忠的神祇，赐予你守护盟友或毁灭敌人的力量。你可以将@UUID[Compendium.pf2e.spells-srd.Item.jj5d830iUi2ZlQfs]和@UUID[Compendium.pf2e.spells-srd.Item.MMCQsh12TPaDdPbV]作为神术天生法术施放，每天各一次。</p>"
+    },
+    "Repulsion Wave": {
+      "name": "排斥波 Repulsion Wave",
+      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>敌人蜂拥而至、试图突破你的防线时，你召来异界力量将其轰开。你用武器、法杖或爪子敲击地面，召出@Template[type:cone|distance:30]的力场，试图击退区域内所有敌人；这是强制移动。受影响生物必须对你的职业DC或法术DC中较高者进行一次@Check[fortitude|against:class-spell]豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物被推开5尺。</p><p><strong>失败</strong> 该生物被推开10尺，并因冲击陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p><p><strong>大失败</strong> 该生物被推开20尺，并被冲击弄至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}和震慑1。</p>"
+    },
+    "Mass Cue": {
+      "name": "群体提词 Mass Cue",
+      "description": "<p>所有人，一起来。你可以每天一次将5环@UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]作为异能天生法术施放，并能每小时一次施放提词赋予的1环天生<em>命令术</em>。你的5环<em>命令术</em>具有与提词相同的改动。</p>"
+    },
+    "Infinite Censure": {
+      "name": "无尽谴责 Infinite Censure",
+      "description": "<p>你向来对周围人挑剔得很，谴责真正的仇敌时更是永无休止。你可以随意使用谴责仇敌，而非每10分钟一次，伤害从2d6提高至2d8。虽然你能无限谴责，他人受其影响的次数仍有限；依照通常规则，每次尝试后，敌人仍暂时免疫谴责仇敌1分钟。</p>"
+    },
+    "Ward Shelter": {
+      "name": "庇护居所 Ward Shelter",
+      "description": "<p>选定休息之处时，你会确保敌对精魂难以进入。你可以花费10分钟布置护符，为自己所在房间建立防护结界。结界持续24小时或直到你离开房间，以先发生者为准，抵御恶魔、精类、精魂与亡灵入侵。布置时，房间内不能有这些类型的生物，除非是你或你的家人。此外，若其中任何类型的生物（除你外）可以合理地被认为与你及家人相比更紧密地联系着该房间，你就不能布置结界。例如，不能防护巫妖巢穴或希德族城堡中的房间，却可以防护人类旅店老板经营的客房。恶魔、精类、精魂或亡灵若未经你允许试图进入，必须进行意志豁免，DC为你的职业DC或法术DC中较高者@Check[will|against:class-spell]。该生物一旦成功进入，就暂时免疫你的庇护居所24小时。</p><hr /><p><strong>大成功</strong> 该生物不受结界影响，可以自由进入。</p><p><strong>成功</strong> 该生物可以进入，但屏障会略微将其弹回。首次进入时，它穿过的房间边界方格（例如门窗所在方格）为高等困难地形。</p><p><strong>失败</strong> 该生物可以进入，但须格外费力。用于进入房间的动作（例如行走）额外需要一个动作才能完成。若剩余动作不足，进入尝试失败。</p><p><strong>大失败</strong> 该生物不能进入房间。</p><hr /><p><strong>特殊</strong>：若你拥有心之所在即是家或家园不远专长，可以在舒适小屋或位面豪宅的1分钟施法时间内，作为施法的一部分消耗庇护居所的每日用量，使召出的魔法家园获得其益处。</p>"
+    },
+    "Waverider": {
+      "name": "驭浪者 Waverider",
+      "description": "<p>水中才是你的家。你获得20尺游泳速度。</p><hr><p><strong>特殊</strong> 若你具有@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.heritages.Item.o6YZqs9SotHgZjmS]传承，则游泳速度改为等于陆地速度。</p>"
+    },
+    "Kushtaka Weapon Familiarity": {
+      "name": "陆獭人武器熟悉 Kushtaka Weapon Familiarity",
+      "description": "<p>战斗中，你偏爱陆獭人水手与劫掠者的传统武器。你获得下列武器的许可与熟悉：登船斧、绳球、战斗渔竿、格斗船桨、钩棒、鱼叉、凿斧和战槌。计算熟练度时，将其中的军用武器视为简易武器，将进阶武器视为军用武器。</p><p>从5级起，每当你用这些武器之一重击，就获得其重击专精效果。</p>"
+    },
+    "Never Far From Home": {
+      "name": "家园不远 Never Far From Home",
+      "description": "<p>你创造永久家园，并与其建立强烈联系，无论身在何处都能将其召来。你可以每天一次将@UUID[Compendium.pf2e.spells-srd.Item.vPWMEyVTreMOoFnm]作为原能天生法术施放。用<em>位面豪宅</em>召出的始终是同一栋建筑、同一批仆从，你只是将入口移到新位置。因此，存放其中的物品和所作的改动都会在各次施法之间保留。豪宅仆从是模样与你传承相似的弱小家宅精灵，诞生于你强大魔法的凝聚。它们能用精类语简单交流，却不能显现在你的异次元家园之外。</p><hr /><p><strong>特殊</strong>：若你拥有@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.xyVVU1tbFVPPu7wt]{心之所在即是家}专长，可以用它召出<em>位面豪宅</em>而非<em>舒适小屋</em>，从而每天召出家园两次。</p>"
+    },
+    "Menagerie of Thoughts": {
+      "name": "念头兽苑 Menagerie of Thoughts",
+      "description": "<p>你意识到，等念头主动上门反而更容易。因此，你在星界捕捞时不用鱼叉，而用网和高爆炸药（这大概只是比喻，但对寓言裔而言，谁说得准呢）。每天，你可以用宠养念头准备三项额外学识专长，而非一项，但仍不能连续两天选择同一学识。</p><hr /><p><strong>特殊</strong> 若你拥有宠养意念，则针对这三项学识都获得@UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{驾轻就熟}和@UUID[Compendium.pf2e.feats-srd.Item.H3I2X0f7v4EzwxuN]{耳熟能详}技能专长。</p>"
+    },
+    "Camouflaged Hunter": {
+      "name": "伪装猎手 Camouflaged Hunter",
+      "description": "<p>你学会化阻碍为优势，将自己伪装得几乎融入草木。你的隐秘熟练度变为专家；若隐秘已为专家，则选择另一项受训技能提升至专家。身处灌木丛时，你可以[[/act hide]]和[[/act sneak]]，即使没有掩护、也不处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}。</p>"
+    },
+    "Twice-Blessed": {
+      "name": "双重赐福 Twice-Blessed",
+      "description": "<p>直到不久前，蛇人同时获得力量与魔法赐福几乎闻所未闻。然而，近几年来，少数强大蛇人开始显现出孵化时未曾获赐的另一种力量。</p><p>你正是开拓者之一。若你是阿泼夫蛇人，选择一个奥术戏法，可随意将其作为奥术天生法术施放。若你是泽斯蛇人，则获得尖牙徒手攻击，造成1d6穿刺伤害，具有娴熟特征，属于斗殴武器组。</p><p>此外，不论最初获得哪种赐福，你都可以选择以阿泼夫或泽斯蛇人为先决条件的专长及其他角色选项。若某项专长针对不同赐福规定不同效果，选择其中一个获得。</p>"
+    },
+    "Dig In": {
+      "name": "稳踞原地 Dig In",
+      "description": "<p><strong>频率</strong> 每分钟一次</p><p><strong>触发</strong> 你因强制移动将要位移，且正站在地面上。</p><hr><p>你牢牢立足地面，以体重与顽固的韧性阻止不愿承受的移动。若为中型，将移动距离减少5尺；大型减少10尺；巨型减少20尺，最低减至0尺。</p><hr><p><strong>特殊</strong> 若你拥有稳固专长，先应用稳踞原地的距离减免，再用稳固将距离减半。</p>"
+    },
+    "Toxin Purge": {
+      "name": "清除毒素 Toxin Purge",
+      "description": "<p><strong>使用条件</strong>你正受到毒素的影响。</p><hr /><p>沙漠中的许多居民都带有毒性，因此你训练自己，集中体内的毒素与能量来抵御外来毒素。你立即对当前影响你的毒素再尝试一次强韧豁免检定：成功时降低该毒素毒害的阶段，失败时不推进阶段。对于一次中毒，你只能尝试使用清除毒素一次；但若之后再次感染同一种毒素，你可以再次尝试清除。</p>"
+    },
+    "Dress Rehearsal": {
+      "name": "正式彩排 Dress Rehearsal",
+      "description": "<p><strong>频率</strong>每日一次</p><hr /><p>各就各位，好戏就要开场了。此能力具有@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.n1isD88dBT5frF6O]{舞台指示}的效果，但影响你周围30尺内的所有生物。受影响的角色可以扮演不同的典型角色，但这些角色之间必须存在叙事逻辑上的关联，且须基于他们在现实中的关系（例如：“这两人为法师效力，所以他们是他的‘愚蠢喽啰’，而法师则成为‘傲慢的魔法师’”）。</p>"
+    },
+    "Soul's Visage": {
+      "name": "灵魂容貌 Soul's Visage",
+      "description": "<p>你获得变形为类人生物的能力，外貌类似于前世的自己，不过你很可能并未意识到这副新容貌源自前世。你呈现出某一独特的小型或中型类人生物的具体外貌；在变形期间，你失去兽类特征，并获得类人生物特征。每次使用此能力时，你都会变成所选定的同一形态，不过你可以用非魔法伪装进一步改变外貌。这不会改变你的速度或其他数据。你可以再次使用灵魂容貌变回通常的陆獭人形态；如果失去意识，你会自动恢复陆獭人形态。</p><hr><p><strong>特殊</strong>如果你拥有@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.rdMiYazNM1svVkFl]{重拾前尘}专长，灵魂容貌赋予的替代形态必须属于你为重拾前尘所选择的同一族裔（以及适用的体型）。</p>"
+    },
+    "Sand Tempest": {
+      "name": "沙尘风暴 Sand Tempest",
+      "description": "<p><strong>频率</strong>每日一次</p><hr /><p>你召来汹涌的沙流，在@Template[type:emanation|distance:20]内冲击敌人，对范围内所有生物造成@Damage[(ceil(@actor.level/2))d6[slashing]|options:area-damage]伤害，可进行@Check[reflex|against:class-spell|basic]豁免，其DC等于你的职业DC或法术DC，取较高者。豁免失败的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮，豁免大失败的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1轮且目眩1分钟。余下的沙尘继续在你周围盘旋，直到你的下个回合结束；沙尘中的所有生物均处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态，且对其中的生物而言，沙尘外的所有生物也均处于隐蔽状态。不过，你会忽略自己所制造的沙尘风暴造成的隐蔽。这一挥砍伤害在11级时增加1d6，此后每两级再增加一次，至19级时最高达到10d6。</p>"
+    },
+    "Deflecting Tail": {
+      "name": "拨挡之尾 Deflecting Tail",
+      "description": "<p><strong>频率</strong>每分钟一次</p><p><strong>触发</strong>一次打击以你为目标。</p><p><strong>使用条件</strong>你的尾巴有一侧空闲。</p><hr><p>你知道如何用尾巴拨开武器。你将尾巴的一侧猛然甩向来袭的打击，保护自己，对抗触发攻击时AC获得+2环境加值。</p>"
+    },
+    "Undying Resurgence": {
+      "name": "不死复苏 Undying Resurgence",
+      "description": "<p>你与前世灵魂的联系愈发紧密。你可以每小时使用一次@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.SqM4qADNTZyalmBO]{灵魂复苏}，而非每日一次。你还可以用一个三动作活动，与自己的灵魂建立更深入的联系，失去@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.features.Item.mmaOFHiYcLPDP0no]族裔能力的益处与弊端。你可以再次使用一个三动作活动，将旧日灵魂分离，重新获得无魂族裔能力的益处与弊端。</p>"
+    },
+    "Bar the Way": {
+      "name": "封锁通道 Bar the Way",
+      "description": "<p>你知道如何封住不应开启的区域。你可以每10分钟施放一次@UUID[Compendium.pf2e.spells-srd.Item.Azoh0BSoCASrA1lr]，作为2环神术天生法术。你不必支付令其持续时间变为无限的额外费用，且以此方式创造的生效中<em>固锁术</em>数量可等于你的关键施法属性（若你的关键施法属性为+0或更低，则只能有一个<em>固锁术</em>）；如果你尝试再创造一个，最早的固锁术便会结束。如果有人打开受你的<em>固锁术</em>影响的通道，你会立即察觉，但不会得知是谁打开了它，或如何打开。</p>"
+    },
+    "Wisdom of the Stars": {
+      "name": "星辰智慧 Wisdom of the Stars",
+      "description": "<p>你擅长占星术，通过解读星座占卜未来的威胁。你获得用于占星学识的额外学识技能专长。</p><p>每日一次，只要能看见夜空，你就可以用一个10分钟的活动，尝试一次@Check[astrology-lore|dc:@self.level]检定，DC为你当前等级的标准DC。</p><hr /><p><strong>大成功</strong>接下来8小时内，你尝试的第一次先攻检定获得+4环境加值，第二次先攻检定获得+3环境加值，第三次先攻检定获得+2环境加值，第四次先攻检定获得+1环境加值。8小时后，所有尚未使用的益处均会失去。</p><p><strong>成功</strong>你下一次尝试的先攻检定获得+2环境加值。如果8小时内未使用此益处，你便会失去它。</p><p>@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.effects.Item.N2VwZYsOQbrnBFL6]{效果：星辰智慧}</p><p><strong>失败</strong>你未能从星辰中占卜出任何含义。</p><p><strong>大失败</strong>你误读了星座预示的威胁，接下来8小时内，先攻检定承受–1减值。</p><p>@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.effects.Item.A6UxLTGAkBp8pgrs]{效果：星辰智慧（大失败）}</p>"
+    },
+    "Titanic Tail Sweep": {
+      "name": "泰坦扫尾 Titanic Tail Sweep",
+      "description": "<p><strong>频率</strong>每10分钟一次</p><hr><p>你站稳双脚，然后转动身体，将尾巴大幅扫过周围。对10尺内至多三个不同的生物各进行一次尾巴打击（即使它们在你通常的触及范围之外）。计算多次攻击减值时，这视为三次攻击，但你直到所有这些攻击都结算完毕后才会增加多次攻击减值。</p><hr><p><strong>特殊</strong>如果你的体型为巨型，改为对15尺内至多四个不同的生物各进行一次尾巴打击。</p>"
+    },
+    "Limbless Instincts": {
+      "name": "无肢本能 Limbless Instincts",
+      "description": "<p>你或许拥有手脚，但用腹部蜿行依然像是与生俱来的本能。你不再自动陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，这仅指因@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}而造成的情况。如果你在倒地且未措手不及时[[/act take-cover]]，你对抗远程攻击获得标准掩蔽，而非高等掩蔽。此外，你可以使用蜿行动作。</p><p>@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.QSAKmCBIgwkiwBeg]{蜿行}</p>"
+    },
+    "Poison Spray": {
+      "name": "毒液喷射 Poison Spray",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p>你不再蜇刺单一目标，而是将毒液喷向外侧的@Template[type:cone|distance:30]。范围内所有生物受到@Damage[(ceil(@actor.level/2)+1)d6[poison]|options:area-damage]伤害，可进行@Check[fortitude|against:class-spell|basic]豁免，对抗你的职业DC或法术DC，取较高者。豁免失败的生物在所有检定和DC上承受–1状态减值，直到其下个回合；豁免大失败的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}。这一毒素伤害在15级时增加1d6，此后每两级再增加一次，至19级时最高达到11d6。</p><p>@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.effects.Item.ox0yHf4QqxyDDYgW]{效果：毒液喷射}</p>"
+    },
+    "Spirit of any Home": {
+      "name": "四海家灵 Spirit of any Home",
+      "description": "<p>你与周遭环境融为一体，即便远离家园，也迫使附近区域承认你是此地的家宅精灵。墙壁、地板和门槛会微妙地回应你的存在，认可你的权威。你宣示对身边60尺内庇护所各处的主权，持续1分钟。位于此区域内，或在接下来一分钟内进入此区域的所有敌人，均须尝试一次@Check[will|against:class-spell]豁免，对抗你的职业DC或法术DC，取较高者。失败者陷入惊惧1，大失败者陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}；只要仍在此区域内且此能力仍生效，它们就不会在各自回合结束时降低该状态值。同时，区域内所有盟友的攻击检定、察觉检定、豁免检定和技能检定获得+1状态加值。</p><p>如果已有生物对该区域拥有超自然意义上的主权，例如你在宁芙守护的领地、地城角色的地城，或恶魔领主领域中的一部分使用此能力，你必须成功通过一次对抗该生物意志DC的反制检定，才能确立自己的主权；此次检定的反制环级等于你等级的一半，向上取整，反制调整值等于你的职业DC –10或法术DC –10，取较高者（@Check[class-spell||against:willoptions:counteract]{反制}）。失败时，你在1日内无法再次尝试对抗同一主权者的此反制检定（即便你移到同一建筑的不同区域，或移到该主权者领域内的另一座建筑中）。</p>"
+    },
+    "Land Otter Arts": {
+      "name": "陆獭秘法 Land Otter Arts",
+      "description": "<p>你解锁了与陆獭人相关的最强大魔法。你获得@UUID[Compendium.pf2e.spells-srd.Item.yrZA4k2VAqEP8xx7]和@UUID[Compendium.pf2e.spells-srd.Item.PHVHBbdHeQRfjLmE]，作为6环原能天生法术，每个法术均可每日使用一次。被你的<em>灵魂冲击</em>杀死的活体类人生物会在24小时后复活，成为新的陆獭人；你对这个新陆獭人没有任何控制权或影响力，且它不记得先前存在时的任何事情。</p>"
+    },
+    "Armored Deflection": {
+      "name": "护甲偏斜 Armored Deflection",
+      "description": "<p><strong>触发</strong>一次重击对你造成物理伤害。</p><hr><p>你的甲片尝试偏转这一击。尝试一次@Check[flat|dc:17]。如果成功，此次攻击变为普通命中。</p>"
+    },
+    "Sturdy": {
+      "name": "稳固 Sturdy",
+      "description": "<p>你身躯庞大、沉重而宽阔，站姿稳健，也有勇气坚守阵地，对抗任何威胁。你对抗试图对你进行[[/act reposition]], [[/act shove]]或[[/act trip]]的强韧DC与反射DC获得+2环境加值。此加值也适用于对抗试图迫使你移动或将你击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}的法术或效果时的豁免检定。此外，如果任何效果会迫使你移动10尺或更远，你只会移动该距离的一半。</p>"
+    },
+    "A Tragic Story": {
+      "name": "悲剧的故事 A Tragic Story",
+      "description": "<p><strong>频率</strong>每日一次</p><p><strong>触发</strong>你的生命值降至一半以下。</p><hr /><p>没有足够戏剧化的死亡场面，还算什么悲剧？你使自己@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]。与此同时，你创造出自己死亡的幻象，死法与导致你生命值降至一半以下的原因相符：你被怪物一击劈成两半，或被法术烧成焦炭，诸如此类。只要你维持此效果，你就保持隐形，并留下一具惨状相称的尸体幻象，至多持续10分钟。如果你采取敌对动作，此效果会提前结束，尸体幻象也随之消失。</p>"
+    },
+    "Vigorous Venom": {
+      "name": "毒液速生 Vigorous Venom",
+      "description": "<p>你的毒液恢复到完全效力的速度，远比普通的剧毒大海蛇更快。你可以每小时使用一次毒液打击，而非每日一次。</p>"
+    },
+    "Destined Strike": {
+      "name": "命定打击 Destined Strike",
+      "description": "<p><strong>频率</strong>每日一次</p><p><strong>触发</strong>你对一名敌人的打击将失败或大失败。</p><hr /><p>一位神祇选中你作为其意志的执行者，以神圣灵光助你击倒敌人。你重掷触发的打击。即使第二次结果更差，你也必须采用该结果。</p>"
+    },
+    "Ophidian Familiar": {
+      "name": "蛇类魔宠 Ophidian Familiar",
+      "description": "<p>你与一条微型蛇建立了羁绊，无论你走到哪里，它都会忠诚相随。你获得一个拥有2项能力的蛇魔宠，使用通常的魔宠规则。</p><hr><p><strong>特殊</strong>如果你选取本专长时，已经从其他来源获得蛇魔宠，则你改为获得斯拉努斯之蛇作为额外专长，即便你不满足其等级先决条件。</p>"
+    },
+    "Textual Scholar": {
+      "name": "文献学者 Textual Scholar",
+      "description": "<p>你悉心研究了与众多重要地点有关的历史文献和神圣经典，因此拥有出色的分析能力。你在@UUID[Compendium.pf2e.actionspf2e.Item.d9gbpiQjChYDYA2L]{解译文书}的技能检定上，以及对涉及文字的事物进行@UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{辨识魔法}的技能检定上，获得+1环境加值，例如@UUID[Compendium.pf2e.hazards.Actor.2GAOUxDfoA48uCWP]危害或@UUID[Compendium.pf2e.spells-srd.Item.o0l57UfBm9ScEUMW]；你对抗依赖文字的效果时，AC和豁免检定也获得此加值。如果你用于解译文书或辨识魔法的技能熟练度为大师，该技能检定的环境加值提升至+2。</p><p>每日第一次在此类检定中大失败时，你改为失败；由于此类检定通常暗藏秘密陷阱，请提醒主持人在发生这种情况时为你应用此效果。</p>"
+    },
+    "Protect Kindred": {
+      "name": "守护亲友 Protect Kindred",
+      "description": "<p><strong>频率</strong>每小时一次</p><p><strong>触发</strong>与你相邻的一名盟友成为打击的目标，且你知晓此次攻击。</p><hr /><p>你将武器挡在盟友与来袭攻击之间，使其对抗触发攻击的AC获得+3环境加值。使用守护亲友后，你陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到当前行动生物的下个回合结束，或你在自己的回合中使用一个移动动作（通常是行走）以恢复平衡，取先发生者。</p><p>@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.effects.Item.FqhhBmuICOzHjfql]{效果：守护亲友}</p>"
+    },
+    "Poise to Strike": {
+      "name": "蓄势出击 Poise to Strike",
+      "description": "<p>即便按蛇人的标准，你的颈部也格外修长优雅。虽然你通常会将颈部下端盘起，但必要时可以伸直，攻击远处的敌人。</p><p>你展开盘起的颈部，高高抬头。你从蛇人族裔获得的尖牙打击的触及范围增加5尺，直到你的回合结束。</p>"
+    },
+    "Unseen Invader": {
+      "name": "无形入侵者 Unseen Invader",
+      "description": "<p>你用魔法包裹自己，隐藏行踪，直到准备好发动攻击。你可以每小时施放一次@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]，作为4环原能天生法术。</p>"
+    },
+    "Twin-Tail Tear": {
+      "name": "双尾撕扯 Twin-Tail Tear",
+      "description": "<p><strong>频率</strong>每分钟一次</p><p><strong>使用条件</strong>你的尾巴两侧均空闲。</p><hr><p>你用分叉尾巴的两半撕扯敌人。用分叉尾巴对同一目标尝试两次打击。如果两次攻击都命中，你可以立即尝试[[/act grapple]]该目标，且此次擒拿不应用你的多次攻击减值。</p>"
+    },
+    "Raft of Land Otters": {
+      "name": "陆獭浮群 Raft of Land Otters",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr><p>你与非陆獭人盟友分享陆獭人的诅咒。你和30尺内至多六名类人生物获得25尺游泳速度，持续10分钟；如果本就拥有游泳速度，则改为使其游泳速度获得+10尺状态加值。在此效果持续期间，所有受影响生物均可在水下呼吸，并如水獭般优雅轻松地游泳。此效果生效时，所有受影响的类人生物都会呈现出水獭般的特征，包括粗硬的毛发、胡须和尖牙。</p><p>@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.effects.Item.adnJ8IWk54avCbRe]{效果：陆獭浮群}</p>"
+    },
+    "Curse Diviner": {
+      "name": "辨咒者 Curse Diviner",
+      "description": "<p>你从小接触古老的器物与遗物，不论是主动研究，还是听家人讲述相关故事，你都因此敏锐地察觉到这些东西何时会带来危险。你在辨识诅咒物品及具有诅咒特征的效果时获得+2环境加值，对抗具有诅咒特征的效果时，豁免检定获得+2环境加值。如果你对抗诅咒的豁免检定成功，则改为大成功。</p>"
+    },
+    "Speedy Shoreline Adaptation": {
+      "name": "快速海岸适应 Speedy Shoreline Adaptation",
+      "description": "<p>与大多数大海蛇不同，你能够迅速适应新环境。进行每日准备时，选择一种环境。在你下次进行每日准备前，该环境都视为你的海岸生态位的一部分。</p>"
+    },
+    "Prophetic Constellations": {
+      "name": "预言星座 Prophetic Constellations",
+      "description": "<p>通过观测星辰，你能够占卜未来的线索。每日一次，你可以施放@UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]，作为神术天生法术。施放时你必须能看见夜空，但该法术可以预知未来至多24小时内的事件。</p>"
+    },
+    "Fin Glide": {
+      "name": "鳍翼滑翔 Fin Glide",
+      "description": "<p>你用鳍引导下降的方向。你缓缓向地面滑翔，下降5尺，并向前移动至多25尺。只要每轮至少花费1个动作滑翔，且尚未落地，你就会在回合结束时继续停留在空中。</p>"
+    },
+    "Lash Out": {
+      "name": "探身猛击 Lash Out",
+      "description": "<p>你过度伸展身体，攻击刚好在触及范围之外的敌人。用蝎钳或尾针进行一次打击：蝎钳打击的触及范围增加5尺，尾针打击则增加10尺。</p>"
+    },
+    "Go Unseen": {
+      "name": "隐于无形 Go Unseen",
+      "description": "<p>你更喜欢不被人看见。你可能用这种力量悄悄帮助别人，或仅对敌人隐藏自己。你可以每小时施放一次@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]，作为原能天生法术。如此做时，你可以选择正常施放该法术，或修改它，使孩童及你曾视为家庭成员的人（例如近亲或队友）仍然能看见你。</p>"
+    },
+    "Postulate's Spark": {
+      "name": "学说火花 Postulate's Spark",
+      "description": "<p>起源从何而来一直备受争议，而所有学说的蜥族中都蕴藏着魔法火花这一事实，只让争论更加扑朔迷离。你就是这样一位天赋异禀的蜥族。从以下魔法传统中选择一种：奥术、神术、异能或原能（蜥族通常会选择符合自己学说的传统，例如信仰派选择神术）。</p><p>从所选传统的法术列表中选择一个戏法。你可以随意施放该戏法，作为天生法术。此法术采用你所选的传统。戏法会升阶至等于你等级一半的法术环级，向上取整。</p>"
+    },
+    "Read Portents": {
+      "name": "解读预兆 Read Portents",
+      "description": "<p>你凝视未来的迷雾，寻找可能降临到家人身上的危险，以及避免它们的最佳办法。你可以每小时施放一次@UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]，作为原能天生法术。</p>"
+    },
+    "Scorpion Plague": {
+      "name": "蝎群之灾 Scorpion Plague",
+      "description": "<p><strong>频率</strong>每日一次</p><hr /><p>你在@Template[type:emanation|distance:20]内召来一大群密密麻麻、不断啮咬的蝎子。蝎子能依照你的指示分辨敌我，不会妨碍或攻击你的盟友。你可以维持此效果，至多持续1分钟。对敌方生物而言，蝎群所在区域是困难地形。蝎群被召出时，以及此后每个你维持该效果的轮次中，区域内所有敌人均受到@Damage[6d6[piercing]|options:area-damage]伤害，可进行@Check[reflex|against:class-spell|basic]豁免，对抗你的职业DC或法术DC，取较高者；后续每轮的伤害在它们各自回合开始时发生。反射豁免失败或大失败的生物会接触蝎毒，随后必须尝试一次@Check[fortitude|against:class-spell]豁免，对抗同一DC。</p><hr /><p><strong>大成功</strong>该生物不受额外影响。</p><p><strong>成功</strong>该生物受到@Damage[3d6[poison]|options:area-damage]伤害。</p><p><strong>失败</strong>该生物受到@Damage[6d6[poison]|options:area-damage]伤害。</p><p><strong>大失败</strong>该生物受到@Damage[8d6[poison]|options:area-damage]伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1}。</p>"
+    },
+    "Ancient Atavist": {
+      "name": "远古返祖 Ancient Atavist",
+      "description": "<p>你成长到惊人的体型，接近传说中古老大海蛇及其现代兽性后裔的庞大程度。如果你原为大型，则成长为巨型；如果你原本小于大型，则可以选择成长为大型或巨型。无论如何，你的触及范围都会提升至10尺。</p>"
+    },
+    "Scorpion Familiar": {
+      "name": "蝎类魔宠 Scorpion Familiar",
+      "description": "<p>你从众多小型蝎子物种中选取了一只作为魔法宠物。你获得@UUID[Compendium.pf2e.feats-srd.Item.bcxIg7wi8ZAhvhOD]{魔宠}专长，且你的魔宠是一只微型蝎子。</p>"
+    },
+    "Separate into School": {
+      "name": "化身鱼群 Separate into School",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr><p>你变成一群微型银鱼，至多持续10分钟。鱼群占据与你相同数量的方格。你失去所有AC物品加值，以及来自护甲的其他一切效果与加值，并使用无甲防御的熟练调整值。处于此形态时，你无法激活物品、施放法术，或使用具有攻击或操作特征的动作。你可以穿过微型生物能通过的区域，而无需挤入。此形态下，你获得等于你等级一半的物理伤害抗力，以及等于你等级一半的范围伤害与溅射伤害弱点。你可以解消此效果。</p>"
+    },
+    "Shoreline Mastery": {
+      "name": "海岸精通 Shoreline Mastery",
+      "description": "<p>你与海岸的联系有着超自然的强度，增强了所有依赖海岸的能力。即便你的隐秘熟练度尚未达到大师，在海岸内进行隐秘检定时，你也会获得+2环境加值。如果拥有海岸疗愈和海岸冲刺，你可以每10分钟使用一次这些能力，而非每小时一次。如果拥有海岸守望，在享受其益处时，你还可以使能够看见或听见你的盟友的先攻检定获得+1环境加值。最后，如果你拥有海岸之谜专长，即便相关技能的熟练度尚未达到大师，你在对海岸的特征进行@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]时，也会获得+2环境加值。</p>"
+    },
+    "Aura of Awesome Terror": {
+      "name": "慑怖光环 Aura of Awesome Terror",
+      "description": "<p><strong>频率</strong>每日一次</p><hr /><p>你借助庇护者的神圣能量，或自身强大的气势，唤出一道半径30尺的光环，令所有胆敢攻击你的敌人心生恐惧。光环内的敌人每轮第一次对你采取敌对动作时，必须尝试一次@Check[will|against:class-spell]豁免，对抗你的职业DC或法术DC，取较高者。先应用豁免检定的效果，再结算敌对动作。此光环持续1分钟。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p><p><strong>成功</strong>该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}，且本回合无法将惊惧状态值降至1以下。</p><p><strong>失败</strong>如同成功，且直到其下个回合，该生物每次对你采取敌对动作时都会受到@Damage[3d6[mental]]伤害。</p><p><strong>大失败</strong>如同成功，但该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}，且直到其下个回合，该生物每次对你采取敌对动作时都会受到@Damage[6d6[mental]]伤害。</p>"
+    },
+    "Ruins Scholar": {
+      "name": "遗迹学者 Ruins Scholar",
+      "description": "<p>你多年来研究古代遗址与千年文献的残篇，寻找先民知识的痕迹。由于历史遗址往往年久失修，你也不得不学会轻巧地行动。你的特技和社群熟练度变为受训。如果你会自动在其中一项技能上成为受训（例如由背景或职业提供），则改为在一项自选技能上成为受训。</p><p>你还获得用于一项学识技能的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长，该学识必须与你重点研究的古代文明相关。</p>"
+    },
+    "Goldscale": {
+      "name": "金鳞 Goldscale",
+      "description": "<p>当斯拉努斯经过不断自我吞噬的循环，将形态淬炼到足以创造蛇人的程度时，祂的鳞片变成了金色。仿照这位始祖，蛇人在严酷挑战中反复磨炼技艺，偶尔也会长出金色鳞片。</p><p>你是一位罕见且备受尊敬的金鳞蛇人。你可以使用黄金不屈动作。</p><p>@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.actions.Item.ncRfQaBBNYE6ttuJ]{黄金不屈}</p>"
+    },
+    "Slink Away": {
+      "name": "悄然藏身 Slink Away",
+      "description": "<p>你悄然钻进缝隙，将身体藏入极小的空间，并在受到充分遮蔽时产生朦胧的雾气。当你在某个地物后[[/act take-cover]]时，即便原本没有标准掩蔽，也会获得高等掩蔽。如果你原本已有标准掩蔽，且即使没有本专长，也会对某个生物获得高等掩蔽，则你在对其寻找掩蔽时，还会额外对该生物获得@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态。</p>"
+    },
+    "Thundering Rush": {
+      "name": "雷鸣疾奔 Thundering Rush",
+      "description": "<p><strong>使用条件</strong>你的双手均空闲。</p><hr><p>你任由天性接管身体，四肢着地疾奔。行走三次，或沿一条直线行走四次。</p>"
+    },
+    "Stage Directions": {
+      "name": "舞台指示 Stage Directions",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p>寓言裔是典型化的生灵：世界故事中的一个角色，被注入了鲜活的生命。有时，他们也能把他人推入某种典型角色。寓言裔选择一种刻板印象或典型角色（例如“傲慢的魔法师”“愚蠢的喽啰”“鬼祟的游荡者”等），并对30尺内的一名角色说话；该角色必须尝试一次@Check[will|against:class-spell]豁免，对抗你的职业DC或法术DC，取较高者。主持人可根据该角色是否适合目标，给予目标–2环境减值至+4环境加值之间的调整。如果角色与目标的整体形象完全不符，此能力可能直接失败，但这种不适合的情况应当对寓言裔而言显而易见（如果目标本就是自视甚高的大法师，“傲慢的魔法师”并不牵强；但对一位谦逊、没受过教育、厌恶魔法且对此一窍不通的野蛮人而言，这一角色就完全说不通）。</p><hr /><p><strong>大成功</strong>目标不受影响，并知道你曾试图用魔法影响它。</p><p><strong>成功</strong>目标不受影响。</p><p><strong>失败</strong>在接下来10分钟内，目标开始以符合其典型角色的方式行事。具体表现随所选的刻板印象或典型角色而异，但通常目标仍会采取平时会做的那类行动，只是方式符合该角色，前提是这不会明显自毁或违背其自身利益。一位成为“傲慢的魔法师”的邪恶法师，不会停止与试图破坏其征服世界计划的英雄作战，但可能会在战斗中以自我吹嘘的独白解释宏伟计划。同时，“鬼祟的游荡者”可能更倾向于通过撒谎、作弊或偷窃，获取自己本来就想要的东西。必要时，目标可以违背该刻板印象来维护自身利益，但这会付出代价：在“不符合角色”的检定上承受–2环境减值（例如“愚蠢的喽啰”识破骗局）。</p><p><strong>大失败</strong>如同失败，但效果持续一小时。</p>"
+    },
+    "Hearty Meal": {
+      "name": "丰盛佳肴 Hearty Meal",
+      "description": "<p>你能准备一场美味到足以疗愈身心、振奋士气并舒缓紧张情绪的盛宴。只要有足够的食材供相应体型的生物饱餐一顿，你就能一次为至多10个生物供餐（包括你自己）。准备和享用这顿饭总共需要10分钟。食客可能恢复@Damage[(3d6+10)[healing]]点生命值，并获得其他效果，具体取决于一次@Check[Cooking Lore|dc:20]或@Check[crafting|dc:20]检定的结果。享用丰盛佳肴后，生物在24小时内暂时免疫丰盛佳肴提供的治疗和加值，但如果你做出的饭菜糟糕透顶，它们仍可能因此恶心。</p><hr /><p><strong>大成功</strong>这顿饭无比美味。所有食用者恢复等于你掷出数值两倍的生命值，且对抗毒素和疾病的豁免检定获得+1物品加值，持续24小时。</p><p><strong>成功</strong>这顿饭非常出色。所有食用者恢复等于你掷出数值的生命值，且对抗毒素和疾病的豁免检定获得+1物品加值，持续1小时。</p><p><strong>失败</strong>这顿饭不是你的最佳作品，但仍稍有滋补作用。所有食用者恢复等于你掷出数值一半的生命值。</p><p><strong>大失败</strong>无论是烹煮过度，还是不小心用了变质食材，这顿饭都糟糕透顶。所有食用者陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}，且不获得任何益处。</p><p>如果你用于检定的技能熟练度高于专家，可以选择尝试更高DC的检定，以增强效果。如果你是大师，可以选择将DC提升至30（@Check[Cooking Lore|dc:30]或@Check[crafting|dc:30]），使恢复生命值的基础数值提升至@Damage[(6d6+20)[healing]]，且豁免检定的物品加值提升至+2。如果你是传奇，也可以选择将DC提升至40（@Check[Cooking Lore|dc:40]或@Check[crafting|dc:40]），使恢复生命值的基础数值提升至@Damage[(12d6+30)[healing]]，且豁免检定的物品加值提升至+3。</p>"
+    },
+    "Dino-Tongue": {
+      "name": "恐龙之语 Dino-Tongue",
+      "description": "<p>你能够理解恐龙及类似生物，也能与它们交流。你可以向恐龙、龙，以及任何爬行类动物或兽类提问，获得它们的回答，并对它们使用交涉技能。你对恐龙进行[[/act make-an-impression]]时获得+1环境加值，但对其他类型的生物不获得此加值。</p>"
+    },
+    "Desert Wanderer": {
+      "name": "沙漠漫游者 Desert Wanderer",
+      "description": "<p>在无路可循的沙漠中长途跋涉，让你学会了即便在最严酷的环境中也能辨认方向、寻找食物与庇护所。你在@UUID[Compendium.pf2e.actionspf2e.Item.SB7cMECVtE06kByk]{掩盖行踪}、@UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{求生}以及[[/act track]]的生存检定上获得+1环境加值。如果你的生存熟练度为大师，此加值提升至+2。在沙漠地形中，此加值也会提高，总计为+2；如果你在沙漠地形中且生存熟练度为大师，则总计为+3。</p>"
+    },
+    "Serpentfolk Lore": {
+      "name": "蛇人学识 Serpentfolk Lore",
+      "description": "<p>你为祖先的强大而自豪，并悉心磨炼技艺，以充分发挥祖先赐福的益处。你的威吓与另一项技能的熟练度变为受训。如果你是阿泼夫，另一项受训技能为运动；如果你是泽斯，则为奥法。如果你会自动在其中一项技能上成为受训（例如由背景或职业提供），则改为在一项自选技能上成为受训。</p><p>你还获得用于蛇人学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}通用专长。</p>"
+    },
+    "Aegis of the Stars": {
+      "name": "星辰庇护 Aegis of the Stars",
+      "description": "<p>在你向星辰寻求指引之后，即便它们已不在视野中，也仍会庇护你。如果你为星辰智慧进行的占星学识检定成功或大成功，就会获得星辰的庇护。在接下来8小时内，有一次机会：如果你的一次豁免检定或非秘密技能检定将大失败，可以消耗此庇护，将结果改为失败。或者，你可以在进行秘密技能检定时消耗此庇护，公开掷骰；星辰低语着指引，使你得知通常会被保密的奥秘。如果你在8小时内未使用这两种益处中的任何一种，庇护便会结束，你也失去使用它的机会。</p>"
+    },
+    "My Glance is Death": {
+      "name": "一瞥即死 My Glance is Death",
+      "description": "<p><strong>频率</strong>每日一次。仅仅是你的瞪视就能为敌人带来死亡，吓得它们心脏停跳。选择30尺内的一个活体目标。目标受到@Damage[8d10[void],6d8[mental]]伤害，并可能死亡，具体取决于其@Check[will|against:class-spell]豁免的结果，对抗你的职业DC或法术DC，取较高者。</p><hr /><p><strong>大成功</strong>目标不受影响。</p><p><strong>成功</strong>如果目标的生命值少于30，则目标死亡。否则，目标受到一半伤害。</p><p><strong>失败</strong>如果目标的生命值少于60，则目标死亡。否则，目标受到全部伤害。</p><p><strong>大失败</strong>如果目标的生命值少于120，则目标死亡。否则，目标受到双倍伤害。</p>"
+    },
+    "Pinning Step": {
+      "name": "踩踏钉制 Pinning Step",
+      "description": "<p><strong>频率</strong>每小时一次</p><p><strong>触发</strong>你使用天生攻击专长提供的脚部打击获得大成功。</p><hr><p>用脚精准地击中敌人后，你将全身重量压在这一击上，试图将其击倒。尝试一次运动检定，对触发打击的目标进行[[/act trip]]，使用与触发打击相同的多次攻击减值。如果成功，你可以尝试一次运动检定，用脚[[/act grapple]]该目标，使用与触发的脚部打击及摔绊运动检定相同的多次攻击减值。成功时，由于你将该生物压在脚下，无需空闲手也能维持擒拿。但如果你用脚部徒手攻击攻击另一个生物，就会结束擒拿；如果你移动，也会结束擒拿，即便你拥有通常允许你拖着受擒生物一起移动的特殊能力。完成踩踏钉制后，再应用此次摔绊（以及进行过的擒拿）带来的多次攻击减值。</p>"
+    },
+    "Iconic Prop": {
+      "name": "标志道具 Iconic Prop",
+      "description": "<p>在你的故事中，你与某一特定物件密不可分：颈上的缎带、闪耀的宝剑，或鲜亮的兜帽。选择一件你拥有、等级不高于你的永久物品，且其本身不能已经是独特物品或神器；该物品获得独特特征。如果它是武器，你获得其重击专精效果；否则，它为你在选取本专长时选择的一项适当技能提供+1物品加值（如果你在该特定技能上的熟练度为大师，则提升至+2）。你可以花费一个动作，以富有戏剧性的姿态张开手掌；如果该道具无人持用且位于1英里内，它就会被召至你的空手中。这是异能传送效果。</p><p>如果你的标志道具被摧毁，它会在三天后重新出现在你的随身物品中。如今，这件道具已成为你本质的一部分，只要你仍存在，它就会一直存在。</p>"
+    },
+    "Immortal Spirit": {
+      "name": "不朽家灵 Immortal Spirit",
+      "description": "<p>只要家园屹立，你便不会消亡。你死亡时，只要你称之为家的房屋或其他具体地点仍然存在，就可以使自己的身体消失，将装备、盟友和凶手留在原地；由于你已死亡，这一决定由你的灵魂作出，大多数情况下，你通常会选择如此做，除非预期盟友很快就会复活你。这种消失突如其来，令人不安，往往伴随着熟悉的家居声响的微弱回声。如果你选择消失，你的身体会在暮色降临时于家中重新成形。你恢复至完全健康的状态，并穿着一套朴素衣物。每个阴历月，你只能使用不朽家灵从死亡中复活一次。如果在此期间再次死亡，你就会保持死亡。</p>"
+    },
+    "Seakeeper": {
+      "name": "海域守护者 Seakeeper",
+      "description": "<p>你的兽性使你能够轻易驯服和指挥水域中的生物。你获得一个魔宠，它必须是生活在河流或其他大型水域中或附近的生物，且它获得的两项能力中必须有一项选择两栖。</p>"
+    },
+    "Setting the Stage": {
+      "name": "布置舞台 Setting the Stage",
+      "description": "<p>听着，要想把事情做好，就得亲自动手。在这里，如果世界不肯提供适合你施展才华的舞台，那就只能即兴搭建一个。你可以每日施放一次@UUID[Compendium.pf2e.spells-srd.Item.Ucf8eynbZMfUucjE]，作为5环异能天生法术。到17级时，该法术升阶至6环。</p>"
+    },
+    "Land Otter Immortality": {
+      "name": "陆獭不死之身 Land Otter Immortality",
+      "description": "<p>将你变为陆獭人的那股力量，不会让你轻易逃离这种存在状态。每日第一次，当你的生命值将降至0但不会立即死亡时，无论你是否能够行动，这股神秘力量都会自动对你施放@UUID[Compendium.pf2e.spells-srd.Item.Hnc7eGi7vyZenAIm]，作为原能天生法术。</p>"
+    },
+    "Sacred Magics": {
+      "name": "神圣魔法 Sacred Magics",
+      "description": "<p>无论源自个人的虔诚奉献还是血脉，你获得了一缕神意的火花。从神术法术列表中选择一个常见戏法，或选择另一个你能够获取的神术戏法。你可以随意施放该戏法，作为神术天生法术。如同通常情况，该戏法会升阶至你等级的一半，向上取整。</p>"
+    },
+    "Embrace the Spark": {
+      "name": "拥抱火花 Embrace the Spark",
+      "description": "<p>你接纳了自己与起源之源的联系，以及它在你体内点燃的魔法火花。从你为学说火花选择的魔法传统中，选择一个常见的3环法术和一个常见的4环法术。你可以每日各施放一次所选法术，作为该魔法传统的天生法术。</p>"
+    },
+    "Innocuous Form": {
+      "name": "无害形态 Innocuous Form",
+      "description": "<p>做完工作后，你喜欢悄悄溜走；而要避开怀疑，没有什么比人们在日常生活中习以为常的小动物更合适。这份才能让你成为理想的观察者、间谍或隐秘的帮手。你变形成无害的动物形态。你的动物形态是某一种微型陆生动物的特定形象，独特而鲜明，每次都变为同一形态。它可能带有暗示你属于哪种家宅精灵的线索，例如宅老儿的浓密白毛；也可能与同物种的其他动物毫无区别。使用无害形态视为为欺骗技能的[[/act impersonate]]用途制作伪装，但只能用于扮作你的替代形态。在此微型动物形态下，你获得害兽形态的数据。你可以无限期保持替代形态，并再次使用此动作恢复真身，往往会选择恰到好处或出人意料的戏剧性时刻。</p>"
+    },
+    "Predatory Senses": {
+      "name": "掠食者感官 Predatory Senses",
+      "description": "<p>你拥有掠食者般敏锐的嗅觉。你获得一种特殊感官：范围30尺的模糊灵敏嗅觉。这意味着你可以通过嗅觉确定生物的位置，但它仍处于藏匿状态。此外，你在[[/act track]]先前曾以灵敏嗅觉感知到的生物时，生存检定获得+2环境加值。</p>"
+    },
+    "Wave Mastery": {
+      "name": "波浪精通 Wave Mastery",
+      "description": "<p>你掌控波浪、潮汐和水的其他运动。你获得特殊版本的操控天气仪式，只需要你担任主施法者，无需副施法者。你可以使用自然或生存来施放此仪式，即便生存通常不能用于仪式的主检定。此仪式的结果改变的是你周围水域的状况，而非大气天气，可依照你的意愿，在整个区域内创造风平浪静的航道、波涛汹涌的海面或危险的漩涡。</p>"
+    },
+    "Reclaim the Past": {
+      "name": "重拾前尘 Reclaim the Past",
+      "description": "<p>你的旅途使你逐渐接近曾经的自己，仿佛开始在身体与前世灵魂之间搭起桥梁。选择一个具有类人生物特征的常见族裔，或另一个你能够获取且具有该特征的族裔；这就是你成为陆獭人之前的族裔。你获得针对该族裔的@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊}专长，并获得该族裔的一项1级族裔专长。</p>"
+    },
+    "Weighted Maneuvers": {
+      "name": "重躯战技 Weighted Maneuvers",
+      "description": "<p>你知道如何在战场上发挥体重优势，利用身形与体量轻松摆布敌人。从以下动作中选择两个：[[/act disarm]], [[/act grapple]], [[/act reposition]], [[/act shove]]或[[/act trip]]。你进行所选动作的运动检定获得+1环境加值。如果你的体型为巨型，则改为获得+2环境加值。</p><hr><p><strong>特殊</strong>你可以第二次选取本专长。如此做时，你对剩余的全部三个动作也获得这些益处。</p>"
+    },
+    "Oblong Scales": {
+      "name": "长椭鳞甲 Oblong Scales",
+      "description": "<p>最早的哲学家曾记载，大海蛇拥有比盾牌还大的长椭圆鳞片，而你的鳞片接近了那份远古威严。你获得对钝击、挥砍和穿刺伤害的抗力2。此抗力在13级时提升至3，在17级时提升至4。</p>"
+    },
+    "A Strange Story": {
+      "name": "奇异的故事 A Strange Story",
+      "description": "<p>世上流传着这样一些故事：物品被独自搁置年复一年，最终获得了初步的智能或活了过来，就像付丧神一样。你或许没有足够的知识判断这些故事究竟有几分真实。但无论如何，它们确实广为流传，这对你来说就足够了。</p><p>你变为一件特定物品的形态，体型为微型、小型或中型，在选择本专长时决定。使用奇异的故事视为为欺骗技能的乔装用途准备伪装，但你可以乔装物品而非生物；它使你在防止他人识破伪装的欺骗检定上获得+4状态加值，且即便未受训，你也将等级加入熟练调整值。处于无法移动的物品形态时，你不能行动，唯一例外是再次使用奇异的故事，恢复通常形态。</p>"
+    },
+    "Spit Venom": {
+      "name": "喷吐毒液 Spit Venom",
+      "description": "<p>你能喷出一股浓缩毒液，腐蚀血肉，并可能使之麻木。你获得毒液唾沫远程徒手攻击，射程增量为30尺，造成1d4毒素伤害。重击时，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}，直到你的下个回合开始。唾沫不会附加重击专精效果。</p>"
+    },
+    "Call to the Sea": {
+      "name": "呼唤海洋 Call to the Sea",
+      "description": "<p>你伸出魔力触须，召唤海洋中的生物。你可以每日施放一次@UUID[Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu]，作为2环原能天生法术，但只能召唤生活在水中的生物，例如巨蟹和巨蛭。到9级时，该法术升阶至3环；到13级时，升阶至4环；到17级时，升阶至5环，但你仍只能召唤生活在水中的生物。</p>"
+    },
+    "Urban Legend": {
+      "name": "都市传说 Urban Legend",
+      "description": "<p>虽然阴森或令人不安的故事往往传播得更快，但并没有规定寓言裔非得可怕才行……不过实话实说，你确实很可怕。当你成功[[/act demoralize]]一名敌人时，该敌人在其每个回合开始时受到@Damage[1d4[mental]]伤害。当该生物失去惊惧状态、与你相距超过30尺，或经过1分钟后，此效果结束，取先发生者。如果你的威吓熟练度为大师，伤害提升至@Damage[2d4[mental]]；如果熟练度为传奇，伤害提升至@Damage[3d4[mental]].</p>"
+    },
+    "Adaptive Locomotion": {
+      "name": "适应性移动 Adaptive Locomotion",
+      "description": "<p><strong>频率</strong>每日一次</p><hr><p>你迅速适应环境，获得新的移动方式，鳞片也变换颜色，与周围环境相映。持续10分钟，你在[[/act hide]]或[[/act sneak]]的隐秘检定上获得+2环境加值，并获得下列一种速度。</p><ul><li><p>掘地15尺。</p></li><li><p>攀爬40尺。</p></li><li><p>飞行30尺。</p></li><li><p>游泳50尺。</p></li></ul><p>你可以选择提前解消适应性移动的效果。如此做时，即便没有掩护或隐蔽，你也会暂时对所有生物变为藏匿，这使你可以作为解消动作的一部分，潜行至多等于你速度的距离（在此次潜行动作中，你可以最后一次使用适应性移动提供的速度）。此次移动完成后，适应性移动的所有效果均会结束，因此若要维持此次潜行带来的藏匿或无踪状态，你必须有其他掩护或隐蔽来源。</p>"
+    },
+    "Swimmer of the Sunless Sea": {
+      "name": "无光之海的泳者 Swimmer of the Sunless Sea",
+      "description": "<p>你获得了斯拉努斯的一份微小赐福，使你能像海蛇一样游过地下海域与地表海域。你获得15尺游泳速度。</p>"
+    },
+    "Soul Vessel": {
+      "name": "灵魂容器 Soul Vessel",
+      "description": "<p>你的灵魂不再徘徊于体外，而是在魔宠体内建立了临时容器。由@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.qUVkR0NFjY8xAK0G]{海域守护者}专长提供的魔宠能够说你知晓的任何语言，作为不计入通常能力上限的额外能力；它的两栖能力也不再计入通常能力上限。虽然这些本领来自你的灵魂，但它无法获取你前世的记忆或其他信息。</p>"
+    },
+    "Blood on the Air": {
+      "name": "血腥气息 Blood on the Air",
+      "description": "<p><strong>触发</strong>你用近战武器或徒手攻击对一名对手造成伤害。</p><hr><p>敌人的鲜血喷涌而出，你张大鼻孔，感官变得敏锐。持续1轮，你从@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.rTHmFNr9Cxpxigr7]{掠食者感官}专长获得的灵敏嗅觉，对被你命中的对手视为精确感官，使你仅凭气味就能追踪其一举一动。不过，在此期间，你对抗嗅觉效果（例如恶臭怪物能力）的所有强韧豁免承受–4减值。</p>"
+    },
+    "Absorb Malaise": {
+      "name": "吸收苦楚 Absorb Malaise",
+      "description": "<p><strong>频率</strong>每10分钟一次</p><hr /><p>家宅精灵对同住者的情绪极为敏感。当你位于一名具有@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}、@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}、@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}或@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞}状态的盟友30尺内时，可以尝试将该状态吸入自己体内。对抗该状态的最初来源，尝试一次反制检定。你的反制环级等于1加上你等级的一半，向上取整（比通常高1），反制调整值等于你的@Check[will|options:counteract]豁免、职业DC –10或法术DC –10，取最高者（@Check[class-spell|options:counteract]）。如果成功反制该效果，你不会移除它，而是将效果转移给自己，承受其全部剩余持续时间。如果大失败，则会复制该效果，你承受其全部剩余持续时间，但不会将其从盟友身上移除。在你的反制环级提高之前，你不能再次对同一效果使用吸收苦楚。</p>"
+    },
+    "Sea Raider": {
+      "name": "海上劫掠者 Sea Raider",
+      "description": "<p>你的两栖天性使你成为天生的水手，而你进一步磨炼了这份天赋，胜过大多数人。当你在小船、木筏或其他航行船只上或其中战斗时，使用@UUID[Compendium.battlezoo-ancestries-year-of-mysteries-pf2e.feats.Item.aHQ7V4SsGsDhCd6H]{陆獭人武器熟悉}列出的任意武器进行攻击检定，均获得+1环境加值。</p>"
+    },
+    "Unsettling Glare": {
+      "name": "惶恐瞪视 Unsettling Glare",
+      "description": "<p><strong>频率</strong>每分钟一次</p><hr /><p>你将目光集中在30尺内的一名敌人身上，用瞪视预示自己的怒火。目标必须成功通过一次@Check[will|against:class-spell]豁免，对抗你的职业DC或法术DC，取较高者，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}（大失败时为@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}）。</p>"
+    },
+    "Toys of Torment": {
+      "name": "折磨玩具 Toys of Torment",
+      "description": "<p>身为载疫者，你偏好的武器比其他陆獭人同族更加残酷。你熟悉吹箭、尖牙索、拳刃、锯棍、战剃刀和鞭子；在计算熟练度时，将其中的军用武器视为简易武器，将进阶武器视为军用武器。</p><p>到5级时，每当你用其中一种武器造成重击，就会获得该武器的重击专精效果。</p>"
+    },
+    "Terrible Lizard": {
+      "name": "恐怖之蜥 Terrible Lizard",
+      "description": "<p><strong>频率</strong>每小时一次</p><p><strong>触发</strong>你使一个生物惊惧，赋予其惊惧值1。</p><hr><p>你以自身可怖的天性为傲，让“恐龙”之名名副其实，也懂得如何让敌人长久地陷入恐惧。你赋予目标的惊惧状态值从1提升至2；如果你同时使多个生物惊惧，只能提升其中一个生物的状态值。</p>"
+    },
+    "Natural Survivalist": {
+      "name": "天生野外生存者 Natural Survivalist",
+      "description": "<p>追随恐龙祖先的足迹，你懂得如何在荒野中生存；即便胃口惊人，采集食物或追踪猎物来填饱肚子对你而言也很简单。你的生存熟练度变为受训。如果你会自动在生存技能上成为受训（例如由背景或职业提供），则改为在一项自选技能上成为受训。如果你是肉食者（包括恐爪龙和霸王龙传承），你获得@UUID[Compendium.pf2e.feats-srd.Item.urQZwmzg2kS53vd5]{追迹老手}技能专长。如果你是植食者（包括甲龙、迷惑龙、剑龙和三角龙传承），你获得@UUID[Compendium.pf2e.feats-srd.Item.8qebBeOJsyRIchcu]{采药人}技能专长。无论属于哪种情况，你还会获得@UUID[Compendium.pf2e.feats-srd.Item.tGIXuk0XeWmG04CX]{荒野见识}技能专长。</p>"
+    },
+    "Shoreline Mystery": {
+      "name": "海岸之谜 Shoreline Mystery",
+      "description": "<p>你已经适应了自己的海岸，化作一个活生生的谜团，并对其环境与特征了如指掌。在海岸生态位中移动时，你总能获得掩盖行踪的益处，无需以一半速度移动，也无需使用掩盖行踪探索活动；如果你的职业DC更高，还可以用它替代生存DC。你进行@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]以了解海岸生态位的特征时，获得+1环境加值；如果你用于回忆知识的技能熟练度为大师，此加值提升至+2。</p>"
+    },
+    "Terraforming Stomp": {
+      "name": "改地重踏 Terraforming Stomp",
+      "description": "<p><strong>频率</strong>每10分钟一次</p><hr><p>你以震裂大地的力量重踏地面。所有相邻方格对其他生物变为困难地形。区域内的生物必须尝试一次@Check[reflex|against:class-spell]豁免，对抗你的职业DC或法术DC，取较高者。失败时，它们被击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>"
+    },
+    "Undying Serpent": {
+      "name": "不死之蛇 Undying Serpent",
+      "description": "<p>即便身体伤痕累累，让对手可能以为你已死去，你依然能继续战斗。你获得@UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{顽强}通用专长。每当你受伤时，强韧豁免获得等于你受伤状态值一半的环境加值（在@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{受伤1}时，最低为+1）。</p>"
+    },
+    "Home Is Where the Heart Is": {
+      "name": "心之所在即是家 Home Is Where the Heart Is",
+      "description": "<p>无论走到哪里，你都能唤来一个舒适的休憩之所。你可以每日施放一次@UUID[Compendium.pf2e.spells-srd.Item.mwPfoYfVGSMAaUec]，作为原能天生法术。每次施放时，你都可以定制小屋的装饰，使其符合自己的风格。</p>"
+    },
+    "Soul-Shaking Roar": {
+      "name": "震魂咆哮 Soul-Shaking Roar",
+      "description": "<p>你发出原始的咆哮，撼动大地的根基，也撼动意志薄弱者的心！尝试威吓检定，对30尺内每一个能够听见你的敌人进行[[/act demoralize]]。如果生物不理解你的语言，你不会因此承受减值；如果你已经从金刚怒目专长获得此益处，则这些威吓检定获得+1环境加值。</p>"
+    },
+    "Resistant Carapace": {
+      "name": "抗性甲壳 Resistant Carapace",
+      "description": "<p>你对极端温度的抵御能力，甚至延伸到了会直接伤害你的效果。你获得等于你等级一半（向下取整）的寒冷伤害与火焰伤害抗力。</p>"
+    },
+    "Unfailing Hunger": {
+      "name": "不竭饥饿 Unfailing Hunger",
+      "description": "<p><strong>频率</strong>每日一次</p><p><strong>触发</strong>你的生命值将降至0，但不会立即死亡。</p><hr><p>即便身体已不支，你仍咬牙寻求滋养，以恢复体力、屹立不倒。用尖牙徒手攻击对一名敌人进行一次打击。如果此次打击成功，你便以1点生命值保持站立，且不会获得或增加受伤状态；如果此次打击造成重击，本次使用不竭饥饿不计入你的每日次数限制。</p>"
+    },
+    "Echo of What Was": {
+      "name": "往昔回响 Echo of What Was",
+      "description": "<p><strong>频率</strong>每小时一次</p><p><strong>触发</strong>你尝试一次需要至多三个动作的技能检定。</p><hr><p>你偶尔会闪回一些技艺的记忆，那是成为陆獭人之前曾经掌握的本领。触发的技能检定获得+2状态加值。</p>"
+    },
+    "Dinosaur's Soul": {
+      "name": "恐龙之魂 Dinosaur's Soul",
+      "description": "<p>你接纳了内在的恐龙本性，身形增长，更加接近远古祖先。你的体型变为巨型。你的触及范围为10尺。</p>"
+    },
+    "A Common Story": {
+      "name": "常见的故事 A Common Story",
+      "description": "<p>有些寓言裔能伪装成凡人，另一些的特征则更加……异乎寻常。不过，作为寓言裔，你是集体潜意识的生灵，而没有什么形象比平凡无奇的普通凡人更常见。你设法将这样的典型形态覆在自己身上，得以变形成类人生物。</p><p>你的类人生物形态是一种特定形象，来自你故事流传之地常见的小型或中型类人生物族裔。这一形态独特而鲜明，像是你自然外貌经过淡化、变得平凡后的版本，每次都变为同一形态。使用常见的故事视为为欺骗技能的[[/act impersonate]]用途制作伪装，但只能用于扮作你的替代形态。你可以无限期保持替代形态，并再次使用此动作恢复真正的寓言裔形态。</p>"
+    },
+    "Accursed Form": {
+      "name": "诅咒形态 Accursed Form",
+      "description": "<p>你真正接纳了陆獭人天性的每个方面，经历最终而可怕的变化，连血肉本身都扭曲成不再完全像人的模样。你的体型增加至大型，所有徒手攻击的触及范围增加5尺。你的体型与油滑身体使你永久陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}。最后，你攻击时，腐化魔法会从体内迸发，使你所有近战武器和近战徒手攻击额外造成1d4虚能伤害。</p>"
+    },
+    "Wriggle Out": {
+      "name": "扭身脱困 Wriggle Out",
+      "description": "<p>你的蛇形身体十分适合扭动脱身，摆脱束缚或限制。你对抗一切会擒拿或束缚你的效果时，豁免DC获得+1环境加值；所有逃脱或挤入检定也获得此加值。你还获得@UUID[Compendium.pf2e.feats-srd.Item.3G8xUlgCjRmRJNfP]{迅速挤入}技能专长，无需满足先决条件。</p>"
     }
+  },
+  "folders": {
+    "Level 1": "1级 Level 1",
+    "Level 13": "13级 Level 13",
+    "Level 9": "9级 Level 9",
+    "Sea Serpent": "大海蛇 Sea Serpent",
+    "Level 17": "17级 Level 17",
+    "Level 5": "5级 Level 5",
+    "Dragon Feats": "巨龙专长 Dragon Feats",
+    "Fable": "寓言裔 Fable",
+    "Girtablilu": "蝎人 Girtablilu",
+    "Saurus": "蜥族 Saurus",
+    "Serpentfolk": "蛇人 Serpentfolk",
+    "House Spirit": "家宅精灵 House Spirit",
+    "Will-o'-Wisp": "鬼火 Will-o'-Wisp",
+    "Mushie": "蘑菇人 Mushie",
+    "Kushtaka": "陆獭人 Kushtaka"
   }
 }

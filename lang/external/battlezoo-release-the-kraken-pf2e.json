@@ -1,0 +1,61 @@
+{
+    "ELDAMON": {
+        "Ability": {
+            "EncounterLocked": "此能力在遭遇外不生效。"
+        },
+        "Element": {
+            "Air": "气",
+            "Body": "躯体",
+            "Darkness": "黑暗",
+            "Death": "死亡",
+            "Earth": "土",
+            "Electricity": "电击",
+            "Fire": "火",
+            "Force": "力场",
+            "Ice": "冰",
+            "Life": "生命",
+            "Light": "光",
+            "Metal": "金属",
+            "Mind": "心灵",
+            "Music": "音乐",
+            "Poison": "毒素",
+            "Space": "空间",
+            "Time": "时间",
+            "Water": "水",
+            "Wood": "木"
+        },
+        "ElementalPower": {
+            "AttackLabel": "威能",
+            "Label": "元素威能"
+        },
+        "Evolution": {
+            "BattleFormLabel": "战斗形态",
+            "EvolutionConditionMet": "你已解锁这只爱达梦的进化条件",
+            "EvolvedFormLabel": "进化形态",
+            "EvolveOutsideEncounter": "强制使用战斗／进化形态",
+            "PetFormLabel": "宠物形态"
+        },
+        "Language": {
+            "Aetheran": "以太语",
+            "Astral": "星界语",
+            "Chronan": "时光语",
+            "Cryan": "寒冰语",
+            "Khaotan": "混沌语",
+            "Luxan": "光辉语",
+            "Melodian": "旋律语",
+            "Soman": "躯体语",
+            "Spirituan": "灵魂语",
+            "Venenan": "毒素语",
+            "Voltan": "雷电语"
+        },
+        "Trait": {
+            "Darkness": "黑暗",
+            "Death": "死亡",
+            "Eldamon": "爱达梦",
+            "Metapower": "超能",
+            "Recovery": "恢复",
+            "Refresh": "刷新",
+            "Ultimate": "终极"
+        }
+    }
+}

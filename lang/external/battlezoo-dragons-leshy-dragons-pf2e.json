@@ -1,0 +1,37 @@
+{
+    "BZLESH": {
+        "Heritages": {},
+        "NPCAbility": {
+            "Arboreal": {
+                "CloakOfLeaves": {
+                    "BurnedLabel": "叶之披风已被烧毁",
+                    "DamageNote": "每当林木龙受到火焰伤害，其枝叶就会着火，使它额外受到@Damage[1d6[persistent,fire]]伤害。"
+                }
+            },
+            "Magma": {
+                "WingDeflection": {
+                    "furtherAttacks": "后续攻击",
+                    "triggeringAttack": "触发此次反应的攻击"
+                }
+            }
+        },
+        "SpecificRule": {
+            "Heritages": {
+                "KelpDragon": {
+                    "SwimSpeed": {
+                        "Prompt": "选择你的游泳速度",
+                        "TenFeet": "10尺",
+                        "TwentyFiveFeet": "25尺"
+                    }
+                },
+                "PowerOfTheSunPrompt": "是否获得光合作用？",
+                "ToadstoolDragon": {
+                    "Bioluminescence": "生物发光"
+                }
+            },
+            "RottenOnTheVine": {
+                "RancidBerry": "腐臭浆果"
+            }
+        }
+    }
+}

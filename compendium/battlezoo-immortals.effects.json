@@ -1,0 +1,21 @@
+{
+  "label": "效果",
+  "entries": {
+    "Spell Effect: Saint's Blessing": {
+      "name": "法术效果：圣徒祝福 Spell Effect: Saint's Blessing",
+      "description": "<p>由@UUID[Compendium.battlezoo-immortals.spells.Item.GtDrHlOHSFdIbS14]{圣徒祝福}赋予</p><p>你的AC与豁免获得状态加值，等于1＋效果来源的命定值。</p>"
+    },
+    "Effect: Absorb Magic": {
+      "name": "效果：吸收魔力 Effect: Absorb Magic",
+      "description": "<p>由@UUID[Compendium.battlezoo-immortals.features.Item.VfYrWhRtx0H6AUbN]{吸收魔力}赋予</p><p>你获得等于该法术环级三倍的临时生命值。</p>"
+    },
+    "Spell Effect: Spell Potency": {
+      "name": "法术效果：法术威能 Spell Effect: Spell Potency",
+      "description": "<p>由@UUID[Compendium.battlezoo-immortals.spells.Item.S7LzPQ94ipFQSpuk]{法术威能}赋予</p><p>若你是此效果的来源，你对抗目标法术的AC或豁免获得状态加值。若你是此效果的目标，你对抗来源的一个法术时，豁免承受状态减值。</p>"
+    },
+    "Effect: Stigmata": {
+      "name": "效果：圣痕 Effect: Stigmata",
+      "description": "<p>由@UUID[Compendium.battlezoo-immortals.features.Item.GHCwUssiQskhPrRa]{圣痕}赋予</p><p>用于追踪圣痕池的效果。</p>"
+    }
+  }
+}

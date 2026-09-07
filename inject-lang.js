@@ -44,6 +44,13 @@ const EXTERNAL_LANG_SOURCES = [
   // so without these the prompts render in English whatever the world language.
   'pf2e-team-plus-oracles-remastered',
   'pf2e-team-plus-magic',
+  // Battlezoo checkpoint: only the six modules included in this release.
+  'battlezoo-ancestries-demigods',
+  'battlezoo-ancestries-year-of-mysteries-pf2e',
+  'battlezoo-dragons-core-pf2e',
+  'battlezoo-dragons-leshy-dragons-pf2e',
+  'battlezoo-immortals',
+  'battlezoo-release-the-kraken-pf2e',
 ];
 
 Hooks.once('i18nInit', async () => {

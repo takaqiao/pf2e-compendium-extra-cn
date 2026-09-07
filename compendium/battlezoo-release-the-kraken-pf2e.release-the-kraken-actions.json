@@ -1,0 +1,9 @@
+{
+  "label": "动作",
+  "entries": {
+    "Intrusive Thoughts": {
+      "name": "侵入性思绪 Intrusive Thoughts",
+      "description": "<p><strong>触发</strong> 一个生物触碰嘲弄化身，或一个紧邻的生物以近战打击命中嘲弄化身</p><hr /><p><strong>效果</strong> 触发生物的心智遭到一波波禁忌知识的侵袭，必须尝试一次@Check[will|dc:26]豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物受到@Damage[1d6[mental]]伤害。</p><p><strong>失败</strong> 该生物受到@Damage[2d6[mental]]伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧1}。</p><p><strong>大失败</strong> 该生物受到@Damage[2d6[mental]]伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧2}。</p>"
+    }
+  }
+}
