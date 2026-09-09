@@ -1,5 +1,5 @@
 {
-	"label": "冒险特定行动 Adventure Specific Actions",
+	"label": "冒险专用动作 Adventure-Specific Actions",
 	"mapping": {
 		"prerequisites": {
 			"path": "system.prerequisites.value",
@@ -737,6 +737,30 @@
 		"Issue Challenge": {
 			"name": "Issue Challenge",
 			"description": "<p>You spend a day promoting your combat abilities, trash-talking the competition, calling out the leadership of the Gladiators' Guild, or performing public feats of bravado to compel the guildmaster of the Gladiators' Guild to accept your challenge to rule over the arena. This action ties specifically into Task 3: Blood on the Sand. Attempt a @Check[athletics|dc:36], @Check[deception|dc:36], @Check[intimidation|dc:36], @Check[performance|dc:36], or appropriate Lore skill check.</p>\n<hr />\n<p><strong>Critical Success</strong> You provoke Bshez Shak into accepting your challenge.</p>\n<p><strong>Success</strong> You weaken Bshez's resolve. For the next 7 days, your checks to Issue Challenges gain a cumulative +1 circumstance bonus (maximum +4).</p>\n<p><strong>Critical Failure</strong> Your boisterousness accidentally leads to embarrassment that undermines your stature. You lose any circumstance bonuses you've earned as a result of successful Issued Challenges, and can't Issue a Challenge the next day.</p>"
+		},
+		"Entertain the Fishers": {
+			"name": "逗乐钓客 Entertain the Fishers",
+			"description": "<p>PC按队伍自选的顺序轮流上场，每项活动耗时5分钟。两种选项要求的技能检定不同，但结果相同。</p>\n<p><strong>饮酒吹嘘：</strong>选择此项的PC喝下一大杯烈性的阿鲁多拉麦酒，再讲一个激动人心的钓鱼或狩猎故事，逗乐聚集的钓客。首先，PC必须成功通过@Check[fortitude|dc:24]豁免，否则因饮酒陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}（大失败则为@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}）；随后必须立刻开始讲故事，不能花时间干呕或从刚获得的恶心状态中恢复。钓客们比起真实经历，更喜欢夸张和添油加醋的故事，因此PC可以尝试@Check[deception|dc:22]检定（编造夸张故事）或@Check[survival|dc:26]检定（讲述真实故事）。</p>\n<p><strong>与阿尔斯斗殴：</strong>选择此项的PC花几分钟夸耀自己的力量与战斗本领，再与阿尔斯进行一场短暂的表演赛；胜负以让对手出丑为准，不以死相搏。PC必须尝试@Check[athletics|dc:24]检定，堂堂正正击败阿尔斯，或尝试@Check[intimidation|dc:26]检定，在叫阵时压过阿尔斯。</p>\n<p>无论选择哪一项，每次技能检定都按以下结果结算。</p><hr /><p><strong>大成功</strong> PC逗乐6名钓客。</p>\n<p><strong>成功</strong> PC逗乐3名钓客。</p>\n<p><strong>失败</strong> PC没能逗乐任何钓客。</p>\n<p><strong>大失败</strong> PC让钓客感到无聊。如果当前有钓客被逗乐，其中3人不再被逗乐。若PC尝试的是饮酒吹嘘，麦酒中的某种成分余劲不散，使其陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，持续24小时。若PC尝试的是与阿尔斯斗殴，其拉伤肌肉，陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 1}，持续24小时。</p>"
+		},
+		"Escape Mum's Embrace": {
+			"name": "逃离妈妈的怀抱 Escape Mum's Embrace",
+			"description": "<p>你花一分钟尝试逃离丹拉斯泰安的装置，同时这台机关不断收紧束缚，将你的身体扭成越来越难受的姿势。尝试@Check[thievery|dc:24]检定，拨弄装置的连接件与扣件，削弱束缚；或尝试@Check[acrobatics|dc:25]检定，将身体扭到更有利的位置；或尝试@Check[athletics|dc:26]检定，拉扯束带使其松动；或尝试@Check[reflex|dc:29]豁免，仅靠扭动伸展挣脱。结果如下。（适用于脱逃的任何加值都适用于这些检定。）你一旦获得3自由点，便成功逃脱！</p><hr /><p><strong>大成功</strong> 你在逃脱上取得显著进展，获得2自由点。</p>\n<p><strong>成功</strong> 你逐渐挣脱，获得1自由点。</p>\n<p><strong>失败</strong> 你没有取得任何进展，并因身体被扭曲而受到@Damage[2d8[bludgeoning]]伤害。</p>\n<p><strong>大失败</strong> 同失败，但伤害为@Damage[4d8[bludgeoning]]。此外，骨骼开始断裂、关节开始脱位，你必须尝试@Check[fortitude|dc:24|options:inflicts:drained]豁免，否则@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失}状态值增加1。</p>"
+		},
+		"Meditate Among the Stones": {
+			"name": "石阵冥想 Meditate Among the Stones",
+			"description": "<p>你在环形立石阵中冥想一小时，吸收其中的力量，试图凝神并使心智敏锐。一小时结束时，尝试@Check[will|dc:20]豁免，结果如下（如果立石上的真菌尚未清理，改为@Check[will|dc:25]豁免）。无论结果如何，进行石阵冥想后，你在1周内不能再次尝试。</p><hr /><p><strong>大成功</strong> 你的心智敏锐，思绪清晰。在接下来一周内，你下一次基于智力的技能检定获得+2环境加值。</p>\n<p>@UUID[Compendium.pf2e.campaign-effects.Item.xmyDVehI5PmteRUX]{效果：石阵冥想（大成功）}</p>\n<p><strong>成功</strong> 同大成功，但加值为+1环境加值，且必须在接下来24小时内进行该检定。</p>\n<p>@UUID[Compendium.pf2e.campaign-effects.Item.NRWqw3wosKAnoWPl]{效果：石阵冥想（成功）}</p>\n<p><strong>失败</strong> 你在冥想中放松，却未获得启示。如果立石上的真菌尚未清理，将此结果改为大失败。</p>\n<p><strong>大失败</strong> 同失败，但外层裂隙的残留影响引发令人不安的幻觉，使你陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，持续24小时。</p>"
+		},
+		"Play Fatesnatcher": {
+			"name": "进行窃命者游戏 Play Fatesnatcher",
+			"description": "<p><strong>预言者的回合：</strong>一局窃命者游戏分为数个“时代”。每个时代中，每位预言者各行动一次（PC可自行决定顺序）：从哈罗牌组抽一张牌，以此为灵感，向法莱斯玛（莫克西先生）编述令其意外的命运。（你可以让玩家实际抽取哈罗牌并使用；若你觉得他们编述的命运格外有创意，可以给予该回合结算技能检定+1环境加值。）随后PC尝试@Check[Games Lore|dc:22]、@Check[deception|dc:24]或@Check[performance|dc:26]检定，结果如下。</p><hr /><p><strong>大成功</strong> PC让法莱斯玛大吃一惊。其保留手牌，并从牌组额外抽一张牌作为奖励牌保留。PC一旦集齐10张牌，便赢得游戏。</p>\n<p><strong>成功</strong> PC让法莱斯玛措手不及，保留手牌。</p>\n<p><strong>失败</strong> PC没能让法莱斯玛意外。其将手牌洗回牌组，失去2个预兆。PC一旦没有剩余预兆，便退出游戏。</p>\n<p><strong>大失败</strong> PC惨败；其将手牌洗回牌组，失去[[/gmr 1d4+1#Lost Omens]]个预兆。</p><hr /><p><strong>法莱斯玛的回合：</strong>每个时代结束、所有预言者行动后，法莱斯玛会变得更加反复无常。莫克西先生尝试一次@Check[Games Lore|dc:24]检定，结果如下。相应调整玩家的DC后，游戏进入下一个时代，直到所有预言者都失去全部预兆，或某位预言者获得10个命运（10张哈罗牌）。</p><hr /><p><strong>大成功</strong> 所有编述命运检定的DC提高2。</p>\n<p><strong>成功</strong> 所有编述命运检定的DC提高1。</p>\n<p><strong>失败</strong> 编述命运的DC不变。</p>\n<p><strong>大失败</strong> 所有编述命运检定的DC降低1。</p><hr /><p><strong>输掉游戏：</strong>所有PC一旦都失去全部预兆，便输掉游戏。此时莫克西先生开心地咯咯大笑，暂时忘却粘稠沼泽怪物失踪带来的绝望；数小时后，他又回到帐篷中消沉。他同意在24小时后再与队伍玩一局窃命者；但在此期间，每位参与游戏的PC都必须成功通过@Check[will|dc:24]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，持续24小时（大失败则无限期持续）。这是诅咒效果。</p>\n<p><strong>赢得游戏：</strong>任何PC获得10个命运（10张哈罗牌），或游戏过程中哈罗牌组被抽空，PC便获胜（如果没有使用实体哈罗牌记录PC的命运，可以忽略后一胜利条件）。莫克西先生先是惊讶，继而欣喜，将自己的哈罗牌组赠给获胜PC作为奖品。</p>"
+		},
+		"Shelyn's Grace": {
+			"name": "莎琳的恩典 Shelyn's Grace",
+			"description": "<p>你祈请莎琳通过三座雕像之一显现一丝神力。具体效果取决于启动的雕像，但无论选择哪座，莎琳的恩典每24小时只能启动一次，具体效果的反制环级为11环，任何用于反制状态的掷骰调整值均为[[/r 1d20+17#Counteract]]{+17}。</p>\n<p><strong>舞蹈的莎琳：</strong>莎琳的恩典对房间内所有生物施放6环@UUID[Compendium.pf2e.spells-srd.Item.BCuHKrDeJ4eq53M6]{稳固脚步}。接下来8小时内，区域<strong>C45</strong>中的所有生物在白天进行的表演检定获得+1物品加值。</p>\n<p><strong>沉思的莎琳：</strong>莎琳的恩典对房间内所有生物施放6环@UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]{清神醒脑}。接下来8小时内，区域<strong>C45</strong>中的所有生物在白天进行的手艺检定获得+1物品加值。</p>\n<p><strong>沉睡的莎琳：</strong>莎琳的恩典对房间内所有生物施放6环@UUID[Compendium.pf2e.spells-srd.Item.Et8RSCLx8w7uOLvo]{身健体康}。接下来8小时内，区域<strong>C45</strong>中的所有生物在白天进行的运动检定获得+1物品加值。</p>"
+		},
+		"Sizzling Shenanigans": {
+			"name": "火热恶作剧 Sizzling Shenanigans",
+			"description": "<p>嘶滋爷爷花1分钟讲述一个关于火的小故事，随后一位PC必须尝试技能检定演出这一幕。如果有PC使用自己的资源创造魔法火焰效果，为场景增色，进行技能检定的PC获得+2状态加值；如果改用幻术，且嘶滋爷爷以@Check[perception]检定识破幻象，相关技能检定则承受–2状态减值。四幕必须按以下顺序全部演完，由队伍决定各次检定由谁尝试。</p><ul><li><p><strong>第一幕：</strong>嘶滋爷爷讲述一位贵族点烟斗时烧着自己帽子的故事（@Check[society|dc:24]检定或@Check[performance|dc:26]检定）。</p></li><li><p><strong>第二幕：</strong>嘶滋爷爷讲述一个地精试图点燃醉汉的酒气，却在醉汉突然打嗝时被喷了一脸火的故事（@Check[stealth|dc:24]检定或@Check[thievery|dc:26]检定）。</p></li><li><p><strong>第三幕：</strong>嘶滋爷爷讲述一名窃贼从敞开的窗户潜入巨人厨房，却落在滚烫炉灶上的故事（@Check[acrobatics|dc:24]检定或@Check[athletics|dc:26]检定）。</p></li><li><p><strong>第四幕：</strong>嘶滋爷爷讲述一名吟游诗人与炽热的火巨灵调情，随后发生一连串尴尬情事的故事（@Check[performance|dc:24]检定或@Check[diplomacy|dc:26]检定）。无论哪一幕，PC的检定结果均如下。若PC受到火焰伤害，可以尝试@Check[reflex|dc:24|basic]豁免抵御。</p></li></ul><hr /><p><strong>大成功</strong> PC以机智、风采和完美的喜剧节奏演出场景。队伍获得2欢笑点。</p>\n<p><strong>成功</strong> 达到娱乐效果，但略有烧伤。PC受到@Damage[2d6[fire]]伤害，队伍获得1欢笑点。</p>\n<p><strong>失败</strong> PC搞砸了，费了力气却只落得疼痛的烧伤，也没能逗乐观众。PC受到@Damage[4d6[fire]]伤害。</p>\n<p><strong>大失败</strong> 灾难性的爆炸或突如其来的火暴！每位PC受到@Damage[8d6[fire]]伤害，爆炸吓坏幻影观众，使队伍失去1欢笑点。</p>"
 		}
 	}
 }
