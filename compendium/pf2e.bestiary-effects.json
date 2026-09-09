@@ -1,5 +1,5 @@
 {
-	"label": "怪物图鉴效果 Bestiary Effects",
+	"label": "怪物效果 Bestiary Effects",
 	"mapping": {
 		"prerequisites": {
 			"path": "system.prerequisites.value",
@@ -2569,6 +2569,38 @@
 		"Effect: Hypnotic Gaze": {
 			"name": "Effect: Hypnotic Gaze",
 			"description": "<p>Creatures in the aura take a –1 status penalty to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} and Perception DCs against Ezio.</p>"
+		},
+		"Effect: Bully the Bully (Critical Failure)": {
+			"name": "效果：欺凌恶霸（大失败） Effect: Bully the Bully (Critical Failure)",
+			"description": "<p>你对被标记生物的所有伤害掷骰获得+2状态加值。</p>"
+		},
+		"Effect: Bully the Bully (Critical Success)": {
+			"name": "效果：欺凌恶霸（大成功） Effect: Bully the Bully (Critical Success)",
+			"description": "<p>你的嘲弄深深刺痛了奥格斯滕！怒火使他陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}，且接下来24小时内对你的攻击处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态。在此期间，他对任何目标使用[[/act demoralize]]的检定都承受–4环境减值，且无法使用霸凌命令。</p>"
+		},
+		"Effect: Pallid Curse (Failure)": {
+			"name": "效果：苍白诅咒（失败） Effect: Pallid Curse (Failure)",
+			"description": "<p>你陷入恶心2，并获得虚能弱点5（大失败时弱点为10）。</p>"
+		},
+		"Effect: Pallid Curse (Success)": {
+			"name": "效果：苍白诅咒（成功） Effect: Pallid Curse (Success)",
+			"description": "<p>你陷入恶心1，并获得虚能弱点5。</p>"
+		},
+		"Effect: Sheriff's Blessing": {
+			"name": "效果：治安官的祝福 Effect: Sheriff's Blessing",
+			"description": "<p>你对抗恐惧效果的所有豁免获得+1状态加值。在位阶2时，你对抗恐惧效果的豁免成功改为大成功。</p>"
+		},
+		"Effect: Soul-Wrenching Warbling": {
+			"name": "效果：撕魂啼啭 Effect: Soul-Wrenching Warbling",
+			"description": "<p>你获得精魂伤害弱点5。</p>"
+		},
+		"Effect: Watchful Presence": {
+			"name": "效果：窥视气场 Effect: Watchful Presence",
+			"description": "<p>你的察觉检定获得+2状态加值，但对抗恐惧效果的豁免承受–2减值。</p>"
+		},
+		"Effect: Clinging Suckers": {
+			"name": "效果：粘附吸盘 Effect: Clinging Suckers",
+			"description": "<p>若你为中型或更小体型，你的所有速度承受–5尺状态减值。</p>"
 		}
 	}
 }

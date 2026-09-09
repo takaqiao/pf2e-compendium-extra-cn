@@ -1,0 +1,16 @@
+{
+  "label": "专长与特性效果 Feat/Feature Effects",
+  "entries": {
+    "Effect: Art 'Collector'": {
+      "name": "效果：艺术“收藏家” Effect: Art 'Collector'",
+      "description": "<p>由@UUID[Compendium.pf2e.backgrounds.Item.8ONOESECp2qrCnHK]{艺术“收藏家”}赋予</p>\n<p>如果这是你首次选择某件艺术品作为灵感来源，你对抗心灵效果的豁免获得+2环境加值；如果你已经不止一次选择该艺术品，则获得+1环境加值。</p>"
+    },
+    "Effect: Blooded by the Dead": {
+      "name": "效果：亡者之血 Effect: Blooded by the Dead",
+      "description": "<p>由@UUID[Compendium.pf2e.backgrounds.Item.kW9aZ5uxAuACeYRL]{亡者之血}赋予</p>\n<p>你可以选择以下好处之一</p><ul><li><p><strong>强固血脉：</strong>你获得持续流血抗力2，每当你尝试纯骰检定以结束持续流血伤害时，该检定的DC降低2。</p></li><li><p><strong>强固怒火：</strong>你以造成穿刺伤害的近战打击攻击吸血鬼或吸血生物时，额外造成2点伤害。</p></li><li><p><strong>强固心智：</strong>在判定针对你的、具有失能特征的心灵效果的效果时，你的等级视为提高2级；你对抗吸血鬼支配能力的意志豁免获得+2环境加值。</p></li></ul>"
+    }
+  },
+  "mapping": {
+    "gmnote": "system.description.gm"
+  }
+}

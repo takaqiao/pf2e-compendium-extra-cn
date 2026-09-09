@@ -1,0 +1,32 @@
+{
+  "label": "装备效果 Equipment Effects",
+  "entries": {
+    "Effect: Bolster Life": {
+      "name": "效果：增益生命 Effect: Bolster Life",
+      "description": "<p>由@UUID[Compendium.pf2e.equipment-srd.Item.8WxFFZm6OcBCCARR]{魂心}、@UUID[Compendium.pf2e.equipment-srd.Item.5nNs3OFkRXH8yU1D]{高等魂心}、@UUID[Compendium.pf2e.equipment-srd.Item.05h3LWflr74iJiVg]{强效魂心}赋予</p>\n<p>你获得临时HP。</p>"
+    },
+    "Effect: Bonebloom Rose": {
+      "name": "效果：骨花玫瑰 Effect: Bonebloom Rose",
+      "description": "<p>由@UUID[Compendium.pf2e.equipment-srd.Item.53dn4PNE8muEC8Ep]{骨花玫瑰}赋予</p>\n<p>你获得40临时HP。只要其中至少还剩1临时HP，你的打击就对不死生物造成额外2点精魂伤害。</p>"
+    },
+    "Effect: Commander's Signet": {
+      "name": "效果：指挥官印戒 Effect: Commander's Signet",
+      "description": "<p>由@UUID[Compendium.pf2e.equipment-srd.Item.Mi9zCb0x3M40C0kL]{指挥官印戒}、@UUID[Compendium.pf2e.equipment-srd.Item.SxyhYuj3sl4CIxwJ]{将军印戒}赋予</p>\n<p>你的攻击检定、察觉检定、豁免与技能检定获得状态加值。对抗恐惧效果的豁免所获状态加值翻倍。</p>"
+    },
+    "Effect: Kindler Cameo": {
+      "name": "效果：金德勒浮雕项坠 Effect: Kindler Cameo",
+      "description": "<p>由@UUID[Compendium.pf2e.equipment-srd.Item.RLNM5W7ZtiozXtuf]{金德勒浮雕项坠}赋予</p>\n<p>你的意志豁免获得+2状态加值。</p>"
+    },
+    "Effect: Poet's Fritter": {
+      "name": "效果：诗人炸饼 Effect: Poet's Fritter",
+      "description": "<p>由@UUID[Compendium.pf2e.equipment-srd.Item.QXW6txYvNIlQK0qE]{低等诗人炸饼}、@UUID[Compendium.pf2e.equipment-srd.Item.iWiKC10ojE0fiykT]{中等诗人炸饼}、@UUID[Compendium.pf2e.equipment-srd.Item.CNkugF5infTbBDsF]{高等诗人炸饼}赋予</p>\n<p>你用于说谎的欺骗检定与以嗓音进行表演的表演检定获得物品加值，并获得心灵伤害抗力。</p>"
+    },
+    "Effect: Velicarn's Cursed Coin": {
+      "name": "效果：维利卡恩的诅咒硬币 Effect: Velicarn's Cursed Coin",
+      "description": "<p>由@UUID[Compendium.pf2e.equipment-srd.Item.nBSlq58UkK86jYOO]{维利卡恩的诅咒硬币}赋予</p>\n<p>如果结果是正面，你免疫恐惧效果。如果结果是反面，你对抗恐惧的豁免承受–2物品减值。</p>"
+    }
+  },
+  "mapping": {
+    "gmnote": "system.description.gm"
+  }
+}

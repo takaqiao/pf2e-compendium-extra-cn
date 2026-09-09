@@ -1,0 +1,12 @@
+{
+  "label": "动作 Actions",
+  "entries": {
+    "Spiritual Scar": {
+      "name": "精神伤痕 Spiritual Scar",
+      "description": "<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 你即将受到来自魔族的精魂伤害</p><hr /><p><strong>效果</strong> 对于触发的伤害，你获得等于你等级两倍加上魅力调整值的精魂伤害抗力。如果这项抗力让你完全不受伤害，精神反冲便会迫使试图伤害你的魔族尝试一次对抗你职业DC的@Check[will|against:class|options:inflicts:slowed]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}，持续一轮。</p>"
+    }
+  },
+  "mapping": {
+    "gmnote": "system.description.gm"
+  }
+}

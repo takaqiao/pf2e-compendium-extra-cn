@@ -1,0 +1,16 @@
+{
+  "label": "战役效果 Campaign Effects",
+  "entries": {
+    "Effect: Meditate Among the Stones (Critical Success)": {
+      "name": "效果：石阵冥想（大成功） Effect: Meditate Among the Stones (Critical Success)",
+      "description": "<p>由@UUID[Compendium.pf2e.adventure-specific-actions.Item.j6MnMZ8ADhhEiUTA]{石阵冥想}赋予</p>\n<p>你的下一次基于智力的技能检定获得+2环境加值。</p>"
+    },
+    "Effect: Meditate Among the Stones (Success)": {
+      "name": "效果：石阵冥想（成功） Effect: Meditate Among the Stones (Success)",
+      "description": "<p>由@UUID[Compendium.pf2e.adventure-specific-actions.Item.j6MnMZ8ADhhEiUTA]{石阵冥想}赋予</p>\n<p>你的下一次基于智力的技能检定获得+1环境加值。</p>"
+    }
+  },
+  "mapping": {
+    "gmnote": "system.description.gm"
+  }
+}
