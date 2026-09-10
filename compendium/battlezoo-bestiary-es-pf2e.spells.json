@@ -1,0 +1,140 @@
+{
+  "label": "法术",
+  "entries": {
+    "Sandstorm": {
+      "name": "沙尘暴 Sandstorm",
+      "description": "<p>你唤来一场局部沙尘暴，刺痛其中生物的眼睛，堵塞它们的呼吸。沙尘暴中的所有生物都变为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，且沙尘暴外的所有生物对其中的生物也处于隐蔽状态。在沙尘暴中开始回合或进入沙尘暴的生物受到6d6挥砍伤害，可进行基础反射豁免。在沙尘暴中结束回合的生物必须屏息，以免窒息。你可以解消沙尘暴。</p><hr /><p><strong>升阶（+1）</strong>沙尘暴的挥砍伤害增加1d6。</p>"
+    },
+    "Time Skip": {
+      "name": "时间跃迁 Time Skip",
+      "description": "<p>你抓住生物在时间流中的位置，将它拉向稍后的未来。时间流恢复正常时，时间摩擦碾磨它的身体，而这次错位也可能令它迷失方向。目标受到3d6力场伤害，可进行基础强韧豁免。大失败时，它还会@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}。〔译注：原文未注明大失败所致缓慢状态的持续时间。〕</p><hr /><p><strong>升阶（+1）</strong>力场伤害增加2d6。</p>"
+    },
+    "Rushing Gust": {
+      "name": "疾冲狂风 Rushing Gust",
+      "description": "<p>你搅动周身的空气，将自己推向敌人，再用风刃切入其身体。朝目标跨步至多等于你速度一半的距离，然后对目标的AC进行一次近战法术攻击检定。命中时，目标受到2d4挥砍伤害（重击时伤害翻倍）。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d4。</p>"
+    },
+    "Internal Distortion": {
+      "name": "内部扭曲 Internal Distortion",
+      "description": "<p>你在生物体内制造空间涟漪，从内部伤害它。目标受到1d6挥砍伤害，可进行基础强韧豁免。大失败时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
+    },
+    "Black Hole": {
+      "name": "黑洞 Black Hole",
+      "description": "<p>你在现实结构上撕开一个极小的孔洞，开启针尖大小的传送门，连接到世界之间深邃虚空中的一处黑洞边缘。区域内的生物和未被持用或穿戴的物体受到14d6钝击伤害，并根据强韧豁免结果被拉向区域中心的传送门。如果法术会将一个生物或一件负载至少为5的物体拉入已被占据的空间，目标会改为被移至离其目的地最近的未被占据方格。</p><p>死亡或被摧毁的生物，以及被摧毁的物体，不享有避免进入和穿过已被占据空间的保护；如果它们进入传送门所在空间，就会被吸入黑洞并彻底湮灭，且此次穿过传送门的移动具有传送特征。</p><hr /><p><strong>大成功</strong>该生物或物体不受影响。</p><p><strong>成功</strong>该生物或物体受到一半伤害，并被朝传送门拉动至多5尺。</p><p><strong>失败</strong>该生物或物体受到全额伤害，并被朝传送门拉动至多20尺。</p><p><strong>大失败</strong>该生物或物体受到双倍伤害，并被拉入传送门所在空间。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
+    },
+    "Falling Icicles": {
+      "name": "冰棱坠落 Falling Icicles",
+      "description": "<p>你在空中召唤一簇尖锐冰棱，然后任其坠落。区域内所有生物受到1d6穿刺伤害和1d6寒冷伤害，可进行基础反射豁免。豁免失败的生物冻结2。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6穿刺和1d6寒冷。</p>"
+    },
+    "Winter's Grasp": {
+      "name": "寒冬之握 Winter's Grasp",
+      "description": "<p>你向地面注入寒冬精髓，使其覆上超自然寒冰。最初施放此法术时，区域内所有生物受到4d6寒冷伤害（基础反射豁免）。法术持续期间，结冰地面属于困难地形，且每个站在冰上的生物都必须选择以你的法术DC进行反射豁免或特技检定，成功则无事，否则便会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。在法术持续期间使用动作移动到冰上的生物，也必须选择尝试反射豁免，或用于@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}的特技检定。站在冰上结束回合的生物受到8点寒冷伤害，可进行基础强韧豁免。</p><hr /><p><strong>升阶（+1）</strong>最初施法造成的寒冷伤害增加1d6，生物在冰上结束回合时受到的寒冷伤害增加2。</p>"
+    },
+    "Steal the Show": {
+      "name": "独占风头 Steal the Show",
+      "description": "<p>你迷人的表演将所有人的注意力吸引到你身上，无论这会带来好处还是坏处。对手更容易瞄准你，对你进行的攻击检定获得+1状态加值。然而，分心也让它们更难防御或完成较复杂的任务。如果你维持此法术，各生物会在自己的每个回合开始时重新尝试豁免。</p><p>@UUID[Compendium.battlezoo-bestiary-es-pf2e.effects.Item.038zIL01Uo5qBYUJ]{法术效果：独占风头}</p><hr /><p><strong>大成功</strong>在法术持续期间，该生物对你进行的攻击检定获得上述状态加值，且不必再尝试豁免。</p><p><strong>成功</strong>该生物对你以外的所有人@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮。</p><p><strong>失败</strong>该生物@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}，且对你以外的所有人措手不及，持续1轮。</p><p><strong>大失败</strong>如同失败，但该生物改为@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞4}。</p>"
+    },
+    "Dissonance": {
+      "name": "不协和音 Dissonance",
+      "description": "<p>你让区域内所有生物全身产生震耳欲聋、令人作呕的振动，造成5d10音波伤害，受影响者进行强韧豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p><p><strong>成功</strong>该生物受到一半伤害，并@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋}[[/gmr 1d4 #rounds]]{1d4轮}。</p><p><strong>失败</strong>该生物受到全额伤害、@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}，并耳聋1分钟。</p><p><strong>大失败</strong>该生物受到双倍伤害、@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心3}，并耳聋1小时。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d10。</p>"
+    },
+    "Boulder Crush": {
+      "name": "巨石碾压 Boulder Crush",
+      "description": "<p>你在空中召唤一块巨石，使其轰然砸向地面。巨石在柱形区域顶部出现，然后坠落。巨石下方的生物受到4d12钝击伤害，并必须尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p><p><strong>成功</strong>该生物受到一半伤害。</p><p><strong>失败</strong>该生物受到全额伤害。如果它原本正在飞行，则被移至柱形区域底部，以站立姿态落地，不受到额外坠落伤害。</p><p><strong>大失败</strong>该生物受到全额伤害。如果它原本正在飞行，则被移至柱形区域底部，以站立姿态落地，不受到额外坠落伤害。如果巨石落下后它位于地面上，则被击@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。如果它仍在空中，则改为@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮或直到它花费一个动作调整姿态，以先发生者为准。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d12，柱形区域的最大高度增加10尺。</p>"
+    },
+    "Songshroud": {
+      "name": "歌声帷幕 Songshroud",
+      "description": "<p>优美旋律环绕着你，回声从异常方向传来，使人难以通过听觉判断你的确切位置。使用歌声帷幕时，你无法对能听见声音的生物处于未发现状态。对于完全依靠回声定位或其他声音感官的生物，你处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}状态；除非它们使用魔法或其他特殊能力，并成功通过对抗此法术的反制检定，否则你不会被这些感官视为可见。因此，你可以将歌声帷幕与@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}（或其他阻碍视觉的方法）结合，使同时具有视觉和回声定位的生物也无法将你视为可见。帷幕还会保护你免受有害声音影响，使你对抗听觉效果的豁免获得+1状态加值，并获得音波伤害抗力5。说话时，你可以选择正常发声，或用歌声掩盖话音。如果选择掩盖，距离你超过5尺的生物必须成功通过以你的法术DC为DC的察觉检定，才能听清你在说什么。</p><p>@UUID[Compendium.battlezoo-bestiary-es-pf2e.effects.Item.h0eng2GtJpOuRndn]{法术效果：歌声帷幕}</p><hr /><p><strong>升阶（4环）</strong>音波伤害抗力提高至10，持续时间提高至10分钟，对抗听觉效果豁免的状态加值提高至+2。</p><p><strong>升阶（7环）</strong>音波伤害抗力提高至15，持续时间提高至10分钟，对抗听觉效果豁免的状态加值提高至+3。</p>"
+    },
+    "Telekinetic Storm": {
+      "name": "念动风暴 Telekinetic Storm",
+      "description": "<p>你将区域内负载不超过10的未被持用或穿戴的物体卷成风暴，把家具等大型易碎物体碾成碎片，再以这些碎片轰击敌人。区域内所有生物和未被持用或穿戴的物体受到4d10钝击伤害、4d10穿刺伤害和4d10挥砍伤害。</p><hr /><p><strong>升阶（9环）</strong>钝击、穿刺和挥砍伤害各增加1d10。</p>"
+    },
+    "Radiant Aurora": {
+      "name": "光耀极光 Radiant Aurora",
+      "description": "<p>你唤起夜空中舞动的魔法能量虹彩，让它们从指尖汹涌射出，摧毁敌人。区域内所有生物受到七种不同类型的伤害，每种均为1d6+7点，并各自对应一道虹色：火焰（红）、酸蚀（橙）、电击（黄）、毒素（绿）、音波（蓝）、心灵（靛）和力场（紫）。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p><p><strong>成功</strong>该生物受到一半伤害。</p><p><strong>失败</strong>该生物受到全额伤害，并@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1分钟。</p><p><strong>大失败</strong>该生物受到双倍伤害，并目眩10分钟。</p>"
+    },
+    "Raise the Reaper's Scythe": {
+      "name": "举起死神之镰 Raise the Reaper's Scythe",
+      "description": "<p>你在目标头顶召唤一把幽灵镰刀，逐渐显现为实体，并跟随目标前往任何地方。在该生物接下来三个回合各自结束时，都会响起不祥的钟声；该生物必须成功通过意志豁免，否则便会@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}（大失败时为@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}）；此效果具有情绪、恐惧和心灵特征。第三次钟声响起后，镰刀挥落，击中该生物的脖颈，造成10d10挥砍伤害，可进行基础强韧豁免。如果此法术使目标降至0 HP，目标便会死亡；这是死亡效果。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d10。</p>"
+    },
+    "Desynchronize": {
+      "name": "失去同步 Desynchronize",
+      "description": "<p>你显现出一片球形的扭曲时间区域。其中充满细小的时域，时间流速比正常稍快或稍慢。穿行这些时域十分危险，也会令人晕头转向，因为肌肉和骨骼会逐渐失去同步。进入区域或在区域内开始回合的生物必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p><p><strong>成功</strong>该生物@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}，直到离开法术区域。</p><p><strong>失败</strong>该生物笨拙2，直到离开法术区域。只要仍在区域内，它每次使用具有移动或操作特征的动作时，都会受到6d8挥砍伤害，可进行基础反射豁免。</p><p><strong>大失败</strong>如同失败，但该生物还会@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，直到离开法术区域。</p><hr /><p><strong>升阶（+1）</strong>使用具有移动或操作特征的动作时受到的伤害增加1d8。</p>"
+    },
+    "Autumn's Howl": {
+      "name": "秋日呼啸 Autumn's Howl",
+      "description": "<p>你唤来寒风，裹挟着密集的落叶与尖锐枝条。你唤出落叶时，区域内的所有生物受到3d6挥砍伤害。寒风持续1分钟。寒风持续期间，区域对空中和地面的生物都属于困难地形。在风中结束回合的生物受到1d6持续穿刺伤害。</p><hr /><p><strong>升阶（+1）</strong>最初爆发的伤害增加2d6，生物在风中结束回合时受到的持续穿刺伤害增加1。</p>"
+    },
+    "Reverberating Pain": {
+      "name": "痛苦回响 Reverberating Pain",
+      "description": "<p>你从时间中拉来目标近期伤势的回响，使其再次受创。选择目标自你上一回合开始以来受到过的一种伤害类型。目标受到2d6该类型的伤害。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
+    },
+    "Wall of Time": {
+      "name": "时间之墙 Wall of Time",
+      "description": "<p>你召唤一面透明、呈棕褐色的时间减速之墙。墙厚1英寸，最长120尺，最高20尺。你可以塑造墙体的走向，将每5尺墙体置于方格边界上。墙不必竖直，也不必由任何表面支撑。你必须在连续的空旷空间内召唤墙体，使其边缘不穿过任何生物或物体，否则法术会失效。</p><p>穿过墙体的无心智生物、未被持用或穿戴的物体（包括投掷武器和弹药）及法术效果会被困在墙内，在进入1轮后才穿出。进入墙体的持握物品，例如用于打击墙另一侧生物的近战武器，也会卡住1轮。生物可以选择放开所持物品；如此一来，该物品摆脱墙体效果后会继续沿原轨迹运动；这使近战武器能够先结算打击，再落向地面。但如果攻击或指向效果进入墙体后，其目标已离开原来的位置，则会自动未命中。</p><p>非无心智生物进入时间之墙时，如能如此做，就会失去当前回合的一个动作；如果无法如此做，无论是因为它正在使用该回合最后一个动作，还是因为当时并非它的回合，它都会改为@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}。</p>"
+    },
+    "Shred Soul": {
+      "name": "撕碎灵魂 Shred Soul",
+      "description": "<p>你直接探入生物的灵魂本质，将其撕成碎片，造成14d10精魂伤害，并根据意志豁免产生附加效果。如果法术使生物降至0 HP，它便会死亡，且任何复活它的尝试都必须成功通过对抗撕碎灵魂的反制检定，否则自动失败；这是死亡效果，但法术的其他效果不具有死亡特征。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p><p><strong>成功</strong>该生物受到一半伤害，并@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}、@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}和@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}，持续1轮。</p><p><strong>失败</strong>该生物受到全额伤害，并力竭2、笨拙2和呆滞2，持续1分钟。</p><p><strong>大失败</strong>该生物受到双倍伤害，并@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭4}、@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙4}和@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞4}，持续1分钟。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d10。</p>"
+    },
+    "Agonizing Relocation": {
+      "name": "剧痛移位 Agonizing Relocation",
+      "description": "<p>你在一个生物的身体与其10尺内一处未被占据的空间之间建立联系。目标身体的一部分向该空间错位，令全身剧痛。目标必须尝试一次强韧豁免。如果目标豁免失败或大失败，可以选择不被移位，代价是承受此法术的双倍伤害。</p><hr /><p><strong>大成功</strong>目标不受影响。</p><p><strong>成功</strong>目标受到2d6挥砍伤害。</p><p><strong>失败</strong>目标受到4d6挥砍伤害，并被移至相连的空间。</p><p><strong>大失败</strong>目标受到6d6挥砍伤害，并被移至相连的空间。与大多数强迫移动不同，对抗<em>剧痛移位</em>大失败时，目标可以被移入危险位置。</p><hr /><p><strong>升阶（4环）</strong>挥砍伤害在成功时提高至3d6，失败时提高至6d6，大失败时提高至9d6。法术射程提高至100尺，所选的未被占据空间可以位于目标30尺内。</p><p><strong>升阶（6环）</strong>挥砍伤害在成功时提高至4d6，失败时提高至8d6，大失败时提高至12d6。法术射程提高至500尺，所选的未被占据空间可以位于目标60尺内。</p>"
+    },
+    "Knock Heads": {
+      "name": "碰头术 Knock Heads",
+      "description": "<p>选择区域内的两个生物，用念动力抓住它们并使其互相撞击。两个目标都被移至它们之间的中点，撞在一起，受到16d6钝击伤害。如果其中任一生物豁免大成功，另一个生物便不会受到此法术的伤害。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p><p><strong>成功</strong>该生物被移位，并受到一半伤害。</p><p><strong>失败</strong>该生物被移位，并受到全额伤害。</p><p><strong>大失败</strong>该生物被移位，并受到双倍伤害。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6，两个目标之间的最大距离增加5尺。</p>"
+    },
+    "Reforge Weapon": {
+      "name": "重铸武器 Reforge Weapon",
+      "description": "<p>你暂时调整一件金属近战武器的形状与重量，使其适应持用者的需要。为武器添加以下一项武器特征：卸武、擒拿、非致命、推撞、摔绊、多用B、多用P、多用S。</p><p>@UUID[Compendium.battlezoo-bestiary-es-pf2e.effects.Item.Geo3ZpCTGa2BdGEg]{法术效果：重铸武器}</p><hr /><p><strong>升阶（4环）</strong>你可以为武器添加上述两项武器特征，或添加背刺或横扫其中一项。</p><p><strong>升阶（6环）</strong>你可以为武器添加上述三项武器特征，或添加背刺、回摆、叠劲、致命d8或横扫其中一项。</p>"
+    },
+    "Eye-Biting Shadow": {
+      "name": "蚀眼暗影 Eye-Biting Shadow",
+      "description": "<p>你召唤一团冰冷的黑暗，将其掷入一个敌人的眼睛。对目标的AC进行法术攻击检定，根据结果产生效果。</p><hr /><p><strong>大成功</strong>目标受到6d6寒冷伤害；如果它没有高等黑暗视觉，一切事物对它都处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态，持续1分钟。</p><p><strong>成功</strong>目标受到3d6寒冷伤害；如果它没有黑暗视觉或高等黑暗视觉，一切事物对它都处于隐蔽状态，持续1分钟。目标可以花费一个动作擦去眼中的法术残留物，提前结束这种隐蔽；此动作具有操作特征。</p><hr /><p><strong>升阶（+1）</strong>寒冷伤害增加2d6（重击时增加4d6）。</p>"
+    },
+    "Battering Rampart": {
+      "name": "冲撞壁垒 Battering Rampart",
+      "description": "<p>你召唤一件暂时包裹身体的攻城器械，其中包括土垒和攻城锤。随后你可以用攻城锤，对15尺内的一个目标尝试一次近战法术攻击检定，造成7d8钝击伤害，并忽略目标至多15点硬度。此次攻击适用并计入你的多次攻击减值。攻城器械随你移动，不会妨碍你的速度，且土垒使你对所有攻击获得掩蔽。除用攻城锤进行的攻击外，你的对手对你的所有攻击都具有掩蔽。你可以利用土垒@UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{寻找掩蔽}，但不能利用它躲藏，因为土垒的位置显而易见。每次维持此法术时，你都可以对15尺内的一个目标再次进行攻城锤攻击。此攻城器械具有AC 10、硬度14、70 HP、重击免疫和物体免疫。如果它被摧毁，法术结束。</p><hr /><p><strong>升阶（+1）</strong>攻城锤伤害增加1d8，HP增加10。</p>"
+    },
+    "Toxify Blood": {
+      "name": "血液毒化 Toxify Blood",
+      "description": "<p>你将目标血液或其他重要体液中的关键成分转化为致命的腐蚀性毒素。该生物受到10d4持续伤害；伤害类型为酸蚀或毒素，取其受到伤害时对它更不利的类型。持续伤害结束时（通常是因为纯骰检定成功），该生物额外受到一次数值等于该持续伤害的普通伤害，并可能恶心；伤害和恶心状态取决于其强韧豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p><p><strong>成功</strong>该生物受到一半伤害。</p><p><strong>失败</strong>该生物受到全额伤害。持续伤害结束时，它还会@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}。</p><p><strong>大失败</strong>该生物受到双倍伤害。持续伤害结束时，它还会@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}。</p><hr /><p><strong>升阶（+1）</strong>持续伤害增加2d4。</p>"
+    },
+    "Iron Deathtrap": {
+      "name": "铁制死亡陷阱 Iron Deathtrap",
+      "description": "<p>你创造一个由坚铁构成、每边最长30尺的立方体箱子，将其中所有生物封闭起来，准备让它们迎接可怕的命运。如果立方体的任意一面会穿过墙壁等坚固障碍物，或穿过生物占据的空间，例如试图切开大型或更大体型生物占据的部分方格，法术便会失败；立方体可以安全地紧贴生物站立的地板延伸，不会使法术失败。</p><p>区域内的生物可以尝试反射豁免，在立方体将其封入之前逃出；成功时，它们被推至死亡陷阱之外最近的未被占据方格。</p><p>立方体一旦成形，便立即充满各种致命的金属机关，从密集尖刺、旋转镰刀到坠落铁砧，不一而足。在死亡陷阱内开始回合的所有生物受到3d8钝击伤害、3d8穿刺伤害和3d8挥砍伤害，可进行基础反射豁免。</p><p>每轮一次，你可以维持死亡陷阱，保留其墙面，并将伤害区域的持续时间延长1轮。</p><p>死亡陷阱的各个面具有AC 10、硬度18和72 HP，且免疫重击与精准伤害。破坏其中一面不会阻止死亡陷阱造成伤害，但会使其中的生物能够从该方向逃离。</p>"
+    },
+    "Launching Vortex": {
+      "name": "弹射漩涡 Launching Vortex",
+      "description": "<p>你在双腿周围唤起旋涡，撕割附近的所有人，然后转移旋涡的能量，将自己推向空中。</p><p>施放此法术时，所有相邻生物受到4d6挥砍伤害，可进行基础反射豁免。随后，你无需触地便可朝任意方向跳跃30尺。你必须落在距离你30尺内的一处坚实地面上，否则会在使用下一个动作后坠落。在法术持续时间结束前的后续回合中，你每轮可以用一个具有移动和操作特征的单动作重新唤起旋涡，每次都造成上述挥砍伤害，并跳跃至多30尺。</p><hr /><p><strong>升阶（+1）</strong>挥砍伤害增加1d6，最大跳跃距离增加5尺。</p>"
+    },
+    "Pummeling Shockwave": {
+      "name": "猛击冲击波 Pummeling Shockwave",
+      "description": "<p>你让魔法能量环绕身体，准备让远处的对手领教你的武艺。当拳头猛然击出或利爪挥下时，产生的冲击波会撕裂敌人的身体，如同你就站在它身边一般。对30尺内的一个敌人，用徒手攻击进行一次近战打击，使用你通常用于该徒手攻击的攻击加值或你的法术攻击加值，取较高者。如果打击命中，造成其正常伤害。</p><hr /><p><strong>升阶（5环）</strong>射程提高至120尺，且你的攻击忽略隐蔽。</p><p><strong>升阶（7环）</strong>射程提高至400尺，且你的攻击同时忽略掩蔽和隐蔽。</p>"
+    },
+    "Buzzsaw": {
+      "name": "圆锯术 Buzzsaw",
+      "description": "<p>你暂时用金属外壳包住空着的手，外壳上布满成排旋转的锯刃。对目标的AC进行一次近战法术攻击检定。命中时，你造成2d6挥砍伤害和2点持续流血伤害。大成功时，伤害和流血伤害均翻倍。</p><p>你可以维持此法术至多1分钟。每次维持时，都可以对一个新目标尝试一次近战法术攻击检定。只要手仍被锯刃包裹，就不能用于任何其他用途。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6，持续流血伤害增加1。</p>"
+    },
+    "Targeting Beacon": {
+      "name": "瞄准信标 Targeting Beacon",
+      "description": "<p>你创造一个发光信标，悬浮在生物身体上方。如果该生物原本@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}，则改为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}。如果它原本因其他原因隐蔽，则不再隐蔽。信标生效期间，所有生物对该生物进行的攻击检定获得+1环境加值。下一次攻击检定命中该生物时，除了攻击的正常效果外，信标还会爆炸，对该生物造成6d6火焰伤害（基础反射豁免）。信标爆炸时，法术结束。</p><p>@UUID[Compendium.battlezoo-bestiary-es-pf2e.effects.Item.Ie37wxKiHkl52QCs]{法术效果：瞄准信标}</p><hr /><p><strong>升阶（+1）</strong>信标爆炸的伤害增加2d6。</p>"
+    },
+    "Cascading Caltrops": {
+      "name": "倾泻铁蒺藜 Cascading Caltrops",
+      "description": "<p>你召唤一大块尖锐金属，再将其打碎成无数铁蒺藜，散布于半径10尺的爆发区域内。当生物进入区域内的一格时，必须选择尝试反射豁免或特技检定。</p><p>@UUID[Compendium.battlezoo-bestiary-es-pf2e.effects.Item.W9SmqDGmYXCiGeY7]{法术效果：倾泻铁蒺藜}</p><hr /><p><strong>成功</strong>该生物不受影响。</p><p><strong>失败</strong>铁蒺藜扎入该生物，造成3d4穿刺伤害和3点持续流血伤害。持续流血伤害存在期间，该生物的速度受到–5尺状态减值。花费一个交互动作拔出铁蒺藜，可以降低停止此次持续流血伤害所需纯骰检定的DC。</p><p><strong>大失败</strong>如同失败，但穿刺伤害和持续流血伤害翻倍，且速度受到的状态减值提高至–10尺。铁蒺藜区域持续至有生物对抗此法术的反射豁免或特技检定失败、你再次施放倾泻铁蒺藜，或经过1分钟，以先发生者为准。〔译注：原文未说明拔出铁蒺藜使纯骰检定DC降低多少；区域的结束条件原列于大失败段。〕</p><hr /><p><strong>升阶（+1）</strong>穿刺伤害增加1d4，持续流血伤害增加1。</p>"
+    }
+  },
+  "folders": {
+    "Rank 3": "3环 Rank 3",
+    "Cantrips": "戏法 Cantrips",
+    "Rank 4": "4环 Rank 4",
+    "Rank 6": "6环 Rank 6",
+    "Rank 7": "7环 Rank 7",
+    "Rank 5": "5环 Rank 5",
+    "Rank 1": "1环 Rank 1",
+    "Rank 9": "9环 Rank 9",
+    "Rank 2": "2环 Rank 2"
+  }
+}

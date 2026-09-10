@@ -1,0 +1,109 @@
+{
+  "label": "效果",
+  "entries": {
+    "Effect: Clinging Dust (Failure)": {
+      "name": "效果：黏附尘（失败） Effect: Clinging Dust (Failure)",
+      "description": "<p>你陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，所有隐秘检定受到–4环境减值。</p>"
+    },
+    "Effect: Weave Narrative": {
+      "name": "效果：编织叙事 Effect: Weave Narrative",
+      "description": "<p>由@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.feats.Item.aa4Co1kDam2Tag99]{编织叙事}赋予</p><p>对直接阻挠你实现所宣告目标的生物进行攻击检定时，你获得+1状态加值；进行能够直接帮助你实现所宣告目标的技能检定时，你获得+1状态加值。</p>"
+    },
+    "Effect: Weave Narrative (Temporary HP)": {
+      "name": "效果：编织叙事（临时生命值） Effect: Weave Narrative (Temporary HP)",
+      "description": "<p>你获得等于自身等级的临时生命值。</p>"
+    },
+    "Effect: Majestic Spell": {
+      "name": "效果：威仪法术 Effect: Majestic Spell",
+      "description": "<p>你对施法者进行威吓检定时获得环境加值。</p>"
+    },
+    "Effect: Reveal Flaw": {
+      "name": "效果：揭露弱点 Effect: Reveal Flaw",
+      "description": "<p>你获得对所选伤害类型的弱点。</p>"
+    },
+    "Effect: Spiteful Curse": {
+      "name": "效果：恶意诅咒 Effect: Spiteful Curse",
+      "description": "<p>该生物的所有攻击检定均掷两次，取较差结果。如果触发生物在此期间攻击检定失败，就会伤及自身，受到持续流血伤害。</p>"
+    },
+    "Effect: Dragonet Form": {
+      "name": "效果：小龙形态 Effect: Dragonet Form",
+      "description": "<p>由@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.iUR0aKZH8e51FJaI]{小龙形态}赋予</p><p>你变为微型。</p>"
+    },
+    "Effect: Tail Lash": {
+      "name": "效果：扫尾 Effect: Tail Lash",
+      "description": "<p>该生物的触发检定受到-4环境减值。</p>"
+    },
+    "Effect: Reveal Flaw (Critical Failure)": {
+      "name": "效果：揭露弱点（大失败） Effect: Reveal Flaw (Critical Failure)",
+      "description": "<p>你获得对所选伤害类型的弱点。</p>"
+    },
+    "Effect: Dragon's Endurance": {
+      "name": "效果：巨龙耐力 Effect: Dragon's Endurance",
+      "description": "<p>你获得等于自身等级两倍的临时生命值。</p>"
+    },
+    "Effect: Inspiration": {
+      "name": "效果：启迪灵感 Effect: Inspiration",
+      "description": "<p>你的所有手艺检定、表演检定和意志豁免获得+1状态加值。</p>"
+    },
+    "Effect: Dragon's Tenacity": {
+      "name": "效果：巨龙坚韧 Effect: Dragon's Tenacity",
+      "description": "<p>你获得等于自身等级一半的临时生命值。</p>"
+    },
+    "Effect: Weave Narrative (NPC)": {
+      "name": "效果：编织叙事（非玩家角色） Effect: Weave Narrative (NPC)",
+      "description": "<p>王庭龙进行任何有助于实现其所宣告目标的攻击检定和技能检定时，均获得状态加值。</p>"
+    },
+    "Effect: Harden Scales": {
+      "name": "效果：硬化鳞片 Effect: Harden Scales",
+      "description": "<p>由@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.66DMnMd61NbO5Z1H]{硬化鳞片}赋予</p><p>你获得物理伤害抗力10（精金除外）。不过，每当此抗力生效，其抗力值便降低1。抵御物理伤害10次、抗力降至0时，此效果结束。</p>"
+    },
+    "Effect: Alicorn's Horn": {
+      "name": "效果：天角龙之角 Effect: Alicorn's Horn",
+      "description": "<p>你的角发出的光芒增强，照明半径增至火把的两倍。</p>"
+    },
+    "Effect: Caustic Corrosion": {
+      "name": "效果：强酸腐蚀 Effect: Caustic Corrosion",
+      "description": "<p>@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.feats.Item.zilRb8mK8SIfS1DG]{强酸腐蚀}的瞬时效果</p><p>你的硬度降低5加上效果来源等级的一半。</p><p></p>"
+    },
+    "Effect: Hyperfocus Speed": {
+      "name": "效果：凝能疾飞 Effect: Hyperfocus Speed",
+      "description": "<p>由@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.U18sK1cNBpneYlHh]{凝能疾飞}赋予</p><p>你获得100尺飞行速度，并且该飞行速度获得+20尺状态加值。</p>"
+    },
+    "Effect: Clinging Dust (Success)": {
+      "name": "效果：黏附尘（成功） Effect: Clinging Dust (Success)",
+      "description": "<p>你陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，所有隐秘检定受到–4环境减值。</p>"
+    },
+    "Effect: Teleporting Charge": {
+      "name": "效果：传送冲锋 Effect: Teleporting Charge",
+      "description": "<p>该生物对抗闪耀的豁免受到–2环境减值</p>"
+    },
+    "Effect: Euphoric Exhalation": {
+      "name": "效果：欢愉呼气 Effect: Euphoric Exhalation",
+      "description": "<p>你的攻击和伤害掷骰受到–1环境减值。</p>"
+    },
+    "Effect: Bespell Claw": {
+      "name": "效果：附法龙爪 Effect: Bespell Claw",
+      "description": "<p>由@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.J79fnSbEsn2gNs8p]{附法龙爪}赋予</p><p>你的龙类徒手攻击额外造成1d6伤害，其类型取决于你刚施放法术的魔法体系。</p><ul><li><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">奥术</strong> 力场</li><li><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">神术</strong> 灵魂</li><li><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">异能</strong> 心灵</li><li><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">原能</strong> 穿刺</li></ul>"
+    },
+    "Effect: Clinging Dust (Critical Failure)": {
+      "name": "效果：黏附尘（大失败） Effect: Clinging Dust (Critical Failure)",
+      "description": "<p>你陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，所有隐秘检定受到–4环境减值。</p>"
+    },
+    "Effect: Purifying Aura": {
+      "name": "效果：净化灵光 Effect: Purifying Aura",
+      "description": "<p>你对抗恐惧和毒素效果的豁免获得+1状态加值。</p>"
+    },
+    "Effect: Conductive Scales": {
+      "name": "效果：导能鳞片 Effect: Conductive Scales",
+      "description": "<p>由@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.rwP57mW8uiIw4QGu]{导能鳞片}赋予</p><p>你的AC获得+1状态加值。</p>"
+    },
+    "Effect: Sudden Inspiration": {
+      "name": "效果：灵感乍现 Effect: Sudden Inspiration",
+      "description": "<p>你的触发攻击检定、技能检定、察觉检定或豁免检定获得+2状态加值。</p>"
+    },
+    "Effect: Reflecting Scales": {
+      "name": "效果：反射鳞片 Effect: Reflecting Scales",
+      "description": "<p>由@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.izn38GQx9DpXYNZL]{反射鳞片}赋予</p><p>你获得对自选伤害类型的抗力5。你可以结束此效果，对@Template[emanation|distance:20]内所有生物造成所选类型的伤害：此前每抵御10点伤害，便造成1d6伤害，至多10d6伤害（@Check[type:reflex|against:class-spell|basic]）</p><p>@Damage[((@item.badge.value)d6)[@item.flags.pf2e.rulesSelections.damageType]]</p>"
+    }
+  }
+}

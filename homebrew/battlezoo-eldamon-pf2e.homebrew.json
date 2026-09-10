@@ -1,0 +1,33 @@
+{
+  "moduleId": "battlezoo-eldamon-pf2e",
+  "moduleTitle": "Battlezoo: Eldamon for Pathfinder 2e by Roll For Combat",
+  "homebrew": {
+    "creatureTraits": {
+      "darkness": "ELDAMON.Trait.Darkness",
+      "death": "ELDAMON.Trait.Death",
+      "eldamon": "ELDAMON.Trait.Eldamon"
+    },
+    "featTraits": {
+      "eldamon": "ELDAMON.Trait.Eldamon",
+      "eldamon-trainer": "ELDAMON.Trait.EldamonTrainer",
+      "elemental-avatar": "ELDAMON.Trait.ElementalAvatar",
+      "metapower": "ELDAMON.Trait.Metapower",
+      "recovery": "ELDAMON.Trait.Recovery",
+      "refresh": "ELDAMON.Trait.Refresh",
+      "ultimate": "ELDAMON.Trait.Ultimate"
+    },
+    "languages": {
+      "aetheran": "ELDAMON.Language.Aetheran",
+      "astral": "ELDAMON.Language.Astral",
+      "chronan": "ELDAMON.Language.Chronan",
+      "cryan": "ELDAMON.Language.Cryan",
+      "khaotan": "ELDAMON.Language.Khaotan",
+      "luxan": "ELDAMON.Language.Luxan",
+      "melodian": "ELDAMON.Language.Melodian",
+      "soman": "ELDAMON.Language.Soman",
+      "spirituan": "ELDAMON.Language.Spirituan",
+      "venenan": "ELDAMON.Language.Venenan",
+      "voltan": "ELDAMON.Language.Voltan"
+    }
+  }
+}

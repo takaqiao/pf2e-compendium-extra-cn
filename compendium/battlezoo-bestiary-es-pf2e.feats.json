@@ -1,0 +1,143 @@
+{
+  "label": "专长",
+  "entries": {
+    "Mutilate": {
+      "name": "残害 Mutilate",
+      "description": "<p>你学会了瞄准较弱对手的特定身体部位，造成持久损伤。当你对等级低于你的目标使用攻其双眼、妨碍打击、致跛、击中要害或你什么也听不见时，目标承受的专长附加效果，其成功度再向对目标不利的方向调整一级。这意味着，如果你的打击未命中但并非大失败，目标仍会承受该专长附加效果的通常成功结果，不过依照打击失败的一般规则，它仍不会受到伤害。</p><p>如果此次打击造成重击，则改用以下附加效果。</p><p>@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.9xIPv3qflLbWro9b]{攻其双眼}：目标@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1分钟，并@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1天。</p><p>@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.bGYVcR2TY1nRpl1B]{妨碍打击}：打击带来的剧痛让目标晕头转向，持续[[/gmr 1d4 #rounds]]{1d4轮}；在此期间，它不能花费动作用以恢复受影响徒手打击的使用。</p><p>@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.Dq1e3pXn7ivokrWb]{致跛}：目标在1轮内不能使用受影响的移动方式；如果那是它唯一的移动方式，它还会@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}1轮。所有使用受影响肢体的速度受到–20尺状态减值，持续1分钟。</p><p>@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.umaMgNcIqNfwb2Um]{击中要害}：目标在[[/gmr 1d4 #rounds]]{1d4轮}内不能花费动作干呕以降低该状态值。</p><p>@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.nRawdsbdVMvnJhxU]{你什么也听不见}：目标@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋}1小时，并短暂眩晕，对所有攻击@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续[[/gmr 1d4 #rounds]]{1d4轮}。</p>"
+    },
+    "Chink in the Armor": {
+      "name": "护甲破绽 Chink in the Armor",
+      "description": "<p>你利用先前攻击制造的破绽，瞄准对手防御中的弱点。进行一次造成物理伤害的打击。此次打击的武器伤害忽略等于你等级数值的对手抗力和硬度，但你造成的其他类型的附加伤害不享受此收益。</p>"
+    },
+    "Climb Monster": {
+      "name": "攀爬怪物 Climb Monster",
+      "description": "<p>你可以用攀爬登上体型至少比你大2级的敌人的身体。此时，你的特殊技巧使你可以用武器钩住该生物的甲壳进行攀爬。只要你的两只手各自处于空闲状态或持有武器（而非其他物品），你就能攀爬。</p><p>攀爬怪物的检定DC等于该生物的反射DC（@Check[athletics|against:reflex|options:action:climb]）。你攀爬在生物身上时，它对你@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，且对你进行的攻击检定受到–1环境减值。</p><p>生物的身体属于不稳定表面。每当你在生物身上攀爬时开始回合，你必须在该回合内攀爬它，否则便会在回合结束时从其身上掉落；进行此攀爬检定时，你不必离开当前方格，且从该生物占据的一格攀爬至另一格，不会触发该生物通常由移动触发的任何反应。如果该生物移动到其他位置，你会立即掉落。你从该生物身上掉落时，会沿其身体滑下，落在它刚刚腾出的某一方格内（由你选择）。如果该生物原本在地面上，你安全落地；否则，你会坠落，从该生物占据空间的底部计算到地面的距离。</p><p>@UUID[Compendium.battlezoo-bestiary-es-pf2e.effects.Item.yzBiulIh8AYiKT3y]{效果：攀爬怪物}</p><hr /><p><strong>特殊</strong>如果你攀爬到了该生物的头部，且该生物拥有囫囵活吞或类似能力，你可以作为此次移动的一部分，强行钻入它的食道。如此一来，它移动时你不会自动掉落，但你只能通过通常的方法逃脱。</p>"
+    },
+    "Go for the Eyes": {
+      "name": "攻其双眼 Go for the Eyes",
+      "description": "<p>你学会了精准攻击，损害敌人的视力。以该生物的眼睛为目标进行一次打击。如果你的攻击检定成功，除了通常的伤害和效果外，目标的眼睛还会受伤。如果敌人没有眼睛或其他用于视物的身体部位，攻其双眼不会产生普通打击以外的附加效果。</p><hr /><p><strong>大成功</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1轮，并@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1分钟。</p><p><strong>成功</strong>目标目眩2轮。</p>"
+    },
+    "Soaring Leap": {
+      "name": "凌空飞跃 Soaring Leap",
+      "description": "<p>你凌空跃向一个敌人，在半空中对其发动攻击。尝试一次@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}或@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}。如果你尝试跳高，以确定跳远距离的方式确定跳跃高度。在跳跃结束时，你可以进行一次近战打击。</p><p>打击之后，如果你仍在空中，便会落向地面。如果坠落距离不超过跳跃高度，你不会受到伤害，并能站立着落地。</p><hr /><p><strong>特殊</strong>如果你拥有@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.4g3rZ2LrfJoCzsh5]{攀爬怪物}专长，且敌人体型至少比你大2级，你可以选择在打击后尝试用于攀爬的运动检定，抓住怪物，获得攀爬怪物的效果，而不是坠落。</p>"
+    },
+    "Impossible Combo": {
+      "name": "不可思议的连击 Impossible Combo",
+      "description": "<p><strong>频率</strong>每10分钟一次</p><hr /><p>你以违背常理、突破因果界限的精准手法，展开一套不可思议的连击。或许你的斧头劈中生物后，它的一块断角飞出并刺入另一个目标，而后者痛苦挣扎时，又用尾巴砸中了第三个目标。</p><p>对一个目标进行一次近战打击。如果打击命中，你可以选择30尺内的另一个生物作为额外一次打击的目标，并可以选择朝它跨步。即使该生物不在你的触及范围内，这些打击仍使用最初那次近战打击的命中数值和伤害（照常计算多次攻击减值）。如果你命中第二个目标，可以对距离第二个目标30尺内的另一个目标重复此过程，直到未能命中某个目标。你可以随时中断连击；否则，连击会在你第一次攻击未命中时结束。但是，你不能多次以同一生物为目标；每次转向新目标时，它都必须是你在本次不可思议的连击中尚未打击过的目标。</p><p>GM可以选择改变各次打击的伤害类型，使其更符合你描述的连击过程。例如，斧劈接断角穿刺再接尾巴猛砸，可能分别在第一次打击造成挥砍伤害、第二次造成穿刺伤害、第三次造成钝击伤害。GM也可以根据你的描述，以及对手是否位于你的触及范围内，决定第一次之后的攻击是近战还是远程攻击。</p>"
+    },
+    "Hobble": {
+      "name": "致跛 Hobble",
+      "description": "<p>你有意瞄准对手用于移动的肢体，阻碍其行动。进行一次打击，以该生物用于移动的肢体为目标，例如腿或翅膀。如果你的攻击检定成功，除了通常的伤害和效果外，目标的肢体还会受伤。如果敌人不使用任何肢体移动，致跛不会产生普通打击以外的附加效果。</p><hr /><p><strong>大成功</strong>目标所有使用该肢体的速度受到–20尺状态减值，持续3轮。腿通常对应陆地速度、攀爬速度和游泳速度，鳍对应游泳速度，翅膀对应飞行速度。@UUID[Compendium.battlezoo-bestiary-es-pf2e.effects.Item.ydD83ONhiRcHwDoo]{效果：致跛（大成功）}</p><p><strong>成功</strong>如同大成功，但该生物各项速度受到的状态减值只持续1轮。@UUID[Compendium.battlezoo-bestiary-es-pf2e.effects.Item.g1OSQYSphV7jXTQc]{效果：致跛（成功）}</p>"
+    },
+    "I Know You!": {
+      "name": "我认得你！ I Know You!",
+      "description": "<p><strong>触发</strong>你掷先攻。</p><hr /><p>你仔细研究过世间的各类怪物，在战场上一眼便能认出它们。你使用任意一项熟练度至少为专家的技能，对你能看见的任意一个生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}。</p>"
+    },
+    "Devastating Redirection": {
+      "name": "毁灭性转向 Devastating Redirection",
+      "description": "<p><strong>触发</strong>你正在一个体型至少比你大两级的生物身上攀爬，且该生物对你的一次打击未命中。</p><hr /><p>你攀附的巨兽若想把你甩下来，可得多加小心，否则毁灭性的攻击就会落到它自己身上。该生物重掷触发此次反应的攻击检定，并以自身为目标。</p>"
+    },
+    "Strategic Retreat": {
+      "name": "战略撤退 Strategic Retreat",
+      "description": "<p>你与怪物交战时虽然常常近身搏杀，但也明白有时迅速撤退才能活命。对触及范围内的一个敌人进行一次近战打击，然后跨步两次，远离该敌人。如果你拥有对应的移动方式，使用战略撤退时可以用掘穴、攀爬、飞行或游泳代替跨步。</p>"
+    },
+    "Limit Break": {
+      "name": "突破极限 Limit Break",
+      "description": "<p><strong>需求</strong>你在上一回合至少有三次近战打击命中。</p><hr /><p>你释放连击中积蓄的全部力量，突破平常的极限。对一个目标进行一次近战打击。此次打击额外造成4个武器伤害骰；如果使用<em>上等强击</em>武器，则额外造成5个武器伤害骰。目标10尺内的所有其他敌人受到等于7加上你力量调整值的溅射伤害（如果使用上等强击武器，则为8加上你力量调整值）。如果突破极限造成重击，除了对目标造成双倍伤害和造成双倍溅射伤害外，目标还会@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}并@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1}。</p><p>计算多次攻击减值时，突破极限视为两次攻击。</p><hr /><p><strong>特殊</strong>如果你双手各持一件武器，突破极限的打击还会加上未用于攻击的那件武器的全部武器伤害骰，再额外加上该武器的4个武器伤害骰（如果该武器为上等强击武器，则额外加上5个）。你不会加上该武器的任何其他效果或伤害。例如，当你另一只手持有一把<em>+2高等强击炽焰匕首</em>时进行突破极限打击，这把匕首会使突破极限额外造成7d4穿刺伤害，但不会造成火焰伤害。</p>"
+    },
+    "Wary Survivalist": {
+      "name": "谨慎求生者 Wary Survivalist",
+      "description": "<p>当你接近遍布环境危险的区域时，本能会提醒你，尤其是那些由怪兽或其他巍峨巨兽肆虐造成的危险。你用于发现环境危害的察觉检定、对抗环境危害攻击的AC，以及对抗环境危害的豁免获得+1环境加值。如果危害源于巨型生物的移动或攻击，这些环境加值提高至+3。即使你没有搜索，也能尝试检定来发现通常需要搜索才能发现的环境危害。你仍须满足发现该危害的所有其他需求。</p><p>你可以解除那些要求某项技能达到大师熟练度的环境危害（大多数环境危害通常要求生存，但也可能要求其他技能，尤其是涉及巨型生物的危害）。如果你用于解除某一环境危害的技能达到大师熟练度，则你可以改为解除要求传奇熟练度的环境危害，且你对抗这些危害的环境加值提高至+2（对抗巨型生物制造的危害时为+4）。</p>"
+    },
+    "Hunting Paragon": {
+      "name": "狩猎典范 Hunting Paragon",
+      "description": "<p>你对狩猎技巧的掌握已臻化境，对手还来不及眨眼，你便已出手。你永久处于@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{加速}状态。你只能将额外动作用于@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}、@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}、@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}或@UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{攀爬}，或在拥有相应专长的情况下，作为@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.9xIPv3qflLbWro9b]{攻其双眼}、@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.bGYVcR2TY1nRpl1B]{妨碍打击}、@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.umaMgNcIqNfwb2Um]{击中要害}、@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.Dq1e3pXn7ivokrWb]{致跛}或@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.nRawdsbdVMvnJhxU]{你什么也听不见}所需两个动作中的一个。</p>"
+    },
+    "You Call That a Roar?": {
+      "name": "这也叫咆哮？ You Call That a Roar?",
+      "description": "<p>巨型怪物惯于以压倒性的气势恐吓较小的猎物，但你不为所动。当敌人对你进行威吓检定，或使你受到恐惧灵光或嚎叫之类的听觉恐惧效果影响时，你可以视情况用运动DC代替意志DC，或用运动检定代替意志豁免。</p><p>如果该生物恐吓你的尝试大失败，或你避免惊惧的检定大成功，试图恐吓你的生物会@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}。</p><p>由GM决定，此能力也可以让你抵御其他主要依靠生物肉体和气势发挥作用的生物能力，但不能抵御恐惧术等法术或其他类似的神秘效果。</p>"
+    },
+    "Monster Hunter Dedication": {
+      "name": "怪物猎手献身 Monster Hunter Dedication",
+      "description": "<p>你的运动熟练度提高至专家，并从以下技能中选择两项成为受训：特技、自然或生存。如果你已经在其中两项技能受训，则你在剩下一项技能及自选的另一项技能受训；如果你已经在这三项技能全部受训，则改为在自选的另外两项技能受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8]{巨人摔角术}专长，并作如下调整：你可以尝试@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}、@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}、@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}或@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}体型至多比你大两级的生物；如果你的运动为大师，则至多大三级；如果你的运动为传奇，则至多大四级。</p>"
+    },
+    "Persistent Rider": {
+      "name": "顽强骑乘者 Persistent Rider",
+      "description": "<p><strong>触发</strong>你正通过攀爬怪物攀附的生物使用一个不具有传送特征的移动动作。</p><p><strong>需求</strong>你正在使用攀爬怪物攀爬在一个生物身上。</p><hr /><p>你顽强地抓住该生物，即使它在战场上移动也不松手。你以该生物的反射DC为DC尝试一次用于攀爬的@Check[athletics|against:reflex|options:action:climb]检定，以抓住它直到此次移动动作完成。成功时，你随它一起移动；失败时，你照常掉落。</p>"
+    },
+    "Hampering Strike": {
+      "name": "妨碍打击 Hampering Strike",
+      "description": "<p>你对敌人进行一次打击，瞄准它用于某项徒手攻击的身体部位。如果你的攻击检定成功，除了通常的伤害和效果外，敌人用该部位进行徒手攻击的能力还会受阻；这不会妨碍它进行武器攻击或用该部位移动。如果该生物的体型至多比你大1级，你可以瞄准用于打击的一对对应身体部位，例如双翼。这种阻碍可能表现为该部位麻木、脱臼，或其他符合该生物身体构造的损伤。如果敌人不使用身体部位进行任何徒手攻击，例如完全依靠不从身体发出的神秘徒手攻击，妨碍打击不会产生普通打击以外的附加效果。</p><hr /><p><strong>大成功</strong>目标不能用受影响的身体部位进行徒手攻击，直到它花费一个具有操作特征的动作使该部位恢复作战状态。</p><p><strong>成功</strong>目标用受影响的身体部位进行的徒手攻击受到–2环境减值，直到它花费一个具有操作特征的动作使该部位恢复作战状态。</p>"
+    },
+    "Monster Scavenger": {
+      "name": "怪物拾荒者 Monster Scavenger",
+      "description": "<p>你尤其擅长利用被你击败的生物身上的每一个部位。你可以使用生存，通过搜集怪物部件来@UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{赚取收入}。如果你选择改用合适的学识技能，则该检定获得+1环境加值。如果你的生存为大师，该环境加值提高至+2。</p>"
+    },
+    "Calamitous Crush": {
+      "name": "灾难碾压 Calamitous Crush",
+      "description": "<p>你将正在碾压的敌人砸向另一个对手。使用碾压时，选择与@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}敌人相邻的另一个敌人。该敌人也受到你的碾压伤害，并以你的职业DC进行@Check[reflex|against:class|basic]豁免。</p>"
+    },
+    "I Know All of You!": {
+      "name": "你们我全认得！ I Know All of You!",
+      "description": "<p>使用我认得你！时，你可以用任意组合的、熟练度至少为专家的技能，进行至多四次@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}。这些检定可以任意分配给你能看见的生物。例如，你可以分别针对四个不同的对手检定，也可以将四次检定全部用于同一个生物。</p>"
+    },
+    "Distracting Dodge": {
+      "name": "分心闪避 Distracting Dodge",
+      "description": "<p>你花哨的动作吸引了注意力。跨步，且对抗由此次移动触发的反应时，你的AC获得+2环境加值。如果敌人可以使用由你的此次移动触发的反应，无论它是否选择使用，在随后的1轮内，它都不能再使用由移动触发的反应。如果你拥有对应的移动方式，使用分心闪避时可以用掘穴、攀爬、飞行或游泳代替跨步。</p>"
+    },
+    "Steal Strike": {
+      "name": "窃取打击 Steal Strike",
+      "description": "<p>你以最直接的方式夺用敌人的攻击，操纵它们的身体伤害它们自己，以及其他挡路者。每当你@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}一个生物时，可以选择专门抓住它能够进行近战徒手攻击的某个身体部位，例如用于爪击的手臂、用于颚击的头部，或用于尾击的尾巴。如果你使该生物处于@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态，你可以用自由动作改抓另一个身体部位。</p><p>抓住某个身体部位期间，你可以用它打击。使用你的徒手攻击加值和怪物该项打击的特征；例如，如果怪物的打击具有灵巧和娴熟特征，你使用该打击的攻击也具有灵巧，且攻击检定可以使用敏捷调整值代替力量调整值。如果怪物该项打击的触及范围大于你的触及范围，且攻击目标在你的触及范围之外，你的攻击检定受到–2环境减值，但你仍能利用该生物的触及范围和位置尝试攻击。</p><p>此次打击的伤害使用该生物的基础伤害骰，以及你通常的徒手攻击伤害加值。如果该打击有总会发生的附加效果，例如额外造成火焰伤害或使目标接触毒素，则照常应用这些效果。</p>"
+    },
+    "Wriggle Away": {
+      "name": "扭身脱逃 Wriggle Away",
+      "description": "<p>你知道如何避免被高耸在你面前的生物推来搡去或碾压。如果体型至少比你大2级的生物尝试对你@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}、@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}、@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}或@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}，你抵抗该效果的强韧DC或反射DC获得+2环境加值。此外，你为逃脱这类生物而进行的所有检定获得+2环境加值，且你逃脱这类生物的检定成功时，改为大成功。你对抗它们吞没、囫囵活吞和践踏尝试的豁免也获得+2环境加值。由GM决定，你抵抗其他要求该生物进行运动检定，或表现为该生物碾压、吞食目标的类似能力时，也可能获得此环境加值。</p>"
+    },
+    "Unfathomable Combo": {
+      "name": "莫测连击 Unfathomable Combo",
+      "description": "<p>你的连续攻击原本就已不可思议，如今更是令人无法理解。你可以每分钟使用一次不可思议的连击。使用时，不可思议的连击中的各次打击直到连击结束后才应用多次攻击减值，而且你可以在彼此相距60尺内的生物之间选择目标，取代原本的30尺。</p>"
+    },
+    "You Heard Nothing": {
+      "name": "你什么也听不见 You Heard Nothing",
+      "description": "<p>你仔细瞄准，攻击敌人的听觉器官，这也可能影响它的平衡感。以该生物的耳朵为目标进行一次打击。如果你的攻击检定成功，除了通常的伤害和效果外，目标的耳朵还会受伤。如果敌人没有耳朵或其他听觉器官，你什么也听不见不会产生普通打击以外的附加效果。</p><hr /><p><strong>大成功</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋}1分钟，并@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}1轮。</p><p><strong>成功</strong>目标耳聋2轮。</p>"
+    },
+    "Crush": {
+      "name": "碾压 Crush",
+      "description": "<p><strong>需求</strong>你使一个敌人处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态。</p><hr /><p>你徒手碾压抓住的敌人。一个被你弄至受擒或束缚的敌人受到等于你力量调整值加上你等级的钝击伤害（@Damage[(@actor.level + @actor.system.abilities.str.mod)[bludgeoning]]），并以你的职业DC进行@Check[fortitude|against:class|basic]豁免。</p>"
+    },
+    "Opportunistic Monster Rider": {
+      "name": "伺机骑兽者 Opportunistic Monster Rider",
+      "description": "<p>你不只是搭个便车，还会像跳蚤一样黏在生物背上。每当你使用跃身搭乘，且该生物结束其移动动作时，你可以立即以该生物的反射DC为DC，进行一次用于攀爬的@Check[athletics|against:reflex|options:action:climb]检定，爬到它身上，获得攀爬怪物的通常效果。如果它再次移动，你会照常掉落，除非你拥有@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.atdD6rkzEOqQR5xF]{顽强骑乘者}专长。</p>"
+    },
+    "Foe Bowling": {
+      "name": "敌人保龄球 Foe Bowling",
+      "description": "<p>当你使用@UUID[Compendium.pf2e.feats-srd.Item.w0nSRBNwexM5Dh0D]{回旋抛投}将敌人扔向障碍物时，它受到的钝击伤害从该专长所列数值提高至4d8加上你的力量调整值（@Damage[(4d8 + @actor.system.abilities.str.mod)[bludgeoning]]）。如果你将目标扔向另一个敌人，后者对目标而言视为坚固障碍物。另一个敌人也可能受到等于4d8加上你力量调整值的钝击伤害，或@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}，具体取决于它以你的职业DC进行的@Check[reflex|against:class]豁免结果。</p><hr /><p><strong>大成功</strong>该敌人不受影响。</p><p><strong>成功</strong>该敌人受到一半伤害。</p><p><strong>失败</strong>该敌人受到全额伤害。</p><p><strong>大失败</strong>该敌人受到全额伤害，并被击倒。</p>"
+    },
+    "Hit in the Vitals": {
+      "name": "击中要害 Hit in the Vitals",
+      "description": "<p>你知道如何精准击中猎物的痛处，让它痛得作呕。以生物的重要器官为目标进行一次打击。如果你的攻击检定成功，除了通常的伤害和效果外，目标还会骤然感到令人作呕的疼痛。用于减轻此恶心效果的@Check[fortitude|against:class]豁免，其DC等于你的职业DC。免疫精准伤害的敌人不会承受此次打击的附加效果。</p><hr /><p><strong>大成功</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}。</p><p><strong>成功</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}。</p><hr /><p><strong>特殊</strong>如果你在遭到囫囵活吞或以其他方式位于怪物体内时使用击中要害，此专长造成的恶心状态在成功时提高至恶心2，在大成功时提高至@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心3}。</p>"
+    },
+    "Hop a Ride": {
+      "name": "跃身搭乘 Hop a Ride",
+      "description": "<p><strong>触发</strong>你触及范围内一个体型至少比你大2级的敌人尝试移开，远离你。</p><hr /><p>你跃上敌人搭乘，借它的势头随它移动，直到其移动动作结束，然后脱离。你落在该生物刚刚腾出的某一方格内（由你选择）。如果该生物原本在地面上，你安全落地；否则，你会坠落，从该生物占据空间的底部计算到地面的距离。</p>"
+    },
+    "The Right Parts for the Job": {
+      "name": "部件各尽其用 The Right Parts for the Job",
+      "description": "<p><strong>使用权限</strong>你的团正在使用怪物部件系统</p><hr /><p>你随身携带着从过去击败的各种怪物身上收集的部件，并知道如何用它们撕破猎物的防御。你可以使用@UUID[Compendium.battlezoo-bestiary-es-pf2e.effects.Item.N3AIV1hwCis5dEKy]{瞬时怪物灌注}。</p>"
+    }
+  },
+  "folders": {
+    "Level 20": "20级 Level 20",
+    "Level 18": "18级 Level 18",
+    "Level 2": "2级 Level 2",
+    "Level 10": "10级 Level 10",
+    "Level 14": "14级 Level 14",
+    "Level 16": "16级 Level 16",
+    "Level 6": "6级 Level 6",
+    "Level 4": "4级 Level 4",
+    "Level 8": "8级 Level 8",
+    "Level 12": "12级 Level 12",
+    "Level 7": "7级 Level 7",
+    "Monster Hunter": "怪物猎手 Monster Hunter"
+  }
+}

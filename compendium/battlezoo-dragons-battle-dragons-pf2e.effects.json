@@ -1,0 +1,57 @@
+{
+  "label": "效果",
+  "entries": {
+    "Effect: Murderous Euphoria": {
+      "name": "效果：杀戮狂喜 Effect: Murderous Euphoria",
+      "description": "<p>你的攻击检定和豁免检定获得状态加值。</p>"
+    },
+    "Effect: Wrathful Bite": {
+      "name": "效果：愤怒噬咬 Effect: Wrathful Bite",
+      "description": "<p>你陷入困惑。你的近战伤害掷骰还获得+2状态加值（灵巧攻击为+1），AC承受–1状态减值。</p>"
+    },
+    "Effect: Battle Invigorated": {
+      "name": "效果：战斗振奋 Effect: Battle Invigorated",
+      "description": "<p>你获得再生15。</p>"
+    },
+    "Effect: Furious Spellcasting": {
+      "name": "效果：狂怒施法 Effect: Furious Spellcasting",
+      "description": "<p>你的AC承受–1减值。</p>"
+    },
+    "Effect: Display Triumph": {
+      "name": "效果：彰显胜利 Effect: Display Triumph",
+      "description": "<p>由效果来源选择：你的攻击检定和伤害掷骰，或AC和豁免检定，获得+1状态加值。</p>"
+    },
+    "Effect: Dutiful Interposition": {
+      "name": "效果：尽责挡护 Effect: Dutiful Interposition",
+      "description": "<p>你的AC获得+2环境加值。</p>"
+    },
+    "Effect: Inspire Envoy (Great Wyrm)": {
+      "name": "效果：激励使者（太古） Effect: Inspire Envoy (Great Wyrm)",
+      "description": "<p>该生物的攻击检定、AC，或下列全部项目获得+3状态加值：察觉、意志豁免和基于魅力的技能检定。</p>"
+    },
+    "Effect: To War!": {
+      "name": "效果：开战！ Effect: To War!",
+      "description": "<p>你的各项速度获得+10尺状态加值。</p>"
+    },
+    "Effect: Hunting Trophy": {
+      "name": "效果：狩猎战利品 Effect: Hunting Trophy",
+      "description": "<p>你获得等于你等级两倍的临时生命值。</p>"
+    },
+    "Effect: Wing Parry": {
+      "name": "效果：翼格挡 Effect: Wing Parry",
+      "description": "<p>你的AC获得+1环境加值。</p>"
+    },
+    "Stance: Raised Wing Stance": {
+      "name": "架势：举翼架势 Stance: Raised Wing Stance",
+      "description": "<p>你的AC获得+1环境加值。</p>"
+    },
+    "Effect: Wrath Made Manifest": {
+      "name": "效果：愤怒显形 Effect: Wrath Made Manifest",
+      "description": "<p>你获得等于你等级一半的火焰抗力（若你拥有龙族抗力专长，则等于你的等级）。你的近战无武装攻击额外造成1d6火焰伤害。任何对你进行近战无武装攻击，或以接触距离法术触碰你的生物，都必须进行一次@Check[reflex|against:class-spell]豁免，对抗你的职业DC与法术DC中较高者，否则受到@Damage[3d6[persistent,fire]]伤害。</p>"
+    },
+    "Effect: Trophy Master": {
+      "name": "效果：战利品大师 Effect: Trophy Master",
+      "description": "<p>你获得等于你等级四倍的临时生命值。</p>"
+    }
+  }
+}

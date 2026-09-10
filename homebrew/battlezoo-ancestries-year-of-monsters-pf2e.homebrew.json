@@ -1,0 +1,59 @@
+{
+  "moduleId": "battlezoo-ancestries-year-of-monsters-pf2e",
+  "moduleTitle": "Battlezoo Ancestries: Classic Creatures for Pathfinder 2e by Roll for Combat",
+  "homebrew": {
+    "actorTraits": {
+      "teleportation": "传送"
+    },
+    "baseWeapons": {
+      "minotaur-mazeaxe": "牛头人迷宫巨斧"
+    },
+    "creatureTraits": {
+      "doppelborn": "二重生灵",
+      "doppelganger": "变形怪",
+      "dungeon": "地城",
+      "faerie-scion": "妖精血裔",
+      "intelligent-weapon": "智能武器",
+      "mimic": "拟形怪",
+      "minotaur": "牛头人",
+      "nymphtouched": "宁芙眷顾者",
+      "slime": "黏液怪",
+      "slimeheart": "黏液之心",
+      "sidhe": "希德族",
+      "teleportation": "传送"
+    },
+    "featTraits": {
+      "activation": {
+        "label": "启动",
+        "description": "智能武器族裔的许多专长具有“启动”特征。具有启动特征的专长会提供一种新的启动方式；若该专长本身是一个动作，则该专长就是一种启动。这些专长可在无生命模式下使用，也可供没有投射体的投射武器，或未采用完整族裔、背景与职业规则的物品型智能武器使用。如果你在无生命模式下、没有投射体时或作为物品使用启动专长，而该专长赋予了你无法执行的动作（例如打击或行走），你就不执行该动作；如果该动作是法术生效所必需的，或是平衡法术强度的因素，GM可能判定整个法术都不产生效果。这种情况通常发生在启动专长允许你选择一个法术，而你选择了会赋予你无法执行的动作的法术时，因此选择这类法术时应当谨慎。如果你处于无生命模式且由他人持用，或你以物品的形式游玩，你的持用者也可以在获得你许可后使用你的启动专长；此时，他们可以执行打击或行走之类的动作。"
+      },
+      "demon": "恶魔",
+      "doppelborn": "二重生灵",
+      "doppelganger": "变形怪",
+      "dungeon": "地城",
+      "faerie-scion": "妖精血裔",
+      "gremlin": "小魔怪",
+      "intelligent-weapon": "智能武器",
+      "mimic": "拟形怪",
+      "minotaur": "牛头人",
+      "nymph": "宁芙",
+      "nymphtouched": "宁芙眷顾者",
+      "oni": "恶鬼",
+      "ooze": "泥怪",
+      "slime": "黏液怪",
+      "slimeheart": "黏液之心",
+      "stheno": "斯忒诺",
+      "sidhe": "希德族"
+    },
+    "weaponTraits": {
+      "minotaur": {
+        "label": "牛头人",
+        "description": "具有此特征的武器由牛头人使用或制造。"
+      },
+      "oni": {
+        "label": "恶鬼",
+        "description": "具有此特征的武器由恶鬼使用或制造。"
+      }
+    }
+  }
+}

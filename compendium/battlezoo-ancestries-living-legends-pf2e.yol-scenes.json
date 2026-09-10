@@ -1,9 +1,8 @@
 {
-  "label": "Token 预览\nToken preview",
-  "folders": {},
+  "label": "棋子预览",
   "entries": {
     "Living Legends Token Preview": {
-      "name": "活传奇标记预览 Living Legends Token Preview"
+      "name": "活传奇棋子预览 Living Legends Token Preview"
     }
   }
 }

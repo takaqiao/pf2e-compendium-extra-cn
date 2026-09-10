@@ -1,0 +1,25 @@
+{
+  "label": "传承",
+  "entries": {
+    "Mercenary Dragon": {
+      "name": "佣兵龙 Mercenary Dragon",
+      "description": "<p>你是一条佣兵龙，你的先祖凭借战斗本领为他人效力，以换取丰厚报酬。你的关联伤害类型为力场，喷吐形状为锥形，额外无武装攻击为翼击和尾击。你的社群熟练度变为受训；若你已在社群上受训，则改为在另一项技能上受训。你获得针对法律学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}技能专长，以及@UUID[Compendium.pf2e.feats-srd.Item.WeQGWvlWdeLeOlCN]{字里探花}技能专长，均作为奖励专长。你的第一项族裔属性提升可以选择智力来代替力量。你的法术属于神术。</p>"
+    },
+    "Rage Dragon": {
+      "name": "狂怒龙 Rage Dragon",
+      "description": "<p>你是一条狂怒龙，你的先祖遭遇致命危险时，往往会在战或逃的本能反应中彻底投入“战斗”。你的关联伤害类型为火焰，喷吐形状为爆发，额外无武装攻击为翼击和尾击。你受伤时会狂暴。当你的生命值低于最大生命值的一半时，你的近战打击伤害掷骰获得+1状态加值；若你的武器或无武装攻击具有高等强击符文，此加值提升至+2。你还获得@UUID[Compendium.pf2e.feats-srd.Item.N8Xz5fuW6o7GW124]{快速恢复}专长作为奖励专长，即使你不满足其体质先决条件。你的第一项族裔属性提升可以选择体质来代替力量。你的法术属于原能。</p>"
+    },
+    "Duel Dragon": {
+      "name": "决斗龙 Duel Dragon",
+      "description": "<p>你是一条决斗龙，你的先祖热衷于决斗和公平较量，无论是近身搏斗还是魔法交锋，面对一个对手还是许多对手。你的关联伤害类型为音波，喷吐形状为锥形，额外无武装攻击为翼击和尾击。你获得@UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{顽强}通用专长作为奖励专长。此外，当你处于@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]状态时，你获得穿刺和挥砍抗力，以及虚能伤害弱点，数值均等于你的受伤状态值；受伤2及以上时，上限为2。在5级时，该抗力和弱点的上限提升至3；在9级时，上限提升至4。你的第一项族裔属性提升可以选择敏捷来代替力量。你的法术属于奥术。</p>"
+    },
+    "Warlord Dragon": {
+      "name": "军阀龙 Warlord Dragon",
+      "description": "<p>你是一条军阀龙，视统率大军、征战沙场为自己的天命，至死方休，无论死期何时到来。你的关联伤害类型为音波，喷吐形状为锥形，额外无武装攻击为翼击和尾击。你在交涉和社群上受训，并获得针对战争学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}技能专长。你的第一项族裔属性提升可以选择魅力来代替力量。你的法术属于神术。</p>"
+    },
+    "Hunt Dragon": {
+      "name": "狩猎龙 Hunt Dragon",
+      "description": "<p>你是一条狩猎龙，你的先祖以跟踪并杀死智慧生物而闻名。你会动用一切手段完成狩猎，并用被你击败的猎物制作战利品。你的关联伤害类型为毒素，喷吐形状为锥形，额外无武装攻击为翼击和尾击。你获得针对某类生物学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长，该生物类型应是你经常选择的猎物；你还获得@UUID[Compendium.pf2e.feats-srd.Item.XvX1EyxWbbBF32NV]{无错学识}专长的益处，但仅适用于所选学识。你拥有一种模糊感官，能感知120尺内惊惧生物的存在。你的第一项族裔属性提升可以选择感知来代替力量。你的法术属于原能。</p>"
+    }
+  }
+}

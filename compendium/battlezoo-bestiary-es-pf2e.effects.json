@@ -1,0 +1,248 @@
+{
+  "label": "效果",
+  "entries": {
+    "Frozen": {
+      "name": "冻结 Frozen",
+      "description": "<p>冻结状态始终有状态值。冻结生物的身体逐渐结冰，使其各项速度受到等于–5尺×冻结值的状态减值，例如冻结4会造成–20尺减值。</p>\n<p>冻结生物或与其相邻的盟友可以花费一个交互动作清除冰层，使冻结值降低4。具有火焰特征的生物改为使自身（或盟友）的冻结值降低5。生物对冻结生物使用具有火焰特征或会造成火焰伤害的效果时，可以选择使后者的冻结值降低4，无论后者是否受到火焰伤害。</p>\n<p>冻结状态通常与其他状态一样不能累积，但冰爱达梦和元素化身拥有特殊能力，可以累积其自身能力造成的冻结状态。</p>"
+    },
+    "Effect: Chimes": {
+      "name": "效果：风铃 Effect: Chimes",
+      "description": "<p>你具有再生，其数值等于剩余风铃的数量。</p>"
+    },
+    "Shocked": {
+      "name": "带电 Shocked",
+      "description": "<p>带电状态通常没有状态值。带电生物带有电荷，使其更容易受到电击伤害。它面对造成电击伤害的攻击时处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态（即使只是附加电击伤害，例如<em>@UUID[Compendium.pf2e.equipment-srd.Item.NVst7e69agGG9Qwd]{电击}</em>武器），对抗电击效果的强韧和反射豁免受到–2环境减值。</p>\n<p>带电状态通常持续所列时间，但如果该生物受到来自持续电击伤害以外来源的任意数额电击伤害，或花费一个交互动作将电荷无害地释放，就会提前结束。</p>"
+    },
+    "Charged": {
+      "name": "蓄电 Charged",
+      "description": "<p>蓄电状态始终有状态值，范围为1至3。已经蓄电的生物再次获得蓄电时，改为将其蓄电值提高1，最高为蓄电3。蓄电生物只要仍处于蓄电状态，就同时处于@UUID[Compendium.battlezoo-bestiary-es-pf2e.effects.Item.1fZbuJEbVmE3J4XL]{带电}状态。任何本应移除带电状态的效果，改为使蓄电值降低1。</p>"
+    },
+    "Spell Effect: Steal the Show": {
+      "name": "法术效果：独占风头 Spell Effect: Steal the Show",
+      "description": "<p>由@UUID[Compendium.battlezoo-bestiary-es-pf2e.spells.Item.3wtyBe8U5XnJzE7E]{独占风头}授予</p><p>你对效果来源进行的攻击检定获得+1状态加值。</p>"
+    },
+    "Effect: Fashion Disaster": {
+      "name": "效果：服饰灾难 Effect: Fashion Disaster",
+      "description": "<p>你的各项速度受到–15尺状态减值，欺骗、交涉、威吓和表演检定受到–2环境减值，直到你[[/act escape dc=27]]{逃脱}这些衣物。</p>"
+    },
+    "Effect: Cold Contractions": {
+      "name": "效果：遇冷收缩 Effect: Cold Contractions",
+      "description": "<p>你获得穿刺弱点。</p>"
+    },
+    "Effect: Stoke Hatred (Success)": {
+      "name": "效果：煽动仇恨（成功） Effect: Stoke Hatred (Success)",
+      "description": "<p>你的伤害掷骰获得+2状态加值，AC受到–1状态减值。</p>"
+    },
+    "Effect: Leech Life": {
+      "name": "效果：汲取生命 Effect: Leech Life",
+      "description": "<p>你获得6d6临时HP。</p>"
+    },
+    "Effect: Boil Over": {
+      "name": "效果：沸腾溢出 Effect: Boil Over",
+      "description": "<p>你的AC受到–1环境减值，且你的打击额外造成1d6火焰伤害。</p>"
+    },
+    "Effect: Soothing Fire": {
+      "name": "效果：抚慰火焰 Effect: Soothing Fire",
+      "description": "<p>你获得寒冷抗力5。</p>"
+    },
+    "Effect: Stored Momentum": {
+      "name": "效果：储存动量 Effect: Stored Momentum",
+      "description": "<p>你的下一次拳头打击获得伤害环境加值。</p>"
+    },
+    "Effect: Aura of Winds": {
+      "name": "效果：风之灵光 Effect: Aura of Winds",
+      "description": "<p>临时判定效果。你的物理远程攻击受到-2环境减值。</p>"
+    },
+    "Effect: Life of the Party": {
+      "name": "效果：宴会之魂 Effect: Life of the Party",
+      "description": "<p>你的意志豁免、察觉检定和对抗毒品的豁免受到–1环境减值。</p>"
+    },
+    "Effect: Stoke the Flames": {
+      "name": "效果：煽旺火焰 Effect: Stoke the Flames",
+      "description": "<p>你的攻击检定、伤害掷骰和对抗恐惧效果的豁免获得+1状态加值。</p>"
+    },
+    "Effect: Layering Lava": {
+      "name": "效果：层叠熔岩 Effect: Layering Lava",
+      "description": "<p>移除持续火焰伤害的DC提高，增幅等于标记值。</p>"
+    },
+    "Effect: Awakened": {
+      "name": "效果：觉醒 Effect: Awakened",
+      "description": "<p>你变为加速，且你的打击和<em>引火术</em>戏法额外造成4点火焰伤害。</p>"
+    },
+    "Effect: Magma Prison": {
+      "name": "效果：岩浆囚牢 Effect: Magma Prison",
+      "description": "<p>你变为笨拙1，且各项速度受到–10状态减值。</p>"
+    },
+    "Spell Effect: Reforge Weapon": {
+      "name": "法术效果：重铸武器 Spell Effect: Reforge Weapon",
+      "description": "<p>由@UUID[Compendium.battlezoo-bestiary-es-pf2e.spells.Item.3UBaeKFOoYIb7TXt]{重铸武器}授予</p><p>为武器添加以下一项武器特征：卸武、擒拿、非致命、推撞、摔绊、多用B、多用P、多用S。</p><hr /><p><strong>升阶（4环）</strong>你可以为武器添加上述两项武器特征，或添加背刺或横扫其中一项。</p><p><strong>升阶（6环）</strong>你可以为武器添加上述三项武器特征，或添加背刺、回摆、叠劲、致命d8或横扫其中一项。</p>"
+    },
+    "Effect: Toxin Manipulation": {
+      "name": "效果：操纵毒素 Effect: Toxin Manipulation",
+      "description": "<p>你对抗疾病和毒素的豁免获得+1状态加值或受到-1状态减值。</p>"
+    },
+    "Effect: Aura of Rain": {
+      "name": "效果：雨之灵光 Effect: Aura of Rain",
+      "description": "<p>你处于隐蔽状态，并获得火焰抗力10。</p>"
+    },
+    "Spell Effect: Targeting Beacon (Ephemeral)": {
+      "name": "法术效果：瞄准信标（临时） Spell Effect: Targeting Beacon (Ephemeral)",
+      "description": "<p>@UUID[Compendium.battlezoo-bestiary-es-pf2e.spells.Item.jfGQl8QxZc5Arg86]{瞄准信标}的临时判定效果</p><p>你的攻击检定获得+1环境加值。</p>"
+    },
+    "Spell Effect: Targeting Beacon": {
+      "name": "法术效果：瞄准信标 Spell Effect: Targeting Beacon",
+      "description": "<p>由@UUID[Compendium.battlezoo-bestiary-es-pf2e.spells.Item.jfGQl8QxZc5Arg86]{瞄准信标}授予</p><p>攻击者对你进行的攻击检定获得+1环境加值。</p>"
+    },
+    "Effect: Focused Flash": {
+      "name": "效果：聚焦闪光 Effect: Focused Flash",
+      "description": "<p>你在触发此效果的攻击检定上受到–2环境减值。</p>"
+    },
+    "Effect: Umbra Shield": {
+      "name": "效果：幽影之盾 Effect: Umbra Shield",
+      "description": "<p>你的AC获得+2环境加值。</p>"
+    },
+    "Effect: Willing Hate": {
+      "name": "效果：自愿憎恨 Effect: Willing Hate",
+      "description": "<p>你对憎恨的生物进行的威吓检定和伤害掷骰获得+2状态加值。如果目标因你造成的效果而惊惧，此加值翻倍。</p>"
+    },
+    "Instantaneous Monster Infusion": {
+      "name": "瞬时怪物灌注 Instantaneous Monster Infusion",
+      "description": "<p>你用怪物部件暂时灌注武器。消耗价值30 gp的怪物部件，并从以下伤害类型中选择一种与部件来源生物相关的类型：酸蚀、钝击、寒冷、电击、火焰、力场、心灵、穿刺、毒素、挥砍、音波、精魂、命能或虚能。如果生物拥有能造成某种伤害的能力或法术，或拥有与伤害类型同名的特征（例如具有寒冷特征的生物），就视为与该伤害类型相关。</p><p>在1分钟内，你用该武器进行的所有攻击额外造成1d6所选类型的伤害。如果你的等级至少为18级，可以改为消耗价值300 gp的怪物部件，额外造成2d6所选类型的伤害。</p><p>一件武器或一副缠手带同时只能具有一项瞬时怪物灌注。</p>"
+    },
+    "Effect: Frost Armor": {
+      "name": "效果：寒霜护甲 Effect: Frost Armor",
+      "description": "<p>你的AC获得+4环境加值，并失去火焰弱点。</p>"
+    },
+    "Effect: Electrify Domain": {
+      "name": "效果：领域通电 Effect: Electrify Domain",
+      "description": "<p>你的各项速度受到–10尺减值。</p>"
+    },
+    "Effect: Muddy Water": {
+      "name": "效果：泥水 Effect: Muddy Water",
+      "description": "<p>你的各项速度受到–10尺状态减值。</p>"
+    },
+    "Cultivated Party": {
+      "name": "培育派对 Cultivated Party",
+      "description": "<p><strong>需求</strong>采木妖合唱团已用集体想象培育出相应装备</p><hr /><p><strong>效果</strong>采木妖合唱团演唱并演奏一首朗朗上口的舞曲。20尺内的每个敌人必须尝试一次@Check[will|dc:24]豁免。受影响生物若拥有对应的移动方式，可以用掘穴、攀爬、飞行或游泳代替跨步。</p><hr /><p><strong>大成功</strong>该生物对培育派对暂时免疫1分钟。</p><p><strong>成功</strong>该生物必须用其下一回合的第一个动作跨步或快步，随后对培育派对暂时免疫1分钟。</p><p><strong>失败</strong>该生物必须用其下一回合的第一个动作朝采木妖合唱团跨步。如果它已与采木妖合唱团相邻，则必须改为花费一个具有移动特征的单动作原地跳舞。</p><p><strong>大失败</strong>如同失败，但该生物必须将下一回合的所有动作用于跨步或跳舞。</p>"
+    },
+    "Effect: Chilling Presence": {
+      "name": "效果：寒冷威仪 Effect: Chilling Presence",
+      "description": "<p>你获得等于1+你的惊惧值的寒冷弱点。</p>"
+    },
+    "Spell Effect: Cascading Caltrops": {
+      "name": "法术效果：倾泻铁蒺藜 Spell Effect: Cascading Caltrops",
+      "description": "<p>由@UUID[Compendium.battlezoo-bestiary-es-pf2e.spells.Item.xL4V10dh1RR1SL9o]{倾泻铁蒺藜}授予</p><p>你受到持续流血伤害，且只要仍受到此流血伤害，速度就受到减值。</p>"
+    },
+    "Effect: Life Loop": {
+      "name": "效果：生命循环 Effect: Life Loop",
+      "description": "<p>你获得10临时HP。</p>"
+    },
+    "Effect: Sticky Page": {
+      "name": "效果：黏性书页 Effect: Sticky Page",
+      "description": "<p>你对抗书兽法术的豁免受到–2环境减值。如果你为中型或更小体型，你的各项速度还受到–5尺状态减值。</p>"
+    },
+    "Effect: Climb Monster (Ephemeral)": {
+      "name": "效果：攀爬怪物（临时） Effect: Climb Monster (Ephemeral)",
+      "description": "<p>@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.4g3rZ2LrfJoCzsh5]{攀爬怪物}的临时判定效果</p><p>你的攻击检定受到–1环境减值。</p>"
+    },
+    "Effect: Voltaic Overload": {
+      "name": "效果：电能过载 Effect: Voltaic Overload",
+      "description": "<p>你的AC受到-2环境减值。</p>"
+    },
+    "Effect: Aura of Noon": {
+      "name": "效果：正午灵光 Effect: Aura of Noon",
+      "description": "<p>你处于目眩状态。</p>"
+    },
+    "Effect: Rotten Influence": {
+      "name": "效果：腐朽影响 Effect: Rotten Influence",
+      "description": "<p>你对抗腐朽影响的强韧豁免受到–2环境减值。</p>"
+    },
+    "Effect: Tear Free": {
+      "name": "效果：撕扯拔出 Effect: Tear Free",
+      "description": "<p>你受到2d6流血伤害，且游泳速度受到–10尺状态减值。</p>"
+    },
+    "Effect: Lead the Band": {
+      "name": "效果：指挥乐队 Effect: Lead the Band",
+      "description": "<p>你为演奏排练过的歌曲以及使用从头再来而进行的表演检定获得+2环境加值。</p>"
+    },
+    "Effect: Pilferman Trinket": {
+      "name": "效果：窃物妖的小玩意 Effect: Pilferman Trinket",
+      "description": "<p>你对抗窃物妖的AC和豁免获得+2状态加值。</p>"
+    },
+    "Effect: Borrow Future": {
+      "name": "效果：借用未来 Effect: Borrow Future",
+      "description": "<p>你获得10临时HP。</p>"
+    },
+    "Effect: Hobble (Success)": {
+      "name": "效果：致跛（成功） Effect: Hobble (Success)",
+      "description": "<p>由@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.Dq1e3pXn7ivokrWb]{致跛}授予</p><p>你被选定的各项速度受到–20尺状态减值。</p>"
+    },
+    "Spell Effect: Songshroud": {
+      "name": "法术效果：歌声帷幕 Spell Effect: Songshroud",
+      "description": "<p>授予来源：</p><p>你对抗听觉效果的豁免获得状态加值，并获得音波伤害抗力。〔译注：本效果正文的授予来源为空，且未列出加值及抗力的具体数值。〕</p>"
+    },
+    "Effect: Group Imagination": {
+      "name": "效果：集体想象 Effect: Group Imagination",
+      "description": "<p>你选择获得以下一项收益：</p><ul><li>20尺攀爬、游泳或飞行速度。</li><li>木器连击和培育齐射还会造成1d6持续流血伤害。</li><li>可以使用@UUID[Compendium.battlezoo-bestiary-es-pf2e.effects.Item.TUvwJ1PcwOVRuHFR]{培育派对}动作。</li></ul>"
+    },
+    "Effect: Stoke Hatred (Failure)": {
+      "name": "效果：煽动仇恨（失败） Effect: Stoke Hatred (Failure)",
+      "description": "<p>你变为惊惧2。处于惊惧状态期间，你的伤害掷骰获得+4状态加值。</p>"
+    },
+    "Effect: Twice for Bad Luck": {
+      "name": "效果：祸不单行 Effect: Twice for Bad Luck",
+      "description": "<p>你进行所有检定时均掷骰两次并取较差结果。</p>"
+    },
+    "Effect: Umbral Shroud": {
+      "name": "效果：幽影帷幕 Effect: Umbral Shroud",
+      "description": "<p>你获得高等黑暗视觉，且AC获得+1状态加值。</p>"
+    },
+    "Effect: Listen to my Song!": {
+      "name": "效果：听我歌唱！ Effect: Listen to my Song!",
+      "description": "<p>你获得音波弱点5。</p>"
+    },
+    "Effect: Instantaneous Monster Infusion": {
+      "name": "效果：瞬时怪物灌注 Effect: Instantaneous Monster Infusion",
+      "description": "<p>由@UUID[Compendium.battlezoo-bestiary-es-pf2e.effects.Item.N3AIV1hwCis5dEKy]{瞬时怪物灌注}授予</p><p>所选武器额外造成所选类型的伤害。</p>"
+    },
+    "Effect: Cultivate Mount": {
+      "name": "效果：培育坐骑 Effect: Cultivate Mount",
+      "description": "<p>你选择变为中型或大型，并获得40尺陆地速度或25尺飞行速度。</p>"
+    },
+    "Effect: Healing Aura": {
+      "name": "效果：治疗灵光 Effect: Healing Aura",
+      "description": "<p>你获得快速治疗5，且对抗毒素和疾病的所有豁免获得+2状态加值。</p>"
+    },
+    "Effect: Goopy Egg": {
+      "name": "效果：黏糊蛋液 Effect: Goopy Egg",
+      "description": "<p>你的各项速度受到–10环境减值。</p>"
+    },
+    "Effect: Invigoration": {
+      "name": "效果：焕发活力 Effect: Invigoration",
+      "description": "<p>你获得2d6临时HP，且强韧豁免获得+1状态加值。</p>"
+    },
+    "Effect: Life from Death": {
+      "name": "效果：以死促生 Effect: Life from Death",
+      "description": "<p>你获得5临时HP。</p>"
+    },
+    "Effect: Flickering Form": {
+      "name": "效果：闪烁形态 Effect: Flickering Form",
+      "description": "<p>你获得10临时HP。</p>"
+    },
+    "Effect: Hobble (Critical Success)": {
+      "name": "效果：致跛（大成功） Effect: Hobble (Critical Success)",
+      "description": "<p>由@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.Dq1e3pXn7ivokrWb]{致跛}授予</p><p>你被选定的各项速度受到–20尺状态减值。</p>"
+    },
+    "Effect: Climb Monster": {
+      "name": "效果：攀爬怪物 Effect: Climb Monster",
+      "description": "<p>由@UUID[Compendium.battlezoo-bestiary-es-pf2e.feats.Item.4g3rZ2LrfJoCzsh5]{攀爬怪物}授予</p><p>被标记的生物对你措手不及，且对你进行的攻击检定受到–1环境减值。</p>"
+    }
+  },
+  "folders": {
+    "Feat effects": "专长效果 Feat effects",
+    "Misc": "杂项 Misc",
+    "Bestiary Effects": "怪物图鉴效果 Bestiary Effects",
+    "Spell Effects": "法术效果 Spell Effects",
+    "Conditions": "状态 Conditions"
+  }
+}

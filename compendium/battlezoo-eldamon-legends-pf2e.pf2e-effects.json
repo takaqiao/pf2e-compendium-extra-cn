@@ -1,0 +1,169 @@
+{
+  "label": "效果",
+  "entries": {
+    "Shocked": {
+      "name": "带电 Shocked",
+      "description": "<p>带电状态通常没有数值。带电生物体内充满电荷，更容易受到电击伤害。面对造成电击伤害的攻击时，它处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态（即使只是附加电击伤害，例如<em>@UUID[Compendium.pf2e.equipment-srd.Item.NVst7e69agGG9Qwd]{电击}</em>武器），且在对抗电击效果的强韧和反射豁免中承受–2环境减值。</p>\n<p>带电状态通常持续至列明的持续时间结束，但若该生物受到来自持续电击伤害以外来源的任意电击伤害，或花费一个交互动作无害地释放电荷，该状态会提前结束。</p>"
+    },
+    "Effect: Water Barrier (Ephemeral)": {
+      "name": "效果：水之屏障（瞬时） Effect: Water Barrier (Ephemeral)",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.al1yLLuXzulSeA6u]{水之屏障}通过瞬时效果授予</p>"
+    },
+    "Effect: Bubble Burst (High Tide)": {
+      "name": "效果：气泡爆裂（高潮） Effect: Bubble Burst (High Tide)",
+      "description": "<p>你的AC承受–2减值，直到你的下个回合结束</p>"
+    },
+    "Effect: Leviathan (Low Tide)": {
+      "name": "效果：利维坦（低潮） Effect: Leviathan (Low Tide)",
+      "description": "<p>你的攻击检定、察觉检定、豁免和技能检定获得+2状态加值，直到你的下个回合结束。</p>"
+    },
+    "Limned": {
+      "name": "辉光 Limned",
+      "description": "<p>光威能和效果可能使生物获得辉光状态。辉光生物周身环绕着光，像火把一样发亮，勾勒出其轮廓，使其位置显而易见。由于发光，辉光生物通常不能处于隐蔽状态；但若该生物原本会处于隐形状态，则改为隐蔽。在辉光状态下处于隐蔽的隐形生物不能利用隐蔽状态躲藏或潜行，因为光芒会暴露其确切位置。辉光状态不会阻止有掩蔽的生物躲藏或潜行。若生物有能力在没有掩蔽或隐蔽时躲藏或潜行（例如利用伪装），只要辉光状态发出的光仍然可见，这么做就会困难得多：该生物的隐秘检定及对抗搜索动作的隐秘DC均承受–4环境减值。</p>\n<p>若处于@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.SXQzSmgPZv0IFSlN]{影蔽}状态的生物将要获得辉光状态，则改为失去影蔽状态；反之亦然。</p>"
+    },
+    "Effect: Evermarine Nexus": {
+      "name": "效果：恒海纽带 Effect: Evermarine Nexus",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.rfNUqLYSJFaLMytX]{恒海纽带（次等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.SciRi55xfZzkTfPR]{恒海纽带（标准）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.PaJC0sxvbySJykLg]{恒海纽带（高等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.w0puyrCLi8Auebsg]{恒海纽带（上等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.L0FwVPwmKAVLYooK]{恒海纽带（至高）}授予</p><p>你的威能攻击检定获得物品加值。若来源角色已准备至少1只水爱达梦，而你是水爱达梦，你会根据威能的潮汐获得一项益处：高潮时，伤害获得物品加值；低潮时，AC获得+1状态加值，持续1轮。</p><p>若来源角色已准备至少1只水爱达梦，而你不是水爱达梦，你可以在相位移入时暂时裹上水流，选择高潮或低潮来改变你的第一个威能。若选择高潮，相位移入后的第一个威能伤害获得+2物品加值，且在攻击检定大成功或目标豁免大失败时，将敌人向远离你的方向推动5尺，但使用该威能后你会措手不及1轮。若选择低潮，使用该威能后你的AC获得+1状态加值，持续1轮，并在攻击检定大成功或目标豁免大失败时，将敌人向你拉近5尺。</p><p>若来源角色已准备至少2只水爱达梦，而你不是水爱达梦，你的伤害加值提升至+3。若你是水爱达梦，你获得虹吸元素动作。</p><p>若来源角色已准备至少3只水爱达梦，而你不是水爱达梦，你的伤害加值提升至+4。若你是水爱达梦，你获得强压元素动作。</p><p>若来源角色已准备至少4只水爱达梦，而你不是水爱达梦，你的伤害加值提升至+5。若你是水爱达梦，你获得涌动元素动作。</p>"
+    },
+    "Effect: Thalassic Reel": {
+      "name": "效果：海潮收线 Effect: Thalassic Reel",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.TeTR5XYT4780GOMs]{海潮收线}授予</p><p><strong>高潮</strong> 你措手不及。</p><p><strong>低潮</strong> 你对来源角色进行的攻击检定承受–2环境减值。</p>"
+    },
+    "Effect: Storm Surge (Low Tide)": {
+      "name": "效果：风暴潮（低潮） Effect: Storm Surge (Low Tide)",
+      "description": "<p>你的反射豁免获得+2环境加值，直到你的下个回合结束。</p>"
+    },
+    "Effect: Unrelenting Jet (Low Tide)": {
+      "name": "效果：不息喷流（低潮） Effect: Unrelenting Jet (Low Tide)",
+      "description": "<p>除非目标的豁免大成功，否则它对你的攻击检定承受–2环境减值，直到你的下个回合结束。</p>"
+    },
+    "Charged": {
+      "name": "蓄电 Charged",
+      "description": "<p>电击爱达梦和电击元素化身可以获得蓄电状态。蓄电状态总是具有数值，范围为1至3。若已经蓄电的生物将要再次获得蓄电状态，则改为使其蓄电值提升1，至多达到蓄电3。蓄电生物在蓄电期间始终处于@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.1fZbuJEbVmE3J4XL]{带电}状态。任何原本会移除带电状态的效果都会改为使蓄电值降低1。大多数电击威能提供放电选项，使蓄电值降低1，以获得附加效果。</p>\n<p>蓄电状态持续到遭遇结束；在遭遇外获得的任何蓄电都会在下次刷新时失去。因此，电击爱达梦和元素化身在遭遇开始时总是未蓄电的。若电击爱达梦或元素化身未处于蓄电状态，就不能使用要求放电的威能（或威能中的可选益处）。</p>"
+    },
+    "Effect: Shifting Tides": {
+      "name": "效果：变幻潮汐 Effect: Shifting Tides",
+      "description": "<p>每当你掷先攻、在遭遇中刷新威能，或在你是水爱达梦的情况下相位移入时，选择高潮或低潮，作为你的初始潮汐。每当你使用水威能时，先获得当前潮汐的效果，再切换为另一种潮汐（高潮变为低潮，低潮变为高潮）。如此，你的威能在两种潮汐之间交替，直到你刷新并改为你偏好的潮汐。你在遭遇外通常不处于任何潮汐。</p>"
+    },
+    "Effect: Adapted to the Deep Sea": {
+      "name": "效果：适应深海 Effect: Adapted to the Deep Sea"
+    },
+    "Effect: One-Two Punch": {
+      "name": "效果：组合拳 Effect: One-Two Punch",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-features.Item.xIG9PyDl40hMmyCB]{组合拳}授予</p><p>你以威能和打击对该敌人进行的伤害掷骰获得+2状态加值，直到你的下个回合结束；若你的威能DC熟练度为专家，该加值提升至+3，大师时为+4，传奇时为+5。若你的水威能会使该敌人移动至少20尺（应用所有调整后），你可以选择改为仅使其移动至多10尺（不应用任何调整）。若如此做，该状态加值提高+1。</p>"
+    },
+    "Effect: Guiding Star": {
+      "name": "效果：引路星 Effect: Guiding Star",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-features.Item.SDoHFHR36YG5iHZd]{引路星}授予</p><p>你对抗情绪效果的豁免获得状态加值。</p>"
+    },
+    "Effect: Charybdis (Low Tide)": {
+      "name": "效果：卡律布狄斯（低潮） Effect: Charybdis (Low Tide)",
+      "description": "<p>在大漩涡持续期间，你的AC获得+2状态加值。</p>"
+    },
+    "Effect: Bubble Swarm": {
+      "name": "效果：气泡群 Effect: Bubble Swarm",
+      "description": "<p>气泡聚集在你周围，使你的AC获得+2环境加值，直到你的下个回合开始。</p>"
+    },
+    "Frozen": {
+      "name": "冻结 Frozen",
+      "description": "<p>冻结状态总是具有数值。冻结生物的身体逐渐结冰，使其各项速度承受等于–5尺×冻结值的状态减值，例如冻结4时为–20尺。</p>\n<p>冻结生物或与其相邻的盟友可以花费一个交互动作除去冰层，使冻结值降低4。具有火焰特征的生物则改为使自身（或其盟友）的冻结值降低5。若生物对冻结生物使用具有火焰特征的效果，或会造成火焰伤害的效果，无论冻结生物是否受到火焰伤害，都可以选择使其冻结值降低4。</p>\n<p>冻结状态通常不会累积（与其他状态一样），但冰爱达梦和元素化身具有特殊能力，能使自身威能施加的冻结状态累积。</p>"
+    },
+    "Effect: Aqua Lash": {
+      "name": "效果：水之鞭挞 Effect: Aqua Lash",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.0dSYuDueXw8SioqT]{水之鞭挞}授予</p><p><strong>高潮</strong> 你的强韧豁免承受–2环境减值</p><p><strong>低潮</strong> 你的强韧豁免获得+2环境加值</p>"
+    },
+    "Effect: Ocean Torrent (High Tide)": {
+      "name": "效果：海洋洪流（高潮） Effect: Ocean Torrent (High Tide)",
+      "description": "<p>你的强韧豁免承受–2环境减值，直到你的下个回合结束。</p>"
+    },
+    "Aura: Pelagic Pressure": {
+      "name": "灵光：深海重压 Aura: Pelagic Pressure",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.qymDLRfsBpddOfpg]{深海重压}授予</p><p>你在周围形成20尺弥漫范围的水压灵光，持续到你刷新。区域内的敌人因强烈的海洋压力，其各项速度承受–10尺环境减值，除非它们是适应深海的水生生物。</p>"
+    },
+    "Shrouded": {
+      "name": "影蔽 Shrouded",
+      "description": "<p>黑暗威能和效果可能使生物获得影蔽状态。影蔽状态总是具有数值，范围为1至3。影蔽生物周围的光照会根据该状态的数值和周围的光照等级而受到遮蔽。这既影响影蔽生物的视觉，也影响其他生物看见它的能力。影蔽状态基本上会使影蔽生物的光照等级降低等于该状态数值的级数（明亮光照降为昏暗光照，昏暗光照降为黑暗，黑暗降为类似4环<em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{黑暗术}</em>法术的超自然黑暗）；但昏暗光照中的影蔽1只会使生物对昏暗视觉处于隐蔽状态，而不会形成完全的黑暗。</p>\n<p>此外，该生物为躲藏和潜行进行的隐秘检定获得等于影蔽值的环境加值。处于影蔽状态时，可以融入阴影来躲藏和潜行；但在明亮区域中，笼罩你的黑暗仍可能使你的大致位置显而易见，就像带着可见灵光潜行仍可能暴露你一样；在这种情况下，你会处于藏匿而非无踪状态。</p>\n<p>若影蔽生物将要获得@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.5tWqbv3Iu1FlrOx6]{辉光}状态，则改为失去影蔽状态；反之亦然。</p>\n<p>若需了解每一种影蔽值与每一种光照等级组合下如何应用影蔽状态的完整说明，请参阅“@UUID[JournalEntry.GfmgMfxWoAkjccTQ.JournalEntryPage.7A4XisITzN9KG7Qd#shrouded-full-examples]{影蔽完整示例}”边栏。</p>"
+    },
+    "Effect: Aqua Punch": {
+      "name": "效果：水之重拳 Effect: Aqua Punch",
+      "description": "<p>成功时，目标对你的攻击检定承受–1环境减值，持续1轮；大成功时，则改为承受–2环境减值。</p>"
+    },
+    "Effect: Pelagic Pressure (Attack Penalty)": {
+      "name": "效果：深海重压（攻击减值） Effect: Pelagic Pressure (Attack Penalty)",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.qymDLRfsBpddOfpg]{深海重压}授予</p><p>你的攻击检定根据你的成功度承受减值。</p>"
+    },
+    "Effect: Water Barrier": {
+      "name": "效果：水之屏障 Effect: Water Barrier",
+      "description": "<p>直到你的下个回合开始，敌人对你使用钝击和挥砍攻击时承受–2环境减值，且你获得等于你等级的酸蚀和火焰伤害抗力。</p>"
+    },
+    "Effect: Rushing Current (High Tide)": {
+      "name": "效果：奔涌激流（高潮） Effect: Rushing Current (High Tide)",
+      "description": "<p>你的反射豁免承受–2减值，直到你的下个回合结束。</p>"
+    },
+    "Effect: Ocean Torrent (Low Tide)": {
+      "name": "效果：海洋洪流（低潮） Effect: Ocean Torrent (Low Tide)",
+      "description": "<p>你的强韧豁免获得+2环境加值，直到你的下个回合结束。</p>"
+    },
+    "Effect: Flamewrack (Success)": {
+      "name": "效果：烈焰折磨（成功） Effect: Flamewrack (Success)",
+      "description": "<p>该生物的豁免和AC承受–1状态减值，直到其花费一个动作移除该减值。</p>"
+    },
+    "Effect: Sea Spray (Low Tide)": {
+      "name": "效果：海浪飞沫（低潮） Effect: Sea Spray (Low Tide)",
+      "description": "<p>你的AC获得+1环境加值，直到你的下个回合开始；面对对抗海浪飞沫的豁免未取得大成功的生物时，该AC环境加值提升至+2；面对对抗海浪飞沫的豁免大失败的生物时，该AC环境加值提升至+4。</p>"
+    },
+    "Effect: Evermarine Nexus (AC Bonus)": {
+      "name": "效果：恒海纽带（护甲等级加值） Effect: Evermarine Nexus (AC Bonus)",
+      "description": "<p>你的AC获得+1状态加值。</p>"
+    },
+    "Effect: Tidal Call": {
+      "name": "效果：潮汐呼唤 Effect: Tidal Call",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.YXwcxOwuHmM8yVnH]{潮汐呼唤}授予</p><p><strong>低潮</strong> 你的AC获得+1状态加值</p><p><strong>高潮</strong> 你的攻击检定获得+状态加值，伤害掷骰获得+2加值。你的AC同时承受–1环境减值。</p>"
+    },
+    "Effect: Bubble Burst (Low Tide)": {
+      "name": "效果：气泡爆裂（低潮） Effect: Bubble Burst (Low Tide)",
+      "description": "<p>区域内的敌人对你的攻击检定承受–2环境减值，直到你的下个回合结束，除非它们的豁免大成功。</p>"
+    },
+    "Effect: Tsunami Scepter (AC Bonus)": {
+      "name": "效果：海啸权杖（护甲等级加值） Effect: Tsunami Scepter (AC Bonus)",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.7AsyOaCcPA1LHfY1]{海啸权杖（标准）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.B8GCtOoqUkKJiq2G]{海啸权杖（高等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.AE1W25ZUilNOhRrA]{海啸权杖（上等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.KNv6HSVRZrGHFvyL]{海啸权杖（至高）}授予</p><p>你的AC获得+1状态加值。</p>"
+    },
+    "Effect: Storm Surge (High Tide)": {
+      "name": "效果：风暴潮（高潮） Effect: Storm Surge (High Tide)",
+      "description": "<p>你的反射豁免承受–2环境减值，直到你的下个回合结束。</p>"
+    },
+    "Effect: Rushing Current (Low Tide)": {
+      "name": "效果：奔涌激流（低潮） Effect: Rushing Current (Low Tide)",
+      "description": "<p>你的反射豁免获得+2环境加值，直到你的下个回合结束。</p>"
+    },
+    "Effect: Flowing River (Low Tide)": {
+      "name": "效果：奔流之河（低潮） Effect: Flowing River (Low Tide)",
+      "description": "<p>你的各项速度获得+30尺状态加值，直到你的下个回合结束。</p>"
+    },
+    "Effect: Leviathan (High Tide)": {
+      "name": "效果：利维坦（高潮） Effect: Leviathan (High Tide)",
+      "description": "<p>你的意志豁免承受–2减值，直到你的下个回合结束。</p>"
+    },
+    "Effect: Sudden Splash": {
+      "name": "效果：骤然泼溅 Effect: Sudden Splash",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.w0yexpqdM8RvyI9V]{骤然泼溅}授予</p><p>你的反射豁免承受–2环境减值。</p>"
+    },
+    "Effect: Unrelenting Jet (High Tide)": {
+      "name": "效果：不息喷流（高潮） Effect: Unrelenting Jet (High Tide)",
+      "description": "<p>你的AC承受–2减值，直到你的下个回合结束。</p>"
+    },
+    "Effect: Scylla": {
+      "name": "效果：斯库拉 Effect: Scylla",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.MLVOHkL6fQz73kJ2]{斯库拉}授予</p><p><strong>高潮</strong> 你的察觉检定和意志豁免承受–2减值。</p><p><strong>低潮</strong> 你的察觉检定和意志豁免获得+2状态加值，且你不会因夹击而措手不及。</p>"
+    },
+    "Effect: Flamecrystal Nexus": {
+      "name": "效果：焰晶纽带 Effect: Flamecrystal Nexus",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.zCrplK9sud4BVp7k]{焰晶纽带（次等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.rdGVNgVE4JNoo0cJ]{焰晶纽带（标准）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.Xy1bhZ8vOaff6EdF]{焰晶纽带（高等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.9uEEapBueiOh76if]{焰晶纽带（上等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.2y06PaCzAp28rCcP]{焰晶纽带（至高）}授予</p><p>你的威能攻击检定获得物品加值。若来源角色准备的爱达梦中有至少1只火爱达梦，而你是火爱达梦，你造成的所有持续火焰伤害获得物品加值。若你不是火爱达梦，你第一次使用没有持续时间的伤害威能时，会根据已准备的火爱达梦数量和物品类型附加持续伤害。</p>"
+    }
+  },
+  "folders": {
+    "Fire": "火焰 Fire",
+    "Conditions": "状态 Conditions",
+    "Water": "水 Water"
+  }
+}

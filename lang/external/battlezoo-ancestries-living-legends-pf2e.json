@@ -1,0 +1,147 @@
+{
+    "PF2E": {
+        "TraitAbjuration": "防护系",
+        "TraitChaotic": "混乱",
+        "TraitConjuration": "咒法系",
+        "TraitDescriptionAbjuration": "具有此特征的效果与魔法物品属于防护系魔法，通常涉及保护或结界。",
+        "TraitDescriptionChaotic": "混乱效果往往操控来自混乱阵营外层位面的能量，与守序的神力侍者或守序神祇的神力侍者相悖。具有此特征的生物属于混乱阵营。",
+        "TraitDescriptionConjuration": "具有此特征的效果与魔法物品属于咒法系魔法，通常涉及召唤、创造、传送或将事物从一处移到另一处。",
+        "TraitDescriptionDivination": "预言系魔法通常涉及获取或传递信息，或预测事件。",
+        "TraitDescriptionEnchantment": "具有此特征的效果与魔法物品属于惑控系魔法，通常涉及心智控制、情绪改变和其他心灵效果。",
+        "TraitDescriptionEvil": "邪恶效果往往操控来自邪恶阵营外层位面的能量，与善良的神力侍者或善良神祇的神力侍者相对立。具有此特征的生物属于邪恶阵营。",
+        "TraitDescriptionEvocation": "具有此特征的效果与魔法物品属于塑能系魔法，通常涉及能量与元素之力。",
+        "TraitDescriptionGood": "善良效果往往操控来自善良阵营外层位面的能量，与邪恶的神力侍者或邪恶神祇的神力侍者相对立。具有此特征的生物属于善良阵营。",
+        "TraitDescriptionLawful": "守序效果往往操控来自守序阵营外层位面的能量，与混乱的神力侍者或混乱神祇的神力侍者相对立。具有此特征的生物属于守序阵营。",
+        "TraitDescriptionNecromancy": "具有此特征的效果与魔法物品属于死灵系魔法，通常涉及生与死的力量。",
+        "TraitDescriptionTransmutation": "具有此特征的效果与魔法物品属于变化系魔法，通常会改变事物的形态。",
+        "TraitDivination": "预言系",
+        "TraitEnchantment": "惑控系",
+        "TraitEvil": "邪恶",
+        "TraitEvocation": "塑能系",
+        "TraitGood": "善良",
+        "TraitLawful": "守序",
+        "TraitNecromancy": "死灵系",
+        "TraitTransmutation": "变化系",
+        "TraitVersatileChaotic": "多用混乱",
+        "TraitVersatileEvil": "多用邪恶",
+        "TraitVersatileGood": "多用善良",
+        "TraitVersatileLawful": "多用守序"
+    },
+    "YOL": {
+        "Arboreal": {
+            "AcidicSap": {
+                "Note": "被你重击的生物在承受持续强酸伤害期间，其各项速度受到–5尺环境减值。@UUID[Compendium.battlezoo-ancestries-living-legends-pf2e.yol-effects.Item.csqDcDDeAZA2e65g]{效果：酸性树液}"
+            }
+        },
+        "Cerebrophage": {
+            "Overmind": {
+                "Aspects": {
+                    "Anger": "愤怒（威吓）",
+                    "Empathy": "共情（交涉）",
+                    "Guile": "诡诈（欺骗）",
+                    "Insight": "洞察（察觉）",
+                    "Reason": "理性（神秘）"
+                },
+                "Recentered": "已重新集中"
+            }
+        },
+        "Devil": {
+            "Cornugon": {
+                "CriticalSpecialization": "当你以近战打击重击敌人时，对方必须通过一次对抗你职业DC的@Check[fortitude|against:class]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。"
+            },
+            "DiabolicSchemer": {
+                "SchemingTrick": {
+                    "Expand": "扩展阴谋诡计"
+                }
+            },
+            "DiabolicStrikes": {
+                "Barb": "倒刺"
+            },
+            "WingsUnbound": {
+                "LevelFiveDevilFeat": "选择一个5级魔鬼专长。",
+                "LevelOneDevilFeat": "选择一个1级魔鬼专长。"
+            }
+        },
+        "Fusion": {
+            "Chimera": {
+                "JawsD6": "噬咬（d6）",
+                "JawsD8": "噬咬（d8）"
+            },
+            "ChimeraBreath": {
+                "Line": "<p>你深吸一口气，通过强劲的吐息释放自身能量。你的奇美拉吐息覆盖@Template[type:line|distance:30]，造成@Damage[((max(2,ceil(@actor.level/2)))d4)[untyped]|options:area-damage]伤害。区域内每个生物都必须尝试一次@Check[reflex|against:class-spell|basic]豁免，对抗你的职业DC或法术DC中较高者。你在10分钟内无法再次使用此能力；从3级起，这一间隔改为[[/gmr 1d4 #Recharge Chimera Breath]]{1d4轮}。</p><p>伤害提高1d4，从5级起每2级提高一次，最高为10d4伤害（19级时）。</p><hr><p><strong>特殊</strong>若你还拥有奇美拉抗力族裔专长，你必须选择相同的伤害类型。</p>",
+                "Cone": "<p>你深吸一口气，通过强劲的吐息释放自身能量。你的奇美拉吐息覆盖@Template[type:cone|distance:15]，造成@Damage[((max(2,ceil(@actor.level/2)))d4)[untyped]|options:area-damage]伤害。区域内每个生物都必须尝试一次@Check[reflex|against:class-spell|basic]豁免，对抗你的职业DC或法术DC中较高者。你在10分钟内无法再次使用此能力；从3级起，这一间隔改为[[/gmr 1d4 #Recharge Chimera Breath]]{1d4轮}。</p><p>伤害提高1d4，从5级起每2级提高一次，最高为10d4伤害（19级时）。</p><hr><p><strong>特殊</strong>若你还拥有奇美拉抗力族裔专长，你必须选择相同的伤害类型。</p>",
+                "ConePoison": "<p>你深吸一口气，通过强劲的吐息释放自身能量。你的奇美拉吐息覆盖@Template[type:cone|distance:15]，造成@Damage[((max(2,ceil(@actor.level/2)))d4)[untyped]|options:area-damage]伤害。区域内每个生物都必须尝试一次@Check[fortitude|against:class-spell|basic]豁免，对抗你的职业DC或法术DC中较高者。你在10分钟内无法再次使用此能力；从3级起，这一间隔改为[[/gmr 1d4 #Recharge Chimera Breath]]{1d4轮}。</p><p>伤害提高1d4，从5级起每2级提高一次，最高为10d4伤害（19级时）。</p><hr><p><strong>特殊</strong>若你还拥有奇美拉抗力族裔专长，你必须选择相同的伤害类型。</p>"
+            },
+            "DeepBreath": {
+                "Line": "<p>你深吸一口气，通过强劲的吐息释放自身能量。你的奇美拉吐息覆盖@Template[type:line|distance:60]，造成@Damage[((2*ceil(@actor.level/2))d4)[untyped]|options:area-damage]伤害。区域内每个生物都必须尝试一次@Check[reflex|against:class-spell|basic]豁免，对抗你的职业DC或法术DC中较高者。你在[[/gmr 1d4 x 10 #Recharge Deep Breath]]{1d4 × 10分钟}内无法再次为奇美拉吐息使用深呼吸。</p>",
+                "Cone": "<p>你深吸一口气，通过强劲的吐息释放自身能量。你的奇美拉吐息覆盖@Template[type:cone|distance:30]，造成@Damage[((2*ceil(@actor.level/2))d4)[untyped]|options:area-damage]伤害。区域内每个生物都必须尝试一次@Check[reflex|against:class-spell|basic]豁免，对抗你的职业DC或法术DC中较高者。你在[[/gmr 1d4 x 10 #Recharge Deep Breath]]{1d4 × 10分钟}内无法再次为奇美拉吐息使用深呼吸。</p>",
+                "ConePoison": "<p>你深吸一口气，通过强劲的吐息释放自身能量。你的奇美拉吐息覆盖@Template[type:cone|distance:30]，造成@Damage[((2*ceil(@actor.level/2))d4)[untyped]|options:area-damage]伤害。区域内每个生物都必须尝试一次@Check[fortitude|against:class-spell|basic]豁免，对抗你的职业DC或法术DC中较高者。你在[[/gmr 1d4 x 10 #Recharge Deep Breath]]{1d4 × 10分钟}内无法再次为奇美拉吐息使用深呼吸。</p>"
+            }
+        },
+        "Giant": {
+            "ElementalStrike": {
+                "CloudNote": "受到钝击伤害的生物被向后推开5尺。",
+                "FrostNote": "受到寒冷伤害的生物，其各项速度受到–15尺状态减值，持续1轮。@UUID[Compendium.battlezoo-ancestries-living-legends-pf2e.yol-effects.Item.6ZPlPTe3dXMXJwuZ]",
+                "StormNote": "受到电击伤害的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]，持续1轮。"
+            }
+        },
+        "Golemborn": {
+            "KnockdownStrike": {
+                "Note": "目标必须进行一次对抗你职业DC的@Check[type:fortitude|against:class]豁免，失败时被击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。"
+            }
+        },
+        "Psychopomp": {
+            "NaturalStrikes": {
+                "FatedFinger": "宿命之指",
+                "WebWrappings": "蛛网裹缚"
+            },
+            "TrueFlight": {
+                "LevelFivePsychopompFeat": "选择一个5级招魂者专长。",
+                "LevelOnePsychopompFeat": "选择一个1级招魂者专长。"
+            }
+        },
+        "Sphinx": {
+            "WrathOfTheSphinx": {
+                "EnergyBeam": "能量射线",
+                "Gore": "角刺"
+            },
+            "RiddleOfTheFirmament": {
+                "LevelFiveSphinxFeat": "选择一个5级斯芬克斯专长。",
+                "LevelOneSphinxFeat": "选择一个1级斯芬克斯专长。"
+            }
+        },
+        "Swarmblood": {
+            "PlagueSwarm": {
+                "CriticalSuccess": "每当你在对抗持续中的疾病的强韧豁免中大成功时，将其阶段降低3",
+                "CriticalSuccessVirulent": "每当你在对抗持续中的恶性疾病的强韧豁免中大成功时，将其阶段降低2",
+                "Success": "每当你在对抗持续中的疾病的强韧豁免中成功时，将其阶段降低2",
+                "SuccessVirulent": "每当你在对抗持续中的恶性疾病的强韧豁免中成功时，将其阶段降低1"
+            },
+            "PolypsycheSpell": "你调整法术，使其转而影响整个集群。该法术可以将集群或其他具有集群心智免疫能力的生物作为目标并对其生效，而非影响单个生物。",
+            "RejuvenatingSwarm": "你无法使用具有虫群血统特征的动作，直到你花费一个交互动作将虫群收回体内。",
+            "SafeWithinTheNest": "当你使用具有虫群血统特征的动作时，你对区域伤害与溅射伤害获得等于你等级一半的弱点，持续至你的下个回合结束，或你花费一个交互动作将虫群收回体内为止，以先发生者为准。@UUID[Compendium.battlezoo-ancestries-living-legends-pf2e.yol-effects.Item.2hUnfbR3JenC6drt]{效果：巢内安身}",
+            "SwarmreachSpell": "你的虫群传递法术，使法术的施法距离增加30尺。按照增加施法距离的通常规则，若法术的施法距离原本为接触，则将其延长至30尺。你无法使用具有虫群血统特征的动作，直到你花费一个交互动作将虫群收回体内。"
+        },
+        "Trait": {
+            "Arboreal": "树精",
+            "Cerebrophage": "噬脑者",
+            "Combined": "合力",
+            "EvilEye": "邪眼",
+            "Fusion": "融合",
+            "Gargoyle": "石像鬼",
+            "Giantblood": "巨人血统",
+            "Golemborn": "魔像裔",
+            "Lamia": "拉米亚",
+            "Sphinx": "斯芬克斯",
+            "Swarmblood": "虫群血统"
+        },
+        "TraitDescription": {
+            "Combined": "遭遇中的每一轮，某个融合体中的角色首次开始其回合时，融合体内所有角色都可以同意共同执行一个或多个合力动作。合力活动会让融合体内的每个角色都消耗列出的动作数：首先行动的角色花费自己的动作，其余角色则各自从下个回合的动作中预先投入相同数量的动作。若要执行合力活动，融合体内所有角色都必须能够行动，预计在下个回合拥有足够的动作以投入该合力活动，并且各自满足该活动的所有使用条件。动作投入确定后，由融合体决定哪名角色在自己的回合中执行该合力活动。"
+        },
+        "Werecreature": {
+            "LanguageOfTheBeast": {
+                "Toggle": "目标与动物形态相符"
+            }
+        }
+    }
+}

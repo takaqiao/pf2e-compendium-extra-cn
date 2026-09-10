@@ -1,0 +1,9 @@
+{
+  "moduleId": "battlezoo-dragons-fairy-dragons-pf2e",
+  "moduleTitle": "Battlezoo Dragons: Fairy Dragons for Pathfinder 2e by Roll For Combat",
+  "homebrew": {
+    "featTraits": {
+      "dragon": "PF2E.TraitDragon"
+    }
+  }
+}

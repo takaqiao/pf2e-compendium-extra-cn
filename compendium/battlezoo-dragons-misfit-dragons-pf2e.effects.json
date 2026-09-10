@@ -1,0 +1,89 @@
+{
+  "label": "效果",
+  "entries": {
+    "Effect: Aura of Pandemonium (Great Wyrm)": {
+      "name": "效果：狂乱灵光（太古） Effect: Aura of Pandemonium (Great Wyrm)",
+      "description": "<p>每当你施放法术时，必须尝试一次@Check[flat|dc:7]。失败时，你触发一次@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.roll-tables.RollTable.xn3NHbHfZkL8dY4O]{狂野魔法}效果，且该法术被打断。如果你处于@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]状态，则该次施法只需为灵光或呆滞进行一次纯骰检定，使用两者中较高的DC；但呆滞的纯骰检定失败也会引发狂野魔法效果。</p>"
+    },
+    "Effect: Confounding Truths": {
+      "name": "效果：惑心真相 Effect: Confounding Truths",
+      "description": "<p>你的攻击检定、伤害掷骰和对抗恐惧效果的豁免获得+2状态加值。</p>"
+    },
+    "Effect: Alchemical Jaws": {
+      "name": "效果：炼金利颚 Effect: Alchemical Jaws",
+      "description": "<p>选择寒铁或银；你的利颚视为由该材质制成。达到12级时，将精金加入可选材质列表。</p>"
+    },
+    "Effect: Exaggerate Weakness": {
+      "name": "效果：故作可怜 Effect: Exaggerate Weakness",
+      "description": "<p>你的察觉检定和意志豁免承受–2状态减值。</p>"
+    },
+    "Effect: Hyperfocus Speed": {
+      "name": "效果：凝能疾飞 Effect: Hyperfocus Speed",
+      "description": "<p>你获得100尺飞行速度，该飞行速度还获得+20尺状态加值。</p>"
+    },
+    "Effect: Reflecting Scales": {
+      "name": "效果：反射鳞片 Effect: Reflecting Scales",
+      "description": "<p>你获得对自选伤害类型的抗力5。你可以结束此效果，对@Template[emanation|distance:20]内的所有生物造成所选类型的伤害；每抵挡10点伤害便造成1d6伤害，上限为10d6伤害（@Check[type:reflex|against:class-spell|basic]）</p><p>@Damage[((@item.badge.value)d6)[@item.flags.pf2e.rulesSelections.damageType]]</p>"
+    },
+    "Effect: Morphic Versatility": {
+      "name": "效果：灵活形变 Effect: Morphic Versatility",
+      "description": "<p>选择一种造成钝击、穿刺或挥砍伤害的龙族无武装攻击。你将它造成的伤害类型改为另外两种类型之一。</p>"
+    },
+    "Effect: Aura of Pandemonium": {
+      "name": "效果：狂乱灵光 Effect: Aura of Pandemonium",
+      "description": "<p>每当你施放法术时，必须尝试一次@Check[flat|dc:5]。失败时，你触发一次@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.roll-tables.RollTable.xn3NHbHfZkL8dY4O]{狂野魔法}效果，且该法术被打断。如果你处于@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]状态，则该次施法只需为灵光或呆滞进行一次纯骰检定，使用两者中较高的DC；但呆滞的纯骰检定失败也会引发狂野魔法效果。</p>"
+    },
+    "Effect: Bespell Claw": {
+      "name": "效果：附法龙爪 Effect: Bespell Claw",
+      "description": "<p>由@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.J79fnSbEsn2gNs8p]{附法龙爪}赋予</p><p>你的龙族无武装攻击额外造成1d6伤害，伤害类型取决于你刚刚施放的法术所属的魔法传统。</p><ul><li><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">奥术</strong> 力场</li><li><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">神术</strong> 精魂</li><li><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">异能</strong> 心灵</li><li><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial\">原能</strong> 穿刺</li></ul>"
+    },
+    "Effect: Dragon's Endurance": {
+      "name": "效果：巨龙耐力 Effect: Dragon's Endurance",
+      "description": "<p>你获得等于你等级两倍的临时HP。</p>"
+    },
+    "Effect: Wreathing Force": {
+      "name": "效果：力场缠绕 Effect: Wreathing Force",
+      "description": "<p>你从龙族族裔获得的无武装攻击额外造成2d6力场伤害。达到14级时，力场伤害提高至3d6；达到18级时，力场伤害提高至4d6。</p>"
+    },
+    "Effect: Significant Omen": {
+      "name": "效果：关键预兆 Effect: Significant Omen",
+      "description": "<p>进行攻击检定、豁免或技能检定时，你可以将关键预兆的结果用作d20结果，代替掷出d20。</p>"
+    },
+    "Effect: Conductive Scales": {
+      "name": "效果：导能鳞片 Effect: Conductive Scales",
+      "description": "<p>你的AC获得+1状态加值。</p>"
+    },
+    "Effect: Harden Scales": {
+      "name": "效果：硬化鳞片 Effect: Harden Scales",
+      "description": "<p>你获得对物理伤害的抗力10，精金除外。然而，每次应用此抗力时，其数值都会减少1。抵挡物理伤害10次后，抗力降至0，此效果随之结束。</p>"
+    },
+    "Effect: Celebratory Cheer": {
+      "name": "效果：庆功欢呼 Effect: Celebratory Cheer",
+      "description": "<p>你对抗被标记敌人的攻击检定获得+2状态加值。</p>"
+    },
+    "Effect: Dragon's Tenacity": {
+      "name": "效果：巨龙坚韧 Effect: Dragon's Tenacity",
+      "description": "<p>你获得等于你等级一半的临时HP。</p>"
+    },
+    "Effect: Aura of Pandemonium (Young)": {
+      "name": "效果：狂乱灵光（青年） Effect: Aura of Pandemonium (Young)",
+      "description": "<p>每当你施放法术时，必须尝试一次@Check[flat|dc:4]。失败时，你触发一次@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.roll-tables.RollTable.xn3NHbHfZkL8dY4O]{狂野魔法}效果，且该法术被打断。如果你处于@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]状态，则该次施法只需为灵光或呆滞进行一次纯骰检定，使用两者中较高的DC；但呆滞的纯骰检定失败也会引发狂野魔法效果。</p>"
+    },
+    "Effect: Aura of Pandemonium (Ancient)": {
+      "name": "效果：狂乱灵光（远古） Effect: Aura of Pandemonium (Ancient)",
+      "description": "<p>每当你施放法术时，必须尝试一次@Check[flat|dc:6]。失败时，你触发一次@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.roll-tables.RollTable.xn3NHbHfZkL8dY4O]{狂野魔法}效果，且该法术被打断。如果你处于@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]状态，则该次施法只需为灵光或呆滞进行一次纯骰检定，使用两者中较高的DC；但呆滞的纯骰检定失败也会引发狂野魔法效果。</p>"
+    },
+    "Effect: Majestic Spell": {
+      "name": "效果：威仪法术 Effect: Majestic Spell",
+      "description": "<p>你对抗施法者的威吓检定获得环境加值。</p>"
+    },
+    "Aura: Aura of Pandemonium": {
+      "name": "灵光：狂乱灵光 Aura: Aura of Pandemonium",
+      "description": "<p>你以狂野魔法能量环绕自身，影响任何靠近的施法者。持续1分钟，每当你30尺灵光内的生物（包括你自己）施放法术时，该生物必须尝试一次@Check[flat|dc:5]。失败时，该生物触发一次狂野魔法效果，且该法术被打断。如果该生物处于@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]状态，则该次施法只需为灵光或呆滞进行一次纯骰检定，使用两者中较高的DC（呆滞的DC几乎总是更高）；但呆滞的纯骰检定失败也会引发狂野魔法效果。</p>"
+    },
+    "Effect: Rapturous Revel (Inspire)": {
+      "name": "效果：酣畅狂欢（鼓舞） Effect: Rapturous Revel (Inspire)",
+      "description": "<p>你的攻击检定、豁免和技能检定获得+2状态加值。</p>"
+    }
+  }
+}

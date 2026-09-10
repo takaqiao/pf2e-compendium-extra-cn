@@ -1,9 +1,8 @@
 {
-  "label": "标记\nTokens",
-  "folders": {},
+  "label": "棋子",
   "entries": {
     "Classic Creatures Tokens": {
-      "name": "经典生物标记 Classic Creatures Tokens"
+      "name": "经典生物棋子 Classic Creatures Tokens"
     }
   }
 }

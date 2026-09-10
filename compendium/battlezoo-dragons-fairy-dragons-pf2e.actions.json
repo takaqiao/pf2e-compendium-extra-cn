@@ -1,0 +1,9 @@
+{
+  "label": "动作",
+  "entries": {
+    "Refract Rainbows": {
+      "name": "折射虹光 Refract Rainbows",
+      "description": "<p><strong>触发</strong> 一个生物通过打击、需要法术攻击检定的法术，或其他需要攻击检定的效果对你造成伤害</p><hr /><p><strong>效果</strong> 璀璨虹光华服破碎，其效果立即结束，构成华服的虹光涌向触发生物。触发生物必须成功通过一次@Check[will]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}，并且@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}2轮（大失败时改为@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑2}、@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1轮，并且目眩1分钟）。</p>"
+    }
+  }
+}

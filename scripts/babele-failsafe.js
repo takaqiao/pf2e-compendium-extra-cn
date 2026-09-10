@@ -1,5 +1,9 @@
 const MODULE_ID = 'pf2e-compendium-extra-cn';
 
+// Target consumers can wait for this one ready-time cache check and rebuild.
+let finishReadyCheck;
+export const readyCheckComplete = new Promise(resolve => { finishReadyCheck = resolve; });
+
 /**
  * Two fail-safes against stale Babele state caused by other modules in the chain:
  *
@@ -39,33 +43,38 @@ Hooks.once('babele.init', (babele) => {
 });
 
 Hooks.once('ready', async () => {
-  const babele = game.babele;
-  if (!babele) return;
-  if (isPr43Active(babele)) return;
-  if (!babele.initialized) {
-    try { await babele.init(); } catch { return; }
-  }
-
-  let stale = false;
-  for (const collection of SAMPLE_PACKS) {
-    if (await sessionStaleFor(babele, collection)) { stale = true; break; }
-  }
-  if (!stale) return;
-
-  console.warn(`[${MODULE_ID}] Babele session is stale; rebuilding`);
-  await primeFreshCacheForOurDir().catch(() => {});
-
-  const originalInit = babele.__ondemandPatch?.original?.init;
   try {
-    if (originalInit) await originalInit({ reload: true });
-    else await babele.reinitialize?.();
-    console.log(`[${MODULE_ID}] Babele session rebuilt`);
-  } catch (err) {
-    console.warn(`[${MODULE_ID}] Babele rebuild failed`, err);
+    const babele = game.babele;
+    if (!babele) return;
+    if (isPr43Active(babele)) return;
+    if (!babele.initialized) {
+      try { await babele.init(); } catch { return; }
+    }
+
+    let stale = false;
+    for (const collection of SAMPLE_PACKS) {
+      if (await sessionStaleFor(babele, collection)) { stale = true; break; }
+    }
+    if (!stale) return;
+
+    console.warn(`[${MODULE_ID}] Babele session is stale; rebuilding`);
+    await primeFreshCacheForOurDir().catch(() => {});
+
+    const originalInit = babele.__ondemandPatch?.original?.init;
+    try {
+      if (originalInit) await originalInit({ reload: true });
+      else await babele.reinitialize?.();
+      console.log(`[${MODULE_ID}] Babele session rebuilt`);
+    } catch (err) {
+      console.warn(`[${MODULE_ID}] Babele rebuild failed`, err);
+    }
+  } finally {
+    finishReadyCheck();
   }
 });
 
 async function sessionStaleFor(babele, collection) {
+  if (!game.packs.has(collection)) return false;
   const url = `modules/${MODULE_ID}/compendium/${encodeURI(collection)}.json`;
   let fileEntries;
   try {
@@ -82,23 +91,23 @@ async function sessionStaleFor(babele, collection) {
   const sessionEntries = mp?.translation?.entries;
   if (!sessionEntries) return true;
 
-  return entriesShapeSignature(fileEntries) !== entriesShapeSignature(sessionEntries);
+  return !containsEntriesShape(sessionEntries, fileEntries);
 }
 
-function entriesShapeSignature(entries) {
-  if (!entries) return '';
-  const keys = Array.isArray(entries)
-    ? entries.map(e => e?.id ?? e?.name).filter(Boolean).sort()
-    : Object.keys(entries).sort();
-  if (!keys.length) return '';
-
-  const firstEntry = Array.isArray(entries)
-    ? entries.find(e => (e.id ?? e.name) === keys[0])
-    : entries[keys[0]];
-  const innerKeys = firstEntry && typeof firstEntry === 'object'
-    ? Object.keys(firstEntry).sort().join('|')
-    : '';
-  return `${keys.length}::${keys[0]}::${innerKeys}`;
+function containsEntriesShape(sessionEntries, fileEntries) {
+  const keyed = entries => Array.isArray(entries)
+    ? Object.fromEntries(entries.map(e => [e?.id ?? e?.name, e]).filter(([key]) => key))
+    : entries;
+  const session = keyed(sessionEntries);
+  // Babele merges providers: unrelated entries and fields are valid additions.
+  // Keep this a shape check; another provider can legitimately override values.
+  return Object.entries(keyed(fileEntries)).every(([key, entry]) => {
+    if (!Object.hasOwn(session, key)) return false;
+    if (!entry || typeof entry !== 'object') return true;
+    const loaded = session[key];
+    return !!loaded && typeof loaded === 'object'
+      && Object.keys(entry).every(field => Object.hasOwn(loaded, field));
+  });
 }
 
 async function primeFreshCacheForOurDir() {

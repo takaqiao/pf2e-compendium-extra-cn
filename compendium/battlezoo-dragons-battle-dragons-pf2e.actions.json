@@ -1,0 +1,9 @@
+{
+  "label": "动作",
+  "entries": {
+    "Nice Moves!": {
+      "name": "好身手！ Nice Moves!",
+      "description": "<p><strong>频率</strong> 每分钟一次</p><p><strong>触发</strong> 敌人以某个动作或活动的一部分，对抗你的强韧、反射或意志DC进行技能检定并取得大成功</p><hr /><p><strong>效果</strong> 你对触发生物使用@UUID[Compendium.pf2e.feats-srd.Item.0GF2j54roPFIDmXf]{当头棒喝}。</p>"
+    }
+  }
+}
