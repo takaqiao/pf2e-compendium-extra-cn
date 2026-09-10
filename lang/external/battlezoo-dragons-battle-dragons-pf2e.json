@@ -1,0 +1,33 @@
+{
+    "BZBAT": {
+        "Heritages": {
+            "Metamorphic": {
+                "Breath": {
+                    "DamageLabel": "龙息伤害",
+                    "Shape": {
+                        "Burst": "爆发",
+                        "Cone": "锥形",
+                        "Line": "线形"
+                    },
+                    "ShapeLabel": "龙息形状"
+                }
+            }
+        },
+        "SpecificRule": {
+            "BreathMagic": "若你的下个动作是使用龙法师法术位施放法术，且该法术具有作用区域而无持续时间，你可以选择将其作用区域改为你龙息的区域（@Template[type:{actor|flags.pf2e.dragonAncestry.breath.shape}|distance:{actor|flags.pf2e.dragonAncestry.breath.distance}]）。如此做时，你通过吐息施放该法术，因此即使法术替代了龙息的全部通常效果，你仍在[[/r 1d4 #Recharge Dragon Breath]]{1d4轮}内无法使用龙息。若你拥有深呼吸，可以选择用它扩大法术的作用区域；但如此做时，你必须按深呼吸的通常规则等待1d4 × 10分钟，才能再次使用深呼吸。",
+            "DragonBreath": {
+                "Burst": "你深吸一口气，通过强劲的吐息释放储存在体内的能量。你的龙息覆盖@Template[type:{actor|flags.pf2e.dragonAncestry.breath.shape}|distance:{actor|flags.pf2e.dragonAncestry.breath.distance}]，位于30尺内，造成@Damage[(max(2,ceil(@actor.level/2))d4)[@actor.flags.pf2e.dragonAncestry.damageType]]伤害。区域内每个生物都必须尝试一次@Check[{actor|flags.pf2e.dragonAncestry.breath.saveType}|against:class-spell|basic]豁免，对抗你的职业DC或法术DC中较高者。你在10分钟内无法再次使用此能力；从3级起，这一间隔改为[[/r 1d4 #Recharge Dragon Breath]]轮。",
+                "Other": "你深吸一口气，通过强劲的吐息释放储存在体内的能量。你的龙息覆盖@Template[type:{actor|flags.pf2e.dragonAncestry.breath.shape}|distance:{actor|flags.pf2e.dragonAncestry.breath.distance}]，造成@Damage[(max(2,ceil(@actor.level/2))d4)[@actor.flags.pf2e.dragonAncestry.damageType]]伤害。区域内每个生物都必须尝试一次@Check[{actor|flags.pf2e.dragonAncestry.breath.saveType}|against:class-spell|basic]豁免，对抗你的职业DC或法术DC中较高者。你在10分钟内无法再次使用此能力；从3级起，这一间隔改为[[/r 1d4 #Recharge Dragon Breath]]轮。"
+            },
+            "DeepBreath": {
+                "Burst": "你深吸一口气，通过强劲的吐息释放储存在体内的能量。你的龙息覆盖@Template[type:{actor|flags.pf2e.dragonAncestry.breath.shape}|distance:{actor|flags.pf2e.dragonAncestry.breath.distance}]，位于60尺内，造成@Damage[((2*max(2,ceil(@actor.level/2)))d4)[@actor.flags.pf2e.dragonAncestry.breath.damageType]]伤害。区域内每个生物都必须尝试一次@Check[{actor|flags.pf2e.dragonAncestry.breath.saveType}|against:class-spell|basic]豁免，对抗你的职业DC或法术DC中较高者。你在10分钟内无法再次使用此能力；从3级起，这一间隔改为[[/r 1d4 #Recharge Dragon Breath]]轮。",
+                "Other": "你深吸一口气，通过强劲的吐息释放储存在体内的能量。你的龙息覆盖@Template[type:{actor|flags.pf2e.dragonAncestry.breath.shape}|distance:{actor|flags.pf2e.dragonAncestry.breath.distance}]，造成@Damage[((2*max(2,ceil(@actor.level/2)))d4)[@actor.flags.pf2e.dragonAncestry.breath.damageType]]伤害。区域内每个生物都必须尝试一次@Check[{actor|flags.pf2e.dragonAncestry.breath.saveType}|against:class-spell|basic]豁免，对抗你的职业DC或法术DC中较高者。你在10分钟内无法再次使用此能力；从3级起，这一间隔改为[[/r 1d4 #Recharge Dragon Breath]]轮。"
+            },
+            "Prompt": {
+                "FifthLevelFeat": "选择一个5级龙族专长",
+                "FirstLevelFeat": "选择一个1级龙族专长",
+                "Heritage": "选择一种龙族传承"
+            }
+        }
+    }
+}

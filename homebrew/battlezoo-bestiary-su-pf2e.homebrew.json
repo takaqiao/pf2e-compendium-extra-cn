@@ -1,0 +1,31 @@
+{
+  "moduleId": "battlezoo-bestiary-su-pf2e",
+  "moduleTitle": "Battlezoo Bestiary: Strange and Unusual for Pathfinder 2e by Roll For Combat",
+  "homebrew": {
+    "creatureTraits": {
+      "bannog": {
+        "label": "班诺格",
+        "description": "来自幻梦境、以双足行走的兔形异怪。"
+      },
+      "bacoo": {
+        "label": "巴库",
+        "description": "这一精类族群有的在周遭恶作剧作祟，有的则与凡人订立契约并为其效力。无论哪种，它们都与食物和饮料有着特殊的联系。"
+      },
+      "curse": {
+        "label": "诅咒",
+        "description": "具有诅咒特征的生物是魔法诅咒的活体化身。"
+      },
+      "feddry": {
+        "label": "费德里",
+        "description": "以岩石为甲保护自己的两栖类人生物。"
+      },
+      "xotlxotl": {
+        "label": "索特尔索特尔",
+        "description": "以双足行走、偏好变异的美西螈形异怪。"
+      }
+    },
+    "languages": {
+      "residui": "雷西杜伊语"
+    }
+  }
+}

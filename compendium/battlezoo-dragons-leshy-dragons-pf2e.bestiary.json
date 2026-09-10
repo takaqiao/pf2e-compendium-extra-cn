@@ -1170,13 +1170,13 @@
           "description": "<p>幽影龙的打击影响虚体生物时具有<em>幽冥</em>性能符文的效果，且幽影龙的噬咬对不死生物额外造成10d6力场伤害。</p>"
         },
         "Darkness (At Will)": {
-          "name": "黑暗（随意） Darkness (At Will)",
+          "name": "黑暗术（随意） Darkness (At Will)",
           "description": "<p>你创造一片黑暗帷幕，阻止光线穿透或从区域内发出。光线无法进入区域；火把或提灯等非魔法光源位于区域内时，即使其照明半径本应超出黑暗，也不会发出任何光线。这也会压制环级不高于你的黑暗术的魔法光照。光线无法穿透，因此区域内生物无法看见外界。从外面看，这是一颗纯粹黑暗构成的球体。</p>\n<hr />\n<p><strong>升阶（4环）</strong>即使具有黑暗视觉（但非高等黑暗视觉）的生物，也难以看穿此黑暗。它们将透过黑暗看见的目标视为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}。</p>"
         }
       },
-      "name": "幽影龙（太古） Umbral Dragon (Great Wyrm)",
-      "tokenName": "幽影龙（太古） Umbral Dragon (Great Wyrm)",
-      "prototypeToken": "幽影龙（太古） Umbral Dragon (Great Wyrm)",
+      "name": "影龙（太古） Umbral Dragon (Great Wyrm)",
+      "tokenName": "影龙（太古） Umbral Dragon (Great Wyrm)",
+      "prototypeToken": "影龙（太古） Umbral Dragon (Great Wyrm)",
       "allSaves": "对抗魔法的所有豁免获得+1状态加值"
     },
     "Kelp Dragon (Young)": {
@@ -1943,13 +1943,13 @@
           "name": "对抗魔法的所有豁免获得+1状态加值 +1 Status to All Saves vs. Magic"
         },
         "Horns": {
-          "name": "尖角 Horns"
+          "name": "角抵 Horns"
         },
         "Constant Spells": {
           "name": "常驻法术 Constant Spells"
         },
         "Produce Flame": {
-          "name": "燃火术 Produce Flame",
+          "name": "引火术 Produce Flame",
           "description": "<p>一颗小火球出现在你的掌心，你用它发动近战或远程攻击。进行法术攻击检定，对抗目标的防御等级。这通常为远程攻击，但你也可以对徒手触及内的生物进行近战攻击。</p>\n<p>若成功，你造成2d4火焰伤害。若大成功，目标受到双倍伤害和@Damage[(@item.level)d4[persistent,fire]]伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong>伤害增加1d4，重击时的持续伤害增加1d4。</p>"
         },
         "Falling Stars": {
@@ -1989,7 +1989,7 @@
           "description": "<p>龙向120尺内一个目标吐出一块熔融巨石，造成@Damage[14d6[fire],5d12[bludgeoning]]伤害（@Check[reflex|dc:44|basic]豁免）。若失败，目标被瞬间冷却的熔岩包裹；熔岩具有硬度10、生命值60和破损阈值25。被包裹的生物无法呼吸，并陷入@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}（[[/act escape dc=46]]）。</p>"
         },
         "Wing Deflection": {
-          "name": "龙翼偏转 Wing Deflection",
+          "name": "双翼偏斜 Wing Deflection",
           "description": "<p><strong>触发</strong>太古熔岩龙成为一次攻击的目标</p><hr /><p><strong>效应</strong>太古熔岩龙抬起一侧翅膀，对抗触发攻击时防御等级获得+2环境加值；对抗此后直到当前生物回合结束前的其他攻击时，防御等级获得+1环境加值。若太古熔岩龙正在飞行，它会在结算攻击后下降10尺。</p>"
         },
         "Wall of Fire (At Will)": {
@@ -2605,7 +2605,7 @@
           "description": "<p>太古水晶龙对抗远程法术攻击检定时，防御等级获得+4环境加值（已计入上方数值）。远程法术攻击检定未命中太古水晶龙时，法术会被反射回施法者；施法者必须以相同的攻击调整值进行第二次远程法术攻击检定，对抗自己的防御等级，以确定反射的法术是否转而命中自己。</p>"
         },
         "Twisting Tail": {
-          "name": "扭转扫尾 Twisting Tail",
+          "name": "长尾扭转 Twisting Tail",
           "description": "<p><strong>触发</strong>太古水晶龙尾巴触及内的一个生物使用移动动作，或在其使用的移动动作期间离开一个方格</p><hr /><p><strong>效应</strong>太古水晶龙对该生物进行一次尾巴打击，承受–2减值。若命中，龙打断该生物的动作。</p>"
         }
       },
@@ -2788,8 +2788,8 @@
           "description": "<p>你将木材塑造成自己选择的粗略形状。塑形力量过于粗糙，无法制造精密部件、细致纹饰、活动部件或类似事物。你不能用此法术提高所塑造木制物品的价值。</p>"
         },
         "Light": {
-          "name": "光亮 Light",
-          "description": "<p>你创造一颗光球，在20尺半径内发出明亮光照（以及再向外20尺的微光），颜色由你选择。若你在一个自愿生物所在的空间中创造光球，可以将光附着于该生物，使其在生物移动时悬浮跟随。你可以维持法术，使光球移动最多60尺；作为这次移动的一部分，你可以使其附着于一个生物，或从生物身上脱离。</p>\n<p>你可以解消法术。若你已经有四个<em>光亮</em>生效，又施放此法术，必须选择结束其中一个已有法术。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{法术效应：光亮}</p>\n<hr />\n<p><strong>升阶（4环）</strong>光球在60尺半径内照明（以及再向外60尺的微光）。</p>"
+          "name": "光亮术 Light",
+          "description": "<p>你创造一颗光球，在20尺半径内发出明亮光照（以及再向外20尺的微光），颜色由你选择。若你在一个自愿生物所在的空间中创造光球，可以将光附着于该生物，使其在生物移动时悬浮跟随。你可以维持法术，使光球移动最多60尺；作为这次移动的一部分，你可以使其附着于一个生物，或从生物身上脱离。</p>\n<p>你可以解消法术。若你已经有四个<em>光亮术</em>生效，又施放此法术，必须选择结束其中一个已有法术。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{法术效应：光亮术}</p>\n<hr />\n<p><strong>升阶（4环）</strong>光球在60尺半径内照明（以及再向外60尺的微光）。</p>"
         },
         "Read Aura": {
           "name": "阅读灵光 Read Aura",
@@ -3065,8 +3065,8 @@
           "description": "<p>魔法使目标行动得更快。它获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}状态，每轮的额外动作只能用于打击和行走动作。</p>\n<hr />\n<p><strong>升阶（7环）</strong>你最多可以指定6个生物为目标。</p>"
         },
         "Freedom of Movement": {
-          "name": "行动自如 Freedom of Movement",
-          "description": "<p>你排斥会妨碍生物或减缓其移动的效应。受本法术影响期间，目标忽略会使其速度承受环境减值的效应。当它尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}使其陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}、@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}的效应时，自动成功，除非该效应具有魔法性质，且环级高于<em>行动自如</em>法术。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.CdAyAiMGESvgNQtz]{法术效应：行动自如}</p>"
+          "name": "行动无碍 Freedom of Movement",
+          "description": "<p>你排斥会妨碍生物或减缓其移动的效应。受本法术影响期间，目标忽略会使其速度承受环境减值的效应。当它尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}使其陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}、@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}的效应时，自动成功，除非该效应具有魔法性质，且环级高于<em>行动无碍</em>法术。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.CdAyAiMGESvgNQtz]{法术效应：行动无碍}</p>"
         },
         "Sigil": {
           "name": "魔法印记 Sigil",
@@ -3081,7 +3081,7 @@
           "description": "<p>噼啪作响的能量裂解目标。你尝试反制它。若成功，它失效1周；若大成功，它被摧毁。若目标为神器或类似物品，你自动失败。</p>"
         },
         "True Seeing": {
-          "name": "真视术 True Seeing",
+          "name": "真景术 True Seeing",
           "description": "<p>你能看清60尺内事物的真实面貌。主持人对范围内的每个幻术或变化系效应秘密进行反制检定，但这只用于确定你是否能看穿它（例如，对变形法术的检定成功时，你能看见该生物的真实形态，却不会结束该变形法术）。</p>"
         },
         "Lightning Bolt": {
@@ -3206,8 +3206,8 @@
           "description": "<p>你将木材塑造成自己选择的粗略形状。塑形力量过于粗糙，无法制造精密部件、细致纹饰、活动部件或类似事物。你不能用此法术提高所塑造木制物品的价值。</p>"
         },
         "Light": {
-          "name": "光亮 Light",
-          "description": "<p>你创造一颗光球，在20尺半径内发出明亮光照（以及再向外20尺的微光），颜色由你选择。若你在一个自愿生物所在的空间中创造光球，可以将光附着于该生物，使其在生物移动时悬浮跟随。你可以维持法术，使光球移动最多60尺；作为这次移动的一部分，你可以使其附着于一个生物，或从生物身上脱离。</p>\n<p>你可以解消法术。若你已经有四个<em>光亮</em>生效，又施放此法术，必须选择结束其中一个已有法术。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{法术效应：光亮}</p>\n<hr />\n<p><strong>升阶（4环）</strong>光球在60尺半径内照明（以及再向外60尺的微光）。</p>"
+          "name": "光亮术 Light",
+          "description": "<p>你创造一颗光球，在20尺半径内发出明亮光照（以及再向外20尺的微光），颜色由你选择。若你在一个自愿生物所在的空间中创造光球，可以将光附着于该生物，使其在生物移动时悬浮跟随。你可以维持法术，使光球移动最多60尺；作为这次移动的一部分，你可以使其附着于一个生物，或从生物身上脱离。</p>\n<p>你可以解消法术。若你已经有四个<em>光亮术</em>生效，又施放此法术，必须选择结束其中一个已有法术。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{法术效应：光亮术}</p>\n<hr />\n<p><strong>升阶（4环）</strong>光球在60尺半径内照明（以及再向外60尺的微光）。</p>"
         },
         "Read Aura": {
           "name": "阅读灵光 Read Aura",
@@ -3793,7 +3793,7 @@
           "description": "<p>你震动大地，使生物跌入裂隙，并令建筑坍塌。主持人可以在某些区域加入额外效果。例如，悬崖可能崩塌，使生物坠落；湖底也可能裂开缝隙，使湖水流尽，留下流沙泥沼。</p>\n<ul>\n<li><strong>震动地面</strong>地面成为困难地形，站在其上的生物在攻击检定、防御等级和技能检定上承受-2环境减值。</li>\n<li><strong>裂隙</strong>地面上每个生物都必须在其回合开始时尝试反射豁免，以站稳脚步，避免跌入脚下张开的40尺深裂隙。裂隙永久存在，攀爬其侧壁需要成功的@Check[athletics|dc:15|traits:action:climb]。</li>\n<li><strong>坍塌</strong>建筑与天花板可能坍塌。主持人为每一处进行纯骰检定（坚固建筑为@Check[flat|dc:16]，普通建筑与大多数天然结构为@Check[flat|dc:14]，粗劣建筑为@Check[flat|dc:9]，主持人可酌情提高或降低这些难度）。坍塌造成11d6钝击伤害；每个被坍塌波及的生物都必须尝试反射豁免以躲避。</li>\n</ul>\n<hr />\n<p><strong>大成功</strong>该生物受到一半坍塌伤害。</p>\n<p><strong>成功</strong>该生物受到一半坍塌伤害，并@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>\n<p><strong>失败</strong>该生物受到全部坍塌伤害，并倒地。</p>\n<p><strong>大失败</strong>该生物受到全部坍塌伤害，并跌入裂隙。</p>\n<hr />\n<p><strong>升阶（10环）</strong>你引发一场足以摧毁聚落的巨大地震。射程增加至半英里，区域增加至四分之一英里爆发。</p>"
         },
         "Horns": {
-          "name": "尖角 Horns"
+          "name": "角抵 Horns"
         },
         "Fire Seeds": {
           "name": "火种术 Fire Seeds",
@@ -3809,10 +3809,10 @@
         },
         "Fiery Body": {
           "name": "火焰之躯 Fiery Body",
-          "description": "<p>你变成活生生的火焰，获得火焰免疫、精准伤害抗力10，以及对寒冷与水的弱点5。任何触碰你，或以徒手攻击或非长触及近战武器伤害你的生物，都受到3d6火焰伤害。你的徒手攻击额外造成1d4火焰伤害，你的火焰法术则额外造成一颗伤害骰的火焰伤害（与法术使用的伤害骰相同）。你可以将燃火术作为内在法术施放；施法从2个动作缩短为1个动作。在火焰形态下，你具有40尺飞行速度，且不需要呼吸。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.uIMaMzd6pcKmMNPJ]{法术效果：火焰之躯}</p>\n<hr />\n<p><strong>升阶（9环）</strong>触碰你的生物改为受到4d6火焰伤害，而非3d6；你的徒手攻击额外造成2d4火焰伤害，且你具有60尺飞行速度。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.uIMaMzd6pcKmMNPJ]{法术效果：火焰之躯（9环）}</p>"
+          "description": "<p>你变成活生生的火焰，获得火焰免疫、精准伤害抗力10，以及对寒冷与水的弱点5。任何触碰你，或以徒手攻击或非长触及近战武器伤害你的生物，都受到3d6火焰伤害。你的徒手攻击额外造成1d4火焰伤害，你的火焰法术则额外造成一颗伤害骰的火焰伤害（与法术使用的伤害骰相同）。你可以将引火术作为内在法术施放；施法从2个动作缩短为1个动作。在火焰形态下，你具有40尺飞行速度，且不需要呼吸。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.uIMaMzd6pcKmMNPJ]{法术效果：火焰之躯}</p>\n<hr />\n<p><strong>升阶（9环）</strong>触碰你的生物改为受到4d6火焰伤害，而非3d6；你的徒手攻击额外造成2d4火焰伤害，且你具有60尺飞行速度。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.uIMaMzd6pcKmMNPJ]{法术效果：火焰之躯（9环）}</p>"
         },
         "True Seeing": {
-          "name": "真视术 True Seeing",
+          "name": "真景术 True Seeing",
           "description": "<p>你能看清60尺内事物的真实面貌。主持人对范围内的每个幻术或变化系效应秘密进行反制检定，但这只用于确定你是否能看穿它（例如，对变形法术的检定成功时，你能看见该生物的真实形态，却不会结束该变形法术）。</p>"
         },
         "Obscuring Mist": {
@@ -3828,11 +3828,11 @@
           "description": "<p>你咒唤出一片毒雾。其作用同@UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{迷雾术}，但区域每轮会向远离你的方向移动10尺。每个在法术区域内开始其回合且需要呼吸的生物受到6d8毒素伤害。你可以解消此法术。</p>\n<hr />\n<p><strong>升阶（+1）</strong>伤害增加1d8。</p>"
         },
         "Produce Flame": {
-          "name": "燃火术 Produce Flame",
+          "name": "引火术 Produce Flame",
           "description": "<p>一颗小火球出现在你的掌心，你用它发动近战或远程攻击。进行法术攻击检定，对抗目标的防御等级。这通常为远程攻击，但你也可以对徒手触及内的生物进行近战攻击。</p>\n<p>若成功，你造成2d4火焰伤害。若大成功，目标受到双倍伤害和@Damage[(@item.level)d4[persistent,fire]]伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong>伤害增加1d4，重击时的持续伤害增加1d4。</p>"
         },
         "Tanglefoot": {
-          "name": "绊足术 Tanglefoot",
+          "name": "绊足藤 Tanglefoot",
           "description": "<p>一条覆盖黏稠树液的藤蔓凭空出现，从你手中弹出并缠上目标。对目标尝试一次法术攻击。</p>\n<hr />\n<p><strong>大成功</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}状态，且所有速度承受-10尺环境减值，持续1轮。它可以尝试逃脱，对抗你的法术难度，以移除该减值和@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}状态。</p>\n<p><strong>成功</strong>目标的所有速度承受-10尺环境减值，持续1轮。它可以尝试逃脱，对抗你的法术难度，以移除该减值。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.TwtUIEyenrtAbeiX]{法术效应：绊足藤}</p>\n<p><strong>失败</strong>目标不受影响。</p>\n<hr />\n<p><strong>升阶（2环）</strong>效应持续2轮。</p>\n<p><strong>升阶（4环）</strong>效应持续1分钟。</p>"
         },
         "Constant Spells": {
@@ -3863,7 +3863,7 @@
           "description": "<p>目标的皮肤变得如石头般坚硬。它获得物理伤害抗力5，精金伤害除外。目标每被一次钝击、穿刺或挥砍攻击命中，石肤术的持续时间便减少1分钟。</p>\n<hr />\n<p><strong>升阶（6环）</strong>抗力增加至10。</p>\n<p><strong>升阶（8环）</strong>抗力增加至15。</p>\n<p><strong>升阶（10环）</strong>抗力增加至20。</p>"
         },
         "nwKiflfj6AoldOfM": {
-          "name": "燃火术 Produce Flame",
+          "name": "引火术 Produce Flame",
           "description": "<p>一颗小火球出现在你的掌心，你用它发动近战或远程攻击。进行法术攻击检定，对抗目标的防御等级。这通常为远程攻击，但你也可以对徒手触及内的生物进行近战攻击。</p>\n<p>若成功，你造成2d4火焰伤害。若大成功，目标受到双倍伤害和@Damage[(@item.level)d4[persistent,fire]]伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong>伤害增加1d4，重击时的持续伤害增加1d4。</p>"
         },
         "Elemental Form": {
@@ -3922,7 +3922,7 @@
           "description": "<p>龙向120尺内一个目标吐出一块熔融巨石，造成@Damage[14d6[fire],5d12[bludgeoning]]伤害（@Check[reflex|dc:44|basic]豁免）。若失败，目标被瞬间冷却的熔岩包裹；熔岩具有硬度10、生命值60和破损阈值25。被包裹的生物无法呼吸，并陷入@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}（[[/act escape dc=46]]）。</p>"
         },
         "Wing Deflection": {
-          "name": "龙翼偏转 Wing Deflection",
+          "name": "双翼偏斜 Wing Deflection",
           "description": "<p><strong>触发</strong>太古熔岩龙成为一次攻击的目标</p><hr /><p><strong>效应</strong>太古熔岩龙抬起一侧翅膀，对抗触发攻击时防御等级获得+2环境加值；对抗此后直到当前生物回合结束前的其他攻击时，防御等级获得+1环境加值。若太古熔岩龙正在飞行，它会在结算攻击后下降10尺。</p>"
         },
         "Wall of Fire (At Will)": {
@@ -4021,9 +4021,9 @@
           "description": "<p>盐水龙体表结满含盐的酸性晶体。目标受到龙的一次近战打击伤害时，必须通过@Check[fortitude|dc:42]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}（大失败时为@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑4}）。目标随后暂时免疫1分钟。</p>"
         }
       },
-      "name": "盐水龙（太古） Brine Dragon (Great Wyrm)",
-      "tokenName": "盐水龙（太古） Brine Dragon (Great Wyrm)",
-      "prototypeToken": "盐水龙（太古） Brine Dragon (Great Wyrm)",
+      "name": "洋龙（太古） Brine Dragon (Great Wyrm)",
+      "tokenName": "洋龙（太古） Brine Dragon (Great Wyrm)",
+      "prototypeToken": "洋龙（太古） Brine Dragon (Great Wyrm)",
       "allSaves": "对抗魔法的所有豁免获得+1状态加值"
     },
     "Arboreal Dragon (Young, Spellcaster)": {
@@ -4033,8 +4033,8 @@
           "description": "<p>你将木材塑造成自己选择的粗略形状。塑形力量过于粗糙，无法制造精密部件、细致纹饰、活动部件或类似事物。你不能用此法术提高所塑造木制物品的价值。</p>"
         },
         "Light": {
-          "name": "光亮 Light",
-          "description": "<p>你创造一颗光球，在20尺半径内发出明亮光照（以及再向外20尺的微光），颜色由你选择。若你在一个自愿生物所在的空间中创造光球，可以将光附着于该生物，使其在生物移动时悬浮跟随。你可以维持法术，使光球移动最多60尺；作为这次移动的一部分，你可以使其附着于一个生物，或从生物身上脱离。</p>\n<p>你可以解消法术。若你已经有四个<em>光亮</em>生效，又施放此法术，必须选择结束其中一个已有法术。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{法术效应：光亮}</p>\n<hr />\n<p><strong>升阶（4环）</strong>光球在60尺半径内照明（以及再向外60尺的微光）。</p>"
+          "name": "光亮术 Light",
+          "description": "<p>你创造一颗光球，在20尺半径内发出明亮光照（以及再向外20尺的微光），颜色由你选择。若你在一个自愿生物所在的空间中创造光球，可以将光附着于该生物，使其在生物移动时悬浮跟随。你可以维持法术，使光球移动最多60尺；作为这次移动的一部分，你可以使其附着于一个生物，或从生物身上脱离。</p>\n<p>你可以解消法术。若你已经有四个<em>光亮术</em>生效，又施放此法术，必须选择结束其中一个已有法术。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{法术效应：光亮术}</p>\n<hr />\n<p><strong>升阶（4环）</strong>光球在60尺半径内照明（以及再向外60尺的微光）。</p>"
         },
         "Read Aura": {
           "name": "阅读灵光 Read Aura",
@@ -4265,8 +4265,8 @@
           "description": "<p>你将木材塑造成自己选择的粗略形状。塑形力量过于粗糙，无法制造精密部件、细致纹饰、活动部件或类似事物。你不能用此法术提高所塑造木制物品的价值。</p>"
         },
         "Light": {
-          "name": "光亮 Light",
-          "description": "<p>你创造一颗光球，在20尺半径内发出明亮光照（以及再向外20尺的微光），颜色由你选择。若你在一个自愿生物所在的空间中创造光球，可以将光附着于该生物，使其在生物移动时悬浮跟随。你可以维持法术，使光球移动最多60尺；作为这次移动的一部分，你可以使其附着于一个生物，或从生物身上脱离。</p>\n<p>你可以解消法术。若你已经有四个<em>光亮</em>生效，又施放此法术，必须选择结束其中一个已有法术。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{法术效应：光亮}</p>\n<hr />\n<p><strong>升阶（4环）</strong>光球在60尺半径内照明（以及再向外60尺的微光）。</p>"
+          "name": "光亮术 Light",
+          "description": "<p>你创造一颗光球，在20尺半径内发出明亮光照（以及再向外20尺的微光），颜色由你选择。若你在一个自愿生物所在的空间中创造光球，可以将光附着于该生物，使其在生物移动时悬浮跟随。你可以维持法术，使光球移动最多60尺；作为这次移动的一部分，你可以使其附着于一个生物，或从生物身上脱离。</p>\n<p>你可以解消法术。若你已经有四个<em>光亮术</em>生效，又施放此法术，必须选择结束其中一个已有法术。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{法术效应：光亮术}</p>\n<hr />\n<p><strong>升阶（4环）</strong>光球在60尺半径内照明（以及再向外60尺的微光）。</p>"
         },
         "Read Aura": {
           "name": "阅读灵光 Read Aura",
@@ -4471,7 +4471,7 @@
         },
         "Passwall": {
           "name": "穿墙术 Passwall",
-          "description": "<p>你在所选区域的墙壁中创造出一条可见的隧道，将该区域替换为空的空间。若墙壁厚度超过10尺，隧道深入10尺后便到达尽头。墙内即使只有一层薄薄的金属，也会阻止此法术生效。此法术不会削弱建筑的结构完整性。法术结束时，隧道中的所有人都会被推出最近的出口。</p>\n<hr />\n<p><strong>升阶（7环）</strong>隧道深度最多可达20尺。尽管隧道确实存在，墙上包含隧道入口的区域看起来仍完全正常（除非使用真视术或类似效应观察）。隧道入口如同实心墙壁一样发挥作用，但你可以设定口令或触发条件，使生物能够自由进入隧道。</p>"
+          "description": "<p>你在所选区域的墙壁中创造出一条可见的隧道，将该区域替换为空的空间。若墙壁厚度超过10尺，隧道深入10尺后便到达尽头。墙内即使只有一层薄薄的金属，也会阻止此法术生效。此法术不会削弱建筑的结构完整性。法术结束时，隧道中的所有人都会被推出最近的出口。</p>\n<hr />\n<p><strong>升阶（7环）</strong>隧道深度最多可达20尺。尽管隧道确实存在，墙上包含隧道入口的区域看起来仍完全正常（除非使用真景术或类似效应观察）。隧道入口如同实心墙壁一样发挥作用，但你可以设定口令或触发条件，使生物能够自由进入隧道。</p>"
         },
         "Slow": {
           "name": "缓慢术 Slow",
@@ -4486,8 +4486,8 @@
           "description": "<p>云雾不会妨碍云龙的视觉；它们忽略云雾造成的@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态。</p>"
         },
         "Freedom of Movement": {
-          "name": "行动自如 Freedom of Movement",
-          "description": "<p>你排斥会妨碍生物或减缓其移动的效应。受本法术影响期间，目标忽略会使其速度承受环境减值的效应。当它尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}使其陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}、@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}的效应时，自动成功，除非该效应具有魔法性质，且环级高于<em>行动自如</em>法术。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.CdAyAiMGESvgNQtz]{法术效应：行动自如}</p>"
+          "name": "行动无碍 Freedom of Movement",
+          "description": "<p>你排斥会妨碍生物或减缓其移动的效应。受本法术影响期间，目标忽略会使其速度承受环境减值的效应。当它尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}使其陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}、@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}的效应时，自动成功，除非该效应具有魔法性质，且环级高于<em>行动无碍</em>法术。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.CdAyAiMGESvgNQtz]{法术效应：行动无碍}</p>"
         },
         "Hallucinatory Terrain": {
           "name": "幻景 Hallucinatory Terrain",
@@ -4538,7 +4538,7 @@
           "description": "<p>你可以向动物提问、得到回答，并对其使用交涉技能。此法术不会使它们比平时更友善。狡猾的动物很可能回答简短、含糊其词，较不聪明的则常作出无意义的评论。</p>"
         },
         "True Seeing": {
-          "name": "真视术 True Seeing",
+          "name": "真景术 True Seeing",
           "description": "<p>你能看清60尺内事物的真实面貌。主持人对范围内的每个幻术或变化系效应秘密进行反制检定，但这只用于确定你是否能看穿它（例如，对变形法术的检定成功时，你能看见该生物的真实形态，却不会结束该变形法术）。</p>"
         },
         "Deflecting Cloud": {
@@ -4960,7 +4960,7 @@
           "description": "<p>一道道虹光从你张开的手掌喷洒而出。区域内每个生物都必须投掷1d8并查询下表，以确定哪道光束影响它，然后尝试所示类型的豁免。表格列出了适用于各类射线的额外特征。若生物被多道光束击中，其所有豁免都使用同一个d20结果。对于所有射线，豁免成功都会使该生物免受其效果影响。</p>\n<h3><strong>虹光喷射</strong></h3>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>1d8</th>\n<th>颜色</th>\n<th>豁免</th>\n<th>效应（特征）</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>红</td>\n<td>反射</td>\n<td>50火焰伤害（火焰）</td>\n</tr>\n<tr>\n<td>2</td>\n<td>橙</td>\n<td>反射</td>\n<td>60酸蚀伤害（酸蚀）</td>\n</tr>\n<tr>\n<td>3</td>\n<td>黄</td>\n<td>反射</td>\n<td>70电击伤害（电击）</td>\n</tr>\n<tr>\n<td>4</td>\n<td>绿</td>\n<td>强韧</td>\n<td>30毒素伤害，并@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}，持续1分钟（毒素）</td>\n</tr>\n<tr>\n<td>5</td>\n<td>蓝</td>\n<td>强韧</td>\n<td>受到如同@UUID[Compendium.pf2e.spells-srd.Item.znv4ECL7ZtuiagtA]{石化术}的影响</td>\n</tr>\n<tr>\n<td>6</td>\n<td>靛</td>\n<td>意志</td>\n<td>困惑，如同@UUID[Compendium.pf2e.spells-srd.Item.8kJbiBEjMWG4VUjs]{心灵扭曲}法术（心灵）</td>\n</tr>\n<tr>\n<td>7</td>\n<td>紫</td>\n<td>意志</td>\n<td>缓慢1分钟；若大失败，被送往另一个位面，如同@UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{跨界传送}（传送）</td>\n</tr>\n<tr>\n<td>8</td>\n<td>强力光束</td>\n<td>-</td>\n<td>受到两道光束影响——投掷两次，重投任何重复结果或8的结果</td>\n</tr>\n</tbody>\n</table>"
         },
         "True Seeing": {
-          "name": "真视术 True Seeing",
+          "name": "真景术 True Seeing",
           "description": "<p>你能看清60尺内事物的真实面貌。主持人对范围内的每个幻术或变化系效应秘密进行反制检定，但这只用于确定你是否能看穿它（例如，对变形法术的检定成功时，你能看见该生物的真实形态，却不会结束该变形法术）。</p>"
         },
         "Prestidigitation": {
@@ -4999,8 +4999,8 @@
           "description": "<p>你掩盖自己留下的踪迹，使他人更难找到你。追踪你的检定难度获得+4状态加值，或等于你的法术难度，取使难度更高者。你同一时间只能受益于一个行踪无迹法术。</p>\n<hr />\n<p><strong>升阶（2环）</strong>持续时间增加至8小时。</p>\n<p><strong>升阶（4环）</strong>持续时间增加至8小时。法术射程为20尺，区域为20尺弥漫，影响该区域内你选择的最多10个生物。</p>"
         },
         "Light": {
-          "name": "光亮 Light",
-          "description": "<p>物品发出光芒，如火把般在20尺半径内提供明亮光照（以及再向外20尺的微光）。若你再次对第二件物品施放此法术，第一件物品上的光亮法术结束。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{法术效应：光亮}</p>\n<hr />\n<p><strong>升阶（4环）</strong>物品在60尺半径内提供明亮光照（以及再向外60尺的微光）。</p>"
+          "name": "光亮术 Light",
+          "description": "<p>物品发出光芒，如火把般在20尺半径内提供明亮光照（以及再向外20尺的微光）。若你再次对第二件物品施放此法术，第一件物品上的光亮术结束。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{法术效应：光亮术}</p>\n<hr />\n<p><strong>升阶（4环）</strong>物品在60尺半径内提供明亮光照（以及再向外60尺的微光）。</p>"
         },
         "Grease": {
           "name": "油腻术 Grease",
@@ -5109,7 +5109,7 @@
           "description": "<p>太古水晶龙对抗远程法术攻击检定时，防御等级获得+4环境加值（已计入上方数值）。远程法术攻击检定未命中太古水晶龙时，法术会被反射回施法者；施法者必须以相同的攻击调整值进行第二次远程法术攻击检定，对抗自己的防御等级，以确定反射的法术是否转而命中自己。</p>"
         },
         "Twisting Tail": {
-          "name": "扭转扫尾 Twisting Tail",
+          "name": "长尾扭转 Twisting Tail",
           "description": "<p><strong>触发</strong>太古水晶龙尾巴触及内的一个生物使用移动动作，或在其使用的移动动作期间离开一个方格</p><hr /><p><strong>效应</strong>太古水晶龙对该生物进行一次尾巴打击，承受–2减值。若命中，龙打断该生物的动作。</p>"
         }
       },
@@ -5336,7 +5336,7 @@
     "Umbral Dragon (Great Wyrm, Spellcaster)": {
       "items": {
         "True Seeing": {
-          "name": "真视术 True Seeing",
+          "name": "真景术 True Seeing",
           "description": "<p>你能看清60尺内事物的真实面貌。主持人对范围内的每个幻术或变化系效应秘密进行反制检定，但这只用于确定你是否能看穿它（例如，对变形法术的检定成功时，你能看见该生物的真实形态，却不会结束该变形法术）。</p>"
         },
         "Maze": {
@@ -5348,7 +5348,7 @@
           "description": "<p>你通过伸出的双臂吸取其他生物的血液与生命力。你对区域内的活物造成12d6虚能伤害。你获得临时生命值，数值等于某一个生物受到本法术伤害的一半；以受到最多伤害的生物计算该临时生命值。剩余临时生命值在1分钟后消失。</p>\n<hr />\n<p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
         },
         "Nightmare": {
-          "name": "梦魇 Nightmare",
+          "name": "梦魇术 Nightmare",
           "description": "<p>你向目标送去令人不安的噩梦。目标下一次入睡时，必须尝试意志豁免。若你只知道目标的名字，却从未见过它，目标的意志豁免获得+4环境加值。</p>\n<hr />\n<p><strong>大成功</strong>目标不受不利影响，并暂时免疫1周。</p>\n<p><strong>成功</strong>目标经历噩梦，但除了不愉快的记忆之外不受不利影响。</p>\n<p><strong>失败</strong>目标经历噩梦，醒来时@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}。</p>\n<p><strong>大失败</strong>目标经历噩梦，醒来时疲乏，并陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失2}，直到不再疲乏。</p>"
         },
         "Eclipse Burst": {
@@ -5539,7 +5539,7 @@
           "description": "<p>幽影龙的打击影响虚体生物时具有<em>幽冥</em>性能符文的效果，且幽影龙的噬咬对不死生物额外造成10d6力场伤害。</p>"
         },
         "Darkness (At Will)": {
-          "name": "黑暗（随意） Darkness (At Will)",
+          "name": "黑暗术（随意） Darkness (At Will)",
           "description": "<p>你创造一片黑暗帷幕，阻止光线穿透或从区域内发出。光线无法进入区域；火把或提灯等非魔法光源位于区域内时，即使其照明半径本应超出黑暗，也不会发出任何光线。这也会压制环级不高于你的黑暗术的魔法光照。光线无法穿透，因此区域内生物无法看见外界。从外面看，这是一颗纯粹黑暗构成的球体。</p>\n<hr />\n<p><strong>升阶（4环）</strong>即使具有黑暗视觉（但非高等黑暗视觉）的生物，也难以看穿此黑暗。它们将透过黑暗看见的目标视为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}。</p>"
         }
       },

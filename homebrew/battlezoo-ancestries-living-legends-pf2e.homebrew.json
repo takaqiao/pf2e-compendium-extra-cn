@@ -1,0 +1,125 @@
+{
+  "moduleId": "battlezoo-ancestries-living-legends-pf2e",
+  "moduleTitle": "Battlezoo Ancestries: Living Legends for Pathfinder 2e by Roll For Combat",
+  "homebrew": {
+    "featTraits": {
+      "angel": "PF2E.TraitAngel",
+      "abjuration": {
+        "label": "PF2E.TraitAbjuration",
+        "description": "PF2E.TraitDescriptionAbjuration"
+      },
+      "arboreal": "YOL.Trait.Arboreal",
+      "cerebrophage": "YOL.Trait.Cerebrophage",
+      "chaotic": {
+        "label": "PF2E.TraitChaotic",
+        "description": "PF2E.TraitDescriptionChaotic"
+      },
+      "combined": {
+        "label": "YOL.Trait.Combined",
+        "description": "YOL.TraitDescription.Combined"
+      },
+      "conjuration": {
+        "label": "PF2E.TraitConjuration",
+        "description": "PF2E.TraitDescriptionConjuration"
+      },
+      "devil": {
+        "label": "PF2E.TraitDevil",
+        "description": "PF2E.TraitDescriptionDevil"
+      },
+      "divination": {
+        "label": "PF2E.TraitDivination",
+        "description": "PF2E.TraitDescriptionDivination"
+      },
+      "enchantment": {
+        "label": "PF2E.TraitEnchantment",
+        "description": "PF2E.TraitDescriptionEnchantment"
+      },
+      "evil": {
+        "label": "PF2E.TraitEvil",
+        "description": "PF2E.TraitDescriptionEvil"
+      },
+      "evil-eye": "YOL.Trait.EvilEye",
+      "evocation": {
+        "label": "PF2E.TraitEvocation",
+        "description": "PF2E.TraitDescriptionEvocation"
+      },
+      "fusion": "YOL.Trait.Fusion",
+      "gargoyle": "YOL.Trait.Gargoyle",
+      "giant": "PF2E.TraitGiant",
+      "giantblood": "YOL.Trait.Giantblood",
+      "golemborn": "YOL.Trait.Golemborn",
+      "good": {
+        "label": "PF2E.TraitGood",
+        "description": "PF2E.TraitDescriptionGood"
+      },
+      "lamia": "YOL.Trait.Lamia",
+      "lawful": {
+        "label": "PF2E.TraitLawful",
+        "description": "PF2E.TraitDescriptionLawful"
+      },
+      "necromancy": {
+        "label": "PF2E.TraitNecromancy",
+        "description": "具有该特征的效果和魔法物品与魔法死灵学派相关联，通常包括影响生与死的力量。"
+      },
+      "psychopomp": "PF2E.TraitPsychopomp",
+      "sphinx": "YOL.Trait.Sphinx",
+      "swarmblood": "YOL.Trait.Swarmblood",
+      "transmutation": {
+        "label": "PF2E.TraitTransmutation",
+        "description": "PF2E.TraitDescriptionTransmutation"
+      },
+      "werecreature": "PF2E.TraitWerecreature"
+    },
+    "creatureTraits": {
+      "arboreal": "YOL.Trait.Arboreal",
+      "cerebrophage": "YOL.Trait.Cerebrophage",
+      "chaotic": {
+        "label": "PF2E.TraitChaotic",
+        "description": "PF2E.TraitDescriptionChaotic"
+      },
+      "evil": {
+        "label": "PF2E.TraitEvil",
+        "description": "PF2E.TraitDescriptionEvil"
+      },
+      "evil-eye": "YOL.Trait.EvilEye",
+      "fusion": "YOL.Trait.Fusion",
+      "gargoyle": "YOL.Trait.Gargoyle",
+      "giantblood": "YOL.Trait.Giantblood",
+      "golemborn": "YOL.Trait.Golemborn",
+      "good": {
+        "label": "PF2E.TraitGood",
+        "description": "PF2E.TraitDescriptionGood"
+      },
+      "lamia": "YOL.Trait.Lamia",
+      "lawful": {
+        "label": "PF2E.TraitLawful",
+        "description": "PF2E.TraitDescriptionLawful"
+      },
+      "sphinx": "YOL.Trait.Sphinx",
+      "swarmblood": "YOL.Trait.Swarmblood",
+      "werecreature": "PF2E.TraitWerecreature"
+    },
+    "damageTypes": {
+      "evil": {
+        "label": "PF2E.TraitEvil",
+        "icon": "fa-face-angry-horns",
+        "category": "energy"
+      },
+      "good": {
+        "label": "PF2E.TraitGood",
+        "icon": "fa-face-smile-halo",
+        "category": "energy"
+      },
+      "chaotic": {
+        "label": "PF2E.TraitChaotic",
+        "icon": "fa-face-zany",
+        "category": "energy"
+      },
+      "lawful": {
+        "label": "PF2E.TraitLawful",
+        "icon": "fa-scale-balanced",
+        "category": "energy"
+      }
+    }
+  }
+}

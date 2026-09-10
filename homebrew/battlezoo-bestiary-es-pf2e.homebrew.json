@@ -1,0 +1,26 @@
+{
+  "moduleId": "battlezoo-bestiary-es-pf2e",
+  "moduleTitle": "Battlezoo Bestiary: Elemental Storm for Pathfinder 2e by Roll For Combat",
+  "homebrew": {
+    "creatureTraits": {
+      "voska": {
+        "description": "BZES.TraitDescription.Voska",
+        "label": "BZES.Trait.Voska"
+      }
+    },
+    "languages": {
+      "aetheran": "BZES.Language.Aetheran",
+      "astral": "BZES.Language.Astral",
+      "chronan": "BZES.Language.Chronan",
+      "cryan": "BZES.Language.Cryan",
+      "drumcap": "BZES.Language.Drumcap",
+      "hemadae": "BZES.Language.Hemadae",
+      "khaotan": "BZES.Language.Khaotan",
+      "luxan": "BZES.Language.Luxan",
+      "melodian": "BZES.Language.Melodian",
+      "spirituan": "BZES.Language.Spirituan",
+      "venenan": "BZES.Language.Venenan",
+      "voltan": "BZES.Language.Voltan"
+    }
+  }
+}

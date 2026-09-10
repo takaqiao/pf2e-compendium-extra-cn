@@ -1,0 +1,125 @@
+{
+    "BZES": {
+        "IWR": {
+            "Custom": {
+                "DamageFromSpells": "法术造成的伤害",
+                "ForcedMovement": "强制移动",
+                "Weapons": "武器"
+            }
+        },
+        "Language": {
+            "Aetheran": "以太语",
+            "Astral": "星界语",
+            "Chronan": "时序语",
+            "Cryan": "寒冰语",
+            "Drumcap": "鼓盖语",
+            "Hemadae": "赫玛黛语",
+            "Khaotan": "混沌语",
+            "Luxan": "光明语",
+            "Melodian": "旋律语",
+            "Spirituan": "精魂语",
+            "Venenan": "毒素语",
+            "Voltan": "雷电语"
+        },
+        "SpecificRule": {
+            "Agiyeft": {
+                "ToxinManipulation": {
+                    "BonusLabel": "毒素操控——加值"
+                }
+            },
+            "Braincase": {
+                "ForcePalm": "力场掌"
+            },
+            "Hatemonger": {
+                "WillingHate": {
+                    "Frightened": "已造成惊惧",
+                    "Label": "自愿憎恨",
+                    "NotFrightened": "通常"
+                }
+            },
+            "MetallicPhaseElemental": {
+                "Phase": {
+                    "Gas": "气态",
+                    "Liquid": "液态",
+                    "Solid": "固态"
+                },
+                "Strike": {
+                    "LiquidLash": "液体鞭击",
+                    "MetalFist": "金属拳",
+                    "ShardBlast": "碎片爆射"
+                }
+            },
+            "MonolithicCube": {
+                "MercuryJet": "水银喷射",
+                "TheDieIsCast": {
+                    "Might": "威力",
+                    "Frost": "冰霜",
+                    "Lightning": "闪电",
+                    "Thunder": "雷鸣",
+                    "Flame": "烈焰",
+                    "Magic": "魔法"
+                }
+            },
+            "MonsterHunter": {
+                "Hobble": {
+                    "AllSpeeds": "所有速度",
+                    "BurrowSpeed": "掘穴速度",
+                    "ClimbSpeed": "攀爬速度",
+                    "LandSpeed": "陆地速度",
+                    "FlySpeed": "飞行速度",
+                    "Prompt": "选择一种速度",
+                    "SwimSpeed": "游泳速度"
+                },
+                "Mutilate": {
+                    "GoForTheEyes": "若目标的等级低于你，则目标针对此专长额外效果的判定结果降低一个成功度。若你重击，则以如下效果替代通常效果：目标陷入@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}，持续1分钟，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续1天。",
+                    "HamperingStrike": "若目标的等级低于你，则目标针对此专长额外效果的判定结果降低一个成功度。若你重击，则以如下效果替代通常效果：打击带来的疼痛使目标迷失方向，持续[[/gmr 1d4 #rounds]]{1d4轮}；期间，目标无法花费动作来恢复使用受影响的徒手打击。",
+                    "Hobble": "若目标的等级低于你，则目标针对此专长额外效果的判定结果降低一个成功度。若你重击，则以如下效果替代通常效果：目标在1轮内无法使用受影响的移动方式；若这是目标唯一的移动方式，它会陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，持续1轮。凡需使用受影响肢体的速度均受到–20尺状态减值，持续1分钟。",
+                    "RightInTheVitals": "若目标的等级低于你，则目标针对此专长额外效果的判定结果降低一个成功度。若你重击，则以如下效果替代通常效果：目标在[[/gmr 1d4 #rounds]]{1d4轮}内无法花费一个动作干呕来降低该状态的状态值。",
+                    "YouHeardNothing": "若目标的等级低于你，则目标针对此专长额外效果的判定结果降低一个成功度。若你重击，则以如下效果替代通常效果：目标陷入@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋}，持续1小时，并短暂感到晕眩，对所有攻击陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续[[/gmr 1d4 #rounds]]{1d4轮}。"
+                },
+                "TheRightPartForTheJob": {
+                    "Prompt": "你要消耗多少？",
+                    "Thirty": "30金币",
+                    "ThreeHundred": "300金币"
+                },
+                "TitanWrestlerAlteration": "你可以尝试@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}、@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}、@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}或@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}体型至多比你大两级的生物；若你的运动达到大师，则至多大三级；若你的运动达到传奇，则至多大四级。",
+                "WarySurvivalist": {
+                    "EnvironmentalHazard": "环境危害",
+                    "MassiveCreature": "庞大生物"
+                }
+            },
+            "Neoctri": {
+                "Bipedal": "双足",
+                "Quadrapedal": "四足",
+                "Tripedal": "三足"
+            },
+            "SealedMummy": {
+                "DetachedLid": "棺盖已脱离",
+                "LidBash": "棺盖猛击"
+            },
+            "Shadowblooded": {
+                "Lighting": {
+                    "BrightLight": "明亮光照",
+                    "Darkness": "黑暗",
+                    "DimLight": "微光"
+                }
+            },
+            "TemporalParadox": {
+                "FortuneToggleLabel": "正受幸运效果影响"
+            },
+            "WoodpluckElder": {
+                "CultivateMount": {
+                    "Fly": "25尺飞行速度",
+                    "Land": "40尺陆地速度",
+                    "Prompt": "选择你的坐骑。"
+                }
+            }
+        },
+        "Trait": {
+            "Voska": "沃斯卡"
+        },
+        "TraitDescription": {
+            "Voska": "沃斯卡是生活在以太位面、使用奇异魔法装置的蛾人。"
+        }
+    }
+}

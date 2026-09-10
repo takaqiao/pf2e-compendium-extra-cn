@@ -1,0 +1,217 @@
+{
+  "label": "专长",
+  "entries": {
+    "Warped Terrain": {
+      "name": "扭曲地形 Warped Terrain",
+      "description": "<p>每当你使用喷吐武器时，它会扭曲周围区域，使喷吐武器效果区域内留下困难地形。困难地形持续[[/gmr 1d4 #rounds]]{1d4轮}，使用你确定龙息恢复所需时间时掷出的同一个d4结果。即使你使用龙之威势提前恢复龙息，也不会影响扭曲地形的持续时间。</p>"
+    },
+    "Weaken Foe": {
+      "name": "虚弱敌手 Weaken Foe",
+      "description": "<p><strong>需求</strong> 你的上一个动作是成功的近战无武装攻击打击，或是包含至少一次成功近战无武装攻击打击的龙之狂怒</p><hr /><p>你从刚刚击中的生物身上汲取生命力（或从你以龙之狂怒击中的所有生物身上汲取）。目标必须成功通过一次对抗你职业DC的@Check[fortitude|against:class]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}，持续1分钟（大失败时为@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}，持续1分钟）。</p>"
+    },
+    "Tail Smash": {
+      "name": "尾击猛砸 Tail Smash",
+      "description": "<p><strong>触发</strong> 你的尾巴触及范围内的一个生物尝试远程攻击，或在使用移动动作期间尝试远离你</p><hr /><p>企图保持距离的敌人会学会畏惧你的尾巴。你对触发生物进行一次尾巴打击。大成功时，你还可以立即尝试一次运动检定来@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}触发生物。提醒：你从龙族族裔获得的尾巴无武装攻击具有摔绊特征，而且在你的回合之外不应用多次攻击减值。</p>"
+    },
+    "Alchemical Jaws": {
+      "name": "炼金利颚 Alchemical Jaws",
+      "description": "<p>你用尖锐的金属突起取代了牙齿。其中储存的炼金液体能够模拟某些贵重金属。选择寒铁或银；如果你在自己的回合结束前进行噬咬无武装攻击，你的利颚视为由所选材质制成。达到12级时，将精金加入可选材质列表。</p>"
+    },
+    "Weapon Attachment": {
+      "name": "植装武器 Weapon Attachment",
+      "description": "<p>你在身体的金属部位安装了接口，能够将武器连接到自己身上。你可以使用一项耗时1分钟、具有操作特征的活动，将一件单手武器连接到两条带爪前肢中的一条上。你不再需要使用交互动作拔出武器，因为你始终持握着它；不过，该肢体也无法再进行爪击、持握其他物品，或完成需要精细手部操作或技能检定的任务；你仍能用它进行开门之类的简单交互动作。连接的武器几乎不可能被@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}；对其卸武大成功时，武器不再与身体连接，但你仍持握着它（还需第二次卸武大成功，才能彻底将其卸武）。然而，你也不能照常丢下或放开武器；你需要使用一个交互动作将其取下。执意夺取武器的生物能够做到，但除了卸武取得两次大成功之外，它需要花费1分钟来取下武器，或对你的身体施以极端暴力，例如直接撕掉周围的部分血肉。你同时只能连接一件武器，但可以使用这项1分钟活动，将其换成另一件单手武器。</p>"
+    },
+    "Surging Critical": {
+      "name": "狂涌重击 Surging Critical",
+      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>需求</strong> 你的上一个动作是大成功的打击。</p><hr /><p>你最猛烈的打击会在你和遭受重创的生物周围释放狂野魔法。你以被重击的生物为目标，产生一次@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.roll-tables.RollTable.xn3NHbHfZkL8dY4O]{狂野魔法}效果。该狂野魔法效果的法术环阶等于你等级的一半，向上取整。如果你的职业DC更高，则使用职业DC代替法术DC来计算狂野魔法效果的DC和反制调整值。</p>"
+    },
+    "Surge Protection": {
+      "name": "狂涌防护 Surge Protection",
+      "description": "<p>泉源龙的狂野魔法是你生命的一部分，你知道它并不是真的想伤害你，哪怕它恰好在你脸前炸开。你获得等于你等级的抗力，对抗狂野魔法效果造成的所有伤害（无论源于你还是他人），且对抗这些效果的豁免获得+1环境加值。</p>"
+    },
+    "Surging Spell": {
+      "name": "狂涌法术 Surging Spell",
+      "description": "<p>你可以将@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.roll-tables.RollTable.xn3NHbHfZkL8dY4O]{狂野魔法}的碎片交织进自己的法术中。如果你的下一个动作是使用一个龙法师法术位施放法术，你还会生成一次狂野魔法效果，其法术环阶与你所施放的法术相同。</p>"
+    },
+    "Reactive Flux": {
+      "name": "应激魔涌 Reactive Flux",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><p><strong>触发</strong> 你对抗法术的豁免失败或大失败</p><hr /><p>你的内在魔力尝试将部分影响你的有害魔法分散为狂野魔法效果。重掷触发的豁免。此外，你以自身同时作为施法者和目标，生成一次@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.roll-tables.RollTable.xn3NHbHfZkL8dY4O]{狂野魔法}效果。法术环阶、DC和反制调整值均与触发的法术相同。</p>"
+    },
+    "Aura of Pandemonium": {
+      "name": "狂乱灵光 Aura of Pandemonium",
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你以狂野魔法能量环绕自身，影响任何靠近的施法者。持续1分钟，每当你30尺灵光内的生物（包括你自己）施放法术时，该生物必须尝试一次@Check[flat|dc:5]。失败时，该生物触发一次狂野魔法效果，且该法术被打断。如果该生物处于@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]状态，则该次施法只需为灵光或呆滞进行一次纯骰检定，使用两者中较高的DC（呆滞的DC几乎总是更高）；但呆滞的纯骰检定失败也会引发狂野魔法效果。</p>"
+    },
+    "Formless Backlash": {
+      "name": "无形反噬 Formless Backlash",
+      "description": "<p><strong>触发</strong> 10尺内的一名敌人即将对你造成物理伤害或与你当前对应伤害类型相同的伤害</p><hr /><p>你即将遭到击打的身体部位本能地化为无定形的原生质。针对触发的伤害，你获得对物理伤害和对应伤害类型的抗力，数值等于3加上你等级的一半（对于对应伤害类型而言，这通常会将你已有的抗力提高3）。此外，你可以对触发的敌人进行一次无武装攻击检定。成功时，你对其造成等于你以此方式抵挡的伤害量、且类型相同的伤害。例如，如果你是12级，对应伤害类型为火焰，被一次原本会造成20点挥砍伤害和6点火焰伤害的攻击命中，则你会抵挡9点挥砍伤害和全部6点火焰伤害。你受到剩余的11点挥砍伤害；若无武装攻击检定成功，触发生物受到9点挥砍伤害和6点火焰伤害。</p>"
+    },
+    "Entangling Grasp": {
+      "name": "缠绕擒抓 Entangling Grasp",
+      "description": "<p>你伸长肢体，从远处攻击并擒拿敌人。以龙族族裔的爪子无武装攻击进行一次打击，此次触及范围增加10尺（对于典型形变龙而言，总计为15尺）。如果目标此前从未见过形变龙的缠绕擒抓，它便@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。命中时，你可以立即尝试一次运动检定来@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}目标；只有在结算完擒拿尝试后，才应用这次打击和擒拿带来的多次攻击减值。擒拿成功时，你可以选择将@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}的生物拉到与你相邻的位置。</p>"
+    },
+    "Morphic Assault": {
+      "name": "形变突袭 Morphic Assault",
+      "description": "<p>你的身体随着移动而变换扭曲，令敌人难以应对。你行走至多一半速度的距离；此移动不会触发反应。在这次移动的任意时刻，你可以用龙族无武装攻击打击触及范围内的一名敌人；该敌人对这次攻击@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>"
+    },
+    "Soothsaying Lore": {
+      "name": "预言学识 Soothsaying Lore",
+      "description": "<p>你不断收到各种令人困惑的未来幻象，能够借此解读过去与现在……至少能用你自己的方式解读。你的预言学识变为受训，这是一项特殊学识技能，只能用于@Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}，但可以涉及任何主题。用预言学识进行回忆知识检定时，除非结果为大失败，否则你总会获得一条正确知识和一条错误知识，却无法分辨孰真孰假。大失败时，你改为获得两条错误信息。无论结果如何，从预言学识中获得的信息总带着阴郁、沮丧或其他负面意味。你不能通过技能提升或其他常规方式提高预言学识，但如果你在任意一项可用于辨识魔法的技能上拥有传奇熟练度（对许多厄兆龙而言通常是神秘学），你的预言学识会自动变为专家。</p>"
+    },
+    "Dismal Presence": {
+      "name": "阴郁威压 Dismal Presence",
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你让预示未来可怕事件的低语环绕自身，使附近生物心中充斥惊骇的念头。你获得以自身为中心、范围为@Template[type:emanation|distance:20]的阴郁威压灵光，持续1分钟。进入灵光的敌人（或你启用灵光时已在其中的敌人）必须尝试一次@Check[will|against:class-spell]豁免，对抗你的职业DC或法术DC中的较高者，结果如下。此后，它们对此暂时免疫1分钟。</p><hr /><p><strong>大成功</strong> 该生物不受影响</p><p><strong>成功</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}。</p><p><strong>失败</strong> 该生物陷入惊惧1、@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}，并@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}1轮。</p><p><strong>大失败</strong> 该生物陷入惊惧1、@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑2}，并措手不及1轮。</p>"
+    },
+    "Phantasm of the Future": {
+      "name": "未来幻象 Phantasm of the Future",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你在60尺内一个生物的脑海中唤出可怕命运的景象。目标受到@Damage[((floor(@actor.level/2)+2)d6)[mental]]伤害，具体取决于其对抗你职业DC的@Check[will|against:class]豁免结果。达到10级及此后每两级，心灵伤害提高1d6，最高在20级时达到12d6心灵伤害。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮，并受到一半伤害。</p><p><strong>失败</strong> 该生物陷入措手不及，持续2轮，并受到全部伤害。</p><p><strong>大失败</strong> 该生物陷入措手不及，持续4轮，并受到双倍伤害。</p>"
+    },
+    "Anatomical Fortification": {
+      "name": "躯体护命 Anatomical Fortification",
+      "description": "<p>你的身体已有如此多的部分被金属和其他无机材料取代，令要害得到了严密保护。每次你遭到重击时，尝试一次@Check[flat|dc:17]。成功时，该次重击变为普通命中。此效果不与护命符文等类似效果叠加。</p>"
+    },
+    "Counteract Energy": {
+      "name": "抵消能量 Counteract Energy",
+      "description": "<p><strong>触发</strong> 100尺内的一个生物施放具有与你当前对应伤害类型相符特征的法术</p><hr /><p>你尝试以反制检定阻止触发的法术，反制环阶等于你等级的一半，向上取整，反制调整值等于你的法术DC – 10。成功时，该法术被打断。</p>"
+    },
+    "Dispelling Surge Strike": {
+      "name": "驱魔狂涌打击 Dispelling Surge Strike",
+      "description": "<p>你的龙族攻击可以撕裂持续生效的法术，解除其效果，并使残留的不稳定魔力逸散为狂野魔法效果。以龙族族裔无武装攻击对一名敌人进行一次打击。如果打击命中并造成伤害，你随后尝试反制目标身上一个自选的、正在生效的非戏法法术；反制环阶等于你等级的一半，向上取整，反制调整值等于你的职业DC – 10。如果反制检定成功，该法术结束，你以自身为施法者、被命中的生物为目标，生成一次狂野魔法效果。狂野魔法效果使用被反制法术的环阶、法术DC和反制调整值。</p>"
+    },
+    "Significant Omen": {
+      "name": "关键预兆 Significant Omen",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你唤出一个未来的预兆，它可能有益，也可能凶险；谁也无法预料命运安排了怎样的劫数。掷一个d20，其结果就是你的关键预兆。拥有关键预兆时，你可以在进行攻击检定、豁免或技能检定的任何时候，将关键预兆的结果用作d20结果，代替掷出d20（照常加入该检定的调整值）。你在自己的回合结束或使用关键预兆时失去它，以先发生者为准。如果你直到回合结束仍未使用关键预兆（可能因为d20结果太低），你在回合刚结束时陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}。</p>"
+    },
+    "Dooming Mistake": {
+      "name": "招厄失误 Dooming Mistake",
+      "description": "<p><strong>触发</strong> 你100尺内的一个生物在攻击检定或技能检定中大失败。</p><hr /><p>你预示触发生物的失误不过是将来厄运的一点影子。触发生物必须成功通过一次对抗你职业DC的@Check[will|against:class]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭1}和@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}（大失败时为@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭2}和@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}）。</p>"
+    },
+    "Presume Misfortune": {
+      "name": "预断厄运 Presume Misfortune",
+      "description": "<p>尽管你的幻象支离破碎，你有时仍能看见某个人的好运正在消退。如果你的下一个动作是施放要求一个或多个目标进行豁免的法术，选择其中一个目标，迫使其掷四次d20。该目标使用哪一个d20结果来确定豁免结果，取决于一次@Check[flat|dc:12]的结果；这是厄运效果。</p><hr /><p><strong>大成功</strong> 目标使用四次d20中的最高结果。</p><p><strong>成功</strong> 目标使用四次d20中的第二高结果。</p><p><strong>失败</strong> 目标使用四次d20中的第二低结果。</p><p><strong>大失败</strong> 目标使用四次d20中的最低结果。</p>"
+    },
+    "Blink Through": {
+      "name": "闪身穿透 Blink Through",
+      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你使自身部分脱离现实，穿过一名敌人并对其造成伤害。你行走至多等于你速度的距离，在移动过程中的任意时刻穿过一名敌人的占据空间。此移动不会触发该敌人的反应，但会触发其他敌人的反应。所选敌人受到@Damage[((ceil(@actor.level/2) -1)d6)[force]]伤害，并进行对抗你的职业DC或法术DC中较高者的@Check[reflex|against:class-spell|basic]豁免；若其反射豁免大失败，还会被击倒而@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。达到11级及此后每两级，伤害提高1d6，最高在19级时达到9d6。</p>"
+    },
+    "Phase Inside": {
+      "name": "相位穿墙 Phase Inside",
+      "description": "<p>你可以让整个身体以相位移动穿过固体物体，移动距离至多10尺，可能直接穿过墙壁、地板或天花板。如果物体的材质不是木材、灰泥或石头，厚度超过10尺，或含有哪怕一层很薄的金属，你的移动尝试便会失败。</p>"
+    },
+    "Phase Defense": {
+      "name": "相位防御 Phase Defense",
+      "description": "<p><strong>触发</strong> 一名敌人对你造成力场以外的伤害。</p><hr /><p>你被敌人击中的身体部位暂时移出相位。针对触发的伤害，你获得对力场以外所有伤害的抗力5；此抗力在10级提高至8，在14级提高至11，在18级提高至14。如果你身上有正在生效的@UUID[Compendium.pf2e.spells-srd.Item.zR67Rt3UMHKC5evy]法术，而将闪烁术提供的抗力翻倍会获得更高抗力，则改为将该抗力翻倍以对抗触发的伤害。</p>"
+    },
+    "Phase Step": {
+      "name": "相位步 Phase Step",
+      "description": "<p><strong>频率</strong> 每分钟一次</p><hr /><p>只要足够专注，你便能在眨眼间移动。你以相位移动到一个你能看见、能以行走动作抵达、且距离不超过你速度的位置；你不经过中间的空间。</p>"
+    },
+    "Wreathing Force": {
+      "name": "力场缠绕 Wreathing Force",
+      "description": "<p><strong>频率</strong> 每分钟一次</p><hr /><p>你将体内流动的能量凝聚为环绕肢体末端的危险力场。直到你的下一个回合开始，你从龙族族裔获得的每种无武装攻击都额外造成2d6力场伤害。达到14级时，力场伤害提高至3d6；达到18级时，力场伤害提高至4d6。</p>"
+    },
+    "Phase Storm": {
+      "name": "相位风暴 Phase Storm",
+      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你在120尺内创造一场范围为@Template[type:burst|distance:30]的相位能量风暴，使其中的地形和物体与现实脱节，持续1分钟。在此期间，该区域成为高等困难地形；在区域内开始回合的生物会部分陷入半实体的地面，必须尝试一次对抗你法术DC的强韧豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮。</p><p><strong>失败</strong> 该生物陷入措手不及，持续1轮，并@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，直到其回合结束。</p><p><strong>大失败</strong> 该生物陷入措手不及，持续1轮，并@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢2}，直到其回合结束。</p>"
+    },
+    "Telescopic Tail": {
+      "name": "伸缩长尾 Telescopic Tail",
+      "description": "<p>你的尾巴由可伸缩的节段构成，能够伸长来攻击目标，并可能将其摔绊。以尾巴无武装攻击对30尺内的一个目标进行近战打击（如果你的触及范围因某种原因超过20尺，则改为触及范围加10尺）。如果攻击命中并造成伤害，你随后可以尝试一次带有+2环境加值的运动检定，对同一目标进行[[/act trip]]。这两次检定都会照常应用并增加多次攻击减值。提醒：你从龙族族裔获得的尾巴无武装攻击具有摔绊特征。</p>"
+    },
+    "Dismal Cloud": {
+      "name": "阴郁之云 Dismal Cloud",
+      "description": "<p>你几乎时刻笼罩在阴郁之云中，更容易以阴郁威压环绕自身。你可以每小时使用一次@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.feats.Item.PHdrzp4Lqx383nxe]{阴郁威压}，而非每天一次。</p>"
+    },
+    "Mutating Breath": {
+      "name": "突变吐息 Mutating Breath",
+      "description": "<p>你可以将吐息变为一股令人痛苦的变化魔法。每小时一次，当你使用@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.ndBtaylDGWNDB7Cf]{龙息}时，将造成对应类型伤害的效果改为要求目标进行对抗你职业DC的@Check[fortitude|against:class]豁免。这一版本的龙息具有化形和原能特征。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 细微的变化在该生物体内外涌动，使其所有检定和DC承受–1状态减值，持续1轮，或直到其花费一个动作提前结束此效果，以先发生者为准。减值消失时，其身体特征恢复正常。</p><p><strong>失败</strong> 该生物发生明显突变。骨骼重塑、异常部位长出残肢、肉质息肉遍布身体，使其受到等于你等级的钝击伤害（@Damage[@actor.level[bludgeoning]]）。此外，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}，且其所有速度承受–10尺状态减值，直到它从恶心状态中恢复，届时其生理结构恢复正常。</p><p><strong>大失败</strong> 如同失败，但该生物的突变更加严重。该生物受到等于你等级两倍的钝击伤害（@Damage[(2*@actor.level)[bludgeoning]]）。此外，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}，且其所有速度承受–15尺状态减值，直到它从恶心状态中恢复。</p>"
+    },
+    "Perfect Anatomical Fortification": {
+      "name": "完美躯体护命 Perfect Anatomical Fortification",
+      "description": "<p>你的身体得到强化，足以抵挡敌人最凶猛的打击，突如其来的重伤更难使你失去行动能力。你获得@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.feats.Item.Ezs5SzpILQejD8p7]{躯体护命}和@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.feats.Item.QiFBMdrJsi9tPsWl]{高等躯体护命}龙族族裔专长作为额外专长（如果你已经拥有其中一个或两个专长，可以立即将它们重训为新的族裔专长）。躯体护命用于避免重击的纯骰检定DC从14降至@Check[flat|dc:11]。</p>"
+    },
+    "Misfit Magic": {
+      "name": "异类魔法 Misfit Magic",
+      "description": "<p>你借助失控的异类魔法之力，获得额外的龙法师法术。除你最高的两个龙法师法术位环阶外，你在其他每个环阶各获得一个额外的龙法师法术位。不过，这些额外法术位只能用于施放符合传承限制的法术。义体龙可用来施放具有死亡或虚能特征的法术；厄兆龙可用来施放具有侦测或预测特征的法术；形变龙可用来施放具有化形或变形特征的法术；相位龙可用来施放具有传送特征的法术；泉源龙可用来施放具有电击、火焰或力场特征的法术。经GM裁定，你也可能可以施放不具备相应特征的相关法术，例如义体龙的死亡或不死生物相关法术、厄兆龙的算命和占卜相关法术，或形变龙的物质转化与形态变化相关法术。</p>"
+    },
+    "Morphic Versatility": {
+      "name": "灵活形变 Morphic Versatility",
+      "description": "<p>你已将魔法施用于全身，恢复了大部分形变能力。因此，你能像遵循传统道路的形变龙一样，在眨眼间改变无武装攻击的基本形态。选择一种造成钝击、穿刺或挥砍伤害的龙族无武装攻击。你将它造成的伤害类型改为另外两种类型之一，直到你再次使用灵活形变来改变它。如此做时，该龙族无武装攻击的外形会变得截然不同。例如，你的爪子可能变为蟹钳、锋利的勾爪或巨大的硬头锤头。</p>"
+    },
+    "Flicker Flash": {
+      "name": "闪烁掠影 Flicker Flash",
+      "description": "<p>永恒之光仪式或许终止了你无法控制的闪烁，但你仍能在需要时重新开始。你可以每小时一次，作为奥术内在法术施放@UUID[Compendium.pf2e.spells-srd.Item.zR67Rt3UMHKC5evy]。</p>"
+    },
+    "Foul Portents": {
+      "name": "不祥预兆 Foul Portents",
+      "description": "<p>你引导挥之不去的阴郁，为他人招来不幸。你从龙法师变体获得一个额外的1环法术位，只能用于施放@UUID[Compendium.pf2e.spells-srd.Item.6ZIKB0151LUR19Rw]。当你从龙法师变体获得专家施法增益时，这个特殊的<em>凶兆</em>法术位从1环变为4环，且可以30尺内至多2个生物为目标，而非1个。当你从龙法师变体获得大师施法增益时，这个特殊的<em>凶兆</em>法术位从4环变为7环，且可以60尺内至多4个生物为目标。</p>"
+    },
+    "Instinctual Upwelling": {
+      "name": "本能魔涌 Instinctual Upwelling",
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你调用浸透全身的魔力，以120尺内任意一个自选生物为目标，刻意释放一次不受控制的@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.roll-tables.RollTable.xn3NHbHfZkL8dY4O]{狂野魔法}效果，同时尝试让结果对自己有利。在相应表格上掷骰两次，选择其中一个结果。效果的法术环阶为2；DC使用你的职业DC或法术DC中的较高者，反制调整值使用你的职业DC – 10或法术DC – 10中的较高者。达到7级及此后每两级，本能魔涌产生的狂野魔法效果的法术环阶提高1，最高在19级时达到9环。</p>"
+    },
+    "Greater Anatomical Fortification": {
+      "name": "高等躯体护命 Greater Anatomical Fortification",
+      "description": "<p>你几乎已经成了一台完整的机器。使用@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.feats.Item.Ezs5SzpILQejD8p7]{躯体护命}将重击变为普通命中所需的纯骰检定DC降至@Check[flat|dc:14]。</p>"
+    },
+    "Bionic Eye": {
+      "name": "义体之眼 Bionic Eye",
+      "description": "<p>你的一只眼睛腐烂后，你在眼窝中安装了魔法感应器来增强视觉，使你能看见他人无法察觉的事物。你永久获得@UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]法术的效果。</p>"
+    },
+    "Misery Loves Company": {
+      "name": "悲苦相伴 Misery Loves Company",
+      "description": "<p>你一贯的宿命论态度让他人更难改变你的情绪，而一旦情绪发生变化，阴郁的灵光便会环绕你。你对抗情绪效果的豁免获得+1环境加值。你获得@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.actions.Item.f7HtrPZMExTa1LtG]{共感悲苦}反应。</p>"
+    },
+    "Total Pandemonium": {
+      "name": "无尽狂乱 Total Pandemonium",
+      "description": "<p>你积蓄了大量狂野魔法，因此能比其他永恒泉源龙更频繁地释放狂乱力量。你可以每小时使用一次@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.feats.Item.iLgAiDV0kQy4yC8n]{狂乱灵光}，而非每天一次。</p>"
+    },
+    "Foretell Disaster": {
+      "name": "预知灾厄 Foretell Disaster",
+      "description": "<p>你花费10分钟梳理所有能看见的可能未来，判断某项行动是否注定失败。你获得@UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]的效果，但只能获知前方的危险；所有“吉兆”结果改为“无兆”，“吉凶参半”结果改为“凶兆”。如果得到“无兆”结果，这份相对而言的好消息会鼓舞你，使你获得等于你等级的临时HP，持续10分钟。</p>"
+    },
+    "Kinetic Spell": {
+      "name": "推斥法术 Kinetic Spell",
+      "description": "<p>稍加专注，你便能集中体内的相位魔法，将法术目标推开。如果你的下一个动作是施放需要法术攻击检定的法术，则除了法术的正常效果外，命中时你还会将目标推开至多10尺。重击时，你将目标推开至多20尺。这是强制移动。</p>"
+    },
+    "Metamorphic Turnabout": {
+      "name": "形变反制 Metamorphic Turnabout",
+      "description": "<p>对自身形态的了解，使你知道如何利用它打击其他形态可变的生物。对抗当前受到化形或变形效果影响的生物时，你从龙族族裔获得的无武装攻击的伤害掷骰获得环境加值，数值等于武器伤害骰数量；对抗具有变身能力的生物时，该加值翻倍。</p>"
+    },
+    "Surging Breath": {
+      "name": "狂涌吐息 Surging Breath",
+      "description": "<p>你可以将吐息变为一团混乱的@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.roll-tables.RollTable.xn3NHbHfZkL8dY4O]{狂野魔法}。每小时一次，当你使用龙息时，可以将造成火焰伤害的效果改为对吐息区域内每个生物各产生一种不同的狂野魔法效果，并作如下调整。为每个生物单独掷一个d100，并不断重掷，直到表格结果为偶数（表格中的偶数结果影响目标，不影响施法者）。通常具有区域、可能影响多个生物的效果（例如掷出28时的@UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]）只影响目标，或使其爆发、弥散区域仅包含目标占据的空间。法术环阶等于你等级的一半，向上取整。如果你的职业DC更高，则使用职业DC代替法术DC来计算狂野魔法效果的DC和反制调整值。</p>"
+    },
+    "Focused Modulation": {
+      "name": "凝神调控 Focused Modulation",
+      "description": "<p>凭借永恒之光仪式的力量，你对不断变化的身体获得了一定控制。当你的对应伤害类型和吐息形状随机改变时，你可以掷骰两次并选择其中一个结果。此外，每天一次，你可以进行长达一小时的仪式，使对应伤害类型和吐息形状随机改变。</p>"
+    },
+    "Necrotic Biology": {
+      "name": "坏死生理 Necrotic Biology",
+      "description": "<p>成为永恒龙阻止了体内的坏死腐烂，但你选择让部分区域继续腐烂，以保护自己免受命能和虚能的伤害。你获得虚能治疗，意味着能够治疗不死生物的虚能效果会治疗你，而能伤害不死生物的命能效果会伤害你。你还获得等于你等级一半的命能抗力（最低1）。</p>"
+    },
+    "Aeternal Innovator": {
+      "name": "永恒革新者 Aeternal Innovator",
+      "description": "<p>你不断发明奇异的新装置与物质。你获得@UUID[Compendium.pf2e.feats-srd.Item.CJMkxlxHiHZQYDCz]{炼金术士入门}或@UUID[Compendium.pf2e.feats-srd.Item.JIpjpZ8VneQomkZw]{发明家入门}专长，即使你通常需要先取得更多当前变体的专长才能选择另一个入门专长也不受影响。你无需满足该专长的属性调整值先决条件。如果用来获得发明家入门，本专长为罕见。</p>"
+    }
+  },
+  "folders": {
+    "Level 18": "18级 Level 18",
+    "Dragon Ancestry Feats": "龙族族裔专长 Dragon Ancestry Feats",
+    "Level 5": "5级 Level 5",
+    "Level 20": "20级 Level 20",
+    "Level 14": "14级 Level 14",
+    "Level 16": "16级 Level 16",
+    "Level 10": "10级 Level 10",
+    "Level 4": "4级 Level 4",
+    "Level 1": "1级 Level 1",
+    "Level 6": "6级 Level 6",
+    "Level 13": "13级 Level 13",
+    "Level 8": "8级 Level 8",
+    "Level 17": "17级 Level 17",
+    "Dragon Mage Feats": "龙法师专长 Dragon Mage Feats",
+    "Level 9": "9级 Level 9",
+    "Level 2": "2级 Level 2",
+    "Level 12": "12级 Level 12",
+    "Draconic Ravager Feats": "龙族蹂躏者专长 Draconic Ravager Feats"
+  }
+}

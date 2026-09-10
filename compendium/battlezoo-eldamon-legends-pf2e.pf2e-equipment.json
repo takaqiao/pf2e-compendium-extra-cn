@@ -1,0 +1,89 @@
+{
+  "label": "装备",
+  "entries": {
+    "Flamecrystal Nexus (Supreme)": {
+      "name": "焰晶纽带（至高） Flamecrystal Nexus (Supreme)",
+      "description": "<p>这枚由永恒火焰的余烬凝成的晶体垂挂在一条长链上，链身镶嵌着较小的红色宝石。若你是爱达梦训练家，当你绑定这条纽带时，你的爱达梦的威能攻击检定获得+3物品加值。</p><p>只要你已准备的爱达梦中有至少1只火爱达梦，你的火爱达梦造成的所有持续火焰伤害就获得+3物品加值。每次相位移入后，你的非火爱达梦第一次使用没有持续时间的伤害威能时，会附加1点持续火焰伤害。</p><p>若你已准备的爱达梦中有至少两只火爱达梦，你的非火爱达梦第一次使用没有持续时间的伤害威能时，会改为附加1d4点持续火焰伤害，而非1点；你的火爱达梦则获得元素化身职业的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.ceLBJbIGankbSsSH]{虹吸元素}动作。</p><p>若你已准备的爱达梦中有至少三只火爱达梦，你的非火爱达梦在第一次使用没有持续时间的伤害威能时，附加的持续火焰伤害从1d4提升至1d6，并获得火焰抗力15；你的火爱达梦则获得元素化身同名专长的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.3rTIjctViLuy2SOw]{强压元素}动作。</p><p>当你绑定这条纽带时，你的魅力调整值提升1，或提升至+4，取结果较高者；若你是以智力为关键属性的爱达梦研究者，你可以改为使智力获得这些益处。若你已准备的爱达梦中有至少四只火爱达梦，你的非火爱达梦在第一次使用没有持续时间的伤害威能时，附加的持续火焰伤害从1d6提升至1d10；你的火爱达梦则获得元素化身同名专长的涌动元素动作。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.vonpTaFGuVv5JMiY]{效果：焰晶纽带}</p><hr /><p><em>虚拟桌面注：若你是以智力为关键属性的爱达梦研究者，可以前往本物品的详情选项卡，相应调整其巅峰属性。</em></p>"
+    },
+    "Tsunami Scepter (Lesser)": {
+      "name": "海啸权杖（次等） Tsunami Scepter (Lesser)",
+      "description": "<p>这根细长的权杖由珊瑚构成，周围的缕缕水流如蛇一般沿杖身缠绕。使用水元素威能时，权杖使你的威能攻击检定获得+1物品加值。</p>"
+    },
+    "Tsunami Scepter (Standard)": {
+      "name": "海啸权杖（标准） Tsunami Scepter (Standard)",
+      "description": "<p>这根细长的权杖由珊瑚构成，周围的缕缕水流如蛇一般沿杖身缠绕。使用水元素威能时，权杖使你的威能攻击检定获得+1物品加值。</p><p>使用水威能时，你会根据该威能的潮汐获得一项益处：高潮时，伤害获得+2物品加值；低潮时，AC获得+1状态加值，持续1轮。你可以启动权杖来施放@UUID[Compendium.pf2e.spells-srd.Item.eSL5hVT9gXrnRLtd]{喷水术}戏法，使用你的威能攻击调整值（包括权杖提供的加值）代替法术攻击调整值；若你还拥有<em>《战斗动物园：爱达梦》</em>中的强化法术专长，你使用权杖的<em>喷水术</em>戏法进行的伤害掷骰还会加上权杖的物品加值。</p>"
+    },
+    "Flamecrystal Nexus (Major)": {
+      "name": "焰晶纽带（上等） Flamecrystal Nexus (Major)",
+      "description": "<p>这枚由永恒火焰的余烬凝成的晶体垂挂在一条长链上，链身镶嵌着较小的红色宝石。若你是爱达梦训练家，当你绑定这条纽带时，你的爱达梦的威能攻击检定获得+3物品加值。</p><p>只要你已准备的爱达梦中有至少1只火爱达梦，你的火爱达梦造成的所有持续火焰伤害就获得+3物品加值。每次相位移入后，你的非火爱达梦第一次使用没有持续时间的伤害威能时，会附加1点持续火焰伤害。</p><p>若你已准备的爱达梦中有至少两只火爱达梦，你的非火爱达梦第一次使用没有持续时间的伤害威能时，会改为附加1d4点持续火焰伤害，而非1点；你的火爱达梦则获得元素化身职业的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.ceLBJbIGankbSsSH]{虹吸元素}动作。</p><p>若你已准备的爱达梦中有至少三只火爱达梦，你的非火爱达梦在第一次使用没有持续时间的伤害威能时，附加的持续火焰伤害从1d4提升至1d6，并获得火焰抗力15；你的火爱达梦则获得元素化身同名专长的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.3rTIjctViLuy2SOw]{强压元素}动作。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.vonpTaFGuVv5JMiY]{效果：焰晶纽带}</p>"
+    },
+    "Tsunami Scepter (Major)": {
+      "name": "海啸权杖（上等） Tsunami Scepter (Major)",
+      "description": "<p>这根细长的权杖由珊瑚构成，周围的缕缕水流如蛇一般沿杖身缠绕。使用水元素威能时，权杖使你的威能攻击检定获得+3物品加值。</p><p>使用水威能时，你会根据该威能的潮汐获得一项益处：高潮时，伤害获得+4物品加值；低潮时，AC获得+1状态加值，持续1轮。你可以启动权杖来施放@UUID[Compendium.pf2e.spells-srd.Item.eSL5hVT9gXrnRLtd]{喷水术}戏法，使用你的威能攻击调整值（包括权杖提供的加值）代替法术攻击调整值；若你还拥有<em>《战斗动物园：爱达梦》</em>中的强化法术专长，你使用权杖的<em>喷水术</em>戏法进行的伤害掷骰还会加上权杖的物品加值。</p><p>你可以选择平息潮汐，使用水威能而不应用高潮或低潮的效果。若如此做，你不切换潮汐。</p><p>每天一次，你可以用一个具有专注和操作特征的自由动作启动权杖，在高潮和低潮之间切换。</p>"
+    },
+    "Tsunami Scepter (Greater)": {
+      "name": "海啸权杖（高等） Tsunami Scepter (Greater)",
+      "description": "<p>这根细长的权杖由珊瑚构成，周围的缕缕水流如蛇一般沿杖身缠绕。使用水元素威能时，权杖使你的威能攻击检定获得+2物品加值。</p><p>使用水威能时，你会根据该威能的潮汐获得一项益处：高潮时，伤害获得+3物品加值；低潮时，AC获得+1状态加值，持续1轮。你可以启动权杖来施放@UUID[Compendium.pf2e.spells-srd.Item.eSL5hVT9gXrnRLtd]{喷水术}戏法，使用你的威能攻击调整值（包括权杖提供的加值）代替法术攻击调整值；若你还拥有<em>《战斗动物园：爱达梦》</em>中的强化法术专长，你使用权杖的<em>喷水术</em>戏法进行的伤害掷骰还会加上权杖的物品加值。</p><p>你可以选择平息潮汐，使用水威能而不应用高潮或低潮的效果。若如此做，你不切换潮汐。</p>"
+    },
+    "Tsunami Scepter (Supreme)": {
+      "name": "海啸权杖（至高） Tsunami Scepter (Supreme)",
+      "description": "<p>这根细长的权杖由珊瑚构成，周围的缕缕水流如蛇一般沿杖身缠绕。使用水元素威能时，权杖使你的威能攻击检定获得+3物品加值。</p><p>使用水威能时，你会根据该威能的潮汐获得一项益处：高潮时，伤害获得+4物品加值；低潮时，AC获得+1状态加值，持续1轮。你可以启动权杖来施放喷水术戏法，使用你的威能攻击调整值（包括权杖提供的加值）代替法术攻击调整值；若你还拥有<em>《战斗动物园：爱达梦》</em>中的强化法术专长，你使用权杖的喷水术戏法进行的伤害掷骰还会加上权杖的物品加值。</p><p>你可以选择平息潮汐，使用水威能而不应用高潮或低潮的效果。若如此做，你不切换潮汐。</p><p>每天一次，你可以用一个具有专注和操作特征的自由动作启动权杖，在高潮和低潮之间切换。</p><p>当你绑定权杖时，你的感知调整值提升1，或提升至+4，取结果较高者。使用水威能使一个生物移动至少10尺时（进行任何调整前），你可以使其沿同一方向额外移动5尺；若你使其移动至少20尺（调整前），则可以改为使其沿同一方向额外移动10尺。</p>"
+    },
+    "Evermarine Nexus (Supreme)": {
+      "name": "恒海纽带（至高） Evermarine Nexus (Supreme)",
+      "description": "<p>这枚由活水构成、不断变幻的仿宝石垂挂在一条长链上，随无形的潮汐变动，却始终凝聚不散。若你是爱达梦训练家，当你绑定这条纽带时，你的爱达梦的威能攻击检定获得+3物品加值。</p><p>只要你已准备的爱达梦中有至少1只水爱达梦，你的水爱达梦使用水威能时就会根据该威能的潮汐获得一项益处：高潮时，伤害获得+4物品加值；低潮时，AC获得+1状态加值，持续1轮。你可以在非水爱达梦相位移入时，暂时用水流包裹它们，并选择高潮或低潮来改变它们的第一个威能。若选择高潮，它们相位移入后的第一个威能伤害获得+2物品加值，且在攻击检定大成功或目标豁免大失败时，将敌人向远离它们的方向推动5尺，但使用该威能后它们会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}1轮。若选择低潮，它们使用该威能后AC获得+1状态加值，持续1轮，并在攻击检定大成功或目标豁免大失败时，将敌人向自身拉近5尺。</p><p>若你已准备的爱达梦中有至少两只水爱达梦，你的非水爱达梦的高潮伤害加值还会提升至+3；你的水爱达梦则获得元素化身职业的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.ceLBJbIGankbSsSH]{虹吸元素}动作。</p><p>若你已准备的爱达梦中有至少三只水爱达梦，你的非水爱达梦的高潮伤害加值还会提升至+4，并获得水抗力15；你的水爱达梦则获得元素化身同名专长的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.3rTIjctViLuy2SOw]{强压元素}动作。</p><p>当你绑定这条纽带时，你的魅力调整值提升1，或提升至+4，取结果较高者；若你是以智力为关键属性的爱达梦研究者，你可以改为使智力获得这些益处。若你已准备的爱达梦中有至少四只水爱达梦，你的非水爱达梦的高潮伤害加值提升至+5；你的水爱达梦则获得元素化身同名专长的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.Wz1GI7VJ8clmkN8f]{涌动元素}动作。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.6YZGOhvLhlcdVkNd]{效果：恒海纽带}</p><hr /><p><em>虚拟桌面注：若你是以智力为关键属性的爱达梦研究者，可以前往本物品的详情选项卡，相应调整其巅峰属性。</em></p>"
+    },
+    "Evermarine Nexus (Greater)": {
+      "name": "恒海纽带（高等） Evermarine Nexus (Greater)",
+      "description": "<p>这枚由活水构成、不断变幻的仿宝石垂挂在一条长链上，随无形的潮汐变动，却始终凝聚不散。若你是爱达梦训练家，当你绑定这条纽带时，你的爱达梦的威能攻击检定获得+2物品加值。</p><p>只要你已准备的爱达梦中有至少1只水爱达梦，你的水爱达梦使用水威能时就会根据该威能的潮汐获得一项益处：高潮时，伤害获得+3物品加值；低潮时，AC获得+1状态加值，持续1轮。你可以在非水爱达梦相位移入时，暂时用水流包裹它们，并选择高潮或低潮来改变它们的第一个威能。若选择高潮，它们相位移入后的第一个威能伤害获得+2物品加值，且在攻击检定大成功或目标豁免大失败时，将敌人向远离它们的方向推动5尺，但使用该威能后它们会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}1轮。若选择低潮，它们使用该威能后AC获得+1状态加值，持续1轮，并在攻击检定大成功或目标豁免大失败时，将敌人向自身拉近5尺。</p><p>若你已准备的爱达梦中有至少两只水爱达梦，你的非水爱达梦的高潮伤害加值还会提升至+3；你的水爱达梦则获得元素化身职业的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.ceLBJbIGankbSsSH]{虹吸元素}动作。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.6YZGOhvLhlcdVkNd]{效果：恒海纽带}</p>"
+    },
+    "Evermarine Nexus (Standard)": {
+      "name": "恒海纽带（标准） Evermarine Nexus (Standard)",
+      "description": "<p>这枚由活水构成、不断变幻的仿宝石垂挂在一条长链上，随无形的潮汐变动，却始终凝聚不散。若你是爱达梦训练家，当你绑定这条纽带时，你的爱达梦的威能攻击检定获得+1物品加值。</p><p>只要你已准备的爱达梦中有至少1只水爱达梦，你的水爱达梦使用水威能时就会根据该威能的潮汐获得一项益处：高潮时，伤害获得+2物品加值；低潮时，AC获得+1状态加值，持续1轮。你可以在非水爱达梦相位移入时，暂时用水流包裹它们，并选择高潮或低潮来改变它们的第一个威能。若选择高潮，它们相位移入后的第一个威能伤害获得+2物品加值，且在攻击检定大成功或目标豁免大失败时，将敌人向远离它们的方向推动5尺，但使用该威能后它们会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}1轮。若选择低潮，它们使用该威能后AC获得+1状态加值，持续1轮，并在攻击检定大成功或目标豁免大失败时，将敌人向自身拉近5尺。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.6YZGOhvLhlcdVkNd]{效果：恒海纽带}</p>"
+    },
+    "Inferno Scepter (Major)": {
+      "name": "烈焰权杖（上等） Inferno Scepter (Major)",
+      "description": "<p>这根细长的权杖由活焰构成，火焰盘绕闪烁，宛如一条火蛇，却不知为何不会烧灼周围的事物。使用火元素威能时，权杖使你的威能攻击检定获得+3物品加值。</p><p>你造成的所有持续火焰伤害获得+3物品加值。你可以启动权杖来施放@UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{引火术}戏法，使用你的威能攻击调整值（包括权杖提供的加值）代替法术攻击调整值；若你还拥有<em>《战斗动物园：爱达梦》</em>中的强化法术专长，你使用权杖的<em>引火术</em>戏法进行的伤害掷骰还会加上权杖的物品加值。</p><p>当你的元素威能使一个敌人受到持续火焰伤害时，你可以使自己受到等量的持续火焰伤害。在你以此方式承受持续火焰伤害期间，用非长触及近战武器攻击或近战无武装攻击命中你的生物会受到等量伤害。</p><p>在一个敌人的回合结束时，当其受到你的某个火元素威能造成的持续火焰伤害时，若该敌人具有火焰抗力，无论抗力是否将该持续火焰伤害降低至0，你的火威能都会烧蚀其部分抗力，使其火焰抗力降低2，持续1分钟。此减损可以累积；若其持续燃烧整整一分钟，最多可降低20。</p>"
+    },
+    "Flamecrystal Nexus (Greater)": {
+      "name": "焰晶纽带（高等） Flamecrystal Nexus (Greater)",
+      "description": "<p>这枚由永恒火焰的余烬凝成的晶体垂挂在一条长链上，链身镶嵌着较小的红色宝石。若你是爱达梦训练家，当你绑定这条纽带时，你的爱达梦的威能攻击检定获得+2物品加值。</p><p>只要你已准备的爱达梦中有至少1只火爱达梦，你的火爱达梦造成的所有持续火焰伤害就获得+2物品加值。每次相位移入后，你的非火爱达梦第一次使用没有持续时间的伤害威能时，会附加1点持续火焰伤害。</p><p>若你已准备的爱达梦中有至少两只火爱达梦，你的非火爱达梦第一次使用没有持续时间的伤害威能时，会改为附加1d4点持续火焰伤害，而非1点；你的火爱达梦则获得元素化身职业的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.ceLBJbIGankbSsSH]{虹吸元素}动作。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.vonpTaFGuVv5JMiY]{效果：焰晶纽带}</p>"
+    },
+    "Inferno Scepter (Greater)": {
+      "name": "烈焰权杖（高等） Inferno Scepter (Greater)",
+      "description": "<p>这根细长的权杖由活焰构成，火焰盘绕闪烁，宛如一条火蛇，却不知为何不会烧灼周围的事物。使用火元素威能时，权杖使你的威能攻击检定获得+2物品加值。</p><p>你造成的所有持续火焰伤害获得+2物品加值。你可以启动权杖来施放@UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{引火术}戏法，使用你的威能攻击调整值（包括权杖提供的加值）代替法术攻击调整值；若你还拥有<em>《战斗动物园：爱达梦》</em>中的强化法术专长，你使用权杖的<em>引火术</em>戏法进行的伤害掷骰还会加上权杖的物品加值。</p><p>当你的元素威能使一个敌人受到持续火焰伤害时，你可以使自己受到等量的持续火焰伤害。在你以此方式承受持续火焰伤害期间，用非长触及近战武器攻击或近战无武装攻击命中你的生物会受到等量伤害。</p>"
+    },
+    "Inferno Scepter (Standard)": {
+      "name": "烈焰权杖（标准） Inferno Scepter (Standard)",
+      "description": "<p>这根细长的权杖由活焰构成，火焰盘绕闪烁，宛如一条火蛇，却不知为何不会烧灼周围的事物。使用火元素威能时，权杖使你的威能攻击检定获得+1物品加值。</p><p>你造成的所有持续火焰伤害获得+1物品加值。你可以启动权杖来施放@UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{引火术}戏法，使用你的威能攻击调整值（包括权杖提供的加值）代替法术攻击调整值；若你还拥有<em>《战斗动物园：爱达梦》</em>中的强化法术专长，你使用权杖的<em>引火术</em>戏法进行的伤害掷骰还会加上权杖的物品加值。</p>"
+    },
+    "Inferno Scepter (Supreme)": {
+      "name": "烈焰权杖（至高） Inferno Scepter (Supreme)",
+      "description": "<p>这根细长的权杖由活焰构成，火焰盘绕闪烁，宛如一条火蛇，却不知为何不会烧灼周围的事物。使用火元素威能时，权杖使你的威能攻击检定获得+3物品加值。</p><p>你造成的所有持续火焰伤害获得+3物品加值。你可以启动权杖来施放@UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{引火术}戏法，使用你的威能攻击调整值（包括权杖提供的加值）代替法术攻击调整值；若你还拥有<em>《战斗动物园：爱达梦》</em>中的强化法术专长，你使用权杖的<em>引火术</em>戏法进行的伤害掷骰还会加上权杖的物品加值。</p><p>当你的元素威能使一个敌人受到持续火焰伤害时，你可以使自己受到等量的持续火焰伤害。在你以此方式承受持续火焰伤害期间，用非长触及近战武器攻击或近战无武装攻击命中你的生物会受到等量伤害。</p><p>在一个敌人的回合结束时，当其受到你的某个火元素威能造成的持续火焰伤害时，若该敌人具有火焰抗力，无论抗力是否将该持续火焰伤害降低至0，你的火威能都会烧蚀其部分抗力，使其火焰抗力降低2，持续1分钟。此减损可以累积；若其持续燃烧整整一分钟，最多可降低20。</p><p>当你绑定权杖时，你的感知调整值提升1，或提升至+4，取结果较高者。在一个敌人的回合结束时，当其受到你的某个火元素威能造成的持续火焰伤害时，与该敌人相邻的所有敌人也会被点燃，受到等量的持续火焰伤害。</p>"
+    },
+    "Flamecrystal Nexus (Standard)": {
+      "name": "焰晶纽带（标准） Flamecrystal Nexus (Standard)",
+      "description": "<p>这枚由永恒火焰的余烬凝成的晶体垂挂在一条长链上，链身镶嵌着较小的红色宝石。若你是爱达梦训练家，当你绑定这条纽带时，你的爱达梦的威能攻击检定获得+1物品加值。</p><p>只要你已准备的爱达梦中有至少1只火爱达梦，你的火爱达梦造成的所有持续火焰伤害就获得+1物品加值。每次相位移入后，你的非火爱达梦第一次使用没有持续时间的伤害威能时，会附加1点持续火焰伤害。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.vonpTaFGuVv5JMiY]{效果：焰晶纽带}</p>"
+    },
+    "Evermarine Nexus (Lesser)": {
+      "name": "恒海纽带（次等） Evermarine Nexus (Lesser)",
+      "description": "<p>这枚由活水构成、不断变幻的仿宝石垂挂在一条长链上，随无形的潮汐变动，却始终凝聚不散。若你是爱达梦训练家，当你绑定这条纽带时，你的爱达梦的威能攻击检定获得+1物品加值。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.6YZGOhvLhlcdVkNd]{效果：恒海纽带}</p>"
+    },
+    "Inferno Scepter (Lesser)": {
+      "name": "烈焰权杖（次等） Inferno Scepter (Lesser)",
+      "description": "<p>这根细长的权杖由活焰构成，火焰盘绕闪烁，宛如一条火蛇，却不知为何不会烧灼周围的事物。使用火元素威能时，权杖使你的威能攻击检定获得+1物品加值。</p>"
+    },
+    "Evermarine Nexus (Major)": {
+      "name": "恒海纽带（上等） Evermarine Nexus (Major)",
+      "description": "<p>这枚由活水构成、不断变幻的仿宝石垂挂在一条长链上，随无形的潮汐变动，却始终凝聚不散。若你是爱达梦训练家，当你绑定这条纽带时，你的爱达梦的威能攻击检定获得+3物品加值。</p><p>只要你已准备的爱达梦中有至少1只水爱达梦，你的水爱达梦使用水威能时就会根据该威能的潮汐获得一项益处：高潮时，伤害获得+4物品加值；低潮时，AC获得+1状态加值，持续1轮。你可以在非水爱达梦相位移入时，暂时用水流包裹它们，并选择高潮或低潮来改变它们的第一个威能。若选择高潮，它们相位移入后的第一个威能伤害获得+2物品加值，且在攻击检定大成功或目标豁免大失败时，将敌人向远离它们的方向推动5尺，但使用该威能后它们会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}1轮。若选择低潮，它们使用该威能后AC获得+1状态加值，持续1轮，并在攻击检定大成功或目标豁免大失败时，将敌人向自身拉近5尺。</p><p>若你已准备的爱达梦中有至少两只水爱达梦，你的非水爱达梦的高潮伤害加值还会提升至+3；你的水爱达梦则获得元素化身职业的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.ceLBJbIGankbSsSH]{虹吸元素}动作。</p><p>若你已准备的爱达梦中有至少三只水爱达梦，你的非水爱达梦的高潮伤害加值还会提升至+4，并获得水抗力15；你的水爱达梦则获得元素化身同名专长的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.3rTIjctViLuy2SOw]{强压元素}动作。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.6YZGOhvLhlcdVkNd]{效果：恒海纽带}</p>"
+    },
+    "Flamecrystal Nexus (Lesser)": {
+      "name": "焰晶纽带（次等） Flamecrystal Nexus (Lesser)",
+      "description": "<p>这枚由永恒火焰的余烬凝成的晶体垂挂在一条长链上，链身镶嵌着较小的红色宝石。若你是爱达梦训练家，当你绑定这条纽带时，你的爱达梦的威能攻击检定获得+1物品加值。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.vonpTaFGuVv5JMiY]{效果：焰晶纽带}</p>"
+    }
+  },
+  "folders": {
+    "Implements of Water": "水之器具 Implements of Water",
+    "Implements of Fire": "火之器具 Implements of Fire"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "动作",
+  "entries": {
+    "Share Misery": {
+      "name": "共感悲苦 Share Misery",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><p><strong>触发</strong> 你陷入@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]或@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]状态</p><hr /><p><strong>效果</strong> 你忧郁的精神状态侵入20尺内敌人的心灵。区域内的每个敌人必须尝试一次@Check[will|against:class-spell]豁免，对抗你的职业DC或法术DC，以较高者为准。</p><p><strong>成功</strong> 目标不受影响。</p><p><strong>失败</strong> 目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}。</p><p><strong>大失败</strong> 目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}。</p>"
+    }
+  }
+}

@@ -1,306 +1,712 @@
 {
-  "label": "Eldamon 掷骰表\nEldamon Roll Tables",
-  "folders": {},
+  "label": "爱达梦掷骰表",
   "entries": {
     "Table 2b: Finding an Eldamon in the Presence of an Element (Standard)": {
-      "name": "表2b：在元素存在时找到一只艾达蒙（标准） Table 2b: Finding an Eldamon in the Presence of an Element (Standard)",
-      "description": "",
+      "name": "表2b：在有元素存在的环境中寻找爱达梦（标准） Table 2b: Finding an Eldamon in the Presence of an Element (Standard)",
       "results": {
-        "1-70": "No eldamon",
-        "71-80": "Random eldamon element (Roll on Table 3)",
-        "81-100": "Eldamon related to the element"
+        "T4oknrI0RK5y9ugA": {
+          "description": "与该元素相关的爱达梦"
+        },
+        "b2CC4PYvUi8G0WAV": {
+          "description": "没有爱达梦"
+        },
+        "rLnQd3iEgmtRECr1": {
+          "description": "随机元素的爱达梦（在表3上掷骰）"
+        }
       }
     },
     "Table 8: Eldamon Personality Quirk": {
-      "name": "表8：艾达蒙个性怪癖 Table 8: Eldamon Personality Quirk",
-      "description": "",
+      "name": "表8：爱达梦性格怪癖 Table 8: Eldamon Personality Quirk",
       "results": {
-        "1-20": "No Quirk",
-        "21-21": "Apologetic",
-        "22-22": "Anxious",
-        "23-23": "Archaic",
-        "24-24": "Arrogant",
-        "25-25": "Bizarre",
-        "26-26": "Capricious",
-        "27-27": "Childish",
-        "28-28": "Contrary",
-        "29-29": "Courageous",
-        "30-30": "Cowardly",
-        "31-31": "Creative",
-        "32-32": "Curious",
-        "33-33": "Cynical",
-        "34-34": "Deceptive",
-        "35-35": "Delicate",
-        "36-36": "Dependable",
-        "37-37": "Determined",
-        "38-38": "Disrespectful",
-        "39-39": "Distractible",
-        "40-40": "Domineering",
-        "41-41": "Edgy",
-        "42-42": "Emotive",
-        "43-43": "Energetic",
-        "44-44": "Enigmatic",
-        "45-45": "Flashy",
-        "46-46": "Focused",
-        "47-47": "Forgetful",
-        "48-48": "Friendly",
-        "49-49": "Gossipy",
-        "50-50": "Greedy",
-        "51-51": "Honest",
-        "52-52": "Idealistic",
-        "53-53": "Impatient",
-        "54-54": "Impassive",
-        "55-55": "Indecisive",
-        "56-56": "Irascible",
-        "57-57": "Jealous",
-        "58-58": "Jocular",
-        "59-59": "Lazy",
-        "60-60": "Logical",
-        "61-61": "Loving",
-        "62-62": "Manipulative",
-        "63-63": "Meddlesome",
-        "64-64": "Moody",
-        "65-65": "Motivated",
-        "66-66": "Naive",
-        "67-67": "Old-Fashioned",
-        "68-68": "Outgoing",
-        "69-69": "Passive Aggressive",
-        "70-70": "Patient",
-        "71-71": "Pedantic",
-        "72-72": "Playful",
-        "73-73": "Pretentious",
-        "74-74": "Prim",
-        "75-75": "Quarrelsome",
-        "76-76": "Rambling",
-        "77-77": "Respectful",
-        "78-78": "Responsible",
-        "79-79": "Sagacious",
-        "80-80": "Sanctimonious",
-        "81-81": "Secretive",
-        "82-82": "Selfless",
-        "83-83": "Serious",
-        "84-84": "Shy",
-        "85-85": "Sloppy",
-        "86-86": "Slumbering",
-        "87-87": "Sly",
-        "88-88": "Spooky",
-        "89-89": "Standoffish",
-        "90-90": "Stubborn",
-        "91-91": "Subservient",
-        "92-92": "Sulky",
-        "93-93": "Superficial",
-        "94-94": "Suspicious",
-        "95-95": "Taciturn",
-        "96-96": "Treacherous",
-        "97-97": "Trendy",
-        "98-98": "Trusting",
-        "99-99": "Vulnerable",
-        "100-100": "Wishful"
+        "2ArdEZjLFk73pyfM": {
+          "description": "诙谐"
+        },
+        "2a7lJCpII0CUN9Ns": {
+          "description": "消极挑衅"
+        },
+        "3h9RjfFfPVgSUtqx": {
+          "description": "冷淡疏远"
+        },
+        "4JcqMAOJ9Z1BSA8A": {
+          "description": "装腔作势"
+        },
+        "5KizB9bapYlkJIhF": {
+          "description": "急躁"
+        },
+        "5WRN31siFyYGziPQ": {
+          "description": "专注"
+        },
+        "5pGxXuB1Ulo7Gvz8": {
+          "description": "恭敬"
+        },
+        "5wgZPofv5zcCQEmG": {
+          "description": "傲慢"
+        },
+        "6vEF0hiYuwgp8KfQ": {
+          "description": "歉意十足"
+        },
+        "7fmLzzEUcjzhoGqA": {
+          "description": "固执"
+        },
+        "8NDk9GNHxqjSRl4b": {
+          "description": "容易分心"
+        },
+        "8brrxnm54VXXsc0z": {
+          "description": "善于欺骗"
+        },
+        "9Qvj4GhQenOwtRhW": {
+          "description": "理想主义"
+        },
+        "BxB0yBwGIW4apQ21": {
+          "description": "不动声色"
+        },
+        "C602XTan3HIOJU0A": {
+          "description": "闷闷不乐"
+        },
+        "CwwrDwFLDnXK4tH7": {
+          "description": "易怒"
+        },
+        "DTFK8vcvpVNDIa8B": {
+          "description": "沉默寡言"
+        },
+        "Ept4mrvyWJX0XKGy": {
+          "description": "健忘"
+        },
+        "EzJAjTw7PvOGB1Dr": {
+          "description": "贪婪"
+        },
+        "F2xU3AoEoDThdjEB": {
+          "description": "背信弃义"
+        },
+        "Fy7Xo92s1rZQAVJP": {
+          "description": "无怪癖"
+        },
+        "GF1OhAYh9esu8fHL": {
+          "description": "天真"
+        },
+        "GGwS0yzFO6C1XDtN": {
+          "description": "愤世嫉俗"
+        },
+        "GSKy5QXxSodsTdpS": {
+          "description": "娇弱"
+        },
+        "GY6JYtMAY1dHnRzw": {
+          "description": "古怪"
+        },
+        "GvZ1qLT7CoCVwS2E": {
+          "description": "好争吵"
+        },
+        "H9CLdMABZZlnUgLA": {
+          "description": "坚定"
+        },
+        "IhvWMZA7pZX6ry7v": {
+          "description": "爱管闲事"
+        },
+        "J3wZOwFA9W9lvlkf": {
+          "description": "睿智"
+        },
+        "JI1HdA0572u2A2y5": {
+          "description": "懒惰"
+        },
+        "KrXN3L8H0g1jcbdU": {
+          "description": "专横"
+        },
+        "Kwwp3yzvuxftPf5T": {
+          "description": "狡黠"
+        },
+        "L67HW9Y3XtVCAMI3": {
+          "description": "精力充沛"
+        },
+        "LR5BZBx5hpWNeyf9": {
+          "description": "外向"
+        },
+        "NXjkBlKD3YqlXWIz": {
+          "description": "严肃"
+        },
+        "NcqVeMrlKIWEW0N3": {
+          "description": "拘谨"
+        },
+        "P0uXI3N1hVufb7t7": {
+          "description": "友善"
+        },
+        "Q1WpoYewQiFT6sBJ": {
+          "description": "富有创意"
+        },
+        "R8GQzbxXnjpJh1Zf": {
+          "description": "充满爱意"
+        },
+        "SGnH6eWIoqUlzdo1": {
+          "description": "紧张易躁"
+        },
+        "TeHI98Nc0nMQiFNx": {
+          "description": "情感外露"
+        },
+        "UDVBYCxw4rBsIE02": {
+          "description": "多疑"
+        },
+        "UL6Ivq3ZCwglH1pn": {
+          "description": "守旧"
+        },
+        "Utp1hz5QDcRs6tMm": {
+          "description": "迂腐"
+        },
+        "YZdrzRBz540tkG0s": {
+          "description": "胆怯"
+        },
+        "aYMl9ttdcHxIGCN6": {
+          "description": "假仁假义"
+        },
+        "bJ19wNb3oayxkWmS": {
+          "description": "讲逻辑"
+        },
+        "cFgSDbeL1F5iFXUb": {
+          "description": "爱玩"
+        },
+        "dPTlWaJaKUEmkZwD": {
+          "description": "无私"
+        },
+        "dQQsmuRsPfbQxm2Q": {
+          "description": "爱炫耀"
+        },
+        "eEXjIQMuUvRYAflj": {
+          "description": "诚实"
+        },
+        "eJRiXK7fwL5m9IeJ": {
+          "description": "焦虑"
+        },
+        "ez8yP8byrc1jIx9w": {
+          "description": "积极进取"
+        },
+        "fICkh9v0vNDlRRDQ": {
+          "description": "爱幻想"
+        },
+        "fV940sFRReCZabv4": {
+          "description": "反复无常"
+        },
+        "gpcMPvxZ1e62XRF4": {
+          "description": "嗜睡"
+        },
+        "gsr6E2SW5cMaZiq2": {
+          "description": "古风古韵"
+        },
+        "hI5NgTN9zXPPpQ9T": {
+          "description": "阴森"
+        },
+        "hKaag22ZNIT4Xsqa": {
+          "description": "好奇"
+        },
+        "kruEINNUtLQynES1": {
+          "description": "无礼"
+        },
+        "lAKWPiCxKTfmxxn5": {
+          "description": "卑躬屈膝"
+        },
+        "mKKXTJ5ngGXrbxWs": {
+          "description": "神秘莫测"
+        },
+        "mlP3WPg7C9DXVTBV": {
+          "description": "爱唱反调"
+        },
+        "n1V11bpSZZT4oPXE": {
+          "description": "优柔寡断"
+        },
+        "nLQ91fKffDia0k7o": {
+          "description": "害羞"
+        },
+        "oL5ZGOAVv5vqvxQx": {
+          "description": "喜怒无常"
+        },
+        "omYjsNmL4NSYS5EH": {
+          "description": "脆弱"
+        },
+        "pezy5e8e7ejKbCke": {
+          "description": "可靠"
+        },
+        "qNN1s1XcFac5MQdp": {
+          "description": "勇敢"
+        },
+        "qWU8SqsVS6iuCsP4": {
+          "description": "有耐心"
+        },
+        "raHwU17kr4L9jrB5": {
+          "description": "轻信"
+        },
+        "rm5AIstrm92YVU6y": {
+          "description": "守口如瓶"
+        },
+        "tv1LAjzDMHbQn8X1": {
+          "description": "嫉妒"
+        },
+        "v9iQfFPtUu0Ovgvb": {
+          "description": "幼稚"
+        },
+        "vRwoB1GjXuVT9p1x": {
+          "description": "肤浅"
+        },
+        "vYoVh8g9OlwH3LNJ": {
+          "description": "赶时髦"
+        },
+        "vtWsCUlJ98ruAP3U": {
+          "description": "絮絮叨叨"
+        },
+        "wJSrB1BaXOeKSZ5q": {
+          "description": "邋遢"
+        },
+        "x0H3mCqoRsMilomh": {
+          "description": "爱操纵他人"
+        },
+        "xHsUhfdOdH6XMIFK": {
+          "description": "爱传闲话"
+        },
+        "zcTg1yBEeTliNJqF": {
+          "description": "负责"
+        }
       }
     },
     "Table 4: Eldamon Rarity": {
-      "name": "表 4：Eldamon 稀有度 Table 4: Eldamon Rarity",
-      "description": "",
+      "name": "表4：爱达梦稀有度 Table 4: Eldamon Rarity",
       "results": {
-        "1-60": "Common",
-        "61-90": "Uncommon",
-        "91-100": "Rare"
+        "M0KIXwRvbHgPsvpa": {
+          "description": "稀有"
+        },
+        "Vy9fT4aaCxYhmtFT": {
+          "description": "罕见"
+        },
+        "xRm3EK1GhogmlMTH": {
+          "description": "常见"
+        }
       }
     },
     "Table 7: Eldamon Appearance Feature": {
-      "name": "表格 7：艾达蒙外观特性 Table 7: Eldamon Appearance Feature",
-      "description": "",
+      "name": "表7：爱达梦外貌特征 Table 7: Eldamon Appearance Feature",
       "results": {
-        "1-50": "Standard Appearance The eldamon looks more or less like others of their kind.",
-        "51-52": "Bigger The eldamon is noticeably bigger than others of their kind, though still the same size category.",
-        "53-54": "Smaller The eldamon is noticeably smaller than others of their kind, though still the same size category.",
-        "55-56": "Different Eye Color The eldamon’s eyes are a different color than other eldamon of their kind.",
-        "57-58": "Heterochromia The eldamon’s eyes are different colors (or the same color if eldamon of their kind normally have different colors).",
-        "59-60": "Different Body or Hair Color The eldamon’s body, hair, or both are a different color than other eldamon of their kind.",
-        "61-62": "Half and Half Body Color The eldamon’s body, hair, or both are a different color than other eldamon of their kind on just one side, either their left side or right side.",
-        "63-64": "Vibrant Coloration The eldamon’s coloration is more vibrant than other eldamon of their kind.",
-        "65-66": "Soft Coloration The eldamon’s coloration is softer and more delicate than other eldamon of their kind.",
-        "67-68": "Grayscale The eldamon’s coloration is all in grayscale, or if the eldamon’s kind normally are all in grayscale, the eldamon includes colors.",
-        "69-70": "Shifting Colors The eldamon’s colors shifting and change over time.",
-        "71-72": "Sparkly The eldamon sparkles in the light and looks especially shiny.",
-        "73-74": "Cousin The eldamon looks like a related but different animal or object than others of their kind, such as a fox instead of a wolf or a silver dish instead of a hand mirror.",
-        "75-76": "Elemental Gems Either the eldamon’s body has gems of congealed elemental energy in their body, or the elemental gems in their body are a different color or shape if others of their kind normally have elemental gems.",
-        "77-78": "Elemental Lines Either the eldamon’s body has lines that circulate elemental energy across their body, or the elemental lines in their body are a different color or pattern if others of their kind normally have elemental lines.",
-        "79-80": "Elemental Aura Either the eldamon exudes a visible aura of elemental energy, or the elemental aura around them is a different color or shape if others of their kind normally have an elemental aura.",
-        "81-82": "Horns and Spines The eldamon has small horns, spines, or both on their body, though not large enough to cause damage.",
-        "83-84": "Fearsome The eldamon’s pet form looks more like a smaller version of their battle form, rather than a cuter form.",
-        "85-86": "Cute The eldamon’s battle and evolved form look more like bigger version of the eldamon’s pet form, with any adjustments needed to grant them their form and evolution abilities.",
-        "87-88": "Shifting Form The eldamon’s form slightly shifts and transforms over time.",
-        "89-90": "Translucent Body The eldamon’s body allows light to pass through, giving it a translucent appearance.",
-        "91-92": "Wispy Body The eldamon’s body trails off into wisps at the bottom.",
-        "93-94": "Fastidious The eldamon’s form looks tidy and meticulously well kept.",
-        "95-96": "Wild The eldamon’s form looks disheveled and untamed.",
-        "97-98": "Wholesome The eldamon’s form looks saintly and wholesome.",
-        "99-100": "Baleful The eldamon’s form looks diabolical and baleful."
+        "5Sqz5Qrejve0IEmD": {
+          "description": "普通外观：这只爱达梦的外表与同类大致相同。"
+        },
+        "5UkD0nay7uMQfgwc": {
+          "description": "柔和色彩：这只爱达梦的色彩比同类更加柔和细腻。"
+        },
+        "6IhYwnbDES2nOXre": {
+          "description": "凶煞：这只爱达梦的形态看起来邪恶凶煞。"
+        },
+        "7QH1UzRYgaLuXDHd": {
+          "description": "凶猛：这只爱达梦的宠物形态更像是缩小的战斗形态，而不是更可爱的形态。"
+        },
+        "9kqta9roeDNtxZUM": {
+          "description": "异色身体或毛发：这只爱达梦的身体、毛发或两者的颜色与同类不同。"
+        },
+        "Be2UkE3VNS6UisYS": {
+          "description": "野性：这只爱达梦的形态看起来蓬乱而野性十足。"
+        },
+        "DhuqNjanYmN77JeY": {
+          "description": "闪闪发光：这只爱达梦在光线下闪烁，看起来格外闪亮。"
+        },
+        "IObGFx3BgrsX2ohD": {
+          "description": "异色瞳：这只爱达梦的双眼颜色不同（如果同类通常双眼异色，则它的双眼颜色相同）。"
+        },
+        "Jb23kecGFlRarzEt": {
+          "description": "半身异色：这只爱达梦的身体、毛发或两者只有一侧的颜色与同类不同，可以是左侧或右侧。"
+        },
+        "P0xW0nw34vgB3y8D": {
+          "description": "灰阶：这只爱达梦全身都是灰阶色彩；如果同类通常全身灰阶，则它身上带有其他颜色。"
+        },
+        "QGAXJgTEfRSLgHFF": {
+          "description": "角与棘：这只爱达梦身上长有小角、棘刺或两者，但都不够大，无法造成伤害。"
+        },
+        "SxFRjzJise5OwANQ": {
+          "description": "变幻色彩：这只爱达梦的颜色随时间推移而变化。"
+        },
+        "Ur96DDdifZSMisCE": {
+          "description": "元素纹路：这只爱达梦身上有让元素能量在全身流转的纹路；如果同类通常就有元素纹路，则它的纹路颜色或图案与同类不同。"
+        },
+        "VVhUKfyszVqV9z2G": {
+          "description": "纯善：这只爱达梦的形态看起来圣洁纯善。"
+        },
+        "XtphPhR2owWyymR9": {
+          "description": "元素灵光：这只爱达梦散发着可见的元素能量灵光；如果同类通常就有元素灵光，则它周围的灵光颜色或形状与同类不同。"
+        },
+        "YD2XPxRqF9Ivo5gN": {
+          "description": "半透明身体：这只爱达梦的身体能让光线穿透，呈现半透明的外观。"
+        },
+        "YbpMPlxL7Q4I4v8Q": {
+          "description": "可爱：这只爱达梦的战斗形态和进化形态更像是放大的宠物形态，并做出必要的调整，使其拥有对应的形态能力和进化能力。"
+        },
+        "a5qze2E8TUQTLTHZ": {
+          "description": "雾缕身躯：这只爱达梦的身体下部逐渐化作缕缕轻雾。"
+        },
+        "astsgEygbyiX70qa": {
+          "description": "异色眼睛：这只爱达梦的眼睛颜色与同类不同。"
+        },
+        "faF4pvKVzy4UFdtD": {
+          "description": "较小：这只爱达梦明显比同类小，但仍属于相同的体型类别。"
+        },
+        "j2yT0xKHnSNJpL4E": {
+          "description": "一丝不苟：这只爱达梦的形态看起来整洁，经过精心打理。"
+        },
+        "ol2iKcXPxekCJb0Y": {
+          "description": "近亲：这只爱达梦看起来像是与同类相关、却不同的动物或物品，例如狐狸而非狼，或银盘而非手镜。"
+        },
+        "qSxSlRPmyNYdp51R": {
+          "description": "鲜艳色彩：这只爱达梦的色彩比同类更加鲜艳。"
+        },
+        "tJslJuEXEKNpoEdM": {
+          "description": "较大：这只爱达梦明显比同类大，但仍属于相同的体型类别。"
+        },
+        "v56Dhft8V58A0rVV": {
+          "description": "元素宝石：这只爱达梦体内有元素能量凝结成的宝石；如果同类通常就有元素宝石，则它体内宝石的颜色或形状与同类不同。"
+        },
+        "xUvIGa9QAiE5khEa": {
+          "description": "变幻形态：这只爱达梦的形态随时间推移发生细微的改变与转化。"
+        }
       }
     },
     "Table 9a: Check for Eldamon Secret": {
-      "name": "表 9a：检定艾达蒙秘密 Table 9a: Check for Eldamon Secret",
-      "description": "",
+      "name": "表9a：判定爱达梦是否有秘密 Table 9a: Check for Eldamon Secret",
       "results": {
-        "1-90": "The eldamon doesn’t have a special secret.",
-        "91-99": "The eldamon has a special secret. Roll on Table 9b to see what it is.",
-        "100-100": "The eldamon has two secrets. Roll twice on Table 9b to determine them."
+        "BwhrBK1pgEx7MihI": {
+          "description": "这只爱达梦没有特殊秘密。"
+        },
+        "JVP2w9ZD4KMTsQjl": {
+          "description": "这只爱达梦有两个秘密。在表9b上掷骰两次以确定它们。"
+        },
+        "Ks9BbnqmEvrZ8z39": {
+          "description": "这只爱达梦有一个特殊秘密。在表9b上掷骰以确定秘密。"
+        }
       }
     },
     "Table 6: Elemental Ability Variation": {
-      "name": "表 6：元素能力变体 Table 6: Elemental Ability Variation",
-      "description": "",
+      "name": "表6：元素能力变体 Table 6: Elemental Ability Variation",
       "results": {
-        "1-50": "No Variation",
-        "51-55": "Alternate Starting Power The eldamon starts with one power that’s different than normal for an eldamon of their kind and level.",
-        "56-60": "Alternate Power Set The eldamon starts with the power set from another random eldamon of their element.",
-        "61-65": "Alternate Saving Throw The eldamon has a different random eldamon saving throw.",
-        "66-70": "Alternate Skill The eldamon replaces one of its eldamon skills with a different random skill from this list: Acrobatics, Athletics, Intimidation, Performance, Stealth, Survival, or Thievery. An eldamon never replaces a skill they need for one of their abilities.",
-        "71-75": "Alternate Elemental Ability The eldamon has the elemental ability normally associated with another random eldamon of their element. This doesn’t change their form or evolution abilities.",
-        "76-80": "Glowing The eldamon glows with elemental energy like a torch (or doesn’t glow if they are a fire or light eldamon that normally glows).",
-        "81-85": "Unusual Affinities Choose two random elements to which the eldamon isn’t normally weak or resistant using Table 3. The eldamon is resistant to the traits associated with one of those elements and weak to the traits associated with the other element. This can’t make the eldamon resistant or weak to physical damage.",
-        "86-90": "Unusual Attacks One of the eldamon’s unarmed attacks that would normally deal bludgeoning, piercing, or slashing damage deals a different damage type from among those three options. If the eldamon has no unarmed attacks that deal any of these damage types, reroll on Table 6.",
-        "91-96": "Tough or Nimble The eldamon switches their Dexterity and Constitution modifiers, both for the base and for the progression.",
-        "97-101": "Strong, Smart, or Charming The eldamon switches any two of their Strength, Intelligence, and Charisma modifiers, both for the base and for the progression."
+        "07b5nWQ91fllG39T": {
+          "description": "替换初始威能：这只爱达梦的一个初始威能不同于同种同等级爱达梦通常拥有的威能。"
+        },
+        "1omU6cpnK7KBbC7N": {
+          "description": "替换技能：将这只爱达梦的一项爱达梦技能替换为下列随机一项不同的技能：特技、运动、威吓、表演、隐秘、生存或贼活。不会替换其任何能力所必需的技能。"
+        },
+        "6v77KJnNk7QyP933": {
+          "description": "替换豁免：这只爱达梦拥有随机一种不同的爱达梦豁免。"
+        },
+        "8eRNoe6ptQ3CHd4a": {
+          "description": "强壮、聪明或迷人：将这只爱达梦的力量、智力和魅力调整值中的任意两项互换，同时交换其基础值和成长进度。"
+        },
+        "DD0A2eKWQRYwaVHE": {
+          "description": "替换元素能力：这只爱达梦拥有同元素另一种随机爱达梦通常具备的元素能力。这不会改变它的形态能力或进化能力。"
+        },
+        "EJQg0VRGzChh1qbd": {
+          "description": "替换威能组：这只爱达梦的初始威能组改为同元素另一种随机爱达梦的威能组。"
+        },
+        "GN02cH2RSwP0wXHT": {
+          "description": "无变异"
+        },
+        "KrdzKm73wJW9WtBa": {
+          "description": "发光：这只爱达梦像火把一样发出元素能量的光芒（如果它是通常会发光的火或光爱达梦，则它不发光）。"
+        },
+        "VePc9Ds0xZUZgDzt": {
+          "description": "异样攻击：这只爱达梦的一种通常造成钝击、穿刺或挥砍伤害的无武装攻击，改为造成这三种类型中的另一种伤害。如果它没有造成这些伤害类型的无武装攻击，则在表6上重新掷骰。"
+        },
+        "W157DoW9b5LrBeQs": {
+          "description": "坚韧或灵巧：将这只爱达梦的敏捷和体质调整值互换，同时交换其基础值和成长进度。"
+        },
+        "WHDvVtType7GyShe": {
+          "description": "异样亲和：使用表3随机选择两种这只爱达梦通常既无弱点也无抗力的元素。它对其中一种元素相关的特征具有抗力，对另一种元素相关的特征具有弱点。这不会使其对物理伤害具有抗力或弱点。"
+        }
       }
     },
     "Table 1c: Finding an Eldamon in a Neutral Context (High)": {
-      "name": "表1c：在中立情境中发现一只艾达蒙（高） Table 1c: Finding an Eldamon in a Neutral Context (High)",
-      "description": "",
+      "name": "表1c：在中性环境中寻找爱达梦（高） Table 1c: Finding an Eldamon in a Neutral Context (High)",
       "results": {
-        "1-70": "No eldamon",
-        "71-100": "Random eldamon element (Roll on Table 3)"
+        "K8K7Qby8LdB6mdH8": {
+          "description": "没有爱达梦"
+        },
+        "fdKeOheb8waCKWw0": {
+          "description": "随机元素的爱达梦（在表3上掷骰）"
+        }
       }
     },
     "Table 1a: Finding an Eldamon in a Neutral Context (Low)": {
-      "name": "表 1a：在中立情境中寻找一只艾达蒙（低） Table 1a: Finding an Eldamon in a Neutral Context (Low)",
-      "description": "",
+      "name": "表1a：在中性环境中寻找爱达梦（低） Table 1a: Finding an Eldamon in a Neutral Context (Low)",
       "results": {
-        "1-90": "No eldamon",
-        "91-100": "Random eldamon element (Roll on Table 3)"
+        "c2DTay5MSQ45rvW0": {
+          "description": "没有爱达梦"
+        },
+        "lW3TmtXfXZ2rRMyV": {
+          "description": "随机元素的爱达梦（在表3上掷骰）"
+        }
       }
     },
     "Table 2a: Finding an Eldamon in the Presence of an Element (Low)": {
-      "name": "表 2a：在元素（低）存在时找到一只艾达蒙 Table 2a: Finding an Eldamon in the Presence of an Element (Low)",
-      "description": "",
+      "name": "表2a：在有元素存在的环境中寻找爱达梦（低） Table 2a: Finding an Eldamon in the Presence of an Element (Low)",
       "results": {
-        "1-85": "No eldamon",
-        "86-90": "Random eldamon element (Roll on Table 3)",
-        "91-100": "Eldamon related to the element"
+        "GO7brY64RwwU6IFB": {
+          "description": "随机元素的爱达梦（在表3上掷骰）"
+        },
+        "WWe03F7OgWpXYS8n": {
+          "description": "与该元素相关的爱达梦"
+        },
+        "fE3dIrzb4dT7Bumd": {
+          "description": "没有爱达梦"
+        }
       }
     },
     "Table 3a: Random Element (Core 13)": {
-      "name": "表3a：随机元素（核心13） Table 3a: Random Element (Core 13)",
-      "description": "",
+      "name": "表3a：随机元素（核心13种） Table 3a: Random Element (Core 13)",
       "results": {
-        "1-7": "Air",
-        "8-14": "Darkness",
-        "15-21": "Death",
-        "22-28": "Earth",
-        "29-35": "Electricity",
-        "36-42": "Fire",
-        "43-49": "Force",
-        "50-56": "Ice",
-        "57-63": "Life",
-        "64-70": "Light",
-        "71-77": "Mind",
-        "78-84": "Water",
-        "85-91": "Wood",
-        "92-100": "Roll again"
+        "FuZBhEomc961ktqH": {
+          "description": "光"
+        },
+        "GZfiFHJhM9zzgJ4r": {
+          "description": "冰"
+        },
+        "GZv4gkiXr0iSExfz": {
+          "description": "火"
+        },
+        "JLiz6G6cJYzW8qOo": {
+          "description": "水"
+        },
+        "PG7H02dJL1y2yQ4J": {
+          "description": "土"
+        },
+        "UWCn5eMANikYuQ8d": {
+          "description": "心灵"
+        },
+        "VwxuvVdTa0GTizG7": {
+          "description": "力场"
+        },
+        "jJ74frq84TVZDmBs": {
+          "description": "生命"
+        },
+        "lT1odII2f8Ng9Sp8": {
+          "description": "木"
+        },
+        "qdHdB5abrCshP5ZV": {
+          "description": "电"
+        },
+        "tmtex9JBUkdwhUDl": {
+          "description": "暗"
+        },
+        "vhe8Km1AlSzIq8Bb": {
+          "description": "重新掷骰"
+        },
+        "y9fC6hWRtALV0JVm": {
+          "description": "死亡"
+        },
+        "yMeZNjuGDfQxIUpu": {
+          "description": "气"
+        }
       }
     },
     "Table 1b: Finding an Eldamon in a Neutral Context (Standard)": {
-      "name": "表1b：在中立情境中发现一只艾达蒙（标准） Table 1b: Finding an Eldamon in a Neutral Context (Standard)",
-      "description": "",
+      "name": "表1b：在中性环境中寻找爱达梦（标准） Table 1b: Finding an Eldamon in a Neutral Context (Standard)",
       "results": {
-        "1-80": "No eldamon",
-        "81-100": "Random eldamon element (Roll on Table 3)"
+        "cOeaCLWaPP2B1Pur": {
+          "description": "随机元素的爱达梦（在表3上掷骰）"
+        },
+        "sCrrFAIE2OrcDOEF": {
+          "description": "没有爱达梦"
+        }
       }
     },
     "Table 2c: Finding an Eldamon in the Presence of an Element (High)": {
-      "name": "表2c：在元素（高）存在时寻找一只埃尔达蒙 Table 2c: Finding an Eldamon in the Presence of an Element (High)",
-      "description": "",
+      "name": "表2c：在有元素存在的环境中寻找爱达梦（高） Table 2c: Finding an Eldamon in the Presence of an Element (High)",
       "results": {
-        "1-55": "No eldamon",
-        "56-70": "Random eldamon element (Roll on Table 3)",
-        "71-100": "Eldamon related to the element"
+        "5gcmHOJ2bibuetkE": {
+          "description": "没有爱达梦"
+        },
+        "I7P3nqKRUqHmVBcv": {
+          "description": "随机元素的爱达梦（在表3上掷骰）"
+        },
+        "rHTjwFPaOdoJsBWI": {
+          "description": "与该元素相关的爱达梦"
+        }
       }
     },
     "Table 9b: Eldamon Secrets": {
-      "name": "表9b：艾达蒙秘闻 Table 9b: Eldamon Secrets",
-      "description": "",
+      "name": "表9b：爱达梦的秘密 Table 9b: Eldamon Secrets",
       "results": {
-        "1-3": "The eldamon was once friends with another hero or adventurer, whether famous or not.",
-        "4-6": "The eldamon was once friends with a villain, whether famous or not.",
-        "7-9": "The eldamon once melded into a powerful artifact or other major magic item.",
-        "10-12": "The eldamon once melded into an incredibly dangerous creature that matches their element.",
-        "13-15": "The eldamon once melded into an elemental calamity, such as a tsunami or volcanic eruption.",
-        "16-18": "The eldamon made a promise to their last friend to perform one last task, and they still have yet to complete it.",
-        "19-21": "The eldamon has sworn to watch over the descendants of their old friend from long ago. Perhaps they need help keeping track of those descendants, or maybe their new friend is one of them.",
-        "22-24": "The eldamon is searching for a lost item of great importance to them.",
-        "25-27": "The eldamon is searching for an old friend, though with their sense of time, the friend might be long dead by now.",
-        "28-30": "The eldamon is or was one of the elemental pillars for a powerful seal. What does the seal contain or hold back, and will the eldamon’s journey with their new friend help strengthen the seal or risk breaking it?",
-        "31-33": "The eldamon once knew the location of a lost treasure or ruin. With the way their understanding of the mortal world works, can they still find it? Will they bring their new friend there?",
-        "34-36": "The eldamon is famous among other eldamon for something they once did or a talent they possess.",
-        "37-39": "The eldamon was once venerated as a god or protector by a community.",
-        "40-42": "The eldamon was once an eldamon of another element but somehow shifted to their current element and form over time.",
-        "43-45": "The eldamon lost all memory of an essential event in their life.",
-        "46-48": "The eldamon somehow always seems to attract the attention and influence of an element different than their own.",
-        "49-51": "The eldamon once lived in a far-off land",
-        "52-54": "The eldamon has a particular snack or other guilty pleasure from the mortal world, and they’d love to have an eldamon trainer phase them in so they can indulge it.",
-        "55-57": "On rare occasions and circumstances that can’t be intentionally triggered, the eldamon opens a miniature temporary portal to an associated plane.",
-        "58-60": "The eldamon knows the deepest secret of an important figure, though given the way interact with the world and their memories, they likely have no idea the information is important.",
-        "61-63": "The eldamon sneezes uncontrollably when it encounters one of the elements to which it’s weak, almost as if it was allergic.",
-        "64-66": "The eldamon was once a creature other than an eldamon that was reborn or transformed into an eldamon by an extremely unusual circumstance.",
-        "67-69": "The eldamon is secretly a spy, gathering information for another original mortal friend. The spy might come to care more deeply for their new mortal friend and refuse to report, and even if they don’t, due to an eldamon’s thought patterns and memory, the original mortal friend doesn’t expect much to come from their spy.",
-        "70-72": "The eldamon is targeted by an evil organization trying to capture them for an unknown reason.",
-        "73-75": "The eldamon is obsessed with a specific form of obscure lore and wants to engage with their obsession whenever possible.",
-        "76-78": "The eldamon claims some worldly title in the mortal world with no real evidence, such as claiming to be the mayor of a far-off town whose name no one recognizes.",
-        "79-81": "The eldamon is often tired, and when it enters a restful state, it usually accidently melds into a nearby object until it awakens. This can be a boon or bane depending on the eldamon and the object.",
-        "82-84": "The eldamon hoards tokens related to their element, and hides them among their mortal friend’s belongings.",
-        "85-87": "This eldamon came from the elemental energies of a different world or reality—not the same world as other eldamon and their mortal friend.",
-        "88-90": "The eldamon secretly watched over their mortal friend when the friend was younger.",
-        "91-93": "The eldamon is trying to win the affection of another eldamon, and they might bring their mortal friend in on the secret to ask for help.",
-        "94-96": "The eldamon goes by a nickname and keeps their true name secret.",
-        "97-100": "The eldamon has a secret personality quirk (roll again on Table 8) that they choose to hide. Your original roll on Table"
+        "01XoOpQy7UapwJQc": {
+          "description": "这只爱达梦有一个选择隐藏的性格怪癖（在表8上重新掷骰）。你最初在表上掷出的结果"
+        },
+        "0D2fPYX6Z61ARQQ7": {
+          "description": "这只爱达梦自称在凡世拥有某种世俗头衔，却没有真正的证据，例如声称自己是某座无人听说过其名字的遥远城镇的镇长。"
+        },
+        "1aylZXcMrEKeeIkF": {
+          "description": "这只爱达梦曾经属于另一种元素，但不知何故，随着时间推移转变成了现在的元素和形态。"
+        },
+        "2dJKwtoPOIq6PBbe": {
+          "description": "这只爱达梦曾经知道某处失落宝藏或遗迹的位置。以它理解凡世的方式，它还能找到那里吗？它会带自己的新朋友前往吗？"
+        },
+        "68aQOGHfSj0bTRQX": {
+          "description": "这只爱达梦正在寻找一件对它非常重要的遗失物品。"
+        },
+        "70ULcm2elLTBpxpY": {
+          "description": "这只爱达梦正在寻找一位老朋友，不过以它的时间观念来看，那位朋友如今可能早已去世。"
+        },
+        "9WZosiqHieRtAVNT": {
+          "description": "这只爱达梦诞生于另一个世界或现实的元素能量，并非来自其他爱达梦及其凡人朋友所在的世界。"
+        },
+        "A7jItBb0y7OQlnnn": {
+          "description": "一个邪恶组织盯上了这只爱达梦，试图出于不明原因捕获它。"
+        },
+        "BaiuM6WyBK7xyZPG": {
+          "description": "这只爱达梦暗中是一名间谍，替原先的另一位凡人朋友收集情报。它可能逐渐更关心新的凡人朋友，因而拒绝汇报；即使并非如此，考虑到爱达梦的思维模式和记忆方式，原先的凡人朋友也不指望这个间谍能带来多少成果。"
+        },
+        "CkMZyagtPOFGNJZV": {
+          "description": "这只爱达梦不知为何似乎总会吸引一种不同于自身元素的元素的注意与影响。"
+        },
+        "DIAsN6BeBj9Byfpk": {
+          "description": "在罕见且无法刻意触发的情形下，这只爱达梦会打开一道通往相关位面的微型临时传送门。"
+        },
+        "E9GYc4kVYm9lw8Rj": {
+          "description": "这只爱达梦完全忘记了生命中某个重要事件。"
+        },
+        "HElgbHnofbMK1lLC": {
+          "description": "这只爱达梦曾经是另一种生物，在极不寻常的情形下重生或转化为爱达梦。"
+        },
+        "KEfRyRwHqnhRhbCu": {
+          "description": "这只爱达梦痴迷于某一种冷僻的学识，一有机会就想投入这项爱好。"
+        },
+        "L370PnhJsus3i3sb": {
+          "description": "这只爱达梦曾答应上一位朋友完成最后一项任务，但至今尚未完成。"
+        },
+        "MfvLwDG4SKjKnEA4": {
+          "description": "这只爱达梦曾与一个反派为友，对方可能有名，也可能默默无闻。"
+        },
+        "N8b19XSVG66XfSFs": {
+          "description": "这只爱达梦曾融入一件强大的神器或其他重要魔法物品。"
+        },
+        "WSf7YKdMdLdd0Iym": {
+          "description": "某个社群曾将这只爱达梦尊为神祇或守护者。"
+        },
+        "WVwPtQydM2CMTvfD": {
+          "description": "这只爱达梦曾在凡人朋友年幼时暗中守护对方。"
+        },
+        "WuGZxbzjNetnnplL": {
+          "description": "这只爱达梦正在努力赢得另一只爱达梦的喜爱，可能会将这个秘密告诉自己的凡人朋友以寻求帮助。"
+        },
+        "WyF6XEevYz32yeUA": {
+          "description": "这只爱达梦曾与另一位英雄或冒险者为友，对方可能有名，也可能默默无闻。"
+        },
+        "WyatIS4lGbFrNWoK": {
+          "description": "这只爱达梦喜欢凡世的某种零食，或有其他令人不好意思的享受；它很想让爱达梦训练家将自己带入相位，好尽情享受。"
+        },
+        "Wzxe0C5jUIQRVAeB": {
+          "description": "这只爱达梦曾融入一只与自身元素相符、极其危险的生物。"
+        },
+        "Z4HYdr9VI27n4YvV": {
+          "description": "这只爱达梦遇到自己具有弱点的某种元素时，会不受控制地打喷嚏，仿佛过敏一般。"
+        },
+        "al60XFpaq7COlL1f": {
+          "description": "这只爱达梦曾生活在遥远的国度"
+        },
+        "bb50QptXIgl6f0Jr": {
+          "description": "这只爱达梦曾融入海啸或火山喷发等元素灾害。"
+        },
+        "biiNqEtwncj2NkX1": {
+          "description": "这只爱达梦囤积与自身元素相关的小物件，并把它们藏在凡人朋友的随身物品中。"
+        },
+        "ikbfiSHatkSxTliV": {
+          "description": "这只爱达梦知道某位重要人物最深的秘密，但考虑到它与世界互动的方式和记忆方式，它很可能并不知道这条信息有多重要。"
+        },
+        "mITj3Hf0zYGxRNnN": {
+          "description": "这只爱达梦常常疲倦，进入休憩状态时通常会无意间融入附近的一件物品，直到醒来。这究竟是福是祸，取决于爱达梦和物品本身。"
+        },
+        "mLCYBTtPPPESrZvm": {
+          "description": "这只爱达梦因为过去的某件事迹或所具备的才能，在其他爱达梦中颇有名气。"
+        },
+        "rtf0yXEIPcRkWG2y": {
+          "description": "这只爱达梦立誓守护很久以前一位老朋友的后代。或许它需要帮助来追踪这些后代的下落，又或许它的新朋友就是其中一人。"
+        },
+        "vZMx99XnDBCKll0S": {
+          "description": "这只爱达梦使用昵称，并隐瞒自己的真名。"
+        },
+        "zCYwiTNInCg9WyrO": {
+          "description": "这只爱达梦现在或曾经是某个强大封印的一根元素支柱。那个封印困住或阻挡着什么？它与新朋友的旅程会帮助强化封印，还是有令其破裂的风险？"
+        }
       }
     },
     "Table 3b: Random Element (All 20)": {
-      "name": "表3b：随机元素（全部20项） Table 3b: Random Element (All 20)",
-      "description": "",
+      "name": "表3b：随机元素（全部20种） Table 3b: Random Element (All 20)",
       "results": {
-        "1-5": "Air",
-        "6-10": "Body",
-        "11-15": "Darkness",
-        "16-20": "Death",
-        "21-25": "Earth",
-        "26-30": "Electricity",
-        "31-35": "Fire",
-        "36-40": "Force",
-        "41-45": "Ice",
-        "46-50": "Life",
-        "51-55": "Light",
-        "56-60": "Metal",
-        "61-65": "Mind",
-        "66-70": "Music",
-        "71-75": "Poison",
-        "76-80": "Space",
-        "81-85": "Spirit",
-        "86-90": "Time",
-        "91-95": "Water",
-        "96-100": "Wood"
+        "0BsRvMfnr1ukjv24": {
+          "description": "音乐"
+        },
+        "1vd2uWfN55uSfbjs": {
+          "description": "土"
+        },
+        "AxFmOPyuPRNmLADi": {
+          "description": "生命"
+        },
+        "Az7OfY0RovaWKgVC": {
+          "description": "灵魂"
+        },
+        "Nd4N04x1CMVzTvQm": {
+          "description": "力场"
+        },
+        "Ob3AIfIxULtWPtRY": {
+          "description": "肉体"
+        },
+        "Q6ZEpMVz392jIkgR": {
+          "description": "金属"
+        },
+        "SY7Z6WDD5CjdKAlc": {
+          "description": "火"
+        },
+        "V3PaudNWsSJhKUCa": {
+          "description": "毒"
+        },
+        "bZrLWvAFLP0b0F0b": {
+          "description": "水"
+        },
+        "bxFucXKEQEtZWP8H": {
+          "description": "光"
+        },
+        "iUwrirupQ1BzWPC7": {
+          "description": "空间"
+        },
+        "irJ1heJZ77UFID1p": {
+          "description": "心灵"
+        },
+        "is1xpLrffc1LS1Dg": {
+          "description": "电"
+        },
+        "jUfqkIWw2htf8gS9": {
+          "description": "木"
+        },
+        "oC0laDItuuTSfgrj": {
+          "description": "暗"
+        },
+        "tYQEvN3kWtKn9UBD": {
+          "description": "时间"
+        },
+        "wzYmYCDs9hVnaBKZ": {
+          "description": "冰"
+        },
+        "zDFu1jk5ebjw9pvp": {
+          "description": "死亡"
+        },
+        "zL6xAJphdCF5HHqJ": {
+          "description": "气"
+        }
       }
     },
     "Table 5: Eldamon Age and Background": {
-      "name": "表5：艾达蒙年代与背景 Table 5: Eldamon Age and Background",
-      "description": "",
+      "name": "表5：爱达梦年龄与背景 Table 5: Eldamon Age and Background",
       "results": {
-        "1-10": "Newborn The eldamon has only recently been born. They can’t speak or understand any language and know little of the world around them.",
-        "11-30": "Young The eldamon is relatively young with little experience beyond their own element. They speak and understand only the language listed in their entry.",
-        "31-80": "Typical The eldamon has lived in an area long enough to understand mortals and pick up the prevailing language (usually Common) in addition to their listed language.",
-        "81-90": "Elemental Envoy The eldamon has lived among eldamon of another element and gets along with them well. Roll on Table",
-        "91-100": "Ancient Slumberer The eldamon hasn’t been active since ancient times, and their understanding of the world is based on outdated information. They speak and understand one ancient, dead, or esoteric language, in addition to their listed language. If your world doesn’t have any such languages, use a language spoken by particularly long-lived ancestries, such as Draconic."
+        "29Iz48g4iUIEtsRf": {
+          "description": "远古沉睡者：这只爱达梦自远古以来便未再活动，对世界的理解基于过时的信息。除了条目中列出的语言，它还会说并理解一种古代、失传或秘传语言。如果你的世界不存在此类语言，则使用某种特别长寿的族裔所说的语言，例如龙语。"
+        },
+        "L74xQM6sIOeii0nG": {
+          "description": "典型：这只爱达梦在某个地区生活了足够长的时间，能够理解凡人，并在条目所列语言之外学会当地通行的语言（通常为通用语）。"
+        },
+        "ZQ5pqtIfYisTxjwo": {
+          "description": "新生：这只爱达梦才刚刚诞生。它不会说也不理解任何语言，对周围的世界所知甚少。"
+        },
+        "v9rFAsWIDZI9i1zP": {
+          "description": "元素使者：这只爱达梦曾生活在另一种元素的爱达梦之中，并与它们相处融洽。在表上掷骰"
+        },
+        "xA0sq4gtbfBBf5hb": {
+          "description": "年轻：这只爱达梦比较年轻，除了自身元素之外经验甚少。它只会说并理解其条目中列出的语言。"
+        }
       }
     }
   }

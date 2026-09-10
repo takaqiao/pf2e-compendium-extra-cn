@@ -51,6 +51,13 @@ const EXTERNAL_LANG_SOURCES = [
   'battlezoo-dragons-leshy-dragons-pf2e',
   'battlezoo-immortals',
   'battlezoo-release-the-kraken-pf2e',
+  'battlezoo-ancestries-living-legends-pf2e',
+  'battlezoo-bestiary-es-pf2e',
+  'battlezoo-dragons-battle-dragons-pf2e',
+  'battlezoo-dragons-fairy-dragons-pf2e',
+  'battlezoo-dragons-misfit-dragons-pf2e',
+  'battlezoo-eldamon-pf2e',
+  'battlezoo-eldamon-legends-pf2e',
 ];
 
 Hooks.once('i18nInit', async () => {

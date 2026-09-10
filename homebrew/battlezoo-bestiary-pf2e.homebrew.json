@@ -1,0 +1,33 @@
+{
+  "moduleId": "battlezoo-bestiary-pf2e",
+  "moduleTitle": "Battlezoo Bestiary for Pathfinder 2e by Roll For Combat",
+  "homebrew": {
+    "baseWeapons": {
+      "galtzagorri-hook-spear": "加尔察戈里钩长矛"
+    },
+    "creatureTraits": {
+      "dundrath": {
+        "label": "邓德拉斯",
+        "description": "邓德拉斯是体格粗壮的类人生物，外貌酷似长毛猛犸象，但拥有强壮的手臂与双手，以及锐利的黄色眼睛。"
+      },
+      "gmayun": {
+        "label": "格迈云",
+        "description": "格迈云是鸟类外貌的类人生物，形似色彩鲜艳的鹦鹉，以及其他原生于热带乐土的鸟类。"
+      },
+      "husk": {
+        "label": "残躯",
+        "description": "植物生物与自然世界之间有一种特殊的联系，鲜有其他生命能够完全理解或体会。当与栖居之地的联系破裂或遭到切断时，有知觉的植物生物可能因愤怒而蜕变成可怕的存在，只剩昔日自我的扭曲影子。即便是莱西、树精和木林仙女这样温和乃至友善的植物，也可能遭遇这种可怖的蜕变；然而，与它们施加给受害者的恐怖相比，它们自身的痛苦往往还显得微不足道。孤独、愤怒而扭曲的植物残躯，会将骇人的疯狂播种在旅人的尸体中，把那些胆敢穿越其荒芜领地的漫游者当作肥沃的土壤。在残躯眼中，所有活物都该被消灭；但对于那些曾胆敢亵渎、侵占或砍光森林的乱扔废物者、开拓者与伐木工，它们会留出最为可怕的惩罚。"
+      },
+      "wild-hunt": {
+        "label": "狂猎",
+        "description": "狂猎是一群神秘的精类，它们追猎的范围不局限于精类的国度，而是遍及整个多元宇宙。"
+      }
+    },
+    "weaponTraits": {
+      "injury": {
+        "label": "PF2E.TraitInjury",
+        "description": "PF2E.TraitDescriptionInjury"
+      }
+    }
+  }
+}

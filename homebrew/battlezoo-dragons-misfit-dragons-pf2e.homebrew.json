@@ -1,0 +1,9 @@
+{
+  "moduleId": "battlezoo-dragons-misfit-dragons-pf2e",
+  "moduleTitle": "Battlezoo Dragons: Misfit Dragons for Pathfinder 2e by Roll For Combat",
+  "homebrew": {
+    "featTraits": {
+      "dragon": "PF2E.TraitDragon"
+    }
+  }
+}

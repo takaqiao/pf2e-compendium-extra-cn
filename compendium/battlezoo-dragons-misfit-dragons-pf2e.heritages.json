@@ -1,0 +1,25 @@
+{
+  "label": "传承",
+  "entries": {
+    "Bionic Dragon": {
+      "name": "义体龙 Bionic Dragon",
+      "description": "<p>你是一头义体龙，体内充盈着虚能魔法。你腐烂的血肉和萎缩的肢体往往会被机械部件取代，但你利用永恒之光仪式阻止了这一过程。你获得@UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{顽强}通用专长或@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.feats.Item.qJG4ZFZfXjk1h7Lk]{坏死生理}族裔专长作为额外专长，自选其一。你的对应伤害类型为虚能，吐息形状为锥形，额外无武装攻击为角和尾巴。你的第一项族裔属性提升可以选择体质来代替力量。你的法术属于神术传统。你获得死灵语的准入权。</p>"
+    },
+    "Doom Dragon": {
+      "name": "厄兆龙 Doom Dragon",
+      "description": "<p>你是一头厄兆龙，不断受到可怕的未来景象冲击，这些景象可能成真，也可能不会。你的神秘学熟练度变为受训；如果你已在神秘学上受训，则改为另一项技能。你还获得@UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]{可疑知识}通用技能专长。你的对应伤害类型为心灵，吐息形状为线形，额外无武装攻击为角和翼。你的第一项族裔属性提升可以选择智力来代替力量。你的法术属于异能传统。</p>"
+    },
+    "Metamorphic Dragon": {
+      "name": "形变龙 Metamorphic Dragon",
+      "description": "<p>你是一头形变龙，过盛的化形魔法使你的身体不断变化。你的对应伤害类型和吐息形状会毫无预兆地改变。你的对应伤害类型从酸蚀、寒冷、电击、火焰和音波中随机决定（1d6，掷出6则重掷），吐息形状从爆发、锥形和线形中随机决定（1d6，1-2为爆发，3-4为锥形，5-6为线形）。每当你提升一个等级，或专门花费一天休整时间来随机改变它们时，你的对应伤害类型和吐息形状都会随机改变；当你在紧张的情境中陷入濒死状态时，它们也可能随机改变，每天至多一次，由GM决定。角色身上其他取决于对应伤害类型或吐息形状的部分也会随之改变。你获得@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.1hGu3cOJWT78kaOG]{龙族抗力}作为额外专长。你的额外无武装攻击为尾巴和翼。你的第一项族裔属性提升可以选择敏捷来代替力量。你的法术属于原能传统。</p>"
+    },
+    "Wellspring Dragon": {
+      "name": "泉源龙 Wellspring Dragon",
+      "description": "<p>你是一头泉源龙，身体的每一块肌肉和每一片鳞片都浸透了你几乎无法控制的魔力。你获得@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.gijpGXVAyH8SjLpy]{龙族戏法}作为额外专长，而且每当你使用法术位施放法术时，都可以引发一次@UUID[Compendium.battlezoo-dragons-misfit-dragons-pf2e.roll-tables.RollTable.xn3NHbHfZkL8dY4O]{狂野魔法}事件来代替正常效果。你的对应伤害类型为火焰（色彩鲜艳的烈焰，每次使用时颜色随机），吐息形状为锥形，额外无武装攻击为尾巴和翼。你的第一项族裔属性提升可以选择魅力、感知或智力来代替力量。你的法术属于奥术传统。</p>"
+    },
+    "Phase Dragon": {
+      "name": "相位龙 Phase Dragon",
+      "description": "<p>你是一头相位龙，传送与奇异的力量使你的部分身体时隐时现，让你能轻易击中虚体敌人。你对虚体生物进行的武器攻击和无武装攻击变为魔法攻击；如果这些攻击原本已具有魔法，则改为获得<em>幽冥</em>性能符文的效果。你的对应伤害类型为力场，吐息形状为锥形，额外无武装攻击为尾巴和翼。你的第一项族裔属性提升可以选择敏捷来代替力量。你的法术属于奥术传统。</p>"
+    }
+  }
+}

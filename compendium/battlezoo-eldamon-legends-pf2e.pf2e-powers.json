@@ -1,0 +1,254 @@
+{
+  "label": "威能",
+  "entries": {
+    "Aqua Lash": {
+      "name": "水之鞭挞 Aqua Lash",
+      "description": "<p>你伸展水的力量，以潮汐鞭挞两个生物，用水流触须猛烈地将它们拉到一起或推开。选择你40尺内的两个目标（它们不必彼此相距30尺以内）。敌人受到@Damage[(1+@actor.level)d4[bludgeoning]]{1d4点钝击伤害}，再加上你每级1d4点钝击伤害，具体效果取决于其@Check[reflex|against:eldamon||options:forced-movement]豁免。若你选择自己或盟友作为目标，可以使该目标移动至多40尺。</p><p><strong>高潮</strong> 伤害改为@Damage[(1+@actor.level)d8[bludgeoning]]{1d8点钝击伤害}，再加上你每级1d8点钝击伤害，且你使两个目标彼此远离，而非远离你；但你的强韧豁免承受–2环境减值，直到你的下个回合结束。</p><p><strong>低潮</strong> 射程从40尺增加到60尺。你使两个目标彼此靠近，而非靠近你，且你的强韧豁免获得+2环境加值，直到你的下个回合结束。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.QfsU5gLgdsLEPyiu]{效果：水之鞭挞}</p><hr /><p><strong>大成功</strong> 敌人不受影响。</p><p><strong>成功</strong> 敌人受到一半伤害，且你使其移动5尺。</p><p><strong>失败</strong> 敌人受到全额伤害，且你使其移动20尺。</p><p><strong>大失败</strong> 敌人受到双倍伤害，且你使其移动40尺。</p>"
+    },
+    "Fan of Flames": {
+      "name": "焰扇 Fan of Flames",
+      "description": "<p>你唤出扇形火焰，烧过附近的敌人并蔓延火势。你造成@Damage[(1+@actor.level)d6[fire]]伤害，影响@Template[type:cone|distance:15]内的所有生物，它们进行@Check[reflex|against:eldamon|basic:true]豁免。</p><p>若锥形区域内有生物正在承受由你的火威能造成的持续火焰伤害，它们会将该持续火焰伤害传播给锥形内所有离你更远的其他生物，除非它们的反射豁免大成功。</p><p>5级时，你可以在使用焰扇时选择将锥形区域增大至@Template[type:cone|distance:20]；此后每4级，可以使锥形区域再增大5尺，17级时至多为35尺。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Flame Whip": {
+      "name": "火焰鞭 Flame Whip",
+      "description": "<p>你用烟雾与火焰构成的长鞭抽打敌人。进行一次@Check[type:eldamon-power-attack|defense:ac]{近战威能攻击检定}，目标为一个距离不超过你正常触及距离再加5尺的敌人（若你的触及为5尺，通常即为10尺），造成@Damage[(2+@actor.level)d8[fire]]伤害，以及@Damage[(3+(floor(@actor.level/2)))[persistent,fire]]伤害。</p><hr /><p><strong>大成功</strong> 你对目标造成双倍的火焰伤害及持续火焰伤害。</p><p><strong>成功</strong> 你对目标造成正常的火焰伤害及持续火焰伤害。</p><p><strong>失败</strong> 长鞭未命中，不造成火焰伤害，但少许余烬点燃了目标，造成@Damage[(floor((3+(floor(@actor.level/2)))/2))[persistent,fire]]伤害。</p><p><strong>大失败</strong> 长鞭完全落空，目标毫发无伤。</p><hr /><p><strong>等级（+1） </strong>伤害增加1d8。</p><p><strong>等级（+2）</strong> 持续火焰伤害增加1。</p>"
+    },
+    "Water Curtain": {
+      "name": "水帘 Water Curtain",
+      "description": "<p>你在战场上划出一道水帘，伤害敌人，并如波浪般移动，推动生物随之而行。你在120尺内唤出一道厚5尺、高至多10尺、沿直线延伸至多@Template[type:line|distance:60]{60尺长}的水帘。穿过水帘的生物，或在自身回合开始时位于水帘区域内的生物，都会受到@Damage[(max((ceil(@actor.level/2)),6))d6[bludgeoning]]伤害。水帘持续到你刷新。</p><p>每个生物在自己的每个回合中，只会受到一次力场帷幕的钝击伤害与重新定位效果，即使它在回合开始时身处水帘内随后又穿过水帘，或数次穿过水帘也是如此。对于没有游泳速度的生物，水帘属于高等困难地形，但它足够薄，生物可以在一次行走中穿过或离开水帘，而不必游泳。穿过水帘的物理远程攻击承受–2环境减值；水帘内或另一侧的生物，对必须进入或穿过水帘才能触及它们的酸蚀和火焰攻击获得抗力5。</p><p><strong>高潮：</strong> 在你的回合结束时，你可以选择让水帘向远离你创造它时所在位置的方向移动至多10尺。若如此做，水帘内的生物，以及在水帘移动期间进入其中的生物，都会随其一起移动。</p><p><strong>低潮：</strong> 在你的回合结束时，你可以选择让水帘朝向你创造它时所在的位置移动至多10尺。若如此做，水帘内的生物，以及在水帘移动期间进入其中的生物，都会随其一起移动。</p><hr /><p><strong>等级（+2） </strong>伤害增加1d6。</p>"
+    },
+    "Aqua Punch": {
+      "name": "水之重拳 Aqua Punch",
+      "description": "<p>你以涌动的水流重拳击打敌人。对触及范围内的一个敌人进行@Check[type:eldamon-power-attack|defense:ac]{近战威能攻击检定}，造成@Damage[(2+@actor.level)d6[bludgeoning]]伤害。</p><p>效果取决于你的攻击检定，以及你处于高潮还是低潮。</p><p><strong>高潮：</strong> 伤害改为@Damage[(2+@actor.level)d10[bludgeoning]|options:high-tide-power]伤害。</p><p><strong>低潮：</strong> 你可以对30尺内或触及范围内的目标进行这次近战攻击检定，以较有利者为准。攻击从你选择的30尺内一个方格发出。你仍不能对具有完全掩蔽的目标使用水之重拳，并且必须拥有通往拳击起点的效果线，但从不同方向攻击可能使拳击无视其他类型的掩蔽，或夹击目标。攻击成功时，目标对你的攻击检定承受–1环境减值，持续1轮；大成功时则改为–2环境减值。</p><hr /><p><strong>大成功</strong> 你造成双倍钝击伤害，并使目标移动20尺。</p><p><strong>成功</strong> 你造成正常钝击伤害，并使目标移动10尺。</p><p><strong>失败</strong> 你没有伤害目标，但除非目标主动失去平衡来避开水流，否则涌动的水会使其移动。目标选择让你使其移动5尺，或扰乱自己的架势，使其@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你的下个回合结束。</p><p><strong>大失败</strong> 你的拳击完全落空，目标不受影响。</p><hr /><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.U2aMUOhRLnZOOZUs]{效果：水之重拳}</p><hr /><p><strong>等级（+1） </strong>伤害增加1d6，高潮时则增加1d10。</p>"
+    },
+    "Hidden in the Mist": {
+      "name": "雾中潜藏 Hidden in the Mist",
+      "description": "<p>你在@Template[type:emanation|distance:30]内创造一团水雾，随后可以尝试在雾中躲藏。水雾持续到你的下个回合结束。雾内的所有生物变为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，雾外的所有生物对雾内生物而言也处于隐蔽状态。你能正常看穿水雾；若你具有水波感知，即使不在水下，它也能在雾中生效。你刷新威能，因此可以选择切换至高潮或低潮。</p>"
+    },
+    "Burn Out": {
+      "name": "燃尽 Burn Out",
+      "description": "<p>你让火焰猛然升腾，吞没敌人，并在火势消退时造成猛烈无比的灼烧。60尺内一个正承受由你的火威能造成的持续火焰伤害的生物，受到等于该持续火焰伤害数值四倍的火焰伤害，进行@Check[fortitude|against:eldamon|basic:true]豁免，随后该持续火焰伤害结束。</p>"
+    },
+    "Leviathan": {
+      "name": "利维坦 Leviathan",
+      "description": "<p>你以意志唤来一条神话般的水之鲸蛇，盘绕住所有敌人，除非它们能抵抗其召唤，否则便会短暂被困在那翻涌的形而上巨喉之中。利维坦影响你周围@Template[type:emanation|distance:200]内的一切。区域内所有敌人受到@Damage[(1+@actor.level)d6[bludgeoning]]伤害，结果取决于其@Check[will|against:eldamon]豁免。</p><p><strong>高潮：</strong> 伤害改为@Damage[(1+@actor.level)d10[bludgeoning]|options:high-tide-power]伤害，但你的意志豁免承受–2减值，直到你的下个回合结束。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.ozmTj0Bri31NqMEo]{效果：利维坦（高潮）}</p><p><strong>低潮：</strong> 你将利维坦的力量引入自身，它便赐予你英雄般的伟力。你的攻击检定、察觉检定、豁免和技能检定获得+2状态加值，直到你的下个回合结束。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.4oX7oo58xL8eDDvk]{效果：利维坦（低潮）}</p><hr /><p><strong>大成功</strong> 生物不受伤害，且你使其移动5尺。</p><p><strong>成功</strong> 生物受到一半伤害，且你使其移动10尺。</p><p><strong>失败</strong> 生物受到全额伤害，且你使其移动20尺。</p><p><strong>大失败</strong> 生物受到双倍伤害，且你使其移动40尺。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6，高潮时则增加1d10。</p>"
+    },
+    "Water Gaol": {
+      "name": "水牢 Water Gaol",
+      "description": "<p>你唤出水之牢狱，禁足敌人，并可能使其溺亡。选择60尺内的一个敌人。目标受到的影响取决于其@Check[reflex|against:eldamon]豁免。</p><p>若目标挣脱，水牢便如气泡般破裂；否则至多持续1分钟。敌人被囚禁在水牢中时处于水下，除非能在水下呼吸，否则必须屏住呼吸，不然就会开始窒息。此外，水牢还具有身处水下的其他@UUID[Compendium.pf2e.other-effects.Item.TPbr1kErAAJKBi3V]{效果}：除非敌人具有游泳速度，否则会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}；它获得酸蚀与火焰抗力5；它进行或承受的钝击与挥砍近战攻击承受–2环境减值；它进行或承受的钝击与挥砍远程攻击自动未命中；它不能使用火焰法术或动作。</p><p><strong>高潮：</strong> 在被囚禁生物的每个回合开始时，它因高压受到@Damage[@actor.level[bludgeoning]|options:high-tide-power]伤害。然而，维持压力会消耗你的力量。水牢持续期间，你处于@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}状态。在被囚禁生物的每个回合结束时，你可以使水牢向远离你的方向移动至多30尺。这次移动无视其禁足状态。</p><p><strong>低潮：</strong> 在被囚禁生物的每个回合结束时，你可以使水牢朝你移动至多30尺。这次移动无视其禁足状态。面对被囚禁生物时，你获得高等掩蔽。</p><hr /><p><strong>大成功</strong> 目标不受影响。</p><p><strong>成功</strong> 目标仅被水牢勉强困住，容易逃脱。目标陷入禁足，直到其对抗你的威能DC成功逃脱，或通过@Check[type:athletics|dc:10]检定游出水牢。</p><p><strong>失败</strong> 目标被完全囚禁在水牢中。目标@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，直到其对抗你的威能DC成功逃脱。</p><p><strong>大失败</strong> 目标被水压牢牢固定在水牢中。目标被水牢@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，直到其对抗你的威能DC成功逃脱。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1。</p>"
+    },
+    "Fire Whirl": {
+      "name": "火旋风 Fire Whirl",
+      "description": "<p>你让火焰在周身旋成炽烈的火旋风，绕开你的盟友。你造成@Damage[(1+@actor.level)d6[fire]]伤害，以及等于你等级一半的@Damage[(floor(@actor.level/2))[persistent,fire]]{持续火焰}伤害，影响@Template[type:emanation|distance:30]内的所有敌人，它们进行@Check[reflex|against:eldamon|basic:true]豁免。</p><hr /><p><strong>等级（+1）</strong> 普通伤害增加1d6。</p>"
+    },
+    "Sea Spray": {
+      "name": "海浪飞沫 Sea Spray",
+      "description": "<p>你将水流以难以预测的方式喷成锥形，让自己失去平衡，或将飞沫引回身边保护自己。你造成@Damage[(max((1+@actor.level),2))d4[bludgeoning]]伤害，影响@Template[type:cone|distance:15]内的每个敌人，它们进行@Check[fortitude|against:eldamon|basic:true]豁免。</p><p>5级时，你可以在使用海浪飞沫时选择将锥形区域增大至@Template[type:cone|distance:20]；此后每4级，可以使锥形区域再增大5尺，17级时至多为35尺。</p><p><strong>高潮：</strong> 伤害改为@Damage[(max((1+@actor.level),2))d6[bludgeoning]|options:high-tide-power]伤害。你@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你的下个回合。</p><p><strong>低潮：</strong> 你的AC获得+1环境加值，直到你的下个回合开始；面对对抗海浪飞沫的豁免未取得大成功的生物时，该AC环境加值提升至+2；面对对抗海浪飞沫的豁免大失败的生物时，该AC环境加值提升至+4。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.bpmehE1sbwNKRKzN]{效果：海浪飞沫（低潮）}</p><hr /><p><strong>大成功</strong> 生物不受影响。</p><p><strong>成功</strong> 生物受到一半伤害。</p><p><strong>失败</strong> 生物受到全额伤害，且你使其移动10尺。</p><p><strong>大失败</strong> 生物受到双倍伤害，且你使其移动20尺。</p><hr /><p><strong>等级（+1） </strong>伤害增加1d4，高潮时则增加1d6。</p>"
+    },
+    "Incinerate": {
+      "name": "焚化 Incinerate",
+      "description": "<p>你以火焰之力将单个生物彻底焚化。你造成@Damage[(@actor.level + 1)d8[fire],(floor(@actor.level / 2))[fire,persistent]]{1d8点火焰伤害}，再加上你每级1d8点火焰伤害，以及等于你等级一半的持续火焰伤害，目标为40尺内的一个生物，其进行@Check[fortitude|against:eldamon|basic]豁免。你可以燃烧一项其他威能，将射程增加至80尺，伤害增加至@Damage[(1 + @actor.level)d10[fire],@actor.level[persistent,fire]]{1d10点火焰伤害}再加上你每级1d10点火焰伤害，持续火焰伤害则增加至等于你的等级。</p>"
+    },
+    "Flamewrack": {
+      "name": "烈焰折磨 Flamewrack",
+      "description": "<p>你以烈焰折磨燃烧中的敌人，将它们的身体烧得焦黑，令人作呕。你对40尺内每个正承受持续火焰伤害的敌人造成@Damage[(ceil(@actor.level/2))d6[fire]]伤害，效果取决于其@Check[fortitude|against:eldamon]豁免。</p><hr /><p><strong>大成功</strong> 生物不受影响。</p><p><strong>成功</strong> 生物受到一半伤害，豁免和AC承受–1状态减值，直到其花费一个动作移除该减值。</p><p><strong>失败</strong> 生物受到全额伤害，并@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}。</p><p><strong>大失败</strong> 生物受到双倍伤害，并@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心4}。</p><hr /><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.bk715G04Rz88DQbF]{效果：烈焰折磨（成功）}</p><hr /><p><strong>等级（+2） </strong>伤害增加1d6。</p>"
+    },
+    "Interrupting Torrent": {
+      "name": "截断洪流 Interrupting Torrent",
+      "description": "<p><strong>触发</strong> 60尺内的一个敌人进行移动动作</p>\n<hr />\n<p>敌人开始移动时，你根据当前潮汐迅速推动或拉动它，扰乱其站位。触发生物必须尝试@Check[fortitude|against:eldamon]豁免，产生以下效果。</p>\n<hr />\n<p><strong>大成功</strong> 敌人不受影响。</p>\n<p><strong>成功</strong> 就在敌人移动之前，你使其移动15尺。</p>\n<p><strong>失败</strong> 就在敌人移动之前，你使其移动30尺。</p>\n<p><strong>大失败</strong> 你使敌人移动30尺，且洪流打断触发的移动动作。</p>"
+    },
+    "Water Barrier": {
+      "name": "水之屏障 Water Barrier",
+      "description": "<p>你以水流环绕自己，获得多种身处水下时的防护。直到你的下个回合开始，对你的钝击与挥砍攻击承受–2环境减值，且你获得等于你等级的酸蚀与火焰伤害抗力。你刷新威能，因此可以选择切换至高潮或低潮。</p>"
+    },
+    "All Shall Be Flames": {
+      "name": "万物皆成焰 All Shall Be Flames",
+      "description": "<p><strong>时间</strong> 两轮</p><hr /><p>你花费整整一轮，将火焰能量凝聚成可见的旋焰灵光，随后以烈火吞噬周围世界，只放过你的盟友。当你花完第二组的三个动作来完成此威能后，你造成@Damage[(2*(1+@actor.level))d8[fire]|options:area-damage]{2d8点火焰伤害}，再加上你每级2d8点火焰伤害，影响@Template[type:emanation|distance:60]内除你选择排除的盟友之外的所有生物，它们进行@Check[reflex|against:eldamon|basic]豁免。</p><p>你可以燃烧一项、两项或三项其他威能来强化此效果。燃烧一项威能时，你可以将弥漫半径增大至至多@Template[type:emanation|distance:90]{90尺}，伤害增加等于你等级的数值。燃烧两项威能时，你可以将弥漫半径增大至至多@Template[type:emanation|distance:120]{120尺}，伤害骰从d8变为d10（但不将你的等级加到伤害上）。燃烧三项威能时，你可以将弥漫半径增大至至多@Template[type:emanation|distance:150]{150尺}，伤害骰从d8变为d10，且伤害增加等于你等级的数值。</p>"
+    },
+    "Andvarinaut": {
+      "name": "安德瓦里诺特 Andvarinaut",
+      "description": "<p><strong>需求</strong> 你是传奇爱达梦法夫藏宝龙</p><hr /><p>你唤出不断扩大的金色火环，使沉迷于财富诱惑的生物被烈焰吞噬。火环以你选择的200尺内一点为中心出现，与地面平行，并不断扩大。火环厚10尺，初始内半径为20尺，外半径为30尺。火环持续的时间由你选择，至多1分钟；每轮在你的回合开始时，火环向外扩张，内外半径各增加20尺，消失前至多分别达到220尺和230尺。在自身回合开始时位于火环内、进入火环，或被扩张的火环扫过的生物，会受到你每两级@Damage[(ceil(@actor.level/2))d8[fire]|options:area-effect]{1d8点火焰伤害}，等级除以二后向上取整；一个生物每轮只能以此方式受到一次伤害，即使它数次进入火环也是如此。此外，除了你使用此威能时明确选定的生物之外，任何生物第一次看见火环时，都必须尝试@Check[will|against:eldamon|traits:visual]豁免。失败时，在火环持续期间，它会被火环@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}，且敌对行动不会终止该迷魂。大失败时，它会沉迷到这样的程度：只要仍被迷魂，就必须在自己的每个回合花费一个动作，尽可能尝试移入火环；不过，若回合开始时已在火环内，就不必花费动作。这种迷魂是视觉效果。</p>"
+    },
+    "Hydro Bullet": {
+      "name": "水弹 Hydro Bullet",
+      "description": "<p>你向敌人射出强力水弹。对60尺内的一个敌人进行@Check[type:eldamon-power-attack|defense:ac]{远程威能攻击检定}，造成@Damage[(2+@actor.level)d4[bludgeoning]]伤害。</p><p><strong>高潮：</strong> 伤害增加至@Damage[(2+@actor.level)d8[bludgeoning]|options:high-tide-power]伤害，代价是强烈的后坐力。你@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你的下个回合。</p><p><strong>低潮：</strong> 水弹从你60尺内的某处发出，向你飞回。你仍不能对具有完全掩蔽的目标使用水弹，且必须拥有通往水弹起点的效果线，但从不同方向攻击可能使水弹无视其他类型的掩蔽。</p><hr /><p><strong>大成功</strong> 你对敌人造成双倍钝击伤害，并使其移动20尺。</p><p><strong>成功</strong> 你对敌人造成正常钝击伤害，并使其移动10尺。</p><p><strong>失败</strong> 除非敌人随水弹一起移动，否则无法避免被擦中。敌人选择受到@Damage[(2+@actor.level)[bludgeoning]]伤害，或让你使其移动5尺。</p><p><strong>大失败</strong> 水弹完全落空。</p><hr /><p><strong>等级（+1） </strong>伤害增加1d4，高潮时则增加1d8。</p>"
+    },
+    "Muspell": {
+      "name": "穆斯贝尔 Muspell",
+      "description": "<p>你选择性地将周围世界与元素火焰的源泉重叠，焚尽一切令你不悦之物。500尺内的世界仿佛瞬间闪烁消失，取而代之的是目力所及的无边火焰。</p><p>你在射程内选定的生物受到@Damage[(1+@actor.level)d8[fire]]伤害，进行@Check[will|against:eldamon|basic:true]豁免，以免周围世界在一瞬间被拉入火之领域。</p>"
+    },
+    "Combusting Sparks": {
+      "name": "引燃火花 Combusting Sparks",
+      "description": "<p>你射出火花，点燃敌人，除非其身体能承受这次燃烧。你造成@Damage[(@actor.level + 1)d6[fire]|options:area-damage]{1d6点火焰伤害}，再加上你每级1d6点火焰伤害，目标为20尺内的一个生物；还会造成等于1加上你等级一半的@Damage[(1 + floor(@actor.level / 2))[persistent,fire]|options:area-damage]{持续火焰伤害}，目标进行@Check[fortitude|against:eldamon|basic|options:area-effect]豁免。5级时，射程增加至30尺；此后每4级，射程再增加10尺，17级时至多为60尺。</p>"
+    },
+    "Storm Surge": {
+      "name": "风暴潮 Storm Surge",
+      "description": "<p>一股水流从你身边向外涌出，或朝你奔涌而来，冲击你的敌人。你造成@Damage[(max((1+@actor.level),6))d4[bludgeoning]|options:high-tide-power]伤害，影响@Template[type:emanation|distance:30]内的所有敌人，具体效果取决于其@Check[fortitude|against:eldamon]豁免。</p><p><strong>高潮：</strong>伤害改为@Damage[(max((1+@actor.level),6))d8[bludgeoning]]伤害，但突如其来的水流扰乱了你的反应。你的反射豁免承受–2环境减值，直到你下个回合结束。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.fdgqSSrOsrq1yoRO]{效果：风暴潮（高潮）}</p><p><strong>低潮：</strong>你聚拢奔涌的水流，帮助自己跃出敌方效果的范围。你的反射豁免获得+2环境加值，直到你下个回合结束。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.BPlem9tBkw6ztaBd]{效果：风暴潮（低潮）}</p><hr /><p><strong>大成功</strong> 敌人不受影响。</p><p><strong>成功</strong> 敌人受到一半伤害。</p><p><strong>失败</strong> 敌人受到全额伤害，且你将其移动10尺。</p><p><strong>大失败</strong> 该生物受到双倍伤害，你将其移动10尺，然后使其@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><hr /><p><strong>等级（+1）</strong>伤害增加1d4，高潮时则增加1d8。</p>"
+    },
+    "Retributive Wave": {
+      "name": "报复浪潮 Retributive Wave",
+      "description": "<p><strong>触发</strong> 一个生物以近战攻击命中你。</p>\n<hr />\n<p>你唤起一道波浪，根据你的潮汐将敌人推向你或推离你。该生物必须尝试一次@Check[fortitude|against:eldamon]豁免，效果如下。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物选择让你将其移动5尺，或陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到其下个回合结束。</p>\n<p><strong>失败</strong> 你将该生物移动10尺。若你处于低潮且该生物原本就与你相邻，其陷入措手不及，直到其下个回合结束。</p>\n<p><strong>大失败</strong> 你将该生物移动20尺。若你处于低潮且该生物原本就与你相邻，其陷入措手不及，持续2轮。</p>"
+    },
+    "Scylla": {
+      "name": "斯库拉 Scylla",
+      "description": "<p><strong>需求</strong> 你是传奇爱达梦安菲特里希</p><hr /><p>你唤起水最深邃的谜题，水流扭曲成一个你曾背叛并束缚在身边之人的显化形体。这个不可思议的形体，其下半身由水构成犬首与蛇尾。在你的每个回合结束时，显化形体袭击60尺内的敌人，根据潮汐将其移动并造成@Damage[(@actor.level)d4[bludgeoning]]{每等级1d4伤害}，具体效果取决于其@Check[reflex|against:eldamon]豁免。区域内的盟友可以在你的回合结束时沿潮汐方向移动至多20尺，且不会受伤。显化形体持续到你刷新为止，但敌人可以花费一个具有专注特征的单动作，并在对抗你威能DC的@Check[perception|against:eldamon]检定、@Check[will|against:eldamon]豁免或@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}检定中成功，来解开谜题。这使其能够忽略任何剩余效果，并移除因大失败而获得的@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}或惊惧状态。</p><p><strong>高潮</strong> 伤害从1d4提高至@Damage[(@actor.level)d6[bludgeoning]]{1d6}，但悔恨之情令你分心，在显化形体持续期间，你的察觉检定和意志豁免承受–2减值。</p><p><strong>低潮</strong> 释然之情使你振作，你能借助显化形体的众多眼睛从新的视角观察。在显化形体持续期间，你的察觉检定和意志豁免获得+2状态加值，且不会因夹击而陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.sxaX72uN0Puhzu5c]{效果：斯库拉}</p><hr /><p><strong>大成功</strong> 敌人不受影响。</p><p><strong>成功</strong> 敌人受到一半伤害，且你将其移动5尺。</p><p><strong>失败</strong> 敌人受到全额伤害，且你将其移动10尺。</p><p><strong>大失败</strong> 敌人受到全额伤害，你将其移动30尺；其还会在显化形体持续期间被显化形体迷魂（低潮），或因显化形体而陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}（高潮）。敌对行为不会提前结束此迷魂。</p>"
+    },
+    "Ignite": {
+      "name": "点燃 Ignite",
+      "description": "<p>你点燃敌人，使其熊熊燃烧。你对30尺内的一个目标造成@Damage[(@actor.level*2)[persistent,fire]]伤害，具体效果取决于其@Check[fortitude|against:eldamon]豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物受到一半持续火焰伤害。</p><p><strong>失败</strong> 该生物受到全额持续火焰伤害。</p><p><strong>大失败</strong> 该生物受到全额持续火焰伤害，并立即受到@Damage[(4*@actor.level)[fire]]的灼烧伤害。</p><hr /><p><strong>等级（+1）</strong> 伤害增加2。</p>"
+    },
+    "Ocean Torrent": {
+      "name": "海洋洪流 Ocean Torrent",
+      "description": "<p>你动用储备的耐力，创造一道直线形海水洪流。你造成@Damage[(1+@actor.level)d4[bludgeoning]]伤害，影响@Template[type:line|distance:40]内的所有敌人，具体效果取决于其@Check[fortitude|against:eldamon]豁免。</p><p>7级时，你使用海洋洪流时可以选择将直线的长度增至@Template[type:line|distance:50]；此后每4级，你都可以将直线的长度额外增加10尺，最高在19级时达到80尺。</p><p><strong>高潮：</strong>伤害改为@Damage[(1+@actor.level)d8[bludgeoning]|options:high-tide-power]伤害，代价是消耗你的耐力。你的强韧豁免承受–2环境减值，直到你下个回合结束。</p><p><strong>低潮：</strong>你将洪流聚向自身，增强耐力。你的强韧豁免获得+2环境加值，直到你下个回合结束。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物受到一半伤害。</p><p><strong>失败</strong> 该生物受到全额伤害，且你将其移动10尺。</p><p><strong>大失败</strong> 该生物受到双倍伤害，且你将其移动20尺。</p><hr /><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.Qo8ccw1GcVpmOOxd]{效果：海洋洪流（高潮）}</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.bfYTSksrTpFrN764]{效果：海洋洪流（低潮）}</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d4。</p>"
+    },
+    "Unrelenting Jet": {
+      "name": "不息喷流 Unrelenting Jet",
+      "description": "<p>你唤出一颗水球，向一个敌人持续喷射水流，试图阻止其接近或@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}。你对60尺内的一个敌人造成@Damage[(max((1+@actor.level),6))d4[bludgeoning]]伤害，具体效果取决于其@Check[fortitude|against:eldamon]豁免。</p><p><strong>高潮：</strong>伤害改为@Damage[(max((1+@actor.level),6))d8[bludgeoning]|options:high-tide-power]伤害，但你的AC承受–2减值，直到你下个回合结束。</p><p><strong>低潮：</strong>除非目标的豁免大成功，否则其对你的攻击检定承受–2环境减值，直到你下个回合结束。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 目标受到一半伤害，且逆着水柱移动（高潮时朝向你，低潮时远离你）对其而言视为困难地形，持续1轮。</p><p><strong>失败</strong> 目标受到全额伤害，你将其移动5尺，且逆着水柱移动（高潮时朝向你，低潮时远离你）对其而言视为高等困难地形，持续1轮。</p><p><strong>大失败</strong> 目标受到双倍伤害，你将其移动10尺，且其在1轮内无法逆着水柱移动（高潮时朝向你，低潮时远离你）。</p><hr /><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.s7OtrwAXwaGWVT10]{效果：不息喷流（高潮）}</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.Be68woo4zufVqnxc]{效果：不息喷流（低潮）}</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d4，高潮时则增加1d8。</p>"
+    },
+    "Crossfire": {
+      "name": "交叉火线 Crossfire",
+      "description": "<p>你以一道炽热的火焰光束烧穿敌人，或引出更多力量，制造两道光束的交叉火线。选择30尺内的一个敌人，并以该敌人为中心画出一道@Template[type:line|distance:30]，无需从你的空间起始。区域内的所有敌人受到@Damage[(1+@actor.level)d6[fire]|options:area-damage]{1d6火焰伤害}，再加上每等级1d6伤害，并进行@Check[fortitude|against:eldamon|basic|options:area-effect]豁免。你可以燃烧自己的另一个威能，改为以该敌人为中心画出两道直线，并将区域内敌人受到的伤害提高至@Damage[(1+@actor.level)d8[fire]|options:area-damage]{1d8火焰伤害}，再加上每等级1d8伤害；同时处于两道直线内的敌人，与只处于一道直线内的敌人受到的伤害相同。</p>"
+    },
+    "Rushing Current": {
+      "name": "奔涌激流 Rushing Current",
+      "description": "<p>你创造一道宽阔的水流，猛击敌人，并使逆流移动变得困难。这道水流是宽15尺的@Template[type:line|distance:60|width:15]。你使用此威能时，区域内的敌人受到@Damage[(max((1+@actor.level),10))d6[bludgeoning]]伤害，具体取决于其@Check[reflex|against:eldamon]豁免。</p><p>在该区域内逆流移动（若你在高潮使用奔涌激流，则朝向你；若你在低潮使用奔涌洪流，则远离你）视为困难地形，持续1轮。</p><p><strong>高潮：</strong>伤害改为@Damage[(max((1+@actor.level),10))d8[bludgeoning]|options:high-tide-power]伤害，但你的反射豁免承受-2减值，直到你下个回合结束。</p><p><strong>低潮：</strong>你的反射豁免获得+2环境加值，直到你下个回合结束。</p><hr /><p><strong>大成功</strong> 敌人不受影响。</p><p><strong>成功</strong> 敌人受到一半伤害，且你将其移动5尺。</p><p><strong>失败</strong> 敌人受到全额伤害，且你将其移动10尺。</p><p><strong>大失败</strong> 敌人受到双倍伤害，且你将其移动20尺。</p><hr /><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.bIefoFLc8f59bJl6]{效果：奔涌激流（高潮）}</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.jAKO8B23405V0St9]{效果：奔涌激流（低潮）}</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6，高潮时则增加1d8。</p>"
+    },
+    "Meteor": {
+      "name": "陨星 Meteor",
+      "description": "<p>你从高空召下一颗陨星，在极远处砸向敌人，碎裂并爆炸。</p><p>陨星落在500尺内的一个@Template[type:burst|distance:30]中，对区域内的每个生物造成@Damage[(1+@actor.level)[bludgeoning]]伤害，然后爆炸，对区域内的每个生物造成@Damage[(1+@actor.level)d6[fire]]伤害。</p><p>区域内的生物进行一次@Check[reflex|against:eldamon|basic:true]豁免，对抗陨星造成的全部伤害。</p><hr /><p><strong>等级（+1）</strong> 钝击伤害增加1。</p><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Fire Trap": {
+      "name": "火焰陷阱 Fire Trap",
+      "description": "<p>你在地面上设置一个燃烧陷阱，使第一个踩上去的生物迎来烈火中的末路。选择60尺内地面上的一个5尺方格。第一个进入所选方格的生物，以及该方格周围@Template[type:emanation|distance:5]内的所有其他生物，受到@Damage[(1+@actor.level)d12[fire]]伤害，并进行@Check[reflex|against:eldamon|basic:true]豁免。</p><p>目睹你使用火焰陷阱的人能清楚看见你将它放在哪里，但使用火焰陷阱后，陷阱就变得难以察觉，需要通过对抗你威能DC的@Check[type:perception|against:eldamon]检定才能发现。陷阱持续到你刷新为止。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d12。</p>"
+    },
+    "Flamethrower": {
+      "name": "火焰喷射 Flamethrower",
+      "description": "<p>你释放一股烈焰洪流，灼烧火焰喷射路径上的生物。你造成@Damage[(1+@actor.level)d6[fire]]伤害，以及@Damage[(floor(@actor.level/2))[persistent,fire]]伤害，影响@Template[type:line|distance:60]内的所有生物，这些生物需进行@Check[reflex|against:eldamon|basic:true]豁免。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p><p><strong>等级（+2）</strong> 持续伤害增加1。</p>"
+    },
+    "Bubble Swarm": {
+      "name": "气泡群 Bubble Swarm",
+      "description": "<p>你刷新威能时凝成无数水泡，它们成群沿潮汐方向涌去，推动你的敌人。你移动@Template[type:emanation|distance:20]内的敌人，具体取决于其@Check[fortitude|against:eldamon]豁免。你刷新威能，因此可以自行选择变为高潮或低潮。</p><p><strong>低潮：</strong>水泡聚拢在你身边，使你的AC获得+2环境加值，直到你下个回合开始。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.O5qAywGhFe9k89J4]{效果：气泡群}</p><hr /><p><strong>成功</strong> 敌人不受影响。</p><p>失败 你将敌人移动10尺。</p><p><strong>大失败</strong> 你将敌人移动20尺。</p>"
+    },
+    "Thalassic Reel": {
+      "name": "海潮收线 Thalassic Reel",
+      "description": "<p>你用水形成一条强劲的钓线，将一个生物收线拉近或甩向远方。选择120尺内的一个生物。若你选择的是盟友，你可以将其移动至多大成功时允许的完整距离，而不造成伤害。否则，你造成@Damage[(1+@actor.level)d6[bludgeoning]]{1d6钝击伤害}，再加上每等级1d6钝击伤害，具体效果取决于你的远程威能攻击检定。</p><p><strong>高潮</strong> 伤害改为@Damage[(1+@actor.level)d10[bludgeoning]]伤害，再加上每等级1d10钝击伤害，但钓线的强大拉力会使你@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}，且即使你站起，也仍处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态，直到你下个回合结束。</p><p><strong>低潮</strong> 射程增加至240尺；攻击成功时，敌人对你的攻击检定承受–2环境减值，直到你下个回合结束。大成功时，若你选择将敌人拉向你，你可以将其一路移动至与你相邻的位置（或其间任意距离），而非80尺。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.8fhlwaMnccZLRSJG]{效果：海潮收线}</p><hr /><p><strong>大成功</strong> 你造成双倍伤害，并将敌人移动80尺。</p><p><strong>成功</strong> 你造成全额伤害，并将敌人移动40尺。</p><p><strong>失败</strong> 你不造成伤害，但将敌人移动20尺。</p><p><strong>大失败</strong> 你的钓线完全落空，毫无效果。</p>"
+    },
+    "Flame Cannon": {
+      "name": "火焰炮 Flame Cannon",
+      "description": "<p>你发射火焰炮弹，炸开一团炽烈的火光。你造成@Damage[(@actor.level + 1)d6[fire],(floor(@actor.level / 2) +1)[persistent,fire]]{1d6火焰伤害}，再加上每等级1d6火焰伤害，以及等于1加上你等级一半的持续火焰伤害，影响60尺内一个半径至多20尺的爆发区域中的所有生物，这些生物需进行@Check[reflex|against:eldamon|basic]豁免。你可以燃烧自己的另一个威能，将爆发区域的射程提高至120尺、半径提高至至多30尺，并将伤害提高至@Damage[(@actor.level + 1)d8[fire],(floor(@actor.level / 2) +1)[persistent,fire]]{1d8火焰伤害}，再加上每等级1d8火焰伤害。</p>"
+    },
+    "Final Explosion": {
+      "name": "终末爆炸 Final Explosion",
+      "description": "<p><strong>触发</strong> 一个敌人将你的生命值降至0，使你@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，或将你杀死。</p><hr /><p>既然你要倒下，世界也将与你一同燃烧。你选择一个至多30尺的半径，弥漫区域内的生物受到@Damage[(1+@actor.level)d4[fire]]{1d4火焰伤害}，再加上每等级1d4火焰伤害，并进行@Check[reflex|against:eldamon|basic]豁免。若触发伤害未将你杀死，火焰会烧灼你的伤口，使你稳定。</p>"
+    },
+    "Bubble Burst": {
+      "name": "气泡爆裂 Bubble Burst",
+      "description": "<p>你在敌人周围召唤一个巨大的气泡，气泡爆裂，将敌人向外推开或向内吸入。你造成@Damage[(1+@actor.level)d4[bludgeoning]]伤害，影响120尺内一个@Template[type:burst|distance:30]中的所有敌人，具体取决于其@Check[reflex|against:eldamon]豁免。</p><p><strong>高潮：</strong>伤害改为@Damage[(1+@actor.level)d8[bludgeoning]|options:high-tide-power]伤害，但你的AC承受–2减值，直到你下个回合结束。气泡爆裂移动生物时，不是将其推离你，而是使其远离爆发区域的中心。这是强迫移动。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.4jBsevZHp1D3WFFu]{效果：气泡爆裂（高潮）}</p><p><strong>低潮：</strong>除非豁免大成功，否则区域内的敌人对你的攻击检定承受–2环境减值，直到你下个回合结束。气泡爆裂移动生物时，不是将其拉向你，而是使其朝爆发区域的中心移动。这是强迫移动。若气泡中心附近没有足够的空间，距离中心较近的生物先移动，其余生物在不被阻挡的情况下尽可能移动，至多移动其豁免结果指定的距离。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.eodo23kQ8nTVj5np]{效果：气泡爆裂（低潮）}</p><hr /><p><strong>大成功</strong> 敌人不受影响。</p><p><strong>成功</strong> 敌人受到一半伤害，且你将其移动5尺。</p><p><strong>失败</strong> 敌人受到全额伤害，且你将其移动10尺。</p><p><strong>大失败</strong> 敌人受到双倍伤害，且你将其移动20尺。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d4，高潮时则增加1d8。</p>"
+    },
+    "Aqueous Embrace": {
+      "name": "水之拥抱 Aqueous Embrace",
+      "description": "<p>你以潮水环绕自身，推拉与你接触的敌人。直到你刷新为止，对于以近战攻击命中你的相邻生物，以及触碰你或以无武装攻击命中你的生物，你可以将其移动，具体取决于其@Check[fortitude|against:eldamon]豁免结果。</p><p>与大多数水元素威能不同，水之拥抱的效果并不取决于你施展该威能时的潮汐，而是随你每次使用威能时的当前潮汐而变化。你使用水之拥抱时仍会改变潮汐。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物不移动。若你处于低潮且该生物已经与你相邻，其受到@Damage[(floor(@actor.level/2))[bludgeoning]]{钝击伤害}，数值等于你等级的一半。</p><p><strong>失败</strong> 你可以将该生物移动至多10尺。若你处于低潮且该生物已经与你相邻，其受到@Damage[(@actor.level)[bludgeoning]]伤害。</p><p><strong>大失败</strong> 你可以将该生物移动至多20尺。若你处于低潮且该生物已经与你相邻，其受到@Damage[(2*@actor.level)[bludgeoning]]伤害。</p><hr /><p><strong>等级（+1）</strong> 失败时的伤害增加1，大失败时的伤害增加2。</p>"
+    },
+    "Pillar of Wildfire": {
+      "name": "野火之柱 Pillar of Wildfire",
+      "description": "<p>你召下一道巨大的野火之柱，焚烧并点燃柱内的敌人。火柱是一个垂直圆柱体，半径由你在5尺至15尺之间选择，高度由你在40尺至200尺之间选择；其底部中心必须位于你200尺内，但顶部或远端可以延伸到射程之外。</p><p>你造成@Damage[(1+@actor.level)d8[fire]]伤害，以及@Damage[(floor(@actor.level/2))[persistent,fire]]{持续火焰}伤害，持续伤害数值等于你等级的一半，影响区域内的每个生物，这些生物需进行@Check[reflex|against:eldamon|basic:true]豁免。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d8。</p>"
+    },
+    "Tidal Call": {
+      "name": "潮汐呼唤 Tidal Call",
+      "description": "<p>你发出潮汐的呼唤，根据当前潮汐强化自愿的盟友。你刷新威能，因此可以自行选择变为高潮或低潮。</p><p><strong>低潮</strong> 30尺内的盟友可以选择被拉向你5尺，并获得AC的+1状态加值，直到你下个回合开始。</p><p><strong>高潮</strong> 30尺内的盟友可以选择被推离你5尺，并获得攻击检定的+1状态加值及伤害掷骰的+2状态加值，直到你下个回合开始；若其如此做，其AC在相同时长内也承受–1环境减值。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.cgnjLM2NAVxQnFpy]{效果：潮汐呼唤}</p>"
+    },
+    "Fire Breath": {
+      "name": "炎息 Fire Breath",
+      "description": "<p>你像红龙一样吐出一道极其巨大的锥形火焰，焚尽敌人。锥形范围由你在@Template[type:cone|distance:15]至@Template[type:cone|distance:80]之间选择；若你花费三个动作，可以选择至多@Template[type:cone|distance:120]的锥形范围。</p><p>区域内的生物受到@Damage[(1+@actor.level)d8[fire]]伤害，并进行@Check[reflex|against:eldamon|basic:true]豁免。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d8。</p>"
+    },
+    "Flash Flood": {
+      "name": "暴洪 Flash Flood",
+      "description": "<p>你创造一场突如其来的洪水，淹没区域。洪水冲过200尺内一个50尺×50尺的区域。区域内的敌人受到@Damage[(1+@actor.level)d6[bludgeoning]]伤害，具体取决于其@Check[fortitude|against:eldamon]豁免。该区域变为困难地形，直到你刷新为止，但拥有游泳速度的生物不受此影响。</p><p><strong>高潮：</strong>伤害改为@Damage[(1+@actor.level)d8[bludgeoning]|options:high-tide-power]伤害，但你陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你下个回合结束。</p><p><strong>低潮：</strong>该区域留下及膝深的积水，对没有游泳速度的生物而言，变为高等困难地形，而非困难地形。</p><hr /><p><strong>大成功</strong> 敌人不受影响。</p><p><strong>成功</strong> 敌人受到一半伤害，且你将其移动10尺。</p><p><strong>失败</strong> 敌人受到全额伤害，且你将其移动20尺。</p><p><strong>大失败</strong> 敌人受到双倍伤害，且你将其移动40尺。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6，高潮时则增加1d8。</p>"
+    },
+    "Trail Blaze": {
+      "name": "开拓之焰 Trail Blaze",
+      "description": "<p>你周身燃起火焰，向前冲去，在身后留下灼烧敌人的火焰轨迹。你进行行走或@UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{翻滚}，在移动期间进入的每个空间留下火焰，持续到你下个回合结束。</p><p>在火焰中开始回合或穿过火焰的生物受到@Damage[(1+@actor.level)d6[fire]]伤害。每个生物只会受到一次开拓之焰的火焰伤害，即使其在火焰中开始回合后又穿过火焰，或多次穿过火焰也是如此。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Explosion": {
+      "name": "爆炸 Explosion",
+      "description": "<p>你使一个燃烧中的生物自行爆燃，对其自身及周围的一切造成爆炸伤害。选择60尺内一个正在受到持续火焰伤害的生物。目标爆炸，受到@Damage[(1+@actor.level)d10[fire]]伤害，并进行@Check[fortitude|against:eldamon|basic:true]豁免。</p><p>你可以选择目标发出的爆炸大小，形成至少5尺、至多30尺的弥漫区域。弥漫区域内的所有其他生物受到你对目标掷出的伤害的一半（在应用目标的豁免、抗力、弱点等之前），并进行@Check[reflex|against:eldamon|basic:true]豁免。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d10。</p>"
+    },
+    "Flowing River": {
+      "name": "奔流之河 Flowing River",
+      "description": "<p>你随一股急流向前涌去，在身后留下蜿蜒的河流，冲击敌人。你进行行走或@UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{翻滚}，在移动期间进入的每个空间留下翻腾的水流，持续到你下个回合结束。在水流中开始回合或穿过水流的敌人受到@Damage[(1+@actor.level)d4[bludgeoning]]伤害，并可能沿河流被移动，具体取决于其@Check[fortitude|against:eldamon]豁免。</p><p>每个生物只会受到一次奔流之河的钝击伤害，并只承受一次被移动的风险，即使其在水流中开始回合后又穿过水流，或多次穿过水流也是如此。</p><p><strong>高潮：</strong>伤害改为@Damage[(1+@actor.level)d8[bludgeoning]|options:high-tide-power]伤害。完成奔流之河的移动后，你陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，直到你下个回合结束。当你将生物移离你时，其沿着河流的路径移动，而非直接远离你。</p><p><strong>低潮：</strong>完成奔流之河的移动后，你的各项速度获得+30尺状态加值，直到你下个回合结束。当你将生物移向你时，其沿着河流的路径移动，而非直接朝向你。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.mXZVdxasiR7QA8uU]{效果：奔流之河（低潮）}</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 目标受到一半伤害，且你将其移动10尺。</p><p><strong>失败</strong> 目标受到全额伤害，且你将其移动20尺。</p><p><strong>大失败</strong> 目标受到双倍伤害，且你将其移动30尺。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d4，高潮时则增加1d8。</p>"
+    },
+    "Liquefy Air": {
+      "name": "液化空气 Liquefy Air",
+      "description": "<p><strong>触发</strong> 一个生物以远程攻击将你作为目标，且你能看见攻击者。</p>\n<hr />\n<p>你将自己与该生物之间的空气液化。若触发攻击是物理攻击，其射程增量减半；若该攻击造成钝击或挥砍伤害，还承受–2环境减值。缩短后的射程增量可能使你位于该攻击的最大射程之外，此时攻击无需进行攻击检定就会自动未命中你。你对触发攻击的酸蚀和火焰伤害获得等于你等级的抗力。虽然你的潮汐不影响此威能，但它仍会改变你的潮汐。</p>\n<hr />\n<p><strong>特殊</strong> 若你在水下，此威能改为使水更黏稠，将环境减值提高至–4，并使此减值和射程增量减半适用于所有远程武器攻击与远程无武装攻击，即使它们不是物理攻击也是如此。然而，此威能造成的射程增量减半，不会与水下穿刺远程攻击通常承受的射程增量缩短叠加。</p>"
+    },
+    "Charybdis": {
+      "name": "卡律布狄斯 Charybdis",
+      "description": "<p>你在@Template[type:emanation|distance:60]内唤起一个旋转的巨大水漩涡，将敌人吸入或喷出。在你的每个回合结束时，漩涡呼啸翻卷，对区域内的每个敌人造成@Damage[(floor(@actor.level/2))d6[bludgeoning]]伤害，具体效果取决于其@Check[fortitude|against:eldamon]豁免。漩涡持续到你刷新为止。</p><p><strong>高潮：</strong>伤害改为@Damage[(floor(@actor.level/2))d10[bludgeoning]|options:high-tide-power]伤害，但在漩涡持续期间，你处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态。</p><p><strong>低潮：</strong>在漩涡持续期间，你的AC获得+2状态加值。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.LOZSTFUALZeY9PBH]{效果：卡律布狄斯（低潮）}</p><hr /><p><strong>大成功</strong> 敌人不受影响。</p><p><strong>成功</strong> 敌人受到一半伤害，且你将其移动10尺。</p><p><strong>失败</strong> 敌人受到全额伤害，且你将其移动20尺。</p><p><strong>大失败</strong> 敌人受到双倍伤害，且你将其移动40尺。</p><hr /><p><strong>等级（20级）</strong> 伤害增加1d6，高潮时则增加1d10。</p>"
+    },
+    "Tsunami": {
+      "name": "海啸 Tsunami",
+      "description": "<p>你释放一道巨浪，摧毁面前的一切。巨浪至多60尺宽，以你的空间为中心，高至多100尺，并向外奔涌至距离你120尺处。区域内的敌人受到@Damage[(1+@actor.level)d6[bludgeoning]|options:high-tide-power]伤害，具体取决于其@Check[reflex|against:eldamon]豁免。</p><p><strong>高潮：</strong>伤害改为@Damage[(1+@actor.level)d8[bludgeoning]]伤害，但你被击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><p><strong>低潮：</strong>巨浪从距离你至多120尺处开始并朝你移动，而非以你的空间为中心起始并远离你。你从海啸获得高等掩蔽，直到你下个回合开始。</p><hr /><p><strong>大成功</strong> 敌人不受伤害，且你将其移动10尺。</p><p><strong>成功</strong> 敌人受到一半伤害，且你将其移动20尺。</p><p><strong>失败</strong> 敌人受到全额伤害，且你将其移动40尺。</p><p><strong>大失败</strong> 敌人受到双倍伤害，且你将其移动80尺。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6，高潮时则增加1d8。</p>"
+    },
+    "Immortal Water Dragon": {
+      "name": "不朽水龙 Immortal Water Dragon",
+      "description": "<p>你形成一条修长蜿蜒的龙，它盘旋扭动，撞向敌人，将其推向你或推离你，而不受龙当前朝向的影响。龙为大型；高潮时从你的空间起始，低潮时则从你选择的120尺内一个空间起始。它沿你选择的一条120尺长的路径游动，低潮时在你的空间结束移动。龙路径上的所有敌人受到@Damage[(1+@actor.level)d6[bludgeoning]]伤害，具体取决于其@Check[reflex|against:eldamon]豁免。每个生物只受龙影响一次，即使路径多次经过该生物也是如此。</p><p><strong>高潮：</strong>伤害改为@Damage[(1+@actor.level)d8[bludgeoning]|options:high-tide-power]伤害，且你骑在龙上随它移动，但会失去平衡。你陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你下个回合结束。</p><p><strong>低潮：</strong>龙在你的空间结束移动，并留在那里保护你。你从龙获得高等掩蔽，直到你下个回合结束或你离开龙的空间为止，以先发生者为准。龙不为任何其他人提供掩蔽。</p><hr /><p><strong>大成功</strong> 敌人不受影响。</p><p><strong>成功</strong> 敌人受到一半伤害，且你将其移动5尺。</p><p><strong>失败</strong> 敌人受到全额伤害，且你将其移动10尺。</p><p><strong>大失败</strong> 敌人受到双倍伤害，且你将其移动20尺。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6，高潮时则增加1d8。</p>"
+    },
+    "Phlegethon": {
+      "name": "弗莱格桑 Phlegethon",
+      "description": "<p>你唤起一条狂暴的火河，阻挡敌人的前进，将其烧成焦黑的残骸。你在500尺内唤出一条火河，宽至多30尺、深至多20尺、长至多120尺，呈直线或一道弯曲的弧形。你可以在地面上甚至半空中创造这条河流；奔腾的火焰洪流无视重力。</p><p>以行走或飞行穿过火河时，它属于高等困难地形。不过，生物可以选择尝试游泳穿过火河，前提是这样比行走或飞行穿过高等困难地形更快。</p><p>任何穿过火河，或在自身回合开始时位于火河区域内的生物，都会受到@Damage[(1+@actor.level)d4[fire]]伤害。火河持续到你刷新为止。</p><p>每个生物在自己的每个回合中，只会受到一次弗莱格桑的火焰伤害，即使其在火河中开始回合后又穿过火河，或花费数个动作穿过火河也是如此。不过，若穿过火河需要超过一个回合，其在自己的每个回合都会再次受到伤害。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d4。</p>"
+    },
+    "Inferno": {
+      "name": "烈焰火海 Inferno",
+      "description": "<p>你在附近多个区域引发一片广阔的烈焰火海。火焰焚烧、吞噬至多六个@Template[type:burst|distance:10]{半径10尺的爆发区域}内的生物，这些区域均须位于120尺内。你造成@Damage[(1+@actor.level)d4[fire]]伤害，以及@Damage[(4+(floor(@actor.level/2)))[persistent,fire]]{持续火焰}伤害，持续伤害数值等于4加上你等级的一半，影响区域内所有生物，这些生物需进行@Check[reflex|against:eldamon|basic:true]豁免。即使一个生物同时位于多个爆发区域内，也只会受到一次伤害。</p><hr /><p><strong>等级（+1）</strong> 普通伤害增加1d4。</p>"
+    },
+    "Retributive Burn": {
+      "name": "报复灼烧 Retributive Burn",
+      "description": "<p><strong>触发</strong> 一个与你相邻的生物以攻击命中你，或一个生物以近战无武装攻击命中你</p><hr /><p>敌人胆敢攻击你，你就将其点燃。触发生物受到@Damage[(1+@actor.level)[persistent,fire]]伤害，并进行@Check[reflex|against:eldamon|basic:true]豁免。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1。</p>"
+    },
+    "Stoke the Embers": {
+      "name": "拨旺余烬 Stoke the Embers",
+      "description": "<p><strong>触发</strong> 一个生物通过纯骰检定移除你造成的持续火焰伤害，且成功幅度不超过1（通常是DC为15时，纯骰检定掷出15或16）。</p>\n<hr />\n<p>你拨旺将熄火焰的余烬，使其重新燃烧。触发生物的纯骰检定改为失败。</p>"
+    },
+    "Pelagic Pressure": {
+      "name": "深海重压 Pelagic Pressure",
+      "description": "<p>你在周围形成一道水压灵光，范围为@Template[type:emanation|distance:20]，持续到你刷新为止。区域内的敌人因强大的海水压力而使各项速度承受–10尺环境减值，除非其是水生生物且适应深海。若敌人在灵光内结束回合，其会承受额外效果，具体取决于其@Check[fortitude|against:eldamon|options:area-effec]豁免。在灵光内结束回合的盟友可以选择被移动至多10尺。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.S7p5yXf4BzSujMrL]{灵光：深海重压}</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.FXWf3v7WEhmAONnm]{效果：适应深海}</p><p><strong>高潮</strong> 豁免失败时，敌人受到等于@Damage[(floor(@actor.level/2))[bludgeoning]|immutable|options:area-damage]{你等级一半}的钝击伤害，大失败时则等于@Damage[(@actor.level)[bludgeoning]|immutable|options:area-damage]{你的完整等级}；但压力造成的–10尺速度环境减值也会影响你，即使你是适应深海的水生生物也是如此，还会影响未适应深海的盟友。此高潮效果的伤害不应用任何伤害加值、伤害减值或额外伤害（例如埃特莫伊斯特或海螳虾的元素能力，或恒海纽带或海啸权杖的伤害）。</p><p><strong>低潮</strong> 灵光的范围改为@Template[type:emanation|distance:40]，而非@Template[type:emanation|distance:20]。压力使攻击迟滞：豁免失败的生物对你的攻击检定承受–1环境减值，直到你下个回合结束；大失败时，则改为其所有攻击检定承受–2环境减值，直到你下个回合结束。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.VLeqA4KKpctD56fs]{效果：深海重压（攻击减值）}</p><hr /><p><strong>成功</strong> 敌人不受影响。</p><p><strong>失败</strong> 敌人被移动5尺。</p><p><strong>大失败</strong> 敌人被移动10尺。</p>"
+    },
+    "Aqueous Incarnation": {
+      "name": "水之化身 Aqueous Incarnation",
+      "description": "<p>你以一个完全由水构成的巨大自身形体包裹自己，然后根据潮汐向前疾冲并释放一连串攻击，或先攻击再向后疾退。对10尺内或你的近战触及加5尺内（取较大者）每个你选定的生物进行@Check[eldamon-power-attack|against:ac]{威能攻击检定}，造成@Damage[(1+@actor.level)d6[bludgeoning]]{1d6钝击伤害}，再加上每等级1d6钝击伤害，具体效果取决于你的威能攻击检定。如同其他对多个生物各攻击一次的威能，你在完成所有威能攻击检定后再应用多次攻击减值。</p><p><strong>高潮</strong> 攻击前，你将自己朝敌人移动至多40尺（由你决定接近哪些敌人）；此移动正常触发反应。伤害改为@Damage[(1+@actor.level)d8[bludgeoning]]{1d8钝击伤害}，再加上每等级1d8钝击伤害，但攻击后，水之化身爆散成奔涌的水流，令你踉跄跌向地面，并陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你下个回合结束。</p><p><strong>低潮</strong> 先进行攻击。随后，水之化身以水流小心地将你拉离敌人40尺（若你被包围，由你决定远离哪个敌人）；此移动不触发基于移动的反应，且水之化身会保留下来。直到你下个回合结束，你都将它的身体用作自己的身体，使你的体型增大一级或变为大型（取较大者），触及增加5尺或变为10尺（取较大者），并获得@UUID[Compendium.pf2e.other-effects.Item.I9lfZUiCwMiGogVi]{标准掩蔽}。</p><hr /><p><strong>大成功</strong> 该生物受到双倍伤害。</p><p><strong>成功</strong> 该生物受到全额伤害。</p><p><strong>失败</strong> 擦过目标的攻击使该生物受到等于@Damage[(1+@actor.level)[bludgeoning]]{1加上你等级}的伤害。</p><p><strong>大失败</strong> 攻击完全落空。</p>"
+    },
+    "Calamitous Deluge": {
+      "name": "灾厄洪流 Calamitous Deluge",
+      "description": "<p>你向一个区域倾泻无尽的洪水，借助洪水自身的力量伤害、移动敌人。灾厄洪流充满你120尺内的一个@Template[type:burst|distance:20]。在区域内开始回合的敌人受到@Damage[(ceil(@actor.level/2)d6)[bludgeoning]]伤害，且你将其移动15尺。洪流持续到你刷新为止。</p><p><strong>高潮：</strong>洪流移动生物时，不是将其推离你，而是使其远离洪流的中心。这是强迫移动。伤害提高至@Damage[(@actor.level)d4[bludgeoning]|options:high-tide-power]伤害。不过，在洪流持续期间，你处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态。</p><p><strong>低潮：</strong>洪流移动生物时，不是将其拉向你，而是使其朝洪流的中心移动。这是强迫移动。若洪流中心附近没有足够的空间，距离中心较近的生物先移动，其余生物在不被阻挡的情况下尽可能移动。当你在洪流中时，你和盟友处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态，但其他生物对你而言并非隐蔽。</p><hr /><p><strong>等级（+1）</strong> 高潮时的伤害增加1d4。</p><p><strong>等级（+2）</strong> 普通伤害增加1d6。</p>"
+    },
+    "Spread the Blaze": {
+      "name": "烈焰蔓延 Spread the Blaze",
+      "description": "<p>你让烈焰蔓延，灼烧附近的敌人，并在元素能量中勾勒图案以恢复威能。对于你30尺内每个正受到持续火焰伤害的敌人，你可以选择将该持续火焰伤害传播给射程内且距离该敌人15尺内的另一个敌人。你刷新威能。</p>"
+    },
+    "Wreathe in Tides": {
+      "name": "潮汐护身 Wreathe in Tides",
+      "description": "<p><strong>触发</strong> 你正受到调整AC的水元素威能效果影响时，一个敌人攻击你；或者，你正受到调整某项豁免的水元素威能效果影响时，一个敌人迫使你尝试该豁免。</p><hr /><p>潮汐的力量在最后一刻发生转变，保护你免受伤害。若你用于对抗触发效果的防御正承受高潮带来的减值，你忽略此减值，并将低潮本应给予该防御的对应加值或益处（如有）应用于此防御。若你的防御已经获得低潮的加值，对抗触发效果时此加值提高至+4；若你原本就会获得+4加值（例如不朽水龙或水牢提供的高等掩蔽），则改为使你对触发效果处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}。若该威能使你隐蔽而非提供加值（例如灾厄洪流），你对触发效果改为处于藏匿状态。</p>"
+    },
+    "Sudden Splash": {
+      "name": "骤然泼溅 Sudden Splash",
+      "description": "<p>你在敌人的正前方或正后方凭空形成一团水花，若其躲闪不及，水花就在其身上炸开。你造成@Damage[(2+@actor.level)d4[bludgeoning]]{2d4伤害}，再加上每等级1d4钝击伤害，影响30尺内的一个生物，具体效果取决于其@Check[reflex|against:eldamon]豁免。5级时射程增加至40尺，此后每4级增加10尺，最高在17级时达到70尺。</p><p><strong>高潮</strong> 伤害改为@Damage[(2+@actor.level)d8[bludgeoning]]{2d8钝击}伤害，再加上每等级1d8钝击伤害，但你的反射豁免承受–2环境减值，直到你下个回合结束。</p><p><strong>低潮</strong> 射程增加至45尺，5级及此后每4级再增加15尺（17级时至多105尺）；出其不意的水花更难闪避，使敌人的反射豁免承受–2环境减值。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.r8iZuHXv0lzMOAjV]{效果：骤然泼溅}</p><hr /><p><strong>大成功</strong> 敌人不受影响。</p><p><strong>成功</strong> 敌人受到一半伤害。</p><p><strong>失败</strong> 敌人受到全额伤害，且你将其移动10尺。</p><p><strong>大失败</strong> 敌人受到双倍伤害，且你将其移动20尺。</p>"
+    },
+    "Devour Flames": {
+      "name": "吞噬火焰 Devour Flames",
+      "description": "<p>你张口吸入附近的火焰，火焰在周围盘旋，使你的火焰力量焕然一新。你30尺内每个正受到持续火焰伤害的敌人受到该持续火焰伤害，然后立即尝试通常的纯骰检定，以移除该持续火焰伤害。</p>\n<p>你30尺内每个正受到持续火焰伤害的其他生物不受伤害，并立即尝试纯骰检定，以移除该持续火焰伤害；此检定使用特别有效的协助所降低的DC。你刷新威能。</p>"
+    },
+    "Relentless Drench": {
+      "name": "无情浸透 Relentless Drench",
+      "description": "<p>你将120尺内的一个敌人浇得透湿，使其变得笨拙而迟缓。其受到@Damage[((1+@actor.level)d4)[bludgeoning]]伤害，具体效果取决于其@Check[fortitude|against:eldamon]豁免。</p><p><strong>高潮：</strong>伤害改为@Damage[((1+@actor.level)d8)[bludgeoning]|options:high-tide-power]伤害，但水也会浸湿你，使你陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}，直到你下个回合结束。</p><p><strong>低潮：</strong>浸透敌人的水帮助你行动。在你的下个回合，你处于@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}状态，可以将额外动作用于快步、行走、打击、游泳（若你有游泳速度），或使用元素护盾（若你拥有它）。</p><hr /><p><strong>大成功</strong> 敌人不受影响。</p><p><strong>成功</strong> 敌人受到一半伤害，你将其移动5尺，且其陷入笨拙2，直到你下个回合结束。</p><p><strong>失败</strong> 敌人受到全额伤害，你将其移动10尺；其陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，持续1轮，笨拙2持续到你下个回合结束，并陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}，直到你刷新为止。</p><p><strong>大失败</strong> 敌人受到双倍伤害，你将其移动20尺；其陷入缓慢1，持续1轮，笨拙2持续到你下个回合结束，笨拙1持续1分钟。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d4，高潮时则增加1d8。</p>"
+    },
+    "Cloudburst": {
+      "name": "倾盆骤雨 Cloudburst",
+      "description": "<p>你在极远处唤来一场巨大的骤雨，水流猛然倾泻。骤雨冲击500尺内一个@Template[type:burst|distance:30]中的敌人，对区域内的每个敌人造成@Damage[((1+@actor.level)d6)[bludgeoning]]伤害，具体取决于其@Check[fortitude|against:eldamon]豁免。</p><p><strong>高潮：</strong>伤害改为@Damage[((1+@actor.level)d10)[bludgeoning]|options:high-tide-power]伤害，但突然涌入骤雨的水流将你击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><p><strong>低潮：</strong>骤雨的水流朝你涌来，遮蔽敌人的视线，使你处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态，直到你下个回合结束。</p><hr /><p><strong>大成功</strong> 敌人不受影响。</p><p><strong>成功</strong> 敌人受到一半伤害，且你将其移动5尺。</p><p><strong>失败</strong> 敌人受到全额伤害，且你将其移动10尺。</p><p><strong>大失败</strong> 敌人受到双倍伤害，且你将其移动20尺。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6，高潮时则增加1d10。</p>"
+    }
+  },
+  "folders": {
+    "From Battlezoo Eldamon": "出自《战斗动物园：爱达梦》 From Battlezoo Eldamon",
+    "Water": "水 Water",
+    "Fire": "火焰 Fire"
+  }
+}
