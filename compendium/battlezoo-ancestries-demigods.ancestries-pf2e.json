@@ -3,7 +3,30 @@
   "entries": {
     "Demigod": {
       "name": "半神 Demigod",
-      "description": "<p><em>半神位居弱小神祇的最末，是尚未成熟的新秀。他们必须逐渐掌握自身神力，才能施展哪怕最弱小的真神也能创造的奇迹。不过，他们可以发展信仰、壮大力量，迈向更高的境界。</em></p><p>@UUID[Compendium.battlezoo-ancestries-demigods.journals-pf2e.JournalEntry.5hcIjt7NsVFznieI.JournalEntryPage.ITImTyYjZ91IQtQx]{半神族裔}</p><hr /><p><em>注意：此族裔的默认设置采用人类族裔的数据。若要调整，请更改此物品的特征和体型。</em></p>"
+      "description": "<p><em>半神位居弱小神祇的最末，是尚未成熟的新秀。他们必须逐渐掌握自身神力，才能施展哪怕最弱小的真神也能创造的奇迹。不过，他们可以发展信仰、壮大力量，迈向更高的境界。</em></p><p>@UUID[Compendium.battlezoo-ancestries-demigods.journals-pf2e.JournalEntry.5hcIjt7NsVFznieI.JournalEntryPage.ITImTyYjZ91IQtQx]{半神族裔}</p><hr /><p><em>注意：此族裔的默认设置采用人类族裔的数据。若要调整，请更改此物品的特征和体型。</em></p>",
+      "featureNames": {
+        "Compendium.battlezoo-ancestries-demigods.features-pf2e.Item.V6A2gabCGKHJsL19": {
+          "name": "致命缺陷 Fatal Flaw"
+        },
+        "Compendium.battlezoo-ancestries-demigods.features-pf2e.Item.Nj9ysmuXMPxtEKON": {
+          "name": "凡人之身 Part Mortal"
+        },
+        "Compendium.battlezoo-ancestries-demigods.features-pf2e.Item.dZooeuYEs1Lm67cu": {
+          "name": "准神之力 Quasi Divine"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "featureNames": {
+      "path": "system.items",
+      "converter": "structured",
+      "cardinality": "many",
+      "container": "keyed",
+      "key": "uuid",
+      "mapping": {
+        "name": "name"
+      }
     }
   }
 }
