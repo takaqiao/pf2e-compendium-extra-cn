@@ -23,7 +23,12 @@
     },
     "Fling Shadows": {
       "name": "投掷阴影 Fling Shadows",
-      "description": "<p><strong>需求</strong> 你正持用具有「投掷」特征的暗影武器。</p><hr /><p>你的暗影于离手后会回到你身边。若你的暗影武器具有「投掷」特征，当你以该武器进行远程打击时，只要打击是在该武器首个射程增量内进行，则其在打击后消散并出现于你进行打击之手中。</p>"
+      "description": "<p><strong>需求</strong> 你正持用具有「投掷」特征的暗影武器。</p><hr /><p>你的暗影于离手后会回到你身边。若你的暗影武器具有「投掷」特征，当你以该武器进行远程打击时，只要打击是在该武器首个射程增量内进行，则其在打击后消散并出现于你进行打击之手中。</p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Essence Pool": {
       "name": "精质池 Essence Pool",
@@ -35,11 +40,21 @@
     },
     "Morph Summon": {
       "name": "变形召唤 Morph Summon",
-      "description": "<p><strong>需求</strong> 你有一道具备「召唤」特征、本可召唤其他生物之法术正在生效。</p><hr /><p>你改变召唤之肌理，将其重塑为新的事物。你维持该法术，并将所召唤之生物变为该所需法术本可召唤之另一生物。</p><hr /><p><strong>特殊</strong> 若所需法术为层面召唤，且你具备「层面行家」，你可改为将该层面召唤变形为你能用该法术施放的另一层面。</p>"
+      "description": "<p><strong>需求</strong> 你有一道具备「召唤」特征、本可召唤其他生物之法术正在生效。</p><hr /><p>你改变召唤之肌理，将其重塑为新的事物。你维持该法术，并将所召唤之生物变为该所需法术本可召唤之另一生物。</p><hr /><p><strong>特殊</strong> 若所需法术为层面召唤，且你具备「层面行家」，你可改为将该层面召唤变形为你能用该法术施放的另一层面。</p>",
+      "prerequisites": [
+        {
+          "value": "层面召唤者入门"
+        }
+      ]
     },
     "Accelerated Dynamism": {
       "name": "加速动态 Accelerated Dynamism",
-      "description": "<p>你即刻准备好心智与身体，以压缩你某道动态法术的施法时间。你直至回合结束前迅捷。你只能将此额外动作用作施放你已具备动态精通之法术的 3 动作版本所需动作的一部分。</p><hr /><p><strong>特殊</strong> 若你具备 @UUID[Compendium.pf2e-team-plus-magic.items.fctqmyLME0fTvHMa]{三重施法} 或 @UUID[Compendium.pf2e-team-plus-magic.items.5jxyCBmg3f5p4Vf0]{可变准备} 变体专长，你也可将此额外动作用作「三重施法」所需 3 个动作之一，或用作以「可变准备」施放内部法术所需的3个动作之一。</p>"
+      "description": "<p>你即刻准备好心智与身体，以压缩你某道动态法术的施法时间。你直至回合结束前迅捷。你只能将此额外动作用作施放你已具备动态精通之法术的 3 动作版本所需动作的一部分。</p><hr /><p><strong>特殊</strong> 若你具备 @UUID[Compendium.pf2e-team-plus-magic.items.fctqmyLME0fTvHMa]{三重施法} 或 @UUID[Compendium.pf2e-team-plus-magic.items.5jxyCBmg3f5p4Vf0]{可变准备} 变体专长，你也可将此额外动作用作「三重施法」所需 3 个动作之一，或用作以「可变准备」施放内部法术所需的3个动作之一。</p>",
+      "prerequisites": [
+        {
+          "value": "动态法术贤者入门"
+        }
+      ]
     },
     "Energy (Major)": {
       "name": "能量（上等） Energy (Major)",
@@ -67,11 +82,21 @@
     },
     "Untamed Form+": {
       "name": "无羁形态+ Untamed Form+",
-      "description": "<p>你与荒野合一，不断变化以应对任何挑战。你获得 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 或 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形} 律令法术——其让你能变形为多种形态，且可通过德鲁伊专长扩展。</p>"
+      "description": "<p>你与荒野合一，不断变化以应对任何挑战。你获得 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 或 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形} 律令法术——其让你能变形为多种形态，且可通过德鲁伊专长扩展。</p>",
+      "prerequisites": [
+        {
+          "value": "无羁教派"
+        }
+      ]
     },
     "Haemomantic Training": {
       "name": "血法训练 Haemomantic Training",
-      "description": "<p>常言道，血即是血——纵使你并未将鲜血与传统魔法之融合作为重点，你也已能习得一招半式。从你符合先决条件的血法师变体专长中（除「血法师入门」外）获得一项专长。就满足其先决条件而言，你的等级视为你角色等级的一半，且你视为已具备「血法师入门」。</p><hr /><p><strong>特殊</strong> 你可多次选取此专长。每次选取，你便获得另一项血法师专长。</p>"
+      "description": "<p>常言道，血即是血——纵使你并未将鲜血与传统魔法之融合作为重点，你也已能习得一招半式。从你符合先决条件的血法师变体专长中（除「血法师入门」外）获得一项专长。就满足其先决条件而言，你的等级视为你角色等级的一半，且你视为已具备「血法师入门」。</p><hr /><p><strong>特殊</strong> 你可多次选取此专长。每次选取，你便获得另一项血法师专长。</p>",
+      "prerequisites": [
+        {
+          "value": "跨学科研究"
+        }
+      ]
     },
     "Dynamic Invisibility": {
       "name": "动态隐形术 Dynamic Invisibility",
@@ -95,11 +120,27 @@
     },
     "Spill Their Blood": {
       "name": "泼洒鲜血 Spill Their Blood",
-      "description": "<p>你能轻而易举地使众人之血流淌。你可对会以多名生物为目标之法术使用「流血法术」，对所有未通过豁免或被你法术攻击成功之目标造成等同该法术环级的持续伤害。</p>"
+      "description": "<p>你能轻而易举地使众人之血流淌。你可对会以多名生物为目标之法术使用「流血法术」，对所有未通过豁免或被你法术攻击成功之目标造成等同该法术环级的持续伤害。</p>",
+      "prerequisites": [
+        {
+          "value": "血法师入门"
+        },
+        {
+          "value": "流血法术"
+        }
+      ]
     },
     "Colossal Aspect Form": {
       "name": "巨像层面形态 Colossal Aspect Form",
-      "description": "<p>你化身为一只庞大无比的生物。若你下一动作是施放一道 10环之层面战斗形态法术，则你的形态为巨型，占据 6 格 × 6 格（30 尺 × 30 尺），身高 100 尺，触及范围增加至 25 尺。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.XVveTQK3RY2w72XL]{践踏} 行动；若你的层面已具备「践踏」行动，则将其伤害骰大小增加一档。</p>"
+      "description": "<p>你化身为一只庞大无比的生物。若你下一动作是施放一道 10环之层面战斗形态法术，则你的形态为巨型，占据 6 格 × 6 格（30 尺 × 30 尺），身高 100 尺，触及范围增加至 25 尺。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.XVveTQK3RY2w72XL]{践踏} 行动；若你的层面已具备「践踏」行动，则将其伤害骰大小增加一档。</p>",
+      "prerequisites": [
+        {
+          "value": "层面变形者入门"
+        },
+        {
+          "value": "你知道至少一个层面战斗形态法术"
+        }
+      ]
     },
     "Empyreal Dragonbreath Greatsword (Major)": {
       "name": "圣天龙息巨剑（上等） Empyreal Dragonbreath Greatsword (Major)",
@@ -107,7 +148,12 @@
     },
     "Archmage's Curse": {
       "name": "大法师之咒 Archmage's Curse",
-      "description": "<p>大法师之诅咒如同被魔法本身所摒弃与憎恶。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.hhYyD33wnQbdsP0N]{大法师之静默} 聚能法术。</p>"
+      "description": "<p>大法师之诅咒如同被魔法本身所摒弃与憎恶。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.hhYyD33wnQbdsP0N]{大法师之静默} 聚能法术。</p>",
+      "prerequisites": [
+        {
+          "value": "大法师入门"
+        }
+      ]
     },
     "Boom-a-rang": {
       "name": "回旋爆裂 Boom-a-rang",
@@ -119,7 +165,15 @@
     },
     "Chimerize Aspects": {
       "name": "嵌合层面 Chimerize Aspects",
-      "description": "<p>你能创造扭曲现实之生物。当你使用 @UUID[Compendium.pf2e-team-plus-magic.items.dUn3jYgzHpY8eGjO]{融合层面} 时，你可选择以下效果（替代常规效果）：</p><ul><li><p>你融合同一道层面召唤法术之三种层面，而非仅一种。</p></li><li><p>你融合两道不同层面召唤法术之层面，而非仅一种。</p></li></ul>"
+      "description": "<p>你能创造扭曲现实之生物。当你使用 @UUID[Compendium.pf2e-team-plus-magic.items.dUn3jYgzHpY8eGjO]{融合层面} 时，你可选择以下效果（替代常规效果）：</p><ul><li><p>你融合同一道层面召唤法术之三种层面，而非仅一种。</p></li><li><p>你融合两道不同层面召唤法术之层面，而非仅一种。</p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "融合层面"
+        },
+        {
+          "value": "你知道至少三个层面召唤"
+        }
+      ]
     },
     "Essence Conduit": {
       "name": "精质导管 Essence Conduit",
@@ -131,11 +185,24 @@
     },
     "Alaznist's Embrace": {
       "name": "阿拉兹尼斯特之拥 Alaznist's Embrace",
-      "description": "<p>符文领主阿拉兹尼斯特是爆发与毁灭性魔法的专家——为强化她魔法所致之毁灭，她研发出此项技法。每当你以一道造成酸蚀、寒冷、电击、火焰或音波伤害之法术对敌人造成生命值伤害时，受影响之敌人对该伤害类型获得弱点 10，直至你下一回合结束。@UUID[Compendium.pf2e-team-plus-magic.misc.KEa3AvPJPdWK4Mx4]{效果：阿拉兹尼斯特之拥}</p>"
+      "description": "<p>符文领主阿拉兹尼斯特是爆发与毁灭性魔法的专家——为强化她魔法所致之毁灭，她研发出此项技法。每当你以一道造成酸蚀、寒冷、电击、火焰或音波伤害之法术对敌人造成生命值伤害时，受影响之敌人对该伤害类型获得弱点 10，直至你下一回合结束。@UUID[Compendium.pf2e-team-plus-magic.misc.KEa3AvPJPdWK4Mx4]{效果：阿拉兹尼斯特之拥}</p>",
+      "prerequisites": [
+        {
+          "value": "大法师入门"
+        }
+      ]
     },
     "Variable Preparation": {
       "name": "可变准备 Variable Preparation",
-      "description": "<p>通过对动态法术之广泛研究，你已发展出将一道法术覆盖于另一道法术之上的方法。每个你能准备之法术环级，你可选择其中一个法术位变为混合法术位。在该位中准备两道不同、需 2 个动作之法术，并选其一为外部法术、另一为内部法术。你可施放外部法术，或花费些许额外努力剥离外部法术以施放内部法术。当你使用该法术位时，你可以以 2 个动作如常施放外部法术，或以 3 个动作施放内部法术。</p>"
+      "description": "<p>通过对动态法术之广泛研究，你已发展出将一道法术覆盖于另一道法术之上的方法。每个你能准备之法术环级，你可选择其中一个法术位变为混合法术位。在该位中准备两道不同、需 2 个动作之法术，并选其一为外部法术、另一为内部法术。你可施放外部法术，或花费些许额外努力剥离外部法术以施放内部法术。当你使用该法术位时，你可以以 2 个动作如常施放外部法术，或以 3 个动作施放内部法术。</p>",
+      "prerequisites": [
+        {
+          "value": "动态法术贤者入门"
+        },
+        {
+          "value": "你是准备型施法者"
+        }
+      ]
     },
     "Steady Support": {
       "name": "稳定支援 Steady Support",
@@ -147,7 +214,12 @@
     },
     "Colossal Summon": {
       "name": "巨像召唤 Colossal Summon",
-      "description": "<p>你召唤一只如此庞大、巍然耸立之生物。若你的下一动作是施放一道 10环、具备「召唤」特征之召唤法术（召唤一只生物），该生物在已具备能力之外获得以下能力。</p><p><strong>巨型</strong> 该召唤生物占据 6 格 × 6 格（30 尺 × 30 尺）的空间，身高 100 尺。其所有速度提升 20 尺，并获得「践踏」行动；若已具备「践踏」行动，则将其伤害骰大小增加一档。</p><p><strong>裂地者</strong> <span class=\"action-glyph\">2</span> <strong>频率</strong> 每分钟一次；<strong>效果</strong> 该召唤生物产生 @UUID[Compendium.pf2e.spells-srd.x7SPrsRxGb2Vy2nu]{地震术} 之效果。</p><p><strong>巨物恐惧</strong>（灵光 100 尺，情绪、恐惧、心灵）抬头仰望该召唤生物便令人头晕目眩，仿佛你将向上坠入天空。进入或在该弥漫范围内开始回合的生物须以意志豁免成功，否则惊惧 2 级（大失败为惊惧 3 级并逃跑）。受此能力惊惧之生物将该区域内所有方格视为困难地形。无论结果如何，生物随后 1 小时内对此暂时免疫。</p>"
+      "description": "<p>你召唤一只如此庞大、巍然耸立之生物。若你的下一动作是施放一道 10环、具备「召唤」特征之召唤法术（召唤一只生物），该生物在已具备能力之外获得以下能力。</p><p><strong>巨型</strong> 该召唤生物占据 6 格 × 6 格（30 尺 × 30 尺）的空间，身高 100 尺。其所有速度提升 20 尺，并获得「践踏」行动；若已具备「践踏」行动，则将其伤害骰大小增加一档。</p><p><strong>裂地者</strong> <span class=\"action-glyph\">2</span> <strong>频率</strong> 每分钟一次；<strong>效果</strong> 该召唤生物产生 @UUID[Compendium.pf2e.spells-srd.x7SPrsRxGb2Vy2nu]{地震术} 之效果。</p><p><strong>巨物恐惧</strong>（灵光 100 尺，情绪、恐惧、心灵）抬头仰望该召唤生物便令人头晕目眩，仿佛你将向上坠入天空。进入或在该弥漫范围内开始回合的生物须以意志豁免成功，否则惊惧 2 级（大失败为惊惧 3 级并逃跑）。受此能力惊惧之生物将该区域内所有方格视为困难地形。无论结果如何，生物随后 1 小时内对此暂时免疫。</p>",
+      "prerequisites": [
+        {
+          "value": "层面召唤者入门"
+        }
+      ]
     },
     "Expert Essence Spellcasting": {
       "name": "专家精质施法 Expert Essence Spellcasting",
@@ -155,7 +227,12 @@
     },
     "Inescapable Shadows": {
       "name": "无可逃避之阴影 Inescapable Shadows",
-      "description": "<p><strong>需求</strong> 你正持用你的暗影武器。</p><hr /><p>你的暗影无所边界——只要敌人踏足黑暗所在之处，便始终在你的武器触及范围内。对 30 尺内一名具有影子的敌人以你的暗影武器进行近战打击；就夹击而言，你将与目标相邻的方格作为该次打击之起点。该目标之影子随后于 1 分钟内消散。</p>"
+      "description": "<p><strong>需求</strong> 你正持用你的暗影武器。</p><hr /><p>你的暗影无所边界——只要敌人踏足黑暗所在之处，便始终在你的武器触及范围内。对 30 尺内一名具有影子的敌人以你的暗影武器进行近战打击；就夹击而言，你将与目标相邻的方格作为该次打击之起点。该目标之影子随后于 1 分钟内消散。</p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Advanced Scientific": {
       "name": "进阶科研者 Advanced Scientific",
@@ -171,15 +248,30 @@
     },
     "Aspect Caller Dedication": {
       "name": "层面召唤者入门 Aspect Caller Dedication",
-      "description": "<p>你是一名层面召唤者——专精于召唤纯粹魔法并通过层面将其重塑为任何想象中之生物的施法者。你将 @UUID[Compendium.pf2e-team-plus-magic.misc.cmPXzjIHh1WSoPlP]{召唤同伙} 习得为聚能法术，其根源与你用以满足此变体条件之根源相符。在每日准备期间，从你能以法术位施放的法术中选择一道具备「召唤」特征且能召唤生物的法术，作为你「召唤同伙」之内容。你可通过专注于自身与召唤之联系，使用「再聚能」行动恢复一点聚能点。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.UxdYVCXlWwAnKS8U]{层面召唤者变体}</p>"
+      "description": "<p>你是一名层面召唤者——专精于召唤纯粹魔法并通过层面将其重塑为任何想象中之生物的施法者。你将 @UUID[Compendium.pf2e-team-plus-magic.misc.cmPXzjIHh1WSoPlP]{召唤同伙} 习得为聚能法术，其根源与你用以满足此变体条件之根源相符。在每日准备期间，从你能以法术位施放的法术中选择一道具备「召唤」特征且能召唤生物的法术，作为你「召唤同伙」之内容。你可通过专注于自身与召唤之联系，使用「再聚能」行动恢复一点聚能点。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.UxdYVCXlWwAnKS8U]{层面召唤者变体}</p>",
+      "prerequisites": [
+        {
+          "value": "你能够使用法术位施法，且知道至少一个具有召唤特征的法术"
+        }
+      ]
     },
     "Charging Form": {
       "name": "冲锋形态 Charging Form",
-      "description": "<p>你猛然冲入战局，伴随你的形态显现而移动。你施放一道需 2 个动作或更少且具有「变形」特征、并以你为目标之法术，随后立即行走。</p>"
+      "description": "<p>你猛然冲入战局，伴随你的形态显现而移动。你施放一道需 2 个动作或更少且具有「变形」特征、并以你为目标之法术，随后立即行走。</p>",
+      "prerequisites": [
+        {
+          "value": "层面变形者入门"
+        }
+      ]
     },
     "Thirsty Blade": {
       "name": "饥渴之刃 Thirsty Blade",
-      "description": "<p><strong>消耗</strong> 每枚武器伤害骰 2 点血法生命值</p><p><strong>需求</strong> 你正持用武器。</p><hr /><p>你触摸一件武器，将其涂以薄薄一层你的血液。该武器造成等同其武器伤害骰数之流血伤害；当对非免疫流血伤害之生物重击时，你获得等同所需武器之武器伤害骰数的血法生命值。这些益处持续至你下一回合结束。</p>"
+      "description": "<p><strong>消耗</strong> 每枚武器伤害骰 2 点血法生命值</p><p><strong>需求</strong> 你正持用武器。</p><hr /><p>你触摸一件武器，将其涂以薄薄一层你的血液。该武器造成等同其武器伤害骰数之流血伤害；当对非免疫流血伤害之生物重击时，你获得等同所需武器之武器伤害骰数的血法生命值。这些益处持续至你下一回合结束。</p>",
+      "prerequisites": [
+        {
+          "value": "血术师入门"
+        }
+      ]
     },
     "Immobilizing": {
       "name": "锁定 Immobilizing",
@@ -187,7 +279,12 @@
     },
     "Ranged Resonance": {
       "name": "远程共鸣 Ranged Resonance",
-      "description": "<p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你的神秘链结提升你的魔法射程。当你施放一道无持续时间之法术时，你可以选择以你或你神秘搭档的位置作为该法术之施法点。</p>"
+      "description": "<p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你的神秘链结提升你的魔法射程。当你施放一道无持续时间之法术时，你可以选择以你或你神秘搭档的位置作为该法术之施法点。</p>",
+      "prerequisites": [
+        {
+          "value": "神秘搭档入门"
+        }
+      ]
     },
     "Fortune Dragonbreath Rapier (Greater)": {
       "name": "福宝龙息细剑（高等） Fortune Dragonbreath Rapier (Greater)",
@@ -219,31 +316,66 @@
     },
     "Contingency of The Archmage": {
       "name": "大法师权变 Contingency of The Archmage",
-      "description": "<p>未做准备便是赴死，而大法师从不疏于准备。选择一道作用于你自身、施法时间不超过 3 个动作的 4环法术。每日，你便如同已以为此专长所选法术施放 @UUID[Compendium.pf2e.spells-srd.WG91Z5TiR6oO5FOw]{触发术} 一般，获得其效果。该法术的触发条件由你于每日准备期间选择。</p>"
+      "description": "<p>未做准备便是赴死，而大法师从不疏于准备。选择一道作用于你自身、施法时间不超过 3 个动作的 4环法术。每日，你便如同已以为此专长所选法术施放 @UUID[Compendium.pf2e.spells-srd.WG91Z5TiR6oO5FOw]{触发术} 一般，获得其效果。该法术的触发条件由你于每日准备期间选择。</p>",
+      "prerequisites": [
+        {
+          "value": "大法师入门"
+        }
+      ]
     },
     "Ally Form": {
       "name": "盟友形态 Ally Form",
-      "description": "<p>你将超凡之力送入你的同伴，使其化为神秘战斗形态。若你的下一动作是从你法术位施放一道会赋予你战斗形态之法术，你可以以一名相邻自愿盟友（替代你自身）为该法术之目标。你或该盟友可解消此法术；若该法术持续时间长于 1 分钟，则缩短至 1 分钟。</p>"
+      "description": "<p>你将超凡之力送入你的同伴，使其化为神秘战斗形态。若你的下一动作是从你法术位施放一道会赋予你战斗形态之法术，你可以以一名相邻自愿盟友（替代你自身）为该法术之目标。你或该盟友可解消此法术；若该法术持续时间长于 1 分钟，则缩短至 1 分钟。</p>",
+      "prerequisites": [
+        {
+          "value": "层面变形者入门"
+        }
+      ]
     },
     "Archmage's Triumph": {
       "name": "大法师凯旋 Archmage's Triumph",
-      "description": "<p>身为大法师之终极成就便是「法术铸造」。你获得一个额外的 10环法术位，仅能用于施放此法术。你的法术需 2 个动作施放，并具有「专注」、「操作」与「神话」特征。该法术须符合以下参数——这些参数在你首次获得此专长时选择，之后除非通过重训此专长方可改变。</p><ul><li><p>该法术须允许强韧或反射豁免（由你选择；通常寒冷与音波法术使用强韧，酸蚀、电击与火焰法术使用反射）。</p></li><li><p>该法术以下列区域之一为目标：120 尺线形、60 尺锥形、45尺弥漫或 240 尺射程内 30 尺爆发。或者，你可选择以 120 尺内最多 5 名生物为目标，且任两名相距不超过 30 尺。</p></li><li><p>该法术造成下列伤害类型之一并获得相应特征：酸蚀、寒冷、电击、火焰或音波。其以基础豁免造成下列数值之伤害：14d12、17d10 或 24d6。可选地，你可让该法术造成此列表中之两种伤害类型，将总伤害骰减少两枚，并将一半伤害分别作为各能量类型造成（例如：若你选择 24d6 伤害且希望同时造成酸蚀与火焰伤害，则改为 12d6 酸蚀 + 12d6 火焰）。</p></li><li><p>对此法术豁免失败之生物获得下列状态之一，每项持续 1 分钟：力竭 2 级、笨拙 2 级或呆滞 2 级。</p></li></ul><p>你可任意命名你的法术，但多数大法师都会在法术名中含有自己的名字（例如「埃奥巴德之能量瀑流」）。任何能施放 10环法术之施法者均可通过「学习法术」行动从你处习得此法术。</p><p>只要世上某处尚有施法者知晓此法术，你便不会真正死去。当你的肉身死亡时，你将灵魂藏匿于此法术于阿卡夏图书馆中之记录之内。下次有施法者施放此法术时，你便从其所引之环境能量中虹吸出一部分，于该施法处 1 英里内某处重铸一具新的肉身。只要你死时身上之装备仍与你的尸首同处，你便以你最大生命值的一半、法术位全部可用与你的装备一同重现。若你的尸首在你死后被搜刮过，则你以同样方式重现，但无衣物与装备。</p>"
+      "description": "<p>身为大法师之终极成就便是「法术铸造」。你获得一个额外的 10环法术位，仅能用于施放此法术。你的法术需 2 个动作施放，并具有「专注」、「操作」与「神话」特征。该法术须符合以下参数——这些参数在你首次获得此专长时选择，之后除非通过重训此专长方可改变。</p><ul><li><p>该法术须允许强韧或反射豁免（由你选择；通常寒冷与音波法术使用强韧，酸蚀、电击与火焰法术使用反射）。</p></li><li><p>该法术以下列区域之一为目标：120 尺线形、60 尺锥形、45尺弥漫或 240 尺射程内 30 尺爆发。或者，你可选择以 120 尺内最多 5 名生物为目标，且任两名相距不超过 30 尺。</p></li><li><p>该法术造成下列伤害类型之一并获得相应特征：酸蚀、寒冷、电击、火焰或音波。其以基础豁免造成下列数值之伤害：14d12、17d10 或 24d6。可选地，你可让该法术造成此列表中之两种伤害类型，将总伤害骰减少两枚，并将一半伤害分别作为各能量类型造成（例如：若你选择 24d6 伤害且希望同时造成酸蚀与火焰伤害，则改为 12d6 酸蚀 + 12d6 火焰）。</p></li><li><p>对此法术豁免失败之生物获得下列状态之一，每项持续 1 分钟：力竭 2 级、笨拙 2 级或呆滞 2 级。</p></li></ul><p>你可任意命名你的法术，但多数大法师都会在法术名中含有自己的名字（例如「埃奥巴德之能量瀑流」）。任何能施放 10环法术之施法者均可通过「学习法术」行动从你处习得此法术。</p><p>只要世上某处尚有施法者知晓此法术，你便不会真正死去。当你的肉身死亡时，你将灵魂藏匿于此法术于阿卡夏图书馆中之记录之内。下次有施法者施放此法术时，你便从其所引之环境能量中虹吸出一部分，于该施法处 1 英里内某处重铸一具新的肉身。只要你死时身上之装备仍与你的尸首同处，你便以你最大生命值的一半、法术位全部可用与你的装备一同重现。若你的尸首在你死后被搜刮过，则你以同样方式重现，但无衣物与装备。</p>",
+      "prerequisites": [
+        {
+          "value": "大法师入门"
+        }
+      ]
     },
     "Spellshaping Paragon": {
       "name": "塑法典范 Spellshaping Paragon",
-      "description": "<p>你于操控魔法能量上具有独特技艺，能为应对任何情境准备魔法捷径与调整。每日当你准备或恢复法术时，从下列你尚未具备之塑法专长中选择一项：@UUID[Compendium.pf2e.feats-srd.bVng7Mkrj4UnQzLo]{燃烧法术}、@UUID[Compendium.pf2e.feats-srd.sIeuPW0j39fTZm08]{匿藏法术}、@UUID[Compendium.pf2e.feats-srd.nroOy0PBeEUGdUXD]{浸水法术}、@UUID[Compendium.pf2e.feats-srd.riQ8sn3Gpbr3LdtR]{飞驰法术}、@UUID[Compendium.pf2e.feats-srd.BWomK7EVY0WXxWgh]{及远法术}、@UUID[Compendium.pf2e.feats-srd.U9SrWgLJ8JoAKIy0]{崩岩法术} 或 @UUID[Compendium.pf2e.feats-srd.FoWO4RnHRwfEIC7Q]{扩展法术}。你于至下次每日准备前获得该专长。</p><hr /><p><strong>特殊</strong> 你可花费一神话点作为交互动作以重写自己的魔法，将所选专长替换为上述列表中之另一项。</p>"
+      "description": "<p>你于操控魔法能量上具有独特技艺，能为应对任何情境准备魔法捷径与调整。每日当你准备或恢复法术时，从下列你尚未具备之塑法专长中选择一项：@UUID[Compendium.pf2e.feats-srd.bVng7Mkrj4UnQzLo]{燃烧法术}、@UUID[Compendium.pf2e.feats-srd.sIeuPW0j39fTZm08]{匿藏法术}、@UUID[Compendium.pf2e.feats-srd.nroOy0PBeEUGdUXD]{浸水法术}、@UUID[Compendium.pf2e.feats-srd.riQ8sn3Gpbr3LdtR]{飞驰法术}、@UUID[Compendium.pf2e.feats-srd.BWomK7EVY0WXxWgh]{及远法术}、@UUID[Compendium.pf2e.feats-srd.U9SrWgLJ8JoAKIy0]{崩岩法术} 或 @UUID[Compendium.pf2e.feats-srd.FoWO4RnHRwfEIC7Q]{扩展法术}。你于至下次每日准备前获得该专长。</p><hr /><p><strong>特殊</strong> 你可花费一神话点作为交互动作以重写自己的魔法，将所选专长替换为上述列表中之另一项。</p>",
+      "prerequisites": [
+        {
+          "value": "大法师入门"
+        }
+      ]
     },
     "Archmemory": {
       "name": "大记忆 Archmemory",
-      "description": "<p>你对最高魔法之精通让你能即刻重建其效果所必需之符号系统，回忆起已施放并被清除之法术。若你本回合最后一动作是施放法术，或本回合所使用之最后行动包含施放法术，你立即恢复用于施放该法术所消耗的法术位。</p><hr /><p><strong>特殊</strong> 若你为精质施法者，则替代此专长之常规效果，你每日一次可作为自由动作使用 @UUID[Compendium.pf2e-team-plus-magic.misc.GMpbfdVHBUaiIwSy]{精质导管}。</p>"
+      "description": "<p>你对最高魔法之精通让你能即刻重建其效果所必需之符号系统，回忆起已施放并被清除之法术。若你本回合最后一动作是施放法术，或本回合所使用之最后行动包含施放法术，你立即恢复用于施放该法术所消耗的法术位。</p><hr /><p><strong>特殊</strong> 若你为精质施法者，则替代此专长之常规效果，你每日一次可作为自由动作使用 @UUID[Compendium.pf2e-team-plus-magic.misc.GMpbfdVHBUaiIwSy]{精质导管}。</p>",
+      "prerequisites": [
+        {
+          "value": "大法师入门"
+        }
+      ]
     },
     "Fiendlorn's Possession": {
       "name": "魔孽附身 Fiendlorn's Possession",
-      "description": "<p>大法师梅桑德罗斯·魔孽是一名拥有非凡威能、痴迷于实现不朽之死灵法师。你已掌握一种基于其更阴暗技法的不朽之道。你将一名 15 级或更低的活物标记为你的继承者；你必须与所指定生物有身体接触，纵然只是手轻轻拂过亦可。一旦某生物被指定为你的继承者，你的精魂便能找到其所在（即便它试图逃至另一位面或星球）。你死亡时，你的精魂将被吸引至你的继承者，夺取其身体作为己用。你保留死前所拥有之全部法术、角色等级与其他能力，只是如今你具备继承者之外貌与所属之物。</p><p>你可尝试对天使、恶魔、魔鬼或观察者使用「魔孽附身」，但难度较高。你必须以交互动作与该生物坚实接触；接触时其可立即以你的法术 DC 进行 @Check[type:will|dc:resolve(@actor.attributes.spellDC.value)] 豁免。豁免成功时，你的尝试失败，且该生物对未来一切「魔孽附身」之使用免疫。豁免失败时，该生物便成为你的继承者。若你随后占据其身（通常是通过死亡），你便在保留自身特征的基础上，获得该生物所具备的全部特征以及任何抗力、弱点、特殊动作或能力、移动方式与速度，以及任何内在法术。其余则继续使用你自己的统计与属性。你免于年迈，且不会死于自然原因，但你不能再对另一生物使用「魔孽附身」。</p><p>你不能通过此能力同时拥有多于一名继承者。在你将继承者之身体据为己有之前，继承者若欲从「魔孽附身」中解脱，必须以一道升阶至10环之 @UUID[Compendium.pf2e.spells-srd.SUKaxVZW2TlM8lu0]{净化苦难} 法术成功反制该效果；环级低于此者无效。</p>"
+      "description": "<p>大法师梅桑德罗斯·魔孽是一名拥有非凡威能、痴迷于实现不朽之死灵法师。你已掌握一种基于其更阴暗技法的不朽之道。你将一名 15 级或更低的活物标记为你的继承者；你必须与所指定生物有身体接触，纵然只是手轻轻拂过亦可。一旦某生物被指定为你的继承者，你的精魂便能找到其所在（即便它试图逃至另一位面或星球）。你死亡时，你的精魂将被吸引至你的继承者，夺取其身体作为己用。你保留死前所拥有之全部法术、角色等级与其他能力，只是如今你具备继承者之外貌与所属之物。</p><p>你可尝试对天使、恶魔、魔鬼或观察者使用「魔孽附身」，但难度较高。你必须以交互动作与该生物坚实接触；接触时其可立即以你的法术 DC 进行 @Check[type:will|dc:resolve(@actor.attributes.spellDC.value)] 豁免。豁免成功时，你的尝试失败，且该生物对未来一切「魔孽附身」之使用免疫。豁免失败时，该生物便成为你的继承者。若你随后占据其身（通常是通过死亡），你便在保留自身特征的基础上，获得该生物所具备的全部特征以及任何抗力、弱点、特殊动作或能力、移动方式与速度，以及任何内在法术。其余则继续使用你自己的统计与属性。你免于年迈，且不会死于自然原因，但你不能再对另一生物使用「魔孽附身」。</p><p>你不能通过此能力同时拥有多于一名继承者。在你将继承者之身体据为己有之前，继承者若欲从「魔孽附身」中解脱，必须以一道升阶至10环之 @UUID[Compendium.pf2e.spells-srd.SUKaxVZW2TlM8lu0]{净化苦难} 法术成功反制该效果；环级低于此者无效。</p>",
+      "prerequisites": [
+        {
+          "value": "大法师入门"
+        }
+      ]
     },
     "Messenger Accomplice": {
       "name": "信使同伙 Messenger Accomplice",
-      "description": "<p>当你施放 @UUID[Compendium.pf2e-team-plus-magic.misc.cmPXzjIHh1WSoPlP]{召唤同伙} 时，你可选择召唤一只信使层面（特殊的 @UUID[Compendium.pf2e-team-plus-magic.items.3DSNbxe36dMAwXpC]{动物层面}）——其将持续时间延长至 10 分钟，并将所召唤生物的生命值减半。如此做时，该法术无须维持便可保持生效（但你仍须维持该法术以为你的召唤生物提供动作）。该召唤生物不会为你而战，但你可让其执行小型任务，例如取物、监视他人或递送物品。</p>"
+      "description": "<p>当你施放 @UUID[Compendium.pf2e-team-plus-magic.misc.cmPXzjIHh1WSoPlP]{召唤同伙} 时，你可选择召唤一只信使层面（特殊的 @UUID[Compendium.pf2e-team-plus-magic.items.3DSNbxe36dMAwXpC]{动物层面}）——其将持续时间延长至 10 分钟，并将所召唤生物的生命值减半。如此做时，该法术无须维持便可保持生效（但你仍须维持该法术以为你的召唤生物提供动作）。该召唤生物不会为你而战，但你可让其执行小型任务，例如取物、监视他人或递送物品。</p>",
+      "prerequisites": [
+        {
+          "value": "层面召唤者入门"
+        }
+      ]
     },
     "Conspirator Dragonbreath Dagger (Major)": {
       "name": "诡谋龙息匕首（上等） Conspirator Dragonbreath Dagger (Major)",
@@ -259,11 +391,24 @@
     },
     "Spell and Steel": {
       "name": "法术与钢铁 Spell and Steel",
-      "description": "<p><strong>需求</strong> 你的神秘链结生效，且你的神秘搭档自你上一回合起进行过一次成功打击。</p><hr /><p>你与你的神秘搭档已花时间磨练彼此的战斗技艺与连结，让你能利用他们所创造之破绽。若你的下一动作是施放一道无持续时间且造成伤害之法术，则该法术对伤害获得状态加值，等同该法术环级两倍（戏法则为环级数）。该伤害类型与你搭档之武器伤害类型相同，仅适用于法术施放时之初始伤害。即便该法术多次伤害同一生物，每次施放该法术只对该生物造成此加值伤害一次。</p>"
+      "description": "<p><strong>需求</strong> 你的神秘链结生效，且你的神秘搭档自你上一回合起进行过一次成功打击。</p><hr /><p>你与你的神秘搭档已花时间磨练彼此的战斗技艺与连结，让你能利用他们所创造之破绽。若你的下一动作是施放一道无持续时间且造成伤害之法术，则该法术对伤害获得状态加值，等同该法术环级两倍（戏法则为环级数）。该伤害类型与你搭档之武器伤害类型相同，仅适用于法术施放时之初始伤害。即便该法术多次伤害同一生物，每次施放该法术只对该生物造成此加值伤害一次。</p>",
+      "prerequisites": [
+        {
+          "value": "神秘搭档入门"
+        }
+      ]
     },
     "Ardor": {
       "name": "热忱 Ardor",
-      "description": "<p>你将魔法之线穿过诗艺与言语之秘门。</p><p><strong>秘门特征</strong> 听觉、情绪</p><p><strong>系链魔法</strong> 当你以「听觉」或「情绪」特征之法术作用于你秘门之领域内的单一生物时，你也可以将该领域内之另一名生物作为目标。所有数值效果（如持续时间、伤害或治疗）减半。若该法术需要豁免，两名生物对其豁免均获得 +2 环境加值，且该法术所致状态或效果之持续时间减半（最少 1 轮）。</p><p><strong>压倒性秘门</strong> 当你以「听觉」特征之法术作用于免疫听觉效果之生物时，你将效果转化至另一感官，绕过其对听觉的免疫。该生物必须至少有一项其他感官以绕过其免疫。当你以「情绪」特征之法术作用于免疫情绪效果之生物时，目标在 1 轮内如同其能正常感知情绪般受到影响。</p>"
+      "description": "<p>你将魔法之线穿过诗艺与言语之秘门。</p><p><strong>秘门特征</strong> 听觉、情绪</p><p><strong>系链魔法</strong> 当你以「听觉」或「情绪」特征之法术作用于你秘门之领域内的单一生物时，你也可以将该领域内之另一名生物作为目标。所有数值效果（如持续时间、伤害或治疗）减半。若该法术需要豁免，两名生物对其豁免均获得 +2 环境加值，且该法术所致状态或效果之持续时间减半（最少 1 轮）。</p><p><strong>压倒性秘门</strong> 当你以「听觉」特征之法术作用于免疫听觉效果之生物时，你将效果转化至另一感官，绕过其对听觉的免疫。该生物必须至少有一项其他感官以绕过其免疫。当你以「情绪」特征之法术作用于免疫情绪效果之生物时，目标在 1 轮内如同其能正常感知情绪般受到影响。</p>",
+      "prerequisites": [
+        {
+          "value": "获得至少一个具有情绪特征的法术的许可"
+        },
+        {
+          "value": "获得至少一个具有听觉特征的法术的许可"
+        }
+      ]
     },
     "Advanced Wordsmith": {
       "name": "进阶巧语者 Advanced Wordsmith",
@@ -271,7 +416,12 @@
     },
     "Ultima Ad Infinitum": {
       "name": "极限至无穷 Ultima Ad Infinitum",
-      "description": "<p>你可更频繁地施放你的极限法术而不致危及自身。@UUID[Compendium.pf2e-team-plus-magic.misc.QPAQqTXsHbrLHKhp]{极限终焉} 获得周期 2，效果与周期 1 相同。</p>"
+      "description": "<p>你可更频繁地施放你的极限法术而不致危及自身。@UUID[Compendium.pf2e-team-plus-magic.misc.QPAQqTXsHbrLHKhp]{极限终焉} 获得周期 2，效果与周期 1 相同。</p>",
+      "prerequisites": [
+        {
+          "value": "精质编织者入门、极限终焉"
+        }
+      ]
     },
     "Omen Dragonbreath Scythe (Greater)": {
       "name": "兆命龙息巨镰（高等） Omen Dragonbreath Scythe (Greater)",
@@ -335,7 +485,12 @@
     },
     "Resilient Dismissal": {
       "name": "坚韧解消 Resilient Dismissal",
-      "description": "<p><strong>触发</strong> 你将被减至 0 生命值。</p><p><strong>需求</strong> 你处于战斗形态。</p><hr /><p>你恢复原本形态以继续屹立。你解消战斗形态以避免失去意识。你保持 1 生命值，且你的受伤值增加 1。</p>"
+      "description": "<p><strong>触发</strong> 你将被减至 0 生命值。</p><p><strong>需求</strong> 你处于战斗形态。</p><hr /><p>你恢复原本形态以继续屹立。你解消战斗形态以避免失去意识。你保持 1 生命值，且你的受伤值增加 1。</p>",
+      "prerequisites": [
+        {
+          "value": "层面变形者入门"
+        }
+      ]
     },
     "Conspirator Dragonbreath Bladed Scarf (Greater)": {
       "name": "诡谋龙息刃巾（高等） Conspirator Dragonbreath Bladed Scarf (Greater)",
@@ -347,7 +502,12 @@
     },
     "Impulsive Magic": {
       "name": "冲动魔法 Impulsive Magic",
-      "description": "<p>你与你秘门关联之力量如此契合，你可以本能地以其回应威胁。你施放一道具备你秘门特征、需 2 个动作或更少、且至少比你最高环级法术低4环之法术；你必须以触发该效果之生物为目标，或若该法术以区域为目标则将其纳入区域之中。</p>"
+      "description": "<p>你与你秘门关联之力量如此契合，你可以本能地以其回应威胁。你施放一道具备你秘门特征、需 2 个动作或更少、且至少比你最高环级法术低4环之法术；你必须以触发该效果之生物为目标，或若该法术以区域为目标则将其纳入区域之中。</p>",
+      "prerequisites": [
+        {
+          "value": "秘门术师入门"
+        }
+      ]
     },
     "Howl of Winter (Greater)": {
       "name": "凛冬之嚎（高等） Howl of Winter (Greater)",
@@ -355,7 +515,12 @@
     },
     "Voracious Drain": {
       "name": "贪食吸取 Voracious Drain",
-      "description": "<p>你不再满足于仅利用已离开身体之鲜血。若你的下一动作是使用 @UUID[Compendium.pf2e-team-plus-magic.misc.JaoqIFWtitfe1jhr]{鲜血虹吸}，目标须以你的法术 DC 进行 @Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)] 豁免。在豁免之后，目标于 1 分钟内对你的「贪食吸取」暂时免疫。</p><p><strong>成功</strong> 目标不受影响。</p><p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭2}，直至你下一回合结束。</p><p><strong>大失败</strong> 同失败，但该生物另 @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{流失1}；你恢复等同该生物因流失状态而损失之生命值的生命值。</p>"
+      "description": "<p>你不再满足于仅利用已离开身体之鲜血。若你的下一动作是使用 @UUID[Compendium.pf2e-team-plus-magic.misc.JaoqIFWtitfe1jhr]{鲜血虹吸}，目标须以你的法术 DC 进行 @Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)] 豁免。在豁免之后，目标于 1 分钟内对你的「贪食吸取」暂时免疫。</p><p><strong>成功</strong> 目标不受影响。</p><p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭2}，直至你下一回合结束。</p><p><strong>大失败</strong> 同失败，但该生物另 @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{流失1}；你恢复等同该生物因流失状态而损失之生命值的生命值。</p>",
+      "prerequisites": [
+        {
+          "value": "血法师入门"
+        }
+      ]
     },
     "Magic Amulet (6th-Rank Essence Spell)": {
       "name": "魔法护符（6阶精质法术） Magic Amulet (6th-Rank Essence Spell)",
@@ -371,11 +536,21 @@
     },
     "Warped Reflection": {
       "name": "扭曲镜像 Warped Reflection",
-      "description": "<p><strong>触发</strong> 你以暗影武器对一名具有影子之生物的打击失败但非大失败。</p><hr /><p>你将暗影武器穿透影界本身，借其扭曲镜像将你失败的攻击重新定向。重新掷触发的打击，使用新结果作为攻击掷骰。若目标具有影子或处于黑暗区域中，则其对你的打击措手不及。</p><p></p>"
+      "description": "<p><strong>触发</strong> 你以暗影武器对一名具有影子之生物的打击失败但非大失败。</p><hr /><p>你将暗影武器穿透影界本身，借其扭曲镜像将你失败的攻击重新定向。重新掷触发的打击，使用新结果作为攻击掷骰。若目标具有影子或处于黑暗区域中，则其对你的打击措手不及。</p><p></p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Diadic Sacrifice": {
       "name": "双向献祭 Diadic Sacrifice",
-      "description": "<p><strong>触发</strong> 你的神秘搭档受到伤害。</p><p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你们的连结已经如此强大，让你能沿其神秘线传递生命力。你将部分伤害通过你的神秘链结转移，使其不伤害你的搭档，转而由你自身承受。你最多可抵消你搭档所受伤害的一半，并将你的生命值减少同等数量。抵消的伤害不能超过你当前的生命值。你的搭档以你为他们的神秘搭档时亦获得此反应及其自身频率与同样限制。</p>"
+      "description": "<p><strong>触发</strong> 你的神秘搭档受到伤害。</p><p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你们的连结已经如此强大，让你能沿其神秘线传递生命力。你将部分伤害通过你的神秘链结转移，使其不伤害你的搭档，转而由你自身承受。你最多可抵消你搭档所受伤害的一半，并将你的生命值减少同等数量。抵消的伤害不能超过你当前的生命值。你的搭档以你为他们的神秘搭档时亦获得此反应及其自身频率与同样限制。</p>",
+      "prerequisites": [
+        {
+          "value": "神秘搭档入门"
+        }
+      ]
     },
     "Omen Dragonbreath Scimitar (Major)": {
       "name": "兆命龙息弯刀（上等） Omen Dragonbreath Scimitar (Major)",
@@ -395,7 +570,12 @@
     },
     "Tethered Magic Spells": {
       "name": "系链魔法法术 Tethered Magic Spells",
-      "description": "<p>你已习得通常你魔法根源所没有之魔法。将所有所列法术加入你的法术列表。若你为准备式施法者，你立即从下列法术中习得一道；若你为自发式施法者，你可立即将你法术库中的一道法术替换为下列法术之一，并以适当环级加入你的法术库。</p><ul><li><p><strong>热忱</strong> @UUID[Compendium.pf2e.spells-srd.yafsV0ni7rFgqJBj]{轻薄恶言}、@UUID[Compendium.pf2e.spells-srd.b515AZlB0sridKSq]{安定心神}、@UUID[Compendium.pf2e.spells-srd.jsWthW1Qy6tg3SwD]{吸引怒火}</p></li><li><p><strong>御风者</strong> @UUID[Compendium.pf2e.spells-srd.TSyFZNAbqfkRrcq0]{协音合唱}、@UUID[Compendium.pf2e.spells-srd.g8QqHpv2CWDwmIm1]{造风术}、@UUID[Compendium.pf2e.spells-srd.wzLkNU3AAqOSKFPR]{噪鸣爆}</p></li><li><p><strong>毁灭者</strong> @UUID[Compendium.pf2e.spells-srd.8TQiFzGf4feoHeH0]{寒冷喷射}、@UUID[Compendium.pf2e.spells-srd.4GE2ZdODgIQtg51c]{黑暗术}、@UUID[Compendium.pf2e.spells-srd.zdb8cjOIDVKYMWdr]{半影裹布}</p></li><li><p><strong>侵蚀者</strong> @UUID[Compendium.pf2e.spells-srd.rnNGALRtsjspFTws]{强酸爆}、@UUID[Compendium.pf2e.spells-srd.mS3p6BR3LcG1WmHs]{铺设路面}、@UUID[Compendium.pf2e.spells-srd.dgCH2E0gMLMUgyFl]{冲击术}</p></li><li><p><strong>造物者</strong> @UUID[Compendium.pf2e.spells-srd.UKsIOWmMx4hSpafl]{眩彩喷射}、@UUID[Compendium.pf2e.spells-srd.f8SBoXiXQjlCKqly]{幻象生物}、@UUID[Compendium.pf2e.spells-srd.iohRnd4gUCmJlh54]{迷失方向}</p></li><li><p><strong>辉光者</strong> @UUID[Compendium.pf2e.spells-srd.ZxHC7V7HtjUsB8zH]{灼热火矢}、@UUID[Compendium.pf2e.spells-srd.y6rAdMK6EFlV6U0t]{燃烧之息}、@UUID[Compendium.pf2e.spells-srd.v3vFzGazNSFEDdRB]{耀辐场}</p></li><li><p><strong>磁力者</strong> @UUID[Compendium.pf2e.spells-srd.2tHYKoVc5YhSewDO]{灌铅步伐}、@UUID[Compendium.pf2e.spells-srd.24U1b9K4Lj94cgaj]{磁力排斥}、@UUID[Compendium.pf2e.spells-srd.zDJS8E66UI0himqV]{雷击术}</p></li><li><p><strong>亡灭者</strong> @UUID[Compendium.pf2e.spells-srd.k34hDOfIIMAxNL4a]{邪影触须}、@UUID[Compendium.pf2e.spells-srd.dxOF7d5kAWusLKWF]{死神提灯}、@UUID[Compendium.pf2e.spells-srd.XFtO4BBI22Uox2QP]{瞬间枯萎}</p></li><li><p><strong>推进器</strong> @UUID[Compendium.pf2e.spells-srd.gKKqvLohtrSJj3BM]{力场飞弹}、@UUID[Compendium.pf2e.spells-srd.jfVCuOpzC6mUrf6f]{水流冲击}、@UUID[Compendium.pf2e.spells-srd.mrDi3v933gsmnw25]{念动战技}</p></li><li><p><strong>救主</strong> @UUID[Compendium.pf2e.spells-srd.SUKaxVZW2TlM8lu0]{净化苦难}、@UUID[Compendium.pf2e.spells-srd.2iQKhCQBijhj5Rf3]{灌注命能}、@UUID[Compendium.pf2e.spells-srd.yHujiDQPdtXW797e]{灵魂链接}</p></li><li><p><strong>苍翠者</strong> @UUID[Compendium.pf2e.spells-srd.J6vNvrUT3b1hx2iA]{纠缠植被}、@UUID[Compendium.pf2e.spells-srd.K9gI08enGtmih5X1]{守护灵树}、@UUID[Compendium.pf2e.spells-srd.MMIPT6jfwHfLPkm5]{灌木墙}</p></li></ul>"
+      "description": "<p>你已习得通常你魔法根源所没有之魔法。将所有所列法术加入你的法术列表。若你为准备式施法者，你立即从下列法术中习得一道；若你为自发式施法者，你可立即将你法术库中的一道法术替换为下列法术之一，并以适当环级加入你的法术库。</p><ul><li><p><strong>热忱</strong> @UUID[Compendium.pf2e.spells-srd.yafsV0ni7rFgqJBj]{轻薄恶言}、@UUID[Compendium.pf2e.spells-srd.b515AZlB0sridKSq]{安定心神}、@UUID[Compendium.pf2e.spells-srd.jsWthW1Qy6tg3SwD]{吸引怒火}</p></li><li><p><strong>御风者</strong> @UUID[Compendium.pf2e.spells-srd.TSyFZNAbqfkRrcq0]{协音合唱}、@UUID[Compendium.pf2e.spells-srd.g8QqHpv2CWDwmIm1]{造风术}、@UUID[Compendium.pf2e.spells-srd.wzLkNU3AAqOSKFPR]{噪鸣爆}</p></li><li><p><strong>毁灭者</strong> @UUID[Compendium.pf2e.spells-srd.8TQiFzGf4feoHeH0]{寒冷喷射}、@UUID[Compendium.pf2e.spells-srd.4GE2ZdODgIQtg51c]{黑暗术}、@UUID[Compendium.pf2e.spells-srd.zdb8cjOIDVKYMWdr]{半影裹布}</p></li><li><p><strong>侵蚀者</strong> @UUID[Compendium.pf2e.spells-srd.rnNGALRtsjspFTws]{强酸爆}、@UUID[Compendium.pf2e.spells-srd.mS3p6BR3LcG1WmHs]{铺设路面}、@UUID[Compendium.pf2e.spells-srd.dgCH2E0gMLMUgyFl]{冲击术}</p></li><li><p><strong>造物者</strong> @UUID[Compendium.pf2e.spells-srd.UKsIOWmMx4hSpafl]{眩彩喷射}、@UUID[Compendium.pf2e.spells-srd.f8SBoXiXQjlCKqly]{幻象生物}、@UUID[Compendium.pf2e.spells-srd.iohRnd4gUCmJlh54]{迷失方向}</p></li><li><p><strong>辉光者</strong> @UUID[Compendium.pf2e.spells-srd.ZxHC7V7HtjUsB8zH]{灼热火矢}、@UUID[Compendium.pf2e.spells-srd.y6rAdMK6EFlV6U0t]{燃烧之息}、@UUID[Compendium.pf2e.spells-srd.v3vFzGazNSFEDdRB]{耀辐场}</p></li><li><p><strong>磁力者</strong> @UUID[Compendium.pf2e.spells-srd.2tHYKoVc5YhSewDO]{灌铅步伐}、@UUID[Compendium.pf2e.spells-srd.24U1b9K4Lj94cgaj]{磁力排斥}、@UUID[Compendium.pf2e.spells-srd.zDJS8E66UI0himqV]{雷击术}</p></li><li><p><strong>亡灭者</strong> @UUID[Compendium.pf2e.spells-srd.k34hDOfIIMAxNL4a]{邪影触须}、@UUID[Compendium.pf2e.spells-srd.dxOF7d5kAWusLKWF]{死神提灯}、@UUID[Compendium.pf2e.spells-srd.XFtO4BBI22Uox2QP]{瞬间枯萎}</p></li><li><p><strong>推进器</strong> @UUID[Compendium.pf2e.spells-srd.gKKqvLohtrSJj3BM]{力场飞弹}、@UUID[Compendium.pf2e.spells-srd.jfVCuOpzC6mUrf6f]{水流冲击}、@UUID[Compendium.pf2e.spells-srd.mrDi3v933gsmnw25]{念动战技}</p></li><li><p><strong>救主</strong> @UUID[Compendium.pf2e.spells-srd.SUKaxVZW2TlM8lu0]{净化苦难}、@UUID[Compendium.pf2e.spells-srd.2iQKhCQBijhj5Rf3]{灌注命能}、@UUID[Compendium.pf2e.spells-srd.yHujiDQPdtXW797e]{灵魂链接}</p></li><li><p><strong>苍翠者</strong> @UUID[Compendium.pf2e.spells-srd.J6vNvrUT3b1hx2iA]{纠缠植被}、@UUID[Compendium.pf2e.spells-srd.K9gI08enGtmih5X1]{守护灵树}、@UUID[Compendium.pf2e.spells-srd.MMIPT6jfwHfLPkm5]{灌木墙}</p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "秘门术师入门"
+        }
+      ]
     },
     "Factotum": {
       "name": "多面手 Factotum",
@@ -403,7 +583,12 @@
     },
     "Expanded Mastery": {
       "name": "扩展精通 Expanded Mastery",
-      "description": "<p>你已发展出增强更多自身法术之技法。你于法术列表中再获得 4 道法术之动态精通。</p><hr /><p><strong>特殊</strong> 若你至少为 8 级，你可第二次选取此专长。再次选取时，你额外获得 6 道法术之动态精通。</p><p></p>"
+      "description": "<p>你已发展出增强更多自身法术之技法。你于法术列表中再获得 4 道法术之动态精通。</p><hr /><p><strong>特殊</strong> 若你至少为 8 级，你可第二次选取此专长。再次选取时，你额外获得 6 道法术之动态精通。</p><p></p>",
+      "prerequisites": [
+        {
+          "value": "动态法术贤者入门"
+        }
+      ]
     },
     "Magic Chalice (6th-Rank Essence Spell)": {
       "name": "魔法圣杯（6阶精质法术） Magic Chalice (6th-Rank Essence Spell)",
@@ -411,15 +596,36 @@
     },
     "Emergency Infusion": {
       "name": "紧急灌注 Emergency Infusion",
-      "description": "<p>少量血祭可让你的魔法突破极限。你承受等同你等级一半（向上取整）的 @Damage[(@actor.level/2)[persistent,bleed]] 持续流血伤害。你恢复 1 点聚能点。</p>"
+      "description": "<p>少量血祭可让你的魔法突破极限。你承受等同你等级一半（向上取整）的 @Damage[(@actor.level/2)[persistent,bleed]] 持续流血伤害。你恢复 1 点聚能点。</p>",
+      "prerequisites": [
+        {
+          "value": "血法师入门"
+        },
+        {
+          "value": "拥有聚能池"
+        }
+      ]
     },
     "Omnidisciplinary Summoning": {
       "name": "全学科召唤 Omnidisciplinary Summoning",
-      "description": "<p>你跨越根源去呼唤不可能之物。从任意法术根源中选择一道召唤法术。你视该法术为你根源之法术并获得其取得资格。</p>"
+      "description": "<p>你跨越根源去呼唤不可能之物。从任意法术根源中选择一道召唤法术。你视该法术为你根源之法术并获得其取得资格。</p>",
+      "prerequisites": [
+        {
+          "value": "多学科召唤"
+        }
+      ]
     },
     "Mortisor": {
       "name": "亡灭者 Mortisor",
-      "description": "<p>你将魔法之线穿过腐朽与死亡之秘门。</p><p><strong>秘门特征</strong> 死亡、虚能</p><p><strong>系链魔法</strong> 当你秘门之领域区域内一名生命值低于半数的生物成为你的死亡或虚能法术的目标时，其 @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧2级}。此为情绪、恐惧与心灵效果。该生物随后 1 分钟内对此效果免疫。@UUID[Compendium.pf2e-team-plus-magic.misc.Item.48vlYdnIcd9RwCqW]</p><p><strong>压倒性秘门</strong> 当你以「死亡」特征之法术作用于不死生物时，其不会自动免疫该效果，并在通常会死时被毁灭。当你以「虚能」特征且会以不死生物为目标之法术施法时，若该法术造成伤害，你可选择改造为精魂伤害（替代虚能伤害），如此该法术获得「精魂」特征替代「虚能」特征。当你将一名生物减至 0 生命值时，你于 1 轮内对心灵效果获得 +2 状态加值。</p><p></p>"
+      "description": "<p>你将魔法之线穿过腐朽与死亡之秘门。</p><p><strong>秘门特征</strong> 死亡、虚能</p><p><strong>系链魔法</strong> 当你秘门之领域区域内一名生命值低于半数的生物成为你的死亡或虚能法术的目标时，其 @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧2级}。此为情绪、恐惧与心灵效果。该生物随后 1 分钟内对此效果免疫。@UUID[Compendium.pf2e-team-plus-magic.misc.Item.48vlYdnIcd9RwCqW]</p><p><strong>压倒性秘门</strong> 当你以「死亡」特征之法术作用于不死生物时，其不会自动免疫该效果，并在通常会死时被毁灭。当你以「虚能」特征且会以不死生物为目标之法术施法时，若该法术造成伤害，你可选择改造为精魂伤害（替代虚能伤害），如此该法术获得「精魂」特征替代「虚能」特征。当你将一名生物减至 0 生命值时，你于 1 轮内对心灵效果获得 +2 状态加值。</p><p></p>",
+      "prerequisites": [
+        {
+          "value": "获得至少一个具有死亡特征的法术的许可"
+        },
+        {
+          "value": "获得至少一个具有虚能特征的法术的许可"
+        }
+      ]
     },
     "Horned Dragonbreath Longspear (Greater)": {
       "name": "智角龙息长矛（高等） Horned Dragonbreath Longspear (Greater)",
@@ -427,7 +633,12 @@
     },
     "Refract Eidolon's Aspect": {
       "name": "折射幻灵层面 Refract Eidolon's Aspect",
-      "description": "<p>你的幻灵与你之羁绊本身便是一种异常强大之层面。通过改变流经其中之魔法，你可将其转化为多种变体——犹如光线穿过棱镜。你解显化你的幻灵，并在幻灵原所在空间相邻空间召唤三个层面，受你 1 分钟之控制。这些层面必须是你已知、且与你幻灵共享一项特征之层面。由于这些都是你幻灵之层面，它们共享其心智——你可像与幻灵一般与其交流并对其施法。所召唤的层面以你的动作如同你幻灵般行事；当你使用具备同步特征之动作时，你可对其中一个层面使用之，犹如其为你的幻灵（例如同步行动）。若所召唤层面之一被减至 0 生命值，你承受 20 心灵伤害（因其被放逐）。若你于层面召唤生物在场时显化幻灵，则作为该行动之一部分，你立即解消所有层面召唤生物。</p><hr /><p><strong>特殊</strong> 若你具有 召唤师+ 之分裂幻灵，所有幻灵都解显化，所折射之层面便出现于其任一空间或其相邻空间。</p>"
+      "description": "<p>你的幻灵与你之羁绊本身便是一种异常强大之层面。通过改变流经其中之魔法，你可将其转化为多种变体——犹如光线穿过棱镜。你解显化你的幻灵，并在幻灵原所在空间相邻空间召唤三个层面，受你 1 分钟之控制。这些层面必须是你已知、且与你幻灵共享一项特征之层面。由于这些都是你幻灵之层面，它们共享其心智——你可像与幻灵一般与其交流并对其施法。所召唤的层面以你的动作如同你幻灵般行事；当你使用具备同步特征之动作时，你可对其中一个层面使用之，犹如其为你的幻灵（例如同步行动）。若所召唤层面之一被减至 0 生命值，你承受 20 心灵伤害（因其被放逐）。若你于层面召唤生物在场时显化幻灵，则作为该行动之一部分，你立即解消所有层面召唤生物。</p><hr /><p><strong>特殊</strong> 若你具有 召唤师+ 之分裂幻灵，所有幻灵都解显化，所折射之层面便出现于其任一空间或其相邻空间。</p>",
+      "prerequisites": [
+        {
+          "value": "层面先知"
+        }
+      ]
     },
     "Careless Swings": {
       "name": "草率挥击 Careless Swings",
@@ -443,11 +654,24 @@
     },
     "Draining Cast": {
       "name": "吸取施法 Draining Cast",
-      "description": "<p>你以自己的鲜血替代法术之魔法能量。若你的下一动作是施放法术，你不消耗触发的法术位，但生命值减少等同该法术环级两倍。此并非伤害，因此不能被减少、抵抗或以任何其他方式减弱，否则法术失败。</p>"
+      "description": "<p>你以自己的鲜血替代法术之魔法能量。若你的下一动作是施放法术，你不消耗触发的法术位，但生命值减少等同该法术环级两倍。此并非伤害，因此不能被减少、抵抗或以任何其他方式减弱，否则法术失败。</p>",
+      "prerequisites": [
+        {
+          "value": "血法师入门"
+        }
+      ]
     },
     "Magnetor": {
       "name": "磁力者 Magnetor",
-      "description": "<p>你将魔法之线穿过磁力与电流之秘门。</p><p><strong>秘门特征</strong> 电击、金</p><p><strong>系链魔法</strong> 在你秘门之领域区域内选择 2 名生物。两名生物均须以你的法术 DC 进行 @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)] 豁免。豁免失败之生物被推 10 尺向你所选之另一生物。生物可选择令其对此效果之豁免直接失败。此为强迫移动。</p><p><strong>压倒性秘门</strong> 当你以「电击」特征之法术造成伤害时，你可选择改造为挥砍伤害（替代电击伤害）。当你以「金」特征之法术作用于单一生物时，该生物在你施放法术之后对电击伤害获得弱点，等于该法术的环级，至其下回合开始。@UUID[Compendium.pf2e-team-plus-magic.misc.Zgv994vvXgTO4wp3]</p>"
+      "description": "<p>你将魔法之线穿过磁力与电流之秘门。</p><p><strong>秘门特征</strong> 电击、金</p><p><strong>系链魔法</strong> 在你秘门之领域区域内选择 2 名生物。两名生物均须以你的法术 DC 进行 @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)] 豁免。豁免失败之生物被推 10 尺向你所选之另一生物。生物可选择令其对此效果之豁免直接失败。此为强迫移动。</p><p><strong>压倒性秘门</strong> 当你以「电击」特征之法术造成伤害时，你可选择改造为挥砍伤害（替代电击伤害）。当你以「金」特征之法术作用于单一生物时，该生物在你施放法术之后对电击伤害获得弱点，等于该法术的环级，至其下回合开始。@UUID[Compendium.pf2e-team-plus-magic.misc.Zgv994vvXgTO4wp3]</p>",
+      "prerequisites": [
+        {
+          "value": "获得至少一个具有电击特征的法术的许可"
+        },
+        {
+          "value": "获得至少一个具有金特征的法术的许可"
+        }
+      ]
     },
     "Magic Tome (4th-Rank Essence Spell)": {
       "name": "魔法典籍（4阶精质法术） Magic Tome (4th-Rank Essence Spell)",
@@ -471,7 +695,12 @@
     },
     "Twist Vector": {
       "name": "扭曲向量 Twist Vector",
-      "description": "<p><strong>需求</strong> 你正持用你的暗影武器。</p><hr /><p>你的暗影武器扭曲现实之肌理以瞄准另一种防御。以你的暗影武器进行一次打击，但你的攻击掷骰可选择以目标的反射 DC 或意志 DC（替代 AC）作为对照。你的暗影武器随后立即消散，你必须再次交互以重新拔出你的暗影武器。</p><p></p>"
+      "description": "<p><strong>需求</strong> 你正持用你的暗影武器。</p><hr /><p>你的暗影武器扭曲现实之肌理以瞄准另一种防御。以你的暗影武器进行一次打击，但你的攻击掷骰可选择以目标的反射 DC 或意志 DC（替代 AC）作为对照。你的暗影武器随后立即消散，你必须再次交互以重新拔出你的暗影武器。</p><p></p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Darkened Forest Shift": {
       "name": "晦林变形 Darkened Forest Shift",
@@ -483,15 +712,30 @@
     },
     "Cross-Discipline Studies": {
       "name": "跨学科研究 Cross-Discipline Studies",
-      "description": "<p>血法师术与血法之姊妹传统颇为相似——许多研习其一者亦研习其二，并掌握仅同时熟悉两者之人才能学到的诡计。你依所具先决条件之入门专长获得益处。若你具有两项先决条件专长，你获得「血法师入门」之益处。</p><p><strong>血法师入门</strong> 你获得 @UUID[Compendium.pf2e.feats-srd.HASFgAZ7spYleeaq]{血术师入门} 作为额外专长。若你已具备血术师入门，你可立即重训它。</p><p><strong>血术师入门</strong> 你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.JaoqIFWtitfe1jhr]{鲜血虹吸}。一旦你使用「鲜血虹吸」，1d4 轮内不能再次使用。此外，使用鲜血虹吸时，你可选择获得等同你等级一半的血法生命值（替代恢复生命值），持续至你下一回合结束。</p><hr /><p><strong>特殊</strong> 你可多次选取此专长，每次获得一项你尚未具备的益处。</p>"
+      "description": "<p>血法师术与血法之姊妹传统颇为相似——许多研习其一者亦研习其二，并掌握仅同时熟悉两者之人才能学到的诡计。你依所具先决条件之入门专长获得益处。若你具有两项先决条件专长，你获得「血法师入门」之益处。</p><p><strong>血法师入门</strong> 你获得 @UUID[Compendium.pf2e.feats-srd.HASFgAZ7spYleeaq]{血术师入门} 作为额外专长。若你已具备血术师入门，你可立即重训它。</p><p><strong>血术师入门</strong> 你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.JaoqIFWtitfe1jhr]{鲜血虹吸}。一旦你使用「鲜血虹吸」，1d4 轮内不能再次使用。此外，使用鲜血虹吸时，你可选择获得等同你等级一半的血法生命值（替代恢复生命值），持续至你下一回合结束。</p><hr /><p><strong>特殊</strong> 你可多次选取此专长，每次获得一项你尚未具备的益处。</p>",
+      "prerequisites": [
+        {
+          "value": "血法师入门或血术师入门"
+        }
+      ]
     },
     "Transitory Magic Junction": {
       "name": "瞬变魔法节点 Transitory Magic Junction",
-      "description": "<p>你不会失去访问某些魔法之能力。依施法类型所赐效果如下。</p><p><strong>准备式施法者</strong> 你可花费 10 分钟清空一道具备你秘门关联特征之已准备法术位，并准备另一道你已知、具备你秘门关联特征之法术。若你于此交换中被打断，原法术仍保持已准备状态，且仍可施放。你可稍后再次尝试交换，但必须重新开始整个过程。</p><p><strong>自发式施法者</strong> 在每日准备期间，从你法术库中选择一道具备你秘门关联特征之法术。该法术于至下次每日准备前为你的标志法术。</p><hr /><p><strong>特殊</strong> 若你为具备 @UUID[Compendium.pf2e.classfeatures.QzWXMCSGNfvvpYgF]{法术替换} 奥术论文之法师，且其中一道法术具备你秘门关联特征，你可在常规交换一道法术所需之时间内交换两道法术。</p>"
+      "description": "<p>你不会失去访问某些魔法之能力。依施法类型所赐效果如下。</p><p><strong>准备式施法者</strong> 你可花费 10 分钟清空一道具备你秘门关联特征之已准备法术位，并准备另一道你已知、具备你秘门关联特征之法术。若你于此交换中被打断，原法术仍保持已准备状态，且仍可施放。你可稍后再次尝试交换，但必须重新开始整个过程。</p><p><strong>自发式施法者</strong> 在每日准备期间，从你法术库中选择一道具备你秘门关联特征之法术。该法术于至下次每日准备前为你的标志法术。</p><hr /><p><strong>特殊</strong> 若你为具备 @UUID[Compendium.pf2e.classfeatures.QzWXMCSGNfvvpYgF]{法术替换} 奥术论文之法师，且其中一道法术具备你秘门关联特征，你可在常规交换一道法术所需之时间内交换两道法术。</p>",
+      "prerequisites": [
+        {
+          "value": "秘门术师入门"
+        }
+      ]
     },
     "Tools of Darkness": {
       "name": "黑暗之具 Tools of Darkness",
-      "description": "<p>当时机适宜时，你可挥舞暗影之具。你习得 @UUID[Compendium.pf2e-team-plus-magic.misc.wLBCTxPo3Go5g5JF]{黑暗之具} 聚能法术。</p>"
+      "description": "<p>当时机适宜时，你可挥舞暗影之具。你习得 @UUID[Compendium.pf2e-team-plus-magic.misc.wLBCTxPo3Go5g5JF]{黑暗之具} 聚能法术。</p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Terminus of Renewal": {
       "name": "更新终焉 Terminus of Renewal",
@@ -511,7 +755,12 @@
     },
     "Monstrosity Shape+": {
       "name": "怪物形态+ Monstrosity Shape+",
-      "description": "<p>你能变形为强大的魔法生物。将 @UUID[Compendium.pf2e.spells-srd.Item.8AMvNVOUEtxBCDvJ]{巨兽形态} 中所列的洞穴蠕虫与海蛇形态加入你的 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 列表。</p><p>若你具备 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形}，将 @UUID[Compendium.pf2e-team-plus-magic.items.dhkn1t8nbHrlqQ99]{神怪变形} 之层面加入你的无羁层面变形列表。若你具有 @UUID[Compendium.pf2e.feats-srd.Item.wNHUryoRzlfDCFAd]{翱翔之形}，亦将凤凰形态加入你的<em>无羁形态</em>列表。</p>"
+      "description": "<p>你能变形为强大的魔法生物。将 @UUID[Compendium.pf2e.spells-srd.Item.8AMvNVOUEtxBCDvJ]{巨兽形态} 中所列的洞穴蠕虫与海蛇形态加入你的 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 列表。</p><p>若你具备 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形}，将 @UUID[Compendium.pf2e-team-plus-magic.items.dhkn1t8nbHrlqQ99]{神怪变形} 之层面加入你的无羁层面变形列表。若你具有 @UUID[Compendium.pf2e.feats-srd.Item.wNHUryoRzlfDCFAd]{翱翔之形}，亦将凤凰形态加入你的<em>无羁形态</em>列表。</p>",
+      "prerequisites": [
+        {
+          "value": "无羁形态"
+        }
+      ]
     },
     "Scepter of Purifying": {
       "name": "净化权杖 Scepter of Purifying",
@@ -519,7 +768,12 @@
     },
     "Sticky Wicket": {
       "name": "黏滞秘门 Sticky Wicket",
-      "description": "<p>你所至之处便是你之领域。当你施放 @UUID[Compendium.pf2e-team-plus-magic.misc.LHh2MWWJY4La9pDN]{显化秘门领域} 时，你可选择赋予该法术「灵光」特征——令其弥漫范围在持续时间内随你而动。若你的移动会导致一项系链魔法效果离开该法术区域，该系链魔法效果便立即结束。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.BE4ViueO8zTbehY7]{法术效果：秘门领域灵光}</p>"
+      "description": "<p>你所至之处便是你之领域。当你施放 @UUID[Compendium.pf2e-team-plus-magic.misc.LHh2MWWJY4La9pDN]{显化秘门领域} 时，你可选择赋予该法术「灵光」特征——令其弥漫范围在持续时间内随你而动。若你的移动会导致一项系链魔法效果离开该法术区域，该系链魔法效果便立即结束。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.BE4ViueO8zTbehY7]{法术效果：秘门领域灵光}</p>",
+      "prerequisites": [
+        {
+          "value": "秘门术师入门"
+        }
+      ]
     },
     "Sleuth": {
       "name": "侦探 Sleuth",
@@ -527,15 +781,30 @@
     },
     "Unified Perseverance": {
       "name": "协同坚持 Unified Perseverance",
-      "description": "<p><strong>触发</strong> 你与你的神秘搭档将对同一道魔法效果尝试豁免。</p><p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你与神秘搭档之间的连结让你们几乎不费吹灰之力便能彼此助力规避险境。你们各自对触发效果的豁免获得 +2 状态加值。你们各自取你们二人之中较高的结果作为各自的结果。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.1bGVcPaOSQgJKASr]{效果：协同坚持}</p>"
+      "description": "<p><strong>触发</strong> 你与你的神秘搭档将对同一道魔法效果尝试豁免。</p><p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你与神秘搭档之间的连结让你们几乎不费吹灰之力便能彼此助力规避险境。你们各自对触发效果的豁免获得 +2 状态加值。你们各自取你们二人之中较高的结果作为各自的结果。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.1bGVcPaOSQgJKASr]{效果：协同坚持}</p>",
+      "prerequisites": [
+        {
+          "value": "神秘搭档入门"
+        }
+      ]
     },
     "Archmage Dedication": {
       "name": "大法师入门 Archmage Dedication",
-      "description": "<p>你是大法师，对魔法之精通超越常规之限。仅凭一念，你便可阻碍其他施法者的施法能力，而无须消耗自身法术。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.oN0stoayFGzsfG3C]{大法师反制} 反应。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.gr3jpClifIi93Bjx]{大法师}</p>"
+      "description": "<p>你是大法师，对魔法之精通超越常规之限。仅凭一念，你便可阻碍其他施法者的施法能力，而无须消耗自身法术。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.oN0stoayFGzsfG3C]{大法师反制} 反应。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.gr3jpClifIi93Bjx]{大法师}</p>",
+      "prerequisites": [
+        {
+          "value": "能够使用法术位施法"
+        }
+      ]
     },
     "Terminus of Life": {
       "name": "生命终焉 Terminus of Life",
-      "description": "<p><strong>触发</strong> 你完成一次精质循环。</p><hr /><p>你内里溢出之生命精质增强你后续法术之治疗，并在你施放其他法术时提供慰藉。</p><p><strong>周期 1</strong> 你于精质法术之治疗上每环级获得 +2 环境加值。此仅适用于法术施放时之初始治疗。每次施放该法术，每名生物只从此治疗中获益一次（即便该法术多次治疗同一生物）。</p><p>此外，若你施放一道会增加你精质且不会治疗生物之法术，则你或你选择的一名法术目标每环级获得 2 点临时生命值（精质法术为每环级 4 点）。当使用治疗法术时，你可选择赐予临时生命值（替代额外治疗）以保留你的生命储池。</p><p><strong>周期 2</strong> 同周期 1，但环境加值为 +3，临时生命值提升至每环级 3 点（精质法术为每环级 6 点）。</p><p><strong>周期 3</strong> 同周期 2，但环境加值为 +4，临时生命值提升至每环级 4 点（精质法术为每环级 8 点）。</p>"
+      "description": "<p><strong>触发</strong> 你完成一次精质循环。</p><hr /><p>你内里溢出之生命精质增强你后续法术之治疗，并在你施放其他法术时提供慰藉。</p><p><strong>周期 1</strong> 你于精质法术之治疗上每环级获得 +2 环境加值。此仅适用于法术施放时之初始治疗。每次施放该法术，每名生物只从此治疗中获益一次（即便该法术多次治疗同一生物）。</p><p>此外，若你施放一道会增加你精质且不会治疗生物之法术，则你或你选择的一名法术目标每环级获得 2 点临时生命值（精质法术为每环级 4 点）。当使用治疗法术时，你可选择赐予临时生命值（替代额外治疗）以保留你的生命储池。</p><p><strong>周期 2</strong> 同周期 1，但环境加值为 +3，临时生命值提升至每环级 3 点（精质法术为每环级 6 点）。</p><p><strong>周期 3</strong> 同周期 2，但环境加值为 +4，临时生命值提升至每环级 4 点（精质法术为每环级 8 点）。</p>",
+      "prerequisites": [
+        {
+          "value": "神术或原能施法者"
+        }
+      ]
     },
     "Creeping Cold": {
       "name": "寒意悄至 Creeping Cold",
@@ -543,7 +812,12 @@
     },
     "Eldritch Wicketeer Dedication": {
       "name": "秘门术师入门 Eldritch Wicketeer Dedication",
-      "description": "<p>你的领域如今使用系链魔法以产生强大效果。当你以聚能点或法术位施放一道至少具备你某项秘门特征之法术，且你身处该区域内时，你获得你秘门之系链魔法效果。你于结算法术任何效果之前或之后应用该效果——选择由你于施放法术时决定。你可解消这些效果；若你秘门之领域不再生效，任何系链魔法效果便自动结束。你每轮只能触发一次系链魔法效果。</p>"
+      "description": "<p>你的领域如今使用系链魔法以产生强大效果。当你以聚能点或法术位施放一道至少具备你某项秘门特征之法术，且你身处该区域内时，你获得你秘门之系链魔法效果。你于结算法术任何效果之前或之后应用该效果——选择由你于施放法术时决定。你可解消这些效果；若你秘门之领域不再生效，任何系链魔法效果便自动结束。你每轮只能触发一次系链魔法效果。</p>",
+      "prerequisites": [
+        {
+          "value": "你必须从自己的职业获得施法职业特性"
+        }
+      ]
     },
     "NPC Essence Spellcasting": {
       "name": "NPC精质施法 NPC Essence Spellcasting",
@@ -551,7 +825,12 @@
     },
     "Running Summon": {
       "name": "奔跑召唤 Running Summon",
-      "description": "<p>纵使你正在移动，你也可让你的召唤物继续战斗。你行走，并花费单一动作维持一道召唤法术。</p>"
+      "description": "<p>纵使你正在移动，你也可让你的召唤物继续战斗。你行走，并花费单一动作维持一道召唤法术。</p>",
+      "prerequisites": [
+        {
+          "value": "层面召唤者入门"
+        }
+      ]
     },
     "Acolyte": {
       "name": "侍祭 Acolyte",
@@ -559,7 +838,12 @@
     },
     "Befuddling Spell": {
       "name": "困惑法术 Befuddling Spell",
-      "description": "<p>你于法术修饰之专长让你能制作出令一切目击者皆困惑之变体法术。只要法术大致符合其伤害与效果之范围，你便可自定其外观。例如，你的「闪电束」可看似召唤电龙，「火球术」可看似打开通往地狱之门户。</p><p>若你下一动作是施放法术，所有生物对 @UUID[Compendium.pf2e.actionspf2e.eReSHVEPCsdkSL4G]{辨识魔法} 承受 -4 环境减值，且反制该法术时承受 -2 环境减值。</p>"
+      "description": "<p>你于法术修饰之专长让你能制作出令一切目击者皆困惑之变体法术。只要法术大致符合其伤害与效果之范围，你便可自定其外观。例如，你的「闪电束」可看似召唤电龙，「火球术」可看似打开通往地狱之门户。</p><p>若你下一动作是施放法术，所有生物对 @UUID[Compendium.pf2e.actionspf2e.eReSHVEPCsdkSL4G]{辨识魔法} 承受 -4 环境减值，且反制该法术时承受 -2 环境减值。</p>",
+      "prerequisites": [
+        {
+          "value": "动态法术贤者入门"
+        }
+      ]
     },
     "Essence Draw": {
       "name": "精质抽取 Essence Draw",
@@ -583,7 +867,15 @@
     },
     "Propulsor": {
       "name": "推进器 Propulsor",
-      "description": "<p>你将魔法之线穿过推进与湍流之秘门。</p><p><strong>秘门特征</strong> 力场、水</p><p><strong>系链魔法</strong> 当你以「水」特征之法术攻击成功，或一名生物对此法术豁免失败时，你将目标向你所选方向推开 5 尺（若你的法术攻击大成功或该生物豁免大失败则为 10 尺）。此为强迫移动。当你施放一道力场法术时，你可移除你秘门之领域区域内某生物之倒地状态——犹如其使用了 @UUID[Compendium.pf2e.actionspf2e.OdIUybJ3ddfL7wzj]{站立} 动作。该「站立」动作不会引发反应。</p><p><strong>压倒性秘门</strong> 当你以「水」特征且造成钝击伤害之法术施法时，你可选择改造为力场伤害（替代钝击伤害）。当你以一道不需要豁免之力场法术对生物造成伤害时，他们须以你的法术 DC 进行 @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)] 豁免。豁免失败的生物 @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及} 直至其下一回合结束；豁免大失败时被击 @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地}。</p>"
+      "description": "<p>你将魔法之线穿过推进与湍流之秘门。</p><p><strong>秘门特征</strong> 力场、水</p><p><strong>系链魔法</strong> 当你以「水」特征之法术攻击成功，或一名生物对此法术豁免失败时，你将目标向你所选方向推开 5 尺（若你的法术攻击大成功或该生物豁免大失败则为 10 尺）。此为强迫移动。当你施放一道力场法术时，你可移除你秘门之领域区域内某生物之倒地状态——犹如其使用了 @UUID[Compendium.pf2e.actionspf2e.OdIUybJ3ddfL7wzj]{站立} 动作。该「站立」动作不会引发反应。</p><p><strong>压倒性秘门</strong> 当你以「水」特征且造成钝击伤害之法术施法时，你可选择改造为力场伤害（替代钝击伤害）。当你以一道不需要豁免之力场法术对生物造成伤害时，他们须以你的法术 DC 进行 @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)] 豁免。豁免失败的生物 @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及} 直至其下一回合结束；豁免大失败时被击 @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地}。</p>",
+      "prerequisites": [
+        {
+          "value": "获得至少一个具有力场特征的法术的许可"
+        },
+        {
+          "value": "获得至少一个具有水特征的法术的许可"
+        }
+      ]
     },
     "Magic Chalice (9th-Rank Essence Spell)": {
       "name": "魔法圣杯（9阶精质法术） Magic Chalice (9th-Rank Essence Spell)",
@@ -595,7 +887,12 @@
     },
     "Plant Shape+": {
       "name": "植物形态+ Plant Shape+",
-      "description": "<p>你能化身为植物生物。若你不具备「无羁形态」，你可每日一次施放 @UUID[Compendium.pf2e.spells-srd.Item.zCcfPS4y5SrZzU2x]{植物形态} 或 @UUID[Compendium.pf2e-team-plus-magic.items.qH18jW3EMywavprR]{植物变形}，升阶至与你最高环级德鲁伊法术位相同的环级。</p><p>若你具备 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形} 或 @UUID[Compendium.pf2e.spells-srd.8RWfKConLYFZpQ9X]{无羁形态}，将 @UUID[Compendium.pf2e-team-plus-magic.items.qH18jW3EMywavprR]{植物变形} 中所列形态加入你的 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形} 列表，或将 @UUID[Compendium.pf2e.spells-srd.Item.zCcfPS4y5SrZzU2x]{植物形态} 加入你的 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 列表；每当你以这两道法术中任一者变形为另一形态时，你获得对毒素之抗力 5。</p>"
+      "description": "<p>你能化身为植物生物。若你不具备「无羁形态」，你可每日一次施放 @UUID[Compendium.pf2e.spells-srd.Item.zCcfPS4y5SrZzU2x]{植物形态} 或 @UUID[Compendium.pf2e-team-plus-magic.items.qH18jW3EMywavprR]{植物变形}，升阶至与你最高环级德鲁伊法术位相同的环级。</p><p>若你具备 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形} 或 @UUID[Compendium.pf2e.spells-srd.8RWfKConLYFZpQ9X]{无羁形态}，将 @UUID[Compendium.pf2e-team-plus-magic.items.qH18jW3EMywavprR]{植物变形} 中所列形态加入你的 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形} 列表，或将 @UUID[Compendium.pf2e.spells-srd.Item.zCcfPS4y5SrZzU2x]{植物形态} 加入你的 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 列表；每当你以这两道法术中任一者变形为另一形态时，你获得对毒素之抗力 5。</p>",
+      "prerequisites": [
+        {
+          "value": "青翠教派或无羁形态"
+        }
+      ]
     },
     "Rowdy": {
       "name": "好斗者 Rowdy",
@@ -603,7 +900,15 @@
     },
     "Companion Aspect": {
       "name": "伙伴层面 Companion Aspect",
-      "description": "<p>你将超凡之力送入伙伴。若你的下一动作是施放一道召唤法术，你可改为以射程内一名仆从为目标。所召唤之生物出现于你的伙伴所在空间，并兼具你的伙伴之感官、特殊能力与动作以及它自身的常规感官、特殊能力与动作；当你维持该法术时，它如常获得动作。若该法术结束或被解消，你的伙伴回到该召唤生物所占据之最后空间。若该召唤生物被放逐或被毁灭，你的伙伴回到该召唤生物所占据之最后空间，处于 0 生命值并失去意识。</p>"
+      "description": "<p>你将超凡之力送入伙伴。若你的下一动作是施放一道召唤法术，你可改为以射程内一名仆从为目标。所召唤之生物出现于你的伙伴所在空间，并兼具你的伙伴之感官、特殊能力与动作以及它自身的常规感官、特殊能力与动作；当你维持该法术时，它如常获得动作。若该法术结束或被解消，你的伙伴回到该召唤生物所占据之最后空间。若该召唤生物被放逐或被毁灭，你的伙伴回到该召唤生物所占据之最后空间，处于 0 生命值并失去意识。</p>",
+      "prerequisites": [
+        {
+          "value": "层面召唤者入门"
+        },
+        {
+          "value": "拥有魔宠或动物伙伴"
+        }
+      ]
     },
     "Incantations": {
       "name": "咒诵 Incantations",
@@ -611,15 +916,30 @@
     },
     "Drain Destiny": {
       "name": "吸取命运 Drain Destiny",
-      "description": "<p>你以恶意能量为法术蓄能，让其能窃取敌人之命运本身。若你的下一动作是法术打击或施放一道针对单一敌人且需要攻击掷骰之法术，则该法术能从目标身上虹吸神话之力。若法术攻击掷骰成功，你恢复 1 神话点；若该法术之目标具备神话点，则其失去 1 点。</p>"
+      "description": "<p>你以恶意能量为法术蓄能，让其能窃取敌人之命运本身。若你的下一动作是法术打击或施放一道针对单一敌人且需要攻击掷骰之法术，则该法术能从目标身上虹吸神话之力。若法术攻击掷骰成功，你恢复 1 神话点；若该法术之目标具备神话点，则其失去 1 点。</p>",
+      "prerequisites": [
+        {
+          "value": "大法师入门"
+        }
+      ]
     },
     "Dismiss Paltry Magic": {
       "name": "解除小型魔法 Dismiss Paltry Magic",
-      "description": "<p>大法师之力让你能解除他人较弱之魔法。选择 30 尺内一名生物。你尝试反制目标身上自选的一道正在生效的法术。你的反制环级等同于你能施放的最高环级法术，反制检定调整值为你的法术攻击掷骰调整值。</p>"
+      "description": "<p>大法师之力让你能解除他人较弱之魔法。选择 30 尺内一名生物。你尝试反制目标身上自选的一道正在生效的法术。你的反制环级等同于你能施放的最高环级法术，反制检定调整值为你的法术攻击掷骰调整值。</p>",
+      "prerequisites": [
+        {
+          "value": "大法师入门"
+        }
+      ]
     },
     "Thin the Blood": {
       "name": "稀释鲜血 Thin the Blood",
-      "description": "<p><strong>触发</strong> 30 尺内一名生物受到持续流血伤害。</p><hr /><p>有些人之鲜血令人沮丧地浓稠，固执地附着于其血管之内。你已学会几招让血液流动的诡计，可对常人使用——危险地稀释他们的血液。直至你下一回合结束前，解除触发的持续流血伤害之纯骰检定 DC 增加 5（通常至 DC 20，或在尤其有效之协助下为 DC 15）。</p>"
+      "description": "<p><strong>触发</strong> 30 尺内一名生物受到持续流血伤害。</p><hr /><p>有些人之鲜血令人沮丧地浓稠，固执地附着于其血管之内。你已学会几招让血液流动的诡计，可对常人使用——危险地稀释他们的血液。直至你下一回合结束前，解除触发的持续流血伤害之纯骰检定 DC 增加 5（通常至 DC 20，或在尤其有效之协助下为 DC 15）。</p>",
+      "prerequisites": [
+        {
+          "value": "血法师入门"
+        }
+      ]
     },
     "Summon Fey Aspect": {
       "name": "召唤精类层面 Summon Fey Aspect",
@@ -627,7 +947,12 @@
     },
     "Dynamic Spellsage Dedication": {
       "name": "动态法术贤者入门 Dynamic Spellsage Dedication",
-      "description": "<p>你已踏出动态魔法之路的第一步。你获得 Magic+ 书中罕见动态法术的取得资格。此外，你已学会从你数道动态法术中引出更大威能。你于法术列表中获得 3 道法术之动态精通。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.7sUDpfyvfnRsB5Yi]{动态法术贤者}</p>"
+      "description": "<p>你已踏出动态魔法之路的第一步。你获得 Magic+ 书中罕见动态法术的取得资格。此外，你已学会从你数道动态法术中引出更大威能。你于法术列表中获得 3 道法术之动态精通。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.7sUDpfyvfnRsB5Yi]{动态法术贤者}</p>",
+      "prerequisites": [
+        {
+          "value": "你能够使用法术位施法"
+        }
+      ]
     },
     "Assistant": {
       "name": "助手 Assistant",
@@ -643,7 +968,12 @@
     },
     "Instant Manifestation": {
       "name": "即刻显现 Instant Manifestation",
-      "description": "<p><strong>触发</strong> 你的回合开始。</p><hr /><p>当危险临近时，你的领域立即来到你身边。你施放 @UUID[Compendium.pf2e-team-plus-magic.misc.LHh2MWWJY4La9pDN]{显化秘门领域}。</p>"
+      "description": "<p><strong>触发</strong> 你的回合开始。</p><hr /><p>当危险临近时，你的领域立即来到你身边。你施放 @UUID[Compendium.pf2e-team-plus-magic.misc.LHh2MWWJY4La9pDN]{显化秘门领域}。</p>",
+      "prerequisites": [
+        {
+          "value": "秘门术师入门"
+        }
+      ]
     },
     "Fey Shift": {
       "name": "精类变形 Fey Shift",
@@ -651,19 +981,45 @@
     },
     "Morph Self": {
       "name": "变形自身 Morph Self",
-      "description": "<p><strong>需求</strong> 你处于战斗形态。</p><hr /><p>你改变战斗形态之肌理并重塑自身。你解消当前战斗形态，并立即施放一道会赋予你战斗形态之法术。</p>"
+      "description": "<p><strong>需求</strong> 你处于战斗形态。</p><hr /><p>你改变战斗形态之肌理并重塑自身。你解消当前战斗形态，并立即施放一道会赋予你战斗形态之法术。</p>",
+      "prerequisites": [
+        {
+          "value": "层面变形者入门"
+        }
+      ]
     },
     "Linked Target Spell": {
       "name": "链结目标法术 Linked Target Spell",
-      "description": "<p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你们的连结让魔法可在你们之间流动。若你的下一动作是施放以你自身为目标的戏法，或以你自身为目标且环级至少比你拥有的最高环法术位低1环的法术（例如 @UUID[Compendium.pf2e.spells-srd.TVKNbcgTee19PXZR]{护盾术}），你可改为将该效果赐予你的神秘搭档。你的搭档必须自愿接受该效果。若你所施法术有持续时间，则在你的神秘链结结束时立即结束。你仍是该法术的施法者，并须代替你搭档执行该法术所需任何动作（例如「护盾术」之 @UUID[Compendium.pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{维持} 动作或 @UUID[Compendium.pf2e.feats-srd.jM72TjJ965jocBV8]{盾牌格挡} 反应）。若你于一道带其效果之法术仍生效时再次使用「链结目标法术」，你立即结束之前的效果。</p>"
+      "description": "<p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你们的连结让魔法可在你们之间流动。若你的下一动作是施放以你自身为目标的戏法，或以你自身为目标且环级至少比你拥有的最高环法术位低1环的法术（例如 @UUID[Compendium.pf2e.spells-srd.TVKNbcgTee19PXZR]{护盾术}），你可改为将该效果赐予你的神秘搭档。你的搭档必须自愿接受该效果。若你所施法术有持续时间，则在你的神秘链结结束时立即结束。你仍是该法术的施法者，并须代替你搭档执行该法术所需任何动作（例如「护盾术」之 @UUID[Compendium.pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{维持} 动作或 @UUID[Compendium.pf2e.feats-srd.jM72TjJ965jocBV8]{盾牌格挡} 反应）。若你于一道带其效果之法术仍生效时再次使用「链结目标法术」，你立即结束之前的效果。</p>",
+      "prerequisites": [
+        {
+          "value": "神秘搭档入门"
+        }
+      ]
     },
     "Tenacious Magic": {
       "name": "顽强魔法 Tenacious Magic",
-      "description": "<p>你将额外的魔法能量汲取至自身，并以顽强之效准备增强你的下一道法术。每日一次，你可以使用 @UUID[Compendium.pf2e.feats-srd.ejOTX1ukDVNorpt2]{神话施法} 而无须消耗一点神话点。</p>"
+      "description": "<p>你将额外的魔法能量汲取至自身，并以顽强之效准备增强你的下一道法术。每日一次，你可以使用 @UUID[Compendium.pf2e.feats-srd.ejOTX1ukDVNorpt2]{神话施法} 而无须消耗一点神话点。</p>",
+      "prerequisites": [
+        {
+          "value": "大法师入门"
+        },
+        {
+          "value": "神话施法"
+        }
+      ]
     },
     "Aspect Sage": {
       "name": "层面贤者 Aspect Sage",
-      "description": "<p>你能洞察魔法之边界以呼唤任一你所唤的层面召唤生物。若你的下一动作是施放一道层面召唤法术，你可选择一项常见的层面能力赐予你的层面召唤——纵使其通常不具备该能力。它在该法术持续时间内获得该层面能力。</p>"
+      "description": "<p>你能洞察魔法之边界以呼唤任一你所唤的层面召唤生物。若你的下一动作是施放一道层面召唤法术，你可选择一项常见的层面能力赐予你的层面召唤——纵使其通常不具备该能力。它在该法术持续时间内获得该层面能力。</p>",
+      "prerequisites": [
+        {
+          "value": "你知道至少一个召唤层面法术"
+        },
+        {
+          "value": "层面召唤者入门，或你是召唤师"
+        }
+      ]
     },
     "Fountain of Blood": {
       "name": "血之泉 Fountain of Blood",
@@ -675,7 +1031,15 @@
     },
     "Desolator": {
       "name": "毁灭者 Desolator",
-      "description": "<p>你将魔法之线穿过寒冷与黑暗之秘门。</p><p><strong>秘门特征</strong> 寒冷、黑暗</p><p><strong>系链魔法</strong> 当你以「寒冷」特征之法术作用于一名生物或区域时，你将该区域之光线水平降低一档（明亮光照变为昏暗光照、昏暗光照变为黑暗），直至你下一回合结束。该效果之区域与法术之区域相同；若以生物为目标，则为该目标所在的 @Template[type:burst|distance:10]。位于黑暗区域内之生物对寒冷伤害获得弱点，等同你等级一半。@UUID[Compendium.pf2e-team-plus-magic.misc.fA7lqi21ozmcX573]</p><p><strong>压倒性秘门</strong> 当你以「寒冷」特征之法术造成伤害时，你可选择改造为精魂伤害（替代寒冷伤害）。位于你秘门之领域内黑暗区域之生物对精魂伤害获得弱点，等同你等级一半。</p><p></p>"
+      "description": "<p>你将魔法之线穿过寒冷与黑暗之秘门。</p><p><strong>秘门特征</strong> 寒冷、黑暗</p><p><strong>系链魔法</strong> 当你以「寒冷」特征之法术作用于一名生物或区域时，你将该区域之光线水平降低一档（明亮光照变为昏暗光照、昏暗光照变为黑暗），直至你下一回合结束。该效果之区域与法术之区域相同；若以生物为目标，则为该目标所在的 @Template[type:burst|distance:10]。位于黑暗区域内之生物对寒冷伤害获得弱点，等同你等级一半。@UUID[Compendium.pf2e-team-plus-magic.misc.fA7lqi21ozmcX573]</p><p><strong>压倒性秘门</strong> 当你以「寒冷」特征之法术造成伤害时，你可选择改造为精魂伤害（替代寒冷伤害）。位于你秘门之领域内黑暗区域之生物对精魂伤害获得弱点，等同你等级一半。</p><p></p>",
+      "prerequisites": [
+        {
+          "value": "获得至少一个具有寒冷特征的法术的许可"
+        },
+        {
+          "value": "获得至少一个具有黑暗特征的法术的许可"
+        }
+      ]
     },
     "Summon Construct Aspect": {
       "name": "召唤构装层面 Summon Construct Aspect",
@@ -707,11 +1071,24 @@
     },
     "Through the Wicket": {
       "name": "穿过秘门 Through the Wicket",
-      "description": "<p>当其他施法者受限于其根源之法术时，你将魔法力量通过特定秘门聚集——增强其威能但缩小你掌控之范围。若你选择此职业变体，你必须选择 @UUID[Compendium.pf2e-team-plus-magic.items.NjgmPMpyb6Y1nebZ]{秘门术师入门} 作为你的 2 级职业专长。</p><p><strong>秘门术师调整：</strong>选择一项秘门——基于特定魔法特征的魔法极致。仅当你的根源中，对秘门的每一项特征都至少有一道具有该特征且以法术位施放的法术时，你才能选择该秘门。将你各环级法术位数量减 1。将你从职业获得之戏法数量减 1。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.LHh2MWWJY4La9pDN]{显化秘门领域} 聚能法术。</p><p>11 级时，你于身处你秘门之领域区域内时，获得「压倒性秘门」能力。</p><ul><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.BpnxSJD1rCDolxQU]{热忱}（听觉、情绪）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.kj1SZfPCqVOkBbec]{御风者}（气、音波）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.aANtNYkjWu5xtycR]{侵蚀者}（酸蚀、土）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.RmlKxZWHK4M0nSE5]{熄灭者}（寒冷、黑暗）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.Thlikh0Rk1lFJuUM]{造物者}（幻术、视觉）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.lnYZdlWFNtXG5hKF]{辉光者}（火焰、光亮）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.JYYo8ElGuzm99WP8]{磁力者}（电击、金）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.J1cXlcK3NXpanDMB]{亡灭者}（死亡、虚能）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.OdyGd2d7I6AUpXrL]{推进器}（力场、水）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.c7VshoY6Cr4CeB3N]{救主}（治疗、命能）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.ct1WvxqXIXBduk8e]{苍翠者}（植物、木）</p></li></ul>"
+      "description": "<p>当其他施法者受限于其根源之法术时，你将魔法力量通过特定秘门聚集——增强其威能但缩小你掌控之范围。若你选择此职业变体，你必须选择 @UUID[Compendium.pf2e-team-plus-magic.items.NjgmPMpyb6Y1nebZ]{秘门术师入门} 作为你的 2 级职业专长。</p><p><strong>秘门术师调整：</strong>选择一项秘门——基于特定魔法特征的魔法极致。仅当你的根源中，对秘门的每一项特征都至少有一道具有该特征且以法术位施放的法术时，你才能选择该秘门。将你各环级法术位数量减 1。将你从职业获得之戏法数量减 1。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.LHh2MWWJY4La9pDN]{显化秘门领域} 聚能法术。</p><p>11 级时，你于身处你秘门之领域区域内时，获得「压倒性秘门」能力。</p><ul><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.BpnxSJD1rCDolxQU]{热忱}（听觉、情绪）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.kj1SZfPCqVOkBbec]{御风者}（气、音波）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.aANtNYkjWu5xtycR]{侵蚀者}（酸蚀、土）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.RmlKxZWHK4M0nSE5]{熄灭者}（寒冷、黑暗）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.Thlikh0Rk1lFJuUM]{造物者}（幻术、视觉）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.lnYZdlWFNtXG5hKF]{辉光者}（火焰、光亮）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.JYYo8ElGuzm99WP8]{磁力者}（电击、金）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.J1cXlcK3NXpanDMB]{亡灭者}（死亡、虚能）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.OdyGd2d7I6AUpXrL]{推进器}（力场、水）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.c7VshoY6Cr4CeB3N]{救主}（治疗、命能）</p></li><li><p>@UUID[Compendium.pf2e-team-plus-magic.items.Item.ct1WvxqXIXBduk8e]{苍翠者}（植物、木）</p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "你必须从自己的职业获得施法职业特性，且不是有限施法者。"
+        }
+      ]
     },
     "Fabricator": {
       "name": "造物者 Fabricator",
-      "description": "<p>你将魔法之线穿过塑造与感官神经之秘门。</p><p><strong>秘门特征</strong> 幻术、视觉</p><p><strong>系链魔法</strong> 当你于秘门之领域内创造幻象时，从你秘门之领域区域内选择一名特定生物。该生物在该区域内时，对识破你之幻术法术获得 -2 环境减值，或对基于视觉的察觉检定获得 +2 状态加值。@UUID[Compendium.pf2e-team-plus-magic.misc.BXSnbI2cDxkCQY5h]{效果：造物者警备}</p><p><strong>压倒性秘门</strong> 当你以「幻术」特征之法术施法时，你可选择对本会因你之幻象承受心灵伤害的生物造成幻象适当类型之一半伤害。当你以「视觉」特征之法术作用于免疫生物时，你可将该效果转化至另一感官，绕过其对视觉的免疫。该生物必须至少有一项其他感官以绕过其免疫。</p><p></p>"
+      "description": "<p>你将魔法之线穿过塑造与感官神经之秘门。</p><p><strong>秘门特征</strong> 幻术、视觉</p><p><strong>系链魔法</strong> 当你于秘门之领域内创造幻象时，从你秘门之领域区域内选择一名特定生物。该生物在该区域内时，对识破你之幻术法术获得 -2 环境减值，或对基于视觉的察觉检定获得 +2 状态加值。@UUID[Compendium.pf2e-team-plus-magic.misc.BXSnbI2cDxkCQY5h]{效果：造物者警备}</p><p><strong>压倒性秘门</strong> 当你以「幻术」特征之法术施法时，你可选择对本会因你之幻象承受心灵伤害的生物造成幻象适当类型之一半伤害。当你以「视觉」特征之法术作用于免疫生物时，你可将该效果转化至另一感官，绕过其对视觉的免疫。该生物必须至少有一项其他感官以绕过其免疫。</p><p></p>",
+      "prerequisites": [
+        {
+          "value": "获得至少一个具有幻术特征的法术的许可"
+        },
+        {
+          "value": "获得至少一个具有视觉特征的法术的许可"
+        }
+      ]
     },
     "Umbral Sculptor Dedication": {
       "name": "暗影雕塑师入门 Umbral Sculptor Dedication",
@@ -719,7 +1096,12 @@
     },
     "The Master’s Veil": {
       "name": "大师之纱 The Master’s Veil",
-      "description": "<p>你与秘门之联系保护你免受类似性质之魔法。你对具有你秘门特征之效果的豁免获得 +1 状态加值。</p>"
+      "description": "<p>你与秘门之联系保护你免受类似性质之魔法。你对具有你秘门特征之效果的豁免获得 +1 状态加值。</p>",
+      "prerequisites": [
+        {
+          "value": "秘门术师入门"
+        }
+      ]
     },
     "Dynamic Caustic Blast": {
       "name": "动态酸液喷溅 Dynamic Caustic Blast",
@@ -727,7 +1109,12 @@
     },
     "Twinned Target Spell": {
       "name": "双重目标法术 Twinned Target Spell",
-      "description": "<p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你的神秘链结让你能与神秘搭档分享法术之能量，将效果赐予你们二人。若你的下一动作是施放一道环级至少比你能施放的最高环法术低2环、且本仅作用于你自身的法术，则只要你的神秘链结生效，便改为同时作用于你与神秘搭档。你的搭档必须自愿接受该效果。</p>"
+      "description": "<p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你的神秘链结让你能与神秘搭档分享法术之能量，将效果赐予你们二人。若你的下一动作是施放一道环级至少比你能施放的最高环法术低2环、且本仅作用于你自身的法术，则只要你的神秘链结生效，便改为同时作用于你与神秘搭档。你的搭档必须自愿接受该效果。</p>",
+      "prerequisites": [
+        {
+          "value": "神秘搭档入门"
+        }
+      ]
     },
     "Dynamic Fireball": {
       "name": "动态火球术 Dynamic Fireball",
@@ -755,11 +1142,21 @@
     },
     "Unstable Aura": {
       "name": "不稳灵光 Unstable Aura",
-      "description": "<p>当你执行 @UUID[Compendium.pf2e-team-plus-magic.items.nWrMVX6rsQanqjlj]{不稳抽取} 时，环绕你的不稳精质有助于偏转远程攻击。直至你以该不稳精质施放精质法术为止，对你的所有远程攻击必须以 @Check[dc:5|type:flat] 成功，否则便错失——它们会被不稳能量偏向错误方向。</p>"
+      "description": "<p>当你执行 @UUID[Compendium.pf2e-team-plus-magic.items.nWrMVX6rsQanqjlj]{不稳抽取} 时，环绕你的不稳精质有助于偏转远程攻击。直至你以该不稳精质施放精质法术为止，对你的所有远程攻击必须以 @Check[dc:5|type:flat] 成功，否则便错失——它们会被不稳能量偏向错误方向。</p>",
+      "prerequisites": [
+        {
+          "value": "精质编织者入门、不稳抽取"
+        }
+      ]
     },
     "Multidisciplinary Summoning": {
       "name": "多学科召唤 Multidisciplinary Summoning",
-      "description": "<p>你的层面不局限于单一魔法根源，而是触及附近精质以扩展你的魔法。从下列列表中选择一项根源（依你的施法根源而定）。你视一道该根源的法术列表中的召唤法术如同你根源之法术，并获得其取得资格。</p><p><strong>奥术、神术</strong> 异能或原能</p><p><strong>异能、原能</strong> 奥术或神术</p><hr /><p><strong>特殊</strong> 你可第二次选取此专长，获得首次未选之根源。</p>"
+      "description": "<p>你的层面不局限于单一魔法根源，而是触及附近精质以扩展你的魔法。从下列列表中选择一项根源（依你的施法根源而定）。你视一道该根源的法术列表中的召唤法术如同你根源之法术，并获得其取得资格。</p><p><strong>奥术、神术</strong> 异能或原能</p><p><strong>异能、原能</strong> 奥术或神术</p><hr /><p><strong>特殊</strong> 你可第二次选取此专长，获得首次未选之根源。</p>",
+      "prerequisites": [
+        {
+          "value": "层面召唤者入门"
+        }
+      ]
     },
     "Phoenix Tail Feather": {
       "name": "凤凰尾羽 Phoenix Tail Feather",
@@ -779,11 +1176,24 @@
     },
     "Terminus of Power": {
       "name": "力量终焉 Terminus of Power",
-      "description": "<p><strong>触发</strong> 你完成一次精质循环。</p><hr /><p>你内里溢出之物理精质增强你后续法术之力。</p><p><strong>周期 1</strong> 你于会增加你精质之法术伤害上每环获得 +1 环境加值（精质法术则每环 +2 环境加值）。此仅适用于法术施放时之初始伤害。每次施放该法术，每名生物只承受此伤害一次（即便该法术多次伤害同一生物）。</p><p>非伤害法术对受影响之敌人造成等同环境加值之物理伤害（钝击、穿刺或挥砍——由你选择）；若该法术有法术攻击掷骰，则成功时为全额、大成功翻倍、未中无伤害；若该法术有豁免，则伤害如同基础豁免那样依结果而定。</p><p><strong>周期 2</strong> 同周期 1，但精质法术之伤害环境加值提升至 +3。</p><p><strong>周期 3</strong> 同周期 2，但增加你精质之法术之环境加值变为 +2，精质法术之环境加值提升至 +4。</p>"
+      "description": "<p><strong>触发</strong> 你完成一次精质循环。</p><hr /><p>你内里溢出之物理精质增强你后续法术之力。</p><p><strong>周期 1</strong> 你于会增加你精质之法术伤害上每环获得 +1 环境加值（精质法术则每环 +2 环境加值）。此仅适用于法术施放时之初始伤害。每次施放该法术，每名生物只承受此伤害一次（即便该法术多次伤害同一生物）。</p><p>非伤害法术对受影响之敌人造成等同环境加值之物理伤害（钝击、穿刺或挥砍——由你选择）；若该法术有法术攻击掷骰，则成功时为全额、大成功翻倍、未中无伤害；若该法术有豁免，则伤害如同基础豁免那样依结果而定。</p><p><strong>周期 2</strong> 同周期 1，但精质法术之伤害环境加值提升至 +3。</p><p><strong>周期 3</strong> 同周期 2，但增加你精质之法术之环境加值变为 +2，精质法术之环境加值提升至 +4。</p>",
+      "prerequisites": [
+        {
+          "value": "奥术或原能施法者"
+        }
+      ]
     },
     "Reactive Blood": {
       "name": "反应血 Reactive Blood",
-      "description": "<p>当恐惧滋长之时，心跳脉动加快、血流加速。你须迅捷以利用之。从此变体中所获之反应中选择一项。在你的每个回合开始时，便获得一个仅可用于所选反应的额外反应。</p>"
+      "description": "<p>当恐惧滋长之时，心跳脉动加快、血流加速。你须迅捷以利用之。从此变体中所获之反应中选择一项。在你的每个回合开始时，便获得一个仅可用于所选反应的额外反应。</p>",
+      "prerequisites": [
+        {
+          "value": "血法师入门"
+        },
+        {
+          "value": "至少拥有一项可赋予反应的血法师专长"
+        }
+      ]
     },
     "Construct Shift": {
       "name": "构装变形 Construct Shift",
@@ -795,7 +1205,12 @@
     },
     "Essence Weaver Dedication": {
       "name": "精质编织者入门 Essence Weaver Dedication",
-      "description": "<p>你是一名精质编织者，能轻易将精质编织成法术。若你为准备式精质施法者，你每日可多准备两道戏法；若你为自发式施法者，则将你法术列表中两道额外戏法加入你的法术库。</p><p>当你获得 @UUID[Compendium.pf2e-team-plus-magic.items.cYHvzy96aWk5n8yC]{初次抽取} 职业特性时，你可选择永久失去这两道戏法，转而获得 1 个环级等同你精质抽取值的法术位（若你为自发式施法者，亦获得相应法术库法术）。每次你的精质抽取值提升，你可选择将该法术换为另一道环级等同你精质抽取值的法术。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.9ROAxfnbuYJdtn2S]{精质编织者变体}</p>"
+      "description": "<p>你是一名精质编织者，能轻易将精质编织成法术。若你为准备式精质施法者，你每日可多准备两道戏法；若你为自发式施法者，则将你法术列表中两道额外戏法加入你的法术库。</p><p>当你获得 @UUID[Compendium.pf2e-team-plus-magic.items.cYHvzy96aWk5n8yC]{初次抽取} 职业特性时，你可选择永久失去这两道戏法，转而获得 1 个环级等同你精质抽取值的法术位（若你为自发式施法者，亦获得相应法术库法术）。每次你的精质抽取值提升，你可选择将该法术换为另一道环级等同你精质抽取值的法术。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.9ROAxfnbuYJdtn2S]{精质编织者变体}</p>",
+      "prerequisites": [
+        {
+          "value": "你是精质施法者（不包括有限精质施法者或兼职精质施法者）"
+        }
+      ]
     },
     "Spirit Boundary": {
       "name": "精魂边界 Spirit Boundary",
@@ -807,7 +1222,12 @@
     },
     "Void Weapon": {
       "name": "虚空武器 Void Weapon",
-      "description": "<p>你的暗影如今蕴藏更深沉之能量，让你能驾驭虚能。你的暗影武器对虚能伤害获得「多用」特征。</p>"
+      "description": "<p>你的暗影如今蕴藏更深沉之能量，让你能驾驭虚能。你的暗影武器对虚能伤害获得「多用」特征。</p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Effect: Terminus of Life": {
       "name": "效果：生命终焉 Effect: Terminus of Life",
@@ -815,7 +1235,15 @@
     },
     "Erosior": {
       "name": "侵蚀者 Erosior",
-      "description": "<p>你将魔法之线穿过化学与矿物之操作之秘门。</p><p><strong>秘门特征</strong> 酸蚀、土</p><p><strong>系链魔法</strong> 当你以「土」特征之法术攻击掷骰成功，或一名生物对其豁免失败时，你于目标相邻方格创造困难地形。当你以「酸蚀」特征之法术攻击掷骰成功，或一名生物对其豁免失败时，你于目标所有相邻方格创造有害地形。该有害地形每次有生物穿过时造成 @Damage[@item.rank[acid]]{等同该法术环级之酸蚀伤害}。该困难地形与有害地形于你秘门之领域生效期间持续存在于同一区域。</p><p><strong>压倒性秘门</strong> 当你以「酸蚀」特征之法术造成伤害时，你可选择改造为钝击伤害（替代酸蚀伤害）。当你以「土」特征且需要豁免之法术施法时，目标在豁免失败时其速度承受 -5 尺状态减值 1 轮，大失败时承受 -10 尺状态减值。@UUID[Compendium.pf2e-team-plus-magic.misc.54mC3SyjiHMKrioO]{效果：侵蚀者}</p>"
+      "description": "<p>你将魔法之线穿过化学与矿物之操作之秘门。</p><p><strong>秘门特征</strong> 酸蚀、土</p><p><strong>系链魔法</strong> 当你以「土」特征之法术攻击掷骰成功，或一名生物对其豁免失败时，你于目标相邻方格创造困难地形。当你以「酸蚀」特征之法术攻击掷骰成功，或一名生物对其豁免失败时，你于目标所有相邻方格创造有害地形。该有害地形每次有生物穿过时造成 @Damage[@item.rank[acid]]{等同该法术环级之酸蚀伤害}。该困难地形与有害地形于你秘门之领域生效期间持续存在于同一区域。</p><p><strong>压倒性秘门</strong> 当你以「酸蚀」特征之法术造成伤害时，你可选择改造为钝击伤害（替代酸蚀伤害）。当你以「土」特征且需要豁免之法术施法时，目标在豁免失败时其速度承受 -5 尺状态减值 1 轮，大失败时承受 -10 尺状态减值。@UUID[Compendium.pf2e-team-plus-magic.misc.54mC3SyjiHMKrioO]{效果：侵蚀者}</p>",
+      "prerequisites": [
+        {
+          "value": "获得至少一个具有酸蚀特征的法术的许可"
+        },
+        {
+          "value": "获得至少一个具有土特征的法术的许可"
+        }
+      ]
     },
     "Howl of Winter (Moderate)": {
       "name": "凛冬之嚎（中级） Howl of Winter (Moderate)",
@@ -823,7 +1251,12 @@
     },
     "Shadow Draw": {
       "name": "暗影抽取 Shadow Draw",
-      "description": "<p><strong>触发</strong> 你的回合开始。</p><p><strong>需求</strong> 你处于昏暗光照或黑暗中，且未持用你的暗影武器。</p><hr /><p>你瞬间从黑暗中拔出暗影武器。你 @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{交互} 以拔出你的暗影武器。</p>"
+      "description": "<p><strong>触发</strong> 你的回合开始。</p><p><strong>需求</strong> 你处于昏暗光照或黑暗中，且未持用你的暗影武器。</p><hr /><p>你瞬间从黑暗中拔出暗影武器。你 @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{交互} 以拔出你的暗影武器。</p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Warping (Greater)": {
       "name": "扭曲（高等） Warping (Greater)",
@@ -843,7 +1276,12 @@
     },
     "Aspect Morpher Dedication": {
       "name": "层面变形者入门 Aspect Morpher Dedication",
-      "description": "<p>你是层面变形者——一名肆意以己意改造身体的施法者。你从任意根源中习得一道常见或罕见、具备「变形」特征且以你自身为目标的 1环法术，并获得 @UUID[Compendium.pf2e-team-plus-magic.misc.Q9mXTZs2CQoIe7NA]{聚合形态} 聚能法术。这两道法术皆以你用以满足此变体条件之施法根源施放。</p><p>在每日准备期间，选择一道具备「变形」特征、以你自身为目标且持续时间不超过10分钟的1环法术。所选法术成为你施放「聚合形态」时所化身之形态，至下次每日准备前持续。你可通过专注于自身解剖结构与身体形态、使用「再聚能」行动，恢复一点聚能点。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.2ywfGZz3We3np1MB.JournalEntryPage.u6D9FECs5ImNY5ic]{层面变形者变体}</p>"
+      "description": "<p>你是层面变形者——一名肆意以己意改造身体的施法者。你从任意根源中习得一道常见或罕见、具备「变形」特征且以你自身为目标的 1环法术，并获得 @UUID[Compendium.pf2e-team-plus-magic.misc.Q9mXTZs2CQoIe7NA]{聚合形态} 聚能法术。这两道法术皆以你用以满足此变体条件之施法根源施放。</p><p>在每日准备期间，选择一道具备「变形」特征、以你自身为目标且持续时间不超过10分钟的1环法术。所选法术成为你施放「聚合形态」时所化身之形态，至下次每日准备前持续。你可通过专注于自身解剖结构与身体形态、使用「再聚能」行动，恢复一点聚能点。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.2ywfGZz3We3np1MB.JournalEntryPage.u6D9FECs5ImNY5ic]{层面变形者变体}</p>",
+      "prerequisites": [
+        {
+          "value": "你能够使用法术位施法"
+        }
+      ]
     },
     "Elemental Shift": {
       "name": "元素变形 Elemental Shift",
@@ -851,11 +1289,21 @@
     },
     "Soaring Shape+": {
       "name": "翱翔形态+ Soaring Shape+",
-      "description": "<p>翅膀使你摆脱地表之束缚。将 @UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{御空形态} 中之蝙蝠与鸟类形态加入你的 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 列表。若你具备 @UUID[Compendium.pf2e.feats-srd.Item.OWedlrKGsVZVkSnT]{昆虫之形}，则将黄蜂形态也加入你的<em>无羁形态</em>列表。若你具备 @UUID[Compendium.pf2e.feats-srd.Item.Le30algCdKIsxmeK]{暴虐之形}，则将翼龙形态也加入你的<em>无羁形态</em>列表。每当你使用<em>无羁形态</em>化身为赋予你某具体特技调整值之形态时，你于特技检定获得 +1 状态加值。</p><p>你可将 @UUID[Compendium.pf2e-team-plus-magic.misc.rU0OMGjiOo6xc7BR]{飞行者} 层面能力加入任意动物层面；若该层面已具备「飞行者」，则将其飞行速度增加 15 尺。</p>"
+      "description": "<p>翅膀使你摆脱地表之束缚。将 @UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{御空形态} 中之蝙蝠与鸟类形态加入你的 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 列表。若你具备 @UUID[Compendium.pf2e.feats-srd.Item.OWedlrKGsVZVkSnT]{昆虫之形}，则将黄蜂形态也加入你的<em>无羁形态</em>列表。若你具备 @UUID[Compendium.pf2e.feats-srd.Item.Le30algCdKIsxmeK]{暴虐之形}，则将翼龙形态也加入你的<em>无羁形态</em>列表。每当你使用<em>无羁形态</em>化身为赋予你某具体特技调整值之形态时，你于特技检定获得 +1 状态加值。</p><p>你可将 @UUID[Compendium.pf2e-team-plus-magic.misc.rU0OMGjiOo6xc7BR]{飞行者} 层面能力加入任意动物层面；若该层面已具备「飞行者」，则将其飞行速度增加 15 尺。</p>",
+      "prerequisites": [
+        {
+          "value": "无羁形态"
+        }
+      ]
     },
     "Blood Spells": {
       "name": "血法术 Blood Spells",
-      "description": "<p>研习鲜血者发现其力量超越魔法根源之常规概念。将 @UUID[Compendium.pf2e.spells-srd.VXUrO8TwRqBpNzdU]{流血诅咒}、@UUID[Compendium.pf2e.spells-srd.TaaMEYdZXQXF0Sks]{溢血深仇}、@UUID[Compendium.pf2e.spells-srd.fBoiPXmcIO50OFFR]{血液沸腾}、@UUID[Compendium.pf2e-team-plus-magic.items.Rhlm6BfbroWfLhSp]{血之泉}、@UUID[Compendium.pf2e-team-plus-magic.items.wAqvtJaxC5zpZyMa]{血友病}、@UUID[Compendium.pf2e-team-plus-magic.items.owt2TQbEz1AZyKfr]{可怖傀儡师}、@UUID[Compendium.pf2e.spells-srd.5zeSxzDxMSr0wgSF]{嗜血浓雾}、@UUID[Compendium.pf2e-team-plus-magic.items.mz2gp9EaIa5xSphZ]{虹吸细流} 与 @UUID[Compendium.pf2e.spells-srd.fd31tAHSSGXyOxW6]{血族驱命} 加入你的法术列表。如此，你便可学习这些法术——即便它们通常不在你根源之法术列表中。</p>"
+      "description": "<p>研习鲜血者发现其力量超越魔法根源之常规概念。将 @UUID[Compendium.pf2e.spells-srd.VXUrO8TwRqBpNzdU]{流血诅咒}、@UUID[Compendium.pf2e.spells-srd.TaaMEYdZXQXF0Sks]{溢血深仇}、@UUID[Compendium.pf2e.spells-srd.fBoiPXmcIO50OFFR]{血液沸腾}、@UUID[Compendium.pf2e-team-plus-magic.items.Rhlm6BfbroWfLhSp]{血之泉}、@UUID[Compendium.pf2e-team-plus-magic.items.wAqvtJaxC5zpZyMa]{血友病}、@UUID[Compendium.pf2e-team-plus-magic.items.owt2TQbEz1AZyKfr]{可怖傀儡师}、@UUID[Compendium.pf2e.spells-srd.5zeSxzDxMSr0wgSF]{嗜血浓雾}、@UUID[Compendium.pf2e-team-plus-magic.items.mz2gp9EaIa5xSphZ]{虹吸细流} 与 @UUID[Compendium.pf2e.spells-srd.fd31tAHSSGXyOxW6]{血族驱命} 加入你的法术列表。如此，你便可学习这些法术——即便它们通常不在你根源之法术列表中。</p>",
+      "prerequisites": [
+        {
+          "value": "血法师入门或血术师入门且能够使用法术位施法"
+        }
+      ]
     },
     "Adamantine Dragonbreath Morningstar": {
       "name": "精金龙息钉头锤 Adamantine Dragonbreath Morningstar",
@@ -863,7 +1311,12 @@
     },
     "Companion's Reprise": {
       "name": "伙伴重现 Companion's Reprise",
-      "description": "<p><strong>触发</strong> 你的神秘搭档意志豁免失败。</p><p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你的神秘链结使你们之间的心智联系如此牢固，以至于你们能彼此助力，摆脱针对心智防御的不利效果。你的搭档可以重掷触发的豁免，但必须使用新结果（即便更差）。你的搭档以你为他们的神秘搭档时，亦获得此反应及其自身频率与同样限制。</p>"
+      "description": "<p><strong>触发</strong> 你的神秘搭档意志豁免失败。</p><p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你的神秘链结使你们之间的心智联系如此牢固，以至于你们能彼此助力，摆脱针对心智防御的不利效果。你的搭档可以重掷触发的豁免，但必须使用新结果（即便更差）。你的搭档以你为他们的神秘搭档时，亦获得此反应及其自身频率与同样限制。</p>",
+      "prerequisites": [
+        {
+          "value": "神秘搭档入门"
+        }
+      ]
     },
     "Undead Shift": {
       "name": "不死变形 Undead Shift",
@@ -871,7 +1324,12 @@
     },
     "Elemental Shape+": {
       "name": "元素形态+ Elemental Shape+",
-      "description": "<p>你深谙自然之基本元素，能将之灌注入身体并显化为这些元素的活体化身。将 @UUID[Compendium.pf2e.spells-srd.Item.1K6AYGisvo9gqdhs]{元素形态} 中所列形态加入你的 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 列表，并将 @UUID[Compendium.pf2e-team-plus-magic.items.bK4rp20XuJRWGsEv]{元素变形} 加入你的 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形} 列表。每当你以<em>无羁形态</em>变形为另一形态时，你获得对火焰之抗力 5。</p>"
+      "description": "<p>你深谙自然之基本元素，能将之灌注入身体并显化为这些元素的活体化身。将 @UUID[Compendium.pf2e.spells-srd.Item.1K6AYGisvo9gqdhs]{元素形态} 中所列形态加入你的 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 列表，并将 @UUID[Compendium.pf2e-team-plus-magic.items.bK4rp20XuJRWGsEv]{元素变形} 加入你的 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形} 列表。每当你以<em>无羁形态</em>变形为另一形态时，你获得对火焰之抗力 5。</p>",
+      "prerequisites": [
+        {
+          "value": "无羁形态"
+        }
+      ]
     },
     "Advanced Sleuth": {
       "name": "进阶侦探 Advanced Sleuth",
@@ -879,7 +1337,12 @@
     },
     "Sanguine Sculpting": {
       "name": "鲜血雕塑 Sanguine Sculpting",
-      "description": "<p>你向法术之魔法框架注入少量鲜血以灌注可塑威能。你使用一个单一动作的塑法。当你施放该法术时，你的生命值减少等同于你以该塑法所修饰之法术的环级。此非伤害，因此不能被减少、抵抗或以任何其他方式减弱，否则法术失败。</p><hr /><p><strong>特殊</strong> 若你具备 @UUID[Compendium.pf2e.feats-srd.HASFgAZ7spYleeaq]{血术师入门}，你可改为消耗等同该法术环级的血法生命值。</p>"
+      "description": "<p>你向法术之魔法框架注入少量鲜血以灌注可塑威能。你使用一个单一动作的塑法。当你施放该法术时，你的生命值减少等同于你以该塑法所修饰之法术的环级。此非伤害，因此不能被减少、抵抗或以任何其他方式减弱，否则法术失败。</p><hr /><p><strong>特殊</strong> 若你具备 @UUID[Compendium.pf2e.feats-srd.HASFgAZ7spYleeaq]{血术师入门}，你可改为消耗等同该法术环级的血法生命值。</p>",
+      "prerequisites": [
+        {
+          "value": "血法师入门"
+        }
+      ]
     },
     "Diabolic Dragonbreath Spiked Chain": {
       "name": "地狱龙息刺链 Diabolic Dragonbreath Spiked Chain",
@@ -887,11 +1350,24 @@
     },
     "Savior": {
       "name": "救主 Savior",
-      "description": "<p>你将魔法之线穿过华美与生命之秘门。</p><p><strong>秘门特征</strong> 治疗、命能</p><p><strong>系链魔法</strong> 当你秘门之领域区域内的生物因你的法术恢复至满生命值时，其于 1 轮内对攻击掷骰获得 +1 状态加值，对伤害掷骰获得 +2 状态加值。此为情绪与心灵效果。该生物随后 1 分钟内对此效果免疫。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.Item.h9V3P2bxgAdhMqGA]{效果：救主恩典}</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.Item.ZpRDuMJLaverCMMM]{效果：救主恩典免疫}</p><p><strong>压倒性秘门</strong> 当你以一道具备「治疗」与「命能」特征之法术作用于不死生物时，纵使该法术也具备「命能」特征且不死生物本应免疫治疗效果，你也可正常治疗该生物。当你为某生物移除濒死状态时，你于 1 轮内对心灵效果获得 +2 状态加值。@UUID[Compendium.pf2e-team-plus-magic.misc.4mOzpWqesb5d230W]{效果：救主宁静}</p>"
+      "description": "<p>你将魔法之线穿过华美与生命之秘门。</p><p><strong>秘门特征</strong> 治疗、命能</p><p><strong>系链魔法</strong> 当你秘门之领域区域内的生物因你的法术恢复至满生命值时，其于 1 轮内对攻击掷骰获得 +1 状态加值，对伤害掷骰获得 +2 状态加值。此为情绪与心灵效果。该生物随后 1 分钟内对此效果免疫。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.Item.h9V3P2bxgAdhMqGA]{效果：救主恩典}</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.Item.ZpRDuMJLaverCMMM]{效果：救主恩典免疫}</p><p><strong>压倒性秘门</strong> 当你以一道具备「治疗」与「命能」特征之法术作用于不死生物时，纵使该法术也具备「命能」特征且不死生物本应免疫治疗效果，你也可正常治疗该生物。当你为某生物移除濒死状态时，你于 1 轮内对心灵效果获得 +2 状态加值。@UUID[Compendium.pf2e-team-plus-magic.misc.4mOzpWqesb5d230W]{效果：救主宁静}</p>",
+      "prerequisites": [
+        {
+          "value": "获得至少一个具有治疗特征的法术的许可"
+        },
+        {
+          "value": "获得至少一个具有命能特征的法术的许可"
+        }
+      ]
     },
     "Duplicitous Forms": {
       "name": "双重形态 Duplicitous Forms",
-      "description": "<p>你擅长同时使用多种形态。每日准备期间，你可选择两道法术作为你「聚合形态」之内容（替代一道），让你可在施放法术时变形为所选两形态之任一。</p>"
+      "description": "<p>你擅长同时使用多种形态。每日准备期间，你可选择两道法术作为你「聚合形态」之内容（替代一道），让你可在施放法术时变形为所选两形态之任一。</p>",
+      "prerequisites": [
+        {
+          "value": "层面变形者入门"
+        }
+      ]
     },
     "Master Essence Spellcasting": {
       "name": "大师精质施法 Master Essence Spellcasting",
@@ -907,7 +1383,12 @@
     },
     "Share Eldritch Energy": {
       "name": "共享诡奇能量 Share Eldritch Energy",
-      "description": "<p><strong>需求</strong> 你的神秘链结生效，且你本回合最后一动作是施放一道造成生物伤害的法术。</p><hr /><p>沿你神秘链结流动的能量将你法术之能量灌注至神秘搭档之武器中。直至你的下一回合开始前，你的神秘搭档以无武装攻击与所持武器额外造成等同所需法术环级（若该法术为戏法则为环级一半）的伤害。该额外伤害类型与所需法术相同。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.VPLqbAq4RcPaQfVZ]{效果：诡奇能量}</p>"
+      "description": "<p><strong>需求</strong> 你的神秘链结生效，且你本回合最后一动作是施放一道造成生物伤害的法术。</p><hr /><p>沿你神秘链结流动的能量将你法术之能量灌注至神秘搭档之武器中。直至你的下一回合开始前，你的神秘搭档以无武装攻击与所持武器额外造成等同所需法术环级（若该法术为戏法则为环级一半）的伤害。该额外伤害类型与所需法术相同。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.VPLqbAq4RcPaQfVZ]{效果：诡奇能量}</p>",
+      "prerequisites": [
+        {
+          "value": "神秘搭档入门"
+        }
+      ]
     },
     "Conspirator Dragonbreath Dagger": {
       "name": "诡谋龙息匕首 Conspirator Dragonbreath Dagger",
@@ -919,7 +1400,15 @@
     },
     "Verdor": {
       "name": "苍翠者 Verdor",
-      "description": "<p>你将魔法之线穿过青翠生命与植被之秘门。</p><p><strong>秘门特征</strong> 植物、木</p><p><strong>系链魔法</strong> 在 30 尺内选择 4 格连续 @Template[distance:5|type:square]{方格}。你创造一小片植物与木的生长，提供次等掩蔽，持续至你秘门之领域不再生效为止。若你以此效果选择同一方格多次，它们改为提供标准掩蔽。</p><p><strong>压倒性秘门</strong> 当你施放一道具有「植物」或「木」特征且需要豁免之法术时，目标在大失败时 1 轮内 @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{禁足}。此效果之逃脱DC 为你的法术 DC。</p>"
+      "description": "<p>你将魔法之线穿过青翠生命与植被之秘门。</p><p><strong>秘门特征</strong> 植物、木</p><p><strong>系链魔法</strong> 在 30 尺内选择 4 格连续 @Template[distance:5|type:square]{方格}。你创造一小片植物与木的生长，提供次等掩蔽，持续至你秘门之领域不再生效为止。若你以此效果选择同一方格多次，它们改为提供标准掩蔽。</p><p><strong>压倒性秘门</strong> 当你施放一道具有「植物」或「木」特征且需要豁免之法术时，目标在大失败时 1 轮内 @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{禁足}。此效果之逃脱DC 为你的法术 DC。</p>",
+      "prerequisites": [
+        {
+          "value": "获得至少一个具有植物特征的法术的许可"
+        },
+        {
+          "value": "获得至少一个具有木特征的法术的许可"
+        }
+      ]
     },
     "Winter's Cold Embrace": {
       "name": "冬之寒拥 Winter's Cold Embrace",
@@ -927,7 +1416,12 @@
     },
     "Omnidisciplinary Battle Forms": {
       "name": "全学科战斗形态 Omnidisciplinary Battle Forms",
-      "description": "<p>你跨越根源与精质去呼唤不可能之物。从任意法术根源中、你能施放的法术环级中选择一道战斗形态法术。你视该法术为你根源之法术并获得其取得资格；纵使其并非 1环法术，你也可以在每日准备期间将其选作你「聚合形态」之用。</p><hr /><p><strong>特殊</strong> 你可多次选取此专长，每次选择一道会赐予战斗形态之新法术。</p>"
+      "description": "<p>你跨越根源与精质去呼唤不可能之物。从任意法术根源中、你能施放的法术环级中选择一道战斗形态法术。你视该法术为你根源之法术并获得其取得资格；纵使其并非 1环法术，你也可以在每日准备期间将其选作你「聚合形态」之用。</p><hr /><p><strong>特殊</strong> 你可多次选取此专长，每次选择一道会赐予战斗形态之新法术。</p>",
+      "prerequisites": [
+        {
+          "value": "多学科战斗形态"
+        }
+      ]
     },
     "Horned Dragonbreath Longspear (Major)": {
       "name": "智角龙息长矛（上等） Horned Dragonbreath Longspear (Major)",
@@ -947,15 +1441,36 @@
     },
     "Reactive Aspect Transformation": {
       "name": "反应层面变形 Reactive Aspect Transformation",
-      "description": "<p><strong>触发</strong> 视情况而定</p><hr /><p>当你身处险境时，你可反射式地变形。你施放 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形}，依触发条件变形为你已具备的某先决条件专长所赐之一种形态。你形态之抗力与弱点适用于触发的伤害。</p><hr /><p><strong>触发</strong> 你坠落 10 尺或更远</p><p><strong>效果</strong> 从 @UUID[Compendium.pf2e-team-plus-magic.items.lV8etIlOczlCbJ46]{动物变形}（仅限飞行层面）中选择一种形态。</p><hr /><p><strong>触发</strong> 你受到钝击或毒素伤害</p><p><strong>效果</strong> 从 @UUID[Compendium.pf2e-team-plus-magic.items.d8OboK14CSqs7N7p]{龙族变形} 中选择一种能抗触发伤害之原能龙形态。</p><hr /><p><strong>触发</strong> 你受到火焰伤害</p><p><strong>效果</strong> 从 @UUID[Compendium.pf2e-team-plus-magic.items.bK4rp20XuJRWGsEv]{元素变形} 中选择一种火元素形态。</p><hr /><p><strong>触发</strong> 你受到毒素伤害</p><p><strong>效果</strong> 从 @UUID[Compendium.pf2e-team-plus-magic.items.qH18jW3EMywavprR]{植物变形} 中选择一种形态。</p>"
+      "description": "<p><strong>触发</strong> 视情况而定</p><hr /><p>当你身处险境时，你可反射式地变形。你施放 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形}，依触发条件变形为你已具备的某先决条件专长所赐之一种形态。你形态之抗力与弱点适用于触发的伤害。</p><hr /><p><strong>触发</strong> 你坠落 10 尺或更远</p><p><strong>效果</strong> 从 @UUID[Compendium.pf2e-team-plus-magic.items.lV8etIlOczlCbJ46]{动物变形}（仅限飞行层面）中选择一种形态。</p><hr /><p><strong>触发</strong> 你受到钝击或毒素伤害</p><p><strong>效果</strong> 从 @UUID[Compendium.pf2e-team-plus-magic.items.d8OboK14CSqs7N7p]{龙族变形} 中选择一种能抗触发伤害之原能龙形态。</p><hr /><p><strong>触发</strong> 你受到火焰伤害</p><p><strong>效果</strong> 从 @UUID[Compendium.pf2e-team-plus-magic.items.bK4rp20XuJRWGsEv]{元素变形} 中选择一种火元素形态。</p><hr /><p><strong>触发</strong> 你受到毒素伤害</p><p><strong>效果</strong> 从 @UUID[Compendium.pf2e-team-plus-magic.items.qH18jW3EMywavprR]{植物变形} 中选择一种形态。</p>",
+      "prerequisites": [
+        {
+          "value": "无羁层面变形"
+        },
+        {
+          "value": "巨龙之形、元素之形、植物之形或翱翔之形"
+        }
+      ]
     },
     "Fuse Aspects": {
       "name": "融合层面 Fuse Aspects",
-      "description": "<p>你将两个层面合并为一个。若你的下一动作是施放一道层面召唤法术，你可为同一道层面召唤法术选择两个你已知之层面，并召唤一只兼具两层面特性之生物。选择其中一个为基础层面。融合后的层面获得所选两层面之全部技能、特殊能力、特征与动作，但使用基础层面之基础数据（如生命值与豁免调整）。若融合层面赐予了相互矛盾的数据、特殊能力或动作，则法术自动失败（由 GM 裁定），但当你施放该法术时，你不会消耗任何法术位或聚能点。</p>"
+      "description": "<p>你将两个层面合并为一个。若你的下一动作是施放一道层面召唤法术，你可为同一道层面召唤法术选择两个你已知之层面，并召唤一只兼具两层面特性之生物。选择其中一个为基础层面。融合后的层面获得所选两层面之全部技能、特殊能力、特征与动作，但使用基础层面之基础数据（如生命值与豁免调整）。若融合层面赐予了相互矛盾的数据、特殊能力或动作，则法术自动失败（由 GM 裁定），但当你施放该法术时，你不会消耗任何法术位或聚能点。</p>",
+      "prerequisites": [
+        {
+          "value": "层面召唤者入门"
+        },
+        {
+          "value": "你知道同一个层面召唤法术的至少两个层面"
+        }
+      ]
     },
     "Esoteric Coordination": {
       "name": "奥秘协调 Esoteric Coordination",
-      "description": "<p><strong>触发</strong> 你与你的神秘搭档于同一遭遇中掷先攻。</p><p><strong>需求</strong> 你与你的神秘搭档相距 30 尺以内，且在掷先攻前正在使用同一项探索行动。</p><hr /><p>你与你的神秘搭档共同度过的紧张时刻，让你们对彼此意图行动具有近乎超凡的感知，让你们能决定谁先行动。你使用 @UUID[Compendium.pf2e-team-plus-magic.misc.DCGRN0KjuuicApmh]{神秘链结}。你与你搭档各自的先攻使用你们二人之中较高的掷骰结果。</p>"
+      "description": "<p><strong>触发</strong> 你与你的神秘搭档于同一遭遇中掷先攻。</p><p><strong>需求</strong> 你与你的神秘搭档相距 30 尺以内，且在掷先攻前正在使用同一项探索行动。</p><hr /><p>你与你的神秘搭档共同度过的紧张时刻，让你们对彼此意图行动具有近乎超凡的感知，让你们能决定谁先行动。你使用 @UUID[Compendium.pf2e-team-plus-magic.misc.DCGRN0KjuuicApmh]{神秘链结}。你与你搭档各自的先攻使用你们二人之中较高的掷骰结果。</p>",
+      "prerequisites": [
+        {
+          "value": "神秘搭档入门"
+        }
+      ]
     },
     "Dynamic Haunting Hymn": {
       "name": "动态颂歌萦绕 Dynamic Haunting Hymn",
@@ -963,7 +1478,12 @@
     },
     "Allied Wicket": {
       "name": "盟友秘门 Allied Wicket",
-      "description": "<p><strong>需求</strong> 你最近一次的动作是施放一道具有你某项秘门特征的非戏法法术。</p><hr /><p>你能于片刻间打开盟友身上的魔法以作为短暂的护身。你使30尺内一名盟友在对抗具有你秘门特征的效果时，豁免获得+1状态加值，持续至你的下一回合结束。</p>"
+      "description": "<p><strong>需求</strong> 你最近一次的动作是施放一道具有你某项秘门特征的非戏法法术。</p><hr /><p>你能于片刻间打开盟友身上的魔法以作为短暂的护身。你使30尺内一名盟友在对抗具有你秘门特征的效果时，豁免获得+1状态加值，持续至你的下一回合结束。</p>",
+      "prerequisites": [
+        {
+          "value": "秘门术师入门"
+        }
+      ]
     },
     "Thurse Shift": {
       "name": "神怪变形 Thurse Shift",
@@ -975,7 +1495,12 @@
     },
     "Essence Strike": {
       "name": "精质打击 Essence Strike",
-      "description": "<p><strong>需求</strong> 你未对 @UUID[Compendium.pf2e.spells-srd.Gb7SeieEvd0pL2Eh]{料敌机先} 暂时免疫。</p><hr /><p>你汲取周围之精质以瞄准你下一道法术。在你回合结束前下一次进行法术攻击掷骰时，掷两次并取较好结果。该攻击忽视攻击掷骰的环境减值以及任何因目标处于隐蔽或藏匿所需之纯骰检定。使用「精质打击」之后，你于 10 分钟内对「料敌机先」暂时免疫。</p>"
+      "description": "<p><strong>需求</strong> 你未对 @UUID[Compendium.pf2e.spells-srd.Gb7SeieEvd0pL2Eh]{料敌机先} 暂时免疫。</p><hr /><p>你汲取周围之精质以瞄准你下一道法术。在你回合结束前下一次进行法术攻击掷骰时，掷两次并取较好结果。该攻击忽视攻击掷骰的环境减值以及任何因目标处于隐蔽或藏匿所需之纯骰检定。使用「精质打击」之后，你于 10 分钟内对「料敌机先」暂时免疫。</p>",
+      "prerequisites": [
+        {
+          "value": "精质编织者入门"
+        }
+      ]
     },
     "Summon Plant Aspect": {
       "name": "召唤植物层面 Summon Plant Aspect",
@@ -990,11 +1515,21 @@
     },
     "Unified Thread": {
       "name": "统一之线 Unified Thread",
-      "description": "<p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你与同伴所共享之连结已经如此强大，让你们可在短时间内如同一人般行动。当你使用此能力时，你与你的神秘搭档共获得 4 个动作，可在你们之间任意分配，但每人至少使用 1 个动作。你的搭档纵使非其回合也会采取这些动作；之后他们 1 轮内 @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢1级}。你的搭档以你为他们的神秘搭档时亦获得此行动及其自身频率与同样限制。</p>"
+      "description": "<p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你与同伴所共享之连结已经如此强大，让你们可在短时间内如同一人般行动。当你使用此能力时，你与你的神秘搭档共获得 4 个动作，可在你们之间任意分配，但每人至少使用 1 个动作。你的搭档纵使非其回合也会采取这些动作；之后他们 1 轮内 @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢1级}。你的搭档以你为他们的神秘搭档时亦获得此行动及其自身频率与同样限制。</p>",
+      "prerequisites": [
+        {
+          "value": "神秘搭档入门"
+        }
+      ]
     },
     "Darkness is My Ally": {
       "name": "黑暗为吾盟 Darkness is My Ally",
-      "description": "<p><strong>需求</strong> 你正持用你的暗影武器。</p><hr /><p>当你身处黑暗之中时，对暗影精质的掌控让你最为致命。你以暗影武器进行一次打击。若你与目标都处于昏暗光照或黑暗中，则该目标对你的此次打击措手不及。</p>"
+      "description": "<p><strong>需求</strong> 你正持用你的暗影武器。</p><hr /><p>当你身处黑暗之中时，对暗影精质的掌控让你最为致命。你以暗影武器进行一次打击。若你与目标都处于昏暗光照或黑暗中，则该目标对你的此次打击措手不及。</p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Immobilizing (Greater)": {
       "name": "锁定（高等） Immobilizing (Greater)",
@@ -1014,7 +1549,15 @@
     },
     "Triplicate Casting": {
       "name": "三重施法 Triplicate Casting",
-      "description": "<p>你对法术内在运作的精通让你能从中分离出潜能小片，并独立指引每一片段。选择三道不同、非戏法、你已具备动态精通且可以以 1 个动作施放的法术，并施放它们的 1 动作版本。如此做时，你只消耗一个法术位——使用所施法术中最高之环级。</p>"
+      "description": "<p>你对法术内在运作的精通让你能从中分离出潜能小片，并独立指引每一片段。选择三道不同、非戏法、你已具备动态精通且可以以 1 个动作施放的法术，并施放它们的 1 动作版本。如此做时，你只消耗一个法术位——使用所施法术中最高之环级。</p>",
+      "prerequisites": [
+        {
+          "value": "动态法术贤者入门"
+        },
+        {
+          "value": "你是自发型施法者"
+        }
+      ]
     },
     "Adamantine Dragonbreath Maul (Greater)": {
       "name": "精金龙息大锤（高等） Adamantine Dragonbreath Maul (Greater)",
@@ -1030,7 +1573,12 @@
     },
     "Summon Seer": {
       "name": "召唤先知 Summon Seer",
-      "description": "<p>你与幻灵相处之经验让你于驾驭层面上颇为出色。你习得一道能召唤与你幻灵共享一项特征之生物的召唤法术，并将其永久加入你的法术库而不计入法术库容量；该法术对你而言始终为标志法术。若召唤法术之层面与你幻灵有密切关联（例如你幻灵是魔兽幻灵时的「召唤动物层面」之层面），即便其不与你幻灵共享特征，你也可选择之（由 GM 裁定）。</p>"
+      "description": "<p>你与幻灵相处之经验让你于驾驭层面上颇为出色。你习得一道能召唤与你幻灵共享一项特征之生物的召唤法术，并将其永久加入你的法术库而不计入法术库容量；该法术对你而言始终为标志法术。若召唤法术之层面与你幻灵有密切关联（例如你幻灵是魔兽幻灵时的「召唤动物层面」之层面），即便其不与你幻灵共享特征，你也可选择之（由 GM 裁定）。</p>",
+      "prerequisites": [
+        {
+          "value": "你能够施放层面法术"
+        }
+      ]
     },
     "Fortune Dragonbreath Rapier (Major)": {
       "name": "福宝龙息细剑（上等） Fortune Dragonbreath Rapier (Major)",
@@ -1038,15 +1586,30 @@
     },
     "Old-Mage's Echo": {
       "name": "古法师之回响 Old-Mage's Echo",
-      "description": "<p>在伟大法师之中，古法师贾腾贝最早创制了让敌方施法者因自身施法而遭受魔法反噬的法术，但他绝非最后一位。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.Q18KFDo3grt6tHaJ]{古法师之回响} 聚能法术。</p>"
+      "description": "<p>在伟大法师之中，古法师贾腾贝最早创制了让敌方施法者因自身施法而遭受魔法反噬的法术，但他绝非最后一位。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.Q18KFDo3grt6tHaJ]{古法师之回响} 聚能法术。</p>",
+      "prerequisites": [
+        {
+          "value": "大法师入门"
+        }
+      ]
     },
     "Multidisciplinary Battle Forms": {
       "name": "多学科战斗形态 Multidisciplinary Battle Forms",
-      "description": "<p>你的层面不局限于单一魔法根源，而是触及附近精质以扩展你的魔法。从下列列表中选择一项根源（依你的施法根源而定）。你视该根源中一道从法术位施放、会赋予战斗形态之法术如同你根源之法术，并获得其取得资格；纵使其并非 1环法术，你也可以在每日准备期间将其选作你「聚合形态」之用。</p><ul><li><p><strong>奥术、神术</strong> 异能或原能</p></li><li><p><strong>异能、原能</strong> 奥术或神术</p></li></ul><hr /><p><strong>特殊</strong> 你可第二次选取此专长，获得首次未选之根源。</p>"
+      "description": "<p>你的层面不局限于单一魔法根源，而是触及附近精质以扩展你的魔法。从下列列表中选择一项根源（依你的施法根源而定）。你视该根源中一道从法术位施放、会赋予战斗形态之法术如同你根源之法术，并获得其取得资格；纵使其并非 1环法术，你也可以在每日准备期间将其选作你「聚合形态」之用。</p><ul><li><p><strong>奥术、神术</strong> 异能或原能</p></li><li><p><strong>异能、原能</strong> 奥术或神术</p></li></ul><hr /><p><strong>特殊</strong> 你可第二次选取此专长，获得首次未选之根源。</p>",
+      "prerequisites": [
+        {
+          "value": "层面变形者入门"
+        }
+      ]
     },
     "Ferocious Shape+": {
       "name": "凶猛形态+ Ferocious Shape+",
-      "description": "<p>你已精通恐龙之形态。将 @UUID[Compendium.pf2e.spells-srd.Item.KhM8MhoUgoUjBMIz]{恐龙形态} 中所列形态加入你的「无羁形态」列表。每当你使用 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 化身为赋予你某具体运动调整值之形态时，你于运动检定获得 +1 状态加值。</p><p>每当你使用 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形} 时，将动物变形在坐骑或掠食者层面下所获得的无武装打击的伤害骰提升一档。</p>"
+      "description": "<p>你已精通恐龙之形态。将 @UUID[Compendium.pf2e.spells-srd.Item.KhM8MhoUgoUjBMIz]{恐龙形态} 中所列形态加入你的「无羁形态」列表。每当你使用 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 化身为赋予你某具体运动调整值之形态时，你于运动检定获得 +1 状态加值。</p><p>每当你使用 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形} 时，将动物变形在坐骑或掠食者层面下所获得的无武装打击的伤害骰提升一档。</p>",
+      "prerequisites": [
+        {
+          "value": "无羁形态"
+        }
+      ]
     },
     "Dynamic Lightning Bolt": {
       "name": "动态闪电束 Dynamic Lightning Bolt",
@@ -1066,15 +1629,33 @@
     },
     "Shadowsight": {
       "name": "阴影视觉 Shadowsight",
-      "description": "<p>你的双眸充满舞动的暗影，让你即便在魔法黑暗中也能看见。你获得高等黑暗视觉。</p>"
+      "description": "<p>你的双眸充满舞动的暗影，让你即便在魔法黑暗中也能看见。你获得高等黑暗视觉。</p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        },
+        {
+          "value": "黑暗视觉"
+        }
+      ]
     },
     "Improved Mystic Link": {
       "name": "高级神秘链结 Improved Mystic Link",
-      "description": "<p>你的羁绊得到加强，跨越更远距离借由精质统合。神秘链结之射程提升至 60 尺。此外，只要你们处于同一位面，纵使你的神秘链结未生效，你们也可以心灵感应彼此交流；并且只要处于同一位面，你们便始终知晓彼此的方向与距离。</p>"
+      "description": "<p>你的羁绊得到加强，跨越更远距离借由精质统合。神秘链结之射程提升至 60 尺。此外，只要你们处于同一位面，纵使你的神秘链结未生效，你们也可以心灵感应彼此交流；并且只要处于同一位面，你们便始终知晓彼此的方向与距离。</p>",
+      "prerequisites": [
+        {
+          "value": "神秘搭档入门"
+        }
+      ]
     },
     "Terminus of Insight": {
       "name": "洞察终焉 Terminus of Insight",
-      "description": "<p><strong>触发</strong> 你完成一次循环。</p><hr /><p>你内里溢出之心智精质带来非凡的洞察。</p><p><strong>周期 1</strong> 你于回忆与你的遭遇直接相关主题之知识检定上获得 +2 环境加值。你立即以 +2 环境加值进行 @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}；若你对该技能未受训，亦可将你等级加于检定。每当你施放一道会增加精质之法术时，你可在施放法术之前作为自由动作进行回忆知识；如此做时，你可将所要施放之法术换为另一道也会增加精质的法术。</p><p><strong>周期 2</strong> 同周期 1，但环境加值为 +3，且若你回忆知识大失败则改为失败。</p><p><strong>周期 3</strong> 同周期 2，但环境加值为 +4，且当你回忆知识成功时获得额外信息或上下文。当你回忆知识大成功时，你获得额外信息或上下文，或可问额外的追问问题（由 GM 选择）。</p>"
+      "description": "<p><strong>触发</strong> 你完成一次循环。</p><hr /><p>你内里溢出之心智精质带来非凡的洞察。</p><p><strong>周期 1</strong> 你于回忆与你的遭遇直接相关主题之知识检定上获得 +2 环境加值。你立即以 +2 环境加值进行 @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}；若你对该技能未受训，亦可将你等级加于检定。每当你施放一道会增加精质之法术时，你可在施放法术之前作为自由动作进行回忆知识；如此做时，你可将所要施放之法术换为另一道也会增加精质的法术。</p><p><strong>周期 2</strong> 同周期 1，但环境加值为 +3，且若你回忆知识大失败则改为失败。</p><p><strong>周期 3</strong> 同周期 2，但环境加值为 +4，且当你回忆知识成功时获得额外信息或上下文。当你回忆知识大成功时，你获得额外信息或上下文，或可问额外的追问问题（由 GM 选择）。</p>",
+      "prerequisites": [
+        {
+          "value": "奥术或异能施法者"
+        }
+      ]
     },
     "Effect: Terminus of Life Temp HP": {
       "name": "效果：生命终焉-临时生命 Effect: Terminus of Life Temp HP",
@@ -1098,7 +1679,12 @@
     },
     "Paired Shadows": {
       "name": "成对阴影 Paired Shadows",
-      "description": "<p>你获得两件暗影武器。你拥有两件而非一件暗影武器。就所有目的而言（包括需要持用暗影武器之效果以及为之灌注符文），你将自己的影子视为两件武器（替代一件）。当你交互拔出你的暗影武器时，你可一次拔出两件而非一件，每手分别持用一件。当你以交互拔出两件暗影武器时，你必须为这两件武器选择相同武器类型。</p>"
+      "description": "<p>你获得两件暗影武器。你拥有两件而非一件暗影武器。就所有目的而言（包括需要持用暗影武器之效果以及为之灌注符文），你将自己的影子视为两件武器（替代一件）。当你交互拔出你的暗影武器时，你可一次拔出两件而非一件，每手分别持用一件。当你以交互拔出两件暗影武器时，你必须为这两件武器选择相同武器类型。</p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Draw Cantrips": {
       "name": "抽取戏法 Draw Cantrips",
@@ -1118,15 +1704,36 @@
     },
     "Rejuvenating Reservoir": {
       "name": "复苏储池 Rejuvenating Reservoir",
-      "description": "<p>你能尤为迅速地恢复生命精质储池。每当你再聚能时，你便恢复整个生命精质储池。</p>"
+      "description": "<p>你能尤为迅速地恢复生命精质储池。每当你再聚能时，你便恢复整个生命精质储池。</p>",
+      "prerequisites": [
+        {
+          "value": "精质编织者入门、生命精质储池"
+        }
+      ]
     },
     "Quick Siphon": {
       "name": "快速虹吸 Quick Siphon",
-      "description": "<p>一口快饮虽不能使你饱足，但可维持你的状态——你已善加利用之，迅速补充血液供应。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.CiewiBqUwe8O5gWu]{快速虹吸} 聚能法术。</p>"
+      "description": "<p>一口快饮虽不能使你饱足，但可维持你的状态——你已善加利用之，迅速补充血液供应。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.CiewiBqUwe8O5gWu]{快速虹吸} 聚能法术。</p>",
+      "prerequisites": [
+        {
+          "value": "血法师入门"
+        },
+        {
+          "value": "鲜血虹吸"
+        }
+      ]
     },
     "Atmosphor": {
       "name": "御风者 Atmosphor",
-      "description": "<p>你将魔法之线穿过气流与音波之压缩之秘门。</p><p><strong>秘门特征</strong> 气、音波</p><p><strong>系链魔法</strong> 当你以「气」特征之法术施法时，你可漂浮。直至你下一回合结束，将你的陆地速度替换为同等之飞行速度。当你 @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{飞行} 时，你不能上升至离地几英寸以上。这意味着你可飞过多种困难或有害地形而不致缓行或受伤，纵使你并不能无限制地飞行。你可 @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{跳跃}、@UUID[Compendium.pf2e.actionspf2e.2HJ4yuEFY1Cast4h]{跳高}、@UUID[Compendium.pf2e.actionspf2e.JUvAvruz7yRQXfz2]{跳远} 等，并以此飞行速度替代陆地速度进行任何相关计算。当你以「音波」特征之法术使一名生物耳聋时，他们会同时 @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{笨拙1级}，持续至其耳聋结束，或其花费一个具有「专注」特征的单一动作稳住自身为止，以较早发生者为准。</p><p><strong>压倒性秘门</strong> 当你以「气」特征之法术施法时，你的飞行速度不再受限。若你已具备飞行速度，你的飞行速度改为提升 15 尺。若你于回合结束时本将坠落，你便安然漂浮至地面。当你以「音波」特征且造成伤害之法术施法时，你可选择改造为钝击伤害（替代音波伤害）。</p>"
+      "description": "<p>你将魔法之线穿过气流与音波之压缩之秘门。</p><p><strong>秘门特征</strong> 气、音波</p><p><strong>系链魔法</strong> 当你以「气」特征之法术施法时，你可漂浮。直至你下一回合结束，将你的陆地速度替换为同等之飞行速度。当你 @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{飞行} 时，你不能上升至离地几英寸以上。这意味着你可飞过多种困难或有害地形而不致缓行或受伤，纵使你并不能无限制地飞行。你可 @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{跳跃}、@UUID[Compendium.pf2e.actionspf2e.2HJ4yuEFY1Cast4h]{跳高}、@UUID[Compendium.pf2e.actionspf2e.JUvAvruz7yRQXfz2]{跳远} 等，并以此飞行速度替代陆地速度进行任何相关计算。当你以「音波」特征之法术使一名生物耳聋时，他们会同时 @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{笨拙1级}，持续至其耳聋结束，或其花费一个具有「专注」特征的单一动作稳住自身为止，以较早发生者为准。</p><p><strong>压倒性秘门</strong> 当你以「气」特征之法术施法时，你的飞行速度不再受限。若你已具备飞行速度，你的飞行速度改为提升 15 尺。若你于回合结束时本将坠落，你便安然漂浮至地面。当你以「音波」特征且造成伤害之法术施法时，你可选择改造为钝击伤害（替代音波伤害）。</p>",
+      "prerequisites": [
+        {
+          "value": "获得至少一个具有气特征的法术的许可"
+        },
+        {
+          "value": "获得至少一个具有音波特征的法术的许可"
+        }
+      ]
     },
     "Summon Dragon Aspect": {
       "name": "召唤龙族层面 Summon Dragon Aspect",
@@ -1134,11 +1741,21 @@
     },
     "Scissored Assault": {
       "name": "剪式突袭 Scissored Assault",
-      "description": "<p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你与你的神秘搭档之协作已臻化境，让你能将魔法无缝融入其攻击之中。若你的下一动作是施放一道需要法术攻击掷骰的法术，你可改为将该法术灌注入你搭档之武器或无武装攻击中（替代常规效果）。你搭档下次进行的打击便决定打击与法术之效果，所有伤害合并以计算抗力。该打击获得该法术之全部特征。打击进行时你的神秘链结仍须生效，且打击必须于你下一回合开始前进行，否则法术消散无效。</p>"
+      "description": "<p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你与你的神秘搭档之协作已臻化境，让你能将魔法无缝融入其攻击之中。若你的下一动作是施放一道需要法术攻击掷骰的法术，你可改为将该法术灌注入你搭档之武器或无武装攻击中（替代常规效果）。你搭档下次进行的打击便决定打击与法术之效果，所有伤害合并以计算抗力。该打击获得该法术之全部特征。打击进行时你的神秘链结仍须生效，且打击必须于你下一回合开始前进行，否则法术消散无效。</p>",
+      "prerequisites": [
+        {
+          "value": "神秘搭档入门"
+        }
+      ]
     },
     "Mystic Duo Dedication": {
       "name": "神秘搭档入门 Mystic Duo Dedication",
-      "description": "<p>你已修习以你的魔法将自身与盟友相系。当你选取此入门时，选择一名自愿、非仆从的盟友作为你的神秘搭档。作为此变体训练的一部分，你训练你的搭档掌握使用你能力之必要习惯与技法，让其能自动赐予效果；你的搭档无须花费自身任何专长。仅当你与你的搭档皆活着且具有意识时，你方可获得你神秘搭档变体专长之益处。你与你的搭档始终知晓影响你们任一方的所有状态。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.DCGRN0KjuuicApmh]{神秘链结} 自由动作。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.8LMwQ54HMAmRLLDK]{神秘搭档}</p><hr /><p><strong>特殊</strong> 你从此变体获得之动作与行动具有与你用以满足该变体条件之施法根源相符之特征。</p>"
+      "description": "<p>你已修习以你的魔法将自身与盟友相系。当你选取此入门时，选择一名自愿、非仆从的盟友作为你的神秘搭档。作为此变体训练的一部分，你训练你的搭档掌握使用你能力之必要习惯与技法，让其能自动赐予效果；你的搭档无须花费自身任何专长。仅当你与你的搭档皆活着且具有意识时，你方可获得你神秘搭档变体专长之益处。你与你的搭档始终知晓影响你们任一方的所有状态。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.DCGRN0KjuuicApmh]{神秘链结} 自由动作。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.8LMwQ54HMAmRLLDK]{神秘搭档}</p><hr /><p><strong>特殊</strong> 你从此变体获得之动作与行动具有与你用以满足该变体条件之施法根源相符之特征。</p>",
+      "prerequisites": [
+        {
+          "value": "能够施法"
+        }
+      ]
     },
     "Adamantine Dragonbreath Morningstar (Greater)": {
       "name": "精金龙息钉头锤（高等） Adamantine Dragonbreath Morningstar (Greater)",
@@ -1154,7 +1771,12 @@
     },
     "Wicket Domain": {
       "name": "秘门领域 Wicket Domain",
-      "description": "<p>你与秘门之联系让你能绕过神祇本身获取魔法。你获得与你秘门关联之领域之一的初始领域法术。</p><ul><li><p><strong>热忱</strong> 野心、热情</p></li><li><p><strong>御风者</strong> 气、自由</p></li><li><p><strong>侵蚀者</strong> 地、沙尘</p></li><li><p><strong>熄灭者</strong> 寒冷、黑暗</p></li><li><p><strong>造物者</strong> 迷失、创造</p></li><li><p><strong>辉光者</strong> 火、太阳</p></li><li><p><strong>磁力者</strong> 雷电、金</p></li><li><p><strong>亡灭者</strong> 死亡、衰败</p></li><li><p><strong>推进器</strong> 劳役、水</p></li><li><p><strong>救主</strong> 治疗、防护</p></li><li><p><strong>苍翠者</strong> 自然、木</p></li></ul><hr /><p><strong>特殊</strong> 你可多次选取此专长，再次选取时获得首次未选之初始领域法术。</p>"
+      "description": "<p>你与秘门之联系让你能绕过神祇本身获取魔法。你获得与你秘门关联之领域之一的初始领域法术。</p><ul><li><p><strong>热忱</strong> 野心、热情</p></li><li><p><strong>御风者</strong> 气、自由</p></li><li><p><strong>侵蚀者</strong> 地、沙尘</p></li><li><p><strong>熄灭者</strong> 寒冷、黑暗</p></li><li><p><strong>造物者</strong> 迷失、创造</p></li><li><p><strong>辉光者</strong> 火、太阳</p></li><li><p><strong>磁力者</strong> 雷电、金</p></li><li><p><strong>亡灭者</strong> 死亡、衰败</p></li><li><p><strong>推进器</strong> 劳役、水</p></li><li><p><strong>救主</strong> 治疗、防护</p></li><li><p><strong>苍翠者</strong> 自然、木</p></li></ul><hr /><p><strong>特殊</strong> 你可多次选取此专长，再次选取时获得首次未选之初始领域法术。</p>",
+      "prerequisites": [
+        {
+          "value": "秘门术师入门"
+        }
+      ]
     },
     "Scepter of Heightening": {
       "name": "升阶权杖 Scepter of Heightening",
@@ -1162,11 +1784,27 @@
     },
     "Owned Magic": {
       "name": "私有魔法 Owned Magic",
-      "description": "<p>你识别出借用与你自身相似力量之魔法效果。当你观察到具有与你秘门关联之特征的魔法效果时，你自动识别其具有那些特征。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.9q6niCXD6WbjagwP]{识汝魔法} 反应。</p>"
+      "description": "<p>你识别出借用与你自身相似力量之魔法效果。当你观察到具有与你秘门关联之特征的魔法效果时，你自动识别其具有那些特征。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.9q6niCXD6WbjagwP]{识汝魔法} 反应。</p>",
+      "prerequisites": [
+        {
+          "value": "秘门术师入门"
+        },
+        {
+          "value": "与你的施法根源对应的技能熟练度为大师"
+        }
+      ]
     },
     "Luminor": {
       "name": "辉光者 Luminor",
-      "description": "<p>你将魔法之线穿过辉煌与热度之秘门。</p><p><strong>秘门特征</strong> 火焰、光亮</p><p><strong>系链魔法</strong> 你所有的火焰法术均获得「光亮」特征。当你以「火焰」特征之法术攻击掷骰成功，或一名生物对该法术豁免失败时，该生物承受 @Damage[@item.level[persistent,fire]]{持续火焰伤害}，等同该法术之环级。若该法术本就造成持续火焰伤害，则改为将持续火焰伤害提升此数值。</p><p><strong>压倒性秘门</strong> 当你以「火焰」特征之法术造成伤害时，你可选择改造为精魂伤害（替代火焰伤害）。你也可以以系链魔法将火焰伤害改造为精魂伤害。当你以「光亮」特征且需要豁免之法术时，目标在大失败时 1 轮内 @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{目盲}。</p>"
+      "description": "<p>你将魔法之线穿过辉煌与热度之秘门。</p><p><strong>秘门特征</strong> 火焰、光亮</p><p><strong>系链魔法</strong> 你所有的火焰法术均获得「光亮」特征。当你以「火焰」特征之法术攻击掷骰成功，或一名生物对该法术豁免失败时，该生物承受 @Damage[@item.level[persistent,fire]]{持续火焰伤害}，等同该法术之环级。若该法术本就造成持续火焰伤害，则改为将持续火焰伤害提升此数值。</p><p><strong>压倒性秘门</strong> 当你以「火焰」特征之法术造成伤害时，你可选择改造为精魂伤害（替代火焰伤害）。你也可以以系链魔法将火焰伤害改造为精魂伤害。当你以「光亮」特征且需要豁免之法术时，目标在大失败时 1 轮内 @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{目盲}。</p>",
+      "prerequisites": [
+        {
+          "value": "获得至少一个具有火特征的法术的许可"
+        },
+        {
+          "value": "获得至少一个具有光特征的法术的许可"
+        }
+      ]
     },
     "Horned Dragonbreath Light Pick": {
       "name": "智角龙息轻型镐 Horned Dragonbreath Light Pick",
@@ -1182,7 +1820,12 @@
     },
     "Eldritch Resilience": {
       "name": "诡奇韧性 Eldritch Resilience",
-      "description": "<p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你的连结已经强大到让你能将法术中的部分神秘能量作为生命力赐予你的神秘搭档。若你的下一动作是施放法术，你的搭档获得等同该法术环级两倍的临时生命值；若该法术为戏法则为环级数。这些临时生命值在你的神秘链结生效期间持续存在。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.aazap1iOXQDvTUNc]{效果：诡奇韧性}</p>"
+      "description": "<p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你的连结已经强大到让你能将法术中的部分神秘能量作为生命力赐予你的神秘搭档。若你的下一动作是施放法术，你的搭档获得等同该法术环级两倍的临时生命值；若该法术为戏法则为环级数。这些临时生命值在你的神秘链结生效期间持续存在。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.aazap1iOXQDvTUNc]{效果：诡奇韧性}</p>",
+      "prerequisites": [
+        {
+          "value": "神秘搭档入门"
+        }
+      ]
     },
     "Aberration Shift": {
       "name": "异怪变形 Aberration Shift",
@@ -1190,7 +1833,12 @@
     },
     "Terminus of Soul": {
       "name": "灵魂终焉 Terminus of Soul",
-      "description": "<p><strong>触发</strong> 你完成一次精质循环。</p><hr /><p>溢出之精魂精质以强大护佑包裹你的灵魂以避祸。</p><p><strong>周期 1</strong> 直至遭遇结束前，你于豁免上获得 +2 环境加值。在你施放一道会增加精质之法术后，你可对一道在此遭遇中初次作用于你、且允许豁免之持续法术、效果或状态再尝试一次豁免——若新豁免结果较好则采用。如此做时，你结束你的终焉效果；下次你使用「灵魂终焉」时回到周期 1。</p><p><strong>周期 2</strong> 同周期 1，但环境加值提升至 +3；若你选择提前结束效果且新豁免成功，则你改为大成功。</p><p><strong>周期 3</strong> 同周期 2，但环境加值提升至 +4；若你选择提前结束效果，你将新豁免的成功度视为提高一级。</p>"
+      "description": "<p><strong>触发</strong> 你完成一次精质循环。</p><hr /><p>溢出之精魂精质以强大护佑包裹你的灵魂以避祸。</p><p><strong>周期 1</strong> 直至遭遇结束前，你于豁免上获得 +2 环境加值。在你施放一道会增加精质之法术后，你可对一道在此遭遇中初次作用于你、且允许豁免之持续法术、效果或状态再尝试一次豁免——若新豁免结果较好则采用。如此做时，你结束你的终焉效果；下次你使用「灵魂终焉」时回到周期 1。</p><p><strong>周期 2</strong> 同周期 1，但环境加值提升至 +3；若你选择提前结束效果且新豁免成功，则你改为大成功。</p><p><strong>周期 3</strong> 同周期 2，但环境加值提升至 +4；若你选择提前结束效果，你将新豁免的成功度视为提高一级。</p>",
+      "prerequisites": [
+        {
+          "value": "神术或异能施法者"
+        }
+      ]
     },
     "Scepter of Quickening": {
       "name": "迅捷权杖 Scepter of Quickening",
@@ -1202,7 +1850,12 @@
     },
     "Collective Cantrip": {
       "name": "集体戏法 Collective Cantrip",
-      "description": "<p>你的神秘搭档能借用你的诡奇之力供其自身使用。每日准备期间，从你根源的法术列表中选择一道常见戏法。只要你的神秘链结生效，你的搭档便可施放该戏法。就该戏法而言，他们的法术攻击调整值与法术 DC 等同于你。</p>"
+      "description": "<p>你的神秘搭档能借用你的诡奇之力供其自身使用。每日准备期间，从你根源的法术列表中选择一道常见戏法。只要你的神秘链结生效，你的搭档便可施放该戏法。就该戏法而言，他们的法术攻击调整值与法术 DC 等同于你。</p>",
+      "prerequisites": [
+        {
+          "value": "神秘搭档入门"
+        }
+      ]
     },
     "Fortune Dragonbreath Greatpick": {
       "name": "福宝龙息巨镐 Fortune Dragonbreath Greatpick",
@@ -1210,7 +1863,12 @@
     },
     "Haemothurge Dedication": {
       "name": "血法师入门 Haemothurge Dedication",
-      "description": "<p>失血之痛是追求强大力量之路上的暂时代价。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.JaoqIFWtitfe1jhr]{鲜血虹吸} 动作。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.5HLm2qhSCzUr090m]{血法师与血法专长}</p>"
+      "description": "<p>失血之痛是追求强大力量之路上的暂时代价。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.JaoqIFWtitfe1jhr]{鲜血虹吸} 动作。</p><p>@UUID[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.5HLm2qhSCzUr090m]{血法师与血法专长}</p>",
+      "prerequisites": [
+        {
+          "value": "血之力"
+        }
+      ]
     },
     "Siphoning Rivulet": {
       "name": "虹吸细流 Siphoning Rivulet",
@@ -1234,7 +1892,12 @@
     },
     "Unstable Draw": {
       "name": "不稳抽取 Unstable Draw",
-      "description": "<p>从 5 级起，你可以选择进行一次不稳抽取——从 @UUID[Compendium.pf2e-team-plus-magic.items.jNOZkBE8sd1UhH8o]{抽取戏法} 或 @UUID[Compendium.pf2e-team-plus-magic.items.cYHvzy96aWk5n8yC]{初次抽取} 中抽取至多比你精质抽取多 1 点的精质。不稳抽取十分危险，且几乎总会导致精质泄漏：具体结果取决于一次 @Check[dc:10|type:flat|options:unstable-draw]。</p><p><strong>大成功 </strong>你可如常施放任何环级不超过你当前精质（你的常规精质抽取 + 1）之精质法术。这可能让你比常规更快地完成一次精质循环。</p><p><strong>成功</strong> 你可施放任何环级不超过你当前精质（你的常规精质抽取 + 1）之精质法术，但无论你施放何种法术，你下次施放精质法术时都会经历一次精质泄漏。</p><p><strong>失败</strong> 你只能施放环级恰好等于你当前精质（你的常规精质抽取 + 1）之 2 动作或 3 动作精质法术；当你施放该法术时，你会经历一次精质泄漏。</p><p><strong>大失败 </strong>同失败，且你还会 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1级}，直至你尝试施放该精质法术并经历精质泄漏。</p>"
+      "description": "<p>从 5 级起，你可以选择进行一次不稳抽取——从 @UUID[Compendium.pf2e-team-plus-magic.items.jNOZkBE8sd1UhH8o]{抽取戏法} 或 @UUID[Compendium.pf2e-team-plus-magic.items.cYHvzy96aWk5n8yC]{初次抽取} 中抽取至多比你精质抽取多 1 点的精质。不稳抽取十分危险，且几乎总会导致精质泄漏：具体结果取决于一次 @Check[dc:10|type:flat|options:unstable-draw]。</p><p><strong>大成功 </strong>你可如常施放任何环级不超过你当前精质（你的常规精质抽取 + 1）之精质法术。这可能让你比常规更快地完成一次精质循环。</p><p><strong>成功</strong> 你可施放任何环级不超过你当前精质（你的常规精质抽取 + 1）之精质法术，但无论你施放何种法术，你下次施放精质法术时都会经历一次精质泄漏。</p><p><strong>失败</strong> 你只能施放环级恰好等于你当前精质（你的常规精质抽取 + 1）之 2 动作或 3 动作精质法术；当你施放该法术时，你会经历一次精质泄漏。</p><p><strong>大失败 </strong>同失败，且你还会 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1级}，直至你尝试施放该精质法术并经历精质泄漏。</p>",
+      "prerequisites": [
+        {
+          "value": "你每环获得超过 2 个法术位（例如，心能者不符合此条件）"
+        }
+      ]
     },
     "Bloodstained Bandana (Moderate)": {
       "name": "血染头巾（中级） Bloodstained Bandana (Moderate)",
@@ -1250,7 +1913,12 @@
     },
     "Master of Many": {
       "name": "群龙之首 Master of Many",
-      "description": "<p>你擅长同时使用多种层面。当你以 3 个动作施放一道具备「召唤」特征之法术时，你维持你正在生效的一道召唤法术。若你至少为 12 级，你可维持至多两道你正在生效之召唤法术；若你至少为 18 级，可维持至多三道你正在生效之召唤法术。当你以此方式维持一道召唤法术时，你所召唤之生物只从此次维持获得单一动作。</p>"
+      "description": "<p>你擅长同时使用多种层面。当你以 3 个动作施放一道具备「召唤」特征之法术时，你维持你正在生效的一道召唤法术。若你至少为 12 级，你可维持至多两道你正在生效之召唤法术；若你至少为 18 级，可维持至多三道你正在生效之召唤法术。当你以此方式维持一道召唤法术时，你所召唤之生物只从此次维持获得单一动作。</p>",
+      "prerequisites": [
+        {
+          "value": "层面召唤者入门"
+        }
+      ]
     },
     "Bounded Terminus": {
       "name": "有限终焉 Bounded Terminus",
@@ -1258,7 +1926,12 @@
     },
     "Traditional Coalescing": {
       "name": "传统汇聚 Traditional Coalescing",
-      "description": "<p>你可以汇聚你根源更复杂之形态。从你根源中选择一道你可以施放的层面法术。即便它并非 1环法术，你也可以在每日准备期间将该法术选作你 @UUID[Compendium.pf2e-team-plus-magic.misc.Q9mXTZs2CQoIe7NA]{聚合形态} 之用。</p>"
+      "description": "<p>你可以汇聚你根源更复杂之形态。从你根源中选择一道你可以施放的层面法术。即便它并非 1环法术，你也可以在每日准备期间将该法术选作你 @UUID[Compendium.pf2e-team-plus-magic.misc.Q9mXTZs2CQoIe7NA]{聚合形态} 之用。</p>",
+      "prerequisites": [
+        {
+          "value": "层面变形者入门"
+        }
+      ]
     },
     "Magic Amulet (9th-Rank Essence Spell)": {
       "name": "魔法护符（9阶精质法术） Magic Amulet (9th-Rank Essence Spell)",
@@ -1266,7 +1939,15 @@
     },
     "Eidolon's Bretheren": {
       "name": "幻灵同胞 Eidolon's Bretheren",
-      "description": "<p>你以你与幻灵之羁绊增强你的召唤。对于通常以幻灵为目标的召唤师法术，你可改为以自己的层面召唤生物为目标。此外，当你使用低于自身最高环级的层面召唤法术时，你不会承受累积减值。</p>"
+      "description": "<p>你以你与幻灵之羁绊增强你的召唤。对于通常以幻灵为目标的召唤师法术，你可改为以自己的层面召唤生物为目标。此外，当你使用低于自身最高环级的层面召唤法术时，你不会承受累积减值。</p>",
+      "prerequisites": [
+        {
+          "value": "层面召唤者入门"
+        },
+        {
+          "value": "你知道至少一个作为召唤师法术的层面召唤法术"
+        }
+      ]
     },
     "Magic Amulet (4th-Rank Essence Spell)": {
       "name": "魔法护符（4阶精质法术） Magic Amulet (4th-Rank Essence Spell)",
@@ -1274,7 +1955,12 @@
     },
     "Dragon Shape+": {
       "name": "龙之形态+ Dragon Shape+",
-      "description": "<p>你能化身为世上最可怖之生物。将 @UUID[Compendium.pf2e.spells-srd.Item.5c692cCcTDXjSEzk]{巨龙形态} 中所列形态加入你的 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 列表，并将 @UUID[Compendium.pf2e-team-plus-magic.items.d8OboK14CSqs7N7p]{龙族变形} 形态加入 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形} 列表。每当你以<em>无羁形态</em>变形为另一形态时，你自选获得对钝击或毒素之抗力 5。</p>"
+      "description": "<p>你能化身为世上最可怖之生物。将 @UUID[Compendium.pf2e.spells-srd.Item.5c692cCcTDXjSEzk]{巨龙形态} 中所列形态加入你的 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 列表，并将 @UUID[Compendium.pf2e-team-plus-magic.items.d8OboK14CSqs7N7p]{龙族变形} 形态加入 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形} 列表。每当你以<em>无羁形态</em>变形为另一形态时，你自选获得对钝击或毒素之抗力 5。</p>",
+      "prerequisites": [
+        {
+          "value": "翱翔之形"
+        }
+      ]
     },
     "Life Essence Reservoir": {
       "name": "生命精质储池 Life Essence Reservoir",
@@ -1310,11 +1996,24 @@
     },
     "Essence Summoner": {
       "name": "精质召唤师 Essence Summoner",
-      "description": "<p>当你使用精质召唤生物时，你可将精质灌注其中并随着你积累精质而升级。你以精质法术召唤之生物，若来自比你精质池值低2环之法术，则于攻击掷骰、AC、豁免与技能检定上获得 +2 状态加值；若来自比你精质池值低1环之法术，则获得 +1 状态加值。任何由精质法术召唤之生物可花费一个具「专注」特征的动作以演化为同一法术升阶1环后之生物，前提是新的环级不高于你当前精质值。如此做时，它们保留当前伤害与负面状态及效果，但失去任何有益效果，且其因此专长而获得之状态加值随之降低。你也获得 @UUID[Compendium.pf2e-team-plus-magic.misc.WdGe0lMC1nSuYBbX]{召唤终焉} 动作。</p>"
+      "description": "<p>当你使用精质召唤生物时，你可将精质灌注其中并随着你积累精质而升级。你以精质法术召唤之生物，若来自比你精质池值低2环之法术，则于攻击掷骰、AC、豁免与技能检定上获得 +2 状态加值；若来自比你精质池值低1环之法术，则获得 +1 状态加值。任何由精质法术召唤之生物可花费一个具「专注」特征的动作以演化为同一法术升阶1环后之生物，前提是新的环级不高于你当前精质值。如此做时，它们保留当前伤害与负面状态及效果，但失去任何有益效果，且其因此专长而获得之状态加值随之降低。你也获得 @UUID[Compendium.pf2e-team-plus-magic.misc.WdGe0lMC1nSuYBbX]{召唤终焉} 动作。</p>",
+      "prerequisites": [
+        {
+          "value": "能够使用精质施放至少一个召唤法术"
+        },
+        {
+          "value": "精质编织者入门或层面召唤者入门，或你是召唤师"
+        }
+      ]
     },
     "Insect Shape+": {
       "name": "昆虫形态+ Insect Shape+",
-      "description": "<p>你对生命之理解得以扩展，让你能模仿更广范围之生物。将 @UUID[Compendium.pf2e.spells-srd.Item.XI6Lzd2B5pernkPd]{巨虫形态} 中所列形态加入你的 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 列表。每当你使用<em>无羁形态</em>变形为害兽形态中所列的非飞行昆虫形态时，持续时间改为 24 小时（替代 10 分钟）。</p><p>每当你使用 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形} 时，将动物变形在飞行层面下所获得的无武装打击的伤害骰提升一档。</p>"
+      "description": "<p>你对生命之理解得以扩展，让你能模仿更广范围之生物。将 @UUID[Compendium.pf2e.spells-srd.Item.XI6Lzd2B5pernkPd]{巨虫形态} 中所列形态加入你的 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{无羁形态} 列表。每当你使用<em>无羁形态</em>变形为害兽形态中所列的非飞行昆虫形态时，持续时间改为 24 小时（替代 10 分钟）。</p><p>每当你使用 @UUID[Compendium.pf2e-team-plus-magic.items.rgKYmYLZVA7KeMxL]{无羁层面变形} 时，将动物变形在飞行层面下所获得的无武装打击的伤害骰提升一档。</p>",
+      "prerequisites": [
+        {
+          "value": "无羁形态"
+        }
+      ]
     },
     "Plant Shift": {
       "name": "植物变形 Plant Shift",
@@ -1322,7 +2021,12 @@
     },
     "Second Terminus": {
       "name": "二次终焉 Second Terminus",
-      "description": "<p>你巧妙地编织精质，让你能比同辈达成更具多变性之结果。你获得与你根源关联之第二种终焉动作。</p>"
+      "description": "<p>你巧妙地编织精质，让你能比同辈达成更具多变性之结果。你获得与你根源关联之第二种终焉动作。</p>",
+      "prerequisites": [
+        {
+          "value": "精质编织者入门、精质重生"
+        }
+      ]
     },
     "Magic Chalice (5th-Rank Essence Spell)": {
       "name": "魔法圣杯（5阶精质法术） Magic Chalice (5th-Rank Essence Spell)",
@@ -1338,7 +2042,12 @@
     },
     "Seal the Wicket": {
       "name": "封闭秘门 Seal the Wicket",
-      "description": "<p><strong>触发</strong> 一名生物施放一道具有你某项秘门关联特征之法术。</p><hr /><p>你的法术对他人妄图染指你专长领域之微弱魔法占据上风。若你为准备式施法者，你消耗一道具备触发特征之已准备法术以反制触发生物的施法。若你为自发式施法者，你消耗一个法术位（其环级为你能施放具备触发特征之法术之环级）。</p><p>你像已施放该法术那般失去你的法术位，然后尝试反制触发的法术。</p><hr /><p><strong>特殊</strong> 此专长具有与你施法根源相对应之特征（奥术、神术、原能或异能）。</p>"
+      "description": "<p><strong>触发</strong> 一名生物施放一道具有你某项秘门关联特征之法术。</p><hr /><p>你的法术对他人妄图染指你专长领域之微弱魔法占据上风。若你为准备式施法者，你消耗一道具备触发特征之已准备法术以反制触发生物的施法。若你为自发式施法者，你消耗一个法术位（其环级为你能施放具备触发特征之法术之环级）。</p><p>你像已施放该法术那般失去你的法术位，然后尝试反制触发的法术。</p><hr /><p><strong>特殊</strong> 此专长具有与你施法根源相对应之特征（奥术、神术、原能或异能）。</p>",
+      "prerequisites": [
+        {
+          "value": "秘门术师入门"
+        }
+      ]
     },
     "Dynamic Daze": {
       "name": "动态晕眩术 Dynamic Daze",
@@ -1354,15 +2063,30 @@
     },
     "Light Killer": {
       "name": "光之杀手 Light Killer",
-      "description": "<p><strong>需求</strong> 你正持用你的暗影武器。</p><hr /><p>你的暗影武器熄灭光线。以暗影武器对一名生物进行打击。若打击成功，你自动尝试反制目标 @Template[distance:30|type:emanation] 弥漫范围内的光亮效果——你的反制检定调整值等同于你的 [[/r 1d20 - 10 + @actor.attributes.classOrSpellDC.value#Light Killer Counteract]]{职业 DC 或法术 DC – 10}（取较高者）。</p>"
+      "description": "<p><strong>需求</strong> 你正持用你的暗影武器。</p><hr /><p>你的暗影武器熄灭光线。以暗影武器对一名生物进行打击。若打击成功，你自动尝试反制目标 @Template[distance:30|type:emanation] 弥漫范围内的光亮效果——你的反制检定调整值等同于你的 [[/r 1d20 - 10 + @actor.attributes.classOrSpellDC.value#Light Killer Counteract]]{职业 DC 或法术 DC – 10}（取较高者）。</p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Wicket Infusion": {
       "name": "秘门灌注 Wicket Infusion",
-      "description": "<p>你能为通常不会触发你秘门行为之法术灌注。若你的下一动作是从聚能点或法术位施放一道不具备你秘门特征之法术，则其仍会如同具备你某一项秘门特征般触发你的系链魔法效果。该法术不会获得所选特征，且当你使用此塑法时你必须选择要灌注哪一项特征。</p>"
+      "description": "<p>你能为通常不会触发你秘门行为之法术灌注。若你的下一动作是从聚能点或法术位施放一道不具备你秘门特征之法术，则其仍会如同具备你某一项秘门特征般触发你的系链魔法效果。该法术不会获得所选特征，且当你使用此塑法时你必须选择要灌注哪一项特征。</p>",
+      "prerequisites": [
+        {
+          "value": "秘门术师入门"
+        }
+      ]
     },
     "Glutton For Blood": {
       "name": "嗜血者 Glutton For Blood",
-      "description": "<p>你于鲜血面前得以补给。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.cyNMibnSJlCoNJZr]{嗜血者} 聚能法术。</p>"
+      "description": "<p>你于鲜血面前得以补给。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.cyNMibnSJlCoNJZr]{嗜血者} 聚能法术。</p>",
+      "prerequisites": [
+        {
+          "value": "血法师入门"
+        }
+      ]
     },
     "Magic Chalice (8th-Rank Essence Spell)": {
       "name": "魔法圣杯（8阶精质法术） Magic Chalice (8th-Rank Essence Spell)",
@@ -1374,7 +2098,15 @@
     },
     "Bleeding Spell": {
       "name": "流血法术 Bleeding Spell",
-      "description": "<p>你已学会让被魔法所伤者流血。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.fZntOuJKiFAVWB3h]{流血法术} 塑法。</p>"
+      "description": "<p>你已学会让被魔法所伤者流血。你获得 @UUID[Compendium.pf2e-team-plus-magic.misc.fZntOuJKiFAVWB3h]{流血法术} 塑法。</p>",
+      "prerequisites": [
+        {
+          "value": "血术师入门"
+        },
+        {
+          "value": "能够使用法术位施法"
+        }
+      ]
     },
     "Horned Dragonbreath Light Pick (Greater)": {
       "name": "智角龙息轻型镐（高等） Horned Dragonbreath Light Pick (Greater)",
@@ -1382,7 +2114,12 @@
     },
     "Form Eschar": {
       "name": "成痂 Form Eschar",
-      "description": "<p><strong>触发</strong> 30 尺内一名生物将受到持续流血伤害。</p><hr /><p>你对鲜血的掌控不仅在于盗取与稀释，亦能加速凝结与结痂。该生物可在受到伤害之前立即尝试结束持续流血伤害的纯骰检定。若此次检定失败，他们仍可在受到伤害后尝试常规之纯骰检定。</p>"
+      "description": "<p><strong>触发</strong> 30 尺内一名生物将受到持续流血伤害。</p><hr /><p>你对鲜血的掌控不仅在于盗取与稀释，亦能加速凝结与结痂。该生物可在受到伤害之前立即尝试结束持续流血伤害的纯骰检定。若此次检定失败，他们仍可在受到伤害后尝试常规之纯骰检定。</p>",
+      "prerequisites": [
+        {
+          "value": "血法师入门"
+        }
+      ]
     },
     "Righteous": {
       "name": "义勇 Righteous",
@@ -1414,7 +2151,12 @@
     },
     "Umbral Slayer": {
       "name": "暗影杀手 Umbral Slayer",
-      "description": "<p><strong>需求</strong> 你正于昏暗光照或黑暗中持用你的暗影武器。</p><hr /><p>你利用周围所有暗影来击杀敌人。对你 30 尺内、处于昏暗光照或黑暗中的生物以你的暗影武器进行至多三次近战打击，每次使用你当前的多重攻击减值。所有这些打击必须以不同目标为目标。若你的暗影武器不具备「灵巧」特征，则每次打击承受 -2 减值。</p>"
+      "description": "<p><strong>需求</strong> 你正于昏暗光照或黑暗中持用你的暗影武器。</p><hr /><p>你利用周围所有暗影来击杀敌人。对你 30 尺内、处于昏暗光照或黑暗中的生物以你的暗影武器进行至多三次近战打击，每次使用你当前的多重攻击减值。所有这些打击必须以不同目标为目标。若你的暗影武器不具备「灵巧」特征，则每次打击承受 -2 减值。</p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Howl of Winter (Lesser)": {
       "name": "凛冬之嚎（次级） Howl of Winter (Lesser)",
@@ -1426,7 +2168,12 @@
     },
     "Xanderghul's Pride": {
       "name": "赞多古尔之傲 Xanderghul's Pride",
-      "description": "<p>符文领主赞多古尔曾是有史以来最伟大的幻术师之一——他以魔法创造了一个崇敬他为「孔雀之灵」的追随者邪教；你已掌握与之相似的幻术魔法。每当你施放一道幻术法术时，除非生物先以你的法术 DC 进行意志豁免成功，否则其无法通过与之互动或使用「搜索」动作来识破之；若豁免失败，则任何非魔法的检视都无法让其相信你的幻象并非你所塑造的样貌。</p>"
+      "description": "<p>符文领主赞多古尔曾是有史以来最伟大的幻术师之一——他以魔法创造了一个崇敬他为「孔雀之灵」的追随者邪教；你已掌握与之相似的幻术魔法。每当你施放一道幻术法术时，除非生物先以你的法术 DC 进行意志豁免成功，否则其无法通过与之互动或使用「搜索」动作来识破之；若豁免失败，则任何非魔法的检视都无法让其相信你的幻象并非你所塑造的样貌。</p>",
+      "prerequisites": [
+        {
+          "value": "大法师入门"
+        }
+      ]
     },
     "Summon Entity Aspect": {
       "name": "召唤实体层面 Summon Entity Aspect",
@@ -1434,7 +2181,15 @@
     },
     "Fused Aspect Form": {
       "name": "融合层面形态 Fused Aspect Form",
-      "description": "<p>你将两个层面合并为一个，向世界释放出全新而难以想象的形态。若你的下一动作是施放一道层面战斗形态法术，你可为该所选法术选择两个本可化身的层面，并获得两层面之特性。选择其中一个为基础层面。在此战斗形态下，你获得所选两层面之全部技能、特殊能力、特征与动作，但使用基础层面之基础数据（如豁免调整）。若融合层面赐予了相互矛盾的数据、特殊能力或动作，则法术自动失败（由 GM 裁定），但当你施放该法术时，你不会消耗任何法术位或聚能点。</p>"
+      "description": "<p>你将两个层面合并为一个，向世界释放出全新而难以想象的形态。若你的下一动作是施放一道层面战斗形态法术，你可为该所选法术选择两个本可化身的层面，并获得两层面之特性。选择其中一个为基础层面。在此战斗形态下，你获得所选两层面之全部技能、特殊能力、特征与动作，但使用基础层面之基础数据（如豁免调整）。若融合层面赐予了相互矛盾的数据、特殊能力或动作，则法术自动失败（由 GM 裁定），但当你施放该法术时，你不会消耗任何法术位或聚能点。</p>",
+      "prerequisites": [
+        {
+          "value": "层面变形者入门"
+        },
+        {
+          "value": "你知道至少一个层面战斗形态法术"
+        }
+      ]
     },
     "Effect: Terminus of Insight": {
       "name": "效果：洞察终焉 Effect: Terminus of Insight",
@@ -1446,7 +2201,12 @@
     },
     "Descending Gloom": {
       "name": "下降幽暗 Descending Gloom",
-      "description": "<p><strong>需求</strong> 你正持用你的暗影武器。</p><hr /><p>你将暗影散于该区域以创造黑暗。你 @UUID[Compendium.pf2e.actionspf2e.AjLSHZSWQ90exdLo]{解消} 你的暗影武器，于 @Template[distance:30|type:emanation] 弥漫范围内引发一阵黑暗爆发，将该区域内光线由明亮光照降至昏暗光照，或由昏暗光照降至黑暗，持续 1 分钟，或直至你交互重新拔出你的暗影武器。</p>"
+      "description": "<p><strong>需求</strong> 你正持用你的暗影武器。</p><hr /><p>你将暗影散于该区域以创造黑暗。你 @UUID[Compendium.pf2e.actionspf2e.AjLSHZSWQ90exdLo]{解消} 你的暗影武器，于 @Template[distance:30|type:emanation] 弥漫范围内引发一阵黑暗爆发，将该区域内光线由明亮光照降至昏暗光照，或由昏暗光照降至黑暗，持续 1 分钟，或直至你交互重新拔出你的暗影武器。</p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Monitor Shift": {
       "name": "观察者变形 Monitor Shift",
@@ -1470,7 +2230,15 @@
     },
     "Signature Dynamism": {
       "name": "标志动态 Signature Dynamism",
-      "description": "<p>你已对若干法术修习如此精深，修饰它们已成你的本能。你的三道动态精通法术成为标志法术。若你所选动态精通法术中已有标志法术，你可立即重训那些标志法术之选择。</p>"
+      "description": "<p>你已对若干法术修习如此精深，修饰它们已成你的本能。你的三道动态精通法术成为标志法术。若你所选动态精通法术中已有标志法术，你可立即重训那些标志法术之选择。</p>",
+      "prerequisites": [
+        {
+          "value": "动态法术贤者入门"
+        },
+        {
+          "value": "你拥有标志性法术"
+        }
+      ]
     },
     "Magic Chalice (2nd-Rank Essence Spell)": {
       "name": "魔法圣杯（2阶精质法术） Magic Chalice (2nd-Rank Essence Spell)",
@@ -1490,7 +2258,12 @@
     },
     "Chimerized Aspect Form": {
       "name": "嵌合层面形态 Chimerized Aspect Form",
-      "description": "<p>你能创造扭曲现实之生物，赋予它们不可能的能力与特征。</p><p>当你使用 @UUID[Compendium.pf2e-team-plus-magic.items.uT1fjeJqinVDb5ZH]{融合层面形态} 时，你可选择以下效果（替代常规效果）：</p><ul><li><p>你融合同一道层面战斗形态法术之三种层面，而非仅一种。</p></li><li><p>你融合两种来自不同层面战斗形态法术的层面，而非仅一种。</p></li></ul>"
+      "description": "<p>你能创造扭曲现实之生物，赋予它们不可能的能力与特征。</p><p>当你使用 @UUID[Compendium.pf2e-team-plus-magic.items.uT1fjeJqinVDb5ZH]{融合层面形态} 时，你可选择以下效果（替代常规效果）：</p><ul><li><p>你融合同一道层面战斗形态法术之三种层面，而非仅一种。</p></li><li><p>你融合两种来自不同层面战斗形态法术的层面，而非仅一种。</p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "融合层面形态"
+        }
+      ]
     },
     "Arcane Duelist's Gloves": {
       "name": "奥术决斗者手套 Arcane Duelist's Gloves",
@@ -1502,7 +2275,15 @@
     },
     "Aspect Adept": {
       "name": "层面行家 Aspect Adept",
-      "description": "<p>你已精通某道法术之多种层面。选择一道你能施放的层面召唤法术。若你为准备式施法者，你可花费 10 分钟清空你已准备的某个法术位，并在其位置准备所选层面法术。若你为自发式施法者，所选层面召唤法术成为你的额外标志法术。</p><hr /><p><strong>特殊</strong> 若你为具备法术替换论文之法师，每日一次你可作为自由动作将一道你已准备之法术换为所选层面法术。</p>"
+      "description": "<p>你已精通某道法术之多种层面。选择一道你能施放的层面召唤法术。若你为准备式施法者，你可花费 10 分钟清空你已准备的某个法术位，并在其位置准备所选层面法术。若你为自发式施法者，所选层面召唤法术成为你的额外标志法术。</p><hr /><p><strong>特殊</strong> 若你为具备法术替换论文之法师，每日一次你可作为自由动作将一道你已准备之法术换为所选层面法术。</p>",
+      "prerequisites": [
+        {
+          "value": "层面召唤者入门"
+        },
+        {
+          "value": "你知道至少一个层面召唤"
+        }
+      ]
     },
     "Calling": {
       "name": "召唤 Calling",
@@ -1510,7 +2291,12 @@
     },
     "Wicket Conjurer": {
       "name": "秘门召唤者 Wicket Conjurer",
-      "description": "<p>你能呼唤与你秘门关联之生物，并令其为你而战。你获得一个与你最高环级相同的额外法术位，仅能用于施放一道与你秘门关联之法术。你于获得此专长时选择该法术。</p><ul><li><p><strong>热忱</strong> @UUID[Compendium.pf2e.spells-srd.hs7h8f4Z1ZNdUt3s]{召唤精类} 或 @UUID[Compendium.pf2e.spells-srd.29ytKctjg7qSW2ff]{召唤魔族}（仅恶魔）</p></li><li><p><strong>御风者</strong> @UUID[Compendium.pf2e.spells-srd.lpT6LotUaQPfinjj]{召唤元素}（仅气）或 @UUID[Compendium.pf2e.spells-srd.lTDixrrNKaCvLKwX]{召唤天族}（仅灵使）</p></li><li><p><strong>毁灭者</strong> @UUID[Compendium.pf2e.spells-srd.lpT6LotUaQPfinjj]{召唤元素}（仅寒冷）或 @UUID[Compendium.pf2e.spells-srd.e9UJoVYUd5kJWUpi]{召唤巨人}（仅霜巨人）</p></li><li><p><strong>侵蚀者</strong> @UUID[Compendium.pf2e.spells-srd.lpT6LotUaQPfinjj]{召唤元素}（仅土）或 @UUID[Compendium.pf2e.spells-srd.lKcsmeOrgHtK4xQa]{召唤构装体}（仅石质构装体）</p></li><li><p><strong>造物者</strong> @UUID[Compendium.pf2e.spells-srd.f8SBoXiXQjlCKqly]{幻象生物} 或 @UUID[Compendium.pf2e.spells-srd.kghwmH3tQjMIhdH1]{召唤巨龙}（仅幻影龙）</p></li><li><p><strong>辉光者</strong> @UUID[Compendium.pf2e.spells-srd.lpT6LotUaQPfinjj]{召唤元素}（仅火焰）或 @UUID[Compendium.pf2e.spells-srd.lTDixrrNKaCvLKwX]{召唤天族}（仅圣使）</p></li><li><p><strong>磁力者</strong> @UUID[Compendium.pf2e.spells-srd.lpT6LotUaQPfinjj]{召唤元素}（仅金）或 @UUID[Compendium.pf2e.spells-srd.lKcsmeOrgHtK4xQa]{召唤构装体}（仅金属构装体）</p></li><li><p><strong>亡灭者</strong> @UUID[Compendium.pf2e.spells-srd.9WGeBwIIbbUuWKq0]{召唤亡灵} 或 @UUID[Compendium.pf2e.spells-srd.ZbEHglw5tkJ3grQZ]{召唤观察者}（仅招魂者）</p></li><li><p><strong>推进器</strong> @UUID[Compendium.pf2e.spells-srd.lpT6LotUaQPfinjj]{召唤元素}（仅水）或 @UUID[Compendium.pf2e.spells-srd.kghwmH3tQjMIhdH1]{召唤巨龙}（仅福宝龙）</p></li><li><p><strong>救主</strong> @UUID[Compendium.pf2e.spells-srd.lTDixrrNKaCvLKwX]{召唤天族}（仅天使）或 @UUID[Compendium.pf2e.spells-srd.kghwmH3tQjMIhdH1]{召唤巨龙}（仅圣天龙）</p></li><li><p><strong>苍翠者</strong> @UUID[Compendium.pf2e.spells-srd.jSRAyd57kd4WZ4yE]{召唤植物与真菌}（仅植物）或 @UUID[Compendium.pf2e.spells-srd.lpT6LotUaQPfinjj]{召唤元素}（仅木）</p></li></ul>"
+      "description": "<p>你能呼唤与你秘门关联之生物，并令其为你而战。你获得一个与你最高环级相同的额外法术位，仅能用于施放一道与你秘门关联之法术。你于获得此专长时选择该法术。</p><ul><li><p><strong>热忱</strong> @UUID[Compendium.pf2e.spells-srd.hs7h8f4Z1ZNdUt3s]{召唤精类} 或 @UUID[Compendium.pf2e.spells-srd.29ytKctjg7qSW2ff]{召唤魔族}（仅恶魔）</p></li><li><p><strong>御风者</strong> @UUID[Compendium.pf2e.spells-srd.lpT6LotUaQPfinjj]{召唤元素}（仅气）或 @UUID[Compendium.pf2e.spells-srd.lTDixrrNKaCvLKwX]{召唤天族}（仅灵使）</p></li><li><p><strong>毁灭者</strong> @UUID[Compendium.pf2e.spells-srd.lpT6LotUaQPfinjj]{召唤元素}（仅寒冷）或 @UUID[Compendium.pf2e.spells-srd.e9UJoVYUd5kJWUpi]{召唤巨人}（仅霜巨人）</p></li><li><p><strong>侵蚀者</strong> @UUID[Compendium.pf2e.spells-srd.lpT6LotUaQPfinjj]{召唤元素}（仅土）或 @UUID[Compendium.pf2e.spells-srd.lKcsmeOrgHtK4xQa]{召唤构装体}（仅石质构装体）</p></li><li><p><strong>造物者</strong> @UUID[Compendium.pf2e.spells-srd.f8SBoXiXQjlCKqly]{幻象生物} 或 @UUID[Compendium.pf2e.spells-srd.kghwmH3tQjMIhdH1]{召唤巨龙}（仅幻影龙）</p></li><li><p><strong>辉光者</strong> @UUID[Compendium.pf2e.spells-srd.lpT6LotUaQPfinjj]{召唤元素}（仅火焰）或 @UUID[Compendium.pf2e.spells-srd.lTDixrrNKaCvLKwX]{召唤天族}（仅圣使）</p></li><li><p><strong>磁力者</strong> @UUID[Compendium.pf2e.spells-srd.lpT6LotUaQPfinjj]{召唤元素}（仅金）或 @UUID[Compendium.pf2e.spells-srd.lKcsmeOrgHtK4xQa]{召唤构装体}（仅金属构装体）</p></li><li><p><strong>亡灭者</strong> @UUID[Compendium.pf2e.spells-srd.9WGeBwIIbbUuWKq0]{召唤亡灵} 或 @UUID[Compendium.pf2e.spells-srd.ZbEHglw5tkJ3grQZ]{召唤观察者}（仅招魂者）</p></li><li><p><strong>推进器</strong> @UUID[Compendium.pf2e.spells-srd.lpT6LotUaQPfinjj]{召唤元素}（仅水）或 @UUID[Compendium.pf2e.spells-srd.kghwmH3tQjMIhdH1]{召唤巨龙}（仅福宝龙）</p></li><li><p><strong>救主</strong> @UUID[Compendium.pf2e.spells-srd.lTDixrrNKaCvLKwX]{召唤天族}（仅天使）或 @UUID[Compendium.pf2e.spells-srd.kghwmH3tQjMIhdH1]{召唤巨龙}（仅圣天龙）</p></li><li><p><strong>苍翠者</strong> @UUID[Compendium.pf2e.spells-srd.jSRAyd57kd4WZ4yE]{召唤植物与真菌}（仅植物）或 @UUID[Compendium.pf2e.spells-srd.lpT6LotUaQPfinjj]{召唤元素}（仅木）</p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "秘门术师入门"
+        }
+      ]
     },
     "Fortune Dragonbreath Greatpick (Major)": {
       "name": "福宝龙息巨镐（上等） Fortune Dragonbreath Greatpick (Major)",
@@ -1526,11 +2312,21 @@
     },
     "Command Shadows": {
       "name": "指挥阴影 Command Shadows",
-      "description": "<p>你呼唤一道影子来助你。选择 30 尺内一名具有影子之生物。若你选择敌方生物，该生物可以以你的职业 DC 或法术 DC（取较高者）进行 @Check[type:will|dc:resolve(@actor.attributes.classOrSpellDC.value)] 豁免，成功则保留对其影子之控制。该影子出现于目标生物相邻空间，你于 1 分钟内获得该影子之使用权，目标在此期间失去其影子。该目标随后 1 小时内对「指挥阴影」暂时免疫。</p><p>该影子与你所瞄准之生物体型相同，但其空间可由其他生物占据；它无法说话、交流或与物体互动，并可在任何固体表面上移动。你可使用一个具「专注」特征之单一动作让目标之影子在固体表面上移动至多 30 尺。它从其所占空间为你与盟友提供夹击。</p><p>你可解消该影子；如此做时，它对该影子空间内之所有生物以基础强韧豁免造成 @Damage[(@actor.level / 2)d6[void]] 伤害。该伤害于 8 级及此后每 2 级各增加 1d6。</p><p></p>"
+      "description": "<p>你呼唤一道影子来助你。选择 30 尺内一名具有影子之生物。若你选择敌方生物，该生物可以以你的职业 DC 或法术 DC（取较高者）进行 @Check[type:will|dc:resolve(@actor.attributes.classOrSpellDC.value)] 豁免，成功则保留对其影子之控制。该影子出现于目标生物相邻空间，你于 1 分钟内获得该影子之使用权，目标在此期间失去其影子。该目标随后 1 小时内对「指挥阴影」暂时免疫。</p><p>该影子与你所瞄准之生物体型相同，但其空间可由其他生物占据；它无法说话、交流或与物体互动，并可在任何固体表面上移动。你可使用一个具「专注」特征之单一动作让目标之影子在固体表面上移动至多 30 尺。它从其所占空间为你与盟友提供夹击。</p><p>你可解消该影子；如此做时，它对该影子空间内之所有生物以基础强韧豁免造成 @Damage[(@actor.level / 2)d6[void]] 伤害。该伤害于 8 级及此后每 2 级各增加 1d6。</p><p></p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Accelerated Incantations": {
       "name": "加速咒诵 Accelerated Incantations",
-      "description": "<p>当你施放较弱之法术时，你能以比常规更短之时间执行咒诵之冗长形式。当你施放一道环级低于你精质抽取之咒诵时，所需时间为 30 秒（替代 1 分钟），从而避免减少你的精质抽取与精质池。此外，当你施放长咒诵时，每比你精质池值低1环将咒诵时间缩短 10 分钟，最低为 10 分钟（针对比你精质池值低5环或以上之法术）。</p>"
+      "description": "<p>当你施放较弱之法术时，你能以比常规更短之时间执行咒诵之冗长形式。当你施放一道环级低于你精质抽取之咒诵时，所需时间为 30 秒（替代 1 分钟），从而避免减少你的精质抽取与精质池。此外，当你施放长咒诵时，每比你精质池值低1环将咒诵时间缩短 10 分钟，最低为 10 分钟（针对比你精质池值低5环或以上之法术）。</p>",
+      "prerequisites": [
+        {
+          "value": "精质编织者入门、咒诵精通"
+        }
+      ]
     },
     "Advanced Assistant": {
       "name": "进阶助手 Advanced Assistant",
@@ -1542,7 +2338,12 @@
     },
     "Veil of Darkness": {
       "name": "黑暗之纱 Veil of Darkness",
-      "description": "<p><strong>触发</strong> 你以暗影武器对一名具有昏暗视觉、黑暗视觉或高等黑暗视觉的生物大成功命中。</p><hr /><p>你于目标身上覆盖一层暗影之纱，黑暗到能干扰其视觉。你解消你的暗影武器；触发该效果之生物的暗中视物能力降低一档：高等黑暗视觉降至黑暗视觉、黑暗视觉降至昏暗视觉、昏暗视觉降至无昏暗视觉，直至你下一回合结束。</p>"
+      "description": "<p><strong>触发</strong> 你以暗影武器对一名具有昏暗视觉、黑暗视觉或高等黑暗视觉的生物大成功命中。</p><hr /><p>你于目标身上覆盖一层暗影之纱，黑暗到能干扰其视觉。你解消你的暗影武器；触发该效果之生物的暗中视物能力降低一档：高等黑暗视觉降至黑暗视觉、黑暗视觉降至昏暗视觉、昏暗视觉降至无昏暗视觉，直至你下一回合结束。</p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Magic Bell (4th-Rank Essence Spell)": {
       "name": "魔法之钟（4阶精质法术） Magic Bell (4th-Rank Essence Spell)",
@@ -1550,15 +2351,30 @@
     },
     "Cyclical Summoning": {
       "name": "循环召唤 Cyclical Summoning",
-      "description": "<p><strong>触发</strong> 你的召唤生物因被减至 0 生命值而将被放逐。</p><p><strong>需求</strong> 你能施放一道召唤法术。</p><hr /><p>你保持召唤生物之模糊形态，向其灌注更多魔法能量以继续战斗。你施放所需法术；当触发的召唤生物被放逐时，新的召唤生物出现在其所在空间。该召唤生物以此方式被召唤时不会获得任何动作，但若于后续回合维持，则照常获得动作。</p>"
+      "description": "<p><strong>触发</strong> 你的召唤生物因被减至 0 生命值而将被放逐。</p><p><strong>需求</strong> 你能施放一道召唤法术。</p><hr /><p>你保持召唤生物之模糊形态，向其灌注更多魔法能量以继续战斗。你施放所需法术；当触发的召唤生物被放逐时，新的召唤生物出现在其所在空间。该召唤生物以此方式被召唤时不会获得任何动作，但若于后续回合维持，则照常获得动作。</p>",
+      "prerequisites": [
+        {
+          "value": "层面召唤者入门"
+        }
+      ]
     },
     "Eyes of Shadow": {
       "name": "阴影之眼 Eyes of Shadow",
-      "description": "<p>你以暗影精质强化你的盟友，借其辅助他们的感知。你解消你的暗影武器，并于 30 尺内一名生物身上赐予黑暗视觉，持续 1 分钟，或直至你交互重新拔出你的暗影武器为止。该生物随后 10 分钟内对此效果免疫。</p>"
+      "description": "<p>你以暗影精质强化你的盟友，借其辅助他们的感知。你解消你的暗影武器，并于 30 尺内一名生物身上赐予黑暗视觉，持续 1 分钟，或直至你交互重新拔出你的暗影武器为止。该生物随后 10 分钟内对此效果免疫。</p>",
+      "prerequisites": [
+        {
+          "value": "暗影雕塑师入门"
+        }
+      ]
     },
     "Advanced Domain Wicketeer": {
       "name": "进阶领域秘门术师 Advanced Domain Wicketeer",
-      "description": "<p>你于知识之深度更上层楼，深入魔法的神术丝线。你于已具备初始领域法术的领域之一中获得一道进阶领域法术。</p><hr /><p><strong>特殊</strong> 你可多次选取此专长。每次须选择一道不同的进阶领域法术。</p>"
+      "description": "<p>你于知识之深度更上层楼，深入魔法的神术丝线。你于已具备初始领域法术的领域之一中获得一道进阶领域法术。</p><hr /><p><strong>特殊</strong> 你可多次选取此专长。每次须选择一道不同的进阶领域法术。</p>",
+      "prerequisites": [
+        {
+          "value": "秘门领域"
+        }
+      ]
     },
     "Wordsmith": {
       "name": "巧语者 Wordsmith",
@@ -1574,7 +2390,12 @@
     },
     "Channel Essence Leak": {
       "name": "引渡精质泄露 Channel Essence Leak",
-      "description": "<p>当你的魔法精质泄漏时，你引渡所产生的溢流，从中获取有用之优势。当你引发精质泄漏时，你自选其一：你直至你的下一回合结束前对 AC 与豁免获得 +1 状态加值；或一名受到引发泄漏的法术影响的生物直至你的下一回合结束前对 AC 与豁免承受 -1 状态减值。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.ehRD6fl2IfuURuaM]{效果：引渡精质泄露}</p>"
+      "description": "<p>当你的魔法精质泄漏时，你引渡所产生的溢流，从中获取有用之优势。当你引发精质泄漏时，你自选其一：你直至你的下一回合结束前对 AC 与豁免获得 +1 状态加值；或一名受到引发泄漏的法术影响的生物直至你的下一回合结束前对 AC 与豁免承受 -1 状态减值。</p><p>@UUID[Compendium.pf2e-team-plus-magic.misc.ehRD6fl2IfuURuaM]{效果：引渡精质泄露}</p>",
+      "prerequisites": [
+        {
+          "value": "精质编织者入门、精质重生"
+        }
+      ]
     },
     "Magic Bell (8th-Rank Essence Spell)": {
       "name": "魔法之钟（8阶精质法术） Magic Bell (8th-Rank Essence Spell)",
@@ -1582,7 +2403,12 @@
     },
     "Weave Conduit": {
       "name": "编织导管 Weave Conduit",
-      "description": "<p>当你成为你魔法要素之导管时，你便从构成你根源魔法之具体魔法要素中获得额外益处。每当你使用 @UUID[Compendium.pf2e-team-plus-magic.misc.GMpbfdVHBUaiIwSy]{精质导管} 时，依与你根源对应的两种魔法要素之一（即你终焉动作所属之魔法要素）选择一项益处。</p><p><strong>生命</strong> 你获得持续至你的下一回合结束的等同你等级的临时生命值。</p><p><strong>物质</strong> 你以最多速度一半之距离快步或行走（若你具备攀爬、游泳或飞行速度，可改为使用相应移动动作）。</p><p><strong>心智</strong> 你 @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}。</p><p><strong>精魂</strong> 你 @UUID[Compendium.pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{搜索}，并获得 30 尺范围之精魂感作为模糊感官，持续至你下一回合结束。精魂感让你能感知该范围内之生物精魂，包括活物、大多数有心智的不死生物以及灵祟。</p>"
+      "description": "<p>当你成为你魔法要素之导管时，你便从构成你根源魔法之具体魔法要素中获得额外益处。每当你使用 @UUID[Compendium.pf2e-team-plus-magic.misc.GMpbfdVHBUaiIwSy]{精质导管} 时，依与你根源对应的两种魔法要素之一（即你终焉动作所属之魔法要素）选择一项益处。</p><p><strong>生命</strong> 你获得持续至你的下一回合结束的等同你等级的临时生命值。</p><p><strong>物质</strong> 你以最多速度一半之距离快步或行走（若你具备攀爬、游泳或飞行速度，可改为使用相应移动动作）。</p><p><strong>心智</strong> 你 @UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}。</p><p><strong>精魂</strong> 你 @UUID[Compendium.pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{搜索}，并获得 30 尺范围之精魂感作为模糊感官，持续至你下一回合结束。精魂感让你能感知该范围内之生物精魂，包括活物、大多数有心智的不死生物以及灵祟。</p>",
+      "prerequisites": [
+        {
+          "value": "精质编织者入门、精质导管"
+        }
+      ]
     },
     "Omen Dragonbreath Scythe (Major)": {
       "name": "兆命龙息巨镰（上等） Omen Dragonbreath Scythe (Major)",
@@ -1635,5 +2461,15 @@
     "Shift": "变形 Shift",
     "Aspect Morpher": "层面变形者 Aspect Morpher",
     "Advanced Forbisens": "进阶魔宠范式 Advanced Forbisens"
+  },
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
   }
 }

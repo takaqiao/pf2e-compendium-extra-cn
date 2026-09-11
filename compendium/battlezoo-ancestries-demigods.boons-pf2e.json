@@ -3,11 +3,21 @@
   "entries": {
     "First Advanced Domain": {
       "name": "第一进阶领域 First Advanced Domain",
-      "description": "<p>你已深入探索第一领域，解锁了它真正的力量。你获得第一领域的进阶领域法术，你的信徒也可以选择该法术。</p>"
+      "description": "<p>你已深入探索第一领域，解锁了它真正的力量。你获得第一领域的进阶领域法术，你的信徒也可以选择该法术。</p>",
+      "prerequisites": [
+        {
+          "value": "第一领域"
+        }
+      ]
     },
     "Complete Domains": {
       "name": "完备领域 Complete Domains",
-      "description": "<p>你的常规领域已全部齐备，获得了第三和第四领域。选择第三和第四领域。你的信徒可以选择这些领域的初始领域法术，你也获得这两个领域的初始领域法术，作为神术法术。</p>"
+      "description": "<p>你的常规领域已全部齐备，获得了第三和第四领域。选择第三和第四领域。你的信徒可以选择这些领域的初始领域法术，你也获得这两个领域的初始领域法术，作为神术法术。</p>",
+      "prerequisites": [
+        {
+          "value": "第二领域"
+        }
+      ]
     },
     "Summon Herald": {
       "name": "召唤神使 Summon Herald",
@@ -19,15 +29,30 @@
     },
     "Be Not Afraid": {
       "name": "莫要畏惧 Be Not Afraid",
-      "description": "<p>你无比的勇气如同神性外衣般环绕周身。虽然可能无法看见，你和盟友却能感受到它，并受到它的保护，抵御恐惧。每当你变为@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]时，将该状态值降低1（最低为0）。在你的回合结束时，若你应将自己的惊惧状态值降低1，也会使15尺内所有惊惧盟友的该状态值降低1。</p>"
+      "description": "<p>你无比的勇气如同神性外衣般环绕周身。虽然可能无法看见，你和盟友却能感受到它，并受到它的保护，抵御恐惧。每当你变为@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]时，将该状态值降低1（最低为0）。在你的回合结束时，若你应将自己的惊惧状态值降低1，也会使15尺内所有惊惧盟友的该状态值降低1。</p>",
+      "prerequisites": [
+        {
+          "value": "勇气4"
+        }
+      ]
     },
     "Second Domain": {
       "name": "第二领域 Second Domain",
-      "description": "<p>你解锁了第二领域，为自己和信徒增添了新的选择。选择第二领域。你的信徒可以选择该领域的初始领域法术，你也获得该领域的初始领域法术，作为神术法术。</p>"
+      "description": "<p>你解锁了第二领域，为自己和信徒增添了新的选择。选择第二领域。你的信徒可以选择该领域的初始领域法术，你也获得该领域的初始领域法术，作为神术法术。</p>",
+      "prerequisites": [
+        {
+          "value": "第一领域"
+        }
+      ]
     },
     "Perfect Trickster": {
       "name": "完美诡术者 Perfect Trickster",
-      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>触发</strong> 你成功使用隐秘@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{躲藏}，对当前所有敌人（或你诡计的目标）变为@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}；或者使用隐秘@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}，对当前所有敌人（或你诡计的目标）变为@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]</p><hr /><p>让你这样高明的诡术者脱离视线，哪怕只有一瞬，也将是敌人犯下的最后一个错误。你变为@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}，持续1分钟，即使使用敌对动作也不会结束。即便@UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]或见人所未见之类的效果也无法揭露你，但生物仍可正常使用@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}动作确定你的位置。</p>"
+      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>触发</strong> 你成功使用隐秘@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{躲藏}，对当前所有敌人（或你诡计的目标）变为@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}；或者使用隐秘@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}，对当前所有敌人（或你诡计的目标）变为@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]</p><hr /><p>让你这样高明的诡术者脱离视线，哪怕只有一瞬，也将是敌人犯下的最后一个错误。你变为@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}，持续1分钟，即使使用敌对动作也不会结束。即便@UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]或见人所未见之类的效果也无法揭露你，但生物仍可正常使用@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}动作确定你的位置。</p>",
+      "prerequisites": [
+        {
+          "value": "诡计20"
+        }
+      ]
     },
     "Divine Realm": {
       "name": "神祇国度 Divine Realm",
@@ -35,7 +60,15 @@
     },
     "Complete Advanced Domains": {
       "name": "完备进阶领域 Complete Advanced Domains",
-      "description": "<p>你与所有领域融为一体，能够同时汲取它们的全部魔力。你获得其余所有领域的进阶领域法术，包括完备领域给予的第三和第四领域；若你拥有替代领域恩赐，也包括第五和第六领域。你的信徒同样可以选择所有这些进阶领域法术。</p>"
+      "description": "<p>你与所有领域融为一体，能够同时汲取它们的全部魔力。你获得其余所有领域的进阶领域法术，包括完备领域给予的第三和第四领域；若你拥有替代领域恩赐，也包括第五和第六领域。你的信徒同样可以选择所有这些进阶领域法术。</p>",
+      "prerequisites": [
+        {
+          "value": "完备领域"
+        },
+        {
+          "value": "第二进阶领域"
+        }
+      ]
     },
     "Deity's Demand": {
       "name": "神祇敕令 Deity's Demand",
@@ -43,7 +76,12 @@
     },
     "Unseen Insight": {
       "name": "洞察隐秘 Unseen Insight",
-      "description": "<p>你深谙世间运转之理，能够看见无形之物。你能看见@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}生物，如同其并未隐形，但其细节模糊，因而处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态且难以辨认。当你距物体表面不超过10尺时，也能透过物体看见潜入其中的幽灵等虚体生物，呈现为模糊轮廓。更细微的线索还使你在尝试不相信幻术的检定中获得+2状态加值。</p>"
+      "description": "<p>你深谙世间运转之理，能够看见无形之物。你能看见@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}生物，如同其并未隐形，但其细节模糊，因而处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态且难以辨认。当你距物体表面不超过10尺时，也能透过物体看见潜入其中的幽灵等虚体生物，呈现为模糊轮廓。更细微的线索还使你在尝试不相信幻术的检定中获得+2状态加值。</p>",
+      "prerequisites": [
+        {
+          "value": "睿智10"
+        }
+      ]
     },
     "Grant Miracle": {
       "name": "赐予神迹 Grant Miracle",
@@ -51,19 +89,48 @@
     },
     "Overflowing Compassion": {
       "name": "慈悲满溢 Overflowing Compassion",
-      "description": "<p>你的慈悲深厚，能为有需要的人带来额外的治疗。你获得一个与你能施放的最高法术环级相同的额外法术位，只能用于施放@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]法术（若你施放异能法术，则为@UUID[Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n]法术）。若你能施放多个魔法根源的法术，选择你拥有最高环级法术的根源；若仍有并列，由你决定慈悲满溢的额外法术位属于哪个根源。</p><hr /><p><strong>特殊</strong> 若你是不死生物，或因其他原因通过@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]法术而非治疗术恢复生命值，并且你的信仰以慈悲对待不死生物或其他具有虚能亲和的生物为核心，则可以用此法术位施放<em>伤害术</em>，但不能施放<em>治疗术</em>。</p>"
+      "description": "<p>你的慈悲深厚，能为有需要的人带来额外的治疗。你获得一个与你能施放的最高法术环级相同的额外法术位，只能用于施放@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]法术（若你施放异能法术，则为@UUID[Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n]法术）。若你能施放多个魔法根源的法术，选择你拥有最高环级法术的根源；若仍有并列，由你决定慈悲满溢的额外法术位属于哪个根源。</p><hr /><p><strong>特殊</strong> 若你是不死生物，或因其他原因通过@UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]法术而非治疗术恢复生命值，并且你的信仰以慈悲对待不死生物或其他具有虚能亲和的生物为核心，则可以用此法术位施放<em>伤害术</em>，但不能施放<em>治疗术</em>。</p>",
+      "prerequisites": [
+        {
+          "value": "能够用法术位施放神术、异能或原能法术"
+        },
+        {
+          "value": "慈悲4"
+        }
+      ]
     },
     "Second Advanced Domain": {
       "name": "第二进阶领域 Second Advanced Domain",
-      "description": "<p>你发现了第二领域的真正含义，成功获得了它最强大的法术。你获得第二领域的进阶领域法术，你的信徒也可以选择该法术。</p>"
+      "description": "<p>你发现了第二领域的真正含义，成功获得了它最强大的法术。你获得第二领域的进阶领域法术，你的信徒也可以选择该法术。</p>",
+      "prerequisites": [
+        {
+          "value": "第一进阶领域"
+        },
+        {
+          "value": "第二领域"
+        }
+      ]
     },
     "Preventative Insight": {
       "name": "防患先觉 Preventative Insight",
-      "description": "<p>你的睿智几乎从不出错，能让你察觉自己即将犯下重大失误。若你即将采取的行动属于严重错误，会在不久后导致不良结果（通常指施放@UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]法术会得到“凶兆”结果的行动），你会直觉地感到不对劲。这不会告诉你哪里不对，也不会指出复杂行动计划中的哪一部分有问题。此能力不会防范闲谈中随口提出的每个假设性错误决定——只有当你确实即将采取该行动时，才会自动收到警告。不过，你也可以专注1分钟，仔细考虑某项具体的假设行动；若其结果不佳，也会收到警告。</p>"
+      "description": "<p>你的睿智几乎从不出错，能让你察觉自己即将犯下重大失误。若你即将采取的行动属于严重错误，会在不久后导致不良结果（通常指施放@UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]法术会得到“凶兆”结果的行动），你会直觉地感到不对劲。这不会告诉你哪里不对，也不会指出复杂行动计划中的哪一部分有问题。此能力不会防范闲谈中随口提出的每个假设性错误决定——只有当你确实即将采取该行动时，才会自动收到警告。不过，你也可以专注1分钟，仔细考虑某项具体的假设行动；若其结果不佳，也会收到警告。</p>",
+      "prerequisites": [
+        {
+          "value": "睿智20"
+        }
+      ]
     },
     "Archtrickster's Guise": {
       "name": "诡术大师的伪装 Archtrickster's Guise",
-      "description": "<p>你的@UUID[Compendium.battlezoo-ancestries-demigods.boons-pf2e.Item.vnRj6IbC5AQpsrLS]{诡术者的伪装}比其他诡术者半神更加迅速有效。你可以用单动作通过诡术者的伪装@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}。此外，别人极难识破你用诡术者的伪装作出的乔装。假扮某个特定个体时，你在阻止他人识破伪装的欺骗检定中获得+2状态加值；若你并非假扮某个特定个体，此状态加值提高为+4。</p>"
+      "description": "<p>你的@UUID[Compendium.battlezoo-ancestries-demigods.boons-pf2e.Item.vnRj6IbC5AQpsrLS]{诡术者的伪装}比其他诡术者半神更加迅速有效。你可以用单动作通过诡术者的伪装@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}。此外，别人极难识破你用诡术者的伪装作出的乔装。假扮某个特定个体时，你在阻止他人识破伪装的欺骗检定中获得+2状态加值；若你并非假扮某个特定个体，此状态加值提高为+4。</p>",
+      "prerequisites": [
+        {
+          "value": "诡术者的伪装"
+        },
+        {
+          "value": "诡计6"
+        }
+      ]
     },
     "Blessing of Divinity": {
       "name": "神性祝福 Blessing of Divinity",
@@ -71,7 +138,12 @@
     },
     "Divine Sense": {
       "name": "神性感知 Divine Sense",
-      "description": "<p>你与自身神性的联系，让你能察觉由精魂本质构成的存在和现象。在探索时，即使你没有@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{搜寻}，GM也会为你暗骰检定，寻找通常需要搜寻才能发现的作祟，以及精魂和完全由精魂本质构成的存在，例如天族、魔族与观察者。如果这种精魂存在伪装成凡人或其他非精魂存在，除非此检定结果也足以识破伪装，否则神性感知不会提醒你其存在。</p>"
+      "description": "<p>你与自身神性的联系，让你能察觉由精魂本质构成的存在和现象。在探索时，即使你没有@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{搜寻}，GM也会为你暗骰检定，寻找通常需要搜寻才能发现的作祟，以及精魂和完全由精魂本质构成的存在，例如天族、魔族与观察者。如果这种精魂存在伪装成凡人或其他非精魂存在，除非此检定结果也足以识破伪装，否则神性感知不会提醒你其存在。</p>",
+      "prerequisites": [
+        {
+          "value": "睿智4"
+        }
+      ]
     },
     "Inklings of Divinity": {
       "name": "神性初显 Inklings of Divinity",
@@ -79,7 +151,15 @@
     },
     "Virtue's Virtuoso": {
       "name": "美德大师 Virtue's Virtuoso",
-      "description": "<p>你精湛的技艺传播着有关你美德的故事，而美德又为你的神性之火添柴，反过来提升你的技艺。这确实是个良性循环。选择一项至少达到8点的美德。将该美德的一项关联技能的熟练等级从专家提升至大师，另一项关联技能从受训提升至专家。你获得一个与你所选技能之一相关的技能专长；你必须满足其所有先决条件。</p><hr /><p><strong>特殊</strong> 若你的美德足够高，你最多可以获得五次美德大师恩赐。每次都必须选择不同的美德。</p>"
+      "description": "<p>你精湛的技艺传播着有关你美德的故事，而美德又为你的神性之火添柴，反过来提升你的技艺。这确实是个良性循环。选择一项至少达到8点的美德。将该美德的一项关联技能的熟练等级从专家提升至大师，另一项关联技能从受训提升至专家。你获得一个与你所选技能之一相关的技能专长；你必须满足其所有先决条件。</p><hr /><p><strong>特殊</strong> 若你的美德足够高，你最多可以获得五次美德大师恩赐。每次都必须选择不同的美德。</p>",
+      "prerequisites": [
+        {
+          "value": "至少一项美德达到8点"
+        },
+        {
+          "value": "该美德对应的一项技能受训，另一项技能的熟练度为专家"
+        }
+      ]
     },
     "Reverent Spell": {
       "name": "虔信法术 Reverent Spell",
@@ -91,7 +171,15 @@
     },
     "Master Demigod Spellcasting": {
       "name": "大师半神施法 Master Demigod Spellcasting",
-      "description": "<p>你学会了如何赐予格外强大的法术。你的半神施法获得@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.DOc3Pf8wmVxanTIv#master-spellcasting-feat]{大师施法增益}。</p>"
+      "description": "<p>你学会了如何赐予格外强大的法术。你的半神施法获得@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.DOc3Pf8wmVxanTIv#master-spellcasting-feat]{大师施法增益}。</p>",
+      "prerequisites": [
+        {
+          "value": "专家半神施法"
+        },
+        {
+          "value": "宗教或一项对应于你至少达到18点的美德的技能，其熟练度为传奇"
+        }
+      ]
     },
     "Rebuke Anathema": {
       "name": "斥责渎行 Rebuke Anathema",
@@ -99,7 +187,12 @@
     },
     "Recall the Slain": {
       "name": "唤回亡者 Recall the Slain",
-      "description": "<p>你的慈悲足以跨越生死界限，令刚刚死去的人重生。你可以每日一次将@UUID[Compendium.pf2e.spells-srd.Item.HpIJTVqgXorH9X0L]作为神术天生法术施放，但无法通过@UUID[Compendium.battlezoo-ancestries-demigods.features-pf2e.Item.HRebw56mBghaeDji]{回应祈祷}将其赐予信徒；这股力量太过强大，你必须亲自施放。</p>"
+      "description": "<p>你的慈悲足以跨越生死界限，令刚刚死去的人重生。你可以每日一次将@UUID[Compendium.pf2e.spells-srd.Item.HpIJTVqgXorH9X0L]作为神术天生法术施放，但无法通过@UUID[Compendium.battlezoo-ancestries-demigods.features-pf2e.Item.HRebw56mBghaeDji]{回应祈祷}将其赐予信徒；这股力量太过强大，你必须亲自施放。</p>",
+      "prerequisites": [
+        {
+          "value": "慈悲20"
+        }
+      ]
     },
     "Deific Spells": {
       "name": "神授法术 Deific Spells",
@@ -107,19 +200,39 @@
     },
     "Alternate Domains": {
       "name": "替代领域 Alternate Domains",
-      "description": "<p>并非所有神祇都拥有四个以上的领域，拥有如此多领域的半神更是少之又少。但某些神祇拥有替代领域，其特定教派的信徒可以选择它们，替换部分常规领域。你解锁了第五和第六领域，也就是你的替代领域。选择这些领域时，可以考虑自身宗教中次要或有争议的一面；它们未必对每位信徒都重要，却可能在特定教派中显现。选择第五和第六领域。若信徒所崇拜的信仰侧面与这些领域相符，便可选择其中一个或两个领域的初始领域法术，以替代你的常规领域；你也获得这两个领域的初始领域法术，作为神术法术。</p>"
+      "description": "<p>并非所有神祇都拥有四个以上的领域，拥有如此多领域的半神更是少之又少。但某些神祇拥有替代领域，其特定教派的信徒可以选择它们，替换部分常规领域。你解锁了第五和第六领域，也就是你的替代领域。选择这些领域时，可以考虑自身宗教中次要或有争议的一面；它们未必对每位信徒都重要，却可能在特定教派中显现。选择第五和第六领域。若信徒所崇拜的信仰侧面与这些领域相符，便可选择其中一个或两个领域的初始领域法术，以替代你的常规领域；你也获得这两个领域的初始领域法术，作为神术法术。</p>",
+      "prerequisites": [
+        {
+          "value": "完备领域"
+        }
+      ]
     },
     "Expert Demigod Spellcasting": {
       "name": "专家半神施法 Expert Demigod Spellcasting",
-      "description": "<p>你学会了如何引导和赐予更高深的神术法术。你的半神施法获得@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.DOc3Pf8wmVxanTIv#expert-spellcasting-feat]{专家施法增益}。</p>"
+      "description": "<p>你学会了如何引导和赐予更高深的神术法术。你的半神施法获得@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.DOc3Pf8wmVxanTIv#expert-spellcasting-feat]{专家施法增益}。</p>",
+      "prerequisites": [
+        {
+          "value": "宗教或一项对应于你至少达到12点的美德的技能，其熟练度为大师"
+        }
+      ]
     },
     "Divinity's Edge": {
       "name": "神性锋芒 Divinity's Edge",
-      "description": "<p>你将神性集中于攻击之中，发动蕴含精魂力量的强力一击。用你的偏好武器进行一次打击。计算多次攻击减值时，这视为两次攻击。若此打击命中，额外造成1d8精魂伤害。若你至少为10级，此伤害提高至2d8；若至少为18级，则提高至3d8。若你受祝为圣洁而目标受祝为邪秽，或反过来，则将精魂伤害的d8提升为d12。</p>"
+      "description": "<p>你将神性集中于攻击之中，发动蕴含精魂力量的强力一击。用你的偏好武器进行一次打击。计算多次攻击减值时，这视为两次攻击。若此打击命中，额外造成1d8精魂伤害。若你至少为10级，此伤害提高至2d8；若至少为18级，则提高至3d8。若你受祝为圣洁而目标受祝为邪秽，或反过来，则将精魂伤害的d8提升为d12。</p>",
+      "prerequisites": [
+        {
+          "value": "勇气8"
+        }
+      ]
     },
     "Imagine a New Day": {
       "name": "构想新一天 Imagine a New Day",
-      "description": "<p>每天都有不同的挑战，而你丰富的想象力足以让自己每日变化，以应对这些挑战。每天在日常准备期间，你可以选择一个符合先决条件的1级或2级职业专长，获得该专长，直到下次日常准备。若该专长的使用频率低于每日一次，你必须连续选择该专长达到其使用间隔所对应的天数，才能使用它（例如，若专长每周可用一次，你必须连续选择七次后才能使用）。</p>"
+      "description": "<p>每天都有不同的挑战，而你丰富的想象力足以让自己每日变化，以应对这些挑战。每天在日常准备期间，你可以选择一个符合先决条件的1级或2级职业专长，获得该专长，直到下次日常准备。若该专长的使用频率低于每日一次，你必须连续选择该专长达到其使用间隔所对应的天数，才能使用它（例如，若专长每周可用一次，你必须连续选择七次后才能使用）。</p>",
+      "prerequisites": [
+        {
+          "value": "创新6"
+        }
+      ]
     },
     "First Domain": {
       "name": "第一领域 First Domain",
@@ -127,7 +240,12 @@
     },
     "Limited Omniscience": {
       "name": "有限全知 Limited Omniscience",
-      "description": "<p>凭借神祇般的全知，你几乎对所有事物都略知一二，而且通常知道自己何时出错。你永久处于@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}状态，并可用额外动作@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}。此外，你的回忆知识检定不再是暗骰。</p>"
+      "description": "<p>凭借神祇般的全知，你几乎对所有事物都略知一二，而且通常知道自己何时出错。你永久处于@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}状态，并可用额外动作@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}。此外，你的回忆知识检定不再是暗骰。</p>",
+      "prerequisites": [
+        {
+          "value": "创新20"
+        }
+      ]
     },
     "Basic Demigod Spellcasting": {
       "name": "基础半神施法 Basic Demigod Spellcasting",
@@ -135,23 +253,48 @@
     },
     "Quick Benediction": {
       "name": "迅捷祝祷 Quick Benediction",
-      "description": "<p>回应信徒的祈祷已成为你的本能，几乎不会让你分心。在你的每个回合开始时，你获得一个额外反应，只能用于@UUID[Compendium.battlezoo-ancestries-demigods.features-pf2e.Item.HRebw56mBghaeDji]{回应祈祷}。</p>"
+      "description": "<p>回应信徒的祈祷已成为你的本能，几乎不会让你分心。在你的每个回合开始时，你获得一个额外反应，只能用于@UUID[Compendium.battlezoo-ancestries-demigods.features-pf2e.Item.HRebw56mBghaeDji]{回应祈祷}。</p>",
+      "prerequisites": [
+        {
+          "value": "基础半神施法"
+        }
+      ]
     },
     "Trickster's Guile": {
       "name": "诡术者的狡计 Trickster's Guile",
-      "description": "<p><strong>触发</strong> 你的回合结束</p><p><strong>需求</strong> 你当前正受到心灵效果影响</p><hr /><p>企图与你讨价还价或控制你的人很快就会明白，诡术者自有狡猾的计策，能逃脱最严密的措辞或心灵命令。直到你的下个回合结束，你忽略一个心灵效果。对于同一个效果，你只能用诡术者的狡计压制一次。你不能用诡术者的狡计压制自己主动选择接受的效果。</p><hr /><p><strong>特殊</strong> 即使该心灵效果使你无法使用反应（例如@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]状态），或控制你以特定方式使用反应，你的神性仍让你能够使用诡术者的狡计。</p>"
+      "description": "<p><strong>触发</strong> 你的回合结束</p><p><strong>需求</strong> 你当前正受到心灵效果影响</p><hr /><p>企图与你讨价还价或控制你的人很快就会明白，诡术者自有狡猾的计策，能逃脱最严密的措辞或心灵命令。直到你的下个回合结束，你忽略一个心灵效果。对于同一个效果，你只能用诡术者的狡计压制一次。你不能用诡术者的狡计压制自己主动选择接受的效果。</p><hr /><p><strong>特殊</strong> 即使该心灵效果使你无法使用反应（例如@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]状态），或控制你以特定方式使用反应，你的神性仍让你能够使用诡术者的狡计。</p>",
+      "prerequisites": [
+        {
+          "value": "诡计16"
+        }
+      ]
     },
     "Divine Foresight": {
       "name": "神性预警 Divine Foresight",
-      "description": "<p>你深厚的智慧和洞察力让你能够预见危险。每天在日常准备期间，选择自己或一名盟友。每天所选生物首次掷先攻，或抵御敌对生物或其他危险时，你自动对其施放神术天生法术@UUID[Compendium.pf2e.spells-srd.Item.qsNeG9KZpODSACMq]，无需花费任何动作。这个<em>预警术</em>瞬间生效，为目标的先攻骰提供环境加值；或者，若你有可用的反应，你可以花费反应，使用<em>预警术</em>的预警反应来对抗该敌对生物或其他危险。</p>"
+      "description": "<p>你深厚的智慧和洞察力让你能够预见危险。每天在日常准备期间，选择自己或一名盟友。每天所选生物首次掷先攻，或抵御敌对生物或其他危险时，你自动对其施放神术天生法术@UUID[Compendium.pf2e.spells-srd.Item.qsNeG9KZpODSACMq]，无需花费任何动作。这个<em>预警术</em>瞬间生效，为目标的先攻骰提供环境加值；或者，若你有可用的反应，你可以花费反应，使用<em>预警术</em>的预警反应来对抗该敌对生物或其他危险。</p>",
+      "prerequisites": [
+        {
+          "value": "睿智18"
+        }
+      ]
     },
     "Trickster's Guise": {
       "name": "诡术者的伪装 Trickster's Guise",
-      "description": "<p>对于诡术之神来说，乔装变化以迷惑、欺骗他人是最基本的本领之一，而你绝不会让人失望。你无需易容工具便能@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}。若你是小型或中型类人生物，可以用诡术者的伪装在1分钟内假扮成任意其他小型或中型类人生物。若你不是类人生物，可以在1分钟内假扮成大致类别和体形与你相近的生物；若你是微型或体型大于中型，则只能在1分钟内假扮成与你体型完全相同的生物。以这种方式使用诡术者的伪装时，你的乔装动作获得神术特征。你可以用单动作恢复本来形态。</p><p>使用诡术者的伪装变为允许的形态时（对于多数半神而言，通常是小型或中型类人生物），你不会因尝试伪装成不同族裔、年龄等而承受环境减值。若你是小型或中型，且伪装需要在两种体型之间变化，你的体型会暂时变为相应体型。不过，由于小型和中型之间的规则差异不多，通常不会有什么影响。你的变形只会帮助你伪装身体；若你没有适合新形态的衣物，或至少换一身衣服，衣着可能会暴露你。</p><hr /><p><strong>特殊</strong> 若你拥有@UUID[Compendium.pf2e.feats-srd.Item.e4KB4pSkx2lDBNw3]{迅速易容}技能专长，可以用2个完整轮次（约12秒）而非1分钟使用诡术者的伪装；若你的欺骗同时达到大师，则可以用单动作使用它。</p>"
+      "description": "<p>对于诡术之神来说，乔装变化以迷惑、欺骗他人是最基本的本领之一，而你绝不会让人失望。你无需易容工具便能@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}。若你是小型或中型类人生物，可以用诡术者的伪装在1分钟内假扮成任意其他小型或中型类人生物。若你不是类人生物，可以在1分钟内假扮成大致类别和体形与你相近的生物；若你是微型或体型大于中型，则只能在1分钟内假扮成与你体型完全相同的生物。以这种方式使用诡术者的伪装时，你的乔装动作获得神术特征。你可以用单动作恢复本来形态。</p><p>使用诡术者的伪装变为允许的形态时（对于多数半神而言，通常是小型或中型类人生物），你不会因尝试伪装成不同族裔、年龄等而承受环境减值。若你是小型或中型，且伪装需要在两种体型之间变化，你的体型会暂时变为相应体型。不过，由于小型和中型之间的规则差异不多，通常不会有什么影响。你的变形只会帮助你伪装身体；若你没有适合新形态的衣物，或至少换一身衣服，衣着可能会暴露你。</p><hr /><p><strong>特殊</strong> 若你拥有@UUID[Compendium.pf2e.feats-srd.Item.e4KB4pSkx2lDBNw3]{迅速易容}技能专长，可以用2个完整轮次（约12秒）而非1分钟使用诡术者的伪装；若你的欺骗同时达到大师，则可以用单动作使用它。</p>",
+      "prerequisites": [
+        {
+          "value": "诡计2"
+        }
+      ]
     },
     "I Am Invincible!": {
       "name": "我不可战胜！ I Am Invincible!",
-      "description": "<p><strong>频率</strong> 每日一次</p><p><strong>触发</strong> 你将受到一个并非源自其他神祇或神器的敌对效果影响。</p><hr /><p>你是一位半神，强大而勇敢，已逼近真正的神性。那么，区区凡人伤不了你，又有什么奇怪的呢？你暂时免疫触发此反应的效果，持续1轮；这会使你在1轮内完全不受该效果影响，但不会保护其他任何人。</p>"
+      "description": "<p><strong>频率</strong> 每日一次</p><p><strong>触发</strong> 你将受到一个并非源自其他神祇或神器的敌对效果影响。</p><hr /><p>你是一位半神，强大而勇敢，已逼近真正的神性。那么，区区凡人伤不了你，又有什么奇怪的呢？你暂时免疫触发此反应的效果，持续1轮；这会使你在1轮内完全不受该效果影响，但不会保护其他任何人。</p>",
+      "prerequisites": [
+        {
+          "value": "勇气20"
+        }
+      ]
     }
   },
   "folders": {
@@ -165,5 +308,15 @@
     "16th Level": "16级 16th Level",
     "20th Level": "20级 20th Level",
     "4th Level": "4级 4th Level"
+  },
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
   }
 }

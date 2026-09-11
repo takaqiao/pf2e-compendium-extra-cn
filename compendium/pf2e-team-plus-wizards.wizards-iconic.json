@@ -27,7 +27,12 @@
         },
         "Flick and Point": {
           "name": "弹指指敌 Flick and Point",
-          "description": "<p><strong>触发</strong> 你掷先攻。</p><hr /><p>你已学会执行有助于命中法术攻击掷骰的战术。你立即交互以拔出你的自制魔杖，并可在上一轮未进行成功法术攻击掷骰情况下使用「决斗魔杖」，但你须以先攻顺序中后于你的生物为目标，方能获得对法术攻击掷骰的状态加值。</p>"
+          "description": "<p><strong>触发</strong> 你掷先攻。</p><hr /><p>你已学会执行有助于命中法术攻击掷骰的战术。你立即交互以拔出你的自制魔杖，并可在上一轮未进行成功法术攻击掷骰情况下使用「决斗魔杖」，但你须以先攻顺序中后于你的生物为目标，方能获得对法术攻击掷骰的状态加值。</p>",
+          "prerequisites": [
+            {
+              "value": "魔杖娴熟论题"
+            }
+          ]
         },
         "Command": {
           "name": "命令术 Command",
@@ -73,7 +78,12 @@
         },
         "Magical Shorthand": {
           "name": "魔法熟稔 Magical Shorthand",
-          "description": "<p>你学习法术时得心应手。当你学习法术成功时，无论法术环级为何，均只花费10分钟时间。若你在检定中成功，改为获得大成功。若检定失败，可以在一周后或提升一级后再次尝试，以先发生的情况为准。</p>\n<p>你可以用休整期学习并抄录新法术。规则如同你使用该根源对应的技能@UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{赚取收入}，但你不会获得金钱，改为选择一个能够学习的法术，在学习费用上获得折扣，如果你赚取的收入等于或超过学习费用，则可以免费学习。</p>"
+          "description": "<p>你学习法术时得心应手。当你学习法术成功时，无论法术环级为何，均只花费10分钟时间。若你在检定中成功，改为获得大成功。若检定失败，可以在一周后或提升一级后再次尝试，以先发生的情况为准。</p>\n<p>你可以用休整期学习并抄录新法术。规则如同你使用该根源对应的技能@UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{赚取收入}，但你不会获得金钱，改为选择一个能够学习的法术，在学习费用上获得折扣，如果你赚取的收入等于或超过学习费用，则可以免费学习。</p>",
+          "prerequisites": [
+            {
+              "value": "奥法、自然、神秘或宗教熟练度为专家"
+            }
+          ]
         },
         "Soap": {
           "name": "肥皂 Soap",
@@ -187,7 +197,12 @@
         },
         "Subtle Theft": {
           "name": "妙手空空 Subtle Theft",
-          "description": "<p>当你成功@UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{盗窃}某件物品时，旁观者（除了你盗窃对象以外的其它生物）在侦测你的偷窃行为的察觉DC上受到-2环境减值。此外，如果你先用欺骗技能@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}，然后执行一次@UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]或盗窃动作，你的@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]状态不会因此而终止。</p>"
+          "description": "<p>当你成功@UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{盗窃}某件物品时，旁观者（除了你盗窃对象以外的其它生物）在侦测你的偷窃行为的察觉DC上受到-2环境减值。此外，如果你先用欺骗技能@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}，然后执行一次@UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]或盗窃动作，你的@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]状态不会因此而终止。</p>",
+          "prerequisites": [
+            {
+              "value": "贼活熟练度为受训"
+            }
+          ]
         },
         "Spellbook": {
           "name": "法术书 Spellbook",
@@ -281,7 +296,12 @@
         },
         "Group Impression": {
           "name": "集体印象 Group Impression",
-          "description": "<p>在@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}时，你可以将交涉检定结果与跟你交流的至多10个目标的意志DC相比较，且无需承受减值。若你在交涉技能上的熟练度达到专家，目标数量提高到20个；若达到大师，提高到50个；若达到传奇，提高到100个。</p>"
+          "description": "<p>在@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}时，你可以将交涉检定结果与跟你交流的至多10个目标的意志DC相比较，且无需承受减值。若你在交涉技能上的熟练度达到专家，目标数量提高到20个；若达到大师，提高到50个；若达到传奇，提高到100个。</p>",
+          "prerequisites": [
+            {
+              "value": "交涉熟练度为受训"
+            }
+          ]
         },
         "Sarenrae": {
           "name": "塞恩蕾 Sarenrae",
@@ -518,7 +538,12 @@
         },
         "Group Impression": {
           "name": "集体印象 Group Impression",
-          "description": "<p>在@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}时，你可以将交涉检定结果与跟你交流的至多10个目标的意志DC相比较，且无需承受减值。若你在交涉技能上的熟练度达到专家，目标数量提高到20个；若达到大师，提高到50个；若达到传奇，提高到100个。</p>"
+          "description": "<p>在@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}时，你可以将交涉检定结果与跟你交流的至多10个目标的意志DC相比较，且无需承受减值。若你在交涉技能上的熟练度达到专家，目标数量提高到20个；若达到大师，提高到50个；若达到传奇，提高到100个。</p>",
+          "prerequisites": [
+            {
+              "value": "交涉熟练度为受训"
+            }
+          ]
         },
         "Sarenrae": {
           "name": "塞恩蕾 Sarenrae",
@@ -536,6 +561,22 @@
     "prototypeToken": "prototypeToken.name",
     "tokenName": "prototypeToken.name",
     "biographyAppearance": "system.details.biography.appearance",
-    "biographyBackstory": "system.details.biography.backstory"
+    "biographyBackstory": "system.details.biography.backstory",
+    "items": {
+      "path": "items",
+      "converter": "document",
+      "documentType": "Item",
+      "cardinality": "many",
+      "mapping": {
+        "prerequisites": {
+          "path": "system.prerequisites.value",
+          "converter": "structured",
+          "cardinality": "many",
+          "mapping": {
+            "value": "value"
+          }
+        }
+      }
+    }
   }
 }

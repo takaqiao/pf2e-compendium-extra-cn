@@ -3,95 +3,264 @@
   "entries": {
     "Fey Skin": {
       "name": "精类肌肤 Fey Skin",
-      "description": "<p>通过永恒之光仪式，你恢复了更多精类新陈代谢的力量，以对寒铁的弱点换取更强的韧性。你的最大生命值增加等于自身等级的数值。如果休息10分钟，你的魔法会维持并恢复你的身体，使你恢复@Damage[@actor.level[healing]]{等于自身等级的生命值}；这可与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}恢复的生命值累加。不过，你获得寒铁弱点5。</p>"
+      "description": "<p>通过永恒之光仪式，你恢复了更多精类新陈代谢的力量，以对寒铁的弱点换取更强的韧性。你的最大生命值增加等于自身等级的数值。如果休息10分钟，你的魔法会维持并恢复你的身体，使你恢复@Damage[@actor.level[healing]]{等于自身等级的生命值}；这可与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}恢复的生命值累加。不过，你获得寒铁弱点5。</p>",
+      "prerequisites": [
+        {
+          "value": "天角龙、魅惑龙、王庭龙、恶作剧龙或皮克精龙传承"
+        }
+      ]
     },
     "Euphoric Breath": {
       "name": "欢愉吐息 Euphoric Breath",
-      "description": "<p>你可以改变喷吐武器中的毒质，使其引发欢愉，而非造成毒素伤害。每小时一次，当你使用龙息时，可以将其效果从造成毒素伤害改为要求目标进行@Check[fortitude|against:class|traits:emotion,mental,primal,poison ]豁免，对抗你的职业DC，产生下列效果。这个版本的龙息具有情绪、心灵、原能和毒素特征。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续1轮。</p><p><strong>失败</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}且@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，持续1轮</p><p><strong>大失败</strong> 该生物呆滞2且缓慢1，持续3轮。</p>"
+      "description": "<p>你可以改变喷吐武器中的毒质，使其引发欢愉，而非造成毒素伤害。每小时一次，当你使用龙息时，可以将其效果从造成毒素伤害改为要求目标进行@Check[fortitude|against:class|traits:emotion,mental,primal,poison ]豁免，对抗你的职业DC，产生下列效果。这个版本的龙息具有情绪、心灵、原能和毒素特征。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续1轮。</p><p><strong>失败</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}且@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，持续1轮</p><p><strong>大失败</strong> 该生物呆滞2且缓慢1，持续3轮。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "龙息"
+        },
+        {
+          "value": "皮克精龙传承"
+        }
+      ]
     },
     "Rebuff Advance": {
       "name": "拒绝靠近 Rebuff Advance",
-      "description": "<p><strong>触发</strong> 30尺内的一个生物将要向你靠近。</p><hr /><p>你昂起吻部望向天空，对靠近的生物不屑一顾，完全无视它。触发生物必须进行一次@Check[will|against:class]豁免，对抗你的职业DC。失败时，它因你的拒绝而悲痛不已，移动被打断，随后暂时免疫1分钟。</p>"
+      "description": "<p><strong>触发</strong> 30尺内的一个生物将要向你靠近。</p><hr /><p>你昂起吻部望向天空，对靠近的生物不屑一顾，完全无视它。触发生物必须进行一次@Check[will|against:class]豁免，对抗你的职业DC。失败时，它因你的拒绝而悲痛不已，移动被打断，随后暂时免疫1分钟。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "魅惑龙传承"
+        }
+      ]
     },
     "Alluring Presence": {
       "name": "魅惑风姿 Alluring Presence",
-      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你可以唤起内在之美，将其化为魅惑灵光。你获得一道环绕自身、范围为@Template[type:emanation|distance:20]的魅惑风姿灵光，持续1分钟。在灵光内开始回合的敌人必须进行一次@Check[type:will|against:class-spell]豁免，对抗你的职业DC和法术DC中较高者，结果如下。随后，它们暂时免疫1分钟。因魅惑风姿而@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}的生物，不会因针对自身或盟友的敌对行动失去迷魂状态。</p><hr /><p><strong>大成功</strong> 该生物不受风姿影响。</p><p><strong>成功</strong> 该生物对你迷魂1轮。</p><p><strong>失败</strong> 该生物对你迷魂3轮。</p><p><strong>大失败</strong> 该生物对你迷魂1分钟，并且在当前回合（刚开始的这个回合）必须将每个动作都用于尽快靠近你，同时避开明显危险。如果它移动到与你相邻的位置，或本来就与你相邻，则停留原地，该回合剩余的动作均不做任何事。</p>"
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你可以唤起内在之美，将其化为魅惑灵光。你获得一道环绕自身、范围为@Template[type:emanation|distance:20]的魅惑风姿灵光，持续1分钟。在灵光内开始回合的敌人必须进行一次@Check[type:will|against:class-spell]豁免，对抗你的职业DC和法术DC中较高者，结果如下。随后，它们暂时免疫1分钟。因魅惑风姿而@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}的生物，不会因针对自身或盟友的敌对行动失去迷魂状态。</p><hr /><p><strong>大成功</strong> 该生物不受风姿影响。</p><p><strong>成功</strong> 该生物对你迷魂1轮。</p><p><strong>失败</strong> 该生物对你迷魂3轮。</p><p><strong>大失败</strong> 该生物对你迷魂1分钟，并且在当前回合（刚开始的这个回合）必须将每个动作都用于尽快靠近你，同时避开明显危险。如果它移动到与你相邻的位置，或本来就与你相邻，则停留原地，该回合剩余的动作均不做任何事。</p>",
+      "prerequisites": [
+        {
+          "value": "魅惑龙传承"
+        }
+      ]
     },
     "Leverage Narrative": {
       "name": "借势叙事 Leverage Narrative",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p><p><strong>条件</strong> 你已@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.feats.Item.aa4Co1kDam2Tag99]{编织叙事}，且叙事当前仍在生效</p><hr /><p>你准备击倒一个直接违背当前叙事的生物。如果你的下一个动作需要对直接阻挠你实现编织叙事所宣告目标的生物进行攻击检定，则该攻击检定掷两次，取最高结果。如果该攻击检定掷出大失败，则改为失败。</p>"
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><p><strong>条件</strong> 你已@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.feats.Item.aa4Co1kDam2Tag99]{编织叙事}，且叙事当前仍在生效</p><hr /><p>你准备击倒一个直接违背当前叙事的生物。如果你的下一个动作需要对直接阻挠你实现编织叙事所宣告目标的生物进行攻击检定，则该攻击检定掷两次，取最高结果。如果该攻击检定掷出大失败，则改为失败。</p>",
+      "prerequisites": [
+        {
+          "value": "编织叙事"
+        }
+      ]
     },
     "Weave Narrative": {
       "name": "编织叙事 Weave Narrative",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你以夸张的姿态宣告自己打算实现的目标，将它编入故事，借助自身叙事为自己谋利。你必须直接向阻挠者当面宣告目标；例如，如果目标涉及战斗，就必须向对手清楚说明。在1分钟内，对直接阻挠你实现所宣告目标的生物进行攻击检定时，你获得+1状态加值；进行能够直接帮助你实现所宣告目标的技能检定时，你获得+1状态加值。</p><p>在持续时间内，如果达成目标，你会涌起一阵自命不凡的狂喜，自动获得等于自身等级的临时生命值。这些临时生命值持续1分钟。</p><p>@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.6uJ3zAFA4Lpp5Jv0]{效果：编织叙事（临时生命值）}</p><p>持续时间结束时，如果尚未达成目标，你会因失望和恐惧而陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}及@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}，持续1分钟。在此期间，你无法将惊惧状态值降至1以下。</p>"
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你以夸张的姿态宣告自己打算实现的目标，将它编入故事，借助自身叙事为自己谋利。你必须直接向阻挠者当面宣告目标；例如，如果目标涉及战斗，就必须向对手清楚说明。在1分钟内，对直接阻挠你实现所宣告目标的生物进行攻击检定时，你获得+1状态加值；进行能够直接帮助你实现所宣告目标的技能检定时，你获得+1状态加值。</p><p>在持续时间内，如果达成目标，你会涌起一阵自命不凡的狂喜，自动获得等于自身等级的临时生命值。这些临时生命值持续1分钟。</p><p>@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.6uJ3zAFA4Lpp5Jv0]{效果：编织叙事（临时生命值）}</p><p>持续时间结束时，如果尚未达成目标，你会因失望和恐惧而陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}及@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}，持续1分钟。在此期间，你无法将惊惧状态值降至1以下。</p>",
+      "prerequisites": [
+        {
+          "value": "王庭龙传承"
+        }
+      ]
     },
     "Fated Counterstrike": {
       "name": "命定反击 Fated Counterstrike",
-      "description": "<p><strong>触发</strong> 你触及范围内的一个生物对你进行攻击检定且大失败。</p><hr /><p>凭借你的知识以及攻击者的叙事，你抓住早已预见的破绽，向触发生物发起迅速果决的报复攻击。对触发生物进行一次近战打击。</p>"
+      "description": "<p><strong>触发</strong> 你触及范围内的一个生物对你进行攻击检定且大失败。</p><hr /><p>凭借你的知识以及攻击者的叙事，你抓住早已预见的破绽，向触发生物发起迅速果决的报复攻击。对触发生物进行一次近战打击。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "王庭龙传承"
+        }
+      ]
     },
     "Targeted Purification": {
       "name": "定向净化 Targeted Purification",
-      "description": "<p><strong>触发</strong> 你净化灵光内的一个生物对抗恐惧效果、毒素效果、毒药或疾病时，豁免检定失败。</p><hr /><p>你将净化魔法集中于触发生物，增强它抵御侵蚀的能力。触发生物重掷失败的豁免检定。如果第二次豁免掷出大失败，则改为失败。然后，触发生物对定向净化暂时免疫1分钟。</p>"
+      "description": "<p><strong>触发</strong> 你净化灵光内的一个生物对抗恐惧效果、毒素效果、毒药或疾病时，豁免检定失败。</p><hr /><p>你将净化魔法集中于触发生物，增强它抵御侵蚀的能力。触发生物重掷失败的豁免检定。如果第二次豁免掷出大失败，则改为失败。然后，触发生物对定向净化暂时免疫1分钟。</p>",
+      "prerequisites": [
+        {
+          "value": "龙法师奉献"
+        },
+        {
+          "value": "净化灵光"
+        },
+        {
+          "value": "天角龙传承"
+        }
+      ]
     },
     "Purifying Aura": {
       "name": "净化灵光 Purifying Aura",
-      "description": "<p>你以净化灵光环绕自身，净化身体、抚慰心灵。你和位于你15尺内、且处于角的光照中的盟友，对抗恐惧和毒素效果的豁免获得+1状态加值。你可以用一个具有专注特征的单动作开启或关闭这道灵光。</p>"
+      "description": "<p>你以净化灵光环绕自身，净化身体、抚慰心灵。你和位于你15尺内、且处于角的光照中的盟友，对抗恐惧和毒素效果的豁免获得+1状态加值。你可以用一个具有专注特征的单动作开启或关闭这道灵光。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "天角龙传承"
+        }
+      ]
     },
     "Slumbering Dust": {
       "name": "安眠尘 Slumbering Dust",
-      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你振动双翼，在@Template[type:line|distance:30]内洒下皮克精尘。如果你拥有飞行速度，可以改为飞行，将皮克精尘洒向下方的空间。无论哪种方式，区域内的生物都会变得异常困倦。每个生物都必须进行一次@Check[type:will|against:class-spell]豁免，对抗你的职业DC和法术DC中较高者。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，持续1轮。</p><p><strong>失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}和@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}状态。在1轮内，它无法尝试察觉检定来醒来。如果1分钟后仍然失去意识，则自动醒来。它还会缓慢1，持续1轮（由于同时处于睡眠中，这通常没有影响）。</p><p><strong>大失败</strong> 该生物倒地并失去意识，在1分钟内无法尝试察觉检定来醒来。如果1小时后仍然失去意识，则自动醒来。它还会缓慢1，持续1分钟。</p>"
+      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你振动双翼，在@Template[type:line|distance:30]内洒下皮克精尘。如果你拥有飞行速度，可以改为飞行，将皮克精尘洒向下方的空间。无论哪种方式，区域内的生物都会变得异常困倦。每个生物都必须进行一次@Check[type:will|against:class-spell]豁免，对抗你的职业DC和法术DC中较高者。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，持续1轮。</p><p><strong>失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}和@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}状态。在1轮内，它无法尝试察觉检定来醒来。如果1分钟后仍然失去意识，则自动醒来。它还会缓慢1，持续1轮（由于同时处于睡眠中，这通常没有影响）。</p><p><strong>大失败</strong> 该生物倒地并失去意识，在1分钟内无法尝试察觉检定来醒来。如果1小时后仍然失去意识，则自动醒来。它还会缓慢1，持续1分钟。</p>",
+      "prerequisites": [
+        {
+          "value": "皮克精龙传承"
+        }
+      ]
     },
     "Clinging Dust": {
       "name": "黏附尘 Clinging Dust",
-      "description": "<p>你振动双翼，在@Template[type:emanation|distance:15]内扬起皮克精尘。区域内的生物被黏稠闪亮的皮克精尘勾勒出轮廓。每个生物都必须进行一次@Check[type:reflex|against:class-spell]豁免，对抗你的职业DC和法术DC中较高者。如果生物的隐形被皮克精尘消除，那么在持续时间内，它会变为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}而非@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}。这既适用于原本已经隐形的生物，也适用于消除隐形的效果结束前，该生物新获得的隐形效果。</p><hr /><p><strong>大成功</strong> 目标不受影响。</p><p><strong>成功</strong> 目标的隐形被消除，陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，所有隐秘检定受到–4环境减值。这些效果持续2轮。生物可以总共花费两个交互动作擦去眼中的粉尘，提前结束目眩；但除非能够彻底清洗身体，否则其他效果仍会持续至时限结束。@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.ZCI5yPfD68x8xG6z]{效果：黏附尘（成功）}</p><p><strong>失败</strong> 如同成功，但持续时间为1分钟。@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.0Ip12EpPTXczccBW]{效果：黏附尘（失败）}</p><p><strong>大失败</strong> 如同成功，但持续时间为10分钟。@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.ctIXOcMqRkRZEJSF]{效果：黏附尘（大失败）}</p>"
+      "description": "<p>你振动双翼，在@Template[type:emanation|distance:15]内扬起皮克精尘。区域内的生物被黏稠闪亮的皮克精尘勾勒出轮廓。每个生物都必须进行一次@Check[type:reflex|against:class-spell]豁免，对抗你的职业DC和法术DC中较高者。如果生物的隐形被皮克精尘消除，那么在持续时间内，它会变为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}而非@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}。这既适用于原本已经隐形的生物，也适用于消除隐形的效果结束前，该生物新获得的隐形效果。</p><hr /><p><strong>大成功</strong> 目标不受影响。</p><p><strong>成功</strong> 目标的隐形被消除，陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，所有隐秘检定受到–4环境减值。这些效果持续2轮。生物可以总共花费两个交互动作擦去眼中的粉尘，提前结束目眩；但除非能够彻底清洗身体，否则其他效果仍会持续至时限结束。@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.ZCI5yPfD68x8xG6z]{效果：黏附尘（成功）}</p><p><strong>失败</strong> 如同成功，但持续时间为1分钟。@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.0Ip12EpPTXczccBW]{效果：黏附尘（失败）}</p><p><strong>大失败</strong> 如同成功，但持续时间为10分钟。@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.ctIXOcMqRkRZEJSF]{效果：黏附尘（大失败）}</p>",
+      "prerequisites": [
+        {
+          "value": "皮克精龙传承"
+        }
+      ]
     },
     "Defensive Flutter": {
       "name": "防御振翅 Defensive Flutter",
-      "description": "<p><strong>触发</strong> 你触及范围内的一个生物对你进行打击但未命中</p><hr /><p>你振动双翼，将一团闪亮的皮克精尘洒向触发生物。触发生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续至其当前回合结束。触发生物可以移动至距离当前位置10尺或更远处，提前结束目眩状态。</p>"
+      "description": "<p><strong>触发</strong> 你触及范围内的一个生物对你进行打击但未命中</p><hr /><p>你振动双翼，将一团闪亮的皮克精尘洒向触发生物。触发生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续至其当前回合结束。触发生物可以移动至距离当前位置10尺或更远处，提前结束目眩状态。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "皮克精龙传承"
+        }
+      ]
     },
     "Surprising Appearance": {
       "name": "惊奇现身 Surprising Appearance",
-      "description": "<p><strong>条件</strong> 你处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}、@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}或@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]状态，且位于一个敌对生物的触及范围内。</p><hr /><p>你从藏身处跳出，显露身形；如果你处于隐形状态，该隐形效果结束。随后你大喊一声，试图吓到周围所有人。对你徒手攻击触及范围内的每个敌人，使用欺骗检定进行@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{挫志}，取代挫志通常使用的威吓检定。大成功时，等级低于你且因此陷入惊惧的生物还会踉跄后退10尺，陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。无论成功还是失败，所有看见你突然现身的生物都会对你的惊奇现身暂时免疫1分钟。</p>"
+      "description": "<p><strong>条件</strong> 你处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}、@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}或@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]状态，且位于一个敌对生物的触及范围内。</p><hr /><p>你从藏身处跳出，显露身形；如果你处于隐形状态，该隐形效果结束。随后你大喊一声，试图吓到周围所有人。对你徒手攻击触及范围内的每个敌人，使用欺骗检定进行@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{挫志}，取代挫志通常使用的威吓检定。大成功时，等级低于你且因此陷入惊惧的生物还会踉跄后退10尺，陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。无论成功还是失败，所有看见你突然现身的生物都会对你的惊奇现身暂时免疫1分钟。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "皮克精龙传承"
+        },
+        {
+          "value": "欺骗受训"
+        }
+      ]
     },
     "Euphoric Exhalation": {
       "name": "欢愉呼气 Euphoric Exhalation",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p><p><strong>触发</strong> 你以@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.vL4zzn94yUSkuSuc]{毁灭噬咬}成功打击</p><hr /><p>以毁灭噬咬攻击时，你可以朝目标脸上喷出一口欢愉气体。触发的毁灭噬咬所攻击的目标必须进行一次@Check[will|against:class]豁免，对抗你的职业DC。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物略感陶醉，在其下个回合结束前的下一次攻击检定，以及下个回合结束前的下一次伤害掷骰，均受到–1环境减值。</p><p><strong>失败</strong> 该生物陷入陶醉，攻击和伤害掷骰受到–1环境减值，持续至其下个回合结束。</p><p><strong>大失败</strong> 如同失败，但该生物还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续至其下个回合结束。</p><p>@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.aaIksEj15PlBqjKp]{效果：欢愉呼气}</p>"
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><p><strong>触发</strong> 你以@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.vL4zzn94yUSkuSuc]{毁灭噬咬}成功打击</p><hr /><p>以毁灭噬咬攻击时，你可以朝目标脸上喷出一口欢愉气体。触发的毁灭噬咬所攻击的目标必须进行一次@Check[will|against:class]豁免，对抗你的职业DC。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物略感陶醉，在其下个回合结束前的下一次攻击检定，以及下个回合结束前的下一次伤害掷骰，均受到–1环境减值。</p><p><strong>失败</strong> 该生物陷入陶醉，攻击和伤害掷骰受到–1环境减值，持续至其下个回合结束。</p><p><strong>大失败</strong> 如同失败，但该生物还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续至其下个回合结束。</p><p>@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.aaIksEj15PlBqjKp]{效果：欢愉呼气}</p>",
+      "prerequisites": [
+        {
+          "value": "毁灭噬咬"
+        },
+        {
+          "value": "皮克精龙传承"
+        }
+      ]
     },
     "Resplendent Rainbow Regalia": {
       "name": "璀璨虹光华服 Resplendent Rainbow Regalia",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你让自身或一名处于角的明亮光照中的盟友，被不断变幻、缤纷闪烁的光晕环绕，如同披上虹彩斗篷。你或选定盟友获得@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，持续1分钟。华服穿戴者无法利用此隐蔽进行躲藏或@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}，如同其他生物位置仍然明显的隐蔽效果。在穿戴璀璨虹光华服期间，穿戴者可以使用@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.actions.Item.av8ZW6WDKR79Pl68]{折射虹光}反应。</p>"
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你让自身或一名处于角的明亮光照中的盟友，被不断变幻、缤纷闪烁的光晕环绕，如同披上虹彩斗篷。你或选定盟友获得@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，持续1分钟。华服穿戴者无法利用此隐蔽进行躲藏或@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}，如同其他生物位置仍然明显的隐蔽效果。在穿戴璀璨虹光华服期间，穿戴者可以使用@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.actions.Item.av8ZW6WDKR79Pl68]{折射虹光}反应。</p>",
+      "prerequisites": [
+        {
+          "value": "龙法师奉献"
+        },
+        {
+          "value": "天角龙传承"
+        }
+      ]
     },
     "Reveal Flaw": {
       "name": "揭露弱点 Reveal Flaw",
-      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你揭露30尺内一个生物不光彩的往事，然后当众高声宣告其致命弱点。从以下伤害类型中选择一种：酸蚀、钝击、寒冷、电击、火焰、心灵、穿刺、毒素、挥砍、音波或虚能。目标必须成功通过一次@Check[will]豁免，对抗你的法术DC，否则获得对所选伤害类型的弱点4，持续1分钟（大失败时为10分钟）。随后，目标对揭露弱点暂时免疫1天。在16级时，弱点增至5；在20级时，弱点增至6。</p><p>@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.9BOmwDfHSok2zmTx]{效果：揭露弱点}</p><p>@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.FjNSMAoFMHwlCTi7]{效果：揭露弱点（大失败）}</p>"
+      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你揭露30尺内一个生物不光彩的往事，然后当众高声宣告其致命弱点。从以下伤害类型中选择一种：酸蚀、钝击、寒冷、电击、火焰、心灵、穿刺、毒素、挥砍、音波或虚能。目标必须成功通过一次@Check[will]豁免，对抗你的法术DC，否则获得对所选伤害类型的弱点4，持续1分钟（大失败时为10分钟）。随后，目标对揭露弱点暂时免疫1天。在16级时，弱点增至5；在20级时，弱点增至6。</p><p>@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.9BOmwDfHSok2zmTx]{效果：揭露弱点}</p><p>@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.FjNSMAoFMHwlCTi7]{效果：揭露弱点（大失败）}</p>",
+      "prerequisites": [
+        {
+          "value": "龙法师奉献"
+        },
+        {
+          "value": "王庭龙传承"
+        }
+      ]
     },
     "Strike Bargain": {
       "name": "缔结交易 Strike Bargain",
-      "description": "<p>你与一个智慧生物达成交易。目标必须自愿接受交易。接受交易的生物身上会出现一个魔法的、无法抹去的@UUID[Compendium.pf2e.spells-srd.Item.AUctDF2fqPZN2w4W]，如同文身一般，代表龙所属的王庭或名字。如果目标违背交易条款，该文身会自动对其施放下列法术之一作为惩罚：法术在缔结交易时选定，并升环至你龙法师法术位的最高环阶，选项为@UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]或@UUID[Compendium.pf2e.spells-srd.Item.5BbU1V6wGSGbrmRD]。目标无需掷出对抗此法术的豁免检定，而是自动获得大失败。</p>"
+      "description": "<p>你与一个智慧生物达成交易。目标必须自愿接受交易。接受交易的生物身上会出现一个魔法的、无法抹去的@UUID[Compendium.pf2e.spells-srd.Item.AUctDF2fqPZN2w4W]，如同文身一般，代表龙所属的王庭或名字。如果目标违背交易条款，该文身会自动对其施放下列法术之一作为惩罚：法术在缔结交易时选定，并升环至你龙法师法术位的最高环阶，选项为@UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]或@UUID[Compendium.pf2e.spells-srd.Item.5BbU1V6wGSGbrmRD]。目标无需掷出对抗此法术的豁免检定，而是自动获得大失败。</p>",
+      "prerequisites": [
+        {
+          "value": "专家龙法师施法"
+        },
+        {
+          "value": "王庭龙"
+        }
+      ]
     },
     "Talk in Circles": {
       "name": "绕圈说辞 Talk in Circles",
-      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你滔滔不绝地说出毫无逻辑的论证、晦涩术语和刁钻谜题，让人摸不着头脑，将这些刻意编造的胡言乱语融入独白、争执、辩论或歌曲之中。@Template[emanation|distance:60]{60尺}内的每个敌人都必须进行一次@Check[will]豁免，对抗你的法术DC。</p><hr /><p><strong>大成功</strong> 该敌人不受影响。</p><p><strong>成功</strong> 该敌人@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，持续1轮。</p><p><strong>失败</strong> 该敌人@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}5轮。它可以在自己每个回合结束时重新进行一次豁免，以结束困惑。</p><p><strong>大失败</strong> 该敌人困惑1分钟，且无法重新进行豁免来提前结束效果。</p>"
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你滔滔不绝地说出毫无逻辑的论证、晦涩术语和刁钻谜题，让人摸不着头脑，将这些刻意编造的胡言乱语融入独白、争执、辩论或歌曲之中。@Template[emanation|distance:60]{60尺}内的每个敌人都必须进行一次@Check[will]豁免，对抗你的法术DC。</p><hr /><p><strong>大成功</strong> 该敌人不受影响。</p><p><strong>成功</strong> 该敌人@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，持续1轮。</p><p><strong>失败</strong> 该敌人@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}5轮。它可以在自己每个回合结束时重新进行一次豁免，以结束困惑。</p><p><strong>大失败</strong> 该敌人困惑1分钟，且无法重新进行豁免来提前结束效果。</p>",
+      "prerequisites": [
+        {
+          "value": "龙法师奉献"
+        },
+        {
+          "value": "王庭龙"
+        }
+      ]
     },
     "Speedy Sabotage": {
       "name": "迅速破坏 Speedy Sabotage",
-      "description": "<p>你是一位精于破坏和陷阱的专家，能够迅速开锁、破坏物件。如果你在需要多次成功的@UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{开锁}或@UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{解除装置}贼活检定中掷出大成功，则为开锁或解除装置积累三次成功，而非两次。</p>"
+      "description": "<p>你是一位精于破坏和陷阱的专家，能够迅速开锁、破坏物件。如果你在需要多次成功的@UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{开锁}或@UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{解除装置}贼活检定中掷出大成功，则为开锁或解除装置积累三次成功，而非两次。</p>",
+      "prerequisites": [
+        {
+          "value": "恶作剧龙传承"
+        }
+      ]
     },
     "Caustic Breakdown": {
       "name": "强酸分解 Caustic Breakdown",
-      "description": "<p>你颚中的强酸能够轻松突破任何硬度，让恶作剧更加得心应手。你的打击至多忽略物体的5点硬度。</p>"
+      "description": "<p>你颚中的强酸能够轻松突破任何硬度，让恶作剧更加得心应手。你的打击至多忽略物体的5点硬度。</p>",
+      "prerequisites": [
+        {
+          "value": "恶作剧龙传承"
+        }
+      ]
     },
     "Spiteful Curse": {
       "name": "恶意诅咒 Spiteful Curse",
-      "description": "<p><strong>触发</strong> 你触及范围内的一个生物以打击对你造成伤害。</p><hr /><p>你向触发生物吐出报复性的恶咒，以厄运诅咒对方。该生物必须进行一次意志豁免，对抗你的法术DC。失败时，直到其下个回合开始，触发生物的所有攻击检定都掷两次，取较差结果。无论成功还是失败，触发生物都会暂时免疫1分钟；如果它在下个回合开始前攻击检定失败，就会伤及自身，受到@Damage[((ternary(gte(@actor.level,18),3,ternary(gte(@actor.level,14),2,1)))d4)[persistent,bleed]]伤害。恶意诅咒的持续流血伤害在14级时增至2d4，在18级时增至3d4。</p>"
+      "description": "<p><strong>触发</strong> 你触及范围内的一个生物以打击对你造成伤害。</p><hr /><p>你向触发生物吐出报复性的恶咒，以厄运诅咒对方。该生物必须进行一次意志豁免，对抗你的法术DC。失败时，直到其下个回合开始，触发生物的所有攻击检定都掷两次，取较差结果。无论成功还是失败，触发生物都会暂时免疫1分钟；如果它在下个回合开始前攻击检定失败，就会伤及自身，受到@Damage[((ternary(gte(@actor.level,18),3,ternary(gte(@actor.level,14),2,1)))d4)[persistent,bleed]]伤害。恶意诅咒的持续流血伤害在14级时增至2d4，在18级时增至3d4。</p>",
+      "prerequisites": [
+        {
+          "value": "龙法师奉献"
+        },
+        {
+          "value": "恶作剧龙传承"
+        }
+      ]
     },
     "Teleporting Charge": {
       "name": "传送冲锋 Teleporting Charge",
-      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你在一道闪光中消失，随即出现在战场另一端，以尖角刺穿敌人。你传送至60尺内一个你能看见的生物相邻的空位，然后对该生物进行一次角击打击。成功时，如果该角击徒手攻击来自龙族裔专长，则其每个武器伤害骰都会额外造成1d4穿刺伤害。</p>"
+      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你在一道闪光中消失，随即出现在战场另一端，以尖角刺穿敌人。你传送至60尺内一个你能看见的生物相邻的空位，然后对该生物进行一次角击打击。成功时，如果该角击徒手攻击来自龙族裔专长，则其每个武器伤害骰都会额外造成1d4穿刺伤害。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "天角龙传承"
+        },
+        {
+          "value": "角部无武装攻击"
+        }
+      ]
     },
     "Sudden Inspiration": {
       "name": "灵感乍现 Sudden Inspiration",
-      "description": "<p><strong>触发</strong> 30尺内你能看见的一名盟友攻击检定、技能检定、察觉检定或豁免检定失败</p><hr /><p>目标重掷触发的掷骰、检定或豁免，并获得+2状态加值。然后，目标对灵感乍现暂时免疫1分钟。</p><p>@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.wShWbfgs8OsGhv0z]{效果：灵感乍现}</p>"
+      "description": "<p><strong>触发</strong> 30尺内你能看见的一名盟友攻击检定、技能检定、察觉检定或豁免检定失败</p><hr /><p>目标重掷触发的掷骰、检定或豁免，并获得+2状态加值。然后，目标对灵感乍现暂时免疫1分钟。</p><p>@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.effects.Item.wShWbfgs8OsGhv0z]{效果：灵感乍现}</p>",
+      "prerequisites": [
+        {
+          "value": "魅惑龙传承"
+        }
+      ]
     },
     "Tempt with Desires": {
       "name": "以欲望诱惑 Tempt with Desires",
@@ -99,108 +268,276 @@
     },
     "Fated Defense": {
       "name": "命定防御 Fated Defense",
-      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>触发</strong> 你即将进行一次豁免检定，但尚未掷骰，且你面对的并非战役最终反派（或由GM判定，在叙事上适合杀死你的其他反派）。</p><hr /><p>你的命运并非倒在这一威胁面前，因为你的叙事中还有其他危险蓄势待发。触发的豁免检定掷两次，取较好结果。如果掷出大失败，则改为失败。</p>"
+      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>触发</strong> 你即将进行一次豁免检定，但尚未掷骰，且你面对的并非战役最终反派（或由GM判定，在叙事上适合杀死你的其他反派）。</p><hr /><p>你的命运并非倒在这一威胁面前，因为你的叙事中还有其他危险蓄势待发。触发的豁免检定掷两次，取较好结果。如果掷出大失败，则改为失败。</p>",
+      "prerequisites": [
+        {
+          "value": "王庭龙传承"
+        }
+      ]
     },
     "Gusting Trigger": {
       "name": "风动触发 Gusting Trigger",
-      "description": "<p>你朝40尺内的一个圈套拍动翅膀，从远处触发它。如果圈套是你制作的，则自动命中。如果是其他人制作的，则进行一次贼活检定，对抗该圈套的DC；成功时触发圈套。</p>"
+      "description": "<p>你朝40尺内的一个圈套拍动翅膀，从远处触发它。如果圈套是你制作的，则自动命中。如果是其他人制作的，则进行一次贼活检定，对抗该圈套的DC；成功时触发圈套。</p>",
+      "prerequisites": [
+        {
+          "value": "恶作剧龙传承"
+        }
+      ]
     },
     "Perfect Counterstrike": {
       "name": "完美反击 Perfect Counterstrike",
-      "description": "<p>你能抓住再微小不过的破绽发起反击。你可以在对方普通失败时尝试@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.feats.Item.zZK72whdF77jvmEg]{命定反击}，不再仅限于大失败。</p>"
+      "description": "<p>你能抓住再微小不过的破绽发起反击。你可以在对方普通失败时尝试@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.feats.Item.zZK72whdF77jvmEg]{命定反击}，不再仅限于大失败。</p>",
+      "prerequisites": [
+        {
+          "value": "命定反击"
+        }
+      ]
     },
     "Nature Tongue": {
       "name": "自然之语 Nature Tongue",
-      "description": "<p>你擅长与那些生长在类似旧日圣域环境中的植物交流。你可以向植物和真菌提问、听取回答，并对其使用交涉技能。大多数普通植物和真菌对周遭世界的看法独特，因此无法分辨生物的细节，也不了解近旁区域以外的世界。狡猾的植物或真菌怪物往往言辞简短、含糊其辞，而不太聪明的则常常说些没头没脑的话。</p>"
+      "description": "<p>你擅长与那些生长在类似旧日圣域环境中的植物交流。你可以向植物和真菌提问、听取回答，并对其使用交涉技能。大多数普通植物和真菌对周遭世界的看法独特，因此无法分辨生物的细节，也不了解近旁区域以外的世界。狡猾的植物或真菌怪物往往言辞简短、含糊其辞，而不太聪明的则常常说些没头没脑的话。</p>",
+      "prerequisites": [
+        {
+          "value": "魅惑龙传承"
+        }
+      ]
     },
     "Dual Venomed Breath": {
       "name": "双毒龙息 Dual Venomed Breath",
-      "description": "<p>你对喷吐武器进行了充分练习，恢复了自永恒之光仪式以来缺失的那一部分。你获得选择恶作剧龙传承时未选的另一种喷吐武器伤害类型，即线形酸蚀或锥形毒素。每次使用龙息动作时，你都可以选择使用哪一种喷吐武器。</p>"
+      "description": "<p>你对喷吐武器进行了充分练习，恢复了自永恒之光仪式以来缺失的那一部分。你获得选择恶作剧龙传承时未选的另一种喷吐武器伤害类型，即线形酸蚀或锥形毒素。每次使用龙息动作时，你都可以选择使用哪一种喷吐武器。</p>",
+      "prerequisites": [
+        {
+          "value": "龙息，恶作剧龙传承"
+        }
+      ]
     },
     "One with Nature": {
       "name": "融于自然 One with Nature",
-      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你可以将自己的感官融入附近动物或植物的感官。选择120尺内的一个动物或植物，花费1分钟将你的感官与其融合。在接下来的一小时内，你可以感知该动物或植物感知到的一切，但无法使用自身躯体的感官。如果该动物或植物想阻止你使用其感官，可以进行一次@Check[type:will|against:class-spell]豁免，对抗你的职业DC和法术DC中较高者，但大多数动物和植物不会这样做。你可以通过维持此效果，在自己的感官与该动物或植物的感官之间切换。</p>"
+      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你可以将自己的感官融入附近动物或植物的感官。选择120尺内的一个动物或植物，花费1分钟将你的感官与其融合。在接下来的一小时内，你可以感知该动物或植物感知到的一切，但无法使用自身躯体的感官。如果该动物或植物想阻止你使用其感官，可以进行一次@Check[type:will|against:class-spell]豁免，对抗你的职业DC和法术DC中较高者，但大多数动物和植物不会这样做。你可以通过维持此效果，在自己的感官与该动物或植物的感官之间切换。</p>",
+      "prerequisites": [
+        {
+          "value": "魅惑龙传承"
+        }
+      ]
     },
     "Anoint Temporary Sanctuary": {
       "name": "祝圣临时圣域 Anoint Temporary Sanctuary",
-      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>条件</strong> 你身处荒野。</p><hr /><p>你可以与一片荒野建立临时羁绊，使其成为你的圣域，持续1天，或直到你建立另一份羁绊，以先发生者为准。这片圣域是以你祝圣时所处位置为中心的@Template[type:emanation|distance:10]。除你和盟友以外的所有生物都将圣域视为困难地形。此外，当你和盟友身处圣域时，域内植物会出手保护你们，使你们的AC各获得+1环境加值。</p>"
+      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>条件</strong> 你身处荒野。</p><hr /><p>你可以与一片荒野建立临时羁绊，使其成为你的圣域，持续1天，或直到你建立另一份羁绊，以先发生者为准。这片圣域是以你祝圣时所处位置为中心的@Template[type:emanation|distance:10]。除你和盟友以外的所有生物都将圣域视为困难地形。此外，当你和盟友身处圣域时，域内植物会出手保护你们，使你们的AC各获得+1环境加值。</p>",
+      "prerequisites": [
+        {
+          "value": "龙法师奉献"
+        },
+        {
+          "value": "魅惑龙传承"
+        }
+      ]
     },
     "Inspire Ally": {
       "name": "激励盟友 Inspire Ally",
-      "description": "<p>你可以用1分钟向触及范围内一名自愿的盟友发表鼓舞人心的演说，给予全神贯注的关怀，以此激励对方。只要该生物与你保持良好关系，其所有制造和表演检定都会获得成功@UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{协助}的益处。这一效果持续到你选择激励另一个生物，或决定撤回你的激励为止。</p>"
+      "description": "<p>你可以用1分钟向触及范围内一名自愿的盟友发表鼓舞人心的演说，给予全神贯注的关怀，以此激励对方。只要该生物与你保持良好关系，其所有制造和表演检定都会获得成功@UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{协助}的益处。这一效果持续到你选择激励另一个生物，或决定撤回你的激励为止。</p>",
+      "prerequisites": [
+        {
+          "value": "魅惑龙传承"
+        }
+      ]
     },
     "Fortunate Counterstrike": {
       "name": "幸运反击 Fortunate Counterstrike",
-      "description": "<p>反击时，你运用对叙事的理解，确保攻击命中。命定反击的攻击检定掷两次，取较高结果；这是一个幸运效果。</p>"
+      "description": "<p>反击时，你运用对叙事的理解，确保攻击命中。命定反击的攻击检定掷两次，取较高结果；这是一个幸运效果。</p>",
+      "prerequisites": [
+        {
+          "value": "命定反击"
+        }
+      ]
     },
     "Illuminating Beam": {
       "name": "照明光束 Illuminating Beam",
-      "description": "<p>你的喷吐武器如此明亮，足以驱散黑暗。如果喷吐武器穿过魔法黑暗的区域，或以受魔法黑暗影响的生物为目标，你的照明吐息会尝试反制该黑暗，反制调整值为你的龙息DC – 10，反制环阶为你等级的一半，向上取整。随后，该黑暗效果对你的照明吐息暂时免疫1天。</p>"
+      "description": "<p>你的喷吐武器如此明亮，足以驱散黑暗。如果喷吐武器穿过魔法黑暗的区域，或以受魔法黑暗影响的生物为目标，你的照明吐息会尝试反制该黑暗，反制调整值为你的龙息DC – 10，反制环阶为你等级的一半，向上取整。随后，该黑暗效果对你的照明吐息暂时免疫1天。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "龙息"
+        },
+        {
+          "value": "天角龙传承"
+        }
+      ]
     },
     "Sickening Spray": {
       "name": "恶心喷雾 Sickening Spray",
-      "description": "<p>你的吐息恶心、腐臭而有毒，能使区域内的生物反胃。当生物对抗你的龙息时豁免大失败，它会陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}；即使你的龙息造成酸蚀伤害，这项额外益处仍是毒素效果。</p>"
+      "description": "<p>你的吐息恶心、腐臭而有毒，能使区域内的生物反胃。当生物对抗你的龙息时豁免大失败，它会陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}；即使你的龙息造成酸蚀伤害，这项额外益处仍是毒素效果。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "龙息"
+        },
+        {
+          "value": "恶作剧龙传承"
+        }
+      ]
     },
     "Spiritual Horn": {
       "name": "精魂之角 Spiritual Horn",
-      "description": "<p>你的角闪耀着精魂之力，让你更容易伤害灵体和其他虚体生物。你的角击徒手攻击额外造成1灵魂伤害。对抗虚体生物时，这些攻击视为魔法攻击；如果它们本已具有魔法，则改为获得幽冥性质符文的效果。</p>"
+      "description": "<p>你的角闪耀着精魂之力，让你更容易伤害灵体和其他虚体生物。你的角击徒手攻击额外造成1灵魂伤害。对抗虚体生物时，这些攻击视为魔法攻击；如果它们本已具有魔法，则改为获得幽冥性质符文的效果。</p>",
+      "prerequisites": [
+        {
+          "value": "天角龙传承"
+        }
+      ]
     },
     "Snarecrafter's Mockery": {
       "name": "圈套师嘲弄 Snarecrafter's Mockery",
-      "description": "<p><strong>频率</strong> 每分钟一次</p><p><strong>触发</strong> 一个生物受到你布置的圈套造成的伤害。</p><hr /><p>你放声大笑，嘲弄触发生物，使其在残酷的攻击下虚弱萎靡。触发生物必须进行一次@Check[type:will|against:class-spell]豁免，对抗你的职业DC和法术DC中较高者，结果如下。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}且@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}，持续1轮。</p><p><strong>失败</strong> 该生物笨拙1且力竭1，持续1分钟。</p><p><strong>大失败</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}且@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}，持续1分钟。</p>"
+      "description": "<p><strong>频率</strong> 每分钟一次</p><p><strong>触发</strong> 一个生物受到你布置的圈套造成的伤害。</p><hr /><p>你放声大笑，嘲弄触发生物，使其在残酷的攻击下虚弱萎靡。触发生物必须进行一次@Check[type:will|against:class-spell]豁免，对抗你的职业DC和法术DC中较高者，结果如下。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}且@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}，持续1轮。</p><p><strong>失败</strong> 该生物笨拙1且力竭1，持续1分钟。</p><p><strong>大失败</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}且@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}，持续1分钟。</p>",
+      "prerequisites": [
+        {
+          "value": "恶作剧龙传承"
+        }
+      ]
     },
     "Dazzling Breath": {
       "name": "炫目龙息 Dazzling Breath",
-      "description": "<p>你的喷吐武器从角上射出，化作一道炫目的虹彩光束。豁免失败时，受到炫目龙息伤害的生物会@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮；大失败时则为2轮。</p>"
+      "description": "<p>你的喷吐武器从角上射出，化作一道炫目的虹彩光束。豁免失败时，受到炫目龙息伤害的生物会@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮；大失败时则为2轮。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "龙息"
+        },
+        {
+          "value": "天角龙传承"
+        }
+      ]
     },
     "Fairy Bond": {
       "name": "妖精羁绊 Fairy Bond",
-      "description": "<p>你与自身传承所关联的精类族裔有着比寻常更深的联系。你获得对应族裔的@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊}专长，即使它并非常见族裔：魅惑龙对应宁芙，王庭龙对应希德精灵，恶作剧龙对应小魔怪，皮克精龙对应小妖精（除小妖精外，均收录于《Battlezoo族裔：经典生物》）。你还获得该族裔的一项1级族裔专长。</p>"
+      "description": "<p>你与自身传承所关联的精类族裔有着比寻常更深的联系。你获得对应族裔的@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊}专长，即使它并非常见族裔：魅惑龙对应宁芙，王庭龙对应希德精灵，恶作剧龙对应小魔怪，皮克精龙对应小妖精（除小妖精外，均收录于《Battlezoo族裔：经典生物》）。你还获得该族裔的一项1级族裔专长。</p>",
+      "prerequisites": [
+        {
+          "value": "魅惑龙、王庭龙、恶作剧龙或皮克精龙传承"
+        }
+      ]
     },
     "Spellcasting Saboteur": {
       "name": "施法破坏者 Spellcasting Saboteur",
-      "description": "<p>你学会了用魔法实施破坏。你获得@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]和@UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]作为原能天赋法术。这些原能天赋法术各可以每天施放一次。</p>"
+      "description": "<p>你学会了用魔法实施破坏。你获得@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]和@UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]作为原能天赋法术。这些原能天赋法术各可以每天施放一次。</p>",
+      "prerequisites": [
+        {
+          "value": "恶作剧龙传承"
+        }
+      ]
     },
     "Alicorn Honesty": {
       "name": "天角龙的诚实 Alicorn Honesty",
-      "description": "<p>你诚实得近乎不知变通，也要求他人遵守同样的标准。你进行@UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{察言观色}时的察觉检定，以及对抗他人向你@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}时的察觉DC，获得+1环境加值。此外，当你说真话时，用于说服他人相信你所言属实的交涉检定获得+2环境加值；你的说谎检定，以及对抗察言观色时的欺骗DC，受到–4环境减值。</p>"
+      "description": "<p>你诚实得近乎不知变通，也要求他人遵守同样的标准。你进行@UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{察言观色}时的察觉检定，以及对抗他人向你@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}时的察觉DC，获得+1环境加值。此外，当你说真话时，用于说服他人相信你所言属实的交涉检定获得+2环境加值；你的说谎检定，以及对抗察言观色时的欺骗DC，受到–4环境减值。</p>",
+      "prerequisites": [
+        {
+          "value": "天角龙传承"
+        }
+      ]
     },
     "Perfumed Breath": {
       "name": "芳香龙息 Perfumed Breath",
-      "description": "<p>你可以改变喷吐武器，产生一团迷人的香雾，取代致命的锥形毒气。每小时一次，当你使用@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.ndBtaylDGWNDB7Cf]{龙息}时，可以将其效果从造成毒素伤害改为要求目标进行@Check[will|against:class]豁免，对抗你的职业DC，产生下列效果。这个版本的龙息具有心灵和原能特征。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物被醉人的香气扰乱，陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮。</p><p><strong>失败</strong> 该生物措手不及且@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}，持续1轮。</p><p><strong>大失败</strong> 该生物措手不及且呆滞2，持续1分钟，并且@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，持续1轮。</p>"
+      "description": "<p>你可以改变喷吐武器，产生一团迷人的香雾，取代致命的锥形毒气。每小时一次，当你使用@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.ndBtaylDGWNDB7Cf]{龙息}时，可以将其效果从造成毒素伤害改为要求目标进行@Check[will|against:class]豁免，对抗你的职业DC，产生下列效果。这个版本的龙息具有心灵和原能特征。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物被醉人的香气扰乱，陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮。</p><p><strong>失败</strong> 该生物措手不及且@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}，持续1轮。</p><p><strong>大失败</strong> 该生物措手不及且呆滞2，持续1分钟，并且@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，持续1轮。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "龙息"
+        },
+        {
+          "value": "魅惑龙传承"
+        }
+      ]
     },
     "Alicorn Magic": {
       "name": "天角龙魔法 Alicorn Magic",
-      "description": "<p>你拥有天角魔法以魔力净化自己和他人的能力。你可以每天各施放一次@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]、@UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]和@UUID[Compendium.pf2e.spells-srd.Item.Et8RSCLx8w7uOLvo]，它们是与你龙法师施法同体系的内在法术。每个法术的施放环阶等于你所拥有的最高环阶龙法师变体法术位（通过@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.1W3Zmb79Vyc2Gxl6]{基础龙法师}施法，至少为3环）。</p>"
+      "description": "<p>你拥有天角魔法以魔力净化自己和他人的能力。你可以每天各施放一次@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]、@UUID[Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF]和@UUID[Compendium.pf2e.spells-srd.Item.Et8RSCLx8w7uOLvo]，它们是与你龙法师施法同体系的内在法术。每个法术的施放环阶等于你所拥有的最高环阶龙法师变体法术位（通过@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.1W3Zmb79Vyc2Gxl6]{基础龙法师}施法，至少为3环）。</p>",
+      "prerequisites": [
+        {
+          "value": "基础龙法师施法"
+        },
+        {
+          "value": "天角龙传承"
+        }
+      ]
     },
     "Flare Light": {
       "name": "闪耀光芒 Flare Light",
-      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>触发</strong> 你以角击对一个生物进行打击并造成伤害。</p><hr /><p>你令角上的光芒骤然闪耀，使敌人目眩。被触发打击伤害的目标必须成功通过一次@Check[type:fortitude|against:class-spell]豁免，否则@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮（大失败时目眩4轮）。豁免DC为你的职业DC和法术DC中较高者。</p>"
+      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>触发</strong> 你以角击对一个生物进行打击并造成伤害。</p><hr /><p>你令角上的光芒骤然闪耀，使敌人目眩。被触发打击伤害的目标必须成功通过一次@Check[type:fortitude|against:class-spell]豁免，否则@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮（大失败时目眩4轮）。豁免DC为你的职业DC和法术DC中较高者。</p>",
+      "prerequisites": [
+        {
+          "value": "天角龙传承"
+        }
+      ]
     },
     "Tricky Spellcaster": {
       "name": "诡计施法者 Tricky Spellcaster",
-      "description": "<p>你学会了能让恶作剧更上一层楼的魔法。你获得@UUID[Compendium.pf2e.spells-srd.Item.Wu0xFpewMKRK3HG8]和@UUID[Compendium.pf2e.spells-srd.Item.yV7Ouzaoe7DHLESI]作为原能天赋法术。这些天赋法术各可以每天施放一次。</p>"
+      "description": "<p>你学会了能让恶作剧更上一层楼的魔法。你获得@UUID[Compendium.pf2e.spells-srd.Item.Wu0xFpewMKRK3HG8]和@UUID[Compendium.pf2e.spells-srd.Item.yV7Ouzaoe7DHLESI]作为原能天赋法术。这些天赋法术各可以每天施放一次。</p>",
+      "prerequisites": [
+        {
+          "value": "皮克精龙传承"
+        }
+      ]
     },
     "Amphibious Mischief": {
       "name": "两栖恶作剧 Amphibious Mischief",
-      "description": "<p>你能在陆地和水下进行恶作剧。你获得两栖特征，可以在空气和水中呼吸，并获得10尺游泳速度。</p>"
+      "description": "<p>你能在陆地和水下进行恶作剧。你获得两栖特征，可以在空气和水中呼吸，并获得10尺游泳速度。</p>",
+      "prerequisites": [
+        {
+          "value": "恶作剧龙传承"
+        }
+      ]
     },
     "Guileful Spellcaster": {
       "name": "狡黠施法者 Guileful Spellcaster",
-      "description": "<p>你的施法能力有所提升，能够对他人施展更强大的诡计。你获得@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]和@UUID[Compendium.pf2e.spells-srd.Item.2oH5IufzdESuYxat]作为2环原能天赋法术。这些天赋法术各可以每天施放一次。</p>"
+      "description": "<p>你的施法能力有所提升，能够对他人施展更强大的诡计。你获得@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]和@UUID[Compendium.pf2e.spells-srd.Item.2oH5IufzdESuYxat]作为2环原能天赋法术。这些天赋法术各可以每天施放一次。</p>",
+      "prerequisites": [
+        {
+          "value": "皮克精龙传承"
+        }
+      ]
     },
     "Lingering Allure": {
       "name": "持久魅惑 Lingering Allure",
-      "description": "<p>你能够更频繁地唤起内在之美，展现魅惑风姿。你可以每小时使用一次@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.feats.Item.fudnZdFoZ4I5CJSS]{魅惑风姿}，而非每天一次。</p>"
+      "description": "<p>你能够更频繁地唤起内在之美，展现魅惑风姿。你可以每小时使用一次@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.feats.Item.fudnZdFoZ4I5CJSS]{魅惑风姿}，而非每天一次。</p>",
+      "prerequisites": [
+        {
+          "value": "魅惑风姿"
+        }
+      ]
     },
     "Caustic Corrosion": {
       "name": "强酸腐蚀 Caustic Corrosion",
-      "description": "<p>你的毁灭噬咬能够直接熔穿坚固物体和其他物理防御。你获得@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.feats.Item.aCpGIyU5MzXP60vZ]{强酸分解}族裔专长作为额外专长；如果你已经拥有该专长，可以立即将其再训练为另一项龙族裔专长。使用@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.vL4zzn94yUSkuSuc]{毁灭噬咬}时，你不仅忽略物体的硬度，也忽略生物的硬度；毁灭噬咬忽略的硬度值从5提高为自身等级的一半，并且还可以忽略生物的物理伤害抗力，至多忽略等于自身等级一半的数值。</p>"
+      "description": "<p>你的毁灭噬咬能够直接熔穿坚固物体和其他物理防御。你获得@UUID[Compendium.battlezoo-dragons-fairy-dragons-pf2e.feats.Item.aCpGIyU5MzXP60vZ]{强酸分解}族裔专长作为额外专长；如果你已经拥有该专长，可以立即将其再训练为另一项龙族裔专长。使用@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.vL4zzn94yUSkuSuc]{毁灭噬咬}时，你不仅忽略物体的硬度，也忽略生物的硬度；毁灭噬咬忽略的硬度值从5提高为自身等级的一半，并且还可以忽略生物的物理伤害抗力，至多忽略等于自身等级一半的数值。</p>",
+      "prerequisites": [
+        {
+          "value": "毁灭噬咬"
+        },
+        {
+          "value": "恶作剧龙传承"
+        }
+      ]
     }
   },
   "folders": {
     "Dragon Mage Feats": "龙法师专长 Dragon Mage Feats",
     "Dragon Ancestry Feats": "龙族族裔专长 Dragon Ancestry Feats",
     "Dragon Ravager Feats": "龙族蹂躏者专长 Dragon Ravager Feats"
+  },
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
   }
 }

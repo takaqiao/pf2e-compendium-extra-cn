@@ -103,7 +103,12 @@
     },
     "Ammunition Infusion": {
       "name": "弹药灌注 Ammunition Infusion",
-      "description": "<p><strong>需求</strong> 你正持用一件能够发射炼金弹药的武器，并且已绘制好一个嬗变法阵。</p><hr /><p>你将弹药与你嬗变之力的能量结合起来。你使用@UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金}制造一份所需武器能够使用的炼金弹药。若你的下一个动作是远程物质冲击，你可以启动该炼金弹药，将其作为物质冲击的一部分使用，并将所需武器的特征应用到你的物质冲击上。若你的物质冲击命中，该涌动便获得你弹药的效果。你使用自己的涌动攻击调整值来进行这次攻击掷骰。</p>"
+      "description": "<p><strong>需求</strong> 你正持用一件能够发射炼金弹药的武器，并且已绘制好一个嬗变法阵。</p><hr /><p>你将弹药与你嬗变之力的能量结合起来。你使用@UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金}制造一份所需武器能够使用的炼金弹药。若你的下一个动作是远程物质冲击，你可以启动该炼金弹药，将其作为物质冲击的一部分使用，并将所需武器的特征应用到你的物质冲击上。若你的物质冲击命中，该涌动便获得你弹药的效果。你使用自己的涌动攻击调整值来进行这次攻击掷骰。</p>",
+      "prerequisites": [
+        {
+          "value": "点金术士入门"
+        }
+      ]
     },
     "Anthropotomical Studies": {
       "name": "人体解剖研究 Anthropotomical Studies",
@@ -131,7 +136,12 @@
     },
     "Augmentative Vial": {
       "name": "增幅药瓶 Augmentative Vial",
-      "description": "<p><strong>成本</strong> 1份万用制剂 </p><p><strong>需求</strong> 你已在一件物品上绘制了法阵。 </p><hr /><p>你通过添加额外的物质来增幅这件物品。若你的下一个动作是使用物质冲击，该物品便会被你冲击的力量所灌注。所获增益取决于所需的物品，并持续到你下一回合结束。</p><p>若该物品被握持或持用，你打击时会依据你@UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}的每颗武器伤害骰额外造成1点伤害。此伤害的类型与你的物质冲击所造成的类型相同。若该物品是穿戴的，你获得等同于你等级一半的抗力，抗力类型为你物质冲击的伤害类型。 </p><hr /><p><strong>特殊</strong> 若你拥有@UUID[Compendium.pf2e.feats-srd.Gvx8Mdg5mxUtTD5g]{武器注能}职业专长，则当你使用武器注能时，可以把这份额外伤害应用到你的物质冲击上。</p>"
+      "description": "<p><strong>成本</strong> 1份万用制剂 </p><p><strong>需求</strong> 你已在一件物品上绘制了法阵。 </p><hr /><p>你通过添加额外的物质来增幅这件物品。若你的下一个动作是使用物质冲击，该物品便会被你冲击的力量所灌注。所获增益取决于所需的物品，并持续到你下一回合结束。</p><p>若该物品被握持或持用，你打击时会依据你@UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}的每颗武器伤害骰额外造成1点伤害。此伤害的类型与你的物质冲击所造成的类型相同。若该物品是穿戴的，你获得等同于你等级一半的抗力，抗力类型为你物质冲击的伤害类型。 </p><hr /><p><strong>特殊</strong> 若你拥有@UUID[Compendium.pf2e.feats-srd.Gvx8Mdg5mxUtTD5g]{武器注能}职业专长，则当你使用武器注能时，可以把这份额外伤害应用到你的物质冲击上。</p>",
+      "prerequisites": [
+        {
+          "value": "点金术士入门"
+        }
+      ]
     },
     "Bandersnatch Bottle": {
       "name": "凶掠猫瓶 Bandersnatch Bottle",
@@ -143,7 +153,12 @@
     },
     "Basic Matter Chemistry": {
       "name": "基础物质化学 Basic Matter Chemistry",
-      "description": "<p>通过进行等价交换，你可以操控物质。你将@UUID[Compendium.pf2e.actionspf2e.nTBrvt2b9wngyr0i]{基础御术}涌动加入你的配方簿。你的嬗变法阵始终允许你使用基础御术涌动，且它不计入你在嬗变法阵中准备的涌动数量。 </p><p>此外，你可以花费1分钟，在没有生效的嬗变法阵的情况下使用基础御术，但仅限于对应某个你已准备且尚未使用的嬗变法阵的元素。</p>"
+      "description": "<p>通过进行等价交换，你可以操控物质。你将@UUID[Compendium.pf2e.actionspf2e.nTBrvt2b9wngyr0i]{基础御术}涌动加入你的配方簿。你的嬗变法阵始终允许你使用基础御术涌动，且它不计入你在嬗变法阵中准备的涌动数量。 </p><p>此外，你可以花费1分钟，在没有生效的嬗变法阵的情况下使用基础御术，但仅限于对应某个你已准备且尚未使用的嬗变法阵的元素。</p>",
+      "prerequisites": [
+        {
+          "value": "点金术士入门"
+        }
+      ]
     },
     "Befuddling Irrwurz (Greater)": {
       "name": "昏乱迷途根（高级） Befuddling Irrwurz (Greater)",
@@ -171,11 +186,21 @@
     },
     "Bomb Fist": {
       "name": "炸弹铁拳 Bomb Fist",
-      "description": "<p>你把全身力量灌注到一记装填了炸弹的重拳中。以一枚炸弹进行一次近战打击。若你的打击成功，则包含该打击目标在内的20尺直线范围内的所有生物都会受到该炸弹的溅射伤害，而非其通常范围。若该打击是重击，则你对该打击目标造成的溅射伤害翻倍。 </p><hr /><p><strong>特殊</strong> 若你拥有 @UUID[Compendium.pf2e.feats-srd.gyVcJfZTmBytLsXq]{溅射扩展} 专长，或其他能扩大溅射伤害半径的能力，你可以让溅射伤害改为一条40尺直线。</p>"
+      "description": "<p>你把全身力量灌注到一记装填了炸弹的重拳中。以一枚炸弹进行一次近战打击。若你的打击成功，则包含该打击目标在内的20尺直线范围内的所有生物都会受到该炸弹的溅射伤害，而非其通常范围。若该打击是重击，则你对该打击目标造成的溅射伤害翻倍。 </p><hr /><p><strong>特殊</strong> 若你拥有 @UUID[Compendium.pf2e.feats-srd.gyVcJfZTmBytLsXq]{溅射扩展} 专长，或其他能扩大溅射伤害半径的能力，你可以让溅射伤害改为一条40尺直线。</p>",
+      "prerequisites": [
+        {
+          "value": "砸瓶"
+        }
+      ]
     },
     "Bomb Flurry": {
       "name": "炸弹连投 Bomb Flurry",
-      "description": "<p><strong>动作</strong> <span class=\"action-glyph\">1</span> 至 <span class=\"action-glyph\">3</span></p><p><strong>成本</strong> 数量由所使用动作数决定的万用制剂</p><p><strong>需求</strong> 你能够使用 @UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金} 制造一枚炸弹。</p><hr /><p>你制造出数量惊人的炸弹，并将它们一齐掷出。你使用高速炼金制造出一大片炸弹爆发，其范围大小由你为此行动花费的动作数决定，并消耗所列数量的万用制剂来制造等量的炸弹——这些炸弹必须全部是同一种类——再将它们掷向目标区域。区域内的生物必须对抗你的职业 DC 进行一次 @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|basic:true] 豁免，失败时受到被该炸弹命中的效果，大失败时受到被重击命中的效果。豁免成功的生物仍会受到该炸弹会造成的任何溅射伤害。该爆发必须位于该炸弹的第一个射程增量之内。你的多重攻击减值适用于此行动的 DC，且在计算你的多重攻击减值时，此行动视为两次攻击。</p><p><span class=\"action-glyph\">1</span> 所需万用制剂的数量为 2，范围为一个 @Template[type:burst|distance:10]。</p><p><span class=\"action-glyph\">2</span> 所需万用制剂的数量为 4，范围为两个互不重叠的 @Template[type:burst|distance:10]。</p><p><span class=\"action-glyph\">3</span> 所需万用制剂的数量为 6，范围为三个互不重叠的 @Template[type:burst|distance:10]。</p>"
+      "description": "<p><strong>动作</strong> <span class=\"action-glyph\">1</span> 至 <span class=\"action-glyph\">3</span></p><p><strong>成本</strong> 数量由所使用动作数决定的万用制剂</p><p><strong>需求</strong> 你能够使用 @UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金} 制造一枚炸弹。</p><hr /><p>你制造出数量惊人的炸弹，并将它们一齐掷出。你使用高速炼金制造出一大片炸弹爆发，其范围大小由你为此行动花费的动作数决定，并消耗所列数量的万用制剂来制造等量的炸弹——这些炸弹必须全部是同一种类——再将它们掷向目标区域。区域内的生物必须对抗你的职业 DC 进行一次 @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|basic:true] 豁免，失败时受到被该炸弹命中的效果，大失败时受到被重击命中的效果。豁免成功的生物仍会受到该炸弹会造成的任何溅射伤害。该爆发必须位于该炸弹的第一个射程增量之内。你的多重攻击减值适用于此行动的 DC，且在计算你的多重攻击减值时，此行动视为两次攻击。</p><p><span class=\"action-glyph\">1</span> 所需万用制剂的数量为 2，范围为一个 @Template[type:burst|distance:10]。</p><p><span class=\"action-glyph\">2</span> 所需万用制剂的数量为 4，范围为两个互不重叠的 @Template[type:burst|distance:10]。</p><p><span class=\"action-glyph\">3</span> 所需万用制剂的数量为 6，范围为三个互不重叠的 @Template[type:burst|distance:10]。</p>",
+      "prerequisites": [
+        {
+          "value": "高速炼金"
+        }
+      ]
     },
     "Boreal Mint (Greater)": {
       "name": "北境薄荷（高级） Boreal Mint (Greater)",
@@ -195,7 +220,12 @@
     },
     "Botanical Infusion": {
       "name": "植物灌注 Botanical Infusion",
-      "description": "<p><strong>需求</strong> 你已绘制一个嬗变法阵。</p><hr /><p>你深知只要方法得当，自然之物极易被灌注嬗变的性质。你使用 @UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金} 制造一株只需单一动作即可启动、且以单一生物为目标的炼金植物。若你的下一个动作是近战 @UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，你便在该次物质冲击的过程中启动这株炼金植物。若你的物质冲击成功，你便以该炼金植物的启动效果指向那只生物，如同你亲自启动了它一般。 </p><hr /><p><strong>特殊</strong> 若你拥有 @UUID[Compendium.pf2e-team-plus-alchemists.pf2e-items.JyzIw4d39QUbVsBS]{触发生长} 炼金术士专长，你可以改为以此效果使用单一动作的触发生长，把你近战物质冲击的效果延后到你花费反应、指向触发了你植物的那只生物之时。若你已有多重攻击减值，你的物质冲击将承受你使用触发生长时所具有的多重攻击减值。这是少数几种在非你回合时也适用多重攻击减值的情形之一。</p>"
+      "description": "<p><strong>需求</strong> 你已绘制一个嬗变法阵。</p><hr /><p>你深知只要方法得当，自然之物极易被灌注嬗变的性质。你使用 @UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金} 制造一株只需单一动作即可启动、且以单一生物为目标的炼金植物。若你的下一个动作是近战 @UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，你便在该次物质冲击的过程中启动这株炼金植物。若你的物质冲击成功，你便以该炼金植物的启动效果指向那只生物，如同你亲自启动了它一般。 </p><hr /><p><strong>特殊</strong> 若你拥有 @UUID[Compendium.pf2e-team-plus-alchemists.pf2e-items.JyzIw4d39QUbVsBS]{触发生长} 炼金术士专长，你可以改为以此效果使用单一动作的触发生长，把你近战物质冲击的效果延后到你花费反应、指向触发了你植物的那只生物之时。若你已有多重攻击减值，你的物质冲击将承受你使用触发生长时所具有的多重攻击减值。这是少数几种在非你回合时也适用多重攻击减值的情形之一。</p>",
+      "prerequisites": [
+        {
+          "value": "点金术士入门"
+        }
+      ]
     },
     "Bottle-O-Ooze (Greater)": {
       "name": "软泥瓶（高级） Bottle-O-Ooze (Greater)",
@@ -327,7 +357,12 @@
     },
     "Chrysopoet Dedication": {
       "name": "点金术士入门 Chrysopoet Dedication",
-      "description": "<p>你将炼金物品的力量与自身转化之力融为一体，把你的技艺与特定炼金物品强力地结合起来。选择一个 4 级的点金术士变体注能专长。你获得该专长，并忽略其等级先决条件。</p>"
+      "description": "<p>你将炼金物品的力量与自身转化之力融为一体，把你的技艺与特定炼金物品强力地结合起来。选择一个 4 级的点金术士变体注能专长。你获得该专长，并忽略其等级先决条件。</p>",
+      "prerequisites": [
+        {
+          "value": "物质转化器"
+        }
+      ]
     },
     "Circumventing Agents": {
       "name": "规避试剂 Circumventing Agents",
@@ -391,7 +426,12 @@
     },
     "Consumptive Infusion": {
       "name": "食用灌注 Consumptive Infusion",
-      "description": "<p>通过将一座法阵转移到食物的制作之中，你可以把嬗变之力灌注给他人。若你的下一个动作是使用 @UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，你可以将一份炼金食物或一份灵药而非一个生物作为目标。当某个生物吃下或喝下你所指定的物品时，它可以使用你的物质冲击一次；这一使用机会在效果的持续时间结束时、或自你以食用灌注指定该物品起满 1 天后失效。吃下它的生物无需绘制嬗变法阵即可使用物质冲击。该生物以你的数据来结算效果，但涌动攻击骰改用它自己的体质调整值，而非你的智力调整值。吃下或喝下灌注了物质冲击的物品的生物，在 1 天内不能再吃下另一份。</p>"
+      "description": "<p>通过将一座法阵转移到食物的制作之中，你可以把嬗变之力灌注给他人。若你的下一个动作是使用 @UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，你可以将一份炼金食物或一份灵药而非一个生物作为目标。当某个生物吃下或喝下你所指定的物品时，它可以使用你的物质冲击一次；这一使用机会在效果的持续时间结束时、或自你以食用灌注指定该物品起满 1 天后失效。吃下它的生物无需绘制嬗变法阵即可使用物质冲击。该生物以你的数据来结算效果，但涌动攻击骰改用它自己的体质调整值，而非你的智力调整值。吃下或喝下灌注了物质冲击的物品的生物，在 1 天内不能再吃下另一份。</p>",
+      "prerequisites": [
+        {
+          "value": "点金术士入门"
+        }
+      ]
     },
     "Craft Alkahest": {
       "name": "制作万能溶剂 Craft Alkahest",
@@ -423,7 +463,12 @@
     },
     "Distant Circle": {
       "name": "远距法阵 Distant Circle",
-      "description": "<p><strong>成本</strong> 1 份万用制剂 </p><p><strong>需求</strong> 你已在某个区域内绘制了一座法阵。 </p><hr /><p>你可以运用双向法阵的技法，在远处引动物质操控。直到你的下个回合开始为止，你都可以使用在 30 尺内某座法阵中准备好的涌动。 </p><p>就该涌动而言，你以你法阵区域内的一个方格作为起点，而非你自己所在的方格。</p>"
+      "description": "<p><strong>成本</strong> 1 份万用制剂 </p><p><strong>需求</strong> 你已在某个区域内绘制了一座法阵。 </p><hr /><p>你可以运用双向法阵的技法，在远处引动物质操控。直到你的下个回合开始为止，你都可以使用在 30 尺内某座法阵中准备好的涌动。 </p><p>就该涌动而言，你以你法阵区域内的一个方格作为起点，而非你自己所在的方格。</p>",
+      "prerequisites": [
+        {
+          "value": "点金术士入门"
+        }
+      ]
     },
     "Distilled Linnorm": {
       "name": "蒸馏蛇龙 Distilled Linnorm",
@@ -503,11 +548,21 @@
     },
     "Explosive Infusion": {
       "name": "爆裂灌注 Explosive Infusion",
-      "description": "<p><strong>需求</strong> 你已绘制了一个嬗变法阵。 </p><hr /><p>你将手边的爆炸物灌注进你的冲击之中。你使用@UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金}制造一颗炸弹。若你的下一个动作是@UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，则目标受到该炸弹的影响，其结果与你物质冲击的结果相同。若该炸弹造成伤害，你可以选择让你的物质冲击造成与炸弹相同类型的伤害，或保留其通常的伤害类型。若该炸弹具有溅射特征，则你照常造成溅射伤害，并以你物质冲击的目标作为该炸弹的目标。</p>"
+      "description": "<p><strong>需求</strong> 你已绘制了一个嬗变法阵。 </p><hr /><p>你将手边的爆炸物灌注进你的冲击之中。你使用@UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金}制造一颗炸弹。若你的下一个动作是@UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，则目标受到该炸弹的影响，其结果与你物质冲击的结果相同。若该炸弹造成伤害，你可以选择让你的物质冲击造成与炸弹相同类型的伤害，或保留其通常的伤害类型。若该炸弹具有溅射特征，则你照常造成溅射伤害，并以你物质冲击的目标作为该炸弹的目标。</p>",
+      "prerequisites": [
+        {
+          "value": "点金术士入门"
+        }
+      ]
     },
     "Extemporized Strikes": {
       "name": "即兴打击 Extemporized Strikes",
-      "description": "<p>你能用各式各样的物品迅速发动攻击。当你通过交互取出一件炼金物品、取出一瓶万用制剂，或使用@UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金}制造一件炼金物品时，你还可以将该物品当作临时武器进行一次近战打击。若你拥有能用高速炼金一次制造多件物品的能力（例如双重调制职业特性），你只能用其中一件所造物品进行打击。</p><p>若你正受益于@UUID[Compendium.pf2e.equipment-srd.FNDq4NFSN0g2HKWO]{重拳缠手带}，则在缠手带的物品加值更高时改用缠手带的物品加值，并可以选择改用它的伤害骰数量。若你使用缠手带的武器伤害骰数量，缠手带上的性能符文也同样生效，前提是这些符文能够适用于该临时武器（由GM裁定）。</p>"
+      "description": "<p>你能用各式各样的物品迅速发动攻击。当你通过交互取出一件炼金物品、取出一瓶万用制剂，或使用@UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金}制造一件炼金物品时，你还可以将该物品当作临时武器进行一次近战打击。若你拥有能用高速炼金一次制造多件物品的能力（例如双重调制职业特性），你只能用其中一件所造物品进行打击。</p><p>若你正受益于@UUID[Compendium.pf2e.equipment-srd.FNDq4NFSN0g2HKWO]{重拳缠手带}，则在缠手带的物品加值更高时改用缠手带的物品加值，并可以选择改用它的伤害骰数量。若你使用缠手带的武器伤害骰数量，缠手带上的性能符文也同样生效，前提是这些符文能够适用于该临时武器（由GM裁定）。</p>",
+      "prerequisites": [
+        {
+          "value": "实验师研究课题或无招武师"
+        }
+      ]
     },
     "Ferromagnetizer Ammunition": {
       "name": "铁磁弹药 Ferromagnetizer Ammunition",
@@ -531,7 +586,12 @@
     },
     "Genic Infusion": {
       "name": "基因灌注 Genic Infusion",
-      "description": "<p><strong>需求</strong> 你已绘制好一座嬗变法阵。 </p><hr /><p>只要施用得当，你转化的就不只是物质，还有你自己。你使用@UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金}制造一份突变药剂。若你的下一个动作是@UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，你改为启动该突变药剂以取代物质冲击的常规效果，并在突变药剂的持续时间内获得你物质冲击的元素特征。在突变药剂的效果持续期间，你的物质冲击每有一个伤害骰，你的无武装攻击便额外造成 1 点伤害。这份额外伤害与你的物质冲击的伤害类型相同。</p>"
+      "description": "<p><strong>需求</strong> 你已绘制好一座嬗变法阵。 </p><hr /><p>只要施用得当，你转化的就不只是物质，还有你自己。你使用@UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金}制造一份突变药剂。若你的下一个动作是@UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，你改为启动该突变药剂以取代物质冲击的常规效果，并在突变药剂的持续时间内获得你物质冲击的元素特征。在突变药剂的效果持续期间，你的物质冲击每有一个伤害骰，你的无武装攻击便额外造成 1 点伤害。这份额外伤害与你的物质冲击的伤害类型相同。</p>",
+      "prerequisites": [
+        {
+          "value": "点金术士入门"
+        }
+      ]
     },
     "Goblin Mixto": {
       "name": "哥布林三明治 Goblin Mixto",
@@ -687,7 +747,12 @@
     },
     "Monstrous Infusion": {
       "name": "怪物灌注 Monstrous Infusion",
-      "description": "<p><strong>需求</strong> 你已绘制一座嬗变法阵。</p><hr /><p>你以你所选元素的力量灌注一份瓶装怪物。你使用 @UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金} 制造一份启动所需动作不超过 2 个的瓶装怪物。若你的下一个动作是 @UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，则你启动所选的瓶装怪物，以取代你物质冲击的通常效果。若你的涌动 DC 更高，你可以用它取代该瓶装怪物效果的 DC。你的瓶装怪物获得相应的元素特征，并在其效果结束时使用一次物质冲击。你使用自己的调整值与数据来进行该物质冲击，如常施加你的多重攻击减值，并以瓶装怪物所创造之生物的位置来判定射程以及任何适用的掩蔽。若该瓶装怪物造成伤害，则其伤害类型变为与你的物质冲击相同的伤害类型。</p>"
+      "description": "<p><strong>需求</strong> 你已绘制一座嬗变法阵。</p><hr /><p>你以你所选元素的力量灌注一份瓶装怪物。你使用 @UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金} 制造一份启动所需动作不超过 2 个的瓶装怪物。若你的下一个动作是 @UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，则你启动所选的瓶装怪物，以取代你物质冲击的通常效果。若你的涌动 DC 更高，你可以用它取代该瓶装怪物效果的 DC。你的瓶装怪物获得相应的元素特征，并在其效果结束时使用一次物质冲击。你使用自己的调整值与数据来进行该物质冲击，如常施加你的多重攻击减值，并以瓶装怪物所创造之生物的位置来判定射程以及任何适用的掩蔽。若该瓶装怪物造成伤害，则其伤害类型变为与你的物质冲击相同的伤害类型。</p>",
+      "prerequisites": [
+        {
+          "value": "点金术士入门"
+        }
+      ]
     },
     "Moonlight Chocolate": {
       "name": "月光巧克力 Moonlight Chocolate",
@@ -903,7 +968,12 @@
     },
     "Refined Circle": {
       "name": "精炼法阵 Refined Circle",
-      "description": "<p>你已把对某一种元素的掌控磨练到极致，因而能在物质守恒上做到分毫不差。选择一种你能为嬗变法阵准备的元素。此选择一经作出便不可更改。当你在每日准备中绘制嬗变法阵时，只要该法阵只含单一元素，你就可以为所选元素一次造出两个嬗变法阵，而非一个。你在每日准备中想为多少个嬗变法阵这样做都可以。</p>"
+      "description": "<p>你已把对某一种元素的掌控磨练到极致，因而能在物质守恒上做到分毫不差。选择一种你能为嬗变法阵准备的元素。此选择一经作出便不可更改。当你在每日准备中绘制嬗变法阵时，只要该法阵只含单一元素，你就可以为所选元素一次造出两个嬗变法阵，而非一个。你在每日准备中想为多少个嬗变法阵这样做都可以。</p>",
+      "prerequisites": [
+        {
+          "value": "点金术士入门"
+        }
+      ]
     },
     "Revitalizing Bun": {
       "name": "焕活面包 Revitalizing Bun",
@@ -1015,11 +1085,21 @@
     },
     "Toxic Infusion": {
       "name": "毒性灌注 Toxic Infusion",
-      "description": "<p><strong>需求</strong> 你已绘制好一座嬗变法阵。 </p><hr /><p>你懂得如何为物质注入毒性，把元素嬗变得剧毒无比。你使用 @UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金} 制造一份毒素。若你的下一个动作是 @UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，且该次物质冲击成功，则目标受到该毒素影响。若你的涌动 DC 更高，你可以用它取代该毒素的 DC。若该生物对毒素免疫，或改换伤害类型对它更为不利，你可以选择让它承受你物质冲击的伤害类型而非毒素伤害；但这样做时伤害减半。</p>"
+      "description": "<p><strong>需求</strong> 你已绘制好一座嬗变法阵。 </p><hr /><p>你懂得如何为物质注入毒性，把元素嬗变得剧毒无比。你使用 @UUID[Compendium.pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{高速炼金} 制造一份毒素。若你的下一个动作是 @UUID[Compendium.pf2e-team-plus-alchemists.pf2e-misc.b0rUgPxpYA7KDCSl]{物质冲击}，且该次物质冲击成功，则目标受到该毒素影响。若你的涌动 DC 更高，你可以用它取代该毒素的 DC。若该生物对毒素免疫，或改换伤害类型对它更为不利，你可以选择让它承受你物质冲击的伤害类型而非毒素伤害；但这样做时伤害减半。</p>",
+      "prerequisites": [
+        {
+          "value": "点金术士入门"
+        }
+      ]
     },
     "Transmutation Expansion": {
       "name": "嬗变扩展 Transmutation Expansion",
-      "description": "<p>你精进了运用嬗变法阵的技艺，得以驾驭更高层次的物质操控。当你准备一座嬗变法阵时，你可以选择在阵中额外准备一个记载于你配方簿中的涌动。该涌动所属的元素必须是该阵能够准备的元素。</p>"
+      "description": "<p>你精进了运用嬗变法阵的技艺，得以驾驭更高层次的物质操控。当你准备一座嬗变法阵时，你可以选择在阵中额外准备一个记载于你配方簿中的涌动。该涌动所属的元素必须是该阵能够准备的元素。</p>",
+      "prerequisites": [
+        {
+          "value": "点金术士入门"
+        }
+      ]
     },
     "Transmute Metals": {
       "name": "嬗变金属 Transmute Metals",
@@ -1035,7 +1115,12 @@
     },
     "Ultimate Transmutation": {
       "name": "终极嬗变 Ultimate Transmutation",
-      "description": "<p>你掌握了一项对绝大多数人而言全然不可能的嬗变。选择一个等级需求不高于本专长等级的御能师涌动专长，把它加入你的配方簿。你可以像准备其他涌动那样，把该涌动准备进你的嬗变法阵中。 </p><hr /><p><strong>特殊</strong> 你可以多次选择本专长。每次选择时，你都获得另一个御能师涌动专长。</p>"
+      "description": "<p>你掌握了一项对绝大多数人而言全然不可能的嬗变。选择一个等级需求不高于本专长等级的御能师涌动专长，把它加入你的配方簿。你可以像准备其他涌动那样，把该涌动准备进你的嬗变法阵中。 </p><hr /><p><strong>特殊</strong> 你可以多次选择本专长。每次选择时，你都获得另一个御能师涌动专长。</p>",
+      "prerequisites": [
+        {
+          "value": "点金术士入门"
+        }
+      ]
     },
     "Ultratoxic Ammunition": {
       "name": "超毒弹药 Ultratoxic Ammunition",
@@ -1102,5 +1187,15 @@
     "Chrysopoet Feats": "点金术士专长 Chrysopoet Feats",
     "New Alchemical Food": "新增炼金食物 New Alchemical Food",
     "New Alchemical Ammunition": "新增炼金弹药 New Alchemical Ammunition"
+  },
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
   }
 }

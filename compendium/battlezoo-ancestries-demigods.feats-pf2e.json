@@ -11,15 +11,30 @@
     },
     "Delve into Domain": {
       "name": "深究领域 Delve into Domain",
-      "description": "<p>你更深入地发掘自身与领域的联系，从而获得更多力量。你可以每日一次，将通过@UUID[Compendium.battlezoo-ancestries-demigods.feats-pf2e.Item.iTfFkwf2wszK6noS]{借取领域之力}选择的领域所赋予的4环级领域法术作为神术天生法术施放。如此施放时，它是天生法术而非聚能法术，因此不消耗聚能点。</p>"
+      "description": "<p>你更深入地发掘自身与领域的联系，从而获得更多力量。你可以每日一次，将通过@UUID[Compendium.battlezoo-ancestries-demigods.feats-pf2e.Item.iTfFkwf2wszK6noS]{借取领域之力}选择的领域所赋予的4环级领域法术作为神术天生法术施放。如此施放时，它是天生法术而非聚能法术，因此不消耗聚能点。</p>",
+      "prerequisites": [
+        {
+          "value": "借取领域之力"
+        }
+      ]
     },
     "Wanderer's Sacred Animal Form": {
       "name": "漫游者圣兽形态 Wanderer's Sacred Animal Form",
-      "description": "<p>你能变为一种与你的圣兽相符的特定形态，作为和平使者，并使用该动物的特殊移动方式。这个形态独特而鲜明，每次变化都完全相同。你的动物形态带有某种通常不太显眼的超自然迹象，表明它非同寻常或与你的信仰有关，例如毛皮、鳞片或羽毛上出现小小的宗教徽记，或在光照下闪烁光芒。使用漫游者圣兽形态视为为欺骗的@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}用途制作伪装，但只能变为你的这一替代形态。在此动物形态下，你获得4环级@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]的数据，但体型与你的圣兽相同，不一定是微型；并且获得该圣兽通常具有的攀爬、飞行、陆地和游泳速度，各项均为20尺。你可以无限期维持此替代形态，再次使用此动作即可恢复真实形态。</p><hr /><p><strong>特殊</strong> 若你拥有@UUID[Compendium.battlezoo-ancestries-demigods.feats-pf2e.Item.VrtV8s8XtMc4fQQl]{圣兽形态}专长，可以立即将其重新训练为其他专长。</p>"
+      "description": "<p>你能变为一种与你的圣兽相符的特定形态，作为和平使者，并使用该动物的特殊移动方式。这个形态独特而鲜明，每次变化都完全相同。你的动物形态带有某种通常不太显眼的超自然迹象，表明它非同寻常或与你的信仰有关，例如毛皮、鳞片或羽毛上出现小小的宗教徽记，或在光照下闪烁光芒。使用漫游者圣兽形态视为为欺骗的@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}用途制作伪装，但只能变为你的这一替代形态。在此动物形态下，你获得4环级@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]的数据，但体型与你的圣兽相同，不一定是微型；并且获得该圣兽通常具有的攀爬、飞行、陆地和游泳速度，各项均为20尺。你可以无限期维持此替代形态，再次使用此动作即可恢复真实形态。</p><hr /><p><strong>特殊</strong> 若你拥有@UUID[Compendium.battlezoo-ancestries-demigods.feats-pf2e.Item.VrtV8s8XtMc4fQQl]{圣兽形态}专长，可以立即将其重新训练为其他专长。</p>",
+      "prerequisites": [
+        {
+          "value": "你的圣兽拥有攀爬、飞行或游泳速度，且为中型或更小体型"
+        }
+      ]
     },
     "Divine Emissary Spell": {
       "name": "神授使者法术 Divine Emissary Spell",
-      "description": "<p>你获得了第三个符合自身宗教的法术，最虔诚的牧师可以学会它，你也可以每日亲自施放。从任意法术列表中选择一个4环级或5环级法术；大多数半神会选择神术列表之外的法术，因为这样对牧师更有帮助，但若你愿意，也可以不顾牧师的抗议，选择神术列表中的法术。你可以每日一次将其作为神术天生法术施放；若选择的是持续时间不超过1分钟的4环级法术，则可以改为每小时一次，将其作为神术天生法术施放。即使此法术不在神术法术列表中，你的牧师也可以准备它，并将其作为神术法术施放。</p>"
+      "description": "<p>你获得了第三个符合自身宗教的法术，最虔诚的牧师可以学会它，你也可以每日亲自施放。从任意法术列表中选择一个4环级或5环级法术；大多数半神会选择神术列表之外的法术，因为这样对牧师更有帮助，但若你愿意，也可以不顾牧师的抗议，选择神术列表中的法术。你可以每日一次将其作为神术天生法术施放；若选择的是持续时间不超过1分钟的4环级法术，则可以改为每小时一次，将其作为神术天生法术施放。即使此法术不在神术法术列表中，你的牧师也可以准备它，并将其作为神术法术施放。</p>",
+      "prerequisites": [
+        {
+          "value": "神授进阶法术"
+        }
+      ]
     },
     "Favored Weapon Familiarity": {
       "name": "偏好武器熟悉 Favored Weapon Familiarity",
@@ -31,7 +46,12 @@
     },
     "Orisons of Power": {
       "name": "神能祷言 Orisons of Power",
-      "description": "<p>你能够汲取比普通半神更多的神术戏法。每天你可以选择两个而非一个神术戏法，作为神术天生法术施放。</p>"
+      "description": "<p>你能够汲取比普通半神更多的神术戏法。每天你可以选择两个而非一个神术戏法，作为神术天生法术施放。</p>",
+      "prerequisites": [
+        {
+          "value": "准神之力族裔能力"
+        }
+      ]
     },
     "Keeper of Prayers": {
       "name": "祈祷守望者 Keeper of Prayers",
@@ -51,7 +71,12 @@
     },
     "Sacred Animal Form": {
       "name": "圣兽形态 Sacred Animal Form",
-      "description": "<p>你能变为一种与你的圣兽相符的特定形态，作为和平使者。这个形态独特而鲜明，每次变化都完全相同。你的动物形态带有某种通常不太显眼的超自然迹象，表明它非同寻常或与你的信仰有关，例如毛皮、鳞片或羽毛上出现小小的宗教徽记，或在光照下闪烁光芒。使用圣兽形态视为为欺骗的@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}用途制作伪装，但只能变为你的这一替代形态。在此动物形态下，你获得1环级@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]的数据，但体型与你的圣兽相同，不一定是微型；若圣兽是水生动物，你获得20尺游泳速度，且没有陆地速度。与通常的1环级<em>害兽形态</em>相同，即使圣兽平时拥有其他速度，你也不会获得。你可以无限期维持此替代形态，再次使用此动作即可恢复真实形态。</p>"
+      "description": "<p>你能变为一种与你的圣兽相符的特定形态，作为和平使者。这个形态独特而鲜明，每次变化都完全相同。你的动物形态带有某种通常不太显眼的超自然迹象，表明它非同寻常或与你的信仰有关，例如毛皮、鳞片或羽毛上出现小小的宗教徽记，或在光照下闪烁光芒。使用圣兽形态视为为欺骗的@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}用途制作伪装，但只能变为你的这一替代形态。在此动物形态下，你获得1环级@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]的数据，但体型与你的圣兽相同，不一定是微型；若圣兽是水生动物，你获得20尺游泳速度，且没有陆地速度。与通常的1环级<em>害兽形态</em>相同，即使圣兽平时拥有其他速度，你也不会获得。你可以无限期维持此替代形态，再次使用此动作即可恢复真实形态。</p>",
+      "prerequisites": [
+        {
+          "value": "你的圣兽为中型或更小体型"
+        }
+      ]
     },
     "Divine Flight": {
       "name": "神力飞行 Divine Flight",
@@ -63,11 +88,21 @@
     },
     "Favored Weapon Critical": {
       "name": "偏好武器重击 Favored Weapon Critical",
-      "description": "<p>你能充分发挥偏好武器重击的威力。你获得偏好武器的重击专精效果。</p>"
+      "description": "<p>你能充分发挥偏好武器重击的威力。你获得偏好武器的重击专精效果。</p>",
+      "prerequisites": [
+        {
+          "value": "偏好武器熟悉"
+        }
+      ]
     },
     "Mortal Roots": {
       "name": "凡人根源 Mortal Roots",
-      "description": "<p>无论你作为神祇成长到何种境界，都不会忘记自己的凡人根源。你获得针对凡人之身族裔能力所选族裔的@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊}通用专长，并额外获得该族裔的一个1级族裔专长。</p>"
+      "description": "<p>无论你作为神祇成长到何种境界，都不会忘记自己的凡人根源。你获得针对凡人之身族裔能力所选族裔的@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊}通用专长，并额外获得该族裔的一个1级族裔专长。</p>",
+      "prerequisites": [
+        {
+          "value": "凡人之身族裔能力"
+        }
+      ]
     },
     "Draw Upon Domain": {
       "name": "借取领域之力 Draw Upon Domain",
@@ -79,15 +114,30 @@
     },
     "Divine Hierophant Spell": {
       "name": "神授大祭司法术 Divine Hierophant Spell",
-      "description": "<p>你获得了第三个（也可能是第四个）符合自身宗教的法术，信仰中真正的圣徒与大祭司可以学会它，你也可以每日亲自施放。从任意法术列表中选择一个6环级或7环级法术；大多数半神会选择神术列表之外的法术，因为这样对牧师更有帮助，但若你愿意，也可以不顾牧师的反对，选择神术列表中的法术。你可以每日一次将其作为神术天生法术施放；若选择的是持续时间不超过1分钟的6环级法术，则可以改为每小时一次，将其作为神术天生法术施放。即使此法术不在神术法术列表中，你的牧师也可以准备它，并将其作为神术法术施放。</p><hr /><p><strong>特殊</strong> 大多数半神不会同时获得本专长和@UUID[Compendium.battlezoo-ancestries-demigods.feats-pf2e.Item.7G3CFjVXSRSj7K1L]{神授使者法术}。若你两者皆有，可能正在逐渐成为一位能赐予格外多神祇法术的魔法之神。</p>"
+      "description": "<p>你获得了第三个（也可能是第四个）符合自身宗教的法术，信仰中真正的圣徒与大祭司可以学会它，你也可以每日亲自施放。从任意法术列表中选择一个6环级或7环级法术；大多数半神会选择神术列表之外的法术，因为这样对牧师更有帮助，但若你愿意，也可以不顾牧师的反对，选择神术列表中的法术。你可以每日一次将其作为神术天生法术施放；若选择的是持续时间不超过1分钟的6环级法术，则可以改为每小时一次，将其作为神术天生法术施放。即使此法术不在神术法术列表中，你的牧师也可以准备它，并将其作为神术法术施放。</p><hr /><p><strong>特殊</strong> 大多数半神不会同时获得本专长和@UUID[Compendium.battlezoo-ancestries-demigods.feats-pf2e.Item.7G3CFjVXSRSj7K1L]{神授使者法术}。若你两者皆有，可能正在逐渐成为一位能赐予格外多神祇法术的魔法之神。</p>",
+      "prerequisites": [
+        {
+          "value": "神授进阶法术"
+        }
+      ]
     },
     "Divine Adept Spell": {
       "name": "神授进阶法术 Divine Adept Spell",
-      "description": "<p>你又获得了一个符合自身宗教的特殊法术，经验丰富的牧师可以学会它，你也可以每日亲自施放。从任意法术列表中选择一个2环级或3环级法术；大多数半神会选择神术列表之外的法术，因为这样对牧师更有帮助，但若你愿意，也可以不顾牧师的怒视，选择神术列表中的法术。你可以每日一次将其作为神术天生法术施放；若选择的是持续时间不超过1分钟的2环级法术，则可以改为每小时一次，将其作为神术天生法术施放。即使此法术不在神术法术列表中，你的牧师也可以准备它，并将其作为神术法术施放。</p>"
+      "description": "<p>你又获得了一个符合自身宗教的特殊法术，经验丰富的牧师可以学会它，你也可以每日亲自施放。从任意法术列表中选择一个2环级或3环级法术；大多数半神会选择神术列表之外的法术，因为这样对牧师更有帮助，但若你愿意，也可以不顾牧师的怒视，选择神术列表中的法术。你可以每日一次将其作为神术天生法术施放；若选择的是持续时间不超过1分钟的2环级法术，则可以改为每小时一次，将其作为神术天生法术施放。即使此法术不在神术法术列表中，你的牧师也可以准备它，并将其作为神术法术施放。</p>",
+      "prerequisites": [
+        {
+          "value": "神授入门法术"
+        }
+      ]
     },
     "Perpetual Flight": {
       "name": "恒久飞行 Perpetual Flight",
-      "description": "<p>你的飞行能力永久生效。你始终获得神力飞行的效果，而非每天只能使用一次、持续10分钟。使用神力飞行时，你的飞行速度在其持续时间内获得+20尺状态加值。</p>"
+      "description": "<p>你的飞行能力永久生效。你始终获得神力飞行的效果，而非每天只能使用一次、持续10分钟。使用神力飞行时，你的飞行速度在其持续时间内获得+20尺状态加值。</p>",
+      "prerequisites": [
+        {
+          "value": "神力飞行"
+        }
+      ]
     },
     "Demigod's Hunch": {
       "name": "半神预感 Demigod's Hunch",
@@ -103,7 +153,12 @@
     },
     "You're Welcome!": {
       "name": "不必客气！ You're Welcome!",
-      "description": "<p>身为半神，你知道如何充分利用满足他人愿望的神力展示。你的交涉熟练等级变为专家。当你用神力向其他生物提供他们所需的帮助或协助时，可以立即对其中至多10个生物进行交涉检定以@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}，获得+1环境加值（若你的交涉达到大师，则为+2环境加值），无需额外花费动作。若你拥有@UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{集体印象}技能专长，则使用本专长时，可以对通常通过该技能专长所能影响的两倍数量的生物建立印象，且仍无需额外花费动作。</p>"
+      "description": "<p>身为半神，你知道如何充分利用满足他人愿望的神力展示。你的交涉熟练等级变为专家。当你用神力向其他生物提供他们所需的帮助或协助时，可以立即对其中至多10个生物进行交涉检定以@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}，获得+1环境加值（若你的交涉达到大师，则为+2环境加值），无需额外花费动作。若你拥有@UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{集体印象}技能专长，则使用本专长时，可以对通常通过该技能专长所能影响的两倍数量的生物建立印象，且仍无需额外花费动作。</p>",
+      "prerequisites": [
+        {
+          "value": "交涉受训"
+        }
+      ]
     }
   },
   "folders": {
@@ -112,5 +167,15 @@
     "13th Level": "13级 13th Level",
     "1st Level": "1级 1st Level",
     "5th Level": "5级 5th Level"
+  },
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
   }
 }

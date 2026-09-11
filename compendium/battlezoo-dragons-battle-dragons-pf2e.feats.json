@@ -3,15 +3,30 @@
   "entries": {
     "To War!": {
       "name": "开战！ To War!",
-      "description": "<p>你能筹划战斗、部署盟友，让他们更快推进。你获得@UUID[Compendium.pf2e.feats-srd.Item.qvLcZGsV0HP2O0CG]{作战参谋}技能专长作为奖励专长。当你用作战参谋以战争学识进行先攻检定时，你的先攻检定获得+2环境加值；在战斗第一轮中晚于你行动的盟友，其各项速度获得+10尺状态加值，仅持续该轮。</p><p>@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.effects.Item.aEQHaUhBMuiXK2bw]{效果：开战！}</p>"
+      "description": "<p>你能筹划战斗、部署盟友，让他们更快推进。你获得@UUID[Compendium.pf2e.feats-srd.Item.qvLcZGsV0HP2O0CG]{作战参谋}技能专长作为奖励专长。当你用作战参谋以战争学识进行先攻检定时，你的先攻检定获得+2环境加值；在战斗第一轮中晚于你行动的盟友，其各项速度获得+10尺状态加值，仅持续该轮。</p><p>@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.effects.Item.aEQHaUhBMuiXK2bw]{效果：开战！}</p>",
+      "prerequisites": [
+        {
+          "value": "军阀龙传承"
+        }
+      ]
     },
     "Contract Negotiator": {
       "name": "协议交涉人 Contract Negotiator",
-      "description": "<p>你熟知正规合同谈判的门道，能避开常见的法律陷阱，懂得如何争取更好的条款，也能辨出他人的欺骗企图。你在交涉和欺骗上受训。若你已在这些技能上受训，则改为在另一项自选技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.Dvz54d6aPhjsmUux]{将计就计}技能专长作为奖励专长。</p>"
+      "description": "<p>你熟知正规合同谈判的门道，能避开常见的法律陷阱，懂得如何争取更好的条款，也能辨出他人的欺骗企图。你在交涉和欺骗上受训。若你已在这些技能上受训，则改为在另一项自选技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.Dvz54d6aPhjsmUux]{将计就计}技能专长作为奖励专长。</p>",
+      "prerequisites": [
+        {
+          "value": "佣兵龙传承"
+        }
+      ]
     },
     "Hunting Trophy": {
       "name": "狩猎战利品 Hunting Trophy",
-      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>需求</strong> 你邻接一具生物尸体；该生物由你在过去一小时内杀死，且其等级不低于你的等级减3。</p><hr /><p>你从自己杀死的、值得一战的生物身上收集部位，制作战利品。你获得等于你等级两倍的临时生命值，最多持续10分钟。</p>"
+      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>需求</strong> 你邻接一具生物尸体；该生物由你在过去一小时内杀死，且其等级不低于你的等级减3。</p><hr /><p>你从自己杀死的、值得一战的生物身上收集部位，制作战利品。你获得等于你等级两倍的临时生命值，最多持续10分钟。</p>",
+      "prerequisites": [
+        {
+          "value": "狩猎龙传承"
+        }
+      ]
     },
     "Venomous Spikes": {
       "name": "剧毒尖刺 Venomous Spikes",
@@ -19,191 +34,519 @@
     },
     "Predatory Strike": {
       "name": "伺猎打击 Predatory Strike",
-      "description": "<p><strong>触发</strong> 你触及范围内的一个生物，原本因自身行动而对你处于无踪或@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}状态，现在变为对你可见。</p><hr /><p>你抓住看见猎物的瞬间发起攻击。用龙族族裔提供的一种无武装攻击，对触发生物进行一次近战打击。</p>"
+      "description": "<p><strong>触发</strong> 你触及范围内的一个生物，原本因自身行动而对你处于无踪或@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}状态，现在变为对你可见。</p><hr /><p>你抓住看见猎物的瞬间发起攻击。用龙族族裔提供的一种无武装攻击，对触发生物进行一次近战打击。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "狩猎龙传承"
+        }
+      ]
     },
     "Smell Fear": {
       "name": "嗅出恐惧 Smell Fear",
-      "description": "<p>对你的感官而言，恐惧清晰可辨，让你更容易察知和找到正感到恐惧的生物。你感知惊惧生物的能力由朦胧感官变为模糊感官。你用于@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}具有@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]状态的生物，以及通过@UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{察言观色}辨认恐惧迹象的察觉检定，均获得+2环境加值；你用于对抗惊惧生物@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{躲藏}和@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}的察觉DC也获得该加值。处于惊惧且位于你嗅觉范围内的@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}生物，对你而言是@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}的；此益处不适用于@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]生物。</p>"
+      "description": "<p>对你的感官而言，恐惧清晰可辨，让你更容易察知和找到正感到恐惧的生物。你感知惊惧生物的能力由朦胧感官变为模糊感官。你用于@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}具有@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]状态的生物，以及通过@UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{察言观色}辨认恐惧迹象的察觉检定，均获得+2环境加值；你用于对抗惊惧生物@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{躲藏}和@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}的察觉DC也获得该加值。处于惊惧且位于你嗅觉范围内的@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}生物，对你而言是@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}的；此益处不适用于@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]生物。</p>",
+      "prerequisites": [
+        {
+          "value": "巨龙嗅觉"
+        },
+        {
+          "value": "狩猎龙传承"
+        }
+      ]
     },
     "Warlord's Rally": {
       "name": "军阀集结 Warlord's Rally",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你号召盟友向你靠拢。在60尺内选择至多四个能够感知并理解你号令的盟友。他们可以立即用反应向你快步。若你花费两个动作，他们可以改为花费反应向你行进（若盟友具有相应速度，也可以掘地、攀爬、飞行或游泳）。</p>"
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你号召盟友向你靠拢。在60尺内选择至多四个能够感知并理解你号令的盟友。他们可以立即用反应向你快步。若你花费两个动作，他们可以改为花费反应向你行进（若盟友具有相应速度，也可以掘地、攀爬、飞行或游泳）。</p>",
+      "prerequisites": [
+        {
+          "value": "军阀龙传承"
+        }
+      ]
     },
     "Wing Parry": {
       "name": "翼格挡 Wing Parry",
-      "description": "<p>你举起一侧翅膀防御，使AC获得+1环境加值，直到你的下个回合开始。</p>"
+      "description": "<p>你举起一侧翅膀防御，使AC获得+1环境加值，直到你的下个回合开始。</p>",
+      "prerequisites": [
+        {
+          "value": "决斗龙或军阀龙传承"
+        }
+      ]
     },
     "Flick Turn": {
       "name": "甩尾转身 Flick Turn",
-      "description": "<p><strong>触发</strong> 一个生物与你另一侧的生物形成夹击，并对你进行近战打击。</p><hr /><p>你迅速转身面向触发生物，同时对你另一侧、为其提供夹击的盟友进行一次尾击。若重击，该生物不再为触发生物提供夹击。</p>"
+      "description": "<p><strong>触发</strong> 一个生物与你另一侧的生物形成夹击，并对你进行近战打击。</p><hr /><p>你迅速转身面向触发生物，同时对你另一侧、为其提供夹击的盟友进行一次尾击。若重击，该生物不再为触发生物提供夹击。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "决斗龙传承"
+        },
+        {
+          "value": "尾部无武装攻击"
+        }
+      ]
     },
     "Wrath Made Manifest": {
       "name": "愤怒显形 Wrath Made Manifest",
-      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你将内心怒火化为实质的火焰，保护自身。接下来的一分钟内，你获得等于你等级一半的火焰抗力（若你拥有@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.1hGu3cOJWT78kaOG]{龙族抗力}专长，则等于你的等级）。你的近战无武装攻击额外造成1d6火焰伤害。任何对你进行近战无武装攻击，或以接触距离法术触碰你的生物，都必须对抗你的职业DC与法术DC中较高者进行反射豁免，否则受到@Damage[3d6[persistent,fire]]伤害。你可以解消此效果。</p>"
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你将内心怒火化为实质的火焰，保护自身。接下来的一分钟内，你获得等于你等级一半的火焰抗力（若你拥有@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.1hGu3cOJWT78kaOG]{龙族抗力}专长，则等于你的等级）。你的近战无武装攻击额外造成1d6火焰伤害。任何对你进行近战无武装攻击，或以接触距离法术触碰你的生物，都必须对抗你的职业DC与法术DC中较高者进行反射豁免，否则受到@Damage[3d6[persistent,fire]]伤害。你可以解消此效果。</p>",
+      "prerequisites": [
+        {
+          "value": "狂怒龙传承"
+        }
+      ]
     },
     "Rage-Charged Breath": {
       "name": "灌怒龙息 Rage-Charged Breath",
-      "description": "<p>你能将怒火注入喷吐武器，烧出一条直达爆发区域的火线，点燃敌人。每小时一次，当你使用龙息时，除了爆发区域外，还会对通往爆发中心的一条线形区域造成伤害；豁免大失败的生物还会受到等于你等级的持续火焰伤害（@Damage[(@actor.level)[persistent,fire]]）。</p>"
+      "description": "<p>你能将怒火注入喷吐武器，烧出一条直达爆发区域的火线，点燃敌人。每小时一次，当你使用龙息时，除了爆发区域外，还会对通往爆发中心的一条线形区域造成伤害；豁免大失败的生物还会受到等于你等级的持续火焰伤害（@Damage[(@actor.level)[persistent,fire]]）。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "狂怒龙传承"
+        },
+        {
+          "value": "龙息"
+        }
+      ]
     },
     "Enraged Charge": {
       "name": "狂怒冲锋 Enraged Charge",
-      "description": "<p><strong>需求</strong> 你处于狂暴、受到@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.feats.Item.dsZw44O0LJxfUXoA]{愤怒显形}族裔专长影响，或正获得狂怒龙传承的伤害加值。</p><hr /><p>你怒气冲冲地向前猛冲，攻击周围的一切。你沿直线行走至多等于你速度的距离（若具有攀爬或游泳速度，也可以攀爬或游泳），随后对移动终点处触及范围内的所有生物各进行一次爪击。这些攻击引起的多次攻击减值在所有攻击结算完毕后才应用。</p>"
+      "description": "<p><strong>需求</strong> 你处于狂暴、受到@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.feats.Item.dsZw44O0LJxfUXoA]{愤怒显形}族裔专长影响，或正获得狂怒龙传承的伤害加值。</p><hr /><p>你怒气冲冲地向前猛冲，攻击周围的一切。你沿直线行走至多等于你速度的距离（若具有攀爬或游泳速度，也可以攀爬或游泳），随后对移动终点处触及范围内的所有生物各进行一次爪击。这些攻击引起的多次攻击减值在所有攻击结算完毕后才应用。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "野蛮人职业、野蛮人入门或愤怒显形"
+        },
+        {
+          "value": "狂怒龙传承"
+        }
+      ]
     },
     "Battle Invigorated": {
       "name": "战斗振奋 Battle Invigorated",
-      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你激活自身的自然愈合能力，获得再生。你获得再生15，持续1分钟，在你的每个回合开始时恢复15生命值。具有再生时，你不会因受到生命值伤害而死亡，濒死状态也不会增加到足以致死的数值（通常会止于濒死3）；不过，若你的受伤值达到4或更高，你会一直@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，直到伤势得到治疗。若你受到虚能伤害，再生会停用，直到你的下个回合结束后才恢复。每次你通过再生恢复生命值时，还会再生一个受损或毁坏的器官（若有）。效果持续期间，你还可以花费一个交互动作，将断肢抵在断口处，把它重新接回身体。</p>"
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你激活自身的自然愈合能力，获得再生。你获得再生15，持续1分钟，在你的每个回合开始时恢复15生命值。具有再生时，你不会因受到生命值伤害而死亡，濒死状态也不会增加到足以致死的数值（通常会止于濒死3）；不过，若你的受伤值达到4或更高，你会一直@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，直到伤势得到治疗。若你受到虚能伤害，再生会停用，直到你的下个回合结束后才恢复。每次你通过再生恢复生命值时，还会再生一个受损或毁坏的器官（若有）。效果持续期间，你还可以花费一个交互动作，将断肢抵在断口处，把它重新接回身体。</p>",
+      "prerequisites": [
+        {
+          "value": "决斗龙传承"
+        }
+      ]
     },
     "Return the Gesture": {
       "name": "回敬一招 Return the Gesture",
-      "description": "<p><strong>触发</strong> 敌人使用通用技能动作，对抗你的强韧、反射或意志DC进行技能检定并成功；该动作不能来自专长或特殊能力</p><hr /><p>敌人的巧思令你赞叹，于是你回敬自己的招数。你立即尝试对触发生物使用相同的技能动作。</p>"
+      "description": "<p><strong>触发</strong> 敌人使用通用技能动作，对抗你的强韧、反射或意志DC进行技能检定并成功；该动作不能来自专长或特殊能力</p><hr /><p>敌人的巧思令你赞叹，于是你回敬自己的招数。你立即尝试对触发生物使用相同的技能动作。</p>",
+      "prerequisites": [
+        {
+          "value": "决斗龙传承"
+        }
+      ]
     },
     "Escape Clause": {
       "name": "脱身条款 Escape Clause",
-      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>触发</strong> 你进行先攻检定。</p><hr /><p>你向盟友发誓绝不抛弃他们，或向自己许诺，战斗结束后还有未竟之事。本次遭遇中你第一次降至0生命值时，只要并非源于死亡效果、解离或类似的即刻杀死你或摧毁肉体的效果，你就改为保持清醒、保有1生命值，并使你的@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]值增加1；此效果自动生效，无须反应。</p>"
+      "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>触发</strong> 你进行先攻检定。</p><hr /><p>你向盟友发誓绝不抛弃他们，或向自己许诺，战斗结束后还有未竟之事。本次遭遇中你第一次降至0生命值时，只要并非源于死亡效果、解离或类似的即刻杀死你或摧毁肉体的效果，你就改为保持清醒、保有1生命值，并使你的@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]值增加1；此效果自动生效，无须反应。</p>",
+      "prerequisites": [
+        {
+          "value": "佣兵龙传承"
+        }
+      ]
     },
     "Promises Made": {
       "name": "许下承诺 Promises Made",
-      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你知道该给出怎样的诱因，让别人帮你一个忙，甚至为你而战……当然，心灵契约魔法也出了力。选择60尺内你能观察到的一个生物，与其达成交易，提出诱人的报酬，换取它按你的要求行事。该生物必须对抗你的法术DC进行一次@Check[will|against:spell]豁免检定。若它听不懂你说的话，豁免检定获得+4环境加值；若所提报酬对它毫无价值，也获得该环境加值（若报酬有价值但不足以匹配所要求的任务，GM也可以决定改为给予+2环境加值）。被报酬打动、自愿接受交易的生物可以选择让豁免大失败；此时，它不会获得任何用于提前结束效果的额外豁免。若生物没有执行任务，无论是由于它没有大失败，还是之后豁免成功摆脱了大失败效果，你都可以执行违约处罚条款。若你和盟友为惩罚其背约而将它降至0生命值，你获得该生物每级5点的临时生命值，持续1分钟。无论结果如何，该生物随后对本能力暂时免疫1天。</p><hr /><p><strong>大成功</strong> 生物抵制住了交易，没有效果。</p><p><strong>成功</strong> 生物有些动摇，在权衡时陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p><p><strong>失败</strong> 生物因提议而纠结，震慑1轮后最终决定拒绝。</p><p><strong>大失败</strong> 生物接受巨龙的提议，处于巨龙施加的@UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]状态，持续1分钟。在其回合结束时，它可以重新进行意志豁免以提前结束效果；但若如此做，它就无法得到巨龙承诺的报酬。</p>"
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你知道该给出怎样的诱因，让别人帮你一个忙，甚至为你而战……当然，心灵契约魔法也出了力。选择60尺内你能观察到的一个生物，与其达成交易，提出诱人的报酬，换取它按你的要求行事。该生物必须对抗你的法术DC进行一次@Check[will|against:spell]豁免检定。若它听不懂你说的话，豁免检定获得+4环境加值；若所提报酬对它毫无价值，也获得该环境加值（若报酬有价值但不足以匹配所要求的任务，GM也可以决定改为给予+2环境加值）。被报酬打动、自愿接受交易的生物可以选择让豁免大失败；此时，它不会获得任何用于提前结束效果的额外豁免。若生物没有执行任务，无论是由于它没有大失败，还是之后豁免成功摆脱了大失败效果，你都可以执行违约处罚条款。若你和盟友为惩罚其背约而将它降至0生命值，你获得该生物每级5点的临时生命值，持续1分钟。无论结果如何，该生物随后对本能力暂时免疫1天。</p><hr /><p><strong>大成功</strong> 生物抵制住了交易，没有效果。</p><p><strong>成功</strong> 生物有些动摇，在权衡时陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p><p><strong>失败</strong> 生物因提议而纠结，震慑1轮后最终决定拒绝。</p><p><strong>大失败</strong> 生物接受巨龙的提议，处于巨龙施加的@UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]状态，持续1分钟。在其回合结束时，它可以重新进行意志豁免以提前结束效果；但若如此做，它就无法得到巨龙承诺的报酬。</p>",
+      "prerequisites": [
+        {
+          "value": "龙法师奉献"
+        },
+        {
+          "value": "佣兵龙传承"
+        }
+      ]
     },
     "Exclusion Clause": {
       "name": "排除条款 Exclusion Clause",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你会避开自己保护的生物，不对其造成伤害，无论你与他们签有正式合同，还是仅与盟友有着默契。若你的下个动作是施放一个具有区域、没有持续时间的伤害法术，你可以指定区域内数量等于你施法属性调整值的盟友或缔约者（至少1个）。这些生物不受法术影响，视为不在法术最初的区域内（若法术留下持续的后续影响，例如使地面开裂、形成困难地形，这些影响仍照常作用于所有生物）。你须能以盟友为目标，才能将其排除；但缔约者可以自动排除，无论你是否知道其位置。</p><hr /><p><strong>特殊</strong> 若你具有@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.ndBtaylDGWNDB7Cf]{龙息}，也可以将排除条款用于龙息，即使它不是法术。</p>"
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你会避开自己保护的生物，不对其造成伤害，无论你与他们签有正式合同，还是仅与盟友有着默契。若你的下个动作是施放一个具有区域、没有持续时间的伤害法术，你可以指定区域内数量等于你施法属性调整值的盟友或缔约者（至少1个）。这些生物不受法术影响，视为不在法术最初的区域内（若法术留下持续的后续影响，例如使地面开裂、形成困难地形，这些影响仍照常作用于所有生物）。你须能以盟友为目标，才能将其排除；但缔约者可以自动排除，无论你是否知道其位置。</p><hr /><p><strong>特殊</strong> 若你具有@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.ndBtaylDGWNDB7Cf]{龙息}，也可以将排除条款用于龙息，即使它不是法术。</p>",
+      "prerequisites": [
+        {
+          "value": "龙法师奉献"
+        },
+        {
+          "value": "佣兵龙传承"
+        }
+      ]
     },
     "Perpetuity Clause": {
       "name": "永久条款 Perpetuity Clause",
-      "description": "<p>你能将灵魂储存在宝石中以逃避死亡，但在此期间十分脆弱。每月一次，当你将要死亡时，可以选择将渐逝的生命力和灵魂送入宝库中一颗事先准备好、用以接收它们的宝石。若如此做，你会在[[/gmr 2d4 #days]]{2d4天}后于宝石旁以满生命值复活。若有生物在此期间打碎宝石，你便死亡。生物也可以不摧毁宝石，而是花费10分钟进行一次@Check[occultism|against:class-spell|rollerRoll:target]或@Check[religion|against:class-spell|rollerRoll:target]检定，对抗你的职业DC与法术DC中较高者，成功便将你困在宝石中。若失败，该生物便不能再次尝试。若遭封印，你无法自行脱身，但其他生物可以花费10分钟，对抗同一DC成功进行神秘或宗教检定，以尝试打破封印。</p>"
+      "description": "<p>你能将灵魂储存在宝石中以逃避死亡，但在此期间十分脆弱。每月一次，当你将要死亡时，可以选择将渐逝的生命力和灵魂送入宝库中一颗事先准备好、用以接收它们的宝石。若如此做，你会在[[/gmr 2d4 #days]]{2d4天}后于宝石旁以满生命值复活。若有生物在此期间打碎宝石，你便死亡。生物也可以不摧毁宝石，而是花费10分钟进行一次@Check[occultism|against:class-spell|rollerRoll:target]或@Check[religion|against:class-spell|rollerRoll:target]检定，对抗你的职业DC与法术DC中较高者，成功便将你困在宝石中。若失败，该生物便不能再次尝试。若遭封印，你无法自行脱身，但其他生物可以花费10分钟，对抗同一DC成功进行神秘或宗教检定，以尝试打破封印。</p>",
+      "prerequisites": [
+        {
+          "value": "佣兵龙传承"
+        }
+      ]
     },
     "Natural Trap": {
       "name": "自然陷阱 Natural Trap",
-      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你以魔法在距你60尺内、@Template[line|distance:15|width:15]{15尺乘15尺}的地面区域布下由尖刺和荆棘构成的致命毒陷阱。陷阱区域是高等困难地形。你使用自然陷阱时位于区域内的任何生物，以及此后进入该区域的生物，都必须对抗你的法术DC进行反射豁免，成功才能跃开避让，否则受到@Damage[floor(@actor.level/3)d6[piercing],floor(@actor.level/3)d6[poison]]伤害。生物因在你使用该能力时身处区域内，或进入区域并反射豁免失败，只受到一次伤害；在区域内移动或离开区域不会受伤，但离开后重新进入会再次受到伤害。陷阱在1分钟后自然消失，你也可以在持续时间结束前将其解消。在15级时，穿刺伤害和毒素伤害各自提升至5d6；在18级时，两者各自提升至6d6。</p>"
+      "description": "<p><strong>频率</strong> 每天一次</p><hr /><p>你以魔法在距你60尺内、@Template[line|distance:15|width:15]{15尺乘15尺}的地面区域布下由尖刺和荆棘构成的致命毒陷阱。陷阱区域是高等困难地形。你使用自然陷阱时位于区域内的任何生物，以及此后进入该区域的生物，都必须对抗你的法术DC进行反射豁免，成功才能跃开避让，否则受到@Damage[floor(@actor.level/3)d6[piercing],floor(@actor.level/3)d6[poison]]伤害。生物因在你使用该能力时身处区域内，或进入区域并反射豁免失败，只受到一次伤害；在区域内移动或离开区域不会受伤，但离开后重新进入会再次受到伤害。陷阱在1分钟后自然消失，你也可以在持续时间结束前将其解消。在15级时，穿刺伤害和毒素伤害各自提升至5d6；在18级时，两者各自提升至6d6。</p>",
+      "prerequisites": [
+        {
+          "value": "龙法师奉献"
+        },
+        {
+          "value": "狩猎龙传承"
+        }
+      ]
     },
     "Display Triumph": {
       "name": "彰显胜利 Display Triumph",
-      "description": "<p><strong>触发</strong> 你将一个敌人降至0生命值</p><hr /><p>你高声宣告自己击倒了敌人，集中精神将魔法能量注入宣言。直到你的下个回合开始，@Template[type:emanation|distance:60]内的所有盟友都获得+1状态加值，由你选择作用于他们的攻击检定和伤害掷骰，或AC和豁免检定。</p><p>@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.effects.Item.Mf7rluo9lQjFM3Km]{效果：彰显胜利}</p><hr /><p><strong>特殊</strong> 若你的@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.tMRIAbKCYsK9n9we]{恐怖威压}族裔专长已激活，区域内所有敌人都必须对抗你的恐怖威压进行意志豁免，即使他们暂时免疫。若你当天仍能使用恐怖威压，但尚未激活，你可以改为将激活它作为此次反应的一部分。</p>"
+      "description": "<p><strong>触发</strong> 你将一个敌人降至0生命值</p><hr /><p>你高声宣告自己击倒了敌人，集中精神将魔法能量注入宣言。直到你的下个回合开始，@Template[type:emanation|distance:60]内的所有盟友都获得+1状态加值，由你选择作用于他们的攻击检定和伤害掷骰，或AC和豁免检定。</p><p>@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.effects.Item.Mf7rluo9lQjFM3Km]{效果：彰显胜利}</p><hr /><p><strong>特殊</strong> 若你的@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.tMRIAbKCYsK9n9we]{恐怖威压}族裔专长已激活，区域内所有敌人都必须对抗你的恐怖威压进行意志豁免，即使他们暂时免疫。若你当天仍能使用恐怖威压，但尚未激活，你可以改为将激活它作为此次反应的一部分。</p>",
+      "prerequisites": [
+        {
+          "value": "龙法师奉献"
+        },
+        {
+          "value": "军阀龙传承"
+        }
+      ]
     },
     "Undying Will": {
       "name": "不灭意志 Undying Will",
-      "description": "<p><strong>触发</strong> 一次攻击或效果将使你降至0生命值，且你当天尚未使用@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.feats.Item.RPKXhtAbbF23PTuh]{战斗振奋}专长</p><hr /><p>你继续战斗的意志流入魔法，让你屹立不倒。你保有1生命值并保持站立，随后立即使用战斗振奋专长。</p>"
+      "description": "<p><strong>触发</strong> 一次攻击或效果将使你降至0生命值，且你当天尚未使用@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.feats.Item.RPKXhtAbbF23PTuh]{战斗振奋}专长</p><hr /><p>你继续战斗的意志流入魔法，让你屹立不倒。你保有1生命值并保持站立，随后立即使用战斗振奋专长。</p>",
+      "prerequisites": [
+        {
+          "value": "龙法师奉献"
+        },
+        {
+          "value": "战斗振奋"
+        }
+      ]
     },
     "Furious Immolation": {
       "name": "狂怒自焚 Furious Immolation",
-      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>触发</strong> 你降至0生命值，但未立即死亡。</p><p><strong>需求</strong> 你的@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.feats.Item.dsZw44O0LJxfUXoA]{愤怒显形}或狂暴正处于激活状态。</p><hr /><p>你释放怒火，吞噬区域内的生命来治疗自己。@Template[type:emanation|distance:20]内的所有生物受到@Damage[8d6[fire]|options:area-damage]伤害，并进行@Check[fortitude|against:class-spell|basic]豁免，对抗你的职业DC与法术DC中较高者。你保有1生命值而非降至0，并保持清醒；每有一个12级或更高等级的生物强韧豁免失败，你就获得1d10临时生命值（若有10个或更多生物失败，上限为10d10）。这些临时生命值持续1分钟。</p>"
+      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>触发</strong> 你降至0生命值，但未立即死亡。</p><p><strong>需求</strong> 你的@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.feats.Item.dsZw44O0LJxfUXoA]{愤怒显形}或狂暴正处于激活状态。</p><hr /><p>你释放怒火，吞噬区域内的生命来治疗自己。@Template[type:emanation|distance:20]内的所有生物受到@Damage[8d6[fire]|options:area-damage]伤害，并进行@Check[fortitude|against:class-spell|basic]豁免，对抗你的职业DC与法术DC中较高者。你保有1生命值而非降至0，并保持清醒；每有一个12级或更高等级的生物强韧豁免失败，你就获得1d10临时生命值（若有10个或更多生物失败，上限为10d10）。这些临时生命值持续1分钟。</p>",
+      "prerequisites": [
+        {
+          "value": "愤怒显形"
+        },
+        {
+          "value": "狂怒龙传承"
+        },
+        {
+          "value": "野蛮人职业或野蛮人入门"
+        }
+      ]
     },
     "Bounty of Prey": {
       "name": "猎物悬赏 Bounty of Prey",
-      "description": "<p>你明白，要想不被赏金猎人追上，有时最好的办法就是自己也成为赏金猎人。狩猎龙与赏金猎人真正的区别，只在于狩猎龙自行决定悬赏，不为他人效命——而且它们总是要将猎物捉到手，死活不论！你获得@UUID[Compendium.pf2e.feats-srd.Item.tKaesXO5nlZ2sspx]{赏金猎人入门}或@UUID[Compendium.pf2e.feats-srd.Item.R00qiDE5pBctgtyU]{游侠入门}专长，即使你不满足其属性调整值先决条件，或通常必须先取得当前变体的更多专长才能选择另一个入门专长。</p>"
+      "description": "<p>你明白，要想不被赏金猎人追上，有时最好的办法就是自己也成为赏金猎人。狩猎龙与赏金猎人真正的区别，只在于狩猎龙自行决定悬赏，不为他人效命——而且它们总是要将猎物捉到手，死活不论！你获得@UUID[Compendium.pf2e.feats-srd.Item.tKaesXO5nlZ2sspx]{赏金猎人入门}或@UUID[Compendium.pf2e.feats-srd.Item.R00qiDE5pBctgtyU]{游侠入门}专长，即使你不满足其属性调整值先决条件，或通常必须先取得当前变体的更多专长才能选择另一个入门专长。</p>",
+      "prerequisites": [
+        {
+          "value": "狩猎龙传承"
+        }
+      ]
     },
     "Demoralizing Cry": {
       "name": "挫志长啸 Demoralizing Cry",
-      "description": "<p>你能改变喷吐武器的声音，在伤害敌人的同时吓破他们的胆。每小时一次，当你使用@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.ndBtaylDGWNDB7Cf]{龙息}时，可以选择将伤害骰数量减为正常的一半。若如此做，所有对你的龙息豁免失败的生物都必须对抗同一DC进行一次@Check[will|against:class-spell|arcane,emotion,fear,mental,sonic]豁免。成功时陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}，失败时陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}，大失败时陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧4}。这一版本的龙息具有奥术、情绪、恐惧、心灵和音波特征。</p>"
+      "description": "<p>你能改变喷吐武器的声音，在伤害敌人的同时吓破他们的胆。每小时一次，当你使用@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.ndBtaylDGWNDB7Cf]{龙息}时，可以选择将伤害骰数量减为正常的一半。若如此做，所有对你的龙息豁免失败的生物都必须对抗同一DC进行一次@Check[will|against:class-spell|arcane,emotion,fear,mental,sonic]豁免。成功时陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}，失败时陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}，大失败时陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧4}。这一版本的龙息具有奥术、情绪、恐惧、心灵和音波特征。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "决斗龙传承"
+        },
+        {
+          "value": "龙息"
+        }
+      ]
     },
     "Battlefield of Life": {
       "name": "生机战场 Battlefield of Life",
-      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>触发</strong> 你处于@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]状态。</p><hr /><p>神圣能量从你的身躯向外荡漾。也许你已经无可挽回，但对你的盟友而言或许还来得及。你使@Template[type:emanation|distance:60]内的盟友获得8环@UUID[Compendium.pf2e.spells-srd.Item.x5rGOmhDRDVQPrnW]的效果，最多持续1分钟。若你死亡，每轮的治疗量由1d10提升至@Damage[3d10[healing]]。你不必维持该效果，但若你不再濒死，效果立即结束。</p>"
+      "description": "<p><strong>频率</strong> 每天一次</p><p><strong>触发</strong> 你处于@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]状态。</p><hr /><p>神圣能量从你的身躯向外荡漾。也许你已经无可挽回，但对你的盟友而言或许还来得及。你使@Template[type:emanation|distance:60]内的盟友获得8环@UUID[Compendium.pf2e.spells-srd.Item.x5rGOmhDRDVQPrnW]的效果，最多持续1分钟。若你死亡，每轮的治疗量由1d10提升至@Damage[3d10[healing]]。你不必维持该效果，但若你不再濒死，效果立即结束。</p>",
+      "prerequisites": [
+        {
+          "value": "军阀龙传承"
+        }
+      ]
     },
     "Raised Wing Stance": {
       "name": "举翼架势 Raised Wing Stance",
-      "description": "<p>你进入架势，举起一侧翅膀，随时准备抵挡攻击。在此架势中，你持续获得@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.feats.Item.nFpG5nsDiehNBqsw]{翼格挡}的益处。</p>"
+      "description": "<p>你进入架势，举起一侧翅膀，随时准备抵挡攻击。在此架势中，你持续获得@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.feats.Item.nFpG5nsDiehNBqsw]{翼格挡}的益处。</p>",
+      "prerequisites": [
+        {
+          "value": "翼格挡"
+        }
+      ]
     },
     "Gruesome Display": {
       "name": "骇人展示 Gruesome Display",
-      "description": "<p><strong>需求</strong> 你当天曾使用狩猎战利品制作一件战利品</p><hr /><p>你挥舞战利品，傲然宣告这也将是敌人的下场。对30尺内的每个敌人进行威吓检定以@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{挫败士气}。即使生物听不懂你的语言，你也不承受减值；不过，骇人展示具有视觉特征，无法看见你和战利品的生物不会受到影响。无论检定结果如何，各目标随后都会对骇人展示暂时免疫1分钟。</p>"
+      "description": "<p><strong>需求</strong> 你当天曾使用狩猎战利品制作一件战利品</p><hr /><p>你挥舞战利品，傲然宣告这也将是敌人的下场。对30尺内的每个敌人进行威吓检定以@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{挫败士气}。即使生物听不懂你的语言，你也不承受减值；不过，骇人展示具有视觉特征，无法看见你和战利品的生物不会受到影响。无论检定结果如何，各目标随后都会对骇人展示暂时免疫1分钟。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "狩猎战利品"
+        }
+      ]
     },
     "Thick Hide": {
       "name": "厚实皮肤 Thick Hide",
-      "description": "<p>你的皮肤愈合、增厚的方式得到改善，使一条手臂长得更加粗壮坚实，但代价是更容易受到虚能的伤害。你的穿刺和挥砍抗力提升至5加上你的@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]值（受伤4时达到上限9），即使没有受伤状态也获得该抗力。然而，你的虚能伤害弱点也以同样的方式提升，即使没有受伤状态也具有该弱点。对抗重击时，受伤状态带来的额外抗力提升至受伤值的5倍（受伤4时，对抗重击的抗力达到上限25）。</p>"
+      "description": "<p>你的皮肤愈合、增厚的方式得到改善，使一条手臂长得更加粗壮坚实，但代价是更容易受到虚能的伤害。你的穿刺和挥砍抗力提升至5加上你的@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]值（受伤4时达到上限9），即使没有受伤状态也获得该抗力。然而，你的虚能伤害弱点也以同样的方式提升，即使没有受伤状态也具有该弱点。对抗重击时，受伤状态带来的额外抗力提升至受伤值的5倍（受伤4时，对抗重击的抗力达到上限25）。</p>",
+      "prerequisites": [
+        {
+          "value": "决斗龙传承"
+        }
+      ]
     },
     "Deafening Roar": {
       "name": "震耳咆哮 Deafening Roar",
-      "description": "<p>你的喷吐武器能使承受最严重冲击的生物耳聋。生物对抗你的@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.ndBtaylDGWNDB7Cf]{龙息}豁免大失败时，会@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋}[[/gmr 1d4 #rounds]]{1d4轮}。</p>"
+      "description": "<p>你的喷吐武器能使承受最严重冲击的生物耳聋。生物对抗你的@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.ndBtaylDGWNDB7Cf]{龙息}豁免大失败时，会@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋}[[/gmr 1d4 #rounds]]{1d4轮}。</p>",
+      "prerequisites": [
+        {
+          "value": "决斗龙传承"
+        }
+      ]
     },
     "Vigorous Parry": {
       "name": "活力格挡 Vigorous Parry",
-      "description": "<p>你将充沛活力注入翼格挡，增强其效果。你获得@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.feats.Item.nFpG5nsDiehNBqsw]{翼格挡}专长作为奖励专长。当你的生命值高于最大生命值的一半，且至少有一只手空闲时，翼格挡给予AC的环境加值由+1提升至+2。</p>"
+      "description": "<p>你将充沛活力注入翼格挡，增强其效果。你获得@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.feats.Item.nFpG5nsDiehNBqsw]{翼格挡}专长作为奖励专长。当你的生命值高于最大生命值的一半，且至少有一只手空闲时，翼格挡给予AC的环境加值由+1提升至+2。</p>",
+      "prerequisites": [
+        {
+          "value": "决斗龙或军阀龙传承"
+        }
+      ]
     },
     "Murderous Euphoria": {
       "name": "杀戮狂喜 Murderous Euphoria",
-      "description": "<p><strong>触发</strong> 你以近战攻击杀死一个等级不低于你等级减3的生物。</p><hr /><p>亲手近距离杀死值得一战的猎物，让你嗜血沸腾。你的攻击检定和豁免检定获得+1状态加值，持续1分钟。若你已经具有杀戮狂喜给予的状态加值，你可以选择刷新持续时间，或改为将状态加值由+1提升至+2。</p>"
+      "description": "<p><strong>触发</strong> 你以近战攻击杀死一个等级不低于你等级减3的生物。</p><hr /><p>亲手近距离杀死值得一战的猎物，让你嗜血沸腾。你的攻击检定和豁免检定获得+1状态加值，持续1分钟。若你已经具有杀戮狂喜给予的状态加值，你可以选择刷新持续时间，或改为将状态加值由+1提升至+2。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "狩猎龙传承"
+        }
+      ]
     },
     "Wing Shield": {
       "name": "翼盾 Wing Shield",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p><p><strong>触发</strong> 你将受到一次攻击造成的物理伤害。</p><p><strong>需求</strong> 你正受翼格挡影响。你可以用翅膀挡住自己，保护自己免受伤害。</p><hr /><p>你的翅膀为你抵挡等于你等级+5的伤害。</p><hr /><p><strong>特殊</strong> 若你拥有盟友之翼专长，且正在为盟友使用翼格挡，你可以在该盟友受到伤害时触发翼盾，为其抵挡伤害，以此替代通常的触发条件。</p>"
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><p><strong>触发</strong> 你将受到一次攻击造成的物理伤害。</p><p><strong>需求</strong> 你正受翼格挡影响。你可以用翅膀挡住自己，保护自己免受伤害。</p><hr /><p>你的翅膀为你抵挡等于你等级+5的伤害。</p><hr /><p><strong>特殊</strong> 若你拥有盟友之翼专长，且正在为盟友使用翼格挡，你可以在该盟友受到伤害时触发翼盾，为其抵挡伤害，以此替代通常的触发条件。</p>",
+      "prerequisites": [
+        {
+          "value": "翼格挡，军阀龙传承"
+        }
+      ]
     },
     "Nimble Maneuvers": {
       "name": "灵巧机动 Nimble Maneuvers",
-      "description": "<p>你在战场上穿行自如。你获得@UUID[Compendium.pf2e.feats-srd.Item.CnqMJR8e9jqJR7MM]{四平八稳}技能专长作为奖励专长。若你已拥有该专长，可以立即重训它。你用于@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}、@UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{翻滚}和@UUID[Compendium.pf2e.actionspf2e.Item.Qf1ylAbdVi1rkc8M]{空中机动}的特技检定获得+1环境加值。若你的特技熟练度为大师，这些加值提升至+2。</p>"
+      "description": "<p>你在战场上穿行自如。你获得@UUID[Compendium.pf2e.feats-srd.Item.CnqMJR8e9jqJR7MM]{四平八稳}技能专长作为奖励专长。若你已拥有该专长，可以立即重训它。你用于@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}、@UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{翻滚}和@UUID[Compendium.pf2e.actionspf2e.Item.Qf1ylAbdVi1rkc8M]{空中机动}的特技检定获得+1环境加值。若你的特技熟练度为大师，这些加值提升至+2。</p>",
+      "prerequisites": [
+        {
+          "value": "决斗龙传承，特技受训"
+        }
+      ]
     },
     "Wrathful Bite": {
       "name": "愤怒噬咬 Wrathful Bite",
-      "description": "<p>你毁灭性的噬咬能将内心的怒火传染给敌人。若你以@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.vL4zzn94yUSkuSuc]{毁灭噬咬}的颚击命中，可以选择让被命中的生物感染怒火。若如此做，目标必须对抗你的职业DC进行一次@Check[will|against:class|traits:emotion,mental]豁免。若你还拥有@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.9juhL6YYyFVMoO9i]{爆破噬咬}专长，每次毁灭噬咬须选择使用哪一个；同一次噬咬不能同时使用两者。此附加效果具有情绪和心灵特征。</p><hr /><p><strong>成功</strong> 生物不受影响。</p><p><strong>失败</strong> 生物陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}，持续1轮。</p><p><strong>大失败</strong> 生物陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}，持续1轮，同时狂暴1轮：其非灵巧近战攻击的伤害掷骰获得+2状态加值，灵巧近战攻击的伤害掷骰获得+1状态加值，AC承受–1状态减值，并且不能使用除@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}以外的专注动作。该生物还陷入呆滞2，持续4轮。</p><p>@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.effects.Item.7MPZ31CM4bsintjL]{效果：愤怒噬咬}</p>"
+      "description": "<p>你毁灭性的噬咬能将内心的怒火传染给敌人。若你以@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.vL4zzn94yUSkuSuc]{毁灭噬咬}的颚击命中，可以选择让被命中的生物感染怒火。若如此做，目标必须对抗你的职业DC进行一次@Check[will|against:class|traits:emotion,mental]豁免。若你还拥有@UUID[Compendium.battlezoo-dragons-core-pf2e.feats.Item.9juhL6YYyFVMoO9i]{爆破噬咬}专长，每次毁灭噬咬须选择使用哪一个；同一次噬咬不能同时使用两者。此附加效果具有情绪和心灵特征。</p><hr /><p><strong>成功</strong> 生物不受影响。</p><p><strong>失败</strong> 生物陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}，持续1轮。</p><p><strong>大失败</strong> 生物陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}，持续1轮，同时狂暴1轮：其非灵巧近战攻击的伤害掷骰获得+2状态加值，灵巧近战攻击的伤害掷骰获得+1状态加值，AC承受–1状态减值，并且不能使用除@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}以外的专注动作。该生物还陷入呆滞2，持续4轮。</p><p>@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.effects.Item.7MPZ31CM4bsintjL]{效果：愤怒噬咬}</p>",
+      "prerequisites": [
+        {
+          "value": "毁灭噬咬"
+        },
+        {
+          "value": "狂怒龙传承"
+        }
+      ]
     },
     "Merciful Defeat": {
       "name": "仁慈击败 Merciful Defeat",
-      "description": "<p>你更愿意让敌人活下来，待其变强后，再与其展开更加辉煌的战斗。每当你将使一个生物降至0生命值，使其@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}或死亡时，可以选择让其保持清醒并保有1生命值，但陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}和@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢2}，直到其恢复生命值。如此做时，你还可以立即使用反应尝试对其@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}。若你的卸武检定取得成功，改为大成功。</p>"
+      "description": "<p>你更愿意让敌人活下来，待其变强后，再与其展开更加辉煌的战斗。每当你将使一个生物降至0生命值，使其@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}或死亡时，可以选择让其保持清醒并保有1生命值，但陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}和@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢2}，直到其恢复生命值。如此做时，你还可以立即使用反应尝试对其@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}。若你的卸武检定取得成功，改为大成功。</p>",
+      "prerequisites": [
+        {
+          "value": "决斗龙传承"
+        }
+      ]
     },
     "Draconic Rage": {
       "name": "龙族狂怒 Draconic Rage",
-      "description": "<p>你能唤起与生俱来的怒火，助你战斗。你获得@UUID[Compendium.pf2e.feats-srd.Item.WVU0c8rgcpGSRqSi]{野蛮人入门}作为奖励专长，即使你不满足先决条件，或通常还须取得龙族蹂躏者变体的两个专长才能选择另一变体。</p>"
+      "description": "<p>你能唤起与生俱来的怒火，助你战斗。你获得@UUID[Compendium.pf2e.feats-srd.Item.WVU0c8rgcpGSRqSi]{野蛮人入门}作为奖励专长，即使你不满足先决条件，或通常还须取得龙族蹂躏者变体的两个专长才能选择另一变体。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "狂怒龙传承"
+        }
+      ]
     },
     "Trophy Master": {
       "name": "战利品大师 Trophy Master",
-      "description": "<p>你格外擅长制作狩猎战利品。你可以每小时使用一次狩猎战利品，而非每天一次。此外，使用狩猎战利品时，你可以选择将临时生命值的持续时间缩短至1分钟，以将临时生命值的数量提升至每级4点。</p><p>@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.effects.Item.zS29EYxeHFgeppw7]{效果：战利品大师}</p>"
+      "description": "<p>你格外擅长制作狩猎战利品。你可以每小时使用一次狩猎战利品，而非每天一次。此外，使用狩猎战利品时，你可以选择将临时生命值的持续时间缩短至1分钟，以将临时生命值的数量提升至每级4点。</p><p>@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.effects.Item.zS29EYxeHFgeppw7]{效果：战利品大师}</p>",
+      "prerequisites": [
+        {
+          "value": "狩猎战利品"
+        }
+      ]
     },
     "Predatory Lore": {
       "name": "伺猎学识 Predatory Lore",
-      "description": "<p>你对猎物的知识超越了物种与类别的界限。你从狩猎龙传承给予的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长中选取的学识扩展为猎物学识。除了原先选择的生物类型外，你还能用它对当前通过猎杀目标选为猎物的任何生物@Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}。</p>"
+      "description": "<p>你对猎物的知识超越了物种与类别的界限。你从狩猎龙传承给予的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长中选取的学识扩展为猎物学识。除了原先选择的生物类型外，你还能用它对当前通过猎杀目标选为猎物的任何生物@Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "怪物猎手（赏金猎人或游侠专长）"
+        },
+        {
+          "value": "猎杀目标动作"
+        },
+        {
+          "value": "狩猎龙传承"
+        }
+      ]
     },
     "Praise the Opponent": {
       "name": "赞赏对手 Praise the Opponent",
-      "description": "<p>你出人意料的赞美让敌人不知所措。你获得@UUID[Compendium.pf2e.feats-srd.Item.0GF2j54roPFIDmXf]{当头棒喝}技能专长作为奖励专长。若你已拥有该专长，可以立即重训它。你获得@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.actions.Item.9KsEFecKwDs1JuNS]{好身手！}反应。</p>"
+      "description": "<p>你出人意料的赞美让敌人不知所措。你获得@UUID[Compendium.pf2e.feats-srd.Item.0GF2j54roPFIDmXf]{当头棒喝}技能专长作为奖励专长。若你已拥有该专长，可以立即重训它。你获得@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.actions.Item.9KsEFecKwDs1JuNS]{好身手！}反应。</p>",
+      "prerequisites": [
+        {
+          "value": "决斗龙传承"
+        },
+        {
+          "value": "交涉受训"
+        }
+      ]
     },
     "Truespeaker": {
       "name": "实言者 Truespeaker",
-      "description": "<p>你能通过魔法与其他生物沟通。你持续受到@UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]法术的影响。若该法术被反制或以其他方式结束，你可以随时再次施放该法术，恢复其效果。</p>"
+      "description": "<p>你能通过魔法与其他生物沟通。你持续受到@UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]法术的影响。若该法术被反制或以其他方式结束，你可以随时再次施放该法术，恢复其效果。</p>",
+      "prerequisites": [
+        {
+          "value": "狩猎龙、佣兵龙或军阀龙传承"
+        }
+      ]
     },
     "Furious Spellcasting": {
       "name": "狂怒施法 Furious Spellcasting",
-      "description": "<p>你能将怒火注入法术。若你的下个动作是施放一个造成伤害的法术，从法术目标或法术区域内选择一个生物。炽烈的怒意随着魔法奔涌，使该生物额外受到等于法术环级两倍的火焰伤害，但你的AC承受–1减值，直到你的下个回合开始。</p><p>@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.effects.Item.J66GjTBhyrcnHy4O]{效果：狂怒施法}</p>"
+      "description": "<p>你能将怒火注入法术。若你的下个动作是施放一个造成伤害的法术，从法术目标或法术区域内选择一个生物。炽烈的怒意随着魔法奔涌，使该生物额外受到等于法术环级两倍的火焰伤害，但你的AC承受–1减值，直到你的下个回合开始。</p><p>@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.effects.Item.J66GjTBhyrcnHy4O]{效果：狂怒施法}</p>",
+      "prerequisites": [
+        {
+          "value": "龙法师奉献"
+        },
+        {
+          "value": "狂怒龙传承"
+        }
+      ]
     },
     "Growing Rage": {
       "name": "怒意渐长 Growing Rage",
-      "description": "<p>你或许无法像龙族蹂躏者那样迅速而轻易地引出怒火之力，但无论这力量是福是祸，它都是无人能够剥夺的天赋权利。若你不是野蛮人，且不具有@UUID[Compendium.pf2e.feats-srd.Item.WVU0c8rgcpGSRqSi]{野蛮人入门}，你获得野蛮人入门作为奖励专长，即使你不满足先决条件，或通常必须先取得当前变体的更多专长才能选择另一个入门专长。若你已具有野蛮人入门，则改为获得@UUID[Compendium.pf2e.feats-srd.Item.Sr6CcCXceV8ALAmB]{基础狂怒}，且必须选择一个1级野蛮人专长。若你是野蛮人，则改为获得一个1级野蛮人职业专长。</p>"
+      "description": "<p>你或许无法像龙族蹂躏者那样迅速而轻易地引出怒火之力，但无论这力量是福是祸，它都是无人能够剥夺的天赋权利。若你不是野蛮人，且不具有@UUID[Compendium.pf2e.feats-srd.Item.WVU0c8rgcpGSRqSi]{野蛮人入门}，你获得野蛮人入门作为奖励专长，即使你不满足先决条件，或通常必须先取得当前变体的更多专长才能选择另一个入门专长。若你已具有野蛮人入门，则改为获得@UUID[Compendium.pf2e.feats-srd.Item.Sr6CcCXceV8ALAmB]{基础狂怒}，且必须选择一个1级野蛮人专长。若你是野蛮人，则改为获得一个1级野蛮人职业专长。</p>",
+      "prerequisites": [
+        {
+          "value": "狂怒龙传承"
+        }
+      ]
     },
     "Dutiful Interposition": {
       "name": "尽责挡护 Dutiful Interposition",
-      "description": "<p><strong>触发</strong> 一个生物对你触及范围内的一名盟友进行近战打击。</p><hr /><p>你挺身阻挡，保护盟友。该盟友对抗触发攻击时获得+2环境加值。</p><p>@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.effects.Item.NtEH8hq4eDOkjRKu]{效果：尽责挡护}</p>"
+      "description": "<p><strong>触发</strong> 一个生物对你触及范围内的一名盟友进行近战打击。</p><hr /><p>你挺身阻挡，保护盟友。该盟友对抗触发攻击时获得+2环境加值。</p><p>@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.effects.Item.NtEH8hq4eDOkjRKu]{效果：尽责挡护}</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "佣兵龙传承"
+        }
+      ]
     },
     "Force Wall Breath": {
       "name": "力墙龙息 Force Wall Breath",
-      "description": "<p>你能改变喷吐，使其以力场将生物推向一道短暂存在的力墙，而非喷出力场锥形。每小时一次，当你使用龙息时，将力场伤害效果替换为要求生物对抗你的职业DC进行@Check[fortitude|against:class]豁免，并按下述结果结算。此外，锥形区域最远端的边缘会形成一道具有@UUID[Compendium.pf2e.spells-srd.Item.7Iela4GgVeO3LfAo]效果的墙，持续至你的下个回合开始。这一版本的龙息具有神术和力场特征。</p><hr /><p><strong>大成功</strong> 生物不受影响。</p><p><strong>成功</strong> 生物沿锥形朝向被推离你5尺。若这会使其越过墙壁，它可以选择停留在墙的任意一侧。</p><p><strong>失败</strong> 生物沿锥形朝向被推离你10尺。若它尚未被推完这段距离便撞上力墙，会受到@Damage[1d6[untyped]]伤害，且每有5尺尚未完成的推动距离，就额外受到@Damage[1d6[untyped]]伤害。</p><p><strong>大失败</strong> 生物沿锥形朝向被推离你20尺。若它尚未被推完这段距离便撞上力墙，你可以选择将其送到墙的另一侧。若不如此做，它受到@Damage[1d6[untyped]]伤害，且每有5尺尚未完成的推动距离，就额外受到@Damage[1d6[untyped]]伤害。</p>"
+      "description": "<p>你能改变喷吐，使其以力场将生物推向一道短暂存在的力墙，而非喷出力场锥形。每小时一次，当你使用龙息时，将力场伤害效果替换为要求生物对抗你的职业DC进行@Check[fortitude|against:class]豁免，并按下述结果结算。此外，锥形区域最远端的边缘会形成一道具有@UUID[Compendium.pf2e.spells-srd.Item.7Iela4GgVeO3LfAo]效果的墙，持续至你的下个回合开始。这一版本的龙息具有神术和力场特征。</p><hr /><p><strong>大成功</strong> 生物不受影响。</p><p><strong>成功</strong> 生物沿锥形朝向被推离你5尺。若这会使其越过墙壁，它可以选择停留在墙的任意一侧。</p><p><strong>失败</strong> 生物沿锥形朝向被推离你10尺。若它尚未被推完这段距离便撞上力墙，会受到@Damage[1d6[untyped]]伤害，且每有5尺尚未完成的推动距离，就额外受到@Damage[1d6[untyped]]伤害。</p><p><strong>大失败</strong> 生物沿锥形朝向被推离你20尺。若它尚未被推完这段距离便撞上力墙，你可以选择将其送到墙的另一侧。若不如此做，它受到@Damage[1d6[untyped]]伤害，且每有5尺尚未完成的推动距离，就额外受到@Damage[1d6[untyped]]伤害。</p>",
+      "prerequisites": [
+        {
+          "value": "佣兵龙传承"
+        }
+      ]
     },
     "Cover Ally": {
       "name": "掩护盟友 Cover Ally",
-      "description": "<p>使用@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.feats.Item.nFpG5nsDiehNBqsw]{翼格挡}时，你可以保护盟友而非自己。若如此做，选择触及范围内的一名盟友。只要该盟友留在你的触及范围内，就由其代替你获得AC的环境加值。</p><hr /><p><strong>特殊</strong> 若你具有举翼架势，可以在进入架势时选择将架势提供的持续翼格挡益处给予触及范围内的一名盟友。</p>"
+      "description": "<p>使用@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.feats.Item.nFpG5nsDiehNBqsw]{翼格挡}时，你可以保护盟友而非自己。若如此做，选择触及范围内的一名盟友。只要该盟友留在你的触及范围内，就由其代替你获得AC的环境加值。</p><hr /><p><strong>特殊</strong> 若你具有举翼架势，可以在进入架势时选择将架势提供的持续翼格挡益处给予触及范围内的一名盟友。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "军阀龙传承"
+        },
+        {
+          "value": "翼格挡"
+        }
+      ]
     },
     "Frighten Minions": {
       "name": "威吓仆从 Frighten Minions",
-      "description": "<p>你让敌人的仆从陷入致命的恐惧。对抗30尺内所有敌方仆从，以及受训动物和坐骑（不包括野生动物）的意志DC，分别进行@Check[intimidation|against:will]检定。无论检定结果如何，这些仆从和受训动物都对本能力免疫24小时。</p><hr /><p><strong>大成功</strong> 仆从陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧4}，并@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}1轮。若它是坐骑，在逃跑时，它会用第一个动作进行运动检定，对抗骑手的强韧DC，尝试将骑手甩下。</p><p><strong>成功</strong> 生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}。</p><p><strong>失败</strong> 生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}。</p><p><strong>大失败</strong> 生物不受影响。</p>"
+      "description": "<p>你让敌人的仆从陷入致命的恐惧。对抗30尺内所有敌方仆从，以及受训动物和坐骑（不包括野生动物）的意志DC，分别进行@Check[intimidation|against:will]检定。无论检定结果如何，这些仆从和受训动物都对本能力免疫24小时。</p><hr /><p><strong>大成功</strong> 仆从陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧4}，并@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}1轮。若它是坐骑，在逃跑时，它会用第一个动作进行运动检定，对抗骑手的强韧DC，尝试将骑手甩下。</p><p><strong>成功</strong> 生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}。</p><p><strong>失败</strong> 生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}。</p><p><strong>大失败</strong> 生物不受影响。</p>",
+      "prerequisites": [
+        {
+          "value": "军阀龙传承"
+        },
+        {
+          "value": "威吓受训"
+        }
+      ]
     },
     "Seek Vengeance": {
       "name": "寻求复仇 Seek Vengeance",
-      "description": "<p>你的狂怒本能紧盯着伤害过你的敌人。对抗在过去一分钟内对你造成过伤害的生物时，你的察觉检定与DC获得+1环境加值。若你是野蛮人，或具有@UUID[Compendium.pf2e.feats-srd.Item.WVU0c8rgcpGSRqSi]{野蛮人入门}，且正处于狂暴，该环境加值提升至+2。若该生物正受到情绪效果影响，你能看见其情绪如涟漪般向外散发，环境加值提升至+2；若你正处于狂暴，则提升至+3。</p>"
+      "description": "<p>你的狂怒本能紧盯着伤害过你的敌人。对抗在过去一分钟内对你造成过伤害的生物时，你的察觉检定与DC获得+1环境加值。若你是野蛮人，或具有@UUID[Compendium.pf2e.feats-srd.Item.WVU0c8rgcpGSRqSi]{野蛮人入门}，且正处于狂暴，该环境加值提升至+2。若该生物正受到情绪效果影响，你能看见其情绪如涟漪般向外散发，环境加值提升至+2；若你正处于狂暴，则提升至+3。</p>",
+      "prerequisites": [
+        {
+          "value": "狂怒龙传承"
+        }
+      ]
     },
     "Companion Whisperer": {
       "name": "伙伴语者 Companion Whisperer",
-      "description": "<p>你极其擅长驾驭动物，尤其是动物伙伴和坐骑，也能轻松领导盟友。你选择获得@UUID[Compendium.pf2e.feats-srd.Item.wdmUH6hdat7jpEWt]{兽王入门}、@UUID[Compendium.pf2e.feats-srd.Item.5Q69PI8jdQVkb1ZT]{骑兵入门}、统帅入门或战将入门作为奖励专长，即使你通常必须先取得当前变体的更多专长才能选择另一个入门专长。</p>"
+      "description": "<p>你极其擅长驾驭动物，尤其是动物伙伴和坐骑，也能轻松领导盟友。你选择获得@UUID[Compendium.pf2e.feats-srd.Item.wdmUH6hdat7jpEWt]{兽王入门}、@UUID[Compendium.pf2e.feats-srd.Item.5Q69PI8jdQVkb1ZT]{骑兵入门}、统帅入门或战将入门作为奖励专长，即使你通常必须先取得当前变体的更多专长才能选择另一个入门专长。</p>",
+      "prerequisites": [
+        {
+          "value": "军阀龙传承"
+        }
+      ]
     },
     "Seasoned Hunter": {
       "name": "老练猎手 Seasoned Hunter",
-      "description": "<p>你精通狩猎之道。你在手艺和生存上受训。若你已在这些技能上受训，则改为在一项自选技能上受训。你还获得针对狩猎学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长。</p>"
+      "description": "<p>你精通狩猎之道。你在手艺和生存上受训。若你已在这些技能上受训，则改为在一项自选技能上受训。你还获得针对狩猎学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长。</p>",
+      "prerequisites": [
+        {
+          "value": "狩猎龙传承"
+        }
+      ]
     },
     "Ravager's Vigor": {
       "name": "蹂躏者活力 Ravager's Vigor",
-      "description": "<p>你作为蹂躏者的本领，让你能以超出寻常永恒决斗龙的方式重振活力。你获得@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.feats.Item.RPKXhtAbbF23PTuh]{战斗振奋}族裔专长作为奖励专长，即使你不满足其等级先决条件。此外，使用战斗振奋时，你可以对因一次豁免失败而获得的一项效果或状态重新进行豁免检定；成功便移除该效果或状态。</p>"
+      "description": "<p>你作为蹂躏者的本领，让你能以超出寻常永恒决斗龙的方式重振活力。你获得@UUID[Compendium.battlezoo-dragons-battle-dragons-pf2e.feats.Item.RPKXhtAbbF23PTuh]{战斗振奋}族裔专长作为奖励专长，即使你不满足其等级先决条件。此外，使用战斗振奋时，你可以对因一次豁免失败而获得的一项效果或状态重新进行豁免检定；成功便移除该效果或状态。</p>",
+      "prerequisites": [
+        {
+          "value": "龙族蹂躏者奉献"
+        },
+        {
+          "value": "决斗龙传承"
+        }
+      ]
     },
     "Burning Rage": {
       "name": "燃烧狂怒 Burning Rage",
-      "description": "<p>身上的火焰点燃了你的怒意，也将痛苦传递给敌人。承受持续火焰伤害期间，你的所有龙族无武装攻击都额外造成等于武器伤害骰数量的火焰伤害。此外，在你承受持续火焰伤害期间，任何擒拿你的生物都会受到等于你的持续火焰伤害的火焰伤害。</p>"
+      "description": "<p>身上的火焰点燃了你的怒意，也将痛苦传递给敌人。承受持续火焰伤害期间，你的所有龙族无武装攻击都额外造成等于武器伤害骰数量的火焰伤害。此外，在你承受持续火焰伤害期间，任何擒拿你的生物都会受到等于你的持续火焰伤害的火焰伤害。</p>",
+      "prerequisites": [
+        {
+          "value": "狂怒龙传承"
+        }
+      ]
     }
   },
   "folders": {
@@ -223,5 +566,15 @@
     "Level 1": "1级 Level 1",
     "Level 5": "5级 Level 5",
     "Draconic Ravager Archetype": "龙族蹂躏者变体 Draconic Ravager Archetype"
+  },
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
   }
 }

@@ -3,7 +3,12 @@
   "entries": {
     "Basic Nymph Queen Spellcasting": {
       "name": "基础宁芙女王施法 Basic Nymph Queen Spellcasting",
-      "description": "<p>自然的低语直接在你耳边诉说，赐予你更强大的魔法，并使你更接近自己作为宁芙女王的命运。你获得基础施法的收益。</p>\n<hr />\n<p><strong>特殊</strong> 如果你拥有 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.iT9TFsJb5FlV5Hoy]{女王初悟} 族裔专长，将该专长的1环与2环法术与基础宁芙女王施法中的法术合并。当你这样做时，女王初悟中的法术不再是原能天生法术，而是改为通过宁芙女王变体为你提供额外的法术位，你可以每天准备这些法术位。</p>\n"
+      "description": "<p>自然的低语直接在你耳边诉说，赐予你更强大的魔法，并使你更接近自己作为宁芙女王的命运。你获得基础施法的收益。</p>\n<hr />\n<p><strong>特殊</strong> 如果你拥有 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.iT9TFsJb5FlV5Hoy]{女王初悟} 族裔专长，将该专长的1环与2环法术与基础宁芙女王施法中的法术合并。当你这样做时，女王初悟中的法术不再是原能天生法术，而是改为通过宁芙女王变体为你提供额外的法术位，你可以每天准备这些法术位。</p>\n",
+      "prerequisites": [
+        {
+          "value": "宁芙女王入门"
+        }
+      ]
     },
     "Maze Call": {
       "name": "迷宫呼唤 Maze Call",
@@ -15,11 +20,21 @@
     },
     "Languorous Slow": {
       "name": "慵懒迟缓 Languorous Slow",
-      "description": "<p><strong>频率</strong> 每天一次 你或许已经否认了怠惰之罪对你的掌控，但这不意味着你不能减缓你的敌人。选择30尺内的一个生物。其必须尝试一次 @Check[fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)] 豁免，对抗你职业DC或法术DC中较高者，并产生如下效果：</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢1} 持续1轮。</p>\n<p><strong>失败</strong> 目标陷入缓慢1持续1分钟。</p>\n<p><strong>大失败</strong> 目标获得 @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢2} 持续1分钟。</p>\n"
+      "description": "<p><strong>频率</strong> 每天一次 你或许已经否认了怠惰之罪对你的掌控，但这不意味着你不能减缓你的敌人。选择30尺内的一个生物。其必须尝试一次 @Check[fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)] 豁免，对抗你职业DC或法术DC中较高者，并产生如下效果：</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢1} 持续1轮。</p>\n<p><strong>失败</strong> 目标陷入缓慢1持续1分钟。</p>\n<p><strong>大失败</strong> 目标获得 @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢2} 持续1分钟。</p>\n",
+      "prerequisites": [
+        {
+          "value": "怯魔传承"
+        }
+      ]
     },
     "Animal Ally": {
       "name": "动物盟友 Animal Ally",
-      "description": "<p>你可以与各种动物交谈，并且在必要时特别擅长与它们结盟。你可以与所有动物交谈，而不只是节肢动物。你在对动物进行@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{留下印象}时获得+1环境加值（这通常需要你使用交涉技能）。</p>\n"
+      "description": "<p>你可以与各种动物交谈，并且在必要时特别擅长与它们结盟。你可以与所有动物交谈，而不只是节肢动物。你在对动物进行@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{留下印象}时获得+1环境加值（这通常需要你使用交涉技能）。</p>\n",
+      "prerequisites": [
+        {
+          "value": "怯懦小魔怪传承或虫类盟友"
+        }
+      ]
     },
     "Oni Lore": {
       "name": "恶鬼学识 Oni Lore",
@@ -31,7 +46,15 @@
     },
     "Boiling Blood": {
       "name": "沸腾之血 Boiling Blood",
-      "description": "<p><strong>触发</strong> 一个相邻的生物对你造成挥砍或穿刺伤害。</p>\n<hr />\n<p>附近那些胆敢让你流血的生物，很快就会学会畏惧你沸腾的血液，因为你可以在每次擦伤与割伤之后将其喷洒并溅射到它们身上。攻击者受到 @Damage[6d4[fire]] 伤害，并进行一次 @Check[reflex|against:class|basic:true] 豁免来对抗你的职业DC。于第14等级时，以及此后每过2个等级，火焰伤害提高[[/r 1d4]]。</p>\n<hr />\n<p>@Damage[max(6,floor(@actor.level/2))d4[fire]]{随等级提升的火焰伤害}</p>\n"
+      "description": "<p><strong>触发</strong> 一个相邻的生物对你造成挥砍或穿刺伤害。</p>\n<hr />\n<p>附近那些胆敢让你流血的生物，很快就会学会畏惧你沸腾的血液，因为你可以在每次擦伤与割伤之后将其喷洒并溅射到它们身上。攻击者受到 @Damage[6d4[fire]] 伤害，并进行一次 @Check[reflex|against:class|basic:true] 豁免来对抗你的职业DC。于第14等级时，以及此后每过2个等级，火焰伤害提高[[/r 1d4]]。</p>\n<hr />\n<p>@Damage[max(6,floor(@actor.level/2))d4[fire]]{随等级提升的火焰伤害}</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶魔劫掠者入门"
+        },
+        {
+          "value": "爆燃魔传承"
+        }
+      ]
     },
     "Coiffure Familiar": {
       "name": "发中魔宠 Coiffure Familiar",
@@ -47,7 +70,12 @@
     },
     "Adaptive Flight": {
       "name": "适应性飞行 Adaptive Flight",
-      "description": "<p>你适应带翼形态的能力不再有任何限制。你可以使用翱翔伪装随心所欲地变成带翼形态，而不受持续时间限制。即使你选择的形态通常没有翅膀，你也可以通过翱翔伪装长出翅膀并飞行；不过如果你这么做，这通常会成为一个明显线索，表明你并非看起来那样的该族裔的普通成员。</p>\n"
+      "description": "<p>你适应带翼形态的能力不再有任何限制。你可以使用翱翔伪装随心所欲地变成带翼形态，而不受持续时间限制。即使你选择的形态通常没有翅膀，你也可以通过翱翔伪装长出翅膀并飞行；不过如果你这么做，这通常会成为一个明显线索，表明你并非看起来那样的该族裔的普通成员。</p>\n",
+      "prerequisites": [
+        {
+          "value": "翱翔伪装"
+        }
+      ]
     },
     "Vicious Criticals": {
       "name": "凶狠重击 Vicious Criticals",
@@ -55,7 +83,15 @@
     },
     "Stone's Might": {
       "name": "岩石之力 Stone's Might",
-      "description": "<p>当你专注你的石质飞弹时，它会将你的敌人击退。若你使用你的石质飞弹命中一次 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.qYJopPiOLSVIJpG4]{聚能飞弹}，并且你决定将你的敌人向后推开，则敌人必须尝试一次对抗你职业DC或法术DC中较高者的 @Check[fortitude|against:class-spell] 豁免，否则你会将其击退。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标被击退5尺。</p>\n<p><strong>失败</strong> 目标被击退10尺。</p>\n<p><strong>大失败</strong> 目标被击退20尺；若你在聚能飞弹上花费了三个动作，则改为被击退30尺。</p>\n"
+      "description": "<p>当你专注你的石质飞弹时，它会将你的敌人击退。若你使用你的石质飞弹命中一次 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.qYJopPiOLSVIJpG4]{聚能飞弹}，并且你决定将你的敌人向后推开，则敌人必须尝试一次对抗你职业DC或法术DC中较高者的 @Check[fortitude|against:class-spell] 豁免，否则你会将其击退。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标被击退5尺。</p>\n<p><strong>失败</strong> 目标被击退10尺。</p>\n<p><strong>大失败</strong> 目标被击退20尺；若你在聚能飞弹上花费了三个动作，则改为被击退30尺。</p>\n",
+      "prerequisites": [
+        {
+          "value": "聚能飞弹"
+        },
+        {
+          "value": "土巨鬼传承"
+        }
+      ]
     },
     "Confounding Split": {
       "name": "迷惑分裂 Confounding Split",
@@ -63,7 +99,12 @@
     },
     "Cloak of Winds": {
       "name": "风之斗篷 Cloak of Winds",
-      "description": "<p><strong>频率</strong> 每分钟一次</p>\n<p><strong>触发</strong> 你成为你知晓的一次物理远程攻击的目标。</p>\n<hr />\n<p>你掌控风势，在你周身形成一件斗篷，将物理攻击推开。你针对该次触发攻击的AC获得+4环境加值。若该攻击未命中，你的风将其偏转。与某些类似能力不同的是，这股风势极其强烈，你可以使用此专长来偏转异常巨大的远程投射物（例如巨石或弩炮箭）。</p>\n"
+      "description": "<p><strong>频率</strong> 每分钟一次</p>\n<p><strong>触发</strong> 你成为你知晓的一次物理远程攻击的目标。</p>\n<hr />\n<p>你掌控风势，在你周身形成一件斗篷，将物理攻击推开。你针对该次触发攻击的AC获得+4环境加值。若该攻击未命中，你的风将其偏转。与某些类似能力不同的是，这股风势极其强烈，你可以使用此专长来偏转异常巨大的远程投射物（例如巨石或弩炮箭）。</p>\n",
+      "prerequisites": [
+        {
+          "value": "风巨鬼传承"
+        }
+      ]
     },
     "Avatar's Adaptability": {
       "name": "化身适应性 Avatar's Adaptability",
@@ -71,7 +112,12 @@
     },
     "Darksight Disguise": {
       "name": "黑暗视觉伪装 Darksight Disguise",
-      "description": "<p>当你使用你的变形怪伪装进行变形时，你获得你替代形态在黑暗中视物的能力。当你使用变形怪伪装来乔装成一个具有黑暗视觉的类人生物时，你获得黑暗视觉。只要你保持该伪装，这些益处就会持续，并在你变为不同形态时结束，除非新形态同样是一个具有黑暗视觉的类人生物。</p>\n"
+      "description": "<p>当你使用你的变形怪伪装进行变形时，你获得你替代形态在黑暗中视物的能力。当你使用变形怪伪装来乔装成一个具有黑暗视觉的类人生物时，你获得黑暗视觉。只要你保持该伪装，这些益处就会持续，并在你变为不同形态时结束，除非新形态同样是一个具有黑暗视觉的类人生物。</p>\n",
+      "prerequisites": [
+        {
+          "value": "变形怪伪装族裔能力"
+        }
+      ]
     },
     "Labyrinthine Geometry": {
       "name": "迷宫几何学 Labyrinthine Geometry",
@@ -79,7 +125,12 @@
     },
     "Change Shape (Doppelganger)": {
       "name": "变身（变形怪） Change Shape (Doppelganger)",
-      "description": "<p>你改变形态的速度甚至比你的变形怪伪装通常所允许的还要快。使用变形怪伪装时，你可以以单动作来乔装成任何小型或中型类人生物形态，而不只是你的偏好形态。当你变形为你的某个偏好形态时，你的变形会自动战胜用于判定你是否属于你所变成的族裔或生物类型的察觉DC，并且你的欺瞒DC获得+4状态加值，以防止他人看穿你的伪装。</p>\n"
+      "description": "<p>你改变形态的速度甚至比你的变形怪伪装通常所允许的还要快。使用变形怪伪装时，你可以以单动作来乔装成任何小型或中型类人生物形态，而不只是你的偏好形态。当你变形为你的某个偏好形态时，你的变形会自动战胜用于判定你是否属于你所变成的族裔或生物类型的察觉DC，并且你的欺瞒DC获得+4状态加值，以防止他人看穿你的伪装。</p>\n",
+      "prerequisites": [
+        {
+          "value": "变形怪伪装族裔能力"
+        }
+      ]
     },
     "Abyssal Escape": {
       "name": "深渊逃脱 Abyssal Escape",
@@ -87,7 +138,12 @@
     },
     "Aquatic Disguise": {
       "name": "水栖伪装 Aquatic Disguise",
-      "description": "<p>你变形为水栖类人形生物的能力超越了任何其他变形怪。当你使用变形怪的伪装来乔装成水栖或两栖类人形生物时，你获得在水下呼吸的能力，以及15英尺的游泳速度或该族裔通常的游泳速度，取较慢者。只要你保持该伪装，这些益处就会持续。</p>\n"
+      "description": "<p>你变形为水栖类人形生物的能力超越了任何其他变形怪。当你使用变形怪的伪装来乔装成水栖或两栖类人形生物时，你获得在水下呼吸的能力，以及15英尺的游泳速度或该族裔通常的游泳速度，取较慢者。只要你保持该伪装，这些益处就会持续。</p>\n",
+      "prerequisites": [
+        {
+          "value": "变形怪伪装族裔能力"
+        }
+      ]
     },
     "Spirit Oni Familiar": {
       "name": "灵体恶鬼魔宠 Spirit Oni Familiar",
@@ -99,7 +155,12 @@
     },
     "Megataur Transformation": {
       "name": "巨牛人变形 Megataur Transformation",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p>\n<hr />\n<p>你可以在短时间内将你的体型增大到更高的程度，让你能够碾压你的敌人。你获得4环<em>@UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{变巨术}</em>的效果，持续1分钟。</p>\n"
+      "description": "<p><strong>频率</strong> 每10分钟一次</p>\n<hr />\n<p>你可以在短时间内将你的体型增大到更高的程度，让你能够碾压你的敌人。你获得4环<em>@UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{变巨术}</em>的效果，持续1分钟。</p>\n",
+      "prerequisites": [
+        {
+          "value": "你的天生体型为大型（通常源自大型体型的传承）"
+        }
+      ]
     },
     "Ally Bond": {
       "name": "盟友羁绊 Ally Bond",
@@ -107,7 +168,12 @@
     },
     "Nuanced Beauty": {
       "name": "多面之美 Nuanced Beauty",
-      "description": "<p>你的美貌有多个面向，无法仅用单一特质来定义。为你的美貌选择一个不同的性相（令人安心、蛊惑人心或令人震撼），且该性相必须不同于你在获得 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-features.Item.wUCMUSk7IIsshmyd]{超凡美貌} 族裔能力时所选择的性相。你获得超凡美貌能力在该选择下所给予的增益。</p>\n<p><strong>特殊</strong> 你可以多次选择此专长，每次选择超凡美貌所提供的不同性相。</p>\n"
+      "description": "<p>你的美貌有多个面向，无法仅用单一特质来定义。为你的美貌选择一个不同的性相（令人安心、蛊惑人心或令人震撼），且该性相必须不同于你在获得 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-features.Item.wUCMUSk7IIsshmyd]{超凡美貌} 族裔能力时所选择的性相。你获得超凡美貌能力在该选择下所给予的增益。</p>\n<p><strong>特殊</strong> 你可以多次选择此专长，每次选择超凡美貌所提供的不同性相。</p>\n",
+      "prerequisites": [
+        {
+          "value": "超凡之美族裔能力"
+        }
+      ]
     },
     "Frozen Strike": {
       "name": "冰冻打击 Frozen Strike",
@@ -115,7 +181,15 @@
     },
     "Lampad Queen's Beauty": {
       "name": "冥灯仙女女王之美 Lampad Queen's Beauty",
-      "description": "<p>你的美貌使附近的生物被情绪淹没。任何在其回合结束时位于你10英尺内的生物必须尝试一次意志豁免，对抗你的原能法术DC。若失败，他们汹涌的情绪会分散其注意力，使其在1轮内无法采取反应动作。若大失败，他们此外还会获得 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}，直到其在下一回合采取其第一个动作时为止（以此方式陷入困惑时，他们不会使用其困惑动作来攻击你）。随后，他们会在1分钟内获得暂时免疫。你可以使用一个具有专注特征的单动作来开启或关闭此灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.QRLyKA5X8XJq6YxL]{效果：冥灯仙女女王之美（大失败）}</p>\n"
+      "description": "<p>你的美貌使附近的生物被情绪淹没。任何在其回合结束时位于你10英尺内的生物必须尝试一次意志豁免，对抗你的原能法术DC。若失败，他们汹涌的情绪会分散其注意力，使其在1轮内无法采取反应动作。若大失败，他们此外还会获得 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}，直到其在下一回合采取其第一个动作时为止（以此方式陷入困惑时，他们不会使用其困惑动作来攻击你）。随后，他们会在1分钟内获得暂时免疫。你可以使用一个具有专注特征的单动作来开启或关闭此灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.QRLyKA5X8XJq6YxL]{效果：冥灯仙女女王之美（大失败）}</p>\n",
+      "prerequisites": [
+        {
+          "value": "宁芙女王入门"
+        },
+        {
+          "value": "冥灯仙女传承"
+        }
+      ]
     },
     "Call Forth Room": {
       "name": "唤出房间 Call Forth Room",
@@ -123,7 +197,15 @@
     },
     "Ice's Chill": {
       "name": "寒冰之凛 Ice's Chill",
-      "description": "<p>当你将寒冷专注并凝聚在你的冰霜飞弹之中，它会令你的敌人发冷并部分冻结，降低其移动速度。若你使用你的冰霜飞弹施展“聚能飞弹”并命中，敌人必须尝试一次 @Check[fortitude|against:class-spell] 豁免，对抗你更高的职业DC或法术DC，否则其移动速度将承受状态减值。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标的速度在1轮内承受–5尺状态减值。</p>\n<p><strong>失败</strong> 目标的速度在1轮内承受–10尺状态减值。</p>\n<p><strong>大失败</strong> 目标的速度在1轮内承受–15尺状态减值；若你在“聚能飞弹”上花费了三个动作，则其速度在1轮内承受–20尺状态减值。</p>\n<hr />\n<p><strong>特殊</strong> 若你是冰元素化身（Battlezoo Eldamon），你可以选择改为施加冻结状态（Battlezoo Eldamon）：成功时冻结1，失败时冻结2，大失败时冻结3；若你花费三个动作，则大失败时冻结4。若你如此做，来自“寒冰之凛”的冻结状态会与来自你使用“冰霜积累”（Battlezoo Eldamon）的能力所造成的冻结状态累积。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.exeUW5KJO9gGlNGI]{效果：寒冰之凛}</p>\n"
+      "description": "<p>当你将寒冷专注并凝聚在你的冰霜飞弹之中，它会令你的敌人发冷并部分冻结，降低其移动速度。若你使用你的冰霜飞弹施展“聚能飞弹”并命中，敌人必须尝试一次 @Check[fortitude|against:class-spell] 豁免，对抗你更高的职业DC或法术DC，否则其移动速度将承受状态减值。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标的速度在1轮内承受–5尺状态减值。</p>\n<p><strong>失败</strong> 目标的速度在1轮内承受–10尺状态减值。</p>\n<p><strong>大失败</strong> 目标的速度在1轮内承受–15尺状态减值；若你在“聚能飞弹”上花费了三个动作，则其速度在1轮内承受–20尺状态减值。</p>\n<hr />\n<p><strong>特殊</strong> 若你是冰元素化身（Battlezoo Eldamon），你可以选择改为施加冻结状态（Battlezoo Eldamon）：成功时冻结1，失败时冻结2，大失败时冻结3；若你花费三个动作，则大失败时冻结4。若你如此做，来自“寒冰之凛”的冻结状态会与来自你使用“冰霜积累”（Battlezoo Eldamon）的能力所造成的冻结状态累积。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.exeUW5KJO9gGlNGI]{效果：寒冰之凛}</p>\n",
+      "prerequisites": [
+        {
+          "value": "聚能飞弹"
+        },
+        {
+          "value": "冰巨鬼传承"
+        }
+      ]
     },
     "Guiding Strike": {
       "name": "引导打击 Guiding Strike",
@@ -131,7 +213,15 @@
     },
     "Dryad Queen's Beauty": {
       "name": "木林仙女女王之美 Dryad Queen's Beauty",
-      "description": "<p>你的美貌会让附近的生物原地生根，使它们更难移开。任何在其回合结束时处于你10英尺内的生物都必须尝试一次对抗你原能法术DC的意志豁免。失败时，它们的速度在1分钟内承受–15英尺的环境减值；大失败时，它们还会在1轮内 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}。若它们对抗你的原能法术DC成功 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}，则这些效果会提前结束。之后该生物在1分钟内暂时免疫。你可以用一个具有专注特征的单动作开启或关闭此灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.pVkymay3wqmW3fUp]{效果：木林仙女女王之美（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.Tt3V1fAXrfCbd9Qr]{效果：木林仙女女王之美（大失败）}</p>\n<p> </p>\n"
+      "description": "<p>你的美貌会让附近的生物原地生根，使它们更难移开。任何在其回合结束时处于你10英尺内的生物都必须尝试一次对抗你原能法术DC的意志豁免。失败时，它们的速度在1分钟内承受–15英尺的环境减值；大失败时，它们还会在1轮内 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}。若它们对抗你的原能法术DC成功 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}，则这些效果会提前结束。之后该生物在1分钟内暂时免疫。你可以用一个具有专注特征的单动作开启或关闭此灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.pVkymay3wqmW3fUp]{效果：木林仙女女王之美（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.Tt3V1fAXrfCbd9Qr]{效果：木林仙女女王之美（大失败）}</p>\n<p> </p>\n",
+      "prerequisites": [
+        {
+          "value": "宁芙女王入门"
+        },
+        {
+          "value": "木林仙女传承"
+        }
+      ]
     },
     "Cause for Alarm": {
       "name": "警报之由 Cause for Alarm",
@@ -139,7 +229,12 @@
     },
     "Contagious Whisper": {
       "name": "传染低语 Contagious Whisper",
-      "description": "<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p>你以如簧巧舌低声说出甜蜜言辞，影响30尺内的一名生物采取你期望的动作，同时将这句耳语传播给他人。耳语中的动作必须以一种对目标而言似乎合乎逻辑的行动方案来措辞，且不能是自我毁灭的，或明显违背目标自身利益的。目标必须尝试一次对抗你职业DC或法术DC（取较高者）的@Check[will|against:class-spell]意志豁免。未通过豁免的目标可以将耳语传递给另一个生物：以具有与原本的传染低语相同特征与豁免的双动作行动，对该生物低声耳语；并在完成你所建议的任务所需的情况下如此行事。一次意志豁免成功的生物会在24小时内暂时免疫所有传染低语。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响，并且知道你试图操控它。</p>\n<p><strong>成功</strong> 该生物不受影响，并认为你只是在正常与它交谈，而非对它使用某种魔法能力。</p>\n<p><strong>失败</strong> 该生物会立刻遵从你耳语的行动方案，持续至多1分钟；或直到目标完成一段有限的行动方案，或该动作变得自我毁灭，或出现其他明显的负面效果为止。</p>\n<p><strong>大失败</strong> 同失败，但最大持续时间为1小时。</p>\n"
+      "description": "<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p>你以如簧巧舌低声说出甜蜜言辞，影响30尺内的一名生物采取你期望的动作，同时将这句耳语传播给他人。耳语中的动作必须以一种对目标而言似乎合乎逻辑的行动方案来措辞，且不能是自我毁灭的，或明显违背目标自身利益的。目标必须尝试一次对抗你职业DC或法术DC（取较高者）的@Check[will|against:class-spell]意志豁免。未通过豁免的目标可以将耳语传递给另一个生物：以具有与原本的传染低语相同特征与豁免的双动作行动，对该生物低声耳语；并在完成你所建议的任务所需的情况下如此行事。一次意志豁免成功的生物会在24小时内暂时免疫所有传染低语。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响，并且知道你试图操控它。</p>\n<p><strong>成功</strong> 该生物不受影响，并认为你只是在正常与它交谈，而非对它使用某种魔法能力。</p>\n<p><strong>失败</strong> 该生物会立刻遵从你耳语的行动方案，持续至多1分钟；或直到目标完成一段有限的行动方案，或该动作变得自我毁灭，或出现其他明显的负面效果为止。</p>\n<p><strong>大失败</strong> 同失败，但最大持续时间为1小时。</p>\n",
+      "prerequisites": [
+        {
+          "value": "野狐传承"
+        }
+      ]
     },
     "Familiar's Fealty": {
       "name": "魔宠效忠 Familiar's Fealty",
@@ -147,7 +242,12 @@
     },
     "Tree Shaper": {
       "name": "化身树木 Tree Shaper",
-      "description": "<p>你变形为一棵幼小的橡树。这具有<em>@UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{融身化树}</em>的效果（仅变为植物），但你的体型仍为中型。</p>\n"
+      "description": "<p>你变形为一棵幼小的橡树。这具有<em>@UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{融身化树}</em>的效果（仅变为植物），但你的体型仍为中型。</p>\n",
+      "prerequisites": [
+        {
+          "value": "木林仙女传承"
+        }
+      ]
     },
     "Narrative Pacing": {
       "name": "叙事节奏 Narrative Pacing",
@@ -159,11 +259,21 @@
     },
     "Distant Projection": {
       "name": "远距投射 Distant Projection",
-      "description": "<p>当你显现你的化身时，你可以在一定距离处这么做，而不必要求将你的化身在你自己的空间内形成。你的化身可以出现在你30尺内任何你能看见且你拥有清晰效果线之处，然后一旦它出现，你会被沿直线直接拉入你的化身手中。你进入你的化身手中的移动具有移动特征；如果有什么东西扰乱了你进入你的化身之手的移动，你的化身会瞬间消失，而你会在移动被扰乱的位置坠落到地面上。</p>\n"
+      "description": "<p>当你显现你的化身时，你可以在一定距离处这么做，而不必要求将你的化身在你自己的空间内形成。你的化身可以出现在你30尺内任何你能看见且你拥有清晰效果线之处，然后一旦它出现，你会被沿直线直接拉入你的化身手中。你进入你的化身手中的移动具有移动特征；如果有什么东西扰乱了你进入你的化身之手的移动，你的化身会瞬间消失，而你会在移动被扰乱的位置坠落到地面上。</p>\n",
+      "prerequisites": [
+        {
+          "value": "投射武器"
+        }
+      ]
     },
     "Elusive Mind": {
       "name": "飘忽心智 Elusive Mind",
-      "description": "<p>你可以比平常更频繁地将效果转移给你的持用者。你可以每小时使用一次你的@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.clIKzoDT3a8N1g3L]{隐藏心智}动作，而非每天一次。</p>\n"
+      "description": "<p>你可以比平常更频繁地将效果转移给你的持用者。你可以每小时使用一次你的@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.clIKzoDT3a8N1g3L]{隐藏心智}动作，而非每天一次。</p>\n",
+      "prerequisites": [
+        {
+          "value": "隐藏心智"
+        }
+      ]
     },
     "Animal Speaker": {
       "name": "动物语者 Animal Speaker",
@@ -171,11 +281,21 @@
     },
     "Perpetual Wings (Demon)": {
       "name": "恒久之翼（恶魔） Perpetual Wings (Demon)",
-      "description": "<p>你的翅膀永久处于激活状态。你始终获得恶魔之翼的效果，而不再是每天仅一次持续10分钟。翅膀会持续到你希望为止，不过它们可以被收回；你可以以无限的频率使用恶魔之翼来收回你的翅膀或再次显现它们。</p>\n"
+      "description": "<p>你的翅膀永久处于激活状态。你始终获得恶魔之翼的效果，而不再是每天仅一次持续10分钟。翅膀会持续到你希望为止，不过它们可以被收回；你可以以无限的频率使用恶魔之翼来收回你的翅膀或再次显现它们。</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶魔之翼"
+        }
+      ]
     },
     "Sunlight Adaptation": {
       "name": "阳光适应 Sunlight Adaptation",
-      "description": "<p>你已经完全适应了光照，现在它对你来说无害。你不再会因长时间暴露在直射阳光下而变得 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失}。</p>\n"
+      "description": "<p>你已经完全适应了光照，现在它对你来说无害。你不再会因长时间暴露在直射阳光下而变得 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失}。</p>\n",
+      "prerequisites": [
+        {
+          "value": "海难小魔怪传承"
+        }
+      ]
     },
     "Woodtouched": {
       "name": "林木眷顾 Woodtouched",
@@ -183,7 +303,15 @@
     },
     "Focused Assault": {
       "name": "专注强袭 Focused Assault",
-      "description": "<p><strong>需求</strong> 你正各用一只手持用两把近战武器。</p>\n<hr />\n<p>你用两把武器对单一目标发起攻击，你那四只无实体的手交织出武刃的幽魂复制品，将近乎无可逃避的猛攻聚焦于你的敌人。进行两次打击，每次各使用你两把近战武器中的一把，并且每次都使用你当前的多重攻击减值。两次打击必须以同一目标为目标。若第二次打击所用的武器不具有灵巧特征，则该次打击承受–2减值。若两次攻击均命中，则合并它们的伤害，然后在仅结算一次弱点与抗力之前，将两把武器的任何其他适用效果一并加入。你仅能加入一次精准伤害，并将其加在你选择的一次攻击上。若两次攻击均未命中，则从未出现大失败的打击中选择一次，并如同该武器命中一般应用其效果。若两次打击均为大失败，则你不造成伤害并完全落空。照常，由于你进行了两次打击，在计算你的多重攻击减值时这算作两次攻击。</p>\n"
+      "description": "<p><strong>需求</strong> 你正各用一只手持用两把近战武器。</p>\n<hr />\n<p>你用两把武器对单一目标发起攻击，你那四只无实体的手交织出武刃的幽魂复制品，将近乎无可逃避的猛攻聚焦于你的敌人。进行两次打击，每次各使用你两把近战武器中的一把，并且每次都使用你当前的多重攻击减值。两次打击必须以同一目标为目标。若第二次打击所用的武器不具有灵巧特征，则该次打击承受–2减值。若两次攻击均命中，则合并它们的伤害，然后在仅结算一次弱点与抗力之前，将两把武器的任何其他适用效果一并加入。你仅能加入一次精准伤害，并将其加在你选择的一次攻击上。若两次攻击均未命中，则从未出现大失败的打击中选择一次，并如同该武器命中一般应用其效果。若两次打击均为大失败，则你不造成伤害并完全落空。照常，由于你进行了两次打击，在计算你的多重攻击减值时这算作两次攻击。</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶魔劫掠者入门"
+        },
+        {
+          "value": "六臂蛇魔传承"
+        }
+      ]
     },
     "Antivenom Blood": {
       "name": "抗毒血液 Antivenom Blood",
@@ -195,7 +323,12 @@
     },
     "Energy Surge": {
       "name": "能量涌动 Energy Surge",
-      "description": "<p>你的重击迸发出能量，并黏附在你的敌人身上。以伪足的徒手攻击造成重击时，你对目标造成[[/r 1d4[persistent]]]点与伪足徒手攻击所造成类型相同的伤害。</p>\n"
+      "description": "<p>你的重击迸发出能量，并黏附在你的敌人身上。以伪足的徒手攻击造成重击时，你对目标造成[[/r 1d4[persistent]]]点与伪足徒手攻击所造成类型相同的伤害。</p>\n",
+      "prerequisites": [
+        {
+          "value": "能量黏液怪"
+        }
+      ]
     },
     "Gremlin's Gate": {
       "name": "小魔怪之门 Gremlin's Gate",
@@ -203,7 +336,12 @@
     },
     "Haniver Wind Rider": {
       "name": "海鳐小魔怪驭风者 Haniver Wind Rider",
-      "description": "<p>你可以将你富有弹性的鳍当作翅膀使用，在需要时起飞并在天空中翱翔一段时间。通过绷紧你的鳍，你获得等同于你陆地速度的飞行速度，持续10分钟。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.SN3MpmZOSKrBiOhV]{效果：海鳐小魔怪驭风者}</p>\n"
+      "description": "<p>你可以将你富有弹性的鳍当作翅膀使用，在需要时起飞并在天空中翱翔一段时间。通过绷紧你的鳍，你获得等同于你陆地速度的飞行速度，持续10分钟。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.SN3MpmZOSKrBiOhV]{效果：海鳐小魔怪驭风者}</p>\n",
+      "prerequisites": [
+        {
+          "value": "海鳐小魔怪传承"
+        }
+      ]
     },
     "Plant Speaker": {
       "name": "植物交谈者 Plant Speaker",
@@ -215,7 +353,12 @@
     },
     "Brimorak Breath": {
       "name": "爆燃魔吐息 Brimorak Breath",
-      "description": "<p>你向外喷吐一股沸腾的血液，形成一个 @Template[type:line|distance:20]，造成[[/r @actor.level[fire]]]{等同于你等级的火焰伤害}，并进行一次 @Check[reflex|dc:resolve(@actor.attributes.classOrSpellDC)|basic:true] 豁免，DC等于你的职业DC或法术DC中较高者。你在[[/br 1d4 #Brimorak Breath Recharge]]{1d4轮}内无法再次使用你的吐息武器。该区域内的地面变得湿滑，具有以一个区域为目标的<em>@Compendium[pf2e.spells-srd.Wu0xFpewMKRK3HG8]{油腻术}</em>法术的效果，直到它被清理干净或你再次能够使用你的爆燃魔吐息为止，以先发生者为准。</p>\n"
+      "description": "<p>你向外喷吐一股沸腾的血液，形成一个 @Template[type:line|distance:20]，造成[[/r @actor.level[fire]]]{等同于你等级的火焰伤害}，并进行一次 @Check[reflex|dc:resolve(@actor.attributes.classOrSpellDC)|basic:true] 豁免，DC等于你的职业DC或法术DC中较高者。你在[[/br 1d4 #Brimorak Breath Recharge]]{1d4轮}内无法再次使用你的吐息武器。该区域内的地面变得湿滑，具有以一个区域为目标的<em>@Compendium[pf2e.spells-srd.Wu0xFpewMKRK3HG8]{油腻术}</em>法术的效果，直到它被清理干净或你再次能够使用你的爆燃魔吐息为止，以先发生者为准。</p>\n",
+      "prerequisites": [
+        {
+          "value": "爆燃魔传承"
+        }
+      ]
     },
     "Devour Treasure": {
       "name": "吞噬宝藏 Devour Treasure",
@@ -223,7 +366,12 @@
     },
     "Caverns Climber": {
       "name": "洞窟攀登者 Caverns Climber",
-      "description": "<p>你与地城内四通八达的洞窟建立的联系，使你的化身获得了轻松攀爬的能力。你获得10英尺的攀爬速度。</p>\n"
+      "description": "<p>你与地城内四通八达的洞窟建立的联系，使你的化身获得了轻松攀爬的能力。你获得10英尺的攀爬速度。</p>\n",
+      "prerequisites": [
+        {
+          "value": "洞窟传承"
+        }
+      ]
     },
     "Change Shape (Nymph)": {
       "name": "变身（宁芙） Change Shape (Nymph)",
@@ -231,7 +379,12 @@
     },
     "Flying Weapon": {
       "name": "飞行武器 Flying Weapon",
-      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你将额外的魔法能量集中注入维系你漂浮的武器身躯的循环之中，使你能在再次为力量充能之前短暂飞行。你获得等同于你速度的飞行速度，持续1分钟。</p>\n"
+      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你将额外的魔法能量集中注入维系你漂浮的武器身躯的循环之中，使你能在再次为力量充能之前短暂飞行。你获得等同于你速度的飞行速度，持续1分钟。</p>\n",
+      "prerequisites": [
+        {
+          "value": "活化武器传承"
+        }
+      ]
     },
     "Indomitable Maverick": {
       "name": "不屈的独行者 Indomitable Maverick",
@@ -239,7 +392,12 @@
     },
     "Double Jinx": {
       "name": "双重厄咒 Double Jinx",
-      "description": "<p>你的霉运如湿冷的云雾般在你周围汇聚，使你能比以往更频繁地给其他生物施加厄运。你可以每小时使用一次你的 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-actions.Item.IYhpgmgSiS7uaJkK]{厄运小魔怪厄咒}，而非每天一次。</p>\n"
+      "description": "<p>你的霉运如湿冷的云雾般在你周围汇聚，使你能比以往更频繁地给其他生物施加厄运。你可以每小时使用一次你的 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-actions.Item.IYhpgmgSiS7uaJkK]{厄运小魔怪厄咒}，而非每天一次。</p>\n",
+      "prerequisites": [
+        {
+          "value": "厄运小魔怪传承"
+        }
+      ]
     },
     "Adhesive Climb": {
       "name": "黏附攀爬 Adhesive Climb",
@@ -247,15 +405,33 @@
     },
     "Nymph Queen Dedication": {
       "name": "宁芙女王入门 Nymph Queen Dedication",
-      "description": "<p>尽管你是一位四处漂泊的宁芙，自然世界仍已接纳你作为宁芙女王候选者，能够在未来某天开辟并强化你自己的领域。如今，你的女王之力的最初萌芽每日涌入你的精神，以自然每天向你低语的原能法术之形显现。</p>\n<p>你获得 @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{施放法术}行动的许可。你每天可以从原能法术列表中准备两个普通戏法，或准备你学会或发现的其他任何原能戏法。你在原能法术的法术攻击掷骰与法术DC上受训。你的宁芙女王变体法术的关键施法属性由你选择感知或魅力，且它们是原能宁芙女王法术。</p>\n<p>选择一种与你的宁芙传承相匹配的地形。你是该类型领地的潜在女王。你在自然上受训；若你已在自然上受训，则改为在你选择的一项技能上受训。你还获得与所选地形相对应的一项学识技能的 @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识} 技能专长，例如森林学识或洞窟学识。</p>\n<hr />\n<p><strong>特殊</strong> 若你拥有 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.BTy3q0TjIYR5PChQ]{宁芙魔法} 族裔专长，将该专长提供的戏法与宁芙女王入门专长提供的戏法合并。如此一来，来自 宁芙魔法 的戏法不再是原能天生法术，而是改为使你通过宁芙女王变体每天可准备的戏法数量增加至第三个。</p>\n"
+      "description": "<p>尽管你是一位四处漂泊的宁芙，自然世界仍已接纳你作为宁芙女王候选者，能够在未来某天开辟并强化你自己的领域。如今，你的女王之力的最初萌芽每日涌入你的精神，以自然每天向你低语的原能法术之形显现。</p>\n<p>你获得 @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{施放法术}行动的许可。你每天可以从原能法术列表中准备两个普通戏法，或准备你学会或发现的其他任何原能戏法。你在原能法术的法术攻击掷骰与法术DC上受训。你的宁芙女王变体法术的关键施法属性由你选择感知或魅力，且它们是原能宁芙女王法术。</p>\n<p>选择一种与你的宁芙传承相匹配的地形。你是该类型领地的潜在女王。你在自然上受训；若你已在自然上受训，则改为在你选择的一项技能上受训。你还获得与所选地形相对应的一项学识技能的 @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识} 技能专长，例如森林学识或洞窟学识。</p>\n<hr />\n<p><strong>特殊</strong> 若你拥有 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.BTy3q0TjIYR5PChQ]{宁芙魔法} 族裔专长，将该专长提供的戏法与宁芙女王入门专长提供的戏法合并。如此一来，来自 宁芙魔法 的戏法不再是原能天生法术，而是改为使你通过宁芙女王变体每天可准备的戏法数量增加至第三个。</p>\n",
+      "prerequisites": [
+        {
+          "value": "宁芙族裔"
+        }
+      ]
     },
     "Asteria Queen's Beauty": {
       "name": "阿斯忒里亚女王之美 Asteria Queen's Beauty",
-      "description": "<p>你的美貌使附近的生物如同被夜空中闪烁的群星照耀般受到 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}。任何在你周围10尺内结束其回合的生物都必须尝试一次对抗你原能法术DC的意志豁免。失败则其目眩持续1轮，而大失败则其还会 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} 1轮。随后其会在1分钟内获得暂时免疫。你可以使用一个具有专注特征的单动作开启或关闭此灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.1TiEMr0AyTzXLmw0]{效果：阿斯忒里亚女王之美（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.jkPayvj5YNmWSeJv]{效果：阿斯忒里亚女王之美（大失败）}</p>\n"
+      "description": "<p>你的美貌使附近的生物如同被夜空中闪烁的群星照耀般受到 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}。任何在你周围10尺内结束其回合的生物都必须尝试一次对抗你原能法术DC的意志豁免。失败则其目眩持续1轮，而大失败则其还会 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} 1轮。随后其会在1分钟内获得暂时免疫。你可以使用一个具有专注特征的单动作开启或关闭此灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.1TiEMr0AyTzXLmw0]{效果：阿斯忒里亚女王之美（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.jkPayvj5YNmWSeJv]{效果：阿斯忒里亚女王之美（大失败）}</p>\n",
+      "prerequisites": [
+        {
+          "value": "宁芙女王入门"
+        },
+        {
+          "value": "阿斯忒里亚传承"
+        }
+      ]
     },
     "In Vino Veritas": {
       "name": "酒后吐真言 In Vino Veritas",
-      "description": "<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p> 你召来一场浸满美酒的狂欢，迫使参与其中者更加诚实。你在30英尺内设置一场位于 @Template[type:burst|distance:20] 的派对，它持续至多10分钟。当你使用酒后吐真言时位于区域内的每个生物，以及之后进入该区域的任何生物，都必须尝试一次 @Check[will|against:class-spell] 意志豁免，对抗你的职业DC与法术DC中较高者。若该生物离开并再次进入区域，使用这次初始豁免的结果；但其在区域内第一次自愿饮酒时，必须再尝试第二次意志豁免。受影响的生物在区域内知道自己说谎会变得困难，并且可以避免回答那些其通常会用谎言作答的问题，或可以含糊其辞或误导他人，只要仍然保持在事实的边界之内。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物在欺瞒检定上承受–2状态减值。</p>\n<p><strong>失败</strong> 该生物无法故意说谎，并在欺瞒检定上承受–2状态减值。</p>\n<p><strong>大失败</strong> 同失败，但该生物在欺瞒检定上的状态减值为–4。</p>\n"
+      "description": "<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p> 你召来一场浸满美酒的狂欢，迫使参与其中者更加诚实。你在30英尺内设置一场位于 @Template[type:burst|distance:20] 的派对，它持续至多10分钟。当你使用酒后吐真言时位于区域内的每个生物，以及之后进入该区域的任何生物，都必须尝试一次 @Check[will|against:class-spell] 意志豁免，对抗你的职业DC与法术DC中较高者。若该生物离开并再次进入区域，使用这次初始豁免的结果；但其在区域内第一次自愿饮酒时，必须再尝试第二次意志豁免。受影响的生物在区域内知道自己说谎会变得困难，并且可以避免回答那些其通常会用谎言作答的问题，或可以含糊其辞或误导他人，只要仍然保持在事实的边界之内。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物在欺瞒检定上承受–2状态减值。</p>\n<p><strong>失败</strong> 该生物无法故意说谎，并在欺瞒检定上承受–2状态减值。</p>\n<p><strong>大失败</strong> 同失败，但该生物在欺瞒检定上的状态减值为–4。</p>\n",
+      "prerequisites": [
+        {
+          "value": "迈那得传承"
+        }
+      ]
     },
     "Hulking Mimic": {
       "name": "魁梧拟形怪 Hulking Mimic",
@@ -263,7 +439,12 @@
     },
     "Ascending Disguise": {
       "name": "攀爬伪装 Ascending Disguise",
-      "description": "<p>与其他变形怪不同，你可以复制某种形态快速轻松地攀爬的能力。当你使用变形怪的伪装来乔装成一个通常具有攀爬速度的人型生物时，你获得15尺的攀爬速度，或该族裔通常的攀爬速度，以较慢者为准。只要你保持该伪装，这些增益就会持续。</p>\n"
+      "description": "<p>与其他变形怪不同，你可以复制某种形态快速轻松地攀爬的能力。当你使用变形怪的伪装来乔装成一个通常具有攀爬速度的人型生物时，你获得15尺的攀爬速度，或该族裔通常的攀爬速度，以较慢者为准。只要你保持该伪装，这些增益就会持续。</p>\n",
+      "prerequisites": [
+        {
+          "value": "变形怪伪装族裔能力"
+        }
+      ]
     },
     "Change Shape (Demon)": {
       "name": "变身（恶魔） Change Shape (Demon)",
@@ -271,7 +452,15 @@
     },
     "Deny Sloth": {
       "name": "拒斥怠惰 Deny Sloth",
-      "description": "<p><strong>触发</strong> 你的回合开始，你即将获得本回合的动作与反应动作。</p>\n<p><strong>需求</strong> 你没有处于缓慢、震慑，或以其他方式在你的回合开始时会获得的动作数量上受到限制。</p>\n<hr />\n<p>拒绝你内心的懒惰是一件需要每日练习的事，因为你会引诱自己偷懒，但随后又推动自己去达成目标。另一方面，结果不言自明。掷骰 [[/r 1d4]]。掷出1或2时，你获得@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}且本轮只恢复2个动作。掷出3时，你照常恢复3个动作；掷出4时，你在本轮获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}并且可以用这个额外动作来进行打击、行走或快步。如果你不喜欢d4的结果，你可以选择重骰并采用第二次结果，即使该结果更差；这次重骰是一个幸运效果。如果你重骰，则掷出2、3或4时的结果与前述相同，但如果你重骰到1，你获得@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 2}且本回合只恢复1个动作。</p>\n"
+      "description": "<p><strong>触发</strong> 你的回合开始，你即将获得本回合的动作与反应动作。</p>\n<p><strong>需求</strong> 你没有处于缓慢、震慑，或以其他方式在你的回合开始时会获得的动作数量上受到限制。</p>\n<hr />\n<p>拒绝你内心的懒惰是一件需要每日练习的事，因为你会引诱自己偷懒，但随后又推动自己去达成目标。另一方面，结果不言自明。掷骰 [[/r 1d4]]。掷出1或2时，你获得@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}且本轮只恢复2个动作。掷出3时，你照常恢复3个动作；掷出4时，你在本轮获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}并且可以用这个额外动作来进行打击、行走或快步。如果你不喜欢d4的结果，你可以选择重骰并采用第二次结果，即使该结果更差；这次重骰是一个幸运效果。如果你重骰，则掷出2、3或4时的结果与前述相同，但如果你重骰到1，你获得@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 2}且本回合只恢复1个动作。</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶魔劫掠者入门"
+        },
+        {
+          "value": "怯魔传承"
+        }
+      ]
     },
     "Spellblade": {
       "name": "咒刃 Spellblade",
@@ -283,15 +472,30 @@
     },
     "Darkseer Weapon": {
       "name": "暗视武器 Darkseer Weapon",
-      "description": "<p>你强化了你在创造时获得的感官，使你能够在黑暗中视物。你获得黑暗视觉。提醒一下，由于失去了微光视觉，一把附体武器无法从此专长中获得益处，除非他们正附身于拥有微光视觉的生物（并且如果他们正附身于拥有黑暗视觉的生物，此专长不会为他们提供任何益处）。</p>\n"
+      "description": "<p>你强化了你在创造时获得的感官，使你能够在黑暗中视物。你获得黑暗视觉。提醒一下，由于失去了微光视觉，一把附体武器无法从此专长中获得益处，除非他们正附身于拥有微光视觉的生物（并且如果他们正附身于拥有黑暗视觉的生物，此专长不会为他们提供任何益处）。</p>\n",
+      "prerequisites": [
+        {
+          "value": "昏暗视觉"
+        }
+      ]
     },
     "Destructive Smash": {
       "name": "毁灭猛击 Destructive Smash",
-      "description": "<p>你的破坏者凶猛激励你比其他 蠹虫小魔怪 更容易粉碎与摧毁事物。你的打击无视生物或物体的硬度，最高达 5 点。</p>\n"
+      "description": "<p>你的破坏者凶猛激励你比其他 蠹虫小魔怪 更容易粉碎与摧毁事物。你的打击无视生物或物体的硬度，最高达 5 点。</p>\n",
+      "prerequisites": [
+        {
+          "value": "蠹虫小魔怪传承"
+        }
+      ]
     },
     "Doppelganger Weapon Mimesis": {
       "name": "变形怪武器拟态 Doppelganger Weapon Mimesis",
-      "description": "<p>你能够无瑕地模仿你偏好族裔的武器技巧，使你在机会出现、施以毁灭一击时能够最大化利用它们。每当你使用来自你“变形怪武器熟悉”专长、且你受训的武器造成重击时，你会应用该武器的重击专精效果。〔译注：原文正文引用的专长名与本条先决条件中的“偏好武器熟稔”不同；此处保留原正文名称，未改动先决条件。〕</p>\n"
+      "description": "<p>你能够无瑕地模仿你偏好族裔的武器技巧，使你在机会出现、施以毁灭一击时能够最大化利用它们。每当你使用来自你“变形怪武器熟悉”专长、且你受训的武器造成重击时，你会应用该武器的重击专精效果。〔译注：原文正文引用的专长名与本条先决条件中的“偏好武器熟稔”不同；此处保留原正文名称，未改动先决条件。〕</p>\n",
+      "prerequisites": [
+        {
+          "value": "偏好武器熟稔"
+        }
+      ]
     },
     "Interior Camouflage": {
       "name": "室内伪装 Interior Camouflage",
@@ -299,11 +503,27 @@
     },
     "Plentiful Orchard": {
       "name": "丰饶果园 Plentiful Orchard",
-      "description": "<p>当你重新建立与果园的联系时，你能够更频繁地产出水果。你可以每小时使用一次你的埃庇墨利得传承能力来产出水果，而不是每天一次。</p>\n"
+      "description": "<p>当你重新建立与果园的联系时，你能够更频繁地产出水果。你可以每小时使用一次你的埃庇墨利得传承能力来产出水果，而不是每天一次。</p>\n",
+      "prerequisites": [
+        {
+          "value": "埃庇墨利得传承"
+        }
+      ]
     },
     "Grab Weapon": {
       "name": "夺取武器 Grab Weapon",
-      "description": "<p><strong>频率</strong> 每分钟一次</p>\n<p><strong>触发</strong> 一名生物用近战武器命中你。</p>\n<hr />\n<p>你将泥浆之躯绷紧迎向敌人的攻击，然后试图把他们的武器从其握持中拉出并拖入你的泥浆中。你尝试对触发的生物进行@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}。在大成功时，你可以选择让武器被你的身体吞没，而非坠落到地面；在敌人能够取回武器之前，必须先将其卸武出来。你可以用一次交互动作从你自己的泥浆中取回该武器。你的泥浆之躯以这种方式最多能容纳一把武器，持续至多1分钟。GM可能会裁定某些特别巨大的武器，例如巨型的巨剑，无法装入你的泥浆之躯中；不过只要你有能力对该体型的生物进行卸武（例如通过“巨人摔角术”专长），你仍然可以使用“夺取武器”来尝试对其卸武。</p>\n"
+      "description": "<p><strong>频率</strong> 每分钟一次</p>\n<p><strong>触发</strong> 一名生物用近战武器命中你。</p>\n<hr />\n<p>你将泥浆之躯绷紧迎向敌人的攻击，然后试图把他们的武器从其握持中拉出并拖入你的泥浆中。你尝试对触发的生物进行@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}。在大成功时，你可以选择让武器被你的身体吞没，而非坠落到地面；在敌人能够取回武器之前，必须先将其卸武出来。你可以用一次交互动作从你自己的泥浆中取回该武器。你的泥浆之躯以这种方式最多能容纳一把武器，持续至多1分钟。GM可能会裁定某些特别巨大的武器，例如巨型的巨剑，无法装入你的泥浆之躯中；不过只要你有能力对该体型的生物进行卸武（例如通过“巨人摔角术”专长），你仍然可以使用“夺取武器”来尝试对其卸武。</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶魔劫掠者入门"
+        },
+        {
+          "value": "运动受训"
+        },
+        {
+          "value": "泥魔传承"
+        }
+      ]
     },
     "Check the Narrative": {
       "name": "核对叙事 Check the Narrative",
@@ -311,7 +531,12 @@
     },
     "Third Eye": {
       "name": "第三只眼 Third Eye",
-      "description": "<p>你可以从额头中央的第三只眼发射元素能量。你获得一种取决于你传承的投射物远程徒手攻击。你的投射物徒手攻击的射程增量为20尺，属于搏击武器组，并造成下列所列类型的 @Damage[1d4[untyped]] 伤害，且具有括号中列出的元素特征。〔译注：第三只眼的原文及基础打击将射程增量写为20尺，远距飞弹的原文则写从40尺提高至80尺；本译文保留这项源差异。〕</p>\n<p><strong>电能飞弹</strong>（水巨鬼）1d4 电击（水）</p>\n<p><strong>火焰飞弹</strong>（火巨鬼）1d4 火焰（火）</p>\n<p><strong>呼啸飞弹</strong>（风巨鬼）1d4 音波（气）</p>\n<p><strong>寒冰飞弹</strong>（冰巨鬼）1d4 寒冷（寒冷）</p>\n<p><strong>岩石飞弹</strong>（土巨鬼）1d4 钝击（土）</p>\n"
+      "description": "<p>你可以从额头中央的第三只眼发射元素能量。你获得一种取决于你传承的投射物远程徒手攻击。你的投射物徒手攻击的射程增量为20尺，属于搏击武器组，并造成下列所列类型的 @Damage[1d4[untyped]] 伤害，且具有括号中列出的元素特征。〔译注：第三只眼的原文及基础打击将射程增量写为20尺，远距飞弹的原文则写从40尺提高至80尺；本译文保留这项源差异。〕</p>\n<p><strong>电能飞弹</strong>（水巨鬼）1d4 电击（水）</p>\n<p><strong>火焰飞弹</strong>（火巨鬼）1d4 火焰（火）</p>\n<p><strong>呼啸飞弹</strong>（风巨鬼）1d4 音波（气）</p>\n<p><strong>寒冰飞弹</strong>（冰巨鬼）1d4 寒冷（寒冷）</p>\n<p><strong>岩石飞弹</strong>（土巨鬼）1d4 钝击（土）</p>\n",
+      "prerequisites": [
+        {
+          "value": "土巨鬼、火巨鬼、冰巨鬼、水巨鬼或风巨鬼传承"
+        }
+      ]
     },
     "Nature's Protection": {
       "name": "自然庇护 Nature's Protection",
@@ -319,7 +544,12 @@
     },
     "Yai's Reach": {
       "name": "巨鬼触及 Yai's Reach",
-      "description": "<p>你利用你的体型来增加你攻击的触及。只要你处于大型，你的触及就会增加到10英尺。</p>\n"
+      "description": "<p>你利用你的体型来增加你攻击的触及。只要你处于大型，你的触及就会增加到10英尺。</p>\n",
+      "prerequisites": [
+        {
+          "value": "你的天生体型为大型（通常源自大型体型的传承）"
+        }
+      ]
     },
     "Winetouched": {
       "name": "美酒眷顾 Winetouched",
@@ -327,11 +557,21 @@
     },
     "Gremlin Unarmed Warrior": {
       "name": "小魔怪徒手战士 Gremlin Unarmed Warrior",
-      "description": "<p>你的小魔怪徒手攻击比你的同类更强。如果你是海难小魔怪，你的爪子武器伤害骰从1d4提升至1d6；如果你是暴虐小魔怪，你的颚部获得灵巧特征；如果你是蠹虫小魔怪，你的颚钳武器伤害骰从1d4提升至1d6。</p>\n<p><strong>特殊</strong> 如果你是蠹虫小魔怪，你可以获得该专长作为奖励专长，而无需为此花费一个族裔专长，但你必须接受以下蠹虫小魔怪弱点作为交换：你的外骨骼会发出响亮的咔啦声，使你在移动时进行隐秘检定时承受–2减值（例如用于@UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{避人耳目}或@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}的检定，但不包括用于躲藏的检定）。面对一个完全无法听见你的生物时（例如一个@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋}生物，或处于一片寂静区域内的生物），你不会承受该减值。</p>\n"
+      "description": "<p>你的小魔怪徒手攻击比你的同类更强。如果你是海难小魔怪，你的爪子武器伤害骰从1d4提升至1d6；如果你是暴虐小魔怪，你的颚部获得灵巧特征；如果你是蠹虫小魔怪，你的颚钳武器伤害骰从1d4提升至1d6。</p>\n<p><strong>特殊</strong> 如果你是蠹虫小魔怪，你可以获得该专长作为奖励专长，而无需为此花费一个族裔专长，但你必须接受以下蠹虫小魔怪弱点作为交换：你的外骨骼会发出响亮的咔啦声，使你在移动时进行隐秘检定时承受–2减值（例如用于@UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{避人耳目}或@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}的检定，但不包括用于躲藏的检定）。面对一个完全无法听见你的生物时（例如一个@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋}生物，或处于一片寂静区域内的生物），你不会承受该减值。</p>\n",
+      "prerequisites": [
+        {
+          "value": "海难小魔怪、暴虐小魔怪或蠹虫小魔怪传承"
+        }
+      ]
     },
     "Style Maven": {
       "name": "时尚大师 Style Maven",
-      "description": "<p>全世界再也没有人比你更懂时尚与风格！你以自己能在任何时候调整衣装以契合气氛与叙事而自豪。你可以随意使用希德族造型，不受频率限制。然而，在同一天内你第一次之后每次使用希德族造型时，你在该日先前做出的那次改动都会复原。一天结束时，你当日最后一次改动将永久保留。</p>\n"
+      "description": "<p>全世界再也没有人比你更懂时尚与风格！你以自己能在任何时候调整衣装以契合气氛与叙事而自豪。你可以随意使用希德族造型，不受频率限制。然而，在同一天内你第一次之后每次使用希德族造型时，你在该日先前做出的那次改动都会复原。一天结束时，你当日最后一次改动将永久保留。</p>\n",
+      "prerequisites": [
+        {
+          "value": "希德族造型"
+        }
+      ]
     },
     "Petrifying Finish": {
       "name": "石化终结 Petrifying Finish",
@@ -367,7 +607,12 @@
     },
     "Fuath Paddler": {
       "name": "海难小魔怪划水者 Fuath Paddler",
-      "description": "<p>你在潜水、漂浮和划水方面提升的技能提高了你在水中的速度。你的游泳速度从15尺提升至25尺。</p>\n"
+      "description": "<p>你在潜水、漂浮和划水方面提升的技能提高了你在水中的速度。你的游泳速度从15尺提升至25尺。</p>\n",
+      "prerequisites": [
+        {
+          "value": "海难小魔怪传承"
+        }
+      ]
     },
     "Deduce Story": {
       "name": "推断故事 Deduce Story",
@@ -379,23 +624,48 @@
     },
     "Void Form": {
       "name": "虚空形态 Void Form",
-      "description": "<p>你可以采取一种非实体的虚空形态，看起来像你的影子，使你能更轻松地潜行。你的虚空形态会持续，直到你花费一个单动作变回原状。在该形态下，你获得以下效果：你失去对AC的任何物品加值，以及来自护甲的所有其他效果与加值，并且你使用你的无甲防御熟练度调整值。你获得8点对物理伤害的抗力并免疫精准伤害，并且你在用于躲藏、@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}以及@UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{避人耳目}的隐秘检定上获得+2环境加值。你不能施放法术、启动物品，或使用带有攻击或操作特征的动作。你可以滑过细小的裂缝。</p>\n<hr />\n<p><strong>特殊</strong> 如果你拥有@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.dWt7gCCF1opRQa7b]{虚体形态}专长，若你愿意，你可以立即重训为一个不同的第13等级或更低的恶鬼族裔专长。你也可以选择保留该专长，因为它用于变形所需的动作更少，并为水巨鬼提供一种不同的形态。</p>\n"
+      "description": "<p>你可以采取一种非实体的虚空形态，看起来像你的影子，使你能更轻松地潜行。你的虚空形态会持续，直到你花费一个单动作变回原状。在该形态下，你获得以下效果：你失去对AC的任何物品加值，以及来自护甲的所有其他效果与加值，并且你使用你的无甲防御熟练度调整值。你获得8点对物理伤害的抗力并免疫精准伤害，并且你在用于躲藏、@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}以及@UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{避人耳目}的隐秘检定上获得+2环境加值。你不能施放法术、启动物品，或使用带有攻击或操作特征的动作。你可以滑过细小的裂缝。</p>\n<hr />\n<p><strong>特殊</strong> 如果你拥有@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.dWt7gCCF1opRQa7b]{虚体形态}专长，若你愿意，你可以立即重训为一个不同的第13等级或更低的恶鬼族裔专长。你也可以选择保留该专长，因为它用于变形所需的动作更少，并为水巨鬼提供一种不同的形态。</p>\n",
+      "prerequisites": [
+        {
+          "value": "巨鬼行者入门"
+        }
+      ]
     },
     "Succubus's Embrace": {
       "name": "魅魔之拥 Succubus's Embrace",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p>\n<hr />\n<p>你用迷人的魅惑环绕自身，引诱另一名生物接受你的拥抱。你尝试使用你的交涉调整值而非运动来对一名生物进行@Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{擒拿}。如果该生物是自愿的，则你改为自动将其擒拿。</p>\n"
+      "description": "<p><strong>频率</strong> 每10分钟一次</p>\n<hr />\n<p>你用迷人的魅惑环绕自身，引诱另一名生物接受你的拥抱。你尝试使用你的交涉调整值而非运动来对一名生物进行@Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{擒拿}。如果该生物是自愿的，则你改为自动将其擒拿。</p>\n",
+      "prerequisites": [
+        {
+          "value": "魅魔传承"
+        }
+      ]
     },
     "Adaptive Disguise": {
       "name": "适应性伪装 Adaptive Disguise",
-      "description": "<p>你已适应于更容易从你的替代形态中获得特性，也能在你并未处于通常会拥有这些特性的形态时，依然保留你最擅长的特性。即使你并未处于通常会给予你其好处的形态中，你依然获得你所拥有的下列任意专长的好处：水栖伪装、攀爬伪装、黑暗视觉伪装，以及 嗅觉伪装。此外，当你处于一种会从上述专长之一获得一个或多个能力、但你并未拥有该专长的形态时（攀爬速度、黑暗视觉、嗅觉，或同时获得游泳速度与水下呼吸），即使你没有该专长，你仍可获得其中至多一项好处。</p>\n<p>例如，若你拥有 嗅觉伪装 与 攀爬伪装，你将始终获得 15 英尺的攀爬速度，以及延伸至 30 英尺的模糊嗅觉。若你接着变形为一名具备水栖特征且拥有黑暗视觉的人形生物，你可以选择获得黑暗视觉，或同时获得水下呼吸与 15 英尺的游泳速度；你在两者中选择其一后，该效果会在你处于该形态期间持续。</p>\n"
+      "description": "<p>你已适应于更容易从你的替代形态中获得特性，也能在你并未处于通常会拥有这些特性的形态时，依然保留你最擅长的特性。即使你并未处于通常会给予你其好处的形态中，你依然获得你所拥有的下列任意专长的好处：水栖伪装、攀爬伪装、黑暗视觉伪装，以及 嗅觉伪装。此外，当你处于一种会从上述专长之一获得一个或多个能力、但你并未拥有该专长的形态时（攀爬速度、黑暗视觉、嗅觉，或同时获得游泳速度与水下呼吸），即使你没有该专长，你仍可获得其中至多一项好处。</p>\n<p>例如，若你拥有 嗅觉伪装 与 攀爬伪装，你将始终获得 15 英尺的攀爬速度，以及延伸至 30 英尺的模糊嗅觉。若你接着变形为一名具备水栖特征且拥有黑暗视觉的人形生物，你可以选择获得黑暗视觉，或同时获得水下呼吸与 15 英尺的游泳速度；你在两者中选择其一后，该效果会在你处于该形态期间持续。</p>\n",
+      "prerequisites": [
+        {
+          "value": "水栖伪装、攀爬伪装、黑暗视觉伪装或嗅觉伪装"
+        }
+      ]
     },
     "Manifested Arms": {
       "name": "显现之臂 Manifested Arms",
-      "description": "<p>只要你保持自信，你的四条额外幽灵手臂就会显现得足够凝实，以便短暂地帮助你攀附。只要你没有惊惧状态，并且你未处于极度绝望的效果或类似的情绪效果之下，即使你没有空出的手，你也可以通过使用转瞬即逝的幽灵手臂来协助你进行@Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{攀爬}或@Compendium[pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{抓住边缘}。显现之臂专长永远不会给予你一只空闲的手，因此它不允许你使用任何需要空手的能力。</p>\n"
+      "description": "<p>只要你保持自信，你的四条额外幽灵手臂就会显现得足够凝实，以便短暂地帮助你攀附。只要你没有惊惧状态，并且你未处于极度绝望的效果或类似的情绪效果之下，即使你没有空出的手，你也可以通过使用转瞬即逝的幽灵手臂来协助你进行@Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{攀爬}或@Compendium[pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{抓住边缘}。显现之臂专长永远不会给予你一只空闲的手，因此它不允许你使用任何需要空手的能力。</p>\n",
+      "prerequisites": [
+        {
+          "value": "六臂蛇魔传承"
+        }
+      ]
     },
     "Marshal Rule": {
       "name": "战将号令 Marshal Rule",
-      "description": "<p>你可以用你巧舌如簧的口才或你高傲的气场来激励你的爪牙与盟友。你获得 @UUID[Compendium.pf2e.feats-srd.Item.MYzRfNExDYp25rro]{战将入门} 专长，即使你通常必须先从你当前的变体中选取更多专长才能再选择另一个入门专长。当你使用战将变体的动作时，你所提供的增益来自你混杂着希德族的自信与为盟友扭转叙事的手段。除此之外，该变体的机制照常运作。</p>\n"
+      "description": "<p>你可以用你巧舌如簧的口才或你高傲的气场来激励你的爪牙与盟友。你获得 @UUID[Compendium.pf2e.feats-srd.Item.MYzRfNExDYp25rro]{战将入门} 专长，即使你通常必须先从你当前的变体中选取更多专长才能再选择另一个入门专长。当你使用战将变体的动作时，你所提供的增益来自你混杂着希德族的自信与为盟友扭转叙事的手段。除此之外，该变体的机制照常运作。</p>\n",
+      "prerequisites": [
+        {
+          "value": "军用武器受训；交涉或威吓受训"
+        }
+      ]
     },
     "Nymph Magic": {
       "name": "宁芙魔法 Nymph Magic",
@@ -403,7 +673,12 @@
     },
     "Kneecapper": {
       "name": "碎膝者 Kneecapper",
-      "description": "<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 一个位于你触及范围内且体型比你大一档的生物在其移动动作期间离开一个方格</p>\n<hr />\n<p>你以灵巧的身体扭转猛然扫向敌人的膝盖，将其击倒在地。进行一次 @Check[acrobatics|defense:reflex] 检定，对抗触发生物的反射DC。若成功，目标倒下并以 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地} 状态着地。若大成功，他们还会受到等同于你的 @Damage[(@actor.level + @actor.abilities.str.mod)[untyped]]{等级加上你的力量调整值} 的伤害；如果你拥有 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.KhqlnAUbDjELOS4F]{趁其倒地踢一脚} 专长，即使你没有对目标进行打击且目标起初并非倒地，该环境加值仍适用于所造成的伤害。</p>\n"
+      "description": "<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 一个位于你触及范围内且体型比你大一档的生物在其移动动作期间离开一个方格</p>\n<hr />\n<p>你以灵巧的身体扭转猛然扫向敌人的膝盖，将其击倒在地。进行一次 @Check[acrobatics|defense:reflex] 检定，对抗触发生物的反射DC。若成功，目标倒下并以 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地} 状态着地。若大成功，他们还会受到等同于你的 @Damage[(@actor.level + @actor.abilities.str.mod)[untyped]]{等级加上你的力量调整值} 的伤害；如果你拥有 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.KhqlnAUbDjELOS4F]{趁其倒地踢一脚} 专长，即使你没有对目标进行打击且目标起初并非倒地，该环境加值仍适用于所造成的伤害。</p>\n",
+      "prerequisites": [
+        {
+          "value": "暴虐小魔怪传承"
+        }
+      ]
     },
     "Dungeon Lore": {
       "name": "地城学识 Dungeon Lore",
@@ -423,15 +698,30 @@
     },
     "Serpents' Vigilance": {
       "name": "群蛇警戒 Serpents' Vigilance",
-      "description": "<p>你的发蛇会自行留意较弱的威胁，这样你就能更专注地对付更危险的对手。即使你未使用“群蛇视觉”，你的发蛇也会留意与你同等级或更低等级的生物，并且你不会被它们夹击。它们仍会为更高等级的生物提供夹击。</p>\n"
+      "description": "<p>你的发蛇会自行留意较弱的威胁，这样你就能更专注地对付更危险的对手。即使你未使用“群蛇视觉”，你的发蛇也会留意与你同等级或更低等级的生物，并且你不会被它们夹击。它们仍会为更高等级的生物提供夹击。</p>\n",
+      "prerequisites": [
+        {
+          "value": "群蛇视觉"
+        }
+      ]
     },
     "Demonic Marauder Dedication": {
       "name": "恶魔劫掠者入门 Demonic Marauder Dedication",
-      "description": "<p>你是一名恶魔劫掠者，并且专注于重新挪用深渊的力量与技巧，以创造你自己独特的武艺风格。你要么专注于徒手攻击，要么专注于机动劫掠。选择以下一项增益：你要么获得 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.RQBlbzOPd4h3Scsj]{恶魔打击} 族裔专长作为奖励专长，使你从 恶魔打击 专长获得的徒手攻击（无论一种还是多种）的伤害骰提高一级（从 d4 到 d6 或从 d6 到 d8）；要么你获得 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-actions.Item.60oX91gHZBlV26gD]{劫掠} 动作。</p>\n<hr />\n<p><strong>特殊</strong> 若你选择获得 恶魔打击 专长但你已拥有该专长，你可以免费将其重训为另一个 1级恶魔族裔专长，而无需花费重训的时间。若你的传承能够赋予多个徒手攻击且你想保留其中两个或更多，你不必重训该专长。</p>\n"
+      "description": "<p>你是一名恶魔劫掠者，并且专注于重新挪用深渊的力量与技巧，以创造你自己独特的武艺风格。你要么专注于徒手攻击，要么专注于机动劫掠。选择以下一项增益：你要么获得 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.RQBlbzOPd4h3Scsj]{恶魔打击} 族裔专长作为奖励专长，使你从 恶魔打击 专长获得的徒手攻击（无论一种还是多种）的伤害骰提高一级（从 d4 到 d6 或从 d6 到 d8）；要么你获得 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-actions.Item.60oX91gHZBlV26gD]{劫掠} 动作。</p>\n<hr />\n<p><strong>特殊</strong> 若你选择获得 恶魔打击 专长但你已拥有该专长，你可以免费将其重训为另一个 1级恶魔族裔专长，而无需花费重训的时间。若你的传承能够赋予多个徒手攻击且你想保留其中两个或更多，你不必重训该专长。</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶魔族裔"
+        }
+      ]
     },
     "Constant Levitation": {
       "name": "恒定悬浮 Constant Levitation",
-      "description": "<p>你始终可以运用原能魔法在空中飞行。你始终获得恶鬼悬浮的效果，而非仅每日一次持续10分钟。</p>\n"
+      "description": "<p>你始终可以运用原能魔法在空中飞行。你始终获得恶鬼悬浮的效果，而非仅每日一次持续10分钟。</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶鬼悬浮"
+        }
+      ]
     },
     "Speedy Sabotage": {
       "name": "迅速破坏 Speedy Sabotage",
@@ -447,19 +737,42 @@
     },
     "Leanan Sidhe Confidant": {
       "name": "莉安南希德族知己 Leanan Sidhe Confidant",
-      "description": "<p>你发现自己尤其容易结交朋友并赢得人们的信任，尤其是艺术家和表演者。你在交涉中获得受训。如果你本会自动在交涉中成为受训（例如来自你的背景或职业），则你改为在你选择的一项技能中成为受训。你获得 @Compendium[pf2e.feats-srd.cc8O47KFsODReoBe]{自来熟} 专长的益处，但仅适用于艺术家和表演者。如果你拥有 自来熟 专长，当目标是艺术家或表演者时，你不再在你的即时交涉检定上承受 –5 减值。</p>\n"
+      "description": "<p>你发现自己尤其容易结交朋友并赢得人们的信任，尤其是艺术家和表演者。你在交涉中获得受训。如果你本会自动在交涉中成为受训（例如来自你的背景或职业），则你改为在你选择的一项技能中成为受训。你获得 @Compendium[pf2e.feats-srd.cc8O47KFsODReoBe]{自来熟} 专长的益处，但仅适用于艺术家和表演者。如果你拥有 自来熟 专长，当目标是艺术家或表演者时，你不再在你的即时交涉检定上承受 –5 减值。</p>\n",
+      "prerequisites": [
+        {
+          "value": "莉安南希德族传承"
+        }
+      ]
     },
     "Profane Gift": {
       "name": "亵渎赠礼 Profane Gift",
-      "description": "<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p>你可以通过触碰，给予一名相邻且自愿的生物一个亵渎赠礼，不过根据你所属的恶魔群体与个人倾向，你的赠礼可能比通常魅魔的更不那么亵渎。该生物在最多 1 小时内获得对攻击掷骰、技能检定与豁免检定的 +1 状态加值，不过你可以让该效果提前结束，但会让目标付出巨大代价（见下文）。只要该赠礼持续，你就能与目标在任意距离进行心灵感应交流，通过该生物的感官视物，并通过心灵感应链接向该生物提出请求。此外，你在对目标进行交涉检定以 @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{请求} 其做某事，或对目标进行欺瞒检定以 @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎} 时，使用比你掷出的结果高一级的成功度结果。</p>\n<p>一个生物同一时间无法拥有超过一个来自魅魔的亵渎赠礼（包括来自本专长与来自生物能力的两种亵渎赠礼），且一名魅魔同一时间也无法授予超过一个亵渎赠礼。若某生物将获得第二个亵渎赠礼，则持续时间更长的赠礼会取代另一个赠礼（这意味着生物能力会取代专长）。提前移除亵渎赠礼需要进行一次赎罪仪式，但由于该仪式通常耗时长于赠礼的持续时间，因此通常更容易等待赠礼自行结束。</p>\n<p>你可以以带有专注特征的 自由动作移除该赠礼，使受赠者获得永久的 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 3} 状态。需要施放 4 环 @UUID[Compendium.pf2e.spells-srd.Item.SnaLVgxZ9ryUFmUr]{复原术} 法术才能使该呆滞状态降低 1。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.IAaEv3S70WAG5LfM]{效果: 亵渎赠礼（加值）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.UwjEQzCXOV4YzOZ9]{效果: 亵渎赠礼（减值）}</p>\n"
+      "description": "<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p>你可以通过触碰，给予一名相邻且自愿的生物一个亵渎赠礼，不过根据你所属的恶魔群体与个人倾向，你的赠礼可能比通常魅魔的更不那么亵渎。该生物在最多 1 小时内获得对攻击掷骰、技能检定与豁免检定的 +1 状态加值，不过你可以让该效果提前结束，但会让目标付出巨大代价（见下文）。只要该赠礼持续，你就能与目标在任意距离进行心灵感应交流，通过该生物的感官视物，并通过心灵感应链接向该生物提出请求。此外，你在对目标进行交涉检定以 @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{请求} 其做某事，或对目标进行欺瞒检定以 @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎} 时，使用比你掷出的结果高一级的成功度结果。</p>\n<p>一个生物同一时间无法拥有超过一个来自魅魔的亵渎赠礼（包括来自本专长与来自生物能力的两种亵渎赠礼），且一名魅魔同一时间也无法授予超过一个亵渎赠礼。若某生物将获得第二个亵渎赠礼，则持续时间更长的赠礼会取代另一个赠礼（这意味着生物能力会取代专长）。提前移除亵渎赠礼需要进行一次赎罪仪式，但由于该仪式通常耗时长于赠礼的持续时间，因此通常更容易等待赠礼自行结束。</p>\n<p>你可以以带有专注特征的 自由动作移除该赠礼，使受赠者获得永久的 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 3} 状态。需要施放 4 环 @UUID[Compendium.pf2e.spells-srd.Item.SnaLVgxZ9ryUFmUr]{复原术} 法术才能使该呆滞状态降低 1。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.IAaEv3S70WAG5LfM]{效果: 亵渎赠礼（加值）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.UwjEQzCXOV4YzOZ9]{效果: 亵渎赠礼（减值）}</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶魔劫掠者入门"
+        },
+        {
+          "value": "魅魔传承"
+        }
+      ]
     },
     "Distant Missiles": {
       "name": "远距飞弹 Distant Missiles",
-      "description": "<p>你可以从你的第三只眼发射飞弹，比大多数其他恶鬼特立独行者要远得多。你由 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.8k2etAnsPjxPjIL8]{第三只眼} 授予的飞弹徒手攻击的射程增量从40尺提高到80尺。〔译注：第三只眼的原文及基础打击将射程增量写为20尺，远距飞弹的原文则写从40尺提高至80尺；本译文保留这项源差异。〕</p>\n<hr />\n<p><strong>特殊</strong> 若你拥有“虚空飞弹”专长，则该专长的效果也适用于你的虚空飞弹徒手攻击。</p>\n"
+      "description": "<p>你可以从你的第三只眼发射飞弹，比大多数其他恶鬼特立独行者要远得多。你由 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.8k2etAnsPjxPjIL8]{第三只眼} 授予的飞弹徒手攻击的射程增量从40尺提高到80尺。〔译注：第三只眼的原文及基础打击将射程增量写为20尺，远距飞弹的原文则写从40尺提高至80尺；本译文保留这项源差异。〕</p>\n<hr />\n<p><strong>特殊</strong> 若你拥有“虚空飞弹”专长，则该专长的效果也适用于你的虚空飞弹徒手攻击。</p>\n",
+      "prerequisites": [
+        {
+          "value": "巨鬼行者入门"
+        }
+      ]
     },
     "Poisonous Pustules": {
       "name": "毒性脓疱 Poisonous Pustules",
-      "description": "<p><strong>频率</strong> 每分钟一次</p>\n<p><strong>需求</strong> 你正在擒拿一个生物。</p>\n<hr />\n<p>你从全身的疖子和疣中喷溅出骇人且剧毒的体液。一个被你施加@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{受擒}或@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚}的生物受到[[/r (@actor.level+@actor.abilities.con.mod)[poison]]]{等于你等级加上你的体质调整值的毒素伤害}，并进行一次@Check[fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]豁免，DC等于你的职业DC与法术DC中较高者。</p>\n"
+      "description": "<p><strong>频率</strong> 每分钟一次</p>\n<p><strong>需求</strong> 你正在擒拿一个生物。</p>\n<hr />\n<p>你从全身的疖子和疣中喷溅出骇人且剧毒的体液。一个被你施加@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{受擒}或@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚}的生物受到[[/r (@actor.level+@actor.abilities.con.mod)[poison]]]{等于你等级加上你的体质调整值的毒素伤害}，并进行一次@Check[fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]豁免，DC等于你的职业DC与法术DC中较高者。</p>\n",
+      "prerequisites": [
+        {
+          "value": "涸泽魔传承"
+        }
+      ]
     },
     "Darksight": {
       "name": "黑暗视觉 Darksight",
@@ -475,7 +788,12 @@
     },
     "Marauder's Duality": {
       "name": "劫掠者的双重本领 Marauder's Duality",
-      "description": "<p>你太贪心了：当你能同时拥有两种选择时，怎么会只选其中一种。你获得你在选择@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.Cg6i1sD0YIClJfmP]{恶魔劫掠者入门}时未选择的那项收益。</p>\n<hr />\n<p><strong>特殊</strong> 若剩余的收益会给予你@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.RQBlbzOPd4h3Scsj]{恶魔打击}专长，且你已经拥有该专长，你可以免费将其重训为另一个1级恶魔族裔专长，而无需花费重训时间。若你的传承能给予多个徒手攻击且你想保留其中两种或更多种，你不必重训该专长。</p>\n"
+      "description": "<p>你太贪心了：当你能同时拥有两种选择时，怎么会只选其中一种。你获得你在选择@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.Cg6i1sD0YIClJfmP]{恶魔劫掠者入门}时未选择的那项收益。</p>\n<hr />\n<p><strong>特殊</strong> 若剩余的收益会给予你@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.RQBlbzOPd4h3Scsj]{恶魔打击}专长，且你已经拥有该专长，你可以免费将其重训为另一个1级恶魔族裔专长，而无需花费重训时间。若你的传承能给予多个徒手攻击且你想保留其中两种或更多种，你不必重训该专长。</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶魔劫掠者入门"
+        }
+      ]
     },
     "Rewire Senses": {
       "name": "重接感官 Rewire Senses",
@@ -483,19 +801,39 @@
     },
     "Energy Spit": {
       "name": "能量喷吐 Energy Spit",
-      "description": "<p>你可以从你的黏液怪身体中吐出或甩出能量，从远处击败你的敌人。你获得一个能量喷吐徒手攻击，其造成与你的伪足相同类型的1d4伤害（伤害掷骰不加上任何属性调整值），射程增量为20英尺。你的能量喷吐攻击属于投石索武器组，并具有魔法特征。与其他徒手攻击一样，你可以用重拳缠手带来强化这个攻击。</p>\n"
+      "description": "<p>你可以从你的黏液怪身体中吐出或甩出能量，从远处击败你的敌人。你获得一个能量喷吐徒手攻击，其造成与你的伪足相同类型的1d4伤害（伤害掷骰不加上任何属性调整值），射程增量为20英尺。你的能量喷吐攻击属于投石索武器组，并具有魔法特征。与其他徒手攻击一样，你可以用重拳缠手带来强化这个攻击。</p>\n",
+      "prerequisites": [
+        {
+          "value": "能量黏液怪"
+        }
+      ]
     },
     "Hulking Reach": {
       "name": "魁梧触及 Hulking Reach",
-      "description": "<p>你不仅体型庞大，而且还拥有惊人的触及。只要你是大型，你的触及增加到10尺。</p>\n"
+      "description": "<p>你不仅体型庞大，而且还拥有惊人的触及。只要你是大型，你的触及增加到10尺。</p>\n",
+      "prerequisites": [
+        {
+          "value": "你的天生体型为大型（通常源自大型体型的传承）"
+        }
+      ]
     },
     "Perpetual Wings (Nymph)": {
       "name": "恒久之翼（宁芙） Perpetual Wings (Nymph)",
-      "description": "<p>你可以随心所欲地飞行。你始终获得“自然之翔”的效果，而非每天仅能使用一次并持续10分钟。飞行会持续到你想结束为止，不过若你愿意，也可以将其停用，或长出或收回翅膀；你可以以无限的频率使用“自然之翔”来启用或停用你的飞行，或收回你的翅膀或再次显现它们。</p>\n"
+      "description": "<p>你可以随心所欲地飞行。你始终获得“自然之翔”的效果，而非每天仅能使用一次并持续10分钟。飞行会持续到你想结束为止，不过若你愿意，也可以将其停用，或长出或收回翅膀；你可以以无限的频率使用“自然之翔”来启用或停用你的飞行，或收回你的翅膀或再次显现它们。</p>\n",
+      "prerequisites": [
+        {
+          "value": "自然之翔"
+        }
+      ]
     },
     "Towering Yai": {
       "name": "巍峨巨鬼 Towering Yai",
-      "description": "<p>通过专注于你与元素的联系，或引导虚空的腐化力量，你获得了非独行的水巨鬼或风巨鬼的体态……或在身高上变得类似虚空巨鬼。你的体型增至超大型，你的触及增至10英尺（若你拥有巨鬼触及专长，则为15英尺）。这不会改变你的任何其他数据。</p>\n"
+      "description": "<p>通过专注于你与元素的联系，或引导虚空的腐化力量，你获得了非独行的水巨鬼或风巨鬼的体态……或在身高上变得类似虚空巨鬼。你的体型增至超大型，你的触及增至10英尺（若你拥有巨鬼触及专长，则为15英尺）。这不会改变你的任何其他数据。</p>\n",
+      "prerequisites": [
+        {
+          "value": "巨鬼行者入门"
+        }
+      ]
     },
     "Repel Magic": {
       "name": "排斥魔法 Repel Magic",
@@ -503,7 +841,12 @@
     },
     "Fling Self": {
       "name": "抛飞自身 Fling Self",
-      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你可以将自己抛掷穿越空中一定距离。你以直线向任意方向抛掷自己30英尺，甚至可以笔直向上。你可以选择立刻以正常悬浮状态着陆，或者在你使用下一个动作后坠落；你在抛掷自己时选择其一。</p>\n"
+      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你可以将自己抛掷穿越空中一定距离。你以直线向任意方向抛掷自己30英尺，甚至可以笔直向上。你可以选择立刻以正常悬浮状态着陆，或者在你使用下一个动作后坠落；你在抛掷自己时选择其一。</p>\n",
+      "prerequisites": [
+        {
+          "value": "活化武器传承"
+        }
+      ]
     },
     "Disguise Quality": {
       "name": "伪装品质 Disguise Quality",
@@ -511,7 +854,12 @@
     },
     "Call Forth Traps": {
       "name": "唤出陷阱 Call Forth Traps",
-      "description": "<p>你学会了各种巧妙的把戏，使你能够从你自己的个人地城中召唤出众多陷阱，并将它们带到战场上来困扰你的敌人。你获得 @Compendium[pf2e.feats-srd.4MUbwilvb9dI0X59]{圈套师入门} 专长，即使你通常在从你当前的变体中取得更多专长之前无法再选择另一个入门专长。每当你使用来自 圈套师变体的快速部署时，你是在让陷阱从你的地城内部显现出来，而不是快速建造它，但除此之外该变体的机制仍以相同方式运作。</p>\n"
+      "description": "<p>你学会了各种巧妙的把戏，使你能够从你自己的个人地城中召唤出众多陷阱，并将它们带到战场上来困扰你的敌人。你获得 @Compendium[pf2e.feats-srd.4MUbwilvb9dI0X59]{圈套师入门} 专长，即使你通常在从你当前的变体中取得更多专长之前无法再选择另一个入门专长。每当你使用来自 圈套师变体的快速部署时，你是在让陷阱从你的地城内部显现出来，而不是快速建造它，但除此之外该变体的机制仍以相同方式运作。</p>\n",
+      "prerequisites": [
+        {
+          "value": "手艺受训"
+        }
+      ]
     },
     "Caverntouched": {
       "name": "洞窟眷顾 Caverntouched",
@@ -523,11 +871,21 @@
     },
     "Roaring Gale": {
       "name": "咆哮狂风 Roaring Gale",
-      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你召起狂风将敌人掀飞。你120英尺内10英尺半径爆发范围内的所有生物都会被吹飞，其结果取决于它们针对你职业DC或法术DC中较高者进行的 @Check[fortitude|against:class-spell] 豁免。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响</p>\n<p><strong>成功</strong> 你将该生物吹离你5英尺。</p>\n<p><strong>失败</strong> 你将该生物抛向空中，迫使其落在你选择的、至多离你10英尺远的位置。该生物因坠落受到 @Damage[5d6[bludgeoning]] 伤害。若其将要落地的空间内有另一个生物，则另一个生物也受到等量伤害，并进行一次基本反射豁免；坠落的生物结束于其选择的最近未被占据的空间。该伤害在15级时增加至6d6，在17级时增加至7d6，在19级时增加至8d6。</p>\n<p>当前伤害：@Damage[ceil(@actor.level/2 - 2)d6[bludgeoning]]</p>\n<p><strong>大失败</strong> 你将该生物高高抛向空中，使其重重砸在你选择的、至多离你20英尺远的地面上。该生物因撞击受到 @Damage[10d6[bludgeoning]] 伤害，并陷入 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。若其将要落地的空间内有另一个生物，则另一个生物也受到等量伤害，并进行一次基本反射豁免；坠落的生物结束于你选择的最近未被占据的空间。该伤害在15级时增加至12d6，在17级时增加至14d6，在19级时增加至16d6。</p>\n<p>当前伤害：@Damage[(ceil(@actor.level/2 - 2)*2)d6[bludgeoning]]</p>\n"
+      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你召起狂风将敌人掀飞。你120英尺内10英尺半径爆发范围内的所有生物都会被吹飞，其结果取决于它们针对你职业DC或法术DC中较高者进行的 @Check[fortitude|against:class-spell] 豁免。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响</p>\n<p><strong>成功</strong> 你将该生物吹离你5英尺。</p>\n<p><strong>失败</strong> 你将该生物抛向空中，迫使其落在你选择的、至多离你10英尺远的位置。该生物因坠落受到 @Damage[5d6[bludgeoning]] 伤害。若其将要落地的空间内有另一个生物，则另一个生物也受到等量伤害，并进行一次基本反射豁免；坠落的生物结束于其选择的最近未被占据的空间。该伤害在15级时增加至6d6，在17级时增加至7d6，在19级时增加至8d6。</p>\n<p>当前伤害：@Damage[ceil(@actor.level/2 - 2)d6[bludgeoning]]</p>\n<p><strong>大失败</strong> 你将该生物高高抛向空中，使其重重砸在你选择的、至多离你20英尺远的地面上。该生物因撞击受到 @Damage[10d6[bludgeoning]] 伤害，并陷入 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。若其将要落地的空间内有另一个生物，则另一个生物也受到等量伤害，并进行一次基本反射豁免；坠落的生物结束于你选择的最近未被占据的空间。该伤害在15级时增加至12d6，在17级时增加至14d6，在19级时增加至16d6。</p>\n<p>当前伤害：@Damage[(ceil(@actor.level/2 - 2)*2)d6[bludgeoning]]</p>\n",
+      "prerequisites": [
+        {
+          "value": "风巨鬼传承"
+        }
+      ]
     },
     "Disinter": {
       "name": "掘出尸骸 Disinter",
-      "description": "<p>你从你的地城中唤出一具不死尸体，要么用作脆弱的一次性棋子，要么用来恐吓另一名生物。你每天可以施放一次<em>@Compendium[pf2e.spells-srd.9WGeBwIIbbUuWKq0]{召唤亡灵}</em>或<em>@Compendium[pf2e.spells-srd.4koZzrnMXhhosn0D]{恐惧术}</em>作为神术天生法术；你可以每天临时决定施放哪一个法术；一旦你施放了其中任意一个法术，当天也就不能再施放另一个。当你以这种方式施放<em>恐惧术</em>时，目标会看到尸体被掘出的影像。</p>\n"
+      "description": "<p>你从你的地城中唤出一具不死尸体，要么用作脆弱的一次性棋子，要么用来恐吓另一名生物。你每天可以施放一次<em>@Compendium[pf2e.spells-srd.9WGeBwIIbbUuWKq0]{召唤亡灵}</em>或<em>@Compendium[pf2e.spells-srd.4koZzrnMXhhosn0D]{恐惧术}</em>作为神术天生法术；你可以每天临时决定施放哪一个法术；一旦你施放了其中任意一个法术，当天也就不能再施放另一个。当你以这种方式施放<em>恐惧术</em>时，目标会看到尸体被掘出的影像。</p>\n",
+      "prerequisites": [
+        {
+          "value": "陵墓传承"
+        }
+      ]
     },
     "Return to Sin": {
       "name": "重归罪孽 Return to Sin",
@@ -551,15 +909,30 @@
     },
     "Flurry of Fashion": {
       "name": "时尚连换 Flurry of Fashion",
-      "description": "<p>你可以随意改变你的外貌打扮，不过每天只有一次改变会保持永久。你可以随心所欲地使用变形怪时装，且没有频率限制。然而，每当你在同一天内第一次之后再次使用变形怪时装时，你在同一天内之前做出的改变会复原。到一天结束时，你当天最后一次改变会保持永久。</p>\n"
+      "description": "<p>你可以随意改变你的外貌打扮，不过每天只有一次改变会保持永久。你可以随心所欲地使用变形怪时装，且没有频率限制。然而，每当你在同一天内第一次之后再次使用变形怪时装时，你在同一天内之前做出的改变会复原。到一天结束时，你当天最后一次改变会保持永久。</p>\n",
+      "prerequisites": [
+        {
+          "value": "变形怪时装"
+        }
+      ]
     },
     "Energy Avatar": {
       "name": "能量化身 Energy Avatar",
-      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>你将大量能量灌注自身，使身体转化为巨大的黏液，在短时间内化身为能量的化身。该效果持续1分钟。在此期间，你变为超大型，且若你的触及小于10尺，则你的触及增加至10尺。你获得你在获得 @Compendium[battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.RtbmL0RXgU7Kc9Ii]{能量黏液怪} 专长时所选择的能量类型的免疫。你的伪足与 @Compendium[battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.EnENOaq24nUGRW92]{能量喷吐} 攻击会造成所选类型额外1d8点伤害，而你的其他徒手攻击会造成所选类型额外1d4点伤害。任何触碰你或以徒手近战攻击或非触及近战武器对你造成伤害的生物，都会受到所选类型的[[/r 3d6 #Damage]]{3d6}伤害。每轮第一次当你使用近战徒手攻击对一个生物造成所选类型的能量伤害时，你将其吸收进体内，因你的身体通过能量消化对方获得养分而获得[[/r 3d6 #Temporary HP]]{3d6临时HP}。当变形结束时，任何剩余的临时HP也会一并消失。能量化身 获得与你所选能量类型相对应的特征。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.fXhEerVlYl1CzqaY]{效果: 能量化身}</p>\n"
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>你将大量能量灌注自身，使身体转化为巨大的黏液，在短时间内化身为能量的化身。该效果持续1分钟。在此期间，你变为超大型，且若你的触及小于10尺，则你的触及增加至10尺。你获得你在获得 @Compendium[battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.RtbmL0RXgU7Kc9Ii]{能量黏液怪} 专长时所选择的能量类型的免疫。你的伪足与 @Compendium[battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.EnENOaq24nUGRW92]{能量喷吐} 攻击会造成所选类型额外1d8点伤害，而你的其他徒手攻击会造成所选类型额外1d4点伤害。任何触碰你或以徒手近战攻击或非触及近战武器对你造成伤害的生物，都会受到所选类型的[[/r 3d6 #Damage]]{3d6}伤害。每轮第一次当你使用近战徒手攻击对一个生物造成所选类型的能量伤害时，你将其吸收进体内，因你的身体通过能量消化对方获得养分而获得[[/r 3d6 #Temporary HP]]{3d6临时HP}。当变形结束时，任何剩余的临时HP也会一并消失。能量化身 获得与你所选能量类型相对应的特征。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.fXhEerVlYl1CzqaY]{效果: 能量化身}</p>\n",
+      "prerequisites": [
+        {
+          "value": "能量黏液怪"
+        }
+      ]
     },
     "Greater Darksight Disguise": {
       "name": "高等黑暗视觉伪装 Greater Darksight Disguise",
-      "description": "<p>你已经提升了自己采用某种形态的黑暗视觉的能力，使你也能复制高等黑暗视觉。当你使用变形怪的伪装来乔装成一名具有高等黑暗视觉的类人生物时，你获得高等黑暗视觉。只要你维持该伪装，这些益处就会持续。</p>\n"
+      "description": "<p>你已经提升了自己采用某种形态的黑暗视觉的能力，使你也能复制高等黑暗视觉。当你使用变形怪的伪装来乔装成一名具有高等黑暗视觉的类人生物时，你获得高等黑暗视觉。只要你维持该伪装，这些益处就会持续。</p>\n",
+      "prerequisites": [
+        {
+          "value": "黑暗视觉伪装或暗视变形传承"
+        }
+      ]
     },
     "Renegade Heroics": {
       "name": "叛逆英雄气概 Renegade Heroics",
@@ -571,7 +944,12 @@
     },
     "Convincing Face": {
       "name": "逼真面容 Convincing Face",
-      "description": "<p>与你大多数黏液怪同类不同，你可以改变你类人形态的质地、颜色与其他细节，以便更有效地伪装自己。当你使用无定形形态变为类人形态时，你可以选择看起来像某个类人族裔的成员（通常是人类），而不是一个显然由黏液组成、仅仅模糊呈类人轮廓的形状。该形态的具体细节与你本身密不可分，无法改变，即使你对该专长进行重训也不行。这使你能够有效地乔装成所选族裔的成员，除非他人仔细检查并注意到细微的不一致之处，否则无法看出你是一只黏液怪。</p>\n"
+      "description": "<p>与你大多数黏液怪同类不同，你可以改变你类人形态的质地、颜色与其他细节，以便更有效地伪装自己。当你使用无定形形态变为类人形态时，你可以选择看起来像某个类人族裔的成员（通常是人类），而不是一个显然由黏液组成、仅仅模糊呈类人轮廓的形状。该形态的具体细节与你本身密不可分，无法改变，即使你对该专长进行重训也不行。这使你能够有效地乔装成所选族裔的成员，除非他人仔细检查并注意到细微的不一致之处，否则无法看出你是一只黏液怪。</p>\n",
+      "prerequisites": [
+        {
+          "value": "无定形形态族裔能力"
+        }
+      ]
     },
     "Adamantine Synthesis": {
       "name": "精金合成 Adamantine Synthesis",
@@ -579,11 +957,21 @@
     },
     "Hindering Weapon": {
       "name": "妨碍武器 Hindering Weapon",
-      "description": "<p>你通过训练与重塑调整了自身，以利用三种可能的妨害动作之一。你获得缴械、推撞或绊摔特征之一（由你选择）。</p>\n"
+      "description": "<p>你通过训练与重塑调整了自身，以利用三种可能的妨害动作之一。你获得缴械、推撞或绊摔特征之一（由你选择）。</p>\n",
+      "prerequisites": [
+        {
+          "value": "你是近战武器"
+        }
+      ]
     },
     "Meld Into Stone": {
       "name": "融入石中 Meld Into Stone",
-      "description": "<p>你已恢复了与洞窟足够的连接，能够将身体融入岩石以躲避伤害。你每天可施放一次<em>@UUID[Compendium.pf2e.spells-srd.Item.vh1RpbWfqdNC4L3P]{融身化石}</em>（仅限 融入岩石），作为一种原能天生法术。</p>\n"
+      "description": "<p>你已恢复了与洞窟足够的连接，能够将身体融入岩石以躲避伤害。你每天可施放一次<em>@UUID[Compendium.pf2e.spells-srd.Item.vh1RpbWfqdNC4L3P]{融身化石}</em>（仅限 融入岩石），作为一种原能天生法术。</p>\n",
+      "prerequisites": [
+        {
+          "value": "冥灯仙女传承"
+        }
+      ]
     },
     "Minotaur's Visage": {
       "name": "牛头人面容 Minotaur's Visage",
@@ -595,15 +983,30 @@
     },
     "Preferred Weapon Familiarity": {
       "name": "偏好武器熟稔 Preferred Weapon Familiarity",
-      "description": "<p>你知道如何使用你偏好形态所特有的武器。你获得与你偏好形态相关联的1级武器熟悉族裔专长。对于以你获得的武器熟悉专长为先决条件的5级和13级族裔专长，你满足其族裔先决条件。</p>\n"
+      "description": "<p>你知道如何使用你偏好形态所特有的武器。你获得与你偏好形态相关联的1级武器熟悉族裔专长。对于以你获得的武器熟悉专长为先决条件的5级和13级族裔专长，你满足其族裔先决条件。</p>\n",
+      "prerequisites": [
+        {
+          "value": "偏好形态对应的族裔具有武器熟悉族裔专长"
+        }
+      ]
     },
     "Zephyr's Wrath": {
       "name": "西风之怒 Zephyr's Wrath",
-      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>虽然奥拉通常不易动怒，但凡惹怒你的人都将感受如同狂风本身的怒火。所有位于@Template[type:cone|distance:40]内的生物都会被吹飞，结果取决于其对你较高者（职业DC或法术DC）的@Check[fortitude|against:class-spell]豁免。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响</p>\n<p><strong>成功</strong> 狂怒之风将该生物吹离你5英尺。</p>\n<p><strong>失败</strong> 狂怒之风将该生物抛向空中，迫使其落在你选择的、至多离你10英尺远的位置。该生物因坠落承受@Damage[5d6[bludgeoning]]伤害。如果它将要落地的空间中还有另一名生物，则另一名生物也承受相同数值的伤害，并进行一次基本反射豁免；坠落的生物最终落在其选择的最近的未被占据的空间中。该伤害在15级时提高至6d6、17级时提高至7d6、19级时提高至8d6。</p>\n<p><strong>大失败</strong> 狂暴之风将该生物高高抛入空中，随后将其重重摔回地面。如同失败，但你可以迫使该生物坠落在至多离你20英尺远的位置；该生物（以及它落在其上的任意生物）承受失败条目所列伤害的两倍，且该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>\n"
+      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>虽然奥拉通常不易动怒，但凡惹怒你的人都将感受如同狂风本身的怒火。所有位于@Template[type:cone|distance:40]内的生物都会被吹飞，结果取决于其对你较高者（职业DC或法术DC）的@Check[fortitude|against:class-spell]豁免。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响</p>\n<p><strong>成功</strong> 狂怒之风将该生物吹离你5英尺。</p>\n<p><strong>失败</strong> 狂怒之风将该生物抛向空中，迫使其落在你选择的、至多离你10英尺远的位置。该生物因坠落承受@Damage[5d6[bludgeoning]]伤害。如果它将要落地的空间中还有另一名生物，则另一名生物也承受相同数值的伤害，并进行一次基本反射豁免；坠落的生物最终落在其选择的最近的未被占据的空间中。该伤害在15级时提高至6d6、17级时提高至7d6、19级时提高至8d6。</p>\n<p><strong>大失败</strong> 狂暴之风将该生物高高抛入空中，随后将其重重摔回地面。如同失败，但你可以迫使该生物坠落在至多离你20英尺远的位置；该生物（以及它落在其上的任意生物）承受失败条目所列伤害的两倍，且该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>\n",
+      "prerequisites": [
+        {
+          "value": "奥拉传承"
+        }
+      ]
     },
     "Putrid Vomit": {
       "name": "腐臭呕吐 Putrid Vomit",
-      "description": "<p>你喷吐出一条 @Template[type:line|distance:30] 的喷射状呕吐物。区域内的每个生物必须尝试一次 @Check[fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|] 豁免，对抗你职业DC或法术DC中较高者，失败则陷入 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}，大失败则陷入 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}。</p>\n"
+      "description": "<p>你喷吐出一条 @Template[type:line|distance:30] 的喷射状呕吐物。区域内的每个生物必须尝试一次 @Check[fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|] 豁免，对抗你职业DC或法术DC中较高者，失败则陷入 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}，大失败则陷入 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}。</p>\n",
+      "prerequisites": [
+        {
+          "value": "垢鼠小魔怪传承"
+        }
+      ]
     },
     "Regenerative Recovery": {
       "name": "再生恢复 Regenerative Recovery",
@@ -623,11 +1026,27 @@
     },
     "Unusual Shift": {
       "name": "异类变形 Unusual Shift",
-      "description": "<p>你可以变形为一些更不寻常的形态，但整体仍大致呈类人外形。除了小型与中型类人生物外，你还可以使用变形怪的伪装来呈现为另一种类型、但具有标准类人身体轮廓的生物，例如宁芙或巴利斯天使。对于任何其他变形怪能力，只要其指定你必须采取类人形态，你也可以采取这些具有类人外形的其他类型生物的形态。</p>\n"
+      "description": "<p>你可以变形为一些更不寻常的形态，但整体仍大致呈类人外形。除了小型与中型类人生物外，你还可以使用变形怪的伪装来呈现为另一种类型、但具有标准类人身体轮廓的生物，例如宁芙或巴利斯天使。对于任何其他变形怪能力，只要其指定你必须采取类人形态，你也可以采取这些具有类人外形的其他类型生物的形态。</p>\n",
+      "prerequisites": [
+        {
+          "value": "变形怪伪装族裔能力"
+        }
+      ]
     },
     "Reactive Talons": {
       "name": "应激利爪 Reactive Talons",
-      "description": "<p><strong>触发</strong> 你触及内的一名生物使用操作动作或移动动作、进行一次远程攻击，或在其正在使用的移动动作中离开一个方格。</p>\n<p><strong>需求</strong> 你正在飞行。</p>\n<hr />\n<p>你用一记利爪猛击，然后若第一击未命中则再来一击，希望从空中扰乱你的敌人。使用由@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.RQBlbzOPd4h3Scsj]{恶魔打击}专长授予的利爪徒手攻击，对触发生物进行一次打击。若该利爪打击未命中，你可以立刻以–5减值尝试第二次利爪打击。若任一利爪打击为重击且触发为操作动作，你打断该动作。你的利爪打击不计入你的多重攻击减值，且你的多重攻击减值不适用于它们。</p>\n"
+      "description": "<p><strong>触发</strong> 你触及内的一名生物使用操作动作或移动动作、进行一次远程攻击，或在其正在使用的移动动作中离开一个方格。</p>\n<p><strong>需求</strong> 你正在飞行。</p>\n<hr />\n<p>你用一记利爪猛击，然后若第一击未命中则再来一击，希望从空中扰乱你的敌人。使用由@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.RQBlbzOPd4h3Scsj]{恶魔打击}专长授予的利爪徒手攻击，对触发生物进行一次打击。若该利爪打击未命中，你可以立刻以–5减值尝试第二次利爪打击。若任一利爪打击为重击且触发为操作动作，你打断该动作。你的利爪打击不计入你的多重攻击减值，且你的多重攻击减值不适用于它们。</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶魔劫掠者入门"
+        },
+        {
+          "value": "授予利爪无武装攻击的恶魔打击专长"
+        },
+        {
+          "value": "鹫魔传承"
+        }
+      ]
     },
     "Doppelborn's Disguise": {
       "name": "二重生灵伪装 Doppelborn's Disguise",
@@ -651,11 +1070,24 @@
     },
     "Baobhan Sidhe Captivator": {
       "name": "巴欧班希德族魅惑者 Baobhan Sidhe Captivator",
-      "description": "<p>你那引人入胜的舞蹈堪称传奇。你获得 @Compendium[pf2e.feats-srd.7LB00jkh6JaJr3vS]{迷魂表演} 与 @Compendium[pf2e.feats-srd.lFwfUvH2708rl6i3]{精湛演技} 技能专长。对于 精湛演技 技能专长，你的表演类型为舞蹈。对于上述两个你已经拥有的技能专长中的每一个，你获得另一个你选择且满足其先决条件的1级技能专长</p>\n"
+      "description": "<p>你那引人入胜的舞蹈堪称传奇。你获得 @Compendium[pf2e.feats-srd.7LB00jkh6JaJr3vS]{迷魂表演} 与 @Compendium[pf2e.feats-srd.lFwfUvH2708rl6i3]{精湛演技} 技能专长。对于 精湛演技 技能专长，你的表演类型为舞蹈。对于上述两个你已经拥有的技能专长中的每一个，你获得另一个你选择且满足其先决条件的1级技能专长</p>\n",
+      "prerequisites": [
+        {
+          "value": "巴欧班希德族传承"
+        },
+        {
+          "value": "表演受训"
+        }
+      ]
     },
     "Doppelganger Weapon Expertise": {
       "name": "变形怪武器专家 Doppelganger Weapon Expertise",
-      "description": "<p>你完全能够利用你从其他族裔中模仿来的武器，使你也能将你进阶的职业训练应用于它们。每当你获得一项职业特性，使你在某些武器上获得专家或更高的熟练度时，你也会在你通过变形怪武器熟悉专长获得且你已受训的武器上获得该熟练度。〔译注：原文正文引用的专长名与本条先决条件中的“偏好武器熟稔”不同；此处保留原正文名称，未改动先决条件。〕</p>\n"
+      "description": "<p>你完全能够利用你从其他族裔中模仿来的武器，使你也能将你进阶的职业训练应用于它们。每当你获得一项职业特性，使你在某些武器上获得专家或更高的熟练度时，你也会在你通过变形怪武器熟悉专长获得且你已受训的武器上获得该熟练度。〔译注：原文正文引用的专长名与本条先决条件中的“偏好武器熟稔”不同；此处保留原正文名称，未改动先决条件。〕</p>\n",
+      "prerequisites": [
+        {
+          "value": "偏好武器熟稔"
+        }
+      ]
     },
     "Divine Manifestation": {
       "name": "神能显现 Divine Manifestation",
@@ -679,15 +1111,33 @@
     },
     "Master Nymph Queen Spellcasting": {
       "name": "大师宁芙女王施法 Master Nymph Queen Spellcasting",
-      "description": "<p>你与自然融为一体，而自然回应你的召唤，以强大的法术守护你的子民，并将复仇之雨倾泻在那些侵扰你领地之人身上。你获得大师施法的益处。</p>\n"
+      "description": "<p>你与自然融为一体，而自然回应你的召唤，以强大的法术守护你的子民，并将复仇之雨倾泻在那些侵扰你领地之人身上。你获得大师施法的益处。</p>\n",
+      "prerequisites": [
+        {
+          "value": "专家宁芙女王施法"
+        },
+        {
+          "value": "自然熟练度为传奇"
+        }
+      ]
     },
     "Kick 'Em While They're Down": {
       "name": "趁其倒地踢一脚 Kick 'Em While They're Down",
-      "description": "<p>你尤其擅长在把敌人击倒在地后痛打他们。对抗 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地} 目标时，你的打击在伤害掷骰中获得+2环境加值。</p>\n"
+      "description": "<p>你尤其擅长在把敌人击倒在地后痛打他们。对抗 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地} 目标时，你的打击在伤害掷骰中获得+2环境加值。</p>\n",
+      "prerequisites": [
+        {
+          "value": "暴虐小魔怪传承"
+        }
+      ]
     },
     "Cait Sidhe Jinx": {
       "name": "凯特希德族厄咒 Cait Sidhe Jinx",
-      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>你可以诅咒另一个生物，以在一段时间内抵消其幸运。选择30尺内的一个目标生物。该生物必须进行一次 @Check[will|against:class-spell] 豁免，对抗你职业DC或法术DC中较高者。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物受到诅咒影响，诅咒影响其所有掷骰，持续1轮。除此之外没有其他效果，但由于这是一个厄运效果，它会抵消幸运效果。</p>\n<p><strong>失败</strong> 如同成功，但诅咒持续并影响其所有掷骰，持续1分钟。</p>\n<p><strong>大失败</strong> 如同成功，但诅咒影响其所有掷骰，持续1天，且该生物在持续时间内的攻击掷骰、豁免与技能检定承受–1状态减值。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.jZ56j5RLQHMHPWkJ]{效果：凯特希德族厄咒（大失败）}</p>\n"
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>你可以诅咒另一个生物，以在一段时间内抵消其幸运。选择30尺内的一个目标生物。该生物必须进行一次 @Check[will|against:class-spell] 豁免，对抗你职业DC或法术DC中较高者。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物受到诅咒影响，诅咒影响其所有掷骰，持续1轮。除此之外没有其他效果，但由于这是一个厄运效果，它会抵消幸运效果。</p>\n<p><strong>失败</strong> 如同成功，但诅咒持续并影响其所有掷骰，持续1分钟。</p>\n<p><strong>大失败</strong> 如同成功，但诅咒影响其所有掷骰，持续1天，且该生物在持续时间内的攻击掷骰、豁免与技能检定承受–1状态减值。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.jZ56j5RLQHMHPWkJ]{效果：凯特希德族厄咒（大失败）}</p>\n",
+      "prerequisites": [
+        {
+          "value": "凯特希德族传承"
+        }
+      ]
     },
     "Abyssal Magic": {
       "name": "深渊魔法 Abyssal Magic",
@@ -703,11 +1153,24 @@
     },
     "Wind's Howl": {
       "name": "风之嚎叫 Wind's Howl",
-      "description": "<p>你的呼啸飞弹响彻云霄，足以伤害敌人的听觉。在一次成功的呼啸飞弹打击命中时，目标必须进行一次 @Check[fortitude|against:class-spell]，对抗你的职业或法术DC（取较高者），否则将 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋} 1轮；若为大失败，则耳聋 1分钟。若该打击造成重击，则改为在强韧豁免失败时耳聋 1分钟，而在大失败时永久耳聋。无论结果如何，之后他们会对你的风之嚎叫的耳聋效果获得暂时免疫 1分钟。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.Zb0BHXXnjZUhs0II]{效果: 风之嚎叫（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.fay9zlSGfizDOMT7]{效果: 风之嚎叫（大失败）}</p>\n"
+      "description": "<p>你的呼啸飞弹响彻云霄，足以伤害敌人的听觉。在一次成功的呼啸飞弹打击命中时，目标必须进行一次 @Check[fortitude|against:class-spell]，对抗你的职业或法术DC（取较高者），否则将 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋} 1轮；若为大失败，则耳聋 1分钟。若该打击造成重击，则改为在强韧豁免失败时耳聋 1分钟，而在大失败时永久耳聋。无论结果如何，之后他们会对你的风之嚎叫的耳聋效果获得暂时免疫 1分钟。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.Zb0BHXXnjZUhs0II]{效果: 风之嚎叫（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.fay9zlSGfizDOMT7]{效果: 风之嚎叫（大失败）}</p>\n",
+      "prerequisites": [
+        {
+          "value": "巨鬼行者入门"
+        },
+        {
+          "value": "风巨鬼传承"
+        }
+      ]
     },
     "Overlord": {
       "name": "霸主 Overlord",
-      "description": "<p>在征服了你个人地城的至少一层，并逐渐明白那一层对你的身份与本质究竟意味着什么之后，你获得了对该层的极端掌控力，足以创造出一处舒适的天堂：怪物会清扫地面、整理床铺，而陷阱则向下延伸来为你的饮品续杯。每日一次，你可以花费1分钟创造一道通往你地城安全区域的门径。入口是一道微弱、闪烁的竖直矩形，宽5尺、高10尺。你在施放该法术时指定哪些人可以进入。一旦进入其中，你可以关闭入口，使其隐形。你与被你指定的生物可以随意重新打开这道门，如同打开一扇实体门一样。该门径将持续存在，直到你花费1分钟将其移动到另一处地点。其内部，被你改造成据点的地城楼层会依照你的喜好装饰，但仍会遵循基于你的传承而来的主题（群岛地城对应一座私人岛屿；塔型地城对应一座巨塔的一层；以此类推）。该层的区域取决于你的地城细节以及你所选择的楼层，这些由你的GM决定，但通常其地面空间至少应有1,600平方尺，而多数地城楼层会显著更大。当你将该层作为你的据点使用时，你会将其与其他入侵者隔绝，使得几乎不可能离开或进入该层，即便是从地城中的其他楼层也不行（通常试图这么做的人会完全绕过该层，直接跳到它之后的下一层）。当外部入口关闭时，外界的效果无法渗透其中，反之亦然，唯有<em>@Compendium[pf2e.spells-srd.5bTt2CvYHPvaR7QQ]{跨界传送}</em>例外，其仍可如常用来进入地城。你只能使用能够跨越位面的探知魔法及类似效果来观察外界。一支怪物的侍从团队会在据点内招待你的宾客，在地城楼层内耕作或以其他方式收集食物，并为宾客烹饪餐食，能够每天提供最多150人份既美味又饱腹的餐点。</p>\n<p><strong>特殊</strong> 若你拥有陵寝传承，则该专长获得神术特征；若你拥有其他人工地城传承（例如迷宫或高塔），则为奥术；若你拥有自然地城传承（例如群岛、洞窟或巨树），则为原能。</p>\n"
+      "description": "<p>在征服了你个人地城的至少一层，并逐渐明白那一层对你的身份与本质究竟意味着什么之后，你获得了对该层的极端掌控力，足以创造出一处舒适的天堂：怪物会清扫地面、整理床铺，而陷阱则向下延伸来为你的饮品续杯。每日一次，你可以花费1分钟创造一道通往你地城安全区域的门径。入口是一道微弱、闪烁的竖直矩形，宽5尺、高10尺。你在施放该法术时指定哪些人可以进入。一旦进入其中，你可以关闭入口，使其隐形。你与被你指定的生物可以随意重新打开这道门，如同打开一扇实体门一样。该门径将持续存在，直到你花费1分钟将其移动到另一处地点。其内部，被你改造成据点的地城楼层会依照你的喜好装饰，但仍会遵循基于你的传承而来的主题（群岛地城对应一座私人岛屿；塔型地城对应一座巨塔的一层；以此类推）。该层的区域取决于你的地城细节以及你所选择的楼层，这些由你的GM决定，但通常其地面空间至少应有1,600平方尺，而多数地城楼层会显著更大。当你将该层作为你的据点使用时，你会将其与其他入侵者隔绝，使得几乎不可能离开或进入该层，即便是从地城中的其他楼层也不行（通常试图这么做的人会完全绕过该层，直接跳到它之后的下一层）。当外部入口关闭时，外界的效果无法渗透其中，反之亦然，唯有<em>@Compendium[pf2e.spells-srd.5bTt2CvYHPvaR7QQ]{跨界传送}</em>例外，其仍可如常用来进入地城。你只能使用能够跨越位面的探知魔法及类似效果来观察外界。一支怪物的侍从团队会在据点内招待你的宾客，在地城楼层内耕作或以其他方式收集食物，并为宾客烹饪餐食，能够每天提供最多150人份既美味又饱腹的餐点。</p>\n<p><strong>特殊</strong> 若你拥有陵寝传承，则该专长获得神术特征；若你拥有其他人工地城传承（例如迷宫或高塔），则为奥术；若你拥有自然地城传承（例如群岛、洞窟或巨树），则为原能。</p>\n",
+      "prerequisites": [
+        {
+          "value": "你已彻底清理个人地城的至少一层"
+        }
+      ]
     },
     "Abyssal Servitor": {
       "name": "深渊仆从 Abyssal Servitor",
@@ -735,7 +1198,12 @@
     },
     "Nature's Flight": {
       "name": "自然之翔 Nature's Flight",
-      "description": "<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p>你呼唤微风、星光或日光携你凌空而行。你获得等同于你陆地速度的飞行速度，持续10分钟。若你愿意，你也可以选择长出翅膀，在这种情况下，此次使用自然之翔会获得化形特征。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.5pkqWowr8snEjw2Y]{效果：自然之翔}</p>\n"
+      "description": "<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p>你呼唤微风、星光或日光携你凌空而行。你获得等同于你陆地速度的飞行速度，持续10分钟。若你愿意，你也可以选择长出翅膀，在这种情况下，此次使用自然之翔会获得化形特征。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.5pkqWowr8snEjw2Y]{效果：自然之翔}</p>\n",
+      "prerequisites": [
+        {
+          "value": "阿斯忒里亚、奥拉或夕照仙女传承"
+        }
+      ]
     },
     "Fey's Shift": {
       "name": "精类转移 Fey's Shift",
@@ -743,7 +1211,12 @@
     },
     "Perfected Change Shape": {
       "name": "完美变身 Perfected Change Shape",
-      "description": "<p>你的变形能力使你的伪装极难被识破，即使是在伪装成特定个体时也是如此。当你使用变形怪的伪装变形为任意小型或中型类人生物形态时——包括特定个体的形态，而不仅仅是你偏好的形态之一——你的变形会自动战胜用于判定你是否属于你所变形成的族裔或生物类型的察觉DC（但若你变为特定个体的形态，则不会自动战胜用于判定你是否为该特定个体的察觉DC），并且你的欺瞒DC获得+4状态加值，以防止他人看穿你的伪装。</p>\n"
+      "description": "<p>你的变形能力使你的伪装极难被识破，即使是在伪装成特定个体时也是如此。当你使用变形怪的伪装变形为任意小型或中型类人生物形态时——包括特定个体的形态，而不仅仅是你偏好的形态之一——你的变形会自动战胜用于判定你是否属于你所变形成的族裔或生物类型的察觉DC（但若你变为特定个体的形态，则不会自动战胜用于判定你是否为该特定个体的察觉DC），并且你的欺瞒DC获得+4状态加值，以防止他人看穿你的伪装。</p>\n",
+      "prerequisites": [
+        {
+          "value": "变身"
+        }
+      ]
     },
     "Serpent Scent": {
       "name": "蛇类灵敏嗅觉 Serpent Scent",
@@ -763,7 +1236,12 @@
     },
     "Snares And Sabotage": {
       "name": "圈套与破坏 Snares And Sabotage",
-      "description": "<p>你对新型圈套和陷阱的点子多到快要溢出来，闲暇时总是用手边能找到的任何材料不断地布置它们。你获得 @UUID[Compendium.pf2e.feats-srd.Item.4MUbwilvb9dI0X59]{圈套师入门} 专长，即使你通常在从你当前的变体中取得更多专长之前不能再选择另一个入门专长。</p>\n"
+      "description": "<p>你对新型圈套和陷阱的点子多到快要溢出来，闲暇时总是用手边能找到的任何材料不断地布置它们。你获得 @UUID[Compendium.pf2e.feats-srd.Item.4MUbwilvb9dI0X59]{圈套师入门} 专长，即使你通常在从你当前的变体中取得更多专长之前不能再选择另一个入门专长。</p>\n",
+      "prerequisites": [
+        {
+          "value": "陷阱与诡计"
+        }
+      ]
     },
     "Labyrinth Sight": {
       "name": "迷宫视觉 Labyrinth Sight",
@@ -771,7 +1249,12 @@
     },
     "Share Slithering Senses": {
       "name": "共享蛇类感官 Share Slithering Senses",
-      "description": "<p>你与蛇魔宠之间的联系——它最初是你自己身体的一部分——让你更容易共享你的感官。你获得共享感官主人能力，并且它不计入你通常的魔宠能力上限。此外，由于你与作为你自身头发一部分的蛇之间的共感纽带，当使用该能力时，你可以维持专注长达10分钟，而不是仅能维持1分钟。</p>\n"
+      "description": "<p>你与蛇魔宠之间的联系——它最初是你自己身体的一部分——让你更容易共享你的感官。你获得共享感官主人能力，并且它不计入你通常的魔宠能力上限。此外，由于你与作为你自身头发一部分的蛇之间的共感纽带，当使用该能力时，你可以维持专注长达10分钟，而不是仅能维持1分钟。</p>\n",
+      "prerequisites": [
+        {
+          "value": "发中魔宠"
+        }
+      ]
     },
     "Omega Charge": {
       "name": "终极冲锋 Omega Charge",
@@ -799,7 +1282,12 @@
     },
     "Phenomenal Fin Wings": {
       "name": "非凡鳍翼 Phenomenal Fin Wings",
-      "description": "<p>你的鳍也同样能像翅膀一样发挥作用。你永久获得等同于你陆地速度的飞行速度，并且当你使用 海鳐小魔怪驭风者 时，你获得对你飞行速度的+20尺状态加值，持续10分钟。</p>\n"
+      "description": "<p>你的鳍也同样能像翅膀一样发挥作用。你永久获得等同于你陆地速度的飞行速度，并且当你使用 海鳐小魔怪驭风者 时，你获得对你飞行速度的+20尺状态加值，持续10分钟。</p>\n",
+      "prerequisites": [
+        {
+          "value": "海鳐小魔怪驭风者"
+        }
+      ]
     },
     "Chitinous Reinforcement": {
       "name": "甲壳加固 Chitinous Reinforcement",
@@ -811,11 +1299,21 @@
     },
     "Stunning Screech": {
       "name": "震慑尖啸 Stunning Screech",
-      "description": "<p>你发出极其刺耳的尖啸，使附近的非恶魔陷入震慑。所有位于 @Template[type:emanation|distance:30] 内的非恶魔必须尝试一次 @Check[fortitude|against:class-spell] 豁免，对抗的DC等于你的职业DC与法术DC中较高者，并产生以下效果。</p>\n<p><strong>成功</strong> 该生物不受影响。</p>\n<p><strong>失败</strong> 该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 2}。</p>\n<p><strong>大失败</strong> 该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 3}。</p>\n"
+      "description": "<p>你发出极其刺耳的尖啸，使附近的非恶魔陷入震慑。所有位于 @Template[type:emanation|distance:30] 内的非恶魔必须尝试一次 @Check[fortitude|against:class-spell] 豁免，对抗的DC等于你的职业DC与法术DC中较高者，并产生以下效果。</p>\n<p><strong>成功</strong> 该生物不受影响。</p>\n<p><strong>失败</strong> 该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 2}。</p>\n<p><strong>大失败</strong> 该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 3}。</p>\n",
+      "prerequisites": [
+        {
+          "value": "鹫魔传承"
+        }
+      ]
     },
     "Cu Sidhe Bark": {
       "name": "库希德族吠叫 Cu Sidhe Bark",
-      "description": "<p>你的吠声极其响亮，远处也能听见，警告所有听到的人别挡你的路。你可以在一分钟内以一个行动连续吠叫三次，而这些吠声最远可在三英里外被听见。有些文化迷信认为，如果他们在你第三次吠叫前没能找到掩蔽，就会发生不好的事。由GM酌情决定，相信这种迷信的人在听到你的吠声时可能会趴下寻找掩蔽</p>\n"
+      "description": "<p>你的吠声极其响亮，远处也能听见，警告所有听到的人别挡你的路。你可以在一分钟内以一个行动连续吠叫三次，而这些吠声最远可在三英里外被听见。有些文化迷信认为，如果他们在你第三次吠叫前没能找到掩蔽，就会发生不好的事。由GM酌情决定，相信这种迷信的人在听到你的吠声时可能会趴下寻找掩蔽</p>\n",
+      "prerequisites": [
+        {
+          "value": "库希德族传承"
+        }
+      ]
     },
     "Nymph Shot": {
       "name": "宁芙射击 Nymph Shot",
@@ -827,23 +1325,54 @@
     },
     "Utile Arms": {
       "name": "实用手臂 Utile Arms",
-      "description": "<p>你那幻象般显现的手臂仍然稍纵即逝，但它们可以执行更广泛种类的动作。你显现的手能够执行简单的交互动作，例如打开一扇未上锁的门。它们无法执行需要显著手部灵巧度或持续的物理存在的动作，包括任何需要通过检定才能完成的动作，并且你不能用它来持握物品。此外，即使你的正常双手都被占用，你也可以使用显现的手臂来进行 @Compendium[pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{缴械} 或 @Compendium[pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{绊摔}。和显现之臂一样，这永远不会给你一只空手，因此它也不允许你使用任何需要空手的能力。</p>\n"
+      "description": "<p>你那幻象般显现的手臂仍然稍纵即逝，但它们可以执行更广泛种类的动作。你显现的手能够执行简单的交互动作，例如打开一扇未上锁的门。它们无法执行需要显著手部灵巧度或持续的物理存在的动作，包括任何需要通过检定才能完成的动作，并且你不能用它来持握物品。此外，即使你的正常双手都被占用，你也可以使用显现的手臂来进行 @Compendium[pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{缴械} 或 @Compendium[pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{绊摔}。和显现之臂一样，这永远不会给你一只空手，因此它也不允许你使用任何需要空手的能力。</p>\n",
+      "prerequisites": [
+        {
+          "value": "显现之臂"
+        }
+      ]
     },
     "Insidious Mimic": {
       "name": "隐秘拟形怪 Insidious Mimic",
-      "description": "<p>几乎没有人能通过魔法判断出你实际上是一只拟形怪。除非某个效果的反制等级为10或更高，否则侦测与揭示效果会侦测或揭示与你当前形态相符的结果，而非真实信息。举例来说，如果你伪装成一张桌子，那么侦测阵营的法术与特殊感官不会揭示任何阵营（因为桌子不应有阵营），而9环或更低的<em>@Compendium[pf2e.spells-srd.uqlxMQQeSGWEVjki]{真景术}</em>会将你的桌子形态显示为真实。</p>\n"
+      "description": "<p>几乎没有人能通过魔法判断出你实际上是一只拟形怪。除非某个效果的反制等级为10或更高，否则侦测与揭示效果会侦测或揭示与你当前形态相符的结果，而非真实信息。举例来说，如果你伪装成一张桌子，那么侦测阵营的法术与特殊感官不会揭示任何阵营（因为桌子不应有阵营），而9环或更低的<em>@Compendium[pf2e.spells-srd.uqlxMQQeSGWEVjki]{真景术}</em>会将你的桌子形态显示为真实。</p>\n",
+      "prerequisites": [
+        {
+          "value": "物体形态族裔能力"
+        }
+      ]
     },
     "Expert Nymph Queen Spellcasting": {
       "name": "专家宁芙女王施法 Expert Nymph Queen Spellcasting",
-      "description": "<p>当你精通了与自然沟通的能力后，你触及了流经大地的更深层魔法，而大地也赋予了你更强的魔法能力。你获得专家法术施放的收益。</p>\n<hr />\n<p><strong>特殊</strong> 若你也拥有 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.TfnrKFWqy0RLy0Wk]{女王秘法} 族裔专长，你将该专长的3环与4环法术与基础与专家宁芙女王施法中的法术合并。如此一来，来自女王秘法的法术不再是原能先天法术；取而代之，女王秘法会授予你额外的法术位，你可以通过宁芙女王变体每日准备这些法术位：一个3环与一个4环。</p>\n"
+      "description": "<p>当你精通了与自然沟通的能力后，你触及了流经大地的更深层魔法，而大地也赋予了你更强的魔法能力。你获得专家法术施放的收益。</p>\n<hr />\n<p><strong>特殊</strong> 若你也拥有 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.TfnrKFWqy0RLy0Wk]{女王秘法} 族裔专长，你将该专长的3环与4环法术与基础与专家宁芙女王施法中的法术合并。如此一来，来自女王秘法的法术不再是原能先天法术；取而代之，女王秘法会授予你额外的法术位，你可以通过宁芙女王变体每日准备这些法术位：一个3环与一个4环。</p>\n",
+      "prerequisites": [
+        {
+          "value": "基础宁芙女王施法；"
+        },
+        {
+          "value": "自然熟练度为大师"
+        }
+      ]
     },
     "Hesperid Queen's Beauty": {
       "name": "夕照仙女女王之美 Hesperid Queen's Beauty",
-      "description": "<p>你的美貌会使附近的生物因敬畏而目眩神迷。任何在其回合结束时位于你10尺以内的生物都必须尝试一次意志豁免，对抗你的原能法术DC。若失败，他们会成为@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}；若大失败，他们会成为@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 2}。随后，他们在1分钟内暂时免疫。你可以使用一个带有专注特征的单动作来开启或关闭此灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.v2AgmyiWLYVZ7YfV]{效果：夕照仙女女王之美（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.h0aFEvTqa159OD7v]{效果：夕照仙女女王之美（大失败）}</p>\n"
+      "description": "<p>你的美貌会使附近的生物因敬畏而目眩神迷。任何在其回合结束时位于你10尺以内的生物都必须尝试一次意志豁免，对抗你的原能法术DC。若失败，他们会成为@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}；若大失败，他们会成为@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 2}。随后，他们在1分钟内暂时免疫。你可以使用一个带有专注特征的单动作来开启或关闭此灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.v2AgmyiWLYVZ7YfV]{效果：夕照仙女女王之美（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.h0aFEvTqa159OD7v]{效果：夕照仙女女王之美（大失败）}</p>\n",
+      "prerequisites": [
+        {
+          "value": "宁芙女王入门"
+        },
+        {
+          "value": "夕照仙女传承"
+        }
+      ]
     },
     "Giant Shift": {
       "name": "巨人变形 Giant Shift",
-      "description": "<p>当你以变形怪的伪装进行乔装时，你可以伪装成一名大型类人生物。若你这么做，只要你继续这样做，你也会获得<em>@Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{变巨术}</em>法术的效果。每天一次，你可以以变形怪的伪装进行乔装，使自己伪装成一名超大型类人生物，持续5分钟。在此期间，你获得一个4环变巨术的效果。不同于其他未列出持续时间的伪装用途，当你伪装成一名超大型生物时，整个伪装会在5分钟后结束。当它结束时，你会恢复为你所选择的自然形态或你的偏好形态。</p>\n"
+      "description": "<p>当你以变形怪的伪装进行乔装时，你可以伪装成一名大型类人生物。若你这么做，只要你继续这样做，你也会获得<em>@Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{变巨术}</em>法术的效果。每天一次，你可以以变形怪的伪装进行乔装，使自己伪装成一名超大型类人生物，持续5分钟。在此期间，你获得一个4环变巨术的效果。不同于其他未列出持续时间的伪装用途，当你伪装成一名超大型生物时，整个伪装会在5分钟后结束。当它结束时，你会恢复为你所选择的自然形态或你的偏好形态。</p>\n",
+      "prerequisites": [
+        {
+          "value": "变形怪伪装族裔能力"
+        }
+      ]
     },
     "Mimic Lore": {
       "name": "拟形怪学识 Mimic Lore",
@@ -859,19 +1388,42 @@
     },
     "Athletic Marauder": {
       "name": "运动劫掠者 Athletic Marauder",
-      "description": "<p>当你蹂躏你的敌人时，你可以掺入一套运动类战技，而不是仅仅撕咬、扯裂并痛击他们。当你进行蹂躏时，你可以将一次或多次攻击替换为擒拿、推撞或绊摔，顺序任意。例如，你可以先@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}或@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{绊摔}一个敌人，然后对其打击两次。照常而言，如果你@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}一个敌人，并且在你的蹂躏完成前没有跟随他们，导致他们离开你的触及，你就无法从你的蹂躏中采取剩余的动作。</p>\n"
+      "description": "<p>当你蹂躏你的敌人时，你可以掺入一套运动类战技，而不是仅仅撕咬、扯裂并痛击他们。当你进行蹂躏时，你可以将一次或多次攻击替换为擒拿、推撞或绊摔，顺序任意。例如，你可以先@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}或@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{绊摔}一个敌人，然后对其打击两次。照常而言，如果你@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}一个敌人，并且在你的蹂躏完成前没有跟随他们，导致他们离开你的触及，你就无法从你的蹂躏中采取剩余的动作。</p>\n",
+      "prerequisites": [
+        {
+          "value": "蹂躏"
+        },
+        {
+          "value": "运动受训"
+        }
+      ]
     },
     "Jinkin Tinker": {
       "name": "蹑影小魔怪修补匠 Jinkin Tinker",
-      "description": "<p>你与另外五名蹑影小魔怪（他们不需要拥有此专长）可以协作1小时，在60尺射程内将一个魔法物品灌注上诅咒。尽管该过程耗时很长，但也很不显眼，并且可以在你进行躲藏时施行。该诅咒使该物品变得不可靠（@Check[flat|dc:5]，否则浪费任何用于启动、用其进行攻击或以其他方式使用该物品的动作）。由GM酌情决定，这些蹑影小魔怪工匠也许能够施加其他威力相近的诅咒。</p>\n<p>在9级时，总共只需要3名蹑影小魔怪即可诅咒一个物品，且过程只需10分钟。在13级时，总共只需要2名蹑影小魔怪，并且你可以选择让过程只需1分钟，作为交换，若该物品有人持用，你将允许其进行一次对抗你职业DC或法术DC中较高者的@Check[will|against:class-spell]豁免；豁免成功将抵消该诅咒。在17级时，你可以独自诅咒一个物品，并且若你选择允许对有人持用的物品进行意志豁免，则该过程只需要一个三动作行动。如常，移除你的诅咒需要<em>@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{净化苦难}</em>或类似的魔法。</p>\n"
+      "description": "<p>你与另外五名蹑影小魔怪（他们不需要拥有此专长）可以协作1小时，在60尺射程内将一个魔法物品灌注上诅咒。尽管该过程耗时很长，但也很不显眼，并且可以在你进行躲藏时施行。该诅咒使该物品变得不可靠（@Check[flat|dc:5]，否则浪费任何用于启动、用其进行攻击或以其他方式使用该物品的动作）。由GM酌情决定，这些蹑影小魔怪工匠也许能够施加其他威力相近的诅咒。</p>\n<p>在9级时，总共只需要3名蹑影小魔怪即可诅咒一个物品，且过程只需10分钟。在13级时，总共只需要2名蹑影小魔怪，并且你可以选择让过程只需1分钟，作为交换，若该物品有人持用，你将允许其进行一次对抗你职业DC或法术DC中较高者的@Check[will|against:class-spell]豁免；豁免成功将抵消该诅咒。在17级时，你可以独自诅咒一个物品，并且若你选择允许对有人持用的物品进行意志豁免，则该过程只需要一个三动作行动。如常，移除你的诅咒需要<em>@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{净化苦难}</em>或类似的魔法。</p>\n",
+      "prerequisites": [
+        {
+          "value": "蹑影小魔怪传承"
+        }
+      ]
     },
     "Flowing Omox": {
       "name": "流动泥魔 Flowing Omox",
-      "description": "<p>虽然你的形态比深渊泥魔更为坚实，但你已训练自己恢复曾经的能力，能够在水中啪嗒作响并流动穿行。你获得10尺的游泳速度。</p>\n"
+      "description": "<p>虽然你的形态比深渊泥魔更为坚实，但你已训练自己恢复曾经的能力，能够在水中啪嗒作响并流动穿行。你获得10尺的游泳速度。</p>\n",
+      "prerequisites": [
+        {
+          "value": "泥魔传承"
+        }
+      ]
     },
     "Shift Claw": {
       "name": "变换爪形 Shift Claw",
-      "description": "<p>你可以将你的爪子变形为数种构型，每一种都有其特定的优势与劣势。直到你下一次使用 变换爪形，或你变形为没有可见爪子的形态为止，从下列选项中选择一项：</p>\n<ul>\n<li>你的爪子变得巨大，带有修长的刃片，既能轻易穿刺也能轻易劈砍。你的爪子造成 1d8 挥砍伤害，并获得多用穿刺特征，但它失去娴熟特征。</li>\n<li>你的爪子变得更小更薄，更易用于后续攻击或缴械，同时依然同样危险。你的爪子获得灵巧与缴械特征。</li>\n<li>你的爪子变得更大并向外展开，使你能够在积蓄动能的同时进行横扫攻击。你的爪子获得横扫与叠劲特征，但它失去娴熟特征。</li>\n<li>你的爪子变得格外锋利、穿刺且致命。它获得致命 d8 与多用穿刺特征。</li>\n</ul>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.SX31kqEXaaQUNsIa]{效果: 变换爪形}</p>\n"
+      "description": "<p>你可以将你的爪子变形为数种构型，每一种都有其特定的优势与劣势。直到你下一次使用 变换爪形，或你变形为没有可见爪子的形态为止，从下列选项中选择一项：</p>\n<ul>\n<li>你的爪子变得巨大，带有修长的刃片，既能轻易穿刺也能轻易劈砍。你的爪子造成 1d8 挥砍伤害，并获得多用穿刺特征，但它失去娴熟特征。</li>\n<li>你的爪子变得更小更薄，更易用于后续攻击或缴械，同时依然同样危险。你的爪子获得灵巧与缴械特征。</li>\n<li>你的爪子变得更大并向外展开，使你能够在积蓄动能的同时进行横扫攻击。你的爪子获得横扫与叠劲特征，但它失去娴熟特征。</li>\n<li>你的爪子变得格外锋利、穿刺且致命。它获得致命 d8 与多用穿刺特征。</li>\n</ul>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.SX31kqEXaaQUNsIa]{效果: 变换爪形}</p>\n",
+      "prerequisites": [
+        {
+          "value": "刃爪传承"
+        }
+      ]
     },
     "Trickster's Shuffle": {
       "name": "诡术师换位 Trickster's Shuffle",
@@ -883,7 +1435,12 @@
     },
     "Water Font": {
       "name": "清泉涌流 Water Font",
-      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你将双手捧在一起，六加仑的淡水从中泼洒而出。若无人饮用，这些水会在1小时后蒸发。</p>\n"
+      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你将双手捧在一起，六加仑的淡水从中泼洒而出。若无人饮用，这些水会在1小时后蒸发。</p>\n",
+      "prerequisites": [
+        {
+          "value": "水泽仙女传承"
+        }
+      ]
     },
     "Glued Grip": {
       "name": "黏附握持 Glued Grip",
@@ -891,7 +1448,15 @@
     },
     "Eternal Sanguinity": {
       "name": "永恒乐观 Eternal Sanguinity",
-      "description": "<p>即使在血腥的战斗中，你也能保持出人意料的乐观，不过那些在你成为叛逆者之前就认识你的人，也许并不会惊讶。因此，你的酸性血液几乎无穷无尽。你可以在正常频率之外使用@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-actions.Item.xorlcY1YBzidwL6C]{应激黏液}反应动作，其正常频率为每日一次，拥有@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.kGUh6xIWtFblHVD5]{鲜血飞溅}专长时则为每小时一次。这样使用时，你将伤害骰从d10降为d4。以此方式使用应激黏液不会重置频率。例如，若你拥有鲜血飞溅专长并以完整伤害使用了应激黏液，随后在40分钟内又以降低后的伤害使用了七次，你仍可以再过20分钟后以完整伤害使用它。</p>\n<hr />\n<p>[[/r ceil(@actor.level/2)d4[acid]]]{随等级增长的酸蚀伤害}</p>"
+      "description": "<p>即使在血腥的战斗中，你也能保持出人意料的乐观，不过那些在你成为叛逆者之前就认识你的人，也许并不会惊讶。因此，你的酸性血液几乎无穷无尽。你可以在正常频率之外使用@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-actions.Item.xorlcY1YBzidwL6C]{应激黏液}反应动作，其正常频率为每日一次，拥有@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.kGUh6xIWtFblHVD5]{鲜血飞溅}专长时则为每小时一次。这样使用时，你将伤害骰从d10降为d4。以此方式使用应激黏液不会重置频率。例如，若你拥有鲜血飞溅专长并以完整伤害使用了应激黏液，随后在40分钟内又以降低后的伤害使用了七次，你仍可以再过20分钟后以完整伤害使用它。</p>\n<hr />\n<p>[[/r ceil(@actor.level/2)d4[acid]]]{随等级增长的酸蚀伤害}</p>",
+      "prerequisites": [
+        {
+          "value": "恶魔劫掠者入门"
+        },
+        {
+          "value": "暴怖魔传承"
+        }
+      ]
     },
     "Shining Weapon": {
       "name": "闪耀武器 Shining Weapon",
@@ -911,7 +1476,12 @@
     },
     "Viscous Choke": {
       "name": "黏水窒息 Viscous Choke",
-      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>你唤来水流以令敌人窒息。你用一层粘稠水膜的魔法薄膜包裹30尺内一个能呼吸空气的生物的头部，持续1分钟。目标必须进行一次@Check[reflex|against:class-spell]豁免，对抗你职业DC与法术DC中较高者。若失败，他们开始窒息，并必须屏住呼吸以避免溺水。窒息的生物或与其相邻的生物合计以3个交互动作可暂时擦去这层薄膜，从而获得一次新的反射豁免，并在该次豁免中获得+2环境加值以终止该效果。（这些动作不必连续进行，也不必由同一个生物完成。）</p>\n"
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>你唤来水流以令敌人窒息。你用一层粘稠水膜的魔法薄膜包裹30尺内一个能呼吸空气的生物的头部，持续1分钟。目标必须进行一次@Check[reflex|against:class-spell]豁免，对抗你职业DC与法术DC中较高者。若失败，他们开始窒息，并必须屏住呼吸以避免溺水。窒息的生物或与其相邻的生物合计以3个交互动作可暂时擦去这层薄膜，从而获得一次新的反射豁免，并在该次豁免中获得+2环境加值以终止该效果。（这些动作不必连续进行，也不必由同一个生物完成。）</p>\n",
+      "prerequisites": [
+        {
+          "value": "海难小魔怪传承"
+        }
+      ]
     },
     "Shifter's Tongue": {
       "name": "变形者之舌 Shifter's Tongue",
@@ -919,7 +1489,12 @@
     },
     "Object Lesson": {
       "name": "实物的教训 Object Lesson",
-      "description": "<p><strong>需求</strong> 你处于物体形态。</p>\n<p><strong>触发</strong> 一个认为你是普通物体而非拟形怪的生物触摸你或与你发生物理互动。</p>\n<hr />\n<p>你对触发生物进行一次伪足打击。</p>\n"
+      "description": "<p><strong>需求</strong> 你处于物体形态。</p>\n<p><strong>触发</strong> 一个认为你是普通物体而非拟形怪的生物触摸你或与你发生物理互动。</p>\n<hr />\n<p>你对触发生物进行一次伪足打击。</p>\n",
+      "prerequisites": [
+        {
+          "value": "物体形态族裔能力"
+        }
+      ]
     },
     "Energy Slime": {
       "name": "能量黏液怪 Energy Slime",
@@ -931,7 +1506,12 @@
     },
     "Enhanced Storage": {
       "name": "强化储物 Enhanced Storage",
-      "description": "<p>你可以用与储存你的已绑定物品相同的方式在体内储存更多物品。你最多可以储存不超过你的轻载上限（通常为5加上你的力量调整值）的物品，但你拥有的任何护甲镀层、任何融合的已绑定物品以及弹药都会计入此上限。</p>\n"
+      "description": "<p>你可以用与储存你的已绑定物品相同的方式在体内储存更多物品。你最多可以储存不超过你的轻载上限（通常为5加上你的力量调整值）的物品，但你拥有的任何护甲镀层、任何融合的已绑定物品以及弹药都会计入此上限。</p>\n",
+      "prerequisites": [
+        {
+          "value": "活化武器传承"
+        }
+      ]
     },
     "Disguise Item": {
       "name": "伪装物品 Disguise Item",
@@ -939,7 +1519,12 @@
     },
     "Form of the Leviathan": {
       "name": "利维坦形态 Form of the Leviathan",
-      "description": "<p>通过将你身体的潜能拉伸到极限，你可以短暂地采取一种与容纳你地城的强大生物相似的形态。你每天一次可将<em>@Compendium[pf2e.spells-srd.8AMvNVOUEtxBCDvJ]{巨兽形态}</em>作为一种原能先天法术施放，但有一些调整。施放时间为三个动作而非两个，持续时间为3轮而非1分钟，并且当持续时间结束时，你会在10分钟内处于@Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{疲乏}。你采取的形态使用<em>巨兽形态</em>中的三个选项之一，在你选择此专长时选定，以匹配容纳你地城的怪物。如有必要，与GM合作，调整所列徒手攻击的伤害类型与名称以同样匹配该地城，同时保持该形态的其他数据不变。例如，如果你的地城位于一条巨型熔岩蛇体内，你可以使用紫虫形态，将颚改为仍造成穿刺伤害的獠牙，并将毒刺改为造成钝击伤害与持续火焰伤害的尾击。</p>\n"
+      "description": "<p>通过将你身体的潜能拉伸到极限，你可以短暂地采取一种与容纳你地城的强大生物相似的形态。你每天一次可将<em>@Compendium[pf2e.spells-srd.8AMvNVOUEtxBCDvJ]{巨兽形态}</em>作为一种原能先天法术施放，但有一些调整。施放时间为三个动作而非两个，持续时间为3轮而非1分钟，并且当持续时间结束时，你会在10分钟内处于@Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{疲乏}。你采取的形态使用<em>巨兽形态</em>中的三个选项之一，在你选择此专长时选定，以匹配容纳你地城的怪物。如有必要，与GM合作，调整所列徒手攻击的伤害类型与名称以同样匹配该地城，同时保持该形态的其他数据不变。例如，如果你的地城位于一条巨型熔岩蛇体内，你可以使用紫虫形态，将颚改为仍造成穿刺伤害的獠牙，并将毒刺改为造成钝击伤害与持续火焰伤害的尾击。</p>\n",
+      "prerequisites": [
+        {
+          "value": "利维坦传承"
+        }
+      ]
     },
     "Serpentine Shifts": {
       "name": "群蛇轮值 Serpentine Shifts",
@@ -947,11 +1532,21 @@
     },
     "Dilating Projection": {
       "name": "伸缩投射 Dilating Projection",
-      "description": "<p>当你显现你的化身时，你可以通过扩张你的魔法来使其投射为不同的体型。在你的化身的正常体型，或具有 @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{变巨术} 的效果（一个大型化身），或 @UUID[Compendium.pf2e.spells-srd.Item.PjhUmyKnq6K5uDby]{缩小术} 的效果（一个超小型化身）之间选择。这会持续直到你显现一个不同体型的化身为止。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.xjtVfIuYMWuUfxid]{法术效果：变巨术}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.QzvYL8GSc7HHxo9g]{法术效果：缩小术}</p>\n"
+      "description": "<p>当你显现你的化身时，你可以通过扩张你的魔法来使其投射为不同的体型。在你的化身的正常体型，或具有 @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{变巨术} 的效果（一个大型化身），或 @UUID[Compendium.pf2e.spells-srd.Item.PjhUmyKnq6K5uDby]{缩小术} 的效果（一个超小型化身）之间选择。这会持续直到你显现一个不同体型的化身为止。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.xjtVfIuYMWuUfxid]{法术效果：变巨术}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.QzvYL8GSc7HHxo9g]{法术效果：缩小术}</p>\n",
+      "prerequisites": [
+        {
+          "value": "投射武器传承"
+        }
+      ]
     },
     "Bacchanalia": {
       "name": "酒神狂欢 Bacchanalia",
-      "description": "<p>你释放一场狂野的宴会，用你醉酒狂欢的力量驱使盟友陷入野性的狂怒。选择至多6个在30尺内且自愿的生物（可以包括你自己）进入醉酒狂怒状态，持续1分钟。你选择的生物获得5点临时生命值，其速度获得+10尺状态加值，并获得冷铁弱点5。它们还长出凶残的獠牙与利爪，作为徒手攻击。獠牙造成@Damage[2d8[piercing]]伤害；利爪造成@Damage[2d6[slashing]]伤害，并具有灵巧与娴熟特征。目标使用其最高的武器或徒手攻击熟练度来进行这些攻击。以这些徒手攻击之一造成一次重击时，被击中的生物承受@Damage[1d4[persistent,poison]]伤害。</p>\n<p> 目标不能使用专注动作，除非这些动作也具有狂暴特征，但@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}除外。生物可以尝试通过使用一个单动作（该动作具有狂暴特征）来尝试进行一次@Check[will|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者；成功时结束其自身受到的酒神狂欢的效果。在第17等级时，临时生命值与对冷铁的弱点从5提升至10；獠牙的@Damage[2d8[piercing]]伤害提升至@Damage[3d8[piercing]]伤害；利爪的@Damage[2d6[slashing]]伤害提升至@Damage[3d6[slashing]]伤害。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.l26guPcBca5B0EqE]{效果: 酒神狂欢}</p>\n"
+      "description": "<p>你释放一场狂野的宴会，用你醉酒狂欢的力量驱使盟友陷入野性的狂怒。选择至多6个在30尺内且自愿的生物（可以包括你自己）进入醉酒狂怒状态，持续1分钟。你选择的生物获得5点临时生命值，其速度获得+10尺状态加值，并获得冷铁弱点5。它们还长出凶残的獠牙与利爪，作为徒手攻击。獠牙造成@Damage[2d8[piercing]]伤害；利爪造成@Damage[2d6[slashing]]伤害，并具有灵巧与娴熟特征。目标使用其最高的武器或徒手攻击熟练度来进行这些攻击。以这些徒手攻击之一造成一次重击时，被击中的生物承受@Damage[1d4[persistent,poison]]伤害。</p>\n<p> 目标不能使用专注动作，除非这些动作也具有狂暴特征，但@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}除外。生物可以尝试通过使用一个单动作（该动作具有狂暴特征）来尝试进行一次@Check[will|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者；成功时结束其自身受到的酒神狂欢的效果。在第17等级时，临时生命值与对冷铁的弱点从5提升至10；獠牙的@Damage[2d8[piercing]]伤害提升至@Damage[3d8[piercing]]伤害；利爪的@Damage[2d6[slashing]]伤害提升至@Damage[3d6[slashing]]伤害。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.l26guPcBca5B0EqE]{效果: 酒神狂欢}</p>\n",
+      "prerequisites": [
+        {
+          "value": "迈那得传承"
+        }
+      ]
     },
     "Scaleswap": {
       "name": "人蛇互换 Scaleswap",
@@ -963,7 +1558,12 @@
     },
     "Island's Tides": {
       "name": "海岛潮汐 Island's Tides",
-      "description": "<p>你在游泳时可以从群岛中的岛屿唤起潮汐，增强你的游泳速度。你的游泳速度提升至25尺。</p>\n"
+      "description": "<p>你在游泳时可以从群岛中的岛屿唤起潮汐，增强你的游泳速度。你的游泳速度提升至25尺。</p>\n",
+      "prerequisites": [
+        {
+          "value": "群岛传承"
+        }
+      ]
     },
     "Internal Container": {
       "name": "内部容器 Internal Container",
@@ -971,7 +1571,12 @@
     },
     "Ophidian Critical": {
       "name": "蛇发重击 Ophidian Critical",
-      "description": "<p>你头发里的蛇能在你打出有力一击时为你的敌人送上强力的惊喜，甚至可能用无毒蛇也能让他们中毒。你的蛇颚或蛇牙徒手攻击获得重击专精效果。如果你已经从其他来源获得了重击专精效果，那么当你用蛇颚或蛇牙徒手攻击造成重击时，你对目标造成[[/r 1d4[persistent,poison]]]。该伤害可与蛇牙重击专精效果所造成的伤害叠加；如常，在应用弱点、抗力或类似效果之前，你先将这些伤害加总。</p>\n"
+      "description": "<p>你头发里的蛇能在你打出有力一击时为你的敌人送上强力的惊喜，甚至可能用无毒蛇也能让他们中毒。你的蛇颚或蛇牙徒手攻击获得重击专精效果。如果你已经从其他来源获得了重击专精效果，那么当你用蛇颚或蛇牙徒手攻击造成重击时，你对目标造成[[/r 1d4[persistent,poison]]]。该伤害可与蛇牙重击专精效果所造成的伤害叠加；如常，在应用弱点、抗力或类似效果之前，你先将这些伤害加总。</p>\n",
+      "prerequisites": [
+        {
+          "value": "蛇颚或蛇牙无武装攻击"
+        }
+      ]
     },
     "Storied Leadership": {
       "name": "传奇领导力 Storied Leadership",
@@ -979,19 +1584,42 @@
     },
     "Cavern Sight": {
       "name": "洞窟视觉 Cavern Sight",
-      "description": "<p>你能够在地下的黑暗处像白天一样轻松视物。你获得黑暗视觉。</p>\n"
+      "description": "<p>你能够在地下的黑暗处像白天一样轻松视物。你获得黑暗视觉。</p>\n",
+      "prerequisites": [
+        {
+          "value": "冥灯仙女传承"
+        }
+      ]
     },
     "Medicinal Slime": {
       "name": "药用黏液 Medicinal Slime",
-      "description": "<p>你的黏液怪之躯能够生成可用于疗愈的草药制剂……或是用于夺命的邪恶毒素。你获得@Compendium[pf2e.feats-srd.5CRt5Dy9eLv5LpRF]{草药师入门}或@Compendium[pf2e.feats-srd.y7DDs03GtDnmhxFp]{投毒者入门}专长二选一，即使你通常在从当前变体中再取得更多专长之前无法再选择其他入门专长也可以。你仍必须满足该变体的先决条件。</p>\n"
+      "description": "<p>你的黏液怪之躯能够生成可用于疗愈的草药制剂……或是用于夺命的邪恶毒素。你获得@Compendium[pf2e.feats-srd.5CRt5Dy9eLv5LpRF]{草药师入门}或@Compendium[pf2e.feats-srd.y7DDs03GtDnmhxFp]{投毒者入门}专长二选一，即使你通常在从当前变体中再取得更多专长之前无法再选择其他入门专长也可以。你仍必须满足该变体的先决条件。</p>\n",
+      "prerequisites": [
+        {
+          "value": "治疗黏液"
+        },
+        {
+          "value": "战地医疗且医疗受训，或自然疗法且自然受训"
+        }
+      ]
     },
     "Slither": {
       "name": "蛇行 Slither",
-      "description": "<p>你可以在@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{倒地}时沿地面蜿蜒前行，使你移动得比正常的爬行更快。你可以@Compendium[pf2e.actionspf2e.Tj055UcNm6UEgtCg]{爬行}至多相当于你速度的一半，而非只有5尺。</p>\n"
+      "description": "<p>你可以在@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{倒地}时沿地面蜿蜒前行，使你移动得比正常的爬行更快。你可以@Compendium[pf2e.actionspf2e.Tj055UcNm6UEgtCg]{爬行}至多相当于你速度的一半，而非只有5尺。</p>\n",
+      "prerequisites": [
+        {
+          "value": "欧律阿勒返祖传承"
+        }
+      ]
     },
     "Expert Longevity": {
       "name": "长寿专家 Expert Longevity",
-      "description": "<p>你持续精进自己一生中获得的知识与技能。当你通过 @Compendium[battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.z58dAEGgIws0SBPY]{长寿族裔} 选择一项要受训的技能时，你也可以选择一项你已受训的技能，并使你在该技能上成为专家。这会持续到你的 长寿族裔 到期为止。</p>\n<p>当 长寿族裔 和 长寿专家 的效果到期时，你可以重训你的一次技能提升。你从此次重训获得的技能提升必须要么使你在通过 长寿族裔 选择的技能上成为受训，要么使你在通过 长寿专家 选择的技能上成为专家。</p>\n"
+      "description": "<p>你持续精进自己一生中获得的知识与技能。当你通过 @Compendium[battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.z58dAEGgIws0SBPY]{长寿族裔} 选择一项要受训的技能时，你也可以选择一项你已受训的技能，并使你在该技能上成为专家。这会持续到你的 长寿族裔 到期为止。</p>\n<p>当 长寿族裔 和 长寿专家 的效果到期时，你可以重训你的一次技能提升。你从此次重训获得的技能提升必须要么使你在通过 长寿族裔 选择的技能上成为受训，要么使你在通过 长寿专家 选择的技能上成为专家。</p>\n",
+      "prerequisites": [
+        {
+          "value": "长寿族裔"
+        }
+      ]
     },
     "Lodestone's Draw": {
       "name": "磁石牵引 Lodestone's Draw",
@@ -999,15 +1627,30 @@
     },
     "Queen's Dweomers": {
       "name": "女王秘法 Queen's Dweomers",
-      "description": "<p>你已获得与通常仅宁芙女王可用的原能魔法更强的连结。选择一个3环或更低的原能法术，以及一个4环或更低的原能法术。它们必须是你拥有许可的法术。你可以将你所选的每个法术作为原能先天法术每天施放一次。</p>\n"
+      "description": "<p>你已获得与通常仅宁芙女王可用的原能魔法更强的连结。选择一个3环或更低的原能法术，以及一个4环或更低的原能法术。它们必须是你拥有许可的法术。你可以将你所选的每个法术作为原能先天法术每天施放一次。</p>\n",
+      "prerequisites": [
+        {
+          "value": "女王初悟"
+        }
+      ]
     },
     "Claim Territory": {
       "name": "宣示领地 Claim Territory",
-      "description": "<p>你已宣示对一片领地的所有权，使你在其边界之内获得数项力量。通过宣示你的领地，你已从宁芙女王候选者纵身一跃，成为完整的宁芙女王。当你选择此专长时，你宣示一片小而明确的领地，其地形类型必须与你在选择 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.7lTfpmT3PplrR3c3]{宁芙女王入门} 专长时所选的地形相匹配，例如森林中的一处林间空地、一个小湖或池塘，或一座地下洞窟。与GM合作，为你的战役确定一片在规模与范围上都合适的区域。当你首次立下宣示时，该区域内所有超自然的居民都会意识到你正试图宣示这片领地；他们可以通过在自己选择的竞赛中击败你来反对你的宣示——若他们倾向于暴力，也可以选择战斗。居民有三天时间以此方式对你的宣示提出挑战，不过每个居民最多只能挑战你一次。一旦你击败所有前来挑战者，或他们选择不阻止你宣示该领地，你便成为这片领地的宁芙女王。若你在任一挑战中失败，则你无法宣示该领地，除非你驱逐或消灭击败你的生物；但你之后仍可尝试宣示另一片领地。若你成功并成为宁芙女王，你不能再次宣示领地。</p>\n<p>一旦你建立了你的领地，植物、动物与超自然生物都会尊重你的宣示。当你位于你的领地内时，你在进行交涉检定以 @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{留下印象} 与 请求，以及在进行威吓检定以 @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{胁迫} 时，获得+1环境加值；该加值适用于动物、天界生物、邪魔、妖精、观察者、植物、灵体、具有与你宁芙传承的特征相匹配之特征的生物（例如奥拉的气特征），以及由GM决定的其他超自然生物。若你在相应技能上为大师，则该环境加值提升至+2。</p>\n<p>在你的领地之内，生物与土地就是你的耳目。你可以在领地内与动物交谈并与植物交谈，并可对动物与非生物的植物使用交涉，而且只要 请求 的范围仍在你的领地内，它们通常都会乐于接受。举例来说，你通常可以说服动物在你的领地内为你传递讯息，其效果类似 动物信使 法术，但被限制在你的领地内。</p>\n<p>你与你的领地在形而上学层面内在相连，使一方的变化会影响另一方。只要你保持健康，环境就会异常坚韧，使你能够自动尝试反制会伤害环境的法术与仪式，例如 枯萎术；你以你的原能法术DC – 10作为你的反制调整值，且反制等级等同于你能施放的最高环阶的非戏法原能法术。当你在身体或心理上变得不健康时，你所守护的区域最终也会随之扭曲或变得不健康。在这种情况下，当你的心智与身体恢复到良好健康状态后，整个区域会在不久之后从你的病态中复原。</p>\n"
+      "description": "<p>你已宣示对一片领地的所有权，使你在其边界之内获得数项力量。通过宣示你的领地，你已从宁芙女王候选者纵身一跃，成为完整的宁芙女王。当你选择此专长时，你宣示一片小而明确的领地，其地形类型必须与你在选择 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.7lTfpmT3PplrR3c3]{宁芙女王入门} 专长时所选的地形相匹配，例如森林中的一处林间空地、一个小湖或池塘，或一座地下洞窟。与GM合作，为你的战役确定一片在规模与范围上都合适的区域。当你首次立下宣示时，该区域内所有超自然的居民都会意识到你正试图宣示这片领地；他们可以通过在自己选择的竞赛中击败你来反对你的宣示——若他们倾向于暴力，也可以选择战斗。居民有三天时间以此方式对你的宣示提出挑战，不过每个居民最多只能挑战你一次。一旦你击败所有前来挑战者，或他们选择不阻止你宣示该领地，你便成为这片领地的宁芙女王。若你在任一挑战中失败，则你无法宣示该领地，除非你驱逐或消灭击败你的生物；但你之后仍可尝试宣示另一片领地。若你成功并成为宁芙女王，你不能再次宣示领地。</p>\n<p>一旦你建立了你的领地，植物、动物与超自然生物都会尊重你的宣示。当你位于你的领地内时，你在进行交涉检定以 @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{留下印象} 与 请求，以及在进行威吓检定以 @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{胁迫} 时，获得+1环境加值；该加值适用于动物、天界生物、邪魔、妖精、观察者、植物、灵体、具有与你宁芙传承的特征相匹配之特征的生物（例如奥拉的气特征），以及由GM决定的其他超自然生物。若你在相应技能上为大师，则该环境加值提升至+2。</p>\n<p>在你的领地之内，生物与土地就是你的耳目。你可以在领地内与动物交谈并与植物交谈，并可对动物与非生物的植物使用交涉，而且只要 请求 的范围仍在你的领地内，它们通常都会乐于接受。举例来说，你通常可以说服动物在你的领地内为你传递讯息，其效果类似 动物信使 法术，但被限制在你的领地内。</p>\n<p>你与你的领地在形而上学层面内在相连，使一方的变化会影响另一方。只要你保持健康，环境就会异常坚韧，使你能够自动尝试反制会伤害环境的法术与仪式，例如 枯萎术；你以你的原能法术DC – 10作为你的反制调整值，且反制等级等同于你能施放的最高环阶的非戏法原能法术。当你在身体或心理上变得不健康时，你所守护的区域最终也会随之扭曲或变得不健康。在这种情况下，当你的心智与身体恢复到良好健康状态后，整个区域会在不久之后从你的病态中复原。</p>\n",
+      "prerequisites": [
+        {
+          "value": "宁芙女王入门"
+        }
+      ]
     },
     "Mimic Blade Acumen": {
       "name": "拟形刃巧技 Mimic Blade Acumen",
-      "description": "<p>你本能地能够从你拟态的刀刃中获取最大优势。每当你使用你的刃类徒手攻击造成重击时，你施加该刀刃的重击专精效果。若你本来就能这么做（例如，你的职业授予你重击专精），你可以选择将短刃的重击专精效果应用于你的刃类徒手攻击，而不是剑的重击专精效果。每次你以你的刃类徒手攻击对一名敌人造成重击时，你都可以在你可用的重击专精之间进行选择。</p>\n"
+      "description": "<p>你本能地能够从你拟态的刀刃中获取最大优势。每当你使用你的刃类徒手攻击造成重击时，你施加该刀刃的重击专精效果。若你本来就能这么做（例如，你的职业授予你重击专精），你可以选择将短刃的重击专精效果应用于你的刃类徒手攻击，而不是剑的重击专精效果。每次你以你的刃类徒手攻击对一名敌人造成重击时，你都可以在你可用的重击专精之间进行选择。</p>\n",
+      "prerequisites": [
+        {
+          "value": "拟形怪之刃"
+        }
+      ]
     },
     "Merciful Weapon": {
       "name": "仁慈武器 Merciful Weapon",
@@ -1023,7 +1666,12 @@
     },
     "Wielder Synergy": {
       "name": "持用者协同 Wielder Synergy",
-      "description": "<p>你与持有者（无论是附身、投射还是共生）之间获得了如此强大且不可分割的协同，以至于你能为自身目的获得更多源自其族裔的教诲与能力。你获得与持有者族裔相匹配的@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊}通用专长，并且你还获得一个来自持有者族裔的1级族裔专长。</p>\n"
+      "description": "<p>你与持有者（无论是附身、投射还是共生）之间获得了如此强大且不可分割的协同，以至于你能为自身目的获得更多源自其族裔的教诲与能力。你获得与持有者族裔相匹配的@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊}通用专长，并且你还获得一个来自持有者族裔的1级族裔专长。</p>\n",
+      "prerequisites": [
+        {
+          "value": "附体武器、投射武器或共生武器传承"
+        }
+      ]
     },
     "Misleading Hijinks": {
       "name": "误导恶作剧 Misleading Hijinks",
@@ -1043,7 +1691,12 @@
     },
     "Well of Unluck": {
       "name": "厄运之井 Well of Unluck",
-      "description": "<p>你的坏运气迅速积累，等待着在你周围的所有人身上释放。你可以每小时使用一次 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.j470zDQ9gbmHb0wP]{厄运灵光}，而非每日一次。</p>\n"
+      "description": "<p>你的坏运气迅速积累，等待着在你周围的所有人身上释放。你可以每小时使用一次 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.j470zDQ9gbmHb0wP]{厄运灵光}，而非每日一次。</p>\n",
+      "prerequisites": [
+        {
+          "value": "厄运灵光"
+        }
+      ]
     },
     "Into the Dungeon": {
       "name": "坠入地城 Into the Dungeon",
@@ -1051,7 +1704,12 @@
     },
     "Dark Dungeon": {
       "name": "黑暗地城 Dark Dungeon",
-      "description": "<p>洞窟并非唯一会浸没在黑暗中的地城，而你意识到，如果你的化身在黑暗中误触毒素陷阱并在你自己的真实身体里死去，你会羞愧到永远无法释怀。因此，你将你的地城魔法集中于你的化身，获得黑暗视觉。</p>\n"
+      "description": "<p>洞窟并非唯一会浸没在黑暗中的地城，而你意识到，如果你的化身在黑暗中误触毒素陷阱并在你自己的真实身体里死去，你会羞愧到永远无法释怀。因此，你将你的地城魔法集中于你的化身，获得黑暗视觉。</p>\n",
+      "prerequisites": [
+        {
+          "value": "洞窟以外的传承"
+        }
+      ]
     },
     "Sidhe Stride": {
       "name": "希德族步伐 Sidhe Stride",
@@ -1067,7 +1725,12 @@
     },
     "Second Synthesis": {
       "name": "二重合成 Second Synthesis",
-      "description": "<p>你将多种贵金属同时融入自己的构成之中。你在判定弱点、抗力及类似事项的效果时，会同时被视为冷铁与银，而不是仅仅被视为你在获得“贵金属合成”时选择的那一种贵金属。</p>\n"
+      "description": "<p>你将多种贵金属同时融入自己的构成之中。你在判定弱点、抗力及类似事项的效果时，会同时被视为冷铁与银，而不是仅仅被视为你在获得“贵金属合成”时选择的那一种贵金属。</p>\n",
+      "prerequisites": [
+        {
+          "value": "贵金属合成"
+        }
+      ]
     },
     "Gremlin Lore": {
       "name": "小魔怪学识 Gremlin Lore",
@@ -1075,7 +1738,12 @@
     },
     "Ascendance of a Book": {
       "name": "书之升华 Ascendance of a Book",
-      "description": "<p><strong>频率</strong> 每天一次</p>\n<p><strong>需求</strong> 你必须空出一只手。</p>\n<hr />\n<p>在你的地城某处有一座巨大的图书馆，而你可以从图书馆中召来一本典籍，使其升至塔顶，然后暂时跨越次元来到你的手中。若你的下一次动作是回忆知识，则典籍会出现在你手中，并翻开至合适的页面。这使你在回忆知识检定上获得+1状态加值。若你在此检定中掷出大失败，则改为失败。若该次掷骰成功且主题为生物，你会获得关于该生物的额外信息或背景。</p>\n"
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<p><strong>需求</strong> 你必须空出一只手。</p>\n<hr />\n<p>在你的地城某处有一座巨大的图书馆，而你可以从图书馆中召来一本典籍，使其升至塔顶，然后暂时跨越次元来到你的手中。若你的下一次动作是回忆知识，则典籍会出现在你手中，并翻开至合适的页面。这使你在回忆知识检定上获得+1状态加值。若你在此检定中掷出大失败，则改为失败。若该次掷骰成功且主题为生物，你会获得关于该生物的额外信息或背景。</p>\n",
+      "prerequisites": [
+        {
+          "value": "高塔传承"
+        }
+      ]
     },
     "Self Proficiency": {
       "name": "自身武器熟练 Self Proficiency",
@@ -1095,7 +1763,15 @@
     },
     "Hezrou's Stench": {
       "name": "涸泽魔恶臭 Hezrou's Stench",
-      "description": "<p>尽管大多数涸泽魔叛徒都乐于摆脱来自深渊沼泽的腐败恶臭，你却一直渴望在战斗中享受你旧日臭味带来的优势，并且你努力锻炼出一种几乎与你曾经拥有的一样污秽腥臭、令人作呕的恶臭。任何进入你10尺内的生物，无论是友方还是敌人，都必须尝试一次对抗你职业DC的@Check[fortitude|against:class]豁免，否则成为@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}。随后它会在24小时内获得暂时免疫。区域内的恶心生物在对抗疾病的豁免以及从恶心状态中恢复的检定上也会承受–1环境减值。</p>\n"
+      "description": "<p>尽管大多数涸泽魔叛徒都乐于摆脱来自深渊沼泽的腐败恶臭，你却一直渴望在战斗中享受你旧日臭味带来的优势，并且你努力锻炼出一种几乎与你曾经拥有的一样污秽腥臭、令人作呕的恶臭。任何进入你10尺内的生物，无论是友方还是敌人，都必须尝试一次对抗你职业DC的@Check[fortitude|against:class]豁免，否则成为@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}。随后它会在24小时内获得暂时免疫。区域内的恶心生物在对抗疾病的豁免以及从恶心状态中恢复的检定上也会承受–1环境减值。</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶魔劫掠者入门"
+        },
+        {
+          "value": "涸泽魔传承"
+        }
+      ]
     },
     "Engulfing Container": {
       "name": "吞纳容器 Engulfing Container",
@@ -1123,15 +1799,30 @@
     },
     "Soaring Disguise": {
       "name": "翱翔伪装 Soaring Disguise",
-      "description": "<p>你可以费些力气进入一种允许你飞行的替代形态。每天一次，当你使用变形怪的伪装来乔装一种通常具有飞行速度的类人生物时，你获得等同于你的陆地速度或该族裔通常的飞行速度（以较慢者为准）的飞行速度，但该形态的持续时间仅为5分钟。与其他未列出持续时间的乔装用法不同，当你以这种方式伪装为会飞的生物时，在其5分钟持续时间结束后，整个伪装会结束，使你恢复为你选择的自然形态或你偏好的形态。</p>\n"
+      "description": "<p>你可以费些力气进入一种允许你飞行的替代形态。每天一次，当你使用变形怪的伪装来乔装一种通常具有飞行速度的类人生物时，你获得等同于你的陆地速度或该族裔通常的飞行速度（以较慢者为准）的飞行速度，但该形态的持续时间仅为5分钟。与其他未列出持续时间的乔装用法不同，当你以这种方式伪装为会飞的生物时，在其5分钟持续时间结束后，整个伪装会结束，使你恢复为你选择的自然形态或你偏好的形态。</p>\n",
+      "prerequisites": [
+        {
+          "value": "变形怪伪装族裔能力"
+        }
+      ]
     },
     "Ooze Shifter": {
       "name": "泥怪变形者 Ooze Shifter",
-      "description": "<p>你能够更频繁地变形为其他类型的泥怪，并且你可以消耗额外能量来变成更巨大的形态。你可以将 <em>@Compendium[pf2e.spells-srd.0gdZrT9lwO17EIxc]{泥怪形态}</em> 作为3环通灵先天法术每小时施放一次，而不是每天一次。此外，你可以将 <em>泥怪形态</em> 作为5环通灵先天法术每天施放一次，使你能够采取巨型泥怪战斗形态。</p>\n"
+      "description": "<p>你能够更频繁地变形为其他类型的泥怪，并且你可以消耗额外能量来变成更巨大的形态。你可以将 <em>@Compendium[pf2e.spells-srd.0gdZrT9lwO17EIxc]{泥怪形态}</em> 作为3环通灵先天法术每小时施放一次，而不是每天一次。此外，你可以将 <em>泥怪形态</em> 作为5环通灵先天法术每天施放一次，使你能够采取巨型泥怪战斗形态。</p>\n",
+      "prerequisites": [
+        {
+          "value": "泥怪形态"
+        }
+      ]
     },
     "Adhesive Follow-Up": {
       "name": "黏附追击 Adhesive Follow-Up",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p>\n<p><strong>触发</strong> 你以伪足徒手攻击（或通过拟形怪专长或特性获得的任何徒手近战攻击）命中一名生物，或你使用实物的教训。</p>\n<hr />\n<p>你分泌出足够的黏着物来将生物黏在你身上。尝试对触发生物进行一次@Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{擒拿}，并使用与触发的打击相同的多重攻击减值。</p>\n"
+      "description": "<p><strong>频率</strong> 每10分钟一次</p>\n<p><strong>触发</strong> 你以伪足徒手攻击（或通过拟形怪专长或特性获得的任何徒手近战攻击）命中一名生物，或你使用实物的教训。</p>\n<hr />\n<p>你分泌出足够的黏着物来将生物黏在你身上。尝试对触发生物进行一次@Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{擒拿}，并使用与触发的打击相同的多重攻击减值。</p>\n",
+      "prerequisites": [
+        {
+          "value": "黏附擒抱者"
+        }
+      ]
     },
     "Bullheaded": {
       "name": "牛脾气 Bullheaded",
@@ -1139,11 +1830,21 @@
     },
     "Passionate Kiss": {
       "name": "激情之吻 Passionate Kiss",
-      "description": "<p><strong>需求</strong> 你正在擒拿一个生物。</p>\n<hr />\n<p>你以热情的拥抱与一个被擒拿的生物纠缠，汲取其生命精粹。一个你已使其陷入@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{受擒}或@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚}的生物会受到等同于该生物等级的虚能伤害，并进行一次@Check[fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]豁免，DC等同于你的职业DC与法术DC中较高者；随后他们会在24小时内暂时免疫你的激情之吻。只要该生物的等级至少等于你的等级减2，你就会获得等同于造成的伤害或该生物剩余生命值（取较低者）的临时生命值；否则，他们的能量不足以令你满足，无法为你提供益处。这些临时生命值最多持续1分钟。</p>\n"
+      "description": "<p><strong>需求</strong> 你正在擒拿一个生物。</p>\n<hr />\n<p>你以热情的拥抱与一个被擒拿的生物纠缠，汲取其生命精粹。一个你已使其陷入@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{受擒}或@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚}的生物会受到等同于该生物等级的虚能伤害，并进行一次@Check[fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true]豁免，DC等同于你的职业DC与法术DC中较高者；随后他们会在24小时内暂时免疫你的激情之吻。只要该生物的等级至少等于你的等级减2，你就会获得等同于造成的伤害或该生物剩余生命值（取较低者）的临时生命值；否则，他们的能量不足以令你满足，无法为你提供益处。这些临时生命值最多持续1分钟。</p>\n",
+      "prerequisites": [
+        {
+          "value": "魅魔传承"
+        }
+      ]
     },
     "Labyrinth of Magic": {
       "name": "魔法迷宫 Labyrinth of Magic",
-      "description": "<p>你内心迷宫中最棘手的部分之一是魔法迷宫，其中幻象会遮蔽通往真正出口的线索，而你已学会从迷宫中召唤这些幻象物体。你每天可以施放一次<em>@Compendium[pf2e.spells-srd.2oH5IufzdESuYxat]{幻象造物}</em>，作为奥术先天法术。</p>\n"
+      "description": "<p>你内心迷宫中最棘手的部分之一是魔法迷宫，其中幻象会遮蔽通往真正出口的线索，而你已学会从迷宫中召唤这些幻象物体。你每天可以施放一次<em>@Compendium[pf2e.spells-srd.2oH5IufzdESuYxat]{幻象造物}</em>，作为奥术先天法术。</p>\n",
+      "prerequisites": [
+        {
+          "value": "迷宫传承"
+        }
+      ]
     },
     "Rusting Touch": {
       "name": "锈蚀之触 Rusting Touch",
@@ -1151,15 +1852,33 @@
     },
     "Maenad Queen's Beauty": {
       "name": "迈那得女王之美 Maenad Queen's Beauty",
-      "description": "<p>你的美貌使附近的生物屈服于你迈那得酒神狂欢的原始本能。任何在你10尺内结束其回合的生物都必须尝试一次对抗你原能法术DC的意志豁免。失败时，他们获得@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，持续1轮；大失败时，他们还会获得@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}，直到他们在其下个回合采取第一个动作（以这种方式困惑时，他们不会使用其困惑动作来攻击你）。随后，他们会获得持续1分钟的暂时免疫。你可以使用一个具有专注特征的单动作来开启或关闭此灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.uRYhHBSfC9ojFr9K]{效果：迈那得女王之美（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.Esvf1d9dvbhRzEBO]{效果：迈那得女王之美（大失败）}</p>\n"
+      "description": "<p>你的美貌使附近的生物屈服于你迈那得酒神狂欢的原始本能。任何在你10尺内结束其回合的生物都必须尝试一次对抗你原能法术DC的意志豁免。失败时，他们获得@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，持续1轮；大失败时，他们还会获得@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}，直到他们在其下个回合采取第一个动作（以这种方式困惑时，他们不会使用其困惑动作来攻击你）。随后，他们会获得持续1分钟的暂时免疫。你可以使用一个具有专注特征的单动作来开启或关闭此灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.uRYhHBSfC9ojFr9K]{效果：迈那得女王之美（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.Esvf1d9dvbhRzEBO]{效果：迈那得女王之美（大失败）}</p>\n",
+      "prerequisites": [
+        {
+          "value": "宁芙女王入门"
+        },
+        {
+          "value": "迈那得传承"
+        }
+      ]
     },
     "Impaling Push": {
       "name": "贯穿推击 Impaling Push",
-      "description": "<p>你尝试用一次劈砍或突刺将你的敌人钉穿，并在你移动时将其一同推行。用一把近战穿刺或挥砍武器，或近战穿刺或挥砍徒手攻击进行一次打击。若该打击命中，你尝试进行一次运动检定，对抗该目标生物的强韧DC，产生以下效果。</p>\n<hr />\n<p><strong>大成功</strong> 你可以向任意方向行走至多你速度的一半。被打击的生物受到 @Damage[4d6[persistent,bleed]] 伤害，并与你一同被推行相同距离。该生物处于 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒} 状态，直到你下个回合开始，或直到你用钉穿它的同一武器或徒手攻击进行另一次打击为止，以先发生者为准。</p>\n<p><strong>成功</strong> 同大成功，但该生物仅受到 @Damage[2d6[persistent,bleed]] 伤害，而非 [[/r 4d6]]。</p>\n<p><strong>失败</strong> 被打击的生物选择：要么被向后推5尺，要么为了避免被推行而变为 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] 直到你下个回合结束。</p>\n<p><strong>大失败</strong> 被打击的生物不受影响。</p>\n"
+      "description": "<p>你尝试用一次劈砍或突刺将你的敌人钉穿，并在你移动时将其一同推行。用一把近战穿刺或挥砍武器，或近战穿刺或挥砍徒手攻击进行一次打击。若该打击命中，你尝试进行一次运动检定，对抗该目标生物的强韧DC，产生以下效果。</p>\n<hr />\n<p><strong>大成功</strong> 你可以向任意方向行走至多你速度的一半。被打击的生物受到 @Damage[4d6[persistent,bleed]] 伤害，并与你一同被推行相同距离。该生物处于 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒} 状态，直到你下个回合开始，或直到你用钉穿它的同一武器或徒手攻击进行另一次打击为止，以先发生者为准。</p>\n<p><strong>成功</strong> 同大成功，但该生物仅受到 @Damage[2d6[persistent,bleed]] 伤害，而非 [[/r 4d6]]。</p>\n<p><strong>失败</strong> 被打击的生物选择：要么被向后推5尺，要么为了避免被推行而变为 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] 直到你下个回合结束。</p>\n<p><strong>大失败</strong> 被打击的生物不受影响。</p>\n",
+      "prerequisites": [
+        {
+          "value": "巨鬼行者入门"
+        }
+      ]
     },
     "Trapper Elite": {
       "name": "陷阱师精英 Trapper Elite",
-      "description": "<p>你设置陷阱的能力堪称传奇，人们忧心忡忡地讲述着挑战你巢穴的危险故事。你获得 @Compendium[pf2e.feats-srd.4MUbwilvb9dI0X59]{圈套师入门} 专长，即使你通常必须先从你当前的原型中获得更多专长才能选择另一个入门专长。</p>\n"
+      "description": "<p>你设置陷阱的能力堪称传奇，人们忧心忡忡地讲述着挑战你巢穴的危险故事。你获得 @Compendium[pf2e.feats-srd.4MUbwilvb9dI0X59]{圈套师入门} 专长，即使你通常必须先从你当前的原型中获得更多专长才能选择另一个入门专长。</p>\n",
+      "prerequisites": [
+        {
+          "value": "设陷拟形怪"
+        }
+      ]
     },
     "Animal Shape": {
       "name": "动物形态 Animal Shape",
@@ -1167,7 +1886,15 @@
     },
     "Queen's Senses": {
       "name": "女王感官 Queen's Senses",
-      "description": "<p>当你的领地里发生某些事情时，你总是第一个知道的人，而且你可以投射你的感官以进一步调查。你在领地的整个边界内拥有一种朦胧感官，能够侦测到特别受玷污或污秽的生物或魔法的大致存在或不存在，但无法得知确切位置。受玷污的生物可以照常尝试躲过你感官的注意：通过保持隐蔽并采取适当的预防措施，进行一次隐秘检定来进行躲藏、@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}或@UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{避人耳目}，或进行一次欺瞒检定来进行乔装，对抗你的察觉DC，如常规规则所述。此外，你每小时可以施放一次“锐耳术”或“鹰眼术”，但只能在你的领地边界内施放。</p>\n"
+      "description": "<p>当你的领地里发生某些事情时，你总是第一个知道的人，而且你可以投射你的感官以进一步调查。你在领地的整个边界内拥有一种朦胧感官，能够侦测到特别受玷污或污秽的生物或魔法的大致存在或不存在，但无法得知确切位置。受玷污的生物可以照常尝试躲过你感官的注意：通过保持隐蔽并采取适当的预防措施，进行一次隐秘检定来进行躲藏、@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}或@UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{避人耳目}，或进行一次欺瞒检定来进行乔装，对抗你的察觉DC，如常规规则所述。此外，你每小时可以施放一次“锐耳术”或“鹰眼术”，但只能在你的领地边界内施放。</p>\n",
+      "prerequisites": [
+        {
+          "value": "宣示领地"
+        },
+        {
+          "value": "你已成功宣示一片领地。"
+        }
+      ]
     },
     "Soothing Spring": {
       "name": "慰心温泉 Soothing Spring",
@@ -1175,15 +1902,30 @@
     },
     "Unfettered Flock": {
       "name": "无拘牧群 Unfettered Flock",
-      "description": "<p>你像牧养自己的羊群一样引导盟友，帮助他们轻松穿行于自然世界。你可以每天一次以原能先天法术施放<em>@UUID[Compendium.pf2e.spells-srd.Item.bVtkBJvGLP69qVGI]{无羁行军}</em>。</p>\n"
+      "description": "<p>你像牧养自己的羊群一样引导盟友，帮助他们轻松穿行于自然世界。你可以每天一次以原能先天法术施放<em>@UUID[Compendium.pf2e.spells-srd.Item.bVtkBJvGLP69qVGI]{无羁行军}</em>。</p>\n",
+      "prerequisites": [
+        {
+          "value": "埃庇墨利得传承"
+        }
+      ]
     },
     "Yai's Reprisal": {
       "name": "巨鬼反击 Yai's Reprisal",
-      "description": "<p><strong>触发</strong> 一个位于你触及内的生物使用操作动作或移动动作，进行远程攻击，或在其正在使用的移动动作期间离开一个方格。</p>\n<hr />\n<p>你用一把恶鬼武器或徒手攻击猛然出击，让你的敌人措手不及。用@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.9h9QXiy9jnkPjRPF]{恶鬼武器熟稔}专长中列出的近战武器、一次近战徒手攻击，或由你的@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.8k2etAnsPjxPjIL8]{第三只眼}专长（或若你拥有则为@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.w76e2AQgbZHf2Gpg]{虚空飞弹}专长）授予的飞弹徒手攻击，进行一次打击。若你的打击为大成功且触发条件为操作动作，你打断该动作。</p>\n"
+      "description": "<p><strong>触发</strong> 一个位于你触及内的生物使用操作动作或移动动作，进行远程攻击，或在其正在使用的移动动作期间离开一个方格。</p>\n<hr />\n<p>你用一把恶鬼武器或徒手攻击猛然出击，让你的敌人措手不及。用@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.9h9QXiy9jnkPjRPF]{恶鬼武器熟稔}专长中列出的近战武器、一次近战徒手攻击，或由你的@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.8k2etAnsPjxPjIL8]{第三只眼}专长（或若你拥有则为@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.w76e2AQgbZHf2Gpg]{虚空飞弹}专长）授予的飞弹徒手攻击，进行一次打击。若你的打击为大成功且触发条件为操作动作，你打断该动作。</p>\n",
+      "prerequisites": [
+        {
+          "value": "巨鬼行者入门"
+        }
+      ]
     },
     "Fume": {
       "name": "喷烟 Fume",
-      "description": "<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p>你释放出一团浓厚的黑色烟雾，形成一个 @Template[type:burst|distance:10] 并在原地持续 [[/br 1d4 #Rounds]]{1d4轮}。烟雾内的所有生物获得 @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{隐蔽}，而烟雾外的所有生物对烟雾内的生物而言也变为隐蔽。进入烟雾或在烟雾内开始其回合的生物必须进行一次 @Check[fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)] 豁免，对抗你的职业DC和法术DC中较高者，否则变为 @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 1}（大失败则为 @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 2}）。</p>\n"
+      "description": "<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p>你释放出一团浓厚的黑色烟雾，形成一个 @Template[type:burst|distance:10] 并在原地持续 [[/br 1d4 #Rounds]]{1d4轮}。烟雾内的所有生物获得 @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{隐蔽}，而烟雾外的所有生物对烟雾内的生物而言也变为隐蔽。进入烟雾或在烟雾内开始其回合的生物必须进行一次 @Check[fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)] 豁免，对抗你的职业DC和法术DC中较高者，否则变为 @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 1}（大失败则为 @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 2}）。</p>\n",
+      "prerequisites": [
+        {
+          "value": "爆燃魔传承"
+        }
+      ]
     },
     "Nymph Strikes": {
       "name": "宁芙打击 Nymph Strikes",
@@ -1191,15 +1933,30 @@
     },
     "Motion's Revelation": {
       "name": "动迹揭示 Motion's Revelation",
-      "description": "<p>你将你的动觉与视觉结合，以看见不可见之物并辨明真相。你始终获得<em>@Compendium[pf2e.spells-srd.jwK43yKsHTkJQvQ9]{识破无形}</em>的效果。每天一次，你可以以一个两动作的行动获得<em>@Compendium[pf2e.spells-srd.uqlxMQQeSGWEVjki]{真景术}</em>的效果，持续10分钟；该行动具有专注特征；你的反制调整值等于你的职业DC –10或你的法术DC – 10中较高者。</p>\n"
+      "description": "<p>你将你的动觉与视觉结合，以看见不可见之物并辨明真相。你始终获得<em>@Compendium[pf2e.spells-srd.jwK43yKsHTkJQvQ9]{识破无形}</em>的效果。每天一次，你可以以一个两动作的行动获得<em>@Compendium[pf2e.spells-srd.uqlxMQQeSGWEVjki]{真景术}</em>的效果，持续10分钟；该行动具有专注特征；你的反制调整值等于你的职业DC –10或你的法术DC – 10中较高者。</p>\n",
+      "prerequisites": [
+        {
+          "value": "模糊运动感知"
+        }
+      ]
     },
     "Hobgoblin Commander": {
       "name": "大地精指挥官 Hobgoblin Commander",
-      "description": "<p>你已经深度融入大地精文化，以至于在任何意义上你都算是他们的一员。你获得针对大地精族裔的 @UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊} 专长（即使大地精族裔是罕见的，且通常不会作为 异族情谊 的选项），并获得一个你选择的 1级 大地精族裔专长。为了判定那些仅对大地精生效的大地精族裔专长的效果时，你被视为大地精，例如 @UUID[Compendium.pf2e.feats-srd.Item.aoz9dCq2NynyUYEf]{阵型训练}。</p>\n"
+      "description": "<p>你已经深度融入大地精文化，以至于在任何意义上你都算是他们的一员。你获得针对大地精族裔的 @UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊} 专长（即使大地精族裔是罕见的，且通常不会作为 异族情谊 的选项），并获得一个你选择的 1级 大地精族裔专长。为了判定那些仅对大地精生效的大地精族裔专长的效果时，你被视为大地精，例如 @UUID[Compendium.pf2e.feats-srd.Item.aoz9dCq2NynyUYEf]{阵型训练}。</p>\n",
+      "prerequisites": [
+        {
+          "value": "贾诺伊传承"
+        }
+      ]
     },
     "Plant Negotiator": {
       "name": "植物谈判者 Plant Negotiator",
-      "description": "<p>你可以与各种各样的植物交谈，并且你尤其擅长与它们谈判。你可以与所有植物交谈，而不仅仅是你在获得植物交谈者专长时选择的那类植物。你在对植物进行 @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{留下印象}（通常使用交涉技能）时获得+1环境加值。</p>\n"
+      "description": "<p>你可以与各种各样的植物交谈，并且你尤其擅长与它们谈判。你可以与所有植物交谈，而不仅仅是你在获得植物交谈者专长时选择的那类植物。你在对植物进行 @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{留下印象}（通常使用交涉技能）时获得+1环境加值。</p>\n",
+      "prerequisites": [
+        {
+          "value": "植物交谈者"
+        }
+      ]
     },
     "Sacrifice Nucleus": {
       "name": "牺牲内核 Sacrifice Nucleus",
@@ -1207,11 +1964,21 @@
     },
     "Leviathan's Prowess": {
       "name": "利维坦威能 Leviathan's Prowess",
-      "description": "<p>随着你的身体与灵魂与容纳你地城的生物愈发交织，你的联结攻击变得更加凶猛。你获得在获得利维坦传承时所选择的徒手攻击的重击专精效果。此外，该徒手攻击获得你选择的擒拿、推撞或摔绊特征。</p>\n"
+      "description": "<p>随着你的身体与灵魂与容纳你地城的生物愈发交织，你的联结攻击变得更加凶猛。你获得在获得利维坦传承时所选择的徒手攻击的重击专精效果。此外，该徒手攻击获得你选择的擒拿、推撞或摔绊特征。</p>\n",
+      "prerequisites": [
+        {
+          "value": "利维坦传承"
+        }
+      ]
     },
     "Deepsight": {
       "name": "深邃视觉 Deepsight",
-      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你更深入地探入自己创伤的过去，回忆起当世界失去所有色彩与光亮、你漂泊无依且孤身一人的时刻。这也许很痛苦，但它赋予你更深邃的黑暗视觉。你在1分钟内获得高等黑暗视觉。</p>\n"
+      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你更深入地探入自己创伤的过去，回忆起当世界失去所有色彩与光亮、你漂泊无依且孤身一人的时刻。这也许很痛苦，但它赋予你更深邃的黑暗视觉。你在1分钟内获得高等黑暗视觉。</p>\n",
+      "prerequisites": [
+        {
+          "value": "黑暗视觉"
+        }
+      ]
     },
     "Ooze's Resilience": {
       "name": "泥怪韧性 Ooze's Resilience",
@@ -1223,23 +1990,54 @@
     },
     "Spore Cloud": {
       "name": "孢子云 Spore Cloud",
-      "description": "<p>你从体内释放出一团有毒孢子云。相邻的生物可能会被孢子侵染，这取决于它们进行的 @Check[fortitude|against:class-spell] 豁免，其DC等于你的职业DC或法术DC中较高者。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物受到等同于你等级的穿刺伤害。</p>\n<p><strong>失败</strong> 该生物受到等同于你等级的穿刺伤害，并且受到等同于你等级的持续穿刺伤害，因为孢子穿透该生物的皮肤并生长成扩散的绿色藤蔓。藤蔓在10轮后或持续伤害结束时停止生长；若在此之前未被刮除，它们会在 [[/br 1d4 #days]]{1d4天} 内枯萎消散。若该生物受到一个善良法术影响，或将 @UUID[Compendium.pf2e.equipment-srd.Item.z9T4c1hXwOotsMCp]{圣水}（以一个交互动作）施用于藤蔓上，则藤蔓可以被摧毁。</p>\n<p><strong>大失败</strong> 同失败，但初始穿刺伤害与持续穿刺伤害都等于你等级的两倍，而非你的等级。</p>\n"
+      "description": "<p>你从体内释放出一团有毒孢子云。相邻的生物可能会被孢子侵染，这取决于它们进行的 @Check[fortitude|against:class-spell] 豁免，其DC等于你的职业DC或法术DC中较高者。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物受到等同于你等级的穿刺伤害。</p>\n<p><strong>失败</strong> 该生物受到等同于你等级的穿刺伤害，并且受到等同于你等级的持续穿刺伤害，因为孢子穿透该生物的皮肤并生长成扩散的绿色藤蔓。藤蔓在10轮后或持续伤害结束时停止生长；若在此之前未被刮除，它们会在 [[/br 1d4 #days]]{1d4天} 内枯萎消散。若该生物受到一个善良法术影响，或将 @UUID[Compendium.pf2e.equipment-srd.Item.z9T4c1hXwOotsMCp]{圣水}（以一个交互动作）施用于藤蔓上，则藤蔓可以被摧毁。</p>\n<p><strong>大失败</strong> 同失败，但初始穿刺伤害与持续穿刺伤害都等于你等级的两倍，而非你的等级。</p>\n",
+      "prerequisites": [
+        {
+          "value": "鹫魔传承"
+        }
+      ]
     },
     "Focus Beauty": {
       "name": "美之焦点 Focus Beauty",
-      "description": "<p>你将你的美貌集中于一个特定的生物以扩展效果的作用范围。选择30尺内的一个生物。即使他们不在区域内，他们也必须立即针对来自先决专长的你的灵光进行一次豁免。如常，如果他们已经对你的美貌灵光暂时免疫，则这不会产生任何效果。</p>\n<hr />\n<p><strong>特殊 </strong>如果你在高于16级时才获得你传承的美貌专长，那么你可以将你的16级职业专长重训为此专长，且这与重训的常规规则相悖。</p>\n"
+      "description": "<p>你将你的美貌集中于一个特定的生物以扩展效果的作用范围。选择30尺内的一个生物。即使他们不在区域内，他们也必须立即针对来自先决专长的你的灵光进行一次豁免。如常，如果他们已经对你的美貌灵光暂时免疫，则这不会产生任何效果。</p>\n<hr />\n<p><strong>特殊 </strong>如果你在高于16级时才获得你传承的美貌专长，那么你可以将你的16级职业专长重训为此专长，且这与重训的常规规则相悖。</p>\n",
+      "prerequisites": [
+        {
+          "value": "阿斯忒里亚女王之美、奥拉女王之美、木林仙女女王之美、埃庇墨利得女王之美、夕照仙女女王之美、冥灯仙女女王之美、迈那得女王之美、水泽仙女女王之美，或来自其他传承、同样能赋予灵光的类似美貌专长"
+        }
+      ]
     },
     "Void's Enervation": {
       "name": "虚空衰竭 Void's Enervation",
-      "description": "<p>当你专注于你的虚空飞弹时，它会汲取你的敌人的生命。如果你使用虚空飞弹以 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.qYJopPiOLSVIJpG4]{聚能飞弹}命中，则该敌人必须尝试一次 @Check[fortitude|against:class-spell] 豁免，对抗你更高的职业DC或法术DC，否则会受到等同于其等级的额外虚能伤害；在应用弱点或抗力之前，将该伤害加入打击的正常虚能伤害中。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物受到全额额外虚能伤害。</p>\n<p><strong>失败</strong> 该生物受到全额额外虚能伤害；或者若该生物未处于流失状态，则改为使其变为 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 1}。</p>\n<p><strong>大失败</strong> 该生物受到双倍的额外虚能伤害；或者若该生物未处于数值为2或更高的流失状态，你可以选择改为使其变为 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 2}。</p>\n"
+      "description": "<p>当你专注于你的虚空飞弹时，它会汲取你的敌人的生命。如果你使用虚空飞弹以 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.qYJopPiOLSVIJpG4]{聚能飞弹}命中，则该敌人必须尝试一次 @Check[fortitude|against:class-spell] 豁免，对抗你更高的职业DC或法术DC，否则会受到等同于其等级的额外虚能伤害；在应用弱点或抗力之前，将该伤害加入打击的正常虚能伤害中。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物受到全额额外虚能伤害。</p>\n<p><strong>失败</strong> 该生物受到全额额外虚能伤害；或者若该生物未处于流失状态，则改为使其变为 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 1}。</p>\n<p><strong>大失败</strong> 该生物受到双倍的额外虚能伤害；或者若该生物未处于数值为2或更高的流失状态，你可以选择改为使其变为 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 2}。</p>\n",
+      "prerequisites": [
+        {
+          "value": "聚能飞弹"
+        },
+        {
+          "value": "虚空飞弹"
+        }
+      ]
     },
     "Animated Hardness": {
       "name": "活化硬度 Animated Hardness",
-      "description": "<p>你强大的魔法注入你身体的外壳，给予你硬度，直到你遭受足够的物理创伤将其击穿。你获得5点硬度，但在受到一次重击后，或在你的生命值降至你最大生命值的一半以下后，你会失去该硬度。在你将生命值恢复至你的最大生命值后，你会恢复失去的硬度。</p>\n"
+      "description": "<p>你强大的魔法注入你身体的外壳，给予你硬度，直到你遭受足够的物理创伤将其击穿。你获得5点硬度，但在受到一次重击后，或在你的生命值降至你最大生命值的一半以下后，你会失去该硬度。在你将生命值恢复至你的最大生命值后，你会恢复失去的硬度。</p>\n",
+      "prerequisites": [
+        {
+          "value": "活化武器传承"
+        }
+      ]
     },
     "Slime Trap": {
       "name": "黏液陷阱 Slime Trap",
-      "description": "<p>当你成功命中一记沉重打击时，你的污泥触须可以将敌人困在污秽之中。若你以污泥触须徒手攻击造成重击，你的敌人会被黏液覆盖，并在1分钟内其速度获得–10尺环境减值，直到它@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}（对抗你职业DC与法术DC中较高者），或直到它用水将污泥洗净为止；以上三者以最先发生者为准。这是重击专精效果。</p>\n"
+      "description": "<p>当你成功命中一记沉重打击时，你的污泥触须可以将敌人困在污秽之中。若你以污泥触须徒手攻击造成重击，你的敌人会被黏液覆盖，并在1分钟内其速度获得–10尺环境减值，直到它@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}（对抗你职业DC与法术DC中较高者），或直到它用水将污泥洗净为止；以上三者以最先发生者为准。这是重击专精效果。</p>\n",
+      "prerequisites": [
+        {
+          "value": "泥魔传承"
+        },
+        {
+          "value": "恶魔打击"
+        }
+      ]
     },
     "Sidhe Styling": {
       "name": "希德族造型 Sidhe Styling",
@@ -1251,7 +2049,15 @@
     },
     "Ravage": {
       "name": "蹂躏 Ravage",
-      "description": "<p>你用恶魔般的徒手攻击蹂躏你的敌人。用你从恶魔打击专长获得的徒手攻击打击三次。你的多重攻击减值会如常应用于这三次打击。</p>\n"
+      "description": "<p>你用恶魔般的徒手攻击蹂躏你的敌人。用你从恶魔打击专长获得的徒手攻击打击三次。你的多重攻击减值会如常应用于这三次打击。</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶魔劫掠者入门"
+        },
+        {
+          "value": "恶魔打击"
+        }
+      ]
     },
     "Fairy Messenger": {
       "name": "妖精信使 Fairy Messenger",
@@ -1267,7 +2073,12 @@
     },
     "Hidden Mind": {
       "name": "隐藏心智 Hidden Mind",
-      "description": "<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 你在一次意志豁免中失败。</p>\n<hr />\n<p>你利用自身真实智能的模糊或隐蔽本质，将袭击你意志的一个效果转移到你所附身的身体或共生持用者身上。重骰这次失败的豁免，并采用较好的结果。若你是附身武器，你在该次重骰中获得+1环境加值；若你是共生武器，则获得+2环境加值，因为你的持用者有更多部分能分散该触发效果的注意。然而，当你以共生武器使用“隐藏心智”时，若第二次掷骰为成功，你的持用者会为你消解这些效果，并且在其意志恢复之前的10分钟内，你无法使用你的传承从持用者那里获得的技能。</p>\n"
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 你在一次意志豁免中失败。</p>\n<hr />\n<p>你利用自身真实智能的模糊或隐蔽本质，将袭击你意志的一个效果转移到你所附身的身体或共生持用者身上。重骰这次失败的豁免，并采用较好的结果。若你是附身武器，你在该次重骰中获得+1环境加值；若你是共生武器，则获得+2环境加值，因为你的持用者有更多部分能分散该触发效果的注意。然而，当你以共生武器使用“隐藏心智”时，若第二次掷骰为成功，你的持用者会为你消解这些效果，并且在其意志恢复之前的10分钟内，你无法使用你的传承从持用者那里获得的技能。</p>\n",
+      "prerequisites": [
+        {
+          "value": "附体武器或共生武器传承"
+        }
+      ]
     },
     "Ward Token": {
       "name": "守域信物 Ward Token",
@@ -1295,7 +2106,12 @@
     },
     "Sound Control": {
       "name": "声音控制 Sound Control",
-      "description": "<p>你对周围的声音施加控制，保护自己免受音波与听觉攻击的危险。你获得等同于你等级一半的音波伤害抗力，并在对抗听觉效果的豁免中获得+1环境加值。若你在对抗听觉效果的豁免中掷骰结果为成功，则改为大成功。</p>\n"
+      "description": "<p>你对周围的声音施加控制，保护自己免受音波与听觉攻击的危险。你获得等同于你等级一半的音波伤害抗力，并在对抗听觉效果的豁免中获得+1环境加值。若你在对抗听觉效果的豁免中掷骰结果为成功，则改为大成功。</p>\n",
+      "prerequisites": [
+        {
+          "value": "风巨鬼传承"
+        }
+      ]
     },
     "Sidhe Hideaway": {
       "name": "希德族隐居所 Sidhe Hideaway",
@@ -1307,7 +2123,12 @@
     },
     "Lampad's Weep": {
       "name": "冥灯仙女之泣 Lampad's Weep",
-      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你在哭泣时将所有狂烈的情绪注入泪水，以悲伤碾碎你的敌人。所有位于 @Template[type:emanation|distance:20] 内的敌人必须进行一次 @Check[will|against:class-spell] 意志豁免，对抗你的职业DC与法术DC中较高者，并产生如下效果。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 持续1轮，该生物无法使用反应动作，并必须在其回合开始时再进行一次豁免；若失败，则该回合中其获得 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}，因为它无法控制地抽泣。</p>\n<p><strong>失败</strong> 同成功，但该效果的持续时间为1分钟。</p>\n<p><strong>大失败</strong> 同成功，但该效果的持续时间为1分钟，且该生物不会在每个回合开始时再进行任何进一步的豁免，而是改为在1分钟内自动缓慢1。</p>\n"
+      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你在哭泣时将所有狂烈的情绪注入泪水，以悲伤碾碎你的敌人。所有位于 @Template[type:emanation|distance:20] 内的敌人必须进行一次 @Check[will|against:class-spell] 意志豁免，对抗你的职业DC与法术DC中较高者，并产生如下效果。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 持续1轮，该生物无法使用反应动作，并必须在其回合开始时再进行一次豁免；若失败，则该回合中其获得 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}，因为它无法控制地抽泣。</p>\n<p><strong>失败</strong> 同成功，但该效果的持续时间为1分钟。</p>\n<p><strong>大失败</strong> 同成功，但该效果的持续时间为1分钟，且该生物不会在每个回合开始时再进行任何进一步的豁免，而是改为在1分钟内自动缓慢1。</p>\n",
+      "prerequisites": [
+        {
+          "value": "冥灯仙女传承"
+        }
+      ]
     },
     "Ooze Shape": {
       "name": "泥怪形态 Ooze Shape",
@@ -1339,7 +2160,12 @@
     },
     "Petrifying Critical": {
       "name": "石化重击 Petrifying Critical",
-      "description": "<p>当你对附近的敌人打出精准一击时，你可以凑近凝视他们，使其部分石化。每当你以近战攻击造成一次重击并将要施加其重击专精效果时，你可以选择使该生物部分石化，作为替代而非正常的重击专精效果，使其在1轮内成为 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}，除非其成功通过一次针对你职业DC的 @Check[fortitude|against:class] 豁免。</p>\n"
+      "description": "<p>当你对附近的敌人打出精准一击时，你可以凑近凝视他们，使其部分石化。每当你以近战攻击造成一次重击并将要施加其重击专精效果时，你可以选择使该生物部分石化，作为替代而非正常的重击专精效果，使其在1轮内成为 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}，除非其成功通过一次针对你职业DC的 @Check[fortitude|against:class] 豁免。</p>\n",
+      "prerequisites": [
+        {
+          "value": "重击专精"
+        }
+      ]
     },
     "Oni's Regeneration": {
       "name": "恶鬼再生 Oni's Regeneration",
@@ -1351,11 +2177,24 @@
     },
     "Aura Queen's Beauty": {
       "name": "奥拉女王之美 Aura Queen's Beauty",
-      "description": "<p>你的美貌会令附近的生物分心到笨拙地绊倒自己。任何在你10尺内结束其回合的生物必须尝试一次对抗你的原能法术DC的意志豁免。失败时其获得@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}，持续1轮；大失败时其获得@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 2}，持续1轮。随后其在接下来的1分钟内暂时免疫。你可以用一个具有专注特征的单动作开启或关闭此灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.d3GxKThp5CamJCRU]{效果：奥拉女王之美（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.vEOxtsNBWQCpi7Uh]{效果：奥拉女王之美（大失败）}</p>\n"
+      "description": "<p>你的美貌会令附近的生物分心到笨拙地绊倒自己。任何在你10尺内结束其回合的生物必须尝试一次对抗你的原能法术DC的意志豁免。失败时其获得@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}，持续1轮；大失败时其获得@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 2}，持续1轮。随后其在接下来的1分钟内暂时免疫。你可以用一个具有专注特征的单动作开启或关闭此灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.d3GxKThp5CamJCRU]{效果：奥拉女王之美（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.vEOxtsNBWQCpi7Uh]{效果：奥拉女王之美（大失败）}</p>\n",
+      "prerequisites": [
+        {
+          "value": "宁芙女王入门"
+        },
+        {
+          "value": "奥拉传承"
+        }
+      ]
     },
     "Tree Meld": {
       "name": "融身入木 Tree Meld",
-      "description": "<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p>你接触一棵体积足以容纳你的树，并与其融合，持续至多10分钟。只要法术不需要穿出树外的效果线，你就可以在树内施放法术。你能听见但无法看见树外正在发生的事情。你可以解除此效果。对树造成的显著物理伤害会将你从树中逐出并对你造成[[/r 10d6]]伤害，而对你施放的<em>@UUID[Compendium.pf2e.spells-srd.Item.115Xp9E38CJENhNS]{穿墙术}</em>法术会将你逐出但不造成伤害。 </p>\n"
+      "description": "<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p>你接触一棵体积足以容纳你的树，并与其融合，持续至多10分钟。只要法术不需要穿出树外的效果线，你就可以在树内施放法术。你能听见但无法看见树外正在发生的事情。你可以解除此效果。对树造成的显著物理伤害会将你从树中逐出并对你造成[[/r 10d6]]伤害，而对你施放的<em>@UUID[Compendium.pf2e.spells-srd.Item.115Xp9E38CJENhNS]{穿墙术}</em>法术会将你逐出但不造成伤害。 </p>\n",
+      "prerequisites": [
+        {
+          "value": "木林仙女传承"
+        }
+      ]
     },
     "Wrath of the Abyss": {
       "name": "深渊之怒 Wrath of the Abyss",
@@ -1367,11 +2206,24 @@
     },
     "Fire's Blaze": {
       "name": "烈火炽燃 Fire's Blaze",
-      "description": "<p>你的火焰飞弹会留下持续燃烧的火焰，引发危险的烈焰。你获得 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.LsBLm2I09XDkWmIF]{灌能重击} 恶鬼族裔专长作为奖励专长，并且你获得一个重击专精效果，你可以将其应用于你的火焰飞弹徒手攻击，使其造成 1d6 持续伤害，再加上你的物品加值（用于徒手攻击掷骰）。此重击专精效果造成的持续火焰伤害可与 灌能重击 造成的持续火焰伤害叠加。</p>\n<hr />\n<p><strong>特殊</strong> 若你使用火焰飞弹以 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.qYJopPiOLSVIJpG4]{聚能飞弹} 命中，即使不是重击，该敌人也会受到 @Damage[2d6[persistent,fire]] 伤害。这可与你在重击时从 灌能重击 或该重击专精（如常，记得在翻倍后再应用重击的伤害）施加的持续火焰伤害叠加。若你至少为 18 级，用 聚能飞弹 命中所造成的持续火焰伤害提高至 [[/r 3d6]]。</p>\n<p> </p>\n"
+      "description": "<p>你的火焰飞弹会留下持续燃烧的火焰，引发危险的烈焰。你获得 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.LsBLm2I09XDkWmIF]{灌能重击} 恶鬼族裔专长作为奖励专长，并且你获得一个重击专精效果，你可以将其应用于你的火焰飞弹徒手攻击，使其造成 1d6 持续伤害，再加上你的物品加值（用于徒手攻击掷骰）。此重击专精效果造成的持续火焰伤害可与 灌能重击 造成的持续火焰伤害叠加。</p>\n<hr />\n<p><strong>特殊</strong> 若你使用火焰飞弹以 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.qYJopPiOLSVIJpG4]{聚能飞弹} 命中，即使不是重击，该敌人也会受到 @Damage[2d6[persistent,fire]] 伤害。这可与你在重击时从 灌能重击 或该重击专精（如常，记得在翻倍后再应用重击的伤害）施加的持续火焰伤害叠加。若你至少为 18 级，用 聚能飞弹 命中所造成的持续火焰伤害提高至 [[/r 3d6]]。</p>\n<p> </p>\n",
+      "prerequisites": [
+        {
+          "value": "巨鬼行者入门"
+        },
+        {
+          "value": "火巨鬼传承"
+        }
+      ]
     },
     "Spellblade Adept": {
       "name": "咒刃行者 Spellblade Adept",
-      "description": "<p>你已专注于你的魔法能量，并获得了对更强大启动效果的许可。选择一个1环法术和一个2环法术，分别来自你武器的魔法根源。它们必须是你拥有许可的法术。你每天可以各使用一次你所选的法术，作为施放法术启动效果。这些启动效果使用你的法术DC。</p>\n"
+      "description": "<p>你已专注于你的魔法能量，并获得了对更强大启动效果的许可。选择一个1环法术和一个2环法术，分别来自你武器的魔法根源。它们必须是你拥有许可的法术。你每天可以各使用一次你所选的法术，作为施放法术启动效果。这些启动效果使用你的法术DC。</p>\n",
+      "prerequisites": [
+        {
+          "value": "咒刃"
+        }
+      ]
     },
     "Navigate Life": {
       "name": "人生导航 Navigate Life",
@@ -1379,11 +2231,24 @@
     },
     "Rampage": {
       "name": "暴走 Rampage",
-      "description": "<p>你在战场上横冲直撞，撕碎较小的敌人并将其践踏在脚下。你行走至多为你速度的两倍，并且可以穿过至少比你小一级体型的生物所占据的空间。你可以使用由 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.RQBlbzOPd4h3Scsj]{恶魔打击} 授予的徒手攻击，对你穿过其空间的每个生物各进行一次打击。即使你在一次暴走中多次穿过同一生物的空间，你也只能对该生物尝试一次此类打击。每次攻击都会计入你的多重攻击减值，但在你完成所有攻击之前，你的减值不会增加。</p>\n"
+      "description": "<p>你在战场上横冲直撞，撕碎较小的敌人并将其践踏在脚下。你行走至多为你速度的两倍，并且可以穿过至少比你小一级体型的生物所占据的空间。你可以使用由 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.RQBlbzOPd4h3Scsj]{恶魔打击} 授予的徒手攻击，对你穿过其空间的每个生物各进行一次打击。即使你在一次暴走中多次穿过同一生物的空间，你也只能对该生物尝试一次此类打击。每次攻击都会计入你的多重攻击减值，但在你完成所有攻击之前，你的减值不会增加。</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶魔劫掠者入门"
+        },
+        {
+          "value": "恶魔打击"
+        }
+      ]
     },
     "Enveloping Garment": {
       "name": "包缠衣装 Enveloping Garment",
-      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你用衣袍猛然抽击，可能电击并定住你的敌人。以衣袍徒手攻击进行一次打击，你只能在使用包缠衣装时进行此打击。该徒手攻击造成1d6电击伤害，具有灵巧与娴熟特征，并属于搏击武器组。若该打击命中，你伸出衣袍的一部分包覆目标，尝试用衣袍对其进行@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}。除陷入@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}外，在一次成功的运动检定中，目标还会受到@Damage[(@actor.level)d6[electricity]]{你每个等级1d6电击伤害}（若你掷出大成功则伤害加倍；失败则伤害减半；大失败则不造成伤害）。由于你的衣袍抽出以抓住生物，即使你没有空手，你也能用包缠衣装擒拿一个生物。</p>\n"
+      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你用衣袍猛然抽击，可能电击并定住你的敌人。以衣袍徒手攻击进行一次打击，你只能在使用包缠衣装时进行此打击。该徒手攻击造成1d6电击伤害，具有灵巧与娴熟特征，并属于搏击武器组。若该打击命中，你伸出衣袍的一部分包覆目标，尝试用衣袍对其进行@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}。除陷入@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}外，在一次成功的运动检定中，目标还会受到@Damage[(@actor.level)d6[electricity]]{你每个等级1d6电击伤害}（若你掷出大成功则伤害加倍；失败则伤害减半；大失败则不造成伤害）。由于你的衣袍抽出以抓住生物，即使你没有空手，你也能用包缠衣装擒拿一个生物。</p>\n",
+      "prerequisites": [
+        {
+          "value": "水巨鬼传承"
+        }
+      ]
     },
     "Wall Master": {
       "name": "墙壁大师 Wall Master",
@@ -1391,15 +2256,30 @@
     },
     "The Dungeon's Magic Power is Omnipotent": {
       "name": "地城的魔力无所不能 The Dungeon's Magic Power is Omnipotent",
-      "description": "<p>你与自己的地城之间的魔法连接强大到已达巅峰，使你能从地城中引出法术——这些法术本应需要技艺娴熟的法师或德鲁伊才能显现。选择一个3环或更低的法术，以及一个4环或更低的法术，二者均须来自与你的地城秘法法术相同的法术列表。它们必须是你拥有许可的法术。你可以将每个所选法术每天施放一次，作为相应根源的先天法术。</p>\n"
+      "description": "<p>你与自己的地城之间的魔法连接强大到已达巅峰，使你能从地城中引出法术——这些法术本应需要技艺娴熟的法师或德鲁伊才能显现。选择一个3环或更低的法术，以及一个4环或更低的法术，二者均须来自与你的地城秘法法术相同的法术列表。它们必须是你拥有许可的法术。你可以将每个所选法术每天施放一次，作为相应根源的先天法术。</p>\n",
+      "prerequisites": [
+        {
+          "value": "地城秘法"
+        }
+      ]
     },
     "Tree of Life": {
       "name": "生命之树 Tree of Life",
-      "description": "<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 60尺内的一名活生物将会死亡。</p>\n<hr />\n<p>你唤来生命之树的一片叶子，用治疗露水为濒死的生物涂抹。你阻止目标死亡，并使目标恢复等同于[[/r (4d8+@actor.classDC.abilityModifier.modifier)[healing]]]{4d8加上你的关键属性调整值}的生命值。若触发的效果是<em>@Compendium[pf2e.spells-srd.r7ihOgKv19eJQnik]{解离术}</em>或死亡效果，你不能使用生命之树。</p>\n"
+      "description": "<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 60尺内的一名活生物将会死亡。</p>\n<hr />\n<p>你唤来生命之树的一片叶子，用治疗露水为濒死的生物涂抹。你阻止目标死亡，并使目标恢复等同于[[/r (4d8+@actor.classDC.abilityModifier.modifier)[healing]]]{4d8加上你的关键属性调整值}的生命值。若触发的效果是<em>@Compendium[pf2e.spells-srd.r7ihOgKv19eJQnik]{解离术}</em>或死亡效果，你不能使用生命之树。</p>\n",
+      "prerequisites": [
+        {
+          "value": "树传承"
+        }
+      ]
     },
     "Human Infiltrator": {
       "name": "人类渗透者 Human Infiltrator",
-      "description": "<p>你已渗透人类社会到几乎与人类无异的程度。你获得适用于人类族裔的 @UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊} 专长，并获得一个你选择的1级人类族裔专长。为判定仅对人类生效的人类族裔专长的效果时，你视为人类。</p>\n"
+      "description": "<p>你已渗透人类社会到几乎与人类无异的程度。你获得适用于人类族裔的 @UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{异族情谊} 专长，并获得一个你选择的1级人类族裔专长。为判定仅对人类生效的人类族裔专长的效果时，你视为人类。</p>\n",
+      "prerequisites": [
+        {
+          "value": "骇鬼传承"
+        }
+      ]
     },
     "Stheno Lore": {
       "name": "斯忒诺学识 Stheno Lore",
@@ -1407,11 +2287,21 @@
     },
     "Guiding Star": {
       "name": "引路星 Guiding Star",
-      "description": "<p>你可以放置一颗只有你能看见的微小星辰发光，以借助群星为你指引通往一个物体、地点或自愿的生物的道路。在你再次使用“引路星”之前，只要你能看见夜空且该目标也在同一片星空下被照亮，你就总能知晓目标的方向与距离，误差约在 10 尺半径内。若该目标对你而言将会处于 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽} 状态，你无视该隐蔽，因为星辰会揭示目标的形态。</p>\n"
+      "description": "<p>你可以放置一颗只有你能看见的微小星辰发光，以借助群星为你指引通往一个物体、地点或自愿的生物的道路。在你再次使用“引路星”之前，只要你能看见夜空且该目标也在同一片星空下被照亮，你就总能知晓目标的方向与距离，误差约在 10 尺半径内。若该目标对你而言将会处于 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽} 状态，你无视该隐蔽，因为星辰会揭示目标的形态。</p>\n",
+      "prerequisites": [
+        {
+          "value": "阿斯忒里亚传承"
+        }
+      ]
     },
     "Yai's Growth": {
       "name": "巨鬼成长 Yai's Growth",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p>\n<hr />\n<p>你在短时间内长得如同风暴巨人一般高大，使你能够高耸于你的敌人之上。你获得4环 @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{变巨术} 的效果，持续1分钟。</p>\n"
+      "description": "<p><strong>频率</strong> 每10分钟一次</p>\n<hr />\n<p>你在短时间内长得如同风暴巨人一般高大，使你能够高耸于你的敌人之上。你获得4环 @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{变巨术} 的效果，持续1分钟。</p>\n",
+      "prerequisites": [
+        {
+          "value": "水巨鬼或风巨鬼传承"
+        }
+      ]
     },
     "Nymph's Eyes": {
       "name": "宁芙之眼 Nymph's Eyes",
@@ -1435,7 +2325,12 @@
     },
     "Warrior's Arms": {
       "name": "战士之臂 Warrior's Arms",
-      "description": "<p>你那忽隐忽现的额外手臂偶尔提供协助，让你轻松运用双武器技巧。你获得 @Compendium[pf2e.feats-srd.YhnCjiHNlS3nCeoC]{双武大师入门} 入门专长，即使你通常必须先从当前原型中再获得更多专长后才能选择另一个入门专长，你也仍可获得该专长。</p>\n"
+      "description": "<p>你那忽隐忽现的额外手臂偶尔提供协助，让你轻松运用双武器技巧。你获得 @Compendium[pf2e.feats-srd.YhnCjiHNlS3nCeoC]{双武大师入门} 入门专长，即使你通常必须先从当前原型中再获得更多专长后才能选择另一个入门专长，你也仍可获得该专长。</p>\n",
+      "prerequisites": [
+        {
+          "value": "显现之臂"
+        }
+      ]
     },
     "Corrosive Grasp": {
       "name": "腐蚀之握 Corrosive Grasp",
@@ -1443,11 +2338,21 @@
     },
     "Queen's Inklings": {
       "name": "女王初悟 Queen's Inklings",
-      "description": "<p>尽管你已与自己的守护对象分离，但你获得了更广泛的联系，使你得以略窥宁芙女王所拥有的原能魔法。选择一个1环原能法术和一个2环或更低环的原能法术。它们必须是你有许可的法术。你每天可以将你所选的每个法术各施放一次，作为原能先天法术。</p>\n"
+      "description": "<p>尽管你已与自己的守护对象分离，但你获得了更广泛的联系，使你得以略窥宁芙女王所拥有的原能魔法。选择一个1环原能法术和一个2环或更低环的原能法术。它们必须是你有许可的法术。你每天可以将你所选的每个法术各施放一次，作为原能先天法术。</p>\n",
+      "prerequisites": [
+        {
+          "value": "宁芙魔法"
+        }
+      ]
     },
     "Tree Strider": {
       "name": "踏树者 Tree Strider",
-      "description": "<p>你可以利用你与植物的联结，在同一物种的树木之间穿行。你每天可以将<em>@UUID[Compendium.pf2e.spells-srd.Item.F1qxaqsEItmBura2]{通身入林}</em>作为原能内在法术施放一次。</p>\n"
+      "description": "<p>你可以利用你与植物的联结，在同一物种的树木之间穿行。你每天可以将<em>@UUID[Compendium.pf2e.spells-srd.Item.F1qxaqsEItmBura2]{通身入林}</em>作为原能内在法术施放一次。</p>\n",
+      "prerequisites": [
+        {
+          "value": "木林仙女传承"
+        }
+      ]
     },
     "Unluck Aura": {
       "name": "厄运灵光 Unluck Aura",
@@ -1467,15 +2372,33 @@
     },
     "Blood Splatter": {
       "name": "鲜血飞溅 Blood Splatter",
-      "description": "<p>你保留的酸性黏液比大多数拒绝其血腥罪孽的叛逆暴怖魔更多。你可以每小时使用一次 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-actions.Item.xorlcY1YBzidwL6C]{应激黏液}，而不是每天一次。</p>\n"
+      "description": "<p>你保留的酸性黏液比大多数拒绝其血腥罪孽的叛逆暴怖魔更多。你可以每小时使用一次 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-actions.Item.xorlcY1YBzidwL6C]{应激黏液}，而不是每天一次。</p>\n",
+      "prerequisites": [
+        {
+          "value": "暴怖魔传承"
+        }
+      ]
     },
     "Gremlin Lice": {
       "name": "小魔怪虱 Gremlin Lice",
-      "description": "<p>你交到了一些会在冒险中与你并肩作战的朋友……不幸的是，对你周围的其他所有人来说，这些新朋友是一群小魔怪虱子。你与其他小魔怪不受影响，但这些小魔怪虱子会在你打出漂亮一击时侵扰敌人。以近战徒手攻击重击命中时，你可以选择让你的目标根据其对抗你职业DC的 @Check[reflex|against:class] 豁免而被虱子侵扰。这是一种重击专精效果。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 虱子未能完全侵扰目标，但目标仍会因瘙痒而分心，并在1轮内陷入 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，或直到其使用一个交互动作去抓挠止痒为止（以先发生者为准）。</p>\n<p><strong>失败</strong> 虱子完全侵扰目标。被侵扰期间，目标生物因瘙痒而分心并陷入呆滞 1，但它可以使用一个交互动作去抓挠止痒，以将呆滞压制 [[/br 1d4 #rounds]]{1d4轮}。侵扰会在24小时后结束，或直到该生物被浸入水中或暴露于严寒环境为止（以先发生者为准）。</p>\n"
+      "description": "<p>你交到了一些会在冒险中与你并肩作战的朋友……不幸的是，对你周围的其他所有人来说，这些新朋友是一群小魔怪虱子。你与其他小魔怪不受影响，但这些小魔怪虱子会在你打出漂亮一击时侵扰敌人。以近战徒手攻击重击命中时，你可以选择让你的目标根据其对抗你职业DC的 @Check[reflex|against:class] 豁免而被虱子侵扰。这是一种重击专精效果。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 虱子未能完全侵扰目标，但目标仍会因瘙痒而分心，并在1轮内陷入 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，或直到其使用一个交互动作去抓挠止痒为止（以先发生者为准）。</p>\n<p><strong>失败</strong> 虱子完全侵扰目标。被侵扰期间，目标生物因瘙痒而分心并陷入呆滞 1，但它可以使用一个交互动作去抓挠止痒，以将呆滞压制 [[/br 1d4 #rounds]]{1d4轮}。侵扰会在24小时后结束，或直到该生物被浸入水中或暴露于严寒环境为止（以先发生者为准）。</p>\n",
+      "prerequisites": [
+        {
+          "value": "垢鼠小魔怪传承"
+        }
+      ]
     },
     "Epimelid Queen's Beauty": {
       "name": "埃庇墨利得女王之美 Epimelid Queen's Beauty",
-      "description": "<p>你的美丽如此宁静而令人愉悦，以至于会在削弱生物战斗意志的同时夺走它们的力量。任何在其回合结束时位于你10尺内的生物都必须尝试一次对抗你原能法术DC的意志豁免。失败则他们在1轮内为@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 1}，大失败则他们在1轮内为@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 2}。随后他们在1分钟内暂时免疫。你可以用一个带有专注特征的单动作来开启或关闭该灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.qPARS7GJ5gRfQQl8]{效果：埃庇墨利得女王之美（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.BZvh6rytFIo3bX7n]{效果：埃庇墨利得女王之美（大失败）}</p>\n"
+      "description": "<p>你的美丽如此宁静而令人愉悦，以至于会在削弱生物战斗意志的同时夺走它们的力量。任何在其回合结束时位于你10尺内的生物都必须尝试一次对抗你原能法术DC的意志豁免。失败则他们在1轮内为@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 1}，大失败则他们在1轮内为@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 2}。随后他们在1分钟内暂时免疫。你可以用一个带有专注特征的单动作来开启或关闭该灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.qPARS7GJ5gRfQQl8]{效果：埃庇墨利得女王之美（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.BZvh6rytFIo3bX7n]{效果：埃庇墨利得女王之美（大失败）}</p>\n",
+      "prerequisites": [
+        {
+          "value": "宁芙女王入门"
+        },
+        {
+          "value": "埃庇墨利得传承"
+        }
+      ]
     },
     "Fey Skin (Nymph)": {
       "name": "精类之肤（宁芙） Fey Skin (Nymph)",
@@ -1483,7 +2406,12 @@
     },
     "Dance of Ruin": {
       "name": "毁灭之舞 Dance of Ruin",
-      "description": "<p>你们围成一圈跳舞并吟唱，以制造一次毁灭性的电能爆炸。若在30尺内有更多具有“毁灭之舞”的鹫魔想加入舞蹈，你可以延迟舞蹈以等待更多鹫魔；在此情况下，效果会在最后一名鹫魔使用“毁灭之舞”后发生，或由你们中的一位选择完成该轮舞蹈并引发爆炸时发生。以你们中任意一名为中心的一个@Template[type:emanation|distance:20]内的每个非恶魔生物都会受到@Damage[2d12[electricity]]伤害，并须进行一次基本反射豁免，对抗所有参与舞蹈的鹫魔中最高的职业DC或法术DC。每有一名额外的鹫魔加入舞蹈，伤害便增加1d12（最多四名鹫魔造成@Damage[5d12[untyped]]伤害）。你与其他鹫魔可以在每轮使用“毁灭之舞”来继续跳舞，最多持续共3轮。该扩散区域的范围每轮增加20尺，且伤害每轮每名鹫魔增加1d12，至多达到一个@Template[type:emanation|distance:60]以及@Damage[13d12[untyped]]伤害（四名鹫魔跳满全部3轮）。在15级时，基础伤害从@Damage[2d12[electricity]]伤害提高至@Damage[4d12[electricity]]伤害，且每加入一名鹫魔以及延长舞蹈的额外伤害从1d12提高至[[/r 2d12]]。这会将四名鹫魔跳满3轮时的最大总伤害提高至26d12。〔译注：原文的基础伤害宏使用电击，部分总伤害宏却使用无类型；本译文未统一这些源宏。〕</p>\n"
+      "description": "<p>你们围成一圈跳舞并吟唱，以制造一次毁灭性的电能爆炸。若在30尺内有更多具有“毁灭之舞”的鹫魔想加入舞蹈，你可以延迟舞蹈以等待更多鹫魔；在此情况下，效果会在最后一名鹫魔使用“毁灭之舞”后发生，或由你们中的一位选择完成该轮舞蹈并引发爆炸时发生。以你们中任意一名为中心的一个@Template[type:emanation|distance:20]内的每个非恶魔生物都会受到@Damage[2d12[electricity]]伤害，并须进行一次基本反射豁免，对抗所有参与舞蹈的鹫魔中最高的职业DC或法术DC。每有一名额外的鹫魔加入舞蹈，伤害便增加1d12（最多四名鹫魔造成@Damage[5d12[untyped]]伤害）。你与其他鹫魔可以在每轮使用“毁灭之舞”来继续跳舞，最多持续共3轮。该扩散区域的范围每轮增加20尺，且伤害每轮每名鹫魔增加1d12，至多达到一个@Template[type:emanation|distance:60]以及@Damage[13d12[untyped]]伤害（四名鹫魔跳满全部3轮）。在15级时，基础伤害从@Damage[2d12[electricity]]伤害提高至@Damage[4d12[electricity]]伤害，且每加入一名鹫魔以及延长舞蹈的额外伤害从1d12提高至[[/r 2d12]]。这会将四名鹫魔跳满3轮时的最大总伤害提高至26d12。〔译注：原文的基础伤害宏使用电击，部分总伤害宏却使用无类型；本译文未统一这些源宏。〕</p>\n",
+      "prerequisites": [
+        {
+          "value": "鹫魔传承"
+        }
+      ]
     },
     "Guardian Statue": {
       "name": "守护雕像 Guardian Statue",
@@ -1495,7 +2423,15 @@
     },
     "Electricity's Shock": {
       "name": "电流震击 Electricity's Shock",
-      "description": "<p>当你将体内的电能集中到你的电能飞弹中时，你可以电击你的敌人并使其更容易受到后续电击效果影响。若你使用电能飞弹以聚能飞弹命中，敌人必须尝试一次@Check[fortitude|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者，否则可能陷入电击状态。处于电击状态的生物带有电荷，使电能更容易伤害它。它在受到造成电击伤害的攻击时为@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}（即使只是额外的电击伤害，例如电击武器），并且在对抗电击效果的强韧与反射豁免检定上承受–2环境减值。若该生物从持续电击伤害以外的来源受到任意数量的电击伤害，或它花费一个交互动作将电能无害释放，则电击状态会提前结束。</p>\n<p><strong>成功</strong> 目标不受影响。</p>\n<p><strong>失败</strong> 目标陷入电击状态，直到你下个回合结束。</p>\n<p><strong>大失败</strong> 目标陷入电击状态，持续1分钟。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.oGcuLA4HcW8iJBPz]{效果：电流震击（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.ffcCDY77YNT690ox]{效果：电流震击（大失败）}</p>\n"
+      "description": "<p>当你将体内的电能集中到你的电能飞弹中时，你可以电击你的敌人并使其更容易受到后续电击效果影响。若你使用电能飞弹以聚能飞弹命中，敌人必须尝试一次@Check[fortitude|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者，否则可能陷入电击状态。处于电击状态的生物带有电荷，使电能更容易伤害它。它在受到造成电击伤害的攻击时为@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}（即使只是额外的电击伤害，例如电击武器），并且在对抗电击效果的强韧与反射豁免检定上承受–2环境减值。若该生物从持续电击伤害以外的来源受到任意数量的电击伤害，或它花费一个交互动作将电能无害释放，则电击状态会提前结束。</p>\n<p><strong>成功</strong> 目标不受影响。</p>\n<p><strong>失败</strong> 目标陷入电击状态，直到你下个回合结束。</p>\n<p><strong>大失败</strong> 目标陷入电击状态，持续1分钟。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.oGcuLA4HcW8iJBPz]{效果：电流震击（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.ffcCDY77YNT690ox]{效果：电流震击（大失败）}</p>\n",
+      "prerequisites": [
+        {
+          "value": "聚能飞弹"
+        },
+        {
+          "value": "水巨鬼传承"
+        }
+      ]
     },
     "Abyssal Contagion": {
       "name": "深渊瘟疫 Abyssal Contagion",
@@ -1503,11 +2439,21 @@
     },
     "Void Trap": {
       "name": "虚空陷阱 Void Trap",
-      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>你踏入空间的虚空并在远处显现，在身后留下一个微型黑洞来湮灭你的敌人。你立刻将自己以及你穿戴和持握的任何物品从你当前的空间传送到你能看见的120尺内一处空旷的空间。若这会把另一个生物一同带过去——即使你将其装在一个异次元容器中——虚空陷阱将失败，而阻止传送的效果也可能同样阻止你传送。若你成功传送，你可以选择在新位置进入你的@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.B20yTsAL7wqq67ix]{虚空形态}并立即躲藏。此外，若你成功传送，你会在原地留下一个由虚能构成的微型黑洞。以你原本的空间为中心的40尺爆发范围内的生物受到@Damage[20d6[void]]伤害，并且可能会被拉向爆发中心，取决于其强韧豁免。被吸向中心属于强制移动。〔译注：原文要求强韧豁免，但本条未给出其DC；本译文未补值。〕</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物受到一半的虚能伤害，并向黑洞中心移动5尺。</p>\n<p><strong>失败</strong> 该生物受到全额的虚能伤害，并向黑洞中心移动10尺。</p>\n<p><strong>大失败</strong> 该生物受到双倍的虚能伤害，并向黑洞中心移动20尺。</p>\n"
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>你踏入空间的虚空并在远处显现，在身后留下一个微型黑洞来湮灭你的敌人。你立刻将自己以及你穿戴和持握的任何物品从你当前的空间传送到你能看见的120尺内一处空旷的空间。若这会把另一个生物一同带过去——即使你将其装在一个异次元容器中——虚空陷阱将失败，而阻止传送的效果也可能同样阻止你传送。若你成功传送，你可以选择在新位置进入你的@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.B20yTsAL7wqq67ix]{虚空形态}并立即躲藏。此外，若你成功传送，你会在原地留下一个由虚能构成的微型黑洞。以你原本的空间为中心的40尺爆发范围内的生物受到@Damage[20d6[void]]伤害，并且可能会被拉向爆发中心，取决于其强韧豁免。被吸向中心属于强制移动。〔译注：原文要求强韧豁免，但本条未给出其DC；本译文未补值。〕</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物受到一半的虚能伤害，并向黑洞中心移动5尺。</p>\n<p><strong>失败</strong> 该生物受到全额的虚能伤害，并向黑洞中心移动10尺。</p>\n<p><strong>大失败</strong> 该生物受到双倍的虚能伤害，并向黑洞中心移动20尺。</p>\n",
+      "prerequisites": [
+        {
+          "value": "虚空形态"
+        }
+      ]
     },
     "Insidious Weapon": {
       "name": "隐秘武器 Insidious Weapon",
-      "description": "<p>你可以躲避各种魔法效果：这些效果试图辨识你真实本质的讯息时，你会将其改为影响你的持用者而非你自己。侦测与揭示效果会侦测或揭示适用于你持用者的结果，而不是关于你的真实信息，除非该效果的反制等级高于你自身的等级。由于附身武器的持用者是一具空壳身体，依效果不同，这仍可能产生可疑的结果。例如，读取思想的法术与特殊感官会揭示你持用者的思想（或对附身武器而言没有思想），而非你的思想。再举一例，除非你的持用者具有魔法特征或类似特征（多数持用者并没有），否则这会阻止侦测效果判定你是魔法的。〔译注：原文未明确“你自身的等级”用于反制比较时具体指哪一种等级；本译文未补入换算方式。〕</p>\n"
+      "description": "<p>你可以躲避各种魔法效果：这些效果试图辨识你真实本质的讯息时，你会将其改为影响你的持用者而非你自己。侦测与揭示效果会侦测或揭示适用于你持用者的结果，而不是关于你的真实信息，除非该效果的反制等级高于你自身的等级。由于附身武器的持用者是一具空壳身体，依效果不同，这仍可能产生可疑的结果。例如，读取思想的法术与特殊感官会揭示你持用者的思想（或对附身武器而言没有思想），而非你的思想。再举一例，除非你的持用者具有魔法特征或类似特征（多数持用者并没有），否则这会阻止侦测效果判定你是魔法的。〔译注：原文未明确“你自身的等级”用于反制比较时具体指哪一种等级；本译文未补入换算方式。〕</p>\n",
+      "prerequisites": [
+        {
+          "value": "附体武器或共生武器传承"
+        }
+      ]
     },
     "Noble Scion": {
       "name": "贵族血裔 Noble Scion",
@@ -1515,7 +2461,12 @@
     },
     "Water Yai Swimmer": {
       "name": "水巨鬼泳者 Water Yai Swimmer",
-      "description": "<p>你将自己与水之本性更深地连接在一起，提高了你游泳的速度。你的游泳速度提高至25尺。</p>\n"
+      "description": "<p>你将自己与水之本性更深地连接在一起，提高了你游泳的速度。你的游泳速度提高至25尺。</p>\n",
+      "prerequisites": [
+        {
+          "value": "水巨鬼传承"
+        }
+      ]
     },
     "All the World's a Maze": {
       "name": "世界皆迷宫 All the World's a Maze",
@@ -1535,7 +2486,12 @@
     },
     "Speak With Trees": {
       "name": "与树交谈 Speak With Trees",
-      "description": "<p>作为一棵巨树的化身，你觉得与其他树木交谈再自然不过。你可以向落叶树或针叶树提问、从它们那里获得回答，并对其使用交涉技能，具体取决于你是哪一种树。GM决定哪些植物可计入此能力。</p>\n"
+      "description": "<p>作为一棵巨树的化身，你觉得与其他树木交谈再自然不过。你可以向落叶树或针叶树提问、从它们那里获得回答，并对其使用交涉技能，具体取决于你是哪一种树。GM决定哪些植物可计入此能力。</p>\n",
+      "prerequisites": [
+        {
+          "value": "树传承"
+        }
+      ]
     },
     "Dungeon Dive": {
       "name": "地城潜游 Dungeon Dive",
@@ -1559,11 +2515,21 @@
     },
     "Quick Reforge": {
       "name": "快速重铸 Quick Reforge",
-      "description": "<p>你可以如此迅速地重铸自身，以至于你完成变形所用的时间，仅相当于他人恢复专注或稍作喘息的时间。除了在你的每日准备期间使用 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.6TQtBtBNVcWr4jc7]{重铸自身} 专长重铸自身之外，你还可以以一个 10 分钟行动来重铸自身，该行动具有专注和操作特征。</p>\n"
+      "description": "<p>你可以如此迅速地重铸自身，以至于你完成变形所用的时间，仅相当于他人恢复专注或稍作喘息的时间。除了在你的每日准备期间使用 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.6TQtBtBNVcWr4jc7]{重铸自身} 专长重铸自身之外，你还可以以一个 10 分钟行动来重铸自身，该行动具有专注和操作特征。</p>\n",
+      "prerequisites": [
+        {
+          "value": "重铸自身"
+        }
+      ]
     },
     "Amaranthine Beauty": {
       "name": "不凋之美 Amaranthine Beauty",
-      "description": "<p>你的美貌永恒不朽，且充盈着原能；通过触及那不朽的性相，你可以更频繁地放大其效果。你可以每小时使用一次 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.DSy9Xk0CYJ0vAN6i]{魅惑美貌}，而非每天一次。</p>\n"
+      "description": "<p>你的美貌永恒不朽，且充盈着原能；通过触及那不朽的性相，你可以更频繁地放大其效果。你可以每小时使用一次 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.DSy9Xk0CYJ0vAN6i]{魅惑美貌}，而非每天一次。</p>\n",
+      "prerequisites": [
+        {
+          "value": "魅惑美貌"
+        }
+      ]
     },
     "Unseen Saboteur": {
       "name": "隐形破坏者 Unseen Saboteur",
@@ -1591,11 +2557,21 @@
     },
     "Hesperid Magic": {
       "name": "夕照仙女魔法 Hesperid Magic",
-      "description": "<p>你控制与扭曲光线的能力使你能够照亮隐藏的敌人，也能用幻术为自己伪装。你每天可以施放一次<em>@UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{妖火术}</em>，并且每小时可以施放一次<em>@UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{幻象伪装}</em>，两者均为原能先天法术。</p>\n"
+      "description": "<p>你控制与扭曲光线的能力使你能够照亮隐藏的敌人，也能用幻术为自己伪装。你每天可以施放一次<em>@UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{妖火术}</em>，并且每小时可以施放一次<em>@UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{幻象伪装}</em>，两者均为原能先天法术。</p>\n",
+      "prerequisites": [
+        {
+          "value": "夕照仙女传承"
+        }
+      ]
     },
     "Combine Blade": {
       "name": "组合刀刃 Combine Blade",
-      "description": "<p>你可以使用不同的伪足组合来改变你的刀刃徒手攻击的属性。当你为原本专长中的任一选项使用 拟形怪之刃 时，该刀刃为 模块化 穿刺和钝击。现在，当你使用 拟形怪之刃 时也可以选择以下选项；这会使用你的两条伪足，这意味着你在使用它们时无法操作或持有物品：</p>\n<ul>\n<li>你将两条伪足结合在一起，在一条极长伪足的末端形成一把格外致命的刀刃，能够以强劲的动量挥砍。你的刀刃造成 [[/r 1d8[slashing]]] 伤害，并具有 致命 d8、叠劲 与长触及特征。</li>\n<li>你将两条伪足结合在一起，形成一把巨大的弯曲刀刃。你的刀刃造成 [[/r 1d10[slashing]]] 伤害，并具有 叠劲 与 横扫 特征。\n<p> </p>\n</li>\n</ul>\n"
+      "description": "<p>你可以使用不同的伪足组合来改变你的刀刃徒手攻击的属性。当你为原本专长中的任一选项使用 拟形怪之刃 时，该刀刃为 模块化 穿刺和钝击。现在，当你使用 拟形怪之刃 时也可以选择以下选项；这会使用你的两条伪足，这意味着你在使用它们时无法操作或持有物品：</p>\n<ul>\n<li>你将两条伪足结合在一起，在一条极长伪足的末端形成一把格外致命的刀刃，能够以强劲的动量挥砍。你的刀刃造成 [[/r 1d8[slashing]]] 伤害，并具有 致命 d8、叠劲 与长触及特征。</li>\n<li>你将两条伪足结合在一起，形成一把巨大的弯曲刀刃。你的刀刃造成 [[/r 1d10[slashing]]] 伤害，并具有 叠劲 与 横扫 特征。\n<p> </p>\n</li>\n</ul>\n",
+      "prerequisites": [
+        {
+          "value": "拟形怪之刃"
+        }
+      ]
     },
     "Oracular Insight": {
       "name": "神谕洞察 Oracular Insight",
@@ -1603,7 +2579,12 @@
     },
     "Frenzied Slashes": {
       "name": "狂乱斩击 Frenzied Slashes",
-      "description": "<p>你狂乱地挥击并拥抱混沌，进行一连串可能撕碎你敌人的攻击。用同一把武器或徒手攻击，对同一目标进行三次近战打击，每次承受–4减值。这算作三次攻击以计算你的多重攻击减值，但在你完成全部三次攻击之前，你不会提高该减值。你获得@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}状态，持续到你下一回合开始为止。若你用由@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.RQBlbzOPd4h3Scsj]{恶魔打击}专长授予的灵巧徒手攻击进行这三次打击，则这三次攻击改为承受–2减值而非–4减值。</p>\n"
+      "description": "<p>你狂乱地挥击并拥抱混沌，进行一连串可能撕碎你敌人的攻击。用同一把武器或徒手攻击，对同一目标进行三次近战打击，每次承受–4减值。这算作三次攻击以计算你的多重攻击减值，但在你完成全部三次攻击之前，你不会提高该减值。你获得@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}状态，持续到你下一回合开始为止。若你用由@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.RQBlbzOPd4h3Scsj]{恶魔打击}专长授予的灵巧徒手攻击进行这三次打击，则这三次攻击改为承受–2减值而非–4减值。</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶魔劫掠者入门"
+        }
+      ]
     },
     "Smasher": {
       "name": "粉碎者 Smasher",
@@ -1611,11 +2592,21 @@
     },
     "Misty Stride": {
       "name": "迷雾步伐 Misty Stride",
-      "description": "<p>你短暂地让欺瞒性的魔法薄雾环绕自身，使你有机会尝试 @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}，然后 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}。无论你是否成功，在分神与潜行动作期间，你都会因薄雾而处于 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽} 状态。隐蔽会在潜行动作结束后结束；若你在潜行期间未触及另一种形式的掩蔽或隐蔽，当你的回合结束时，这可能会导致你变为被观测到。</p>\n"
+      "description": "<p>你短暂地让欺瞒性的魔法薄雾环绕自身，使你有机会尝试 @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}，然后 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}。无论你是否成功，在分神与潜行动作期间，你都会因薄雾而处于 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽} 状态。隐蔽会在潜行动作结束后结束；若你在潜行期间未触及另一种形式的掩蔽或隐蔽，当你的回合结束时，这可能会导致你变为被观测到。</p>\n",
+      "prerequisites": [
+        {
+          "value": "野狐传承"
+        }
+      ]
     },
     "Amphibious Ease": {
       "name": "两栖自如 Amphibious Ease",
-      "description": "<p>你能轻松穿行于陆地与水域之间；若你是泥魔，则如同流动的污水一般；若你是涸泽魔，则如同你那酷似蟾蜍的身体。你从涸泽魔传承或“流动泥魔”专长获得的游泳速度提升至25尺。</p>\n"
+      "description": "<p>你能轻松穿行于陆地与水域之间；若你是泥魔，则如同流动的污水一般；若你是涸泽魔，则如同你那酷似蟾蜍的身体。你从涸泽魔传承或“流动泥魔”专长获得的游泳速度提升至25尺。</p>\n",
+      "prerequisites": [
+        {
+          "value": "涸泽魔传承或流动泥魔"
+        }
+      ]
     },
     "Cunning Strike": {
       "name": "巧妙打击 Cunning Strike",
@@ -1623,27 +2614,60 @@
     },
     "Dungeon? No, I'm Just a Passing Beast Tamer": {
       "name": "地城？不，我只是个路过的驯兽师 Dungeon? No, I'm Just a Passing Beast Tamer",
-      "description": "<p>你已经太久无法在战斗中指挥你的地城住民了。如今，终于，你获得了指挥一只来自你地城之内的强大动物的能力，并说服它作为你的伙伴……而且，你在自己麾下获得更多动物也只是时间问题！</p>\n<p>你获得 @UUID[Compendium.pf2e.feats-srd.Item.wdmUH6hdat7jpEWt]{兽王入门} 专长，即使你通常必须先从你当前的原型中再选更多专长才能选择另一个入门专长也不例外。你从兽王原型获得的动物伙伴来自你的异次元地城真我，这意味着除非在地城中战斗，否则它们不在自己的家乡位面，并且可能会被放逐，或受到其他只对不在其家乡位面的生物起作用的能力影响。如果你通过 额外伙伴 专长获得额外动物伙伴，除你当前活跃的伙伴之外的其他伙伴会返回你的内在地城，而不是在附近觅食。你仍然可以照常通过 @UUID[Compendium.pf2e.actionspf2e.Item.8kGpUUUSX1sB2OqQ]{呼唤伙伴} 来替换它们，并且可以通过 @UUID[Compendium.pf2e.feats-srd.Item.5kUQuIP8N57MXhuz]{兽王之呼唤} 来创造一个当前并不活跃的伙伴的投影，尽管它们在你的地城之内。除此之外，兽王原型的机制对你而言与对任何其他兽王而言的运作方式相同。</p>\n"
+      "description": "<p>你已经太久无法在战斗中指挥你的地城住民了。如今，终于，你获得了指挥一只来自你地城之内的强大动物的能力，并说服它作为你的伙伴……而且，你在自己麾下获得更多动物也只是时间问题！</p>\n<p>你获得 @UUID[Compendium.pf2e.feats-srd.Item.wdmUH6hdat7jpEWt]{兽王入门} 专长，即使你通常必须先从你当前的原型中再选更多专长才能选择另一个入门专长也不例外。你从兽王原型获得的动物伙伴来自你的异次元地城真我，这意味着除非在地城中战斗，否则它们不在自己的家乡位面，并且可能会被放逐，或受到其他只对不在其家乡位面的生物起作用的能力影响。如果你通过 额外伙伴 专长获得额外动物伙伴，除你当前活跃的伙伴之外的其他伙伴会返回你的内在地城，而不是在附近觅食。你仍然可以照常通过 @UUID[Compendium.pf2e.actionspf2e.Item.8kGpUUUSX1sB2OqQ]{呼唤伙伴} 来替换它们，并且可以通过 @UUID[Compendium.pf2e.feats-srd.Item.5kUQuIP8N57MXhuz]{兽王之呼唤} 来创造一个当前并不活跃的伙伴的投影，尽管它们在你的地城之内。除此之外，兽王原型的机制对你而言与对任何其他兽王而言的运作方式相同。</p>\n",
+      "prerequisites": [
+        {
+          "value": "自然受训"
+        }
+      ]
     },
     "Hulking Marauder": {
       "name": "魁梧劫掠者 Hulking Marauder",
-      "description": "<p>你长得比大多数同族传承成员更高大、更具威势；或者如果你是涸泽魔，你已经恢复了昔日完整的身躯体量。你的体型增加至大型（若你尚未为大型），且你的触及增加至10尺。这不会改变你的任何其他数据。</p>\n"
+      "description": "<p>你长得比大多数同族传承成员更高大、更具威势；或者如果你是涸泽魔，你已经恢复了昔日完整的身躯体量。你的体型增加至大型（若你尚未为大型），且你的触及增加至10尺。这不会改变你的任何其他数据。</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶魔劫掠者入门"
+        }
+      ]
     },
     "Naiad Queen's Beauty": {
       "name": "水泽仙女女王之美 Naiad Queen's Beauty",
-      "description": "<p>你的美貌使附近的生物目眩神迷、难以招架。任何在其回合结束时位于你10尺内的生物必须尝试一次意志豁免，对抗你的原能法术DC。失败时，他们将成为@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}，而在大失败时，他们将成为@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 2}。随后，他们会获得1分钟的暂时免疫。你可以用一个具有专注特征的单动作来开启或关闭该灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.RNG5f43fXhs0PiwS]{效果：水泽仙女女王之美（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.YvCq4R4tC788IoWR]{效果：水泽仙女女王之美（大失败）}</p>\n"
+      "description": "<p>你的美貌使附近的生物目眩神迷、难以招架。任何在其回合结束时位于你10尺内的生物必须尝试一次意志豁免，对抗你的原能法术DC。失败时，他们将成为@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}，而在大失败时，他们将成为@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 2}。随后，他们会获得1分钟的暂时免疫。你可以用一个具有专注特征的单动作来开启或关闭该灵光，并且你可以选择不影响你的盟友。</p>\n<hr />\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.RNG5f43fXhs0PiwS]{效果：水泽仙女女王之美（失败）}</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.YvCq4R4tC788IoWR]{效果：水泽仙女女王之美（大失败）}</p>\n",
+      "prerequisites": [
+        {
+          "value": "宁芙女王入门"
+        },
+        {
+          "value": "水泽仙女传承"
+        }
+      ]
     },
     "Daoine Sidhe Haughtiness": {
       "name": "道伊涅希德族傲气 Daoine Sidhe Haughtiness",
-      "description": "<p>你对自己的自信与高贵的派头使他人难以长时间用情绪或心灵效果影响你。你对抗情绪效果的豁免获得+1环境加值，并且每当你受到持续至少2轮的心灵效果影响时，你可以将持续时间减少1轮。</p>\n"
+      "description": "<p>你对自己的自信与高贵的派头使他人难以长时间用情绪或心灵效果影响你。你对抗情绪效果的豁免获得+1环境加值，并且每当你受到持续至少2轮的心灵效果影响时，你可以将持续时间减少1轮。</p>\n",
+      "prerequisites": [
+        {
+          "value": "道伊涅希德族传承"
+        }
+      ]
     },
     "Double Strike": {
       "name": "双重打击 Double Strike",
-      "description": "<p>你唤起你隐藏的力量猛然出击或两次发射你的飞弹，如同冰巨鬼，或精通武艺的虚空巨鬼虚空领主一般。用徒手攻击进行两次打击。若两次都命中同一生物，则将它们的伤害合并，用于计算抗力与弱点。照常将你的多重攻击减值应用于这些打击。</p>\n"
+      "description": "<p>你唤起你隐藏的力量猛然出击或两次发射你的飞弹，如同冰巨鬼，或精通武艺的虚空巨鬼虚空领主一般。用徒手攻击进行两次打击。若两次都命中同一生物，则将它们的伤害合并，用于计算抗力与弱点。照常将你的多重攻击减值应用于这些打击。</p>\n",
+      "prerequisites": [
+        {
+          "value": "巨鬼行者入门"
+        }
+      ]
     },
     "Grievous Strike": {
       "name": "惨烈打击 Grievous Strike",
-      "description": "<p>你意图造成尤为骇人的创伤。进行一次近战打击，计算多重攻击减值时视为两次攻击。若该打击命中，你造成额外@Damage[2d6[untyped]]伤害，类型与打击相同；额外伤害改为@Damage[2d8[untyped]]，如果你使用的是@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.RQBlbzOPd4h3Scsj]{恶魔打击}专长授予的徒手攻击。命中时，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}，除非它成功通过对抗你职业DC的@Check[will|against:class]豁免。若打击重击，目标在对抗你职业DC的豁免失败时陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}，豁免成功时则陷入惊惧1，即使豁免大成功也是如此。18级时，额外伤害提升至@Damage[3d6[untyped]]；若使用恶魔打击专长授予的徒手攻击，则提升至@Damage[3d8[untyped]]。</p>"
+      "description": "<p>你意图造成尤为骇人的创伤。进行一次近战打击，计算多重攻击减值时视为两次攻击。若该打击命中，你造成额外@Damage[2d6[untyped]]伤害，类型与打击相同；额外伤害改为@Damage[2d8[untyped]]，如果你使用的是@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.RQBlbzOPd4h3Scsj]{恶魔打击}专长授予的徒手攻击。命中时，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}，除非它成功通过对抗你职业DC的@Check[will|against:class]豁免。若打击重击，目标在对抗你职业DC的豁免失败时陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}，豁免成功时则陷入惊惧1，即使豁免大成功也是如此。18级时，额外伤害提升至@Damage[3d6[untyped]]；若使用恶魔打击专长授予的徒手攻击，则提升至@Damage[3d8[untyped]]。</p>",
+      "prerequisites": [
+        {
+          "value": "恶魔劫掠者入门"
+        }
+      ]
     },
     "Warding Strikes": {
       "name": "守护打击 Warding Strikes",
@@ -1659,11 +2683,21 @@
     },
     "Focused Missile": {
       "name": "聚能飞弹 Focused Missile",
-      "description": "<p>你将能量集中于你的第三只眼，释放出比平常强大得多的飞弹。使用你的@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.8k2etAnsPjxPjIL8]{第三只眼}专长授予的飞弹徒手攻击进行一次打击。若你花费两个动作，射程增量加倍（通常为80尺），且若此次打击命中，你造成额外一颗武器伤害骰的伤害（通常为1d6）。你也可以改为花费3个动作以进一步专注，将额外伤害提高至两颗武器伤害骰（通常为2d6），并将射程增量提高至三倍（通常为120尺）。</p>\n<p>若你的等级至少为10级，则该专长的额外伤害翻倍：若你花费2个动作，通常造成2d6点额外伤害；若你花费3个动作，通常造成4d6点额外伤害。若你的等级至少为18级，则该专长的额外伤害变为三倍：若你花费2个动作，通常造成3d6点额外伤害；若你花费3个动作，通常造成6d6点额外伤害。</p>\n"
+      "description": "<p>你将能量集中于你的第三只眼，释放出比平常强大得多的飞弹。使用你的@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.8k2etAnsPjxPjIL8]{第三只眼}专长授予的飞弹徒手攻击进行一次打击。若你花费两个动作，射程增量加倍（通常为80尺），且若此次打击命中，你造成额外一颗武器伤害骰的伤害（通常为1d6）。你也可以改为花费3个动作以进一步专注，将额外伤害提高至两颗武器伤害骰（通常为2d6），并将射程增量提高至三倍（通常为120尺）。</p>\n<p>若你的等级至少为10级，则该专长的额外伤害翻倍：若你花费2个动作，通常造成2d6点额外伤害；若你花费3个动作，通常造成4d6点额外伤害。若你的等级至少为18级，则该专长的额外伤害变为三倍：若你花费2个动作，通常造成3d6点额外伤害；若你花费3个动作，通常造成6d6点额外伤害。</p>\n",
+      "prerequisites": [
+        {
+          "value": "巨鬼行者入门"
+        }
+      ]
     },
     "Liquid Leap": {
       "name": "液体跃迁 Liquid Leap",
-      "description": "<p><strong>需求</strong> 你至少有一半身体浸没在液体中。</p>\n<hr />\n<p>你使自己部分液化，然后立刻将自己传送进附近的另一处液体中，即使它们并不相连。你从当前的空间传送到120尺内任意一个被液体完全或大部分填充的未被占据的空间（使得你在新的空间中也至少有一半身体浸没在液体中）。</p>\n"
+      "description": "<p><strong>需求</strong> 你至少有一半身体浸没在液体中。</p>\n<hr />\n<p>你使自己部分液化，然后立刻将自己传送进附近的另一处液体中，即使它们并不相连。你从当前的空间传送到120尺内任意一个被液体完全或大部分填充的未被占据的空间（使得你在新的空间中也至少有一半身体浸没在液体中）。</p>\n",
+      "prerequisites": [
+        {
+          "value": "泥魔传承"
+        }
+      ]
     },
     "Trapper Mimic": {
       "name": "设陷拟形怪 Trapper Mimic",
@@ -1671,11 +2705,21 @@
     },
     "Total Mimicry": {
       "name": "完全拟态 Total Mimicry",
-      "description": "<p>使用一种类似于你常规的物体拟态但更为完整的过程，你会将自己完全变成一个物体，而不只是具有该物体外观的仿制品。你会变成由植物物质或常见矿物构成的物体。你变成的物体不能依赖精巧的工艺或复杂的活动部件，你永远不会满足成本或类似条件，并且你不能由贵重材料或稀有度为罕见或更高的材料制成。在此形态下，他人可以将你当作预定的物品来使用。然而，你没有任何感官器官，无法感知周围世界，唯一例外是当他人接触你时，你能通过你的接触感知；并且你无法采取行动，除非是进行回忆知识，或再次使用完全拟态以恢复为你先前的形态。你可以压缩成体积小于你正常形态的物体，但你的质量保持不变，因此如果你变成一个特别小的物体，你极高的密度可能会暴露你。</p>\n"
+      "description": "<p>使用一种类似于你常规的物体拟态但更为完整的过程，你会将自己完全变成一个物体，而不只是具有该物体外观的仿制品。你会变成由植物物质或常见矿物构成的物体。你变成的物体不能依赖精巧的工艺或复杂的活动部件，你永远不会满足成本或类似条件，并且你不能由贵重材料或稀有度为罕见或更高的材料制成。在此形态下，他人可以将你当作预定的物品来使用。然而，你没有任何感官器官，无法感知周围世界，唯一例外是当他人接触你时，你能通过你的接触感知；并且你无法采取行动，除非是进行回忆知识，或再次使用完全拟态以恢复为你先前的形态。你可以压缩成体积小于你正常形态的物体，但你的质量保持不变，因此如果你变成一个特别小的物体，你极高的密度可能会暴露你。</p>\n",
+      "prerequisites": [
+        {
+          "value": "物体形态族裔能力"
+        }
+      ]
     },
     "Superbounce": {
       "name": "超级弹跳 Superbounce",
-      "description": "<p>你比寻常的弹跳黏液怪更能弹跳，蜷缩成一团，横冲直撞四处乱弹。你在进行特技检定以@Compendium[pf2e.actionspf2e.21WIfSu7Xd7uKqV8]{翻滚}穿过敌人的空间时，获得+2环境加值。在从至少20尺的高度坠落或跳下后，你可以反弹回空中，最高可达你坠落距离的一半（如果你是跳跃，则向前的距离也只有一半那么远）。这些反弹会持续，直到你反弹的距离少于20尺为止。</p>\n"
+      "description": "<p>你比寻常的弹跳黏液怪更能弹跳，蜷缩成一团，横冲直撞四处乱弹。你在进行特技检定以@Compendium[pf2e.actionspf2e.21WIfSu7Xd7uKqV8]{翻滚}穿过敌人的空间时，获得+2环境加值。在从至少20尺的高度坠落或跳下后，你可以反弹回空中，最高可达你坠落距离的一半（如果你是跳跃，则向前的距离也只有一半那么远）。这些反弹会持续，直到你反弹的距离少于20尺为止。</p>\n",
+      "prerequisites": [
+        {
+          "value": "弹跳黏液怪"
+        }
+      ]
     },
     "Trickster's Alarm": {
       "name": "诡术师警报 Trickster's Alarm",
@@ -1691,11 +2735,21 @@
     },
     "Deceptive Mimic": {
       "name": "欺瞒拟形怪 Deceptive Mimic",
-      "description": "<p>当你处于任何物体形态时，任何人都极其难以侦测到你，而不仅仅是在你偏好的形态下。当你使用物体形态变形为任何物体（而不仅仅是你偏好的物体形态）时，你的欺瞒DC获得+4状态加值，以防止他人看穿你的伪装。</p>\n"
+      "description": "<p>当你处于任何物体形态时，任何人都极其难以侦测到你，而不仅仅是在你偏好的形态下。当你使用物体形态变形为任何物体（而不仅仅是你偏好的物体形态）时，你的欺瞒DC获得+4状态加值，以防止他人看穿你的伪装。</p>\n",
+      "prerequisites": [
+        {
+          "value": "拟态物体"
+        }
+      ]
     },
     "Sidhe Power": {
       "name": "希德族之力 Sidhe Power",
-      "description": "<p>你从体内的希德族魔法源泉中获得了更强大的法术。选择一个1环通灵法术，以及一个2环或更低环阶的通灵法术。它们必须是你有许可使用的法术。你每天可以将你所选的每个法术各施放一次，作为通灵先天法术。如果你通过 @Compendium[battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.oCUkwkZB92OguTC6]{希德族魔法} 或你的艾斯希德族传承选择了一个奥术戏法，那么你也可以改为在你愿意时，通过希德族之力获得奥术法术，并将其作为奥术先天法术施放。</p>\n"
+      "description": "<p>你从体内的希德族魔法源泉中获得了更强大的法术。选择一个1环通灵法术，以及一个2环或更低环阶的通灵法术。它们必须是你有许可使用的法术。你每天可以将你所选的每个法术各施放一次，作为通灵先天法术。如果你通过 @Compendium[battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.oCUkwkZB92OguTC6]{希德族魔法} 或你的艾斯希德族传承选择了一个奥术戏法，那么你也可以改为在你愿意时，通过希德族之力获得奥术法术，并将其作为奥术先天法术施放。</p>\n",
+      "prerequisites": [
+        {
+          "value": "希德族魔法或艾斯希德族传承"
+        }
+      ]
     },
     "Nymph Lore": {
       "name": "宁芙学识 Nymph Lore",
@@ -1707,15 +2761,30 @@
     },
     "Collective Pacing": {
       "name": "集体节奏 Collective Pacing",
-      "description": "<p>节奏的变化不一定仅限于故事中的单一角色，你可以运用那些叙事原则，将更多生物牵引到彼界的时间流中。然而，故事中的动作往往会在叙事弧的后段引发后续反响，你的节奏改变也必须以同样的方式保持平衡。你每天一次可以以7环通灵先天法术施放 @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{加速术} 或 @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]{缓慢术} 其中之一。无论你选择将这两个法术中的哪一个作为7环先天法术施放，你都必须在同一天通过“叙事节奏”将相反的法术作为你的3环先天法术施放；反之亦然：如果你在某一天先通过“叙事节奏”施放了3环的 加速术 或 缓慢术，你必须通过“集体节奏”将另一个法术作为你的7环先天法术施放。若你是 艾斯希德族，你也可以按自身偏好将它们作为奥术先天法术而非通灵先天法术来施放。</p>\n"
+      "description": "<p>节奏的变化不一定仅限于故事中的单一角色，你可以运用那些叙事原则，将更多生物牵引到彼界的时间流中。然而，故事中的动作往往会在叙事弧的后段引发后续反响，你的节奏改变也必须以同样的方式保持平衡。你每天一次可以以7环通灵先天法术施放 @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{加速术} 或 @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]{缓慢术} 其中之一。无论你选择将这两个法术中的哪一个作为7环先天法术施放，你都必须在同一天通过“叙事节奏”将相反的法术作为你的3环先天法术施放；反之亦然：如果你在某一天先通过“叙事节奏”施放了3环的 加速术 或 缓慢术，你必须通过“集体节奏”将另一个法术作为你的7环先天法术施放。若你是 艾斯希德族，你也可以按自身偏好将它们作为奥术先天法术而非通灵先天法术来施放。</p>\n",
+      "prerequisites": [
+        {
+          "value": "叙事节奏"
+        }
+      ]
     },
     "Hunted Fear": {
       "name": "猎杀恐惧 Hunted Fear",
-      "description": "<p>当你在附近但未被看到时，你可以用喷鼻声与蹄踏声惊吓你的敌人，用这些声音恐吓他们。你可以通过发出骇人的声音，对能听见你但看不见你的敌人使用 @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{挫敌气势}。当你这么做时，你不会因为不说话而在该检定上承受 –4 环境减值。如果目标位于迷宫或类似难以穿行的结构中，你在该检定上获得 +2 环境加值。如果目标因此陷入惊惧，他们还会在为避免迷路而进行的生存检定上承受 –2 环境减值，持续 1 分钟。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.pqqD132KrtLx7n85]{效果：猎杀恐惧}</p>\n"
+      "description": "<p>当你在附近但未被看到时，你可以用喷鼻声与蹄踏声惊吓你的敌人，用这些声音恐吓他们。你可以通过发出骇人的声音，对能听见你但看不见你的敌人使用 @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{挫敌气势}。当你这么做时，你不会因为不说话而在该检定上承受 –4 环境减值。如果目标位于迷宫或类似难以穿行的结构中，你在该检定上获得 +2 环境加值。如果目标因此陷入惊惧，他们还会在为避免迷路而进行的生存检定上承受 –2 环境减值，持续 1 分钟。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.pqqD132KrtLx7n85]{效果：猎杀恐惧}</p>\n",
+      "prerequisites": [
+        {
+          "value": "威吓受训"
+        }
+      ]
     },
     "Yai Adept Dedication": {
       "name": "巨鬼行者入门 Yai Adept Dedication",
-      "description": "<p>你已深入钻研构成你恶鬼形态的元素力量，释放第三只眼的内在潜能，使你能在不断扩展的力量中更进一步，同时也让你暴露于虚空的诱惑之下。你获得 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.8k2etAnsPjxPjIL8]{第三只眼} 恶鬼族裔专长作为一个额外族裔专长；你的飞弹徒手攻击的伤害骰提升一级，从1d4提升至1d6；其射程增量从20尺提升至40尺。</p>\n<hr />\n<p><strong>特殊</strong> 如果你已经拥有第三只眼专长，你可以免费将其重训为另一个1级恶鬼族裔专长，无需花费时间进行重训。</p>\n"
+      "description": "<p>你已深入钻研构成你恶鬼形态的元素力量，释放第三只眼的内在潜能，使你能在不断扩展的力量中更进一步，同时也让你暴露于虚空的诱惑之下。你获得 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.8k2etAnsPjxPjIL8]{第三只眼} 恶鬼族裔专长作为一个额外族裔专长；你的飞弹徒手攻击的伤害骰提升一级，从1d4提升至1d6；其射程增量从20尺提升至40尺。</p>\n<hr />\n<p><strong>特殊</strong> 如果你已经拥有第三只眼专长，你可以免费将其重训为另一个1级恶鬼族裔专长，无需花费时间进行重训。</p>\n",
+      "prerequisites": [
+        {
+          "value": "恶鬼族裔，土巨鬼、火巨鬼、冰巨鬼、水巨鬼或风巨鬼传承"
+        }
+      ]
     },
     "Euryale's Sight": {
       "name": "欧律阿勒视觉 Euryale's Sight",
@@ -1727,15 +2796,30 @@
     },
     "Spellblade Supremacy": {
       "name": "至高咒刃 Spellblade Supremacy",
-      "description": "<p>你已将引导神秘能量注入魔法启动的技艺推至巅峰。选择一个5环法术和一个6环法术，二者均来自你的武器魔法根源。它们必须是你拥有许可的法术。你每天可以各使用一次你所选的法术，作为施放法术启动。该启动使用你的法术DC。</p>\n"
+      "description": "<p>你已将引导神秘能量注入魔法启动的技艺推至巅峰。选择一个5环法术和一个6环法术，二者均来自你的武器魔法根源。它们必须是你拥有许可的法术。你每天可以各使用一次你所选的法术，作为施放法术启动。该启动使用你的法术DC。</p>\n",
+      "prerequisites": [
+        {
+          "value": "咒刃大师"
+        }
+      ]
     },
     "Collapse Into Sludge": {
       "name": "坍成污泥 Collapse Into Sludge",
-      "description": "<p>你将自身连贯的形态部分坍塌为更接近深渊泥魔的酸性淤泥状。持续 1 分钟，你来自泥魔传承的强酸抗力从你等级的一半提升为你的等级，并且你获得等同于你等级一半的精准伤害抗力，以及对重击的额外伤害的抗力。在一次重击中，如果该抗力大于额外伤害，它会将额外伤害降低至 0，但不会降低该次攻击的正常伤害。</p>\n"
+      "description": "<p>你将自身连贯的形态部分坍塌为更接近深渊泥魔的酸性淤泥状。持续 1 分钟，你来自泥魔传承的强酸抗力从你等级的一半提升为你的等级，并且你获得等同于你等级一半的精准伤害抗力，以及对重击的额外伤害的抗力。在一次重击中，如果该抗力大于额外伤害，它会将额外伤害降低至 0，但不会降低该次攻击的正常伤害。</p>\n",
+      "prerequisites": [
+        {
+          "value": "泥魔传承"
+        }
+      ]
     },
     "Tiny Shift": {
       "name": "超小型变形 Tiny Shift",
-      "description": "<p>你可以变形为比大多数变形怪更小的形态。除了小型与中型类人生物外，你还可以使用变形怪的伪装变形为微型类人生物。当你这样做时，你变为微型，且你的触及变为0尺。</p>\n"
+      "description": "<p>你可以变形为比大多数变形怪更小的形态。除了小型与中型类人生物外，你还可以使用变形怪的伪装变形为微型类人生物。当你这样做时，你变为微型，且你的触及变为0尺。</p>\n",
+      "prerequisites": [
+        {
+          "value": "变形怪伪装族裔能力"
+        }
+      ]
     },
     "Wall Of Duplicates": {
       "name": "复制体之墙 Wall Of Duplicates",
@@ -1743,19 +2827,39 @@
     },
     "Voice of Earthen Power": {
       "name": "大地威能之声 Voice of Earthen Power",
-      "description": "<p>当你开口说话时，大地与石头本身都能听见你声音中的力量，并且它们已学会在你召唤时倾听。尽管石头通常并不具备智能，你却是在与“生命精华”交谈——那是存在于世间万物之中的生命力碎片，其人格会受到石头种类的影响；而对于加工过的石材而言，还会受到石头所属结构类型的影响。石头的视角、察觉与知识赋予它一种与人类截然不同的世界观，使它不会认为相同的细节同样重要。石头大多能回答有关过去触碰过它们的生物的问题，以及它们之下或之后隐藏着什么。</p>\n"
+      "description": "<p>当你开口说话时，大地与石头本身都能听见你声音中的力量，并且它们已学会在你召唤时倾听。尽管石头通常并不具备智能，你却是在与“生命精华”交谈——那是存在于世间万物之中的生命力碎片，其人格会受到石头种类的影响；而对于加工过的石材而言，还会受到石头所属结构类型的影响。石头的视角、察觉与知识赋予它一种与人类截然不同的世界观，使它不会认为相同的细节同样重要。石头大多能回答有关过去触碰过它们的生物的问题，以及它们之下或之后隐藏着什么。</p>\n",
+      "prerequisites": [
+        {
+          "value": "土巨鬼传承"
+        }
+      ]
     },
     "Dungeon Dweomers": {
       "name": "地城秘法 Dungeon Dweomers",
-      "description": "<p>你与自己的地城之间日益增长的魔法联系赋予你更强大的秘术，你可以将其带入周遭世界来为你达成目的。从与你的地城魔法或陵墓或高塔传承戏法相同的法术列表中选择一个1环法术与一个2环或更低环法术。它们必须是你拥有许可的法术。你每天可以各施放一次所选法术，作为相应根源的先天法术。</p>\n"
+      "description": "<p>你与自己的地城之间日益增长的魔法联系赋予你更强大的秘术，你可以将其带入周遭世界来为你达成目的。从与你的地城魔法或陵墓或高塔传承戏法相同的法术列表中选择一个1环法术与一个2环或更低环法术。它们必须是你拥有许可的法术。你每天可以各施放一次所选法术，作为相应根源的先天法术。</p>\n",
+      "prerequisites": [
+        {
+          "value": "地城魔法或高塔传承"
+        }
+      ]
     },
     "Never Today": {
       "name": "每天都不行 Never Today",
-      "description": "<p>你太过倔强而不肯屈服，即使胜算不在你这边，也能扭转你个人的叙事，从而更频繁地保护自己。你可以每小时使用一次“今天不行”，而非每天一次。</p>\n"
+      "description": "<p>你太过倔强而不肯屈服，即使胜算不在你这边，也能扭转你个人的叙事，从而更频繁地保护自己。你可以每小时使用一次“今天不行”，而非每天一次。</p>\n",
+      "prerequisites": [
+        {
+          "value": "今天不行"
+        }
+      ]
     },
     "Mimic Object": {
       "name": "拟态物体 Mimic Object",
-      "description": "<p>你可以迅速改变你的形状，变成任意一个与你体型相同的简单物体。在使用物体形态时，你可以用单动作乔装成任意一个与你体型相同的简单物体，而不只是你偏好的物体形态。当你变形为你的偏好物体形态之一时，你的欺瞒DC获得+4状态加值，以防止他人看穿你的伪装。</p>\n"
+      "description": "<p>你可以迅速改变你的形状，变成任意一个与你体型相同的简单物体。在使用物体形态时，你可以用单动作乔装成任意一个与你体型相同的简单物体，而不只是你偏好的物体形态。当你变形为你的偏好物体形态之一时，你的欺瞒DC获得+4状态加值，以防止他人看穿你的伪装。</p>\n",
+      "prerequisites": [
+        {
+          "value": "物体形态族裔能力"
+        }
+      ]
     },
     "Hair Trigger": {
       "name": "蛇发先机 Hair Trigger",
@@ -1767,19 +2871,48 @@
     },
     "Soaring Weapon": {
       "name": "翱翔武器 Soaring Weapon",
-      "description": "<p>你可以自由飞行，而当你使用额外的魔法能量时，你飞得更快。你永久获得等同于你速度的飞行速度，并且当你使用飞行武器专长时，你在1分钟内获得你的飞行速度+20尺的状态加值，而不是在1分钟内获得飞行速度。</p>\n"
+      "description": "<p>你可以自由飞行，而当你使用额外的魔法能量时，你飞得更快。你永久获得等同于你速度的飞行速度，并且当你使用飞行武器专长时，你在1分钟内获得你的飞行速度+20尺的状态加值，而不是在1分钟内获得飞行速度。</p>\n",
+      "prerequisites": [
+        {
+          "value": "飞行武器"
+        }
+      ]
     },
     "Grievous Wound": {
       "name": "惨烈创伤 Grievous Wound",
-      "description": "<p>你惨烈的徒手攻击能以持续伤害重创敌人，无论是否重击。当你以@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.q536NM7XagisMM47]{惨烈打击}命中，且使用的是@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.RQBlbzOPd4h3Scsj]{恶魔打击}授予的徒手攻击时，你造成[[/r 2d8]]持续伤害，类型与凶狠重击相同。若你至少为18级，该持续伤害提升至[[/r 3d8]]。这可与@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.1cdZ95afnA3rveX8]{凶狠重击}造成的持续伤害叠加；如常，部分伤害仅在重击时适用，因此先将惨烈打击的持续伤害翻倍，再加上凶狠重击的持续伤害。</p>"
+      "description": "<p>你惨烈的徒手攻击能以持续伤害重创敌人，无论是否重击。当你以@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.q536NM7XagisMM47]{惨烈打击}命中，且使用的是@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.RQBlbzOPd4h3Scsj]{恶魔打击}授予的徒手攻击时，你造成[[/r 2d8]]持续伤害，类型与凶狠重击相同。若你至少为18级，该持续伤害提升至[[/r 3d8]]。这可与@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.1cdZ95afnA3rveX8]{凶狠重击}造成的持续伤害叠加；如常，部分伤害仅在重击时适用，因此先将惨烈打击的持续伤害翻倍，再加上凶狠重击的持续伤害。</p>",
+      "prerequisites": [
+        {
+          "value": "恶魔打击"
+        },
+        {
+          "value": "惨烈打击"
+        },
+        {
+          "value": "凶狠重击"
+        }
+      ]
     },
     "Vengeful Anger": {
       "name": "复仇之怒 Vengeful Anger",
-      "description": "<p>那些欺负或折磨你的人会点燃你的怒火——至少在他们没有把你吓到的时候。只要你未处于惊惧状态，你对过去曾欺负或折磨过你的生物进行武器和徒手攻击所造成的伤害获得+1环境加值。若你的攻击造成超过1个武器伤害骰的伤害，则该加值等于武器伤害骰或徒手攻击伤害骰的数量。该加值也适用于任何在过去1分钟内对你的一次攻击中重击成功并对你造成伤害的生物。</p>\n"
+      "description": "<p>那些欺负或折磨你的人会点燃你的怒火——至少在他们没有把你吓到的时候。只要你未处于惊惧状态，你对过去曾欺负或折磨过你的生物进行武器和徒手攻击所造成的伤害获得+1环境加值。若你的攻击造成超过1个武器伤害骰的伤害，则该加值等于武器伤害骰或徒手攻击伤害骰的数量。该加值也适用于任何在过去1分钟内对你的一次攻击中重击成功并对你造成伤害的生物。</p>\n",
+      "prerequisites": [
+        {
+          "value": "怯懦小魔怪传承"
+        }
+      ]
     },
     "Aerial Assist": {
       "name": "飞行辅助 Aerial Assist",
-      "description": "<p>每当你能够飞行时，无论是通过法术、物品，还是努力长出自己的翅膀，你都会操控风来协助你的飞行。每当你拥有飞行速度时，你的飞行速度获得+5尺状态加值，并且在进行特技检定以 @UUID[Compendium.pf2e.actionspf2e.Item.Qf1ylAbdVi1rkc8M]{飞行机动}时获得+1环境加值。若你在特技上为大师，或在原能法术DC上为专家，则你的飞行速度的状态加值提升为+10尺加值；若你在特技上为传奇，或在原能法术DC上为大师，则你的飞行速度的状态加值提升为+15尺加值。</p>\n"
+      "description": "<p>每当你能够飞行时，无论是通过法术、物品，还是努力长出自己的翅膀，你都会操控风来协助你的飞行。每当你拥有飞行速度时，你的飞行速度获得+5尺状态加值，并且在进行特技检定以 @UUID[Compendium.pf2e.actionspf2e.Item.Qf1ylAbdVi1rkc8M]{飞行机动}时获得+1环境加值。若你在特技上为大师，或在原能法术DC上为专家，则你的飞行速度的状态加值提升为+10尺加值；若你在特技上为传奇，或在原能法术DC上为大师，则你的飞行速度的状态加值提升为+15尺加值。</p>\n",
+      "prerequisites": [
+        {
+          "value": "奥拉传承"
+        },
+        {
+          "value": "特技或原能法术DC受训"
+        }
+      ]
     },
     "Read the Narrative": {
       "name": "解读叙事 Read the Narrative",
@@ -1787,7 +2920,12 @@
     },
     "Two Skies, Two Suns": {
       "name": "双天双日 Two Skies, Two Suns",
-      "description": "<p>尽管你更像你的斯忒诺一方的父母，你也与另一位父母的族裔有着深刻的联系，这也是你生活中的重要组成部分。你获得与另一位父母相匹配族裔的 @Compendium[pf2e.feats-srd.ihN8gkHSdPG9Trte]{异族情谊} 通用专长，并且你还获得该族裔的一个1级族裔专长。</p>\n"
+      "description": "<p>尽管你更像你的斯忒诺一方的父母，你也与另一位父母的族裔有着深刻的联系，这也是你生活中的重要组成部分。你获得与另一位父母相匹配族裔的 @Compendium[pf2e.feats-srd.ihN8gkHSdPG9Trte]{异族情谊} 通用专长，并且你还获得该族裔的一个1级族裔专长。</p>\n",
+      "prerequisites": [
+        {
+          "value": "父母一方属于其他族裔的斯忒诺"
+        }
+      ]
     },
     "Ventriloquist's Trickery": {
       "name": "腹语师诡计 Ventriloquist's Trickery",
@@ -1811,7 +2949,12 @@
     },
     "Smoke Vision": {
       "name": "烟雾视觉 Smoke Vision",
-      "description": "<p>与普通的火巨鬼不同，你能像透过稀薄空气一样轻松看穿烟雾。你如同烟雾，烟雾也接纳你。烟雾不会妨碍你的视线；你无视由烟雾造成的@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态。</p>\n"
+      "description": "<p>与普通的火巨鬼不同，你能像透过稀薄空气一样轻松看穿烟雾。你如同烟雾，烟雾也接纳你。烟雾不会妨碍你的视线；你无视由烟雾造成的@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态。</p>\n",
+      "prerequisites": [
+        {
+          "value": "火巨鬼传承"
+        }
+      ]
     },
     "Sculptor's Glance": {
       "name": "雕刻师一瞥 Sculptor's Glance",
@@ -1819,27 +2962,57 @@
     },
     "Aes Sidhe Crafter": {
       "name": "艾斯希德族工匠 Aes Sidhe Crafter",
-      "description": "<p>你已学会魔法手艺的远古秘密，踏上创造新领域之路的第一步。你在手艺中获得受训熟练度等级。如果你本应自动在手艺中成为受训（例如来自你的背景或职业），则你改为在你选择的一项技能中成为受训。你获得@Compendium[pf2e.feats-srd.xWY5omyIcILNR7y1]{魔法手艺}技能专长作为额外专长，即使你不满足先决条件。</p>\n"
+      "description": "<p>你已学会魔法手艺的远古秘密，踏上创造新领域之路的第一步。你在手艺中获得受训熟练度等级。如果你本应自动在手艺中成为受训（例如来自你的背景或职业），则你改为在你选择的一项技能中成为受训。你获得@Compendium[pf2e.feats-srd.xWY5omyIcILNR7y1]{魔法手艺}技能专长作为额外专长，即使你不满足先决条件。</p>\n",
+      "prerequisites": [
+        {
+          "value": "艾斯希德族传承"
+        }
+      ]
     },
     "Void Missile": {
       "name": "虚空飞弹 Void Missile",
-      "description": "<p>你屈从于虚空那腐化的召唤，将虚空巨鬼最微末的力量灌注于自身。除了来自 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.8k2etAnsPjxPjIL8]{第三只眼} 专长的飞弹徒手攻击外，你的第三只眼还可以产生一次虚空飞弹徒手攻击；该攻击造成虚能伤害，但在其他方面，其伤害数值与射程增量与原本的飞弹攻击相同。任何仅适用于你原本飞弹的特殊元素效果（例如来自 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.fd6tuFN2X8g26m3r]{烈火炽燃} 或 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.LbtO9AfBWx8dw6D0]{风之嚎叫} 专长）都不适用于虚空飞弹。若你专注于虚空并引出额外力量，你的攻击会将你的敌人无痕地拖入虚空。当你以虚空飞弹徒手攻击使用 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.qYJopPiOLSVIJpG4]{聚能飞弹} 时，若该攻击将敌人打至 0 生命值，则其必须在一次 @Check[fortitude|against:class-spell] 豁免中对抗你更高的职业DC或法术DC；若失败，则其形体屈服于虚空而被瓦解，仅留下些许尘埃痕迹（其道具仍会留下）；此为死亡效果。</p>\n<hr />\n<p><strong>特殊</strong> 若你拥有 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.LsBLm2I09XDkWmIF]{灌能重击} 专长，你的虚空飞弹会造成持续虚能伤害，而非你传承通常的持续伤害。</p>\n"
+      "description": "<p>你屈从于虚空那腐化的召唤，将虚空巨鬼最微末的力量灌注于自身。除了来自 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.8k2etAnsPjxPjIL8]{第三只眼} 专长的飞弹徒手攻击外，你的第三只眼还可以产生一次虚空飞弹徒手攻击；该攻击造成虚能伤害，但在其他方面，其伤害数值与射程增量与原本的飞弹攻击相同。任何仅适用于你原本飞弹的特殊元素效果（例如来自 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.fd6tuFN2X8g26m3r]{烈火炽燃} 或 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.LbtO9AfBWx8dw6D0]{风之嚎叫} 专长）都不适用于虚空飞弹。若你专注于虚空并引出额外力量，你的攻击会将你的敌人无痕地拖入虚空。当你以虚空飞弹徒手攻击使用 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.qYJopPiOLSVIJpG4]{聚能飞弹} 时，若该攻击将敌人打至 0 生命值，则其必须在一次 @Check[fortitude|against:class-spell] 豁免中对抗你更高的职业DC或法术DC；若失败，则其形体屈服于虚空而被瓦解，仅留下些许尘埃痕迹（其道具仍会留下）；此为死亡效果。</p>\n<hr />\n<p><strong>特殊</strong> 若你拥有 @UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.LsBLm2I09XDkWmIF]{灌能重击} 专长，你的虚空飞弹会造成持续虚能伤害，而非你传承通常的持续伤害。</p>\n",
+      "prerequisites": [
+        {
+          "value": "巨鬼行者入门"
+        }
+      ]
     },
     "Haniver Wave Glider": {
       "name": "海鳐小魔怪滑浪者 Haniver Wave Glider",
-      "description": "<p>你以类似蝠鲼的方式缓慢地滑过波浪。你获得两栖特征，使你能够在水下或空气中呼吸，同时获得15尺的游泳速度。</p>\n"
+      "description": "<p>你以类似蝠鲼的方式缓慢地滑过波浪。你获得两栖特征，使你能够在水下或空气中呼吸，同时获得15尺的游泳速度。</p>\n",
+      "prerequisites": [
+        {
+          "value": "海鳐小魔怪传承"
+        }
+      ]
     },
     "Water Garment": {
       "name": "水之衣 Water Garment",
-      "description": "<p>虽然所有水巨鬼都能用水塑形成衣物，并且常常做成和服的样式，但你已将你的水之衣精炼到足以保护你免受伤害。你的衣物给予你AC+1物品加值，且敏捷加值上限为+4。你在你的衣物上受训；它不使用你的护甲或无甲熟练度。从第7等级起，若你的无甲熟练度更高，你可以改用无甲熟练度。此外，你可以在你的衣物上铭刻基础与属性符文。若你如此做，潜能符文会提高你的衣物对AC的物品加值，就如同它们通常对护甲所做的一样。你也可以将护符固定在你的衣物上。若你穿戴任何种类的护甲，你衣物上的基础与属性符文将不发挥作用；并且若你在你的衣物已固定一个护符时再穿上固定了护符的护甲，则两个护符都会停止发挥作用，你必须再次将它们固定。与探险者服装类似，你的衣物不是护甲，因此你无法铭刻指定特定护甲类型的属性符文，例如轻甲或重甲。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-equipment.Item.cD7z5tLk4kJdlrbN]{水之衣}</p>\n"
+      "description": "<p>虽然所有水巨鬼都能用水塑形成衣物，并且常常做成和服的样式，但你已将你的水之衣精炼到足以保护你免受伤害。你的衣物给予你AC+1物品加值，且敏捷加值上限为+4。你在你的衣物上受训；它不使用你的护甲或无甲熟练度。从第7等级起，若你的无甲熟练度更高，你可以改用无甲熟练度。此外，你可以在你的衣物上铭刻基础与属性符文。若你如此做，潜能符文会提高你的衣物对AC的物品加值，就如同它们通常对护甲所做的一样。你也可以将护符固定在你的衣物上。若你穿戴任何种类的护甲，你衣物上的基础与属性符文将不发挥作用；并且若你在你的衣物已固定一个护符时再穿上固定了护符的护甲，则两个护符都会停止发挥作用，你必须再次将它们固定。与探险者服装类似，你的衣物不是护甲，因此你无法铭刻指定特定护甲类型的属性符文，例如轻甲或重甲。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-equipment.Item.cD7z5tLk4kJdlrbN]{水之衣}</p>\n",
+      "prerequisites": [
+        {
+          "value": "水巨鬼传承"
+        }
+      ]
     },
     "Undetectable Form": {
       "name": "难测形态 Undetectable Form",
-      "description": "<p>你的变形怪伪装完美无缺，甚至能欺骗揭穿诡计的魔法手段。侦测与揭示效果会侦测或揭示与你外形相符的结果，而非真实信息，除非该效果的反制等级为10或更高。例如，若你伪装成一名守序善良的精灵牧师，用于侦测你阵营的法术与特殊感官会揭示你的阵营为守序善良，而9环或更低的<em>@Compendium[pf2e.spells-srd.uqlxMQQeSGWEVjki]{真景术}</em>会将你的精灵形态显示为真实。</p>\n"
+      "description": "<p>你的变形怪伪装完美无缺，甚至能欺骗揭穿诡计的魔法手段。侦测与揭示效果会侦测或揭示与你外形相符的结果，而非真实信息，除非该效果的反制等级为10或更高。例如，若你伪装成一名守序善良的精灵牧师，用于侦测你阵营的法术与特殊感官会揭示你的阵营为守序善良，而9环或更低的<em>@Compendium[pf2e.spells-srd.uqlxMQQeSGWEVjki]{真景术}</em>会将你的精灵形态显示为真实。</p>\n",
+      "prerequisites": [
+        {
+          "value": "变形怪伪装族裔能力"
+        }
+      ]
     },
     "Call Constellation": {
       "name": "唤出星座 Call Constellation",
-      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你召唤出围绕你的、由七颗星构成的星座，扭曲其间路径中的空间，将敌人碾成星尘。你先在自己身上放置一颗闪烁的星标，然后在30尺内的一个生物或物体上放置第二颗星标，再在距离上一颗星标30尺内的一个生物或物体上放置第三颗星标，如此继续，直到总共放置七颗星标。沿着你创造的路径出现六道星光线，连接第一颗星标与第二颗星标、第二颗与第三颗，依此类推。这七颗星标与连接它们的六道线共同构成一个星座。</p>\n<p>任何未被星标标记的生物，只要在其回合开始时位于星座的任意一条线中，或在其回合中进入任意一条线，便会受到 @Damage[6d6[bludgeoning]] 伤害，并进行一次 @Check[reflex|against:class-spell|basic:true] 豁免，豁免DC取你的职业DC与法术DC中较高者。一个生物每回合只能承受此伤害一次，即使它穿过多条线也一样。随着被星标标记的生物与物体移动，星座的各条线也会随之移动。然而，如果任意两颗相邻星标之间的距离曾超过30尺，则它们之间的星光线会断裂；而任何现在已不再有直接路径回到你身边的线也会断裂。该效果最多持续1分钟，但你可以花费一个具有专注特征的 单动作 提前结束该效果。</p>\n<p>钝击伤害在16级时提高至 @Damage[7d6[bludgeoning]]，在19级时提高至 @Damage[8d6[bludgeoning]]。</p>\n"
+      "description": "<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p>你召唤出围绕你的、由七颗星构成的星座，扭曲其间路径中的空间，将敌人碾成星尘。你先在自己身上放置一颗闪烁的星标，然后在30尺内的一个生物或物体上放置第二颗星标，再在距离上一颗星标30尺内的一个生物或物体上放置第三颗星标，如此继续，直到总共放置七颗星标。沿着你创造的路径出现六道星光线，连接第一颗星标与第二颗星标、第二颗与第三颗，依此类推。这七颗星标与连接它们的六道线共同构成一个星座。</p>\n<p>任何未被星标标记的生物，只要在其回合开始时位于星座的任意一条线中，或在其回合中进入任意一条线，便会受到 @Damage[6d6[bludgeoning]] 伤害，并进行一次 @Check[reflex|against:class-spell|basic:true] 豁免，豁免DC取你的职业DC与法术DC中较高者。一个生物每回合只能承受此伤害一次，即使它穿过多条线也一样。随着被星标标记的生物与物体移动，星座的各条线也会随之移动。然而，如果任意两颗相邻星标之间的距离曾超过30尺，则它们之间的星光线会断裂；而任何现在已不再有直接路径回到你身边的线也会断裂。该效果最多持续1分钟，但你可以花费一个具有专注特征的 单动作 提前结束该效果。</p>\n<p>钝击伤害在16级时提高至 @Damage[7d6[bludgeoning]]，在19级时提高至 @Damage[8d6[bludgeoning]]。</p>\n",
+      "prerequisites": [
+        {
+          "value": "阿斯忒里亚传承"
+        }
+      ]
     },
     "Protective Ring": {
       "name": "守护妖精环 Protective Ring",
@@ -1859,7 +3032,12 @@
     },
     "Spellblade Master": {
       "name": "咒刃大师 Spellblade Master",
-      "description": "<p>你已精通你的魔法能量，使你能够将更强大的法术用于启动。选择一个3环法术和一个4环法术，二者均须属于你的武器魔法根源。它们必须是你拥有许可的法术。你每天可以各将所选法术使用一次，作为施放法术启动。该启动使用你的法术DC。</p>\n"
+      "description": "<p>你已精通你的魔法能量，使你能够将更强大的法术用于启动。选择一个3环法术和一个4环法术，二者均须属于你的武器魔法根源。它们必须是你拥有许可的法术。你每天可以各将所选法术使用一次，作为施放法术启动。该启动使用你的法术DC。</p>\n",
+      "prerequisites": [
+        {
+          "value": "咒刃行者"
+        }
+      ]
     },
     "Laketouched": {
       "name": "湖泊眷顾 Laketouched",
@@ -1899,11 +3077,21 @@
     },
     "Seductive Presence": {
       "name": "诱惑气场 Seductive Presence",
-      "description": "<p>当你靠近时，你可以轻易操纵那些觉得你有吸引力的人。你获得对抗10尺内可能觉得你有吸引力的生物的+1环境加值，该加值适用于用于@Compendium[pf2e.actionspf2e.OX4fy22hQgUHDr0q]{留下印象}、@Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{请求}或@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.B4EifRZ4snkC2e7m]{魅魔之拥}的交涉检定，以及用于@Compendium[pf2e.actionspf2e.GkmbTGfg8KcgynOA]{分神}或@Compendium[pf2e.actionspf2e.ewwCglB7XOPLUz72]{说谎}的欺瞒检定。如果你在交涉上是大师，则由“诱惑气场”带来的交涉检定环境加值提高至+2；如果你在欺瞒上是大师，则由“诱惑气场”带来的欺瞒检定环境加值提高至+2。</p>\n"
+      "description": "<p>当你靠近时，你可以轻易操纵那些觉得你有吸引力的人。你获得对抗10尺内可能觉得你有吸引力的生物的+1环境加值，该加值适用于用于@Compendium[pf2e.actionspf2e.OX4fy22hQgUHDr0q]{留下印象}、@Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{请求}或@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.Item.B4EifRZ4snkC2e7m]{魅魔之拥}的交涉检定，以及用于@Compendium[pf2e.actionspf2e.GkmbTGfg8KcgynOA]{分神}或@Compendium[pf2e.actionspf2e.ewwCglB7XOPLUz72]{说谎}的欺瞒检定。如果你在交涉上是大师，则由“诱惑气场”带来的交涉检定环境加值提高至+2；如果你在欺瞒上是大师，则由“诱惑气场”带来的欺瞒检定环境加值提高至+2。</p>\n",
+      "prerequisites": [
+        {
+          "value": "魅魔传承"
+        }
+      ]
     },
     "Sidhe Sovereignty": {
       "name": "希德族君权 Sidhe Sovereignty",
-      "description": "<p>你的希德族魔法极为强烈，远超较弱施法者的能力。选择一个3环或更低的通灵法术，以及一个4环或更低的通灵法术。它们必须是你拥有许可的法术。你可以每天各施放一次你所选择的法术，作为通灵先天法术。如果你在@Compendium[battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.rijL5FFdhr2oBz8D]{希德族之力}中选择了奥术法术而非通灵法术，那么你也将从希德族君权中获得奥术法术而非通灵法术。</p>\n"
+      "description": "<p>你的希德族魔法极为强烈，远超较弱施法者的能力。选择一个3环或更低的通灵法术，以及一个4环或更低的通灵法术。它们必须是你拥有许可的法术。你可以每天各施放一次你所选择的法术，作为通灵先天法术。如果你在@Compendium[battlezoo-ancestries-year-of-monsters-pf2e.yom-feats.rijL5FFdhr2oBz8D]{希德族之力}中选择了奥术法术而非通灵法术，那么你也将从希德族君权中获得奥术法术而非通灵法术。</p>\n",
+      "prerequisites": [
+        {
+          "value": "希德族之力"
+        }
+      ]
     },
     "Dungeon Duality": {
       "name": "双重地城 Dungeon Duality",
@@ -1915,7 +3103,12 @@
     },
     "Perfect Discipline": {
       "name": "完美戒律 Perfect Discipline",
-      "description": "<p>你已精通你的戒律，使你能够更频繁地磨砺心智。你可以每小时使用一次宁心戒律，而非每天一次。</p>\n"
+      "description": "<p>你已精通你的戒律，使你能够更频繁地磨砺心智。你可以每小时使用一次宁心戒律，而非每天一次。</p>\n",
+      "prerequisites": [
+        {
+          "value": "贾诺伊传承"
+        }
+      ]
     },
     "Storm Of Duplicates": {
       "name": "复制体风暴 Storm Of Duplicates",
@@ -1923,7 +3116,12 @@
     },
     "Ancestral Longevity": {
       "name": "长寿族裔 Ancestral Longevity",
-      "description": "<p>多年来，你积累了大量的生活知识。在你的每日准备期间，你可以回顾自己的人生经历，从而在你选择的一个技能中获得受训熟练度等级。该熟练度持续到你再次准备为止。由于该熟练度是临时的，你不能将其用作技能提升或诸如专长之类的永久角色选项的先决条件。</p>\n"
+      "description": "<p>多年来，你积累了大量的生活知识。在你的每日准备期间，你可以回顾自己的人生经历，从而在你选择的一个技能中获得受训熟练度等级。该熟练度持续到你再次准备为止。由于该熟练度是临时的，你不能将其用作技能提升或诸如专长之类的永久角色选项的先决条件。</p>\n",
+      "prerequisites": [
+        {
+          "value": "至少100岁"
+        }
+      ]
     },
     "Indomitable Renegade": {
       "name": "不屈叛逆者 Indomitable Renegade",
@@ -1935,7 +3133,12 @@
     },
     "Olfactory Disguise": {
       "name": "嗅觉伪装 Olfactory Disguise",
-      "description": "<p>当你采取具有卓越嗅觉的形态时，你自己也会获得那些强化的嗅觉感官。当你使用变形怪的伪装来乔装一名将嗅觉作为模糊感官的类人生物时，你获得嗅觉作为模糊感官，范围为30尺，或该族裔通常拥有的距离，以两者中较低者为准。只要你保持该伪装，这些益处就会持续。</p>\n"
+      "description": "<p>当你采取具有卓越嗅觉的形态时，你自己也会获得那些强化的嗅觉感官。当你使用变形怪的伪装来乔装一名将嗅觉作为模糊感官的类人生物时，你获得嗅觉作为模糊感官，范围为30尺，或该族裔通常拥有的距离，以两者中较低者为准。只要你保持该伪装，这些益处就会持续。</p>\n",
+      "prerequisites": [
+        {
+          "value": "变形怪伪装族裔能力"
+        }
+      ]
     },
     "Transparentize": {
       "name": "透明化 Transparentize",
@@ -1955,11 +3158,27 @@
     },
     "Queen's Court": {
       "name": "女王宫廷 Queen's Court",
-      "description": "<p>你在自己的领地内统御着一群较弱的妖精随从。必要时，你可以带上一些随从与你一同踏上冒险，不过他们的出现可能会引起一阵骚动。你的随从团会协助你，并满足大多数基本的请求。你的随从团中的较弱妖精拒绝与你一同旅行前往明显危险的地方，包括大多数冒险地点，但他们会在离你最近、符合其天性的自然区域等你；若不存在这样的自然区域，则会在一个对妖精友善的聚居地等你。你的随从团在战斗遭遇中绝不会使用除撤退以外的任何动作；如果你故意伤害他们，或GM根据你的行为自行裁定，你的随从团就会不再承认你为他们的女王并离你而去。当你进行搜集信息时，你可以让随从团协助你，使你的交涉检定获得+1环境加值，并减少所需时间（通常减至1小时，若拥有@UUID[Compendium.pf2e.feats-srd.Item.4RjDxgvNXNl5GG9d]{飞短流长}专长则减至30分钟）。如果你拥有@UUID[Compendium.pf2e.feats-srd.Item.sLEawQueTV1wGn0B]{流言惑众}专长，你也可以让随从团协助你散播流言，获得与@UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{搜集信息}相同的好处。</p>\n"
+      "description": "<p>你在自己的领地内统御着一群较弱的妖精随从。必要时，你可以带上一些随从与你一同踏上冒险，不过他们的出现可能会引起一阵骚动。你的随从团会协助你，并满足大多数基本的请求。你的随从团中的较弱妖精拒绝与你一同旅行前往明显危险的地方，包括大多数冒险地点，但他们会在离你最近、符合其天性的自然区域等你；若不存在这样的自然区域，则会在一个对妖精友善的聚居地等你。你的随从团在战斗遭遇中绝不会使用除撤退以外的任何动作；如果你故意伤害他们，或GM根据你的行为自行裁定，你的随从团就会不再承认你为他们的女王并离你而去。当你进行搜集信息时，你可以让随从团协助你，使你的交涉检定获得+1环境加值，并减少所需时间（通常减至1小时，若拥有@UUID[Compendium.pf2e.feats-srd.Item.4RjDxgvNXNl5GG9d]{飞短流长}专长则减至30分钟）。如果你拥有@UUID[Compendium.pf2e.feats-srd.Item.sLEawQueTV1wGn0B]{流言惑众}专长，你也可以让随从团协助你散播流言，获得与@UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{搜集信息}相同的好处。</p>\n",
+      "prerequisites": [
+        {
+          "value": "宣示领地"
+        },
+        {
+          "value": "交涉大师"
+        },
+        {
+          "value": "成功宣示一片领地"
+        }
+      ]
     },
     "Naiad's Celerity": {
       "name": "水泽仙女迅捷 Naiad's Celerity",
-      "description": "<p>你重新建立了与水更深层次的联系，提升了你在水中的速度。你的游泳速度从10尺提升至25尺。</p>\n"
+      "description": "<p>你重新建立了与水更深层次的联系，提升了你在水中的速度。你的游泳速度从10尺提升至25尺。</p>\n",
+      "prerequisites": [
+        {
+          "value": "水泽仙女传承"
+        }
+      ]
     },
     "Twist Fate": {
       "name": "扭转命运 Twist Fate",
@@ -1967,7 +3186,12 @@
     },
     "Defensive Discorporation": {
       "name": "防御解体 Defensive Discorporation",
-      "description": "<p><strong>频率</strong> 每10分钟一次</p>\n<p><strong>触发</strong> 敌人对你进行的打击为重击。</p>\n<hr />\n<p>当你的敌人对你投射出的化身施以沉重一击时，你不再承受该创伤，而是令你的化身解体。你令化身解除显现，而触发的攻击仅造成其在命中时通常会造成的伤害量（通常为全额伤害而非双倍伤害）。任何由重击造成的其他效果仍然发生。照常，在你的化身解除显现时，你处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]，且你不能行动，除非用以使用你的启动族裔专长、进行@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}、回忆知识，以及显现你的化身。</p>\n"
+      "description": "<p><strong>频率</strong> 每10分钟一次</p>\n<p><strong>触发</strong> 敌人对你进行的打击为重击。</p>\n<hr />\n<p>当你的敌人对你投射出的化身施以沉重一击时，你不再承受该创伤，而是令你的化身解体。你令化身解除显现，而触发的攻击仅造成其在命中时通常会造成的伤害量（通常为全额伤害而非双倍伤害）。任何由重击造成的其他效果仍然发生。照常，在你的化身解除显现时，你处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]，且你不能行动，除非用以使用你的启动族裔专长、进行@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}、回忆知识，以及显现你的化身。</p>\n",
+      "prerequisites": [
+        {
+          "value": "投射武器传承"
+        }
+      ]
     }
   },
   "folders": {
@@ -1990,5 +3214,15 @@
     "Gremlin": "小魔怪 Gremlin",
     "Oni": "恶鬼 Oni",
     "Intelligent Weapon": "智能武器 Intelligent Weapon"
+  },
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
   }
 }
