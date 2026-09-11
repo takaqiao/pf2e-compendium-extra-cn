@@ -8,10 +8,10 @@
           "description": "远程攻击掷骰，以及用于搜索的察觉检定"
         },
         "H4vohWnth5UIqhXM": {
-          "description": "反射豁免与盗术检定"
+          "description": "反射豁免与贼活检定"
         },
         "ILbxMvXhx1UOkEgh": {
-          "description": "重新掷骰，你的下一个结果只选取其中一次掷骰"
+          "description": "重新掷骰，并在新结果列出的掷骰类型中只选择一种"
         },
         "KvAOC1QfXwh0Xom8": {
           "description": "法术攻击掷骰与技能检定"
@@ -23,7 +23,7 @@
           "description": "意志豁免与交涉检定"
         },
         "jbI3Ja3gNffraEHq": {
-          "description": "强韧豁免与恢复检定"
+          "description": "强韧豁免与复苏检定"
         },
         "yogvmjW39VJ4tEDf": {
           "description": "掷两次，将两组掷骰都加入你反应的触发条件"

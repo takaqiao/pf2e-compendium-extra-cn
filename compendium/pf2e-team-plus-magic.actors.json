@@ -2,9 +2,9 @@
   "label": "角色（PF2e） Actors",
   "entries": {
     "Monitor Aspect": {
-      "name": "监督层面 Monitor Aspect",
-      "tokenName": "监督层面 Monitor Aspect",
-      "prototypeToken": "监督层面 Monitor Aspect",
+      "name": "观察者层面 Monitor Aspect",
+      "tokenName": "观察者层面 Monitor Aspect",
+      "prototypeToken": "观察者层面 Monitor Aspect",
       "items": {
         "Legal Lore": {
           "name": "律法学识 Legal Lore"
@@ -14,7 +14,8 @@
     "Animal Aspect": {
       "name": "动物层面 Animal Aspect",
       "tokenName": "动物层面 Animal Aspect",
-      "prototypeToken": "动物层面 Animal Aspect"
+      "prototypeToken": "动物层面 Animal Aspect",
+      "languageDetails": "无（不能说话）"
     },
     "Undead Aspect": {
       "name": "不死层面 Undead Aspect",
@@ -46,9 +47,9 @@
       "prototypeToken": "植物层面 Plant Aspect"
     },
     "Celestial Aspect": {
-      "name": "天界层面 Celestial Aspect",
-      "tokenName": "天界层面 Celestial Aspect",
-      "prototypeToken": "天界层面 Celestial Aspect"
+      "name": "天族层面 Celestial Aspect",
+      "tokenName": "天族层面 Celestial Aspect",
+      "prototypeToken": "天族层面 Celestial Aspect"
     },
     "Elemental Aspect": {
       "name": "元素层面 Elemental Aspect",
@@ -76,9 +77,9 @@
       }
     },
     "Fiend Aspect": {
-      "name": "魔类层面 Fiend Aspect",
-      "tokenName": "魔类层面 Fiend Aspect",
-      "prototypeToken": "魔类层面 Fiend Aspect",
+      "name": "魔族层面 Fiend Aspect",
+      "tokenName": "魔族层面 Fiend Aspect",
+      "prototypeToken": "魔族层面 Fiend Aspect",
       "items": {
         "Legal Lore": {
           "name": "律法学识 Legal Lore"
@@ -88,12 +89,13 @@
     "Construct Aspect": {
       "name": "构装层面 Construct Aspect",
       "tokenName": "构装层面 Construct Aspect",
-      "prototypeToken": "构装层面 Construct Aspect"
+      "prototypeToken": "构装层面 Construct Aspect",
+      "perceptionDetails": "黑暗视觉"
     },
     "Thurse Aspect": {
-      "name": "霜巨层面 Thurse Aspect",
-      "tokenName": "霜巨层面 Thurse Aspect",
-      "prototypeToken": "霜巨层面 Thurse Aspect",
+      "name": "神怪层面 Thurse Aspect",
+      "tokenName": "神怪层面 Thurse Aspect",
+      "prototypeToken": "神怪层面 Thurse Aspect",
       "items": {
         "Fire Lore": {
           "name": "火焰学识 Fire Lore"
@@ -129,14 +131,20 @@
       "prototypeToken": "实体层面 Entity Aspect"
     },
     "Ooze Aspect": {
-      "name": "黏液层面 Ooze Aspect",
-      "tokenName": "黏液层面 Ooze Aspect",
-      "prototypeToken": "黏液层面 Ooze Aspect",
+      "name": "泥怪层面 Ooze Aspect",
+      "tokenName": "泥怪层面 Ooze Aspect",
+      "prototypeToken": "泥怪层面 Ooze Aspect",
       "items": {
         "Legal Lore": {
           "name": "律法学识 Legal Lore"
         }
       }
     }
+  },
+  "mapping": {
+    "prototypeToken": "prototypeToken.name",
+    "tokenName": "prototypeToken.name",
+    "languageDetails": "system.details.languages.details",
+    "perceptionDetails": "system.perception.details"
   }
 }
