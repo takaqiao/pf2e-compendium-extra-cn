@@ -1,58 +1,56 @@
 {
-    "label": "肆季鬼志地图重制\nSeason of Ghosts Map Remake",
-    "folders": {},
-    "entries": {
-        "Willowshore (Isometric)": {
-            "name": "柳岸镇（等距视角）",
-            "drawings": {
-                "Ceiba Creek": "Ceiba Creek",
-                "Ceiba River": "Ceiba River",
-                "Duyue River": "Duyue River",
-                "Willowshore": "Willowshore"
-            },
-            "notes": {}
-        },
-        "Specterwood": {
-            "name": "幽魂之森 Specterwood",
-            "drawings": {
-                "Ceiba River": "Ceiba River",
-                "Dragonfly Creek": "Dragonfly Creek",
-                "Duyue River": "Duyue River",
-                "Gourd Lake": "Gourd Lake",
-                "Willowshore": "Willowshore",
-                "Pilgrims Path": "Pilgrims Path",
-                "Sugi River": "Sugi River",
-                "North Sugi River": "North Sugi River",
-                "West Sugi River": "West Sugi River",
-                "Mirror Lake": "Mirror Lake",
-                "Karahai": "Karahai",
-                "Sea of Ghosts": "Sea of Ghosts",
-                "Green Silk Peak": "Green Silk Peak",
-                "Silkwasp Camp": "Silkwasp Camp",
-                "Apple Grove": "Apple Grove",
-                "Moon Marsh": "Moon Marsh",
-                "Whisperweb Shrine": "Whisperweb Shrine",
-                "To Sze ↓(125 mi)": "To Sze ↓(125 mi)",
-                "To Sze ↓ (150 mi)": "To Sze ↓ (150 mi)",
-                "To Gossamer Mountains ↖ (300-450mi)": "To Gossamer Mountains ↖ (300-450mi)",
-                "To Yin-Sichasi ↖ (500mi)": "To Yin-Sichasi ↖ (500mi)"
-            }
-        },
-        "Willowshore Hinterlands": {
-            "name": "柳岸腹地 Willowshore Hinterlands",
-            "drawings": {
-                "Duyue River": "Duyue River",
-                "Ceiba River": "Ceiba River",
-                "Dragonfly Creek": "Dragonfly Creek",
-                "Gourd Lake": "Gourd Lake",
-                "Sugi River": "Sugi River",
-                "North Sugi River": "North Sugi River",
-                "West Sugi River": "West Sugi River",
-                "Mirror Lake": "Mirror Lake",
-                "Green Silk Peak": "Green Silk Peak",
-                "Pilgrims Path": "Pilgrims Path",
-                "Willowshore": "Willowshore"
-            }
-        }
+  "label": "肆季鬼志地图重制",
+  "entries": {
+    "Willowshore (Isometric)": {
+      "name": "柳岸镇（等距视角） Willowshore (Isometric)",
+      "drawings": {
+        "Ceiba River": "木棉河",
+        "Duyue River": "渡月河",
+        "Ceiba Creek": "木棉溪",
+        "Willowshore": "柳岸镇"
+      }
+    },
+    "Specterwood": {
+      "name": "幽魂之森 Specterwood",
+      "drawings": {
+        "Apple Grove": "苹果林",
+        "Karahai": "唐入村",
+        "Ceiba River": "木棉河",
+        "Silkwasp Camp": "丝蜂营地",
+        "Moon Marsh": "月沼",
+        "West Sugi River": "西杉河",
+        "Duyue River": "渡月河",
+        "Mirror Lake": "镜湖",
+        "Pilgrims Path": "朝圣之路",
+        "To Yin-Sichasi ↖ (500mi)": "前往阴司察夕 ↖（500英里）",
+        "Gourd Lake": "葫芦湖",
+        "Sugi River": "杉河",
+        "Willowshore": "柳岸镇",
+        "North Sugi River": "北杉河",
+        "Dragonfly Creek": "蜻蜓溪",
+        "Whisperweb Shrine": "低语蛛网神殿",
+        "Green Silk Peak": "绿绸峰",
+        "Sea of Ghosts": "幽灵海",
+        "To Sze ↓(125 mi)": "前往司泽 ↓（125英里）",
+        "To Gossamer Mountains ↖ (300-450mi)": "前往薄纱群山 ↖（300–450英里）",
+        "To Sze ↓ (150 mi)": "前往司泽 ↓（150英里）"
+      }
+    },
+    "Willowshore Hinterlands": {
+      "name": "柳岸腹地 Willowshore Hinterlands",
+      "drawings": {
+        "Green Silk Peak": "绿绸峰",
+        "Duyue River": "渡月河",
+        "Willowshore": "柳岸镇",
+        "Sugi River": "杉河",
+        "Mirror Lake": "镜湖",
+        "Gourd Lake": "葫芦湖",
+        "Ceiba River": "木棉河",
+        "North Sugi River": "北杉河",
+        "Dragonfly Creek": "蜻蜓溪",
+        "West Sugi River": "西杉河",
+        "Pilgrims Path": "朝圣之路"
+      }
     }
+  }
 }

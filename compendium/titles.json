@@ -7536,10 +7536,10 @@
   },
   "kobold-dm-sog-maps-supplemental.kobold-dm-sog-maps-supplemental": {
     "folders": {
-      "Book 1": "第一卷\nBook 1",
+      "Book 1": "第一卷 Book 1",
       "Book 2": "第二卷 Book 2",
       "Book 3": "第三卷 Book 3",
-      "Chapters 1-2": "第1-2章\nChapters 1-2",
+      "Chapters 1-2": "第1-2章 Chapters 1-2",
       "Chapters 3-4": "第3-4章 Chapters 3-4"
     },
     "titles": {
@@ -8638,14 +8638,14 @@
     "folders": {},
     "titles": {
       "Specterwood": "幽魂之森 Specterwood",
-      "Willowshore (Isometric)": "柳岸镇（等距视角）",
+      "Willowshore (Isometric)": "柳岸镇（等距视角） Willowshore (Isometric)",
       "Willowshore Hinterlands": "柳岸腹地 Willowshore Hinterlands"
     }
   },
   "pf2e-season-of-ghosts-tools.season-of-ghosts-effects": {
     "folders": {
-      "Book 1": "第1卷\nBook 1",
-      "Book 2": "第 2 卷\nBook 2"
+      "Book 1": "第1卷 Book 1",
+      "Book 2": "第 2 卷 Book 2"
     },
     "titles": {
       "Effect: Aura of Forgetfulness": "效果：健忘灵光 Effect: Aura of Forgetfulness",
@@ -8659,81 +8659,115 @@
   },
   "pf2e-season-of-ghosts-tools.season-of-ghosts-macros": {
     "folders": {
-      "Macros": "宏\nMacros",
+      "Macros": "宏 Macros",
       "Macros Remastered": "宏重制版 Macros Remastered"
     },
     "titles": {
       "Blood Rain Flat Check": "血雨 纯骰检定 Blood Rain Flat Check",
       "Hinterlands Random Encounter Flat Check": "荒野随机遭遇纯骰检定 Hinterlands Random Encounter Flat Check",
+      "ONC9Tw9vVk9ACEXW": "血雨 纯骰检定 Blood Rain Flat Check",
       "Roll Hinterlands Near Town Random Encounters": "在城镇附近的荒野随机遭遇中掷骰 Roll Hinterlands Near Town Random Encounters",
       "Roll Hinterlands Random Encounters": "掷骰荒野随机遭遇 Roll Hinterlands Random Encounters",
-      "Willowshore Random Encounter Flat Check": "柳岸镇随机遭遇纯骰检定 Willowshore Random Encounter Flat Check"
+      "Willowshore Random Encounter Flat Check": "柳岸镇随机遭遇纯骰检定 Willowshore Random Encounter Flat Check",
+      "gsFOdM2nRK1CBg5c": "在城镇附近的荒野随机遭遇中掷骰 Roll Hinterlands Near Town Random Encounters",
+      "lvyxZ5808JulRuM7": "掷骰荒野随机遭遇 Roll Hinterlands Random Encounters",
+      "sbxzstIQ18YySr6a": "柳岸镇随机遭遇纯骰检定 Willowshore Random Encounter Flat Check",
+      "u6OlAsybQiq3J71T": "荒野随机遭遇纯骰检定 Hinterlands Random Encounter Flat Check"
     }
   },
   "pf2e-season-of-ghosts-tools.season-of-ghosts-rolltables": {
     "folders": {
-      "Random Encounters": "随机遭遇\nRandom Encounters",
-      "Random Encounters Remastered": "随机遭遇 重制版\nRandom Encounters Remastered"
+      "Random Encounters": "随机遭遇 Random Encounters",
+      "Random Encounters Remastered": "随机遭遇 重制版 Random Encounters Remastered"
     },
     "titles": {
       "Hinterlands Near Town Random Encounters": "城镇附近荒野随机遭遇 Hinterlands Near Town Random Encounters",
       "Hinterlands Random Encounters": "腹地随机遭遇 Hinterlands Random Encounters",
-      "Willowshore Random Encounters": "柳岸镇随机遭遇 Willowshore Random Encounters"
+      "Willowshore Random Encounters": "柳岸镇随机遭遇 Willowshore Random Encounters",
+      "bbw38BChTodFClxB": "城镇附近荒野随机遭遇 Hinterlands Near Town Random Encounters",
+      "cG2TeMz9aS0gGr4X": "腹地随机遭遇 Hinterlands Random Encounters",
+      "nqjs1JJxHkOUVXVH": "柳岸镇随机遭遇 Willowshore Random Encounters"
     }
   },
   "pf2e-season-of-ghosts-tools.season-of-ghosts-shop-actors": {
     "folders": {
-      "Merchants": "商人\nMerchants",
-      "Merchants Remastered": "商人重制版\nMerchants Remastered"
+      "Merchants": "商人 Merchants",
+      "Merchants Remastered": "商人重制版 Merchants Remastered"
     },
     "titles": {
-      "Asahina Shinzo": "朝比奈信三 Asahina Shinzo",
+      "7Hs2ecvP78jRUDMB": "七彩鸣雀剧场 The Seven-Colored Songbird",
+      "Asahina Shinzo": "朝比奈神藏 Asahina Shinzo",
       "Cloud Paper House": "云纸坊 Cloud Paper House",
-      "Eternal Blaze Ironworks": "永焰铁工坊 Eternal Blaze Ironworks",
+      "DMinbzmcLcANoEH6": "柳岸镇营房 Willowshore Barracks",
+      "Eternal Blaze Ironworks": "永火铁厂 Eternal Blaze Ironworks",
       "Fisher's Farms and Docks": "渔场和码头 Fisher's Farms and Docks",
-      "Graveside Manners": "墓畔礼仪 Graveside Manners",
+      "Graveside Manners": "坟边居 Graveside Manners",
       "Her Fluvial Lady of Souls": "魂流圣母堂 Her Fluvial Lady of Souls",
       "Jadeite Essentials": "玉液琼浆 Jadeite Essentials",
       "Luo & Laws": "罗与劳斯 Luo & Laws",
+      "MFQjRBfT5yCLZpzP": "蘑菇房 The Mushroom House",
       "Milling Houses": "磨坊 Milling Houses",
       "Mother's Coil": "主母之绾 Mother's Coil",
-      "Nine Ear Shrine": "九耳神龛 Nine Ear Shrine",
+      "N52R9a32uRVUAjGk": "里氏制革厂 Rebel's Leatherworks",
+      "Nine Ear Shrine": "九耳神社 Nine Ear Shrine",
+      "RZWch7gaZtXakrgr": "主母之绾 Mother's Coil",
       "Rebel's Leatherworks": "里氏制革厂 Rebel's Leatherworks",
-      "Second Best": "第二佳作坊 Second Best",
+      "SebgOjxocFFCC3KP": "罗与劳斯 Luo & Laws",
+      "Second Best": "二等优 Second Best",
       "Silvermist Lodges": "银雾斋 Silvermist Lodges",
       "The Ceiba-Duyue Exchange": "木棉河-杜月江瓦市 The Ceiba-Duyue Exchange",
-      "The Hand of Spring": "春之手 The Hand of Spring",
+      "The Hand of Spring": "妙手回春 The Hand of Spring",
       "The Happy Kappa": "乐天河童 The Happy Kappa",
       "The Leshy's Salon": "莱西茶铺 The Leshy's Salon",
       "The Mushroom House": "蘑菇房 The Mushroom House",
       "The Seven-Colored Songbird": "七彩鸣雀剧场 The Seven-Colored Songbird",
       "Thrice-Blessed Inn": "三福客栈 Thrice-Blessed Inn",
       "Treesparrow's Rest": "树雀居 Treesparrow's Rest",
+      "TvSB0lDDgIEYQPme": "坟边居 Graveside Manners",
       "Willowshore Barracks": "柳岸镇营房 Willowshore Barracks",
       "Willowshore Dock": "柳岸镇码头 Willowshore Dock",
-      "Willowshore Stables": "柳岸镇马厩 Willowshore Stables",
-      "Woodcarver's Guild": "木雕师行会 Woodcarver's Guild"
+      "Willowshore Stables": "柳岸镇马场 Willowshore Stables",
+      "Woodcarver's Guild": "木雕师行会 Woodcarver's Guild",
+      "bOClqcGYt16TM3by": "乐天河童 The Happy Kappa",
+      "bzgCMlPnq4IUM4Gv": "魂流圣母堂 Her Fluvial Lady of Souls",
+      "dXDMNxmTdtFbtTBe": "渔场和码头 Fisher's Farms and Docks",
+      "gNMFjmDhnQSCU0se": "三福客栈 Thrice-Blessed Inn",
+      "gxqTCeU1D8HtBKAo": "柳岸镇马场 Willowshore Stables",
+      "jYuR1DwILGeKawk2": "柳岸镇码头 Willowshore Dock",
+      "laRdAA1K7ZSCRtx2": "二等优 Second Best",
+      "mIyMDIVaYYMKxK3P": "九耳神社 Nine Ear Shrine",
+      "ml9EL2EWGUnKLZ4W": "银雾斋 Silvermist Lodges",
+      "oxD0dWsuUG7nGQbA": "木雕师行会 Woodcarver's Guild",
+      "qWwKz8GnhffBOE8z": "莱西茶铺 The Leshy's Salon",
+      "rgZRaBfwCYLz6ake": "云纸坊 Cloud Paper House",
+      "t5TUm50vCiqWj0S8": "磨坊 Milling Houses",
+      "tEOZ3VXa5IDLsnXS": "妙手回春 The Hand of Spring",
+      "uWPfXueN3xmsaqBy": "朝比奈神藏 Asahina Shinzo",
+      "vMZ6yWbrQOdIjWHW": "玉液琼浆 Jadeite Essentials",
+      "wmmtYTawTcmiMY9m": "木棉河-杜月江瓦市 The Ceiba-Duyue Exchange",
+      "yu9duDCFOXiUedu7": "树雀居 Treesparrow's Rest",
+      "zXvHhhPVXU4VkTSS": "永火铁厂 Eternal Blaze Ironworks"
     }
   },
   "pf2e-season-of-ghosts-tools.season-of-ghosts-shop-items": {
     "folders": {
-      "Aid": "协助\nAid",
-      "Animals": "动物结社\nAnimals",
-      "Beverages": "饮品\nBeverages",
-      "Deliveries": "递送\nDeliveries",
-      "Fortune Telling": "占卜\nFortune Telling",
-      "Lodging": "住宿\nLodging",
-      "Meals": "餐食\nMeals",
-      "Other": "其他\nOther",
-      "Spellcasting": "施法能力\nSpellcasting",
+      "Aid": "协助 Aid",
+      "Animals": "动物结社 Animals",
+      "Beverages": "饮品 Beverages",
+      "Deliveries": "递送 Deliveries",
+      "Fortune Telling": "占卜 Fortune Telling",
+      "Lodging": "住宿 Lodging",
+      "Meals": "餐食 Meals",
+      "Other": "其他 Other",
+      "Spellcasting": "施法能力 Spellcasting",
       "Stabling": "寄养 Stabling",
-      "Transportation": "运输\nTransportation",
-      "Vehicles": "载具\nVehicles"
+      "Transportation": "运输 Transportation",
+      "Vehicles": "载具 Vehicles"
     },
     "titles": {
       "1 Hour Bathhouse Soak": "1小时澡堂浸泡 1 Hour Bathhouse Soak",
       "Absalom or Further (per bulk)": "艾巴萨罗姆或更远（每负载） Absalom or Further (per bulk)",
-      "Bed, For 1": "床（单人）",
+      "Bed, For 1": "单人床位 Bed, For 1",
       "Bottle of Fine Wine": "一瓶上等葡萄酒 Bottle of Fine Wine",
       "Bottle of Wine": "一瓶葡萄酒 Bottle of Wine",
       "Caravan (per 5 miles)": "商队（每5英里） Caravan (per 5 miles)",
@@ -8742,45 +8776,45 @@
       "Cart": "手推车 Cart",
       "Expanded Alchemist's Lab (Per Day)": "专家级炼金实验室（每日） Expanded Alchemist's Lab (Per Day)",
       "Expedited (per bulk)": "加急（每点负载） Expedited (per bulk)",
-      "Extravagant Suite, For 6": "豪华套房，供 6 人使用 Extravagant Suite, For 6",
-      "Fine Dining": "高级餐饮 Fine Dining",
+      "Extravagant Suite, For 6": "豪华六人套房 Extravagant Suite, For 6",
+      "Fine Dining": "精致餐饮 Fine Dining",
       "Floor Space": "地板空间 Floor Space",
       "Fortune Telling": "占卜 Fortune Telling",
       "Gather Information": "打探消息 Gather Information",
       "Guard Dog": "护卫犬 Guard Dog",
       "Guard Dog (per day)": "护卫犬（每日） Guard Dog (per day)",
-      "Handcrafted Oar": "手工制作的船桨 Handcrafted Oar",
+      "Handcrafted Oar": "手工船桨 Handcrafted Oar",
       "Keg of Ale": "一桶麦酒 Keg of Ale",
       "Local (per bulk)": "本地（每负载） Local (per bulk)",
       "Mug of Ale": "一杯艾尔啤酒 Mug of Ale",
       "Pack Horse": "驮马 Pack Horse",
       "Pack Horse (Per Day)": "驮马（每日） Pack Horse (Per Day)",
-      "Poor": "劣等 Poor",
+      "Poor": "粗茶淡饭 Poor",
       "Pot of Coffee or Tea": "一壶咖啡或茶 Pot of Coffee or Tea",
-      "Private Room, For 2": "私人房间（2人）",
-      "Recall Knowledge (Willowshore)": "回忆知识（柳岸镇）",
+      "Private Room, For 2": "双人客房 Private Room, For 2",
+      "Recall Knowledge (Willowshore)": "回忆知识（柳岸镇） Recall Knowledge (Willowshore)",
       "Riding Dog": "骑乘犬 Riding Dog",
       "Riding Dog (per day)": "骑乘犬（每天） Riding Dog (per day)",
       "Riding Horse": "骑乘用马 Riding Horse",
-      "Riding Horse (per day)": "骑乘马（每天） Riding Horse (per day)",
+      "Riding Horse (per day)": "骑乘马（每日） Riding Horse (per day)",
       "Riding Pony": "骑乘小马 Riding Pony",
-      "Riding Pony (per day)": "骑乘小马（每日）",
+      "Riding Pony (per day)": "骑乘小马（每日） Riding Pony (per day)",
       "Rowboat": "划艇 Rowboat",
       "Rowboat (Per Day)": "划艇（每日） Rowboat (Per Day)",
       "Sleigh": "雪橇 Sleigh",
       "Spellcasting (1st)": "施法（1环） Spellcasting (1st)",
-      "Spellcasting (2nd)": "施法（2环）",
+      "Spellcasting (2nd)": "施法（2环） Spellcasting (2nd)",
       "Spellcasting (3rd)": "施法（3环） Spellcasting (3rd)",
       "Spellcasting (Cantrip)": "施放法术（戏法） Spellcasting (Cantrip)",
-      "Square": "方格 Square",
-      "Stabling (per day)": "马厩寄养（每天） Stabling (per day)",
+      "Square": "饱餐 Square",
+      "Stabling (per day)": "马厩寄养（每日） Stabling (per day)",
       "Treat Animal": "治疗动物 Treat Animal",
       "Treat Wounds": "治疗伤口 Treat Wounds",
-      "Wagon": "货车 Wagon",
+      "Wagon": "货运马车 Wagon",
       "Warhorse": "战马 Warhorse",
       "Warhorse (per day)": "战马（每日） Warhorse (per day)",
       "Warpony": "战驹 Warpony",
-      "Warpony (per day)": "战驹（每日）"
+      "Warpony (per day)": "战驹（每日） Warpony (per day)"
     }
   },
   "pf2e-season-of-ghosts.adventures": {
@@ -20598,7 +20632,13 @@
     }
   },
   "pf2e.season-of-ghosts-bestiary": {
-    "folders": {},
+    "folders": {
+      "Book 1 - The Summer That Never Was": "第1卷：未曾来临的夏日 Book 1 - The Summer That Never Was",
+      "Book 2 - Let the Leaves Fall": "第2卷：任落叶飘零 Book 2 - Let the Leaves Fall",
+      "Book 3 - No Breath to Cry": "第3卷：无息可哭 Book 3 - No Breath to Cry",
+      "Book 4 - To Bloom Below the Web": "第4卷：蛛网之下绽放 Book 4 - To Bloom Below the Web",
+      "Season of Ghosts Hardcover Compilation": "肆季鬼志精装合订本 Season of Ghosts Hardcover Compilation"
+    },
     "titles": {
       "Akashti": "恪尸魔 Akashti",
       "Algriever": "灵蜘蛛 Algriever",
@@ -20609,7 +20649,7 @@
       "Bakeneko": "化猫 Bakeneko",
       "Corpse Sugi": "尸杉 Corpse Sugi",
       "Dalgyal Gwishin": "蛋脸鬼 Dalgyal Gwishin",
-      "Exorcist": "驱魔师 Exorcist",
+      "Exorcist": "驱魔人 Exorcist",
       "Explosive Manifestation": "爆发显现 Explosive Manifestation",
       "False Governor": "伪镇长 False Governor",
       "False Victory": "虚假胜利 False Victory",
@@ -20617,7 +20657,7 @@
       "Fan Hongrui": "范洪瑞 Fan Hongrui",
       "Fiendish Reflection": "恶魔映像 Fiendish Reflection",
       "Ghost": "幽灵 Ghost",
-      "Goh's Shame": "吴的耻辱 Goh's Shame",
+      "Goh's Shame": "吴的羞愧 Goh's Shame",
       "Grasping Currents": "攫握激流 Grasping Currents",
       "Gray Butcher": "灰屠夫 Gray Butcher",
       "Guhdggi": "孤寂魔 Guhdggi",
@@ -20641,8 +20681,8 @@
       "Kugaptee's Centipede": "苦迦菩提的蜈蚣 Kugaptee's Centipede",
       "Kugaptee's Drakauthix": "苦迦菩提的德拉考希克斯 Kugaptee's Drakauthix",
       "Kugaptee's Tree": "苦迦菩提之树 Kugaptee's Tree",
-      "Mago Kai": "马戈凯 Mago Kai",
-      "Manor Wards": "庄园护卫 Manor Wards",
+      "Mago Kai": "孙海 Mago Kai",
+      "Manor Wards": "庄园结界 Manor Wards",
       "Matsuki Shou": "松木胜 Matsuki Shou",
       "Meokdan": "莫啖魔 Meokdan",
       "Mercenary Enforcer": "佣兵执法者 Mercenary Enforcer",
@@ -20670,16 +20710,15 @@
       "Shimmerthief": "窃光者 Shimmerthief",
       "Shinigami": "死神 Shinigami",
       "Shisagishin": "煞星魔 Shisagishin",
-      "Shou Matsuki": "松木胜 Shou Matsuki",
       "Shrine Caretaker": "圣坛看护者 Shrine Caretaker",
       "Shrine Maiden": "巫女 Shrine Maiden",
       "Silkwasp Bandit": "绢黄蜂强盗 Silkwasp Bandit",
-      "Silsyche": "死宅神 Silsyche",
+      "Silsyche": "逝宅神 Silsyche",
       "Sojiruh": "索闹魔 Sojiruh",
       "Spiritual Disruptor": "灵性干扰器 Spiritual Disruptor",
       "Stingy": "刺仔 Stingy",
       "Stone Spider": "石蜘蛛 Stone Spider",
-      "Taunting Monk's Skull": "嘲讽僧侣的头骨 Taunting Monk's Skull",
+      "Taunting Monk's Skull": "嘲弄僧侣的头骨 Taunting Monk's Skull",
       "Temporal Warp": "时间扭曲 Temporal Warp",
       "Thatchling": "草人 Thatchling",
       "The Chewer": "咀嚼者 The Chewer",
@@ -20693,10 +20732,9 @@
       "Willowshore Waldgeist": "柳岸镇林鬼 Willowshore Waldgeist",
       "Witherweird Runes": "枯萎诡符文 Witherweird Runes",
       "Writhing Hair": "缠怨之发 Writhing Hair",
-      "Xin Yue": "新月 Xin Yue",
+      "Xin Yue": "辛月 Xin Yue",
       "Yuni": "尤妮 Yuni",
       "Zhi Hui": "智惠 Zhi Hui",
-      "Zoudou The Zealous": "狂热者邹斗 Zoudou The Zealous",
       "Zoudou the Zealous": "狂热者邹斗 Zoudou the Zealous"
     }
   },
