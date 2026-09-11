@@ -172,7 +172,22 @@
     },
     "Great Cleave+": {
       "name": "强力顺势斩+ Great Cleave+",
-      "description": "<p>你的狂怒带着你的武器贯穿多名敌人。你每回合第一次@UUID[Compendium.pf2e.feats-srd.Item.GE96a0UGPYM74qjI]{顺势斩}时，你的多重攻击减值不会增加。当你顺势斩时，如果你的打击同样杀死了目标或使其失去意识，你可以继续进行近战打击，直到你进行的某次打击未能杀死生物也未使其失去意识，或直到你的近战触及范围内没有生物为止，以先发生者为准。</p>"
+      "description": "<p>你的狂怒带着你的武器贯穿多名敌人。你每回合第一次@UUID[Compendium.pf2e.feats-srd.Item.GE96a0UGPYM74qjI]{顺势斩}时，你的多重攻击减值不会增加。当你顺势斩时，如果你的打击同样杀死了目标或使其失去意识，你可以继续进行近战打击，直到你进行的某次打击未能杀死生物也未使其失去意识，或直到你的近战触及范围内没有生物为止，以先发生者为准。</p>",
+      "prerequisites": [
+        {
+          "value": "顺势斩"
+        }
+      ]
+    }
+  },
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
     }
   }
 }

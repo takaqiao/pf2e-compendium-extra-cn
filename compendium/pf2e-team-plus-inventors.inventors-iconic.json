@@ -8,7 +8,12 @@
       "items": {
         "Magical Crafting": {
           "name": "魔法手艺 Magical Crafting",
-          "description": "<p>你可以@UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{制作}魔法物品，不过某些物品会有其它条件。选取此专长时，你立即将四种2级或更低级常见魔法物品的配方加入你的配方簿中。</p>"
+          "description": "<p>你可以@UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{制作}魔法物品，不过某些物品会有其它条件。选取此专长时，你立即将四种2级或更低级常见魔法物品的配方加入你的配方簿中。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为专家"
+            }
+          ]
         },
         "Master Overdrive": {
           "name": "大师超载 Master Overdrive",
@@ -20,7 +25,15 @@
         },
         "Legendary Sneak": {
           "name": "传奇潜行者 Legendary Sneak",
-          "description": "<p>除非你选择被看见，否则你始终保持潜行，即便没有可藏身的地方。你可以@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{躲藏}和@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}，即使没有掩蔽，也未处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}。你在采取@UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{避人耳目}之外的探索策略时，也会获得避人耳目的好处，除非你选择不这样做。</p>"
+          "description": "<p>除非你选择被看见，否则你始终保持潜行，即便没有可藏身的地方。你可以@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{躲藏}和@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}，即使没有掩蔽，也未处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}。你在采取@UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{避人耳目}之外的探索策略时，也会获得避人耳目的好处，除非你选择不这样做。</p>",
+          "prerequisites": [
+            {
+              "value": "隐秘熟练度为传奇"
+            },
+            {
+              "value": "迅速潜行"
+            }
+          ]
         },
         "Explode+": {
           "name": "爆炸+ Explode+",
@@ -44,7 +57,12 @@
         },
         "Fail-Proof Gadgetry": {
           "name": "无失装置技艺 Fail-Proof Gadgetry",
-          "description": "<p>你已学到，一次快速修复就足以将彻底的失败转为成功。你可以每轮一次而非每 10分钟一次使用「装置师入门」反应。</p>"
+          "description": "<p>你已学到，一次快速修复就足以将彻底的失败转为成功。你可以每轮一次而非每 10分钟一次使用「装置师入门」反应。</p>",
+          "prerequisites": [
+            {
+              "value": "装置师入门"
+            }
+          ]
         },
         "Revolutionary Innovation": {
           "name": "革命性大发明 Revolutionary Innovation",
@@ -96,7 +114,15 @@
         },
         "Basic Gadgets": {
           "name": "基础小装置 Basic Gadgets",
-          "description": "<p>对你而言，某些小装置过于基础，制作起来不值一提。当你在每日准备期间创建临时小装置时，只要它们等级不高于你等级的一半，你便可以使用其中一件临时小装置创建出两件相同类型的临时小装置。如果你在手艺上为传奇，则可改为创建四件相同类型的小装置。</p>"
+          "description": "<p>对你而言，某些小装置过于基础，制作起来不值一提。当你在每日准备期间创建临时小装置时，只要它们等级不高于你等级的一半，你便可以使用其中一件临时小装置创建出两件相同类型的临时小装置。如果你在手艺上为传奇，则可改为创建四件相同类型的小装置。</p>",
+          "prerequisites": [
+            {
+              "value": "装置师入门"
+            },
+            {
+              "value": "手艺熟练度为大师"
+            }
+          ]
         },
         "Repair Toolkit": {
           "name": "修理工具包 Repair Toolkit",
@@ -104,7 +130,12 @@
         },
         "Clockwork Celerity+": {
           "name": "高速发条机+ Clockwork Celerity+",
-          "description": "<p><strong>触发</strong> 你的回合开始。</p>\n<hr />\n<p>你可以使用大发明中的不稳定发条装置，推动你的发明更快地运作。本回合你处于 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。如何使用额外动作取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你可以使用额外动作进行快步、行走，或使用你大发明所授予的另一种移动动作（如有「潜水护甲」专长则为游泳）。</li>\n<li><strong>构装体</strong> 你可以使用额外动作来命令你的构装体大发明（或在你花费 2 个动作命令构装体时，提供其中 1 个动作）。</li>\n<li><strong>武器</strong> 你可以使用额外动作以你的大发明进行打击或装填。</li>\n<li><strong>治疗 </strong>你可以使用额外动作进行 @UUID[Compendium.pf2e-team-plus-inventors.inventors-actions.OAJJz0ey8LU37Ghc]{充能连接} 或 @Compendium[pf2e.feats-srd.obGGzuPcgO5Xiz6P]{烧灼疗法}。</li>\n<li><strong>科法 </strong>你可以使用额外动作施放科法射线。</li>\n<li><strong>小装置</strong> 你可以使用额外动作来启动你的小装置大发明或使用「速制小装置」。</li>\n</ul>"
+          "description": "<p><strong>触发</strong> 你的回合开始。</p>\n<hr />\n<p>你可以使用大发明中的不稳定发条装置，推动你的发明更快地运作。本回合你处于 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。如何使用额外动作取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你可以使用额外动作进行快步、行走，或使用你大发明所授予的另一种移动动作（如有「潜水护甲」专长则为游泳）。</li>\n<li><strong>构装体</strong> 你可以使用额外动作来命令你的构装体大发明（或在你花费 2 个动作命令构装体时，提供其中 1 个动作）。</li>\n<li><strong>武器</strong> 你可以使用额外动作以你的大发明进行打击或装填。</li>\n<li><strong>治疗 </strong>你可以使用额外动作进行 @UUID[Compendium.pf2e-team-plus-inventors.inventors-actions.OAJJz0ey8LU37Ghc]{充能连接} 或 @Compendium[pf2e.feats-srd.obGGzuPcgO5Xiz6P]{烧灼疗法}。</li>\n<li><strong>科法 </strong>你可以使用额外动作施放科法射线。</li>\n<li><strong>小装置</strong> 你可以使用额外动作来启动你的小装置大发明或使用「速制小装置」。</li>\n</ul>",
+          "prerequisites": [
+            {
+              "value": "护甲、构装、武器、治疗、科法或装置大发明"
+            }
+          ]
         },
         "Innovation": {
           "name": "大发明 Innovation",
@@ -124,11 +155,21 @@
         },
         "Gadget Specialist": {
           "name": "小装置专家 Gadget Specialist",
-          "description": "<p>你不仅仅用你的小装置来增压或调校，你每天也能制作一些特殊的临时消耗小装置。你获得3个常见或罕见的小装置的配方。每天在每日准备期间，你可以从配方簿中制造两个临时小装置。按这种方式准备的小装置不会消耗你任何资源来制作，也不存在出售价格。它们是临时物品，如果到你下一次进行每日准备时还没使用就会解离。</p>\n<p>如果你在手艺达到大师，你每天可以制作3个小装置，你也获得3个额外的常见或罕见小装置配方。如果你在手艺上达到传奇，你每天可以制作4个小装置，你也获得3个额外的常见或罕见小装置配方，总共加起来有9个。</p>"
+          "description": "<p>你不仅仅用你的小装置来增压或调校，你每天也能制作一些特殊的临时消耗小装置。你获得3个常见或罕见的小装置的配方。每天在每日准备期间，你可以从配方簿中制造两个临时小装置。按这种方式准备的小装置不会消耗你任何资源来制作，也不存在出售价格。它们是临时物品，如果到你下一次进行每日准备时还没使用就会解离。</p>\n<p>如果你在手艺达到大师，你每天可以制作3个小装置，你也获得3个额外的常见或罕见小装置配方。如果你在手艺上达到传奇，你每天可以制作4个小装置，你也获得3个额外的常见或罕见小装置配方，总共加起来有9个。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为专家"
+            }
+          ]
         },
         "Legendary Codebreaker": {
           "name": "传奇译码员 Legendary Codebreaker",
-          "description": "<p>你在语言和密码上的造诣极高，单凭快速浏览文本，就能破译其信息。你能够在以正常速度阅读时用社群技能@UUID[Compendium.pf2e.actionspf2e.Item.d9gbpiQjChYDYA2L]{解译文书}。若你放慢速度，花费通常情况所需的完整时间，并在检定中成功，则改为获得大成功。若你花费通常情况需要的完整时间，并获得大成功，则可几乎逐字逐句地细致理解文本。</p>"
+          "description": "<p>你在语言和密码上的造诣极高，单凭快速浏览文本，就能破译其信息。你能够在以正常速度阅读时用社群技能@UUID[Compendium.pf2e.actionspf2e.Item.d9gbpiQjChYDYA2L]{解译文书}。若你放慢速度，花费通常情况所需的完整时间，并在检定中成功，则改为获得大成功。若你花费通常情况需要的完整时间，并获得大成功，则可几乎逐字逐句地细致理解文本。</p>",
+          "prerequisites": [
+            {
+              "value": "社会熟练度为传奇"
+            }
+          ]
         },
         "Gadgeteer Dedication": {
           "name": "装置师入门 Gadgeteer Dedication",
@@ -187,7 +228,12 @@
         },
         "Crafter's Appraisal": {
           "name": "工匠评估 Crafter's Appraisal",
-          "description": "<p>你对物品的知识储备让你可以辨识魔法效果。你可以使用手艺技能而非对应魔法根源的关联技能来对魔法物品使用@UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{辨识魔法}行动，不过也只能对魔法物品。</p>"
+          "description": "<p>你对物品的知识储备让你可以辨识魔法效果。你可以使用手艺技能而非对应魔法根源的关联技能来对魔法物品使用@UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{辨识魔法}行动，不过也只能对魔法物品。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为受训"
+            }
+          ]
         },
         "Unstable Redundancies+": {
           "name": "不稳定冗余+ Unstable Redundancies+",
@@ -202,7 +248,12 @@
         },
         "Variable Gadgetry": {
           "name": "可变小装置 Variable Gadgetry",
-          "description": "<p>你调整你大发明的临时小装置，按需改变其伤害类型。当你创建造成伤害的临时小装置时，你可以在酸蚀、寒冷、电击或火焰之间选择，让你的小装置造成所选伤害类型，而非其原本的伤害类型。</p>"
+          "description": "<p>你调整你大发明的临时小装置，按需改变其伤害类型。当你创建造成伤害的临时小装置时，你可以在酸蚀、寒冷、电击或火焰之间选择，让你的小装置造成所选伤害类型，而非其原本的伤害类型。</p>",
+          "prerequisites": [
+            {
+              "value": "装置师入门"
+            }
+          ]
         },
         "Miraculous Repair": {
           "name": "奇迹修复 Miraculous Repair",
@@ -214,7 +265,12 @@
         },
         "Swift Sneak": {
           "name": "迅速潜行 Swift Sneak",
-          "description": "<p>你在@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}时可以全速移动。只要你拥有相应的移动类型，就可以在掘地、攀爬、飞行、游泳时潜行，而非仅在行走时。</p>"
+          "description": "<p>你在@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}时可以全速移动。只要你拥有相应的移动类型，就可以在掘地、攀爬、飞行、游泳时潜行，而非仅在行走时。</p>",
+          "prerequisites": [
+            {
+              "value": "隐秘熟练度为大师"
+            }
+          ]
         },
         "Shield Block": {
           "name": "盾牌格挡 Shield Block",
@@ -246,11 +302,21 @@
         },
         "Specialty Crafting (Blacksmithing)": {
           "name": "独门手艺（打铁） Specialty Crafting (Blacksmithing)",
-          "description": "<p>你针对某一类物品磨练自己的制作技艺。选择下表列出的一种专精类型，在制作该类物品时，你的手艺检定获得+1环境加值。若你在手艺技能上的熟练度达到大师，该加值提高到+2。对于无法明确是否可应用专精效果的情况，交由GM决定。某些专精效果或许只能部分生效。例如，如果你在制作一把钉头锤，且专精类型为木工，GM或许只会给你一半加值，因为制作这件物品同时需要用到锻造和木工两种手艺。</p>\n<table class=\"pf2-table\" style=\"white-space:nowrap\">\n<thead>\n<tr>\n<th>专精类型</th>\n<th>适用物品</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>炼金术*</td>\n<td>灵药等炼金物品</td>\n</tr>\n<tr>\n<td>艺术</td>\n<td>精美艺术品，包括珠宝首饰</td>\n</tr>\n<tr>\n<td>锻造</td>\n<td>耐用的金属制品，包括金属护甲</td>\n</tr>\n<tr>\n<td>书籍制作</td>\n<td>书本和纸张</td>\n</tr>\n<tr>\n<td>玻璃制作</td>\n<td>玻璃，包括玻璃器皿和窗玻璃</td>\n</tr>\n<tr>\n<td>制皮</td>\n<td>皮革制品，包括皮甲</td>\n</tr>\n<tr>\n<td>陶艺</td>\n<td>陶瓷制品</td>\n</tr>\n<tr>\n<td>造船</td>\n<td>大小船只</td>\n</tr>\n<tr>\n<td>石工</td>\n<td>石头制品和石造建筑</td>\n</tr>\n<tr>\n<td>裁缝</td>\n<td>衣物</td>\n</tr>\n<tr>\n<td>编织</td>\n<td>纺织品、篮筐、地毯</td>\n</tr>\n<tr>\n<td>木工</td>\n<td>木制品和木造建筑</td>\n</tr>\n</tbody>\n</table>\n<p>* 你必须拥有@UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{炼金手艺}技能专长，才能制作炼金物品。</p>"
+          "description": "<p>你针对某一类物品磨练自己的制作技艺。选择下表列出的一种专精类型，在制作该类物品时，你的手艺检定获得+1环境加值。若你在手艺技能上的熟练度达到大师，该加值提高到+2。对于无法明确是否可应用专精效果的情况，交由GM决定。某些专精效果或许只能部分生效。例如，如果你在制作一把钉头锤，且专精类型为木工，GM或许只会给你一半加值，因为制作这件物品同时需要用到锻造和木工两种手艺。</p>\n<table class=\"pf2-table\" style=\"white-space:nowrap\">\n<thead>\n<tr>\n<th>专精类型</th>\n<th>适用物品</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>炼金术*</td>\n<td>灵药等炼金物品</td>\n</tr>\n<tr>\n<td>艺术</td>\n<td>精美艺术品，包括珠宝首饰</td>\n</tr>\n<tr>\n<td>锻造</td>\n<td>耐用的金属制品，包括金属护甲</td>\n</tr>\n<tr>\n<td>书籍制作</td>\n<td>书本和纸张</td>\n</tr>\n<tr>\n<td>玻璃制作</td>\n<td>玻璃，包括玻璃器皿和窗玻璃</td>\n</tr>\n<tr>\n<td>制皮</td>\n<td>皮革制品，包括皮甲</td>\n</tr>\n<tr>\n<td>陶艺</td>\n<td>陶瓷制品</td>\n</tr>\n<tr>\n<td>造船</td>\n<td>大小船只</td>\n</tr>\n<tr>\n<td>石工</td>\n<td>石头制品和石造建筑</td>\n</tr>\n<tr>\n<td>裁缝</td>\n<td>衣物</td>\n</tr>\n<tr>\n<td>编织</td>\n<td>纺织品、篮筐、地毯</td>\n</tr>\n<tr>\n<td>木工</td>\n<td>木制品和木造建筑</td>\n</tr>\n</tbody>\n</table>\n<p>* 你必须拥有@UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{炼金手艺}技能专长，才能制作炼金物品。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为受训"
+            }
+          ]
         },
         "Craft Anything": {
           "name": "天工开物 Craft Anything",
-          "description": "<p>你可以突破限制，找出办法制造任何东西。只要你有相应的手艺技能专长（比如用来制作魔法物品的魔法手艺），等级达到物品等级，并且熟练度达到需求，就可以忽略几乎所有其他条件，比如特定族裔或提供法术的需求。若某项需求会增加物品的价格，你依然必须支付该价格（包括施放本身有金钱花费的法术）。你无法忽略有专门许可和制作方法的特殊物品的需求，比如神器。由GM决定你能忽略哪些需求。</p>"
+          "description": "<p>你可以突破限制，找出办法制造任何东西。只要你有相应的手艺技能专长（比如用来制作魔法物品的魔法手艺），等级达到物品等级，并且熟练度达到需求，就可以忽略几乎所有其他条件，比如特定族裔或提供法术的需求。若某项需求会增加物品的价格，你依然必须支付该价格（包括施放本身有金钱花费的法术）。你无法忽略有专门许可和制作方法的特殊物品的需求，比如神器。由GM决定你能忽略哪些需求。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为传奇"
+            }
+          ]
         },
         "Waffle Iron": {
           "name": "华夫饼机 Waffle Iron",
@@ -270,7 +336,12 @@
         },
         "Inventor": {
           "name": "发明家 Inventor",
-          "description": "<p>你是制作方面的天才，能够轻而易举地判断东西是怎么做出来的，并实现新的发明创作。你可以花费休整期时间，发明一个你未掌握的常见制作配方。规则类似制作行动：你预先支付等于配方价格一半的金钱，并尝试一次手艺检定，成功时可以支付差价完成配方，也可以花更长时间继续降低价格。区别在于，你的额外时间被花在研究、设计与开发上，而非制作一件物品。行动完成之后，即可以将你发明的新制作配方加入你的配方簿。</p>\n<p>GM或许会允许你发明罕见或稀有制作配方，它们的DC通常更高。要发明炼金配方，你需要拥有专长“炼金手艺”；要发明魔法物品配方，需要拥有“魔法手艺”。</p>"
+          "description": "<p>你是制作方面的天才，能够轻而易举地判断东西是怎么做出来的，并实现新的发明创作。你可以花费休整期时间，发明一个你未掌握的常见制作配方。规则类似制作行动：你预先支付等于配方价格一半的金钱，并尝试一次手艺检定，成功时可以支付差价完成配方，也可以花更长时间继续降低价格。区别在于，你的额外时间被花在研究、设计与开发上，而非制作一件物品。行动完成之后，即可以将你发明的新制作配方加入你的配方簿。</p>\n<p>GM或许会允许你发明罕见或稀有制作配方，它们的DC通常更高。要发明炼金配方，你需要拥有专长“炼金手艺”；要发明魔法物品配方，需要拥有“魔法手艺”。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为专家"
+            }
+          ]
         },
         "Complete Reconfiguration": {
           "name": "完全再配置 Complete Reconfiguration",
@@ -278,21 +349,39 @@
         },
         "Titan Wrestler": {
           "name": "巨人摔角术 Titan Wrestler",
-          "description": "<p>你可以对体型最多比你大两级的生物尝试@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}、@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}、@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}或 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}，若你在运动技能上的熟练度达到传奇，则目标可以是体型最多比你大三级的生物。</p>"
+          "description": "<p>你可以对体型最多比你大两级的生物尝试@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}、@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}、@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}或 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}，若你在运动技能上的熟练度达到传奇，则目标可以是体型最多比你大三级的生物。</p>",
+          "prerequisites": [
+            {
+              "value": "运动熟练度为受训"
+            }
+          ]
         },
         "Engineering Lore": {
           "name": "工程学识 Engineering Lore"
         },
         "Gadget Conglomeration": {
           "name": "小装置集合 Gadget Conglomeration",
-          "description": "<p>你已学会创造具有多种用途的小装置，有时甚至能让两次启动同时进行以产生更有利的效果。当你在每日准备期间创建临时小装置时，你可以选择将两件临时小装置合并为一件小装置，过程消耗两件小装置，并将它们融合成一个单元。当该小装置被启动时，可以使用其中任一效果，或两种效果都使用；并以启动动作数较多的那件来确定所需动作数。使用该小装置的生物决定该小装置效果的发生顺序。</p>"
+          "description": "<p>你已学会创造具有多种用途的小装置，有时甚至能让两次启动同时进行以产生更有利的效果。当你在每日准备期间创建临时小装置时，你可以选择将两件临时小装置合并为一件小装置，过程消耗两件小装置，并将它们融合成一个单元。当该小装置被启动时，可以使用其中任一效果，或两种效果都使用；并以启动动作数较多的那件来确定所需动作数。使用该小装置的生物决定该小装置效果的发生顺序。</p>",
+          "prerequisites": [
+            {
+              "value": "装置师入门"
+            },
+            {
+              "value": "手艺熟练度为传奇"
+            }
+          ]
         },
         "Chalk": {
           "name": "粉笔 Chalk"
         },
         "Quick Repair": {
           "name": "迅速修理 Quick Repair",
-          "description": "<p>对你而言，@UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{修理}行动失去探索特征，只需花费1分钟而非正常情况的10分钟。若你在手艺技能上的熟练度达到大师，只需花费3个动作；若达到传奇，只需1个动作。</p>"
+          "description": "<p>对你而言，@UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{修理}行动失去探索特征，只需花费1分钟而非正常情况的10分钟。若你在手艺技能上的熟练度达到大师，只需花费3个动作；若达到传奇，只需1个动作。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为受训"
+            }
+          ]
         },
         "Acid Flask (Lesser)": {
           "name": "次等强酸瓶 Acid Flask (Lesser)",
@@ -339,7 +428,15 @@
         },
         "Impeccable Crafting": {
           "name": "完美手艺 Impeccable Crafting",
-          "description": "<p>你能以极高的效率制作出完美无瑕的成品。制作你在@UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{独门手艺}中所选类型的物品时，每当你的手艺检定掷出成功，改为获得大成功。</p>"
+          "description": "<p>你能以极高的效率制作出完美无瑕的成品。制作你在@UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{独门手艺}中所选类型的物品时，每当你的手艺检定掷出成功，改为获得大成功。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为大师"
+            },
+            {
+              "value": "独门手艺"
+            }
+          ]
         },
         "Mechanical Torch": {
           "name": "机械火把 Mechanical Torch",
@@ -351,7 +448,12 @@
         },
         "Eureka!": {
           "name": "我想到了！ Eureka!",
-          "description": "<p><strong>需求 </strong>你处于威胁程度高于微弱的遭遇中。</p>\n<hr />\n<p>你将知识转化为迅速行动。你对一个你能看见的生物 @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}，然后使用「超载」。</p>"
+          "description": "<p><strong>需求 </strong>你处于威胁程度高于微弱的遭遇中。</p>\n<hr />\n<p>你将知识转化为迅速行动。你对一个你能看见的生物 @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}，然后使用「超载」。</p>",
+          "prerequisites": [
+            {
+              "value": "超载"
+            }
+          ]
         },
         "Gadgeteer Innovation": {
           "name": "装置师大发明 Gadgeteer Innovation",
@@ -390,7 +492,12 @@
         },
         "Powerful Leap": {
           "name": "强力跳跃 Powerful Leap",
-          "description": "<p>你的垂直@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}无需进行@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}就能达到5尺高度。你还会在跳跃时增加5尺水平距离，包括跳高和@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}。</p>"
+          "description": "<p>你的垂直@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}无需进行@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}就能达到5尺高度。你还会在跳跃时增加5尺水平距离，包括跳高和@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}。</p>",
+          "prerequisites": [
+            {
+              "value": "运动熟练度为专家"
+            }
+          ]
         },
         "Mechanic": {
           "name": "机修工 Mechanic",
@@ -398,7 +505,12 @@
         },
         "Full Automation+": {
           "name": "全自动+ Full Automation+",
-          "description": "<p>你与你的大发明已交融至无需多想便能使用它们的程度。你永久处于 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。如何使用额外动作取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你的护甲会对最微小的刺激作出反应，将你引向正确方向，前提是你正穿戴它。你可以使用额外动作进行行走、快步，或使用你大发明所提供的某种移动方式（如飞行或游泳）。</li>\n<li><strong>构装体</strong> 你命令构装体的能力变得本能化。你可以使用额外动作命令你的构装体大发明（或在你选择花费 2 个动作命令时，提供其中 1 个动作）。</li>\n<li><strong>武器</strong> 你的武器在你手中变得更易挥舞，以致命的高效近乎成为你身体的延伸。只要你持握着它，它便能毫不费力地飞向你所选的目标。你可以使用额外动作以你的大发明进行打击或装填。</li>\n<li><strong>治疗 </strong>你的大发明被毫不费力地操控。你可以使用额外动作进行 @UUID[Compendium.pf2e-team-plus-inventors.inventors-actions.OAJJz0ey8LU37Ghc]{充能连接} 或 @Compendium[pf2e.feats-srd.obGGzuPcgO5Xiz6P]{烧灼疗法}。</li>\n<li><strong>科法 </strong>你的大发明让你充满魔法数据。你可以使用额外动作施放科法射线。</li>\n<li><strong>小装置 </strong>你的小装置处于一触即发的状态，距离启动只差一念。你可以使用额外动作启动你的小装置大发明或使用「速制小装置」。</li>\n</ul>\n<p><strong>特殊 </strong>如果你拥有 @UUID[Compendium.pf2e-team-plus-inventors.inventors-feats.MoXof6ptZgNSQT4H]{高速发条机}，则当你使用「高速发条机」时，你不再变为迅捷，而是改为为你的大发明使用所列其中一项动作。</p>"
+          "description": "<p>你与你的大发明已交融至无需多想便能使用它们的程度。你永久处于 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。如何使用额外动作取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你的护甲会对最微小的刺激作出反应，将你引向正确方向，前提是你正穿戴它。你可以使用额外动作进行行走、快步，或使用你大发明所提供的某种移动方式（如飞行或游泳）。</li>\n<li><strong>构装体</strong> 你命令构装体的能力变得本能化。你可以使用额外动作命令你的构装体大发明（或在你选择花费 2 个动作命令时，提供其中 1 个动作）。</li>\n<li><strong>武器</strong> 你的武器在你手中变得更易挥舞，以致命的高效近乎成为你身体的延伸。只要你持握着它，它便能毫不费力地飞向你所选的目标。你可以使用额外动作以你的大发明进行打击或装填。</li>\n<li><strong>治疗 </strong>你的大发明被毫不费力地操控。你可以使用额外动作进行 @UUID[Compendium.pf2e-team-plus-inventors.inventors-actions.OAJJz0ey8LU37Ghc]{充能连接} 或 @Compendium[pf2e.feats-srd.obGGzuPcgO5Xiz6P]{烧灼疗法}。</li>\n<li><strong>科法 </strong>你的大发明让你充满魔法数据。你可以使用额外动作施放科法射线。</li>\n<li><strong>小装置 </strong>你的小装置处于一触即发的状态，距离启动只差一念。你可以使用额外动作启动你的小装置大发明或使用「速制小装置」。</li>\n</ul>\n<p><strong>特殊 </strong>如果你拥有 @UUID[Compendium.pf2e-team-plus-inventors.inventors-feats.MoXof6ptZgNSQT4H]{高速发条机}，则当你使用「高速发条机」时，你不再变为迅捷，而是改为为你的大发明使用所列其中一项动作。</p>",
+          "prerequisites": [
+            {
+              "value": "护甲、构装、武器、治疗、科法或装置大发明"
+            }
+          ]
         },
         "jUtZBdttmCrX7TDn": {
           "name": "盾牌格挡 Shield Block",
@@ -431,7 +543,12 @@
       "items": {
         "Magical Crafting": {
           "name": "魔法手艺 Magical Crafting",
-          "description": "<p>你可以@UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{制作}魔法物品，不过某些物品会有其它条件。选取此专长时，你立即将四种2级或更低级常见魔法物品的配方加入你的配方簿中。</p>"
+          "description": "<p>你可以@UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{制作}魔法物品，不过某些物品会有其它条件。选取此专长时，你立即将四种2级或更低级常见魔法物品的配方加入你的配方簿中。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为专家"
+            }
+          ]
         },
         "Master Overdrive": {
           "name": "大师超载 Master Overdrive",
@@ -458,7 +575,12 @@
         },
         "Fail-Proof Gadgetry": {
           "name": "无失装置技艺 Fail-Proof Gadgetry",
-          "description": "<p>你已学到，一次快速修复就足以将彻底的失败转为成功。你可以每轮一次而非每 10分钟一次使用「装置师入门」反应。</p>"
+          "description": "<p>你已学到，一次快速修复就足以将彻底的失败转为成功。你可以每轮一次而非每 10分钟一次使用「装置师入门」反应。</p>",
+          "prerequisites": [
+            {
+              "value": "装置师入门"
+            }
+          ]
         },
         "Revolutionary Innovation": {
           "name": "革命性大发明 Revolutionary Innovation",
@@ -510,11 +632,24 @@
         },
         "Basic Gadgets": {
           "name": "基础小装置 Basic Gadgets",
-          "description": "<p>对你而言，某些小装置过于基础，制作起来不值一提。当你在每日准备期间创建临时小装置时，只要它们等级不高于你等级的一半，你便可以使用其中一件临时小装置创建出两件相同类型的临时小装置。如果你在手艺上为传奇，则可改为创建四件相同类型的小装置。</p>"
+          "description": "<p>对你而言，某些小装置过于基础，制作起来不值一提。当你在每日准备期间创建临时小装置时，只要它们等级不高于你等级的一半，你便可以使用其中一件临时小装置创建出两件相同类型的临时小装置。如果你在手艺上为传奇，则可改为创建四件相同类型的小装置。</p>",
+          "prerequisites": [
+            {
+              "value": "装置师入门"
+            },
+            {
+              "value": "手艺熟练度为大师"
+            }
+          ]
         },
         "Clockwork Celerity+": {
           "name": "高速发条机+ Clockwork Celerity+",
-          "description": "<p><strong>触发</strong> 你的回合开始。</p>\n<hr />\n<p>你可以使用大发明中的不稳定发条装置，推动你的发明更快地运作。本回合你处于 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。如何使用额外动作取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你可以使用额外动作进行快步、行走，或使用你大发明所授予的另一种移动动作（如有「潜水护甲」专长则为游泳）。</li>\n<li><strong>构装体</strong> 你可以使用额外动作来命令你的构装体大发明（或在你花费 2 个动作命令构装体时，提供其中 1 个动作）。</li>\n<li><strong>武器</strong> 你可以使用额外动作以你的大发明进行打击或装填。</li>\n<li><strong>治疗 </strong>你可以使用额外动作进行 @UUID[Compendium.pf2e-team-plus-inventors.inventors-actions.OAJJz0ey8LU37Ghc]{充能连接} 或 @Compendium[pf2e.feats-srd.obGGzuPcgO5Xiz6P]{烧灼疗法}。</li>\n<li><strong>科法 </strong>你可以使用额外动作施放科法射线。</li>\n<li><strong>小装置</strong> 你可以使用额外动作来启动你的小装置大发明或使用「速制小装置」。</li>\n</ul>"
+          "description": "<p><strong>触发</strong> 你的回合开始。</p>\n<hr />\n<p>你可以使用大发明中的不稳定发条装置，推动你的发明更快地运作。本回合你处于 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。如何使用额外动作取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你可以使用额外动作进行快步、行走，或使用你大发明所授予的另一种移动动作（如有「潜水护甲」专长则为游泳）。</li>\n<li><strong>构装体</strong> 你可以使用额外动作来命令你的构装体大发明（或在你花费 2 个动作命令构装体时，提供其中 1 个动作）。</li>\n<li><strong>武器</strong> 你可以使用额外动作以你的大发明进行打击或装填。</li>\n<li><strong>治疗 </strong>你可以使用额外动作进行 @UUID[Compendium.pf2e-team-plus-inventors.inventors-actions.OAJJz0ey8LU37Ghc]{充能连接} 或 @Compendium[pf2e.feats-srd.obGGzuPcgO5Xiz6P]{烧灼疗法}。</li>\n<li><strong>科法 </strong>你可以使用额外动作施放科法射线。</li>\n<li><strong>小装置</strong> 你可以使用额外动作来启动你的小装置大发明或使用「速制小装置」。</li>\n</ul>",
+          "prerequisites": [
+            {
+              "value": "护甲、构装、武器、治疗、科法或装置大发明"
+            }
+          ]
         },
         "Innovation": {
           "name": "大发明 Innovation",
@@ -526,7 +661,12 @@
         },
         "Gadget Specialist": {
           "name": "小装置专家 Gadget Specialist",
-          "description": "<p>你不仅仅用你的小装置来增压或调校，你每天也能制作一些特殊的临时消耗小装置。你获得3个常见或罕见的小装置的配方。每天在每日准备期间，你可以从配方簿中制造两个临时小装置。按这种方式准备的小装置不会消耗你任何资源来制作，也不存在出售价格。它们是临时物品，如果到你下一次进行每日准备时还没使用就会解离。</p>\n<p>如果你在手艺达到大师，你每天可以制作3个小装置，你也获得3个额外的常见或罕见小装置配方。如果你在手艺上达到传奇，你每天可以制作4个小装置，你也获得3个额外的常见或罕见小装置配方，总共加起来有9个。</p>"
+          "description": "<p>你不仅仅用你的小装置来增压或调校，你每天也能制作一些特殊的临时消耗小装置。你获得3个常见或罕见的小装置的配方。每天在每日准备期间，你可以从配方簿中制造两个临时小装置。按这种方式准备的小装置不会消耗你任何资源来制作，也不存在出售价格。它们是临时物品，如果到你下一次进行每日准备时还没使用就会解离。</p>\n<p>如果你在手艺达到大师，你每天可以制作3个小装置，你也获得3个额外的常见或罕见小装置配方。如果你在手艺上达到传奇，你每天可以制作4个小装置，你也获得3个额外的常见或罕见小装置配方，总共加起来有9个。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为专家"
+            }
+          ]
         },
         "Gadgeteer Dedication": {
           "name": "装置师入门 Gadgeteer Dedication",
@@ -574,7 +714,12 @@
         },
         "Crafter's Appraisal": {
           "name": "工匠评估 Crafter's Appraisal",
-          "description": "<p>你对物品的知识储备让你可以辨识魔法效果。你可以使用手艺技能而非对应魔法根源的关联技能来对魔法物品使用@UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{辨识魔法}行动，不过也只能对魔法物品。</p>"
+          "description": "<p>你对物品的知识储备让你可以辨识魔法效果。你可以使用手艺技能而非对应魔法根源的关联技能来对魔法物品使用@UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{辨识魔法}行动，不过也只能对魔法物品。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为受训"
+            }
+          ]
         },
         "Peerless Inventor": {
           "name": "超凡发明家 Peerless Inventor",
@@ -589,7 +734,12 @@
         },
         "Variable Gadgetry": {
           "name": "可变小装置 Variable Gadgetry",
-          "description": "<p>你调整你大发明的临时小装置，按需改变其伤害类型。当你创建造成伤害的临时小装置时，你可以在酸蚀、寒冷、电击或火焰之间选择，让你的小装置造成所选伤害类型，而非其原本的伤害类型。</p>"
+          "description": "<p>你调整你大发明的临时小装置，按需改变其伤害类型。当你创建造成伤害的临时小装置时，你可以在酸蚀、寒冷、电击或火焰之间选择，让你的小装置造成所选伤害类型，而非其原本的伤害类型。</p>",
+          "prerequisites": [
+            {
+              "value": "装置师入门"
+            }
+          ]
         },
         "Miraculous Repair": {
           "name": "奇迹修复 Miraculous Repair",
@@ -601,7 +751,12 @@
         },
         "Swift Sneak": {
           "name": "迅速潜行 Swift Sneak",
-          "description": "<p>你在@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}时可以全速移动。只要你拥有相应的移动类型，就可以在掘地、攀爬、飞行、游泳时潜行，而非仅在行走时。</p>"
+          "description": "<p>你在@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}时可以全速移动。只要你拥有相应的移动类型，就可以在掘地、攀爬、飞行、游泳时潜行，而非仅在行走时。</p>",
+          "prerequisites": [
+            {
+              "value": "隐秘熟练度为大师"
+            }
+          ]
         },
         "Acid Flask (Lesser)": {
           "name": "次等强酸瓶 Acid Flask (Lesser)",
@@ -645,7 +800,12 @@
         },
         "Specialty Crafting (Blacksmithing)": {
           "name": "独门手艺（打铁） Specialty Crafting (Blacksmithing)",
-          "description": "<p>你的训练专注于制作某一类特定物品。从下方列出的专精类型中选择一种；在制作该类物品时，你的手艺检定获得+1环境加值。如果你在手艺上的熟练度为大师，该加值提升至+2。如果无法明确该专精是否适用，由GM裁定。某些专精可能只能部分适用。例如，如果你在制作一把钉头锤而你的专精是木工，GM可能只给你一半加值，因为该物品同时需要锻造和木工。</p>\n<table class=\"pf2-table\" style=\"white-space:nowrap\">\n<thead>\n<tr>\n<th>专精类型</th>\n<th>适用物品</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>炼金术*</td>\n<td>灵药等炼金物品</td>\n</tr>\n<tr>\n<td>艺术</td>\n<td>精美艺术品，包括珠宝首饰</td>\n</tr>\n<tr>\n<td>锻造</td>\n<td>耐用的金属制品，包括金属护甲</td>\n</tr>\n<tr>\n<td>书籍制作</td>\n<td>书本和纸张</td>\n</tr>\n<tr>\n<td>玻璃制作</td>\n<td>玻璃制品，包括玻璃器皿和窗玻璃</td>\n</tr>\n<tr>\n<td>制皮</td>\n<td>皮革制品，包括皮甲</td>\n</tr>\n<tr>\n<td>陶艺</td>\n<td>陶瓷制品</td>\n</tr>\n<tr>\n<td>造船</td>\n<td>大小船只</td>\n</tr>\n<tr>\n<td>石工</td>\n<td>石头制品和石造建筑</td>\n</tr>\n<tr>\n<td>裁缝</td>\n<td>衣物</td>\n</tr>\n<tr>\n<td>编织</td>\n<td>纺织品、篮筐和地毯</td>\n</tr>\n<tr>\n<td>木工</td>\n<td>木制品和木造建筑</td>\n</tr>\n</tbody>\n</table>\n<p>* 你必须拥有@UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{炼金手艺}技能专长才能制作炼金物品。</p>"
+          "description": "<p>你的训练专注于制作某一类特定物品。从下方列出的专精类型中选择一种；在制作该类物品时，你的手艺检定获得+1环境加值。如果你在手艺上的熟练度为大师，该加值提升至+2。如果无法明确该专精是否适用，由GM裁定。某些专精可能只能部分适用。例如，如果你在制作一把钉头锤而你的专精是木工，GM可能只给你一半加值，因为该物品同时需要锻造和木工。</p>\n<table class=\"pf2-table\" style=\"white-space:nowrap\">\n<thead>\n<tr>\n<th>专精类型</th>\n<th>适用物品</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>炼金术*</td>\n<td>灵药等炼金物品</td>\n</tr>\n<tr>\n<td>艺术</td>\n<td>精美艺术品，包括珠宝首饰</td>\n</tr>\n<tr>\n<td>锻造</td>\n<td>耐用的金属制品，包括金属护甲</td>\n</tr>\n<tr>\n<td>书籍制作</td>\n<td>书本和纸张</td>\n</tr>\n<tr>\n<td>玻璃制作</td>\n<td>玻璃制品，包括玻璃器皿和窗玻璃</td>\n</tr>\n<tr>\n<td>制皮</td>\n<td>皮革制品，包括皮甲</td>\n</tr>\n<tr>\n<td>陶艺</td>\n<td>陶瓷制品</td>\n</tr>\n<tr>\n<td>造船</td>\n<td>大小船只</td>\n</tr>\n<tr>\n<td>石工</td>\n<td>石头制品和石造建筑</td>\n</tr>\n<tr>\n<td>裁缝</td>\n<td>衣物</td>\n</tr>\n<tr>\n<td>编织</td>\n<td>纺织品、篮筐和地毯</td>\n</tr>\n<tr>\n<td>木工</td>\n<td>木制品和木造建筑</td>\n</tr>\n</tbody>\n</table>\n<p>* 你必须拥有@UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{炼金手艺}技能专长才能制作炼金物品。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为受训"
+            }
+          ]
         },
         "Waffle Iron": {
           "name": "华夫饼机 Waffle Iron",
@@ -673,7 +833,12 @@
         },
         "Inventor": {
           "name": "发明家 Inventor",
-          "description": "<p>你是制作方面的天才，能够轻而易举地判断东西是怎么做出来的，并实现新的发明创作。你可以花费休整期时间，发明一个你未掌握的常见制作配方。规则类似制作行动：你预先支付等于配方价格一半的金钱，并尝试一次手艺检定，成功时可以支付差价完成配方，也可以花更长时间继续降低价格。区别在于，你的额外时间被花在研究、设计与开发上，而非制作一件物品。行动完成之后，即可以将你发明的新制作配方加入你的配方簿。</p>\n<p>GM或许会允许你发明罕见或稀有制作配方，它们的DC通常更高。要发明炼金配方，你需要拥有专长“炼金手艺”；要发明魔法物品配方，需要拥有“魔法手艺”。</p>"
+          "description": "<p>你是制作方面的天才，能够轻而易举地判断东西是怎么做出来的，并实现新的发明创作。你可以花费休整期时间，发明一个你未掌握的常见制作配方。规则类似制作行动：你预先支付等于配方价格一半的金钱，并尝试一次手艺检定，成功时可以支付差价完成配方，也可以花更长时间继续降低价格。区别在于，你的额外时间被花在研究、设计与开发上，而非制作一件物品。行动完成之后，即可以将你发明的新制作配方加入你的配方簿。</p>\n<p>GM或许会允许你发明罕见或稀有制作配方，它们的DC通常更高。要发明炼金配方，你需要拥有专长“炼金手艺”；要发明魔法物品配方，需要拥有“魔法手艺”。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为专家"
+            }
+          ]
         },
         "Complete Reconfiguration": {
           "name": "完全再配置 Complete Reconfiguration",
@@ -681,7 +846,12 @@
         },
         "Titan Wrestler": {
           "name": "巨人摔角术 Titan Wrestler",
-          "description": "<p>你可以对体型最多比你大两级的生物尝试@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}、@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}、@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}或 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}，若你在运动技能上的熟练度达到传奇，则目标可以是体型最多比你大三级的生物。</p>"
+          "description": "<p>你可以对体型最多比你大两级的生物尝试@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}、@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}、@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}或 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}，若你在运动技能上的熟练度达到传奇，则目标可以是体型最多比你大三级的生物。</p>",
+          "prerequisites": [
+            {
+              "value": "运动熟练度为受训"
+            }
+          ]
         },
         "Bracelet of Dashing": {
           "name": "冲刺手镯 Bracelet of Dashing",
@@ -703,7 +873,12 @@
         },
         "Quick Repair": {
           "name": "迅速修理 Quick Repair",
-          "description": "<p>对你而言，@UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{修理}行动失去探索特征，只需花费1分钟而非正常情况的10分钟。若你在手艺技能上的熟练度达到大师，只需花费3个动作；若达到传奇，只需1个动作。</p>"
+          "description": "<p>对你而言，@UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{修理}行动失去探索特征，只需花费1分钟而非正常情况的10分钟。若你在手艺技能上的熟练度达到大师，只需花费3个动作；若达到传奇，只需1个动作。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为受训"
+            }
+          ]
         },
         "Alertness": {
           "name": "警觉 Alertness",
@@ -727,7 +902,15 @@
         },
         "Impeccable Crafting": {
           "name": "完美手艺 Impeccable Crafting",
-          "description": "<p>你能以极高的效率制作出完美无瑕的成品。制作你在@UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{独门手艺}中所选类型的物品时，每当你的手艺检定掷出成功，改为获得大成功。</p>"
+          "description": "<p>你能以极高的效率制作出完美无瑕的成品。制作你在@UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{独门手艺}中所选类型的物品时，每当你的手艺检定掷出成功，改为获得大成功。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为大师"
+            },
+            {
+              "value": "独门手艺"
+            }
+          ]
         },
         "Silver Pieces": {
           "name": "银币 Silver Pieces"
@@ -746,7 +929,12 @@
         },
         "Eureka!": {
           "name": "我想到了！ Eureka!",
-          "description": "<p><strong>需求 </strong>你处于威胁程度高于微弱的遭遇中。</p>\n<hr />\n<p>你将知识转化为迅速行动。你对一个你能看见的生物 @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}，然后使用「超载」。</p>"
+          "description": "<p><strong>需求 </strong>你处于威胁程度高于微弱的遭遇中。</p>\n<hr />\n<p>你将知识转化为迅速行动。你对一个你能看见的生物 @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}，然后使用「超载」。</p>",
+          "prerequisites": [
+            {
+              "value": "超载"
+            }
+          ]
         },
         "Gadgeteer Innovation": {
           "name": "装置师大发明 Gadgeteer Innovation",
@@ -773,7 +961,12 @@
         },
         "Powerful Leap": {
           "name": "强力跳跃 Powerful Leap",
-          "description": "<p>你的垂直@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}无需进行@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}就能达到5尺高度。你还会在跳跃时增加5尺水平距离，包括跳高和@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}。</p>"
+          "description": "<p>你的垂直@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}无需进行@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}就能达到5尺高度。你还会在跳跃时增加5尺水平距离，包括跳高和@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}。</p>",
+          "prerequisites": [
+            {
+              "value": "运动熟练度为专家"
+            }
+          ]
         },
         "Mechanic": {
           "name": "机修工 Mechanic",
@@ -810,7 +1003,12 @@
       "items": {
         "Magical Crafting": {
           "name": "魔法手艺 Magical Crafting",
-          "description": "<p>你可以@UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{制作}魔法物品，不过某些物品会有其它条件。选取此专长时，你立即将四种2级或更低级常见魔法物品的配方加入你的配方簿中。</p>"
+          "description": "<p>你可以@UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{制作}魔法物品，不过某些物品会有其它条件。选取此专长时，你立即将四种2级或更低级常见魔法物品的配方加入你的配方簿中。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为专家"
+            }
+          ]
         },
         "Master Overdrive": {
           "name": "大师超载 Master Overdrive",
@@ -865,11 +1063,24 @@
         },
         "Basic Gadgets": {
           "name": "基础小装置 Basic Gadgets",
-          "description": "<p>对你而言，某些小装置过于基础，制作起来不值一提。当你在每日准备期间创建临时小装置时，只要它们等级不高于你等级的一半，你便可以使用其中一件临时小装置创建出两件相同类型的临时小装置。如果你在手艺上为传奇，则可改为创建四件相同类型的小装置。</p>"
+          "description": "<p>对你而言，某些小装置过于基础，制作起来不值一提。当你在每日准备期间创建临时小装置时，只要它们等级不高于你等级的一半，你便可以使用其中一件临时小装置创建出两件相同类型的临时小装置。如果你在手艺上为传奇，则可改为创建四件相同类型的小装置。</p>",
+          "prerequisites": [
+            {
+              "value": "装置师入门"
+            },
+            {
+              "value": "手艺熟练度为大师"
+            }
+          ]
         },
         "Clockwork Celerity+": {
           "name": "高速发条机+ Clockwork Celerity+",
-          "description": "<p><strong>触发</strong> 你的回合开始。</p>\n<hr />\n<p>你可以使用大发明中的不稳定发条装置，推动你的发明更快地运作。本回合你处于 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。如何使用额外动作取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你可以使用额外动作进行快步、行走，或使用你大发明所授予的另一种移动动作（如有「潜水护甲」专长则为游泳）。</li>\n<li><strong>构装体</strong> 你可以使用额外动作来命令你的构装体大发明（或在你花费 2 个动作命令构装体时，提供其中 1 个动作）。</li>\n<li><strong>武器</strong> 你可以使用额外动作以你的大发明进行打击或装填。</li>\n<li><strong>治疗 </strong>你可以使用额外动作进行 @UUID[Compendium.pf2e-team-plus-inventors.inventors-actions.OAJJz0ey8LU37Ghc]{充能连接} 或 @Compendium[pf2e.feats-srd.obGGzuPcgO5Xiz6P]{烧灼疗法}。</li>\n<li><strong>科法 </strong>你可以使用额外动作施放科法射线。</li>\n<li><strong>小装置</strong> 你可以使用额外动作来启动你的小装置大发明或使用「速制小装置」。</li>\n</ul>"
+          "description": "<p><strong>触发</strong> 你的回合开始。</p>\n<hr />\n<p>你可以使用大发明中的不稳定发条装置，推动你的发明更快地运作。本回合你处于 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。如何使用额外动作取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你可以使用额外动作进行快步、行走，或使用你大发明所授予的另一种移动动作（如有「潜水护甲」专长则为游泳）。</li>\n<li><strong>构装体</strong> 你可以使用额外动作来命令你的构装体大发明（或在你花费 2 个动作命令构装体时，提供其中 1 个动作）。</li>\n<li><strong>武器</strong> 你可以使用额外动作以你的大发明进行打击或装填。</li>\n<li><strong>治疗 </strong>你可以使用额外动作进行 @UUID[Compendium.pf2e-team-plus-inventors.inventors-actions.OAJJz0ey8LU37Ghc]{充能连接} 或 @Compendium[pf2e.feats-srd.obGGzuPcgO5Xiz6P]{烧灼疗法}。</li>\n<li><strong>科法 </strong>你可以使用额外动作施放科法射线。</li>\n<li><strong>小装置</strong> 你可以使用额外动作来启动你的小装置大发明或使用「速制小装置」。</li>\n</ul>",
+          "prerequisites": [
+            {
+              "value": "护甲、构装、武器、治疗、科法或装置大发明"
+            }
+          ]
         },
         "Innovation": {
           "name": "大发明 Innovation",
@@ -881,7 +1092,12 @@
         },
         "Gadget Specialist": {
           "name": "小装置专家 Gadget Specialist",
-          "description": "<p>你不仅仅用你的小装置来增压或调校，你每天也能制作一些特殊的临时消耗小装置。你获得3个常见或罕见的小装置的配方。每天在每日准备期间，你可以从配方簿中制造两个临时小装置。按这种方式准备的小装置不会消耗你任何资源来制作，也不存在出售价格。它们是临时物品，如果到你下一次进行每日准备时还没使用就会解离。</p>\n<p>如果你在手艺达到大师，你每天可以制作3个小装置，你也获得3个额外的常见或罕见小装置配方。如果你在手艺上达到传奇，你每天可以制作4个小装置，你也获得3个额外的常见或罕见小装置配方，总共加起来有9个。</p>"
+          "description": "<p>你不仅仅用你的小装置来增压或调校，你每天也能制作一些特殊的临时消耗小装置。你获得3个常见或罕见的小装置的配方。每天在每日准备期间，你可以从配方簿中制造两个临时小装置。按这种方式准备的小装置不会消耗你任何资源来制作，也不存在出售价格。它们是临时物品，如果到你下一次进行每日准备时还没使用就会解离。</p>\n<p>如果你在手艺达到大师，你每天可以制作3个小装置，你也获得3个额外的常见或罕见小装置配方。如果你在手艺上达到传奇，你每天可以制作4个小装置，你也获得3个额外的常见或罕见小装置配方，总共加起来有9个。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为专家"
+            }
+          ]
         },
         "Gadgeteer Dedication": {
           "name": "装置师入门 Gadgeteer Dedication",
@@ -913,7 +1129,12 @@
         },
         "Crafter's Appraisal": {
           "name": "工匠评估 Crafter's Appraisal",
-          "description": "<p>你对物品的知识储备让你可以辨识魔法效果。你可以使用手艺技能而非对应魔法根源的关联技能来对魔法物品使用@UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{辨识魔法}行动，不过也只能对魔法物品。</p>"
+          "description": "<p>你对物品的知识储备让你可以辨识魔法效果。你可以使用手艺技能而非对应魔法根源的关联技能来对魔法物品使用@UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{辨识魔法}行动，不过也只能对魔法物品。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为受训"
+            }
+          ]
         },
         "Peerless Inventor": {
           "name": "超凡发明家 Peerless Inventor",
@@ -929,7 +1150,12 @@
         },
         "Variable Gadgetry": {
           "name": "可变小装置 Variable Gadgetry",
-          "description": "<p>你调整你大发明的临时小装置，按需改变其伤害类型。当你创建造成伤害的临时小装置时，你可以在酸蚀、寒冷、电击或火焰之间选择，让你的小装置造成所选伤害类型，而非其原本的伤害类型。</p>"
+          "description": "<p>你调整你大发明的临时小装置，按需改变其伤害类型。当你创建造成伤害的临时小装置时，你可以在酸蚀、寒冷、电击或火焰之间选择，让你的小装置造成所选伤害类型，而非其原本的伤害类型。</p>",
+          "prerequisites": [
+            {
+              "value": "装置师入门"
+            }
+          ]
         },
         "Miraculous Repair": {
           "name": "奇迹修复 Miraculous Repair",
@@ -961,7 +1187,12 @@
         },
         "Specialty Crafting (Blacksmithing)": {
           "name": "独门手艺（打铁） Specialty Crafting (Blacksmithing)",
-          "description": "<p>你的训练专注于制作某一类特定的物品。从下列专精中选择一项；在制作该类物品时，你的手艺检定获得+1环境加值。如果你在手艺上达到大师，该加值提升至+2。若无法确定该专精是否适用，交由GM裁定。有些专精可能只能部分适用。举例来说，如果你在制作一把钉头锤，而你的专精是木工，GM可能只给你一半加值，因为该物品同时需要锻造与木工。</p>\n<table class=\"pf2-table\" style=\"white-space:nowrap\">\n<thead>\n<tr>\n<th>专精</th>\n<th>适用物品</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>炼金术*</td>\n<td>灵药等炼金物品</td>\n</tr>\n<tr>\n<td>艺术</td>\n<td>精美艺术品，包括珠宝首饰</td>\n</tr>\n<tr>\n<td>锻造</td>\n<td>耐用的金属制品，包括金属护甲</td>\n</tr>\n<tr>\n<td>书籍制作</td>\n<td>书本与纸张</td>\n</tr>\n<tr>\n<td>玻璃制作</td>\n<td>玻璃，包括玻璃器皿与窗玻璃</td>\n</tr>\n<tr>\n<td>制皮</td>\n<td>皮革制品，包括皮甲</td>\n</tr>\n<tr>\n<td>陶艺</td>\n<td>陶瓷制品</td>\n</tr>\n<tr>\n<td>造船</td>\n<td>大小船只</td>\n</tr>\n<tr>\n<td>石工</td>\n<td>石头制品与石造建筑</td>\n</tr>\n<tr>\n<td>裁缝</td>\n<td>衣物</td>\n</tr>\n<tr>\n<td>编织</td>\n<td>纺织品、篮筐与地毯</td>\n</tr>\n<tr>\n<td>木工</td>\n<td>木制品与木造建筑</td>\n</tr>\n</tbody>\n</table>\n<p>* 你必须拥有@UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{炼金手艺}技能专长才能制作炼金物品。</p>"
+          "description": "<p>你的训练专注于制作某一类特定的物品。从下列专精中选择一项；在制作该类物品时，你的手艺检定获得+1环境加值。如果你在手艺上达到大师，该加值提升至+2。若无法确定该专精是否适用，交由GM裁定。有些专精可能只能部分适用。举例来说，如果你在制作一把钉头锤，而你的专精是木工，GM可能只给你一半加值，因为该物品同时需要锻造与木工。</p>\n<table class=\"pf2-table\" style=\"white-space:nowrap\">\n<thead>\n<tr>\n<th>专精</th>\n<th>适用物品</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>炼金术*</td>\n<td>灵药等炼金物品</td>\n</tr>\n<tr>\n<td>艺术</td>\n<td>精美艺术品，包括珠宝首饰</td>\n</tr>\n<tr>\n<td>锻造</td>\n<td>耐用的金属制品，包括金属护甲</td>\n</tr>\n<tr>\n<td>书籍制作</td>\n<td>书本与纸张</td>\n</tr>\n<tr>\n<td>玻璃制作</td>\n<td>玻璃，包括玻璃器皿与窗玻璃</td>\n</tr>\n<tr>\n<td>制皮</td>\n<td>皮革制品，包括皮甲</td>\n</tr>\n<tr>\n<td>陶艺</td>\n<td>陶瓷制品</td>\n</tr>\n<tr>\n<td>造船</td>\n<td>大小船只</td>\n</tr>\n<tr>\n<td>石工</td>\n<td>石头制品与石造建筑</td>\n</tr>\n<tr>\n<td>裁缝</td>\n<td>衣物</td>\n</tr>\n<tr>\n<td>编织</td>\n<td>纺织品、篮筐与地毯</td>\n</tr>\n<tr>\n<td>木工</td>\n<td>木制品与木造建筑</td>\n</tr>\n</tbody>\n</table>\n<p>* 你必须拥有@UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{炼金手艺}技能专长才能制作炼金物品。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为受训"
+            }
+          ]
         },
         "Waffle Iron": {
           "name": "华夫饼机 Waffle Iron",
@@ -987,11 +1218,21 @@
         },
         "Inventor": {
           "name": "发明家 Inventor",
-          "description": "<p>你是制作方面的天才，能够轻而易举地判断东西是怎么做出来的，并实现新的发明创作。你可以花费休整期时间，发明一个你未掌握的常见制作配方。规则类似制作行动：你预先支付等于配方价格一半的金钱，并尝试一次手艺检定，成功时可以支付差价完成配方，也可以花更长时间继续降低价格。区别在于，你的额外时间被花在研究、设计与开发上，而非制作一件物品。行动完成之后，即可以将你发明的新制作配方加入你的配方簿。</p>\n<p>GM或许会允许你发明罕见或稀有制作配方，它们的DC通常更高。要发明炼金配方，你需要拥有专长“炼金手艺”；要发明魔法物品配方，需要拥有“魔法手艺”。</p>"
+          "description": "<p>你是制作方面的天才，能够轻而易举地判断东西是怎么做出来的，并实现新的发明创作。你可以花费休整期时间，发明一个你未掌握的常见制作配方。规则类似制作行动：你预先支付等于配方价格一半的金钱，并尝试一次手艺检定，成功时可以支付差价完成配方，也可以花更长时间继续降低价格。区别在于，你的额外时间被花在研究、设计与开发上，而非制作一件物品。行动完成之后，即可以将你发明的新制作配方加入你的配方簿。</p>\n<p>GM或许会允许你发明罕见或稀有制作配方，它们的DC通常更高。要发明炼金配方，你需要拥有专长“炼金手艺”；要发明魔法物品配方，需要拥有“魔法手艺”。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为专家"
+            }
+          ]
         },
         "Titan Wrestler": {
           "name": "巨人摔角术 Titan Wrestler",
-          "description": "<p>你可以对体型最多比你大两级的生物尝试@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}、@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}、@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}或 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}，若你在运动技能上的熟练度达到传奇，则目标可以是体型最多比你大三级的生物。</p>"
+          "description": "<p>你可以对体型最多比你大两级的生物尝试@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武}、@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}、@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}或 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}，若你在运动技能上的熟练度达到传奇，则目标可以是体型最多比你大三级的生物。</p>",
+          "prerequisites": [
+            {
+              "value": "运动熟练度为受训"
+            }
+          ]
         },
         "Engineering Lore": {
           "name": "工程学识 Engineering Lore"
@@ -1005,7 +1246,12 @@
         },
         "Quick Repair": {
           "name": "迅速修理 Quick Repair",
-          "description": "<p>对你而言，@UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{修理}行动失去探索特征，只需花费1分钟而非正常情况的10分钟。若你在手艺技能上的熟练度达到大师，只需花费3个动作；若达到传奇，只需1个动作。</p>"
+          "description": "<p>对你而言，@UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{修理}行动失去探索特征，只需花费1分钟而非正常情况的10分钟。若你在手艺技能上的熟练度达到大师，只需花费3个动作；若达到传奇，只需1个动作。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为受训"
+            }
+          ]
         },
         "Offensive Boost+ (Ignition (Fire))": {
           "name": "攻势增压+（点火（火焰）） Offensive Boost+ (Ignition (Fire))",
@@ -1045,7 +1291,12 @@
         },
         "Eureka!": {
           "name": "我想到了！ Eureka!",
-          "description": "<p><strong>需求 </strong>你处于威胁程度高于微弱的遭遇中。</p>\n<hr />\n<p>你将知识转化为迅速行动。你对一个你能看见的生物 @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}，然后使用「超载」。</p>"
+          "description": "<p><strong>需求 </strong>你处于威胁程度高于微弱的遭遇中。</p>\n<hr />\n<p>你将知识转化为迅速行动。你对一个你能看见的生物 @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}，然后使用「超载」。</p>",
+          "prerequisites": [
+            {
+              "value": "超载"
+            }
+          ]
         },
         "Gadgeteer Innovation": {
           "name": "装置师大发明 Gadgeteer Innovation",
@@ -1076,7 +1327,12 @@
         },
         "Powerful Leap": {
           "name": "强力跳跃 Powerful Leap",
-          "description": "<p>你的垂直@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}无需进行@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}就能达到5尺高度。你还会在跳跃时增加5尺水平距离，包括跳高和@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}。</p>"
+          "description": "<p>你的垂直@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}无需进行@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}就能达到5尺高度。你还会在跳跃时增加5尺水平距离，包括跳高和@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}。</p>",
+          "prerequisites": [
+            {
+              "value": "运动熟练度为专家"
+            }
+          ]
         },
         "+1 Striking Flaming Alchemical Gauntlet": {
           "name": "+1 强击烈焰炼金战手套 +1 Striking Flaming Alchemical Gauntlet",
@@ -1208,7 +1464,12 @@
         },
         "Inventor": {
           "name": "发明家 Inventor",
-          "description": "<p>你是制作方面的天才，能够轻而易举地判断东西是怎么做出来的，并实现新的发明创作。你可以花费休整期时间，发明一个你未掌握的常见制作配方。规则类似制作行动：你预先支付等于配方价格一半的金钱，并尝试一次手艺检定，成功时可以支付差价完成配方，也可以花更长时间继续降低价格。区别在于，你的额外时间被花在研究、设计与开发上，而非制作一件物品。行动完成之后，即可以将你发明的新制作配方加入你的配方簿。</p>\n<p>GM或许会允许你发明罕见或稀有制作配方，它们的DC通常更高。要发明炼金配方，你需要拥有专长“炼金手艺”；要发明魔法物品配方，需要拥有“魔法手艺”。</p>"
+          "description": "<p>你是制作方面的天才，能够轻而易举地判断东西是怎么做出来的，并实现新的发明创作。你可以花费休整期时间，发明一个你未掌握的常见制作配方。规则类似制作行动：你预先支付等于配方价格一半的金钱，并尝试一次手艺检定，成功时可以支付差价完成配方，也可以花更长时间继续降低价格。区别在于，你的额外时间被花在研究、设计与开发上，而非制作一件物品。行动完成之后，即可以将你发明的新制作配方加入你的配方簿。</p>\n<p>GM或许会允许你发明罕见或稀有制作配方，它们的DC通常更高。要发明炼金配方，你需要拥有专长“炼金手艺”；要发明魔法物品配方，需要拥有“魔法手艺”。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为专家"
+            }
+          ]
         },
         "Engineering Lore": {
           "name": "工程学识 Engineering Lore"
@@ -1222,7 +1483,12 @@
         },
         "Quick Repair": {
           "name": "迅速修理 Quick Repair",
-          "description": "<p>对你而言，@UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{修理}行动失去探索特征，只需花费1分钟而非正常情况的10分钟。若你在手艺技能上的熟练度达到大师，只需花费3个动作；若达到传奇，只需1个动作。</p>"
+          "description": "<p>对你而言，@UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{修理}行动失去探索特征，只需花费1分钟而非正常情况的10分钟。若你在手艺技能上的熟练度达到大师，只需花费3个动作；若达到传奇，只需1个动作。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为受训"
+            }
+          ]
         },
         "Gauntlet": {
           "name": "铁手套 Gauntlet",
@@ -1242,7 +1508,12 @@
         },
         "Eureka!": {
           "name": "我想到了！ Eureka!",
-          "description": "<p><strong>需求 </strong>你处于威胁程度高于微弱的遭遇中。</p>\n<hr />\n<p>你将知识转化为迅速行动。你对一个你能看见的生物 @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}，然后使用「超载」。</p>"
+          "description": "<p><strong>需求 </strong>你处于威胁程度高于微弱的遭遇中。</p>\n<hr />\n<p>你将知识转化为迅速行动。你对一个你能看见的生物 @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}，然后使用「超载」。</p>",
+          "prerequisites": [
+            {
+              "value": "超载"
+            }
+          ]
         },
         "Gadgeteer Innovation": {
           "name": "装置师大发明 Gadgeteer Innovation",
@@ -1285,7 +1556,12 @@
       "items": {
         "Magical Crafting": {
           "name": "魔法手艺 Magical Crafting",
-          "description": "<p>你可以@UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{制作}魔法物品，不过某些物品会有其它条件。选取此专长时，你立即将四种2级或更低级常见魔法物品的配方加入你的配方簿中。</p>"
+          "description": "<p>你可以@UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{制作}魔法物品，不过某些物品会有其它条件。选取此专长时，你立即将四种2级或更低级常见魔法物品的配方加入你的配方簿中。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为专家"
+            }
+          ]
         },
         "Explode+": {
           "name": "爆炸+ Explode+",
@@ -1365,7 +1641,12 @@
         },
         "Variable Gadgetry": {
           "name": "可变小装置 Variable Gadgetry",
-          "description": "<p>你调整你大发明的临时小装置，按需改变其伤害类型。当你创建造成伤害的临时小装置时，你可以在酸蚀、寒冷、电击或火焰之间选择，让你的小装置造成所选伤害类型，而非其原本的伤害类型。</p>"
+          "description": "<p>你调整你大发明的临时小装置，按需改变其伤害类型。当你创建造成伤害的临时小装置时，你可以在酸蚀、寒冷、电击或火焰之间选择，让你的小装置造成所选伤害类型，而非其原本的伤害类型。</p>",
+          "prerequisites": [
+            {
+              "value": "装置师入门"
+            }
+          ]
         },
         "Rope": {
           "name": "绳索 Rope",
@@ -1389,7 +1670,12 @@
         },
         "Specialty Crafting (Blacksmithing)": {
           "name": "独门手艺（打铁） Specialty Crafting (Blacksmithing)",
-          "description": "<p>你针对某一类物品磨练自己的制作技艺。选择下表列出的一种专精类型，在制作该类物品时，你的手艺检定获得+1环境加值。若你在手艺技能上的熟练度达到大师，该加值提高到+2。对于无法明确是否可应用专精效果的情况，交由GM决定。某些专精效果或许只能部分生效。例如，如果你在制作一把钉头锤，且专精类型为木工，GM或许只会给你一半加值，因为制作这件物品同时需要用到锻造和木工两种手艺。</p>\n<table class=\"pf2-table\" style=\"white-space:nowrap\">\n<thead>\n<tr>\n<th>专精类型</th>\n<th>适用物品</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>炼金术*</td>\n<td>灵药等炼金物品</td>\n</tr>\n<tr>\n<td>艺术</td>\n<td>精美艺术品，包括珠宝首饰</td>\n</tr>\n<tr>\n<td>锻造</td>\n<td>耐用的金属制品，包括金属护甲</td>\n</tr>\n<tr>\n<td>书籍制作</td>\n<td>书本和纸张</td>\n</tr>\n<tr>\n<td>玻璃制作</td>\n<td>玻璃，包括玻璃器皿和窗玻璃</td>\n</tr>\n<tr>\n<td>制皮</td>\n<td>皮革制品，包括皮甲</td>\n</tr>\n<tr>\n<td>陶艺</td>\n<td>陶瓷制品</td>\n</tr>\n<tr>\n<td>造船</td>\n<td>大小船只</td>\n</tr>\n<tr>\n<td>石工</td>\n<td>石头制品和石造建筑</td>\n</tr>\n<tr>\n<td>裁缝</td>\n<td>衣物</td>\n</tr>\n<tr>\n<td>编织</td>\n<td>纺织品、篮筐、地毯</td>\n</tr>\n<tr>\n<td>木工</td>\n<td>木制品和木造建筑</td>\n</tr>\n</tbody>\n</table>\n<p>* 你必须拥有@UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{炼金手艺}技能专长，才能制作炼金物品。</p>"
+          "description": "<p>你针对某一类物品磨练自己的制作技艺。选择下表列出的一种专精类型，在制作该类物品时，你的手艺检定获得+1环境加值。若你在手艺技能上的熟练度达到大师，该加值提高到+2。对于无法明确是否可应用专精效果的情况，交由GM决定。某些专精效果或许只能部分生效。例如，如果你在制作一把钉头锤，且专精类型为木工，GM或许只会给你一半加值，因为制作这件物品同时需要用到锻造和木工两种手艺。</p>\n<table class=\"pf2-table\" style=\"white-space:nowrap\">\n<thead>\n<tr>\n<th>专精类型</th>\n<th>适用物品</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>炼金术*</td>\n<td>灵药等炼金物品</td>\n</tr>\n<tr>\n<td>艺术</td>\n<td>精美艺术品，包括珠宝首饰</td>\n</tr>\n<tr>\n<td>锻造</td>\n<td>耐用的金属制品，包括金属护甲</td>\n</tr>\n<tr>\n<td>书籍制作</td>\n<td>书本和纸张</td>\n</tr>\n<tr>\n<td>玻璃制作</td>\n<td>玻璃，包括玻璃器皿和窗玻璃</td>\n</tr>\n<tr>\n<td>制皮</td>\n<td>皮革制品，包括皮甲</td>\n</tr>\n<tr>\n<td>陶艺</td>\n<td>陶瓷制品</td>\n</tr>\n<tr>\n<td>造船</td>\n<td>大小船只</td>\n</tr>\n<tr>\n<td>石工</td>\n<td>石头制品和石造建筑</td>\n</tr>\n<tr>\n<td>裁缝</td>\n<td>衣物</td>\n</tr>\n<tr>\n<td>编织</td>\n<td>纺织品、篮筐、地毯</td>\n</tr>\n<tr>\n<td>木工</td>\n<td>木制品和木造建筑</td>\n</tr>\n</tbody>\n</table>\n<p>* 你必须拥有@UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{炼金手艺}技能专长，才能制作炼金物品。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为受训"
+            }
+          ]
         },
         "Waffle Iron": {
           "name": "华夫饼机 Waffle Iron",
@@ -1417,7 +1703,12 @@
         },
         "Inventor": {
           "name": "发明家 Inventor",
-          "description": "<p>你是制作方面的天才，能够轻而易举地判断东西是怎么做出来的，并实现新的发明创作。你可以花费休整期时间，发明一个你未掌握的常见制作配方。规则类似制作行动：你预先支付等于配方价格一半的金钱，并尝试一次手艺检定，成功时可以支付差价完成配方，也可以花更长时间继续降低价格。区别在于，你的额外时间被花在研究、设计与开发上，而非制作一件物品。行动完成之后，即可以将你发明的新制作配方加入你的配方簿。</p>\n<p>GM或许会允许你发明罕见或稀有制作配方，它们的DC通常更高。要发明炼金配方，你需要拥有专长“炼金手艺”；要发明魔法物品配方，需要拥有“魔法手艺”。</p>"
+          "description": "<p>你是制作方面的天才，能够轻而易举地判断东西是怎么做出来的，并实现新的发明创作。你可以花费休整期时间，发明一个你未掌握的常见制作配方。规则类似制作行动：你预先支付等于配方价格一半的金钱，并尝试一次手艺检定，成功时可以支付差价完成配方，也可以花更长时间继续降低价格。区别在于，你的额外时间被花在研究、设计与开发上，而非制作一件物品。行动完成之后，即可以将你发明的新制作配方加入你的配方簿。</p>\n<p>GM或许会允许你发明罕见或稀有制作配方，它们的DC通常更高。要发明炼金配方，你需要拥有专长“炼金手艺”；要发明魔法物品配方，需要拥有“魔法手艺”。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为专家"
+            }
+          ]
         },
         "Engineering Lore": {
           "name": "工程学识 Engineering Lore"
@@ -1439,7 +1730,12 @@
         },
         "Quick Repair": {
           "name": "迅速修理 Quick Repair",
-          "description": "<p>对你而言，@UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{修理}行动失去探索特征，只需花费1分钟而非正常情况的10分钟。若你在手艺技能上的熟练度达到大师，只需花费3个动作；若达到传奇，只需1个动作。</p>"
+          "description": "<p>对你而言，@UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{修理}行动失去探索特征，只需花费1分钟而非正常情况的10分钟。若你在手艺技能上的熟练度达到大师，只需花费3个动作；若达到传奇，只需1个动作。</p>",
+          "prerequisites": [
+            {
+              "value": "手艺熟练度为受训"
+            }
+          ]
         },
         "Telescopic Monocle": {
           "name": "望远单片镜 Telescopic Monocle",
@@ -1463,7 +1759,12 @@
         },
         "Eureka!": {
           "name": "我想到了！ Eureka!",
-          "description": "<p><strong>需求 </strong>你处于威胁程度高于微弱的遭遇中。</p>\n<hr />\n<p>你将知识转化为迅速行动。你对一个你能看见的生物 @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}，然后使用「超载」。</p>"
+          "description": "<p><strong>需求 </strong>你处于威胁程度高于微弱的遭遇中。</p>\n<hr />\n<p>你将知识转化为迅速行动。你对一个你能看见的生物 @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}，然后使用「超载」。</p>",
+          "prerequisites": [
+            {
+              "value": "超载"
+            }
+          ]
         },
         "Gadgeteer Innovation": {
           "name": "装置师大发明 Gadgeteer Innovation",
@@ -1522,6 +1823,22 @@
       "key": "slug",
       "mapping": {
         "label": "label"
+      }
+    },
+    "items": {
+      "path": "items",
+      "converter": "document",
+      "documentType": "Item",
+      "cardinality": "many",
+      "mapping": {
+        "prerequisites": {
+          "path": "system.prerequisites.value",
+          "converter": "structured",
+          "cardinality": "many",
+          "mapping": {
+            "value": "value"
+          }
+        }
       }
     }
   }

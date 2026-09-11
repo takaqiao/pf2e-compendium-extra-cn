@@ -3,7 +3,12 @@
   "entries": {
     "Mark of the Patron": {
       "name": "庇护主之印 Mark of the Patron",
-      "description": "<p><em>那些侍奉庇护主的人本就以与权能存在以怪异方式相缚而著称，但有些人选择了不同的道路。这些女巫的庇护主以更为切实的方式将力量之印记于她们身上，让她们获得庇护主之力的可见显现。如此女巫无须借助通灵管道或信使，便能直接在「会语之境」——一处由女巫与庇护主合议构筑、存于心眼之中的共享领域——与庇护主交流。秘印者不知自己与恩主之间没有恒常连结的世界为何物，但这种连结亦自有其秘密。</em></p>\n<hr />\n<p>尽管多数庇护主以魔宠之姿派遣实体信使，你的庇护主却选择以秘印让你成为它的所有物，以此方式纳你入它的麾下。你获得「庇护主之印」。你的印记可能是一道伤疤、一束花的发丝、一枚带角的影子，或仅是一个简单的纹身，但无论形态为何，它皆作为你与庇护主之间的连结。</p>\n<p>你可以通过与你的印记交互来与你的庇护主沟通。你的庇护主也能与你沟通，方式包括改变印记形态、在你脑海中低语，或向你发送短暂的幻视；不过以这种方式时它只能传达模糊讯息。如果你选择 @UUID[Compendium.witches-remaster.witches-remaster-journals.JournalEntry.qgxQMdRUrBVZeNv5.JournalEntryPage.qoCviKsTtdPLiXYi]{此职业变体}，你必须在 2级时选择 @UUID[Compendium.witches-remaster.witches-remaster-feats.Item.OWLoQyaiccx31RUv]{秘印女巫入门} 作为你的职业专长。</p>\n<h3>秘印女巫调整</h3>\n<p>你不会获得 @UUID[Compendium.pf2e.classfeatures.Item.yksPhweBZYVCsE1A]{魔宠（女巫）}，也不会在 6级、12级与 18级获得额外的魔宠能力。你不会在 1级学得 @UUID[Compendium.pf2e.spells-srd.Item.aq1yonHeYpbaj3XI]{庇护主操偶} 或 @UUID[Compendium.pf2e.spells-srd.Item.rMOI8JFJ0nT2mrCF]{雾化魔宠} 作为你的巫术法术，而是改为学得 @UUID[Compendium.pf2e.spells-srd.Item.YVK3JUkPVzHIeGXQ]{狞笑} 巫术法术。你学得 @UUID[Compendium.witches-remaster.witches-remaster-focus-spells.Item.7QcvUZh4dPjP8r3K]{奥秘之印} 巫术戏法，并在 12级时获得一项你所选的基础、高等或上等教诲。你必须在 2级时选择秘印女巫入门作为你的职业专长。如果你选择魅力作为关键属性，你的法术攻击调整值与法术DC 改用魅力调整值，而非智力调整值。</p>\n<p>你从庇护主获得一道难以隐藏的印记，需要使用隐秘或欺骗以防止他人察觉其存在。看见你印记的生物可通过对应你魔法根源的回忆知识检定来辨认你的印记。隐秘、欺骗与回忆知识检定都使用你的法术DC 来判定结果。成功的生物除了通常结果之外还能得知你的施法根源，并可能因如何看待带有你庇护主印记之人，对你采取不同态度。</p>\n<p>就你庇护主关联的特殊魔宠能力以及通常需要使用魔宠的专长而言，你的印记视作你的魔宠。当你施放或维持巫术时，你可以选择使用你的位置或印记的位置来确定效果。</p>\n<p>你可以选择会赋予你魔宠特殊动作或能力的专长——这些动作改由你自己执行，且效果通过印记而非魔宠施加。但是，你不能选择那些必须需要一个魔宠才能运作的专长（由 GM 裁决）。</p>\n<p>例如，你可以选择 @UUID[Compendium.pf2e.feats-srd.Item.FCivW0HZhm7PoxrC]{精魂魔宠} 职业专长，让你自己执行该动作并由你的印记完成通常由魔宠承担的行动；但你不能选择 @UUID[Compendium.pf2e.feats-srd.Item.N7dTFxpjXGn4ddq8]{强化魔宠} 或 @UUID[Compendium.pf2e.feats-srd.Item.gKoNWXem1ikEqE2d]{魔宠言语}，因这些专长的效果都依赖魔宠是一个生物。</p>\n<p><strong>特殊</strong> 如果你的庇护主是 @UUID[Compendium.pf2e.classfeatures.Item.FdLx4VODZEYLGOK9]{镌刻者}，则你施放或维持巫术时，就夹击判定而言你的触及增加 5尺。</p>"
+      "description": "<p><em>那些侍奉庇护主的人本就以与权能存在以怪异方式相缚而著称，但有些人选择了不同的道路。这些女巫的庇护主以更为切实的方式将力量之印记于她们身上，让她们获得庇护主之力的可见显现。如此女巫无须借助通灵管道或信使，便能直接在「会语之境」——一处由女巫与庇护主合议构筑、存于心眼之中的共享领域——与庇护主交流。秘印者不知自己与恩主之间没有恒常连结的世界为何物，但这种连结亦自有其秘密。</em></p>\n<hr />\n<p>尽管多数庇护主以魔宠之姿派遣实体信使，你的庇护主却选择以秘印让你成为它的所有物，以此方式纳你入它的麾下。你获得「庇护主之印」。你的印记可能是一道伤疤、一束花的发丝、一枚带角的影子，或仅是一个简单的纹身，但无论形态为何，它皆作为你与庇护主之间的连结。</p>\n<p>你可以通过与你的印记交互来与你的庇护主沟通。你的庇护主也能与你沟通，方式包括改变印记形态、在你脑海中低语，或向你发送短暂的幻视；不过以这种方式时它只能传达模糊讯息。如果你选择 @UUID[Compendium.witches-remaster.witches-remaster-journals.JournalEntry.qgxQMdRUrBVZeNv5.JournalEntryPage.qoCviKsTtdPLiXYi]{此职业变体}，你必须在 2级时选择 @UUID[Compendium.witches-remaster.witches-remaster-feats.Item.OWLoQyaiccx31RUv]{秘印女巫入门} 作为你的职业专长。</p>\n<h3>秘印女巫调整</h3>\n<p>你不会获得 @UUID[Compendium.pf2e.classfeatures.Item.yksPhweBZYVCsE1A]{魔宠（女巫）}，也不会在 6级、12级与 18级获得额外的魔宠能力。你不会在 1级学得 @UUID[Compendium.pf2e.spells-srd.Item.aq1yonHeYpbaj3XI]{庇护主操偶} 或 @UUID[Compendium.pf2e.spells-srd.Item.rMOI8JFJ0nT2mrCF]{雾化魔宠} 作为你的巫术法术，而是改为学得 @UUID[Compendium.pf2e.spells-srd.Item.YVK3JUkPVzHIeGXQ]{狞笑} 巫术法术。你学得 @UUID[Compendium.witches-remaster.witches-remaster-focus-spells.Item.7QcvUZh4dPjP8r3K]{奥秘之印} 巫术戏法，并在 12级时获得一项你所选的基础、高等或上等教诲。你必须在 2级时选择秘印女巫入门作为你的职业专长。如果你选择魅力作为关键属性，你的法术攻击调整值与法术DC 改用魅力调整值，而非智力调整值。</p>\n<p>你从庇护主获得一道难以隐藏的印记，需要使用隐秘或欺骗以防止他人察觉其存在。看见你印记的生物可通过对应你魔法根源的回忆知识检定来辨认你的印记。隐秘、欺骗与回忆知识检定都使用你的法术DC 来判定结果。成功的生物除了通常结果之外还能得知你的施法根源，并可能因如何看待带有你庇护主印记之人，对你采取不同态度。</p>\n<p>就你庇护主关联的特殊魔宠能力以及通常需要使用魔宠的专长而言，你的印记视作你的魔宠。当你施放或维持巫术时，你可以选择使用你的位置或印记的位置来确定效果。</p>\n<p>你可以选择会赋予你魔宠特殊动作或能力的专长——这些动作改由你自己执行，且效果通过印记而非魔宠施加。但是，你不能选择那些必须需要一个魔宠才能运作的专长（由 GM 裁决）。</p>\n<p>例如，你可以选择 @UUID[Compendium.pf2e.feats-srd.Item.FCivW0HZhm7PoxrC]{精魂魔宠} 职业专长，让你自己执行该动作并由你的印记完成通常由魔宠承担的行动；但你不能选择 @UUID[Compendium.pf2e.feats-srd.Item.N7dTFxpjXGn4ddq8]{强化魔宠} 或 @UUID[Compendium.pf2e.feats-srd.Item.gKoNWXem1ikEqE2d]{魔宠言语}，因这些专长的效果都依赖魔宠是一个生物。</p>\n<p><strong>特殊</strong> 如果你的庇护主是 @UUID[Compendium.pf2e.classfeatures.Item.FdLx4VODZEYLGOK9]{镌刻者}，则你施放或维持巫术时，就夹击判定而言你的触及增加 5尺。</p>",
+      "prerequisites": [
+        {
+          "value": "你必须是女巫。"
+        }
+      ]
     },
     "Familiar Superstition": {
       "name": "魔宠迷信 Familiar Superstition",
@@ -16,6 +21,16 @@
     "Hexmarked Witch Extra Lesson": {
       "name": "秘印女巫额外教诲 Hexmarked Witch Extra Lesson",
       "description": "<p>你获得一项你所选的基础、高等或上等教诲。</p>"
+    }
+  },
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
     }
   }
 }

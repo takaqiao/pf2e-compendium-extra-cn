@@ -7,15 +7,30 @@
     },
     "Technomantic Breadth": {
       "name": "科法广博 Technomantic Breadth",
-      "description": "<p>你的大发明承载更大的奥术储能。除最高的两种法术环级外，你由科法大发明专长获得的每一环级法术位数量增加1。</p>"
+      "description": "<p>你的大发明承载更大的奥术储能。除最高的两种法术环级外，你由科法大发明专长获得的每一环级法术位数量增加1。</p>",
+      "prerequisites": [
+        {
+          "value": "基础科法施法"
+        }
+      ]
     },
     "Basic Magitek Spellcasting": {
       "name": "基础科法施法 Basic Magitek Spellcasting",
-      "description": "<p>你获得基础施法效益。</p>"
+      "description": "<p>你获得基础施法效益。</p>",
+      "prerequisites": [
+        {
+          "value": "科法大发明"
+        }
+      ]
     },
     "Master Magitek Spellcasting": {
       "name": "大师科法施法 Master Magitek Spellcasting",
-      "description": "<p>你获得大师施法效益。</p>"
+      "description": "<p>你获得大师施法效益。</p>",
+      "prerequisites": [
+        {
+          "value": "专家科法施法"
+        }
+      ]
     },
     "Initiate Self-Destruct": {
       "name": "启动自毁 Initiate Self-Destruct",
@@ -23,15 +38,30 @@
     },
     "Lightning-Paced Productivity": {
       "name": "闪电级生产力 Lightning-Paced Productivity",
-      "description": "<p>你能像别人数到 3 一样轻易地构思详尽蓝图，仅在转瞬之间完成。每日一次，你可以以一个 3动作、具有专注与操作特征的行动尝试制作一件物品。该物品等级不能高于你等级的一半，且你必须知晓其配方。你仍须以原料形式提供其费用并至少有一只手空闲才能进行此行动。</p>"
+      "description": "<p>你能像别人数到 3 一样轻易地构思详尽蓝图，仅在转瞬之间完成。每日一次，你可以以一个 3动作、具有专注与操作特征的行动尝试制作一件物品。该物品等级不能高于你等级的一半，且你必须知晓其配方。你仍须以原料形式提供其费用并至少有一只手空闲才能进行此行动。</p>",
+      "prerequisites": [
+        {
+          "value": "超高效专注"
+        }
+      ]
     },
     "Expert Magitek Spellcasting": {
       "name": "专家科法施法 Expert Magitek Spellcasting",
-      "description": "<p>你获得专家施法效益。</p>"
+      "description": "<p>你获得专家施法效益。</p>",
+      "prerequisites": [
+        {
+          "value": "基础科法施法"
+        }
+      ]
     },
     "Eureka!": {
       "name": "我想到了！ Eureka!",
-      "description": "<p><strong>需求 </strong>你处于威胁程度高于微弱的遭遇中。</p>\n<hr />\n<p>你将知识转化为迅速行动。你对一个你能看见的生物 @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}，然后使用「超载」。</p>"
+      "description": "<p><strong>需求 </strong>你处于威胁程度高于微弱的遭遇中。</p>\n<hr />\n<p>你将知识转化为迅速行动。你对一个你能看见的生物 @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{回忆知识}，然后使用「超载」。</p>",
+      "prerequisites": [
+        {
+          "value": "超载"
+        }
+      ]
     },
     "Dual-Form Weapon+": {
       "name": "双形态武器+ Dual-Form Weapon+",
@@ -55,11 +85,21 @@
     },
     "Remote Activation": {
       "name": "遥控启动 Remote Activation",
-      "description": "<p>你借由遥控触发器代盟友启动小装置。选择 30尺内某盟友持握或穿戴的、启动成本为 2 个动作或更少的小装置，并指定一个触发条件。你的回合结束。如果你指定的触发条件在你下一回合开始前出现，你可以代该盟友以反应使用启动动作（前提是该生物满足使用要求）。穿戴该小装置的生物仍可决定如何使用小装置启动的效果。</p>\n<p>如果你的盟友存在多重攻击减值且该小装置启动为攻击动作，你的盟友仍对此攻击施加多重攻击减值，并如常因此次攻击增加其多重攻击减值。</p>"
+      "description": "<p>你借由遥控触发器代盟友启动小装置。选择 30尺内某盟友持握或穿戴的、启动成本为 2 个动作或更少的小装置，并指定一个触发条件。你的回合结束。如果你指定的触发条件在你下一回合开始前出现，你可以代该盟友以反应使用启动动作（前提是该生物满足使用要求）。穿戴该小装置的生物仍可决定如何使用小装置启动的效果。</p>\n<p>如果你的盟友存在多重攻击减值且该小装置启动为攻击动作，你的盟友仍对此攻击施加多重攻击减值，并如常因此次攻击增加其多重攻击减值。</p>",
+      "prerequisites": [
+        {
+          "value": "装置师入门"
+        }
+      ]
     },
     "Fail-Safe Restoration": {
       "name": "故障安全修复 Fail-Safe Restoration",
-      "description": "<p>你已学会通过你的大发明精确连结线路传送治疗。你可以每轮一次而非每 10分钟一次使用 @UUID[Compendium.pf2e-team-plus-inventors.inventors-feats.impC2V1v0OKk7PsU]{双重防护修复}。</p>"
+      "description": "<p>你已学会通过你的大发明精确连结线路传送治疗。你可以每轮一次而非每 10分钟一次使用 @UUID[Compendium.pf2e-team-plus-inventors.inventors-feats.impC2V1v0OKk7PsU]{双重防护修复}。</p>",
+      "prerequisites": [
+        {
+          "value": "双重防护修复"
+        }
+      ]
     },
     "Variable Core+": {
       "name": "可变核心+ Variable Core+",
@@ -71,11 +111,24 @@
     },
     "Directed Explosion": {
       "name": "定向爆炸 Directed Explosion",
-      "description": "<p>你已学会将爆炸引向特定方向。在每日准备期间，你可以调校你的大发明并选择线形、锥形或爆发。当你使用 @UUID[Compendium.pf2e-team-plus-inventors.inventors-features.pEaYSp9o22lE8SHf]{爆炸} 时，你可以选择以你所选区域为其作用区域：@Template[type:line|distance:15]、@Template[type:cone|distance:10] 或20尺内的 @Template[type:burst|distance:5]，作为 5尺弥漫的替代选项。</p>\n<p>如果你拥有「突破性大发明」职业特性，你为区域选项加上 @Template[type:line|distance:30]、@Template[type:cone|distance:15] 或20尺内的 @Template[type:burst|distance:10]；如果你拥有「革命性大发明」职业特性，你为区域选项加上 @Template[type:line|distance:45]、@Template[type:cone|distance:30] 或20尺内的 @Template[type:burst|distance:15]。</p>"
+      "description": "<p>你已学会将爆炸引向特定方向。在每日准备期间，你可以调校你的大发明并选择线形、锥形或爆发。当你使用 @UUID[Compendium.pf2e-team-plus-inventors.inventors-features.pEaYSp9o22lE8SHf]{爆炸} 时，你可以选择以你所选区域为其作用区域：@Template[type:line|distance:15]、@Template[type:cone|distance:10] 或20尺内的 @Template[type:burst|distance:5]，作为 5尺弥漫的替代选项。</p>\n<p>如果你拥有「突破性大发明」职业特性，你为区域选项加上 @Template[type:line|distance:30]、@Template[type:cone|distance:15] 或20尺内的 @Template[type:burst|distance:10]；如果你拥有「革命性大发明」职业特性，你为区域选项加上 @Template[type:line|distance:45]、@Template[type:cone|distance:30] 或20尺内的 @Template[type:burst|distance:15]。</p>",
+      "prerequisites": [
+        {
+          "value": "爆炸"
+        }
+      ]
     },
     "Gadget Conglomeration": {
       "name": "小装置集合 Gadget Conglomeration",
-      "description": "<p>你已学会创造具有多种用途的小装置，有时甚至能让两次启动同时进行以产生更有利的效果。当你在每日准备期间创建临时小装置时，你可以选择将两件临时小装置合并为一件小装置，过程消耗两件小装置，并将它们融合成一个单元。当该小装置被启动时，可以使用其中任一效果，或两种效果都使用；并以启动动作数较多的那件来确定所需动作数。使用该小装置的生物决定该小装置效果的发生顺序。</p>"
+      "description": "<p>你已学会创造具有多种用途的小装置，有时甚至能让两次启动同时进行以产生更有利的效果。当你在每日准备期间创建临时小装置时，你可以选择将两件临时小装置合并为一件小装置，过程消耗两件小装置，并将它们融合成一个单元。当该小装置被启动时，可以使用其中任一效果，或两种效果都使用；并以启动动作数较多的那件来确定所需动作数。使用该小装置的生物决定该小装置效果的发生顺序。</p>",
+      "prerequisites": [
+        {
+          "value": "装置师入门"
+        },
+        {
+          "value": "手艺熟练度为传奇"
+        }
+      ]
     },
     "Gadgeteer Dedication": {
       "name": "装置师入门 Gadgeteer Dedication",
@@ -83,39 +136,90 @@
     },
     "Variable Gadgetry": {
       "name": "可变小装置 Variable Gadgetry",
-      "description": "<p>你调整你大发明的临时小装置，按需改变其伤害类型。当你创建造成伤害的临时小装置时，你可以在酸蚀、寒冷、电击或火焰之间选择，让你的小装置造成所选伤害类型，而非其原本的伤害类型。</p>"
+      "description": "<p>你调整你大发明的临时小装置，按需改变其伤害类型。当你创建造成伤害的临时小装置时，你可以在酸蚀、寒冷、电击或火焰之间选择，让你的小装置造成所选伤害类型，而非其原本的伤害类型。</p>",
+      "prerequisites": [
+        {
+          "value": "装置师入门"
+        }
+      ]
     },
     "Clockwork Celerity+": {
       "name": "高速发条机+ Clockwork Celerity+",
-      "description": "<p><strong>触发</strong> 你的回合开始。</p>\n<hr />\n<p>你可以使用大发明中的不稳定发条装置，推动你的发明更快地运作。本回合你处于 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。如何使用额外动作取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你可以使用额外动作进行快步、行走，或使用你大发明所授予的另一种移动动作（如有「潜水护甲」专长则为游泳）。</li>\n<li><strong>构装体</strong> 你可以使用额外动作来命令你的构装体大发明（或在你花费 2 个动作命令构装体时，提供其中 1 个动作）。</li>\n<li><strong>武器</strong> 你可以使用额外动作以你的大发明进行打击或装填。</li>\n<li><strong>治疗 </strong>你可以使用额外动作进行 @UUID[Compendium.pf2e-team-plus-inventors.inventors-actions.OAJJz0ey8LU37Ghc]{充能连接} 或 @Compendium[pf2e.feats-srd.obGGzuPcgO5Xiz6P]{烧灼疗法}。</li>\n<li><strong>科法 </strong>你可以使用额外动作施放科法射线。</li>\n<li><strong>小装置</strong> 你可以使用额外动作来启动你的小装置大发明或使用「速制小装置」。</li>\n</ul>"
+      "description": "<p><strong>触发</strong> 你的回合开始。</p>\n<hr />\n<p>你可以使用大发明中的不稳定发条装置，推动你的发明更快地运作。本回合你处于 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。如何使用额外动作取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你可以使用额外动作进行快步、行走，或使用你大发明所授予的另一种移动动作（如有「潜水护甲」专长则为游泳）。</li>\n<li><strong>构装体</strong> 你可以使用额外动作来命令你的构装体大发明（或在你花费 2 个动作命令构装体时，提供其中 1 个动作）。</li>\n<li><strong>武器</strong> 你可以使用额外动作以你的大发明进行打击或装填。</li>\n<li><strong>治疗 </strong>你可以使用额外动作进行 @UUID[Compendium.pf2e-team-plus-inventors.inventors-actions.OAJJz0ey8LU37Ghc]{充能连接} 或 @Compendium[pf2e.feats-srd.obGGzuPcgO5Xiz6P]{烧灼疗法}。</li>\n<li><strong>科法 </strong>你可以使用额外动作施放科法射线。</li>\n<li><strong>小装置</strong> 你可以使用额外动作来启动你的小装置大发明或使用「速制小装置」。</li>\n</ul>",
+      "prerequisites": [
+        {
+          "value": "护甲、构装、武器、治疗、科法或装置大发明"
+        }
+      ]
     },
     "Armor Apparatus": {
       "name": "护甲机件 Armor Apparatus",
-      "description": "<p>你为护甲改装上鳍、转子、传感器及其他装置，以便在不同地形中生存并具备额外的感官能力。从下列选项中选择两项，当你穿戴护甲大发明时获得：</p>\n<ul>\n<li>你对会被吸入或要求你呼吸的效果获得 +2环境加值。</li>\n<li>你获得等同于陆地速度的攀爬速度。</li>\n<li>你获得 30尺范围的回声定位作为模糊感官。</li>\n<li>你获得等同于陆地速度的游泳速度。</li>\n<li>你获得水下呼吸的能力。</li>\n</ul>"
+      "description": "<p>你为护甲改装上鳍、转子、传感器及其他装置，以便在不同地形中生存并具备额外的感官能力。从下列选项中选择两项，当你穿戴护甲大发明时获得：</p>\n<ul>\n<li>你对会被吸入或要求你呼吸的效果获得 +2环境加值。</li>\n<li>你获得等同于陆地速度的攀爬速度。</li>\n<li>你获得 30尺范围的回声定位作为模糊感官。</li>\n<li>你获得等同于陆地速度的游泳速度。</li>\n<li>你获得水下呼吸的能力。</li>\n</ul>",
+      "prerequisites": [
+        {
+          "value": "护甲大发明"
+        }
+      ]
     },
     "Megaton Strike+": {
       "name": "百万吨强击+ Megaton Strike+",
-      "description": "<p>你启动大发明中的齿轮、爆炸物及其他隐藏机件，进行一次强力攻击。你进行一次打击，造成额外一颗武器伤害骰。如果你至少 10级，则增至两颗额外伤害骰；至少 18级，则增至三颗额外伤害骰。可进行的打击类型取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你以一次近战无武装攻击或近战武器进行打击。要使用近战武器，你必须在每日准备时事先用特殊机件准备好它。</li>\n<li><strong>构装体</strong> 你的仆从大发明进行打击。</li>\n<li><strong>武器</strong> 你以你的武器大发明进行打击。</li>\n<li><strong>治疗 </strong>你以你的大发明进行打击。</li>\n<li><strong>科法 </strong>你施放科法射线。你将额外伤害骰加在成功上，或加在大成功上将其翻倍。</li>\n<li><strong>小装置 </strong>你以一次近战无武装攻击或近战武器进行打击。要使用近战武器，你必须在每日准备时事先用特殊机件准备好它。</li>\n</ul>\n<p><strong>不稳定功能</strong> 你向打击注入更多力量，但有让大发明出现应力裂缝的风险。在「百万吨强击」上添加不稳定特征。该打击多得另外一颗额外伤害骰，使总数为：4级 2 颗、10级 3 颗、18级 4 颗。</p>\n<p><strong>特殊</strong> 如果你的大发明是仆从，它可代你执行此动作。</p>"
+      "description": "<p>你启动大发明中的齿轮、爆炸物及其他隐藏机件，进行一次强力攻击。你进行一次打击，造成额外一颗武器伤害骰。如果你至少 10级，则增至两颗额外伤害骰；至少 18级，则增至三颗额外伤害骰。可进行的打击类型取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你以一次近战无武装攻击或近战武器进行打击。要使用近战武器，你必须在每日准备时事先用特殊机件准备好它。</li>\n<li><strong>构装体</strong> 你的仆从大发明进行打击。</li>\n<li><strong>武器</strong> 你以你的武器大发明进行打击。</li>\n<li><strong>治疗 </strong>你以你的大发明进行打击。</li>\n<li><strong>科法 </strong>你施放科法射线。你将额外伤害骰加在成功上，或加在大成功上将其翻倍。</li>\n<li><strong>小装置 </strong>你以一次近战无武装攻击或近战武器进行打击。要使用近战武器，你必须在每日准备时事先用特殊机件准备好它。</li>\n</ul>\n<p><strong>不稳定功能</strong> 你向打击注入更多力量，但有让大发明出现应力裂缝的风险。在「百万吨强击」上添加不稳定特征。该打击多得另外一颗额外伤害骰，使总数为：4级 2 颗、10级 3 颗、18级 4 颗。</p>\n<p><strong>特殊</strong> 如果你的大发明是仆从，它可代你执行此动作。</p>",
+      "prerequisites": [
+        {
+          "value": "护甲、构装、武器、治疗、科法或装置大发明"
+        }
+      ]
     },
     "Perfect Appendages": {
       "name": "完美附肢 Perfect Appendages",
-      "description": "<p>你的机械附肢运作几近真肢——或许更强。每条单独的附肢可举起最多 3负载，并能在其基础动作之外进行复杂动作（如 @Compendium[pf2e.actionspf2e.cYdz2grcOcRt4jk6]{解除装置} 或 @Compendium[pf2e.actionspf2e.1kGNdIIhuglAjIp9]{治疗伤势}）。此外，当你使用机械附肢的不稳定功能时，仅需使用一条附肢，且可以擒拿或打击生物，而非将它们移位。如果你选择进行打击，你的附肢视为无武装攻击，造成 1d4 由你选择的钝击、穿刺或挥砍伤害，并具有长触及特征，属搏击武器组。你在获得此专长时即选定伤害类型，但可以花费 1小时调整附肢以将伤害更改为另一种你所选的类型。</p>\n<p>@UUID[Compendium.pf2e-team-plus-inventors.inventors-effects.Item.K8OvnmW45Z6516jN]{效果：完美附肢}</p>"
+      "description": "<p>你的机械附肢运作几近真肢——或许更强。每条单独的附肢可举起最多 3负载，并能在其基础动作之外进行复杂动作（如 @Compendium[pf2e.actionspf2e.cYdz2grcOcRt4jk6]{解除装置} 或 @Compendium[pf2e.actionspf2e.1kGNdIIhuglAjIp9]{治疗伤势}）。此外，当你使用机械附肢的不稳定功能时，仅需使用一条附肢，且可以擒拿或打击生物，而非将它们移位。如果你选择进行打击，你的附肢视为无武装攻击，造成 1d4 由你选择的钝击、穿刺或挥砍伤害，并具有长触及特征，属搏击武器组。你在获得此专长时即选定伤害类型，但可以花费 1小时调整附肢以将伤害更改为另一种你所选的类型。</p>\n<p>@UUID[Compendium.pf2e-team-plus-inventors.inventors-effects.Item.K8OvnmW45Z6516jN]{效果：完美附肢}</p>",
+      "prerequisites": [
+        {
+          "value": "天才附肢"
+        }
+      ]
     },
     "Manifold Gadgets": {
       "name": "多重小装置 Manifold Gadgets",
-      "description": "<p>你已改装你的小装置大发明，使其零件可互换。你可以花费 10分钟将你的小装置大发明更换为你在每日准备时所选之外的另一种小装置。</p>"
+      "description": "<p>你已改装你的小装置大发明，使其零件可互换。你可以花费 10分钟将你的小装置大发明更换为你在每日准备时所选之外的另一种小装置。</p>",
+      "prerequisites": [
+        {
+          "value": "装置师入门"
+        }
+      ]
     },
     "Basic Gadgets": {
       "name": "基础小装置 Basic Gadgets",
-      "description": "<p>对你而言，某些小装置过于基础，制作起来不值一提。当你在每日准备期间创建临时小装置时，只要它们等级不高于你等级的一半，你便可以使用其中一件临时小装置创建出两件相同类型的临时小装置。如果你在手艺上为传奇，则可改为创建四件相同类型的小装置。</p>"
+      "description": "<p>对你而言，某些小装置过于基础，制作起来不值一提。当你在每日准备期间创建临时小装置时，只要它们等级不高于你等级的一半，你便可以使用其中一件临时小装置创建出两件相同类型的临时小装置。如果你在手艺上为传奇，则可改为创建四件相同类型的小装置。</p>",
+      "prerequisites": [
+        {
+          "value": "装置师入门"
+        },
+        {
+          "value": "手艺熟练度为大师"
+        }
+      ]
     },
     "Architected Manipulation": {
       "name": "架构操控 Architected Manipulation",
-      "description": "<p><strong>需求 </strong>你处于「超载」效果之下。</p>\n<hr />\n<p>你已建立一种在不向攻击暴露自己的情况下取出或使用武器大发明的方法。你可以与你的武器大发明交互，例如拔出、收纳、装填或类似动作；并且你的交互不触发会因操作动作触发的反应。</p>\n<p><strong>不稳定功能</strong> 你能够迅速启动架构操控。你以自由动作使用「架构操控」。</p>\n<p><strong>特殊 </strong>如果你拥有「双形态武器」，你可以使用此专长的交互动作来切换配置。</p>"
+      "description": "<p><strong>需求 </strong>你处于「超载」效果之下。</p>\n<hr />\n<p>你已建立一种在不向攻击暴露自己的情况下取出或使用武器大发明的方法。你可以与你的武器大发明交互，例如拔出、收纳、装填或类似动作；并且你的交互不触发会因操作动作触发的反应。</p>\n<p><strong>不稳定功能</strong> 你能够迅速启动架构操控。你以自由动作使用「架构操控」。</p>\n<p><strong>特殊 </strong>如果你拥有「双形态武器」，你可以使用此专长的交互动作来切换配置。</p>",
+      "prerequisites": [
+        {
+          "value": "武器大发明"
+        },
+        {
+          "value": "超载"
+        }
+      ]
     },
     "Split Links": {
       "name": "分离链接 Split Links",
-      "description": "<p>你已学会分离你的链接，让你能瞄准多个生物。你可以同时使两个 @UUID[Compendium.pf2e-team-plus-inventors.inventors-actions.OAJJz0ey8LU37Ghc]{充能连接}生效。如果你在手艺上为传奇，则可同时使四个生效。</p>"
+      "description": "<p>你已学会分离你的链接，让你能瞄准多个生物。你可以同时使两个 @UUID[Compendium.pf2e-team-plus-inventors.inventors-actions.OAJJz0ey8LU37Ghc]{充能连接}生效。如果你在手艺上为传奇，则可同时使四个生效。</p>",
+      "prerequisites": [
+        {
+          "value": "治疗大发明"
+        }
+      ]
     },
     "Theory of Everything": {
       "name": "万物理论 Theory of Everything",
@@ -127,7 +231,12 @@
     },
     "Fail-Proof Gadgetry": {
       "name": "无失装置技艺 Fail-Proof Gadgetry",
-      "description": "<p>你已学到，一次快速修复就足以将彻底的失败转为成功。你可以每轮一次而非每 10分钟一次使用「装置师入门」反应。</p>"
+      "description": "<p>你已学到，一次快速修复就足以将彻底的失败转为成功。你可以每轮一次而非每 10分钟一次使用「装置师入门」反应。</p>",
+      "prerequisites": [
+        {
+          "value": "装置师入门"
+        }
+      ]
     },
     "Unstable Redundancies+": {
       "name": "不稳定冗余+ Unstable Redundancies+",
@@ -139,15 +248,30 @@
     },
     "Unstable Gadget Installation": {
       "name": "不稳定小装置安装 Unstable Gadget Installation",
-      "description": "<p>当你安装一件临时小装置时，你可以应用一项更危险的组件以延长其效果。当你安装其中一件临时小装置时，你可以将其与你的小装置大发明连接，从而让其启动获得不稳定特征。你的临时小装置在使用后不会被消耗，除非你的不稳定纯骰检定大失败；让它得以再次启动，并在第二次启动时如常被消耗。如果你以外的生物正持握或穿戴你的小装置，你仍须进行该纯骰检定；并且当大失败时，你们俩都会承受伤害——因为与你小装置大发明的连结会让其反噬你。</p>"
+      "description": "<p>当你安装一件临时小装置时，你可以应用一项更危险的组件以延长其效果。当你安装其中一件临时小装置时，你可以将其与你的小装置大发明连接，从而让其启动获得不稳定特征。你的临时小装置在使用后不会被消耗，除非你的不稳定纯骰检定大失败；让它得以再次启动，并在第二次启动时如常被消耗。如果你以外的生物正持握或穿戴你的小装置，你仍须进行该纯骰检定；并且当大失败时，你们俩都会承受伤害——因为与你小装置大发明的连结会让其反噬你。</p>",
+      "prerequisites": [
+        {
+          "value": "装置师入门"
+        }
+      ]
     },
     "Full Automation+": {
       "name": "全自动+ Full Automation+",
-      "description": "<p>你与你的大发明已交融至无需多想便能使用它们的程度。你永久处于 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。如何使用额外动作取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你的护甲会对最微小的刺激作出反应，将你引向正确方向，前提是你正穿戴它。你可以使用额外动作进行行走、快步，或使用你大发明所提供的某种移动方式（如飞行或游泳）。</li>\n<li><strong>构装体</strong> 你命令构装体的能力变得本能化。你可以使用额外动作命令你的构装体大发明（或在你选择花费 2 个动作命令时，提供其中 1 个动作）。</li>\n<li><strong>武器</strong> 你的武器在你手中变得更易挥舞，以致命的高效近乎成为你身体的延伸。只要你持握着它，它便能毫不费力地飞向你所选的目标。你可以使用额外动作以你的大发明进行打击或装填。</li>\n<li><strong>治疗 </strong>你的大发明被毫不费力地操控。你可以使用额外动作进行 @UUID[Compendium.pf2e-team-plus-inventors.inventors-actions.OAJJz0ey8LU37Ghc]{充能连接} 或 @Compendium[pf2e.feats-srd.obGGzuPcgO5Xiz6P]{烧灼疗法}。</li>\n<li><strong>科法 </strong>你的大发明让你充满魔法数据。你可以使用额外动作施放科法射线。</li>\n<li><strong>小装置 </strong>你的小装置处于一触即发的状态，距离启动只差一念。你可以使用额外动作启动你的小装置大发明或使用「速制小装置」。</li>\n</ul>\n<p><strong>特殊 </strong>如果你拥有 @UUID[Compendium.pf2e-team-plus-inventors.inventors-feats.MoXof6ptZgNSQT4H]{高速发条机}，则当你使用「高速发条机」时，你不再变为迅捷，而是改为为你的大发明使用所列其中一项动作。</p>"
+      "description": "<p>你与你的大发明已交融至无需多想便能使用它们的程度。你永久处于 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。如何使用额外动作取决于你的大发明。</p>\n<ul>\n<li><strong>护甲</strong> 你的护甲会对最微小的刺激作出反应，将你引向正确方向，前提是你正穿戴它。你可以使用额外动作进行行走、快步，或使用你大发明所提供的某种移动方式（如飞行或游泳）。</li>\n<li><strong>构装体</strong> 你命令构装体的能力变得本能化。你可以使用额外动作命令你的构装体大发明（或在你选择花费 2 个动作命令时，提供其中 1 个动作）。</li>\n<li><strong>武器</strong> 你的武器在你手中变得更易挥舞，以致命的高效近乎成为你身体的延伸。只要你持握着它，它便能毫不费力地飞向你所选的目标。你可以使用额外动作以你的大发明进行打击或装填。</li>\n<li><strong>治疗 </strong>你的大发明被毫不费力地操控。你可以使用额外动作进行 @UUID[Compendium.pf2e-team-plus-inventors.inventors-actions.OAJJz0ey8LU37Ghc]{充能连接} 或 @Compendium[pf2e.feats-srd.obGGzuPcgO5Xiz6P]{烧灼疗法}。</li>\n<li><strong>科法 </strong>你的大发明让你充满魔法数据。你可以使用额外动作施放科法射线。</li>\n<li><strong>小装置 </strong>你的小装置处于一触即发的状态，距离启动只差一念。你可以使用额外动作启动你的小装置大发明或使用「速制小装置」。</li>\n</ul>\n<p><strong>特殊 </strong>如果你拥有 @UUID[Compendium.pf2e-team-plus-inventors.inventors-feats.MoXof6ptZgNSQT4H]{高速发条机}，则当你使用「高速发条机」时，你不再变为迅捷，而是改为为你的大发明使用所列其中一项动作。</p>",
+      "prerequisites": [
+        {
+          "value": "护甲、构装、武器、治疗、科法或装置大发明"
+        }
+      ]
     },
     "Calculated Spellshape": {
       "name": "算计塑法 Calculated Spellshape",
-      "description": "<p>你以你的大发明塑法。你获得一个具有塑法特征的法师职业专长。就满足其先决条件而言，你的法师等级等同于你的角色等级。</p>"
+      "description": "<p>你以你的大发明塑法。你获得一个具有塑法特征的法师职业专长。就满足其先决条件而言，你的法师等级等同于你的角色等级。</p>",
+      "prerequisites": [
+        {
+          "value": "科法大发明"
+        }
+      ]
     },
     "Blast-Proof": {
       "name": "抗爆 Blast-Proof",
@@ -159,7 +283,12 @@
     },
     "Reverse Engineer": {
       "name": "逆向工程师 Reverse Engineer",
-      "description": "<p>你极擅长对物品进行逆向工程以获取配方，或仅是拆解之以让其失效。你的手艺检定在从物品逆向工程出配方时获得 +2环境加值。如果你的手艺检定大成功，你可以选择同时获得配方并将原物品重新组装；让你保留配方与该物品，而非配方与等同于该物品价值一半的原料。此外，你可以使用手艺代替贼活来「解除装置」或「开锁」。</p>"
+      "description": "<p>你极擅长对物品进行逆向工程以获取配方，或仅是拆解之以让其失效。你的手艺检定在从物品逆向工程出配方时获得 +2环境加值。如果你的手艺检定大成功，你可以选择同时获得配方并将原物品重新组装；让你保留配方与该物品，而非配方与等同于该物品价值一半的原料。此外，你可以使用手艺代替贼活来「解除装置」或「开锁」。</p>",
+      "prerequisites": [
+        {
+          "value": "手艺熟练度为受训"
+        }
+      ]
     },
     "Condition Causation Theory": {
       "name": "状态致因理论 Condition Causation Theory",
@@ -175,15 +304,36 @@
     },
     "Targeting Ray": {
       "name": "瞄准射线 Targeting Ray",
-      "description": "<p>你启动奥术小器械以随心射出射线。你回忆知识或搜索，然后施放科法射线。</p>"
+      "description": "<p>你启动奥术小器械以随心射出射线。你回忆知识或搜索，然后施放科法射线。</p>",
+      "prerequisites": [
+        {
+          "value": "科法大发明"
+        },
+        {
+          "value": "超载"
+        }
+      ]
     },
     "Double-Proofed Restoration": {
       "name": "双重防护修复 Double-Proofed Restoration",
-      "description": "<p>你明白，在医疗情境下，失败是不可接受的。你重掷触发的不稳定纯骰检定，即便新结果更差也须采用。</p>"
+      "description": "<p>你明白，在医疗情境下，失败是不可接受的。你重掷触发的不稳定纯骰检定，即便新结果更差也须采用。</p>",
+      "prerequisites": [
+        {
+          "value": "治疗大发明"
+        },
+        {
+          "value": "烧灼疗法"
+        }
+      ]
     },
     "Fast Burst": {
       "name": "急速爆发 Fast Burst",
-      "description": "<p>你已学会一项特殊技巧，让你的第二波快于第一波发出。你使用 @Compendium[pf2e.feats-srd.obGGzuPcgO5Xiz6P]{烧灼疗法}。如果这是你在过去 10分钟内首次对该生物使用烧灼疗法，你不必进行不稳定特征所要求的纯骰检定。</p>"
+      "description": "<p>你已学会一项特殊技巧，让你的第二波快于第一波发出。你使用 @Compendium[pf2e.feats-srd.obGGzuPcgO5Xiz6P]{烧灼疗法}。如果这是你在过去 10分钟内首次对该生物使用烧灼疗法，你不必进行不稳定特征所要求的纯骰检定。</p>",
+      "prerequisites": [
+        {
+          "value": "治疗大发明"
+        }
+      ]
     },
     "Spontaneous Ingenuity Theory": {
       "name": "即兴妙策理论 Spontaneous Ingenuity Theory",
@@ -195,7 +345,12 @@
     },
     "Devastating Weaponry+": {
       "name": "毁灭性武装+ Devastating Weaponry+",
-      "description": "<p>你从武器中释放一阵投射物，或为其充能让其在战场各方向飞行并打击多个生物。对你 30尺内的每个敌人以你的武器大发明进行一次打击。在完成所有攻击之前不增加你的多重攻击减值。如果你的大发明是近战武器，且任一攻击在你触及之外，你在打击前对武器松手，所有攻击完成后它会回到你掌中。如果武器返回时你的双手已满，它会落在你的方格内。如果你的武器大发明在打击间需要 1 个或更多动作来装填，你可以在打击间交互以装填，但每次交互装填会让你的攻击累计承受 -2减值。</p>"
+      "description": "<p>你从武器中释放一阵投射物，或为其充能让其在战场各方向飞行并打击多个生物。对你 30尺内的每个敌人以你的武器大发明进行一次打击。在完成所有攻击之前不增加你的多重攻击减值。如果你的大发明是近战武器，且任一攻击在你触及之外，你在打击前对武器松手，所有攻击完成后它会回到你掌中。如果武器返回时你的双手已满，它会落在你的方格内。如果你的武器大发明在打击间需要 1 个或更多动作来装填，你可以在打击间交互以装填，但每次交互装填会让你的攻击累计承受 -2减值。</p>",
+      "prerequisites": [
+        {
+          "value": "武器大发明"
+        }
+      ]
     },
     "Mechanical Appendages": {
       "name": "机械附肢 Mechanical Appendages",
@@ -207,11 +362,24 @@
     },
     "Unavoidable Ray": {
       "name": "无可避免射线 Unavoidable Ray",
-      "description": "<p>你的 <em>@UUID[Compendium.pf2e-team-plus-inventors.inventors-spells.rLpTFGCUUdXtUbaL]{科法射线}</em> 可以蜿蜒曲折以确保命中你的对手。在你本回合结束前，下次施放科法射线时，你获得「料敌机先」的效果。</p>"
+      "description": "<p>你的 <em>@UUID[Compendium.pf2e-team-plus-inventors.inventors-spells.rLpTFGCUUdXtUbaL]{科法射线}</em> 可以蜿蜒曲折以确保命中你的对手。在你本回合结束前，下次施放科法射线时，你获得「料敌机先」的效果。</p>",
+      "prerequisites": [
+        {
+          "value": "科法大发明"
+        }
+      ]
     },
     "Stasis Capsule": {
       "name": "停滞胶囊 Stasis Capsule",
-      "description": "<p>你能创造一座停滞胶囊，将奄奄一息者重新唤回。你可以花费 10分钟构建一座停滞胶囊，能容纳最多 4 名小型或中型生物，占据 @Template[type:square|distance:10]。当生物在胶囊内时，你可以使用手艺代替医疗来「治疗伤势」，包括使用你较高的手艺熟练度尝试更困难的「治疗伤势」检定。当你以这种方式「治疗伤势」时，你只进行一次检定，并为停滞胶囊内的所有生物恢复相应数量的生命值（大失败时则对它们造成伤害）。如果你在手艺上为传奇，你可以将胶囊扩展为 @Template[type:square|distance:20]，并容纳两倍数量的小型或中型生物，或更大体型的生物。就容量而言，你可以将一只大型生物视为两只中型生物，将一只超大型生物视为两只大型生物。</p>"
+      "description": "<p>你能创造一座停滞胶囊，将奄奄一息者重新唤回。你可以花费 10分钟构建一座停滞胶囊，能容纳最多 4 名小型或中型生物，占据 @Template[type:square|distance:10]。当生物在胶囊内时，你可以使用手艺代替医疗来「治疗伤势」，包括使用你较高的手艺熟练度尝试更困难的「治疗伤势」检定。当你以这种方式「治疗伤势」时，你只进行一次检定，并为停滞胶囊内的所有生物恢复相应数量的生命值（大失败时则对它们造成伤害）。如果你在手艺上为传奇，你可以将胶囊扩展为 @Template[type:square|distance:20]，并容纳两倍数量的小型或中型生物，或更大体型的生物。就容量而言，你可以将一只大型生物视为两只中型生物，将一只超大型生物视为两只大型生物。</p>",
+      "prerequisites": [
+        {
+          "value": "医疗熟练度为受训"
+        },
+        {
+          "value": "手艺熟练度为专家"
+        }
+      ]
     },
     "Identify Flaws": {
       "name": "识别缺陷 Identify Flaws",
@@ -219,7 +387,22 @@
     },
     "Death Link": {
       "name": "死亡链接 Death Link",
-      "description": "<p>你已学会让链接也能以敌人为目标。你可以以敌人代替盟友作为「充能连接」的目标。如果如此，在链接生效期间，敌人于你每回合开始时承受与原本会赋予的临时生命值数量相同的 @Damage[(floor((@actor.level)/2) +2)[void]] 伤害（若敌人具有虚能治疗，则为 @Damage[(floor((@actor.level)/2) +2)[vitality]] 伤害），基础强韧豁免。如果生物在对你「死亡链接」的豁免上大成功，则该链接立即结束。你也可以以正受生效链接影响的敌人作为你「烧灼疗法」的目标，造成与本会恢复同等数量的伤害（基础强韧豁免）；之后该「充能连接」结束。在你「烧灼疗法」上豁免失败的生物变为恶心 1，大失败则恶心 2。在你以这种方式使用「烧灼疗法」之后，你在 1天内不能再以敌人为「充能连接」的目标。</p>"
+      "description": "<p>你已学会让链接也能以敌人为目标。你可以以敌人代替盟友作为「充能连接」的目标。如果如此，在链接生效期间，敌人于你每回合开始时承受与原本会赋予的临时生命值数量相同的 @Damage[(floor((@actor.level)/2) +2)[void]] 伤害（若敌人具有虚能治疗，则为 @Damage[(floor((@actor.level)/2) +2)[vitality]] 伤害），基础强韧豁免。如果生物在对你「死亡链接」的豁免上大成功，则该链接立即结束。你也可以以正受生效链接影响的敌人作为你「烧灼疗法」的目标，造成与本会恢复同等数量的伤害（基础强韧豁免）；之后该「充能连接」结束。在你「烧灼疗法」上豁免失败的生物变为恶心 1，大失败则恶心 2。在你以这种方式使用「烧灼疗法」之后，你在 1天内不能再以敌人为「充能连接」的目标。</p>",
+      "prerequisites": [
+        {
+          "value": "治疗大发明"
+        }
+      ]
+    }
+  },
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
     }
   }
 }

@@ -11,7 +11,12 @@
     },
     "Plane of Metal": {
       "name": "金元素位面 Plane of Metal",
-      "description": "<p><strong>金元素位面</strong>（原能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.iYRDFxeVpJ5KIjmr]{尖锐飞针}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.yD819yTgbBFcCh5M]{折叠金属}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.7dBxguCNWCoPYxIi]{金属镀层}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Tx8OqkBFA2QlaldW]{磁力加速}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.n7OgbKme4hNwxVwQ]{引动雷电}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.oXeEbcUdgJGWHGEJ]{穿心铁刺}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.MLYTWHfewOpI3Cz7]{刀锋丛生}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.dKWc83KKiXoIJkhp]{断头圆锯}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.89Hj5QuqvcwVXcqj]{钢铁形态}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.24U1b9K4Lj94cgaj]{磁力排斥}</em></p></li></ul>"
+      "description": "<p><strong>金元素位面</strong>（原能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.iYRDFxeVpJ5KIjmr]{尖锐飞针}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.yD819yTgbBFcCh5M]{折叠金属}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.7dBxguCNWCoPYxIi]{金属镀层}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Tx8OqkBFA2QlaldW]{磁力加速}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.n7OgbKme4hNwxVwQ]{引动雷电}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.oXeEbcUdgJGWHGEJ]{穿心铁刺}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.MLYTWHfewOpI3Cz7]{刀锋丛生}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.dKWc83KKiXoIJkhp]{断头圆锯}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.89Hj5QuqvcwVXcqj]{钢铁形态}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.24U1b9K4Lj94cgaj]{磁力排斥}</em></p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "原能位面根源"
+        }
+      ]
     },
     "Simulacrous Casting": {
       "name": "拟形施法 Simulacrous Casting",
@@ -35,7 +40,12 @@
     },
     "The Netherworld": {
       "name": "影界 The Netherworld",
-      "description": "<p><strong>影界</strong> （神术、异能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.0zU8CPejjQFnhZFI]{虚构幻术}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.R8bqnYiThB6MYTxD]{幻痛术}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.4GE2ZdODgIQtg51c]{黑暗术}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.8cuqRFB3mWBOgy61]{重影射弹}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.juzb53CW6Uzz5pFY]{本影移植}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.IqJ9URobmJ9L9UBG]{幽影爆破}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.0XP2XOxT9VSiXFDr]{魅影灾祸}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.VTb0yI6P1bLkzuRr]{阴影突袭}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Oj1PJBMQD9vuwCv7]{迷障术}</em></p></li><li><p><strong>9环：</strong><em>@UUID[Compendium.pf2e.spells-srd.hq57j7Nif1zuQ2Ab]{怪异鬼影}</em></p></li></ul>"
+      "description": "<p><strong>影界</strong> （神术、异能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.0zU8CPejjQFnhZFI]{虚构幻术}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.R8bqnYiThB6MYTxD]{幻痛术}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.4GE2ZdODgIQtg51c]{黑暗术}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.8cuqRFB3mWBOgy61]{重影射弹}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.juzb53CW6Uzz5pFY]{本影移植}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.IqJ9URobmJ9L9UBG]{幽影爆破}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.0XP2XOxT9VSiXFDr]{魅影灾祸}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.VTb0yI6P1bLkzuRr]{阴影突袭}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Oj1PJBMQD9vuwCv7]{迷障术}</em></p></li><li><p><strong>9环：</strong><em>@UUID[Compendium.pf2e.spells-srd.hq57j7Nif1zuQ2Ab]{怪异鬼影}</em></p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "神术或异能位面根源"
+        }
+      ]
     },
     "Dimensional Jump": {
       "name": "维度跳跃 Dimensional Jump",
@@ -55,7 +65,12 @@
     },
     "Astral Plane": {
       "name": "星界 Astral Plane",
-      "description": "<p><strong>星界</strong> （异能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.izcxFQFwf3woCnFs]{神导术}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.6ZIKB0151LUR19Rw]{凶兆}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.mrDi3v933gsmnw25]{念动战技}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.K2WpC3FFoHrqX9Q5]{催眠术}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.LiGbewa9pO0yjbsY]{困惑术}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.U58aQWJ47VrI36yP]{镜花水月}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.5BbU1V6wGSGbrmRD]{失智术}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.8kJbiBEjMWG4VUjs]{心灵扭曲}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.wfleiawxsfhpRRwf]{无影无踪}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.qsNeG9KZpODSACMq]{预警术}</em></p></li></ul>"
+      "description": "<p><strong>星界</strong> （异能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.izcxFQFwf3woCnFs]{神导术}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.6ZIKB0151LUR19Rw]{凶兆}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.mrDi3v933gsmnw25]{念动战技}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.K2WpC3FFoHrqX9Q5]{催眠术}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.LiGbewa9pO0yjbsY]{困惑术}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.U58aQWJ47VrI36yP]{镜花水月}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.5BbU1V6wGSGbrmRD]{失智术}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.8kJbiBEjMWG4VUjs]{心灵扭曲}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.wfleiawxsfhpRRwf]{无影无踪}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.qsNeG9KZpODSACMq]{预警术}</em></p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "异能位面根源"
+        }
+      ]
     },
     "Spell Effect: Summon Jury (Call to Order)": {
       "name": "法术效果：召集陪审（开庭） Spell Effect: Summon Jury (Call to Order)",
@@ -75,11 +90,21 @@
     },
     "The Void": {
       "name": "大虚空 The Void",
-      "description": "<p><strong>大虚空</strong> （神术、异能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.mAMEt4FFbdqoRnkN]{虚能噬}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.wdA52JJnsuQWeyqz]{伤害术}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.XFtO4BBI22Uox2QP]{瞬间枯萎}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.N1Z1oLPdBxaSgrEE]{吸血鬼之宴}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.eexkxcqnkXazsGfK]{弱能术}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.1bw6XJMOERcbC5Iq]{夺心摄魂}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.6lO6uMQxbqmYho0e]{身躯坏死}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Z9OrRXKgAPv6Hn5l]{处死一指}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.M0jQlpQYUr0pp2Sv]{干涸凋死}</em></p></li><li><p><strong>9环：</strong> @UUID[Compendium.pf2e.spells-srd.10VcmSYNBrvBphu1]{大屠杀}</p></li></ul>"
+      "description": "<p><strong>大虚空</strong> （神术、异能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.mAMEt4FFbdqoRnkN]{虚能噬}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.wdA52JJnsuQWeyqz]{伤害术}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.XFtO4BBI22Uox2QP]{瞬间枯萎}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.N1Z1oLPdBxaSgrEE]{吸血鬼之宴}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.eexkxcqnkXazsGfK]{弱能术}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.1bw6XJMOERcbC5Iq]{夺心摄魂}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.6lO6uMQxbqmYho0e]{身躯坏死}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Z9OrRXKgAPv6Hn5l]{处死一指}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.M0jQlpQYUr0pp2Sv]{干涸凋死}</em></p></li><li><p><strong>9环：</strong> @UUID[Compendium.pf2e.spells-srd.10VcmSYNBrvBphu1]{大屠杀}</p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "神术或异能位面根源"
+        }
+      ]
     },
     "Plane of Wood": {
       "name": "木元素位面 Plane of Wood",
-      "description": "<p><strong>木元素位面</strong> （原能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.uZK2BYzPnxUBnDjr]{绊足藤}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.K9gI08enGtmih5X1]{守护灵树}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.CXICME10TkEJxz0P]{塑木术}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.KsWhliKfUs3IpW3c]{棘墙术}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.FHfrCABOmGVaEpPx]{汲命根须}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.VDK5cQ94BszDrMiJ]{缠根护体}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.YtBZq49N4Um1cwm7]{自然复仇}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.2uEuYmlyx1R7zQeH]{毒花球茎}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.kWDt0JcKPgX6MvdD]{炽焰绽放}</em></p></li><li><p><strong>9环：</strong><em>@UUID[Compendium.pf2e.spells-srd.Tc5NLaMu71vrGTJQ]{自然之敌}</em></p></li></ul>"
+      "description": "<p><strong>木元素位面</strong> （原能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.uZK2BYzPnxUBnDjr]{绊足藤}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.K9gI08enGtmih5X1]{守护灵树}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.CXICME10TkEJxz0P]{塑木术}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.KsWhliKfUs3IpW3c]{棘墙术}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.FHfrCABOmGVaEpPx]{汲命根须}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.VDK5cQ94BszDrMiJ]{缠根护体}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.YtBZq49N4Um1cwm7]{自然复仇}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.2uEuYmlyx1R7zQeH]{毒花球茎}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.kWDt0JcKPgX6MvdD]{炽焰绽放}</em></p></li><li><p><strong>9环：</strong><em>@UUID[Compendium.pf2e.spells-srd.Tc5NLaMu71vrGTJQ]{自然之敌}</em></p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "原能位面根源"
+        }
+      ]
     },
     "Cloaked Casting": {
       "name": "潜匿施法 Cloaked Casting",
@@ -119,7 +144,12 @@
     },
     "Plane of Earth": {
       "name": "土元素位面 Plane of Earth",
-      "description": "<p><strong>土元素位面</strong> （原能） </p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.zA0jNIBRgLsyTpbm]{堆石术}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Rn2LkoSq1XhLsODV]{碎石猛击}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.v89KwyaBd6g5rWVS]{爆裂土块}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.KEagmnwgsSbGmkme]{洞窟獠牙}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.2BV2yYPfVJ5zirZt]{山肤术}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.OYOCWWefZPEfp8Nl]{熔岩裂隙}</em></p></li><li><p><strong>6环：</strong> @UUID[Compendium.pf2e.spells-srd.g2V4ID0pl1ZGAxZj]{玻化冲击}</p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.yWySiasyPZcRoe4d]{轰地术}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.x7SPrsRxGb2Vy2nu]{地震术}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.TbYqDhlNRiWHe146]{人与自然}</em></p></li></ul>"
+      "description": "<p><strong>土元素位面</strong> （原能） </p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.zA0jNIBRgLsyTpbm]{堆石术}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Rn2LkoSq1XhLsODV]{碎石猛击}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.v89KwyaBd6g5rWVS]{爆裂土块}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.KEagmnwgsSbGmkme]{洞窟獠牙}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.2BV2yYPfVJ5zirZt]{山肤术}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.OYOCWWefZPEfp8Nl]{熔岩裂隙}</em></p></li><li><p><strong>6环：</strong> @UUID[Compendium.pf2e.spells-srd.g2V4ID0pl1ZGAxZj]{玻化冲击}</p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.yWySiasyPZcRoe4d]{轰地术}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.x7SPrsRxGb2Vy2nu]{地震术}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.TbYqDhlNRiWHe146]{人与自然}</em></p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "原能位面根源"
+        }
+      ]
     },
     "Spell Effect: Animated Spark": {
       "name": "法术效果：生灵之火 Spell Effect: Animated Spark",
@@ -179,11 +209,21 @@
     },
     "The Celestial Planes": {
       "name": "天族诸位面 The Celestial Planes",
-      "description": "<p><strong>天族诸位面</strong> （神术）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.kcelf6IHl3L9VXXg]{命能袭}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.XSujb7EsSwKl19Uu]{祝福术}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.0qaqksrGGDj74HXE]{显光尘}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.KqvqNAfGIE5a9wSv]{英雄气概}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.hVU9msO9yGkxKZ3J]{神圣狂怒（已调整）}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.lTDixrrNKaCvLKwX]{召唤天族}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.jj5d830iUi2ZlQfs]{圣刃护球（任意圣洁神祇）}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.E3zIZ4pjlOuWeGRz]{天使形态}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.it4wx2mDIJDlZGqS]{神力末日（任意邪秽神祇）}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.drmvQJETA3WZzXyw]{贪食完形}</em></p></li></ul>"
+      "description": "<p><strong>天族诸位面</strong> （神术）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.kcelf6IHl3L9VXXg]{命能袭}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.XSujb7EsSwKl19Uu]{祝福术}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.0qaqksrGGDj74HXE]{显光尘}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.KqvqNAfGIE5a9wSv]{英雄气概}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.hVU9msO9yGkxKZ3J]{神圣狂怒（已调整）}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.lTDixrrNKaCvLKwX]{召唤天族}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.jj5d830iUi2ZlQfs]{圣刃护球（任意圣洁神祇）}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.E3zIZ4pjlOuWeGRz]{天使形态}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.it4wx2mDIJDlZGqS]{神力末日（任意邪秽神祇）}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.drmvQJETA3WZzXyw]{贪食完形}</em></p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "神术位面根源"
+        }
+      ]
     },
     "Plane of Fire": {
       "name": "火元素位面 Plane of Fire",
-      "description": "<p><strong>火元素位面</strong>（原能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.6DfLZBl8wKIV03Iq]{引火术}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.y6rAdMK6EFlV6U0t]{燃烧之息}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.2ZdHjnpEQJuqOYSG]{浮焰法球}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.sxQZ6yqTn0czJxVd]{火球术}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.IarZrgCeaiUqOuRu]{火墙术}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.OYOCWWefZPEfp8Nl]{熔岩裂隙}</em></p></li><li><p><strong>6环：</strong> @UUID[Compendium.pf2e.spells-srd.Gn5deIoobHpd3SiR]{烈焰漩涡}</p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.XS7Wyh5YC0NWeWyB]{火焰之躯}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.fBoiPXmcIO50OFFR]{血液沸腾}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.jrBa9deU2ULFWvSl]{坠星爆}（仅限火焰）</em></p></li></ul>"
+      "description": "<p><strong>火元素位面</strong>（原能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.6DfLZBl8wKIV03Iq]{引火术}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.y6rAdMK6EFlV6U0t]{燃烧之息}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.2ZdHjnpEQJuqOYSG]{浮焰法球}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.sxQZ6yqTn0czJxVd]{火球术}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.IarZrgCeaiUqOuRu]{火墙术}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.OYOCWWefZPEfp8Nl]{熔岩裂隙}</em></p></li><li><p><strong>6环：</strong> @UUID[Compendium.pf2e.spells-srd.Gn5deIoobHpd3SiR]{烈焰漩涡}</p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.XS7Wyh5YC0NWeWyB]{火焰之躯}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.fBoiPXmcIO50OFFR]{血液沸腾}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.jrBa9deU2ULFWvSl]{坠星爆}（仅限火焰）</em></p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "原能位面根源"
+        }
+      ]
     },
     "Spell Effect: Summon Jury (Verdict)": {
       "name": "法术效果：召集陪审（判决） Spell Effect: Summon Jury (Verdict)",
@@ -199,11 +239,21 @@
     },
     "Boneyard": {
       "name": "骨园 Boneyard",
-      "description": "<p><strong>骨园</strong> （神术、异能） </p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.b5BQbwmuBhgPXTyi]{颂歌萦绕}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.yHujiDQPdtXW797e]{灵魂链接}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.gIdDLrbswTV3OBJy]{沉默术}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.AMEu5zzLN7uCX645]{幽冥武器}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Jmxru8zMdYMRuO5n]{魅影杀机}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.hghGRzOSzEl4UXdS]{唤起魂灵}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.GYD0XZ4t3tQq6shc]{狂热执念}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.ggtZTxeyEnDYbt6f]{片刻复位}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.qlxM7Ik3uUeUIOcv]{永恸悲歌}</em></p></li><li><p><strong>9环：</strong><em>@UUID[Compendium.pf2e.spells-srd.FEsuyf203wTNE2et]{咒妖之嚎}</em></p></li></ul>"
+      "description": "<p><strong>骨园</strong> （神术、异能） </p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.b5BQbwmuBhgPXTyi]{颂歌萦绕}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.yHujiDQPdtXW797e]{灵魂链接}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.gIdDLrbswTV3OBJy]{沉默术}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.AMEu5zzLN7uCX645]{幽冥武器}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Jmxru8zMdYMRuO5n]{魅影杀机}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.hghGRzOSzEl4UXdS]{唤起魂灵}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.GYD0XZ4t3tQq6shc]{狂热执念}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.ggtZTxeyEnDYbt6f]{片刻复位}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.qlxM7Ik3uUeUIOcv]{永恸悲歌}</em></p></li><li><p><strong>9环：</strong><em>@UUID[Compendium.pf2e.spells-srd.FEsuyf203wTNE2et]{咒妖之嚎}</em></p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "神术或异能位面根源"
+        }
+      ]
     },
     "Plane of Water": {
       "name": "水元素位面 Plane of Water",
-      "description": "<p><strong>水元素位面</strong> （原能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.zhDIiQlJmrd4UDNC]{冰水醒神}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.jfVCuOpzC6mUrf6f]{水流冲击}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.02J0rDTk37KN2sjt]{灭火术}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.T4QKmtYPeCgYxVGe]{汹涌波涛}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.piMJO6aYeDJbrhEo]{重雾术}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.zfn5RqAdF63neqpP]{操纵水位}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.R5r4vtmlvOA8hDiF]{封冻之柱}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.vFkz0gVBUT2gGnm1]{刺骨冰风}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.0fjz8qc9NfkmWmJZ]{奔流漩涡}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.yLJROsQtyrPIKcDx]{怒仇风暴}</em></p></li></ul>"
+      "description": "<p><strong>水元素位面</strong> （原能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.zhDIiQlJmrd4UDNC]{冰水醒神}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.jfVCuOpzC6mUrf6f]{水流冲击}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.02J0rDTk37KN2sjt]{灭火术}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.T4QKmtYPeCgYxVGe]{汹涌波涛}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.piMJO6aYeDJbrhEo]{重雾术}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.zfn5RqAdF63neqpP]{操纵水位}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.R5r4vtmlvOA8hDiF]{封冻之柱}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.vFkz0gVBUT2gGnm1]{刺骨冰风}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.0fjz8qc9NfkmWmJZ]{奔流漩涡}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.yLJROsQtyrPIKcDx]{怒仇风暴}</em></p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "原能位面根源"
+        }
+      ]
     },
     "Spell Effect: Perilous Road Ahead (Initiative)": {
       "name": "法术效果：前路险阻（先攻） Spell Effect: Perilous Road Ahead (Initiative)",
@@ -227,7 +277,12 @@
     },
     "The Fiendish Planes": {
       "name": "魔族诸位面 The Fiendish Planes",
-      "description": "<p><strong>魔族诸位面</strong> （神术）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.MPxbKoR54gkYkqLO]{凿爪术}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.7ZinJNzxq0XF0oMx]{绝望术}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Mkbq9xlAUxHUHyR2]{狂乱偏执}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.3x6eUCm17n6ROzUa]{信念崩塌}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.qTzvVnAMWL05VitC]{痛振心髓}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.29ytKctjg7qSW2ff]{召唤魔族}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.jj5d830iUi2ZlQfs]{圣刃护球（任意邪秽神祇）}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.E3zIZ4pjlOuWeGRz]{天使形态}</em></p></li><li><p><strong>8环：</strong> @UUID[Compendium.pf2e.spells-srd.it4wx2mDIJDlZGqS]{神力末日（任意邪秽神祇）}</p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.drmvQJETA3WZzXyw]{贪食完形}</em></p></li></ul>"
+      "description": "<p><strong>魔族诸位面</strong> （神术）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.MPxbKoR54gkYkqLO]{凿爪术}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.7ZinJNzxq0XF0oMx]{绝望术}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Mkbq9xlAUxHUHyR2]{狂乱偏执}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.3x6eUCm17n6ROzUa]{信念崩塌}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.qTzvVnAMWL05VitC]{痛振心髓}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.29ytKctjg7qSW2ff]{召唤魔族}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.jj5d830iUi2ZlQfs]{圣刃护球（任意邪秽神祇）}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.E3zIZ4pjlOuWeGRz]{天使形态}</em></p></li><li><p><strong>8环：</strong> @UUID[Compendium.pf2e.spells-srd.it4wx2mDIJDlZGqS]{神力末日（任意邪秽神祇）}</p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.drmvQJETA3WZzXyw]{贪食完形}</em></p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "神术位面根源"
+        }
+      ]
     },
     "Larcenomancy": {
       "name": "盗术学 Larcenomancy",
@@ -243,7 +298,12 @@
     },
     "First World": {
       "name": "第一世界 First World",
-      "description": "<p><strong>第一世界</strong> （异能、原能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.s7ILzY2xh1tc9U1v]{驯服术}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.hs7h8f4Z1ZNdUt3s]{召唤精类}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.tlSE7Ly8vi1Dgddv]{狂笑发作}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.I0j56TNRmGcTyoqJ]{群体隐形}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Qu4IThrk1wpONwjT]{精类形态}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.CzjQtkRuRlzRvwzg]{治愈之井}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.x5rGOmhDRDVQPrnW]{生命力场}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.RQjSQVZRG497cJhX]{震荡图纹}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Jvyy6oVIQsD34MHB]{强迫起舞}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.FmNDwqMEjeTEGPrY]{诡秘怪音}</em></p></li></ul>"
+      "description": "<p><strong>第一世界</strong> （异能、原能）</p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.s7ILzY2xh1tc9U1v]{驯服术}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.hs7h8f4Z1ZNdUt3s]{召唤精类}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.tlSE7Ly8vi1Dgddv]{狂笑发作}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.I0j56TNRmGcTyoqJ]{群体隐形}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Qu4IThrk1wpONwjT]{精类形态}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.CzjQtkRuRlzRvwzg]{治愈之井}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.x5rGOmhDRDVQPrnW]{生命力场}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.RQjSQVZRG497cJhX]{震荡图纹}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Jvyy6oVIQsD34MHB]{强迫起舞}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.FmNDwqMEjeTEGPrY]{诡秘怪音}</em></p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "异能或原能位面根源"
+        }
+      ]
     },
     "Spell Effect: Perilous Road Ahead (Resistance)": {
       "name": "法术效果：前路险阻（抗力） Spell Effect: Perilous Road Ahead (Resistance)",
@@ -259,11 +319,21 @@
     },
     "Plane of Air": {
       "name": "气元素位面 Plane of Air",
-      "description": "<p><strong>气元素位面</strong> （原能） </p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.dDiOnjcsBFbAvP6t]{风击术}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.g8QqHpv2CWDwmIm1]{造风术}</em> </p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.C0D2eqzTAhiKm4j9]{平静柔风}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.it4ZsAi6XgvGcodc]{风墙术}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.6XscENSWyYRHqK0A]{空运术}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.xxWhyl81w3ckslAU]{狂风暴雪}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Gn5deIoobHpd3SiR]{烈焰漩涡}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.kk7JKox6MdGAWmCH]{真空域}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.wi405lBjPcbF1DeR]{惩戒烈风}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.yLJROsQtyrPIKcDx]{怒仇风暴}</em></p></li></ul>"
+      "description": "<p><strong>气元素位面</strong> （原能） </p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.dDiOnjcsBFbAvP6t]{风击术}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.g8QqHpv2CWDwmIm1]{造风术}</em> </p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.C0D2eqzTAhiKm4j9]{平静柔风}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.it4ZsAi6XgvGcodc]{风墙术}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.6XscENSWyYRHqK0A]{空运术}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.xxWhyl81w3ckslAU]{狂风暴雪}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Gn5deIoobHpd3SiR]{烈焰漩涡}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.kk7JKox6MdGAWmCH]{真空域}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.wi405lBjPcbF1DeR]{惩戒烈风}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.yLJROsQtyrPIKcDx]{怒仇风暴}</em></p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "原能位面根源"
+        }
+      ]
     },
     "Creation's Forge": {
       "name": "创生熔炉 Creation's Forge",
-      "description": "<p><strong>创生熔炉</strong> （神术、异能） </p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.SnjhtQYexDtNDdEg]{稳定伤势}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.2iQKhCQBijhj5Rf3]{灌注命能}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Et8RSCLx8w7uOLvo]{身健体康}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.9iJaD4S7ptUeq5vO]{正性调和}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.ikSb3LRGnrwXJBVX]{活力信标}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.CzjQtkRuRlzRvwzg]{治愈之井}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.x5rGOmhDRDVQPrnW]{生命力场}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.M5dp7ILSCKID9fDK]{雷震虎躯}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.A0sMo1L0271yLeDA]{复制伙伴}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.4WS7HrFjwNvTn8T2]{内爆术}</em></p></li></ul>"
+      "description": "<p><strong>创生熔炉</strong> （神术、异能） </p><ul><li><p><strong>戏法：</strong> <em>@UUID[Compendium.pf2e.spells-srd.SnjhtQYexDtNDdEg]{稳定伤势}</em></p></li><li><p><strong>1环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.2iQKhCQBijhj5Rf3]{灌注命能}</em></p></li><li><p><strong>2环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.Et8RSCLx8w7uOLvo]{身健体康}</em></p></li><li><p><strong>3环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.9iJaD4S7ptUeq5vO]{正性调和}</em></p></li><li><p><strong>4环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.ikSb3LRGnrwXJBVX]{活力信标}</em></p></li><li><p><strong>5环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.CzjQtkRuRlzRvwzg]{治愈之井}</em></p></li><li><p><strong>6环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.x5rGOmhDRDVQPrnW]{生命力场}</em></p></li><li><p><strong>7环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.M5dp7ILSCKID9fDK]{雷震虎躯}</em></p></li><li><p><strong>8环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.A0sMo1L0271yLeDA]{复制伙伴}</em></p></li><li><p><strong>9环：</strong> <em>@UUID[Compendium.pf2e.spells-srd.4WS7HrFjwNvTn8T2]{内爆术}</em></p></li></ul>",
+      "prerequisites": [
+        {
+          "value": "神术或异能位面根源"
+        }
+      ]
     },
     "Effect: Compressed Spell": {
       "name": "效果：压缩法术 Effect: Compressed Spell",
@@ -272,5 +342,15 @@
   },
   "folders": {
     "Quasiplanar Planes": "类位面 Quasiplanar Planes"
+  },
+  "mapping": {
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
   }
 }
