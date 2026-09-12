@@ -1,0 +1,50 @@
+{
+  "abomination-vaults-addons": {
+    "drawing-text": {
+      "floor": "楼层",
+      "title:": "为地图中不清楚的部分添加附加内容绘图标签",
+      "submit": "提交",
+      "cancel": "取消",
+      "progress-text": "正在添加绘图注释",
+      "ft-below": "下方 {feet} 尺",
+      "ft-down": "向下 {feet} 尺",
+      "ft-up": "向上 {feet} 尺",
+      "down-to": "向下通往 {area}",
+      "illusory-floor-ceil": "幻象地板与天花板",
+      "stair-descending": "这些楼梯通往下方",
+      "not-toxic-air": "空气无毒",
+      "title": "为地图中不清楚的部分添加附加内容绘图标签"
+    },
+    "module-settings": {
+      "prison-door-flame": {
+        "name": "在监狱楼层的门上显示火焰特效？",
+        "hint": "启用后（需安装 Sequencer 和 JB2a），每扇监狱门打开或关闭时都会播放小型火焰特效。"
+      },
+      "previous-version": {
+        "message": {
+          "name": "显示模组更新提示",
+          "hint": "模组版本更新后，向 GM 显示重新导入冒险的提示。"
+        }
+      }
+    },
+    "update-message": "模组已更新，请重新导入冒险以获取更新内容！",
+    "extra-display": {
+      "title-card-title": "选择片头动画模式",
+      "title-card-default": "默认",
+      "title-card-belcorra": "贝科拉",
+      "title-card-volluk": "沃鲁克",
+      "title-card-jafaki": "贾法基",
+      "title-card-urevian": "乌瑞维安",
+      "title-card-caliddo": "卡利多",
+      "start": "开始",
+      "cancel": "取消",
+      "missing-modules": "此宏无法运行，因为缺少以下模组：<b>{modules}</b>",
+      "actor-not-found": "未找到“{actorName}”。",
+      "belcorra-token-failed": "创建贝科拉棋子失败",
+      "sequence-no-token": "没有可用于此动画序列的棋子。",
+      "revenge-added": "已添加“凄凉灯塔的复仇”元素",
+      "lever-puzzle-added": "已在 J 层 J16 房间添加拉杆谜题",
+      "no-token-provided": "未选择或提供棋子。"
+    }
+  }
+}

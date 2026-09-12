@@ -1,0 +1,12 @@
+{
+  "abomination-vaults-expanded": {
+    "extra-display": {
+      "grasp-requires-modules": "此动画宏需要 Sequencer 和 JB2A Patreon（或免费版）才能运行。请安装并启用这些模组后再使用此宏。",
+      "grasp-direction": "选择贝科拉之握的发出方向",
+      "close": "关闭",
+      "select-token": "必须选择棋子",
+      "rolling-random": "正在掷骰决定随机遭遇",
+      "nothing-encountered": "<p>你们没有遇到任何事物……</p>"
+    }
+  }
+}

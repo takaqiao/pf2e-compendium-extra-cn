@@ -1,8 +1,8 @@
 {
   "PF2EAV": {
     "ADVENTURE": {
-      "Title": "憎恨魔窟 Abomination Vaults",
-      "Importer": "憎恨魔窟导入器",
+      "Title": "憎恶地窟",
+      "Importer": "憎恶地窟导入器",
       "OPTIONS": {
         "EnhancedMapsLabel": "优先使用增强地图",
         "EnhancedMapsHint": "把增强版地图加入世界的场景导航栏；取消勾选则改用原始地图。",

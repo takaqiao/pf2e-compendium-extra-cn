@@ -1,0 +1,194 @@
+diff --git a/abomination-vaults-addons/scripts/animations/TitleCard.js b/abomination-vaults-addons/scripts/animations/TitleCard.js
+--- a/abomination-vaults-addons/scripts/animations/TitleCard.js
++++ b/abomination-vaults-addons/scripts/animations/TitleCard.js
+@@ -0,0 +1,12 @@
++function __pf2eExtraAvEnabled() {
++  return game.system?.id === "pf2e" && /^(?:cn|zh(?:[-_]|$))/i.test(game.i18n?.lang ?? "")
++      && !!game.modules.get("pf2e-compendium-extra-cn")?.active
++      && !!game.modules.get("abomination-vaults-addons")?.active
++      && game.modules.get("abomination-vaults-addons")?.version === "2.1.0";
++}
++function __pf2eExtraAvDisplay(key, english) {
++  if (!__pf2eExtraAvEnabled()) return english;
++  const translated = game.i18n.localize(key);
++  return typeof translated === "string" && translated !== key ? translated : english;
++}
++
+@@ -7 +19 @@
+-		window: { title: "Choose Intro Animation Mode" },
++		window: { title: __pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.title-card-title", "Choose Intro Animation Mode") },
+@@ -9,6 +21,6 @@
+-    <label><input type="radio" name="choice" value="default" checked>Default</label>
+-    <label><input type="radio" name="choice" value="belcorra">Belcorra</label>
+-    <label><input type="radio" name="choice" value="volluk">Volluk</label>
+-    <label><input type="radio" name="choice" value="jafaki">Jafaki</label>
+-    <label><input type="radio" name="choice" value="urevian">Urevian</label>
+-    <label><input type="radio" name="choice" value="caliddo">Caliddo</label>
++    <label><input type="radio" name="choice" value="default" checked>${__pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.title-card-default", "Default")}</label>
++    <label><input type="radio" name="choice" value="belcorra">${__pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.title-card-belcorra", "Belcorra")}</label>
++    <label><input type="radio" name="choice" value="volluk">${__pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.title-card-volluk", "Volluk")}</label>
++    <label><input type="radio" name="choice" value="jafaki">${__pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.title-card-jafaki", "Jafaki")}</label>
++    <label><input type="radio" name="choice" value="urevian">${__pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.title-card-urevian", "Urevian")}</label>
++    <label><input type="radio" name="choice" value="caliddo">${__pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.title-card-caliddo", "Caliddo")}</label>
+@@ -19 +31 @@
+-				label: "Start",
++				label: __pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.start", "Start"),
+@@ -25 +37 @@
+-				label: "Cancel",
++				label: __pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.cancel", "Cancel"),
+diff --git a/abomination-vaults-addons/scripts/animations/helpers.js b/abomination-vaults-addons/scripts/animations/helpers.js
+--- a/abomination-vaults-addons/scripts/animations/helpers.js
++++ b/abomination-vaults-addons/scripts/animations/helpers.js
+@@ -0,0 +1,12 @@
++function __pf2eExtraAvEnabled() {
++  return game.system?.id === "pf2e" && /^(?:cn|zh(?:[-_]|$))/i.test(game.i18n?.lang ?? "")
++      && !!game.modules.get("pf2e-compendium-extra-cn")?.active
++      && !!game.modules.get("abomination-vaults-addons")?.active
++      && game.modules.get("abomination-vaults-addons")?.version === "2.1.0";
++}
++function __pf2eExtraAvDisplay(key, english) {
++  if (!__pf2eExtraAvEnabled()) return english;
++  const translated = game.i18n.localize(key);
++  return typeof translated === "string" && translated !== key ? translated : english;
++}
++
+@@ -40 +52 @@
+-      `This macro won't work as you are missing the following modules: <b>${missing.join(
++      __pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.missing-modules", `This macro won't work as you are missing the following modules: <b>${missing.join(
+@@ -42 +54 @@
+-      )}</b>`,
++      )}</b>`).replace("{modules}", missing.join(", ")),
+diff --git a/abomination-vaults-addons/scripts/animations/BelcorraAttacks.js b/abomination-vaults-addons/scripts/animations/BelcorraAttacks.js
+--- a/abomination-vaults-addons/scripts/animations/BelcorraAttacks.js
++++ b/abomination-vaults-addons/scripts/animations/BelcorraAttacks.js
+@@ -0,0 +1,20 @@
++function __pf2eExtraAvEnabled() {
++  return game.system?.id === "pf2e" && /^(?:cn|zh(?:[-_]|$))/i.test(game.i18n?.lang ?? "")
++      && !!game.modules.get("pf2e-compendium-extra-cn")?.active
++      && !!game.modules.get("abomination-vaults-addons")?.active
++      && game.modules.get("abomination-vaults-addons")?.version === "2.1.0";
++}
++function __pf2eExtraAvDisplay(key, english) {
++  if (!__pf2eExtraAvEnabled()) return english;
++  const translated = game.i18n.localize(key);
++  return typeof translated === "string" && translated !== key ? translated : english;
++}
++
++function __pf2eExtraAvActor(englishName) {
++  if (__pf2eExtraAvEnabled()) {
++    const actor = game.actors.get("DDJGNAh3rfyIupAb");
++    if (actor?.type === "npc" && (actor._stats?.compendiumSource ?? actor._source?._stats?.compendiumSource) === "Compendium.pf2e.abomination-vaults-bestiary.Actor.DDJGNAh3rfyIupAb") return actor;
++  }
++  return game.actors.getName(englishName);
++}
++
+@@ -29 +49 @@
+-					const actor = game.actors.getName(actorName);
++					const actor = __pf2eExtraAvActor(actorName);
+@@ -31 +51 @@
+-						ui.notifications.error(`"${actorName}" not found.`);
++						ui.notifications.error(__pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.actor-not-found", `"${actorName}" not found.`).replace("{actorName}", actorName));
+@@ -55 +75 @@
+-						ui.notifications.error("Failed to create Belcorra token");
++						ui.notifications.error(__pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.belcorra-token-failed", "Failed to create Belcorra token"));
+@@ -67 +87 @@
+-		ui.notifications.error("No token available for the sequence.");
++		ui.notifications.error(__pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.sequence-no-token", "No token available for the sequence."));
+diff --git a/abomination-vaults-addons/scripts/revengeOfTheGauntlightSetup.js b/abomination-vaults-addons/scripts/revengeOfTheGauntlightSetup.js
+--- a/abomination-vaults-addons/scripts/revengeOfTheGauntlightSetup.js
++++ b/abomination-vaults-addons/scripts/revengeOfTheGauntlightSetup.js
+@@ -0,0 +1,21 @@
++function __pf2eExtraAvEnabled() {
++  return game.system?.id === "pf2e" && /^(?:cn|zh(?:[-_]|$))/i.test(game.i18n?.lang ?? "")
++      && !!game.modules.get("pf2e-compendium-extra-cn")?.active
++      && !!game.modules.get("abomination-vaults-addons")?.active
++      && game.modules.get("abomination-vaults-addons")?.version === "2.1.0";
++}
++function __pf2eExtraAvDisplay(key, english) {
++  if (!__pf2eExtraAvEnabled()) return english;
++  const translated = game.i18n.localize(key);
++  return typeof translated === "string" && translated !== key ? translated : english;
++}
++
++function __pf2eExtraAvActor(englishName) {
++  if (__pf2eExtraAvEnabled()) {
++    const actor = game.actors.get("7oybyJd1zTviSlbd");
++    if (actor?.type === "hazard" && (actor._stats?.compendiumSource ?? actor._source?._stats?.compendiumSource) === "Actor.7oybyJd1zTviSlbd"
++        && actor.flags?.["scene-packer"]?.hash === "decebcf7ac2608e1fc352dac3b7433948100074d") return actor;
++  }
++  return game.actors.getName(englishName);
++}
++
+@@ -108 +129 @@
+-	ui.notifications.notify("Gauntlight's Revenge Elements Added");
++	ui.notifications.notify(__pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.revenge-added", "Gauntlight's Revenge Elements Added"));
+@@ -114 +135 @@
+-	const actor = game.actors.getName(actorName);
++	const actor = __pf2eExtraAvActor(actorName);
+diff --git a/abomination-vaults-addons/scripts/sceneSetup.js b/abomination-vaults-addons/scripts/sceneSetup.js
+--- a/abomination-vaults-addons/scripts/sceneSetup.js
++++ b/abomination-vaults-addons/scripts/sceneSetup.js
+@@ -0,0 +1,12 @@
++function __pf2eExtraAvEnabled() {
++  return game.system?.id === "pf2e" && /^(?:cn|zh(?:[-_]|$))/i.test(game.i18n?.lang ?? "")
++      && !!game.modules.get("pf2e-compendium-extra-cn")?.active
++      && !!game.modules.get("abomination-vaults-addons")?.active
++      && game.modules.get("abomination-vaults-addons")?.version === "2.1.0";
++}
++function __pf2eExtraAvDisplay(key, english) {
++  if (!__pf2eExtraAvEnabled()) return english;
++  const translated = game.i18n.localize(key);
++  return typeof translated === "string" && translated !== key ? translated : english;
++}
++
+@@ -1142 +1154 @@
+-  ui.notifications.notify("Lever Puzzle on Floor J in room J16 has been added");
++  ui.notifications.notify(__pf2eExtraAvDisplay("abomination-vaults-addons.extra-display.lever-puzzle-added", "Lever Puzzle on Floor J in room J16 has been added"));
+diff --git a/abomination-vaults-expanded/scripts/animations/belcorrasGrasp.js b/abomination-vaults-expanded/scripts/animations/belcorrasGrasp.js
+--- a/abomination-vaults-expanded/scripts/animations/belcorrasGrasp.js
++++ b/abomination-vaults-expanded/scripts/animations/belcorrasGrasp.js
+@@ -0,0 +1,12 @@
++function __pf2eExtraAvEnabled() {
++  return game.system?.id === "pf2e" && /^(?:cn|zh(?:[-_]|$))/i.test(game.i18n?.lang ?? "")
++      && !!game.modules.get("pf2e-compendium-extra-cn")?.active
++      && !!game.modules.get("abomination-vaults-expanded")?.active
++      && game.modules.get("abomination-vaults-expanded")?.version === "3.2.0";
++}
++function __pf2eExtraAvDisplay(key, english) {
++  if (!__pf2eExtraAvEnabled()) return english;
++  const translated = game.i18n.localize(key);
++  return typeof translated === "string" && translated !== key ? translated : english;
++}
++
+@@ -115 +127 @@
+-			"This animation macro requires Sequencer + JB2A Patreon (or Free) to run. Please add and activate these modules to use this macro.",
++			__pf2eExtraAvDisplay("abomination-vaults-expanded.extra-display.grasp-requires-modules", "This animation macro requires Sequencer + JB2A Patreon (or Free) to run. Please add and activate these modules to use this macro."),
+@@ -159 +171 @@
+-		title: "Select Direction to send Belcorra's Grasp",
++		title: __pf2eExtraAvDisplay("abomination-vaults-expanded.extra-display.grasp-direction", "Select Direction to send Belcorra's Grasp"),
+@@ -165 +177 @@
+-		buttons: { ok: { label: "Close", callback: () => {} } },
++		buttons: { ok: { label: __pf2eExtraAvDisplay("abomination-vaults-expanded.extra-display.close", "Close"), callback: () => {} } },
+diff --git a/abomination-vaults-expanded/scripts/module.js b/abomination-vaults-expanded/scripts/module.js
+--- a/abomination-vaults-expanded/scripts/module.js
++++ b/abomination-vaults-expanded/scripts/module.js
+@@ -228 +228,15 @@
+-  if (options.heading) content = splitTextAtHeader(options.heading, content);
++  if (options.heading) {
++    let heading = options.heading;
++    if (game.system.id === "pf2e" && game.i18n.lang === "cn"
++      && game.modules.get("abomination-vaults-expanded")?.version === "3.2.0"
++      && options.journalID === "UTWz996e1nM1OkQ6" && page === "89GAwg1joTirFLeP"
++      && options.heading === "SACRIFICE AT MIDNIGHT"
++      && journalPage.text.content === "@Localize[abomination-vaults-expanded.journals.av-e-changes-to-the-vaults.c-library.content]") {
++      const headings = [...content.matchAll(/<h([1-6])[^>]*>(.*?)<\/h\1>/gs)];
++      if (headings.length === 2 && headings.every(h => h[1] === "2")) {
++        // This source page's second h2 is Sacrifice at Midnight; preserve its localized text.
++        heading = headings[1][2].replace(/[.*+?^$\x7B\x7D()|[\]\\]/g, "\\$&");
++      }
++    }
++    content = splitTextAtHeader(heading, content);
++  }
+@@ -231 +245 @@
+-    `<hr><em><strong>Abomination Vaults: Expanded -</strong> ${journalPage.link}</em><hr>${content}`,
++    `<hr><em><strong>${game.system.id === "pf2e" && game.i18n.lang === "cn" && game.modules.get("abomination-vaults-expanded")?.version === "3.2.0" ? "憎恶地窟：扩展版 -" : "Abomination Vaults: Expanded -"}</strong> ${journalPage.link}</em><hr>${content}`,

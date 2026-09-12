@@ -2,9 +2,9 @@
     "id": "pf2e-compendium-extra-cn",
     "title": "Translation: 中文[PF2E额外合集包]",
     "description": "Chinese translation for extra pf2e compendium",
-    "version": "1.0.48",
+    "version": "1.0.49",
     "compatibility": {
-        "minimum": "12",
+        "minimum": "13",
         "verified": "14",
         "maximum": "14"
     },
@@ -20,7 +20,9 @@
                 "id": "babele",
                 "type": "module",
                 "compatibility": {
-                    "minimum": "2.7.5"
+                    "minimum": "2.9.1",
+                    "verified": "2.9.1",
+                    "maximum": "2.9.1"
                 }
             },
             {
@@ -31,10 +33,12 @@
     },
     "esmodules": [
         "babele.js",
+        "scripts/av-structured.mjs",
         "scripts/inject-homebrew.js",
         "scripts/babele-failsafe.js",
         "scripts/chn-pr43-bridge.js",
         "inject-lang.js",
+        "scripts/av-display-i18n.js",
         "scripts/leshy-gallery-compat.js",
         "scripts/eldamon-legends-scylla-compat.js",
         "scripts/journal-label4-compat.js",
@@ -44,7 +48,7 @@
     ],
     "url": "https://github.com/takaqiao/pf2e-compendium-extra-cn",
     "manifest": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/module.json",
-    "download": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/download/1.0.48/pf2e-compendium-extra-cn-v1.0.48.zip",
+    "download": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/download/1.0.49/pf2e-compendium-extra-cn-v1.0.49.zip",
     "bugs": "https://github.com/takaqiao/pf2e-compendium-extra-cn/issues",
-    "changelog": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/tag/1.0.48"
+    "changelog": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/tag/1.0.49"
 }

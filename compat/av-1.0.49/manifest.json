@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "release": "1.0.49",
+  "purpose": "Optional source compatibility patch; no complete third-party module files or adventure assets included.",
+  "patch": {
+    "file": "av-source-compat.patch",
+    "sha256": "9f67d6a2d38490b104f6e839aaa03f39c1380f97217f401746e62f400e6db19f",
+    "format": "unified-diff-zero-context",
+    "requiredGitApplyOption": "--unidiff-zero"
+  },
+  "modules": [
+    {
+      "id": "abomination-vaults-addons",
+      "version": "2.1.0"
+    },
+    {
+      "id": "abomination-vaults-expanded",
+      "version": "3.2.0"
+    }
+  ],
+  "companionModule": {
+    "id": "pf2e-compendium-extra-cn",
+    "release": "1.0.49"
+  },
+  "validatedStack": {
+    "foundry": "14.367",
+    "pf2e": "8.5.0",
+    "babele": "2.9.1",
+    "coreChinese": "3.1.2"
+  },
+  "validationRules": [
+    "Close all Foundry processes using the data directory before applying.",
+    "All seven files must match beforeSha256 or all seven must match afterSha256; mixed states are rejected.",
+    "No newline conversion, whitespace bypass, three-way merge or reject hunks.",
+    "verify.py is read-only; it does not stop Foundry, back up, install, or roll back."
+  ],
+  "sourceRuntimeManifestSHA256": "3401ce786d0712124b8560a0a38a73ae171740e831cca6767be18936296c7e91",
+  "files": [
+    {
+      "path": "abomination-vaults-addons/scripts/animations/TitleCard.js",
+      "moduleId": "abomination-vaults-addons",
+      "beforeSha256": "f8ec62c9eca0c65d980514ea57eb8678b9eedf2a4ddd1e5e094505b81ee11896",
+      "afterSha256": "c88f8cfc7f15fdafff78e416081358fed5108325cfc47f7407d77dafe37247ba",
+      "beforeBytes": 2565,
+      "afterBytes": 3884,
+      "encoding": "UTF-8",
+      "lineEndings": "LF",
+      "removedOriginalLines": 9,
+      "sourceOriginalTotalLines": 84
+    },
+    {
+      "path": "abomination-vaults-addons/scripts/animations/helpers.js",
+      "moduleId": "abomination-vaults-addons",
+      "beforeSha256": "3cdfd50312759e3f33cda9580eda1ceb4acf52e8fdca49e3e512c5c315cadb86",
+      "afterSha256": "858cd15704f04dabd5a6c6b38064f8a4395eaff327f3afa0d058b3ea6350b48b",
+      "beforeBytes": 1317,
+      "afterBytes": 2000,
+      "encoding": "UTF-8",
+      "lineEndings": "LF",
+      "removedOriginalLines": 2,
+      "sourceOriginalTotalLines": 54
+    },
+    {
+      "path": "abomination-vaults-addons/scripts/animations/BelcorraAttacks.js",
+      "moduleId": "abomination-vaults-addons",
+      "beforeSha256": "ec26f7886997a387ea11c1320b26b8c3497e2c80f7aa29d22b46e31e171c7cf1",
+      "afterSha256": "a61f6f06663c92e27cd66bdbba657c3986e3f9b3f679ff456dbb16d21df4ad99",
+      "beforeBytes": 3871,
+      "afterBytes": 5093,
+      "encoding": "UTF-8",
+      "lineEndings": "LF",
+      "removedOriginalLines": 4,
+      "sourceOriginalTotalLines": 149
+    },
+    {
+      "path": "abomination-vaults-addons/scripts/revengeOfTheGauntlightSetup.js",
+      "moduleId": "abomination-vaults-addons",
+      "beforeSha256": "738f3a36fc225e4ac5bccf5ff9f337b9f647b396c6e836bc284ff2fb55e41599",
+      "afterSha256": "b2d689998e118aa868190272d71a9ebd3461af110caca319f3b89323deaa5476",
+      "beforeBytes": 2649,
+      "afterBytes": 3718,
+      "encoding": "UTF-8",
+      "lineEndings": "LF",
+      "removedOriginalLines": 2,
+      "sourceOriginalTotalLines": 142
+    },
+    {
+      "path": "abomination-vaults-addons/scripts/sceneSetup.js",
+      "moduleId": "abomination-vaults-addons",
+      "beforeSha256": "975ba484ac23e86dd3b66a952e34f152713c972c23027a2f3bec558ac144d325",
+      "afterSha256": "c8f0d190860fe42f8c090dbfaf915ca3380f3a453bf95fb14705be2c1e1aa512",
+      "beforeBytes": 27463,
+      "afterBytes": 28108,
+      "encoding": "UTF-8",
+      "lineEndings": "LF",
+      "removedOriginalLines": 1,
+      "sourceOriginalTotalLines": 1152
+    },
+    {
+      "path": "abomination-vaults-expanded/scripts/animations/belcorrasGrasp.js",
+      "moduleId": "abomination-vaults-expanded",
+      "beforeSha256": "556be1f13d2aca8cd8dabbb27b73a6bed9e71f9aea08aac5cf4cc11259237572",
+      "afterSha256": "0031d487f7b62ae58b4613e40f313a99c4dc6b2dcb8d1aa0cfc67be91ca0f13a",
+      "beforeBytes": 5972,
+      "afterBytes": 6783,
+      "encoding": "UTF-8",
+      "lineEndings": "LF",
+      "removedOriginalLines": 3,
+      "sourceOriginalTotalLines": 249
+    },
+    {
+      "path": "abomination-vaults-expanded/scripts/module.js",
+      "moduleId": "abomination-vaults-expanded",
+      "beforeSha256": "5e6c20f5588fb143b36acefba330e409022d4b544210c597328f20b4cc73180d",
+      "afterSha256": "4a328dc25a7cbeba37cd93f34f599964708f34667bfd263fbf975e064cec0a44",
+      "beforeBytes": 10069,
+      "afterBytes": 11017,
+      "encoding": "UTF-8",
+      "lineEndings": "LF",
+      "removedOriginalLines": 2,
+      "sourceOriginalTotalLines": 272
+    }
+  ]
+}
