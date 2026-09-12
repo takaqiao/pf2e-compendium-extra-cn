@@ -2,27 +2,33 @@
   "abomination-vaults-addons.abomination-vaults-addons": {
     "folders": {},
     "titles": {
-      "Abomination Vaults: Addons": "憎恨魔窟：附加内容 Abomination Vaults: Addons"
+      "2VMuX2d25r7dYPSM": "憎恶地窟：附加内容 Abomination Vaults: Addons"
     }
   },
   "abomination-vaults-addons.abomination-vaults-addons-scenes": {
-    "folders": {},
+    "folders": {
+      "Otari": "奥塔里 Otari",
+      "Eternus": "Eternus",
+      "Chasarooni": "Chasarooni",
+      "Log Fume": "运木水槽 Log Fume",
+      "Icarus": "Icarus"
+    },
     "titles": {
-      "Blades for Glades": "伐木之刃 Blades for Glades",
-      "Log Flume | Down Hill": "运木水槽｜下坡段 Log Flume | Down Hill",
-      "Log Flume | Loading Tower": "运木水槽｜装载塔 Log Flume | Loading Tower",
-      "Odd Stories": "奇谭书屋 Odd Stories",
-      "Otari Fishery": "奥塔里渔场 Otari Fishery",
-      "Otari Market": "奥塔里市场 Otari Market",
-      "Thirsty Alpaca (Restored) - F1": "口渴的羊驼（复原）- 一层 Thirsty Alpaca (Restored) - F1",
-      "Thirsty Alpaca (Restored) - F2": "口渴的羊驼（复原）- 二层 Thirsty Alpaca (Restored) - F2",
-      "Thirsty Alpaca Ruins": "口渴的羊驼废墟 Thirsty Alpaca Ruins"
+      "7EEBbs9MCJ4CxSmP": "口渴羊驼（复原）- 二层 Thirsty Alpaca (Restored) - F2",
+      "BV9P4pUNlUnK3TzQ": "口渴羊驼酒馆遗址 Thirsty Alpaca Ruins",
+      "JVI3NMK4QPsOG0Q6": "奥塔里渔场 Otari Fishery",
+      "PPRhwtJVSjtgpGes": "运木水槽｜下坡段 Log Flume | Down Hill",
+      "VSmG1Rmn9tARM2Xx": "运木水槽｜装载塔 Log Flume | Loading Tower",
+      "ZJu28ZeIXPnsiOp6": "伐木之刃 Blades for Glades",
+      "cRCE6pgqAyCtQbq0": "口渴羊驼（复原）- 一层 Thirsty Alpaca (Restored) - F1",
+      "p5zjEEjZXto738DV": "奥塔里市场 Otari Market",
+      "ue998O1cb4pMRXjA": "奇谭书屋 Odd Stories"
     }
   },
   "abomination-vaults-expanded.abomination-vaults-expanded": {
     "folders": {},
     "titles": {
-      "Abomination Vaults: Expanded": "憎恨魔窟：扩展 Abomination Vaults: Expanded"
+      "WF3IiFzVvRwfZnF7": "憎恶地窟：扩展版 Abomination Vaults: Expanded"
     }
   },
   "battlezoo-ancestries-demigods.ancestries-pf2e": {
@@ -7574,7 +7580,7 @@
   "pf2e-abomination-vaults.av": {
     "folders": {},
     "titles": {
-      "Abomination Vaults": "憎恨魔窟 Abomination Vaults"
+      "cu825MCImBiSaJTQ": "憎恶地窟 Abomination Vaults"
     }
   },
   "pf2e-beginner-box.adventures": {
@@ -21092,33 +21098,35 @@
   "tianzes-gauntlight-extras.tianzes-gauntlight-extras": {
     "folders": {},
     "titles": {
-      "Tianze's Gauntlight Extras": "天泽的凄凉灯塔额外内容 Tianze's Gauntlight Extras"
+      "Us6MIigImsDyZ4YE": "天泽的凄凉灯塔额外内容 Tianze's Gauntlight Extras"
     }
   },
   "tianzes-otari-extras.tianzes-otari-extras": {
     "folders": {},
     "titles": {
-      "Tianze's Otari Extras": "天泽的奥塔里额外内容 Tianze's Otari Extras"
+      "HDEa81J4denU4So2": "天泽的奥塔里额外内容 Tianze's Otari Extras"
     }
   },
   "tianzes-otari-extras.tianzes-otari-shops": {
-    "folders": {},
+    "folders": {
+      "Otari Shops (MEJ Required)": "奥塔里商店（需 MEJ） Otari Shops (MEJ Required)"
+    },
     "titles": {
-      "Also Crisp and Fresh": "也是鲜脆果蔬 Also Crisp and Fresh",
-      "Brelda's Bakery": "布蕾尔达烘焙坊 Brelda's Bakery",
-      "Clodia's Clothery": "克洛迪娅裁缝铺 Clodia's Clothery",
-      "Crisp and Fresh": "鲜脆果蔬 Crisp and Fresh",
-      "Crook's Nook": "骗子之角 Crook's Nook",
-      "Crow's Casks": "鸦之酒桶 Crow's Casks",
-      "Crow's Elixirs": "乌鸦灵药 Crow's Elixirs",
-      "Dawnflower Library Store": "晨花图书馆商店 Dawnflower Library Store",
-      "Fishery Sundries": "渔场杂货 Fishery Sundries",
-      "Hunk's Hunks of Meat": "亨克的大块肉 Hunk's Hunks of Meat",
-      "Lathenar's Pots": "拉森纳陶器铺 Lathenar's Pots",
-      "Lathenar's Shop": "拉森纳商铺 Lathenar's Shop",
-      "Magical Sundries": "魔法杂货 Magical Sundries",
-      "Osprey Club Store": "鱼鹰俱乐部商店 Osprey Club Store",
-      "Rowdy Rockfish Inn and Tavern": "喧闹石斑鱼旅店与酒馆 Rowdy Rockfish Inn and Tavern"
+      "2nJqW8CcHda57JWD": "喧闹石斑鱼旅店与酒馆 Rowdy Rockfish Inn and Tavern",
+      "4U22AChZa5TOub31": "魔法杂货 Magical Sundries",
+      "7YsBsmZ2L9naLkpQ": "乌鸦灵药 Crow's Elixirs",
+      "BynJQpbEOPrF8F7r": "鱼鹰俱乐部商店 Osprey Club Store",
+      "DF9Rs8kXlA6C0BuY": "也是鲜脆果蔬 Also Crisp and Fresh",
+      "Ij7FzJSsi30YEJyW": "亨克的大块肉 Hunk's Hunks of Meat",
+      "YEWPANYLxvmWSVsO": "骗子之角 Crook's Nook",
+      "YKh5NiTO7HdAhNsp": "乌鸦酒桶 Crow's Casks",
+      "atLaM2EG4ZqLbQrE": "渔场杂货 Fishery Sundries",
+      "dbUCoUhqLH3UfSjK": "鲜脆果蔬 Crisp and Fresh",
+      "fdtvys8pbmSkWOfL": "晨花图书馆商店 Dawnflower Library Store",
+      "omtn8nm48krrHX8t": "拉瑟纳商铺 Lathenar's Shop",
+      "pAOD6gof392RHSks": "拉瑟纳陶器铺 Lathenar's Pots",
+      "sfcba9kY2lIRCKp3": "克洛迪娅裁缝铺 Clodia's Clothery",
+      "xWKsW8draTeEg9zl": "布雷达烘焙坊 Brelda's Bakery"
     }
   },
   "wise-gaming-plus-pack-242.wise-plus-pack-242-Items": {
@@ -21677,6 +21685,128 @@
     "folders": {},
     "titles": {
       "Workbench Adjectives": "Workbench Adjectives"
+    }
+  },
+  "pf2e.abomination-vaults-bestiary": {
+    "folders": {
+      "Abomination Vaults Hardcover Compilation": "憎恶地窟精装合集 Abomination Vaults Hardcover Compilation",
+      "Book 1 - Ruins of Gauntlight": "第1卷——凄凉灯塔遗迹 Book 1 - Ruins of Gauntlight",
+      "Book 2 - Hands of the Devil": "第2卷——魔鬼之手 Book 2 - Hands of the Devil",
+      "Book 3 - Eyes of Empty Death": "第3卷——空无之死之眼 Book 3 - Eyes of Empty Death"
+    },
+    "titles": {
+      "00s3MhFQ4yOp2rTf": "贝科拉的年长子嗣 Elder Child of Belcorra",
+      "0jvmec4yJH1ASfRy": "乌塔古尔 Urthagul",
+      "277uvPqG9RLMQUcO": "瞎酿酒馆摩洛克人 Warped Brew Morlock",
+      "2K0oJcLauMwyRNZQ": "莫斯琛 Murschen",
+      "2TOXR7nKS6xPng2Y": "恐怖鬼火 Dread Wisp",
+      "3F3fPq5hFbej40T2": "小跳跳群 Gibtas Spawn Swarm",
+      "3H1rBpUQwTcNd6xZ": "尚德里·尹萨 Chandriu Invisar",
+      "3Ll0LCZcmQmb7aV3": "加卢杜 Galudu",
+      "3d3NAcPfvn07mcGN": "受难的厄诅精灵 Afflicted Irnakurse",
+      "3ry9WSvMMXHUe3kE": "贝卢斯 Beluthus",
+      "3vn9W5SThovdsEnY": "萨奎舒 Sacuishu",
+      "4bznEiwsJvInwZwA": "拷问室胡须魔 Torture Chamber Barbazu",
+      "55SmPtsUXsridUjJ": "龙血尘菌 Dragon's Blood Puffball",
+      "5iuvJLceeLJPlR8O": "黏稠黑布丁怪 Viscous Black Pudding",
+      "6NijRSpkIuQpSxUp": "尖刺发射器 Spike Launcher",
+      "78Vf1Lk9ph2RGDgL": "深水触鳍鱼怪 Deepwater Dhuthorex",
+      "8AVy2qIK6vh13sSj": "伊松德赫利 Ysondkhelir",
+      "8Iozx4jbIGHxK4yf": "巴坎布克 Barcumbuk",
+      "8VXEF3cnjzcokCTL": "石鳞之魂 Stonescale Spirits",
+      "9BEHjBWRs0st7IVv": "失败的影像 Images of Failure",
+      "9Tr4aUNr2wxxMDcg": "克拉托尼斯 Cratonys",
+      "A4MusxxoLxwMVZua": "演武场胡须魔 Drill Field Barbazu",
+      "AdFuuUS7bIVqp5K7": "锈栅陷坑 Rusty Grate Pit",
+      "BJYrYqkV7PkXgSfk": "滚球跳跳 Gibtas Bounder",
+      "BOaM3pAuWl06Q6IZ": "毒药试炼幽魂 Poisoning Room Specter",
+      "ChRgdkplhO1D81Lg": "光明行者 Bright Walker",
+      "DDJGNAh3rfyIupAb": "贝科拉·哈鲁维克斯 Belcorra Haruvex",
+      "DawBQWRyrM4cKfGI": "卓尔卫士 Drow Warden",
+      "DnAeqlJRZc5N7hve": "铁骨怪 Dreshkan",
+      "E0FMRiGNCv5n7AVH": "麻痹之光陷阱 Paralyzing Light Trap",
+      "EN3mp0sVObP8ou3p": "杰尔·梅兹勄 Jaul Mezmin",
+      "HBRz8BVLVN9u9Odp": "尸火 Corpselight",
+      "HnIyJuqKNOvK7eOJ": "诺克斯 Nox",
+      "JrowrtDilEG8dN2s": "库娅拉·奥申迪尔 Quara Orshendiel",
+      "KSFGGxU3qxYJzWpe": "摩洛克拾荒者 Morlock Scavenger",
+      "Mk6Uo4Vt1HkG9EvL": "乌瑞维安 Urevian",
+      "NXdpFypPPmRwYBT1": "法力虚空 Spellvoid",
+      "Nkz8Z5TrEqRePGlk": "油鳞蛛 Scalathrax",
+      "Np787X9Z4aQxOdCg": "库尔费 Khurfel",
+      "OErk9kO3PhYwMXoJ": "西奥拉·法劳格莱德 Siora Fallowglade",
+      "OTT7CCkonkfwhJ8Y": "透肌魔人血法师 Urdefhan Blood Mage",
+      "OloMMRPtTQKF0x16": "卡利尼防御者 Caligni Defender",
+      "OqoWbYOyHDGHEeHV": "卓尔猎手 Drow Hunter",
+      "PphyArSCoxkaI6IS": "麻醉大脑气体陷阱 Befuddling Gas Trap",
+      "R0EEgMDKcynpAWoa": "奥塔里·伊瓦什提 Otari Ilvashti",
+      "Sbxt8YT0AOFfVCPX": "透肌魔人鞭笞者 Urdefhan Lasher",
+      "T6vOuhM1KV5Fr75F": "狂跳跳 Gibtanius",
+      "TiAzR8SnYwhACWbj": "下层看台双尾虫怪研究者 Observation Deck Seugathi Researcher",
+      "To0MLA0arpkiE6Cz": "深水池尾端丧沦魔 Deep End Sarglagon",
+      "V73Oqm1EL1KOoXOl": "摩洛克工程师 Morlock Engineer",
+      "VeyuTE1GUJ71oMMn": "克拉加拉 Kragala",
+      "VsRKgjKolLsJMd0I": "换位镰刃 Shuffling Scythe Blades",
+      "WR07Z6MjvebSHzI7": "瑞塔 Ryta",
+      "XLTPZ592Z9MXXBlA": "贝科拉之血 Blood of Belcorra",
+      "YHYdZemNHp0fnWca": "恐怖触鳍鱼怪 Dread Dhuthorex",
+      "YXF12ssz8tEh2YUe": "深海鬼火 Will-o'-the-Deep",
+      "ZAXuvUW6kl6v3SuW": "沃鲁克·阿兹里尼 Volluk Azrinae",
+      "ZDYMKYZVyR8Fqakp": "瓦琳·希温尼斯 Wrin Sivinxi",
+      "ZFP8RyQW4SNtJ3AE": "尼祖罗斯 Nyzuros",
+      "aIDLQY5mBPyxTjZ2": "巫火守卫 Witchfire Warden",
+      "bfuIEdKBj9bhuOft": "格罗图斯烛火 Groetan Candle",
+      "bif3iQcDPi27rx6x": "萨莱莎·马尔苏拉斯 Salaisa Malthulas",
+      "cMpgGvq1fGxh8wI0": "双尾虫怪研究者 Seugathi Researcher",
+      "ceLvlSQsYNORH8oM": "虚空暴食者 Voidglutton",
+      "chOtDyemBuw2yNN2": "偷窥墙 Watching Wall",
+      "czQFet5Qo63IXtHl": "割颅尘菌 Reaper Skull Puffball",
+      "dWOK0nzGWyc5NkNz": "女士的耳语 Lady's Whisper",
+      "eoQgRltsgJWa4aeC": "宁布洛斯的切割者 Nhimbaloth's Cutter",
+      "fvijt2whssxJzxCF": "无力的幻象 Images of Powerlessness",
+      "gUihlg28MEloIqE3": "沙丘烛火 Dune Candle",
+      "h0Ztbh36be4rpJCz": "杜拉克 Dulac",
+      "hia81Ut7fEREbhkq": "贾瑞尔·卡德瑞恩 Jarelle Kaldrian",
+      "hnYckrT72oIKAuHJ": "复仇焚烧炉 Vengeful Furnace",
+      "jE8BEe6pcnGraw2p": "贾法基 Jafaki",
+      "k4fVLtVrgIEg9xij": "鲜血虹吸 Bloodsiphon",
+      "knoWZfTiLY7xGwhB": "痛苦暗示陷阱 Painful Suggestion Trap",
+      "kzHRJGLvjOJk5WU7": "卓尔洞穴先知 Drow Cavern Seer",
+      "kzX588Hjb3w4QPOj": "喙先生 Mister Beak",
+      "lH2rdwiyOPStkQvZ": "摩洛克邪教徒 Morlock Cultist",
+      "lMCEVxKkQ7XK6Nid": "溃烂教徒 Canker Cultist",
+      "mlifDVJJWwjFtUxv": "喃喃 Murmur",
+      "mrxDc0fj5t5CvjJQ": "畸肉残渣巨兽 Shanrigol Behemoth",
+      "neNlIrZOs6zOODoe": "爆炸门闩 Blast Tumbler",
+      "njfwxMPXTPA5AegD": "召唤间狂怒魔 Summoning Chamber Erinys",
+      "oXnpdJVN6NIE58W3": "卡利多·哈鲁维克斯 Caliddo Haruvex",
+      "qOkxxiM4tNf96CHQ": "双尾虫怪守卫 Seugathi Guard",
+      "qXT1SQDtGqMkVl7Q": "畸肉残渣堆 Shanrigol Heap",
+      "qjuLgWr2VhPcuylI": "明日之厄 Doom of Tomorrow",
+      "qoyopMMlRdgPAbXZ": "维斯查芮 Vischari",
+      "qw2pk1zjvgxbeGBO": "帕德利 Padli",
+      "rArZ2y5xqSWeUU0G": "卓尔射手 Drow Shootist",
+      "rketcmqDQJbFFYfq": "骸骨角斗士 Bone Gladiator",
+      "ro9oVsu1cuCP8OQH": "亡灵之潮骷髅守卫 Deadtide Skeleton Guard",
+      "s8Ofcsub5QJJmgA5": "邪魔之雾 Daemonic Fog",
+      "saEUzIgUtV2AzKhl": "奥格雷尔 Augrael",
+      "tOL4rWj2oYWZ4ow2": "阿勒·罗斯克 Aller Rosk",
+      "tXfiVIThQlBT6B1H": "虚空之蕨甲伏怪 Voidbracken Chuul",
+      "tYzzLLUv9WBhHhQY": "卡尔曼·拉贾尼 Carman Rajani",
+      "tZCFmJonHkhGg1Vs": "透肌魔人死亡斥候 Urdefhan Death Scout",
+      "uWn6DCzthgUt97d7": "古尔扎什 Gulzash",
+      "uyGxJOnJ1gYwOpy5": "阿兹瓦维甘德 Azvalvigander",
+      "v9B0hB5sm4YZxebY": "双尾虫怪仆从 Seugathi Servant",
+      "vHei0y2PKlXfxQ8Z": "贝科拉之子 Child of Belcorra",
+      "vS1YISLmSnkNotkL": "双尾虫怪裂空者 Seugathi Reality Warper",
+      "vX4SBXIICKfrM4pF": "地狱锻造胡须魔 Hellforge Barbazu",
+      "w2N0foudBFcRCaHK": "纳卡扎林 Nhakazarin",
+      "x0NDgH3EMLTLh02r": "查夫肯姆 Chafkhem",
+      "x3eOZvKUginj5Blh": "闪火 Flickerwisp",
+      "xAfkUwJYq5JLmSrW": "斯夸老大 Boss Skrawng",
+      "xj1Qn0VA4H4aKSjW": "杰尔的狼 Jaul's Wolf",
+      "zkiaelYxDB1ttlCI": "触鳍鱼怪贤者 Dhuthorex Sage",
+      "zsgW8hHm3JfZUgwF": "钢皮魔人 Mulventok"
     }
   }
 }

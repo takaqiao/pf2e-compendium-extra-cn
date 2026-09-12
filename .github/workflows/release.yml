@@ -79,6 +79,11 @@ jobs:
           cat _release_body.md
           echo "::endgroup::"
 
+      - name: Package optional AV source compatibility patches
+        run: |
+          cd compat/av-1.0.49
+          zip -r "../../av-source-compat-v${{ steps.version.outputs.version }}.zip" README.md manifest.json av-source-compat.patch verify.py
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -89,6 +94,7 @@ jobs:
           files: |
             module.json
             ${{ steps.version.outputs.zip_name }}
+            av-source-compat-v${{ steps.version.outputs.version }}.zip
 
       # Notify the Foundry packages registry so the package page on
       # foundryvtt.com gets the new version, lastUpdated date, and a

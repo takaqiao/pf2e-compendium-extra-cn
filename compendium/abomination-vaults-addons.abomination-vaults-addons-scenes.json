@@ -1,121 +1,729 @@
 {
-  "label": "憎恨魔窟：附加内容 - 场景\nAbomination Vaults: Addons - Scenes",
+  "label": "憎恶地窟：附加内容 - 场景 Abomination Vaults: Addons - Scenes",
+  "mapping": {
+    "name": "name",
+    "drawings": {
+      "path": "drawings",
+      "converter": "av-structured-context",
+      "cardinality": "many",
+      "mapping": {
+        "text": "text"
+      },
+      "container": "array",
+      "key": "_id"
+    },
+    "notes": {
+      "path": "notes",
+      "converter": "av-structured-context",
+      "cardinality": "many",
+      "mapping": {
+        "text": "text"
+      },
+      "container": "array",
+      "key": "_id"
+    },
+    "regions": {
+      "path": "regions",
+      "converter": "av-structured-context",
+      "cardinality": "many",
+      "mapping": {
+        "name": "name",
+        "behaviors": {
+          "path": "behaviors",
+          "converter": "av-structured-context",
+          "cardinality": "many",
+          "mapping": {
+            "name": "name",
+            "_variants": [
+              {
+                "_when": {
+                  "path": "type",
+                  "equals": "displayScrollingText"
+                },
+                "text": "system.text"
+              },
+              {
+                "_when": {
+                  "path": "type",
+                  "equals": "teleportToken"
+                },
+                "revealedDialog": "system.dialog.revealed",
+                "unrevealedDialog": "system.dialog.unrevealed"
+              }
+            ]
+          },
+          "container": "array",
+          "key": "_id"
+        }
+      },
+      "container": "array",
+      "key": "_id"
+    },
+    "tokens": {
+      "path": "tokens",
+      "converter": "av-structured-context",
+      "cardinality": "many",
+      "mapping": {
+        "name": "name",
+        "delta": {
+          "path": "delta",
+          "converter": "av-structured-context",
+          "cardinality": "one",
+          "mapping": {
+            "name": "name",
+            "description": "system.details.biography.value",
+            "tokenName": "prototypeToken.name",
+            "prototypeToken": "prototypeToken.name",
+            "publicNotes": "system.details.publicNotes",
+            "privateNotes": "system.details.privateNotes",
+            "disable": "system.details.disable",
+            "hazarddescription": "system.details.description",
+            "reset": "system.details.reset",
+            "routine": "system.details.routine",
+            "blurb": "system.details.blurb",
+            "stealthdetails": "system.attributes.stealth.details",
+            "hp": "system.attributes.hp.details",
+            "allSaves": "system.attributes.allSaves.value",
+            "ac": "system.attributes.ac.details",
+            "perceptionDetails": "system.perception.details",
+            "languagesDetails": "system.details.languages.details",
+            "speedDetails": "system.attributes.speed.details",
+            "creatureType": "system.details.creatureType",
+            "skills": {
+              "path": "system.skills",
+              "converter": "av-structured-context",
+              "cardinality": "many",
+              "mapping": {
+                "note": "note",
+                "special": {
+                  "path": "special",
+                  "converter": "av-structured-context",
+                  "cardinality": "many",
+                  "mapping": {
+                    "label": "label"
+                  },
+                  "container": "array",
+                  "key": "label"
+                }
+              },
+              "container": "keyed"
+            },
+            "items": {
+              "path": "items",
+              "converter": "av-structured-context",
+              "cardinality": "many",
+              "mapping": {
+                "name": "name",
+                "description": "system.description.value",
+                "gmDescription": "system.description.gm",
+                "unidentifiedName": "system.identification.unidentified.name",
+                "range": "system.range.value",
+                "target": "system.target.value",
+                "time": "system.time.value",
+                "duration": "system.duration.value",
+                "cost": "system.cost.value",
+                "requirements": "system.requirements",
+                "areaDetails": "system.area.details",
+                "ritualPrimaryCheck": "system.ritual.primary.check",
+                "ritualSecondaryChecks": "system.ritual.secondary.checks",
+                "ritualSecondaryCasters": "system.ritual.secondary.casters",
+                "heighteningLevels": {
+                  "path": "system.heightening.levels",
+                  "converter": "av-structured-context",
+                  "cardinality": "many",
+                  "mapping": {
+                    "range": "range.value",
+                    "target": "target.value",
+                    "time": "time.value",
+                    "duration": "duration.value",
+                    "cost": "cost.value",
+                    "requirements": "requirements",
+                    "areaDetails": "area.details",
+                    "ritualPrimaryCheck": "ritual.primary.check",
+                    "ritualSecondaryChecks": "ritual.secondary.checks",
+                    "ritualSecondaryCasters": "ritual.secondary.casters"
+                  },
+                  "container": "keyed"
+                },
+                "overlays": {
+                  "path": "system.overlays",
+                  "converter": "av-structured-context",
+                  "cardinality": "many",
+                  "mapping": {
+                    "name": "name",
+                    "range": "system.range.value",
+                    "target": "system.target.value",
+                    "time": "system.time.value",
+                    "duration": "system.duration.value",
+                    "cost": "system.cost.value",
+                    "requirements": "system.requirements",
+                    "areaDetails": "system.area.details",
+                    "ritualPrimaryCheck": "system.ritual.primary.check",
+                    "ritualSecondaryChecks": "system.ritual.secondary.checks",
+                    "ritualSecondaryCasters": "system.ritual.secondary.casters"
+                  },
+                  "container": "keyed"
+                },
+                "embeddedSpell": {
+                  "path": "system.spell",
+                  "converter": "av-structured-context",
+                  "cardinality": "one",
+                  "mapping": {
+                    "name": "name",
+                    "description": "system.description.value",
+                    "gmDescription": "system.description.gm",
+                    "unidentifiedName": "system.identification.unidentified.name",
+                    "range": "system.range.value",
+                    "target": "system.target.value",
+                    "time": "system.time.value",
+                    "duration": "system.duration.value",
+                    "cost": "system.cost.value",
+                    "requirements": "system.requirements",
+                    "areaDetails": "system.area.details",
+                    "ritualPrimaryCheck": "system.ritual.primary.check",
+                    "ritualSecondaryChecks": "system.ritual.secondary.checks",
+                    "ritualSecondaryCasters": "system.ritual.secondary.casters",
+                    "heighteningLevels": {
+                      "path": "system.heightening.levels",
+                      "converter": "av-structured-context",
+                      "cardinality": "many",
+                      "mapping": {
+                        "range": "range.value",
+                        "target": "target.value",
+                        "time": "time.value",
+                        "duration": "duration.value",
+                        "cost": "cost.value",
+                        "requirements": "requirements",
+                        "areaDetails": "area.details",
+                        "ritualPrimaryCheck": "ritual.primary.check",
+                        "ritualSecondaryChecks": "ritual.secondary.checks",
+                        "ritualSecondaryCasters": "ritual.secondary.casters"
+                      },
+                      "container": "keyed"
+                    },
+                    "overlays": {
+                      "path": "system.overlays",
+                      "converter": "av-structured-context",
+                      "cardinality": "many",
+                      "mapping": {
+                        "name": "name",
+                        "range": "system.range.value",
+                        "target": "system.target.value",
+                        "time": "system.time.value",
+                        "duration": "system.duration.value",
+                        "cost": "system.cost.value",
+                        "requirements": "system.requirements",
+                        "areaDetails": "system.area.details",
+                        "ritualPrimaryCheck": "system.ritual.primary.check",
+                        "ritualSecondaryChecks": "system.ritual.secondary.checks",
+                        "ritualSecondaryCasters": "system.ritual.secondary.casters"
+                      },
+                      "container": "keyed"
+                    },
+                    "embeddedSpell": {
+                      "path": "system.spell",
+                      "converter": "av-structured-context",
+                      "cardinality": "one",
+                      "mapping": {
+                        "name": "name",
+                        "description": "system.description.value",
+                        "gmDescription": "system.description.gm",
+                        "unidentifiedName": "system.identification.unidentified.name",
+                        "range": "system.range.value",
+                        "target": "system.target.value",
+                        "time": "system.time.value",
+                        "duration": "system.duration.value",
+                        "cost": "system.cost.value",
+                        "requirements": "system.requirements",
+                        "areaDetails": "system.area.details",
+                        "ritualPrimaryCheck": "system.ritual.primary.check",
+                        "ritualSecondaryChecks": "system.ritual.secondary.checks",
+                        "ritualSecondaryCasters": "system.ritual.secondary.casters",
+                        "heighteningLevels": {
+                          "path": "system.heightening.levels",
+                          "converter": "av-structured-context",
+                          "cardinality": "many",
+                          "mapping": {
+                            "range": "range.value",
+                            "target": "target.value",
+                            "time": "time.value",
+                            "duration": "duration.value",
+                            "cost": "cost.value",
+                            "requirements": "requirements",
+                            "areaDetails": "area.details",
+                            "ritualPrimaryCheck": "ritual.primary.check",
+                            "ritualSecondaryChecks": "ritual.secondary.checks",
+                            "ritualSecondaryCasters": "ritual.secondary.casters"
+                          },
+                          "container": "keyed"
+                        },
+                        "overlays": {
+                          "path": "system.overlays",
+                          "converter": "av-structured-context",
+                          "cardinality": "many",
+                          "mapping": {
+                            "name": "name",
+                            "range": "system.range.value",
+                            "target": "system.target.value",
+                            "time": "system.time.value",
+                            "duration": "system.duration.value",
+                            "cost": "system.cost.value",
+                            "requirements": "system.requirements",
+                            "areaDetails": "system.area.details",
+                            "ritualPrimaryCheck": "system.ritual.primary.check",
+                            "ritualSecondaryChecks": "system.ritual.secondary.checks",
+                            "ritualSecondaryCasters": "system.ritual.secondary.casters"
+                          },
+                          "container": "keyed"
+                        },
+                        "kitContents": {
+                          "path": "system.items",
+                          "converter": "av-structured-context",
+                          "cardinality": "many",
+                          "container": "keyed",
+                          "mapping": {
+                            "name": "name",
+                            "items": {
+                              "path": "items",
+                              "converter": "av-structured-context",
+                              "cardinality": "many",
+                              "container": "keyed",
+                              "mapping": {
+                                "name": "name",
+                                "items": {
+                                  "path": "items",
+                                  "converter": "av-structured-context",
+                                  "cardinality": "many",
+                                  "container": "keyed",
+                                  "mapping": {
+                                    "name": "name"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "unidentifiedDescription": "system.identification.unidentified.data.description.value"
+                      }
+                    },
+                    "kitContents": {
+                      "path": "system.items",
+                      "converter": "av-structured-context",
+                      "cardinality": "many",
+                      "container": "keyed",
+                      "mapping": {
+                        "name": "name",
+                        "items": {
+                          "path": "items",
+                          "converter": "av-structured-context",
+                          "cardinality": "many",
+                          "container": "keyed",
+                          "mapping": {
+                            "name": "name",
+                            "items": {
+                              "path": "items",
+                              "converter": "av-structured-context",
+                              "cardinality": "many",
+                              "container": "keyed",
+                              "mapping": {
+                                "name": "name"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "unidentifiedDescription": "system.identification.unidentified.data.description.value"
+                  }
+                },
+                "kitContents": {
+                  "path": "system.items",
+                  "converter": "av-structured-context",
+                  "cardinality": "many",
+                  "container": "keyed",
+                  "mapping": {
+                    "name": "name",
+                    "items": {
+                      "path": "items",
+                      "converter": "av-structured-context",
+                      "cardinality": "many",
+                      "container": "keyed",
+                      "mapping": {
+                        "name": "name",
+                        "items": {
+                          "path": "items",
+                          "converter": "av-structured-context",
+                          "cardinality": "many",
+                          "container": "keyed",
+                          "mapping": {
+                            "name": "name"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "unidentifiedDescription": "system.identification.unidentified.data.description.value"
+              },
+              "container": "array",
+              "key": "_id"
+            }
+          }
+        }
+      },
+      "container": "array",
+      "key": "_id"
+    },
+    "levels": {
+      "path": "levels",
+      "converter": "av-structured-context",
+      "cardinality": "many",
+      "mapping": {
+        "name": "name"
+      },
+      "container": "array",
+      "key": "_id"
+    },
+    "tiles": {
+      "path": "tiles",
+      "converter": "av-structured-context",
+      "cardinality": "many",
+      "container": "array",
+      "key": "_id",
+      "mapping": {
+        "matName": "flags.monks-active-tiles.name",
+        "matActions": {
+          "path": "flags.monks-active-tiles.actions",
+          "converter": "av-structured-context",
+          "cardinality": "many",
+          "container": "array",
+          "key": "id",
+          "mapping": {
+            "text": "data.text"
+          }
+        }
+      }
+    }
+  },
   "entries": {
-    "Blades for Glades": {
-      "name": "伐木之刃 Blades for Glades",
+    "7EEBbs9MCJ4CxSmP": {
+      "name": "口渴羊驼（复原）- 二层 Thirsty Alpaca (Restored) - F2",
       "drawings": {
-        "Made by Chasarooni": "由 Chasarooni 制作"
+        "a5AOf28dJu6eL7fn": {
+          "text": "由 Icarus 制作"
+        }
+      },
+      "notes": {},
+      "regions": {},
+      "tokens": {},
+      "levels": {
+        "defaultLevel0000": {
+          "name": "口渴羊驼（复原）- 二层 Thirsty Alpaca (Restored) - F2"
+        }
       }
     },
-    "Log Flume | Down Hill": {
+    "BV9P4pUNlUnK3TzQ": {
+      "name": "口渴羊驼酒馆遗址 Thirsty Alpaca Ruins",
+      "drawings": {},
+      "notes": {},
+      "regions": {},
+      "tokens": {},
+      "levels": {
+        "defaultLevel0000": {
+          "name": "口渴羊驼酒馆遗址 Thirsty Alpaca Ruins"
+        }
+      }
+    },
+    "JVI3NMK4QPsOG0Q6": {
+      "name": "奥塔里渔场 Otari Fishery",
+      "drawings": {
+        "Jiy662fimeU8s0BT": {
+          "text": "由 Eternus 制作"
+        }
+      },
+      "notes": {},
+      "regions": {},
+      "tokens": {},
+      "levels": {
+        "defaultLevel0000": {
+          "name": "奥塔里渔场 Otari Fishery"
+        }
+      }
+    },
+    "PPRhwtJVSjtgpGes": {
       "name": "运木水槽｜下坡段 Log Flume | Down Hill",
       "drawings": {
-        "Logs to Ride on": "可供乘坐的原木",
-        "Note to have the animated Tiles this requires Monk's Active Tile Triggers & Tile Scroll modules": "注意：若要让图块动起来，需要启用 Monk's Active Tile Triggers 与 Tile Scroll 这两个模组",
-        "Toggle Top": "切换顶层"
+        "eMLx7t0TsDkBEIto": {
+          "text": "切换顶层"
+        },
+        "fxEn8TB9ZaLlkOd3": {
+          "text": "注意：若要让图块动起来，需要启用 Monk's Active Tile Triggers 与 Tile Scroll 这两个模组"
+        },
+        "clfxZoniY5tW9BJO": {
+          "text": "可供乘坐的原木"
+        }
+      },
+      "notes": {},
+      "regions": {},
+      "tokens": {},
+      "levels": {
+        "defaultLevel0000": {
+          "name": "运木水槽｜下坡段 Log Flume | Down Hill"
+        }
+      },
+      "tiles": {
+        "mmAl2kHZ0L7hJqTP": {
+          "matName": "加速 Speed Up",
+          "matActions": {
+            "FPCdZGhUs9cdwhXW": {
+              "text": "速度++"
+            }
+          }
+        },
+        "pu7kACYpmgOnaCez": {
+          "matName": "加速 Speed Up",
+          "matActions": {
+            "FPCdZGhUs9cdwhXW": {
+              "text": "速度--"
+            }
+          }
+        }
       }
     },
-    "Log Flume | Loading Tower": {
+    "VSmG1Rmn9tARM2Xx": {
       "name": "运木水槽｜装载塔 Log Flume | Loading Tower",
+      "drawings": {
+        "Pu3bGhAO1KHoBV24": {
+          "text": "一层"
+        },
+        "iEygH8WYO671fjQn": {
+          "text": "三层"
+        },
+        "gkHAUiZoD496bWLk": {
+          "text": "四层"
+        },
+        "7RKsLfIILTn4r2Y6": {
+          "text": "二层"
+        },
+        "KAkXchNKLGBHfpkh": {
+          "text": "五层"
+        },
+        "6AqZ7baCixse1bUR": {
+          "text": "注意：若想让水面“流动”起来，需要启用 Tile Scroll 模组"
+        }
+      },
+      "notes": {},
       "regions": {
-        "Log 1 up to Log 2": {
+        "XNQFFNTBJ8nZ8GDI": {
           "name": "原木1 上行至原木2 Log 1 up to Log 2",
           "behaviors": {
-            "Teleport Token": {
+            "9GlBHcAulU3x8nlk": {
               "name": "传送指示物 Teleport Token"
             }
           }
         },
-        "Log 2 down to Log 1": {
+        "f7MNLpmkNT658N0H": {
           "name": "原木2 下行至原木1 Log 2 down to Log 1",
           "behaviors": {
-            "Teleport Token": {
+            "dhmqPPYAixu4c5Ic": {
               "name": "传送指示物 Teleport Token"
             }
           }
         },
-        "Log 2 up to Log 3": {
+        "e9gmqbrO6uIIlrwi": {
           "name": "原木2 上行至原木3 Log 2 up to Log 3",
           "behaviors": {
-            "Teleport Token": {
+            "aiWqqEmYhuMx7QYd": {
               "name": "传送指示物 Teleport Token"
             }
           }
         },
-        "Log 3 down to Log 2": {
+        "Q3tgLWS7TwXUSWHj": {
           "name": "原木3 下行至原木2 Log 3 down to Log 2",
           "behaviors": {
-            "Teleport Token": {
+            "QtzLoQQRkKBmoEKL": {
               "name": "传送指示物 Teleport Token"
             }
           }
         },
-        "Log 3 up to Log 4": {
-          "name": "原木3 上行至原木4 Log 3 up to Log 4"
+        "HMYpsu0g19BToiKe": {
+          "name": "原木3 上行至原木4 Log 3 up to Log 4",
+          "behaviors": {
+            "1zzgK0PwC8jAVYwe": {
+              "name": ""
+            }
+          }
         },
-        "Log 4 down to Log 3": {
+        "rc1c0y2teV2EccuK": {
           "name": "原木4 下行至原木3 Log 4 down to Log 3",
           "behaviors": {
-            "Teleport Token": {
+            "5uVblJr8Pgxo8T5G": {
               "name": "传送指示物 Teleport Token"
             }
           }
         },
-        "Log 4 up to Log 5": {
+        "aYAiKKQL2djXfPGm": {
           "name": "原木4 上行至原木5 Log 4 up to Log 5",
           "behaviors": {
-            "Teleport Token": {
+            "Q49Rl0oKmgFqxyph": {
               "name": "传送指示物 Teleport Token"
             }
           }
         },
-        "Log 5 down to Log 4": {
+        "GqV59GGTqjsC8Nm0": {
           "name": "原木5 下行至原木4 Log 5 down to Log 4",
           "behaviors": {
-            "Teleport Token": {
+            "T67zXEokdTK1eB4n": {
               "name": "传送指示物 Teleport Token"
             }
           }
         }
       },
-      "drawings": {
-        "Floor 1": "一层",
-        "Floor 2": "二层",
-        "Floor 3": "三层",
-        "Floor 4": "四层",
-        "Floor 5": "五层",
-        "Note, to have the water \"Flow\" by you'll need to have the Tile Scroll module enabled": "注意：若想让水面“流动”起来，需要启用 Tile Scroll 模组"
+      "tokens": {},
+      "levels": {
+        "defaultLevel0000": {
+          "name": "运木水槽｜装载塔 Log Flume | Loading Tower"
+        }
+      },
+      "tiles": {
+        "JWno5yywKPKHRW5D": {
+          "matName": "起重机 Crane"
+        }
       }
     },
-    "Odd Stories": {
+    "ZJu28ZeIXPnsiOp6": {
+      "name": "伐木之刃 Blades for Glades",
+      "drawings": {
+        "uXTm9eqxQVtTTtLG": {
+          "text": "由 Chasarooni 制作"
+        }
+      },
+      "notes": {},
+      "regions": {},
+      "tokens": {
+        "sbFGnxdz52bjQGay": {
+          "name": "卡尔曼·拉贾尼 Carman Rajani",
+          "delta": {
+            "name": null,
+            "skills": {},
+            "items": {}
+          }
+        }
+      },
+      "levels": {
+        "defaultLevel0000": {
+          "name": "伐木之刃 Blades for Glades"
+        }
+      }
+    },
+    "cRCE6pgqAyCtQbq0": {
+      "name": "口渴羊驼（复原）- 一层 Thirsty Alpaca (Restored) - F1",
+      "drawings": {
+        "a5AOf28dJu6eL7fn": {
+          "text": "由 Icarus 制作"
+        }
+      },
+      "notes": {},
+      "regions": {},
+      "tokens": {},
+      "levels": {
+        "defaultLevel0000": {
+          "name": "口渴羊驼（复原）- 一层 Thirsty Alpaca (Restored) - F1"
+        }
+      }
+    },
+    "p5zjEEjZXto738DV": {
+      "name": "奥塔里市场 Otari Market",
+      "drawings": {},
+      "notes": {},
+      "regions": {},
+      "tokens": {
+        "QnixxythVXbe80qK": {
+          "name": "巨型类人生物 Gargantuan Humanoid",
+          "delta": {
+            "name": null,
+            "skills": {},
+            "items": {
+              "zGtSO1t7RINeWEir": {
+                "name": "重整队列 Form Up",
+                "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FormUp]</p>",
+                "gmDescription": "",
+                "heighteningLevels": {},
+                "overlays": {},
+                "kitContents": {}
+              },
+              "rwLMgxOYWCHlCD7R": {
+                "name": "部队防御 Troop Defenses",
+                "description": "<p><strong>阈值</strong> 70（12格）、35（8格）</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>",
+                "gmDescription": "",
+                "heighteningLevels": {},
+                "overlays": {},
+                "kitContents": {}
+              },
+              "1hGao82GHZbkFICr": {
+                "name": "集体痛殴 Group Beatdown",
+                "description": "<p><span class=\"action-glyph\">1</span>至<span class=\"action-glyph\">3</span></p>\n<p><strong>频率</strong> 每轮一次</p>\n<hr />\n<p><strong>效果</strong> 部队攻击5尺内的敌人（@Check[type:reflex|dc:21|basic:true]），伤害取决于动作数。</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d6+3)[bludgeoning]]伤害</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d10+6)[bludgeoning]]伤害</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d10+9)[bludgeoning]]伤害</p>",
+                "gmDescription": "",
+                "heighteningLevels": {},
+                "overlays": {},
+                "kitContents": {}
+              },
+              "fa962sidQFXoub56": {
+                "name": "部队移动 Troop Movement",
+                "description": "<p>每当幽灵暴民行走时，它会先以一个自由动作重整队列，收拢到20尺×20尺的区域内（减去已损失的方格），然后再移动。这如同一个巨型生物的移动；例如，只要幽灵暴民的任一方格进入困难地形，额外移动消耗就会作用于整个群体。</p>",
+                "gmDescription": "",
+                "heighteningLevels": {},
+                "overlays": {},
+                "kitContents": {}
+              },
+              "BsGczgbZh31zNCzF": {
+                "name": "本地学识 Local Lore",
+                "description": "",
+                "gmDescription": "",
+                "heighteningLevels": {},
+                "overlays": {},
+                "kitContents": {}
+              },
+              "sw2cUfwefogSDPHR": {
+                "name": "大众之力 Power of the Mob",
+                "description": "<p>处于第一阈值时，平民在用于@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}的运动检定、攻击检定和伤害掷骰上获得+2环境加值；到了第二阈值，该加值降至+1，第三阈值则降至0。</p>",
+                "gmDescription": "",
+                "heighteningLevels": {},
+                "overlays": {},
+                "kitContents": {}
+              }
+            }
+          }
+        }
+      },
+      "levels": {
+        "defaultLevel0000": {
+          "name": "奥塔里市场 Otari Market"
+        }
+      }
+    },
+    "ue998O1cb4pMRXjA": {
       "name": "奇谭书屋 Odd Stories",
       "drawings": {
-        "Made by Chasarooni": "由 Chasarooni 制作"
+        "uEXYrJZVcocXB2nj": {
+          "text": "由 Chasarooni 制作"
+        }
+      },
+      "notes": {},
+      "regions": {},
+      "tokens": {},
+      "levels": {
+        "defaultLevel0000": {
+          "name": "奇谭书屋 Odd Stories"
+        }
       }
-    },
-    "Otari Fishery": {
-      "name": "奥塔里渔场 Otari Fishery",
-      "drawings": {
-        "Made by Eternus": "由 Eternus 制作"
-      }
-    },
-    "Otari Market": {
-      "name": "奥塔里市场 Otari Market"
-    },
-    "Thirsty Alpaca (Restored) - F1": {
-      "name": "口渴的羊驼（复原）- 一层 Thirsty Alpaca (Restored) - F1",
-      "drawings": {
-        "Made by Icarus": "由 Icarus 制作"
-      }
-    },
-    "Thirsty Alpaca (Restored) - F2": {
-      "name": "口渴的羊驼（复原）- 二层 Thirsty Alpaca (Restored) - F2",
-      "drawings": {
-        "Made by Icarus": "由 Icarus 制作"
-      }
-    },
-    "Thirsty Alpaca Ruins": {
-      "name": "口渴的羊驼废墟 Thirsty Alpaca Ruins"
     }
+  },
+  "folders": {
+    "Otari": "奥塔里 Otari",
+    "Eternus": "Eternus",
+    "Chasarooni": "Chasarooni",
+    "Log Fume": "运木水槽 Log Fume",
+    "Icarus": "Icarus"
   }
 }

@@ -21,6 +21,11 @@
  */
 
 const MODULE_ID = 'pf2e-compendium-extra-cn';
+const AV_LANG_SOURCES = new Set([
+  'pf2e-abomination-vaults',
+  'abomination-vaults-expanded',
+]);
+const AV_CHINESE_LANGS = new Set(['cn', 'zh-CN', 'zh_Hans', 'zh-Hans']);
 
 // Source modules whose i18n keys we want to override. Add an entry here
 // (and a file at lang/external/<moduleId>.json) to support more.
@@ -65,6 +70,8 @@ Hooks.once('i18nInit', async () => {
   let loadedModules = 0;
   for (const sourceModule of EXTERNAL_LANG_SOURCES) {
     if (!game.modules.get(sourceModule)?.active) continue;
+    if (AV_LANG_SOURCES.has(sourceModule)
+      && (game.system?.id !== 'pf2e' || !AV_CHINESE_LANGS.has(game.i18n.lang))) continue;
     try {
       const url = `modules/${MODULE_ID}/lang/external/${sourceModule}.json`;
       const response = await fetch(url);

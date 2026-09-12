@@ -1,7 +1,7 @@
 {
-  "abomination-vaults-addons.abomination-vaults-addons": "憎恨魔窟：附加内容\nAbomination Vaults: Addons",
-  "abomination-vaults-addons.abomination-vaults-addons-scenes": "憎恨魔窟：附加内容 - 场景\nAbomination Vaults: Addons - Scenes",
-  "abomination-vaults-expanded.abomination-vaults-expanded": "憎恨魔窟：扩展\nAbomination Vaults: Expanded",
+  "abomination-vaults-addons.abomination-vaults-addons": "憎恶地窟：附加内容 Abomination Vaults: Addons",
+  "abomination-vaults-addons.abomination-vaults-addons-scenes": "憎恶地窟：附加内容 - 场景 Abomination Vaults: Addons - Scenes",
+  "abomination-vaults-expanded.abomination-vaults-expanded": "憎恶地窟：扩展版 Abomination Vaults: Expanded",
   "battlezoo-ancestries-demigods.ancestries-pf2e": "族裔",
   "battlezoo-ancestries-demigods.boons-pf2e": "恩赐",
   "battlezoo-ancestries-demigods.effects-pf2e": "效果",
@@ -157,7 +157,7 @@
   "kctg-2e.kctg-2e": "贸易品 Trade Goods",
   "kobold-dm-fists-of-the-ruby-phoenix-maps-remakes.fotrp-kdm-remakes": "赤凰斗士 KDM 地图重制 FotRP KDM Remakes",
   "kobold-dm-sog-maps-supplemental.kobold-dm-sog-maps-supplemental": "狗头人 DM SoG 地图（补充）",
-  "pf2e-abomination-vaults.av": "憎恨魔窟\nAbomination Vaults",
+  "pf2e-abomination-vaults.av": "憎恶地窟 Abomination Vaults",
   "pf2e-beginner-box.adventures": "Pathfinder Beginner Box",
   "pf2e-claws-of-the-tyrant.claws-of-the-tyrant": "暴君之爪",
   "pf2e-decks-harrow.harrow": "哈罗牌组\nHarrow Deck",
@@ -258,9 +258,9 @@
   "sf2e-murder-in-metal-city.adventures": "金属之城谋杀案",
   "shopping-experience.common-shops": "Common Shops",
   "shopping-experience.otari-shops": "Otari Shops",
-  "tianzes-gauntlight-extras.tianzes-gauntlight-extras": "天泽的凄凉灯塔额外内容\nTianze's Gauntlight Extras",
-  "tianzes-otari-extras.tianzes-otari-extras": "天泽的奥塔里额外内容\nTianze's Otari Extras",
-  "tianzes-otari-extras.tianzes-otari-shops": "天泽的奥塔里商店\nTianze's Otari Shops",
+  "tianzes-gauntlight-extras.tianzes-gauntlight-extras": "天泽的凄凉灯塔额外内容 Tianze's Gauntlight Extras",
+  "tianzes-otari-extras.tianzes-otari-extras": "天泽的奥塔里额外内容 Tianze's Otari Extras",
+  "tianzes-otari-extras.tianzes-otari-shops": "天泽的奥塔里商店 Tianze's Otari Shops",
   "wise-gaming-plus-pack-242.wise-plus-pack-242-Items": "智者加值包 242（物品）\nWise Plus Pack 242 (Items)",
   "wise-gaming-plus-pack-242.wise-plus-pack-242-actors": "智者增强包 242（角色）\nWise Plus Pack 242 (Actors)",
   "wise-gaming-plus-pack-242.wise-plus-pack-242-journals": "智者增补包 242（日志）\nWise Plus Pack 242 (Journals)",
@@ -281,5 +281,6 @@
   "witches-remaster.witches-remaster-patrons": "庇护主 Patrons",
   "witches-remaster.witches-remaster-roll-tables": "投骰表 Roll Tables",
   "witches-remaster.witches-remaster-superstitions": "迷信 Superstitions",
-  "xdy-pf2e-workbench.xdy-internal-tables": "xdy-internal-tables, do not import"
+  "xdy-pf2e-workbench.xdy-internal-tables": "xdy-internal-tables, do not import",
+  "pf2e.abomination-vaults-bestiary": "憎恶地窟 Abomination Vaults"
 }
