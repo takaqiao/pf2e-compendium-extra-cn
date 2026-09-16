@@ -1,12 +1,12 @@
 import {AV_LEGACY_CONTENT_LINK_FIELDS as fields} from './av-legacy-content-link-data.mjs';
 
 const moduleId='tianzes-gauntlight-extras',packId=moduleId+'.'+moduleId;
-// Keep an exact runtime allowlist in addition to the document, HTML and readonly DOM gates.
+// Require Foundry 14 and supported PF2e versions in addition to the document, HTML and readonly DOM gates.
 const supportedPF2eVersions=new Set(['8.5.0','8.5.1']);
 const observers=new WeakMap(),signatures=new Map();
 const editingSelector='[contenteditable]:not([contenteditable="false"]),.ProseMirror,.prosemirror,prose-mirror';
 export function supportsAvLegacyContentLinks(g=globalThis.game){
-  return (g?.release?.version??g?.version)==='14.367'&&g.system?.id==='pf2e'&&supportedPF2eVersions.has(g.system.version)
+  return g?.release?.generation===14&&g.system?.id==='pf2e'&&supportedPF2eVersions.has(g.system.version)
     &&g.i18n?.lang==='cn'&&g.modules.get(moduleId)?.active===true&&g.modules.get(moduleId)?.version==='2.0.0';
 }
 function allowedFields(doc){

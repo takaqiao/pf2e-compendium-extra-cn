@@ -37,7 +37,7 @@ function withdrawOwned() {
 
 function allowed(game) {
   return game?.system?.id === 'pf2e'
-    && game.release?.generation === 14 && game.release?.build === 367
+    && game.release?.generation === 14
     && game.modules?.get('pf2e-compendium-extra-cn')?.active === true
     && game.i18n?.lang === 'cn'
     && game.settings.get('babele', 'loadingMode') === 'full';

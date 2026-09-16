@@ -11,7 +11,7 @@ export function createPresentationAdapter({game,data,fetchSource=path=>fetch(pat
  const unit=n=>ui.get(`ui-${String(n).padStart(3,'0')}`);
  const allowed=mid=>{
   try {const m=game.modules.get(mid),p=data.profiles[mid];return game.system?.id===data.system&&data.systemVersions.includes(game.system.version)
-   && `${game.release?.generation}.${game.release?.build}`===data.foundryVersion&&game.i18n?.lang==='cn'
+   && game.release?.generation===14&&game.i18n?.lang==='cn'
    && game.modules.get(EXTRA)?.active===true&&['full','ondemand'].includes(game.settings.get('babele','loadingMode'))
    && p&&m?.active===true&&m.version===p.version&&verifiedModules.has(mid);
   } catch{return false;}
