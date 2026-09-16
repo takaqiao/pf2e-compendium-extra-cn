@@ -2,7 +2,10 @@
 export default {
   "schema": 1,
   "system": "pf2e",
-  "systemVersion": "8.5.0",
+  "systemVersions": [
+    "8.5.0",
+    "8.5.1"
+  ],
   "foundryVersion": "14.367",
   "profiles": {
     "clerics-remaster": {

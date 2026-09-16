@@ -6,6 +6,7 @@
 - 发布区：`C:\Users\Taka\Desktop\fvttpublish\pf2e-compendium-extra\`（GitHub 仓库）
 - 翻译文件位置：
   - `compendium/`：babele 翻译的合集包 JSON（每个 pack 一个文件 + `labels.json` + `titles.json`）
+  - `compendium-851/`：仅 PF2e 8.5.1 使用的指定 pack 变体；必须随正式 ZIP 打包，基础目录保留 8.5.0 对应译文。
   - `homebrew/`：PF2e 系统的 homebrew 翻译 JSON（每个 PF2e 模组一个 `<moduleId>.homebrew.json`），由 `scripts/inject-homebrew.js` 在 `setup` 钩子里覆盖 `CONFIG.PF2E.{weaponTraits, featTraits, baseWeaponTypes, traitsDescriptions, ...}`
   - `scripts/`：构建/运行时辅助脚本
 - GitHub 仓库：`takaqiao/pf2e-compendium-extra-cn`
@@ -57,12 +58,12 @@ git push origin A.B.C     # <- 这一步才是发版触发器
 gh run watch
 ```
 
-CI 依次做四件事：
+CI 依次做三件事：
 
 1. 校验 `module.json` 的 `version` 与 tag 一致、`download` URL 指向该 tag
 2. 按**白名单**打包（见 §5）
 3. 建 release，同时上传 zip 与 `module.json`（`fail_on_unmatched_files: true`）
-4. 向 foundryvtt.com 的 package registry 发布该版本
+发布工作流只打包并创建 GitHub Release，不读取 Foundry 发布密钥，也不调用包登记 API。现有 `latest/download/module.json` 仍用于 Foundry 的模块版本检查和安装。
 
 **release notes 取自被打 tag 那个 commit 的 message**（`git log -1 --format=%B`）
 ＋ `.github/release-body-template.md`。所以 commit message 就是 changelog：沿用
@@ -75,7 +76,7 @@ CI 读的是 **tag 所在 commit** 的 message —— 要么把同样正文写�
 ### 5. zip 白名单（CI 内，仅供核对）
 
 ```
-module.json  babele.js  inject-lang.js  compendium  homebrew  lang  scripts  .gitignore
+module.json  babele.js  inject-lang.js  compendium  compendium-851  homebrew  lang  scripts  .gitignore
 ```
 
 `inject-lang.js` 与 `lang/` **必须在内**：`module.json` 的 `esmodules` 声明了
