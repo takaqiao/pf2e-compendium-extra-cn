@@ -14,6 +14,21 @@
       "PassTheTorch": {
         "ExpendTorches": "消耗火炬",
         "StokedTorches": "已燃起的火炬"
+      },
+      "BolderDash": {
+        "Downhill": "下坡",
+        "Normal": "正常",
+        "ToggleLabel": "勇猛冲刺——提高速度"
+      },
+      "EarthwormRegeneration": {
+        "Label": "蚯蚓再生",
+        "Note": "每天一次，当你受到重击时，你可以通过让身体被切成两半，将此次重击降为普通命中。身体被切成两半期间，你无法行动，唯一例外是花费1个动作使缺失的半边身体重新长出。",
+        "ToggleLabel": "已使用蚯蚓再生"
+      },
+      "SentinelsVengeance": {
+        "OneTime": "一次",
+        "ToggleLabel": "哨兵复仇——盟友受到伤害",
+        "ThreeOrMore": "三次或更多"
       }
     },
     "DescriptionAlterations": {
@@ -302,7 +317,8 @@
       "MortalFriend": "这个爱达梦有凡人挚友吗？",
       "PreparedEldamonNumber": {
         "Fire": "准备了多少只火元素爱达梦？",
-        "Water": "准备了多少只水元素爱达梦？"
+        "Water": "准备了多少只水元素爱达梦？",
+        "Earth": "准备了多少只土元素爱达梦？"
       }
     },
     "Tides": {
@@ -323,6 +339,10 @@
       "Recovery": "复原",
       "Refresh": "刷新",
       "Ultimate": "终极"
+    },
+    "ElementalPower": {
+      "AttackLabel": "威能",
+      "Label": "元素威能"
     }
   }
 }

@@ -1,4 +1,4 @@
-/** Bounded display compatibility: Legends 2.2 / Foundry 14.367 / PF2e 8.5.0 and 8.5.1.
+/** Bounded display compatibility: Legends 2.2 and 3.0 / Foundry 14.367 / PF2e 8.5.0 and 8.5.1.
  * Startup ESM; no persistent settings/chat/Actor writes and no global API wrappers.
  * HC11 intentionally also matches approved Basic/manual complete same-text messages.
  */
@@ -65,7 +65,7 @@ function allowed() {
     const g = globalThis.game, m = g?.modules?.get(MODULE);
     return g?.system?.id === 'pf2e' && ['8.5.0', '8.5.1'].includes(g.system.version)
       && g.release?.generation === 14 && g.release.build === 367
-      && m?.active === true && m.version === '2.2'
+      && m?.active === true && ['2.2', '3.0'].includes(m.version)
       && g.modules.get(EXTRA)?.active === true && g.i18n?.lang === 'cn'
       && g.settings.get('babele', 'loadingMode') === 'full';
   } catch { return false; }
