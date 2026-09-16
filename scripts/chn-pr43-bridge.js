@@ -1,3 +1,5 @@
+import {sogTranslationDirectory} from './sog-851-core.mjs';
+
 const MODULE_ID = 'pf2e-compendium-extra-cn';
 const COMPENDIUM_DIR = `modules/${MODULE_ID}/compendium`;
 const BABEL_NAMESPACE = 'babele';
@@ -99,7 +101,8 @@ async function injectExtraIntoState(babele, state) {
 }
 
 async function loadExtraPackTranslation(packId) {
-  const direct = await fetchJson(`${COMPENDIUM_DIR}/${encodeURI(packId)}.json`);
+  const directory = `modules/${MODULE_ID}/${sogTranslationDirectory(packId)}`;
+  const direct = await fetchJson(`${directory}/${encodeURI(packId)}.json`);
   if (!direct) return null;
 
   if (Array.isArray(direct.reference)) {

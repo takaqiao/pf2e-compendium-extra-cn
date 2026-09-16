@@ -1,3 +1,6 @@
+import './scripts/sog-851.mjs';
+import './scripts/sog-fields.mjs';
+
 const MODULE_ID = 'pf2e-compendium-extra-cn';
 const CHN_MODULE_ID = 'pf2e_compendium_chn';
 

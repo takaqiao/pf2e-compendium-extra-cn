@@ -1,4 +1,4 @@
-/** Bounded display compatibility: Legends 2.2 / Foundry 14.367 / PF2e 8.5.0.
+/** Bounded display compatibility: Legends 2.2 / Foundry 14.367 / PF2e 8.5.0 and 8.5.1.
  * Startup ESM; no persistent settings/chat/Actor writes and no global API wrappers.
  * HC11 intentionally also matches approved Basic/manual complete same-text messages.
  */
@@ -14,7 +14,11 @@ const SOURCE = Object.freeze({
   dialogListeners: 'fa47bd14a64e2ec276d5aa29c1f51aab77d6480bd2edf5f9c54ef357ed04fb24',
   dialogSubmit: '96ec7ce57b3b42a3ac483ac87156d5be930d237bd254d2a7705ab81fa350f08b',
   chatNative: '5899ae055bb4ac54d44a232edc49a58bf90101afb1dfaddefb51cb539af06847',
-  chatPF2: '298b1fbb292fda6bce3450708cda6816e3ae1ee6a86b477ce1e9af9d707374ae'
+  // Official builds rename internal bindings; each version keeps its own full fingerprint.
+  chatPF2: Object.freeze({
+    '8.5.0': '298b1fbb292fda6bce3450708cda6816e3ae1ee6a86b477ce1e9af9d707374ae',
+    '8.5.1': '2002b840988a5456d11b20cbd235a2d067d046678af3e1781090c2990849338c'
+  })
 });
 
 // Synchronous SHA-256 avoids an asynchronous gap in the API call/instance observation.
@@ -48,7 +52,8 @@ const functionText = Function.prototype.toString;
 function exact(fn, key) {
   if (typeof fn !== 'function') return false;
   if (!hashes.has(fn)) hashes.set(fn, sha256(functionText.call(fn).replace(/\r\n?/g, '\n')));
-  return hashes.get(fn) === SOURCE[key];
+  const expected = key === 'chatPF2' ? SOURCE.chatPF2[globalThis.game?.system?.version] : SOURCE[key];
+  return hashes.get(fn) === expected;
 }
 function ownValue(object, key) {
   if (!object) return undefined;
@@ -58,7 +63,7 @@ function ownValue(object, key) {
 function allowed() {
   try {
     const g = globalThis.game, m = g?.modules?.get(MODULE);
-    return g?.system?.id === 'pf2e' && g.system.version === '8.5.0'
+    return g?.system?.id === 'pf2e' && ['8.5.0', '8.5.1'].includes(g.system.version)
       && g.release?.generation === 14 && g.release.build === 367
       && m?.active === true && m.version === '2.2'
       && g.modules.get(EXTRA)?.active === true && g.i18n?.lang === 'cn'

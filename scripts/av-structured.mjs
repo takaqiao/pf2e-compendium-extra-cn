@@ -1,4 +1,5 @@
 import './av-legacy-content-links.mjs';
+import {installAvCore851DescriptionSourceGuard} from './av-core-851-descriptions.mjs';
 import {AV_BADGE_LABELS,createAvBadgeLabelsConverter} from './av-badge-labels-core.mjs';
 import {MappedCompendium} from '../../babele/script/compendium/mapped-compendium.js';
 import {installAvOnDemandReentryGuard} from './av-ondemand-reentry.mjs';
@@ -8,6 +9,7 @@ import {CompendiumRuntime} from '../../babele/script/compendium/compendium-runti
 import {AV_STRUCTURED,createAvStructuredConverter} from './av-structured-core.mjs';
 Hooks.once('babele.init',babele=>{
   installAvOnDemandReentryGuard(MappedCompendium);
+  installAvCore851DescriptionSourceGuard(MappedCompendium);
   if(game.system?.id!=='pf2e'||game.modules.get('babele')?.version!=='2.9.1')return;
   if(babele.converterRegistry.named(AV_STRUCTURED))throw new Error(`Duplicate ${AV_STRUCTURED} converter registration`);
   if(babele.converterRegistry.named(AV_BADGE_LABELS))throw new Error(`Duplicate ${AV_BADGE_LABELS} converter registration`);

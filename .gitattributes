@@ -1,0 +1,13 @@
+# The optional installer verifies this patch's exact released bytes.
+compat/av-1.0.50/av-source-compat.patch text eol=lf
+# Keep the five AV runtime files byte-identical between Windows QA and release checkout.
+scripts/av-legacy-content-links.mjs text eol=lf
+scripts/av-ondemand-reentry.mjs text eol=lf
+scripts/av-structured.mjs text eol=lf
+scripts/av-core-851-descriptions.mjs text eol=lf
+scripts/av-core-851-description-data.mjs text eol=lf
+# Preserve the companion attachment text bytes in release archives.
+compat/av-1.0.50/README.md text eol=lf
+compat/av-1.0.50/manifest.json text eol=lf
+compat/av-1.0.50/verify.py text eol=lf
+.gitattributes text eol=lf
