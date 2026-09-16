@@ -93,7 +93,7 @@ export function installPublishedSogGuard(PublishedTranslationSource){
    console.warn(`${MODULE} | SoG source scope check failed; keeping native sources`,error);return result;
   }
   return result.then(files=>{
-   try{return selectSogTranslationFiles(files);}catch(error){
+   try{return orderSogTranslationFiles(selectSogTranslationFiles(files),globalThis.game?.babele,globalThis.game,{published:true});}catch(error){
     console.warn(`${MODULE} | SoG source selection failed; keeping native sources`,error);return files;
    }
   });
@@ -110,12 +110,12 @@ export function refreshOnDemandSogSources(babele,game=globalThis.game){
  if(!state)return false;
  let changed=false;
  if(Array.isArray(state.translationFilesCache)){
-  const next=selectSogTranslationFiles(state.translationFilesCache,game);
+  const next=orderSogTranslationFiles(selectSogTranslationFiles(state.translationFilesCache,game),babele,game);
   changed||=next!==state.translationFilesCache;state.translationFilesCache=next;
  }
  const previous=state.packTranslationUrls?.get?.(SOG_PACK);
  if(Array.isArray(previous)){
-  const next=selectSogTranslationFiles(previous,game);
+  const next=orderSogTranslationFiles(selectSogTranslationFiles(previous,game),babele,game);
   if(next!==previous){state.packTranslationUrls.set(SOG_PACK,next);changed=true;}
  }
  return changed;
@@ -139,4 +139,54 @@ export function installOnDemandSogGuard(babele){
  Object.defineProperty(babele,'ensurePackTranslationsLoaded',{...descriptor,value:ensurePackTranslationsLoaded});
  onDemandWrappers.set(babele,ensurePackTranslationsLoaded);
  return true;
+}
+
+const PRIORITY_SOURCE="sourcePriority() {\n        return this.#engine.sourcePriority();\n    }";
+/** Babele 2.9.1 orderedSourcesFor policy: unranked first, stable within a source. */
+function orderKnownSources(order,sources){
+ const ranks=new Map(order.map((source,index)=>[source,index]));
+ return sources.map((source,index)=>({source,index})).sort((left,right)=>{
+  const a=ranks.has(left.source.source),b=ranks.has(right.source.source);
+  if(!a&&!b)return left.index-right.index;
+  if(a!==b)return a?1:-1;
+  return ranks.get(left.source.source)-ranks.get(right.source.source);
+ }).map(entry=>entry.source);
+}
+
+/** Apply configured order only to proven sources in this pack's known cache paths. */
+export function orderSogTranslationFiles(files,babele,game=globalThis.game,{published=false}={}){
+ try{
+ if(!supportsSogSources(game)||!Array.isArray(files))return files;
+ if(published){
+  if(game.user?.isGM!==false||game.settings.get('babele','loadingMode')!=='full'
+   ||game.modules.get('pf2e_compendium_chn')?.active!==true
+   ||game.modules.get('pf2e_compendium_chn').version!=='3.1.2')return files;
+ }else if(!useSog851(game)||!supportsSogOnDemand(game)||!knownOnDemandMethod(babele))return files;
+ const priority=babele?.sourcePriority;
+ if(typeof priority!=='function'||Function.prototype.toString.call(priority)!==PRIORITY_SOURCE)return files;
+ const config=Reflect.apply(priority,babele,[]);
+ const order=config?.collections?.[SOG_PACK]??config?.global;
+ if(!Array.isArray(order)||!order.length)return files;
+ const lang=language(game),indices=[],sources=[];
+ const configured=game.settings.get('babele','directory')?.trim?.();
+ const chn=`modules/pf2e_compendium_chn/compendium/${SOG_PACK}.json`;
+ for(let index=0;index<files.length;index++){
+  const file=canonical(fileOf(files[index]));
+  const basename=typeof file==='string'?file.slice(file.lastIndexOf('/')+1):'';
+  if(!basename.startsWith(`${SOG_PACK}.`)||!basename.endsWith('.json'))continue;
+  let source;
+  if(file===BASE||file===VARIANT)source=`module:${MODULE}:${lang}`;
+  else if(file===chn)source=`module:pf2e_compendium_chn:${lang}`;
+  else if(configured&&file===`${configured}/${lang}/${SOG_PACK}.json`&&order.includes('directory'))source='directory';
+  else return files; // Unknown or unranked custom source: retain its existing precedence.
+  indices.push(index);sources.push({source,row:files[index]});
+ }
+ if(sources.length<2)return files;
+ const ordered=orderKnownSources(order,sources);
+ if(ordered.every((row,index)=>row===sources[index]))return files;
+ const result=[...files];indices.forEach((index,i)=>{result[index]=ordered[i].row;});return result;
+ }catch(error){
+  console.warn(`${MODULE} | SoG source priority unavailable; keeping version-selected sources`,error);
+  return files;
+ }
 }
