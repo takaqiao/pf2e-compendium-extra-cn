@@ -4,7 +4,7 @@ const SOURCE_FRAMES=new WeakMap();
 const SOURCE_GUARD=Symbol.for('pf2e-compendium-extra-cn.avCore851SourceGuard.v1');
 
 function supportsCurrentRuntime(g=globalThis.game){
-  return g?.version==='14.367'&&g.system?.id==='pf2e'&&g.system.version==='8.5.1'&&g.i18n?.lang==='cn'
+  return g?.release?.generation===14&&g.system?.id==='pf2e'&&g.system.version==='8.5.1'&&g.i18n?.lang==='cn'
     &&g.modules?.get('pf2e-compendium-extra-cn')?.active===true
     &&g.modules?.get('babele')?.active===true&&g.modules.get('babele').version==='2.9.1'
     &&g.modules?.get('pf2e_compendium_chn')?.active===true&&g.modules.get('pf2e_compendium_chn').version==='3.1.2';

@@ -6,12 +6,12 @@ const TARGETS=new Set([
  'tianzes-otari-extras.tianzes-otari-extras','tianzes-otari-extras.tianzes-otari-shops'
 ]);
 const MARK=Symbol.for('pf2e-compendium-extra-cn.avOnDemandReentry.v1');
-// Restrict the workaround to exact supported runtimes; completed native metadata is still required.
+// Restrict the workaround to Foundry 14 and supported PF2e versions; completed native metadata is still required.
 const supportedPF2eVersions=new Set(['8.5.0','8.5.1']);
 function isCompletedNativeTranslation(pack,data,translationsOnly){
  if(translationsOnly||!TARGETS.has(pack?.metadata?.id))return false;
  const g=globalThis.game;
- if(g?.version!=='14.367'||g.system?.id!=='pf2e'||!supportedPF2eVersions.has(g.system?.version)||g.i18n?.lang!=='cn')return false;
+ if(g?.release?.generation!==14||g.system?.id!=='pf2e'||!supportedPF2eVersions.has(g.system?.version)||g.i18n?.lang!=='cn')return false;
  if(g.modules?.get('babele')?.version!=='2.9.1'||g.modules?.get('pf2e_compendium_chn')?.version!=='3.1.2')return false;
  if(g.settings.get('babele','loadingMode')!=='ondemand')return false;
  const f=data?.flags?.babele;
