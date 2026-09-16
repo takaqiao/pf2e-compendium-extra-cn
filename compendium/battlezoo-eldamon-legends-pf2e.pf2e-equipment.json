@@ -31,7 +31,7 @@
     },
     "Evermarine Nexus (Supreme)": {
       "name": "恒海纽带（至高） Evermarine Nexus (Supreme)",
-      "description": "<p>这枚由活水构成、不断变幻的仿宝石垂挂在一条长链上，随无形的潮汐变动，却始终凝聚不散。若你是爱达梦训练家，当你绑定这条纽带时，你的爱达梦的威能攻击检定获得+3物品加值。</p><p>只要你已准备的爱达梦中有至少1只水爱达梦，你的水爱达梦使用水威能时就会根据该威能的潮汐获得一项益处：高潮时，伤害获得+4物品加值；低潮时，AC获得+1状态加值，持续1轮。你可以在非水爱达梦相位移入时，暂时用水流包裹它们，并选择高潮或低潮来改变它们的第一个威能。若选择高潮，它们相位移入后的第一个威能伤害获得+2物品加值，且在攻击检定大成功或目标豁免大失败时，将敌人向远离它们的方向推动5尺，但使用该威能后它们会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}1轮。若选择低潮，它们使用该威能后AC获得+1状态加值，持续1轮，并在攻击检定大成功或目标豁免大失败时，将敌人向自身拉近5尺。</p><p>若你已准备的爱达梦中有至少两只水爱达梦，你的非水爱达梦的高潮伤害加值还会提升至+3；你的水爱达梦则获得元素化身职业的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.ceLBJbIGankbSsSH]{虹吸元素}动作。</p><p>若你已准备的爱达梦中有至少三只水爱达梦，你的非水爱达梦的高潮伤害加值还会提升至+4，并获得水抗力15；你的水爱达梦则获得元素化身同名专长的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.3rTIjctViLuy2SOw]{强压元素}动作。</p><p>当你绑定这条纽带时，你的魅力调整值提升1，或提升至+4，取结果较高者；若你是以智力为关键属性的爱达梦研究者，你可以改为使智力获得这些益处。若你已准备的爱达梦中有至少四只水爱达梦，你的非水爱达梦的高潮伤害加值提升至+5；你的水爱达梦则获得元素化身同名专长的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.Wz1GI7VJ8clmkN8f]{涌动元素}动作。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.6YZGOhvLhlcdVkNd]{效果：恒海纽带}</p><hr /><p><em>虚拟桌面注：若你是以智力为关键属性的爱达梦研究者，可以前往本物品的详情选项卡，相应调整其巅峰属性。</em></p>"
+      "description": "<p>这枚由活水构成、不断变幻的仿宝石垂挂在一条长链上，随无形的潮汐变动，却始终凝聚不散。若你是爱达梦训练家，当你绑定这条纽带时，你的爱达梦的威能攻击检定获得+3物品加值。</p><p>只要你已准备的爱达梦中有至少1只水爱达梦，你的水爱达梦使用水威能时就会根据该威能的潮汐获得一项益处：高潮时，伤害获得+4物品加值；低潮时，AC获得+1状态加值，持续1轮。你可以在非水爱达梦相位移入时，暂时用水流包裹它们，并选择高潮或低潮来改变它们的第一个威能。若选择高潮，它们相位移入后的第一个威能伤害获得+2物品加值，且在攻击检定大成功或目标豁免大失败时，将敌人向远离它们的方向推动5尺，但使用该威能后它们会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}1轮。若选择低潮，它们使用该威能后AC获得+1状态加值，持续1轮，并在攻击检定大成功或目标豁免大失败时，将敌人向自身拉近5尺。</p><p>若你已准备的爱达梦中有至少两只水爱达梦，你的非水爱达梦的高潮伤害加值还会提升至+3；你的水爱达梦则获得元素化身职业的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.ceLBJbIGankbSsSH]{虹吸元素}动作。</p><p>若你已准备的爱达梦中有至少三只水爱达梦，你的非水爱达梦的高潮伤害加值还会提升至+4，并获得水抗力15；你的水爱达梦则获得元素化身同名专长的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.3rTIjctViLuy2SOw]{强压元素}动作。</p><p>当你绑定这条纽带时，你的魅力调整值提升1，或提升至+4，取结果较高者；若你是以智力为关键属性的爱达梦研究者，你可以改为使智力获得这些益处。</p><p>若你已准备的爱达梦中有至少四只水爱达梦，你的非水爱达梦的高潮伤害加值提升至+5；你的水爱达梦则获得元素化身同名专长的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.Wz1GI7VJ8clmkN8f]{涌动元素}动作。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.6YZGOhvLhlcdVkNd]{效果：恒海纽带}</p><hr /><p><em>虚拟桌面注：若你是以智力为关键属性的爱达梦研究者，可以前往本物品的详情选项卡，相应调整其巅峰属性。</em></p>"
     },
     "Evermarine Nexus (Greater)": {
       "name": "恒海纽带（高等） Evermarine Nexus (Greater)",
@@ -80,10 +80,64 @@
     "Flamecrystal Nexus (Lesser)": {
       "name": "焰晶纽带（次等） Flamecrystal Nexus (Lesser)",
       "description": "<p>这枚由永恒火焰的余烬凝成的晶体垂挂在一条长链上，链身镶嵌着较小的红色宝石。若你是爱达梦训练家，当你绑定这条纽带时，你的爱达梦的威能攻击检定获得+1物品加值。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.vonpTaFGuVv5JMiY]{效果：焰晶纽带}</p>"
+    },
+    "Prismatic Geode Nexus (Lesser)": {
+      "name": "棱彩晶洞枢纽（次等） Prismatic Geode Nexus (Lesser)",
+      "description": "<p>这枚璀璨晶洞垂挂在一条长链上，内部充满色彩如虹的各色宝石。若你是爱达梦训练家，当你绑定枢纽时，你的爱达梦的威能攻击检定获得+1物品加值。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.fkik1KUjrr54Y8jg]{效果：棱彩晶洞枢纽}</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "Avalanche Scepter (Greater)": {
+      "name": "岩崩权杖（高等） Avalanche Scepter (Greater)",
+      "description": "<p>这柄细长权杖由火成岩、变质岩和沉积岩混合而成，三层岩石盘旋交缠。权杖使你的土元素威能攻击检定获得+2物品加值。</p><p>使用土威能后，在你的下个回合开始前，你下次受到伤害时，将该伤害减少3。你可以启用权杖，以你的威能DC施放@UUID[Compendium.pf2e.spells-srd.Item.Rn2LkoSq1XhLsODV]{碎石猛击}戏法；若你还拥有<em>Battlezoo Eldamon</em>中的强化法术专长，则使用权杖的<em>碎石猛击</em>戏法时，将权杖的物品加值加到伤害掷骰上。</p><p>使用土威能后，直到你的下个回合开始，对抗敌人发动且穿过你占据空间的攻击时，你提供标准掩护，而非轻度掩护。若你的威能本就会提供此益处，例如@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.sarOSsJ5ckTzePs1]{岩石掩护}刷新威能，则你改为对此类攻击提供高等掩护。</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "Avalanche Scepter (Lesser)": {
+      "name": "岩崩权杖（次等） Avalanche Scepter (Lesser)",
+      "description": "<p>这柄细长权杖由火成岩、变质岩和沉积岩混合而成，三层岩石盘旋交缠。权杖使你的土元素威能攻击检定获得+1物品加值。</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "Prismatic Geode Nexus (Greater)": {
+      "name": "棱彩晶洞枢纽（高等） Prismatic Geode Nexus (Greater)",
+      "description": "<p>这枚璀璨晶洞垂挂在一条长链上，内部充满色彩如虹的各色宝石。若你是爱达梦训练家，当你绑定枢纽时，你的爱达梦的威能攻击检定获得+2物品加值。</p><p>只要你已准备的爱达梦中有至少1只土爱达梦，使用土威能后，在你的下个回合开始前，你的土爱达梦下次受到伤害时，将该伤害减少3。你的非土爱达梦在进入相位后，首次受到的伤害减少1。</p><p>若你已准备的爱达梦中有至少两只土爱达梦，你的非土爱达梦在进入相位后，首次受到的伤害改为减少3，而非1；你的土爱达梦则获得元素化身职业的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.ceLBJbIGankbSsSH]{虹吸元素}动作。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.fkik1KUjrr54Y8jg]{效果：棱彩晶洞枢纽}</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "Prismatic Geode Nexus (Standard)": {
+      "name": "棱彩晶洞枢纽（标准） Prismatic Geode Nexus (Standard)",
+      "description": "<p>这枚璀璨晶洞垂挂在一条长链上，内部充满色彩如虹的各色宝石。若你是爱达梦训练家，当你绑定枢纽时，你的爱达梦的威能攻击检定获得+1物品加值。</p><p>只要你已准备的爱达梦中有至少1只土爱达梦，使用土威能后，在你的下个回合开始前，你的土爱达梦下次受到伤害时，将该伤害减少1。你的非土爱达梦在进入相位后，首次受到的伤害减少1。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.fkik1KUjrr54Y8jg]{效果：棱彩晶洞枢纽}</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "Prismatic Geode Nexus (Major)": {
+      "name": "棱彩晶洞枢纽（上等） Prismatic Geode Nexus (Major)",
+      "description": "<p>这枚璀璨晶洞垂挂在一条长链上，内部充满色彩如虹的各色宝石。若你是爱达梦训练家，当你绑定枢纽时，你的爱达梦的威能攻击检定获得+3物品加值。</p><p>只要你已准备的爱达梦中有至少1只土爱达梦，使用土威能后，在你的下个回合开始前，你的土爱达梦下次受到伤害时，将该伤害减少5。你的非土爱达梦在进入相位后，首次受到的伤害减少1。</p><p>若你已准备的爱达梦中有至少两只土爱达梦，你的非土爱达梦在进入相位后，首次受到的伤害改为减少3，而非1；你的土爱达梦则获得元素化身职业的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.ceLBJbIGankbSsSH]{虹吸元素}动作。</p><p>若你已准备的爱达梦中有至少三只土爱达梦，你的非土爱达梦在进入相位后，首次受到的伤害减少5，并获得土抗力15；你的土爱达梦则获得元素化身同名专长的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.3rTIjctViLuy2SOw]{强压元素}动作。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.fkik1KUjrr54Y8jg]{效果：棱彩晶洞枢纽}</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "Avalanche Scepter (Supreme)": {
+      "name": "岩崩权杖（至高） Avalanche Scepter (Supreme)",
+      "description": "<p>这柄细长权杖由火成岩、变质岩和沉积岩混合而成，三层岩石盘旋交缠。权杖使你的土元素威能攻击检定获得+3物品加值。</p><p>使用土威能后，在你的下个回合开始前，你下次受到伤害时，将该伤害减少5。你可以启用权杖，以你的威能DC施放@UUID[Compendium.pf2e.spells-srd.Item.Rn2LkoSq1XhLsODV]{碎石猛击}戏法；若你还拥有<em>Battlezoo Eldamon</em>中的强化法术专长，则使用权杖的<em>碎石猛击</em>戏法时，将权杖的物品加值加到伤害掷骰上。</p><p>使用土威能后，直到你的下个回合开始，对抗敌人发动且穿过你占据空间的攻击时，你提供标准掩护，而非轻度掩护。若你的威能本就会提供此益处，例如@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.sarOSsJ5ckTzePs1]{岩石掩护}刷新威能，则你改为对此类攻击提供高等掩护。</p><p>每当你使用土威能时，都可以用自由动作使用元素护盾。若你拥有持久护盾专长，无需有一只手空着，也能获得元素护盾的+2环境加值。</p><p>当你绑定权杖时，你的感知调整值提升1，或提升至+4，取结果较高者。</p><p>若土威能使你获得持续1轮的AC加值，而该轮没有任何东西攻击你，则该AC加值额外延长1轮。若土威能使你获得持续1轮的抗力，而没有任何东西本会对你造成该抗力适用类型的伤害，则将该抗力减半，并额外延长1轮。每次使用威能至多应用一次这些延长效果，而且它们也适用于持续“直到你的下个回合开始”的效果。</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "Prismatic Geode Nexus (Supreme)": {
+      "name": "棱彩晶洞枢纽（至高） Prismatic Geode Nexus (Supreme)",
+      "description": "<p>这枚璀璨晶洞垂挂在一条长链上，内部充满色彩如虹的各色宝石。若你是爱达梦训练家，当你绑定枢纽时，你的爱达梦的威能攻击检定获得+3物品加值。</p><p>只要你已准备的爱达梦中有至少1只土爱达梦，使用土威能后，在你的下个回合开始前，你的土爱达梦下次受到伤害时，将该伤害减少5。你的非土爱达梦在进入相位后，首次受到的伤害减少1。</p><p>若你已准备的爱达梦中有至少两只土爱达梦，你的非土爱达梦在进入相位后，首次受到的伤害改为减少3，而非1；你的土爱达梦则获得元素化身职业的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.ceLBJbIGankbSsSH]{虹吸元素}动作。</p><p>若你已准备的爱达梦中有至少三只土爱达梦，你的非土爱达梦在进入相位后，首次受到的伤害减少5，并获得土抗力15；你的土爱达梦则获得元素化身同名专长的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.3rTIjctViLuy2SOw]{强压元素}动作。</p><p>当你绑定枢纽时，你的魅力调整值提升1，或提升至+4，取结果较高者；若你是以智力为关键属性的爱达梦研究者，你可以改为使智力获得这些益处。</p><p>若你已准备的爱达梦中有至少四只土爱达梦，你的非土爱达梦在进入相位后，首次受到的伤害减少7；你的土爱达梦则获得元素化身同名专长的@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-actions.Item.Wz1GI7VJ8clmkN8f]{涌动元素}动作。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.fkik1KUjrr54Y8jg]{效果：棱彩晶洞枢纽}</p><hr /><p><em>虚拟桌面注：若你是以智力为关键属性的爱达梦研究者，可以前往本物品的详情选项卡，相应调整其巅峰属性。</em></p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "Avalanche Scepter (Major)": {
+      "name": "岩崩权杖（上等） Avalanche Scepter (Major)",
+      "description": "<p>这柄细长权杖由火成岩、变质岩和沉积岩混合而成，三层岩石盘旋交缠。权杖使你的土元素威能攻击检定获得+3物品加值。</p><p>使用土威能后，在你的下个回合开始前，你下次受到伤害时，将该伤害减少5。你可以启用权杖，以你的威能DC施放@UUID[Compendium.pf2e.spells-srd.Item.Rn2LkoSq1XhLsODV]{碎石猛击}戏法；若你还拥有<em>Battlezoo Eldamon</em>中的强化法术专长，则使用权杖的<em>碎石猛击</em>戏法时，将权杖的物品加值加到伤害掷骰上。</p><p>使用土威能后，直到你的下个回合开始，对抗敌人发动且穿过你占据空间的攻击时，你提供标准掩护，而非轻度掩护。若你的威能本就会提供此益处，例如@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.sarOSsJ5ckTzePs1]{岩石掩护}刷新威能，则你改为对此类攻击提供高等掩护。</p><p>每当你使用土威能时，都可以用自由动作使用元素护盾。若你拥有持久护盾专长，无需有一只手空着，也能获得元素护盾的+2环境加值。</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "Avalanche Scepter (Standard)": {
+      "name": "岩崩权杖（标准） Avalanche Scepter (Standard)",
+      "description": "<p>这柄细长权杖由火成岩、变质岩和沉积岩混合而成，三层岩石盘旋交缠。权杖使你的土元素威能攻击检定获得+1物品加值。</p><p>使用土威能后，在你的下个回合开始前，你下次受到伤害时，将该伤害减少1。你可以启用权杖，以你的威能DC施放@UUID[Compendium.pf2e.spells-srd.Item.Rn2LkoSq1XhLsODV]{碎石猛击}戏法；若你还拥有<em>Battlezoo Eldamon</em>中的强化法术专长，则使用权杖的<em>碎石猛击</em>戏法时，将权杖的物品加值加到伤害掷骰上。</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
     }
   },
   "folders": {
     "Implements of Water": "水之器具 Implements of Water",
-    "Implements of Fire": "火之器具 Implements of Fire"
+    "Implements of Fire": "火之器具 Implements of Fire",
+    "Implements of Earth": "土之器具 Implements of Earth"
+  },
+  "mapping": {
+    "unidentifiedName": "system.identification.unidentified.name"
   }
 }

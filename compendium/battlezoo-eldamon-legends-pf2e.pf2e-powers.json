@@ -244,11 +244,136 @@
     "Cloudburst": {
       "name": "倾盆骤雨 Cloudburst",
       "description": "<p>你在极远处唤来一场巨大的骤雨，水流猛然倾泻。骤雨冲击500尺内一个@Template[type:burst|distance:30]中的敌人，对区域内的每个敌人造成@Damage[((1+@actor.level)d6)[bludgeoning]]伤害，具体取决于其@Check[fortitude|against:eldamon]豁免。</p><p><strong>高潮：</strong>伤害改为@Damage[((1+@actor.level)d10)[bludgeoning]|options:high-tide-power]伤害，但突然涌入骤雨的水流将你击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><p><strong>低潮：</strong>骤雨的水流朝你涌来，遮蔽敌人的视线，使你处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态，直到你下个回合结束。</p><hr /><p><strong>大成功</strong> 敌人不受影响。</p><p><strong>成功</strong> 敌人受到一半伤害，且你将其移动5尺。</p><p><strong>失败</strong> 敌人受到全额伤害，且你将其移动10尺。</p><p><strong>大失败</strong> 敌人受到双倍伤害，且你将其移动20尺。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6，高潮时则增加1d10。</p>"
+    },
+    "Boulder Smash": {
+      "name": "巨石猛击 Boulder Smash",
+      "description": "<p>你创造一块与身体相连的巨石，用它猛砸敌人，同时阻挡攻击。对触及范围内的一个敌人进行一次@Check[type:eldamon-power-attack|defense:ac]{近战威能攻击检定}，造成@Damage[(2+@actor.level)d8[bludgeoning]]伤害。你的AC获得+2环境加值，直到你的下个回合开始。</p><hr /><p><strong>大成功</strong> 你对目标造成双倍伤害。</p><p><strong>成功</strong> 你对目标造成正常伤害。</p><p><strong>失败</strong> 巨石未能正面命中，但擦击仍对目标造成@Damage[(2+@actor.level)[bludgeoning]]。</p><p><strong>大失败</strong> 巨石完全未命中。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d8，失败时的伤害增加1。</p>",
+      "selfEffectName": "效果：巨石猛击 Effect: Boulder Smash"
+    },
+    "Boulder Bowling": {
+      "name": "巨石保龄球 Boulder Bowling",
+      "description": "<p>你将土元素塑造成一块巨石，让它沿地面滚动，仿佛巨人投出的保龄球，或是莽撞考古学家触发的某种陷阱。巨石沿@Template[type:line|distance:60]滚动，对区域内的所有生物造成@Damage[(1+@actor.level)d8[bludgeoning]|options:area-damage]{1d8点钝击伤害}，你每有一个等级，伤害再增加1d8点钝击伤害，目标可进行一次@Check[reflex|against:eldamon|basic|options:area-effect,forced-movement,inflicts:prone]。</p><hr><p><strong>大成功</strong> 生物不受影响。</p><p><strong>成功</strong> 生物受到一半伤害。</p><p><strong>失败</strong> 生物受到全额伤害，并选择被向后推开10尺或陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><p><strong>大失败</strong> 生物受到双倍伤害，被向后推开20尺，并陷入倒地。</p>"
+    },
+    "Earthen Maul": {
+      "name": "大地重槌 Earthen Maul",
+      "description": "<p>你挥舞巨大的土石重槌横扫，击退数个敌人，并挡开它们对你以及可能位于附近的盟友发动的攻击。进行@Check[type:eldamon-power-attack|defense:ac]{威能攻击检定}，攻击@Template[type:cone|distance:20]内的所有敌人。你造成@Damage[(1+@actor.level)d6[bludgeoning]]伤害，具体取决于威能攻击检定的结果。</p><hr /><p><strong>大成功</strong> 你对敌人造成双倍伤害，且你与20尺内的盟友对该敌人获得高等掩护，直到你的下个回合开始。盟友是否获得掩护取决于其当前位置；随后远离你的盟友会失去掩护，而在你使用威能后移动到你20尺内的盟友会获得掩护。</p><p><strong>成功</strong> 你对敌人造成正常伤害，且你与20尺内的所有盟友对该敌人获得标准掩护，直到你的下个回合开始。盟友是否获得掩护取决于其当前位置；随后远离你的盟友会失去掩护，而在你使用威能后移动到你20尺内的盟友会获得掩护。</p><p><strong>失败</strong> 挥击仅擦中敌人，造成1点钝击伤害，再加上你每个等级的@Damage[@actor.level[bludgeoning]]伤害，且你对该敌人获得标准掩护，直到你的下个回合开始。</p><p><strong>大失败</strong> 重槌完全未命中，但你仍对该敌人获得轻度掩护，直到你的下个回合开始。</p><hr /><p><strong>等级（+1） </strong>伤害增加1d6，失败时的伤害增加1。</p>"
+    },
+    "Retributive Quake": {
+      "name": "复仇地震 Retributive Quake",
+      "description": "<p><strong>触发</strong> 位于地面上且在你触及范围内的一个敌人，对你或你触及范围内的一个盟友造成伤害。</p><hr><p>当敌人胆敢伤害你或受你保护的人时，你以爆发的震地之力报复。你每有一个等级，便对触发敌人造成@Damage[(@actor.level)d4[bludgeoning]]{1d4点钝击}伤害，具体取决于你对其AC进行的@Check[eldamon-power-attack|against:ac]{近战威能攻击检定}的结果。</p><hr><p><strong>大成功</strong> 你造成双倍伤害，且震地猛击将敌人朝远离你的方向击退10尺。</p><p><strong>成功</strong> 你造成全额伤害，且震地猛击将敌人朝远离你的方向击退5尺。</p><p><strong>失败</strong> 你擦中敌人，但仍设法借此造成擦击伤害或将其推开。选择造成一半伤害，或将敌人朝远离你的方向击退5尺。</p><p><strong>大失败</strong> 你未命中，且不产生效果。</p>"
+    },
+    "Exploding Bulwark": {
+      "name": "爆裂壁垒 Exploding Bulwark",
+      "description": "<p>你以岩石壁垒包裹自身；除非敌人先将其削碎，否则它会爆炸并追击附近的敌人。使用爆裂壁垒时，随着土石壁垒在你身上生长，选择20尺内任意数量的敌人。</p><p>岩石壁垒使你的AC获得+4环境加值，直到你的下个回合开始；届时壁垒爆炸，发射无数石块，转向追击并猛砸所选敌人中位于@Template[type:emanation|distance:60]内的目标，造成@Damage[(-3+@actor.level)d10[bludgeoning]]伤害，目标可进行一次@Check[reflex|against:eldamon|basic:true]豁免。</p><p>不过，在你的下个回合之前，每当生物尝试对你打击时，除非该打击大失败，否则你从爆裂壁垒获得的AC环境加值便降低1，爆炸伤害也降低1d10，最低降至+0 AC加值以及减少四枚伤害骰。</p><p><em>注：显示的伤害假定已没有剩余AC加值。应用下方效果以计算伤害。</em></p><hr /><p><strong>等级（+1） </strong>伤害增加1d10。</p>",
+      "selfEffectName": "效果：爆裂壁垒 Effect: Exploding Bulwark"
+    },
+    "Crystalline Mark": {
+      "name": "水晶印记 Crystalline Mark",
+      "description": "<p>你以强力的土石巨锤，将一片蕴含土元素能量的水晶碎片嵌入敌人体内，在你们之间建立魔法联系，迫使其将注意力转向你。选择20尺内的一个敌人（若你的触及加10尺更远，则使用该距离）。目标受到@Damage[(1+@actor.level)d6[bludgeoning]]{1d6点钝击伤害}，你每有一个等级，伤害再增加1d6点钝击伤害，具体效果取决于其@Check[fortitude|against:eldamon]豁免。</p><hr /><p><strong>大成功</strong> 敌人不受影响。</p><p><strong>成功</strong> 敌人受到一半伤害，且对你以外的生物进行攻击检定时承受–1环境减值，持续1轮。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.M9IZn55QJjYarMqN]{效果：水晶印记（成功）}</p><p><strong>失败</strong> 敌人受到全额伤害，且对你以外的生物进行攻击检定时承受–1环境减值，直到你刷新。</p><p><strong>大失败</strong> 敌人受到双倍伤害，且对你以外的生物进行攻击检定时承受–2环境减值，直到你刷新。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.MenZ3Hjyh6vdUIel]{效果：水晶印记}</p>"
+    },
+    "Piercing Spike": {
+      "name": "贯穿尖刺 Piercing Spike",
+      "description": "<p>你创造一根石刺，令其旋转着向前射出，贯穿直线上的数个敌人。进行@Check[type:eldamon-power-attack|defense:ac]{威能攻击检定}，攻击@Template[type:line|distance:15]内的每个敌人。它们受到@Damage[(2+@actor.level)d6[piercing]]伤害，具体取决于威能攻击检定的结果。</p><p>若你的触及大于5尺，线状区域的长度等于你的触及加10尺（触及10尺时为@Template[type:line|distance:20]，触及15尺时为@Template[type:line|distance:25]，以此类推）。</p><hr /><p><strong>大成功</strong> 你对敌人造成双倍伤害，且尖刺碎片使其攻击检定承受–2状态减值，持续1轮，除非它或一个盟友先花费一个交互动作移除碎片。</p><p><strong>成功</strong> 你对敌人造成正常伤害，且尖刺碎片使其下次攻击检定承受–2状态减值，除非它或一个盟友先花费一个交互动作移除碎片。</p><p><strong>失败</strong> 尖刺仅擦中敌人，造成@Damage[(2+@actor.level)[piercing]]伤害。</p><p><strong>大失败</strong> 尖刺完全未命中。</p><hr /><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.djj4RVWRNzz4wiI5]{效果：贯穿尖刺碎片}</p><hr /><p><strong>等级（+1） </strong>伤害增加1d6，失败时的伤害增加1。</p>"
+    },
+    "Stubborn Stone": {
+      "name": "顽固磐石 Stubborn Stone",
+      "description": "<p><strong>需求</strong> 一个敌人位于你的正常触及距离加10尺以内。</p><hr /><p>你将一条肢体（若你没有肢体，则长出一条）变成石雕般巨大而肌肉虬结的形态，以大地的顽固不断打击，直至成功。你获得物理伤害抗力5（精金除外），直到你的下个回合开始；该抗力在15级时提高至6，在19级时提高至7。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.XZycy8oesR5cYCGX]{效果：顽固磐石}</p><p>对位于你的正常触及距离加10尺以内的一个敌人进行一次@Check[eldamon-power-attack|against:ac]{近战威能攻击检定}，造成@Damage[(2+@actor.level)d8[bludgeoning]]{2d8点钝击伤害}，你每有一个等级，伤害再增加1d8点钝击伤害。</p><hr /><p><strong>大成功</strong> 你造成双倍伤害。</p><p><strong>成功</strong> 你造成全额伤害。</p><p><strong>失败</strong> 你未命中且不造成伤害，但也不消耗顽固磐石。你无需刷新即可再次使用它。</p>"
+    },
+    "Aegis of Immortal Stone": {
+      "name": "不朽磐石之盾 Aegis of Immortal Stone",
+      "description": "<p>你以近乎坚不可摧的土石护盾包裹自身。直到你的下个回合开始，你的AC、反射豁免和强韧豁免获得+2环境加值，并获得等于你等级四倍的物理伤害抗力（精金除外）。你的下个回合开始时，若护盾的益处未曾适用（没有任何东西攻击你，你没有进行过反射或强韧豁免，且你从未处于本会受到伤害的情形），则较弱的益处会继续残留。</p><p>你的AC、反射豁免和强韧豁免获得+1环境加值，并获得等于你等级的物理伤害抗力（精金除外）；这些益处持续至护盾的益处首次适用或你刷新为止，以先发生者为准。</p><hr /><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.NxkjDZeTAH7EfQsL]{效果：不朽磐石之盾}</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.pjjAa7XPeo7nRVsg]{效果：不朽磐石之盾（余效）}</p>"
+    },
+    "Tremor Stomp": {
+      "name": "震地践踏 Tremor Stomp",
+      "description": "<p><strong>需求</strong> 你站在坚实表面上</p><hr /><p>你跺脚并将土元素能量注入地面，引发局部震颤。你造成@Damage[(2+@actor.level)d6[bludgeoning]]伤害，影响@Template[type:emanation|distance:5]内站在同一坚实表面上的所有生物，具体效果取决于其@Check[fortitude|against:eldamon]豁免。</p><p>9级时，你使用震地践踏时可以选择将散发区域扩大为@Template[type:emanation|distance:10]；17级时，你还可以选择将其扩大为@Template[type:emanation|distance:15]。</p><hr /><p><strong>大成功</strong> 生物不受影响</p><p><strong>成功</strong> 生物受到一半伤害，且因立足不稳而陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到其下个回合开始。</p><p><strong>失败</strong> 生物受到全额伤害，且因立足不稳而陷入措手不及，直到其下个回合开始。它对你以外的生物进行攻击检定时承受–1环境减值，持续1轮。</p><p><strong>大失败</strong> 生物受到全额伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。它对你以外的生物进行攻击检定时承受–2环境减值，持续1轮。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Vengeful Backlash": {
+      "name": "复仇反击 Vengeful Backlash",
+      "description": "<p><strong>需求</strong> 你站在坚实表面上</p><hr /><p>你让土元素能量在体内流转，准备发出反击的冲击波，以同等而反向的力量惩罚胆敢伤害你的生物，甚至沿其武器传递震荡。直到你的下个回合开始，或你不再站在坚实表面上为止（以先发生者为准），所有以近战打击命中你的生物都会受到复仇反击造成的钝击伤害，数值等于其伤害掷骰的结果，按重击伤害翻倍或抗力、弱点等调整之前的数值计算。</p><p>在此效果持续期间，为了受到更多次命中，你可以选择使自己的AC在对抗敌人攻击时承受环境减值，最多为–4；你可以针对每次攻击分别选择减值。</p><p>若复仇反击生效期间没有生物以近战打击命中你，则在你的下个回合，若你使用一个造成伤害且没有持续时间的土威能，该威能会额外造成@Damage[@actor.level[bludgeoning]]伤害。</p><hr /><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.EPPZVNLm4W9qwQAB]{效果：复仇反击}</p><hr /><p><strong>等级（+1）</strong> 伤害增加1。</p>"
+    },
+    "Terrestrial Avenger": {
+      "name": "大地复仇者 Terrestrial Avenger",
+      "description": "<p>你召来一团充满复仇意志的石块与土块，包围一个敌人，为盟友遭受的痛苦复仇。选择30尺内的一个敌人，具体效果取决于其@Check[reflex|against:eldamon]豁免。</p><hr /><p><strong>大成功</strong> 敌人完全避开土石团，不受影响。</p><p><strong>成功</strong> 敌人不久便摆脱土石团。在1轮内，它对你以外的生物进行攻击检定时承受–2环境减值，且每当它以需要攻击检定的效果对你以外的生物造成伤害时，便受到等于@Damage[(1+@actor.level)[bludgeoning]]{1加上你的等级}的钝击伤害。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.yfDmZPFmrsKkamco]{效果：大地复仇者（成功）}</p><p><strong>失败</strong> 如同成功，但效果持续至你刷新。</p><p><strong>大失败</strong> 如同成功，但钝击伤害等于@Damage[(6+@actor.level)[bludgeoning]]{6加上你的等级}，攻击检定的环境减值为–3，且效果持续至你刷新。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.SEk5jbYkVave95Ae]{效果：大地复仇者}</p>"
+    },
+    "Rock and Roll": {
+      "name": "翻滚岩石 Rock and Roll",
+      "description": "<p>你变成一块巨石，@Template[type:line|distance:20]{沿直线滚动至多20尺}，撞倒沿途的敌人，然后变回原形。路径上的敌人受到@Damage[(1+@actor.level)d8[bludgeoning]]伤害，可进行一次@Check[reflex|against:eldamon|basic:true]豁免。大失败时，它们还会被击倒而陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><p>以巨石形态移动仍会正常触发反应，但在巨石形态下，你对抗此类反应时的AC获得+4环境加值，并具有等于你等级两倍的硬度。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.Y91rsRryHHVgX6n5]{效果：翻滚岩石}</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d8。</p>"
+    },
+    "Grasp of the Hungry Earth": {
+      "name": "饥饿大地之握 Grasp of the Hungry Earth",
+      "description": "<p><strong>需求</strong> 你站在坚实表面上</p><hr /><p>你将身上的土石沿一个方向分离并注入地面，攫住附近敌人，阻碍其移动。选择你占据空间的四个侧面之一。沿该侧面与你相邻的所有敌人（你为中型时通常至多三个敌人，大型时至多四个敌人，以此类推）受到@Damage[(2+@actor.level)d6[bludgeoning]]伤害，可进行一次@Check[fortitude|against:eldamon|basic:true]豁免。</p><hr /><p><strong>大成功</strong> 生物不受影响</p><p><strong>成功</strong> 生物受到一半伤害。</p><p><strong>失败</strong> 生物受到全额伤害，并被部分缠住。只要它仍在你选择的侧面与你相邻，就无法快步，且该侧面的所有相邻空间对它而言都是困难地形；这些效果持续至你的下个回合开始，或它以你的威能DC为难度成功[[/act escape]]{逃脱}为止，以先发生者为准。</p><p><strong>大失败</strong> 生物受到大地攫握造成的双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，直到下个回合开始，或它以你的威能DC为难度成功逃脱为止，以先发生者为准。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Fissure": {
+      "name": "裂隙 Fissure",
+      "description": "<p>你在敌人脚下开出一道深渊，试图将其困住。深渊影响@Template[type:line|distance:30]内的地面。区域内的生物必须进行一次@Check[reflex|against:eldamon]豁免，产生下列效果。你刷新时，深渊消失，任何禁足或被困的生物都被释放。</p><hr /><p><strong>大成功</strong> 生物不受影响</p><p><strong>成功</strong> 生物撞上裂隙边缘，受到@Damage[(@actor.level*2)[bludgeoning]]伤害，但设法避免坠入裂隙。</p><p><strong>失败</strong> 生物部分跌入深渊，猛烈撞上两侧。它受到@Damage[(1+@actor.level)d8[bludgeoning]]伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，直到花费一个具有移动特征的单动作使自己脱困。</p><p><strong>大失败</strong> 生物完全坠入深渊，沿途猛烈撞上每一处突出的岩台。它受到@Damage[(1+@actor.level)d10[bludgeoning]]伤害，并被困在40尺深的裂隙底部（攀爬需要@Check[type:athletics|dc:15]）。</p><hr /><p><strong>等级（+1）</strong> 成功时的伤害增加2，失败时增加1d8，大失败时增加1d10。</p>"
+    },
+    "Rampart": {
+      "name": "壁垒 Rampart",
+      "description": "<p><strong>需求</strong> 你站在坚实表面上。</p><hr /><p>你使土石壁垒从身体两侧生长，形成两条长30尺的线，朝相反方向延伸。如果你为小型或中型，这会形成一条以你为中心的@Template[type:line|distance:65]；若你的体型更大，这条线可能更长。</p><p>区域内的敌人受到@Damage[(1+@actor.level)d8[bludgeoning]]伤害，可进行一次@Check[reflex|against:eldamon|basic:true]豁免。壁垒持续至你移动或你的下个回合结束为止，以先发生者为准。</p><p>壁垒持续期间，你对抗来自所有方向的攻击时都因壁垒获得标准掩护，你的盟友对抗穿过壁垒的攻击时也获得标准掩护，但壁垒不会为你的敌人提供任何掩护。生物仍可穿过壁垒移动，不过壁垒所在方格对你的敌人而言是高等困难地形。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d8。</p>"
+    },
+    "Pridwen": {
+      "name": "普里德温 Pridwen",
+      "description": "<p><strong>需求</strong> 你是传奇爱达梦佩特雷吉斯</p><hr><p>你唤出那面曾终结龙骑士战争的强大护盾，并以更可控的形态施展，用大地之力隔绝并保护一片区域，使其笼罩于半相位状态。受护盾保护的区域是一个半径至多60尺的散发区域。区域内的生物可以正常离开，但边界会阻挡两个方向的远程攻击和效应线；想要进入的生物必须先击破一面单侧的土石屏障，它具有硬度15和@Damage[100[healing]]生命值，打出足以让该生物钻入的缺口。在区域内，你的爱达梦训练家朋友可以选择保持进入相位的状态，从而进行动作并受到此现实中效果的影响，但仍与你共用动作池。此外，只要你处于此区域内，你与所有盟友便会从受护领域的土元素能量中获得高等掩护与硬度5。效果持续1分钟。</p>"
+    },
+    "Avalanche": {
+      "name": "岩崩 Avalanche",
+      "description": "<p>你召来无穷无尽的岩崩，掩埋一片区域，砸击敌人，同时为盟友提供少许掩护。岩崩填满你30尺内的一个@Template[type:burst|distance:20]。除你和你的盟友以外的生物，在进入该区域或在区域内开始回合时，受到@Damage[(@actor.level)d4[bludgeoning]]伤害。你或你的盟友处于区域内时不会受到岩崩伤害，反而获得轻度掩护，使AC获得+1环境加值。岩崩持续至你刷新。</p><p>每个生物在自己的每个回合内只会受到一次岩崩的钝击伤害，即使它在区域内开始回合后又进入该区域，也不例外。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d4。</p>"
+    },
+    "Petrifying Dust": {
+      "name": "石化尘埃 Petrifying Dust",
+      "description": "<p>你喷吐锥状尘埃，使敌人的身体僵硬、动作笨拙，并在体内造成钝击伤害，最终将其石化。@Template[type:cone|distance:40]内的敌人受到@Damage[(1+@actor.level)d4[bludgeoning]]伤害，并可能陷入笨拙，具体取决于其@Check[fortitude|against:eldamon]豁免。</p><hr /><p><strong>大成功</strong> 生物不受影响。</p><p><strong>成功</strong> 生物受到全额伤害，但摆脱石化，陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}，持续1轮。</p><p><strong>失败</strong> 生物受到全额伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}。因石化尘埃而处于笨拙状态的生物，必须在自己的每个回合结束时继续进行强韧豁免。豁免失败时，笨拙值增加1（大失败时增加2）。豁免成功时，笨拙值降低1（大成功时完全移除该状态）；这些后续豁免具有失能特征。若生物因石化尘埃达到@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙4}，它便永久石化。</p><p><strong>大失败</strong> 如同失败，但生物受到三倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙3}。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d4。</p>"
+    },
+    "Kunlun": {
+      "name": "昆仑 Kunlun",
+      "description": "<p>你唤出一座小山，形似直入云霄的宏伟巨柱，宝石般的表面饰有神秘学与元素能量的符号。石柱从200尺内的地面升起，持续1分钟。它具有@Template[type:burst|distance:60]{60尺半径)，高度由你选择：在开阔区域使用时至多180尺；若在天花板受限的空间内使用，则高度恰好不会压扁柱顶的生物。随着山体生长，区域内的生物被迅速抬升。</p><p>位于上升石柱上的敌人必须成功通过一次以你的威能DC为难度的@Check[reflex|against:eldamon]豁免，否则会因突然的移动而陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。如果存在天花板，你可以选择让所有这些生物撞上天花板，受到@Damage[20d6[bludgeoning]]伤害，并进行一次以你的威能DC为难度的@Check[reflex|against:eldamon|basic:true]豁免；也可以在即将抵达天花板前平缓地减慢上升。石柱的攀爬DC为20。</p>"
+    },
+    "Yamazu": {
+      "name": "雅玛祖 Yamazu",
+      "description": "<p>你引发地震及其他地质活动，仿佛一条巨大的地下鲶鱼正在翻腾。地震影响200尺内的一个@Template[type:burst|distance:60]。区域内除你以外位于地面上的生物，受到冲击波、震颤和崩塌土石造成的@Damage[(1+@actor.level)d8[bludgeoning]]，具体效果取决于其@Check[reflex|against:eldamon]豁免。</p><p>此外，直到你刷新为止，该区域都是高等困难地形，且区域内除你以外位于地面上的生物，其攻击检定、AC和技能检定承受–2环境减值。</p><hr /><p><strong>大成功</strong> 生物不受影响</p><p><strong>成功</strong> 生物受到一半伤害</p><p><strong>失败</strong> 生物受到全额伤害，并因脚卡进小裂缝而陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><p><strong>大失败</strong> 生物受到全额伤害，并坠入一道40尺深的较大裂隙，必须攀爬出去（需要进行@Check[type:athletics|dc:15]检定），或寻找其他上升方法。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d8。</p>"
+    },
+    "Harden": {
+      "name": "硬化 Harden",
+      "description": "<p><strong>触发</strong> 一个生物对你造成物理伤害</p><hr /><p>你以大地之力硬化自身，抵御来袭攻击。对抗触发攻击时，你获得等于5加上你等级的物理伤害抗力（精金除外）。</p>",
+      "selfEffectName": "效果：硬化 Effect: Harden"
+    },
+    "Rock Shield": {
+      "name": "岩石护盾 Rock Shield",
+      "description": "<p><strong>需求</strong> 你站在坚实表面上。</p><p><strong>触发</strong> 一个生物以你为攻击目标，且你能看见攻击者。</p><hr /><p>就在敌人攻击前，你瞬间从地面唤出一面土石护盾，阻挡攻击。对抗触发攻击检定时，你的AC获得+4环境加值。触发攻击检定之后，此AC加值降低1；它持续至你的下个回合开始或降至0为止，以先发生者为准。</p>",
+      "selfEffectName": "效果：岩石护盾 Effect: Rock Shield"
+    },
+    "Disrupting Tremor": {
+      "name": "扰乱震颤 Disrupting Tremor",
+      "description": "<p><strong>触发</strong> 一个生物在进行移动动作期间，尝试离开你触及范围内地面上的一个方格。</p>\n<hr />\n<p>你制造震颤，扰乱敌人的移动，具体效果取决于其@Check[fortitude|against:eldamon]豁免。</p>\n<hr />\n<p><strong>大成功</strong> 触发生物强行继续移动，不受震颤影响。</p>\n<p><strong>成功</strong> 你的触及范围内的空间对触发生物而言是高等困难地形，直到触发的移动动作结束。</p>\n<p><strong>失败</strong> 你打断触发生物的移动。</p>\n<p><strong>大失败</strong> 你打断触发生物的移动，且该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>"
+    },
+    "Shockwave": {
+      "name": "冲击波 Shockwave",
+      "description": "<p><strong>需求</strong> 你站在坚实表面上。</p><hr><p>你将脉冲般的冲击波沿地面送向附近敌人。你对20尺内站在同一坚实表面上的一个生物造成@Damage[(2+@actor.level)d6[bludgeoning]]{2d6点伤害}，你每有一个等级，伤害再增加1d6点钝击伤害，目标可进行一次@Check[reflex|basic|against:eldamon]豁免。失败时，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮；大失败时，还会被向后推开5尺。5级时，射程增加至25尺；此后每4级再增加5尺，至17级时达到最多40尺。</p>"
+    },
+    "Rock Cover": {
+      "name": "岩石掩护 Rock Cover",
+      "description": "<p>你将岩石牵引至身周，在刷新土元素能量的同时，为自己和盟友提供掩护。你获得高等掩护，使AC、反射豁免和隐秘获得+4环境加值，但无法利用此掩护躲藏或潜行，因为掩护明显地环绕着你，你的位置一目了然。</p>\n<p>此外，对抗敌人发动且穿过你占据空间的攻击时，你提供标准掩护，而非轻度掩护；你还会操纵岩石，使盟友发动且穿过你占据空间的攻击不会受到任何掩护阻碍。这些效果全部持续至你的下个回合开始。你刷新威能。</p>"
+    },
+    "Castling": {
+      "name": "易位守护 Castling",
+      "description": "<p>你移动并旋转大地，与一个盟友交换位置并保护对方，同时使土元素能量重新归位。选择一个位于地面上、且处于20尺或你触及距离以内（取较大者）的盟友。大地直接将盟友朝你移动，直到与你相邻；随后大地使你从盟友身边移过，方向与盟友刚才的移动方向相反。若你们本已相邻，则直接交换位置。无论哪种情况，盟友的移动都不触发反应，但你的移动会触发反应。盟友获得高等掩护，直到你的下个回合开始；其无法利用此掩护[[/act hide]]或[[/act sneak]]。你刷新威能。</p>"
+    },
+    "Shifting Ground": {
+      "name": "移动大地 Shifting Ground",
+      "description": "<p><strong>需求</strong> 你站在坚实表面上。</p>\n<hr />\n<p>你移动脚下地面，重新排列土石，以刷新土威能并使敌人失去平衡。你刷新威能。你触及范围内站在同一坚实表面上的敌人，会根据其@Check[reflex|against:eldamon]豁免结果受到影响。</p>\n<hr />\n<p><strong>成功</strong> 生物不受影响。</p>\n<p><strong>失败</strong> 生物陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你的下个回合结束，或它使用一个动作站稳脚步为止，以先发生者为准。</p>\n<p><strong>大失败</strong> 生物被击倒而陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>"
+    },
+    "Auto-Petrification": {
+      "name": "自动石化 Auto-Petrification",
+      "description": "<p>你将自己变成硬度极高的石像，与大地调谐并刷新土威能。你陷入@UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{石化}，直到你的下个回合开始，但你的硬度等于你等级的四倍，而非通常的硬度8。不过，由于石化时的AC较低，敌人很可能对你造成重击。你刷新威能。</p>",
+      "selfEffectName": "效果：自动石化 Effect: Auto-Petrification"
     }
   },
   "folders": {
     "From Battlezoo Eldamon": "出自《战斗动物园：爱达梦》 From Battlezoo Eldamon",
     "Water": "水 Water",
-    "Fire": "火焰 Fire"
+    "Fire": "火焰 Fire",
+    "Earth": "土 Earth"
+  },
+  "mapping": {
+    "selfEffectName": "system.selfEffect.name"
   }
 }

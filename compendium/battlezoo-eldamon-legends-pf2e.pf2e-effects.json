@@ -159,11 +159,84 @@
     "Effect: Flamecrystal Nexus": {
       "name": "效果：焰晶纽带 Effect: Flamecrystal Nexus",
       "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.zCrplK9sud4BVp7k]{焰晶纽带（次等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.rdGVNgVE4JNoo0cJ]{焰晶纽带（标准）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.Xy1bhZ8vOaff6EdF]{焰晶纽带（高等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.9uEEapBueiOh76if]{焰晶纽带（上等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.2y06PaCzAp28rCcP]{焰晶纽带（至高）}授予</p><p>你的威能攻击检定获得物品加值。若来源角色准备的爱达梦中有至少1只火爱达梦，而你是火爱达梦，你造成的所有持续火焰伤害获得物品加值。若你不是火爱达梦，你第一次使用没有持续时间的伤害威能时，会根据已准备的火爱达梦数量和物品类型附加持续伤害。</p>"
+    },
+    "Effect: Defensive Attunement": {
+      "name": "效果：防御调谐 Effect: Defensive Attunement",
+      "description": "<p>你获得酸蚀、寒冷、力场、心灵、音波、灵魂或虚能伤害抗力，数值等于你等级的一半（至少为1）。</p>"
+    },
+    "Effect: Harden": {
+      "name": "效果：硬化 Effect: Harden",
+      "description": "<p>对抗触发此效果的攻击时，你获得等于5加上你等级的物理伤害抗力（精金除外）。</p>"
+    },
+    "Effect: Boulder Smash": {
+      "name": "效果：巨石猛击 Effect: Boulder Smash",
+      "description": "<p>你的AC获得+2环境加值，直到你的下一回合开始。</p>"
+    },
+    "Effect: Exploding Bulwark": {
+      "name": "效果：爆裂壁垒 Effect: Exploding Bulwark",
+      "description": "<p>岩石壁垒使你的AC获得+4环境加值，直到你的下一回合开始。届时，壁垒会爆炸，迸射出无数石块，它们会转向追踪并猛砸任意被选中的敌人。</p>"
+    },
+    "Effect: Vengeful Backlash": {
+      "name": "效果：复仇反击 Effect: Vengeful Backlash",
+      "description": "<p>直到你的下一回合开始，或你不再站在坚实表面上（以先发生者为准），所有以近战打击命中你的生物都会受到复仇反击造成的钝击伤害，数值等于其伤害骰的结果，且在重击伤害翻倍或因抗力、弱点等因素调整之前计算。在此效果持续期间，你可以选择让自己对抗敌人攻击的AC承受至多–4环境减值，以便承受更多次命中；你可以对每次攻击分别选择减值。</p>"
+    },
+    "Effect: Crystalline Mark (Success)": {
+      "name": "效果：水晶印记（成功） Effect: Crystalline Mark (Success)",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.Kixoo08Mle5RNw5e]{水晶印记}赋予</p><p>对抗效果来源以外的生物时，你的攻击骰承受–1环境减值。</p>"
+    },
+    "Effect: Crystalline Mark": {
+      "name": "效果：水晶印记 Effect: Crystalline Mark",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.Kixoo08Mle5RNw5e]{水晶印记}赋予</p><p>对抗效果来源以外的生物时，你的攻击骰承受环境减值。</p>"
+    },
+    "Effect: Aegis of Immortal Stone": {
+      "name": "效果：不朽磐石之盾 Effect: Aegis of Immortal Stone",
+      "description": "<p>直到你的下一回合开始，你的AC、反射豁免和强韧豁免获得+2环境加值，并获得等于你等级四倍的物理伤害抗力（精金除外）。</p>"
+    },
+    "Effect: Earthworm Regeneration (Note)": {
+      "name": "效果：蚯蚓再生（注记） Effect: Earthworm Regeneration (Note)",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-features.Item.T3TtWC8UY9bPTN7L]{蚯蚓再生}通过临时效果赋予</p><p>每天一次，当你受到重击时，你可以通过让身体被切成两半，将此次重击降为普通命中。身体被切成两半期间，你无法行动，唯一例外是花费1个动作使缺失的半边身体重新长出。</p>"
+    },
+    "Effect: Terrestrial Avenger": {
+      "name": "效果：大地复仇者 Effect: Terrestrial Avenger",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.R4wGXZBGCVXfdTl8]{大地复仇者}赋予</p><p>对抗效果来源以外的生物时，你的攻击骰承受环境减值。</p>"
+    },
+    "Effect: Auto-Petrification": {
+      "name": "效果：自动石化 Effect: Auto-Petrification",
+      "description": "<p>你陷入@UUID[Compendium.pf2e.conditionitems.dTwPJuKgBQCMxixg]{石化}状态，直到你的下一回合开始，但你的硬度等于你等级的四倍，而非常规的硬度8。</p>"
+    },
+    "Effect: Stubborn Stone": {
+      "name": "效果：顽固磐石 Effect: Stubborn Stone",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.MV4yRUSaZ1MiMZrY]{顽固磐石}赋予</p><p>你获得物理伤害抗力。</p>"
+    },
+    "Effect: Rock and Roll": {
+      "name": "效果：翻滚岩石 Effect: Rock and Roll",
+      "description": "<p>你以巨石形态移动时照常触发反应，但在巨石形态下对抗此类反应时，你的AC获得+4环境加值，并获得等于你等级两倍的硬度。</p>"
+    },
+    "Effect: Piercing Spike Fragment": {
+      "name": "效果：贯穿尖刺碎片 Effect: Piercing Spike Fragment",
+      "description": "<p>除非你或一名盟友花费一个@Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{交互}动作移除碎片，否则你的下一次攻击骰（或一轮内的所有攻击骰）承受–2状态减值。</p>"
+    },
+    "Effect: Prismatic Geode Nexus": {
+      "name": "效果：棱彩晶洞枢纽 Effect: Prismatic Geode Nexus",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.0xrIEMhmEn0QpvrR]{棱彩晶洞枢纽（次等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.KNhLhV4sKjJ5HFHM]{棱彩晶洞枢纽（标准）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.JD9aa3ZVkwBFWxc4]{棱彩晶洞枢纽（高等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.MRkOw14r6iMD0s18]{棱彩晶洞枢纽（上等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.YGvrki9dWxDiRvOQ]{棱彩晶洞枢纽（至高）}赋予</p><p>你的威能攻击骰获得物品加值。若效果来源准备了至少两只土爱达梦，且你是一只土爱达梦，你获得元素化身职业的虹吸元素动作。</p><p>若效果来源准备了至少三只土爱达梦，且你是一只土爱达梦，你获得元素化身同名专长的强压元素动作。</p><p>若效果来源准备了至少四只土爱达梦，且你是一只土爱达梦，你获得元素化身同名专长的涌动元素动作。</p>"
+    },
+    "Effect: Rock Shield": {
+      "name": "效果：岩石护盾 Effect: Rock Shield",
+      "description": "<p>对抗触发此效果的攻击骰时，你的AC获得+4环境加值。在触发此效果的攻击骰之后，此AC加值降低1；它会持续到你的下一回合开始或降低至0，以先发生者为准。</p>"
+    },
+    "Effect: Aegis of Immortal Stone (Lingering)": {
+      "name": "效果：不朽磐石之盾（余效） Effect: Aegis of Immortal Stone (Lingering)",
+      "description": "<p>你的AC、反射豁免和强韧豁免获得+1环境加值，并获得等于你等级的物理伤害抗力（精金除外）。这些增益持续到护盾的益处首次生效，或你刷新时，以先发生者为准。</p>"
+    },
+    "Effect: Terrestrial Avenger (Success)": {
+      "name": "效果：大地复仇者（成功） Effect: Terrestrial Avenger (Success)",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.R4wGXZBGCVXfdTl8]{大地复仇者}赋予</p><p>对抗效果来源以外的生物时，你的攻击骰承受–1环境减值。</p>"
     }
   },
   "folders": {
     "Fire": "火焰 Fire",
     "Conditions": "状态 Conditions",
-    "Water": "水 Water"
+    "Water": "水 Water",
+    "Earth": "土 Earth"
   }
 }
