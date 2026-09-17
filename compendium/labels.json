@@ -158,6 +158,7 @@
   "kobold-dm-fists-of-the-ruby-phoenix-maps-remakes.fotrp-kdm-remakes": "赤凰斗士 KDM 地图重制 FotRP KDM Remakes",
   "kobold-dm-sog-maps-supplemental.kobold-dm-sog-maps-supplemental": "狗头人 DM SoG 地图（补充）",
   "pf2e-abomination-vaults.av": "憎恶地窟 Abomination Vaults",
+  "pf2e-bastion-of-blasphemies.bastion-of-blasphemies": "亵渎堡垒 Bastion of Blasphemies",
   "pf2e-beginner-box.adventures": "Pathfinder Beginner Box",
   "pf2e-claws-of-the-tyrant.claws-of-the-tyrant": "暴君之爪",
   "pf2e-decks-harrow.harrow": "哈罗牌组\nHarrow Deck",
@@ -241,6 +242,7 @@
   "pf2e-team-plus-wizards.wizards-misc": "杂项 Misc",
   "pf2e-team-plus-wizards.wizards-player-options": "玩家选项 Player Options",
   "pf2e-troubles-in-otari-enhanced-beach-camp-by-wise.pack-1": "PF2E 欧塔里疑云（TiO）增强版海滩营地，作者 Wise\nPF2E Troubles in Otari (TiO) Enhanced Beach Camp by Wise",
+  "pf2e.abomination-vaults-bestiary": "憎恶地窟 Abomination Vaults",
   "pf2e.actionspf2e": "动作 Actions",
   "pf2e.adventure-specific-actions": "冒险专用动作 Adventure-Specific Actions",
   "pf2e.backgrounds": "背景 Backgrounds",
@@ -281,6 +283,5 @@
   "witches-remaster.witches-remaster-patrons": "庇护主 Patrons",
   "witches-remaster.witches-remaster-roll-tables": "投骰表 Roll Tables",
   "witches-remaster.witches-remaster-superstitions": "迷信 Superstitions",
-  "xdy-pf2e-workbench.xdy-internal-tables": "xdy-internal-tables, do not import",
-  "pf2e.abomination-vaults-bestiary": "憎恶地窟 Abomination Vaults"
+  "xdy-pf2e-workbench.xdy-internal-tables": "xdy-internal-tables, do not import"
 }

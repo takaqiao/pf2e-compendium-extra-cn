@@ -11,3 +11,7 @@ compat/av-1.0.50/README.md text eol=lf
 compat/av-1.0.50/manifest.json text eol=lf
 compat/av-1.0.50/verify.py text eol=lf
 .gitattributes text eol=lf
+# Keep approved BoB runtime bytes identical across QA and release checkout.
+scripts/bob-*.mjs -text
+compendium/pf2e-bastion-of-blasphemies.bastion-of-blasphemies.json -text
+lang/external/pf2e-bastion-of-blasphemies.json -text

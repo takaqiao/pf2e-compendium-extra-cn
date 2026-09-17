@@ -1,0 +1,169 @@
+{
+  "PF2EAV.ADVENTURE.Title": "亵渎堡垒",
+  "PF2EAV.ADVENTURE.Importer": "亵渎堡垒导入器",
+  "BASTION": {
+    "SETTINGS": {
+      "DepthEffect": {
+        "label": "高程雾化与模糊",
+        "hint": "根据当前查看的层级，为场景内容添加雾化和模糊效果。此设置对所有玩家生效，但仅应用于已配置这些效果的层级。"
+      },
+      "WeatherAutomation": {
+        "label": "自动管理天气",
+        "hint": "根据玩家角色在冒险中的进度，自动管理天气效果。"
+      }
+    },
+    "JOURNAL": {
+      "ACTIONS": {
+        "SendChat": "发送到聊天"
+      }
+    },
+    "Manager": {
+      "Title": "战役管理器",
+      "Open": "打开战役管理器",
+      "Memento": {
+        "label": "信物",
+        "hint": "玩家角色必须将以下信物归还至@UUID[JournalEntry.YJC6FQzwcNy7rPBL.JournalEntryPage.fvc3WQXfj5Bcg2lM#activating-a-statue]{阿鲁多拉喷泉}（<button></button>），才能进入城堡的下一区域。",
+        "Missing": "尚未找回",
+        "Returned": "已归还",
+        "Skip": "跳过此要求",
+        "Reset": "重置状态"
+      },
+      "Areas": {
+        "Toggles": {
+          "label": "其他开关",
+          "hint": "每个区域还有一些局部状态，可在玩家角色满足相应条件后切换。"
+        },
+        "ACTIONS": {
+          "flipToggle": "切换",
+          "jumpToFountain": "跳转至喷泉",
+          "jumpToNote": "跳转至地点",
+          "openLocationPage": "打开日志页"
+        }
+      },
+      "Research": {
+        "Instructions": "追踪玩家角色针对@UUID[JournalEntry.YwM6UU2fCnRTjzO2.JournalEntryPage.gRFl7AZFdxcRUo8n]{孽裔厅堂诅咒}各个研究主题积累的研究点（RP）。<i class=\"fa-solid fa-caret-up\"></i>标记表示研究点门槛。可将玩家角色的研究结果发送到聊天中（GM备注将被隐藏）。",
+        "Topic": {
+          "ToChat": "将研究结果发送到聊天",
+          "Discovered": "已发现主题",
+          "Prediscovered": "预先已知的主题",
+          "Undiscovered": "未发现主题"
+        }
+      },
+      "Environment": {
+        "OpenClock": "打开世界时钟",
+        "SkiesAbove": "头顶的天空",
+        "WeatherEffects": {
+          "label": "天气效果",
+          "hint": "当前天气效果随章节进度设置，反映此时<span class=skies>头顶的天空</span>。以下是一些可按需启用的<em>临时</em>效果。"
+        }
+      },
+      "SpecialItems": {
+        "Instructions": "玩家角色在城堡及其广阔庭院中会发现几类特殊物品，它们与孽裔厅堂及其诅咒紧密相连。使用下方的记录工具追踪所有已找到或归还的物品。"
+      },
+      "TABS": {
+        "areas": "区域",
+        "environment": "环境",
+        "research": "研究",
+        "specialItems": "特殊物品"
+      },
+      "AREAS": {
+        "shore": {
+          "label": "闹鬼湖岸",
+          "hint": "玩家角色让全部六位领袖以魅影之身回归村中各自应在的位置后，才算真正踏出了解除孽裔厅堂诅咒的第一步，因为让这六位领袖回归会解锁城堡庭院，使玩家角色能够进入第2章。",
+          "Phantoms": {
+            "Title": "梅瑟林魅影",
+            "Overrun": "居所被占据",
+            "Cleared": "居所已清理",
+            "Rescued": "灵魂已获救",
+            "Trapped": "灵魂受困"
+          }
+        },
+        "grounds": {
+          "label": "城堡庭院"
+        },
+        "cellars": {
+          "label": "地下室"
+        },
+        "reception": {
+          "label": "会客厅"
+        },
+        "dungeon": {
+          "label": "地牢"
+        },
+        "private": {
+          "label": "私人厅堂"
+        },
+        "temple": {
+          "label": "堕落神殿"
+        },
+        "vault": {
+          "label": "地下密库"
+        },
+        "towers": {
+          "label": "高塔"
+        }
+      },
+      "PHANTOMS": {
+        "mordimus": "阿隆·莫迪穆斯",
+        "dast": "奥斯肯·达斯特",
+        "greely": "班尼杰·格里利",
+        "vermidian": "埃丝米拉·维尔米迪安",
+        "greenbough": "伊拉娜·绿枝",
+        "animender": "希蕾尔·阿尼门德"
+      },
+      "FIELDS": {
+        "specialItems": {
+          "soulhearts": {
+            "label": "魂心",
+            "hint": "使用魂心强化梅瑟林魅影后，每位玩家角色获得的额外生命值总量"
+          },
+          "artworks": {
+            "label": "艺术品",
+            "hint": "已归还至@UUID[JournalEntry.l9OoOYdCKdM5VdWi.JournalEntryPage.PQNrZpJKI1yCx0UN]{阿鲁多拉画廊}的艺术品数量"
+          },
+          "gears": {
+            "label": "齿轮",
+            "hint": "已归还至@UUID[JournalEntry.LlsmjbqschdcAUSk.JournalEntryPage.jZnvyQePE7QRZcmH]{钟楼}的齿轮数量"
+          },
+          "remnants": {
+            "label": "邪恶残骸",
+            "hint": "玩家角色已收集的<em>邪恶残骸</em>数量"
+          }
+        }
+      }
+    }
+  },
+  "Trigger Despair is Thy Reward Haunt": "触发“绝望即汝之报偿”作祟",
+  "Trigger The Sky is Burning Haunt": "触发“天空正在燃烧”作祟",
+  "Animate Herexens": "活化叛教尸",
+  "Clean Standing Stones": "清理立石",
+  "Animate Scarecrow": "活化稻草人",
+  "Animate Topiary Hounds": "活化猎犬绿雕",
+  "Open Seed Bin": "打开种子箱",
+  "Move Headless Statue": "移动无头雕像",
+  "Trigger Join Us Forever": "触发“永远加入我们”",
+  "Animate Mummy": "活化木乃伊",
+  "Trigger Vile Brew Haunt": "触发“污秽酿液”作祟",
+  "Disable It's Never Enough Haunt": "解除“永不餍足”作祟",
+  "Scatter Banquet Hall Cutlery": "散开宴会厅餐具",
+  "Tidy Visitor's Library": "整理宾客图书室",
+  "Flood Trophy Hall": "淹没战利品厅",
+  "Disbelieve Swamp Illusion": "识破沼泽幻象",
+  "Open Food Storage Coffins": "打开食物储藏室棺材",
+  "Lift Food Storage Platform": "抬升食物储藏室平台",
+  "Flood Alchemist's Workshop": "淹没炼金术师工坊",
+  "Open Iron Maiden": "打开铁处女",
+  "Animate Taxidermy Allosaurus": "活化异特龙标本",
+  "Expand Velicarn's Head": "放大维利卡恩的头颅",
+  "Reveal Classroom Wraiths": "显现教室中的缚灵",
+  "Animate Clay Effigies": "活化黏土塑像",
+  "Clear Clocktower Entrance Rubble": "清除钟楼入口的碎石",
+  "Stain Temple Water": "染污神殿中的水",
+  "Repair Clocktower": "修复钟楼",
+  "Animate Stone Bulwarks": "活化石垒像",
+  "Animate Charnel Creation Zasha": "活化尸骸造物扎莎",
+  "Bastion": "亵渎堡垒",
+  "Bastion of Blasphemies Journal Sheet": "亵渎堡垒日志表单",
+  "Bastion of Blasphemies Importer": "亵渎堡垒导入器",
+  "Bastion of Blasphemies Ring": "亵渎堡垒代币环"
+}
