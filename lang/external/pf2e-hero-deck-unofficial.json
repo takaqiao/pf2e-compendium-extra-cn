@@ -1,0 +1,81 @@
+{
+  "pf2e-hero-deck-unofficial": {
+    "module-settings": {
+      "hero-actions": {
+        "max": {
+          "name": "英雄行动手牌上限",
+          "hint": "设定队伍手牌中最多能持有多少张英雄行动牌。"
+        }
+      },
+      "deck": {
+        "id": {
+          "hand": {
+            "name": "手牌 - 牌堆 ID",
+            "hint": "指定作为队伍英雄点手牌的那个牌堆的 ID。"
+          },
+          "discard": {
+            "name": "弃牌堆 - 牌堆 ID",
+            "hint": "指定作为队伍英雄点弃牌堆的那个牌堆的 ID。"
+          },
+          "hero-actions": {
+            "name": "英雄行动 - 牌堆 ID",
+            "hint": "指定作为队伍英雄行动抽牌堆的那个牌堆的 ID。"
+          }
+        }
+      },
+      "animations": {
+        "enabled": {
+          "name": "启用动画",
+          "hint": "在抽牌、打出和弃牌时播放卡牌动画。"
+        },
+        "volume": {
+          "name": "动画音量",
+          "hint": "设定所有动画音效的音量。"
+        }
+      },
+      "messages": {
+        "enable": {
+          "name": "英雄点操作时发送消息",
+          "hint": "每当有人打出、抽取或弃掉英雄行动牌时，在聊天栏创建一条消息。"
+        }
+      }
+    },
+    "ui": {
+      "hero-action-dialogue": {
+        "title": "英雄点卡牌操作（{hpText}）",
+        "warning": "<b>注意：</b>{name} 没有英雄点",
+        "buttons": {
+          "play": "打出卡牌",
+          "discard": "弃掉卡牌"
+        }
+      },
+      "hero-action-hud": {
+        "empty": {
+          "name": "抽取剩余的英雄行动牌？",
+          "description": "点击此处抽取剩余的英雄行动牌"
+        },
+        "card-menu": {
+          "open-menu": "打开菜单",
+          "draw-remaining": "抽取剩余卡牌"
+        }
+      }
+    },
+    "message": {
+      "title": {
+        "draw": "抽取英雄行动牌",
+        "discard": "弃掉英雄行动牌",
+        "play": "打出英雄行动牌"
+      },
+      "body": {
+        "draw": "{name} 抽到了 {cards}",
+        "discard": "{name} 弃掉了 {card}",
+        "play": "{name} 消耗 1 点英雄点打出了 {card}{cardData}"
+      }
+    },
+    "notifications": {
+      "warning": {
+        "not-enough-hp": "提醒：你的角色 {name} 没有足够的英雄点来使用此行动。"
+      }
+    }
+  }
+}

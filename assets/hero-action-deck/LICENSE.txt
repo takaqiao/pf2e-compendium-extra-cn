@@ -1,0 +1,10 @@
+本仓库是 PF2e Hero Action Deck (Unofficial) 的中文化伴生模组。
+
+代码（babele.js / scripts/）：MIT License, Copyright (c) 2026 takaqiao
+
+游戏规则内容依 Open Game License v1.0a 授权。
+Pathfinder 与 Paizo 是 Paizo Inc. 的商标；本项目为非官方社区汉化，与 Paizo Inc. 无隶属关系。
+
+卡面基于上游模组作者 ChasarooniZ 公开的卡牌模板重制；其中美术素材的授权见上游模组
+README 的 Assets 一节（Dumivid / Game Icons / Wenrexa / Free Game Assets 等），
+各自适用其原始授权。本仓库不重新分发上游的音效文件。
