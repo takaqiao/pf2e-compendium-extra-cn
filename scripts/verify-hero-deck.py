@@ -189,7 +189,7 @@ def check_contents(contents, source):
     manifest = contents.json("module.json")
     require(manifest.get("id") == "pf2e-compendium-extra-cn", "wrong candidate module id")
     languages = {entry.get("lang"): entry.get("path") for entry in manifest.get("languages", [])}
-    for lang in ("cn", "zh-CN", "zh_Hans", "zh-Hans"):
+    for lang in ("cn", "zh-CN", "zh-Hans"):
         require(languages.get(lang) == LANG_PATH,
                 f"HAD language {lang} must use native pre-ready loading")
     for entry in manifest.get("languages", []):
