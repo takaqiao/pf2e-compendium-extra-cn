@@ -15,3 +15,8 @@ compat/av-1.0.50/verify.py text eol=lf
 scripts/bob-*.mjs -text
 compendium/pf2e-bastion-of-blasphemies.bastion-of-blasphemies.json -text
 lang/external/pf2e-bastion-of-blasphemies.json -text
+# Pin this release's version routing and translated bestiary bytes for native QA.
+scripts/sog-851-core.mjs text eol=lf
+tests/versioned-bestiary-sources.test.mjs text eol=lf
+compendium/pf2e.bastion-of-blasphemies-bestiary.json text eol=lf
+compendium-851/pf2e.bastion-of-blasphemies-bestiary.json text eol=lf

@@ -1,0 +1,583 @@
+{
+ "label": "英雄行动牌堆 Hero Action Deck",
+ "entries": {
+  "Hero Action Deck": {
+   "name": "英雄行动牌堆 Hero Action Deck",
+   "description": "",
+   "cards": {
+    "Ancestral Might": {
+     "name": "族裔之力 Ancestral Might",
+     "description": "<p>在你的回合中使用这张牌。</p><hr /><p>直到你的下个回合开始，你基于你族裔所提升的属性（忽略自由提升）的检定获得+2状态加值。如果你的族裔只提供自由提升，改为选择一项属性来获得该加值。</p><p>@UUID[Compendium.pf2e.other-effects.Item.qKS1TilScX0SmesO]{效果：族裔之力}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/ancestral_might.webp",
+       "name": "族裔之力 Ancestral Might",
+       "text": "<p>在你的回合中使用这张牌。</p><hr /><p>直到你的下个回合开始，你基于你族裔所提升的属性（忽略自由提升）的检定获得+2状态加值。如果你的族裔只提供自由提升，改为选择一项属性来获得该加值。</p><p>@UUID[Compendium.pf2e.other-effects.Item.qKS1TilScX0SmesO]{效果：族裔之力}</p>"
+      }
+     ]
+    },
+    "Aura of Protection": {
+     "name": "保护灵光 Aura of Protection",
+     "description": "<p>在你从法术位施放法术后，使用这张牌。</p><hr /><p>你以残余的魔法能量灵光笼罩自身。直到你的下回合开始，你获得等同于你刚施放的法术阶数的全类型伤害抗力。</p><p>@UUID[Compendium.pf2e.other-effects.Item.J3beTsJS9DBkJuVJ]{效果：保护灵光}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/aura_of_protection.webp",
+       "name": "保护灵光 Aura of Protection",
+       "text": "<p>在你从法术位施放法术后，使用这张牌。</p><hr /><p>你以残余的魔法能量灵光笼罩自身。直到你的下回合开始，你获得等同于你刚施放的法术阶数的全类型伤害抗力。</p><p>@UUID[Compendium.pf2e.other-effects.Item.J3beTsJS9DBkJuVJ]{效果：保护灵光}</p>"
+      }
+     ]
+    },
+    "Rage and Fury": {
+     "name": "狂怒 Rage and Fury",
+     "description": "<p>当你的盟友@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，或当你受到重击伤害时，使用这张牌。</p><hr /><p>在你的下回合开始，你进入狂暴状态（近战打击伤害+2，AC-1，你无法使用任何专注动作，带有狂暴特征的动作除外。如果你的职业有狂暴能力，则使用职业给予的数据）。在该回合结束时，如果你没有狂暴职业特性，狂暴结束并且你陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}。</p><p>@UUID[Compendium.pf2e.other-effects.Item.B09MScCT7fhtBW5S]{效果：狂怒}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/rage_and_fury.webp",
+       "name": "狂怒 Rage and Fury",
+       "text": "<p>当你的盟友@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，或当你受到重击伤害时，使用这张牌。</p><hr /><p>在你的下回合开始，你进入狂暴状态（近战打击伤害+2，AC-1，你无法使用任何专注动作，带有狂暴特征的动作除外。如果你的职业有狂暴能力，则使用职业给予的数据）。在该回合结束时，如果你没有狂暴职业特性，狂暴结束并且你陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}。</p><p>@UUID[Compendium.pf2e.other-effects.Item.B09MScCT7fhtBW5S]{效果：狂怒}</p>"
+      }
+     ]
+    },
+    "I Hope This Works": {
+     "name": "俺寻思能行！ I Hope This Works",
+     "description": "<p>在你的回合开始时使用这张牌。</p><hr /><p>在你的回合中一次，你能启动一件物品来@UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{施放法术}，即便你通常情况下无法施法，或者该法术不在你的法术列表里。在你施展完这个法术后，你的回合结束。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/i_hope_this_works.webp",
+       "name": "俺寻思能行！ I Hope This Works",
+       "text": "<p>在你的回合开始时使用这张牌。</p><hr /><p>在你的回合中一次，你能启动一件物品来@UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{施放法术}，即便你通常情况下无法施法，或者该法术不在你的法术列表里。在你施展完这个法术后，你的回合结束。</p>"
+      }
+     ]
+    },
+    "Endure the Onslaught": {
+     "name": "忍受猛攻 Endure the Onslaught",
+     "description": "<p>在任意时刻使用这张牌。</p><hr /><p>给予一个你能看见的生物5点全类型伤害抗力，直到你的下一回合开始。如果你的等级不低于7级，抗力增加到10；如果你的等级不低于12级，抗力增加到15。</p><p>@UUID[Compendium.pf2e.other-effects.Item.datPIlarC3SudOSd]{效果：忍受猛攻}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/endure_the_onslaught.webp",
+       "name": "忍受猛攻 Endure the Onslaught",
+       "text": "<p>在任意时刻使用这张牌。</p><hr /><p>给予一个你能看见的生物5点全类型伤害抗力，直到你的下一回合开始。如果你的等级不低于7级，抗力增加到10；如果你的等级不低于12级，抗力增加到15。</p><p>@UUID[Compendium.pf2e.other-effects.Item.datPIlarC3SudOSd]{效果：忍受猛攻}</p>"
+      }
+     ]
+    },
+    "Battle Cry": {
+     "name": "战斗呼号 Battle Cry",
+     "description": "<p>在你进行一次成功的近战攻击后，使用这张牌。</p><hr /><p>你发出可怕的战吼。尝试一次威吓检定来@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{挫败士气}，并将结果与30尺内所有敌人比较。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/battle_cry.webp",
+       "name": "战斗呼号 Battle Cry",
+       "text": "<p>在你进行一次成功的近战攻击后，使用这张牌。</p><hr /><p>你发出可怕的战吼。尝试一次威吓检定来@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{挫败士气}，并将结果与30尺内所有敌人比较。</p>"
+      }
+     ]
+    },
+    "Catch your Breath": {
+     "name": "喘口气 Catch your Breath",
+     "description": "<p>在你的回合结束时，使用这张牌。</p><hr /><p>选择你自己或你30尺内的一个盟友。你选择的生物，其生命值必须低于最大生命值的一半。该生物获得等同于你等级2倍的临时生命值，持续到战斗结束。</p><p>@UUID[Compendium.pf2e.other-effects.Item.A81HpA9cBUgGRsqx]{效果：喘口气}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/catch_your_breath.webp",
+       "name": "喘口气 Catch your Breath",
+       "text": "<p>在你的回合结束时，使用这张牌。</p><hr /><p>选择你自己或你30尺内的一个盟友。你选择的生物，其生命值必须低于最大生命值的一半。该生物获得等同于你等级2倍的临时生命值，持续到战斗结束。</p><p>@UUID[Compendium.pf2e.other-effects.Item.A81HpA9cBUgGRsqx]{效果：喘口气}</p>"
+      }
+     ]
+    },
+    "Last Stand": {
+     "name": "背水一战 Last Stand",
+     "description": "<p>当你受到伤害时，使用这张牌。</p><hr /><p>直到你的下个回合开始，任何会让你生命值减少为0的伤害都会让你剩下1点生命值，并且让你陷入@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 1}状态。如果你已经陷入毁灭状态，则毁灭状态值+1。和通常一样，当毁灭状态值等同于将会导致你死亡的濒死状态值时，你会死亡（通常为毁灭4）。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/last_stand.webp",
+       "name": "背水一战 Last Stand",
+       "text": "<p>当你受到伤害时，使用这张牌。</p><hr /><p>直到你的下个回合开始，任何会让你生命值减少为0的伤害都会让你剩下1点生命值，并且让你陷入@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 1}状态。如果你已经陷入毁灭状态，则毁灭状态值+1。和通常一样，当毁灭状态值等同于将会导致你死亡的濒死状态值时，你会死亡（通常为毁灭4）。</p>"
+      }
+     ]
+    },
+    "Shoot Through": {
+     "name": "无阻射击 Shoot Through",
+     "description": "<p>你即将为一次远程打击进行攻击骰时，使用这张牌。</p><hr /><p>如果此打击的路径在抵达目标之前需要穿过另一个生物的所在空间，目标对此攻击@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，并且路径上的生物不会提供掩蔽。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/shoot_through.webp",
+       "name": "无阻射击 Shoot Through",
+       "text": "<p>你即将为一次远程打击进行攻击骰时，使用这张牌。</p><hr /><p>如果此打击的路径在抵达目标之前需要穿过另一个生物的所在空间，目标对此攻击@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，并且路径上的生物不会提供掩蔽。</p>"
+      }
+     ]
+    },
+    "Reckless Charge": {
+     "name": "鲁莽冲锋 Reckless Charge",
+     "description": "<p>在连续进行两次行走动作之后，使用这张牌。</p><hr /><p>进行一次近战打击。你陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你的下个回合开始。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/reckless_charge.webp",
+       "name": "鲁莽冲锋 Reckless Charge",
+       "text": "<p>在连续进行两次行走动作之后，使用这张牌。</p><hr /><p>进行一次近战打击。你陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你的下个回合开始。</p>"
+      }
+     ]
+    },
+    "Roll Back": {
+     "name": "向后翻滚 Roll Back",
+     "description": "<p>在你受到会导致你@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或被击@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}的攻击或效果后，使用这张牌。</p><hr /><p>你向后翻身躲开攻击，双脚着地。向远离攻击源头（如果存在的话）的方向进行一次快步，并且你不再倒地或受擒。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/roll_back.webp",
+       "name": "向后翻滚 Roll Back",
+       "text": "<p>在你受到会导致你@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或被击@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}的攻击或效果后，使用这张牌。</p><hr /><p>你向后翻身躲开攻击，双脚着地。向远离攻击源头（如果存在的话）的方向进行一次快步，并且你不再倒地或受擒。</p>"
+      }
+     ]
+    },
+    "Warding Sign": {
+     "name": "防护印记 Warding Sign",
+     "description": "<p>在任意时刻使用这张牌。</p><hr /><p>选择一个你能看见的生物。该生物在1轮内对厄运效果免疫。如果该生物已经受到一个厄运效果的影响，它会在此持续时间内忽视该效果，之后该效果会恢复。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/warding_sign.webp",
+       "name": "防护印记 Warding Sign",
+       "text": "<p>在任意时刻使用这张牌。</p><hr /><p>选择一个你能看见的生物。该生物在1轮内对厄运效果免疫。如果该生物已经受到一个厄运效果的影响，它会在此持续时间内忽视该效果，之后该效果会恢复。</p>"
+      }
+     ]
+    },
+    "Called Foe": {
+     "name": "点名敌人 Called Foe",
+     "description": "<p>在你进行一次打击之前，使用这张牌。</p><hr /><p>指定一个你能看见的敌人。你对该敌人的攻击骰有+2状态加值，但你对任何其他生物的攻击骰有-4状态减值。该效果一直持续到你的下个回合结束，或直到你对指定敌人造成重击，以先发生者为准。</p><p>@UUID[Compendium.pf2e.other-effects.Item.63ia9YXlCIX7PXyp]{效果：点名敌人}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/called_foe.webp",
+       "name": "点名敌人 Called Foe",
+       "text": "<p>在你进行一次打击之前，使用这张牌。</p><hr /><p>指定一个你能看见的敌人。你对该敌人的攻击骰有+2状态加值，但你对任何其他生物的攻击骰有-4状态减值。该效果一直持续到你的下个回合结束，或直到你对指定敌人造成重击，以先发生者为准。</p><p>@UUID[Compendium.pf2e.other-effects.Item.63ia9YXlCIX7PXyp]{效果：点名敌人}</p>"
+      }
+     ]
+    },
+    "Class Might": {
+     "name": "职业之力 Class Might",
+     "description": "<p>在你的回合中使用这张牌。</p><hr /><p>直到你的下个回合开始，你基于你职业关键属性进行的检定获得+2状态加值。如果你的职业允许选择关键属性，选择其中一项属性来获得该加值。</p><p>@UUID[Compendium.pf2e.other-effects.Item.EBE2Oid75GC4n5vG]{效果：职业之力}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/class_might.webp",
+       "name": "职业之力 Class Might",
+       "text": "<p>在你的回合中使用这张牌。</p><hr /><p>直到你的下个回合开始，你基于你职业关键属性进行的检定获得+2状态加值。如果你的职业允许选择关键属性，选择其中一项属性来获得该加值。</p><p>@UUID[Compendium.pf2e.other-effects.Item.EBE2Oid75GC4n5vG]{效果：职业之力}</p>"
+      }
+     ]
+    },
+    "Hold the Line": {
+     "name": "维持战线 Hold the Line",
+     "description": "<p>在你的回合中使用这张牌。</p><hr /><p>直到你的下个回合开始，每当敌人试图使用移动动作离开与你相邻的空间时，它必须成功通过一次特技或运动检定对抗你的强韧DC，否则该移动动作被打断。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/hold_the_line.webp",
+       "name": "维持战线 Hold the Line",
+       "text": "<p>在你的回合中使用这张牌。</p><hr /><p>直到你的下个回合开始，每当敌人试图使用移动动作离开与你相邻的空间时，它必须成功通过一次特技或运动检定对抗你的强韧DC，否则该移动动作被打断。</p>"
+      }
+     ]
+    },
+    "Tumble Through": {
+     "name": "翻滚越障 Tumble Through",
+     "description": "<p>当你结束移动且与一个体型比你大的生物相邻时，使用这张牌。</p><hr /><p>移动到该生物的另一侧。这次移动不会触发任何基于移动的反应动作。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/tumble_through.webp",
+       "name": "翻滚越障 Tumble Through",
+       "text": "<p>当你结束移动且与一个体型比你大的生物相邻时，使用这张牌。</p><hr /><p>移动到该生物的另一侧。这次移动不会触发任何基于移动的反应动作。</p>"
+      }
+     ]
+    },
+    "Fluid Motion": {
+     "name": "流体运动 Fluid Motion",
+     "description": "<p>在你的回合开始时，使用这张牌。</p><hr /><p>在你回合中的余下时间内，你获得等同于你速度一半的攀爬速度和游泳速度。如果你进行一次水平@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}，跳跃距离增加10尺。</p><p>@UUID[Compendium.pf2e.other-effects.Item.QjvNcjLMaDJ0ig0D]{效果：流体运动}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/fluid_motion.webp",
+       "name": "流体运动 Fluid Motion",
+       "text": "<p>在你的回合开始时，使用这张牌。</p><hr /><p>在你回合中的余下时间内，你获得等同于你速度一半的攀爬速度和游泳速度。如果你进行一次水平@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}，跳跃距离增加10尺。</p><p>@UUID[Compendium.pf2e.other-effects.Item.QjvNcjLMaDJ0ig0D]{效果：流体运动}</p>"
+      }
+     ]
+    },
+    "Magical Reverberation": {
+     "name": "魔法混响 Magical Reverberation",
+     "description": "<p>在你施放法术后，使用这张牌。</p><hr /><p>该法术的力量在你脑中回荡。你可以在没有准备该法术、也不消耗法术位的前提下额外施放它一次。如果你未能在你的下个回合结束前施放该法术，它就会丢失。再次施放该法术后，你会陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}状态，持续1分钟。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/magical_reverberation.webp",
+       "name": "魔法混响 Magical Reverberation",
+       "text": "<p>在你施放法术后，使用这张牌。</p><hr /><p>该法术的力量在你脑中回荡。你可以在没有准备该法术、也不消耗法术位的前提下额外施放它一次。如果你未能在你的下个回合结束前施放该法术，它就会丢失。再次施放该法术后，你会陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}状态，持续1分钟。</p>"
+      }
+     ]
+    },
+    "Spark of Courage": {
+     "name": "勇气火花 Spark of Courage",
+     "description": "<p>当你具有@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}状态时，使用这张牌。</p><hr /><p>你失去该状态，转而在攻击骰和技能检定上获得+2状态加值，直到你的下个回合结束。</p><p>@UUID[Compendium.pf2e.other-effects.Item.nwSZL6EgG8KarNOT]{效果：勇气火花}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/spark_of_courage.webp",
+       "name": "勇气火花 Spark of Courage",
+       "text": "<p>当你具有@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}状态时，使用这张牌。</p><hr /><p>你失去该状态，转而在攻击骰和技能检定上获得+2状态加值，直到你的下个回合结束。</p><p>@UUID[Compendium.pf2e.other-effects.Item.nwSZL6EgG8KarNOT]{效果：勇气火花}</p>"
+      }
+     ]
+    },
+    "Pierce Resistance": {
+     "name": "穿透抗力 Pierce Resistance",
+     "description": "<p>在你了解到敌人具有的某项抗力后，使用这张牌。</p><hr /><p>直到你的下个回合结束，该敌人失去你选择的一项抗力。你必须知晓这项抗力，无论是因为看到它减免了某次攻击的伤害，还是因为一次成功的回忆知识检定。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/pierce_resistance.webp",
+       "name": "穿透抗力 Pierce Resistance",
+       "text": "<p>在你了解到敌人具有的某项抗力后，使用这张牌。</p><hr /><p>直到你的下个回合结束，该敌人失去你选择的一项抗力。你必须知晓这项抗力，无论是因为看到它减免了某次攻击的伤害，还是因为一次成功的回忆知识检定。</p>"
+      }
+     ]
+    },
+    "Press On": {
+     "name": "奋勇向前 Press On",
+     "description": "<p>在你的回合开始时，使用这张牌。</p><hr /><p>直到你的回合结束，忽略状态对检定和DC造成的减值。</p><p>@UUID[Compendium.pf2e.other-effects.Item.5Su0OWWN5VLL3fsw]{效果：奋勇向前}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/press_on.webp",
+       "name": "奋勇向前 Press On",
+       "text": "<p>在你的回合开始时，使用这张牌。</p><hr /><p>直到你的回合结束，忽略状态对检定和DC造成的减值。</p><p>@UUID[Compendium.pf2e.other-effects.Item.5Su0OWWN5VLL3fsw]{效果：奋勇向前}</p>"
+      }
+     ]
+    },
+    "Impossible Shot": {
+     "name": "超远狙击 Impossible Shot",
+     "description": "<p>当你进行远程攻击时（无论是打击还是法术），使用这张牌。</p><hr /><p>如果你尝试打击，武器或无武装攻击的射程增量增加一倍。如果你尝试施法，将法术射程增加一半。</p><p>@UUID[Compendium.pf2e.other-effects.Item.HgWSyf7jULisWIlG]{效果：超远狙击}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/impossible_shot.webp",
+       "name": "超远狙击 Impossible Shot",
+       "text": "<p>当你进行远程攻击时（无论是打击还是法术），使用这张牌。</p><hr /><p>如果你尝试打击，武器或无武装攻击的射程增量增加一倍。如果你尝试施法，将法术射程增加一半。</p><p>@UUID[Compendium.pf2e.other-effects.Item.HgWSyf7jULisWIlG]{效果：超远狙击}</p>"
+      }
+     ]
+    },
+    "Protect the Innocent": {
+     "name": "保护无辜者 Protect the Innocent",
+     "description": "<p>当你视线范围内一个失能的盟友或非战斗人员NPC受到来自攻击或效果的伤害时，使用这张牌。</p><hr /><p>阻止所有伤害。你将代替他们承受一半的伤害（如果你将从该攻击或效果中受到伤害，额外加上此伤害）。你只能在盟友无法行动，例如@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}或@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}时才能使用这张牌来阻止伤害。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/protect_the_innocent.webp",
+       "name": "保护无辜者 Protect the Innocent",
+       "text": "<p>当你视线范围内一个失能的盟友或非战斗人员NPC受到来自攻击或效果的伤害时，使用这张牌。</p><hr /><p>阻止所有伤害。你将代替他们承受一半的伤害（如果你将从该攻击或效果中受到伤害，额外加上此伤害）。你只能在盟友无法行动，例如@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}或@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}时才能使用这张牌来阻止伤害。</p>"
+      }
+     ]
+    },
+    "Healing Prayer": {
+     "name": "治愈祷言 Healing Prayer",
+     "description": "<p>在你的回合中使用这张牌。</p><hr /><p>选择你自己或你触及范围内的一个盟友。目标恢复@Damage[(1d8+8)[healing]]点生命值。如果你的等级不低于7级，目标恢复@Damage[ (2d8+16)[healing]]点生命值。如果你的等级不低于12级，目标恢复@Damage[(3d8+24)[healing]]点生命值。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/healing_prayer.webp",
+       "name": "治愈祷言 Healing Prayer",
+       "text": "<p>在你的回合中使用这张牌。</p><hr /><p>选择你自己或你触及范围内的一个盟友。目标恢复@Damage[(1d8+8)[healing]]点生命值。如果你的等级不低于7级，目标恢复@Damage[ (2d8+16)[healing]]点生命值。如果你的等级不低于12级，目标恢复@Damage[(3d8+24)[healing]]点生命值。</p>"
+      }
+     ]
+    },
+    "Make Way!": {
+     "name": "让路！ Make Way!",
+     "description": "<p>当你的行走动作开始时，使用这张牌。</p><hr /><p>在行走期间，你必须直线移动，但是你可以尝试@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}路径上的任何生物，将它们推到远离你行动路径的一个相邻空间内。这些免费的推撞尝试既不应用你的多重攻击减值，也不会增加你的多重攻击减值。如果你未能将一个生物推离你的路径，你的移动结束。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/make_way.webp",
+       "name": "让路！ Make Way!",
+       "text": "<p>当你的行走动作开始时，使用这张牌。</p><hr /><p>在行走期间，你必须直线移动，但是你可以尝试@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}路径上的任何生物，将它们推到远离你行动路径的一个相邻空间内。这些免费的推撞尝试既不应用你的多重攻击减值，也不会增加你的多重攻击减值。如果你未能将一个生物推离你的路径，你的移动结束。</p>"
+      }
+     ]
+    },
+    "Rending Swipe": {
+     "name": "撕裂劈砍 Rending Swipe",
+     "description": "<p>以两把不同的武器对同一目标进行两次连续成功的近战打击之后，使用这张牌。</p><hr /><p>目标受到@Damage[1d6[bleed]]，并且在流血停止前处于@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}状态。如果你的等级不低于7级，流血伤害增加到@Damage[2d6[bleed]]。如果你的等级不低于12级，流血伤害增加到@Damage[3d6[bleed]]。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/rending_swipe.webp",
+       "name": "撕裂劈砍 Rending Swipe",
+       "text": "<p>以两把不同的武器对同一目标进行两次连续成功的近战打击之后，使用这张牌。</p><hr /><p>目标受到@Damage[1d6[bleed]]，并且在流血停止前处于@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}状态。如果你的等级不低于7级，流血伤害增加到@Damage[2d6[bleed]]。如果你的等级不低于12级，流血伤害增加到@Damage[3d6[bleed]]。</p>"
+      }
+     ]
+    },
+    "Stay in the Fight": {
+     "name": "继续战斗 Stay in the Fight",
+     "description": "<p>在一个回合开始时，若你或你的盟友正受到持续的失能效果影响，使用这张牌。</p><hr /><p>该生物忽视该失能效果，直到其回合结束。该回合不计入该效果的持续时间内。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/stay_in_the_fight.webp",
+       "name": "继续战斗 Stay in the Fight",
+       "text": "<p>在一个回合开始时，若你或你的盟友正受到持续的失能效果影响，使用这张牌。</p><hr /><p>该生物忽视该失能效果，直到其回合结束。该回合不计入该效果的持续时间内。</p>"
+      }
+     ]
+    },
+    "Strike True": {
+     "name": "先机克敌 Strike True",
+     "description": "<p>当你或你的盟友将要进行一次打击时，使用这张牌。</p><hr /><p>目标投掷两次攻击，取较高的结果。如果攻击者的生命值低于其最大生命值的一半，此打击命中时造成一个额外的伤害骰；如果攻击者的生命值低于其最大生命值的四分之一，则造成两个额外的伤害骰。这是一个幸运效果。</p><p>@UUID[Compendium.pf2e.other-effects.Item.l9bMRAoKnFP8vb3D]{效果：先机克敌}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/strike_true.webp",
+       "name": "先机克敌 Strike True",
+       "text": "<p>当你或你的盟友将要进行一次打击时，使用这张牌。</p><hr /><p>目标投掷两次攻击，取较高的结果。如果攻击者的生命值低于其最大生命值的一半，此打击命中时造成一个额外的伤害骰；如果攻击者的生命值低于其最大生命值的四分之一，则造成两个额外的伤害骰。这是一个幸运效果。</p><p>@UUID[Compendium.pf2e.other-effects.Item.l9bMRAoKnFP8vb3D]{效果：先机克敌}</p>"
+      }
+     ]
+    },
+    "Drain Power": {
+     "name": "汲取力量 Drain Power",
+     "description": "<p>当你启动一个可以施放法术的魔法物品时，使用这张牌。</p><hr /><p>将该法术升阶1环级。这不能让该物品的法术环级超过你等级的一半（向上取整）。如果该物品不会在使用后被消耗，你在24小时内无法再次使用此物品。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/drain_power.webp",
+       "name": "汲取力量 Drain Power",
+       "text": "<p>当你启动一个可以施放法术的魔法物品时，使用这张牌。</p><hr /><p>将该法术升阶1环级。这不能让该物品的法术环级超过你等级的一半（向上取整）。如果该物品不会在使用后被消耗，你在24小时内无法再次使用此物品。</p>"
+      }
+     ]
+    },
+    "Shake it Off": {
+     "name": "摆脱影响 Shake it Off",
+     "description": "<p>在任意时刻使用这张牌。</p><hr /><p>所有影响你的持续伤害立即结束。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/shake_it_off.webp",
+       "name": "摆脱影响 Shake it Off",
+       "text": "<p>在任意时刻使用这张牌。</p><hr /><p>所有影响你的持续伤害立即结束。</p>"
+      }
+     ]
+    },
+    "Dive Out of Danger": {
+     "name": "脱离险境 Dive Out of Danger",
+     "description": "<p>在你尝试反射豁免之前，使用这张牌。</p><hr /><p>你不必投掷即可通过该豁免。你获得@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}状态，该状态持续到你下次得到完整的夜间休息为止。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/dive_out_of_danger.webp",
+       "name": "脱离险境 Dive Out of Danger",
+       "text": "<p>在你尝试反射豁免之前，使用这张牌。</p><hr /><p>你不必投掷即可通过该豁免。你获得@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}状态，该状态持续到你下次得到完整的夜间休息为止。</p>"
+      }
+     ]
+    },
+    "Push Through the Pain": {
+     "name": "克服痛苦 Push Through the Pain",
+     "description": "<p>在你尝试强韧豁免之前，使用这张牌。</p><hr /><p>你不必投掷即可通过该豁免。你获得@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 1}状态。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/push_through_the_pain.webp",
+       "name": "克服痛苦 Push Through the Pain",
+       "text": "<p>在你尝试强韧豁免之前，使用这张牌。</p><hr /><p>你不必投掷即可通过该豁免。你获得@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 1}状态。</p>"
+      }
+     ]
+    },
+    "Hasty Block": {
+     "name": "仓促格挡 Hasty Block",
+     "description": "<p>当你被物理攻击命中，同时你的触及范围内有一面盾牌，且你空着一只手时，使用这张牌。</p><hr /><p>你以交互动作抓起并持握该盾牌，然后用它对此攻击进行盾牌格挡。当攻击和格挡结算完后，盾牌会被从你手中打落，并且落在相邻的空间中。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/hasty_block.webp",
+       "name": "仓促格挡 Hasty Block",
+       "text": "<p>当你被物理攻击命中，同时你的触及范围内有一面盾牌，且你空着一只手时，使用这张牌。</p><hr /><p>你以交互动作抓起并持握该盾牌，然后用它对此攻击进行盾牌格挡。当攻击和格挡结算完后，盾牌会被从你手中打落，并且落在相邻的空间中。</p>"
+      }
+     ]
+    },
+    "Distract Foe": {
+     "name": "扰乱敌手 Distract Foe",
+     "description": "<p>当你30尺内的敌人对另一个生物进行近战攻击时，使用这张牌。</p><hr /><p>该敌人被你@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}，并且无法结束该状态，除非它对你进行一次敌对动作，或直到战斗结束。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/distract_foe.webp",
+       "name": "扰乱敌手 Distract Foe",
+       "text": "<p>当你30尺内的敌人对另一个生物进行近战攻击时，使用这张牌。</p><hr /><p>该敌人被你@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}，并且无法结束该状态，除非它对你进行一次敌对动作，或直到战斗结束。</p>"
+      }
+     ]
+    },
+    "Last Second Sidestep": {
+     "name": "临界回避 Last Second Sidestep",
+     "description": "<p>当你被一次远程打击作为目标时，使用这张牌。</p><hr /><p>此打击自动失手。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/last_second_sidestep.webp",
+       "name": "临界回避 Last Second Sidestep",
+       "text": "<p>当你被一次远程打击作为目标时，使用这张牌。</p><hr /><p>此打击自动失手。</p>"
+      }
+     ]
+    },
+    "Reverse Strike": {
+     "name": "逆转打击 Reverse Strike",
+     "description": "<p>当你的攻击骰失手时，使用这张牌。</p><hr /><p>你的攻击骰命中，而不是失手。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/reverse_strike.webp",
+       "name": "逆转打击 Reverse Strike",
+       "text": "<p>当你的攻击骰失手时，使用这张牌。</p><hr /><p>你的攻击骰命中，而不是失手。</p>"
+      }
+     ]
+    },
+    "Critical Moment": {
+     "name": "关键时刻 Critical Moment",
+     "description": "<p>在你投掷检定后使用这张牌。</p><hr /><p>重掷检定两次，并使用最好的结果。这是一个幸运效果。如果你检定依然失败，你陷入@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 1}。</p><p>@UUID[Compendium.pf2e.other-effects.Item.NyUWMdcABrlVsSBy]{效果：关键时刻}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/critical_moment.webp",
+       "name": "关键时刻 Critical Moment",
+       "text": "<p>在你投掷检定后使用这张牌。</p><hr /><p>重掷检定两次，并使用最好的结果。这是一个幸运效果。如果你检定依然失败，你陷入@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 1}。</p><p>@UUID[Compendium.pf2e.other-effects.Item.NyUWMdcABrlVsSBy]{效果：关键时刻}</p>"
+      }
+     ]
+    },
+    "Channel Life Force": {
+     "name": "引导生命力 Channel Life Force",
+     "description": "<p>当你用完所有聚能点后，在你的回合中使用这张牌。</p><hr /><p>你获得1个聚能点，必须在回合结束前使用，否则就会失去。如果你使用这个聚能点，你陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 1}。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/channel_life_force.webp",
+       "name": "引导生命力 Channel Life Force",
+       "text": "<p>当你用完所有聚能点后，在你的回合中使用这张牌。</p><hr /><p>你获得1个聚能点，必须在回合结束前使用，否则就会失去。如果你使用这个聚能点，你陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 1}。</p>"
+      }
+     ]
+    },
+    "Stoke the Magical Flame": {
+     "name": "燃起魔法火焰 Stoke the Magical Flame",
+     "description": "<p>当你或你的盟友施法时，使用这张牌。</p><hr /><p>将该法术升阶1环级。升阶后的法术不能超过你或你的盟友能够施放的最高环级。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/stoke_the_magical_flame.webp",
+       "name": "燃起魔法火焰 Stoke the Magical Flame",
+       "text": "<p>当你或你的盟友施法时，使用这张牌。</p><hr /><p>将该法术升阶1环级。升阶后的法术不能超过你或你的盟友能够施放的最高环级。</p>"
+      }
+     ]
+    },
+    "Desperate Swing": {
+     "name": "拼死一击 Desperate Swing",
+     "description": "<p>在你的回合中使用这张牌。</p><hr /><p>进行一次打击，无视多重攻击减值。如果你掷出大成功，你只能得到成功的结果。如果攻击失败，你会松手放开武器；如果你使用的是无武装攻击，或因其他原因无法松开武器，则你会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><p>@UUID[Compendium.pf2e.other-effects.Item.Bjwlrq0mF64nZJjK]{效果：拼死一击}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/desperate_swing.webp",
+       "name": "拼死一击 Desperate Swing",
+       "text": "<p>在你的回合中使用这张牌。</p><hr /><p>进行一次打击，无视多重攻击减值。如果你掷出大成功，你只能得到成功的结果。如果攻击失败，你会松手放开武器；如果你使用的是无武装攻击，或因其他原因无法松开武器，则你会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><p>@UUID[Compendium.pf2e.other-effects.Item.Bjwlrq0mF64nZJjK]{效果：拼死一击}</p>"
+      }
+     ]
+    },
+    "Cut Through the Fog": {
+     "name": "破除迷雾 Cut Through the Fog",
+     "description": "<p>在你尝试意志豁免之前，使用这张牌。</p><hr /><p>你不必投掷，自动通过该豁免检定。你获得@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}状态，直到你下次进行完整的夜间休息才能消除。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/cut_through_the_fog.webp",
+       "name": "破除迷雾 Cut Through the Fog",
+       "text": "<p>在你尝试意志豁免之前，使用这张牌。</p><hr /><p>你不必投掷，自动通过该豁免检定。你获得@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}状态，直到你下次进行完整的夜间休息才能消除。</p>"
+      }
+     ]
+    },
+    "Surge of Speed": {
+     "name": "速度飙升 Surge of Speed",
+     "description": "<p>在某个生物的回合开始时，使用这张牌。</p><hr /><p>该生物将在它的回合内获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}状态，并且只能将此额外动作用于一个带有移动特征的单动作。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/surge_of_speed.webp",
+       "name": "速度飙升 Surge of Speed",
+       "text": "<p>在某个生物的回合开始时，使用这张牌。</p><hr /><p>该生物将在它的回合内获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}状态，并且只能将此额外动作用于一个带有移动特征的单动作。</p>"
+      }
+     ]
+    },
+    "Opportune Distraction": {
+     "name": "适时分心 Opportune Distraction",
+     "description": "<p>当你的回合开始时，使用这张牌。</p><hr /><p>直到你的回合结束，当你进行@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{躲藏}或@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}动作后，你获得高等掩蔽的效果，允许你在开阔地进行躲藏或潜行。如果你进行了任何除躲藏、潜行或快步之外的行动，此效果结束。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/opportune_distraction.webp",
+       "name": "适时分心 Opportune Distraction",
+       "text": "<p>当你的回合开始时，使用这张牌。</p><hr /><p>直到你的回合结束，当你进行@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{躲藏}或@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}动作后，你获得高等掩蔽的效果，允许你在开阔地进行躲藏或潜行。如果你进行了任何除躲藏、潜行或快步之外的行动，此效果结束。</p>"
+      }
+     ]
+    },
+    "Run and Shoot": {
+     "name": "连跑带射 Run and Shoot",
+     "description": "<p>当你进行行走动作时，使用这张牌。</p><hr /><p>你在此移动中的任意一点进行一次远程打击。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/run_and_shoot.webp",
+       "name": "连跑带射 Run and Shoot",
+       "text": "<p>当你进行行走动作时，使用这张牌。</p><hr /><p>你在此移动中的任意一点进行一次远程打击。</p>"
+      }
+     ]
+    },
+    "Flash of Insight": {
+     "name": "瞬间洞悉 Flash of Insight",
+     "description": "<p>在你的回合开始时，使用这张牌。</p><hr /><p>直到你的回合结束，你选择任意一项技能，获得@UUID[Compendium.pf2e.feats-srd.Item.H3I2X0f7v4EzwxuN]{耳熟能详}专长的效果。如果你已经拥有耳熟能详专长，当你在本回合内用该专长尝试进行回忆知识检定时，得到的结果提高一个成功度级别。如果你用此能力来了解一个生物，你将得到两倍数量的关于它的能力线索。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/flash_of_insight.webp",
+       "name": "瞬间洞悉 Flash of Insight",
+       "text": "<p>在你的回合开始时，使用这张牌。</p><hr /><p>直到你的回合结束，你选择任意一项技能，获得@UUID[Compendium.pf2e.feats-srd.Item.H3I2X0f7v4EzwxuN]{耳熟能详}专长的效果。如果你已经拥有耳熟能详专长，当你在本回合内用该专长尝试进行回忆知识检定时，得到的结果提高一个成功度级别。如果你用此能力来了解一个生物，你将得到两倍数量的关于它的能力线索。</p>"
+      }
+     ]
+    },
+    "Rampage": {
+     "name": "暴走 Rampage",
+     "description": "<p>在你的回合开始时，使用这张牌。</p><hr /><p>对触及范围内的每个敌人进行一次打击。多重攻击减值正常计算。在这些攻击都结束后，你的回合结束，并且你陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/rampage.webp",
+       "name": "暴走 Rampage",
+       "text": "<p>在你的回合开始时，使用这张牌。</p><hr /><p>对触及范围内的每个敌人进行一次打击。多重攻击减值正常计算。在这些攻击都结束后，你的回合结束，并且你陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}。</p>"
+      }
+     ]
+    },
+    "Misdirected Attack": {
+     "name": "误导攻击 Misdirected Attack",
+     "description": "<p>当一个敌人对你的近战打击大失败后，使用这张牌。</p><hr /><p>该敌人重新掷这次攻击，将其触及范围内的一名自己的盟友作为新目标。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/misdirected_attack.webp",
+       "name": "误导攻击 Misdirected Attack",
+       "text": "<p>当一个敌人对你的近战打击大失败后，使用这张牌。</p><hr /><p>该敌人重新掷这次攻击，将其触及范围内的一名自己的盟友作为新目标。</p>"
+      }
+     ]
+    },
+    "Grazing Blow": {
+     "name": "擦伤 Grazing Blow",
+     "description": "<p>当一个敌人以打击命中你后，使用这张牌。</p><hr /><p>如果敌人掷出大成功，它改为得到成功的结果。如果敌人掷出成功，它只能造成最小伤害，不掷伤害骰。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/grazing_blow.webp",
+       "name": "擦伤 Grazing Blow",
+       "text": "<p>当一个敌人以打击命中你后，使用这张牌。</p><hr /><p>如果敌人掷出大成功，它改为得到成功的结果。如果敌人掷出成功，它只能造成最小伤害，不掷伤害骰。</p>"
+      }
+     ]
+    },
+    "Last Ounce of Strength": {
+     "name": "最后的力量 Last Ounce of Strength",
+     "description": "<p>当你在回合开始时处于濒死状态，使用这张牌。</p><hr /><p>你恢复意识并且能在回合中正常行动，但你在此回合中无法恢复生命值，也无法移除濒死状态。在你的回合结束时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，并且你的濒死状态值增加 1。此回合不进行复苏检定。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/last_ounce_of_strength.webp",
+       "name": "最后的力量 Last Ounce of Strength",
+       "text": "<p>当你在回合开始时处于濒死状态，使用这张牌。</p><hr /><p>你恢复意识并且能在回合中正常行动，但你在此回合中无法恢复生命值，也无法移除濒死状态。在你的回合结束时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，并且你的濒死状态值增加 1。此回合不进行复苏检定。</p>"
+      }
+     ]
+    },
+    "Tuck and Roll": {
+     "name": "懒驴打滚 Tuck and Roll",
+     "description": "<p>当你被生物或危害打击命中之后，使用这张牌。</p><hr /><p>你受到最小伤害，并且陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/tuck_and_roll.webp",
+       "name": "懒驴打滚 Tuck and Roll",
+       "text": "<p>当你被生物或危害打击命中之后，使用这张牌。</p><hr /><p>你受到最小伤害，并且陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>"
+      }
+     ]
+    },
+    "Surge of Magic": {
+     "name": "魔法涌动 Surge of Magic",
+     "description": "<p>在你的回合中使用这张牌。</p><hr /><p>直到你的回合结束之前，你能启动一件你今天已经启动过一次的魔法物品。如果该物品的启动限制为每日一次或更短的时间间隔，则此次启动不计入物品的频率限制。如果物品为魔杖，以这种方式启动不会使其过载。</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/surge_of_magic.webp",
+       "name": "魔法涌动 Surge of Magic",
+       "text": "<p>在你的回合中使用这张牌。</p><hr /><p>直到你的回合结束之前，你能启动一件你今天已经启动过一次的魔法物品。如果该物品的启动限制为每日一次或更短的时间间隔，则此次启动不计入物品的频率限制。如果物品为魔杖，以这种方式启动不会使其过载。</p>"
+      }
+     ]
+    },
+    "Daring Attempt": {
+     "name": "大胆尝试 Daring Attempt",
+     "description": "<p>在你的回合开始时使用这张牌。</p><hr /><p>选择一个未受训的技能。你将在此技能上临时受训，直到你的下个回合结束。如果你在下回合结束之前使用此技能并且检定成功，你能将此好处一直保留到战斗结束，如果不在战斗中则保留1分钟。</p><p>@UUID[Compendium.pf2e.other-effects.Item.w0kwwWC7QTmytbVt]{效果：大胆尝试}</p>",
+     "faces": [
+      {
+       "img": "modules/pf2e-compendium-extra-cn/assets/hero-action-deck/cards/daring_attempt.webp",
+       "name": "大胆尝试 Daring Attempt",
+       "text": "<p>在你的回合开始时使用这张牌。</p><hr /><p>选择一个未受训的技能。你将在此技能上临时受训，直到你的下个回合结束。如果你在下回合结束之前使用此技能并且检定成功，你能将此好处一直保留到战斗结束，如果不在战斗中则保留1分钟。</p><p>@UUID[Compendium.pf2e.other-effects.Item.w0kwwWC7QTmytbVt]{效果：大胆尝试}</p>"
+      }
+     ]
+    }
+   }
+  }
+ }
+}

@@ -44,6 +44,11 @@ jobs:
           fi
           echo "download URL ok: $DOWNLOAD"
 
+      - name: Verify Hero Action Deck integration
+        run: |
+          python3 scripts/verify-hero-deck.py
+          node --test scripts/test-hero-deck-compat.mjs
+
       - name: Build module zip
         # White-list: only ship files FVTT actually needs at runtime.
         # See RELEASE_PROCESS.md "ZIP 打包" section. Adding new top-level
@@ -59,10 +64,12 @@ jobs:
             compendium-851 \
             homebrew \
             lang \
+            assets \
             scripts \
             .gitignore
           ls -la "$ZIP_NAME"
           unzip -l "$ZIP_NAME" | tail -5
+          python3 scripts/verify-hero-deck.py --zip "$ZIP_NAME"
 
       - name: Generate release body
         # Use the tag commit's full message (subject + body) as the release

@@ -1,8 +1,8 @@
-/** Version-scoped source selection for the system SoG bestiary only. */
+/** Version-scoped source selection for the system SoG and BoB bestiaries. */
 export const SOG_PACK='pf2e.season-of-ghosts-bestiary';
+export const BOB_PACK='pf2e.bastion-of-blasphemies-bestiary';
+const VERSIONED_PACKS=[SOG_PACK,BOB_PACK];
 const MODULE='pf2e-compendium-extra-cn';
-const BASE=`modules/${MODULE}/compendium/${SOG_PACK}.json`;
-const VARIANT=`modules/${MODULE}/compendium-851/${SOG_PACK}.json`;
 const registered=new WeakMap();
 const onDemandWrappers=new WeakMap();
 const PUBLISHED=Symbol.for(`${MODULE}.sog851.published.v1`);
@@ -32,7 +32,7 @@ export function useSog851(game=globalThis.game){
  return supportsSogSources(game)&&game.system.version==='8.5.1';
 }
 export function sogTranslationDirectory(packId,game=globalThis.game){
- return packId===SOG_PACK&&useSog851(game)?'compendium-851':'compendium';
+ return VERSIONED_PACKS.includes(packId)&&useSog851(game)?'compendium-851':'compendium';
 }
 export function registerSog851(babele,game=globalThis.game){
  if(!useSog851(game)||typeof babele?.register!=='function')return false;
@@ -51,9 +51,14 @@ function withFile(template,file){
  if(typeof template==='string')return file;
  return {...template,file,directory:file.slice(0,file.lastIndexOf('/'))};
 }
-/** Correct only our exact SoG file, including a GM-published list from another version. */
+/** Correct only our exact versioned files, including a GM-published list from another version. */
 export function selectSogTranslationFiles(files,game=globalThis.game){
  if(!supportsSogSources(game)||!Array.isArray(files))return files;
+ return VERSIONED_PACKS.reduce((selected,packId)=>selectPackTranslationFiles(selected,game,packId),files);
+}
+function selectPackTranslationFiles(files,game,packId){
+ const BASE=`modules/${MODULE}/compendium/${packId}.json`;
+ const VARIANT=`modules/${MODULE}/compendium-851/${packId}.json`;
  const base=files.find(row=>canonical(fileOf(row))===BASE);
  const variant=files.find(row=>canonical(fileOf(row))===VARIANT);
  if(!base&&!variant)return files;
@@ -103,7 +108,7 @@ export function installPublishedSogGuard(PublishedTranslationSource){
  return true;
 }
 
-/** CHN 3.1.2 on-demand bypasses the native source registry; repair its one URL slot. */
+/** CHN 3.1.2 on-demand bypasses the native source registry; repair the known pack URL slots. */
 export function refreshOnDemandSogSources(babele,game=globalThis.game){
  if(!supportsSogOnDemand(game)||!knownOnDemandMethod(babele))return false;
  const state=babele?.__ondemandPatch;
@@ -113,10 +118,12 @@ export function refreshOnDemandSogSources(babele,game=globalThis.game){
   const next=orderSogTranslationFiles(selectSogTranslationFiles(state.translationFilesCache,game),babele,game);
   changed||=next!==state.translationFilesCache;state.translationFilesCache=next;
  }
- const previous=state.packTranslationUrls?.get?.(SOG_PACK);
- if(Array.isArray(previous)){
-  const next=orderSogTranslationFiles(selectSogTranslationFiles(previous,game),babele,game);
-  if(next!==previous){state.packTranslationUrls.set(SOG_PACK,next);changed=true;}
+ for(const packId of VERSIONED_PACKS){
+  const previous=state.packTranslationUrls?.get?.(packId);
+  if(Array.isArray(previous)){
+   const next=orderSogTranslationFiles(selectSogTranslationFiles(previous,game),babele,game);
+   if(next!==previous){state.packTranslationUrls.set(packId,next);changed=true;}
+  }
  }
  return changed;
 }
@@ -130,7 +137,7 @@ export function installOnDemandSogGuard(babele){
   try{
    if(supportsSogOnDemand()){
     const pack=args[0];const id=typeof pack==='string'?pack:pack?.collection??pack?.metadata?.id;
-    if(id===SOG_PACK)refreshOnDemandSogSources(babele);
+    if(VERSIONED_PACKS.includes(id))refreshOnDemandSogSources(babele);
    }
   }catch(error){console.warn(`${MODULE} | SoG on-demand source selection failed`,error);}
   return Reflect.apply(original,this,args);
@@ -155,6 +162,9 @@ function orderKnownSources(order,sources){
 
 /** Apply configured order only to proven sources in this pack's known cache paths. */
 export function orderSogTranslationFiles(files,babele,game=globalThis.game,{published=false}={}){
+ return VERSIONED_PACKS.reduce((ordered,packId)=>orderPackTranslationFiles(ordered,babele,game,published,packId),files);
+}
+function orderPackTranslationFiles(files,babele,game,published,packId){
  try{
  if(!supportsSogSources(game)||!Array.isArray(files))return files;
  if(published){
@@ -165,19 +175,21 @@ export function orderSogTranslationFiles(files,babele,game=globalThis.game,{publ
  const priority=babele?.sourcePriority;
  if(typeof priority!=='function'||Function.prototype.toString.call(priority)!==PRIORITY_SOURCE)return files;
  const config=Reflect.apply(priority,babele,[]);
- const order=config?.collections?.[SOG_PACK]??config?.global;
+ const order=config?.collections?.[packId]??config?.global;
  if(!Array.isArray(order)||!order.length)return files;
  const lang=language(game),indices=[],sources=[];
  const configured=game.settings.get('babele','directory')?.trim?.();
- const chn=`modules/pf2e_compendium_chn/compendium/${SOG_PACK}.json`;
+ const BASE=`modules/${MODULE}/compendium/${packId}.json`;
+ const VARIANT=`modules/${MODULE}/compendium-851/${packId}.json`;
+ const chn=`modules/pf2e_compendium_chn/compendium/${packId}.json`;
  for(let index=0;index<files.length;index++){
   const file=canonical(fileOf(files[index]));
   const basename=typeof file==='string'?file.slice(file.lastIndexOf('/')+1):'';
-  if(!basename.startsWith(`${SOG_PACK}.`)||!basename.endsWith('.json'))continue;
+  if(!basename.startsWith(`${packId}.`)||!basename.endsWith('.json'))continue;
   let source;
   if(file===BASE||file===VARIANT)source=`module:${MODULE}:${lang}`;
   else if(file===chn)source=`module:pf2e_compendium_chn:${lang}`;
-  else if(configured&&file===`${configured}/${lang}/${SOG_PACK}.json`&&order.includes('directory'))source='directory';
+  else if(configured&&file===`${configured}/${lang}/${packId}.json`&&order.includes('directory'))source='directory';
   else return files; // Unknown or unranked custom source: retain its existing precedence.
   indices.push(index);sources.push({source,row:files[index]});
  }
