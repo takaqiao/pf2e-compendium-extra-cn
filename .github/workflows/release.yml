@@ -15,6 +15,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Verify world clock translations
+        run: node --test tests/world-clock-i18n.test.mjs
+
+      - name: Verify versioned bestiary sources and HAD migration
+        run: node --test tests/versioned-bestiary-sources.test.mjs scripts/test-hero-deck-compat.mjs
+
       - name: Read tag version
         id: version
         run: |
