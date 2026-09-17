@@ -76,7 +76,7 @@ CI 读的是 **tag 所在 commit** 的 message —— 要么把同样正文写�
 ### 5. zip 白名单（CI 内，仅供核对）
 
 ```
-module.json  babele.js  inject-lang.js  compendium  compendium-851  homebrew  lang  scripts  .gitignore
+module.json  babele.js  inject-lang.js  compendium  compendium-851  homebrew  lang  assets  scripts  .gitignore
 ```
 
 `inject-lang.js` 与 `lang/` **必须在内**：`module.json` 的 `esmodules` 声明了
@@ -86,6 +86,10 @@ module.json  babele.js  inject-lang.js  compendium  compendium-851  homebrew  la
 > 本文件此前的 §5–§7 写的是手工 `Compress-Archive` + `gh release create` 流程。
 > 那与 CI 并存会撞车，且那份 `-Path` 清单**漏了 `inject-lang.js` 和 `lang`**，
 > 照它打出来的包会缺一个已声明的 esmodule。已废弃。
+
+`assets/` 包含 HAD 的 52 张中文卡面和来源授权，必须随包发布。CI 在打包前运行
+`python scripts/verify-hero-deck.py` 与 `node --test scripts/test-hero-deck-compat.mjs`，
+打包后再运行 `python scripts/verify-hero-deck.py --zip <ZIP>`，防止只发布文字却漏掉卡图。
 
 ## 常见错误
 

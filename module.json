@@ -44,7 +44,38 @@
         "scripts/journal-label4-compat.js",
         "scripts/basic-bootstrap.mjs",
         "scripts/eldamon-legends-display.js",
-        "scripts/team-plus-display.mjs"
+        "scripts/team-plus-display.mjs",
+        "scripts/hero-deck-compat.mjs"
+    ],
+    "languages": [
+        {
+            "lang": "cn",
+            "name": "中文",
+            "path": "lang/external/pf2e-hero-deck-unofficial.json",
+            "system": "pf2e",
+            "module": "pf2e-hero-deck-unofficial"
+        },
+        {
+            "lang": "zh-CN",
+            "name": "简体中文",
+            "path": "lang/external/pf2e-hero-deck-unofficial.json",
+            "system": "pf2e",
+            "module": "pf2e-hero-deck-unofficial"
+        },
+        {
+            "lang": "zh_Hans",
+            "name": "简体中文",
+            "path": "lang/external/pf2e-hero-deck-unofficial.json",
+            "system": "pf2e",
+            "module": "pf2e-hero-deck-unofficial"
+        },
+        {
+            "lang": "zh-Hans",
+            "name": "简体中文",
+            "path": "lang/external/pf2e-hero-deck-unofficial.json",
+            "system": "pf2e",
+            "module": "pf2e-hero-deck-unofficial"
+        }
     ],
     "url": "https://github.com/takaqiao/pf2e-compendium-extra-cn",
     "manifest": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/module.json",
