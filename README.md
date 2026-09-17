@@ -39,6 +39,12 @@ https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/mo
 
 详细工作流见 [RELEASE_PROCESS.md](RELEASE_PROCESS.md)。
 
+## 亵渎堡垒（v1.0.54）
+
+加入《亵渎堡垒》Bastion of Blasphemies 的 Adventure 汉化，覆盖角色、物品、日志、场景、导入器及战役管理器，并补齐相关规则、纪念品和动态显示。需另行安装原版 `pf2e-bastion-of-blasphemies`；extra 不包含原版冒险资源。
+
+已验环境：BoB 1.0.0、Foundry 14.368、PF2e 8.5.1、Babele 2.9.1、pf2_cn 2.5.1、核心合集汉化 3.1.2。BoB 适配绑定上述版本；完整加载和按需加载均已验收。安装或更新 extra 不会自动覆盖已有世界中的冒险文档。
+
 ## 憎恶地窟（v1.0.49）
 
 更新官方冒险、系统 bestiary、Addons、Expanded、Gauntlight Extras 与 Otari Extras 的 8 个合集，补齐 Actor、物品、日志、场景及嵌入条目的中文显示。加入结构映射、效果徽记翻译、旧式内容链接显示适配，以及按需加载的重复翻译保护。

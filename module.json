@@ -1,54 +1,68 @@
 {
-    "id": "pf2e-compendium-extra-cn",
-    "title": "Translation: 中文[PF2E额外合集包]",
-    "description": "Chinese translation for extra pf2e compendium",
-    "version": "1.0.53",
-    "compatibility": {
-        "minimum": "13",
-        "verified": "14",
-        "maximum": "14"
-    },
-    "authors": [
-        {
-            "name": "Taka",
-            "url": "https://github.com/takaqiao"
+  "id": "pf2e-compendium-extra-cn",
+  "title": "Translation: 中文[PF2E额外合集包]",
+  "description": "Chinese translation for extra pf2e compendium",
+  "version": "1.0.54",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "Taka",
+      "url": "https://github.com/takaqiao"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.9.1",
+          "verified": "2.9.1",
+          "maximum": "2.9.1"
         }
-    ],
-    "relationships": {
-        "requires": [
-            {
-                "id": "babele",
-                "type": "module",
-                "compatibility": {
-                    "minimum": "2.9.1",
-                    "verified": "2.9.1",
-                    "maximum": "2.9.1"
-                }
-            },
-            {
-                "id": "pf2e_compendium_chn",
-                "type": "module"
-            }
-        ]
-    },
-    "esmodules": [
-        "babele.js",
-        "scripts/av-structured.mjs",
-        "scripts/inject-homebrew.js",
-        "scripts/babele-failsafe.js",
-        "scripts/chn-pr43-bridge.js",
-        "inject-lang.js",
-        "scripts/av-display-i18n.js",
-        "scripts/leshy-gallery-compat.js",
-        "scripts/eldamon-legends-scylla-compat.js",
-        "scripts/journal-label4-compat.js",
-        "scripts/basic-bootstrap.mjs",
-        "scripts/eldamon-legends-display.js",
-        "scripts/team-plus-display.mjs"
-    ],
-    "url": "https://github.com/takaqiao/pf2e-compendium-extra-cn",
-    "manifest": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/module.json",
-    "download": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/download/1.0.53/pf2e-compendium-extra-cn-v1.0.53.zip",
-    "bugs": "https://github.com/takaqiao/pf2e-compendium-extra-cn/issues",
-    "changelog": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/tag/1.0.53"
+      },
+      {
+        "id": "pf2e_compendium_chn",
+        "type": "module"
+      }
+    ]
+  },
+  "esmodules": [
+    "babele.js",
+    "scripts/av-structured.mjs",
+    "scripts/inject-homebrew.js",
+    "scripts/babele-failsafe.js",
+    "scripts/chn-pr43-bridge.js",
+    "inject-lang.js",
+    "scripts/av-display-i18n.js",
+    "scripts/leshy-gallery-compat.js",
+    "scripts/eldamon-legends-scylla-compat.js",
+    "scripts/journal-label4-compat.js",
+    "scripts/basic-bootstrap.mjs",
+    "scripts/eldamon-legends-display.js",
+    "scripts/team-plus-display.mjs",
+    "scripts/bob-compat.mjs",
+    "scripts/bob-identity-compat.mjs",
+    "scripts/bob-spell-display-compat.mjs",
+    "scripts/bob-import-token-name-compat.mjs",
+    "scripts/bob-journal-anchor-compat.mjs",
+    "scripts/bob-localize-display-compat.mjs",
+    "scripts/bob-note-display-compat.mjs",
+    "scripts/bob-rolloption-display-compat.mjs",
+    "scripts/bob-additional-display-bootstrap.mjs",
+    "scripts/bob-gallery-bootstrap.mjs",
+    "scripts/bob-journal-check-display-bootstrap.mjs",
+    "scripts/bob-mordimus-reset-compat.mjs",
+    "scripts/bob-rule-display-bootstrap.mjs",
+    "scripts/bob-memento-display-bootstrap.mjs"
+  ],
+  "url": "https://github.com/takaqiao/pf2e-compendium-extra-cn",
+  "manifest": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/module.json",
+  "download": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/download/1.0.54/pf2e-compendium-extra-cn-v1.0.54.zip",
+  "bugs": "https://github.com/takaqiao/pf2e-compendium-extra-cn/issues",
+  "changelog": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/tag/1.0.54"
 }
