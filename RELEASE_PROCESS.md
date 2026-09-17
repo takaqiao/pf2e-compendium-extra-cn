@@ -43,6 +43,8 @@ python scripts\regen-labels-titles.py
 
 **注意**：`manifest` 字段使用 `latest/download/module.json`，无需修改。
 
+语言声明必须通过 `node --test tests/module-manifest.test.mjs`，使用 Foundry 同样的 `Intl.getCanonicalLocales` 校验。比如 `zh-Hans` 合法，`zh_Hans` 会导致安装失败。新增 manifest 字段还须通过目标 Foundry 的严格包模型校验；手动解压后能启动不能替代安装校验，因为已安装包读取可能启用字段回退。
+
 ### 4. 提交并推 tag —— 发版由 CI 完成
 
 `.github/workflows/release.yml` 监听形如 `X.Y.Z` 的 tag（`on.push.tags: "[0-9]+.[0-9]+.[0-9]+"`）。

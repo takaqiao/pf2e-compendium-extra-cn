@@ -16,6 +16,10 @@
 - 多个 homebrew 模组（traits / weapons / feats 注入）
 - Hero Action Deck：52 张英雄行动牌、52 张中文卡面、29 条界面文字
 
+## 安装修正（v1.0.57）
+
+修复 1.0.56 安装时的 `languages[2].lang: Incorrect locale information provided`：移除无效的 `zh_Hans` 声明，保留 `cn`、`zh-CN` 和 `zh-Hans`。BoB 与 HAD 的汉化内容保持不变。安装地址无需修改，重新安装或检查更新即可。
+
 ## Hero Action Deck 汉化（v1.0.56）
 
 已归并 [pf2e-hero-deck-cn 1.0.0](https://github.com/takaqiao/pf2e-hero-deck-cn/releases/tag/1.0.0) 的完整汉化。使用时启用上游 `pf2e-hero-deck-unofficial` 和 extra，世界语言设为中文（`cn`）；未使用 HAD 的世界无需安装它。
