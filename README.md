@@ -14,6 +14,19 @@
 - pf2e-jb2a-macros、pf2e-toolbelt、pf2e-hud、pf2e-visioner、xdy-pf2e-workbench
 - abomination-vaults 系列冒险与社区附加包
 - 多个 homebrew 模组（traits / weapons / feats 注入）
+- Hero Action Deck：52 张英雄行动牌、52 张中文卡面、29 条界面文字
+
+## Hero Action Deck 汉化
+
+已归并 [pf2e-hero-deck-cn 1.0.0](https://github.com/takaqiao/pf2e-hero-deck-cn/releases/tag/1.0.0) 的完整汉化。使用时启用上游 `pf2e-hero-deck-unofficial` 和 extra，世界语言设为中文（`cn`）；未使用 HAD 的世界无需安装它。
+
+从独立汉化迁移时，先停用 `pf2e-hero-deck-cn`，保留其安装文件，由 GM 重新进入世界。extra 会把现有世界牌堆中 52 种已知旧中文卡图路径迁入 extra，并将配置的手牌、弃牌堆默认英文名改为中文。自定义图片和名称保持原样，牌的 ID、排序、抽取状态及所属牌堆均保留；不需要删除任何牌堆。确认已有牌面显示正常后，可卸载旧独立汉化。
+
+新建牌堆使用 extra 的完整译文；安装汉化之前创建的英文世界牌堆仍是旧快照，此次迁移只修复旧中文卡图路径，不覆盖已有牌的正文。仍有手牌或正在进行的牌局时，请保留这些世界文档。
+
+旧独立汉化与 extra 同时启用时，世界路径迁移暂不执行；完成停用旧汉化后重新进入即可。HAD 本体仍须启用。
+
+卡面、译文及授权说明来自原汉化包。规则、美术和代码归属见 [HAD 授权说明](assets/hero-action-deck/LICENSE.txt)；卡面基于 ChasarooniZ 公开模板，字体文件未分发。
 
 ## 安装 / Install
 
