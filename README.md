@@ -54,3 +54,11 @@ https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/mo
 基础合集汉化通过正常安装 extra 获得。Addons 2.1.0 和 Expanded 3.2.0 中部分动画、布景与午夜章节插入使用硬编码英文名称；相关兼容修复及弹窗中文另外提供为 Release 的 `av-source-compat-v1.0.49.zip` 附件。它仅适用于原版文件 SHA-256 匹配的上述版本，安装方法见 [兼容补丁说明](compat/av-1.0.49/README.md)。Foundry 更新 extra 不会自动修改这些第三方模块。
 
 本次发布不会覆盖已有世界。原包缺失的链接目标及未安装依赖仍保留原目标；Monk's Enhanced Journal 界面未纳入本次原生验收。
+
+## 原生世界时钟（v1.0.55）
+
+从 1.0.55 起，同时启用本模组和 `pf2_cn` 时，简体中文界面的原生 PF2e 世界时钟使用财商月、仇欲月、生死月、风海月、星梦月、阳愈月、农狩月、人文月、怒灾月、狂噩月、魔法月、苦暗月。
+
+日期显示示例：`4726 AR，怒灾月30日，月之日`。覆盖会移除旧日期模板中失效的序数后缀参数，并让共用序数词返回数字，修正 `30thundefined` 和法术环阶中的英文后缀。
+
+覆盖在语言初始化时同步应用；更新后重新载入游戏页面即可生效。无需修改 `pf2_cn` 或 PF2e 系统文件，不改变游戏时间、日历计算、星期译名及英文界面。回归测试：`node --test tests/world-clock-i18n.test.mjs`。
