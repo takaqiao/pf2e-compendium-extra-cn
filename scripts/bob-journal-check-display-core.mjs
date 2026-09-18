@@ -3,6 +3,14 @@ const CHINESE=new Set(['cn','zh-CN','zh-Hans']);
 const nil=x=>x??null;
 const equal=(a,b)=>{if(Object.is(a,b))return true;if(!a||!b||typeof a!=='object'||typeof b!=='object')return false;if(Array.isArray(a)!==Array.isArray(b))return false;const ak=Object.keys(a).sort(),bk=Object.keys(b).sort();return ak.length===bk.length&&ak.every((k,i)=>k===bk[i]&&equal(a[k],b[k]));};
 const allElements=root=>Array.from(root.children??[]).flatMap(c=>[c,...allElements(c)]);
+// PF2e adds the visible DC itself, including its native visibility rules.
+export function cleanBobCheckLabels(text){
+ if(typeof text!=='string')return text;
+ return text.replace(/(@Check\[([^\]\r\n]+)\])\{DC[ \t\u00a0]+(\d+)(?![\d.])[ \t\u00a0]*([^{}\r\n]+)\}/g,(whole,macro,parameters,dc,label)=>{
+  const values=parameters.split('|').filter(p=>p.startsWith('dc:'));
+  return values.length===1&&values[0]===`dc:${dc}`&&label.trim()?`${macro}{${label}}`:whole;
+ });
+}
 function compile(bindings){
  if(!Array.isArray(bindings)||bindings.length!==2)throw TypeError('Exact two-page review bindings required');
  const rows=structuredClone(bindings),index=new Map();
@@ -24,6 +32,16 @@ export function installBobJournalCheckDisplay({TextEditorClass,JournalClass,Page
  const descriptor=Object.getOwnPropertyDescriptor(TextEditorClass,'enrichHTML');
  if(!descriptor||typeof descriptor.value!=='function'||![JournalClass,PageClass,isEnabled,getLocale,getUser,getJournals,format].every(f=>typeof f==='function')||!document?.createElement)throw TypeError('Native dependencies required');
  const original=descriptor.value,index=compile(bindings);let active=true;
+ function cleanExistingPage(text,options){
+  if(!active||!isEnabled()||!CHINESE.has(getLocale())||typeof text!=='string'||!options||options.processVisibility===false||options.rollData!=null)return text;
+  const page=options.relativeTo,journal=page?.parent,collection=getJournals();
+  if(!(page instanceof PageClass)||!(journal instanceof JournalClass)||journal.parent!=null||page.pack||journal.pack
+     ||journal.collection!==collection||collection?.get?.(journal.id)!==journal||journal.pages?.get?.(page.id)!==page||page.collection!==journal.pages
+     ||page.type!=='text'||page.visible!==true||journal.visible!==true
+     ||journal._source?.flags?.core?.sheetClass!=='pf2e-bastion-of-blasphemies.BastionJournalSheet'
+     ||page.text?.content!==text||page._source?.text?.content!==text)return text;
+  return cleanBobCheckLabels(text);
+ }
  function resolve(text,options){
   if(!active||!isEnabled()||!CHINESE.has(getLocale())||typeof text!=='string'||!options||options.processVisibility===false||options.rollData!=null)return null;
   const page=options.relativeTo,journal=page?.parent,collection=getJournals();
@@ -65,7 +83,7 @@ export function installBobJournalCheckDisplay({TextEditorClass,JournalClass,Page
   return root.innerHTML;
  }
  const wrapped=async function(text,options={},...rest){
-  const c=resolve(text,options);if(!c)return Reflect.apply(original,this,[text,options,...rest]);
+  const c=resolve(text,options);if(!c)return Reflect.apply(original,this,[cleanExistingPage(text,options),options,...rest]);
   const auth=authority(c),opts=optionsState(options);
   const result=await Reflect.apply(original,this,[c.form.display,{...options},...rest]);
   const fresh=resolve(text,options),stable=fresh&&Object.keys(c).every(k=>Object.is(c[k],fresh[k]))&&authority(fresh).every((v,i)=>Object.is(v,auth[i]))&&optionsState(options).every((v,i)=>Object.is(v,opts[i]));
