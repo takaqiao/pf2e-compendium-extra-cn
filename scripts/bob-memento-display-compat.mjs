@@ -7,11 +7,11 @@ export function createBobMementoDisplay(env=globalThis){
  const equipment=CONFIG?.Item?.sheetClasses?.equipment?.['pf2e.EquipmentSheetPF2e']?.cls;
  const loot=CONFIG?.Actor?.sheetClasses?.loot?.['pf2e.LootSheetPF2e']?.cls;
  const ItemClass=CONFIG?.Item?.documentClass,ActorClass=CONFIG?.Actor?.documentClass,ChatMessageClass=CONFIG?.ChatMessage?.documentClass;
- const supported=()=>game?.version==='14.368'&&game.system?.id==='pf2e'&&game.system.version==='8.5.1'
-  &&game.modules?.get('pf2e-bastion-of-blasphemies')?.active===true&&game.modules.get('pf2e-bastion-of-blasphemies').version==='1.0.0'
+ const supported=()=>game?.system?.id==='pf2e'
+  &&game.modules?.get('pf2e-bastion-of-blasphemies')?.active===true
   &&game.modules.get('pf2e-compendium-extra-cn')?.active===true
-  &&game.modules.get('pf2_cn')?.active===true&&game.modules.get('pf2_cn').version==='2.5.1'
-  &&game.modules.get('babele')?.active===true&&game.modules.get('babele').version==='2.9.1'
+  &&game.modules.get('pf2_cn')?.active===true
+  &&game.modules.get('babele')?.active===true
   &&CONFIG?.Item?.documentClass===ItemClass&&CONFIG?.Actor?.documentClass===ActorClass&&CONFIG?.ChatMessage?.documentClass===ChatMessageClass
   &&CONFIG?.Item?.sheetClasses?.equipment?.['pf2e.EquipmentSheetPF2e']?.cls===equipment
   &&CONFIG?.Actor?.sheetClasses?.loot?.['pf2e.LootSheetPF2e']?.cls===loot;

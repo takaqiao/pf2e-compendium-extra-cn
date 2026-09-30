@@ -3,6 +3,7 @@ import './scripts/sog-fields.mjs';
 
 const MODULE_ID = 'pf2e-compendium-extra-cn';
 const CHN_MODULE_ID = 'pf2e_compendium_chn';
+const EXTRA_LANG_ALIASES = ['cn', 'zh-CN', 'zh-Hans'];
 
 // Mirrored from chn 2.9.7's `registerTranslationSources` so we can compensate
 // when chn's own babele.init handler skips registration (see comment below).
@@ -68,15 +69,25 @@ function isInPatchState(babele, moduleId) {
   return !!getPatchState(babele)?.registeredModules?.some?.((m) => m?.module === moduleId);
 }
 
+function isExtraAliasRecorded(babele, lang) {
+  return !!getPatchState(babele)?.registeredModules?.some?.((m) =>
+    m?.module === MODULE_ID && m.lang === lang
+    && (m.dirs ?? [m.dir]).includes('compendium'));
+}
+
+function isExtraInPatchState(babele) {
+  return EXTRA_LANG_ALIASES.every((lang) => isExtraAliasRecorded(babele, lang));
+}
+
 function ensureExtraRegistered(babele) {
   if (typeof Babele === 'undefined' || !babele || typeof babele.register !== 'function') return false;
-  if (isInPatchState(babele, MODULE_ID)) return false;
-  babele.register({
-    module: MODULE_ID,
-    lang: 'cn',
-    dir: 'compendium',
-  });
-  return true;
+  let changed = false;
+  for (const lang of EXTRA_LANG_ALIASES) {
+    if (isExtraAliasRecorded(babele, lang)) continue;
+    babele.register({module: MODULE_ID, lang, dir: 'compendium'});
+    changed = true;
+  }
+  return changed;
 }
 
 function ensureChnRegistered(babele) {
@@ -150,7 +161,7 @@ Hooks.once('ready', async () => {
   // attempting babele.register would throw `#assertConfigurable`. Only the
   // ondemand path leaves the state mutable here.
   const missingChn = !isInPatchState(babele, CHN_MODULE_ID);
-  const missingExtra = !isInPatchState(babele, MODULE_ID);
+  const missingExtra = !isExtraInPatchState(babele);
   if (!missingChn && !missingExtra) {
     if (game.user?.isGM) await persistToWorldSettings(babele);
     return;
@@ -201,7 +212,7 @@ Hooks.once('ready', async () => {
   const babele = game.babele;
   if (!babele || typeof babele.setSourcePriority !== 'function') return;
 
-  const me = `module:${MODULE_ID}:cn`;
+  const extraSources = new Set(EXTRA_LANG_ALIASES.map((lang) => `module:${MODULE_ID}:${lang}`));
   let overlaps = [];
   try {
     const diagnostics = await babele.sourceDiagnostics?.();
@@ -213,8 +224,10 @@ Hooks.once('ready', async () => {
 
   for (const overlap of overlaps) {
     const names = (overlap?.sources ?? []).map((s) => (typeof s === 'string' ? s : s?.name)).filter(Boolean);
-    if (!names.includes(me) || names[names.length - 1] === me) continue;
-    const ordered = [...names.filter((n) => n !== me), me];
+    const mine = names.filter((name) => extraSources.has(name));
+    if (!mine.length) continue;
+    const ordered = [...names.filter((name) => !extraSources.has(name)), ...mine];
+    if (ordered.every((name, index) => name === names[index])) continue;
     try {
       await babele.setSourcePriority(overlap.collection, ordered);
       console.warn(

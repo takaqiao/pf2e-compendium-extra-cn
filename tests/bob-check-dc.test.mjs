@@ -16,7 +16,7 @@ test('different, dynamic or absent DC values and empty labels remain unchanged',
   }
 });
 
-test('installed Chinese module version still cleans old journals through the factory', async () => {
+test('old BoB journals are cleaned across dependency versions while inactive modules stay untouched', async () => {
   const text='原文 @Check[occultism|dc:20|traits:secret]{DC 20神秘}';
   class Journal {}
   class Page {}
@@ -26,22 +26,25 @@ test('installed Chinese module version still cleans old journals through the fac
   Object.assign(page,{id:'page',type:'text',parent:journal,collection:journal.pages,visible:true,text:{content:text},_source:{text:{content:text}}});
   journals.set(journal.id,journal);journal.pages.set(page.id,page);
   const modules=new Map([
-    ['pf2e-bastion-of-blasphemies',{active:true,version:'1.0.0'}],
-    ['pf2e-compendium-extra-cn',{active:true,version:'1.0.58'}],
+    ['pf2e-bastion-of-blasphemies',{active:true,version:'2.0.0'}],
+    ['pf2e-compendium-extra-cn',{active:true,version:'9.0.0'}],
     ['pf2_cn',{active:true,version:'2.5.2.1'}],
-    ['babele',{active:true,version:'2.9.1'}],
+    ['babele',{active:true,version:'3.0.0'}],
   ]);
   const env={
-    game:{version:'14.368',system:{id:'pf2e',version:'8.5.1'},modules,pf2e:{TextEditor:Editor},journal:journals,user:{isGM:false},i18n:{lang:'cn',format:()=>''}},
+    game:{version:'15.999',system:{id:'pf2e',version:'9.9.9'},modules,pf2e:{TextEditor:Editor},journal:journals,user:{isGM:false},i18n:{lang:'cn',format:()=>''}},
     CONFIG:{JournalEntry:{documentClass:Journal},JournalEntryPage:{documentClass:Page}},
     foundry:{applications:{ux:{TextEditor:{implementation:Editor}}}},document:{createElement(){}},
   };
   const options={relativeTo:page,secrets:false};
   const dispose=createBobJournalCheckDisplay(env);
   try {
+    assert.equal(typeof dispose,'function');
     assert.equal((await Editor.enrichHTML(text,options)).value,'原文 @Check[occultism|dc:20|traits:secret]{神秘}');
     assert.equal(page._source.text.content,text);
     modules.get('pf2_cn').version='9.0.0';
+    assert.equal((await Editor.enrichHTML(text,options)).value,'原文 @Check[occultism|dc:20|traits:secret]{神秘}');
+    modules.get('pf2_cn').active=false;
     assert.equal((await Editor.enrichHTML(text,options)).value,text);
   } finally {dispose?.();}
 });

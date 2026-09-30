@@ -5,9 +5,9 @@ const READER = 'pf2e-tokens-characters', BOB = 'pf2e-bastion-of-blasphemies', EX
 
 export async function createBobGalleryDisplayCompatibility({game = globalThis.game, loadModule = path => import(path)} = {}) {
   const reader = game?.modules?.get(READER), bob = game?.modules?.get(BOB), extra = game?.modules?.get(EXTRA);
-  const enabled = () => game?.version === '14.368' && game.system?.id === 'pf2e' && game.system.version === '8.5.1'
-    && reader && game.modules.get(READER) === reader && reader.active && reader.version === '1.3.0'
-    && bob && game.modules.get(BOB) === bob && bob.active && bob.version === '1.0.0'
+  const enabled = () => game?.system?.id === 'pf2e'
+    && reader && game.modules.get(READER) === reader && reader.active
+    && bob && game.modules.get(BOB) === bob && bob.active
     && extra && game.modules.get(EXTRA) === extra && extra.active;
   if (!enabled()) return null;
   let GalleryClass, data;

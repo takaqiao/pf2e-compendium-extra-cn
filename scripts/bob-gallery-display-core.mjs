@@ -24,11 +24,11 @@ export function installBobGalleryDisplay(config) {
 
   function capture(phase = 'render') {
     try {
-      if (!active || !config.isEnabled() || !['cn', 'zh-CN'].includes(config.getLocale())
+      if (!active || !config.isEnabled() || !['cn', 'zh-CN', 'zh-Hans'].includes(config.getLocale())
         || config.getApplication() !== app || !(app instanceof GalleryClass)
         || !(phase === 'prepare' ? [-3, -1, 0, 1, 2] : [1, 2]).includes(app.state)) return null;
       const user = config.getUser(), module = config.getModule(), sources = config.getSources();
-      if (!user || !app.userHasAccess || module?.id !== MODULE || !module.active || module.version !== '1.0.0'
+      if (!user || !app.userHasAccess || module?.id !== MODULE || !module.active
         || module.flags?.galleryDatasheets?.[SHEET]?.sheet !== SHEET_PATH || !Array.isArray(sources)) return null;
       const matches = sources.filter(source => source.id === SHEET && source.module?.id === MODULE);
       if (matches.length !== 1) return null;

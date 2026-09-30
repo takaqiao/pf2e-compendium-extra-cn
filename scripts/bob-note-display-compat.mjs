@@ -5,11 +5,9 @@ import {RULE_DISPLAY_BINDINGS} from './bob-rule-display-bindings.mjs';
 import {prepareWeatherNameAttestation} from './bob-weather-name-attestation.mjs';
 
 let installation = null;
-const supported = () => isBobActive(game) && game.version === '14.368'
-  && game.system.version === '8.5.1' && BOB_CHINESE_LANGS.includes(game.i18n.lang)
-  && game.modules.get('pf2e-bastion-of-blasphemies')?.version === '1.0.0'
-  && game.modules.get('babele')?.active === true && game.modules.get('babele')?.version === '2.9.1'
-  && game.modules.get('pf2_cn')?.active === true && game.modules.get('pf2_cn')?.version === '2.5.1';
+const supported = () => isBobActive(game) && BOB_CHINESE_LANGS.includes(game.i18n.lang)
+  && game.modules.get('babele')?.active === true
+  && game.modules.get('pf2_cn')?.active === true;
 
 export const isBobNoteDisplayReady = () => installation?.isActive() === true && supported();
 export function disposeBobNoteDisplay() { installation?.(); installation = null; }

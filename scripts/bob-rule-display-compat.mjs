@@ -4,12 +4,12 @@ import {prepareBobRuleDisplayIdentity} from './bob-rule-display-identity.mjs';
 import {installBobRuleDisplayConsumers} from './bob-rule-display-core.mjs';
 import {installBobRuleDisplayTransfers} from './bob-rule-display-transfer.mjs';
 export function installBobRuleDisplayCandidate({game,CONFIG,bindings=RULE_DISPLAY_BINDINGS,syntheticBindings=RULE_DISPLAY_SYNTHETIC_BINDINGS,legacyWorldIdentities=[]}){
-  const enabled=()=>game?.version==='14.368'&&game.system?.id==='pf2e'&&game.system.version==='8.5.1'
+  const enabled=()=>game?.system?.id==='pf2e'
     &&['cn','zh-CN','zh-Hans'].includes(game.i18n?.lang)
     &&game.modules?.get('pf2e-compendium-extra-cn')?.active===true
-    &&game.modules?.get('pf2e-bastion-of-blasphemies')?.active===true&&game.modules.get('pf2e-bastion-of-blasphemies').version==='1.0.0'
-    &&game.modules?.get('babele')?.active===true&&game.modules.get('babele').version==='2.9.1'
-    &&game.modules?.get('pf2_cn')?.active===true&&game.modules.get('pf2_cn').version==='2.5.1';
+    &&game.modules?.get('pf2e-bastion-of-blasphemies')?.active===true
+    &&game.modules?.get('babele')?.active===true
+    &&game.modules?.get('pf2_cn')?.active===true;
   if(!enabled())return {active:false,dispose(){},installActorSheets(){}};
   const rules=game.pf2e?.RuleElements?.all,classes={FlatModifier:rules?.FlatModifier,Immunity:rules?.Immunity,Strike:rules?.Strike,SpecialStatistic:rules?.SpecialStatistic,ItemAlteration:rules?.ItemAlteration,
     Item:CONFIG.Item?.documentClass,Weapon:CONFIG.PF2E?.Item?.documentClasses?.weapon,NPC:CONFIG.PF2E?.Actor?.documentClasses?.npc};

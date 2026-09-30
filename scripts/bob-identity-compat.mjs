@@ -4,12 +4,10 @@ import {installBobIdentityCompatibility} from './bob-identity-core.mjs';
 import {setBobIdentityReadiness} from './bob-runtime-state.mjs';
 
 // PF2e exposes its classes and sluggify during init; documents prepare later.
-// These wrappers are intentionally tied to the native consumer version tested.
+// The installer validates the native consumers before applying wrappers.
 Hooks.once('i18nInit', () => {
   setBobIdentityReadiness();
-  const isEnabled = () => isBobActive(game) && game.version === '14.368' && game.system.version === '8.5.1'
-    && game.modules.get('pf2e-bastion-of-blasphemies')?.version === '1.0.0'
-    && BOB_CHINESE_LANGS.includes(game.i18n.lang);
+  const isEnabled = () => isBobActive(game) && BOB_CHINESE_LANGS.includes(game.i18n.lang);
   if (!isEnabled()) return;
   const classes = CONFIG.PF2E.Item.documentClasses;
   const installation = installBobIdentityCompatibility({

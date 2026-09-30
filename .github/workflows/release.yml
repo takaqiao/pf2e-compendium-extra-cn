@@ -16,13 +16,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Verify install manifest language locales
-        run: node --test tests/module-manifest.test.mjs
+        run: node --test tests/module-manifest.test.mjs tests/translation-language-registration.test.mjs
 
       - name: Verify world clock translations
         run: node --test tests/world-clock-i18n.test.mjs
 
       - name: Verify versioned bestiary sources and HAD migration
-        run: node --test tests/versioned-bestiary-sources.test.mjs scripts/test-hero-deck-compat.mjs tests/bob-check-dc.test.mjs
+        run: node --test tests/versioned-bestiary-sources.test.mjs scripts/test-hero-deck-compat.mjs tests/bob-check-dc.test.mjs tests/bob-gallery-version.test.mjs
 
       - name: Read tag version
         id: version

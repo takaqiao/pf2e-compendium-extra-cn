@@ -17,7 +17,11 @@ Hooks.once('i18nInit', () => {
 });
 
 Hooks.once('babele.init', babele => {
-  if (!isBobActive(game) || game.modules.get('babele')?.version !== '2.9.1') return;
+  if (!isBobActive(game) || game.modules.get('babele')?.active !== true) return;
+  if (typeof babele?.converterRegistry?.named !== 'function' || typeof babele.registerConverters !== 'function') {
+    console.warn('[pf2e-compendium-extra-cn] BoB translation requires Babele converterRegistry.named and registerConverters.');
+    return;
+  }
   if (babele.converterRegistry.named(BOB_STRUCTURED)) {
     throw new Error(`Babele converter '${BOB_STRUCTURED}' is already registered.`);
   }
