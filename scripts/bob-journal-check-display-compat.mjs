@@ -6,7 +6,7 @@ export function createBobJournalCheckDisplay(env=globalThis){
  const supported=()=>game?.version==='14.368'&&game.system?.id==='pf2e'&&game.system.version==='8.5.1'
   &&game.modules?.get('pf2e-bastion-of-blasphemies')?.active===true&&game.modules.get('pf2e-bastion-of-blasphemies').version==='1.0.0'
   &&game.modules.get('pf2e-compendium-extra-cn')?.active===true
-  &&game.modules.get('pf2_cn')?.active===true&&game.modules.get('pf2_cn').version==='2.5.1'
+  &&game.modules.get('pf2_cn')?.active===true&&['2.5.1','2.5.2.1'].includes(game.modules.get('pf2_cn').version)
   &&game.modules.get('babele')?.active===true&&game.modules.get('babele').version==='2.9.1'
   &&foundry?.applications?.ux?.TextEditor?.implementation===game.pf2e?.TextEditor;
  if(!supported())return null;
