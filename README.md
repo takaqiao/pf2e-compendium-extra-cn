@@ -4,7 +4,6 @@
 [![Foundry version](https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fversion%3Furl%3Dhttps%3A%2F%2Fgithub.com%2Ftakaqiao%2Fpf2e-compendium-extra-cn%2Freleases%2Flatest%2Fdownload%2Fmodule.json&style=flat-square)](https://foundryvtt.com/packages/pf2e-compendium-extra-cn)
 [![Total downloads](https://img.shields.io/github/downloads/takaqiao/pf2e-compendium-extra-cn/total?style=flat-square&label=downloads&color=brightgreen)](https://github.com/takaqiao/pf2e-compendium-extra-cn/releases)
 [![Latest downloads](https://img.shields.io/github/downloads/takaqiao/pf2e-compendium-extra-cn/latest/total?style=flat-square&label=latest)](https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest)
-[![Foundry VTT](https://img.shields.io/badge/Foundry%20VTT-v13%20%7C%20v14-orange?style=flat-square&logo=foundryvirtualtabletop&logoColor=white)](https://foundryvtt.com/)
 [![Pathfinder 2e](https://img.shields.io/badge/system-PF2e-c1272d?style=flat-square)](https://foundryvtt.com/packages/pf2e)
 [![Babele](https://img.shields.io/badge/Babele-required-7b3f99?style=flat-square)](https://foundryvtt.com/packages/babele)
 
@@ -15,6 +14,12 @@
 - abomination-vaults 系列冒险与社区附加包
 - 多个 homebrew 模组（traits / weapons / feats 注入）
 - Hero Action Deck：52 张英雄行动牌、52 张中文卡面、29 条界面文字
+
+## 核心版本与 Team+ 适配（v1.0.61）
+
+AV 正文和旧式链接、按需重复翻译保护、Team+ 显示、Eldamon Legends 显示及日志样式标签不再按 Foundry 核心版本号停用。系统和依赖版本、语言、源码指纹及接口检查继续生效；更换版本标签不会跳过这些检查。
+
+纳入 Alchemists+ 1.0.2、Barbarians+ 1.1.5、Magic+ 1.3.6、Tian Xia+ 1.0.1、Wizards+ 1.1.4 的译文与显示适配，保留此前支持的版本。同步现役的 homebrew 翻译索引、Babele 按需加载检查和 BoB 的 libWrapper 接入修正。
 
 ## 安装修正（v1.0.57）
 
@@ -49,7 +54,7 @@ https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/mo
 
 ## 依赖 / Requires
 
-- Foundry VTT v13 ~ v14（Babele 2.9.1 要求 v13 起；本次原生验收使用 v14）
+- Foundry VTT（本模块不设置核心版本号门槛；各适配仍检查所需接口和来源数据，原生验收记录见下文）
 - PF2e 系统
 - [Babele](https://foundryvtt.com/packages/babele) v2.9.1（憎恶地窟结构映射已绑定此版本接口）
 - 主翻译包 `pf2e_compendium_chn`（被翻译的第三方模组本身的翻译挂在这里）
@@ -66,7 +71,7 @@ https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/mo
 
 加入《亵渎堡垒》Bastion of Blasphemies 的 Adventure 汉化，覆盖角色、物品、日志、场景、导入器及战役管理器，并补齐相关规则、纪念品和动态显示。需另行安装原版 `pf2e-bastion-of-blasphemies`；extra 不包含原版冒险资源。
 
-已验环境：BoB 1.0.0、Foundry 14.368、PF2e 8.5.1、Babele 2.9.1、pf2_cn 2.5.1、核心合集汉化 3.1.2。BoB 适配绑定上述版本；完整加载和按需加载均已验收。安装或更新 extra 不会自动覆盖已有世界中的冒险文档。
+已验环境：BoB 1.0.0、Foundry 14.368、PF2e 8.5.1、Babele 2.9.1、pf2_cn 2.5.1、核心合集汉化 3.1.2。上述版本为原生验收记录，适配仍检查所需接口和来源数据；完整加载和按需加载均已验收。安装或更新 extra 不会自动覆盖已有世界中的冒险文档。
 
 ## 憎恶地窟（v1.0.49）
 

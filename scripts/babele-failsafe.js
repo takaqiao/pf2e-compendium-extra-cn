@@ -75,6 +75,9 @@ Hooks.once('ready', async () => {
 
 async function sessionStaleFor(babele, collection) {
   if (!game.packs.has(collection)) return false;
+  const mp = babele.translatedCompendiumFor?.(collection);
+  // An on-demand pack that has not been loaded yet has no stale session data.
+  if (!mp || mp.translated === false) return false;
   const url = `modules/${MODULE_ID}/compendium/${encodeURI(collection)}.json`;
   let fileEntries;
   try {
@@ -87,7 +90,6 @@ async function sessionStaleFor(babele, collection) {
   }
   if (!fileEntries) return false;
 
-  const mp = babele.translatedCompendiumFor?.(collection);
   const sessionEntries = mp?.translation?.entries;
   if (!sessionEntries) return true;
 

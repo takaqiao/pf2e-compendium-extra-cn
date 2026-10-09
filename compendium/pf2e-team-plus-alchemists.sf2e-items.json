@@ -47,11 +47,11 @@
     },
     "Spell Pyrophore (Major)": {
       "name": "法术引火剂（超级） Spell Pyrophore (Major)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +27 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[10d4[fire],10d4[spirit]]，并进行一次 @Check[fortitude|dc:38|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +27 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[10d4[fire],10d4[force]]，并进行一次 @Check[fortitude|dc:38|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
     },
     "Alchemical Angel (Lesser)": {
       "name": "炼金天使（次级） Alchemical Angel (Lesser)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这瓶云雾般的液体中跳动着一颗天族之心，它或是人工造就，或是从一位被杀天使的精质中采集而来。药瓶启封时，一位天族现身，为你的盟友赐福，随后消散为一团芬芳的云雾。该天使的体型为中型。你激发它时，它飞行 60 尺，随后以至多 4 个相邻生物为目标。存活生物回复 @Damage[6d6[healing]] 生命值。具有虚能治疗的生物则改为承受 @Damage[6d6[vitality]] 伤害，并进行一次 @Check[fortitude|dc:37|basic] 豁免。该天使带来的治疗与伤害均为魔法性。</p><hr /><p><strong>制作需求</strong> 提供一位近期被杀天族的精质，其生物等级须等于或高于本物品的等级。</p>"
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这瓶云雾般的液体中跳动着一颗天族之心，它或是人工造就，或是从一位被杀天使的精质中采集而来。药瓶启封时，一位天族现身，为你的盟友赐福，随后消散为一团芬芳的云雾。该天使的体型为中型。你激发它时，它飞行 25 尺，随后以至多 2 个相邻生物为目标。存活生物回复 @Damage[2d6[healing]] 生命值。具有虚能治疗的生物则改为承受 @Damage[2d6[vitality]] 伤害，并进行一次 @Check[fortitude|dc:18|basic] 豁免。该天使带来的治疗与伤害均为魔法性。</p><hr /><p><strong>制作需求</strong> 提供一位近期被杀天族的精质，其生物等级须等于或高于本物品的等级。</p>"
     },
     "Chosen Monstrosities": {
       "name": "选定怪物 Chosen Monstrosities",
@@ -83,7 +83,89 @@
     },
     "Mystic Chymistry": {
       "name": "秘法炼金术 Mystic Chymistry",
-      "description": "<p>炼金术中某些古老的分支把这门技艺当作一种神秘学修行，其信奉者追求抵达灵性的圆满。发源于黄金之路的秘法流派认为，炼成贤者之石并非终点，而只是一块垫脚石。正如铅被提纯为金，沿着通往伟大工作的道路前行，也能把凡人的灵魂提纯为更崇高之物。</p><p>你的实践技能是神秘学。你只能用高速炼金制作不具备变形特征的炼金灵药，以及具备生机或虚空特征的炼金物品，且这样制作出来的成品会获得下列增益。</p><p><strong>炼金灵药</strong> 受你以高速炼金制作的灵药影响的生物，还会在对抗心灵效果的豁免上获得 +1 状态加值，并获得灵魂伤害抗力，其数值等于 2 加所服用灵药物品等级的一半。该抗力的持续时间等同于该灵药效果的持续时间或 1 轮，取较长者。若你至少为 11 级，该状态加值提升至 +2。</p><p><strong>生机与虚空</strong> 当你要用以高速炼金制作的、具备虚空或生机特征的物品对生物造成伤害时，你可以选择改为造成等量的灵魂伤害。该物品获得灵魂特征；若该物品具备生机特征，则还获得圣洁特征，若具备虚空特征，则还获得邪秽特征。</p><p></p>"
+      "description": "<p>炼金术中某些古老的分支把这门技艺当作一种神秘学修行，其信奉者追求抵达灵性的圆满。发源于黄金之路的秘法流派认为，炼成贤者之石并非终点，而只是一块垫脚石。正如铅被提纯为金，沿着通往伟大工作的道路前行，也能把凡人的灵魂提纯为更崇高之物。</p><p>你的实践技能是神秘学。你只能用高速炼金制作不具备变形特征的炼金灵药，以及具备生机或虚空特征的炼金物品，且这样制作出来的成品会获得下列增益。</p><p><strong>炼金灵药</strong> 受你以高速炼金制作的灵药影响的生物，还会在对抗心灵效果的豁免上获得 +1 状态加值，并获得灵魂伤害抗力，其数值等于 2 加所服用灵药物品等级的一半。该抗力的持续时间等同于该灵药效果的持续时间或 1 轮，取较长者。若你至少为 11 级，该状态加值提升至 +2。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.P93753an7bYmhW2R]{效果：秘法炼金术灵药}</p><p><strong>生机与虚空</strong> 当你要用以高速炼金制作的、具备虚空或生机特征的物品对生物造成伤害时，你可以选择改为造成等量的灵魂伤害。该物品获得灵魂特征；若该物品具备生机特征，则还获得圣洁特征，若具备虚空特征，则还获得邪秽特征。</p><p></p>",
+      "ruleTexts": [
+        {
+          "path": [
+            7,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "You give the creature weakness 1 to a damage type of your choice or increase an existing weakness it has by 2.",
+          "translation": "你使该生物对你选择的一种伤害类型获得弱点 1，或将它的一项现有弱点提高 2。"
+        },
+        {
+          "path": [
+            7,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Lesser",
+          "translation": "次级"
+        },
+        {
+          "path": [
+            8,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "You give the creature weakness 3 to a damage type of your choice or increase an existing weakness it has by 5.",
+          "translation": "你使该生物对你选择的一种伤害类型获得弱点 3，或将它的一项现有弱点提高 5。"
+        },
+        {
+          "path": [
+            8,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Moderate",
+          "translation": "中级"
+        },
+        {
+          "path": [
+            9,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "You give the creature weakness 5 to a damage type of your choice or increase an existing weakness it has by 8.",
+          "translation": "你使该生物对你选择的一种伤害类型获得弱点 5，或将它的一项现有弱点提高 8。"
+        },
+        {
+          "path": [
+            9,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Greater",
+          "translation": "高级"
+        },
+        {
+          "path": [
+            10,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "You give the creature weakness 8 to a damage type of your choice or increase an existing weakness it has by 12.",
+          "translation": "你使该生物对你选择的一种伤害类型获得弱点 8，或将它的一项现有弱点提高 12。"
+        },
+        {
+          "path": [
+            10,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Major",
+          "translation": "超级"
+        }
+      ]
     },
     "Tackfied Trail Ammunition (Greater)": {
       "name": "黏迹弹药（高级） Tackfied Trail Ammunition (Greater)",
@@ -125,10 +207,6 @@
       "name": "合并调合物 Combine Concoctions",
       "description": "<p><strong>先决条件</strong> 至少两个共享同一类炼金物品的调合物专长 </p><hr><p>你对所有调合物的配比都精准无比，即使能力天差地别也能保持稳定。在每日准备时，选择你拥有的两个共享同一类炼金物品的调合物专长。你可以用一个 3 动作的活动，把两个调合物的效果合并成单一调合物，并立即激发它。例如，你可以用合并调合物把一份@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-items.rGqkw6liNprNLpF8]{突变酊剂}调合物与一份@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-items.DE4Fagmyf7CFjo6s]{毒液亲和}调合物合并，因为它们都会制造突变药剂。</p>"
     },
-    "6W0b5P54K65GRegi": {
-      "name": "炼金天使（次级） Alchemical Angel (Lesser)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这瓶云雾般的液体中跳动着一颗天族之心，它或是人工造就，或是从一位被杀天使的精质中采集而来。药瓶启封时，一位天族现身，为你的盟友赐福，随后消散为一团芬芳的云雾。该天使的体型为中型。你激发它时，它飞行 25 尺，随后以至多 2 个相邻生物为目标。存活生物回复 @Damage[2d6[healing]] 生命值。具有虚能治疗的生物则改为承受 @Damage[2d6[vitality]] 伤害，并进行一次 @Check[fortitude|dc:18|basic] 豁免。该天使带来的治疗与伤害均为魔法性。</p><hr /><p><strong>制作需求</strong> 提供一位近期被杀天族的精质，其生物等级须等于或高于本物品的等级。</p>"
-    },
     "Tackfied Trail Ammunition (Lesser)": {
       "name": "黏迹弹药（次级） Tackfied Trail Ammunition (Lesser)",
       "description": "<p><strong>弹药</strong> 任意</p><p><strong>激发 </strong><span class=\"action-glyph\"><strong>1</strong></span> 互动</p><hr /><p>用黏迹弹药射出弹丸时，弹丸会在射击武器与目标之间留下一道黏稠的胶状细丝。</p><p>若你的打击成功，且目标位于你 30 尺内，你便在武器与目标之间造出一条如绳索般作用的细丝。这条细丝以直线把你和目标连在一起，持续 1 分钟；目标或其他人可以攻击细丝将其扯断。细丝的 AC 为 21，生命值为 30，逃脱 DC 为 21。若目标与你的距离超出细丝的最大射程，细丝会在被用于一次打击后自动溶解。细丝存在期间，目标除非尝试逃脱，否则无法移动超过该最大距离。有细丝连接你与目标时，你无法用该武器进行远程打击，除非该武器有多根枪管；但你可以进行互动来移除细丝，或为武器重新装填以移除细丝。</p><p>你也可以选择用打击瞄准某个特定的 5 尺方格而非生物，这样的方格 AC 通常为 10；此时绳索会附着在该方格而非生物上，如同一条牢牢固定在你所选空间上的绳索。以这种方式使用黏迹弹药时，你可以用一个互动动作拉动细丝，把自己拽向目标空间，移动结束后效果立即终止。你必须落在坚实地面的空间上，否则会立刻坠落。这属于强迫移动。</p>"
@@ -159,7 +237,89 @@
     },
     "Internal Alchemy": {
       "name": "内丹术 Internal Alchemy",
-      "description": "<p>在天夏的龙华帝国，炼金术常与冥想、严格的饮食修习以及修炼之术相结合，用以改造自身。对这些内丹修行者而言，身体便是实验室，通过审慎的实验，它可以被一步步引向长生不朽。继任者诸邦往往发展出各自的炼金流派：在天景，炼金术士钻研内热与御风之法；而在桓廓，形体姿态与架势则是施行内丹术的关键一环。</p><p>你的实践技能是运动。你只能用高速炼金制作具有加工特征的炼金食品与突变药剂，且当你这样做时，它们会获得下列增益。</p><p><strong>突变药剂</strong> 当你服用自己用高速炼金制作的突变药剂时，你的打击伤害获得 +2 状态加值。若你的突变药剂不提供徒手攻击，则在该突变药剂的持续时间内，你的拳伤害骰由 1d4 提升至 1d6。当你受自己的突变药剂影响时，以拳进行致命攻击不承受减值。若你至少为 11 级，该伤害状态加值提升至 +4。</p><p><strong>加工</strong> 当你食用自己用高速炼金制作的加工炼金食品时，在其持续时间内你可以获得一次持续 1 分钟的强韧豁免 +1 状态加值。若你至少为 11 级，该状态加值提升至 +2。</p>"
+      "description": "<p>在天夏的龙华帝国，炼金术常与冥想、严格的饮食修习以及修炼之术相结合，用以改造自身。对这些内丹修行者而言，身体便是实验室，通过审慎的实验，它可以被一步步引向长生不朽。继任者诸邦往往发展出各自的炼金流派：在天景，炼金术士钻研内热与御风之法；而在桓廓，形体姿态与架势则是施行内丹术的关键一环。</p><p>你的实践技能是运动。你只能用高速炼金制作具有加工特征的炼金食品与突变药剂，且当你这样做时，它们会获得下列增益。</p><p><strong>突变药剂</strong> 当你服用自己用高速炼金制作的突变药剂时，你的打击伤害获得 +2 状态加值。若你的突变药剂不提供徒手攻击，则在该突变药剂的持续时间内，你的拳伤害骰由 1d4 提升至 1d6。当你受自己的突变药剂影响时，以拳进行致命攻击不承受减值。若你至少为 11 级，该伤害状态加值提升至 +4。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.V483n35FAo8vc67h]{效果：内丹突变药剂}</p><p><strong>加工</strong> 当你食用自己用高速炼金制作的加工炼金食品时，在其持续时间内你可以获得一次持续 1 分钟的强韧豁免 +1 状态加值。若你至少为 11 级，该状态加值提升至 +2。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.T8vHycxpaxYZPs61]{效果：内丹加工}</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            7,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "You gain a +1 status bonus to Acrobatics and Athletics until the end of your next turn.",
+          "translation": "直到你的下个回合结束，你的特技和运动获得 +1 状态加值。"
+        },
+        {
+          "path": [
+            7,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Lesser",
+          "translation": "次级"
+        },
+        {
+          "path": [
+            8,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "You gain a +2 status bonus to Acrobatics and Athletics until the end of your next turn.",
+          "translation": "直到你的下个回合结束，你的特技和运动获得 +2 状态加值。"
+        },
+        {
+          "path": [
+            8,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Moderate",
+          "translation": "中级"
+        },
+        {
+          "path": [
+            9,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "You gain a +3 status bonus to Acrobatics and Athletics until the end of your next turn.",
+          "translation": "直到你的下个回合结束，你的特技和运动获得 +3 状态加值。"
+        },
+        {
+          "path": [
+            9,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Greater",
+          "translation": "高级"
+        },
+        {
+          "path": [
+            10,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "You gain a +4 status bonus to Acrobatics and Athletics until the end of your next turn.",
+          "translation": "直到你的下个回合结束，你的特技和运动获得 +4 状态加值。"
+        },
+        {
+          "path": [
+            10,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Major",
+          "translation": "超级"
+        }
+      ]
     },
     "Concealing Puffball (Lesser)": {
       "name": "遮蔽尘菌（次级） Concealing Puffball (Lesser)",
@@ -351,7 +511,7 @@
     },
     "Spell Pyrophore (Greater)": {
       "name": "法术引火剂（高级） Spell Pyrophore (Greater)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +17 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[6d4[fire],6d4[spirit]]，并进行一次 @Check[fortitude|dc:28|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +22 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[8d4[fire],8d4[force]]，并进行一次 @Check[fortitude|dc:32|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
     },
     "Homunculus Clay (Moderate)": {
       "name": "人造人黏土（中级） Homunculus Clay (Moderate)",
@@ -387,7 +547,89 @@
     },
     "Promethean Sciences": {
       "name": "普罗米修斯科学 Promethean Sciences",
-      "description": "<p>对某些炼金师而言，目标是创造生命。这些科学家或许相信，唯有通过创造生命才能理解生命的真正起源，因而竭力想把这一过程逆向解析出来。乌斯塔拉夫的莱皮德施塔特大学设有一整个院系，专门研究人造人及其他人工生命形式的创造。与此同时，奈克斯的炼金师之城厄诺皮翁，则是该国顶尖肉体扭曲师的家园。</p><p>你的实践技能是自然。你只能用高速炼金制作炼金植物与瓶装怪物，且这样制作出来的成品会获得下列增益。</p><p><strong>炼金植物</strong> 当你创造一株会以其他生物为目标的炼金植物时，就该次激发所用的动作或活动而言，你的触及范围增加 5 尺。当你的炼金师职业 DC 达到专家时，该触及范围改为增加 10 尺；若你的炼金师职业 DC 为大师，则改为增加 15 尺。</p><p><strong>瓶装怪物</strong> 当你创造一只会以其他生物为目标的瓶装怪物时，你可以选择让它成为良性怪物或恐怖怪物。若你选择恐怖怪物，则对抗该瓶装怪物效果的豁免失败的生物、或被该瓶装怪物成功命中攻击掷骰或技能检定的生物，会陷入 @UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧 1}。这是一个恐惧效果。若你选择良性怪物，该生物在 1 轮内获得 +1 状态加值于攻击掷骰，以及对抗恐惧效果的豁免。</p>"
+      "description": "<p>对某些炼金师而言，目标是创造生命。这些科学家或许相信，唯有通过创造生命才能理解生命的真正起源，因而竭力想把这一过程逆向解析出来。乌斯塔拉夫的莱皮德施塔特大学设有一整个院系，专门研究人造人及其他人工生命形式的创造。与此同时，奈克斯的炼金师之城厄诺皮翁，则是该国顶尖肉体扭曲师的家园。</p><p>你的实践技能是自然。你只能用高速炼金制作炼金植物与瓶装怪物，且这样制作出来的成品会获得下列增益。</p><p><strong>炼金植物</strong> 当你创造一株会以其他生物为目标的炼金植物时，就该次激发所用的动作或活动而言，你的触及范围增加 5 尺。当你的炼金师职业 DC 达到专家时，该触及范围改为增加 10 尺；若你的炼金师职业 DC 为大师，则改为增加 15 尺。</p><p><strong>瓶装怪物</strong> 当你创造一只会以其他生物为目标的瓶装怪物时，你可以选择让它成为良性怪物或恐怖怪物。若你选择恐怖怪物，则对抗该瓶装怪物效果的豁免失败的生物、或被该瓶装怪物成功命中攻击掷骰或技能检定的生物，会陷入 @UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧 1}。这是一个恐惧效果。若你选择良性怪物，该生物在 1 轮内获得 +1 状态加值于攻击掷骰，以及对抗恐惧效果的豁免。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.hhXw9EzoPPrE5er9]{效果：普罗米修斯科学良性怪物}</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            7,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "The familiar has 2 familiar abilities or your familiar gains 2 additional familiar abilities. The effect lasts until the end of your next turn.",
+          "translation": "该魔宠拥有 2 项魔宠能力，或你的魔宠额外获得 2 项魔宠能力。此效果持续直到你的下个回合结束。"
+        },
+        {
+          "path": [
+            7,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Lesser",
+          "translation": "次级"
+        },
+        {
+          "path": [
+            8,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "The familiar has 2 familiar abilities or your familiar gains 2 additional familiar abilities. The effect lasts for 1 minute.",
+          "translation": "该魔宠拥有 2 项魔宠能力，或你的魔宠额外获得 2 项魔宠能力。此效果持续1 分钟。"
+        },
+        {
+          "path": [
+            8,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Moderate",
+          "translation": "中级"
+        },
+        {
+          "path": [
+            9,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "The familiar has 3 familiar abilities or your familiar gains 3 additional familiar abilities. The effect lasts for 1 minute.",
+          "translation": "该魔宠拥有 3 项魔宠能力，或你的魔宠额外获得 3 项魔宠能力。此效果持续1 分钟。"
+        },
+        {
+          "path": [
+            9,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Greater",
+          "translation": "高级"
+        },
+        {
+          "path": [
+            10,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "The familiar has 4 familiar abilities or your familiar gains 4 additional familiar abilities. The effect lasts for 1 minute.",
+          "translation": "该魔宠拥有 4 项魔宠能力，或你的魔宠额外获得 4 项魔宠能力。此效果持续1 分钟。"
+        },
+        {
+          "path": [
+            10,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Major",
+          "translation": "超级"
+        }
+      ]
     },
     "Tackfied Trail Ammunition (Moderate)": {
       "name": "黏迹弹药（中级） Tackfied Trail Ammunition (Moderate)",
@@ -423,7 +665,29 @@
     },
     "Bottler": {
       "name": "装瓶师 Bottler",
-      "description": "<p>你钻研怪物炼金术，即炼金怪物的创造与装瓶之道。</p><p><strong>配方</strong> 两个 1 级普通瓶装怪物。</p><p><strong>课题增益</strong> 当你制作瓶装怪物、或以高速炼金创造瓶装怪物时，你始终视为拥有所需的尸体。当你激发一个瓶装怪物时，你总是可以作为该活动的一部分把该瓶装怪物投掷至多 20 尺，即使该瓶装怪物通常并不允许被投掷；它从落地的方格开始生效。对于本就可以投掷的瓶装怪物，你还将其投掷距离增加 10 尺。</p><p><strong>课题制剂</strong> 你的万用制剂可以获得可扩展特征，从而作为瓶装怪物而非炸弹使用。当你把一份万用制剂作为瓶装怪物激发时，你可以将该制剂投掷到 20 尺内的一个方格，在那里创造出一个持续 1 分钟的炼金奴仆。作为该激发的一部分，你可以让由此效果创造的一个奴仆进行一次近战徒手打击，其攻击检定使用 @Check[alchemist|defense:ac|traits:attack,expandable]。这次攻击造成你选择的 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[bludgeoning]]、@Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[bludgeoning]] 或 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[bludgeoning]] 伤害，伤害类型在你激发该制剂时选择。这次打击使用并计入你的多重攻击减值。当你获得中级万用制剂时，伤害提升至 2d6，且你的奴仆的攻击检定获得 +1 物品加值。当你获得高级万用制剂时，伤害提升至 3d6，且你的奴仆的攻击检定获得 +2 物品加值；当你获得超级万用制剂时，伤害提升至 4d6，且你的奴仆的攻击检定获得 +3 物品加值。</p><p><strong>课题发现（5 级）</strong> 当你激发的瓶装怪物需要进行一次并非平值检定的 d20 投骰时，若你的炼金术士职业 DC – 10 高于所列的调整值，则改用前者。当你激发一个会造成伤害或治疗生物的瓶装怪物时，它额外造成等同于你智力调整值的伤害或治疗。这仅适用于该瓶装怪物在被激发时造成的最初那次伤害或治疗。每个瓶装怪物对同一个生物只会造成一次这份伤害或提供一次这份治疗，即使该效果本会多次伤害或治疗该生物。</p><p><strong>进阶制剂（11 级）</strong> 你的炼金奴仆如今更为强大。当你以万用制剂创造炼金奴仆时，你可以改为创造一个体型至多为大型的奴仆，且它拥有 10 尺的触及。在 16 级时，你可以创造体型至多为巨型的奴仆；在 20 级时，你可以创造体型至多为超巨型的奴仆。该奴仆必须能按可扩展特征的常规规则容纳于该区域中。</p><p><strong>高等课题发现（13 级）</strong> 当你激发一个瓶装怪物时，你可以作为该活动的一部分额外花费一个动作，使其效果在被激发时触发一次，并在激发之后的下一个回合结束时再触发一次。若该瓶装怪物是被投掷出去的，则它从被投掷到的同一个方格再次触发。</p>"
+      "description": "<p>你钻研怪物炼金术，即炼金怪物的创造与装瓶之道。</p><p><strong>配方</strong> 两个 1 级普通瓶装怪物。</p><p><strong>课题增益</strong> 当你制作瓶装怪物、或以高速炼金创造瓶装怪物时，你始终视为拥有所需的尸体。当你激发一个瓶装怪物时，你总是可以作为该活动的一部分把该瓶装怪物投掷至多 20 尺，即使该瓶装怪物通常并不允许被投掷；它从落地的方格开始生效。对于本就可以投掷的瓶装怪物，你还将其投掷距离增加 10 尺。</p><p><strong>课题制剂</strong> 你的万用制剂可以获得可扩展特征，从而作为瓶装怪物而非炸弹使用。当你把一份万用制剂作为瓶装怪物激发时，你可以将该制剂投掷到 20 尺内的一个方格，在那里创造出一个持续 1 分钟的炼金奴仆。作为该激发的一部分，你可以让由此效果创造的一个奴仆进行一次近战徒手打击，其攻击检定使用 @Check[alchemist|defense:ac|traits:attack,expandable]。这次攻击造成你选择的 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[bludgeoning]|traits:expandable]、@Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[piercing]|traits:expandable] 或 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[slashing]|traits:expandable] 伤害，伤害类型在你激发该制剂时选择。这次打击使用并计入你的多重攻击减值。当你获得中级万用制剂时，伤害提升至 2d6，且你的奴仆的攻击检定获得 +1 物品加值。当你获得高级万用制剂时，伤害提升至 3d6，且你的奴仆的攻击检定获得 +2 物品加值；当你获得超级万用制剂时，伤害提升至 4d6，且你的奴仆的攻击检定获得 +3 物品加值。</p><p><strong>课题发现（5 级）</strong> 当你激发的瓶装怪物需要进行一次并非平值检定的 d20 投骰时，若你的炼金术士职业 DC – 10 高于所列的调整值，则改用前者。当你激发一个会造成伤害或治疗生物的瓶装怪物时，它额外造成等同于你智力调整值的伤害或治疗。这仅适用于该瓶装怪物在被激发时造成的最初那次伤害或治疗。每个瓶装怪物对同一个生物只会造成一次这份伤害或提供一次这份治疗，即使该效果本会多次伤害或治疗该生物。</p><p><strong>进阶制剂（11 级）</strong> 你的炼金奴仆如今更为强大。当你以万用制剂创造炼金奴仆时，你可以改为创造一个体型至多为大型的奴仆，且它拥有 10 尺的触及。在 16 级时，你可以创造体型至多为巨型的奴仆；在 20 级时，你可以创造体型至多为超巨型的奴仆。该奴仆必须能按可扩展特征的常规规则容纳于该区域中。</p><p><strong>高等课题发现（13 级）</strong> 当你激发一个瓶装怪物时，你可以作为该活动的一部分额外花费一个动作，使其效果在被激发时触发一次，并在激发之后的下一个回合结束时再触发一次。若该瓶装怪物是被投掷出去的，则它从被投掷到的同一个方格再次触发。</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            3,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "Your versatile vials can be used as a bottled monstrosity instead of a bomb by giving it the expandable trait. When you Activate a versatile vial as a bottled monstrosity, you can throw the vial to a space within 20 feet which creates an alchemical thrall that lasts for 1 minute. You can have a single thrall created by this effect make a melee unarmed Strike as part of the activation using @Check[alchemist|defense:ac|traits:attack,expandable] for the attack roll. This attack deals your choice of @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[bludgeoning]|traits:expandable], @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[piercing]|traits:expandable], or @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[slashing]|traits:expandable] damage, chosen at the time you Activate the vial. This Strike uses and counts toward your multiple attack penalty. When you gain moderate versatile vials, the damage increases to 2d6 and your thralls have a +1 item bonus to attack rolls. When you gain greater versatile vials, the damage increases to 3d6 and your thralls have a +2 item bonus to attack rolls, and when you gain major versatile vials the damage increases to 4d6 and your thralls have a +3 item bonus to attack rolls.",
+          "translation": "你的万用制剂可以获得可扩展特征，从而作为瓶装怪物而非炸弹使用。当你把一份万用制剂作为瓶装怪物激发时，你可以将该制剂投掷到 20 尺内的一个方格，在那里创造出一个持续 1 分钟的炼金奴仆。作为该激发的一部分，你可以让由此效果创造的一个奴仆进行一次近战徒手打击，其攻击检定使用 @Check[alchemist|defense:ac|traits:attack,expandable]。这次攻击造成你选择的 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[bludgeoning]|traits:expandable]、@Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[piercing]|traits:expandable] 或 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[slashing]|traits:expandable] 伤害，伤害类型在你激发该制剂时选择。这次打击使用并计入你的多重攻击减值。当你获得中级万用制剂时，伤害提升至 2d6，且你的奴仆的攻击检定获得 +1 物品加值。当你获得高级万用制剂时，伤害提升至 3d6，且你的奴仆的攻击检定获得 +2 物品加值；当你获得超级万用制剂时，伤害提升至 4d6，且你的奴仆的攻击检定获得 +3 物品加值。"
+        },
+        {
+          "path": [
+            3,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Field Vials",
+          "translation": "课题制剂"
+        }
+      ]
     },
     "Mandrake Gum": {
       "name": "曼德拉草胶 Mandrake Gum",
@@ -447,7 +711,7 @@
     },
     "Spell Pyrophore (Minor)": {
       "name": "法术引火剂（初级） Spell Pyrophore (Minor)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +8 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[1d4[fire],1d4[spirit]]，并进行一次 @Check[fortitude|dc:19|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +8 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[1d4[fire],1d4[force]]，并进行一次 @Check[fortitude|dc:19|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
     },
     "Biolumncescent Risotto": {
       "name": "生物荧光烩饭 Biolumncescent Risotto",
@@ -751,7 +1015,89 @@
     },
     "Anthropotomical Studies": {
       "name": "人体解剖研究 Anthropotomical Studies",
-      "description": "<p>有些炼金术士穷尽一生去破解肉体的奥秘，其动机有高尚的，也有并不高尚的。在神术被禁绝的拉哈多姆，学生们钻研着接种与病菌学说这类新近的医学理论。与此同时，乌斯塔拉夫则有着利润丰厚的盗墓行当，以及暗巷中的木乃伊走私生意，其主顾多半是那些进行不道德实验与骗局的炼金术士。无论出于何种动机，这类炼金术士通常更青睐外科医生的刀刃而非高爆炸药……而且他们清楚地知道该把刀用在生物躯体的哪个部位。</p><p>你的流派技能是医疗。你只能用高速炼金制造具有治疗或伤口特征的炼金物品，而当你这么做时，它们会获得下列增益。</p><p><strong>治疗</strong> 当你以高速炼金制造一件具有治疗特征的物品时，你可以额外花费一个动作来强化该物品：进行一次秘密医疗检定，其DC与治疗伤势的DC相同。当某个生物受到你所造物品的影响时，你同时按照你的检定结果回复对应数量的HP（若你的结果是大失败，则改为造成伤害）。这不会移除受伤状态。一个生物以此方式被治疗后，1天内对该效果暂时免疫；若你的医疗熟练度为大师级，则为1小时。</p><p><strong>伤口</strong> 当你以高速炼金制造的伤口毒剂打击一个生物时，若目标处于@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}状态，或正在承受流血伤害，则它对抗该毒剂的豁免受到–2环境减值。</p>"
+      "description": "<p>有些炼金术士穷尽一生去破解肉体的奥秘，其动机有高尚的，也有并不高尚的。在神术被禁绝的拉哈多姆，学生们钻研着接种与病菌学说这类新近的医学理论。与此同时，乌斯塔拉夫则有着利润丰厚的盗墓行当，以及暗巷中的木乃伊走私生意，其主顾多半是那些进行不道德实验与骗局的炼金术士。无论出于何种动机，这类炼金术士通常更青睐外科医生的刀刃而非高爆炸药……而且他们清楚地知道该把刀用在生物躯体的哪个部位。</p><p>你的流派技能是医疗。你只能用高速炼金制造具有治疗或伤口特征的炼金物品，而当你这么做时，它们会获得下列增益。</p><p><strong>治疗</strong> 当你以高速炼金制造一件具有治疗特征的物品时，你可以额外花费一个动作来强化该物品：进行一次秘密医疗检定，其DC与治疗伤势的DC相同。当某个生物受到你所造物品的影响时，你同时按照你的检定结果回复对应数量的HP（若你的结果是大失败，则改为造成伤害）。这不会移除受伤状态。一个生物以此方式被治疗后，1天内对该效果暂时免疫；若你的医疗熟练度为大师级，则为1小时。</p><p><strong>伤口</strong> 当你以高速炼金制造的伤口毒剂打击一个生物时，若目标处于@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}状态，或正在承受流血伤害，则它对抗该毒剂的豁免受到–2环境减值。</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            7,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "The weapon deals 1d4 precision damage on Strikes for 1 round. If you critically succeed at a Strike with a weapon that deals precision damage with your versatile vial, the target also takes 2 persistent bleed damage.",
+          "translation": "在 1 轮内，该武器的打击造成 1d4 精准伤害。若你用一把受你的万用制剂影响而造成精准伤害的武器打击并大成功，目标还会受到 2 点持续流血伤害。"
+        },
+        {
+          "path": [
+            7,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Lesser",
+          "translation": "次级"
+        },
+        {
+          "path": [
+            8,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "The weapon deals 2d4 precision damage on Strikes for 1 round. If you critically succeed at a Strike with a weapon that deals precision damage with your versatile vial, the target also takes 3 persistent bleed damage.",
+          "translation": "在 1 轮内，该武器的打击造成 2d4 精准伤害。若你用一把受你的万用制剂影响而造成精准伤害的武器打击并大成功，目标还会受到 3 点持续流血伤害。"
+        },
+        {
+          "path": [
+            8,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Moderate",
+          "translation": "中级"
+        },
+        {
+          "path": [
+            9,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "The weapon deals 3d6 precision damage on Strikes for 1 round. If you critically succeed at a Strike with a weapon that deals precision damage with your versatile vial, the target also takes 6 persistent bleed damage.",
+          "translation": "在 1 轮内，该武器的打击造成 3d6 精准伤害。若你用一把受你的万用制剂影响而造成精准伤害的武器打击并大成功，目标还会受到 6 点持续流血伤害。"
+        },
+        {
+          "path": [
+            9,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Greater",
+          "translation": "高级"
+        },
+        {
+          "path": [
+            10,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "The weapon deals 4d6 precision damage on Strikes for 1 round. If you critically succeed at a Strike with a weapon that deals precision damage with your versatile vial, the target also takes 10 persistent bleed damage.",
+          "translation": "在 1 轮内，该武器的打击造成 4d6 精准伤害。若你用一把受你的万用制剂影响而造成精准伤害的武器打击并大成功，目标还会受到 10 点持续流血伤害。"
+        },
+        {
+          "path": [
+            10,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Major",
+          "translation": "超级"
+        }
+      ]
     },
     "Boreal Mint (Lesser)": {
       "name": "北境薄荷（次级） Boreal Mint (Lesser)",
@@ -899,7 +1245,7 @@
     },
     "Spell Pyrophore (Lesser)": {
       "name": "法术引火剂（次级） Spell Pyrophore (Lesser)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +128 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[4d4[fire],4d4[spirit]]，并进行一次 @Check[fortitude|dc:23|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +12 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[4d4[fire],4d4[force]]，并进行一次 @Check[fortitude|dc:23|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
     },
     "Gelatine Mobogo": {
       "name": "莫波戈胶冻 Gelatine Mobogo",
@@ -955,7 +1301,89 @@
     },
     "Chemical Poliorcetica": {
       "name": "化学攻城术 Chemical Poliorcetica",
-      "description": "<p>炼金术已缓慢而稳定地成为战争艺术中的常见工具，在神雨与地狱火危机之后尤其如此。随着安多安开始以火器武装军队，随着拉哈多姆的精纯卫队准备抵御神圣力量，随着盖布准备进军奈克斯，对炼金武器的需求正不断上升。与此同时，在法力废土这类魔法一向不稳定的地区，或是在阿卡迪亚的神射之地这类重工业而轻法术的地方，这类武器一直被广泛使用。对某些人而言，炼金武器是一种革新；在别的地方，它们则是在别无选择的土地上活下去的必需品。你的修习技能为生存。</p><p>你只能使用高速炼金来制造炼金弹药或炼金炸弹，而当你这样做时，它们获得下列增益。</p><p><strong>弹药</strong> 当你制造出会造成溅射伤害的炼金弹药时，你还可以选择让用来以该弹药进行打击的武器在此次打击中获得散射 5 尺特征。若该武器已经具有散射特征，你可以改为选择将其散射特征的范围增加 5 尺。</p><p><strong>炸弹</strong> 当你制造出炸弹时，你可以不把它用作打击的一部分，而是进行互动，将炸弹放置在一个邻接方格中，或把它附着在触及范围内的一件物体上。炸弹会留在该空间内，直到有生物穿过该空间、有人对该物体使用具有操作特征的动作，或经过 4 轮为止，以先发生者为准。与炸弹处于同一空间的生物，或对该物体使用具有操作特征的动作的生物，会如同你以该炸弹进行了一次成功的打击那样受到炸弹的伤害。若炸弹附着在物体上，则它会如同你以其进行了一次成功的打击那样对该物体造成伤害。</p>"
+      "description": "<p>炼金术已缓慢而稳定地成为战争艺术中的常见工具，在神雨与地狱火危机之后尤其如此。随着安多安开始以火器武装军队，随着拉哈多姆的精纯卫队准备抵御神圣力量，随着盖布准备进军奈克斯，对炼金武器的需求正不断上升。与此同时，在法力废土这类魔法一向不稳定的地区，或是在阿卡迪亚的神射之地这类重工业而轻法术的地方，这类武器一直被广泛使用。对某些人而言，炼金武器是一种革新；在别的地方，它们则是在别无选择的土地上活下去的必需品。你的修习技能为生存。</p><p>你只能使用高速炼金来制造炼金弹药或炼金炸弹，而当你这样做时，它们获得下列增益。</p><p><strong>弹药</strong> 当你制造出会造成溅射伤害的炼金弹药时，你还可以选择让用来以该弹药进行打击的武器在此次打击中获得散射 5 尺特征。若该武器已经具有散射特征，你可以改为选择将其散射特征的范围增加 5 尺。</p><p><strong>炸弹</strong> 当你制造出炸弹时，你可以不把它用作打击的一部分，而是进行互动，将炸弹放置在一个邻接方格中，或把它附着在触及范围内的一件物体上。炸弹会留在该空间内，直到有生物穿过该空间、有人对该物体使用具有操作特征的动作，或经过 4 轮为止，以先发生者为准。与炸弹处于同一空间的生物，或对该物体使用具有操作特征的动作的生物，会如同你以该炸弹进行了一次成功的打击那样受到炸弹的伤害。若炸弹附着在物体上，则它会如同你以其进行了一次成功的打击那样对该物体造成伤害。</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            9,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "The hazardous terrain deals @Damage[2[fire]] damage in a single 5-foot space.",
+          "translation": "该有害地形在单个 5 尺方格内造成 @Damage[2[fire]] 伤害。"
+        },
+        {
+          "path": [
+            9,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Lesser",
+          "translation": "次级"
+        },
+        {
+          "path": [
+            10,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "The hazardous terrain deals @Damage[4[fire]] damage in a single 5-foot space.",
+          "translation": "该有害地形在单个 5 尺方格内造成 @Damage[4[fire]] 伤害。"
+        },
+        {
+          "path": [
+            10,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Moderate",
+          "translation": "中级"
+        },
+        {
+          "path": [
+            11,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "The hazardous terrain deals @Damage[8[fire]] damage and you can target a @Template[type:burst|distance:5] instead of a 5-foot space with your hazardous terrain.",
+          "translation": "该有害地形造成 @Damage[8[fire]] 伤害，且你可以让其作用于 @Template[type:burst|distance:5]，而非一个 5 尺方格。"
+        },
+        {
+          "path": [
+            11,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Greater",
+          "translation": "高级"
+        },
+        {
+          "path": [
+            12,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "The hazardous terrain deals @Damage[12[fire]] damage and you can target a @Template[type:burst|distance:10], a @Template[type:burst|distance:5], or a 5-foot space with your hazardous terrain.",
+          "translation": "该有害地形造成 @Damage[12[fire]] 伤害，且你可以让其作用于 @Template[type:burst|distance:10]、@Template[type:burst|distance:5] 或一个 5 尺方格。"
+        },
+        {
+          "path": [
+            12,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Major",
+          "translation": "超级"
+        }
+      ]
     },
     "Recondite Sourdough": {
       "name": "奥秘酸面包 Recondite Sourdough",
@@ -1055,7 +1483,7 @@
     },
     "Spell Pyrophore (Moderate)": {
       "name": "法术引火剂（中级） Spell Pyrophore (Moderate)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +17 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[6d4[fire],6d4[spirit]]，并进行一次 @Check[fortitude|dc:28|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>这种闪烁的粉末由与魔法剧烈反应的化合物构成。激发时，将粉末抛向 5 尺内的一个生物。粉末会以 +17 调整值自动尝试反制该目标生物身上的一项现行法术效果。若该生物并未受到任何现行法术效果影响，粉末便附着在它身上并持续 1 分钟，尝试反制该生物接下来受到的第一个法术效果。当一项法术效果被法术引火剂反制时，它会在反制的同时焚烧该魔法，对受该被反制法术影响的生物造成 @Damage[6d4[fire],6d4[force]]，并进行一次 @Check[fortitude|dc:28|basic] 豁免。此粉末可以用单个交互动作清除。反制阶位等于该物品等级的一半（向上取整）。</p>"
     },
     "Electro-Magnetic Rod": {
       "name": "电磁棒 Electro-Magnetic Rod",
@@ -1076,6 +1504,28 @@
     "Circumventing Agents": {
       "name": "规避试剂 Circumventing Agents",
       "description": "<p>你运用对生物解剖构造的知识来绕开它的伤害防护。你向炼金炸弹、炼金毒药，或能授予徒手攻击的突变药剂中混入额外试剂，赋予它绕过抗力的性质。选择一个距你 30 尺内、你已知晓其某项抗力的生物（通常来自一次回忆知识检定），并选定它的一种抗力。若你将此添加剂用于炸弹或毒药，它可无视等同于你等级的该项抗力。若你将此添加剂用于突变药剂，则该突变药剂的徒手攻击可无视等同于你等级一半的该项抗力。</p>"
+    },
+    "Alchemical Angel (Major)": {
+      "name": "炼金天使（超级） Alchemical Angel (Major)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这瓶云雾般的液体中跳动着一颗天族之心，它或是人工造就，或是从一位被杀天使的精质中采集而来。药瓶启封时，一位天族现身，为你的盟友赐福，随后消散为一团芬芳的云雾。该天使的体型为中型。你激发它时，它飞行 60 尺，随后以至多 4 个相邻生物为目标。存活生物回复 @Damage[6d6[healing]] 生命值。具有虚能治疗的生物则改为承受 @Damage[6d6[vitality]] 伤害，并进行一次 @Check[fortitude|dc:37|basic] 豁免。该天使带来的治疗与伤害均为魔法性。</p><hr /><p><strong>制作需求</strong> 提供一位近期被杀天族的精质，其生物等级须等于或高于本物品的等级。</p>"
+    },
+    "Corked Troll (Greater)": {
+      "name": "瓶装巨魔（高级） Corked Troll (Greater)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你激发它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 60 点生命值、AC 35、快速医疗 15，以及电击和火焰弱点 15。其巨魔挡击反应提供 30 点抗力，且该巨魔承受 30 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>"
+    },
+    "Corked Troll (Lesser)": {
+      "name": "瓶装巨魔（次级） Corked Troll (Lesser)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你激发它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 20 点生命值、AC 20、快速医疗 5，以及电击和火焰弱点 5。其巨魔挡击反应提供 10 点抗力，且该巨魔承受 10 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>"
+    },
+    "Corked Troll (Moderate)": {
+      "name": "瓶装巨魔（中级） Corked Troll (Moderate)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你激发它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 40 点生命值、AC 27、快速医疗 10，以及电击和火焰弱点 10。其巨魔挡击反应提供 20 点抗力，且该巨魔承受 20 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>"
+    }
+  },
+  "mapping": {
+    "ruleTexts": {
+      "path": "system.rules",
+      "converter": "team-plus-rule-text"
     }
   }
 }

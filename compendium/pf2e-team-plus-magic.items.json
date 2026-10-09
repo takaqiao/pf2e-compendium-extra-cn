@@ -1964,7 +1964,69 @@
     },
     "Life Essence Reservoir": {
       "name": "生命精质储池 Life Essence Reservoir",
-      "description": "<p>当你施放治疗法术时，你便编织生命精质。你具有一个生命精质储池，等同于你已准备或法术库中最高环级治疗法术的环级乘以12。每次你以精质法术治疗一名生物时，将储池减少同等量。你不能以精质法术为生物恢复超过你储池所剩生命值之生命值。每次再聚能时，你也会恢复等同你的最高环治疗法术的环级乘以4 的储池量。</p><p>与正常治疗不同，你始终可以选择以低于你法术所赐之治疗量进行治疗，以保留你的生命精质；因此，你始终可选择将某些生物排除于治疗之外（包括会出现在你精质治疗法术区域中的敌人）。以生命值治疗作为在两名盟友间转移生命值之方式之法术（例如「灵魂链接」），只要其转移之生命值与你或某永久盟友（非召唤生物等）失去之生命值相等，则不消耗你的生命精质储池；超过损失量之治疗则取自储池。</p><p>若你想治疗更多，你可选择接受「治疗者」或「大治疗者」调整。该决定于角色创建时作出且为永久。若你选择「治疗者」调整，你于每个精质法术环级少 1 道法术（依你职业准备或习得之类型）。作为交换，你从治疗术、伤害术或安抚术中选择一道在你法术列表上的法术，并可将所选法术以任意环级施放。此外，你的储池大小提升至最高环治疗法术的环级乘以18，且每次再聚能可恢复最高环治疗法术的环级乘以6。「大治疗者」交换将上述代价与益处翻倍：每个精质法术环级少 2 道法术，但获得「治疗者」交换之益处，储池大小提升至最高环治疗法术的环级乘以24，每次再聚能可恢复最高环治疗法术的环级乘以8。</p><p><strong>特殊</strong> 若你具有 @UUID[Compendium.pf2e.classfeatures.gblTFUOgolqFS9v4]{神力源泉}（伤害术或治疗术）职业特性，你便获得「大治疗者」之益处而无须放弃你的法术位。若你具备 @UUID[Compendium.pf2e.feats-srd.yyt2I2lGbRndXjbc]{选择导能} 职业专长，且你选择不在你的区域伤害术或治疗术法术区域中排除任何生物，则你可选择一名本会被你区域伤害术或治疗术治疗之生物。如此做时，该生物如常受到治疗，且不会减少你的生命精质储池总量（其他被治疗之生物仍如常减少你的储池）。该生物随后 1 日内对此效果暂时免疫。若你具有 @UUID[Compendium.pf2e.feats-srd.0PcVi7eav6PMLOPl]{滋养导流}，你可在每日准备时选择获得它授予的法术，并获得这些法术在你可施放的各个环级的版本（替代「大治疗者」之益处）。</p>"
+      "description": "<p>当你施放治疗法术时，你便编织生命精质。你具有一个生命精质储池，等同于你已准备或法术库中最高环级治疗法术的环级乘以12。每次你以精质法术治疗一名生物时，将储池减少同等量。你不能以精质法术为生物恢复超过你储池所剩生命值之生命值。每次再聚能时，你也会恢复等同你的最高环治疗法术的环级乘以4 的储池量。</p><p>与正常治疗不同，你始终可以选择以低于你法术所赐之治疗量进行治疗，以保留你的生命精质；因此，你始终可选择将某些生物排除于治疗之外（包括会出现在你精质治疗法术区域中的敌人）。以生命值治疗作为在两名盟友间转移生命值之方式之法术（例如「灵魂链接」），只要其转移之生命值与你或某永久盟友（非召唤生物等）失去之生命值相等，则不消耗你的生命精质储池；超过损失量之治疗则取自储池。</p><p>若你想治疗更多，你可选择接受「治疗者」或「大治疗者」调整。该决定于角色创建时作出且为永久。若你选择「治疗者」调整，你于每个精质法术环级少 1 道法术（依你职业准备或习得之类型）。作为交换，你从治疗术、伤害术或安抚术中选择一道在你法术列表上的法术，并可将所选法术以任意环级施放。此外，你的储池大小提升至最高环治疗法术的环级乘以18，且每次再聚能可恢复最高环治疗法术的环级乘以6。「大治疗者」交换将上述代价与益处翻倍：每个精质法术环级少 2 道法术，但获得「治疗者」交换之益处，储池大小提升至最高环治疗法术的环级乘以24，每次再聚能可恢复最高环治疗法术的环级乘以8。</p><p><strong>特殊</strong> 若你具有 @UUID[Compendium.pf2e.classfeatures.gblTFUOgolqFS9v4]{神力源泉}（伤害术或治疗术）职业特性，你便获得「大治疗者」之益处而无须放弃你的法术位。若你具备 @UUID[Compendium.pf2e.feats-srd.yyt2I2lGbRndXjbc]{选择导能} 职业专长，且你选择不在你的区域伤害术或治疗术法术区域中排除任何生物，则你可选择一名本会被你区域伤害术或治疗术治疗之生物。如此做时，该生物如常受到治疗，且不会减少你的生命精质储池总量（其他被治疗之生物仍如常减少你的储池）。该生物随后 1 日内对此效果暂时免疫。若你具有 @UUID[Compendium.pf2e.feats-srd.0PcVi7eav6PMLOPl]{滋养导流}，你可在每日准备时选择获得它授予的法术，并获得这些法术在你可施放的各个环级的版本（替代「大治疗者」之益处）。</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            3,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "You gain the grand healer benefits of your life essence reservoir without trading off your slots.",
+          "translation": "你获得生命精质储池的「大治疗者」益处，而无须放弃你的法术位。"
+        },
+        {
+          "path": [
+            3,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Life Essence Reservoir",
+          "translation": "生命精质储池"
+        },
+        {
+          "path": [
+            4,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "If you choose not to exclude any creatures in the area of your area harm or heal spell, you can choose a single creature that would normally be healed by your area harm or heal spell. If you do, the creature is healed for the normal amount and does not reduce your life essence reservoir total (other creatures healed still reduce your reservoir, as normal). The creature is then temporarily immune to this effect for 1 day.",
+          "translation": "若你选择不在你的区域伤害术或治疗术法术区域中排除任何生物，则你可选择一名本会被你的区域伤害术或治疗术治疗的生物。如此做时，该生物如常受到治疗，且不会减少你的生命精质储池总量（其他被治疗的生物仍如常减少你的储池）。该生物随后1日内对此效果暂时免疫。"
+        },
+        {
+          "path": [
+            4,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Life Essence Reservoir",
+          "translation": "生命精质储池"
+        },
+        {
+          "path": [
+            5,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "You can choose to gain the spells this feat grants at each of your ranks they could be cast instead of your grand healer benefits during your daily preparations.",
+          "translation": "你可在每日准备时选择获得本专长授予的法术，并获得这些法术在你可施放的各个环级的版本，以替代「大治疗者」的益处。"
+        },
+        {
+          "path": [
+            5,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Life Essence Reservoir",
+          "translation": "生命精质储池"
+        }
+      ]
     },
     "Incantation Mastery": {
       "name": "咒诵精通 Incantation Mastery",
@@ -2470,6 +2532,10 @@
       "mapping": {
         "value": "value"
       }
+    },
+    "ruleTexts": {
+      "path": "system.rules",
+      "converter": "team-plus-rule-text"
     }
   }
 }

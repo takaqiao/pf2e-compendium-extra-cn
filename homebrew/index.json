@@ -1,0 +1,26 @@
+{
+  "modules": [
+    "battlezoo-ancestries-demigods",
+    "battlezoo-ancestries-living-legends-pf2e",
+    "battlezoo-ancestries-year-of-monsters-pf2e",
+    "battlezoo-ancestries-year-of-mysteries-pf2e",
+    "battlezoo-bestiary-es-pf2e",
+    "battlezoo-bestiary-pf2e",
+    "battlezoo-bestiary-su-pf2e",
+    "battlezoo-dragons-fairy-dragons-pf2e",
+    "battlezoo-dragons-leshy-dragons-pf2e",
+    "battlezoo-dragons-misfit-dragons-pf2e",
+    "battlezoo-eldamon-pf2e",
+    "battlezoo-immortals",
+    "battlezoo-release-the-kraken-pf2e",
+    "pf2e-summoners-plus",
+    "pf2e-team-plus-alchemists",
+    "pf2e-team-plus-barbarians",
+    "pf2e-team-plus-feats",
+    "pf2e-team-plus-inventors",
+    "pf2e-team-plus-magic",
+    "pf2e-team-plus-oracles-remastered",
+    "pf2e-team-plus-tian-xia",
+    "pf2e-team-plus-wizards"
+  ]
+}

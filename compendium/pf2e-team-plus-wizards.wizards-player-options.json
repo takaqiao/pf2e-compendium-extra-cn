@@ -217,7 +217,7 @@
     },
     "Superior Wiles": {
       "name": "精妙诡计 Superior Wiles",
-      "description": "<p>你的诡计比以往更为强大。环境减值提升为–2环境减值，且对法术攻击掷骰的环境加值提升为+2。</p><p>@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.Item.V9kcZ4IdMFQMzXT8]{效果：精妙诡计}</p>",
+      "description": "<p>你的诡计比以往更为强大。环境减值提升为–2环境减值，且对法术攻击掷骰的环境加值提升为+2。</p>",
       "prerequisites": [
         {
           "value": "潜匿施法"
@@ -226,7 +226,19 @@
     },
     "Reporting Spell": {
       "name": "汇报法术 Reporting Spell",
-      "description": "<p>你知晓如何设置法术，使其即便失败也能提供信息。如你下次动作为施放将以你某敌人为目标进行法术攻击掷骰或豁免的法术，你便能从法术影响的某敌人处得知一项信息。只要其受法术影响，你便从该敌人处得知以下之一：其数值最高的弱点、其调整值最低的豁免、敌人之一项免疫，或敌人之最高抗力。如你的法术对该生物造成有免疫、抗力或弱点的伤害类型，你自动得知该弱点（除你的选择外）；如你的法术针对最低或最高调整值的豁免，你便得知它是最弱抑或最强。无论法术结果如何，敌人对「汇报法术」暂时免疫1天。</p>"
+      "description": "<p>你知晓如何设置法术，使其即便失败也能提供信息。如你下次动作为施放将以你某敌人为目标进行法术攻击掷骰或豁免的法术，你便能从法术影响的某敌人处得知一项信息。只要其受法术影响，你便从该敌人处得知以下之一：其数值最高的弱点、其调整值最低的豁免、敌人之一项免疫，或敌人之最高抗力。如你的法术对该生物造成有免疫、抗力或弱点的伤害类型，你自动得知该弱点（除你的选择外）；如你的法术针对最低或最高调整值的豁免，你便得知它是最弱抑或最强。无论法术结果如何，敌人对「汇报法术」暂时免疫1天。</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "If your next action is to Cast a Spell that would target one of your enemies with a spell attack roll or a save, you learn something about a single enemy affected by the spell. You learn one of the following from your enemy so long as it was affected by the spell: which of its weaknesses is the highest, which of its saving throws has the lowest modifier, one immunity the enemy has, or which of the enemy’s resistances is the highest. If your spell dealt damage the creature had an immunity, resistance, or weakness to, you automatically learn that weakness in addition to your choice and if your spell targeted a save with the lowest or highest modifier, you learn if it was the weakest or the highest. Regardless of the results of your spell, the enemy is temporarily immune to Reporting Spell for 1 day.",
+          "translation": "如你下次动作为施放将以你某敌人为目标进行法术攻击掷骰或豁免的法术，你便能从法术影响的某敌人处得知一项信息。只要其受法术影响，你便从该敌人处得知以下之一：其数值最高的弱点、其调整值最低的豁免、敌人之一项免疫，或敌人之最高抗力。如你的法术对该生物造成有免疫、抗力或弱点的伤害类型，你自动得知该弱点（除你的选择外）；如你的法术针对最低或最高调整值的豁免，你便得知它是最弱抑或最强。无论法术结果如何，敌人对「汇报法术」暂时免疫1天。"
+        }
+      ]
     },
     "Impromptu Incarnation": {
       "name": "即兴显化 Impromptu Incarnation",
@@ -938,6 +950,10 @@
       "mapping": {
         "value": "value"
       }
+    },
+    "ruleTexts": {
+      "path": "system.rules",
+      "converter": "team-plus-rule-text"
     }
   }
 }

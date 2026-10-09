@@ -1,3 +1,4 @@
+import './scripts/team-plus-rule-text-register.mjs';
 import './scripts/sog-851.mjs';
 import './scripts/sog-fields.mjs';
 

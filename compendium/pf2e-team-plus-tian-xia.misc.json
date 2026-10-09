@@ -155,7 +155,7 @@
     },
     "Effect: Disembody (Spirit Weakness)": {
       "name": "效果：脱离躯体（精魂弱点） Effect: Disembody (Spirit Weakness)",
-      "description": "<p>目标获得等同于你等级一半的精魂伤害弱点，持续1轮。</p><p></p>"
+      "description": "<p>目标获得等同于你等级一半的精魂伤害弱点，持续1轮。</p>"
     },
     "Spell Effect: Chorus Made Manifest": {
       "name": "法术效果：显现之合唱团 Spell Effect: Chorus Made Manifest",
@@ -225,8 +225,8 @@
       "name": "架势：尖叉台风架势 Stance: Prong Typhoon Stance",
       "description": "<p>当你处于此架势时，你在进行卸武的运动检定时获得 +1环境加值，且成功的卸武动作会使后续卸武动作获得 +3环境加值，而非 +2。此外，你可以尝试对体型比你大至多两级的生物进行卸武。</p>"
     },
-    "Effect: Energy Attunment": {
-      "name": "效果：能量谐调 Effect: Energy Attunment",
+    "Effect: Energy Attunement": {
+      "name": "效果：能量谐调 Effect: Energy Attunement",
       "description": "<p>在你的每日准备期间，从以下特征中选择一个：气（挥砍）、寒冷、土（钝击）、电击、火焰、金（挥砍）、毒素、音波、命能、虚能、水（钝击）或木（穿刺）。你与该特征调谐，并且可以选择让你的修行者专长或法术所造成的任意力场或精魂伤害改为获得该特征，并造成对应的伤害类型。若你选择虚能或命能，则你可以将「循环能量」同时用于虚能伤害与命能伤害。</p>"
     },
     "Attract Wrath": {

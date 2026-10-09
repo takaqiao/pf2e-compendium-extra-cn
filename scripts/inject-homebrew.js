@@ -86,9 +86,23 @@ Hooks.once('setup', async () => {
   const baseUrl = `modules/${MODULE_ID}/homebrew/`;
   let totalApplied = 0;
   let totalModules = 0;
+  // This manifest lists the translation files shipped with this module.
+  // Homebrew flags alone do not imply that a Chinese translation exists.
+  let translatedModules;
+  try {
+    const response = await fetch(`${baseUrl}index.json`);
+    if (!response.ok) throw new Error(`Homebrew index: HTTP ${response.status}`);
+    const index = await response.json();
+    if (!Array.isArray(index.modules)) throw new Error('Invalid homebrew translation index');
+    translatedModules = new Set(index.modules);
+  } catch (err) {
+    console.warn(`[${MODULE_ID}] could not load homebrew translation index:`, err);
+    return;
+  }
 
   for (const [modId, mod] of game.modules.entries()) {
     if (!mod.active) continue;
+    if (!translatedModules.has(modId)) continue;
     const flags = mod.flags?.[modId];
     if (!flags?.['pf2e-homebrew']) continue;
 

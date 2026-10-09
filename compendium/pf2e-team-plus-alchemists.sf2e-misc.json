@@ -282,7 +282,29 @@
     },
     "Advanced Vials (Bottler)": {
       "name": "进阶制剂（装瓶师） Advanced Vials (Bottler)",
-      "description": "<p>你的炼金奴仆如今更为强大。当你以一份万用制剂创造炼金奴仆时，你可以改为创造一个体型至多为大型、且具有10尺触及的奴仆。在16级时，你可以创造体型至多为超大型的奴仆；在20级时，你可以创造体型至多为巨型的奴仆。该奴仆必须能如膨胀特征的常规规则那样容纳于该区域内。@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.LA2vUFIr0kUiIjto]{效果：进阶制剂（实验师）}</p>"
+      "description": "<p>你的炼金奴仆如今更为强大。当你以一份万用制剂创造炼金奴仆时，你可以改为创造一个体型至多为大型、且具有10尺触及的奴仆。在16级时，你可以创造体型至多为超大型的奴仆；在20级时，你可以创造体型至多为巨型的奴仆。该奴仆必须能如膨胀特征的常规规则那样容纳于该区域内。</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "When you create an alchemical thrall with a versatile vial, you can instead create a thrall up to Large in size and it has 10 feet of reach. At 16th level, you can create up to Huge in size, and at 20th level, you can create up to Gargantuan in size. The thrall must be able to fit in the area as normal for the expandable trait.",
+          "translation": "当你以一份万用制剂创造炼金奴仆时，你可以改为创造一个体型至多为大型、且具有10尺触及的奴仆。在16级时，你可以创造体型至多为超大型的奴仆；在20级时，你可以创造体型至多为巨型的奴仆。该奴仆必须能如膨胀特征的常规规则那样容纳于该区域内。"
+        },
+        {
+          "path": [
+            0,
+            "value",
+            0,
+            "title"
+          ],
+          "source": "Advanced Vial",
+          "translation": "进阶制剂"
+        }
+      ]
     },
     "Fourth Additional Impulse": {
       "name": "第四项额外涌动 Fourth Additional Impulse",
@@ -433,6 +455,40 @@
     "Effect: Befuddling Irrwurz (Lesser)": {
       "name": "效果：昏乱迷途根（次级） Effect: Befuddling Irrwurz (Lesser)",
       "description": "<p>你对该检定获得 +1 物品加值。若你的虚招为大成功，你可以迫使目标向你选择的方向移步。</p>"
+    },
+    "Antipathic Vial (Bomber)": {
+      "name": "相克制剂（投弹手） Antipathic Vial (Bomber)",
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">1</span> 交互</p><hr><p>这只小玻璃瓶中盛着一种奇特物质，其作用如同某个存在的对立面。当你激发此制剂时，你将该物质洒在一个相邻生物身上。你使该生物对你选择的一种伤害类型获得弱点，或将你已知它具有的某项弱点提高所列的数值。</p><p>或者，你也可以将你已知的一项抗力降低同等数值，即等同于你本会提高既有弱点的数值。</p><p>这些效果持续1轮，或直到该生物花费一个交互动作抹除该物质为止。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.YLELon4velZ8FI8h]{效果：相克制剂}</p><p>作为投弹手，你也可以将此制剂作为炸弹投掷。若你这样做，它会造成酸蚀伤害和酸蚀溅射伤害，且你不能选择造成寒冷、电击或火焰伤害。</p>"
+    },
+    "Morphic Vial (Bomber)": {
+      "name": "塑造制剂（投弹手） Morphic Vial (Bomber)",
+      "description": "<p><strong>激发</strong> 1 交互</p><hr><p>这只烧瓶中盛着一种蠕动的液体，仿佛充满了生机。当你以交互动作饮下这份制剂时，你会变得远为敏捷而强壮。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.CyCziUL6ERtcJoPs]{效果：塑造制剂}</p><p>作为投弹手，你也可以将此制剂作为炸弹投掷。若你这样做，它会造成酸蚀伤害和酸蚀溅射伤害，且你不能选择造成寒冷、电击或火焰伤害。</p>"
+    },
+    "Protoplasmic Template (Bomber)": {
+      "name": "原生质模板（投弹手） Protoplasmic Template (Bomber)",
+      "description": "<p><strong>激发</strong> 1 交互</p><hr /><p>这只小玻璃瓶迸发出生命，创造出一个听命于你的生物，或是充当你魔宠的共生体。你创造出一个小型生物，它如同魔宠一般运作，拥有所列数量的、由你选择的魔宠能力，并具有仆从特征。当你激发它时，该魔宠获得 2 个动作。若你选择这项效果，则该原生质制剂获得膨胀特征。 </p><p>或者，若你已拥有一个魔宠，你也可以改为将这只生物体作为共生体来强化你的魔宠，使其获得所列数量的魔宠能力。你可以在激发它时把该生物体附着到一个相邻的魔宠身上，或由该魔宠花费一个交互动作将其吞食。 </p><p>在选择魔宠能力时，你不能选择那些具有频率限制或提供额外资源的魔宠能力或主人能力，例如额外炼金或施法类的魔宠能力。</p><p>作为投弹手，你也可以将此制剂作为炸弹投掷。若你这样做，它会造成酸蚀伤害和酸蚀溅射伤害，且你不能选择造成寒冷、电击或火焰伤害。</p>"
+    },
+    "Vivisective Vial (Bomber)": {
+      "name": "解剖制剂（投弹手） Vivisective Vial (Bomber)",
+      "description": "<p><strong>激发</strong> 1 交互</p><hr><p>这只小玻璃瓶中盛着一种强效药剂，可涂敷于武器之上。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.XCem5wH9reNZ0i5H]{效果：解剖制剂}</p><p>作为投弹手，你也可以将此制剂作为炸弹投掷。若你这样做，它会造成酸蚀伤害和酸蚀溅射伤害，且你不能选择造成寒冷、电击或火焰伤害。</p>"
+    },
+    "Volatile Vial (Bomber)": {
+      "name": "易爆制剂（投弹手） Volatile Vial (Bomber)",
+      "description": "<p><strong>激发</strong> 1 交互</p><hr /><p>这份制剂的挥发性极具破坏力，它会在 20 尺内的一片区域留下危险的火焰，以取代通常的效果。在该区域内开始其回合、或穿过其所占空间的生物会承受伤害。该危险地形持续 1 分钟。</p><p>作为投弹手，你也可以将此制剂作为炸弹投掷。若你这样做，它会造成酸蚀伤害和酸蚀溅射伤害，且你不能选择造成寒冷、电击或火焰伤害。</p>"
+    },
+    "Effect: Mystic Chymistry Elixirs": {
+      "name": "效果：秘法炼金术灵药 Effect: Mystic Chymistry Elixirs",
+      "description": "<p>受你以高速炼金制作的灵药影响的生物，还会在对抗心灵效果的豁免上获得 +1 状态加值，并获得灵魂伤害抗力，其数值等于 2 加所服用灵药物品等级的一半。该抗力的持续时间等同于该灵药效果的持续时间或 1 轮，取较长者。若你至少为 11 级，该状态加值提升至 +2。</p><p>将此效果的等级设为该灵药的物品等级。</p>"
+    },
+    "Effect: Promethean Sciences Benevolent": {
+      "name": "效果：普罗米修斯科学良性怪物 Effect: Promethean Sciences Benevolent",
+      "description": "<p>该生物在 1 轮内获得 +1 状态加值于攻击掷骰，以及对抗恐惧效果的豁免。</p>"
+    }
+  },
+  "mapping": {
+    "ruleTexts": {
+      "path": "system.rules",
+      "converter": "team-plus-rule-text"
     }
   }
 }

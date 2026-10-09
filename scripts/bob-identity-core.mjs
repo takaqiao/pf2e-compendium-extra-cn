@@ -8,7 +8,7 @@ const EXTRA_ID = 'pf2e-compendium-extra-cn';
 export function installBobIdentityCompatibility({ItemClass, itemClasses, LoreClass, NPCClass, HazardClass, MeleeClass,
   ActorClass, ActorDeltaClass, TokenDocumentClass, SceneClass,
   EffectClass, SpellcastingEntryClass, RuleElementClass, TextEditorClass, CharacterClass, FeatClass, ActorClasses = [], ActorSheetClasses = [], inlineDamage = false,
-  attackEffectLabels = {}, sluggify, identities, isEnabled}) {
+  attackEffectLabels = {}, sluggify, identities, isEnabled, libWrapper = globalThis.libWrapper}) {
   const prototypes = new Set();
   for (const ItemClass of itemClasses) {
     for (let prototype = ItemClass.prototype; prototype && prototype !== Object.prototype; prototype = Object.getPrototypeOf(prototype)) {
@@ -36,12 +36,22 @@ export function installBobIdentityCompatibility({ItemClass, itemClasses, LoreCla
   };
   if (lore.configurable !== true || attack.configurable !== true) throw new Error('PF2e identity getters are not configurable.');
   // Preflight every optional native entry before the first prototype mutation.
+  const managedPreparations = new Map();
   if (ItemClass) requireMethod(methodOwner(ItemClass.prototype, 'prepareRuleElements'), 'prepareRuleElements');
   if (EffectClass) requireMethod(EffectClass.prototype, 'prepareBaseData');
   if (SpellcastingEntryClass) for (const key of ['prepareBaseData','buildStatistic']) requireMethod(SpellcastingEntryClass.prototype,key);
   if (MeleeClass) {
     requireMethod(MeleeClass.prototype,'prepareSiblingData');
-    for (const ActorClass of new Set([NPCClass,HazardClass].filter(Boolean))) requireMethod(ActorClass.prototype,'prepareDerivedData');
+    for (const [kind, ActorClass] of Object.entries({npc:NPCClass,hazard:HazardClass})) {
+      if (!ActorClass) continue;
+      const descriptor = Object.getOwnPropertyDescriptor(ActorClass.prototype,'prepareDerivedData');
+      // libWrapper exposes an existing method through a non-configurable getter.
+      // Join that chain instead of redefining it or bypassing other modules.
+      if (descriptor?.get?._lib_wrapper?.is_property === false
+        && typeof libWrapper?.register === 'function' && typeof libWrapper?.unregister === 'function') {
+        managedPreparations.set(ActorClass,`CONFIG.PF2E.Actor.documentClasses.${kind}.prototype.prepareDerivedData`);
+      } else requireMethod(ActorClass.prototype,'prepareDerivedData');
+    }
   }
   if (RuleElementClass) requireMethod(RuleElementClass.prototype,'resolveInjectedProperties');
   if (TextEditorClass) requireMethod(TextEditorClass,'createActionOptions');
@@ -317,9 +327,9 @@ export function installBobIdentityCompatibility({ItemClass, itemClasses, LoreCla
     for (const ActorClass of new Set([NPCClass, HazardClass].filter(Boolean))) {
       const prototype = ActorClass.prototype;
       const prepare = Object.getOwnPropertyDescriptor(prototype, 'prepareDerivedData');
-      replace(prototype, 'prepareDerivedData', {...prepare, value: function (...args) {
+      const wrapper = function (wrapped, ...args) {
         const items = (this.itemTypes?.melee ?? []).filter(item => approved(item));
-        const result = within(items, () => Reflect.apply(prepare.value, this, args));
+        const result = within(items, () => Reflect.apply(wrapped, this, args));
         for (const action of this.system.actions ?? []) {
           const item = action.item;
           if (item?.type === 'melee' && approved(item)) {
@@ -344,6 +354,18 @@ export function installBobIdentityCompatibility({ItemClass, itemClasses, LoreCla
           }
         }
         return result;
+      };
+      if (managedPreparations.has(ActorClass)) {
+        try {
+          const target = libWrapper.register(EXTRA_ID,managedPreparations.get(ActorClass),wrapper,'WRAPPER');
+          restores.push(() => libWrapper.unregister(EXTRA_ID,target));
+        } catch (error) {
+          active = false;
+          for (const restore of [...restores].reverse()) restore();
+          throw error;
+        }
+      } else replace(prototype, 'prepareDerivedData', {...prepare, value: function (...args) {
+        return Reflect.apply(wrapper,this,[prepare.value,...args]);
       }});
     }
   }

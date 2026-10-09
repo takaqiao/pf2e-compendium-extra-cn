@@ -108,7 +108,7 @@
     },
     "Cloaked Casting": {
       "name": "潜匿施法 Cloaked Casting",
-      "description": "<p>当你以法师法术对单一敌人为目标，且对方对你处于@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}状态时，对方对其豁免还额外承受–1环境减值，或你对其法术攻击掷骰获得+1环境加值。若你对某生物正处于@UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{隐蔽}、@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿}、@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪}或@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见}状态，且你施放需3动作或更少动作的法术时，若该法术原本会让你失去上述状态，则在法术施放完毕之后才失去该状态。</p><hr /><p><strong>特别</strong> 若你为@UUID[Compendium.pf2e.classfeatures.xYYhJtGhFSWNifcO]{统一法论学派}的法师，当你以法师法术位对措手不及生物施放法术，且其豁免失败或你的法术攻击掷骰成功时，你不消耗该法术位。对于你能施放的每个法术环级，你每天只能获得此效果一次。</p><p>@UUID[Compendium.pf2e-team-plus-wizards.wizards-misc.Item.WQxHsROxfhxUwTl6]{效果：潜匿施法}</p>"
+      "description": "<p>当你以法师法术对单一敌人为目标，且对方对你处于@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}状态时，对方对其豁免还额外承受–1环境减值，或你对其法术攻击掷骰获得+1环境加值。若你对某生物正处于@UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{隐蔽}、@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿}、@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪}或@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见}状态，且你施放需3动作或更少动作的法术时，若该法术原本会让你失去上述状态，则在法术施放完毕之后才失去该状态。</p><hr /><p><strong>特别</strong> 若你为@UUID[Compendium.pf2e.classfeatures.xYYhJtGhFSWNifcO]{统一法论学派}的法师，当你以法师法术位对措手不及生物施放法术，且其豁免失败或你的法术攻击掷骰成功时，你不消耗该法术位。对于你能施放的每个法术环级，你每天只能获得此效果一次。</p>"
     },
     "Animatamancy": {
       "name": "赋灵学 Animatamancy",

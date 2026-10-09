@@ -28,12 +28,26 @@ export default {
       "version": "1.0.1",
       "files": {
         "dist/pf2e-team-plus-alchemists.js": "9ceff4352d018d6cbbe1243b430ac862d0376b01541b3e0adeee99fe2cc1bfd4"
+      },
+      "additionalVersions": {
+        "1.0.2": {
+          "files": {
+            "dist/pf2e-team-plus-alchemists.js": "9ceff4352d018d6cbbe1243b430ac862d0376b01541b3e0adeee99fe2cc1bfd4"
+          }
+        }
       }
     },
     "pf2e-team-plus-barbarians": {
       "version": "1.1.3",
       "files": {
         "dist/pf2e-team-plus-barbarians.js": "8429d07d69e0c9b2d859d27e4be1b8d604e46328aabc765313b7a4fdb7eb6502"
+      },
+      "additionalVersions": {
+        "1.1.5": {
+          "files": {
+            "dist/pf2e-team-plus-barbarians.js": "8429d07d69e0c9b2d859d27e4be1b8d604e46328aabc765313b7a4fdb7eb6502"
+          }
+        }
       }
     },
     "pf2e-team-plus-feats": {
@@ -52,6 +66,13 @@ export default {
       "version": "1.3.5",
       "files": {
         "dist/pf2e-team-plus-magic.js": "7ab012e49f9a82f7b954b3dd53302febe16a341e9d93834c7bd3d5ed456ee655"
+      },
+      "additionalVersions": {
+        "1.3.6": {
+          "files": {
+            "dist/pf2e-team-plus-magic.js": "7ab012e49f9a82f7b954b3dd53302febe16a341e9d93834c7bd3d5ed456ee655"
+          }
+        }
       }
     },
     "pf2e-team-plus-oracles-remastered": {
@@ -64,12 +85,26 @@ export default {
       "version": "1.0.0",
       "files": {
         "dist/pf2e-team-plus-tian-xia.js": "13823fdd13defe42e9fbd0d17e1a1c6a26941713fce009eaeb5f64b0296737ac"
+      },
+      "additionalVersions": {
+        "1.0.1": {
+          "files": {
+            "dist/pf2e-team-plus-tian-xia.js": "13823fdd13defe42e9fbd0d17e1a1c6a26941713fce009eaeb5f64b0296737ac"
+          }
+        }
       }
     },
     "pf2e-team-plus-wizards": {
       "version": "1.1.3",
       "files": {
         "dist/pf2e-team-plus-wizards.js": "4eb6e43d26959cde754b5e932a9bb25b462240185962e9038eebf2230dcbade4"
+      },
+      "additionalVersions": {
+        "1.1.4": {
+          "files": {
+            "dist/pf2e-team-plus-wizards.js": "7c8d2fde356bf7116dd309278c17f9741800393090ce0749e82bed1f82d5723a"
+          }
+        }
       }
     }
   },
