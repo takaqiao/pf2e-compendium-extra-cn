@@ -9,7 +9,7 @@ https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/mo
 ## 依赖 / Requires
 
 - Foundry VTT（不按核心版本号停用；适配仍检查所需接口和来源数据，原生验收记录见 README）
-- [Babele](https://foundryvtt.com/packages/babele) v2.9.1（本版本的憎恶地窟结构映射使用此版本接口）
+- [Babele](https://foundryvtt.com/packages/babele)（已验 2.9.1；运行时检查所需映射接口，不按版本号限制）
 - 核心汉化 `pf2e_compendium_chn`
 
 ## 变更 / Changes

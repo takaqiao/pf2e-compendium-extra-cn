@@ -4,10 +4,10 @@ const SOURCE_FRAMES=new WeakMap();
 const SOURCE_GUARD=Symbol.for('pf2e-compendium-extra-cn.avCore851SourceGuard.v1');
 
 function supportsCurrentRuntime(g=globalThis.game){
-  return g?.system?.id==='pf2e'&&g.system.version==='8.5.1'&&g.i18n?.lang==='cn'
+  return g?.system?.id==='pf2e'&&g.i18n?.lang==='cn'
     &&g.modules?.get('pf2e-compendium-extra-cn')?.active===true
-    &&g.modules?.get('babele')?.active===true&&g.modules.get('babele').version==='2.9.1'
-    &&g.modules?.get('pf2e_compendium_chn')?.active===true&&g.modules.get('pf2e_compendium_chn').version==='3.1.2';
+    &&g.modules?.get('babele')?.active===true
+    &&g.modules?.get('pf2e_compendium_chn')?.active===true;
 }
 
 function uniqueItem(items,id){
@@ -28,8 +28,10 @@ function sourceLeaf(source,field){
 
 /** Retain this call's EN evidence before core CN's NPC converter mutates source.items. */
 export function installAvCore851DescriptionSourceGuard(MappedCompendium){
-  const original=MappedCompendium.prototype.translate;
-  if(original[SOURCE_GUARD])return false;
+  const proto=MappedCompendium?.prototype;
+  const descriptor=proto&&Object.getOwnPropertyDescriptor(proto,'translate');
+  const original=descriptor?.value;
+  if(typeof original!=='function'||descriptor.writable!==true||original[SOURCE_GUARD])return false;
   function translate(...args){
     const [data]=args;
     if(!data||typeof data!=='object')return Reflect.apply(original,this,args);
@@ -46,7 +48,7 @@ export function installAvCore851DescriptionSourceGuard(MappedCompendium){
     finally{stack.pop();if(!stack.length)SOURCE_FRAMES.delete(data);}
   }
   Object.defineProperty(translate,SOURCE_GUARD,{value:true});
-  MappedCompendium.prototype.translate=translate;
+  Object.defineProperty(proto,'translate',{...descriptor,value:translate});
   return true;
 }
 

@@ -1,4 +1,4 @@
-/** Private Basic 2.8 / Babele 2.9.1 / core 3.1.2 bootstrap candidate.
+/** Basic scoped-items bootstrap.
  * No static CN mapping delta. No global init/fetch/Actor/prototype wrapper.
  */
 import '../../pf2e_compendium_chn/babele.js';
@@ -40,8 +40,8 @@ export function installBasicBootstrap(){
   const mapped=new WeakMap(),collections=new WeakMap();
   function baseGuard(){
     if(game.system?.id!=='pf2e')return false;
-    for(const [id,version] of [['babele','2.9.1'],['pf2e_compendium_chn','3.1.2'],['battlezoo-bestiary-pf2e','2.8'],['pf2e-compendium-extra-cn',null]]){
-      const mod=game.modules?.get(id);if(!mod?.active||(version&&mod.version!==version))return false;
+    for(const id of ['babele','pf2e_compendium_chn','battlezoo-bestiary-pf2e','pf2e-compendium-extra-cn']){
+      if(!game.modules?.get(id)?.active)return false;
     }
     return true;
   }
@@ -233,7 +233,7 @@ export function installBasicBootstrap(){
     if(typeof original!=='function'||!replaceable(babele,'sessionFor'))throw error('BASIC_OWNERSHIP','unwrappable facade sessionFor');
     claim(babele,state);state.facade=babele;
     try{
-      state.converter=registerBasicScopedItems(babele,{version:game.modules.get('babele').version});
+      state.converter=registerBasicScopedItems(babele);
       state.sessionFor=function(...args){if(this!==babele)throw error('BASIC_OWNERSHIP','borrowed facade method');return original.apply(this,args).then(session=>decorate(session));};
       Object.defineProperty(babele,'sessionFor',{value:state.sessionFor,writable:true,configurable:true});
     }catch(e){if(babele[OWNER]===state)delete babele[OWNER];throw e;}

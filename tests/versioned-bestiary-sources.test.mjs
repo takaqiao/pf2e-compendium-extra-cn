@@ -1,100 +1,75 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {
-  selectSogTranslationFiles, refreshOnDemandSogSources, installOnDemandSogGuard,
-  installPublishedSogGuard,
-} from '../scripts/sog-851-core.mjs';
+import {readFileSync} from 'node:fs';
+import vm from 'node:vm';
+import * as sog from '../scripts/sog-851-core.mjs';
+const {createSogSourceTextConverter, registerSogSourceFields, sogTranslationDirectory} = sog;
 
-const moduleId = 'pf2e-compendium-extra-cn';
-const bob = 'pf2e.bastion-of-blasphemies-bestiary';
-const sog = 'pf2e.season-of-ghosts-bestiary';
-const base = pack => `modules/${moduleId}/compendium/${pack}.json`;
-const variant = pack => `modules/${moduleId}/compendium-851/${pack}.json`;
-function environment(version = '8.5.1', mode = 'full') {
-  return {
-    system: {id: 'pf2e', version},
-    user: {isGM: true},
-    modules: new Map([
-      [moduleId, {active: true}],
-      ['babele', {active: true, version: '2.9.1'}],
-      ['pf2e_compendium_chn', {active: true, version: '3.1.2'}],
-    ]),
-    settings: {get: (module, setting) => setting === 'language' ? 'cn' : setting === 'loadingMode' ? mode : ''},
-  };
-}
+const packs = ['pf2e.season-of-ghosts-bestiary', 'pf2e.bastion-of-blasphemies-bestiary'];
 
-test('8.5.1 adds BoB after its base while keeping custom source precedence', () => {
-  const custom = 'worlds/custom/cn/pf2e.bastion-of-blasphemies-bestiary.json';
-  const files = [base(bob), custom, 'unrelated.json'];
-  assert.deepEqual(selectSogTranslationFiles(files, environment()), [base(bob), variant(bob), custom, 'unrelated.json']);
-  assert.deepEqual(files, [base(bob), custom, 'unrelated.json']);
-});
-
-test('8.5.0 repairs a stale published BoB variant to the base', () => {
-  assert.deepEqual(selectSogTranslationFiles([variant(bob), 'other.json'], environment('8.5.0')), [base(bob), 'other.json']);
-  assert.deepEqual(selectSogTranslationFiles([base(bob), variant(bob)], environment('8.5.0')), [base(bob)]);
-});
-
-test('SoG and BoB version selection compose and are idempotent', () => {
-  const selected = selectSogTranslationFiles([base(sog), base(bob)], environment());
-  assert.deepEqual(selected, [base(sog), variant(sog), base(bob), variant(bob)]);
-  assert.strictEqual(selectSogTranslationFiles(selected, environment()), selected);
-  assert.deepEqual(selectSogTranslationFiles(selected, environment('8.5.0')), [base(sog), base(bob)]);
-});
-
-test('source object metadata survives BoB variant insertion', () => {
-  const row = {file: base(bob), directory: `modules/${moduleId}/compendium`, source: 'custom-preserved', extra: 7};
-  assert.deepEqual(selectSogTranslationFiles([row], environment()), [row, {...row, file: variant(bob), directory: `modules/${moduleId}/compendium-851`}]);
-});
-
-test('unsupported versions, language and inactive module leave files untouched', () => {
-  const files = [base(bob)];
-  for (const version of ['8.4.0', '8.5.2', '9.0.0']) assert.strictEqual(selectSogTranslationFiles(files, environment(version)), files);
-  const english = environment(); english.settings.get = () => 'en';
-  assert.strictEqual(selectSogTranslationFiles(files, english), files);
-  const inactive = environment(); inactive.modules.get(moduleId).active = false;
-  assert.strictEqual(selectSogTranslationFiles(files, inactive), files);
-});
-
-function onDemandBabele() {
-  const state = {translationFilesCache: [base(sog), base(bob)], packTranslationUrls: new Map([[bob, [base(bob)]], [sog, [base(sog)]], ['other', ['other.json']]])};
-  const ensurePackTranslationsLoaded = (_babele, patch, collection) => patch.packTranslationUrls.get(collection);
-  const babele = {__ondemandPatch: state};
-  babele.ensurePackTranslationsLoaded = async (collection) => ensurePackTranslationsLoaded(babele, state, collection);
-  return babele;
-}
-
-test('cold on-demand BoB request selects variant before the native loader reads URLs', async () => {
-  globalThis.game = environment('8.5.1', 'ondemand');
-  const babele = onDemandBabele();
-  assert.equal(installOnDemandSogGuard(babele), true);
-  assert.deepEqual(await babele.ensurePackTranslationsLoaded(bob), [base(bob), variant(bob)]);
-  assert.deepEqual(babele.__ondemandPatch.packTranslationUrls.get('other'), ['other.json']);
-  assert.deepEqual(babele.__ondemandPatch.packTranslationUrls.get(sog), [base(sog), variant(sog)]);
-  assert.equal(installOnDemandSogGuard(babele), false);
-});
-
-test('unknown on-demand loader is not patched or its sources changed', () => {
-  globalThis.game = environment('8.5.1', 'ondemand');
-  const babele = onDemandBabele();
-  babele.ensurePackTranslationsLoaded = async () => [];
-  const original = babele.ensurePackTranslationsLoaded;
-  assert.equal(installOnDemandSogGuard(babele), false);
-  assert.equal(refreshOnDemandSogSources(babele), false);
-  assert.strictEqual(babele.ensurePackTranslationsLoaded, original);
-  assert.deepEqual(babele.__ondemandPatch.packTranslationUrls.get(bob), [base(bob)]);
-});
-
-test('native published-source wrapper repairs BoB without changing the other sources', async () => {
-  globalThis.game = environment();
-  class Published {
-    #buildFiles(_kind, files) { return Promise.resolve(files); }
-    _translationFiles() { return [base(bob), 'other.json']; }
-    async translationFiles() {
-        return this.#buildFiles("translation", this._translationFiles());
+test('both published directory paths carry identical translations', () => {
+  for (const pack of packs) {
+    assert.equal(readFileSync(new URL(`../compendium/${pack}.json`, import.meta.url), 'utf8'),
+      readFileSync(new URL(`../compendium-851/${pack}.json`, import.meta.url), 'utf8'));
+    for (const version of ['8.5.0', '8.5.1', '8.6.0', '9.99.0']) {
+      assert.equal(sogTranslationDirectory(pack, {system: {version}}), 'compendium');
     }
   }
-  assert.equal(installPublishedSogGuard(Published), true);
-  assert.deepEqual(await new Published().translationFiles(), [base(bob), variant(bob), 'other.json']);
-  assert.equal(installPublishedSogGuard(Published), false);
+});
+
+test('source text matching changes only a known field and accepts a user string override', () => {
+  const converter = createSogSourceTextConverter();
+  const translation = {sources: [['old rule', '旧规则'], ['new rule', '新规则']]};
+  assert.equal(converter.translate({value: 'old rule', translation}), '旧规则');
+  assert.equal(converter.translate({value: 'new rule', translation}), '新规则');
+  assert.equal(converter.translate({value: 'future rule', translation}), undefined);
+  assert.equal(converter.translate({value: 'future rule', translation: '用户覆盖'}), '用户覆盖');
+  assert.equal(converter.translate({value: 'future rule', translation: {sources: [null, 4, []]}}), undefined);
+  assert.equal(converter.translate({value: {}, translation: '用户覆盖'}), undefined);
+  assert.equal(converter.extract({value: 'original'}), 'original');
+});
+
+test('actual entrypoint registers synchronously without reading documents or choosing sources', async () => {
+  const hooks = new Map(), converters = new Map();
+  const nativeDocument = {prepare() {}, translate() {}, extract() {}};
+  converters.set('document', nativeDocument);
+  globalThis.Hooks = {once: (event, callback) => hooks.set(event, [...(hooks.get(event) ?? []), callback]), on() {}};
+  globalThis.game = {get packs() { throw new Error('init must not load documents'); }};
+  const source = readFileSync(new URL('../scripts/sog-851.mjs', import.meta.url), 'utf8');
+  vm.runInNewContext(source.replace(/^import[^\n]+\n/gm, ''), {
+    ...sog, Hooks, PublishedTranslationSource: class {}, game, console,
+  });
+  const facade = {converterRegistry: {named: name => converters.get(name)},
+    registerConverters: entries => Object.entries(entries).forEach(([name, converter]) => converters.set(name, converter))};
+  assert.equal(hooks.get('babele.init')[0](facade), true);
+  hooks.get('babele.init').slice(1).forEach(callback => callback(facade));
+  assert.equal(converters.get('sog-source-text').translate({value: 'x', translation: '译文'}), '译文');
+  assert.equal(typeof converters.get('sog-source-items').translate, 'function');
+  assert.equal(registerSogSourceFields(facade), false);
+  assert.equal(converters.get('document'), nativeDocument);
+});
+
+test('source priority is preserved in old on-demand caches without version selection', async () => {
+  const pack = packs[1], base = `modules/pf2e-compendium-extra-cn/compendium/${pack}.json`;
+  const custom = `worlds/custom/cn/${pack}.json`;
+  for (const customLast of [true, false]) {
+    const priority = customLast ? ['module:pf2e-compendium-extra-cn:cn', 'directory']
+      : ['directory', 'module:pf2e-compendium-extra-cn:cn'];
+    globalThis.game = {system: {id: 'pf2e', version: '9.99.0'}, i18n: {lang: 'cn'},
+      modules: new Map([['pf2e-compendium-extra-cn', {active: true}], ['babele', {active: true}]]),
+      settings: {get: (_module, key) => ({language: 'cn', directory: 'worlds/custom', loadingMode: 'ondemand'}[key])}};
+    const state = {translationFilesCache: [base, custom], packTranslationUrls: new Map([[pack, [base, custom]]])};
+    const babele = {__ondemandPatch: state, sourcePriority: () => ({global: priority}),
+      ensurePackTranslationsLoaded: async collection => state.packTranslationUrls.get(collection)};
+    sog.installOnDemandSogGuard?.(babele);
+    assert.deepEqual(await babele.ensurePackTranslationsLoaded(pack), customLast ? [base, custom] : [custom, base]);
+  }
+});
+
+test('registration preserves already registered converters and absent APIs', () => {
+  const foreign = {translate() {return 'foreign';}};
+  assert.equal(registerSogSourceFields({converterRegistry: {named: () => foreign}, registerConverters() {
+    assert.fail('must preserve an existing converter');
+  }}), false);
+  assert.equal(registerSogSourceFields({}), false);
 });

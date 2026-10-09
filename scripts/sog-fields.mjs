@@ -11,10 +11,9 @@ const matches = entry => entry?.label === LABEL && entry.base === 29
 function enabled() {
   const game = globalThis.game;
   return game?.system?.id === 'pf2e'
-    && game.system.version === '8.5.1'
     && /^(?:cn|zh(?:[-_]|$))/i.test(game?.i18n?.lang ?? '')
     && game.modules?.get('pf2e-compendium-extra-cn')?.active
-    && game.modules?.get('babele')?.version === '2.9.1';
+    && game.modules?.get('babele')?.active === true;
 }
 
 export function createSogDeceptionSpecialConverter() {
@@ -39,8 +38,10 @@ export function createSogDeceptionSpecialConverter() {
 }
 
 Hooks.once('babele.init', babele => {
-  // Register early; version/language/source guards apply when translating.
-  if (globalThis.game?.modules?.get('babele')?.version !== '2.9.1'
+  // Register early; language and source guards apply when translating.
+  if (globalThis.game?.modules?.get('babele')?.active !== true
+    || typeof babele?.registerConverters !== 'function'
+    || typeof babele?.converterRegistry?.named !== 'function'
     || babele.converterRegistry?.named(CONVERTER)) return;
   babele.registerConverters({[CONVERTER]: createSogDeceptionSpecialConverter()});
 });

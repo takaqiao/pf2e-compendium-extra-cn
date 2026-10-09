@@ -5,18 +5,18 @@ import vm from 'node:vm';
 import {AV_CORE_851_DESCRIPTIONS} from '../scripts/av-core-851-description-data.mjs';
 
 globalThis.Hooks={on(){}};
-const {applyAvCore851Descriptions}=await import('../scripts/av-core-851-descriptions.mjs');
+const {applyAvCore851Descriptions,installAvCore851DescriptionSourceGuard}=await import('../scripts/av-core-851-descriptions.mjs');
 const {supportsAvLegacyContentLinks}=await import('../scripts/av-legacy-content-links.mjs');
 const {installAvOnDemandReentryGuard}=await import('../scripts/av-ondemand-reentry.mjs');
 
 const EXTRA='pf2e-compendium-extra-cn',LEGENDS='battlezoo-eldamon-legends-pf2e';
 const coreLabels=[{version:'14.369',generation:14},{version:'15.100',generation:15}];
 function fixture({version='15.100',generation=15}={}){
-  return {version,release:{generation},system:{id:'pf2e',version:'8.5.1'},i18n:{lang:'cn',translations:{}},
+  return {version,release:{generation},system:{id:'pf2e',version:'8.6.0'},i18n:{lang:'cn',translations:{}},
     modules:new Map([[EXTRA,{active:true}],['babele',{active:true,version:'2.9.1'}],
-      ['pf2e_compendium_chn',{active:true,version:'3.1.2'}],
+      ['pf2e_compendium_chn',{active:true,version:'3.2.2'}],
       ['tianzes-gauntlight-extras',{active:true,version:'2.0.0'}],
-      [LEGENDS,{active:true,version:'3.0'}],['battlezoo-dragons-core-pf2e',{active:true,version:'1.2'}]]),
+      [LEGENDS,{active:true,version:'3.0.1'}],['battlezoo-dragons-core-pf2e',{active:true,version:'1.2'}]]),
     settings:{get:()=> 'full'}};
 }
 function loadScript(name,game,globals={}){
@@ -48,8 +48,8 @@ test('AV description repair rejects changed source, system, language and depende
   for(const mutate of [
     (g,c)=>c.source.items[0].system.description.value='changed source',
     (g,c)=>c.translated.items[0]._id='another-item',
-    g=>g.system.version='8.6.0',g=>g.i18n.lang='en',
-    g=>g.modules.get('babele').version='3.0.0',g=>g.modules.get(EXTRA).active=false]){
+    g=>g.system.id='other',g=>g.i18n.lang='en',
+    g=>g.modules.get('babele').active=false,g=>g.modules.get(EXTRA).active=false]){
     const game=fixture(),context=descriptionContext();mutate(game,context);globalThis.game=game;
     const translated=structuredClone(context.translated);
     assert.equal(applyAvCore851Descriptions(context),0);
@@ -62,8 +62,7 @@ test('AV legacy links accept an unchanged supported runtime across core labels',
 });
 
 test('AV legacy links still require the source module, supported system and Chinese locale',()=>{
-  for(const mutate of [g=>g.system.id='other',g=>g.system.version='8.6.0',g=>g.i18n.lang='en',
-    g=>g.modules.get('tianzes-gauntlight-extras').version='2.0.1',
+  for(const mutate of [g=>g.system.id='other',g=>g.i18n.lang='en',
     g=>g.modules.get('tianzes-gauntlight-extras').active=false]){
     const game=fixture();mutate(game);assert.equal(supportsAvLegacyContentLinks(game),false);
   }
@@ -91,12 +90,25 @@ test('AV on-demand reentry preserves the original English payload across core la
 test('AV reentry delegates incomplete metadata and requests outside the approved contract',()=>{
   for(const mutate of [f=>f.data.flags.babele.originalPayload.name='mismatch',
     f=>f.data.flags.babele.unexpected=true,f=>f.pack.metadata.id='another.pack',
-    f=>f.game.system.version='8.6.0',f=>f.game.settings.get=()=> 'full']){
+    f=>f.game.system.id='other',f=>f.game.settings.get=()=> 'full']){
     const f=reentryFixture();mutate(f);globalThis.game=f.game;
     assert.notEqual(f.pack.translate(f.data),f.data);
   }
   const f=reentryFixture();globalThis.game=f.game;
   assert.notEqual(f.pack.translate(f.data,true),f.data);
+});
+
+test('AV installers leave missing, getter-backed and readonly native methods untouched',()=>{
+ for(const install of [installAvCore851DescriptionSourceGuard,installAvOnDemandReentryGuard]){
+  assert.equal(install(undefined),false);
+  assert.equal(install({prototype:{}}),false);
+  const readonly={prototype:{}};
+  Object.defineProperty(readonly.prototype,'translate',{value:()=> 'native',writable:false});
+  assert.equal(install(readonly),false);
+  const accessor={prototype:{}};
+  Object.defineProperty(accessor.prototype,'translate',{get(){throw Error('getter must not run');}});
+  assert.equal(install(accessor),false);
+ }
 });
 
 const journalKey='battlezoo-dragons-core-pf2e Journal';
@@ -115,7 +127,7 @@ test('journal startup labels preserve existing translations and withdraw owned l
   delete game.i18n.translations[journalKey];hooks.get('i18nInit')();
   game.i18n.lang='en';hooks.get('i18nInit')();
   assert.equal(Object.hasOwn(game.i18n.translations,journalKey),false);
-  game.i18n.lang='cn';game.modules.get('battlezoo-dragons-core-pf2e').version='unreviewed';hooks.get('i18nInit')();
+  game.i18n.lang='cn';game.modules.get('battlezoo-dragons-core-pf2e').active=false;hooks.get('i18nInit')();
   assert.equal(Object.hasOwn(game.i18n.translations,journalKey),false);
 });
 
@@ -138,7 +150,7 @@ test('Eldamon settings display translates a matching field across core labels',(
 
 test('Eldamon settings display rejects changed field contracts and dependencies',()=>{
   for(const mutate of [f=>f.setting.scope='world',f=>Object.setPrototypeOf(f.field,Object.prototype),
-    f=>f.game.system.version='8.6.0',f=>f.game.modules.get(LEGENDS).version='unreviewed',
+    f=>f.game.system.id='other',f=>f.game.modules.get(LEGENDS).active=false,
     f=>f.game.i18n.lang='en']){
     const f=legendsFixture();mutate(f);f.render();assert.equal(f.field.label,'Intro Pop-Up');
   }

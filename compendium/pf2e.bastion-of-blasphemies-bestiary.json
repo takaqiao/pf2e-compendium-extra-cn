@@ -247,7 +247,18 @@
         },
         "Infect Shame": {
           "name": "传染羞耻 Infect Shame",
-          "description": "<p>拉维妮娅凝视30尺内一个她能看见的生物，将自己压倒性的羞耻感传入其心智。该生物受到 @Damage[3d6[mental]] 伤害，并必须尝试一次 @Check[will|dc:22|inflicts:slowed] 豁免，结果如下。</p><hr /><p><strong>大成功</strong> 不受影响，并暂时免疫1分钟。</p>\n<p><strong>成功</strong> 该生物受到一半伤害。</p>\n<p><strong>失败</strong> 该生物受到全部伤害，并因内心饱受羞耻煎熬而陷入 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}，持续1轮。</p>\n<p><strong>大失败</strong> 同失败，但受到双倍伤害，且缓慢1持续1分钟。</p>"
+          "description": {
+            "sources": [
+              [
+                "<p>Lavinia stares at a creature she can see within 30 feet, and transfers her overwhelming shame into that creature's mind. That creature takes @Damage[3d6[mental]] damage and must attempt a @Check[will|dc:22|inflicts:slowed] save with the following effects.</p><hr /><p><strong>Critical Success</strong> No effect and temporarily immune for 1 minute.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage, and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round as they agonize internally over its shame.</p>\n<p><strong>Critical Failure</strong> As failure, but double damage and slowed 1 for 1 minute.</p>",
+                "<p>拉维妮娅凝视30尺内一个她能看见的生物，将自己压倒性的羞耻感传入其心智。该生物受到 @Damage[3d6[mental]] 伤害，并必须尝试一次 @Check[will|dc:22|inflicts:slowed] 豁免，结果如下。</p><hr /><p><strong>大成功</strong> 不受影响，并暂时免疫1分钟。</p>\n<p><strong>成功</strong> 该生物受到一半伤害。</p>\n<p><strong>失败</strong> 该生物受到全部伤害，并因内心饱受羞耻煎熬而陷入 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}，持续1轮。</p>\n<p><strong>大失败</strong> 同失败，但受到双倍伤害，且缓慢1持续1分钟。</p>"
+              ],
+              [
+                "<p>Lavinia stares at a creature she can see within 30 feet, and transfers her overwhelming shame into that creature's mind. That creature takes @Damage[3d6[mental]] damage and must attempt a @Check[will|dc:22|options:damaging-effect,inflicts:slowed] save with the following effects.</p><hr /><p><strong>Critical Success</strong> No effect and temporarily immune for 1 minute.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage, and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round as they agonize internally over its shame.</p>\n<p><strong>Critical Failure</strong> As failure, but double damage and slowed 1 for 1 minute.</p>",
+                "<p>拉维妮娅凝视30尺内一个她能看见的生物，将自己压倒性的羞耻感传入其心智。该生物受到 @Damage[3d6[mental]] 伤害，并必须尝试一次 @Check[will|dc:22|options:damaging-effect,inflicts:slowed] 豁免，结果如下。</p><hr /><p><strong>大成功</strong> 不受影响，并暂时免疫1分钟。</p>\n<p><strong>成功</strong> 该生物受到一半伤害。</p>\n<p><strong>失败</strong> 该生物受到全部伤害，并因内心饱受羞耻煎熬而陷入 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}，持续1轮。</p>\n<p><strong>大失败</strong> 同失败，但受到双倍伤害，且缓慢1持续1分钟。</p>"
+              ]
+            ]
+          }
         },
         "Dwelling Lore (applies to the place the ghost is bound to)": {
           "name": "居住地学识（适用于幽灵的束缚之地） Dwelling Lore (applies to the place the ghost is bound to)"
@@ -5097,13 +5108,19 @@
     "Chapter 7 - The Fallen Temple": "第7章：堕落神殿 Chapter 7 - The Fallen Temple"
   },
   "mapping": {
-    "publicNotes": "system.details.publicNotes",
+    "publicNotes": {
+      "path": "system.details.publicNotes",
+      "converter": "sog-source-text"
+    },
     "privateNotes": "system.details.privateNotes",
     "disable": "system.details.disable",
     "hazarddescription": "system.details.description",
     "reset": "system.details.reset",
     "routine": "system.details.routine",
-    "blurb": "system.details.blurb",
+    "blurb": {
+      "path": "system.details.blurb",
+      "converter": "sog-source-text"
+    },
     "stealthdetails": "system.attributes.stealth.details",
     "hp": "system.attributes.hp.details",
     "senses": "system.traits.senses.value",
@@ -5112,12 +5129,15 @@
     "prototypeToken": "prototypeToken.name",
     "items": {
       "path": "items",
-      "converter": "document",
+      "converter": "sog-source-items",
       "documentType": "Item",
       "cardinality": "many",
       "mapping": {
         "name": "name",
-        "description": "system.description.value",
+        "description": {
+          "path": "system.description.value",
+          "converter": "sog-source-text"
+        },
         "gmnote": "system.description.gm"
       }
     },

@@ -6,7 +6,7 @@
 - 发布区：`C:\Users\Taka\Desktop\fvttpublish\pf2e-compendium-extra\`（GitHub 仓库）
 - 翻译文件位置：
   - `compendium/`：babele 翻译的合集包 JSON（每个 pack 一个文件 + `labels.json` + `titles.json`）
-  - `compendium-851/`：仅 PF2e 8.5.1 使用的指定 pack 变体；必须随正式 ZIP 打包，基础目录保留 8.5.0 对应译文。
+  - `compendium-851/`：保留旧发布源使用的路径；SoG 和 BoB 的两份目录载荷保持一致，必须随正式 ZIP 打包。变化字段按实际英文原文选择译文，不再按 PF2e 版本号切换整包。
   - `homebrew/`：PF2e 系统的 homebrew 翻译 JSON（每个 PF2e 模组一个 `<moduleId>.homebrew.json`），由 `scripts/inject-homebrew.js` 在 `setup` 钩子里覆盖 `CONFIG.PF2E.{weaponTraits, featTraits, baseWeaponTypes, traitsDescriptions, ...}`
   - `scripts/`：构建/运行时辅助脚本
 - GitHub 仓库：`takaqiao/pf2e-compendium-extra-cn`
@@ -44,6 +44,10 @@ python scripts\regen-labels-titles.py
 **注意**：`manifest` 字段使用 `latest/download/module.json`，无需修改。
 
 语言声明必须通过 `node --test tests/module-manifest.test.mjs`，使用 Foundry 同样的 `Intl.getCanonicalLocales` 校验。比如 `zh-Hans` 合法，`zh_Hans` 会导致安装失败。新增 manifest 字段还须通过目标 Foundry 的严格包模型校验；手动解压后能启动不能替代安装校验，因为已安装包读取可能启用字段回退。
+
+适配不得仅按系统或依赖的版本数字停用。保留所需接口、来源身份、源码契约、权限和可见性检查；未知源码或字段结构沿用上游行为。SoG/BoB 的未知变化字段保留原文，普通用户译文、自定义映射和条件映射保持优先权；原生完整加载、Published 和旧按需加载均须验证来源顺序。PR43 桥沿用其既有来源策略。
+
+公开仓库测试可直接运行 `node --test tests/*.test.mjs scripts/test-hero-deck-compat.mjs`。真实上游回归使用另行保存的发行源和授权模块快照；不要将第三方整包、私有源码或本地测试日志提交到仓库或发布 ZIP。
 
 ### 4. 提交并推 tag —— 发版由 CI 完成
 

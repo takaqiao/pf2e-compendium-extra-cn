@@ -6,13 +6,11 @@ const TARGETS=new Set([
  'tianzes-otari-extras.tianzes-otari-extras','tianzes-otari-extras.tianzes-otari-shops'
 ]);
 const MARK=Symbol.for('pf2e-compendium-extra-cn.avOnDemandReentry.v1');
-// Restrict the workaround to supported PF2e versions; completed native metadata is still required.
-const supportedPF2eVersions=new Set(['8.5.0','8.5.1']);
 function isCompletedNativeTranslation(pack,data,translationsOnly){
  if(translationsOnly||!TARGETS.has(pack?.metadata?.id))return false;
  const g=globalThis.game;
- if(g?.system?.id!=='pf2e'||!supportedPF2eVersions.has(g.system?.version)||g.i18n?.lang!=='cn')return false;
- if(g.modules?.get('babele')?.version!=='2.9.1'||g.modules?.get('pf2e_compendium_chn')?.version!=='3.1.2')return false;
+ if(g?.system?.id!=='pf2e'||g.i18n?.lang!=='cn')return false;
+ if(g.modules?.get('babele')?.active!==true||g.modules?.get('pf2e_compendium_chn')?.active!==true)return false;
  if(g.settings.get('babele','loadingMode')!=='ondemand')return false;
  const f=data?.flags?.babele;
  if(!f||f.translated!==true||f.hasTranslation!==true||typeof f.originalName!=='string'||!f.originalName)return false;
@@ -22,8 +20,10 @@ function isCompletedNativeTranslation(pack,data,translationsOnly){
   ||(keys==='hasTranslation,lang,originalName,originalPayload,translated'&&f.lang==='cn');
 }
 export function installAvOnDemandReentryGuard(MappedCompendium){
- const original=MappedCompendium.prototype.translate;
- if(original[MARK])return false;
+ const proto=MappedCompendium?.prototype;
+ const descriptor=proto&&Object.getOwnPropertyDescriptor(proto,'translate');
+ const original=descriptor?.value;
+ if(typeof original!=='function'||descriptor.writable!==true||original[MARK])return false;
  function translate(...args){
   const [data,translationsOnly]=args;
   // Foundry reconstruction removes top-level `translated`, but retains this
@@ -32,6 +32,6 @@ export function installAvOnDemandReentryGuard(MappedCompendium){
   return Reflect.apply(original,this,args);
  }
  Object.defineProperty(translate,MARK,{value:true});
- MappedCompendium.prototype.translate=translate;
+ Object.defineProperty(proto,'translate',{...descriptor,value:translate});
  return true;
 }

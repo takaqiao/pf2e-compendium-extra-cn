@@ -10,7 +10,11 @@ import {AV_STRUCTURED,createAvStructuredConverter} from './av-structured-core.mj
 Hooks.once('babele.init',babele=>{
   installAvOnDemandReentryGuard(MappedCompendium);
   installAvCore851DescriptionSourceGuard(MappedCompendium);
-  if(game.system?.id!=='pf2e'||game.modules.get('babele')?.version!=='2.9.1')return;
+  if(game.system?.id!=='pf2e'||!game.modules.get('babele')?.active
+    ||typeof babele?.converterRegistry?.named!=='function'||typeof babele?.registerConverters!=='function'
+    ||typeof CompendiumRuntime?.from!=='function'
+    ||typeof StructuredDataConverter!=='function'
+    ||!['prepare','extract','translate','_fieldRuntime'].every(name=>typeof StructuredDataConverter?.prototype?.[name]==='function'))return;
   if(babele.converterRegistry.named(AV_STRUCTURED))throw new Error(`Duplicate ${AV_STRUCTURED} converter registration`);
   if(babele.converterRegistry.named(AV_BADGE_LABELS))throw new Error(`Duplicate ${AV_BADGE_LABELS} converter registration`);
   babele.registerConverters({[AV_STRUCTURED]:createAvStructuredConverter(StructuredDataConverter,CompendiumRuntime),[AV_BADGE_LABELS]:createAvBadgeLabelsConverter()});

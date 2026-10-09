@@ -1,4 +1,4 @@
-/** Private candidate for Babele 2.9.1. No automatic hooks or registration. */
+/** Basic embedded-item translation. No automatic hooks or registration. */
 export const TARGET_PACK = 'battlezoo-bestiary-pf2e.pf2e-battlezoo-bestiary';
 export const CONVERTER_NAME = 'battlezoo-basic-scoped-items';
 const installations = new WeakMap();
@@ -128,16 +128,19 @@ export function createBasicItemsConverter({native, legacy}) {
 /** Call only after core converters are available, before the target is mapped.
  * This registers one unique name; it never changes any default mapping.
  */
-export function registerBasicScopedItems(babele, {version} = {}) {
-  if (version !== '2.9.1') throw new Error('Basic scoped items requires verified Babele version 2.9.1');
+export function registerBasicScopedItems(babele) {
   const registry = babele?.converterRegistry;
-  const current = registry?.named(CONVERTER_NAME);
+  if (typeof registry?.named !== 'function' || typeof babele?.registerConverters !== 'function') {
+    throw new Error('Basic scoped items requires ready native document and core NPC converters');
+  }
+  const current = registry.named(CONVERTER_NAME);
   const installed = installations.get(babele);
   if (installed && current === installed) return installed;
   if (current || installed) throw new Error('Basic scoped items converter collision; existing entry is not replaced');
-  const native = registry?.named('document');
-  const legacy = registry?.named('npc-item-translation');
-  if (!native?.prepare || !native?.extract || !native?.translate || !legacy?.translate || !babele?.registerConverters) {
+  const native = registry.named('document');
+  const legacy = registry.named('npc-item-translation');
+  if (['prepare', 'extract', 'translate'].some(method => typeof native?.[method] !== 'function')
+    || typeof legacy?.translate !== 'function') {
     throw new Error('Basic scoped items requires ready native document and core NPC converters');
   }
   const converter = createBasicItemsConverter({native, legacy});

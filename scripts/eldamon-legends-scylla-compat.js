@@ -1,6 +1,6 @@
 /**
- * Original, narrowly scoped compatibility candidate for Eldamon Legends 2.2 and 3.0.
- * Load as an extra esmodule before setup, only after independent approval.
+ * Compatibility for Eldamon Legends' two known malformed Scylla UUID arguments.
+ * Load as an extra esmodule before setup.
  * Does not modify source prose, UUID labels, module APIs, or game rules.
  */
 (() => {
@@ -16,7 +16,6 @@
     const game = globalThis.game;
     const module = game?.modules?.get?.(moduleId);
     return module?.active === true
-      && ['2.2', '3.0'].includes(module.version)
       && game?.system?.id === 'pf2e'
       && game?.i18n?.lang === 'cn';
   }

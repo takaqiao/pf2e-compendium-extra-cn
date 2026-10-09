@@ -5,10 +5,10 @@ const equalLabels=(a,b)=>Array.isArray(a)&&a.length===b.length&&a.every((v,i)=>t
 export function createAvBadgeLabelsConverter(){
  return {prepare(){},extract(context){return context.value;},translate(context){
   const game=globalThis.game,source=context.source;
-  if(game?.system?.id!=='pf2e'||!/^(?:cn|zh(?:[-_]|$))/i.test(game?.i18n?.lang??'')||!game?.modules?.get('pf2e-compendium-extra-cn')?.active||game.modules.get('babele')?.version!=='2.9.1')return undefined;
+  if(game?.system?.id!=='pf2e'||!/^(?:cn|zh(?:[-_]|$))/i.test(game?.i18n?.lang??'')||!game?.modules?.get('pf2e-compendium-extra-cn')?.active||!game.modules.get('babele')?.active)return undefined;
   if(context.path!=='system.badge.labels'||source?.type!=='effect'||source.system?.badge?.type!=='counter')return undefined;
   const def=REVIEWED_BADGES.find(d=>d.packId===context.contextCompendium?.metadata?.id&&d.id===source._id);
-  if(!def||game.modules.get(def.moduleId)?.version!==def.moduleVersion||(source._stats?.compendiumSource??null)!==def.sourceRef)return undefined;
+  if(!def||!game.modules.get(def.moduleId)?.active||(source._stats?.compendiumSource??null)!==def.sourceRef)return undefined;
   if(!equalLabels(source.system.badge.labels,def.en)||!equalLabels(context.value,def.en)||!equalLabels(context.translation,def.zh))return undefined;
   return [...context.translation];
  }};

@@ -24,8 +24,8 @@ function buttonLabel(adapter){
  return buttons[0].label;
 }
 
-test('both reviewed releases enable translated controls only after their own source passes',async()=>{
- for(const [version,source] of [['1.3.5','old source'],['1.3.6','new source']]){
+test('known source contracts enable controls independently of the module version label',async()=>{
+ for(const [version,source] of [['1.3.5','old source'],['1.3.6','new source'],['1.3.7','old source'],['custom','new source']]){
   const {adapter}=fixture({version,source});
   assert.equal(buttonLabel(adapter),'Dynamic Mastery');
   await adapter.verifySources();
@@ -41,8 +41,8 @@ test('core version labels do not prevent source-verified controls from translati
  }
 });
 
-test('source hashes from another reviewed release do not enable translated controls',async()=>{
- for(const [version,source] of [['1.3.5','new source'],['1.3.6','old source'],['1.3.6','new source changed']]){
+test('unknown source content does not enable translated controls',async()=>{
+ for(const [version,source] of [['1.3.5','unknown source'],['1.3.6','new source changed'],['custom','unknown source']]){
   const {adapter}=fixture({version,source});
   await adapter.verifySources();
   assert.equal(buttonLabel(adapter),'Dynamic Mastery');
@@ -57,7 +57,7 @@ test('a module version change cannot reuse a previous source verification',async
  module.version='1.3.6';
  assert.equal(buttonLabel(adapter),'Dynamic Mastery');
  await adapter.verifySources();
- assert.equal(buttonLabel(adapter),'Dynamic Mastery');
+ assert.equal(buttonLabel(adapter),'动态精通');
 });
 
 test('failed source rechecks revoke a previous verification',async()=>{
@@ -71,14 +71,14 @@ test('failed source rechecks revoke a previous verification',async()=>{
  assert.equal(buttonLabel(adapter),'Dynamic Mastery');
 });
 
-test('missing source files and unknown versions leave native controls intact',async()=>{
+test('missing source files leave native controls intact regardless of version label',async()=>{
  const runtime=fixture({version:'1.3.5',source:'old source'});
  const missing=createPresentationAdapter({...runtime,fetchSource:async()=>{throw Error('missing source');}});
  await missing.verifySources();
  assert.equal(buttonLabel(missing),'Dynamic Mastery');
  for(const version of ['1.3.7','1.3.6-custom','toString']){
   runtime.module.version=version;
-  const adapter=createPresentationAdapter({...runtime,verifiedModules:new Set([MAGIC])});
+  const adapter=createPresentationAdapter({...runtime,fetchSource:async()=>{throw Error('missing source');}});
   await adapter.verifySources();
   assert.equal(buttonLabel(adapter),'Dynamic Mastery');
  }
@@ -94,7 +94,7 @@ test('a version change during source loading cannot approve the new release',asy
  assert.equal(buttonLabel(adapter),'Dynamic Mastery');
 });
 
-test('published profiles retain the old releases and accept only the five reviewed updates',()=>{
+test('source-verified profiles do not require a matching release label',()=>{
  const releases={
   'pf2e-team-plus-alchemists':['1.0.1','1.0.2'],
   'pf2e-team-plus-barbarians':['1.1.3','1.1.5'],
@@ -107,7 +107,7 @@ test('published profiles retain the old releases and accept only the five review
    const {game}=fixture();
    game.modules.set(id,{active:true,version});
    const adapter=createPresentationAdapter({game,data,verifiedModules:new Set([id])});
-   assert.equal(adapter.allowed(id),version!=='unreviewed',`${id} ${version}`);
+   assert.equal(adapter.allowed(id),true,`${id} ${version}`);
   }
  }
 });

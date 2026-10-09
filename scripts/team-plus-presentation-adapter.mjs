@@ -9,19 +9,15 @@ export function createPresentationAdapter({game,data,fetchSource=path=>fetch(pat
  const ui=new Map(data.ui.map(x=>[x.id,x])),observers=new WeakMap(),pending=new WeakSet();
  const diagnostics={sourceChecks:[],applications:0,dynamicApplied:0,uiApplied:0,failures:[]};
  const unit=n=>ui.get(`ui-${String(n).padStart(3,'0')}`);
- const profileFor=(mid,version)=>{
-  const p=data.profiles[mid];if(p?.version===version)return p;
-  return Object.hasOwn(p?.additionalVersions??{},version)?p.additionalVersions[version]:null;
- };
  const verifiedVersions=new Map([...verifiedModules].map(mid=>[mid,game.modules.get(mid)?.version]));
  const allowed=mid=>{
-  try {const m=game.modules.get(mid),p=profileFor(mid,m?.version);return game.system?.id===data.system&&data.systemVersions.includes(game.system.version)
+  try {const m=game.modules.get(mid),p=data.profiles[mid];return game.system?.id===data.system
    && game.i18n?.lang==='cn'
    && game.modules.get(EXTRA)?.active===true&&['full','ondemand'].includes(game.settings.get('babele','loadingMode'))
    && !!p&&m?.active===true&&verifiedModules.has(mid)&&verifiedVersions.get(mid)===m.version;
   } catch{return false;}
  };
- const optional=mid=>game.modules.get(mid)?.active===true&&game.modules.get(mid)?.version===data.optional[mid]?.version;
+ const optional=mid=>Object.hasOwn(data.optional,mid)&&game.modules.get(mid)?.active===true;
  function presentationFor(item){
   if(!allowed(MAGIC))return null;
   const row=dynamicCandidate(item,data.dynamic),p=row?.presentation;if(!p)return null;
@@ -55,11 +51,17 @@ export function createPresentationAdapter({game,data,fetchSource=path=>fetch(pat
  }
  async function verifySources(){
   const results=await Promise.allSettled(Object.keys(data.profiles).map(async mid=>{
-   const module=game.modules.get(mid),version=module?.version,profile=profileFor(mid,version);
+   const module=game.modules.get(mid),version=module?.version,profile=data.profiles[mid];
    verifiedModules.delete(mid);verifiedVersions.delete(mid);
    if(!module?.active||!profile)return;
-   const checks=await Promise.allSettled(Object.entries(profile.files).map(async([path,hash])=>sha256(await fetchSource(`modules/${mid}/${path}`))===hash));
-   const pass=checks.every(r=>r.status==='fulfilled'&&r.value===true)&&game.modules.get(mid)?.active===true&&game.modules.get(mid)?.version===version;
+   const sources=new Map();
+   const checks=await Promise.allSettled([profile,...Object.values(profile.additionalVersions??{})].map(async p=>{
+    const matches=await Promise.all(Object.entries(p.files).map(async([path,hash])=>{
+     if(!sources.has(path))sources.set(path,Promise.resolve(fetchSource(`modules/${mid}/${path}`)).then(sha256));
+     return await sources.get(path)===hash;
+    }));return matches.every(Boolean);
+   }));
+   const pass=checks.some(r=>r.status==='fulfilled'&&r.value===true)&&game.modules.get(mid)?.active===true&&game.modules.get(mid)?.version===version;
    diagnostics.sourceChecks.push({module:mid,pass});if(pass){verifiedModules.add(mid);verifiedVersions.set(mid,version);}
   }));
   for(const r of results)if(r.status==='rejected')diagnostics.failures.push(String(r.reason));
@@ -194,7 +196,7 @@ export function createPresentationAdapter({game,data,fetchSource=path=>fetch(pat
  function dailies(app,html){
   const root=rootOf(html);if(!root||!allowed(WIZARDS)||!optional('pf2e-dailies')||!String(app.id).startsWith('pf2e-dailies-interface-'))return;
   const actor=app.actor,tradition=actor?.flags?.pf2e?.quasiplane;if(!['arcane','divine','occult','primal'].includes(tradition))return;
-  // Dailies 4.20.0 creates group labels and data-dailykey from the registered key.
+  // Dailies creates group labels and data-dailykey from the registered key.
   for(const select of root.querySelectorAll('select[data-dailykey="module.quasiplanar-fusionist"]')){
    const group=select.closest('.group');if(!group)continue;
    const title=tradition[0].toUpperCase()+tradition.slice(1);

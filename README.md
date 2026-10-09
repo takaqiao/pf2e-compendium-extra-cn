@@ -15,9 +15,11 @@
 - 多个 homebrew 模组（traits / weapons / feats 注入）
 - Hero Action Deck：52 张英雄行动牌、52 张中文卡面、29 条界面文字
 
-## 核心版本与 Team+ 适配（v1.0.61）
+## 适配检查与来源字段匹配（v1.0.62）
 
-AV 正文和旧式链接、按需重复翻译保护、Team+ 显示、Eldamon Legends 显示及日志样式标签不再按 Foundry 核心版本号停用。系统和依赖版本、语言、源码指纹及接口检查继续生效；更换版本标签不会跳过这些检查。
+AV、Team+、Basic、Eldamon Legends、Leshy 和日志样式显示适配不再按 Foundry、PF2e 或依赖模组的版本数字停用。适配仍检查语言、启用状态、源码与文档身份、所需接口、权限和可见性；未知源码或结构保留上游行为。Team+ 按已审核的源码内容选择适配，支持现役 PF2e 8.6 与 Dailies 4.21 的对应显示入口。
+
+SoG 和 BoB 的变化字段按实际英文原文选择译文，旧版与新版字段可以在同一文档中分别匹配。未知字段保留原文，用户译文及自定义映射继续生效。`compendium` 与旧 `compendium-851` 路径保留相同载荷；原生完整加载、Published 和旧按需加载保留自定义来源优先级，PR43 桥沿用原有来源策略。
 
 纳入 Alchemists+ 1.0.2、Barbarians+ 1.1.5、Magic+ 1.3.6、Tian Xia+ 1.0.1、Wizards+ 1.1.4 的译文与显示适配，保留此前支持的版本。同步现役的 homebrew 翻译索引、Babele 按需加载检查和 BoB 的 libWrapper 接入修正。
 
@@ -56,7 +58,7 @@ https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/mo
 
 - Foundry VTT（本模块不设置核心版本号门槛；各适配仍检查所需接口和来源数据，原生验收记录见下文）
 - PF2e 系统
-- [Babele](https://foundryvtt.com/packages/babele) v2.9.1（憎恶地窟结构映射已绑定此版本接口）
+- [Babele](https://foundryvtt.com/packages/babele)（已验 2.9.1；运行时检查所需映射接口，不按版本号限制）
 - 主翻译包 `pf2e_compendium_chn`（被翻译的第三方模组本身的翻译挂在这里）
 
 详细工作流见 [RELEASE_PROCESS.md](RELEASE_PROCESS.md)。
@@ -65,7 +67,7 @@ https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/mo
 
 修正 14 个角色中 21 个名称与正文：补回顽皮疯猴的耳聋状态并纠正盗窃目标数、修正稳固步伐的压制对象及时限、回溯过去的时间轴与升环规则，以及其余已核实的规则信息和术语。喷射与长弓涂覆的名称沿用同实体 BoB 项目已审译文。
 
-保留 PF2e 8.5.0 基线，8.5.1 使用独立译文变体同步 Infect Shame 检定参数；版本选源同时覆盖原生完整加载、玩家发布源和核心汉化按需入口。已有世界中的角色仍是导入快照，不会被此更新自动覆盖。
+保留 PF2e 8.5.0 与 8.5.1 的对应规则译文；自 1.0.62 起按 Infect Shame 等变化字段的实际原文匹配，不再按版本选择整包。已有世界中的角色仍是导入快照，不会被此更新自动覆盖。
 
 ## 亵渎堡垒 Adventure（v1.0.54）
 

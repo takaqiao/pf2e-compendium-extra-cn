@@ -1,20 +1,20 @@
 /**
- * Startup-only journal style labels for the six source versions reviewed below.
+ * Startup-only journal style labels for the six reviewed source keys below.
  * Loaded as an extra ESM before i18nInit. No fetch, sheet wrapper or registry edit.
  * Foundry 14.367 localizes pending sheet labels after synchronous i18nInit listeners.
  */
 const JOURNAL_LABELS = [
-  ['battlezoo-dragons-battle-dragons-pf2e', '1.3',
+  ['battlezoo-dragons-battle-dragons-pf2e',
     'battlezoo-dragons-battle-dragons-pf2e Journal', '战斗动物园：战斗龙日志'],
-  ['battlezoo-dragons-core-pf2e', '1.2',
+  ['battlezoo-dragons-core-pf2e',
     'battlezoo-dragons-core-pf2e Journal', '战斗动物园：龙族核心日志'],
-  ['battlezoo-dragons-fairy-dragons-pf2e', '2.3',
+  ['battlezoo-dragons-fairy-dragons-pf2e',
     'battlezoo-dragons-fairy-dragons-pf2e Journal', '战斗动物园：妖精龙日志'],
-  ['battlezoo-dragons-leshy-dragons-pf2e', '2.3',
+  ['battlezoo-dragons-leshy-dragons-pf2e',
     'battlezoo-dragons-leshy-dragons-pf2e Journal', '战斗动物园：莱西龙日志'],
-  ['battlezoo-ancestries-year-of-mysteries-pf2e', '9.0',
+  ['battlezoo-ancestries-year-of-mysteries-pf2e',
     'Year of Mysteries Journal', '战斗动物园：谜团之年日志'],
-  ['battlezoo-immortals', '1.1',
+  ['battlezoo-immortals',
     'battlezoo-immortals Journal', '战斗动物园：永生者日志']
 ];
 
@@ -64,9 +64,9 @@ function translateJournalLabels() {
   }
   const dictionary = game.i18n.translations;
   if (!dictionary || typeof dictionary !== 'object' || Array.isArray(dictionary)) return;
-  for (const [moduleId, version, key, value] of JOURNAL_LABELS) {
+  for (const [moduleId, key, value] of JOURNAL_LABELS) {
     const module = game.modules.get(moduleId);
-    if (module?.active !== true || module.version !== version) continue;
+    if (module?.active !== true) continue;
     const before = Object.getOwnPropertyDescriptor(dictionary, key);
     if (before) {
       if (!('value' in before) || before.value !== key

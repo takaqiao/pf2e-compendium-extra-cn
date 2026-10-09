@@ -1,4 +1,4 @@
-/** Bounded display compatibility: Character Gallery 1.3.0 + Leshy Dragons 2.3.
+/** Bounded display compatibility for Character Gallery's Leshy Dragons source.
  * Original adapter only. No reader code, art, world writes or additional fetches.
  * Approved G01/G02/M01 text; Brine/Umbral follow the 2026-09-10 main ruling.
  */
@@ -54,8 +54,8 @@ function enabled() {
     const game = globalThis.game;
     return game?.system?.id === 'pf2e' && game.i18n?.lang === 'cn'
       && game.modules.get(EXTRA)?.active === true
-      && game.modules.get(READER)?.active === true && game.modules.get(READER)?.version === '1.3.0'
-      && game.modules.get(LESHY)?.active === true && game.modules.get(LESHY)?.version === '2.3'
+      && game.modules.get(READER)?.active === true
+      && game.modules.get(LESHY)?.active === true
       && game.settings.get('babele', 'loadingMode') === 'full';
   } catch { return false; }
 }
@@ -96,8 +96,29 @@ function syncMetadata(sources, active) {
   }
 }
 
+// These native actions run with a display-only view as their receiver. Admit
+// only the public read statements that the view can preserve; any other receiver
+// access (including a private field, method call or write) needs a new adapter.
+function supportsDisplayView(action, name) {
+  let source = Function.prototype.toString.call(action);
+  const reads = [
+    /\bconst\s+selectedKey\s*=\s*this\s*\.\s*session\s*\.\s*selected\s*;/g,
+    /\bconst\s+data\s*=\s*this\s*\.\s*database\s*\.\s*get\s*\(\s*selectedKey\s*\)\s*;/g
+  ];
+  if (name === 'inspectImage') reads.push(/\bconst\s+mode\s*=\s*this\s*\.\s*session\s*\.\s*preview\s*;/g);
+  for (const read of reads) {
+    if ([...source.matchAll(read)].length !== 1) return false;
+    source = source.replace(read, '');
+  }
+  return !/\b(?:this|super)\b/.test(source);
+}
+
 function installApplication(app) {
   if (!enabled() || !app || installedApplications.has(app)) return;
+  const reader = game.modules.get(READER), leshy = game.modules.get(LESHY);
+  const current = () => enabled() && game.modules.get(READER) === reader
+    && game.modules.get(LESHY) === leshy && reader.application === app;
+  if (!current()) return;
   if (app.constructor?.name !== 'GalleryApplication' || !(app.database instanceof Map)
     || typeof app._prepareContext !== 'function' || !Object.isExtensible(app)) return;
   const actions = app.options?.actions;
@@ -105,21 +126,22 @@ function installApplication(app) {
   if (!actions || names.some(k => typeof actions[k] !== 'function'
     || actions[k] !== app.constructor.DEFAULT_OPTIONS?.actions?.[k]
     || Object.getOwnPropertyDescriptor(actions, k)?.writable !== true)) return;
+  if (!['createActor', 'inspectImage'].every(name => supportsDisplayView(actions[name], name))) return;
   const prepare = app._prepareContext;
   let sources;
 
   function remember(context) {
+    if (!Array.isArray(context?.sources) || !Array.isArray(context?.displayData)) return false;
     sources = context.sources;
-    syncMetadata(sources, enabled());
-    return context;
+    syncMetadata(sources, current());
+    return true;
   }
 
   app._prepareContext = function (...args) {
     const result = Reflect.apply(prepare, this, args);
-    if (this !== app) return result;
+    if (this !== app || typeof result?.then !== 'function') return result;
     return result.then(context => {
-      remember(context);
-      if (!enabled()) return context;
+      if (!remember(context) || !current()) return context;
       const selectedCN = translation(context.selected, sources);
       return {
         ...context,
@@ -139,25 +161,27 @@ function installApplication(app) {
   for (const name of names) {
     const original = actions[name];
     actions[name] = function (...args) {
-      syncMetadata(sources, enabled());
-      if (this !== app || !enabled()) return Reflect.apply(original, this, args);
+      syncMetadata(sources, current());
+      if (this !== app || !current()) return Reflect.apply(original, this, args);
       // Normal UI actions follow _prepareContext. Cold direct calls can obtain the same
       // real sources without importing/fetching/rebuilding; snapshot selection before awaiting.
       const database = new Map(app.database);
       const session = {...app.session};
       const data = database.get(session.selected);
       const invoke = () => {
-        syncMetadata(sources, enabled());
-        if (name === 'openGallerySourceDialog') return Reflect.apply(original, app, args);
-        const zh = enabled() ? translation(data, sources) : null;
+        syncMetadata(sources, current());
+        if (!current() || name === 'openGallerySourceDialog') return Reflect.apply(original, app, args);
+        const zh = translation(data, sources);
         if (zh) database.set(session.selected, {...data, label: name === 'createActor' ? `${zh} ${data.label}` : zh});
-        // This fixed reader's create/inspect actions only read database/session, no private fields.
+        // The admitted native actions only read database/session, with no private receiver access.
         // Own descriptors shadow the non-writable inherited database without touching the shared Map.
         const view = Object.create(app, {database: {value: database}, session: {value: session}});
         return Reflect.apply(original, view, args);
       };
       if (Array.isArray(sources)) return invoke();
-      return Reflect.apply(prepare, app, []).then(context => { remember(context); return invoke(); });
+      const result = Reflect.apply(prepare, app, []);
+      if (typeof result?.then !== 'function') return Reflect.apply(original, app, args);
+      return result.then(context => remember(context) ? invoke() : Reflect.apply(original, app, args));
     };
   }
   installedApplications.add(app);
@@ -169,7 +193,7 @@ export function installLeshyGalleryCompat() {
   const module = game.modules.get(READER);
   if (installedModules.has(module)) return true;
   const descriptor = Object.getOwnPropertyDescriptor(module, 'application');
-  // Reader 1.3.0 assigns an ordinary data property after import. Respect foreign accessors/locks.
+  // The reader assigns an ordinary data property after import. Respect foreign accessors/locks.
   if (descriptor && (!('value' in descriptor) || !descriptor.configurable || !descriptor.writable)) return false;
   if (!descriptor && (!Object.isExtensible(module) || 'application' in module)) return false;
   let application = descriptor?.value;
