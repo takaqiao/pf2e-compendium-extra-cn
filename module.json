@@ -2,7 +2,7 @@
   "id": "pf2e-compendium-extra-cn",
   "title": "Translation: 中文[PF2E额外合集包]",
   "description": "Chinese translation for extra pf2e compendium",
-  "version": "1.0.63",
+  "version": "1.0.64",
   "compatibility": {
     "verified": "14"
   },
@@ -60,9 +60,9 @@
   ],
   "url": "https://github.com/takaqiao/pf2e-compendium-extra-cn",
   "manifest": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/latest/download/module.json",
-  "download": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/download/1.0.63/pf2e-compendium-extra-cn-v1.0.63.zip",
+  "download": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/download/1.0.64/pf2e-compendium-extra-cn-v1.0.64.zip",
   "bugs": "https://github.com/takaqiao/pf2e-compendium-extra-cn/issues",
-  "changelog": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/tag/1.0.63",
+  "changelog": "https://github.com/takaqiao/pf2e-compendium-extra-cn/releases/tag/1.0.64",
   "languages": [
     {
       "lang": "cn",
@@ -88,11 +88,11 @@
   ],
   "flags": {
     "teamPlusAlignment": {
-      "date": "2026-10-08",
+      "date": "2026-10-12",
       "versions": {
         "pf2e-team-plus-alchemists": "1.0.2",
         "pf2e-team-plus-tian-xia": "1.0.1",
-        "pf2e-team-plus-magic": "1.3.6",
+        "pf2e-team-plus-magic": "1.3.7",
         "pf2e-team-plus-wizards": "1.1.4",
         "pf2e-team-plus-barbarians": "1.1.5"
       }
@@ -100,8 +100,7 @@
     "teamPlusIndependentReview": {
       "date": "2026-10-11",
       "standard": "standard-pf2-translation-v3",
-      "scope": "2026-10-08 Team+ alignment delta and confirmed display omissions",
-      "localPatch": true
+      "scope": "2026-10-08 Team+ alignment delta and confirmed display omissions"
     }
   }
 }
