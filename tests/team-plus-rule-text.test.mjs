@@ -46,6 +46,108 @@ function freezeDeep(value) {
   return value;
 }
 
+const scatterLabel = {
+  path: [7, 'label'], source: 'Chemical Poliorectica Scatter', translation: '炼金攻城学散射',
+};
+
+function scatterRules() {
+  return [
+    ...ruleFixture(),
+    {key: 'FlatModifier', selector: 'strike-damage', value: 2},
+    {key: 'DamageDice', selector: 'strike-damage', diceNumber: 1, dieSize: 'd6'},
+    {key: 'RollOption', label: 'Chemical Poliorectica Scatter', domain: 'all', option: 'other-option'},
+    {key: 'RollOption', label: 'Chemical Poliorectica Scatter', domain: 'all', option: 'chemical-scatter', toggleable: true},
+  ];
+}
+
+test('an explicitly mapped RollOption label is translated without changing mechanics or other labels', () => {
+  const rules = freezeDeep(scatterRules());
+  const before = structuredClone(rules);
+  const payload = freezeDeep([structuredClone(scatterLabel)]);
+  const expected = scatterRules();
+  expected[7].label = '炼金攻城学散射';
+
+  const result = translateRuleTexts(rules, payload);
+  assert.deepEqual(result, expected);
+  assert.deepEqual(rules, before);
+  assert.deepEqual(payload, [scatterLabel]);
+  assert.notStrictEqual(result, rules);
+  assert.notStrictEqual(result[1].value, rules[1].value);
+});
+
+test('RollOption labels retain exact-source guards, explicit array indices and idempotency', () => {
+  const rules = scatterRules();
+  const row = scatterLabel;
+  assert.strictEqual(translateRuleTexts(rules, []), rules);
+  assert.strictEqual(translateRuleTexts(rules, [{...row, source: `${row.source} `}]), rules);
+  assert.strictEqual(translateRuleTexts(rules, [{...row, source: 'Chemical Poliorcetica Scatter'}]), rules);
+  assert.strictEqual(translateRuleTexts(rules, [{...row, translation: row.source}]), rules);
+  const shifted = [...rules.slice(0, 6), rules[0], rules[1], rules[7]];
+  assert.strictEqual(translateRuleTexts(shifted, [row]), shifted);
+  for (const index of ['7', -1, 7.5, 8, NaN, Infinity, undefined, '__proto__']) {
+    assert.strictEqual(translateRuleTexts(rules, [{...row, path: [index, 'label']}]), rules);
+  }
+  const result = translateRuleTexts(rules, [row]);
+  assert.strictEqual(translateRuleTexts(result, [row]), result);
+});
+
+test('label support is limited to own string fields on RollOption rules', () => {
+  const cases = [
+    {key: 'Note', label: 'Source'},
+    {key: 'ChoiceSet', label: 'Source'},
+    {key: 'FlatModifier', label: 'Source'},
+    {key: 'ItemAlteration', property: 'description', label: 'Source'},
+    {key: 'RollOption'},
+    {key: 'RollOption', label: 7},
+    {key: 'RollOption', label: {value: 'Source'}},
+    Object.assign(Object.create({key: 'RollOption'}), {label: 'Source'}),
+    Object.assign(Object.create({label: 'Source'}), {key: 'RollOption'}),
+    Object.defineProperty({key: 'RollOption'}, 'label', {get() {assert.fail('label accessors must not run');}}),
+  ];
+  for (const rule of cases) {
+    const rules = [rule];
+    assert.strictEqual(translateRuleTexts(rules, [{path: [0, 'label'], source: 'Source', translation: '译文'}]), rules);
+  }
+  const rules = [
+    {key: 'RollOption', text: 'Source', title: 'Source', option: 'Source', domain: 'Source'},
+    {key: 'ItemAlteration', property: 'description', value: [{label: 'Source'}]},
+    {key: 'RollOption', suboptions: [{label: 'Source', value: 'Source'}]},
+  ];
+  for (const path of [[0, 'text'], [0, 'title'], [0, 'option'], [0, 'domain'], [1, 'value', 0, 'label'], [2, 'suboptions', 0, 'label']]) {
+    assert.strictEqual(translateRuleTexts(rules, [{path, source: 'Source', translation: '译文'}]), rules);
+  }
+});
+
+test('malformed label records are skipped while a valid label record still applies', () => {
+  const rules = scatterRules();
+  const malformed = [
+    null,
+    Object.create(scatterLabel),
+    {...scatterLabel, extra: true},
+    {...scatterLabel, source: null},
+    {...scatterLabel, translation: {}},
+    {...scatterLabel, path: '7.label'},
+    {...scatterLabel, path: Object.assign([7, 'label'], {extra: true})},
+    {...scatterLabel, path: Object.setPrototypeOf([7, 'label'], Object.create(Array.prototype))},
+    Object.defineProperty({...scatterLabel}, 'source', {get() {assert.fail('payload accessors must not run');}}),
+  ];
+  const expected = scatterRules();
+  expected[7].label = '炼金攻城学散射';
+  for (const row of malformed) {
+    assert.strictEqual(translateRuleTexts(rules, [row]), rules);
+    assert.deepEqual(translateRuleTexts(rules, [row, scatterLabel]), expected);
+  }
+});
+
+test('duplicate label paths reject the payload without modifying the source', () => {
+  const rules = freezeDeep(scatterRules());
+  const before = structuredClone(rules);
+  assert.throws(() => translateRuleTexts(rules, [scatterLabel, {...scatterLabel, translation: '另一译文'}]), {
+    name: 'TypeError', message: /team-plus-rule-text.*duplicate.*\[7,"label"\]/i,
+  });
+  assert.deepEqual(rules, before);
+});
+
 test('translates approved display leaves while preserving complete rule arrays and mechanics', () => {
   const rules = freezeDeep(ruleFixture());
   const before = structuredClone(rules);

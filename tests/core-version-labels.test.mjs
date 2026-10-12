@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
 import {readFileSync} from 'node:fs';
 import test from 'node:test';
 import vm from 'node:vm';
@@ -19,13 +20,14 @@ function fixture({version='15.100',generation=15}={}){
       [LEGENDS,{active:true,version:'3.0.1'}],['battlezoo-dragons-core-pf2e',{active:true,version:'1.2'}]]),
     settings:{get:()=> 'full'}};
 }
-function loadScript(name,game,globals={}){
+function loadContext(name,game,globals={}){
   const hooks=new Map();
   const context=vm.createContext({game,Boolean,...globals,Hooks:{
     on:(event,callback)=>hooks.set(event,callback),once:(event,callback)=>hooks.set(event,callback)}});
   vm.runInContext(readFileSync(new URL(`../scripts/${name}`,import.meta.url),'utf8'),context);
-  return hooks;
+  return {hooks,context};
 }
+const loadScript=(name,game,globals)=>loadContext(name,game,globals).hooks;
 function descriptionContext(){
   const field=AV_CORE_851_DESCRIPTIONS[0];
   const source={_id:field.documentId,type:'npc',items:[{_id:field.itemId,type:'action',system:{description:{value:field.english}}}]};
@@ -154,4 +156,48 @@ test('Eldamon settings display rejects changed field contracts and dependencies'
     f=>f.game.i18n.lang='en']){
     const f=legendsFixture();mutate(f);f.render();assert.equal(f.field.label,'Intro Pop-Up');
   }
+});
+
+// Released pf2e.mjs builds are not kept in this repository; each variable names a saved copy.
+const pf2eBuilds=[
+  {version:'8.6.0',env:'PF2E_860_BUNDLE',bundle:'d908c2fa1741d692b00b44e6dacba0bf7e8724d05898d555f9b640b2581d34b4',
+    renderer:'8a7d64e3a8c487efbf6f0ac3ff670af5f9d4719f2e86e18ffcdf9fe0c3075c94'},
+  {version:'8.6.1',env:'PF2E_861_BUNDLE',bundle:'a48f919b8b9a791868ff3eb4eb560b210855932847e8c861ee914e16e3448ed3',
+    renderer:'c6186757b90ffd1d5d50a414080c6719585a12b7df1e8ad32cc4ba2150199497'}];
+const sourceOf=fn=>Function.prototype.toString.call(fn);
+// ChatMessagePF2e#renderHTML as the engine reports it. The method calls private members, so the
+// shortest slice that compiles also holds the members declared after it.
+function chatRenderer(bundle,edit=source=>source){
+  const starts=[...bundle.matchAll(/async renderHTML\(/g)].map(match=>match.index)
+    .filter(start=>bundle.slice(start,start+400).includes('this.flavor = await'));
+  assert.equal(starts.length,1);
+  const [start]=starts;
+  for(let end=bundle.indexOf('}',start);end!==-1&&end<start+40000;end=bundle.indexOf('}',end+1)){
+    try{return vm.runInNewContext(`(class extends Object {\n${edit(bundle.slice(start,end+1))}\n})`).prototype.renderHTML;}
+    catch{/* The slice still ends inside the class body. */}
+  }
+  assert.fail('ChatMessagePF2e#renderHTML does not compile');
+}
+const legendsContract=()=>loadContext('eldamon-legends-display.js',fixture(),{TextEncoder}).context;
+
+for(const {version,env,bundle,renderer} of pf2eBuilds){
+  const path=process.env[env];
+  test(`Eldamon chat display recognises the PF2e ${version} chat renderer by its source`,{skip:path?false:`${env} is not set`},()=>{
+    const bytes=readFileSync(path);
+    assert.equal(createHash('sha256').update(bytes).digest('hex'),bundle);
+    const text=bytes.toString('utf8'),{sha256,exact}=legendsContract(),renderHTML=chatRenderer(text);
+    assert.ok(text.includes(sourceOf(renderHTML)));
+    assert.equal(sha256(sourceOf(renderHTML)),renderer);
+    assert.equal(exact(renderHTML,'chatPF2'),true);
+    const changed=chatRenderer(text,source=>source.replace('processVisibility: !1','processVisibility: !0'));
+    assert.notEqual(sourceOf(changed),sourceOf(renderHTML));
+    assert.equal(exact(changed,'chatPF2'),false);
+  });
+}
+
+test('Eldamon chat display rejects a chat renderer whose source was not reviewed',()=>{
+  const {exact}=legendsContract();
+  const renderHTML=class extends Object {async renderHTML(e){return e;}}.prototype.renderHTML;
+  assert.equal(exact(renderHTML,'chatPF2'),false);
+  assert.equal(exact(undefined,'chatPF2'),false);
 });

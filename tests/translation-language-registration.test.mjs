@@ -7,7 +7,9 @@ const MODULE_ID = 'pf2e-compendium-extra-cn';
 const CHN_MODULE_ID = 'pf2e_compendium_chn';
 const source = fs.readFileSync(new URL('../babele.js', import.meta.url), 'utf8');
 
-function environment({patch = true, recorded = [], isGM = false, overlaps = []} = {}) {
+const CHN_OWN_REGISTRATION = [{module: CHN_MODULE_ID, lang: 'cn', dirs: ['zh-CN', 'compendium']}];
+
+function environment({patch = true, chn = CHN_OWN_REGISTRATION, recorded = [], isGM = false, overlaps = []} = {}) {
   const hooks = new Map(), registrations = [], refreshes = [], priorities = [];
   const babele = {
     register(registration) {
@@ -27,7 +29,7 @@ function environment({patch = true, recorded = [], isGM = false, overlaps = []} 
     async setSourcePriority(collection, sources) {priorities.push({collection, sources: [...sources]});},
   };
   if (patch) babele.__ondemandPatch = {
-    registeredModules: [{module: CHN_MODULE_ID, lang: 'cn', dirs: ['zh-CN', 'compendium']}, ...structuredClone(recorded)],
+    registeredModules: [...structuredClone(chn), ...structuredClone(recorded)],
   };
   const context = vm.createContext({
     Babele: function Babele() {}, game: {babele, user: {isGM}},
@@ -44,6 +46,7 @@ function environment({patch = true, recorded = [], isGM = false, overlaps = []} 
     babele, registrations, refreshes, priorities,
     async fire(name) {for (const callback of hooks.get(name) ?? []) await callback(babele);},
     extraRegistrations() {return registrations.filter(row => row.module === MODULE_ID);},
+    chnRegistrations() {return registrations.filter(row => row.module === CHN_MODULE_ID);},
   };
 }
 
@@ -103,6 +106,31 @@ test('registration before the old patch recording wrapper is repaired at setup',
   assert.deepEqual(runtime.extraRegistrations().map(row => row.lang), ['cn', 'zh-CN', 'zh-Hans', 'cn', 'zh-CN', 'zh-Hans']);
   await runtime.fire('setup');
   assert.equal(runtime.extraRegistrations().length, 6);
+});
+
+test('a chn that has not registered itself is registered with the directory its release ships', async () => {
+  const runtime = environment({chn: []});
+  await runtime.fire('babele.init');
+  assert.deepEqual(runtime.chnRegistrations(), ['cn', 'zh-CN', 'zh_Hans', 'zh-Hans']
+    .map(lang => ({module: CHN_MODULE_ID, lang, dirs: ['compendium']})));
+  await runtime.fire('setup');
+  await runtime.fire('ready');
+  assert.equal(runtime.chnRegistrations().length, 4);
+  assert.deepEqual(runtime.refreshes, []);
+});
+
+test('a chn that registered itself keeps the directories it chose', async () => {
+  const ownRegistrations = [
+    ['zh-CN', 'compendium'].map(dir => ({module: CHN_MODULE_ID, lang: 'cn', dirs: [dir]})),
+    [{module: CHN_MODULE_ID, lang: 'cn', dirs: ['compendium']}],
+  ];
+  for (const chn of ownRegistrations) {
+    const runtime = environment({chn});
+    for (const hook of ['babele.init', 'setup', 'ready']) await runtime.fire(hook);
+    assert.deepEqual(runtime.chnRegistrations(), []);
+    assert.deepEqual(
+      runtime.babele.__ondemandPatch.registeredModules.filter(row => row.module === CHN_MODULE_ID), chn);
+  }
 });
 
 test('each registered alias retains extra precedence without repeated setting writes', async () => {

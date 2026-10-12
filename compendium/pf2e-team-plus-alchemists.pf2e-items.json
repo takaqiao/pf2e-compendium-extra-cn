@@ -514,6 +514,14 @@
           ],
           "source": "Major",
           "translation": "超级"
+        },
+        {
+          "path": [
+            7,
+            "label"
+          ],
+          "source": "Chemical Poliorectica Scatter",
+          "translation": "化学攻城术散射"
         }
       ]
     },
@@ -1596,15 +1604,18 @@
     },
     "Corked Troll (Greater)": {
       "name": "瓶装巨魔（高级） Corked Troll (Greater)",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你启动它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 60 点生命值、AC 35、快速医疗 15，以及电击和火焰弱点 15。其巨魔挡击反应提供 30 点抗力，且该巨魔承受 30 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你启动它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 60 点生命值、AC 35、快速医疗 15，以及电击和火焰弱点 15。其巨魔挡击反应提供 30 点抗力，且该巨魔承受 30 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>",
+      "unidentifiedName": "不寻常物品 Unusual Object"
     },
     "Corked Troll (Lesser)": {
       "name": "瓶装巨魔（次级） Corked Troll (Lesser)",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你启动它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 20 点生命值、AC 20、快速医疗 5，以及电击和火焰弱点 5。其巨魔挡击反应提供 10 点抗力，且该巨魔承受 10 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你启动它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 20 点生命值、AC 20、快速医疗 5，以及电击和火焰弱点 5。其巨魔挡击反应提供 10 点抗力，且该巨魔承受 10 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>",
+      "unidentifiedName": "不寻常物品 Unusual Object"
     },
     "Corked Troll (Moderate)": {
       "name": "瓶装巨魔（中级） Corked Troll (Moderate)",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你启动它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 40 点生命值、AC 27、快速医疗 10，以及电击和火焰弱点 10。其巨魔挡击反应提供 20 点抗力，且该巨魔承受 20 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你启动它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 40 点生命值、AC 27、快速医疗 10，以及电击和火焰弱点 10。其巨魔挡击反应提供 20 点抗力，且该巨魔承受 20 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>",
+      "unidentifiedName": "不寻常物品 Unusual Object"
     }
   },
   "folders": {
@@ -1644,6 +1655,7 @@
     "ruleTexts": {
       "path": "system.rules",
       "converter": "team-plus-rule-text"
-    }
+    },
+    "unidentifiedName": "system.identification.unidentified.name"
   }
 }

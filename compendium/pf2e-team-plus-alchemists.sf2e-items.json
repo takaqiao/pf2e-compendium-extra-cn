@@ -83,7 +83,7 @@
     },
     "Mystic Chymistry": {
       "name": "秘法炼金术 Mystic Chymistry",
-      "description": "<p>炼金术中某些古老的分支把这门技艺当作一种神秘学修行，其信奉者追求抵达灵性的圆满。发源于黄金之路的秘法流派认为，炼成贤者之石并非终点，而只是一块垫脚石。正如铅被提纯为金，沿着通往伟大工作的道路前行，也能把凡人的灵魂提纯为更崇高之物。</p><p>你的实践技能是神秘学。你只能用高速炼金制作不具备变形特征的炼金灵药，以及具备生机或虚空特征的炼金物品，且这样制作出来的成品会获得下列增益。</p><p><strong>炼金灵药</strong> 受你以高速炼金制作的灵药影响的生物，还会在对抗心灵效果的豁免上获得 +1 状态加值，并获得灵魂伤害抗力，其数值等于 2 加所服用灵药物品等级的一半。该抗力的持续时间等同于该灵药效果的持续时间或 1 轮，取较长者。若你至少为 11 级，该状态加值提升至 +2。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.P93753an7bYmhW2R]{效果：秘法炼金术灵药}</p><p><strong>生机与虚空</strong> 当你要用以高速炼金制作的、具备虚空或生机特征的物品对生物造成伤害时，你可以选择改为造成等量的灵魂伤害。该物品获得灵魂特征；若该物品具备生机特征，则还获得圣洁特征，若具备虚空特征，则还获得邪秽特征。</p><p></p>",
+      "description": "<p>炼金术中某些古老的分支把这门技艺当作一种神秘学修行，其信奉者追求抵达灵性的圆满。发源于黄金之路的秘法流派认为，炼成贤者之石并非终点，而只是一块垫脚石。正如铅被提纯为金，沿着通往伟大工作的道路前行，也能把凡人的灵魂提纯为更崇高之物。</p><p>你的实践技能是神秘学。你只能用高速炼金制作不具备变形特征的炼金灵药，以及具备命能或虚能特征的炼金物品，且这样制作出来的成品会获得下列增益。</p><p><strong>炼金灵药</strong> 受你以高速炼金制作的灵药影响的生物，还会在对抗心灵效果的豁免上获得 +1 状态加值，并获得精魂伤害抗力，其数值等于 2 加所服用灵药物品等级的一半。该抗力的持续时间等同于该灵药效果的持续时间或 1 轮，取较长者。若你至少为 11 级，该状态加值提升至 +2。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.P93753an7bYmhW2R]{效果：秘法炼金术灵药}</p><p><strong>命能与虚能</strong> 当你要用以高速炼金制作的、具备虚能或命能特征的物品对生物造成伤害时，你可以选择改为造成等量的精魂伤害。该物品获得精魂特征；若该物品具备命能特征，则还获得圣洁特征，若具备虚能特征，则还获得邪秽特征。</p><p></p>",
       "ruleTexts": [
         {
           "path": [
@@ -237,7 +237,7 @@
     },
     "Internal Alchemy": {
       "name": "内丹术 Internal Alchemy",
-      "description": "<p>在天夏的龙华帝国，炼金术常与冥想、严格的饮食修习以及修炼之术相结合，用以改造自身。对这些内丹修行者而言，身体便是实验室，通过审慎的实验，它可以被一步步引向长生不朽。继任者诸邦往往发展出各自的炼金流派：在天景，炼金术士钻研内热与御风之法；而在桓廓，形体姿态与架势则是施行内丹术的关键一环。</p><p>你的实践技能是运动。你只能用高速炼金制作具有加工特征的炼金食品与突变药剂，且当你这样做时，它们会获得下列增益。</p><p><strong>突变药剂</strong> 当你服用自己用高速炼金制作的突变药剂时，你的打击伤害获得 +2 状态加值。若你的突变药剂不提供徒手攻击，则在该突变药剂的持续时间内，你的拳伤害骰由 1d4 提升至 1d6。当你受自己的突变药剂影响时，以拳进行致命攻击不承受减值。若你至少为 11 级，该伤害状态加值提升至 +4。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.V483n35FAo8vc67h]{效果：内丹突变药剂}</p><p><strong>加工</strong> 当你食用自己用高速炼金制作的加工炼金食品时，在其持续时间内你可以获得一次持续 1 分钟的强韧豁免 +1 状态加值。若你至少为 11 级，该状态加值提升至 +2。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.T8vHycxpaxYZPs61]{效果：内丹加工}</p>",
+      "description": "<p>在天夏的龙华帝国，炼金术常与冥想、严格的饮食修习以及修炼之术相结合，用以改造自身。对这些内丹修行者而言，身体便是实验室，通过审慎的实验，它可以被一步步引向长生不朽。继任者诸邦往往发展出各自的炼金流派：在天景，炼金术士钻研内热与御风之法；而在花国，形体姿态与架势则是施行内丹术的关键一环。</p><p>你的实践技能是运动。你只能用高速炼金制作具有加工特征的炼金食品与突变药剂，且当你这样做时，它们会获得下列增益。</p><p><strong>突变药剂</strong> 当你服用自己用高速炼金制作的突变药剂时，你的打击伤害获得 +2 状态加值。若你的突变药剂不提供无武装攻击，则在该突变药剂的持续时间内，你的拳伤害骰由 1d4 提升至 1d6。当你受自己的突变药剂影响时，以拳进行致命攻击不承受减值。若你至少为 11 级，该伤害状态加值提升至 +4。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.V483n35FAo8vc67h]{效果：内丹突变药剂}</p><p><strong>加工</strong> 当你食用自己用高速炼金制作的加工炼金食品时，在其持续时间内你可以获得一次持续 1 分钟的强韧豁免 +1 状态加值。若你至少为 11 级，该状态加值提升至 +2。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.T8vHycxpaxYZPs61]{效果：内丹加工}</p>",
       "ruleTexts": [
         {
           "path": [
@@ -479,7 +479,7 @@
     },
     "Bottle-O-Ooze (Minor)": {
       "name": "软泥瓶（初级） Bottle-O-Ooze (Minor)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只小型软泥，并在原位保持1分钟。若该软泥的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:16] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。软泥所占的空间可以穿越，但其每一格都视为困难地形。该软泥可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该软泥需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该软泥拥有以下数据：<strong>AC</strong> 7；<strong>HP</strong> 16；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 2、穿刺 2；<strong>弱点</strong> 范围伤害 2、溅射伤害 2</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的软泥残骸。</p>"
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只小型泥怪，并在原位保持1分钟。若该泥怪的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:16] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。泥怪所占的空间可以穿越，但其每一格都视为困难地形。该泥怪可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该泥怪需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该泥怪拥有以下数据：<strong>AC</strong> 7；<strong>HP</strong> 16；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 2、穿刺 2；<strong>弱点</strong> 范围伤害 2、溅射伤害 2</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的泥怪残骸。</p>"
     },
     "Bandersnatch Bottle": {
       "name": "班德斯奈奇瓶 Bandersnatch Bottle",
@@ -547,7 +547,7 @@
     },
     "Promethean Sciences": {
       "name": "普罗米修斯科学 Promethean Sciences",
-      "description": "<p>对某些炼金师而言，目标是创造生命。这些科学家或许相信，唯有通过创造生命才能理解生命的真正起源，因而竭力想把这一过程逆向解析出来。乌斯塔拉夫的莱皮德施塔特大学设有一整个院系，专门研究人造人及其他人工生命形式的创造。与此同时，奈克斯的炼金师之城厄诺皮翁，则是该国顶尖肉体扭曲师的家园。</p><p>你的实践技能是自然。你只能用高速炼金制作炼金植物与瓶装怪物，且这样制作出来的成品会获得下列增益。</p><p><strong>炼金植物</strong> 当你创造一株会以其他生物为目标的炼金植物时，就该次激发所用的动作或活动而言，你的触及范围增加 5 尺。当你的炼金师职业 DC 达到专家时，该触及范围改为增加 10 尺；若你的炼金师职业 DC 为大师，则改为增加 15 尺。</p><p><strong>瓶装怪物</strong> 当你创造一只会以其他生物为目标的瓶装怪物时，你可以选择让它成为良性怪物或恐怖怪物。若你选择恐怖怪物，则对抗该瓶装怪物效果的豁免失败的生物、或被该瓶装怪物成功命中攻击掷骰或技能检定的生物，会陷入 @UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧 1}。这是一个恐惧效果。若你选择良性怪物，该生物在 1 轮内获得 +1 状态加值于攻击掷骰，以及对抗恐惧效果的豁免。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.hhXw9EzoPPrE5er9]{效果：普罗米修斯科学良性怪物}</p>",
+      "description": "<p>对某些炼金师而言，目标是创造生命。这些科学家或许相信，唯有通过创造生命才能理解生命的真正起源，因而竭力想把这一过程逆向解析出来。乌斯塔拉夫的勒彼得大学设有一整个院系，专门研究人造人及其他人工生命形式的创造。与此同时，奈克斯的炼金师之城欧诺皮昂，则是该国顶尖肉体扭曲师的家园。</p><p>你的实践技能是自然。你只能用高速炼金制作炼金植物与瓶装怪物，且这样制作出来的成品会获得下列增益。</p><p><strong>炼金植物</strong> 当你创造一株会以其他生物为目标的炼金植物时，就该次激发所用的动作或活动而言，你的触及范围增加 5 尺。当你的炼金师职业 DC 达到专家时，该触及范围改为增加 10 尺；若你的炼金师职业 DC 为大师，则改为增加 15 尺。</p><p><strong>瓶装怪物</strong> 当你创造一只会以其他生物为目标的瓶装怪物时，你可以选择让它成为良性怪物或恐怖怪物。若你选择恐怖怪物，则对抗该瓶装怪物效果的豁免失败的生物、或被该瓶装怪物成功命中攻击掷骰或技能检定的生物，会陷入 @UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧 1}。这是一个恐惧效果。若你选择良性怪物，该生物在 1 轮内获得 +1 状态加值于攻击掷骰，以及对抗恐惧效果的豁免。</p><p>@UUID[Compendium.pf2e-team-plus-alchemists.sf2e-misc.Item.hhXw9EzoPPrE5er9]{效果：普罗米修斯科学良性怪物}</p>",
       "ruleTexts": [
         {
           "path": [
@@ -665,7 +665,7 @@
     },
     "Bottler": {
       "name": "装瓶师 Bottler",
-      "description": "<p>你钻研怪物炼金术，即炼金怪物的创造与装瓶之道。</p><p><strong>配方</strong> 两个 1 级普通瓶装怪物。</p><p><strong>课题增益</strong> 当你制作瓶装怪物、或以高速炼金创造瓶装怪物时，你始终视为拥有所需的尸体。当你激发一个瓶装怪物时，你总是可以作为该活动的一部分把该瓶装怪物投掷至多 20 尺，即使该瓶装怪物通常并不允许被投掷；它从落地的方格开始生效。对于本就可以投掷的瓶装怪物，你还将其投掷距离增加 10 尺。</p><p><strong>课题制剂</strong> 你的万用制剂可以获得可扩展特征，从而作为瓶装怪物而非炸弹使用。当你把一份万用制剂作为瓶装怪物激发时，你可以将该制剂投掷到 20 尺内的一个方格，在那里创造出一个持续 1 分钟的炼金奴仆。作为该激发的一部分，你可以让由此效果创造的一个奴仆进行一次近战徒手打击，其攻击检定使用 @Check[alchemist|defense:ac|traits:attack,expandable]。这次攻击造成你选择的 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[bludgeoning]|traits:expandable]、@Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[piercing]|traits:expandable] 或 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[slashing]|traits:expandable] 伤害，伤害类型在你激发该制剂时选择。这次打击使用并计入你的多重攻击减值。当你获得中级万用制剂时，伤害提升至 2d6，且你的奴仆的攻击检定获得 +1 物品加值。当你获得高级万用制剂时，伤害提升至 3d6，且你的奴仆的攻击检定获得 +2 物品加值；当你获得超级万用制剂时，伤害提升至 4d6，且你的奴仆的攻击检定获得 +3 物品加值。</p><p><strong>课题发现（5 级）</strong> 当你激发的瓶装怪物需要进行一次并非平值检定的 d20 投骰时，若你的炼金术士职业 DC – 10 高于所列的调整值，则改用前者。当你激发一个会造成伤害或治疗生物的瓶装怪物时，它额外造成等同于你智力调整值的伤害或治疗。这仅适用于该瓶装怪物在被激发时造成的最初那次伤害或治疗。每个瓶装怪物对同一个生物只会造成一次这份伤害或提供一次这份治疗，即使该效果本会多次伤害或治疗该生物。</p><p><strong>进阶制剂（11 级）</strong> 你的炼金奴仆如今更为强大。当你以万用制剂创造炼金奴仆时，你可以改为创造一个体型至多为大型的奴仆，且它拥有 10 尺的触及。在 16 级时，你可以创造体型至多为巨型的奴仆；在 20 级时，你可以创造体型至多为超巨型的奴仆。该奴仆必须能按可扩展特征的常规规则容纳于该区域中。</p><p><strong>高等课题发现（13 级）</strong> 当你激发一个瓶装怪物时，你可以作为该活动的一部分额外花费一个动作，使其效果在被激发时触发一次，并在激发之后的下一个回合结束时再触发一次。若该瓶装怪物是被投掷出去的，则它从被投掷到的同一个方格再次触发。</p>",
+      "description": "<p>你钻研怪物炼金术，即炼金怪物的创造与装瓶之道。</p><p><strong>配方</strong> 两个 1 级普通瓶装怪物。</p><p><strong>课题增益</strong> 当你制作瓶装怪物、或以高速炼金创造瓶装怪物时，你始终视为拥有所需的尸体。当你激发一个瓶装怪物时，你总是可以作为该活动的一部分把该瓶装怪物投掷至多 20 尺，即使该瓶装怪物通常并不允许被投掷；它从落地的方格开始生效。对于本就可以投掷的瓶装怪物，你还将其投掷距离增加 10 尺。</p><p><strong>课题制剂</strong> 你的万用制剂可以获得膨胀特征，从而作为瓶装怪物而非炸弹使用。当你把一份万用制剂作为瓶装怪物激发时，你可以将该制剂投掷到 20 尺内的一个方格，在那里创造出一个持续 1 分钟的炼金奴仆。作为该激发的一部分，你可以让由此效果创造的一个奴仆进行一次近战无武装打击，其攻击检定使用 @Check[alchemist|defense:ac|traits:attack,expandable]。这次攻击造成你选择的 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[bludgeoning]|traits:expandable]、@Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[piercing]|traits:expandable] 或 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[slashing]|traits:expandable] 伤害，伤害类型在你激发该制剂时选择。这次打击使用并计入你的多重攻击减值。当你获得中级万用制剂时，伤害提升至 2d6，且你的奴仆的攻击检定获得 +1 物品加值。当你获得高级万用制剂时，伤害提升至 3d6，且你的奴仆的攻击检定获得 +2 物品加值；当你获得超级万用制剂时，伤害提升至 4d6，且你的奴仆的攻击检定获得 +3 物品加值。</p><p><strong>课题发现（5 级）</strong> 当你激发的瓶装怪物需要进行一次并非平值检定的 d20 投骰时，若你的炼金术士职业 DC – 10 高于所列的调整值，则改用前者。当你激发一个会造成伤害或治疗生物的瓶装怪物时，它额外造成等同于你智力调整值的伤害或治疗。这仅适用于该瓶装怪物在被激发时造成的最初那次伤害或治疗。每个瓶装怪物对同一个生物只会造成一次这份伤害或提供一次这份治疗，即使该效果本会多次伤害或治疗该生物。</p><p><strong>进阶制剂（11 级）</strong> 你的炼金奴仆如今更为强大。当你以万用制剂创造炼金奴仆时，你可以改为创造一个体型至多为大型的奴仆，且它拥有 10 尺的触及。在 16 级时，你可以创造体型至多为超大型的奴仆；在 20 级时，你可以创造体型至多为巨型的奴仆。该奴仆必须能按膨胀特征的常规规则容纳于该区域中。</p><p><strong>高等课题发现（13 级）</strong> 当你激发一个瓶装怪物时，你可以作为该活动的一部分额外花费一个动作，使其效果在被激发时触发一次，并在激发之后的下一个回合结束时再触发一次。若该瓶装怪物是被投掷出去的，则它从被投掷到的同一个方格再次触发。</p>",
       "ruleTexts": [
         {
           "path": [
@@ -675,7 +675,7 @@
             "text"
           ],
           "source": "Your versatile vials can be used as a bottled monstrosity instead of a bomb by giving it the expandable trait. When you Activate a versatile vial as a bottled monstrosity, you can throw the vial to a space within 20 feet which creates an alchemical thrall that lasts for 1 minute. You can have a single thrall created by this effect make a melee unarmed Strike as part of the activation using @Check[alchemist|defense:ac|traits:attack,expandable] for the attack roll. This attack deals your choice of @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[bludgeoning]|traits:expandable], @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[piercing]|traits:expandable], or @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[slashing]|traits:expandable] damage, chosen at the time you Activate the vial. This Strike uses and counts toward your multiple attack penalty. When you gain moderate versatile vials, the damage increases to 2d6 and your thralls have a +1 item bonus to attack rolls. When you gain greater versatile vials, the damage increases to 3d6 and your thralls have a +2 item bonus to attack rolls, and when you gain major versatile vials the damage increases to 4d6 and your thralls have a +3 item bonus to attack rolls.",
-          "translation": "你的万用制剂可以获得可扩展特征，从而作为瓶装怪物而非炸弹使用。当你把一份万用制剂作为瓶装怪物激发时，你可以将该制剂投掷到 20 尺内的一个方格，在那里创造出一个持续 1 分钟的炼金奴仆。作为该激发的一部分，你可以让由此效果创造的一个奴仆进行一次近战徒手打击，其攻击检定使用 @Check[alchemist|defense:ac|traits:attack,expandable]。这次攻击造成你选择的 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[bludgeoning]|traits:expandable]、@Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[piercing]|traits:expandable] 或 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[slashing]|traits:expandable] 伤害，伤害类型在你激发该制剂时选择。这次打击使用并计入你的多重攻击减值。当你获得中级万用制剂时，伤害提升至 2d6，且你的奴仆的攻击检定获得 +1 物品加值。当你获得高级万用制剂时，伤害提升至 3d6，且你的奴仆的攻击检定获得 +2 物品加值；当你获得超级万用制剂时，伤害提升至 4d6，且你的奴仆的攻击检定获得 +3 物品加值。"
+          "translation": "你的万用制剂可以获得膨胀特征，从而作为瓶装怪物而非炸弹使用。当你把一份万用制剂作为瓶装怪物激发时，你可以将该制剂投掷到 20 尺内的一个方格，在那里创造出一个持续 1 分钟的炼金奴仆。作为该激发的一部分，你可以让由此效果创造的一个奴仆进行一次近战无武装打击，其攻击检定使用 @Check[alchemist|defense:ac|traits:attack,expandable]。这次攻击造成你选择的 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[bludgeoning]|traits:expandable]、@Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[piercing]|traits:expandable] 或 @Damage[(@actor.flags.sf2e.alchemicalThrallDamage)d6[slashing]|traits:expandable] 伤害，伤害类型在你激发该制剂时选择。这次打击使用并计入你的多重攻击减值。当你获得中级万用制剂时，伤害提升至 2d6，且你的奴仆的攻击检定获得 +1 物品加值。当你获得高级万用制剂时，伤害提升至 3d6，且你的奴仆的攻击检定获得 +2 物品加值；当你获得超级万用制剂时，伤害提升至 4d6，且你的奴仆的攻击检定获得 +3 物品加值。"
         },
         {
           "path": [
@@ -735,7 +735,7 @@
     },
     "Bottle-O-Ooze (Lesser)": {
       "name": "软泥瓶（次级） Bottle-O-Ooze (Lesser)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只中型软泥，并在原位保持1分钟。若该软泥的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:18] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。软泥所占的空间可以穿越，但其每一格都视为困难地形。该软泥可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该软泥需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该软泥拥有以下数据：<strong>AC</strong> 9；<strong>HP</strong> 58；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 7、穿刺 7；<strong>弱点</strong> 范围伤害 7、溅射伤害 7</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的软泥残骸。</p>"
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只中型泥怪，并在原位保持1分钟。若该泥怪的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:18] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。泥怪所占的空间可以穿越，但其每一格都视为困难地形。该泥怪可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该泥怪需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该泥怪拥有以下数据：<strong>AC</strong> 9；<strong>HP</strong> 58；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 7、穿刺 7；<strong>弱点</strong> 范围伤害 7、溅射伤害 7</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的泥怪残骸。</p>"
     },
     "Halfling Sandwich (Greater )": {
       "name": "半身人三明治（高级） Halfling Sandwich (Greater )",
@@ -819,7 +819,7 @@
     },
     "Bottle-O-Ooze (Greater)": {
       "name": "软泥瓶（高级） Bottle-O-Ooze (Greater)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只巨型软泥，并在原位保持1分钟。若该软泥的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:28] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。软泥所占的空间可以穿越，但其每一格都视为困难地形。该软泥可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该软泥需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该软泥拥有以下数据：<strong>AC</strong> 18；<strong>HP</strong> 70；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 10、穿刺 10；<strong>弱点</strong> 范围伤害 10、溅射伤害 10</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的软泥残骸。</p>"
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只超大型泥怪，并在原位保持1分钟。若该泥怪的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:28] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。泥怪所占的空间可以穿越，但其每一格都视为困难地形。该泥怪可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该泥怪需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该泥怪拥有以下数据：<strong>AC</strong> 18；<strong>HP</strong> 70；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 10、穿刺 10；<strong>弱点</strong> 范围伤害 10、溅射伤害 10</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的泥怪残骸。</p>"
     },
     "Monstrous Infusion": {
       "name": "怪物灌注 Monstrous Infusion",
@@ -931,7 +931,7 @@
     },
     "Bottle-O-Ooze (Major)": {
       "name": "软泥瓶（超级） Bottle-O-Ooze (Major)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只超巨型软泥，并在原位保持1分钟。若该软泥的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:37] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。软泥所占的空间可以穿越，但其每一格都视为困难地形。该软泥可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该软泥需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该软泥拥有以下数据：<strong>AC</strong> 27；<strong>HP</strong> 100；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 16、穿刺 16；<strong>弱点</strong> 范围伤害 16、溅射伤害 16</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的软泥残骸。</p>"
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只巨型泥怪，并在原位保持1分钟。若该泥怪的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:37] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。泥怪所占的空间可以穿越，但其每一格都视为困难地形。该泥怪可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该泥怪需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该泥怪拥有以下数据：<strong>AC</strong> 27；<strong>HP</strong> 100；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 16、穿刺 16；<strong>弱点</strong> 范围伤害 16、溅射伤害 16</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的泥怪残骸。</p>"
     },
     "Cloud Giant Bean (Moderate)": {
       "name": "云巨人豆（中级） Cloud Giant Bean (Moderate)",
@@ -1015,7 +1015,7 @@
     },
     "Anthropotomical Studies": {
       "name": "人体解剖研究 Anthropotomical Studies",
-      "description": "<p>有些炼金术士穷尽一生去破解肉体的奥秘，其动机有高尚的，也有并不高尚的。在神术被禁绝的拉哈多姆，学生们钻研着接种与病菌学说这类新近的医学理论。与此同时，乌斯塔拉夫则有着利润丰厚的盗墓行当，以及暗巷中的木乃伊走私生意，其主顾多半是那些进行不道德实验与骗局的炼金术士。无论出于何种动机，这类炼金术士通常更青睐外科医生的刀刃而非高爆炸药……而且他们清楚地知道该把刀用在生物躯体的哪个部位。</p><p>你的流派技能是医疗。你只能用高速炼金制造具有治疗或伤口特征的炼金物品，而当你这么做时，它们会获得下列增益。</p><p><strong>治疗</strong> 当你以高速炼金制造一件具有治疗特征的物品时，你可以额外花费一个动作来强化该物品：进行一次秘密医疗检定，其DC与治疗伤势的DC相同。当某个生物受到你所造物品的影响时，你同时按照你的检定结果回复对应数量的HP（若你的结果是大失败，则改为造成伤害）。这不会移除受伤状态。一个生物以此方式被治疗后，1天内对该效果暂时免疫；若你的医疗熟练度为大师级，则为1小时。</p><p><strong>伤口</strong> 当你以高速炼金制造的伤口毒剂打击一个生物时，若目标处于@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}状态，或正在承受流血伤害，则它对抗该毒剂的豁免受到–2环境减值。</p>",
+      "description": "<p>有些炼金术士穷尽一生去破解肉体的奥秘，其动机有高尚的，也有并不高尚的。在神术被禁绝的拉哈多姆，学生们钻研着接种与病菌学说这类新近的医学理论。与此同时，乌斯塔拉夫则有着利润丰厚的盗墓行当，以及暗巷中的木乃伊走私生意，其主顾多半是那些进行不道德实验与骗局的炼金术士。无论出于何种动机，这类炼金术士通常更青睐外科医生的刀刃而非高爆炸药……而且他们清楚地知道该把刀用在生物躯体的哪个部位。</p><p>你的流派技能是医疗。你只能用高速炼金制造具有治疗或伤口特征的炼金物品，而当你这么做时，它们会获得下列增益。</p><p><strong>治疗</strong> 当你以高速炼金制造一件具有治疗特征的物品时，你可以额外花费一个动作来强化该物品：进行一次秘密医疗检定，其DC与治疗伤势的DC相同。当某个生物受到你所造物品的影响时，你还会按照你的检定结果使该生物回复对应数量的HP（若你的结果是大失败，则改为造成伤害）。这不会移除受伤状态。一个生物以此方式被治疗后，1天内对该效果暂时免疫；若你的医疗熟练度为大师级，则为1小时。</p><p><strong>伤口</strong> 当你以高速炼金制造的伤口毒剂打击一个生物时，若目标处于@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}状态，或正在承受流血伤害，则它对抗该毒剂的豁免受到–2环境减值。</p>",
       "ruleTexts": [
         {
           "path": [
@@ -1109,7 +1109,7 @@
     },
     "Bottle-O-Ooze (Moderate)": {
       "name": "软泥瓶（中级） Bottle-O-Ooze (Moderate)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只大型软泥，并在原位保持1分钟。若该软泥的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:23] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。软泥所占的空间可以穿越，但其每一格都视为困难地形。该软泥可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该软泥需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该软泥拥有以下数据：<strong>AC</strong> 15；<strong>HP</strong> 58；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 7、穿刺 7；<strong>弱点</strong> 范围伤害 7、溅射伤害 7</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的软泥残骸。</p>"
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 互动</p><hr /><p>这只瓶子里盛着浓稠黏滑的胶质。当它被掷向20尺外一处无人占据的空间时，会迅速膨胀成一只大型泥怪，并在原位保持1分钟。若该泥怪的体型大于中型，处于其范围内、或试图穿越其所占空间的生物必须尝试一次 @Check[reflex|dc:23] 豁免，否则将陷入 @UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}，直到它们逃脱为止。泥怪所占的空间可以穿越，但其每一格都视为困难地形。该泥怪可以被伤害摧毁，并拥有与其等级之物品相称的防御数据。若该泥怪需要进行豁免检定，其豁免调整值等于其物品等级。</p><p>该泥怪拥有以下数据：<strong>AC</strong> 15；<strong>HP</strong> 58；<strong>免疫</strong> 酸蚀、重击、心灵、精准、昏迷、视觉；<strong>抗力</strong> 挥砍 7、穿刺 7；<strong>弱点</strong> 范围伤害 7、溅射伤害 7</p><hr /><p><strong>制作需求</strong> 提供一只生物等级等于或高于该物品等级的泥怪残骸。</p>"
     },
     "Mandragora Tube": {
       "name": "曼德拉苟拉试管 Mandragora Tube",
@@ -1382,6 +1382,14 @@
           ],
           "source": "Major",
           "translation": "超级"
+        },
+        {
+          "path": [
+            7,
+            "label"
+          ],
+          "source": "Chemical Poliorectica Scatter",
+          "translation": "化学攻城术散射"
         }
       ]
     },
@@ -1511,21 +1519,25 @@
     },
     "Corked Troll (Greater)": {
       "name": "瓶装巨魔（高级） Corked Troll (Greater)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你激发它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 60 点生命值、AC 35、快速医疗 15，以及电击和火焰弱点 15。其巨魔挡击反应提供 30 点抗力，且该巨魔承受 30 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>"
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你激发它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 60 点生命值、AC 35、快速医疗 15，以及电击和火焰弱点 15。其巨魔挡击反应提供 30 点抗力，且该巨魔承受 30 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>",
+      "unidentifiedName": "不寻常物品 Unusual Object"
     },
     "Corked Troll (Lesser)": {
       "name": "瓶装巨魔（次级） Corked Troll (Lesser)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你激发它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 20 点生命值、AC 20、快速医疗 5，以及电击和火焰弱点 5。其巨魔挡击反应提供 10 点抗力，且该巨魔承受 10 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>"
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你激发它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 20 点生命值、AC 20、快速医疗 5，以及电击和火焰弱点 5。其巨魔挡击反应提供 10 点抗力，且该巨魔承受 10 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>",
+      "unidentifiedName": "不寻常物品 Unusual Object"
     },
     "Corked Troll (Moderate)": {
       "name": "瓶装巨魔（中级） Corked Troll (Moderate)",
-      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你激发它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 40 点生命值、AC 27、快速医疗 10，以及电击和火焰弱点 10。其巨魔挡击反应提供 20 点抗力，且该巨魔承受 20 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>"
+      "description": "<p><strong>激发</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这只烧瓶内，蠕动的绿色血肉泛起阵阵波纹。你激发它时，它会长成一只大型森林巨魔。若该巨魔受到电击或火焰伤害，其快速医疗会被抑制 [[/r 1d4 #Rounds]]{1d4 轮}。它拥有巨魔挡击反应。若该巨魔的生命值降至 0，或自创造它起经过 1 分钟，它便会溶解为一滩血肉与枝条。该巨魔可以成为攻击的目标，且所有豁免均自动大失败。</p><p><strong>巨魔挡击</strong> <span class=\"action-glyph\">r</span> <strong>触发</strong> 一个相邻的盟友生物将受到一次打击的伤害；<strong>效果</strong> 巨魔挡在攻击前，替盟友承受一部分伤害。你的盟友对触发伤害获得抗力，而该巨魔改为承受盟友以抗力抵消的伤害。若伤害类型与该巨魔的弱点相符，则会触发该弱点。</p><hr /><p>该巨魔拥有 40 点生命值、AC 27、快速医疗 10，以及电击和火焰弱点 10。其巨魔挡击反应提供 20 点抗力，且该巨魔承受 20 点伤害。</p><hr /><p><strong>制作需求</strong> 提供一具等级等于或高于该物品等级的巨魔尸体。</p>",
+      "unidentifiedName": "不寻常物品 Unusual Object"
     }
   },
   "mapping": {
     "ruleTexts": {
       "path": "system.rules",
       "converter": "team-plus-rule-text"
-    }
+    },
+    "unidentifiedName": "system.identification.unidentified.name"
   }
 }

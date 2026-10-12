@@ -47,7 +47,7 @@ python scripts\regen-labels-titles.py
 
 适配不得仅按系统或依赖的版本数字停用。保留所需接口、来源身份、源码契约、权限和可见性检查；未知源码或字段结构沿用上游行为。SoG/BoB 的未知变化字段保留原文，普通用户译文、自定义映射和条件映射保持优先权；原生完整加载、Published 和旧按需加载均须验证来源顺序。PR43 桥沿用其既有来源策略。
 
-公开仓库测试可直接运行 `node --test tests/*.test.mjs scripts/test-hero-deck-compat.mjs`。真实上游回归使用另行保存的发行源和授权模块快照；不要将第三方整包、私有源码或本地测试日志提交到仓库或发布 ZIP。
+公开仓库测试可直接运行 `node --test tests/*.test.mjs scripts/test-hero-deck-compat.mjs`。真实上游回归使用另行保存的发行源和授权模块快照；不要将第三方整包、私有源码或本地测试日志提交到仓库或发布 ZIP。Eldamon 聊天渲染契约的两项测试读取环境变量 `PF2E_860_BUNDLE`、`PF2E_861_BUNDLE` 指向的原版 `pf2e.mjs`，未设置时跳过；登记新的 PF2e 源码指纹前须带上对应文件跑通。
 
 ### 4. 提交并推 tag —— 发版由 CI 完成
 

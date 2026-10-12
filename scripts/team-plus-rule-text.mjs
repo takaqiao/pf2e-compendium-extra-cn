@@ -20,7 +20,9 @@ function isDisplayPath(path) {
   if (!isArray(path) || (path.length !== 2 && path.length !== 4)) return false;
   if (Reflect.ownKeys(path).length !== path.length + 1) return false;
   const parts = Array.from({length: path.length}, (_, index) => ownValue(path, index));
-  if (!isIndex(parts[0]) || !['text', 'title'].includes(parts.at(-1))) return false;
+  if (!isIndex(parts[0])) return false;
+  if (parts.length === 2 && parts[1] === 'label') return true;
+  if (!['text', 'title'].includes(parts.at(-1))) return false;
   return parts.length === 2 || (parts[1] === 'value' && isIndex(parts[2]));
 }
 
@@ -29,7 +31,8 @@ function displayText(rules, path) {
   const rule = ownValue(rules, path[0]);
   if (!isRecord(rule)) return undefined;
   if (path.length === 2) {
-    return ownValue(rule, 'key') === 'Note' ? ownValue(rule, path[1]) : undefined;
+    const expectedKey = path[1] === 'label' ? 'RollOption' : 'Note';
+    return ownValue(rule, 'key') === expectedKey ? ownValue(rule, path[1]) : undefined;
   }
   if (ownValue(rule, 'key') !== 'ItemAlteration' || ownValue(rule, 'property') !== 'description') return undefined;
   const value = ownValue(rule, 'value');

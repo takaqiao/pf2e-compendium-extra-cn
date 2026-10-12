@@ -10,7 +10,10 @@ const EXTRA_LANG_ALIASES = ['cn', 'zh-CN', 'zh-Hans'];
 // when chn's own babele.init handler skips registration (see comment below).
 // Source: https://github.com/AlphaStarguide/pf2e_compendium_chn/blob/main/babele.js
 const CHN_LANG_ALIASES = ['cn', 'zh-CN', 'zh_Hans', 'zh-Hans'];
-const CHN_DIRS = ['zh-CN', 'compendium'];
+// chn keeps its translations in zh-CN/ only in a source checkout; its release workflow renames
+// that directory, so an installed copy has compendium/ alone. chn 3.2.3 lists each registered
+// directory, and one that fails to list leaves the file inventory uncached and unshared with players.
+const CHN_DIRS = ['compendium'];
 
 /**
  * Registration entry point for extra against the legacy chn on-demand patch
