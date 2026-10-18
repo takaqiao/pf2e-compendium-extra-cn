@@ -13,8 +13,8 @@ function install() {if(!globalThis[KEY]) {
  Hooks.on('renderApplicationV2',safe(adapter.application));
  Hooks.on('renderChatMessageHTML',safe(adapter.chat));
  Hooks.once('ready',safe(async()=>{
-  await adapter.verifySources();adapter.installNotifications();
-  // Catch sheets/messages rendered while the audited module source was being checked.
+  adapter.installNotifications();
+  // Catch sheets/messages rendered before world settings could be read.
   const apps=new Set([...Object.values(globalThis.ui?.windows??{}),...(globalThis.foundry?.applications?.instances?.values()??[])]);
   for(const app of apps)if(app.element){
    if(app.item)await adapter.itemSheet(app,app.element);
@@ -24,6 +24,7 @@ function install() {if(!globalThis[KEY]) {
   for(const root of document.querySelectorAll('li.message[data-message-id]')){
    const message=game.messages?.get(root.dataset.messageId);if(message)await adapter.chat(message,root);
   }
+  await adapter.recordSources();
  }));
 }}
 Hooks.once('init',install);

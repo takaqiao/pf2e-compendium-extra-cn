@@ -45,7 +45,7 @@ const EXTERNAL_LANG_SOURCES = [
   'pf2e-abomination-vaults',
   // Oracles+ defines 103 i18n keys its own compendium content references
   // (cursebound prompts, curio rule-element labels, Foundry notes); Magic+
-  // defines one rule-element label. Babele translates documents, not keys,
+  // defines two rule-element labels. Babele translates documents, not keys,
   // so without these the prompts render in English whatever the world language.
   'pf2e-team-plus-oracles-remastered',
   'pf2e-team-plus-magic',

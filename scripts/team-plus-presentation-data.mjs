@@ -72,6 +72,11 @@ export default {
           "files": {
             "dist/pf2e-team-plus-magic.js": "7ab012e49f9a82f7b954b3dd53302febe16a341e9d93834c7bd3d5ed456ee655"
           }
+        },
+        "1.4.1": {
+          "files": {
+            "dist/pf2e-team-plus-magic.js": "36036d5a67a2b4edc1e385dee8e41958c1cc1b0b61623b7b9eb07df67f0f6b37"
+          }
         }
       }
     },

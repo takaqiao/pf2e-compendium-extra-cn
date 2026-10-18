@@ -369,10 +369,6 @@
       "name": "元素馈赠 Elemental Gift",
       "description": "<p>选择气、寒冷、土、火焰、金、水或木特征。层面获得该元素特征。层面之打击每枚武器伤害骰额外造成1点伤害。伤害类型与所选元素特征相同；如该特征不具特定伤害类型，则与该打击相同。</p>"
     },
-    "Template Aspect Shift": {
-      "name": "模板层面变形 Template Aspect Shift",
-      "description": "<p><em>由???赋予。</em></p><hr /><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr /><p>@Embed[]</p>"
-    },
     "Spell Effect: Thurse Shift": {
       "name": "法术效果：神怪变形 Spell Effect: Thurse Shift",
       "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.items.dhkn1t8nbHrlqQ99]{神怪变形}或@UUID[Compendium.pf2e-team-plus-magic.items.6uh4scwO9VIrtnQm]{召唤神怪层面}赋予。</em></p><hr /><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr /><p>@Embed[Compendium.pf2e-team-plus-magic.journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.YnKV7I548K8EH9JW]</p>"

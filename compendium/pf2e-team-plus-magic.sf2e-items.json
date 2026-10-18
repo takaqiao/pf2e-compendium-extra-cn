@@ -815,7 +815,7 @@
     },
     "Scourging": {
       "name": "鞭笞 Scourging",
-      "description": "<p>以鞭笞指环施放的法术会在目标身上留下持续创伤。每枚符文专精于酸性、电击、火焰或物理伤害，指环获得伤害类型之特征；若伤害类型为物理，则获得「力场」特征。当你以一道无持续时间且造成该符文伤害类型之法术攻击大成功时，目标也承受 @Damage[1d10[@item.flags.pf2e.rulesSelections.scourging.damageType, persistent]] 持续伤害（与该法术伤害类型相同；若该法术造成物理伤害则改为流血伤害）。若该法术本就造成持续伤害，结束该持续伤害的 DC 增加 2。</p>"
+      "description": "<p>以鞭笞指环施放的法术会在目标身上留下持续创伤。每枚符文专精于酸性、电击、火焰或物理伤害，指环获得伤害类型之特征；若伤害类型为物理，则获得「力场」特征。当你以一道无持续时间且造成该符文伤害类型之法术攻击大成功时，目标也承受 @Damage[1d10[@item.flags.sf2e.rulesSelections.scourging.damageType, persistent]] 持续伤害（与该法术伤害类型相同；若该法术造成物理伤害则改为流血伤害）。若该法术本就造成持续伤害，结束该持续伤害的 DC 增加 2。</p>"
     },
     "Void Weapon": {
       "name": "虚空武器 Void Weapon",
@@ -1014,7 +1014,7 @@
     },
     "Scourging (Greater)": {
       "name": "鞭笞（高级） Scourging (Greater)",
-      "description": "<p>以鞭笞指环施放的法术会在目标身上留下持续创伤。每枚符文专精于酸性、电击、火焰或物理伤害，指环获得伤害类型之特征；若伤害类型为物理，则获得「力场」特征。当你以一道无持续时间且造成该符文伤害类型之法术攻击大成功时，目标也承受 @Damage[2d10[@item.flags.pf2e.rulesSelections.scourging.damageType, persistent]] 持续伤害（与该法术伤害类型相同；若该法术造成物理伤害则改为流血伤害）。若该法术本就造成持续伤害，结束该持续伤害的 DC 增加 2。由「真言法术」修饰的法术攻击掷骰所造之伤害忽视目标抗力（包括此符文造成的持续伤害）。</p>"
+      "description": "<p>以鞭笞指环施放的法术会在目标身上留下持续创伤。每枚符文专精于酸性、电击、火焰或物理伤害，指环获得伤害类型之特征；若伤害类型为物理，则获得「力场」特征。当你以一道无持续时间且造成该符文伤害类型之法术攻击大成功时，目标也承受 @Damage[2d10[@item.flags.sf2e.rulesSelections.scourging.damageType, persistent]] 持续伤害（与该法术伤害类型相同；若该法术造成物理伤害则改为流血伤害）。若该法术本就造成持续伤害，结束该持续伤害的 DC 增加 2。由「真言法术」修饰的法术攻击掷骰所造之伤害忽视目标抗力（包括此符文造成的持续伤害）。</p>"
     },
     "Magic Bell (5th-Rank Essence Spell)": {
       "name": "魔法之钟（5阶精质法术） Magic Bell (5th-Rank Essence Spell)",

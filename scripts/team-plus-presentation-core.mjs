@@ -67,7 +67,7 @@ export function dynamicCandidate(item,rows) {
  const text=item.system?.description?.value;
  if(typeof text!=='string')return null;
  const hash=sha256(text);
- // Exact per-row fingerprints only; adapter callers also enforce the captured runtime profile.
+ // Exact per-row fingerprints of the description text; this content match is the version check.
  return hash===row.sha256||hash===row.nativeSha256?row:null;
 }
 const nameOverlays=new WeakMap();

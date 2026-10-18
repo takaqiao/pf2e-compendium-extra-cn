@@ -30,7 +30,7 @@
     },
     "Unnerving Gaze": {
       "name": "扰人凝视 Unnerving Gaze",
-      "description": "<p>当一名流血生物在距层面10尺内结束回合时，须以@Check[will|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免成功，否则@UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧2级}（大失败时@UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧3级}）。</p>"
+      "description": "<p>当一名流血生物在距层面10尺内结束回合时，须以@Check[will|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免成功，否则@UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧2级}（大失败时@UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧3级}）。</p>"
     },
     "Invisible Stalker": {
       "name": "隐形跟踪者 Invisible Stalker",
@@ -54,11 +54,11 @@
     },
     "Spore Cloud": {
       "name": "孢子云 Spore Cloud",
-      "description": "<p>层面散发一团孢子云，使其周围视线难以辨识。它在@Template[distance:15|type:emanation]内散发一团孢子云。孢子云内所有生物@UUID[Compendium.pf2e.kingmaker-features.tWS8aMCyeGKcnFh1]{隐蔽}，且孢子云外所有生物对云内生物视为隐蔽。孢子云持续至法术结束或被强风吹散。</p><hr><p><strong>提升（4阶）</strong> 层面之孢子云引发幻觉。真菌可在其孢子云内散发有毒气体，区域内生物须以@Check[fortitude|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免成功，否则@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}并@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞1级}（大失败时@UUID[Compendium.sf2e.conditions.yblD8fOR1J8rDwEQ]{困惑}），持续[[/r 1d4]]轮。无论结果如何，该生物之后1分钟内对此暂时免疫。</p>"
+      "description": "<p>层面散发一团孢子云，使其周围视线难以辨识。它在@Template[distance:15|type:emanation]内散发一团孢子云。孢子云内所有生物@UUID[Compendium.pf2e.kingmaker-features.tWS8aMCyeGKcnFh1]{隐蔽}，且孢子云外所有生物对云内生物视为隐蔽。孢子云持续至法术结束或被强风吹散。</p><hr><p><strong>提升（4阶）</strong> 层面之孢子云引发幻觉。真菌可在其孢子云内散发有毒气体，区域内生物须以@Check[fortitude|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免成功，否则@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}并@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞1级}（大失败时@UUID[Compendium.sf2e.conditions.yblD8fOR1J8rDwEQ]{困惑}），持续[[/r 1d4]]轮。无论结果如何，该生物之后1分钟内对此暂时免疫。</p>"
     },
     "Trample": {
       "name": "践踏 Trample",
-      "description": "<p>该生物以双倍其速度行走，并能穿过比其小一档生物之方格，对所进入方格之每一敌人发起踏过。生物在一次践踏中只能尝试踏过同一目标一次。被踏过者须以基础@Check[type:reflex|basic:true|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免，失败时承受等于该生物主要打击之伤害。</p>"
+      "description": "<p>该生物以双倍其速度行走，并能穿过比其小一档生物之方格，对所进入方格之每一敌人发起踏过。生物在一次践踏中只能尝试踏过同一目标一次。被踏过者须以基础@Check[type:reflex|basic:true|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免，失败时承受等于该生物主要打击之伤害。</p>"
     },
     "Climber": {
       "name": "攀爬者 Climber",
@@ -156,7 +156,7 @@
     },
     "Leech Environs": {
       "name": "环境吸取 Leech Environs",
-      "description": "<p>层面吸取其周围环境。@Template[distance:15|type:emanation]内所有活体生物与植物承受@Damage[(@actor.flags.pf2e.aspectRank)d8[void]]{每阶法术1d8虚空伤害}（基础@Check[fortitude|basic:true|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免）。豁免大失败的生物在[[/r 1d4]]轮内还会将恢复生命值的治疗效果减半。只要区域内至少存在1名活体生物或植物，层面便恢复生命值等于法术环两倍。无论结果如何，区域内所有非生物之植物枯萎而亡，生物则暂时免疫1分钟。</p>"
+      "description": "<p>层面吸取其周围环境。@Template[distance:15|type:emanation]内所有活体生物与植物承受@Damage[(@actor.flags.sf2e.aspectRank)d8[void]]{每阶法术1d8虚空伤害}（基础@Check[fortitude|basic:true|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免）。豁免大失败的生物在[[/r 1d4]]轮内还会将恢复生命值的治疗效果减半。只要区域内至少存在1名活体生物或植物，层面便恢复生命值等于法术环两倍。无论结果如何，区域内所有非生物之植物枯萎而亡，生物则暂时免疫1分钟。</p>"
     },
     "Hungry Flurry": {
       "name": "饥渴连击 Hungry Flurry",
@@ -204,7 +204,7 @@
     },
     "Spell Effect: Elemental Shift": {
       "name": "法术效果：元素变形 Spell Effect: Elemental Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.bK4rp20XuJRWGsEv]{元素变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.wjzn7STqTeztzg3a]{召唤元素层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.7uM4JwbEJVzFrkiH]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.bK4rp20XuJRWGsEv]{元素变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.wjzn7STqTeztzg3a]{召唤元素层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.7uM4JwbEJVzFrkiH]</p>"
     },
     "Drag Under": {
       "name": "拖入水中 Drag Under",
@@ -239,7 +239,7 @@
     },
     "Spell Effect: Plant Shift": {
       "name": "法术效果：植物变形 Spell Effect: Plant Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.qH18jW3EMywavprR]{植物变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.doZbTeqBN402j4Vh]{召唤植物层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.qDuNt0YwJX8CTZ14]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.qH18jW3EMywavprR]{植物变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.doZbTeqBN402j4Vh]{召唤植物层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.qDuNt0YwJX8CTZ14]</p>"
     },
     "Quick Siphon": {
       "name": "快速虹吸 Quick Siphon",
@@ -287,7 +287,7 @@
     },
     "Gruesome Display": {
       "name": "恐怖展示 Gruesome Display",
-      "description": "<p>当层面被打击重击命中时，@Template[distance:30|type:emanation]内之敌人须以@Check[fortitude|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免成功，否则@UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心1级}（大失败时@UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心2级}）。无论结果如何，敌人之后1分钟内对此免疫。</p>"
+      "description": "<p>当层面被打击重击命中时，@Template[distance:30|type:emanation]内之敌人须以@Check[fortitude|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免成功，否则@UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心1级}（大失败时@UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心2级}）。无论结果如何，敌人之后1分钟内对此免疫。</p>"
     },
     "Essence Conduit": {
       "name": "精质导管 Essence Conduit",
@@ -295,7 +295,7 @@
     },
     "Spell Effect: Celestial Shift": {
       "name": "法术效果：天界变形 Spell Effect: Celestial Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.96miaBWxrw1nROmn]{天界变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.CICOkQnnGwZpUX7O]{召唤天界层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.ABdvu7T0B57zoJRm]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.96miaBWxrw1nROmn]{天界变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.CICOkQnnGwZpUX7O]{召唤天界层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.ABdvu7T0B57zoJRm]</p>"
     },
     "Ephemeral Effect: Holy Divine Lance Tag": {
       "name": "瞬时效果：圣洁神圣穿矢标记 Ephemeral Effect: Holy Divine Lance Tag",
@@ -323,7 +323,7 @@
     },
     "Extra Limbs": {
       "name": "额外肢体 Extra Limbs",
-      "description": "<p>层面获得@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.W7SbTykXrNwxDzJc]{反应打击}作为反应。</p><p><strong>提升（8阶）</strong> 层面每回合可作为免费动作使用反应打击一次。</p>"
+      "description": "<p>层面获得@UUID[Compendium.sf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc]{反应打击}作为反应。</p><p><strong>提升（8阶）</strong> 层面每回合可作为免费动作使用反应打击一次。</p>"
     },
     "Gift of Flight": {
       "name": "飞行恩赐 Gift of Flight",
@@ -363,7 +363,7 @@
     },
     "Warpwave": {
       "name": "扭曲波 Warpwave",
-      "description": "<p>当层面以打击重击命中一生物时，触发扭曲波，目标须以@Check[fortitude|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免，失败时承受所列效果。掷[[/r 1d8]]并查阅下表以确定对该生物之具体效果。</p><p>除另有说明外，扭曲波效果持续[[/r 1d4]]轮，新扭曲波效果取消生物之前所有扭曲波效果。</p><p></p><table class=\"pf2e\"><thead><tr><th><p>d8</p></th><th><p>扭曲波效果</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>@UUID[Compendium.sf2e.conditions.i3OJZU2nk64Df3xm]{笨拙2级}（大失败时@UUID[Compendium.sf2e.conditions.i3OJZU2nk64Df3xm]{笨拙3级}）</p></td></tr><tr><td><p>2</p></td><td><p>@UUID[Compendium.sf2e.conditions.yblD8fOR1J8rDwEQ]{困惑}并获得[[/r 4d6]]临时生命值</p></td></tr><tr><td><p>3</p></td><td><p>@UUID[Compendium.sf2e.conditions.TkIyaNPgTZFBCCuh]{目眩}（大失败时@UUID[Compendium.sf2e.conditions.XgEqL1kFApUbl5Z2]{目盲}）</p></td></tr><tr><td><p>4</p></td><td><p>@UUID[Compendium.sf2e.conditions.MIRkyAjyBeXivMa7]{力竭2级}（大失败时@UUID[Compendium.sf2e.conditions.MIRkyAjyBeXivMa7]{力竭3级}）</p></td></tr><tr><td><p>5</p></td><td><p>被能量丝缚@UUID[Compendium.sf2e.conditions.eIcWbB5o3pP6OIMe]{禁足}</p></td></tr><tr><td><p>6</p></td><td><p>@UUID[Compendium.sf2e.conditions.nlCjDvLMf2EkV2dl]{迅捷}（仅可行走、打击或快步）</p></td></tr><tr><td><p>7</p></td><td><p>@UUID[Compendium.sf2e.conditions.xYTAsEpcJE1Ccni3]{缓慢1级}</p></td></tr><tr><td><p>8</p></td><td><p>@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞2级}（大失败时@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞3级}）</p></td></tr></tbody></table>"
+      "description": "<p>当层面以打击重击命中一生物时，触发扭曲波，目标须以@Check[fortitude|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免，失败时承受所列效果。掷[[/r 1d8]]并查阅下表以确定对该生物之具体效果。</p><p>除另有说明外，扭曲波效果持续[[/r 1d4]]轮，新扭曲波效果取消生物之前所有扭曲波效果。</p><p></p><table class=\"pf2e\"><thead><tr><th><p>d8</p></th><th><p>扭曲波效果</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>@UUID[Compendium.sf2e.conditions.i3OJZU2nk64Df3xm]{笨拙2级}（大失败时@UUID[Compendium.sf2e.conditions.i3OJZU2nk64Df3xm]{笨拙3级}）</p></td></tr><tr><td><p>2</p></td><td><p>@UUID[Compendium.sf2e.conditions.yblD8fOR1J8rDwEQ]{困惑}并获得[[/r 4d6]]临时生命值</p></td></tr><tr><td><p>3</p></td><td><p>@UUID[Compendium.sf2e.conditions.TkIyaNPgTZFBCCuh]{目眩}（大失败时@UUID[Compendium.sf2e.conditions.XgEqL1kFApUbl5Z2]{目盲}）</p></td></tr><tr><td><p>4</p></td><td><p>@UUID[Compendium.sf2e.conditions.MIRkyAjyBeXivMa7]{力竭2级}（大失败时@UUID[Compendium.sf2e.conditions.MIRkyAjyBeXivMa7]{力竭3级}）</p></td></tr><tr><td><p>5</p></td><td><p>被能量丝缚@UUID[Compendium.sf2e.conditions.eIcWbB5o3pP6OIMe]{禁足}</p></td></tr><tr><td><p>6</p></td><td><p>@UUID[Compendium.sf2e.conditions.nlCjDvLMf2EkV2dl]{迅捷}（仅可行走、打击或快步）</p></td></tr><tr><td><p>7</p></td><td><p>@UUID[Compendium.sf2e.conditions.xYTAsEpcJE1Ccni3]{缓慢1级}</p></td></tr><tr><td><p>8</p></td><td><p>@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞2级}（大失败时@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞3级}）</p></td></tr></tbody></table>"
     },
     "Underground": {
       "name": "地下 Underground",
@@ -387,23 +387,23 @@
     },
     "Spell Effect: Undead Shift": {
       "name": "法术效果：不死变形 Spell Effect: Undead Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.bt0hfAne73ZvZ096]{不死变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.hU9cFWQltvJQx3CR]{召唤不死层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.XvhS51o90MK6TqiD]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.bt0hfAne73ZvZ096]{不死变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.hU9cFWQltvJQx3CR]{召唤不死层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.XvhS51o90MK6TqiD]</p>"
     },
     "Breath Weapon": {
       "name": "喷吐武器 Breath Weapon",
-      "description": "<p>龙可释放一道龙息冲击波，对@Template[distance:15|type:cone]或@Template[distance:30|type:line]内所有生物造成@Damage[(@actor.flags.pf2e.aspectRank)d6[@actor.flags.pf2e.aspectResistance]]{每阶法术1d6伤害}（基础@Check[reflex|dc:resolve(@actor.flags.pf2e.aspectDC)|basic:true]豁免）。伤害类型由你之龙息伤害选择决定。</p><hr /><p><strong>提升（4阶）</strong> 龙息武器伤害加倍，区域随你选择扩为@Template[distance:30|type:cone]或@Template[distance:60|type:line]。</p>"
+      "description": "<p>龙可释放一道龙息冲击波，对@Template[distance:15|type:cone]或@Template[distance:30|type:line]内所有生物造成@Damage[(@actor.flags.sf2e.aspectRank)d6[@actor.flags.sf2e.aspectResistance]]{每阶法术1d6伤害}（基础@Check[reflex|dc:resolve(@actor.flags.sf2e.aspectDC)|basic:true]豁免）。伤害类型由你之龙息伤害选择决定。</p><hr /><p><strong>提升（4阶）</strong> 龙息武器伤害加倍，区域随你选择扩为@Template[distance:30|type:cone]或@Template[distance:60|type:line]。</p>"
     },
     "Effect: Sin Mark": {
       "name": "效果：罪印 Effect: Sin Mark",
-      "description": "<p>目标被罪印标记，并在罪印仍存在的每回合结束时承受等于法术环之@Damage[@origin.actor.flags.pf2e.aspectRank[mental]]心灵伤害。生物可花费一个交互动作以解除罪印。</p><p>具神圣特征之生物对此效果免疫。生物解除罪印后，1小时内暂时免疫。</p>"
+      "description": "<p>目标被罪印标记，并在罪印仍存在的每回合结束时承受等于法术环之@Damage[@origin.actor.flags.sf2e.aspectRank[mental]]心灵伤害。生物可花费一个交互动作以解除罪印。</p><p>具神圣特征之生物对此效果免疫。生物解除罪印后，1小时内暂时免疫。</p>"
     },
     "Spell Effect: Fiend Shift": {
       "name": "法术效果：魔类变形 Spell Effect: Fiend Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.3grs18Pz56xe4krE]{魔类变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.DabI586blA4U4NvI]{召唤魔类层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.zTdtg6CPxmqwus1D]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.3grs18Pz56xe4krE]{魔类变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.DabI586blA4U4NvI]{召唤魔类层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.zTdtg6CPxmqwus1D]</p>"
     },
     "Pose a Riddle": {
       "name": "出谜题 Pose a Riddle",
-      "description": "<p>层面诵出一道谜题，迫使30尺内一名生物以@Check[type:will|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免，否则须作答。豁免失败的生物@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞2级}（或大失败时@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞3级}）直至其使用任意技能@UUID[Compendium.sf2e.actions.1OagaWtBpVXExToo]{回忆知识}成功对抗与此效果相同DC，或1分钟过去（取先发生者）。</p>"
+      "description": "<p>层面诵出一道谜题，迫使30尺内一名生物以@Check[type:will|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免，否则须作答。豁免失败的生物@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞2级}（或大失败时@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞3级}）直至其使用任意技能@UUID[Compendium.sf2e.actions.1OagaWtBpVXExToo]{回忆知识}成功对抗与此效果相同DC，或1分钟过去（取先发生者）。</p>"
     },
     "Fundamental Sphere": {
       "name": "基础之球 Fundamental Sphere",
@@ -423,7 +423,7 @@
     },
     "Battering Elements": {
       "name": "撞击元素 Battering Elements",
-      "description": "<p>层面对15尺内所有生物造成每阶法术1d6伤害（基础@Check[reflex|dc:resolve(@actor.flags.pf2e.aspectDC)|basic:true]）。</p><p>该降水按你所选「水之光环」具有以下效果，并获得水或寒冷特征。</p><p><strong>翻涌光环</strong>（水）伤害为@Damage[(@actor.flags.pf2e.aspectRank)d6[bludgeoning]|traits:water]，豁免大失败的生物被推离水属元素10尺。</p><p><strong>冰冻光环</strong>（寒冷）伤害为@Damage[(@actor.flags.pf2e.aspectRank)d6[cold]|traits:cold]，豁免大失败的生物@UUID[Compendium.sf2e.conditions.eIcWbB5o3pP6OIMe]{禁足}1轮，或直至其交互以解除禁足状态。</p>"
+      "description": "<p>层面对15尺内所有生物造成每阶法术1d6伤害（基础@Check[reflex|dc:resolve(@actor.flags.sf2e.aspectDC)|basic:true]）。</p><p>该降水按你所选「水之光环」具有以下效果，并获得水或寒冷特征。</p><p><strong>翻涌光环</strong>（水）伤害为@Damage[(@actor.flags.sf2e.aspectRank)d6[bludgeoning]|traits:water]，豁免大失败的生物被推离水属元素10尺。</p><p><strong>冰冻光环</strong>（寒冷）伤害为@Damage[(@actor.flags.sf2e.aspectRank)d6[cold]|traits:cold]，豁免大失败的生物@UUID[Compendium.sf2e.conditions.eIcWbB5o3pP6OIMe]{禁足}1轮，或直至其交互以解除禁足状态。</p>"
     },
     "Old-Mage's Echo": {
       "name": "古法师之回响 Old-Mage's Echo",
@@ -457,13 +457,9 @@
       "name": "恶心恐惧 Sickening Fear",
       "description": "<p>层面以30尺内一名惊惧状态生物为目标。该生物@UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心1级}。目标之后1分钟内暂时免疫。</p>"
     },
-    "Template Aspect Shift": {
-      "name": "模板层面变形 Template Aspect Shift",
-      "description": "<p><em>由???赋予。</em></p><hr /><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr /><p>@Embed[]</p>"
-    },
     "Spell Effect: Thurse Shift": {
       "name": "法术效果：霜巨变形 Spell Effect: Thurse Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.dhkn1t8nbHrlqQ99]{霜巨变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.6uh4scwO9VIrtnQm]{召唤霜巨层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.YnKV7I548K8EH9JW]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.dhkn1t8nbHrlqQ99]{霜巨变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.6uh4scwO9VIrtnQm]{召唤霜巨层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.YnKV7I548K8EH9JW]</p>"
     },
     "Effect: Mystic Link": {
       "name": "效果：神秘链结 Effect: Mystic Link",
@@ -471,11 +467,11 @@
     },
     "Spell Effect: Ooze Shift": {
       "name": "法术效果：黏液变形 Spell Effect: Ooze Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.5eSjwMuWowftlcwz]{黏液变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.3AwQzAMzlMelYB8Z]{召唤黏液层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.HqRDK6jf5vAVwt2l]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.5eSjwMuWowftlcwz]{黏液变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.3AwQzAMzlMelYB8Z]{召唤黏液层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.HqRDK6jf5vAVwt2l]</p>"
     },
     "Spell Effect: Animal Shift": {
       "name": "法术效果：动物变形 Spell Effect: Animal Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.lV8etIlOczlCbJ46]{动物变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.3DSNbxe36dMAwXpC]{召唤动物层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.3K8036kor5oCkGQ5]{动物层面}</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.lV8etIlOczlCbJ46]{动物变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.3DSNbxe36dMAwXpC]{召唤动物层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.3K8036kor5oCkGQ5]{动物层面}</p>"
     },
     "Freezing Aura": {
       "name": "冰冻光环 Freezing Aura",
@@ -483,7 +479,7 @@
     },
     "Spell Effect: Fey Shift": {
       "name": "法术效果：精类变形 Spell Effect: Fey Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.R7ZH1KTuVqFtxjNG]{精类变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.PNGQnKyWQ9ydD9P8]{召唤精类层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.uhw3SFYeTt13E6K2]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.R7ZH1KTuVqFtxjNG]{精类变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.PNGQnKyWQ9ydD9P8]{召唤精类层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.uhw3SFYeTt13E6K2]</p>"
     },
     "Envisioning": {
       "name": "构想 Envisioning",
@@ -507,7 +503,7 @@
     },
     "Heat Aura": {
       "name": "炽热光环 Heat Aura",
-      "description": "<p>层面散发出炽热。它在区域内散发明亮光线，并向外15尺散发昏暗光线。在明亮光线区域内结束回合的生物承受等于法术环两倍的火焰伤害（@Damage[(@actor.flags.pf2e.aspectRank * 2)[fire]]），基础@Check[fortitude|dc:resolve(@actor.flags.pf2e.aspectDC)|basic:true]豁免。层面可花费具专注特征之单一动作压制或恢复此光环之伤害。层面免疫自身炽热光环。</p><hr /><p><strong>提升（4阶）</strong> 在层面炽热光环对抗豁免失败的生物承受等于法术环之持续火焰伤害（@Damage[(@actor.flags.pf2e.aspectRank)[fire, persistent]]），大失败时为法术环两倍（@Damage[(@actor.flags.pf2e.aspectRank * 2)[persistent,fire]]）。区域内可燃物体亦可能起火（由GM裁定）。</p>"
+      "description": "<p>层面散发出炽热。它在区域内散发明亮光线，并向外15尺散发昏暗光线。在明亮光线区域内结束回合的生物承受等于法术环两倍的火焰伤害（@Damage[(@actor.flags.sf2e.aspectRank * 2)[fire]]），基础@Check[fortitude|dc:resolve(@actor.flags.sf2e.aspectDC)|basic:true]豁免。层面可花费具专注特征之单一动作压制或恢复此光环之伤害。层面免疫自身炽热光环。</p><hr /><p><strong>提升（4阶）</strong> 在层面炽热光环对抗豁免失败的生物承受等于法术环之持续火焰伤害（@Damage[(@actor.flags.sf2e.aspectRank)[fire, persistent]]），大失败时为法术环两倍（@Damage[(@actor.flags.sf2e.aspectRank * 2)[persistent,fire]]）。区域内可燃物体亦可能起火（由GM裁定）。</p>"
     },
     "Effect: Eldritch Energy": {
       "name": "效果：诡奇能量 Effect: Eldritch Energy",
@@ -519,11 +515,11 @@
     },
     "Psychopomp's Dirge": {
       "name": "引魂使者之挽歌 Psychopomp's Dirge",
-      "description": "<p>层面散发一段引来亡者注意之旋律。@Template[distance:30|type:emanation]内每只不死生物须以@Check[will|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免成功，否则对层面@UUID[Compendium.sf2e.conditions.AdPVz7rbaVSRxHFg]{迷魂}。效果持续至层面下回合结束，但层面可继续奏乐以维持效果。尽管为心灵效果，此能力亦影响无心智不死生物。无论结果如何，该生物之后1天内对此暂时免疫。</p>"
+      "description": "<p>层面散发一段引来亡者注意之旋律。@Template[distance:30|type:emanation]内每只不死生物须以@Check[will|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免成功，否则对层面@UUID[Compendium.sf2e.conditions.AdPVz7rbaVSRxHFg]{迷魂}。效果持续至层面下回合结束，但层面可继续奏乐以维持效果。尽管为心灵效果，此能力亦影响无心智不死生物。无论结果如何，该生物之后1天内对此暂时免疫。</p>"
     },
     "Dream Eater": {
       "name": "食梦者 Dream Eater",
-      "description": "<p>层面食取30尺内一名失去意识生物之梦境，致目标承受@Damage[(@actor.flags.pf2e.aspectRank)d8[mental]]每阶法术心灵伤害（基础@Check[type:will|basic:true|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免），且此效果之伤害不会解除失去意识状态。层面获得等于法术环之临时生命值。</p>"
+      "description": "<p>层面食取30尺内一名失去意识生物之梦境，致目标承受@Damage[(@actor.flags.sf2e.aspectRank)d8[mental]]每阶法术心灵伤害（基础@Check[type:will|basic:true|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免），且此效果之伤害不会解除失去意识状态。层面获得等于法术环之临时生命值。</p>"
     },
     "Spell Effect: Untamed Aspect Shift": {
       "name": "法术效果：未驯层面变形 Spell Effect: Untamed Aspect Shift",
@@ -550,7 +546,7 @@
     },
     "Capture Soul": {
       "name": "捕灵 Capture Soul",
-      "description": "<p>层面尝试捕捉一名活体生物或不死生物之灵魂。目标须以@Check[will|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免，但生命值超过40的生物视其结果为正常一阶之上。如层面以活体生物为目标，此活动获得死亡特征。无论结果如何，该生物之后1分钟内暂时免疫。</p><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 如该生物为活体，则@UUID[Compendium.sf2e.conditions.4D2KBtexWXa6oUMR]{流失1级}（或将流失状态等级提升1）。如为实体不死，则@UUID[Compendium.sf2e.conditions.MIRkyAjyBeXivMa7]{力竭2级}1分钟。如为非实体不死，则@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞2级}1分钟。</p><p><strong>大失败</strong> 层面捕获该生物之灵魂。如其为活体则死亡，如为不死则被毁，且其灵魂回归层面。层面法术随即结束，因层面将灵魂送回骨园。</p>"
+      "description": "<p>层面尝试捕捉一名活体生物或不死生物之灵魂。目标须以@Check[will|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免，但生命值超过40的生物视其结果为正常一阶之上。如层面以活体生物为目标，此活动获得死亡特征。无论结果如何，该生物之后1分钟内暂时免疫。</p><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 如该生物为活体，则@UUID[Compendium.sf2e.conditions.4D2KBtexWXa6oUMR]{流失1级}（或将流失状态等级提升1）。如为实体不死，则@UUID[Compendium.sf2e.conditions.MIRkyAjyBeXivMa7]{力竭2级}1分钟。如为非实体不死，则@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞2级}1分钟。</p><p><strong>大失败</strong> 层面捕获该生物之灵魂。如其为活体则死亡，如为不死则被毁，且其灵魂回归层面。层面法术随即结束，因层面将灵魂送回骨园。</p>"
     },
     "Captivating Performer": {
       "name": "迷人表演者 Captivating Performer",
@@ -566,7 +562,7 @@
     },
     "Disgusting Anatomy": {
       "name": "令人作呕的解剖 Disgusting Anatomy",
-      "description": "<p>层面之躯以令旁观者作呕之方式行动。生物首次进入光环时须以@Check[fortitude|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免成功，否则@UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心1级}（大失败时@UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心2级}）。无论结果如何，该生物之后1分钟内暂时免疫。</p>"
+      "description": "<p>层面之躯以令旁观者作呕之方式行动。生物首次进入光环时须以@Check[fortitude|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免成功，否则@UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心1级}（大失败时@UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心2级}）。无论结果如何，该生物之后1分钟内暂时免疫。</p>"
     },
     "Spell Effect: Glutton For Blood": {
       "name": "法术效果：嗜血者 Spell Effect: Glutton For Blood",
@@ -614,11 +610,11 @@
     },
     "Spears of War": {
       "name": "战争之矛 Spears of War",
-      "description": "<p>层面可释放矛之风暴，对@Template[distance:30|type:cone]内所有生物造成@Damage[(@actor.flags.pf2e.aspectRank)d8[force]]{每阶法术1d8力场}、@Damage[(@actor.flags.pf2e.aspectRank)d8[piercing]]{穿刺}或@Damage[(@actor.flags.pf2e.aspectRank)d8[electricity]]{电击}伤害（基础@Check[reflex|dc:resolve(@actor.flags.pf2e.aspectDC)|basic:true]豁免）。</p>"
+      "description": "<p>层面可释放矛之风暴，对@Template[distance:30|type:cone]内所有生物造成@Damage[(@actor.flags.sf2e.aspectRank)d8[force]]{每阶法术1d8力场}、@Damage[(@actor.flags.sf2e.aspectRank)d8[piercing]]{穿刺}或@Damage[(@actor.flags.sf2e.aspectRank)d8[electricity]]{电击}伤害（基础@Check[reflex|dc:resolve(@actor.flags.sf2e.aspectDC)|basic:true]豁免）。</p>"
     },
     "Cognitohazard": {
       "name": "认知危害 Cognitohazard",
-      "description": "<p>直视此层面令人发狂。生物首次进入光环时须以@Check[type:will|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免成功，否则@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞1级}（大失败时@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞2级}）持续[[/r 1d4#Cognitohazard Stupefied Duration]]轮。无论结果如何，该生物之后1分钟内暂时免疫。</p>"
+      "description": "<p>直视此层面令人发狂。生物首次进入光环时须以@Check[type:will|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免成功，否则@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞1级}（大失败时@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞2级}）持续[[/r 1d4#Cognitohazard Stupefied Duration]]轮。无论结果如何，该生物之后1分钟内暂时免疫。</p>"
     },
     "Spell Effect: Hemophilia": {
       "name": "法术效果：血友病 Spell Effect: Hemophilia",
@@ -642,7 +638,7 @@
     },
     "Frightening Features": {
       "name": "骇人特征 Frightening Features",
-      "description": "<p>层面之外貌令众多生物苦恼。生物首次进入光环时须以@Check[type:will|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免成功，否则@UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧1级}（大失败时@UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧2级}）。无论结果如何，该生物之后1分钟内暂时免疫。</p><hr><p><em>此外，层面对惊惧状态生物每枚武器伤害骰额外造成1点伤害。</em></p><hr><p><strong>提升（8阶）</strong> 「骇人特征」之范围扩大至30尺，对惊惧生物之额外伤害加倍。</p>"
+      "description": "<p>层面之外貌令众多生物苦恼。生物首次进入光环时须以@Check[type:will|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免成功，否则@UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧1级}（大失败时@UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧2级}）。无论结果如何，该生物之后1分钟内暂时免疫。</p><hr><p><em>此外，层面对惊惧状态生物每枚武器伤害骰额外造成1点伤害。</em></p><hr><p><strong>提升（8阶）</strong> 「骇人特征」之范围扩大至30尺，对惊惧生物之额外伤害加倍。</p>"
     },
     "Energized": {
       "name": "充能 Energized",
@@ -654,7 +650,7 @@
     },
     "Spell Effect: Monitor Shift": {
       "name": "法术效果：监督变形 Spell Effect: Monitor Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.uf5cKXqsQYWJ75xj]{监督变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.dEde2XsZbJHxQknx]{召唤监督层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.C6JZEcra03J2ysI4]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.uf5cKXqsQYWJ75xj]{监督变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.dEde2XsZbJHxQknx]{召唤监督层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.C6JZEcra03J2ysI4]</p>"
     },
     "Spell Effect: Dynamic Shield 2": {
       "name": "法术效果：动态盾牌2 Spell Effect: Dynamic Shield 2",
@@ -682,7 +678,7 @@
     },
     "Spell Effect: Dragon Shift": {
       "name": "法术效果：龙族变形 Spell Effect: Dragon Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.d8OboK14CSqs7N7p]{龙族变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.l5vsZK7L8GtFvF4O]{召唤龙族层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.XaX4kPgcKyHxbVZS]{龙族层面}</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.d8OboK14CSqs7N7p]{龙族变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.l5vsZK7L8GtFvF4O]{召唤龙族层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.XaX4kPgcKyHxbVZS]{龙族层面}</p>"
     },
     "Bleeding Spell": {
       "name": "流血法术 Bleeding Spell",
@@ -698,7 +694,7 @@
     },
     "Spell Effect: Pest Shift": {
       "name": "法术效果：害虫变形 Spell Effect: Pest Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.TXZWyxFYuhQeQ5ue]{害虫变形}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.XbPY6LojeQrqUfjI]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.TXZWyxFYuhQeQ5ue]{害虫变形}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.XbPY6LojeQrqUfjI]</p>"
     },
     "Liberate": {
       "name": "解放 Liberate",
@@ -706,11 +702,11 @@
     },
     "Weight of Sins": {
       "name": "罪行之重 Weight of Sins",
-      "description": "<p>层面在30尺内选择一名非神圣生物，将其罪行之重压至其心。该生物承受@Damage[(@actor.flags.pf2e.aspectRank)d6[mental]]每阶法术心灵伤害（基础@Check[will|basic:true|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免）。如该生物被罪击标记，则承受双倍伤害。无论结果如何，该生物之后1小时内暂时免疫。</p>"
+      "description": "<p>层面在30尺内选择一名非神圣生物，将其罪行之重压至其心。该生物承受@Damage[(@actor.flags.sf2e.aspectRank)d6[mental]]每阶法术心灵伤害（基础@Check[will|basic:true|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免）。如该生物被罪击标记，则承受双倍伤害。无论结果如何，该生物之后1小时内暂时免疫。</p>"
     },
     "Terrifying Shriek": {
       "name": "骇人尖啸 Terrifying Shriek",
-      "description": "<p>层面发出令人毛骨悚然之尖啸或恐怖展示，对@Template[distance:15|type:emanation]内所有生物造成@Damage[(2 * @actor.flags.pf2e.aspectRank)d6[mental]]{每阶法术2d6伤害}（基础@Check[will|basic:true|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免）。豁免大失败的生物@UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧2级}。</p>"
+      "description": "<p>层面发出令人毛骨悚然之尖啸或恐怖展示，对@Template[distance:15|type:emanation]内所有生物造成@Damage[(2 * @actor.flags.sf2e.aspectRank)d6[mental]]{每阶法术2d6伤害}（基础@Check[will|basic:true|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免）。豁免大失败的生物@UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧2级}。</p>"
     },
     "Effect: Savior's Grace": {
       "name": "效果：救主恩典 Effect: Savior's Grace",
@@ -742,7 +738,7 @@
     },
     "Effect: Velstrac Bloodsense": {
       "name": "效果：维斯特拉克血感 Effect: Velstrac Bloodsense",
-      "description": "<p>当其血腥嗅觉范围内一生物承受持续流血伤害时，其恢复@Damage[@origin.actor.flags.pf2e.aspectRank[heal]]等于法术环之生命值。</p>"
+      "description": "<p>当其血腥嗅觉范围内一生物承受持续流血伤害时，其恢复@Damage[@origin.actor.flags.sf2e.aspectRank[heal]]等于法术环之生命值。</p>"
     },
     "Aquatic Habitat": {
       "name": "水栖之地 Aquatic Habitat",
@@ -754,7 +750,7 @@
     },
     "Aftershock": {
       "name": "余震 Aftershock",
-      "description": "<p>层面对15尺内所有生物造成@Damage[(@actor.flags.pf2e.aspectRank)d6[bludgeoning]]{每阶法术1d6伤害}（基础@Check[reflex|dc:resolve(@actor.flags.pf2e.aspectDC)|basic:true]豁免）。豁免大失败的生物被击@UUID[Compendium.sf2e.conditions.j91X7x0XSomq8d60]{倒地}。</p>"
+      "description": "<p>层面对15尺内所有生物造成@Damage[(@actor.flags.sf2e.aspectRank)d6[bludgeoning]]{每阶法术1d6伤害}（基础@Check[reflex|dc:resolve(@actor.flags.sf2e.aspectDC)|basic:true]豁免）。豁免大失败的生物被击@UUID[Compendium.sf2e.conditions.j91X7x0XSomq8d60]{倒地}。</p>"
     },
     "Effect: Energy Ablation": {
       "name": "效果：能量消融 Effect: Energy Ablation",
@@ -798,7 +794,7 @@
     },
     "Behold!": {
       "name": "目睹之！ Behold!",
-      "description": "<p>层面对@Template[type:emanation|distance:30]{30尺}内所有敌人显露其真容。区域内生物须以@Check[will|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免成功，否则@UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧1级}（大失败时@UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧2级}）。</p><p>惊惧生物失去对来自层面效果之火焰伤害的抗性或免疫。生物之后1分钟内对此效果暂时免疫。</p>"
+      "description": "<p>层面对@Template[type:emanation|distance:30]{30尺}内所有敌人显露其真容。区域内生物须以@Check[will|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免成功，否则@UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧1级}（大失败时@UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧2级}）。</p><p>惊惧生物失去对来自层面效果之火焰伤害的抗性或免疫。生物之后1分钟内对此效果暂时免疫。</p>"
     },
     "Effect: Energy Abjection": {
       "name": "效果：能量摒弃 Effect: Energy Abjection",
@@ -810,7 +806,7 @@
     },
     "Timber!": {
       "name": "倒木！ Timber!",
-      "description": "<p>层面倒地，并对自身及@Template[distance:10|type:line]内之生物造成@Damage[(2 * @actor.flags.pf2e.aspectRank)d6[bludgeoning]]{每阶法术2d6钝击伤害}（基础@Check[reflex|basic:true|dc:resolve(@actor.flags.pf2e.aspectDC)]豁免）。豁免大失败的生物亦被击@UUID[Compendium.sf2e.conditions.j91X7x0XSomq8d60]{倒地}。如层面体型为巨大型，则线长扩为@Template[distance:20|type:line]；如为超大型，则扩为@Template[distance:40|type:line]。</p>"
+      "description": "<p>层面倒地，并对自身及@Template[distance:10|type:line]内之生物造成@Damage[(2 * @actor.flags.sf2e.aspectRank)d6[bludgeoning]]{每阶法术2d6钝击伤害}（基础@Check[reflex|basic:true|dc:resolve(@actor.flags.sf2e.aspectDC)]豁免）。豁免大失败的生物亦被击@UUID[Compendium.sf2e.conditions.j91X7x0XSomq8d60]{倒地}。如层面体型为巨大型，则线长扩为@Template[distance:20|type:line]；如为超大型，则扩为@Template[distance:40|type:line]。</p>"
     },
     "Spell Effect: Bewilder": {
       "name": "法术效果：困惑 Spell Effect: Bewilder",
@@ -826,7 +822,7 @@
     },
     "Grove Aura": {
       "name": "林苑光环 Grove Aura",
-      "description": "<p>植物在木属层面周围迅速生长，生机盎然。每回合首次有生物使用具植物或木属特征之动作或活动时，该生物恢复等于法术环两倍之生命值（@Damage[(2 * @actor.flags.pf2e.aspectRank)[healing]]）（取召唤该木属元素之法术）。</p>"
+      "description": "<p>植物在木属层面周围迅速生长，生机盎然。每回合首次有生物使用具植物或木属特征之动作或活动时，该生物恢复等于法术环两倍之生命值（@Damage[(2 * @actor.flags.sf2e.aspectRank)[healing]]）（取召唤该木属元素之法术）。</p>"
     },
     "Undergrowth Empowerment": {
       "name": "草丛增能 Undergrowth Empowerment",
@@ -850,7 +846,7 @@
     },
     "Torment": {
       "name": "折磨 Torment",
-      "description": "<p><strong>需求</strong> 维斯特拉克之上一动作为对一生物成功打击。</p><hr /><p>当层面进一步折磨敌人时，触发生物承受@Damage[@actor.flags.pf2e.aspectRank[persistent,bleed]]等于法术环之伤害。</p>"
+      "description": "<p><strong>需求</strong> 维斯特拉克之上一动作为对一生物成功打击。</p><hr /><p>当层面进一步折磨敌人时，触发生物承受@Damage[@actor.flags.sf2e.aspectRank[persistent,bleed]]等于法术环之伤害。</p>"
     },
     "Caster": {
       "name": "施法者 Caster",
@@ -858,7 +854,7 @@
     },
     "Quick Capture": {
       "name": "快速捕获 Quick Capture",
-      "description": "<p><strong>触发</strong> 一名生物在层面触及范围内结束回合</p><hr><p>层面进行运动检定以@UUID[Compendium.sf2e.actions.PMbdMWc2QroouFGD]{擒拿}触发生物。</p><hr><p><strong>提升（4阶）</strong> 当层面以其主要攻击打击成功时，可使用快速捕获。此外，被层面受擒或束缚的生物在结束回合时承受@Damage[(@actor.flags.pf2e.aspectRank * 2)[@actor.flags.pf2e.damageTypeConCarne]]{法术环两倍}之伤害。伤害类型与其主要攻击之类型相同。</p>"
+      "description": "<p><strong>触发</strong> 一名生物在层面触及范围内结束回合</p><hr><p>层面进行运动检定以@UUID[Compendium.sf2e.actions.PMbdMWc2QroouFGD]{擒拿}触发生物。</p><hr><p><strong>提升（4阶）</strong> 当层面以其主要攻击打击成功时，可使用快速捕获。此外，被层面受擒或束缚的生物在结束回合时承受@Damage[(@actor.flags.sf2e.aspectRank * 2)[@actor.flags.sf2e.damageTypeConCarne]]{法术环两倍}之伤害。伤害类型与其主要攻击之类型相同。</p>"
     },
     "Legendary Cry": {
       "name": "传奇呼号 Legendary Cry",
@@ -866,7 +862,7 @@
     },
     "Gift of Vitality": {
       "name": "活力恩赐 Gift of Vitality",
-      "description": "<p>层面是完全善良之生物。层面可作为单一动作恢复@Damage[(max(@actor.flags.pf2e.aspectRank,1))d6[healing]]每阶法术生命值至与其相邻之生物。该生物之后1小时内对此效果暂时免疫。</p><hr><p><strong>提升（4阶）</strong> 层面从其天界恩赐获得额外效益。</p><ul><li><p><strong>阿迦松</strong></p><ul><li><p><strong>活力恩赐</strong> 层面可对相邻生物造成等量生命力伤害，基础@Check[fortitude|dc:resolve(@actor.flags.pf2e.aspectDC)|basic:true]豁免。</p></li></ul></li><li><p><strong>天使</strong></p><ul><li><p><strong>活力恩赐</strong> 层面可施放@UUID[Compendium.sf2e.spells.rfZpqmj0AIIdkVIs]{治疗术}，等于法术环一半，但若如此则层面法术结束。</p></li></ul></li><li><p><strong>执政天使</strong></p><ul><li><p><strong>活力恩赐</strong> 层面在使用执政天使护佑时若触发敌人在其触及范围内，可对其进行近战打击。</p></li></ul></li><li><p><strong>阿扎塔</strong></p><ul><li><p><strong>活力恩赐</strong> 层面以歌声鼓舞所有范围内之者。30尺内所有盟友对攻击检定获得+1状态加值。</p></li></ul></li></ul>"
+      "description": "<p>层面是完全善良之生物。层面可作为单一动作恢复@Damage[(max(@actor.flags.sf2e.aspectRank,1))d6[healing]]每阶法术生命值至与其相邻之生物。该生物之后1小时内对此效果暂时免疫。</p><hr><p><strong>提升（4阶）</strong> 层面从其天界恩赐获得额外效益。</p><ul><li><p><strong>阿迦松</strong></p><ul><li><p><strong>活力恩赐</strong> 层面可对相邻生物造成等量生命力伤害，基础@Check[fortitude|dc:resolve(@actor.flags.sf2e.aspectDC)|basic:true]豁免。</p></li></ul></li><li><p><strong>天使</strong></p><ul><li><p><strong>活力恩赐</strong> 层面可施放@UUID[Compendium.sf2e.spells.rfZpqmj0AIIdkVIs]{治疗术}，等于法术环一半，但若如此则层面法术结束。</p></li></ul></li><li><p><strong>执政天使</strong></p><ul><li><p><strong>活力恩赐</strong> 层面在使用执政天使护佑时若触发敌人在其触及范围内，可对其进行近战打击。</p></li></ul></li><li><p><strong>阿扎塔</strong></p><ul><li><p><strong>活力恩赐</strong> 层面以歌声鼓舞所有范围内之者。30尺内所有盟友对攻击检定获得+1状态加值。</p></li></ul></li></ul>"
     },
     "Effect: Calling Rune": {
       "name": "效果：呼唤符文 Effect: Calling Rune",
@@ -882,7 +878,7 @@
     },
     "Spell Effect: Construct Shift": {
       "name": "法术效果：构装变形 Spell Effect: Construct Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.Z7jVUX8dvTfWq1Ul]{构装变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.RwH4iPmNmCHkyBQ2]{召唤构装层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.VNtyYlVBQoNGAthk]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.Z7jVUX8dvTfWq1Ul]{构装变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.RwH4iPmNmCHkyBQ2]{召唤构装层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.VNtyYlVBQoNGAthk]</p>"
     },
     "Tools of Darkness": {
       "name": "黑暗之具 Tools of Darkness",
@@ -894,7 +890,7 @@
     },
     "Spell Effect: Aberration Shift": {
       "name": "法术效果：异种变形 Spell Effect: Aberration Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.mBZA39OruYMaOUc2]{异种变形}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.pf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.pf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.xDO6Iqzk8uT6l0U3]{实体层面}</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.mBZA39OruYMaOUc2]{异种变形}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.xDO6Iqzk8uT6l0U3]{实体层面}</p>"
     },
     "Hunter of Death": {
       "name": "死亡猎手 Hunter of Death",
@@ -914,7 +910,7 @@
     },
     "Splinter Wood": {
       "name": "裂木 Splinter Wood",
-      "description": "<p>木属元素使30尺内一处@Template[type:burst|distance:15]内之非魔法木质物体承受@Damage[(@actor.flags.pf2e.aspectRank)d8[piercing]]{每阶法术1d8穿刺伤害}（基础@Check[fortitude|dc:resolve(@actor.flags.pf2e.aspectDC)|basic:true]豁免）。与因此能力获得破损状态或被毁之木质物体相邻之生物，亦承受该法术之伤害。</p>"
+      "description": "<p>木属元素使30尺内一处@Template[type:burst|distance:15]内之非魔法木质物体承受@Damage[(@actor.flags.sf2e.aspectRank)d8[piercing]]{每阶法术1d8穿刺伤害}（基础@Check[fortitude|dc:resolve(@actor.flags.sf2e.aspectDC)|basic:true]豁免）。与因此能力获得破损状态或被毁之木质物体相邻之生物，亦承受该法术之伤害。</p>"
     }
   }
 }

@@ -5,16 +5,16 @@ const uuidTail=s=>s?.split('.').at(-1);
 const actionGroups=[['daring-swing',[39,40,41]],['haughty-correction',[42,43,44,45,46,47]],['entrap-confession',[48,49,50,51,52,53]]];
 const constantValues={'${t(a)["pf2e.actionspf2e"]}':'pf2e.actionspf2e','${t(a)["pf2e.conditionitems"]}':'pf2e.conditionitems'};
 
-export function createPresentationAdapter({game,data,fetchSource=path=>fetch(path).then(r=>{if(!r.ok)throw Error(r.status);return r.text()}),verifiedModules=new Set()}) {
+export function createPresentationAdapter({game,data,fetchSource=path=>fetch(path).then(r=>{if(!r.ok)throw Error(r.status);return r.text()})}) {
  const ui=new Map(data.ui.map(x=>[x.id,x])),observers=new WeakMap(),pending=new WeakSet();
  const diagnostics={sourceChecks:[],applications:0,dynamicApplied:0,uiApplied:0,failures:[]};
  const unit=n=>ui.get(`ui-${String(n).padStart(3,'0')}`);
- const verifiedVersions=new Map([...verifiedModules].map(mid=>[mid,game.modules.get(mid)?.version]));
+ // Upstream is recognised by module id and by each row's exact source text, never by version or file hash.
  const allowed=mid=>{
-  try {const m=game.modules.get(mid),p=data.profiles[mid];return game.system?.id===data.system
+  try {const m=game.modules.get(mid);return game.system?.id===data.system
    && game.i18n?.lang==='cn'
    && game.modules.get(EXTRA)?.active===true&&['full','ondemand'].includes(game.settings.get('babele','loadingMode'))
-   && !!p&&m?.active===true&&verifiedModules.has(mid)&&verifiedVersions.get(mid)===m.version;
+   && Object.hasOwn(data.profiles,mid)&&m?.active===true;
   } catch{return false;}
  };
  const optional=mid=>Object.hasOwn(data.optional,mid)&&game.modules.get(mid)?.active===true;
@@ -49,10 +49,11 @@ export function createPresentationAdapter({game,data,fetchSource=path=>fetch(pat
    }
   }
  }
- async function verifySources(){
+ /** Record whether the running source is one that was reviewed; diagnostics only, never a gate. */
+ async function recordSources(){
+  diagnostics.sourceChecks.length=0;
   const results=await Promise.allSettled(Object.keys(data.profiles).map(async mid=>{
-   const module=game.modules.get(mid),version=module?.version,profile=data.profiles[mid];
-   verifiedModules.delete(mid);verifiedVersions.delete(mid);
+   const module=game.modules.get(mid),profile=data.profiles[mid];
    if(!module?.active||!profile)return;
    const sources=new Map();
    const checks=await Promise.allSettled([profile,...Object.values(profile.additionalVersions??{})].map(async p=>{
@@ -61,8 +62,8 @@ export function createPresentationAdapter({game,data,fetchSource=path=>fetch(pat
      return await sources.get(path)===hash;
     }));return matches.every(Boolean);
    }));
-   const pass=checks.some(r=>r.status==='fulfilled'&&r.value===true)&&game.modules.get(mid)?.active===true&&game.modules.get(mid)?.version===version;
-   diagnostics.sourceChecks.push({module:mid,pass});if(pass){verifiedModules.add(mid);verifiedVersions.set(mid,version);}
+   const reviewed=checks.some(r=>r.status==='fulfilled'&&r.value===true);
+   diagnostics.sourceChecks.push({module:mid,version:module.version,reviewed});
   }));
   for(const r of results)if(r.status==='rejected')diagnostics.failures.push(String(r.reason));
   return diagnostics.sourceChecks;
@@ -271,5 +272,5 @@ export function createPresentationAdapter({game,data,fetchSource=path=>fetch(pat
   notification(list);watch(list,()=>notification(list));
  }
  async function application(app,html){await dialog(app,html);settings(app,html);dailies(app,html);}
- return {allowed,verifySources,headerButtons,itemSheet,actorSheet,dialog,settings,dailies,chat,application,notification,installNotifications,displayedName,dynamicIn,diagnostics};
+ return {allowed,recordSources,headerButtons,itemSheet,actorSheet,dialog,settings,dailies,chat,application,notification,installNotifications,displayedName,dynamicIn,diagnostics};
 }

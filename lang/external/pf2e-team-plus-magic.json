@@ -1,7 +1,8 @@
 {
   "PF2E": {
     "RuleElement": {
-      "AspectForm": "层面形态 (Magic+)"
+      "AspectForm": "层面形态 (Magic+)",
+      "AdjustAspect": "调整层面 (Magic+)"
     }
   }
 }
