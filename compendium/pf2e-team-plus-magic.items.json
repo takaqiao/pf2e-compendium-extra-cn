@@ -140,6 +140,34 @@
         {
           "value": "你知道至少一个层面战斗形态法术"
         }
+      ],
+      "ruleTexts": [
+        {
+          "path": [
+            2,
+            "label"
+          ],
+          "source": "Colossal Aspect Form",
+          "translation": "巨像层面形态"
+        },
+        {
+          "path": [
+            2,
+            "option",
+            "label"
+          ],
+          "source": "Colossal Aspect Form",
+          "translation": "巨像层面形态"
+        },
+        {
+          "path": [
+            2,
+            "option",
+            "hint"
+          ],
+          "source": "Gargantuan, 6 by 6 squares, 25-foot reach, and the Trample aspect ability.",
+          "translation": "巨型，占据6格×6格，触及25尺，并获得践踏层面能力。"
+        }
       ]
     },
     "Empyreal Dragonbreath Greatsword (Major)": {
@@ -1293,6 +1321,24 @@
       "prerequisites": [
         {
           "value": "无羁形态"
+        }
+      ],
+      "ruleTexts": [
+        {
+          "path": [
+            5,
+            "label"
+          ],
+          "source": "Soaring Shape",
+          "translation": "翱翔形态"
+        },
+        {
+          "path": [
+            6,
+            "label"
+          ],
+          "source": "Soaring Shape",
+          "translation": "翱翔形态"
         }
       ]
     },

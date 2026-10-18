@@ -22,7 +22,7 @@ jobs:
         run: node --test tests/world-clock-i18n.test.mjs
 
       - name: Verify core version labels and Team+ adapters
-        run: node --test tests/core-version-labels.test.mjs tests/team-plus-presentation-versions.test.mjs tests/team-plus-rule-text.test.mjs
+        run: node --test tests/core-version-labels.test.mjs tests/team-plus-presentation-versions.test.mjs tests/team-plus-rule-text.test.mjs tests/team-plus-aspect-presentation.test.mjs
 
       - name: Verify versioned bestiary sources and HAD migration
         run: node --test tests/versioned-bestiary-sources.test.mjs scripts/test-hero-deck-compat.mjs tests/bob-check-dc.test.mjs tests/bob-gallery-version.test.mjs

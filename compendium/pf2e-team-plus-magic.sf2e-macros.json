@@ -2,49 +2,94 @@
   "label": "宏（SF2e） Macros",
   "entries": {
     "Summon Celestial Aspect": {
-      "name": "召唤天界层面 Summon Celestial Aspect"
+      "name": "召唤天界层面 Summon Celestial Aspect",
+      "aspectMessages": {
+        "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.5XcIPo95buZhwrzv"
+      }
     },
     "Summon Entity Aspect": {
-      "name": "召唤实体层面 Summon Entity Aspect"
+      "name": "召唤实体层面 Summon Entity Aspect",
+      "aspectMessages": {
+        "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.8aXsOzBSLPYSYOta"
+      }
     },
     "Summon Fiend Aspect": {
-      "name": "召唤魔类层面 Summon Fiend Aspect"
+      "name": "召唤魔类层面 Summon Fiend Aspect",
+      "aspectMessages": {
+        "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.BWW9xQ4rGI81L4KI"
+      }
     },
     "Summon Dragon Aspect": {
-      "name": "召唤龙族层面 Summon Dragon Aspect"
+      "name": "召唤龙族层面 Summon Dragon Aspect",
+      "aspectMessages": {
+        "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.GvjC0mbROC1FyiZp"
+      }
     },
     "Summon Monitor Aspect": {
-      "name": "召唤监督层面 Summon Monitor Aspect"
+      "name": "召唤监督层面 Summon Monitor Aspect",
+      "aspectMessages": {
+        "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.IOhLUVDS8YFWn6oS"
+      }
     },
     "Summon Ooze Aspect": {
-      "name": "召唤黏液层面 Summon Ooze Aspect"
+      "name": "召唤黏液层面 Summon Ooze Aspect",
+      "aspectMessages": {
+        "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.PP7f16PmxFqgNgPM"
+      }
     },
     "Summon Fey Aspect": {
-      "name": "召唤精类层面 Summon Fey Aspect"
+      "name": "召唤精类层面 Summon Fey Aspect",
+      "aspectMessages": {
+        "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.QBuwWXb7rBcpexLn"
+      }
     },
     "Summon Animal Aspect": {
-      "name": "召唤动物层面 Summon Animal Aspect"
+      "name": "召唤动物层面 Summon Animal Aspect",
+      "aspectMessages": {
+        "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.ZQhSg2pV8enjw4Rg"
+      }
     },
     "Summon Plant Aspect": {
-      "name": "召唤植物层面 Summon Plant Aspect"
+      "name": "召唤植物层面 Summon Plant Aspect",
+      "aspectMessages": {
+        "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.ioPu2AAAiw0ExO62"
+      }
     },
     "Summon Construct Aspect": {
-      "name": "召唤构装层面 Summon Construct Aspect"
+      "name": "召唤构装层面 Summon Construct Aspect",
+      "aspectMessages": {
+        "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.j1aJm4O4s2wior3W"
+      }
     },
     "Summon Undead Aspect": {
-      "name": "召唤不死层面 Summon Undead Aspect"
+      "name": "召唤不死层面 Summon Undead Aspect",
+      "aspectMessages": {
+        "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.maUS2WaDgrj8sLJm"
+      }
     },
     "Summon Thurse Aspect": {
-      "name": "召唤霜巨层面 Summon Thurse Aspect"
+      "name": "召唤霜巨层面 Summon Thurse Aspect",
+      "aspectMessages": {
+        "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.qZXl8R1poCgLyMUz"
+      }
     },
     "Summon Elemental Aspect": {
-      "name": "召唤元素层面 Summon Elemental Aspect"
+      "name": "召唤元素层面 Summon Elemental Aspect",
+      "aspectMessages": {
+        "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.wL8DVU1LATUKHevP"
+      }
     },
     "Create Aspect": {
       "name": "创造层面 Create Aspect"
     },
     "Advance Essence": {
       "name": "推进精质 Advance Essence"
+    }
+  },
+  "mapping": {
+    "aspectMessages": {
+      "path": "command",
+      "converter": "team-plus-aspect-command"
     }
   }
 }

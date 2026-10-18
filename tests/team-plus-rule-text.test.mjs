@@ -190,7 +190,7 @@ test('missing and malformed top-level payloads leave rules untouched', () => {
   }
 });
 
-test('only the two approved path shapes can write to a rule', () => {
+test('unmapped mechanical and prototype paths cannot write to a rule', () => {
   const cases = [
     {path: [0, 'key'], source: 'Note'},
     {path: [0, 'selector', 0], source: 'strike-damage'},
@@ -335,4 +335,140 @@ test('the babele.init registration exposes a working named converter before tran
     if (previousHooks === undefined) delete globalThis.Hooks;
     else globalThis.Hooks = previousHooks;
   }
+});
+
+function aspectRules() {
+  return [{
+    key: 'AspectForm', slug: 'dragon', label: 'Dragon Aspect',
+    choices: [{type: 'select', flag: 'attack', label: 'Strike', hint: 'Choose a strike.',
+      options: [{value: 'fire', label: 'Fire', hint: 'Fire damage.'}]}],
+    base: {
+      strikes: {'primary.attack': {label: 'Bite', damageType: 'piercing', die: 'd8'}},
+      rules: [{key: 'FlatModifier', label: 'Slithering Blob', selector: 'acrobatics', value: 2}],
+    },
+    patches: [{
+      name: 'Lorekeeper', predicate: ['aspect-form:lorekeeper'],
+      strikes: {secondary: {label: 'Claw', damageType: 'slashing', die: 'd6'}},
+      rules: [
+        {key: 'Note', title: 'Dragon Aspect (8th Rank)', text: 'Regain the breath weapon.', selector: 'strike-attack-roll'},
+        {key: 'ItemAlteration', property: 'description', mode: 'add', value: [{text: 'Cast @UUID[Compendium.test.spells.Item.example]{Fire}.', title: 'Spell'}]},
+        {key: 'FlatModifier', label: 'Deadly Vegetation', selector: 'strike-damage', value: '@rank'},
+      ],
+    }],
+  }, {
+    key: 'AdjustAspect', label: 'Soaring Shape+', aspects: ['animal'],
+    option: {flag: 'soaring', label: 'Flight', hint: 'Gain a fly Speed.'},
+    speeds: {fly: {mode: 'upgrade', value: 30}},
+  }];
+}
+
+const aspectTranslations = [
+  {path: [0, 'label'], source: 'Dragon Aspect', translation: '龙类层面'},
+  {path: [0, 'choices', 0, 'label'], source: 'Strike', translation: '打击'},
+  {path: [0, 'choices', 0, 'hint'], source: 'Choose a strike.', translation: '选择一种打击。'},
+  {path: [0, 'choices', 0, 'options', 0, 'label'], source: 'Fire', translation: '火焰'},
+  {path: [0, 'choices', 0, 'options', 0, 'hint'], source: 'Fire damage.', translation: '火焰伤害。'},
+  {path: [0, 'base', 'strikes', 'primary.attack', 'label'], source: 'Bite', translation: '啮咬'},
+  {path: [0, 'base', 'rules', 0, 'label'], source: 'Slithering Blob', translation: '蠕动团块'},
+  {path: [0, 'patches', 0, 'name'], source: 'Lorekeeper', translation: '知识守护者 Lorekeeper'},
+  {path: [0, 'patches', 0, 'strikes', 'secondary', 'label'], source: 'Claw', translation: '爪击'},
+  {path: [0, 'patches', 0, 'rules', 0, 'title'], source: 'Dragon Aspect (8th Rank)', translation: '龙类层面（8环）'},
+  {path: [0, 'patches', 0, 'rules', 0, 'text'], source: 'Regain the breath weapon.', translation: '恢复吐息武器的使用次数。'},
+  {path: [0, 'patches', 0, 'rules', 1, 'value', 0, 'text'], source: 'Cast @UUID[Compendium.test.spells.Item.example]{Fire}.', translation: '施放@UUID[Compendium.test.spells.Item.example]{火焰}。'},
+  {path: [0, 'patches', 0, 'rules', 1, 'value', 0, 'title'], source: 'Spell', translation: '法术'},
+  {path: [0, 'patches', 0, 'rules', 2, 'label'], source: 'Deadly Vegetation', translation: '致命草木'},
+  {path: [1, 'label'], source: 'Soaring Shape+', translation: '翱翔形态+'},
+  {path: [1, 'option', 'label'], source: 'Flight', translation: '飞行'},
+  {path: [1, 'option', 'hint'], source: 'Gain a fly Speed.', translation: '获得飞行速度。'},
+];
+
+test('AspectForm and AdjustAspect translate choices, strikes and nested rule text without changing mechanics', () => {
+  const rules = freezeDeep(aspectRules());
+  const before = structuredClone(rules);
+  const result = translateRuleTexts(rules, freezeDeep(structuredClone(aspectTranslations)));
+  assert.equal(result[0].label, '龙类层面');
+  assert.deepEqual(result[0].choices[0], {type: 'select', flag: 'attack', label: '打击', hint: '选择一种打击。',
+    options: [{value: 'fire', label: '火焰', hint: '火焰伤害。'}]});
+  assert.deepEqual(result[0].base.strikes, {'primary.attack': {label: '啮咬', damageType: 'piercing', die: 'd8'}});
+  assert.deepEqual(result[0].base.rules, [{key: 'FlatModifier', label: '蠕动团块', selector: 'acrobatics', value: 2}]);
+  assert.deepEqual(result[0].patches[0], {
+    name: '知识守护者 Lorekeeper', predicate: ['aspect-form:lorekeeper'],
+    strikes: {secondary: {label: '爪击', damageType: 'slashing', die: 'd6'}},
+    rules: [
+      {key: 'Note', title: '龙类层面（8环）', text: '恢复吐息武器的使用次数。', selector: 'strike-attack-roll'},
+      {key: 'ItemAlteration', property: 'description', mode: 'add', value: [{text: '施放@UUID[Compendium.test.spells.Item.example]{火焰}。', title: '法术'}]},
+      {key: 'FlatModifier', label: '致命草木', selector: 'strike-damage', value: '@rank'},
+    ],
+  });
+  assert.deepEqual(result[1], {key: 'AdjustAspect', label: '翱翔形态+', aspects: ['animal'],
+    option: {flag: 'soaring', label: '飞行', hint: '获得飞行速度。'}, speeds: {fly: {mode: 'upgrade', value: 30}}});
+  assert.deepEqual(rules, before);
+  assert.notStrictEqual(result[0].patches, rules[0].patches);
+  assert.strictEqual(translateRuleTexts(result, aspectTranslations), result);
+});
+
+test('aspect display paths retain source guards and reject unrelated rule kinds and mechanical fields', () => {
+  const rules = aspectRules();
+  for (const row of aspectTranslations) {
+    assert.strictEqual(translateRuleTexts(rules, [{...row, source: `${row.source} `}]), rules);
+  }
+  const cases = [
+    {path: [0, 'slug'], source: 'dragon'},
+    {path: [0, 'choices', 0, 'flag'], source: 'attack'},
+    {path: [0, 'choices', 0, 'options', 0, 'value'], source: 'fire'},
+    {path: [0, 'base', 'strikes', 'primary.attack', 'damageType'], source: 'piercing'},
+    {path: [0, 'patches', 0, 'predicate', 0], source: 'aspect-form:lorekeeper'},
+    {path: [0, 'patches', 0, 'rules', 2, 'value'], source: '@rank'},
+    {path: [1, 'option', 'flag'], source: 'soaring'},
+  ];
+  for (const row of cases) {
+    assert.strictEqual(translateRuleTexts(rules, [{...row, translation: '错误修改'}]), rules);
+  }
+  rules[0].key = 'Other';
+  rules[1].key = 'Other';
+  assert.strictEqual(translateRuleTexts(rules, aspectTranslations), rules);
+  const nested = aspectRules();
+  nested[0].patches[0].rules[0].key = 'FlatModifier';
+  nested[0].patches[0].rules[1].property = 'slug';
+  nested[0].patches[0].rules[2].key = 'ChoiceSet';
+  assert.strictEqual(translateRuleTexts(nested, aspectTranslations.slice(9, 14)), nested);
+});
+
+test('aspect paths reject malformed arrays, inherited objects and accessors at every depth', () => {
+  const row = aspectTranslations[11];
+  for (const pathIndex of [0, 2, 4, 6]) {
+    for (const badIndex of ['0', -1, 0.5, 999, NaN, undefined]) {
+      const path = [...row.path];
+      path[pathIndex] = badIndex;
+      const rules = aspectRules();
+      assert.strictEqual(translateRuleTexts(rules, [{...row, path}]), rules);
+    }
+  }
+  for (const field of ['patches', 'rules', 'value']) {
+    const rules = aspectRules();
+    const owner = field === 'patches' ? rules[0] : field === 'rules' ? rules[0].patches[0] : rules[0].patches[0].rules[1];
+    const original = owner[field];
+    owner[field] = Object.assign({}, original);
+    assert.strictEqual(translateRuleTexts(rules, [row]), rules);
+    owner[field] = Object.setPrototypeOf(original, Object.create(Array.prototype));
+    assert.strictEqual(translateRuleTexts(rules, [row]), rules);
+    Object.defineProperty(owner, field, {get() {assert.fail('aspect accessors must not run');}});
+    assert.strictEqual(translateRuleTexts(rules, [row]), rules);
+  }
+  const rules = aspectRules();
+  rules[0].patches[0] = Object.create(rules[0].patches[0]);
+  assert.strictEqual(translateRuleTexts(rules, [row]), rules);
+  const path = [...row.path];
+  Object.defineProperty(path, 2, {get() {assert.fail('path accessors must not run');}});
+  assert.strictEqual(translateRuleTexts(aspectRules(), [{...row, path}])[0].label, 'Dragon Aspect');
+});
+
+test('duplicate nested aspect paths reject the complete payload without source mutations', () => {
+  const rules = freezeDeep(aspectRules());
+  const row = aspectTranslations[11];
+  assert.throws(() => translateRuleTexts(rules, [aspectTranslations[0], row, row]), {
+    name: 'TypeError', message: /duplicate.*\[0,"patches",0,"rules",1,"value",0,"text"\]/,
+  });
+  assert.equal(rules[0].label, 'Dragon Aspect');
+  assert.equal(rules[0].patches[0].rules[1].value[0].text, row.source);
 });

@@ -204,7 +204,481 @@
     },
     "Spell Effect: Elemental Shift": {
       "name": "法术效果：元素变形 Spell Effect: Elemental Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.bK4rp20XuJRWGsEv]{元素变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.wjzn7STqTeztzg3a]{召唤元素层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.7uM4JwbEJVzFrkiH]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.bK4rp20XuJRWGsEv]{元素变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.wjzn7STqTeztzg3a]{召唤元素层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.7uM4JwbEJVzFrkiH]</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Elemental Aspect",
+          "translation": "元素层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Elemental Aspect",
+          "translation": "元素层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Air",
+          "translation": "气"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Earth",
+          "translation": "土"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Fire",
+          "translation": "火焰"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Metal",
+          "translation": "金"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            4,
+            "label"
+          ],
+          "source": "Water",
+          "translation": "水"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            5,
+            "label"
+          ],
+          "source": "Wood",
+          "translation": "木"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "Save Adjustments",
+          "translation": "豁免调整"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "label"
+          ],
+          "source": "Air Strike",
+          "translation": "气属打击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "1d6 + rank bludgeoning",
+          "translation": "1d6 + 环级钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "1d4 + rank electricity",
+          "translation": "1d4 + 环级电击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "label"
+          ],
+          "source": "Fire Strike",
+          "translation": "火属打击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Melee 1d6 + rank fire",
+          "translation": "近战 1d6 + 环级火焰"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Ranged (30 feet) 1d4 + rank fire",
+          "translation": "远程（30 尺）1d4 + 环级火焰"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "label"
+          ],
+          "source": "Primary Strike Damage",
+          "translation": "主要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "label"
+          ],
+          "source": "Secondary Strike Damage",
+          "translation": "次要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "label"
+          ],
+          "source": "Water Aura",
+          "translation": "水之灵光"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Churning Aura",
+          "translation": "翻涌灵光"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Freezing Aura",
+          "translation": "冰冻灵光"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "hint"
+          ],
+          "source": "Churning: bludgeoning Strikes, Swimmer, fire resistance, electricity weakness. Freezing: cold Strikes and trait, cold resistance, fire weakness.",
+          "translation": "翻涌：打击造成钝击伤害，游泳者，火焰抗力，电击弱点。冰冻：打击造成寒冷伤害，寒冷特征，寒冷抗力，火焰弱点。"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            0,
+            "name"
+          ],
+          "source": "Air",
+          "translation": "气 Air"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            0,
+            "strikes",
+            "air-bludgeoning",
+            "label"
+          ],
+          "source": "Primary Air Elemental Attack",
+          "translation": "气元素主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            0,
+            "strikes",
+            "air-electricity",
+            "label"
+          ],
+          "source": "Primary Air Elemental Attack",
+          "translation": "气元素主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            1,
+            "name"
+          ],
+          "source": "Earth",
+          "translation": "土 Earth"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            1,
+            "strikes",
+            "earth",
+            "label"
+          ],
+          "source": "Primary Earth Elemental Attack",
+          "translation": "土元素主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "name"
+          ],
+          "source": "Fire",
+          "translation": "火焰 Fire"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "strikes",
+            "fire-melee",
+            "label"
+          ],
+          "source": "Primary Fire Elemental Attack",
+          "translation": "火元素主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "strikes",
+            "fire-ranged",
+            "label"
+          ],
+          "source": "Primary Fire Elemental Attack",
+          "translation": "火元素主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "name"
+          ],
+          "source": "Metal",
+          "translation": "金 Metal"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "strikes",
+            "metal",
+            "label"
+          ],
+          "source": "Primary Metal Elemental Attack",
+          "translation": "金元素主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "strikes",
+            "metal-ranged",
+            "label"
+          ],
+          "source": "Secondary Metal Elemental Attack",
+          "translation": "金元素次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            4,
+            "name"
+          ],
+          "source": "Water",
+          "translation": "水 Water"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            4,
+            "strikes",
+            "water-churn",
+            "label"
+          ],
+          "source": "Primary Water Elemental Attack",
+          "translation": "水元素主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            4,
+            "strikes",
+            "water-freeze",
+            "label"
+          ],
+          "source": "Primary Water Elemental Attack",
+          "translation": "水元素主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            7,
+            "name"
+          ],
+          "source": "Wood",
+          "translation": "木 Wood"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            7,
+            "strikes",
+            "wood",
+            "label"
+          ],
+          "source": "Primary Wood Elemental Attack",
+          "translation": "木元素主要攻击"
+        }
+      ]
     },
     "Drag Under": {
       "name": "拖入水中 Drag Under",
@@ -239,7 +713,401 @@
     },
     "Spell Effect: Plant Shift": {
       "name": "法术效果：植物变形 Spell Effect: Plant Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.qH18jW3EMywavprR]{植物变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.doZbTeqBN402j4Vh]{召唤植物层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.qDuNt0YwJX8CTZ14]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.qH18jW3EMywavprR]{植物变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.doZbTeqBN402j4Vh]{召唤植物层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.qDuNt0YwJX8CTZ14]</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Plant Aspect",
+          "translation": "植物层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Plant Aspect",
+          "translation": "植物层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Carnivorous",
+          "translation": "食肉"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Fungus",
+          "translation": "真菌"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Tree",
+          "translation": "树木"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Vegetation",
+          "translation": "植被"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "Garden Marvel",
+          "translation": "花园奇景"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Botanical Wonder",
+          "translation": "草木奇观"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Nature Spirit",
+          "translation": "自然之灵"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "hint"
+          ],
+          "source": "Botanical Wonder: mindless, land Speed 15 feet, tremorsense. Nature Spirit: speaks fey, land Speed 25 feet, Diplomacy and Nature.",
+          "translation": "草木奇观：无心智，15 尺陆地速度，震颤感知。自然之灵：能讲精类语，25 尺陆地速度，交涉与自然。"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "label"
+          ],
+          "source": "Save Adjustments",
+          "translation": "豁免调整"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "label"
+          ],
+          "source": "Primary Strike Damage",
+          "translation": "主要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Acid",
+          "translation": "酸蚀"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "label"
+          ],
+          "source": "Primary Strike Damage",
+          "translation": "主要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Poison",
+          "translation": "毒素"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "label"
+          ],
+          "source": "Primary Strike Damage",
+          "translation": "主要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "label"
+          ],
+          "source": "Deadly Vegetation",
+          "translation": "致命植被"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Acid",
+          "translation": "酸蚀"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bleed",
+          "translation": "流血"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Poison",
+          "translation": "毒素"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "name"
+          ],
+          "source": "Carnivorous",
+          "translation": "食肉 Carnivorous"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "strikes",
+            "carnivorous",
+            "label"
+          ],
+          "source": "Primary Carnivorous Attack",
+          "translation": "食肉层面主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "name"
+          ],
+          "source": "Fungus",
+          "translation": "真菌 Fungus"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "strikes",
+            "fungus",
+            "label"
+          ],
+          "source": "Primary Fungus Attack",
+          "translation": "真菌层面主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            4,
+            "name"
+          ],
+          "source": "Tree",
+          "translation": "树木 Tree"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            4,
+            "strikes",
+            "tree",
+            "label"
+          ],
+          "source": "Primary Tree Attack",
+          "translation": "树木层面主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            4,
+            "strikes",
+            "tree-throw",
+            "label"
+          ],
+          "source": "Secondary Tree Attack",
+          "translation": "树木层面次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "name"
+          ],
+          "source": "Vegetation",
+          "translation": "植被 Vegetation"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Deadly Vegetation",
+          "translation": "致命植被"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "strikes",
+            "vegetation",
+            "label"
+          ],
+          "source": "Primary Vegetation Attack",
+          "translation": "植被层面主要攻击"
+        }
+      ]
     },
     "Quick Siphon": {
       "name": "快速虹吸 Quick Siphon",
@@ -295,7 +1163,426 @@
     },
     "Spell Effect: Celestial Shift": {
       "name": "法术效果：天界变形 Spell Effect: Celestial Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.96miaBWxrw1nROmn]{天界变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.CICOkQnnGwZpUX7O]{召唤天界层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.ABdvu7T0B57zoJRm]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.96miaBWxrw1nROmn]{天界变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.CICOkQnnGwZpUX7O]{召唤天界层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.ABdvu7T0B57zoJRm]</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Celestial Aspect",
+          "translation": "天族层面"
+        },
+        {
+          "path": [
+            0,
+            "base",
+            "strikes",
+            "primary",
+            "label"
+          ],
+          "source": "Primary Celestial Attack",
+          "translation": "天族主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Celestial Aspect",
+          "translation": "天族层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Agathion",
+          "translation": "福使"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Angel",
+          "translation": "天使"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Archon",
+          "translation": "圣使"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Azata",
+          "translation": "灵使"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "Primary Strike Damage",
+          "translation": "主要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "label"
+          ],
+          "source": "Celestial Gift",
+          "translation": "天族恩赐"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Gift of Flight",
+          "translation": "飞行恩赐"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Gift of Vitality",
+          "translation": "命能恩赐"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "label"
+          ],
+          "source": "Save Adjustments",
+          "translation": "豁免调整"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "label"
+          ],
+          "source": "Agathion Secondary Strike Damage",
+          "translation": "福使次要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "label"
+          ],
+          "source": "Angel Secondary Strike",
+          "translation": "天使次要打击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing (1d6)",
+          "translation": "穿刺（1d6）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Sonic (1d4)",
+          "translation": "音波（1d4）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "label"
+          ],
+          "source": "Azata Resistance",
+          "translation": "灵使抗力"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Acid",
+          "translation": "酸蚀"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Cold",
+          "translation": "寒冷"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Electricity",
+          "translation": "电击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Fire",
+          "translation": "火焰"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "name"
+          ],
+          "source": "Agathion",
+          "translation": "福使 Agathion"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "strikes",
+            "agathion-d4",
+            "label"
+          ],
+          "source": "Secondary Agathion Attack",
+          "translation": "福使次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "strikes",
+            "agathion-d6",
+            "label"
+          ],
+          "source": "Secondary Agathion Attack",
+          "translation": "福使次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "name"
+          ],
+          "source": "Angel",
+          "translation": "天使 Angel"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "strikes",
+            "angel-piercing",
+            "label"
+          ],
+          "source": "Secondary Angel Attack",
+          "translation": "天使次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "strikes",
+            "angel-sonic",
+            "label"
+          ],
+          "source": "Secondary Angel Attack",
+          "translation": "天使次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            4,
+            "name"
+          ],
+          "source": "Archon",
+          "translation": "圣使 Archon"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            4,
+            "strikes",
+            "archon",
+            "label"
+          ],
+          "source": "Secondary Archon Attack",
+          "translation": "圣使次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "name"
+          ],
+          "source": "Azata",
+          "translation": "灵使 Azata"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "strikes",
+            "azata",
+            "label"
+          ],
+          "source": "Secondary Azata Attack",
+          "translation": "灵使次要攻击"
+        }
+      ]
     },
     "Ephemeral Effect: Holy Divine Lance Tag": {
       "name": "瞬时效果：圣洁神圣穿矢标记 Ephemeral Effect: Holy Divine Lance Tag",
@@ -387,7 +1674,505 @@
     },
     "Spell Effect: Undead Shift": {
       "name": "法术效果：不死变形 Spell Effect: Undead Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.bt0hfAne73ZvZ096]{不死变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.hU9cFWQltvJQx3CR]{召唤不死层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.XvhS51o90MK6TqiD]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.bt0hfAne73ZvZ096]{不死变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.hU9cFWQltvJQx3CR]{召唤不死层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.XvhS51o90MK6TqiD]</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Undead Aspect",
+          "translation": "不死层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Undead Aspect",
+          "translation": "不死层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Corpse",
+          "translation": "尸体"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Eternal",
+          "translation": "永恒"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Incorporeal",
+          "translation": "虚体"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            2,
+            "hint"
+          ],
+          "source": "Shifting into an incorporeal aspect requires 6th rank.",
+          "translation": "变形为虚体层面要求达到 6 环。"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Slough",
+          "translation": "蜕壳"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "Save Adjustments",
+          "translation": "豁免调整"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "label"
+          ],
+          "source": "Undead Mind",
+          "translation": "不死心智"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Mindless (vitality weakness, mental immunity, 1 skill)",
+          "translation": "无心智（命能弱点、心灵免疫、1 项技能）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Minded (3 skills)",
+          "translation": "有心智（3 项技能）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "label"
+          ],
+          "source": "Skill",
+          "translation": "技能"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "label"
+          ],
+          "source": "Skills",
+          "translation": "技能"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "hint"
+          ],
+          "source": "Two of them must share the same attribute modifier.",
+          "translation": "其中两项必须共用相同的属性调整值。"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "label"
+          ],
+          "source": "Corpse Strike",
+          "translation": "尸体打击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "1d8",
+          "translation": "1d8"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "1d6 (agile)",
+          "translation": "1d6（灵巧）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "label"
+          ],
+          "source": "Eternal Strike",
+          "translation": "永恒打击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Melee 1d8",
+          "translation": "近战 1d8"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Ranged (30 feet) 1d6 void",
+          "translation": "远程（30 尺）1d6 虚能"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "label"
+          ],
+          "source": "Incorporeal Strike",
+          "translation": "虚体打击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Melee 1d6 void",
+          "translation": "近战 1d6 虚能"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Ranged (30 feet) 1d4",
+          "translation": "远程（30 尺）1d4"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            8,
+            "label"
+          ],
+          "source": "Primary Strike Damage",
+          "translation": "主要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            8,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            8,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            8,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            9,
+            "label"
+          ],
+          "source": "Secondary Strike Damage",
+          "translation": "次要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            9,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            9,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            9,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "name"
+          ],
+          "source": "Corpse",
+          "translation": "尸体 Corpse"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "strikes",
+            "primary-d8",
+            "label"
+          ],
+          "source": "Heavy Undead Attack",
+          "translation": "不死强力攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "strikes",
+            "primary-d6",
+            "label"
+          ],
+          "source": "Agile Undead Attack",
+          "translation": "不死灵巧攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "name"
+          ],
+          "source": "Eternal",
+          "translation": "永恒 Eternal"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "strikes",
+            "primary-d8",
+            "label"
+          ],
+          "source": "Heavy Undead Attack",
+          "translation": "不死强力攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "strikes",
+            "eternal-d6",
+            "label"
+          ],
+          "source": "Ranged Eternal Attack",
+          "translation": "永恒远程攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            4,
+            "rules",
+            0,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "**Cantrip:** @UUID[Compendium.sf2e.spells.mAMEt4FFbdqoRnkN]{Void Warp}, **1st:** @UUID[Compendium.sf2e.spells.vLA0q0WOK2YPuJs6]{Charm} or @UUID[Compendium.sf2e.spells.wdA52JJnsuQWeyqz]{Harm}, **2nd:** @UUID[Compendium.pf2e.spells-srd.JhRuR7Jj3ViShpq7]{Ghoulish Cravings}, **3rd:** @UUID[Compendium.sf2e.spells.IihxWhRfpsBgQ5jS]{Enthrall}, **4th:** @UUID[Compendium.sf2e.spells.qwlh6aDgi86U3Q7H]{Suggestion}, **5th:** @UUID[Compendium.sf2e.spells.GaRQlC9Yw1BGKHfN]{Wave of Despair}, **6th:** @UUID[Compendium.sf2e.spells.OsOhx3TGIZ7AhD0P]{Dominate}, **7th:** @UUID[Compendium.sf2e.spells.Z9OrRXKgAPv6Hn5l]{Execute}, **8th:** @UUID[Compendium.pf2e.spells-srd.Item.HEuvZAjD1q0J8Y5i]{Unholy Army}",
+          "translation": "**戏法：** @UUID[Compendium.sf2e.spells.mAMEt4FFbdqoRnkN]{虚能噬}，**1 环：** @UUID[Compendium.sf2e.spells.vLA0q0WOK2YPuJs6]{魅惑术}或@UUID[Compendium.sf2e.spells.wdA52JJnsuQWeyqz]{伤害术}，**2 环：** @UUID[Compendium.pf2e.spells-srd.JhRuR7Jj3ViShpq7]{食腐渴望}，**3 环：** @UUID[Compendium.sf2e.spells.IihxWhRfpsBgQ5jS]{注目术}，**4 环：** @UUID[Compendium.sf2e.spells.qwlh6aDgi86U3Q7H]{暗示术}，**5 环：** @UUID[Compendium.sf2e.spells.GaRQlC9Yw1BGKHfN]{极潮绝望}，**6 环：** @UUID[Compendium.sf2e.spells.OsOhx3TGIZ7AhD0P]{支配术}，**7 环：** @UUID[Compendium.sf2e.spells.Z9OrRXKgAPv6Hn5l]{处死一指}，**8 环：** @UUID[Compendium.pf2e.spells-srd.Item.HEuvZAjD1q0J8Y5i]{邪秽军势}"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "name"
+          ],
+          "source": "Incorporeal",
+          "translation": "虚体 Incorporeal"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "strikes",
+            "incorporeal-d6",
+            "label"
+          ],
+          "source": "Melee Incorporeal Attack",
+          "translation": "虚体近战攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "strikes",
+            "incorporeal-d4",
+            "label"
+          ],
+          "source": "Ranged Incorporeal Attack",
+          "translation": "虚体远程攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            7,
+            "name"
+          ],
+          "source": "Slough",
+          "translation": "蜕壳 Slough"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            7,
+            "strikes",
+            "primary-d8",
+            "label"
+          ],
+          "source": "Heavy Undead Attack",
+          "translation": "不死强力攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            7,
+            "strikes",
+            "primary-d6-second",
+            "label"
+          ],
+          "source": "Agile Undead Attack",
+          "translation": "不死灵巧攻击"
+        }
+      ]
     },
     "Breath Weapon": {
       "name": "喷吐武器 Breath Weapon",
@@ -399,7 +2184,424 @@
     },
     "Spell Effect: Fiend Shift": {
       "name": "法术效果：魔类变形 Spell Effect: Fiend Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.3grs18Pz56xe4krE]{魔类变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.DabI586blA4U4NvI]{召唤魔类层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.zTdtg6CPxmqwus1D]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.3grs18Pz56xe4krE]{魔类变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.DabI586blA4U4NvI]{召唤魔类层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.zTdtg6CPxmqwus1D]</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Fiend Aspect",
+          "translation": "魔族层面"
+        },
+        {
+          "path": [
+            0,
+            "base",
+            "strikes",
+            "primary",
+            "label"
+          ],
+          "source": "Primary Fiend Attack",
+          "translation": "魔族主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Fiend Aspect",
+          "translation": "魔族层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Daemon",
+          "translation": "邪魔"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Demon",
+          "translation": "恶魔"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Devil",
+          "translation": "魔鬼"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Velstrac",
+          "translation": "链魔"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "Fiendish Boon",
+          "translation": "魔族之赐"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Masochistic Boon",
+          "translation": "受虐之赐"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Sadistic Boon",
+          "translation": "施虐之赐"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "label"
+          ],
+          "source": "Primary Strike Damage",
+          "translation": "主要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "label"
+          ],
+          "source": "Save Adjustments",
+          "translation": "豁免调整"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "label"
+          ],
+          "source": "Daemon Secondary Strike Damage",
+          "translation": "邪魔次要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "label"
+          ],
+          "source": "Demon Secondary Strike Damage",
+          "translation": "恶魔次要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Acid",
+          "translation": "酸蚀"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "label"
+          ],
+          "source": "Devil Secondary Strike",
+          "translation": "魔鬼次要打击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Agile",
+          "translation": "灵巧"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Range 30 feet",
+          "translation": "射程 30 尺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "label"
+          ],
+          "source": "Devil Secondary Strike Damage",
+          "translation": "魔鬼次要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Fire",
+          "translation": "火焰"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "name"
+          ],
+          "source": "Daemon",
+          "translation": "邪魔 Daemon"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "strikes",
+            "daemon",
+            "label"
+          ],
+          "source": "Secondary Daemon Attack",
+          "translation": "邪魔次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            4,
+            "name"
+          ],
+          "source": "Demon",
+          "translation": "恶魔 Demon"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            4,
+            "strikes",
+            "demon",
+            "label"
+          ],
+          "source": "Secondary Demon Attack",
+          "translation": "恶魔次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "name"
+          ],
+          "source": "Devil",
+          "translation": "魔鬼 Devil"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "strikes",
+            "devil-agile",
+            "label"
+          ],
+          "source": "Secondary Devil Attack",
+          "translation": "魔鬼次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "strikes",
+            "devil-range",
+            "label"
+          ],
+          "source": "Secondary Devil Attack",
+          "translation": "魔鬼次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            8,
+            "name"
+          ],
+          "source": "Velstrac",
+          "translation": "链魔 Velstrac"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            8,
+            "strikes",
+            "velstrac",
+            "label"
+          ],
+          "source": "Secondary Velstrac Attack",
+          "translation": "链魔次要攻击"
+        }
+      ]
     },
     "Pose a Riddle": {
       "name": "出谜题 Pose a Riddle",
@@ -459,7 +2661,591 @@
     },
     "Spell Effect: Thurse Shift": {
       "name": "法术效果：霜巨变形 Spell Effect: Thurse Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.dhkn1t8nbHrlqQ99]{霜巨变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.6uh4scwO9VIrtnQm]{召唤霜巨层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.YnKV7I548K8EH9JW]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.dhkn1t8nbHrlqQ99]{霜巨变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.6uh4scwO9VIrtnQm]{召唤霜巨层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.YnKV7I548K8EH9JW]</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Thurse Aspect",
+          "translation": "神怪层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Thurse Aspect",
+          "translation": "神怪层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Empowered",
+          "translation": "赋能"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Monstrous",
+          "translation": "怪物"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Noble",
+          "translation": "高贵"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Riddlemaster",
+          "translation": "谜语大师"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "Creature of Folklore",
+          "translation": "传说生物"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Beast",
+          "translation": "魔兽"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Giant",
+          "translation": "巨人"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "hint"
+          ],
+          "source": "Beast: beast trait, scent, +10 feet Speed, speaks fey. Giant: giant trait, maximum size one step larger, speaks jotun.",
+          "translation": "魔兽：魔兽特征，灵敏嗅觉，速度 +10 尺，能讲精类语。巨人：巨人特征，最大体型增大一档，能讲巨人语。"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "label"
+          ],
+          "source": "Domain",
+          "translation": "领域"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Caves (darkvision)",
+          "translation": "洞穴（黑暗视觉）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Forests (Climber)",
+          "translation": "森林（攀爬者）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Plains (+1 HP per rank)",
+          "translation": "平原（每环级 +1 生命值）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Skies (Flier)",
+          "translation": "天空（飞行者）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            4,
+            "label"
+          ],
+          "source": "Waters (Swimmer, aquatic)",
+          "translation": "水域（游泳者、水栖）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "label"
+          ],
+          "source": "Save Adjustments",
+          "translation": "豁免调整"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "label"
+          ],
+          "source": "Primary Strike Damage",
+          "translation": "主要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "label"
+          ],
+          "source": "Empowered Strike",
+          "translation": "赋能打击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "1d8",
+          "translation": "1d8"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "1d6 (agile)",
+          "translation": "1d6（灵巧）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "label"
+          ],
+          "source": "Elemental Gift",
+          "translation": "元素馈赠"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Air",
+          "translation": "气"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Cold",
+          "translation": "寒冷"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Earth",
+          "translation": "土"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Fire",
+          "translation": "火焰"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            4,
+            "label"
+          ],
+          "source": "Metal",
+          "translation": "金"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            5,
+            "label"
+          ],
+          "source": "Water",
+          "translation": "水"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            6,
+            "label"
+          ],
+          "source": "Wood",
+          "translation": "木"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "label"
+          ],
+          "source": "Monstrous Strike",
+          "translation": "怪物打击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "1d8 (razing)",
+          "translation": "1d8（拆毁）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "1d6 (agile, razing)",
+          "translation": "1d6（灵巧、拆毁）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            8,
+            "label"
+          ],
+          "source": "Skill of Your Choice",
+          "translation": "自选技能"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            9,
+            "label"
+          ],
+          "source": "Common Language",
+          "translation": "常见语言"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            8,
+            "name"
+          ],
+          "source": "Empowered",
+          "translation": "赋能 Empowered"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            8,
+            "strikes",
+            "empowered-d8",
+            "label"
+          ],
+          "source": "Primary Empowered Aspect Attack",
+          "translation": "赋能层面主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            8,
+            "strikes",
+            "empowered-d6",
+            "label"
+          ],
+          "source": "Primary Empowered Aspect Attack",
+          "translation": "赋能层面主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            16,
+            "rules",
+            0,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "The aspect’s spells are the same as an 8th-rank @UUID[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.7uM4JwbEJVzFrkiH]{elemental aspect} with the same elemental trait as the empowered aspect.",
+          "translation": "该层面的法术与 8 环@UUID[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.7uM4JwbEJVzFrkiH]{元素层面}的法术相同；该元素层面须与赋能层面具有相同的元素特征。"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            17,
+            "name"
+          ],
+          "source": "Monstrous",
+          "translation": "怪物 Monstrous"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            17,
+            "strikes",
+            "monstrous-d8",
+            "label"
+          ],
+          "source": "Primary Monstrous Aspect Attack",
+          "translation": "怪物层面主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            17,
+            "strikes",
+            "monstrous-d6",
+            "label"
+          ],
+          "source": "Primary Monstrous Aspect Attack",
+          "translation": "怪物层面主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            18,
+            "name"
+          ],
+          "source": "Noble",
+          "translation": "高贵 Noble"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            18,
+            "strikes",
+            "noble",
+            "label"
+          ],
+          "source": "Primary Noble Aspect Attack",
+          "translation": "高贵层面主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            19,
+            "rules",
+            0,
+            "title"
+          ],
+          "source": "Heightened (4th) Thurse Aspect",
+          "translation": "升阶（4环）神怪层面"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            19,
+            "rules",
+            0,
+            "text"
+          ],
+          "source": "Victory is all but assured in the presence of the thurse. When the aspect critically succeeds on a roll, it gains a boost of strength, giving it temporary Hit Points equal to twice the rank of the spell ([[@item.level * 2]]) that last for 1 minute.",
+          "translation": "有这只神怪在场，胜利几成定局。当该层面的一次掷骰大成功时，它获得一股力量，得到等于法术环级两倍（[[@item.level * 2]]）的临时生命值，持续1分钟。"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            20,
+            "name"
+          ],
+          "source": "Riddlemaster",
+          "translation": "谜语大师 Riddlemaster"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            20,
+            "strikes",
+            "riddlemaster",
+            "label"
+          ],
+          "source": "Primary Riddlemaster Aspect Attack",
+          "translation": "谜语大师层面主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            21,
+            "rules",
+            0,
+            "value",
+            0,
+            "text"
+          ],
+          "source": "**Cantrip:** @UUID[Compendium.pf2e.spells-srd.EqdSKqr8Qj5TUhMR]{Approximate}, **1st:** @UUID[Compendium.pf2e.spells-srd.pBevG6bSQOiyflev]{Befuddle}, **2nd:** @UUID[Compendium.sf2e.spells.CQb8HtQ1BPeZmu9h]{Stupefy}, **3rd:** @UUID[Compendium.pf2e.spells-srd.fPlFRu4dp09qJs3K]{Mind of Menace}, **4th:** @UUID[Compendium.sf2e.spells.LiGbewa9pO0yjbsY]{Confusion}, **5th:** @UUID[Compendium.pf2e.spells-srd.qxJE2iSJwPFLZrcK]{Belittling Boast}, **6th:** @UUID[Compendium.pf2e.spells-srd.oCdcZ8EqoC1K0Drq]{Missed Cue}, **7th:** @UUID[Compendium.pf2e.spells-srd.qOeBQyC1z7OScHvP]{Maze of Locked Doors}, **8th:** @UUID[Compendium.pf2e.spells-srd.Oj1PJBMQD9vuwCv7]{Quandary}",
+          "translation": "**戏法：** @UUID[Compendium.pf2e.spells-srd.EqdSKqr8Qj5TUhMR]{估量术}，**1环：** @UUID[Compendium.pf2e.spells-srd.pBevG6bSQOiyflev]{迷惑术}，**2环：** @UUID[Compendium.sf2e.spells.CQb8HtQ1BPeZmu9h]{愚者之思}，**3环：** @UUID[Compendium.pf2e.spells-srd.fPlFRu4dp09qJs3K]{危惧心智}，**4环：** @UUID[Compendium.sf2e.spells.LiGbewa9pO0yjbsY]{困惑术}，**5环：** @UUID[Compendium.pf2e.spells-srd.qxJE2iSJwPFLZrcK]{蔑视吹嘘}，**6环：** @UUID[Compendium.pf2e.spells-srd.oCdcZ8EqoC1K0Drq]{失不再来}，**7环：** @UUID[Compendium.pf2e.spells-srd.qOeBQyC1z7OScHvP]{锁迷宫}，**8环：** @UUID[Compendium.pf2e.spells-srd.Oj1PJBMQD9vuwCv7]{迷障术}"
+        }
+      ]
     },
     "Effect: Mystic Link": {
       "name": "效果：神秘链结 Effect: Mystic Link",
@@ -467,11 +3253,364 @@
     },
     "Spell Effect: Ooze Shift": {
       "name": "法术效果：黏液变形 Spell Effect: Ooze Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.5eSjwMuWowftlcwz]{黏液变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.3AwQzAMzlMelYB8Z]{召唤黏液层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.HqRDK6jf5vAVwt2l]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.5eSjwMuWowftlcwz]{黏液变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.3AwQzAMzlMelYB8Z]{召唤黏液层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.HqRDK6jf5vAVwt2l]</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Ooze Aspect",
+          "translation": "泥怪层面"
+        },
+        {
+          "path": [
+            0,
+            "base",
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Slithering Blob",
+          "translation": "滑行黏块"
+        },
+        {
+          "path": [
+            0,
+            "base",
+            "strikes",
+            "primary",
+            "label"
+          ],
+          "source": "Primary Ooze Attack",
+          "translation": "泥怪主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Primary Strike Damage",
+          "translation": "主要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Acid",
+          "translation": "酸蚀"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "Oozing Adaptations",
+          "translation": "黏液适应"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "hint"
+          ],
+          "source": "One adaptation, and a second one from 4th rank.",
+          "translation": "选择一项适应，4环起可再选择第二项。"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Engulfing (Trample)",
+          "translation": "吞噬适应（践踏）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Hydrophobic (Swimmer)",
+          "translation": "疏水适应（游泳者）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Sticky (Climber)",
+          "translation": "粘附适应（攀爬者）"
+        }
+      ]
     },
     "Spell Effect: Animal Shift": {
       "name": "法术效果：动物变形 Spell Effect: Animal Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.lV8etIlOczlCbJ46]{动物变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.3DSNbxe36dMAwXpC]{召唤动物层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.3K8036kor5oCkGQ5]{动物层面}</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.lV8etIlOczlCbJ46]{动物变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.3DSNbxe36dMAwXpC]{召唤动物层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.3K8036kor5oCkGQ5]{动物层面}</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Animal Aspect",
+          "translation": "动物层面"
+        },
+        {
+          "path": [
+            0,
+            "base",
+            "strikes",
+            "primary",
+            "label"
+          ],
+          "source": "Primary Animal Attack",
+          "translation": "动物主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Animal Aspect",
+          "translation": "动物层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Aerial",
+          "translation": "空中"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Aqueous",
+          "translation": "水生"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Mount",
+          "translation": "坐骑"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Predator",
+          "translation": "掠食者"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "Primary Strike Damage",
+          "translation": "主要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "label"
+          ],
+          "source": "Natural Habitat",
+          "translation": "自然栖境"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Amphibious",
+          "translation": "两栖"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Aquatic",
+          "translation": "水栖"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "hint"
+          ],
+          "source": "Aquatic: no land Speed, +15 feet swim Speed, aquatic trait. Amphibious: amphibious trait.",
+          "translation": "水栖：没有陆地速度，游泳速度增加15尺，获得水栖特征。两栖：获得两栖特征。"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "label"
+          ],
+          "source": "Save Adjustments",
+          "translation": "豁免调整"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            0,
+            "name"
+          ],
+          "source": "Aerial Aspect",
+          "translation": "空中层面 Aerial Aspect"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            1,
+            "name"
+          ],
+          "source": "Aqueous Aspect",
+          "translation": "水生层面 Aqueous Aspect"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            4,
+            "name"
+          ],
+          "source": "Mount Aspect",
+          "translation": "坐骑层面 Mount Aspect"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "name"
+          ],
+          "source": "Predator Aspect",
+          "translation": "掠食者层面 Predator Aspect"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "strikes",
+            "predator",
+            "label"
+          ],
+          "source": "Secondary Predator Attack",
+          "translation": "掠食者次要攻击"
+        }
+      ]
     },
     "Freezing Aura": {
       "name": "冰冻光环 Freezing Aura",
@@ -479,7 +3618,411 @@
     },
     "Spell Effect: Fey Shift": {
       "name": "法术效果：精类变形 Spell Effect: Fey Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.R7ZH1KTuVqFtxjNG]{精类变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.PNGQnKyWQ9ydD9P8]{召唤精类层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.uhw3SFYeTt13E6K2]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.R7ZH1KTuVqFtxjNG]{精类变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.PNGQnKyWQ9ydD9P8]{召唤精类层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.uhw3SFYeTt13E6K2]</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Fey Aspect",
+          "translation": "精类层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Fey Aspect",
+          "translation": "精类层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Trickster",
+          "translation": "诡术"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Reveler",
+          "translation": "狂欢"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Wilding",
+          "translation": "野性"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Terror",
+          "translation": "恐怖"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "Unpredictable",
+          "translation": "难以捉摸"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Enhanced Aid",
+          "translation": "强化援助"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Flier",
+          "translation": "飞行者"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "hint"
+          ],
+          "source": "Enhanced Aid uses the skill noted for the aspect.",
+          "translation": "强化援助使用该层面注明的技能。"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "label"
+          ],
+          "source": "Primary Strike Damage",
+          "translation": "主要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "label"
+          ],
+          "source": "Secondary Strike Damage",
+          "translation": "次要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "label"
+          ],
+          "source": "Save Adjustments",
+          "translation": "豁免调整"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "label"
+          ],
+          "source": "Save Adjustments",
+          "translation": "豁免调整"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "label"
+          ],
+          "source": "Reveler Enhanced Aid (4th)",
+          "translation": "狂欢层面强化援助（4环）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Diplomacy",
+          "translation": "交涉"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Nature",
+          "translation": "自然"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "label"
+          ],
+          "source": "Wilding Ability (4th)",
+          "translation": "野性层面能力（4环）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Energized",
+          "translation": "充能"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Mount (Mounted Combatant)",
+          "translation": "骑乘（骑乘战士）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Water Thing (Swimmer)",
+          "translation": "亲水者（游泳者）"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            1,
+            "name"
+          ],
+          "source": "Trickster",
+          "translation": "诡术 Trickster"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            1,
+            "strikes",
+            "trickster",
+            "label"
+          ],
+          "source": "Primary Trickster Attack",
+          "translation": "诡术主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "name"
+          ],
+          "source": "Reveler",
+          "translation": "狂欢 Reveler"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "strikes",
+            "reveler",
+            "label"
+          ],
+          "source": "Primary Reveler Attack",
+          "translation": "狂欢主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "name"
+          ],
+          "source": "Wilding",
+          "translation": "野性 Wilding"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "strikes",
+            "wilding",
+            "label"
+          ],
+          "source": "Primary Wilding Attack",
+          "translation": "野性主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            7,
+            "name"
+          ],
+          "source": "Terror",
+          "translation": "恐怖 Terror"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            7,
+            "strikes",
+            "terror",
+            "label"
+          ],
+          "source": "Primary Terror Attack",
+          "translation": "恐怖主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            7,
+            "strikes",
+            "terror-agile",
+            "label"
+          ],
+          "source": "Secondary Terror Attack",
+          "translation": "恐怖次要攻击"
+        }
+      ]
     },
     "Envisioning": {
       "name": "构想 Envisioning",
@@ -523,7 +4066,27 @@
     },
     "Spell Effect: Untamed Aspect Shift": {
       "name": "法术效果：未驯层面变形 Spell Effect: Untamed Aspect Shift",
-      "description": "<p>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.rgKYmYLZVA7KeMxL]{无羁变形}赋予</p><p>你可变形为<em>害虫变形</em>所列任意形态，持续10分钟。其他<em>未驯变形</em>形态持续1分钟。你可通过德鲁伊专长向<em>未驯变形</em>列表添加更多形态；专长可能授予你某项变形法术之部分或全部形态。</p><p>当你变形为某法术所授形态时，你获得该法术环提升至<em>未驯变形</em>之阶级时所选形态之全部效果。<em>未驯变形</em>使你比多数变形法术更易使用自身的变形训练。当你选择以自身攻击调整值代替形态默认攻击调整值时，你对攻击检定获得+2状态加值。</p><hr><p><strong>提升（2阶）</strong> 你可变形为<em>动物变形</em>所列形态。</p>"
+      "description": "<p>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.rgKYmYLZVA7KeMxL]{无羁变形}赋予</p><p>你可变形为<em>害虫变形</em>所列任意形态，持续10分钟。其他<em>未驯变形</em>形态持续1分钟。你可通过德鲁伊专长向<em>未驯变形</em>列表添加更多形态；专长可能授予你某项变形法术之部分或全部形态。</p><p>当你变形为某法术所授形态时，你获得该法术环提升至<em>未驯变形</em>之阶级时所选形态之全部效果。<em>未驯变形</em>使你比多数变形法术更易使用自身的变形训练。当你选择以自身攻击调整值代替形态默认攻击调整值时，你对攻击检定获得+2状态加值。</p><hr><p><strong>提升（2阶）</strong> 你可变形为<em>动物变形</em>所列形态。</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Untamed Aspect Shift",
+          "translation": "无羁层面变形"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Dragon Shape Resistance",
+          "translation": "龙之形态抗力"
+        }
+      ]
     },
     "Sin Strike": {
       "name": "罪击 Sin Strike",
@@ -650,7 +4213,256 @@
     },
     "Spell Effect: Monitor Shift": {
       "name": "法术效果：监督变形 Spell Effect: Monitor Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.uf5cKXqsQYWJ75xj]{监督变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.dEde2XsZbJHxQknx]{召唤监督层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.C6JZEcra03J2ysI4]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.uf5cKXqsQYWJ75xj]{监督变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.dEde2XsZbJHxQknx]{召唤监督层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.C6JZEcra03J2ysI4]</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Monitor Aspect",
+          "translation": "观察者层面"
+        },
+        {
+          "path": [
+            0,
+            "base",
+            "strikes",
+            "primary",
+            "label"
+          ],
+          "source": "Primary Monitor Attack",
+          "translation": "观察者主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Monitor Aspect",
+          "translation": "观察者层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Aeon",
+          "translation": "御衡者"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Aesir",
+          "translation": "阿萨神族"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Protean",
+          "translation": "幻蛇"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Psychopomp",
+          "translation": "招魂者"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "Monitor's Directive",
+          "translation": "观察者指令"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Directive of Guidance",
+          "translation": "引导指令"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Directive of Punishment",
+          "translation": "惩罚指令"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "label"
+          ],
+          "source": "Primary Strike Damage",
+          "translation": "主要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "label"
+          ],
+          "source": "Save Adjustments",
+          "translation": "豁免调整"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "label"
+          ],
+          "source": "Skill of Your Choice",
+          "translation": "自选技能"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "label"
+          ],
+          "source": "Outer Planes Language",
+          "translation": "外层位面语言"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "label"
+          ],
+          "source": "Outer Planes Language",
+          "translation": "外层位面语言"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "label"
+          ],
+          "source": "Common Language",
+          "translation": "常见语言"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "name"
+          ],
+          "source": "Aeon",
+          "translation": "御衡者 Aeon"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "name"
+          ],
+          "source": "Aesir",
+          "translation": "阿萨神族 Aesir"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "name"
+          ],
+          "source": "Protean",
+          "translation": "幻蛇 Protean"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            6,
+            "name"
+          ],
+          "source": "Psychopomp",
+          "translation": "招魂者 Psychopomp"
+        }
+      ]
     },
     "Spell Effect: Dynamic Shield 2": {
       "name": "法术效果：动态盾牌2 Spell Effect: Dynamic Shield 2",
@@ -678,7 +4490,494 @@
     },
     "Spell Effect: Dragon Shift": {
       "name": "法术效果：龙族变形 Spell Effect: Dragon Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.d8OboK14CSqs7N7p]{龙族变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.l5vsZK7L8GtFvF4O]{召唤龙族层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.XaX4kPgcKyHxbVZS]{龙族层面}</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.d8OboK14CSqs7N7p]{龙族变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.l5vsZK7L8GtFvF4O]{召唤龙族层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.XaX4kPgcKyHxbVZS]{龙族层面}</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Dragon Aspect",
+          "translation": "龙族层面"
+        },
+        {
+          "path": [
+            0,
+            "base",
+            "strikes",
+            "primary",
+            "label"
+          ],
+          "source": "Primary Dragon Attack",
+          "translation": "龙族主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "base",
+            "strikes",
+            "agile",
+            "label"
+          ],
+          "source": "Secondary Dragon Attack",
+          "translation": "龙族次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "base",
+            "strikes",
+            "reach",
+            "label"
+          ],
+          "source": "Secondary Dragon Attack",
+          "translation": "龙族次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Magic of the Dragon",
+          "translation": "龙之魔法"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Arcane",
+          "translation": "奥术"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Divine",
+          "translation": "神术"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Occult",
+          "translation": "异能"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Primal",
+          "translation": "原能"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "hint"
+          ],
+          "source": "Your aspect's tradition trait. Only dragon aspects of your tradition can be chosen.",
+          "translation": "你的层面的根源特征。只能选择与你的根源相对应的龙族层面。"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "Dragon Aspect",
+          "translation": "龙族层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Lorekeeper",
+          "translation": "学识守护者"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Planarist",
+          "translation": "位面学者"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Rampager",
+          "translation": "狂暴者"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Spiritualist",
+          "translation": "通灵者"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "label"
+          ],
+          "source": "Draconic Damage",
+          "translation": "龙族伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Acid",
+          "translation": "酸蚀"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Cold",
+          "translation": "寒冷"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Electricity",
+          "translation": "电击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Fire",
+          "translation": "火焰"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            4,
+            "label"
+          ],
+          "source": "Mental",
+          "translation": "心灵"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            5,
+            "label"
+          ],
+          "source": "Poison",
+          "translation": "毒素"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            6,
+            "label"
+          ],
+          "source": "Spirit",
+          "translation": "精魂"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            7,
+            "label"
+          ],
+          "source": "Sonic",
+          "translation": "音波"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            8,
+            "label"
+          ],
+          "source": "Vitality",
+          "translation": "命能"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            9,
+            "label"
+          ],
+          "source": "Void",
+          "translation": "虚能"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "hint"
+          ],
+          "source": "Resistance (immunity from 4th rank) and breath weapon damage type.",
+          "translation": "抗力（4环起改为免疫）与喷吐武器的伤害类型。"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "label"
+          ],
+          "source": "Secondary Strike Trait",
+          "translation": "次要打击特征"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Agile",
+          "translation": "灵巧"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Reach",
+          "translation": "长触及"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "label"
+          ],
+          "source": "Secondary Strike Damage",
+          "translation": "次要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "label"
+          ],
+          "source": "Lorekeeper Skill",
+          "translation": "学识守护者技能"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Diplomacy",
+          "translation": "交涉"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Society",
+          "translation": "社群"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            0,
+            "rules",
+            0,
+            "title"
+          ],
+          "source": "Dragon Aspect (8th Rank)",
+          "translation": "龙族层面（8环）"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            0,
+            "rules",
+            0,
+            "text"
+          ],
+          "source": "When the aspect critically succeeds at a Strike or it successfully Strikes a creature twice in the same turn, it regains the use of its breath weapon again.",
+          "translation": "当该层面的打击大成功，或在同一回合内两次成功打击同一名生物时，它重新获得喷吐武器的使用机会。"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            1,
+            "name"
+          ],
+          "source": "Lorekeeper",
+          "translation": "学识守护者 Lorekeeper"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "name"
+          ],
+          "source": "Planarist",
+          "translation": "位面学者 Planarist"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "name"
+          ],
+          "source": "Rampager",
+          "translation": "狂暴者 Rampager"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            4,
+            "name"
+          ],
+          "source": "Spiritualist",
+          "translation": "通灵者 Spiritualist"
+        }
+      ]
     },
     "Bleeding Spell": {
       "name": "流血法术 Bleeding Spell",
@@ -694,7 +4993,73 @@
     },
     "Spell Effect: Pest Shift": {
       "name": "法术效果：害虫变形 Spell Effect: Pest Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.TXZWyxFYuhQeQ5ue]{害虫变形}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.XbPY6LojeQrqUfjI]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.TXZWyxFYuhQeQ5ue]{害虫变形}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.XbPY6LojeQrqUfjI]</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Pest Aspect",
+          "translation": "害兽层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Aspect Ability (4th)",
+          "translation": "层面能力（4环）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Climber",
+          "translation": "攀爬者"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Flier",
+          "translation": "飞行者"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Swimmer",
+          "translation": "游泳者"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "Skills (8th)",
+          "translation": "技能（8环）"
+        }
+      ]
     },
     "Liberate": {
       "name": "解放 Liberate",
@@ -878,7 +5243,291 @@
     },
     "Spell Effect: Construct Shift": {
       "name": "法术效果：构装变形 Spell Effect: Construct Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.Z7jVUX8dvTfWq1Ul]{构装变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.RwH4iPmNmCHkyBQ2]{召唤构装层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.VNtyYlVBQoNGAthk]</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.Z7jVUX8dvTfWq1Ul]{构装变形}或@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.RwH4iPmNmCHkyBQ2]{召唤构装层面}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.VNtyYlVBQoNGAthk]</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Construct Aspect",
+          "translation": "构装层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Construct Aspect",
+          "translation": "构装层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Animated",
+          "translation": "活化"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Clockwork",
+          "translation": "发条"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Guardian",
+          "translation": "守卫"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Unnatural",
+          "translation": "非自然"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "Primary Strike Damage",
+          "translation": "主要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "label"
+          ],
+          "source": "Secondary Strike Damage",
+          "translation": "次要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            1,
+            "name"
+          ],
+          "source": "Animated",
+          "translation": "活化 Animated"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            1,
+            "strikes",
+            "animated",
+            "label"
+          ],
+          "source": "Primary Animated Attack",
+          "translation": "活化主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "name"
+          ],
+          "source": "Clockwork",
+          "translation": "发条 Clockwork"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "strikes",
+            "clockwork",
+            "label"
+          ],
+          "source": "Primary Clockwork Attack",
+          "translation": "发条主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "name"
+          ],
+          "source": "Guardian",
+          "translation": "守卫 Guardian"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            3,
+            "strikes",
+            "guardian",
+            "label"
+          ],
+          "source": "Primary Guardian Attack",
+          "translation": "守卫主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            4,
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Interposing Presence (Fortitude)",
+          "translation": "阻挡之姿（强韧）"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            5,
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Interposing Presence (Fortitude)",
+          "translation": "阻挡之姿（强韧）"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            6,
+            "name"
+          ],
+          "source": "Unnatural",
+          "translation": "非自然 Unnatural"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            6,
+            "strikes",
+            "unnatural",
+            "label"
+          ],
+          "source": "Primary Unnatural Attack",
+          "translation": "非自然主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            6,
+            "strikes",
+            "unnaturaler",
+            "label"
+          ],
+          "source": "Secondary Unnatural Attack",
+          "translation": "非自然次要攻击"
+        }
+      ]
     },
     "Tools of Darkness": {
       "name": "黑暗之具 Tools of Darkness",
@@ -890,7 +5539,538 @@
     },
     "Spell Effect: Aberration Shift": {
       "name": "法术效果：异种变形 Spell Effect: Aberration Shift",
-      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.mBZA39OruYMaOUc2]{异种变形}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.xDO6Iqzk8uT6l0U3]{实体层面}</p>"
+      "description": "<p><em>由@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.mBZA39OruYMaOUc2]{异种变形}赋予。</em></p><hr><p><strong>调整值 </strong>[[@item.flags.sf2e.aspectDC - 10]]; <strong>DC </strong>[[@item.flags.sf2e.aspectDC]]</p><hr><p>@Embed[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.xDO6Iqzk8uT6l0U3]{实体层面}</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            0,
+            "label"
+          ],
+          "source": "Entity Aspect",
+          "translation": "实体层面"
+        },
+        {
+          "path": [
+            0,
+            "base",
+            "strikes",
+            "primary",
+            "label"
+          ],
+          "source": "Primary Entity Attack",
+          "translation": "实体主要攻击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "Entity Aspect",
+          "translation": "实体层面"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Eldritch",
+          "translation": "诡奇"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Hypnagog",
+          "translation": "入梦"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Lusus Naturae",
+          "translation": "畸物"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            0,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Stranger",
+          "translation": "异客"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "Primary Strike Damage",
+          "translation": "主要打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            1,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            2,
+            "label"
+          ],
+          "source": "Save Adjustments",
+          "translation": "豁免调整"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "label"
+          ],
+          "source": "Lusus Naturae Strike Trait",
+          "translation": "畸物打击特征"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Agile",
+          "translation": "灵巧"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            3,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Reach",
+          "translation": "长触及"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "label"
+          ],
+          "source": "Lusus Naturae Strike Damage",
+          "translation": "畸物打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            4,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "label"
+          ],
+          "source": "Stranger Strike Trait",
+          "translation": "异客打击特征"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Agile",
+          "translation": "灵巧"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            5,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Tearing",
+          "translation": "撕扯"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "label"
+          ],
+          "source": "Stranger Strike Damage",
+          "translation": "异客打击伤害"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Piercing",
+          "translation": "穿刺"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Bludgeoning",
+          "translation": "钝击"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            6,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Slashing",
+          "translation": "挥砍"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "label"
+          ],
+          "source": "Eldritch Ability (4th)",
+          "translation": "诡奇层面能力（4环）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Feed on Fear",
+          "translation": "以恐惧为食"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            7,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Flier",
+          "translation": "飞行者"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            8,
+            "label"
+          ],
+          "source": "Hypnagog Ability (4th)",
+          "translation": "入梦层面能力（4环）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            8,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Flier",
+          "translation": "飞行者"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            8,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Innate Sleep",
+          "translation": "内禀催眠"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            9,
+            "label"
+          ],
+          "source": "Lusus Naturae Animal Feature (4th)",
+          "translation": "畸物层面动物特性（4环）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            9,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Aerial (Go for the Eyes!)",
+          "translation": "空中（击其双眼！）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            9,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Aqueous (Aquatic Sense)",
+          "translation": "水生（水栖感官）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            9,
+            "options",
+            2,
+            "label"
+          ],
+          "source": "Mount (Mount's Mobility)",
+          "translation": "坐骑（坐骑机动力）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            9,
+            "options",
+            3,
+            "label"
+          ],
+          "source": "Predator (Predator's Maneuver)",
+          "translation": "掠食者（掠食者机动）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            10,
+            "label"
+          ],
+          "source": "Stranger Ability (4th)",
+          "translation": "异客层面能力（4环）"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            10,
+            "options",
+            0,
+            "label"
+          ],
+          "source": "Camouflage",
+          "translation": "伪装"
+        },
+        {
+          "path": [
+            0,
+            "choices",
+            10,
+            "options",
+            1,
+            "label"
+          ],
+          "source": "Extra Limbs",
+          "translation": "额外肢体"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            0,
+            "name"
+          ],
+          "source": "Eldritch",
+          "translation": "诡奇 Eldritch"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            1,
+            "name"
+          ],
+          "source": "Hypnagog",
+          "translation": "入梦 Hypnagog"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            1,
+            "strikes",
+            "hypnagog",
+            "label"
+          ],
+          "source": "Secondary Hypnagog Attack",
+          "translation": "入梦次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "name"
+          ],
+          "source": "Lusus Naturae",
+          "translation": "畸物 Lusus Naturae"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            2,
+            "strikes",
+            "lusus",
+            "label"
+          ],
+          "source": "Secondary Lusus Naturae Attack",
+          "translation": "畸物次要攻击"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            7,
+            "name"
+          ],
+          "source": "Stranger",
+          "translation": "异客 Stranger"
+        },
+        {
+          "path": [
+            0,
+            "patches",
+            7,
+            "strikes",
+            "stranger",
+            "label"
+          ],
+          "source": "Secondary Stranger Attack",
+          "translation": "异客次要攻击"
+        }
+      ]
     },
     "Hunter of Death": {
       "name": "死亡猎手 Hunter of Death",
@@ -911,6 +6091,12 @@
     "Splinter Wood": {
       "name": "裂木 Splinter Wood",
       "description": "<p>木属元素使30尺内一处@Template[type:burst|distance:15]内之非魔法木质物体承受@Damage[(@actor.flags.sf2e.aspectRank)d8[piercing]]{每阶法术1d8穿刺伤害}（基础@Check[fortitude|dc:resolve(@actor.flags.sf2e.aspectDC)|basic:true]豁免）。与因此能力获得破损状态或被毁之木质物体相邻之生物，亦承受该法术之伤害。</p>"
+    }
+  },
+  "mapping": {
+    "ruleTexts": {
+      "path": "system.rules",
+      "converter": "team-plus-rule-text"
     }
   }
 }

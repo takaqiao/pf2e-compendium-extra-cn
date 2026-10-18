@@ -123,7 +123,35 @@
     },
     "Colossal Aspect Form": {
       "name": "巨像层面形态 Colossal Aspect Form",
-      "description": "<p>你化身为一只庞大无比的生物。若你下一动作是施放一道 10 环之层面战斗形态法术，则你的形态为巨型，占据 6 格 × 6 格（30 尺 × 30 尺），身高 100 尺，触及范围增加至 25 尺。你获得 @UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.XVveTQK3RY2w72XL]{践踏} 活动；若你的层面已具备「践踏」活动，则将其伤害骰大小增加一档。</p>"
+      "description": "<p>你化身为一只庞大无比的生物。若你下一动作是施放一道 10 环之层面战斗形态法术，则你的形态为巨型，占据 6 格 × 6 格（30 尺 × 30 尺），身高 100 尺，触及范围增加至 25 尺。你获得 @UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.XVveTQK3RY2w72XL]{践踏} 活动；若你的层面已具备「践踏」活动，则将其伤害骰大小增加一档。</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            2,
+            "label"
+          ],
+          "source": "Colossal Aspect Form",
+          "translation": "巨像层面形态"
+        },
+        {
+          "path": [
+            2,
+            "option",
+            "label"
+          ],
+          "source": "Colossal Aspect Form",
+          "translation": "巨像层面形态"
+        },
+        {
+          "path": [
+            2,
+            "option",
+            "hint"
+          ],
+          "source": "Gargantuan, 6 by 6 squares, 25-foot reach, and the Trample aspect ability.",
+          "translation": "巨型，占据6格×6格，触及25尺，并获得践踏层面能力。"
+        }
+      ]
     },
     "Empyreal Dragonbreath Greatsword (Major)": {
       "name": "天极龙息巨剑（超级） Empyreal Dragonbreath Greatsword (Major)",
@@ -863,7 +891,25 @@
     },
     "Soaring Shape+": {
       "name": "翱翔形态+ Soaring Shape+",
-      "description": "<p>翅膀使你摆脱地表之束缚。将 @UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{御空形态} 中之蝙蝠与鸟类形态加入你的 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{未驯形态} 列表。若你具备 @UUID[Compendium.pf2e.feats-srd.Item.OWedlrKGsVZVkSnT]{虫类变身}，则将黄蜂形态也加入你的「未驯形态」列表。若你具备 @UUID[Compendium.pf2e.feats-srd.Item.Le30algCdKIsxmeK]{暴虐之形}，则将翼龙形态也加入你的「未驯形态」列表。每当你使用「未驯形态」化身为赋予你某具体特技调整值之形态时，你于特技检定获得 +1 状态加值。</p><p>你可将 @UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.rU0OMGjiOo6xc7BR]{飞行者} 层面能力加入任意动物层面；若该层面已具备「飞行者」，则将其飞行速度增加 15 尺。</p>"
+      "description": "<p>翅膀使你摆脱地表之束缚。将 @UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{御空形态} 中之蝙蝠与鸟类形态加入你的 @UUID[Compendium.pf2e.spells-srd.Item.8RWfKConLYFZpQ9X]{未驯形态} 列表。若你具备 @UUID[Compendium.pf2e.feats-srd.Item.OWedlrKGsVZVkSnT]{虫类变身}，则将黄蜂形态也加入你的「未驯形态」列表。若你具备 @UUID[Compendium.pf2e.feats-srd.Item.Le30algCdKIsxmeK]{暴虐之形}，则将翼龙形态也加入你的「未驯形态」列表。每当你使用「未驯形态」化身为赋予你某具体特技调整值之形态时，你于特技检定获得 +1 状态加值。</p><p>你可将 @UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.rU0OMGjiOo6xc7BR]{飞行者} 层面能力加入任意动物层面；若该层面已具备「飞行者」，则将其飞行速度增加 15 尺。</p>",
+      "ruleTexts": [
+        {
+          "path": [
+            5,
+            "label"
+          ],
+          "source": "Soaring Shape",
+          "translation": "翱翔形态"
+        },
+        {
+          "path": [
+            6,
+            "label"
+          ],
+          "source": "Soaring Shape",
+          "translation": "翱翔形态"
+        }
+      ]
     },
     "Blood Spells": {
       "name": "血法术 Blood Spells",

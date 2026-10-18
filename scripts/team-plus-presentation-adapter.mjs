@@ -1,4 +1,5 @@
 import {patchFragment,replaceText,sourceUuid,dynamicCandidate,showInputName,literals,sha256} from './team-plus-presentation-core.mjs';
+import {isAspectConfigurator,presentAspect,presentAspectPreset} from './team-plus-aspect-presentation.mjs';
 const EXTRA='pf2e-compendium-extra-cn',MAGIC='pf2e-team-plus-magic',SUMMONERS='pf2e-summoners-plus',FEATS='pf2e-team-plus-feats',BARB='pf2e-team-plus-barbarians',WIZARDS='pf2e-team-plus-wizards',INVENTORS='pf2e-team-plus-inventors';
 const rootOf=html=>html instanceof HTMLElement?html:html?.[0];
 const uuidTail=s=>s?.split('.').at(-1);
@@ -7,6 +8,7 @@ const constantValues={'${t(a)["pf2e.actionspf2e"]}':'pf2e.actionspf2e','${t(a)["
 
 export function createPresentationAdapter({game,data,fetchSource=path=>fetch(path).then(r=>{if(!r.ok)throw Error(r.status);return r.text()})}) {
  const ui=new Map(data.ui.map(x=>[x.id,x])),observers=new WeakMap(),pending=new WeakSet();
+ const aspectApps=new Map();
  const diagnostics={sourceChecks:[],applications:0,dynamicApplied:0,uiApplied:0,failures:[]};
  const unit=n=>ui.get(`ui-${String(n).padStart(3,'0')}`);
  // Upstream is recognised by module id and by each row's exact source text, never by version or file hash.
@@ -273,6 +275,14 @@ export function createPresentationAdapter({game,data,fetchSource=path=>fetch(pat
   const list=document.querySelector('#notifications');if(!list)return;
   notification(list);watch(list,()=>notification(list));
  }
- async function application(app,html){await dialog(app,html);settings(app,html);dailies(app,html);}
+ async function application(app,html){
+  await dialog(app,html);settings(app,html);dailies(app,html);
+  const root=rootOf(html);if(!root||!allowed(MAGIC))return;
+  for(const[owner,element]of aspectApps)if(owner.rendered===false||!element.isConnected)aspectApps.delete(owner);
+  if(isAspectConfigurator(app)){
+   aspectApps.set(app,root);
+   diagnostics.uiApplied+=presentAspect(app,root,{config:globalThis.CONFIG?.PF2E,localize:key=>game.i18n.localize(key)});
+  }else diagnostics.uiApplied+=presentAspectPreset(app,root,aspectApps.size>0,game.i18n.localize('Save'));
+ }
  return {allowed,recordSources,headerButtons,itemSheet,actorSheet,dialog,settings,dailies,chat,application,notification,installNotifications,displayedName,dynamicIn,diagnostics};
 }
