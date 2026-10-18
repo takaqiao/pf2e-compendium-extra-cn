@@ -98,9 +98,9 @@
       }
     },
     "teamPlusIndependentReview": {
-      "date": "2026-10-11",
+      "date": "2026-10-18",
       "standard": "standard-pf2-translation-v3",
-      "scope": "2026-10-08 Team+ alignment delta and confirmed display omissions"
+      "scope": "2026-10-18 Team+ Magic 1.4.1 alignment delta and removal of the source-hash display gate"
     }
   }
 }

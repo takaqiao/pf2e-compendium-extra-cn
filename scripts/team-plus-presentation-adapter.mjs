@@ -18,6 +18,8 @@ export function createPresentationAdapter({game,data,fetchSource=path=>fetch(pat
   } catch{return false;}
  };
  const optional=mid=>Object.hasOwn(data.optional,mid)&&game.modules.get(mid)?.active===true;
+ // An upstream release may drop a setting; a missing one must not skip later replacements.
+ const setting=(mid,key)=>{try{return game.settings.get(mid,key);}catch{return undefined;}};
  function presentationFor(item){
   if(!allowed(MAGIC))return null;
   const row=dynamicCandidate(item,data.dynamic),p=row?.presentation;if(!p)return null;
@@ -228,7 +230,7 @@ export function createPresentationAdapter({game,data,fetchSource=path=>fetch(pat
   }
   if(allowed('witches-remaster')&&String(message.content).includes('Compendium.witches-remaster.witches-remaster-journals.JournalEntry.qgxQMdRUrBVZeNv5'))await rich(root,17);
   const options=message.flags?.pf2e?.context?.options??[];
-  if(allowed(INVENTORS)&&game.settings.get(INVENTORS,'legacy-plus-unstable')&&options.some(x=>x==='unstable-check'||x==='item:trait:unstable'))await rich(root,16,{rollData:message.actor?.getRollData?.()??{}});
+  if(allowed(INVENTORS)&&setting(INVENTORS,'legacy-plus-unstable')&&options.some(x=>x==='unstable-check'||x==='item:trait:unstable'))await rich(root,16,{rollData:message.actor?.getRollData?.()??{}});
   if(allowed(FEATS))for(const [slug,ids]of actionGroups){
    const actual=game.pf2e?.actions?.get(slug),description=unit(ids[0]);
    if(!actual||actual.name!==unit(ids[1]).source||actual.description!==literals(description.source,constantValues))continue;
