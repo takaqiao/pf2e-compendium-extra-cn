@@ -27,6 +27,9 @@ jobs:
       - name: Verify versioned bestiary sources and HAD migration
         run: node --test tests/versioned-bestiary-sources.test.mjs scripts/test-hero-deck-compat.mjs tests/bob-check-dc.test.mjs tests/bob-gallery-version.test.mjs
 
+      - name: Verify BoB memento progress
+        run: node --test tests/bob-memento-progress.test.mjs
+
       - name: Read tag version
         id: version
         run: |
