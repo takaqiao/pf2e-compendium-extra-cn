@@ -93,14 +93,16 @@ export function installBobIdentityCompatibility({ItemClass, itemClasses, LoreCla
     }
   }
   const rows = new Map();
-  for (const identity of identities) {
+  for (const identity of identities.flatMap(row => [row, ...(row.sourceVariants ?? [])])) {
     const key = identity.scope === 'tokenItem'
       ? `${identity.scope}/${identity.sceneId}/${identity.tokenId}/${identity.actorId}/${identity.itemId}`
       : `${identity.scope}/${identity.actorId ?? ''}/${identity.itemId}`;
-    if (rows.has(key)) throw new Error(`Duplicate BoB approved identity: ${key}`);
-    rows.set(key, Object.freeze({...identity}));
+    const variants = rows.get(key) ?? [];
+    if (variants.some(row => JSON.stringify(row) === JSON.stringify(identity))) throw new Error(`Duplicate BoB approved identity: ${key}`);
+    variants.push(Object.freeze({...identity}));
+    rows.set(key, variants);
   }
-  const tokenItems = prepareBobTokenItemIdentity({identities:[...rows.values()],ActorClass,ActorDeltaClass,TokenDocumentClass,SceneClass});
+  const tokenItems = prepareBobTokenItemIdentity({identities:[...rows.values()].flat(),ActorClass,ActorDeltaClass,TokenDocumentClass,SceneClass});
   let active = true;
   const hasFingerprints = identity => identity?.scope === 'worldItem'
     && /^[a-f0-9]{64}$/.test(identity.sourceFingerprint) && /^[a-f0-9]{64}$/.test(identity.approvalFingerprint);
@@ -108,9 +110,9 @@ export function installBobIdentityCompatibility({ItemClass, itemClasses, LoreCla
     const marker = item._source?.flags?.[EXTRA_ID]?.bobIdentity;
     if (!marker || typeof marker !== 'object' || Array.isArray(marker) || marker.version !== 1
       || Object.keys(marker).sort().join(',') !== 'approvalFingerprint,key,sourceFingerprint,version') return null;
-    const identity = rows.get(marker.key);
-    return hasFingerprints(identity) && marker.sourceFingerprint === identity.sourceFingerprint
-      && marker.approvalFingerprint === identity.approvalFingerprint ? identity : null;
+    const matches = (rows.get(marker.key) ?? []).filter(identity => hasFingerprints(identity) && marker.sourceFingerprint === identity.sourceFingerprint
+      && marker.approvalFingerprint === identity.approvalFingerprint);
+    return matches.length === 1 ? matches[0] : null;
   };
   function approved(item, ruleConsumer = false) {
     if (!active || !isEnabled() || !ruleConsumer && item.system?.slug != null) return null;
@@ -126,15 +128,18 @@ export function installBobIdentityCompatibility({ItemClass, itemClasses, LoreCla
     }
     if (actor && tokenItems.hasOwnDeltaItem(item,actor)) return tokenItems.resolve(item,actor);
     const scope = actor ? 'actorItem' : 'worldItem';
-    const identity = rows.get(`${scope}/${actor?.id ?? ''}/${item.id}`);
-    if (!identity || item.type !== identity.itemType || item.name !== identity.approvedName
-      || ruleConsumer && normalized(item.system?.slug) !== normalized(identity.itemSlug)
-      || normalized(item._source?.folder) !== normalized(identity.itemFolderId)
-      || normalized(item._source?._stats?.compendiumSource) !== normalized(identity.itemSourceUuid)) return null;
-    if (actor && (actor.type !== identity.actorType
-      || normalized(actor._source?.folder) !== normalized(identity.actorFolderId)
-      || normalized(actor._source?._stats?.compendiumSource) !== normalized(identity.actorSourceUuid))) return null;
-    return identity;
+    let matches = (rows.get(`${scope}/${actor?.id ?? ''}/${item.id}`) ?? []).filter(identity => {
+      if (item.type !== identity.itemType || item.name !== identity.approvedName
+        || ruleConsumer && normalized(item.system?.slug) !== normalized(identity.itemSlug)
+        || normalized(item._source?.folder) !== normalized(identity.itemFolderId)
+        || normalized(item._source?._stats?.compendiumSource) !== normalized(identity.itemSourceUuid)) return false;
+      if (actor && (actor.type !== identity.actorType
+        || normalized(actor._source?.folder) !== normalized(identity.actorFolderId)
+        || normalized(actor._source?._stats?.compendiumSource) !== normalized(identity.actorSourceUuid))) return false;
+      return true;
+    });
+    if (matches.length > 1) matches = matches.filter(identity => identity.fallbackRules?.length && identity.fallbackRules.every(rule => JSON.stringify(item._source?.system?.rules?.[rule.sourceIndex]) === rule.sourceJSON));
+    return matches.length === 1 ? matches[0] : null;
   }
 
   // Native getters retain the real receiver (including private-field getters).

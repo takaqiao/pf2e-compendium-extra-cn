@@ -833,6 +833,17 @@
         "Lerrisu's Dirge": {
           "name": "莱里苏的挽歌 Lerrisu's Dirge",
           "description": "<p>莱里苏开始吟唱哀伤的挽歌，使活物心神不宁，却能强化她的幽灵盟友。30尺内的每个活物都必须尝试一次 @Check[will|dc:28] 豁免，结果如下；同时，她30尺内的每位幽灵同伴都获得 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}，直到莱里苏的下个回合开始；它们只能用额外动作飞行或打击。</p><hr /><p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标因挽歌引发的悲伤而陷入 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到莱里苏的下个回合开始。</p>\n<p><strong>失败</strong> 同成功，但还会因悲伤而陷入 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}。</p>\n<p><strong>大失败</strong> 同失败，但改为 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 2}。</p>"
+        },
+        "MpCLpxadAn358Nop": {
+          "name": "幽冥武器 Ghostly Weapon",
+          "bobSourceName": {
+            "sources": [
+              [
+                "Ghostly Weapon",
+                "幽灵武器 Ghostly Weapon"
+              ]
+            ]
+          }
         }
       },
       "name": "莱里苏 Lerrisu",
@@ -1130,6 +1141,18 @@
         },
         "Scything Blade": {
           "name": "镰状刃臂 Scything Blade"
+        },
+        "6ughwBA5t1JHf3xr": {
+          "name": "莉哈斯菲妮娅的沙漏 Ryhasphinea's Hourglass",
+          "gmnote": "<p>每件阿鲁多拉信物的外观各不相同，但七件信物的尺寸大致相仿。它们由受诅咒的家族成员各自携带，蕴含的力量能够使孽裔厅堂的整片区域脱离城堡通常所处的幽灵般受诅咒状态。</p><hr><p><strong>启动—归还信物</strong> <span class=\"action-glyph\">3</span>（操作） 你将信物放入孽裔厅堂区域 <strong>B3</strong> 喷泉中对应雕像的手中。雕像短暂活化，接过信物；信物随即化为石头，此后永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这只开裂的沙漏后，地下密库（详见第8章）解锁。死亡对玩家角色的束缚减弱——在本冒险之路余下的时间里，濒死玩家角色的所有恢复检定难度降低2。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在以归还信物启动时被摧毁，而此次归还授予的恩赐会持续至本冒险之路的最终结束。</p>",
+          "bobPublication": {
+            "sources": [
+              [
+                "Pathfinder Adventure Path: Bastion of Blasphemies",
+                "Pathfinder冒险之路：亵渎堡垒"
+              ]
+            ]
+          }
         }
       },
       "name": "莉哈斯菲妮娅·阿鲁多拉 Ryhasphinea Arudora",
@@ -1674,6 +1697,30 @@
         },
         "Occult Innate Spells": {
           "name": "异能内在法术 Occult Innate Spells"
+        },
+        "9k4kkQAif7HkqfVc": {
+          "name": "魅惑术 Charm",
+          "description": "<p>在目标看来，你的言语甜蜜动听，你的形象笼罩在梦幻般的光晕中。目标必须尝试一次意志豁免，如果你或者你的盟友最近威胁它或者对它进行了敌对行为，会获得+4环境加值。</p>\n<p>你可以解消该法术。如果你对目标使用任何敌对动作，法术终止。当该法术结束时，目标不一定会意识到自己被魅惑了，除非它和你的友好关系，或者你说服它去做的事情与其期望发生冲突。这也即是说你可以通过常规的方法说服目标继续作为你的朋友。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响，并且意识到你尝试魅惑它。</p>\n<p><strong>成功</strong> 该目标不受影响，但是认为你的法术是某种无害的东西，而不是魅惑术，除非它能识别该法术（通常通过辨识法术）。</p>\n<p><strong>失败</strong> 目标对你的态度变为@UUID[Compendium.pf2e.conditionitems.Item.v66R7FdOf11l94im]{友善}。如果已经是友好，则变为 @UUID[Compendium.pf2e.conditionitems.Item.v44P3WUcU1j0115l]{乐于帮助}。它不能对你做出敌对行为。</p>\n<p><strong>大失败</strong> 目标变为乐于帮助并且不能对你做出敌对行为。</p>\n<hr />\n<p><strong>升阶（4环级）</strong> 该法术持续时间为持续到下次你进行你的每日准备。</p>\n<p><strong>升阶（8环级）</strong> 该法术持续时间为持续到下次你进行你的每日准备，并且你能以至多10个生物作为目标。</p>",
+          "bobPublication": {
+            "sources": [
+              [
+                "Pathfinder Player Core",
+                "Pathfinder玩家核心"
+              ]
+            ]
+          }
+        },
+        "RigNINwLhOkBq2ur": {
+          "name": "阿莉森德拉的扇子 Alisendra's Fan",
+          "gmnote": "<p>每件阿鲁多拉信物的外观都独一无二，但七件信物的大小大致相同。它们分别由受诅咒的家族成员携带，其中蕴含的力量能够将孽裔厅堂的整片区域从城堡长久以来幽灵般的诅咒状态中解锁。</p><hr><p><strong>启动——归还信物</strong> <span class=\"action-glyph\">3</span>（操作） 你将信物放入孽裔厅堂区域<strong>B3</strong>喷泉中对应雕像的手中。雕像会短暂活化，接过信物；信物随后化为石头，永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这把优雅的深红色手扇后，地牢（详见第5章）解锁。困于孽裔厅堂的灵魂感激阿莉森德拉的统治终结，如今会在求知者耳边低语，提示真相。在本冒险之路余下的时间里，所有用于@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}的检定DC降低1。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在启动归还信物时被摧毁，归还后给予的恩赐持续到本冒险之路的终点。</p>",
+          "bobPublication": {
+            "sources": [
+              [
+                "Pathfinder Adventure Path: Bastion of Blasphemies",
+                "Pathfinder冒险之路：亵渎堡垒"
+              ]
+            ]
+          }
         }
       },
       "name": "阿莉森德拉·阿鲁多拉 Alisendra Arudora",
@@ -1930,6 +1977,18 @@
         "Wand of Soothe (Rank 5)": {
           "name": "安抚术魔杖（5环） Wand of Soothe (Rank 5)",
           "description": "<p>@UUID[Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n]{安抚术}</p><hr /><p>这根短杖长约一尺，其中储存着一道法术。其外观通常与所含法术有关。</p>\n<p><strong>启动</strong> 施放法术</p>\n<p><strong>频率</strong> 每天一次，另可过载</p>\n<hr />\n<p><strong>效果</strong> 你以标明的环阶施放该法术。</p>\n<p><strong>制作要求</strong> 提供一次所列环阶的该法术施放。</p>\n<hr />\n<p><em>注：要创建特定法术的卷轴或魔杖，请将法术从合集或合集浏览器拖入玩家角色、非玩家角色或战利品角色的物品栏。</em></p>"
+        },
+        "5dw1QU2xjSgSXjs2": {
+          "name": "伊罗克西斯的徽章 Irrokcis's Medallion",
+          "gmnote": "<p>每件阿鲁多拉信物的外观各不相同，但七件信物的尺寸大致相仿。它们由受诅咒的家族成员各自携带，蕴含的力量能够使孽裔厅堂的整片区域脱离城堡通常所处的幽灵般受诅咒状态。</p><hr><p><strong>启动—归还信物</strong> <span class=\"action-glyph\">3</span>（操作） 你将信物放入孽裔厅堂区域 <strong>B3</strong> 喷泉中对应雕像的手中。雕像短暂活化，接过信物；信物随即化为石头，此后永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这枚诡异的徽章后，高塔（详见第9章）解锁，受困于孽裔厅堂的精魂会奋起帮助玩家角色。在本冒险之路余下的时间里，玩家角色进行的所有武器打击额外造成 @Damage[1[spirit]] 伤害。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在以归还信物启动时被摧毁，而此次归还授予的恩赐会持续至本冒险之路的最终结束。</p>",
+          "bobPublication": {
+            "sources": [
+              [
+                "Pathfinder Adventure Path: Bastion of Blasphemies",
+                "Pathfinder冒险之路：亵渎堡垒"
+              ]
+            ]
+          }
         }
       },
       "name": "伊罗克西斯·阿鲁多拉 Irrokcis Arudora",
@@ -2391,6 +2450,17 @@
         "Jazlin's Haunted Arrows": {
           "name": "贾兹琳的闹鬼箭 Jazlin's Haunted Arrows",
           "description": "<p>贾兹琳显现出一张短弓，向30尺内一个他能看见的目标射出一支发出尖啸的幽魂箭。目标必须尝试一次 @Check[will|dc:28] 豁免，结果如下。</p><hr /><p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标受到 @Damage[2d6[spirit]] 伤害。</p>\n<p><strong>失败</strong> 目标受到 @Damage[4d6[spirit]] 伤害，并陷入 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p>\n<p><strong>大失败</strong> 目标受到 @Damage[8d6[spirit]] 伤害，并陷入 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 3}。</p>"
+        },
+        "MpCLpxadAn358Nop": {
+          "name": "幽冥武器 Ghostly Weapon",
+          "bobSourceName": {
+            "sources": [
+              [
+                "Ghostly Weapon",
+                "幽灵武器 Ghostly Weapon"
+              ]
+            ]
+          }
         }
       },
       "name": "贾兹琳 Jazlin",
@@ -2766,6 +2836,18 @@
         },
         "Tentacle": {
           "name": "触手 Tentacle"
+        },
+        "RNCh4WD6szpn5Due": {
+          "name": "偷袭 Sneak Attack",
+          "description": "<p>该生物的打击对@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]的生物造成额外1d4精准伤害。</p>",
+          "bobPublication": {
+            "sources": [
+              [
+                "Pathfinder Bestiary",
+                "Pathfinder怪物图鉴"
+              ]
+            ]
+          }
         }
       },
       "name": "海地精潜猎者 Grindylow Stalker",
@@ -2832,6 +2914,18 @@
         "Truespeech (Constant)": {
           "name": "实言术（恒定） Truespeech (Constant)",
           "description": "<p>目标能够理解所有语言的词句，也能说其他生物的语言。在由不同生物组成的群体中，目标每次说话时，都可以选择一个生物，并使用该生物理解的语言，即使目标不知道那是什么语言也可以。</p>\n<hr />\n<p><strong>升阶（7环）</strong> 持续时间变为8小时。</p>"
+        },
+        "ogo4m8E85pSwAqbt": {
+          "name": "吞噬恐惧 Consume Fear",
+          "description": "<p><strong>触发</strong> 60尺内的一个生物失去@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}状态</p><hr /><p><strong>效果</strong> 龙吞食离开触发生物身体的恐惧，获得6d8临时HP，持续1分钟。</p>",
+          "bobSelfEffectName": {
+            "sources": [
+              [
+                "Effect: Consume Fear",
+                "效果：吞噬恐惧 Effect: Consume Fear"
+              ]
+            ]
+          }
         }
       },
       "name": "佐尔高鲁斯 Zaurgaulus",
@@ -3188,6 +3282,18 @@
         },
         "Hurled Rubble": {
           "name": "投掷碎石 Hurled Rubble"
+        },
+        "lHJPKjQIF956jaAm": {
+          "name": "奥格斯滕的短棒 Augsten's Cudgel",
+          "gmnote": "<p>每件阿鲁多拉信物的外观都独一无二，但七件信物的大小大致相同。它们分别由受诅咒的家族成员携带，其中蕴含的力量能够将孽裔厅堂的整片区域从城堡长久以来幽灵般的诅咒状态中解锁。</p><hr><p><strong>启动——归还信物</strong> <span class=\"action-glyph\">3</span>（操作） 你将信物放入孽裔厅堂区域<strong>B3</strong>喷泉中对应雕像的手中。雕像会短暂活化，接过信物；信物随后化为石头，永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这根沾血的木制短棒后，会客厅（详见第4章）解锁。有时，暴力是唯一的答案，迅速投入战斗也会获得回报。在本冒险之路余下的时间里，所有PC在任何先攻检定中均获得+1加值；此特殊加值可与所有其他加值叠加。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在启动归还信物时被摧毁，归还后给予的恩赐持续到本冒险之路的终点。</p>",
+          "bobPublication": {
+            "sources": [
+              [
+                "Pathfinder Adventure Path: Bastion of Blasphemies",
+                "Pathfinder冒险之路：亵渎堡垒"
+              ]
+            ]
+          }
         }
       },
       "name": "奥格斯滕·阿鲁多拉 Augsten Arudora",
@@ -3705,6 +3811,17 @@
         "Amondi's Cruel Shiv": {
           "name": "阿蒙迪的残酷短刃 Amondi's Cruel Shiv",
           "description": "<p>阿蒙迪飞行一次，穿过一个目标生物的空间；此次移动不会触发反应。穿过目标空间时，她对其进行一次幽冥武器打击。如果命中，她额外造成@Damage[3d6[persistent,bleed]]伤害，且被击中的生物因流血伤口的剧痛而陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}。</p>"
+        },
+        "MpCLpxadAn358Nop": {
+          "name": "幽冥武器 Ghostly Weapon",
+          "bobSourceName": {
+            "sources": [
+              [
+                "Ghostly Weapon",
+                "幽灵武器 Ghostly Weapon"
+              ]
+            ]
+          }
         }
       },
       "name": "阿蒙迪 Amondi",
@@ -4389,6 +4506,18 @@
         "Summon Steed": {
           "name": "召唤坐骑 Summon Steed",
           "description": "<p>无头骑士召唤一匹具有精英调整，以及魔族和邪秽特征的战马。这匹坐骑会一直存在，直到被杀死、无头骑士解消此效果，或无头骑士再次使用召唤坐骑。</p>"
+        },
+        "01OxcCAtANEzeH85": {
+          "name": "金妮薇尔的马鞭 Jinnivere's Riding Crop",
+          "gmnote": "<p>每件阿鲁多拉信物的外观各不相同，但七件信物的尺寸大致相仿。它们由受诅咒的家族成员各自携带，蕴含的力量能够使孽裔厅堂的整片区域脱离城堡通常所处的幽灵般受诅咒状态。</p><hr><p><strong>启动—归还信物</strong> <span class=\"action-glyph\">3</span>（操作） 你将信物放入孽裔厅堂区域 <strong>B3</strong> 喷泉中对应雕像的手中。雕像短暂活化，接过信物；信物随即化为石头，此后永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这根皮制马鞭后，地下室（详见第3章）解锁。同伴变得更加健壮、充满生命力——在本冒险之路余下的时间里，玩家角色的同伴（例如魔宠、幻灵和动物伙伴）所有豁免检定获得+1状态加值。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在以归还信物启动时被摧毁，而此次归还授予的恩赐会持续至本冒险之路的最终结束。</p>",
+          "bobPublication": {
+            "sources": [
+              [
+                "Pathfinder Adventure Path: Bastion of Blasphemies",
+                "Pathfinder冒险之路：亵渎堡垒"
+              ]
+            ]
+          }
         }
       },
       "name": "金妮薇尔·阿鲁多拉 Jinnivere Arudora",
@@ -5138,7 +5267,19 @@
           "path": "system.description.value",
           "converter": "sog-source-text"
         },
-        "gmnote": "system.description.gm"
+        "gmnote": "system.description.gm",
+        "bobPublication": {
+          "path": "system.publication.title",
+          "converter": "sog-source-text"
+        },
+        "bobSelfEffectName": {
+          "path": "system.selfEffect.name",
+          "converter": "sog-source-text"
+        },
+        "bobSourceName": {
+          "path": "name",
+          "converter": "sog-source-text"
+        }
       }
     },
     "tokenName": "prototypeToken.name",

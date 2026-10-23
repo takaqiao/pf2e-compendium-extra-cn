@@ -17773,6 +17773,7 @@
       "Jistkan Colossus Crusher": "吉斯特卡巨像粉碎者 Jistkan Colossus Crusher",
       "Jistkan War Crossbow": "吉斯特卡战弩 Jistkan War Crossbow",
       "Jiu Huan Dao": "九环刀 Jiu Huan Dao",
+      "JmlPFAbjPvbhhKeu": "污秽残片 Vile Remnant",
       "Jolt Coil": "震颤线圈 Jolt Coil",
       "Jolt Coil (Greater)": "高等震颤线圈 Jolt Coil (Greater)",
       "Jolt Coil (Major)": "上等震颤线圈 Jolt Coil (Major)",
@@ -21104,6 +21105,24 @@
       "Zombie Shambler (BB)": "蹒跚僵尸 Zombie Shambler (BB)"
     }
   },
+  "pf2e.pathfinder-monster-core": {
+    "folders": {},
+    "titles": {
+      "A4VgQIHsqJKssQOM": "猎蛛 Hunting Spider",
+      "MrzlaE7k1PEsd3iQ": "鸡蛇兽 Cockatrice",
+      "zpd6b6UPP72ZELCj": "骚灵 Poltergeist"
+    }
+  },
+  "pf2e.pathfinder-monster-core-2": {
+    "folders": {},
+    "titles": {
+      "Of7WVNrWgvkwctfE": "Dweomercat",
+      "QgHtsAbVYswHzMC2": "卡崔娜迎魂使 Catrina",
+      "S1OFq9Ywrr4MHMAg": "Brood Leech Swarm",
+      "V96EY8vLy7alnun9": "Mandragora",
+      "ZQ7lS9TYOFv07m1a": "战争缚灵 War Wraith"
+    }
+  },
   "pf2e.season-of-ghosts-bestiary": {
     "folders": {
       "Book 1 - The Summer That Never Was": "第1卷：未曾来临的夏日 Book 1 - The Summer That Never Was",
@@ -21209,6 +21228,20 @@
       "Yuni": "尤妮 Yuni",
       "Zhi Hui": "智惠 Zhi Hui",
       "Zoudou the Zealous": "狂热者邹斗 Zoudou the Zealous"
+    }
+  },
+  "pf2e.spell-effects": {
+    "folders": {},
+    "titles": {
+      "Spell Effect: Pest Form": "法术效果：害兽形态 Pest Form"
+    }
+  },
+  "pf2e.spells-srd": {
+    "folders": {},
+    "titles": {
+      "Ancestral Memories": "先祖记忆 Ancestral Memories",
+      "Light": "光亮术 Light",
+      "Pest Form": "害兽形态 Pest Form"
     }
   },
   "pf2e.troubles-in-grayce-bestiary": {

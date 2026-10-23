@@ -14,27 +14,27 @@ function shape(source){
  return s;
 }
 export function installBobMementoDisplay({ItemClass,ActorClass,ItemSheetClass,ActorSheetClass,ChatMessageClass,bindings,getActors,getUser,getLocale,isEnabled}){
- if(![ItemClass,ActorClass,ItemSheetClass,ActorSheetClass,ChatMessageClass,getActors,getUser,getLocale,isEnabled].every(f=>typeof f==='function')||bindings?.rows?.length!==7)throw TypeError('Exact native memento dependencies required');
+ if(![ItemClass,ActorClass,ItemSheetClass,ActorSheetClass,ChatMessageClass,getActors,getUser,getLocale,isEnabled].every(f=>typeof f==='function')||!Array.isArray(bindings?.rows)||!bindings.rows.length)throw TypeError('Exact native memento dependencies required');
  const consumers=[[ActorClass,'transferItemToActor'],[ItemSheetClass,'_renderInner'],[ItemSheetClass,'_getSubmitData'],[ItemSheetClass,'_updateObject'],[ItemSheetClass,'close'],[ActorSheetClass,'_renderInner'],[ActorSheetClass,'close'],[ChatMessageClass,'renderHTML']];
  if(owner(ActorSheetClass.prototype,'_handleDroppedItem'))consumers.push([ActorSheetClass,'_handleDroppedItem']);
  for(const [Ctor,key]of consumers){const p=owner(Ctor.prototype,key),d=p&&Object.getOwnPropertyDescriptor(p,key),ownD=Object.getOwnPropertyDescriptor(Ctor.prototype,key);if(typeof d?.value!=='function'||d?.configurable===false||ownD?.configurable===false||!ownD&&!Object.isExtensible(Ctor.prototype))throw TypeError('Unavailable native consumer '+key);}
  const titleP=owner(ItemSheetClass.prototype,'title'),titleDescriptor=titleP&&Object.getOwnPropertyDescriptor(titleP,'title'),titleOwn=Object.getOwnPropertyDescriptor(ItemSheetClass.prototype,'title');if(typeof titleDescriptor?.get!=='function'||titleDescriptor.configurable===false||titleOwn?.configurable===false||!titleOwn&&!Object.isExtensible(ItemSheetClass.prototype))throw TypeError('Native Item sheet title getter required');
  const rows=structuredClone(bindings.rows),f=structuredClone(bindings.fountain),byKey=new Map(),restores=[],ownedInputs=new Set(),generations=new WeakMap();let active=true;
- for(const r of rows){if(!r.actorId||!r.itemId||!r.approvedName.endsWith(' '+r.originalName)||r.displayName!==`已毁的${r.chineseName} Destroyed ${r.originalName}`||!['sourceFingerprint','approvalFingerprint'].every(k=>/^[a-f0-9]{64}$/.test(r.marker[k])))throw TypeError('Invalid exact name/marker binding');r.forms=[shape(r.rawItem),shape(r.approvedItem)];byKey.set(r.actorId+'/'+r.itemId,r);}
+ for(const r of rows){if(byKey.has(r.actorId+'/'+r.itemId)||!r.actorId||!r.itemId||!r.approvedName.endsWith(' '+r.originalName)||r.displayName!==`已毁的${r.chineseName} Destroyed ${r.originalName}`||!['sourceFingerprint','approvalFingerprint'].every(k=>/^[a-f0-9]{64}$/.test(r.marker[k])))throw TypeError('Invalid exact name/marker binding');r.forms=[r.rawItem,r.approvedItem,...r.approvedItemVariants??[]].map(shape);byKey.set(r.actorId+'/'+r.itemId,r);}
  const enabled=()=>active&&isEnabled();
  const chinese=()=>enabled()&&CN.has(getLocale());
  function actorValid(a){return a instanceof ActorClass&&a.isToken===false&&a.parent==null&&!a.pack&&a.collection===getActors()&&getActors()?.get(a.id)===a&&a._source?._id===a.id;}
  function fountainValid(a){const s=a?._source,r=f.rawActor;return actorValid(a)&&a.id===r._id&&a.type===r.type&&s.type===r.type&&[r.name,f.nameRecord.after].includes(a.name)&&s.name===a.name&&nil(s.folder)===nil(r.folder)&&s.img===r.img&&nil(s._stats?.compendiumSource)===nil(r._stats.compendiumSource)&&equal(s.flags,r.flags);}
  function itemValid(item){const a=item?.actor??item?.parent;return item instanceof ItemClass&&actorValid(a)&&item.parent===a&&a.items?.get(item.id)===item&&item.collection===a.items&&!item.pack&&item.type==='equipment'&&item._source?._id===item.id&&item._source.type===item.type&&item.name===item._source.name&&item.isIdentified===true;}
  function matches(item,r,allowDestroyed){
-  const s=item._source,destroyed=s.name==='Destroyed '+r.originalName||s.name==='Destroyed '+r.approvedName;
+  const s=item._source,prefix=['Destroyed ','Returned '].find(p=>s.name===p+r.originalName||s.name===p+r.approvedName),destroyed=!!prefix;
   if(destroyed&&!allowDestroyed||!destroyed&&![r.originalName,r.approvedName].includes(s.name)||(!Number.isInteger(s.system?.quantity)||s.system.quantity<1)
       ||s.system.slug!==r.nativeExplicitSlug||item.slug!==r.nativeExplicitSlug||!equal(item.system.rules,s.system.rules)||item.system.description.value!==s.system.description.value)return false;
   if(s.system.containerId!=null&&typeof s.system.containerId!=='string')return false;
   const equip=s.system.equipped;if(!equip||typeof equip!=='object'||!['worn','held','stowed','dropped','attached'].includes(equip.carryType)||Object.keys(equip).some(k=>!['carryType','handsHeld','inSlot','invested'].includes(k)))return false;
   if(own(equip,'handsHeld')&&![0,1,2].includes(equip.handsHeld)||own(equip,'inSlot')&&typeof equip.inSlot!=='boolean'||own(equip,'invested')&&equip.invested!==null&&typeof equip.invested!=='boolean')return false;
   const normalized=shape(s);
-  if(destroyed){if(!r.nativeManagerTriggers||s.system.hp.max!==1)return false;normalized.name=s.name.slice(10);normalized.system.hp.max=r.rawItem.system.hp.max;}
+  if(destroyed){if(!r.nativeManagerTriggers||s.system.hp.max!==1)return false;normalized.name=s.name.slice(prefix.length);normalized.system.hp.max=r.rawItem.system.hp.max;}
   return r.forms.some(form=>equal(normalized,form));
  }
  function resolve(item,{display=false}={}){
@@ -42,8 +42,8 @@ export function installBobMementoDisplay({ItemClass,ActorClass,ItemSheetClass,Ac
   const a=item.actor??item.parent,s=item._source,marker=s.flags?.[EXTRA]?.[FLAG];let row;
   if(marker){row=byKey.get(marker.actorId+'/'+marker.itemId);if(!row||!equal(marker,row.marker)||!matches(item,row,true))return null;}
   else {row=byKey.get(a.id+'/'+item.id);const as=a._source;if(!row||a.type!==row.actorType||as.type!==row.actorType||!row.actorNames.includes(a.name)||as.name!==a.name||nil(as.folder)!==row.actorFolder||as.img!==row.actorImg||nil(as._stats?.compendiumSource)!==row.actorSourceUuid||!matches(item,row,false))return null;}
-  if(display&&(!chinese()||!marker||!fountainValid(a)||!s.name.startsWith('Destroyed ')||item.visible!==true||a.visible!==true))return null;
-  return {row,item,actor:a,source:s,actorSource:a._source,items:a.items,actors:getActors(),snapshot:JSON.stringify(s),actorSnapshot:JSON.stringify({id:a.id,name:a.name,type:a.type,folder:a._source.folder,img:a._source.img,flags:a._source.flags,stats:a._source._stats,ownership:a._source.ownership}),sourceName:s.name,displayName:row.displayName};
+  if(display&&(!chinese()||!marker||!fountainValid(a)||!['Destroyed ','Returned '].some(prefix=>s.name.startsWith(prefix))||item.visible!==true||a.visible!==true))return null;
+  return {row,item,actor:a,source:s,actorSource:a._source,items:a.items,actors:getActors(),snapshot:JSON.stringify(s),actorSnapshot:JSON.stringify({id:a.id,name:a.name,type:a.type,folder:a._source.folder,img:a._source.img,flags:a._source.flags,stats:a._source._stats,ownership:a._source.ownership}),sourceName:s.name,displayName:s.name.startsWith('Returned ')?`已归还的${row.chineseName} Returned ${row.originalName}`:row.displayName};
  }
  const authority=p=>{const u=getUser();return [u,u?.id,u?.role,u?.isGM,u?.active,getLocale(),p.item.visible,p.item.isOwner,p.item.permission,p.actor.visible,p.actor.isOwner,p.actor.permission];};
  const stable=(p,auth)=>{const fresh=resolve(p.item,{display:true});return fresh&&Object.keys(p).every(k=>Object.is(p[k],fresh[k]))&&authority(fresh).every((v,i)=>Object.is(v,auth[i]));};

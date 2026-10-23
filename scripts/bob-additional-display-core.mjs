@@ -9,7 +9,7 @@ const allowedPack = document => !document.pack || document.pack.startsWith('pf2e
 function compile(bindings) {
   if (!Array.isArray(bindings) || !bindings.length) throw new TypeError('Approved bindings required');
   const index = new Map();
-  for (const raw of bindings) {
+  for (const raw of bindings.flatMap(row => [row, ...(row.sourceVariants ?? [])])) {
     if (!raw || raw.approved !== true || !SHA.test(raw.sourceSha256) || !SHA.test(raw.approvalSha256)
         || !SHA.test(raw.actorNameApprovalSha256) || !SHA.test(raw.itemNameApprovalSha256)
         || ![raw.actorId, raw.actorType, raw.actorName, raw.itemId, raw.itemType, raw.itemName, raw.key, raw.displayFragment].every(v => typeof v === 'string' && v)
@@ -27,8 +27,10 @@ function compile(bindings) {
     if (new Set(forms.map(f => f.source)).size !== forms.length
         || (raw.normalizedBody !== null && (raw.normalizedBody !== token || !forms.every(f => f.source === paragraph)))) throw new TypeError('Invalid normalized carrier');
     const key = `${raw.actorId}/${raw.itemId}`;
-    if (index.has(key)) throw new TypeError('Duplicate Actor/Item binding');
-    index.set(key, Object.freeze({...raw, forms: Object.freeze(forms)}));
+    const variants = index.get(key) ?? [];
+    if (variants.some(row => row.itemRulesJSON === raw.itemRulesJSON)) throw new TypeError('Duplicate Actor/Item source binding');
+    variants.push(Object.freeze({...raw, forms: Object.freeze(forms)}));
+    index.set(key, variants);
   }
   return index;
 }
@@ -55,8 +57,10 @@ export function installBobAdditionalDisplay({TextEditorClass, ItemClass, ActorCl
         || actor.visible === false || item.visible === false
         || (data && own(data, 'item') && data.item !== item) || (data && own(data, 'actor') && data.actor !== actor)
         || (options.relativeTo != null && options.relativeTo !== item && options.relativeTo !== actor)) return null;
-    const row = index.get(`${actor.id}/${item.id}`), as = actor._source, source = item._source;
-    if (!row) return null;
+    const as = actor._source, source = item._source;
+    const variants = (index.get(`${actor.id}/${item.id}`) ?? []).filter(row => JSON.stringify(source?.system?.rules) === row.itemRulesJSON);
+    if (variants.length !== 1) return null;
+    const row = variants[0];
     const chain = actor.isToken === true ? synthetic.resolve(actor, item, row) : null;
     if (actor.isToken === true ? !chain : (actor.isToken !== false || actor.parent != null || !actor.collection || actor.collection.get?.(actor.id) !== actor)) return null;
     const expectedActorName = chain?.syntheticName ?? row.actorName;

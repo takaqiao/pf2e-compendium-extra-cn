@@ -1,0 +1,528 @@
+{
+  "mapping": {
+    "_variants": [
+      {
+        "_when": {
+          "path": "_id",
+          "equals": "QgHtsAbVYswHzMC2"
+        },
+        "items": {
+          "path": "items",
+          "converter": "npc-item-translation",
+          "documentType": "Item",
+          "cardinality": "many",
+          "mapping": {
+            "_variants": [
+              {
+                "_when": {
+                  "path": "_id",
+                  "equals": "BiEOE4QPx1GY53c5"
+                },
+                "bobReviewedDescription": {
+                  "path": "system.description.value",
+                  "converter": "sog-source-text"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "_when": {
+          "path": "_id",
+          "equals": "S1OFq9Ywrr4MHMAg"
+        },
+        "items": {
+          "path": "items",
+          "converter": "npc-item-translation",
+          "documentType": "Item",
+          "cardinality": "many",
+          "mapping": {
+            "_variants": [
+              {
+                "_when": {
+                  "path": "_id",
+                  "equals": "SZrUoVGK2e5HE1dm"
+                },
+                "bobReviewedDescription": {
+                  "path": "system.description.value",
+                  "converter": "sog-source-text"
+                },
+                "bobReviewedName": {
+                  "path": "name",
+                  "converter": "sog-source-text"
+                }
+              },
+              {
+                "_when": {
+                  "path": "_id",
+                  "equals": "ome4gBGaz20PH3OU"
+                },
+                "bobReviewedDescription": {
+                  "path": "system.description.value",
+                  "converter": "sog-source-text"
+                },
+                "bobReviewedName": {
+                  "path": "name",
+                  "converter": "sog-source-text"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "_when": {
+          "path": "_id",
+          "equals": "V96EY8vLy7alnun9"
+        },
+        "items": {
+          "path": "items",
+          "converter": "npc-item-translation",
+          "documentType": "Item",
+          "cardinality": "many",
+          "mapping": {
+            "_variants": [
+              {
+                "_when": {
+                  "path": "_id",
+                  "equals": "w0XMZ6GmkzJcCRyO"
+                },
+                "bobReviewedDescription": {
+                  "path": "system.description.value",
+                  "converter": "sog-source-text"
+                },
+                "bobReviewedName": {
+                  "path": "name",
+                  "converter": "sog-source-text"
+                }
+              },
+              {
+                "_when": {
+                  "path": "_id",
+                  "equals": "wrisTXltKN2ggF1B"
+                },
+                "bobReviewedDescription": {
+                  "path": "system.description.value",
+                  "converter": "sog-source-text"
+                },
+                "bobReviewedName": {
+                  "path": "name",
+                  "converter": "sog-source-text"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "_when": {
+          "path": "_id",
+          "equals": "Of7WVNrWgvkwctfE"
+        },
+        "items": {
+          "path": "items",
+          "converter": "npc-item-translation",
+          "documentType": "Item",
+          "cardinality": "many",
+          "mapping": {
+            "_variants": [
+              {
+                "_when": {
+                  "path": "_id",
+                  "equals": "VpjRI7sDOx15Rohe"
+                },
+                "bobReviewedDescription": {
+                  "path": "system.description.value",
+                  "converter": "sog-source-text"
+                },
+                "bobReviewedName": {
+                  "path": "name",
+                  "converter": "sog-source-text"
+                }
+              },
+              {
+                "_when": {
+                  "path": "_id",
+                  "equals": "tJ8hpE1t58t2jv30"
+                },
+                "bobReviewedPublication": {
+                  "path": "system.publication.title",
+                  "converter": "sog-source-text"
+                },
+                "bobReviewedName": {
+                  "path": "name",
+                  "converter": "sog-source-text"
+                }
+              },
+              {
+                "_when": {
+                  "path": "_id",
+                  "equals": "Z8iRfVFQs5X6Urmr"
+                },
+                "bobReviewedName": {
+                  "path": "name",
+                  "converter": "sog-source-text"
+                }
+              }
+            ]
+          }
+        },
+        "bobReviewedAllSaves": {
+          "path": "system.attributes.allSaves.value",
+          "converter": "sog-source-text"
+        }
+      },
+      {
+        "_when": {
+          "path": "_id",
+          "equals": "ZQ7lS9TYOFv07m1a"
+        },
+        "items": {
+          "path": "items",
+          "converter": "npc-item-translation",
+          "documentType": "Item",
+          "cardinality": "many",
+          "mapping": {
+            "_variants": [
+              {
+                "_when": {
+                  "path": "_id",
+                  "equals": "wtz6HGSJqqSfH9Xo"
+                },
+                "bobReviewedPublication": {
+                  "path": "system.publication.title",
+                  "converter": "sog-source-text"
+                },
+                "bobReviewedName": {
+                  "path": "name",
+                  "converter": "sog-source-text"
+                }
+              }
+            ]
+          }
+        },
+        "bobReviewedAllSaves": {
+          "path": "system.attributes.allSaves.value",
+          "converter": "sog-source-text"
+        }
+      }
+    ]
+  },
+  "entries": {
+    "QgHtsAbVYswHzMC2": {
+      "items": {
+        "Compel Condemned": {
+          "name": "致命诱惑 Compel Condemned",
+          "description": "<p>卡崔娜迎魂使通过心灵感应强迫30尺内的生物靠近并让卡崔娜迎魂使亲吻他们，以准备使用死亡之吻。 目标必须尝试@Check[will|dc:22]豁免。</p>\n<p><strong>成功</strong> 该生物不受影响，并且在24小时内临时免疫致命诱惑。</p>\n<p><strong>失败</strong> 该生物必须用它的每一个动作尽可能快地靠近卡崔娜迎魂使，同时避免明显的危险。 如果被强迫的生物与卡崔娜迎魂使相邻，它会保持停止并且不行动。 如果该生物受到任何伤害，则该效果结束并且该生物在24小时内临时免疫致命诱惑。 此效果持续1轮，但如果卡崔娜迎魂使在随后的几轮中再次使用此能力，它会将所有受影响的生物的持续时间延长1轮。</p>\n<p><strong>大失败</strong> 如同失败，但伤害不会结束效果。</p>"
+        },
+        "Kiss of Death": {
+          "name": "死亡之吻 Kiss of Death",
+          "description": "<p>卡崔娜迎魂使给一个@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]或自愿的生物一个长而热情的吻，造成@Damage[3d6[void]]伤害。 任何被同一位卡崔娜迎魂使的死亡之吻连续3轮伤害的生物都会失去意识并陷入濒死1。</p>"
+        },
+        "Telepathy 120 feet": {
+          "name": "心灵感应120尺 Telepathy 120 feet",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+        },
+        "Constant Spells": {
+          "name": "常驻法术 Constant Spells",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+        },
+        "+1 Status to All Saves vs. Magic": {
+          "name": "对抗魔法的全豁免+1状态加值 +1 Status to All Saves vs. Magic"
+        },
+        "Calming Presence": {
+          "name": "镇静灵气 Calming Presence",
+          "description": "<p>30尺。在该区域内开始其回合的生物必须尝试进行@Check[will|dc:18]豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响，并且在24小时内临时免疫镇静灵气。</p>\n<p><strong>成功</strong> 该生物的攻击骰承受-1状态减值，持续1轮。</p>\n<p><strong>失败</strong> 任何会影响该生物的情绪效果都会被抑制，该生物不能使用敌对动作。 如果该生物受到任何其他生物的敌意，它将不再受到镇静灵气的影响，并在24小时内临时免疫镇静灵气。</p>\n<p><strong>大失败</strong> 如同失败，但敌对动作并不会结束效果。</p>"
+        },
+        "Shepherd's Touch": {
+          "name": "牧者之触 Shepherd's Touch",
+          "description": "<p>卡崔娜迎魂使的打击能如同具有<em>@UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]</em>性能符文的效果一般影响虚体生物，对活物造成@Damage[1d6[void]]伤害，对不死生物造成@Damage[1d6[vitality]]伤害。</p>"
+        },
+        "Illusory Disguise": {
+          "bobReviewedDescription": {
+            "sources": [
+              [
+                "<p>You create an illusion that causes the target to appear as another creature of the same body shape, and with roughly similar height (within 6 inches) and weight (within 50 pounds). The disguise is typically good enough to hide their identity, but not to impersonate a specific individual. The spell changes their appearance and voice, but not mannerisms. You can change the appearance of its clothing and worn items, such as making its armor look like a dress. Held items are unaffected, and any worn item removed from the creature returns to its true appearance.</p>\n<p>Casting <em>illusory disguise</em> counts as setting up a disguise for the @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} use of Deception; it ignores any circumstance penalties the target might take for disguising itself as a dissimilar creature, gives a +4 status bonus to Deception checks to prevent others from seeing through the disguise, and lets the target add its level to such Deception checks even if untrained. You can Dismiss this spell.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The target can appear as any creature of the same size, even a specific individual. You must have seen an individual to replicate its appearance, and must have heard its voice to replicate its voice.</p>\n<p><strong>Heightened (4th)</strong> You can target up to 10 willing creatures. If you target multiple creatures, you can choose a different disguise for each target, but none can impersonate a specific individual. You can Dismiss each disguise individually or all collectively.</p>\n<p><strong>Heightened (7th)</strong> As 4th, but you can choose disguises that impersonate specific individuals. You must have seen an individual to replicate its appearance, and must have heard its voice to replicate its voice.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3Ktyd5F9lOPo4myk]{Spell Effect: Illusory Disguise}</p>",
+                "<p>你创造幻象，使目标看起来像另一个身体形态相同、身高相近（相差不超过6英寸）、体重相近（相差不超过50磅）的生物。这种伪装通常足以隐藏身份，但不能冒充特定个人。法术改变目标的外观与声音，却不改变举止。你可以改变其衣物与穿戴物品的外观，例如让护甲看起来像连衣裙。持握物品不受影响，而从生物身上取下的穿戴物品会恢复真实外观。</p><p>施放<em>幻象伪装</em>视为为欺骗技能的@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}用法准备伪装；它忽略目标因伪装成差异较大的生物而可能承受的环境减值，给予目标用于防止他人识破伪装的欺骗检定+4状态加值，并让目标即使未受训也能将自身等级加入这类欺骗检定。你可以解消此法术。</p><hr /><p><strong>升阶（3环）</strong> 目标可以呈现为任何相同体型的生物，甚至是特定个人。你必须见过某个人才能复制其外观，听过其声音才能复制其声音。</p><p><strong>升阶（4环）</strong> 你可以指定至多10个自愿生物为目标。若指定多个生物，可以为每个目标选择不同的伪装，但都不能冒充特定个人。你可以分别解消每个伪装，也可以一并解消。</p><p><strong>升阶（7环）</strong> 同4环，但可以选择冒充特定个人的伪装。你必须见过某个人才能复制其外观，听过其声音才能复制其声音。</p><p>@UUID[Compendium.pf2e.spell-effects.Item.3Ktyd5F9lOPo4myk]{法术效果：幻象伪装}</p>"
+              ]
+            ]
+          }
+        }
+      },
+      "prototypeToken": {
+        "name": "卡崔娜迎魂使"
+      },
+      "name": "卡崔娜迎魂使 Catrina",
+      "publicNotes": "<p>并非所有进入骨园的灵魂都意识到他们已经死亡。卡崔娜迎魂使会见这些灵魂，并帮助说服他们相信自己命运的终结，以减轻灵魂的逝去。当凡人不能接受自己的死亡时，卡崔娜迎魂使更有可能进行干预。他们执行任务是为了保持来世的平静，而不是出于对凡人悲痛的真正同情。卡崔娜迎魂使很少访问物质宇宙，除非是为了帮助一个极其重要的凡人离世。</p>\n<p>卡崔娜迎魂使像骷髅，穿着鲜艳的花朵和五颜六色的衣服，给他们一个既喜庆又可怕的外表。虽然大多数卡崔娜迎魂使以女性形像出现，但男性卡崔娜迎魂使也会穿着艳色服装，带着花环。</p><hr /><p>许多招魂者都与骨园的庞大官僚机构有着密切的联系。 很少人追求仁慈、正义或个人利益；他们对法莱斯玛和骨园的职责是至高无上的。然而，个别招魂者以不同的方式解释他们的职责，这可能使他们与凡人之间发生冲突。</p>",
+      "allSaves": "对抗魔法的全豁免+1状态加值"
+    },
+    "S1OFq9Ywrr4MHMAg": {
+      "prototypeToken": {
+        "name": "Brood Leech Swarm"
+      },
+      "name": "Brood Leech Swarm",
+      "publicNotes": "<p>Most smaller species of leeches do not tend to swarm, but brood leeches are prone to gathering in seething, undulant mats of squirming gluttony. When they gather in sufficient numbers to swarm, they eschew the stealth of a lone leech's feeding methods in favor of swift and merciless feeding. In these situations, their mild venom can affect much larger creatures than their usual prey.</p>",
+      "items": {
+        "Tremorsense 30 feet": {
+          "name": "Tremorsense 30 feet",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+        },
+        "Swarm Mind": {
+          "name": "集群心智 Swarm Mind",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SwarmMind]</p>"
+        },
+        "Blood Draining Bites": {
+          "name": "Blood Draining Bites",
+          "description": "<p>Each enemy in the swarm's space takes @Damage[2d6[piercing]|options:area-damage] damage (@Check[reflex|dc:21|basic|options:area-effect] save). A creature who fails the Reflex save also takes @Damage[1d6[persistent,bleed]] damage and is exposed to brood leech swarm venom.</p>",
+          "bobReviewedDescription": {
+            "sources": [
+              [
+                "<p>Each enemy in the swarm's space takes @Damage[2d6[piercing]|options:area-damage] damage (@Check[reflex|dc:21|basic|options:area-effect] save). A creature who fails the Reflex save also takes @Damage[1d6[persistent,bleed]] damage and is exposed to brood leech swarm venom.</p>",
+                "<p>集群占据空间内的每个敌人受到@Damage[2d6[piercing]|options:area-damage]伤害（@Check[reflex|dc:21|basic|options:area-effect]豁免）。反射豁免失败的生物还受到@Damage[1d6[persistent,bleed]]伤害，并暴露于幼水蛭群毒液。</p>"
+              ]
+            ]
+          },
+          "bobReviewedName": {
+            "sources": [
+              [
+                "Blood Draining Bites",
+                "吸血噬咬 Blood Draining Bites"
+              ]
+            ]
+          }
+        },
+        "Brood Leech Swarm Venom": {
+          "name": "Brood Leech Swarm Venom",
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:21]</p><hr /><p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, and –5-foot status penalty to Speed (1 round)</p>\n<p><strong>Stage 2</strong> clumsy 1, sickened 1, and –10-foot status penalty to Speed (1 round).</p>",
+          "bobReviewedDescription": {
+            "sources": [
+              [
+                "<p><strong>Saving Throw</strong> @Check[fortitude|dc:21]</p><hr /><p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, and –5-foot status penalty to Speed (1 round)</p>\n<p><strong>Stage 2</strong> clumsy 1, sickened 1, and –10-foot status penalty to Speed (1 round).</p>",
+                "<p><strong>豁免</strong> @Check[fortitude|dc:21]</p><hr /><p><strong>最大持续时间</strong> 6轮</p>\n<p><strong>阶段1</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}、@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}，且速度承受–5尺状态减值（1轮）</p>\n<p><strong>阶段2</strong> 笨拙1、恶心1，且速度承受–10尺状态减值（1轮）。</p>"
+              ]
+            ]
+          },
+          "bobReviewedName": {
+            "sources": [
+              [
+                "Brood Leech Swarm Venom",
+                "幼水蛭群毒液 Brood Leech Swarm Venom"
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "V96EY8vLy7alnun9": {
+      "items": {
+        "Vulnerability to Supernatural Darkness": {
+          "description": "<p>Whenever a mandragora begins its turn in an area of magical darkness, it is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} on that turn.</p>",
+          "name": "Vulnerability to Supernatural Darkness"
+        },
+        "Blood Drain": {
+          "name": "Blood Drain",
+          "description": "<p><strong>Requirements</strong> The mandragora has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> The mandragora drains blood from the creature it has grabbed or restrained, dealing @Damage[2d6[piercing]] damage (@Check[fortitude|dc:21|basic] save). If the creature is a demon, fey, or sorcerer, the mandragora gains temporary Hit Points equal to the damage dealt for 1 minute. A creature that takes any damage from having its blood drained by a mandragora is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} until it receives any kind or amount of healing.</p>"
+        },
+        "Blood Scent": {
+          "name": "Blood Scent",
+          "description": "<p>A mandragora can smell creatures with blood as an imprecise sense at a range of 30 feet, and it can smell demons, fey, and sorcerers with blood as a precise sense at a range of 30 feet.</p>"
+        },
+        "Mandragora Venom": {
+          "name": "Mandragora Venom",
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:21]</p><hr /><p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} (1 round)</p>\n<p><strong>Stage 2</strong> 1d6 poison damage, @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, and stupefied 1 (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[2d6[poison]] damage, confused, and and stupefied 1 (1 round)</p>",
+          "bobReviewedDescription": {
+            "sources": [
+              [
+                "<p><strong>Saving Throw</strong> @Check[fortitude|dc:21]</p><hr /><p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} (1 round)</p>\n<p><strong>Stage 2</strong> 1d6 poison damage, @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, and stupefied 1 (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[2d6[poison]] damage, confused, and and stupefied 1 (1 round)</p>",
+                "<p><strong>豁免</strong> @Check[fortitude|dc:21]</p><hr /><p><strong>最大持续时间</strong> 6轮</p>\n<p><strong>阶段1</strong> @Damage[1d6[poison]]伤害和@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}（1轮）</p>\n<p><strong>阶段2</strong> 1d6毒素伤害、@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}和呆滞1（1轮）</p>\n<p><strong>阶段3</strong> @Damage[2d6[poison]]伤害、困惑和呆滞1（1轮）</p>"
+              ]
+            ]
+          },
+          "bobReviewedName": {
+            "sources": [
+              [
+                "Mandragora Venom",
+                "曼德拉草毒液 Mandragora Venom"
+              ]
+            ]
+          }
+        },
+        "Piercing Shriek": {
+          "name": "Piercing Shriek",
+          "description": "<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The mandragora emits an unsettling shriek. Each non-mandragora creature within @Template[emanation|distance:30]{30 feet} must attempt a @Check[will|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>\n<p><strong>Critical Failure</strong> The creature is sickened 2 and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}. As long as the creature remains sickened, this slowed condition value can't be reduced below 1.</p>",
+          "bobReviewedDescription": {
+            "sources": [
+              [
+                "<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The mandragora emits an unsettling shriek. Each non-mandragora creature within @Template[emanation|distance:30]{30 feet} must attempt a @Check[will|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>\n<p><strong>Critical Failure</strong> The creature is sickened 2 and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}. As long as the creature remains sickened, this slowed condition value can't be reduced below 1.</p>",
+                "<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 曼德拉草发出令人不安的尖啸。@Template[emanation|distance:30]{30尺}内每个非曼德拉草生物都必须尝试@Check[will|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed]豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}。</p>\n<p><strong>失败</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}。</p>\n<p><strong>大失败</strong> 该生物恶心2且@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}。只要该生物仍处于恶心状态，此缓慢状态值就不能降至1以下。</p>"
+              ]
+            ]
+          },
+          "bobReviewedName": {
+            "sources": [
+              [
+                "Piercing Shriek",
+                "刺耳尖啸 Piercing Shriek"
+              ]
+            ]
+          }
+        }
+      },
+      "prototypeToken": {
+        "name": "Mandragora"
+      },
+      "name": "Mandragora",
+      "publicNotes": "<p>A mandragora looks like a freshly pulled tuber that has grown into the malformed shape of a child with a grotesque face and hideously bloated body. These insidious little plants typically form when a mandrake root is watered with a demon's blood. Upon absorbing the otherworldly properties of the demon's blood, the root animates and is forced to seek out blood to feast from, lest it die of thirst.</p>\n<p>Always famished and in search for sustenance, mandragoras live haunted, pained lives and perform vile and desperate acts to acquire the blood they crave. Though mandragoras prefer magically infused blood such as that of unicorns, fey, or sorcerers, and they can subsist on potions, alchemical bombs, and magical elixirs, they'll settle for the blood of non-magical creatures as a last resort. They find the flavor of mundane blood to be bland and bitter, and they don't blanch at voicing these complaints to the creatures on whom they feed.</p>\n<p>While the typical mandragora is the size of a human child, some continue to grow and grow, even reaching sizes comparable to giants. Sometimes as they get larger, they form additional limbs or rudimentary faces, eventually transforming into truly hideous mockeries of the human form.</p>"
+    },
+    "Of7WVNrWgvkwctfE": {
+      "prototypeToken": {
+        "name": "Dweomercat"
+      },
+      "name": "Dweomercat",
+      "publicNotes": "<p>Dweomercats are magically gifted, four-eyed felines from the First World, where they prey upon other creatures and feed on their primal energy. Within the First World, they form packs that hunt together, though they prefer to care for their cubs on their own, raising them on a diet of magic and magical creatures. Curious creatures, they're sometimes encountered in areas of the Universe where the veil to the First World is thin or in regions where magic has been irreparably warped. Drawn there by the unique magical resonance, the dweomercats hope to acquire incomparable sources of food.</p>\n<p>Where dweomercats sighting have been reported, specialized trappers will appear soon after, hoping for the catch of a lifetime. A dweomercat's dark purple fur is prized by magical collectors, as the patterns that flow through the fur appear as though they were hand-painted, with spirals and curls resembling magical runes. These coats are then either displayed or included as components in rare rituals. Dweomercats are famous for their ability to twist the metaphorical strings of spells cast on or near them, which they can transform into their own defensive magic or use to instantly teleport across the battlefield.</p>",
+      "items": {
+        "Alter Dweomer": {
+          "name": "Alter Dweomer",
+          "description": "<p><strong>Trigger</strong> The dweomercat is targeted by a spell or is within the area of a spell as it's cast</p><hr /><p><strong>Effect</strong> The dweomercat's runelike patterns start to glow as it gains an effect related to the tradition of the triggering spell. This effect occurs before the dweomercat is affected by the triggering spell. The effect lasts for 1 minute, until the dweomercat uses this ability again, or until the dweomercat Dismisses the effect, whichever comes first.</p><ul><li><p><strong>Arcane</strong> Magical feedback deals @Damage[4d6[force]] damage to the triggering spellcaster (@Check[reflex|dc:22|basic] save).</p></li><li><p><strong>Divine</strong> The dweomercat gains a +1 status bonus to all skill checks.</p></li><li><p><strong>Occult</strong> The dweomercat becomes @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. This effect ends if the dweomercat uses a hostile action, in addition to the normal end conditions.</p></li><li><p><strong>Primal</strong> The dweomercat gains 10 temporary Hit Points.</p></li></ul><p>@UUID[Compendium.pf2e.bestiary-effects.Item.7xzdcYREm0zdkBwc]{Effect: Alter Dweomer}</p>",
+          "bobReviewedDescription": {
+            "sources": [
+              [
+                "<p><strong>Trigger</strong> The dweomercat is targeted by a spell or is within the area of a spell as it's cast</p><hr /><p><strong>Effect</strong> The dweomercat's runelike patterns start to glow as it gains an effect related to the tradition of the triggering spell. This effect occurs before the dweomercat is affected by the triggering spell. The effect lasts for 1 minute, until the dweomercat uses this ability again, or until the dweomercat Dismisses the effect, whichever comes first.</p><ul><li><p><strong>Arcane</strong> Magical feedback deals @Damage[4d6[force]] damage to the triggering spellcaster (@Check[reflex|dc:22|basic] save).</p></li><li><p><strong>Divine</strong> The dweomercat gains a +1 status bonus to all skill checks.</p></li><li><p><strong>Occult</strong> The dweomercat becomes @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. This effect ends if the dweomercat uses a hostile action, in addition to the normal end conditions.</p></li><li><p><strong>Primal</strong> The dweomercat gains 10 temporary Hit Points.</p></li></ul><p>@UUID[Compendium.pf2e.bestiary-effects.Item.7xzdcYREm0zdkBwc]{Effect: Alter Dweomer}</p>",
+                "<p><strong>触发</strong> 咒猫成为法术的目标，或在法术施放时位于其区域内</p><hr /><p><strong>效果</strong> 咒猫身上形似符文的纹样开始发光，同时获得与触发法术根源相关的效果。该效果在咒猫受到触发法术影响之前发生，持续1分钟、直到咒猫再次使用此能力，或直到咒猫解消该效果，以最先发生者为准。</p><ul><li><p><strong>奥术</strong> 魔法反噬对触发的施法者造成@Damage[4d6[force]]伤害（@Check[reflex|dc:22|basic]豁免）。</p></li><li><p><strong>神术</strong> 咒猫的所有技能检定获得+1状态加值。</p></li><li><p><strong>异能</strong> 咒猫陷入@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}。除正常结束条件外，咒猫使用敌对动作也会终止此效果。</p></li><li><p><strong>原能</strong> 咒猫获得10临时HP。</p></li></ul><p>@UUID[Compendium.pf2e.bestiary-effects.Item.7xzdcYREm0zdkBwc]{效果：修改咒文}</p>"
+              ]
+            ]
+          },
+          "bobReviewedName": {
+            "sources": [
+              [
+                "Alter Dweomer",
+                "修改咒文 Alter Dweomer"
+              ]
+            ]
+          }
+        },
+        "Dweomer Leap": {
+          "name": "Dweomer Leap",
+          "description": "<p>Prerequisites The dweomercat has at least one @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate} spell remaining</p><hr /><p><strong>Effect</strong> The dweomercat casts <em>translocate</em>, then can make a melee Strike against one creature adjacent to it at the end of its teleport. If the dweomercat ends its teleport adjacent to a creature under an ongoing spell effect or who cast a spell since the dweomercat's last turn, this does not expend a casting of <em>translocate</em>.</p>"
+        },
+        "Pounce": {
+          "name": "Pounce",
+          "description": "<p>The dweomercat Strides and makes a Strike at the end of that movement. If the dweomercat began this action @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, it remains hidden until after this ability's Strike.</p>"
+        },
+        "+1 Status to All Saves vs. Magic": {
+          "name": "+1 Status to All Saves vs. Magic",
+          "bobReviewedPublication": {
+            "sources": [
+              [
+                "Pathfinder Monster Core",
+                "Pathfinder怪物核心"
+              ]
+            ]
+          },
+          "bobReviewedName": {
+            "sources": [
+              [
+                "+1 Status to All Saves vs. Magic",
+                "在所有对魔法的豁免上获得+1状态加值 +1 Status to All Saves vs. Magic"
+              ]
+            ]
+          }
+        },
+        "Detect Magic (Constant)": {
+          "bobReviewedName": {
+            "sources": [
+              [
+                "Detect Magic (Constant)",
+                "侦测魔法（恒定） Detect Magic (Constant)"
+              ]
+            ]
+          }
+        }
+      },
+      "allSaves": "+1 status to all saves vs. magic",
+      "bobReviewedAllSaves": {
+        "sources": [
+          [
+            "+1 status to all saves vs. magic",
+            "对抗魔法的所有豁免获得+1状态加值"
+          ],
+          [
+            "对抗魔法的所有豁免获得+1状态加值",
+            "对抗魔法的所有豁免获得+1状态加值"
+          ]
+        ]
+      }
+    },
+    "ZQ7lS9TYOFv07m1a": {
+      "prototypeToken": {
+        "name": "战争缚灵"
+      },
+      "name": "战争缚灵 War Wraith",
+      "publicNotes": "<p>这些由邪恶的军阀或嗜血的将军所留下的阴森灵魂是带来阴影和死亡的高大幽灵。和其他缚灵一样，战争缚灵出没于这世界上的阴暗角落，但相较于弱小的同类它们更可能踏过更远的距离来散布恐惧、传播影响。在穿过阳光斑驳的土地时它们常常依靠阴暗的林地和险恶的废墟（来躲避阳光）。战争缚灵通常都很傲慢，很少与它们的同类结伙而宁可统治一群普通的缚灵。一个极其强大的死灵法师可能会迫使一群战争缚灵为他服务。 不过，一个极其恶毒的目的——比如消灭一个光明和生命的堡垒——也许会让数个战争缚灵为这同一个目标而聚集。</p><h2>战争缚灵的起源 War Wraith Origins</h2><p>并非所有战争缚灵生前都是独立个体。他们大多由多个缚灵随时间推移凝聚一起而成，他们形成的地方聚集着迷失的灵魂，这些灵魂们的精魂与意识被某种不断被此地撕裂或侵蚀。此类战争缚灵思考与交流时并不像一个强大的个体，而是如同一片喧嚣的声浪，其声时常自相冲突，但当众声达成一致时则着实令人毛骨悚然。在虚能凝聚之地，如大虚空或恐惧之岛，战争幽灵常以这种方式形成。</p>",
+      "hp": "虚能治疗",
+      "items": {
+        "Draining Presence": {
+          "name": "汲能气场 Draining Presence",
+          "description": "<p>10尺。进入灵光的生物必须通过@Check[fortitude|dc:26|options:area-effect,inflicts:drained]豁免，否则将获得@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 1}。该生物在离开这个灵光1分钟后流失状态消失。豁免成功的生物在24小时内临时免疫这个灵光。</p>"
+        },
+        "Sunlight Powerlessness": {
+          "name": "阳光失能 Sunlight Powerlessness",
+          "description": "<p>在日光下的战争缚灵获得@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 2}和@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}。</p>"
+        },
+        "Void Healing": {
+          "name": "虚能治疗 Void Healing",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "Absorb Wraith": {
+          "name": "吸收缚灵 Absorb Wraith",
+          "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p><strong>效果</strong> 战争缚灵将它的手伸向另一只位于100尺内的缚灵。被选中的缚灵分解并直冲向战争缚灵，对这条线上的所有生物造成@Damage[3d10[void]|options:area-damage]伤害，且有@Check[fortitude|dc:28|basic|options:area-effect]豁免。战争缚灵吸收目标缚灵的精华，获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]状态，持续1分钟。它（由迅捷获得的）额外行动只能用于飞行或打击。不愿被吸收的目标在成功通过@Check[will|dc:28]豁免后可以避免被吸收。</p>"
+        },
+        "Grip of Fear": {
+          "name": "恐惧之攫 Grip of Fear",
+          "description": "<p>缚灵将手伸入邻近生物的胸膛，紧攥他们的心脏。目标受到@Damage[9d6[mental]]伤害，@Check[will|dc:28|basic|options:inflicts:paralyzed]豁免。如果豁免大失败，该生物还会@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]至缚灵的下一回合开始。</p>"
+        },
+        "Robes of Welcome": {
+          "name": "接引长袍 Robes of Welcome",
+          "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p><strong>效果</strong> 缚灵用他的长袍裹住一个邻接的生物，令他暴露于虚空之拥。如果任何生物正被缚灵的虚空之拥诅咒，该缚灵就无法再将虚空之拥施加给其他任何生物。</p>"
+        },
+        "Void's Embrace": {
+          "name": "虚空之拥 Void's Embrace",
+          "description": "<p>若受害者在日光下成功通过对抗本诅咒的豁免，诅咒立刻结束。当一个生物受到本诅咒影响时，他能无视诅咒他的那个缚灵的抗力</p>\n<p><strong>豁免骰</strong> @Check[will|dc:28]</p>\n<p><strong>阶段1</strong> 受害者在任何光线下都会@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]（1小时）</p>\n<p><strong>阶段2</strong> 受害者获得30尺的生命感知但在任何光线下都会@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]（1小时）</p>\n<p><strong>阶段3</strong> 如同阶段2，但受害者还会获得虚能治疗（1小时）</p>\n<p><strong>阶段4</strong> 受害者@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]且无法醒来（1日）</p>\n<p><strong>阶段5</strong> 受害者死亡并化作受战争缚灵控制的缚灵，他的肉身崩解成灰。</p>"
+        },
+        "+1 Status to All Saves vs. Vitality": {
+          "name": "+1 Status to All Saves vs. Vitality",
+          "bobReviewedPublication": {
+            "sources": [
+              [
+                "Pathfinder Monster Core",
+                "Pathfinder怪物核心"
+              ]
+            ]
+          },
+          "bobReviewedName": {
+            "sources": [
+              [
+                "+1 Status to All Saves vs. Vitality",
+                "对抗命能的所有豁免获得+1状态加值 +1 Status to All Saves vs. Vitality"
+              ]
+            ]
+          }
+        }
+      },
+      "allSaves": "+1 status to all saves vs. vitality",
+      "bobReviewedAllSaves": {
+        "sources": [
+          [
+            "+1 status to all saves vs. vitality",
+            "对抗命能的所有豁免获得+1状态加值"
+          ],
+          [
+            "对抗命能的所有豁免获得+1状态加值",
+            "对抗命能的所有豁免获得+1状态加值"
+          ]
+        ]
+      }
+    }
+  }
+}

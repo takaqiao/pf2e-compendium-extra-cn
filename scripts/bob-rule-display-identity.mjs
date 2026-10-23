@@ -11,8 +11,9 @@ export function prepareBobRuleDisplayIdentity({bindings,syntheticBindings=[],leg
   if(!Array.isArray(bindings)||![ActorClass,ItemClass,getActors,getItems,isEnabled,getLocale].every(f=>typeof f==='function'))throw Error('Native identity dependencies required');
   const preparedRules=prepareNativeRuleSourceGuard({getRuleClasses,getActiveRuleClasses});
   const weatherName=prepareWeatherNameAttestation({getRuleClasses,getActiveRuleClasses,localize});
-  const rows=new Map;for(const row of structuredClone(bindings)){if(rows.has(row.key)||!row.sourceFingerprint||!row.approvalFingerprint||!Array.isArray(row.rules))throw Error('Invalid display binding');rows.set(row.key,row);}
-  const legacy=new Map(legacyWorldIdentities.filter(i=>i.scope==='worldItem').map(i=>[`worldItem//${i.itemId}`,i]));
+  const rows=new Map;for(const row of structuredClone(bindings).flatMap(b=>[b,...b.sourceVariants??[]])){const variants=rows.get(row.key)??[];if(variants.some(b=>b.sourceFingerprint===row.sourceFingerprint)||!row.sourceFingerprint||!row.approvalFingerprint||!Array.isArray(row.rules))throw Error('Invalid display binding');variants.push(row);rows.set(row.key,variants);}
+  const select=(key,predicate)=>{const matches=(rows.get(key)??[]).filter(predicate);return matches.length===1?matches[0]:null;};
+  const legacy=legacyWorldIdentities.flatMap(b=>[b,...b.sourceVariants??[]]).filter(i=>i.scope==='worldItem');
   const synthetic=prepareSyntheticIdentity({syntheticBindings,ActorClass,ItemClass,SceneClass,TokenDocumentClass,ActorDeltaClass,getActors,getScenes});
   const enabled=()=>isEnabled()&&['cn','zh-CN','zh-Hans'].includes(getLocale());
   const allowed=doc=>!doc?.pack||doc.pack.startsWith('pf2e-bastion-of-blasphemies.');
@@ -21,23 +22,23 @@ export function prepareBobRuleDisplayIdentity({bindings,syntheticBindings=[],leg
     const dynamic=new Set(['_migration','rules']);if(physical(b)){for(const p of ['quantity','equipped','containerId','hp.value'])dynamic.add(p);if(!Number.isInteger(s.system.quantity)||s.system.quantity<1)return false;}if(b.itemType==='effect')dynamic.add('start');
     return expectedLeaves(s.system,b.expectedSource.system,'',dynamic);
   }
-  function ownMarker(item){const marker=item._source.flags?.[EXTRA]?.[RULE_DISPLAY_FLAG];if(!marker||Object.keys(marker).sort().join(',')!=='approvalFingerprint,key,sourceFingerprint,version'||marker.version!==1)return null;const b=rows.get(marker.key);return b&&marker.sourceFingerprint===b.sourceFingerprint&&marker.approvalFingerprint===b.approvalFingerprint?b:null;}
-  function legacyMarker(item){const marker=item._source.flags?.[EXTRA]?.bobIdentity;if(!marker||Object.keys(marker).sort().join(',')!=='approvalFingerprint,key,sourceFingerprint,version'||marker.version!==1)return null;const approval=legacy.get(marker.key),b=approval&&rows.get(`world/${approval.itemId}`);return b&&approval.sourceFingerprint===b.sourceFingerprint&&approval.approvedName===b.itemName&&approval.itemType===b.itemType&&marker.sourceFingerprint===approval.sourceFingerprint&&marker.approvalFingerprint===approval.approvalFingerprint?b:null;}
+  function ownMarker(item){const marker=item._source.flags?.[EXTRA]?.[RULE_DISPLAY_FLAG];if(!marker||Object.keys(marker).sort().join(',')!=='approvalFingerprint,key,sourceFingerprint,version'||marker.version!==1)return null;return select(marker.key,b=>marker.sourceFingerprint===b.sourceFingerprint&&marker.approvalFingerprint===b.approvalFingerprint);}
+  function legacyMarker(item){const marker=item._source.flags?.[EXTRA]?.bobIdentity;if(!marker||Object.keys(marker).sort().join(',')!=='approvalFingerprint,key,sourceFingerprint,version'||marker.version!==1)return null;const approval=legacy.find(a=>marker.key===`worldItem//${a.itemId}`&&marker.sourceFingerprint===a.sourceFingerprint&&marker.approvalFingerprint===a.approvalFingerprint);return approval&&select(`world/${approval.itemId}`,b=>(approval.sourceFingerprint===b.sourceFingerprint||approval.sourceFingerprint===b.legacySourceFingerprint)&&approval.approvedName===b.itemName&&approval.itemType===b.itemType&&sourceMatches(item,b));}
   function resolveItem(item){if(!enabled()||!(item instanceof ItemClass)||!allowed(item))return null;const actor=item.actor??item.parent;
     if(actor){if(!(actor instanceof ActorClass)||!allowed(actor)||item.parent!==actor||actor.items?.get(item.id)!==item)return null;
-      if(actor.isToken===true){const b=rows.get(`${actor.token?.actorId}/${item.id}`);return b&&sourceMatches(item,b)&&synthetic.resolve(actor,item,b)?b:null;}
+      if(actor.isToken===true){const b=select(`${actor.token?.actorId}/${item.id}`,b=>sourceMatches(item,b));return b&&synthetic.resolve(actor,item,b)?b:null;}
       if(actor.isToken!==false||actor.parent!=null||!registered(actor,getActors()))return null;
       const marked=ownMarker(item)??legacyMarker(item);if(marked&&sourceMatches(item,marked))return marked;
-      const b=rows.get(`${actor.id}/${item.id}`),a=actor._source;if(!b||a?._id!==b.actorId||actor.type!==b.actorType||a.type!==b.actorType||actor.name!==b.actorName||a.name!==b.actorName||nil(a.folder)!==b.actorFolderId||nil(a._stats?.compendiumSource)!==b.actorSourceUuid)return null;return sourceMatches(item,b)?b:null;
+      const b=select(`${actor.id}/${item.id}`,b=>sourceMatches(item,b)),a=actor._source;if(!b||a?._id!==b.actorId||actor.type!==b.actorType||a.type!==b.actorType||actor.name!==b.actorName||a.name!==b.actorName||nil(a.folder)!==b.actorFolderId||nil(a._stats?.compendiumSource)!==b.actorSourceUuid)return null;return b;
     }
-    const b=rows.get(`world/${item.id}`);return item.parent==null&&registered(item,getItems())&&b&&sourceMatches(item,b)?b:null;
+    const b=select(`world/${item.id}`,b=>sourceMatches(item,b));return item.parent==null&&registered(item,getItems())?b:null;
   }
   function resolveRule(rule){const item=rule?.item,b=resolveItem(item);if(!b||rule.parent!==item||rule.actor!==item.actor||!item.rules?.includes(rule))return null;const row=b.rules.find(r=>r.index===rule.sourceIndex&&r.key===rule.key);return row&&equal(item._source.system.rules[row.index],row.source)?{binding:b,rule:row}:null;}
   // Constructors prepare before collection.set / Delta.syntheticActor assignment.
   // This captures candidates only. Every display read still calls resolveRule above.
   function resolveRuleForPreparation(rule){const strict=resolveRule(rule);if(strict)return strict;if(!enabled())return null;const item=rule?.item,actor=item?.actor;if(!(actor instanceof ActorClass)||item.parent!==actor||rule.parent!==item||rule.actor!==actor||!item.rules?.includes(rule)||!allowed(actor))return null;
     const marked=actor.isToken===false&&actor.parent==null&&actor.items?.get(item.id)===item?(ownMarker(item)??legacyMarker(item)):null;
-    const actorId=actor.isToken===true?actor.token?.actorId:actor.id,b=marked??rows.get(`${actorId}/${item.id}`);if(!b||!sourceMatches(item,b))return null;
+    const actorId=actor.isToken===true?actor.token?.actorId:actor.id,b=marked??select(`${actorId}/${item.id}`,b=>sourceMatches(item,b));if(!b||!sourceMatches(item,b))return null;
     if(actor.isToken===true){const token=actor.token,row=syntheticBindings.find(t=>t.tokenId===token?.id&&t.sceneId===token?.parent?.id&&t.actorId===b.actorId&&t.boundItemIds.includes(b.itemId));if(!row||actor.name!==(row.deltaSource.name??b.actorName))return null;}
     else{const a=actor._source;if(actor.parent!=null||actor.isToken!==false)return null;if(marked){if(a?._id!==actor.id||a.name!==actor.name||a.type!==actor.type)return null;}else if(a?._id!==b.actorId||actor.name!==b.actorName||a.name!==b.actorName||actor.type!==b.actorType||a.type!==b.actorType||nil(a.folder)!==b.actorFolderId||nil(a._stats?.compendiumSource)!==b.actorSourceUuid)return null;}
     const row=b.rules.find(r=>r.index===rule.sourceIndex&&r.key===rule.key);return row&&equal(item._source.system.rules[row.index],row.source)?{binding:b,rule:row}:null;

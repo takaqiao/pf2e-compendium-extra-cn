@@ -42,15 +42,17 @@ function deltaIdentity(source) {
 
 export function prepareSyntheticIdentity({syntheticBindings = [], ActorClass, ItemClass, SceneClass, TokenDocumentClass, ActorDeltaClass, getActors, getScenes}) {
   const rows = new Map();
-  for (const raw of structuredClone(syntheticBindings)) {
+  for (const raw of structuredClone(syntheticBindings).flatMap(row => [row, ...(row.sourceVariants ?? [])])) {
     const key = `${raw.sceneId}/${raw.tokenId}`;
-    if (rows.has(key) || !raw.sceneProjection || !raw.tokenProjection || !deltaIdentity(raw.deltaSource)
+    const variants = rows.get(key) ?? [];
+    if (variants.some(row => equal(deltaIdentity(row.deltaSource), deltaIdentity(raw.deltaSource))) || !raw.sceneProjection || !raw.tokenProjection || !deltaIdentity(raw.deltaSource)
       || raw.tokenProjection.actorLink !== false || raw.tokenProjection.actorId !== raw.actorId
       || raw.tokenProjection._id !== raw.tokenId || raw.sceneProjection._id !== raw.sceneId
       || raw.deltaSource._id !== raw.tokenId || !Array.isArray(raw.boundItemIds)
       || !raw.boundItemIds.length || new Set(raw.boundItemIds).size !== raw.boundItemIds.length
       || raw.boundItemIds.some(id => raw.deltaSource.items.some(item => item._id === id))) throw Error('Invalid frozen synthetic identity');
-    rows.set(key, raw);
+    variants.push(raw);
+    rows.set(key, variants);
   }
   if (rows.size && ([ActorClass, ItemClass, SceneClass, TokenDocumentClass, ActorDeltaClass, getActors, getScenes].some(value => typeof value !== 'function'))) throw Error('Native synthetic chain dependencies required');
 
@@ -64,7 +66,9 @@ export function prepareSyntheticIdentity({syntheticBindings = [], ActorClass, It
     // Reading an own data property cannot trigger ActorDelta's lazy construction getter.
     const delta = Object.getOwnPropertyDescriptor(token, 'delta')?.value;
     if (!(delta instanceof ActorDeltaClass) || delta.parent !== token || delta.syntheticActor !== actor || token.actor !== actor) return null;
-    const base = token.baseActor, baseItem = base?.items?.get(item.id), row = rows.get(`${scene.id}/${token.id}`);
+    const base = token.baseActor, baseItem = base?.items?.get(item.id);
+    const variants = (rows.get(`${scene.id}/${token.id}`) ?? []).filter(row => equal(deltaIdentity(delta._source), deltaIdentity(row.deltaSource)));
+    const row = variants.length === 1 ? variants[0] : null;
     if (!row || !row.boundItemIds.includes(item.id) || row.actorId !== binding.actorId || token.actorId !== row.actorId
       || !(base instanceof ActorClass) || base.isToken !== false || base.parent != null || !allowedPack(base)
       || base.collection !== getActors() || getActors().get(base.id) !== base || base.id !== row.actorId

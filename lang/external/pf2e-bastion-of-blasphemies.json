@@ -10,6 +10,14 @@
       "WeatherAutomation": {
         "label": "自动管理天气",
         "hint": "根据玩家角色在冒险中的进度，自动管理天气效果。"
+      },
+      "depthEffectEnabled": {
+        "label": "高程雾化与模糊",
+        "hint": "根据当前查看的层级，为场景内容添加雾化和模糊效果。此设置对所有玩家生效，但仅应用于已配置这些效果的层级。"
+      },
+      "weatherAutomation": {
+        "label": "自动管理天气",
+        "hint": "根据玩家角色在冒险中的进度，自动管理天气效果。"
       }
     },
     "JOURNAL": {
@@ -22,7 +30,7 @@
       "Open": "打开战役管理器",
       "Memento": {
         "label": "信物",
-        "hint": "玩家角色必须将以下信物归还至@UUID[JournalEntry.YJC6FQzwcNy7rPBL.JournalEntryPage.fvc3WQXfj5Bcg2lM#activating-a-statue]{阿鲁多拉喷泉}（<button></button>），才能进入城堡的下一区域。",
+        "hint": "玩家角色必须将以下信物归还至@UUID[JournalEntry.YJC6FQzwcNy7rPBL.JournalEntryPage.fvc3WQXfj5Bcg2lM#activating-a-statue]{阿鲁多拉喷泉}（<button type=\"button\" class=\"inline-control icon fa-solid fa-circle-location-arrow\"></button>），才能进入城堡的下一区域。",
         "Missing": "尚未找回",
         "Returned": "已归还",
         "Skip": "跳过此要求",
@@ -129,6 +137,40 @@
             "label": "邪恶残骸",
             "hint": "玩家角色已收集的<em>邪恶残骸</em>数量"
           }
+        },
+        "areas": {
+          "reception": {
+            "entertainment": {
+              "label": "渔夫娱乐",
+              "hint": "让全部十二名幽灵渔夫得到娱乐后，阻止他们再次出现。"
+            },
+            "performance": {
+              "label": "舞厅表演",
+              "hint": "玩家角色在最终表演中获得至少2点胜利点后，阻止幽灵宾客再次出现。"
+            }
+          }
+        }
+      }
+    },
+    "RULES": {
+      "LucidNightmares": {
+        "Hemophobia": {
+          "Note": "每当你受到持续流血伤害时，便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}状态"
+        }
+      },
+      "TheSkiesAbove": {
+        "ChapterFour": {
+          "Note": "雾气使50尺外的生物获得@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}。"
+        },
+        "EffectLabel": "效果：头顶的天空 Effect: The Skies Above",
+        "Label": "头顶的天空"
+      }
+    },
+    "IMPORTER": {
+      "ReimportOptions": {
+        "safeReimport": {
+          "label": "安全重新导入",
+          "hint": "选择性地重新导入画布文档，仅添加尚不存在的光源、图块、区域和墙壁。指示物保持不变。"
         }
       }
     }
@@ -165,5 +207,9 @@
   "Bastion": "亵渎堡垒",
   "Bastion of Blasphemies Journal Sheet": "亵渎堡垒日志表单",
   "Bastion of Blasphemies Importer": "亵渎堡垒导入器",
-  "Bastion of Blasphemies Ring": "亵渎堡垒代币环"
+  "Bastion of Blasphemies Ring": "亵渎堡垒代币环",
+  "Trigger What All Heroes Fear": "触发“所有英雄的恐惧”",
+  "Clean and Oil Clocktower Gearworks": "清理并润滑钟楼齿轮机构",
+  "Materialize Floating Tower Bridge": "使悬浮塔桥实体化",
+  "Materialize Laroba Causeway": "使拉罗巴堤桥实体化"
 }

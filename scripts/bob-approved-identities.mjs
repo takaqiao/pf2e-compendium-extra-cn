@@ -6852,7 +6852,23 @@ export const BOB_APPROVED_IDENTITIES = [
     "actorId": "89txqXQ291LeFesk",
     "actorType": "hazard",
     "actorFolderId": "VC73YtnkRreiuDUy",
-    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.PoXSsLpcqcUwjsaI"
+    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.PoXSsLpcqcUwjsaI",
+    "sourceVariants": [
+      {
+        "scope": "actorItem",
+        "itemId": "UA7s6yqKughsDEWD",
+        "itemType": "action",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "originalName": "Awaken",
+        "approvedName": "苏醒 Awaken",
+        "itemSlug": null,
+        "actorId": "89txqXQ291LeFesk",
+        "actorType": "hazard",
+        "actorFolderId": "VC73YtnkRreiuDUy",
+        "actorSourceUuid": null
+      }
+    ]
   },
   {
     "scope": "actorItem",
@@ -6866,7 +6882,23 @@ export const BOB_APPROVED_IDENTITIES = [
     "actorId": "k0QerxsfdB9LOn6H",
     "actorType": "hazard",
     "actorFolderId": "VC73YtnkRreiuDUy",
-    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.PoXSsLpcqcUwjsaI"
+    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.PoXSsLpcqcUwjsaI",
+    "sourceVariants": [
+      {
+        "scope": "actorItem",
+        "itemId": "UA7s6yqKughsDEWD",
+        "itemType": "action",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "originalName": "Awaken",
+        "approvedName": "苏醒 Awaken",
+        "itemSlug": null,
+        "actorId": "k0QerxsfdB9LOn6H",
+        "actorType": "hazard",
+        "actorFolderId": "VC73YtnkRreiuDUy",
+        "actorSourceUuid": null
+      }
+    ]
   },
   {
     "scope": "actorItem",
@@ -6880,7 +6912,23 @@ export const BOB_APPROVED_IDENTITIES = [
     "actorId": "FMsMffDj6egOElJq",
     "actorType": "hazard",
     "actorFolderId": "VC73YtnkRreiuDUy",
-    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.PoXSsLpcqcUwjsaI"
+    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.PoXSsLpcqcUwjsaI",
+    "sourceVariants": [
+      {
+        "scope": "actorItem",
+        "itemId": "UA7s6yqKughsDEWD",
+        "itemType": "action",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "originalName": "Awaken",
+        "approvedName": "苏醒 Awaken",
+        "itemSlug": null,
+        "actorId": "FMsMffDj6egOElJq",
+        "actorType": "hazard",
+        "actorFolderId": "VC73YtnkRreiuDUy",
+        "actorSourceUuid": null
+      }
+    ]
   },
   {
     "scope": "actorItem",
@@ -6894,7 +6942,23 @@ export const BOB_APPROVED_IDENTITIES = [
     "actorId": "MwERgzo0507Y2tV6",
     "actorType": "hazard",
     "actorFolderId": "VC73YtnkRreiuDUy",
-    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.PoXSsLpcqcUwjsaI"
+    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.PoXSsLpcqcUwjsaI",
+    "sourceVariants": [
+      {
+        "scope": "actorItem",
+        "itemId": "UA7s6yqKughsDEWD",
+        "itemType": "action",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "originalName": "Awaken",
+        "approvedName": "苏醒 Awaken",
+        "itemSlug": null,
+        "actorId": "MwERgzo0507Y2tV6",
+        "actorType": "hazard",
+        "actorFolderId": "VC73YtnkRreiuDUy",
+        "actorSourceUuid": null
+      }
+    ]
   },
   {
     "scope": "actorItem",
@@ -6908,7 +6972,23 @@ export const BOB_APPROVED_IDENTITIES = [
     "actorId": "RIEGNANwux0GErll",
     "actorType": "hazard",
     "actorFolderId": "VC73YtnkRreiuDUy",
-    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.PoXSsLpcqcUwjsaI"
+    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.PoXSsLpcqcUwjsaI",
+    "sourceVariants": [
+      {
+        "scope": "actorItem",
+        "itemId": "UA7s6yqKughsDEWD",
+        "itemType": "action",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "originalName": "Awaken",
+        "approvedName": "苏醒 Awaken",
+        "itemSlug": null,
+        "actorId": "RIEGNANwux0GErll",
+        "actorType": "hazard",
+        "actorFolderId": "VC73YtnkRreiuDUy",
+        "actorSourceUuid": null
+      }
+    ]
   },
   {
     "scope": "actorItem",
@@ -6922,7 +7002,23 @@ export const BOB_APPROVED_IDENTITIES = [
     "actorId": "VrtmdBkBLUHLo0PP",
     "actorType": "hazard",
     "actorFolderId": "VC73YtnkRreiuDUy",
-    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.PoXSsLpcqcUwjsaI"
+    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.PoXSsLpcqcUwjsaI",
+    "sourceVariants": [
+      {
+        "scope": "actorItem",
+        "itemId": "UA7s6yqKughsDEWD",
+        "itemType": "action",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "originalName": "Awaken",
+        "approvedName": "苏醒 Awaken",
+        "itemSlug": null,
+        "actorId": "VrtmdBkBLUHLo0PP",
+        "actorType": "hazard",
+        "actorFolderId": "VC73YtnkRreiuDUy",
+        "actorSourceUuid": null
+      }
+    ]
   },
   {
     "scope": "actorItem",
@@ -6936,7 +7032,23 @@ export const BOB_APPROVED_IDENTITIES = [
     "actorId": "u4bMZDYum96aMKya",
     "actorType": "hazard",
     "actorFolderId": "VC73YtnkRreiuDUy",
-    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.PoXSsLpcqcUwjsaI"
+    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.PoXSsLpcqcUwjsaI",
+    "sourceVariants": [
+      {
+        "scope": "actorItem",
+        "itemId": "UA7s6yqKughsDEWD",
+        "itemType": "action",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "originalName": "Awaken",
+        "approvedName": "苏醒 Awaken",
+        "itemSlug": null,
+        "actorId": "u4bMZDYum96aMKya",
+        "actorType": "hazard",
+        "actorFolderId": "VC73YtnkRreiuDUy",
+        "actorSourceUuid": null
+      }
+    ]
   },
   {
     "scope": "worldItem",
@@ -7913,7 +8025,28 @@ export const BOB_APPROVED_IDENTITIES = [
       }
     ],
     "sourceFingerprint": "314a3b287f9649c6390705e4413620644fe4a92274f6c3705b9d10a8e978b1de",
-    "approvalFingerprint": "d09f0c65d1e8ff9942fada29b824fa05e0bf4746d2af8ace0422b537c3b0f77c"
+    "approvalFingerprint": "d09f0c65d1e8ff9942fada29b824fa05e0bf4746d2af8ace0422b537c3b0f77c",
+    "sourceVariants": [
+      {
+        "scope": "worldItem",
+        "itemId": "ngjn7OOaDbQtRjvS",
+        "itemType": "feat",
+        "itemFolderId": "5XgAdJrFmpgZaTzk",
+        "itemSourceUuid": null,
+        "originalName": "Arudora Familiarity",
+        "approvedName": "熟悉阿鲁多拉家族 Arudora Familiarity",
+        "itemSlug": null,
+        "fallbackRules": [
+          {
+            "sourceIndex": 0,
+            "key": "FlatModifier",
+            "sourceJSON": "{\"key\":\"FlatModifier\",\"value\":2,\"type\":\"circumstance\",\"selector\":[\"skill-check\"],\"predicate\":[\"individual-arudora\",{\"or\":[\"action:research\",\"action:recall-knowledge\"]}]}"
+          }
+        ],
+        "sourceFingerprint": "28e6dbe01aaa77474b9ffb92b1643b85bda19364f9d37cf5e587a9b76cacf2e6",
+        "approvalFingerprint": "f2f1ef1a4b9a1e91cdde01dc639283a84c1a755cbfedbd42ee5193af963efb9c"
+      }
+    ]
   },
   {
     "scope": "actorItem",
@@ -11793,7 +11926,23 @@ export const BOB_APPROVED_IDENTITIES = [
     "actorId": "GT0G3ELbvhtfCw1A",
     "actorType": "npc",
     "actorFolderId": "ZZgtHCUkCZvhw1kt",
-    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.GT0G3ELbvhtfCw1A"
+    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.GT0G3ELbvhtfCw1A",
+    "sourceVariants": [
+      {
+        "scope": "actorItem",
+        "itemId": "R1o8bp43XYL5k5Yu",
+        "itemType": "melee",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "originalName": "Jaws",
+        "approvedName": "颚咬 Jaws",
+        "itemSlug": null,
+        "actorId": "GT0G3ELbvhtfCw1A",
+        "actorType": "npc",
+        "actorFolderId": "ZZgtHCUkCZvhw1kt",
+        "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.GT0G3ELbvhtfCw1A"
+      }
+    ]
   },
   {
     "scope": "actorItem",
@@ -13928,7 +14077,23 @@ export const BOB_APPROVED_IDENTITIES = [
     "actorId": "maHaC9jJNyUwILdz",
     "actorType": "npc",
     "actorFolderId": "ahtBb4sTuFz6TUFC",
-    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.maHaC9jJNyUwILdz"
+    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.maHaC9jJNyUwILdz",
+    "sourceVariants": [
+      {
+        "scope": "actorItem",
+        "itemId": "MpCLpxadAn358Nop",
+        "itemType": "melee",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "originalName": "Ghostly Weapon",
+        "approvedName": "幽灵武器 Ghostly Weapon",
+        "itemSlug": null,
+        "actorId": "maHaC9jJNyUwILdz",
+        "actorType": "npc",
+        "actorFolderId": "ahtBb4sTuFz6TUFC",
+        "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.maHaC9jJNyUwILdz"
+      }
+    ]
   },
   {
     "scope": "actorItem",
@@ -14026,7 +14191,23 @@ export const BOB_APPROVED_IDENTITIES = [
     "actorId": "ZaC0d2uDojDe1x49",
     "actorType": "npc",
     "actorFolderId": "ahtBb4sTuFz6TUFC",
-    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.ZaC0d2uDojDe1x49"
+    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.ZaC0d2uDojDe1x49",
+    "sourceVariants": [
+      {
+        "scope": "actorItem",
+        "itemId": "MpCLpxadAn358Nop",
+        "itemType": "melee",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "originalName": "Ghostly Weapon",
+        "approvedName": "幽灵武器 Ghostly Weapon",
+        "itemSlug": null,
+        "actorId": "ZaC0d2uDojDe1x49",
+        "actorType": "npc",
+        "actorFolderId": "ahtBb4sTuFz6TUFC",
+        "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.ZaC0d2uDojDe1x49"
+      }
+    ]
   },
   {
     "scope": "actorItem",
@@ -14040,7 +14221,23 @@ export const BOB_APPROVED_IDENTITIES = [
     "actorId": "GRKuCXILfcrpzZDX",
     "actorType": "npc",
     "actorFolderId": "ahtBb4sTuFz6TUFC",
-    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.GRKuCXILfcrpzZDX"
+    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.GRKuCXILfcrpzZDX",
+    "sourceVariants": [
+      {
+        "scope": "actorItem",
+        "itemId": "MpCLpxadAn358Nop",
+        "itemType": "melee",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "originalName": "Ghostly Weapon",
+        "approvedName": "幽灵武器 Ghostly Weapon",
+        "itemSlug": null,
+        "actorId": "GRKuCXILfcrpzZDX",
+        "actorType": "npc",
+        "actorFolderId": "ahtBb4sTuFz6TUFC",
+        "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.GRKuCXILfcrpzZDX"
+      }
+    ]
   },
   {
     "scope": "actorItem",
@@ -14474,7 +14671,23 @@ export const BOB_APPROVED_IDENTITIES = [
     "actorId": "LN7MXD38Zs2bDoW6",
     "actorType": "npc",
     "actorFolderId": "nCHw2Vcj0Eth0Evy",
-    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.LN7MXD38Zs2bDoW6"
+    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.LN7MXD38Zs2bDoW6",
+    "sourceVariants": [
+      {
+        "scope": "actorItem",
+        "itemId": "1TeUoHVS0bkCD9jX",
+        "itemType": "melee",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "originalName": "Ghostly Hand",
+        "approvedName": "幽灵之手 Ghostly Hand",
+        "itemSlug": null,
+        "actorId": "LN7MXD38Zs2bDoW6",
+        "actorType": "npc",
+        "actorFolderId": "nCHw2Vcj0Eth0Evy",
+        "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.LN7MXD38Zs2bDoW6"
+      }
+    ]
   },
   {
     "scope": "actorItem",
@@ -14544,7 +14757,23 @@ export const BOB_APPROVED_IDENTITIES = [
     "actorId": "V90ggUnKvweg3G0q",
     "actorType": "npc",
     "actorFolderId": "nCHw2Vcj0Eth0Evy",
-    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.V90ggUnKvweg3G0q"
+    "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.V90ggUnKvweg3G0q",
+    "sourceVariants": [
+      {
+        "scope": "actorItem",
+        "itemId": "2rwJ8XIQaZHRih7s",
+        "itemType": "spellcastingEntry",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "originalName": "Hex Spells",
+        "approvedName": "巫术法术 Hex Spells",
+        "itemSlug": null,
+        "actorId": "V90ggUnKvweg3G0q",
+        "actorType": "npc",
+        "actorFolderId": "nCHw2Vcj0Eth0Evy",
+        "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.V90ggUnKvweg3G0q"
+      }
+    ]
   },
   {
     "scope": "actorItem",

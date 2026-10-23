@@ -19,9 +19,9 @@ function methodDescriptor(prototype, key) {
 
 function makeResolver(bindings) {
   const rows = new Map();
-  for (const row of bindings) {
+  for (const row of bindings.flatMap(binding => [binding, ...(binding.sourceVariants ?? [])])) {
     const key = `${row.actorId}/${row.ownerId}/${row.spellId}`;
-    if (rows.has(key) || !['actorSpell', 'consumableSpell'].includes(row.scope)
+    if ((rows.get(key) ?? []).some(existing => existing.ownerName.after === row.ownerName?.after && existing.names.name.after === row.names?.name?.after) || !['actorSpell', 'consumableSpell'].includes(row.scope)
       || !row.names?.name || !row.ownerName || !row.fields) throw new Error(`Invalid BoB spell display binding: ${key}`);
     for (const [path, text] of Object.entries(row.fields)) {
       if (!/^system\.(?:(?:overlays\.[^.]+\.system\.)|(?:heightening\.levels\.\d+\.))?(range|time|target|duration)\.value$/.test(path)
@@ -29,7 +29,7 @@ function makeResolver(bindings) {
         throw new Error(`Invalid BoB spell display field: ${key}/${path}`);
       }
     }
-    rows.set(key, row);
+    rows.set(key, [...(rows.get(key) ?? []), row]);
   }
   function identify(spell) {
     if (!spell || spell.type !== 'spell') return null;
@@ -37,7 +37,8 @@ function makeResolver(bindings) {
     if (root.original) return null;
     const owner = root.parentItem ?? root, actor = root.actor ?? root.parent;
     if (!actor || [root.pack, owner.pack, actor.pack].some(pack => pack && !pack.startsWith(PACK))) return null;
-    const row = rows.get(`${actor.id}/${owner.id}/${root.id}`);
+    const variants = (rows.get(`${actor.id}/${owner.id}/${root.id}`) ?? []).filter(row => owner.name === row.ownerName.after && root.name === row.names.name.after);
+    const row = variants.length === 1 ? variants[0] : null;
     if (!row || row.scope !== (root.parentItem ? 'consumableSpell' : 'actorSpell')
       || owner.type !== row.ownerType || owner.name !== row.ownerName.after || root.name !== row.names.name.after
       || folder(owner) !== normalized(row.ownerFolderId) || sourceUUID(owner) !== normalized(row.ownerSourceUuid)

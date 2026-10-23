@@ -9,7 +9,11 @@
 				"value": "value"
 			}
 		},
-		"gmnote": "system.description.gm"
+		"gmnote": "system.description.gm",
+		"bobSourceName": {
+			"path": "name",
+			"converter": "sog-source-text"
+		}
 	},
 	"folders": {},
 	"entries": {
@@ -2601,6 +2605,16 @@
 		"Effect: Clinging Suckers": {
 			"name": "效果：粘附吸盘 Effect: Clinging Suckers",
 			"description": "<p>若你为中型或更小体型，你的所有速度承受–5尺状态减值。</p>"
+		},
+		"oYeMCbirbpPZTlQL": {
+			"bobSourceName": {
+				"sources": [
+					[
+						"Effect: Consume Fear",
+						"效果：吞噬恐惧 Effect: Consume Fear"
+					]
+				]
+			}
 		}
 	}
 }

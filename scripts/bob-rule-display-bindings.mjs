@@ -252,7 +252,136 @@ export const RULE_DISPLAY_BINDINGS = [
         ]
       }
     ],
-    "approvalFingerprint": "6fe47a74a01548d24d35ed8a3c80fd792f8de81246ecfd1e4f5f89d6c5ae8e1d"
+    "approvalFingerprint": "6fe47a74a01548d24d35ed8a3c80fd792f8de81246ecfd1e4f5f89d6c5ae8e1d",
+    "sourceVariants": [
+      {
+        "key": "KgJq51AeYrENo3Db/3Eksrmh390T4SrP7",
+        "sourcePath": "actors[154].items[2]",
+        "actorId": "KgJq51AeYrENo3Db",
+        "actorName": "鬼火 Will-o'-Wisp",
+        "actorType": "npc",
+        "actorFolderId": "g4Sd0AmMN3is4nXo",
+        "actorSourceUuid": "Compendium.pf2e.pathfinder-monster-core.Actor.KgJq51AeYrENo3Db",
+        "itemId": "3Eksrmh390T4SrP7",
+        "itemName": "魔法免疫 Magic Immunity",
+        "itemType": "action",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "itemSlug": "magic-immunity",
+        "itemRulesJSON": "[{\"exceptions\":[{\"definition\":[\"item:type:spell\",{\"or\":[\"item:slug:force-barrage\",\"item:slug:quandary\",\"item:slug:revealing-light\"]}],\"label\":\"PF2E.IWR.Custom.WispVulnerabilities\"}],\"key\":\"Immunity\",\"type\":\"magic\"}]",
+        "itemBody": "<p>鬼火免疫所有法术，除了@UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]，@UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]，@UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]。</p>",
+        "itemImage": "systems/pf2e/icons/actions/Passive.webp",
+        "sourceFingerprint": "65c7708c0db1048b09e429f5e07ff651bad5b3a53946463d6fb47510d256a207",
+        "expectedSource": {
+          "_id": "3Eksrmh390T4SrP7",
+          "img": "systems/pf2e/icons/actions/Passive.webp",
+          "name": "魔法免疫 Magic Immunity",
+          "sort": 300000,
+          "system": {
+            "actionType": {
+              "value": "passive"
+            },
+            "actions": {
+              "value": null
+            },
+            "category": "defensive",
+            "description": {
+              "value": "<p>鬼火免疫所有法术，除了@UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]，@UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]，@UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]。</p>",
+              "gm": ""
+            },
+            "publication": {
+              "license": "ORC",
+              "remaster": true,
+              "title": "Pathfinder Monster Core",
+              "authors": ""
+            },
+            "rules": [
+              {
+                "exceptions": [
+                  {
+                    "definition": [
+                      "item:type:spell",
+                      {
+                        "or": [
+                          "item:slug:force-barrage",
+                          "item:slug:quandary",
+                          "item:slug:revealing-light"
+                        ]
+                      }
+                    ],
+                    "label": "PF2E.IWR.Custom.WispVulnerabilities"
+                  }
+                ],
+                "key": "Immunity",
+                "type": "magic"
+              }
+            ],
+            "slug": "magic-immunity",
+            "traits": {
+              "value": [],
+              "otherTags": []
+            },
+            "_migration": {
+              "version": 0.959,
+              "previous": null
+            }
+          },
+          "type": "action",
+          "_stats": {
+            "coreVersion": "14.368",
+            "systemId": "pf2e",
+            "systemVersion": "8.5.1",
+            "compendiumSource": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "effects": [],
+          "folder": null,
+          "flags": {},
+          "ownership": {
+            "default": 0
+          }
+        },
+        "rules": [
+          {
+            "index": 0,
+            "key": "Immunity",
+            "source": {
+              "exceptions": [
+                {
+                  "definition": [
+                    "item:type:spell",
+                    {
+                      "or": [
+                        "item:slug:force-barrage",
+                        "item:slug:quandary",
+                        "item:slug:revealing-light"
+                      ]
+                    }
+                  ],
+                  "label": "PF2E.IWR.Custom.WispVulnerabilities"
+                }
+              ],
+              "key": "Immunity",
+              "type": "magic"
+            },
+            "sourceFingerprint": "bd850d77ee6a2fad4234aca9784f9b4fbed1687cd1664d61e058b44adf243671",
+            "fields": [
+              {
+                "path": "actors[154].items[2].system.rules[0].exceptions[0].label",
+                "before": "PF2E.IWR.Custom.WispVulnerabilities",
+                "after": "鬼火的魔法免疫例外",
+                "recordSha256": "546d1927c5bfa8fe54c4de4b18cf52bfcda71626174254b1bd10dd79fb78e297"
+              }
+            ]
+          }
+        ],
+        "approvalFingerprint": "da595ee38af2e5a174db74033c2113d73e90337f3218920c80545c7bcbbffb2f"
+      }
+    ]
   },
   {
     "key": "Gva6GAH3WjjRi8Wd/shEp3scXXBxti42q",
@@ -1861,7 +1990,296 @@ export const RULE_DISPLAY_BINDINGS = [
         ]
       }
     ],
-    "approvalFingerprint": "241a3763df56318b28e57f8a3b457bebe1d3e02362777319cb816c97f324bc5a"
+    "approvalFingerprint": "241a3763df56318b28e57f8a3b457bebe1d3e02362777319cb816c97f324bc5a",
+    "sourceVariants": [
+      {
+        "key": "ZixxJrXEmD4voY9g/P4bAeteoTmGGiI3W",
+        "sourcePath": "actors[321].items[5]",
+        "actorId": "ZixxJrXEmD4voY9g",
+        "actorName": "阿隆·莫迪穆斯 Aron Mordimus",
+        "actorType": "npc",
+        "actorFolderId": "h8uOhq5XwRdjsNhg",
+        "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.ZixxJrXEmD4voY9g",
+        "itemId": "P4bAeteoTmGGiI3W",
+        "itemName": "实体显现 Physical Manifestation",
+        "itemType": "action",
+        "itemFolderId": null,
+        "itemSourceUuid": null,
+        "itemSlug": null,
+        "itemRulesJSON": "[{\"key\":\"RollOption\",\"label\":\"PF2E.NPCAbility.BastardhallPhantom.SupportRank.Label\",\"option\":\"support-rank\",\"selection\":\"1\",\"suboptions\":[{\"label\":\"PF2E.SpecificRule.Numbers.One\",\"value\":\"1\"},{\"label\":\"PF2E.SpecificRule.Numbers.Two\",\"value\":\"2\"},{\"label\":\"PF2E.SpecificRule.Numbers.Three\",\"value\":\"3\"}],\"toggleable\":true},{\"key\":\"ActorTraits\",\"predicate\":[{\"gte\":[\"support-rank\",1]}],\"remove\":[\"incorporeal\"]},{\"key\":\"Immunity\",\"mode\":\"remove\",\"predicate\":[{\"gte\":[\"support-rank\",1]}],\"type\":[\"bleed\",\"disease\",\"paralyzed\",\"poison\",\"precision\"]},{\"doubleVs\":[\"non-magical\"],\"exceptions\":[\"force\",\"ghost-touch\",\"spirit\"],\"key\":\"Resistance\",\"predicate\":[{\"not\":\"support-rank\"}],\"type\":[\"all-damage\"],\"value\":5},{\"key\":\"BaseSpeed\",\"predicate\":[{\"gte\":[\"support-rank\",1]}],\"selector\":\"land-speed\",\"value\":25},{\"key\":\"BaseSpeed\",\"predicate\":[{\"not\":\"support-rank\"}],\"selector\":\"fly-speed\",\"value\":25},{\"key\":\"ActiveEffectLike\",\"mode\":\"override\",\"path\":\"system.abilities.str.mod\",\"predicate\":[{\"gte\":[\"support-rank\",1]}],\"value\":5},{\"key\":\"AdjustModifier\",\"mode\":\"upgrade\",\"predicate\":[{\"gte\":[\"support-rank\",1]}],\"selector\":\"athletics\",\"slug\":\"base\",\"value\":8},{\"key\":\"AdjustModifier\",\"mode\":\"upgrade\",\"predicate\":[{\"gte\":[\"support-rank\",1]}],\"selector\":\"ac\",\"slug\":\"base\",\"value\":11},{\"key\":\"FlatModifier\",\"predicate\":[{\"gte\":[\"support-rank\",1]}],\"selector\":[\"hp\"],\"value\":20},{\"itemType\":\"action\",\"key\":\"ItemAlteration\",\"label\":\"PF2E.NPCAbility.BastardhallPhantom.SupportRank.Label\",\"mode\":\"add\",\"predicate\":[\"item:slug:pour-elixir\",{\"not\":\"support-rank\"}],\"property\":\"description\",\"value\":[{\"text\":\"PF2E.NPCAbility.BastardhallPhantom.SupportRank.RequirementAddendum.RankOne\"}]}]",
+        "itemBody": "<p>达到1阶时，阿隆显现出一具半实体身躯。他失去虚体特征、免疫、抗力和飞行速度，并获得25尺陆地速度。他的力量调整值为+0，运动调整值为+7，AC为21，HP为80，并获得倾倒灵药能力。其他数据不变。</p>",
+        "itemImage": "systems/pf2e/icons/default-icons/action.svg",
+        "sourceFingerprint": "01e0394094253dcf6941b2149b6914d3a4afede3cb703ef8acb90a651af17df2",
+        "expectedSource": {
+          "_id": "P4bAeteoTmGGiI3W",
+          "img": "systems/pf2e/icons/default-icons/action.svg",
+          "name": "实体显现 Physical Manifestation",
+          "sort": 600000,
+          "system": {
+            "actionType": {
+              "value": "passive"
+            },
+            "actions": {
+              "value": null
+            },
+            "category": "defensive",
+            "description": {
+              "value": "<p>达到1阶时，阿隆显现出一具半实体身躯。他失去虚体特征、免疫、抗力和飞行速度，并获得25尺陆地速度。他的力量调整值为+0，运动调整值为+7，AC为21，HP为80，并获得倾倒灵药能力。其他数据不变。</p>",
+              "gm": ""
+            },
+            "publication": {
+              "license": "OGL",
+              "remaster": false,
+              "title": "",
+              "authors": ""
+            },
+            "rules": [
+              {
+                "key": "RollOption",
+                "label": "PF2E.NPCAbility.BastardhallPhantom.SupportRank.Label",
+                "option": "support-rank",
+                "selection": "1",
+                "suboptions": [
+                  {
+                    "label": "PF2E.SpecificRule.Numbers.One",
+                    "value": "1"
+                  },
+                  {
+                    "label": "PF2E.SpecificRule.Numbers.Two",
+                    "value": "2"
+                  },
+                  {
+                    "label": "PF2E.SpecificRule.Numbers.Three",
+                    "value": "3"
+                  }
+                ],
+                "toggleable": true
+              },
+              {
+                "key": "ActorTraits",
+                "predicate": [
+                  {
+                    "gte": [
+                      "support-rank",
+                      1
+                    ]
+                  }
+                ],
+                "remove": [
+                  "incorporeal"
+                ]
+              },
+              {
+                "key": "Immunity",
+                "mode": "remove",
+                "predicate": [
+                  {
+                    "gte": [
+                      "support-rank",
+                      1
+                    ]
+                  }
+                ],
+                "type": [
+                  "bleed",
+                  "disease",
+                  "paralyzed",
+                  "poison",
+                  "precision"
+                ]
+              },
+              {
+                "doubleVs": [
+                  "non-magical"
+                ],
+                "exceptions": [
+                  "force",
+                  "ghost-touch",
+                  "spirit"
+                ],
+                "key": "Resistance",
+                "predicate": [
+                  {
+                    "not": "support-rank"
+                  }
+                ],
+                "type": [
+                  "all-damage"
+                ],
+                "value": 5
+              },
+              {
+                "key": "BaseSpeed",
+                "predicate": [
+                  {
+                    "gte": [
+                      "support-rank",
+                      1
+                    ]
+                  }
+                ],
+                "selector": "land-speed",
+                "value": 25
+              },
+              {
+                "key": "BaseSpeed",
+                "predicate": [
+                  {
+                    "not": "support-rank"
+                  }
+                ],
+                "selector": "fly-speed",
+                "value": 25
+              },
+              {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "system.abilities.str.mod",
+                "predicate": [
+                  {
+                    "gte": [
+                      "support-rank",
+                      1
+                    ]
+                  }
+                ],
+                "value": 5
+              },
+              {
+                "key": "AdjustModifier",
+                "mode": "upgrade",
+                "predicate": [
+                  {
+                    "gte": [
+                      "support-rank",
+                      1
+                    ]
+                  }
+                ],
+                "selector": "athletics",
+                "slug": "base",
+                "value": 8
+              },
+              {
+                "key": "AdjustModifier",
+                "mode": "upgrade",
+                "predicate": [
+                  {
+                    "gte": [
+                      "support-rank",
+                      1
+                    ]
+                  }
+                ],
+                "selector": "ac",
+                "slug": "base",
+                "value": 11
+              },
+              {
+                "key": "FlatModifier",
+                "predicate": [
+                  {
+                    "gte": [
+                      "support-rank",
+                      1
+                    ]
+                  }
+                ],
+                "selector": [
+                  "hp"
+                ],
+                "value": 20
+              },
+              {
+                "itemType": "action",
+                "key": "ItemAlteration",
+                "label": "PF2E.NPCAbility.BastardhallPhantom.SupportRank.Label",
+                "mode": "add",
+                "predicate": [
+                  "item:slug:pour-elixir",
+                  {
+                    "not": "support-rank"
+                  }
+                ],
+                "property": "description",
+                "value": [
+                  {
+                    "text": "PF2E.NPCAbility.BastardhallPhantom.SupportRank.RequirementAddendum.RankOne"
+                  }
+                ]
+              }
+            ],
+            "slug": null,
+            "traits": {
+              "value": [],
+              "otherTags": []
+            },
+            "_migration": {
+              "version": 0.959,
+              "previous": null
+            }
+          },
+          "type": "action",
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "pf2e",
+            "systemVersion": "8.6.1",
+            "compendiumSource": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "effects": [],
+          "folder": null,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        },
+        "rules": [
+          {
+            "index": 10,
+            "key": "ItemAlteration",
+            "source": {
+              "itemType": "action",
+              "key": "ItemAlteration",
+              "label": "PF2E.NPCAbility.BastardhallPhantom.SupportRank.Label",
+              "mode": "add",
+              "predicate": [
+                "item:slug:pour-elixir",
+                {
+                  "not": "support-rank"
+                }
+              ],
+              "property": "description",
+              "value": [
+                {
+                  "text": "PF2E.NPCAbility.BastardhallPhantom.SupportRank.RequirementAddendum.RankOne"
+                }
+              ]
+            },
+            "sourceFingerprint": "4f834252e46214ebf22c710ff83a07f109999a13244821ed5c8a603fe8b8c2e1",
+            "fields": [
+              {
+                "path": "actors[321].items[5].system.rules[10].label",
+                "before": "PF2E.NPCAbility.BastardhallPhantom.SupportRank.Label",
+                "after": "援助等级",
+                "recordSha256": "a6b409cdeff38d44806bd395e882df089698d58be5794452c03b3056d447a99d"
+              },
+              {
+                "path": "actors[321].items[5].system.rules[10].value[0].text",
+                "before": "PF2E.NPCAbility.BastardhallPhantom.SupportRank.RequirementAddendum.RankOne",
+                "after": "此能力需要援助等级1。",
+                "recordSha256": "559b78fc7a23eb4f72602316a8d10d75878b12b47e97fb305ec520d14989d69e"
+              }
+            ]
+          }
+        ],
+        "approvalFingerprint": "f50fb7565d80c82824ae0db0d8afbfbedc97305d290ef793db09f91f2603ce9e"
+      }
+    ]
   },
   {
     "key": "amsxeDlpOVfUTxbx/I0ZvKacL2AOWXtLO",
@@ -3086,7 +3504,174 @@ export const RULE_DISPLAY_BINDINGS = [
         ]
       }
     ],
-    "approvalFingerprint": "2970bc367051cda1a4ef8d98fd314736e17499d1e017e9b793821007472666ce"
+    "approvalFingerprint": "2970bc367051cda1a4ef8d98fd314736e17499d1e017e9b793821007472666ce",
+    "sourceVariants": [
+      {
+        "key": "world/lff614VwbcqbXxtO",
+        "sourcePath": "items[32]",
+        "actorId": null,
+        "actorName": null,
+        "actorType": null,
+        "actorFolderId": null,
+        "actorSourceUuid": null,
+        "itemId": "lff614VwbcqbXxtO",
+        "itemName": "效果：头顶的天空（第9章） Effect: The Skies Above (Chapter 9)",
+        "itemType": "effect",
+        "itemFolderId": "n06cuNoUCKALKOw5",
+        "itemSourceUuid": null,
+        "itemSlug": null,
+        "itemRulesJSON": "[{\"key\":\"ItemAlteration\",\"mode\":\"override\",\"property\":\"name\",\"value\":\"BASTION.RULES.TheSkiesAbove.EffectLabel\",\"itemId\":\"{item|id}\"},{\"key\":\"FlatModifier\",\"selector\":[\"perception\"],\"value\":-4,\"type\":\"circumstance\",\"predicate\":[\"item:trait:visual\"],\"label\":\"BASTION.RULES.TheSkiesAbove.Label\"},{\"key\":\"FlatModifier\",\"selector\":[\"ranged-strike-attack-roll\"],\"value\":-4,\"type\":\"circumstance\",\"label\":\"BASTION.RULES.TheSkiesAbove.Label\"}]",
+        "itemBody": "<p>你基于视觉的察觉检定与远程打击承受–4环境减值。</p>",
+        "itemImage": "icons/magic/lightning/bolt-cloud-sky-green.webp",
+        "sourceFingerprint": "911562a5feb2d5ca9aa54a663c371b76dfcb70b947be4433ebe1fba4be8f4444",
+        "expectedSource": {
+          "folder": "n06cuNoUCKALKOw5",
+          "name": "效果：头顶的天空（第9章） Effect: The Skies Above (Chapter 9)",
+          "type": "effect",
+          "effects": [],
+          "system": {
+            "_migration": {
+              "version": 0.959,
+              "previous": null
+            },
+            "description": {
+              "value": "<p>你基于视觉的察觉检定与远程打击承受–4环境减值。</p>",
+              "gm": ""
+            },
+            "publication": {
+              "title": "Pathfinder冒险之路：亵渎堡垒",
+              "authors": "",
+              "license": "ORC",
+              "remaster": true
+            },
+            "rules": [
+              {
+                "key": "ItemAlteration",
+                "mode": "override",
+                "property": "name",
+                "value": "BASTION.RULES.TheSkiesAbove.EffectLabel",
+                "itemId": "{item|id}"
+              },
+              {
+                "key": "FlatModifier",
+                "selector": [
+                  "perception"
+                ],
+                "value": -4,
+                "type": "circumstance",
+                "predicate": [
+                  "item:trait:visual"
+                ],
+                "label": "BASTION.RULES.TheSkiesAbove.Label"
+              },
+              {
+                "key": "FlatModifier",
+                "selector": [
+                  "ranged-strike-attack-roll"
+                ],
+                "value": -4,
+                "type": "circumstance",
+                "label": "BASTION.RULES.TheSkiesAbove.Label"
+              }
+            ],
+            "slug": null,
+            "traits": {
+              "otherTags": [],
+              "value": []
+            },
+            "level": {
+              "value": 1
+            },
+            "duration": {
+              "value": -1,
+              "unit": "unlimited",
+              "expiry": null,
+              "sustained": false
+            },
+            "tokenIcon": {
+              "show": false
+            },
+            "unidentified": true,
+            "start": {
+              "value": 0,
+              "initiative": null
+            },
+            "badge": null,
+            "fromSpell": false,
+            "context": null
+          },
+          "img": "icons/magic/lightning/bolt-cloud-sky-green.webp",
+          "sort": 500000,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {},
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "pf2e",
+            "systemVersion": "8.6.1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_id": "lff614VwbcqbXxtO"
+        },
+        "rules": [
+          {
+            "index": 1,
+            "key": "FlatModifier",
+            "source": {
+              "key": "FlatModifier",
+              "selector": [
+                "perception"
+              ],
+              "value": -4,
+              "type": "circumstance",
+              "predicate": [
+                "item:trait:visual"
+              ],
+              "label": "BASTION.RULES.TheSkiesAbove.Label"
+            },
+            "sourceFingerprint": "1cfdd38b81da27e24fcd79f883cdbd6136183926ee930d5a61aa2264a5ba2584",
+            "fields": [
+              {
+                "path": "items[32].system.rules[1].label",
+                "before": "BASTION.RULES.TheSkiesAbove.Label",
+                "after": "头顶的天空",
+                "recordSha256": "861afa7556d097876dc696626b10818063389aa09345dfd7af4377537fdee0ee"
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "key": "FlatModifier",
+            "source": {
+              "key": "FlatModifier",
+              "selector": [
+                "ranged-strike-attack-roll"
+              ],
+              "value": -4,
+              "type": "circumstance",
+              "label": "BASTION.RULES.TheSkiesAbove.Label"
+            },
+            "sourceFingerprint": "4851e657c971caec04153cb2b930936bc24db91b4597a35a3e15d59c572727ff",
+            "fields": [
+              {
+                "path": "items[32].system.rules[2].label",
+                "before": "BASTION.RULES.TheSkiesAbove.Label",
+                "after": "头顶的天空",
+                "recordSha256": "bef943c1d240b33512f048487ee9821706382894d5e1f0f464548be30bc2762a"
+              }
+            ]
+          }
+        ],
+        "approvalFingerprint": "d531e88e4db8c941e642f587b8f89917e4d2d171413868d5779e3918516b57f8",
+        "legacySourceFingerprint": "68ae6fd1d304eaa5426d6307197176046e0a5c106b8911dc27ef86f2fd67c4f2"
+      }
+    ]
   }
 ];
 export const RULE_DISPLAY_SYNTHETIC_BINDINGS = [
@@ -3550,6 +4135,326 @@ export const RULE_DISPLAY_SYNTHETIC_BINDINGS = [
     },
     "boundItemIds": [
       "3Eksrmh390T4SrP7"
+    ],
+    "sourceVariants": [
+      {
+        "sceneId": "z8wkbcziQufR7jWG",
+        "tokenId": "lyC5GybvlSlmAUMM",
+        "actorId": "KgJq51AeYrENo3Db",
+        "sceneName": "阿鲁多拉岛 Arudora Isle",
+        "tokenName": "鬼火 Will-o'-Wisp",
+        "sceneProjection": {
+          "_id": "z8wkbcziQufR7jWG",
+          "folder": "zW1wwVPuezvJOakv",
+          "backgroundSrc": null,
+          "width": 36000,
+          "height": 48000
+        },
+        "tokenProjection": {
+          "_id": "lyC5GybvlSlmAUMM",
+          "actorId": "KgJq51AeYrENo3Db",
+          "actorLink": false,
+          "textureSrc": "modules/pf2e-bastion-of-blasphemies/assets/actors/tokens/WillOWisp.webp"
+        },
+        "deltaSource": {
+          "_id": "lyC5GybvlSlmAUMM",
+          "name": null,
+          "type": null,
+          "img": null,
+          "system": {},
+          "items": [
+            {
+              "_id": "USCoVo5LJNs12zB4",
+              "img": "systems/pf2e/icons/actions/OneAction.webp",
+              "name": "变暗 Go Dark",
+              "sort": 500000,
+              "system": {
+                "actionType": {
+                  "value": "action"
+                },
+                "actions": {
+                  "value": 1
+                },
+                "category": "offensive",
+                "description": {
+                  "value": "<p>鬼火熄灭自身的光芒，变得@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}。它可以再次使用此动作来结束效果。如果它在隐形时使用放电攻击，电弧会让任何观察者确定它的位置，使鬼火对所有观察者而言仅处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}状态，直到它移动。</p>",
+                  "gm": ""
+                },
+                "publication": {
+                  "license": "ORC",
+                  "remaster": true,
+                  "title": "Pathfinder怪物核心",
+                  "authors": ""
+                },
+                "rules": [
+                  {
+                    "key": "RollOption",
+                    "option": "go-dark",
+                    "suboptions": [
+                      {
+                        "label": "PF2E.ConditionTypeInvisible",
+                        "value": "Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML"
+                      },
+                      {
+                        "label": "PF2E.ConditionTypeHidden",
+                        "value": "Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC"
+                      }
+                    ],
+                    "toggleable": true,
+                    "value": true,
+                    "selection": "Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML"
+                  },
+                  {
+                    "inMemoryOnly": true,
+                    "key": "GrantItem",
+                    "predicate": [
+                      "go-dark"
+                    ],
+                    "uuid": "{item|flags.system.rulesSelections.goDark}"
+                  }
+                ],
+                "slug": null,
+                "traits": {
+                  "value": [
+                    "concentrate"
+                  ],
+                  "otherTags": []
+                },
+                "_migration": {
+                  "version": 0.959,
+                  "previous": null
+                }
+              },
+              "type": "action",
+              "_stats": {
+                "coreVersion": "14.369",
+                "systemId": "pf2e",
+                "systemVersion": "8.6.1",
+                "compendiumSource": null,
+                "createdTime": null,
+                "modifiedTime": null,
+                "lastModifiedBy": null,
+                "duplicateSource": null,
+                "exportSource": null
+              },
+              "effects": [],
+              "folder": null,
+              "flags": {},
+              "ownership": {
+                "default": 0
+              }
+            }
+          ],
+          "effects": [],
+          "ownership": null,
+          "flags": {}
+        },
+        "rawToken": {
+          "name": "Will-o'-Wisp",
+          "displayName": 20,
+          "actorLink": false,
+          "width": 1,
+          "height": 1,
+          "depth": 1,
+          "texture": {
+            "src": "modules/pf2e-bastion-of-blasphemies/assets/actors/tokens/WillOWisp.webp",
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "fit": "contain",
+            "scaleX": 0.8,
+            "scaleY": 0.8,
+            "tint": "#ffffff",
+            "alphaThreshold": 0.75
+          },
+          "lockRotation": false,
+          "rotation": 0,
+          "alpha": 1,
+          "disposition": -1,
+          "displayBars": 20,
+          "bar1": {
+            "attribute": "attributes.hp"
+          },
+          "bar2": {
+            "attribute": null
+          },
+          "light": {
+            "negative": false,
+            "priority": 0,
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 0,
+            "color": null,
+            "coloration": 1,
+            "dim": 0,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": null,
+              "speed": 5,
+              "intensity": 5,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            }
+          },
+          "sight": {
+            "enabled": false,
+            "range": 0,
+            "angle": 360,
+            "visionMode": "basic",
+            "color": null,
+            "attenuation": 0.1,
+            "brightness": 0,
+            "saturation": 0,
+            "contrast": 0
+          },
+          "detectionModes": {},
+          "occludable": {
+            "radius": 0
+          },
+          "ring": {
+            "enabled": true,
+            "colors": {
+              "ring": null,
+              "background": null
+            },
+            "effects": 1,
+            "subject": {
+              "scale": 1,
+              "texture": "modules/pf2e-bastion-of-blasphemies/assets/actors/subjects/WillOWisp.webp"
+            }
+          },
+          "turnMarker": {
+            "mode": 1,
+            "animation": null,
+            "src": null,
+            "disposition": false
+          },
+          "movementAction": null,
+          "flags": {
+            "pf2e": {
+              "linkToActorSize": true,
+              "autoscale": true
+            }
+          },
+          "actorId": "KgJq51AeYrENo3Db",
+          "hidden": true,
+          "sort": 422,
+          "shape": 4,
+          "level": "q8nusCYibR3bkwuq",
+          "_id": "lyC5GybvlSlmAUMM",
+          "delta": {
+            "_id": "lyC5GybvlSlmAUMM",
+            "name": null,
+            "type": null,
+            "img": null,
+            "system": {},
+            "items": [
+              {
+                "_id": "USCoVo5LJNs12zB4",
+                "img": "systems/pf2e/icons/actions/OneAction.webp",
+                "name": "Go Dark",
+                "sort": 500000,
+                "system": {
+                  "actionType": {
+                    "value": "action"
+                  },
+                  "actions": {
+                    "value": 1
+                  },
+                  "category": "offensive",
+                  "description": {
+                    "value": "<p>The will-o'-wisp extinguishes its glow, becoming @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. It can end this effect with another use of this action. If it uses its shock attack while invisible, the arc of electricity lets any observer determine its location, making the will-o'-wisp only @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to all observers until it moves.</p>",
+                    "gm": ""
+                  },
+                  "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Pathfinder Monster Core",
+                    "authors": ""
+                  },
+                  "rules": [
+                    {
+                      "key": "RollOption",
+                      "option": "go-dark",
+                      "suboptions": [
+                        {
+                          "label": "PF2E.ConditionTypeInvisible",
+                          "value": "Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML"
+                        },
+                        {
+                          "label": "PF2E.ConditionTypeHidden",
+                          "value": "Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC"
+                        }
+                      ],
+                      "toggleable": true,
+                      "value": true,
+                      "selection": "Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML"
+                    },
+                    {
+                      "inMemoryOnly": true,
+                      "key": "GrantItem",
+                      "predicate": [
+                        "go-dark"
+                      ],
+                      "uuid": "{item|flags.system.rulesSelections.goDark}"
+                    }
+                  ],
+                  "slug": null,
+                  "traits": {
+                    "value": [
+                      "concentrate"
+                    ],
+                    "otherTags": []
+                  },
+                  "_migration": {
+                    "version": 0.959,
+                    "previous": null
+                  }
+                },
+                "type": "action",
+                "_stats": {
+                  "coreVersion": "14.369",
+                  "systemId": "pf2e",
+                  "systemVersion": "8.6.1",
+                  "compendiumSource": null,
+                  "createdTime": null,
+                  "modifiedTime": null,
+                  "lastModifiedBy": null,
+                  "duplicateSource": null,
+                  "exportSource": null
+                },
+                "effects": [],
+                "folder": null,
+                "flags": {},
+                "ownership": {
+                  "default": 0
+                }
+              }
+            ],
+            "effects": [],
+            "ownership": null,
+            "flags": {}
+          },
+          "x": 21400,
+          "y": 22200,
+          "elevation": 150,
+          "locked": false,
+          "_movementHistory": [],
+          "_regions": [
+            "3yKrdXJNE2CxKs9E",
+            "gKXZUI0L67RfgWKV"
+          ]
+        },
+        "boundItemIds": [
+          "3Eksrmh390T4SrP7"
+        ]
+      }
     ]
   },
   {

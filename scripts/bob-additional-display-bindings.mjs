@@ -3592,7 +3592,51 @@ export const ADDITIONAL_DISPLAY_BINDINGS = [
     "approvalSha256": "1ba38a73afcc3c3bc77d18c5eeeda89a947c2cee84c19642308d3bd1661af0e4",
     "bodyApprovalSha256": "2e42a029176610e572a8703c4cc4242e928109e3719aae8bbfb647a0104bda61",
     "actorNameApprovalSha256": "394a88965eee136a432fdadf34d0db00ef18919f80dbc467722494eb499f6c61",
-    "itemNameApprovalSha256": "44559f9e36593a635ab6f5fd58ea2bcab7453e614713a55692a4b2cdbf7a89b9"
+    "itemNameApprovalSha256": "44559f9e36593a635ab6f5fd58ea2bcab7453e614713a55692a4b2cdbf7a89b9",
+    "sourceVariants": [
+      {
+        "path": "actors[83].items[2].system.description.value",
+        "ledger": "glossary",
+        "key": "PF2E.NPC.Abilities.Glossary.Stench",
+        "approved": true,
+        "actorId": "6dBcCjhYDsxvP8Lj",
+        "actorType": "npc",
+        "actorName": "食尸猩 Ghoulrilla",
+        "actorFolderId": "ZZgtHCUkCZvhw1kt",
+        "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.6dBcCjhYDsxvP8Lj",
+        "itemId": "ynf3C6xHUuqrxfPO",
+        "itemType": "action",
+        "itemName": "恶臭 Stench",
+        "itemFolderId": null,
+        "itemSourceUuid": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.PqGX4Dgy9siZJitH",
+        "itemSlug": "stench",
+        "itemRulesJSON": "[{\"key\":\"Aura\",\"radius\":10,\"slug\":\"stench\",\"traits\":[\"olfactory\"]}]",
+        "itemGM": "",
+        "forms": [
+          {
+            "kind": "source",
+            "source": "<p>10 feet. @Check[fortitude|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>",
+            "display": "<p>10 feet. @Check[fortitude|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr><p>进入灵光或在其区域内开始回合的生物必须成功通过一次强韧豁免，否则便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（若大失败，还会在恶心状态持续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}）。豁免成功或从恶心状态中恢复的生物，会临时免疫所有恶臭灵光，持续1分钟。</p>"
+          },
+          {
+            "kind": "approved-canonical",
+            "source": "<p>10尺。@Check[fortitude|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>",
+            "display": "<p>10尺。@Check[fortitude|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr><p>进入灵光或在其区域内开始回合的生物必须成功通过一次强韧豁免，否则便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（若大失败，还会在恶心状态持续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}）。豁免成功或从恶心状态中恢复的生物，会临时免疫所有恶臭灵光，持续1分钟。</p>"
+          },
+          {
+            "source": "<p>10尺，@Check[fortitude|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>",
+            "display": "<p>10尺，@Check[fortitude|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr><p>进入灵光或在其区域内开始回合的生物必须成功通过一次强韧豁免，否则便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（若大失败，还会在恶心状态持续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}）。豁免成功或从恶心状态中恢复的生物，会临时免疫所有恶臭灵光，持续1分钟。</p>"
+          }
+        ],
+        "normalizedBody": null,
+        "displayFragment": "<p>进入灵光或在其区域内开始回合的生物必须成功通过一次强韧豁免，否则便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（若大失败，还会在恶心状态持续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}）。豁免成功或从恶心状态中恢复的生物，会临时免疫所有恶臭灵光，持续1分钟。</p>",
+        "sourceSha256": "5fc4fd5a57aa72f00385d2c25c95d8217f992c42f619cd7fa16674fb98dd1363",
+        "approvalSha256": "b5aae7af486ccfe49193d9c37574a6aa76d4c01d2082a50437ea4fe7d8d313c9",
+        "bodyApprovalSha256": "2e42a029176610e572a8703c4cc4242e928109e3719aae8bbfb647a0104bda61",
+        "actorNameApprovalSha256": "394a88965eee136a432fdadf34d0db00ef18919f80dbc467722494eb499f6c61",
+        "itemNameApprovalSha256": "44559f9e36593a635ab6f5fd58ea2bcab7453e614713a55692a4b2cdbf7a89b9"
+      }
+    ]
   },
   {
     "path": "actors[88].items[9].system.description.value",
@@ -3630,7 +3674,51 @@ export const ADDITIONAL_DISPLAY_BINDINGS = [
     "approvalSha256": "1ba38a73afcc3c3bc77d18c5eeeda89a947c2cee84c19642308d3bd1661af0e4",
     "bodyApprovalSha256": "bd3bd30137ae912595ccefcaf546488b0ba038fbb675cab9ad5527f30a26535d",
     "actorNameApprovalSha256": "61cd81dabcdd6b7598d7ffdafc67c7f6ebbeaf974e605f1c3dc83181fa82b08b",
-    "itemNameApprovalSha256": "4ede25104e9900c1d9c9b9bce50d5705217040e317ddf1c2f3999db338ad8ffc"
+    "itemNameApprovalSha256": "4ede25104e9900c1d9c9b9bce50d5705217040e317ddf1c2f3999db338ad8ffc",
+    "sourceVariants": [
+      {
+        "path": "actors[88].items[9].system.description.value",
+        "ledger": "glossary",
+        "key": "PF2E.NPC.Abilities.Glossary.Stench",
+        "approved": true,
+        "actorId": "2Vy5g8i9t6hyudO8",
+        "actorType": "npc",
+        "actorName": "米尔辛迪·莫普辛杜尔 Milsindi Mopsindur",
+        "actorFolderId": "ZZgtHCUkCZvhw1kt",
+        "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.2Vy5g8i9t6hyudO8",
+        "itemId": "7WUAHvg7h49IGJSA",
+        "itemType": "action",
+        "itemName": "恶臭 Stench",
+        "itemFolderId": null,
+        "itemSourceUuid": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.PqGX4Dgy9siZJitH",
+        "itemSlug": "stench",
+        "itemRulesJSON": "[{\"key\":\"Aura\",\"radius\":10,\"slug\":\"stench\",\"traits\":[\"olfactory\"]}]",
+        "itemGM": "",
+        "forms": [
+          {
+            "kind": "source",
+            "source": "<p>10 feet. @Check[fortitude|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>",
+            "display": "<p>10 feet. @Check[fortitude|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr><p>进入灵光或在其区域内开始回合的生物必须成功通过一次强韧豁免，否则便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（若大失败，还会在恶心状态持续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}）。豁免成功或从恶心状态中恢复的生物，会临时免疫所有恶臭灵光，持续1分钟。</p>"
+          },
+          {
+            "kind": "approved-canonical",
+            "source": "<p>10尺。@Check[fortitude|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>",
+            "display": "<p>10尺。@Check[fortitude|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr><p>进入灵光或在其区域内开始回合的生物必须成功通过一次强韧豁免，否则便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（若大失败，还会在恶心状态持续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}）。豁免成功或从恶心状态中恢复的生物，会临时免疫所有恶臭灵光，持续1分钟。</p>"
+          },
+          {
+            "source": "<p>10尺，@Check[fortitude|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>",
+            "display": "<p>10尺，@Check[fortitude|dc:23|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr><p>进入灵光或在其区域内开始回合的生物必须成功通过一次强韧豁免，否则便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（若大失败，还会在恶心状态持续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}）。豁免成功或从恶心状态中恢复的生物，会临时免疫所有恶臭灵光，持续1分钟。</p>"
+          }
+        ],
+        "normalizedBody": null,
+        "displayFragment": "<p>进入灵光或在其区域内开始回合的生物必须成功通过一次强韧豁免，否则便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（若大失败，还会在恶心状态持续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}）。豁免成功或从恶心状态中恢复的生物，会临时免疫所有恶臭灵光，持续1分钟。</p>",
+        "sourceSha256": "cc6946305a831c2863bf7fe320386dd10c493d0a3169f386acea05b8ae702fbc",
+        "approvalSha256": "c8690de7267c638f59a2c37df9eb7c1962872dceacaa73d9b33fc7b4506bac11",
+        "bodyApprovalSha256": "bd3bd30137ae912595ccefcaf546488b0ba038fbb675cab9ad5527f30a26535d",
+        "actorNameApprovalSha256": "61cd81dabcdd6b7598d7ffdafc67c7f6ebbeaf974e605f1c3dc83181fa82b08b",
+        "itemNameApprovalSha256": "4ede25104e9900c1d9c9b9bce50d5705217040e317ddf1c2f3999db338ad8ffc"
+      }
+    ]
   },
   {
     "path": "actors[137].items[3].system.description.value",
@@ -3744,6 +3832,50 @@ export const ADDITIONAL_DISPLAY_BINDINGS = [
     "approvalSha256": "1ba38a73afcc3c3bc77d18c5eeeda89a947c2cee84c19642308d3bd1661af0e4",
     "bodyApprovalSha256": "ae1fff5d628681bc7a4da5646dc6121d3bded17a539e1ff28128779b63afb5cf",
     "actorNameApprovalSha256": "6746c5cffe708841259eefd1bd7627350db3290dbf1ed53067a338de05186c9b",
-    "itemNameApprovalSha256": "648ab386be1198b0ad7eaed6e610068a7957a4e40b3504cd61841fe064154128"
+    "itemNameApprovalSha256": "648ab386be1198b0ad7eaed6e610068a7957a4e40b3504cd61841fe064154128",
+    "sourceVariants": [
+      {
+        "path": "actors[197].items[2].system.description.value",
+        "ledger": "glossary",
+        "key": "PF2E.NPC.Abilities.Glossary.Stench",
+        "approved": true,
+        "actorId": "8esAIVj311p8wg7K",
+        "actorType": "npc",
+        "actorName": "秽物蠕虫 Middenworm",
+        "actorFolderId": "tezrGjxcRUaE09P0",
+        "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.8esAIVj311p8wg7K",
+        "itemId": "hdMjrkTnu52467Lp",
+        "itemType": "action",
+        "itemName": "反胃气场 Nauseating Presence",
+        "itemFolderId": null,
+        "itemSourceUuid": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.PqGX4Dgy9siZJitH",
+        "itemSlug": "stench",
+        "itemRulesJSON": "[{\"key\":\"Aura\",\"radius\":30,\"slug\":\"stench\",\"traits\":[]}]",
+        "itemGM": "",
+        "forms": [
+          {
+            "kind": "source",
+            "source": "<p>30 feet. @Check[fortitude|dc:19|options:area-effect,inflicts:sickened,inflicts:slowed]</p>\n<p>As stench, but the aura affects a creature that sees, hears, or smells the middenworm.</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>",
+            "display": "<p>30 feet. @Check[fortitude|dc:19|options:area-effect,inflicts:sickened,inflicts:slowed]</p>\n<p>As stench, but the aura affects a creature that sees, hears, or smells the middenworm.</p><hr><p>进入灵光或在其区域内开始回合的生物必须成功通过一次强韧豁免，否则便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（若大失败，还会在恶心状态持续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}）。豁免成功或从恶心状态中恢复的生物，会临时免疫所有恶臭灵光，持续1分钟。</p>"
+          },
+          {
+            "kind": "approved-canonical",
+            "source": "<p>30尺。@Check[fortitude|dc:19|options:area-effect,inflicts:sickened,inflicts:slowed]</p>\n<p>同恶臭，但此灵光影响看见、听见或闻到秽物蠕虫的生物。</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>",
+            "display": "<p>30尺。@Check[fortitude|dc:19|options:area-effect,inflicts:sickened,inflicts:slowed]</p>\n<p>同恶臭，但此灵光影响看见、听见或闻到秽物蠕虫的生物。</p><hr><p>进入灵光或在其区域内开始回合的生物必须成功通过一次强韧豁免，否则便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（若大失败，还会在恶心状态持续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}）。豁免成功或从恶心状态中恢复的生物，会临时免疫所有恶臭灵光，持续1分钟。</p>"
+          },
+          {
+            "source": "<p>30尺。@Check[fortitude|dc:19|options:area-effect,inflicts:sickened,inflicts:slowed]</p>\n<p>同恶臭，但此灵光会影响看见、听见或闻到秽物蠕虫的生物。</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>",
+            "display": "<p>30尺。@Check[fortitude|dc:19|options:area-effect,inflicts:sickened,inflicts:slowed]</p>\n<p>同恶臭，但此灵光会影响看见、听见或闻到秽物蠕虫的生物。</p><hr><p>进入灵光或在其区域内开始回合的生物必须成功通过一次强韧豁免，否则便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（若大失败，还会在恶心状态持续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}）。豁免成功或从恶心状态中恢复的生物，会临时免疫所有恶臭灵光，持续1分钟。</p>"
+          }
+        ],
+        "normalizedBody": null,
+        "displayFragment": "<p>进入灵光或在其区域内开始回合的生物必须成功通过一次强韧豁免，否则便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（若大失败，还会在恶心状态持续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}）。豁免成功或从恶心状态中恢复的生物，会临时免疫所有恶臭灵光，持续1分钟。</p>",
+        "sourceSha256": "fa14a5b343e27aa56728dc54a03ea476eda947df09cd7509b4a37f7f658b1d88",
+        "approvalSha256": "f05774c4524ed735aaf786322c1d95fe4c516196bc08fef1854782d3ddb89b7a",
+        "bodyApprovalSha256": "ae1fff5d628681bc7a4da5646dc6121d3bded17a539e1ff28128779b63afb5cf",
+        "actorNameApprovalSha256": "6746c5cffe708841259eefd1bd7627350db3290dbf1ed53067a338de05186c9b",
+        "itemNameApprovalSha256": "648ab386be1198b0ad7eaed6e610068a7957a4e40b3504cd61841fe064154128"
+      }
+    ]
   }
 ];

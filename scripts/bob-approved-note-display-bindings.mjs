@@ -624,7 +624,67 @@ export const BOB_APPROVED_NOTE_DISPLAYS = [
     "carrierApprovalHashes": {
       "itemName": "cb2a7b34df84da3a9f22a3d98cc914dc62794ce519ac63c9cdc07794002f163a",
       "description": "dd31f7d282a1241e6530cee928efbf1f1d4288050b854e317dbb13869391b1d7"
-    }
+    },
+    "sourceVariants": [
+      {
+        "path": "items[20].system.rules[1]",
+        "scope": "worldItem",
+        "actorId": null,
+        "actorType": null,
+        "actorName": null,
+        "actorFolderId": null,
+        "actorSourceUuid": null,
+        "itemId": "sYZI41JKGiMH8aO0",
+        "itemType": "effect",
+        "itemName": "效果：恐血症 Effect: Hemophobia",
+        "itemFolderId": "gCERAoR8oZdD9SUP",
+        "itemSourceUuid": null,
+        "itemSlug": null,
+        "description": "<p>每当你目睹30尺内的生物受到持续流血伤害或武器打击造成的重击时，你便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}。如果你自己是该流血伤害或重击的目标，则变为@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}。</p>",
+        "descriptionGM": "",
+        "ruleIndex": 1,
+        "sourceRule": {
+          "key": "Note",
+          "predicate": [
+            "item:origin:condition:persistent-damage:bleed"
+          ],
+          "selector": [
+            "damage-received"
+          ],
+          "text": "BASTION.RULES.LucidNightmares.Hemophobia.Note",
+          "title": "{item|name}"
+        },
+        "sourceRuleSha256": "eaa7c10aa615d8e0e550ab06f1ebe04b38b44c1e54fe4d9f2d3269d0fdab7fc2",
+        "approved": true,
+        "display": {
+          "title": "效果：恐血症",
+          "text": "每当你受到持续流血伤害时，你便陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}。"
+        },
+        "approvalHashes": {
+          "title": "f9da9e3aca37cc1d61096a175746b079c8358444dc39d29e7e525e5625e9d496",
+          "text": "4ffe9be490cbf12328ac6c23f1c37249065d17d1ecc4d50f98f82bb3866712ca"
+        },
+        "markerIdentity": {
+          "scope": "worldItem",
+          "itemId": "sYZI41JKGiMH8aO0",
+          "itemType": "effect",
+          "itemFolderId": "gCERAoR8oZdD9SUP",
+          "itemSourceUuid": null,
+          "originalName": "Effect: Hemophobia",
+          "approvedName": "效果：恐血症 Effect: Hemophobia",
+          "itemSlug": null,
+          "sourceFingerprint": "d4b4f328d90f275835302393f042053891b1b928c03bd10a79253ed348481d77",
+          "approvalFingerprint": "80925c0fc6a358d19fefced5a4c4853da5d1a1778c4b15ea6b1cf81dd238a28e"
+        },
+        "nativeEnglish": {
+          "BASTION.RULES.LucidNightmares.Hemophobia.Note": "Whenever you take persistent bleed damage you become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}"
+        },
+        "carrierApprovalHashes": {
+          "itemName": "cb2a7b34df84da3a9f22a3d98cc914dc62794ce519ac63c9cdc07794002f163a",
+          "description": "dd31f7d282a1241e6530cee928efbf1f1d4288050b854e317dbb13869391b1d7"
+        }
+      }
+    ]
   },
   {
     "path": "items[21].system.rules[0]",

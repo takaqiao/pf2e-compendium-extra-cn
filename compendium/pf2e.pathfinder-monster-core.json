@@ -1,0 +1,204 @@
+{
+  "mapping": {
+    "_variants": [
+      {
+        "_when": {
+          "path": "_id",
+          "equals": "A4VgQIHsqJKssQOM"
+        },
+        "items": {
+          "path": "items",
+          "converter": "npc-item-translation",
+          "documentType": "Item",
+          "cardinality": "many",
+          "mapping": {
+            "_variants": [
+              {
+                "_when": {
+                  "path": "_id",
+                  "equals": "egV0y60X9Okkmuoc"
+                },
+                "bobReviewedDescription": {
+                  "path": "system.description.value",
+                  "converter": "sog-source-text"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "_when": {
+          "path": "_id",
+          "equals": "MrzlaE7k1PEsd3iQ"
+        },
+        "items": {
+          "path": "items",
+          "converter": "npc-item-translation",
+          "documentType": "Item",
+          "cardinality": "many",
+          "mapping": {
+            "_variants": [
+              {
+                "_when": {
+                  "path": "_id",
+                  "equals": "JChdzk7WZ7KUXqF7"
+                },
+                "bobReviewedDescription": {
+                  "path": "system.description.value",
+                  "converter": "sog-source-text"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "_when": {
+          "path": "_id",
+          "equals": "zpd6b6UPP72ZELCj"
+        },
+        "items": {
+          "path": "items",
+          "converter": "npc-item-translation",
+          "documentType": "Item",
+          "cardinality": "many",
+          "mapping": {
+            "_variants": [
+              {
+                "_when": {
+                  "path": "_id",
+                  "equals": "cEtedKLuFRVTGjvK"
+                },
+                "bobReviewedDescription": {
+                  "path": "system.description.value",
+                  "converter": "sog-source-text"
+                },
+                "bobReviewedPublication": {
+                  "path": "system.publication.title",
+                  "converter": "sog-source-text"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "entries": {
+    "A4VgQIHsqJKssQOM": {
+      "items": {
+        "Web Sense": {
+          "description": "<p>猎蛛可以通过震颤感知（模糊）来感知到生物触碰它们蛛网时产生的振动。</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>",
+          "name": "蛛网感知 Web Sense"
+        },
+        "Web Trap": {
+          "name": "网捕 Web Trap",
+          "description": "<p>被猎蛛蛛网打击命中的生物被@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]，并且被困在距离最近的表面上，直到[[/act escape dc=17]]。</p>"
+        },
+        "Spring Upon Prey": {
+          "name": "饿蛛扑食 Spring Upon Prey",
+          "description": "<p><strong>需求</strong> 尚未投掷先攻</p>\n<p><strong>触发</strong> 当猎蛛位于它的蛛网上时，一个生物触碰到蛛网。</p>\n<hr />\n<p><strong>效果</strong> 猎蛛自动注意到该生物，并在投掷先攻前，可以在蛛网上进行行走、攀爬或蛛网垂降（Descend on a Web）动作。</p>"
+        },
+        "Descend on a Web": {
+          "name": "蛛网垂降 Descend on a Web",
+          "description": "<p>猎蛛用网绳把自己吊在空中，可以垂直下降最多40尺。它可以挂在蛛网上，也可以从蛛网上坠落。它从蛛网上下降的距离不计入坠落伤害。</p>\n<p>如果一个生物成功击中蛛网（AC20，硬度3，5HP）时，可以砍断蜘蛛网，导致蜘蛛坠落。</p>"
+        },
+        "Hunting Spider Venom": {
+          "name": "猎蛛毒 Hunting Spider Venom",
+          "description": "<p><strong>豁免骰</strong> @Check[fortitude|dc:16]</p><hr /><p><strong>最大持续时间</strong> 6轮</p>\n<p><strong>阶段1</strong> @Damage[1d4[poison]]伤害且@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]（1轮）</p>\n<p><strong>阶段2</strong> @Damage[1d6[poison]]伤害，@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}且措手不及（1轮）</p>\n<p><strong>阶段3</strong> 1d6点毒素伤害，@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}且措手不及（1轮）</p>",
+          "bobReviewedDescription": {
+            "sources": [
+              [
+                "<p><strong>Saving Throw</strong> @Check[fortitude|dc:16]</p><hr /><p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d4[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[1d6[poison]] damage, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}, and off-guard (1 round)</p>\n<p><strong>Stage 3</strong> 1d6 poison damage, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}, and off-guard (1 round)</p>",
+                "<p><strong>豁免</strong> @Check[fortitude|dc:16]</p><hr /><p><strong>最大持续时间</strong> 6轮</p>\n<p><strong>阶段1</strong> @Damage[1d4[poison]]伤害和@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}（1轮）</p>\n<p><strong>阶段2</strong> @Damage[1d6[poison]]伤害、@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}和措手不及（1轮）</p>\n<p><strong>阶段3</strong> 1d6毒素伤害、@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}和措手不及（1轮）</p>"
+              ]
+            ]
+          }
+        }
+      },
+      "prototypeToken": {
+        "name": "猎蛛"
+      },
+      "name": "猎蛛 Hunting Spider",
+      "publicNotes": "<p>猎蛛不是巨蜘蛛中最大的，但确是最常见的种类。</p>\n<hr />\n<p>很少有害虫能像声名狼藉的蜘蛛那样让人如此恐惧。</p>"
+    },
+    "MrzlaE7k1PEsd3iQ": {
+      "publicNotes": "<p>可怕的鸡蛇兽丑陋而好斗，它们盘踞在垃圾场和山丘上的垃圾坑里寻找猎物，用他们能石化的喙把目标变成石头，然后一块块地吞食。鸡蛇兽像长着蝙蝠翅膀、蛇形尾巴的病态公鸡，它们很少能长到比2尺高、4尺长更大的体型。它们平时心不在焉的咯咯声能给予聪明的猎物足够的警告，但当它们愤怒时，会发出像公鸡一样的打鸣声。它们的喙含有一种魔法唾液，能让肉质迅速钙质化。被暴躁的鸡蛇兽反复啄过的生物最终都会变成石像。</p>\n<p>据说第一只鸡蛇兽是一只蛤蟆在粪堆上孵公鸡蛋而变出来的。不管传说是否属实，鸡蛇兽畸形的外观倒是和它光怪陆离的起源传说相当吻合。鸡蛇兽繁殖能力非常强，一窝可能有一打数量。一群鸡蛇兽一般只有少数是雌性。雄性鸡蛇兽的外表与雌性很不相同，雄性有长满疣的垂肉和粗大的鸡冠。雄性鸡蛇兽常常互相争斗，落败的一方会被赶走，寻找自己的巢穴，或和其他族群竞争。大多数会和独居鸡蛇兽发生冲突的生物遭遇的都是些乖戾的弃儿中的一只。</p>\n<p>鸡蛇兽的窝里通常散落着受害者的石雕碎片——尽管这可能是青蛙、蜥蜴和昆虫的残骸，也可能是人类的。奇怪的是，黄鼠狼和雪貂常常会潜入鸡蛇兽的巢穴偷他们的蛋，但它们却对这种可怕的啄伤免疫。出于未知的原因，鸡蛇兽对普通的公鸡既害怕又愤怒。当遇到公鸡时，它可能逃走也可能发起攻击。</p>\n<p>特别勇敢（或者说有勇无谋）的人会把鸡蛇兽当做宠物或守卫。鸡蛇兽在平原、森林或人形生物殖民地的下水道中，以害虫和垃圾维生，但它们最喜欢的还是新鲜的肉食，例如刚被石化的生物的温暖肉体。</p>",
+      "items": {
+        "Calcification": {
+          "name": "钙化 Calcification",
+          "description": "<p>鸡蛇兽的喙能把血肉变成石头。目标必须成功通过@Check[fortitude|dc:20|options:inflicts:slowed,inflicts:petrified]检定否则@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}（大失败@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 2}）。目标更多次对此能力豁免失败会累加缓慢状态的状态值。一旦目标生物的可用动作减少为0，则目标被@UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]。如果生物未被石化，那么在生物针对钙化豁免失败的1分钟之后，缓慢状态结束。</p>\n<p>被石化之后每过24小时，受害者可以尝试通过@Check[fortitude|dc:20]检定来恢复。一旦成功，解除石化状态，但是在接下来的24小时内获得缓慢1。如果大成功，则解除石化且不受缓慢。如果失败，则继续被石化，24小时之后再次进行尝试。如果大失败，则永久石化，被害者无法再尝试任何豁免。</p>",
+          "bobReviewedDescription": {
+            "sources": [
+              [
+                "<p>A peck from a cockatrice hardens the flesh of the creature struck. The target must succeed at a @Check[fortitude|dc:20|options:inflicts:slowed,inflicts:petrified] save or become @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} (or @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} on a critical failure). Further failed saves against calcification increase the slowed condition. Once a creature's actions are reduced to 0 by calcification, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Petrified}. If the creature isn't petrified, the slowed conditions end once 1 minute passes without the creature failing a save against calcification.</p>\n<p>Every 24 hours after it was petrified, the victim can attempt a @Check[fortitude|dc:20] save to recover. On a success, it becomes flesh again, but is slowed 1 for the next 24 hours. On a critical success, the creature recovers and isn't slowed. On a failure, the creature remains petrified but can try again in 24 hours. On a critical failure, the petrification is permanent, and the creature can't attempt any more saves.</p>",
+                "<p>鸡蛇兽的啄击会使被击中生物的血肉硬化。目标必须成功通过@Check[fortitude|dc:20|options:inflicts:slowed,inflicts:petrified]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}（大失败时为@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 2}）。此后对钙化豁免失败，会进一步提高缓慢值。一旦钙化将生物的动作数降至0，该生物便会@UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{石化}。若生物尚未石化，只要连续1分钟未再对钙化豁免失败，缓慢状态便会结束。</p>\n<p>石化之后，每过24小时，受害者可以尝试一次@Check[fortitude|dc:20]豁免来恢复。成功时，它恢复血肉之躯，但在接下来24小时内缓慢1。大成功时，生物恢复且不会缓慢。失败时，生物仍处于石化，但可以在24小时后重试。大失败时，石化变为永久，生物无法再尝试豁免。</p>"
+              ]
+            ]
+          }
+        }
+      },
+      "prototypeToken": {
+        "name": "鸡蛇兽"
+      },
+      "name": "鸡蛇兽 Cockatrice"
+    },
+    "zpd6b6UPP72ZELCj": {
+      "name": "骚灵 Poltergeist",
+      "publicNotes": "<p>当一个生物死亡时，并且因为某种原因，他的魂魄不能或不愿意离开他死亡的地点时，该魂魄可能会呈现为骚灵的形态：焦躁不安且隐形的魂魄，但仍旧能够操控实体的物质。许多骚灵都是由于极端情感创伤引起或导致的结果而死亡的。</p>",
+      "hp": "虚能治疗，复生",
+      "items": {
+        "Site Bound": {
+          "name": "束缚之地 Site Bound",
+          "description": "<p>骚灵与某个地点具有联系，他至多移动至与创造或形成骚灵的地点相距120尺的位置。部分骚灵被束缚至某个特定的房间、建筑或类似的区域内。</p>"
+        },
+        "Natural Invisibility": {
+          "name": "天生隐形 Natural Invisibility",
+          "description": "<p>骚灵是天生@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形 Invisible}的。只有当他使用惊骇现身时才会变得可见。</p>"
+        },
+        "Rejuvenation": {
+          "name": "复生 Rejuvenation",
+          "description": "<p>当骚灵被摧毁时，他会在[[/br 2d4 #Rejuvenation]]{2d4天}后在被摧毁的地点重新生成，生命值全满。只有在有人确定了骚灵存在的成因并纠正任何阻止骚灵安息的因素时，骚灵才能被永久摧毁。</p>"
+        },
+        "Telekinetic Defense": {
+          "description": "<p><strong>触发</strong> 有生物进入到距离骚灵10尺范围内</p>\n<hr />\n<p><strong>效果</strong> 骚灵对触发生物进行一次念动物体打击。</p>",
+          "name": "念动防御 Telekinetic Defense"
+        },
+        "Void Healing": {
+          "name": "虚能治疗 Void Healing",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "Frighten": {
+          "name": "惊骇现身 Frighten",
+          "description": "<p><strong>需求</strong> 骚灵必须处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形 Invisible}</p>\n<hr />\n<p><strong>效果</strong> 骚灵变得可见，以类人生物的骸骨面容和幽灵姿态显现。每个30尺范围内的生物必须尝试一次@Check[will|dc:21]豁免，失败则会陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}。若为大失败的话，它只要处于惊惧状态就会陷入@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑 Fleeing}状态。成功时，生物会临时免疫该能力，持续1分钟。</p>\n<p>在骚灵的下个回合开始时，他会重新变得隐身。</p>"
+        },
+        "Telekinetic Storm": {
+          "name": "念动风暴 Telekinetic Storm",
+          "description": "<p>骚灵用念力投掷复数个小物体，比如几十件银器或书本，他可以选择用这些物体分散攻击多个敌人或集中攻击一个目标。</p>\n<ul>\n<li>当该效果用于分散攻击多个敌人时，骚灵对@Template[emanation|distance:30]{30尺}内的每个生物作出一次受到-2减值的念动物体打击。在计算骚灵的多重攻击减值时，这些攻击被视为一次攻击，而且直至上述所有攻击结束之前，多重攻击减值都不会增加。</li>\n<li>当该效果只有一个目标时，骚灵对该目标进行一次念动物体打击，伤害增加至3d12点。失败时造成@Damage[1d12[untyped]]伤害，大失败时不造成伤害。</li>\n</ul>"
+        },
+        "Invisible": {
+          "bobReviewedDescription": {
+            "sources": [
+              [
+                "<p>You can't be seen. You're @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} to everyone. Creatures can @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} to detect you; if a creature succeeds at its Perception check against your Stealth DC, you become @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to that creature until you @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} to become undetected again. If you become invisible while someone can already see you, you start out hidden to them (instead of undetected) until you successfully Sneak. You can't become @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{Observed} while invisible except via special abilities or magic.</p>",
+                "<p>你无法被看见。你对所有生物都处于@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{无踪}状态。生物可以通过@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}发现你；若某生物的察觉检定对抗你的隐秘DC成功，你对该生物便处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}状态，直到你通过@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}再次变为无踪。若你在有人已经看见你的情况下变成隐形，你起初对其处于藏匿状态（而非无踪），直到你成功潜行。处于隐形状态时，除非通过特殊能力或魔法，否则你无法变为@UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{可见}状态。</p>"
+              ]
+            ]
+          },
+          "bobReviewedPublication": {
+            "sources": [
+              [
+                "Pathfinder Player Core",
+                "Pathfinder玩家核心"
+              ]
+            ]
+          }
+        }
+      },
+      "prototypeToken": {
+        "name": "骚灵"
+      }
+    }
+  }
+}

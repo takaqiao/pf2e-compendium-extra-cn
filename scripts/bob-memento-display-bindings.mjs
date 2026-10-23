@@ -1,13 +1,14 @@
-/** Exact seven memento display sources, QA candidate. */
+/** Exact original and updated sources for the seven mementos. */
 export const MEMENTO_BINDINGS = {
   "schemaVersion": 2,
   "priorInputSha256": "061a00905f7f4d37ca3c834959345294961015174e7c7dccce83776611e88e77",
-  "scope": "7 original sources; 5 native triggers; new-copy provenance persists; exact Fountain final display",
+  "scope": "12 frozen sources for 7 mementos; source-specific native triggers; exact Fountain display",
   "markerFlag": "bobMementoDisplay",
   "displayRule": {
     "prefix": "已毁的",
     "template": "已毁的{Chinese} Destroyed {completeOriginalEnglish}",
-    "approval": "root accepted exact source-name composition; manager prefix remains native"
+    "approval": "root accepted exact source-name composition; manager prefix remains native",
+    "returnedTemplate": "已归还的{Chinese} Returned {completeOriginalEnglish}"
   },
   "rows": [
     {
@@ -1922,6 +1923,1761 @@ export const MEMENTO_BINDINGS = {
         "sourceFingerprint": "588a3fbc9bfa626401c3278ec954688677ee58b656eb9979e600298572fccea1",
         "approvalFingerprint": "ee78433d6bda90f2b14adea2a119ced3bf9e216a923b9019f9161bf06b65aa5e"
       }
+    },
+    {
+      "path": "actors[45].items[2]",
+      "area": "grounds",
+      "slug": "jinniveres-riding-crop",
+      "moduleDeclaredSourceUuid": "Compendium.pf2e.equipment-srd.Item.fZDL0jQQy1jQTg4c",
+      "statueId": "uCFaXT1ApQhVAJcr",
+      "actorId": "xDNjxFXDFtl9thUa",
+      "actorType": "npc",
+      "actorNames": [
+        "Jinnivere Arudora",
+        "金妮薇尔·阿鲁多拉 Jinnivere Arudora"
+      ],
+      "actorFolder": "iLgWS8UttuvCFKJ4",
+      "actorImg": "modules/pf2e-bastion-of-blasphemies/assets/actors/portraits/DullahanJinnivereArudora.webp",
+      "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.xDNjxFXDFtl9thUa",
+      "itemId": "01OxcCAtANEzeH85",
+      "itemType": "equipment",
+      "rawItem": {
+        "_id": "01OxcCAtANEzeH85",
+        "_stats": {
+          "coreVersion": "14.369",
+          "systemId": "pf2e",
+          "systemVersion": "8.6.1",
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.fZDL0jQQy1jQTg4c",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "duplicateSource": null,
+          "exportSource": null
+        },
+        "img": "icons/weapons/staves/staff-ornate.webp",
+        "name": "Jinnivere's Riding Crop",
+        "sort": 300000,
+        "system": {
+          "description": {
+            "gm": "<p>Each Arudora memento is unique in appearance, but all seven are approximately the same size. Carried by each of the cursed family members, these mementos have within them the power to unlock entire portions of Bastardhall from the ghostly cursed state the castle traditionally exists in.</p><hr><p><strong>Activate—Return Memento</strong> <span class=\"action-glyph\">3</span> (manipulate) You place the memento into the appropriate statue's clutches in the fountain located in area <strong>B3</strong> of Bastardhall. The statue briefly animates to claim the memento, which turns to stone and becomes thereafter a permanent part of the statue, effectively destroying the memento while granting a boon to the party that persists for the remainder of this Adventure Path. When this leather riding crop is Returned, the cellars (detailed in Chapter 3) are unlocked. Companions are now more hearty and full of life—PC companions (such as familiars, eidolons, and animal companions) gain a +1 status bonus to all saving throws for the remainder of this Adventure Path.</p><hr><p><strong>Destruction</strong> An Arudora memento is destroyed when it's activated with Return Memento, and the boon it grants upon this returning lasts until the very end of the Adventure Path.</p>",
+            "value": ""
+          },
+          "rules": [],
+          "slug": "jinniveres-riding-crop",
+          "_migration": {
+            "version": 0.959,
+            "lastMigration": null,
+            "previous": null
+          },
+          "traits": {
+            "otherTags": [],
+            "value": [
+              "artifact",
+              "occult"
+            ],
+            "rarity": "rare"
+          },
+          "publication": {
+            "title": "Pathfinder Adventure Path: Bastion of Blasphemies",
+            "authors": "",
+            "license": "ORC",
+            "remaster": true
+          },
+          "level": {
+            "value": 14
+          },
+          "quantity": 1,
+          "baseItem": null,
+          "bulk": {
+            "value": 1
+          },
+          "hp": {
+            "value": 0,
+            "max": 0
+          },
+          "hardness": 0,
+          "price": {
+            "value": {}
+          },
+          "equipped": {
+            "carryType": "worn",
+            "invested": null
+          },
+          "containerId": null,
+          "size": "med",
+          "material": {
+            "type": null,
+            "grade": null
+          },
+          "identification": {
+            "status": "identified",
+            "unidentified": {
+              "name": "",
+              "img": "",
+              "data": {
+                "description": {
+                  "value": ""
+                }
+              }
+            }
+          },
+          "usage": {
+            "value": "held-in-one-hand"
+          },
+          "subitems": []
+        },
+        "type": "equipment",
+        "effects": [],
+        "folder": null,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {}
+      },
+      "approvedItem": {
+        "_id": "01OxcCAtANEzeH85",
+        "_stats": {
+          "coreVersion": "14.369",
+          "systemId": "pf2e",
+          "systemVersion": "8.6.1",
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.fZDL0jQQy1jQTg4c",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "duplicateSource": null,
+          "exportSource": null
+        },
+        "img": "icons/weapons/staves/staff-ornate.webp",
+        "name": "金妮薇尔的马鞭 Jinnivere's Riding Crop",
+        "sort": 300000,
+        "system": {
+          "description": {
+            "gm": "<p>每件阿鲁多拉信物的外观各不相同，但七件信物的尺寸大致相仿。它们由受诅咒的家族成员各自携带，蕴含的力量能够使孽裔厅堂的整片区域脱离城堡通常所处的幽灵般受诅咒状态。</p><hr><p><strong>激活—归还信物</strong> <span class=\"action-glyph\">3</span>（操作）你将信物放入孽裔厅堂<strong>B3</strong>区域喷泉中对应雕像的手中。雕像短暂活化，接过信物；信物随后化为石头，永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这根皮制马鞭后，地下室（详见第3章）解锁。伙伴们变得更加健壮，充满活力：在本冒险之路余下的时间里，PC的伙伴（例如魔宠、幻灵和动物伙伴）在所有豁免中获得+1状态加值。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在激活“归还信物”时被摧毁；归还所赋予的恩赐持续到本冒险之路彻底结束。</p>",
+            "value": ""
+          },
+          "rules": [],
+          "slug": "jinniveres-riding-crop",
+          "_migration": {
+            "version": 0.959,
+            "lastMigration": null,
+            "previous": null
+          },
+          "traits": {
+            "otherTags": [],
+            "value": [
+              "artifact",
+              "occult"
+            ],
+            "rarity": "rare"
+          },
+          "publication": {
+            "title": "Pathfinder冒险之路：亵渎堡垒",
+            "authors": "",
+            "license": "ORC",
+            "remaster": true
+          },
+          "level": {
+            "value": 14
+          },
+          "quantity": 1,
+          "baseItem": null,
+          "bulk": {
+            "value": 1
+          },
+          "hp": {
+            "value": 0,
+            "max": 0
+          },
+          "hardness": 0,
+          "price": {
+            "value": {}
+          },
+          "equipped": {
+            "carryType": "worn",
+            "invested": null
+          },
+          "containerId": null,
+          "size": "med",
+          "material": {
+            "type": null,
+            "grade": null
+          },
+          "identification": {
+            "status": "identified",
+            "unidentified": {
+              "name": "",
+              "img": "",
+              "data": {
+                "description": {
+                  "value": ""
+                }
+              }
+            }
+          },
+          "usage": {
+            "value": "held-in-one-hand"
+          },
+          "subitems": []
+        },
+        "type": "equipment",
+        "effects": [],
+        "folder": null,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {}
+      },
+      "nameRecord": {
+        "selectors": [
+          "actors",
+          {
+            "id": "xDNjxFXDFtl9thUa"
+          },
+          "items",
+          {
+            "id": "01OxcCAtANEzeH85"
+          },
+          "name"
+        ],
+        "before": "Jinnivere's Riding Crop",
+        "after": "金妮薇尔的马鞭 Jinnivere's Riding Crop",
+        "sourceSha256": "f2fc909f02888c8690b7c983ae7e6f43dcc0ea9413c12f933cb47ca1e2a22c7b",
+        "review": "translations/actors.json",
+        "priorItemId": "JEo0kzlVtOI2Ehc9"
+      },
+      "nameRecordSha256": "26e6bafe9377cad85ddf813074657232c73e9de14c2ca35f4f9de1dd6f5faa62",
+      "actorNameRecordSha256": "e8ac6bf943b145fdfa6bf0f238abb8434a7aea1b42c721ee61d5bee765d9c6de",
+      "originalName": "Jinnivere's Riding Crop",
+      "approvedName": "金妮薇尔的马鞭 Jinnivere's Riding Crop",
+      "chineseName": "金妮薇尔的马鞭",
+      "displayName": "已毁的金妮薇尔的马鞭 Destroyed Jinnivere's Riding Crop",
+      "nativeExplicitSlug": "jinniveres-riding-crop",
+      "nativeManagerTriggers": true,
+      "canonicalPaths": [
+        "actors[45].items[2].name",
+        "actors[45].items[2].system.description.gm",
+        "actors[45].items[2].system.publication.title"
+      ],
+      "marker": {
+        "version": 1,
+        "actorId": "xDNjxFXDFtl9thUa",
+        "itemId": "01OxcCAtANEzeH85",
+        "sourceFingerprint": "faee4449a48387bc4e23d95f003cb56383071b146b11d609b7602b8d69ced1be",
+        "approvalFingerprint": "8a2cd4985fbf139787039d6421218edf955615b37e658cd222357466a9501036"
+      },
+      "approvedItemVariants": [
+        {
+          "_id": "01OxcCAtANEzeH85",
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "pf2e",
+            "systemVersion": "8.6.1",
+            "compendiumSource": "Compendium.pf2e.equipment-srd.Item.fZDL0jQQy1jQTg4c",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "img": "icons/weapons/staves/staff-ornate.webp",
+          "name": "金妮薇尔的马鞭 Jinnivere's Riding Crop",
+          "sort": 300000,
+          "system": {
+            "description": {
+              "gm": "<p>每件阿鲁多拉信物的外观各不相同，但七件信物的尺寸大致相仿。它们由受诅咒的家族成员各自携带，蕴含的力量能够使孽裔厅堂的整片区域脱离城堡通常所处的幽灵般受诅咒状态。</p><hr><p><strong>启动—归还信物</strong> <span class=\"action-glyph\">3</span>（操作） 你将信物放入孽裔厅堂区域 <strong>B3</strong> 喷泉中对应雕像的手中。雕像短暂活化，接过信物；信物随即化为石头，此后永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这根皮制马鞭后，地下室（详见第3章）解锁。同伴变得更加健壮、充满生命力——在本冒险之路余下的时间里，玩家角色的同伴（例如魔宠、幻灵和动物伙伴）所有豁免检定获得+1状态加值。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在以归还信物启动时被摧毁，而此次归还授予的恩赐会持续至本冒险之路的最终结束。</p>",
+              "value": ""
+            },
+            "rules": [],
+            "slug": "jinniveres-riding-crop",
+            "_migration": {
+              "version": 0.959,
+              "lastMigration": null,
+              "previous": null
+            },
+            "traits": {
+              "otherTags": [],
+              "value": [
+                "artifact",
+                "occult"
+              ],
+              "rarity": "rare"
+            },
+            "publication": {
+              "title": "Pathfinder冒险之路：亵渎堡垒",
+              "authors": "",
+              "license": "ORC",
+              "remaster": true
+            },
+            "level": {
+              "value": 14
+            },
+            "quantity": 1,
+            "baseItem": null,
+            "bulk": {
+              "value": 1
+            },
+            "hp": {
+              "value": 0,
+              "max": 0
+            },
+            "hardness": 0,
+            "price": {
+              "value": {}
+            },
+            "equipped": {
+              "carryType": "worn",
+              "invested": null
+            },
+            "containerId": null,
+            "size": "med",
+            "material": {
+              "type": null,
+              "grade": null
+            },
+            "identification": {
+              "status": "identified",
+              "unidentified": {
+                "name": "",
+                "img": "",
+                "data": {
+                  "description": {
+                    "value": ""
+                  }
+                }
+              }
+            },
+            "usage": {
+              "value": "held-in-one-hand"
+            },
+            "subitems": []
+          },
+          "type": "equipment",
+          "effects": [],
+          "folder": null,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {
+            "babele": {
+              "translated": true,
+              "hasTranslation": true,
+              "originalName": "Jinnivere's Riding Crop",
+              "originalPayload": {
+                "name": "Jinnivere's Riding Crop",
+                "description": "",
+                "gmnote": "<p>Each Arudora memento is unique in appearance, but all seven are approximately the same size. Carried by each of the cursed family members, these mementos have within them the power to unlock entire portions of Bastardhall from the ghostly cursed state the castle traditionally exists in.</p><hr><p><strong>Activate—Return Memento</strong> <span class=\"action-glyph\">3</span> (manipulate) You place the memento into the appropriate statue's clutches in the fountain located in area <strong>B3</strong> of Bastardhall. The statue briefly animates to claim the memento, which turns to stone and becomes thereafter a permanent part of the statue, effectively destroying the memento while granting a boon to the party that persists for the remainder of this Adventure Path. When this leather riding crop is Returned, the cellars (detailed in Chapter 3) are unlocked. Companions are now more hearty and full of life—PC companions (such as familiars, eidolons, and animal companions) gain a +1 status bonus to all saving throws for the remainder of this Adventure Path.</p><hr><p><strong>Destruction</strong> An Arudora memento is destroyed when it's activated with Return Memento, and the boon it grants upon this returning lasts until the very end of the Adventure Path.</p>",
+                "prerequisites": [],
+                "bobPublication": "Pathfinder Adventure Path: Bastion of Blasphemies"
+              },
+              "lang": "cn"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "actors[75].items[1]",
+      "area": "cellars",
+      "slug": "augstens-cudgel",
+      "moduleDeclaredSourceUuid": "Compendium.pf2e.equipment-srd.Item.Z3yVkW6v7hzuXJa2",
+      "statueId": "feg8uiPz4VnNoCAO",
+      "actorId": "gbuh5CHc7mr2YU2A",
+      "actorType": "npc",
+      "actorNames": [
+        "Augsten Arudora",
+        "奥格斯滕·阿鲁多拉 Augsten Arudora"
+      ],
+      "actorFolder": "ZZgtHCUkCZvhw1kt",
+      "actorImg": "modules/pf2e-bastion-of-blasphemies/assets/actors/portraits/OgreAugstenArudora.webp",
+      "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.gbuh5CHc7mr2YU2A",
+      "itemId": "lHJPKjQIF956jaAm",
+      "itemType": "equipment",
+      "rawItem": {
+        "_id": "lHJPKjQIF956jaAm",
+        "_stats": {
+          "coreVersion": "14.369",
+          "systemId": "pf2e",
+          "systemVersion": "8.6.1",
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Z3yVkW6v7hzuXJa2",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "duplicateSource": null,
+          "exportSource": null
+        },
+        "img": "icons/weapons/clubs/club-banded-steel.webp",
+        "name": "Augsten's Cudgel",
+        "sort": 200000,
+        "system": {
+          "description": {
+            "gm": "<p>Each Arudora memento is unique in appearance, but all seven are approximately the same size. Carried by each of the cursed family members, these mementos have within them the power to unlock entire portions of Bastardhall from the ghostly cursed state the castle traditionally exists in.</p><hr><p><strong>Activate—Return Memento</strong> <span class=\"action-glyph\">3</span> (manipulate) You place the memento into the appropriate statue's clutches in the fountain located in area <strong>B3</strong> of Bastardhall. The statue briefly animates to claim the memento, which turns to stone and becomes thereafter a permanent part of the statue, effectively destroying the memento while granting a boon to the party that persists for the remainder of this Adventure Path. When this bloodstained wooden cudgel is Returned, the reception halls (detailed in Chapter 4) are unlocked. Sometimes, violence is the only answer, and swift action to combat is rewarded. For the rest of the Adventure Path, all PCs gain a +1 bonus to any initiative rolls; this special bonus combines with all other bonuses.</p><hr><p><strong>Destruction</strong> An Arudora memento is destroyed when it's activated with Return Memento, and the boon it grants upon this returning lasts until the very end of the Adventure Path.</p>",
+            "value": ""
+          },
+          "rules": [],
+          "slug": "augstens-cudgel",
+          "_migration": {
+            "version": 0.959,
+            "lastMigration": null,
+            "previous": null
+          },
+          "traits": {
+            "otherTags": [],
+            "value": [
+              "artifact",
+              "occult"
+            ],
+            "rarity": "rare"
+          },
+          "publication": {
+            "title": "Pathfinder Adventure Path: Bastion of Blasphemies",
+            "authors": "",
+            "license": "ORC",
+            "remaster": true
+          },
+          "level": {
+            "value": 14
+          },
+          "quantity": 1,
+          "baseItem": null,
+          "bulk": {
+            "value": 1
+          },
+          "hp": {
+            "value": 0,
+            "max": 0
+          },
+          "hardness": 0,
+          "price": {
+            "value": {}
+          },
+          "equipped": {
+            "carryType": "worn",
+            "invested": null
+          },
+          "containerId": null,
+          "size": "lg",
+          "material": {
+            "type": null,
+            "grade": null
+          },
+          "identification": {
+            "status": "identified",
+            "unidentified": {
+              "name": "",
+              "img": "",
+              "data": {
+                "description": {
+                  "value": ""
+                }
+              }
+            }
+          },
+          "usage": {
+            "value": "held-in-one-hand"
+          },
+          "subitems": []
+        },
+        "type": "equipment",
+        "effects": [],
+        "folder": null,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {}
+      },
+      "approvedItem": {
+        "_id": "lHJPKjQIF956jaAm",
+        "_stats": {
+          "coreVersion": "14.369",
+          "systemId": "pf2e",
+          "systemVersion": "8.6.1",
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Z3yVkW6v7hzuXJa2",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "duplicateSource": null,
+          "exportSource": null
+        },
+        "img": "icons/weapons/clubs/club-banded-steel.webp",
+        "name": "奥格斯滕的短棒 Augsten's Cudgel",
+        "sort": 200000,
+        "system": {
+          "description": {
+            "gm": "<p>每件阿鲁多拉信物的外观各不相同，但七件信物的尺寸大致相仿。它们由受诅咒的家族成员各自携带，蕴含的力量能够使孽裔厅堂的整片区域脱离城堡通常所处的幽灵般受诅咒状态。</p><hr><p><strong>激活—归还信物</strong> <span class=\"action-glyph\">3</span>（操作）你将信物放入孽裔厅堂<strong>B3</strong>区域喷泉中对应雕像的手中。雕像短暂活化，接过信物；信物随后化为石头，永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这根染血的木棒后，会客厅（详见第4章）解锁。有时暴力是唯一的答案，而迅速投入战斗便会得到回报。在本冒险之路余下的时间里，所有PC在任何先攻检定中获得+1加值；这一特殊加值可与其他所有加值叠加。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在激活“归还信物”时被摧毁；归还所赋予的恩赐持续到本冒险之路彻底结束。</p>",
+            "value": ""
+          },
+          "rules": [],
+          "slug": "augstens-cudgel",
+          "_migration": {
+            "version": 0.959,
+            "lastMigration": null,
+            "previous": null
+          },
+          "traits": {
+            "otherTags": [],
+            "value": [
+              "artifact",
+              "occult"
+            ],
+            "rarity": "rare"
+          },
+          "publication": {
+            "title": "Pathfinder冒险之路：亵渎堡垒",
+            "authors": "",
+            "license": "ORC",
+            "remaster": true
+          },
+          "level": {
+            "value": 14
+          },
+          "quantity": 1,
+          "baseItem": null,
+          "bulk": {
+            "value": 1
+          },
+          "hp": {
+            "value": 0,
+            "max": 0
+          },
+          "hardness": 0,
+          "price": {
+            "value": {}
+          },
+          "equipped": {
+            "carryType": "worn",
+            "invested": null
+          },
+          "containerId": null,
+          "size": "lg",
+          "material": {
+            "type": null,
+            "grade": null
+          },
+          "identification": {
+            "status": "identified",
+            "unidentified": {
+              "name": "",
+              "img": "",
+              "data": {
+                "description": {
+                  "value": ""
+                }
+              }
+            }
+          },
+          "usage": {
+            "value": "held-in-one-hand"
+          },
+          "subitems": []
+        },
+        "type": "equipment",
+        "effects": [],
+        "folder": null,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {}
+      },
+      "nameRecord": {
+        "selectors": [
+          "actors",
+          {
+            "id": "gbuh5CHc7mr2YU2A"
+          },
+          "items",
+          {
+            "id": "lHJPKjQIF956jaAm"
+          },
+          "name"
+        ],
+        "before": "Augsten's Cudgel",
+        "after": "奥格斯滕的短棒 Augsten's Cudgel",
+        "sourceSha256": "9b9854609940ff5b2ee786654302a3eb9fb074550bd29637ca41fc366d2c8e11",
+        "review": "translations/actors.json",
+        "priorItemId": "dsITh12iF57meqFW"
+      },
+      "nameRecordSha256": "3f93c58096562581e766a7486d8c86b9996a42d236af354cbc85994cc9cee7df",
+      "actorNameRecordSha256": "75f691a5a5a6cb70cea4550e35f89e7c23aab2e8939a3b619fae0648aba712dd",
+      "originalName": "Augsten's Cudgel",
+      "approvedName": "奥格斯滕的短棒 Augsten's Cudgel",
+      "chineseName": "奥格斯滕的短棒",
+      "displayName": "已毁的奥格斯滕的短棒 Destroyed Augsten's Cudgel",
+      "nativeExplicitSlug": "augstens-cudgel",
+      "nativeManagerTriggers": true,
+      "canonicalPaths": [
+        "actors[75].items[1].name",
+        "actors[75].items[1].system.description.gm",
+        "actors[75].items[1].system.publication.title"
+      ],
+      "marker": {
+        "version": 1,
+        "actorId": "gbuh5CHc7mr2YU2A",
+        "itemId": "lHJPKjQIF956jaAm",
+        "sourceFingerprint": "98d25c5853e8c59735079efd3137238550ad634250ba608c2b892b7d5eae96b0",
+        "approvalFingerprint": "37f7d155c3ccdadb0de5342dad60d0538509858a5348f6074b183452e8f6130b"
+      },
+      "approvedItemVariants": [
+        {
+          "_id": "lHJPKjQIF956jaAm",
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "pf2e",
+            "systemVersion": "8.6.1",
+            "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Z3yVkW6v7hzuXJa2",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "img": "icons/weapons/clubs/club-banded-steel.webp",
+          "name": "奥格斯滕的短棒 Augsten's Cudgel",
+          "sort": 200000,
+          "system": {
+            "description": {
+              "gm": "<p>每件阿鲁多拉信物的外观都独一无二，但七件信物的大小大致相同。它们分别由受诅咒的家族成员携带，其中蕴含的力量能够将孽裔厅堂的整片区域从城堡长久以来幽灵般的诅咒状态中解锁。</p><hr><p><strong>启动——归还信物</strong> <span class=\"action-glyph\">3</span>（操作） 你将信物放入孽裔厅堂区域<strong>B3</strong>喷泉中对应雕像的手中。雕像会短暂活化，接过信物；信物随后化为石头，永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这根沾血的木制短棒后，会客厅（详见第4章）解锁。有时，暴力是唯一的答案，迅速投入战斗也会获得回报。在本冒险之路余下的时间里，所有PC在任何先攻检定中均获得+1加值；此特殊加值可与所有其他加值叠加。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在启动归还信物时被摧毁，归还后给予的恩赐持续到本冒险之路的终点。</p>",
+              "value": ""
+            },
+            "rules": [],
+            "slug": "augstens-cudgel",
+            "_migration": {
+              "version": 0.959,
+              "lastMigration": null,
+              "previous": null
+            },
+            "traits": {
+              "otherTags": [],
+              "value": [
+                "artifact",
+                "occult"
+              ],
+              "rarity": "rare"
+            },
+            "publication": {
+              "title": "Pathfinder冒险之路：亵渎堡垒",
+              "authors": "",
+              "license": "ORC",
+              "remaster": true
+            },
+            "level": {
+              "value": 14
+            },
+            "quantity": 1,
+            "baseItem": null,
+            "bulk": {
+              "value": 1
+            },
+            "hp": {
+              "value": 0,
+              "max": 0
+            },
+            "hardness": 0,
+            "price": {
+              "value": {}
+            },
+            "equipped": {
+              "carryType": "worn",
+              "invested": null
+            },
+            "containerId": null,
+            "size": "lg",
+            "material": {
+              "type": null,
+              "grade": null
+            },
+            "identification": {
+              "status": "identified",
+              "unidentified": {
+                "name": "",
+                "img": "",
+                "data": {
+                  "description": {
+                    "value": ""
+                  }
+                }
+              }
+            },
+            "usage": {
+              "value": "held-in-one-hand"
+            },
+            "subitems": []
+          },
+          "type": "equipment",
+          "effects": [],
+          "folder": null,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {
+            "babele": {
+              "translated": true,
+              "hasTranslation": true,
+              "originalName": "Augsten's Cudgel",
+              "originalPayload": {
+                "name": "Augsten's Cudgel",
+                "description": "",
+                "gmnote": "<p>Each Arudora memento is unique in appearance, but all seven are approximately the same size. Carried by each of the cursed family members, these mementos have within them the power to unlock entire portions of Bastardhall from the ghostly cursed state the castle traditionally exists in.</p><hr><p><strong>Activate—Return Memento</strong> <span class=\"action-glyph\">3</span> (manipulate) You place the memento into the appropriate statue's clutches in the fountain located in area <strong>B3</strong> of Bastardhall. The statue briefly animates to claim the memento, which turns to stone and becomes thereafter a permanent part of the statue, effectively destroying the memento while granting a boon to the party that persists for the remainder of this Adventure Path. When this bloodstained wooden cudgel is Returned, the reception halls (detailed in Chapter 4) are unlocked. Sometimes, violence is the only answer, and swift action to combat is rewarded. For the rest of the Adventure Path, all PCs gain a +1 bonus to any initiative rolls; this special bonus combines with all other bonuses.</p><hr><p><strong>Destruction</strong> An Arudora memento is destroyed when it's activated with Return Memento, and the boon it grants upon this returning lasts until the very end of the Adventure Path.</p>",
+                "prerequisites": [],
+                "bobPublication": "Pathfinder Adventure Path: Bastion of Blasphemies"
+              },
+              "lang": "cn"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "actors[131].items[6]",
+      "area": "reception",
+      "slug": "alisendras-fan",
+      "moduleDeclaredSourceUuid": "Compendium.pf2e.equipment-srd.Item.kasxhW2drfCOZZq1",
+      "statueId": "MuVhZEhKVIJgjYGk",
+      "actorId": "SudB6sBMNJr8tbaI",
+      "actorType": "npc",
+      "actorNames": [
+        "Alisendra Arudora",
+        "阿莉森德拉·阿鲁多拉 Alisendra Arudora"
+      ],
+      "actorFolder": "g4Sd0AmMN3is4nXo",
+      "actorImg": "modules/pf2e-bastion-of-blasphemies/assets/actors/portraits/AlisendraArudora.webp",
+      "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.SudB6sBMNJr8tbaI",
+      "itemId": "RigNINwLhOkBq2ur",
+      "itemType": "equipment",
+      "rawItem": {
+        "_id": "RigNINwLhOkBq2ur",
+        "_stats": {
+          "coreVersion": "14.369",
+          "systemId": "pf2e",
+          "systemVersion": "8.6.1",
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.kasxhW2drfCOZZq1",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "duplicateSource": null,
+          "exportSource": null
+        },
+        "img": "icons/commodities/treasure/trinket-wing-white.webp",
+        "name": "Alisendra's Fan",
+        "sort": 700000,
+        "system": {
+          "description": {
+            "gm": "<p>Each Arudora memento is unique in appearance, but all seven are approximately the same size. Carried by each of the cursed family members, these mementos have within them the power to unlock entire portions of Bastardhall from the ghostly cursed state the castle traditionally exists in.</p><hr><p><strong>Activate—Return Memento</strong> <span class=\"action-glyph\">3</span> (manipulate) You place the memento into the appropriate statue's clutches in the fountain located in area <strong>B3</strong> of Bastardhall. The statue briefly animates to claim the memento, which turns to stone and becomes thereafter a permanent part of the statue, effectively destroying the memento while granting a boon to the party that persists for the remainder of this Adventure Path. When this elegant crimson hand fan is Returned, the dungeon (detailed in Chapter 5) is unlocked. The souls trapped in Bastardhall appreciate the end of Alisendra's dominion and now whisper hints of truths in the ears of those who seek knowledge. The DCs for all checks made to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} are reduced by 1 for the rest of the Adventure Path.</p><hr><p><strong>Destruction</strong> An Arudora memento is destroyed when it's activated with Return Memento, and the boon it grants upon this returning lasts until the very end of the Adventure Path.</p>",
+            "value": ""
+          },
+          "rules": [],
+          "slug": "alisendras-fan",
+          "_migration": {
+            "version": 0.959,
+            "lastMigration": null,
+            "previous": null
+          },
+          "traits": {
+            "otherTags": [],
+            "value": [
+              "artifact",
+              "occult"
+            ],
+            "rarity": "rare"
+          },
+          "publication": {
+            "title": "Pathfinder Adventure Path: Bastion of Blasphemies",
+            "authors": "",
+            "license": "ORC",
+            "remaster": true
+          },
+          "level": {
+            "value": 14
+          },
+          "quantity": 1,
+          "baseItem": null,
+          "bulk": {
+            "value": 1
+          },
+          "hp": {
+            "value": 0,
+            "max": 0
+          },
+          "hardness": 0,
+          "price": {
+            "value": {}
+          },
+          "equipped": {
+            "carryType": "worn",
+            "invested": null
+          },
+          "containerId": null,
+          "size": "med",
+          "material": {
+            "type": null,
+            "grade": null
+          },
+          "identification": {
+            "status": "identified",
+            "unidentified": {
+              "name": "",
+              "img": "",
+              "data": {
+                "description": {
+                  "value": ""
+                }
+              }
+            }
+          },
+          "usage": {
+            "value": "held-in-one-hand"
+          },
+          "subitems": []
+        },
+        "type": "equipment",
+        "effects": [],
+        "folder": null,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {}
+      },
+      "approvedItem": {
+        "_id": "RigNINwLhOkBq2ur",
+        "_stats": {
+          "coreVersion": "14.369",
+          "systemId": "pf2e",
+          "systemVersion": "8.6.1",
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.kasxhW2drfCOZZq1",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "duplicateSource": null,
+          "exportSource": null
+        },
+        "img": "icons/commodities/treasure/trinket-wing-white.webp",
+        "name": "阿莉森德拉的扇子 Alisendra's Fan",
+        "sort": 700000,
+        "system": {
+          "description": {
+            "gm": "<p>每件阿鲁多拉信物的外观各不相同，但七件信物的尺寸大致相仿。它们由受诅咒的家族成员各自携带，蕴含的力量能够使孽裔厅堂的整片区域脱离城堡通常所处的幽灵般受诅咒状态。</p><hr><p><strong>激活—归还信物</strong> <span class=\"action-glyph\">3</span>（操作）你将信物放入孽裔厅堂<strong>B3</strong>区域喷泉中对应雕像的手中。雕像短暂活化，接过信物；信物随后化为石头，永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这把优雅的深红折扇后，地牢（详见第5章）解锁。受困于孽裔厅堂的灵魂感谢PC终结阿莉森德拉的统治，如今会在求知者耳边低语，透露真相的线索。在本冒险之路余下的时间里，所有@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}检定的DC降低1。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在激活“归还信物”时被摧毁；归还所赋予的恩赐持续到本冒险之路彻底结束。</p>",
+            "value": ""
+          },
+          "rules": [],
+          "slug": "alisendras-fan",
+          "_migration": {
+            "version": 0.959,
+            "lastMigration": null,
+            "previous": null
+          },
+          "traits": {
+            "otherTags": [],
+            "value": [
+              "artifact",
+              "occult"
+            ],
+            "rarity": "rare"
+          },
+          "publication": {
+            "title": "Pathfinder冒险之路：亵渎堡垒",
+            "authors": "",
+            "license": "ORC",
+            "remaster": true
+          },
+          "level": {
+            "value": 14
+          },
+          "quantity": 1,
+          "baseItem": null,
+          "bulk": {
+            "value": 1
+          },
+          "hp": {
+            "value": 0,
+            "max": 0
+          },
+          "hardness": 0,
+          "price": {
+            "value": {}
+          },
+          "equipped": {
+            "carryType": "worn",
+            "invested": null
+          },
+          "containerId": null,
+          "size": "med",
+          "material": {
+            "type": null,
+            "grade": null
+          },
+          "identification": {
+            "status": "identified",
+            "unidentified": {
+              "name": "",
+              "img": "",
+              "data": {
+                "description": {
+                  "value": ""
+                }
+              }
+            }
+          },
+          "usage": {
+            "value": "held-in-one-hand"
+          },
+          "subitems": []
+        },
+        "type": "equipment",
+        "effects": [],
+        "folder": null,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {}
+      },
+      "nameRecord": {
+        "selectors": [
+          "actors",
+          {
+            "id": "SudB6sBMNJr8tbaI"
+          },
+          "items",
+          {
+            "id": "RigNINwLhOkBq2ur"
+          },
+          "name"
+        ],
+        "before": "Alisendra's Fan",
+        "after": "阿莉森德拉的扇子 Alisendra's Fan",
+        "sourceSha256": "40ad1efef9b262b54f324dac8d5b8e8cedaec1909e58fa40755162379826278e",
+        "review": "translations/actors.json",
+        "priorItemId": "Hib7DDK9GpCKj33I"
+      },
+      "nameRecordSha256": "f69023dc31517704fe3c259ad5eeb52ceb3b5547420dfe3b068d54191130b632",
+      "actorNameRecordSha256": "aee3c61509fed906874ef08821f1ba0a983cb54f7a38bb4fab2cc9d361edd795",
+      "originalName": "Alisendra's Fan",
+      "approvedName": "阿莉森德拉的扇子 Alisendra's Fan",
+      "chineseName": "阿莉森德拉的扇子",
+      "displayName": "已毁的阿莉森德拉的扇子 Destroyed Alisendra's Fan",
+      "nativeExplicitSlug": "alisendras-fan",
+      "nativeManagerTriggers": true,
+      "canonicalPaths": [
+        "actors[131].items[6].name",
+        "actors[131].items[6].system.description.gm",
+        "actors[131].items[6].system.publication.title"
+      ],
+      "marker": {
+        "version": 1,
+        "actorId": "SudB6sBMNJr8tbaI",
+        "itemId": "RigNINwLhOkBq2ur",
+        "sourceFingerprint": "20cbb0082a0f38b6e215a6d5e0280e9c13732ae91c61f0ca2ad46e32f59b38bb",
+        "approvalFingerprint": "2c82a870b955a9aa8d27f82548f6cf73a402df174c372e01b4a581216c5d6b84"
+      },
+      "approvedItemVariants": [
+        {
+          "_id": "RigNINwLhOkBq2ur",
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "pf2e",
+            "systemVersion": "8.6.1",
+            "compendiumSource": "Compendium.pf2e.equipment-srd.Item.kasxhW2drfCOZZq1",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "img": "icons/commodities/treasure/trinket-wing-white.webp",
+          "name": "阿莉森德拉的扇子 Alisendra's Fan",
+          "sort": 700000,
+          "system": {
+            "description": {
+              "gm": "<p>每件阿鲁多拉信物的外观都独一无二，但七件信物的大小大致相同。它们分别由受诅咒的家族成员携带，其中蕴含的力量能够将孽裔厅堂的整片区域从城堡长久以来幽灵般的诅咒状态中解锁。</p><hr><p><strong>启动——归还信物</strong> <span class=\"action-glyph\">3</span>（操作） 你将信物放入孽裔厅堂区域<strong>B3</strong>喷泉中对应雕像的手中。雕像会短暂活化，接过信物；信物随后化为石头，永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这把优雅的深红色手扇后，地牢（详见第5章）解锁。困于孽裔厅堂的灵魂感激阿莉森德拉的统治终结，如今会在求知者耳边低语，提示真相。在本冒险之路余下的时间里，所有用于@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}的检定DC降低1。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在启动归还信物时被摧毁，归还后给予的恩赐持续到本冒险之路的终点。</p>",
+              "value": ""
+            },
+            "rules": [],
+            "slug": "alisendras-fan",
+            "_migration": {
+              "version": 0.959,
+              "lastMigration": null,
+              "previous": null
+            },
+            "traits": {
+              "otherTags": [],
+              "value": [
+                "artifact",
+                "occult"
+              ],
+              "rarity": "rare"
+            },
+            "publication": {
+              "title": "Pathfinder冒险之路：亵渎堡垒",
+              "authors": "",
+              "license": "ORC",
+              "remaster": true
+            },
+            "level": {
+              "value": 14
+            },
+            "quantity": 1,
+            "baseItem": null,
+            "bulk": {
+              "value": 1
+            },
+            "hp": {
+              "value": 0,
+              "max": 0
+            },
+            "hardness": 0,
+            "price": {
+              "value": {}
+            },
+            "equipped": {
+              "carryType": "worn",
+              "invested": null
+            },
+            "containerId": null,
+            "size": "med",
+            "material": {
+              "type": null,
+              "grade": null
+            },
+            "identification": {
+              "status": "identified",
+              "unidentified": {
+                "name": "",
+                "img": "",
+                "data": {
+                  "description": {
+                    "value": ""
+                  }
+                }
+              }
+            },
+            "usage": {
+              "value": "held-in-one-hand"
+            },
+            "subitems": []
+          },
+          "type": "equipment",
+          "effects": [],
+          "folder": null,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {
+            "babele": {
+              "translated": true,
+              "hasTranslation": true,
+              "originalName": "Alisendra's Fan",
+              "originalPayload": {
+                "name": "Alisendra's Fan",
+                "description": "",
+                "gmnote": "<p>Each Arudora memento is unique in appearance, but all seven are approximately the same size. Carried by each of the cursed family members, these mementos have within them the power to unlock entire portions of Bastardhall from the ghostly cursed state the castle traditionally exists in.</p><hr><p><strong>Activate—Return Memento</strong> <span class=\"action-glyph\">3</span> (manipulate) You place the memento into the appropriate statue's clutches in the fountain located in area <strong>B3</strong> of Bastardhall. The statue briefly animates to claim the memento, which turns to stone and becomes thereafter a permanent part of the statue, effectively destroying the memento while granting a boon to the party that persists for the remainder of this Adventure Path. When this elegant crimson hand fan is Returned, the dungeon (detailed in Chapter 5) is unlocked. The souls trapped in Bastardhall appreciate the end of Alisendra's dominion and now whisper hints of truths in the ears of those who seek knowledge. The DCs for all checks made to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} are reduced by 1 for the rest of the Adventure Path.</p><hr><p><strong>Destruction</strong> An Arudora memento is destroyed when it's activated with Return Memento, and the boon it grants upon this returning lasts until the very end of the Adventure Path.</p>",
+                "prerequisites": [],
+                "bobPublication": "Pathfinder Adventure Path: Bastion of Blasphemies"
+              },
+              "lang": "cn"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "actors[265].items[26]",
+      "area": "temple",
+      "slug": "ryhasphineas-hourglass",
+      "moduleDeclaredSourceUuid": "Compendium.pf2e.equipment-srd.Item.3c9AEoBCXmdltdr2",
+      "statueId": "VFGUWSmhCORORUNA",
+      "actorId": "HxfGix5hfdApKP1A",
+      "actorType": "npc",
+      "actorNames": [
+        "Ryhasphinea Arudora",
+        "莉哈斯菲妮娅·阿鲁多拉 Ryhasphinea Arudora"
+      ],
+      "actorFolder": "0cwKzaygKubyxLYN",
+      "actorImg": "modules/pf2e-bastion-of-blasphemies/assets/actors/portraits/UrgathoaChildRyhasphineaArudora.webp",
+      "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.HxfGix5hfdApKP1A",
+      "itemId": "6ughwBA5t1JHf3xr",
+      "itemType": "equipment",
+      "rawItem": {
+        "_id": "6ughwBA5t1JHf3xr",
+        "_stats": {
+          "coreVersion": "14.369",
+          "systemId": "pf2e",
+          "systemVersion": "8.6.1",
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.3c9AEoBCXmdltdr2",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "duplicateSource": null,
+          "exportSource": null
+        },
+        "img": "icons/tools/navigation/hourglass-grey.webp",
+        "name": "Ryhasphinea's Hourglass",
+        "sort": 2700000,
+        "system": {
+          "description": {
+            "gm": "<p>Each Arudora memento is unique in appearance, but all seven are approximately the same size. Carried by each of the cursed family members, these mementos have within them the power to unlock entire portions of Bastardhall from the ghostly cursed state the castle traditionally exists in.</p><hr><p><strong>Activate—Return Memento</strong> <span class=\"action-glyph\">3</span> (manipulate) You place the memento into the appropriate statue's clutches in the fountain located in area <strong>B3</strong> of Bastardhall. The statue briefly animates to claim the memento, which turns to stone and becomes thereafter a permanent part of the statue, effectively destroying the memento while granting a boon to the party that persists for the remainder of this Adventure Path. When this cracked hourglass is Returned, the vaults (detailed in Chapter 8) are unlocked. Death's grasp on the PCs wanes—for the rest of this Adventure Path, the DCs for all recovery checks made by a dying PC are reduced by 2.</p><hr><p><strong>Destruction</strong> An Arudora memento is destroyed when it's activated with Return Memento, and the boon it grants upon this returning lasts until the very end of the Adventure Path.</p>",
+            "value": ""
+          },
+          "rules": [],
+          "slug": "ryhasphineas-hourglass",
+          "_migration": {
+            "version": 0.959,
+            "lastMigration": null,
+            "previous": null
+          },
+          "traits": {
+            "otherTags": [],
+            "value": [
+              "artifact",
+              "occult"
+            ],
+            "rarity": "rare"
+          },
+          "publication": {
+            "title": "Pathfinder Adventure Path: Bastion of Blasphemies",
+            "authors": "",
+            "license": "ORC",
+            "remaster": true
+          },
+          "level": {
+            "value": 14
+          },
+          "quantity": 1,
+          "baseItem": null,
+          "bulk": {
+            "value": 1
+          },
+          "hp": {
+            "value": 0,
+            "max": 0
+          },
+          "hardness": 0,
+          "price": {
+            "value": {}
+          },
+          "equipped": {
+            "carryType": "worn",
+            "invested": null
+          },
+          "containerId": null,
+          "size": "lg",
+          "material": {
+            "type": null,
+            "grade": null
+          },
+          "identification": {
+            "status": "identified",
+            "unidentified": {
+              "name": "",
+              "img": "",
+              "data": {
+                "description": {
+                  "value": ""
+                }
+              }
+            }
+          },
+          "usage": {
+            "value": "held-in-one-hand"
+          },
+          "subitems": []
+        },
+        "type": "equipment",
+        "effects": [],
+        "folder": null,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {}
+      },
+      "approvedItem": {
+        "_id": "6ughwBA5t1JHf3xr",
+        "_stats": {
+          "coreVersion": "14.369",
+          "systemId": "pf2e",
+          "systemVersion": "8.6.1",
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.3c9AEoBCXmdltdr2",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "duplicateSource": null,
+          "exportSource": null
+        },
+        "img": "icons/tools/navigation/hourglass-grey.webp",
+        "name": "莉哈斯菲妮娅的沙漏 Ryhasphinea's Hourglass",
+        "sort": 2700000,
+        "system": {
+          "description": {
+            "gm": "<p>每件阿鲁多拉信物的外观各不相同，但七件信物的尺寸大致相仿。它们由受诅咒的家族成员各自携带，蕴含的力量能够使孽裔厅堂的整片区域脱离城堡通常所处的幽灵般受诅咒状态。</p><hr><p><strong>激活—归还信物</strong> <span class=\"action-glyph\">3</span>（操作）你将信物放入孽裔厅堂<strong>B3</strong>区域喷泉中对应雕像的手中。雕像短暂活化，接过信物；信物随后化为石头，永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这只开裂的沙漏后，地下密库（详见第8章）解锁。死亡对PC的掌控减弱：在本冒险之路余下的时间里，濒死PC进行的所有恢复检定，其DC降低2。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在激活“归还信物”时被摧毁；归还所赋予的恩赐持续到本冒险之路彻底结束。</p>",
+            "value": ""
+          },
+          "rules": [],
+          "slug": "ryhasphineas-hourglass",
+          "_migration": {
+            "version": 0.959,
+            "lastMigration": null,
+            "previous": null
+          },
+          "traits": {
+            "otherTags": [],
+            "value": [
+              "artifact",
+              "occult"
+            ],
+            "rarity": "rare"
+          },
+          "publication": {
+            "title": "Pathfinder冒险之路：亵渎堡垒",
+            "authors": "",
+            "license": "ORC",
+            "remaster": true
+          },
+          "level": {
+            "value": 14
+          },
+          "quantity": 1,
+          "baseItem": null,
+          "bulk": {
+            "value": 1
+          },
+          "hp": {
+            "value": 0,
+            "max": 0
+          },
+          "hardness": 0,
+          "price": {
+            "value": {}
+          },
+          "equipped": {
+            "carryType": "worn",
+            "invested": null
+          },
+          "containerId": null,
+          "size": "lg",
+          "material": {
+            "type": null,
+            "grade": null
+          },
+          "identification": {
+            "status": "identified",
+            "unidentified": {
+              "name": "",
+              "img": "",
+              "data": {
+                "description": {
+                  "value": ""
+                }
+              }
+            }
+          },
+          "usage": {
+            "value": "held-in-one-hand"
+          },
+          "subitems": []
+        },
+        "type": "equipment",
+        "effects": [],
+        "folder": null,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {}
+      },
+      "nameRecord": {
+        "selectors": [
+          "actors",
+          {
+            "id": "HxfGix5hfdApKP1A"
+          },
+          "items",
+          {
+            "id": "6ughwBA5t1JHf3xr"
+          },
+          "name"
+        ],
+        "before": "Ryhasphinea's Hourglass",
+        "after": "莉哈斯菲妮娅的沙漏 Ryhasphinea's Hourglass",
+        "sourceSha256": "a6e08689587882d4f3a2f62d3986d4b9911e68fc7f5876f7db37b15bdaee6f5c",
+        "review": "translations/actors.json",
+        "priorItemId": "TN74GUCJUXjZuCq3"
+      },
+      "nameRecordSha256": "1e65a6254a670e173a5eafa13a0b992e56aeb57107734120cafa95859387b793",
+      "actorNameRecordSha256": "6c78d198f6e84a57543e18773f73ae99d15cd483216d4289b78ef03da9f1f8f3",
+      "originalName": "Ryhasphinea's Hourglass",
+      "approvedName": "莉哈斯菲妮娅的沙漏 Ryhasphinea's Hourglass",
+      "chineseName": "莉哈斯菲妮娅的沙漏",
+      "displayName": "已毁的莉哈斯菲妮娅的沙漏 Destroyed Ryhasphinea's Hourglass",
+      "nativeExplicitSlug": "ryhasphineas-hourglass",
+      "nativeManagerTriggers": true,
+      "canonicalPaths": [
+        "actors[265].items[26].name",
+        "actors[265].items[26].system.description.gm",
+        "actors[265].items[26].system.publication.title"
+      ],
+      "marker": {
+        "version": 1,
+        "actorId": "HxfGix5hfdApKP1A",
+        "itemId": "6ughwBA5t1JHf3xr",
+        "sourceFingerprint": "346829a06a4ec83dc0cf1ed26ffa3b820917fef1cafe9ab68873b55e014cc542",
+        "approvalFingerprint": "b08334d40750953a435af1226e0128d11e2e59cd3595ffc1f4beb284d18829d7"
+      },
+      "approvedItemVariants": [
+        {
+          "_id": "6ughwBA5t1JHf3xr",
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "pf2e",
+            "systemVersion": "8.6.1",
+            "compendiumSource": "Compendium.pf2e.equipment-srd.Item.3c9AEoBCXmdltdr2",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "img": "icons/tools/navigation/hourglass-grey.webp",
+          "name": "莉哈斯菲妮娅的沙漏 Ryhasphinea's Hourglass",
+          "sort": 2700000,
+          "system": {
+            "description": {
+              "gm": "<p>每件阿鲁多拉信物的外观各不相同，但七件信物的尺寸大致相仿。它们由受诅咒的家族成员各自携带，蕴含的力量能够使孽裔厅堂的整片区域脱离城堡通常所处的幽灵般受诅咒状态。</p><hr><p><strong>启动—归还信物</strong> <span class=\"action-glyph\">3</span>（操作） 你将信物放入孽裔厅堂区域 <strong>B3</strong> 喷泉中对应雕像的手中。雕像短暂活化，接过信物；信物随即化为石头，此后永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这只开裂的沙漏后，地下密库（详见第8章）解锁。死亡对玩家角色的束缚减弱——在本冒险之路余下的时间里，濒死玩家角色的所有恢复检定难度降低2。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在以归还信物启动时被摧毁，而此次归还授予的恩赐会持续至本冒险之路的最终结束。</p>",
+              "value": ""
+            },
+            "rules": [],
+            "slug": "ryhasphineas-hourglass",
+            "_migration": {
+              "version": 0.959,
+              "lastMigration": null,
+              "previous": null
+            },
+            "traits": {
+              "otherTags": [],
+              "value": [
+                "artifact",
+                "occult"
+              ],
+              "rarity": "rare"
+            },
+            "publication": {
+              "title": "Pathfinder冒险之路：亵渎堡垒",
+              "authors": "",
+              "license": "ORC",
+              "remaster": true
+            },
+            "level": {
+              "value": 14
+            },
+            "quantity": 1,
+            "baseItem": null,
+            "bulk": {
+              "value": 1
+            },
+            "hp": {
+              "value": 0,
+              "max": 0
+            },
+            "hardness": 0,
+            "price": {
+              "value": {}
+            },
+            "equipped": {
+              "carryType": "worn",
+              "invested": null
+            },
+            "containerId": null,
+            "size": "lg",
+            "material": {
+              "type": null,
+              "grade": null
+            },
+            "identification": {
+              "status": "identified",
+              "unidentified": {
+                "name": "",
+                "img": "",
+                "data": {
+                  "description": {
+                    "value": ""
+                  }
+                }
+              }
+            },
+            "usage": {
+              "value": "held-in-one-hand"
+            },
+            "subitems": []
+          },
+          "type": "equipment",
+          "effects": [],
+          "folder": null,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {
+            "babele": {
+              "translated": true,
+              "hasTranslation": true,
+              "originalName": "Ryhasphinea's Hourglass",
+              "originalPayload": {
+                "name": "Ryhasphinea's Hourglass",
+                "description": "",
+                "gmnote": "<p>Each Arudora memento is unique in appearance, but all seven are approximately the same size. Carried by each of the cursed family members, these mementos have within them the power to unlock entire portions of Bastardhall from the ghostly cursed state the castle traditionally exists in.</p><hr><p><strong>Activate—Return Memento</strong> <span class=\"action-glyph\">3</span> (manipulate) You place the memento into the appropriate statue's clutches in the fountain located in area <strong>B3</strong> of Bastardhall. The statue briefly animates to claim the memento, which turns to stone and becomes thereafter a permanent part of the statue, effectively destroying the memento while granting a boon to the party that persists for the remainder of this Adventure Path. When this cracked hourglass is Returned, the vaults (detailed in Chapter 8) are unlocked. Death's grasp on the PCs wanes—for the rest of this Adventure Path, the DCs for all recovery checks made by a dying PC are reduced by 2.</p><hr><p><strong>Destruction</strong> An Arudora memento is destroyed when it's activated with Return Memento, and the boon it grants upon this returning lasts until the very end of the Adventure Path.</p>",
+                "prerequisites": [],
+                "bobPublication": "Pathfinder Adventure Path: Bastion of Blasphemies"
+              },
+              "lang": "cn"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "actors[290].items[31]",
+      "area": "vault",
+      "slug": "irrokciss-medallion",
+      "moduleDeclaredSourceUuid": "Compendium.pf2e.equipment-srd.Item.0LrDMdMNqUb9cxSV",
+      "statueId": "Jw23Wg71jJo9atGm",
+      "actorId": "V90ggUnKvweg3G0q",
+      "actorType": "npc",
+      "actorNames": [
+        "Irrokcis Arudora",
+        "伊罗克西斯·阿鲁多拉 Irrokcis Arudora"
+      ],
+      "actorFolder": "nCHw2Vcj0Eth0Evy",
+      "actorImg": "modules/pf2e-bastion-of-blasphemies/assets/actors/portraits/LichIrrokcisArudora.webp",
+      "actorSourceUuid": "Compendium.pf2e.bastion-of-blasphemies-bestiary.Actor.V90ggUnKvweg3G0q",
+      "itemId": "5dw1QU2xjSgSXjs2",
+      "itemType": "equipment",
+      "rawItem": {
+        "_id": "5dw1QU2xjSgSXjs2",
+        "_stats": {
+          "coreVersion": "14.369",
+          "systemId": "pf2e",
+          "systemVersion": "8.6.1",
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.0LrDMdMNqUb9cxSV",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "duplicateSource": null,
+          "exportSource": null
+        },
+        "img": "icons/commodities/treasure/dreamcatcher-brown.webp",
+        "name": "Irrokcis's Medallion",
+        "sort": 3200000,
+        "system": {
+          "description": {
+            "gm": "<p>Each Arudora memento is unique in appearance, but all seven are approximately the same size. Carried by each of the cursed family members, these mementos have within them the power to unlock entire portions of Bastardhall from the ghostly cursed state the castle traditionally exists in.</p><hr><p><strong>Activate—Return Memento</strong> <span class=\"action-glyph\">3</span> (manipulate) You place the memento into the appropriate statue's clutches in the fountain located in area <strong>B3</strong> of Bastardhall. The statue briefly animates to claim the memento, which turns to stone and becomes thereafter a permanent part of the statue, effectively destroying the memento while granting a boon to the party that persists for the remainder of this Adventure Path. When this eerie medallion is Returned, the towers (detailed in Chapter 9) are unlocked, and the spirits of those trapped in Bastardhall rise up to aid the PCs. All weapon Strikes made by PCs deal an additional @Damage[1[spirit]] damage for the rest of the Adventure Path.</p><hr><p><strong>Destruction</strong> An Arudora memento is destroyed when it's activated with Return Memento, and the boon it grants upon this returning lasts until the very end of the Adventure Path.</p>",
+            "value": ""
+          },
+          "rules": [],
+          "slug": "irrokciss-medallion",
+          "_migration": {
+            "version": 0.959,
+            "lastMigration": null,
+            "previous": null
+          },
+          "traits": {
+            "otherTags": [],
+            "value": [
+              "artifact",
+              "occult"
+            ],
+            "rarity": "rare"
+          },
+          "publication": {
+            "title": "Pathfinder Adventure Path: Bastion of Blasphemies",
+            "authors": "",
+            "license": "ORC",
+            "remaster": true
+          },
+          "level": {
+            "value": 14
+          },
+          "quantity": 1,
+          "baseItem": null,
+          "bulk": {
+            "value": 1
+          },
+          "hp": {
+            "value": 0,
+            "max": 0
+          },
+          "hardness": 0,
+          "price": {
+            "value": {}
+          },
+          "equipped": {
+            "carryType": "worn",
+            "invested": null
+          },
+          "containerId": null,
+          "size": "med",
+          "material": {
+            "type": null,
+            "grade": null
+          },
+          "identification": {
+            "status": "identified",
+            "unidentified": {
+              "name": "",
+              "img": "",
+              "data": {
+                "description": {
+                  "value": ""
+                }
+              }
+            }
+          },
+          "usage": {
+            "value": "held-in-one-hand"
+          },
+          "subitems": []
+        },
+        "type": "equipment",
+        "effects": [],
+        "folder": null,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {}
+      },
+      "approvedItem": {
+        "_id": "5dw1QU2xjSgSXjs2",
+        "_stats": {
+          "coreVersion": "14.369",
+          "systemId": "pf2e",
+          "systemVersion": "8.6.1",
+          "compendiumSource": "Compendium.pf2e.equipment-srd.Item.0LrDMdMNqUb9cxSV",
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "duplicateSource": null,
+          "exportSource": null
+        },
+        "img": "icons/commodities/treasure/dreamcatcher-brown.webp",
+        "name": "伊罗克西斯的徽章 Irrokcis's Medallion",
+        "sort": 3200000,
+        "system": {
+          "description": {
+            "gm": "<p>每件阿鲁多拉信物的外观各不相同，但七件信物的尺寸大致相仿。它们由受诅咒的家族成员各自携带，蕴含的力量能够使孽裔厅堂的整片区域脱离城堡通常所处的幽灵般受诅咒状态。</p><hr><p><strong>激活—归还信物</strong> <span class=\"action-glyph\">3</span>（操作）你将信物放入孽裔厅堂<strong>B3</strong>区域喷泉中对应雕像的手中。雕像短暂活化，接过信物；信物随后化为石头，永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这枚诡异的徽章后，高塔（详见第9章）解锁，受困于孽裔厅堂的灵魂起身援助PC。在本冒险之路余下的时间里，PC进行的所有武器打击额外造成@Damage[1[spirit]]伤害。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在激活“归还信物”时被摧毁；归还所赋予的恩赐持续到本冒险之路彻底结束。</p>",
+            "value": ""
+          },
+          "rules": [],
+          "slug": "irrokciss-medallion",
+          "_migration": {
+            "version": 0.959,
+            "lastMigration": null,
+            "previous": null
+          },
+          "traits": {
+            "otherTags": [],
+            "value": [
+              "artifact",
+              "occult"
+            ],
+            "rarity": "rare"
+          },
+          "publication": {
+            "title": "Pathfinder冒险之路：亵渎堡垒",
+            "authors": "",
+            "license": "ORC",
+            "remaster": true
+          },
+          "level": {
+            "value": 14
+          },
+          "quantity": 1,
+          "baseItem": null,
+          "bulk": {
+            "value": 1
+          },
+          "hp": {
+            "value": 0,
+            "max": 0
+          },
+          "hardness": 0,
+          "price": {
+            "value": {}
+          },
+          "equipped": {
+            "carryType": "worn",
+            "invested": null
+          },
+          "containerId": null,
+          "size": "med",
+          "material": {
+            "type": null,
+            "grade": null
+          },
+          "identification": {
+            "status": "identified",
+            "unidentified": {
+              "name": "",
+              "img": "",
+              "data": {
+                "description": {
+                  "value": ""
+                }
+              }
+            }
+          },
+          "usage": {
+            "value": "held-in-one-hand"
+          },
+          "subitems": []
+        },
+        "type": "equipment",
+        "effects": [],
+        "folder": null,
+        "ownership": {
+          "default": 0
+        },
+        "flags": {}
+      },
+      "nameRecord": {
+        "selectors": [
+          "actors",
+          {
+            "id": "V90ggUnKvweg3G0q"
+          },
+          "items",
+          {
+            "id": "5dw1QU2xjSgSXjs2"
+          },
+          "name"
+        ],
+        "before": "Irrokcis's Medallion",
+        "after": "伊罗克西斯的徽章 Irrokcis's Medallion",
+        "sourceSha256": "fd081917f3778c38d4de0e9bebc151f5b1ea433388754378527eef04a83a4f52",
+        "review": "translations/actors.json",
+        "priorItemId": "ZuAqde8pPKwaqyNv"
+      },
+      "nameRecordSha256": "b1e7da8051bc31a4211986560e6ae2aab570a03724fef7493eb2b24033255d43",
+      "actorNameRecordSha256": "494dabbceb0230adfed8c67bd1b467ff23b6ee8241db4d5940f7415ac0e83620",
+      "originalName": "Irrokcis's Medallion",
+      "approvedName": "伊罗克西斯的徽章 Irrokcis's Medallion",
+      "chineseName": "伊罗克西斯的徽章",
+      "displayName": "已毁的伊罗克西斯的徽章 Destroyed Irrokcis's Medallion",
+      "nativeExplicitSlug": "irrokciss-medallion",
+      "nativeManagerTriggers": true,
+      "canonicalPaths": [
+        "actors[290].items[31].name",
+        "actors[290].items[31].system.description.gm",
+        "actors[290].items[31].system.publication.title"
+      ],
+      "marker": {
+        "version": 1,
+        "actorId": "V90ggUnKvweg3G0q",
+        "itemId": "5dw1QU2xjSgSXjs2",
+        "sourceFingerprint": "a8ca2dc9c61421186fd642b53e97227d1c4c78d4b804956ef0508bb53be25741",
+        "approvalFingerprint": "aaf99a6a5dcb10c5f368f575651a306a83c5d4b6e286e1858b6e6c330b4f645f"
+      },
+      "approvedItemVariants": [
+        {
+          "_id": "5dw1QU2xjSgSXjs2",
+          "_stats": {
+            "coreVersion": "14.369",
+            "systemId": "pf2e",
+            "systemVersion": "8.6.1",
+            "compendiumSource": "Compendium.pf2e.equipment-srd.Item.0LrDMdMNqUb9cxSV",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "img": "icons/commodities/treasure/dreamcatcher-brown.webp",
+          "name": "伊罗克西斯的徽章 Irrokcis's Medallion",
+          "sort": 3200000,
+          "system": {
+            "description": {
+              "gm": "<p>每件阿鲁多拉信物的外观各不相同，但七件信物的尺寸大致相仿。它们由受诅咒的家族成员各自携带，蕴含的力量能够使孽裔厅堂的整片区域脱离城堡通常所处的幽灵般受诅咒状态。</p><hr><p><strong>启动—归还信物</strong> <span class=\"action-glyph\">3</span>（操作） 你将信物放入孽裔厅堂区域 <strong>B3</strong> 喷泉中对应雕像的手中。雕像短暂活化，接过信物；信物随即化为石头，此后永久成为雕像的一部分，相当于被摧毁，同时给予队伍一项持续至本冒险之路结束的恩赐。归还这枚诡异的徽章后，高塔（详见第9章）解锁，受困于孽裔厅堂的精魂会奋起帮助玩家角色。在本冒险之路余下的时间里，玩家角色进行的所有武器打击额外造成 @Damage[1[spirit]] 伤害。</p><hr><p><strong>摧毁</strong> 阿鲁多拉信物在以归还信物启动时被摧毁，而此次归还授予的恩赐会持续至本冒险之路的最终结束。</p>",
+              "value": ""
+            },
+            "rules": [],
+            "slug": "irrokciss-medallion",
+            "_migration": {
+              "version": 0.959,
+              "lastMigration": null,
+              "previous": null
+            },
+            "traits": {
+              "otherTags": [],
+              "value": [
+                "artifact",
+                "occult"
+              ],
+              "rarity": "rare"
+            },
+            "publication": {
+              "title": "Pathfinder冒险之路：亵渎堡垒",
+              "authors": "",
+              "license": "ORC",
+              "remaster": true
+            },
+            "level": {
+              "value": 14
+            },
+            "quantity": 1,
+            "baseItem": null,
+            "bulk": {
+              "value": 1
+            },
+            "hp": {
+              "value": 0,
+              "max": 0
+            },
+            "hardness": 0,
+            "price": {
+              "value": {}
+            },
+            "equipped": {
+              "carryType": "worn",
+              "invested": null
+            },
+            "containerId": null,
+            "size": "med",
+            "material": {
+              "type": null,
+              "grade": null
+            },
+            "identification": {
+              "status": "identified",
+              "unidentified": {
+                "name": "",
+                "img": "",
+                "data": {
+                  "description": {
+                    "value": ""
+                  }
+                }
+              }
+            },
+            "usage": {
+              "value": "held-in-one-hand"
+            },
+            "subitems": []
+          },
+          "type": "equipment",
+          "effects": [],
+          "folder": null,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {
+            "babele": {
+              "translated": true,
+              "hasTranslation": true,
+              "originalName": "Irrokcis's Medallion",
+              "originalPayload": {
+                "name": "Irrokcis's Medallion",
+                "description": "",
+                "gmnote": "<p>Each Arudora memento is unique in appearance, but all seven are approximately the same size. Carried by each of the cursed family members, these mementos have within them the power to unlock entire portions of Bastardhall from the ghostly cursed state the castle traditionally exists in.</p><hr><p><strong>Activate—Return Memento</strong> <span class=\"action-glyph\">3</span> (manipulate) You place the memento into the appropriate statue's clutches in the fountain located in area <strong>B3</strong> of Bastardhall. The statue briefly animates to claim the memento, which turns to stone and becomes thereafter a permanent part of the statue, effectively destroying the memento while granting a boon to the party that persists for the remainder of this Adventure Path. When this eerie medallion is Returned, the towers (detailed in Chapter 9) are unlocked, and the spirits of those trapped in Bastardhall rise up to aid the PCs. All weapon Strikes made by PCs deal an additional @Damage[1[spirit]] damage for the rest of the Adventure Path.</p><hr><p><strong>Destruction</strong> An Arudora memento is destroyed when it's activated with Return Memento, and the boon it grants upon this returning lasts until the very end of the Adventure Path.</p>",
+                "prerequisites": [],
+                "bobPublication": "Pathfinder Adventure Path: Bastion of Blasphemies"
+              },
+              "lang": "cn"
+            }
+          }
+        }
+      ]
     }
   ],
   "fountain": {

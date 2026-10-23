@@ -14,7 +14,7 @@ export function installBobNoteDisplay({NoteRuleClass, ItemClass, ActorClass, Cha
   bindings, isEnabled, getUser, getActors = () => [], matchesPreparedName = () => false}) {
   if ([NoteRuleClass, ItemClass, ActorClass, ChatMessageClass, TextEditorClass, isEnabled, getUser, getActors]
     .some(v => typeof v !== 'function') || !Array.isArray(bindings)) throw Error('Native Note consumers and gates required.');
-  const rows = bindings.map(b => {
+  const rows = bindings.flatMap(b => [b, ...(b.sourceVariants ?? [])]).map(b => {
     if (b.approved !== true || !['actorItem','worldItem'].includes(b.scope) || b.sourceRule?.key !== 'Note'
       || !Number.isInteger(b.ruleIndex) || !/^[a-f0-9]{64}$/.test(b.sourceRuleSha256 ?? '')
       || !Object.keys(b.display ?? {}).length || Object.entries(b.display).some(([k,v]) => !['title','text'].includes(k)
@@ -22,9 +22,9 @@ export function installBobNoteDisplay({NoteRuleClass, ItemClass, ActorClass, Cha
       throw Error('Invalid approved Note binding.');
     return freeze(JSON.parse(JSON.stringify(b)));
   });
-  const keys = rows.map(r => `${r.scope}/${r.actorId}/${r.itemId}/${r.ruleIndex}`);
+  const keys = rows.map(r => `${r.scope}/${r.actorId}/${r.itemId}/${r.ruleIndex}/${r.sourceRuleSha256}`);
   if (new Set(keys).size !== keys.length) throw Error('Duplicate Note identity binding.');
-  const restorations = [], noteMethods = new Map(), captured = new WeakMap(), transient = new WeakMap();
+  const restorations = [], noteMethods = new Map(), preparedRules = new WeakMap(), captured = new WeakMap(), transient = new WeakMap();
   let active = true;
   const enabled = () => active && isEnabled() && !!getUser();
   function wrap(object, key, factory) {
@@ -50,7 +50,9 @@ export function installBobNoteDisplay({NoteRuleClass, ItemClass, ActorClass, Cha
     if (!enabled() || !(rule instanceof NoteRuleClass) || rule.key !== 'Note' || rule.ignored) return null;
     const item = rule.item, actor = item?.actor, source = item?._source, as = actor?._source;
     if (!(item instanceof ItemClass) || !actorOK(actor) || item.parent !== actor || actor.items?.get(item.id) !== item
-      || !item.rules?.includes(rule) || rule.actor !== actor || !packOK(item.pack)) return null;
+      || !Array.isArray(item.rules) || rule.actor !== actor || !packOK(item.pack)) return null;
+    const current = item.rules.includes(rule), prepared = preparedRules.get(rule);
+    if (!current && (prepared?.item !== item || prepared.actor !== actor)) return null;
     const matches = rows.filter(row => {
       if (rule.sourceIndex !== row.ruleIndex || item.type !== row.itemType || source?.type !== row.itemType
         || (item.name !== row.itemName && !preparedNameOK(item, row)) || source.name !== row.itemName
@@ -78,7 +80,14 @@ export function installBobNoteDisplay({NoteRuleClass, ItemClass, ActorClass, Cha
         && same([...rule.outcome], r.outcome ?? []) && nil(rule.visibility) === nil(r.visibility)
         && nil(rule.title) === nil(r.title) && rule.text === r.text;
     });
-    return matches.length === 1 ? {row:matches[0], item, actor, rule} : null;
+    if (matches.length !== 1) return null;
+    const row = matches[0];
+    if (!current) {
+      // applyDamage clones notes before its HP update replaces the prepared rules.
+      const replacements = item.rules.filter(r => r.sourceIndex === rule.sourceIndex);
+      if (prepared.row !== row || replacements.length !== 1 || resolveRule(replacements[0])?.row !== row) return null;
+    }
+    return {row, item, actor, rule};
   }
   function injected(value, item) {
     if (Array.isArray(value)) return value.map(v => injected(v,item));
@@ -107,6 +116,8 @@ export function installBobNoteDisplay({NoteRuleClass, ItemClass, ActorClass, Cha
       .filter(n => n && typeof n.toObject === 'function');
   }
   function observe(note) {
+    const binding = approve(note);
+    if (binding) preparedRules.set(binding.rule, {row:binding.row,item:binding.item,actor:binding.actor});
     const proto = Object.getPrototypeOf(note);
     if (noteMethods.has(proto)) return;
     const native = wrap(proto,'toHTML', original => function (...args) {
