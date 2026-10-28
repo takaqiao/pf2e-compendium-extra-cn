@@ -1,5 +1,5 @@
 {
-  "label": "憎恶地窟：附加内容 - 场景 Abomination Vaults: Addons - Scenes",
+  "label": "憎恨魔窟：附加内容 - 场景 Abomination Vaults: Addons - Scenes",
   "mapping": {
     "name": "name",
     "drawings": {
@@ -602,7 +602,7 @@
       "regions": {},
       "tokens": {
         "sbFGnxdz52bjQGay": {
-          "name": "卡尔曼·拉贾尼 Carman Rajani",
+          "name": "卡曼·拉贾尼 Carman Rajani",
           "delta": {
             "name": null,
             "skills": {},
@@ -685,7 +685,7 @@
                 "kitContents": {}
               },
               "sw2cUfwefogSDPHR": {
-                "name": "大众之力 Power of the Mob",
+                "name": "人多势众 Power of the Mob",
                 "description": "<p>处于第一阈值时，平民在用于@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}的运动检定、攻击检定和伤害掷骰上获得+2环境加值；到了第二阈值，该加值降至+1，第三阈值则降至0。</p>",
                 "gmDescription": "",
                 "heighteningLevels": {},

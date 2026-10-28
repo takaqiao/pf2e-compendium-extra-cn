@@ -1,15 +1,15 @@
 {
   "PF2EAV": {
     "ADVENTURE": {
-      "Title": "憎恶地窟",
-      "Importer": "憎恶地窟导入器",
+      "Title": "憎恨魔窟",
+      "Importer": "憎恨魔窟导入器",
       "OPTIONS": {
         "EnhancedMapsLabel": "优先使用增强地图",
         "EnhancedMapsHint": "把增强版地图加入世界的场景导航栏；取消勾选则改用原始地图。",
         "ActivateSceneLabel": "激活初始场景",
         "ActivateSceneHint": "激活一个「封面」场景。",
         "DisplayJournalLabel": "显示入门日志",
-        "DisplayJournalHint": "为 GM 打开「入门」日志条目。",
+        "DisplayJournalHint": "为主持人打开「入门」日志条目。",
         "CustomizeJoinLabel": "自定义世界信息",
         "CustomizeJoinHint": "修改世界的描述与横幅图片。"
       },

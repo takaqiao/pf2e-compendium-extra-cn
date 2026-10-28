@@ -40,6 +40,7 @@ const TRAIT_PROPAGATIONS = {
   actionTraits: ['effectTraits'],
   classTraits: ['featTraits', 'spellTraits'],
   creatureTraits: ['ancestryTraits', 'hazardTraits'],
+  featTraits: ['actionTraits'],
 };
 
 function applyHomebrewTranslations(homebrewJson, sourceModuleId) {

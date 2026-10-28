@@ -21,10 +21,10 @@
       }
     },
     "D8 Blueprint Level Two": {
-      "name": "D8 蓝图 等级 二 D8 Blueprint Level Two",
+      "name": "D8 第二层蓝图 D8 Blueprint Level Two",
       "pages": {
         "D8 Blueprint Level Two": {
-          "name": "D8 蓝图 等级 二 D8 Blueprint Level Two",
+          "name": "D8 第二层蓝图 D8 Blueprint Level Two",
           "src": "modules/footsteps-of-otari/artwork/npc-maps/d8-av-blueprint-level02.webp"
         }
       }
@@ -39,46 +39,46 @@
       }
     },
     "G10 Blueprint Level Six": {
-      "name": "G10 蓝图 等级 六 G10 Blueprint Level Six",
+      "name": "G10 第六层蓝图 G10 Blueprint Level Six",
       "pages": {
         "G10 Blueprint Level Six": {
-          "name": "G10 蓝图 等级 六 G10 Blueprint Level Six",
+          "name": "G10 第六层蓝图 G10 Blueprint Level Six",
           "src": "modules/footsteps-of-otari/artwork/npc-maps/D10-av-blueprint-level06.webp"
         }
       }
     },
     "A10 Boss Skrawng's Map of Level One": {
-      "name": "A10 斯夸老大的第一等级地图 A10 Boss Skrawng's Map of Level One",
+      "name": "A10 斯夸老大的第一层地图 A10 Boss Skrawng's Map of Level One",
       "pages": {
         "A10 Boss Skrawng's Map of Level One": {
-          "name": "A10 斯夸老大的第一等级地图 A10 Boss Skrawng's Map of Level One",
+          "name": "A10 斯夸老大的第一层地图 A10 Boss Skrawng's Map of Level One",
           "src": "modules/footsteps-of-otari/artwork/npc-maps/A10-boss-skrawng-map-lvl01.webp"
         }
       }
     },
     "D8 Blueprint Level Three": {
-      "name": "D8 蓝图 等级 三 D8 Blueprint Level Three",
+      "name": "D8 第三层蓝图 D8 Blueprint Level Three",
       "pages": {
         "D8 Blueprint Level Three": {
-          "name": "D8 蓝图 等级 三 D8 Blueprint Level Three",
+          "name": "D8 第三层蓝图 D8 Blueprint Level Three",
           "src": "modules/footsteps-of-otari/artwork/npc-maps/d8-av-blueprint-level03.webp"
         }
       }
     },
     "G10 Blueprint Level Seven": {
-      "name": "G10 蓝图 等级七 G10 Blueprint Level Seven",
+      "name": "G10 第七层蓝图 G10 Blueprint Level Seven",
       "pages": {
         "G10 Blueprint Level Seven": {
-          "name": "G10 蓝图 等级七 G10 Blueprint Level Seven",
+          "name": "G10 第七层蓝图 G10 Blueprint Level Seven",
           "src": "modules/footsteps-of-otari/artwork/npc-maps/D10-av-blueprint-level07.webp"
         }
       }
     },
     "G10 Blueprint Level Five": {
-      "name": "G10 蓝图 等级 五 G10 Blueprint Level Five",
+      "name": "G10 第五层蓝图 G10 Blueprint Level Five",
       "pages": {
         "G10 Blueprint Level Five": {
-          "name": "G10 蓝图 等级 五 G10 Blueprint Level Five",
+          "name": "G10 第五层蓝图 G10 Blueprint Level Five",
           "src": "modules/footsteps-of-otari/artwork/npc-maps/D10-av-blueprint-level05.webp"
         }
       }
@@ -102,10 +102,10 @@
       }
     },
     "H5 Caligni Maps": {
-      "name": "H5 卡林吉地图 H5 Caligni Maps",
+      "name": "H5 卡利尼地图 H5 Caligni Maps",
       "pages": {
         "H5 Caligni Maps": {
-          "name": "H5 卡林吉地图 H5 Caligni Maps",
+          "name": "H5 卡利尼地图 H5 Caligni Maps",
           "src": "modules/footsteps-of-otari/artwork/npc-maps/H5%20-%20Caligni%20maps.webp"
         }
       }
@@ -190,7 +190,7 @@
       "pages": {
         "Printing Press": {
           "name": "印刷机 Printing Press",
-          "text": "<p>屋里满是新鲜油墨与纸张的气味，房间正中立着一台老式印刷机——当年不惜重金，费尽周折才从首都运到这里。北面墙边堆着一箱箱物料、工具和半成品。</p><p></p><p>一扇简易的活板门通往楼下的主层，可以从这一侧闩上。西墙上一扇大窗引入自然光，也能望见门前的街道。后侧有一道大推拉门，供货物出入阁楼。门外几尺处，一台大绞盘用螺栓固定在地板上，角落里堆着几卷绳索。</p><p></p><p>一个角落里挂着张吊床。这个房间既是卡莱尔的避风港，也是他的工坊。</p>"
+          "text": "<p>屋里满是新鲜油墨与纸张的气味，房间正中立着一台老式印刷机——当年不惜重金，费尽周折才从首都运到这里。北面墙边堆着一箱箱物料、工具和半成品。</p><p></p><p>一扇简易的活板门通往楼下的主层，可以从这一侧闩上。西墙上一扇大窗引入自然光，也能望见门前的街道。后侧有一道大推拉门，供货物出入阁楼。离门几尺处，一台大绞盘用螺栓固定在地板上，角落里堆着几卷绳索。</p><p></p><p>一个角落里挂着张吊床。这个房间既是卡莱尔的避风港，也是他的工坊。</p>"
         },
         "Back Room": {
           "name": "后室 Back Room",

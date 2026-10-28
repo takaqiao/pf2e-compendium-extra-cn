@@ -2,7 +2,7 @@
   "abomination-vaults-addons": {
     "drawing-text": {
       "floor": "楼层",
-      "title:": "为地图中不清楚的部分添加附加内容绘图标签",
+      "title:": "为地图上标示不清的区域添加本附加模组的绘图标签",
       "submit": "提交",
       "cancel": "取消",
       "progress-text": "正在添加绘图注释",
@@ -13,7 +13,7 @@
       "illusory-floor-ceil": "幻象地板与天花板",
       "stair-descending": "这些楼梯通往下方",
       "not-toxic-air": "空气无毒",
-      "title": "为地图中不清楚的部分添加附加内容绘图标签"
+      "title": "为地图上标示不清的区域添加本附加模组的绘图标签"
     },
     "module-settings": {
       "prison-door-flame": {

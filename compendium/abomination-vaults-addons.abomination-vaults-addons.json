@@ -1,5 +1,5 @@
 {
-  "label": "憎恶地窟：附加内容 Abomination Vaults: Addons",
+  "label": "憎恨魔窟：附加内容 Abomination Vaults: Addons",
   "mapping": {
     "name": "name",
     "description": "description",
@@ -1281,12 +1281,12 @@
   },
   "entries": {
     "2VMuX2d25r7dYPSM": {
-      "name": "憎恶地窟：附加内容 Abomination Vaults: Addons",
-      "description": "<img src=\"https://raw.githubusercontent.com/ChasarooniZ/chasarooniz.github.io/refs/heads/main/cats.png\" alt=\"模组横幅\"><p>欢迎使用憎恶地窟：扩充组件。</p><p></p><p>导入之后，请查看<strong>憎恶地窟：扩充组件</strong>文档，以了解本模组各项功能的更多信息。</p><p></p><p>你可以在下方支持我（Chasarooni，本模组绝大多数改动的整合者，也是模组代码与动画的主要开发者）</p><a href=\"https://ko-fi.com/X8X2YNZZR\" target=\"_blank\"><img src=\"https://storage.ko-fi.com/cdn/kofi6.png?v=6\" alt=\"在ko-fi.com请我喝杯咖啡\" height=\"36\"></a>",
-      "caption": "憎恶地窟——附加内容：日志、角色等。",
+      "name": "憎恨魔窟：附加内容 Abomination Vaults: Addons",
+      "description": "<img src=\"https://raw.githubusercontent.com/ChasarooniZ/chasarooniz.github.io/refs/heads/main/cats.png\" alt=\"模组横幅\"><p>欢迎使用憎恨魔窟：扩充组件。</p><p></p><p>导入之后，请查看<strong>憎恨魔窟：扩充组件</strong>文档，以了解本模组各项功能的更多信息。</p><p></p><p>你可以在下方支持我（Chasarooni，本模组绝大多数改动的整合者，也是模组代码与动画的主要开发者）</p><a href=\"https://ko-fi.com/X8X2YNZZR\" target=\"_blank\"><img src=\"https://storage.ko-fi.com/cdn/kofi6.png?v=6\" alt=\"在ko-fi.com请我喝杯咖啡\" height=\"36\"></a>",
+      "caption": "憎恨魔窟——附加内容：日志、角色等。",
       "folders": {
         "sWA0tCYFgBfHnof6": {
-          "name": "憎恶地窟：附加内容 Abomination Vaults: Addons"
+          "name": "憎恨魔窟：附加内容 Abomination Vaults: Addons"
         },
         "zvl2RsQDzEPIVTJn": {
           "name": "10: 引来恶毒凝视 10: To Draw The Baleful Glare"
@@ -1295,16 +1295,16 @@
           "name": "动画 Animations"
         },
         "OfH0ZqG3hwnrSdpa": {
-          "name": "憎恶地窟：附加内容 Abomination Vaults: Addons"
+          "name": "憎恨魔窟：附加内容 Abomination Vaults: Addons"
         },
         "nLQDkjcnn5oCK5vP": {
-          "name": "憎恶地窟：附加内容 Abomination Vaults: Addons"
+          "name": "憎恨魔窟：附加内容 Abomination Vaults: Addons"
         },
         "p84txsfYYdvmAa6s": {
           "name": "宁布洛斯的诅咒 Nhimbaloth Curses"
         },
         "BkS6povLS9GAqOEb": {
-          "name": "憎恶地窟：附加内容 Abomination Vaults: Addons"
+          "name": "憎恨魔窟：附加内容 Abomination Vaults: Addons"
         },
         "RAbvwXiC80nMnRXm": {
           "name": "05: 进入训练场 05: Into The Training Grounds"
@@ -1345,7 +1345,7 @@
           "name": "伏行之手集群 Crawling Hand Swarm",
           "tokenName": "伏行之手集群 Crawling Hand Swarm",
           "prototypeToken": "伏行之手集群 Crawling Hand Swarm",
-          "publicNotes": "<p>注意，需要<strong>Swarms</strong>模块才能实际形成集群</p>",
+          "publicNotes": "<p>注意，需要<strong>Swarms</strong>模组才能实现集群效果</p>",
           "privateNotes": "",
           "blurb": "",
           "hp": "虚能治疗",
@@ -1381,7 +1381,7 @@
             },
             "9o47ekgkdc945ugj": {
               "name": "扼声 Stifle",
-              "description": "<p><strong>触发</strong> 集群的空间内的一名生物尝试以带有语言成分的方式施法，或尝试一个带有语言或发声特征的动作</p><hr />\n<p><strong>效果</strong> 集群中的手紧紧捂住触发生物的嘴，阻止其发声。受影响的生物必须在一次 @Check[type:reflex|dc:22] 豁免中成功，否则触发的动作被打断。</p>",
+              "description": "<p><strong>触发</strong> 集群所占空间内的一个生物尝试施放含有语言成分的法术，或尝试使用带有语言或发声特征的动作</p><hr />\n<p><strong>效果</strong> 集群中的手紧紧捂住触发生物的嘴，使其无法发声。受影响的生物必须通过 @Check[type:reflex|dc:22] 豁免，否则触发此反应的动作被打断。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -1397,7 +1397,7 @@
             },
             "ywlwy311xye2c52k": {
               "name": "重击擒抱 Pummeling Grasp",
-              "description": "<p>集群空间内的每个敌人受到 @Damage[3d6[slashing]] 伤害（@Check[type:reflex|dc:20|basic:true]）。对“重击擒抱”进行豁免失败的生物也会被击倒为 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>",
+              "description": "<p>集群空间内的每个敌人受到 @Damage[3d6[slashing]] 伤害（@Check[type:reflex|dc:20|basic:true]）。对“重击擒抱”的豁免失败的生物还会被击倒，陷入 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -1410,7 +1410,7 @@
           "tokenName": "幽灵洞穴蠕虫 Ghostly Cave Worm",
           "prototypeToken": "幽灵洞穴蠕虫 Ghostly Cave Worm",
           "publicNotes": "<p>这只洞穴蠕虫是贝科拉的宠物蠕虫，来自 @UUID[JournalEntry.uMZ0RiCcPSqsx1Nm.JournalEntryPage.8pbhSFgv71lvCz9M]{B35. 凄凉灯塔地下室}。</p>",
-          "privateNotes": "<p><strong>注意：</strong>需要拥有<strong>开拓者怪物核心</strong>模块才能显示这些美术图片</p>",
+          "privateNotes": "<p><strong>注意：</strong>需要拥有<strong>开拓者怪物核心</strong>模组才能显示这些美术图片</p>",
           "blurb": "",
           "hp": "",
           "allSaves": "",
@@ -1449,7 +1449,7 @@
               "kitContents": {}
             },
             "9AEzHj5y2T93e7EF": {
-              "name": "吐出 Regurgitate",
+              "name": "反刍 Regurgitate",
               "description": "",
               "gmDescription": "",
               "heighteningLevels": {},
@@ -1465,7 +1465,7 @@
               "kitContents": {}
             },
             "IoAJluZoGb9mgLGv": {
-              "name": "不可阻拦 Inexorable",
+              "name": "势不可挡 Inexorable",
               "description": "<p>洞穴蠕虫在其回合结束时从 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}、@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢}和 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑}状态中恢复。它也免疫对其速度的减值以及 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}状态，并且它无视困难地形与严重困难地形。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
@@ -1473,8 +1473,8 @@
               "kitContents": {}
             },
             "y0G6Hcirsc4uakIL": {
-              "name": "蜕皮术 Slough Skin",
-              "description": "<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 洞穴蠕虫将会受到一种状态或不利效果的影响（例如 @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{恶咒变形术}）</p>\n<hr />\n<p><strong>效果</strong> 洞穴蠕虫通过脱落其皮肤的外层来抵消触发的状态或效果。来自神器、神祇或类似强大来源的效果无法以这种方式避免。</p>",
+              "name": "脱皮 Slough Skin",
+              "description": "<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 洞穴蠕虫将会受到一种状态或不利效果的影响（例如 @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{恶咒变形术}）</p>\n<hr />\n<p><strong>效果</strong> 洞穴蠕虫蜕去一层外皮，抵消触发的状态或效果。来自神器、神祇或类似强大来源的效果无法以这种方式避免。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -1489,15 +1489,15 @@
               "kitContents": {}
             },
             "rGTmjeER3V1KY02w": {
-              "name": "快速吞噬 Fast Swallow",
-              "description": "<p><strong>触发</strong> 洞穴蠕虫 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{擒抱} 一名生物。</p>\n<hr />\n<p><strong>效果</strong> 蠕虫使用活吞。</p>",
+              "name": "快速活吞 Fast Swallow",
+              "description": "<p><strong>触发</strong> 洞穴蠕虫 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{擒获} 一名生物。</p>\n<hr />\n<p><strong>效果</strong> 蠕虫使用活吞。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
               "kitContents": {}
             },
             "crXV18abZr2DcEh8": {
-              "name": "吐出 Regurgitate",
+              "name": "反刍 Regurgitate",
               "description": "<p>紫虫可以猛力喷出它吞下的生物或巨岩，以此发动一次远程打击。该打击造成的钝击伤害取决于投射物的体型：</p><ul><li>超小型 @Damage[(2d6+13)[bludgeoning]]{2d6+13}</li><li>小型 @Damage[(3d6+13)[bludgeoning]]{3d6+13}</li><li>中型 @Damage[(4d6+13)[bludgeoning]]{4d6+13}</li><li>大型 @Damage[(5d6+13)[bludgeoning]]{5d6+13}</li><li>超大型 @Damage[(6d6+13)[bludgeoning]]{6d6+13}</li></ul><p>被喷出的生物会承受坠落伤害，其高度取目标所在高度与20尺中的较大者。</p><p>巨岩在紫虫胃中占据的空间等同于同体型的生物，紫虫往往吞下数块巨岩。紫虫可以花费一个单动作吞下一块新的巨岩。</p><p>@UUID[Macro.X28HKDQaNJxl4fci]{反刍动画}</p>",
               "gmDescription": "",
               "heighteningLevels": {},
@@ -1505,8 +1505,8 @@
               "kitContents": {}
             },
             "8EY2qfk7YZdvckfJ": {
-              "name": "掘岩者 Rock Tunneler",
-              "description": "<p>洞穴蠕虫可以以20英尺的速度在坚固的石头中掘进。若它愿意，它可以留下隧道，而且它通常会这么做。</p>",
+              "name": "掘洞者 Rock Tunneler",
+              "description": "<p>洞穴蠕虫能以20英尺的速度掘穿坚硬岩石。它可以选择留下隧道，而且通常都会这么做。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -1514,14 +1514,14 @@
             },
             "rTDme0840mDZkokU": {
               "name": "活吞 Swallow Whole",
-              "description": "<p>超大型，@Damage[(3d6+9)[bludgeoning]]，破裂 24</p><p>@UUID[Item.7xKOXwUKrcg8gD3y]{效果：整吞（洞穴蠕虫）}</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>",
+              "description": "<p>超大型，@Damage[(3d6+9)[bludgeoning]]，破裂 24</p><p>@UUID[Item.7xKOXwUKrcg8gD3y]{效果：被活吞（洞穴蠕虫）}</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
               "kitContents": {}
             },
             "zEZW1atU8KQCSsNi": {
-              "name": "重殴 Thrash",
+              "name": "连环击 Thrash",
               "description": "<p>巨虫对其触及内的每个生物各进行一次打击。它可以用颚部打击至多一次，用其螫刺攻击至多一次，并可用其身体攻击任意次数。每次攻击都计入巨虫的多次攻击减值，但多次攻击减值直到它完成所有攻击后才会增加。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
@@ -1546,7 +1546,7 @@
             },
             "5T8kAJ39XXg1JDU8": {
               "name": "（幽灵）束缚之地 (Ghost) Site Bound",
-              "description": "<p>典型的幽灵只能离开它被杀害之处或它所徘徊的地点一小段距离。典型的限制是120尺。有些幽灵并非绑定于某个地点，而是绑定于对它而言特殊的一间房间、一栋建筑、一件物品或一名生物。</p>",
+              "description": "<p>幽灵通常只能离开遇害之处或其出没之地一小段距离，一般不超过120尺。有些幽灵则束缚于对它有特殊意义的房间、建筑、物品或生物，而非某个地点。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -1554,7 +1554,7 @@
             },
             "L26LaGdn9r5Sghzr": {
               "name": "（幽灵）复生 (Ghost) Rejuvenation",
-              "description": "<p>当一个幽灵被摧毁时，它会在其所绑定的地点内于[[/br 2d4 #days]]{2d4天}后重新形成，并完全恢复。只有当有人查明其存在的原因，并纠正任何阻止该精魂安息的事物时，幽灵才能被永久摧毁。</p>",
+              "description": "<p>幽灵被摧毁后，经过[[/br 2d4 #days]]{2d4天}就会在束缚它的地点重新成形，并完全恢复。只有查明幽灵存在的原因，并解决阻止其精魂安息的问题，才能将它永久摧毁。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -1575,7 +1575,7 @@
           "skills": {},
           "items": {
             "njZatSEaRknTKj8R": {
-              "name": "凄凉灯塔 腿数统计 Gauntlight Legs Count",
+              "name": "凄凉灯塔腿数统计 Gauntlight Legs Count",
               "description": "",
               "gmDescription": "",
               "duration": -1,
@@ -1589,10 +1589,10 @@
           "name": "幽灵女王的倒影 Ghost Queen's Reflection",
           "tokenName": "幽灵女王的倒影 Ghost Queen's Reflection",
           "prototypeToken": "幽灵女王的倒影 Ghost Queen's Reflection",
-          "disable": "<p>此作祟可以通过以下三种方式之一被解除：</p><ul><li><p>进行四次 @Check[religion|dc:21]（受训）检定，以驱散贝科拉的幽灵影像。</p></li><li><p>进行两次 @Check[deception|dc:26]（受训）检定，以激怒这枚碎片——其中灌注了贝科拉本质的微小部分——使其暴怒，从而击碎其专注。</p></li><li><p>进行一次 @Check[athletics|dc:31]（专家）检定，以粉碎镜子的魔法结构，永久将其打碎。</p></li></ul>",
+          "disable": "<p>可用以下三种方式之一解除此作祟：</p><ul><li><p>进行四次 @Check[religion|dc:21]（受训）检定，以驱散贝科拉的幽灵影像。</p></li><li><p>进行两次 @Check[deception|dc:26]（受训）检定，激怒这枚蕴含贝科拉一小部分本质的碎片，使其陷入狂怒、失去专注。</p></li><li><p>进行一次 @Check[athletics|dc:31]（专家）检定，破坏镜子的魔法结构，将其永久击碎。</p></li></ul>",
           "hazarddescription": "<p>镜中的倒影微妙地扭曲变形，表情化作令人不安的恶意狞笑。那是一名美丽却显得残酷的女子的影像，嘴唇上沾着血点，双手看起来更像利爪。</p>",
           "reset": "<p>除非已被解除，否则此作祟会在1分钟后重新成形。</p>",
-          "routine": "<p>（2 动作）</p><p>此作祟使用成为实验动作。</p>",
+          "routine": "<p>（2 动作）</p><p>此作祟使用“成为实验”动作。</p>",
           "stealthdetails": "<p>（专家）</p>",
           "hp": "",
           "skills": {},
@@ -1615,7 +1615,7 @@
             },
             "17gJOHIRtWXfYMKa": {
               "name": "汲取生命力 Sap Vitality",
-              "description": "<p>被倒影的血液样本命中的生物必须进行一次 @Check[fortitude|dc:22] 豁免，因为祟灵试图将其部分生命精华抽入镜中。若豁免检定失败，目标获得 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 1}；若大失败，则获得 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 2}。</p>",
+              "description": "<p>被倒影的采血打击命中的生物必须进行一次 @Check[fortitude|dc:22] 豁免，因为此作祟试图将其部分生命精华抽入镜中。若豁免检定失败，目标获得 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 1}；若大失败，则获得 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 2}。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -1623,7 +1623,7 @@
             },
             "sZFhm7GrFWwQXm7E": {
               "name": "成为实验体 Become The Experiment",
-              "description": "<p><strong>效果</strong> 幽灵女王贝科拉的影像在你心中低语，迫使你屈从于她仆从的实验。此祟灵对房间内一个非邪秽生物造成 @Damage[(2d10+9)[mental]] 伤害。该生物必须尝试一次 @Check[will|dc:23|traits:damaging-effect] 意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物承受一半伤害，并变为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p><p><strong>失败</strong> 该生物承受全额伤害，变为 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，并获得 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑} 1 轮，被驱使着从东侧舱口沿其中一架梯子向下。</p><p><strong>大失败</strong> 该生物承受双倍伤害。它还会变为 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}，并获得 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑} 1 分钟，被驱使着从东侧舱口沿其中一架梯子向下。</p>",
+              "description": "<p><strong>效果</strong> 幽灵女王贝科拉的影像在你心中低语，迫使你接受她仆从的实验。此作祟对房间内一个不具有邪秽特征的生物造成 @Damage[(2d10+9)[mental]] 伤害。该生物必须进行一次 @Check[will|dc:23|traits:damaging-effect] 意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物承受一半伤害，并陷入 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p><p><strong>失败</strong> 该生物承受全额伤害，陷入 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，并陷入 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}状态，持续1轮，被驱使着沿东侧舱口的一架梯子向下爬。</p><p><strong>大失败</strong> 该生物承受双倍伤害。它还会陷入 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}，并陷入 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}状态，持续1分钟，被驱使着沿东侧舱口的一架梯子向下爬。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -1661,14 +1661,14 @@
           "items": {
             "oceXACXOoDVaTlUE": {
               "name": "骇人面容 Horrifying Visage",
-              "description": "<p><strong>需求</strong> 鬼火群处于 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}</p><hr /><p><strong>效果</strong> 鬼火群显露自身，失去其隐形，持续1轮。每个处于 @Template[type:emanation|distance:60] 内的生物必须进行一次 @Check[will|dc:26] 意志豁免。</p><p>无论其结果如何，目标在24小时内免疫“骇人面容”。</p><hr /><p><strong>大成功</strong> 该生物不受影响。<br /><strong>成功</strong> 该生物变为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。<br /><strong>失败</strong> 该生物受到 @Damage[5d8[mental]] 伤害，并变为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}。<br /><strong>大失败</strong> 该生物受到 @Damage[8d8[mental]] 伤害，并变为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 3}。</p>",
-              "gmDescription": "<p>游玩过冒险之路《憎恶地窟》的玩家，将其角色的成功等级视为比掷骰结果低一个成功等级。</p>",
+              "description": "<p><strong>需求</strong> 鬼火群处于 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}状态</p><hr /><p><strong>效果</strong> 鬼火群显形，失去隐形状态1轮。每个处于 @Template[type:emanation|distance:60] 内的生物必须进行一次 @Check[will|dc:26] 意志豁免。</p><p>无论其结果如何，目标在24小时内免疫“骇人面容”。</p><hr /><p><strong>大成功</strong> 该生物不受影响。<br /><strong>成功</strong> 该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。<br /><strong>失败</strong> 该生物受到 @Damage[5d8[mental]] 伤害，并陷入 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}。<br /><strong>大失败</strong> 该生物受到 @Damage[8d8[mental]] 伤害，并陷入 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 3}。</p>",
+              "gmDescription": "<p>游玩过冒险之路《憎恨魔窟》的玩家，将其角色的成功等级视为比掷骰结果低一个成功等级。</p>",
               "heighteningLevels": {},
               "overlays": {},
               "kitContents": {}
             },
             "UH3o03rB56pG9azA": {
-              "name": "电击虫群 Shocking Swarm",
+              "name": "电击集群 Shocking Swarm",
               "description": "<p>集群所占空间内的每个敌人受到 @Damage[5d6[electricity]] 伤害（@Check[reflex|dc:27|basic:true] 豁免）。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
@@ -1677,7 +1677,7 @@
             },
             "ilGFy8B2IeXT8uV2": {
               "name": "吞食恐惧 Feed on Fear",
-              "description": "<p><strong>频率</strong> 每轮一次</p><p><strong>需求</strong> 30尺内的一名敌人处于恐惧效果影响下或濒死</p><hr /><p><strong>效果</strong> 鬼火以生物的惊恐为食。它恢复 @Damage[4d4[healing]]{4d4 生命值}，且若它已使用隐没黑暗，其发光会重新点燃。</p>",
+              "description": "<p><strong>频率</strong> 每轮一次</p><p><strong>需求</strong> 30尺内的一名敌人处于恐惧效果影响下或濒死</p><hr /><p><strong>效果</strong> 鬼火以该生物的惊恐为食。它恢复 @Damage[4d4[healing]]{4d4 生命值}，如果它此前使用了“隐没黑暗”，便会重新发光。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -1685,7 +1685,7 @@
             },
             "roPOLMLtMCSoWev0": {
               "name": "变暗 Go Dark",
-              "description": "<p>鬼火熄灭其发光，变为@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}。它可以用另一次使用此动作来终止此效果。若它在隐形时使用其<em>电击虫群</em>，电弧会让任何观察者都能确定其位置，使鬼火对所有观察者仅为@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}，直到它移动为止。</p>",
+              "description": "<p>鬼火熄灭自身的光芒，变为@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}。它可以再次使用此动作来结束该效果。若它在隐形时使用其<em>电击集群</em>，电弧会让任何观察者都能确定其位置，使鬼火对所有观察者而言仅处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}状态，直到它移动为止。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -1700,7 +1700,7 @@
               "kitContents": {}
             },
             "U9tPGDywkcfD8gtK": {
-              "name": "虫群心智 Swarm Mind",
+              "name": "集群心智 Swarm Mind",
               "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SwarmMind]</p>",
               "gmDescription": "",
               "heighteningLevels": {},
@@ -1709,7 +1709,7 @@
             },
             "P1TTBfrORbPpYYTy": {
               "name": "发光 Glow",
-              "description": "<p>40尺。</p><p>鬼火本身天生处于隐形状态，但会发出彩色光芒，在灵光内投射明亮光照并使其可见。</p>",
+              "description": "<p>40尺。</p><p>鬼火天生隐形，但它发出的彩色光芒让灵光范围处于明亮光照，也让鬼火显露出来。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -1769,7 +1769,7 @@
             },
             "ywjNMTGbUV3PYl76": {
               "name": "甜言蜜语 Honeyed Words",
-              "description": "<p>谎言从你唇间滑出，如丝绸般顺畅。你在用于 @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎} 的欺骗检定，以及对抗用于辨别你是否在讲真话的察觉检定时，获得+4状态加值，并且即使未受训也要加入你的等级。若你的谎言因不可信而导致环境减值或DC提升，则将该减值减半，或将其增加一半。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.6vodhSeI3ClMfOGd]{法术效果：甜言蜜语}</p>",
+              "description": "<p>谎言从你唇间滑出，如丝绸般顺畅。你在以下欺骗检定中获得+4状态加值：用于 @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}，或对抗他人辨别你是否在说真话的察觉检定。即使未受训，你也能将自身等级加入这些检定。若你的谎言因不可信而导致环境减值或DC提升，则将该减值减半，或将其增加一半。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.6vodhSeI3ClMfOGd]{法术效果：甜言蜜语}</p>",
               "gmDescription": "",
               "range": "",
               "target": "",
@@ -1783,7 +1783,7 @@
             },
             "WJSOatDvCqcvR2E5": {
               "name": "流放诅咒 Outcast's Curse",
-              "description": "<p>你用一种诅咒折磨目标，使其气场变得令人烦躁且惹人厌恶。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 在10分钟内，目标在进行欺骗、交涉、威吓或表演检定时必须掷骰两次并取较差结果，并且目标遭遇的生物对其初始态度会差一级（例如，用@UUID[Compendium.pf2e.conditionitems.Item.I1ffBVISxLr2gC4u]{不友善}代替@UUID[Compendium.pf2e.conditionitems.Item.fuG8dgthlDWfWjIA]{不关心}）。</p>\n<p><strong>失败</strong> 同成功，但该效果为永久。</p>\n<p><strong>大失败</strong> 同失败，且目标遭遇的生物对其初始态度会差两级。</p>",
+              "description": "<p>你对目标施加诅咒，使其显得粗鲁、令人反感。目标必须进行一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 在10分钟内，目标在进行欺骗、交涉、威吓或表演检定时必须掷骰两次并取较差结果，并且目标遭遇的生物对其初始态度会差一级（例如，用@UUID[Compendium.pf2e.conditionitems.Item.I1ffBVISxLr2gC4u]{不友善}代替@UUID[Compendium.pf2e.conditionitems.Item.fuG8dgthlDWfWjIA]{不关心}）。</p>\n<p><strong>失败</strong> 同成功，但该效果为永久。</p>\n<p><strong>大失败</strong> 同失败，且目标遭遇的生物对其初始态度会差两级。</p>",
               "gmDescription": "",
               "range": "接触",
               "target": "1个生物",
@@ -1815,7 +1815,7 @@
             },
             "Bq8QoVRWT0wWWNwI": {
               "name": "注目术 Enthrall",
-              "description": "<p>你的言语使你的目标陷入迷魂。你在施放和持续时间内不间断地说话或歌唱。注意到你言语或歌声的目标可能会给予你全神贯注；每个目标必须尝试一次意志豁免。若目标在宗教、族裔或政治倾向上与你对立，或以其他方式不太可能同意你所说的话，GM可能会给予环境加值（最高+4）。</p>\n<p>每个进入射程的生物在你维持该法术时都必须尝试一次豁免。若你正在说话，注目术获得语言特征。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响，并注意到你试图使用魔法。</p>\n<p><strong>成功</strong> 目标不必专注聆听，但不会注意到你试图使用魔法（它可能注意到其他目标被注目术影响）。</p>\n<p><strong>失败</strong> 目标对你处于 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。若它目睹了它不同意的动作或言语，则可以再尝试一次意志豁免。若其成功，则不再迷魂，并在1小时内暂时免疫。若目标遭受一次敌对行为，或若另一名生物对其进行一次交涉或威吓检定并成功，则迷魂立即结束。</p>\n<p><strong>大失败</strong> 同失败，但若目标不同意你，它不能尝试豁免来结束迷魂。</p>",
+              "description": "<p>你的言语令目标着迷。在施法过程及法术持续期间，你必须不间断地说话或歌唱。注意到你言语或歌声的目标可能会全神贯注地聆听；每个目标都必须进行一次意志豁免。若目标在宗教、族裔或政治倾向上与你对立，或因其他原因不太可能认同你的话，GM可以给予其豁免检定环境加值（最高+4）。</p>\n<p>每个进入射程的生物在你维持该法术时都必须尝试一次豁免。若你正在说话，注目术获得语言特征。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响，并注意到你试图使用魔法。</p>\n<p><strong>成功</strong> 目标不必专注聆听，但不会注意到你试图使用魔法（它可能注意到其他目标被注目术影响）。</p>\n<p><strong>失败</strong> 目标因你而陷入 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}状态。若它看到或听到不认同的行为或言语，便可再次进行意志豁免。若豁免成功，迷魂结束，且目标在1小时内暂时免疫此法术。若目标遭受一次敌对行为，或若另一名生物对其进行一次交涉或威吓检定并成功，则迷魂立即结束。</p>\n<p><strong>大失败</strong> 同失败，但目标不能因不认同你的言行而尝试豁免来结束迷魂。</p>",
               "gmDescription": "",
               "range": "120尺",
               "target": "射程内所有生物",
@@ -1843,7 +1843,7 @@
             },
             "gnqCZEMkykq1ukbI": {
               "name": "安定心神 Calm",
-              "description": "<p>你强行使区域内的生物冷静下来，安抚它们进入非暴力状态；每个生物都必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 平静的冲动使该生物的攻击检定承受-1状态减值。</p>\n<p><strong>失败</strong> 任何将会影响该生物的情绪效果都会被压制，且该生物不能使用敌对动作。若目标受到任何其他生物的敌对行为影响，则其不再受<em>安定心神</em>影响。</p>\n<p><strong>大失败</strong> 同失败，但敌对行为不会结束该效果。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Qr5rgoZvI4KmFY0N]{法术效果：安定心神}</p>",
+              "description": "<p>你强行使区域内的生物冷静下来，平息它们的暴力倾向；每个生物都必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 平静之感使该生物的攻击检定承受-1状态减值。</p>\n<p><strong>失败</strong> 任何将会影响该生物的情绪效果都会被压制，且该生物不能使用敌对动作。若目标受到任何其他生物的敌对行为影响，则其不再受<em>安定心神</em>影响。</p>\n<p><strong>大失败</strong> 同失败，但敌对行为不会结束该效果。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Qr5rgoZvI4KmFY0N]{法术效果：安定心神}</p>",
               "gmDescription": "",
               "range": "120尺",
               "target": "",
@@ -1857,7 +1857,7 @@
             },
             "jjDjecr6CngMky6N": {
               "name": "狂笑发作 Laughing Fit",
-              "description": "<p>目标被无法控制的笑声所淹没。它必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标被无法控制的笑声所困扰。它无法使用反应。</p>\n<p><strong>失败</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1} 且无法使用反应。</p>\n<p><strong>大失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地} 且在1轮内无法使用动作或反应。之后它承受失败的效果。</p>",
+              "description": "<p>目标忍不住放声大笑。它必须进行一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标止不住地大笑，无法使用反应。</p>\n<p><strong>失败</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1} 且无法使用反应。</p>\n<p><strong>大失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地} 且在1轮内无法使用动作或反应。之后它承受失败的效果。</p>",
               "gmDescription": "",
               "range": "30尺",
               "target": "1个活物",
@@ -1885,7 +1885,7 @@
             },
             "xs71vxEAdkb43WRn": {
               "name": "祝福术 Bless",
-              "description": "<p>来自彼界的祝福帮助你的伙伴精准命中。你和你的盟友在处于该扩散区域内时，攻击掷骰获得+1状态加值。此后每轮一次，在后续回合中，你可以维持该法术，使扩散区域的半径增加10尺。</p>\n<p>祝福术可以反制 @UUID[Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx]{绝望术}。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.RfCEHpMoEAZvB9IZ]{灵光：祝福术}</p>",
+              "description": "<p>来自彼界的祝福帮助你的伙伴精准命中。你和你的盟友在处于该弥漫区域内时，攻击掷骰获得+1状态加值。在后续回合中，你每轮可以维持该法术一次，使弥漫区域的半径增加10尺。</p>\n<p>祝福术可以反制 @UUID[Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx]{绝望术}。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.RfCEHpMoEAZvB9IZ]{灵光：祝福术}</p>",
               "gmDescription": "",
               "range": "",
               "target": "你和区域内的盟友",
@@ -1899,7 +1899,7 @@
             },
             "wK2iZjhHynWPEfkz": {
               "name": "晕眩术 Daze",
-              "description": "<p>你侵入目标的心智，以一道精神冲击使其眩晕。该冲击造成1d6点精神伤害，目标进行一次基础意志豁免。若目标豁免大失败，它还会陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}。</p>\n<hr />\n<p><strong>升阶（+2）</strong> 伤害增加1d6。</p>",
+              "description": "<p>你侵入目标的心智，以一道精神冲击使其眩晕。该冲击造成1d6点心灵伤害，目标进行一次基础意志豁免。若目标豁免大失败，它还会陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}。</p>\n<hr />\n<p><strong>升阶（+2）</strong> 伤害增加1d6。</p>",
               "gmDescription": "",
               "range": "60尺",
               "target": "1个生物",
@@ -1913,7 +1913,7 @@
             },
             "haPvwMMP0sLRdY1b": {
               "name": "侦测魔法 Detect Magic",
-              "description": "<p>你放出一道脉冲，用以感知魔法的存在。除了魔法存在与否之外，你不会获得任何信息。你可以选择忽略你已完全知晓的魔法，例如你与盟友的魔法物品以及持续中的法术。你只有在该魔法的效果的环低于你的<em>侦测魔法</em>法术的环时，才能侦测到幻术魔法。然而，具有幻术灵光但外观并不具欺骗性的物品（例如 @UUID[Compendium.pf2e.equipment-srd.Item.bikFUFRLwfdvX2x2]{隐形药水}）通常仍会被正常侦测到。</p>\n<hr />\n<p><strong>升环（3环）</strong> 你会得知该法术所侦测到的最强魔法效果的环或等级，由GM决定。</p>\n<p><strong>升环（4环）</strong> 同3环升环，但你还会锁定最高环魔法的来源。与模糊感官类似，你不会得知精确位置，但可以将来源缩小到一个5尺立方体范围内（若来源大于该范围，则缩小到最接近的范围）。</p>",
+              "description": "<p>你放出一道脉冲，用以感知魔法的存在。除了魔法存在与否之外，你不会获得任何信息。你可以选择忽略你已完全知晓的魔法，例如你与盟友的魔法物品以及持续中的法术。只有当幻术魔法效果的环级低于你的<em>侦测魔法</em>环级时，你才能侦测到它。然而，具有幻术灵光但外观并不具欺骗性的物品（例如 @UUID[Compendium.pf2e.equipment-srd.Item.bikFUFRLwfdvX2x2]{隐形药水}）通常仍会被正常侦测到。</p>\n<hr />\n<p><strong>升阶（3环）</strong> 你会得知该法术所侦测到的最强魔法效果的环级或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong> 同3环升阶，但你还能定位最高环级魔法的来源。与模糊感官类似，你不会得知精确位置，但可以将来源定位到一个5尺立方体范围内（若来源体积更大，则定位到其中最近的一块同样大小的区域）。</p>",
               "gmDescription": "",
               "range": "",
               "target": "",
@@ -1927,7 +1927,7 @@
             },
             "e8fVkcWzv7IG923R": {
               "name": "邪影触须 Grim Tendrils",
-              "description": "<p>黑暗的触须从你的指尖卷出，穿过空气疾驰。你对直线内的活体生物造成2d4虚能伤害，以及@Damage[(@item.level)[bleed]]伤害。直线内的每个活体生物必须尝试一次强韧豁免。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物承受一半的虚能伤害，且不承受持续流血伤害。</p>\n<p><strong>失败</strong> 该生物承受全额伤害。</p>\n<p><strong>大失败</strong> 该生物承受双倍虚能伤害，以及双倍持续流血伤害。</p>\n<hr />\n<p><strong>升环（+1）</strong> 虚能伤害增加2d4，且持续流血伤害增加1。</p>",
+              "description": "<p>黑暗触须从你的指尖蜿蜒伸出，划破空气疾驰而去。你对直线内的活体生物造成2d4虚能伤害，以及@Damage[(@item.level)[bleed]]伤害。直线内的每个活体生物必须尝试一次强韧豁免。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物承受一半的虚能伤害，且不承受持续流血伤害。</p>\n<p><strong>失败</strong> 该生物承受全额伤害。</p>\n<p><strong>大失败</strong> 该生物承受双倍虚能伤害，以及双倍持续流血伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong> 虚能伤害增加2d4，且持续流血伤害增加1。</p>",
               "gmDescription": "",
               "range": "",
               "target": "",
@@ -1941,7 +1941,7 @@
             },
             "l34M0e9imWDDKZmk": {
               "name": "神导术 Guidance",
-              "description": "<p>你请求超自然实体的指引，使目标在持续时间结束前尝试的一次攻击掷骰、察觉检定、豁免掷骰或技能检定上获得+1状态加值。目标必须在掷骰前选择将该加值用于哪一次掷骰。若目标使用了该加值，则该法术结束。无论是否使用，随后目标获得持续1小时的暂时免疫。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{法术效果：指引}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3LyOkV25p7wA181H]{效果：指引免疫}</p>",
+              "description": "<p>你向超自然存在祈求指引，使目标在法术持续时间结束前进行的一次攻击检定、察觉检定、豁免检定或技能检定中获得+1状态加值。目标必须在掷骰前选择将该加值用于哪一次掷骰。若目标使用了该加值，则该法术结束。无论是否使用该加值，法术结束后，目标都会暂时免疫此法术1小时。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{法术效果：指引}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3LyOkV25p7wA181H]{效果：指引免疫}</p>",
               "gmDescription": "",
               "range": "30尺",
               "target": "1个生物",
@@ -1955,7 +1955,7 @@
             },
             "RNEnP1paV6GuwxlR": {
               "name": "幻象伪装 Illusory Disguise",
-              "description": "<p>你创造一个幻觉，使目标看起来像另一个身体形态相同的生物，并且身高（相差不超过6寸）与体重（相差不超过50磅）大致相近。该伪装通常足以隐藏其身份，但不足以冒充某个特定个体。该法术会改变其外貌与声音，但不会改变其举止。你可以改变其衣物与穿戴物品的外观，例如让其护甲看起来像一件连衣裙。手持物品不受影响，并且任何从生物身上移除的穿戴物品都会恢复为其真实外观。</p>\n<p>施放<em>幻象伪装</em>视为为使用欺骗的@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}设置了伪装；它无视目标在将自己伪装成不相似生物时可能承受的任何环境减值，给予+4状态加值于以防止他人看穿伪装的欺骗检定，并且即使未受训，也允许目标将其等级加到此类欺骗检定上。你可以解消该法术。</p>\n<hr />\n<p><strong>升阶（3环）</strong>目标可以看起来像任何同体型的生物，甚至是某个特定个体。你必须见过该个体才能复刻其外貌，并且必须听过其声音才能复刻其声音。</p>\n<p><strong>升阶（4环）</strong>你最多可以以10个自愿的生物为目标。若你以多个生物为目标，你可以为每个目标选择不同的伪装，但都不能冒充某个特定个体。你可以分别解消每个伪装，或将其全部一并解消。</p>\n<p><strong>升阶（7环）</strong>同4环，但你可以选择能够冒充特定个体的伪装。你必须见过该个体才能复刻其外貌，并且必须听过其声音才能复刻其声音。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3Ktyd5F9lOPo4myk]{法术效果：幻象伪装}</p>",
+              "description": "<p>你创造一个幻觉，使目标看起来像另一个身体形态相同的生物，并且身高（相差不超过6寸）与体重（相差不超过50磅）大致相近。该伪装通常足以隐藏其身份，但不足以冒充某个特定个体。该法术会改变其外貌与声音，但不会改变其举止。你可以改变其衣物与穿戴物品的外观，例如让其护甲看起来像一件连衣裙。手持物品不受影响，并且任何从生物身上移除的穿戴物品都会恢复为其真实外观。</p>\n<p>施放<em>幻象伪装</em>视为完成了欺骗技能@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}用法所需的伪装准备。目标无视因伪装成与自身不相似的生物而可能承受的所有环境减值，并在防止他人识破伪装的欺骗检定中获得+4状态加值；即使未受训，也能将自身等级加入此类欺骗检定。你可以解消该法术。</p>\n<hr />\n<p><strong>升阶（3环）</strong>目标可以看起来像任何同体型的生物，甚至是某个特定个体。你必须见过该个体才能复刻其外貌，并且必须听过其声音才能复刻其声音。</p>\n<p><strong>升阶（4环）</strong>你最多可以以10个自愿的生物为目标。若你以多个生物为目标，你可以为每个目标选择不同的伪装，但都不能冒充某个特定个体。你可以分别解消每个伪装，或将其全部一并解消。</p>\n<p><strong>升阶（7环）</strong>同4环，但你可以选择能够冒充特定个体的伪装。你必须见过该个体才能复刻其外貌，并且必须听过其声音才能复刻其声音。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3Ktyd5F9lOPo4myk]{法术效果：幻象伪装}</p>",
               "gmDescription": "",
               "range": "30尺",
               "target": "1个自愿生物",
@@ -1969,7 +1969,7 @@
             },
             "lYBAMLDLK3eOo6OO": {
               "name": "固锁术 Lock",
-              "description": "<p>目标的闩锁机构咔嗒一声扣紧，被看不见的魔法结界牢牢固定。当你以魔法锁定一个目标时，你设定一个用于打开它的运动与贼活DC，等于你的法术DC或基础锁DC再获得+4状态加值，两者取较高者。任何曾经能够打开受此法术影响之锁的钥匙或密码组合，在法术的持续时间内都无法再如此打开，不过该钥匙或密码组合会使打开门的检定获得+4环境加值。若目标被打开，法术结束。假设目标没有以其他方式上闩或上锁，你可以用一个交互动作来解锁并打开它，在该动作中你需要接触目标。这不会结束法术。你可以在任何时间、从任何距离解消该法术。</p>\n<hr />\n<p><strong>升阶（2环）</strong> 持续时间为无限，但你必须额外消耗价值6金币的贵金属作为附加成本。</p>",
+              "description": "<p>目标的闩锁机构咔嗒一声扣紧，被看不见的魔法结界牢牢固定。当你用魔法锁住目标时，用运动或贼活打开它的DC取以下两者中较高者：你的法术DC，或获得+4状态加值后的基础锁DC。法术持续期间，原本能打开这把锁的钥匙或密码组合不再能直接开锁，但仍会让开门检定获得+4环境加值。若目标被打开，法术结束。只要目标没有另外上闩或上锁，你就可以用一个交互动作触碰目标，将其解锁并打开。这不会结束法术。你可以在任何时间、从任何距离解消该法术。</p>\n<hr />\n<p><strong>升阶（2环）</strong> 持续时间变为无限，但你必须额外消耗价值6金币的贵金属。</p>",
               "gmDescription": "",
               "range": "接触",
               "target": "一把锁，或一扇带门闩的门或一个带搭扣的容器",
@@ -1983,7 +1983,7 @@
             },
             "3GWEZoBUbuCVbyYB": {
               "name": "魅影仆役 Phantasmal Minion",
-              "description": "<p>你召唤一个@UUID[Compendium.pf2e.pathfinder-bestiary.Actor.j7NNPfZwD19BwSEZ]{魅影仆役}。该仆从大致呈类人生物的形状。你可以选择让它成为@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}，或使其呈现虚幻的外观，但它显然是一个魔法效果，而非真实的生物。</p>",
+              "description": "<p>你召唤一个@UUID[Compendium.pf2e.pathfinder-bestiary.Actor.j7NNPfZwD19BwSEZ]{魅影仆役}。该仆从大致呈类人生物的形状。你可以选择使其处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}状态，或使其呈现虚幻的外观，但它显然是一个魔法效果，而非真实的生物。</p>",
               "gmDescription": "",
               "range": "60尺",
               "target": "",
@@ -2011,7 +2011,7 @@
             },
             "3E0ewbO9BfQitZGL": {
               "name": "虚能噬 Void Warp",
-              "description": "<p>你召唤虚空来伤害生命力。目标受到2d4虚能伤害，并进行一次基础强韧豁免。在大失败时，目标还会获得@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 1}，直到你下个回合开始。</p>\n<hr />\n<p><strong>升阶（+1）</strong> 伤害增加1d4。</p>",
+              "description": "<p>你借助虚空之力损伤生命力。目标受到2d4虚能伤害，并进行一次基础强韧豁免。在大失败时，目标还会获得@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 1}，直到你下个回合开始。</p>\n<hr />\n<p><strong>升阶（+1）</strong> 伤害增加1d4。</p>",
               "gmDescription": "",
               "range": "30尺",
               "target": "1个活物",
@@ -2025,7 +2025,7 @@
             },
             "ljSnticrrCWLH49B": {
               "name": "仪式长袍 Ceremonial Robes",
-              "description": "<p>探险者服装结实到足以加固来保护你，尽管它并不是一套护甲。它有许多种形式，不过最常见的类型看起来像神职人员的法衣、武僧的衣装或法师的长袍，因为这三种职业的成员都很可能避免穿戴护甲。</p>",
+              "description": "<p>探险者服装虽不是护甲，却足够结实，可以加固以提供防护。它的款式多样，最常见的形似神职人员的法衣、武僧服或法师长袍，因为这三种职业的人通常会避免穿戴护甲。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -2035,7 +2035,7 @@
             },
             "O6gOcXC1xkeICXwL": {
               "name": "无法破译的魔法印记之书（法术书） Indecipherable Book of Sigils (Spellbook)",
-              "description": "<p>一本法术书保存着学习和准备各种法术所需的书面知识，这是法师的必需品（他们通常会免费获得一本），也是其他施法者在寻求学习额外法术时的实用奢侈品。每本法术书最多可容纳100个法术。列出的价格适用于一本空白法术书。</p>",
+              "description": "<p>法术书中记载着学习和准备各种法术所需的知识。它是法师的必需品（法师通常会免费获得一本），对希望学习更多法术的其他施法者而言，则是实用的奢侈品。每本法术书最多可容纳100个法术。列出的价格适用于一本空白法术书。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -2053,7 +2053,7 @@
             },
             "tCqd5uhyOKVs0yco": {
               "name": "保护主人！ Protect the Master!",
-              "description": "<p><strong>触发</strong> 教团首领成为一次攻击的目标，且一名较低阶的教徒与其相邻</p><hr /><p><strong>效果</strong> 教团首领命令其教徒跃到攻击前方。教徒与教团首领互换位置，且教徒成为该次攻击的目标。若该教徒具有狂热狂暴或类似的能力，则在其因触发的攻击而受到伤害时，可以用反应动作启动该能力。</p>",
+              "description": "<p><strong>触发</strong> 教团首领成为一次攻击的目标，且一名地位较低的教徒与其相邻</p><hr /><p><strong>效果</strong> 教团首领命令教徒扑上前去替自己挡下攻击。教徒与教团首领互换位置，并成为该次攻击的目标。若该教徒具有狂热狂暴或类似的能力，则可以在被触发此反应的攻击伤到时，以反应启动该能力。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -2061,7 +2061,7 @@
             },
             "H8PMiZFsy2MQfLN2": {
               "name": "招揽信徒 Gather Converts",
-              "description": "<p>邪教首领用一句简短而富有情绪的短语，试图煽动公众为其效劳。邪教首领试图说服人群中至多四名旁观者引发骚动、倒戈针对某个个人或团体、离开区域、保护邪教首领或冷静下来。邪教首领进行一次 @Check[deception|against:perception] 检定，对抗所有目标中最高的察觉 DC。</p><hr /><p><strong>大成功</strong> 目标相信该谎言，并按指示行动 1 分钟。此外，一名旁观者会留在邪教首领身旁，受其影响之深以至于加入邪教。其他所有目标在 1 分钟后会识破邪教首领，届时其对首领的态度恶化 一级。</p>\n<p><strong>成功</strong> 同大成功，但没有旁观者会永久加入邪教。</p>\n<p><strong>大失败</strong> 人群既不为所动，也不觉有趣，其对邪教首领的态度恶化 一级。</p>",
+              "description": "<p>教团首领用一句简短而饱含感情的话，试图煽动民众听从自己的命令。教团首领试图说服人群中至多四名旁观者引发骚动、转而与某个人或群体为敌、离开区域、保护教团首领或冷静下来。教团首领进行一次 @Check[deception|against:perception] 检定，对抗所有目标中最高的察觉 DC。</p><hr /><p><strong>大成功</strong> 目标相信该谎言，并按指示行动 1 分钟。此外，一名旁观者会留在教团首领身旁，深受其影响，进而加入教团。其他所有目标在 1 分钟后会识破教团首领，届时其对首领的态度恶化一级。</p>\n<p><strong>成功</strong> 同大成功，但没有旁观者会永久加入教团。</p>\n<p><strong>大失败</strong> 人群既不为所动，还颇为不悦，其对教团首领的态度恶化一级。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -2085,7 +2085,7 @@
             },
             "a1mEBA9vXkXsbe2I": {
               "name": "连枷 Flail",
-              "description": "<p>这种武器是一个木柄通过链条、绳索或皮带链接着带刺铁球或铁柱。</p>",
+              "description": "<p>这种武器由木柄和带刺的球体或圆柱体组成，两端以链条、绳索或皮带相连。</p>",
               "gmDescription": "",
               "unidentifiedName": "奇特连枷 Unusual Flail",
               "heighteningLevels": {},
@@ -2103,7 +2103,7 @@
             },
             "jvuxp1A6EHwZHRRy": {
               "name": "恐惧盛宴 Fearful Feast",
-              "description": "<p><strong>触发</strong> 法术距离内的一名生物获得 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}</p><hr /><p>你大张嘴巴并猛然吸气；你将惊惧的目标所依附的英勇、自信与希望吸入体内，随后剥去目标那种“这些脆弱的情绪能将其从恐惧的虚无中拯救出来”的虚假臆想。你对该生物造成6d4心灵伤害，其必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物受到一半伤害。</p>\n<p><strong>失败</strong> 该生物受到全额伤害；你恢复等同于目标所受伤害一半的生命值。</p>\n<p><strong>大失败</strong> 该生物的惊惧增加1（至多为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 4}），并受到双倍伤害；你恢复等同于目标所受伤害一半的生命值。</p><hr /><p><strong>升阶（+1）</strong> 伤害增加1d4。</p>",
+              "description": "<p><strong>触发</strong> 法术距离内的一名生物获得 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}</p><hr /><p>你张大嘴巴，猛吸一口气，将惊惧目标赖以支撑的勇气、自信与希望吸入体内，粉碎其妄想：这些脆弱的情感根本无法将它从恐惧带来的虚无中拯救出来。你对该生物造成6d4心灵伤害，其必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物受到一半伤害。</p>\n<p><strong>失败</strong> 该生物受到全额伤害；你恢复等同于目标所受伤害一半的生命值。</p>\n<p><strong>大失败</strong> 该生物的惊惧增加1（至多为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 4}），并受到双倍伤害；你恢复等同于目标所受伤害一半的生命值。</p><hr /><p><strong>升阶（+1）</strong> 伤害增加1d4。</p>",
               "gmDescription": "",
               "range": "30尺",
               "target": "触发此效果的生物",
@@ -2117,7 +2117,7 @@
             },
             "0IkveOvAYtmsSkiZ": {
               "name": "揭开自然之帷 Lift Nature's Caul",
-              "description": "<p>你挥手一招，使区域内所有生物看到周遭世界仿佛有一层薄纱被揭开，暴露出他们所感知现实之下的真相。他们能看见的自然景观变得扭曲而骇人，建筑显得变形而残破，物体看起来怪异而陌生。这种替代视界很快淡化，但对自然世界之外的那一瞥会在法术的持续时间内萦绕不散。</p>\n<p>异怪，或外神或旧日支配者的崇拜者，会因这扭曲现实的视界而得到强化，在1分钟内获得+1状态加值于意志豁免与攻击检定；而其他所有生物都必须尝试一次意志豁免。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.ihv1azg80N3kj7Vo]{法术效果：揭开自然之帷（加值）}</p><hr /><p><strong>大成功</strong>该生物不受影响，并在1小时内暂时免疫。</p>\n<p><strong>成功</strong>该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}。</p>\n<p><strong>失败</strong>该生物在1分钟内陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p>\n<p><strong>大失败</strong>该生物在1分钟内陷入呆滞 1，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}。只要它仍因该法术而处于呆滞，它就无法将其惊惧的数值降低到1以下。</p><hr /><p><strong>升环（+2）</strong>区域增加5尺。</p>",
+              "description": "<p>你一挥手，区域内所有生物眼中的周遭世界便仿佛被揭去一层薄纱，显露出其所感知的现实之下的真相。他们眼中的自然景观变得扭曲骇人，建筑变形残破，物体怪异陌生。这番异象很快消退，但窥见自然世界之外的这一瞥会在法术持续期间萦绕不散。</p>\n<p>异怪以及崇拜外神或旧日支配者的生物会受到这番扭曲现实的异象鼓舞，在1分钟内的意志豁免和攻击检定获得+1状态加值；其他所有生物都必须尝试一次意志豁免。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.ihv1azg80N3kj7Vo]{法术效果：揭开自然之帷（加值）}</p><hr /><p><strong>大成功</strong>该生物不受影响，并在1小时内暂时免疫。</p>\n<p><strong>成功</strong>该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}。</p>\n<p><strong>失败</strong>该生物陷入持续1分钟的@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}状态，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p>\n<p><strong>大失败</strong>该生物陷入持续1分钟的呆滞 1状态，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}。只要它仍因该法术而处于呆滞，它就无法将其惊惧的数值降低到1以下。</p><hr /><p><strong>升阶（+2）</strong>区域增加5尺。</p>",
               "gmDescription": "",
               "range": "",
               "target": "",
@@ -2131,10 +2131,10 @@
             },
             "GcmaW2dIGmNZDvY4": {
               "name": "溢血深仇 Blood Vendetta",
-              "description": "<p><strong>需求</strong> 你能够流血。</p>\n<p><strong>触发</strong> 一名生物对你造成穿刺、挥砍或持续流血伤害。</p>\n<hr />\n<p>你诅咒目标，惩罚其胆敢洒落你的血。目标受到2d6持续流血伤害，并且必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标受到一半的持续流血伤害。</p>\n<p><strong>失败</strong> 目标受到全部的持续流血伤害。直到流血停止为止，目标对穿刺和挥砍伤害具有弱点1。@UUID[Compendium.pf2e.spell-effects.Item.buXx8Azr4BYWPtFg]{法术效果：血之复仇（失败）}</p>\n<p><strong>大失败</strong> 同失败，但目标受到双倍的持续流血伤害。</p>\n<hr />\n<p><strong>升阶（+2）</strong> 持续流血伤害增加2d6。</p>",
+              "description": "<p><strong>需求</strong> 你能够流血。</p>\n<p><strong>触发</strong> 一名生物对你造成穿刺、挥砍或持续流血伤害。</p>\n<hr />\n<p>你诅咒目标，惩罚它胆敢让你流血的行为。目标受到2d6持续流血伤害，并且必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标受到一半的持续流血伤害。</p>\n<p><strong>失败</strong> 目标受到全部的持续流血伤害。直到流血停止为止，目标对穿刺和挥砍伤害具有弱点1。@UUID[Compendium.pf2e.spell-effects.Item.buXx8Azr4BYWPtFg]{法术效果：溢血深仇（失败）}</p>\n<p><strong>大失败</strong> 同失败，但目标受到双倍的持续流血伤害。</p>\n<hr />\n<p><strong>升阶（+2）</strong> 持续流血伤害增加2d6。</p>",
               "gmDescription": "",
               "range": "30尺",
-              "target": "触发的生物",
+              "target": "触发此效果的生物",
               "time": "反应",
               "duration": "视情况而定",
               "cost": "",
@@ -2145,12 +2145,12 @@
             },
             "bD6uPAfFWtIInfuT": {
               "name": "恐惧术 Fear",
-              "description": "<p>你将恐惧植入目标心中；它必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p>\n<p><strong>失败</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}。</p>\n<p><strong>大失败</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 3}，并获得 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}，持续 1 轮。</p>\n<hr />\n<p><strong>升阶（3环）</strong> 你最多可以以五个生物为目标。</p>",
+              "description": "<p>你将恐惧植入目标心中；它必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p>\n<p><strong>失败</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}。</p>\n<p><strong>大失败</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 3}，并陷入持续 1 轮的 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑} 状态。</p>\n<hr />\n<p><strong>升阶（3环）</strong> 你最多可以以五个生物为目标。</p>",
               "gmDescription": "",
               "range": "30尺",
               "target": "1个生物",
               "time": "2",
-              "duration": "可变",
+              "duration": "视情况而定",
               "cost": "",
               "requirements": "",
               "heighteningLevels": {
@@ -2222,7 +2222,7 @@
             },
             "zMkrKhyfRWFrFfuv": {
               "name": "狂热狂暴 Fanatical Frenzy",
-              "description": "<p><strong>需求</strong> 该邪教徒已受到伤害，且既不处于 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏} 状态，也尚未进入狂暴</p><hr /><p><strong>效果</strong> 该邪教徒陷入持续 1 分钟的狂暴。处于狂暴时，该邪教徒在攻击掷骰上获得 +1 状态加值，在伤害掷骰上获得 +2 状态加值，且其 AC 承受 –2 减值。该邪教徒无法自愿停止其狂暴。在其狂暴结束后，该邪教徒会疲乏。</p>",
+              "description": "<p><strong>需求</strong> 该邪教徒已受到伤害，且既不处于 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏} 状态，也尚未进入狂暴</p><hr /><p><strong>效果</strong> 该邪教徒陷入持续 1 分钟的狂暴。狂暴期间，该邪教徒的攻击检定获得 +1 状态加值，伤害掷骰获得 +2 状态加值，AC 承受 –2 减值。该邪教徒无法主动结束狂暴。狂暴结束后，该邪教徒陷入疲乏。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -2293,7 +2293,7 @@
           "items": {
             "oHeLKugv0k3a7CQB": {
               "name": "复合长弓 Composite Longbow",
-              "description": "<p>这种投射武器由角、木材与筋腱层压粘合制成，以增强其拉力和弹体的冲击力。如同所有长弓一样，其巨大的体型也提升了弓的射程与威力。你必须用双手发射它，且在骑乘时无法使用。任何能力若明确限制为仅适用于长弓，例如埃拉斯蒂尔的偏好武器，除非另有说明，也同样适用于复合长弓。</p>",
+              "description": "<p>这种投射武器由兽角、木材与筋腱分层粘合制成，以增强弓的拉力和箭矢的威力。和所有长弓一样，它较大的尺寸也提升了射程与威力。你必须用双手开弓射击，且无法在骑乘时使用。任何能力若明确限制为仅适用于长弓，例如埃拉斯蒂尔的偏好武器，除非另有说明，也同样适用于复合长弓。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -2303,7 +2303,7 @@
             },
             "r7zVCfgSD6RfG3yN": {
               "name": "革甲 Hide Armor",
-              "description": "<p>这种护甲由毛皮、坚韧的皮革以及有时模制的煮制皮革混合制成。其多层皮革结构提供防护，但由于笨重，会减慢穿戴者的行动并降低机动性。</p>",
+              "description": "<p>这种护甲由毛皮和坚韧的皮革制成，有时也会用到煮制后定型的皮革。层叠的皮革提供了防护，但笨重的结构会拖慢穿戴者的行动，降低其灵活性。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -2347,7 +2347,7 @@
             },
             "z6dAfzucPpphEx6T": {
               "name": "猎手猛攻 Hunter's Onslaught",
-              "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>需求</strong> 怪物猎人未处于 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}</p><hr /><p><strong>效果</strong> 怪物猎人带领一次针对其怪异敌人的攻击。怪物猎人选择一个其能看见且符合其偏好猎物条件的敌人。怪物猎人对该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}，并获得10点临时生命值，持续时间与这次猛攻相同。在猛攻期间，猎人对指定敌人的伤害掷骰获得+8状态加值，而在猎人周围30尺光环内的盟友获得该加值的一半。猛攻持续1分钟，或直到宁布洛斯猎人或指定生物之一倒下并陷入 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}。</p>",
+              "description": "<p><strong>频率</strong> 每小时一次</p><p><strong>需求</strong> 怪物猎人未处于 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}</p><hr /><p><strong>效果</strong> 怪物猎人带领同伴向其怪物敌人发起进攻。怪物猎人选择一个其能看见且符合其偏好猎物条件的敌人。怪物猎人对该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}，并获得10点临时生命值，持续时间与这次猛攻相同。在猛攻期间，猎人对指定敌人的伤害掷骰获得+8状态加值，而在猎人周围30尺光环内的盟友获得该加值的一半。猛攻持续1分钟，或直到宁布洛斯猎手或指定生物之一陷入 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -2370,17 +2370,17 @@
               "kitContents": {}
             },
             "Jp5Rhgq41kMR0mgS": {
-              "name": "战斗连枷 War Flail",
-              "description": "<p>这种大型连枷有长柄链接一块短粗的木质或金属块，有时镶嵌有尖刺。</p>",
+              "name": "战用连枷 War Flail",
+              "description": "<p>这种大型连枷的长柄连接着一截较短的粗壮木棍或金属棍，短棍上有时嵌着尖刺。</p>",
               "gmDescription": "",
-              "unidentifiedName": "奇特战斗连枷 Unusual War Flail",
+              "unidentifiedName": "奇特战用连枷 Unusual War Flail",
               "heighteningLevels": {},
               "overlays": {},
               "kitContents": {},
               "unidentifiedDescription": ""
             },
             "4htPvnrKZiOvL8Z0": {
-              "name": "战斗连枷 War Flail",
+              "name": "战用连枷 War Flail",
               "description": "",
               "gmDescription": "",
               "heighteningLevels": {},
@@ -2397,7 +2397,7 @@
             },
             "uZpWRWJO5cZYsgmb": {
               "name": "捕食者视域 Carnivoresight",
-              "description": "<p>宁布洛斯猎手会自动知道它看到的生物是否符合其偏好猎物，并且对 @UUID[Compendium.pf2e.actionspf2e.EA5vuSgJfiHH7plD]{追踪} 它们获得+4状态加值。</p>",
+              "description": "<p>宁布洛斯猎手会自动知晓眼前的生物是否符合其偏好猎物的条件，并在 @UUID[Compendium.pf2e.actionspf2e.EA5vuSgJfiHH7plD]{追踪} 这些猎物时获得+4状态加值。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -2420,7 +2420,7 @@
           "tokenName": "幽灵女王之眼 Eyes of the Ghost Queen",
           "prototypeToken": "幽灵女王之眼 Eyes of the Ghost Queen",
           "disable": "<p>@Check[type:deception|dc:30|name:Cheat Her Sight]（专家）两次，以你自己的谎言迷惑那些鬼火之眼；每次成功检定摧毁两只鬼火。或者，@Check[type:occultism|dc:28|name:Steel Your Mind]（专家）四次，建立起抵御此作祟精神影响的守护；每次成功检定摧毁一只鬼火。</p>",
-          "hazarddescription": "<p class=\"p1\">调查宁布洛斯及其仆从阴谋所带来的持续影响，已从睡梦之境蔓延到你清醒的时刻。现实的织体上浮现出不祥的裂痕，就在你眼前撕扯着你理智的边缘。你再也无法确定谁才是你的朋友。同伴们仿佛褪去了伪装，露出恶毒怪物的真面目。</p>",
+          "hazarddescription": "<p class=\"p1\">调查宁布洛斯及其仆从阴谋所带来的持续影响，已从睡梦之境蔓延到你清醒的时刻。现实的帷幕在你眼前裂开一道道不祥的缝隙，不断侵蚀着你的理智。你再也无法确定谁才是你的朋友。同伴们仿佛褪去了伪装，露出恶毒怪物的真面目。</p>",
           "reset": "<p>所有生物离开该区域1分钟后，此作祟停止运作，但随即立刻重置。</p>",
           "routine": "<p>（4个动作）此作祟每有一个可用动作，便以背叛低语能力选定一个生物为目标。每当一只鬼火被摧毁，此行动流程的动作数便减少1。</p>",
           "stealthdetails": "<p>（大师）</p>",
@@ -2437,7 +2437,7 @@
             },
             "wVGacjDtpVTMgHfR": {
               "name": "背叛低语 Whispers of Betrayal",
-              "description": "<p>此作祟持续搅乱受害者的感官，怂恿他们彼此施暴。</p><p>以此作祟区域内的一个生物为目标，造成@Damage[(2d12+15)[void]]伤害，@Check[type:will|dc:30|showDC:all]{基础意志豁免}。</p><hr /><p><strong>大成功</strong> 该生物不受影响，并暂时免疫1分钟。</p><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}1轮，并成为「你等，当死」诅咒的目标。</p><p><strong>大失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}1分钟，并成为「你等，当死」诅咒的目标。</p>",
+              "description": "<p>此作祟持续搅乱受害者的感官，怂恿他们彼此施暴。</p><p>以此作祟区域内的一个生物为目标，造成@Damage[(2d12+15)[void]]伤害，目标须进行一次@Check[type:will|dc:30|showDC:all]{基础意志豁免}。</p><hr /><p><strong>大成功</strong> 该生物不受影响，并暂时免疫1分钟。</p><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}1轮，并成为「你的命运，唯有一死」诅咒的目标。</p><p><strong>大失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}1分钟，并成为「你的命运，唯有一死」诅咒的目标。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -2450,7 +2450,7 @@
           "tokenName": "幽灵女王之握 Grasp of the Ghost Queen",
           "prototypeToken": "幽灵女王之握 Grasp of the Ghost Queen",
           "disable": "<p>@Check[type:intimidation|dc:35|name:Return Her Gaze]（专家）两次，将你的意志强加于那些鬼火之眼；每次成功检定摧毁两只鬼火。或者，@Check[type:occultism|dc:32|name:Steel Your Mind]（大师）四次，建立起抵御此作祟精神影响的守护；每次成功检定摧毁一只鬼火。</p>",
-          "hazarddescription": "<p class=\"p1\">调查宁布洛斯及其仆从阴谋所带来的持续影响，已从睡梦之境蔓延到你清醒的时刻。现实的织体上浮现出不祥的裂痕，就在你眼前撕扯着你理智的边缘。你再也无法确定谁才是你的朋友。同伴们仿佛褪去了伪装，露出恶毒怪物的真面目。</p>",
+          "hazarddescription": "<p class=\"p1\">调查宁布洛斯及其仆从阴谋所带来的持续影响，已从睡梦之境蔓延到你清醒的时刻。现实的帷幕在你眼前裂开一道道不祥的缝隙，不断侵蚀着你的理智。你再也无法确定谁才是你的朋友。同伴们仿佛褪去了伪装，露出恶毒怪物的真面目。</p>",
           "reset": "<p>所有生物离开该区域1分钟后，此作祟停止运作，但随即立刻重置。</p>",
           "routine": "<p>（4个动作）此作祟每有一个可用动作，便以背叛之握能力选定一个生物为目标。每当一只鬼火被摧毁，此行动流程的动作数便减少1。</p>",
           "stealthdetails": "<p>（大师）</p>",
@@ -2458,8 +2458,8 @@
           "skills": {},
           "items": {
             "QrgnumULVnz8pWfK": {
-              "name": "夺取控制 Seize Control",
-              "description": "<p>当生物进入其范围时，此作祟会迅速做出反应。</p><section class=\"statblock\"><p><strong>触发</strong> 两个或更多生物进入此作祟的区域</p></section><hr /><section class=\"statblock\"><p><strong>效果</strong> 每个生物都看到附近生物的形体扭曲变化，仿佛化为渴血的魔族或异怪之物。区域内的每个生物都必须进行一次@Check[type:will|dc:35]豁免。随后此作祟掷先攻。</p></section><hr /><section class=\"statblock\"><p><strong>成功</strong> 该生物不受这些怪异景象影响。</p><p><strong>失败</strong> 该生物感到死亡近在咫尺，陷入@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 1}。</p><p><strong>大失败</strong> 如同失败，且该生物在24小时内陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}。</p></section>",
+              "name": "夺取控制权 Seize Control",
+              "description": "<p>当生物进入其范围时，此作祟会迅速做出反应。</p><section class=\"statblock\"><p><strong>触发</strong> 两个或更多生物进入此作祟的区域</p></section><hr /><section class=\"statblock\"><p><strong>效果</strong> 每个生物都看到附近生物的形体扭曲变化，仿佛化为渴血的魔族或异怪之物。区域内的每个生物都必须进行一次@Check[type:will|dc:35]豁免。随后此作祟掷先攻。</p></section><hr /><section class=\"statblock\"><p><strong>成功</strong> 该生物不受这些怪异景象影响。</p><p><strong>失败</strong> 该生物感到死亡近在咫尺，陷入@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 1}。</p><p><strong>大失败</strong> 如同失败，且该生物陷入持续24小时的@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}状态。</p></section>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -2467,7 +2467,7 @@
             },
             "uYgnnbztCcUhyjAx": {
               "name": "背叛之握 Betrayal's Grasp",
-              "description": "<p>此祟灵持续搅乱受害者的感官，怂恿他们彼此施暴。</p><section class=\"statblock\"><p><strong>目标</strong> 此祟灵区域内的1个生物</p><p><strong>豁免</strong> @Check[type:will|dc:32|showDC:all]{基础意志豁免}</p><p><strong>伤害</strong> @Damage[(3d10+14)[void]]{3d10+14 点虚能伤害}</p></section><hr /><section class=\"statblock\"><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{被控制}1轮，并暴露于「你等，当死」诅咒之下。</p><p><strong>大失败</strong> 该生物被控制1分钟，并暴露于「你等，当死」诅咒之下。</p></section>",
+              "description": "<p>此作祟持续搅乱受害者的感官，怂恿他们彼此施暴。</p><section class=\"statblock\"><p><strong>目标</strong> 此作祟区域内的1个生物</p><p><strong>豁免</strong> @Check[type:will|dc:32|showDC:all]{基础意志豁免}</p><p><strong>伤害</strong> @Damage[(3d10+14)[void]]{3d10+14 点虚能伤害}</p></section><hr /><section class=\"statblock\"><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{被控制}1轮，并暴露于「你的命运，唯有一死」诅咒之下。</p><p><strong>大失败</strong> 该生物被控制1分钟，并暴露于「你的命运，唯有一死」诅咒之下。</p></section>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -2480,7 +2480,7 @@
           "tokenName": "喃喃，空无之死的器具 Murmur, Implement of the Empty Death",
           "prototypeToken": "喃喃，空无之死的器具 Murmur, Implement of the Empty Death",
           "disable": "<p>此作祟只能通过依次进行三次检定来解除。</p>",
-          "hazarddescription": "<p>当空无之死的异能施法者想要为某个特别强大、极耗资源的虚能造物（一个持续的法术、一处复杂危害，甚至是一只生物）赋予任何形式的再生能力时，他们有时会选择另用一件器物来达成此目的。这件器物从空无之死狩猎其间的灵魂之河汲取虚能，将其汇聚放大并导向凡间位面上的某个特定地点。随后，这股虚能便可用于驱动该施法者的造物。虽然一件灌注了异能之力的物件已足以充当器物，但以活生生的生物充作此用，所产出的虚能更为纯粹，输出也更为稳定。然而，绝大多数存在——哪怕是毫无良知者——都拒绝以活物进行这类实验，因为他们清楚，这么做等于将那生物打入无法想象的永恒痛苦之中。</p><p>不幸的是，那些侍奉空无之死——一位既无箴言亦无禁忌、深不可测而恶毒的远古神祇——的人却毫无这般顾忌。这些施法者完全乐意捕获并奴役有知觉的生物，以达成他们阴森的目的。许多人甚至从这一过程中获得下作的快感：其中包括永久性地在该生物身上施加弱智效果，以驯化并控制它；从它的凡躯中刮取每一分灵魂能量；再残忍地重塑那股灵魂能量，使之能承受充当活体虚能来源所带来的无尽痛苦。最后，施法者通过一系列难以言说的实验，将该生物的一部分灵魂本质交付给灵魂之河，同时把另一部分灵魂囚禁在物质位面上的某个特定地点。由此诞生的憎恶之物被称为空无之死的器物——一个饱受折磨的灵魂，被用作空无之死的位面与凡世之间的活体通道。</p><p>空无之死的器物有时也被称作苍白奴仆，它们在永无止境的可怖折磨中苟活，智力仅比寻常的非魔法动物高出一星半点。有时，器物的前世会以模糊破碎的记忆闪回浮现，但它们对这些画面无能为力。事实上，除了最简单的词语之外它们无法言语，而那些词语往往是在乞求被杀死，好从永恒的苦痛中解脱。</p><p>空无之死的器物通常保留着被奴役之前的大部分乃至全部能力，不过其创造者有时会修改、强化或增添某些能力，以帮助器物进行自卫。</p>",
+          "hazarddescription": "<p>当空无之死的异能施法者想要为某个特别强大、极耗资源的虚能造物（一个持续的法术、一处复杂危害，甚至是一只生物）赋予某种再生能力时，他们有时会选择借助另一件器物来实现。这件器物从空无之死狩猎其间的灵魂之河汲取虚能，将其汇聚放大并导向凡间位面上的某个特定地点。随后，这股虚能便可用于驱动该施法者的造物。虽然灌注了异能之力的物件已足以充当器物，但若改用活生生的生物，便能产出更纯粹、更稳定的虚能。然而，大多数生物——哪怕是毫无良知者——都拒绝以活物进行这类实验，因为他们清楚，这么做等于将那生物打入无法想象的永恒痛苦之中。</p><p>不幸的是，那些侍奉空无之死——一位既无箴言亦无禁忌、深不可测而恶毒的远古神祇——的人却毫无这般顾忌。这些施法者十分愿意捕获并奴役有知觉的生物，以达成他们阴森可怖的目的。许多人甚至从这一过程中获得下作的快感：其中包括永久性地在该生物身上施加弱智效果，以驯化并控制它；从它的凡躯中刮取每一分灵魂能量；再残忍地重塑那股灵魂能量，使之能承受充当活体虚能来源所带来的无尽痛苦。最后，施法者通过一系列难以言说的实验，将该生物的一部分灵魂本质交付给灵魂之河，同时把另一部分灵魂囚禁在物质位面上的某个特定地点。由此诞生的憎恶之物被称为空无之死的器物——一个饱受折磨的灵魂，被用作空无之死的位面与凡世之间的活体通道。</p><p>空无之死的器物有时也被称作苍白奴仆，它们在永无止境的可怖折磨中苟活，智力仅比寻常的非魔法动物高出一星半点。有时，器物受奴役前的生活会以模糊破碎的记忆片段闪现，但它们无法利用这些记忆做任何事。事实上，除了最简单的词语之外它们无法言语，而那些词语往往是在乞求被杀死，好从永恒的苦痛中解脱。</p><p>空无之死的器物通常保留着被奴役之前的大部分乃至全部能力，不过其创造者有时会修改、强化或增添某些能力，以帮助器物进行自卫。</p>",
           "reset": "<p>若在其回合开始时，石化凝视灵光范围内没有任何生物，此作祟会花费1个动作发出尖锐的嚎叫，向其创造者示警有入侵者闯入。随后它用一个动作关上并锁住门，然后重置。</p><p>解除此作祟会将其永久摧毁，被囚禁的生物也随之死去。</p>",
           "routine": "<p>（4个动作；异能，精魂，虚能）此作祟用前两个动作对范围内的任意生物发动蛇牙近战打击。它用余下的两个动作对石化凝视灵光内的生物使用集中凝视，优先选择已经在石化凝视豁免中失败的生物。</p>",
           "stealthdetails": "<p>（大师）</p>",
@@ -2513,7 +2513,7 @@
             },
             "5hjKQ7YRzCggPTXc": {
               "name": "石化凝视 Petrifying Gaze",
-              "description": "<p>30尺。当一个生物在该灵光内结束其回合时，它必须进行一次@Check[fortitude|dc:30]豁免。若该生物失败，它陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}，持续1分钟。此作祟可以花费一个单动作关闭或开启该灵光，该动作具有专注特征。</p>",
+              "description": "<p>30尺。当一个生物在该灵光内结束其回合时，它必须进行一次@Check[fortitude|dc:30]豁免。若该生物失败，它陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}，持续1分钟。此作祟可以花费一个动作关闭或开启该灵光，该动作具有专注特征。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -2533,7 +2533,7 @@
           "name": "伊松德赫利，梦魇成瘾者 Ysondkhelir, Nightmare Addict",
           "tokenName": "伊松德赫利，梦魇成瘾者 Ysondkhelir, Nightmare Addict",
           "prototypeToken": "伊松德赫利，梦魇成瘾者 Ysondkhelir, Nightmare Addict",
-          "publicNotes": "<p>这些恶毒的类人生物是来自寒冷而风声呼啸的冷原维度的奴隶贩子与劫掠者，他们乘着不祥的黑船横行于现实之间，那些船只能够航越维度与位面的边界。虽然多数冷原居民像寻常海盗那样只求奴隶与掠夺物，另一些则以自封的使节和商人自居，用触及甚广的阴谋播撒纷争。这些深不可测的居民身披飘垂的长袍、面纱与宽大的头巾，装作人类模样，但只要瞥见一眼，其异怪的生理构造便一目了然：从头顶那圈短粗的犄角、生有触须的颚部，到覆着毛发的山羊般双腿。</p>\n<p>在统领那些恶名昭彰的黑船的凶悍船长之上，还有更高一等的冷原居民阶层。这些邪教徒与乐师充任高阶祭司，竭力抚慰那些以冷酷恶意俯视噩梦领域的可怖神祇。</p>",
+          "publicNotes": "<p>这些恶毒的类人生物是来自寒冷而风声呼啸的冷原维度的奴隶贩子与劫掠者，他们乘着不祥的黑船横行于现实之间，那些船只能够越过维度与位面的边界航行。虽然多数冷原居民像寻常海盗那样只求奴隶与掠夺物，另一些则自称使节或商人，借牵涉甚广的阴谋挑起纷争。这些深不可测的居民身披飘垂的长袍、面纱与宽大的头巾，装作人类模样，但只要瞥见他们的身体，就能看出其构造有多么怪异：从头顶那圈短粗的犄角、生有触须的颚部，到覆着毛发的山羊般双腿。</p>\n<p>在统领那些恶名昭彰的黑船的凶悍船长之上，还有更高一等的冷原居民阶层。这些邪教徒与乐师充任高阶祭司，竭力抚慰那些以冷酷恶意俯视噩梦领域的可怖神祇。</p>",
           "privateNotes": "",
           "blurb": "男性冷原居民",
           "hp": "位面快速治疗 10",
@@ -2574,7 +2574,7 @@
             },
             "UhmNFs8XmS6fveKv": {
               "name": "流放诅咒 Outcast's Curse",
-              "description": "<p>你给目标施加诅咒，使它的存在变得令人烦躁且惹人厌恶。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 在10分钟内，目标每次尝试欺骗、交涉、威吓或表演检定时，都必须掷骰两次并取较差的结果；它所遭遇的生物对其初始态度会差一级（例如变成@UUID[Compendium.pf2e.conditionitems.Item.I1ffBVISxLr2gC4u]{不友善}，而非@UUID[Compendium.pf2e.conditionitems.Item.fuG8dgthlDWfWjIA]{不关心}）。</p>\n<p><strong>失败</strong> 同成功，但效果为永久。</p>\n<p><strong>大失败</strong> 同失败，且目标所遭遇的生物对其初始态度会差两级。</p>",
+              "description": "<p>你给目标施加诅咒，使它令人厌烦、难以亲近。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 在10分钟内，目标每次尝试欺骗、交涉、威吓或表演检定时，都必须掷骰两次并取较差的结果；它所遭遇的生物对其初始态度会差一级（例如变成@UUID[Compendium.pf2e.conditionitems.Item.I1ffBVISxLr2gC4u]{不友善}，而非@UUID[Compendium.pf2e.conditionitems.Item.fuG8dgthlDWfWjIA]{不关心}）。</p>\n<p><strong>失败</strong> 同成功，但效果为永久。</p>\n<p><strong>大失败</strong> 同失败，且目标所遭遇的生物对其初始态度会差两级。</p>",
               "gmDescription": "",
               "range": "接触",
               "target": "1个生物",
@@ -2588,7 +2588,7 @@
             },
             "aV7tH63nZZOcXqzb": {
               "name": "实言术（恒定） Truespeech (Constant)",
-              "description": "<p>目标能够理解一切话语，无论其属于何种语言，也能说出其他生物的语言。当处于成分混杂的生物群体中时，目标每次开口都可以选择一个生物，并以那个生物听得懂的语言说话，哪怕目标并不知道那是什么语言。</p>\n<hr />\n<p><strong>升阶（7环级）</strong> 持续时间为8小时。</p>",
+              "description": "<p>目标能够理解一切话语，无论其属于何种语言，也能说出其他生物的语言。当身处一群不同的生物之间时，目标每次开口都可以选择一个生物，并以那个生物听得懂的语言说话，哪怕目标并不知道那是什么语言。</p>\n<hr />\n<p><strong>升阶（7环级）</strong> 持续时间为8小时。</p>",
               "gmDescription": "",
               "range": "接触",
               "target": "1个生物",
@@ -2602,7 +2602,7 @@
             },
             "nihlPTy2AUBLiZ0e": {
               "name": "催眠图纹 Hypnotic Pattern",
-              "description": "<p>你创造一个漂浮在空中的在几何图形般云雾中变换色彩的图纹。在图纹中的生物 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}。除此之外，在你施放时处于图纹中的生物，进入图纹中的生物，在图纹中结束回合的生物，或者对图纹使用搜索或者交互动作的生物在此时必须尝试一次意志豁免。已经被图纹 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂} 的生物无需尝试新的豁免。</p>\n<hr />\n<p><strong>成功</strong> 目标不受影响。</p>\n<p><strong>失败</strong> 目标被该图纹迷魂。</p>\n<p><strong>大失败</strong> 目标被该图纹迷魂。只要其仍迷魂，它无法使用反应动作。</p>",
+              "description": "<p>你创造出一组色彩不断变化的图纹，在空中汇成一团几何形状的云雾。生物只要身处图纹之中，就会陷入 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}。此外，生物在以下任一时机都必须尝试一次意志豁免：你施法时它已在图纹内；它进入图纹时；它在图纹内结束回合时；或它对图纹使用搜索或交互动作时。当前已被图纹 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂} 的生物不再尝试豁免。</p>\n<hr />\n<p><strong>成功</strong> 目标不受影响。</p>\n<p><strong>失败</strong> 目标被该图纹迷魂。</p>\n<p><strong>大失败</strong> 目标被该图纹迷魂。只要它仍处于迷魂状态，就无法使用反应。</p>",
               "gmDescription": "",
               "range": "120尺",
               "target": "",
@@ -2616,7 +2616,7 @@
             },
             "sWtdWgTNEA7VSiQ3": {
               "name": "定位术 Locate",
-              "description": "<p>你了解目标的方位（如果你选择一个特定物品，例如 \"我母亲的剑\") 或者最近的目标（如果你选择一类物品，例如 \"剑\")。如果目标是特定物体，你必须曾经通过你自身的感官观察过它。如果是一类物体，你仍然需要有该类物体的精确内心印象。如果你和目标之间有铅或者流动的水，该法术无法定位该物体。这意味着你可能找一类物体时，因为最近的那个在铅或者流动的水后面，而获得较远的结果。</p>\n<hr />\n<p><strong>升环（5环）</strong> 你能以一个特定生物或者族裔为目标，而不是物体。但你必须遇见过或者近距离观察过你想要作为目标的生物或者族裔。</p>",
+              "description": "<p>如果你选择的是一个特定物体（例如“我母亲的剑”），你会得知它所在的方向；如果你选择的是一类物体（例如“剑”），你会得知最近的此类物体所在的方向。若目标是特定物体，你必须曾用自己的感官直接观察过它；若目标是一类物体，你仍须在脑海中对这类物体有准确的印象。如果你与目标之间隔着铅或流水，此法术便无法定位该物体。因此，寻找一类物体时，若最近的一个被铅或流水阻隔，你可能会找到更远处的同类物体。</p>\n<hr />\n<p><strong>升阶（5环）</strong> 你可以改以某个特定生物或某种族裔为目标，但你必须遇见过或近距离见过该生物或该族裔的成员。</p>",
               "gmDescription": "",
               "range": "500尺",
               "target": "1个特定物体或一种物体",
@@ -2648,7 +2648,7 @@
             },
             "TfoVFyxIvY0uSWIe": {
               "name": "镜影术 Mirror Image",
-              "description": "<p>三个你的幻象在你的位置旋转，令想要攻击你的人可能会命中一个幻象，而不是你本人。任何要命中你的攻击会有随机概率命中你的一个幻象，而不是你本身。如果三个幻象均存在，有四分之一的几率命中你（[[/r 1d4]]骰出1）。如果两个幻象存在，有三分之一的概率命中你（[[/r 1d6]]骰出1-2）。仅有一个幻象时，概率为二分之一（ [[/r 1d6]]骰出1-3）。</p>\n<p>当一个幻象被命中时，它会被摧毁。如果一个攻击骰没有命中你的AC，但是也没有大失败，它会摧毁一个幻象，但是没有额外的效果（即使该攻击在失败时通常会有效果）。如果一次攻击骰大成功，并且将命中一个幻象，一个幻象被摧毁，并且攻击骰变为对你的一次成功攻击。当所有幻象被摧毁时，该法术结束。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.0PO5mFRhh9HxGAtv]{法术效果：镜影术}</p>",
+              "description": "<p>你的三个幻象在你占据的空间内盘旋，使攻击你的人可能误中幻象。任何本会命中你的攻击，都有一定概率改为命中其中一个幻象。如果三个幻象均存在，有四分之一的几率命中你（[[/r 1d4]]骰出1）。如果还剩两个幻象，有三分之一的概率命中你（[[/r 1d6]]骰出1-2）。仅有一个幻象时，概率为二分之一（[[/r 1d6]]骰出1-3）。</p>\n<p>当一个幻象被命中时，它会被摧毁。如果攻击检定未能命中你的AC，但并未大失败，则会摧毁一个幻象，且不产生其他效果（即使该攻击通常会在失败时产生效果）。如果攻击检定大成功，且本次攻击将命中一个幻象，则摧毁一个幻象，并将攻击检定的结果改为对你成功。当所有幻象被摧毁时，该法术结束。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.0PO5mFRhh9HxGAtv]{法术效果：镜影术}</p>",
               "gmDescription": "",
               "range": "",
               "target": "",
@@ -2690,23 +2690,23 @@
             },
             "0FXvx3BSVJXplwT2": {
               "name": "念动之手 Telekinetic Hand",
-              "description": "<p>你创造出一只漂浮着的魔法手掌，它可以隐形或者宛如幽灵，它能抓住目标物体并向着任意方向缓慢漂浮至多20尺。当你维持法术时，你能够将物体移动额外20尺。若物体位于空中之时法术结束，那么该物体便会坠落。</p>\n<hr />\n<p><strong>升阶（3环）</strong> 你能以一个1负载或更轻的无人持有的物体为目标。</p>\n<p><strong>升阶（5环）</strong> 法术射程增加至60尺，而且你能以一个1负载或更轻的无人持有的物体为目标。</p>\n<p><strong>升阶（7环）</strong> 法术射程增加至60尺，而且你能以一个2负载或更轻的无人持有的物体为目标。</p>",
+              "description": "<p>你创造出一只悬浮的魔法手掌。这只手可以是隐形的，也可以呈幽灵般的形态。它抓住目标物体，使其悬浮，并朝任意方向缓缓移动至多20尺。当你维持法术时，可以再将物体移动20尺。如果法术结束时物体仍在空中，它便会坠落。</p>\n<hr />\n<p><strong>升阶（3环）</strong> 你能以一个未被携带且负载不超过1的物体为目标。</p>\n<p><strong>升阶（5环）</strong> 法术射程增加至60尺，而且你能以一个未被携带且负载不超过1的物体为目标。</p>\n<p><strong>升阶（7环）</strong> 法术射程增加至60尺，而且你能以一个未被携带且负载不超过2的物体为目标。</p>",
               "gmDescription": "",
               "range": "30尺",
-              "target": "1个容积为轻型或更低、且未被携带的物体",
+              "target": "1个轻负载或更轻、且未被携带的物体",
               "time": "2",
               "duration": "",
               "cost": "",
               "requirements": "",
               "heighteningLevels": {
                 "3": {
-                  "target": "1件负载不超过1的无人看管物体"
+                  "target": "1件负载不超过1、且未被携带的物体"
                 },
                 "5": {
                   "range": "60尺"
                 },
                 "7": {
-                  "target": "1件容积为2或更小、未被携带的物体"
+                  "target": "1件负载不超过2、且未被携带的物体"
                 }
               },
               "overlays": {},
@@ -2732,7 +2732,7 @@
             },
             "uIAsDwihFkXQYvWY": {
               "name": "幻痛术 Phantom Pain",
-              "description": "<p>幻觉疼痛折磨目标，造成2d4心灵伤害和@Damage[(@item.level)d4[persistent,mental]]伤害。目标必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标承受完整的初始伤害，但不承受持续伤害，并且法术立即结束。</p>\n<p><strong>失败</strong> 目标承受全额初始伤害和持续伤害，并且目标获得 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}。如果目标从恶心中恢复，持续伤害结束，该法术也结束。</p>\n<p><strong>大失败</strong> 如同失败，但目标获得 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}。</p><hr /><p><strong>升阶（+1）</strong> 该伤害增加2d4，持续伤害增加1d4。</p>",
+              "description": "<p>虚幻的疼痛折磨着目标，造成2d4心灵伤害和@Damage[(@item.level)d4[persistent,mental]]伤害。目标必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标承受全额初始伤害，但不承受持续伤害，并且法术立即结束。</p>\n<p><strong>失败</strong> 目标承受全额初始伤害和持续伤害，并陷入 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}。如果目标解除恶心状态，持续伤害结束，该法术也结束。</p>\n<p><strong>大失败</strong> 如同失败，但目标获得 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}。</p><hr /><p><strong>升阶（+1）</strong> 该伤害增加2d4，持续伤害增加1d4。</p>",
               "gmDescription": "",
               "range": "30尺",
               "target": "1个生物",
@@ -2746,7 +2746,7 @@
             },
             "xzZ10Rezr9qnYyCl": {
               "name": "阅读灵光 Read Aura",
-              "description": "<p>你专注于目标物体，敞开心智以感知魔法灵光。施法完成时，你便知道该物品是否具有魔法；如果有，你还会得知其魔法学派。</p>\n<p>如果该物体是幻象，你只能在其效果等级低于你的阅读灵光法术等级时侦测到这一点。</p>\n<hr />\n<p><strong>升阶（3环）</strong> 你可以以至多10个物体为目标。</p>\n<p><strong>升阶（6环）</strong> 你可以以任意数量的物体为目标。</p>",
+              "description": "<p>你专注于目标物体，敞开心智以感知魔法灵光。施法完成时，你便知道该物品是否具有魔法；如果有，你还会得知其魔法学派。</p>\n<p>如果该物体是幻象，你只能在其效果等级低于你的阅读灵光法术环级时侦测到这一点。</p>\n<hr />\n<p><strong>升阶（3环）</strong> 你可以以至多10个物体为目标。</p>\n<p><strong>升阶（6环）</strong> 你可以以任意数量的物体为目标。</p>",
               "gmDescription": "",
               "range": "30尺",
               "target": "1 个物体",
@@ -2839,7 +2839,7 @@
             },
             "qE6CmHhAMlXacLHz": {
               "name": "重力井 Gravity Well",
-              "description": "<p>你创造一个改变重力的球体。区域中所有生物和未固定的物体会依其反射豁免结果向中心移动。这依照强迫移动的规则。如果球体中心附近没有足够的空间，距离中心更近的生物和物体先移动，其余的随后移动，它们会在不被阻挡的前提下尽可能远地移动，至多等于其豁免结果所决定的距离。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物向中心移动5尺。</p>\n<p><strong>失败</strong> 该生物向中心移动15尺。</p>\n<p><strong>大失败</strong> 该生物向中心移动30尺。</p>",
+              "description": "<p>你创造一个改变重力的球体。区域中所有生物和未固定的物体会依其反射豁免结果向中心移动。这种移动遵循强迫移动规则。如果球体中心附近没有足够的空间，距离中心更近的生物和物体先移动，其余生物和物体则在不受阻挡的前提下尽可能向中心移动，但不超过各自豁免结果所决定的距离。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物向中心移动5尺。</p>\n<p><strong>失败</strong> 该生物向中心移动15尺。</p>\n<p><strong>大失败</strong> 该生物向中心移动30尺。</p>",
               "gmDescription": "",
               "range": "120尺",
               "target": "",
@@ -2854,7 +2854,7 @@
             },
             "y9kRvSYkL8JrUCEB": {
               "name": "隐形术 Invisibility",
-              "description": "<p>幻术令光线在目标周围弯折，使其成为@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}。这令它对所有生物皆为@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{无踪}，不过那些生物可以尝试找出目标，从而使其对它们转为@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}。若目标采取敌对行动，该法术会在该敌对行动完成后结束。</p>\n<hr />\n<p><strong>升阶（4环级）</strong> 该法术持续1分钟，且不会因目标采取敌对行动而结束。</p>",
+              "description": "<p>幻术令光线在目标周围弯折，使其处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}状态。因此，对所有生物而言，它都处于@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{无踪}状态，不过这些生物可以尝试找出目标，使目标对它们而言转为@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}状态。若目标采取敌对行动，该法术会在该敌对行动完成后结束。</p>\n<hr />\n<p><strong>升阶（4环级）</strong> 该法术持续1分钟，且不会因目标采取敌对行动而结束。</p>",
               "gmDescription": "",
               "range": "接触",
               "target": "1个生物",
@@ -2882,7 +2882,7 @@
             },
             "Tdub2sRu38myvwGu": {
               "name": "激现骸骨 Rouse Skeletons",
-              "description": "<p>扭曲变形的骷髅从坚实表面（例如石头地板）破土而出，占满爆发区域。它们占据的区域为困难地形。骷髅首次出现时，它们爪子的抓握会对该区域地面上的生物造成2d6挥砍伤害（基础反射豁免）。</p>\n<p>在接下来的战斗轮里，每轮你第一次维持该法术时，都可以在法术范围内将骷髅区域移动至多20尺，并对新区域中的每个生物造成2d6挥砍伤害（基础反射豁免）。</p>\n<p>伤害或摧毁这些骷髅毫无意义，因为新的骸骨会不断从地面钻出，修补并替换那些被消灭的部分。</p><hr /><p><strong>升阶（+2）</strong> 该伤害增加1d6。</p>",
+              "description": "<p>扭曲变形的骷髅从坚实表面（例如石头地板）破土而出，占满爆发区域。它们占据的区域为困难地形。骷髅首次出现时，它们挥爪抓挠，对该区域地面上的生物造成2d6挥砍伤害（基础反射豁免）。</p>\n<p>在接下来的战斗轮里，每轮你第一次维持该法术时，都可以在法术范围内将骷髅区域移动至多20尺，并对新区域中的每个生物造成2d6挥砍伤害（基础反射豁免）。</p>\n<p>伤害或摧毁这些骷髅毫无意义，因为新的骸骨会不断从地面钻出，修补并替换那些被消灭的部分。</p><hr /><p><strong>升阶（+2）</strong> 该伤害增加1d6。</p>",
               "gmDescription": "",
               "range": "60尺",
               "target": "",
@@ -2904,7 +2904,7 @@
             },
             "OBBuPiP9UWh8vFHv": {
               "name": "你身处我的梦魇 You're In My Nightmare",
-              "description": "<p>只要伊松德赫利还活着，他梦境世界中任何缺少坚实地面的方格都被视为梦魇空间。当一名角色进入梦魇空间，或在梦魇空间内结束其回合时，便会触发下述效果，捕梦者的恶毒噩梦将撕入其心灵。</p><hr /><section class=\"statblock\"><p>@Check[type:will|dc:26|showDC:all]{基础意志豁免}</p><p>@Damage[(2d10+13)[spirit,mental]]{2d10+13 点精魂与心灵伤害}</p><p><strong>大成功</strong> 无伤害。该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}。</p><p><strong>成功</strong> 半数伤害。该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 2}。</p><p><strong>失败</strong> 全额伤害。该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 3}。</p><p><strong>大失败</strong> 双倍伤害。该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 4}。</p></section>",
+              "description": "<p>只要伊松德赫利还活着，他梦境世界中任何缺少坚实地面的方格都被视为梦魇空间。当一名角色进入梦魇空间，或在梦魇空间内结束其回合时，便会触发下述效果，捕梦者的恶毒噩梦将撕扯其心灵。</p><hr /><section class=\"statblock\"><p>@Check[type:will|dc:26|showDC:all]{基础意志豁免}</p><p>@Damage[(2d10+13)[spirit,mental]]{2d10+13 点精魂与心灵伤害}</p><p><strong>大成功</strong> 无伤害。该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}。</p><p><strong>成功</strong> 半数伤害。该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 2}。</p><p><strong>失败</strong> 全额伤害。该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 3}。</p><p><strong>大失败</strong> 双倍伤害。该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 4}。</p></section>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -2912,7 +2912,7 @@
             },
             "UPPrR0IhXC5mWkQu": {
               "name": "催生伏行之手 Spawn Hand",
-              "description": "<p>伊松德赫利在30尺内一个无人占据的空间中催生出一只伏行巨手。</p>",
+              "description": "<p>伊松德赫利在30尺内一个未被占据的空间中催生出一只伏行巨手。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -2934,7 +2934,7 @@
             },
             "fXG3ngGJ06lS4idL": {
               "name": "念动射弹 Telekinetic Projectile",
-              "description": "<p>你将距离内一件未被携带、未被固定、容积为1或更低的物体朝目标掷出。对目标进行一次法术攻击骰。若你命中，你造成2d6点钝击、穿刺或挥砍伤害——取决于你所掷出的物体。被掷出物品的特殊特征或魔法特性不会影响该攻击或伤害。</p>\n<hr />\n<p><strong>大成功</strong> 你造成双倍伤害。</p>\n<p><strong>成功</strong> 你造成全额伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong> 该伤害增加1d6。</p>",
+              "description": "<p>你将距离内一件未被携带、未被固定、负载不超过1的物体朝目标掷出。对目标进行一次法术攻击检定。若你命中，你造成2d6点钝击、穿刺或挥砍伤害——取决于你所掷出的物体。被掷出物品的特殊特征或魔法特性不会影响该攻击或伤害。</p>\n<hr />\n<p><strong>大成功</strong> 你造成双倍伤害。</p>\n<p><strong>成功</strong> 你造成全额伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong> 该伤害增加1d6。</p>",
               "gmDescription": "",
               "range": "30尺",
               "target": "1个生物",
@@ -2973,7 +2973,7 @@
             },
             "dM01630aFBhFNyuq": {
               "name": "黑缠蛇 Slither",
-              "description": "<p>一大群由阴影构成的蛇涌起，捕捉区域内的生物。你施放该法术时位于区域内的每个生物都会受到噬咬之蛇造成的@Damage[3d6[piercing]]伤害与@Damage[1d6[persistent,poison]]伤害，并依其反射豁免结果陷入@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}。在该区域内结束其回合的生物也必须进行这项豁免，即便它已经被这些蛇擒住或束缚。你可以解消该法术。</p>\n<hr />\n<p><strong>成功</strong> 该生物不受影响。</p>\n<p><strong>失败</strong> 该生物受到全额伤害，并被一条蛇擒住。这些蛇的@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}DC等于你的法术DC。生物可以攻击一条蛇来使被擒者脱身。蛇的AC等于你的法术DC，若它一次受到12点或更多伤害便会被摧毁。只要法术持续，新的蛇便会不断长出，因此摧毁蛇并不能阻止黑缠蛇捕捉更多生物。</p>\n<p><strong>大失败</strong> 如同失败，但该生物受到双倍伤害，并被一条蛇束缚。</p>\n<hr />\n<p><strong>升阶（+2）</strong> 持续毒素伤害增加1d6，蛇的生命值增加6。</p>",
+              "description": "<p>一大群由阴影构成的蛇涌起，捕捉区域内的生物。你施放该法术时位于区域内的每个生物都会因蛇的噬咬受到@Damage[3d6[piercing]]伤害与@Damage[1d6[persistent,poison]]伤害，并依其反射豁免结果陷入@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}。在该区域内结束其回合的生物也必须进行这项豁免，即便它已经被这些蛇擒住或束缚。你可以解消该法术。</p>\n<hr />\n<p><strong>成功</strong> 该生物不受影响。</p>\n<p><strong>失败</strong> 该生物受到全额伤害，并被一条蛇擒住。这些蛇的@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}DC等于你的法术DC。生物可以攻击一条蛇来使被擒者脱身。蛇的AC等于你的法术DC，若它一次受到12点或更多伤害便会被摧毁。只要法术持续，新的蛇便会不断长出，因此摧毁蛇并不能阻止黑缠蛇捕捉更多生物。</p>\n<p><strong>大失败</strong> 如同失败，但该生物受到双倍伤害，并被一条蛇束缚。</p>\n<hr />\n<p><strong>升阶（+2）</strong> 持续毒素伤害增加1d6，蛇的生命值增加6。</p>",
               "gmDescription": "",
               "range": "120尺",
               "target": "",
@@ -2987,7 +2987,7 @@
             },
             "Dui7xbSrUoZCUn0n": {
               "name": "通感超载 Synesthesia",
-              "description": "<p>目标的感官突然以难以意料的方式重新连接，令它将噪音认知为弥漫的色彩，将气味认知为声音，如是种种。该法术具有三种效果，目标必须进行一次意志豁免。</p><ul><li>这种干扰导致目标每次使用具有专注特征的动作时都必须成功通过@Check[flat|dc:5]检定，否则该动作失败并被浪费。</li><li>目标难以处理视觉信息，令所有生物和物体对其为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}。</li><li><p>该生物移动困难，令其陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 3}，并令其速度获得-10尺状态减值。</p></li></ul><hr /><p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标受到影响1轮。</p>\n<p><strong>失败</strong> 目标受到影响1分钟。</p>\n<p><strong>大失败</strong> 如同失败，且目标为了处理错乱的感官信息而陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 2}。</p><hr /><p><strong>升阶（9环级）</strong> 你能以至多五个生物为目标。</p>",
+              "description": "<p>目标的感官突然以难以意料的方式重新连接，令它将噪音感知为迸发的色彩，将气味感知为声音，诸如此类。该法术具有三种效果，目标必须进行一次意志豁免。</p><ul><li>这种干扰导致目标每次使用具有专注特征的动作时都必须成功通过@Check[flat|dc:5]检定，否则该动作失败并被浪费。</li><li>目标难以处理视觉信息，使所有生物和物体对其而言都处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态。</li><li><p>该生物移动困难，令其陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 3}，且其所有速度承受-10尺状态减值。</p></li></ul><hr /><p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标受到影响1轮。</p>\n<p><strong>失败</strong> 目标受到影响1分钟。</p>\n<p><strong>大失败</strong> 如同失败，且目标在试图适应感官错乱时陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 2}。</p><hr /><p><strong>升阶（9环级）</strong> 你能以至多五个生物为目标。</p>",
               "gmDescription": "",
               "range": "30尺",
               "target": "1个生物",
@@ -3013,7 +3013,7 @@
             },
             "JjRVbVMuQUZydgpv": {
               "name": "效果：伊松德赫利的控制 Effect: Ysondkhelir's Control",
-              "description": "<p><strong>一次成功</strong> 伊松德赫利对物理伤害的抗力降至5。他那面窗墙的南段消失。</p><p><strong>两次成功</strong> 不再有伏行之手能被催生出来。伊松德赫利那面窗墙的北段消失。</p><p><strong>三次成功</strong> 伊松德赫利不再处于迅捷状态。他那面窗墙余下的部分消失。</p><p><strong>四次成功</strong> 伊松德赫利失去他的借机攻击以及对物理伤害的抗力。他也变回正常体型，近战打击失去15尺触及。多莉安娜暂时摆脱了他的精神影响，不过若任其存活，他最终会重新施加控制。</p>",
+              "description": "<p><strong>一次成功</strong> 伊松德赫利对物理伤害的抗力降至5。他那面窗墙的南段消失。</p><p><strong>两次成功</strong> 无法再催生伏行之手。伊松德赫利那面窗墙的北段消失。</p><p><strong>三次成功</strong> 伊松德赫利不再处于迅捷状态。他那面窗墙余下的部分消失。</p><p><strong>四次成功</strong> 伊松德赫利失去他的借机攻击以及对物理伤害的抗力。他也变回正常体型，近战打击失去15尺触及。多莉安娜暂时摆脱了他的精神影响，不过若任其存活，他最终会重新施加控制。</p>",
               "gmDescription": "",
               "duration": -1,
               "heighteningLevels": {},
@@ -3029,7 +3029,7 @@
             },
             "gTf65M5g6JJUGKo3": {
               "name": "迅捷 Quickened",
-              "description": "<p>你能行动得更加迅速。每轮你自己回合开始时，你获得1个额外的动作。许多给与迅捷状态的效果都会要求你仅能以特定方法使用该额外动作。若你从多个来源获得迅捷状态，该额外动作能进行的动作类型从所有给与迅捷状态的效果列表中选择。因迅捷状态的效果在你自己回合开始时生效，因此若你在自己回合获得迅捷状态，你不会立刻获得动作。</p>",
+              "description": "<p>你能行动得更加迅速。每轮你自己回合开始时，你获得1个额外的动作。许多赋予迅捷状态的效果会限制这个额外动作的用途。若你从多个来源获得迅捷状态，你可以用这个额外动作执行其中任一效果允许的单动作。迅捷状态在你的回合开始时生效，因此在自己的回合中获得迅捷状态不会让你立刻获得额外动作。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -3041,7 +3041,7 @@
       "items": {
         "CyWfBIXA8CKVFMK4": {
           "name": "宁布洛斯 - 重度诅咒 Nhimbaloth - Major Curse",
-          "description": "<section class=\"secret\" id=\"secret-pQnRODKmTYc6SY3Q\"><p><strong>豁免检定</strong> @Check[type:will|dc:33|showDC:gml|traits:curse,auditory,illusion,magical,mental,visual]{意志豁免}</p><p><strong>时间线</strong> 憎恶地窟第3册</p><p><strong>建议触发</strong> 进入任何奉献给宁布洛斯的区域，或在最初的@JournalEntry[Abomination Vaults#Belcorra Attacks]{贝科拉来袭！}遭遇期间</p><section class=\"statblock\"><p><strong>阶段1 </strong>你处于@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}状态。在战斗中你的第一个回合开始时，你受到无法以任何方式防止的@Damage[(4d6)[slashing]]{4d6挥砍伤害}。此外，每当你受到挥砍伤害时，你必须成功通过该诅咒的豁免，否则变为@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}。（1天）</p><p><strong>阶段2 </strong>你处于@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}状态。在战斗中你的第一个回合开始时，你受到无法以任何方式防止的@Damage[(6d6)[slashing]]{6d6挥砍伤害}。此外，每当你受到挥砍伤害时，你必须成功通过该诅咒的豁免，否则变为@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}。（1天）</p><p><strong>阶段3 </strong>你处于@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}状态。在战斗中你的第一个回合开始时，你受到无法以任何方式防止的@Damage[(8d6)[slashing]]{8d6挥砍伤害}。此外，每当你受到挥砍伤害时，你必须成功通过该诅咒的豁免，否则变为@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞4}。（1天）</p><p><strong>阶段4 </strong>你死亡，你的精魂被空无之死吞噬。</p></section></section><section class=\"traits\"><p><strong>诅咒 | 听觉 | 幻术 | 魔法 | 心灵 | 视觉</strong></p></section><p><strong>命中注定，一死而已</strong><br />如此接近宁布洛斯领域中那难以言喻的恐怖，你已无法分辨敌友、理智与疯狂，乃至生与死。</p>",
+          "description": "<section class=\"secret\" id=\"secret-pQnRODKmTYc6SY3Q\"><p><strong>豁免检定</strong> @Check[type:will|dc:33|showDC:gml|traits:curse,auditory,illusion,magical,mental,visual]{意志豁免}</p><p><strong>时间线</strong> 憎恨魔窟第3册</p><p><strong>建议触发</strong> 进入任何为宁布洛斯祝圣的区域，或在最初的@JournalEntry[Abomination Vaults#Belcorra Attacks]{贝科拉来袭！}遭遇期间</p><section class=\"statblock\"><p><strong>阶段1 </strong>你处于@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}状态。在战斗中你的第一个回合开始时，你受到无法以任何方式防止的@Damage[(4d6)[slashing]]{4d6挥砍伤害}。此外，每当你受到挥砍伤害时，你必须成功通过该诅咒的豁免，否则变为@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}。（1天）</p><p><strong>阶段2 </strong>你处于@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}状态。在战斗中你的第一个回合开始时，你受到无法以任何方式防止的@Damage[(6d6)[slashing]]{6d6挥砍伤害}。此外，每当你受到挥砍伤害时，你必须成功通过该诅咒的豁免，否则变为@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}。（1天）</p><p><strong>阶段3 </strong>你处于@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}状态。在战斗中你的第一个回合开始时，你受到无法以任何方式防止的@Damage[(8d6)[slashing]]{8d6挥砍伤害}。此外，每当你受到挥砍伤害时，你必须成功通过该诅咒的豁免，否则变为@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞4}。（1天）</p><p><strong>阶段4 </strong>你死亡，你的精魂被空无之死吞噬。</p></section></section><section class=\"traits\"><p><strong>诅咒 | 听觉 | 幻术 | 魔法 | 心灵 | 视觉</strong></p></section><p><strong>你的命运，唯有一死</strong><br />如此接近宁布洛斯领域中那难以言喻的恐怖，你已无法分辨敌友、理智与疯狂，乃至生与死。</p>",
           "gmDescription": "<p><em>我感受到的，并非寻常鬼魅带来的恐惧。它远比那更强烈、更奇异，仿佛源于祖先遗留的某种幽暗恐惧，比我经历过或梦见过的一切都更令人心惊。被带过那道边界，剥夺我所谓的“生命”，却是以精神而非肉体的方式！彻底的改造，完全的变化，被替代而可怕地失去自我——最空洞的死亡。</em></p>",
           "duration": 24,
           "heighteningLevels": {},
@@ -3050,7 +3050,7 @@
         },
         "Xc13QNzVsZToAs7o": {
           "name": "宁布洛斯 - 中度诅咒 Nhimbaloth - Moderate Curse",
-          "description": "<section class=\"secret\" id=\"secret-rUZLKwQG1AOOQhAY\"><p class=\"p1\"><strong>豁免 </strong>@Check[type:fortitude|dc:28|showDC:gm|]{意志豁免}</p><p class=\"p1\"><strong>时间线</strong> 《憎恶地窟》第二册</p><p class=\"p1\"><strong>触发</strong> 与贝科拉、她最强大的仆从，或为宁布洛斯祝圣的区域发生任何遭遇</p><section class=\"statblock\"><p class=\"p1\"><strong>阶段1</strong> 在任何遭遇开始时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}。你可以尝试通常的@Check[flat|dc:11]纯骰检定来移除困惑状态，但成功仅会使该状态失效至下一次遭遇。（1天）</p><p class=\"p1\"><strong>阶段2</strong> 在任何遭遇开始时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{被控制}。你可以尝试@Check[flat|dc:15]纯骰检定来移除被控制状态，但成功仅会使该状态失效至下一次遭遇。（1天）</p><p class=\"p1\"><strong>阶段3</strong> 你成为空无之死的永久仆从，离开冒险团队，前往凄凉灯塔遗迹的最深处，帮助那里的居民实施邪恶计划。</p></section></section><section class=\"traits\"><p>诅咒 | 幻术 | 魔法 | 心灵 | 听觉 | 视觉</p></section><p><strong>鬼火，她的眼睛</strong></p>",
+          "description": "<section class=\"secret\" id=\"secret-rUZLKwQG1AOOQhAY\"><p class=\"p1\"><strong>豁免 </strong>@Check[type:fortitude|dc:28|showDC:gm|]{意志豁免}</p><p class=\"p1\"><strong>时间线</strong> 《憎恨魔窟》第二册</p><p class=\"p1\"><strong>触发</strong> 与贝科拉或她最强大的仆从发生任何遭遇，或遇到为宁布洛斯祝圣的区域</p><section class=\"statblock\"><p class=\"p1\"><strong>阶段1</strong> 在任何遭遇开始时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}。你可以尝试通常的@Check[flat|dc:11]纯骰检定来移除困惑状态，但成功仅会使该状态失效至下一次遭遇。（1天）</p><p class=\"p1\"><strong>阶段2</strong> 在任何遭遇开始时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{被控制}。你可以尝试@Check[flat|dc:15]纯骰检定来移除被控制状态，但成功仅会使该状态失效至下一次遭遇。（1天）</p><p class=\"p1\"><strong>阶段3</strong> 你成为空无之死的永久仆从，离开冒险团队，前往凄凉灯塔遗迹的最深处，帮助那里的居民实施邪恶计划。</p></section></section><section class=\"traits\"><p>诅咒 | 幻术 | 魔法 | 心灵 | 听觉 | 视觉</p></section><p><strong>鬼火，她的眼睛</strong></p>",
           "gmDescription": "<p><em>调查宁布洛斯及其仆从阴谋所带来的持续影响，从睡梦蔓延到了你清醒的时刻。现实结构上不祥的裂缝出现在你眼前，一点点磨损你的理智。你已无法确定谁才是自己的朋友。</em></p>",
           "duration": 24,
           "heighteningLevels": {},
@@ -3059,15 +3059,15 @@
         },
         "ZCmQhpzHnxCmXylz": {
           "name": "宁布洛斯 - 轻度诅咒 Nhimbaloth - Minor Curse",
-          "description": "<section class=\"secret revealed\" id=\"secret-I2SMHdB1rEKPOF0C\"><section id=\"secret-I2SMHdB1rEKPOF0C\"><section class=\"statblock\"><p><strong>豁免</strong> @Check[type:will|dc:20|showDC:gm|traits:curse,illusion,magical,mental,auditory]</p><p><strong>时间线 </strong>憎恶地窟A至C层</p><p><strong>建议触发</strong> 接触@UUID[JournalEntry.kDJSn9wbVvjnqYEj.JournalEntryPage.yk1knQyHc25ZSAfE]{A层的圣坛祭坛}，或角色首次进入@UUID[JournalEntry.uMZ0RiCcPSqsx1Nm.JournalEntryPage.8pbhSFgv71lvCz9M]{B35 }或@UUID[JournalEntry.KeWKr2yd8dbppeS5.JournalEntryPage.eOv6LI3wvIuKyyNJ]{C15}中的光带</p><hr /></section></section><section class=\"statblock\"><p><strong>阶段1</strong> 你必须休息12小时而非8小时，才能避免陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}。（1天）</p><p><strong>阶段2</strong> 同阶段1，且你无法从休息或长期休息中获益。（1天）</p><p><strong>阶段3</strong> 同阶段2，且你陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}。（1天）</p></section></section><section class=\"traits\"><p class=\"p1\">诅咒 | 幻术 | 魔法 | 心灵 | 听觉</p></section><p><strong>风声，她的低语</strong></p><p class=\"p1\">哪怕只是短暂接触可怖的宁布洛斯的存在，也足以损害毫无戒心者的健康。这项诅咒使你在下一次长时休息期间听到窃窃私语、脚步声和其他古怪声响。若不加以治疗，缺乏睡眠会开始损害你的身心。</p>",
-          "gmDescription": "<p><em>外面传来无数细碎的窸窣声。我知道，它们已经逼近了很久，只是在我睡着时才首次变得清晰可闻。我紧张地坐在那里，彻底清醒，仿佛根本不曾睡过。我觉得呼吸艰难，仿佛有什么沉重的东西压在我全身上下。</em></p>",
+          "description": "<section class=\"secret revealed\" id=\"secret-I2SMHdB1rEKPOF0C\"><section id=\"secret-I2SMHdB1rEKPOF0C\"><section class=\"statblock\"><p><strong>豁免</strong> @Check[type:will|dc:20|showDC:gm|traits:curse,illusion,magical,mental,auditory]</p><p><strong>时间线 </strong>憎恨魔窟A至C层</p><p><strong>建议触发</strong> 接触@UUID[JournalEntry.kDJSn9wbVvjnqYEj.JournalEntryPage.yk1knQyHc25ZSAfE]{A层的神龛祭坛}，或角色首次进入@UUID[JournalEntry.uMZ0RiCcPSqsx1Nm.JournalEntryPage.8pbhSFgv71lvCz9M]{B35 }或@UUID[JournalEntry.KeWKr2yd8dbppeS5.JournalEntryPage.eOv6LI3wvIuKyyNJ]{C15}中的光带</p><hr /></section></section><section class=\"statblock\"><p><strong>阶段1</strong> 你必须休息12小时而非8小时，才能避免陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}。（1天）</p><p><strong>阶段2</strong> 同阶段1，且你无法从休息或长期休息中获益。（1天）</p><p><strong>阶段3</strong> 同阶段2，且你陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}。（1天）</p></section></section><section class=\"traits\"><p class=\"p1\">诅咒 | 幻术 | 魔法 | 心灵 | 听觉</p></section><p><strong>风，她的声音</strong></p><p class=\"p1\">哪怕只是短暂感受到可怖的宁布洛斯的存在，也足以损害毫无戒心者的健康。这项诅咒使你在下一次长时休息期间听到窃窃私语、脚步声和其他古怪声响。若不加以治疗，缺乏睡眠会开始损害你的身心。</p>",
+          "gmDescription": "<p><em>外面传来无数细碎的窸窣声。我知道，这些声音已经持续传来很久，而我最初是在睡梦中听见它们的。我紧张地坐在那里，彻底清醒，仿佛根本不曾睡过。我觉得呼吸艰难，仿佛有什么沉重的东西压在我全身上下。</em></p>",
           "duration": 24,
           "heighteningLevels": {},
           "overlays": {},
           "kitContents": {}
         },
         "7xKOXwUKrcg8gD3y": {
-          "name": "效果：整吞（洞穴蠕虫） Effect: Swallowed Whole (Cave Worm)",
+          "name": "效果：被活吞（洞穴蠕虫） Effect: Swallowed Whole (Cave Worm)",
           "description": "<p>超大型，@Damage[(3d6+9)[bludgeoning]], 破裂 24</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>",
           "gmDescription": "",
           "duration": -1,
@@ -3077,7 +3077,7 @@
         },
         "E0OKIog3W01BhtAB": {
           "name": "效果：给予我们力量的羁绊 Effect:  The Bonds that Give us Strength",
-          "description": "<p>NPC在你的检定中提供援助，给予你以下之一的无类型加值：</p><ul><li><p><strong>+1</strong> - NPC并不真正擅长的事（例如卡尔曼在宗教方面）</p></li><li><p><strong>+2</strong> - NPC会擅长的事（例如莫里宾特与奥法）</p></li><li><p><strong>+3</strong> - 如果你与该NPC共享特别亲密的羁绊（他们的存在激励你）</p></li></ul>",
+          "description": "<p>NPC在你的检定中提供援助，给予你以下之一的无类型加值：</p><ul><li><p><strong>+1</strong> - NPC不擅长的事（例如卡曼在宗教方面）</p></li><li><p><strong>+2</strong> - NPC擅长的事（例如莫里宾特与奥法）</p></li><li><p><strong>+3</strong> - 如果你与该NPC关系格外亲密（他们在场便能鼓舞你）</p></li></ul>",
           "gmDescription": "",
           "duration": -1,
           "heighteningLevels": {},
@@ -3085,7 +3085,7 @@
           "kitContents": {}
         },
         "3ZOSpEvydDj9rfJl": {
-          "name": "凄凉灯塔 腿数统计 Gauntlight Legs Count",
+          "name": "凄凉灯塔腿数统计 Gauntlight Legs Count",
           "description": "",
           "gmDescription": "",
           "duration": -1,
@@ -3095,15 +3095,15 @@
         },
         "Q5N7Px8ZVaocxC92": {
           "name": "唤醒意识 Rouse Sentience",
-          "description": "<section><p>你必须设法唤起这个生物残存的心智碎片，从而在器物中制造出轻微的紊乱，让你得以发现解除它的方法。以这种方式唤醒该生物的效果持续 1 分钟，并使该器物在一轮内变为 @UUID[Actor.8xX9yeGs7iCSoQ7m.Item.RpJ9AbFpL8ZWsJSX]{缓慢 1}。</p><p><strong>选项</strong></p><ul><li><p>@Check[type:Medicine|dc:28|showDC:all]{医疗（专家）}</p></li><li><p>@Check[type:Society|dc:30|showDC:all]{社会（大师）}</p></li><li><p>@Check[type:Diplomacy|dc:31|showDC:all]{交涉（大师）}</p></li></ul></section>",
-          "gmDescription": "<section><p>若PC提及一条与该生物变为器物之前有关的独有知识，则本次检定获得+1状态加值。</p></section>",
+          "description": "<section><p>你必须设法唤起这个生物残存的心智碎片，从而轻微干扰器物的运作，让你得以发现解除它的方法。以这种方式唤醒该生物的效果持续 1 分钟，并使该器物陷入持续一轮的 @UUID[Actor.8xX9yeGs7iCSoQ7m.Item.RpJ9AbFpL8ZWsJSX]{缓慢 1}状态。</p><p><strong>选项</strong></p><ul><li><p>@Check[type:Medicine|dc:28|showDC:all]{医疗（专家）}</p></li><li><p>@Check[type:Society|dc:30|showDC:all]{社群（大师）}</p></li><li><p>@Check[type:Diplomacy|dc:31|showDC:all]{交涉（大师）}</p></li></ul></section>",
+          "gmDescription": "<section><p>若PC提及一条关于该生物变为器物之前的具体信息，则本次检定获得+1状态加值。</p></section>",
           "heighteningLevels": {},
           "overlays": {},
           "kitContents": {}
         },
         "aEZqJZBbCp3fJSV0": {
           "name": "研究器具 Study Implement",
-          "description": "<section><p>这件器物的构造表明，一旦它被解除，其创造者会在 10 分钟内察觉。为应对这种可能，PC 可以在尝试解除该作祟之前先尝试「发送虚假信号」行动。</p><p><strong>选项</strong></p><ul><li><p>@Check[type:Occultism|dc:30|showDC:all]{神秘（大师）}</p></li><li><p>@Check[type:Spirit-Lore|dc:28|showDC:all]{精魂学识（专家）}</p></li></ul></section>",
+          "description": "<section><p>这件器物的构造表明，一旦它被解除，其创造者会在 10 分钟内察觉。为应对这种可能，PC 可以在尝试解除该作祟之前先尝试「发出假信号」行动。</p><p><strong>选项</strong></p><ul><li><p>@Check[type:Occultism|dc:30|showDC:all]{神秘（大师）}</p></li><li><p>@Check[type:Spirit-Lore|dc:28|showDC:all]{精魂学识（专家）}</p></li></ul></section>",
           "gmDescription": "<section><p><strong>后续发展</strong></p><p>要将灵魂从折磨中解救出来并永久解除器物，你必须恳请一位神祇介入，让灵魂得以最终安息。</p></section>",
           "heighteningLevels": {},
           "overlays": {},
@@ -3111,7 +3111,7 @@
         },
         "WFCyQ30Rj6DXwrxk": {
           "name": "发出假信号（可选） Send False Signal (Optional)",
-          "description": "<section><p><strong>选项</strong></p><ul><li><p>@Check[type:Arcana|dc:33|showDC:all]{奥法（大师）}</p></li><li><p>@Check[type:Occultism|dc:30|showDC:all]{神秘（大师）}</p></li><li><p>@Check[type:Spirit-Lore|dc:28|showDC:all]{精魂学识（专家）}</p></li></ul><p><strong>大成功</strong> 你驾驭该区域中残留的灵性能量，在器物中制造出持续 2 小时的虚假运转信号。</p><p><strong>成功</strong> 同大成功，但虚假信号只持续 1 小时。</p><p><strong>失败</strong> 你未能发出虚假信号。该器物的创造者仍会照常在其被解除后的 10 分钟内察觉此事。</p><p><strong>大失败</strong> 你在操纵灵性能量时的笨拙不仅未能发出虚假信号，还引发了不良的副作用。该器物的创造者会在其被解除后的 1 分钟内察觉此事。</p></section>",
+          "description": "<section><p><strong>选项</strong></p><ul><li><p>@Check[type:Arcana|dc:33|showDC:all]{奥法（大师）}</p></li><li><p>@Check[type:Occultism|dc:30|showDC:all]{神秘（大师）}</p></li><li><p>@Check[type:Spirit-Lore|dc:28|showDC:all]{精魂学识（专家）}</p></li></ul><p><strong>大成功</strong> 你驾驭该区域中残留的灵性能量，在器物中制造出持续 2 小时的虚假运转信号。</p><p><strong>成功</strong> 同大成功，但虚假信号只持续 1 小时。</p><p><strong>失败</strong> 你未能发出虚假信号。该器物的创造者仍会照常在其被解除后的 10 分钟内察觉此事。</p><p><strong>大失败</strong> 你操纵灵性能量的手法笨拙，不仅未能发出虚假信号，还引发了不良的副作用。该器物的创造者会在其被解除后的 1 分钟内察觉此事。</p></section>",
           "gmDescription": "",
           "heighteningLevels": {},
           "overlays": {},
@@ -3119,8 +3119,8 @@
         },
         "pkCt6MdQHmoPKHyV": {
           "name": "释放精魂 Release Spirit",
-          "description": "<section><p>你呼求下列三位神祇之一，恳求该神祇让困在器物中的魂魄于死亡中得到慈悲的解脱，从而永久摧毁该器物。</p><ul><li><p><strong>法莱斯玛</strong> 将这个饱受折磨的魂魄从违逆自然、强行延命的苦楚中解放出来，赐予其死亡的尊严。</p></li><li><p><strong>塞恩蕾</strong> 终结该生物在此凡世的苦难，使其能在来世获得灵性的治愈。</p></li><li><p><strong>托拉格</strong> 赐予这个受尽折磨的生物一个荣耀的死亡，将其从被扭曲以顺从他人意志的耻辱中解脱出来。</p></li></ul><p>若在一次「发送伪信号」检定尝试之后的 1 分钟内没有尝试释放魂魄，被驾驭的灵性能量便会消散，必须重新尝试「发送伪信号」检定。</p><p><strong>选项</strong></p><ul><li><p>@Check[type:Religion|dc:31|showDC:all]{神秘（大师）}</p></li><li><p>@Check[type:Religion|dc:30|showDC:all]{宗教（大师）}</p></li><li><p>@Check[type:Spirit-Lore|dc:28|showDC:all]{精魂学识（大师）}</p></li></ul></section>",
-          "gmDescription": "<section><p>属于神术职业（灵媒、牧师、神卫、神源者或先知），且信仰自己劝告中所提及神祇的玩家角色，在此次检定上获得+1状态加值。</p></section>",
+          "description": "<section><p>你呼求下列三位神祇之一，恳求该神祇让困在器物中的魂魄于死亡中得到慈悲的解脱，从而永久摧毁该器物。</p><ul><li><p><strong>法莱斯玛</strong> 将这个饱受折磨的魂魄从违逆自然、强行延命的苦楚中解放出来，赐予其死亡的尊严。</p></li><li><p><strong>塞恩蕾</strong> 终结该生物在此凡世的苦难，使其能在来世获得灵性的治愈。</p></li><li><p><strong>托拉格</strong> 让这个受尽折磨的生物光荣地死去，摆脱被扭曲、被迫顺从他人意志的耻辱。</p></li></ul><p>若在一次「发出假信号」检定尝试之后的 1 分钟内没有尝试释放精魂，被驾驭的灵性能量便会消散，必须重新尝试「发出假信号」检定。</p><p><strong>选项</strong></p><ul><li><p>@Check[type:Religion|dc:31|showDC:all]{神秘（大师）}</p></li><li><p>@Check[type:Religion|dc:30|showDC:all]{宗教（大师）}</p></li><li><p>@Check[type:Spirit-Lore|dc:28|showDC:all]{精魂学识（大师）}</p></li></ul></section>",
+          "gmDescription": "<section><p>属于神术职业（灵媒、牧师、神卫、神源者或先知），且信仰自己恳求中所提及神祇的玩家角色，在此次检定上获得+1状态加值。</p></section>",
           "heighteningLevels": {},
           "overlays": {},
           "kitContents": {}
@@ -3135,8 +3135,8 @@
           "kitContents": {}
         },
         "Mj2aTp5nFE1TnCLk": {
-          "name": "绝不措手不及 Never Caught Unaware",
-          "description": "<p><strong>触发</strong> 贝科拉骰先攻。</p><hr /><p>贝科拉对任何情况都备有预案。她从自己的法术列表中施展一个防御性法术，该法术不会以其他非自愿生物为目标，也不会直接影响它们。</p>",
+          "name": "绝不疏于防备 Never Caught Unaware",
+          "description": "<p><strong>触发</strong> 贝科拉掷先攻。</p><hr /><p>贝科拉对任何情况都备有预案。她从自己的法术列表中施展一个防御性法术，该法术不会以其他非自愿生物为目标，也不会直接影响它们。</p>",
           "gmDescription": "",
           "heighteningLevels": {},
           "overlays": {},
@@ -3144,15 +3144,15 @@
         },
         "x36gXWafbh5sCtcs": {
           "name": "还她自由 Set Her Free",
-          "description": "<section class=\"statblock\"><p>用合适的技能检定削弱伊松德赫利对多莉安娜的控制。</p><ul><li><p><strong>射程</strong> 进行检定的PC必须与多莉安娜或伊松德赫利相邻。其他角色可以使用 @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{协助} 行动来支援一次检定，但前提是他们位于距多莉安娜、伊松德赫利或当前行动的PC（依其行动的适用对象而定）30 尺以内。若角色身处梦魇空间中，则不能进行检定或协助。</p></li><li><p><strong>大成功</strong> 两次成功。</p></li><li><p><strong>成功</strong> 一次成功。</p></li><li><p><strong>失败</strong> 无变化。</p></li><li><p><strong>大失败</strong> 该PC陷入 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}。</p></li></ul><hr /><ul><li><p><strong>奥法</strong> 运用你对魔法的知识，削弱伊松德赫利与多莉安娜之间的灵性联系。</p><ul><li><p>@Check[type:Arcana|dc:31|traits:arcane,mental,spirit]{奥法（非常困难）}</p></li></ul></li><li><p><strong>交涉</strong> 给予多莉安娜与折磨她者抗争的勇气。</p><ul><li><p>@Check[type:Diplomacy|dc:28|traits:auditory,mental,spirit,visual|showDC:all]{交涉（困难）}</p></li></ul></li><li><p><strong>威吓</strong> 以报复的威胁吓阻这名捕梦者。</p><ul><li><p>@Check[type:Intimidation|dc:31|traits:auditory,mental,spirit|showDC:all]{威吓（非常困难）}</p></li></ul></li><li><p><strong>医疗</strong> 照料多莉安娜的伤口，使她恢复气力。</p><ul><li><p>@Check[type:Medicine|dc:26|traits:manipulate,mental,spirit|showDC:all]{医疗（普通）}</p></li></ul></li><li><p><strong>神秘</strong> 破译伊松德赫利控制多莉安娜的秘奥根基。</p><ul><li><p>@Check[type:Occultism|dc:26|traits:mental,occult,spirit|showDC:all]{神秘（普通）}</p></li></ul></li><li><p><strong>社会</strong> 提醒多莉安娜她的家人与朋友，以及她与奥塔里之间的羁绊。</p><ul><li><p>@Check[type:Society|dc:28|traits:auditory,mental,spirit|showDC:all]{社会（困难）}</p></li></ul></li><li><p><strong>精魂学识</strong> 借助你对灵性事物的知识，支持多莉安娜对抗捕梦者。</p><ul><li><p>@Check[type:Spirit-Lore|dc:24|traits:mental,spirit|showDC:all]{精魂学识（简单）}</p></li></ul></li></ul></section>",
-          "gmDescription": "<ul><li><p><strong>一次成功</strong> 伊松德赫利的物理伤害抗力降至 5。他的窗墙南段消失。</p></li><li><p><strong>两次成功</strong> 不再生成伏行之手。伊松德赫利的窗墙北段消失。</p></li><li><p><strong>三次成功</strong> 伊松德赫利不再处于迅捷状态。他的窗墙剩余部分消失。</p></li><li><p><strong>四次成功</strong> 伊松德赫利失去借机攻击及物理伤害抗力。他也恢复正常体型，并且近战打击的触及减少 15 尺。多里安娜暂时摆脱他的心灵影响，但只要他还活着，最终就会再次掌控她。</p></li></ul>",
+          "description": "<section class=\"statblock\"><p>用合适的技能检定削弱伊松德赫利对多莉安娜的控制。</p><ul><li><p><strong>距离</strong> 进行检定的PC必须与多莉安娜或伊松德赫利相邻。其他角色可以使用 @UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{协助} 行动来支援一次检定，但前提是他们位于距多莉安娜、伊松德赫利或正在进行检定的PC（依其行动的适用对象而定）30 尺以内。若角色身处梦魇空间中，则不能进行检定或协助。</p></li><li><p><strong>大成功</strong> 两次成功。</p></li><li><p><strong>成功</strong> 一次成功。</p></li><li><p><strong>失败</strong> 无变化。</p></li><li><p><strong>大失败</strong> 该PC陷入 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}。</p></li></ul><hr /><ul><li><p><strong>奥法</strong> 运用你对魔法的知识，削弱伊松德赫利与多莉安娜之间的灵性联系。</p><ul><li><p>@Check[type:Arcana|dc:31|traits:arcane,mental,spirit]{奥法（非常困难）}</p></li></ul></li><li><p><strong>交涉</strong> 鼓舞多莉安娜，让她有勇气对抗折磨她的捕梦者。</p><ul><li><p>@Check[type:Diplomacy|dc:28|traits:auditory,mental,spirit,visual|showDC:all]{交涉（困难）}</p></li></ul></li><li><p><strong>威吓</strong> 扬言报复，让这名捕梦者感到恐惧。</p><ul><li><p>@Check[type:Intimidation|dc:31|traits:auditory,mental,spirit|showDC:all]{威吓（非常困难）}</p></li></ul></li><li><p><strong>医疗</strong> 照料多莉安娜的伤口，使她恢复气力。</p><ul><li><p>@Check[type:Medicine|dc:26|traits:manipulate,mental,spirit|showDC:all]{医疗（普通）}</p></li></ul></li><li><p><strong>神秘</strong> 破译伊松德赫利控制多莉安娜的秘奥根基。</p><ul><li><p>@Check[type:Occultism|dc:26|traits:mental,occult,spirit|showDC:all]{神秘（普通）}</p></li></ul></li><li><p><strong>社群</strong> 提醒多莉安娜她的家人与朋友，以及她与奥塔里之间的羁绊。</p><ul><li><p>@Check[type:Society|dc:28|traits:auditory,mental,spirit|showDC:all]{社群（困难）}</p></li></ul></li><li><p><strong>精魂学识</strong> 借助你对灵性事物的知识，支持多莉安娜对抗捕梦者。</p><ul><li><p>@Check[type:Spirit-Lore|dc:24|traits:mental,spirit|showDC:all]{精魂学识（简单）}</p></li></ul></li></ul></section>",
+          "gmDescription": "<ul><li><p><strong>一次成功</strong> 伊松德赫利的物理伤害抗力降至 5。他的窗墙南段消失。</p></li><li><p><strong>两次成功</strong> 不再生成伏行之手。伊松德赫利的窗墙北段消失。</p></li><li><p><strong>三次成功</strong> 伊松德赫利不再处于迅捷状态。他的窗墙剩余部分消失。</p></li><li><p><strong>四次成功</strong> 伊松德赫利失去借机攻击及物理伤害抗力。他也恢复正常体型，并且失去近战打击的 15 尺触及。多莉安娜暂时摆脱他的心灵影响，但只要他还活着，最终就会再次掌控她。</p></li></ul>",
           "heighteningLevels": {},
           "overlays": {},
           "kitContents": {}
         },
         "3NFCmqvLXA6eOHoo": {
           "name": "效果：伊松德赫利的控制 Effect: Ysondkhelir's Control",
-          "description": "<p><strong>一次成功</strong> 伊松德赫利对物理伤害的抗力降至 5。他窗墙的南侧部分消失。</p><p><strong>两次成功</strong> 不再会生成伏行之手。伊松德赫利窗墙的北侧部分消失。</p><p><strong>三次成功</strong> 伊松德赫利不再处于迅捷状态。他窗墙余下的各部分消失。</p><p><strong>四次成功</strong> 伊松德赫利失去借机攻击以及对物理伤害的抗力。他也恢复为正常体型，并在近战打击上失去 15 尺触及。多里安娜暂时摆脱了他的心灵影响，但若任其存活，他最终仍会重新夺回控制。</p>",
+          "description": "<p><strong>一次成功</strong> 伊松德赫利对物理伤害的抗力降至 5。他窗墙的南侧部分消失。</p><p><strong>两次成功</strong> 不再会生成伏行之手。伊松德赫利窗墙的北侧部分消失。</p><p><strong>三次成功</strong> 伊松德赫利不再处于迅捷状态。他窗墙余下的各部分消失。</p><p><strong>四次成功</strong> 伊松德赫利失去借机攻击以及对物理伤害的抗力。他也恢复为正常体型，并在近战打击上失去 15 尺触及。多莉安娜暂时摆脱了他的心灵影响，但若任其存活，他最终仍会重新夺回控制。</p>",
           "gmDescription": "",
           "duration": -1,
           "heighteningLevels": {},
@@ -3170,35 +3170,35 @@
       "scenes": {},
       "journals": {
         "YNMkFijTGb36JbJi": {
-          "name": "憎恶地窟：附加内容 Abomination Vaults: Addons",
+          "name": "憎恨魔窟：附加内容 Abomination Vaults: Addons",
           "pages": {
             "hOMUDNapQMRjV1kQ": {
               "name": "宁布洛斯的诅咒 Nhimbaloth Curses",
-              "text": "<p><em>来源于 @weepingminotaur。</em></p><h2>轻度诅咒 - <em>风，她的声音</em></h2><p>@UUID[Item.ZCmQhpzHnxCmXylz]{宁布洛斯 - 轻度诅咒}<br><em>哪怕只是与可怖的宁布洛斯之存在短暂遭遇，也足以影响毫无防备者的健康。这个诅咒会让你在下一次长休息期间听见窃窃私语、脚步声与其他古怪噪音。若不加以治疗，睡眠的缺失将开始损害你的身心。</em></p><ul><li><p><strong>时间线</strong> 憎恶地窟 A至C层</p></li><li><p><strong>建议触发</strong> 接触A层的神龛祭坛，或首次有角色移动进入@JournalEntry[B: Servants' Quarters#B35. Gauntlight Basement]{B35}或@JournalEntry[C: Library#C15. Gauntlight Reading Room]{C15}中的光亮带</p></li></ul><h2>中度诅咒 - <em>微灵，她的眼</em></h2><p>@UUID[Item.Xc13QNzVsZToAs7o]{宁布洛斯 - 中度诅咒}</p><p><em>调查宁布洛斯及其仆从之阴谋的持续效果，会从睡眠领域蔓延到你清醒的时刻。现实织物上不祥的裂痕在你眼前浮现，撕扯着你理智的边缘。你不再确定谁才是你的朋友。</em></p><ul><li><p><strong>时间线</strong> 憎恶地窟 第2册</p></li><li><p><strong>触发</strong> 与贝科拉、她最强大的仆从，或任何奉献给宁布洛斯的区域发生任何遭遇。此外，队伍以及与他们同行的任何其他盟友每天上午7点与下午7点都会暴露于该诅咒之下（对应宁布洛斯的7条手臂）。</p></li></ul><h2>重度诅咒 - <em>你的命运，唯有一死</em></h2><p>@UUID[Item.CyWfBIXA8CKVFMK4]{宁布洛斯 - 重度诅咒}</p><p><em>如此接近宁布洛斯领域中不可名状的恐怖，你已无法分辨友与敌、理智与疯狂，甚至生与死。</em></p><ul><li><p><strong>时间线</strong> 憎恶地窟 第3册</p></li><li><p><strong>建议触发</strong> 进入任何奉献给宁布洛斯的区域，或在最初的@JournalEntry[Abomination Vaults#Belcorra Attacks]{贝科拉来袭！}遭遇期间。此外，队伍以及与他们同行的任何其他盟友每天上午7点与下午7点都会暴露于该诅咒之下（对应宁布洛斯的7条手臂）。</p></li></ul>",
+              "text": "<p><em>来源于 @weepingminotaur。</em></p><h2>轻度诅咒 - <em>风，她的声音</em></h2><p>@UUID[Item.ZCmQhpzHnxCmXylz]{宁布洛斯 - 轻度诅咒}<br><em>哪怕只是短暂感受到可怖的宁布洛斯的存在，也足以损害毫无戒心者的健康。这项诅咒使你在下一次长时休息期间听到窃窃私语、脚步声和其他古怪声响。若不加以治疗，缺乏睡眠会开始损害你的身心。</em></p><ul><li><p><strong>时间线</strong> 憎恨魔窟 A至C层</p></li><li><p><strong>建议触发</strong> 接触A层的神龛祭坛，或角色首次进入@JournalEntry[B: Servants' Quarters#B35. Gauntlight Basement]{B35}或@JournalEntry[C: Library#C15. Gauntlight Reading Room]{C15}中的光带</p></li></ul><h2>中度诅咒 - <em>鬼火，她的眼睛</em></h2><p>@UUID[Item.Xc13QNzVsZToAs7o]{宁布洛斯 - 中度诅咒}</p><p><em>调查宁布洛斯及其仆从阴谋所带来的持续影响，从睡梦蔓延到了你清醒的时刻。现实结构上不祥的裂缝出现在你眼前，一点点磨损你的理智。你已无法确定谁才是自己的朋友。</em></p><ul><li><p><strong>时间线</strong> 憎恨魔窟 第2册</p></li><li><p><strong>触发</strong> 与贝科拉或她最强大的仆从发生任何遭遇，或遇到为宁布洛斯祝圣的区域。此外，队伍及所有同行的其他盟友每天上午7点与晚上7点都会暴露在该诅咒之下（对应宁布洛斯的7条手臂）。</p></li></ul><h2>重度诅咒 - <em>你的命运，唯有一死</em></h2><p>@UUID[Item.CyWfBIXA8CKVFMK4]{宁布洛斯 - 重度诅咒}</p><p><em>如此接近宁布洛斯领域中不可名状的恐怖，你已无法分辨友与敌、理智与疯狂，甚至生与死。</em></p><ul><li><p><strong>时间线</strong> 憎恨魔窟 第3册</p></li><li><p><strong>建议触发</strong> 进入任何为宁布洛斯祝圣的区域，或在最初的@JournalEntry[Abomination Vaults#Belcorra Attacks]{贝科拉来袭！}遭遇期间。此外，队伍及所有同行的其他盟友每天上午7点与晚上7点都会暴露在该诅咒之下（对应宁布洛斯的7条手臂）。</p></li></ul>",
               "src": null,
               "mejItems": {}
             },
             "4jhRn6b0Wz9HrtsK": {
               "name": "目录 Table of Contents",
-              "text": "<p>本模块包含针对<strong>憎恶地窟</strong>的杂项改动与附加内容。这在某种程度上是建议与想法的融合；一如既往，请自行选择并挑选要在你的游戏中使用的内容。</p><h2>目录</h2><ul><li><p><strong>杂项</strong></p><ul><li><p>@UUID[.IEochnYWMkLR8UNU]{动画}</p></li><li><p>@UUID[.hOMUDNapQMRjV1kQ]{宁布洛斯的诅咒}</p></li><li>@UUID[.YBMl3YcfpuQyWqea]{从生物获取的可制作物品}</li><li><p>@UUID[.r3dHY95N5ieG3U16]{鬼火群}</p></li><li><p>@UUID[.dJoTiJpOkVx9mJGD]{辅助指示绘图}</p></li></ul></li><li><p><strong>奥塔里</strong></p><ul><li><p>@UUID[.jK0TK9fuzT5RDGFH]{瓦琳的奇珍异宝外观}</p></li><li><p>@UUID[.OrgJZPV2wlI3iX2g]{运木水槽}</p></li></ul></li><li><p><strong>A. 凄凉灯塔遗址</strong></p><ul><li><p>@UUID[.yKJu9ptH7WHJZ8L1]{A7. 通过挂毯传递的传说}</p></li></ul></li><li><p><strong>E. 竞技场</strong></p><ul><li><p>@UUID[.WS5LyEaTKaiXxLvl]{E13. 贝科拉的倒影}</p></li></ul></li><li><p><strong>G. 监狱</strong></p><ul><li><p>@UUID[JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.BHqj0KyG7qzPC5L2]{G. 监狱门火焰特效}</p></li><li><p>@UUID[.52X3NzrFQ7Kd0sX4]{G18. 收集双手者}</p></li></ul></li><li><p><strong>I. 狩猎场</strong></p><ul><li><p>@UUID[.XSouJfqO8f0ptYya]{伊尔达里斯聚居地设定}</p></li></ul></li><li><p><strong>J. 神殿</strong></p><ul><li><p>@UUID[.gHUVbKpOvXV43UWQ]{J15. 拉杆谜题实现}</p></li><li>@UUID[.Hkl27s1LqzyTXdj0]{J20. 贝科拉的宠物}</li><li><p>@UUID[JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.gZOh73c8ur7rq6gl]{尾声。凄凉灯塔的复仇}</p><p></p></li></ul></li></ul>",
+              "text": "<p>本模组收录了<strong>憎恨魔窟</strong>的杂项改动与附加内容，汇集了各种建议和点子。一如既往，请按需选用适合自己游戏的内容。</p><h2>目录</h2><ul><li><p><strong>杂项</strong></p><ul><li><p>@UUID[.IEochnYWMkLR8UNU]{动画}</p></li><li><p>@UUID[.hOMUDNapQMRjV1kQ]{宁布洛斯的诅咒}</p></li><li>@UUID[.YBMl3YcfpuQyWqea]{用生物材料制作的物品}</li><li><p>@UUID[.r3dHY95N5ieG3U16]{鬼火群}</p></li><li><p>@UUID[.dJoTiJpOkVx9mJGD]{辅助指示绘图}</p></li></ul></li><li><p><strong>奥塔里</strong></p><ul><li><p>@UUID[.jK0TK9fuzT5RDGFH]{瓦琳的奇珍异宝店外观}</p></li><li><p>@UUID[.OrgJZPV2wlI3iX2g]{运木水槽}</p></li></ul></li><li><p><strong>A. 凄凉灯塔遗址</strong></p><ul><li><p>@UUID[.yKJu9ptH7WHJZ8L1]{A7. 挂毯讲述的往事}</p></li></ul></li><li><p><strong>E. 竞技场</strong></p><ul><li><p>@UUID[.WS5LyEaTKaiXxLvl]{E13. 贝科拉的倒影}</p></li></ul></li><li><p><strong>G. 监狱</strong></p><ul><li><p>@UUID[JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.BHqj0KyG7qzPC5L2]{G. 监狱门火焰特效}</p></li><li><p>@UUID[.52X3NzrFQ7Kd0sX4]{G18. 收集双手者}</p></li></ul></li><li><p><strong>I. 狩猎场</strong></p><ul><li><p>@UUID[.XSouJfqO8f0ptYya]{伊尔达里斯聚居地设定}</p></li></ul></li><li><p><strong>J. 神殿</strong></p><ul><li><p>@UUID[.gHUVbKpOvXV43UWQ]{J15. 拉杆谜题设置}</p></li><li>@UUID[.Hkl27s1LqzyTXdj0]{J20. 贝科拉的宠物}</li><li><p>@UUID[JournalEntry.YNMkFijTGb36JbJi.JournalEntryPage.gZOh73c8ur7rq6gl]{尾声：凄凉灯塔的复仇}</p><p></p></li></ul></li></ul>",
               "src": null,
               "mejItems": {}
             },
             "IEochnYWMkLR8UNU": {
               "name": "动画 Animations",
-              "text": "<h4>杂项</h4><ul><li><p>@UUID[Macro.iSNnAqaq5h73FSUN]{标题卡片动画} - 显示标题卡并播放一段音效，以及以《生化危机4》（RE4）闻名的传奇配音员沃德·E·塞克斯顿大声朗读标题</p></li></ul><ul><li><p>@UUID[Macro.l1nf3CAxWQpWtos6]{贝科拉来袭} - 用于 @UUID[JournalEntry.3T1M395V6J75OsEp.JournalEntryPage.em5wJ44hCXP8mGGG]{贝科拉来袭} 的动画：会让贝科拉从侧边飞入出现；或者如果你选中了贝科拉的指示物并将其隐藏，则会在该贝科拉上运行动画</p></li><li><p>@UUID[Macro.XoRI9jJBmsh26uQV]{宁布洛斯的存在} - 用触手覆盖玩家屏幕以展示宁布洛斯存在的动画</p></li><li><p>@UUID[Macro.AA6MqMXNiSe1YgIr]{宁布洛斯的符号} - 显示宁布洛斯符号的动画，用以指示某些与宁布洛斯相关的事物</p></li></ul><h4>第4层</h4><ul><li><p>@UUID[Macro.PkE3U7qHg7NBniJW]{摧毁屏障} - 屏障被摧毁的动画</p></li></ul><h4>第10层</h4><ul><li><p>@UUID[Macro.W1QOzaP485TKNJQi]{10 - 贝科拉之死} - 队伍对她使用镜片后，宁布洛斯吞噬贝科拉的动画</p></li><li><p>@UUID[Macro.3IWW7fvMRghHzikg]{10 - 凄凉灯塔崩塌} - 凄凉灯塔崩塌的动画</p></li></ul>",
+              "text": "<h4>杂项</h4><ul><li><p>@UUID[Macro.iSNnAqaq5h73FSUN]{标题卡片动画} - 显示标题卡、播放音效，并由因《生化危机4》（RE4）而闻名的传奇配音员沃德·E·塞克斯顿朗声念出标题</p></li></ul><ul><li><p>@UUID[Macro.l1nf3CAxWQpWtos6]{贝科拉来袭} - 用于 @UUID[JournalEntry.3T1M395V6J75OsEp.JournalEntryPage.em5wJ44hCXP8mGGG]{贝科拉来袭} 的动画：让贝科拉从画面侧边飞入；如果你已选中贝科拉的指示物，且该指示物处于隐藏状态，则会在这个指示物上播放动画</p></li><li><p>@UUID[Macro.XoRI9jJBmsh26uQV]{宁布洛斯的存在} - 用触手覆盖玩家屏幕，表现宁布洛斯的存在</p></li><li><p>@UUID[Macro.AA6MqMXNiSe1YgIr]{宁布洛斯的符号} - 显示宁布洛斯的符号，提示某物与祂有关</p></li></ul><h4>第4层</h4><ul><li><p>@UUID[Macro.PkE3U7qHg7NBniJW]{摧毁屏障} - 屏障被摧毁的动画</p></li></ul><h4>第10层</h4><ul><li><p>@UUID[Macro.W1QOzaP485TKNJQi]{10 - 贝科拉之死} - 队伍对贝科拉使用镜片后，宁布洛斯将她吞噬的动画</p></li><li><p>@UUID[Macro.3IWW7fvMRghHzikg]{10 - 凄凉灯塔崩塌} - 凄凉灯塔崩塌的动画</p></li></ul>",
               "src": null,
               "mejItems": {}
             },
             "Hkl27s1LqzyTXdj0": {
               "name": "J20. 贝科拉的宠物 J20. Belcorra's Pet",
-              "text": "<p>还记得在 @UUID[JournalEntry.uMZ0RiCcPSqsx1Nm.JournalEntryPage.8pbhSFgv71lvCz9M]{B35. 凄凉灯塔地下室} 里那条巨大的死洞穴蠕虫吗？<br><br>那么在终章中，@UUID[Actor.wX2jNFncThTLvG9F]{贝科拉的洞穴蠕虫} 回来了，而且比以往更加幽灵般，同时还拥有炫酷全新的飞行速度，以及很酷的动画——看看它的 <strong>反刍</strong>。<br><br>用她的宠物洞穴蠕虫替换<strong>噬魂者</strong>；后者原本会在<strong>贝科拉</strong>的最终决战中陪伴她。</p>",
+              "text": "<p>还记得在 @UUID[JournalEntry.uMZ0RiCcPSqsx1Nm.JournalEntryPage.8pbhSFgv71lvCz9M]{B35. 凄凉灯塔地下室} 里那条死去的巨大洞穴蠕虫吗？<br><br>到了终章，@UUID[Actor.wX2jNFncThTLvG9F]{贝科拉的洞穴蠕虫} 又回来了，这回鬼气更浓，还添了飞行速度，连动画也很酷——看看它的<strong>反刍</strong>能力吧。<br><br>用这条宠物洞穴蠕虫，替换原本在最终决战中陪同<strong>贝科拉</strong>参战的<strong>噬魂者</strong>。</p>",
               "src": null,
               "mejItems": {}
             },
             "OrgJZPV2wlI3iX2g": {
               "name": "运木水槽 The Log Fume",
-              "text": "<p>添加了以下地图，以便于你可能进行一次运木水槽的焚烧事件。设想是在更北边有一座塔，原木在到达<strong>巨人之轮</strong>之前，会在那座塔被装载进水槽。<br><br>下坡场景为你提供了一个很酷的机会：让你在乘着原木沿着水槽向下滑行时进行一次遭遇（我建议看看<strong>憎恶地窟：扩展</strong>中的<strong>财团阴谋</strong>里专门提到的机会，尤其是 @UUID[JournalEntry.2hfULzZn5NL03aDy.JournalEntryPage.EyBtkejRJ5WGQzxT]{运木水槽之火}）。</p><p></p><p>@UUID[Compendium.abomination-vaults-addons.abomination-vaults-addons-scenes.Scene.PPRhwtJVSjtgpGes]{运木水槽｜下坡}</p><p>@UUID[Compendium.abomination-vaults-addons.abomination-vaults-addons-scenes.Scene.VSmG1Rmn9tARM2Xx]{运木水槽｜装载塔}</p>",
+              "text": "<p>以下新增地图可用于运木水槽起火之类的事件。设想中，更北边有一座装载塔，原木从那里装入水槽，一路运往<strong>巨人之轮</strong>。<br><br>下坡场景很适合安排一场精彩的遭遇：让角色们乘着原木，沿水槽一路向下滑行！我建议从<strong>憎恨魔窟：扩展</strong>的<strong>财团阴谋</strong>中寻找切入点，尤其是 @UUID[JournalEntry.2hfULzZn5NL03aDy.JournalEntryPage.EyBtkejRJ5WGQzxT]{运木水槽失火}。</p><p></p><p>@UUID[Compendium.abomination-vaults-addons.abomination-vaults-addons-scenes.Scene.PPRhwtJVSjtgpGes]{运木水槽｜下坡}</p><p>@UUID[Compendium.abomination-vaults-addons.abomination-vaults-addons-scenes.Scene.VSmG1Rmn9tARM2Xx]{运木水槽｜装载塔}</p>",
               "src": null,
               "mejItems": {}
             },
@@ -3209,56 +3209,56 @@
               "mejItems": {}
             },
             "gHUVbKpOvXV43UWQ": {
-              "name": "J15. 拉杆谜题实现 J15. Lever Puzzle Implementation",
-              "text": "<p>添加一个宏，用于加入在 @UUID[JournalEntry.yn21bNM6kpV4xRol.JournalEntryPage.1Ov1191GpaTDBaAE]{J15. 致命沼泽} 中提到的拉杆谜题 <em>（原始实现的大部分内容归功于 @darkim）</em></p><p></p><p>你需要安装 <strong>Tagger</strong> 和 <strong>Monk's Active Tiles</strong> 模组才能使其运作，但只要运行 @UUID[Macro.btHyWcte8PX6Omgz]{J15. 添加拉杆谜题} 宏，就大功告成！<br><br>要与拉杆互动，你需要选中附近的一个指示物，然后对拉杆 <strong>右键点击</strong>。</p>",
+              "name": "J15. 拉杆谜题设置 J15. Lever Puzzle Implementation",
+              "text": "<p>新增的宏可设置 @UUID[JournalEntry.yn21bNM6kpV4xRol.JournalEntryPage.1Ov1191GpaTDBaAE]{J15. 致命沼泽} 中提到的拉杆谜题。<em>（原始实现的大部分工作由 @darkim 完成）</em></p><p></p><p>此功能需要 <strong>Tagger</strong> 和 <strong>Monk's Active Tiles</strong> 模组支持。准备好后，只要运行 @UUID[Macro.btHyWcte8PX6Omgz]{J15. 添加拉杆谜题} 宏，就大功告成！<br><br>要操作拉杆，先选中拉杆附近的指示物，再<strong>右键点击</strong>拉杆。</p>",
               "src": null,
               "mejItems": {}
             },
             "dJoTiJpOkVx9mJGD": {
               "name": "辅助指示绘图 Helper Indicator Drawings",
-              "text": "<p>添加一个宏，用于在地图中不清晰的部分添加小型辅助指示绘图，并为某些高度落差添加高度说明，以便随时查看。这些都是仅对GM可见的界面绘图。<br>@UUID[Macro.sb4hhwJqMfJCjuAR]{辅助绘图设置对话框}</p>",
+              "text": "<p>新增的宏会在地图上不够清楚的地方添加小型辅助标记，并标明某些落差处的高度，方便随时查看。这些标记均为界面绘图，只有GM可见。<br>@UUID[Macro.sb4hhwJqMfJCjuAR]{辅助绘图设置对话框}</p>",
               "src": null,
               "mejItems": {}
             },
             "gZOh73c8ur7rq6gl": {
-              "name": "尾声。凄凉灯塔的复仇 Epilogue. Gauntlight's Revenge",
-              "text": "<p>这是对憎恶地窟冒险<strong>结尾</strong>相当篇幅的一段追加内容，包含最后一个大型场景：“凄凉灯塔”最后一次冲向并攻击城镇。其目的，是作为最终的大场面；并且它发生在队伍最可能资源枯竭、或至少在与贝科拉战斗后状态偏低的时候。</p><p>（用于为本次遭遇设置你的 @UUID[Scene.lQkXSdxvO9CRxohD]{奥塔里地图} 的设置宏 @UUID[Macro.7g27xSMFTUSYiqHe]{设置：凄凉灯塔的复仇}）</p><h2>前提</h2><p>在玩家杀死贝科拉、将她放逐去被她的远古神祇吞食、并从崩塌的凄凉灯塔中逃出之后，此地残留了大量来自<strong>宁布洛斯</strong>的潜伏死灵能量。当队伍离开地窟时，描述他们看见一道幽魂般发光的光束从灯塔所在的洞中升起；紧接着又有6道光束升起与之汇合，将<strong>凄凉灯塔</strong>抬起——它由7条幽魂般的腿支撑着（想象《塞尔达 BoTW》里的守护者）。随后，凄凉灯塔开始（被这股能量与某种模糊的吞噬灵魂欲望所驱动）一路狂奔，朝奥塔里镇冲去。</p><h3>处理死亡的PC</h3><p>当队伍从凄凉灯塔的崩塌中逃出并返回地表后，你可能会在途中失去一两名PC。若确有其事，而你不希望这些玩家在接下来的场景中坐冷板凳，我建议给这些角色 @UUID[Compendium.pf2e.feats-srd.Item.52nzskpmUt9AjUf8]{幽灵入门}，并说明他们的灵魂似乎因为死亡地点的缘故而暂时与此地绑定。（类似于玫瑰团，也同样暗示 @UUID[Compendium.pf2e.deities.Item.QZD0u1jxwz0kj8uI]{法莱斯玛} 的仆从会在他们完成最终任务后前来护送他们离去）</p><p></p><h2>追逐</h2><p>本段的第一要素是追逐：即凄凉灯塔用其巨大、由宁布洛斯强化的死灵能量之腿向城镇推进。它的行动出奇地灵活，但在未察觉威胁时也会缓慢沉重地移动，以保存能量。</p><h3><strong>追逐特殊规则</strong></h3><p>本次追逐由7个障碍构成，每个障碍都发生在返回奥塔里的漫长路程中。</p><p>此外，本次追逐与其他追逐的主要不同点在于：<em>未能通过目标并不意味着队伍会落后</em>，他们只是不会在该轮获得与灯塔交战并阻止它的机会（即<strong>击倒阶段</strong>）。（若你希望这段大场面更难，你当然可以这么做；但我更倾向于确保在一场漫长战斗之后，最终的大场面仍能让玩家以胜利的姿态参与其中，作为最后的狂欢。）每一轮都由一个<strong>追逐</strong><strong>阶段</strong>与一个<strong>击倒</strong><strong>阶段</strong>组成（下文会说明）。</p><h3>你的朋友们都回来了</h3><p>这部分通常依赖于你曾跑过 @UUID[JournalEntry.ZPTalN8eYZyKYfz0.JournalEntryPage.fKVTu0SPpNOMwRCJ]{扎马夫迪安的仪式}（来自<strong>憎恶地窟：扩展</strong>）。若你因任何原因未使用该内容但仍想用这一段，可以让瓦琳产生预兆，或察觉凄凉灯塔的能量出现异常。</p><p>无论如何，仪式中的 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.5KstOkXabrOlZaKR]{疫鸟}回来了，还带来了朋友。在第2轮开始时，当某位队员准备参与<strong>追逐</strong>阶段或<strong>击倒</strong>阶段时，让一名玩家已与之建立羁绊或关系的角色（或者若玩家表示他们有部属，则由能代表他们的人）现身相助！</p><p><strong>他们何时出现？</strong></p><ul><li><p>当玩家在<strong>追逐阶段</strong>开始其回合时，进行一次 @Check[flat|dc:11]；成功则任一尚未登场、且与其有羁绊的NPC会在<strong>追逐阶段</strong>中出现；失败则他们被耽搁，将在<strong>击倒</strong><strong>阶段</strong>中出现。</p></li><li><p><em><strong>注：</strong>许多NPC可能与多名玩家都有羁绊。若是如此，他们可以为每位玩家各出现一次，但每名NPC对<strong>每位玩家</strong>只会出现一次。</em></p></li></ul><p><strong>提供协助</strong></p><ul><li><p><strong>不擅长战斗的NPC</strong>：某些NPC显然缺乏战斗能力（例如<strong>布雷达·范克维尔</strong>）。若她会来协助某位玩家，则改为叙述某位水手、守卫或其他被其鼓动而行动起来的城镇NPC前来帮忙。</p></li><li><p>@UUID[Item.E0OKIog3W01BhtAB]{效果：给予我们力量的羁绊}</p></li></ul><p><strong>协助加值。</strong>NPC通过“援助”你的检定，为你提供如下无类型加值之一：</p><ul><li><p><strong>+1</strong>——该NPC并不真正擅长的事（例如<strong>卡尔曼</strong>进行宗教）<br><strong>+2</strong>——该NPC会擅长的事（例如<strong>莫林布林特</strong>与奥法）<br><strong>+3</strong>——你与该NPC有格外紧密的羁绊（其存在鼓舞了你）</p></li></ul><h3>追逐阶段</h3><p>追逐阶段按常规追逐运作：队伍必须清除摆在他们面前的一个障碍。若在其他玩家的回合之前障碍已被清除，则他们可以改为在<strong>追逐阶段</strong>中用自己的回合来参与<strong>击倒阶段</strong>（他们仍会在击倒阶段获得其正常回合，因此这等同于一个额外回合）。</p><h3>追逐障碍</h3><p>除非另有说明，每个障碍需要<span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">玩家人数</span></strong><span style=\"text-decoration:underline\"> </span><strong><span style=\"text-decoration:underline\">- 1</span></strong></span>次成功才能通过。（若你想提高或降低难度，你可以将该数量分别+1或-1。）</p><h4>捕食者的凝视</h4><p><em>原始的战栗冻结了你的肌肉，你感到某个无形的恐怖正在注视着你</em></p><p>@Check[Occultism|dc:28] - 识别猎手对你心智的钳制，并推演出摆脱之道</p><p>@Check[Will|dc:30] - 抵抗恐惧</p><p>@Check[Performance|dc:28] - 鼓舞你的盟友</p><h4>吸噬泥沼</h4><p><em>脚下的沼泽阻碍了你的前进，你感觉幽魂之手攫住你、要把你拖入其中</em></p><p>@Check[Athletics|dc:30] - 对抗拉扯</p><p>@Check[Acrobatics|dc:28] - 在附近残骸间跳跃穿行</p><p>@Check[Arcana|dc:28] - 扰乱幽魂的拖拽</p><p>@UUID[Compendium.pf2e.spells-srd.Item.b5sGjGlBf58f8jn0]{凌空而行}或等价消耗将直接获得一次大成功（若是免费能力则视为直接获得一次普通成功）</p><h4>微灵群</h4><p><em>数百个发光圆球如同一群愤怒黄蜂般从凄凉灯塔上俯冲而下</em></p><p>@Check[Occultism|dc:30] - 识别群体阵型中的薄弱点</p><p>@Check[Religion|dc:28] - 以神圣力量将它们驱退</p><p>@Check[Athletics|dc:28] - 强行穿过微灵群</p><h4>残破森林</h4><p><em>一片扭曲树木的残骸横卧于地，发光的苔藓开始在碎木上滋长</em></p><p>@Check[Nature|dc:30] - 运用自然知识寻找穿越树木并避开苔藓的路线</p><p>@Check[survival|dc:28] - 凭借机敏在树木间开辟通路</p><p>@Check[Acrobatics|dc:28] - 依靠反射在树木间穿行</p><h4>闹鬼浓雾</h4><p><em>浓雾中翻涌着死去武者的灵魂，重演着早已逝去的战场上他们生命的最后一刻</em></p><p>@Check[Performance|dc:30] - 以表演或舞步卡着雾中武者的节奏穿过战场</p><p>@Check[Intimidation|dc:30] - 显示你的威势，迫使幽魂敌人避开你</p><p>@Check[Deception|dc:29] - 欺骗幽魂敌人，让他们相信你是同伴</p><p>@Check[Society|dc:28] - 回想此处发生过的战斗知识，并据此穿越战场</p><h4>囚魂水洼</h4><p><em>水洼开始形成，池水中流转着灵魂；它们的景象拉扯着你、并向你发起攻击</em></p><p>@Check[Religion|dc:30] - 在你旅行时驱魔</p><p>@Check[Diplomacy|dc:30] - 在你旅行时安抚灵魂</p><p>@Check[Occultism|dc:30] - 顺着死灵能量的流向，在其中穿梭迂回</p><p>@Check[tealthS|dc:28] - 潜行穿过此地以避免遭到攻击</p><h4>死灵繁茂</h4><p><em>苔藓已开始在树木上蔓延，将此地覆盖在一片窃取记忆的薄雾之中</em></p><p>@Check[Survival|dc:30] - 找出最快的穿越路径</p><p>@Check[Medicine|dc:30] - 寻找速效药剂来预防这些影响</p><p>@Check[Crafting|dc:28] - 使用炼金催化剂中和薄雾<br></p><h3>击倒阶段</h3><p>在击倒阶段有2个目标：<strong>腿</strong>与<strong>镜片</strong>（漂浮在灯塔上方）。两者都使用<strong>胜利点数</strong>系统。</p><h4>腿</h4><p>击破腿（使灯塔停止移动1轮，之后它会再生腿）。</p><p><em><strong>注：</strong>你可以点击<strong>凄凉灯塔的复仇</strong>指示物的效果，以在视觉上切换减少腿的数量</em></p><p><strong>7点胜利点数</strong>（每条腿1点）</p><ul><li><p><strong>3</strong>点<strong>VP阈值</strong>（减速：将所需的追逐点数减少1）</p></li></ul><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">相关检定</span></span></p><ul><li><p>攻击掷骰 <strong>DC 32</strong></p></li><li><p>@Check[athletics|dc:30] - 攻击一条腿</p></li><li><p>@Check[occultism|dc:28], @Check[arcana|dc:30], @Check[religion|dc:30], @Check[nature|dc:30] - 运用魔法知识使其失效</p></li></ul><h4>镜片</h4><p>移除漂浮在凄凉灯塔上方区域的镜片；当所有镜片被移除或摧毁后，遭遇结束：凄凉灯塔翻倒在地。</p><p><em><strong>注：</strong>角色可以将攀爬灯塔作为其动作的一部分尝试：@Check[athletics|dc:30]</em></p><p><em><br><strong>8点胜利点数</strong>（每枚镜片2点）</em></p><ul><li><p><em><strong>6点VP阈值</strong></em>（所有<strong>追逐阶段</strong>检定DC降低1）</p></li><li><p><em><strong>4点VP阈值</strong></em>（所有<strong>追逐阶段</strong>检定DC降低2</p></li><li><p><em><strong>2点VP阈值</strong></em>（所有<strong>追逐阶段</strong>检定DC降低3）</p></li></ul><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">相关检定</span></span></p><ul><li><p>远程攻击掷骰 <strong>DC 32</strong></p></li><li><p>近战攻击掷骰 <strong>DC 31</strong></p></li><li><p>@Check[athletics|dc:30], @Check[thievery|dc:30]</p></li><li><p>@Check[occultism|dc:28], @Check[arcana|dc:30], @Check[religion|dc:30], @Check[nature|dc:30]（5尺内）</p></li><li><p></p></li></ul><p></p>",
+              "name": "尾声：凄凉灯塔的复仇 Epilogue. Gauntlight's Revenge",
+              "text": "<p>这是一段篇幅较长的追加内容，用于憎恨魔窟冒险的<strong>结尾</strong>：“凄凉灯塔”向城镇发起最后一次突袭，为冒险再添一场压轴大戏。此时队伍刚与贝科拉打完一场恶战，资源很可能已经耗尽，或至少所剩无几。</p><p>（为本次遭遇布置 @UUID[Scene.lQkXSdxvO9CRxohD]{奥塔里地图}，请运行宏 @UUID[Macro.7g27xSMFTUSYiqHe]{设置：凄凉灯塔的复仇}。）</p><h2>前提</h2><p>角色们杀死贝科拉，将她放逐去喂她信奉的远古神祇，并逃出崩塌的凄凉灯塔后，此地仍潜藏着大量来自<strong>宁布洛斯</strong>的死灵能量。队伍离开地窟时，向他们描述这番景象：一道幽光从灯塔原址的坑洞中升起，紧接着又升起6道，共同将<strong>凄凉灯塔</strong>托起。灯塔如今由7条幽魂般的腿支撑着（可以想象《塞尔达传说：旷野之息》里的守护者）。在这股能量和隐约的噬魂欲望驱使下，凄凉灯塔开始朝奥塔里镇狂奔。</p><h3>处理死亡的PC</h3><p>队伍逃出崩塌的凄凉灯塔、重返地表时，可能已经有一两名PC在途中丧命。如果你不想让这些玩家缺席接下来的场景，我建议让死去的角色获得 @UUID[Compendium.pf2e.feats-srd.Item.52nzskpmUt9AjUf8]{幽灵入门}，并说明：由于他们死在此地，灵魂似乎暂时被束缚在这里。（与玫瑰团的情形相似，也同样暗示：等他们完成最后的任务，@UUID[Compendium.pf2e.deities.Item.QZD0u1jxwz0kj8uI]{法莱斯玛}的仆从就会前来引领他们前往来世。）</p><p></p><h2>追逐</h2><p>首先是一场追逐：凄凉灯塔迈动巨腿，朝城镇前进。这些腿由死灵能量构成，并得到宁布洛斯的力量加持。灯塔虽然出奇地灵活，但未察觉威胁时会放慢脚步，沉重地前行，以节省能量。</p><h3><strong>追逐特殊规则</strong></h3><p>在返回奥塔里的漫长路途中，本次追逐共设有7个障碍。</p><p>本次追逐与普通追逐最大的不同在于：<em>未能通过障碍，并不代表队伍会掉队</em>；他们只会失去该轮攻击并阻止灯塔的机会（即<strong>击倒阶段</strong>）。（你当然可以把这场压轴戏设计得更难，但我更希望玩家经历漫长的战斗后，还能以胜利者的姿态迎来最后一场狂欢。）每轮分为<strong>追逐</strong><strong>阶段</strong>和<strong>击倒</strong><strong>阶段</strong>，具体规则如下。</p><h3>你的朋友们都回来了</h3><p>这部分通常以队伍经历过 @UUID[JournalEntry.ZPTalN8eYZyKYfz0.JournalEntryPage.fKVTu0SPpNOMwRCJ]{扎马夫迪安的仪式}（出自<strong>憎恨魔窟：扩展</strong>）为前提。如果你没有使用那段内容，但仍想加入这一幕，可以让瓦琳心生预感，或察觉凄凉灯塔的能量出现异常。</p><p>无论如何，仪式中的 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.5KstOkXabrOlZaKR]{疫鸟}回来了，还带来了朋友。从第2轮开始，当某位队员即将参与<strong>追逐</strong>阶段或<strong>击倒</strong>阶段时，让一名与角色建立了羁绊或关系的NPC现身相助！如果这名NPC手下有人，也可以派代表前来。</p><p><strong>他们何时出现？</strong></p><ul><li><p>当一名玩家开始自己在<strong>追逐阶段</strong>的回合时，进行一次 @Check[flat|dc:11]。成功则一名与其角色有羁绊、且尚未为其出场的NPC在<strong>追逐阶段</strong>赶到；失败则这名NPC会耽搁一阵，到<strong>击倒</strong><strong>阶段</strong>才出现。</p></li><li><p><em><strong>注：</strong>许多NPC可能与多名玩家的角色都有羁绊。遇到这种情况，该NPC可以为每名角色分别出场，但对<strong>每位玩家</strong>只能出现一次。</em></p></li></ul><p><strong>提供协助</strong></p><ul><li><p><strong>不擅长战斗的NPC</strong>：有些NPC显然不擅长战斗，例如<strong>布雷达·范克维尔</strong>。轮到她帮助某位玩家时，可以改为描述：在她坚持要帮忙的敦促下，一名水手、守卫或其他镇民代她前来相助。</p></li><li><p>@UUID[Item.E0OKIog3W01BhtAB]{效果：给予我们力量的羁绊}</p></li></ul><p><strong>协助加值。</strong>NPC帮你完成检定，提供以下一种无类型加值：</p><ul><li><p><strong>+1</strong>——该NPC不擅长这类检定（例如<strong>卡曼</strong>的宗教检定）<br><strong>+2</strong>——该NPC擅长这类检定（例如<strong>莫里宾特</strong>的奥法检定）<br><strong>+3</strong>——你与该NPC的羁绊格外深厚，光是对方到场就能鼓舞你</p></li></ul><h3>追逐阶段</h3><p>追逐阶段按普通追逐规则进行，队伍需要克服眼前的障碍。如果轮到某位玩家时，障碍已经被克服，该玩家就可以用自己在<strong>追逐阶段</strong>的回合，执行<strong>击倒阶段</strong>的行动；之后到了击倒阶段，仍有自己的正常回合，相当于额外获得一个回合。</p><h3>追逐障碍</h3><p>除非另有说明，每个障碍都需要累计<span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">玩家人数</span></strong><span style=\"text-decoration:underline\"> </span><strong><span style=\"text-decoration:underline\">- 1</span></strong></span>次成功才能通过。（若想提高或降低难度，可将所需次数相应+1或-1。）</p><h4>捕食者的凝视</h4><p><em>某种看不见的恐怖存在正注视着你，本能的恐惧让你的肌肉僵住了</em></p><p>@Check[Occultism|dc:28] - 认清猎手如何钳制你的心智，并推理出摆脱的方法</p><p>@Check[Will|dc:30] - 抵抗恐惧</p><p>@Check[Performance|dc:28] - 鼓舞你的盟友</p><h4>吸噬泥沼</h4><p><em>脚下的沼泽阻住去路，你感到幽魂之手正抓着你，要将你拖入泥沼</em></p><p>@Check[Athletics|dc:30] - 对抗拉扯</p><p>@Check[Acrobatics|dc:28] - 在附近残骸间跳跃穿行</p><p>@Check[Arcana|dc:28] - 扰乱幽魂的拖拽</p><p>@UUID[Compendium.pf2e.spells-srd.Item.b5sGjGlBf58f8jn0]{凌空而行}或消耗同等资源的手段，可直接取得一次大成功；若使用的是无需消耗资源的能力，则只算一次普通成功</p><h4>微灵群</h4><p><em>数百个发光圆球如同一群愤怒黄蜂般从凄凉灯塔上俯冲而下</em></p><p>@Check[Occultism|dc:30] - 识别群体阵型中的薄弱点</p><p>@Check[Religion|dc:28] - 以神圣力量将它们驱退</p><p>@Check[Athletics|dc:28] - 强行穿过微灵群</p><h4>残破森林</h4><p><em>一片扭曲树木的残骸横卧于地，发光的苔藓开始在碎木上滋长</em></p><p>@Check[Nature|dc:30] - 运用自然知识寻找穿越树木并避开苔藓的路线</p><p>@Check[survival|dc:28] - 凭借机敏在树木间开辟通路</p><p>@Check[Acrobatics|dc:28] - 凭借敏捷的反应在树木间穿行</p><h4>闹鬼浓雾</h4><p><em>阵亡战士的灵魂在浓雾中翻腾，重演着古老战场上他们生命的最后一刻</em></p><p>@Check[Performance|dc:30] - 跟上雾中战士的节奏，以表演或舞步穿过战场</p><p>@Check[Intimidation|dc:30] - 显示你的威势，迫使幽魂敌人避开你</p><p>@Check[Deception|dc:29] - 欺骗幽魂敌人，让他们相信你是同伴</p><p>@Check[Society|dc:28] - 回想有关此地那场战斗的知识，据此穿越战场</p><h4>囚魂水洼</h4><p><em>一汪汪积水开始汇聚，其中灵魂流转；这景象将你引向水洼，里面的灵魂随即向你袭来</em></p><p>@Check[Religion|dc:30] - 一边前进，一边驱逐灵魂</p><p>@Check[Diplomacy|dc:30] - 一边前进，一边安抚灵魂</p><p>@Check[Occultism|dc:30] - 顺着死灵能量的流向，在其中穿梭迂回</p><p>@Check[tealthS|dc:28] - 潜行穿过此地以避免遭到攻击</p><h4>死灵繁茂</h4><p><em>苔藓开始爬满树木，窃取记忆的薄雾笼罩了这片区域</em></p><p>@Check[Survival|dc:30] - 找出最快的穿越路径</p><p>@Check[Medicine|dc:30] - 寻找速效药剂来预防这些影响</p><p>@Check[Crafting|dc:28] - 使用炼金催化剂中和薄雾<br></p><h3>击倒阶段</h3><p>击倒阶段有2类目标：<strong>腿</strong>和漂浮在灯塔上方的<strong>镜片</strong>。两者都采用<strong>胜利点数</strong>系统。</p><h4>腿</h4><p>击破灯塔的腿，可让它停止移动1轮，随后它的腿便会重新长出。</p><p><em><strong>注：</strong>点击<strong>凄凉灯塔的复仇</strong>指示物上的效果，就能减少画面中显示的腿数</em></p><p><strong>7点胜利点数</strong>（每条腿1点）</p><ul><li><p><strong>3</strong>点<strong>胜利点数阈值</strong>（灯塔减速，所需追逐点数减少1）</p></li></ul><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">相关检定</span></span></p><ul><li><p>攻击掷骰 <strong>DC 32</strong></p></li><li><p>@Check[athletics|dc:30] - 攻击一条腿</p></li><li><p>@Check[occultism|dc:28], @Check[arcana|dc:30], @Check[religion|dc:30], @Check[nature|dc:30] - 运用魔法知识使其失效</p></li></ul><h4>镜片</h4><p>将镜片从凄凉灯塔上方移走。全部镜片都被移除或摧毁后，凄凉灯塔便会倒地，遭遇随之结束。</p><p><em><strong>注：</strong>角色可以将攀爬灯塔作为其动作的一部分，尝试@Check[athletics|dc:30]</em></p><p><em><br><strong>8点胜利点数</strong>（每枚镜片2点）</em></p><ul><li><p><em><strong>6点胜利点数阈值</strong></em>（所有<strong>追逐阶段</strong>检定DC降低1）</p></li><li><p><em><strong>4点胜利点数阈值</strong></em>（所有<strong>追逐阶段</strong>检定DC降低2）</p></li><li><p><em><strong>2点胜利点数阈值</strong></em>（所有<strong>追逐阶段</strong>检定DC降低3）</p></li></ul><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">相关检定</span></span></p><ul><li><p>远程攻击掷骰 <strong>DC 32</strong></p></li><li><p>近战攻击掷骰 <strong>DC 31</strong></p></li><li><p>@Check[athletics|dc:30], @Check[thievery|dc:30]</p></li><li><p>@Check[occultism|dc:28], @Check[arcana|dc:30], @Check[religion|dc:30], @Check[nature|dc:30]（5尺内）</p></li><li><p></p></li></ul><p></p>",
               "src": null,
               "mejItems": {}
             },
             "WS5LyEaTKaiXxLvl": {
               "name": "E13. 贝科拉的倒影 E13. Belcorra's Reflection",
-              "text": "<p><strong>修改 </strong>@UUID[JournalEntry.JT0zCcIwsSpKnbB5.JournalEntryPage.72MOBw46cojkIGrb]{E13. 角斗士准备室}</p><p>移除此房间中的拟形怪遭遇，改为在房间中放置一面镜子（注意不要朗读房间描述中关于拟形怪的部分）。这面镜子是以下作祟</p><p>@UUID[Actor.emEX7UJahRAIdKPv]{幽灵女王的倒影}</p>",
+              "text": "<p><strong>修改 </strong>@UUID[JournalEntry.JT0zCcIwsSpKnbB5.JournalEntryPage.72MOBw46cojkIGrb]{E13. 角斗士准备室}</p><p>移除房间内的拟形怪遭遇，换成一面镜子（朗读房间描述时，记得跳过拟形怪相关的部分）。这面镜子使用以下作祟：</p><p>@UUID[Actor.emEX7UJahRAIdKPv]{幽灵女王的倒影}</p>",
               "src": null,
               "mejItems": {}
             },
             "yKJu9ptH7WHJZ8L1": {
-              "name": "A7. 挂毯传承的知识 A7. Lore Through Tapestries",
-              "text": "<p><em>此内容由用户 Tight-Branch8678 创建</em></p><hr><h2>找到它们</h2><p>如餐厅的描述所示，那里有许多挂毯，被形容为腐朽且发霉。本附加内容旨在通过修复这些挂毯，向玩家传递部分要塞的背景知识；因此，它们讲述了贝科拉的一生故事，直到凄凉灯塔完工为止。<br><br>总共有7幅，对应宁布洛斯偏爱的数字7。另需注意的是，此处将<strong>卡利多</strong>与<strong>贝科拉</strong>的关联从“远亲”追溯修改为“堂表亲”。</p><h3>修复</h3><p>告知玩家这些挂毯可以得到修复：要么通过对画布有专精的人（<strong>莫林布林特</strong>），要么如果某位PC拥有相关技能（例如 @UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{独门手艺}：工艺美术等）。无论选择哪种方法，每天都只能修复一幅挂毯（让莫林布林特来做会给队伍一个经常回奥塔里的理由；他不收费，但也许可以考虑要求他们先获得他的好感）</p><h2>七幅挂毯</h2><h3><strong>1. 出生</strong></h3><p><span style=\"font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif\"><em>内容警告：</em></span><span class=\"inner\" aria-hidden=\"false\" style=\"opacity:1;transition:opacity 1s ease-out;margin-right:-0.25rem\"><span style=\"font-family:inherit\"><em>人祭与食人</em></span></span></p><p class=\" box-text narrative\">这幅挂毯描绘了贝科拉还是婴儿，被母亲抱在怀里。她没有哭泣，反而透过天花板凝视星空。那里有一个显眼的七星星座。助产士和医生死倒在地上，他们胸口各有七道间距完美、呈圆形排列的切口。床周围的边缘还有其他尸体，鲜血从那些尸体处汇聚到床边形成血泊。</p><h3><strong>2. 人祭</strong></h3><p><span style=\"font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif\"><em>先说这幅挂毯描绘了人祭与食人。询问他们是否想要下面更多细节。</em></span></p><p class=\" box-text narrative\">挂毯描绘贝科拉还是个蹒跚学步的幼儿，身处一座潮湿、长满苔藓的洞窟。盘旋的光亮（闪火）照亮内部。她站着旁观几名不幸之人仍在活着时被献祭/吞食。哈鲁维克斯一家各自折磨着一个人：其中一人被迫朗读<em>《呓语芦苇》</em>，其面容被拉扯到难以理解的程度，灵体从肉身中裂离；另一人被一根带有七个尖端的长杆刺穿；最后一人则被一群目光狂乱的男男女女吞食。</p><h3><strong>3. 放逐</strong></h3><p class=\" box-text narrative\">这幅挂毯描绘一户人家乘船离开陆地。他们的表情从悲伤到愤怒与轻蔑不等。一名年轻女孩位于挂毯中央——她是唯一与观者对视的人。她头部周围似乎有一道黑暗的圆环。</p><p>这幅挂毯展示了哈鲁维克斯一家被从他们在艾巴萨罗姆的家中放逐。</p><p>一次 @Check[religion|dc:12] 检定表明那道黑环是光环，代表与神性存在的强烈联系。一次<strong>大成功</strong>揭示该光环代表与一位黑暗而邪恶的神祇相连。</p><h3><strong>4. 死亡与贫困</strong></h3><p class=\" box-text narrative\">这幅挂毯描绘17岁的贝科拉。她身着褴褛，但面容高贵而倔强。在贝科拉周围，她的亲族蜷伏于污秽与贫困之中，形销骨立。她目视地平线，而其他所有人都只盯着脚下的泥土。还有另一名亲族身穿板甲，以忠诚的神情望向贝科拉。他看起来是亡灵生物。</p><h3><strong>5. 来自宁布洛斯的幻象</strong></h3><p><em>内容警告：动物献祭与残虐</em></p><p class=\" box-text narrative\">这幅挂毯描绘17岁的贝科拉身着冬装，站在雪地上一头目光狂乱的灰熊之上。可以看到一截鲑鱼尾从它口中伸出。灰熊的内脏从其腹部的一道巨大伤口中泻出。雾气从野兽的鼻孔中逸出，表明它仍然活着。贝科拉正在啃食一小块熊肉，并凝视野兽的血在雪地上汇成的血泊。在血泊中，贝科拉看见幻象：深处洞窟里的蛇人正在建造一座神龛。神龛正面刻着一颗巨大的骷髅，苔藓从下颚处探出。旁边还有另一滩血泊，其中的幻象是贝科拉正在建造凄凉灯塔。外围。</p><h3><strong>6. 返回寇托斯</strong></h3><p class=\" box-text narrative\">这幅挂毯描绘17岁的贝科拉乘船驶向一座岛屿。海岸线是奥塔里在被定居之前的样子。峭壁与树木覆盖着岛屿。船上有一名身披重型护甲的亡灵生物男子。</p><h3><strong>7. 凄凉灯塔建成</strong></h3><p class=\" box-text narrative\">这幅挂毯展示凄凉灯塔建造完工。它以不祥的光芒发光。贝科拉站在一名卓尔男子身旁，那男子背对观者，留着长长的银发。在他旁边是一团旋转的光与能量球体，上有漂浮的眼睛与触须，每条触须末端都有7根手指。靠近贝科拉处站着一名身披重型护甲的亡灵生物。一只巨大、如蠕虫般的生物以数十条腿站在那亡灵生物旁边，它身体上系着炼金工具腰带。最后是一名红色皮肤、长着巨大犄角的男子。</p><p>沃鲁克、虚空暴食者、卡利多·哈鲁维克斯、贾法基，以及乌瑞维安，便是站在贝科拉周围的人物。</p>",
+              "name": "A7. 挂毯讲述的往事 A7. Lore Through Tapestries",
+              "text": "<p><em>此内容由用户 Tight-Branch8678 创建</em></p><hr><h2>发现挂毯</h2><p>按照原有描述，餐厅里挂着几幅腐朽发霉的挂毯。这份附加内容让玩家有机会修复挂毯，借此了解要塞的一些往事：毯上的故事从贝科拉出生讲起，一直到凄凉灯塔落成。<br><br>挂毯共有7幅，对应宁布洛斯偏爱的数字7。另请注意，这一改编调整了<strong>卡利多</strong>与<strong>贝科拉</strong>的亲缘设定，将卡利多从她的远亲改为堂兄弟或表兄弟。</p><h3>修复</h3><p>告诉玩家，这些挂毯可以请擅长处理画布的人（<strong>莫里宾特</strong>）修复，也可以由具备相关技能的PC动手，例如拥有 @UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{独门手艺}的艺术工艺专精。无论采用哪种方法，每天都只能修复一幅。（请莫里宾特帮忙，能让队伍有理由经常返回奥塔里。他不收钱，不过你可以考虑要求队伍先与他打好关系。）</p><h2>七幅挂毯</h2><h3><strong>1. 出生</strong></h3><p><span style=\"font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif\"><em>内容警告：</em></span><span class=\"inner\" aria-hidden=\"false\" style=\"opacity:1;transition:opacity 1s ease-out;margin-right:-0.25rem\"><span style=\"font-family:inherit\"><em>人祭与食人</em></span></span></p><p class=\" box-text narrative\">挂毯上，还是婴儿的贝科拉躺在母亲怀中。她没有啼哭，而是透过天花板凝望星空，其中一个由七颗星组成的星座格外醒目。助产士和医生倒毙在地，胸口各有七道切口，间距均匀地排成一圈。画面边缘还有其他尸体，流出的鲜血汇聚在床铺周围。</p><h3><strong>2. 人祭</strong></h3><p><span style=\"font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif\"><em>先告诉玩家，这幅挂毯描绘了人祭与食人，并询问他们是否想听下文的具体描述。</em></span></p><p class=\" box-text narrative\">挂毯上，蹒跚学步的贝科拉置身于潮湿、遍布苔藓的洞窟，盘旋的光芒（闪火）照亮了洞内。她站在一旁，看着几名不幸的人被活活献祭或吞食。哈鲁维克斯家族的成员各自折磨着一名受害者：一人被迫朗读<em>《呓语芦苇》</em>，面孔拉长扭曲到无法想象的地步，灵魂正与肉身分离；另一人被一根带有七个尖头的杆子刺穿；最后一人则被一群目光狂乱的男男女女分食。</p><h3><strong>3. 放逐</strong></h3><p class=\" box-text narrative\">挂毯上，一家人乘船远离陆地，脸上或悲伤，或愤怒，或不屑。画面中央是一个小女孩，只有她与观者直视。她的头部周围似乎环绕着一圈黑光。</p><p>这幅挂毯描绘的是哈鲁维克斯一家遭到放逐，离开艾巴萨罗姆家园的情景。</p><p>通过 @Check[religion|dc:12] 检定，可以辨认出那圈黑光是光环，象征着与神性存在的深厚联系。若<strong>大成功</strong>，还能看出与之相连的是一位黑暗而邪恶的神祇。</p><h3><strong>4. 死亡与贫困</strong></h3><p class=\" box-text narrative\">挂毯描绘了17岁的贝科拉。她衣衫褴褛，神情却高贵而不屈。周围的亲族躺在污秽之中，个个骨瘦如柴。她望向天际，其他人却只盯着脚下的泥土。唯有另一名身披板甲的亲族满怀忠诚地望着贝科拉。他看上去是一名亡灵生物。</p><h3><strong>5. 来自宁布洛斯的幻象</strong></h3><p><em>内容警告：动物献祭与残虐</em></p><p class=\" box-text narrative\">挂毯上，17岁的贝科拉穿着冬装站在雪地里，脚下是一头目光狂乱的灰熊。一截鲑鱼尾巴露在熊嘴外，内脏从腹部的巨大伤口流出。鼻孔间呼出的白雾表明，这头野兽还活着。贝科拉啃着一小块熊肉，凝视着它在雪地上流出的血泊。血泊中浮现出幻象：蛇人正在深邃的洞窟中修建神龛，神龛正面刻着巨大的颅骨，下颌处长出苔藓。旁边另一滩血泊映出贝科拉修建凄凉灯塔的景象。</p><h3><strong>6. 返回寇托斯</strong></h3><p class=\" box-text narrative\">挂毯上，17岁的贝科拉乘船驶向一座遍布峭壁与树木的岛屿。那片海岸正是还没有人定居时的奥塔里。船上还有一名身披重甲的亡灵男子。</p><h3><strong>7. 凄凉灯塔建成</strong></h3><p class=\" box-text narrative\">挂毯上，落成的凄凉灯塔散发着不祥的光。贝科拉身旁站着一名卓尔男子，他背对观者，银色长发垂落。男子旁边是一团旋转的光与能量，其中漂浮着眼睛和触须，每条触须末端都有7根手指。贝科拉附近还有一名身披重甲的亡灵，他身旁是一只巨大的蠕虫状生物，以数十条腿撑起身体，身上系着炼金工具腰带。最后是一名皮肤通红、头生巨角的男子。</p><p>围在贝科拉身边的这些人物依次是沃鲁克、虚空暴食者、卡利多·哈鲁维克斯、贾法基和乌瑞维安。</p>",
               "src": null,
               "mejItems": {}
             },
             "52X3NzrFQ7Kd0sX4": {
               "name": "G18. 收集手之人 G18. He Who Collects Hands",
-              "text": "<p><em>此内容由用户 weepingminotaur 创作</em></p><hr><p>在此改动中，伊松德赫利在梦境战场中与队伍战斗，使他比在G层狭小的作战大厅里有更多的腾挪空间。战斗可以在队伍试图打开G18的门时触发，或在城镇中多莉安娜的房间内进行RP之后触发，按你的偏好选择。</p><p>在这段梦境序列中，伊松德赫利正以多莉安娜的心灵能量为食，这使他比AV中所写的强大得多。队伍会想尽快切断他与多莉安娜之间的联系，使用下方的“解放她”行动。一旦联系被打破，他就会变得弱得多。</p><p>@UUID[Actor.sqaoZDUyrwFmj8to]{伊松德赫利，梦魇成瘾者}</p><h3><span class=\"action-glyph\">2</span> 解放她</h3><section class=\"traits\"><p>心灵</p><p>精魂</p></section><hr><section class=\"statblock\"><p>用合适的技能检定削弱伊松德赫利对多莉安娜的控制。总共需要四次成功的检定才能打破控制并解放多莉安娜。每项技能只能成功使用一次。所有检定都以伊松德赫利的等级为基础，并按标准难度调整进行修正。</p><ul><li><p><strong>射程</strong> 进行检定的PC必须与多莉安娜或伊松德赫利相邻。其他角色可以使用@UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{协助}行动来支援一次检定，但前提是他们位于距离多莉安娜、伊松德赫利或当前行动的PC（依其行动的适用对象而定）30尺以内。若角色处于梦魇空间中，则不能进行检定或援助。</p></li><li><p><strong>大成功</strong> 获得两次成功。</p></li><li><p><strong>成功</strong> 获得一次成功。</p></li><li><p><strong>失败</strong> 无变化。</p></li><li><p><strong>大失败</strong> 该PC获得@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}。</p></li></ul><hr><ul><li><p><strong>奥法</strong> 运用你对魔法的知识来削弱伊松德赫利与多莉安娜之间的灵性联系。</p><ul><li><p>@Check[type:Arcana|dc:31|traits:arcane,mental,spirit]{奥法（极难）}</p></li></ul></li><li><p><strong>交涉</strong> 给予多莉安娜勇气，让她与折磨她的存在对抗。</p><ul><li><p>@Check[type:Diplomacy|dc:28|traits:auditory,mental,spirit,visual|showDC:all]{交涉（困难）}</p></li></ul></li><li><p><strong>威吓</strong> 用报复的威胁吓住这名捕梦者。</p><ul><li><p>@Check[type:Intimidation|dc:31|traits:auditory,mental,spirit|showDC:all]{威吓（极难）}</p></li></ul></li><li><p><strong>医疗</strong> 处理多莉安娜的伤口以恢复她的力量。</p><ul><li><p>@Check[type:Medicine|dc:26|traits:manipulate,mental,spirit|showDC:all]{医疗（普通）}</p></li></ul></li><li><p><strong>神秘</strong> 破译伊松德赫利控制多莉安娜的秘奥根基。</p><ul><li><p>@Check[type:Occultism|dc:26|traits:mental,occult,spirit|showDC:all]{神秘（普通）}</p></li></ul></li><li><p><strong>社会</strong> 提醒多莉安娜她的家人与朋友，以及她与奥塔里的联系。</p><ul><li><p>@Check[type:Society|dc:28|traits:auditory,mental,spirit|showDC:all]{社会（困难）}</p></li></ul></li><li><p><strong>精魂学识</strong> 借助你对灵性的知识，支援多莉安娜对抗捕梦者。</p><ul><li><p>@Check[type:Spirit-Lore|dc:24|traits:mental,spirit|showDC:all]{精魂学识（简单）}</p></li></ul></li></ul><hr><ul><li><p><strong>一次成功</strong> 伊松德赫利对物理伤害的抗力降至5。他窗墙的南侧部分消失。</p></li><li><p><strong>两次成功</strong> 不再会生成伏行之手。伊松德赫利窗墙的北侧部分消失。</p></li><li><p><strong>三次成功</strong> 伊松德赫利不再处于迅捷状态。他窗墙剩余的各部分消失。</p></li><li><p><strong>四次成功</strong> 伊松德赫利失去借机攻击以及对物理伤害的抗力。他也恢复为正常体型，并在近战打击上失去15尺触及。多莉安娜暂时摆脱了他的心灵影响，不过若让他继续存活，他最终仍会重新夺回控制。</p></li></ul></section><h1>离开梦境空间</h1><p>杀死伊松德赫利会永久解放多莉安娜，并让队伍离开梦境战场。</p><h2>每一次呼吸都伴随痛苦</h2><section class=\"statblock\"><p>试图从南侧楼梯离开梦境战场的PC可以这样做，但必须先进行一次@Check[type:will|dc:26|showDC:all]{基础意志豁免}并承受@Damage[(2d10+9)[spirit,mental]]；伊松德赫利会以等同于该伤害的数值被治疗。</p></section>",
+              "text": "<p><em>此内容由用户 weepingminotaur 创作</em></p><hr><p>在这一改编中，伊松德赫利会在梦境中迎战队伍，比起G层狭小的作战大厅，这里有更多空间供他周旋。你可以按自己的喜好，让战斗在队伍尝试打开G18的门时触发，也可以安排在他们于镇上多莉安娜的房间中完成角色扮演之后。</p><p>在这段梦境中，伊松德赫利以多莉安娜的心灵能量为食，远比AV原本设定的强大。队伍最好尽快使用下方的“解放她”连动，切断他与多莉安娜的联系；一旦联系中断，他的力量就会大幅削弱。</p><p>@UUID[Actor.sqaoZDUyrwFmj8to]{伊松德赫利，梦魇成瘾者}</p><h3><span class=\"action-glyph\">2</span> 解放她</h3><section class=\"traits\"><p>心灵</p><p>精魂</p></section><hr><section class=\"statblock\"><p>用合适的技能检定削弱伊松德赫利对多莉安娜的控制。累计四次成功即可解除控制，解放多莉安娜。每项技能只能成功使用一次。所有检定的DC均以伊松德赫利的等级为基准，再应用标准的难度调整。</p><ul><li><p><strong>距离</strong> 尝试检定的PC必须与多莉安娜或伊松德赫利相邻。其他角色可以用@UUID[Compendium.pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{协助}支援这次检定，但必须位于多莉安娜、伊松德赫利或尝试检定的PC的30尺内，具体参照谁取决于其协助方式。处于梦魇空间内的角色既不能尝试这项检定，也不能协助。</p></li><li><p><strong>大成功</strong> 获得两次成功。</p></li><li><p><strong>成功</strong> 获得一次成功。</p></li><li><p><strong>失败</strong> 无变化。</p></li><li><p><strong>大失败</strong> 该PC获得@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}。</p></li></ul><hr><ul><li><p><strong>奥法</strong> 运用魔法知识，削弱伊松德赫利与多莉安娜之间的灵性联系。</p><ul><li><p>@Check[type:Arcana|dc:31|traits:arcane,mental,spirit]{奥法（极难）}</p></li></ul></li><li><p><strong>交涉</strong> 鼓舞多莉安娜，让她有勇气反抗伊松德赫利。</p><ul><li><p>@Check[type:Diplomacy|dc:28|traits:auditory,mental,spirit,visual|showDC:all]{交涉（困难）}</p></li></ul></li><li><p><strong>威吓</strong> 威胁要让捕梦者付出代价，以此吓住他。</p><ul><li><p>@Check[type:Intimidation|dc:31|traits:auditory,mental,spirit|showDC:all]{威吓（极难）}</p></li></ul></li><li><p><strong>医疗</strong> 处理多莉安娜的伤口以恢复她的力量。</p><ul><li><p>@Check[type:Medicine|dc:26|traits:manipulate,mental,spirit|showDC:all]{医疗（普通）}</p></li></ul></li><li><p><strong>神秘</strong> 破解伊松德赫利控制多莉安娜所依据的秘术原理。</p><ul><li><p>@Check[type:Occultism|dc:26|traits:mental,occult,spirit|showDC:all]{神秘（普通）}</p></li></ul></li><li><p><strong>社群</strong> 让多莉安娜想起家人、朋友，以及她与奥塔里的联系。</p><ul><li><p>@Check[type:Society|dc:28|traits:auditory,mental,spirit|showDC:all]{社群（困难）}</p></li></ul></li><li><p><strong>精魂学识</strong> 运用精魂方面的知识，帮助多莉安娜对抗捕梦者。</p><ul><li><p>@Check[type:Spirit-Lore|dc:24|traits:mental,spirit|showDC:all]{精魂学识（简单）}</p></li></ul></li></ul><hr><ul><li><p><strong>一次成功</strong> 伊松德赫利对物理伤害的抗力降至5。他的窗墙南段消失。</p></li><li><p><strong>两次成功</strong> 不再生成新的伏行之手。伊松德赫利的窗墙北段消失。</p></li><li><p><strong>三次成功</strong> 伊松德赫利不再处于迅捷状态。他的窗墙剩余部分全部消失。</p></li><li><p><strong>四次成功</strong> 伊松德赫利失去借机攻击和物理伤害抗力，恢复正常体型，近战打击的触及减少15尺。多莉安娜暂时摆脱他的心灵影响；但若留他活着，他迟早会再次控制她。</p></li></ul></section><h1>离开梦境空间</h1><p>杀死伊松德赫利，就能让多莉安娜彻底获得自由，并使队伍离开梦境。</p><h2>每一次呼吸都伴随痛苦</h2><section class=\"statblock\"><p>PC可以从南侧楼梯离开梦境，但必须先进行一次@Check[type:will|dc:26|showDC:all]{基础意志豁免}，按豁免结果承受@Damage[(2d10+9)[spirit,mental]]伤害；伊松德赫利恢复的生命值等于该PC实际受到的伤害。</p></section>",
               "src": null,
               "mejItems": {}
             },
             "YBMl3YcfpuQyWqea": {
-              "name": "可从生物制作的物品 Craftable Items from Creatures",
-              "text": "<p></p><table><tbody><tr><td><p><strong>生物</strong></p></td><td><p><strong>等级</strong></p></td><td><p><strong>物品</strong></p></td></tr><tr><td><p>@UUID[Actor.LHHgGSs0ELCR4CYK]{食尸鬼}</p></td><td><p>3</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.VOmOhm3Rc3VUkIu0]{食尸鬼短剑}</p></td></tr><tr><td><p>@UUID[Actor.irrXrWxJ0LYSUCQB]{拉维雷克斯}</p></td><td><p>6</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.4jZqYIyouoK7xe8u]{龙鳞杖}</p></td></tr><tr><td><p></p></td><td><p>9</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.Q8BscHUFiM1a86PO]{屠龙盾}</p></td></tr><tr><td><p></p></td><td><p>13</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.Blo642O1qsgsvYEB]{龙齿棒}</p></td></tr><tr><td><p>@UUID[Actor.RiKjpztTt7tZbOeo]{九头蛇}</p></td><td><p>7</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.oHVCB96LOYobSQ0I]{裂头弓}</p></td></tr><tr><td><p></p></td><td><p>9</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.ssS1yEAZwZun8yFw]{生长枪}</p></td></tr><tr><td><p>@UUID[Actor.nEOvW0LBt9vFETUp]{巨硕蜘蛛}</p></td><td><p>6</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.70H54rIRjO9fJkdt]{蜘蛛枪}</p></td></tr><tr><td><p></p></td><td><p>9</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.NIyJqiW1Wci6gP9m]{高等蜘蛛背带}</p></td></tr><tr><td><p>@UUID[Actor.fxYMucI5b2IUoBpw]{地鼠怪}</p></td><td><p>12</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.MBd6Fr0jk4XpUc4l]{地鼠牙拳刃}</p></td></tr><tr><td><p>@UUID[Actor.FHfrIJCdKTzy2rrR]{迷音鸟}</p></td><td><p>13</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.C7LDHqjqxpmhn8QY]{迷音鸟风笛}</p></td></tr><tr><td><p>@UUID[Actor.mlifDVJJWwjFtUxv]{喃喃}（如果你是恶人）</p></td><td><p>13</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.nzQKwdUxzmmwWtzT]{美杜莎之嚎}</p></td></tr></tbody></table>",
+              "name": "用生物材料制作的物品 Craftable Items from Creatures",
+              "text": "<p></p><table><tbody><tr><td><p><strong>生物</strong></p></td><td><p><strong>等级</strong></p></td><td><p><strong>物品</strong></p></td></tr><tr><td><p>@UUID[Actor.LHHgGSs0ELCR4CYK]{食尸鬼}</p></td><td><p>3</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.VOmOhm3Rc3VUkIu0]{食尸鬼短剑}</p></td></tr><tr><td><p>@UUID[Actor.irrXrWxJ0LYSUCQB]{拉维雷克斯}</p></td><td><p>6</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.4jZqYIyouoK7xe8u]{龙鳞杖}</p></td></tr><tr><td><p></p></td><td><p>9</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.Q8BscHUFiM1a86PO]{屠龙盾}</p></td></tr><tr><td><p></p></td><td><p>13</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.Blo642O1qsgsvYEB]{龙齿棒}</p></td></tr><tr><td><p>@UUID[Actor.RiKjpztTt7tZbOeo]{多头蛇}</p></td><td><p>7</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.oHVCB96LOYobSQ0I]{裂头弓}</p></td></tr><tr><td><p></p></td><td><p>9</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.ssS1yEAZwZun8yFw]{生长枪}</p></td></tr><tr><td><p>@UUID[Actor.nEOvW0LBt9vFETUp]{巨硕蜘蛛}</p></td><td><p>6</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.70H54rIRjO9fJkdt]{蜘蛛枪}</p></td></tr><tr><td><p></p></td><td><p>9</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.NIyJqiW1Wci6gP9m]{高等蜘蛛背带}</p></td></tr><tr><td><p>@UUID[Actor.fxYMucI5b2IUoBpw]{地鼠怪}</p></td><td><p>12</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.MBd6Fr0jk4XpUc4l]{地鼠牙拳刃}</p></td></tr><tr><td><p>@UUID[Actor.FHfrIJCdKTzy2rrR]{迷音鸟}</p></td><td><p>13</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.C7LDHqjqxpmhn8QY]{迷音鸟风笛}</p></td></tr><tr><td><p>@UUID[Actor.mlifDVJJWwjFtUxv]{喃喃}（如果你是恶人）</p></td><td><p>13</p></td><td><p>@UUID[Compendium.pf2e.equipment-srd.nzQKwdUxzmmwWtzT]{美杜莎之嚎}</p></td></tr></tbody></table>",
               "src": null,
               "mejItems": {}
             },
             "jK0TK9fuzT5RDGFH": {
-              "name": "瓦琳的奇珍异宝外部 Wrin's Wonders Exterior",
-              "caption": "瓦琳的奇珍异宝外观 (@morlockhater) 一座圆形塔楼，侧面装有精灵风格的木制机械绞盘，使帆布屋顶能够打开，露出夜空，如书中所述。",
+              "name": "瓦琳的奇珍异宝店外观 Wrin's Wonders Exterior",
+              "caption": "瓦琳的奇珍异宝店外观（@morlockhater）：一座圆形塔楼，侧面装有精灵风格的木制机械绞盘，可拉开帆布屋顶，露出夜空，与书中描述一致。",
               "src": "modules/abomination-vaults-addons/assets/maps/morlockhater/wrins_wonders_exterior.webp",
               "mejItems": {}
             },
             "7XYTYzeXuWgjmg3E": {
               "name": "杂项 Misc",
-              "text": "<p>没有特定楼层的杂项物品</p>",
+              "text": "<p>不属于特定楼层的杂项内容</p>",
               "src": null,
               "mejItems": {}
             },
@@ -3294,7 +3294,7 @@
             },
             "BHqj0KyG7qzPC5L2": {
               "name": "G. 牢房门火焰特效 G. Prison Door Flame FX",
-              "text": "<p>在本模组的设定中，有一个设定选项，启用后（前提是你已安装 <code>Sequencer</code> 和 <code>JB2a</code>）会在监狱这一层的每扇门开启/关闭时播放一个小型火焰效果，如楼层描述中所述。</p><p>@UUID[JournalEntry.OyNcqrpRClyhr8BJ.JournalEntryPage.8V5lwumIxcPPnYMP]{第7章：灵魂守护者}</p>",
+              "text": "<p>在本模组设置中启用对应选项后（需已安装 <code>Sequencer</code> 和 <code>JB2a</code>），监狱层的每扇门开启或关闭时都会播放小型火焰特效，与该楼层的描述一致。</p><p>@UUID[JournalEntry.OyNcqrpRClyhr8BJ.JournalEntryPage.8V5lwumIxcPPnYMP]{第7章：灵魂守护者}</p>",
               "src": null,
               "mejItems": {}
             },
@@ -3306,7 +3306,7 @@
             },
             "XSouJfqO8f0ptYya": {
               "name": "伊尔达里斯聚落设定 Yldaris Settlement Treatment",
-              "text": "<p><em>在《憎恶地窟》书里，伊尔达里斯（Yldaris）的写法总让我觉得不太对劲：它被写得像是一个地城遭遇，但队伍更有可能以友善的方式与他们互动。本内容旨在修正这一点，同时也改善一些更高等级物品的获取途径——如果队伍只能从艾巴萨罗姆运来，这些物品可能得等更久才能入手。</em></p><p>关于某些标签的说明，见 @UUID[JournalEntry.67686KaEPc6XAlKJ.JournalEntryPage.4kOuPeKxK4TbdcuO]</p><section class=\"location-head\"><header><h1>伊尔达里斯</h1><h1>聚落 9</h1></header><article><ul class=\"traits\"><li>地下</li><li>城镇</li></ul></article></section><ul class=\"features\"><li>由卓尔射手建立的、与外界隔绝的地下聚落。</li><li>(<strong>注：</strong>将聚落等级提高到 9，以便更明显地区分它与奥塔里)</li></ul><hr><p></p><section class=\"location-head\"><header><h2>洛扎丁商队</h2><h2>信使 9</h2></header><article><ul class=\"traits\"><li>驻军</li></ul><p><strong>伊尔达里斯商队</strong></p></article></section><ul class=\"features\"><li><strong>运送</strong>：可请求从卓尔聚落洛扎丁运送<span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">等级 9 及以下</span></span>的物品。物品可按其原价购买，并额外支付每 1 负载 1 金币 的费用以在 3 天内送达；或支付额外 20% 的费用以在 1 天内送达。</li></ul><hr><p>伊尔达里斯的卓尔经营着往返于附近卓尔城市洛扎丁的商队；洛扎丁可获得更多物品，但由于需要穿越幽暗地域中盘根错节的洞窟网络才能抵达，因此前往那里并不容易。</p><p></p><section class=\"location-head\"><header><h2>独行游侠</h2><h2>射手 8</h2></header><article><ul class=\"traits\"><li>工坊</li></ul><p><strong>塔尼思</strong></p></article></section><ul class=\"features\"><li><strong>商品</strong>：@UUID[Compendium.pf2e.equipment-srd.zcrIuILnp6oh4dr9]{连发手弩}, @UUID[Compendium.pf2e.equipment-srd.xk9bw9ccupAIx7xT]{连发手弩弹匣}, @UUID[Compendium.pf2e.equipment-srd.oJZe5rRitvioUgRh]{射手弹带}, @UUID[Compendium.pf2e.equipment-srd.zo0ophqfKunJFxZN]{昏睡毒}, @UUID[Compendium.pf2e.equipment-srd.nn2HAN1XKkKHfVnM]{迷梦毒}，并提供物品修理服务</li></ul><hr><p>塔尼思是一位独来独往的卓尔游侠，对连发手弩的使用与维护有极高造诣。</p><p></p><section class=\"location-head\"><header><h2>典狱长主官邸</h2><h2>典狱长 9</h2></header><article><ul class=\"traits\"><li>折扣</li><li>雇主</li></ul><p><strong>萨莱莎·马尔苏拉斯</strong></p></article></section><ul class=\"features\"><li><strong>商品</strong>：冒险道具、武器、盾牌、护甲、基础符文、@UUID[Compendium.pf2e.equipment-srd.Item.Wm0X7Pfd1bfocPSv]{侵蚀}属性符文、少量魔法武器与护甲</li></ul><hr><p>作为聚落领袖，她也兼任聚落的军需官，统筹所有通用装备。</p><p></p><section class=\"location-head\"><header><h2>厨房</h2><h2>厨房 5</h2></header><article><ul class=\"traits\"><li>客厅</li></ul><p><strong>厨房工作人员</strong></p></article></section><ul class=\"features\"><li><strong>商品</strong>：饮品、餐食、口粮（取材于当地动植物、蘑菇等）</li></ul><hr><p>在厨房当值的卓尔通常取决于谁输了上一局牌，因此人员并不固定。</p><p></p><section class=\"location-head\"><header><h2>先知居所</h2><h2>施法 9</h2></header><article><ul class=\"traits\"><li>图书馆</li><li>教堂</li></ul><p><strong>巴兹拉德 &amp; 克拉索尔</strong></p></article></section><ul class=\"features\"><li><strong>商品</strong>：异能卷轴、少量异能主题的魔法物品（手持物品、法杖、魔杖）</li><li><strong>施法</strong>：他们提供施法服务，但仅限于其数据表中列出的法术。</li><li><strong>冥想</strong>：巴兹拉德与克拉索尔可在冥想洞穴中指导队伍进行冥想；其效果等同于法术 @UUID[Compendium.pf2e.spells-srd.Vvxgn7saUPW2bJhb]{阅读命运}</li></ul><hr><p>这些卓尔先知能提供施法服务，并在幽暗地域的石之信仰上给予指引。</p>",
+              "text": "<p><em>《憎恨魔窟》把伊尔达里斯写得像是一场地城遭遇，这一直让我觉得不太对劲：其实队伍与当地居民友善往来的可能性要大得多。我写这份内容是想弥补这一点，也让队伍更容易获得一些高等级物品；如果只能从艾巴萨罗姆订货运来，他们可能还得等更久。</em></p><p>关于某些标签的说明，见 @UUID[JournalEntry.67686KaEPc6XAlKJ.JournalEntryPage.4kOuPeKxK4TbdcuO]</p><section class=\"location-head\"><header><h1>伊尔达里斯</h1><h1>聚落 9</h1></header><article><ul class=\"traits\"><li>地下</li><li>城镇</li></ul></article></section><ul class=\"features\"><li>卓尔射手聚居的封闭地下聚落。</li><li>（<strong>注：</strong>将聚落等级提高到 9，使其与奥塔里的区别更明显。）</li></ul><hr><p></p><section class=\"location-head\"><header><h2>洛扎丁商队</h2><h2>信使 9</h2></header><article><ul class=\"traits\"><li>驻军</li></ul><p><strong>伊尔达里斯商队</strong></p></article></section><ul class=\"features\"><li><strong>运送</strong>：可向卓尔聚落洛扎丁订购<span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">9 级及以下</span></span>的物品。按物品原价购买，另付每 1 负载 1 金币的运费，可在 3 天内送达；或加付物品价格的 20%，在 1 天内送达。</li></ul><hr><p>伊尔达里斯的卓尔经营着往返于附近卓尔城市洛扎丁的商队。洛扎丁的物品种类更丰富，但要前往那里，必须穿过幽暗地域中曲折复杂的洞窟网络，因此往来受限。</p><p></p><section class=\"location-head\"><header><h2>独行游侠</h2><h2>射手 8</h2></header><article><ul class=\"traits\"><li>工坊</li></ul><p><strong>塔尼思</strong></p></article></section><ul class=\"features\"><li><strong>商品</strong>：@UUID[Compendium.pf2e.equipment-srd.zcrIuILnp6oh4dr9]{连发手弩}、@UUID[Compendium.pf2e.equipment-srd.xk9bw9ccupAIx7xT]{连发手弩弹匣}、@UUID[Compendium.pf2e.equipment-srd.oJZe5rRitvioUgRh]{射手弹带}、@UUID[Compendium.pf2e.equipment-srd.zo0ophqfKunJFxZN]{昏睡毒}、@UUID[Compendium.pf2e.equipment-srd.nn2HAN1XKkKHfVnM]{迷梦毒}，并提供物品修理服务</li></ul><hr><p>塔尼思是一位独来独往的卓尔游侠，十分精通连发手弩的使用与维护。</p><p></p><section class=\"location-head\"><header><h2>总典狱长官邸</h2><h2>典狱长 9</h2></header><article><ul class=\"traits\"><li>折扣</li><li>雇主</li></ul><p><strong>萨莱莎·马尔苏拉斯</strong></p></article></section><ul class=\"features\"><li><strong>商品</strong>：冒险道具、武器、盾牌、护甲、基础符文、@UUID[Compendium.pf2e.equipment-srd.Item.Wm0X7Pfd1bfocPSv]{侵蚀}属性符文、少量魔法武器与护甲</li></ul><hr><p>作为聚落领袖，她也兼任聚落的军需官，统筹所有通用装备。</p><p></p><section class=\"location-head\"><header><h2>厨房</h2><h2>厨房 5</h2></header><article><ul class=\"traits\"><li>客厅</li></ul><p><strong>厨房工作人员</strong></p></article></section><ul class=\"features\"><li><strong>商品</strong>：饮品、餐食、口粮（取材于当地动植物、蘑菇等）</li></ul><hr><p>通常是谁输了上一局牌，谁就去厨房当值，因此厨房的卓尔人员并不固定。</p><p></p><section class=\"location-head\"><header><h2>先知居所</h2><h2>施法 9</h2></header><article><ul class=\"traits\"><li>图书馆</li><li>教堂</li></ul><p><strong>巴兹拉德 &amp; 克拉索尔</strong></p></article></section><ul class=\"features\"><li><strong>商品</strong>：异能卷轴、少量异能主题的魔法物品（手持物品、法杖、魔杖）</li><li><strong>施法</strong>：他们提供施法服务，但仅限于其数据表中列出的法术。</li><li><strong>冥想</strong>：巴兹拉德与克拉索尔可在冥想洞穴中指导队伍进行冥想；其效果等同于法术 @UUID[Compendium.pf2e.spells-srd.Vvxgn7saUPW2bJhb]{阅读命运}</li></ul><hr><p>这些卓尔先知能提供施法服务，以及有关幽暗地域石之信仰的指引。</p>",
               "src": null,
               "mejItems": {}
             },
@@ -3318,7 +3318,7 @@
             },
             "9clhBJ4imVi2Ri9o": {
               "name": "H38. 喃喃，空无之死的器具 H38. Murmur the Implement of Empty Death",
-              "text": "<p><em>此内容由用户 weepingminotaur 创作</em></p><h2>概览</h2><p>中了弱智术的美杜莎喃喃已被改造成 @UUID[Actor.aYaE9C8F2bjV7c2Q]{空无之死之器}。该器物目前置于 @UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.MFktSOxcOfKGkbb2]{H39}（取代了虐戾怪）。此外，喃喃本人也不再驻守于 @UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.pnTCbvQqpz0arkpz]{H38}。</p><p>贝科拉采取了一些防范措施，以确保喃喃既不会被发现，也不会被解除。通往 @UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.MFktSOxcOfKGkbb2]{H39} 的坚固石门被上了锁，并以 @UUID[Item.CyWfBIXA8CKVFMK4]{宁布洛斯 - 重大诅咒} 设下陷阱。察觉该诅咒需要一次 @Check[perception|dc:30|traits:secret] 检定。解除该诅咒则需要一次 [[/act disable-device dc=33]]{解除装置（专家）} 检定，或一次 @Check[type:Occultism|dc:33|showDC:all]{神秘（大师）} 检定。</p><p>打开这扇门需要它的钥匙（由<strong>卡利多</strong>携带），或是五次成功的 [[/act pick-a-lock dc=35]]{开锁（专家）} 检定，又或是一次 @Check[type:Athletics|dc:40|showDC: all|traits:action:force-open]{破拆（专家）} 检定。</p><p>当空无之死之器这个危害处于活跃状态时，凄凉灯塔下层的若干要素会变得更加危险：</p><ul><li><p>幽灵女王之眼（@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.0EtecMBSYJDok7n7]{H02. 眼之大厅}）与幽灵女王之握（@UUID[JournalEntry.1vlzl3NJsftNB9Dc.JournalEntryPage.uWdCP78aS1lts5kr]{I64. 入会者之厅}）这两个危害，只要区域内没有生物，即便已被解除，也会在 1 分钟后重置。</p></li><li><p>下列生物获得 @UUID[Item.fPWpoxS7837pkegk]{再生 10（命能）}：</p><ul><li><p>空无之死波达尸（@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.hD6CSfmfkrSopsaw]{H21. 远古者洞穴}）</p></li><li><p>恐怖鬼火（所有地点）</p></li><li><p>惧栗缚灵（@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.Vwd8vMBerJCAoN4N]{H23. 影覆码头}</p></li><li><p>乌塔古尔（@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.f02YPQGkiBbZ0Ijt]{H12. 岛屿洞窟}）</p></li><li><p>光明行者（@UUID[JournalEntry.1vlzl3NJsftNB9Dc.JournalEntryPage.iduGvMRKIN2B46hv]{I24. 奇怪的死者}）</p></li></ul></li><li><p>贝科拉可以将自身投射到 H 层至 J 层的任何地方，而不再局限于凄凉灯塔的塔基范围之内。</p></li></ul><h2>设计考量</h2><blockquote><p>我不知道除了我自己之外，还有谁会喜欢这个改动。我做它纯粹是为了我自己那支憎恶地窟队伍。举例来说，对精魂学识的侧重，让我队伍中那位托拉格的神卫得以在解除这个危害的过程中扮演重要角色，释放精魂行动里可以呼求托拉格这一选项也是同样的用意。如果你的队伍中没有人信奉托拉格，可以考虑把他换成凯登·凯连，着眼于凯登神职中「自由」的那一面，来为他被呼求提供理由。</p><p>促使我写下这段增补内容的，是我对喃喃在憎恶地窟中被使用方式的不满。有些GM可能会觉得喃喃（或是我安置在 H02 与 I64 的那两个幽灵女王危害）过强或调校过度，如果你属于这一类，那也完全说得过去。贝科拉是这场冒险的最终首领，我想在凄凉灯塔的下层就展现出她邪恶天才的痕迹，同时进一步强化宁布洛斯式的恐怖氛围。</p><p>-weepingminotaur</p></blockquote><h2>解除该作祟</h2><p>队伍必须依次完成三项检定才能解除该作祟：唤醒心智、研究器物与释放精魂。若队伍成功通过一次回忆知识（神秘）检定以查明该危害的解除条件，便向他们揭示唤醒心智的描述与选项。在唤醒心智上取得<strong>成功</strong>后，揭示研究器物的选项。在研究器物上取得<strong>成功</strong>后，揭示其后续发展、发送虚假信号一栏，以及释放精魂的完整段落。</p><p>若PC选择中途搁下这项工作、之后再回来完成，他们必须重新依次进行同样的三项检定；除非他们此前已在研究器物上取得成功，在这种情况下他们只需进行唤醒心智与释放精魂。</p><hr><p>@Embed[Item.Q5N7Px8ZVaocxC92]{唤醒心智}</p><hr><p>@Embed[Item.aEZqJZBbCp3fJSV0]{研究器物}</p><hr><p>@Embed[Item.WFCyQ30Rj6DXwrxk]{发送虚假信号（可选）}</p><hr><p>@Embed[Item.pkCt6MdQHmoPKHyV]{释放精魂}</p><p></p>",
+              "text": "<p><em>此内容由用户 weepingminotaur 创作</em></p><h2>概览</h2><p>中了弱智术的美杜莎喃喃已被改造成 @UUID[Actor.aYaE9C8F2bjV7c2Q]{空无之死之器}。该器物目前置于 @UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.MFktSOxcOfKGkbb2]{H39}（取代了虐戾怪）。此外，喃喃本人也不再驻守于 @UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.pnTCbvQqpz0arkpz]{H38}。</p><p>贝科拉采取了一些防范措施，防止有人发现喃喃或解除这一危害。通往 @UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.MFktSOxcOfKGkbb2]{H39} 的坚固石门已上锁，并以 @UUID[Item.CyWfBIXA8CKVFMK4]{宁布洛斯 - 重度诅咒} 设下陷阱。察觉该诅咒需要一次 @Check[perception|dc:30|traits:secret] 检定。解除该诅咒则需要一次 [[/act disable-device dc=33]]{解除装置（专家）} 检定，或一次 @Check[type:Occultism|dc:33|showDC:all]{神秘（大师）} 检定。</p><p>打开这扇门可以使用钥匙（由<strong>卡利多</strong>携带），也可以通过五次成功的 [[/act pick-a-lock dc=35]]{开锁（专家）} 检定，或一次 @Check[type:Athletics|dc:40|showDC: all|traits:action:force-open]{破拆（专家）} 检定将其打开。</p><p>只要空无之死之器这一危害仍在运作，凄凉灯塔下层就会出现以下危险变化：</p><ul><li><p>幽灵女王之眼（@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.0EtecMBSYJDok7n7]{H02. 眼之大厅}）与幽灵女王之握（@UUID[JournalEntry.1vlzl3NJsftNB9Dc.JournalEntryPage.uWdCP78aS1lts5kr]{I64. 入会者之厅}）这两个危害，只要区域内没有生物，即便已被解除，也会在 1 分钟后重置。</p></li><li><p>下列生物获得 @UUID[Item.fPWpoxS7837pkegk]{再生 10（命能）}：</p><ul><li><p>空无之死波达尸（@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.hD6CSfmfkrSopsaw]{H21. 远古者洞穴}）</p></li><li><p>恐怖鬼火（所有地点）</p></li><li><p>惧栗缚灵（@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.Vwd8vMBerJCAoN4N]{H23. 影覆码头}）</p></li><li><p>乌塔古尔（@UUID[JournalEntry.FwWmtOBFHhvM2gtf.JournalEntryPage.f02YPQGkiBbZ0Ijt]{H12. 岛屿洞窟}）</p></li><li><p>光明行者（@UUID[JournalEntry.1vlzl3NJsftNB9Dc.JournalEntryPage.iduGvMRKIN2B46hv]{I24. 奇怪的死者}）</p></li></ul></li><li><p>贝科拉可以将自身投射到 H 层至 J 层的任何地方，而不限于凄凉灯塔的塔基范围。</p></li></ul><h2>设计考量</h2><blockquote><p>我不知道除了我自己，还有没有人会喜欢这个改动。这纯粹是为我自己的憎恨魔窟队伍设计的。例如，对精魂学识的侧重，能让队伍中那位信奉托拉格的神卫在解除危害时发挥重要作用；释放精魂动作中呼求托拉格的选项也是出于同样的考虑。如果你的队伍中没有人信奉托拉格，可以考虑把他换成凯登·凯连，强调凯登神职中“自由”的一面，以此说明为何在呼告时祈求他的帮助。</p><p>我之所以写这段增补内容，是因为不满意憎恨魔窟中对喃喃的安排。有些 GM 可能觉得喃喃（或我安置在 H02 与 I64 的那两个幽灵女王危害）强得过头或难度设得太高；如果你这么觉得，也完全可以理解。贝科拉是这场冒险的最终首领，我想在凄凉灯塔的下层就展现出她的邪恶才智，同时进一步强化宁布洛斯式的恐怖氛围。</p><p>-weepingminotaur</p></blockquote><h2>解除该作祟</h2><p>队伍必须依次完成三项检定才能解除该作祟：唤醒心智、研究器物与释放精魂。若队伍为查明该危害的解除条件而进行回忆知识（神秘）检定，并获得成功，就向玩家展示唤醒心智的描述与选项。唤醒心智检定<strong>成功</strong>后，展示研究器物的选项。研究器物检定<strong>成功</strong>后，展示其后续发展、发送虚假信号一栏，以及释放精魂的完整内容。</p><p>若 PC 中途搁下这项工作，之后再回来继续，就必须重新按顺序进行同样的三项检定；但若他们已在研究器物检定上成功，就只需进行唤醒心智与释放精魂。</p><hr><p>@Embed[Item.Q5N7Px8ZVaocxC92]{唤醒心智}</p><hr><p>@Embed[Item.aEZqJZBbCp3fJSV0]{研究器物}</p><hr><p>@Embed[Item.WFCyQ30Rj6DXwrxk]{发送虚假信号（可选）}</p><hr><p>@Embed[Item.pkCt6MdQHmoPKHyV]{释放精魂}</p><p></p>",
               "src": null,
               "mejItems": {}
             }
@@ -3348,7 +3348,7 @@
           "command": "// Animates Nhimbaloth's Symbol\n// Displays her symbol as well as plays a relevant SFXfor it\n// Requires Sequencer\nconst duration = 1.5; // Duration of the animation in seconds\nconst volume = 0.5; // Volume of SFX\nconst scale = 1; // 100% size atm, 0.5 = 50% size etc,\nawait game.abomVaultAddons.animations.nhimbalothSymbol({ duration, volume, scale });"
         },
         "X28HKDQaNJxl4fci": {
-          "name": "吐出动画 Regurgitate Animation",
+          "name": "反刍动画 Regurgitate Animation",
           "command": "function __pf2eExtraAvEnabled() {\n  return game.system?.id === \"pf2e\" && /^(?:cn|zh(?:[-_]|$))/i.test(game.i18n?.lang ?? \"\")\n      && !!game.modules.get(\"pf2e-compendium-extra-cn\")?.active\n      && !!game.modules.get(\"abomination-vaults-addons\")?.active\n      && game.modules.get(\"abomination-vaults-addons\")?.version === \"2.1.0\";\n}\nfunction __pf2eExtraAvDisplay(key, english) {\n  if (!__pf2eExtraAvEnabled()) return english;\n  const translated = game.i18n.localize(key);\n  return typeof translated === \"string\" && translated !== key ? translated : english;\n}\n\n/*\n* This gets any creatures that are grabbed within 5 ft of the worm and launches them at the c reature it is targetting\n*\n*\n*/\n\nfunction isGrabbed(tok) {\n    return !!tok.actor.conditions.bySlug('grabbed').length\n}\n\nfunction getTokensInRange(selectedToken = null, extraSquares = 1) {\n  // If no token is provided, use the currently selected token\n  if (!selectedToken) {\n    selectedToken = canvas.tokens.controlled[0];\n  }\n\n  if (!selectedToken) {\n    ui.notifications.warn(__pf2eExtraAvDisplay(\"abomination-vaults-addons.extra-display.no-token-provided\", \"No token selected or provided.\"));\n    return null;\n  }\n\n  // Get all tokens on the canvas\n  const allTokens = canvas.tokens.placeables;\n\n  // Calculate the range based on token size and extra squares\n  const tokenSize = selectedToken.document.width;\n  const range = (tokenSize / 2) + extraSquares;\n  console.log({tokenSize, range})\n\n  // Array to store tokens in range\n  let tokensInRange = [];\n\n  // Iterate through all tokens\n  for (let token of allTokens) {\n    // Skip the selected token itself\n    if (token === selectedToken) continue;\n    if (!isGrabbed(token)) continue;\n\n    // Calculate the distance between the selected token and the current token\n    const distance = canvas.grid.measurePath([selectedToken.center, token.center]).spaces;\n    console.log({distance, token})\n\n    // Add the token to the array if it's within range\n    if (distance <= range) {\n      tokensInRange.push({ token: token, distance: distance });\n    }\n  }\n\n  // Sort tokens by distance\n  tokensInRange.sort((a, b) => a.distance - b.distance);\n\n  return tokensInRange;\n}\n\n// Example usage:\nconst result = getTokensInRange();\nconsole.log({result})\nif (result.length > 0) {\n  const seq = new Sequence();\n  const target = game.user.targets.first();\n  for (const data of result) {\n    const token = data.token;\n    const tokenScale = { x: token.document.texture.scaleX, y: token.document.texture.scaleY };\n    const tokenWidth = token.document.width;\n\n    seq\n      .animation()\n        .on(token)\n        .moveTowards(target.center, { ease: \"easeInOutBack\", relativeToCenter: true, offset: {x:1, y:0}})\n        .duration(1500)\n        .snapToGrid()\n        .delay(300)\n      // .effect()\n      //     .delay(300)\n      //     .file(\"jb2a.explosion.orange\")\n      //     .atLocation(token)\n      //     .scale(tokenWidth)\n      //     .belowTokens()\n    // .sound()\n    // .file(\"modules/SoundBoard-BlitzFreePack/bundledAudio/Naval%20Warfare/light_cannon_blast.mp3\")\n    // .volume(0.25)\n    // .delay(100)\n      // .canvasPan()\n      //     .delay(125)\n      //     .shake({duration: 250, strength: 20, rotation: true})\n      .animation()\n          .delay(210)\n          .on(token)\n          .opacity(0)\n    .effect()\n        .syncGroup(\"regurgitate-1\")\n        .delay(200)\n        .attachTo(token, { bindAlpha: false })\n        .from(token)\n        .scale(tokenScale)\n        .scaleOut(1.5, 300, {ease: \"easeOutQuad\"})\n    .effect()\n        .syncGroup(\"regurgitate-2\")\n        .attachTo(token, { bindAlpha: false })\n        .from(token)\n        .scale(tokenScale)\n        .scaleIn(1.5, 300, {ease: \"easeInQuad\"})\n        .delay(200 + 300 - 50)\n          //.waitUntilFinished(-50)\n      // .effect()\n      //     .delay(200 + 300 - 50)\n      //     .attachTo(token, { bindAlpha: false })\n      //     .from(token)\n      //     .scale(tokenScale)\n      //     .scaleIn(1.5, 300, {ease: \"easeInQuad\"})\n      //     //.waitUntilFinished(-100)\n      .animation()\n        .delay(200 + 300 +  300 - 100)\n          .opacity(1)\n          .on(token)\n    // .sound()\n    // .file(\"modules/SoundBoard-BlitzFreePack/bundledAudio/Impacts/small-rockslide/smallrockslide-01.ogg\")\n    // .volume(0.5)\n  }\n  seq\n    .effect()\n      .delay(1500 - 715)\n      .file(\"jb2a.impact.boulder.01\")\n      .atLocation(target)\n      .belowTokens()\n      .scaleToObject(4)\n    .play();\n}\n\n// if (result && result.length > 0) {\n//   let message = \"Tokens in range:\\n\";\n//   result.forEach(t => {\n//     message += `${t.token.name} at ${t.distance.toFixed(2)} units\\n`;\n//   });\n//   ui.notifications.info(message);\n// } else {\n//   ui.notifications.warn(\"No tokens found within range.\");\n// }"
         },
         "btHyWcte8PX6Omgz": {

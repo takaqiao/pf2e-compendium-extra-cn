@@ -94,7 +94,7 @@
           "description": "<p>你使区域内的植物更加健康、硕果累累。除了健康植物的其他好处外，这还会根据你的成功程度提高农田的作物产量。如果你在 @UUID[Compendium.pf2e.spells-srd.Item.7yWXx3qC4eFNHhxD]{枯萎术}的区域内施放此仪式， <em>植物滋长</em> 会尝试反制 <em>枯萎术</em> ，而不产生通常的效果。</p>\n<hr />\n<p><strong>大成功</strong> 区域内的作物产量翻倍，或者将区域扩大至1英里半径。</p>\n<p><strong>成功</strong> 区域内的作物产量提高三分之一。</p>\n<p><strong>失败</strong> 仪式没有效果。</p>\n<p><strong>大失败</strong> 区域内的植物发生出乎意料的变化，由GM决定，但通常会尽可能违背你的真实愿望（例如，你本想让作物丰收，却使它们枯萎）。</p>",
           "duration": "1年",
           "ritualPrimaryCheck": "自然（专家）",
-          "ritualSecondaryChecks": "农业知识或生存",
+          "ritualSecondaryChecks": "农业学识或生存",
           "time": "1天"
         },
         "ZWWyfu0865pxxSl6": {
@@ -188,7 +188,7 @@
         }
       },
       "name": "乌塔古尔 Urthagul",
-      "blurb": "雄性古格巨人（《开拓者怪物图鉴》198）",
+      "blurb": "雄性古革巨人（《开拓者怪物图鉴》198）",
       "publicNotes": "<p>古革巨人最骇人的特征是其桶状头颅——它会沿纵向裂开，露出层层排列的尖锐黄牙与敞开的喉咙。其头颚两侧的眼睛虽小却敏锐。骨质嵴突保护着它的眼睛，免受猎物惊慌乱舞的攻击；与真菌和霉菌相比，它更偏好生的、仍在扭动的肉食。它用强有力的手臂抓住猎物，手臂在肘部处分裂成一对前臂，使其拥有四只带爪的掌足。这些怪物般的野蛮巨兽浑身覆着蓬乱的黑毛，常常结着干涸的血与脏污。</p>\n<p>尽管古革巨人看起来像野兽，它们却拥有敏锐而邪恶的智力。古革巨人栖居在极深的地下，但有时会在黑暗的夜晚来到地表狩猎，或独行，或成小群行动。由于它们食欲惊人，大多数古革巨人会吞食所捕获的生物；但也有一些会绑架受害者并撤回地底，只留下久久不散的恶臭，以及古怪的带爪掌足印。受害者会被带到腐臭的巢穴——那里刻有奇异的符文——并被献祭给古革巨人那嗜血、黑暗与梦魇的邪恶神祇。可怕的传言称，在极深的地下存在没有光的古革巨人城市，由巨大的石块堆砌而成；在那里，强大的古革巨人首领会向嚎叫成群的古革巨人宣讲其卑劣教义。</p>\n<p>古革巨人与食尸鬼之间有着奇异的关系，似乎可追溯至它们在遥远的地下世界中的共同起源。古革巨人畏惧食尸鬼，尽管它们的身形远高于对方；然而，这种奇怪的恐惧并不适用于妖鬼，古革巨人会像吞食其他生物一样贪婪地吞食妖鬼。</p>\n<p>古革巨人身高16尺，体重2,000磅，然而它们的步态却诡异而优雅，与其庞大体型并不相称。它们轻盈的脚步与挤过极狭小缝隙的能力，使古革巨人成为怪异失踪或血腥屠杀传说中常见的梦魇。</p>\n<p>某些尤为嗜血的古革巨人会从其诡异的庇主那里获得赋礼，从而得到可怖的力量。这些怪物被称为“贤者”，其力量从不低于第12等级，并获得数个异能先天法术。尽管每名贤者的法术组合各不相同，但通常这些法术能使其隐形、提供操控并改变岩石的力量，或对活体血肉唤起可怖且具毁灭性的能量。</p>",
       "skills": {
         "acrobatics": {
@@ -399,7 +399,7 @@
         },
         "3gFefPT1vPEUJqTj": {
           "name": "偷袭 Sneak Attack",
-          "description": "<p>加卢杜 对处于 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 状态的生物造成额外 3d6 精确伤害。</p>"
+          "description": "<p>加卢杜 对处于 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 状态的生物造成额外 3d6 精准伤害。</p>"
         },
         "5bcxArW8YQDH2ABn": {
           "name": "支配术 Dominate",
@@ -643,7 +643,7 @@
       "items": {
         "1OH8BtvGWIO8Vtl9": {
           "name": "伤害术 Harm",
-          "description": "<p>你引导虚能来伤害活物或治疗亡灵。如果目标是活物，你对它造成1d8虚能伤害，它可以进行一次基础强韧豁免。如果目标是自愿的亡灵生物，你为其恢复等量生命值。施放此法术时花费的动作数量，决定其目标、范围、区域和其他参数。</p>\n<p><span class=\"action-glyph\">1</span> <strong>（姿势）</strong> 法术范围为接触。</p>\n<p><span class=\"action-glyph\">2</span> <strong>（语言、姿势）</strong> 法术范围为30尺。如果你治疗的是亡灵生物，恢复的生命值增加8。</p>\n<p><span class=\"action-glyph\">3</span> <strong>（材料、语言、姿势）</strong> 你将虚能散布于30尺散发区域，指定区域内所有活物与亡灵生物为目标。</p>\n<hr />\n<p><strong>升环（+1）</strong> 治疗量或伤害提高1d8，2动作版本的额外治疗量提高8。</p>",
+          "description": "<p>你引导虚能来伤害活物或治疗亡灵。如果目标是活物，你对它造成1d8虚能伤害，它可以进行一次基础强韧豁免。如果目标是自愿的亡灵生物，你为其恢复等量生命值。施放此法术时花费的动作数量，决定其目标、范围、区域和其他参数。</p>\n<p><span class=\"action-glyph\">1</span> <strong>（姿势）</strong> 法术范围为接触。</p>\n<p><span class=\"action-glyph\">2</span> <strong>（语言、姿势）</strong> 法术范围为30尺。如果你治疗的是亡灵生物，恢复的生命值增加8。</p>\n<p><span class=\"action-glyph\">3</span> <strong>（材料、语言、姿势）</strong> 你将虚能散布于30尺弥漫区域，指定区域内所有活物与亡灵生物为目标。</p>\n<hr />\n<p><strong>升环（+1）</strong> 治疗量或伤害提高1d8，2动作版本的额外治疗量提高8。</p>",
           "overlays": {
             "4gyp3qlsv5ywdyjq": {
               "name": "伤害术（对不死生物） Harm (vs. Undead)",
@@ -668,7 +668,7 @@
         },
         "2a2eONlkTBanM6W0": {
           "name": "汲取生命 Drain Life",
-          "description": "<p>当吞噬者以爪击打击伤害一个活物时，它获得10点临时生命值；该生物必须成功通过一次 @Check[fortitude|dc:24|options:inflicts:drained] 豁免，否则获得 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 1}。吞噬者造成的后续伤害会在目标豁免失败时使该状态值增加1，最多达到流失4。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.LRIYUFQ7FE9H4RWD]{效果：汲取生命}</p>"
+          "description": "<p>当囚魂魔以爪击打击伤害一个活物时，它获得10点临时生命值；该生物必须成功通过一次 @Check[fortitude|dc:24|options:inflicts:drained] 豁免，否则获得 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 1}。囚魂魔造成的后续伤害会在目标豁免失败时使该状态值增加1，最多达到流失4。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.LRIYUFQ7FE9H4RWD]{效果：汲取生命}</p>"
         },
         "3doForP0E1THISrz": {
           "name": "暗示术 Suggestion",
@@ -824,7 +824,7 @@
         },
         "JtGw77Ts0mq2cXvn": {
           "name": "绝望术 Bane",
-          "description": "<p>你用疑虑充斥敌人的心智。</p>\n<p>区域内的敌人必须在一次意志豁免中成功，否则只要他们仍在该区域内，其攻击掷骰就会承受-1状态减值。</p>\n<p>每回合一次，从你施放绝望术后的下一回合开始，你可以使用一个单动作（具有专注特征），将该发散的半径增加5尺，并迫使区域内尚未受影响的敌人再尝试一次豁免。</p>\n<p>绝望术可以反制 @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{祝福术}。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.UTLp7omqsiC36bso]{法术效果：绝望术}</p>",
+          "description": "<p>你用疑虑充斥敌人的心智。</p>\n<p>区域内的敌人必须在一次意志豁免中成功，否则只要他们仍在该区域内，其攻击掷骰就会承受-1状态减值。</p>\n<p>每回合一次，从你施放绝望术后的下一回合开始，你可以使用一个单动作（具有专注特征），将该弥漫的半径增加5尺，并迫使区域内尚未受影响的敌人再尝试一次豁免。</p>\n<p>绝望术可以反制 @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{祝福术}。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.UTLp7omqsiC36bso]{法术效果：绝望术}</p>",
           "duration": "1分钟",
           "target": "区域中的敌人"
         },
@@ -956,7 +956,7 @@
         },
         "SNJ0RSCREyP9YYKY": {
           "name": "地狱创伤 Infernal Wound",
-          "description": "<p>胡须魔的长柄刀打击还会造成@Damage[1d6[bleed]]，该流血会抗拒治疗它的尝试。</p>\n<p>用于止住流血的纯骰检定起始为@Check[flat|dc:20]。仅当流血的生物或一名盟友成功援助其恢复时，该DC才会降低至@Check[flat|dc:15]。对具有地狱创伤的生物执行@UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{急救}的DC提高5。</p>\n<p>施法者或物品试图对受地狱创伤折磨的生物使用治疗魔法时，必须在DC 21的反制检定中成功，否则该魔法无法治疗该生物。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.inLBsuLRE5xmVHdn]{效果：地狱创伤}</p>"
+          "description": "<p>胡须魔的大砍刀打击还会造成@Damage[1d6[bleed]]，该流血会抗拒治疗它的尝试。</p>\n<p>用于止住流血的纯骰检定起始为@Check[flat|dc:20]。仅当流血的生物或一名盟友成功援助其恢复时，该DC才会降低至@Check[flat|dc:15]。对具有地狱创伤的生物执行@UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{急救}的DC提高5。</p>\n<p>施法者或物品试图对受地狱创伤折磨的生物使用治疗魔法时，必须在DC 21的反制检定中成功，否则该魔法无法治疗该生物。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.inLBsuLRE5xmVHdn]{效果：地狱创伤}</p>"
         },
         "T108hwN1OhACYQdQ": {
           "name": "借机攻击 Attack of Opportunity",
@@ -1087,7 +1087,7 @@
           "description": "<p>中型, @Damage[(2d6+7)[bludgeoning],2d6[acid]]{2d6+7钝击+2d6酸蚀伤害}, 破裂20</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         },
         "9Eh0XQSnJ9rPgQ3d": {
-          "name": "推动 Push",
+          "name": "推离 Push",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Push]</p>"
         },
         "CH1wifIGckLBQDfe": {
@@ -1404,7 +1404,7 @@
         },
         "pKPJ4u9g0HQyU7b6": {
           "name": "狂怒齐射 Furious Fusillade",
-          "description": "<p>如果狂怒魔正在飞行，它会悬停在原地，并向位于 @Template[cone|distance:30] 内任意数量的生物各射出一支箭。每次攻击分别掷骰。就狂怒魔的多重攻击减值而言，这算作一次攻击。</p>"
+          "description": "<p>狂怒魔向位于 @Template[cone|distance:30] 内任意数量的生物各射出一支箭；若它正在飞行，则同时悬停在原地。每次攻击分别掷骰。就狂怒魔的多重攻击减值而言，这算作一次攻击。</p>"
         },
         "tSbx4aVJWl4zlKbG": {
           "name": "痛苦报应 Retributive Pain",
@@ -1488,7 +1488,7 @@
           "description": "<p>30尺。当一个生物在灵光中结束其回合时，它会在颂教魔的脸的位置看到一位已故挚爱之人的脸。该生物必须在一次@Check[will|dc:21|options:area-effect,inflicts:frightened]意志豁免中成功，否则变为@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}（大失败则为@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 3}）。</p>"
         },
         "VH3uvuMCquGbT6Wx": {
-          "name": "再生 10（被神圣或银停用） Regeneration 10 (Deactivated by Holy or Silver)",
+          "name": "再生 10（被圣洁或银停用） Regeneration 10 (Deactivated by Holy or Silver)",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
         },
         "Ybx41yIdQO59hKjK": {
@@ -1562,7 +1562,7 @@
         },
         "SNJ0RSCREyP9YYKY": {
           "name": "地狱创伤 Infernal Wound",
-          "description": "<p>胡须魔的长柄刀打击还会造成@Damage[1d6[bleed]]，该流血会抗拒治疗它的尝试。</p>\n<p>用于止住流血的纯骰检定起始为@Check[flat|dc:20]。仅当流血的生物或一名盟友成功援助其恢复时，该DC才会降低至@Check[flat|dc:15]。对具有地狱创伤的生物执行@UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{急救}的DC提高5。</p>\n<p>施法者或物品试图对受地狱创伤折磨的生物使用治疗魔法时，必须在DC 21的反制检定中成功，否则该魔法无法治疗该生物。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.inLBsuLRE5xmVHdn]{效果：地狱创伤}</p>"
+          "description": "<p>胡须魔的大砍刀打击还会造成@Damage[1d6[bleed]]，该流血会抗拒治疗它的尝试。</p>\n<p>用于止住流血的纯骰检定起始为@Check[flat|dc:20]。仅当流血的生物或一名盟友成功援助其恢复时，该DC才会降低至@Check[flat|dc:15]。对具有地狱创伤的生物执行@UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{急救}的DC提高5。</p>\n<p>施法者或物品试图对受地狱创伤折磨的生物使用治疗魔法时，必须在DC 21的反制检定中成功，否则该魔法无法治疗该生物。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.inLBsuLRE5xmVHdn]{效果：地狱创伤}</p>"
         },
         "T108hwN1OhACYQdQ": {
           "name": "借机攻击 Attack of Opportunity",
@@ -1785,7 +1785,7 @@
         "8eRtWzFyZdxpf6hb": {
           "name": "怪异耳语 Aberrant Whispers",
           "areaDetails": "5尺或更大的弥漫区域",
-          "description": "<p>你用一种未知语言念出话语，侵袭附近生物的心智。每个目标必须尝试一次意志豁免。无论豁免结果如何，每个目标都会临时免疫1分钟。施放此法术时，每多用一个动作，散发半径就增加5尺。</p>\n<p><strong>成功</strong> 目标不受影响。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}。</p>\n<p><strong>大失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}。</p><hr /><p><strong>升环（+3）</strong> 初始散发半径增加5尺。</p>",
+          "description": "<p>你用一种未知语言念出话语，侵袭附近生物的心智。每个目标必须尝试一次意志豁免。无论豁免结果如何，每个目标都会临时免疫1分钟。施放此法术时，每多用一个动作，弥漫半径就增加5尺。</p>\n<p><strong>成功</strong> 目标不受影响。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}。</p>\n<p><strong>大失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}。</p><hr /><p><strong>升环（+3）</strong> 初始弥漫半径增加5尺。</p>",
           "duration": "1轮",
           "target": "区域中的每个敌人",
           "time": "1至3"
@@ -1843,7 +1843,7 @@
         },
         "IHcY0GaB5rFEpIJT": {
           "name": "幽灵束缚 Site Bound",
-          "description": "<p>憎恶地窟最下方的三层。</p>\n<hr />\n<p>普通幽灵只能离开自己被杀死或作祟的地点一小段距离。这个限制一般为120尺远。部分幽灵会被限制在对他来说具有特殊意义的房间、建筑、物品或生物上，而非具体的某个地点。</p>"
+          "description": "<p>憎恨魔窟最下方的三层。</p>\n<hr />\n<p>普通幽灵只能离开自己被杀死或作祟的地点一小段距离。这个限制一般为120尺远。部分幽灵会被限制在对他来说具有特殊意义的房间、建筑、物品或生物上，而非具体的某个地点。</p>"
         },
         "JxMkMIPvp1ErxI39": {
           "name": "虚能治疗 Void Healing",
@@ -2086,7 +2086,7 @@
       "allSaves": "对抗魔法的所有豁免+1 状态加值",
       "hp": "虚能治疗，复生",
       "blurb": "女性幽灵术士",
-      "privateNotes": "<p>在他们穿越憎恶地窟最低层的跋涉中，英雄们很可能会在最终获得他们用来彻底击败贝科拉所需的<em>支点镜片</em>之前，多次与她交锋。她从她的微灵盟友那里得知他们的情报，此后你便可以在她的现身最能制造紧张感时随时使用她。她应当在地下城的每一层至少发动一次攻击，频率高到每隔几天一次也不为过。在冒险的最终章之前，你不应让贝科拉与其他生物并肩作战——她独自就已经足够棘手！</p>\n<p>每一次贝科拉发动攻击，她都会更多了解英雄们的战斗方式，并调整她的战术与准备。她可能施放@UUID[Compendium.pf2e.spells-srd.Item.tgIhRUFtgDSELpJE]{法术免疫}来保护自己免受英雄最有效的法术影响，施放@UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]{真景术}或@UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{识破无形}来确保能持续看见他们，或施放@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{解除魔法}来反制他们的魔法防护。她会嘲弄英雄们的失败，并对他们的成功暴怒——记住，自从她在“凄凉灯塔遗迹”中试射<em>凄凉灯塔</em>光束以来，她就一直知晓他们的存在。</p>\n<p><strong>第一次攻击</strong>贝科拉一旦察觉到英雄的存在，便会主动搜寻他们，穿行于<em>凄凉灯塔</em>印记之中（区域<strong>A37</strong>与<strong>B28</strong>）。她会在远处施放@UUID[Compendium.pf2e.spells-srd.Item.0XP2XOxT9VSiXFDr]{魅影灾祸}后撤退，必要时穿墙移动，以免英雄追上。</p>\n<p><strong>第二次攻击</strong>贝科拉想让英雄们畏惧她，因此第二次她会更接近，并使用单一目标法术，例如@UUID[Compendium.pf2e.spells-srd.Item.5BbU1V6wGSGbrmRD]{失智术}与@UUID[Compendium.pf2e.spells-srd.Item.tlcrVRqW1MSKJ5IC]{魅影杀手}，同时要求英雄从她的憎恶地窟中逃离。传达完她的警告后，她只会再多纠缠几个回合便撤退。</p>\n<p><strong>后续攻击</strong>一旦英雄取回了一枚<em>支点镜片</em>或<em>@UUID[Compendium.pf2e.equipment-srd.Item.JwHNSaiwwqF7VCC5]{支点晶格}</em>，贝科拉便会将英雄视为真正的威胁，但她的怒火会压过谨慎。她会全力出手，使用她的腐化凝视与幽灵之手并配合法术。如果她击败了一名英雄，她便会撤退，自信他们会因此不再打扰她。</p>\n<p><strong>利用代理人</strong>贝科拉在憎恶地窟内有数个活着的盟友，包括透肌魔人教团与贝科拉之子。她可能会派这些团体去追击英雄，并坚持要他们让英雄知道他们是在奉贝科拉之命行事。好在这两方都无法集结大量人数，因此英雄应能应付他们的袭击。</p>\n<p><strong>杀害盟友</strong>若英雄缔结同盟，例如与附近的卡利尼或卓尔结盟，贝科拉会得知此事。她很清楚不该去正面挑战如加卢杜或库娅拉这般强大且根基稳固的首领，但她可能会谋杀几名守卫，或引导怪物前往最能对英雄盟友造成伤害之处。对贝科拉而言，留下某些证据（通常是一名受伤的幸存者）以让英雄知道这次攻击是她一手策划的，这点至关重要。</p>\n<p><strong>在印记中</strong>由于她的作祟灯塔能力，贝科拉在与进入<em>凄凉灯塔</em>印记（区域<strong>A37</strong>与<strong>B28</strong>）的英雄战斗时效果最佳。</p>\n<p><strong>最终攻击</strong>如果英雄在抵达空无之窟前不久击败了贝科拉，她会动用<em>@UUID[Compendium.pf2e.equipment-srd.Item.CTiLugp5ptSItEqN]{乌木支点镜片}</em>的力量加速她的复苏，以便能在她的圣所面对他们。贝科拉在空无之窟中绝不会投降或逃跑。英雄有可能在尚未具备永久击败她的能力之前就在那里遭遇她；在这种情况下，他们将不得不撤退，去收集<em>支点镜片</em>，再返回与她再战。只要英雄能够将宁布洛斯的凝视聚焦在贝科拉身上，他们便能彻底击败这名术士。</p>",
+      "privateNotes": "<p>在他们穿越憎恨魔窟最低层的跋涉中，英雄们很可能会在最终获得他们用来彻底击败贝科拉所需的<em>支点镜片</em>之前，多次与她交锋。她从她的鬼火盟友那里得知他们的情报，此后你便可以在她的现身最能制造紧张感时随时使用她。她应当在地下城的每一层至少发动一次攻击，频率高到每隔几天一次也不为过。在冒险的最终章之前，你不应让贝科拉与其他生物并肩作战——她独自就已经足够棘手！</p>\n<p>每一次贝科拉发动攻击，她都会更多了解英雄们的战斗方式，并调整她的战术与准备。她可能施放@UUID[Compendium.pf2e.spells-srd.Item.tgIhRUFtgDSELpJE]{法术免疫}来保护自己免受英雄最有效的法术影响，施放@UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]{真景术}或@UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{识破无形}来确保能持续看见他们，或施放@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{解除魔法}来反制他们的魔法防护。她会嘲弄英雄们的失败，并对他们的成功暴怒——记住，自从她在“凄凉灯塔遗迹”中试射<em>凄凉灯塔</em>光束以来，她就一直知晓他们的存在。</p>\n<p><strong>第一次攻击</strong>贝科拉一旦察觉到英雄的存在，便会主动搜寻他们，穿行于<em>凄凉灯塔</em>基座之中（区域<strong>A37</strong>与<strong>B28</strong>）。她会在远处施放@UUID[Compendium.pf2e.spells-srd.Item.0XP2XOxT9VSiXFDr]{魅影灾祸}后撤退，必要时穿墙移动，以免英雄追上。</p>\n<p><strong>第二次攻击</strong>贝科拉想让英雄们畏惧她，因此第二次她会更接近，并使用单一目标法术，例如@UUID[Compendium.pf2e.spells-srd.Item.5BbU1V6wGSGbrmRD]{失智术}与@UUID[Compendium.pf2e.spells-srd.Item.tlcrVRqW1MSKJ5IC]{魅影杀手}，同时要求英雄从她的憎恨魔窟中逃离。传达完她的警告后，她只会再多纠缠几个回合便撤退。</p>\n<p><strong>后续攻击</strong>一旦英雄取回了一枚<em>支点镜片</em>或<em>@UUID[Compendium.pf2e.equipment-srd.Item.JwHNSaiwwqF7VCC5]{支点晶格}</em>，贝科拉便会将英雄视为真正的威胁，但她的怒火会压过谨慎。她会全力出手，使用她的腐化凝视与幽灵之手并配合法术。如果她击败了一名英雄，她便会撤退，自信他们会因此不再打扰她。</p>\n<p><strong>利用代理人</strong>贝科拉在憎恨魔窟内有数个活着的盟友，包括透肌魔人教团与贝科拉之子。她可能会派这些团体去追击英雄，并坚持要他们让英雄知道他们是在奉贝科拉之命行事。好在这两方都无法集结大量人数，因此英雄应能应付他们的袭击。</p>\n<p><strong>杀害盟友</strong>若英雄缔结同盟，例如与附近的卡利尼或卓尔结盟，贝科拉会得知此事。她很清楚不该去正面挑战如加卢杜或库娅拉这般强大且根基稳固的首领，但她可能会谋杀几名守卫，或引导怪物前往最能对英雄盟友造成伤害之处。对贝科拉而言，留下某些证据（通常是一名受伤的幸存者）以让英雄知道这次攻击是她一手策划的，这点至关重要。</p>\n<p><strong>在基座中</strong>由于她的作祟灯塔能力，贝科拉在与进入<em>凄凉灯塔</em>基座（区域<strong>A37</strong>与<strong>B28</strong>）的英雄战斗时效果最佳。</p>\n<p><strong>最终攻击</strong>如果英雄在抵达空无之窟前不久击败了贝科拉，她会动用<em>@UUID[Compendium.pf2e.equipment-srd.Item.CTiLugp5ptSItEqN]{乌木支点镜片}</em>的力量加速她的复苏，以便能在她的圣所面对他们。贝科拉在空无之窟中绝不会投降或逃跑。英雄有可能在尚未具备永久击败她的能力之前就在那里遭遇她；在这种情况下，他们将不得不撤退，去收集<em>支点镜片</em>，再返回与她再战。只要英雄能够将宁布洛斯的凝视聚焦在贝科拉身上，他们便能彻底击败这名术士。</p>",
       "perceptionDetails": "魔法感应"
     },
     "DawBQWRyrM4cKfGI": {
@@ -2233,7 +2233,7 @@
         },
         "2zV0npFDdwAGHdam": {
           "name": "油腻术 Grease",
-          "description": "<p>你变出油脂，其效果取决于你选择区域或目标。</p>\n<ul>\n<li><strong>区域</strong> <strong>[4个相邻的5尺方格]</strong> 区域内的所有坚实地面都被油脂覆盖。每个站在油腻表面上的生物必须成功通过一次反射豁免或进行一次对抗你法术DC的特技检定，否则就会 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。在法术持续时间内，使用一个动作移动到油腻表面上的生物必须尝试一次反射豁免或一次特技检定来维持平衡。进行快步或匍匐的生物不必尝试检定或豁免。</li>\n<li><strong>目标</strong> <strong>[1个负载1或更少的物体]</strong> 如果你将该法术施放在一件无人看管的物体上，任何试图拾起该物体的人必须成功通过一次特技检定或反射豁免，对抗你法术DC，才能做到这一点。如果你以一件有人持用的物体为目标，持有该物体的生物必须尝试一次特技检定或反射豁免。失败时，持有者或使用者在所有涉及使用该物体的检定上承受-2环境减值；在大失败时，持有者或使用者会松开该物品。该物体落在GM选择的相邻方格中。如果你将此法术施放在一件穿戴的物体上，穿戴者在对抗试图擒抱他们的强韧豁免上获得+2环境加值。</li>\n</ul>",
+          "description": "<p>你变出油脂，其效果取决于你选择区域或目标。</p>\n<ul>\n<li><strong>区域</strong> <strong>[4个相邻的5尺方格]</strong> 区域内的所有坚实地面都被油脂覆盖。每个站在油腻表面上的生物必须在一次反射豁免或对抗你法术DC的特技检定中成功，否则就会 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。在法术持续时间内，使用一个动作移动到油腻表面上的生物必须尝试一次反射豁免或一次特技检定来维持平衡。进行快步或匍匐的生物不必尝试检定或豁免。</li>\n<li><strong>目标</strong> <strong>[1个负载1或更少的物体]</strong> 如果你将该法术施放在一件无人看管的物体上，任何试图拾起该物体的人必须成功通过一次特技检定或反射豁免，对抗你法术DC，才能做到这一点。如果你以一件有人持用的物体为目标，持有该物体的生物必须尝试一次特技检定或反射豁免。失败时，持有者或使用者在所有涉及使用该物体的检定上承受-2环境减值；在大失败时，持有者或使用者会松开该物品。该物体落在GM选择的相邻方格中。如果你将此法术施放在一件穿戴的物体上，穿戴者在对抗试图擒抱他们的强韧豁免上获得+2环境加值。</li>\n</ul>",
           "duration": "1分钟",
           "range": "30尺",
           "target": "一个负载为1或更低的物体"
@@ -2244,7 +2244,7 @@
         },
         "5rrKtIIzYEri3htn": {
           "name": "狼之协攻 Wolf Coordination",
-          "description": "<p>杰尓的打击对处于他的狼的触及范围内的生物造成额外1d6伤害。</p>"
+          "description": "<p>杰尔的打击对处于他的狼的触及范围内的生物造成额外1d6伤害。</p>"
         },
         "6KoAHfwCFZ9XAglK": {
           "name": "绊足术 Tanglefoot",
@@ -2294,7 +2294,7 @@
         },
         "Lk1bKLrtbGWtz7mk": {
           "name": "治疗术 Heal",
-          "description": "<p>你引导命能能量来治疗活物或伤害亡灵。如果目标是自愿的活物，你为其恢复1d8生命值。如果目标是亡灵，你对其造成等量命能伤害，它可以进行一次基础强韧豁免。施放此法术时花费的动作数量，决定其目标、范围、区域和其他参数。</p>\n<p><span class=\"action-glyph\">1</span> <strong>（姿势）</strong> 法术范围为接触。</p>\n<p><span class=\"action-glyph\">2</span> <strong>（语言、姿势）</strong> 法术范围为30尺。如果你治疗的是活物，恢复的生命值增加8</p>\n<p><span class=\"action-glyph\">3</span> <strong>（材料、姿势、语言）</strong> 你将命能能量散布于30尺散发区域，指定此次爆发区域内所有活物与亡灵生物为目标。</p>\n<hr />\n<p><strong>升环（+1）</strong> 治疗量或伤害提高1d8，2动作版本的额外治疗量提高8。</p>",
+          "description": "<p>你引导命能能量来治疗活物或伤害亡灵。如果目标是自愿的活物，你为其恢复1d8生命值。如果目标是亡灵，你对其造成等量命能伤害，它可以进行一次基础强韧豁免。施放此法术时花费的动作数量，决定其目标、范围、区域和其他参数。</p>\n<p><span class=\"action-glyph\">1</span> <strong>（姿势）</strong> 法术范围为接触。</p>\n<p><span class=\"action-glyph\">2</span> <strong>（语言、姿势）</strong> 法术范围为30尺。如果你治疗的是活物，恢复的生命值增加8</p>\n<p><span class=\"action-glyph\">3</span> <strong>（材料、姿势、语言）</strong> 你将命能能量散布于30尺弥漫区域，指定此次爆发区域内所有活物与亡灵生物为目标。</p>\n<hr />\n<p><strong>升环（+1）</strong> 治疗量或伤害提高1d8，2动作版本的额外治疗量提高8。</p>",
           "overlays": {
             "37gy7l19tik74o4s": {
               "name": "治疗术（对活物） Heal (vs. Living)",
@@ -2322,7 +2322,7 @@
         },
         "S0eUokfR9NCiHTkD": {
           "name": "狼类认同 Wolf Empathy",
-          "description": "<p>杰尓可以与狼类交流。</p>"
+          "description": "<p>杰尔可以与狼类交流。</p>"
         },
         "XsfO4kZKUmGSNSI0": {
           "name": "对抗毒素时所有豁免获得+1状态加值 +1 Status to All Saves vs. Poison"
@@ -2952,7 +2952,7 @@
         },
         "fGqmsqMswubPxRTD": {
           "name": "麻痹术 Paralyze",
-          "description": "<p>你阻断目标尚未从意识中传出的运动冲动，试图令其僵在原地。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮。</p>\n<p><strong>大失败</strong> 目标麻痹4轮。在其每个回合结束时，它可以尝试一次新的意志豁免，以减少剩余持续时间1轮，或者在大成功时结束该法术。</p>\n<hr />\n<p><strong>升环（7环）</strong> 你能以至多10个生物为目标。</p>",
+          "description": "<p>你阻断目标尚未从意识中传出的运动冲动，试图令其僵在原地。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮。</p>\n<p><strong>大失败</strong> 目标麻痹4轮。在其每个回合结束时，它可以尝试一次新的意志豁免，以减少剩余持续时间1轮，或者在大成功时立即结束此法术对自身的麻痹效果。</p>\n<hr />\n<p><strong>升环（7环）</strong> 你能以至多10个生物为目标。</p>",
           "duration": "可变",
           "heighteningLevels": {
             "7": {
@@ -2990,7 +2990,7 @@
         },
         "sMkAkzCq48uQbcwq": {
           "name": "伤害术 Harm",
-          "description": "<p>你引导虚能来伤害活物或治疗亡灵。如果目标是活物，你对它造成1d8虚能伤害，它可以进行一次基础强韧豁免。如果目标是自愿的亡灵生物，你为其恢复等量生命值。施放此法术时花费的动作数量，决定其目标、范围、区域和其他参数。</p>\n<p><span class=\"action-glyph\">1</span> <strong>（姿势）</strong> 法术范围为接触。</p>\n<p><span class=\"action-glyph\">2</span> <strong>（语言、姿势）</strong> 法术范围为30尺。如果你治疗的是亡灵生物，恢复的生命值增加8。</p>\n<p><span class=\"action-glyph\">3</span> <strong>（材料、语言、姿势）</strong> 你将虚能散布于30尺散发区域，指定区域内所有活物与亡灵生物为目标。</p>\n<hr />\n<p><strong>升环（+1）</strong> 治疗量或伤害提高1d8，2动作版本的额外治疗量提高8。</p>",
+          "description": "<p>你引导虚能来伤害活物或治疗亡灵。如果目标是活物，你对它造成1d8虚能伤害，它可以进行一次基础强韧豁免。如果目标是自愿的亡灵生物，你为其恢复等量生命值。施放此法术时花费的动作数量，决定其目标、范围、区域和其他参数。</p>\n<p><span class=\"action-glyph\">1</span> <strong>（姿势）</strong> 法术范围为接触。</p>\n<p><span class=\"action-glyph\">2</span> <strong>（语言、姿势）</strong> 法术范围为30尺。如果你治疗的是亡灵生物，恢复的生命值增加8。</p>\n<p><span class=\"action-glyph\">3</span> <strong>（材料、语言、姿势）</strong> 你将虚能散布于30尺弥漫区域，指定区域内所有活物与亡灵生物为目标。</p>\n<hr />\n<p><strong>升环（+1）</strong> 治疗量或伤害提高1d8，2动作版本的额外治疗量提高8。</p>",
           "overlays": {
             "4gyp3qlsv5ywdyjq": {
               "name": "伤害术（对不死生物） Harm (vs. Undead)",
@@ -3025,7 +3025,7 @@
       "name": "库尔费 Khurfel",
       "hp": "虚能治疗",
       "blurb": "男性透肌魔人战争勇士",
-      "publicNotes": "<p>库尔费领导着英雄们在憎恶地窟中面对的规模最大、最活跃的一群敌对者。他与英雄们命中注定的对决不可避免，因为他持有翡翠支点镜片，并且只要他还活着就拒绝交出它，因为这象征着他教团的领导权。库尔费对自己将败亡于英雄之手的预见并未激起恐惧——而是激起狂怒；只要身体里还剩一口气，他就会与自己被预言的敌人战斗到底。</p>"
+      "publicNotes": "<p>库尔费领导着英雄们在憎恨魔窟中面对的规模最大、最活跃的一群敌对者。他与英雄们命中注定的对决不可避免，因为他持有翡翠支点镜片，并且只要他还活着就拒绝交出它，因为这象征着他教团的领导权。库尔费对自己将败亡于英雄之手的预见并未激起恐惧——而是激起狂怒；只要身体里还剩一口气，他就会与自己被预言的敌人战斗到底。</p>"
     },
     "OErk9kO3PhYwMXoJ": {
       "items": {
@@ -3177,7 +3177,7 @@
         },
         "YKl2c8cu7BYsKoyk": {
           "name": "绝望术 Bane",
-          "description": "<p>你用疑虑充斥敌人的心智。</p>\n<p>区域内的敌人必须在一次意志豁免中成功，否则只要他们仍在该区域内，其攻击掷骰就会承受-1状态减值。</p>\n<p>每回合一次，从你施放绝望术后的下一回合开始，你可以使用一个单动作（具有专注特征），将该发散的半径增加5尺，并迫使区域内尚未受影响的敌人再尝试一次豁免。</p>\n<p>绝望术可以反制 @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{祝福术}。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.UTLp7omqsiC36bso]{法术效果：绝望术}</p>",
+          "description": "<p>你用疑虑充斥敌人的心智。</p>\n<p>区域内的敌人必须在一次意志豁免中成功，否则只要他们仍在该区域内，其攻击掷骰就会承受-1状态减值。</p>\n<p>每回合一次，从你施放绝望术后的下一回合开始，你可以使用一个单动作（具有专注特征），将该弥漫的半径增加5尺，并迫使区域内尚未受影响的敌人再尝试一次豁免。</p>\n<p>绝望术可以反制 @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{祝福术}。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.UTLp7omqsiC36bso]{法术效果：绝望术}</p>",
           "duration": "1分钟",
           "target": "区域中的敌人"
         },
@@ -3206,7 +3206,7 @@
         },
         "cLiAfWRrRqjLZi5y": {
           "name": "麻痹术 Paralyze",
-          "description": "<p>你阻断目标尚未从意识中传出的运动冲动，试图令其僵在原地。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮。</p>\n<p><strong>大失败</strong> 目标麻痹4轮。在其每个回合结束时，它可以尝试一次新的意志豁免，以减少剩余持续时间1轮，或者在大成功时结束该法术。</p>\n<hr />\n<p><strong>升环（7环）</strong> 你能以至多10个生物为目标。</p>",
+          "description": "<p>你阻断目标尚未从意识中传出的运动冲动，试图令其僵在原地。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮。</p>\n<p><strong>大失败</strong> 目标麻痹4轮。在其每个回合结束时，它可以尝试一次新的意志豁免，以减少剩余持续时间1轮，或者在大成功时立即结束此法术对自身的麻痹效果。</p>\n<hr />\n<p><strong>升环（7环）</strong> 你能以至多10个生物为目标。</p>",
           "duration": "可变",
           "heighteningLevels": {
             "7": {
@@ -3482,7 +3482,7 @@
       "hazarddescription": "<p>15尺高的天花板上的孔洞内隐藏着七个喷嘴，会释放毒气。</p>",
       "disable": "<p>@Check[thievery|dc:33|name:Disable Hidden Mechanism|traits:action:disable-a-device]（大师）以解除北墙上的隐藏装置，立即将气体从房间中抽走，或 @Check[thievery|dc:29|name:Plug One Nozzle|traits:action:disable-a-device]（专家）以充分堵住七个喷嘴中的一个。当所有七个喷嘴都被堵住或摧毁后，该陷阱将被解除。</p>",
       "reset": "<p>1小时后，陷阱解除；气体缓慢散去，门也可以再次打开。24小时后，气体再次积聚，陷阱可以再次触发。</p>",
-      "routine": "<p>（1动作）气体加剧。房间内的每个生物都必须进行一次 @Check[fortitude|dc:30]。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响，并在1小时内暂时免疫该气体，不过如果该生物已因陷阱而陷入呆滞，该状态仍按其正常持续时间维持。</p>\n<p><strong>成功</strong> 该生物不受影响。</p>\n<p><strong>失败</strong> 该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，持续24小时。若目标已处于呆滞，则该状态值增加1（最高至呆滞4），且目标受到 @Damage[8d6[mental]] 伤害。</p>\n<p><strong>极端效果</strong> 同失败，但目标受到双倍的精神伤害。</p>"
+      "routine": "<p>（1动作）气体加剧。房间内的每个生物都必须进行一次 @Check[fortitude|dc:30]。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响，并在1小时内暂时免疫该气体，不过如果该生物已因陷阱而陷入呆滞，该状态仍按其正常持续时间维持。</p>\n<p><strong>成功</strong> 该生物不受影响。</p>\n<p><strong>失败</strong> 该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，持续24小时。若目标已处于呆滞，则该状态值增加1（最高至呆滞4），且目标受到 @Damage[8d6[mental]] 伤害。</p>\n<p><strong>极端效果</strong> 同失败，但目标受到双倍的心灵伤害。</p>"
     },
     "R0EEgMDKcynpAWoa": {
       "items": {
@@ -3574,7 +3574,7 @@
         },
         "oG1UsvpY90WzfN3N": {
           "name": "麻痹术 Paralyze",
-          "description": "<p>你阻断目标尚未从意识中传出的运动冲动，试图令其僵在原地。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮。</p>\n<p><strong>大失败</strong> 目标麻痹4轮。在其每个回合结束时，它可以尝试一次新的意志豁免，以减少剩余持续时间1轮，或者在大成功时结束该法术。</p>\n<hr />\n<p><strong>升环（7环）</strong> 你能以至多10个生物为目标。</p>",
+          "description": "<p>你阻断目标尚未从意识中传出的运动冲动，试图令其僵在原地。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮。</p>\n<p><strong>大失败</strong> 目标麻痹4轮。在其每个回合结束时，它可以尝试一次新的意志豁免，以减少剩余持续时间1轮，或者在大成功时立即结束此法术对自身的麻痹效果。</p>\n<hr />\n<p><strong>升环（7环）</strong> 你能以至多10个生物为目标。</p>",
           "duration": "可变",
           "heighteningLevels": {
             "7": {
@@ -4067,7 +4067,7 @@
         },
         "qWE3HqjDTKnv9fRH": {
           "name": "祝福术 Bless",
-          "description": "<p>来自彼界的祝福帮助你的伙伴精准打击。你和你的盟友在该发散范围内时，攻击掷骰获得+1状态加值。在你施放祝福术后的下一回合开始，每回合一次，你可以使用一个具有专注特征的单动作，将发散半径增加5尺。</p>\n<p>祝福术可以反制 @UUID[Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx]{绝望术}。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Gqy7K6FnbLtwGpud]{法术效果：祝福术}</p>",
+          "description": "<p>来自彼界的祝福帮助你的伙伴精准打击。你和你的盟友在该弥漫范围内时，攻击掷骰获得+1状态加值。在你施放祝福术后的下一回合开始，每回合一次，你可以使用一个具有专注特征的单动作，将弥漫半径增加5尺。</p>\n<p>祝福术可以反制 @UUID[Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx]{绝望术}。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Gqy7K6FnbLtwGpud]{法术效果：祝福术}</p>",
           "duration": "1分钟",
           "target": "你和区域内的盟友"
         },
@@ -4115,7 +4115,7 @@
         },
         "yNjPKC3nPRiaD957": {
           "name": "切割镰刃 Dicing Scythes",
-          "description": "<p><strong>触发</strong> 一个生物踏入支路交汇处15尺乘25尺的区域</p><hr /><p><strong>效果</strong> 陷阱使用镰刃游走；每片刀刃对其所在区域的每个生物进行一次镰刃打击，然后陷阱再次使用镰刃游走。随后，陷阱进行先攻检定。</p>"
+          "description": "<p><strong>触发</strong> 一个生物踏入支路交汇处15尺乘25尺的区域</p><hr /><p><strong>效果</strong> 陷阱使用镰刃换位；每片刀刃对其所在区域的每个生物进行一次镰刃打击，然后陷阱再次使用镰刃换位。随后，陷阱进行先攻检定。</p>"
         }
       },
       "name": "换位镰刃 Shuffling Scythe Blades",
@@ -4310,7 +4310,7 @@
           "description": "<p>60尺。@Check[will|dc:27|options:area-effect,inflicts:frightened]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "a6xLeWb5L726R1lN": {
-          "name": "推动 Push",
+          "name": "推离 Push",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Push]</p>"
         },
         "deTqYUQHSSEOChwZ": {
@@ -4443,7 +4443,7 @@
         },
         "ISCYKD3hBYRpEzot": {
           "name": "麻痹术 Paralyze",
-          "description": "<p>你阻断目标尚未从意识中传出的运动冲动，试图令其僵在原地。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮。</p>\n<p><strong>大失败</strong> 目标麻痹4轮。在其每个回合结束时，它可以尝试一次新的意志豁免，以减少剩余持续时间1轮，或者在大成功时结束该法术。</p>\n<hr />\n<p><strong>升环（7环）</strong> 你能以至多10个生物为目标。</p>",
+          "description": "<p>你阻断目标尚未从意识中传出的运动冲动，试图令其僵在原地。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮。</p>\n<p><strong>大失败</strong> 目标麻痹4轮。在其每个回合结束时，它可以尝试一次新的意志豁免，以减少剩余持续时间1轮，或者在大成功时立即结束此法术对自身的麻痹效果。</p>\n<hr />\n<p><strong>升环（7环）</strong> 你能以至多10个生物为目标。</p>",
           "duration": "可变",
           "heighteningLevels": {
             "7": {
@@ -4519,7 +4519,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
         },
         "dNigd85c2ZydQi1Z": {
-          "name": "虫群心智 Swarm Mind",
+          "name": "集群心智 Swarm Mind",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SwarmMind]</p>"
         },
         "iraa0ZIFA7ShtJde": {
@@ -4770,7 +4770,7 @@
         },
         "iSHq6m5Xs7zxzLwH": {
           "name": "治疗术 Heal",
-          "description": "<p>你引导命能能量来治疗活物或伤害亡灵。如果目标是自愿的活物，你为其恢复1d8生命值。如果目标是亡灵，你对其造成等量命能伤害，它可以进行一次基础强韧豁免。施放此法术时花费的动作数量，决定其目标、范围、区域和其他参数。</p>\n<p><span class=\"action-glyph\">1</span> <strong>（姿势）</strong> 法术范围为接触。</p>\n<p><span class=\"action-glyph\">2</span> <strong>（语言、姿势）</strong> 法术范围为30尺。如果你治疗的是活物，恢复的生命值增加8</p>\n<p><span class=\"action-glyph\">3</span> <strong>（材料、姿势、语言）</strong> 你将命能能量散布于30尺散发区域，指定此次爆发区域内所有活物与亡灵生物为目标。</p>\n<hr />\n<p><strong>升环（+1）</strong> 治疗量或伤害提高1d8，2动作版本的额外治疗量提高8。</p>",
+          "description": "<p>你引导命能能量来治疗活物或伤害亡灵。如果目标是自愿的活物，你为其恢复1d8生命值。如果目标是亡灵，你对其造成等量命能伤害，它可以进行一次基础强韧豁免。施放此法术时花费的动作数量，决定其目标、范围、区域和其他参数。</p>\n<p><span class=\"action-glyph\">1</span> <strong>（姿势）</strong> 法术范围为接触。</p>\n<p><span class=\"action-glyph\">2</span> <strong>（语言、姿势）</strong> 法术范围为30尺。如果你治疗的是活物，恢复的生命值增加8</p>\n<p><span class=\"action-glyph\">3</span> <strong>（材料、姿势、语言）</strong> 你将命能能量散布于30尺弥漫区域，指定此次爆发区域内所有活物与亡灵生物为目标。</p>\n<hr />\n<p><strong>升环（+1）</strong> 治疗量或伤害提高1d8，2动作版本的额外治疗量提高8。</p>",
           "overlays": {
             "37gy7l19tik74o4s": {
               "name": "治疗术（对活物） Heal (vs. Living)",
@@ -5089,7 +5089,7 @@
           "time": "1天"
         },
         "p5gjyhtbqwnQsyV8": {
-          "name": "梦魇 Nightmare",
+          "name": "梦魇术 Nightmare",
           "description": "<p>你向目标送去一段恼人的噩梦。在目标下一次入睡时，它必须尝试一次意志豁免。如果你知道目标的名字但是从未遇见过它，目标在意志豁免上获得+4环境加值。</p>\n<hr />\n<p><strong>大成功</strong> 目标不承受任何负面效果，并临时免疫1周。</p>\n<p><strong>成功</strong> 目标经历了噩梦，但不会承受除了糟糕回忆以外的负面效果。</p>\n<p><strong>失败</strong> 目标经历噩梦，并且在醒来时@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}。</p>\n<p><strong>大失败</strong> 目标经历噩梦，醒来时疲乏，并且获得 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失2} 直到不再疲乏。</p>",
           "duration": "1天",
           "range": "整个星球",
@@ -5215,7 +5215,7 @@
         },
         "nvaQh9xjojojnL27": {
           "name": "立即攻击！ Attack Now!",
-          "description": "<p>莎莱莎大喊，30尺内一名能够看见或听见莎莱莎的卓尔盟友可以以反应动作进行一次近战或远程打击。</p>"
+          "description": "<p>萨莱莎大喊，30尺内一名能够看见或听见萨莱莎的卓尔盟友可以以反应动作进行一次近战或远程打击。</p>"
         },
         "olhVw6swCM3iI62M": {
           "name": "胸甲 Breastplate",
@@ -5223,7 +5223,7 @@
         },
         "wWhcYOVX82VD2T44": {
           "name": "迷梦毒 Stupor Poison",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p>\n<p>昏迷毒是更强效的 @UUID[Compendium.pf2e.equipment-srd.Item.zo0ophqfKunJFxZN]{昏睡毒}提炼物。再次接触昏迷毒不会要求目标进行额外豁免；只有对正在持续的中毒进行豁免且失败时，才会推进毒素阶段。</p>\n<hr />\n<p><strong>豁免</strong> @Check[fortitude|dc:20]</p>\n<p><strong>最长持续时间</strong> 6小时</p>\n<p><strong>阶段1</strong> @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}和 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}（1轮）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢2}和措手不及（1轮）</p>\n<p><strong>阶段3</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，且无法通过察觉检定醒来（1轮）</p>\n<p><strong>阶段4</strong> 失去意识，且无法通过察觉检定醒来（[[/r 1d6 #hours]]{1d6小时}）</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p>\n<p>迷梦毒是更强效的 @UUID[Compendium.pf2e.equipment-srd.Item.zo0ophqfKunJFxZN]{昏睡毒}提炼物。再次接触迷梦毒不会要求目标进行额外豁免；只有对正在持续的中毒进行豁免且失败时，才会推进毒素阶段。</p>\n<hr />\n<p><strong>豁免</strong> @Check[fortitude|dc:20]</p>\n<p><strong>最长持续时间</strong> 6小时</p>\n<p><strong>阶段1</strong> @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}和 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}（1轮）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢2}和措手不及（1轮）</p>\n<p><strong>阶段3</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，且无法通过察觉检定醒来（1轮）</p>\n<p><strong>阶段4</strong> 失去意识，且无法通过察觉检定醒来（[[/r 1d6 #hours]]{1d6小时}）</p>"
         },
         "yafzmxKBfx68zshb": {
           "name": "手弩 Hand Crossbow"
@@ -5427,7 +5427,7 @@
       "hazarddescription": "<p>房间内众人的脑海中涌起一种强烈的被注视感；一瞬之后，西侧墙壁上睁开了一只诡异的红色眼睛。</p>",
       "disable": "<p>@Check[deception|dc:22|name:Appear Uninteresting|traits:haunt]（受训）使自己在注视之眼看来平淡无奇，从而被它忽视；或@Check[religion|dc:22|name:Ward Against Being Seen|traits:haunt]（受训）防止被眼睛看见或受到其影响。</p>",
       "reset": "<p>如果在任意一轮结束时，它能看见的生物中没有任何处于 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧} 状态的生物，则该作祟会停止活动。它会保持休眠 1 小时，之后重置。</p>",
-      "routine": "<p>（1动作）那只眼睛环顾四周，它能看见的对象（无论在<strong>C4</strong>区域内或在其外）都会受到 @Damage[4d6[mental]] 伤害（@Check[will|dc:21|basic|traits:haunt] 意志豁免），被注视的恐惧引发阵阵痛楚涟漪。</p>\n<p>因该效果而受到精神伤害的生物，在其下个回合结束时不会降低其 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧} 数值。</p>"
+      "routine": "<p>（1动作）那只眼睛环顾四周，它能看见的对象（无论在<strong>C4</strong>区域内或在其外）都会受到 @Damage[4d6[mental]] 伤害（@Check[will|dc:21|basic|traits:haunt] 意志豁免），被注视的恐惧引发阵阵痛楚涟漪。</p>\n<p>因该效果而受到心灵伤害的生物，在其下个回合结束时不会降低其 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧} 数值。</p>"
     },
     "czQFet5Qo63IXtHl": {
       "items": {
@@ -5601,7 +5601,7 @@
         },
         "Yg7JRoVLEVpuCLhu": {
           "name": "麻痹术 Paralyze",
-          "description": "<p>你阻断目标尚未从意识中传出的运动冲动，试图令其僵在原地。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮。</p>\n<p><strong>大失败</strong> 目标麻痹4轮。在其每个回合结束时，它可以尝试一次新的意志豁免，以减少剩余持续时间1轮，或者在大成功时结束该法术。</p>\n<hr />\n<p><strong>升环（7环）</strong> 你能以至多10个生物为目标。</p>",
+          "description": "<p>你阻断目标尚未从意识中传出的运动冲动，试图令其僵在原地。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮。</p>\n<p><strong>大失败</strong> 目标麻痹4轮。在其每个回合结束时，它可以尝试一次新的意志豁免，以减少剩余持续时间1轮，或者在大成功时完全结束自身的麻痹效果。</p>\n<hr />\n<p><strong>升环（7环）</strong> 你能以至多10个生物为目标。</p>",
           "duration": "可变",
           "heighteningLevels": {
             "7": {
@@ -5732,7 +5732,7 @@
           "name": "刃肢 Bladed Limb"
         },
         "4cuSJxJLUg7icXmj": {
-          "name": "易受粉碎影响 Vulnerable to Shatter",
+          "name": "易受粉碎音波影响 Vulnerable to Shatter",
           "description": "<p>玻璃魔像受到@UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]{粉碎音波}法术的影响，如同该魔像是一个无人看管的物体。</p>"
         },
         "LwBTFYgYLRf8gXzt": {
@@ -5793,7 +5793,7 @@
     "h0Ztbh36be4rpJCz": {
       "items": {
         "Cs1TEn4HJrImL292": {
-          "name": "战斗连枷 War Flail",
+          "name": "战用连枷 War Flail",
           "description": "<p>这种大型连枷有长柄链接一块短粗的木质或金属块，有时镶嵌有尖刺。</p>"
         },
         "FJMQAeowfzoi0Ifb": {
@@ -5822,7 +5822,7 @@
           "description": "<p>当杜拉克死亡时，她的躯体在一阵刺骨的幽影爆发中被摧毁。所有位于@Template[burst|distance:20]内的生物受到@Damage[8d8[cold]|options:area-damage]伤害（@Check[reflex|dc:28|basic|options:area-effect]豁免）。</p>\n<p>杜拉克的装备和财宝不受幽影影响，并会留在她死亡之处堆成一堆。</p>"
         },
         "NTAt5R3Zz1e8OAHf": {
-          "name": "战斗连枷 War Flail"
+          "name": "战用连枷 War Flail"
         },
         "PN8wMJ7pausaTNaV": {
           "name": "护盾术 Shield",
@@ -5852,7 +5852,7 @@
         },
         "X19pT15ciSJsSVxI": {
           "name": "麻痹术 Paralyze",
-          "description": "<p>你阻断目标尚未从意识中传出的运动冲动，试图令其僵在原地。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮。</p>\n<p><strong>大失败</strong> 目标麻痹4轮。在其每个回合结束时，它可以尝试一次新的意志豁免，以减少剩余持续时间1轮，或者在大成功时结束该法术。</p>\n<hr />\n<p><strong>升环（7环）</strong> 你能以至多10个生物为目标。</p>",
+          "description": "<p>你阻断目标尚未从意识中传出的运动冲动，试图令其僵在原地。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮。</p>\n<p><strong>大失败</strong> 目标麻痹4轮。在其每个回合结束时，它可以尝试一次新的意志豁免，以减少剩余持续时间1轮，或者在大成功时完全结束自身的麻痹效果。</p>\n<hr />\n<p><strong>升环（7环）</strong> 你能以至多10个生物为目标。</p>",
           "duration": "可变",
           "heighteningLevels": {
             "7": {
@@ -6092,7 +6092,7 @@
         },
         "WUQCPwFNjk75gqNw": {
           "name": "灌注中等认知突变药剂 Infused Cognitive Mutagen (Moderate)",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span> 交互</p>\n<hr />\n<p>你的头脑变得清晰，思绪流畅，但物质世界仿佛虚无缥缈。</p>\n<p><strong>益处</strong> 你的奥法、手艺、学识、神秘、社会检定，以及所有用于 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}的检定获得+2物品加值。你的 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}检定大失败改为失败。</p>\n<p><strong>弊端</strong> 你的武器与无武装攻击检定、运动检定和特技检定承受-2减值。你在超载前能携带的负载比正常少2，最大可携带负载降低4。</p>\n<p><strong>持续时间</strong> 10分钟。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.ztxW3lBPRcesF7wK]{效果：认知突变药剂（中等）}</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span> 交互</p>\n<hr />\n<p>你的头脑变得清晰，思绪流畅，但物质世界仿佛虚无缥缈。</p>\n<p><strong>益处</strong> 你的奥法、手艺、学识、神秘、社群检定，以及所有用于 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}的检定获得+2物品加值。你的 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}检定大失败改为失败。</p>\n<p><strong>弊端</strong> 你的武器与无武装攻击检定、运动检定和特技检定承受-2减值。你在超载前能携带的负载比正常少2，最大可携带负载降低4。</p>\n<p><strong>持续时间</strong> 10分钟。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.ztxW3lBPRcesF7wK]{效果：认知突变药剂（中等）}</p>"
         },
         "X9O5xvoaF1kkvOIw": {
           "name": "专家级炼金实验室 Alchemist's Lab (Expanded)",
@@ -6215,7 +6215,7 @@
         },
         "eGvWOYTY1N6i6QpT": {
           "name": "吸血 Blood Drain",
-          "description": "<p><strong>需求</strong> 鲜血虹吸使一个生物处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}</p>\n<hr />\n<p><strong>效果</strong> 鲜血虹吸从使其受擒的生物身上吸血。这造成@Damage[4d4[untyped]]伤害，并且可以让鲜血虹吸暂时变湿变粘，同时回复@Damage[8[healing]]生命值，任何超出上限的生命值都将转化为临时生命值，持续1分钟。</p>\n<p>被吸血的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1}，直到它受到任何类型的治疗为止。</p>"
+          "description": "<p><strong>需求</strong> 鲜血虹吸使一个生物处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}</p>\n<hr />\n<p><strong>效果</strong> 鲜血虹吸从被它擒住的生物身上吸血。这造成@Damage[4d4[untyped]]伤害，并且可以让鲜血虹吸暂时变湿变粘，同时回复@Damage[8[healing]]生命值，任何超出上限的生命值都将转化为临时生命值，持续1分钟。</p>\n<p>被吸血的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1}，直到它受到任何类型的治疗为止。</p>"
         },
         "iJcL8jitqKxQqnx8": {
           "name": "擒获 Grab",
@@ -6363,7 +6363,7 @@
         },
         "O5vDiojVSfkbqMPc": {
           "name": "灵质驱散 Ectoplasmic Expulsion",
-          "description": "<p>你召唤出转瞬即逝的灵质触须，穿过目标并带走一种有害的精神苦难。你立即尝试反制目标身上的单个具有情绪或占据特征的效果，或使目标获得 @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{被控制} 或 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂} 状态的效果。若你反制该效果失败，你仍会建立一种共鸣，使目标能够更好地自行逃脱该效果；在接下来1小时内，目标对抗你未能反制的该效果时，其意志豁免获得+2状态加值（例如，为摆脱 @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m]{占据术} 法术造成的控制所进行的意志豁免）。</p>",
+          "description": "<p>你召唤出转瞬即逝的灵质触须，穿过目标并带走一种有害的精神苦难。你立即尝试反制目标身上的单个具有情绪或占据特征的效果，或使目标获得 @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{被控制} 或 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂} 状态的效果。若你反制该效果失败，你仍会建立一种共鸣，使目标能够更好地自行逃脱该效果；在接下来1小时内，目标为摆脱你未能反制的该效果而进行的意志豁免获得+2状态加值（例如，为摆脱 @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m]{占据术} 法术造成的控制所进行的意志豁免）。</p>",
           "range": "30尺",
           "target": "1个生物"
         },
@@ -6437,7 +6437,7 @@
           "duration": "见正文",
           "range": "10尺",
           "ritualPrimaryCheck": "奥法（专家）、神秘（专家）或宗教（专家）",
-          "ritualSecondaryChecks": "社会或法律知识",
+          "ritualSecondaryChecks": "社群或法律学识",
           "target": "1个等级不超过指使术仪式环两倍的生物",
           "time": "1天"
         },
@@ -6787,7 +6787,7 @@
           "target": "1个生物"
         },
         "VssG55TESDIyaiPP": {
-          "name": "一串腐烂肉块项链 Lump of Decayed Flesh Strung on a Necklace"
+          "name": "串在项链上的一块腐肉 Lump of Decayed Flesh Strung on a Necklace"
         },
         "XvsfsnZoPvQNu6Be": {
           "name": "虚能治疗 Void Healing",
@@ -6887,7 +6887,7 @@
       "name": "喃喃 Murmur",
       "ac": "全域视野",
       "blurb": "心智受损的女性美杜莎（《开拓者怪物图鉴》234）",
-      "publicNotes": "<p>美杜莎是形似人类、却以群蛇代发的怪异类人生物，以其能将注视者石化的凝视而闻名——若被其目光逗留，便可能将凡人永久化为石像。美杜莎狡诈且善于操控，是精明的对手；她们收集并觊觎秘密，借由威胁与诡计来利用弱小生物的恐惧。美杜莎可能会搜寻强大的魔法物品，运用预言魔法发现隐秘知识并解锁禁忌力量，或潜入某个社会以蛊惑有影响力的政客。她们渗入强大组织的能力使其自然成为犯罪团伙与盗贼公会的领袖；而她们对魔法现象的兴趣，则促使其中一些人追求成为神谕者的生涯，宣称能帮助冒险者找到他们所搜寻之物——只要付出价格。当然，若机智与欺骗仍不足以奏效，美杜莎也总能仅凭一道冷冽目光，就把对手变成华丽的石质装饰品。</p>\n<p>美杜莎异常敏捷，且出乎意料地强韧，即使在走投无路时也很少会从冲突中退缩。许多自以为已准备好抵抗美杜莎凝视效果的冒险者，仍然败倒在美杜莎手下；因为这些生物往往还是致命的弓手，能在远距离用覆有毒液的箭矢将敌人射成蜂窝。尽管如此，若别无选择，美杜莎也可能为保命而讨价还价；而这些强大恶徒所携带的秘密，往往足以让人觉得饶怪物一命大有价值。</p>"
+      "publicNotes": "<p>美杜莎是形似人类、却以群蛇代发的怪异类人生物，以其能将注视者石化的凝视而闻名——凡人若长时间与其对视，便可能被永久化为石像。美杜莎狡诈且善于操控，是精明的对手；她们收集并觊觎秘密，借由威胁与诡计来利用弱小生物的恐惧。美杜莎可能会搜寻强大的魔法物品，运用预言魔法发现隐秘知识并解锁禁忌力量，或潜入某个社会以蛊惑有影响力的政客。她们渗入强大组织的能力使其自然成为犯罪团伙与盗贼公会的领袖；而她们对魔法现象的兴趣，则促使其中一些人追求成为神谕者的生涯，宣称能帮助冒险者找到他们所搜寻之物——只要付出价格。当然，若机智与欺骗仍不足以奏效，美杜莎也总能仅凭一道冷冽目光，就把对手变成华丽的石质装饰品。</p>\n<p>美杜莎异常敏捷，且出乎意料地强韧，即使在走投无路时也很少会从冲突中退缩。许多自以为已准备好抵抗美杜莎凝视效果的冒险者，仍然败倒在美杜莎手下；因为这些生物往往还是致命的弓手，能在远距离用覆有毒液的箭矢将敌人射成蜂窝。尽管如此，若别无选择，美杜莎也可能为保命而讨价还价；而这些强大恶徒所携带的秘密，往往足以让人觉得饶怪物一命大有价值。</p>"
     },
     "mrxDc0fj5t5CvjJQ": {
       "items": {
@@ -7563,7 +7563,7 @@
         },
         "mGkijI8C3huuWNN3": {
           "name": "麻痹术 Paralyze",
-          "description": "<p>你阻断目标尚未从意识中传出的运动冲动，试图令其僵在原地。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮。</p>\n<p><strong>大失败</strong> 目标麻痹4轮。在其每个回合结束时，它可以尝试一次新的意志豁免，以减少剩余持续时间1轮，或者在大成功时结束该法术。</p>\n<hr />\n<p><strong>升环（7环）</strong> 你能以至多10个生物为目标。</p>",
+          "description": "<p>你阻断目标尚未从意识中传出的运动冲动，试图令其僵在原地。目标必须尝试一次意志豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标获得 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}1轮。</p>\n<p><strong>大失败</strong> 目标麻痹4轮。在其每个回合结束时，它可以尝试一次新的意志豁免，以减少剩余持续时间1轮，或者在大成功时立即结束该目标的麻痹状态。</p>\n<hr />\n<p><strong>升环（7环）</strong> 你能以至多10个生物为目标。</p>",
           "duration": "可变",
           "heighteningLevels": {
             "7": {
@@ -7605,7 +7605,7 @@
         },
         "7ltsULrfrwEFkVdy": {
           "name": "射手弹带 Shootist Bandolier",
-          "description": "<p>这条皮制射手弹带在可用拇指轻轻一拨便弹开的皮革口袋中，最多可容纳三只 @UUID[Compendium.pf2e.equipment-srd.Item.xk9bw9ccupAIx7xT]{连发手弩弹匣}。你将从射手弹带为连发手弩弹匣进行装填的时间减少 1，总计为 2 个动作。你一次只能佩戴一条射手弹带。</p>"
+          "description": "<p>这条皮制射手弹带在可用拇指轻轻一拨便弹开的皮革口袋中，最多可容纳三只 @UUID[Compendium.pf2e.equipment-srd.Item.xk9bw9ccupAIx7xT]{连发手弩弹匣}。使用弹带中的弹匣装填连发手弩时，所需动作减少1个，总计为2个动作。你一次只能佩戴一条射手弹带。</p>"
         },
         "BcZbYqWY7KrRquqE": {
           "name": "镶嵌皮甲 Studded Leather Armor",
@@ -7893,7 +7893,7 @@
         },
         "j2rbPzfS6n5EwSzO": {
           "name": "合作之刃 Cooperative Blade",
-          "description": "<p>这把<em>+1 强击长剑</em>的剑刃如镜面般光亮，尽管已有数千年之久却毫无锈蚀。</p>\n<p>当你挥舞它时，你在进行 @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{协助} 的检定时获得 +2 物品加值。如果你在用于协助的技能或攻击掷骰上是专家，且你大成功，则你给予你的盟友对触发检定的 +3 环境加值，而非 +2 加值。</p>"
+          "description": "<p>这把<em>+1 强击长剑</em>的剑刃如镜面般光亮，尽管已有数千年之久却毫无锈蚀。</p>\n<p>当你持用它时，你在进行 @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{协助} 的检定时获得 +2 物品加值。如果你在用于协助的技能或攻击掷骰上是专家，且你大成功，则你给予你的盟友对触发检定的 +3 环境加值，而非 +2 加值。</p>"
         },
         "jbA5MFmKFD5CdN9h": {
           "name": "镶嵌皮甲 Studded Leather Armor",
@@ -8030,7 +8030,7 @@
         },
         "hSFAedu25PZDak7p": {
           "name": "恶臭 Stench",
-          "description": "<p>30尺。进入该区域的生物必须尝试一次 @Check[fortitude|dc:20|options:area-effect,inflicts:sickened] 豁免。失败时，该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}；大失败时，该生物还会在1轮内其速度受到-5尺的状态减值。处于该灵光内时，该生物为从恶心中恢复而进行的豁免承受-2环境减值。豁免成功的生物会在1分钟内暂时免疫所有地蜥人的恶臭。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{效果：地蜥人恶臭}</p>"
+          "description": "<p>30尺。进入该区域的生物必须尝试一次 @Check[fortitude|dc:20|options:area-effect,inflicts:sickened] 豁免。失败时，该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}；大失败时，该生物的所有速度还会受到-5尺状态减值，持续1轮。处于该灵光内时，该生物为从恶心中恢复而进行的豁免承受-2环境减值。豁免成功的生物会在1分钟内暂时免疫所有地蜥人的恶臭。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.uB3CVn3momZO9h0L]{效果：地蜥人恶臭}</p>"
         },
         "s48Fu4ttbbhaVZUd": {
           "name": "噬咬 Jaws"
@@ -8515,7 +8515,7 @@
         },
         "SNJ0RSCREyP9YYKY": {
           "name": "地狱创伤 Infernal Wound",
-          "description": "<p>胡须魔的长柄刀打击还会造成@Damage[1d6[bleed]]，该流血会抗拒治疗它的尝试。</p>\n<p>用于止住流血的纯骰检定起始为@Check[flat|dc:20]。仅当流血的生物或一名盟友成功援助其恢复时，该DC才会降低至@Check[flat|dc:15]。对具有地狱创伤的生物执行@UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{急救}的DC提高5。</p>\n<p>施法者或物品试图对受地狱创伤折磨的生物使用治疗魔法时，必须在DC 21的反制检定中成功，否则该魔法无法治疗该生物。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.inLBsuLRE5xmVHdn]{效果：地狱创伤}</p>"
+          "description": "<p>胡须魔的大砍刀打击还会造成@Damage[1d6[bleed]]，该流血会抗拒治疗它的尝试。</p>\n<p>用于止住流血的纯骰检定起始为@Check[flat|dc:20]。仅当流血的生物或一名盟友成功援助其恢复时，该DC才会降低至@Check[flat|dc:15]。对具有地狱创伤的生物执行@UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{急救}的DC提高5。</p>\n<p>施法者或物品试图对受地狱创伤折磨的生物使用治疗魔法时，必须在DC 21的反制检定中成功，否则该魔法无法治疗该生物。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.inLBsuLRE5xmVHdn]{效果：地狱创伤}</p>"
         },
         "T108hwN1OhACYQdQ": {
           "name": "借机攻击 Attack of Opportunity",
@@ -8807,8 +8807,8 @@
         },
         "ENltu0gRYNi3XmjL": {
           "name": "唤醒传送门 Awaken Portal",
-          "gmDescription": "<p>成功唤醒传送门所需的DC，取决于传送门的强度及其两端之间的距离。对于《憎恶地窟》冒险之路中的传送门，DC随其所在的地城层数而变化。使用表10-5的 @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.pBS3DUjlzVuFgapv]{按法术环确定DC}部分来确定传送门DC，并以地城层数代替法术环。因此，启动憎恶地窟第一层的传送门需要成功通过DC 15检定，而启动第四层的传送门则需要成功通过DC 23检定。</p><p>在憎恶地窟中，召来的生物取决于尝试仪式时所在的地城层数，如下所列。</p><ul><li><strong>第一层</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.NQ6qRvpD9DIwVxt3]{吸血雾}</li><li><strong>第二层</strong> @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.Nkz8Z5TrEqRePGlk]{油鳞蛛}</li><li><strong>第三层</strong> @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.dEAneTvoPuQXZoLR]{呓语之口}</li><li><strong>第四层</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.KgJq51AeYrENo3Db]{鬼火}</li><li><strong>第五层</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.SY8pvLPqc2EgP9Xj]{噬魂者}</li><li><strong>第六层</strong> @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.ceLvlSQsYNORH8oM]{虚空暴食者}</li><li><strong>第七层</strong> @UUID[Compendium.pf2e.pathfinder-monster-core-2.Actor.ZQ7lS9TYOFv07m1a]{战争缚灵}</li><li><strong>第八层</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.LN7MXD38Zs2bDoW6]{法师幽灵}</li><li><strong>第九层</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.TwFcW5O5J1SdsYv3]{高斯瑞格}</li><li><strong>第十层</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.ePJcp2ADOjJYYQ5Q]{闪耀之子}</li></ul>",
-          "description": "<p>你为休眠的异界之门、传送门或 @UUID[Compendium.pf2e.spells-srd.Item.5ZW1w9f4gWlSIuWA]{传送法阵}注入魔法能量，尝试重新将其启动。此仪式必须成功执行两次，在传送门连接的两处地点各执行一次。虽然憎恶地窟中的传送法阵和传送门无需额外费用便可唤醒，但其他传送门可能需要稀有物品或特定材料作为此仪式的费用，由GM裁定——有些传送门甚至可能强大到此仪式完全无法唤醒。</p>\n<hr />\n<p><strong>大成功</strong> 你唤醒传送门。如果另一端已经唤醒，传送门便可正常使用，且不会自然关闭。如果另一端尚未唤醒，这一端会保持唤醒状态1年，或许能让你有足够时间找到并唤醒相连的传送门。</p>\n<p><strong>成功</strong> 如同大成功，但如果传送门的另一端尚未唤醒，这一端只会保持唤醒状态 [[/r 1d6 #days]]{1d6天}，随后消退并再次休眠。</p>\n<p><strong>失败</strong> 你未能启动传送门，魔法反噬使你陷入 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续24小时。</p>\n<p><strong>大失败</strong> 如同失败，但此外还有一个敌对生物被吸引着穿过传送门，并立即攻击在场的任何人。被吸引而来的生物因传送门的性质而异</p>",
+          "gmDescription": "<p>成功唤醒传送门所需的DC，取决于传送门的强度及其两端之间的距离。对于《憎恨魔窟》冒险之路中的传送门，DC随其所在的地城层数而变化。使用表10-5的 @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.pBS3DUjlzVuFgapv]{按法术环确定DC}部分来确定传送门DC，并以地城层数代替法术环。因此，启动憎恨魔窟第一层的传送门需要成功通过DC 15检定，而启动第四层的传送门则需要成功通过DC 23检定。</p><p>在憎恨魔窟中，召来的生物取决于尝试仪式时所在的地城层数，如下所列。</p><ul><li><strong>第一层</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.NQ6qRvpD9DIwVxt3]{吸血雾}</li><li><strong>第二层</strong> @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.Nkz8Z5TrEqRePGlk]{油鳞蛛}</li><li><strong>第三层</strong> @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.dEAneTvoPuQXZoLR]{呓语之口}</li><li><strong>第四层</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.KgJq51AeYrENo3Db]{鬼火}</li><li><strong>第五层</strong> @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.SY8pvLPqc2EgP9Xj]{噬魂者}</li><li><strong>第六层</strong> @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.ceLvlSQsYNORH8oM]{虚空暴食者}</li><li><strong>第七层</strong> @UUID[Compendium.pf2e.pathfinder-monster-core-2.Actor.ZQ7lS9TYOFv07m1a]{战争缚灵}</li><li><strong>第八层</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.LN7MXD38Zs2bDoW6]{法师幽灵}</li><li><strong>第九层</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.TwFcW5O5J1SdsYv3]{高斯瑞格}</li><li><strong>第十层</strong> @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.ePJcp2ADOjJYYQ5Q]{闪耀之子}</li></ul>",
+          "description": "<p>你为休眠的异界之门、传送门或 @UUID[Compendium.pf2e.spells-srd.Item.5ZW1w9f4gWlSIuWA]{传送法阵}注入魔法能量，尝试重新将其启动。此仪式必须成功执行两次，在传送门连接的两处地点各执行一次。虽然憎恨魔窟中的传送法阵和传送门无需额外费用便可唤醒，但其他传送门可能需要稀有物品或特定材料作为此仪式的费用，由GM裁定——有些传送门甚至可能强大到此仪式完全无法唤醒。</p>\n<hr />\n<p><strong>大成功</strong> 你唤醒传送门。如果另一端已经唤醒，传送门便可正常使用，且不会自然关闭。如果另一端尚未唤醒，这一端会保持唤醒状态1年，或许能让你有足够时间找到并唤醒相连的传送门。</p>\n<p><strong>成功</strong> 如同大成功，但如果传送门的另一端尚未唤醒，这一端只会保持唤醒状态 [[/r 1d6 #days]]{1d6天}，随后消退并再次休眠。</p>\n<p><strong>失败</strong> 你未能启动传送门，魔法反噬使你陷入 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续24小时。</p>\n<p><strong>大失败</strong> 如同失败，但此外还有一个敌对生物被吸引着穿过传送门，并立即攻击在场的任何人。被吸引而来的生物因传送门的性质而异</p>",
           "range": "10尺",
           "ritualPrimaryCheck": "奥法或神秘（受训）",
           "ritualSecondaryCasters": "至多5个",
@@ -8890,7 +8890,7 @@
         "XW7lnpmVQM655q8U": {
           "name": "迷心咒 Inveigle",
           "cost": "稀有精油，总价值为10gp x 目标等级",
-          "description": "<p>你赢得目标的心，使它把你视为亲密可信的朋友，并认为你的每一项建议都合情合理。目标对你乐于帮助，因此会竭力帮助你。如同其他乐于帮助的生物，你能够提出的要求仍有限制。如果你要求目标做出完全违背其本性、或无谓地损害它自身及其利益的事情，它不仅会拒绝，还可以尝试一次意志豁免，提前结束效果。由于施法时间与范围的限制，除非目标自愿（或许被说服相信仪式会产生其他效果）或受到束缚，否则通常很难施放此仪式。如果该生物不愿接受仪式，可以尝试一次意志豁免来抵消效果。</p>\n<hr />\n<p><strong>大成功</strong> 仪式成功，且目标在结束此效果的意志豁免上承受-4状态减值。</p>\n<p><strong>成功</strong> 仪式成功。</p>\n<p><strong>失败</strong> 仪式失败。</p>\n<p><strong>大失败</strong> 仪式失败，目标反而憎恨你，在持续期间对你变为敌对。</p>\n<hr />\n<p><strong>升环（6环）</strong> 只要你拥有该生物的一缕头发、一滴血或其他身体的一部分，并将其混入费用所用的油中，就能在整个施法过程中，对至多1英里外的生物使用 <em>迷心咒</em> 。基础费用提高至100 gp。持续时间比通常更短，取决于所用身体部分的大小。血液、头发、鳞片等会使仪式持续1周，而一只手或其他较大的身体部分会使仪式持续1个月。</p>",
+          "description": "<p>你赢得目标的心，使它把你视为亲密可信的朋友，并认为你的每一项建议都合情合理。目标对你乐于帮助，因此会竭力帮助你。如同其他乐于帮助的生物，你能够提出的要求仍有限制。如果你要求目标做出完全违背其本性、或无谓地损害它自身或其利益的事情，它不仅会拒绝，还可以尝试一次意志豁免，提前结束效果。由于施法时间与范围的限制，除非目标自愿（或许被说服相信仪式会产生其他效果）或受到束缚，否则通常很难施放此仪式。如果该生物不愿接受仪式，可以尝试一次意志豁免来抵消效果。</p>\n<hr />\n<p><strong>大成功</strong> 仪式成功，且目标在结束此效果的意志豁免上承受-4状态减值。</p>\n<p><strong>成功</strong> 仪式成功。</p>\n<p><strong>失败</strong> 仪式失败。</p>\n<p><strong>大失败</strong> 仪式失败，目标反而憎恨你，在持续期间对你变为敌对。</p>\n<hr />\n<p><strong>升环（6环）</strong> 只要你拥有该生物的一缕头发、一滴血或其他身体的一部分，并将其混入费用所用的油中，就能在整个施法过程中，对至多1英里外的生物使用 <em>迷心咒</em> 。基础费用提高至100 gp。持续时间比通常更短，取决于所用身体部分的大小。血液、头发、鳞片等会使仪式持续1周，而一只手或其他较大的身体部分会使仪式持续1个月。</p>",
           "duration": "一年或直到解消",
           "range": "10尺",
           "ritualPrimaryCheck": "奥法（专家）、神秘（专家）或宗教（专家）",
@@ -9040,7 +9040,7 @@
         },
         "fWzz8EqFrgdHHEAA": {
           "name": "吹箭镖 Blowgun Darts",
-          "description": "<p>这些细长、轻巧的飞镖通常由硬木制成，并用绒羽或毛皮的羽翎来稳定。它们通常是中空的，因此可以用来传递毒药。</p>"
+          "description": "<p>这些细长、轻巧的吹箭镖通常由硬木制成，并用绒羽或毛皮制成的尾翼保持稳定。它们通常是中空的，因此可以用来传递毒药。</p>"
         },
         "ja1vr0cUJvPastvq": {
           "name": "动物交谈（随意）（仅限节肢动物） Speak with Animals (At Will) (Arthropods Only)",
@@ -9078,7 +9078,7 @@
         },
         "gl7lB276y1xS70s3": {
           "name": "杰尔协攻 Jaul Coordination",
-          "description": "<p>该狼对处于杰尓触及内的生物造成1d6额外伤害。</p>"
+          "description": "<p>该狼对处于杰尔触及内的生物造成1d6额外伤害。</p>"
         },
         "mSS5Nol0cifKQmxM": {
           "name": "击倒 Knockdown",

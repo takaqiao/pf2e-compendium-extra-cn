@@ -358,7 +358,7 @@
               "kitContents": {}
             },
             "DjNlE6NmhiVObkxh": {
-              "name": "饮品 - 一大杯果味苹果酒 Drink - Mug of Fruit Cider",
+              "name": "饮品 - 一大杯无酒精果饮 Drink - Mug of Fruit Cider",
               "description": "<p>一杯不含酒精的果味饮料，适合儿童、不饮酒者，以及选择午前不沾酒的人。</p>",
               "gmDescription": "",
               "unidentifiedName": "奇特物体 Unusual Object",
@@ -371,7 +371,7 @@
               "kitContents": {}
             },
             "6SdChTuIVYoKkuvr": {
-              "name": "饮品 - 一杯麦芽啤酒 Drink - Mug of Ale",
+              "name": "饮品 - 一杯艾尔啤酒 Drink - Mug of Ale",
               "description": "<p>最古老的一类啤酒，也是各地酒馆的宠儿。</p>",
               "gmDescription": "",
               "unidentifiedName": "奇特物体 Unusual Object",
@@ -554,7 +554,7 @@
             },
             "spmWZqfGvZ6TZ4X4": {
               "name": "防锈油 Anticorrosion Oil",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>你可以用<em>防锈油</em>涂抹容积为 6 或更低的物体。在 24 小时内，该物体受到的酸蚀伤害，以及所有明确会使其生锈或腐蚀的效果造成的伤害均减半，例如接触锈蚀怪的触须。</p>",
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>你可以用<em>防锈油</em>涂抹负载为 6 或更低的物体。在 24 小时内，该物体受到的酸蚀伤害，以及所有明确会使其生锈或腐蚀的效果造成的伤害均减半，例如接触锈蚀怪的触须。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -604,7 +604,7 @@
             },
             "QI0iShxRVrsBivyj": {
               "name": "+1武器潜能 Weapon Potency (+1)",
-              "description": "<p>魔法强化使这把武器打击更准。用这把武器进行的攻击掷骰获得+1物品加值，且该武器可以被蚀刻一枚属性符文。</p>\n<p>你可以将已经蚀刻在武器上的<em>武器威能</em>符文升级为更强的版本，将现有符文的数值提升为新符文的数值。你必须拥有更强符文的配方才能这么做，且升级的价格为两枚符文价格之间的差额。</p>\n<p><strong>制造条件</strong> 你的手艺达到专家熟练度。</p>",
+              "description": "<p>魔法强化使这把武器打击更准。用这把武器进行的攻击掷骰获得+1物品加值，且该武器可以被蚀刻一枚属性符文。</p>\n<p>你可以将已经蚀刻在武器上的<em>武器潜能</em>符文升级为更强的版本，将现有符文的数值提升为新符文的数值。你必须拥有更强符文的配方才能这么做，且升级的价格为两枚符文价格之间的差额。</p>\n<p><strong>制造条件</strong> 你的手艺达到专家熟练度。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -719,7 +719,7 @@
             },
             "Yu5UOSVBh0X7Zf3G": {
               "name": "猫眼灵药 Cat's Eye Elixir",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操控）</p>\n<hr />\n<p>饮下这瓶灵药后，你的视觉变得敏锐，能够察觉最细微的动作。</p>\n<p>在接下来1分钟内，你以藏匿生物为目标的纯骰检定DC降至5，以隐蔽生物为目标时则无需进行纯骰检定。这些增益仅适用于你30尺内的生物。</p>",
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>饮下这瓶灵药后，你的视觉变得敏锐，能够察觉最细微的动作。</p>\n<p>在接下来1分钟内，你以藏匿生物为目标的纯骰检定DC降至5，以隐蔽生物为目标时则无需进行纯骰检定。这些增益仅适用于你30尺内的生物。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -874,7 +874,7 @@
             },
             "cCSXvaSuWaNvbyQv": {
               "name": "幽灵墨水 Ghost Ink",
-              "description": "<p><strong>启动</strong> 10 分钟（交互）</p>\n<p>这种浅蓝色墨水干得很快，涂写 1 分钟后会完全透明。暴露于火把或其他明火等热源时，墨水会发出红光。只有持续受热时它才会发光，之后便再次隐形。幽灵墨水的制作者可以稍微调整配方，使墨水改为对阳光、星光、魔法光照，或日光杖等炼金效果产生的不发热光照作出反应。</p>\n<p>文字没有发光时，仔细检查幽灵墨水所标记表面的生物可以成功通过一次@Check[type:perception|dc:25|traits:action:seek]检定来发现墨水的存在。大成功时，它能辨认出足够的墨迹，从而使用社会技能@UUID[Compendium.pf2e.actionspf2e.Item.d9gbpiQjChYDYA2L]{破译文字}。一瓶幽灵墨水足以写满一页文字。</p>",
+              "description": "<p><strong>启动</strong> 10 分钟（交互）</p>\n<p>这种浅蓝色墨水干得很快，涂写 1 分钟后会完全透明。暴露于火把或其他明火等热源时，墨水会发出红光。只有持续受热时它才会发光，之后便再次隐形。幽灵墨水的制作者可以稍微调整配方，使墨水改为对阳光、星光、魔法光照，或日光杖等炼金效果产生的不发热光照作出反应。</p>\n<p>文字没有发光时，仔细检查幽灵墨水所标记表面的生物可以成功通过一次@Check[type:perception|dc:25|traits:action:seek]检定来发现墨水的存在。大成功时，它能辨认出足够的墨迹，从而使用社群技能@UUID[Compendium.pf2e.actionspf2e.Item.d9gbpiQjChYDYA2L]{破译文字}。一瓶幽灵墨水足以写满一页文字。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -924,7 +924,7 @@
             },
             "Gc4QNvRak6W3h2GS": {
               "name": "蛇油 Snake Oil",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操控）</p>\n<hr />\n<p>你可以将蛇油涂在伤口或其他苦难、状态的外在症状上（例如疾病造成的溃疡，或毒素造成的肤色变化）。在接下来的1小时内，该症状消失，受伤或遭受苦难的生物也不再觉得自己仍有伤口或苦难，但所有效果仍然存在。一个生物可以通过@Check[type:perception|dc:17|traits:action:seek]检定识破这个骗局，但前提是使用搜索动作，专门检查蛇油的效果。</p>",
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>你可以将蛇油涂在伤口或其他苦难、状态的外在症状上（例如疾病造成的溃疡，或毒素造成的肤色变化）。在接下来的1小时内，该症状消失，受伤或遭受苦难的生物也不再觉得自己仍有伤口或苦难，但所有效果仍然存在。一个生物可以通过@Check[type:perception|dc:17|traits:action:seek]检定识破这个骗局，但前提是使用搜索动作，专门检查蛇油的效果。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -934,7 +934,7 @@
             },
             "JEnpYPzwRDjjEpE0": {
               "name": "次等发烟球 Smoke Ball (Lesser)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操控）</p>\n<hr />\n<p>将这颗球砸在地上后，你立即制造一片浓厚、不透明的烟幕，范围为以你所占空间的一角为中心的@Template[type:burst|distance:5]。区域内的所有生物都处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，所有其他生物对它们也处于隐蔽。烟雾持续1分钟，或直到被强风吹散。</p>",
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<hr />\n<p>将这颗球砸在地上后，你立即制造一片浓厚、不透明的烟幕，范围为以你所占空间的一角为中心的@Template[type:burst|distance:5]。区域内的所有生物都处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，所有其他生物对它们也处于隐蔽。烟雾持续1分钟，或直到被强风吹散。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -1064,7 +1064,7 @@
             },
             "1FUYRTLM2qkGv0iL": {
               "name": "魔术手帕 Legerdemain Handkerchief",
-              "description": "<p>这块带褶边的银灰色手帕，外表看起来是一件时髦的个人卫生用品，却可以用来悄悄让极小的物品消失。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p><strong>需求</strong> 手帕完全盖住一件容积可忽略的物品</p>\n<hr />\n<p><strong>效果</strong> 手帕将盖住的物品传送进自己的异次元空间。这个空间同一时间只能容纳一件物品，因此，取走任何物品时，原本存放在空间内的物品都会替代它的位置。你也可以用此动作将已在异次元空间内的物品取出，而不放入替代品。此启动不能用于被生物携带的物品，除非携带它的生物允许。将手帕盖到物品上通常需要一次交互动作。</p>",
+              "description": "<p>这块带褶边的银灰色手帕，外表看起来是一件时髦的个人卫生用品，却可以用来悄悄让极小的物品消失。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p><strong>需求</strong> 手帕完全盖住一件负载可忽略的物品</p>\n<hr />\n<p><strong>效果</strong> 手帕将盖住的物品传送进自己的异次元空间。这个空间同一时间只能容纳一件物品，因此，取走任何物品时，原本存放在空间内的物品都会替代它的位置。你也可以用此动作将已在异次元空间内的物品取出，而不放入替代品。此启动不能用于被生物携带的物品，除非携带它的生物允许。将手帕盖到物品上通常需要一次交互动作。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -1137,7 +1137,7 @@
       "pages": {
         "RHW6v8rygUAVmpdY": {
           "name": "亨克的大块肉 Hunk's Hunks of Meat",
-          "text": "<p>汉克是贾拉的弟弟。姐弟俩一起经营家里的农场，大多数日子都在这里出售农场的出产。</p>\n<p>贾拉讨厌他这摊位的名字，他自己却觉得妙不可言。他还喜欢客人拿这名字打趣，谁能逗得他开怀大笑，就能拿到折扣。</p>",
+          "text": "<p>亨克是贾拉的弟弟。姐弟俩一起经营家里的农场，大多数日子都在这里出售农场的出产。</p>\n<p>贾拉讨厌他这摊位的名字，他自己却觉得妙不可言。他还喜欢客人拿这名字打趣，谁能逗得他开怀大笑，就能拿到折扣。</p>",
           "src": "modules/tianzes-otari-extras/Assets/Portraits/Hunk-Butcher.jpg",
           "mejShopType": "食品店",
           "mejLocation": "奥塔里市场",
@@ -1340,7 +1340,7 @@
               "kitContents": {}
             },
             "iyaR5RGppHurFFcR": {
-              "name": "饮品 - 一杯阿格纳酒 Drink - Mug of Agnar",
+              "name": "饮品 - 一杯阿格纳 Drink - Mug of Agnar",
               "description": "<p>一种能让你立刻打起精神的无酒精热饮。想要更带劲，不妨兑上一小杯你钟爱的酒，甚至威士忌。</p>",
               "gmDescription": "",
               "unidentifiedName": "奇特物体 Unusual Object",
@@ -1474,7 +1474,7 @@
             },
             "LRReJ5rzbIvxIRBt": {
               "name": "幽灵安瓿 Ghost Ampoule",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p>\n<p>这个玻璃容器里有一团轻轻抽动的灵质，散发着微弱的幽光。打开后，它会形成一个逝去灵魂的回声，看起来像一只中型幽灵。启动安瓿时，你可以将它投掷至多30尺远。幽灵发出最后的哀叹，迫使除你以外、处于@Template[type:emanation|distance:15]内的每个活物尝试一次@Check[type:will|dc:18]豁免。失败的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧 2}（大失败则陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧 3}）。</p>\n<hr />\n<p><strong>制作要求</strong> 提供被摧毁的幽灵留下的灵质残留物。</p>",
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p>\n<p>这个玻璃容器里有一团轻轻抽动的灵质，散发着微弱的幽光。打开后，它会形成一个逝去灵魂的回声，看起来像一只中型幽灵。启动安瓿时，你可以将它投掷至多30尺远。幽灵发出最后的哀叹，迫使除你以外、处于@Template[type:emanation|distance:15]内的每个活物尝试一次@Check[type:will|dc:18]豁免。失败的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}（大失败则陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 3}）。</p>\n<hr />\n<p><strong>制作要求</strong> 提供被摧毁的幽灵留下的灵质残留物。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -1483,7 +1483,7 @@
               "kitContents": {}
             },
             "lldQ1sZ3XRZGgAJd": {
-              "name": "饮品 - 一杯阿格纳酒 Drink - Mug of Agnar",
+              "name": "饮品 - 一杯阿格纳 Drink - Mug of Agnar",
               "description": "<p>一种能让你立刻打起精神的无酒精热饮。想要更带劲，不妨兑上一小杯你钟爱的酒，甚至威士忌。</p>",
               "gmDescription": "",
               "unidentifiedName": "奇特物体 Unusual Object",
@@ -1590,7 +1590,7 @@
             },
             "ngkrxXkYHhKje5yt": {
               "name": "中等猎豹灵药 Cheetah's Elixir (Moderate)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操控）</p>\n<hr />\n<p>灵药中的酶类化合物强化并激发你的腿部肌肉。你的速度获得+10尺状态加值，持续10分钟。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.j9zVZwRBVAcnpEkE]{效果：中等猎豹灵药}</p>",
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>灵药中的酶类化合物强化并激发你的腿部肌肉。你的速度获得+10尺状态加值，持续10分钟。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.j9zVZwRBVAcnpEkE]{效果：中等猎豹灵药}</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -1610,7 +1610,7 @@
             },
             "znfT4onNJJxfdVv0": {
               "name": "次等发烟球 Smoke Ball (Lesser)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操控）</p>\n<hr />\n<p>将这颗球砸在地上后，你立即制造一片浓厚、不透明的烟幕，范围为以你所占空间的一角为中心的@Template[type:burst|distance:5]。区域内的所有生物都处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，所有其他生物对它们也处于隐蔽。烟雾持续1分钟，或直到被强风吹散。</p>",
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<hr />\n<p>将这颗球砸在地上后，你立即制造一片浓厚、不透明的烟幕，范围为以你所占空间的一角为中心的@Template[type:burst|distance:5]。区域内的所有生物都处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，所有其他生物对它们也处于隐蔽。烟雾持续1分钟，或直到被强风吹散。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -1713,7 +1713,7 @@
             },
             "35KW2THC774CyRZL": {
               "name": "次等诱捕香料 Animal Nip (Lesser)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操控）</p>\n<hr />\n<p>诱捕香料由多种芳香草本植物混合研磨成粗粉，浓烈气味能吸引许多种动物。将其撒在地上或你选择的目标上，即可启动。在接下来的1分钟内，30尺内所有具有动物特征的生物必须进行@Check[type:will|dc:18]豁免，失败则因诱捕香料的气味而@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}1轮。大失败时，它们还会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}，在地上打滚。如果目标受到敌对行为影响，迷魂立即结束。无论豁免结果如何，该生物随后都对诱捕香料免疫1小时。</p>",
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<hr />\n<p>诱捕香料由多种芳香草本植物混合研磨成粗粉，浓烈气味能吸引许多种动物。将其撒在地上或你选择的目标上，即可启动。在接下来的1分钟内，30尺内所有具有动物特征的生物必须进行@Check[type:will|dc:18]豁免，失败则因诱捕香料的气味而@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}1轮。大失败时，它们还会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}，在地上打滚。如果目标受到敌对行为影响，迷魂立即结束。无论豁免结果如何，该生物随后都对诱捕香料免疫1小时。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -2066,7 +2066,7 @@
           "mejItems": {
             "2xJFEg5sCSBpnAma": {
               "name": "次等治疗药水 Healing Potion (Lesser)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操控）</p>\n<hr />\n<p><em>治疗药水</em>是一小瓶红宝石般鲜红的液体，饮用者的伤口迅速愈合时会感到一阵刺痒。喝下一瓶<em>治疗药水</em>后，你恢复[[/r (2d8+5)[healing]]]{2d8+5点生命值}。</p>",
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p><em>治疗药水</em>是一小瓶红宝石般鲜红的液体，饮用者的伤口迅速愈合时会感到一阵刺痒。喝下一瓶<em>治疗药水</em>后，你恢复[[/r (2d8+5)[healing]]]{2d8+5点生命值}。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -2136,7 +2136,7 @@
             },
             "IIEF9Jynlv58hyH3": {
               "name": "医者手套 Healer's Gloves",
-              "description": "<p>这双洁白干净的手套即使在缝合伤口或治疗其他病症时，也不会染上血迹。它为你的医疗检定提供+1物品加值。</p>\n<p><strong>启动——医者之触</strong> <span class=\"action-glyph\">A</span>（操控）</p>\n<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p><strong>效果</strong> 你可以抚平一个与你相邻的自愿活体生物的伤口，为其恢复[[/r (2d6+7)[vitality,healing]]]{2d6+7点生命值}。这是一个治疗、命能效果。你无法用此治疗伤害不死生物。</p>",
+              "description": "<p>这双洁白干净的手套即使在缝合伤口或治疗其他病症时，也不会染上血迹。它为你的医疗检定提供+1物品加值。</p>\n<p><strong>启动——医者之触</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p><strong>效果</strong> 你可以抚平一个与你相邻的自愿活体生物的伤口，为其恢复[[/r (2d6+7)[vitality,healing]]]{2d6+7点生命值}。这是一个治疗、命能效果。你无法用此治疗伤害不死生物。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -2692,7 +2692,7 @@
             },
             "yBYbqIucd4XPYBXh": {
               "name": "空心简单谜题箱 Puzzle Box (Simple) (Hollow)",
-              "description": "<p>谜题箱设有活动部件、锁定机构以及其他用来难住使用者的组件。解开谜题箱通常需要成功通过三次 DC 15 的赌博学识检定或@Check[type:thievery|dc:15|name:Puzzle Box]检定来开锁。不过谜题箱的构造与主题千变万化，GM 可以决定哪些技能适用。</p>\n<hr />\n<p>中空谜题箱的中心设有空舱，让你能把物品藏在盒内。只有解开谜题箱的人才能取出里面的物品。中空谜题箱可以容纳一件容积可忽略、直径不超过 1 英寸的物品。任何谜题箱都可以制成中空谜题箱，价格会因此翻倍。</p>",
+              "description": "<p>谜题箱设有活动部件、锁定机构以及其他用来难住使用者的组件。解开谜题箱通常需要成功通过三次 DC 15 的游戏学识检定或@Check[type:thievery|dc:15|name:Puzzle Box]检定来开锁。不过谜题箱的构造与主题千变万化，GM 可以决定哪些技能适用。</p>\n<hr />\n<p>中空谜题箱的中心设有空舱，让你能把物品藏在盒内。只有解开谜题箱的人才能取出里面的物品。中空谜题箱可以容纳一件负载可忽略、直径不超过 1 英寸的物品。任何谜题箱都可以制成中空谜题箱，价格会因此翻倍。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -2832,7 +2832,7 @@
             },
             "ihpheczca7SqWZjk": {
               "name": "冒险装备包 Adventurer's Pack",
-              "description": "<p>这是一套冒险者入门装备，包含探索和生存所需的必备物品。所列容积为整套装备的总容积，需要时可查阅各件物品的说明。</p>\n<p>装备包含以下物品：一个背包、一套铺盖、10支粉笔、燧石与火镰、50尺绳索、2周份口粮、肥皂、5支火把以及一个水袋。</p>",
+              "description": "<p>这是一套冒险者入门装备，包含探索和生存所需的必备物品。所列负载为整套装备的总负载，需要时可查阅各件物品的说明。</p>\n<p>装备包含以下物品：一个背包、一套铺盖、10支粉笔、燧石与火镰、50尺绳索、2周份口粮、肥皂、5支火把以及一个水袋。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -2938,7 +2938,7 @@
             },
             "SK7SNBfTD2rIChHO": {
               "name": "鞍囊 Saddlebags",
-              "description": "<p>鞍袋成对使用。每个鞍袋最多能装 3 容积的物品，其中最初的 1 容积物品不计入坐骑的容积上限。所列容积值适用于由坐骑佩戴的鞍袋。如果你携带或收纳鞍袋，其容积视为 1，而非轻容积。</p>",
+              "description": "<p>鞍袋成对使用。每个鞍袋最多能装 3 负载的物品，其中最初的 1 负载物品不计入坐骑的负载上限。所列负载值适用于由坐骑佩戴的鞍袋。如果你携带或收纳鞍袋，其负载视为 1，而非轻负载。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},

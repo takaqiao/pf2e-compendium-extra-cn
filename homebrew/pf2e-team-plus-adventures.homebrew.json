@@ -2,6 +2,9 @@
   "moduleId": "pf2e-team-plus-adventures",
   "moduleTitle": "Adventures+",
   "homebrew": {
+    "languages": {},
+    "armorGroups": {},
+    "baseArmors": {},
     "classTraits": {
       "trickster": {
         "label": "诡术师 Trickster",
@@ -12,6 +15,9 @@
         "description": "这表示来自宿主职业的能力。"
       }
     },
+    "weaponCategories": {},
+    "weaponGroups": {},
+    "baseWeapons": {},
     "creatureTraits": {
       "underling": {
         "label": "杂兵 Underling",
@@ -58,6 +64,22 @@
       "company": {
         "label": "全队 Company",
         "description": "具有全队特征的活动是由整支队伍共同使用的旅行活动；这支队伍称为全队。进行全队活动要求所有队员都使用该活动，通常需要相互协作并达成一致。每位队员都必须支付使用全队旅行活动所需的耐力费用。与其他旅行活动不同，只要耐力足够，一位队员就可以代其一名盟友支付全队活动所需的耐力。这使原本无法行动的盟友也能参与全队活动并获得其效果。"
+      },
+      "heroic-fate": {
+        "label": "英雄命运 Heroic Fate",
+        "description": "英雄命运让英雄通过花费英雄点，使命运朝有利于自己的方向改变。你必须花费列出的英雄点数，并满足其触发条件和需求。"
+      },
+      "twist-of-fate": {
+        "label": "命运转折 Twist of Fate",
+        "description": "命运转折是GM通过花费反派点造成的不利于英雄的结果。除非另有说明，每项命运转折每轮只能使用一次。"
+      },
+      "autonomous": {
+        "label": "独立 Autonomous",
+        "description": "独立关系中的双方通常各自行动，但会在这段关系需要会面时相聚（例如竞争或宿怨）。你只能选择具有该关系所对应相处方式特征的奖励。"
+      },
+      "synergistic": {
+        "label": "协作 Synergistic",
+        "description": "协作关系通常涉及与该NPC一同行动（例如与PC同行旅行）。你只能选择具有该关系所对应相处方式特征的奖励。"
       }
     },
     "spellTraits": {
@@ -75,6 +97,8 @@
         "label": "宿主 Vessel",
         "description": "这表示来自宿主职业的打击。"
       }
-    }
+    },
+    "shieldTraits": {},
+    "equipmentTraits": {}
   }
 }

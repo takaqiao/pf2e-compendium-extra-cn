@@ -6,7 +6,7 @@
       "close": "关闭",
       "select-token": "必须选择棋子",
       "rolling-random": "正在掷骰决定随机遭遇",
-      "nothing-encountered": "<p>你们没有遇到任何事物……</p>"
+      "nothing-encountered": "<p>你们什么也没遇到……</p>"
     }
   }
 }

@@ -1274,7 +1274,7 @@
   "entries": {
     "HDEa81J4denU4So2": {
       "name": "天泽的奥塔里额外内容 Tianze's Otari Extras",
-      "description": "<h1 style=\"box-sizing:border-box;user-select:text;margin:0px 0px 0.5rem;padding:0px;font-weight:normal;font-size:2em;border-bottom:2px solid var(--color-underline-header)\"><span style=\"font-family:Signika, sans-serif\">简介</span></h1><p><span style=\"font-family:Signika, sans-serif\">感谢你试用本模组。天泽的奥塔里扩充包收录了一系列以奥塔里镇为背景的地图与内容，那里是多个开拓者剧本的舞台，其中包括<em>奥塔里地下的威胁</em>（新手盒装冒险）、 <em style=\"box-sizing:border-box;user-select:text\">憎恶地窟冒险路径</em>与<em style=\"box-sizing:border-box;user-select:text\">奥塔里的麻烦。</em> </span></p><p style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px;min-height:unset\"><span style=\"font-family:Signika, sans-serif\">地图由<a href=\"https://dungeondraft.net/\" style=\"box-sizing:border-box;user-select:text;cursor:pointer;color:var(--color-text-hyperlink)\">DungeonDraft </a>制作，所用素材来自<a href=\"http://localhost:30000/forgotten-adventures.net\" style=\"box-sizing:border-box;user-select:text;cursor:pointer;color:var(--color-text-hyperlink);transition:text-shadow 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, backdrop-filter 0.15s ease-in-out 0s, border-radius 0.15s ease 0s\">Forgotten Adventures</a>。</span></p><p style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px;min-height:unset\"><span style=\"font-family:Signika, sans-serif\">肖像与小幅插画由<a href=\"https://www.bing.com/images/create\" style=\"box-sizing:border-box;user-select:text;cursor:pointer;color:var(--color-text-hyperlink);transition:text-shadow 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, backdrop-filter 0.15s ease-in-out 0s, border-radius 0.15s ease 0s\">Bing Image Creator</a>生成。</span></p>",
+      "description": "<h1 style=\"box-sizing:border-box;user-select:text;margin:0px 0px 0.5rem;padding:0px;font-weight:normal;font-size:2em;border-bottom:2px solid var(--color-underline-header)\"><span style=\"font-family:Signika, sans-serif\">简介</span></h1><p><span style=\"font-family:Signika, sans-serif\">感谢你试用本模组。天泽的奥塔里扩充包收录了一系列以奥塔里镇为背景的地图与内容，那里是多个开拓者剧本的舞台，其中包括<em>奥塔里地下的威胁</em>（新手盒装冒险）、 <em style=\"box-sizing:border-box;user-select:text\">憎恨魔窟冒险路径</em>与<em style=\"box-sizing:border-box;user-select:text\">奥塔里的麻烦。</em> </span></p><p style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px;min-height:unset\"><span style=\"font-family:Signika, sans-serif\">地图由<a href=\"https://dungeondraft.net/\" style=\"box-sizing:border-box;user-select:text;cursor:pointer;color:var(--color-text-hyperlink)\">DungeonDraft </a>制作，所用素材来自<a href=\"http://localhost:30000/forgotten-adventures.net\" style=\"box-sizing:border-box;user-select:text;cursor:pointer;color:var(--color-text-hyperlink);transition:text-shadow 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, backdrop-filter 0.15s ease-in-out 0s, border-radius 0.15s ease 0s\">Forgotten Adventures</a>。</span></p><p style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px;min-height:unset\"><span style=\"font-family:Signika, sans-serif\">肖像与小幅插画由<a href=\"https://www.bing.com/images/create\" style=\"box-sizing:border-box;user-select:text;cursor:pointer;color:var(--color-text-hyperlink);transition:text-shadow 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, backdrop-filter 0.15s ease-in-out 0s, border-radius 0.15s ease 0s\">Bing Image Creator</a>生成。</span></p>",
       "caption": "天泽的奥塔里扩充包收录了一系列以奥塔里地区为背景的地图与内容，其中包括骗子之角与桥下区、乌鸦酒桶、奥塔里市场、口渴羊驼酒馆遗址，以及渔营基地。",
       "folders": {
         "znm9cZxnwljDGupj": {
@@ -1518,7 +1518,7 @@
             },
             "GGz47JNYY0jIBX4l": {
               "name": "剥皮烟 Flayleaf",
-              "description": "<p>剥皮烟草是一种较常见的植物，抽吸其干叶会带来轻微的愉悦感；若烟叶来自专为增强此效果而培育的植株，效果就会更强。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互（摄入，吸入）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:12]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 4小时</p>\n<p><strong>阶段1</strong> 对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}，且对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段3</strong> 疲乏且@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}（1小时）</p>\n<p><strong>阶段4</strong> 疲乏、@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧 2}、@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}（1小时）</p>",
+              "description": "<p>剥皮烟草是一种较常见的植物，抽吸其干叶会带来轻微的愉悦感；若烟叶来自专为增强此效果而培育的植株，效果就会更强。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互（摄入，吸入）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:12]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 4小时</p>\n<p><strong>阶段1</strong> 对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}，且对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段3</strong> 疲乏且@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}（1小时）</p>\n<p><strong>阶段4</strong> 疲乏、@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}、@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}（1小时）</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -2186,8 +2186,8 @@
               "unidentifiedDescription": ""
             },
             "rUGaWjJA2Sde3cpe": {
-              "name": "阿特维尔悬浊液 Artevil Suspension",
-              "description": "<p><strong>激活</strong> @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{治疗中毒}</p>\n<hr />\n<p>这种干燥草药以能把毒素从体内拔出而闻名，尽管过程相当猛烈。你可以让人口服这种悬浊液，把激活该物品作为你用来治疗中毒的同一活动的一部分。若你以医疗检定治疗中毒、对抗一种经吞食施加的毒素并取得成功，你可以将该毒素的阶段降低一阶，但这无法把阶段降到第1阶以下，也无法完全解除该毒素。若你这样做，该生物的身体会排出毒素，因而变得@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}。除非毒素是经吞食施加的，否则阿蒂维尔悬浊液不起作用；例如，若某种毒素既可经吞食也可经伤口施加，而它是经伤口施加的，那么这种悬浊液便不会奏效。</p>",
+              "name": "阿特维草混悬液 Artevil Suspension",
+              "description": "<p><strong>激活</strong> @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{治疗中毒}</p>\n<hr />\n<p>这种干燥草药以能把毒素从体内拔出而闻名，尽管过程相当猛烈。你可以让人口服这种悬浊液，把激活该物品作为你用来治疗中毒的同一活动的一部分。若你以医疗检定治疗中毒、对抗一种经吞食施加的毒素并取得成功，你可以将该毒素的阶段降低一阶，但这无法把阶段降到第1阶以下，也无法完全解除该毒素。若你这样做，该生物的身体会排出毒素，因而变得@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}。除非毒素是经吞食施加的，否则阿特维草混悬液不起作用；例如，若某种毒素既可经吞食也可经伤口施加，而它是经伤口施加的，那么这种悬浊液便不会奏效。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -2307,7 +2307,7 @@
             },
             "7bJ2ZLtdiIIAfMs9": {
               "name": "符文石 Runestone",
-              "description": "<p>这块平坦坚硬的石头经过特殊处理，可用来蚀刻魔法基础符文或属性符文。你只能在上面蚀刻一个符文。当一个符文从<em>符文石</em>上转移到其他物品上，<em>符文石</em>碎裂并被摧毁。上面列出的价格是空白符文石的；保存了符文的符文石应该将符文的价格加上去。</p>",
+              "description": "<p>这块平坦坚硬的石头经过特殊处理，可用来蚀刻魔法基础符文或性能符文。你只能在上面蚀刻一个符文。当一个符文从<em>符文石</em>上转移到其他物品上，<em>符文石</em>碎裂并被摧毁。上面列出的价格是空白符文石的；保存了符文的符文石应该将符文的价格加上去。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -2327,7 +2327,7 @@
             },
             "nq2bKlcR6bcXHNK8": {
               "name": "重拳缠手带 Handwraps of Mighty Blows",
-              "description": "<p>当你绑定这些绣花布条时，你必须冥想并缓慢地将它们缠绕在你的双手上。这些缠手带上蚀刻有武器符文，使你的徒手攻击获得这些符文的益处，让你的徒手攻击像魔法武器一样运作。例如，<em>+1强击重拳缠手带</em>会使你的徒手攻击攻击掷骰获得+1物品加值，并将你的徒手攻击的伤害从一个武器骰增加到两个（通常为2d4而非1d4，但如果你的拳头使用不同的武器伤害骰，或你拥有其他徒手攻击，则改为使用两个该骰面大小的骰子）。</p>\n<p>你可以如同对待一把武器那样对缠手带进行升级、添加符文，以及在缠手带与其他物品之间转移符文；你也可以将护符附着在缠手带上。为这些目的，将缠手带视为斗殴组的近战武器，且具有轻负载。特性符文仅在其适用于你所使用的徒手攻击时才生效。例如，必须应用于挥砍武器的特性，在你用拳头攻击时不会起作用；但若你用爪击或其他挥砍型徒手攻击进行攻击，你将获得其益处。</p>",
+              "description": "<p>当你绑定这些绣花布条时，你必须冥想并缓慢地将它们缠绕在你的双手上。这些缠手带上蚀刻有武器符文，使你的徒手攻击获得这些符文的益处，让你的徒手攻击像魔法武器一样运作。例如，<em>+1强击重拳缠手带</em>会使你的徒手攻击攻击掷骰获得+1物品加值，并将你的徒手攻击的伤害从一个武器骰增加到两个（通常为2d4而非1d4，但如果你的拳头使用不同的武器伤害骰，或你拥有其他徒手攻击，则改为使用两个该骰面大小的骰子）。</p>\n<p>你可以如同对待一把武器那样对缠手带进行升级、添加符文，以及在缠手带与其他物品之间转移符文；你也可以将护符附着在缠手带上。为这些目的，将缠手带视为搏击组的近战武器，且具有轻负载。性能符文仅在其适用于你所使用的徒手攻击时才生效。例如，必须应用于挥砍武器的性能符文，在你用拳头攻击时不会起作用；但若你用爪击或其他挥砍型徒手攻击进行攻击，你将获得其益处。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -2337,7 +2337,7 @@
             },
             "4y5u2dywoaGn6WiO": {
               "name": "+1武器潜能 Weapon Potency (+1)",
-              "description": "<p>魔法强化使这把武器打击更准。用这把武器进行的攻击掷骰获得+1物品加值，且该武器可以被蚀刻一枚属性符文。</p>\n<p>你可以将已经蚀刻在武器上的<em>武器威能</em>符文升级为更强的版本，将现有符文的数值提升为新符文的数值。你必须拥有更强符文的配方才能这么做，且升级的价格为两枚符文价格之间的差额。</p>\n<p><strong>制造条件</strong> 你的手艺达到专家熟练度。</p>",
+              "description": "<p>魔法强化使这把武器打击更准。用这把武器进行的攻击掷骰获得+1物品加值，且该武器可以被蚀刻一枚性能符文。</p>\n<p>你可以将已经蚀刻在武器上的<em>武器潜能</em>符文升级为更强的版本，将现有符文的数值提升为新符文的数值。你必须拥有更强符文的配方才能这么做，且升级的价格为两枚符文价格之间的差额。</p>\n<p><strong>制造条件</strong> 你的手艺达到专家熟练度。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -2458,7 +2458,7 @@
           "name": "多里安娜·曼妮姆斯 Dorianne Menhames",
           "tokenName": "多里安娜·曼妮姆斯 Dorianne Menhames",
           "prototypeToken": "多里安娜·曼妮姆斯 Dorianne Menhames",
-          "hazarddescription": "<h2>也很脆爽新鲜</h2>\n                            <p>这个摊位归贾拉·高步所有。</p>\n                            <p>朵丽是被她的父亲——镇长——送来给贾拉·高步当学徒的。她对此一直闷闷不乐，但还是不情不愿地照办了。</p>",
+          "hazarddescription": "<h2>也很脆爽新鲜</h2>\n                            <p>这个摊位归贾拉·海斯泰珀所有。</p>\n                            <p>朵丽是被她的父亲——镇长——送来给贾拉·海斯泰珀当学徒的。她对此一直闷闷不乐，但还是不情不愿地照办了。</p>",
           "skills": {},
           "items": {
             "FleOhXmlwW9l8TOT": {
@@ -2635,7 +2635,7 @@
           "name": "贾拉·海斯泰珀 Jala Highstepper",
           "tokenName": "贾拉·海斯泰珀 Jala Highstepper",
           "prototypeToken": "贾拉·海斯泰珀 Jala Highstepper",
-          "hazarddescription": "<h2>爽脆新鲜</h2>\n                        <p>贾拉·海斯特珀是农人公会的领袖，她的篮子里总有东西可卖。</p>\n                        <p>她要到上午晚些时候才开张，一直卖到午后过半，赶在茶点时分之前收摊。</p>",
+          "hazarddescription": "<h2>爽脆新鲜</h2>\n                        <p>贾拉·海斯泰珀是农人公会的领袖，她的篮子里总有东西可卖。</p>\n                        <p>她要到上午晚些时候才开张，一直卖到午后过半，赶在茶点时分之前收摊。</p>",
           "skills": {},
           "items": {
             "Pb8TJguaxhRSpcyB": {
@@ -2694,7 +2694,7 @@
           "name": "基莱诺·拉瑟纳 Keeleno Lathenar",
           "tokenName": "基莱诺 Keeleno",
           "prototypeToken": "基莱诺 Keeleno",
-          "hazarddescription": "<h2>拉瑟纳陶坊</h2>\n                            <p>基利诺是这座集市和附近那家杂货铺的东家，同时还做着陶匠的营生。他是个鳏夫，始终未能走出亡妻离世的伤痛。</p>",
+          "hazarddescription": "<h2>拉瑟纳陶坊</h2>\n                            <p>基莱诺是这座集市和附近那家杂货铺的东家，同时还做着陶匠的营生。他是个鳏夫，始终未能走出亡妻离世的伤痛。</p>",
           "skills": {},
           "items": {
             "dk1cuAbsyyyo9aoW": {
@@ -2753,7 +2753,7 @@
           "name": "莱诺·拉瑟纳 Leno Lathenar",
           "tokenName": "莱诺·拉瑟纳 Leno Lathenar",
           "prototypeToken": "莱诺·拉瑟纳 Leno Lathenar",
-          "hazarddescription": "<h2>拉瑟纳杂货铺</h2>\n                <p>利诺是基利诺的长子兼继承人，他与父亲合伙拥有这家店铺。</p>\n                <p>店里的一切事务由他全权负责、全权做主。他和妻子德布兰住在店铺后面的楼上，两人正期待着第一个孩子降生。</p>",
+          "hazarddescription": "<h2>拉瑟纳杂货铺</h2>\n                <p>莱诺是基莱诺的长子兼继承人，他与父亲合伙拥有这家店铺。</p>\n                <p>店里的一切事务由他全权负责、全权做主。他和妻子德布兰住在店铺后面的楼上，两人正期待着第一个孩子降生。</p>",
           "skills": {},
           "items": {
             "fsRaYxW9NeqRLsh3": {
@@ -3525,7 +3525,7 @@
               "unidentifiedDescription": ""
             },
             "9RGnmNZQmw01hQII": {
-              "name": "一杯阿格纳酒 Mug of Agnar",
+              "name": "一杯阿格纳 Mug of Agnar",
               "description": "<p>一种不含酒精的热饮，能让你瞬间振作。想要更够劲，不妨加上一盅你最爱的酒，甚至威士忌。</p>",
               "gmDescription": "",
               "unidentifiedName": "奇特物体 Unusual Object",
@@ -3708,7 +3708,7 @@
             },
             "GX2Sy3denAm5aIip": {
               "name": "剥皮烟 Flayleaf",
-              "description": "<p>剥皮烟草是一种较常见的植物，抽吸其干叶会带来轻微的愉悦感；若烟叶来自专为增强此效果而培育的植株，效果就会更强。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互（摄入，吸入）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:12]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 4小时</p>\n<p><strong>阶段1</strong> 对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}，且对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段3</strong> 疲乏且@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}（1小时）</p>\n<p><strong>阶段4</strong> 疲乏、@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧 2}、@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}（1小时）</p>",
+              "description": "<p>剥皮烟草是一种较常见的植物，抽吸其干叶会带来轻微的愉悦感；若烟叶来自专为增强此效果而培育的植株，效果就会更强。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互（摄入，吸入）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:12]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 4小时</p>\n<p><strong>阶段1</strong> 对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}，且对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段3</strong> 疲乏且@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}（1小时）</p>\n<p><strong>阶段4</strong> 疲乏、@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}、@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}（1小时）</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -3718,7 +3718,7 @@
             },
             "k0EtCgLebsZnGif9": {
               "name": "血眼咖啡 Bloodeye Coffee",
-              "description": "<p>血眼咖啡是一种用几种来自柯莱士的帕迪莎王朝（Padishah Empire of Kelesh）的常见香料混合而成的提神咖啡，是内海地区深受喜爱的晨间饮品。血眼咖啡的最大成瘾阶段永远不会超过阶段1。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互（服食）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:14]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 8小时</p>\n<p><strong>阶段1</strong> 如果你陷入疲乏，则你在AC和豁免上能获得+1物品加值，用来抵消@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}造成的减值（10分钟）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1} （1小时）</p>\n<p><strong>阶段3</strong> 无法从疲乏状态中恢复（1日，之后药物效果结束）</p>",
+              "description": "<p>血眼咖啡是一种用几种来自柯莱士的帕迪莎王朝的常见香料混合而成的提神咖啡，是内海地区深受喜爱的晨间饮品。血眼咖啡的最大成瘾阶段永远不会超过阶段1。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互（服食）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:14]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 8小时</p>\n<p><strong>阶段1</strong> 如果你陷入疲乏，则你在AC和豁免上能获得+1物品加值，用来抵消@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}造成的减值（10分钟）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1} （1小时）</p>\n<p><strong>阶段3</strong> 无法从疲乏状态中恢复（1日，之后药物效果结束）</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -3738,7 +3738,7 @@
             },
             "vw6XHKvmNXxWox85": {
               "name": "幽灵墨水 Ghost Ink",
-              "description": "<p><strong>启动</strong> 10分钟（交互）</p>\n<p>这种浅蓝色墨水会迅速干燥，在使用后1分钟变得完全透明。墨水受热时会发出红光，例如接触到火把或其他明火散发的热量时。这种光芒只会在墨水持续受热时存在，随后墨水会再次变得不可见。幽灵墨水的制作者可以略微修改配方，使其转而对日光、星光、魔法光线，或阳光棒之类炼金效果产生的无热光线作出反应。</p>\n<p>文字没有发光时，生物若仔细检查标有幽灵墨水的表面，可以通过成功的@Check[type:perception|dc:25|traits:action:seek]检定发现墨水的存在。若大成功，其便能足够清晰地辨认墨迹，以使用社会技能@UUID[Compendium.pf2e.actionspf2e.Item.d9gbpiQjChYDYA2L]{解读文字}。一小瓶幽灵墨水足够书写一页文字。</p>",
+              "description": "<p><strong>启动</strong> 10分钟（交互）</p>\n<p>这种浅蓝色墨水会迅速干燥，在使用后1分钟变得完全透明。墨水受热时会发出红光，例如接触到火把或其他明火散发的热量时。这种光芒只会在墨水持续受热时存在，随后墨水会再次变得不可见。幽灵墨水的制作者可以略微修改配方，使其转而对日光、星光、魔法光线，或日光杖之类炼金效果产生的无热光线作出反应。</p>\n<p>文字没有发光时，生物若仔细检查标有幽灵墨水的表面，可以通过成功的@Check[type:perception|dc:25|traits:action:seek]检定发现墨水的存在。若大成功，其便能足够清晰地辨认墨迹，以使用社群技能@UUID[Compendium.pf2e.actionspf2e.Item.d9gbpiQjChYDYA2L]{解读文字}。一小瓶幽灵墨水足够书写一页文字。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -3928,7 +3928,7 @@
             },
             "cbyWwmuqPmSkxOZR": {
               "name": "酒精 Alcohol",
-              "description": "<p>酒精是一种常见的物质，种类繁多。一剂酒精的价值取决酒的品种。当你受酒精影响时，无法从恶心状态恢复。</p>\n<p>如果你对抗酒精的豁免失败，除了初始豁免之外，苦难的阶段并不会增加；唯一会导致酒精苦难阶段增加的方式是喝更多的酒。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">A</span> 交互（摄入）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:12]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>阶段1</strong> 对抗恐惧效果的豁免检定有+1物品加值（10分钟）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，对抗恐惧效果的豁免检定有+1物品加值（10分钟）</p>\n<p><strong>阶段3</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}，措手不及，@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}（10分钟）</p>\n<p><strong>阶段4</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 2}，@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}（10分钟）</p>\n<p><strong>阶段5</strong> 笨拙2、恶心2、呆滞2（10分钟）</p>\n<p><strong>阶段6</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}（8小时）</p>\n<p><strong>阶段7</strong> 死亡</p>",
+              "description": "<p>酒精是一种常见的物质，种类繁多。一剂酒精的价值取决酒的品种。当你受酒精影响时，无法从酒精造成的恶心状态中恢复。</p>\n<p>如果你对抗酒精的豁免失败，除了初始豁免之外，苦难的阶段并不会增加；唯一会导致酒精苦难阶段增加的方式是喝更多的酒。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">A</span> 交互（摄入）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:12]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>阶段1</strong> 对抗恐惧效果的豁免检定有+1物品加值（10分钟）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，对抗恐惧效果的豁免检定有+1物品加值（10分钟）</p>\n<p><strong>阶段3</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}，措手不及，@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}（10分钟）</p>\n<p><strong>阶段4</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 2}，@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}（10分钟）</p>\n<p><strong>阶段5</strong> 笨拙2、恶心2、呆滞2（10分钟）</p>\n<p><strong>阶段6</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}（8小时）</p>\n<p><strong>阶段7</strong> 死亡</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -4105,7 +4105,7 @@
           "skills": {},
           "items": {
             "fbCqdrixIXTK2Wlp": {
-              "name": "饮品 - 一杯阿格纳酒 Drink - Mug of Agnar",
+              "name": "饮品 - 一杯阿格纳 Drink - Mug of Agnar",
               "description": "<p>一种不含酒精的热饮，能让你瞬间振作。想要更够劲，不妨加上一盅你最爱的酒，甚至威士忌。</p>",
               "gmDescription": "",
               "unidentifiedName": "奇特物体 Unusual Object",
@@ -4287,8 +4287,8 @@
               "unidentifiedDescription": ""
             },
             "SUHIzeCEwAdd7bvE": {
-              "name": "女士赐福油 Lady's Blessing Oil",
-              "description": "<p><strong>启动</strong> @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{急救}</p>\n<hr />\n<p>女士祝福油深受那些抚慰生死过渡的法莱斯玛信徒治疗者青睐。你可以在用于进行急救以稳定某个生物伤势的同一个活动中启动该物品。若你使用女士祝福油，进行急救检定的 DC 会降至该生物复原检定的 DC，而非 5 + 复原检定的 DC。然而，若你在该检定上掷出失败，则改判为大失败。</p>",
+              "name": "女士之赐油 Lady's Blessing Oil",
+              "description": "<p><strong>启动</strong> @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{急救}</p>\n<hr />\n<p>女士之赐油深受那些抚慰生死过渡的法莱斯玛信徒治疗者青睐。你可以在用于进行急救以稳定某个生物伤势的同一个活动中启动该物品。若你使用女士之赐油，进行急救检定的 DC 会降至该生物复原检定的 DC，而非 5 + 复原检定的 DC。然而，若你在该检定上掷出失败，则改判为大失败。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -4318,7 +4318,7 @@
             },
             "Qk9jmeHIAcpWAyDm": {
               "name": "血眼咖啡 Bloodeye Coffee",
-              "description": "<p>血眼咖啡是一种用几种来自柯莱士的帕迪莎王朝（Padishah Empire of Kelesh）的常见香料混合而成的提神咖啡，是内海地区深受喜爱的晨间饮品。血眼咖啡的最大成瘾阶段永远不会超过阶段1。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互（服食）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:14]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 8小时</p>\n<p><strong>阶段1</strong> 如果你陷入疲乏，则你在AC和豁免上能获得+1物品加值，用来抵消@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}造成的减值（10分钟）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1} （1小时）</p>\n<p><strong>阶段3</strong> 无法从疲乏状态中恢复（1日，之后药物效果结束）</p>",
+              "description": "<p>血眼咖啡是一种用几种来自柯莱士的帕迪莎王朝的常见香料混合而成的提神咖啡，是内海地区深受喜爱的晨间饮品。血眼咖啡的最大成瘾阶段永远不会超过阶段1。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互（服食）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:14]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 8小时</p>\n<p><strong>阶段1</strong> 如果你陷入疲乏，则你在AC和豁免上能获得+1物品加值，用来抵消@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}造成的减值（10分钟）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1} （1小时）</p>\n<p><strong>阶段3</strong> 无法从疲乏状态中恢复（1日，之后药物效果结束）</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -4328,7 +4328,7 @@
             },
             "jntWvBu3btQMJs7N": {
               "name": "剥皮烟 Flayleaf",
-              "description": "<p>剥皮烟草是一种较常见的植物，抽吸其干叶会带来轻微的愉悦感；若烟叶来自专为增强此效果而培育的植株，效果就会更强。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互（摄入，吸入）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:12]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 4小时</p>\n<p><strong>阶段1</strong> 对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}，且对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段3</strong> 疲乏且@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}（1小时）</p>\n<p><strong>阶段4</strong> 疲乏、@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧 2}、@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}（1小时）</p>",
+              "description": "<p>剥皮烟草是一种较常见的植物，抽吸其干叶会带来轻微的愉悦感；若烟叶来自专为增强此效果而培育的植株，效果就会更强。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互（摄入，吸入）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:12]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 4小时</p>\n<p><strong>阶段1</strong> 对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}，且对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段3</strong> 疲乏且@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}（1小时）</p>\n<p><strong>阶段4</strong> 疲乏、@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}、@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}（1小时）</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -4762,7 +4762,7 @@
             },
             "VQPPHF2M9xHf5XD3": {
               "name": "偷袭 Sneak Attack",
-              "description": "<p>暴徒对措手不及的生物造成额外1d6精准伤害。</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>",
+              "description": "<p>地痞对措手不及的生物造成额外1d6精准伤害。</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -4779,7 +4779,7 @@
           "items": {
             "OIkJNfvVTAj3cZL8": {
               "name": "剥皮烟 Flayleaf",
-              "description": "<p>剥皮烟草是一种较常见的植物，抽吸其干叶会带来轻微的愉悦感；若烟叶来自专为增强此效果而培育的植株，效果就会更强。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互（摄入，吸入）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:12]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 4小时</p>\n<p><strong>阶段1</strong> 对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}，且对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段3</strong> 疲乏且@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}（1小时）</p>\n<p><strong>阶段4</strong> 疲乏、@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧 2}、@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}（1小时）</p>",
+              "description": "<p>剥皮烟草是一种较常见的植物，抽吸其干叶会带来轻微的愉悦感；若烟叶来自专为增强此效果而培育的植株，效果就会更强。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互（摄入，吸入）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:12]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 4小时</p>\n<p><strong>阶段1</strong> 对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}，且对抗心灵效果的豁免获得+1物品加值（1小时）</p>\n<p><strong>阶段3</strong> 疲乏且@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}（1小时）</p>\n<p><strong>阶段4</strong> 疲乏、@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}、@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}（1小时）</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -4799,7 +4799,7 @@
             },
             "iRihkSFWlaglh12D": {
               "name": "血眼咖啡 Bloodeye Coffee",
-              "description": "<p>血眼咖啡是一种用几种来自柯莱士的帕迪莎王朝（Padishah Empire of Kelesh）的常见香料混合而成的提神咖啡，是内海地区深受喜爱的晨间饮品。血眼咖啡的最大成瘾阶段永远不会超过阶段1。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互（服食）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:14]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 8小时</p>\n<p><strong>阶段1</strong> 如果你陷入疲乏，则你在AC和豁免上能获得+1物品加值，用来抵消@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}造成的减值（10分钟）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1} （1小时）</p>\n<p><strong>阶段3</strong> 无法从疲乏状态中恢复（1日，之后药物效果结束）</p>",
+              "description": "<p>血眼咖啡是一种用几种来自柯莱士的帕迪莎王朝的常见香料混合而成的提神咖啡，是内海地区深受喜爱的晨间饮品。血眼咖啡的最大成瘾阶段永远不会超过阶段1。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"pf2-icon\">A</span> 交互（服食）</p>\n<p><strong>豁免</strong> @Check[type:fortitude|dc:14]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 8小时</p>\n<p><strong>阶段1</strong> 如果你陷入疲乏，则你在AC和豁免上能获得+1物品加值，用来抵消@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}造成的减值（10分钟）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1} （1小时）</p>\n<p><strong>阶段3</strong> 无法从疲乏状态中恢复（1日，之后药物效果结束）</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -5449,7 +5449,7 @@
             },
             "D0BJOT03V2FE7mKT": {
               "name": "偷袭 Sneak Attack",
-              "description": "<p>狗头人武者对措手不及的生物造成额外1d4精准伤害。</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>",
+              "description": "<p>狗头人战士对措手不及的生物造成额外1d4精准伤害。</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -5682,7 +5682,7 @@
             },
             "yBOjYe8hHHRkhUyZ": {
               "name": "偷袭 Sneak Attack",
-              "description": "<p>龙法师对措手不及的生物造成额外1d6精确伤害。</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>",
+              "description": "<p>龙法师对措手不及的生物造成额外1d6精准伤害。</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -5994,7 +5994,7 @@
               "unidentifiedDescription": ""
             },
             "M9Fbj6weVmraThsZ": {
-              "name": "饮品 - 一杯阿格纳酒 Drink - Mug of Agnar",
+              "name": "饮品 - 一杯阿格纳 Drink - Mug of Agnar",
               "description": "<p>一种能让你立刻打起精神的无酒精热饮。想要更带劲，不妨兑上一小杯你钟爱的酒，甚至威士忌。</p>",
               "gmDescription": "",
               "unidentifiedName": "奇特物体 Unusual Object",
@@ -6046,7 +6046,7 @@
               "unidentifiedDescription": ""
             },
             "XumIKrE33Sufx2Ce": {
-              "name": "饮品 - 一大杯果味苹果酒 Drink - Mug of Fruit Cider",
+              "name": "饮品 - 一大杯无酒精果饮 Drink - Mug of Fruit Cider",
               "description": "<p>一大杯无酒精的果味饮料，孩童、不饮酒者，以及不愿在正午前沾酒的人都可放心享用。</p>",
               "gmDescription": "",
               "unidentifiedName": "奇特物体 Unusual Object",
@@ -6842,7 +6842,7 @@
             },
             "PWw6ivCpLPWr2mNR": {
               "name": "商人 Merchant",
-              "description": "<p>你曾在尘土飞扬的商店、市场摊位或商队篷车中出售货物，换取金钱和商品。你所掌握的技能仍然适用于冒险生活，比如用好价钱买的一套盔甲就有可能救你一命。</p>\n<p>选择两项属性提升。一项必须是<strong>智力</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你在交涉技能和商业（Mercantile）学识技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.5nc5ridFBfYpn2Om]{二道贩子}技能专长。</p>",
+              "description": "<p>你曾在尘土飞扬的商店、市场摊位或商队篷车中出售货物，换取金钱和商品。你所掌握的技能仍然适用于冒险生活，比如用好价钱买的一套盔甲就有可能救你一命。</p>\n<p>选择两项属性提升。一项必须是<strong>智力</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你在交涉技能和贸易学识技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.5nc5ridFBfYpn2Om]{二道贩子}技能专长。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -7371,7 +7371,7 @@
             },
             "Tnof097GtrL2quMA": {
               "name": "阅读灵光 Read Aura",
-              "description": "<p>你专注于目标物体，敞开心灵以感知魔法灵光。施法完成时，你会得知该物品是否具有魔法。你或任何从你处获知其灵光信息的人在对该物品@UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{辨识魔法}时获得 +2 环境加值。如果该物体是幻象，只有当该效果的环级低于你的<em>阅读灵光</em>法术环级时，你才能发现这一点。</p>\n<hr />\n<p><strong>升阶（3环）</strong> 你可以至多 10 个物体为目标。</p>\n<p><strong>升阶（6环）</strong> 你可以任意数量的物体为目标。</p>",
+              "description": "<p>你专注于目标物体，敞开心灵以感知魔法灵光。施法完成时，你会得知该物品是否具有魔法。你或任何从你处获知其灵光信息的人在对该物品@UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{辨识魔法}时获得 +2 环境加值。如果该物体是幻象，只有当该效果的环级低于你的<em>阅读灵光</em>法术环级时，你才能发现这一点。</p>\n<hr />\n<p><strong>升阶（3环）</strong> 你可以以至多 10 个物体为目标。</p>\n<p><strong>升阶（6环）</strong> 你可以以任意数量的物体为目标。</p>",
               "gmDescription": "",
               "range": "30尺",
               "target": "一个物体",
@@ -7920,7 +7920,7 @@
             },
             "qlfM8SKyTfcOFY0T": {
               "name": "侍祭 Acolyte",
-              "description": "<p>你在一座宗教寺院或修道院中度过早年。你可能因为要传播你的宗教理念或是抛弃了信仰的教诲，从而出外云游四海，但在你的内心深处，将永远留下你曾学到的东西。</p>\n<p>选择两项属性提升。一项必须是<strong>智力</strong>或<strong>感知</strong>，另一项为自选属性提升。</p>\n<p>你在宗教技能和文书（Scribing）学识技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.x7EMZNMavris2aHY]{神学士}技能专长。</p>",
+              "description": "<p>你在一座宗教寺院或修道院中度过早年。你可能因为要传播你的宗教理念或是抛弃了信仰的教诲，从而出外云游四海，但在你的内心深处，将永远留下你曾学到的东西。</p>\n<p>选择两项属性提升。一项必须是<strong>智力</strong>或<strong>感知</strong>，另一项为自选属性提升。</p>\n<p>你在宗教技能和文书学识技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.x7EMZNMavris2aHY]{神学士}技能专长。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -8639,7 +8639,7 @@
             },
             "yIMawfTUfjJlUIQ7": {
               "name": "罪犯 Criminal",
-              "description": "<p>作为一个无法无天的独行犯，或是一名地下组织的成员，你曾有过一段犯罪生涯。你成为冒险者的原因可能是为了赎罪，可能是想躲避法律制裁，也可能仅仅是在追求更丰厚的赃款。</p>\n<p>选择两项属性提升。一项必须是<strong>敏捷</strong>或<strong>智力</strong>，另一项为自选属性提升。</p>\n<p>你在隐秘技能和黑道学识技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.t3btih0O5RUwWynt]{老练走私者}技能专长。</p>",
+              "description": "<p>作为一个无法无天的独行犯，或是一名地下组织的成员，你曾有过一段犯罪生涯。你成为冒险者的原因可能是为了赎罪，可能是想躲避法律制裁，也可能仅仅是在追求更丰厚的赃款。</p>\n<p>选择两项属性提升。一项必须是<strong>敏捷</strong>或<strong>智力</strong>，另一项为自选属性提升。</p>\n<p>你在隐秘技能和黑道学识技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.t3btih0O5RUwWynt]{走私老手}技能专长。</p>",
               "gmDescription": "",
               "heighteningLevels": {},
               "overlays": {},
@@ -9586,7 +9586,7 @@
             },
             "lPkEg7L6c62bKkp0": {
               "name": "+1武器潜能 Weapon Potency (+1)",
-              "description": "<p>魔法强化使这把武器打击更准。用这把武器进行的攻击掷骰获得+1物品加值，且该武器可以被蚀刻一枚属性符文。</p>\n<p>你可以将已经蚀刻在武器上的<em>武器威能</em>符文升级为更强的版本，将现有符文的数值提升为新符文的数值。你必须拥有更强符文的配方才能这么做，且升级的价格为两枚符文价格之间的差额。</p>\n<p><strong>制造条件</strong> 你的手艺达到专家熟练度。</p>",
+              "description": "<p>魔法强化使这把武器打击更准。用这把武器进行的攻击掷骰获得+1物品加值，且该武器可以被蚀刻一枚性能符文。</p>\n<p>你可以将已经蚀刻在武器上的<em>武器潜能</em>符文升级为更强的版本，将现有符文的数值提升为新符文的数值。你必须拥有更强符文的配方才能这么做，且升级的价格为两枚符文价格之间的差额。</p>\n<p><strong>制造条件</strong> 你的手艺达到专家熟练度。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -9715,7 +9715,7 @@
             },
             "wQnr5CYeSG42u1xq": {
               "name": "失重油 Oil of Weightlessness",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操控）</p>\n<hr />\n<p>你可以将这种闪亮的油涂在负载不超过1的物品上，让它感觉轻若无物。在接下来的1小时内，该物品的负载可忽略。</p>",
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<hr />\n<p>你可以将这种闪亮的油涂在负载不超过1的物品上，让它感觉轻若无物。在接下来的1小时内，该物品的负载可忽略。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -9725,7 +9725,7 @@
             },
             "xPNKhMxvRLTbHE8Z": {
               "name": "+1武器潜能 Weapon Potency (+1)",
-              "description": "<p>魔法强化使这把武器打击更准。用这把武器进行的攻击掷骰获得+1物品加值，且该武器可以被蚀刻一枚属性符文。</p>\n<p>你可以将已经蚀刻在武器上的<em>武器威能</em>符文升级为更强的版本，将现有符文的数值提升为新符文的数值。你必须拥有更强符文的配方才能这么做，且升级的价格为两枚符文价格之间的差额。</p>\n<p><strong>制造条件</strong> 你的手艺达到专家熟练度。</p>",
+              "description": "<p>魔法强化使这把武器打击更准。用这把武器进行的攻击掷骰获得+1物品加值，且该武器可以被蚀刻一枚性能符文。</p>\n<p>你可以将已经蚀刻在武器上的<em>武器潜能</em>符文升级为更强的版本，将现有符文的数值提升为新符文的数值。你必须拥有更强符文的配方才能这么做，且升级的价格为两枚符文价格之间的差额。</p>\n<p><strong>制造条件</strong> 你的手艺达到专家熟练度。</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -9948,7 +9948,7 @@
             },
             "8GEab40Ls1HHKpXW": {
               "name": "次等生命灵药 Elixir of Life (Lesser)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操控）</p><hr /><p>生命灵药能够加速身体的自然治愈进程并增强免疫系统。在饮用生命灵药后，你恢复@Damage[(3d6+6)[healing]]点生命值并于10分钟内在对抗疾病和毒素的豁免检定上获得+1物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{效果：生命灵药}</p>",
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>生命灵药能够加速身体的自然治愈进程并增强免疫系统。在饮用生命灵药后，你恢复@Damage[(3d6+6)[healing]]点生命值并于10分钟内在对抗疾病和毒素的豁免检定上获得+1物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{效果：生命灵药}</p>",
               "gmDescription": "",
               "unidentifiedName": "",
               "heighteningLevels": {},
@@ -10279,7 +10279,7 @@
           "unidentifiedDescription": ""
         },
         "2qlzex8JPTeMN4ww": {
-          "name": "饮品 - 一杯阿格纳酒 Drink - Mug of Agnar",
+          "name": "饮品 - 一杯阿格纳 Drink - Mug of Agnar",
           "description": "<p>一种能让你立刻精神起来的无酒精热饮。想要更够劲，不妨兑上一小杯你爱喝的酒，甚至威士忌。</p>",
           "gmDescription": "",
           "unidentifiedName": "奇特物体 Unusual Object",
@@ -10331,7 +10331,7 @@
           "unidentifiedDescription": ""
         },
         "zW5uhLO7f6L86R0H": {
-          "name": "饮品 - 一大杯果味苹果酒 Drink - Mug of Fruit Cider",
+          "name": "饮品 - 一大杯无酒精果饮 Drink - Mug of Fruit Cider",
           "description": "<p>一大杯无酒精果饮，孩童、不饮酒者，以及不愿在正午前沾酒的人都可放心享用。</p>",
           "gmDescription": "",
           "unidentifiedName": "奇特物体 Unusual Object",
@@ -11174,7 +11174,7 @@
           "pages": {
             "WV7cK3Rk4xJCcGIB": {
               "name": "简介 Introduction",
-              "text": "<img src=\"modules/tianzes-otari-extras/Assets/Vignettes/Otari-Street.jpg\"><p>Tianze's Otari Extras 是一套以奥塔里镇为背景的地图与内容合集。奥塔里镇是多部探索者剧本的舞台，其中包括<em>奥塔里地下的威胁</em>（新手包冒险）、<em>憎恶地窟冒险路线</em>以及<em>奥塔里的麻烦</em>。</p><p>我决定把这个模组作为我的冒险与地图的免费入门作品发布。这些地图的最初版本是我在跑团时做的；后来我开始用 Forgotten Adventures 的素材改进它们，于是就想试试自己做模组。</p><p><span style=\"font-family:Signika, sans-serif\">地图使用<a href=\"https://dungeondraft.net/\">DungeonDraft </a>制作，素材来自<a href=\"http://localhost:30000/forgotten-adventures.net\" style=\"box-sizing:border-box;user-select:text;cursor:pointer;color:var(--color-text-hyperlink);transition:text-shadow 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, backdrop-filter 0.15s ease-in-out 0s, border-radius 0.15s ease 0s\">Forgotten Adventures</a>。</span></p><p><span style=\"font-family:Signika, sans-serif\">肖像与插图使用<a href=\"https://www.bing.com/images/create\" style=\"box-sizing:border-box;user-select:text;cursor:pointer;color:var(--color-text-hyperlink);transition:text-shadow 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, backdrop-filter 0.15s ease-in-out 0s, border-radius 0.15s ease 0s\">Bing Image Creator</a>制作，然后再加以润饰并制成指示物。</span></p><p>宏是我东拼西凑做出来的，参考的例子分别来自 Foundry 的 Reddit 版块、Foundry 官方 Discord 的 Macro Polo 频道，以及憎恶地窟冒险路线。</p><h2>3.1 版更新——总体清理</h2><p>我清理了一些被配置为 Item Piles 的商人角色，它们可能会导致价格为零。</p><p>新增了一张武器与护甲的随机表。</p><p>重新填充了若干商人角色的库存。</p><p>移除了一些不再有指示物美术、本该上次就删掉的角色。</p><h2>包含内容</h2><ul><li><p>乌鸦酒桶</p><ul><li><p>带指示物的地图</p></li><li><p>地点日志页</p></li><li><p>遭遇——喧闹的赌徒</p></li></ul></li><li><p>骗子之角</p><ul><li><p>桥梁地图</p></li><li><p>带指示物的酒馆地图</p></li><li><p>带指示物的二层地图</p></li><li><p>地点日志页</p></li><li style=\"box-sizing:border-box;user-select:text\"><p style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px\"><span style=\"font-family:Signika, sans-serif\"><em style=\"box-sizing:border-box;user-select:text\">鱼鹰俱乐部的邀请</em>，一场为游荡者角色准备的短篇冒险。</span></p></li></ul></li><li><p>奥塔里市场</p><ul><li><p>带指示物的地图</p></li><li><p>地点日志页</p></li><li><p>遭遇——敌对帮派</p></li></ul></li><li><p><em>深入废墟</em>，一场短篇冒险，取材自下列作品中的冒险引子：<em>憎恶地窟</em>。</p><ul><li><p>带指示物的废墟地图</p></li><li><p>带指示物的巢穴地图</p></li><li><p>地点日志页</p></li><li><p>角色与物品</p></li></ul></li><li><p>渔营</p><ul><li><p>渔营地图</p></li><li><p>地点日志页</p></li><li><p>遭遇——入室来袭，附带指示物</p></li></ul></li><li><p>酒馆物品</p><ul><li><p>一份消耗品清单，用于给客栈、市场摊贩与马厩等服务型商人补货。</p></li></ul></li><li><p>库存充足的商人角色</p><ul><li><p>7 名以奥塔里各地点为原型的商人角色</p></li><li><p>7 名为奥塔里市场原创的商人</p></li></ul></li><li><p>便捷宏</p><ul><li><p>许多地图都带有小巧的宏，可以切换图块的可见性，或者同时开关灯光。这些宏可以在相关的日志页里找到，也可以在宏文件夹中找到——请找 Otari Extras 文件夹。</p></li></ul></li></ul><h2>遭遇的前提假设</h2><p>这些遭遇假定队伍在 2 级左右，并且已经在奥塔里一带冒险过。也许他们已经完成了下列之一：</p><ul><li><p><em>探索者新手包</em></p></li><li><p>下列作品中的开篇剧本：<em>奥塔里的麻烦</em></p></li><li><p>下列作品的第一层：<em>憎恶地窟</em></p></li></ul><p>他们此时应当已经开始在镇上积累正面声望，多数商人至少知道他们是谁。</p><h2>遭遇与地图理念</h2><p>在做了许多除了赏心悦目之外毫无用处的地图之后——比如那些我永远凑不齐足够微缩模型或指示物去填满的客栈与店铺——我给自己定下了这样一条规矩：</p><p style=\"text-align:center\"><em>每张地图都值得拥有一场遭遇。</em></p><p>把它想成你作为创作者给这张地图的祝福。毕竟，一旦你在上面办过一场战斗或其他推动剧情的遭遇，这张地图依然可以回到它原本的用途：可以住宿的客栈、可以采购的市场，或是可以改建成家园基地的废墟。</p><p>但为了让这张地图的存在站得住脚，我喜欢把它用在某场能推动我所讲述之故事的遭遇里——不管其中是否包含战斗。</p><p>基于这一点，本模组中的每张地图都至少配有一场遭遇，并且应当能融入任何以奥塔里为舞台的游戏。</p><h2>酒馆物品</h2><p>玩家喜欢有东西可买，也喜欢看点养眼的玩意儿。这些物品能给他们一些真正会进入背包的东西，而且他们随后可以点击那个<em>消耗</em>按钮来使用它们。把它想成一杯虚拟麦酒、一次虚拟沐浴，或者在客栈房间里虚拟地住上一晚。这些在我自己的游戏里大受欢迎。</p><p>所有酒馆物品都使用 Foundry 核心图标，应该能在你的游戏世界中长期保留。</p><p>饮品<em>阿格纳</em>是一种类似咖啡或茶的提神热饮，由我自己虚构。</p><h2>商人角色</h2><p>这些商人角色的灵感来自一个很棒的小型内容模组：<em>PF2e a shopping experience</em>。不过我自己重新做了一套。</p><p>多数商人的灵感来自<em>憎恶地窟</em>中的角色，或与之相关联，还有少数直接取自那个模组。每位商人的描述中都写有店铺名称，以及该商人的简短生平或值得一提的信息。</p><p>我只为本模组所含的地图创建了角色。你还可以为这些地图创建的其他可能商人有：</p><ul><li><p>奥塔里渔场的塔米莉，售卖饮品与中世纪街头小吃。</p></li><li><p>加仑丁快递的奥罗瑞亚，提供马匹寄养服务。</p></li><li><p>奥塔里兵营的拉尔杜斯，提供马匹寄养服务</p></li></ul><p>我也收录了下面这些商人角色，但对应的实际场景属于 Tianze's Gauntlight Extras：</p><ul><li><p>喧闹石斑鱼，提供食物、饮品、床位、沐浴与马匹寄养。</p></li><li><p>晨花图书馆的店铺，提供药水、教士用品、魔法消耗品与武器，以及符文。</p></li></ul><p>我强烈推荐使用<em><strong>Item Piles</strong></em>模组来充实商人角色，并加入完整的买卖功能，以及营业时间、专属库存随机表之类的其他调整。</p><h2>来自憎恶地窟的角色</h2><p>为了避免依赖随<em>憎恶地窟</em>一同安装的肖像与指示物美术，我重新制作了各场遭遇所需的全部角色。</p><h2>官方角色与物品</h2><p>角色与物品标签页中的所有内容，除了上文所述由我创建的那些之外，都直接来自资料库。</p><p>地图上完整放置的正是角色标签页中的同一批角色。日志中的角色则指向资料库。</p><p>为了方便与试玩测试，我还收录了一套调整到 2 级的标志性角色。</p><h2>推荐</h2><p>我想借此机会感谢并推荐下列附加模组与服务的创作者。</p><h3>付费模组</h3><ul><li><p><em><strong>憎恶地窟</strong></em>不仅是一部出色的冒险路线，更是一次完整的多媒体体验：地图、角色、插图、音乐、环境音效以及场景专属音效一应俱全。它塞满了各种好用的工具，你会发现自己在别处也用得上。而且，它还在教我怎么写出更好的宏。:)</p></li><li><p><em><strong>奥塔里的麻烦</strong></em>，是 Paizo 出品的一系列短篇冒险，故事全部发生在奥塔里及其周边地区。</p></li><li><p><em><strong>Mercenary Marketplace</strong></em>，我在凄凉灯塔扩充包里用过它，它能帮你按职业、工作或角色定位来搭建 NPC 角色。</p></li></ul><h3>免费模组</h3><ul><li><p>作为本模组的配套，我要极力推荐<em><strong>Footsteps of Otari</strong></em>，作者是<a href=\"https://github.com/MarkPearce\">马克·皮尔斯</a>。马克的合集启发我做出了这一套，而我只做了他合集里没有的地图。它确实包含若干重绘自憎恶地窟的地图，但并不依赖那个模组。</p></li><li><p><em><strong>PF2e a shopping experience</strong></em>是一个精巧的小型内容模组，其中一套是为奥塔里商人预置的店铺，另一套则是按等级划分、适用于任何战役的预置店铺。</p></li><li><p><em><strong>Item Piles</strong></em>。我强烈推荐使用这个模组，它能让商人角色更便捷、更自动化。我太喜欢这个模组了，甚至差点把它列为本模组的依赖。不过，每位商人具体该怎么运作，还是应该由游戏主持人决定。</p></li></ul>",
+              "text": "<img src=\"modules/tianzes-otari-extras/Assets/Vignettes/Otari-Street.jpg\"><p>Tianze's Otari Extras 是一套以奥塔里镇为背景的地图与内容合集。奥塔里镇是多部探索者剧本的舞台，其中包括<em>奥塔里地下的威胁</em>（新手包冒险）、<em>憎恨魔窟冒险路线</em>以及<em>奥塔里的麻烦</em>。</p><p>我决定把这个模组作为我的冒险与地图的免费入门作品发布。这些地图的最初版本是我在跑团时做的；后来我开始用 Forgotten Adventures 的素材改进它们，于是就想试试自己做模组。</p><p><span style=\"font-family:Signika, sans-serif\">地图使用<a href=\"https://dungeondraft.net/\">DungeonDraft </a>制作，素材来自<a href=\"http://localhost:30000/forgotten-adventures.net\" style=\"box-sizing:border-box;user-select:text;cursor:pointer;color:var(--color-text-hyperlink);transition:text-shadow 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, backdrop-filter 0.15s ease-in-out 0s, border-radius 0.15s ease 0s\">Forgotten Adventures</a>。</span></p><p><span style=\"font-family:Signika, sans-serif\">肖像与插图使用<a href=\"https://www.bing.com/images/create\" style=\"box-sizing:border-box;user-select:text;cursor:pointer;color:var(--color-text-hyperlink);transition:text-shadow 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, backdrop-filter 0.15s ease-in-out 0s, border-radius 0.15s ease 0s\">Bing Image Creator</a>制作，然后再加以润饰并制成指示物。</span></p><p>宏是我东拼西凑做出来的，参考的例子分别来自 Foundry 的 Reddit 版块、Foundry 官方 Discord 的 Macro Polo 频道，以及憎恨魔窟冒险路线。</p><h2>3.1 版更新——总体清理</h2><p>我清理了一些被配置为 Item Piles 的商人角色，它们可能会导致价格为零。</p><p>新增了一张武器与护甲的随机表。</p><p>重新填充了若干商人角色的库存。</p><p>移除了一些不再有指示物美术、本该上次就删掉的角色。</p><h2>包含内容</h2><ul><li><p>乌鸦酒桶</p><ul><li><p>带指示物的地图</p></li><li><p>地点日志页</p></li><li><p>遭遇——喧闹的赌徒</p></li></ul></li><li><p>骗子之角</p><ul><li><p>桥梁地图</p></li><li><p>带指示物的酒馆地图</p></li><li><p>带指示物的二层地图</p></li><li><p>地点日志页</p></li><li style=\"box-sizing:border-box;user-select:text\"><p style=\"box-sizing:border-box;user-select:text;margin:0.5em 0px\"><span style=\"font-family:Signika, sans-serif\"><em style=\"box-sizing:border-box;user-select:text\">鱼鹰会所的邀请</em>，一场为游荡者角色准备的短篇冒险。</span></p></li></ul></li><li><p>奥塔里市场</p><ul><li><p>带指示物的地图</p></li><li><p>地点日志页</p></li><li><p>遭遇——敌对帮派</p></li></ul></li><li><p><em>深入废墟</em>，一场短篇冒险，取材自下列作品中的冒险引子：<em>憎恨魔窟</em>。</p><ul><li><p>带指示物的废墟地图</p></li><li><p>带指示物的巢穴地图</p></li><li><p>地点日志页</p></li><li><p>角色与物品</p></li></ul></li><li><p>渔营</p><ul><li><p>渔营地图</p></li><li><p>地点日志页</p></li><li><p>遭遇——入室来袭，附带指示物</p></li></ul></li><li><p>酒馆物品</p><ul><li><p>一份消耗品清单，用于给客栈、市场摊贩与马厩等服务型商人补货。</p></li></ul></li><li><p>库存充足的商人角色</p><ul><li><p>7 名以奥塔里各地点为原型的商人角色</p></li><li><p>7 名为奥塔里市场原创的商人</p></li></ul></li><li><p>便捷宏</p><ul><li><p>许多地图都带有小巧的宏，可以切换图块的可见性，或者同时开关灯光。这些宏可以在相关的日志页里找到，也可以在宏文件夹中找到——请找 Otari Extras 文件夹。</p></li></ul></li></ul><h2>遭遇的前提假设</h2><p>这些遭遇假定队伍在 2 级左右，并且已经在奥塔里一带冒险过。也许他们已经完成了下列之一：</p><ul><li><p><em>探索者新手包</em></p></li><li><p>下列作品中的开篇剧本：<em>奥塔里的麻烦</em></p></li><li><p>下列作品的第一层：<em>憎恨魔窟</em></p></li></ul><p>他们此时应当已经开始在镇上积累正面声望，多数商人至少知道他们是谁。</p><h2>遭遇与地图理念</h2><p>在做了许多除了赏心悦目之外毫无用处的地图之后——比如那些我永远凑不齐足够微缩模型或指示物去填满的客栈与店铺——我给自己定下了这样一条规矩：</p><p style=\"text-align:center\"><em>每张地图都值得拥有一场遭遇。</em></p><p>把它想成你作为创作者给这张地图的祝福。毕竟，一旦你在上面办过一场战斗或其他推动剧情的遭遇，这张地图依然可以回到它原本的用途：可以住宿的客栈、可以采购的市场，或是可以改建成家园基地的废墟。</p><p>但为了让这张地图的存在站得住脚，我喜欢把它用在某场能推动我所讲述之故事的遭遇里——不管其中是否包含战斗。</p><p>基于这一点，本模组中的每张地图都至少配有一场遭遇，并且应当能融入任何以奥塔里为舞台的游戏。</p><h2>酒馆物品</h2><p>玩家喜欢有东西可买，也喜欢看点养眼的玩意儿。这些物品能给他们一些真正会进入背包的东西，而且他们随后可以点击那个<em>消耗</em>按钮来使用它们。把它想成一杯虚拟麦酒、一次虚拟沐浴，或者在客栈房间里虚拟地住上一晚。这些在我自己的游戏里大受欢迎。</p><p>所有酒馆物品都使用 Foundry 核心图标，应该能在你的游戏世界中长期保留。</p><p>饮品<em>阿格纳</em>是一种类似咖啡或茶的提神热饮，由我自己虚构。</p><h2>商人角色</h2><p>这些商人角色的灵感来自一个很棒的小型内容模组：<em>PF2e a shopping experience</em>。不过我自己重新做了一套。</p><p>多数商人的灵感来自<em>憎恨魔窟</em>中的角色，或与之相关联，还有少数直接取自那个模组。每位商人的描述中都写有店铺名称，以及该商人的简短生平或值得一提的信息。</p><p>我只为本模组所含的地图创建了角色。你还可以为这些地图创建的其他可能商人有：</p><ul><li><p>奥塔里渔场的塔米莉，售卖饮品与中世纪街头小吃。</p></li><li><p>加仑丁快递的奥罗瑞亚，提供马匹寄养服务。</p></li><li><p>奥塔里兵营的拉尔杜斯，提供马匹寄养服务</p></li></ul><p>我也收录了下面这些商人角色，但对应的实际场景属于 Tianze's Gauntlight Extras：</p><ul><li><p>喧闹石斑鱼，提供食物、饮品、床位、沐浴与马匹寄养。</p></li><li><p>晨花图书馆的店铺，提供药水、教士用品、魔法消耗品与武器，以及符文。</p></li></ul><p>我强烈推荐使用<em><strong>Item Piles</strong></em>模组来充实商人角色，并加入完整的买卖功能，以及营业时间、专属库存随机表之类的其他调整。</p><h2>来自憎恨魔窟的角色</h2><p>为了避免依赖随<em>憎恨魔窟</em>一同安装的肖像与指示物美术，我重新制作了各场遭遇所需的全部角色。</p><h2>官方角色与物品</h2><p>角色与物品标签页中的所有内容，除了上文所述由我创建的那些之外，都直接来自资料库。</p><p>地图上完整放置的正是角色标签页中的同一批角色。日志中的角色则指向资料库。</p><p>为了方便与试玩测试，我还收录了一套调整到 2 级的标志性角色。</p><h2>推荐</h2><p>我想借此机会感谢并推荐下列附加模组与服务的创作者。</p><h3>付费模组</h3><ul><li><p><em><strong>憎恨魔窟</strong></em>不仅是一部出色的冒险路线，更是一次完整的多媒体体验：地图、角色、插图、音乐、环境音效以及场景专属音效一应俱全。它塞满了各种好用的工具，你会发现自己在别处也用得上。而且，它还在教我怎么写出更好的宏。:)</p></li><li><p><em><strong>奥塔里的麻烦</strong></em>，是 Paizo 出品的一系列短篇冒险，故事全部发生在奥塔里及其周边地区。</p></li><li><p><em><strong>Mercenary Marketplace</strong></em>，我在凄凉灯塔扩充包里用过它，它能帮你按职业、工作或角色定位来搭建 NPC 角色。</p></li></ul><h3>免费模组</h3><ul><li><p>作为本模组的配套，我要极力推荐<em><strong>Footsteps of Otari</strong></em>，作者是<a href=\"https://github.com/MarkPearce\">马克·皮尔斯</a>。马克的合集启发我做出了这一套，而我只做了他合集里没有的地图。它确实包含若干重绘自憎恨魔窟的地图，但并不依赖那个模组。</p></li><li><p><em><strong>PF2e a shopping experience</strong></em>是一个精巧的小型内容模组，其中一套是为奥塔里商人预置的店铺，另一套则是按等级划分、适用于任何战役的预置店铺。</p></li><li><p><em><strong>Item Piles</strong></em>。我强烈推荐使用这个模组，它能让商人角色更便捷、更自动化。我太喜欢这个模组了，甚至差点把它列为本模组的依赖。不过，每位商人具体该怎么运作，还是应该由游戏主持人决定。</p></li></ul>",
               "src": null,
               "mejItems": {}
             },
@@ -11240,13 +11240,13 @@
             },
             "ryiye20MlHDh7l4H": {
               "name": "挑战二 - 技能 Challenge 2 - Skills",
-              "text": "<p>考验在午夜开始，那时骗子之角已经打烊，客人也都散尽。</p><p>这是一场在时间紧迫下对贼活、敏捷与隐秘的检验。本项测试应在遭遇模式下进行。</p><ul><li><p><strong>第一轮</strong> —— 开锁</p><ul><li><p>候选人必须打开某个舱口上的一把劣质锁：</p><ul><li><p>需要两次成功的@Check[type:thievery|dc:15]检定才能打开（每次 1 个动作）。会员们会记下候选人一共尝试了多少次。</p></li></ul></li></ul></li><li><p><strong>接下来两轮</strong> —— 捉迷藏</p><ul><li><p> 本轮开始时，两名会员（特技演员，见下文）会朝桥下区的两端飞奔而去，试图找出候选人在下述步骤中的藏身之处。</p></li><li><p>这两名盗贼会在第 3 轮结束时从桥下区的两端赶到。</p></li><li><p>候选人必须打开舱口（1 个动作），然后跳下舱口并借势荡出，落到下方的木板道上（1 个动作）。</p><ul><li><p>一次成功的@Check[type:dexterity|dc:20]检定</p></li><li><p>在盗贼赶到之前，至少一次成功的@Check[type:hide|dc:20]检定。</p></li></ul></li></ul></li><li><p><strong>最后一轮</strong>，候选人必须一直不被特技演员发现，直到两名特技演员都找到他，或直到宣布时限已到。</p><ul><li><p>针对每名特技演员的 DC 进行三次成功的@Check[type:stealth|dc:20]检定。他们并不协同行动。</p></li></ul></li></ul><h3>对手</h3><p>2 @UUID[Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953]{特技演员}</p><h3>考验通过标准</h3><p>可接受的最低标准如下：</p><ul><li><p>在第 1 步中，用至少 3 个动作打开锁。</p></li><li><p>在第 2 步中，候选人成功落到木板道上。</p></li><li><p>在第 3 步中，候选人至少能在一名特技演员的一次搜索动作下继续保持躲藏。</p></li></ul>",
+              "text": "<p>考验在午夜开始，那时骗子之角已经打烊，客人也都散尽。</p><p>这是一场在时间紧迫下对贼活、敏捷与隐秘的检验。本项测试应在遭遇模式下进行。</p><ul><li><p><strong>第一轮</strong> —— 开锁</p><ul><li><p>候选人必须打开某个舱口上的一把劣质锁：</p><ul><li><p>需要两次成功的@Check[type:thievery|dc:15]检定才能打开（每次 1 个动作）。会员们会记下候选人一共尝试了多少次。</p></li></ul></li></ul></li><li><p><strong>接下来两轮</strong> —— 捉迷藏</p><ul><li><p> 本轮开始时，两名会员（杂技演员，见下文）会朝桥下区的两端飞奔而去，试图找出候选人在下述步骤中的藏身之处。</p></li><li><p>这两名盗贼会在第 3 轮结束时从桥下区的两端赶到。</p></li><li><p>候选人必须打开舱口（1 个动作），然后跳下舱口并借势荡出，落到下方的木板道上（1 个动作）。</p><ul><li><p>一次成功的@Check[type:dexterity|dc:20]检定</p></li><li><p>在盗贼赶到之前，至少一次成功的@Check[type:hide|dc:20]检定。</p></li></ul></li></ul></li><li><p><strong>最后一轮</strong>，候选人必须一直不被杂技演员发现，直到两名杂技演员都找到他，或直到宣布时限已到。</p><ul><li><p>针对每名杂技演员的 DC 进行三次成功的@Check[type:stealth|dc:20]检定。他们并不协同行动。</p></li></ul></li></ul><h3>对手</h3><p>2 @UUID[Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953]{杂技演员}</p><h3>考验通过标准</h3><p>可接受的最低标准如下：</p><ul><li><p>在第 1 步中，用至少 3 个动作打开锁。</p></li><li><p>在第 2 步中，候选人成功落到木板道上。</p></li><li><p>在第 3 步中，候选人至少能在一名杂技演员的一次搜索动作下继续保持躲藏。</p></li></ul>",
               "src": null,
               "mejItems": {}
             },
             "0K5naQhqHIPjAjnw": {
               "name": "挑战三 - 背叛测试 Challenge 3 - Treachery Test",
-              "text": "<p>最后一项考验是盗贼式的格斗。在桥下区域中，候选人会与一名会员搭档，对抗另外两名会员，同时接受伊娜斯梅拉与其余俱乐部成员的观察。</p><p>这项演练的重点并不在于这名盗贼是否格斗出众，尽管评判战斗本领当然也是其中一环。盗贼格斗考验的重点，是评估候选人与他人组队配合得如何、面对挫败时反应如何，以及他有多大的背叛倾向。</p><p>身为行会会长，伊娜斯梅拉早已见识过形形色色的背叛，她宁可不接纳任何被她判定为奸诈之徒的人。</p><p>因此，候选人会被刻意安排去对付一个比他更强的对手，此人会尽可能地骚扰与刁难候选人，好看看他面对挫败时如何应对。</p><h3>盟友</h3><p>2 @UUID[Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953]{特技演员}</p><h3>对手</h3><p>2 @UUID[Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953]{特技演员}</p><p>1 @UUID[Compendium.pf2e.npc-gallery.Actor.B09JfuBZHjcRXztU]{窃贼}</p><h3>考验通过标准</h3><p>每一名观战的会员都会按 1 至 5 的简单等级为候选人的整体表现打分。8 名会员中至少有 5 人给出 3 分或更高，即视为通过。</p>",
+              "text": "<p>最后一项考验是盗贼式的格斗。在桥下区域中，候选人会与一名会员搭档，对抗另外两名会员，同时接受伊娜斯梅拉与其余俱乐部成员的观察。</p><p>这项演练的重点并不在于这名盗贼是否格斗出众，尽管评判战斗本领当然也是其中一环。盗贼格斗考验的重点，是评估候选人与他人组队配合得如何、面对挫败时反应如何，以及他有多大的背叛倾向。</p><p>身为行会会长，伊娜斯梅拉早已见识过形形色色的背叛，她宁可不接纳任何被她判定为奸诈之徒的人。</p><p>因此，候选人会被刻意安排去对付一个比他更强的对手，此人会尽可能地骚扰与刁难候选人，好看看他面对挫败时如何应对。</p><h3>盟友</h3><p>2 @UUID[Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953]{杂技演员}</p><h3>对手</h3><p>2 @UUID[Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953]{杂技演员}</p><p>1 @UUID[Compendium.pf2e.npc-gallery.Actor.B09JfuBZHjcRXztU]{夜贼}</p><h3>考验通过标准</h3><p>每一名观战的会员都会按 1 至 5 的简单等级为候选人的整体表现打分。8 名会员中至少有 5 人给出 3 分或更高，即视为通过。</p>",
               "src": null,
               "mejItems": {}
             },
@@ -11288,7 +11288,7 @@
             },
             "C68IC2K0VBRJBl4Y": {
               "name": "简介 Introduction",
-              "text": "<p>这是一场短篇冒险，适合已经开始在奥塔里闯出名号的英雄——也许他们刚打完新手包的冒险——但还没有深入涉足奥塔里一带的其他冒险。</p><h1>冒险如何开始</h1><p>冒险始于乌鸦酒桶酒馆的女老板玛吉洛派人捎信，请队伍去见她。</p><p>（注：这条冒险引子取自<em>憎恶地窟</em>。）</p><p>玛吉洛曾是海盗——咳——是航海者，同时也是一位造诣不俗的炼金术士。她经营着镇上人气最旺的旅店。让她挂心的不只是那家旅店的坍塌，还有近来的一些新动静。</p><p>他们到达后，她把他们领出后门，指了指河对岸。</p><blockquote><p>河对岸那个大坑——得有人管管了。住在附近的人说，那里开始冒出诡异的灯火和吓人的声响。而且，还有<strong>什么东西</strong>在坑里搭了个棚子。我担心在底下捣鬼的那玩意儿会让靠河的地方也塌下来，把这一整片都冲垮。</p></blockquote><p>一些可能的问答：</p><p>店主后来怎么样了？</p><blockquote><p>惨得很。我们把他的尸体从瓦砾里拖了出来，还有他家里的好几口人。剩下的只能当作是埋在更深的废墟底下了。</p></blockquote><p>卫队为什么不管这事？</p><blockquote><p>唉，他们本来是在看着那地方的，可那边的动静——尤其是夜里的——把他们吓得不轻。他们是来保护镇子不受强盗和海盗侵扰的，对付那类人他们还算称职。可要他们去查闹鬼的事，他们一点都不想沾。</p></blockquote><p>那个棚子是什么时候出现的？</p><blockquote><p>两天前的夜里。卫兵本想过去拆除它，结果被那些灯火和声响吓跑了。他们还在琢磨该怎么办，可我受够了这种拖拖拉拉，我的邻居们也一样。</p></blockquote><p>等他们问完问题后，她会补上一句：</p><blockquote><p>作为报酬，我可以给你们每人 10 枚金币，另外我会向镇长递一份请愿书，请他把那块地的地契授予你们。我还能找些邻居在请愿书上签名。我不敢打包票，不过凭你们来到这儿之后做的那些事，我觉得那老头会愿意把你们留在身边。</p></blockquote><h1>进一步调查</h1><p>如果玩家向“口渴羊驼”的邻居打听发生了什么，他们会确认那些怪异的景象与声响，但也提供不了别的什么。如今他们尽量绕着那片地方走，并且很希望这个麻烦能被解决。</p>",
+              "text": "<p>这是一场短篇冒险，适合已经开始在奥塔里闯出名号的英雄——也许他们刚打完新手包的冒险——但还没有深入涉足奥塔里一带的其他冒险。</p><h1>冒险如何开始</h1><p>冒险始于乌鸦酒桶酒馆的女老板玛吉洛派人捎信，请队伍去见她。</p><p>（注：这条冒险引子取自<em>憎恨魔窟</em>。）</p><p>玛吉洛曾是海盗——咳——是航海者，同时也是一位造诣不俗的炼金术士。她经营着镇上人气最旺的旅店。让她挂心的不只是那家旅店的坍塌，还有近来的一些新动静。</p><p>他们到达后，她把他们领出后门，指了指河对岸。</p><blockquote><p>河对岸那个大坑——得有人管管了。住在附近的人说，那里开始冒出诡异的灯火和吓人的声响。而且，还有<strong>什么东西</strong>在坑里搭了个棚子。我担心在底下捣鬼的那玩意儿会让靠河的地方也塌下来，把这一整片都冲垮。</p></blockquote><p>一些可能的问答：</p><p>店主后来怎么样了？</p><blockquote><p>惨得很。我们把他的尸体从瓦砾里拖了出来，还有他家里的好几口人。剩下的只能当作是埋在更深的废墟底下了。</p></blockquote><p>卫队为什么不管这事？</p><blockquote><p>唉，他们本来是在看着那地方的，可那边的动静——尤其是夜里的——把他们吓得不轻。他们是来保护镇子不受强盗和海盗侵扰的，对付那类人他们还算称职。可要他们去查闹鬼的事，他们一点都不想沾。</p></blockquote><p>那个棚子是什么时候出现的？</p><blockquote><p>两天前的夜里。卫兵本想过去拆除它，结果被那些灯火和声响吓跑了。他们还在琢磨该怎么办，可我受够了这种拖拖拉拉，我的邻居们也一样。</p></blockquote><p>等他们问完问题后，她会补上一句：</p><blockquote><p>作为报酬，我可以给你们每人 10 枚金币，另外我会向镇长递一份请愿书，请他把那块地的地契授予你们。我还能找些邻居在请愿书上签名。我不敢打包票，不过凭你们来到这儿之后做的那些事，我觉得那老头会愿意把你们留在身边。</p></blockquote><h1>进一步调查</h1><p>如果玩家向“口渴羊驼”的邻居打听发生了什么，他们会确认那些怪异的景象与声响，但也提供不了别的什么。如今他们尽量绕着那片地方走，并且很希望这个麻烦能被解决。</p>",
               "src": null,
               "mejItems": {}
             },
@@ -11300,7 +11300,7 @@
             },
             "4DL5ziDlYhRPaMkk": {
               "name": "危害 Hazard",
-              "text": "<p>梯子正西侧有一处危害：</p><p>@UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.6NijRSpkIuQpSxUp]{尖刺发射器}</p><p>@Check[perception|dc:19]才能发现这具尖刺发射器。</p>",
+              "text": "<p>梯子正西侧有一处危害：</p><p>@UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.6NijRSpkIuQpSxUp]{尖钉发射器}</p><p>@Check[perception|dc:19]才能发现这具尖钉发射器。</p>",
               "src": null,
               "mejItems": {}
             },
@@ -11438,7 +11438,7 @@
             },
             "wxBI4r1xUcRQGTc4": {
               "name": "亨克的大块肉 Hunk's Hunks of Meat",
-              "text": "<p>售卖以肉类为主的中世纪街头小吃。</p><p>摊主：@UUID[Actor.YIdym8aYOgcwL6yv]{汉克·海斯泰珀}</p>",
+              "text": "<p>售卖以肉类为主的中世纪街头小吃。</p><p>摊主：@UUID[Actor.YIdym8aYOgcwL6yv]{亨克·海步者}</p>",
               "src": null,
               "mejItems": {}
             },
@@ -11679,7 +11679,7 @@
                   "kitContents": {}
                 },
                 "iyaR5RGppHurFFcR": {
-                  "name": "饮品 - 一杯阿格纳酒 Drink - Mug of Agnar",
+                  "name": "饮品 - 一杯阿格纳 Drink - Mug of Agnar",
                   "description": "<p>一种能让你立刻打起精神的无酒精热饮。想要更带劲，不妨兑上一小杯你钟爱的酒，甚至威士忌。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "奇特物体 Unusual Object",
@@ -12230,7 +12230,7 @@
                 },
                 "yBYbqIucd4XPYBXh": {
                   "name": "空心简单谜题箱 Puzzle Box (Simple) (Hollow)",
-                  "description": "<p>谜题箱设有活动部件、锁定机构以及其他用来难住使用者的组件。解开谜题箱通常需要成功通过三次 DC 15 的赌博学识检定或@Check[type:thievery|dc:15|name:Puzzle Box]检定来开锁。不过谜题箱的构造与主题千变万化，GM 可以决定哪些技能适用。</p>\n<hr />\n<p>中空谜题箱的中心设有空舱，让你能把物品藏在盒内。只有解开谜题箱的人才能取出里面的物品。中空谜题箱可以容纳一件容积可忽略、直径不超过 1 英寸的物品。任何谜题箱都可以制成中空谜题箱，价格会因此翻倍。</p>",
+                  "description": "<p>谜题箱设有活动部件、锁定机构以及其他用来难住使用者的组件。解开谜题箱通常需要成功通过三次 DC 15 的赌博学识检定或@Check[type:thievery|dc:15|name:Puzzle Box]检定来开锁。不过谜题箱的构造与主题千变万化，GM 可以决定哪些技能适用。</p>\n<hr />\n<p>中空谜题箱的中心设有空舱，让你能把物品藏在盒内。只有解开谜题箱的人才能取出里面的物品。中空谜题箱可以容纳一件负载可忽略、直径不超过 1 英寸的物品。任何谜题箱都可以制成中空谜题箱，价格会因此翻倍。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -12370,7 +12370,7 @@
                 },
                 "ihpheczca7SqWZjk": {
                   "name": "冒险装备包 Adventurer's Pack",
-                  "description": "<p>这是一套冒险者入门装备，包含探索和生存所需的必备物品。所列容积为整套装备的总容积，需要时可查阅各件物品的说明。</p>\n<p>装备包含以下物品：一个背包、一套铺盖、10支粉笔、燧石与火镰、50尺绳索、2周份口粮、肥皂、5支火把以及一个水袋。</p>",
+                  "description": "<p>这是一套冒险者入门装备，包含探索和生存所需的必备物品。所列负载为整套装备的总负载，需要时可查阅各件物品的说明。</p>\n<p>装备包含以下物品：一个背包、一套铺盖、10支粉笔、燧石与火镰、50尺绳索、2周份口粮、肥皂、5支火把以及一个水袋。</p>",
                   "gmDescription": "",
                   "heighteningLevels": {},
                   "overlays": {},
@@ -12476,7 +12476,7 @@
                 },
                 "SK7SNBfTD2rIChHO": {
                   "name": "鞍囊 Saddlebags",
-                  "description": "<p>鞍袋成对使用。每个鞍袋最多能装 3 容积的物品，其中最初的 1 容积物品不计入坐骑的容积上限。所列容积值适用于由坐骑佩戴的鞍袋。如果你携带或收纳鞍袋，其容积视为 1，而非轻容积。</p>",
+                  "description": "<p>鞍袋成对使用。每个鞍袋最多能装 3 负载的物品，其中最初的 1 负载物品不计入坐骑的负载上限。所列负载值适用于由坐骑佩戴的鞍袋。如果你携带或收纳鞍袋，其负载视为 1，而非轻负载。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -12771,7 +12771,7 @@
                 },
                 "1Mzyn05loXammV9K": {
                   "name": "次等治愈膏药 Healer's Gel (Lesser)",
-                  "description": "<p><strong>启动</strong> 施放法术</p>\n<hr />\n<p>这些舒缓贴布散发着稀有多肉植物的清涩香气。将这种材料成分加入一道治疗术，会额外赋予一个被该法术治疗的目标5点临时生命值。这些临时生命值持续1分钟。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.sOwAqyQ6MaoSqaY1]{效果：次等医者凝胶}</p>",
+                  "description": "<p><strong>启动</strong> 施放法术</p>\n<hr />\n<p>这些舒缓贴布散发着稀有多肉植物的清涩香气。将这种材料成分加入一道治疗术，会额外赋予一个被该法术治疗的目标5点临时生命值。这些临时生命值持续1分钟。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.sOwAqyQ6MaoSqaY1]{效果：次等治愈膏药}</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -13180,7 +13180,7 @@
           "pages": {
             "RHW6v8rygUAVmpdY": {
               "name": "亨克的大块肉 Hunk's Hunks of Meat",
-              "text": "<p>汉克是贾拉的弟弟。两人一起经营家里的农场，多数日子都在这里售卖农场的出产。</p>\n<p>贾拉讨厌这个摊位的名字，汉克自己却乐在其中。他也很喜欢客人拿它开玩笑，谁把他逗笑了就能拿到折扣。</p>",
+              "text": "<p>亨克是贾拉的弟弟。两人一起经营家里的农场，多数日子都在这里售卖农场的出产。</p>\n<p>贾拉讨厌这个摊位的名字，亨克自己却乐在其中。他也很喜欢客人拿它开玩笑，谁把他逗笑了就能拿到折扣。</p>",
               "src": "modules/tianzes-otari-extras/Assets/Portraits/Hunk-Butcher.jpg",
               "mejShopType": "食品店",
               "mejLocation": "奥塔里市场",
@@ -13444,7 +13444,7 @@
                 },
                 "spmWZqfGvZ6TZ4X4": {
                   "name": "防锈油 Anticorrosion Oil",
-                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>你可以用<em>防锈油</em>涂抹容积为 6 或更低的物体。在 24 小时内，该物体受到的酸蚀伤害，以及所有明确会使其生锈或腐蚀的效果造成的伤害均减半，例如接触锈蚀怪的触须。</p>",
+                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>你可以用<em>防锈油</em>涂抹负载为 6 或更低的物体。在 24 小时内，该物体受到的酸蚀伤害，以及所有明确会使其生锈或腐蚀的效果造成的伤害均减半，例如接触锈蚀怪的触须。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -13494,7 +13494,7 @@
                 },
                 "QI0iShxRVrsBivyj": {
                   "name": "+1武器潜能 Weapon Potency (+1)",
-                  "description": "<p>魔法强化使这把武器打击更准。用这把武器进行的攻击掷骰获得+1物品加值，且该武器可以被蚀刻一枚属性符文。</p>\n<p>你可以将已经蚀刻在武器上的<em>武器威能</em>符文升级为更强的版本，将现有符文的数值提升为新符文的数值。你必须拥有更强符文的配方才能这么做，且升级的价格为两枚符文价格之间的差额。</p>\n<p><strong>制造条件</strong> 你的手艺达到专家熟练度。</p>",
+                  "description": "<p>魔法强化使这把武器打击更准。用这把武器进行的攻击掷骰获得+1物品加值，且该武器可以被蚀刻一枚属性符文。</p>\n<p>你可以将已经蚀刻在武器上的<em>武器潜能</em>符文升级为更强的版本，将现有符文的数值提升为新符文的数值。你必须拥有更强符文的配方才能这么做，且升级的价格为两枚符文价格之间的差额。</p>\n<p><strong>制造条件</strong> 你的手艺达到专家熟练度。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -13689,7 +13689,7 @@
                   "kitContents": {}
                 },
                 "DjNlE6NmhiVObkxh": {
-                  "name": "饮品 - 一大杯果味苹果酒 Drink - Mug of Fruit Cider",
+                  "name": "饮品 - 一大杯无酒精果饮 Drink - Mug of Fruit Cider",
                   "description": "<p>一杯不含酒精的果味饮料，适合儿童、不饮酒者，以及选择午前不沾酒的人。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "奇特物体 Unusual Object",
@@ -13898,7 +13898,7 @@
                 },
                 "LRReJ5rzbIvxIRBt": {
                   "name": "幽灵安瓿 Ghost Ampoule",
-                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p>\n<p>这个玻璃容器里有一团轻轻抽动的灵质，散发着微弱的幽光。打开后，它会形成一个逝去灵魂的回声，看起来像一只中型幽灵。启动安瓿时，你可以将它投掷至多30尺远。幽灵发出最后的哀叹，迫使除你以外、处于@Template[type:emanation|distance:15]内的每个活物尝试一次@Check[type:will|dc:18]豁免。失败的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧 2}（大失败则陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧 3}）。</p>\n<hr />\n<p><strong>制作要求</strong> 提供被摧毁的幽灵留下的灵质残留物。</p>",
+                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p>\n<p>这个玻璃容器里有一团轻轻抽动的灵质，散发着微弱的幽光。打开后，它会形成一个逝去灵魂的回声，看起来像一只中型幽灵。启动安瓿时，你可以将它投掷至多30尺远。幽灵发出最后的哀叹，迫使除你以外、处于@Template[type:emanation|distance:15]内的每个活物尝试一次@Check[type:will|dc:18]豁免。失败的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}（大失败则陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 3}）。</p>\n<hr />\n<p><strong>制作要求</strong> 提供被摧毁的幽灵留下的灵质残留物。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -13907,7 +13907,7 @@
                   "kitContents": {}
                 },
                 "lldQ1sZ3XRZGgAJd": {
-                  "name": "饮品 - 一杯阿格纳酒 Drink - Mug of Agnar",
+                  "name": "饮品 - 一杯阿格纳 Drink - Mug of Agnar",
                   "description": "<p>一种能让你立刻打起精神的无酒精热饮。想要更带劲，不妨兑上一小杯你钟爱的酒，甚至威士忌。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "奇特物体 Unusual Object",
@@ -13931,7 +13931,7 @@
                 },
                 "DHVd89hRTvUmWApM": {
                   "name": "次等动物驱逐剂 Animal Repellent (Lesser)",
-                  "description": "<p>动物驱避剂是一种恶臭的炼金物质，会让你对某一种动物而言变得令人作呕。比如，你可以制造猿类驱避剂、熊类驱避剂或蛇类驱避剂，但不能制造影响所有动物的驱避剂。该驱避剂对与该类动物相似但实际上并非动物的生物无效——例如，熊类驱避剂对熊化人无效。动物驱避剂对智力调整值为–3或更高的动物无效，例如觉醒动物。当你最初学会动物驱避剂的配方时，你会学会所有常见动物的配方。若某一类动物都不属于常见，例如海蛇，你必须分别学会该类的配方，且其稀有度与该类中稀有度最低的生物相同。</p>\n<p>你通过将动物驱避剂洒在自己身上或一名触及范围内的生物身上，或将其涂抹在一个最大为10尺见方的区域表面上来启动它。该驱避剂持续24小时，或直到用1分钟的工作（由多个交互动作构成）将其刷洗干净为止。被指定的那类动物能在正常距离的三倍远处闻到驱避剂的气味。</p>\n<p>被指定的那类生物通常会避开被涂覆的生物或区域，因为其气味恶臭且会令其感到不安。若处于战斗中或其他受惊状态，该生物只有在成功通过一次意志豁免（其DC由动物驱避剂的类型决定）时，才能接近到受影响的生物或区域20尺以内。一旦成功通过此豁免，该动物会获得1分钟的暂时免疫。若该动物以会使其品尝到或吞入驱避剂的方式进行攻击，则必须成功通过一次@Check[type:fortitude|dc:18]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}（若为大失败则为@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}）。</p>",
+                  "description": "<p>动物驱逐剂是一种恶臭的炼金物质，会让你对某一种动物而言变得令人作呕。比如，你可以制造猿类驱逐剂、熊类驱逐剂或蛇类驱逐剂，但不能制造影响所有动物的驱逐剂。该驱逐剂对与该类动物相似但实际上并非动物的生物无效——例如，熊类驱逐剂对熊化人无效。动物驱逐剂对智力调整值为–3或更高的动物无效，例如觉醒动物。当你最初学会动物驱逐剂的配方时，你会学会所有常见动物的配方。若某一类动物都不属于常见，例如海蛇，你必须分别学会该类的配方，且其稀有度与该类中稀有度最低的生物相同。</p>\n<p>你通过将动物驱逐剂洒在自己身上或一名触及范围内的生物身上，或将其涂抹在一个最大为10尺见方的区域表面上来启动它。该驱逐剂持续24小时，或直到用1分钟的工作（由多个交互动作构成）将其刷洗干净为止。被指定的那类动物能在正常距离的三倍远处闻到驱逐剂的气味。</p>\n<p>被指定的那类生物通常会避开被涂覆的生物或区域，因为其气味恶臭且会令其感到不安。若处于战斗中或其他受惊状态，该生物只有在成功通过一次意志豁免（其DC由动物驱逐剂的类型决定）时，才能接近到受影响的生物或区域20尺以内。一旦成功通过此豁免，该动物会获得1分钟的暂时免疫。若该动物以会使其品尝到或吞入驱逐剂的方式进行攻击，则必须成功通过一次@Check[type:fortitude|dc:18]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}（若为大失败则为@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}）。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -13994,7 +13994,7 @@
                 },
                 "eJhzVF6OhvG9P5RV": {
                   "name": "外交官的熟食盘 Diplomat's Charcuterie",
-                  "description": "<p><strong>启动</strong> 10分钟（交互）</p>\n<p>外交官的熟食盘常见于政治集会，包含精美肉食、奶酪、坚果、水果及其他可手取的小食，并混入能让食用者彼此产生友善感受的试剂。拼盘内容随厨师和预期口味而变化，从林诺姆诸王之地熟食盘中的丰盛香肠和硬奶酪，到图维亚拼盘中的辣椒奶酪凝乳和烟熏杏仁，应有尽有。通过食用熟食盘启动它后，你在用于@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{留下印象}的交涉检定和用于@UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{察言观色}的察觉检定中获得+1物品加值。这些加值持续24小时，或直到你下次每日准备时结束，以先发生者为准。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.inqXnzrqYzbUBuOj]{效果：外交官的熟食盘}</p>",
+                  "description": "<p><strong>启动</strong> 10分钟（交互）</p>\n<p>外交官的熟食盘常见于政治集会，包含精美肉食、奶酪、坚果、水果及其他可手取的小食，并混入能让食用者彼此产生友善感受的试剂。拼盘内容随厨师和预期口味而变化，从林诺姆诸王之地熟食盘中的丰盛香肠和硬奶酪，到图维亚拼盘中的辣椒奶酪凝乳和烟熏杏仁，应有尽有。通过食用熟食盘启动它后，你在用于@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}的交涉检定和用于@UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{察言观色}的察觉检定中获得+1物品加值。这些加值持续24小时，或直到你下次每日准备时结束，以先发生者为准。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.inqXnzrqYzbUBuOj]{效果：外交官的熟食盘}</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -14004,7 +14004,7 @@
                 },
                 "htCWBqhYAPyjsNwM": {
                   "name": "绿色涂层 Colorful Coating (Green)",
-                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">3</span> 交互</p>\n<p>这些涂层有不同的颜色，每种颜色都有不同的特殊效果。一瓶彩色涂层足以涂满你触及范围内或所占空间中的一个5尺方格，瓶上配有专用分配器，让你只用一只手就能涂覆表面。涂层可以用于任何能够上漆的表面（由GM裁定）。彩色涂层会立即干燥，在所涂方格中的效果持续1分钟。此后，涂层会变成细小而无活性的粉末；除非另有说明，该方格恢复原状。</p>\n<p>绿色涂层干燥后形成低摩擦力的表面。它使方格变得湿滑，同时成为困难地形和不平整地面，@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{平衡}的DC为20。执行快步或爬行的生物无须尝试平衡。</p>\n<p>该涂层还会使涂覆的墙壁或天花板更难攀爬。攀爬涂覆表面的检定承受+2环境减值。</p>\n<p>黄色涂层和绿色涂层的效果相反。若两者涂在同一表面上，其效果相互抵消。</p>",
+                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">3</span> 交互</p>\n<p>这些涂层有不同的颜色，每种颜色都有不同的特殊效果。一瓶彩色涂层足以涂满你触及范围内或所占空间中的一个5尺方格，瓶上配有专用分配器，让你只用一只手就能涂覆表面。涂层可以用于任何能够上漆的表面（由GM裁定）。彩色涂层会立即干燥，在所涂方格中的效果持续1分钟。此后，涂层会变成细小而无活性的粉末；除非另有说明，该方格恢复原状。</p>\n<p>绿色涂层干燥后形成低摩擦力的表面。它使方格变得湿滑，同时成为困难地形和不平整地面，@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}的DC为20。执行快步或爬行的生物无须尝试平衡。</p>\n<p>该涂层还会使涂覆的墙壁或天花板更难攀爬。攀爬涂覆表面的检定承受+2环境减值。</p>\n<p>黄色涂层和绿色涂层的效果相反。若两者涂在同一表面上，其效果相互抵消。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -14014,7 +14014,7 @@
                 },
                 "ngkrxXkYHhKje5yt": {
                   "name": "中等猎豹灵药 Cheetah's Elixir (Moderate)",
-                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操控）</p>\n<hr />\n<p>灵药中的酶类化合物强化并激发你的腿部肌肉。你的速度获得+10尺状态加值，持续10分钟。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.j9zVZwRBVAcnpEkE]{效果：中等猎豹灵药}</p>",
+                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>灵药中的酶类化合物强化并激发你的腿部肌肉。你的速度获得+10尺状态加值，持续10分钟。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.j9zVZwRBVAcnpEkE]{效果：中等猎豹灵药}</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -14034,7 +14034,7 @@
                 },
                 "znfT4onNJJxfdVv0": {
                   "name": "次等发烟球 Smoke Ball (Lesser)",
-                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操控）</p>\n<hr />\n<p>将这颗球砸在地上后，你立即制造一片浓厚、不透明的烟幕，范围为以你所占空间的一角为中心的@Template[type:burst|distance:5]。区域内的所有生物都处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，所有其他生物对它们也处于隐蔽。烟雾持续1分钟，或直到被强风吹散。</p>",
+                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<hr />\n<p>将这颗球砸在地上后，你立即制造一片浓厚、不透明的烟幕，范围为以你所占空间的一角为中心的@Template[type:burst|distance:5]。区域内的所有生物都处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，所有其他生物对它们也处于隐蔽。烟雾持续1分钟，或直到被强风吹散。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -14117,7 +14117,7 @@
                 },
                 "BuuncV8RlJblUvsA": {
                   "name": "发泡鸡蛋奶油 Egg Cream Fizz",
-                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>发泡鸡蛋奶油其实既不含鸡蛋也不含奶油，而是将牛奶或坚果奶、气泡水和调味糖浆混合打泡并冷却而成。饮用后，你感到身体轻盈、充满浮力，速度获得+5尺物品加值，持续10分钟。在此期间，你还获得一种由饮品糖浆决定的额外效果，糖浆种类在制作时选定。</p>\n<ul>\n<li><strong>巧克力</strong> 用于@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}、空中机动和挤过的特技检定获得+1物品加值。</li>\n<li><strong>草莓</strong> 用于攀爬、@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}和游泳的运动检定获得+1物品加值。</li>\n<li><strong>香草</strong> 你可以快步进入困难地形。</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.C3VRrOCZndaBIE1q]{效果：发泡鸡蛋奶油}</p>",
+                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>发泡鸡蛋奶油其实既不含鸡蛋也不含奶油，而是将牛奶或坚果奶、气泡水和调味糖浆混合打泡并冷却而成。饮用后，你感到身体轻盈、充满浮力，速度获得+5尺物品加值，持续10分钟。在此期间，你还获得一种由饮品糖浆决定的额外效果，糖浆种类在制作时选定。</p>\n<ul>\n<li><strong>巧克力</strong> 用于@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}、空中机动和挤入的特技检定获得+1物品加值。</li>\n<li><strong>草莓</strong> 用于攀爬、@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}和游泳的运动检定获得+1物品加值。</li>\n<li><strong>香草</strong> 你可以快步进入困难地形。</li>\n</ul>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.C3VRrOCZndaBIE1q]{效果：发泡鸡蛋奶油}</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -14137,7 +14137,7 @@
                 },
                 "35KW2THC774CyRZL": {
                   "name": "次等诱捕香料 Animal Nip (Lesser)",
-                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操控）</p>\n<hr />\n<p>诱捕香料由多种芳香草本植物混合研磨成粗粉，浓烈气味能吸引许多种动物。将其撒在地上或你选择的目标上，即可启动。在接下来的1分钟内，30尺内所有具有动物特征的生物必须进行@Check[type:will|dc:18]豁免，失败则因诱捕香料的气味而@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}1轮。大失败时，它们还会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}，在地上打滚。如果目标受到敌对行为影响，迷魂立即结束。无论豁免结果如何，该生物随后都对诱捕香料免疫1小时。</p>",
+                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<hr />\n<p>诱捕香料由多种芳香草本植物混合研磨成粗粉，浓烈气味能吸引许多种动物。将其撒在地上或你选择的目标上，即可启动。在接下来的1分钟内，30尺内所有具有动物特征的生物必须进行@Check[type:will|dc:18]豁免，失败则因诱捕香料的气味而@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}1轮。大失败时，它们还会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}，在地上打滚。如果目标受到敌对行为影响，迷魂立即结束。无论豁免结果如何，该生物随后都对诱捕香料免疫1小时。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -14147,7 +14147,7 @@
                 },
                 "klyvDp1T0tzvmwXZ": {
                   "name": "下等动物驱逐剂 Animal Repellent (Minor)",
-                  "description": "<p>动物驱避剂是一种恶臭的炼金物质，会让你对某一种动物而言变得令人作呕。比如，你可以制造猿类驱避剂、熊类驱避剂或蛇类驱避剂，但不能制造影响所有动物的驱避剂。该驱避剂对与该类动物相似但实际上并非动物的生物无效——例如，熊类驱避剂对熊化人无效。动物驱避剂对智力调整值为–3或更高的动物无效，例如觉醒动物。当你最初学会动物驱避剂的配方时，你会学会所有常见动物的配方。若某一类动物都不属于常见，例如海蛇，你必须分别学会该类的配方，且其稀有度与该类中稀有度最低的生物相同。</p>\n<p>你通过将动物驱避剂洒在自己身上或一名触及范围内的生物身上，或将其涂抹在一个最大为10尺见方的区域表面上来启动它。该驱避剂持续24小时，或直到用1分钟的工作（由多个交互动作构成）将其刷洗干净为止。被指定的那类动物能在正常距离的三倍远处闻到驱避剂的气味。</p>\n<p>被指定的那类生物通常会避开被涂覆的生物或区域，因为其气味恶臭且会令其感到不安。若处于战斗中或其他受惊状态，该生物只有在成功通过一次意志豁免（其DC由动物驱避剂的类型决定）时，才能接近到受影响的生物或区域20尺以内。一旦成功通过此豁免，该动物会获得1分钟的暂时免疫。若该动物以会使其品尝到或吞入驱避剂的方式进行攻击，则必须成功通过一次@Check[type:fortitude|dc:15]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}（若为大失败则为@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}）。</p>",
+                  "description": "<p>动物驱逐剂是一种恶臭的炼金物质，会让你对某一种动物而言变得令人作呕。比如，你可以制造猿类驱逐剂、熊类驱逐剂或蛇类驱逐剂，但不能制造影响所有动物的驱逐剂。该驱逐剂对与该类动物相似但实际上并非动物的生物无效——例如，熊类驱逐剂对熊化人无效。动物驱逐剂对智力调整值为–3或更高的动物无效，例如觉醒动物。当你最初学会动物驱逐剂的配方时，你会学会所有常见动物的配方。若某一类动物都不属于常见，例如海蛇，你必须分别学会该类的配方，且其稀有度与该类中稀有度最低的生物相同。</p>\n<p>你通过将动物驱逐剂洒在自己身上或一名触及范围内的生物身上，或将其涂抹在一个最大为10尺见方的区域表面上来启动它。该驱逐剂持续24小时，或直到用1分钟的工作（由多个交互动作构成）将其刷洗干净为止。被指定的那类动物能在正常距离的三倍远处闻到驱逐剂的气味。</p>\n<p>被指定的那类生物通常会避开被涂覆的生物或区域，因为其气味恶臭且会令其感到不安。若处于战斗中或其他受惊状态，该生物只有在成功通过一次意志豁免（其DC由动物驱逐剂的类型决定）时，才能接近到受影响的生物或区域20尺以内。一旦成功通过此豁免，该动物会获得1分钟的暂时免疫。若该动物以会使其品尝到或吞入驱逐剂的方式进行攻击，则必须成功通过一次@Check[type:fortitude|dc:15]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}（若为大失败则为@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}）。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -14321,7 +14321,7 @@
                 },
                 "cCSXvaSuWaNvbyQv": {
                   "name": "幽灵墨水 Ghost Ink",
-                  "description": "<p><strong>启动</strong> 10 分钟（交互）</p>\n<p>这种浅蓝色墨水干得很快，涂写 1 分钟后会完全透明。暴露于火把或其他明火等热源时，墨水会发出红光。只有持续受热时它才会发光，之后便再次隐形。幽灵墨水的制作者可以稍微调整配方，使墨水改为对阳光、星光、魔法光照，或日光杖等炼金效果产生的不发热光照作出反应。</p>\n<p>文字没有发光时，仔细检查幽灵墨水所标记表面的生物可以成功通过一次@Check[type:perception|dc:25|traits:action:seek]检定来发现墨水的存在。大成功时，它能辨认出足够的墨迹，从而使用社会技能@UUID[Compendium.pf2e.actionspf2e.Item.d9gbpiQjChYDYA2L]{破译文字}。一瓶幽灵墨水足以写满一页文字。</p>",
+                  "description": "<p><strong>启动</strong> 10 分钟（交互）</p>\n<p>这种浅蓝色墨水干得很快，涂写 1 分钟后会完全透明。暴露于火把或其他明火等热源时，墨水会发出红光。只有持续受热时它才会发光，之后便再次隐形。幽灵墨水的制作者可以稍微调整配方，使墨水改为对阳光、星光、魔法光照，或日光杖等炼金效果产生的不发热光照作出反应。</p>\n<p>文字没有发光时，仔细检查幽灵墨水所标记表面的生物可以成功通过一次@Check[type:perception|dc:25|traits:action:seek]检定来发现墨水的存在。大成功时，它能辨认出足够的墨迹，从而使用社群技能@UUID[Compendium.pf2e.actionspf2e.Item.d9gbpiQjChYDYA2L]{解译文书}。一瓶幽灵墨水足以写满一页文字。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -14371,7 +14371,7 @@
                 },
                 "Gc4QNvRak6W3h2GS": {
                   "name": "蛇油 Snake Oil",
-                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操控）</p>\n<hr />\n<p>你可以将蛇油涂在伤口或其他苦难、状态的外在症状上（例如疾病造成的溃疡，或毒素造成的肤色变化）。在接下来的1小时内，该症状消失，受伤或遭受苦难的生物也不再觉得自己仍有伤口或苦难，但所有效果仍然存在。一个生物可以通过@Check[type:perception|dc:17|traits:action:seek]检定识破这个骗局，但前提是使用搜索动作，专门检查蛇油的效果。</p>",
+                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>你可以将蛇油涂在伤口或其他苦难、状态的外在症状上（例如疾病造成的溃疡，或毒素造成的肤色变化）。在接下来的1小时内，该症状消失，受伤或遭受苦难的生物也不再觉得自己仍有伤口或苦难，但所有效果仍然存在。一个生物可以通过@Check[type:perception|dc:17|traits:action:seek]检定识破这个骗局，但前提是使用搜索动作，专门检查蛇油的效果。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -14381,7 +14381,7 @@
                 },
                 "JEnpYPzwRDjjEpE0": {
                   "name": "次等发烟球 Smoke Ball (Lesser)",
-                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操控）</p>\n<hr />\n<p>将这颗球砸在地上后，你立即制造一片浓厚、不透明的烟幕，范围为以你所占空间的一角为中心的@Template[type:burst|distance:5]。区域内的所有生物都处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，所有其他生物对它们也处于隐蔽。烟雾持续1分钟，或直到被强风吹散。</p>",
+                  "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<hr />\n<p>将这颗球砸在地上后，你立即制造一片浓厚、不透明的烟幕，范围为以你所占空间的一角为中心的@Template[type:burst|distance:5]。区域内的所有生物都处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，所有其他生物对它们也处于隐蔽。烟雾持续1分钟，或直到被强风吹散。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -14511,7 +14511,7 @@
                 },
                 "1FUYRTLM2qkGv0iL": {
                   "name": "魔术手帕 Legerdemain Handkerchief",
-                  "description": "<p>这块带褶边的银灰色手帕，外表看起来是一件时髦的个人卫生用品，却可以用来悄悄让极小的物品消失。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p><strong>需求</strong> 手帕完全盖住一件容积可忽略的物品</p>\n<hr />\n<p><strong>效果</strong> 手帕将盖住的物品传送进自己的异次元空间。这个空间同一时间只能容纳一件物品，因此，取走任何物品时，原本存放在空间内的物品都会替代它的位置。你也可以用此动作将已在异次元空间内的物品取出，而不放入替代品。此启动不能用于被生物携带的物品，除非携带它的生物允许。将手帕盖到物品上通常需要一次交互动作。</p>",
+                  "description": "<p>这块带褶边的银灰色手帕，外表看起来是一件时髦的个人卫生用品，却可以用来悄悄让极小的物品消失。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p><strong>需求</strong> 手帕完全盖住一件负载可忽略的物品</p>\n<hr />\n<p><strong>效果</strong> 手帕将盖住的物品传送进自己的异次元空间。这个空间同一时间只能容纳一件物品，因此，取走任何物品时，原本存放在空间内的物品都会替代它的位置。你也可以用此动作将已在异次元空间内的物品取出，而不放入替代品。此启动不能用于被生物携带的物品，除非携带它的生物允许。将手帕盖到物品上通常需要一次交互动作。</p>",
                   "gmDescription": "",
                   "unidentifiedName": "",
                   "heighteningLevels": {},
@@ -15044,7 +15044,7 @@
               "description": ""
             },
             "dPCFLGLds0BctJz7": {
-              "name": "饮品 - 一杯阿格纳酒 Drink - Mug of Agnar",
+              "name": "饮品 - 一杯阿格纳 Drink - Mug of Agnar",
               "description": ""
             },
             "TFQSKlF2lHULEZoF": {
@@ -16244,7 +16244,7 @@
               "description": ""
             },
             "KgUEn1zPkNP87fCF": {
-              "name": "法杖 Staff",
+              "name": "杖 Staff",
               "description": ""
             },
             "MJtn80dCaBl97Two": {
@@ -16448,7 +16448,7 @@
               "description": ""
             },
             "FAjMiLijNOwiPe6G": {
-              "name": "饮品 - 一杯阿格纳酒 Drink - Mug of Agnar",
+              "name": "饮品 - 一杯阿格纳 Drink - Mug of Agnar",
               "description": ""
             },
             "9tYH19wObulis6Fo": {
@@ -16464,7 +16464,7 @@
               "description": ""
             },
             "MHYUYblm5vUzTuWT": {
-              "name": "饮品 - 一大杯果味苹果酒 Drink - Mug of Fruit Cider",
+              "name": "饮品 - 一大杯无酒精果饮 Drink - Mug of Fruit Cider",
               "description": ""
             },
             "6vgh5ouGLXUe35v1": {
@@ -16562,7 +16562,7 @@
           "description": "<p>根据酒馆物品文件夹中的内容生成的随机表。</p>",
           "results": {
             "FAjMiLijNOwiPe6G": {
-              "name": "饮品 - 一杯阿格纳酒 Drink - Mug of Agnar",
+              "name": "饮品 - 一杯阿格纳 Drink - Mug of Agnar",
               "description": ""
             },
             "9tYH19wObulis6Fo": {

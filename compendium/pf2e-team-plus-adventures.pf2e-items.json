@@ -1,5 +1,9 @@
 {
   "entries": {
+    "00ffysa3Ywyv8T9h": {
+      "name": "效果：魔法鱼（表演） Effect: Magic Fish (Performance)",
+      "description": "<p>表演检定获得+2状态加值。</p><p>该效果持续的时间为鱼的体型类别每级10分钟（见@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.5IvmjgSTqemo5HVd]{食物}）。</p>"
+    },
     "0D9u8F4sPcBErqe9": {
       "name": "恐怖凝视 Terrifying Gaze",
       "description": "<p>无论是暗示表面之下的存在，还是展露怪物的威压，你的宿主之躯都能激起恐惧。你获得@UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{金刚怒目}技能专长。进行@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{挫败士气}时，你忽略@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态对技能检定施加的状态减值。</p>",
@@ -137,6 +141,10 @@
         }
       ]
     },
+    "1dSEHgtPQWqYtfX2": {
+      "name": "潜伏危险 Lurking Danger",
+      "description": "<p><strong>触发</strong> 一名玩家进行察觉检定，或一个生物尝试隐秘检定。</p><p><strong>花费</strong> 1点反派点</p><hr /><p>危险与未知总是形影不离，令人难以放心。如果触发的是察觉检定，掷骰两次，取较低结果。如果触发的是隐秘检定，掷骰两次，取较高结果。</p>"
+    },
     "27VMu4Akwhi2KbGy": {
       "name": "谜团 Enigma",
       "description": "<p>你为何要做那些事？任何解释真的能让人满意吗？世上有已知与未知，而在两者之外，还有更多事物。你是谜团的化身，朦胧的来历与隐秘的动机赋予你令人惊异的力量。</p><p><strong>传承</strong> 异能</p><p><strong>诡计技能</strong> 神秘</p><p><strong>把戏锦囊</strong> 戏法：@UUID[Compendium.pf2e.spells-srd.vLzFcIaSXs7YTIqJ]{传讯术}；1环：@UUID[Compendium.pf2e.spells-srd.pBevG6bSQOiyflev]{迷惑术}；2环：@UUID[Compendium.pf2e.spells-srd.GF7mOra8KPTW5Ggb]{损友难防}；3环：@UUID[Compendium.pf2e.spells-srd.GurWFDj4IjKv73kL]{词库摘除}；4环：@UUID[Compendium.pf2e.spells-srd.FwW2asotQE8dH1WP]{虚空低语}；5环：@UUID[Compendium.pf2e.spells-srd.mcck9womUsTf07nP]{舌音术}；6环：@UUID[Compendium.pf2e.spells-srd.WPXzPl7YbMEIGWfi]{假像术}；7环：@UUID[Compendium.pf2e.spells-srd.gMbrNFKz9NP3TR4s]{不竭猜忌}；8环：@UUID[Compendium.pf2e.spells-srd.y2cQYLr5mljDSu1G]{无休监控}；9环：@UUID[Compendium.pf2e.spells-srd.HHCgEEkeeShVQf8d]{二重身}</p><p><strong>嘲弄法术</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.KIB2sgklcpLwtB8i]{费解谜语}</p><p><strong>惯用手法</strong> 你的心理把戏令敌人摸不着头脑。当一个受骗的生物受到你创造的心灵效果影响时，你对抗该生物的AC获得等于其受骗状态值的环境加值。如果该心灵效果没有持续时间，或持续时间短于1轮，则此AC环境加值持续1轮。@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.gPGU6FlqTYyyBXCq]{效果：谜团惯用手法}</p>",
@@ -194,6 +202,10 @@
         }
       ]
     },
+    "34ELinj7Nz7fuukv": {
+      "name": "英勇恢复 Heroic Recovery",
+      "description": "<p><strong>触发</strong> 你的@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{濒死}值即将增加。</p><p><strong>花费</strong> 你的全部英雄点</p><hr /><p>你避开死亡。效果取决于你花费的英雄点数量。</p><hr /><p><strong>1点英雄点</strong> 你完全移除濒死状态，并以0点生命值稳定伤势。以此方式移除濒死不会使你获得@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{受伤}状态，也不会提高受伤值；但如果你已经处于该状态，则不会移除它或降低其数值。</p><p><strong>2点英雄点</strong> 如同1点英雄点，但你拥有1点生命值。如果此效果因你已有濒死状态而在回合开始时触发，你立即获得本回合的动作，并重新加入先攻序列。</p><p><strong>3点英雄点</strong> 如同2点英雄点，但你的生命值等于你的等级加体质调整值。</p>"
+    },
     "35KUmM61w0bAVheZ": {
       "name": "困住猎物 Trap Prey",
       "description": "<p><strong>频率</strong> 每轮一次</p><p><strong>触发</strong> 首领使一个生物陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}、@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态。</p><hr /><p>首领尝试用蛛网、藤蔓或其他手段困住敌人。目标必须进行一次@Check[reflex|dc:resolve(@actor.system.attributes.classDC.value)|adjustment:5]。无论结果如何，若首领的破绽被触发，此效果便立即结束。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 首领可以立即将触发此能力的状态改为持续至某个生物花费一个@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{交互}动作结束该状态，取代通常的持续时间。以这种方式施加状态时，首领无须继续维持相应情况或需求，例如擒拿所需的空闲手。</p><p><strong>失败</strong> 如同成功，但生物无法通过交互结束该状态。被困生物可以通过@Check[athletics|dc:resolve(@actor.system.attributes.classDC.value)|adjustment:5]或@Check[acrobatics|dc:resolve(@actor.system.attributes.classDC.value)|adjustment:5]尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}，其他生物则可以通过一次成功的@Check[athletics|dc:resolve(@actor.system.attributes.classDC.value)|adjustment:5]尝试解救被困生物。</p><p><strong>大失败</strong> 如同失败，但所有解救被困生物的尝试均承受–2状态减值。</p>"
@@ -201,6 +213,10 @@
     "3Ny5y5h4rqyQxhIL": {
       "name": "狡黠反应 Cunning Reactions",
       "description": "<p>机敏的反应正是狡黠的体现。在你的每个回合开始、恢复动作时，你获得一个额外反应，只能用于进行@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.CpuM8d830w129JDa]{狡黠伏击}。</p>"
+    },
+    "3c2mOvxBgzevD35J": {
+      "name": "垂钓 Go Fishing",
+      "description": "<p><strong>需求</strong> 你正持用鱼竿，有鱼饵，且位于一处有理由存在鱼类的水域旁。</p><hr /><p>你花费十分钟钓鱼。进行一次自然、生存或钓鱼学识检定，对抗该地点等级对应的等级DC。</p><hr /><p><strong>大成功</strong> 你钓到了好东西！在@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.QBYkbqTS34ZqP4tV]{地点表}上掷骰两次，取较高结果来决定上钩的鱼类。随后掷骰@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.lrvcwbYe8aNjl5sz]{收线}，将鱼拉上来。</p><p><strong>成功</strong> 如同大成功，但只在地点表上掷骰一次。</p><p><strong>失败</strong> 你没找到鱼。</p><p><strong>大失败</strong> 你犯了个错，把鱼吓跑了。一小时内，任何人都不能在此地点垂钓。</p>"
     },
     "3e14e8L7Gd7Yaq2z": {
       "name": "复仇打击 Avenging Strike",
@@ -264,6 +280,14 @@
           "value": "贼活传奇"
         }
       ]
+    },
+    "4JDQjTROl7eD0LaD": {
+      "name": "专业协助 Skilled Assistance",
+      "description": "<p>伙伴精于某个领域，乐意在需要时帮忙。GM给予此奖励时，选择一项需要技能检定的活动：独立关系选择休整活动，协作关系选择探索活动。进行该活动且能够获得NPC帮助时，你的相关技能检定获得等于关系阶位的环境加值。</p>"
+    },
+    "4P2JlkNVT0E4XApa": {
+      "name": "戏法导师 Cantrip Tutor",
+      "description": "<p><strong>先决条件</strong> 该NPC至少能施放一种戏法</p><p><strong>花费</strong> 1点心意点</p><hr /><p>伙伴教给你一点自己掌握的魔法，帮助你应对旅途。你获得该NPC掌握的一种戏法作为天生戏法，其施法体系与该NPC相同。</p>"
     },
     "4VjcoNX122scG1NN": {
       "name": "暴力投掷 Violent Throw",
@@ -376,6 +400,14 @@
           "translation": "当你以自己制作的魔法物品的效果指定一个受骗的生物为目标，且该效果要求你进行对抗其某项DC的检定，或要求目标进行豁免检定时，该生物的相应DC或豁免检定承受等于其受骗状态值的状态减值。如果受骗状态本就会使目标的相应DC或豁免检定承受状态减值，则对抗此效果的减值增加1。"
         }
       ]
+    },
+    "5OdQGuTGa69T78Vi": {
+      "name": "消息灵通 Rumor Mill",
+      "description": "<p><strong>花费</strong> 1点心意点</p><hr /><p>你不在时，伙伴替你查探一些问题。你可以让伙伴代为进行@UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{搜集信息}活动。他们使用相关技能中最高的技能，通常是交涉，但也可以是其他技能，例如寻求神圣指引时使用宗教，或进行研究时使用某项学识。</p>"
+    },
+    "5PByxxReR5OSnmt4": {
+      "name": "魔法援助 Provisor of Magic",
+      "description": "<p><strong>先决条件</strong> 该NPC能使用法术位施法</p><p><strong>花费</strong> 1点心意点</p><hr /><p>伙伴为你提供施法服务。GM选择伙伴能够使用法术位施放的一种法术。只要能够接触到这位与你建立关系的NPC，你就可以免费获得一次施法服务，但必须提供施放该法术所需的任何费用。法术可以是伙伴能施放的任意环级，最高为3环。</p><p>若将此奖励选作高阶奖励，则法术可以是伙伴能施放的任意环级，最高为6环。</p>"
     },
     "5VZCpyU3T9pg3DCj": {
       "name": "幽灵步 Ghost Walk",
@@ -534,9 +566,25 @@
         }
       ]
     },
+    "5eg6l0Mt9YZMpls9": {
+      "name": "慷慨赠礼 Gift-Giver",
+      "description": "<p><strong>花费</strong> 1点心意点</p><hr /><p>伙伴愿意将自己制作的某些物品赠予你，无论制作是其工作还是爱好。GM决定该NPC能够制作的一类消耗品，可以宽泛到“药水”或“炼金食物”，也可以具体到“生命灵药”或“合金球”。不应为此类别指定等级；若指定具体物品，则该物品应有更高等级的变体。该物品的等级不得高于PC等级的一半。</p><p>你可以请求该NPC提供所选类别中的一件物品，对方会免费赠予你。该物品具有灌注特征，但持续1周而非1天。若你与该NPC的关系达到第3阶，该物品最高可以达到PC的等级。</p>"
+    },
+    "5pM0KkFkTWI5yslf": {
+      "name": "厄运行步 Ill-Fated Move",
+      "description": "<p><strong>触发</strong> 一名玩家在一个生物30尺内开始执行移动动作。</p><p><strong>花费</strong> 1或2点反派点</p><hr /><p>移动有时并不容易，尤其是在敌人面前。效果取决于GM花费的反派点数量。</p><hr /><p><strong>1点反派点</strong> 触发涉及的生物可以用自由动作@UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{快步}。</p><p><strong>2点反派点</strong> 触发涉及的生物可以花费反应，@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}至多自身速度的一半。若拥有对应的移动类型，该生物可以用@UUID[Compendium.pf2e.actionspf2e.Item.H6v1VgowHaKHnVlG]{掘地}、@UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{攀爬}、@UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{飞行}或@UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{游泳}代替行走。</p>"
+    },
     "5s9j1AeXtmIK3qRg": {
       "name": "效果：惊吓（心灵煎熬） Effect: Scare (Wearing on the Mind)",
       "description": "<p>一切渐渐变得难以承受，折磨着心灵。区域内的生物受到等于其等级的一半乘以其恐惧值的持续心灵伤害（至少为1）。用于移除该持续伤害的纯骰检定DC增加等于该生物恐惧值的数值。</p>"
+    },
+    "6RMVWCj9LlqQnF7w": {
+      "name": "患难之交 Friend in Need",
+      "description": "<p><strong>触发</strong> 你尝试@UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{协助}另一个生物的检定。</p><p><strong>花费</strong> 1或2点英雄点</p><hr /><p>你知道，伸出援手往往能改变局面。</p><hr /><p><strong>1点英雄点</strong> 若协助成功，触发生物可以掷骰两次，取较好结果。</p><p><strong>2点英雄点</strong> 若协助成功，触发生物可以掷骰两次，取较好结果。无论该生物是否尝试重掷触发检定，其成功程度都提高一级。</p>"
+    },
+    "6sdU0vbzsmnpIydw": {
+      "name": "活下去的理由 A Reason to Live",
+      "description": "<p>对伙伴的回忆赋予你力量。如果你即将获得@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{濒死}状态，可以花费反应，立即获得@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{受伤}状态，其数值等于你原本将获得的濒死值，并保持站立，生命值等于你的等级。使用此反应后，必须经过1天且与该NPC重逢，才能再次使用。</p>"
     },
     "6uqhfpCIGHnoUN3U": {
       "name": "沉重 Heavy",
@@ -569,6 +617,10 @@
           "translation": "你可以交互以拔出一件合适的武器，满足狡黠伏击的要求；这属于该反应的一部分。"
         }
       ]
+    },
+    "7KNFtN99v3rT3f59": {
+      "name": "以牙还牙 Return the Favor",
+      "description": "<p><strong>触发</strong> 一名玩家的攻击检定成功。</p><p><strong>花费</strong> 1点反派点</p><p><strong>需求</strong> 该攻击检定的目标是一个生物。</p><hr /><p>以同样的方式回应，往往能平衡天平。该攻击检定的目标可以立即用自由动作对该玩家角色进行一次@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}。如果该攻击检定的目标能够@UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{施放法术}，并且至少能施放一种施法时间不超过2个动作、需要法术攻击的戏法，则可以改为用自由动作施放一种需要法术攻击的戏法，并陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，直到其下一回合结束。</p>"
     },
     "7mOzYcoX48UmBv2h": {
       "name": "漂泊者 Wanderer",
@@ -706,6 +758,10 @@
           "translation": "受骗生物对抗肝胆俱裂的强韧豁免承受状态减值，数值等于其受骗状态值。"
         }
       ]
+    },
+    "8W4cIqSgL8WXbmj0": {
+      "name": "诡异时机 Uncanny Timing",
+      "description": "<p><strong>触发</strong> 一名玩家结束回合。</p><p><strong>花费</strong> 2或3点反派点</p><hr /><p>最糟的事情，可能在最出乎意料时发生。效果取决于GM花费的反派点数量。</p><hr /><p><strong>2点反派点</strong> 选择一个生物。所选生物立即执行一个单动作，即使当前不是其回合。</p><p><strong>3点反派点</strong> 选择至多2个生物。你可以将两个额外动作分配给所选生物：给一个生物2个动作，或给两个生物各1个动作。所选生物立即执行这些动作，即使当前不是它们的回合。如果分配给2个生物，它们可以按任意顺序行动。</p>"
     },
     "8bYmQfeUVwz4klYp": {
       "name": "万众瞩目 All Eyes On Me",
@@ -990,6 +1046,10 @@
     "B4rr5rVmwaz5DwuB": {
       "name": "已知仇敌 Known Enemy",
       "description": "<p>你发现，为特定对象积攒躁郁有时颇为有用。每日准备时，选择一个特定生物或一种生物类型。你必须认识该特定生物，或曾遭遇过该生物类型。当日第一次遇到该生物或该类型的生物时，你陷入@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁1}，并可以立即变为怪物形态。</p>"
+    },
+    "B9LFTr2qHG4QPmQt": {
+      "name": "受挫未败 Downfall, Not Done For",
+      "description": "<p><strong>触发</strong> 一个@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.rEkv5yZCEjtlmO45]{首领}即将触发@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.Klid5DmmtWIPtNN2#boss-downfalls]{破绽}。</p><p><strong>花费</strong> 2点反派点</p><hr /><p>破绽固然能让强者受挫，但受挫不等于败北。首领照常承受@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.kKgRK9lIwuiZ5H3o]{破绽}效果，但仍可在下一回合使用@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.g5umiVCJgIrkSQuc]{首领能力}，除非再次触发另一个破绽。</p>"
     },
     "BQxA0KjAfU1JPRah": {
       "name": "双面研习 Two-Sided Learning",
@@ -1349,6 +1409,10 @@
         }
       ]
     },
+    "EZHzoCSWEofk9ZnK": {
+      "name": "安心陪伴 Settling Presence",
+      "description": "<p>伙伴在身边让你安心，对方也有同样感受。你在该NPC的10尺内结束回合时，你们双方的@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}值都降低1（正常降低照常进行）。此外，如果任何一方在回合开始时处于@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}状态，且你们相距不超过10尺，该角色可以立即像受到伤害一样尝试恢复所需的纯骰检定。</p>"
+    },
     "Eq7JUneSn6uq2k0y": {
       "name": "隐秘 Covert",
       "description": "<p>首领极其擅长躲藏。如果首领结束回合后，直到其下个回合开始前都未受到伤害，则可在该回合开始时立即以自由动作尝试@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{躲藏}。如果首领调整值更高，它可以在隐秘检定中使用该调整值。如果使用基础生物的隐秘调整值，则该调整值增加1。如果首领在藏匿、无踪或未被观察时受到伤害，就会触发其破绽。</p>"
@@ -1381,6 +1445,10 @@
     "FwPdb2UTSURRDVwF": {
       "name": "效果：惊吓（突如其来的惊吓） Effect: Scare (Sudden Scare)",
       "description": "<p>突如其来的惊吓立即使心怀恐惧者@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。区域内的生物陷入措手不及，持续轮数等于其恐惧值。如果这发生在探索模式中，则改为这些生物在离开恐惧区域前进入遭遇时，陷入措手不及并持续相同轮数。</p><p>此效果上的标记显示持续轮数。</p>"
+    },
+    "GFoumPWOmKToDgmm": {
+      "name": "良师训练 Skilled Trainer",
+      "description": "<p><strong>花费</strong> 1点心意点</p><hr /><p>伙伴能够帮助你调整能力，使其更适合自己的战斗风格。@UUID[Compendium.pf2e.actionspf2e.Item.24PSsn1SKpUwYA1X]{重训}该NPC了解的角色能力时，只要能接触到该NPC，即使其技艺不及你，也可以花费1天休整时间重训一项职业专长或技能提升，用1周重训需要作出选择的职业特性。</p>"
     },
     "GHU5GzZuZ279OoZm": {
       "name": "巨型法术 Big Spell",
@@ -1619,6 +1687,10 @@
       "name": "伏击戏法 Waylay Cantrip",
       "description": "<p>你准备使用一个戏法进行伏击。使用此动作时，选择一个需要法术攻击检定、且以单个生物为目标的戏法。在你的下个回合开始前的一次机会中，若目标位于你 30 尺内且在该法术射程内，你可以在使用@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.CpuM8d830w129JDa]{狡黠伏击}时施放所选戏法，代替一次打击。</p>"
     },
+    "IMxwVEpIFFmq9KNR": {
+      "name": "领域祝福 Domain Blessing",
+      "description": "<p><strong>先决条件</strong> 该NPC是神祇或神祇的侍从</p><hr /><p>伙伴以祝福的形式赐予你部分神力，近在身边时护佑你，远行时为你祈求平安。GM选择该NPC的一个领域。你每天可以将该领域的初始领域法术作为神术天生法术施放一次，升环至你等级的一半，向上取整。</p>"
+    },
     "IPJwZnpNvGJ8WRnc": {
       "name": "大师诡术师施法 Master Trickster Spellcasting",
       "description": "<p>你获得@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.DOc3Pf8wmVxanTIv]{大师施法专长}的益处。</p>",
@@ -1686,6 +1758,10 @@
           "translation": "选择你怪物形态的属性。"
         }
       ]
+    },
+    "JUyLGLvWiI2y91KU": {
+      "name": "拒绝死亡 Deny Death",
+      "description": "<p><strong>触发</strong> 一个生物即将受到会使其生命值降至0的伤害。</p><p><strong>花费</strong> 1至2点反派点</p><p><strong>需求</strong> 触发生物至少比该玩家角色高2级。</p><hr /><p>最令人胆寒的敌人，是本应倒下却再次站起的敌人。效果取决于GM花费的反派点数量。</p><hr /><p><strong>1点反派点</strong> 触发生物保留1点生命值。</p><p><strong>2点反派点</strong> 触发生物保留等于自身等级的生命值。</p>"
     },
     "K68vEJrJUZrTIKDA": {
       "name": "如此可信 Ever So Trustworthy",
@@ -1776,6 +1852,10 @@
         }
       ]
     },
+    "KR0F83bxliPfiKo4": {
+      "name": "效果：魔法鱼（自选检定） Effect: Magic Fish (Check of Your Choice)",
+      "description": "<p>你选择的一项技能检定获得+2状态加值。</p><p>该效果持续的时间为鱼的体型类别每级10分钟（见@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.5IvmjgSTqemo5HVd]{食物}）。</p>"
+    },
     "KfVE0JMK94KwYoyE": {
       "name": "尽在计划之中 According to Plan",
       "description": "<p>你看着一切展开，尽在计划之中。你获得一个额外反应，可以在你的下个回合开始前用于任意诡术师反应。</p>"
@@ -1783,6 +1863,10 @@
     "Ko8vsoZzf8lEJrvY": {
       "name": "哎呀失手 Oopsy-Daisy",
       "description": "<p>你知道如何把自己的失误变成对敌人的嘲弄。你获得@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.FPfzPtpULIwFfY0o]{哎呀失手}嘲弄法术。</p>"
+    },
+    "KpdB9GAd4OBMkKxt": {
+      "name": "效果：魔法鱼（威吓） Effect: Magic Fish (Intimidation)",
+      "description": "<p>威吓检定获得+2状态加值。</p><p>该效果持续的时间为鱼的体型类别每级10分钟（见@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.5IvmjgSTqemo5HVd]{食物}）。</p>"
     },
     "KuLyrVPaipjskeWD": {
       "name": "多样诡计 Ruse Diversity",
@@ -1855,6 +1939,10 @@
           "value": "怪物威压"
         }
       ]
+    },
+    "LYSKHiEufdBiG5hP": {
+      "name": "随时欢迎 Always Welcome",
+      "description": "<p><strong>花费</strong> 1点心意点</p><hr /><p>伙伴出于善意，免费为你提供服务。GM选择该NPC能够提供的一种或两种服务。只要能接触到这位与你建立关系的NPC，你便可免费获得所选每种服务各一次。</p><p>例如，若NPC提供可供2人入住的独立房间，你不能在同一天通过同一奖励获得多次这样的2人免费住宿。随着关系阶位提升，GM可以裁定NPC愿意为你提供这些服务的更好版本。</p>"
     },
     "LYqufFBfSWyqjgkf": {
       "name": "失控 Overwhelmed",
@@ -2118,6 +2206,10 @@
         }
       ]
     },
+    "P1nazQmaBFWq3uR8": {
+      "name": "书虫 Bookworm",
+      "description": "<p><strong>先决条件</strong> 该NPC能使用法术位施法</p><p><strong>花费</strong> 1点心意点</p><hr /><p>伙伴精通魔法，愿意帮助你轻松学习法术。在@UUID[Compendium.pf2e.actionspf2e.Item.Q5iIYCFdqJFM31GW]{学习法术}时，若能接触到这位NPC，你获得@UUID[Compendium.pf2e.feats-srd.Item.v7Bt6hjmzYnLFLeG]{魔法熟稔}技能专长的益处，且该检定获得等于关系阶位的环境加值。若你已经拥有魔法熟稔专长，则学习法术检定大失败时，改为失败。</p>"
+    },
     "PD5OcB8JieeVtrpQ": {
       "name": "变身祛除 Transformative Removal",
       "description": "<p><strong>需求</strong> 你未处于@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁3}或@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.LYqufFBfSWyqjgkf]{失控}状态。</p><hr><p>变身让你能够摆脱附着于先前形态的负担。改变形态时，你尝试降低自己的@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙}、@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭}、@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}、@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心}或@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞}状态。若你具有列表中的多个状态，选择其中一个。对该状态尝试一次对抗检定，以你的职业难度等级–10作为对抗调整值，并根据该状态的来源决定难度等级。若某状态会在特定情况下持续施加（例如具有圣洁特征的角色携带具有邪秽符文的武器而获得的力竭状态），那么只要该情况持续，移除状态便不会生效。</p><p><strong>大成功</strong> 你将该状态值降低2。</p><p><strong>成功</strong> 你将该状态值降低1。</p><p><strong>大失败</strong> 你的躁郁状态增加1。</p>"
@@ -2213,6 +2305,10 @@
           "value": "你的诡计技能达到大师"
         }
       ]
+    },
+    "PfSckpYTFsaRGx70": {
+      "name": "效果：魔法鱼（回忆知识） Effect: Magic Fish (Recall Knowledge)",
+      "description": "<p>用于回忆知识的检定获得+2状态加值。</p><p>该效果持续的时间为鱼的体型类别每级10分钟（见@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.5IvmjgSTqemo5HVd]{食物}）。</p>"
     },
     "PpNpYqhAihDryx56": {
       "name": "奇异饰物 Strange Baubles",
@@ -2422,6 +2518,10 @@
       "name": "效果：怪物形态 Effect: Monster Form",
       "description": "<p>由@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.7mb6j31vBk3ZqUA1]{释放怪物}赋予。</p><hr><p>当你进入怪物形态时，你获得怪物的无武装攻击，你对这些攻击具有更高的熟练度。你可以使用潜能能力，即怪物在你处于怪物形态时拥有的特殊能力。你的装备融入体内；装备的恒定能力仍然有效，但你无法启动任何物品。如果你原本持用附有基础符文或性能符文的武器，这些基础符文和性能符文会应用于怪物形态的无武装攻击。如果你原本持用不止一把武器，则必须仅选择一把武器应用此效果。任何无法应用于怪物形态无武装攻击的性能符文都会受到抑制，直到你恢复凡人形态。</p><p>处于怪物形态时，你的凡人形态属性与怪物形态属性互换，且你使用怪物形态属性调整值取代凡人形态属性调整值来计算职业DC。处于怪物形态时，你不能使用具有凡人特征的动作。如果你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}降至0，你立即恢复凡人形态。</p>"
     },
+    "RXndSXyBL4IqNMjJ": {
+      "name": "挣钱养家 Bring Home the Bread",
+      "description": "<p><strong>花费</strong> 1点心意点</p><hr /><p>伙伴有一份工作，这在冒险队伍里倒是少见。NPC从收入中为你留下一笔钱，数额等于以符合该NPC及其居住定居点的任务等级，成功进行1天@UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{赚取收入}活动所得的钱。该活动使用与其职业相关的技能；若未注明熟练度，则视为专家。</p>"
+    },
     "Reprat4WlW6VgnXF": {
       "name": "毁灭践踏 Kinetic Trample",
       "description": "<p>首领践踏而过，沿途留下毁灭的痕迹。选择一种适合该生物的伤害类型。此选择一经确定便无法更改。首领使用@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]{践踏}。首领在践踏过程中经过的每个空间创造困难地形和危险地形。只要危险地形仍然存在，生物在该区域内开始回合时，以及在其中每移动一格时，都会受到伤害。困难地形和危险地形持续[[/gmr 1d4 #Kinetic Trample Rounds]]{1d4轮}。伤害为基础生物@Damage[(max(1,floor(@actor.system.details.level.base/2)))[@item.flags.system.rulesSelections.damage]]{每2级1点}（伤害至少为1）。此能力根据伤害类型获得相应特征，例如伤害类型为火焰时获得火焰特征。</p>"
@@ -2587,6 +2687,14 @@
       "name": "破体诞生 Spawn",
       "description": "<p>首领是尚未出生、寄居于宿体生物内的生物，会在宿体死去时诞生。选择一个基础生物以外的生物作为首领的宿体。当宿体生物死亡或生命值降至0时，首领从其尸体中出现，并在刚才的动作之后立即插入先攻顺序。首领诞生时处于@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢2}，但每当它获得一个回合，缓慢值就降低1。若其缓慢值已经为0，则改为获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。它可以用额外动作@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}、@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}，或将其作为从首领能力获得的动作或活动的一部分。</p>"
     },
+    "SXTaAauriRlEw5dd": {
+      "name": "并肩作战 Comrades in Arms",
+      "description": "<p>你与伙伴学会了并肩作战，能够联手应付敌人。只要你和该NPC都邻接同一个敌人，无论实际站位如何，你们都视为共同夹击该敌人。此外，选择一项你满足先决条件、具有团队合作特征的专长。你获得该专长，但只能将该NPC指定为搭档。</p>"
+    },
+    "SZtgYH1V3805YqDF": {
+      "name": "完美巧合 Perfect Coincidence",
+      "description": "<p><strong>触发</strong> 你即将触发一个反应，但已用完本回合的反应。</p><p><strong>花费</strong> 1点英雄点</p><hr /><p>有时机遇来敲门，一切巧合得恰到好处。你使用被触发的反应。</p>"
+    },
     "SjTyIROEY5TMIi5m": {
       "name": "宿主韧性 Vessel Resiliency",
       "description": "<p>你每拥有一个宿主变体职业专长，就获得 3 点额外生命值。此后继续选择宿主变体职业专长时，你也会以此方式继续获得额外生命值。</p>",
@@ -2603,9 +2711,21 @@
       "name": "堵住枪口 Plug Muzzle",
       "description": "<p><strong>触发</strong> 你触及范围内的一个生物即将使用远程武器或远程无武装攻击进行打击。</p><hr><p>你将手指塞进武器的发射口或生物的巨口，让攻击失灵。该生物必须进行一次@Check[reflex|against:spell]{对抗你法术难度等级的反射豁免}。</p><p><strong>大成功</strong> 若你是该生物此次打击的目标，则将攻击检定结果的成功度提高一级。若你不是此次打击的目标，你承受如同被此次打击命中时的伤害，且该攻击检定仍对其目标正常结算。</p><p><strong>成功</strong> 你未能使攻击出错。</p><p><strong>失败</strong> 触发生物的攻击检定承受–4状态减值。若此次打击未命中，则目标陷入@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.XNyElp6jUnKvXkf5]{受骗1}；若大失败，则改为@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.XNyElp6jUnKvXkf5]{受骗2}。</p><p><strong>大失败</strong> 如同失败，但若此次打击未命中，该生物承受如同被触发打击命中时的伤害。</p>"
     },
+    "T8rl0uHwihxP6mX7": {
+      "name": "多一双眼睛 Second Set of Eyes",
+      "description": "<p>伙伴在旅途中照应你，你们相互弥补不足。与伙伴同行时，若你使用的探索活动要求以一半速度移动，你可以改为全速移动。若所选探索活动原本就允许全速移动，你可以再选择第二项探索活动同时进行，所需的任何检定使用该NPC的调整值和数据。</p>"
+    },
+    "T9uRzV1kpm1wFLdn": {
+      "name": "效果：魔法鱼（生存） Effect: Magic Fish (Survival)",
+      "description": "<p>生存检定获得+2状态加值。</p><p>该效果持续的时间为鱼的体型类别每级10分钟（见@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.5IvmjgSTqemo5HVd]{食物}）。</p>"
+    },
     "TQnrvV6dU6ceVPas": {
       "name": "吞噬杂兵 Consume Underling",
       "description": "<p><strong>频率</strong> 每轮一次</p><p><strong>条件</strong> 首领触及范围内有一个具有@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.PzXX9Q2iUDEE5gEs]{杂兵}特征的生物。</p><hr /><p>首领吞噬其触及范围内的一个杂兵。该杂兵降至0生命值，首领在吞噬后恢复生命值。首领的基础生物每2级恢复@Damage[(max(1,floor(@actor.system.details.level.base/2))*15)[healing]]{15生命值}（最低15）。</p>"
+    },
+    "Ta8ojeqaDv9Rfa98": {
+      "name": "效果：魔法鱼（特技） Effect: Magic Fish (Acrobatics)",
+      "description": "<p>特技检定获得+2状态加值。</p><p>该效果持续的时间为鱼的体型类别每级10分钟（见@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.5IvmjgSTqemo5HVd]{食物}）。</p>"
     },
     "Totq3n27iG5TSMrh": {
       "name": "骇人变身 Horrific Transformation",
@@ -2633,6 +2753,10 @@
           "translation": "躁郁 Frustrated"
         }
       ]
+    },
+    "UJjzJQ9QdowyO0oS": {
+      "name": "黑暗秘密 Dark Secrets",
+      "description": "<p><strong>触发</strong> 一名玩家尝试一次秘密检定。</p><p><strong>花费</strong> 1点反派点</p><hr /><p>这个秘密格外黑暗。触发检定的成功程度视为降低一级。</p>"
     },
     "UR5CidWDKZMjU0DY": {
       "name": "双人组 Duo",
@@ -2929,6 +3053,10 @@
     "V96YUbaY550Bn7Az": {
       "name": "翻涌云雾 Billowing Cloud",
       "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p>首领以造成伤害的翻涌云雾围绕自身。从下列伤害类型和状态中各选择一项。这些选项一旦确定就无法更改。首领在@Template[emanation|distance:30]{30尺弥漫}内制造气体，为区域内的生物提供@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}并产生其他效果，持续[[/gmr 1d4 #Billowing Cloud Rounds]]{1d4轮}，直到被强风吹散，或首领的破绽被触发。</p><p>在区域内开始回合的生物必须尝试@Check[fortitude|dc:resolve(@actor.system.attributes.classDC.value)|adjustment:5]。首领免疫此效果，并无视气体提供的隐蔽。基础生物每2级造成@Damage[(max(1,floor(@actor.system.details.level.base/2))d6)[@item.flags.system.rulesSelections.damage]]{1d6伤害}（最低伤害为1d6）；基础生物每6级使所选状态的状态值为1（最低为1）。</p><p><strong>状态</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙}、@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭}或@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞}</p><p><strong>伤害</strong> 强酸、寒冷、火焰或毒素</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物受到一半伤害。</p><p><strong>失败</strong> 该生物受到全额伤害，并在区域内以及离开后的1轮内承受所选状态。</p><p><strong>大失败</strong> 如同失败，但该生物受到双倍伤害，且状态值增加1。</p>"
+    },
+    "VO8MFagUwt5gpwrq": {
+      "name": "最后的牺牲 Last Sacrifice",
+      "description": "<p><strong>触发</strong> 你即将获得@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{濒死}状态，或直接死亡。</p><p><strong>花费</strong> 你的全部英雄点</p><hr /><p>你知道此处便是终点，但在此之前，还要做出最后的牺牲。效果取决于你花费的英雄点数量。</p><hr /><p><strong>1点英雄点</strong> 你不会死亡或获得濒死状态，而是保留1点生命值。随后你可以立即进行自己的回合，本回合的动作不会触发反应。你忽略当前所有苦难和状态，并在使用此英雄命运时以自由动作站立、干呕或采取类似行动。回合结束后，你立即死亡。</p><p><strong>2点英雄点</strong> 如同1点英雄点，但你可以选择本回合的一次检定自动大成功，或选择对你产生的某个效果进行的一次豁免检定，使其大失败。</p><p><strong>3点英雄点</strong> 如同2点英雄点，但你可以应用该效果两次，而非一次。</p><p><strong>特殊</strong> 因最后的牺牲而死亡时，试图使你复活的效果会失败，除非该效果的对抗环级高于你等级的一半加4，或效果来自神器或神祇。</p>"
     },
     "VOqVi4bjl4pBtg6A": {
       "name": "从容闪避 Nonchalant Dodge",
@@ -3260,6 +3388,10 @@
           "value": "聚能池"
         }
       ]
+    },
+    "ZKc81SsF6B1E8TOw": {
+      "name": "情谊信物 Token of Affection",
+      "description": "<p>伙伴给你一件珍视的物品，让你随时想起他们。GM选择一件物品，通常是非魔法的0级物品，但也可以是该NPC有理由赠予的任何物品；然后选择一项技能。只要你持有该物品且其未破损，该技能检定便获得等于关系阶位的物品加值。此外，每天一次，随身携带此物时，若你的意志豁免失败，可以重掷该意志豁免并取较好结果，但该物品会变为@UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{破损}，直到你将其交回NPC，并花费1点心意点来@UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{修理}。这是幸运效果。</p><p>若将此奖励选作高阶奖励，修理该物品不再需要花费1点心意点（但仍须交回NPC修理）。</p><p><strong>特殊</strong> GM可以将此物品视为由你们牢不可破的联系形成的灵魂种子，作为双方关系的象征。</p>"
     },
     "Zaw9kz6Zh6GxBjYv": {
       "name": "大型怪物 Large Monster",
@@ -3662,6 +3794,10 @@
       "name": "凶猛冲锋 Vicious Charge",
       "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p>首领发起毁灭性的冲锋。选择首领拥有的一个同时包含打击与具有移动特征的动作的动作或活动。首领按该活动的正常方式移动，但必须沿直线移动，并且此次移动必须使用正常速度的一半。首领不进行打击；改为在移动期间与其相邻的所有敌对生物都受到该次打击的伤害，并进行@Check[reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic|adjustment:5]。大失败时，生物还会被首领踩踏而@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><p><strong>特殊</strong> 若首领没有可供凶猛冲锋使用的活动，则获得@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.zMTFLUeSBJzfU6oU]{突袭冲锋}活动。</p>"
     },
+    "elW7v1L0Q0kwbXm4": {
+      "name": "效果：魔法鱼（攀爬与游泳） Effect: Magic Fish (Climb and Swim)",
+      "description": "<p>用于攀爬和游泳的运动检定获得+2状态加值。</p><p>该效果持续的时间为鱼的体型类别每级10分钟（见@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.5IvmjgSTqemo5HVd]{食物}）。</p>"
+    },
     "f30KqbRfCCKUmZZm": {
       "name": "秘密之堆 Pile of Secrets",
       "description": "<p>人是什么？不过是一堆可悲的秘密。</p><p><strong>技能提升</strong> 你的欺骗熟练度提升至大师</p><p><strong>技能专长</strong> @UUID[Compendium.pf2e.feats-srd.RiuZT3H4QZIIEQXJ]{滑头鬼}</p><p><strong>狡黠伏击触发</strong> 你对抗试图读取你的思想、侦测你是否说谎或揭露你身份的法术或魔法效果时，欺骗检定成功。</p><p><strong>愚弄伎俩</strong> 受骗生物尝试读取你的思想、侦测你是否说谎或揭露你身份时，若你通过滑头鬼进行的欺骗检定大成功，则你可以改为透露虚假信息，而非不透露任何信息。</p>",
@@ -3775,6 +3911,10 @@
           "translation": "你进行空中机动时，不会触发受骗生物的反应。"
         }
       ]
+    },
+    "fKtmnEJtpTQHvC13": {
+      "name": "别死在我面前！ Don’t Die on Me!",
+      "description": "<p>你与伙伴的纽带如此牢固，连死亡都不愿干涉。你们合计每天可以将@UUID[Compendium.pf2e.spells-srd.Item.Hnc7eGi7vyZenAIm]{生命之息}作为异能天生法术施放一次，只能互相指定为目标。当你或伙伴以对方为目标施放生命之息时，施法者获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}，持续至其下一回合结束。该额外动作只能用于@UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{快步}或@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}，靠近该法术的目标。</p>"
     },
     "fQ2an1a1ga8U7vrc": {
       "name": "撤退 Retreat",
@@ -3965,7 +4105,18 @@
     },
     "g0ZOkXcL4gU8vGI8": {
       "name": "科学家 Scientist",
-      "description": "<p>你是一名学者，钻研晦涩的科学与复杂的学识。你的怪物可能来自一次失控的实验，或重现古老配方的尝试……也可能是你亲手创造的。无论如何，你运用科学研究并尝试控制体内的怪物。</p><p><strong>属性</strong> 智力</p><p><strong>宿主祝福</strong> 若你在受到具有变形特征的突变药剂影响时@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.7mb6j31vBk3ZqUA1]{释放怪物}，你的怪物形态不会尝试对抗突变药剂的效果，而是让你在怪物形态中继续获得该突变药剂的效果。</p><p><strong>初始侧面（1级）</strong> 你的手艺熟练度提升至受训，并获得@UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{炼金手艺}技能专长。通过炼金手艺选择的所有物品都必须是灵药。你的炼金炸弹熟练度提升至受训。你获得@UUID[Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6]{高速炼金}动作，但只能用它制作消耗品，且这些消耗品必须是灵药。每日准备期间，你制作至多4份万用制剂。你只能将这些万用制剂用作炸弹，或通过高速炼金制作灵药，即使你也从其他来源获得了万用制剂。你获得高阶炼金术增益。你可以使用高阶炼金术制作4件具有灵药特征的炼金消耗品。</p><p><strong>第二侧面（5级）</strong> 你每日的万用制剂数量增加至5。你每10分钟恢复1份万用制剂。</p><p><strong>第三侧面（9级）</strong> 你的简易武器、无武装攻击与炼金炸弹熟练度提升至专家。处于凡人形态时，你的炼金炸弹以及通过突变药剂获得的无武装攻击造成额外伤害，数值等于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值。</p><p><strong>第四侧面（13级）</strong> 你每日的万用制剂数量增加至6。你使用高阶炼金术制作的具有灵药特征的炼金消耗品数量由4增加至8。</p><p><strong>最终侧面（17级）</strong> 你的简易武器、无武装攻击与炼金炸弹熟练度提升至大师。</p><p><strong>宿主躁郁</strong> 你获得@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.P1RYOpU4IMNcjty1]{躁郁溶液}动作。</p>"
+      "description": {
+        "sources": [
+          {
+            "source": "<p>You are a scholar, a student of obscure science and complex lore. You might have gained your monster during an experiment gone wrong or while recreating ancient formulae… or perhaps, you created it yourself. Whatever the case, you use science to study and try to control the monster within.</p><p><strong>Attribute</strong> Intelligence</p><p><strong>Blessing of the Vessel</strong> If you @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.7mb6j31vBk3ZqUA1]{Unleash the Monster} while under the effects of a mutagen with the polymorph trait, your monster form does not attempt to counteract the effects of your mutagen and instead you gain effects of the mutagen while in your monster form.</p><p><strong>Initial Facet (1st)</strong> You become trained in Crafting and gain the @UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{Alchemical Crafting} skill feat. Any items you choose with Alchemical Crafting must be elixirs. You become trained in alchemical bombs. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6]{Quick Alchemy} action, but can use it only to create consumables, and the consumables must be elixirs. You create up to 4 versatile vials during your daily preparations. You can only use these versatile vials as bombs or for Quick Alchemy to create elixirs, even if you gain versatile vials from another source. You gain the advanced alchemy benefits. You can use advanced alchemy to create 4 alchemical consumables with the elixir trait.</p><p><strong>Second Facet (5th)</strong> You increase the number of versatile vials per day to 5. You regain 1 versatile vial every 10 minutes.</p><p><strong>Third Facet (9th)</strong> You become an expert in simple weapons, unarmed attacks, and alchemical bombs. You deal additional damage on your alchemical bombs and unarmed attacks you gained from mutagens equal to your @UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{frustrated condition} value while in mortal form.</p><p><strong>Fourth Facet (13th)</strong> You increase the number of versatile vials per day to 6. You increase the number of alchemical consumables with the elixir trait you create using advanced alchemy from 4 to 8.</p><p><strong>Final Facet (17th)</strong> You become a master in simple weapons, unarmed attacks, and alchemical bombs.</p><p><strong>Vessel’s Frustration</strong> You gain the @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.P1RYOpU4IMNcjty1]{Frustrated Solution} action.</p>",
+            "translation": "<p>你是一名学者，钻研晦涩的科学与复杂的学识。你的怪物可能来自一次失控的实验，或重现古老配方的尝试……也可能是你亲手创造的。无论如何，你运用科学研究并尝试控制体内的怪物。</p><p><strong>属性</strong> 智力</p><p><strong>宿主祝福</strong> 若你在受到具有变形特征的突变药剂影响时@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.7mb6j31vBk3ZqUA1]{释放怪物}，你的怪物形态不会尝试对抗突变药剂的效果，而是让你在怪物形态中继续获得该突变药剂的效果。</p><p><strong>初始侧面（1级）</strong> 你的手艺熟练度提升至受训，并获得@UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{炼金手艺}技能专长。通过炼金手艺选择的所有物品都必须是灵药。你的炼金炸弹熟练度提升至受训。你获得@UUID[Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6]{高速炼金}动作，但只能用它制作消耗品，且这些消耗品必须是灵药。每日准备期间，你制作至多4份万用制剂。你只能将这些万用制剂用作炸弹，或通过高速炼金制作灵药，即使你也从其他来源获得了万用制剂。你获得高阶炼金术增益。你可以使用高阶炼金术制作4件具有灵药特征的炼金消耗品。</p><p><strong>第二侧面（5级）</strong> 你每日的万用制剂数量增加至5。你每10分钟恢复1份万用制剂。</p><p><strong>第三侧面（9级）</strong> 你的简易武器、无武装攻击与炼金炸弹熟练度提升至专家。处于凡人形态时，你的炼金炸弹以及通过突变药剂获得的无武装攻击造成额外伤害，数值等于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值。</p><p><strong>第四侧面（13级）</strong> 你每日的万用制剂数量增加至6。你使用高阶炼金术制作的具有灵药特征的炼金消耗品数量由4增加至8。</p><p><strong>最终侧面（17级）</strong> 你的简易武器、无武装攻击与炼金炸弹熟练度提升至大师。</p><p><strong>宿主躁郁</strong> 你获得@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.P1RYOpU4IMNcjty1]{躁郁溶液}动作。</p>"
+          },
+          {
+            "source": "<p>You are a scholar, a student of obscure science and complex lore. You might have gained your monster during an experiment gone wrong or while recreating ancient formulae… or perhaps, you created it yourself. Whatever the case, you use science to study and try to control the monster within.</p><p><strong>Attribute</strong> Intelligence</p><p><strong>Blessing of the Vessel</strong> While under the effects of a mutagen with the polymorph trait, your monster form does not attempt to counteract the effects of your mutagen and instead you gain effects of the mutagen while in your monster form.</p><p><strong>Initial Facet (1st)</strong> You become trained in Crafting and gain the @UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{Alchemical Crafting} skill feat. Any items you choose with Alchemical Crafting must be elixirs. You become trained in alchemical bombs. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6]{Quick Alchemy} action, but can use it only to create consumables, and the consumables must be elixirs. You create up to 4 versatile vials during your daily preparations. You can only use these versatile vials as bombs or for Quick Alchemy to create elixirs, even if you gain versatile vials from another source. You gain the advanced alchemy benefits. You can use advanced alchemy to create 4 alchemical consumables with the elixir trait.</p><p><strong>Second Facet (5th)</strong> You increase the number of versatile vials per day to 5. You regain 1 versatile vial every 10 minutes.</p><p><strong>Third Facet (9th)</strong> You become an expert in simple weapons, unarmed attacks, and alchemical bombs. You deal additional damage on your alchemical bombs and unarmed attacks you gained from mutagens equal to your @UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{frustrated condition} value while in mortal form.</p><p><strong>Fourth Facet (13th)</strong> You increase the number of versatile vials per day to 6. You increase the number of alchemical consumables with the elixir trait you create using advanced alchemy from 4 to 8.</p><p><strong>Final Facet (17th)</strong> You become a master in simple weapons, unarmed attacks, and alchemical bombs.</p><p><strong>Vessel’s Frustration</strong> You gain the @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.P1RYOpU4IMNcjty1]{Frustrated Solution} action.</p>",
+            "translation": "<p>你是一名学者，钻研晦涩的科学与复杂的学识。你的怪物可能来自一次失控的实验，或重现古老配方的尝试……也可能是你亲手创造的。无论如何，你运用科学研究并尝试控制体内的怪物。</p><p><strong>属性</strong> 智力</p><p><strong>宿主祝福</strong> 当你受到具有变形特征的突变药剂影响时，你的怪物形态不会尝试对抗突变药剂的效果，而是让你在怪物形态中继续获得该突变药剂的效果。</p><p><strong>初始侧面（1级）</strong> 你的手艺熟练度提升至受训，并获得@UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{炼金手艺}技能专长。通过炼金手艺选择的所有物品都必须是灵药。你的炼金炸弹熟练度提升至受训。你获得@UUID[Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6]{高速炼金}动作，但只能用它制作消耗品，且这些消耗品必须是灵药。每日准备期间，你制作至多4份万用制剂。你只能将这些万用制剂用作炸弹，或通过高速炼金制作灵药，即使你也从其他来源获得了万用制剂。你获得高阶炼金术增益。你可以使用高阶炼金术制作4件具有灵药特征的炼金消耗品。</p><p><strong>第二侧面（5级）</strong> 你每日的万用制剂数量增加至5。你每10分钟恢复1份万用制剂。</p><p><strong>第三侧面（9级）</strong> 你的简易武器、无武装攻击与炼金炸弹熟练度提升至专家。处于凡人形态时，你的炼金炸弹以及通过突变药剂获得的无武装攻击造成额外伤害，数值等于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值。</p><p><strong>第四侧面（13级）</strong> 你每日的万用制剂数量增加至6。你使用高阶炼金术制作的具有灵药特征的炼金消耗品数量由4增加至8。</p><p><strong>最终侧面（17级）</strong> 你的简易武器、无武装攻击与炼金炸弹熟练度提升至大师。</p><p><strong>宿主躁郁</strong> 你获得@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.P1RYOpU4IMNcjty1]{躁郁溶液}动作。</p>"
+          }
+        ]
+      }
     },
     "g2Vc2USsD8dv9RSi": {
       "name": "阴险打手 Treacherous Striker",
@@ -3982,6 +4133,10 @@
     "gStkISYs4e6Gqwqi": {
       "name": "滑不留手 Slippery",
       "description": "<p><strong>触发</strong> 一名敌人对杂兵的打击未命中。</p><p><strong>需求</strong> 杂兵与一名盟友相邻。</p><hr /><p>杂兵滑不留手，难以捉住。它@UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{快步}两次。每次快步的落点都必须与一名盟友相邻。</p>"
+    },
+    "gonosFn8yJ1U61wI": {
+      "name": "奋起行动 Compelled to Action",
+      "description": "<p><strong>触发</strong> 你的回合即将开始。</p><p><strong>花费</strong> 2点英雄点</p><hr /><p>你知道行动的时机已到。本回合你获得4个动作，而非3个。</p>"
     },
     "hKQiWbAU7qwqfSAF": {
       "name": "异怪 Aberration",
@@ -4243,6 +4398,10 @@
         }
       ]
     },
+    "jgUrkGQnQ5DDdsBs": {
+      "name": "园丁馈赠 Garden Tender",
+      "description": "<p><strong>花费</strong> 1点心意点</p><hr /><p>伙伴欢迎你进入其花园。伙伴照料着一座奇迹花园（《珍宝密库》第167页），允许你不时使用花园来获取消耗品。花园所采用的永久魔法物品等级等于该NPC的等级，产生的消耗品比该物品等级低2级。</p>"
+    },
     "jnO4DIYLTaF6Atsq": {
       "name": "撑住自我 Hold It Together",
       "description": "<p><strong>触发</strong> 你将要陷入@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.LYqufFBfSWyqjgkf]{失控}。</p><hr><p>你知道如何及时介入，阻止灾难。你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态立即降至0。</p>"
@@ -4401,6 +4560,10 @@
         }
       ]
     },
+    "lSf00za7dOa8LyzH": {
+      "name": "效果：魔法鱼（欺骗与交涉） Effect: Magic Fish (Deception and Diplomacy)",
+      "description": "<p>欺骗和交涉检定获得+2状态加值。</p><p>该效果持续的时间为鱼的体型类别每级10分钟（见@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.5IvmjgSTqemo5HVd]{食物}）。</p>"
+    },
     "lTTxbHe7EPepZ0mG": {
       "name": "蠢货闭嘴 Quiet the Dullard",
       "description": "<p>有时，强调沉默的力量十分重要。你习得@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.92CbS8KIz4pLuxd0]{蠢货闭嘴}嘲弄法术。</p>",
@@ -4409,6 +4572,14 @@
           "value": "专注池"
         }
       ]
+    },
+    "lrvcwbYe8aNjl5sz": {
+      "name": "收线 Reel In",
+      "description": "<p><strong>触发</strong> 你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.3c2mOvxBgzevD35J]{垂钓}成功</p><hr /><p>鱼已经上钩，是时候将它拉上来了。进行一次运动、生存或钓鱼学识检定，对抗该地点等级对应的等级DC经容易调整后再加上鱼的体型数值所得的DC。</p><hr /><p><strong>大成功</strong> 这可不是普通鱼，而是一条奖杯鱼！这条大鱼比普通同类大一个体型类别，金币价值是普通鱼的三倍。捕获后的一周内，对当地任何对钓鱼有兴趣的生物进行交涉检定时，你获得+1环境加值。</p><p><strong>成功</strong> 你成功钓起了鱼。</p><p><strong>失败</strong> 鱼跑了。</p><p><strong>大失败</strong> 你被鱼拽进水里！你落入水中的距离等于鱼的体型类别数值×5尺。</p>"
+    },
+    "lsX4ZvTuLZWE5i7l": {
+      "name": "同心 One Heart",
+      "description": "<p><strong>花费</strong> 1点心意点</p><hr /><p>你与伙伴建立了牢不可破的联系，强大到足以化为魔法。你获得与该NPC施行6环@UUID[Compendium.pf2e.spells-srd.Item.dZV8nZUKRhGIr6g9]{联心}仪式的益处。你还获得@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.ZKc81SsF6B1E8TOw]{情谊信物}奖励；赠予的物品是该联心仪式使用的信物之一。</p>"
     },
     "mKhuRcJFW7iXUsEV": {
       "name": "效果：惊吓（诡异寂静） Effect: Scare (Eerie Quiet)",
@@ -4421,6 +4592,10 @@
     "mSNCJYWZkqSBka26": {
       "name": "摆脱影响 Shrug It Off",
       "description": "<p><span class=\"action-glyph\">F</span> 或 <span class=\"action-glyph\">1</span></p><p>首领否决一个妨碍自身的效果。首领选择移除一个持续伤害效果，或将一个影响自身的状态或负面效果的持续时间缩短1轮，包括移除那些会在首领或其他生物的回合开始或结束时终止的效果。若选择移除持续伤害效果，首领会在移除之前立即承受该伤害。</p><p>或者，首领可以在自己的回合开始时以自由动作使用摆脱影响，移除一个持续时间至多为1分钟的效果，但这样做会使其失去当前回合的所有动作，且在下个回合之前无法使用@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.pmgRLJt9xrCJNwrY]{预告}。</p>"
+    },
+    "me5bnuBmESOiyJ7o": {
+      "name": "疏忽失误 Careless Mistake",
+      "description": "<p><strong>触发</strong> 一名玩家进行一项熟练度至少为受训的技能检定，结果低于DC至少5而失败。</p><p><strong>花费</strong> 1点反派点</p><hr /><p>一个疏忽的错误，可能引来更深的灾祸。触发检定的成功程度视为降低一级。</p><p><strong>特殊</strong> 如果该玩家拥有@UUID[Compendium.pf2e.feats-srd.Item.9jGaBxLUtevZYcZO]{即兴发挥}，触发条件也包括熟练度为未受训的技能检定。</p>"
     },
     "mrwaTGceDqFfZTVO": {
       "name": "效果：惊吓（黑暗逼近） Effect: Scare (Closing Darkness)",
@@ -4481,6 +4656,14 @@
     "nxhmD4l07szJT5je": {
       "name": "锁定突袭 Targeted Assault",
       "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p>首领纵身跃向一个生物的位置，攻击其周围。当首领预告锁定突袭时，选择一个在首领行走两次后能够触及的生物。首领向选定生物@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}至多两次，并对该目标生物进行一次@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}。若此次打击命中，首领额外造成一个武器伤害骰的伤害。若首领至少为10级，则增加至额外两个骰；若首领至少为18级，则增加至额外三个骰。</p>"
+    },
+    "oBriuySyARYNkU3w": {
+      "name": "牵线搭桥 Point of Contact",
+      "description": "<p><strong>花费</strong> 1点心意点</p><hr /><p>伙伴与某些人有交情，在适当情况下能派上大用场。伙伴可以代表你与对方协商并提出@UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{请求}，将对方对你的态度视为向乐于援手的方向改善一级。请求必须符合联系对象的身份。伙伴使用与这段人脉相适应的调整值提出请求，例如对昔日航海伙伴使用航海学识；若没有其他适合的调整值，就用交涉。你也可以自己提出请求，此时伙伴自动为你的检定提供+2环境加值。</p><p>若你或伙伴的请求大成功，对方会提供实用建议或透露一个小秘密，让你或一名队友在落实这份帮助时，首次尝试的技能检定获得+2环境加值。若你或伙伴的请求大失败，这段关系获得一点冒犯点。</p>"
+    },
+    "obrPa1Etu4gKA0e0": {
+      "name": "倾囊相授 Lore Dump",
+      "description": "<p>与伙伴的交谈让他们深入讲解了一个自己感兴趣的话题。GM给予此奖励时，选择一项学识技能的子类别，应与伙伴的兴趣领域或其熟练的学识技能有关。你在所选学识技能中视为受训，使用该学识的技能检定获得等于关系阶位的环境加值。</p>"
     },
     "of46ZbIQ47FtCBTr": {
       "name": "远程伏击 Ranged Waylay",
@@ -4553,6 +4736,10 @@
           "translation": "篡位者惯用手法"
         }
       ]
+    },
+    "pA2IsSAk6p38F4vl": {
+      "name": "命运相连 Join Fates",
+      "description": "<p><strong>频率</strong> 每次游戏一次</p><p><strong>触发</strong> 你的回合即将开始。</p><p><strong>花费</strong> 3点英雄点</p><p><strong>需求</strong> 你能感知到至少一名盟友。</p><hr /><p>你和团队早已为这样的时刻做好准备。选择至多2名盟友和一个目标。盟友必须能够行动，目标通常是生物、危险或物体。你可以将两个额外动作分配给所选盟友：给一名盟友2个动作，或给两名盟友各1个动作。你和所选盟友可以在你的回合内以任意顺序执行这些动作，但所有动作都必须涉及所选目标。GM可以允许你选择更宽泛的目标，例如保护一名NPC，或阻止一群敌人进入房间。本次游戏你无法再次使用命运相连，但仍可成为另一角色命运相连所选择的盟友。</p>"
     },
     "pGyLwpSTlpn3WwGL": {
       "name": "驾驶员 Chauffeur",
@@ -4715,6 +4902,10 @@
         }
       ]
     },
+    "smh7lLil9yznbyoB": {
+      "name": "巧手相助 Handy Hands",
+      "description": "<p><strong>花费</strong> 1点心意点</p><hr /><p>伙伴运用其工具技艺帮助你一天。选择一项伙伴能够使用一套工具进行的探索活动。伙伴在所选技能上的调整值必须大于+0。当你进行探索活动时，伙伴也可以进行所选探索活动。该奖励持续1天。</p>"
+    },
     "tA14rqLnKRb6nEyJ": {
       "name": "驱散变身 Dispelling Transformation",
       "description": "<p><strong>触发</strong> 你将要变为凡人形态或怪物形态。</p><p><strong>条件</strong> 你正受到一个可以被你反制的魔法效果影响。</p><hr><p>你的变身已进化至如此深远的程度，甚至能够挫败魔法效果。你尝试反制一道正在影响自己的自选法术。反制环阶为你等级的一半，向上取整；反制检定调整值为你的职业难度等级–10（再加上任何专门适用于反制检定的加值或减值）。</p>"
@@ -4800,6 +4991,10 @@
         }
       ]
     },
+    "tjDINkMVIK0Lu0Ux": {
+      "name": "故乡回忆 Memories of Home",
+      "description": "<p><strong>花费</strong> 1点心意点</p><hr /><p>对伙伴的回忆赋予你力量。你可以用一个具有专注特征的单动作，获得等于自己等级、持续1分钟的临时生命值，并使你的@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}值降低1（最低降至0）。若你拥有聚能池，且至少缺少一点聚能点，则恢复一点聚能点。</p>"
+    },
     "tlTps7nkIyDDuFan": {
       "name": "恐惧值 Dread",
       "description": "<p>当一个生物进入恐惧区域时，立即获得1恐惧值，且在恐惧区域内无法将其降至1以下。具有恐惧值的生物，其d20检定使成功程度降低一级的骰面值上限提高。此外，当该生物成为需要d20检定的敌对效果的目标时，其恐惧值会降低该d20检定使成功程度提升一级所需的骰面值。当一个生物的恐惧值为1时，使用通常的结果（仅自然1和自然20）；恐惧值为2时，大失败的骰面范围扩大为自然1和2，敌对效果大成功的骰面范围扩大为自然19和20，以此类推。</p><p>如果一个生物的恐惧值将要增加至超过5，则改为承受一次@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.0Xzg4xhLvy2d55c9]{惊吓}的效果，而不会增加恐惧值；该惊吓效果只影响该生物。如果惊吓效果通常作用于一片区域，则改为仅作用于该生物当前所在的空间；如果效果作用于区域内的特定目标（例如光源或门），则改为作用于距离该生物最近的适当空间。</p><p>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.i9WMtcz1oOMNxeai]{恐怖模式}</p>"
@@ -4822,6 +5017,10 @@
         }
       ]
     },
+    "uWWOv5uQvKSfLrg4": {
+      "name": "改变命运 Change Fate",
+      "description": "<p><strong>触发</strong> 你进行了一次检定。</p><p><strong>花费</strong> 1或2点英雄点</p><hr /><p>你拒绝接受自己的命运。效果取决于你花费的英雄点数量。</p><hr /><p><strong>1点英雄点</strong> 重掷触发检定。你必须使用第二次结果。</p><p><strong>2点英雄点</strong> 重掷触发检定。你必须使用第二次结果。该检定的成功程度提高一级。</p>"
+    },
     "ua8mu51bT1OZU57l": {
       "name": "无迹之窃 Undetectable Theft",
       "description": "<p>你擅长在不被看见时行窃。当你受到@UUID[Compendium.pf2e.spells-srd.XXqE1eY3w3z6xJCB]{隐形术}，或具有幻术或变形特征、能够隐藏你的存在或使你难以被察觉的法术影响时，你对生物尝试@UUID[Compendium.pf2e.actionspf2e.RDXXE7wMrSPCLv5k]{盗窃}获得 +4 状态加值。这包括@UUID[Compendium.pf2e.spells-srd.gfPjmG6Fe6D3MFjl]{害兽形态}与@UUID[Compendium.pf2e.spells-srd.gIdDLrbswTV3OBJy]{沉默术}等让你难以被观察到的法术，但不包括@UUID[Compendium.pf2e.spells-srd.i35dpZFI7jZcRoBo]{幻象伪装}等仅仅伪装外貌的法术（由主持人裁定）。</p>",
@@ -4840,6 +5039,10 @@
     "umfFU1ePx0WRWBo5": {
       "name": "杂物投手 Item Thrower",
       "description": "<p>杂兵投掷各种杂物，还会从盟友手中夺取武器。杂兵使用临时武器打击时不承受减值，且可以将临时武器视为具有20尺射程，进行投掷武器打击。杂兵可以用一个动作@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{交互}拔出临时武器并用其@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}，也可以为此从相邻杂兵处拿取物品进行这些打击，即使相邻杂兵正拿着或持用该物品。</p>"
+    },
+    "urDX8C9sxOeGf6bJ": {
+      "name": "正是所需 Just What I Needed",
+      "description": "<p><strong>触发</strong> 你的回合即将开始。</p><p><strong>花费</strong> 1或2点英雄点；该物品的费用</p><hr /><p>你恰好拥有所需物品：也许忘记自己曾买下它，也许意外发现了它，又或许早已知道这个时刻会到来。你支付物品费用，视为此前就已购买。如果物品能够合理地存放在身上，就可以用一个@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{交互}单动作取出；否则，它收纳于你能够存放它的最近地点。效果取决于你花费的英雄点数量。</p><hr /><p><strong>1点英雄点</strong> 你拿出一件常见物品。它必须是冒险装备，不能是武器、护甲、炼金物品、魔法物品或其他宝物。它必须为常见，等级不高于你等级的一半，且负载足够低，不至于因携带它而使你@UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{超载}。</p><p><strong>2点英雄点</strong> 如同1点英雄点，但你可以获得一件消耗品，而非冒险装备。该消耗品仍必须为常见，等级不高于你等级的一半，且负载足够低，不至于因携带它而使你超载。</p>"
     },
     "uua4H9fMtL1sLwHC": {
       "name": "基础诡计把戏 Basic Ruse Tricks",
@@ -4940,6 +5143,10 @@
           "value": "欺骗受训"
         }
       ]
+    },
+    "w2P2q8ureIAHkTZb": {
+      "name": "命运之眼 Eyes of Fate",
+      "description": "<p><strong>触发</strong> 一名免疫命运转折的玩家遇到明确的机会，可以遵循一项敕令、做出一项禁忌行为；若其不敬拜神祇，则为类似的关键时刻。</p><p><strong>花费</strong> 1点反派点</p><hr /><p>命运之眼始终注视着一切。该玩家不再免疫命运转折。</p>"
     },
     "wKnqAN8kuw1fDMNA": {
       "name": "伪信者 Charlatan",
@@ -5066,6 +5273,14 @@
           "translation": "选择一种感官。"
         }
       ]
+    },
+    "yrGBnWamDK66rmxP": {
+      "name": "效果：魔法鱼（运动战技） Effect: Magic Fish (Athletics Maneuvers)",
+      "description": "<p>用于卸武、擒拿、移位、推撞和摔绊的运动检定获得+2状态加值。</p><p>该效果持续的时间为鱼的体型类别每级10分钟（见@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.5IvmjgSTqemo5HVd]{食物}）。</p>"
+    },
+    "zHQWFoLCHXx0Gang": {
+      "name": "失手 Fumble",
+      "description": "<p><strong>触发</strong> 一名玩家的攻击检定大失败。</p><p><strong>花费</strong> 1至2点反派点</p><hr /><p>最轻微的失误，也可能让最强者栽跟头。效果取决于GM花费的反派点数量。</p><hr /><p><strong>1点反派点</strong> 该玩家陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到其下一回合开始。</p><p><strong>2点反派点</strong> 该玩家被击倒，陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>"
     },
     "ziYMOoQZORSyFYhw": {
       "name": "诡术师 Trickster",
@@ -5345,11 +5560,13 @@
     "Trickster": "诡术师 Trickster",
     "Journey": "旅行 Journey",
     "Level 2": "2级 Level 2",
+    "Heroic Fates": "英雄命运 Heroic Fates",
     "Boss Creatures": "首领生物 Boss Creatures",
     "Level 10": "10级 Level 10",
     "Feats": "专长 Feats",
     "Effects": "效果 Effects",
     "Master Knacks": "大师妙招 Master Knacks",
+    "Fishing": "钓鱼 Fishing",
     "Level 8": "8级 Level 8",
     "Tome of Home Rules": "房规之书 Tome of Home Rules",
     "Level 18": "18级 Level 18",
@@ -5357,17 +5574,22 @@
     "Level 4": "4级 Level 4",
     "Level 12": "12级 Level 12",
     "Level 16": "16级 Level 16",
+    "Relationships": "关系 Relationships",
     "Dread": "恐惧值 Dread",
+    "Minor Boons": "初阶奖励 Minor Boons",
     "Devastation": "毁灭型 Devastation",
     "Level 1": "1级 Level 1",
     "Passive": "被动型 Passive",
+    "Twists of Fate": "命运转折 Twists of Fate",
     "Vessel": "宿主 Vessel",
     "Level 20": "20级 Level 20",
     "Monsters": "怪物 Monsters",
     "Ruses": "诡计 Ruses",
     "Boss Abilities": "首领能力 Boss Abilities",
     "Augmentive": "强化型 Augmentive",
+    "Moderate Boons": "中阶奖励 Moderate Boons",
     "Scares": "惊吓 Scares",
+    "Major Boons": "高阶奖励 Major Boons",
     "Expert Knacks": "专家妙招 Expert Knacks",
     "Underling Abilities": "杂兵能力 Underling Abilities"
   },
@@ -5383,6 +5605,10 @@
     "adventuresText": {
       "path": "system",
       "converter": "adventures-item-text"
+    },
+    "description": {
+      "path": "system.description.value",
+      "converter": "adventures-description"
     }
   }
 }
