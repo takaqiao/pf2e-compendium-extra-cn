@@ -103,6 +103,9 @@ Hooks.once('setup', async () => {
   for (const [modId, mod] of game.modules.entries()) {
     if (!mod.active) continue;
     if (!translatedModules.has(modId)) continue;
+    if (modId === 'pf2e-team-plus-adventures'
+      && (!['pf2e', 'sf2e'].includes(game.system?.id)
+        || !['cn', 'zh-CN', 'zh_Hans', 'zh-Hans'].includes(game.i18n.lang))) continue;
     const flags = mod.flags?.[modId];
     if (!flags?.['pf2e-homebrew']) continue;
 

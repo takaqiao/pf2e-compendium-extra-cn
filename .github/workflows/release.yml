@@ -30,6 +30,9 @@ jobs:
       - name: Verify BoB memento progress
         run: node --test tests/bob-memento-progress.test.mjs
 
+      - name: Verify Adventures+ translations and display
+        run: node --test tests/adventures-*.test.mjs
+
       - name: Read tag version
         id: version
         run: |

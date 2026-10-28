@@ -49,6 +49,7 @@ const EXTERNAL_LANG_SOURCES = [
   // so without these the prompts render in English whatever the world language.
   'pf2e-team-plus-oracles-remastered',
   'pf2e-team-plus-magic',
+  'pf2e-team-plus-adventures',
   // Battlezoo checkpoint: only the six modules included in this release.
   'battlezoo-ancestries-demigods',
   'battlezoo-ancestries-year-of-mysteries-pf2e',
@@ -70,6 +71,9 @@ Hooks.once('i18nInit', async () => {
   let loadedModules = 0;
   for (const sourceModule of EXTERNAL_LANG_SOURCES) {
     if (!game.modules.get(sourceModule)?.active) continue;
+    if (sourceModule === 'pf2e-team-plus-adventures'
+      && (!['pf2e', 'sf2e'].includes(game.system?.id)
+        || !['cn', 'zh-CN', 'zh_Hans', 'zh-Hans'].includes(game.i18n.lang))) continue;
     if (AV_LANG_SOURCES.has(sourceModule)
       && (game.system?.id !== 'pf2e' || !AV_CHINESE_LANGS.has(game.i18n.lang))) continue;
     try {

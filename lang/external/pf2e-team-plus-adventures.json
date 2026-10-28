@@ -1,0 +1,14 @@
+{
+  "PF2E.SpecificRule.ClassFeatures.trickster.Expert": "你对魔法的基本理解更进一步，使你的法术更难抵御。你的法术攻击调整值和法术DC熟练等级提升至专家。",
+  "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.trickster.PartOne": "你能够施放的法术集合称为法术库。1级时，你学会自选的一个1环法术和四个戏法，以及诡计额外赋予的一个法术和一个戏法。你从诡计对应魔法体系的常见法术，或该体系中你有权使用的其他法术中进行选择。你可以消耗适当环级的法术位，施放法术库中的任意法术。",
+  "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.trickster.PartTwo": "随着等级提升，你会扩充法术库。每当你获得一个法术位（见@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.vwrDiPYaR1HzwPNO#trickster-spellcasting]{诡术师每日法术表}），你就向法术库中添加一个相同环级的法术。每当你获得新一环的法术，你还会学会一个新法术，它始终是你的诡计所列出的该环级把戏锦囊法术。2级时，你再选择一个1环法术。3级时，你向法术库中添加第一个2环法术。4级时，你再添加第二个，依此类推。添加法术时，你可以选择已知法术的较高环级版本，以便施放该法术的升环版本。",
+  "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.trickster.PartThree": "你的法术位与法术库中的法术彼此独立。如果某项专长或其他能力向你的法术库中添加一个法术，它不会额外赋予你一个法术位；反之亦然。",
+  "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.trickster.SpellSwapping": "随着你向法术库中添加新法术，你可能想替换一些之前学会的法术。每当你提升等级并学会新法术时，你可以将一个已知法术替换为另一个同环级法术。这个法术可以是戏法，但你不能替换嘲弄法术。你也可以在休整期间通过@UUID[Compendium.pf2e.actionspf2e.Item.24PSsn1SKpUwYA1X]{重训}替换法术。",
+  "PF2E.SpecificRule.Boss.GraspingAppendages.ForcedMovement": "首领对抗会将其强制移动的效果时获得+2状态加值。",
+  "PF2E.SpecificRule.Underling.Prompt.Type": "选择杂兵类型。",
+  "PF2E.SpecificRule.Underling.Defenses.CriticalFailure": "杂兵的生命值降至0。如果该敌对效果不造成伤害，它会@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，而不是获得濒死状态。",
+  "PF2E.SpecificRule.Underling.Defenses.CriticalSuccess": "杂兵的生命值自动降至0。如果该攻击不造成伤害，它会失去意识，而不是获得濒死状态。",
+  "TYPES.JournalEntryPage.pf2e-team-plus-adventures.path": "路线",
+  "TYPES.JournalEntryPage.pf2e-team-plus-adventures.event": "旅行事件",
+  "TYPES.JournalEntryPage.pf2e-team-plus-adventures.approach": "行进方案"
+}

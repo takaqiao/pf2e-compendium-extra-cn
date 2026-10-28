@@ -1,0 +1,1993 @@
+{
+  "entries": {
+    "03ndNFHr5NkkhGfY": {
+      "name": "蠕动躯体 Undulating Mass",
+      "description": "<p>你的身体是一团关节、触手或其他异样部位。你可以如同体型比正常小一级的生物那样穿过狭窄空间。你对精准伤害与重击的额外伤害获得等于你的等级一半加上你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值的抗力。</p>"
+    },
+    "0QMLsKYYFwy6JbBA": {
+      "name": "天界之怒 Wrath of the Heavens",
+      "description": "<p><strong>触发</strong> 一个生物受到你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}造成的伤害。</p><hr><p>你带来的唯一救赎是死亡的解脱，好让敌人罪孽深重的灵魂回归精粹。对触发的生物进行一次@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}。如果该生物具有弱点，你的精魂伤害会触发该弱点。如果该生物具有多个弱点，你会触发其中数值最高的弱点。如果该生物原本就对精魂伤害具有弱点，你造成等于你的等级一半的额外精魂伤害。</p>"
+    },
+    "1LuRQEudxzje0Wwz": {
+      "name": "瞬时效果：机巧脱逃师 Ephemeral Effect: Crafty Escapologist",
+      "description": "<p><em>源自</em> </p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Crafty Escapologist Penalty",
+          "translation": "机巧脱逃师减值"
+        }
+      ]
+    },
+    "1x8rA2gdyRy85un7": {
+      "name": "第二侧面（科学家） Second Facet (Scientist)",
+      "description": "<p>你每天的万用制剂数量增加至5。你每10分钟恢复1份万用制剂。</p>"
+    },
+    "2BCGES0HwvDN9ZnP": {
+      "name": "瞬时效果：耍诈 Ephemeral Effect: Foul Play",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "text"
+          ],
+          "source": "<b>Cunning Waylay Trigger</b> When you cause a creature to become Clumsy.",
+          "translation": "<b>狡黠伏击触发</b> 当你使一个生物笨拙时。"
+        }
+      ]
+    },
+    "2nDsh99Mp8E10QRK": {
+      "name": "华丽反射 Flashy Reflexes",
+      "description": "<p>你极其擅长在瞬间脱离险境。你的反射豁免熟练等级提升至大师。当你的反射豁免结果为成功时，改为获得大成功。</p>"
+    },
+    "34Mp77lZxHkFQbsT": {
+      "name": "疾速步伐 Quick Footed",
+      "description": "<p>你的敏捷已无数次让你与死亡擦肩而过。你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态值增加1，然后@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}。</p>"
+    },
+    "3Ezwnvi6nRIDLKW7": {
+      "name": "诡术师施法 Trickster Spellcasting",
+      "description": "<p>你记住了几道精挑细选的法术，能帮你摆脱言语无法化解的困境……或许也会让你陷入其中。你是施法者，可以使用@UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{施放法术}活动施法。身为诡术师，你运用魔法把戏，塑造把戏和骗局的手势与咒语通常契合你所选诡计的欺骗方式。例如，选择谜团诡计的诡术师可能会念出晦涩的话语，或做出含糊费解的手势来施法。</p><p>你每天可以施放一道1环法术和五道戏法。你必须先学会法术才能施放，并通过法术库职业特性学习法术。你每天能够施放的法术数量称为法术位。</p><p>随着诡术师等级提升，你对魔法把戏的掌握愈发精深，获得更多每日法术位，也能施放更高环阶的法术。你的法术位总数与所能施放的最高法术环阶列于@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.vwrDiPYaR1HzwPNO#trickster-spellcasting]{诡术师每日法术表}。</p><p>某些法术要求你尝试法术攻击检定以确定其效果，或要求敌人进行对抗你的法术DC的检定（通常是尝试豁免）。由于你的关键属性为魅力，你的法术攻击调整值与法术DC使用你的魅力调整值。计算这些数据的详细规则见<em>《玩家核心》</em>第403页。</p><h3>法术升环</h3><p>获得2环及以上的法术位后，你可以将较低环阶法术的增强版本填入这些法术位。这会提高法术的环阶，将其升环至与法术位相同的环阶。你必须在法术库中拥有想要施放的那个环阶的法术，才能将它升环至该环阶。许多法术在升环至特定环阶时会获得明确的强化。招牌法术职业特性让你可以自由升环某些法术。</p><h3>戏法</h3><p>你的部分法术是戏法。戏法是一种不消耗法术位的特殊法术。你可以随意施放戏法，每天次数不限。戏法总会自动升环至你等级的一半，向上取整——这通常等于你拥有的最高诡术师法术位环阶。例如，作为1级诡术师，你的戏法是1环法术；作为5级诡术师，你的戏法是3环法术。</p>"
+    },
+    "3QMaAXKqsnUeeOC7": {
+      "name": "喷吐武器 Breath Weapon",
+      "description": "<p>你在@Template[cone|distance:30]{30尺锥形}范围内呼出一股强大的能量，对区域内每个生物造成@Damage[(@actor.level)d6|options:area-damage]{每级1d6伤害}，目标进行一次@Check[reflex|against:class|basic]{对抗你职业DC的基础反射豁免}。首次获得@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.OKLExpuPF7hpC6mS]{异变肺腑}时，依据你怪物的魔法传承，从下列选项中选择一种伤害类型。此动作获得你怪物的魔法传承特征。</p><ul><li><strong>奥术</strong> 酸蚀、寒冷、电击、火焰或音波</li><li><strong>神术</strong> 火焰、心灵、精魂、命能或虚能</li><li><strong>异能</strong> 寒冷、心灵、精魂、音波或虚能</li><li><strong>原能</strong> 酸蚀、寒冷、电击、火焰或毒素</li></ul>"
+    },
+    "3n1uu598OI3pBpg4": {
+      "name": "粉碎重击 Smashing Blow",
+      "description": "<p>你将全身重量倾注于一次强力攻击。进行一次近战@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}。若命中并造成伤害，你可以尝试运动检定，对命中的生物进行@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}、@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}或@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}。两次攻击都计入你的多次攻击减值，但直到两次攻击均完成后才增加减值。</p>"
+    },
+    "3sdt1z39xRtUDpAj": {
+      "name": "愚者待宰 Fools to Slaughter",
+      "description": "<p>你旋身穿梭于战场，袭击周围的愚者。对10尺弥漫范围内所有@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.XNyElp6jUnKvXkf5]{受骗}生物各进行一次打击。即使通常触及不足，你也能进行这些打击。这些攻击均计入你的多次攻击减值，但直到你完成所有攻击后，减值才会提高。</p>"
+    },
+    "41LC1UymhKEJnkLJ": {
+      "name": "最终侧面（漂泊者） Final Facet (Wanderer)",
+      "description": "<p>你在凡人形态下，以所有无武装攻击、简易武器，以及初始侧面所选的军用武器，获得高等形态专精。</p>"
+    },
+    "4rJqche0yY1285qx": {
+      "name": "第四侧面（看守者） Fourth Facet (Keeper)",
+      "description": "<p>你的简易武器和无武装攻击熟练度提升至大师。</p>"
+    },
+    "4tdUCK1TZtK4pcz6": {
+      "name": "妙招 Clever Knack",
+      "description": "<p>在1、3、7、11、15和19级，你获得一个妙招。妙招是诡术师学会的一种方法，用于精进技能并利用受骗生物。妙招会提高技能熟练，给予一个技能专长，为你的狡黠伏击反应提供一种新的触发条件，并给予针对受骗生物的益处。如果你选择的妙招会给予你已经拥有的技能专长，你可以在选择该妙招时，立即改选另一个你满足先决条件的技能专长。 </p><p>从3级起，如果你选择的妙招会给予你已经拥有的技能熟练，则改为获得一次额外的技能提升。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "prompt"
+          ],
+          "source": "Select a clever knack.",
+          "translation": "选择一个妙招。"
+        }
+      ]
+    },
+    "4xx4asCNtlQgXubo": {
+      "name": "复仇怪物 Retributive Monster",
+      "description": "<p><strong>触发</strong> 一名敌人以近战@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}重击你。</p><hr><p>你将该重击降为普通命中，然后使你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态值增加1。随后你变为怪物形态。</p>"
+    },
+    "5Mh86phl28kwqSvJ": {
+      "name": "灭世化身 Armageddon Incarnate",
+      "description": "<p>你引导此形态全部的恐怖力量，助推世界本身的毁灭。你产生@UUID[Compendium.pf2e.spells-srd.Item.WRP8TDf36hqHyGv1]{显化怪兽}法术的效果，使用你通过@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.hiskcFHbftWtJV4k]{诸神黄昏使者}选定的怪兽，但改为由你获得所列速度，并在使用此活动后产生抵达效果。在你的下个回合结束时，你产生所选怪兽的离去效果，随后这些效果结束。</p>"
+    },
+    "5O4L1LwxksEUNTaZ": {
+      "name": "效果：篡位者惯用手法 Effect: Usurper Modus Operandi",
+      "description": "<p>他们终将在你面前跪下。对抗被击倒而@UUID[Compendium.sf2e.conditions.j91X7x0XSomq8d60]{倒地}，或被强制移动的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{受骗}生物时，你的AC获得环境加值。此AC环境加值等于该生物的受骗状态值，并在其被击倒而倒地或被强制移动效果移动后持续1轮。</p><hr><p><strong>Foundry注记 </strong>将此效果应用于被击倒而倒地或被强制移动效果移动的敌人。</p>"
+    },
+    "5OQOWtGfW0VfOYBS": {
+      "name": "熵乱裂隙 Entropic Rift",
+      "description": "<p>你打开一道通向大漩涡的微小裂隙，将诡异能量散播到对手体内。掷[[/r d8]]查询熵乱裂隙效果表。目标必须进行一次强韧豁免。</p><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 持续时间为1轮。该生物可以花费一个交互动作结束效果。</p><p><strong>失败</strong> 同成功，但持续时间为1分钟。</p><p><strong>大失败</strong> 同失败，但结束效果需要两个交互动作。这些动作无需连续进行。</p><div><table class=\"pf2e remaster\"><caption style=\"caption-side:top;text-align:left\"><p><strong>熵乱裂隙效果</strong></p></caption><thead><tr><th data-colwidth=\"408\"><p>d8</p></th><th data-colwidth=\"408\"><p>效果</p></th></tr></thead><tbody><tr><td data-colwidth=\"408\"><p>1</p></td><td data-colwidth=\"408\"><p>@UUID[Compendium.sf2e.conditions.AdPVz7rbaVSRxHFg]{迷魂}（大失败时无法执行反应）</p></td></tr><tr><td data-colwidth=\"408\"><p>2</p></td><td data-colwidth=\"408\"><p>@UUID[Compendium.sf2e.conditions.i3OJZU2nk64Df3xm]{笨拙1}（大失败时为@UUID[Compendium.sf2e.conditions.i3OJZU2nk64Df3xm]{笨拙2}）</p></td></tr><tr><td data-colwidth=\"408\"><p>3</p></td><td data-colwidth=\"408\"><p>@UUID[Compendium.sf2e.conditions.TkIyaNPgTZFBCCuh]{目眩}（大失败时为@UUID[Compendium.sf2e.conditions.XgEqL1kFApUbl5Z2]{目盲}）。该生物可以花费一个交互动作移除这两个状态。</p></td></tr><tr><td data-colwidth=\"408\"><p>4</p></td><td data-colwidth=\"408\"><p>@UUID[Compendium.sf2e.conditions.MIRkyAjyBeXivMa7]{衰弱1}（大失败时为@UUID[Compendium.sf2e.conditions.MIRkyAjyBeXivMa7]{衰弱2}）</p></td></tr><tr><td data-colwidth=\"408\"><p>5</p></td><td data-colwidth=\"408\"><p>@UUID[Compendium.sf2e.conditions.eIcWbB5o3pP6OIMe]{禁足}（大失败时为@UUID[Compendium.sf2e.conditions.kWc1fhmv9LBiTuei]{受擒}）。逃脱DC等于法术DC。</p></td></tr><tr><td data-colwidth=\"408\"><p>6</p></td><td data-colwidth=\"408\"><p>@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞1}（大失败时为@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞2}）</p></td></tr><tr><td data-colwidth=\"408\"><p>7</p></td><td data-colwidth=\"408\"><p>@UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心1}（大失败时为@UUID[Compendium.sf2e.conditions.fesd1n5eVhpCSS18]{恶心2}）</p></td></tr><tr><td data-colwidth=\"408\"><p>8</p></td><td data-colwidth=\"408\"><p>掷两次，应用两种效果，掷出8则重掷。</p></td></tr></tbody></table></div>",
+      "adventuresText": [
+        {
+          "path": [
+            "target",
+            "value"
+          ],
+          "source": "1 duped creature",
+          "translation": "1个受骗生物"
+        },
+        {
+          "path": [
+            "range",
+            "value"
+          ],
+          "source": "30 feet",
+          "translation": "30尺"
+        },
+        {
+          "path": [
+            "duration",
+            "value"
+          ],
+          "source": "varies",
+          "translation": "不定"
+        }
+      ]
+    },
+    "5d35UnpTN6bAOnEi": {
+      "name": "咆哮凶性 Snarling Aggression",
+      "description": "<p><strong>触发</strong> 你将陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}状态。</p><p><strong>需求</strong> 你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态值本回合尚未增加。</p><hr><p>你不容许他人恐吓自己。你不会陷入惊惧，而是使躁郁状态值增加1；如果你本会陷入的惊惧状态值为2或更高，则改为增加2。</p>"
+    },
+    "5g9k4fzSEWVPfdju": {
+      "name": "第二侧面（漂泊者） Second Facet (Wanderer)",
+      "description": "<p>在凡人形态下，你的简易武器和无武装攻击熟练度提升至专家。当你在凡人形态下处于@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态时，若你进行攻击检定并取得大成功，你会应用该武器或无武装攻击的重击专精效果。</p>"
+    },
+    "5jBKuiSAARmbmSWP": {
+      "name": "瞬时效果：谜团惯用手法注记 Ephemeral Effect: Enigma Modus Operandi Note",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "text"
+          ],
+          "source": "Your mind games boggle enemies. When a duped creature is under the effects of a mental effect you created, you gain a circumstance bonus to AC against that creature equal to the creature’s duped condition value. If the mental effect does not have a duration or has a duration less than 1 round, this circumstance bonus to AC lasts for 1 round.",
+          "translation": "你的心理游戏令敌人困惑不已。当一个受骗生物受到你产生的心灵效果影响时，你对抗该生物的AC获得环境加值，数值等于该生物的受骗状态值。若心灵效果没有持续时间，或持续时间不足1轮，则此AC环境加值持续1轮。"
+        },
+        {
+          "path": [
+            "rules",
+            0,
+            "title"
+          ],
+          "source": "Enigma Modus Operandi",
+          "translation": "谜团惯用手法"
+        }
+      ]
+    },
+    "61lmyZH67P0sUKHB": {
+      "name": "怪物形态融合 Monster Form Coalescence",
+      "description": "<p>你的怪物形态与宿主的联系增强，根据怪物的类型给予怪物形态一种新的潜能能力，详见各怪物条目中的怪物形态能力。</p>"
+    },
+    "6Mo1BQiLrSOA8mEc": {
+      "name": "顶级掠食者 Apex Predator",
+      "description": "<p>你比自然生物更快、更强。你的速度获得状态加值，数值等于5乘以你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值。你为具有移动特征的动作进行运动和特技检定时，获得+1状态加值；若你处于躁郁3，则改为+2状态加值。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            1,
+            "label"
+          ],
+          "source": "Apex Predator",
+          "translation": "顶级掠食者"
+        }
+      ]
+    },
+    "6cNv9lSce1p1dWRk": {
+      "name": "初始侧面（科学家） Initial Facet (Scientist)",
+      "description": "<p>你的手艺技能受训，并获得@UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{炼金手艺}技能专长。你通过炼金手艺选择的物品必须是灵药。你的炼金炸弹熟练度提升至受训。你获得@UUID[Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6]{高速炼金}动作，但只能用它制造消耗品，且这些消耗品必须是灵药。你在日常准备期间制造至多4份万用制剂。这些万用制剂只能作为炸弹，或用于高速炼金制造灵药，即使你还从其他来源获得万用制剂也如此。你获得高阶炼金术的好处。你可以使用高阶炼金术制造4件具有灵药特征的炼金消耗品。</p>"
+    },
+    "6ofnO7Lo4y9deO2F": {
+      "name": "怪物凶暴 Monster’s Brutality",
+      "description": "<p>你的怪物最初便拥有无与伦比的凶暴无武装攻击，具体取决于怪物的本质及其与宿主的联系。无武装攻击的确切形式取决于宿主，可以表现为多种不同的无武装攻击。初次成为宿主时，选择下列一种无武装攻击。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "prompt"
+          ],
+          "source": "Select an unarmed attack.",
+          "translation": "选择一种无武装攻击。"
+        },
+        {
+          "path": [
+            "rules",
+            2,
+            "label"
+          ],
+          "source": "Monster Form Unarmed Attacks",
+          "translation": "怪物形态无武装攻击"
+        }
+      ]
+    },
+    "70DqO0iK2XAkrNXU": {
+      "name": "妙招 Clever Knack",
+      "description": "<p>在1、3、7、11、15和19级，你获得一个妙招。妙招是诡术师学会的一种方法，用于精进技能并利用受骗生物。妙招会提高技能熟练，给予一个技能专长，为你的狡黠伏击反应提供一种新的触发条件，并给予针对受骗生物的益处。如果你选择的妙招会给予你已经拥有的技能专长，你可以在选择该妙招时，立即改选另一个你满足先决条件的技能专长。 </p><p>从3级起，如果你选择的妙招会给予你已经拥有的技能熟练，则改为获得一次额外的技能提升。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "prompt"
+          ],
+          "source": "Select a clever knack.",
+          "translation": "选择一个妙招。"
+        }
+      ]
+    },
+    "7PaP9DmYIBQCqMAa": {
+      "name": "效果：小伙伴 Effect: Little Buddy",
+      "description": "<p>由@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.FVp2POzJHwBGZVi4]{小伙伴}给予</p>"
+    },
+    "7VskNBSwrWVaWkJq": {
+      "name": "强化体能 Enhanced Physicality",
+      "description": "<p>你的体能无与伦比。选择特技或运动。你的怪物进行所选技能的检定时，获得+1状态加值。若你处于@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁3}，此状态加值提高至+2。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "prompt"
+          ],
+          "source": "Choose a skill to boost when frustrated.",
+          "translation": "选择一项在躁郁时获得加值的技能。"
+        },
+        {
+          "path": [
+            "rules",
+            1,
+            "label"
+          ],
+          "source": "Enhanced Physicality",
+          "translation": "强化体能"
+        }
+      ]
+    },
+    "7mb6j31vBk3ZqUA1": {
+      "name": "释放怪物 Unleash the Monster",
+      "description": "<p><strong>需求</strong> 你处于@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁1}或更高状态。</p><hr><p>你的怪物取得宿主的控制权。你进入怪物形态，然后可以立即@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "selfEffect",
+            "name"
+          ],
+          "source": "Effect: Monster Form",
+          "translation": "效果：怪物形态 Effect: Monster Form"
+        }
+      ]
+    },
+    "92CbS8KIz4pLuxd0": {
+      "name": "蠢货闭嘴 Quiet the Dullard",
+      "description": "<p>你让蠢货闭嘴。目标受到10d6心灵伤害，且必须进行意志豁免。无论结果如何，目标随后暂时免疫1天。</p><hr><p><strong>大成功</strong> 目标不受影响。</p><p><strong>成功</strong> 目标受到一半伤害，并受到2环@UUID[Compendium.pf2e.spells-srd.Item.gIdDLrbswTV3OBJy]{沉默术}的影响，直到其下个回合开始。</p><p><strong>失败</strong> 目标受到全额伤害，并受到2环@UUID[Compendium.pf2e.spells-srd.Item.gIdDLrbswTV3OBJy]{沉默术}的影响，持续1轮。</p><p><strong>大失败</strong> 如同失败，但目标受到2环@UUID[Compendium.pf2e.spells-srd.Item.gIdDLrbswTV3OBJy]{沉默术}的影响，持续1分钟。</p><hr><p><strong>升环（+1）</strong> 法术伤害增加1d6。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "target",
+            "value"
+          ],
+          "source": "1 duped creature",
+          "translation": "1个受骗生物"
+        },
+        {
+          "path": [
+            "range",
+            "value"
+          ],
+          "source": "30 feet",
+          "translation": "30尺"
+        },
+        {
+          "path": [
+            "duration",
+            "value"
+          ],
+          "source": "1 minute",
+          "translation": "1分钟"
+        }
+      ]
+    },
+    "9mhn99Gsn1HDKwHZ": {
+      "name": "揭露周遭 Unveil the Ambient",
+      "description": "<p>你让目标亲眼看见周围遍布的自然精魂，从生命精灵到精类，并笑看它的感官陷入混乱。目标必须进行意志豁免。</p><p><strong>大成功</strong> 生物不受影响。</p><p><strong>成功</strong> 生物陷入@UUID[Compendium.sf2e.conditions.TkIyaNPgTZFBCCuh]{目眩}，直到你的下个回合结束，或直到它花费一个具有操作特征的单动作揉眼睛。 </p><p><strong>失败</strong> 如同成功，但持续时间为1分钟。 </p><p><strong>大失败</strong> 如同失败，但生物先陷入@UUID[Compendium.sf2e.conditions.XgEqL1kFApUbl5Z2]{目盲}1轮，然后陷入@UUID[Compendium.sf2e.conditions.TkIyaNPgTZFBCCuh]{目眩}1分钟。生物可以花费一个具有操作特征的单动作移除目盲状态；若如此做，改为目眩1分钟；也可以花费两个操作动作移除这两种状态。这些动作不必连续进行。 </p><p>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.ZVVPY6jtdyit0MGJ]{效果：揭露周遭（成功）}</p><p>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.cjaZCGCQhfYFfAdE]{效果：揭露周遭（失败）}</p><p>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.yDyjw4WN8PEXEeci]{效果：揭露周遭（大失败）}</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "target",
+            "value"
+          ],
+          "source": "1 duped creature",
+          "translation": "1个受骗生物"
+        },
+        {
+          "path": [
+            "range",
+            "value"
+          ],
+          "source": "30 feet",
+          "translation": "30尺"
+        },
+        {
+          "path": [
+            "duration",
+            "value"
+          ],
+          "source": "varies",
+          "translation": "不定"
+        }
+      ]
+    },
+    "AZ0sOQTG77qahuhq": {
+      "name": "恐怖扑击 Terrifying Lunge",
+      "description": "<p>你猛然前冲，跃向猎物并将其撕咬蹂躏。你朝任意方向@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}，距离至多等于你的速度。如果跳跃结束时另一个生物在你的触及范围内，你随后可以进行一次近战无武装@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}。若此打击成功，该生物受到等于该打击的武器伤害骰加上你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态值的@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{持续流血伤害}。</p><p>你也可以选择尝试@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}而非进行打击；若如此做，你的检定获得+2状态加值，若你处于躁郁3则改为+3状态加值。</p>"
+    },
+    "Axyd6CVgvCngGUXP": {
+      "name": "第四侧面（缚咒者） Fourth Facet (Spellbinder)",
+      "description": "<p>你的简易武器和无武装攻击熟练度提升至专家。你获得一个7环法术位。到15级时，你获得一个8环法术位。</p>"
+    },
+    "BOftXYvmX4QstIYg": {
+      "name": "默契搭档 Dynamic Duo",
+      "description": "<p><span class=\"action-glyph\">1</span> 至 <span class=\"action-glyph\">3</span></p><p><strong>需求</strong> 首领已经预告一项首领能力，且@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.UR5CidWDKZMjU0DY]{双人组}中的两个生物都能行动。</p><hr /><p>双人组首领协调配合，然后发动毁灭性的攻击。任一生物使用其预告过的一项首领能力，所需动作数与默契搭档相同，另一生物则执行一个单动作。</p>"
+    },
+    "BXmaTVGxHA4Yvy8E": {
+      "name": "最终侧面（看守者） Final Facet (Keeper)",
+      "description": "<p>你额外获得一次技能提升，用于一项你选择的技能，并获得一个自选技能专长。在19级时，你再次额外获得一次自选的技能提升和一个自选技能专长。</p>"
+    },
+    "CKFqrTKFtMaYlV0d": {
+      "name": "防御机能 Defense Capabilities",
+      "description": "<p>你的构装体赋予你特殊防御。你的生物类型在怪物形态下不会改变，但你获得构装体特征。怪物形态下，你不具有构装体通常拥有的免疫，仍会受以活物为目标的效果影响，并且可以通过命能正常恢复生命值。此外，你在怪物形态下生命值降至0时不会被摧毁，生命值降至0时，你会失去意识并开始濒死。</p><p>你还获得@UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{盾牌格挡}通用专长，以及一面永久固定在你身体上的@UUID[Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB]{钢盾}，即使在凡人形态下也是如此。你无法移除或丢弃这面盾牌，它也无法被卸武。你可以在任一形态下用@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{交互}将盾牌收进体内或从体内取出。若盾牌破损，你可以花费10分钟就损伤报告与你的怪物交流，将其恢复至满生命值；若盾牌被摧毁，则需花费1小时。你可以正常为此盾牌安装武器或盾牌配件。你可以花费1小时，将储存在体内的盾牌替换为你拥有的另一面盾牌。只要你在整个蚀刻过程中始终在场，就可以为你的盾牌蚀刻基础和属性符文。你可以在@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.LYqufFBfSWyqjgkf]{失控}时使用@UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{举盾}动作，但必须是你回合内的第一个动作；你也可以在失控时使用盾牌格挡反应，尽管它不具有攻击特征。</p>"
+    },
+    "CpMTQq1h7erzQxUa": {
+      "name": "压倒性执着 Overwhelming Persistence",
+      "description": "<p>你不会因苦痛躁郁受到伤害，持续1分钟，或直到你不再处于怪物形态。</p>"
+    },
+    "CpuM8d830w129JDa": {
+      "name": "狡黠伏击 Cunning Waylay",
+      "description": "<p><strong>触发</strong> 一个生物对抗你的某个法术的豁免失败；你使用一个会使生物措手不及的动作；或你满足某个妙招的触发条件。</p><p><strong>需求</strong> 你正持用一把伤害骰为d8或更小的近战武器，或能够进行近战无武装攻击。</p><hr><p>你精准把握敌人破绽最大的瞬间发动攻击。使用符合需求的武器或无武装攻击，对触发生物进行一次近战打击。你造成等于目标@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.XNyElp6jUnKvXkf5]{受骗}状态值（若有）的额外伤害。你可以选择将魅力调整值代替力量调整值加入此打击的伤害。你的多次攻击减值不应用于狡黠伏击，但若在你的回合内使用，它仍会像正常进行打击一样提高你的多次攻击减值。</p><p><strong>特殊</strong> 若一个对你已经措手不及的生物原本会再次获得措手不及状态，此反应仍会触发。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Attacking with Cunning Waylay",
+          "translation": "使用狡黠伏击攻击"
+        }
+      ]
+    },
+    "DSAlhPDKqr1Lm2hA": {
+      "name": "执行对策 Enact Countermeasures",
+      "description": "<p><strong>触发</strong> 你的回合开始。</p><hr><p>你针对对手调整自身。选择你怪物的一种无武装攻击，将其变成你怪物通过@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.6ofnO7Lo4y9deO2F]{怪物凶暴}职业特性本可选择的另一种无武装攻击。此变化持续1分钟，或直到你再次使用执行对策，以先发生者为准。</p><p><strong>特殊</strong> 若你的怪物凶暴无武装攻击是武器，此动作对你的武器无武装攻击产生与@UUID[Compendium.pf2e.equipment-srd.Item.roeYtwlIe65BPMJ1]{变型符文}相同的效果。</p>"
+    },
+    "Drrz0DuaWrqLZsx2": {
+      "name": "从容闪避 Nonchalant Dodge",
+      "description": "<p><strong>触发</strong> 一个受骗生物以近战打击指定你为目标。</p><hr><p>你闪避受骗者的攻击。你立即@UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{快步}。如果你仍在触发打击的范围内，触发生物的攻击检定承受等于其@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.XNyElp6jUnKvXkf5]{受骗}状态值的状态减值。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "time",
+            "value"
+          ],
+          "source": "free",
+          "translation": "自由动作"
+        }
+      ]
+    },
+    "DyvpkcT4tu9XPHTp": {
+      "name": "元素核心 Elemental Core",
+      "description": "<p>你的身体几乎完全由某种特定元素构成。1级时，你获得@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.j2hjQNr4foZpjX5k]{元素宿主}作为奖励专长，它决定你的元素特征、苦痛躁郁伤害类型，以及怪物形态下的感官。除了怪物形态通常给予的无武装攻击外，你在怪物形态下还获得轰击无武装攻击，且它必须造成与你所选元素的苦痛躁郁相关的某种伤害类型。这些选择一经确定就无法更改。尽管你是元素生物，若你的凡人形态通常需要呼吸，你在怪物形态下仍然需要呼吸。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            1,
+            "prompt"
+          ],
+          "source": "Select your pained frustration damage type.",
+          "translation": "选择你的苦痛躁郁伤害类型。"
+        }
+      ]
+    },
+    "E02tu8HPGfEPc3p4": {
+      "name": "怪物精力 Monstrous Vigor",
+      "description": "<p>你的怪物拥有惊人的运动能力。你@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}至多等于你的速度的距离，然后@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}或@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}。</p>"
+    },
+    "E9CLWaNP0QjvV8fe": {
+      "name": "热病战栗 Fever Shiver",
+      "description": "<p>你让怪物的力量渗入体内，如同超自然的高热般焚尽疾病。你的@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心}状态降低1，然后你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态增加1。或者，你可以对当前影响你的一项苦难重新尝试一次豁免，但随后会对热病战栗暂时免疫1天。</p>"
+    },
+    "EC3QqRFLI1ZnDTkq": {
+      "name": "猛击 Slam",
+      "description": "<p>你获得一种搏击武器组的无武装攻击，造成1d10钝击伤害，具有回摆、推撞和无武装特征。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Slam",
+          "translation": "猛击"
+        }
+      ]
+    },
+    "EUZRRLBq1YKelTbk": {
+      "name": "第四侧面（漂泊者） Fourth Facet (Wanderer)",
+      "description": "<p>你的简易武器和无武装攻击熟练度提升至大师。</p>"
+    },
+    "ExMjKxQrWeZqoV9k": {
+      "name": "已预告 Telegraphed",
+      "description": "<p>首领已显露其下一次重大行动的征兆，并准备好一种强力能力。</p>"
+    },
+    "FEwrNEE9zenV6MF1": {
+      "name": "渐增躁郁 Mounting Frustration",
+      "description": "<p>躁郁推动你突破新的极限。所有根据你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值确定数值的效果，改为使用双倍的躁郁状态值。这仅适用于效果中明确使用躁郁状态值的效果，例如你打击的伤害或你因苦痛躁郁受到的伤害。这适用于凡人形态与怪物形态下的效果。</p>"
+    },
+    "FNUwePtm3PQWQ2Hm": {
+      "name": "武器诡术 Weapon Duplicity",
+      "description": "<p>你的简易武器、军用武器和无武装攻击熟练度提升至专家。当你对处于受骗状态、或会因这次打击而获得受骗状态的生物进行攻击检定并取得大成功时，你会应用该武器或无武装攻击的重击专精效果。</p>"
+    },
+    "FPfzPtpULIwFfY0o": {
+      "name": "哎呀失手 Oopsy-Daisy",
+      "description": "<p><strong>触发</strong> 你的打击未命中或大失败。</p><hr><p>你失败的攻击化作一团爆发的魔法遮蔽物，其形式通常适合你的诡计。区域内的所有生物都变得@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，区域外的所有生物对区域内的生物也变得隐蔽。处于@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.XNyElp6jUnKvXkf5]{受骗}状态的生物会变得@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到其离开该区域。你可以解消此效果。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "range",
+            "value"
+          ],
+          "source": "0 feet",
+          "translation": "0尺"
+        },
+        {
+          "path": [
+            "time",
+            "value"
+          ],
+          "source": "free",
+          "translation": "自由动作"
+        },
+        {
+          "path": [
+            "duration",
+            "value"
+          ],
+          "source": "1 minute",
+          "translation": "1分钟"
+        }
+      ]
+    },
+    "Fui0ghf7jZWeEtop": {
+      "name": "死亡本身 Death Itself",
+      "description": "<p>你成为死亡的化身。你在怪物形态下的@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}具有死亡特征。当一个生物在你的宿主威压区域内死亡时，你获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}1轮。你可以用此额外动作@UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{快步}、@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}或打击。</p>"
+    },
+    "Fv32aYWTNmu9h3Pj": {
+      "name": "形态专精 Form Specialization",
+      "description": "<p>你的宿主无武装攻击变得更加强劲。以从怪物形态获得且熟练等级为专家的无武装攻击时，你额外造成2点伤害。若你的熟练等级为大师，此伤害提高至3；若为传奇，则提高至4。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Form Specialization",
+          "translation": "形态专精"
+        }
+      ]
+    },
+    "G70OAqQXYPtaersC": {
+      "name": "瞬时效果：表演家惯用手法 Ephemeral Effect: Showman Modus Operandi",
+      "description": "<p>给予诡术师AC加值。</p>"
+    },
+    "GCkvcjqus8ZvpUmt": {
+      "name": "妙招 Clever Knack",
+      "description": "<p>在1、3、7、11、15和19级，你获得一个妙招。妙招是诡术师学会的一种方法，用于精进技能并利用受骗生物。妙招会提高技能熟练，给予一个技能专长，为你的狡黠伏击反应提供一种新的触发条件，并给予针对受骗生物的益处。如果你选择的妙招会给予你已经拥有的技能专长，你可以在选择该妙招时，立即改选另一个你满足先决条件的技能专长。 </p><p>从3级起，如果你选择的妙招会给予你已经拥有的技能熟练，则改为获得一次额外的技能提升。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "prompt"
+          ],
+          "source": "Select a clever knack.",
+          "translation": "选择一个妙招。"
+        }
+      ]
+    },
+    "HAhE0UGZwMArPGhk": {
+      "name": "反击 Retaliate",
+      "description": "<p><strong>触发</strong> 首领触及范围内的一个生物以攻击指定首领为目标。</p><p><strong>需求</strong> 首领处于@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.l9EoVz7tF5tmbqp0]{反击架势}。</p><hr /><p>首领对触发的生物进行一次近战@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}。</p>"
+    },
+    "HHcEB8E1PidijRqC": {
+      "name": "异质心智 Alien Brain",
+      "description": "<p><strong>触发</strong> 你成为心灵效果的目标。</p><hr><p>正如你的身体构造不遵循自然法则，你的脑叶也同样异于常物。你对抗触发效果的所有豁免获得+2状态加值；若你处于@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁3}，则改为+3状态加值。若你的结果为大成功，且该效果源于另一个生物，你异质的心智便会反过来压倒该生物，使其立即陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}，持续1轮。</p>"
+    },
+    "I5v0LZ24edDWTHG2": {
+      "name": "效果：伪信者愚弄 Effect: Charlatan'd",
+      "description": "<p>敌人处于受骗状态时，其攻击会使诡术师的AC获得环境加值。</p><hr><p><strong>Foundry注记</strong> 将此效果应用于信奉或畏惧某位神祇的生物，且伪信者当前持有该神祇的宗教标志。</p><p></p>"
+    },
+    "IXwCPjENaE6WFaxN": {
+      "name": "内在之眼 Eyes Within",
+      "description": "<p>你变得更加警觉，因为体内的眼睛使你时刻留意潜在威胁，无论这些威胁是针对你，还是源于你。你的察觉熟练等级提升至专家。</p>"
+    },
+    "IvSlEfUKzjw26zWc": {
+      "name": "真是无聊 Such a Bore",
+      "description": "<p>你挥一挥手，便打发了那些令你提不起兴趣的家伙。目标生物必须尝试意志豁免，承受下列效果。若目标豁免失败，目标周围15尺弥漫内的所有生物也必须尝试@Check[reflex]豁免来对抗这些效果。此豁免成功的生物被移到弥漫边缘，且不受法术影响。</p><p>作为目标的受骗生物只能花费一个具有专注特征的单动作，再尝试对抗法术DC的@Check[will]豁免来尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}，并将豁免结果作为逃脱尝试的结果。如果该受骗生物成功逃脱，法术结束。</p><hr><p><strong>大成功</strong> 目标不受影响。</p><p><strong>成功</strong> 目标被心灵桎梏束缚在地面上，陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，直到你的下个回合开始。</p><p><strong>失败</strong> 目标被一座囚笼围住，生物被困在其中。囚笼的大小足以容纳所有豁免失败的生物。它具有AC 10、硬度20和40生命值，免疫重击和精准伤害。能够穿过栏杆间隙的生物（通常是微型生物）可以离开；其他生物则被困在其中。使用体积过大、无法穿过栏杆间隙的武器进行的攻击无法穿过囚笼，即使对能够穿过间隙的攻击，栏杆也提供标准掩蔽。法术和喷吐武器可以不受阻碍地穿过囚笼。</p><p><strong>大失败</strong> 如同失败，且目标的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.XNyElp6jUnKvXkf5]{受骗}状态值增加1。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "target",
+            "value"
+          ],
+          "source": "1 duped creature",
+          "translation": "1个受骗生物"
+        },
+        {
+          "path": [
+            "range",
+            "value"
+          ],
+          "source": "60 feet",
+          "translation": "60尺"
+        },
+        {
+          "path": [
+            "duration",
+            "value"
+          ],
+          "source": "1 minute",
+          "translation": "1分钟"
+        }
+      ]
+    },
+    "JDxJUw1ALJIrNrln": {
+      "name": "效果：无所不知 Effect: Know-it-all",
+      "description": "<p>由@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.8trk0zBOwoVvk3SZ]{无所不知}给予</p>"
+    },
+    "JSi3oKG2JqGuL7fd": {
+      "name": "效果：善意欺骗免疫 Effect: Benevolent Deception Immunity",
+      "description": "<p>无论结果如何，一旦你协助了目标或协助检定失败，目标就会在10分钟内免疫你使用欺骗进行的协助尝试。</p>"
+    },
+    "JXJwAHcjmuEvqGyN": {
+      "name": "曲折步法 Winding Movements",
+      "description": "<p>你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态值增加1，然后@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}。你的这次行走不会触发反应。</p>"
+    },
+    "JXR6uXNdVyayoN7p": {
+      "name": "最终侧面（斡旋者） Final Facet (Consul)",
+      "description": "<p>你的法术攻击调整值与法术DC熟练等级提升至大师。你学会一个9环法术，并获得一个9环法术位。在19级时，除你最高两环的凡人法术位外，每一环的凡人法术位增加1个。</p>"
+    },
+    "K0NroUHo7sjG1TNX": {
+      "name": "第四侧面（斡旋者） Fourth Facet (Consul)",
+      "description": "<p>你的简易武器和无武装攻击熟练度提升至专家。你学会一道7环法术，并获得一个7环法术位。到15级时，你学会一道8环法术，并获得一个8环法术位。</p>"
+    },
+    "K5AVE4owWbjAIqY2": {
+      "name": "元素打击 Elemental Strike",
+      "description": "<p><strong>频率</strong> 每回合一次</p><hr /><p>首领的攻击灌注了额外的能量或力量。首领进行一次@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}，造成与所选特征相同类型的额外伤害。伤害为基础生物@Damage[(max(1,floor(@actor.system.details.level.base/2))d8)[@actor.flags.system.infused.damage]]{每2级1d8}（最低伤害为1d8）。此动作具有与其元素相同的特征。</p>"
+    },
+    "KDjTEdzfSK4y8Erm": {
+      "name": "瞬时效果：倒而不败 Ephemeral Effect: Down, Not Out"
+    },
+    "KIB2sgklcpLwtB8i": {
+      "name": "费解谜语 Perplexing Riddle",
+      "description": "<p>你向一个生物提出费解的问题，使其不安而困惑。目标必须进行意志豁免。</p><p><strong>大成功</strong> 生物不受影响。</p><p><strong>成功</strong> 生物陷入@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞1}，直到你的下个回合结束，或直到它花费一个具有专注特征的单动作来回应你喋喋不休的谜语。只要目标处于呆滞状态，它就对你@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}。</p><p><strong>失败</strong> 如同成功，但持续时间为1分钟。</p><p><strong>大失败</strong> 如同失败，但生物陷入@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞2}。</p><p>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.lfVnDhJ8uCBeAgD3]{效果：费解谜语（成功）}</p><p>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.xGhERavQBB2evNYb]{效果：费解谜语（失败）}</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "target",
+            "value"
+          ],
+          "source": "1 duped creature",
+          "translation": "1个受骗生物"
+        },
+        {
+          "path": [
+            "range",
+            "value"
+          ],
+          "source": "30 feet",
+          "translation": "30尺"
+        },
+        {
+          "path": [
+            "duration",
+            "value"
+          ],
+          "source": "varies",
+          "translation": "不定"
+        }
+      ]
+    },
+    "KYpSzlyC5bgc3zzL": {
+      "name": "效果：表演家惯用手法 Effect: Showman Modus Operandi",
+      "description": "<p>对抗那些对你@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}的受骗生物时，你的AC获得环境加值，数值等于该生物的受骗状态值。此加值持续1轮。</p><hr><p><strong>Foundry注记：</strong> 将此效果应用于受到影响的敌人。</p>"
+    },
+    "Kf0JeVUfx6kesgcB": {
+      "name": "第三侧面 Third Facet",
+      "description": "<p>你获得凡人的第三侧面：</p><ul><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.gDwi7XtSqEW0HWO9]{斡旋者}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.kFbpcocjTJ1Skicw]{看守者}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.xXiqMGMNQHYuaRWB]{科学家}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.vaF3Uk43k7yaJTwr]{缚咒者}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.Ypy6ZxAZGvpe2cln]{漂泊者}</li></ul>"
+    },
+    "KsvgqwfzyolYmPMH": {
+      "name": "迅捷 Swift",
+      "description": "<p>你的宿主防护给予你AC的+1物品加值，敏捷上限为+4。你的反射豁免熟练度提升至专家。你的速度增加5尺。</p>"
+    },
+    "LRsk0s4RrIMuaaGD": {
+      "name": "瞬时效果：谜团惯用手法 Ephemeral Effect: Enigma Modus Operandi",
+      "description": "<p>给予诡术师AC加值。</p>"
+    },
+    "M52dMYaDa4fAZczC": {
+      "name": "扫倒凶暴 Leveling Brutality",
+      "description": "<p>如果你的@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}重击，你可以用一个自由动作尝试@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}目标。两次攻击都计入你的多次攻击减值，但直到两次攻击均完成后才增加减值。你的无武装攻击必须具有灵巧或长触及特征。</p>",
+      "prerequisites": [
+        {
+          "value": "来自怪物凶暴且具有灵巧或长触及特征的无武装攻击"
+        }
+      ],
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "text"
+          ],
+          "source": "<p>If you critically hit with a @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Strike}, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} the target as a free action. Both attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made both of them. </p>",
+          "translation": "<p>如果你的@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}重击，你可以用一个自由动作尝试@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}目标。两次攻击都计入你的多次攻击减值，但直到两次攻击均完成后才增加减值。 </p>"
+        }
+      ]
+    },
+    "MmyW1tVIBwqWxsqO": {
+      "name": "效果：伪装信徒 Effect: False Disciple",
+      "description": "<p>你以幻象呈现出某位所选神祇虔诚信徒的外貌，包括持用该神祇的宗教标志。伪装对象的身高与体重必须与你大致相当（身高相差不超过6英寸，体重相差不超过50磅）。这种伪装通常足以隐藏身份，但不足以冒充某个特定个体。此法术改变你的外貌和声音，但不会改变举止习惯。</p><p>这视为你为使用欺骗进行@UUID[Compendium.sf2e.actions.AJstokjdG6iDjVjE]{乔装}而准备了伪装；它忽略你因将自己伪装成不同类生物而可能承受的环境减值，使你为防止他人看穿伪装而进行的欺骗检定获得+4状态加值，并让目标即使未受训，也能将自身等级加入此类欺骗检定。你可以@UUID[Compendium.sf2e.actions.AjLSHZSWQ90exdLo]{解消}此法术。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Bonus vs. seeing through your disguise",
+          "translation": "防止他人看穿你伪装的加值"
+        }
+      ]
+    },
+    "NUmQtKtXwoojfjYq": {
+      "name": "最终侧面 Final Facet",
+      "description": "<p>你获得凡人的最终侧面：</p><ul><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.JXR6uXNdVyayoN7p]{斡旋者}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.BXmaTVGxHA4Yvy8E]{看守者}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.dSWaWEpUfRNdwtI2]{科学家}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.dgvjwaxnEKe5Yqv5]{缚咒者}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.41LC1UymhKEJnkLJ]{漂泊者}</li></ul>"
+    },
+    "NYVMlxC3I1mdGwqW": {
+      "name": "强推凶暴 Forceful Brutality",
+      "description": "<p>当你以一次@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}造成重击时，你将目标向远离你的方向击退至多10尺（由你选择距离）。这是强制移动。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "text"
+          ],
+          "source": "<p>When you critically hit with a @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Strike}, you knock the target away from you up to 10 feet (you choose the distance). This is forced movement.</p>",
+          "translation": "<p>当你以一次@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}造成重击时，你将目标向远离你的方向击退至多10尺（由你选择距离）。这是强制移动。</p>"
+        }
+      ]
+    },
+    "OoNswspmtEsSFe1A": {
+      "name": "效果：包扎治疗免疫 Effect: Patch Up Immunity",
+      "description": "<p>由@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.ru7VGIoAlUM4kE7E]{包扎治疗}给予</p>"
+    },
+    "P1RYOpU4IMNcjty1": {
+      "name": "躁郁溶液 Frustrated Solution",
+      "description": "<p><strong>需求</strong> 一名敌人在10尺内，或在你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内。</p><hr><p>你以压力激发创造力。你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值增加1。你使用@UUID[Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6]{高速炼金}，随后立即启动所制造的物品。</p>"
+    },
+    "PmjkE73v9nDkFWSr": {
+      "name": "违令代价 Violator’s Toll",
+      "description": "<p><strong>触发</strong> 一个处于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}内的生物违背了你的命令。</p><hr><p>你让违令者为其无礼付出代价。你立即朝触发的生物@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}，距离至多等于你的速度，然后@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}它。若打击大成功，你还会打断触发的动作。无论结果如何，你在1分钟内都无法再以触发此反应的生物为违令代价的目标。</p>"
+    },
+    "QY2MMx6FSJAzjsml": {
+      "name": "凡人形态 Mortal Form",
+      "description": "<p>凡人形态体现了你平静时的自我。从你具有使用权的选项中选择一种凡人。到1级时，你获得初始侧面，它决定你的凡人形态的基础熟练度，并给予你一种独特能力。到5级及其后的每四级，你获得一个额外的凡人侧面。</p><p>凡人形态决定你的关键属性；你处于凡人形态时也以该属性计算职业DC，并在进入怪物形态时互换该属性。凡人形态还会基于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}给予你一个动作。</p><p>在判断是否满足先决条件时，视为你具有凡人形态的属性调整值，但如果你在怪物形态下不满足这些先决条件，该效果会获得凡人特征。如果你之后在怪物形态下满足了这些先决条件，该效果便失去此特征。在怪物形态下，你保留凡人形态的所有技能熟练度与语言，即使你的怪物形态智力调整值更低也如此。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "prompt"
+          ],
+          "source": "Select a mortal.",
+          "translation": "选择一种凡人。"
+        }
+      ]
+    },
+    "QirNmAGfnNWZvExH": {
+      "name": "初始侧面（缚咒者） Initial Facet (Spellbinder)",
+      "description": "<p>通过缚咒研习，你从医疗、神秘、宗教或社群中选择一项技能受训。你的施法传承与你的怪物所具有的传承特征相同。你在每天的日常准备期间恢复法术位，用以准备法术。在日常准备期间与体内怪物交流，你可以准备所属传承法术列表中任何你具有使用权且有能力施放的法术。</p><p>你的法术攻击调整值和法术DC受训，凡人法术的关键施法属性为感知。你获得一个1环法术位，并能每天从所属传承的法术列表中准备至多三道常见戏法。你从凡人获得的法术称为凡人法术，具有凡人特征。到3级时，你获得一个2环法术位。</p>"
+    },
+    "RJJDX6Cz62RlPfyr": {
+      "name": "神圣打击 Strikes of the Holy",
+      "description": "<p>你的无武装攻击具有圣洁特征，受到你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}伤害的生物对你@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你的下个回合结束。</p>"
+    },
+    "RJZXCarMVZzE7GTo": {
+      "name": "效果：团队精神 Effect: Team Spirit",
+      "description": "<p>由@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.HbMJyswRlbOqYQLZ]{团队精神}给予</p>"
+    },
+    "RgafKEN3QO0OV5kZ": {
+      "name": "效果：兽首者惯用手法 Effect: Therioceph Modus Operandi",
+      "description": "<p>未知的威胁难以察觉。当你改变形态时，你对抗受骗生物的AC获得环境加值。此AC环境加值等于该生物的受骗状态值，并在你改变形态后持续1轮。</p>"
+    },
+    "Rob88aMymWfrAUQ5": {
+      "name": "轰击 Blast",
+      "description": "<p>你获得一种属于搏击武器组的远程无武装攻击，可选择造成1d6穿刺伤害，或造成1d4与你怪物的苦痛躁郁相同类型的伤害。此无武装攻击的射程为30尺，并获得你选择的夺命d10或投掷特征。对于要求你进行近战@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}的宿主专长或能力，只要敌人位于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内，你就可以改用此无武装攻击进行远程打击。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "prompt"
+          ],
+          "source": "Select a trait for your blast.",
+          "translation": "为你的轰击选择一个特征。"
+        },
+        {
+          "path": [
+            "rules",
+            1,
+            "choices",
+            0,
+            "label"
+          ],
+          "source": "1d6 Piercing",
+          "translation": "1d6穿刺"
+        },
+        {
+          "path": [
+            "rules",
+            1,
+            "choices",
+            1,
+            "label"
+          ],
+          "source": "1d4 Pained Frustration",
+          "translation": "1d4苦痛躁郁"
+        },
+        {
+          "path": [
+            "rules",
+            1,
+            "prompt"
+          ],
+          "source": "Select the damage of your blast.",
+          "translation": "选择你的轰击的伤害。"
+        },
+        {
+          "path": [
+            "rules",
+            4,
+            "label"
+          ],
+          "source": "Blast",
+          "translation": "轰击"
+        },
+        {
+          "path": [
+            "rules",
+            5,
+            "label"
+          ],
+          "source": "Blast",
+          "translation": "轰击"
+        },
+        {
+          "path": [
+            "rules",
+            6,
+            "label"
+          ],
+          "source": "Blast",
+          "translation": "轰击"
+        },
+        {
+          "path": [
+            "rules",
+            7,
+            "label"
+          ],
+          "source": "Blast",
+          "translation": "轰击"
+        }
+      ]
+    },
+    "Rw6xKlwv6rVFl5oa": {
+      "name": "宿主防护 Vessel’s Protection",
+      "description": "<p>你的宿主受到怪物保护，在凡人形态和怪物形态下都获得防御。具体形式取决于怪物，可能表现为护甲、岩石般的皮肤、灵巧身手或鳞片。这取决于怪物的本质及其与宿主的联系。</p><p>当你未着甲时，你获得所选宿主防御的好处。此防护提供的AC物品加值可以与你的@UUID[Compendium.pf2e.equipment-srd.Item.dDIPA1WE9ESF67EB]{探险者服装}上的护甲潜能符文、@UUID[Compendium.pf2e.spells-srd.Item.aAbfKn8maGjJjk2W]{法术护甲}法术或@UUID[Compendium.pf2e.equipment-srd.Item.02q8s6sSicMkhs1l]{力场手环}叠加。你还会根据所选防护，将强韧或反射豁免熟练度提升至专家。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "prompt"
+          ],
+          "source": "Select a protection.",
+          "translation": "选择一种防护。"
+        }
+      ]
+    },
+    "SSQeCAzJMOG02DNl": {
+      "name": "必至审判 Inevitable Judgement",
+      "description": "<p>你历数对手的罪行，发誓惩罚其所作所为。选择一个受到过你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}造成的精魂伤害的生物。在1分钟内，每当它对你以外的生物采取敌对行动时，都会受到等于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值的精魂伤害，即使它不在你的宿主威压区域内也如此。若它在你的宿主威压区域内，则受到通常数值双倍的伤害。如果你不再处于怪物形态，此效果结束。</p>"
+    },
+    "SaCJVehDypun9yT0": {
+      "name": "怪物泰坦 Monstrous Titan",
+      "description": "<p>你的宿主整体变得格外难以被攻破。你的无甲防御熟练度提升至大师。</p>"
+    },
+    "SmbSt89u47RJJK6W": {
+      "name": "惑敌伏击 Confounding Waylay",
+      "description": "<p>生物很难挣脱你的诡计之网。当你用狡黠伏击反应成功打击一个受骗状态值已达到其上限的敌人时，该生物陷入@UUID[Compendium.sf2e.conditions.yblD8fOR1J8rDwEQ]{困惑}1轮。若该生物不再受骗，此困惑自动结束。</p>"
+    },
+    "SsTK8Qgtcrk2fNGP": {
+      "name": "瞬时效果：费解谜语（诡术师） Ephemeral Effect: Perplexing Riddle (Trickster)",
+      "description": "<p>给予攻击者一个瞬时效果，使费解谜语中的赋予物品规则元素生效。</p>"
+    },
+    "SuSaqM2iiaJNpRQA": {
+      "name": "效果：找到你了 Effect: Found You",
+      "description": "<p>当你提高一个当天曾成功追踪的生物的受骗状态值时，在接下来1天内，你继续尝试追踪该生物的检定获得等于其受骗状态值的状态加值。</p>"
+    },
+    "TMzYI1T1ZCLW5dMM": {
+      "name": "躁郁恳求 Frustrated Plea",
+      "description": "<p><strong>触发</strong> 一个在10尺内或你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内的生物尝试意志豁免，或你将以基于魅力的技能检定对抗其意志DC。</p><hr><p>你发出躁郁的恳求，迫使他人在怪物不得不回应之前听你说话。你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值增加1。该生物在触发的豁免中、或其意志DC在对抗触发的技能检定时承受–1减值。如果你的躁郁状态值大于2，该减值增加至–2。</p>"
+    },
+    "TZ0b4YU5CaMrTHkx": {
+      "name": "初始侧面（看守者） Initial Facet (Keeper)",
+      "description": "<p>你选择的四项技能受训。你额外获得一个自选技能专长。在凡人形态下，你对@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}的敌人进行@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}时，造成等于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值的额外伤害。到3级时，你额外获得一次技能提升和一个自选技能专长。</p>"
+    },
+    "Tfin45sRCaePlhBN": {
+      "name": "协同控制 Cooperative Control",
+      "description": "<p><strong>触发</strong> 你使用@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.nGrOVlTxvmz43zak]{争夺控制}。</p><hr><p>你的争夺控制检定自动大成功。</p>"
+    },
+    "TguWAmyYB94Uts5S": {
+      "name": "勘察战场 Scout Battlefield",
+      "description": "<p>你的目光四处扫视，寻找能投向敌人的物件。进行一次察觉检定，对抗你等级的标准DC，并使你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态值增加1。若检定成功，你在25尺内标定一块可供怪物利用的战场。如果你使用@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.yIcqFXvNZzt27Nqt]{掀翻战场}，你可以选择使你的躁郁状态值降低1。</p>"
+    },
+    "Trxr7nziRvsSIWw5": {
+      "name": "怪物意志 Monstrous Willpower",
+      "description": "<p>你对试图控制自己的效果有着极强的抵抗力，因为你和怪物都不会轻易屈服。每当你对试图控制你的心灵效果、或会使你陷入@UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{被控制}状态的效果尝试意志豁免时，你可以投掷两次并取较好的结果。这是幸运效果。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Rolling a Will save against control",
+          "translation": "对抗控制的意志豁免"
+        }
+      ]
+    },
+    "UMX7CL7piY05FvOI": {
+      "name": "妙招 Clever Knack",
+      "description": "<p>在1、3、7、11、15和19级，你获得一个妙招。妙招是诡术师学会的一种方法，用于精进技能并利用受骗生物。妙招会提高技能熟练，给予一个技能专长，为你的狡黠伏击反应提供一种新的触发条件，并给予针对受骗生物的益处。如果你选择的妙招会给予你已经拥有的技能专长，你可以在选择该妙招时，立即改选另一个你满足先决条件的技能专长。 </p><p>从3级起，如果你选择的妙招会给予你已经拥有的技能熟练，则改为获得一次额外的技能提升。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "prompt"
+          ],
+          "source": "Select a clever knack.",
+          "translation": "选择一个妙招。"
+        }
+      ]
+    },
+    "UMwg0FGava1DxW0y": {
+      "name": "效果：骑手 Effect: Rider",
+      "description": "<p>由@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.WRmkd2UCYnKiQiXL]{骑手}给予</p>"
+    },
+    "USptr1zryvDQlokr": {
+      "name": "攫取凶暴 Grasping Brutality",
+      "description": "<p>如果你的@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}重击，你可以用一个自由动作尝试@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}目标。两次攻击都计入你的多次攻击减值，但直到两次攻击均完成后才增加减值。你的无武装攻击必须是近战无武装攻击，才能选择此凶暴。</p>",
+      "prerequisites": [
+        {
+          "value": "来自怪物凶暴的近战无武装攻击"
+        }
+      ],
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "text"
+          ],
+          "source": "<p>If you critically hit with a @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Strike}, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the target as a free action. Both attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made both of them.</p>",
+          "translation": "<p>如果你的@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}重击，你可以用一个自由动作尝试@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}目标。两次攻击都计入你的多次攻击减值，但直到两次攻击均完成后才增加减值。</p>"
+        }
+      ]
+    },
+    "UThupKMFfIcsedxl": {
+      "name": "高等形态专精 Greater Form Specialization",
+      "description": "<p>使用从怪物形态获得的无武装攻击时，若其熟练度为专家，你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.Fv32aYWTNmu9h3Pj]{形态专精}伤害增加至4；若为大师则增加至6，若为传奇则增加至8。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "relabel"
+          ],
+          "source": "Greater Form Specialization",
+          "translation": "高等形态专精 Greater Form Specialization"
+        }
+      ]
+    },
+    "UWTdIZHmXlzhr95t": {
+      "name": "杂兵防御 Underling Defenses",
+      "description": "<p>杂兵不使用其基础生物通常具有的生命值，而是拥有等于基础生物等级两倍的生命值（最低1）。</p><p>当杂兵对敌对效果的豁免大失败，或一个生物以杂兵为目标采取敌对行动并取得大成功时，杂兵的生命值自动降至0。如果敌对效果不造成伤害，该生物会陷入@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，而非获得@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{濒死}状态。或者，不造成伤害的敌对效果可以用其他方式让杂兵退出遭遇，例如@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{挫败士气}大成功使杂兵逃跑（由主持人裁定）。</p><p>当杂兵尝试基础豁免时，其顽强天性让它有机会逃过一死。杂兵的基础豁免检定成功时，改为大成功。这仅适用于基础豁免的伤害，成功时产生的额外效果仍照常影响杂兵。</p>"
+    },
+    "Vgtma2DMxaad7WYl": {
+      "name": "效果：无害兽形 Effect: Innocuous Animal Form"
+    },
+    "Vt2p5DYLQpwWGK9c": {
+      "name": "效果：伏击法术免疫 Effect: Ambush Spell Immunity",
+      "description": "<p>你暂时免疫@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.DOt00dCn9fnGH50L]{伏击法术}。</p>"
+    },
+    "WFIoLmZUZFOvStuo": {
+      "name": "第二侧面（斡旋者） Second Facet (Consul)",
+      "description": "<p>你学会一道3环法术，并获得一个3环法术位。到7级时，你学会一道4环法术，并获得一个4环法术位。</p>"
+    },
+    "WQNkkfjLe4i4Vj7c": {
+      "name": "尽在脚下 Beneath My Feet",
+      "description": "<p>你@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}至多等于速度两倍的距离，可以穿过体型至少比你小一级的生物所占的空间，并@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]{践踏}每个你进入其空间的生物。同一次践踏中，你至多尝试践踏同一生物一次。你对这些生物造成钝击伤害，数值等于你的一种怪物形态无武装攻击的@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}伤害，目标进行一次@Check[reflex|against:class|basic]{对抗你职业DC的基础反射豁免}。</p>"
+    },
+    "WsMJJPzTsg6VAzEm": {
+      "name": "妙招 Clever Knack",
+      "description": "<p>在1、3、7、11、15和19级，你获得一个妙招。妙招是诡术师学会的一种方法，用于精进技能并利用受骗生物。妙招会提高技能熟练，给予一个技能专长，为你的狡黠伏击反应提供一种新的触发条件，并给予针对受骗生物的益处。如果你选择的妙招会给予你已经拥有的技能专长，你可以在选择该妙招时，立即改选另一个你满足先决条件的技能专长。 </p><p>从3级起，如果你选择的妙招会给予你已经拥有的技能熟练，则改为获得一次额外的技能提升。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "prompt"
+          ],
+          "source": "Select a clever knack.",
+          "translation": "选择一个妙招。"
+        }
+      ]
+    },
+    "XK0C16vkQIO11Aif": {
+      "name": "效果：攫取附肢 Effect: Grasping Appendages",
+      "description": "<p>由@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.roVB5Or4lKkCFO7V]{攫取附肢}给予</p>"
+    },
+    "XNPKN5WMy1lDyI0o": {
+      "name": "瞬时效果：怕了吗？ Ephemeral Effect: Scared Yet?",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "text"
+          ],
+          "source": "<b>Cunning Waylay Trigger</b> When you cause a creature to become Frightened.",
+          "translation": "<b>狡黠伏击触发</b> 当你使一个生物惊惧时。"
+        }
+      ]
+    },
+    "XPlxM39M52E90OwB": {
+      "name": "诱敌换身 Bait and Switch",
+      "description": "<p>你创造一个可以操控的自身复制体。选择目标相邻的一个空间。与你一模一样的复制体出现在所选空间中。在法术生效期间，你可以用自己或复制体来执行动作。在其中一方受到敌对效果前，你无需决定哪一个才是真正的你；当其中一方受到敌对效果时，你必须立即决定其目标是否为真正的你。不论如何选择，复制体都会立即消失，且以复制体为目标的任何效果都不会影响你。</p><hr><p><strong>升阶（+1）</strong> 你可以额外以一个受骗生物为目标。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "target",
+            "value"
+          ],
+          "source": "1 duped creature",
+          "translation": "1个受骗生物"
+        },
+        {
+          "path": [
+            "range",
+            "value"
+          ],
+          "source": "60 feet",
+          "translation": "60尺"
+        },
+        {
+          "path": [
+            "duration",
+            "value"
+          ],
+          "source": "1 minute",
+          "translation": "1分钟"
+        }
+      ]
+    },
+    "XSFgqWYSMfudoAW3": {
+      "name": "初始侧面（漂泊者） Initial Facet (Wanderer)",
+      "description": "<p>从特技或运动中选择一项技能，你在该技能上受训。选择一种军用武器。你熟悉所选武器，在判定熟练度时将其视为简易武器。在凡人形态下，你的@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}造成等于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值的额外伤害。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            3,
+            "label"
+          ],
+          "source": "Wanderer Martial Weapon",
+          "translation": "漂泊者军用武器"
+        }
+      ]
+    },
+    "XVI2R9rDmLWxEKFD": {
+      "name": "内在怪物 The Monster Within",
+      "description": "<p>每一次小小的挫折，都会给你深埋体内的东西一个向外爬出的机会。你无法减轻或规避自己宿主能力的情绪、恐惧或心灵效果。</p><p>当你受到等于或超过你等级两倍的伤害时，你获得@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}；若你已经处于躁郁状态，则躁郁状态值增加1。如果你以怪物形态开始回合，且在你的下个回合开始前没有采取敌对行动，你的躁郁状态值增加1。</p><p>当你处于凡人形态且具有躁郁状态时，在每个回合结束时，你必须尝试一次@Check[flat|showDC:none|traits:monster-within|dc:resolve(5+@actor.flags.sf2e.frustrated)]{DC为5 + 你的躁郁状态值}的纯骰检定。若纯骰检定失败，你便失去控制，立即变为怪物形态，并使躁郁状态值增加1。你可以选择在此检定中自动失败。你获得@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.7mb6j31vBk3ZqUA1]{释放怪物}动作与@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.nGrOVlTxvmz43zak]{争夺控制}反应。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            2,
+            "text"
+          ],
+          "source": "When you take damage greater than or equal to twice your level, you gain the @UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{frustrated} condition or increase your frustrated condition by 1 if you were already frustrated.",
+          "translation": "当你受到等于或超过你等级两倍的伤害时，你获得@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态；若你已经处于躁郁状态，则躁郁状态值增加1。"
+        },
+        {
+          "path": [
+            "rules",
+            3,
+            "text"
+          ],
+          "source": "You immediately transform into your @UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.RVW4jEY3Gd4dri1a]{monster form} and increase your @UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.CfeBcwR1XPkOlWMd]{frustrated} condition by 1.",
+          "translation": "你立即变为@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.RVW4jEY3Gd4dri1a]{怪物形态}，并使你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.CfeBcwR1XPkOlWMd]{躁郁}状态值增加1。"
+        },
+        {
+          "path": [
+            "rules",
+            4,
+            "text"
+          ],
+          "source": "You keep control of your monster. You can still choose to get an automatic failure to transform.",
+          "translation": "你维持住了对怪物的控制。你仍可选择自动失败以变身。"
+        }
+      ]
+    },
+    "Y0dqm9RPEYbOCRkR": {
+      "name": "落井下石 Insult to Injury",
+      "description": "<p>你的攻击令敌人晕头转向，更容易受你的魔法和把戏影响。当你使用狡黠伏击反应成功打击敌人，或成功打击对你措手不及的敌人时，目标陷入@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{受骗1}；若打击大成功，则陷入@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{受骗2}。如果你随后对已受骗的生物进行打击，则改为使其受骗值增加1，最高达到受骗2。</p><p>若你至少为7级，你能施加给生物的受骗值上限从2提升至3；若你对已受骗的生物取得大成功，其受骗值改为增加2而非1。若你至少为15级，你能施加给生物的受骗值上限从3提升至4。你的打击造成的受骗状态的DC等于你的法术DC。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "text"
+          ],
+          "source": "When you successfully Strike an enemy with your Cunning Waylay reaction or that is off-guard to you, they become @UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{duped 1}, or increase its duped value by 1 if it is already duped, up to a maximum of 2.",
+          "translation": "当你使用狡黠伏击反应成功打击敌人，或成功打击对你措手不及的敌人时，目标陷入@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{受骗1}；若它已经受骗，则受骗值增加1，上限为2。"
+        },
+        {
+          "path": [
+            "rules",
+            1,
+            "text"
+          ],
+          "source": "When you critically succeed at a Strike against an enemy with your Cunning Waylay reaction or that is off-guard to you, they become @UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{duped 2}, or increase its duped value by 1 if it is already duped, up to a maximum of 2.",
+          "translation": "当你使用狡黠伏击反应打击敌人取得大成功，或打击对你措手不及的敌人取得大成功时，目标陷入@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{受骗2}；若它已经受骗，则受骗值增加1，上限为2。"
+        },
+        {
+          "path": [
+            "rules",
+            2,
+            "text"
+          ],
+          "source": "When you successfully Strike an enemy with your Cunning Waylay reaction or that is off-guard to you, they become @UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{duped 1}, or increase its duped value by 1 if it is already duped, up to a maximum of 3.",
+          "translation": "当你使用狡黠伏击反应成功打击敌人，或成功打击对你措手不及的敌人时，目标陷入@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{受骗1}；若它已经受骗，则受骗值增加1，上限为3。"
+        },
+        {
+          "path": [
+            "rules",
+            3,
+            "text"
+          ],
+          "source": "When you critically succeed at a Strike against an enemy with your Cunning Waylay reaction or that is off-guard to you, they become @UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{duped 2}, or increase its duped value by 1 if it is already duped, up to a maximum of 3.",
+          "translation": "当你使用狡黠伏击反应打击敌人取得大成功，或打击对你措手不及的敌人取得大成功时，目标陷入@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{受骗2}；若它已经受骗，则受骗值增加1，上限为3。"
+        },
+        {
+          "path": [
+            "rules",
+            4,
+            "text"
+          ],
+          "source": "When you successfully Strike an enemy with your Cunning Waylay reaction or that is off-guard to you, they become @UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{duped 1}, or increase its duped value by 1 if it is already duped, up to a maximum of 4.",
+          "translation": "当你使用狡黠伏击反应成功打击敌人，或成功打击对你措手不及的敌人时，目标陷入@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{受骗1}；若它已经受骗，则受骗值增加1，上限为4。"
+        },
+        {
+          "path": [
+            "rules",
+            5,
+            "text"
+          ],
+          "source": "When you critically succeed at a Strike against an enemy with your Cunning Waylay reaction or that is off-guard to you, they become @UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{duped 2}, or increase its duped value by 1 if it is already duped, up to a maximum of 4.",
+          "translation": "当你使用狡黠伏击反应打击敌人取得大成功，或打击对你措手不及的敌人取得大成功时，目标陷入@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{受骗2}；若它已经受骗，则受骗值增加1，上限为4。"
+        }
+      ]
+    },
+    "Y2OoXoku2qPRMIId": {
+      "name": "附肢猛击 Appendage Slam",
+      "description": "<p><strong>频率</strong> 每回合一次</p><hr /><p>附肢攻击附近的敌人。首领用附肢猛砸生物，每根附肢可攻击位于其15尺内的一个生物。每个目标受到钝击伤害，并进行一次@Check[reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic|adjustment:5]。豁免大失败的生物还会陷入@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}状态，直到其以@Check[athletics|dc:resolve(@actor.system.attributes.classDC.value)|adjustment:5]或@Check[acrobatics|dc:resolve(@actor.system.attributes.classDC.value)|adjustment:5]成功@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}。使用此动作时，若某根附肢已经擒获一个生物，该附肢自动以擒获的生物为目标，且该生物的反射豁免承受–2减值。钝击伤害为@Damage[(max(1,floor(@actor.system.details.level.base/2))d8)[bludgeoning]]{每2级1d8}（最低伤害为1d8）。</p>"
+    },
+    "Y61AAxoOi0yZwnwk": {
+      "name": "一体同身 One Body",
+      "description": "<p>你的凡人与怪物如今更加协调一致，为你提供进一步保护。你通过@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.Rw6xKlwv6rVFl5oa]{宿主防护}提升至专家的豁免熟练度提升至大师。当你在上述豁免中检定成功时，改为大成功。</p>"
+    },
+    "YT6FnFLZ1Xo130U5": {
+      "name": "效果：驾驶员 Effect: Chauffeur",
+      "description": "<p>由@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.pGyLwpSTlpn3WwGL]{驾驶员}给予</p>"
+    },
+    "Ya4qV1TDK2ZoLPmo": {
+      "name": "瞬时效果：伏击法术 Ephemeral Effect: Ambush Spell",
+      "description": "<p>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.DOt00dCn9fnGH50L]{伏击法术}的瞬时效果</p><p>你对抗该法术的AC或豁免承受–2环境减值。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            1,
+            "text"
+          ],
+          "source": "Regardless of the result of the spell, the creature is then temporarily immune for 1 minute. @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.Vt2p5DYLQpwWGK9c]{Effect: Ambush Spell Immunity}",
+          "translation": "无论法术的结果如何，该生物随后都会对此暂时免疫1分钟。@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.Vt2p5DYLQpwWGK9c]{效果：伏击法术免疫}"
+        },
+        {
+          "path": [
+            "rules",
+            1,
+            "title"
+          ],
+          "source": "@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.DOt00dCn9fnGH50L]{Ambush Spell}",
+          "translation": "@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.DOt00dCn9fnGH50L]{伏击法术}"
+        }
+      ]
+    },
+    "YaJmreuP0GBp61CF": {
+      "name": "瞬时效果：虚假安全感 Ephemeral Effect: False Security",
+      "description": "<p>提醒攻击者：具有虚假安全感惊吓的目标会陷入笨拙。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "text"
+          ],
+          "source": "The target becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy {item|origin.flags.sf2e.dread}} for 1 round, and its Scare ends.",
+          "translation": "目标陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙{item|origin.flags.sf2e.dread}}1轮，且其惊吓结束。"
+        },
+        {
+          "path": [
+            "rules",
+            0,
+            "title"
+          ],
+          "source": "Scare (False Security)",
+          "translation": "惊吓（虚假安全感）"
+        }
+      ]
+    },
+    "Ypy6ZxAZGvpe2cln": {
+      "name": "第三侧面（漂泊者） Third Facet (Wanderer)",
+      "description": "<p>在凡人形态下，你的所有无武装攻击、简易武器，以及你在第一侧面中选择的军用武器获得形态专精。</p>"
+    },
+    "Z5WTqi33EPOFMbiN": {
+      "name": "怪物形态 Monster Form",
+      "description": "<p>你的身体里藏着一个可怕的生物，当你再也无法压制它时，它便会现身。从你具有使用权的选项中选择一种怪物。选择怪物时，你也要根据所选的怪物确定它的外貌、与你的联系，以及它掌控身体时你的大致形态。一旦确定了怪物的类型及其掌控身体时你的大致外貌，这些特征就无法改变，除非选择能让你的形态发展出新特征的专长。</p><p>随着你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}加剧，怪物的特征会愈发明显，对宿主整体的影响也愈发严重。当你在凡人形态下处于躁郁状态时，你会显露怪物形态的征兆，生物能轻易察觉你有些不对劲，但未必能判断出你是怪物的宿主。</p><p>进入怪物形态时，你获得怪物的无武装攻击，你对这些攻击具有更高的熟练度。你可以使用潜能能力，即你处于怪物形态时怪物拥有的特殊能力。你的装备融入体内；装备的恒定能力仍然生效，但你无法启动任何物品。如果你原本正持握一件具有基础符文或性质符文的武器，这些基础符文和性质符文会应用于怪物形态的无武装攻击。如果你原本持握多件武器，则必须只选择一件武器应用此效果。任何无法应用于怪物形态无武装攻击的性质符文都会受到抑制，直到你恢复凡人形态。</p><p>在怪物形态下，你的凡人形态属性与你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.RVW4jEY3Gd4dri1a]{怪物形态}属性互换，并以怪物形态属性调整值代替凡人形态属性调整值计算职业DC。在怪物形态下，你无法使用具有凡人特征的动作。如果你的躁郁状态值降至0，你立即恢复凡人形态。</p><p>在判断是否满足先决条件时，视为你具有怪物形态的属性调整值，但如果你在凡人形态下不满足这些先决条件，该效果会获得潜能特征。如果你之后在凡人形态下满足了这些先决条件，该效果便失去此特征。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "prompt"
+          ],
+          "source": "Select a monster.",
+          "translation": "选择一种怪物。"
+        }
+      ]
+    },
+    "ZP9JS8rAIRWo2FtK": {
+      "name": "挣锁狂暴 Unshackled Rampage",
+      "description": "<p>你是无法阻挡的力量，定要让敌人屈膝倒下。对@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内的每个生物各进行一次承受–2减值的@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}。所有目标只投掷一次伤害。</p>"
+    },
+    "ZROzfDPbfRFvNgzR": {
+      "name": "效果：奚落 Effect: Heckle",
+      "description": "<p>由@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.Xc8n9f4dJRKzyXIf]{奚落}给予</p>"
+    },
+    "ZVVPY6jtdyit0MGJ": {
+      "name": "效果：揭露周遭（成功） Effect: Unveil the Ambient (Success)",
+      "description": "<p><em>源自@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.9mhn99Gsn1HDKwHZ]{揭露周遭}。</em></p><hr><p><strong>成功</strong> 该生物陷入@UUID[Compendium.sf2e.conditions.TkIyaNPgTZFBCCuh]{目眩}，直到你的下个回合结束，或它花费一个具有操作特征的单动作揉眼睛。</p><p><strong>失败</strong> 同成功，但持续时间为1分钟。</p><p><strong>大失败</strong> 同失败，但该生物先@UUID[Compendium.sf2e.conditions.XgEqL1kFApUbl5Z2]{目盲}1轮，随后@UUID[Compendium.sf2e.conditions.TkIyaNPgTZFBCCuh]{目眩}1分钟。该生物可以花费一个具有操作特征的单动作移除目盲状态，但会转为目眩1分钟；若花费两个操作动作，则移除这两个状态。这些动作无需连续进行。</p>"
+    },
+    "a0yAamMvD5BuqnJx": {
+      "name": "瞬时效果：恐惧值 Ephemeral Effect: Dread",
+      "description": "<p>使敌人的命中依据恐惧值变为成功。</p>"
+    },
+    "aKcLSoU6rirOaP2O": {
+      "name": "瞬时效果：掌控注意力 Ephemeral Effect: Command Attention",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "text"
+          ],
+          "source": "<b>Cunning Waylay Trigger</b> When you cause a creature to become Fascinated.",
+          "translation": "<b>狡黠伏击触发</b> 当你使一个生物迷魂时。"
+        }
+      ]
+    },
+    "aVpcnUhajRbwluQe": {
+      "name": "移形步 Shift Step",
+      "description": "<p>你以传送代替步行穿越场地。你传送到与目标相邻的一处空间。</p><hr><p><strong>升环（+1）</strong> 法术射程增加5尺。（[[/r 10+(5*floor(@item.level))]]尺）</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "target",
+            "value"
+          ],
+          "source": "1 duped creature",
+          "translation": "1个受骗生物"
+        },
+        {
+          "path": [
+            "range",
+            "value"
+          ],
+          "source": "15 feet",
+          "translation": "15尺"
+        }
+      ]
+    },
+    "al1Yu0CfpVJbkrEX": {
+      "name": "活体风暴 Living Storm",
+      "description": "<p><strong>触发</strong> 一个生物在你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内结束其回合。</p><hr><p>你周身笼罩着元素力量构成的风暴，会伤害靠近你的人；你让风暴抽打那些仍在近旁的生物。用你从@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.DyvpkcT4tu9XPHTp]{元素核心}获得的轰击无武装攻击进行一次@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}，并将攻击检定结果与宿主威压区域内至多2个生物的AC比较。只投掷一次伤害，并对每个命中的生物应用该伤害。</p>"
+    },
+    "aoAVszEyfk992XBe": {
+      "name": "武器 Weapon",
+      "description": "<p>每天在日常准备期间，选择一件凡人持有且你至少受训的近战武器。如果你变为怪物时凡人正持握该武器，它便成为怪物形态的一种无武装攻击，具有与所选武器相同的伤害骰、伤害类型和特征。如果所选武器是简易武器，将该无武装攻击的伤害骰增大一级。你的怪物必须使用该武器所需的手数来持握它。如果你在怪物形态下失去该武器，它会恢复正常形态；但如果你在怪物形态下的任何时候开始持握该武器，它会立即变为相应的无武装攻击。当你@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.7mb6j31vBk3ZqUA1]{释放怪物}时，你可以选择在变身前@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{交互}以拔出武器，但若如此做，你在释放怪物后便无法@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}。</p><p>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.I85Vuodpx4OvHONo]{效果：武器凶暴}</p>"
+    },
+    "bNSNsuQ8WdECotXa": {
+      "name": "能量奔涌 Surge of Energy",
+      "description": "<p>你体内元素力量奔涌，在周围创造出由你的元素构成的危险地形。你在@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内创造危险地形，持续1分钟，或直到你不再处于怪物形态，以先发生者为准。生物沿地面穿过该区域时，每进入其中一格，就受到等于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值的@Damage[(@actor.flags.sf2e.frustrated)[@actor.flags.system.vessel.blastDamageType]]{伤害}，伤害类型与你从@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.DyvpkcT4tu9XPHTp]{元素核心}获得的无武装攻击相同。你免疫自己创造的危险地形。</p>"
+    },
+    "bNfFoZgLKN7GPRwf": {
+      "name": "传奇形态 Legendary Form",
+      "description": "<p>你的怪物形态有着传奇般的杀伤力。其无武装攻击熟练度提升至传奇。</p>"
+    },
+    "bSvjf5GggcTdJVu3": {
+      "name": "故障防护协议 Fail-Safe Protocols",
+      "description": "<p>即使在最糟糕的情况下，构装体也有防护措施。在怪物形态下，你获得一个额外反应，可用于@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.DSAlhPDKqr1Lm2hA]{执行对策}或@UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{盾牌格挡}。当你使用盾牌格挡抵挡重击时，可以选择摧毁自己的盾牌，将该重击变为普通命中。</p>"
+    },
+    "c3uOQcrXaZ9DYxOo": {
+      "name": "死灵之物 Necrotic Thing",
+      "description": "<p>只要怪物处于活跃状态，你的心脏便停止跳动。在怪物形态下，你获得虚能治疗，且因苦痛躁郁受到伤害时，改为承受命能伤害而非虚能伤害。你对抗死亡、疾病和毒素效果，以及只以不死生物为目标且不造成伤害的效果的豁免获得+2状态加值。此外，你在怪物形态下生命值降至0时不会被摧毁；生命值降至0时，你会失去意识并开始濒死。</p><p>此外，当你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内的生物生命值降至0时，你获得等于你的等级加上你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值的临时生命值。这些临时生命值持续1分钟，或直到你离开怪物形态。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            1,
+            "label"
+          ],
+          "source": "Necrotic Thing",
+          "translation": "死灵之物"
+        }
+      ]
+    },
+    "cKVRQoVdcw0n97nF": {
+      "name": "畏惧我 Fear Me",
+      "description": "<p>你的攻击不仅伤害敌人，也击碎其信心。进行一次近战@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}。若命中，目标必须尝试一次@Check[will|against:class]{对抗你职业DC的意志豁免}。</p><p><strong>成功</strong> 目标不受影响。</p><p><strong>失败</strong> 目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}，且只要位于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内，其惊惧状态就无法降至1以下。</p><p><strong>大失败</strong> 同失败，但目标改为惊惧2。</p>"
+    },
+    "cWhAFv8UJL2jb2xt": {
+      "name": "躁郁施法 Frustrated Spellcraft",
+      "description": "<p><strong>需求</strong> 一名敌人在10尺内，或在你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内。</p><hr><p>你以躁郁为魔法注入力量。如果你的下一个动作是@UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{施放法术}，且该法术以宿主威压区域内的生物为目标并造成伤害或恢复生命值，你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值增加1，该法术的伤害或治疗获得等于其环阶加上你的躁郁状态值的状态加值。这仅适用于法术施放时造成的初始伤害或治疗。即使该法术会多次伤害或治疗同一生物，每个生物每道法术也只承受一次此伤害或享受一次此治疗。</p>"
+    },
+    "cY87L9uzh7SBfZ9h": {
+      "name": "效果：战场呼号 Effect: Battle Caller",
+      "description": "<p>由@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CCP8476SCqZUmvDU]{战场呼号}给予</p><hr><p>给予@UUID[Compendium.sf2e.conditions.nlCjDvLMf2EkV2dl]{迅捷}，持续1轮。</p>"
+    },
+    "cjaZCGCQhfYFfAdE": {
+      "name": "效果：揭露周遭（失败） Effect: Unveil the Ambient (Failure)",
+      "description": "<p><em>源自@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.9mhn99Gsn1HDKwHZ]{揭露周遭}。</em></p><hr><p><strong>成功</strong> 该生物陷入@UUID[Compendium.sf2e.conditions.TkIyaNPgTZFBCCuh]{目眩}，直到你的下个回合结束，或它花费一个具有操作特征的单动作揉眼睛。</p><p><strong>失败</strong> 同成功，但持续时间为1分钟。</p><p><strong>大失败</strong> 同失败，但该生物先@UUID[Compendium.sf2e.conditions.XgEqL1kFApUbl5Z2]{目盲}1轮，随后@UUID[Compendium.sf2e.conditions.TkIyaNPgTZFBCCuh]{目眩}1分钟。该生物可以花费一个具有操作特征的单动作移除目盲状态，但会转为目眩1分钟；若花费两个操作动作，则移除这两个状态。这些动作无需连续进行。</p>"
+    },
+    "ckLVYZ4cGi2vNtQh": {
+      "name": "巧舌如簧 Quick Talking",
+      "description": "<p>你字字恰到好处，编出天衣无缝的骗局。目标必须进行意志豁免。</p><p><strong>大成功</strong> 生物不受影响。</p><p><strong>成功</strong> 生物因你陷入@UUID[Compendium.sf2e.conditions.AdPVz7rbaVSRxHFg]{迷魂}，持续1轮。只要生物处于迷魂状态，它就对你@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}。</p><p><strong>失败</strong> 如同成功，但持续时间为1分钟。</p><p><strong>大失败</strong> 如同失败，但你的敌对行动不会自动结束此迷魂状态；不过，当你对该生物采取敌对行动时，它可以立即尝试意志豁免，成功则结束此状态。</p><p>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.ukh2MBXgkOMf3e5t]{效果：巧舌如簧（成功）}</p><p>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.kJ38lu4RiQiFici8]{效果：巧舌如簧（失败）}</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "target",
+            "value"
+          ],
+          "source": "1 duped creature",
+          "translation": "1个受骗生物"
+        },
+        {
+          "path": [
+            "range",
+            "value"
+          ],
+          "source": "30 feet",
+          "translation": "30尺"
+        },
+        {
+          "path": [
+            "duration",
+            "value"
+          ],
+          "source": "varies",
+          "translation": "不定"
+        }
+      ]
+    },
+    "dSWaWEpUfRNdwtI2": {
+      "name": "最终侧面（科学家） Final Facet (Scientist)",
+      "description": "<p>你的简易武器、无武装攻击和炼金炸弹熟练等级提升至大师。</p>"
+    },
+    "dXLMXNNIiFyh9GnB": {
+      "name": "快速包扎 Quick Patchup",
+      "description": "<p>你借助怪物的力量为盟友提供支援。你给予一名相邻盟友等于其等级加上你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态值的临时生命值，持续1分钟。</p>"
+    },
+    "dgvjwaxnEKe5Yqv5": {
+      "name": "最终侧面（缚咒者） Final Facet (Spellbinder)",
+      "description": "<p>你的法术攻击调整值与法术DC熟练等级提升至大师。你获得一个9环法术位。在19级时，除你最高两环的凡人法术位外，每一环的凡人法术位增加1个。</p>"
+    },
+    "dwE6GGvbkpfvgKUt": {
+      "name": "伪装信徒 False Disciple",
+      "description": "<p>有时，获得认真对待的最好方式，就是摆出受人信任的神明的模样。选择一位神祇。你以幻象呈现出所选神祇虔诚信徒的外貌，包括持用该神祇的宗教标志。伪装对象的身高与体重必须与你大致相当（身高相差不超过6英寸，体重相差不超过50磅）。这种伪装通常足以隐藏身份，但不足以冒充某个特定个体。此法术改变你的外貌和声音，但不会改变举止习惯。</p><p>这视为你为使用欺骗进行@UUID[Compendium.sf2e.actions.AJstokjdG6iDjVjE]{乔装}而准备了伪装；它忽略你因将自己伪装成不同类生物而可能承受的环境减值，使你为防止他人看穿伪装而进行的欺骗检定获得+4状态加值，并让目标即使未受训，也能将自身等级加入此类欺骗检定。你可以@UUID[Compendium.sf2e.actions.AjLSHZSWQ90exdLo]{解消}此法术。</p><p>在你变形时，30尺内信奉或崇敬该神祇的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{受骗}生物必须尝试一次意志豁免，否则它们会相信你是该神祇的仆从，陷入@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}，直到你的下个回合结束。这也适用于畏惧该神祇信徒的神祇之敌，例如面对法莱斯玛仆从的不死生物（由游戏主持人裁定）。</p><p>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.MmyW1tVIBwqWxsqO]{效果：伪装信徒}</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "range",
+            "value"
+          ],
+          "source": "30 feet",
+          "translation": "30尺"
+        },
+        {
+          "path": [
+            "duration",
+            "value"
+          ],
+          "source": "1 minute",
+          "translation": "1分钟"
+        }
+      ]
+    },
+    "e1AWbyk2IaVQmuQs": {
+      "name": "巨口 Maw",
+      "description": "<p>你获得一种搏击武器组的无武装攻击，造成1d10穿刺伤害，具有擒拿、撕扯和无武装特征。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Maw",
+          "translation": "巨口"
+        }
+      ]
+    },
+    "e4aE0N7sHvGnkewo": {
+      "name": "坚实 Formidable",
+      "description": "<p>你的宿主防护给予AC+3物品加值，敏捷上限为+2。若你的力量调整值低于+2，你承受–1检定减值和–5尺速度减值。你的强韧豁免熟练等级提升至专家。</p>"
+    },
+    "edvW1iIURetOznpf": {
+      "name": "初始侧面（斡旋者） Initial Facet (Consul)",
+      "description": "<p>从欺骗、交涉、威吓或表演中选择一项技能，你在该技能上受训，体现你尝试斡旋的方式。你的施法传承与你的怪物所具有的传承特征相同。你在每天的日常准备期间恢复法术位，用以施放你已学会的法术。这些法术源于你体内溢出的原始力量，因此你以自发方式施放它们。你的所有凡人法术都是你的招牌法术。</p><p>你的法术攻击调整值和法术DC受训，凡人法术的关键施法属性为魅力。你每天从所属传承的法术列表中学会一道1环法术和三道常见戏法，并获得一个1环法术位。你从凡人获得的法术必须是所属传承法术列表中的常见法术，或其他你具有使用权的法术。你从凡人获得的法术称为凡人法术，具有凡人特征。到3级时，你学会一道2环法术，并获得一个2环法术位。</p>"
+    },
+    "ejlCt2APqYcpBAot": {
+      "name": "向我跪拜 Bow Before Me",
+      "description": "<p>你抬起一只手，命令敌人在你面前跪下。该生物必须尝试一次意志豁免。无论结果如何，该生物随后对此免疫1分钟。</p><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物跪下，陷入@UUID[Compendium.sf2e.conditions.j91X7x0XSomq8d60]{倒地}，但它可以在自己的下个回合开始时，用一个自由动作@UUID[Compendium.sf2e.actions.OdIUybJ3ddfL7wzj]{起身}。</p><p><strong>失败</strong> 该生物跪下，陷入倒地。</p><p><strong>大失败</strong> 同失败，但该生物必须额外通过一次意志豁免才能起身；若豁免失败，则维持倒地。</p><p></p>",
+      "adventuresText": [
+        {
+          "path": [
+            "target",
+            "value"
+          ],
+          "source": "1 duped creature",
+          "translation": "1个受骗生物"
+        },
+        {
+          "path": [
+            "range",
+            "value"
+          ],
+          "source": "30 feet",
+          "translation": "30尺"
+        },
+        {
+          "path": [
+            "duration",
+            "value"
+          ],
+          "source": "varies",
+          "translation": "不定"
+        }
+      ]
+    },
+    "eqREn2HRQp1ATlXI": {
+      "name": "瞬时效果：隐士注记 Ephemeral Effect: Hermit Note",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "title"
+          ],
+          "source": "Hermit Modus Operandi",
+          "translation": "隐士惯用手法"
+        },
+        {
+          "path": [
+            "rules",
+            0,
+            "text"
+          ],
+          "source": "You increase the DC of flat checks to target the trickster by {actor|flags.sf2e.duped}.",
+          "translation": "你使以诡术师为目标的纯骰检定DC提高{actor|flags.sf2e.duped}。"
+        }
+      ]
+    },
+    "fOeKR7JM4UOK0ZOd": {
+      "name": "凝聚怒火 Focus Anger",
+      "description": "<p><strong>触发</strong> 你成为一个需要豁免的心灵效果的目标。</p><hr><p>你知道如何将压力与恐惧化为愤怒。你在触发的豁免中获得+2环境加值，然后立即进入怪物形态。</p>"
+    },
+    "fXlF8wBInC90T68A": {
+      "name": "嘲弄法术 Mockery Spells",
+      "description": "<p>你从诡计中学会一道嘲弄法术，并可通过选择某些专长获得更多嘲弄法术。嘲弄法术是诡术师专属的法术，利用受骗敌人的破绽，属于聚能法术的一种。施放一道聚能法术消耗1点聚能点，你起始的聚能池有1点聚能点。你在日常准备期间补满聚能池，也可以花费10分钟使用再聚能活动练习把戏和表演，以恢复1点聚能点。</p><p>聚能法术自动升环至你等级的一半，向上取整。聚能法术不需要法术位，也无法使用法术位施放。选取专长可给予你更多聚能法术并扩大聚能池，但你的聚能池永远无法容纳超过3点聚能点。</p>"
+    },
+    "fz6VdD6HS2q3cYSQ": {
+      "name": "硬化 Hardened",
+      "description": "<p>你的宿主防护给予你AC的+4物品加值，敏捷上限为+1。如果你的力量调整值低于+3，你承受–2检定减值和–5尺速度减值。你的强韧豁免熟练度提升至专家。</p>"
+    },
+    "g9pQ4i0Wlmew9Fsp": {
+      "name": "宿主次级防护 Vessel’s Secondary Protections",
+      "description": "<p>你的凡人与怪物已经成长，能够共同守护宿主整体。如果你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.Rw6xKlwv6rVFl5oa]{宿主防护}提升了强韧豁免，你的反射豁免熟练度提升至专家。如果你的宿主防护提升了反射豁免，你的强韧豁免熟练度提升至专家。</p>"
+    },
+    "gDwi7XtSqEW0HWO9": {
+      "name": "第三侧面（斡旋者） Third Facet (Consul)",
+      "description": "<p>你的法术攻击调整值和法术DC熟练度提升至专家。你学会一道5环法术，并获得一个5环法术位。到11级时，你学会一道6环法术，并获得一个6环法术位。</p>"
+    },
+    "gPGU6FlqTYyyBXCq": {
+      "name": "效果：谜团惯用手法 Effect: Enigma Modus Operandi",
+      "description": "<p>当一个受骗生物处于你产生的心灵效果影响下时，你对抗该生物的AC获得环境加值，数值等于该生物的受骗状态值。若心灵效果没有持续时间，或持续时间不足1轮，则此AC环境加值持续1轮。</p><hr><p><strong>Foundry注记：</strong> 将此效果应用于受到影响的敌人，并相应调整持续时间。</p>"
+    },
+    "gQyHLt6bMuowBrir": {
+      "name": "怪物形态整合 Monster Form Integration",
+      "description": "<p>你与怪物的联系加深，根据怪物的类型给予怪物形态一种新的潜能能力，详见各怪物条目中的怪物形态能力。</p>"
+    },
+    "h361OApsinYVZ4Yj": {
+      "name": "第四侧面（科学家） Fourth Facet (Scientist)",
+      "description": "<p>你每天的万用制剂数量增加至6。你使用高阶炼金术制造的具有灵药特征的炼金消耗品数量从4增加至8。</p>"
+    },
+    "hdNO0ibT4Qk6xet8": {
+      "name": "效果：乱世客惯用手法 Effect: Pandemon Modus Operandi",
+      "description": "<p>对于在自己回合内使用过交互动作，或花费动作减轻持续状态（例如干呕以移除恶心状态）的受骗生物，你对抗它们的AC获得环境加值。此AC环境加值等于该生物的受骗状态值，并在其使用相应动作后持续1轮。</p><hr><p><strong>Foundry注记 </strong>应用于诡术师，并将使用触发动作的敌人设为目标。</p>"
+    },
+    "ibImgM1UOurzeMQD": {
+      "name": "刺击 Jab",
+      "description": "<p>你获得一种搏击武器组的无武装攻击，造成1d8钝击伤害，具有娴熟、格挡和无武装特征。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Jab",
+          "translation": "刺击"
+        }
+      ]
+    },
+    "ioZ6zbBzeLDXtBgR": {
+      "name": "效果：反击架势 Effect: Retaliatory Stance",
+      "description": "<p>由@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.l9EoVz7tF5tmbqp0]{反击架势}给予</p>"
+    },
+    "isLHZYNzXXbJWk2y": {
+      "name": "迅疾凶暴 Fast Brutality",
+      "description": "<p>如果你以一次@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}造成重击，就可以用一个自由动作@UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{快步}。你的无武装攻击必须具有灵巧特征，才能选择此凶暴。</p>",
+      "prerequisites": [
+        {
+          "value": "来自怪物凶暴、具有灵巧特征的无武装攻击"
+        }
+      ],
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "text"
+          ],
+          "source": "<p>If you critically hit with a @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Strike}, you can @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Step} as a free action.</p>",
+          "translation": "<p>如果你以一次@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}造成重击，就可以用一个自由动作@UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{快步}。</p>"
+        }
+      ]
+    },
+    "iya9g6Q19z9uaYl8": {
+      "name": "魔族敕令 Fiendish Demand",
+      "description": "<p><strong>触发</strong> 你的回合开始。</p><hr><p>你定下一条规则，违反规则就必须付出代价。选择一个需要一个动作的基本动作。你大声说出命令，要求60尺内的所有生物在其下个回合开始时使用该动作。生物无需理解此命令，也会受到此动作影响。</p><p>直到你的下个回合开始，若该生物在回合中的第一个动作或活动使用了你要求以外的动作，就会违反你的命令。此效果持续到你的下个回合开始。</p>"
+    },
+    "j2NWKNAwxHbDl44G": {
+      "name": "瞬时效果：狡黠伏击 Ephemeral Effect: Cunning Waylay"
+    },
+    "jAsbzw6ewYyjjKXx": {
+      "name": "无害兽形 Innocuous Animal Form",
+      "description": "<p>还有什么比化身动物更适合隐匿踪迹、隐藏身份呢。你获得@UUID[Compendium.sf2e.spells.gfPjmG6Fe6D3MFjl]{害兽形态}的效果，持续时间如上所列。你可以随时用一个自由动作@UUID[Compendium.sf2e.actions.AjLSHZSWQ90exdLo]{解消}此效果。当你解消此效果时，30尺内所有受骗的生物对你@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}，直到你的下个回合开始。</p><p>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Vgtma2DMxaad7WYl]</p><hr><p><strong>升环（2环）</strong> 你可以变成@UUID[Compendium.sf2e.spells.wp09USMB3GIW1qbp]{动物形态}所列的形态。</p><p><strong>特殊</strong> 如果使用《魔法扩展》中的层面法术，你可以分别以@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.TXZWyxFYuhQeQ5ue]{害兽变形}和@UUID[Compendium.pf2e-team-plus-magic.sf2e-items.lV8etIlOczlCbJ46]{动物变形}替代害兽形态和动物形态。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "duration",
+            "value"
+          ],
+          "source": "1 minute",
+          "translation": "1分钟"
+        }
+      ]
+    },
+    "jHOEhMbPkSGuhVzB": {
+      "name": "释放怪物（宿主入门） Unleash the Monster (Vessel Dedication)",
+      "description": "<p><strong>需求</strong> 你处于@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁1}或更高状态。</p><hr><p>你的怪物取得宿主的控制权。你进入@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.RVW4jEY3Gd4dri1a]{怪物形态}。如果你在任何时候不再满足此能力的需求，你便离开怪物形态。</p>"
+    },
+    "jdro3pZIYdYj8zwj": {
+      "name": "灵动 Elusive",
+      "description": "<p>你的宿主防护给予AC+2物品加值，敏捷上限为+3。你的反射豁免熟练等级提升至专家。</p>"
+    },
+    "kFbpcocjTJ1Skicw": {
+      "name": "第三侧面（看守者） Third Facet (Keeper)",
+      "description": "<p>你为一项自选技能额外获得一次技能提升，并获得一个自选技能专长。到11级时，你额外获得一次技能提升和一个自选技能专长。</p>"
+    },
+    "kJ38lu4RiQiFici8": {
+      "name": "效果：巧舌如簧（失败） Effect: Quick Talking (Failure)",
+      "description": "<p><em>源自@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.ckLVYZ4cGi2vNtQh]{巧舌如簧}。</em></p><hr><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物因你而@UUID[Compendium.sf2e.conditions.AdPVz7rbaVSRxHFg]{迷魂}1轮。只要该生物仍然迷魂，就对你@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}。</p><p><strong>失败</strong> 同成功，但持续时间为1分钟。</p><p><strong>大失败</strong> 同失败，但你的敌对动作不会自动结束此迷魂；当你对该生物采取敌对动作时，它可以立即尝试一次意志豁免，成功则结束此状态。</p>"
+    },
+    "kKgRK9lIwuiZ5H3o": {
+      "name": "效果：破绽 Effect: Downfall",
+      "description": "<p>一个破绽已被触发。首领的所有防御承受减值，数值等于已触发的不同破绽数量（最多–3），持续到其下个起始回合开始；任何当前生效的预告都会被打断。</p>"
+    },
+    "kQ7GtI3rJLaWbtk2": {
+      "name": "最终合一 Final Merge",
+      "description": "<p>你与你的怪物已经能融洽地共享形态，也能共享彼此的长处。你的凡人形态属性调整值与怪物形态属性调整值，始终都使用两者中较高的数值。如果你将一件巅峰物品应用于凡人形态的属性，它在怪物形态下也会应用于怪物形态的属性。</p>"
+    },
+    "ktCq37tSZawC8EnE": {
+      "name": "敏锐骗徒 Perceptive Deceiver",
+      "description": "<p>骗徒最能识破骗徒，而你已成为洞察的大师。你的察觉熟练度提升至大师。此外，当生物试图欺骗你时，例如使用说谎动作或进行易容，你的察觉检定与察觉DC获得+2环境加值。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Bonus vs. being deceived",
+          "translation": "对抗欺骗时的加值"
+        }
+      ]
+    },
+    "lBn460Cg5dHesSrt": {
+      "name": "第四侧面 Fourth Facet",
+      "description": "<p>你获得凡人的第四侧面：</p><ul><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.K0NroUHo7sjG1TNX]{斡旋者}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.4rJqche0yY1285qx]{看守者}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.h361OApsinYVZ4Yj]{科学家}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.Axyd6CVgvCngGUXP]{缚咒者}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.EUZRRLBq1YKelTbk]{漂泊者}</li></ul>"
+    },
+    "lFkRQKwJZfDjWrrQ": {
+      "name": "宿主专精 Vessel Expertise",
+      "description": "<p>你的凡人与怪物深化了彼此的联系，使这种结合发展出新的专精。你的宿主职业DC熟练度提升至专家。</p>"
+    },
+    "lI4MQy22A3kdT7F5": {
+      "name": "穿刺 Puncture",
+      "description": "<p>你获得一种搏击武器组的无武装攻击，造成1d6穿刺伤害，具有灵巧、背刺、娴熟、毒性和无武装特征。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Puncture",
+          "translation": "穿刺"
+        }
+      ]
+    },
+    "lfVnDhJ8uCBeAgD3": {
+      "name": "效果：费解谜语（成功） Effect: Perplexing Riddle (Success)",
+      "description": "<p><em>源自@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.KIB2sgklcpLwtB8i]{费解谜语}。</em></p><hr><p><strong>成功</strong> 该生物陷入@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞1}，直到你的下个回合结束，或它花费一个具有专注特征的单动作，回应你喋喋不休的谜语。只要目标仍然呆滞，就对你@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}。</p><p><strong>失败</strong> 同成功，但持续时间为1分钟。</p><p><strong>大失败</strong> 同失败，但该生物改为陷入@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞2}。</p>"
+    },
+    "mKCU3tLyh1cAwF33": {
+      "name": "威慑心智 Menacing Mind",
+      "description": "<p>你的心智充满威慑力，难以被攻克。你的意志豁免熟练度提升至大师。当你的意志豁免检定成功时，改为大成功。</p>"
+    },
+    "nGrOVlTxvmz43zak": {
+      "name": "争夺控制 Vie for Control",
+      "description": "<p><strong>触发</strong> 你的回合开始。</p><p><strong>需求</strong> 你处于@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁1}或更高状态。</p><hr><p>你竭力控制体内的怪物，试图暂时维持主导权。你尝试降低躁郁状态值，必须尝试@Check[will|against:class]{对抗你职业DC的意志豁免}。你可以选择花费一个具有专注特征的单动作来争夺控制，而不使用反应；若如此做，此能力没有触发条件。</p><p><strong>大成功</strong> 你的躁郁状态值降低至多2。如果你处于@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.LYqufFBfSWyqjgkf]{失控}状态，则将躁郁状态值降至0，移除失控状态并立即恢复凡人形态。</p><p><strong>成功</strong> 如同大成功，但你的躁郁状态值降低1。</p><p><strong>失败</strong> 你未能降低躁郁状态值。</p>"
+    },
+    "o7C0tWnRu3rENQqA": {
+      "name": "狡猾强韧 Tricky Fortitude",
+      "description": "<p>只要运用得法，心灵把戏甚至可以欺骗肉体。你的强韧豁免熟练度提升至专家。</p>"
+    },
+    "pCXFnqqkSbHD7nV6": {
+      "name": "牢牢攥紧 Grip Tight",
+      "description": "<p><strong>需求</strong> 你已使一名敌人处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态。</p><hr><p>你收紧对敌人的钳制，几乎令其窒息。被你擒拿或束缚的敌人受到等于你的力量加上你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态值的钝击伤害（若你用颚部擒拿对方，则为穿刺伤害）。@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}这些需求所列状态的DC增加1；若你处于躁郁3，则增加2。</p>"
+    },
+    "pHL8wMXkJ6qZWuJG": {
+      "name": "撕裂 Rend",
+      "description": "<p>你获得一种搏击武器组的无武装攻击，造成1d8穿刺伤害，具有灵巧、多用（挥砍）和无武装特征。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Rend",
+          "translation": "撕裂"
+        }
+      ]
+    },
+    "pLZqz82ju1KqNTqB": {
+      "name": "劈斩杂兵 Cleaving Underlings",
+      "description": "<p>杂兵特别容易被一路击穿。当一个生物在与杂兵相邻时，将该杂兵的生命值降至0，就可以用一个自由动作@UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{快步}，但必须进入该杂兵的空间或与其空间相邻的空间。</p><p>此外，若一个生物对杂兵进行的攻击检定获得大成功，且该杂兵身边还有另一名杂兵，则攻击者可以选择让此次攻击检定的结果同时影响这两名杂兵。</p>"
+    },
+    "pN9Xg43rJnP6Y1Rg": {
+      "name": "吸取生机 Drain the Living",
+      "description": "<p>你用不死的攻击重创敌人。对一个活物进行一次无武装近战@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}。若打击成功，目标必须尝试一次@Check[fortitude|against:class]{强韧豁免}。若你造成重击，目标的强韧豁免成功程度降低一级。</p><p><strong>成功</strong> 该生物不受影响。</p><p><strong>失败</strong> 该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1}。你恢复等于该生物因流失状态损失的生命值的生命值。</p><p><strong>大失败</strong> 同失败，但目标改为流失2。</p>"
+    },
+    "q8BZZZnIjw8oGbQA": {
+      "name": "你已经死了 You’re Already Dead",
+      "description": "<p><strong>需求</strong> 自你的上个回合开始以来，你曾以打击对一个@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.XNyElp6jUnKvXkf5]{受骗}生物造成伤害。</p><hr><p>你造成的伤势或许看起来还能活命，但指出致命伤通常就足以让目标倒下。此法术获得听觉或操作特征，在施放法术时选择。符合需求的生物必须尝试意志豁免。无论结果如何，目标随后暂时免疫1天。</p><hr><p><strong>大成功</strong> 目标不受影响。</p><p><strong>成功</strong> 你向目标揭示，它的伤势比想象中更重。目标受到@Damage[(ceil(@item.level / 2))d4]额外伤害，类型与满足需求的那次打击相同。如果该打击造成了多种类型的伤害，你可以选择其中一种伤害类型。</p><p><strong>失败</strong> 如同成功，但目标受到@Damage[(2*(ceil(@item.level / 2)))d4]额外伤害。</p><p><strong>大失败</strong> 你向目标揭示，它虽仍站立，却已是死人。该生物死亡。这是失能效果。</p><hr><p><strong>升环（+1）</strong> 失败时的伤害增加2d4，成功时的伤害增加1d4。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "requirements"
+          ],
+          "source": "You dealt damage to a duped creature with a Strike since the beginning of your last turn.",
+          "translation": "自你的上个回合开始以来，你曾以打击对一个受骗生物造成伤害。"
+        },
+        {
+          "path": [
+            "target",
+            "value"
+          ],
+          "source": "1 duped creature",
+          "translation": "1个受骗生物"
+        },
+        {
+          "path": [
+            "range",
+            "value"
+          ],
+          "source": "30 feet",
+          "translation": "30尺"
+        }
+      ]
+    },
+    "qSQlhA7QuTj826Xe": {
+      "name": "以牙还牙 Respond in Kind",
+      "description": "<p><strong>触发</strong> 一名敌人以近战@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}重击你。</p><hr><p>如果触发的敌人在你的近战触及范围内，你打击该敌人；如果你无法进行打击，则朝该敌人@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}。</p>"
+    },
+    "qcUPKfxBnYjcvnvU": {
+      "name": "骇人凶兽 Harrowing Beast",
+      "description": "<p>你是货真价实的怪物，令毫无准备者胆寒。当你以@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}命中对你@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}的生物时，它还会陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}；若你的打击重击，则改为惊惧2。</p>"
+    },
+    "qkJTPJI6mwO2vGWJ": {
+      "name": "瞬时效果：在你背后 Ephemeral Effect: Behind You"
+    },
+    "qsKUfIHh45WgX7TN": {
+      "name": "怪物体魄 Monstrous Physique",
+      "description": "<p>你的宿主之躯更难被摧毁，闪避攻击的能力也得到提升。你的无甲防御熟练度提升至专家。</p>"
+    },
+    "qxFOyspcA29jPRl8": {
+      "name": "肢击 Limb",
+      "description": "<p>你获得一种搏击武器组的无武装攻击，造成1d6钝击伤害，具有长触及、横扫、摔绊和无武装特征。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "label"
+          ],
+          "source": "Limb",
+          "translation": "肢击"
+        }
+      ]
+    },
+    "rZd5H9GWrbdm65IQ": {
+      "name": "怪物灵魂 Monstrous Soul",
+      "description": "<p>你逐渐理解了体内的存在，与怪物心意相通。你的意志豁免熟练度提升至大师。当你的意志豁免检定成功时，改为大成功。</p>"
+    },
+    "rZyltN30YMZJPIRO": {
+      "name": "防护反应 Protective Response",
+      "description": "<p><strong>触发</strong> 一个生物以攻击指定你为目标。</p><hr><p>宿主被指定为目标时会本能地作出反应，对抗触发的攻击时AC获得+2环境加值。</p>"
+    },
+    "rp7l9VYuHEiw1AUP": {
+      "name": "第二侧面（缚咒者） Second Facet (Spellbinder)",
+      "description": "<p>你获得一个3环法术位。到7级时，你获得一个4环法术位。</p>"
+    },
+    "s8vBvSwkblcGdOa1": {
+      "name": "凶暴大师 Brutality Master",
+      "description": "<p>表象之下的怪物日益精通此形态的局限。你在怪物形态中获得的无武装攻击熟练等级提升至大师。你获得以下进阶凶暴之一，应用于从怪物形态获得的无武装攻击，并以所选专精取代其通常的重击专精。对于依赖重击专精的效果，你的进阶凶暴即为你的重击专精。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "prompt"
+          ],
+          "source": "Select an advanced brutality.",
+          "translation": "选择一项进阶凶暴。"
+        }
+      ]
+    },
+    "sHVyOhj3IyL9uExP": {
+      "name": "躁郁突袭 Frustrated Assault",
+      "description": "<p><strong>需求</strong> 一名敌人在10尺内，或在你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内。</p><hr><p>你冲向敌人发起突袭，试图在事态失控前结束战斗。你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值增加1，并使用宿主威压的新区域判断是否满足需求。你朝符合需求的敌人@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}，若行走后该敌人在你的触及范围内，你随后可以对其进行一次@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}。</p>"
+    },
+    "sc0OfqB7MxqV734b": {
+      "name": "第二侧面（看守者） Second Facet (Keeper)",
+      "description": "<p>你的简易武器和无武装攻击熟练度提升至专家。当你处于@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态时，若你对@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}的生物进行攻击检定并取得大成功，你会应用该武器或无武装攻击的重击专精效果。</p>"
+    },
+    "sjHAChbwVyHNMge1": {
+      "name": "鲜血偿付 Blood Payment",
+      "description": "<p>你用邪秽的攻击重创敌人。进行一次无武装@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}。若打击成功，除正常效果外，你还造成@Damage[1d8[persistent,bleed]]{1d8持续流血伤害}。每当被你命中的生物在你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}范围内流血时，你恢复等于你等级的一半加上你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值的生命值。你每回合至多通过此效果恢复一次生命值。</p>"
+    },
+    "t4W1qaTyLYVyoA7m": {
+      "name": "恶疾感染 Wretched Infection",
+      "description": "<p>你的身体滴落着侵蚀敌人健康的神秘病液。进行一次@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}。若打击成功，目标受到等于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态值的@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{持续毒素伤害}，且在受此持续伤害影响期间获得的任何治疗都会减半。</p>"
+    },
+    "tLTOT7fujTgLMNoY": {
+      "name": "躁郁奋力 Frustrated Effort",
+      "description": "<p><strong>需求</strong> 一个可被你的技能动作指定为目标的生物在10尺内，或在你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内。</p><hr><p>你全力施展自己的本领。你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值增加1，并使用一个以符合需求的生物为目标、需要1、2或3个动作执行的技能动作或活动。本活动消耗相同数量的动作，并获得相同特征。若躁郁状态本会对该动作施加状态减值，你不承受这些减值。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "selfEffect",
+            "name"
+          ],
+          "source": "Effect: Frustrated Effort",
+          "translation": "效果：躁郁奋力 Effect: Frustrated Effort"
+        }
+      ]
+    },
+    "tvsnP7VdHWWXHRt0": {
+      "name": "小戏法 Parlor Trick",
+      "description": "<p>你以魔法辅助的手上把戏分散目标注意力，削弱其防备。目标必须进行意志豁免。</p><p><strong>大成功</strong> 生物不受影响。</p><p><strong>成功</strong> 生物对你@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}，直到你的回合结束。</p><p><strong>失败</strong> 如同成功，但持续到你的下个回合结束。</p><p><strong>大失败</strong> 如同失败，但生物对所有生物措手不及。</p><p>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.wQODCqkdZeJw6ZSC]{效果：小戏法（失败）}</p><p>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.wQODCqkdZeJw6ZSC]{效果：小戏法（大失败）2}</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "target",
+            "value"
+          ],
+          "source": "1 duped creature",
+          "translation": "1个受骗生物"
+        },
+        {
+          "path": [
+            "range",
+            "value"
+          ],
+          "source": "30 feet",
+          "translation": "30尺"
+        },
+        {
+          "path": [
+            "duration",
+            "value"
+          ],
+          "source": "varies",
+          "translation": "不定"
+        }
+      ]
+    },
+    "u5iTxHyuRFCnYy4k": {
+      "name": "效果：释放力量 Effect: Unleash",
+      "description": "<p>由@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.MZZGslKw4ArT733w]{释放力量}给予</p>"
+    },
+    "uBCRi1W7KKeuGRGV": {
+      "name": "宿主大师 Vessel Mastery",
+      "description": "<p>你的凡人与怪物均已成长得无比强大，让宿主能力具有真正毁灭性的威力。你的宿主职业DC熟练度提升至大师。</p>"
+    },
+    "uPInGuzLhxQuupJb": {
+      "name": "宿主威压 Vessel's Presence",
+      "description": "<p>当你具有@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}时，你周围笼罩着一道灵光，其弥漫范围为5尺，再加上5尺×你的躁郁状态值。它具有灵光特征，且当你处于怪物形态时会获得你的怪物的特征。此灵光的效果随你处于凡人形态还是怪物形态而变化。</p><p>在怪物形态下，你以怪物形态的无武装攻击造成等于躁郁状态值的额外伤害。你的怪物形态还会施展宿主威压，使靠近你的生物感到痛苦并承受减值。</p><p>在你处于怪物形态的每个回合开始时，你可以选择压制宿主威压直到你的下个回合开始，将其区域缩减至0尺。若如此做，你在回合结束时受到等于@Damage[@actor.flags.sf2e.frustrated]{躁郁状态值}的伤害。此伤害类型由你的怪物决定，你对此伤害类型的任何免疫或抗力都会受到抑制。</p><p>如果你处于@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.LYqufFBfSWyqjgkf]{失控}状态，你便无法再选择压制宿主威压，并在每个处于失控状态的回合结束时受到等于@Damage[@actor.flags.sf2e.frustrated + @actor.level]{躁郁状态值加上你的等级}的伤害。</p>"
+    },
+    "ukh2MBXgkOMf3e5t": {
+      "name": "效果：巧舌如簧（成功） Effect: Quick Talking (Success)",
+      "description": "<p><em>源自@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.ckLVYZ4cGi2vNtQh]{巧舌如簧}。</em></p><hr><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 该生物因你而@UUID[Compendium.sf2e.conditions.AdPVz7rbaVSRxHFg]{迷魂}1轮。只要该生物仍然迷魂，就对你@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}。</p><p><strong>失败</strong> 同成功，但持续时间为1分钟。</p><p><strong>大失败</strong> 同失败，但你的敌对动作不会自动结束此迷魂；当你对该生物采取敌对动作时，它可以立即尝试一次意志豁免，成功则结束此状态。</p>"
+    },
+    "us6n87EFkKfBeJv0": {
+      "name": "第二侧面 Second Facet",
+      "description": "<p>你获得凡人的第二侧面：</p><ul><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.WFIoLmZUZFOvStuo]{斡旋者}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.sc0OfqB7MxqV734b]{看守者}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.1x8rA2gdyRy85un7]{科学家}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.rp7l9VYuHEiw1AUP]{缚咒者}</li><li>@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.5g9k4fzSEWVPfdju]{漂泊者}</li></ul>"
+    },
+    "vaF3Uk43k7yaJTwr": {
+      "name": "第三侧面（缚咒者） Third Facet (Spellbinder)",
+      "description": "<p>你的法术攻击调整值和法术DC熟练度提升至专家。你获得一个5环法术位。到11级时，你获得一个6环法术位。</p>"
+    },
+    "w1GPLj706nkKzCBK": {
+      "name": "妙招 Clever Knack",
+      "description": "<p>在1、3、7、11、15和19级，你获得一个妙招。妙招是诡术师学会的一种方法，用于精进技能并利用受骗生物。妙招会提高技能熟练，给予一个技能专长，为你的狡黠伏击反应提供一种新的触发条件，并给予针对受骗生物的益处。如果你选择的妙招会给予你已经拥有的技能专长，你可以在选择该妙招时，立即改选另一个你满足先决条件的技能专长。 </p><p>从3级起，如果你选择的妙招会给予你已经拥有的技能熟练，则改为获得一次额外的技能提升。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "prompt"
+          ],
+          "source": "Select a clever knack.",
+          "translation": "选择一个妙招。"
+        }
+      ]
+    },
+    "wKnqAN8kuw1fDMNA": {
+      "name": "诡计 Ruse",
+      "description": "<p>每名诡术师都有自己的行事方式，一种让自己胜过诋毁者的手段。 </p><p>到1级时，你选择自己的诡计。此选择决定你施放的法术类型及所选法术的法术列表、你学会的额外法术，以及你额外受训的技能。你也会根据诡计获得聚能点和特殊聚能法术。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "prompt"
+          ],
+          "source": "Select a ruse.",
+          "translation": "选择一种诡计。"
+        }
+      ]
+    },
+    "wQODCqkdZeJw6ZSC": {
+      "name": "效果：小戏法（失败） Effect: Parlor Trick (Failure)",
+      "description": "<p><em>源自@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.tvsnP7VdHWWXHRt0]{小戏法}。</em></p><hr><p><strong>成功</strong> 该生物对你@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}，直到你的回合结束。</p><p><strong>失败</strong> 同成功，但持续到你的下个回合结束。</p><p><strong>大失败</strong> 同失败，但该生物对所有生物措手不及。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "badge",
+            "labels",
+            0
+          ],
+          "source": "Failure",
+          "translation": "失败"
+        },
+        {
+          "path": [
+            "badge",
+            "labels",
+            1
+          ],
+          "source": "Critical Failure",
+          "translation": "大失败"
+        }
+      ]
+    },
+    "wvZxkCAUwwKETzzG": {
+      "name": "释放恐怖 Release Horrors",
+      "description": "<p>你释放出狂舞的肢体、内脏或更骇人的东西，撕裂敌人。你对@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内的所有生物造成@Damage[(4+floor((@actor.level-7)/2))d10[bludgeoning]|options:area-damage]{4d10钝击}、@Damage[(4+floor((@actor.level-7)/2))d10[piercing]|options:area-damage]{穿刺}或@Damage[(4+floor((@actor.level-7)/2))d10[slashing]|options:area-damage]{挥砍}伤害，目标可进行@Check[reflex|against:class|basic]{对抗你职业DC的基础反射豁免}。豁免大失败的生物还会陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}。</p><p>到9级及其后的每2级，伤害增加1d10。</p>"
+    },
+    "xBN0xuc8K2PjOQIE": {
+      "name": "效果：我还没完 Effect: I’m Not Finished",
+      "description": "<p>你对抗@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.GaYZxy0Y17L6DMgI]{我还没完}的意志DC获得+4环境加值。</p>"
+    },
+    "xGhERavQBB2evNYb": {
+      "name": "效果：费解谜语（失败） Effect: Perplexing Riddle (Failure)",
+      "description": "<p><em>源自@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.KIB2sgklcpLwtB8i]{费解谜语}。</em></p><hr><p><strong>成功</strong> 该生物陷入@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞1}，直到你的下个回合结束，或它花费一个具有专注特征的单动作，回应你喋喋不休的谜语。只要目标仍然呆滞，就对你@UUID[Compendium.sf2e.conditions.AJh5ex99aV6VTggg]{措手不及}。</p><p><strong>失败</strong> 同成功，但持续时间为1分钟。</p><p><strong>大失败</strong> 同失败，但该生物改为陷入@UUID[Compendium.sf2e.conditions.e1XGnhKNSQIm5IXg]{呆滞2}。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "badge",
+            "labels",
+            0
+          ],
+          "source": "Failure",
+          "translation": "失败"
+        },
+        {
+          "path": [
+            "badge",
+            "labels",
+            1
+          ],
+          "source": "Critical Failure",
+          "translation": "大失败"
+        }
+      ]
+    },
+    "xI2I53VqiGE2TDNR": {
+      "name": "效果：杂兵防御 Effect: Underling Defenses",
+      "description": "<p>由@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.UWTdIZHmXlzhr95t]{杂兵防御}给予</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "title"
+          ],
+          "source": "Underling Defenses",
+          "translation": "杂兵防御"
+        }
+      ]
+    },
+    "xWPMaJwYext65LBu": {
+      "name": "效果：美味点心 Effect: Tasty Snack",
+      "description": "<p>由@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.ciQoI2JBjQT2o5RG]{美味点心}给予</p>"
+    },
+    "xXiqMGMNQHYuaRWB": {
+      "name": "第三侧面（科学家） Third Facet (Scientist)",
+      "description": "<p>你的简易武器、无武装攻击和炼金炸弹熟练度提升至专家。在凡人形态下，你的炼金炸弹，以及从突变药剂获得的无武装攻击，造成等于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值的额外伤害。</p>"
+    },
+    "yBnujXyZJvNP3fAc": {
+      "name": "绝不放手 Don’t Let Go",
+      "description": "<p><strong>触发</strong> 一名相邻盟友移动。</p><hr><p>你紧抓盟友，随其移动。你可以在盟友移动时随其@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}，距离至多等于你的速度。</p>"
+    },
+    "yDyjw4WN8PEXEeci": {
+      "name": "效果：揭露周遭（大失败） Effect: Unveil the Ambient (Critical Failure)",
+      "description": "<p><em>源自@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.9mhn99Gsn1HDKwHZ]{揭露周遭}。</em></p><hr><p><strong>成功</strong> 该生物陷入@UUID[Compendium.sf2e.conditions.TkIyaNPgTZFBCCuh]{目眩}，直到你的下个回合结束，或它花费一个具有操作特征的单动作揉眼睛。</p><p><strong>失败</strong> 同成功，但持续时间为1分钟。</p><p><strong>大失败</strong> 同失败，但该生物先@UUID[Compendium.sf2e.conditions.XgEqL1kFApUbl5Z2]{目盲}1轮，随后@UUID[Compendium.sf2e.conditions.TkIyaNPgTZFBCCuh]{目眩}1分钟。该生物可以花费一个具有操作特征的单动作移除目盲状态，但会转为目眩1分钟；若花费两个操作动作，则移除这两个状态。这些动作无需连续进行。</p>"
+    },
+    "yIcqFXvNZzt27Nqt": {
+      "name": "掀翻战场 Reap Battlefield",
+      "description": "<p>你抓起在凡人形态下通过@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.TguWAmyYB94Uts5S]{勘察战场}标定的一块战场，将其投向敌人或拖到自己面前。当你与凡人形态下标定的一处地点相邻时，可以将这块战场投向60尺内的一个10尺方形区域，形成一座高20尺、填满整个空间的障碍物。该障碍物具有AC 10、硬度14和50生命值。障碍物区域内的生物必须尝试@Check[reflex|against:class|basic]{对抗你职业DC的基础反射豁免}，否则受到@Damage[(floor((@actor.level - 13)/2)+7)d8[bludgeoning]|options:area-damage]{7d8钝击伤害}，随后被移动到区域边缘。到15级及其后的每2级，钝击伤害增加1d8。</p>"
+    },
+    "yzNJgwzV9XqEhKc6": {
+      "name": "高速诡术炼金 Quick Trick Alchemy",
+      "description": "<p><strong>需求</strong> 你有一只空手。</p><hr><p>你消耗一份万用制剂，瞬间制造出另一件炼金消耗品。使用高速炼金制造的物品所产生的任何效果，如果持续时间本会超过10分钟，则改为持续10分钟。</p><ul><li><p><strong>制造消耗品</strong> 你消耗一份万用制剂，制造一件不高于你等级、且记载于你配方书中的炼金消耗品。你无需支付通常的炼金原材料金钱费用，也无需尝试手艺检定。该物品具有灌注特征，但其效力仅维持到你的下个回合开始。（照常，你只需一种物品的一份配方，就能制造该物品的任意等级版本。）</p></li></ul>"
+    },
+    "zMTFLUeSBJzfU6oU": {
+      "name": "突袭冲锋 Sudden Charge"
+    },
+    "zahUVzg2QpQ9Q2VG": {
+      "name": "流血凶暴 Bleeding Brutality",
+      "description": "<p>如果你以一次@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{打击}造成重击，目标还会受到1d6加上你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值的流血伤害。</p>",
+      "adventuresText": [
+        {
+          "path": [
+            "rules",
+            0,
+            "text"
+          ],
+          "source": "<p>If you critically hit with a Strike, the target also takes @Damage[(1d6+@actor.flags.sf2e.frustrated)[persistent,bleed]] damage.</p>",
+          "translation": "<p>如果你以一次打击造成重击，目标还会受到@Damage[(1d6+@actor.flags.sf2e.frustrated)[persistent,bleed]]伤害。</p>"
+        }
+      ]
+    }
+  },
+  "label": "杂项 Miscellaneous",
+  "folders": {
+    "Aberration": "异怪 Aberration",
+    "Trickster Miscellaneous": "诡术师杂项 Trickster Miscellaneous",
+    "Trickster Spells": "诡术师法术 Trickster Spells",
+    "Wanderer": "漂泊者 Wanderer",
+    "Boss Miscellaneous": "首领杂项 Boss Miscellaneous",
+    "Mooks Miscellaneous": "杂兵杂项 Mooks Miscellaneous",
+    "Construct": "构装体 Construct",
+    "Consul": "斡旋者 Consul",
+    "Celestial": "天族 Celestial",
+    "Fiend": "魔族 Fiend",
+    "Scourge": "灾厄 Scourge",
+    "Vessel Mortals": "宿主凡人 Vessel Mortals",
+    "Undead": "不死 Undead",
+    "Beast": "魔兽 Beast",
+    "Vessel Brutalities": "宿主凶暴 Vessel Brutalities",
+    "Spellbinder": "缚咒者 Spellbinder",
+    "Vessel Class Features": "宿主职业特性 Vessel Class Features",
+    "Vessel Monsters": "宿主怪物 Vessel Monsters",
+    "Elemental": "元素 Elemental",
+    "Keeper": "看守者 Keeper",
+    "Trickster Class Features": "诡术师职业特性 Trickster Class Features",
+    "Scientist": "科学家 Scientist",
+    "Vessel Miscellaneous": "宿主杂项 Vessel Miscellaneous",
+    "Vessel Protections": "宿主防护 Vessel Protections"
+  },
+  "mapping": {
+    "adventuresText": {
+      "path": "system",
+      "converter": "adventures-item-text"
+    },
+    "prerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "structured",
+      "cardinality": "many",
+      "mapping": {
+        "value": "value"
+      }
+    }
+  }
+}

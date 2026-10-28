@@ -1,0 +1,80 @@
+{
+  "moduleId": "pf2e-team-plus-adventures",
+  "moduleTitle": "Adventures+",
+  "homebrew": {
+    "classTraits": {
+      "trickster": {
+        "label": "诡术师 Trickster",
+        "description": "这表示来自诡术师职业的能力。"
+      },
+      "vessel": {
+        "label": "宿主 Vessel",
+        "description": "这表示来自宿主职业的能力。"
+      }
+    },
+    "creatureTraits": {
+      "underling": {
+        "label": "杂兵 Underling",
+        "description": "具有杂兵特征的生物比同类中的其他生物更弱。它具有杂兵防御，因此在战斗中更容易被制服和击败。某些动作和能力专门以具有杂兵特征的生物为目标。对于以杂兵为目标的效果，杂兵被视为等级等于其基础生物等级－2的生物；其所有调整值和DC也降低2。"
+      }
+    },
+    "featTraits": {
+      "boss": {
+        "label": "首领 Boss",
+        "description": "这表示首领生物使用的能力。"
+      },
+      "telegraph": {
+        "label": "预告 Telegraph",
+        "description": "具有预告特征的能力要求首领使用预告动作，预示其下回合能够使用的一项特定首领能力。首领必须在1轮过去之前使用该首领动作或活动，否则就必须再次预告该首领能力。如果触发破绽打断了预告，首领便不能使用该首领能力。"
+      },
+      "underling": {
+        "label": "杂兵 Underling",
+        "description": "具有杂兵特征的生物比同类中的其他生物更弱。它具有杂兵防御，因此在战斗中更容易被制服和击败。某些动作和能力专门以具有杂兵特征的生物为目标。对于以杂兵为目标的效果，杂兵被视为等级等于其基础生物等级－2的生物；其所有调整值和DC也降低2。"
+      },
+      "trickster": {
+        "label": "诡术师 Trickster",
+        "description": "这表示来自诡术师职业的能力。"
+      },
+      "vessel": {
+        "label": "宿主 Vessel",
+        "description": "这表示来自宿主职业的能力。"
+      },
+      "duality": {
+        "label": "二相 Duality",
+        "description": "二相专长是一类特殊的宿主职业专长，通过你的身体强化凡人与怪物之间的联系，使你在各自形态下获得独特益处。凡人或怪物条目中的某些效果可能只在相应形态下生效，例如具有潜能或凡人特征的能力。"
+      },
+      "latent": {
+        "label": "潜能 Latent",
+        "description": "你的怪物具有一些只能在其控制宿主时使用的能力。具有潜能特征的动作或能力只能在你处于怪物形态时使用。如果你恢复凡人形态，由潜能效果产生的持续效果立即结束。"
+      },
+      "mortal": {
+        "label": "凡人 Mortal",
+        "description": "具有凡人特征的动作或能力只能在你处于凡人形态时使用。如果你恢复怪物形态，由凡人效果产生的持续效果立即结束。"
+      },
+      "journey": {
+        "label": "旅行 Journey",
+        "description": "具有旅行特征的活动只能在旅途中进行。你只能在旅途中，或在开始旅程并移入路线第一个路段的过程中，使用具有旅行特征的活动。旅行活动通常需要消耗耐力。如果你处于疲乏状态，就不能使用具有旅行特征的动作。"
+      },
+      "company": {
+        "label": "全队 Company",
+        "description": "具有全队特征的活动是由整支队伍共同使用的旅行活动；这支队伍称为全队。进行全队活动要求所有队员都使用该活动，通常需要相互协作并达成一致。每位队员都必须支付使用全队旅行活动所需的耐力费用。与其他旅行活动不同，只要耐力足够，一位队员就可以代其一名盟友支付全队活动所需的耐力。这使原本无法行动的盟友也能参与全队活动并获得其效果。"
+      }
+    },
+    "spellTraits": {
+      "trickster": {
+        "label": "诡术师 Trickster",
+        "description": "这表示来自诡术师职业的能力。"
+      },
+      "vessel": {
+        "label": "宿主 Vessel",
+        "description": "这表示来自宿主职业的能力。"
+      }
+    },
+    "weaponTraits": {
+      "vessel": {
+        "label": "宿主 Vessel",
+        "description": "这表示来自宿主职业的打击。"
+      }
+    }
+  }
+}

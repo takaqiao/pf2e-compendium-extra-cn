@@ -1,3 +1,6 @@
+import './scripts/adventures-text-register.mjs';
+import './scripts/adventures-display.mjs';
+import './scripts/adventures-chat-register.mjs';
 import './scripts/team-plus-rule-text-register.mjs';
 import './scripts/team-plus-aspect-register.mjs';
 import './scripts/sog-851.mjs';
