@@ -116,6 +116,16 @@ export default {
       "translation": "缩放"
     },
     {
+      "selector": ".aspect-art-input > label.aspect-art-small",
+      "source": "Small",
+      "translation": "小型"
+    },
+    {
+      "selector": ".aspect-art-input > label.aspect-art-small",
+      "source": "Multiplies the token scale by 0.8 to match Small-sized tokens.",
+      "translation": "将Token缩放乘以0.8，以匹配小型Token。"
+    },
+    {
       "selector": ".aspect-art-row > label",
       "source": "Dynamic ring",
       "translation": "动态圆环"
