@@ -59,7 +59,8 @@
     },
     "Water Barrier": {
       "name": "水之屏障 Water Barrier",
-      "description": "<p>你以水流环绕自己，获得多种身处水下时的防护。直到你的下个回合开始，对你的钝击与挥砍攻击承受–2环境减值，且你获得等于你等级的酸蚀与火焰伤害抗力。你刷新威能，因此可以选择切换至高潮或低潮。</p>"
+      "description": "<p>你以水流环绕自己，获得多种身处水下时的防护。直到你的下个回合开始，对你的钝击与挥砍攻击承受–2环境减值，且你获得等于你等级的酸蚀与火焰伤害抗力。你刷新威能，因此可以选择切换至高潮或低潮。</p>",
+      "selfEffectName": "效果：水之屏障 Effect: Water Barrier"
     },
     "All Shall Be Flames": {
       "name": "万物皆成焰 All Shall Be Flames",
@@ -135,7 +136,23 @@
     },
     "Flame Cannon": {
       "name": "火焰炮 Flame Cannon",
-      "description": "<p>你发射火焰炮弹，炸开一团炽烈的火光。你造成@Damage[(@actor.level + 1)d6[fire],(floor(@actor.level / 2) +1)[persistent,fire]]{1d6火焰伤害}，再加上每等级1d6火焰伤害，以及等于1加上你等级一半的持续火焰伤害，影响60尺内一个半径至多20尺的爆发区域中的所有生物，这些生物需进行@Check[reflex|against:eldamon|basic]豁免。你可以燃烧自己的另一个威能，将爆发区域的射程提高至120尺、半径提高至至多30尺，并将伤害提高至@Damage[(@actor.level + 1)d8[fire],(floor(@actor.level / 2) +1)[persistent,fire]]{1d8火焰伤害}，再加上每等级1d8火焰伤害。</p>"
+      "description": "<p>你发射火焰炮弹，炸开一团炽烈的火光。你造成@Damage[(@actor.level + 1)d6[fire],(floor(@actor.level / 2) +1)[persistent,fire]]{1d6火焰伤害}，再加上每等级1d6火焰伤害，以及等于1加上你等级一半的持续火焰伤害，影响60尺内一个半径至多20尺的爆发区域中的所有生物，这些生物需进行@Check[reflex|against:eldamon|basic]豁免。你可以燃烧自己的另一个威能，将爆发区域的射程提高至120尺、半径提高至至多30尺，并将伤害提高至@Damage[(@actor.level + 1)d8[fire],(floor(@actor.level / 2) +1)[persistent,fire]]{1d8火焰伤害}，再加上每等级1d8火焰伤害。</p>",
+      "ruleTexts": {
+        "sourceId": "Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.V3WzI9GVfkGswlLy",
+        "entries": [
+          {
+            "path": [
+              1,
+              "value",
+              0,
+              "text"
+            ],
+            "source": "<p>You launch a cannonade of flame, which explodes in a blazing burst. You deal @Damage[(@actor.level + 1)d6[fire]]{1d6 fire damage} damage plus 1d6 fire damage for each level you have, plus persistent fire damage equal to 1 plus half your level, to all creatures in a @Template[burst|distance:{item|flags.pf2e.rulesSelections.flameCannonRadius}]{burst} within 60 feet with a radius of up to 20 feet, with a @Check[reflex|against:eldamon|basic] save. You can burn one of your other powers to increase the range of the burst to 120 feet, the area to a radius of up to 30 feet, and the damage to @Damage[(@actor.level + 1)d8[fire]]{1d8 fire damage} damage plus 1d8 fire damage for each level you have.</p>",
+            "translation": "<p>你发射火焰炮弹，炸开一团炽烈的火光。你造成@Damage[(@actor.level + 1)d6[fire]]{1d6火焰伤害}，再加上每等级1d6火焰伤害，以及等于1加上你等级一半的持续火焰伤害，影响60尺内一个半径至多20尺的@Template[burst|distance:{item|flags.pf2e.rulesSelections.flameCannonRadius}]{爆发区域}中的所有生物，这些生物需进行@Check[reflex|against:eldamon|basic]豁免。你可以燃烧自己的另一个威能，将爆发区域的射程提高至120尺、半径提高至至多30尺，并将伤害提高至@Damage[(@actor.level + 1)d8[fire]]{1d8火焰伤害}，再加上每等级1d8火焰伤害。</p>",
+            "ruleKey": "ItemAlteration"
+          }
+        ]
+      }
     },
     "Final Explosion": {
       "name": "终末爆炸 Final Explosion",
@@ -365,15 +382,148 @@
       "name": "自动石化 Auto-Petrification",
       "description": "<p>你将自己变成硬度极高的石像，与大地调谐并刷新土威能。你陷入@UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{石化}，直到你的下个回合开始，但你的硬度等于你等级的四倍，而非通常的硬度8。不过，由于石化时的AC较低，敌人很可能对你造成重击。你刷新威能。</p>",
       "selfEffectName": "效果：自动石化 Effect: Auto-Petrification"
+    },
+    "Zephyr Slash": {
+      "name": "疾风斩 Zephyr Slash",
+      "description": "<p>你沿直线冲过敌群，将其切碎，并扰乱其反应能力。你沿直线移动至多120尺，可以穿过任意数量生物的空间。区域内的敌人受到@Damage[(1+@actor.level)d8[slashing]]伤害，进行@Check[reflex|against:eldamon|basic:true]豁免。反射豁免失败的敌人不能使用反应，持续至你的回合结束，包括由此次移动触发的反应；反射豁免大失败的敌人则直到你的下个回合结束都不能使用反应。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d8。</p>"
+    },
+    "Kamaitachi": {
+      "name": "镰鼬 Kamaitachi",
+      "description": "<p>你召出一股能剥皮削肉的强大尘旋风，凶狠执着如传说中的鼬。尘旋风出现在1,000尺内，占据15尺×15尺区域，类似超大型生物所占的空间，持续至你刷新。使用此威能后立即，以及之后你的每个回合开始时，你都可以使用一个带专注特征的自由动作，让尘旋风朝任意方向移动至多60尺，包括垂直移动；但如果它距你超过1,000尺，就会消散。所有进入尘旋风周围@Template[type:emanation|distance:15]内的敌人受到@Damage[floor(@actor.level/2)d10[slashing]]伤害，进行@Check[reflex|against:eldamon|basic:true]豁免；无论一轮内接近多少次，每轮只受到一次伤害。尘旋风移动时若经过自愿盟友的空间，可以将其托起，并在移动结束时将其放置于其中一个空间。尘旋风同时最多可以托起1个超大型盟友、2个大型盟友，或4个中型或更小的盟友。</p><hr /><p><strong>等级（20级）</strong> 伤害增加1d10。</p>"
+    },
+    "Breezing Wake": {
+      "name": "风痕余波 Breezing Wake",
+      "description": "<p>你每次移动都会在身后留下切割之风的尾迹，在你停下时斩向敌人。直到你刷新为止，在你的每个回合结束时，每个你在该回合中结束行走或飞行动作时曾与之相邻的敌人，都会受到等于你的等级加上你等级一半的@Damage[(@actor.level + floor(@actor.level/2))[slashing]]{伤害}，并进行@Check[fortitude|against:eldamon|basic]豁免。即使你在同一个回合内多次在同一个敌人身旁结束行走或飞行动作，该敌人也至多受到一次风痕余波的伤害；但第一次之后，你每多一次在其身旁结束行走或飞行动作，其豁免检定便承受–1环境减值。如果你在其身旁结束了五次或更多次行走或飞行动作，该减值最多为–4。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.CDPTEZqwZYWrc7nN]{效果：风痕余波（减值）}</p>"
+    },
+    "Galeforce Launch": {
+      "name": "狂风腾跃 Galeforce Launch",
+      "description": "<p>你乘风跃起，随后在一场切割爆发中坠向地面。无论是否通常具有飞行速度，你都向空中飞行至多30尺，然后俯冲至200尺内任意空间。@Template[type:emanation|distance:30]内的生物受到@Damage[(1+@actor.level)d8[slashing]]伤害，进行@Check[reflex|against:eldamon|basic:true]豁免。</p><hr /><p><strong>等级（+1）</strong>伤害增加1d8。</p>"
+    },
+    "Disrupting Gust": {
+      "name": "扰敌阵风 Disrupting Gust",
+      "description": "<p>你以大范围阵风扰乱附近敌人，使其失去平衡，让你能安全通过。@Template[type:cone|distance:25]内的敌人受到@Damage[(1+@actor.level)d4[slashing]]伤害，具体效果取决于其@Check[fortitude|against:eldamon]豁免。7级时，你可以选择将锥形区域扩大至@Template[type:cone|distance:30]；此后每4级，锥形长度可以再增加5尺，最多在19级达到45尺。</p><hr /><p><strong>大成功</strong> 敌人不受影响。</p><p><strong>成功</strong> 敌人受到一半伤害，并@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续2轮。</p><p><strong>失败</strong> 敌人受到全额伤害，措手不及持续2轮，并且1轮内不能使用反应。</p><p><strong>大失败</strong> 敌人受到双倍伤害，措手不及持续2轮，并且2轮内不能使用反应。</p><hr /><p><strong>等级（+1）</strong>伤害增加1d4。</p>"
+    },
+    "Dispersing Retreat": {
+      "name": "化气撤退 Dispersing Retreat",
+      "description": "<p><strong>触发</strong> 你因敌对行动受到伤害</p>\n<hr />\n<p>受伤后，你散作空气并撤退。你将身体化作稀薄的空气，然后行走25尺，无视困难地形和高等困难地形。如果某个效果使你禁足，化气撤退会先尝试反制它，使用你的@Check[type:eldamon|options:counteract]{反制调整值}，反制等级为你等级的一半，向上取整。由于你散作空气，大多数反应（例如反应打击）在移动期间都无法影响你，除非它们能够影响普通空气。移动结束时，你恢复通常形态。虽然形态如同空气，但并不会挤压或压缩，因此此次行走仍不能穿过狭缝，或进入实体生物无法进入的区域。</p>"
+    },
+    "Rushing Refresh": {
+      "name": "疾行刷新 Rushing Refresh",
+      "description": "<p>你乘着阵风移动，一边收集气元素能量，一边将其塑形以刷新威能。行走至多三次。你刷新威能。</p>"
+    },
+    "Centripetal Barrage": {
+      "name": "向心弹幕 Centripetal Barrage",
+      "description": "<p>你沿不规则的环路绕行敌人，向中心射出数以千计的风刃，摧毁由自身移动划定区域内的所有生物。行走至多六次，并尽可能在出发的同一空间结束移动。移动路径围起的区域变成杀戮地带，无数细小风刃交叠，撕裂其中的一切。区域内的生物受到@Damage[(1+@actor.level)d8[slashing]]伤害，进行@Check[reflex|against:eldamon|basic:true]豁免。如果移动未在原先的空间结束（通常因为被打断，因为你不能自愿在别处结束），风刃便会散逸，杀戮地带随之瓦解。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d8。</p>"
+    },
+    "Tandem Rush": {
+      "name": "协同奔袭 Tandem Rush",
+      "description": "<p>你拉上一名盟友，一同乘风疾驰，合力击倒敌人。选择30尺内的一名盟友。风将其拉向你，使其进入你的空间，然后你们一同奔行或飞掠。你行走至多三次，并带着盟友同行。随后，你对触及内的一个敌人进行@Check[eldamon-power-attack|against:ac|options:damaging-effect]{近战威能攻击检定}，盟友则对同一个敌人进行打击。盟友的打击正常造成伤害，而你的攻击造成@Damage[(1+@actor.level)d4[slashing]]{1d4伤害}，并且你每有一个等级，便额外造成1d4挥砍伤害，具体效果取决于你的威能攻击检定结果。移动和攻击全部完成后，盟友离开你的空间，进入由你选择的一个相邻空间。</p><hr /><p><strong>大成功</strong> 你造成双倍挥砍伤害。</p><p><strong>成功</strong> 你造成正常挥砍伤害。</p><p><strong>失败</strong> 你的风擦过敌人，造成等于你等级的挥砍伤害。</p><p><strong>大失败</strong> 你的风完全落空，不造成伤害。</p>"
+    },
+    "Tornado": {
+      "name": "龙卷风 Tornado",
+      "description": "<p>你召出短暂却强劲的龙卷风，旋转着撕裂敌人，同时安全地移动自己和盟友。龙卷风在120尺内的@Template[type:burst|distance:40]区域中旋转。区域内的敌人受到@Damage[(1+@actor.level)d6[slashing]]伤害，具体结果取决于其@Check[fortitude|against:eldamon]豁免。你可以将区域内的自愿盟友（以及位于区域内的自己）移动至区域内任意空间，但该空间到区域中心的距离必须与原空间相同。例如，盟友原本在中心以南30尺处，你可以将其旋转至中心西北方30尺处。这不会造成垂直移动。</p><hr /><p><strong>大成功</strong> 敌人不受龙卷风影响。</p><p><strong>成功</strong> 龙卷风造成少许割伤，但敌人抵御住了最猛烈的部分，受到一半伤害。</p><p><strong>失败</strong> 龙卷风割伤并卷动敌人。敌人受到全额伤害，你可以将其移动至多10尺，移至距区域中心与原空间同样远的空间。这不会造成垂直移动。</p><p><strong>大失败</strong> 龙卷风将敌人卷起不停旋转，深深割入其身体。敌人受到双倍伤害，你可以将其移动至任意距区域中心与原空间同样远的空间。这不会造成垂直移动。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Sudden Squall": {
+      "name": "骤起狂风 Sudden Squall",
+      "description": "<p><strong>触发</strong> 你的回合开始，或一名盟友的回合开始。</p><hr /><p>你唤来骤起的狂风，将自己吹送至执行自身或盟友计划所需的位置。行走至多两次。如果你在整个移动过程（而非仅一次行走）开始或结束时与一个敌人相邻，该敌人必须进行强韧豁免。</p><hr /><p><strong>大成功</strong> 狂风未能使敌人失去平衡。</p><p><strong>成功</strong> 敌人陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续至当前回合结束。</p><p><strong>失败</strong> 敌人措手不及，持续1轮。</p><p><strong>大失败</strong> 敌人措手不及，持续1轮，并且@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>"
+    },
+    "Whirlwind": {
+      "name": "旋风 Whirlwind",
+      "description": "<p>你向前冲去，随后让风在周身旋转，切割敌人。行走，然后造成@Damage[(1+@actor.level)d6[slashing]]伤害，影响你选择的半径至多20尺弥散内的所有敌人，目标进行@Check[reflex|against:eldamon|basic:true]豁免。</p><p>@Template[type:emanation|distance:5]</p><p>@Template[type:emanation|distance:10]</p><p>@Template[type:emanation|distance:15]</p><p>@Template[type:emanation|distance:20]</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Bellerophon": {
+      "name": "柏勒洛丰 Bellerophon",
+      "description": "<p><strong>条件</strong> 你是传奇爱达梦克律索尔</p><hr /><p>你与选定的英雄结下羁绊，以气流将其拉上背部，随后乘着狂风与利刃冲过敌群。你将30尺内的一名盟友拉上背部，然后行走至多四次。在此移动期间，你可以对每个进入你触及范围内的敌人进行威能攻击检定，而盟友可以对每个进入其触及范围内的敌人进行近战打击；即使多次经过同一个敌人，你们也各自只能攻击该敌人一次，而你的多重攻击减值只在结算完所有攻击后才增加（如同对多个生物各攻击一次的元素威能通常的处理方式）。盟友的打击造成正常伤害，并因环绕其武器或徒手攻击的风刃而额外造成10点挥砍伤害。你的攻击造成@Damage[20d4[slashing]]伤害，具体效果取决于@Check[eldamon-power-attack|against:ac|options:damaging-effect,inflicts:off-guard,inflicts:prone]{威能攻击检定}。如果你们的触及范围相同，你和盟友可以选择攻击的先后顺序（你可能希望先攻击，以便让敌人对盟友陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}）。移动完成后，盟友离开你的空间，进入由你选择的一个相邻空间。</p><hr /><p><strong>大成功</strong> 你的攻击造成双倍伤害，并将敌人击倒，使其@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><p><strong>成功</strong> 你的攻击造成正常伤害，敌人对盟友通过柏勒洛丰进行的攻击措手不及。</p><p><strong>失败</strong> 你的攻击造成@Damage[20[slashing]]伤害。</p><p><strong>大失败</strong> 你的攻击完全落空，不造成伤害。</p>"
+    },
+    "Aeolus": {
+      "name": "埃俄罗斯 Aeolus",
+      "description": "<p>你从气元素源泉召来强风，载着盟友前行，将敌人切成碎片。狂风沿@Template[type:line|distance:1000|width:60]{宽至多60尺、长至多1,000尺}的直线吹拂。你与区域内的盟友不受伤害；若其自愿，你可以让其沿线形路径移动任意距离。区域内的敌人则受到@Damage[(1+@actor.level)d8[slashing]]伤害，进行@Check[reflex|against:eldamon|basic:true]豁免。</p>"
+    },
+    "Aerial Trail": {
+      "name": "风刃轨迹 Aerial Trail",
+      "description": "<p>你乘风冲过敌人，在身后留下风刃，切割胆敢穿越路径者。你行走两次，其间可以穿过敌人占据的空间，并在路径的每个空间留下风刃。直到你的下个回合结束，进入任一轨迹空间的生物受到@Damage[(1+@actor.level)d6[slashing]]伤害。一个生物只会受到一次风刃轨迹的挥砍伤害，即使进入轨迹的多个方格也不例外；如果没有进入轨迹方格，即使起初就在其中，也不会受到伤害。</p><hr /><p><strong>等级（+1）</strong>伤害增加1d6。</p>"
+    },
+    "Backlash Gust": {
+      "name": "反冲阵风 Backlash Gust",
+      "description": "<p>你向前释放一阵风刃，借反冲退至安全处。你造成@Damage[(1+@actor.level)d6[slashing]]伤害，影响@Template[type:line|distance:20]内的所有生物，目标进行@Check[reflex|against:eldamon|basic:true]豁免；然后你可以朝线形的相反方向弹射至多20尺。</p><p>5级时，你可以选择将线形区域扩大至@Template[type:line|distance:30]，并后退至多30尺；此后每4级，线形长度与后退距离可以再增加10尺，最多在17级达到60尺。</p><hr /><p><strong>等级（+1）</strong>伤害增加1d6。</p>"
+    },
+    "Gusting Grapnel": {
+      "name": "疾风钩索 Gusting Grapnel",
+      "description": "<p>你射出一道由旋转切割的气刃构成的钩索，钩住生物，将自己拉向对方。选择120尺内的一个生物。如果选择盟友，你沿直线移动，直至与该盟友相邻。如果选择敌人，你造成@Damage[(2+@actor.level)d8[slashing]]{2d8挥砍}伤害，并且你每有一个等级，便额外造成1d8挥砍伤害，还可能沿直线移动，直至与该敌人相邻；具体效果取决于你的@Check[eldamon-power-attack|against:ac|options:damaging-effect]{远程威能攻击检定}。疾风钩索只能以生物为目标，不能以物体为目标。</p><hr /><p><strong>大成功</strong> 你造成双倍伤害并移动至敌人身旁，敌人陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续至你的下个回合结束。</p><p><strong>成功</strong> 你造成全额伤害并移动至敌人身旁。</p><p><strong>失败</strong> 钩索勉强钩住敌人；敌人可以避开切割之风，或阻止你的移动。敌人选择受到全额伤害，或阻止你的移动。</p><p><strong>大失败</strong> 你的钩索完全落空，没有任何效果。</p>"
+    },
+    "Wind Rush": {
+      "name": "疾风奔袭 Wind Rush",
+      "description": "<p>你乘疾风穿行，借其冲势斩击敌人。行走至多两次，然后对触及内一个敌人进行@Check[type:eldamon-power-attack|defense:ac]{近战威能攻击检定}，造成@Damage[(2+@actor.level)d8[slashing]]伤害。</p><hr /><p><strong>大成功</strong> 你造成双倍挥砍伤害。</p><p><strong>成功</strong> 你造成正常挥砍伤害。</p><p><strong>失败</strong> 斩击未中，但附近气流擦伤目标，造成@Damage[(2+@actor.level)[slashing]]伤害。</p><p><strong>大失败</strong> 斩击完全落空，目标未受伤害。</p><hr /><p><strong>等级（+1）</strong>伤害增加1d8，失败时伤害增加1。</p>"
+    },
+    "Gale Boost": {
+      "name": "狂风助推 Gale Boost",
+      "description": "<p>你在@Template[type:emanation|distance:30]内唤起一片吹拂的风场，推动沿某个方向的移动，并阻碍逆风移动。唤风时选择一个方向。弥散范围内使用移动动作的生物获得至多20尺额外移动距离，这部分距离只能用于朝你选择的方向移动。在弥散范围内，朝你所选方向的反方向移动时，会因风的阻碍而视为困难地形。你行走，然后刷新威能。</p>"
+    },
+    "Wind Barrier": {
+      "name": "风之屏障 Wind Barrier",
+      "description": "<p>你刷新气威能时，在周身创造风之穹顶，在恢复力量时吹散远程攻击。1轮内，对你或@Template[type:emanation|distance:30]内盟友进行的物理远程攻击，依据远程武器的大小承受环境减值。</p><p>使用箭、弩矢、子弹或类似弹药的攻击承受–4环境减值；使用标枪等较大远程武器的攻击承受–2环境减值。极其巨大的远程武器，以及不依赖实体物件的法术效果，可穿过风流而不受减值。</p><p>你刷新威能。</p><hr /><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.uERezG076DkjIoUt]{效果：风之屏障}</p>"
+    },
+    "Flensing Leaps": {
+      "name": "剥皮跃击 Flensing Leaps",
+      "description": "<p>你在脚下制造飞速旋转的气流，跃向敌人，在敌人之间弹跳并割伤他们。你@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}至多30尺（无论你通常的跳跃距离是多少）。若你选择跳入敌人的占据空间，则进行一次近战威能攻击，根据威能攻击检定的结果造成@Damage[(1+@actor.level)d8[slashing]]伤害，且除非该威能攻击检定大失败，否则你再次跳跃。只要你继续跳入尚未以剥皮跃击进入过其占据空间的敌人处，就能从一个敌人头顶弹向下一个，继续对每个敌人进行@Check[type:eldamon-power-attack|defense:ac]{近战威能攻击检定}并再次跳跃；这些攻击检定都计入你的多重攻击减值，但直到所有检定完成后才累计减值。一旦你跳跃时未进入新敌人的占据空间，或威能攻击检定大失败，剥皮跃击便结束。</p><hr /><p><strong>大成功</strong> 你造成双倍挥砍伤害，并借力高高弹起，使你接下来以剥皮跃击进行的跳跃可额外跳跃10尺。</p><p><strong>成功</strong> 你造成正常挥砍伤害，并可以正常跳跃。</p><p><strong>失败</strong> 你得以从敌人身上跳开，但切割气流未能造成多少伤害。目标仅受到@Damage[(1+@actor.level)[slashing]]伤害。</p><p><strong>大失败</strong> 你未能命中目标，弹跳就此结束。你落在自己选择的、与目标相邻且处于跳跃距离内的空间，不再跳跃。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d8，失败时则增加1。</p>"
+    },
+    "Hurricane Downdraft": {
+      "name": "飓风下击 Hurricane Downdraft",
+      "description": "<p>你令飓风般的狂风向下猛袭，割伤敌人，并击落胆敢在空中挑战你的对手。下击气流是一个垂直圆柱体，半径由你选择，为5尺至15尺，高度由你选择，为40尺至200尺。柱体顶面中心必须位于你500尺内，但其底部或远侧可延伸至范围之外。你对区域内每个生物造成@Damage[(1+@actor.level)d8[slashing]]伤害，结果取决于其@Check[reflex|against:eldamon]豁免。飓风下击造成的强迫移动不会造成坠落伤害，即使将生物推至地面也是如此。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p><p><strong>成功</strong> 飓风擦过该生物，若其正在飞行，还会将其稍稍下推。该生物受到一半伤害，若正在飞行，则被朝地面方向推下10尺。</p><p><strong>失败</strong> 飓风结实地割入该生物，若其正在飞行，还会将其下推。该生物受到全额伤害，若正在飞行，则被推至圆柱体底部或地面，以先到达者为准。</p><p><strong>大失败</strong> 飓风重创该生物，并将其击落至地面，令其@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。该生物受到双倍伤害。若其正在飞行，飓风会将其推至地面。无论是否正在飞行，该生物都会倒地。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d8。</p>"
+    },
+    "Wind Cutter": {
+      "name": "风刃切割 Wind Cutter",
+      "description": "<p>你射出一道风刃，随着远离起点而不断扩大，切开沿途所有生物。你造成@Damage[(1+@actor.level)d6[slashing]]伤害，影响@Template[type:cone|distance:30]内的所有生物，锥形范围的起点可位于60尺内任意位置（而非像大多数锥形效果那样从你的方格出发），允许@Check[reflex|against:eldamon|basic:true]豁免。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Wind Sniper": {
+      "name": "风之狙击 Wind Sniper",
+      "description": "<p>你从极远处乘风射出一道切割气刃。对240尺内的一个敌人进行@Check[type:eldamon-power-attack|defense:ac]{远程威能攻击检定}，造成@Damage[(2+@actor.level)d6[slashing]]伤害。7级时及此后每4级，风刃的射程增加120尺，至多在19级时达到720尺。</p><hr /><p><strong>大成功</strong> 你对目标造成双倍挥砍伤害。</p><p><strong>成功</strong> 你对目标造成正常挥砍伤害。</p><p><strong>失败</strong> 气刃从目标身旁呼啸而过，留下浅浅的割伤，造成@Damage[(2+@actor.level)[slashing]]伤害。</p><p><strong>大失败</strong> 气刃完全落空，不造成伤害。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Hindering Winds": {
+      "name": "阻滞之风 Hindering Winds",
+      "description": "<p><strong>触发</strong> 生物在一个移动动作中尝试朝你移动</p>\n<p>你送出一阵风，阻碍触发此反应的生物靠近你。该生物必须进行@Check[fortitude|against:eldamon]豁免，产生以下效果。</p>\n<hr />\n<p><strong>大成功</strong> 该生物不受影响，可在此动作中正常移动。</p>\n<p><strong>成功</strong> 风使该生物难以朝你移动。此动作中，任何朝你的移动都视为困难地形（若已经在困难地形上移动，则视为高等困难地形）。</p>\n<p><strong>失败</strong> 风阻止该生物靠近你。此动作中，它无法朝你移动。</p>\n<p><strong>大失败</strong> 风将该生物吹倒，打断其移动动作，并使其@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>"
+    },
+    "Razorwind Impact": {
+      "name": "剃风冲击 Razorwind Impact",
+      "description": "<p>脚下的风将你笔直送上高空，随后你直坠下方地面，沿途激起锋利如剃刀的狂风，并在落地时猛烈撞击。风将你竖直向上移动至多120尺，随后你笔直向下坠落至多120尺。在你坠落期间，任何时候处于你20尺内的敌人（即位于@Template[cylinder|distance:20]{半径20尺、高度等于你坠落距离的圆柱形区域}内的敌人）都会受到伤害：你每有一个等级，就造成@Damage[(1+@actor.level)d6[slashing]|options:area-damage]{1d6伤害}，目标进行@Check[reflex|against:eldamon|basic|options:area-effect]豁免。如果你尚未坠落完整距离便撞到地面或其他类似的坚固表面，坠落就会停止，撞击对20尺内的生物额外造成等于你的等级加1的@Damage[(1+@actor.level)[bludgeoning]|options:area-damage]{钝击伤害}，使用同一次@Check[reflex|against:eldamon|basic|options:area-effect,forced-movement]豁免。大失败时，地面上的生物会被撞击推离你10尺。</p>"
+    },
+    "Reflect Projectiles": {
+      "name": "反射投射物 Reflect Projectiles",
+      "description": "<p><strong>触发</strong> 敌人以物理远程攻击将你作为目标，且你意识到该攻击或能力</p><hr /><p>你以疾风弹开投射物，甚至可能将其反射向敌人。你的防御等级获得+4环境加值，适用于触发此反应的攻击，以及当前生物回合结束前的任何后续物理远程攻击。若此类攻击大失败，你可以将其转向射程内的另一个目标，进行@Check[eldamon-power-attack|against:ac]{威能攻击检定}来确定是否命中，但使用原远程攻击的伤害和效果。你不能以此威能偏转异常巨大的远程投射物（如巨石或弩炮弩矢）。</p>"
+    },
+    "Ineluctable Flight": {
+      "name": "无阻飞行 Ineluctable Flight",
+      "description": "<p>你汇聚并整顿周围的气元素能量，几乎没有什么能阻止你的移动。选择100尺内你能看见的一个位置。你乘风飘向该处，无视困难地形、高等困难地形、有害地形及其他类似地形效果。</p>\n<p>由于你乘风飞行，可以抵达通常无法步行到达的难以接近之处。你无法穿过完全实心的物体，但能像使用@UUID[Compendium.pf2e.spells-srd.Item.V8wXOsoejQhe6CyG]{汽化形体}的生物一样穿过微小裂缝。你的移动不触发任何种类的反应或自由动作（甚至包括并非由移动触发的）。</p>\n<p>你刷新威能。</p>"
+    },
+    "Tempest": {
+      "name": "风暴 Tempest",
+      "description": "<p>你唤出锋利如剃刀的狂风席卷区域，将敌人切碎。风暴充满你500尺内的一个@Template[type:burst|distance:20]。进入该区域或在其中开始回合的敌人受到@Damage[ceil(@actor.level/2)d6[slashing]]伤害；对敌人而言，在区域内飞行视为困难地形；敌人穿过区域的物理远程攻击承受–2环境减值，除非使用异常巨大的投射物。风暴持续至你刷新。每个生物在其每个回合中只会因风暴受到一次挥砍伤害，即使其在区域内开始回合后又进入该区域也是如此。</p><hr /><p><strong>等级（+2）</strong> 伤害增加1d6。</p>"
+    },
+    "Gale Swing": {
+      "name": "狂风回旋 Gale Swing",
+      "description": "<p>你以气流长鞭钩住敌人，随后绕着对方回旋，以向心力将其割伤。你对40尺内的一个生物造成@Damage[(2+@actor.level)d6[slashing]]{2d6挥砍伤害}，并且你每有一个等级，便额外造成1d6挥砍伤害，具体结果取决于其@Check[reflex|against:eldamon|options:damaging-effect]豁免。5级时，射程增加至50尺，此后每4级，射程额外增加10尺，最多在17级达到80尺。你可以对无生命的物体或自愿盟友使用狂风回旋，此时你可以如成功结果所述移动，且不造成伤害。</p><hr /><p><strong>大成功</strong> 敌人完全躲开长鞭，你未能回旋。</p><p><strong>成功</strong> 你以长鞭钩住敌人，但对方可以扭身避开伤害，或承受伤害以扯断长鞭。敌人选择受到一半伤害，或允许你绕着对方回旋。回旋时，你保持与对方的距离不变，沿顺时针、逆时针方向，甚至从上方（若目标在空中，也可从下方）绕行至距离相同的另一个位置。</p><p><strong>失败</strong> 你以长鞭钩住敌人并回旋。敌人受到全额伤害，你可以如成功结果所述移动。</p><p><strong>大失败</strong> 长鞭重创敌人，使其失去平衡。敌人受到双倍伤害，你可以如成功结果所述移动，且敌人陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续至你的下个回合结束。</p>"
+    },
+    "Elemental Frenzy": {
+      "name": "元素狂乱 Elemental Frenzy",
+      "description": "<p>你以元素能量猛击触及内的一切。对触及内每个敌人进行@Check[type:eldamon-power-attack|defense:ac]{近战威能攻击检定}。这些攻击造成的多重攻击减值在全部攻击完成后才累计。</p><p>你造成@Damage[(1+@actor.level)d8[untyped]]伤害，类型与你的元素对应，具体效果取决于威能攻击检定。</p><hr /><p><strong>大成功</strong> 元素能量压倒敌人，使其受到双倍伤害。</p><p><strong>成功</strong> 狂乱攻击命中敌人，造成全额伤害。</p><p><strong>失败</strong> 元素能量擦过敌人，使其受到@Damage[(1+@actor.level)[untyped]]伤害。</p><p><strong>大失败</strong> 狂乱的元素攻击完全落空。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d8，失败时则增加1。</p>"
+    },
+    "Drifting Slash": {
+      "name": "乘风斩击 Drifting Slash",
+      "description": "<p>你乘风飘向前方，沿途斩击敌人。你行走一次，在移动途中任意时点对触及内的一个敌人进行@Check[type:eldamon-power-attack|defense:ac]{近战威能攻击}，造成@Damage[(2+@actor.level)d8[slashing]]伤害，结果取决于威能攻击检定。此移动不触发反应打击等因移动而触发的反应。</p><hr /><p><strong>大成功</strong> 你造成双倍挥砍伤害。</p><p><strong>成功</strong> 你造成正常挥砍伤害。</p><p><strong>失败</strong> 斩击落空，但附近气流擦过目标，造成@Damage[(2+@actor.level)[slashing]]伤害。</p><p><strong>大失败</strong> 斩击完全落空，目标不受伤害。</p><p><strong>等级（+1）</strong> 伤害增加1d8，失败时则增加1。</p>"
     }
   },
   "folders": {
     "From Battlezoo Eldamon": "出自《战斗动物园：爱达梦》 From Battlezoo Eldamon",
     "Water": "水 Water",
     "Fire": "火焰 Fire",
-    "Earth": "土 Earth"
+    "Earth": "土 Earth",
+    "Air": "气 Air"
   },
   "mapping": {
-    "selfEffectName": "system.selfEffect.name"
+    "selfEffectName": "system.selfEffect.name",
+    "ruleTexts": {
+      "path": "system.rules",
+      "converter": "eldamon-legends-rule-text"
+    }
   }
 }

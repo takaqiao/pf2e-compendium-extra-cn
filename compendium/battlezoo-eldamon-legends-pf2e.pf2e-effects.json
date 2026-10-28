@@ -23,7 +23,23 @@
     },
     "Effect: Evermarine Nexus": {
       "name": "效果：恒海纽带 Effect: Evermarine Nexus",
-      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.rfNUqLYSJFaLMytX]{恒海纽带（次等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.SciRi55xfZzkTfPR]{恒海纽带（标准）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.PaJC0sxvbySJykLg]{恒海纽带（高等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.w0puyrCLi8Auebsg]{恒海纽带（上等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.L0FwVPwmKAVLYooK]{恒海纽带（至高）}授予</p><p>你的威能攻击检定获得物品加值。若来源角色已准备至少1只水爱达梦，而你是水爱达梦，你会根据威能的潮汐获得一项益处：高潮时，伤害获得物品加值；低潮时，AC获得+1状态加值，持续1轮。</p><p>若来源角色已准备至少1只水爱达梦，而你不是水爱达梦，你可以在相位移入时暂时裹上水流，选择高潮或低潮来改变你的第一个威能。若选择高潮，相位移入后的第一个威能伤害获得+2物品加值，且在攻击检定大成功或目标豁免大失败时，将敌人向远离你的方向推动5尺，但使用该威能后你会措手不及1轮。若选择低潮，使用该威能后你的AC获得+1状态加值，持续1轮，并在攻击检定大成功或目标豁免大失败时，将敌人向你拉近5尺。</p><p>若来源角色已准备至少2只水爱达梦，而你不是水爱达梦，你的伤害加值提升至+3。若你是水爱达梦，你获得虹吸元素动作。</p><p>若来源角色已准备至少3只水爱达梦，而你不是水爱达梦，你的伤害加值提升至+4。若你是水爱达梦，你获得强压元素动作。</p><p>若来源角色已准备至少4只水爱达梦，而你不是水爱达梦，你的伤害加值提升至+5。若你是水爱达梦，你获得涌动元素动作。</p>"
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.rfNUqLYSJFaLMytX]{恒海纽带（次等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.SciRi55xfZzkTfPR]{恒海纽带（标准）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.PaJC0sxvbySJykLg]{恒海纽带（高等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.w0puyrCLi8Auebsg]{恒海纽带（上等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.L0FwVPwmKAVLYooK]{恒海纽带（至高）}授予</p><p>你的威能攻击检定获得物品加值。若来源角色已准备至少1只水爱达梦，而你是水爱达梦，你会根据威能的潮汐获得一项益处：高潮时，伤害获得物品加值；低潮时，AC获得+1状态加值，持续1轮。</p><p>若来源角色已准备至少1只水爱达梦，而你不是水爱达梦，你可以在相位移入时暂时裹上水流，选择高潮或低潮来改变你的第一个威能。若选择高潮，相位移入后的第一个威能伤害获得+2物品加值，且在攻击检定大成功或目标豁免大失败时，将敌人向远离你的方向推动5尺，但使用该威能后你会措手不及1轮。若选择低潮，使用该威能后你的AC获得+1状态加值，持续1轮，并在攻击检定大成功或目标豁免大失败时，将敌人向你拉近5尺。</p><p>若来源角色已准备至少2只水爱达梦，而你不是水爱达梦，你的伤害加值提升至+3。若你是水爱达梦，你获得虹吸元素动作。</p><p>若来源角色已准备至少3只水爱达梦，而你不是水爱达梦，你的伤害加值提升至+4。若你是水爱达梦，你获得强压元素动作。</p><p>若来源角色已准备至少4只水爱达梦，而你不是水爱达梦，你的伤害加值提升至+5。若你是水爱达梦，你获得涌动元素动作。</p>",
+      "ruleTexts": {
+        "sourceId": "Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.6YZGOhvLhlcdVkNd",
+        "entries": [
+          {
+            "path": [
+              6,
+              "value",
+              2,
+              "text"
+            ],
+            "source": "@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.ceB7wwfRgI3tokkU]{Effect: Evermarine Nexus (AC Bonus)}",
+            "translation": "@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.ceB7wwfRgI3tokkU]{效果：恒海纽带（护甲等级加值）}",
+            "ruleKey": "ItemAlteration"
+          }
+        ]
+      }
     },
     "Effect: Thalassic Reel": {
       "name": "效果：海潮收线 Effect: Thalassic Reel",
@@ -43,10 +59,30 @@
     },
     "Effect: Shifting Tides": {
       "name": "效果：变幻潮汐 Effect: Shifting Tides",
-      "description": "<p>每当你掷先攻、在遭遇中刷新威能，或在你是水爱达梦的情况下相位移入时，选择高潮或低潮，作为你的初始潮汐。每当你使用水威能时，先获得当前潮汐的效果，再切换为另一种潮汐（高潮变为低潮，低潮变为高潮）。如此，你的威能在两种潮汐之间交替，直到你刷新并改为你偏好的潮汐。你在遭遇外通常不处于任何潮汐。</p>"
+      "description": "<p>每当你掷先攻、在遭遇中刷新威能，或在你是水爱达梦的情况下相位移入时，选择高潮或低潮，作为你的初始潮汐。每当你使用水威能时，先获得当前潮汐的效果，再切换为另一种潮汐（高潮变为低潮，低潮变为高潮）。如此，你的威能在两种潮汐之间交替，直到你刷新并改为你偏好的潮汐。你在遭遇外通常不处于任何潮汐。</p>",
+      "badgeLabels": {
+        "sourceId": "Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.BigiwwiHLYzZhFeQ",
+        "entries": [
+          {
+            "path": [
+              0
+            ],
+            "source": "Low Tide",
+            "translation": "低潮"
+          },
+          {
+            "path": [
+              1
+            ],
+            "source": "High Tide",
+            "translation": "高潮"
+          }
+        ]
+      }
     },
     "Effect: Adapted to the Deep Sea": {
-      "name": "效果：适应深海 Effect: Adapted to the Deep Sea"
+      "name": "效果：适应深海 Effect: Adapted to the Deep Sea",
+      "gmnote": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.qymDLRfsBpddOfpg]{深海重压}授予</p><p><em>Foundry注：对不应受到深海重压速度减值影响的生物应用此效果。</em></p>"
     },
     "Effect: One-Two Punch": {
       "name": "效果：组合拳 Effect: One-Two Punch",
@@ -86,7 +122,26 @@
     },
     "Effect: Aqua Punch": {
       "name": "效果：水之重拳 Effect: Aqua Punch",
-      "description": "<p>成功时，目标对你的攻击检定承受–1环境减值，持续1轮；大成功时，则改为承受–2环境减值。</p>"
+      "description": "<p>成功时，目标对你的攻击检定承受–1环境减值，持续1轮；大成功时，则改为承受–2环境减值。</p>",
+      "badgeLabels": {
+        "sourceId": "Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.U2aMUOhRLnZOOZUs",
+        "entries": [
+          {
+            "path": [
+              0
+            ],
+            "source": "Success",
+            "translation": "成功"
+          },
+          {
+            "path": [
+              1
+            ],
+            "source": "Critical Success",
+            "translation": "大成功"
+          }
+        ]
+      }
     },
     "Effect: Pelagic Pressure (Attack Penalty)": {
       "name": "效果：深海重压（攻击减值） Effect: Pelagic Pressure (Attack Penalty)",
@@ -231,12 +286,44 @@
     "Effect: Terrestrial Avenger (Success)": {
       "name": "效果：大地复仇者（成功） Effect: Terrestrial Avenger (Success)",
       "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.R4wGXZBGCVXfdTl8]{大地复仇者}赋予</p><p>对抗效果来源以外的生物时，你的攻击骰承受–1环境减值。</p>"
+    },
+    "Effect: Uplift Chirp": {
+      "name": "效果：扬升啁啾 Effect: Uplift Chirp",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-features.Item.1ld6J6olxXAahzzc]{扬升啁啾}赋予。</p><p>你的速度获得+5环境加值。若来源的威能DC熟练度为大师，此加值提高至+10；若为传奇，则提高至+15。</p>"
+    },
+    "Effect: Breezing Wake (Penalty)": {
+      "name": "效果：风痕余波（减值） Effect: Breezing Wake (Penalty)",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.4JLlvzGiRvs2HQCK]{风痕余波}赋予。</p><p>你对抗风痕余波的强韧豁免承受减值。</p>"
+    },
+    "Effect: Bottled Tempest Nexus": {
+      "name": "效果：瓶装风暴枢纽 Effect: Bottled Tempest Nexus",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.JLtQYU7wAgZDf5PT]{瓶装风暴枢纽（次等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.3sJtHdPQsMTlzNzU]{瓶装风暴枢纽（标准）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.7xC6hSZIyXSSOsx7]{瓶装风暴枢纽（高等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.3gJOD45H7BHYFbmY]{瓶装风暴枢纽（上等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.ntIctZynhIxhrYJh]{瓶装风暴枢纽（至高）}赋予。</p><p>你的威能攻击掷骰获得物品加值。若你是气系爱达梦，每当你使用气元素威能移动时，你可以移动至多5、10或15尺，具体取决于来源准备的气系爱达梦数量。</p><p>若来源准备了至少两只气系爱达梦，且你是土系爱达梦，你获得元素化身职业的虹吸元素动作。</p><p>若来源准备了至少三只气系爱达梦，且你是土系爱达梦，你获得元素化身同名专长的强压元素动作。</p><p>若来源准备了至少四只气系爱达梦，且你是土系爱达梦，你获得元素化身同名专长的涌动元素动作。</p>"
+    },
+    "Effect: Dart": {
+      "name": "效果：轻跃闪避 Effect: Dart",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-features.Item.cpoGPDZkEW3fKAmb]{轻跃闪避}赋予。</p><p>你的AC获得+1环境加值。</p>"
+    },
+    "Effect: Wind Barrier": {
+      "name": "效果：风之屏障 Effect: Wind Barrier",
+      "description": "<p>在1轮内，以你或30尺弥散范围内的盟友为目标的物理远程攻击，根据远程武器的大小承受环境减值。使用箭矢、弩矢、子弹或类似弹药的攻击承受–4环境减值，使用标枪等较大远程武器的攻击承受–2环境减值。巨型远程武器以及不依赖实体物件的法术效果可以穿过风势，不承受减值。</p>"
     }
   },
   "folders": {
     "Fire": "火焰 Fire",
     "Conditions": "状态 Conditions",
     "Water": "水 Water",
-    "Earth": "土 Earth"
+    "Earth": "土 Earth",
+    "Air": "气 Air"
+  },
+  "mapping": {
+    "badgeLabels": {
+      "path": "system.badge.labels",
+      "converter": "eldamon-legends-badge-labels"
+    },
+    "gmnote": "system.description.gm",
+    "ruleTexts": {
+      "path": "system.rules",
+      "converter": "eldamon-legends-rule-text"
+    }
   }
 }

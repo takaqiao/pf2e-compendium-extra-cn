@@ -67,7 +67,8 @@
     },
     "Innate Defenses": {
       "name": "内在防御 Innate Defenses",
-      "description": "<p>爱达梦拥有源自其元素的内在防御，能保护它们免受伤害，类似凡人的护甲。这使它们的AC获得+2物品加值，敏捷调整值上限为+3。此外，拥有凡人挚友的爱达梦可以共享挚友的护甲潜能符文与韧性符文，无论这位挚友是否为爱达梦训练家。这会提高它们AC的物品加值，并使豁免获得物品加值</p>"
+      "description": "<p>爱达梦拥有源自其元素的内在防御，能保护它们免受伤害，类似凡人的护甲。这使它们的AC获得+2物品加值，敏捷调整值上限为+3。此外，拥有凡人挚友的爱达梦可以共享挚友的护甲潜能符文与韧性符文，无论这位挚友是否为爱达梦训练家。这会提高它们AC的物品加值，并使豁免获得物品加值</p>",
+      "unidentifiedName": "不寻常的护甲 Unusual Armor"
     },
     "Candelabra of the Thirteen": {
       "name": "十三者烛台 Candelabra of the Thirteen",
@@ -111,7 +112,34 @@
     },
     "Arms of the Sea": {
       "name": "海之臂 Arms of the Sea",
-      "description": "<p>你身体上众多旋动的臂肢使你格外稳定，也让你能精确控制移动。对抗试图将你推撞或摔绊的尝试时，你的强韧或反射DC获得+2环境加值；对抗试图移动你或将你击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}的法术或效果时，你的豁免同样获得该加值。你在水中时，此加值提升至+3。</p>"
+      "description": "<p>你身体上众多旋动的臂肢使你格外稳定，也让你能精确控制移动。对抗试图将你推撞或摔绊的尝试时，你的强韧或反射DC获得+2环境加值；对抗试图移动你或将你击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}的法术或效果时，你的豁免同样获得该加值。你在水中时，此加值提升至+3。</p>",
+      "ruleTexts": {
+        "sourceId": "Compendium.battlezoo-eldamon-legends-pf2e.pf2e-features.Item.tQeUUZbfkMQkUV8q",
+        "entries": [
+          {
+            "path": [
+              0,
+              "suboptions",
+              0,
+              "label"
+            ],
+            "source": "Regular",
+            "translation": "通常",
+            "ruleKey": "RollOption"
+          },
+          {
+            "path": [
+              0,
+              "suboptions",
+              1,
+              "label"
+            ],
+            "source": "Underwater",
+            "translation": "水下",
+            "ruleKey": "RollOption"
+          }
+        ]
+      }
     },
     "One-Two Punch": {
       "name": "组合拳 One-Two Punch",
@@ -172,6 +200,58 @@
     "Armored Crystal Plates": {
       "name": "水晶甲片 Armored Crystal Plates",
       "description": "<p>如同剑龙一样，一列防御甲片沿着你的背部排列，保护你免受刁钻攻击。当你@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}时，你的AC只承受–1环境减值，而非通常的–2。</p>"
+    },
+    "Uplift Chirp": {
+      "name": "扬升啁啾 Uplift Chirp",
+      "description": "<p>你的气元素威能能够送出上升气流，托举盟友升空。每当你使用气元素威能时，你可以让残余气流环绕30尺内的一名盟友。该盟友的速度获得+5尺环境加值，持续至其下个回合结束；在此期间，其[[/act high-jump]]的距离可以等于其[[/act long-jump]]的距离。若你的威能DC熟练度为大师，该环境加值提高至+10尺；若为传奇，则提高至+15尺。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.8OeyP0ot5PqwTsOi]{效果：扬升啁啾}</p>"
+    },
+    "Operatic Screech": {
+      "name": "咏叹尖啸 Operatic Screech",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你能以歌声引导气元素能量波，对30尺内的一个生物的强韧DC进行@Check[performance|against:fortitude]检定。若成功，该生物受到等于你等级的@Damage[@actor.level[slashing]]{挥砍伤害}。若大成功，你造成双倍伤害，且该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续至你的下个回合开始。</p>"
+    },
+    "Buffet": {
+      "name": "风击 Buffet",
+      "description": "<p>风充盈你的身体，在四肢间回旋。你可以借这些风增强无武装攻击，让所有无武装攻击都能钝击敌人；这些攻击获得多用（钝击）特征，已反映在你的数据中。</p>"
+    },
+    "Electrical Adaptation": {
+      "name": "电击适应 Electrical Adaptation",
+      "description": "<p>尽管大多数气系爱达梦都有电击弱点，但你多次穿越狂暴风雨的飞行经历已帮助你适应其影响。你的电击弱点改为电击抗力（已反映在你的弱点与抗力中）。</p>"
+    },
+    "Aerobatic Maneuvers": {
+      "name": "空中特技 Aerobatic Maneuvers",
+      "description": "<p>你善于在攀爬或跳跃时顺应气流移动。当你使用涉及行走的气元素威能时，你可以改为攀爬。此外，你可以使用特技而非运动进行[[/act long-jump skill=acrobatics]]和[[/act high-jump skill=acrobatics]]检定。</p>"
+    },
+    "Whirlwind Stomp": {
+      "name": "旋风踏击 Whirlwind Stomp",
+      "description": "<p>你的蹄中蕴含着狂风之力。每轮你使用气元素威能进行的近战威能攻击掷骰首次成功时，你可以让目标移动5尺，如同使用[[/act reposition]]；若大成功，则可以让目标移动10尺。目标的体型至多比你大一个类别。</p>"
+    },
+    "Ripples on the Wind": {
+      "name": "风中涟漪 Ripples on the Wind",
+      "description": "<p>观察空气中细微的扰动，你就能判断最近是否有东西从中穿过。你可以尝试进行生存检定，[[/act track]]飞行中的生物，也能追踪地面上的生物。</p>"
+    },
+    "Air Element": {
+      "name": "气元素 Air Element",
+      "description": "<p>气元素代表空气轻快、多变、不断流动的天性。因此，气元素威能往往让使用者在战场上移动，或从远处发动攻击。所有允许行走的气元素威能，也允许具有飞行速度的使用者改为飞行。</p><p><strong>关联伤害类型：</strong> 挥砍</p><p><strong>关联特征：</strong> 气</p><h2>其他能力</h2><p>若你的元素是气，你从元素涌动动作、元素护盾动作，以及效果随元素变化的元素化身专长中获得以下能力与效果。</p><p><strong>元素移行</strong> 使用气元素威能时，即使通常不能飞行，你也能短暂飞行。若气元素威能允许具有飞行速度的使用者飞行，你在坚实表面使用该威能时，也可以飞行至多等于正常陆地速度的距离。若在半空中等无法支撑体重之处结束移动，你会坠落。</p><p><strong>元素操控</strong> 使用元素操控时，你可以小幅控制空气与风，制造或平息微风。这可以像穿着炎热天气服装一样帮助降温，或让你处于下风处，使其他生物更难通过嗅觉发现你（除非强风正朝相反方向吹拂），等等。经GM裁定，你也可以对空气与风作其他小幅调整。</p><p><strong>元素抗力</strong> 风始终是你的盟友。你对抗气效果的豁免获得+1环境加值，且成功时改为大成功。通常构成困难地形的风对你不再是困难地形，通常构成高等困难地形的风对你仅为普通困难地形。若具有强化抗力专长，对抗气效果的环境加值提高至+2，通常构成高等困难地形的风对你完全不构成困难地形，且对抗气效果的豁免大失败时改为失败。</p><p><strong>元素塑形师</strong> 使用元素塑形师专长时，你能以比元素操控更大的幅度移动和控制空气与风。你可以造出足以使区域对飞行者构成困难地形的风，或使经过该区域的物理远程攻击承受–1环境减值，也能削弱类似风速的风。每次塑形影响约一个10尺乘10尺或更小的方格，风通常至多持续1分钟。经GM裁定，你也可以对空气与风的形状或位置作其他类似调整。</p><p><strong>元素感官</strong> 风带来各式气味，赋予你极其敏锐的嗅觉。你获得30尺嗅觉，作为模糊感官。按嗅觉的一般规则，位于上风处时范围通常缩短，位于下风处时范围通常扩大。</p><p><strong>元素护盾</strong> 护盾还使你的反射豁免获得+1环境加值。</p><p><strong>元素涌动</strong> 你行走至多正常陆地速度一半的距离，或飞行至多正常飞行速度一半的距离（若具有飞行速度），或快步。</p><p><strong>强化移行</strong> 顺风助你自由飞行。你始终具有等于陆地速度的飞行速度。</p>"
+    },
+    "Flurrying Wings": {
+      "name": "疾风之翼 Flurrying Wings",
+      "description": "<p>唤起威能会激荡起残余的气元素能量，并继续在你周围流转。当你使用气元素威能时，你会在周身形成一道风之屏障，持续至你的下个回合开始。这道屏障不会妨碍视线，但能够抵挡飞来的投射物。屏障生效期间，用物理远程攻击以你为目标的生物必须通过@Check[flat|dc:7]，否则攻击失手。这不适用于巨型远程武器以及不产生实体物件的法术效果。</p>"
+    },
+    "Dart": {
+      "name": "轻跃闪避 Dart",
+      "description": "<p>你娇小的身体让你更容易向后跳开以避开攻击。当你快步时，你的AC获得+1环境加值，持续至你的下个回合结束。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.NjjCt4CYl0O2ZBCd]{效果：轻跃闪避}</p>"
+    },
+    "Glide": {
+      "name": "滑翔 Glide",
+      "description": "<p>你的肢体之间长出蹼膜，使你能够在空中滑翔。你可以用一个动作向地面滑翔，在空中下降5尺并向前移动至多25尺。只要你每轮花费至少1个动作滑翔且尚未抵达地面，你在回合结束时便能留在空中。</p>"
+    },
+    "Treasuresense": {
+      "name": "宝藏感知 Treasuresense",
+      "description": "<p>你敏锐的寻宝感官让你在寻找贵重物品时，用于[[/act seek options=treasuresense]]的察觉检定获得+2环境加值（贵重物品由GM裁定，通常指价值超过1金币的物品）。每当你使用气元素威能时，你还能感知微风中的魔法，获得环级等于你等级一半（最低为1）的@UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{侦测魔法}效果。</p>"
+    },
+    "Windrider": {
+      "name": "乘风者 Windrider",
+      "description": "<p>驾驭周围的气流，你获得了真正飞行的能力。你获得40尺飞行速度，并在进行@UUID[Compendium.pf2e.actionspf2e.Item.Qf1ylAbdVi1rkc8M]{空中机动}的特技检定上获得+2环境加值。</p>"
     }
   },
   "folders": {
@@ -182,5 +262,12 @@
     "Eldamon Elements": "爱达梦元素 Eldamon Elements",
     "Eldamon Abilities": "爱达梦能力 Eldamon Abilities",
     "Evolution": "进化 Evolution"
+  },
+  "mapping": {
+    "ruleTexts": {
+      "path": "system.rules",
+      "converter": "eldamon-legends-rule-text"
+    },
+    "unidentifiedName": "system.identification.unidentified.name"
   }
 }

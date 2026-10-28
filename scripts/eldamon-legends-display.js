@@ -67,7 +67,7 @@ function allowed() {
     return g?.system?.id === 'pf2e'
       && m?.active === true
       && g.modules.get(EXTRA)?.active === true && g.i18n?.lang === 'cn'
-      && g.settings.get('babele', 'loadingMode') === 'full';
+      && ['full', 'ondemand'].includes(g.settings.get('babele', 'loadingMode'));
   } catch { return false; }
 }
 // Resolve the method that would actually run, without executing a foreign getter.

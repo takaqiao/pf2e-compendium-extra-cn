@@ -14,6 +14,22 @@
         "Coming on July 2027!": "将于2027年7月推出！",
         "Coming on March 2027!": "将于2027年3月推出！",
         "Coming on January 2027!": "将于2027年1月推出！"
+      },
+      "levels": {
+        "defaultLevel0000": {
+          "name": "爱达梦传奇棋子预览 Eldamon Legends Token Preview"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "levels": {
+      "path": "levels",
+      "converter": "structured",
+      "cardinality": "many",
+      "key": "_id",
+      "mapping": {
+        "name": "name"
       }
     }
   }
