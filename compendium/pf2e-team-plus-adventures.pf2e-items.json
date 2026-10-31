@@ -1927,6 +1927,10 @@
         }
       ]
     },
+    "LBZpvpnIAaBK933j": {
+      "name": "负担计数器 Burden Counter",
+      "description": "<p>此效果记录角色因@UUID[Compendium.pf2e-team-plus-adventures.pf2e-journals.JournalEntry.wKHOSd6WYx3q5L0A.JournalEntryPage.e9nykXPZit7kJXIP#never-die]{永不死亡}变体规则而免于死亡的次数。</p><p>这是一个永久效果，会使承受者致死所需的濒死值降低，降低量等于计数器数值。每次角色以这种方式“死亡”，这项减值都会累积。当角色的濒死值上限降至 0 时，他们会直接死亡，或在恢复意识后发誓不再冒险；玩家必须创建一个新角色。</p>"
+    },
     "LN2Qg1siq5AGhzuL": {
       "name": "打破第四面墙 Fourth Wall Break",
       "description": "<p>有时你仿佛能看透现实，直接对操纵现实的力量说话。进行一次对抗自身等级困难DC的@Check[deception|dc:@self.level|adjustment:2]检定，直接向GM陈述你当前的处境。如果检定成功，你可以尝试影响GM，让你的处境变得更有利。通常，这会使你下一次与当前处境有关的检定获得+2状态加值；如果欺骗检定大成功，则为+4状态加值，但也可能包含额外效果（由GM酌情决定）。其他生物能看见并听见你说出这些话，却不知道你在对谁说，通常会不予理会。</p><p>例如，你在同一个冒险日第二次遭遇僵尸时说：“又是僵尸？”这会使你下一次对它们的攻击获得加值，但GM也可能在此效果之外，将僵尸替换为骷髅。又例如，你虽不会说龙语，却在遇到龙语文字时说：“这些年学的龙语总算派上用场了。”以此获得解译文书的加值，但GM也可能直接允许你读懂这些龙语。</p>"
@@ -4693,7 +4697,7 @@
     },
     "p28EeE2pVRPUgOQm": {
       "name": "篡位者 Usurper",
-      "description": "<p>世界是一场精心构筑的游戏，你立志赢下它，必要时也不惜作弊。无论是王国、组织还是神系，你都认为自己应当居于你想征服的体制顶端。有人或许会说你的自信是自负，但你知道，自己所渴求的一切都是天赋的权利。</p><p><strong>法术体系</strong> 神术</p><p><strong>诡计技能</strong> 宗教</p><p><strong>把戏锦囊</strong> 戏法：@UUID[Compendium.pf2e.spells-srd.5gophZ4AOKW4VW27]{相位矢}；1 环：@UUID[Compendium.pf2e.spells-srd.8Uzc9WKqRr755S5d]{天际雷球}；2 环：@UUID[Compendium.pf2e.spells-srd.qCmihBL0G0G5ExPF]{长驻仆役}；3 环：@UUID[Compendium.pf2e.spells-srd.1INVZLR5tMzSPZVZ]{驱退术}；4 环：@UUID[Compendium.pf2e.spells-srd.CVvkveEH7lonSTZd]{傲气凌人}；5 环：@UUID[Compendium.pf2e.feats-srd.AQfNFH7jnjdwi4FQ]{号召旗帜}；6 环：@UUID[Compendium.pf2e.spells-srd.IN46qySRdMdpcd0y]{虚像部署}；7 环：@UUID[Compendium.pf2e.spells-srd.3ZNuJm5LDA8GkFsH]{忤逆神力}；8 环：@UUID[Compendium.pf2e.spells-srd.vm9O7ne48NM72yrJ]{坠天术}；9 环：@UUID[Compendium.pf2e.spells-srd.fkDeKktdmbeplYRY]{神威如岳}</p><p><strong>嘲弄法术</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.ejlCt2APqYcpBAot]{向我跪拜}</p><p><strong>惯用手法</strong> 他们终将在你面前跪下。对抗被击倒而@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地}，或被强制移动的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{受骗}生物时，你的防御等级获得环境加值。该防御等级环境加值等于该生物的受骗状态值，持续至其被击倒或被强制移动效果移动后的 1 轮。@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.5O4L1LwxksEUNTaZ]{效果：篡位者惯用手法}</p>",
+      "description": "<p>世界是一场精心构筑的游戏，你立志赢下它，必要时也不惜作弊。无论是王国、组织还是神系，你都认为自己应当居于你想征服的体制顶端。有人或许会说你的自信是自负，但你知道，自己所渴求的一切都是天赋的权利。</p><p><strong>法术体系</strong> 神术</p><p><strong>诡计技能</strong> 宗教</p><p><strong>把戏锦囊</strong> 戏法：@UUID[Compendium.pf2e.spells-srd.5gophZ4AOKW4VW27]{相位矢}；1 环：@UUID[Compendium.pf2e.spells-srd.8Uzc9WKqRr755S5d]{天际雷球}；2 环：@UUID[Compendium.pf2e.spells-srd.qCmihBL0G0G5ExPF]{长驻仆役}；3 环：@UUID[Compendium.pf2e.spells-srd.1INVZLR5tMzSPZVZ]{驱退术}；4 环：@UUID[Compendium.pf2e.spells-srd.CVvkveEH7lonSTZd]{傲气凌人}；5 环：@UUID[Compendium.pf2e.spells-srd.Hp2wmnRS6TUGZlZ2]{号召旗帜}；6 环：@UUID[Compendium.pf2e.spells-srd.IN46qySRdMdpcd0y]{虚像部署}；7 环：@UUID[Compendium.pf2e.spells-srd.3ZNuJm5LDA8GkFsH]{忤逆神力}；8 环：@UUID[Compendium.pf2e.spells-srd.vm9O7ne48NM72yrJ]{坠天术}；9 环：@UUID[Compendium.pf2e.spells-srd.fkDeKktdmbeplYRY]{神威如岳}</p><p><strong>嘲弄法术</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.ejlCt2APqYcpBAot]{向我跪拜}</p><p><strong>惯用手法</strong> 他们终将在你面前跪下。对抗被击倒而@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地}，或被强制移动的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.XNyElp6jUnKvXkf5]{受骗}生物时，你的防御等级获得环境加值。该防御等级环境加值等于该生物的受骗状态值，持续至其被击倒或被强制移动效果移动后的 1 轮。@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.5O4L1LwxksEUNTaZ]{效果：篡位者惯用手法}</p>",
       "adventuresText": [
         {
           "path": [
