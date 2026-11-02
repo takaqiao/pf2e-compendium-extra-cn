@@ -1,0 +1,227 @@
+{
+  "pf2e-stealthy": {
+    "lesserCover": "次等掩蔽：+1",
+    "standardCover": "标准掩蔽：+2",
+    "greaterCover": "高等掩蔽：+4",
+    "logLevel": {
+      "name": "日志级别",
+      "none": "不记录日志",
+      "debug": "调试级别",
+      "log": "常规日志级别"
+    },
+    "activity": "探索活动：{activity}",
+    "panZoomToCombat": {
+      "name": "平移或缩放至战斗区域",
+      "hint": "战斗开始时，平移或缩小视角，将相对于当前控制指示物处于可见或藏匿状态的参战者纳入画面，同时保留画布上原本可见的全部区域。忽略被 Foundry 隐藏或处于无踪状态的参战者。"
+    },
+    "visionHack": {
+      "name": "视野变通处理",
+      "hint": "带有隐秘效果的指示物会根据其相对于当前控制指示物的藏匿或无踪状态，动态调整可见性。\n注意：这是一种基于原生功能的变通实现，与隐形等效果混用时可能出现异常。"
+    },
+    "requireActivity": {
+      "name": "要求使用“避人耳目”活动",
+      "hint": "玩家角色必须启用“避人耳目”探索活动，才能在战斗开始时潜行。关闭此项后，玩家角色改为需要使用隐秘进行先攻检定。",
+      "error": "{actor}需要使用{action}，才能在战斗开始时获得隐秘效果。"
+    },
+    "showEyeballs": {
+      "name": "启用视野提示",
+      "hint": "在能够察觉当前控制指示物隐秘状态的画布指示物上显示提示。"
+    },
+    "collapseTargetList": {
+      "name": "折叠先攻目标列表",
+      "hint": "将目标列表加入先攻聊天卡时，默认折叠列表。"
+    },
+    "showInitiative": {
+      "name": "在先攻卡上显示隐秘结果",
+      "hint": "战斗开始时，在先攻卡上显示目标列表，以及相对于各观察者的隐秘结果。"
+    },
+    "hideFromAllies": {
+      "name": "队员的隐秘状态影响其他队员",
+      "hint": "启用后，队员的隐秘效果可以影响其他队员。此选项不影响中立或敌对指示物。"
+    },
+    "keepDeadOut": {
+      "name": "阻止死亡的非玩家角色加入战斗",
+      "hint": "启用后，处于死亡状态的非玩家角色不会加入战斗。这在重新开始遭遇时有时会有帮助。"
+    },
+    "vetCombatStart": {
+      "name": "存在隐秘参战者时显示战斗开始对话框",
+      "hint": "启用后，如果开始战斗时有参战者使用隐秘，就会显示对话框，让主持人在 Foundry 执行战斗开始流程前调整各项隐秘设置。"
+    },
+    "notifications": {
+      "noSocketLib": "PF2e Stealthy 需要启用 socketlib 模组才能平移或缩放至战斗区域。请启用该模组。",
+      "target1": "指出位置动作要求恰好选中一个目标指示物。",
+      "noToDos": "PF2e Stealthy 在当前情境下没有适用操作：控制了{controlled}个指示物，选中了{targeted}个目标指示物。",
+      "avoidNotice": "PF2e Stealthy 替代并扩展了 PF2e Avoid Notice 的功能。请禁用 PF2e Avoid Notice。",
+      "keepDeadOut": "死亡或被击败的非玩家角色无法加入战斗。",
+      "unrolled": "必须完成所有先攻检定，才能判定隐秘状态。"
+    },
+    "schema": {
+      "name": "数据结构版本",
+      "hint": "设为较早版本，即可强制将数据从指定版本迁移至当前版本。"
+    },
+    "config": {
+      "initiative": "战斗与先攻界面",
+      "stealth": "隐秘机制",
+      "vision": "视野与察觉界面",
+      "debug": "调试选项"
+    },
+    "menu": {
+      "name": "PF2e Stealthy 弹出菜单",
+      "hint": "PF2e Stealthy 的主界面",
+      "bindings": {
+        "name": "PF2e Stealthy 菜单",
+        "hint": "打开 PF2e Stealthy 菜单"
+      },
+      "nothingToDo": "PF2e Stealthy 对这些指示物没有可用操作。",
+      "noTokensSelected": "未选择指示物",
+      "tokensSelected": "{type}指示物",
+      "tokensConnected": "关联指示物",
+      "type": {
+        "targeted": "指定为目标的",
+        "controlled": "当前控制的"
+      },
+      "cancel": "取消",
+      "refresh": {
+        "label": "刷新所有客户端视野",
+        "hint": "刷新所有客户端的视野，解决可见性问题。"
+      },
+      "clearAllStealth": {
+        "label": "移除全部隐秘效果",
+        "hint": "移除画布上所有指示物的隐秘效果。"
+      },
+      "prepareAmbush": {
+        "label": "准备伏击",
+        "hint": "将所有{type}非玩家角色指示物设为隐藏，并改用隐秘进行先攻检定。"
+      },
+      "clearAmbush": {
+        "label": "取消伏击",
+        "hint": "将所有{type}非玩家角色指示物取消隐藏，并改用察觉进行先攻检定。"
+      },
+      "editStealth": {
+        "label": "编辑隐秘效果"
+      },
+      "removeStealth": {
+        "label": "移除隐秘效果"
+      },
+      "editControlledStealth": {
+        "label": "编辑控制指示物的隐秘效果",
+        "hint": "编辑当前控制指示物的隐秘效果。"
+      },
+      "removeControlledStealth": {
+        "label": "移除控制指示物的隐秘效果",
+        "hint": "移除当前控制指示物的隐秘效果。"
+      },
+      "editTargetedStealth": {
+        "label": "编辑目标指示物的隐秘效果",
+        "hint": "编辑目标指示物的隐秘效果。"
+      },
+      "removeTargetedStealth": {
+        "label": "移除目标指示物的隐秘效果",
+        "hint": "移除目标指示物的隐秘效果。"
+      },
+      "undoReveals": {
+        "label": "撤销隐秘状态暴露",
+        "hint": "撤销{type}指示物的所有隐秘状态暴露。"
+      },
+      "avoidanceCheck": {
+        "label": "进行避人耳目检定",
+        "hint": "为所有正在潜行的{type}指示物进行隐秘对抗察觉的检定。"
+      },
+      "revealControlledToTargeted": {
+        "label": "向目标指示物显露控制指示物",
+        "hint": "使当前控制指示物对目标指示物可见。"
+      },
+      "revealControlledAsHiddenToTargeted": {
+        "label": "使控制指示物对目标指示物变为藏匿",
+        "hint": "使当前控制指示物对目标指示物以藏匿状态显露。"
+      },
+      "revealTargetedToControlled": {
+        "label": "向控制指示物显露目标指示物",
+        "hint": "使目标指示物对当前控制指示物可见。"
+      },
+      "revealTargetedAsHiddenToControlled": {
+        "label": "使目标指示物对控制指示物变为藏匿",
+        "hint": "使目标指示物对当前控制指示物以藏匿状态显露。"
+      },
+      "undoControlledRevealsToTargeted": {
+        "label": "撤销控制指示物向目标指示物的暴露",
+        "hint": "撤销当前控制指示物向目标指示物的所有暴露。"
+      },
+      "undoTargetedRevealsToControlled": {
+        "label": "撤销目标指示物状态的暴露",
+        "hint": "撤销目标指示物向当前控制指示物的所有暴露。"
+      },
+      "declump": {
+        "label": "拉开先攻数值间距",
+        "disabledLabel": "拉开先攻数值间距（需要已开始战斗）",
+        "hint": "保留先攻顺序，同时拉开所有先攻数值的间距。"
+      },
+      "endOfList": "列表末尾，方便维护逗号"
+    },
+    "effects": {
+      "stealthy": {
+        "name": "隐秘 Stealthy",
+        "description": "根据相对于各观察者指示物的情况，施加藏匿或无踪状态的隐秘效果。"
+      },
+      "apply": "应用更改",
+      "noChange": "不更改"
+    },
+    "initiative": {
+      "vs": "对{name}"
+    },
+    "avoidanceCheck": {
+      "title": "避人耳目检定",
+      "secretTitle": "秘密避人耳目检定",
+      "checkLabel": "检定结果：",
+      "observed": "可见：{count}",
+      "hidden": "藏匿：{count}",
+      "undetected": "无踪：{count}",
+      "createEncounter": "全部加入战斗",
+      "createEncounterTooltip": "由于现有缺陷，不会加入未处于隐秘状态的玩家角色。",
+      "missingActors": "点击{createEncounter}按钮前，请先使用“{clownCar}”将以下角色放到画布上：",
+      "observedEnemies": "可被察觉的敌人",
+      "observedFriendlies": "可被察觉的队员"
+    },
+    "hide": {
+      "retain": "成功时保持无踪状态"
+    },
+    "sneak": {
+      "observed": "先决条件：处于藏匿或无踪状态",
+      "sneakAdept": "精巧潜行"
+    },
+    "seek": {
+      "was": "原为{stealth}"
+    },
+    "pointOut": {
+      "subject": "指出{name}的位置",
+      "to": "向{name}",
+      "hiddens": "对{count}个对象处于藏匿状态",
+      "notStealthy": "目标未处于隐秘状态",
+      "undetected": "目标对行动指示物处于无踪状态",
+      "noAllies": "没有盟友需要获知目标的位置"
+    },
+    "edit": {
+      "subject": "编辑{name}的隐秘状态"
+    },
+    "endStealth": {
+      "beforeLabel": "行动前结束隐秘状态",
+      "afterLabel": "行动后结束隐秘状态",
+      "hiddenInstead": "或降为藏匿",
+      "hiddenTooltip": "将无踪降为藏匿，而非完全移除隐秘状态。"
+    },
+    "badge": {
+      "observed": "可见",
+      "hidden": "藏匿",
+      "undetected": "无踪"
+    },
+    "startCombat": {
+      "title": "核对隐秘参战者",
+      "cancel": "取消开始战斗",
+      "confirm": "确认开始战斗",
+      "cancelled": "已取消开始战斗",
+      "stealthLabel": "先攻／隐秘检定：",
+      "ineligible": "不符合条件的玩家角色",
+      "ineligibleBecause": "这些玩家角色必须使用“避人耳目”活动，才能获得隐秘状态。"
+    }
+  }
+}

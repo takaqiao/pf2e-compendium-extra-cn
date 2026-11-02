@@ -1,3 +1,5 @@
+import './scripts/stealthy-i18n.mjs';
+
 /**
  * Inject external module i18n strings into game.i18n.translations.
  *
