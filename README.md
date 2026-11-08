@@ -16,6 +16,12 @@
 - Hero Action Deck：52 张英雄行动牌、52 张中文卡面、29 条界面文字
 - Adventures+：宿主、诡术师、旅行、首领、生物图鉴与房规
 
+## PF2e 8.7.0 与 Adventures+ 1.1.2 兼容（v1.0.75）
+
+PF2e 8.7.0 下「创建爱达梦」完成后的聊天提示、Adventures+ 1.1.2 下「X needs N Endurance and not to be fatigued to …」通知重新显示中文。两处原先按上游方法的源码哈希放行，上游每次构建都会改压缩短名，哈希随之失配、显示退回英文。现在改按源码形状比较（`scripts/source-shape.mjs`）：只差压缩短名的构建照常放行，属性名、文字、运算或变量对应关系变了仍不放行，退回上游原文。Adventures+ 的 17 条通知全部改用这种比较。已核对的上游构建：PF2e 8.5.0、8.5.1、8.6.0、8.6.1、8.7.0，Adventures+ 1.0.0、1.0.1、1.0.2、1.1.2。
+
+回归测试：`node --test tests/source-shape.test.mjs tests/adventures-chat.test.mjs tests/core-version-labels.test.mjs`。
+
 ## Stealthy 汉化（v1.0.74）
 
 加入 Stealthy 1.2.0 的设置、指示物菜单、战斗开始对话框、聊天操作与隐秘效果译文。语言文件由 Foundry 原生加载器在注册设置前加载，更新 Extra 后需刷新客户端。

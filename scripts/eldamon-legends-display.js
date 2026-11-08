@@ -2,6 +2,8 @@
  * Startup ESM; no persistent settings/chat/Actor writes and no global API wrappers.
  * HC11 intentionally also matches approved Basic/manual complete same-text messages.
  */
+import {normalizeSourceShape} from './source-shape.mjs';
+
 const MODULE = 'battlezoo-eldamon-legends-pf2e';
 const EXTRA = 'pf2e-compendium-extra-cn';
 const EN_SUFFIX = " created. Remember to equip the eldamon's Innate Defenses armor item from their inventory tab.";
@@ -13,13 +15,15 @@ const SOURCE = Object.freeze({
   dialogData: '77c206910ca1590b6ea2008a287a2594035f1e488241dcd032009d88d16cc34e',
   dialogListeners: 'fa47bd14a64e2ec276d5aa29c1f51aab77d6480bd2edf5f9c54ef357ed04fb24',
   dialogSubmit: '96ec7ce57b3b42a3ac483ac87156d5be930d237bd254d2a7705ab81fa350f08b',
-  chatNative: '5899ae055bb4ac54d44a232edc49a58bf90101afb1dfaddefb51cb539af06847',
-  // Official builds rename internal bindings; match the method independently of its version label.
+  chatNative: '5899ae055bb4ac54d44a232edc49a58bf90101afb1dfaddefb51cb539af06847'
+});
+// ChatMessagePF2e#renderHTML. Every PF2e build renames its minified bindings, so the method
+// is compared by shape (see source-shape.mjs) and only a change in its logic stops the
+// chat display. The two reviewed shapes were first seen in 8.5.0 and in 8.6.0.
+const SHAPE = Object.freeze({
   chatPF2: Object.freeze([
-    '298b1fbb292fda6bce3450708cda6816e3ae1ee6a86b477ce1e9af9d707374ae',
-    '2002b840988a5456d11b20cbd235a2d067d046678af3e1781090c2990849338c',
-    '8a7d64e3a8c487efbf6f0ac3ff670af5f9d4719f2e86e18ffcdf9fe0c3075c94',
-    'c6186757b90ffd1d5d50a414080c6719585a12b7df1e8ad32cc4ba2150199497'
+    '34b45a6c2ea0a016d6d0c409070053821cb6326d80104f01f451a041b778730d',
+    '3c18d026be48e70836c802f8438a3c3dc8168786f1f91183fa03ab89782c04fe'
   ])
 });
 
@@ -49,12 +53,23 @@ function sha256(text) {
   }
   return h.map(v=>v.toString(16).padStart(8,'0')).join('');
 }
-const hashes = new WeakMap();
+const hashes = new WeakMap(), shapes = new WeakMap();
 const functionText = Function.prototype.toString;
+const sourceText = fn => functionText.call(fn).replace(/\r\n?/g, '\n');
 function exact(fn, key) {
   if (typeof fn !== 'function') return false;
-  if (!hashes.has(fn)) hashes.set(fn, sha256(functionText.call(fn).replace(/\r\n?/g, '\n')));
-  return key === 'chatPF2' ? SOURCE.chatPF2.includes(hashes.get(fn)) : hashes.get(fn) === SOURCE[key];
+  if (!hashes.has(fn)) hashes.set(fn, sha256(sourceText(fn)));
+  return hashes.get(fn) === SOURCE[key];
+}
+function shaped(fn, key) {
+  if (typeof fn !== 'function') return false;
+  if (!shapes.has(fn)) {
+    let shape = null;
+    try { shape = sha256(normalizeSourceShape(sourceText(fn))); }
+    catch (error) { if (error.message !== 'source-shape-unsupported') throw error; }
+    shapes.set(fn, shape);
+  }
+  return SHAPE[key].includes(shapes.get(fn));
 }
 function ownValue(object, key) {
   if (!object) return undefined;
@@ -200,7 +215,7 @@ function chatDisplay(message, root) {
   if (!allowed() || !message?.visible || !message.isContentVisible || message.blind || message.isRoll
     || !Array.isArray(message.rolls) || message.rolls.length || typeof message.system?.renderHTML === 'function') return;
   const C=globalThis.CONFIG?.ChatMessage?.documentClass;
-  if (!C || Object.getPrototypeOf(message) !== C.prototype || !exact(C.prototype.renderHTML,'chatPF2')
+  if (!C || Object.getPrototypeOf(message) !== C.prototype || !shaped(C.prototype.renderHTML,'chatPF2')
     || !exact(Object.getPrototypeOf(C.prototype)?.renderHTML,'chatNative')
     || CONFIG.ChatMessage.template !== 'templates/sidebar/chat-message.hbs') return;
   if (!(root instanceof HTMLElement) || !root.matches('li.chat-message.message') || root.dataset.messageId !== message.id) return;

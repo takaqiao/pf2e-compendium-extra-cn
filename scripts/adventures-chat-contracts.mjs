@@ -1,105 +1,108 @@
 // Notification call contracts for Adventures+; the module version is not an activation gate.
+// `shape` is the SHA-256 of the reviewed call's normalized shape (notificationCallShape),
+// so builds that only rename minified names keep matching. `producer` is the enclosing
+// function's name in the reviewed build and is not checked.
 export default [
   {
     "id": 2,
     "method": "warn",
     "producer": "b",
-    "sha256": "4e977dd4cd3c5f6544bea09589520a69ce47db909baf7046db419a9b84ba9e3c"
+    "shape": "66be57e603e77e12c9a24ba66aa894937e6c4f88af4006666211d8c49eb9b408"
   },
   {
     "id": 10,
     "method": "info",
     "producer": "hook",
-    "sha256": "d166ac661973b55c5ccde0caf00bed3d1c8034f4d6f1cdf2cf47e8607abcab62"
+    "shape": "607b7f08986c4e407d3f5310029fd9da8eaaa678fcff06d3257623620a87edc3"
   },
   {
     "id": 81,
     "method": "warn",
     "producer": "swap",
-    "sha256": "2f2aa9fba81f0ab7a275b6be9c4c3f2d0c284d2078c8b0b1fe153b54b2b5804f"
+    "shape": "b9f52b01c931c68888c74572c2f4ee7b3b8cf628aea3a93bb8f64c61814eb759"
   },
   {
     "id": 82,
     "method": "warn",
     "producer": "swap",
-    "sha256": "777d25761968e1eb617b280f6772cc53c1652544455699bc1fea14de6bcd6d25"
+    "shape": "e008cba694a05a488b6662cc8433ebc523524b967896b141142087daf63e9ef3"
   },
   {
     "id": 107,
     "method": "info",
     "producer": "hook",
-    "sha256": "460d2db1bb1775c3f55bcef9e8dda6a9ee5c5f9c0eeec3906629abc48cc32588"
+    "shape": "4173482594d01aa978fc40188d1deab38c2df5a553b96df24f4028124517968e"
   },
   {
     "id": 108,
     "method": "info",
     "producer": "hook",
-    "sha256": "ef34f6194ddd546bc4324b7614035ccea8110634ea1b89021bf4515cad1cf216"
+    "shape": "ad24b22a7111e5bae691be6617eef8acb34a230c55b17410bc1b13bebc3a567b"
   },
   {
     "id": 130,
     "method": "warn",
     "producer": "ol",
-    "sha256": "699a3e5ab6d98f0c60647c51c1a6a8763cb295c6139125349a21c854a4fe6360"
+    "shape": "77f1e4cedcd34875dd65e85b0d4e6ba106848d878f2c33820a42d45de00da09c"
   },
   {
     "id": 224,
     "method": "warn",
     "producer": "Hl",
-    "sha256": "d88289e83c942e7ac697c1b410256b9ccb78d2048e51f9da0c97cf88423de935"
+    "shape": "95db05232b871c5fef7605efd47d2a1c5f0cc98c1d366282a4cd677255459287"
   },
   {
     "id": 225,
     "method": "warn",
     "producer": "Hl",
-    "sha256": "09ff6990310c3b75a24099d395a2a47a1b72397db62137ceef977ab1f836de7c"
+    "shape": "78762e0227a75ea9bc181bcb105b795918fd41d45ecea503419a725d236fd875"
   },
   {
     "id": 229,
     "method": "warn",
     "producer": "Wl",
-    "sha256": "bd8639ab76a9d2badee837d0a431f284ec6645ec8f3919f20ebb49ce97ddf25d"
+    "shape": "827e9322a3f1ea9bd7027dad58ed48000295ebf22f8ff942411a5068222e7fea"
   },
   {
     "id": 241,
     "method": "warn",
     "producer": "Gl",
-    "sha256": "6c4e700544db03767db055a1c3de812c4fa8ade670cb571630726547f22272a3"
+    "shape": "69e913d6584812254f513bb700f660514f5e0372225b309eed9a611c46fd43a4"
   },
   {
     "id": 242,
     "method": "warn",
     "producer": "Gl",
-    "sha256": "7c2659928952d4f5afb06215ac4670fae180d3ed52e3fab5b354946cac82a44f"
+    "shape": "a18814eb1f350b1ba501733e70024a618ff93c7cf858b629ae5d8cffab4c13da"
   },
   {
     "id": 258,
     "method": "warn",
     "producer": "Jl",
-    "sha256": "a2dd56f6d66a95b8a5c01396135294dfc0c87ddd3a99d32a9040641576a1d9e9"
+    "shape": "b25f28a6f68303e01cf06dcd4b4f80f5b95852648eaabe70cfde90f476e308ad"
   },
   {
     "id": 260,
     "method": "warn",
     "producer": "ou",
-    "sha256": "d19cfafa9f39bc217ce2761bf418a45791af9043b763a3c5e62f39e8ce24b990"
+    "shape": "d4b2555fc7f7a2bdbd8da5c870f84db2a26681ba26b85c21258769ca0200e683"
   },
   {
     "id": 349,
     "method": "info",
     "producer": "gT",
-    "sha256": "68e6cbc16050243744650c675f87ebaa61b0441f23f9c6e8cbca0f3f0169a2ce"
+    "shape": "442137b878f8be83aa3c1253692328ef0576a0cb913ecb4305018722c252ef01"
   },
   {
     "id": 350,
     "method": "info",
     "producer": "gT",
-    "sha256": "dadc2d558abbaaa6af11bad043e4f7b56f8072e2c5ba9ce716a58fc5dcd654d9"
+    "shape": "02c41784bcd4456f663d8708058a0a3332a3682eb6380b546ecceee86ac0ac83"
   },
   {
     "id": 351,
     "method": "error",
     "producer": "gT",
-    "sha256": "a8a0b15d4a4b2866eca1a0783229a179b6a0960042811a3c6ccc86caf69ff0f8"
+    "shape": "cd8059cbc9ed90f1a98f317913daa0ff7b6cc7886f8e45888817633731e2fe6e"
   }
 ];

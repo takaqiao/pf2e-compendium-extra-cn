@@ -1,5 +1,6 @@
 import {patchFragment, replaceText, sha256} from './team-plus-presentation-core.mjs';
 import {adventuresEnabled} from './adventures-runtime-gate.mjs';
+import {normalizeSourceShape} from './source-shape.mjs';
 
 const MODULE = 'pf2e-team-plus-adventures';
 const SOURCE_PATH = `modules/${MODULE}/dist/${MODULE}.js`;
@@ -66,6 +67,18 @@ export function sourceCallAt(stack, calls, method) {
   return calls.find(call => call.method === method && call.line === line && column >= call.startColumn && column <= call.endColumn) ?? null;
 }
 
+// Each Adventures+ build renames its minified locals, so a call is identified by its
+// shape: the same text up to a consistent renaming of short names. A changed message,
+// property or expression still yields a different shape.
+export function notificationCallShape(text) {
+  try {
+    return sha256(normalizeSourceShape(text, {fixed: ['ui']}));
+  } catch (error) {
+    if (error.message !== 'source-shape-unsupported') throw error;
+    return null;
+  }
+}
+
 export function notificationCallsites(source, contracts) {
   const calls = [];
   for (const method of ['info', 'warn', 'error']) {
@@ -73,7 +86,8 @@ export function notificationCallsites(source, contracts) {
     let from = 0, start;
     while ((start = source.indexOf(prefix, from)) >= 0) {
       const end = expressionEnd(source, start + prefix.length, ')') + 1;
-      const contract = contracts.find(row => row.method === method && row.sha256 === sha256(source.slice(start, end)));
+      const shape = notificationCallShape(source.slice(start, end));
+      const contract = shape && contracts.find(row => row.method === method && row.shape === shape);
       if (contract) {
         const lineStart = source.lastIndexOf('\n', start) + 1;
         const line = source.slice(0, start).split('\n').length;

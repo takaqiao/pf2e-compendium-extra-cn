@@ -1,8 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import {createAdventuresChat, notificationCallsites, sourceCallAt} from '../scripts/adventures-chat.mjs';
+import {createAdventuresChat, notificationCallShape, notificationCallsites, sourceCallAt} from '../scripts/adventures-chat.mjs';
 import translations from '../scripts/adventures-presentation-data.mjs';
-import {sha256} from '../scripts/team-plus-presentation-core.mjs';
 
 const moduleId = 'pf2e-team-plus-adventures';
 const page = {type: `${moduleId}.path`, name: 'The party', visible: true};
@@ -138,13 +137,30 @@ test('event rolls require a visible source path and preserve roll data', () => {
 
 test('source contracts survive unrelated changes and reject changed notification code', () => {
   const call = 'ui.notifications.warn(`A ${actor.name} message.`)';
-  const contracts = [{id: 225, method: 'warn', sha256: sha256(call)}];
+  const contracts = [{id: 225, method: 'warn', shape: notificationCallShape(call)}];
   const source = `const before = 42;\nfunction warn() { ${call}; }`;
   const calls = notificationCallsites(source, contracts);
   assert.equal(calls.length, 1);
   assert.equal(notificationCallsites(`// new unrelated line\n${source}`, contracts)[0].line, 3);
   assert.equal(notificationCallsites(source.replace(' message.', ' changed.'), contracts).length, 0);
   assert.equal(notificationCallsites(source.replace('warn(`', 'info(`'), contracts).length, 0);
+});
+
+test('source contracts follow minifier renames but not changed expressions', () => {
+  const call = 'ui.notifications.warn(`${i.actor.name} needs ${a} Endurance to ${Al[n].label}.`)';
+  const contracts = [{id: 258, method: 'warn', shape: notificationCallShape(call)}];
+  const site = text => notificationCallsites(`function f(){${text}}`, contracts).map(row => row.id);
+  assert.deepEqual(site(call), [258]);
+  assert.deepEqual(site(call.replace('Al[n]', 'Hl[n]')), [258]);
+  assert.deepEqual(site(call.replace('${i.actor', '${r.actor').replace('${a}', '${q}')), [258]);
+  for (const changed of [
+    call.replace('.label', '.name'),
+    call.replace('Al[n]', 'Al[a]'),
+    call.replace('${a}', '${i}'),
+    call.replace('Endurance', 'Stamina'),
+  ]) assert.deepEqual(site(changed), [], changed);
+  // `ui` is the Foundry global, never a minified local.
+  assert.notEqual(notificationCallShape(call.replace('ui.', 'xy.')), contracts[0].shape);
 });
 
 test('ambiguous, invisible, altered and hidden message sources are left unchanged', () => {

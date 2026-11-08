@@ -24,7 +24,7 @@ Hooks.once('init', () => {
     adapter.diagnostics.sourceSHA256 = sha256(source);
     const calls = notificationCallsites(source, contracts);
     adapter.diagnostics.sourceCalls = calls.length;
-    adapter.diagnostics.unmatchedCalls = contracts.filter(contract => !calls.some(call => call.sha256 === contract.sha256)).map(contract => contract.id);
+    adapter.diagnostics.unmatchedCalls = contracts.filter(contract => !calls.some(call => call.id === contract.id)).map(contract => contract.id);
     adapter.installNotifications(ui.notifications, (method, stack) => sourceCallAt(stack, calls, method));
     for (const root of document.querySelectorAll('li.message[data-message-id]')) {
       const message = game.messages?.get(root.dataset.messageId);

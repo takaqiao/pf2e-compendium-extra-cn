@@ -2,10 +2,13 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import test from 'node:test';
 import vm from 'node:vm';
+import {normalizeSourceShape} from '../scripts/source-shape.mjs';
 
 const LEGENDS = 'battlezoo-eldamon-legends-pf2e';
 const EXTRA = 'pf2e-compendium-extra-cn';
-const script = readFileSync(new URL('../scripts/eldamon-legends-display.js', import.meta.url), 'utf8');
+// Evaluated as a classic script; its import is supplied in the context below.
+const script = readFileSync(new URL('../scripts/eldamon-legends-display.js', import.meta.url), 'utf8')
+  .replace(/^import[^\r\n]+;\r?\n/gm, '');
 
 function settingsFixture(mode) {
   class BooleanField {}
@@ -19,7 +22,7 @@ function settingsFixture(mode) {
     settings:{get:() => mode, settings:new Map([[field.name, setting]])}
   };
   const hooks = new Map();
-  const context = vm.createContext({game, Boolean, foundry:{data:{fields:{BooleanField}}},
+  const context = vm.createContext({game, Boolean, normalizeSourceShape, foundry:{data:{fields:{BooleanField}}},
     Hooks:{on:(event, fn) => hooks.set(event, fn), once:(event, fn) => hooks.set(event, fn)}});
   vm.runInContext(script, context);
   return {game, field, setting,

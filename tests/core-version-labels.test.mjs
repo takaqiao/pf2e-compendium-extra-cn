@@ -4,6 +4,7 @@ import {readFileSync} from 'node:fs';
 import test from 'node:test';
 import vm from 'node:vm';
 import {AV_CORE_851_DESCRIPTIONS} from '../scripts/av-core-851-description-data.mjs';
+import {normalizeSourceShape} from '../scripts/source-shape.mjs';
 
 globalThis.Hooks={on(){}};
 const {applyAvCore851Descriptions,installAvCore851DescriptionSourceGuard}=await import('../scripts/av-core-851-descriptions.mjs');
@@ -22,9 +23,11 @@ function fixture({version='15.100',generation=15}={}){
 }
 function loadContext(name,game,globals={}){
   const hooks=new Map();
-  const context=vm.createContext({game,Boolean,...globals,Hooks:{
+  const context=vm.createContext({game,Boolean,normalizeSourceShape,...globals,Hooks:{
     on:(event,callback)=>hooks.set(event,callback),once:(event,callback)=>hooks.set(event,callback)}});
-  vm.runInContext(readFileSync(new URL(`../scripts/${name}`,import.meta.url),'utf8'),context);
+  // Evaluated as a classic script so its declarations stay inspectable; its import is supplied above.
+  vm.runInContext(readFileSync(new URL(`../scripts/${name}`,import.meta.url),'utf8')
+    .replace(/^import[^\r\n]+;\r?\n/gm,''),context);
   return {hooks,context};
 }
 const loadScript=(name,game,globals)=>loadContext(name,game,globals).hooks;
@@ -158,12 +161,12 @@ test('Eldamon settings display rejects changed field contracts and dependencies'
   }
 });
 
-// Released pf2e.mjs builds are not kept in this repository; each variable names a saved copy.
+// Released pf2e.mjs builds are not kept in this repository; each variable names a saved copy,
+// identified by its file hash so the test cannot silently read a different build.
 const pf2eBuilds=[
-  {version:'8.6.0',env:'PF2E_860_BUNDLE',bundle:'d908c2fa1741d692b00b44e6dacba0bf7e8724d05898d555f9b640b2581d34b4',
-    renderer:'8a7d64e3a8c487efbf6f0ac3ff670af5f9d4719f2e86e18ffcdf9fe0c3075c94'},
-  {version:'8.6.1',env:'PF2E_861_BUNDLE',bundle:'a48f919b8b9a791868ff3eb4eb560b210855932847e8c861ee914e16e3448ed3',
-    renderer:'c6186757b90ffd1d5d50a414080c6719585a12b7df1e8ad32cc4ba2150199497'}];
+  {version:'8.6.0',env:'PF2E_860_BUNDLE',bundle:'d908c2fa1741d692b00b44e6dacba0bf7e8724d05898d555f9b640b2581d34b4'},
+  {version:'8.6.1',env:'PF2E_861_BUNDLE',bundle:'a48f919b8b9a791868ff3eb4eb560b210855932847e8c861ee914e16e3448ed3'},
+  {version:'8.7.0',env:'PF2E_870_BUNDLE',bundle:'c9a2f176c388b211ef62c4d39fa5061a3525feebad8ca7cf50a82d2e6e0c1da3'}];
 const sourceOf=fn=>Function.prototype.toString.call(fn);
 // ChatMessagePF2e#renderHTML as the engine reports it. The method calls private members, so the
 // shortest slice that compiles also holds the members declared after it.
@@ -180,24 +183,30 @@ function chatRenderer(bundle,edit=source=>source){
 }
 const legendsContract=()=>loadContext('eldamon-legends-display.js',fixture(),{TextEncoder}).context;
 
-for(const {version,env,bundle,renderer} of pf2eBuilds){
+for(const {version,env,bundle} of pf2eBuilds){
   const path=process.env[env];
-  test(`Eldamon chat display recognises the PF2e ${version} chat renderer by its source`,{skip:path?false:`${env} is not set`},()=>{
+  test(`Eldamon chat display recognises the PF2e ${version} chat renderer by its shape`,{skip:path?false:`${env} is not set`},()=>{
     const bytes=readFileSync(path);
     assert.equal(createHash('sha256').update(bytes).digest('hex'),bundle);
-    const text=bytes.toString('utf8'),{sha256,exact}=legendsContract(),renderHTML=chatRenderer(text);
+    const text=bytes.toString('utf8'),{shaped}=legendsContract(),renderHTML=chatRenderer(text);
     assert.ok(text.includes(sourceOf(renderHTML)));
-    assert.equal(sha256(sourceOf(renderHTML)),renderer);
-    assert.equal(exact(renderHTML,'chatPF2'),true);
-    const changed=chatRenderer(text,source=>source.replace('processVisibility: !1','processVisibility: !0'));
-    assert.notEqual(sourceOf(changed),sourceOf(renderHTML));
-    assert.equal(exact(changed,'chatPF2'),false);
+    assert.equal(shaped(renderHTML,'chatPF2'),true);
+    // A minifier rename alone keeps the display; a changed literal or member stops it.
+    const renamed=chatRenderer(text,source=>source.replace(/\b[A-Za-z_$][\w$]{0,2}\.enrichHTML\(this\.flavor/,'Q9.enrichHTML(this.flavor'));
+    assert.notEqual(sourceOf(renamed),sourceOf(renderHTML));
+    assert.equal(shaped(renamed,'chatPF2'),true);
+    for(const edit of [source=>source.replace('processVisibility: !1','processVisibility: !0'),
+      source=>source.replace('this.isContentVisible','this.visible')]){
+      const changed=chatRenderer(text,edit);
+      assert.notEqual(sourceOf(changed),sourceOf(renderHTML));
+      assert.equal(shaped(changed,'chatPF2'),false);
+    }
   });
 }
 
 test('Eldamon chat display rejects a chat renderer whose source was not reviewed',()=>{
-  const {exact}=legendsContract();
+  const {shaped}=legendsContract();
   const renderHTML=class extends Object {async renderHTML(e){return e;}}.prototype.renderHTML;
-  assert.equal(exact(renderHTML,'chatPF2'),false);
-  assert.equal(exact(undefined,'chatPF2'),false);
+  assert.equal(shaped(renderHTML,'chatPF2'),false);
+  assert.equal(shaped(undefined,'chatPF2'),false);
 });
