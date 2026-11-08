@@ -1,11 +1,16 @@
 /** PF2e 8.5.1 display projections. No RuleElement/source/slug/predicate writes. */
+import {hasLibWrapperApi,managedMethod,subscribeManagedMethod} from './bob-native-lane.mjs';
 const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
 function descriptor(object,key){for(let p=object;p;p=Object.getPrototypeOf(p)){const d=Object.getOwnPropertyDescriptor(p,key);if(d)return d;}return null;}
-export function installBobRuleDisplayConsumers({classes,identity,isEnabled,getLocale,localize}) {
+export function installBobRuleDisplayConsumers({classes,identity,isEnabled,getLocale,localize,libWrapper=globalThis.libWrapper}) {
   if(!identity?.resolveRule||![isEnabled,getLocale,localize].every(f=>typeof f==='function'))throw Error('Explicit identity and gates required');
   const specs=[['FlatModifier','beforePrepareData'],['Immunity','getIWR'],['Strike','beforePrepareData'],['SpecialStatistic','afterPrepareData'],['ItemAlteration','applyAlteration'],['Weapon','toNPCAttacks'],['Item','getDescription']];
   if(classes.NPC)specs.push(['NPC','prepareDerivedData']);
-  const plans=specs.map(([kind,key])=>{const proto=classes[kind]?.prototype,d=proto&&descriptor(proto,key);if(!d||typeof d.value!=='function'||Object.getOwnPropertyDescriptor(proto,key)?.configurable===false)throw Error(`Native consumer unavailable: ${kind}.${key}`);return {kind,key,proto,d,own:Object.getOwnPropertyDescriptor(proto,key)};});
+  // A target another module wrapped with libWrapper is joined through the shared lane.
+  // Item.getDescription substitutes its receiver, which libWrapper cannot pass on.
+  const plans=specs.map(([kind,key])=>{const proto=classes[kind]?.prototype;
+    if(kind!=='Item'&&managedMethod(proto,key)){if(!hasLibWrapperApi(libWrapper))throw Error(`libWrapper unavailable for managed ${kind}.${key}`);return {kind,key,proto,lane:true};}
+    const d=proto&&descriptor(proto,key);if(!d||typeof d.value!=='function'||Object.getOwnPropertyDescriptor(proto,key)?.configurable===false)throw Error(`Native consumer unavailable: ${kind}.${key}`);return {kind,key,proto,d,own:Object.getOwnPropertyDescriptor(proto,key)};});
   if(typeof classes.Item.prototype.getDescriptionData!=='function')throw Error('Native description data unavailable');
   let active=true;const undo=[],projected=new WeakMap,generated=new WeakMap,addenda=new WeakMap,preparingActors=new WeakSet;
   const enabled=()=>active&&isEnabled()&&['cn','zh-CN','zh-Hans'].includes(getLocale());
@@ -61,6 +66,9 @@ export function installBobRuleDisplayConsumers({classes,identity,isEnabled,getLo
       return Promise.resolve(render(enabled())).then(value=>{if(seen.length&&(!enabled()||getLocale()!==locale||seen.some(t=>!live(t.rule,t.origin))))return render(false);return value;});
     };}
   };
-  try{for(const plan of plans){const value=wrappers[plan.kind](plan.d.value);put(plan.proto,plan.key,{...plan.d,value});}}catch(error){active=false;for(const restore of undo.reverse())restore();throw error;}
+  // Every factory keeps its state in this install scope, so a lane builds one per call around that call's next.
+  try{for(const plan of plans){const factory=wrappers[plan.kind];
+    if(plan.lane){undo.push(subscribeManagedMethod(plan.proto,plan.key,function(next,...args){return Reflect.apply(factory(next),this,args);},{libWrapper}));continue;}
+    put(plan.proto,plan.key,{...plan.d,value:factory(plan.d.value)});}}catch(error){active=false;for(const restore of undo.reverse())restore();throw error;}
   return {dispose(){active=false;for(const restore of undo.reverse())restore();},get active(){return active;}};
 }

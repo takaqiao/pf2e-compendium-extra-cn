@@ -1,3 +1,5 @@
+import {hasLibWrapperApi, managedMethod, subscribeManagedMethod} from './bob-native-lane.mjs';
+
 const nil = v => v ?? null;
 const packOK = value => !value || value.startsWith('pf2e-bastion-of-blasphemies.');
 const stable = v => JSON.stringify(v, (_k, x) => x && typeof x === 'object' && !Array.isArray(x)
@@ -11,7 +13,7 @@ const validTuple = x => x && same(Object.keys(x).sort(), tupleKeys) && typeof x.
 
 /** Project approved text into existing final chat nodes; never alter note or document data. */
 export function installBobNoteDisplay({NoteRuleClass, ItemClass, ActorClass, ChatMessageClass, TextEditorClass,
-  bindings, isEnabled, getUser, getActors = () => [], matchesPreparedName = () => false}) {
+  bindings, isEnabled, getUser, getActors = () => [], matchesPreparedName = () => false, libWrapper = globalThis.libWrapper}) {
   if ([NoteRuleClass, ItemClass, ActorClass, ChatMessageClass, TextEditorClass, isEnabled, getUser, getActors]
     .some(v => typeof v !== 'function') || !Array.isArray(bindings)) throw Error('Native Note consumers and gates required.');
   const rows = bindings.flatMap(b => [b, ...(b.sourceVariants ?? [])]).map(b => {
@@ -27,7 +29,16 @@ export function installBobNoteDisplay({NoteRuleClass, ItemClass, ActorClass, Cha
   const restorations = [], noteMethods = new Map(), preparedRules = new WeakMap(), captured = new WeakMap(), transient = new WeakMap();
   let active = true;
   const enabled = () => active && isEnabled() && !!getUser();
+  // Another package's libWrapper accessor cannot be redefined: join its chain. The factories keep
+  // their state in this scope, so building one per call behaves like the defined wrapper.
   function wrap(object, key, factory) {
+    if (!managedMethod(object, key)) return define(object, key, factory);
+    if (!hasLibWrapperApi(libWrapper)) throw Error(`Native ${key} is wrapped but libWrapper is unavailable.`);
+    restorations.push(subscribeManagedMethod(object, key, function (next, ...args) {
+      return Reflect.apply(factory(next), this, args);
+    }, {libWrapper}));
+  }
+  function define(object, key, factory) {
     const own = Object.getOwnPropertyDescriptor(object, key);
     let owner = object;
     while (owner && !Object.hasOwn(owner, key)) owner = Object.getPrototypeOf(owner);
@@ -120,7 +131,8 @@ export function installBobNoteDisplay({NoteRuleClass, ItemClass, ActorClass, Cha
     if (binding) preparedRules.set(binding.rule, {row:binding.row,item:binding.item,actor:binding.actor});
     const proto = Object.getPrototypeOf(note);
     if (noteMethods.has(proto)) return;
-    const native = wrap(proto,'toHTML', original => function (...args) {
+    // originalHTML() calls the kept native directly, so a libWrapper-managed toHTML stays refused.
+    const native = define(proto,'toHTML', original => function (...args) {
       const result = Reflect.apply(original,this,args);
       const binding = approve(this);
       if (binding && result instanceof HTMLElement) {

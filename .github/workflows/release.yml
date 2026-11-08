@@ -30,6 +30,9 @@ jobs:
       - name: Verify BoB memento progress
         run: node --test tests/bob-memento-progress.test.mjs
 
+      - name: Verify BoB consumers on libWrapper-wrapped methods
+        run: node --test tests/bob-native-lane.test.mjs tests/bob-lane-identity-rule.test.mjs tests/bob-lane-enrich.test.mjs tests/bob-lane-note-memento.test.mjs
+
       - name: Verify Adventures+ translations and display
         run: node --test tests/adventures-*.test.mjs
 

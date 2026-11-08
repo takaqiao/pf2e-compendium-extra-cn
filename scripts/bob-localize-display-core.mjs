@@ -1,17 +1,21 @@
+import {hasLibWrapperApi, managedMethod, subscribeManagedMethod} from './bob-native-lane.mjs';
+
 const normalized = value => value ?? null;
 const BOB_PACK_PREFIX = 'pf2e-bastion-of-blasphemies.';
 const sourcePattern = /^<p>@Localize\[([\w.]+)\]<\/p>$/;
 
 /** Translate only exact approved whole-body display inputs; never mutate documents. */
-export function installBobLocalizeDisplay({TextEditorClass, ItemClass, ActorClass, bindings, isEnabled, getUser}) {
+export function installBobLocalizeDisplay({TextEditorClass, ItemClass, ActorClass, bindings, isEnabled, getUser, libWrapper = globalThis.libWrapper}) {
   if ([TextEditorClass, ItemClass, ActorClass, isEnabled, getUser].some(value => typeof value !== 'function') || !Array.isArray(bindings)) {
     throw new Error('BoB wholeLocalize requires native classes, gates and approved bindings.');
   }
   const own = Object.getOwnPropertyDescriptor(TextEditorClass, 'enrichHTML');
+  // Another package's libWrapper accessor cannot be redefined; Extra joins that chain instead.
+  const managed = managedMethod(TextEditorClass, 'enrichHTML');
   let owner = TextEditorClass;
   while (owner && !Object.hasOwn(owner, 'enrichHTML')) owner = Object.getPrototypeOf(owner);
   const descriptor = owner && Object.getOwnPropertyDescriptor(owner, 'enrichHTML');
-  if (typeof descriptor?.value !== 'function' || own?.configurable === false) {
+  if (managed ? !hasLibWrapperApi(libWrapper) : (typeof descriptor?.value !== 'function' || own?.configurable === false)) {
     throw new Error('Native PF2e enrichHTML consumer is unavailable.');
   }
   const rows = new Map();
@@ -59,11 +63,12 @@ export function installBobLocalizeDisplay({TextEditorClass, ItemClass, ActorClas
     return user ? [user, user.id, user.isGM, user.role, actor.isOwner, actor.hasPlayerOwner] : null;
   }
   const native = descriptor.value;
-  const wrapped = async function (...args) {
+  // `next` continues to the native method (or the rest of the libWrapper chain) for this call only.
+  const body = async function (next, ...args) {
     const [text, options = {}] = args, binding = resolve(text, options);
     const permission = binding && permissionSnapshot(binding.actor);
-    if (!binding || !permission) return Reflect.apply(native, this, args);
-    const invoke = input => Reflect.apply(native, this, [input, {...options}, ...args.slice(2)]);
+    if (!binding || !permission) return next(...args);
+    const invoke = input => next(input, {...options}, ...args.slice(2));
     const rendered = await invoke(binding.row.displayBody);
     const current = resolve(text, options), now = current && permissionSnapshot(current.actor);
     if (current?.row === binding.row && current.item === binding.item && current.actor === binding.actor
@@ -72,13 +77,23 @@ export function installBobLocalizeDisplay({TextEditorClass, ItemClass, ActorClas
     // current user if permission/language/source changed while enrichment waited.
     return invoke(text);
   };
-  Object.defineProperty(TextEditorClass, 'enrichHTML', {...descriptor, configurable:true, value:wrapped});
-  const dispose = () => {
-    active = false;
-    if (Object.getOwnPropertyDescriptor(TextEditorClass, 'enrichHTML')?.value === wrapped) {
+  let restore;
+  if (managed) restore = subscribeManagedMethod(TextEditorClass, 'enrichHTML', body, {libWrapper});
+  else {
+    const wrapped = function (...args) {
+      const self = this;
+      return Reflect.apply(body, self, [(...values) => Reflect.apply(native, self, values), ...args]);
+    };
+    Object.defineProperty(TextEditorClass, 'enrichHTML', {...descriptor, configurable:true, value:wrapped});
+    restore = () => {
+      if (Object.getOwnPropertyDescriptor(TextEditorClass, 'enrichHTML')?.value !== wrapped) return;
       if (own) Object.defineProperty(TextEditorClass, 'enrichHTML', own);
       else delete TextEditorClass.enrichHTML;
-    }
+    };
+  }
+  const dispose = () => {
+    active = false;
+    restore();
   };
   dispose.isActive = () => active;
   return dispose;

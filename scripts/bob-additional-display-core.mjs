@@ -1,5 +1,6 @@
 /** Review-only, exact-carrier display projection. Never writes a Document or rule. */
 import {prepareSyntheticIdentity} from './bob-additional-synthetic-identity.mjs';
+import {hasLibWrapperApi, managedMethod, subscribeManagedMethod} from './bob-native-lane.mjs';
 const CHINESE = new Set(['cn', 'zh-CN', 'zh-Hans']);
 const SHA = /^[0-9a-f]{64}$/;
 const own = (o, key) => Object.prototype.hasOwnProperty.call(o, key);
@@ -36,9 +37,12 @@ function compile(bindings) {
 }
 
 export function installBobAdditionalDisplay({TextEditorClass, ItemClass, ActorClass, bindings, isEnabled, getLocale, getUser,
-  syntheticBindings = [], SceneClass, TokenDocumentClass, ActorDeltaClass, getActors, getScenes}) {
+  syntheticBindings = [], SceneClass, TokenDocumentClass, ActorDeltaClass, getActors, getScenes, libWrapper = globalThis.libWrapper}) {
   const descriptor = Object.getOwnPropertyDescriptor(TextEditorClass, 'enrichHTML');
-  if (!descriptor || typeof descriptor.value !== 'function' || typeof ItemClass !== 'function' || typeof ActorClass !== 'function'
+  // Another package's libWrapper accessor cannot be redefined; Extra joins that chain instead.
+  const managed = managedMethod(TextEditorClass, 'enrichHTML');
+  if (!descriptor || (managed ? !hasLibWrapperApi(libWrapper) : typeof descriptor.value !== 'function')
+      || typeof ItemClass !== 'function' || typeof ActorClass !== 'function'
       || typeof isEnabled !== 'function' || typeof getLocale !== 'function' || typeof getUser !== 'function') throw new TypeError('Native consumer dependencies required');
   const original = descriptor.value, index = compile(bindings);
   const synthetic = prepareSyntheticIdentity({syntheticBindings, ActorClass, ItemClass, SceneClass, TokenDocumentClass, ActorDeltaClass, getActors, getScenes});
@@ -93,24 +97,34 @@ export function installBobAdditionalDisplay({TextEditorClass, ItemClass, ActorCl
 
   const visibilityOptions = options => [options.secrets, options.processVisibility, options.rollData, options.relativeTo];
 
-  const wrapped = async function(text, options = {}, ...rest) {
+  // `next` continues to the native method (or the rest of the libWrapper chain) for this call only.
+  const body = async function(next, text, options = {}, ...rest) {
     const context = resolve(text, options);
-    if (!context) return Reflect.apply(original, this, [text, options, ...rest]);
+    if (!context) return next(text, options, ...rest);
     const permission = authority(context);
     const inputOptions = visibilityOptions(options);
-    const result = await Reflect.apply(original, this, [context.form.display, {...options}, ...rest]);
+    const result = await next(context.form.display, {...options}, ...rest);
     const fresh = resolve(text, options);
     const stable = fresh && Object.keys(context).every(key => fresh[key] === context[key])
       && authority(fresh).every((value, i) => Object.is(value, permission[i]))
       && visibilityOptions(options).every((value, i) => Object.is(value, inputOptions[i]));
     if (stable) return result;
     // Fresh native defaults observe the current user; no stale secrets option is carried from the projected invocation.
-    return Reflect.apply(original, this, [text, {...options}, ...rest]);
+    return next(text, {...options}, ...rest);
   };
-  Object.defineProperty(TextEditorClass, 'enrichHTML', {...descriptor, value: wrapped});
+  let restore;
+  if (managed) restore = subscribeManagedMethod(TextEditorClass, 'enrichHTML', body, {libWrapper});
+  else {
+    const wrapped = function(...args) {
+      const self = this;
+      return Reflect.apply(body, self, [(...values) => Reflect.apply(original, self, values), ...args]);
+    };
+    Object.defineProperty(TextEditorClass, 'enrichHTML', {...descriptor, value: wrapped});
+    restore = () => { if (TextEditorClass.enrichHTML === wrapped) Object.defineProperty(TextEditorClass, 'enrichHTML', descriptor); };
+  }
   const dispose = () => {
     active = false;
-    if (TextEditorClass.enrichHTML === wrapped) Object.defineProperty(TextEditorClass, 'enrichHTML', descriptor);
+    restore();
   };
   dispose.isActive = () => active && isEnabled() && CHINESE.has(getLocale());
   return dispose;

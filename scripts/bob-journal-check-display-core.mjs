@@ -1,4 +1,5 @@
 /** Exact Journal page display candidate. No saved source, macro parameter or roll option writes. */
+import {hasLibWrapperApi,managedMethod,subscribeManagedMethod} from './bob-native-lane.mjs';
 const CHINESE=new Set(['cn','zh-CN','zh-Hans']);
 const nil=x=>x??null;
 const equal=(a,b)=>{if(Object.is(a,b))return true;if(!a||!b||typeof a!=='object'||typeof b!=='object')return false;if(Array.isArray(a)!==Array.isArray(b))return false;const ak=Object.keys(a).sort(),bk=Object.keys(b).sort();return ak.length===bk.length&&ak.every((k,i)=>k===bk[i]&&equal(a[k],b[k]));};
@@ -28,9 +29,10 @@ function compile(bindings){
  if(rows.reduce((n,r)=>n+r.macros.length,0)!==7)throw TypeError('Seven exact macros required');
  return index;
 }
-export function installBobJournalCheckDisplay({TextEditorClass,JournalClass,PageClass,bindings,document,isEnabled,getLocale,getUser,getJournals,format}){
- const descriptor=Object.getOwnPropertyDescriptor(TextEditorClass,'enrichHTML');
- if(!descriptor||typeof descriptor.value!=='function'||![JournalClass,PageClass,isEnabled,getLocale,getUser,getJournals,format].every(f=>typeof f==='function')||!document?.createElement)throw TypeError('Native dependencies required');
+export function installBobJournalCheckDisplay({TextEditorClass,JournalClass,PageClass,bindings,document,isEnabled,getLocale,getUser,getJournals,format,libWrapper=globalThis.libWrapper}){
+ // Another package's libWrapper accessor cannot be redefined; Extra joins that chain instead.
+ const descriptor=Object.getOwnPropertyDescriptor(TextEditorClass,'enrichHTML'),managed=managedMethod(TextEditorClass,'enrichHTML');
+ if(!descriptor||(managed?!hasLibWrapperApi(libWrapper):typeof descriptor.value!=='function')||![JournalClass,PageClass,isEnabled,getLocale,getUser,getJournals,format].every(f=>typeof f==='function')||!document?.createElement)throw TypeError('Native dependencies required');
  const original=descriptor.value,index=compile(bindings);let active=true;
  function cleanExistingPage(text,options){
   if(!active||!isEnabled()||!CHINESE.has(getLocale())||typeof text!=='string'||!options||options.processVisibility===false||options.rollData!=null)return text;
@@ -82,18 +84,25 @@ export function installBobJournalCheckDisplay({TextEditorClass,JournalClass,Page
   for(const {a,m}of plans){a.setAttribute('data-pf2-label',format('PF2E.InlineCheck.DCWithName',{name:m.titleAfter}));a.setAttribute('data-pf2-repost-flavor',m.titleAfter);}
   return root.innerHTML;
  }
- const wrapped=async function(text,options={},...rest){
-  const c=resolve(text,options);if(!c)return Reflect.apply(original,this,[cleanExistingPage(text,options),options,...rest]);
+ // `next` continues to the native method (or the rest of the libWrapper chain) for this call only.
+ const body=async function(next,text,options={},...rest){
+  const c=resolve(text,options);if(!c)return next(cleanExistingPage(text,options),options,...rest);
   const auth=authority(c),opts=optionsState(options);
-  const result=await Reflect.apply(original,this,[c.form.display,{...options},...rest]);
+  const result=await next(c.form.display,{...options},...rest);
   const fresh=resolve(text,options),stable=fresh&&Object.keys(c).every(k=>Object.is(c[k],fresh[k]))&&authority(fresh).every((v,i)=>Object.is(v,auth[i]))&&optionsState(options).every((v,i)=>Object.is(v,opts[i]));
   const projected=stable?project(result,c.row):null;
   if(projected!==null)return projected;
   // A stale owner flag supplied before the await must not restore secret text after ownership loss.
   const freshOptions={...options};if(freshOptions.secrets===true)freshOptions.secrets=c.page.isOwner===true&&c.page.visible===true&&c.journal.visible===true;
-  return Reflect.apply(original,this,[text,freshOptions,...rest]);
+  return next(text,freshOptions,...rest);
  };
- Object.defineProperty(TextEditorClass,'enrichHTML',{...descriptor,value:wrapped});
- const dispose=()=>{active=false;if(TextEditorClass.enrichHTML===wrapped)Object.defineProperty(TextEditorClass,'enrichHTML',descriptor);};
+ let restore;
+ if(managed)restore=subscribeManagedMethod(TextEditorClass,'enrichHTML',body,{libWrapper});
+ else{
+  const wrapped=function(...args){const self=this;return Reflect.apply(body,self,[(...a)=>Reflect.apply(original,self,a),...args]);};
+  Object.defineProperty(TextEditorClass,'enrichHTML',{...descriptor,value:wrapped});
+  restore=()=>{if(TextEditorClass.enrichHTML===wrapped)Object.defineProperty(TextEditorClass,'enrichHTML',descriptor);};
+ }
+ const dispose=()=>{active=false;restore();};
  dispose.isActive=()=>active&&isEnabled()&&CHINESE.has(getLocale());return dispose;
 }

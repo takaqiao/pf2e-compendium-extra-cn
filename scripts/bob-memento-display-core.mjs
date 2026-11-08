@@ -1,4 +1,5 @@
 /** Exact returned mementos. Persistent NEW-copy provenance only; native names/slugs/HP/rules stay native. */
+import {hasLibWrapperApi,managedMethod,subscribeManagedMethod} from './bob-native-lane.mjs';
 const EXTRA='pf2e-compendium-extra-cn',FLAG='bobMementoDisplay',CN=new Set(['cn','zh-CN','zh-Hans']);
 const own=(o,k)=>Object.prototype.hasOwnProperty.call(o,k),nil=v=>v??null;
 const equal=(a,b)=>{if(Object.is(a,b))return true;if(!a||!b||typeof a!=='object'||typeof b!=='object'||Array.isArray(a)!==Array.isArray(b))return false;const ak=Object.keys(a).sort(),bk=Object.keys(b).sort();return ak.length===bk.length&&ak.every((k,i)=>k===bk[i]&&equal(a[k],b[k]));};
@@ -13,11 +14,13 @@ function shape(source){
  delete s.system.equipped;delete s.system.containerId;s.system.quantity=1;
  return s;
 }
-export function installBobMementoDisplay({ItemClass,ActorClass,ItemSheetClass,ActorSheetClass,ChatMessageClass,bindings,getActors,getUser,getLocale,isEnabled}){
+export function installBobMementoDisplay({ItemClass,ActorClass,ItemSheetClass,ActorSheetClass,ChatMessageClass,bindings,getActors,getUser,getLocale,isEnabled,libWrapper=globalThis.libWrapper}){
  if(![ItemClass,ActorClass,ItemSheetClass,ActorSheetClass,ChatMessageClass,getActors,getUser,getLocale,isEnabled].every(f=>typeof f==='function')||!Array.isArray(bindings?.rows)||!bindings.rows.length)throw TypeError('Exact native memento dependencies required');
  const consumers=[[ActorClass,'transferItemToActor'],[ItemSheetClass,'_renderInner'],[ItemSheetClass,'_getSubmitData'],[ItemSheetClass,'_updateObject'],[ItemSheetClass,'close'],[ActorSheetClass,'_renderInner'],[ActorSheetClass,'close'],[ChatMessageClass,'renderHTML']];
  if(owner(ActorSheetClass.prototype,'_handleDroppedItem'))consumers.push([ActorSheetClass,'_handleDroppedItem']);
- for(const [Ctor,key]of consumers){const p=owner(Ctor.prototype,key),d=p&&Object.getOwnPropertyDescriptor(p,key),ownD=Object.getOwnPropertyDescriptor(Ctor.prototype,key);if(typeof d?.value!=='function'||d?.configurable===false||ownD?.configurable===false||!ownD&&!Object.isExtensible(Ctor.prototype))throw TypeError('Unavailable native consumer '+key);}
+ // A method another package wrapped with libWrapper on the written prototype joins that chain (see wrap).
+ // _updateObject is only checked, never wrapped, so it keeps the plain-method requirement.
+ for(const [Ctor,key]of consumers){if(key!=='_updateObject'&&managedMethod(Ctor.prototype,key)){if(!hasLibWrapperApi(libWrapper))throw TypeError('libWrapper required for wrapped native consumer '+key);continue;}const p=owner(Ctor.prototype,key),d=p&&Object.getOwnPropertyDescriptor(p,key),ownD=Object.getOwnPropertyDescriptor(Ctor.prototype,key);if(typeof d?.value!=='function'||d?.configurable===false||ownD?.configurable===false||!ownD&&!Object.isExtensible(Ctor.prototype))throw TypeError('Unavailable native consumer '+key);}
  const titleP=owner(ItemSheetClass.prototype,'title'),titleDescriptor=titleP&&Object.getOwnPropertyDescriptor(titleP,'title'),titleOwn=Object.getOwnPropertyDescriptor(ItemSheetClass.prototype,'title');if(typeof titleDescriptor?.get!=='function'||titleDescriptor.configurable===false||titleOwn?.configurable===false||!titleOwn&&!Object.isExtensible(ItemSheetClass.prototype))throw TypeError('Native Item sheet title getter required');
  const rows=structuredClone(bindings.rows),f=structuredClone(bindings.fountain),byKey=new Map(),restores=[],ownedInputs=new Set(),generations=new WeakMap();let active=true;
  for(const r of rows){if(byKey.has(r.actorId+'/'+r.itemId)||!r.actorId||!r.itemId||!r.approvedName.endsWith(' '+r.originalName)||r.displayName!==`已毁的${r.chineseName} Destroyed ${r.originalName}`||!['sourceFingerprint','approvalFingerprint'].every(k=>/^[a-f0-9]{64}$/.test(r.marker[k])))throw TypeError('Invalid exact name/marker binding');r.forms=[r.rawItem,r.approvedItem,...r.approvedItemVariants??[]].map(shape);byKey.set(r.actorId+'/'+r.itemId,r);}
@@ -48,7 +51,8 @@ export function installBobMementoDisplay({ItemClass,ActorClass,ItemSheetClass,Ac
  const authority=p=>{const u=getUser();return [u,u?.id,u?.role,u?.isGM,u?.active,getLocale(),p.item.visible,p.item.isOwner,p.item.permission,p.actor.visible,p.actor.isOwner,p.actor.permission];};
  const stable=(p,auth)=>{const fresh=resolve(p.item,{display:true});return fresh&&Object.keys(p).every(k=>Object.is(p[k],fresh[k]))&&authority(fresh).every((v,i)=>Object.is(v,auth[i]));};
  function replace(prototype,key,descriptor){const previous=Object.getOwnPropertyDescriptor(prototype,key);Object.defineProperty(prototype,key,descriptor);restores.push(()=>{const cur=Object.getOwnPropertyDescriptor(prototype,key);if(cur?.value===descriptor.value&&cur?.get===descriptor.get){if(previous)Object.defineProperty(prototype,key,previous);else delete prototype[key];}});}
- function wrap(prototype,key,make){const p=owner(prototype,key),d=p&&Object.getOwnPropertyDescriptor(p,key);if(typeof d?.value!=='function')throw TypeError(`Native ${key} required`);replace(prototype,key,{...d,value:make(d.value)});}
+ // make() keeps its state in this scope, so building one per call behaves like the defined wrapper.
+ function wrap(prototype,key,make){if(managedMethod(prototype,key)){restores.push(subscribeManagedMethod(prototype,key,function(next,...args){return Reflect.apply(make(next),this,args);},{libWrapper}));return;}const p=owner(prototype,key),d=p&&Object.getOwnPropertyDescriptor(p,key);if(typeof d?.value!=='function')throw TypeError(`Native ${key} required`);replace(prototype,key,{...d,value:make(d.value)});}
  // A short-lived view keeps native mechanical reads live across payment awaits.
  // Never clone a Document here: native reads quantity again AFTER removeCoins/addCoins.
  // Native getters/private methods run on the real registered Item, not on the Proxy.

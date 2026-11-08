@@ -1,4 +1,5 @@
 import {prepareBobTokenItemIdentity} from './bob-token-item-identity.mjs';
+import {hasLibWrapperApi, managedMethod, managedOriginalSource, subscribeManagedMethod} from './bob-native-lane.mjs';
 const installed = new WeakSet();
 const normalized = value => value ?? null;
 const BOB_PACK_PREFIX = 'pf2e-bastion-of-blasphemies.';
@@ -36,20 +37,18 @@ export function installBobIdentityCompatibility({ItemClass, itemClasses, LoreCla
   };
   if (lore.configurable !== true || attack.configurable !== true) throw new Error('PF2e identity getters are not configurable.');
   // Preflight every optional native entry before the first prototype mutation.
-  const managedPreparations = new Map();
+  const managedPreparations = new Set();
   if (ItemClass) requireMethod(methodOwner(ItemClass.prototype, 'prepareRuleElements'), 'prepareRuleElements');
   if (EffectClass) requireMethod(EffectClass.prototype, 'prepareBaseData');
   if (SpellcastingEntryClass) for (const key of ['prepareBaseData','buildStatistic']) requireMethod(SpellcastingEntryClass.prototype,key);
   if (MeleeClass) {
     requireMethod(MeleeClass.prototype,'prepareSiblingData');
-    for (const [kind, ActorClass] of Object.entries({npc:NPCClass,hazard:HazardClass})) {
+    for (const ActorClass of [NPCClass, HazardClass]) {
       if (!ActorClass) continue;
-      const descriptor = Object.getOwnPropertyDescriptor(ActorClass.prototype,'prepareDerivedData');
-      // libWrapper exposes an existing method through a non-configurable getter.
-      // Join that chain instead of redefining it or bypassing other modules.
-      if (descriptor?.get?._lib_wrapper?.is_property === false
-        && typeof libWrapper?.register === 'function' && typeof libWrapper?.unregister === 'function') {
-        managedPreparations.set(ActorClass,`CONFIG.PF2E.Actor.documentClasses.${kind}.prototype.prepareDerivedData`);
+      // Another module's libWrapper chain cannot be redefined; join it instead.
+      if (managedMethod(ActorClass.prototype,'prepareDerivedData')) {
+        if (!hasLibWrapperApi(libWrapper)) throw new Error('libWrapper is unavailable for the managed prepareDerivedData.');
+        managedPreparations.add(ActorClass);
       } else requireMethod(ActorClass.prototype,'prepareDerivedData');
     }
   }
@@ -63,7 +62,16 @@ export function installBobIdentityCompatibility({ItemClass, itemClasses, LoreCla
       throw new Error('PF2e compatible Feat slug getter is unavailable.');
     }
   }
-  for (const prototype of prototypes) if (Object.hasOwn(prototype,'getRollOptions')) requireMethod(prototype,'getRollOptions');
+  // A layer wrapped by another module (Team+ Magic wraps SpellcastingEntry)
+  // cannot take a substituted receiver. It is left unwrapped only when its
+  // original never reads a name or slug, where the name view would be a no-op.
+  const nameFreeManaged = prototype => {
+    const source = managedOriginalSource(prototype,'getRollOptions');
+    return typeof source === 'string' && !/\bname\b|slug/i.test(source);
+  };
+  for (const prototype of prototypes) {
+    if (Object.hasOwn(prototype,'getRollOptions') && !nameFreeManaged(prototype)) requireMethod(prototype,'getRollOptions');
+  }
   const statisticOwners = new Set(ActorClasses.map(ActorClass => methodOwner(ActorClass.prototype,'getStatistic')));
   for (const owner of statisticOwners) requireMethod(owner,'getStatistic');
   const collectDropOwners = classes => {
@@ -362,8 +370,8 @@ export function installBobIdentityCompatibility({ItemClass, itemClasses, LoreCla
       };
       if (managedPreparations.has(ActorClass)) {
         try {
-          const target = libWrapper.register(EXTRA_ID,managedPreparations.get(ActorClass),wrapper,'WRAPPER');
-          restores.push(() => libWrapper.unregister(EXTRA_ID,target));
+          // Rule display subscribes to the same wrapper; the lane holds Extra's one registration.
+          restores.push(subscribeManagedMethod(prototype,'prepareDerivedData',wrapper,{libWrapper}));
         } catch (error) {
           active = false;
           for (const restore of [...restores].reverse()) restore();
@@ -376,6 +384,7 @@ export function installBobIdentityCompatibility({ItemClass, itemClasses, LoreCla
   }
   for (const prototype of prototypes) {
     const descriptor = Object.getOwnPropertyDescriptor(prototype, 'getRollOptions');
+    // Also skips the name-free managed layers accepted during preflight.
     if (typeof descriptor?.value !== 'function') continue;
     const original = descriptor.value;
     replace(prototype, 'getRollOptions', {...descriptor, value: function (...args) {
