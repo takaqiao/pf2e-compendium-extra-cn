@@ -223,10 +223,6 @@
       "name": "寓言之书 Book of Fables",
       "description": "<p>由多位作者撰写的一系列奇幻故事。年轻读者将其中一些故事视为心头所爱，尤其是以动物为中心的故事，其中一则讲述了一只兔子和一只乌龟，另一则讲述了一只狐狸试图触及一些葡萄。</p><p></p>\n<p>A series of fantastical stories written by multiple authors. Young readers hold a few of these tales dear to their hearts, particularly the animal-centered ones, one which follows a rabbit and a turtle and another tells of a fox trying to reach some grapes.</p><p></p>"
     },
-    "Sickle": {
-      "name": "Sickle",
-      "description": "<p>镰刀作为最常见的手工工具之一，被广泛用于收割作物、割草，并协助从田地里采集蔬菜。其刀刃的多功能性还体现在于某些地区作为武器发挥重要作用。</p>\n<p>The sickle being one of the most common hand tools, finds extensive use in harvesting crops, cutting grass, and assisting in the gathering of vegetables from fields. The versatility of its blade extends to having a major role as a weapon in certain regions.</p>"
-    },
     "Dungeon Plans": {
       "name": "地城平面图 Dungeon Plans",
       "description": "<p>一张地城平面示意图包含某个特定地城的完整布局，无论该地城已建成，还是计划建造在城堡、要塞或大型住宅（如庄园）之下。地城通常用于在审判前关押囚犯。虽然地城本身并非为长期监禁而设，但囚犯在其中被关押较长时间也并非闻所未闻。该示意图通常还包括专门用于审讯、证物储存或其他与统治当局需求相关用途的区域。</p><p></p>\n<p>A dungeon plan schematic contains the full layout of a specific dungeon, either already built or planned to be constructed beneath a castle, fort, or large dwelling, such as a manor. Dungeons are typically used to hold prisoners until a trial. While the dungeon itself is not intended for long-term confinement, it is not unheard of for prisoners to remain there for extended periods. The schematic often includes areas specifically designed for interrogation, storage of evidence, or other purposes tied to the ruling authority’s needs.</p><p></p>"
@@ -639,10 +635,6 @@
       "name": "芒果 Mango",
       "description": "<p>芒果的体型、形状、甜度、果皮颜色和果肉颜色会因其生长的树木而异。果肉颜色可能从浅黄色到金色、绿色或橙色不等。在某些地区，它被推测为爱情之果。在其他地区，它被作为友谊的信物赠送。草药师会用蜂蜜、柠檬和芒果调制成糊状物，作为止咳糖浆。 </p>\n<p>Depending on the tree it grows on, the mango fruit varies in size, shape, sweetness, skin color, and flesh color. The flesh can range from pale yellow to gold, green, or orange. In some regions, it is speculated to be the fruit of love. In other regions it is given as a token of friendship. Herbalists create a paste with honey, lemon, and mango as a cough syrup. </p>"
     },
-    "Hunter's Mark": {
-      "name": "Hunter's Mark",
-      "description": "<p>这种造型独特的硬币由贵族发给猎人，作为在其领地上狩猎许可的身份标识，前提是已支付某种形式的费用。狩猎完成后，猎人将硬币归还给贵族，并可选择将猎获物直接卖给他们。通常，猎人与贵族会事先就狩猎利润的分成比例达成一致。该硬币也可以以更高的价格卖给商人银行，使贵族得以腾出手处理其他事务。</p>\n<p>This uniquely shaped coin is given by nobles to hunters as identification for permission to hunt on their land, after some form of payment has been made. Once the hunt is complete, the hunter returns the coin to the noble and may choose to sell the hunt directly to them. Typically, the hunter and noble will agree to a percentage of the hunt's profits beforehand. The coin can also be sold to merchant banks at a higher price, freeing the noble to attend to other matters.</p>"
-    },
     "Chicken Bones": {
       "name": "鸡骨头 Chicken Bones",
       "description": "<p>在宰杀鸡只后保存下来，并借助魔法手段或调制出能制造冰冻温度的混合物进行储存。农民通常会将这些与蔬菜残渣一同储存，用来熬制鸡汤或明胶。在最初用于熬制高汤之后，还可以制作复熬汤（remouillage），一种更为清淡的二次高汤。这些骨头也可以被研磨成骨粉，作为当地牲畜的食物补充剂。</p>\n<p>Saved after the cutting of a chicken and stored with either magical assistance or brewed concoctions that create freezing temperatures. Farmers typically store these alongside vegetable scraps to make chicken broth or gelatin. After their initial use for stock, remouillage is also made, a second stock that is a bit lighter. The bones can also be ground up for a bone meal as a food supplement for the local livestock.</p>"
@@ -1020,10 +1012,6 @@
       "name": "蜂巢蛋糕 Honeycomb Cake",
       "description": "<p>尽管名字如此，蜂巢蛋糕并不含任何蜂蜜。然而，大多数面包师会将其塑造成蜂巢图案以增强其吸引力。由于其异域食材，这种蛋糕对许多平民来说仍然很陌生。它需要香兰叶、椰奶和椰子油，而这些材料根据地区不同可能很难找到。</p>\n<p>Despite its name, the Honeycomb Cake does not contain any honey. However, most bakers shape it into a honeycomb pattern to enhance its appeal. Due to its exotic ingredients, this cake remains unfamiliar to many commoners. It requires pandan, coconut milk, and coconut oil, which can be difficult to find depending on the region.</p>"
     },
-    "Scorpion": {
-      "name": "Scorpion",
-      "description": "<p>蝎子是夜行猎手，主要分布在干燥地区，白天会躲在岩石下和洞穴里。它们标志性的尾巴带有有毒的螫针，用来制服猎物并抵御威胁。虽然它们的螫刺对普通人来说很疼，但很少致命，而炼金术士会寻求它们的毒液，用于调制各种强效的药物混合剂。</p>\n<p>Scorpions are nocturnal hunters that can be found mainly in dry regions, hiding under rocks and within burrows during the day. Their iconic tail carries a venomous stinger used to subdue prey and defend against threats. While their sting is painful to common folk, it is rarely fatal, and alchemists seek their venom for use in various potent medicine concoctions.</p>"
-    },
     "Deep Green Spinel": {
       "name": "深绿尖晶石 Deep Green Spinel",
       "description": "<p>深受森林居民喜爱，这种尖晶石用于装饰护甲和武器，也用于吊坠、戒指或手镯。</p>\n<p>Beloved by the forest folk, this type of spinel is used to adorn armor and weaponry, also used in pendants, rings, or bracelets. </p>"
@@ -1119,10 +1107,6 @@
     "Amethyst": {
       "name": "紫水晶 Amethyst",
       "description": "<p><em>“据说第一颗紫水晶曾是一位年轻美丽的女祭司，然而，两位女神为争夺她的效忠而争斗，不幸将她毁灭。当女神们为失去她而哀悼哭泣时，她们的泪水交融，落地时化作这颗宝石。我不确定这个故事是否属实，因为我也听说其中还涉及一瞥与葡萄酒。”</em></p>\n<p>是一种非常常见的矿物，遍布诸界各地。它色泽美丽，常被切磨成珠宝用的刻面形制，使其成为收藏家最受欢迎的宝石之一。</p>\n<p><em>\"It is said the first Amethyst was a young and beautiful priestess, however, two goddesses fought over her allegiance and unfortunately destroyed her. As the goddesses mourned and wept their loss, their tears combined and created the gem as it fell to the ground. I'm not certain if this tale holds any truth, as I have also heard that an glances and wine was involved.\" </em></p>\n<p>Is a very common mineral and is found throughout the realms. It has a beautiful color and is faceted into jewelry cuts, making it one of the most popular gems for collectors. </p>"
-    },
-    "Sled": {
-      "name": "Sled",
-      "description": "<p>雪橇被设计成各种形状和尺寸，以适应各种情境。它们的种类从儿童雪橇（非常适合从大山坡上竞速滑下）到由雪橇犬牵引、用于穿越广阔冬季景观的坚固旅行雪橇不等。</p>\n<p>Sleds are designed in various shapes and sizes to accommodate various scenarios. They range from children's sleds, perfect for racing down large hills, to sturdy traveling sleds used by sled dogs to traverse vast winter landscapes.</p>"
     },
     "Leather Bedroll": {
       "name": "皮革铺盖 Leather Bedroll",
@@ -1244,10 +1228,6 @@
       "name": "海·达里克 Sea Daric",
       "description": "<p>一枚闪亮的金色圆盘，上面饰有高度精细雕刻的骷髅。这些钱币通常由从各种来源掠夺得来的黄金铸造而成，例如金币、珠宝和金条。钱币本身分量沉重，作为对公海财富与危险的切实提醒。在整个铸造过程中，制作者确保黄金尽可能接近100%纯度，使其成为流通中最有价值的钱币之一。</p>\n<p>A gleaming gold disc, emblazoned with a highly detailed carved skull. These coins are often crafted from pillaged gold obtained from various sources such as gold coins, jewelry, and gold bars. The weight of the coin itself is heavy, serving as a tangible reminder of the riches and dangers of the high seas. Throughout the minting process, the crafter ensures that the gold is as close to 100% pure as possible, making it one of the most valuable coins in circulation.</p>"
     },
-    "Piano": {
-      "name": "Piano",
-      "description": "<p>钢琴是一种键盘乐器，当按下琴键时，会用木槌击打琴弦来产生声音。由于需要高超的工艺，其制作成本相当高昂，涉及经验丰富的木匠、技艺精湛的铁匠以及娴熟的机械师。钢琴在各种音乐流派中扮演着重要角色，既可作为独奏乐器，也是在管弦乐队与合奏团中为上流社会人士服务的重要组成部分。</p>\n<p>The piano is a keyboard instrument that generates sound by striking strings with wooden hammers when its keys are pressed. Its production is quite expensive due to the need for skilled craftsmanship, involving experienced carpenters, skilled blacksmiths, and adept machinists. The piano plays a significant role in various musical genres, serving as both a solo instrument and an essential component in orchestras and ensembles for high-class citizens.</p>"
-    },
     "Cured Hide": {
       "name": "治愈兽皮 Cured Hide",
       "description": "<p>一种普通的鞣制皮革，皮匠通常以批量出售，通常用于其他行业。铁匠通常用它们制作武器的握柄，而裁缝则用它们制作精致的连衣裙或漂亮的包袋，平民则用它们制作各种用途的皮条。</p>\n<p>An regular cured hide that is sold in bulk by the leatherworkers, which is usually used in the other trades. Blacksmiths usually use them for the weapon hilts, while tailors use them for intricate dresses or beautiful bags, and the commoners use them to make leather strips for various uses. </p>"
@@ -1339,10 +1319,6 @@
     "Small Cabbage Sprouts": {
       "name": "小卷心菜芽 Small Cabbage Sprouts",
       "description": "<p>不同地区对小卷心菜芽有各自的称呼，通常基于它们的产地。小餐馆的厨师和当地酒馆的厨子常常会特别费心去寻找这些芽。由于它们相当稀有，用它们做的菜通常要贵得多。一些不错的例子包括混合卷心菜沙拉或焦糖化卷心菜芽。</p>\n<p>Different regions have their own names for small cabbage sprouts, usually based on where they are found. Chefs in small restaurants and cooks in local taverns often make a special effort to find these sprouts. Because they are somewhat rare, dishes made with them are typically way more expensive. Some good examples include mixed cabbage salads or caramelized cabbage sprouts.</p>"
-    },
-    "Shapeshifter": {
-      "name": "Shapeshifter",
-      "description": "<p>像我这样的商人会看到初秋时，一箱箱苹果果酱被运来运去，从果园管事那里交易到奶牛场又再交易回来，只为了在屈指可数的几个夜晚里调制出这一种混合物。它很不耐存放，到第二天早晨就会凝结并变酸，这也是为什么没人把它运得太远，也是它得了那个古怪名字的原因之一，但孩子们很喜欢它。</p>\n<p>Traders like me see jars of apple jam moving by the crate in early autumn, traded from orchard stewards to dairy farms and back again, all so this one concoction can be made for a handful of nights. It doesn’t hold very well, by following morning it clots and sours, which is why no one ships it far, one of it's reasons that it got its weird name, but kids love it.</p>"
     },
     "Vegetable Box": {
       "name": "蔬菜箱 Vegetable Box",
@@ -1479,10 +1455,6 @@
     "Wolf Jaw Tongs": {
       "name": "狼颚夹钳 Wolf Jaw Tongs",
       "description": "<p>被认为是适用于不同尺寸通用工作的最通用夹钳，狼颚夹钳的上部拥有光滑、狭窄的钳口，内侧沿其长度有一条V形缺口。这使它们成为任何铁匠工具腰带中最不可或缺的工具之一。</p>\n<p>Considered the most universal tongs for general work of varying sizes, wolf jaw tongs feature smooth, narrow jaws on top with a V-notch on the inside running its length. This makes them one of the most essential tools in the tool belt of any blacksmith.</p>"
-    },
-    "Ghast": {
-      "name": "Ghast",
-      "description": "<p>Ghast作为一种饮品具有文化意义，其灵感源自当地民间传说与幽灵（特征）故事。它不仅仅是一种饮料，也是一种讲故事的媒介，将人们与夜里低语的诡异传闻连接起来。其独特的色泽来自炼金术士的协助，他们加入了蝶豆花，这种花会随酸度变化而变色。这种饮品本身用途十分多样：既可单独饮用，也可作为鸡尾酒基底使用，或作为收藏物品保存。</p><p></p>\n<p>Ghast holds cultural significance as a beverage that draws inspiration from local folklore and ghost stories. It serves not only as a drink but also as a storytelling device, connecting people to the eerie tales whispered during the night. The unique coloring comes from the help of alchemists which add butterfly pea flower that shifts color in acidity. The drink itself is quite versatile as it can be drunk standalone, used as a cocktail base, or kept as a collector's item.</p><p></p>"
     },
     "Clinozoisite": {
       "name": "斜黝帘石 Clinozoisite",
@@ -2169,17 +2141,9 @@
       "name": "红纸胡蜂 Red Paper Wasp",
       "description": "<p>红纸蜂是一种无敌意的黄蜂，只有在其巢穴受到威胁时才会变得具有攻击性。它们的毒液可以被草药师采集用以制作药物，由于这种昆虫温顺的行为，可以安全地采收。</p>\n<p>Red Paper is a non-hostile type of wasp that becomes aggressive only when its nest is threatened. Their venom can be collected by herbalists to produce medicine, safely harvested due to the insect’s docile behavior.</p>"
     },
-    "Zombie": {
-      "name": "Zombie",
-      "description": "<p>丧尸（特征）是一种异域鸡尾酒，由果汁制成，例如青柠和葡萄柚汁、肉桂糖浆、利口酒，以及三种不同类型的朗姆酒。通常会配上朗朗上口的短句来上桌，比如“让死者行走与交谈。”或“渴望刺激？很快你就会透过亡灵的双眼凝视！”</p>\n<p>Zombie is an exotic cocktail made of fruit juices, such as lime and grapefruit juice, cynnamon syrup, liqueurs, and three different types of rum. Usually served with catchy frazes like \"Let's make the dead walk and talk.\" or \"Craving action? Soon you’ll be staring through the eyes of the undead!\"</p>"
-    },
     "Cedar Plank": {
       "name": "雪松木板 Cedar Plank",
       "description": "<p>由于雪松木坚固耐用，它是制作框架和建筑其他结构部件的理想材料。雪松木板常用于地板、外墙板、屋顶以及其他对强度和稳定性要求较高的用途。</p>\n<p>Because cedar wood is strong and durable, it is an ideal material for creating frames and other structural components of a building. Cedar planks are often used for flooring, siding, roofing, and other applications where strength and stability are important.</p>"
-    },
-    "Gallows": {
-      "name": "Gallows",
-      "description": "<p>一根直立的立柱，上方横置一根横梁，构成了绞刑架的基本结构，用于处决因骇人听闻的行为而被判死刑的囚犯。除了惩罚之外，它们还曾作为公开展示正义的场所，或在某些情况下，在动乱之后对民众起到警示作用，往往是在地区上层阶级的指示下。</p>\n<p>One single upright post with a beam at the top forms the basic structure of the gallows, designed for executing death row inmates guilty of horrendous acts. Beyond punishment, they have served as public displays of justice or, in some cases, as a warning to the people after the unrest, often at the direction of the regional higher class.</p>"
     },
     "Records": {
       "name": "记录 Records",
@@ -2224,10 +2188,6 @@
     "Ticks": {
       "name": "蜱虫 Ticks",
       "description": "<p>蜱虫是一种会附着在路过的动物和普通人身上以吸食它们血液的昆虫。它们栖息在高草丛和林地区域，等待宿主擦身而过。每当草药师不得不处理一只蜱虫时，由于它们是众所周知的疾病携带者，他也会要求农夫检定他们所拥有的所有牲畜。</p>\n<p>Ticks are insects that latch onto passing animals and common folk to feed on their blood. They are found in tall grasses and wooded areas, waiting for a host to brush by. Everytime a herbalist has to handle an tick, as they are known carriers of diseases, it asks the farmers to check all livestock that they own as well.</p>"
-    },
-    "Crab": {
-      "name": "Crab",
-      "description": "<p>螃蟹在许多气候带都很丰富，而且相当容易捕捉，但其需求使得它们的价格一直居高不下。渔民使用结实的钢丝陷阱，通常以鸡肉或小鱼作饵，引诱它们进入。在美食圈中备受推崇的螃蟹，与黄油、大蒜和芳香香料一同烹饪时，会成为令人无法抗拒的美味佳肴。</p>\n<p>Crabs are abundant across many climates and fairly simple to catch, yet their demand keeps their price high. Fishermen use sturdy steel-wire traps, often baited with chicken or small fish, to lure them in. Prized in culinary circles, crabs become an irresistible delicacy when cooked with butter, garlic, and aromatic spices.</p>"
     },
     "Apple": {
       "name": "苹果 Apple",
@@ -2709,10 +2669,6 @@
       "name": "冷杉木板 Fir Plank",
       "description": "<p>冷杉木板是一种常见且用途广泛的建筑材料，在诸国各地用于各种目的。它取自生长在北方土地凉爽、多雾森林中的高大挺直冷杉树。其木材坚固耐用，却又轻便且易于加工。</p>\n<p>The Fir Plank is a common and versatile building material, used throughout the realms for a wide variety of purposes. It is harvested from tall, straight fir trees that grow in the cool, misty forests of the northern lands. The wood is strong and durable, yet light and easy to work with.</p>"
     },
-    "Iol": {
-      "name": "Iol Iol Iol Iol",
-      "description": "<p>一种紫色的宝石，有时也被称为堇青石。通常被切割成宝石刻面，用于各种类型的珠宝首饰，尤其是戒指。</p>\n<p>A violet color stone, sometimes referred to as Iolite. Is usually cut into gemstone facets and is used in all types of jewelry, especially rings.</p>"
-    },
     "Agate": {
       "name": "玛瑙 Agate",
       "description": "<p>它通常在岩石中被发现，并呈现出各种惊人的颜色。数千年来被用于各类艺术与手工艺形式。根据地区不同，它可能有不同的名称或颜色。常见的好例子是“火玛瑙”，其颜色为深红色；或“苔藓玛瑙”，其外观类似苔藓，并呈现出深绿色色调。</p>\n<p>It is usually found in rocks and comes a variety of amazing colors. Used for millennia in forms of arts and crafts. Based on the region it can have different names or colors. Good common examples are \"Fire agate\" which is a deep red or \"Moss Agate\" which has a moss-like appearance and gas a deep green shade.</p>"
@@ -2853,10 +2809,6 @@
       "name": "绿影 Green Shadow",
       "description": "<p>一种因错误混合任何提供某种隐形形式的药水而产生的拙劣产物。皮肤开始变得像变色龙一样，改变颜色以匹配其周围环境；然而，该效果生效很慢，需要一点时代才能让你完全与自己的背景“融合”。</p>\n<p>A butchered product of incorrectly mixing any potion that provides a form of invisibility. The skin starts to go chameleonic to a form, changing color to match its suroundings, however, the effect is slow to set in and it takes a bit of time up until you're fully \"blended\" with your background.</p>"
     },
-    "Owl": {
-      "name": "Owl",
-      "description": "<p>猫头鹰是财富、繁荣、智慧、好运与福运的象征，许多贵族以及涉足奥术艺术的个人都渴望将其作为宠物饲养。那些从事畜牧的人在成功驯化猫头鹰后，很快便意识到它们在控制鼠类侵扰方面的有效性。</p>\n<p>Owls, symbols of wealth, prosperity, wisdom, good luck, and fortune, are sought after as pets by many nobles and individuals dabbling in the arcane arts. Those engaged in animal husbandry, successfully domesticating owls, soon realize their effectiveness in controlling rodent infestations.</p>"
-    },
     "The Last Veiled Widow": {
       "name": "最后的蒙纱寡妇 The Last Veiled Widow",
       "description": "<p>这种高酸性的蘑菇因其周围环绕的磷光网状结构而得名。与更常见的同类——面纱女士——相比，这种特定蘑菇的致命性并不常见；一旦被摄入，它会转化为酸，并开始从内而外吞噬不幸之人，最终只留下骨头。几个月后，这些骨头会孕育出更多的面纱寡妇。</p>\n<p>This highly acidic mushroom gets its name from the phosphorescent mesh that surrounds it. Compared to its more common counterpart, the Veiled Lady, the lethality of this specific mushroom is uncommon, as when ingested it turns to acid and starts consuming the unfortunate folk from the inside out, only leaving bones behind. A few months later, the bones give rise to more Veiled Widows.</p>"
@@ -2940,10 +2892,6 @@
     "Bucket": {
       "name": "桶 Bucket",
       "description": "<p>虽然水桶通常用于将井水运送到家中或用于清洁任务，但在极端情况下，或在某些无法使用户外厕所的牢房里，它们也可以被改作临时便桶。</p><p></p>\n<p>While buckets are commonly used to transport water from wells to homes or for cleaning tasks, they can also be repurposed as makeshift latrines in extreme situations or certain jail cells where outhouses are not an option.</p><p></p>"
-    },
-    "Mule": {
-      "name": "Mule",
-      "description": "<p>骡子在诸国度中被广泛用作役用动物，因其坚韧与温顺的天性而备受珍视。它们以其体型而言拥有强大的力量，相较于大多数马匹具备更优越的体能耐力，再加上能在极端天气中生存、更高的耐心以及更长的寿命，使其成为进行超长距离旅行时的首选。</p>\n<p>Mules, widely used as working animals in the realms, are highly prized for their hardiness and docile nature. Their strength for their size and superior physical endurance compared to most horses, coupled with the ability to survive extreme weather, increased patience, and longer lifespan, make them a favorite choice for traveling very long distances.</p>"
     },
     "God's Wrath": {
       "name": "神之怒 God's Wrath",
@@ -3044,10 +2992,6 @@
     "Plum Seeds": {
       "name": "李子种子 Plum Seeds",
       "description": "<p>种植李子树的过程与种植桃树有许多相似之处。然而，它对温度控制的要求更高。种子需要一段时间的低温暴露来打破休眠期，而时机必须恰到好处，以确保种子不会暴露在过多的温暖或冰冻温度之下。这个关键时期正是为什么只有最有经验的农场工人或草药师才会承担这项任务，以确保李子种子拥有成功播种的理想条件。</p><p></p>\n<p>The process of planting plum trees shares many similarities with that of peaches. However, it requires even more attention to temperature control. The seeds need a period of cold exposure to break dormancy, and the timing must be just right to ensure that the seeds are not exposed to too much warmth or freezing temperatures. This critical period is why only the most experienced farmhands or herbalists take on the task, ensuring that the plum seeds have the ideal conditions for successful seeding.</p><p></p>"
-    },
-    "Scarecrow": {
-      "name": "Scarecrow",
-      "description": "<p>稻草人根植于流行传统，是一种通常塞满稻草的人偶。其主要目的是吓阻鸟类或其他动物啃食种子、作物和水果。</p>\n<p>The scarecrow, rooted in popular tradition, is a mannequin typically stuffed with straw. Its primary purpose is to deter birds or other animals from consuming seeds, crops, and fruit.</p>"
     },
     "Sextant": {
       "name": "六分仪 Sextant",
@@ -3209,10 +3153,6 @@
       "name": "鲶鱼 Catfish",
       "description": "<p>鲶鱼因其独特的胡须状须而得名，是垂钓者梦寐以求的渔获。鲶鱼最好用活饵捕捉，不过鲱鱼块和鸡肝也同样能带来成功。在厨师手中，鲶鱼在海鲜料理中大放异彩，无论是油炸至金黄完美，还是配以多种香草与香料煎烙，例如柠檬、莳萝和大蒜。</p>\n<p>Catfish, named for its distinctive whisker-like barbels, is a prized catch among anglers. Catfish are best caught using live bait, though herring chunks and chicken livers also yield success. In the hands of a chef, the catfish shines in seafood dishes, whether deep-fried to golden perfection or pan-seared with a medley of herbs and spices, such as lemon, dill, and garlic.</p>"
     },
-    "Pike": {
-      "name": "Pike",
-      "description": "<p>狗鱼这种独居的猎手，会一动不动地潜伏在水中，或藏身于茂密的水栖（特征）杂草丛里。当猎物进入触及范围时，它们会以突然、迅捷的猛冲发动攻击，用锋利如刀的牙齿咬住它们的目标。它们不仅会抓鱼，还会叼走水禽，甚至是小型农场动物。狗鱼是一种可怕的捕食者，既贪婪又不知疲倦。凭借其巨大的嘴巴与永不满足的食欲，狗鱼能长到惊人的体型，使大多数其他淡水鱼都相形见绌。</p>\n<p>Pikes, solitary hunters, lie motionless in the water or lurk within dense clusters of aquatic weeds. When prey comes within reach, they strike with a sudden, rapid lunge, seizing their target with razor-sharp teeth. They are known to snatch not just fish but also waterfowl and even small farm animals. The pike is a fearsome predator and is as relentless as they are voracious. With their large mouths and insatiable appetites, pike can grow to astonishing sizes, dwarfing most other freshwater fish.</p>"
-    },
     "Fruit Jam": {
       "name": "水果果酱 Fruit Jam",
       "description": "<p>果酱是通过将压碎或切碎的水果与糖混合制成的。各种类型的水果，包括无花果、葡萄、桃子、李子，甚至柠檬，都可以制成果酱。它的用途非常广泛，可以与乳制品混合，用作面包、饼干或蛋糕的配料，甚至还可以加入沙拉酱中。</p>\n<p>Fruit jam is created by combining crushed or chopped fruits with sugar. Various types of fruits, including figs, grapes, peaches, plums, and even lemons, can be transformed into jam. Its versatility is vast, as it can be mixed with dairy products, used as a topping for bread, biscuits, or cakes, or even incorporated into salad dressings.</p>"
@@ -3328,10 +3268,6 @@
     "Stargazer Lily": {
       "name": "观星百合 Stargazer Lily",
       "description": "<p><em>“当暮色降临，夜空开始变得昏暗时，空气中弥漫着一种期待感。知晓这则传说的人会紧盯天空，等待流星雨最初的征兆。就在那一刻，观星百合开始绽放，花瓣舒展开来，仿佛在回应头顶的天象盛景。甜美的香气充盈四周，携带着星辰的魔法，仿佛这朵花本身已被苍穹所触碰。”</em></p><p>观星百合以其芬芳闻名，在各个地区被种植与采收，用以制作香水。有些人相信，这种花只会在流星雨期间绽放，为其本就迷人的本性增添了一抹神秘色彩。</p>\n<p><em>\"As dusk falls and the night sky begins to darken, there’s a sense of anticipation in the air. Those who know the legend watch the sky closely, waiting for the first signs of a meteor shower. At that very moment, the Stargazer Lily begins to bloom, its petals unfolding as if responding to the celestial display above. The sweet scent fills the air, carrying with it the magic of the stars as if the flower itself has been touched by the heavens.\"</em></p><p>The Stargazer Lily, known for its fragrance, is grown and harvested in various regions to create perfumes. Some believe that the flower blooms only during a meteor shower, adding a mystical element to its already enchanting nature.</p>"
-    },
-    "Shovel": {
-      "name": "Shovel",
-      "description": "<p>铲子是一种用于挖掘以及将松散的泥土、砾石、谷物或积雪从一处搬运到另一处的工具。它也可用于开挖沟渠，以及连根拔除深根杂草和植物。</p>\n<p>The Shovel is a tool used to dig as well as to move loose dirt, gravel, grain, or snow, from one spot to another. It can also be used for making trenches and uprooting deep-rooted weeds and plants.</p>"
     },
     "Screamsickle Shake": {
       "name": "尖啸镰刀摇晃 Screamsickle Shake",
@@ -3461,10 +3397,6 @@
       "name": "铁匠的硬币 Smith's Coin",
       "description": "<p>当顾客在专门商店（例如珠宝店或铁匠铺）下定制订单或委托时，会获得一枚刻有店铺标志的硬币。顾客的名字会被刻在硬币背面，并被要求在账册上签名。一旦物品被制作完成或已购得，持有人便可用该硬币进行交换来取回物品。该硬币的价值等同于所委托物品的费用。若硬币遗失或被盗，它将变得一文不值，并且只有合法所有者才能使用原始硬币取回该物品。</p>\n<p>When a customer places a custom order or commission at a specialty shop, such as a jewelry store or blacksmith, a coin bearing the shop's symbol is provided. The customer's name is etched on the back of the coin, and they are asked to sign a ledger. Once the item has been crafted or procured, the owner can retrieve it by trading in the coin. The value of the coin is equivalent to the cost of the commissioned item. If the coin is lost or stolen, it becomes worthless, and only the rightful owner can retrieve the item using the original coin.</p>"
     },
-    "Goat": {
-      "name": "Goat",
-      "description": "<p>在大多数疆域中，山羊一直被用来获取奶、肉、毛皮和皮革。羊奶常被加工成羊奶酪，农民会以高价出售。其皮革与织物非常适合制作手套、鞋子和其他配饰，因此深受皮革工匠喜爱。</p>\n<p>Goats have been utilized for milk, meat, fur, and skins across most of the realms. Goat milk is often processed into goat cheese, and farmers sell it at a premium. The hide and fabric are perfect for making gloves, shoes, and other accessories, making it a favorite for leatherworkers.</p>"
-    },
     "Carpet Beetle": {
       "name": "地毯甲虫 Carpet Beetle",
       "description": "<p>地毯甲虫几乎无处不在，很可能每个农家炉边都有几只。作为食腐者，它们会吃死去的昆虫、毛皮、毛发、皮肤以及其他腐烂的有机物。它们对活物没有威胁，既不咬也不蜇；在更抽象的科学中，草药师往往用它们来估算死亡的时代。</p>\n<p>Carpet Beetles are almost everywhere, and it is likely that every farmer hearth has a few. As scavengers, they consume dead insects, fur, hair, skin, and other decaying organic matter. They pose no threat to living beings and neither bite nor sting, in the more abstract sciences, herbalists tend to use them to estimate the time of death.</p>"
@@ -3528,10 +3460,6 @@
     "Ruby Spinel": {
       "name": "红宝石尖晶石 Ruby Spinel",
       "description": "<p><em>“他们说，如果你吞下这些，虽然我一点也不推荐，你就能记住法术。现在我倒想知道，一个人怎么会忘记呢？”</em><br /><br /></p>\n<p>尖晶石是一种稀有矿物，并因此被用来替代更为稀有的宝石，例如红宝石。蓝色变种是市场上最昂贵的宝石之一。</p>\n<p><em>\"They say, if you ingest these, although, I wouldn't recommend it one bit, you can remember spells. Now I wonder, how can someone forget?\" </em><br /><br /></p>\n<p>Spinel is a rare mineral, and due to it, used to substitute even rarer ones like rubies. The blue variant is one of the most expensive gemstones on the market.</p>"
-    },
-    "Dragon Fruit": {
-      "name": "Dragon Fruit",
-      "description": "<p>根据地区不同，有时也被称为火龙果。其果实外皮鲜红，带有绿色鳞片，略微类似龙，因此得名。</p>\n<p>Depending on the region, sometimes also called a Pitaya. The fruit has bright red skin and green scales that slightly resemble a dragon, hence the name.</p>"
     },
     "Gloves of Working": {
       "name": "劳作手套 Gloves of Working",
