@@ -47,12 +47,17 @@
       "name": "存在隐秘参战者时显示战斗开始对话框",
       "hint": "启用后，如果开始战斗时有参战者使用隐秘，就会显示对话框，让主持人在 Foundry 执行战斗开始流程前调整各项隐秘设置。"
     },
+    "useToolbeltCover": {
+      "name": "使用 PF2e Toolbelt 自动掩蔽",
+      "hint": "启用且已安装 PF2e Toolbelt v3.60 或更高版本时，忽略指示物上的掩蔽状态，改由 PF2e Toolbelt 的自动掩蔽判定每一对指示物之间的掩蔽调整。"
+    },
     "notifications": {
       "noSocketLib": "PF2e Stealthy 需要启用 socketlib 模组才能平移或缩放至战斗区域。请启用该模组。",
       "target1": "指出位置动作要求恰好选中一个目标指示物。",
       "noToDos": "PF2e Stealthy 在当前情境下没有适用操作：控制了{controlled}个指示物，选中了{targeted}个目标指示物。",
       "avoidNotice": "PF2e Stealthy 替代并扩展了 PF2e Avoid Notice 的功能。请禁用 PF2e Avoid Notice。",
       "keepDeadOut": "死亡或被击败的非玩家角色无法加入战斗。",
+      "toolbeltDisabled": "PF2e Toolbelt 当前已关闭自动掩蔽。请在 PF2e Toolbelt 中启用该功能，PF2e Stealthy 才能使用自动掩蔽。",
       "unrolled": "必须完成所有先攻检定，才能判定隐秘状态。"
     },
     "schema": {
@@ -169,6 +174,7 @@
     "initiative": {
       "vs": "对{name}"
     },
+    "dc": "DC {dc}",
     "avoidanceCheck": {
       "title": "避人耳目检定",
       "secretTitle": "秘密避人耳目检定",
@@ -187,7 +193,8 @@
     },
     "sneak": {
       "observed": "先决条件：处于藏匿或无踪状态",
-      "sneakAdept": "精巧潜行"
+      "sneakAdept": "精巧潜行",
+      "seesInvisible": "识破无形"
     },
     "seek": {
       "was": "原为{stealth}"
@@ -220,8 +227,18 @@
       "confirm": "确认开始战斗",
       "cancelled": "已取消开始战斗",
       "stealthLabel": "先攻／隐秘检定：",
+      "initLabel": "先攻（{stat}）检定：",
       "ineligible": "不符合条件的玩家角色",
-      "ineligibleBecause": "这些玩家角色必须使用“避人耳目”活动，才能获得隐秘状态。"
+      "ineligibleBecause": "这些玩家角色必须使用“避人耳目”活动，才能获得隐秘状态。",
+      "unrolled1": "{name}需要先进行先攻检定，才能判定隐秘状态。",
+      "unrolled2": "{name1}和{name2}需要先进行先攻检定，才能判定隐秘状态。",
+      "unrolled": "{count}名参战者需要先进行先攻检定，才能判定隐秘状态。",
+      "proceedTitle": "PF2e Stealthy - 确认开始战斗",
+      "choice": "{message}<p>是否继续开始战斗？</p>"
+    },
+    "distractingShadows": {
+      "bigger": "潜于阴影：次等掩蔽来自体型更大的生物",
+      "maybe": "潜于阴影：次等掩蔽可能来自体型更大的生物？"
     }
   }
 }
