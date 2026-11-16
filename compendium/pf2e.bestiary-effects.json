@@ -651,7 +651,7 @@
 		},
 		"Effect: Divine Aegis": {
 			"name": "效果：呼神护卫 Divine Aegis",
-			"description": "<p>You gain a +1 circumstance bonus to saving throws against non-divine magical effects and a -1 circumstance penalty to saves against divine effects.</p>"
+			"description": "<p>其在对抗非神术魔法效果的豁免上获得+1环境加值，在对抗神术效果的豁免上则承受-1环境惩罚。</p>"
 		},
 		"Effect: Glowing Spores": {
 			"name": "效果：发光孢子 Glowing Spores",

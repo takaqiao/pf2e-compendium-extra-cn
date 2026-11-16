@@ -67,7 +67,7 @@
 		},
 		"Forge Documents": {
 			"name": "伪造文件 Forge Documents",
-			"description": "<p><strong>Overcome</strong> @Check[society|dc:34]</p>\n<hr />\n<p>The PC prepares several forgeries that might serve as convincing props during the heist.</p>\n<hr />\n<p><strong>Success</strong> The PC creates convincing documents that grant the PCs 1 Edge Point they can use when presenting proper credentials, work orders, or invitations.</p>\n<p><strong>Failure</strong> The PC creates somewhat unconvincing documents. Inform the PCs the forgeries grant 1 Edge Point. However, when they use that Edge Point, it grants no benefit.</p>\n<p><strong>Critical Failure</strong> As failure, but a PC who uses the Edge Point on a failure gets a critical failure instead.</p>"
+			"description": "<p><strong>Overcome</strong> @Check[society|dc:34]</p>\n<hr />\n<p>你准备可能被视为可信道具的伪造品。尝试一次困难或非常困难的社群检定。</p>\n<hr />\n<p><strong>成功</strong> 你制作出令人信服的伪造品并获得1EP，仅能在呈递某种形式的文书时使用。</p>\n<p><strong>失败</strong> 你制作出难以令人信服的文档并获得1点在使用时无法获得好处的EP（但你并不知道）。</p>\n<p><strong>大失败</strong> 如同失败，但试图使用此EP的角色会大失败，即使他们是在骰出失败后使用这点EP。</p>"
 		},
 		"Grudge": {
 			"name": "Grudge",
@@ -335,7 +335,7 @@
 		},
 		"Holy Light": {
 			"name": "灼热圣光 Holy Light",
-			"description": "<p><strong>Aspect</strong> celestial</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> command, Interact</p>\n<hr />\n<p><strong>Effect</strong> Your relic shines with holy light. This creates bright light in a @Template[emanation|distance:30] around the item. Evil creatures in the area are @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}, and can't lower their frightened value below 1 as long as they remain in the light. Fiends in the area increase any weakness to holy they have by 5. You can Sustain this Activation for up to 1 minute.</p>"
+			"description": "<p><strong>性相</strong> 天族</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令，交互</p>\n<hr />\n<p><strong>效果</strong> 你的圣物散发出圣洁的光芒，在物品周围的@Template[emanation|distance:30]内产生明亮光照。区域内的邪恶生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}，并且只要它们仍处于光照中，其惊惧值就无法降至1以下。区域内的魔族所具有的任何圣洁弱点增加5点。你可以维持此启动效果，至多持续1分钟。</p>"
 		},
 		"Flight": {
 			"name": "Flight",
@@ -392,7 +392,7 @@
 		},
 		"Secure Disguises": {
 			"name": "获取伪装 Secure Disguises",
-			"description": "<p><strong>Overcome</strong> @Check[crafting|dc:35], @Check[deception|dc:33], @Check[performance|dc:35], @Check[society|dc:37]</p>\n<hr />\n<p>The PC tries to find disguises of a certain type (guards, for example, or socialites).</p>\n<hr />\n<p><strong>Success</strong> The PC finds or creates useful disguises that grant 1 Edge Point that the PCs can use for maintaining a cover identity.</p>\n<p><strong>Failure</strong> The PC finds no disguises.</p>"
+			"description": "<p><strong>Overcome</strong> @Check[crafting|dc:35], @Check[deception|dc:33], @Check[performance|dc:35], @Check[society|dc:37]</p>\n<hr />\n<p>你寻求购买或制作伪装。尝试一个普通、困难或非常困难的工艺、欺骗、表演或社群检定。</p>\n<hr />\n<p><strong>成功</strong> 你成功购买或制作了伪装，获得1点只能用于掩护身份的EP。</p>\n<p><strong>失败</strong> 你只获得了无法使用的伪装。</p>"
 		},
 		"Steal Keys": {
 			"name": "Steal Keys",
@@ -424,7 +424,7 @@
 		},
 		"Exhale Poison": {
 			"name": "呼吐毒素 Exhale Poison",
-			"description": "<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> You were within the area of an inhaled poison within the last minute; @UUID[Compendium.pf2e.feats-srd.Item.8PMxl8o5YXET58Pn]{Iron Lung}</p>\n<hr />\n<p>You sharply exhale the poison that previously surrounded you in a @Template[cone|distance:15]. Creatures in the area are affected by the poison; the poison's DC and effects are unchanged.</p>"
+			"description": "<p><strong>频率</strong> 每小时一次</p>\n<p><strong>需求</strong> 你在过去1分钟内曾处于吸入类毒素的区域内；@UUID[Compendium.pf2e.feats-srd.Item.8PMxl8o5YXET58Pn]{钢铁肺 Iron Lung}</p>\n<hr />\n<p>你猛然呼出先前环绕你的毒素，形成@Template[cone|distance:15]区域。区域内的生物受到该毒素的影响；毒素的DC与效果保持不变。</p>"
 		},
 		"Repair Crumbled Walls": {
 			"name": "Repair Crumbled Walls",
@@ -547,7 +547,7 @@
 			"description": "<p><strong>Aspect</strong> fire</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> Flames from your relic channel through your body, erupting from your feet, hands, or other limbs with enough force to blast you across the ground and propel you through the air. For 1 minute, you gain a +10-foot status bonus to your Speed and gain a fly Speed equal to your new Speed or 20 feet, whichever is greater. You must end your turn on solid ground, or you fall.</p>"
 		},
 		"Mesmerizing Performance": {
-			"name": "Mesmerizing Performance",
+			"name": "迷魂表演 Mesmerizing Performance",
 			"description": "<p><strong>需求</strong> 动物伙伴的前个动作是@UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{表演 Perform}检定获得成功。动物伙伴保持它的表演，使30尺内目睹其成功表演的一个目标着迷。该目标必须尝试意志豁免。</p>\n<hr />\n<p><strong>成功</strong> 目标不受影响，并临时免疫1小时。</p>\n<p><strong>失败</strong> 目标因动物伙伴的下一个动作而承受@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂 Fascinated}状态，然后临时免疫1小时。</p>\n<p><strong>大失败</strong> 目标因动物伙伴而承受迷魂状态，持续1轮，在迷魂期间目标无法使用反应。</p>"
 		},
 		"Seasonal Boon (Northridge Scholar)": {
