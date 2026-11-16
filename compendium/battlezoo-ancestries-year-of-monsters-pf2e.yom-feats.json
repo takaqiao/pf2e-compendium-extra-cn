@@ -2356,7 +2356,7 @@
     },
     "Unluck Aura": {
       "name": "厄运灵光 Unluck Aura",
-      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>如同一只 厄运小魔怪，你以厄运与彻底痛苦的帷幕环绕自身，毁掉附近他人的日子。持续 1 分钟，你在自身周围获得一个 @Template[type:emanation|distance:20] 的厄运灵光。灵光内除动物、小魔怪和豺狼人以外的生物会变得极其不走运；若它们进入该灵光（或你启动时它们已在灵光内），它们必须以你更高的职业DC或法术DC为目标进行一次 @Check[will|against:class-spell] 意志豁免，结果如下。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.0uyMV50rFnULCA8A]{灵光：厄运灵光}</p>\n<p><strong>成功</strong> 该生物不受影响。它在 24 小时内对厄运灵光暂时免疫。</p>\n<p><strong>失败</strong> 只要该生物处于灵光内，它进行的所有检定都必须掷骰两次并取较差结果。在它每个回合结束时，它可以再尝试一次意志豁免；若该豁免成功，则结束该效果并获得暂时免疫。</p>\n<p><strong>大失败</strong> 同失败，但该生物不能在其回合结束时尝试意志豁免来结束该效果并获得暂时免疫。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.yxgHWK2rTZKKAzDN]{效果：厄运灵光}</p>\n"
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<hr />\n<p>如同一只 厄运小魔怪，你以厄运与彻底痛苦的帷幕环绕自身，毁掉附近他人的日子。持续 1 分钟，你在自身周围获得一个 @Template[type:emanation|distance:20] 的厄运灵光。灵光内除动物、小魔怪和豺狼人以外的生物会变得极其不走运；若它们进入该灵光（或你启动时它们已在灵光内），它们必须以你更高的职业DC或法术DC为目标进行一次 @Check[will|against:class-spell] 意志豁免，结果如下。</p>\n<p>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-effects.Item.0uyMV50rFnULCA8A]{灵光：厄运灵光}</p>\n<p><strong>成功</strong> 该生物不受影响。它在 24 小时内对厄运灵光暂时免疫。</p>\n<p><strong>失败</strong> 只要该生物处于灵光内，它进行的所有检定都必须掷骰两次并取较差结果。在它每个回合结束时，它可以再尝试一次意志豁免；若该豁免成功，则结束该效果并获得暂时免疫。</p>\n<p><strong>大失败</strong> 同失败，但该生物不能在其回合结束时尝试意志豁免来结束该效果并获得暂时免疫。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.yxgHWK2rTZKKAzDN]{效果：不幸灵光}</p>\n"
     },
     "Shattering Shriek": {
       "name": "碎裂尖啸 Shattering Shriek",

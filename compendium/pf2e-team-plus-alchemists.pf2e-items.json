@@ -1234,7 +1234,7 @@
     },
     "Pickled Dragon (Moderate)": {
       "name": "腌渍龙（中级） Pickled Dragon (Moderate)",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这瓶奇异液体中封存着一枚龙的胚胎，一经释放便会被超速催熟至相应的年龄。瓶身破开时，胚胎迅速成长，并释放出一次强力的吐息攻击。吐息武器的伤害类型与形状在制作时选定，与所提供的龙的吐息攻击具有相同的伤害类型、相同的形状。若该龙的吐息攻击不造成伤害，则伤害类型为心灵。腌渍龙获得相应的元素特征。当你启动它时，它会飞行指定的距离，然后使用其吐息攻击。</p><hr /><p>龙胚会长成一头大型的幼年角龙、预兆龙或类似的龙。它至多飞行 40 尺，并使用其吐息攻击，对区域内的每个生物造成 @Damage[4d6|options:area-damage] 伤害（@Check[fortitude|dc:23|basic] 豁免）。豁免大失败的生物还会额外受到 @Damage[2d4[persistent]] 伤害。</p><ul><li><p><strong>锥形</strong> 该区域为 @Template[type:cone|distance:30]。</p></li><li><p><strong>直线</strong> 该区域为 @Template[type:line|distance:45]。</p></li><li><p><strong>爆发</strong> 该区域为 20 尺内的 @Template[type:burst|distance:10]。</p></li></ul><hr /><p><strong>制作需求</strong> 提供一具带有龙类特征、且生物等级不低于该物品等级的生物尸体。腌渍龙的每一种伤害类型与吐息武器的组合都需要一份单独的配方。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p><hr /><p>这瓶奇异液体中封存着一枚龙的胚胎，一经释放便会被超速催熟至相应的年龄。瓶身破开时，胚胎迅速成长，并释放出一次强力的吐息攻击。吐息武器的伤害类型与形状在制作时选定，与所提供的龙的吐息攻击具有相同的伤害类型、相同的形状。若该龙的吐息攻击不造成伤害，则伤害类型为心灵。腌渍龙获得相应的元素特征。当你启动它时，它会飞行指定的距离，然后使用其吐息攻击。</p><hr /><p>龙胚会长成一头大型的青年智角龙、预兆龙或类似的龙。它至多飞行 40 尺，并使用其吐息攻击，对区域内的每个生物造成 @Damage[4d6|options:area-damage] 伤害（@Check[fortitude|dc:23|basic] 豁免）。豁免大失败的生物还会额外受到 @Damage[2d4[persistent]] 伤害。</p><ul><li><p><strong>锥形</strong> 该区域为 @Template[type:cone|distance:30]。</p></li><li><p><strong>直线</strong> 该区域为 @Template[type:line|distance:45]。</p></li><li><p><strong>爆发</strong> 该区域为 20 尺内的 @Template[type:burst|distance:10]。</p></li></ul><hr /><p><strong>制作需求</strong> 提供一具带有龙类特征、且生物等级不低于该物品等级的生物尸体。腌渍龙的每一种伤害类型与吐息武器的组合都需要一份单独的配方。</p>"
     },
     "Pill Furnace (Greater)": {
       "name": "丹炉（高级） Pill Furnace (Greater)",
