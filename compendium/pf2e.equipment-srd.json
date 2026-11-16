@@ -10100,7 +10100,7 @@
 		},
 		"Robe of the Erinys": {
 			"name": "怒魔长袍 Robe of the Erinys",
-			"description": "<p>这件精美的猩红色长袍上以金色绣满恶魔及其武器的图案，仿照隐修的金怒魔修女们的服饰制作。长袍的腰带绣成蛇形，配以金属毒牙。</p>\n<p><strong>启动——咬噬腰带</strong> <span class=\"action-glyph\">2</span>（专注、操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你解下长袍腰带并向你触及范围内的敌人挥击。挥击之时，腰带短暂活化以咬噬该敌，造成 @Damage[2d8[poison]] 伤害，以 @Check[fortitude|dc:18|basic|options:inflicts:sickened|traits:concentrate,manipulate] 豁免。大失败时，目标还会 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p>"
+			"description": "<p>这件精美的猩红色长袍上以金色绣满魔族及其武器的图案，仿照隐修的金怒魔修女们的服饰制作。长袍的腰带绣成蛇形，配以金属毒牙。</p>\n<p><strong>启动——咬噬腰带</strong> <span class=\"action-glyph\">2</span>（专注、操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你解下长袍腰带并向你触及范围内的敌人挥击。挥击之时，腰带短暂活化以咬噬该敌，造成 @Damage[2d8[poison]] 伤害，以 @Check[fortitude|dc:18|basic|options:inflicts:sickened|traits:concentrate,manipulate] 豁免。大失败时，目标还会 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p>"
 		},
 		"Chromatic Jellyfish Oil (Greater)": {
 			"name": "高等繁彩水母精油 Chromatic Jellyfish Oil (Greater)",
