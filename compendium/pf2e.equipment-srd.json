@@ -20870,7 +20870,7 @@
 			"description": "<p>这根象牙魔杖的杖柄上悬挂着红色的羽毛。握着它便能感觉到温柔与静谧。</p><hr /><p><strong>启动</strong> 施法</p>\n<p><strong>频率</strong> 每日一次，外加过载</p>\n<p><strong>效果</strong> 你施放1环级的@UUID[Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n]法术，与此同时你可以尝试反制同一目标身上的某一个心灵效果。在该反制检定中，@UUID[Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n]的法术环级视作比原本高1环级。</p><hr /><p><strong>制作需求</strong> 供一次对应环级的<em>安抚术</em>施法。</p>"
 		},
 		"Cantrip Deck (Full Pack)": {
-			"name": "戏法套牌（全卡包） Cantrip Deck (Full Pack)",
+			"name": "全卡包戏法套牌 Cantrip Deck (Full Pack)",
 			"description": "<p>内希斯的崇拜者发现了一种把戏法封进卡牌的方法，让非施法者也能使用。这副套牌由厚羊皮纸卡牌组成，每张大约是普通扑克牌的一半大小。每张卡牌上都以严谨、简练的字体写明其所含戏法的名称。</p>\n<p>该卡包内含25张卡，《<em>玩家核心</em>》中的每种戏法各一张。</p>\n<p><strong>启动—抽牌</strong> <span class=\"action-glyph\">1</span> 或更多（操作）</p><hr /><p><strong>效果</strong> 你想象自己需要的戏法，使其卡牌升到牌堆顶端，然后抽出这张卡。套牌将该戏法作为1环法术施放，DC为15，法术攻击调整值为+5。戏法生效时，卡牌化为尘土。此启动所需的动作数与你所选戏法的施法动作数相同。</p>"
 		},
 		"Elemental Ammunition (Moderate, Fire)": {
