@@ -5863,7 +5863,7 @@
               "description": "<p>这个治疗者工具包内含看似取之不尽的绷带、草药和品质无可挑剔的治疗物品，使你获得医疗检定的+3物品加值。</p>\n<p>如果你在使用<em>奇妙药剂</em>进行 @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{治疗毒素} 或 @UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN]{治疗疾病} 时，在你掷骰检定之前，这些药剂会尝试反制你正在治疗的毒素或疾病，反制环阶为8，反制调整值为 [[/r 1d20+30 #Counteract]]{+30}。这是一项治疗效果。</p>\n<p>这些药剂不能再次用于为该患者治疗同一种苦难</p>"
             },
             "Obsidian Goggles (Major)": {
-              "name": "高等黑曜目镜",
+              "name": "上等黑曜目镜 Obsidian Goggles (Major)",
               "description": "<p>这副护目镜光滑的黑色镜片不知为何让一切看起来更加明亮。佩戴这副护目镜时，你在涉及视觉的察觉检定上获得+3物品加值。</p><hr /><p><strong>启动——黑暗视觉</strong> <span class=\"action-glyph\">1</span>（操纵）</p>\n<p><strong>频率</strong> 每天任意次数</p>\n<p><strong>效果</strong> 你调整护目镜后，获得<em>高等黑暗视觉</em>，直到你以一个交互动作将其停用，或者该物品不再由你注资，以先发生者为准。</p>"
             },
             "Potion of Undetectability": {
