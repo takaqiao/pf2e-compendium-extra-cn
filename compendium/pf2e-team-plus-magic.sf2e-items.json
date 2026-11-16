@@ -1296,7 +1296,7 @@
     },
     "Bloodstained Bandana (Moderate)": {
       "name": "血染头巾（中级） Bloodstained Bandana (Moderate)",
-      "description": "<p>这件深色头巾被鲜血浸染并结成硬痂，已无法分辨它原先是什么颜色或图案。佩戴此头巾会增强你的嗅觉，但仅限于鲜血之气味。你获得 30 尺射程的不精确血感。血感让你能察觉正承受持续流血伤害、或处于濒死或受伤状态的生物。你也能察觉新近溅出的血液之独立水洼或液滴。GM 裁定下，无血生物不能被你的血感察觉。</p><p>当你以正承受持续流血伤害的遮蔽或隐蔽生物为目标时，平稳检定 DC 减少。遮蔽生物的平稳检定减至 4，隐蔽生物减至 8。</p>"
+      "description": "<p>这件深色头巾被鲜血浸染并结成硬痂，已无法分辨它原先是什么颜色或图案。佩戴此头巾会增强你的嗅觉，但仅限于鲜血之气味。你获得 30 尺射程的模糊血感。血感让你能察觉正承受持续流血伤害、或处于濒死或受伤状态的生物。你也能察觉新近溅出的血液之独立水洼或液滴。GM 裁定下，无血生物不能被你的血感察觉。</p><p>当你以正承受持续流血伤害的遮蔽或隐蔽生物为目标时，平稳检定 DC 减少。遮蔽生物的平稳检定减至 4，隐蔽生物减至 8。</p>"
     },
     "Fortune Dragonbreath Greatpick (Greater)": {
       "name": "命运龙息巨钉钩（高级） Fortune Dragonbreath Greatpick (Greater)",
@@ -1690,7 +1690,7 @@
     },
     "Weave Conduit": {
       "name": "编织导管 Weave Conduit",
-      "description": "<p>当你成为你魔法精质之导管时，你便从构成你传统魔法之具体精质中获得额外益处。每当你使用 @UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.GMpbfdVHBUaiIwSy]{精质导管} 时，依与你传统对应的两种精质之一（即你终焉动作所属之精质）选择一项益处。</p><p><strong>生命</strong> 你于下一回合结束前获得等同你等级的临时生命值。</p><p><strong>物质</strong> 你以最多速度一半之距离快步或行走（若你具备攀爬、游泳或飞行速度，可改为使用相应移动动作）。</p><p><strong>心智</strong> 你 @UUID[Compendium.sf2e.actions.1OagaWtBpVXExToo]{回忆知识}。</p><p><strong>灵魂</strong> 你 @UUID[Compendium.sf2e.actions.BlAOM2X92SI6HMtJ]{搜索}，并获得 30 尺射程之精魂感作为不精确感官，持续至你下一回合结束。精魂感让你能感知该射程内之生物精魂，包括活物、大多数有心智的不死生物以及灵祟。</p>"
+      "description": "<p>当你成为你魔法精质之导管时，你便从构成你传统魔法之具体精质中获得额外益处。每当你使用 @UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.GMpbfdVHBUaiIwSy]{精质导管} 时，依与你传统对应的两种精质之一（即你终焉动作所属之精质）选择一项益处。</p><p><strong>生命</strong> 你于下一回合结束前获得等同你等级的临时生命值。</p><p><strong>物质</strong> 你以最多速度一半之距离快步或行走（若你具备攀爬、游泳或飞行速度，可改为使用相应移动动作）。</p><p><strong>心智</strong> 你 @UUID[Compendium.sf2e.actions.1OagaWtBpVXExToo]{回忆知识}。</p><p><strong>灵魂</strong> 你 @UUID[Compendium.sf2e.actions.BlAOM2X92SI6HMtJ]{搜索}，并获得 30 尺射程之精魂感作为模糊感官，持续至你下一回合结束。精魂感让你能感知该射程内之生物精魂，包括活物、大多数有心智的不死生物以及灵祟。</p>"
     },
     "Omen Dragonbreath Scythe (Major)": {
       "name": "凶兆龙息镰（超级） Omen Dragonbreath Scythe (Major)",

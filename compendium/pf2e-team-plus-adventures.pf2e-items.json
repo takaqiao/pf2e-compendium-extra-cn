@@ -2768,7 +2768,7 @@
     },
     "UYjXxZ8OpSZ0sFx7": {
       "name": "魔兽 Beast",
-      "description": "<p>原始的饥饿在你体内翻涌。血肉也无法满足它，而随着情绪激荡，你感到指甲变硬，牙齿变尖。你可能是受诅咒在满月下变形的兽化人，也可能有一个太古存在被囚禁在你体内，以免它自由游荡。当你最终崩溃时，就会化为獠牙、利爪与兽性狂怒的集合体。</p><p><strong>特征</strong> 魔兽、原能</p><p><strong>属性</strong> 敏捷或力量</p><p><strong>苦痛躁郁</strong> 心灵伤害</p><p><strong>感官</strong> 昏暗视觉与灵敏嗅觉（不精准，30尺），或黑暗视觉</p><p><strong>宿主威压</strong> 在你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}范围内结束回合的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到离开该范围。</p><p><strong>初始怪物能力</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.6Mo1BQiLrSOA8mEc]{顶级掠食者}</p><p><strong>进阶怪物能力</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.AZ0sOQTG77qahuhq]{恐怖扑击}</p><p><strong>高等怪物能力</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.qcUPKfxBnYjcvnvU]{骇人凶兽}</p>",
+      "description": "<p>原始的饥饿在你体内翻涌。血肉也无法满足它，而随着情绪激荡，你感到指甲变硬，牙齿变尖。你可能是受诅咒在满月下变形的兽化人，也可能有一个太古存在被囚禁在你体内，以免它自由游荡。当你最终崩溃时，就会化为獠牙、利爪与兽性狂怒的集合体。</p><p><strong>特征</strong> 魔兽、原能</p><p><strong>属性</strong> 敏捷或力量</p><p><strong>苦痛躁郁</strong> 心灵伤害</p><p><strong>感官</strong> 昏暗视觉与灵敏嗅觉（模糊，30尺），或黑暗视觉</p><p><strong>宿主威压</strong> 在你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}范围内结束回合的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到离开该范围。</p><p><strong>初始怪物能力</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.6Mo1BQiLrSOA8mEc]{顶级掠食者}</p><p><strong>进阶怪物能力</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.AZ0sOQTG77qahuhq]{恐怖扑击}</p><p><strong>高等怪物能力</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.qcUPKfxBnYjcvnvU]{骇人凶兽}</p>",
       "adventuresText": [
         {
           "path": [
@@ -2779,7 +2779,7 @@
             "label"
           ],
           "source": "Low-Light Vision and Scent (imprecise, 30 feet)",
-          "translation": "昏暗视觉与灵敏嗅觉（不精准，30尺）"
+          "translation": "昏暗视觉与灵敏嗅觉（模糊，30尺）"
         },
         {
           "path": [
@@ -4144,7 +4144,7 @@
     },
     "hKQiWbAU7qwqfSAF": {
       "name": "异怪 Aberration",
-      "description": "<p>某种非自然之物潜藏在你的皮肤之下。或许你曾瞥见一颗本不该被看见的星辰闪烁，某种异界力量便藏入你的体内；也或许某种不可知的力量永久改变了你的生理构造。你的怪物诡秘骇人，身躯扭曲变形，违背生物规律，目睹它便足以令人心智崩溃。</p><p><strong>特征</strong> 异怪、异能</p><p><strong>属性</strong> 敏捷或力量</p><p><strong>苦痛躁郁</strong> 心灵伤害</p><p><strong>感官</strong> 昏暗视觉与震颤感知（不精准，15尺），或黑暗视觉</p><p><strong>宿主威压</strong> 在你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}范围内结束回合的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，直到离开该范围。如果生物已经处于呆滞状态，则受到等于你@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值的心灵伤害。</p><p><strong>初始怪物能力</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.03ndNFHr5NkkhGfY]{蠕动躯体}</p><p><strong>进阶怪物能力</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.wvZxkCAUwwKETzzG]{释放恐怖}</p><p><strong>高等怪物能力</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.HHcEB8E1PidijRqC]{异质心智}</p>",
+      "description": "<p>某种非自然之物潜藏在你的皮肤之下。或许你曾瞥见一颗本不该被看见的星辰闪烁，某种异界力量便藏入你的体内；也或许某种不可知的力量永久改变了你的生理构造。你的怪物诡秘骇人，身躯扭曲变形，违背生物规律，目睹它便足以令人心智崩溃。</p><p><strong>特征</strong> 异怪、异能</p><p><strong>属性</strong> 敏捷或力量</p><p><strong>苦痛躁郁</strong> 心灵伤害</p><p><strong>感官</strong> 昏暗视觉与震颤感知（模糊，15尺），或黑暗视觉</p><p><strong>宿主威压</strong> 在你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}范围内结束回合的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，直到离开该范围。如果生物已经处于呆滞状态，则受到等于你@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值的心灵伤害。</p><p><strong>初始怪物能力</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.03ndNFHr5NkkhGfY]{蠕动躯体}</p><p><strong>进阶怪物能力</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.wvZxkCAUwwKETzzG]{释放恐怖}</p><p><strong>高等怪物能力</strong> @UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.HHcEB8E1PidijRqC]{异质心智}</p>",
       "adventuresText": [
         {
           "path": [
@@ -4155,7 +4155,7 @@
             "label"
           ],
           "source": "Low-Light Vision and Tremorsense (imprecise, 15 feet)",
-          "translation": "昏暗视觉与震颤感知（不精准，15尺）"
+          "translation": "昏暗视觉与震颤感知（模糊，15尺）"
         },
         {
           "path": [
@@ -4303,7 +4303,7 @@
     },
     "j2hjQNr4foZpjX5k": {
       "name": "元素宿主 Elemental Vessel",
-      "description": "<p>你的怪物与某种能量具有强烈的亲和力，这种亲和力已经渗透到凡人形态。选择一种元素：气、土、火、金、水或木。</p><p><strong>凡人——能量调谐</strong> 怪物的力量已经渗入你的体内。你获得所列的凡人形态益处，该益处具有凡人特征。</p><p><strong>怪物——苦痛能量</strong> 怪物的身体不断渗出能量。当你使用原本会采用苦痛躁郁伤害类型的潜能能力时，可以改为选择所选元素的一种伤害类型。处于怪物形态时，你也可以选择将无武装攻击从@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态获得的额外伤害改为此伤害类型。你在怪物形态下还获得所列感官。</p><table class=\"pf2e\"><thead><tr><th>元素</th><th>凡人形态益处</th><th>怪物感官</th><th>苦痛躁郁伤害</th></tr></thead><tbody><tr><td>气</td><td>你的@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}、@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}和@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}距离翻倍。如果你具有飞行速度，则飞行速度增加5尺。</td><td>你忽略天气造成的隐蔽。</td><td>钝击或电击</td></tr><tr><td>土</td><td>你对抗试图@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}或@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}你的行为时，强韧或反射DC获得+2环境加值。此加值也适用于你对抗试图使你@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}的法术或效果时进行的豁免检定。</td><td>震颤感知（不精准，15尺）</td><td>钝击或穿刺</td></tr><tr><td>火</td><td>你具有等于自身等级一半加上躁郁状态值的火焰抗力（至少为1）。</td><td>你忽略烟雾造成的隐蔽。</td><td>火焰</td></tr><tr><td>金</td><td>你具有等于自身等级一半加上躁郁状态值的电击抗力（至少为1）。</td><td>震颤感知（不精准，15尺）</td><td>穿刺或挥砍</td></tr><tr><td>水</td><td>你具有等于自身等级一半加上躁郁状态值的寒冷抗力（至少为1）。</td><td>水波感知（不精准，30尺）</td><td>钝击或寒冷</td></tr><tr><td>木</td><td>你对抗毒素的豁免获得+2状态加值。</td><td>震颤感知（不精准，15尺）</td><td>钝击或毒素</td></tr></tbody></table>",
+      "description": "<p>你的怪物与某种能量具有强烈的亲和力，这种亲和力已经渗透到凡人形态。选择一种元素：气、土、火、金、水或木。</p><p><strong>凡人——能量调谐</strong> 怪物的力量已经渗入你的体内。你获得所列的凡人形态益处，该益处具有凡人特征。</p><p><strong>怪物——苦痛能量</strong> 怪物的身体不断渗出能量。当你使用原本会采用苦痛躁郁伤害类型的潜能能力时，可以改为选择所选元素的一种伤害类型。处于怪物形态时，你也可以选择将无武装攻击从@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态获得的额外伤害改为此伤害类型。你在怪物形态下还获得所列感官。</p><table class=\"pf2e\"><thead><tr><th>元素</th><th>凡人形态益处</th><th>怪物感官</th><th>苦痛躁郁伤害</th></tr></thead><tbody><tr><td>气</td><td>你的@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}、@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}和@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}距离翻倍。如果你具有飞行速度，则飞行速度增加5尺。</td><td>你忽略天气造成的隐蔽。</td><td>钝击或电击</td></tr><tr><td>土</td><td>你对抗试图@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}或@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}你的行为时，强韧或反射DC获得+2环境加值。此加值也适用于你对抗试图使你@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}的法术或效果时进行的豁免检定。</td><td>震颤感知（模糊，15尺）</td><td>钝击或穿刺</td></tr><tr><td>火</td><td>你具有等于自身等级一半加上躁郁状态值的火焰抗力（至少为1）。</td><td>你忽略烟雾造成的隐蔽。</td><td>火焰</td></tr><tr><td>金</td><td>你具有等于自身等级一半加上躁郁状态值的电击抗力（至少为1）。</td><td>震颤感知（模糊，15尺）</td><td>穿刺或挥砍</td></tr><tr><td>水</td><td>你具有等于自身等级一半加上躁郁状态值的寒冷抗力（至少为1）。</td><td>水波感知（模糊，30尺）</td><td>钝击或寒冷</td></tr><tr><td>木</td><td>你对抗毒素的豁免获得+2状态加值。</td><td>震颤感知（模糊，15尺）</td><td>钝击或毒素</td></tr></tbody></table>",
       "adventuresText": [
         {
           "path": [
@@ -5260,7 +5260,7 @@
     },
     "yhVMLXISEIqMI2Ss": {
       "name": "敏锐感官 Heightened Senses",
-      "description": "<p>你的宿主获得额外感官。选择灵敏嗅觉、震颤感知或水波感知。</p><p><strong>凡人——微妙感官</strong> 你获得所选感官作为不精准感官，范围为15尺加上5尺×你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态值。</p><p><strong>怪物——怪物感知</strong> 你获得所选感官作为范围30尺的不精准感官，且在@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内，该感官为精确感官。</p>",
+      "description": "<p>你的宿主获得额外感官。选择灵敏嗅觉、震颤感知或水波感知。</p><p><strong>凡人——微妙感官</strong> 你获得所选感官作为模糊感官，范围为15尺加上5尺×你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态值。</p><p><strong>怪物——怪物感知</strong> 你获得所选感官作为范围30尺的模糊感官，且在@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内，该感官为精确感官。</p>",
       "prerequisites": [
         {
           "value": "宿主威压"

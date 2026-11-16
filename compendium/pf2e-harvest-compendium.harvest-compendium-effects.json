@@ -76,7 +76,7 @@
     },
     "Effect: Bunyip Scent Gland": {
       "name": "效果：邦伊普嗅腺 Effect: Bunyip Scent Gland",
-      "description": "<p>由 @UUID[Compendium.pf2e-harvest-compendium.harvest-compendium-equipment.Item.LoM6gw9NSJar3WgQ]{Bunyip Scent Gland} 授予</p><p>你获得嗅觉，作为一种不精确嗅觉，射程为60英尺。</p>\n<p>Granted by @UUID[Compendium.pf2e-harvest-compendium.harvest-compendium-equipment.Item.LoM6gw9NSJar3WgQ]{Bunyip Scent Gland}</p><p>You gain scent as an imprecise scent to a range of 60 feet.</p>"
+      "description": "<p>由 @UUID[Compendium.pf2e-harvest-compendium.harvest-compendium-equipment.Item.LoM6gw9NSJar3WgQ]{Bunyip Scent Gland} 授予</p><p>你获得嗅觉，作为一种模糊嗅觉，射程为60英尺。</p>\n<p>Granted by @UUID[Compendium.pf2e-harvest-compendium.harvest-compendium-equipment.Item.LoM6gw9NSJar3WgQ]{Bunyip Scent Gland}</p><p>You gain scent as an imprecise scent to a range of 60 feet.</p>"
     },
     "Effect: Ghost Bane Oil": {
       "name": "效果：幽灵（特征）克星油 Effect: Ghost Bane Oil",

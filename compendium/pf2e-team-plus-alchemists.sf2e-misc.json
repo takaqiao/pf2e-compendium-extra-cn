@@ -23,7 +23,7 @@
     },
     "Effect: Odoriferous Cheese (Lesser)": {
       "name": "效果：浓臭奶酪（次级） Effect: Odoriferous Cheese (Lesser)",
-      "description": "<p>食用时，这种感受在 1 分钟内极大地提升你的嗅觉。你的气味成为射程 30 的不精确感官。</p>"
+      "description": "<p>食用时，这种感受在 1 分钟内极大地提升你的嗅觉。你的气味成为射程 30 的模糊感官。</p>"
     },
     "Effect: Recondite Sourdough": {
       "name": "效果：奥秘酸面包 Effect: Recondite Sourdough",

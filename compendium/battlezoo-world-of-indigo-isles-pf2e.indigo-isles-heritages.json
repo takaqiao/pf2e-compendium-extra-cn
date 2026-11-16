@@ -35,7 +35,7 @@
     },
     "Osmic Bannog": {
       "name": "奥斯米克·班诺格 Osmic Bannog",
-      "description": "<p>你拥有极其敏锐的嗅觉。你获得不精确嗅觉，射程为30尺。这意味着你可以使用你的嗅觉来确定一个生物的确切位置。若你处于该生物的下风处，GM通常会将射程加倍；若你处于该生物的上风处，GM通常会将射程减半。</p>\n<p>You have an incredibly keen sense of smell. You gain imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine a creature's exact location. The GM will usually double the range if you're downwind from the creature or halve the range if you're upwind.</p>"
+      "description": "<p>你拥有极其敏锐的嗅觉。你获得模糊嗅觉，射程为30尺。这意味着你可以使用你的嗅觉来确定一个生物的确切位置。若你处于该生物的下风处，GM通常会将射程加倍；若你处于该生物的上风处，GM通常会将射程减半。</p>\n<p>You have an incredibly keen sense of smell. You gain imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine a creature's exact location. The GM will usually double the range if you're downwind from the creature or halve the range if you're upwind.</p>"
     },
     "Landwalker Chochori": {
       "name": "踏地者 乔科乔里 Landwalker Chochori",
@@ -127,7 +127,7 @@
     },
     "Fifth-of-Five, the Strangler": {
       "name": "五分之五，绞杀者 Fifth-of-Five, the Strangler",
-      "description": "<p>你宣称与五分之一·五、众指者、沼泽之物、终末吐息有亲缘关系。你的触须状须鬃对水中的变化异常敏感，而你那修长、多关节的手指比看起来要强壮得多。你获得不精确的波感官，射程为30英尺，使你能够感知周围水中的运动；并且你用双手@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒抱}敌人时，进行运动检定获得+1环境加值。</p>\n<p>You claim kinship to the Fifth-of-Five, the Many- Fingered-One, the Bog-Thing, the Last Breath. Your whiskery barbels are unusually sensitive to changes in the water, and your long, many-jointed fingers are far stronger than they look. You gain imprecise wavesense with a range of 30 feet, allowing you to sense motion in the water around you, and you gain a +1 circumstance bonus to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} foes with your hands.</p>"
+      "description": "<p>你宣称与五分之一·五、众指者、沼泽之物、终末吐息有亲缘关系。你的触须状须鬃对水中的变化异常敏感，而你那修长、多关节的手指比看起来要强壮得多。你获得模糊的波感官，射程为30英尺，使你能够感知周围水中的运动；并且你用双手@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒抱}敌人时，进行运动检定获得+1环境加值。</p>\n<p>You claim kinship to the Fifth-of-Five, the Many- Fingered-One, the Bog-Thing, the Last Breath. Your whiskery barbels are unusually sensitive to changes in the water, and your long, many-jointed fingers are far stronger than they look. You gain imprecise wavesense with a range of 30 feet, allowing you to sense motion in the water around you, and you gain a +1 circumstance bonus to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} foes with your hands.</p>"
     },
     "Vigilant Bannog": {
       "name": "警醒的班诺格 Vigilant Bannog",
@@ -167,7 +167,7 @@
     },
     "Wavespeaker Chochori": {
       "name": "浪语者乔科乔里 Wavespeaker Chochori",
-      "description": "<p>当你对周围的波浪说话时，几乎感觉它们也能回应你，警告你附近各种正在移动的生物和物体。你获得不精确的波浪感官，射程为30英尺，使你能够感知周围水中的运动。你还获得+2环境加值，用于在你的波浪感官射程内定位在水下移动的未侦测生物。</p>\n<p>When you speak to the waves around you, it almost feels like they can speak back to you, warning you of all sorts of nearby creatures and objects in motion. You gain imprecise wavesense with a range of 30 feet, allowing you to sense motion in the water around you. You also gain a +2 circumstance bonus to locate undetected creatures in motion underwater within the range of your wavesense.</p>"
+      "description": "<p>当你对周围的波浪说话时，几乎感觉它们也能回应你，警告你附近各种正在移动的生物和物体。你获得模糊的波浪感官，射程为30英尺，使你能够感知周围水中的运动。你还获得+2环境加值，用于在你的波浪感官射程内定位在水下移动的未侦测生物。</p>\n<p>When you speak to the waves around you, it almost feels like they can speak back to you, warning you of all sorts of nearby creatures and objects in motion. You gain imprecise wavesense with a range of 30 feet, allowing you to sense motion in the water around you. You also gain a +2 circumstance bonus to locate undetected creatures in motion underwater within the range of your wavesense.</p>"
     },
     "Third-of-Five, the Hungry": {
       "name": "五中第三者，饥饿者 Third-of-Five, the Hungry",

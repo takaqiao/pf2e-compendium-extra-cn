@@ -116,7 +116,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60英尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60英尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Gossip Lore": {
@@ -280,7 +280,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60英尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60英尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Frightful Presence": {
@@ -387,11 +387,11 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Wavesense (Imprecise) 30 feet": {
-          "name": "波感（不精确）30尺 Wavesense (Imprecise) 30 feet",
+          "name": "波感（模糊）30尺 Wavesense (Imprecise) 30 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Wavesense]</p>"
         },
         "Experienced Traveler": {
@@ -482,7 +482,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Frightful Presence": {
@@ -565,11 +565,11 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60 尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60 尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Wavesense (Imprecise) 40 feet": {
-          "name": "波感（不精确）40尺 Wavesense (Imprecise) 40 feet",
+          "name": "波感（模糊）40尺 Wavesense (Imprecise) 40 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Wavesense]</p>"
         },
         "Experienced Traveler": {
@@ -727,7 +727,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Frightful Presence": {
@@ -963,7 +963,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Frightful Presence": {
@@ -1082,7 +1082,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60英尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60英尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Gossip Lore": {
@@ -1164,7 +1164,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60 英尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60 英尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Games Lore": {
@@ -1352,7 +1352,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60 尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60 尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Frightful Presence": {
@@ -1505,7 +1505,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60 尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60 尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Frightful Presence": {
@@ -1597,7 +1597,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Gossip Lore": {
@@ -1747,7 +1747,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Games Lore": {
@@ -1957,7 +1957,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Frightful Presence": {
@@ -2138,7 +2138,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60英尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60英尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Frightful Presence": {
@@ -2201,7 +2201,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Gossip Lore": {
@@ -2275,11 +2275,11 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Wavesense (Imprecise) 40 feet": {
-          "name": "波感（不精确）40 尺 Wavesense (Imprecise) 40 feet",
+          "name": "波感（模糊）40 尺 Wavesense (Imprecise) 40 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Wavesense]</p>"
         },
         "Experienced Traveler": {
@@ -2399,11 +2399,11 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60 尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60 尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Wavesense (Imprecise) 40 feet": {
-          "name": "波感知（不精确）40尺 Wavesense (Imprecise) 40 feet",
+          "name": "波感知（模糊）40尺 Wavesense (Imprecise) 40 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Wavesense]</p>"
         },
         "Experienced Traveler": {
@@ -2569,11 +2569,11 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60英尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60英尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Wavesense (Imprecise) 40 feet": {
-          "name": "波感知（不精确）40尺 Wavesense (Imprecise) 40 feet",
+          "name": "波感知（模糊）40尺 Wavesense (Imprecise) 40 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Wavesense]</p>"
         },
         "Experienced Traveler": {
@@ -2779,7 +2779,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60英尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60英尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Frightful Presence": {
@@ -2897,11 +2897,11 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60 尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60 尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Wavesense (Imprecise) 30 feet": {
-          "name": "波感（非精确）30英尺 Wavesense (Imprecise) 30 feet",
+          "name": "波感（模糊）30英尺 Wavesense (Imprecise) 30 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Wavesense]</p>"
         },
         "Experienced Traveler": {
@@ -3040,7 +3040,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Games Lore": {
@@ -3153,7 +3153,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60英尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60英尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Gossip Lore": {
@@ -3387,7 +3387,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60英尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60英尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Games Lore": {
@@ -3694,7 +3694,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Frightful Presence": {
@@ -3765,7 +3765,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60英尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60英尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Frightful Presence": {
@@ -3844,7 +3844,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60 尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60 尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Games Lore": {
@@ -3937,7 +3937,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Frightful Presence": {
@@ -4125,7 +4125,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60 尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60 尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Gossip Lore": {
@@ -4292,7 +4292,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
         },
         "Scent (Imprecise) 60 feet": {
-          "name": "嗅觉（不精确）60尺 Scent (Imprecise) 60 feet",
+          "name": "嗅觉（模糊）60尺 Scent (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
         },
         "Games Lore": {

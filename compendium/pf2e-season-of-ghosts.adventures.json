@@ -6409,7 +6409,7 @@
           "items": {
             "Web Sense": {
               "name": "蛛网感知 Web Sense",
-              "description": "<p>蜘蛛集群具有不精确的震颤感知，可以察觉接触其蛛网的生物所产生的振动。</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+              "description": "<p>蜘蛛集群具有模糊的震颤感知，可以察觉接触其蛛网的生物所产生的振动。</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
             },
             "Swarm Mind": {
               "name": "虫群心智 Swarm Mind",
@@ -7649,7 +7649,7 @@
             },
             "Web Sense": {
               "name": "蛛网感知 Web Sense",
-              "description": "<p>梦境蜘蛛拥有不精确的@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]{震动感知}，以侦测接触其蛛网的生物所产生的振动。</p>"
+              "description": "<p>梦境蜘蛛拥有模糊的@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]{震动感知}，以侦测接触其蛛网的生物所产生的振动。</p>"
             },
             "Eerie Flexibility": {
               "name": "诡异的灵活性 Eerie Flexibility",
@@ -8645,7 +8645,7 @@
               "name": "叶之结社 Leaf"
             },
             "Tremorsense (Imprecise) 30 feet": {
-              "name": "震颤感知（不精确）30尺 Tremorsense (Imprecise) 30 feet",
+              "name": "震颤感知（模糊）30尺 Tremorsense (Imprecise) 30 feet",
               "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
             },
             "Quick Capture": {
@@ -9122,7 +9122,7 @@
             },
             "Web Sense": {
               "name": "蛛网感知 Web Sense",
-              "description": "<p>猎蛛具有不精确的震颤感知，可以察觉接触其蛛网的生物所产生的振动。</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+              "description": "<p>猎蛛具有模糊的震颤感知，可以察觉接触其蛛网的生物所产生的振动。</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
             },
             "Spring Upon Prey": {
               "name": "扑向猎物 Spring Upon Prey",
@@ -9564,7 +9564,7 @@
             },
             "Web Sense": {
               "name": "蛛网感知 Web Sense",
-              "description": "<p>猎蛛具有不精确的震颤感知，可以侦测生物接触其蛛网时引起的振动。</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+              "description": "<p>猎蛛具有模糊的震颤感知，可以侦测生物接触其蛛网时引起的振动。</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
             },
             "Spring Upon Prey": {
               "name": "扑向猎物 Spring Upon Prey",
@@ -10037,7 +10037,7 @@
             },
             "Urban Legend": {
               "name": "都市传说 Urban Legend",
-              "description": "<p>可以被识破的能力包括他对物理伤害的抗力、他的骇人气势、他的打击造成的挥砍伤害，以及他的7环天生法术。</p>\n<hr />\n<p>脑生子仅靠先于他们而来的名声来维持。无心智生物免疫脑生子，且无法察觉到它们。</p>\n<p>脑生子的体型、特征和物品，以及其攻击的外观，都与察觉到它们的敌人所预期的一致。如果敌人预期看到不同的事物，则由脑生子选择显现哪一种。如果任何能够察觉到脑生子的生物相信脑生子拥有下列能力之一，则脑生子便拥有该能力。</p>\n<p>生物可以使用@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}或@UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{察言观色}（对抗脑生子的欺瞒DC）来尝试识破某一项单独的能力。如果在任何时候，没有任何察觉到脑生子的生物相信该能力存在，脑生子便立即失去该能力。如果敌人预期的具体细节不同，例如一方认为脑生子免疫火焰，另一方认为它免疫预言，则由脑生子选择其中一项来拥有。</p>\n<ul>\n<li><strong>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]{震动感知}</strong>（不精确）100尺</li>\n<li><strong>免疫</strong>一种伤害类型、魔法学派或状态</li>\n<li><strong>弱点</strong> 10，针对一种非精神伤害类型</li>\n<li><strong>抗力</strong> 10，对物理伤害，但冷铁或银除外</li>\n<li><strong>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]{骇人气势}</strong>（灵光、情绪、恐惧、心灵）100尺，DC 28</li>\n<li><strong>[[/r 1d6]]{1d6}额外伤害</strong>：打击时造成一种某个敌人相信其具备的类型</li>\n<li><strong>额外法术</strong> @UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{幻痛术}和@UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]{暗影爆破}，均为6环</li>\n</ul>"
+              "description": "<p>可以被识破的能力包括他对物理伤害的抗力、他的骇人气势、他的打击造成的挥砍伤害，以及他的7环天生法术。</p>\n<hr />\n<p>脑生子仅靠先于他们而来的名声来维持。无心智生物免疫脑生子，且无法察觉到它们。</p>\n<p>脑生子的体型、特征和物品，以及其攻击的外观，都与察觉到它们的敌人所预期的一致。如果敌人预期看到不同的事物，则由脑生子选择显现哪一种。如果任何能够察觉到脑生子的生物相信脑生子拥有下列能力之一，则脑生子便拥有该能力。</p>\n<p>生物可以使用@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}或@UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{察言观色}（对抗脑生子的欺瞒DC）来尝试识破某一项单独的能力。如果在任何时候，没有任何察觉到脑生子的生物相信该能力存在，脑生子便立即失去该能力。如果敌人预期的具体细节不同，例如一方认为脑生子免疫火焰，另一方认为它免疫预言，则由脑生子选择其中一项来拥有。</p>\n<ul>\n<li><strong>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]{震动感知}</strong>（模糊）100尺</li>\n<li><strong>免疫</strong>一种伤害类型、魔法学派或状态</li>\n<li><strong>弱点</strong> 10，针对一种非精神伤害类型</li>\n<li><strong>抗力</strong> 10，对物理伤害，但冷铁或银除外</li>\n<li><strong>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.etMnv73EIdEZrYYu]{骇人气势}</strong>（灵光、情绪、恐惧、心灵）100尺，DC 28</li>\n<li><strong>[[/r 1d6]]{1d6}额外伤害</strong>：打击时造成一种某个敌人相信其具备的类型</li>\n<li><strong>额外法术</strong> @UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{幻痛术}和@UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]{暗影爆破}，均为6环</li>\n</ul>"
             },
             "Fear of Flutes": {
               "name": "恐惧长笛 Fear of Flutes",
@@ -10571,7 +10571,7 @@
               "name": "躯体 Body"
             },
             "Tremorsense (Imprecise) 30 feet": {
-              "name": "震颤感知（不精确）30尺 Tremorsense (Imprecise) 30 feet",
+              "name": "震颤感知（模糊）30尺 Tremorsense (Imprecise) 30 feet",
               "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
             },
             "Gory Appearance": {
@@ -13475,7 +13475,7 @@
               "name": "躯体 Body"
             },
             "Tremorsense (Imprecise) 30 feet": {
-              "name": "震颤感知（不精确）30尺 Tremorsense (Imprecise) 30 feet",
+              "name": "震颤感知（模糊）30尺 Tremorsense (Imprecise) 30 feet",
               "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
             },
             "Mundane Appearance": {
@@ -13895,7 +13895,7 @@
               "name": "刺针 Stinger"
             },
             "Tremorsense (Imprecise) 60 feet": {
-              "name": "震动感知（不精确）60尺 Tremorsense (Imprecise) 60 feet",
+              "name": "震动感知（模糊）60尺 Tremorsense (Imprecise) 60 feet",
               "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
             },
             "Reactive Strike (Stinger Only)": {

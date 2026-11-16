@@ -108,7 +108,7 @@
     },
     "Beast": {
       "name": "野兽 Beast",
-      "description": "<p>层面是野生造物——具魔法之力或智力远超寻常野兽之动物。它获得野兽特征，具30尺不精确嗅觉，并将其某项速度增加10尺。霜巨能讲精类语。</p>"
+      "description": "<p>层面是野生造物——具魔法之力或智力远超寻常野兽之动物。它获得野兽特征，具30尺模糊嗅觉，并将其某项速度增加10尺。霜巨能讲精类语。</p>"
     },
     "Metal": {
       "name": "金 Metal",
@@ -4105,7 +4105,7 @@
     },
     "Uncanny Stalker": {
       "name": "诡异潜行者 Uncanny Stalker",
-      "description": "<p>层面获得30尺精确范围之血腥嗅觉，或30尺不精确嗅觉。</p>"
+      "description": "<p>层面获得30尺精确范围之血腥嗅觉，或30尺模糊嗅觉。</p>"
     },
     "Capture Soul": {
       "name": "捕灵 Capture Soul",
@@ -5199,7 +5199,7 @@
     },
     "Aquatic Sense": {
       "name": "水栖感官 Aquatic Sense",
-      "description": "<p>层面获得30尺精确范围之血腥嗅觉，或30尺不精确范围之波动感官（由你选择）。</p>"
+      "description": "<p>层面获得30尺精确范围之血腥嗅觉，或30尺模糊范围之波动感官（由你选择）。</p>"
     },
     "Terminus of Bounded Might": {
       "name": "界限威能终焉 Terminus of Bounded Might",

@@ -239,7 +239,7 @@
     },
     "Echoing Earth": {
       "name": "回响大地 Echoing Earth",
-      "description": "<p>通过专注于脚下大地，你暂时获得对地面震动的高度敏感。直到你下一回合结束，你获得 10 尺的震感作为不精确感官，能感知大地中的震动。若你为自然传奇，震感的射程提升至 20 尺。</p>"
+      "description": "<p>通过专注于脚下大地，你暂时获得对地面震动的高度敏感。直到你下一回合结束，你获得 10 尺的震感作为模糊感官，能感知大地中的震动。若你为自然传奇，震感的射程提升至 20 尺。</p>"
     },
     "Desperate Repair": {
       "name": "绝境修理 Desperate Repair",
@@ -599,7 +599,7 @@
     },
     "Hypersenses": {
       "name": "超感官 Hypersenses",
-      "description": "<p>你的感知能力已坚定到能透过高敏锐感官来感知。在每日准备期间，从下列感官中选择一项使你能使用至下次每日准备前。若你选择一项你已不精确具备之感官，你可改为将该感官于所列射程内的精确度提升至精确。</p><ul><li>20 尺射程的回声定位作为精确感官。</li><li>30 尺射程的气味作为不精确感官；若你已具备不精确气味感官，则于 20 尺内作为精确感官。</li><li>30 尺内的震感作为不精确感官。</li><li>30 尺内的波感作为不精确感官。</li></ul><p>@UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.Xu3thEXzrCtxjcZw]{效果：超感官}</p>"
+      "description": "<p>你的感知能力已坚定到能透过高敏锐感官来感知。在每日准备期间，从下列感官中选择一项使你能使用至下次每日准备前。若你选择一项你已作为模糊感官具备之感官，你可改为将该感官于所列射程内的精确度提升至精确。</p><ul><li>20 尺射程的回声定位作为精确感官。</li><li>30 尺射程的气味作为模糊感官；若你已具备模糊气味感官，则于 20 尺内作为精确感官。</li><li>30 尺内的震感作为模糊感官。</li><li>30 尺内的波感作为模糊感官。</li></ul><p>@UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.Xu3thEXzrCtxjcZw]{效果：超感官}</p>"
     },
     "Devastating Finish": {
       "name": "毁灭终结 Devastating Finish",
@@ -1167,7 +1167,7 @@
     },
     "Moonscarred": {
       "name": "月伤 Moonscarred",
-      "description": "<p>纵然你免于成为变形生物，但月升之时仍有原初之力在你之内躁动。日落起至日出前，你获得 30 尺范围的不精确气味感官、等同你等级的临时生命值；并可对与你已治愈诅咒相关的动物（例如你曾为狼人则为犬科动物）提问、获得回答，并以交涉技能交流。多数情况下，野生动物会愿意听你陈说。</p><p>@UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.PFgq0FHmrZn6z4bW]{效果：月伤}</p>"
+      "description": "<p>纵然你免于成为变形生物，但月升之时仍有原初之力在你之内躁动。日落起至日出前，你获得 30 尺范围的模糊气味感官、等同你等级的临时生命值；并可对与你已治愈诅咒相关的动物（例如你曾为狼人则为犬科动物）提问、获得回答，并以交涉技能交流。多数情况下，野生动物会愿意听你陈说。</p><p>@UUID[Compendium.sf2e-team-plus-feats.sf2e-misc.Item.PFgq0FHmrZn6z4bW]{效果：月伤}</p>"
     },
     "Ripples and Whispers": {
       "name": "涟漪低语 Ripples and Whispers",
@@ -1195,7 +1195,7 @@
     },
     "Developed Sensory Response": {
       "name": "发达感官反应 Developed Sensory Response",
-      "description": "<p>你已学会当主要感官在长期暴露下被关闭时如何适应你的其他感官。你以你的求生（替代察觉）尝试 [[/act seek skill=survival]]，并将你的模糊感官视为不精确感官来执行该检定。</p><p>你可以在使用「调查」或「搜索」探索活动时使用「发达感官反应」，但你须以这些探索活动通常允许速度的一半移动。</p>"
+      "description": "<p>你已学会当主要感官在长期暴露下被关闭时如何适应你的其他感官。你以你的求生（替代察觉）尝试 [[/act seek skill=survival]]，并将你的朦胧感官视为模糊感官来执行该检定。</p><p>你可以在使用「调查」或「搜索」探索活动时使用「发达感官反应」，但你须以这些探索活动通常允许速度的一半移动。</p>"
     },
     "Fungal Ward": {
       "name": "真菌守护 Fungal Ward",

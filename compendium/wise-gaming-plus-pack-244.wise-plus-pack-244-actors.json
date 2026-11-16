@@ -1177,7 +1177,7 @@
           "name": "刺针 Stinger"
         },
         "Tremorsense (Imprecise) 60 feet": {
-          "name": "震颤感知（不精确）60尺 Tremorsense (Imprecise) 60 feet",
+          "name": "震颤感知（模糊）60尺 Tremorsense (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
         },
         "Reactive Strike (Stinger Only)": {

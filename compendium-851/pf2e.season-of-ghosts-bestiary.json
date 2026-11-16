@@ -613,7 +613,7 @@
           "name": "钳击 Pincer"
         },
         "Tremorsense (Imprecise) 60 feet": {
-          "name": "震动感知（不精确）60尺 Tremorsense (Imprecise) 60 feet",
+          "name": "震动感知（模糊）60尺 Tremorsense (Imprecise) 60 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
         },
         "Stinger": {
@@ -1345,7 +1345,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         },
         "Tremorsense (Imprecise) 30 feet": {
-          "name": "震颤感知（不精确）30尺 Tremorsense (Imprecise) 30 feet",
+          "name": "震颤感知（模糊）30尺 Tremorsense (Imprecise) 30 feet",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
         }
       }

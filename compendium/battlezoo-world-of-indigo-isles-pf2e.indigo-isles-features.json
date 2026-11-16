@@ -20,7 +20,7 @@
     },
     "Keen Snout": {
       "name": "敏锐口鼻 Keen Snout",
-      "description": "<p>你拥有敏锐的嗅觉。你获得射程为30英尺的不精确嗅觉。这意味着你可以用你的嗅觉来确定一个生物的确切位置。GM通常会在你位于生物下风处时将射程加倍，或在你位于生物上风处时将射程减半。</p>\n<p>当你尝试定位处于你嗅觉射程内的未探知生物时，你的察觉检定还会获得+2环境加值。</p>\n<p>You have an acute sense of smell. You gain imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine a creature's exact location. The GM will usually double the range if you're downwind from the creature or halve the range if you're upwind.</p>\n<p>You also gain a +2 circumstance bonus to Perception checks when trying to locate an undetected creature within range of your scent.</p>"
+      "description": "<p>你拥有敏锐的嗅觉。你获得射程为30英尺的模糊嗅觉。这意味着你可以用你的嗅觉来确定一个生物的确切位置。GM通常会在你位于生物下风处时将射程加倍，或在你位于生物上风处时将射程减半。</p>\n<p>当你尝试定位处于你嗅觉射程内的未探知生物时，你的察觉检定还会获得+2环境加值。</p>\n<p>You have an acute sense of smell. You gain imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine a creature's exact location. The GM will usually double the range if you're downwind from the creature or halve the range if you're upwind.</p>\n<p>You also gain a +2 circumstance bonus to Perception checks when trying to locate an undetected creature within range of your scent.</p>"
     },
     "Dream Susceptibility": {
       "name": "梦境易感性 Dream Susceptibility",

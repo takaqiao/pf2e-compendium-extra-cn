@@ -742,7 +742,7 @@
     },
     "Bunyip Scent Gland": {
       "name": "邦尼普嗅腺 Bunyip Scent Gland",
-      "description": "<p><strong>启动 </strong><span class=\"action-glyph\">1</span> 交互</p>\n<hr />\n<p>这个腺体很小且油腻。吃下这个腺体后，你获得嗅觉，作为一种不精确嗅觉，射程为60英尺。你也获得血液嗅觉，使你可以在最远1英里外嗅到水体中的血液。这些感官持续1小时。</p>\n<p>@UUID[Compendium.pf2e-harvest-compendium.harvest-compendium-effects.KmoohUKlNuhGzN30]{效果: Bunyip Scent Gland}</p>\n<p><strong>Activate </strong><span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This gland is small and oily. After eating this gland, you gain scent as an imprecise scent to a range of 60 feet. You also gain blood scent, which allows you to smell blood in a body of water from up to 1 mile away. These senses last for 1 hour.</p>\n<p>@UUID[Compendium.pf2e-harvest-compendium.harvest-compendium-effects.KmoohUKlNuhGzN30]{Effect: Bunyip Scent Gland}</p>"
+      "description": "<p><strong>启动 </strong><span class=\"action-glyph\">1</span> 交互</p>\n<hr />\n<p>这个腺体很小且油腻。吃下这个腺体后，你获得嗅觉，作为一种模糊嗅觉，射程为60英尺。你也获得血液嗅觉，使你可以在最远1英里外嗅到水体中的血液。这些感官持续1小时。</p>\n<p>@UUID[Compendium.pf2e-harvest-compendium.harvest-compendium-effects.KmoohUKlNuhGzN30]{效果: Bunyip Scent Gland}</p>\n<p><strong>Activate </strong><span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This gland is small and oily. After eating this gland, you gain scent as an imprecise scent to a range of 60 feet. You also gain blood scent, which allows you to smell blood in a body of water from up to 1 mile away. These senses last for 1 hour.</p>\n<p>@UUID[Compendium.pf2e-harvest-compendium.harvest-compendium-effects.KmoohUKlNuhGzN30]{Effect: Bunyip Scent Gland}</p>"
     },
     "Unprocessed Viper Venom": {
       "name": "未加工的蝰蛇毒液 Unprocessed Viper Venom",
