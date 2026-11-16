@@ -1105,7 +1105,7 @@
 					"name": "牧师法术 Cleric Spells"
 				},
 				"Religious Symbol (Wooden)": {
-					"name": "圣徽（木制） Religious Symbol (Wooden)",
+					"name": "木制圣徽 Religious Symbol (Wooden)",
 					"description": "<p>这个木质的小片上印有代表神灵的图画。一些神术施法者，如牧师，可以使用信仰神祇的来使用某些能力并施放一些法术。圣徽可被穿戴在身上（当作胸针或挂在链子上）或手持使用。</p>"
 				},
 				"Detect Magic": {
@@ -1969,7 +1969,7 @@
 			}
 		},
 		"Zombie Shambler (BB)": {
-			"name": "蹒跚僵尸 Zombie Shambler (BB)",
+			"name": "蹒跚丧尸 Zombie Shambler (BB)",
 			"publicNotes": "<p>蹒跚丧尸若形成庞大群体，则会变为缓慢前行的可怖危险。丧尸唯一的欲求便是啃食活物。丧尸作为永不停歇地蹒跚前行且不会思考的死亡之兆，只有将其摧毁才能使之停步。</p>",
 			"items": {
 				"Grab": {
@@ -1988,11 +1988,11 @@
 					"name": "拳头 Fist"
 				}
 			},
-			"prototypeToken": "蹒跚僵尸",
+			"prototypeToken": "蹒跚丧尸",
 			"data": {
 				"placeHolder": "placeHolder"
 			},
-			"tokenName": "蹒跚僵尸"
+			"tokenName": "蹒跚丧尸"
 		},
 		"Orc Scrapper (BB)": {
 			"name": "兽人拳手 Orc Scrapper (BB)",
@@ -2669,8 +2669,8 @@
 			}
 		},
 		"Goblin Commando (BB)": {
-			"name": "地精指挥官 Goblin Commando (BB)",
-			"publicNotes": "<p>这些小型的类人生物有着绿或灰色的皮肤，大大的头颅与招风耳。虽然有些地精有教养，工作勤奋被类人社群承认为优秀的一员，但大部分的地精是冲动又邪恶的生物，为了愉悦而发洩破坏欲。这些地精为了刹那间的愉悦去屠宰家畜、偷小孩或烧房子没什么问题。牠们热衷对高大的人类生物（牠们称这些人为「长脚」)恶劣的恶作剧。</p>\n<p>牠们是地精在抢劫时理论上的领袖。可实际上，在战斗打响后地精指挥官很少会继续管牠的战友。牠们往往把责任抛在脑后，更喜欢冲到前线在自己部落成员的面前赢得更多荣耀。</p>",
+			"name": "地精突击手 Goblin Commando (BB)",
+			"publicNotes": "<p>这些小型的类人生物有着绿或灰色的皮肤，大大的头颅与招风耳。虽然有些地精有教养，工作勤奋被类人社群承认为优秀的一员，但大部分的地精是冲动又邪恶的生物，为了愉悦而发洩破坏欲。这些地精为了刹那间的愉悦去屠宰家畜、偷小孩或烧房子没什么问题。牠们热衷对高大的人类生物（牠们称这些人为「长脚」)恶劣的恶作剧。</p>\n<p>牠们是地精在抢劫时理论上的领袖。可实际上，在战斗打响后地精突击手很少会继续管牠的战友。牠们往往把责任抛在脑后，更喜欢冲到前线在自己部落成员的面前赢得更多荣耀。</p>",
 			"items": {
 				"Arrows": {
 					"name": "箭 Arrows",
@@ -2686,7 +2686,7 @@
 				},
 				"Goblin Scuttle": {
 					"name": "地精快跑 Goblin Scuttle",
-					"description": "<p>如果一个地精的盟友在地精指挥官旁边的格子结束一个移动动作，指挥官可以用反应动作来快步。</p>"
+					"description": "<p>如果一个地精的盟友在地精突击手旁边的格子结束一个移动动作，突击手可以用反应动作来快步。</p>"
 				},
 				"Shortbow (oi2Q)": {
 					"name": "短弓 Shortbow"

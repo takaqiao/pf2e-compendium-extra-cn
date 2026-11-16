@@ -2012,7 +2012,7 @@
               "description": "<p>这套由绷带、草药和缝合工具组成的工具包，是进行医学检定以@UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{实施急救}、@UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN]{治疗疾病}、@UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{治疗毒素}或@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤口}所必需。若你佩戴你的治疗者工具包，你可以将其作为使用它的动作的一部分抽出并放回。</p>\n<p>This kit of bandages, herbs, and suturing tools is necessary for Medicine checks to @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{Administer First Aid}, @UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN]{Treat Disease}, @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{Treat Poison}, or @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}. If you wear your healer's toolkit, you can draw and replace it as part of the action that uses it.</p>"
             },
             "Religious Symbol (Wooden)": {
-              "name": "宗教圣徽（木制）\nReligious Symbol (Wooden)",
+              "name": "木制圣徽\nReligious Symbol (Wooden)",
               "description": "<p>这件木制或银制物品上饰有一幅代表某位神祇的图像。一些神圣施法者，例如牧师，可以使用其神祇的宗教圣徽来运用某些能力并施放一些法术。宗教圣徽可以用链子或别针佩戴在身上，也可以手持。</p>\n<p>This piece of wood or silver is emblazoned with an image representing a deity. Some divine spellcasters, such as clerics, can use a religious symbol of their deity to use certain abilities and cast some spells. A religious symbol can be worn on the body on a chain or pin, or can be held.</p>"
             },
             "Scimitar": {
@@ -2150,7 +2150,7 @@
               "description": "<p>这件护甲只是由一层厚重的绗缝布料构成，但有时因为非常便宜而被使用。软垫护甲比其他类型的护甲更容易受到损坏并被摧毁。重甲的价格中包含一件软垫护甲内衬，尽管在重甲下穿着时它会失去舒适特征。你可以只穿那件软垫护甲内衬来睡觉、在你的重甲被摧毁时穿着，或在其他未穿着完整重甲的情况下穿着。这使你能够保持魔法护甲已投入，并受益于与之关联的重甲上任何符文的力量，但没有软垫护甲内衬，其他人无法穿着你的重甲。</p>\n<p>This armor is simply a layer of heavy, quilted cloth, but it is sometimes used because it's so inexpensive. Padded armor is easier to damage and destroy than other types of armor. Heavy armor comes with a padded armor undercoat included in its Price, though it loses the comfort trait when worn under heavy armor. You can wear just that padded armor undercoat to sleep in, if your heavy armor is destroyed, or when otherwise not wearing the full heavy armor. This allows you to keep magic armor invested and benefit from the power of any runes on the associated heavy armor, but no one else can wear your heavy armor without the padded undercoat.</p>"
             },
             "Musical Instrument (Handheld)": {
-              "name": "乐器（手持）\nMusical Instrument (Handheld)",
+              "name": "手持乐器\nMusical Instrument (Handheld)",
               "description": "<p>手持乐器包括风笛、小型编钟、小鼓、小提琴与维奥尔琴、长笛与竖笛、小型竖琴、鲁特琴、小号，以及尺寸相近的乐器。GM 可能会裁定特别大的手持乐器（如大号）具有更高的负载。沉重的乐器，如大型鼓、整套编钟和键盘乐器，便携性较差，通常需要在演奏时保持固定不动。</p>\n<p>Handheld instruments include bagpipes, a small set of chimes, small drums, fiddles and viols, flutes and recorders, small harps, lutes, trumpets, and similarly sized instruments. The GM might rule that an especially large handheld instrument (like a tuba) has greater Bulk. Heavy instruments such as large drums, a full set of chimes, and keyboard instruments are less portable and generally need to be stationary while played.</p>"
             },
             "Thieves' Toolkit": {

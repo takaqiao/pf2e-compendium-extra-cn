@@ -22,8 +22,8 @@
 			"description": "<p>这一簇灵敏的金属丝胡须要装在鼻子上或者鼻口部位，当它对附近的气味或者其他味道产生反应时，能够提供感觉信息。戴着嗅觉刺激器的生物会获得嗅觉，其嗅觉的灵敏程度相当于与自己同种族的平均水平，若与其同种族的大部分成员都具有灵敏嗅觉特殊能力的话，此时该生物也会获得。嗅觉刺激器可以安置在动物伙伴身上，具有智能的生物也可以佩戴它；刺激器若安置在动物伙伴身上，则会具有伙伴特征。</p>"
 		},
 		"Perfection's First Step": {
-			"name": "至善初步 Perfection's First Step",
-			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（专注）</p><hr /><p>这本贝叶手稿包含一篇关于至善的不完整哲学论著，你必须先完成它并提供书面注释才能启动它。此活动需要 10 分钟，但可在启动论著之前任何时间进行。</p>\n<p>启动 <em>至善初步</em> 时，你以豁免 DC 19 施放 @UUID[Compendium.pf2e.spells-srd.Item.ytboJsyZEbE1MLeV]{永涛推进 Unbreaking Wave Advance}。然后你暂时对其他 <em>至善初步</em> 副本的益处免疫，直到下次每日准备。</p>"
+			"name": "完美初阶 Perfection's First Step",
+			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（专注）</p><hr /><p>这本贝叶手稿包含一篇关于至善的不完整哲学论著，你必须先完成它并提供书面注释才能启动它。此活动需要 10 分钟，但可在启动论著之前任何时间进行。</p>\n<p>启动 <em>完美初阶</em> 时，你以豁免 DC 19 施放 @UUID[Compendium.pf2e.spells-srd.Item.ytboJsyZEbE1MLeV]{永涛推进 Unbreaking Wave Advance}。然后你暂时对其他 <em>完美初阶</em> 副本的益处免疫，直到下次每日准备。</p>"
 		},
 		"Staff of Summoning (Major)": {
 			"name": "上等召唤法杖 Staff of Summoning (Major)",
@@ -239,12 +239,12 @@
 			"description": ""
 		},
 		"Pathfinder's Pouch": {
-			"name": "探索者夹层包 Pathfinder's Pouch",
-			"description": "<p>这种不妨碍活动的腰带包受到在协会不被待见的地区行动的探员所喜爱。此包持续受到3环级@UUID[Compendium.pf2e.spells-srd.Item.PRrZ7anETWPm90YY]{伪装灵光 Disguise Magic}法术所伪装，看不出来是魔法物品。包内的正常空间与普通的腰带包容量相同，但此包另有能容纳至多1负载的物品的异次元夹层。夹层未开启时，积极调查此包的生物只有在搜寻检定大成功时（见隐密技能的隐藏物件用法），才能发觉异次元夹层的存在。夹层开启时，任何人都能发觉此包的异常。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">A</span> 交互</p>\n<hr />\n<p><strong>效果</strong> 你开启或关闭探索者夹层包的异次元夹层，并维持开启或关闭的状态直到你再次启动之。夹层关闭时，你无法接触内容物，但内容物也难以被发现。</p>"
+			"name": "开拓者夹层包 Pathfinder's Pouch",
+			"description": "<p>这种不妨碍活动的腰带包受到在协会不被待见的地区行动的探员所喜爱。此包持续受到3环级@UUID[Compendium.pf2e.spells-srd.Item.PRrZ7anETWPm90YY]{伪装灵光 Disguise Magic}法术所伪装，看不出来是魔法物品。包内的正常空间与普通的腰带包容量相同，但此包另有能容纳至多1负载的物品的异次元夹层。夹层未开启时，积极调查此包的生物只有在搜寻检定大成功时（见隐密技能的隐藏物件用法），才能发觉异次元夹层的存在。夹层开启时，任何人都能发觉此包的异常。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">A</span> 交互</p>\n<hr />\n<p><strong>效果</strong> 你开启或关闭开拓者夹层包的异次元夹层，并维持开启或关闭的状态直到你再次启动之。夹层关闭时，你无法接触内容物，但内容物也难以被发现。</p>"
 		},
 		"Floppy Rag Doll": {
-			"name": "松软布娃娃 Floppy Rag Doll",
-			"description": "<p>这个简陋的娃娃由布片绑扎或缝合而成，呈基本的类人形状，然而其貌不扬的外表却掩盖了它操纵他人行为的奇异力量。娃娃的头部和四肢不断微微低垂、摇晃，从不能在某个位置维持太久。任何手持 <em>松软布娃娃</em> 者都能感觉到它在手中蠕动。</p><hr /><p><strong>启动——松散四肢</strong> <span class=\"action-glyph\">1</span>（操作、视觉）</p>\n<p><strong>频率</strong> 每小时一次</p><hr /><p><strong>效果</strong> 你向 30 尺内能看见你的一个生物挥舞 <em>松软布娃娃</em>，并将其摇晃。该生物自己的四肢开始以类似方式狂乱地动作，必须尝试一次 @Check[will|dc:19|options:inflicts:clumsy] 豁免。</p><hr /><p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标在你回合结束前不能使用反应动作。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}，且在你下回合开始前不能使用反应动作。</p>\n<p><strong>大失败</strong> 同失败，但 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}。</p>"
+			"name": "松垮破布娃娃 Floppy Rag Doll",
+			"description": "<p>这个简陋的娃娃由布片绑扎或缝合而成，呈基本的类人形状，然而其貌不扬的外表却掩盖了它操纵他人行为的奇异力量。娃娃的头部和四肢不断微微低垂、摇晃，从不能在某个位置维持太久。任何手持 <em>松垮破布娃娃</em> 者都能感觉到它在手中蠕动。</p><hr /><p><strong>启动——松散四肢</strong> <span class=\"action-glyph\">1</span>（操作、视觉）</p>\n<p><strong>频率</strong> 每小时一次</p><hr /><p><strong>效果</strong> 你向 30 尺内能看见你的一个生物挥舞 <em>松垮破布娃娃</em>，并将其摇晃。该生物自己的四肢开始以类似方式狂乱地动作，必须尝试一次 @Check[will|dc:19|options:inflicts:clumsy] 豁免。</p><hr /><p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标在你回合结束前不能使用反应动作。</p>\n<p><strong>失败</strong> 目标 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}，且在你下回合开始前不能使用反应动作。</p>\n<p><strong>大失败</strong> 同失败，但 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}。</p>"
 		},
 		"Hexing Jar": {
 			"name": "巫术罐子 Hexing Jar",
@@ -676,7 +676,7 @@
 			"description": "<p>该符文在你击败敌人时会充满能量，每一次胜利都会驱动你在战场上前进。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">F</span> （专注）</p>\n<p><strong>需求</strong> 你最近的一次动作或行动将一名敌人的HP降至0</p><hr /><p><strong>效果</strong> 你行走至多等于你速度的距离。这次移动不会触发反应。你可以用掘地、攀爬、飞行或游泳替换行走，只要你拥有对应的移动类型。</p>"
 		},
 		"Wraithweave Patch (Type II)": {
-			"name": "缚灵织布(II型） Wraithweave Patch (Type II)",
+			"name": "类型II缚灵织布 Wraithweave Patch (Type II)",
 			"description": "<p>缚灵织布看起来如一块灰色的正方形布料，在昏暗光线下闪闪发亮。虚体生物可以触摸、持握和携带缚灵织布（与大多数实体物件不同）。</p>\n<p>你可以与缚灵织布交互，安全地用其包裹不超过其容量（由缚灵织布的类型决定）的物品或容器。一旦物品被包裹起来，其体积将变得忽略不计，而缚灵织布表现得如一块被紧密折叠的空布料般。你必须再次与缚灵织布交互以展开它，此时被包裹的对象变为正常重量，且可以再次被正常交互。</p>\n<p>被缚灵织布包裹的生物不受影响，将其视作普通的布。被包裹的物品在织布被打开前不提供任何好处，但可以如常被魔法检测到。如果缚灵织布被摧毁，其所包裹的任何物品都将恢复正常，并受到摧毁缚灵织布的伤害或效果的影响。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令，交互</p>\n<p><strong>需求</strong> 缚灵织布包裹了一个物品，且你是虚体</p>\n<hr />\n<p><strong>效果</strong> 你令缚灵织布和它包裹的物品变为虚体，只要你以动作维持，该效果就会持续。缚灵织布变得只能被虚体生物触摸、持握和携带，若没有虚体生物携带它，织布就会恢复为实体——如果此时被留在实体物件中，织布就会撕裂，其中物品要么永远遗失，要么就留在实体物件内，由GM决定。</p>"
 		},
 		"Boom Snare": {
@@ -1005,7 +1005,7 @@
 			"description": "<p>这面木盾是由还活着的树根交织而成的结（硬度6，HP 36，BT 18）。</p>\n<p><strong>启动—渴血树根 Thirsty Roots</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p><strong>效果</strong> 你向前伸出盾牌，上面的根须松脱开来并向前伸出，对@Template[line|distance:60]区域内的所有生物造成@Damage[9d6[void]]伤害（@Check[reflex|dc:25|basic]豁免）。豁免失败时，生物承受额外@Damage[5[persistent,bleed]]伤害。盾牌会恢复生命值，数值等同于它造成虚能伤害的一半。</p>"
 		},
 		"Ganjay Book (1 bulk book)": {
-			"name": "甘杰书（1B) Ganjay Book (1 bulk book)",
+			"name": "甘杰书（1负载） Ganjay Book (1 bulk book)",
 			"description": "<p>这本书可以是一本配方书、宗教文本或咒语书，折成一个不可能的小形状（可能是甘杰公主亲自折的）。当折叠起来时，这本书不能被阅读或使用，但它的体积会减少1（一本负载为1的书会变成L的，而一本L的书的重量则可以忽略不计）。</p>\n<hr />\n<p><strong>启动</strong> 1分钟（交互） 你折叠或展开甘杰书，操纵精巧的折痕。</p>"
 		},
 		"Spark Wafer": {
@@ -1378,7 +1378,7 @@
 			"description": ""
 		},
 		"Musical Instrument (Virtuoso handheld)": {
-			"name": "专家级乐器（手持） Musical Instrument (Virtuoso handheld)",
+			"name": "专家级手持乐器 Musical Instrument (Virtuoso handheld)",
 			"description": "<p>手持乐器包括风笛、小套编钟、小鼓、小提琴和弦乐器、长笛和龠、小竖琴、琵琶、小号和类似大小的乐器。GM可能会裁定一个特别大的手持仪器（如大号）具有更大的负载。诸如大鼓、全套编钟和键盘乐器之类的大型乐器不太方便携带，并且通常在演奏时需要静止。</p>\n<p>使用制作更精良的专家级乐器为表演检定提供+1物品加值。</p>"
 		},
 		"Backpack": {
@@ -2081,7 +2081,7 @@
 			"description": "<p>这种武器有短柄顶端是带着尖刺的金属球。</p>"
 		},
 		"Manacles (Good)": {
-			"name": "镣铐（优质） Manacles (Good)",
+			"name": "优质镣铐 Manacles (Good)",
 			"description": "<p>根据生物的大小和你应用的镣铐数量，你可以用一个花费约10-30秒时间的探索期活动将一个自愿或无力反抗的生物铐起来。一个双腿被铐住的的两足生物在速度上受到-15尺环境减值，并且双手被铐住的两手生物必须在任何进行操作动作的时候进行@Check[flat|dc:5]检定，否则该动作将失败。根据镣铐约束手的紧密程度，该DC可能更高。被铐到到静止物体上的生物陷入禁足。对于具有更多或更少肢体的生物，由GM确定镣铐有什么效果。将一个生物从优质镣铐中解放出来需要五次成功的@Check[thievery|dc:32|traits:action:pick-a-lock]检定。</p>"
 		},
 		"Oblivion Essence": {
@@ -2132,10 +2132,6 @@
 			"name": "战斗饵 Combat Lure",
 			"description": "<p>战斗饵是一种系在强化绳索末端的加重皮袋，可以用来钝击对手或为禽鸟或其他动物指示方向。</p>"
 		},
-		"Scholarly Journal Compendium": {
-			"name": "学术期刊（期刊集） Scholarly Journal Compendium",
-			"description": "<p>学术期刊不常见。每本学术期刊都是一个非常具体的主题的对开本，例如吸血鬼或一个城镇或城市社区的历史。如果您在尝试回忆知识的技能检定之前花费1分钟参考学术期刊，那么该检定将获得+1物品加值。期刊集的价格是单本期刊的五倍，并且需要双手使用；每种期刊集都包含数本期刊，并在更广泛的范围上提供加值，例如所有不死生物或整个城市。GM有权力决定在任何地点能够提供哪些学术期刊。</p>"
-		},
 		"Locust Leather": {
 			"name": "蝗虫皮甲 Locust Leather",
 			"description": "<p>这件<em>+1镶嵌皮甲</em>是为清除战场上成群的蝗虫和类似害虫而特别设计的。它所有的接缝都经过了额外的缝合和处理以完全密封，从而在对抗集群啃咬、集群蜇刺和来自集群的类似能力时，为反射豁免检定提供+1物品加值。此外，你可以制造一团烟雾来驱赶该区域的集群。</p>\n<p><strong>启动—毒烟（Poison Fumes）</strong> <span class=\"action-glyph\">2</span> （专注）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你在周围散发出一团快速消散、@Template[type:emanation|distance:5]范围的有毒云雾。范围内的所有生物会受到@Damage[5d6[poison]|options:area-damage]伤害（@Check[fortitude|dc:24|basic|options:area-effect]豁免）。豁免失败的集群还会受到@Damage[1d6[persistent,poison]]伤害。</p>"
@@ -2177,7 +2173,7 @@
 			"description": ""
 		},
 		"Manacles (Superior)": {
-			"name": "镣铐（究极） Manacles (Superior)",
+			"name": "究极镣铐 Manacles (Superior)",
 			"description": "<p>根据生物的大小和你应用的镣铐数量，你可以用一个花费约10-30秒时间的探索期活动将一个自愿或无力反抗的生物铐起来。一个双腿被铐住的的两足生物在速度上受到-15尺环境减值，并且双手被铐住的两手生物必须在任何进行操作动作的时候进行@Check[flat|dc:5]检定，否则该动作将失败。根据镣铐约束手的紧密程度，该DC可能更高。被铐到到静止物体上的生物陷入禁足。对于具有更多或更少肢体的生物，由GM确定镣铐有什么效果。将一个生物从究极镣铐中解放出来需要六次成功的@Check[thievery|dc:42|traits:action:pick-a-lock]检定。</p>"
 		},
 		"Unsullied Blood (Lesser)": {
@@ -4772,7 +4768,7 @@
 			"description": "<p>疫鸟是招魂者们的抄写员和信使。它们很少离开骨园，因此对于准备前往其他位面的招魂者来说，携带疫鸟符咒来帮助旅行是很常见的。戴着面具的乌鸦小图标发出叽叽喳喳的声音，为你的表演提供完美的伴奏。你在演奏乐器、祈祷或歌唱的表演检定上获得+2物品加值，你能以神术内在法术的形式施展@UUID[Compendium.pf2e.spells-srd.Item.R9xqCBblkS5KE4y7]，每日一次。</p><hr /><p><strong>启动</strong> <span class=\"action-glyph\">3</span> 交互</p><hr /><p><strong>效果</strong> 你扭动咒符底部，它的叽叽喳喳有助于增强你的论点。你失去表演检定上的物品加值，转而在提出请求的交涉检定上获得+2物品加值，直到你再次使用此启动能力。</p><hr /><p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 只要你持握着疫鸟咒符，你获得30尺生命感知（模糊），持续一小时。这允许你感知活物的生命力场和死者的邪恶力场，但你无法区别这两者。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.VVWvXiNudYYGV9sJ]</p>"
 		},
 		"Shacklebreaker": {
-			"name": "破镣手镯 Shacklebreaker",
+			"name": "镣铐破灭者 Shacklebreaker",
 			"description": "<p>此手镯有匕首、盾牌、玫瑰三个挂坠图案。佩戴此手镯时，你获得贼活检定 +1 物品加值。每当你成功释放某人脱离手铐时，视作两次成功（大成功视作三次）。</p>\n<p><strong>启动——挣脱锁链</strong> <span class=\"action-glyph\">r</span>（操作）</p><hr /><p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 一个生物尝试 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿 Grapple} 你</p>\n<p><strong>需求</strong> 你察觉到该生物且未 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及 Off-Guard}</p><hr /><p><strong>效果</strong> 手镯将你的身体猛拉向一个方向，试图甩开攻击者的擒拿。你在对抗触发该擒拿的强韧 DC 上获得 +1 环境加值。</p>"
 		},
 		"Reaper's Grasp": {
@@ -5736,7 +5732,7 @@
 			"description": "<p>当你使用蚀刻的武器进行疾风连击，且你的第一次打击将一个生物降至0 HP时，你可以使用该武器的余波进行你的第二次打击，将这次触及提升至30尺。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> （专注，力场）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 该武器施展一次@UUID[Compendium.pf2e.spells-srd.Item.WPu3UE3kTXSLqO40]法术。这把幽灵武器的外观和蚀刻武器类似。这把武器使用你正常的攻击加值和伤害，而非法术中列出的伤害，但在决定伤害时使用你的感知调整值而非力量调整值。在<em>灵能武装</em>攻击时，你可以选择以疾风连击替换打击；这仍然算作你在本回合使用的绝技。你可以以和该法术相同的方式维持启动。</p>"
 		},
 		"Horned Dragon Breath Potion": {
-			"name": "有角龙息药水 Horned Dragon Breath Potion",
+			"name": "智角龙吐息药水 Horned Dragon Breath Potion",
 			"description": "<p>此液体含有幼年角龙的血液。饮下药水后 1 小时内，你可以释放一团毒云。呼出此龙息使用单一动作。毒云在 @Template[cone|distance:15] 区域内造成 @Damage[2d6[poison]|options:area-damage] 伤害，区域内每个生物必须尝试一次 @Check[fortitude|dc:19|basic|showDC:all|options:area-effect] 豁免。使用此吐息武器后，[[/r 1d4 #rounds]]{1d4 轮} 内不能再次使用。</p>"
 		},
 		"Blast Suit": {
@@ -6092,7 +6088,7 @@
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]的生物吞咽困难，所以你启动催吐膏药的时候可以将其涂在你的或者你触及范围内某个恶心生物的喉咙处。膏药可以让恶心的生物能更容易地恢复，让他能立即尝试一次用于结束恶心状态的强韧检定。膏药能赋予目标在本次豁免和之后1小时内所有用于减轻恶心状态的强韧豁免上的+3物品加值。</p>"
 		},
 		"Sweet Hag's Eye": {
-			"name": "甜女妖之眼 Sweet Hag's Eye",
+			"name": "蜜鬼婆之眼 Sweet Hag's Eye",
 			"description": "<p>这件物品看似一颗普通——尽管略显瘆人——的硬薄荷糖，大小与形状如人的眼球。这是因为它实际上是一颗甜女妖的眼球，被取出并以魔法与糖果工艺精心替换。它通常被镶嵌在饰品上，或储存在挂于绳上的小袋中。</p>\n<p>该眼睛不为佩戴者提供直接益处，但其原主——甜女妖——可通过它使用 [[/act seek]] 动作进行窥视，并通过它对持有该眼睛的生物施放 @UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{讯息术 Message} 戏法。只要甜女妖处于同一位面，这两种效果均不受距离限制。</p>\n<p>任何对眼睛的伤害都会摧毁它。甜女妖也可以选择用消融薄荷远程摧毁眼睛。眼睛也可被食用，但尝试食用的生物会暴露于令人恶心的甜味之中。</p>\n<p><strong>启动——消融薄荷</strong> <span class=\"action-glyph\">1</span></p><hr /><p><strong>效果</strong> 甜女妖使眼睛在短暂的剧烈高温闪光下消融。若有生物正持有眼睛，必须尝试一次 @Check[reflex|dc:18|options:damaging-effect] 豁免。失败时，由于沸腾的滚烫糖果残渣粘附其皮肤并将其灼伤，他们承受 @Damage[1d4[persistent,fire]] 伤害。</p><hr /><p><strong>令人恶心的甜味</strong>（食入、毒）此毒素引发的恶心状态在毒素效果结束前无法被终止。</p>"
 		},
 		"Spurned Lute": {
@@ -6194,7 +6190,7 @@
 			"description": "<p>这种帽子可能有许多种不同外形，譬如五彩斑斓的头巾或是尖顶宽檐的帽子，在它上面装点着各类符文或魔印。它会在奥法检定上赋予你+2物品加值且允许你以奥术内在戏法的形式施放@UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{魔法伎俩 Prestidigitation}。</p>\n<p>这顶时尚大帽子可以被启动。每顶<em>高等魔术师之帽</em>当中都被编入了一个奥术列表中的4环级召唤法术，通常为@UUID[Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu]{召唤动物 Summon Animal}或@UUID[Compendium.pf2e.spells-srd.Item.lpT6LotUaQPfinjj]{召唤元素 Summon Elemental}。若你准备了奥术法术，你可以在绑定是用另一个你所知的4环级奥术召唤法术替换其中存储的法术。</p>\n<hr />\n<p><strong>启动——魔帽施法</strong> 施放法术</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> 你脱帽示意，令魔法能量从中倾泻而出。你可以施放帽子当中存储的法术。</p>"
 		},
 		"Conductor's Instrument": {
-			"name": "指挥乐器 Conductor's Instrument",
+			"name": "指挥家乐器 Conductor's Instrument",
 			"description": "<p>此物品可以是任何手持乐器形式。该乐器在你以其演奏音乐时给予你表演检定 +1 物品加值。每天一次，你可以使用以下活动。</p><hr /><p><strong>启动——指挥演奏</strong> <span class=\"action-glyph\">2</span>（操作）你在乐器上演奏特殊曲调，使其施放 DC 17 的 @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{命令术 Command} 吟游诗人法术。</p>"
 		},
 		"Dragon's Breath (8th Level Spell)": {
@@ -6846,7 +6842,7 @@
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>散发着安心花香的热茶，一份安魂甜酒给予你在对抗情绪效果的豁免检定和在制作时所混入的酒相对应的特征豁免检定中获得+1物品加值。这些好处持续1小时。</p><ul><li><strong>苦杏酒</strong> 听觉</li><li><strong>柠檬酒</strong> 嗅觉</li><li><strong>威士忌</strong> 视觉</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.kIzYHyIN6xzbocuh]</p>"
 		},
 		"Elemental Wayfinder (Fire)": {
-			"name": "元素寻路仪（火） Elemental Wayfinder (Fire)",
+			"name": "火元素寻路仪 Elemental Wayfinder (Fire)",
 			"description": "<p>探索者协会的研究人员最近在协会的元素盟友的协助下创造了元素寻路仪。这些寻路仪除了具有@UUID[Compendium.pf2e.equipment-srd.Item.gbwr57aT9ou8yKWT]{寻路仪 Wayfinder}的效果外，还分别赋予每天施放一次特定元素法术的能力，并能协助开拓者探索与其元素相关的区域。其都有与其元素相关的特性。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令</p>\n<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p><strong>效果</strong> 寻路仪可以施展4环级@UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{火球术 Fireball}。</p>\n<hr />\n<p>此外你获得火焰抗力5。</p>"
 		},
 		"Unifying Emblem (Shriikirri-Quah)": {
@@ -7019,8 +7015,8 @@
 			"description": ""
 		},
 		"Obsidian Goggles": {
-			"name": "黑曜石护目镜 Obsidian Goggles",
-			"description": "<p>这对目镜闪着黑光的镜片经过特别打制，使得透过它看到的一切都仿佛被照亮一般。当穿戴这对目镜时，你在与视觉相关的察觉检定上获得+1物品加值。</p>\n<hr />\n<p><strong>启动——黑暗视觉</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> 你调节目镜，在1小时内获得黑暗视觉。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.KSvkfMqMQ8mlGLiz]{效果：黑曜石护目镜}</p>"
+			"name": "黑曜目镜 Obsidian Goggles",
+			"description": "<p>这对目镜闪着黑光的镜片经过特别打制，使得透过它看到的一切都仿佛被照亮一般。当穿戴这对目镜时，你在与视觉相关的察觉检定上获得+1物品加值。</p>\n<hr />\n<p><strong>启动——黑暗视觉</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> 你调节目镜，在1小时内获得黑暗视觉。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.KSvkfMqMQ8mlGLiz]{效果：黑曜目镜}</p>"
 		},
 		"Wand of Mercy (7th-rank)": {
 			"name": "7环级慈悲魔杖 Wand of Mercy (7th-rank)",
@@ -7233,7 +7229,7 @@
 		},
 		"Chronicler Wayfinder": {
 			"name": "编史者寻路仪 Chronicler Wayfinder",
-			"description": "<p>编史者寻路仪与《探索者编年史》本身有着神秘的联系，赋予他们在需要不寻常的传说的情况下，通过借鉴特定主题的传说来提供说明的能力。每个编史者寻路仪都与一个特定的学识技能相适应，在创建时选择。除了@UUID[Compendium.pf2e.equipment-srd.Item.gbwr57aT9ou8yKWT]{寻路仪 Wayfinder}的效果之外，编年史寻路者还有以下启动功能。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">A</span> 想象</p>\n<hr />\n<p><strong>效果</strong> 你在编史者寻路仪的主题上挖掘《探索者编年史》，获得所选学识技能的回忆知识动作的效果。对于学识检定的修正值，使用+12或你自己的修正值中较好的一个，使用你的等级作为你的熟练度加成，即使你的该学识技能未受训。</p>"
+			"description": "<p>编史者寻路仪与《开拓者编年史》本身有着神秘的联系，赋予他们在需要不寻常的传说的情况下，通过借鉴特定主题的传说来提供说明的能力。每个编史者寻路仪都与一个特定的学识技能相适应，在创建时选择。除了@UUID[Compendium.pf2e.equipment-srd.Item.gbwr57aT9ou8yKWT]{寻路仪 Wayfinder}的效果之外，编年史寻路者还有以下启动功能。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">A</span> 想象</p>\n<hr />\n<p><strong>效果</strong> 你在编史者寻路仪的主题上挖掘《开拓者编年史》，获得所选学识技能的回忆知识动作的效果。对于学识检定的修正值，使用+12或你自己的修正值中较好的一个，使用你的等级作为你的熟练度加成，即使你的该学识技能未受训。</p>"
 		},
 		"Emergency Eye": {
 			"name": "应急魔眼 Emergency Eye",
@@ -7280,7 +7276,7 @@
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p><hr /><p>这瓶橙色液体能让你通过视觉侦测到念动与心灵感应的心能能量。在饮用后的接下来一分钟内，你可以感知视线范围内是否有生物正在使用心灵感应和念动力——比如怪物的心灵感应能力、@UUID[Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7]或类似的法术。你还能感知到可见的物体或生物是否正被此类能力操控或连接。能力使用者和目标都会显现出与能力相匹配颜色的微光轮廓。</p>"
 		},
 		"Celestial Peach (Rejuvenation)": {
-			"name": "仙桃（疗愈） Celestial Peach (Rejuvenation)",
+			"name": "疗愈仙桃 Celestial Peach (Rejuvenation)",
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>在郝金最为贵重的宝物之中，有着3株植物，这些植物是现在已然绝种，原生于楚业群山上的仙桃树。其中一棵树不开花而生珍珠，另两株则结出无价果实。吃下这些小小的红色桃子以后再怎么严重的伤都治得好。</p>\n<p>你获得7环级@UUID[Compendium.pf2e.spells-srd.Item.2Vkd1IxylPceUAAF]和@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]的效果。这桃子的反制调整值为[[/r 1d20+27]]。</p>"
 		},
 		"Clockwork Rejuvenator": {
@@ -7948,7 +7944,7 @@
 			"description": "<p>有时也被称为锁子甲，这是一件如同链甲一样，由相同的金属环构成的长衫。然而，它比链甲轻得多，且只能保护穿戴者的躯干、上臂和大腿。</p>"
 		},
 		"Musical Instrument (Handheld)": {
-			"name": "乐器（手持） Musical Instrument (Handheld)",
+			"name": "手持乐器 Musical Instrument (Handheld)",
 			"description": "<p>手持乐器包括风笛、小套编钟、小鼓、小提琴和弦乐器、长笛和龠、小竖琴、琵琶、小号和类似大小的乐器。GM可能会裁定一个特别大的手持仪器（如大号）具有更大的负载。诸如大鼓、全套编钟和键盘乐器之类的大型乐器不太方便携带，并且通常在演奏时需要静止。</p>"
 		},
 		"The Hollow Star": {
@@ -8373,7 +8369,7 @@
 			"description": "<p>火器需要由弹头和黑火药组合而成的弹药。尽管一发弹药可以有各种不同的形式，但通常来说这会是一发已经预先包装好的纸质定装弹，内含弹袖、弹头和黑火药。或是需要手动装入药筒中的散装弹药。某些武器，例如手炮或喇叭枪，可以射击其他材质的弹头，但由于依然需要消耗黑火药，视作具有同样的价格。因为制作火器的弹药需要配置黑火药，你需要有@UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{炼金手艺 Alchemical Crafting}技能专长才能制作弹药。火器的弹药可以使用魔法弹药的变种，就像箭或者弩矢一样。制造魔法火器弹药需要你同时可以制作炼金物品和魔法物品。</p>"
 		},
 		"Wraithweave Patch (Type I)": {
-			"name": "缚灵织布(I型） Wraithweave Patch (Type I)",
+			"name": "类型I缚灵织布 Wraithweave Patch (Type I)",
 			"description": "<p>缚灵织布看起来如一块灰色的正方形布料，在昏暗光线下闪闪发亮。虚体生物可以触摸、持握和携带缚灵织布（与大多数实体物件不同）。</p>\n<p>你可以与缚灵织布交互，安全地用其包裹不超过其容量（由缚灵织布的类型决定）的物品或容器。一旦物品被包裹起来，其体积将变得忽略不计，而缚灵织布表现得如一块被紧密折叠的空布料般。你必须再次与缚灵织布交互以展开它，此时被包裹的对象变为正常重量，且可以再次被正常交互。</p>\n<p>被缚灵织布包裹的生物不受影响，将其视作普通的布。被包裹的物品在织布被打开前不提供任何好处，但可以如常被魔法检测到。如果缚灵织布被摧毁，其所包裹的任何物品都将恢复正常，并受到摧毁缚灵织布的伤害或效果的影响。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令，交互</p>\n<p><strong>需求</strong> 缚灵织布包裹了一个物品，且你是虚体</p>\n<hr />\n<p><strong>效果</strong> 你令缚灵织布和它包裹的物品变为虚体，只要你以动作维持，该效果就会持续。缚灵织布变得只能被虚体生物触摸、持握和携带，若没有虚体生物携带它，织布就会恢复为实体——如果此时被留在实体物件中，织布就会撕裂，其中物品要么永远遗失，要么就留在实体物件内，由GM决定。</p>"
 		},
 		"Wand of Crackling Lightning (3rd-Rank Spell)": {
@@ -8967,7 +8963,7 @@
 			"description": "<p>这种精心制作、看似普通的羊皮纸对于书写敏感文件非常有用。当文字被写在羊皮纸上时，立刻就会变成无法识别的密码，需要通过大师熟练度的DC 30的解译文书检定才能破译。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 命令</p>\n<hr />\n<p><strong>效果</strong> 被打乱的文字以正确的方式显现。如果辨识出这件物品，可以得知以一个命令动作能启动该效果，但是只有在辨识魔法检定中取得大成功时才能得知这个具体的口令词是什么。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<hr />\n<p><strong>效果</strong> 你点燃羊皮纸，销毁上面的文字，但是羊皮纸完好无损，并且可以在上面书写新的文字。</p>"
 		},
 		"Elemental Wayfinder (Earth)": {
-			"name": "元素寻路仪（土） Elemental Wayfinder (Earth)",
+			"name": "土元素寻路仪 Elemental Wayfinder (Earth)",
 			"description": "<p>探索者协会的研究人员最近在协会的元素盟友的协助下创造了元素寻路仪。这些寻路仪除了具有@UUID[Compendium.pf2e.equipment-srd.Item.gbwr57aT9ou8yKWT]{寻路仪 Wayfinder}的效果外，还分别赋予每天施放一次特定元素法术的能力，并能协助开拓者探索与其元素相关的区域。其都有与其元素相关的特性。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令</p>\n<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p><strong>效果</strong> 寻路仪可以施展4环级的@UUID[Compendium.pf2e.spells-srd.Item.2BV2yYPfVJ5zirZt]{山肤术 Mountain Resilience}。</p>\n<hr />\n<p>此外你的挖掘速度是平常的两倍。 </p>"
 		},
 		"Copper and spinel puzzle box": {
@@ -9396,7 +9392,7 @@
 			"description": "<p><strong>察觉</strong> +22；精确视觉 30尺，模糊听觉 30尺，恒定<em>侦测魔法</em></p>\n<p><strong>沟通</strong> 语言（通用语，龙语，以及其他八种通用语言）</p>\n<p><strong>技能</strong> 奥法 +34，七种学识技能 +28，神秘 +28，社群 +28</p>\n<p><strong>智力</strong> +8，<strong>感知</strong> +0，<strong>魅力</strong> +4</p>\n<p><strong>意志</strong> +24</p>\n<hr />\n<p><em>天才冠冕</em>是一顶<em>@UUID[Compendium.pf2e.equipment-srd.Item.1FKDq4Gfev5GObDT]{聪智皇冠 Crown of Intellect}</em>，它通常表现得像一位傲慢的教授或导师，经常吹嘘自己是公认的伟大智者，即便算上冠冕赋予你的加值，它的智力也也远胜于你。<em>天才冠冕</em>鼓励你自己学习，而不会直接为你回忆知识，尽管你或你的盟友可以利用它的傲慢去欺骗它这样做。除了可以让你使用聪智皇冠的启动能力，冠冕也可以使用自己的动作启动头脑风暴（Search Your Mind），如果它这么做，它将替代你获得增益。以下启动能力只有冠冕可以使用。</p>\n<p><strong>启动——脑力枯竭</strong> <span class=\"action-glyph\">D</span> （专注，操作）</p>\n<p><strong>频率</strong> 每小时一次</p>\n<hr />\n<p><strong>效果</strong> <em>天才冠冕</em>施放7环级@UUID[Compendium.pf2e.spells-srd.Item.5BbU1V6wGSGbrmRD]{失智术 Never Mind}。</p>"
 		},
 		"Elemental Wayfinder (Water)": {
-			"name": "元素寻路仪（水） Elemental Wayfinder (Water)",
+			"name": "水元素寻路仪 Elemental Wayfinder (Water)",
 			"description": "<p>探索者协会的研究人员最近在协会的元素盟友的协助下创造了元素寻路仪。这些寻路仪除了具有@UUID[Compendium.pf2e.equipment-srd.Item.gbwr57aT9ou8yKWT]的效果外，还分别赋予每天施放一次特定元素法术的能力，并能协助开拓者探索与其元素相关的区域。其都有与其元素相关的特性。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令</p>\n<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p><strong>效果</strong> 寻路仪可以施放4环级的@UUID[Compendium.pf2e.spells-srd.Item.Y3G6Y6EDgCY0s3fq]。</p>\n<hr />\n<p>此外你获得@UUID[Compendium.pf2e.spells-srd.Item.MZGkMsPBztFN0pUO]的持续效果。</p>"
 		},
 		"War Blood Mutagen (Major)": {
@@ -9779,8 +9775,8 @@
 			"description": "<p>魔典上不断垂落着转瞬即逝且不断翻卷扭动着的阴影触须。这些触须似乎有着自己的意志，它们遇光退缩，会向着黑暗扭动。当你手持这本魔典时，你会获得黑暗视觉；若你已经具有黑暗视觉，则会改为获得高等黑暗视觉。从这本魔典中准备法术能强化你的阴影魔法，而且还会让你更好地领会向魔典中添加的阴影魔法。当你利用这本魔典准备任意阴影法术，且法术环级比你能够施放的最高环级至少低2级时，那么反制这些法术时会视为其比正常高1级。当你把阴影法术添加到这本魔典中时，则可以准备该法术的升阶版本，至多能够达到你能够施放的最高法术环级。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">R</span> 想象</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 目标在豁免你从魔典中准备的阴影法术时得到大失败结果</p>\n<hr />\n<p><strong>效果</strong> 你将弥漫于目标周遭的阴影法术的片缕召回到身边，使其像胎膜一样将你包复起来。触发生物的豁免结果变为失败，而非原本的大失败。在接下来1分钟内，你对于所有生物来说都变为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]状态，对于触发生物来说处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]状态，无视其具有的任何精确感官。若你对触发生物使用敌对动作，那么在敌对动作结束时，你对触发生物来说仅被视为隐蔽（而非藏匿）状态。</p>"
 		},
 		"Vagabond's Teapot": {
-			"name": "浪人之壶 Vagabond's Teapot",
-			"description": "<p>这把朴素的茶壶看似毫不起眼，却深得四处漂泊的旅人和远离家乡的冒险者珍爱。<em>浪人之壶</em>能为其使用者提供片刻的舒适与慰藉，仿佛回到家中的炉火旁。</p>\n<p><strong>启动——沏一杯安心茶</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你启动<em>浪人之壶</em>，从中倒出一杯热气腾腾的茶。任何饮下此茶的生物在 10 分钟内对@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏 Fatigued}状态获得+1状态加值，且暂时摆脱身处异乡的孤寂感——他们在这段时间内对@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained}状态的豁免上获得+1状态加值。茶壶可以服务多达 6 名生物。</p>\n<p><strong>制作需求</strong> 你必须曾在自己家中沏过茶。</p>"
+			"name": "流浪者的茶壶 Vagabond's Teapot",
+			"description": "<p>这把朴素的茶壶看似毫不起眼，却深得四处漂泊的旅人和远离家乡的冒险者珍爱。<em>流浪者的茶壶</em>能为其使用者提供片刻的舒适与慰藉，仿佛回到家中的炉火旁。</p>\n<p><strong>启动——沏一杯安心茶</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你启动<em>流浪者的茶壶</em>，从中倒出一杯热气腾腾的茶。任何饮下此茶的生物在 10 分钟内对@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏 Fatigued}状态获得+1状态加值，且暂时摆脱身处异乡的孤寂感——他们在这段时间内对@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained}状态的豁免上获得+1状态加值。茶壶可以服务多达 6 名生物。</p>\n<p><strong>制作需求</strong> 你必须曾在自己家中沏过茶。</p>"
 		},
 		"Crafter's Eyepiece": {
 			"name": "工匠目镜 Crafter's Eyepiece",
@@ -10039,7 +10035,7 @@
 			"description": ""
 		},
 		"Elemental Wayfinder (Air)": {
-			"name": "元素寻路仪（风） Elemental Wayfinder (Air)",
+			"name": "气元素寻路仪 Elemental Wayfinder (Air)",
 			"description": "<p>探索者协会的研究人员最近在协会的元素盟友的协助下创造了元素寻路仪。这些寻路仪除了具有@UUID[Compendium.pf2e.equipment-srd.Item.gbwr57aT9ou8yKWT]{寻路仪 Wayfinder}的效果外，还分别赋予每天施放一次特定元素法术的能力，并能协助开拓者探索与其元素相关的区域。其都有与其元素相关的特性。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令</p>\n<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p><strong>效果</strong> 寻路仪可以施展4环级的@UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{闪电束 Lightning Bolt}。</p>\n<hr />\n<p>此外你可以每10分钟施放一次@UUID[Compendium.pf2e.spells-srd.Item.TTwOKGqmZeKSyNMH]{柔落术 Gentle Landing}作为原能内在法术。</p>"
 		},
 		"Highhelm Stronghold Plate": {
@@ -10135,7 +10131,7 @@
 			"description": "<p>蝰蛇毒液是强化武器的一种简单却有效的方式。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> （操作）</p>\n<p><strong>豁免检定</strong> @Check[fortitude|dc:18]</p>\n<p><strong>最大持续时间</strong> 3轮</p>\n<p><strong>阶段1</strong> @Damage[1d4[poison]]伤害（1轮）</p>\n<p><strong>阶段2</strong> @Damage[1d6[poison]]伤害（1轮）</p>\n<p><strong>阶段3</strong> @Damage[1d8[poison]]伤害（1轮）</p>"
 		},
 		"Robe of the Erinys": {
-			"name": "狂怒魔长袍 Robe of the Erinys",
+			"name": "怒魔长袍 Robe of the Erinys",
 			"description": "<p>这件精美的猩红色长袍上以金色绣满恶魔及其武器的图案，仿照金色狂怒魔隐修姊妹会的服饰制作。长袍的腰带绣成蛇形，配以金属毒牙。</p>\n<p><strong>启动——咬噬腰带</strong> <span class=\"action-glyph\">2</span>（专注、操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你解下长袍腰带并向你触及范围内的敌人挥击。挥击之时，腰带短暂活化以咬噬该敌，造成 @Damage[2d8[poison]] 伤害，以 @Check[fortitude|dc:18|basic|options:inflicts:sickened|traits:concentrate,manipulate] 豁免。大失败时，目标还会 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p>"
 		},
 		"Chromatic Jellyfish Oil (Greater)": {
@@ -10498,10 +10494,6 @@
 			"name": "中等灵能号角 Spiritual Warhorn (Moderate)",
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p><em>灵能号角</em>是用牛角、皮革和金属制成的号角。当你用号角吹奏一个单一的长音符时，它会根据号角类型召唤出许多中型灵能勇士来帮助你。每个灵能勇士会分别出现在你60尺内的一个敌人相邻的开放空间内，进行一次打击，造成@Damage[2d6[force]]伤害（攻击加值取决于勇士的类型），然后消失。灵能勇士可以在相互之间、和你或你的盟友形成夹击。魔法被使用后，号角依然能作为非魔法乐器来使用。</p>\n<p>4个勇士显灵，攻击调整值+17。</p>"
 		},
-		"Climbing Kit (Extreme)": {
-			"name": "攀爬工具包（专家） Climbing Kit (Extreme)",
-			"description": "<p>这个工具包包括50尺的麻绳，一些滑轮，一打岩钉，一把锤子，一个抓钩和一套冰爪。攀爬工具包可让你将自己固定在攀爬的墙上，以正常速度的一半移动（最小5尺），还可以让你在避免坠落的检定中大失败时进行一次@Check[flat|dc:5]检定。</p>\n<p>在使用专家级攀爬工具包时，你可以在运动检定上获得+1物品加值。一个工具包只够一位攀爬者的使用的材料；每个攀爬者都需要有自己的工具包。若你穿戴着攀爬工具包，你可以作为攀爬动作的一部分来取出工具。</p>"
-		},
 		"Echo Receptors": {
 			"name": "回声感应器 Echo Receptors",
 			"description": "<p>你能够通过声波探测而非依赖你的视觉来感知周围环境。你获得40尺回声定位能力，允许你使用听觉作为精确的感官。</p>"
@@ -10543,7 +10535,7 @@
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> （操作）</p><hr /><p>小丑皇的受害者总是令人忍俊不禁，他们会一直像个戏剧演员一样摔个屁股蹲儿。这种毒药会破坏受害者的平衡感。</p>\n<p><strong>豁免检定</strong> @Check[fortitude|dc:22]</p>\n<p><strong>最大持续时间</strong> 6轮</p>\n<p><strong>阶段1</strong> 陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]状态，并必须在站立动作中通过@Check[flat|dc:5]检定，否则失去这个动作（1轮）</p>\n<p><strong>阶段2</strong> 同阶段1，但DC为10（@Check[flat|dc:10]）（1轮）</p>\n<p><strong>阶段3</strong> 同阶段1，但DC为15（@Check[flat|dc:15]）（1轮）</p>"
 		},
 		"Obsidian Goggles (Greater)": {
-			"name": "高等黑曜石护目镜 Obsidian Goggles (Greater)",
+			"name": "高等黑曜目镜 Obsidian Goggles (Greater)",
 			"description": "<p>这对目镜闪着黑光的镜片经过特别打制，使得透过它看到的一切都仿佛被照亮一般。当穿戴这对目镜时，你在与视觉相关的察觉检定上获得+2物品加值。</p><hr /><p><strong>启动——黑暗视觉</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 不限次数</p>\n<p><strong>效果</strong> 你调节目镜，获得黑暗视觉，直到你用一个交互动作解除启动或其不再被你绑定，取决于何者为先。</p>"
 		},
 		"General's Word": {
@@ -11275,7 +11267,7 @@
 			"description": "<p><strong>启动</strong> 1分钟（交互）</p>\n<hr />\n<p>绯红救国团以能干涉不死生物感官的药草，熬制而成的独门浓郁煲汤。终焉之墙浓汤含有一餐分的营养。</p>\n<p>在你摄入一碗浓汤后1小时内，你在对抗不死生物的隐秘检定与DC上获得+2物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.6A8jsLR7upLGuRiv]{效果：终焉之墙浓汤}</p>"
 		},
 		"Whispering Wire": {
-			"name": "私语之线 Whispering Wire",
+			"name": "低语之线 Whispering Wire",
 			"description": "<p>这卷色彩明亮的线圈可整齐地扭成任意形状。</p>\n<p><strong>启动——风中私语</strong> <span class=\"action-glyph\">1</span>（专注）</p>\n<p><strong>频率</strong> 每 10 分钟一次</p><hr /><p><strong>效果</strong> 你对线圈无声地默念话语，它将以 @UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{讯息术 Message} 戏法的效果发送给目标。</p>"
 		},
 		"Rounds (Axe Musket)": {
@@ -12646,7 +12638,7 @@
 			"description": "<p>整个格拉利昂都能找到各式各样的娃娃。其中最常见的微型彩绘俑、用毛皮和棉花填充的毛绒动物、有精美衣服和丝质头发的瓷娃娃、织物手偶和精致的牵线木偶。</p>\n<hr />\n<p>任何类型的普通娃娃平均定价如上。</p>"
 		},
 		"Manacles (Poor)": {
-			"name": "镣铐（简陋） Manacles (Poor)",
+			"name": "简陋镣铐 Manacles (Poor)",
 			"description": "<p>根据生物的大小和你应用的镣铐数量，你可以用一个花费约10-30秒时间的探索期活动将一个自愿或无力反抗的生物铐起来。一个双腿被铐住的的两足生物在速度上受到-15尺环境减值，并且双手被铐住的两手生物必须在任何进行操作动作的时候进行@Check[flat|dc:5]检定，否则该动作将失败。根据镣铐约束手的紧密程度，该DC可能更高。被铐到到静止物体上的生物陷入禁足。对于具有更多或更少肢体的生物，由GM确定镣铐有什么效果。将一个生物从简陋镣铐中解放出来需要两次成功的@Check[thievery|dc:17|traits:action:pick-a-lock]检定。</p>"
 		},
 		"Diamond ring with platinum band": {
@@ -12702,8 +12694,8 @@
 			"description": "<p>这件<em>+2高等韧性链甲</em>常因使用而布满战痕，通常发给前线士兵。他们的任务是穿越敌人封锁，完成战场上的高价值目标。</p>\n<p><strong>启动–迅捷尖刺（Quick Spike）</strong> <span class=\"action-glyph\">r</span> （操作，金）</p>\n<p><strong>频率</strong> 每小时一次</p>\n<p><strong>触发</strong> 一个15尺内的生物使用了一个操作动作</p><hr /><p><strong>效果</strong> 你的护甲向目标射出一道铁刺，对目标造成@Damage[7d8[piercing]]伤害（@Check[reflex|dc:36|basic]豁免）。如果目标豁免大失败，触发动作会被打断。</p>"
 		},
 		"Hagbane Biscuit": {
-			"name": "克妖饼干 Hagbane Biscuit",
-			"description": "<p>这块朴素的饼干由经过祝福的小麦烘焙而成，并加入了多种已知能驱避女妖与精类侵染的草药。在格雷斯地区，达米拉烘焙坊以制作这种饼干闻名，将其分发给那些恐惧落入异界生物魔爪的旅人。<em>克妖饼干</em>本身不会造成伤害，但其上的祝福对女妖与某些精类的攻击具有破坏性。</p>\n<p><strong>启动——投掷祝福</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<p><strong>频率</strong> 不限次数</p><hr /><p><strong>效果</strong> 你向 30 尺内一个生物投掷此饼干，进行一次远程攻击检定（使用简易武器熟练度）以对抗目标的 AC。命中时，<em>克妖饼干</em>对女妖、精类或女巫造成 @Damage[1d8[positive]] 伤害；对其他生物造成普通的 @Damage[1[bludgeoning]] 伤害。无论命中与否，此饼干会被消耗。</p>\n<hr />\n<p>食用一块<em>克妖饼干</em>使你在 1 小时内对女妖与精类的魅惑及法术造成的法术 DC 上获得+1状态加值。</p>"
+			"name": "鬼婆克星姜饼 Hagbane Biscuit",
+			"description": "<p>这块朴素的饼干由经过祝福的小麦烘焙而成，并加入了多种已知能驱避女妖与精类侵染的草药。在格雷斯地区，达米拉烘焙坊以制作这种饼干闻名，将其分发给那些恐惧落入异界生物魔爪的旅人。<em>鬼婆克星姜饼</em>本身不会造成伤害，但其上的祝福对女妖与某些精类的攻击具有破坏性。</p>\n<p><strong>启动——投掷祝福</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<p><strong>频率</strong> 不限次数</p><hr /><p><strong>效果</strong> 你向 30 尺内一个生物投掷此饼干，进行一次远程攻击检定（使用简易武器熟练度）以对抗目标的 AC。命中时，<em>鬼婆克星姜饼</em>对女妖、精类或女巫造成 @Damage[1d8[positive]] 伤害；对其他生物造成普通的 @Damage[1[bludgeoning]] 伤害。无论命中与否，此饼干会被消耗。</p>\n<hr />\n<p>食用一块<em>鬼婆克星姜饼</em>使你在 1 小时内对女妖与精类的魅惑及法术造成的法术 DC 上获得+1状态加值。</p>"
 		},
 		"Harpoon Bolt": {
 			"name": "鱼叉矢 Harpoon Bolt",
@@ -12789,10 +12781,6 @@
 		"Adamantine Chunk": {
 			"name": "精金块 Adamantine Chunk",
 			"description": "<p>开采于从天堂堕至地面的岩石中，精金是已知的最硬的金属之一。它有着闪亮的黑色光泽，因其惊人的弹性和保持锋刃锐利度的特性而价格不菲。</p>\n<h2>精金物品</h2>\n<table class=\"pf2e remaster\">\n<thead>\n<tr>\n<th>精金物品</th>\n<th>硬度</th>\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>细薄物品</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>标准品质</td>\n<td>10</td>\n<td>40</td>\n<td>20</td>\n</tr>\n<tr>\n<td>高品质</td>\n<td>13</td>\n<td>52</td>\n<td>26</td>\n</tr>\n<tr>\n<td><strong>物品</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>标准品质</td>\n<td>14</td>\n<td>56</td>\n<td>28</td>\n</tr>\n<tr>\n<td>高品质</td>\n<td>17</td>\n<td>68</td>\n<td>34</td>\n</tr>\n<tr>\n<td><strong>构造物</strong></td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>标准品质</td>\n<td>28</td>\n<td>112</td>\n<td>56</td>\n</tr>\n<tr>\n<td>高品质</td>\n<td>34</td>\n<td>136</td>\n<td>68</td>\n</tr>\n</tbody>\n</table>"
-		},
-		"Tool (Short)": {
-			"name": "工具（短） Tool (Short)",
-			"description": "<p>不是为冒险而设计的一般工具。锄头、铲子或大锤属于长工具，手钻、冰钩或抹子属于短工具。工具通常可被用作临时武器，短工具造成1d4伤害。由GM来决定合适的伤害类型并在需要的时候调整伤害。</p>"
 		},
 		"Blightburn Bomb (Greater)": {
 			"name": "高等炽辐炸弹 Blightburn Bomb (Greater)",
@@ -13067,8 +13055,8 @@
 			"description": "<p><strong>察觉</strong> [[/r 1d20+12]]{+12}；视觉（精确感官）30尺，听觉（模糊）30尺</p>\n<p><strong>交流</strong> 心灵感应（通用语和其他两种常见语言）</p>\n<p><strong>技能</strong> 发条学识 [[/r 1d20+15]]{+15}, 手艺[[/r 1d20+13]]{+13}, 宗教[[/r 1d20+11]]{+11}</p>\n<p><strong>智力</strong> +4, <strong>感知</strong> +3, <strong>魅力</strong> +0</p>\n<p><strong>意志</strong> [[/r 1d20+12]]{+12}</p>\n<hr />\n<p>沐浴着布莱（青铜女士，发条和发明女神）信仰，经过无比虔诚使用的青铜低语工具组甚至产生了意识和人格，而这对与之搭档的工匠是一种祝福。青铜低语工具组相当于一套@UUID[Compendium.pf2e.equipment-srd.Item.0QgniSjpzksm5riV]{专家级工匠工具 Artisan's Tools (Sterling)}。这套工具组专注于创造新事物，并热情地向使用者传授制作技巧。青铜低语工具组了解等于或小于其等级的常见物品配方，以及GM裁定的其他配方。它可以传授这些配方。在使用配方进行制作之前，您仍然需要花时间将配方复制下来。</p>"
 		},
 		"Shaping Sweet": {
-			"name": "塑形糖 Shaping Sweet",
-			"description": "<p>第一世界的许多居民可以塑造周围环境；较弱的生物只能做小幅改变，而强大的存在如始祖可以重塑整片地貌。<em>塑形糖</em> 是一种水果味的胶状糖果，吃下后赋予你这种能力的一缕。食用 <em>塑形糖</em> 后 1 小时内，你可以用一次互动动作做以下每项变更。每项变更只能进行一次。</p><ul><li><strong>改变天气</strong> 你在 @Template[type:emanation|distance:30] 内创造或消除轻微降水。</li><li><strong>仙环</strong> 你周围 @Template[type:burst|distance:10] 区域内出现一圈花朵和蘑菇，每回合开始时为环内随机选择的妖精生物恢复 1 生命值。环持续 1 分钟。</li><li><strong>叶状植被</strong> 你周围 10 尺爆发区域内生长出叶状植被，形成持续 1 分钟的轻量灌木。</li><li><strong>地形位移</strong> 你所在方格的地面升高或降低 5 尺，在该高度保持 1 分钟。</li></ul>"
+			"name": "塑形软糖 Shaping Sweet",
+			"description": "<p>第一世界的许多居民可以塑造周围环境；较弱的生物只能做小幅改变，而强大的存在如始祖可以重塑整片地貌。<em>塑形软糖</em> 是一种水果味的胶状糖果，吃下后赋予你这种能力的一缕。食用 <em>塑形软糖</em> 后 1 小时内，你可以用一次互动动作做以下每项变更。每项变更只能进行一次。</p><ul><li><strong>改变天气</strong> 你在 @Template[type:emanation|distance:30] 内创造或消除轻微降水。</li><li><strong>仙环</strong> 你周围 @Template[type:burst|distance:10] 区域内出现一圈花朵和蘑菇，每回合开始时为环内随机选择的妖精生物恢复 1 生命值。环持续 1 分钟。</li><li><strong>叶状植被</strong> 你周围 10 尺爆发区域内生长出叶状植被，形成持续 1 分钟的轻量灌木。</li><li><strong>地形位移</strong> 你所在方格的地面升高或降低 5 尺，在该高度保持 1 分钟。</li></ul>"
 		},
 		"Waffle Iron": {
 			"name": "华夫饼机 Waffle Iron",
@@ -13443,8 +13431,8 @@
 			"description": "<p>这把华丽扇子的扇面上的浮雕描绘的是木元素位面里的特定场景，通常来说雕刻的是扇子原产地的风景。扇子扇动时会散发出檀香味的微风和哔咔作响的魔法爆裂声。在施放@UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{跨界传送 Interplanar Teleport}或者类似的魔法效果时，<em>檀香木扇</em>视为位面密钥，使得传送的位置能够更接近预期目的地。<em>檀香木扇</em>让传送的误差范围将变为1d6×25英里，而非通常的误差范围（1d20 × 25英里）；如果传送的目的地是扇面浮雕所处的地点，误差范围进一步降低为1d4×25英里。</p>\n<hr />\n<p><strong>启动-风雅植谈</strong> 1分钟 （操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> <em>檀香木</em>施展@UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{植物交谈 Speak with Plants}和@UUID[Compendium.pf2e.spells-srd.Item.vTQvfYu2llKQedmY]{通译语言 Translate}，为你翻译精类语和木元素语。除了与附近的植物交谈外，你还可以通过扇子与之前以此法交流过的还活着的植物交谈，但这些植物必须与你处于同一位面或处于木元素位面。</p>\n<hr />\n<p><strong>启动-云卷叶积</strong> <span class=\"action-glyph\">2</span> （操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> 你召唤叶片保护盟友并标示敌人。30尺内所有盟友和态度为冷漠的生物获得次等掩蔽，持续1轮；而范围内的所有敌人受到@UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{显光尘 Revealing Light}的效果，持续1分钟。</p>"
 		},
 		"Pathfinder Chronicle": {
-			"name": "探索者编年史 Pathfinder Chronicle",
-			"description": "<p>有许多不同期号册卷的探索者编年史存在，每本记载了不同的冒险。探索者编年史是专门发表协会新发现，而非探讨研究理论的学术期刊。由于对协会成员来说编年史取得起来比普通的学术期刊来得方便，他们的书架上常常摆满了一排排的探索者编年史。</p>"
+			"name": "开拓者编年史 Pathfinder Chronicle",
+			"description": "<p>有许多不同期号册卷的开拓者编年史存在，每本记载了不同的冒险。开拓者编年史是专门发表协会新发现，而非探讨研究理论的学术期刊。由于对协会成员来说编年史取得起来比普通的学术期刊来得方便，他们的书架上常常摆满了一排排的开拓者编年史。</p>"
 		},
 		"Mortalis Coin": {
 			"name": "死命钱 Mortalis Coin",
@@ -13844,7 +13832,7 @@
 			"description": "<p><strong>启动</strong> 见下文</p><hr /><p>当你把冲击泡沫底盘穿在护甲或衣服外面时，如果你从至少10尺高的高处坠落，它就会自动启动，在你的身下和周围制造出不断膨胀的泡沫，为坠落提供缓冲。冲击泡沫底盘会减少所列出的坠落伤害，并代替你来承受相同的伤害。如果伤害足以破坏泡沫，则它会立即消散。然而如果泡沫有任何生命值剩余，它将存在于你周围最多1分钟。</p>\n<p>当你被泡沫包围时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]，并且你对其他生物具有标准掩蔽，而其他生物对你也具有标准掩蔽。泡沫的@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]DC为15，生物也可以通过花费三个交互动作来移除它。你和其他生物也可以攻击泡沫（泡沫的AC12），如果生命值减少到0，泡沫同样会消散。</p>\n<p>高等冲击泡沫底盘能减少最多100坠落伤害，并且拥有100生命值。</p>"
 		},
 		"Manacles (Simple)": {
-			"name": "镣铐（简单） Manacles (Simple)",
+			"name": "简单镣铐 Manacles (Simple)",
 			"description": "<p>根根据生物的大小和你应用的镣铐数量，你可以用一个花费约10-30秒时间的探索期活动将一个自愿或无力反抗的生物铐起来。一个双腿被铐住的的两足生物在速度上受到-15尺环境减值，并且双手被铐住的两手生物必须在任何进行操作动作的时候进行@Check[flat|dc:5]检定，否则该动作将失败。根据镣铐约束手的紧密程度，该DC可能更高。被铐到到静止物体上的生物陷入禁足。对于具有更多或更少肢体的生物，由GM确定镣铐有什么效果。将一个生物从简单镣铐中解放出来需要三次成功的@Check[thievery|dc:22|traits:action:pick-a-lock]检定。</p>"
 		},
 		"Lesser Cube of Nex": {
@@ -13872,7 +13860,7 @@
 			"description": "<p>人们常用绰号“尖叫剑”来称呼这种武器，<em>奈克斯封死刃</em>是由奈克斯的弧光领主开发的，专门用来抵御盖布的渗透者和刺客。尖叫剑是<em>+2高等强击命源银质长剑</em>，上面还带有一些额外机巧。每把奈克斯封死刃都能感知到60尺内的不死生物，并发出尖叫来提示，直到范围内不再有不死生物。如果需要的话，同样的尖叫也可以作为音波攻击施放出来。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p>\n<p><strong>频率</strong> 每日一次</p>\n<hr />\n<p><strong>效果</strong> 尖叫剑做它最擅长的事情，发出震耳欲聋的尖叫。@Template[cone|distance:30]范围的所有生物受到@Damage[10d6[sonic]]伤害（@Check[fortitude|dc:31|basic]豁免）。失败的生物还会@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]1轮，大失败生物耳聋1小时。</p>"
 		},
 		"Cinnamon Nostalgia Bun": {
-			"name": "肉桂怀旧包 Cinnamon Nostalgia Bun",
+			"name": "肉桂怀旧面包 Cinnamon Nostalgia Bun",
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>一圈肉桂、糖和黄油被烤入这块松软的面包中。掰开并食用面包能唤起对快乐时光的温馨回忆，使你的惊惧状态值降低 1。你还可以尝试一次即时空白检定以从单一持续精神伤害源中恢复，DC 可由适当协助降低。</p>"
 		},
 		"Exuviae Powder": {
@@ -13892,7 +13880,7 @@
 			"description": "<p>这种武器会从喇叭状的枪口中射出一大片细小弹丸，使其成为打鸟或者对一个短而宽阔的区域造成伤害的绝佳选择。冒险中的枪手通常会带着喇叭枪来对付成群的害虫或是类似的威胁。</p>"
 		},
 		"Musical Instrument (Heavy)": {
-			"name": "乐器（大型） Musical Instrument (Heavy)",
+			"name": "大型乐器 Musical Instrument (Heavy)",
 			"description": "<p>手持乐器包括风笛、小套编钟、小鼓、小提琴和弦乐器、长笛和龠、小竖琴、琵琶、小号和类似大小的乐器。GM可能会裁定一个特别大的手持仪器（如大号）具有更大的负载。诸如大鼓、全套编钟和键盘乐器之类的大型乐器不太方便携带，并且通常在演奏时需要静止。</p>"
 		},
 		"Sinew-Song": {
@@ -14241,7 +14229,7 @@
 			"description": "<p>这种柠檬茶混合了稀有的乌笃喇（Vudrani）草药，在异能圈子里广泛流行，让人短暂跨越现实的边界。对梦幻茶成瘾效果的豁免检定DC为19。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">A</span> 交互（摄入）</p>\n<p><strong>豁免</strong> @Check[fortitude|dc:21]</p>\n<p><strong>最大持续时间</strong> 30 分钟</p>\n<p><strong>阶段1</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2} (1 分钟）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识 Unconscious}，并且可以像@UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{卜筮术 Augury}效果那样询问凶吉，但是纯骰检定的DC为10。（10 分钟）</p>"
 		},
 		"Armbands of the Gorgon": {
-			"name": "戈尔贡臂带 Armbands of the Gorgon",
+			"name": "石化牛臂带 Armbands of the Gorgon",
 			"description": "<p>这对闪耀的蓝灰色金属臂带上饰有戈尔贡头像。当你成为具有失能效果的法术或效果的目标时，你的豁免检定结果的成功度提升一级，并且任何试图对你造成此类效果的检定结果将会视为成功度低一级（如同你大于法术环级两倍或者效果等级那样。若绑定了该臂带，你能将你的体质调整值+1，或将其提升至+4，选择结果更高的选项。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你将两个护腕击打在一起，并移除当前影响你的任意一种状态效果。如果该效果是永久性的，则改为其被压制1小时。</p>"
 		},
 		"Searing Suture (Lesser)": {
@@ -14468,8 +14456,8 @@
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令，交互</p>\n<hr />\n<p>古代的血盐城居民制作了这些能快速构建防御的魔法石。从外观上，如果忽略它那不自然的几何形状，<em>壁垒石</em>看起来就像一块普普通通的鹅卵石。</p>\n<p>当你启动<em>壁垒石</em>时，你可以把它放在地上或者扔到最远20尺的范围内，也可以用投石索将它投射出去。</p>\n<p>当它落地后，<em>壁垒石</em>会立即发生永久性的膨胀，直至扩展到最大尺寸。不同类型的壁垒石最终会扩展成不同的形状和尺寸。虽然具有构造物特征的物品通常都可以在内部容纳生物，但壁垒石最终生成的石头是实心的，所以不能放置在有生物的区域。启动后的壁垒石可以像任何正常的石制物一样被摧毁（硬度14，HP56），虽然即便有合适的工具也可能需要一段时间。</p>\n<hr />\n<p><strong>类型：立方体</strong></p>\n<p>这个看似简单的六面体一般用于封堵通道。当这个六面体被启动后，它会生长并填满一个任意一条边都20尺的正方体或长方体空间。虽然即使是超小型的生物也无法通过被填充后的立方体空间，但它远非完美的密封。液体、气体和昆虫等微小生物仍然可以找到绕过它的方法。如果立方体填充的空间并不规则，可能还可以透过它看到或听到另一边。</p>"
 		},
 		"Glacier Hammer": {
-			"name": "冰川锤 Glacier Hammer",
-			"description": "<p>这把雕刻精致的战锤的锤头由经魔法强化过的冰雕琢而成，永不融化。<em>冰川锤</em>视为<em>+1强击战锤</em>。它在打击中造成额外@Damage[1d6[cold]]伤害。</p>\n<hr />\n<p><strong>启动——冰封打击</strong> <span class=\"action-glyph\">2</span>（操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> 你以<em>冰川锤</em>进行一次打击。命中时，目标必须通过一次@Check[fortitude|dc:21]豁免，否则在 1 轮内承受@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}。</p>"
+			"name": "冰川巨锤 Glacier Hammer",
+			"description": "<p>这把雕刻精致的战锤的锤头由经魔法强化过的冰雕琢而成，永不融化。<em>冰川巨锤</em>视为<em>+1强击战锤</em>。它在打击中造成额外@Damage[1d6[cold]]伤害。</p>\n<hr />\n<p><strong>启动——冰封打击</strong> <span class=\"action-glyph\">2</span>（操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> 你以<em>冰川巨锤</em>进行一次打击。命中时，目标必须通过一次@Check[fortitude|dc:21]豁免，否则在 1 轮内承受@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}。</p>"
 		},
 		"Arcane Standard (Greater)": {
 			"name": "高等奥法旗帜 Arcane Standard (Greater)",
@@ -16075,7 +16063,7 @@
 			"description": "<p>洪水休战期是一个相对和平的季节，这个河流刺青可以在你发怒的时候安抚你的情绪。你对遵守洪水休战的兽人进行交涉检定时，获得+1物品加值。</p>\n<p><strong>启动—表现休战</strong> <span class=\"action-glyph\">r</span> （专注）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 一个心灵效果将要迫使你伤害一名盟友或旁观者</p><hr /><p><strong>效果</strong> 以4环级的反制环级尝试一次反制检定以结束效果。</p>"
 		},
 		"Beekeeper's Smoker": {
-			"name": "养蜂人烟熏器 Beekeeper's Smoker",
+			"name": "养蜂人熏烟器 Beekeeper's Smoker",
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span>（操作）</p>\n<hr />\n<p>此装置形似带扳机的茶壶。装入布质燃料（值 1 cp）并点燃后，会燃烧 10 分钟并逐渐充满烟雾，期间你可以扣动扳机喷射烟雾。</p>\n<hr />\n<p><strong>喷射烟雾</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<p><strong>频率</strong> 每分钟一次</p>\n<hr />\n<p><strong>效果</strong> 你向相邻 5 尺方格内喷出烟雾。该区域内所有生物 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽 Concealed}，且其他生物对它们也隐蔽。烟雾持续 [[/gmr 1d4 #rounds]]{1d4 轮} 或被强风驱散。</p>"
 		},
 		"Weapon Shot (Major)": {
@@ -16324,7 +16312,7 @@
 			"description": "<p>这个带着金属边的木质方盒子上装饰着音符，其尺寸不到1尺×1尺。一个漏斗状的喇叭从盒子顶部弯曲地伸出来，它的重量非常轻盈。盒子侧面有一个大按钮，必须把它放置在平整表面上才能启动它。当它被启动时候，发出的巨大噪音和盒子里令人烦躁的齿轮旋转声导致它无法被携带，只能丢在原地。</p><hr /><p><strong>启动</strong> <span class=\"action-glyph\">A</span> 交互</p>\n<p><strong>效果</strong> 你按下盒子侧面的按钮，音乐盒爆发出持续一分钟的刺耳噪音旋律，并且无法提前关闭。噪音是如此之响，以至于60尺内的所有生物必须通过 @Check[fortitude|dc:24]豁免，否则只要他们呆在60尺范围内，就会持续@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]，即使离开范围之后仍然会耳聋1分钟。如果豁免大成功，则该生物无需再进行豁免，并且24小时内对噪声音乐盒的效果临时免疫。如果豁免成功，只要生物呆在<em>噪声音乐盒</em>范围内，则每轮必须重新进行豁免检定。 </p>"
 		},
 		"Spellbook of Redundant Enchantment": {
-			"name": "《惑控补救之书》 Spellbook of Redundant Enchantment",
+			"name": "惑控补救之书 Spellbook of Redundant Enchantment",
 			"description": "<p>打开这本书的时候，可以听到风中的窃窃私语，或者远处响的起笑声。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">f</span> 想象</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 你施放一道魔典中准备的惑控系法术，但是所有目标都在豁免检定中得到大成功的结果，导致无事发生</p>\n<hr />\n<p><strong>效果</strong> 你迅速将失败的魔法能量转移到自己身上，以保留你喜欢的法术。你失去另一个已准备的法术、其环级不得低于触发的惑控系法术，作为交换，你保留再次施放该惑控系法术的能力。</p>"
 		},
 		"Wand of Pernicious Poison (1st-Rank)": {
@@ -16613,12 +16601,8 @@
 			"name": "耳塞 Earplugs",
 			"description": "<p>这些小块的布料和填充物经过精心制作，可以显着地阻隔声音，并且很容易塞进人形生物的耳道或取出。你能用一个单独的交互动作，通过一只空着的手，给你自己或一个愿意的生物的双耳塞入或拔出耳塞。戴上耳塞的生物，在所有基于听觉的察觉检定中都有-2环境减值，但在对抗听觉效果时获得+2环境加值。</p>"
 		},
-		"Fishing Tackle (Professional)": {
-			"name": "渔具（专家） Fishing Tackle (Professional)",
-			"description": "<p>该套工具包括可折叠的钓鱼竿、鱼钩、钓线、鱼饵和渔网。专家级渔具为钓鱼检定提供+1物品加值。</p>"
-		},
 		"Celestial Peach (Life)": {
-			"name": "仙桃（返生） Celestial Peach (Life)",
+			"name": "返生仙桃 Celestial Peach (Life)",
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 交互</p>\n<p>在郝金最为贵重的宝物之中，有着3株植物，这些植物是现在已然绝种，原生于楚业群山上的仙桃树。其中一棵树不开花而生珍珠，另两株则结出无价果实。吃下这些小小的红色桃子以后再怎么严重的伤都治得好。</p>\n<p>将桃子放入死后未过1年的完整尸体的口中后，桃子会向尸体施放10环级的@UUID[Compendium.pf2e.spells-srd.Item.IkGYwHRLhkuoGReG]{死者复活 Raise Dead}。</p>"
 		},
 		"Fossil Fragment (Deinonychus Claw)": {
@@ -16774,7 +16758,7 @@
 			"description": "<p>当你绑定这颗石头时，你获得15点临时生命值。如果石头的效果被压制，你失去剩余的所有临时生命值，直到石头的效果回来。临时生命值会在你进行每日准备时刷新；但在下一次每日准备之前，临时生命值不会在你重新绑定这颗石头，或绑定其他<em>粉色斜方体万古石</em>时刷新。</p>\n<p>共鸣能力让你可以以神术内在法术的形式施放@UUID[Compendium.pf2e.spells-srd.Item.SnjhtQYexDtNDdEg]戏法。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.HcUltKEnhktxcp4T]</p>"
 		},
 		"Whispering Wire (Greater)": {
-			"name": "高等私语之线 Whispering Wire (Greater)",
+			"name": "高等低语之线 Whispering Wire (Greater)",
 			"description": "<p>这卷色彩明亮的线圈可整齐地扭成任意形状。</p>\n<p><strong>启动——风中私语</strong> <span class=\"action-glyph\">1</span>（专注）</p>\n<p><strong>频率</strong> 每 10 分钟一次</p><hr /><p><strong>效果</strong> 你对线圈无声地默念话语，它将以 3 环 @UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{讯息术 Message} 戏法的效果发送给目标。</p>"
 		},
 		"Belkzen Deadsmasher (Greater)": {
@@ -16830,7 +16814,7 @@
 			"description": "<p>这种木盾的表面上有一种弹簧装填设备，可以射出强力的飞镖。盾牌内的小型机关甚至能让你在主动持握盾牌或用盾牌格挡的时候发射飞镖。</p>"
 		},
 		"Manacles (Average)": {
-			"name": "镣铐（普通） Manacles (Average)",
+			"name": "普通镣铐 Manacles (Average)",
 			"description": "<p>根据生物的大小和你应用的镣铐数量，你可以用一个花费约10-30秒时间的探索期活动将一个自愿或无力反抗的生物铐起来。一个双腿被铐住的的两足生物在速度上受到-15尺环境减值，并且双手被铐住的两手生物必须在任何进行操作动作的时候进行@Check[flat|dc:5]检定，否则该动作将失败。根据镣铐约束手的紧密程度，该DC可能更高。被铐到到静止物体上的生物陷入禁足。对于具有更多或更少肢体的生物，由GM确定镣铐有什么效果。将一个生物从普通镣铐中解放出来需要四次成功的@Check[thievery|dc:27|traits:action:pick-a-lock]检定。</p>"
 		},
 		"Chilled Fire Noodles": {
@@ -16942,7 +16926,7 @@
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>混浊的<em>血光油</em>，一种猩红的液体，涂在武器上会让其闻起来有着强烈的血腥味，会给予它@UUID[Compendium.pf2e.equipment-srd.Item.fo6Yhq5mbQXsnZs0]符文的增益，持续1分钟。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.2gRnUwzPylifTrUO]</p>"
 		},
 		"Bronze brazier with Asmodean artwork": {
-			"name": "带有阿斯莫迪斯徽记的铜火炉 Bronze brazier with Asmodean artwork",
+			"name": "带有阿斯摩蒂斯徽记的铜火炉 Bronze brazier with Asmodean artwork",
 			"description": ""
 		},
 		"Frozen Lava of Sakalayo": {
@@ -18403,10 +18387,6 @@
 			"name": "VI型深海冲击弹 Depth Charge VI",
 			"description": "<p><strong>弹药</strong> 任意</p>\n<hr />\n<p>铭刻着水或是水生生物象形符号，在水下射击或是射向水下目标的深水冲击弹有着普通的射程增量，并且无论它原本的伤害类型都可以造成命中。如果命中了位于水下的目标这枚弹药会在命中时发生爆炸，在@Template[burst|distance:20]的范围内造成@Damage[13d6[bludgeoning]|options:area-damage]伤害（@Check[fortitude|dc:36|basic|showDC:all|options:area-effect]豁免）。这个爆发并不会扩张到水体之外。</p>"
 		},
-		"Religious Symbol (Wooden)": {
-			"name": "圣徽（木制） Religious Symbol (Wooden)",
-			"description": "<p>这个木质的小片上印有代表神灵的图画。一些神术施法者，如牧师，可以使用信仰神祇的来使用某些能力并施放一些法术。圣徽可被穿戴在身上（当作胸针或挂在链子上）或手持使用。</p>"
-		},
 		"Thunder Sling": {
 			"name": "飞雷索 Thunder Sling",
 			"description": "<p>天狗使用这些特殊的投石索用来投射飞镖到更远的距离，这样相比起用手投来说更有力。飞雷索使用飞镖作弹药。它也可以投射吹箭作为弹药，但只会造成@Damage[(1d4)[piercing]]伤害而不是原先的1d6穿刺伤害。</p>"
@@ -18448,8 +18428,8 @@
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>稳健步伐药水内容纳的淡棕色药液能帮助你找到立足点。在喝下它之后1小时内，你会在用于@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]的特技检定中获得+1物品加值。此外，你能在困难地形中快步，而且你不会由于身处不稳地面而陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]。</p>"
 		},
 		"Taster's Folly": {
-			"name": "试味者之愚 Taster's Folly",
-			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>为了绕开检测措施，一剂试味者之愚由两种分别置于不同菜肴的化合物混合而成。每种化合物本身是无害的。通过其中一份化合物进行这种毒药的回忆知识检定的DC是23，而通过魔法去识别未混合的化合物也需要一次成功的DC23的反制检定。只有当受害者在一小时内同时服用这两种化合物，毒药才会开始进入潜伏期。如果这两种化合物在食用前就混在一起，它们就会变得有毒，并且可以被检测出来。恶心状态不会在毒药的效果终止前结束。</p>\n<p><strong>豁免检定</strong> @Check[fortitude|dc:21]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 6分钟</p>\n<p><strong>阶段1</strong> @Damage[2d4[poison]]伤害（1分钟）</p>\n<p><strong>阶段2</strong> @Damage[3d4[poison]]伤害和@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}（1分钟）</p>\n<p><strong>阶段3</strong> @Damage[4d4[poison]]伤害和恶心1（1分钟）</p>"
+			"name": "试味者的愚行 Taster's Folly",
+			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>为了绕开检测措施，一剂试味者的愚行由两种分别置于不同菜肴的化合物混合而成。每种化合物本身是无害的。通过其中一份化合物进行这种毒药的回忆知识检定的DC是23，而通过魔法去识别未混合的化合物也需要一次成功的DC23的反制检定。只有当受害者在一小时内同时服用这两种化合物，毒药才会开始进入潜伏期。如果这两种化合物在食用前就混在一起，它们就会变得有毒，并且可以被检测出来。恶心状态不会在毒药的效果终止前结束。</p>\n<p><strong>豁免检定</strong> @Check[fortitude|dc:21]</p>\n<p><strong>潜伏期</strong> 10分钟</p>\n<p><strong>最大持续时间</strong> 6分钟</p>\n<p><strong>阶段1</strong> @Damage[2d4[poison]]伤害（1分钟）</p>\n<p><strong>阶段2</strong> @Damage[3d4[poison]]伤害和@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}（1分钟）</p>\n<p><strong>阶段3</strong> @Damage[4d4[poison]]伤害和恶心1（1分钟）</p>"
 		},
 		"Searing Blade (Greater)": {
 			"name": "高等灼热之刃 Searing Blade (Greater)",
@@ -18893,8 +18873,8 @@
 			"description": "<p>在极乐境边境作战的士兵，尤其是古拉姆的神国冲突海岸的士兵们会使用这种青铜望远镜，除了最大的圆柱体上镶嵌着一颗钻石外，它在其他方面显得有些朴素。<em>极乐望远镜</em>和普通望远镜类似，但透过它你能看到20倍远，而非通常的8倍远。它可以为观察远方细节的察觉检定提供+3物品加值。</p><hr /><p><strong>启动—寻找交谈</strong> <span class=\"action-glyph\">2</span> （专注）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> <em>极乐望远镜</em>对你正在观察的区域施放锐耳术和鹰眼术。只要你持握着<em>极乐望远镜</em>，你就能通过它的法术创造的悬浮眼和耳朵说话，你的声音可以是只有法术射程内的某一个人能听到的耳语，或是法术射程内的每个人都能听到的轰鸣声，或者这两个极端之间的任何组合。</p><hr /><p><strong>启动—确知位置</strong> <span class=\"action-glyph\">2</span> （专注，操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> 你施放@UUID[Compendium.pf2e.spells-srd.Item.CeSh8QcVnqP5OlLj]。</p>"
 		},
 		"Restorative Handwraps": {
-			"name": "恢复缠手带 Restorative Handwraps",
-			"description": "<p>这些柔软的缠手带带有微弱的治愈魔法，使穿戴者在打击之间恢复元气。<em>恢复缠手带</em>视为<em>+1强击重拳缠手带</em>。</p>\n<hr />\n<p><strong>启动——治愈血脉</strong> <span class=\"action-glyph\">2</span>（操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> 你以<em>恢复缠手带</em>进行一次成功的打击后，立即恢复@Damage[2d8[healing]]生命值。</p>"
+			"name": "治疗拳套 Restorative Handwraps",
+			"description": "<p>这些柔软的缠手带带有微弱的治愈魔法，使穿戴者在打击之间恢复元气。<em>治疗拳套</em>视为<em>+1强击重拳缠手带</em>。</p>\n<hr />\n<p><strong>启动——治愈血脉</strong> <span class=\"action-glyph\">2</span>（操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> 你以<em>治疗拳套</em>进行一次成功的打击后，立即恢复@Damage[2d8[healing]]生命值。</p>"
 		},
 		"Air Bladder": {
 			"name": "气囊 Air Bladder",
@@ -18960,16 +18940,12 @@
 			"name": "科迪莉亚的高等构装钥匙 Cordelia's Greater Construct Key",
 			"description": "<p>穿戴在脖子上时，这把复杂的钥匙可以给予你强大的构装体天赋。钥匙会提醒你周围潜藏的构装体。无论你是否处于调查状态，当你看见一个伪装成正常物体，雕像或类似物的构装体时，GM为你自动暗骰回忆知识检定。通常，该检定为奥法，手艺，或合适的学识技能检定。如果成功，你意识到构装体的存在，并获得回忆知识的通常好处。</p>\n<p>当你穿戴钥匙时，如果你的攻击将一个构装体减至0生命值，取代完全摧毁它，你可以将它变为休眠状态，借此你可以学习它的内部运作机制，并可能（由GM决定）花费时间和金钱来再编程或再利用它。即便你不改造它，你也可以用此法修复处于休眠状态的构装体，允许你在和它们战斗结束后，让这些坟墓守卫返回岗位。此外，你可以用两种方式启动钥匙来召唤一个构装体为你效命。</p>\n<p>高等钥匙可以让你充分理解并部分绕开构装体的抗力。你忽视构装体对你伤害效果的5抗力，无论是物理还是魔法。</p><hr /><p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令，交互</p>\n<p><strong>频率</strong> 每小时一次</p><hr /><p><strong>效果</strong> 你凭空转动钥匙，创造出一个魔法图纹。钥匙施放5环级的@UUID[Compendium.pf2e.spells-srd.Item.lKcsmeOrgHtK4xQa]。</p><hr /><p><strong>启动</strong> 1分钟（命令，想象，交互）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你将钥匙放在一件小型物体上，转动它，创造出一个简易活化物体，持续8小时。该活化物体使用@UUID[Compendium.pf2e.pathfinder-monster-core.Actor.ybkelAOtSIA06fnj]的数据，但没有扫帚毛打击，也不能攻击。它可以在探索期或休整期为你执行简单而宽泛的粗活任务，但因为对单个命令反应太迟钝，它不能在战斗中帮助你。</p>"
 		},
-		"Spyglass (Fine)": {
-			"name": "望远镜（优质） Spyglass (Fine)",
-			"description": "<p>典型的望远镜让你可以看到比正常远八倍的物体。优质望远镜为看清远处细节的察觉检定提供+1物品加值。</p>"
-		},
 		"Set of decorated porcelain plates": {
 			"name": "一套装饰瓷盘 Set of decorated porcelain plates",
 			"description": ""
 		},
 		"Obsidian Goggles (Major)": {
-			"name": "上等黑曜石护目镜 Obsidian Goggles (Major)",
+			"name": "上等黑曜目镜 Obsidian Goggles (Major)",
 			"description": "<p>这对目镜闪着黑光的镜片经过特别打制，使得透过它看到的一切都仿佛被照亮一般。当穿戴这对目镜时，你在与视觉相关的察觉检定上获得+3物品加值。</p><hr /><p><strong>启动——黑暗视觉</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 不限次数</p>\n<p><strong>效果</strong> 你调节目镜，获得<em>高等黑暗视觉</em>，直到你用一个交互动作解除启动或其不再被你绑定，取决于何者为先。</p>"
 		},
 		"Clothing (High-Fashion Fine)": {
@@ -19306,7 +19282,7 @@
 			"description": "<p><strong>启动</strong> 施放法术（增加一个动作）</p>\n<hr />\n<p>这块琥珀中凝结着一簇灰色的羽毛，它会发出电流，让长时间拿着琥珀的人产生一种奇怪的紧张感。当以此触媒强化@UUID[Compendium.pf2e.spells-srd.Item.r3NeUnsgt9mS03Sn]{电爪 Shocking Grasp}法术时，<em>雷鸟羽簇</em>能以一种防御性的灵气（nimbus）将电能传导回施法者体内。在1分钟内，如果一个生物触碰你、以无武装攻击命中你、或以不带长触及特征的近战武器命中你，都会受到@Damage[2d4[electricity]]伤害（当该生物使用金属武器时则改为受到@Damage[2d6[electricity]]伤害）。</p>"
 		},
 		"Pathfinder's Coin": {
-			"name": "探索者录音币 Pathfinder's Coin",
+			"name": "开拓者录音币 Pathfinder's Coin",
 			"description": "<p>录音币的外观貌似古钱，内藏着的金与白金丝线组成的回路，放到寻路仪上头时会悬空1尺并开始旋转。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">A</span> 命令</p>\n<p><strong>需求</strong> 录音币正悬浮在@UUID[Compendium.pf2e.equipment-srd.Item.gbwr57aT9ou8yKWT]{寻路仪 Wayfinder}上</p>\n<p><strong>效果</strong> 你在录音币上记录不长于25个词的讯息。该录音币下次悬浮在<em>寻路仪</em>上时会以你的声音播放此讯息。<em>录音币</em>同时只能维持一道讯息，每道讯息只会播放一次。</p>"
 		},
 		"Wand of Reaching (9th-Rank)": {
@@ -19486,8 +19462,8 @@
 			"description": "<p>这种液体包含了银龙的血。你饮下这瓶调和物之后的一小时内，你可以喷出银龙的吐息武器。吐息的效力基于药水的类型，是根据提供龙血的龙的年龄来决定的。药水拥有和吐息武器伤害类型一致的特征。</p>\n<p>释放龙息要花费一个动作。你喷出范围为@Template[cone|distance:15]的寒冰龙息，造成@Damage[6d6[cold]|options:area-damage]伤害。每个区域内的生物都必须尝试一次@Check[reflex|dc:29|basic|name:Adult Silver Dragon's Breath Potion|options:area-effect]豁免检定。</p>\n<p>使用了一次吐息武器之后，你在[[/r 1d4 #rounds]]{1d4轮}内无法再次使用。</p>"
 		},
 		"Last Word Stone": {
-			"name": "遗言之石 Last Word Stone",
-			"description": "<p>这是一颗手掌大小的光滑水晶，呈半透明的灰色。但在绝望者唇间的低语下，<em>遗言之石</em>能被注入一缕记忆的火花，外观随之变为不透明的抛光石头，触感奇异地温热。这些由神圣力量灌注的物品最初由法莱斯玛祭司创制，用于在亲人来不及赶到濒死者身边时，保存逝者最后的生命片刻。然而随着终焉之墙陷落的悲剧发生，<em>遗言之石</em>获得了新的、更迫切的用途。在这片墓葬地边境区域，难民与冒险者们开始用<em>遗言之石</em>，将重要讯息留给身处险境之外的接收者——在他们极有可能无法亲自传递消息之时。</p><hr /><p><strong>启动——捕获记忆</strong> <span class=\"action-glyph\">3</span>（专注、操作、心智）</p>\n<p><strong>需求</strong> 该<em>遗言之石</em>未包含任何记忆</p><hr /><p><strong>效果</strong> 你将一颗空的<em>遗言之石</em>按在相邻一个自愿生物的头上。石头填入该生物心中的一段重要记忆，外观随之变为不透明。这段记忆会被复制，原本仍留存于目标心中，但任何人都无法从外观判断石中所藏记忆的类型。被存入<em>遗言之石</em>的记忆由源生物自行选择，一旦记忆被储存，该石便不能再次用于捕获记忆。所存记忆所能承载的信息有限——仅一种情感与一幅朦胧的心象，二者结合传达一段不超过 10 个字词的短讯，通常足以向亲人留下临终的安慰、警示某个可能有陷阱的特定地点，或转述某件值得注意之事的简讯。10 字词的上限体现了这心象的朦胧与有时令人困惑的本质。</p>\n<p><strong>启动——揭示记忆</strong> <span class=\"action-glyph\">3</span>（专注、操作、心智）</p>\n<p><strong>需求</strong> 该<em>遗言之石</em>含有记忆</p><hr /><p><strong>效果</strong> 你将<em>遗言之石</em>按在头上，专注于其内容。片刻之后，储存的记忆在你脑中浮现，<em>遗言之石</em>随即在你掌中化作尘土。</p>"
+			"name": "遗言石 Last Word Stone",
+			"description": "<p>这是一颗手掌大小的光滑水晶，呈半透明的灰色。但在绝望者唇间的低语下，<em>遗言石</em>能被注入一缕记忆的火花，外观随之变为不透明的抛光石头，触感奇异地温热。这些由神圣力量灌注的物品最初由法莱斯玛祭司创制，用于在亲人来不及赶到濒死者身边时，保存逝者最后的生命片刻。然而随着终焉之墙陷落的悲剧发生，<em>遗言石</em>获得了新的、更迫切的用途。在这片墓葬地边境区域，难民与冒险者们开始用<em>遗言石</em>，将重要讯息留给身处险境之外的接收者——在他们极有可能无法亲自传递消息之时。</p><hr /><p><strong>启动——捕获记忆</strong> <span class=\"action-glyph\">3</span>（专注、操作、心智）</p>\n<p><strong>需求</strong> 该<em>遗言石</em>未包含任何记忆</p><hr /><p><strong>效果</strong> 你将一颗空的<em>遗言石</em>按在相邻一个自愿生物的头上。石头填入该生物心中的一段重要记忆，外观随之变为不透明。这段记忆会被复制，原本仍留存于目标心中，但任何人都无法从外观判断石中所藏记忆的类型。被存入<em>遗言石</em>的记忆由源生物自行选择，一旦记忆被储存，该石便不能再次用于捕获记忆。所存记忆所能承载的信息有限——仅一种情感与一幅朦胧的心象，二者结合传达一段不超过 10 个字词的短讯，通常足以向亲人留下临终的安慰、警示某个可能有陷阱的特定地点，或转述某件值得注意之事的简讯。10 字词的上限体现了这心象的朦胧与有时令人困惑的本质。</p>\n<p><strong>启动——揭示记忆</strong> <span class=\"action-glyph\">3</span>（专注、操作、心智）</p>\n<p><strong>需求</strong> 该<em>遗言石</em>含有记忆</p><hr /><p><strong>效果</strong> 你将<em>遗言石</em>按在头上，专注于其内容。片刻之后，储存的记忆在你脑中浮现，<em>遗言石</em>随即在你掌中化作尘土。</p>"
 		},
 		"Charm of the Ordinary": {
 			"name": "凡俗坠饰 Charm of the Ordinary",
@@ -19534,7 +19510,7 @@
 			"description": "<p>这对护腕用木元素位面或第一世界的参天巨树的心材雕成，<em>压枝护腕</em>让穿戴者能轻松吸附或塑造植物材料。当护腕处于绿意盎然的区域时，上面的松果设计会张开并露出里面的种子。</p>\n<p>当你攀爬植物或真菌时，护腕会赋予你20尺攀爬速度。你的打击对真菌、植物和木生物造成的伤害会将其抗力视为比正常低5点（最低0点）。此外，护腕让你能以原能内在戏法的形式施放@UUID[Compendium.pf2e.spells-srd.Item.9I8mp7RkjeXbkYfx]。当你在具有木元素位面本质特征的位面（或者超自然绿植地区，由GM判断）中施放<em>倒木术</em>时，你能以后述两种方式之一来调整法术：将法术区域增加至20尺，若你的法术攻击调整值和法术DC的熟练度达到专家的话则会增加至25尺，若熟练度达到传奇则增加至30尺；或者将戏法的伤害骰增加至d6。</p>"
 		},
 		"Wraithweave Patch (Type III)": {
-			"name": "缚灵织布(III型） Wraithweave Patch (Type III)",
+			"name": "类型III缚灵织布 Wraithweave Patch (Type III)",
 			"description": "<p>缚灵织布看起来如一块灰色的正方形布料，在昏暗光线下闪闪发亮。虚体生物可以触摸、持握和携带缚灵织布（与大多数实体物件不同）。</p>\n<p>你可以与缚灵织布交互，安全地用其包裹不超过其容量（由缚灵织布的类型决定）的物品或容器。一旦物品被包裹起来，其体积将变得忽略不计，而缚灵织布表现得如一块被紧密折叠的空布料般。你必须再次与缚灵织布交互以展开它，此时被包裹的对象变为正常重量，且可以再次被正常交互。</p>\n<p>被缚灵织布包裹的生物不受影响，将其视作普通的布。被包裹的物品在织布被打开前不提供任何好处，但可以如常被魔法检测到。如果缚灵织布被摧毁，其所包裹的任何物品都将恢复正常，并受到摧毁缚灵织布的伤害或效果的影响。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令，交互</p>\n<p><strong>需求</strong> 缚灵织布包裹了一个物品，且你是虚体</p>\n<hr />\n<p><strong>效果</strong> 你令缚灵织布和它包裹的物品变为虚体，只要你以动作维持，该效果就会持续。缚灵织布变得只能被虚体生物触摸、持握和携带，若没有虚体生物携带它，织布就会恢复为实体——如果此时被留在实体物件中，织布就会撕裂，其中物品要么永远遗失，要么就留在实体物件内，由GM决定。</p>"
 		},
 		"Wand of Hybrid Form (6th-rank)": {
@@ -20065,10 +20041,6 @@
 			"name": "荒坟围的凝结岩浆 Frozen Lava of Barrowsiege",
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span> （操作）</p><hr /><p>这个蓝莓大小的珠子看起来像一个玻璃球，核心闪着光。事实上，“玻璃”是凝固时间魔法的气泡，其内含有火山爆发前的确切地点的悬浮熔岩。当它被启动时，在释放能量之前，它会变成一个明亮的小灯塔。在你启动<em>凝结岩浆</em>之后，它会迅速升温。如果你或其他人把它扔出去（一个交互动作），它会在落地的地方爆炸成一个@UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]。你可以将火球投掷到70尺内的任何地方，不过根据GM的判断，如果投掷异常具有挑战性，你可能需要进行攻击掷骰。如果在你的下一个回合开始时还没有人扔出它，它就会像一个夸张但无害的烟花一样被释放。</p>\n<p><em>凝结岩浆</em>有很多种，它们是由来自格拉利昂上和诸位面上的著名火山的熔岩组成的。</p><hr /><p><em>荒坟围的凝结岩浆</em>造成@Damage[19d6[fire]|options:area-damage]伤害，@Check[reflex|dc:43|basic|options:area-effect]豁免。</p>"
 		},
-		"Alchemist's Lab (Expanded)": {
-			"name": "炼金实验室（专家） Alchemist's Lab (Expanded)",
-			"description": "<p>在休整期，你需要一个炼金实验室来制作炼金物品。</p>\n<p>专家级炼金实验室为你在制作炼金物品的手艺检定上提供+1物品加值。</p>"
-		},
 		"Staff of the Unblinking Eye": {
 			"name": "凝视法杖 Staff of the Unblinking Eye",
 			"description": "<p>这根光滑木制法杖顶部的石雕被刻成一颗无眼睑的眼睛。当持用时，你在先攻中的察觉检定获得+1状态加值。</p>\n<p><strong>启动</strong> 施法</p>\n<hr />\n<p><strong>效果</strong> 你从法杖中花费一定数量的充能次数以从其列表中施展一个法术。</p>\n<ul>\n<li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{侦测魔法 Detect Magic}</li>\n<li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{料敌机先 Sure Strike}</li>\n<li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.pZTqGY1MLRjgKasV]{黑暗视觉 Darkvision}，@UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{识破无形 See the Unseen}，@UUID[Compendium.pf2e.spells-srd.Item.vTQvfYu2llKQedmY]{通译语言 Translate}</li>\n</ul>\n<p><strong>制作需求</strong> 为所列的所有法术提供一次相应环级的施法。</p>"
@@ -20126,7 +20098,7 @@
 			"description": "<p>在跨越千年的时间里，神秘主义者和狂热信徒积极收集着这些神秘而复杂的宝石，希望能揭开它们背后的秘密。除了它们数不清的形态和功能，这些石头据说是远古时期的外界存在创造物质宇宙时所使用的水晶工具的碎片。</p>\n<p>当你绑定了其中一颗特定形状的水晶，这颗石头不会被穿戴在身上，而是环绕着你的头旋转。你可以用一个交互动作收起一颗<em>万古石</em>，一次针对你的成功的卸武检定也能从空中抢走万古石。被收起或者被取走的万古石依然是被绑定的状态，但所有效果都会被压制，直到你让它再次环绕你的头部。</p>\n<p>有许多不同种类的<em>万古石</em>，每种都有着不同的形状、颜色、以及魔法效果。当被装入一种被称为<em>寻路仪</em>的特殊魔法物品时，每种<em>万古石</em>也能获得相应的共鸣能力。</p><hr /><p>这块四面棱镜蕴含着建造多种物品的知识。这块石头包含了基本匠人书籍中所有配方的知识。当你绑定此万古石，你就拥有了这块石头的全部配方知识。在进行手艺检定时，这也算作拥有了配方。当你拥有这些知识时，你可以将配方写下来以备不时之需，比如在你失去万古石时。当万古石被绑定时，你在用于制作的技能检定上获得+1物品加值。</p>\n<p>共鸣能力允许你每日一次以奥术内在法术的形式施放@UUID[Compendium.pf2e.spells-srd.Item.xqmHD8JIjak15lRk]{魅影仆役 Phantasmal Minion}。</p>"
 		},
 		"Religious Symbol (Silver)": {
-			"name": "圣徽（银制） Religious Symbol (Silver)",
+			"name": "银质圣徽 Religious Symbol (Silver)",
 			"description": "<p>这个银质的小片上印有代表神灵的图画。一些神术施法者，如牧师，可以使用信仰神祇的来使用某些能力并施放一些法术。圣徽可被穿戴在身上（当作胸针或挂在链子上）或手持使用。</p>"
 		},
 		"Staff of the Desert Winds (Greater)": {
@@ -20758,10 +20730,6 @@
 		"Magic Wand (3rd-Rank Spell)": {
 			"name": "3环级魔法魔杖 Magic Wand (3rd-Rank Spell)",
 			"description": "<p>这根木棒长约一尺，其中贮存着一个法术。其外观通常也与其中贮存的法术相关。</p>\n<p><strong>启动</strong> 施法</p>\n<p><strong>频率</strong> 每日一次，外加过载</p>\n<hr />\n<p><strong>效果</strong> 你施放对应环级的法术。</p>\n<p><strong>制作需求</strong> 为所列环级法术提供一次施法。</p>\n<hr />\n<p><em>注意：如需创造某法术的卷轴或魔杖，将该法术从集合包或者集合包浏览器中拖到PC、NPC或战利品角色背包内即可。</em></p>"
-		},
-		"Tool (Long)": {
-			"name": "工具（长） Tool (Long)",
-			"description": "<p>不是为冒险而设计的一般工具。锄头、铲子或大锤属于长工具，手钻、冰钩或抹子属于短工具。工具通常可被用作临时武器，长工具造成1d6伤害。由GM来决定合适的伤害类型并在需要的时候调整伤害。</p>"
 		},
 		"Repulsion Resin": {
 			"name": "排斥松香 Repulsion Resin",
@@ -21507,7 +21475,7 @@
 			"description": "<p>这本书可以是一本配方书、宗教文本或咒语书，折成一个不可能的小形状（可能是甘杰公主亲自折的）。当折叠起来时，这本书不能被阅读或使用，但它的体积会减少1（一本负载为1的书会变成L的，而一本L的书的重量则可以忽略不计）。</p>\n<hr />\n<p><strong>启动</strong> 1分钟（交互） 你折叠或展开甘杰书，操纵精巧的折痕。</p>"
 		},
 		"Musical Instrument (Virtuoso heavy)": {
-			"name": "专家级乐器（大型） Musical Instrument (Virtuoso heavy)",
+			"name": "专家级大型乐器 Musical Instrument (Virtuoso heavy)",
 			"description": "<p>手持乐器包括风笛、小套编钟、小鼓、小提琴和弦乐器、长笛和龠、小竖琴、琵琶、小号和类似大小的乐器。GM可能会裁定一个特别大的手持仪器（如大号）具有更大的负载。诸如大鼓、全套编钟和键盘乐器之类的大型乐器不太方便携带，并且通常在演奏时需要静止。</p>\n<p>使用制作更精良的专家级乐器为表演检定提供+1物品加值。</p>"
 		},
 		"Drake Rifle (Poison)": {
@@ -21848,7 +21816,7 @@
 			"description": "<p>昏睡毒普遍用于袭击者的一击脱离战术，而另外一些希望受害者存活的家伙也会使用这种毒素；用毒伏击者会先行撤退，直到毒素发作让受害者倒地昏迷后再归来。多次曝露在昏睡毒之下并不会让目标进行额外的豁免检定；只有在对抗正于体内生效的毒素的豁免检定上失败时才会推进毒发阶段。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> （操作）</p>\n<p><strong>豁免检定</strong> @Check[fortitude|dc:18]</p>\n<p><strong>最大持续时间</strong> 4小时</p>\n<p><strong>阶段1</strong> @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}（1轮）</p>\n<p><strong>阶段2</strong> @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}（1分钟）</p>\n<p><strong>阶段3</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]且不能通过察觉检定醒来（1轮）</p>\n<p><strong>阶段4</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]且不能通过察觉检定醒来（[[/gmr 1d4 #hours]]{1d4小时}）</p>"
 		},
 		"Tearaway Paper Doll": {
-			"name": "撕扯纸娃娃 Tearaway Paper Doll",
+			"name": "撕裂纸偶 Tearaway Paper Doll",
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（专注、操作）</p><hr /><p>一个类人形状从一张彩色纸片上剪下，纸上画有面孔和衣饰。那张脸看起来略带忧虑，仿佛这娃娃知道自己被造出来做何用途。你双手举起纸娃娃并将其撕成两半，将思绪集中在 20 尺内一个你能看见的生物上。该生物承受 @Damage[3d6[slashing]] 伤害（基础强韧豁免），因为纸娃娃身上的撕裂在其身体上被复现。</p>"
 		},
 		"Clinging Ooze Snare": {
@@ -21969,7 +21937,7 @@
 			"description": "<p>一枚<em>魂心</em>是由红色灵质结晶而成的球体，大小约如人类眼球。活物持握它时，晶体内会闪烁微弱的红光，与该生物的心跳同步脉动，提供相当于蜡烛的照明。</p><hr /><p><strong>启动—增益生命</strong> <span class=\"action-glyph\">2</span>（专注、操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 将<em>魂心</em>抵在胸口并凝神专注时，其中的灵魂能量向外涌出，增强你的生命力，赋予你12点临时生命值（夜间为6点）。这些临时生命值持续8小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.iiQSTRA8EVCvlfDQ]{效果：增益生命}</p><hr /><p><strong>启动—强化梅瑟林魅影</strong> <span class=\"action-glyph\">2</span>（专注、操作）</p><hr /><p><strong>效果</strong> 接触一位1阶梅瑟林魅影时，<em>魂心</em>会闪出耀眼红光并被摧毁。与此同时，它永久将目标魅影提升至2阶，并使每名玩家角色的最大生命值提高2；只要角色身处仍受诅咒的孽裔厅堂内，此生命值提升便持续生效。</p><hr /><p><strong>摧毁</strong> <em>魂心</em>在启动强化梅瑟林魅影时被摧毁。</p>"
 		},
 		"Soulheart (Major)": {
-			"name": "强效魂心 Soulheart (Major)",
+			"name": "上等魂心 Soulheart (Major)",
 			"description": "<p>一枚<em>魂心</em>是由红色灵质结晶而成的球体，大小约如人类眼球。活物持握它时，晶体内会闪烁微弱的红光，与该生物的心跳同步脉动，提供相当于蜡烛的照明。</p><hr /><p><strong>启动—增益生命</strong> <span class=\"action-glyph\">2</span>（专注、操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 将<em>魂心</em>抵在胸口并凝神专注时，其中的灵魂能量向外涌出，增强你的生命力，赋予你18点临时生命值（夜间为9点）。这些临时生命值持续8小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.iiQSTRA8EVCvlfDQ]{效果：增益生命}</p><hr /><p><strong>启动—强化梅瑟林魅影</strong> <span class=\"action-glyph\">2</span>（专注、操作）</p><hr /><p><strong>效果</strong> 接触一位2阶梅瑟林魅影时，<em>魂心</em>会闪出耀眼红光并被摧毁。与此同时，它永久将目标魅影提升至3阶，并使每名玩家角色的最大生命值提高3；只要角色身处仍受诅咒的孽裔厅堂内，此生命值提升便持续生效。</p><hr /><p><strong>摧毁</strong> <em>魂心</em>在启动强化梅瑟林魅影时被摧毁。</p>"
 		},
 		"Soulheart (Pure)": {

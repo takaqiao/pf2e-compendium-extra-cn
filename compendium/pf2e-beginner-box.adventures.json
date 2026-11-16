@@ -2,7 +2,7 @@
   "label": "Pathfinder Beginner Box",
   "entries": {
     "Pirate King's Plunder": {
-      "name": "海盗王的掠夺品 Pirate King's Plunder",
+      "name": "海贼王的财宝 Pirate King's Plunder",
       "description": "<p>《海贼王的财宝》是一场简单的冒险，不需要GM，单名玩家即可完成。</p><p>在海贼王的财宝中，你不需要按时间顺序阅读日志来推进故事。相反，在每个条目的末尾，你将面临一系列选择。你所做的决定将引导你进入不同的条目，你只需点击链接的日志条目即可跟随故事。为了方便起见，我们包含了一个实用的日志条目，用于记录你的笔记，并让你能方便地为你的攻击和各项数值掷骰。</p>",
       "caption": "没过多久，你就找到了一个黑暗神秘的洞窟入口。",
       "journals": {
@@ -10,7 +10,7 @@
           "name": "介绍 Introduction",
           "pages": {
             "Pirate King's Plunder": {
-              "name": "海盗王的掠夺品 Pirate King's Plunder",
+              "name": "海贼王的财宝 Pirate King's Plunder",
               "text": "<p>在《海贼王的财宝》中，你不需要按时间顺序阅读日志来推进故事。相反，在每个条目的末尾，你将面临一系列选择。你所做的决定将引导你前往不同的条目，只需点击文中的链接即可跳转。</p>\n<h3>玩家资源</h3>\n<p>@UUID[JournalEntry.84g4A22otQbtAqYu]{冒险步骤}日志包含了冒险的每一步，你可以通过点击每个条目末尾的选项来进行选择并推进冒险。</p>\n<p>你可以使用@UUID[JournalEntry.MNx5B6xIGsHwGzqe.JournalEntryPage.IrDInT1GRf8tKGyg]{草稿纸}页面，来帮助你记录你进行的动作以及沿途拾取的物品。</p>\n<p>某些冒险步骤可能需要你先处理威胁才能继续前进。通常情况下，描述会告诉你如何解决这些情况。如果你进入了战斗，@UUID[JournalEntry.MNx5B6xIGsHwGzqe.JournalEntryPage.KcImx6Pq6vjKeJm5]{战斗参考}页面提供了相关规则的摘要。</p>\n<p>当你准备好后，请前往条目@UUID[JournalEntry.84g4A22otQbtAqYu.JournalEntryPage.dHOsZe4eRCxxK9Gb]{#01}！</p>\n<figure><br /><img src=\"modules/pf2e-beginner-box/assets/artwork-other/pirate-king-plunder-cover.webp\" width=\"400\" /><img /></figure>"
             },
             "Scratch Paper": {

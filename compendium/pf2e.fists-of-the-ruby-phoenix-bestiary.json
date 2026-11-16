@@ -1138,23 +1138,23 @@
       "senses": "昏暗视觉"
     },
     "Bul-Gae": {
-      "name": "不知盖",
-      "publicNotes": "<p>不知盖是日蚀与月蚀的化身。它们外形类似大型犬科动物，但其体色与特征会随其行使对热与寒的力量而变化。视其最近释放的是太阴还是太阳之力，不知盖会分别外形如一只裹着烈焰的赤红猎犬，或一只饱受冻伤的湛蓝狐狸。</p><p>传说第一只不知盖曾试图从天空中盗走太阳。但当它咬住那燃烧球体时，不知盖却被严重灼伤。失败之后，它又试图取下月亮，但当它触碰月亮时，不知盖被冻成了固体，坠落地面。这只不知盖的后代代代相传地磨砺自己对火与冰的力量，希望有朝一日能在祖先失败之处达成胜利。</p>",
+      "name": "天蚀狗 Bul-Gae",
+      "publicNotes": "<p>天蚀狗是日蚀与月蚀的化身。它们外形类似大型犬科动物，但其体色与特征会随其行使对热与寒的力量而变化。视其最近释放的是太阴还是太阳之力，天蚀狗会分别外形如一只裹着烈焰的赤红猎犬，或一只饱受冻伤的湛蓝狐狸。</p><p>传说第一只天蚀狗曾试图从天空中盗走太阳。但当它咬住那燃烧球体时，天蚀狗却被严重灼伤。失败之后，它又试图取下月亮，但当它触碰月亮时，天蚀狗被冻成了固体，坠落地面。这只天蚀狗的后代代代相传地磨砺自己对火与冰的力量，希望有朝一日能在祖先失败之处达成胜利。</p>",
       "items": {
         "Thermal Mastery": {
           "name": "冷热精通 Thermal Mastery",
-          "description": "<p>不知盖完全掌控冷与火之力。每次以牙咬攻击时，可以选择让额外伤害为寒冷或火焰伤害。</p>"
+          "description": "<p>天蚀狗完全掌控冷与火之力。每次以牙咬攻击时，可以选择让额外伤害为寒冷或火焰伤害。</p>"
         },
         "Eclipse Aura": {
           "name": "日蚀光环 Eclipse Aura",
-          "description": "<p>100 尺。光与影在不知盖周围诡异地变形。在该光环内试图制造光线效应的生物必须尝试一次 @Check[flat|dc:5|name:Escape Eclipse Aura] 检定。失败时，尝试失败，该效应消失，且光环内反制黑暗效应的 DC 增加 1。</p>"
+          "description": "<p>100 尺。光与影在天蚀狗周围诡异地变形。在该光环内试图制造光线效应的生物必须尝试一次 @Check[flat|dc:5|name:Escape Eclipse Aura] 检定。失败时，尝试失败，该效应消失，且光环内反制黑暗效应的 DC 增加 1。</p>"
         },
         "Jaws": {
           "name": "尖颚 Jaws"
         },
         "Lunar Burst": {
           "name": "太阴爆裂 Lunar Burst",
-          "description": "<p>不知盖释放一道异界霜冰之爆，对 @Template[emanation|distance:10] 范围内每只生物造成 @Damage[6d8[cold]|options:area-damage] 伤害（@Check[reflex|dc:34|basic|options:area-effect] 豁免）。大失败时，该生物还会 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓速 2}。使用本能力后，不知盖的火焰开始升温，在使用「太阳耀斑」之前不能再次使用「太阴爆裂」。</p>"
+          "description": "<p>天蚀狗释放一道异界霜冰之爆，对 @Template[emanation|distance:10] 范围内每只生物造成 @Damage[6d8[cold]|options:area-damage] 伤害（@Check[reflex|dc:34|basic|options:area-effect] 豁免）。大失败时，该生物还会 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓速 2}。使用本能力后，天蚀狗的火焰开始升温，在使用「太阳耀斑」之前不能再次使用「太阴爆裂」。</p>"
         },
         "Greater Darkvision": {
           "name": "高等黑暗视觉 Greater Darkvision",
@@ -1162,11 +1162,11 @@
         },
         "Shadow Leap": {
           "name": "影跃 Shadow Leap",
-          "description": "<p><strong>需求</strong>不知盖处于昏暗光线或黑暗中</p><hr /><p><strong>效果</strong>不知盖钻入一片阴影，并从 40 尺内一片阴影中重新出现。</p>"
+          "description": "<p><strong>需求</strong>天蚀狗处于昏暗光线或黑暗中</p><hr /><p><strong>效果</strong>天蚀狗钻入一片阴影，并从 40 尺内一片阴影中重新出现。</p>"
         },
         "Solar Flare": {
           "name": "太阳耀斑 Solar Flare",
-          "description": "<p><strong>触发</strong>不知盖受到伤害</p><hr /><p><strong>效果</strong>不知盖在 @Template[emanation|distance:30] 范围内释放一道太阳耀斑。范围内每只生物受到 @Damage[6d8[fire]|options:area-damage] 伤害（@Check[reflex|dc:34|basic|options:area-effect] 豁免）。大失败时，该生物还会受到 @Damage[2d10[persistent,fire]] 伤害。使用本能力后，不知盖的火焰冷却下来，在使用「太阴爆裂」之前不能再次使用「太阳耀斑」。</p>"
+          "description": "<p><strong>触发</strong>天蚀狗受到伤害</p><hr /><p><strong>效果</strong>天蚀狗在 @Template[emanation|distance:30] 范围内释放一道太阳耀斑。范围内每只生物受到 @Damage[6d8[fire]|options:area-damage] 伤害（@Check[reflex|dc:34|basic|options:area-effect] 豁免）。大失败时，该生物还会受到 @Damage[2d10[persistent,fire]] 伤害。使用本能力后，天蚀狗的火焰冷却下来，在使用「太阴爆裂」之前不能再次使用「太阳耀斑」。</p>"
         },
         "Knockdown": {
           "name": "击倒 Knockdown",
@@ -1177,7 +1177,7 @@
         "placeHolder": "placeHolder"
       },
       "prototypeToken": {
-        "name": "不知盖"
+        "name": "天蚀狗"
       }
     },
     "Swatting Tail": {

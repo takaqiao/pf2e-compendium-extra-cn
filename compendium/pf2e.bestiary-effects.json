@@ -350,7 +350,7 @@
 			"description": "<p>该魔族获得快速治疗5，持续1分钟。</p>"
 		},
 		"Effect: Stick a Fork in It": {
-			"name": "效果：一叉了之 Effect: Stick a Fork in It",
+			"name": "效果：餐叉穿刺 Effect: Stick a Fork in It",
 			"description": "<p>目标的速度受到-10尺环境减值。</p>"
 		},
 		"Effect: Cite Precedent": {
@@ -974,7 +974,7 @@
 			"description": "<p>选择酸蚀，寒冷，电击或是火焰伤害，并允许炼金苦工将这种能量伤害灌输到拳击当中。</p>\n<p>每一次打击都将造成和它们体内盛装的炸弹同类型的伤害1D6点。每个炸弹内有着可以施展10次这种打击的液体。</p>"
 		},
 		"Effect: Unluck Aura": {
-			"name": "效果：厄运光环 Unluck Aura",
+			"name": "效果：不幸灵光 Effect: Unluck Aura",
 			"description": "<p>生物必须在所有检定中投掷2次并取较差的结果。</p>"
 		},
 		"Effect: Chug": {

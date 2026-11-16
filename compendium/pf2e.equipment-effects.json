@@ -3,7 +3,7 @@
   "entries": {
     "Effect: Bolster Life": {
       "name": "效果：增益生命 Effect: Bolster Life",
-      "description": "<p>由@UUID[Compendium.pf2e.equipment-srd.Item.8WxFFZm6OcBCCARR]{魂心}、@UUID[Compendium.pf2e.equipment-srd.Item.5nNs3OFkRXH8yU1D]{高等魂心}、@UUID[Compendium.pf2e.equipment-srd.Item.05h3LWflr74iJiVg]{强效魂心}赋予</p>\n<p>你获得临时HP。</p>"
+      "description": "<p>由@UUID[Compendium.pf2e.equipment-srd.Item.8WxFFZm6OcBCCARR]{魂心}、@UUID[Compendium.pf2e.equipment-srd.Item.5nNs3OFkRXH8yU1D]{高等魂心}、@UUID[Compendium.pf2e.equipment-srd.Item.05h3LWflr74iJiVg]{上等魂心}赋予</p>\n<p>你获得临时HP。</p>"
     },
     "Effect: Bonebloom Rose": {
       "name": "效果：骨花玫瑰 Effect: Bonebloom Rose",
