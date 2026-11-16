@@ -2699,7 +2699,7 @@
 					"description": "<p>这把巨大的双手剑几乎和它的使用者一样高。它的下刃一般较钝，以便在近距离格斗中获得额外的杠杆作用力。</p>"
 				}
 			},
-			"prototypeToken": "地精突击兵",
+			"prototypeToken": "地精突击手",
 			"data": {
 				"placeHolder": "placeHolder"
 			}
