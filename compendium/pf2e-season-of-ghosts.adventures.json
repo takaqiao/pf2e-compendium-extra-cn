@@ -10199,8 +10199,8 @@
               "description": "<p>活化厨具虫群空间内的每个敌人受到 1d6 点@Damage[1d6[bludgeoning]]{钝击}或 @Damage[1d6[slashing]]{挥砍}伤害（@Check[reflex|dc:17|basic]反射豁免）。</p>"
             },
             "Stick a Fork in It": {
-              "name": "把叉子插进去 Stick a Fork in It",
-              "description": "<p>活化银餐具虫群试图钉住一个生物。</p>\n<p>目标必须尝试一次 @Check[reflex|dc:17]豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 银餐具钉住了目标的部分衣物和道具。只要目标仍位于该虫群的空间内，其速度便承受–10足的环境减值。</p>\n<p><strong>失败</strong> 同成功，且目标在离开该虫群的空间前也不能跨步。</p>\n<p><strong>大失败</strong> 目标被银餐具彻底钉住，陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，直到它[[/act escape dc=17]]{挣脱}或使用2个交互动作移除所有将其钉住的银餐具为止。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.K3r1lfbtCTf3dFhV]{效果：把叉子插进去}</p>"
+              "name": "餐叉穿刺 Stick a Fork in It",
+              "description": "<p>活化银餐具虫群试图钉住一个生物。</p>\n<p>目标必须尝试一次 @Check[reflex|dc:17]豁免。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 银餐具钉住了目标的部分衣物和道具。只要目标仍位于该虫群的空间内，其速度便承受–10足的环境减值。</p>\n<p><strong>失败</strong> 同成功，且目标在离开该虫群的空间前也不能跨步。</p>\n<p><strong>大失败</strong> 目标被银餐具彻底钉住，陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，直到它[[/act escape dc=17]]{挣脱}或使用2个交互动作移除所有将其钉住的银餐具为止。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.K3r1lfbtCTf3dFhV]{效果：餐叉穿刺}</p>"
             }
           }
         },

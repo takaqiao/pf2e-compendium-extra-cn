@@ -3246,8 +3246,8 @@
       "ac": "（破损时为12）；构装护甲",
       "items": {
         "Stick a Fork in It": {
-          "name": "把叉子插进去 Stick a Fork in It",
-          "description": "<p>活化厨具虫群尝试钉住一个生物。</p>\n<p>目标必须尝试@Check[reflex|dc:17|options:inflicts:immobilized]豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>厨具钉住目标的部分衣物与装备。只要目标仍处于集群占据的空间内，其速度便承受–10尺环境减值。</p>\n<p><strong>失败</strong>同成功，且目标在离开该虫群的空间前也不能跨步。</p>\n<p><strong>大失败</strong>目标被厨具牢牢钉住，陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{定身}，直到它[[/act escape dc=17]]{脱逃}，或使用2个互动动作移除所有钉住自己的厨具。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.K3r1lfbtCTf3dFhV]{效果：把叉子插进去}</p>"
+          "name": "餐叉穿刺 Stick a Fork in It",
+          "description": "<p>活化厨具虫群尝试钉住一个生物。</p>\n<p>目标必须尝试@Check[reflex|dc:17|options:inflicts:immobilized]豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>厨具钉住目标的部分衣物与装备。只要目标仍处于集群占据的空间内，其速度便承受–10尺环境减值。</p>\n<p><strong>失败</strong>同成功，且目标在离开该虫群的空间前也不能跨步。</p>\n<p><strong>大失败</strong>目标被厨具牢牢钉住，陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{定身}，直到它[[/act escape dc=17]]{脱逃}，或使用2个互动动作移除所有钉住自己的厨具。</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.K3r1lfbtCTf3dFhV]{效果：餐叉穿刺}</p>"
         },
         "Slice and Pound": {
           "name": "切砍与重击 Slice and Pound",
