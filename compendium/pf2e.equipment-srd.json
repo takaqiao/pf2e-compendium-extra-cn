@@ -4327,7 +4327,7 @@
 		},
 		"Elemental Ammunition (Lesser, Fire)": {
 			"name": "次等火焰元素弹药 Elemental Ammunition (Lesser, Fire)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成1d4持续火焰伤害，并且在造成正常伤害的基础上造成1火焰溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成1持续火焰伤害，并且在造成正常伤害的基础上造成1火焰溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Splintering Spear": {
 			"name": "迸裂木矛 Splintering Spear",
