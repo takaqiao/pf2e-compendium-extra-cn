@@ -1974,7 +1974,7 @@
 			"items": {
 				"Grab": {
 					"name": "擒获 Grab",
-					"description": "<p>当僵尸成功用拳头击中一个生物时，它可以用这个动作自动让目标陷入@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒 Grabbed}状态，直到它下一回合结束。</p>"
+					"description": "<p>当丧尸成功用拳头击中一个生物时，它可以用这个动作自动让目标陷入@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒 Grabbed}状态，直到它下一回合结束。</p>"
 				},
 				"Slow": {
 					"name": "缓慢术 Slow",
@@ -1982,7 +1982,7 @@
 				},
 				"Jaws": {
 					"name": "啃咬 Jaws",
-					"description": "<p><strong>需求</strong> 僵尸@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒 Grabbed}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚 Restrained}了一个生物。</p>"
+					"description": "<p><strong>需求</strong> 丧尸@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒 Grabbed}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚 Restrained}了一个生物。</p>"
 				},
 				"Fist": {
 					"name": "拳头 Fist"

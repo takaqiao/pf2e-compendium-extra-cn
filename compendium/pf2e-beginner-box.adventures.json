@@ -105,7 +105,7 @@
         }
       },
       "folders": {
-        "Pirate King's Plunder": "海盗王的财宝 Pirate King's Plunder"
+        "Pirate King's Plunder": "海贼王的财宝 Pirate King's Plunder"
       }
     },
     "Menace Under Otari": {
@@ -134,7 +134,7 @@
             },
             "Journals": {
               "name": "日志 Journals",
-              "text": "<aside class=\"bb-float-block\"><h3>动态链接</h3><p>在这些日志中，你会发现各种行内链接。点击这些链接将带你前往另一个日志、场景、角色或物品表单，以便快速访问和轻松导航到相关信息。</p><p>链接前的图标可以告诉你它包含的信息类型或它的功能。以下是一些示例：</p><p>@UUID[JournalEntry.OoPjlnYYGLn5KPZy.JournalEntryPage.pgOC3zCWvUFGiuTj]{什么是角色扮演游戏？}</p><p><strong>打开的书本</strong>图标指向另一个日志条目。</p><p>@UUID[Actor.BIZfjoz8DZt75EDn]{狗头人战士}</p><p><strong>剪影</strong>图标链接到一个角色——通常是玩家角色、NPC、危害或战利品表单。</p><p>@Scene[c7E7PXzgT5RBkT7S]{奥塔里}</p><p><strong>地图</strong>链接到场景的设置。这些已根据你的导入偏好预先添加到导航栏中。</p><p>@Item[LKjaRu3wDgEBpb9C]{治疗药水}</p><p><strong>公文包</strong>指向一个物品，它可以代表一件实体物品（如装备或战利品），也可以代表抽象物品（如法术或专长）。</p><p><a class=\"entity-link\" href=\"https://foundryvtt.com/kb/\" target=\"_blank\" rel=\"noopener\" title><em class=\"fas fa-book\"> </em>Foundry VTT 知识库</a></p><p><strong>合上的书本</strong>比较特殊——它们指向 Foundry 世界之外的外部网站，通常是我们的官方知识库，其中包含有关如何使用 Foundry VTT 的更深入信息。</p></aside><h1>日志</h1><p>虽然此模组包含角色、美术、地图、音频等，但《入门套装》的大部分文本都包含在日志中，你可以通过点击右侧边栏的相关选项卡（打开的书本图标）找到它们。假设你完成了所有内容的完整导入，文件夹结构如下：</p><ul><li><strong>新手指南</strong> - 包含角色创建、游戏机制和主持游戏的子文件夹，其中包含与运行和游玩开拓者第二版相关的所有说明。</li><li><strong>奥塔里地下的威胁</strong> - 此文件夹包含运行专为最多四名玩家设计的简短冒险所需的文本和美术作品，不过聪明的 GM 可以增加遭遇的难度以容纳更多玩家。该冒险的平均完成时间约为两次游戏。还有一个子文件夹包含有关奥塔里镇的信息，包括关键地点、NPC，甚至还有为想要扩展城镇角色或将其用于运行自己的战役的 GM 准备的故事种子和任务钩子。</li><li><strong>海盗王的掠夺</strong> - 一个专为单人游玩设计的简单冒险，作为开拓者背景设定和冒险内容的介绍。</li></ul>"
+              "text": "<aside class=\"bb-float-block\"><h3>动态链接</h3><p>在这些日志中，你会发现各种行内链接。点击这些链接将带你前往另一个日志、场景、角色或物品表单，以便快速访问和轻松导航到相关信息。</p><p>链接前的图标可以告诉你它包含的信息类型或它的功能。以下是一些示例：</p><p>@UUID[JournalEntry.OoPjlnYYGLn5KPZy.JournalEntryPage.pgOC3zCWvUFGiuTj]{什么是角色扮演游戏？}</p><p><strong>打开的书本</strong>图标指向另一个日志条目。</p><p>@UUID[Actor.BIZfjoz8DZt75EDn]{狗头人战士}</p><p><strong>剪影</strong>图标链接到一个角色——通常是玩家角色、NPC、危害或战利品表单。</p><p>@Scene[c7E7PXzgT5RBkT7S]{奥塔里}</p><p><strong>地图</strong>链接到场景的设置。这些已根据你的导入偏好预先添加到导航栏中。</p><p>@Item[LKjaRu3wDgEBpb9C]{治疗药水}</p><p><strong>公文包</strong>指向一个物品，它可以代表一件实体物品（如装备或战利品），也可以代表抽象物品（如法术或专长）。</p><p><a class=\"entity-link\" href=\"https://foundryvtt.com/kb/\" target=\"_blank\" rel=\"noopener\" title><em class=\"fas fa-book\"> </em>Foundry VTT 知识库</a></p><p><strong>合上的书本</strong>比较特殊——它们指向 Foundry 世界之外的外部网站，通常是我们的官方知识库，其中包含有关如何使用 Foundry VTT 的更深入信息。</p></aside><h1>日志</h1><p>虽然此模组包含角色、美术、地图、音频等，但《入门套装》的大部分文本都包含在日志中，你可以通过点击右侧边栏的相关选项卡（打开的书本图标）找到它们。假设你完成了所有内容的完整导入，文件夹结构如下：</p><ul><li><strong>新手指南</strong> - 包含角色创建、游戏机制和主持游戏的子文件夹，其中包含与运行和游玩开拓者第二版相关的所有说明。</li><li><strong>奥塔里地下的威胁</strong> - 此文件夹包含运行专为最多四名玩家设计的简短冒险所需的文本和美术作品，不过聪明的 GM 可以增加遭遇的难度以容纳更多玩家。该冒险的平均完成时间约为两次游戏。还有一个子文件夹包含有关奥塔里镇的信息，包括关键地点、NPC，甚至还有为想要扩展城镇角色或将其用于运行自己的战役的 GM 准备的故事种子和任务钩子。</li><li><strong>海贼王的财宝</strong> - 一个专为单人游玩设计的简单冒险，作为开拓者背景设定和冒险内容的介绍。</li></ul>"
             },
             "Scenes and Maps": {
               "name": "场景与地图 Scenes and Maps",

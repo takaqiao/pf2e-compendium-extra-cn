@@ -5733,7 +5733,7 @@
 		},
 		"Horned Dragon Breath Potion": {
 			"name": "智角龙吐息药水 Horned Dragon Breath Potion",
-			"description": "<p>此液体含有幼年角龙的血液。饮下药水后 1 小时内，你可以释放一团毒云。呼出此龙息使用单一动作。毒云在 @Template[cone|distance:15] 区域内造成 @Damage[2d6[poison]|options:area-damage] 伤害，区域内每个生物必须尝试一次 @Check[fortitude|dc:19|basic|showDC:all|options:area-effect] 豁免。使用此吐息武器后，[[/r 1d4 #rounds]]{1d4 轮} 内不能再次使用。</p>"
+			"description": "<p>此液体含有幼年智角龙的血液。饮下药水后 1 小时内，你可以释放一团毒云。呼出此龙息使用单一动作。毒云在 @Template[cone|distance:15] 区域内造成 @Damage[2d6[poison]|options:area-damage] 伤害，区域内每个生物必须尝试一次 @Check[fortitude|dc:19|basic|showDC:all|options:area-effect] 豁免。使用此吐息武器后，[[/r 1d4 #rounds]]{1d4 轮} 内不能再次使用。</p>"
 		},
 		"Blast Suit": {
 			"name": "防爆服 Blast Suit",
@@ -6089,7 +6089,7 @@
 		},
 		"Sweet Hag's Eye": {
 			"name": "蜜鬼婆之眼 Sweet Hag's Eye",
-			"description": "<p>这件物品看似一颗普通——尽管略显瘆人——的硬薄荷糖，大小与形状如人的眼球。这是因为它实际上是一颗甜女妖的眼球，被取出并以魔法与糖果工艺精心替换。它通常被镶嵌在饰品上，或储存在挂于绳上的小袋中。</p>\n<p>该眼睛不为佩戴者提供直接益处，但其原主——甜女妖——可通过它使用 [[/act seek]] 动作进行窥视，并通过它对持有该眼睛的生物施放 @UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{讯息术 Message} 戏法。只要甜女妖处于同一位面，这两种效果均不受距离限制。</p>\n<p>任何对眼睛的伤害都会摧毁它。甜女妖也可以选择用消融薄荷远程摧毁眼睛。眼睛也可被食用，但尝试食用的生物会暴露于令人恶心的甜味之中。</p>\n<p><strong>启动——消融薄荷</strong> <span class=\"action-glyph\">1</span></p><hr /><p><strong>效果</strong> 甜女妖使眼睛在短暂的剧烈高温闪光下消融。若有生物正持有眼睛，必须尝试一次 @Check[reflex|dc:18|options:damaging-effect] 豁免。失败时，由于沸腾的滚烫糖果残渣粘附其皮肤并将其灼伤，他们承受 @Damage[1d4[persistent,fire]] 伤害。</p><hr /><p><strong>令人恶心的甜味</strong>（食入、毒）此毒素引发的恶心状态在毒素效果结束前无法被终止。</p>"
+			"description": "<p>这件物品看似一颗普通——尽管略显瘆人——的硬薄荷糖，大小与形状如人的眼球。这是因为它实际上是一颗蜜鬼婆的眼球，被取出并以魔法与糖果工艺精心替换。它通常被镶嵌在饰品上，或储存在挂于绳上的小袋中。</p>\n<p>该眼睛不为佩戴者提供直接益处，但其原主——蜜鬼婆——可通过它使用 [[/act seek]] 动作进行窥视，并通过它对持有该眼睛的生物施放 @UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{讯息术 Message} 戏法。只要蜜鬼婆处于同一位面，这两种效果均不受距离限制。</p>\n<p>任何对眼睛的伤害都会摧毁它。蜜鬼婆也可以选择用消融薄荷远程摧毁眼睛。眼睛也可被食用，但尝试食用的生物会暴露于令人恶心的甜味之中。</p>\n<p><strong>启动——消融薄荷</strong> <span class=\"action-glyph\">1</span></p><hr /><p><strong>效果</strong> 蜜鬼婆使眼睛在短暂的剧烈高温闪光下消融。若有生物正持有眼睛，必须尝试一次 @Check[reflex|dc:18|options:damaging-effect] 豁免。失败时，由于沸腾的滚烫糖果残渣粘附其皮肤并将其灼伤，他们承受 @Damage[1d4[persistent,fire]] 伤害。</p><hr /><p><strong>令人恶心的甜味</strong>（食入、毒）此毒素引发的恶心状态在毒素效果结束前无法被终止。</p>"
 		},
 		"Spurned Lute": {
 			"name": "弃弦琴 Spurned Lute",
@@ -14230,7 +14230,7 @@
 		},
 		"Armbands of the Gorgon": {
 			"name": "石化牛臂带 Armbands of the Gorgon",
-			"description": "<p>这对闪耀的蓝灰色金属臂带上饰有戈尔贡头像。当你成为具有失能效果的法术或效果的目标时，你的豁免检定结果的成功度提升一级，并且任何试图对你造成此类效果的检定结果将会视为成功度低一级（如同你大于法术环级两倍或者效果等级那样。若绑定了该臂带，你能将你的体质调整值+1，或将其提升至+4，选择结果更高的选项。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你将两个护腕击打在一起，并移除当前影响你的任意一种状态效果。如果该效果是永久性的，则改为其被压制1小时。</p>"
+			"description": "<p>这对闪耀的蓝灰色金属臂带上饰有石化牛头像。当你成为具有失能效果的法术或效果的目标时，你的豁免检定结果的成功度提升一级，并且任何试图对你造成此类效果的检定结果将会视为成功度低一级（如同你大于法术环级两倍或者效果等级那样。若绑定了该臂带，你能将你的体质调整值+1，或将其提升至+4，选择结果更高的选项。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你将两个护腕击打在一起，并移除当前影响你的任意一种状态效果。如果该效果是永久性的，则改为其被压制1小时。</p>"
 		},
 		"Searing Suture (Lesser)": {
 			"name": "次等灼烧缝合线 Searing Suture (Lesser)",
@@ -21817,7 +21817,7 @@
 		},
 		"Tearaway Paper Doll": {
 			"name": "撕裂纸偶 Tearaway Paper Doll",
-			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（专注、操作）</p><hr /><p>一个类人形状从一张彩色纸片上剪下，纸上画有面孔和衣饰。那张脸看起来略带忧虑，仿佛这娃娃知道自己被造出来做何用途。你双手举起纸娃娃并将其撕成两半，将思绪集中在 20 尺内一个你能看见的生物上。该生物承受 @Damage[3d6[slashing]] 伤害（基础强韧豁免），因为纸娃娃身上的撕裂在其身体上被复现。</p>"
+			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（专注、操作）</p><hr /><p>一个类人形状从一张彩色纸片上剪下，纸上画有面孔和衣饰。那张脸看起来略带忧虑，仿佛这纸偶知道自己被造出来做何用途。你双手举起纸偶并将其撕成两半，将思绪集中在 20 尺内一个你能看见的生物上。该生物承受 @Damage[3d6[slashing]] 伤害（基础强韧豁免），因为纸偶身上的撕裂在其身体上被复现。</p>"
 		},
 		"Clinging Ooze Snare": {
 			"name": "粘附泥怪圈套 Clinging Ooze Snare",
