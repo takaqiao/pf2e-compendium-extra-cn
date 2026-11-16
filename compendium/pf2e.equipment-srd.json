@@ -15952,7 +15952,7 @@
 		},
 		"Ouroboros Flail (Major)": {
 			"name": "上等衔尾蛇连枷 Ouroboros Flail (Major)",
-			"description": "<p>这把<em>+3上等强击高等延展战争连枷</em>可以很容易地伸长或收缩回来。当它延展的时候，锁链会凭空变长，当收缩的时候，铁链又凭空变短。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">r</span> 命令</p>\n<p><strong>频率</strong> 每小时一次</p>\n<p><strong>触发</strong> 当你启动延展符文时，以此连枷打击命中</p>\n<hr />\n<p><strong>效果</strong> 连枷的锤头缠绕住打击的目标，并将其拖向你。目标必须成功通过@Check[fortitude|dc:43|name:Ouroboros Flail Pull]检定，否则会被拉到你相邻的方格。被拉过来的生物接下来会被连枷@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]，直到你下回合结束，逃脱DC 43，除非你移动或使用连枷，这样的话目标会自动逃脱。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">3</span> 交互</p>\n<hr />\n<p><strong>效果</strong> 你把连枷的链条延展，让锤头绕一圈然后首尾相连。这能创造出一条120尺长的铁链，然后连枷立即恢复到正常长度。如果你再次使用这个启动效果，你之前用它创建的任何铁链都将在1轮后消失。就像大部分明显的魔法和临时建筑一样，该锁链无法出售。</p>"
+			"description": "<p>这把<em>+3上等强击高等延展军用连枷</em>可以很容易地伸长或收缩回来。</p><hr /><p><strong>启动—锁链擒拿（Chained Grasp）</strong> <span class=\"action-glyph\">r</span> （专注）</p>\n<p><strong>频率</strong> 每小时一次</p>\n<p><strong>触发</strong> 当你启动延展符文时，以此连枷打击命中</p>\n<p><strong>效果</strong> 连枷的锤头缠绕住打击的目标，并将其拖向你。目标必须成功通过@Check[fortitude|dc:43]豁免，否则会被拉到你相邻的方格。被拉过来的生物接下来会@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]于连枷，直到你下回合结束，[[/act escape dc=31]]{逃脱DC31}，除非你移动或使用连枷，这样的话目标会自动逃脱。</p><hr /><p><strong>启动—无尽链环（Infinite Links）</strong> <span class=\"action-glyph\">3</span> （操作）</p>\n<p><strong>效果</strong> 你把连枷的链条延展，让锤头绕一圈然后首尾相连。这能创造出一条240尺长的铁链，然后连枷立即恢复到正常长度。如果你再次使用这个启动效果，你之前用它创建的任何铁链都将在1轮后消失。就像大部分明显的魔法和临时构造物一样，该锁链无法出售。</p>"
 		},
 		"Leopard's Armor": {
 			"name": "豹之甲 Leopard's Armor",
@@ -19159,7 +19159,7 @@
 		},
 		"Ouroboros Flail (Greater)": {
 			"name": "高等衔尾蛇连枷 Ouroboros Flail (Greater)",
-			"description": "<p>这把<em>+3高等强击高等延展战争连枷</em>可以很容易地伸长或收缩回来。当它延展的时候，锁链会凭空变长，当收缩的时候，铁链又凭空变短。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">r</span> 命令</p>\n<p><strong>频率</strong> 每小时一次</p>\n<p><strong>触发</strong> 当你启动延展符文时，以此连枷打击命中</p>\n<hr />\n<p><strong>效果</strong> 连枷的锤头缠绕住打击的目标，并将其拖向你。目标必须成功通过@Check[fortitude|dc:37|name:Ouroboros Flail Pull]检定，否则会被拉到你相邻的方格。被拉过来的生物接下来会被连枷@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]，直到你下回合结束，逃脱DC 37，除非你移动或使用连枷，这样的话目标会自动逃脱。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">3</span> 交互</p>\n<hr />\n<p><strong>效果</strong> 你把连枷的链条延展，让锤头绕一圈然后首尾相连。这能创造出一条120尺长的铁链，然后连枷立即恢复到正常长度。如果你再次使用这个启动效果，你之前用它创建的任何铁链都将在1轮后消失。就像大部分明显的魔法和临时建筑一样，该锁链无法出售。</p>"
+			"description": "<p>这把<em>+3高等强击高等延展军用连枷</em>可以很容易地伸长或收缩回来。</p><hr /><p><strong>启动—锁链擒拿（Chained Grasp）</strong> <span class=\"action-glyph\">r</span> （专注）</p>\n<p><strong>频率</strong> 每小时一次</p>\n<p><strong>触发</strong> 当你启动延展符文时，以此连枷打击命中</p>\n<p><strong>效果</strong> 连枷的锤头缠绕住打击的目标，并将其拖向你。目标必须成功通过@Check[fortitude|dc:37]豁免，否则会被拉到你相邻的方格。被拉过来的生物接下来会@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]于连枷，直到你下回合结束，[[/act escape dc=31]]{逃脱DC31}，除非你移动或使用连枷，这样的话目标会自动逃脱。</p><hr /><p><strong>启动—无尽链环（Infinite Links）</strong> <span class=\"action-glyph\">3</span> （操作）</p>\n<p><strong>效果</strong> 你把连枷的链条延展，让锤头绕一圈然后首尾相连。这能创造出一条120尺长的铁链，然后连枷立即恢复到正常长度。如果你再次使用这个启动效果，你之前用它创建的任何铁链都将在1轮后消失。就像大部分明显的魔法和临时构造物一样，该锁链无法出售。</p>"
 		},
 		"Shortbread Spy": {
 			"name": "饼干密探 Shortbread Spy",
