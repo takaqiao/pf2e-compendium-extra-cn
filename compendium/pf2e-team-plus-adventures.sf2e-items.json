@@ -341,8 +341,8 @@
       ]
     },
     "4pC4qjYY2P5BULEN": {
-      "name": "效果：惊吓（危险地形） Effect: Scare (Hazardous Terrain)",
-      "description": "<p>碎玻璃、钉歪的钉子或尖锐的障碍物挡住了去路。GM选择至多10个相连的方格，使其成为危险地形；对具有恐惧值的生物而言，这片危险地形处于藏匿状态。每当具有恐惧值的生物穿过该危险地形时，便受到等于其等级的一半乘以其恐惧值的伤害（至少为1）。伤害类型取决于危险地形（由GM酌情决定），例如@Damage[(max(1,floor(@actor.level/2)*@actor.flags.sf2e.dread))[piercing]]或@Damage[(max(1,floor(@actor.level/2)*@actor.flags.sf2e.dread))[slashing]]。</p>"
+      "name": "效果：惊吓（有害地形） Effect: Scare (Hazardous Terrain)",
+      "description": "<p>碎玻璃、钉歪的钉子或尖锐的障碍物挡住了去路。GM选择至多10个相连的方格，使其成为有害地形；对具有恐惧值的生物而言，这片有害地形处于藏匿状态。每当具有恐惧值的生物穿过该有害地形时，便受到等于其等级的一半乘以其恐惧值的伤害（至少为1）。伤害类型取决于有害地形（由GM酌情决定），例如@Damage[(max(1,floor(@actor.level/2)*@actor.flags.sf2e.dread))[piercing]]或@Damage[(max(1,floor(@actor.level/2)*@actor.flags.sf2e.dread))[slashing]]。</p>"
     },
     "4xY5IJXXRwt4mN0H": {
       "name": "更大爆炸 Bigger Booms",
@@ -1423,7 +1423,7 @@
     },
     "ErAL1d9enIarlLgS": {
       "name": "危险轨迹 Hazard Trail",
-      "description": "<p>选择一种伤害类型。杂兵@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}，距离至多等于其速度。它经过的每个空间都会变为危险地形，造成@Damage[(max(1,@actor.system.details.level.base))[@item.flags.system.rulesSelections.damage]]{等于基础生物等级的伤害}，持续2轮。生物在该区域内开始回合，或穿过包含该危险地形的空间时受到伤害。这片危险地形的伤害类型通常为火焰或毒素，但也可以是适合该危险的其他类型（由GM酌情决定）。杂兵和首领免疫这片危险地形。</p>"
+      "description": "<p>选择一种伤害类型。杂兵@UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{行走}，距离至多等于其速度。它经过的每个空间都会变为有害地形，造成@Damage[(max(1,@actor.system.details.level.base))[@item.flags.system.rulesSelections.damage]]{等于基础生物等级的伤害}，持续2轮。生物在该区域内开始回合，或穿过包含该有害地形的空间时受到伤害。这片有害地形的伤害类型通常为火焰或毒素，但也可以是适合该危险的其他类型（由GM酌情决定）。杂兵和首领免疫这片有害地形。</p>"
     },
     "ErKe5j9gzbley5Zt": {
       "name": "效果：惊吓（鲜血涌流） Effect: Scare (Blood Flows)",
@@ -2524,7 +2524,7 @@
     },
     "Reprat4WlW6VgnXF": {
       "name": "毁灭践踏 Kinetic Trample",
-      "description": "<p>首领践踏而过，沿途留下毁灭的痕迹。选择一种适合该生物的伤害类型。此选择一经确定便无法更改。首领使用@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]{践踏}。首领在践踏过程中经过的每个空间创造困难地形和危险地形。只要危险地形仍然存在，生物在该区域内开始回合时，以及在其中每移动一格时，都会受到伤害。困难地形和危险地形持续[[/gmr 1d4 #Kinetic Trample Rounds]]{1d4轮}。伤害为基础生物@Damage[(max(1,floor(@actor.system.details.level.base/2)))[@item.flags.system.rulesSelections.damage]]{每2级1点}（伤害至少为1）。此能力根据伤害类型获得相应特征，例如伤害类型为火焰时获得火焰特征。</p>"
+      "description": "<p>首领践踏而过，沿途留下毁灭的痕迹。选择一种适合该生物的伤害类型。此选择一经确定便无法更改。首领使用@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3]{践踏}。首领在践踏过程中经过的每个空间创造困难地形和有害地形。只要有害地形仍然存在，生物在该区域内开始回合时，以及在其中每移动一格时，都会受到伤害。困难地形和有害地形持续[[/gmr 1d4 #Kinetic Trample Rounds]]{1d4轮}。伤害为基础生物@Damage[(max(1,floor(@actor.system.details.level.base/2)))[@item.flags.system.rulesSelections.damage]]{每2级1点}（伤害至少为1）。此能力根据伤害类型获得相应特征，例如伤害类型为火焰时获得火焰特征。</p>"
     },
     "RjVBD8MoaKn8v0q8": {
       "name": "惑敌脱逃师 Confounding Escapologist",
@@ -5154,7 +5154,7 @@
     },
     "wqmaaglbFHCEOvGW": {
       "name": "危险喷吐 Hazardous Spew",
-      "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p>首领喷吐出阻碍敌人的危险地形。选择所列的一种伤害类型，以及以下一种区域：@Template[cone|distance:30]{30尺锥形}、@Template[line|distance:60]{60尺线形}，或射程120尺的@Template[burst|distance:20]{20尺爆发}。这些选择一经确定就无法更改。首领在该区域内创造困难地形和危险地形。只要危险地形仍然存在，生物在该区域内开始回合时，以及在其中每移动一格时，都会受到伤害。困难地形和危险地形持续2轮。伤害为基础生物@Damage[(max(1,floor(@actor.system.details.level.base/2)))[@item.flags.system.rulesSelections.damage]]{每2级1点}（伤害至少为1）。此能力根据伤害类型获得相应特征。</p><p><strong>伤害</strong> 强酸、寒冷、火焰或毒素</p>"
+      "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p>首领喷吐出阻碍敌人的有害地形。选择所列的一种伤害类型，以及以下一种区域：@Template[cone|distance:30]{30尺锥形}、@Template[line|distance:60]{60尺线形}，或射程120尺的@Template[burst|distance:20]{20尺爆发}。这些选择一经确定就无法更改。首领在该区域内创造困难地形和有害地形。只要有害地形仍然存在，生物在该区域内开始回合时，以及在其中每移动一格时，都会受到伤害。困难地形和有害地形持续2轮。伤害为基础生物@Damage[(max(1,floor(@actor.system.details.level.base/2)))[@item.flags.system.rulesSelections.damage]]{每2级1点}（伤害至少为1）。此能力根据伤害类型获得相应特征。</p><p><strong>伤害</strong> 强酸、寒冷、火焰或毒素</p>"
     },
     "wwW4Yk8APvAqtkrM": {
       "name": "包围突袭 Surrounding Assault",
@@ -5256,7 +5256,7 @@
     },
     "yhVMLXISEIqMI2Ss": {
       "name": "敏锐感官 Heightened Senses",
-      "description": "<p>你的宿主获得额外感官。选择灵敏嗅觉、震颤感知或水波感知。</p><p><strong>凡人——微妙感官</strong> 你获得所选感官作为不精准感官，范围为15尺加上5尺×你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态值。</p><p><strong>怪物——怪物感知</strong> 你获得所选感官作为范围30尺的不精准感官，且在@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内，该感官为精准感官。</p>",
+      "description": "<p>你的宿主获得额外感官。选择灵敏嗅觉、震颤感知或水波感知。</p><p><strong>凡人——微妙感官</strong> 你获得所选感官作为不精准感官，范围为15尺加上5尺×你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁}状态值。</p><p><strong>怪物——怪物感知</strong> 你获得所选感官作为范围30尺的不精准感官，且在@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内，该感官为精确感官。</p>",
       "prerequisites": [
         {
           "value": "宿主威压"

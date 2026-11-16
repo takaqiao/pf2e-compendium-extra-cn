@@ -31,7 +31,7 @@
     },
     "Dynamic Ignition": {
       "name": "动态火焰 Dynamic Ignition",
-      "description": "<p>你打响指并指向目标，目标随即开始冒烟。</p><p><span class=\"action-glyph\">1</span> 以 20 尺内一处未被占据之方格为目标。火焰在该方格中生起，使其成为危险地形——对进入该区域或在该区域结束回合的生物造成 @Damage[(1+@item.rank)[fire]] 伤害。该火焰持续 [[/r 1d4]] 轮。若你再次施放此法术之 1 动作版本，则你之前的施放自动结束。</p><p><span class=\"action-glyph\">2</span> 以 20 尺内一名生物为目标。对其 AC 进行一次法术攻击掷骰，命中时造成 2d4 火焰伤害；若你法术攻击大成功，则伤害翻倍并额外造成 1d4 持续火焰伤害。若该目标在你近战触及范围内，你可选择以近战法术攻击替代远程法术攻击，将所有伤害骰从 d4 提升至 d6。</p><p style=\"padding-left:1rem\">@Damage[(@item.rank)d4[persistent,fire]]{随等级缩放之持续火焰伤害}</p><p style=\"padding-left:1rem\">@Damage[(@item.rank)d6[persistent,fire]]{随等级缩放之持续火焰伤害}</p><p><span class=\"action-glyph\">3</span> 同 2 动作版本，但法术之射程为 60 尺。此外，若法术攻击成功，目标承受 1d4 持续火焰伤害。</p><hr /><p><strong>高阶 (+1)</strong> 1 动作版本之危险地形伤害增加 1。2 动作与 3 动作版本之初始伤害与持续火焰伤害增加 1d4。</p><p></p>"
+      "description": "<p>你打响指并指向目标，目标随即开始冒烟。</p><p><span class=\"action-glyph\">1</span> 以 20 尺内一处未被占据之方格为目标。火焰在该方格中生起，使其成为有害地形——对进入该区域或在该区域结束回合的生物造成 @Damage[(1+@item.rank)[fire]] 伤害。该火焰持续 [[/r 1d4]] 轮。若你再次施放此法术之 1 动作版本，则你之前的施放自动结束。</p><p><span class=\"action-glyph\">2</span> 以 20 尺内一名生物为目标。对其 AC 进行一次法术攻击掷骰，命中时造成 2d4 火焰伤害；若你法术攻击大成功，则伤害翻倍并额外造成 1d4 持续火焰伤害。若该目标在你近战触及范围内，你可选择以近战法术攻击替代远程法术攻击，将所有伤害骰从 d4 提升至 d6。</p><p style=\"padding-left:1rem\">@Damage[(@item.rank)d4[persistent,fire]]{随等级缩放之持续火焰伤害}</p><p style=\"padding-left:1rem\">@Damage[(@item.rank)d6[persistent,fire]]{随等级缩放之持续火焰伤害}</p><p><span class=\"action-glyph\">3</span> 同 2 动作版本，但法术之射程为 60 尺。此外，若法术攻击成功，目标承受 1d4 持续火焰伤害。</p><hr /><p><strong>高阶 (+1)</strong> 1 动作版本之有害地形伤害增加 1。2 动作与 3 动作版本之初始伤害与持续火焰伤害增加 1d4。</p><p></p>"
     },
     "Essence Spellcasting": {
       "name": "精质施法 Essence Spellcasting",
@@ -855,7 +855,7 @@
     },
     "Erosior": {
       "name": "侵蚀术 Erosior",
-      "description": "<p>你将魔法之线穿过化学与矿物之操作之小门。</p><p><strong>小门特征</strong> 酸性、土</p><p><strong>系链魔法</strong> 当你以「土」特征之法术攻击成功，或一名生物对其豁免失败时，你于目标相邻方格创造困难地形。当你以「酸性」特征之法术攻击成功，或一名生物对其豁免失败时，你于目标所有相邻方格创造危险地形。该危险地形每次有生物穿过时造成 @Damage[@item.rank[acid]]{等同该法术环级之酸性伤害}。该困难地形与危险地形于你小门之领域生效期间持续存在于同一区域。</p><p><strong>压倒性小门</strong> 当你以「酸性」特征之法术造成伤害时，你可选择改造为钝击伤害（替代酸性伤害）。当你以「土」特征且需要豁免之法术施法时，目标在豁免失败时其速度承受 -5 尺状态减值 1 轮，大失败时承受 -10 尺状态减值。@UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.54mC3SyjiHMKrioO]{效果：侵蚀术}</p>"
+      "description": "<p>你将魔法之线穿过化学与矿物之操作之小门。</p><p><strong>小门特征</strong> 酸性、土</p><p><strong>系链魔法</strong> 当你以「土」特征之法术攻击成功，或一名生物对其豁免失败时，你于目标相邻方格创造困难地形。当你以「酸性」特征之法术攻击成功，或一名生物对其豁免失败时，你于目标所有相邻方格创造有害地形。该有害地形每次有生物穿过时造成 @Damage[@item.rank[acid]]{等同该法术环级之酸性伤害}。该困难地形与有害地形于你小门之领域生效期间持续存在于同一区域。</p><p><strong>压倒性小门</strong> 当你以「酸性」特征之法术造成伤害时，你可选择改造为钝击伤害（替代酸性伤害）。当你以「土」特征且需要豁免之法术施法时，目标在豁免失败时其速度承受 -5 尺状态减值 1 轮，大失败时承受 -10 尺状态减值。@UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.54mC3SyjiHMKrioO]{效果：侵蚀术}</p>"
     },
     "Howl of Winter (Moderate)": {
       "name": "凛冬之嚎（中级） Howl of Winter (Moderate)",
@@ -1184,7 +1184,7 @@
     },
     "Atmosphor": {
       "name": "气氛者 Atmosphor",
-      "description": "<p>你将魔法之线穿过气流与音波之压缩之小门。</p><p><strong>小门特征</strong> 空气、音波</p><p><strong>系链魔法</strong> 当你以「空气」特征之法术施法时，你可漂浮。直至你下一回合结束，将你的陆地速度替换为同等之飞行速度。当你 @UUID[Compendium.sf2e.actions.cS9nfDRGD83bNU1p]{飞行} 时，你不能上升至离地几英寸以上。这意味着你可飞过多种困难或危险地形而不致缓行或受伤，纵使你并不能无限制地飞行。你可 @UUID[Compendium.sf2e.actions.d5I6018Mci2SWokk]{跳跃}、@UUID[Compendium.sf2e.actions.2HJ4yuEFY1Cast4h]{跳高}、@UUID[Compendium.sf2e.actions.JUvAvruz7yRQXfz2]{跳远} 等，并以此飞行速度替代陆地速度进行任何相关计算。当你以「音波」特征之法术使一名生物耳聋时，只要其耳聋，或直至其花费一个具「专注」特征的单一动作以稳住自身，他们便另 @UUID[Compendium.sf2e.conditions.i3OJZU2nk64Df3xm]{笨拙1级}。</p><p><strong>压倒性小门</strong> 当你以「空气」特征之法术施法时，你的飞行速度不再受限。若你已具备飞行速度，你的飞行速度改为提升 15 尺。若你于回合结束时本将坠落，你便安然漂浮至地面。当你以「音波」特征且造成伤害之法术施法时，你可选择改造为钝击伤害（替代音波伤害）。</p>"
+      "description": "<p>你将魔法之线穿过气流与音波之压缩之小门。</p><p><strong>小门特征</strong> 空气、音波</p><p><strong>系链魔法</strong> 当你以「空气」特征之法术施法时，你可漂浮。直至你下一回合结束，将你的陆地速度替换为同等之飞行速度。当你 @UUID[Compendium.sf2e.actions.cS9nfDRGD83bNU1p]{飞行} 时，你不能上升至离地几英寸以上。这意味着你可飞过多种困难或有害地形而不致缓行或受伤，纵使你并不能无限制地飞行。你可 @UUID[Compendium.sf2e.actions.d5I6018Mci2SWokk]{跳跃}、@UUID[Compendium.sf2e.actions.2HJ4yuEFY1Cast4h]{跳高}、@UUID[Compendium.sf2e.actions.JUvAvruz7yRQXfz2]{跳远} 等，并以此飞行速度替代陆地速度进行任何相关计算。当你以「音波」特征之法术使一名生物耳聋时，只要其耳聋，或直至其花费一个具「专注」特征的单一动作以稳住自身，他们便另 @UUID[Compendium.sf2e.conditions.i3OJZU2nk64Df3xm]{笨拙1级}。</p><p><strong>压倒性小门</strong> 当你以「空气」特征之法术施法时，你的飞行速度不再受限。若你已具备飞行速度，你的飞行速度改为提升 15 尺。若你于回合结束时本将坠落，你便安然漂浮至地面。当你以「音波」特征且造成伤害之法术施法时，你可选择改造为钝击伤害（替代音波伤害）。</p>"
     },
     "Summon Dragon Aspect": {
       "name": "召唤龙族层面 Summon Dragon Aspect",

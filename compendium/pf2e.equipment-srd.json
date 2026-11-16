@@ -3602,7 +3602,7 @@
 		},
 		"Colorful Coating (Orange)": {
 			"name": "橙色涂层 Colorful Coating (Orange)",
-			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">3</span> （操作）</p><hr /><p>这些涂层颜色多样，每种都有不同的特殊效果。一瓶彩色涂层的足够让你涂满触及范围内一个5尺见方的平面，它带有一个特殊的刷头，你只需要一只手就能在表面上涂抹颜料。你可以在任何可以被涂抹的表面上涂抹颜料（由GM裁定）。颜料涂层会瞬间干燥，效果在你所涂方格内持续1分钟。在此之后，涂层变成细密的惰性粉末，除非另有说明，否则方格会恢复到初始状态。</p>\n<p>橙色涂层含有酸性混合物。当它干燥后，腐蚀性成分会从涂层里渗出。方格变成危害地形，对任何穿过方格的生物造成@Damage[1d4[acid]]伤害。一个生物每轮只会受到一次酸蚀伤害。</p>"
+			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">3</span> （操作）</p><hr /><p>这些涂层颜色多样，每种都有不同的特殊效果。一瓶彩色涂层的足够让你涂满触及范围内一个5尺见方的平面，它带有一个特殊的刷头，你只需要一只手就能在表面上涂抹颜料。你可以在任何可以被涂抹的表面上涂抹颜料（由GM裁定）。颜料涂层会瞬间干燥，效果在你所涂方格内持续1分钟。在此之后，涂层变成细密的惰性粉末，除非另有说明，否则方格会恢复到初始状态。</p>\n<p>橙色涂层含有酸性混合物。当它干燥后，腐蚀性成分会从涂层里渗出。方格变成有害地形，对任何穿过方格的生物造成@Damage[1d4[acid]]伤害。一个生物每轮只会受到一次酸蚀伤害。</p>"
 		},
 		"Toothy Knife (Greater)": {
 			"name": "高等利齿小刀 Toothy Knife (Greater)",
@@ -3790,7 +3790,7 @@
 		},
 		"Firefoot Popcorn": {
 			"name": "焰足爆米花 Firefoot Popcorn",
-			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>当你食用焰足爆米花后一分钟内，你可以@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]的距离翻倍。你也可以只用一个动作来进行@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]或是@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]。并且在进行动作时，你无需进行跳远前的跑动助跑动作（也不会因此而自动失败）。</p>\n<p>每当你跳跃Leap10尺或更展长距离时，你的脚底就会发出能在100尺内听到的爆裂声，并且你离开的位置会被强烈的热浪所包围。在1分钟内，该方格会变为危害地形并对所有进入其中的生物造成@Damage[1d6[fire]]伤害。</p>"
+			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>当你食用焰足爆米花后一分钟内，你可以@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]的距离翻倍。你也可以只用一个动作来进行@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]或是@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]。并且在进行动作时，你无需进行跳远前的跑动助跑动作（也不会因此而自动失败）。</p>\n<p>每当你跳跃Leap10尺或更展长距离时，你的脚底就会发出能在100尺内听到的爆裂声，并且你离开的位置会被强烈的热浪所包围。在1分钟内，该方格会变为有害地形并对所有进入其中的生物造成@Damage[1d6[fire]]伤害。</p>"
 		},
 		"Aboutface Figurehead": {
 			"name": "回首船首像 Aboutface Figurehead",
@@ -11864,7 +11864,7 @@
 		},
 		"Warding Tattoo (Trail)": {
 			"name": "长路护身刺青 Warding Tattoo (Trail)",
-			"description": "<p>格拉利昂有许多文化都会使用刺青来驱邪避害；因此，护身刺青通常表现为此类文化中最为常见的威胁，比如公海的镣铐群岛会选用野兽或者旋涡。</p>\n<p>你在对抗来自危险地形和环境危害的伤害时，始终获得2点抗力，此抗力在刺青启动时增加至5点。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">r</span> 想象</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 敌人、危害或环境作出一次攻击对抗你的AC、要求你尝试豁免检定、或者导致你自动承受伤害</p>\n<hr />\n<p><strong>效果</strong> 直至你的当前回合结束为止，对抗触发效果时，你的AC和豁免检定会获得+1状态加值，并且还会在对抗伤害时获得2点抗力。</p>"
+			"description": "<p>格拉利昂有许多文化都会使用刺青来驱邪避害；因此，护身刺青通常表现为此类文化中最为常见的威胁，比如公海的镣铐群岛会选用野兽或者旋涡。</p>\n<p>你在对抗来自有害地形和环境危害的伤害时，始终获得2点抗力，此抗力在刺青启动时增加至5点。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">r</span> 想象</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 敌人、危害或环境作出一次攻击对抗你的AC、要求你尝试豁免检定、或者导致你自动承受伤害</p>\n<hr />\n<p><strong>效果</strong> 直至你的当前回合结束为止，对抗触发效果时，你的AC和豁免检定会获得+1状态加值，并且还会在对抗伤害时获得2点抗力。</p>"
 		},
 		"One Hundred Victories": {
 			"name": "百胜疤痕 One Hundred Victories",
@@ -13488,7 +13488,7 @@
 		},
 		"Fleshgem (Earthspeaker)": {
 			"name": "地语者血肉宝石 Fleshgem (Earthspeaker)",
-			"description": "<p><em>血肉宝石</em>最初是土元素裔为了修饰身体而发明的，它是一种能嵌入任何族裔皮肤中的水晶。虽然<em>血肉宝石</em>可以嵌入身体的任何部位以达到装饰的目的，但冒险者最爱的用法是将它们嵌入指关节根部，将其作为黄铜指虎那样使用。</p>\n<p>你汲取<em>血肉宝石</em>的力量，你周围的大地会喷发出水晶石笋。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">2</span> 命令</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>需求</strong> 你站立在地面</p>\n<hr />\n<p><strong>效果</strong> 你周围@Template[burst|distance:10]范围内的地面会喷出及膝盖那么高的水晶碎片，存在1轮。如果你使用两个动作来启动，则持续1分钟。对于除你之外的其他生物来说，该区域为困难地形，也是危险地形。生物在水晶碎片的区域内移动时将会受到@Damage[2[piercing]]伤害。</p>"
+			"description": "<p><em>血肉宝石</em>最初是土元素裔为了修饰身体而发明的，它是一种能嵌入任何族裔皮肤中的水晶。虽然<em>血肉宝石</em>可以嵌入身体的任何部位以达到装饰的目的，但冒险者最爱的用法是将它们嵌入指关节根部，将其作为黄铜指虎那样使用。</p>\n<p>你汲取<em>血肉宝石</em>的力量，你周围的大地会喷发出水晶石笋。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">2</span> 命令</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>需求</strong> 你站立在地面</p>\n<hr />\n<p><strong>效果</strong> 你周围@Template[burst|distance:10]范围内的地面会喷出及膝盖那么高的水晶碎片，存在1轮。如果你使用两个动作来启动，则持续1分钟。对于除你之外的其他生物来说，该区域为困难地形，也是有害地形。生物在水晶碎片的区域内移动时将会受到@Damage[2[piercing]]伤害。</p>"
 		},
 		"Oathbow": {
 			"name": "誓仇弓 Oathbow",

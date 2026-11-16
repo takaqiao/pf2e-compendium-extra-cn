@@ -125,7 +125,7 @@
     },
     "Jaathoom": {
       "name": "佳萨睦 Jaathoom",
-      "description": "<p>你的巨灵幻灵具有空气特征。你的幻灵可悬浮，但仍与你相系。你的幻灵具等于其陆地速度的飞行速度，但其机动性受限。当你的幻灵使用@UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{飞行}时，它不能升至离地几英寸以上。这意味着你的幻灵可在多种困难或危险地形之上移动而不必缓慢通过或受到伤害——尽管它不能无限飞行。你的幻灵可以@UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{跳跃}、@UUID[Compendium.pf2e.actionspf2e.2HJ4yuEFY1Cast4h]{跳高}、@UUID[Compendium.pf2e.actionspf2e.JUvAvruz7yRQXfz2]{跳远}及类似动作，所有需用陆地速度计算的，皆改用其飞行速度；并可使用特技代替运动进行这些检定。若你选择@UUID[Compendium.pf2e.feats-srd.xXHoyccK5ZG2AJKg]{熟练伙伴}职业专长，你的幻灵在满足技能专长前置时——如该前置适用于此类动作——可使用其特技熟练度代替运动熟练度。你幻灵的第二项技能为特技。</p>\n<hr />\n<p>[[/act leap skill=acrobatics]]</p>\n<p>[[/act high-jump skill=acrobatics]]</p>\n<p>[[/act long-jump skill=acrobatics]]</p>"
+      "description": "<p>你的巨灵幻灵具有空气特征。你的幻灵可悬浮，但仍与你相系。你的幻灵具等于其陆地速度的飞行速度，但其机动性受限。当你的幻灵使用@UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{飞行}时，它不能升至离地几英寸以上。这意味着你的幻灵可在多种困难或有害地形之上移动而不必缓慢通过或受到伤害——尽管它不能无限飞行。你的幻灵可以@UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{跳跃}、@UUID[Compendium.pf2e.actionspf2e.2HJ4yuEFY1Cast4h]{跳高}、@UUID[Compendium.pf2e.actionspf2e.JUvAvruz7yRQXfz2]{跳远}及类似动作，所有需用陆地速度计算的，皆改用其飞行速度；并可使用特技代替运动进行这些检定。若你选择@UUID[Compendium.pf2e.feats-srd.xXHoyccK5ZG2AJKg]{熟练伙伴}职业专长，你的幻灵在满足技能专长前置时——如该前置适用于此类动作——可使用其特技熟练度代替运动熟练度。你幻灵的第二项技能为特技。</p>\n<hr />\n<p>[[/act leap skill=acrobatics]]</p>\n<p>[[/act high-jump skill=acrobatics]]</p>\n<p>[[/act long-jump skill=acrobatics]]</p>"
     },
     "Arbiter of the Path": {
       "name": "路途仲裁者 Arbiter of the Path",

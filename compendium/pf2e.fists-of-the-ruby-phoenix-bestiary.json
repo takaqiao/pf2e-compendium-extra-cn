@@ -8805,7 +8805,7 @@
         },
         "Spatial Sense": {
           "name": "空间感知 Spatial Sense",
-          "description": "<p>辛达拉以精准感官本能地知晓<i>琉璃光屋</i>内所有生物与物体的位置。即便异位面空间（例如<i>纳物袋</i>）的入口位于灯塔之内，他的感官也无法延伸至这些异位面空间之内。</p>"
+          "description": "<p>辛达拉以精确感官本能地知晓<i>琉璃光屋</i>内所有生物与物体的位置。即便异位面空间（例如<i>纳物袋</i>）的入口位于灯塔之内，他的感官也无法延伸至这些异位面空间之内。</p>"
         },
         "+1 Status to All Saves vs. Magic": {
           "name": "对抗魔法的所有豁免获得 +1 状态加值 +1 Status to All Saves vs. Magic"

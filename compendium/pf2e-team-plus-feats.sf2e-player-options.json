@@ -327,7 +327,7 @@
     },
     "Firewalk": {
       "name": "踏火 Firewalk",
-      "description": "<p>你的移动如此迅捷而轻盈，让你穿过险境时不致伤己。你以最多你速度的距离行走。在此移动中，你可尝试穿过危险地形之空间。当你试图穿过其空间时，立即对致使该危险地形之效果的 DC 或 @Check[type:acrobatics]{ }（取较高者）进行一次 @Check[type:acrobatics|dc:20] 检定。在适当环境下，你可以以攀爬、飞行、游泳或其他动作替代行走来「踏火」。</p><p><strong>成功</strong> 你穿过危险地形之空间而不承受伤害，将其每个方格视为困难地形（每 5 尺消耗 10 尺移动）。</p><p><strong>失败</strong> 你如常承受伤害。</p>"
+      "description": "<p>你的移动如此迅捷而轻盈，让你穿过险境时不致伤己。你以最多你速度的距离行走。在此移动中，你可尝试穿过有害地形之空间。当你试图穿过其空间时，立即对致使该有害地形之效果的 DC 或 @Check[type:acrobatics]{ }（取较高者）进行一次 @Check[type:acrobatics|dc:20] 检定。在适当环境下，你可以以攀爬、飞行、游泳或其他动作替代行走来「踏火」。</p><p><strong>成功</strong> 你穿过有害地形之空间而不承受伤害，将其每个方格视为困难地形（每 5 尺消耗 10 尺移动）。</p><p><strong>失败</strong> 你如常承受伤害。</p>"
     },
     "In Wolf's Clothing": {
       "name": "披狼之衣 In Wolf's Clothing",

@@ -1681,7 +1681,7 @@
         },
         "Caustic Darkness": {
           "name": "强酸黑暗 Caustic Darkness",
-          "description": "<p>龙以超乎通常的速度施放其天生黑暗术，召出的黑暗也如其灵魂般污秽。黑暗术的范围变为危险地形；不过，反制黑暗或使光线穿透黑暗的效果，在压制黑暗期间也会移除该危险地形。生物在范围内移动时，每进入一个方格，便受到@Damage[5[acid]]伤害。与通常的危险地形不同，应将移动经过每格造成的酸蚀伤害相加，再仅应用一次弱点或抗力（例如，一个拥有酸蚀抗力10的生物，会在移动超过第二格后开始受到酸蚀伤害）。以此方式受到酸蚀伤害的生物会陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}。</p>"
+          "description": "<p>龙以超乎通常的速度施放其天生黑暗术，召出的黑暗也如其灵魂般污秽。黑暗术的范围变为有害地形；不过，反制黑暗或使光线穿透黑暗的效果，在压制黑暗期间也会移除该有害地形。生物在范围内移动时，每进入一个方格，便受到@Damage[5[acid]]伤害。与通常的有害地形不同，应将移动经过每格造成的酸蚀伤害相加，再仅应用一次弱点或抗力（例如，一个拥有酸蚀抗力10的生物，会在移动超过第二格后开始受到酸蚀伤害）。以此方式受到酸蚀伤害的生物会陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}。</p>"
         },
         "Tail Lash": {
           "name": "扫尾 Tail Lash",
@@ -1873,7 +1873,7 @@
         },
         "Breath Weapon": {
           "name": "喷吐武器 Breath Weapon",
-          "description": "<p>龙喷出一股烈焰，造成@Damage[23d6[fire]]伤害，范围为@Template[type:cone|distance:70]（@Check[reflex|dc:46|basic]豁免）。豁免大失败的生物还会受到@Damage[5d6[persistent,fire]]伤害。此后[[/gmr 1d4 #Recharge Breath Weapon]]{1d4轮}内无法再次使用喷吐武器。</p><p>龙喷吐武器范围内非魔法、无主的易燃物体与植物会起火，变为危险地形，并冒出10尺高的烟柱。生物在此危险地形中移动时，每进入一个方格就受到@Damage[5[fire]]伤害。烟雾内的任何生物都处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，并将其他生物视为隐蔽。烟雾与危险地形持续1分钟，直到火焰最终熄灭。</p>"
+          "description": "<p>龙喷出一股烈焰，造成@Damage[23d6[fire]]伤害，范围为@Template[type:cone|distance:70]（@Check[reflex|dc:46|basic]豁免）。豁免大失败的生物还会受到@Damage[5d6[persistent,fire]]伤害。此后[[/gmr 1d4 #Recharge Breath Weapon]]{1d4轮}内无法再次使用喷吐武器。</p><p>龙喷吐武器范围内非魔法、无主的易燃物体与植物会起火，变为有害地形，并冒出10尺高的烟柱。生物在此有害地形中移动时，每进入一个方格就受到@Damage[5[fire]]伤害。烟雾内的任何生物都处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，并将其他生物视为隐蔽。烟雾与有害地形持续1分钟，直到火焰最终熄灭。</p>"
         },
         "Jaws": {
           "name": "噬咬 Jaws"
@@ -1891,7 +1891,7 @@
         },
         "Stoke Flames": {
           "name": "煽燃烈焰 Stoke Flames",
-          "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p><strong>效果</strong> 龙增强附近火焰的力量，使其燃烧得更猛烈。对龙周围200尺内敌人造成的所有火焰伤害获得+10状态加值；由持续伤害和危险地形造成的火焰伤害则仅获得+5状态加值。火焰伤害的增强持续到龙的下个回合开始。</p>"
+          "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p><strong>效果</strong> 龙增强附近火焰的力量，使其燃烧得更猛烈。对龙周围200尺内敌人造成的所有火焰伤害获得+10状态加值；由持续伤害和有害地形造成的火焰伤害则仅获得+5状态加值。火焰伤害的增强持续到龙的下个回合开始。</p>"
         },
         "Wall of Fire (At Will)": {
           "name": "火墙术（随意） Wall of Fire (At Will)",
@@ -3491,7 +3491,7 @@
         },
         "Forbidding Wilds": {
           "name": "险恶荒野 Forbidding Wilds",
-          "description": "<p>30尺。龙扭曲林地，使其对抗敌人。灵光内因植物而成为困难地形的方格，同时也是危险地形；生物每移动经过一个这样的方格，就受到@Damage[5[bludgeoning]]、@Damage[5[piercing]]或@Damage[5[slashing]]伤害。龙为每个生物选择伤害类型，并可以在生物每次移动时改变该伤害类型。</p>"
+          "description": "<p>30尺。龙扭曲林地，使其对抗敌人。灵光内因植物而成为困难地形的方格，同时也是有害地形；生物每移动经过一个这样的方格，就受到@Damage[5[bludgeoning]]、@Damage[5[piercing]]或@Damage[5[slashing]]伤害。龙为每个生物选择伤害类型，并可以在生物每次移动时改变该伤害类型。</p>"
         },
         "Entangle (At Will)": {
           "name": "纠缠术（随意） Entangle (At Will)",
@@ -4746,7 +4746,7 @@
         },
         "Breath Weapon": {
           "name": "喷吐武器 Breath Weapon",
-          "description": "<p>龙喷出一股烈焰，造成@Damage[23d6[fire]]伤害，范围为@Template[type:cone|distance:70]（@Check[reflex|dc:46|basic]豁免）。豁免大失败的生物还会受到@Damage[5d6[persistent,fire]]伤害。此后[[/gmr 1d4 #Recharge Breath Weapon]]{1d4轮}内无法再次使用喷吐武器。</p><p>龙喷吐武器范围内非魔法、无主的易燃物体与植物会起火，变为危险地形，并冒出10尺高的烟柱。生物在此危险地形中移动时，每进入一个方格就受到@Damage[5[fire]]伤害。烟雾内的任何生物都处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，并将其他生物视为隐蔽。烟雾与危险地形持续1分钟，直到火焰最终熄灭。</p>"
+          "description": "<p>龙喷出一股烈焰，造成@Damage[23d6[fire]]伤害，范围为@Template[type:cone|distance:70]（@Check[reflex|dc:46|basic]豁免）。豁免大失败的生物还会受到@Damage[5d6[persistent,fire]]伤害。此后[[/gmr 1d4 #Recharge Breath Weapon]]{1d4轮}内无法再次使用喷吐武器。</p><p>龙喷吐武器范围内非魔法、无主的易燃物体与植物会起火，变为有害地形，并冒出10尺高的烟柱。生物在此有害地形中移动时，每进入一个方格就受到@Damage[5[fire]]伤害。烟雾内的任何生物都处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，并将其他生物视为隐蔽。烟雾与有害地形持续1分钟，直到火焰最终熄灭。</p>"
         },
         "Jaws": {
           "name": "噬咬 Jaws"
@@ -4768,7 +4768,7 @@
         },
         "Stoke Flames": {
           "name": "煽燃烈焰 Stoke Flames",
-          "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p><strong>效果</strong> 龙增强附近火焰的力量，使其燃烧得更猛烈。对龙周围200尺内敌人造成的所有火焰伤害获得+10状态加值；由持续伤害和危险地形造成的火焰伤害则仅获得+5状态加值。火焰伤害的增强持续到龙的下个回合开始。</p>"
+          "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p><strong>效果</strong> 龙增强附近火焰的力量，使其燃烧得更猛烈。对龙周围200尺内敌人造成的所有火焰伤害获得+10状态加值；由持续伤害和有害地形造成的火焰伤害则仅获得+5状态加值。火焰伤害的增强持续到龙的下个回合开始。</p>"
         },
         "Wall of Fire (At Will)": {
           "name": "火墙术（随意） Wall of Fire (At Will)",
@@ -4950,7 +4950,7 @@
         },
         "Caustic Darkness": {
           "name": "强酸黑暗 Caustic Darkness",
-          "description": "<p>龙以超乎通常的速度施放其天生黑暗术，召出的黑暗也如其灵魂般污秽。黑暗术的范围变为危险地形；不过，反制黑暗或使光线穿透黑暗的效果，在压制黑暗期间也会移除该危险地形。生物在范围内移动时，每进入一个方格，便受到@Damage[5[acid]]伤害。与通常的危险地形不同，应将移动经过每格造成的酸蚀伤害相加，再仅应用一次弱点或抗力（例如，一个拥有酸蚀抗力10的生物，会在移动超过第二格后开始受到酸蚀伤害）。以此方式受到酸蚀伤害的生物会陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}。</p>"
+          "description": "<p>龙以超乎通常的速度施放其天生黑暗术，召出的黑暗也如其灵魂般污秽。黑暗术的范围变为有害地形；不过，反制黑暗或使光线穿透黑暗的效果，在压制黑暗期间也会移除该有害地形。生物在范围内移动时，每进入一个方格，便受到@Damage[5[acid]]伤害。与通常的有害地形不同，应将移动经过每格造成的酸蚀伤害相加，再仅应用一次弱点或抗力（例如，一个拥有酸蚀抗力10的生物，会在移动超过第二格后开始受到酸蚀伤害）。以此方式受到酸蚀伤害的生物会陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}。</p>"
         },
         "Tail Lash": {
           "name": "扫尾 Tail Lash",
@@ -5988,7 +5988,7 @@
         },
         "Forbidding Wilds": {
           "name": "险恶荒野 Forbidding Wilds",
-          "description": "<p>30尺。龙扭曲林地，使其对抗敌人。灵光内因植物而成为困难地形的方格，同时也是危险地形；生物每移动经过一个这样的方格，就受到@Damage[5[bludgeoning]]、@Damage[5[piercing]]或@Damage[5[slashing]]伤害。龙为每个生物选择伤害类型，并可以在生物每次移动时改变该伤害类型。</p>"
+          "description": "<p>30尺。龙扭曲林地，使其对抗敌人。灵光内因植物而成为困难地形的方格，同时也是有害地形；生物每移动经过一个这样的方格，就受到@Damage[5[bludgeoning]]、@Damage[5[piercing]]或@Damage[5[slashing]]伤害。龙为每个生物选择伤害类型，并可以在生物每次移动时改变该伤害类型。</p>"
         },
         "Entangle (At Will)": {
           "name": "纠缠术（随意） Entangle (At Will)",

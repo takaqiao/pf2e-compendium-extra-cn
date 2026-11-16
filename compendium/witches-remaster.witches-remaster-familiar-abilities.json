@@ -23,7 +23,7 @@
     },
     "Familiar of Armageddon's Favor": {
       "name": "末劫眷顾之魔宠 Familiar of Armageddon's Favor",
-      "description": "<p>你的魔宠似乎是灾难的导管，它周遭事物常以可疑的频率破裂或起火。当你施放或维持巫术时，你的魔宠可以使一个 30尺内、正承受持续伤害的生物在以其占据的一个方格为中心的 @Template[type:burst|distance:5] 范围内制造危险地形。该危险地形持续1轮，造成 @Damage[2+floor(@actor.level/2)] 伤害，伤害类型与目标正承受的一种持续伤害相同。</p>"
+      "description": "<p>你的魔宠似乎是灾难的导管，它周遭事物常以可疑的频率破裂或起火。当你施放或维持巫术时，你的魔宠可以使一个 30尺内、正承受持续伤害的生物在以其占据的一个方格为中心的 @Template[type:burst|distance:5] 范围内制造有害地形。该有害地形持续1轮，造成 @Damage[2+floor(@actor.level/2)] 伤害，伤害类型与目标正承受的一种持续伤害相同。</p>"
     },
     "Familiar of Disorienting Proximity": {
       "name": "失向接近之魔宠 Familiar of Disorienting Proximity",

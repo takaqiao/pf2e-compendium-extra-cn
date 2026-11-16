@@ -2748,7 +2748,7 @@
             },
             "Disappearance": {
               "name": "消失术 Disappearance",
-              "description": "<p>你将一个生物遮蔽于他者的感官之外。目标变为 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected}，而且不仅仅是对视觉如此，而是对所有感官皆然，因此无论观察者具有什么精准感官和模糊感官，目标都可视为 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}。不过，生物仍有可能通过搜索、寻找被扰动的尘土、听出声音频谱中的缺口，或以其他方式发现一个原本无法被探知的生物的存在。</p>"
+              "description": "<p>你将一个生物遮蔽于他者的感官之外。目标变为 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected}，而且不仅仅是对视觉如此，而是对所有感官皆然，因此无论观察者具有什么精确感官和模糊感官，目标都可视为 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}。不过，生物仍有可能通过搜索、寻找被扰动的尘土、听出声音频谱中的缺口，或以其他方式发现一个原本无法被探知的生物的存在。</p>"
             },
             "Hidden Mind": {
               "name": "隐匿心智 Hidden Mind",

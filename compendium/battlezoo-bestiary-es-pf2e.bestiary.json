@@ -43,7 +43,7 @@
         },
         "Wildfire Cloak": {
           "name": "野火披风 Wildfire Cloak",
-          "description": "<p>盛夏妖觉醒时，其经过的所有地形都变成燃烧的危险地形，对进入这些方格的任何生物造成@Damage[5[fire]]伤害。危险地形持续至盛夏妖下一回合开始。</p>"
+          "description": "<p>盛夏妖觉醒时，其经过的所有地形都变成燃烧的有害地形，对进入这些方格的任何生物造成@Damage[5[fire]]伤害。有害地形持续至盛夏妖下一回合开始。</p>"
         },
         "Sleep (At Will)": {
           "name": "睡眠术（随意） Sleep (At Will)",
@@ -7183,7 +7183,7 @@
         },
         "Flickering Form": {
           "name": "闪烁形态 Flickering Form",
-          "description": "<p>平行现在消失，随后在随机方向10尺外重现，并获得10点临时HP。平行现在的所有分身也会消失，并在随机方向重现。此效果不会使平行现在或其分身进入危险地形或已被占据的空间。</p>"
+          "description": "<p>平行现在消失，随后在随机方向10尺外重现，并获得10点临时HP。平行现在的所有分身也会消失，并在随机方向重现。此效果不会使平行现在或其分身进入有害地形或已被占据的空间。</p>"
         },
         "Duplicate Swap": {
           "name": "分身换位 Duplicate Swap",
@@ -7522,7 +7522,7 @@
         },
         "Safe Passage (At Will, Within Domain Only)": {
           "name": "安全通道（随意，仅限领域内） Safe Passage (At Will, Within Domain Only)",
-          "description": "<p><strong>区域</strong> 宽10尺、高10尺、长60尺的一段地形</p><hr /><p>你让该区域在短时间内可供安全通行。任何穿过区域的人，针对地形和环境的有害效果，包括环境伤害、危险地形以及区域内的危害，都获得以下益处：对抗此类效果的AC和豁免获得+2状态加值，对此类效果造成的所有伤害获得抗力5。此外，法术会防止区域内易于坍塌的事物倒塌，例如摇摇欲坠的桥梁或不稳固的天花板，除非承受足以使同类正常结构坍塌的极端压力。</p>\n<p><em>安全通道</em>只防止伤害，不消除不便：它不会降低困难地形、移除降水造成的@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态或类似影响，也不能防御法术区域内生物造成的危害。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.5blVLpIH65hvFJpn]{法术效果：安全通道}</p><hr /><p><strong>升阶（5环）</strong> 提供的抗力增加至10，区域可长达120尺。</p>\n<p><strong>升阶（8环）</strong> 提供的抗力增加至15，区域可长达500尺。</p>"
+          "description": "<p><strong>区域</strong> 宽10尺、高10尺、长60尺的一段地形</p><hr /><p>你让该区域在短时间内可供安全通行。任何穿过区域的人，针对地形和环境的有害效果，包括环境伤害、有害地形以及区域内的危害，都获得以下益处：对抗此类效果的AC和豁免获得+2状态加值，对此类效果造成的所有伤害获得抗力5。此外，法术会防止区域内易于坍塌的事物倒塌，例如摇摇欲坠的桥梁或不稳固的天花板，除非承受足以使同类正常结构坍塌的极端压力。</p>\n<p><em>安全通道</em>只防止伤害，不消除不便：它不会降低困难地形、移除降水造成的@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态或类似影响，也不能防御法术区域内生物造成的危害。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.5blVLpIH65hvFJpn]{法术效果：安全通道}</p><hr /><p><strong>升阶（5环）</strong> 提供的抗力增加至10，区域可长达120尺。</p>\n<p><strong>升阶（8环）</strong> 提供的抗力增加至15，区域可长达500尺。</p>"
         }
       },
       "name": "境地之灵 Genius Loci",

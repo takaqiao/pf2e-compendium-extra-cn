@@ -344,7 +344,7 @@
     },
     "Volatile Vial": {
       "name": "易爆制剂 Volatile Vial",
-      "description": "<p><strong>激发</strong> 1 交互</p><hr /><p>这份制剂的挥发性极具破坏力，它会在 20 尺内的一片区域留下危险的火焰，以取代通常的效果。在该区域内开始其回合、或穿过其所占空间的生物会承受伤害。该危险地形持续 1 分钟。</p>"
+      "description": "<p><strong>激发</strong> 1 交互</p><hr /><p>这份制剂的挥发性极具破坏力，它会在 20 尺内的一片区域留下危险的火焰，以取代通常的效果。在该区域内开始其回合、或穿过其所占空间的生物会承受伤害。该有害地形持续 1 分钟。</p>"
     },
     "Seventh Additional Impulse": {
       "name": "第七项额外涌动 Seventh Additional Impulse",
@@ -478,7 +478,7 @@
     },
     "Volatile Vial (Bomber)": {
       "name": "易爆制剂（投弹手） Volatile Vial (Bomber)",
-      "description": "<p><strong>激发</strong> 1 交互</p><hr /><p>这份制剂的挥发性极具破坏力，它会在 20 尺内的一片区域留下危险的火焰，以取代通常的效果。在该区域内开始其回合、或穿过其所占空间的生物会承受伤害。该危险地形持续 1 分钟。</p><p>作为投弹手，你也可以将此制剂作为炸弹投掷。若你这样做，它会造成酸蚀伤害和酸蚀溅射伤害，且你不能选择造成寒冷、电击或火焰伤害。</p>",
+      "description": "<p><strong>激发</strong> 1 交互</p><hr /><p>这份制剂的挥发性极具破坏力，它会在 20 尺内的一片区域留下危险的火焰，以取代通常的效果。在该区域内开始其回合、或穿过其所占空间的生物会承受伤害。该有害地形持续 1 分钟。</p><p>作为投弹手，你也可以将此制剂作为炸弹投掷。若你这样做，它会造成酸蚀伤害和酸蚀溅射伤害，且你不能选择造成寒冷、电击或火焰伤害。</p>",
       "unidentifiedName": "不寻常武器 Unusual Weapon"
     },
     "Effect: Mystic Chymistry Elixirs": {

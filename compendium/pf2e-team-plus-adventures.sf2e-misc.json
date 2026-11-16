@@ -1253,7 +1253,7 @@
     },
     "bNSNsuQ8WdECotXa": {
       "name": "能量奔涌 Surge of Energy",
-      "description": "<p>你体内元素力量奔涌，在周围创造出由你的元素构成的危险地形。你在@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内创造危险地形，持续1分钟，或直到你不再处于怪物形态，以先发生者为准。生物沿地面穿过该区域时，每进入其中一格，就受到等于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值的@Damage[(@actor.flags.sf2e.frustrated)[@actor.flags.system.vessel.blastDamageType]]{伤害}，伤害类型与你从@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.DyvpkcT4tu9XPHTp]{元素核心}获得的无武装攻击相同。你免疫自己创造的危险地形。</p>"
+      "description": "<p>你体内元素力量奔涌，在周围创造出由你的元素构成的有害地形。你在@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.uPInGuzLhxQuupJb]{宿主威压}区域内创造有害地形，持续1分钟，或直到你不再处于怪物形态，以先发生者为准。生物沿地面穿过该区域时，每进入其中一格，就受到等于你的@UUID[Compendium.pf2e-team-plus-adventures.pf2e-items.Item.CfeBcwR1XPkOlWMd]{躁郁状态}值的@Damage[(@actor.flags.sf2e.frustrated)[@actor.flags.system.vessel.blastDamageType]]{伤害}，伤害类型与你从@UUID[Compendium.pf2e-team-plus-adventures.pf2e-misc.Item.DyvpkcT4tu9XPHTp]{元素核心}获得的无武装攻击相同。你免疫自己创造的有害地形。</p>"
     },
     "bNfFoZgLKN7GPRwf": {
       "name": "传奇形态 Legendary Form",
