@@ -1787,8 +1787,8 @@
 			}
 		},
 		"Sea Hag (BB)": {
-			"name": "海女妖 Sea Hag (BB)",
-			"publicNotes": "<p>女妖是恶意的掠食者，她们以法术与操弄诱骗孩童与年轻人入她们的魔爪。她们会找出不快乐、纯真或脆弱的目标，乘其弱点将其掳走。海女妖上半身为人形，下半身为章鱼，皮肤半透明，肌肤之下能看见闪烁的光点。</p>",
+			"name": "海鬼婆 Sea Hag (BB)",
+			"publicNotes": "<p>鬼婆是恶意的掠食者，她们以法术与操弄诱骗孩童与年轻人入她们的魔爪。她们会找出不快乐、纯真或脆弱的目标，乘其弱点将其掳走。海鬼婆上半身为人形，下半身为章鱼，皮肤半透明，肌肤之下能看见闪烁的光点。</p>",
 			"items": {
 				"Claw": {
 					"name": "爪击 Claw"
@@ -1798,10 +1798,10 @@
 				},
 				"Dread Gaze": {
 					"name": "恐惧凝视 Dread Gaze",
-					"description": "<p>女妖凝视一个生物，使其产生恶兆缠身的吞噬之感。结果取决于其 @Check[will|dc:20|options:inflicts:frightened,inflicts:slowed] 豁免。目标无需看见海女妖。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1 Frightened 2}。</p>\n<p><strong>失败</strong> 该生物惊惧1并 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}，持续1轮。</p>\n<p><strong>大失败</strong> 同失败，但生物 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2 Frightened 2} 并迟缓1，持续1分钟。</p>"
+					"description": "<p>鬼婆凝视一个生物，使其产生恶兆缠身的吞噬之感。结果取决于其 @Check[will|dc:20|options:inflicts:frightened,inflicts:slowed] 豁免。目标无需看见海鬼婆。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1 Frightened 2}。</p>\n<p><strong>失败</strong> 该生物惊惧1并 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}，持续1轮。</p>\n<p><strong>大失败</strong> 同失败，但生物 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2 Frightened 2} 并迟缓1，持续1分钟。</p>"
 				}
 			},
-			"prototypeToken": "海女妖",
+			"prototypeToken": "海鬼婆",
 			"data": {
 				"placeHolder": "placeHolder"
 			}
