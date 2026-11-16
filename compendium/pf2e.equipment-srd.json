@@ -1027,7 +1027,7 @@
 		},
 		"Elemental Ammunition (Moderate, Acid)": {
 			"name": "中等酸蚀元素弹药 Elemental Ammunition (Moderate, Acid)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成2d4持续酸蚀伤害，并且在造成正常伤害的基础上造成2酸蚀溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成2d4持续酸蚀伤害，并且在造成正常伤害的基础上造成2酸蚀溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Sulfur Bomb (Moderate)": {
 			"name": "中等硫磺炸弹 Sulfur Bomb (Moderate)",
@@ -1139,7 +1139,7 @@
 		},
 		"Elemental Ammunition (Moderate, Electricity)": {
 			"name": "中等电击元素弹药 Elemental Ammunition (Moderate, Electricity)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成2d4点持续电击伤害，并且在造成正常伤害的基础上造成2点电击溅射伤害。每种伤害类型的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成2d4点持续电击伤害，并且在造成正常伤害的基础上造成2点电击溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Countering Charm (Major)": {
 			"name": "反制咒符 Countering Charm (Major)",
@@ -3288,7 +3288,7 @@
 		},
 		"Elemental Ammunition (Greater, Cold)": {
 			"name": "高等寒冷元素弹药 Elemental Ammunition (Greater, Cold)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成3d4持续寒冷伤害，并且在造成正常伤害的基础上造成3寒冷溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成3d4持续寒冷伤害，并且在造成正常伤害的基础上造成3寒冷溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Cindergrass Cloak": {
 			"name": "灰烬草斗篷 Cindergrass Cloak",
@@ -4327,7 +4327,7 @@
 		},
 		"Elemental Ammunition (Lesser, Fire)": {
 			"name": "次等火焰元素弹药 Elemental Ammunition (Lesser, Fire)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成1持续火焰伤害，并且在造成正常伤害的基础上造成1火焰溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成1持续火焰伤害，并且在造成正常伤害的基础上造成1火焰溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Splintering Spear": {
 			"name": "迸裂木矛 Splintering Spear",
@@ -5061,7 +5061,7 @@
 		},
 		"Elemental Ammunition (Lesser, Poison)": {
 			"name": "次等毒素元素弹药 Elemental Ammunition (Lesser, Poison)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成1持续毒素伤害，并且在造成正常伤害的基础上造成1毒素溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成1持续毒素伤害，并且在造成正常伤害的基础上造成1毒素溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Anylength Rope (Greater)": {
 			"name": "高等如意绳 Anylength Rope (Greater)",
@@ -6489,7 +6489,7 @@
 		},
 		"Elemental Ammunition (Lesser, Electricity)": {
 			"name": "次等电击元素弹药 Elemental Ammunition (Lesser, Electricity)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成1持续电击伤害，并且在造成正常伤害的基础上造成1电击溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成1持续电击伤害，并且在造成正常伤害的基础上造成1电击溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Medusa Armor": {
 			"name": "美杜莎护甲 Medusa Armor",
@@ -11662,7 +11662,7 @@
 		},
 		"Elemental Ammunition (Lesser, Cold)": {
 			"name": "次等寒冷元素弹药 Elemental Ammunition (Lesser, Cold)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成1持续寒冷伤害，并且在造成正常伤害的基础上造成1寒冷溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成1持续寒冷伤害，并且在造成正常伤害的基础上造成1寒冷溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Clay": {
 			"name": "黏土 Clay",
@@ -17245,7 +17245,7 @@
 		},
 		"Elemental Ammunition (Greater, Fire)": {
 			"name": "高等火焰元素弹药 Elemental Ammunition (Greater, Fire)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成3d4持续火焰伤害，并且在造成正常伤害的基础上造成3火焰溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成3d4持续火焰伤害，并且在造成正常伤害的基础上造成3火焰溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Spectacles of Inquiry": {
 			"name": "问询眼镜 Spectacles of Inquiry",
@@ -17850,7 +17850,7 @@
 		},
 		"Elemental Ammunition (Greater, Poison)": {
 			"name": "高等毒素元素弹药 Elemental Ammunition (Greater, Poison)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成3d4持续毒素伤害，并且在造成正常伤害的基础上造成3毒素溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成3d4持续毒素伤害，并且在造成正常伤害的基础上造成3毒素溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Gnome Flickmace": {
 			"name": "侏儒弹簧锤 Gnome Flickmace",
@@ -18413,7 +18413,7 @@
 		},
 		"Elemental Ammunition (Greater, Acid)": {
 			"name": "高等酸蚀元素弹药 Elemental Ammunition (Greater, Acid)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成3d4持续酸蚀伤害，并且在造成正常伤害的基础上造成3酸蚀溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成3d4持续酸蚀伤害，并且在造成正常伤害的基础上造成3酸蚀溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Wand of the Snowfields (7th-Rank Spell)": {
 			"name": "7环级雪原魔杖 Wand of the Snowfields (7th-Rank Spell)",
@@ -20875,7 +20875,7 @@
 		},
 		"Elemental Ammunition (Moderate, Fire)": {
 			"name": "中等火焰元素弹药 Elemental Ammunition (Moderate, Fire)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成2d4持续火焰伤害，并且在造成正常伤害的基础上造成2火焰溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成2d4持续火焰伤害，并且在造成正常伤害的基础上造成2火焰溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Thousand-Year Dragonroot": {
 			"name": "千年龙根 Thousand-Year Dragonroot",
@@ -20919,7 +20919,7 @@
 		},
 		"Elemental Ammunition (Moderate, Poison)": {
 			"name": "中等毒素元素弹药 Elemental Ammunition (Moderate, Poison)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成2d4持续毒素伤害，并且在造成正常伤害的基础上造成2毒素溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成2d4持续毒素伤害，并且在造成正常伤害的基础上造成2毒素溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Dwarven Daisy (Lesser)": {
 			"name": "次级矮人雏菊 Dwarven Daisy (Lesser)",
@@ -21034,7 +21034,7 @@
 		},
 		"Elemental Ammunition (Greater, Electricity)": {
 			"name": "高等电击元素弹药 Elemental Ammunition (Greater, Electricity)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成3d4持续电击伤害，并且在造成正常伤害的基础上造成3电击溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成3d4持续电击伤害，并且在造成正常伤害的基础上造成3电击溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Radiant Prism": {
 			"name": "彩光棱镜 Radiant Prism",
@@ -21561,7 +21561,7 @@
 		},
 		"Elemental Ammunition (Moderate, Cold)": {
 			"name": "中等寒冷元素弹药 Elemental Ammunition (Moderate, Cold)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成2d4持续寒冷伤害，并且在造成正常伤害的基础上造成2寒冷溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成2d4持续寒冷伤害，并且在造成正常伤害的基础上造成2寒冷溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Hammer Gun": {
 			"name": "锤枪 Hammer Gun",
@@ -21569,7 +21569,7 @@
 		},
 		"Elemental Ammunition (Lesser, Acid)": {
 			"name": "次等酸蚀元素弹药 Elemental Ammunition (Lesser, Acid)",
-			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成1持续酸蚀伤害，并且在造成正常伤害的基础上造成1酸蚀溅射伤害。每种伤害类型都的弹药需要不同的公式，弹药获得和伤害类型相匹配的特征。</p>"
+			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span>（操作）</p><hr /><p>当元素弹药中的炼金试剂被启动时，会在撞击时雾化，对目标造成1持续酸蚀伤害，并且在造成正常伤害的基础上造成1酸蚀溅射伤害。每种伤害类型的弹药需要不同的配方，弹药获得和伤害类型相匹配的特征。</p>"
 		},
 		"Clockwork Helm": {
 			"name": "发条头盔 Clockwork Helm",
