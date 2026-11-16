@@ -782,7 +782,7 @@
               "description": "<p>这种护甲由毛皮、结实的兽皮，有时还会加入塑形的煮制皮革混合而成。它依靠多层皮革提供保护，不过其笨重会让穿戴者行动变慢并降低机动性。</p>\n<p>A mix of furs, sturdy hide, and sometimes molded boiled leather, this armor provides protection due to its layers of leather, though its bulkiness slows the wearer down and decreases mobility.</p>"
             },
             "Healing Potion (Minor)": {
-              "name": "治疗药水（次等）\nHealing Potion (Minor)",
+              "name": "下等治疗药水\nHealing Potion (Minor)",
               "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p><em>治疗药水</em>是一小瓶宝石红色的液体，饮用者的伤口迅速愈合时会带来刺痛般的感觉。当你喝下<em>治疗药水</em>时，你恢复[[/r 1d8[healing]]]{1d8 生命值}。</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>healing potion</em>, you regain [[/r 1d8[healing]]]{1d8 Hit Points}.</p>"
             },
             "Silver Pieces": {
@@ -1616,7 +1616,7 @@
               "description": "<p>适合贵族或王室的精致服装由昂贵的织物、贵金属和复杂的图案制成。</p>\n<p>Fine clothing, suitable for a noble or royal, is made with expensive fabrics, precious metals, and intricate patterns.</p>"
             },
             "Healing Potion (Minor)": {
-              "name": "治疗药水（次级）\nHealing Potion (Minor)",
+              "name": "下等治疗药水\nHealing Potion (Minor)",
               "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p><em>治疗药水</em>是一小瓶红宝石般的红色液体，饮用者的伤口迅速愈合时会感到一阵刺痛。当你喝下<em>治疗药水</em>时，你恢复[[/r 1d8[healing]]]{1d8生命值}。</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>healing potion</em>, you regain [[/r 1d8[healing]]]{1d8 Hit Points}.</p>"
             },
             "Leather Armor": {
@@ -2028,7 +2028,7 @@
               "description": "<p>这些是小型金属球，通常由铁或铅制成，设计用于作为投石索的弹药。</p>\n<p>These are small metal balls, typically either iron or lead, designed to be used as ammunition in slings.</p>"
             },
             "Healing Potion (Minor)": {
-              "name": "治疗药水（次级）\nHealing Potion (Minor)",
+              "name": "下等治疗药水\nHealing Potion (Minor)",
               "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p><em>治疗药水</em>是一小瓶红宝石般的深红液体，饮用者在伤口迅速愈合时会感到一阵刺痛感。当你饮用一瓶<em>治疗药水</em>时，你恢复[[/r 1d8[healing]]]{1d8 生命值}。</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>healing potion</em>, you regain [[/r 1d8[healing]]]{1d8 Hit Points}.</p>"
             },
             "Silver Pieces": {
@@ -2400,7 +2400,7 @@
               "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p>解毒剂保护你免受毒素侵害。饮用解毒剂后，你在对抗毒药的强韧豁免检定上获得+2物品加值，持续6小时。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.7z1iY4AaNEAIKuAU]{效果：解毒剂（次级）}</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>An antidote protects you against toxins. Upon drinking an antidote, you gain a +2 item bonus to Fortitude saving throws against poisons for 6 hours.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.7z1iY4AaNEAIKuAU]{Effect: Antidote (Lesser)}</p>"
             },
             "Healing Potion (Minor)": {
-              "name": "治疗药水（次级）\nHealing Potion (Minor)",
+              "name": "下等治疗药水\nHealing Potion (Minor)",
               "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p><em>治疗药水</em>是一小瓶红宝石般的红色液体，饮用者的伤口迅速愈合时会感到一阵刺痛。当你饮用一瓶<em>治疗药水</em>时，你恢复[[/r 1d8[healing]]]{1d8生命值}。</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>healing potion</em>, you regain [[/r 1d8[healing]]]{1d8 Hit Points}.</p>"
             },
             "Sling Bullets": {
@@ -3260,7 +3260,7 @@
               "description": ""
             },
             "Healing Potion (Minor)": {
-              "name": "治疗药水（次级）\nHealing Potion (Minor)",
+              "name": "下等治疗药水\nHealing Potion (Minor)",
               "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p><em>治疗药水</em>是一小瓶红宝石般的红色液体，饮用者的伤口迅速愈合时会感到一阵刺痛。当你喝下<em>治疗药水</em>时，你恢复[[/r 1d8[healing]]]{1d8 生命值}。</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>healing potion</em>, you regain [[/r 1d8[healing]]]{1d8 Hit Points}.</p>"
             },
             "Longsword": {
@@ -3328,7 +3328,7 @@
           "description": "<p>一枚金戒指！黄金总是闪闪发光！</p>\n<p>A gold ring! Gold always glitters!</p>"
         },
         "Healing Potion (Minor)": {
-          "name": "治疗药水（次级）\nHealing Potion (Minor)",
+          "name": "下等治疗药水\nHealing Potion (Minor)",
           "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p>\n<hr />\n<p><em>治疗药水</em>是一小瓶宝石红色的液体，饮用者的伤口迅速愈合时会感到一阵刺痛。当你饮用一瓶<em>治疗药水</em>时，你恢复[[/r 1d8[healing]]]{1d8 生命值}。</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>healing potion</em>, you regain [[/r 1d8[healing]]]{1d8 Hit Points}.</p>"
         },
         "Polished Shield": {
