@@ -38,11 +38,11 @@
       "description": "<p>你不使用法术位施法，而以精质施法——通过咒诵或在战斗中累积精质来施放你的法术。</p><p>使用精质施法时，你如常拥有数道已准备法术或一份法术目录。但你不消耗法术位施法。取而代之，仅当你的精质等于或大于法术之环级时，你才能从已准备法术或目录中施放该法术，或通过咒诵施法。聚焦法术与戏法之施放方式如常，且不需要精质。某些戏法被称作「抽取戏法」，可帮助你获得精质。在此施法体系中，通常需要法术位之法术被称为「精质法术」。</p>"
     },
     "Warping (Major)": {
-      "name": "扭曲（超级） Warping (Major)",
+      "name": "扭曲（上等） Warping (Major)",
       "description": "<p>通过具有此符文之指环施放的法术可弯曲并以锐角变向，让你能避开盟友并击中拐角后的敌人。当你施放一道需要法术攻击掷骰之法术时，你可选择 15 尺内最多三个方格作为该法术新的起点。第三个方格须与第二个方格相距 15 尺以内，第二个方格须与第一个方格相距 15 尺以内。从该处确定法术之效果线与视野线，并判断生物对该法术是否具备掩蔽。法术目标仍须在所选方格之射程内。</p>"
     },
     "Conspirator Dragonbreath Bladed Scarf (Major)": {
-      "name": "阴谋者龙息刃巾（超级） Conspirator Dragonbreath Bladed Scarf (Major)",
+      "name": "阴谋者龙息刃巾（上等） Conspirator Dragonbreath Bladed Scarf (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神秘, 毒素）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神秘, 毒素）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Wicked": {
@@ -58,7 +58,7 @@
       "description": "<p>每位施法者的肉体、心智、生命力与精魂只能容纳有限的精质——若试图储存更多，其载体便有破裂的风险，让精质痛苦地释放。所有施法者皆通过训练或自学避免此情形——最坏情况下，他们可能受到重创、失去施法能力，乃至死亡。施法者精质池之大小等同于他们能施放的最高环级法术；除最强大之施法者外，鲜有例外。精质施法者之精质池起始为 1，于 3 级提升至 2，再于此后每 2 级提升 1，至 17 级达到上限 9。施法者之精质池在 19 级时不会上升至 10，纵使他们能够施放 10 环法术。</p>"
     },
     "Energy (Greater)": {
-      "name": "能量（高级） Energy (Greater)",
+      "name": "能量（高等） Energy (Greater)",
       "description": "<p>能量法术让此指环送出微微闪烁之力穿过你的手。</p><div class=\"team-plus-statblock\"><p><strong>激活——汇聚之力</strong> <span class=\"action-glyph\">1</span></p><p><strong>需求</strong> 你上一动作施放了一道造成能量伤害且由「真言法术」修饰之法术；</p><hr /><p>你将即将释放的部分能量吸入你的威能指环。你于指环中保留一发该能量类型的「汇聚之力」充能，至多两发。这些充能持续 1 分钟，或被「释放之力」消耗。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——释放之力</strong> <span class=\"action-glyph\">1</span>（攻击）</p><p><strong>需求</strong> 你于指环中持有一发「汇聚之力」充能；</p><hr /><p>你射出一道由指环中所积存能量构成的射线。对目标 AC 进行一次法术攻击掷骰，成功造成 @Damage[5d4] 伤害，大成功翻倍。你将指环的物品加值应用于此法术攻击掷骰。该伤害与你用于「汇聚之力」之能量同类型，并消耗你「汇聚之力」充能。你可消耗两发同一能量类型的充能，将「释放之力」之伤害提升至 @Damage[10d4] 伤害。</p></div>"
     },
     "Morph Summon": {
@@ -70,7 +70,7 @@
       "description": "<p>你即刻准备好心智与身体，以压缩你某道动态法术的施法时间。你直至回合结束前迅捷。你只能将此额外动作用作施放你已具备动态精通之法术的 3 动作版本所需动作的一部分。</p><hr><p><strong>特殊</strong> 若你具备 @UUID[Compendium.pf2e-team-plus-magic.sf2e-items.fctqmyLME0fTvHMa]{三重施法} 或 @UUID[Compendium.pf2e-team-plus-magic.sf2e-items.5jxyCBmg3f5p4Vf0]{可变准备} 原型专长，你也可将此额外动作用作「三重施法」所需 3 个动作之一，或用作以「可变准备」施放内部法术。</p>"
     },
     "Energy (Major)": {
-      "name": "能量（超级） Energy (Major)",
+      "name": "能量（上等） Energy (Major)",
       "description": "<p>能量法术让此指环送出微微闪烁之力穿过你的手。</p><div class=\"team-plus-statblock\"><p><strong>激活——汇聚之力</strong> <span class=\"action-glyph\">1</span></p><p><strong>需求</strong> 你上一动作施放了一道造成能量伤害且由「真言法术」修饰之法术；</p><hr /><p>你将即将释放的部分能量吸入你的威能指环。你于指环中保留一发该能量类型的「汇聚之力」充能，至多三发。这些充能持续 1 分钟，或被「释放之力」消耗。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——释放之力</strong> <span class=\"action-glyph\">1</span>（攻击）</p><p><strong>需求</strong> 你于指环中持有一发「汇聚之力」充能；</p><hr /><p>你射出一道由指环中所积存能量构成的射线。对目标 AC 进行一次法术攻击掷骰，成功造成 @Damage[5d4] 伤害，大成功翻倍。你将指环的物品加值应用于此法术攻击掷骰。该伤害与你用于「汇聚之力」之能量同类型，并消耗你「汇聚之力」充能。你可消耗两发或三发同一能量类型的充能，将「释放之力」之伤害分别提升至 @Damage[10d4] 或 @Damage[15d4] 伤害。</p></div>"
     },
     "Blue Salt Crystal": {
@@ -154,7 +154,7 @@
       ]
     },
     "Empyreal Dragonbreath Greatsword (Major)": {
-      "name": "天极龙息巨剑（超级） Empyreal Dragonbreath Greatsword (Major)",
+      "name": "天极龙息巨剑（上等） Empyreal Dragonbreath Greatsword (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神圣、火焰、灵魂）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[spirit]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神圣、火焰、灵魂）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[spirit]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Archmage's Curse": {
@@ -242,11 +242,11 @@
       "description": "<p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你的神秘链结提升你的魔法射程。当你施放一道无持续时间之法术时，你可以选择以你或你神秘组合搭档的位置作为该法术之施法点。</p>"
     },
     "Fortune Dragonbreath Rapier (Greater)": {
-      "name": "命运龙息细剑（高级） Fortune Dragonbreath Rapier (Greater)",
+      "name": "命运龙息细剑（高等） Fortune Dragonbreath Rapier (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（奥术、力场）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[force]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（奥术、力场）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[force]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Ramming (Greater)": {
-      "name": "撞击（高级） Ramming (Greater)",
+      "name": "撞击（高等） Ramming (Greater)",
       "description": "<p>撞击指环将敌人冲飞远去。法术攻击获得「拆毁」特征。当你以法术攻击对一名生物大成功时，目标必须以 @Check[dc:32|type:fortitude] 豁免，否则被推离法术起点 20 尺。</p>"
     },
     "Embodiment": {
@@ -262,7 +262,7 @@
       "description": "<p>你变形为天界生物，例如阿伽锡昂、天使、圣使或阿扎塔。施放法术时，你可选择任一 @UUID[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.ABdvu7T0B57zoJRm]{天界层面} 作为你的层面战斗形态。在此战斗形态中你具有手部，并可执行操作动作。</p><p>@UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.GNSz5ksf9fux0j7u]</p><hr><p><strong>高阶</strong> 依 @UUID[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.s5plpLZzwemVg4RC] 之规则。</p>"
     },
     "Howl of Winter (Major)": {
-      "name": "凛冬之嚎（超级） Howl of Winter (Major)",
+      "name": "凛冬之嚎（上等） Howl of Winter (Major)",
       "description": "<p><strong>激活</strong> <span class=\"action-glyph\">2</span> 交互、打击</p><hr /><p>这件法器枪不知何故看似一柄天然形成的冰锥状手枪。激活该法器枪——以一名生物为目标，并自选以法术攻击掷骰或火器攻击掷骰对照该目标之 AC。该法器枪具有 30 尺射程增量。该法器枪喷出彻骨极地寒风，造成 @Damage[16d6[cold]] 伤害，随后融化。</p><p><strong>大成功</strong> 目标承受双倍伤害，且其速度于 1 分钟内承受 -10 尺状态减值。</p><p><strong>成功</strong> 同大成功，但目标承受全额伤害，且其速度于 1 分钟内承受 -5 尺状态减值。</p>"
     },
     "Terminus of Ultima": {
@@ -298,7 +298,7 @@
       "description": "<p>当你施放 @UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.cmPXzjIHh1WSoPlP]{召唤同伙} 时，你可选择召唤一只信使层面（特殊的 @UUID[Compendium.pf2e-team-plus-magic.sf2e-items.3DSNbxe36dMAwXpC]{召唤动物层面}）——其将持续时间延长至 10 分钟，并将所召唤生物的生命值减半。如此做时，该法术无须维持便可保持生效（但你仍须维持该法术以为你的召唤生物提供动作）。该召唤生物不会为你而战，但你可让其执行小型任务，例如取物、监视他人或递送物品。</p>"
     },
     "Conspirator Dragonbreath Dagger (Major)": {
-      "name": "阴谋者龙息匕首（超级） Conspirator Dragonbreath Dagger (Major)",
+      "name": "阴谋者龙息匕首（上等） Conspirator Dragonbreath Dagger (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神秘, 毒素）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神秘, 毒素）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Dynamic Electric Arc": {
@@ -326,11 +326,11 @@
       "description": "<p>你可更频繁地施放你的极限法术而不致危及自身。@UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.QPAQqTXsHbrLHKhp]{极限终焉} 获得周期 2，效果与周期 1 相同。</p>"
     },
     "Omen Dragonbreath Scythe (Greater)": {
-      "name": "凶兆龙息镰（高级） Omen Dragonbreath Scythe (Greater)",
+      "name": "凶兆龙息镰（高等） Omen Dragonbreath Scythe (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（心灵、神秘）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（心灵、神秘）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Mirage Dragonbreath Bec de Corbin (Greater)": {
-      "name": "蜃景龙息长喙锤（高级） Mirage Dragonbreath Bec de Corbin (Greater)",
+      "name": "蜃景龙息长喙锤（高等） Mirage Dragonbreath Bec de Corbin (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（奥术、情绪、心灵）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（奥术、情绪、心灵）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Magic Bell (3rd-Rank Essence Spell)": {
@@ -362,7 +362,7 @@
       "description": "<p>你束缚一名魔族听你差遣。你召唤一只 @UUID[Compendium.pf2e-team-plus-magic.sf2e-journals.2ywfGZz3We3np1MB.JournalEntryPage.zTdtg6CPxmqwus1D]{魔类层面}，体型最大可至中型。</p><p>@UUID[Compendium.pf2e-team-plus-magic.sf2e-actors.d0cX3r5XBLoC9Aan] @UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.NtuTEQoDNpPqOkUL]{法术效果：魔类变形}</p><p>@UUID[Compendium.pf2e-team-plus-magic.sf2e-macros.BWW9xQ4rGI81L4KI]</p>"
     },
     "Empyreal Dragonbreath Greatsword (Greater)": {
-      "name": "天极龙息巨剑（高级） Empyreal Dragonbreath Greatsword (Greater)",
+      "name": "天极龙息巨剑（高等） Empyreal Dragonbreath Greatsword (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神圣、火焰、灵魂）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[spirit]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神圣、火焰、灵魂）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[spirit]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Magic Amulet (5th-Rank Essence Spell)": {
@@ -390,7 +390,7 @@
       "description": "<p><strong>触发</strong> 你将被减至 0 生命值。</p><p><strong>需求</strong> 你处于战斗形态。</p><hr /><p>你恢复原本形态以继续屹立。你解散战斗形态以避免被击晕。你保持 1 生命值，且你的受伤值增加 1。</p>"
     },
     "Conspirator Dragonbreath Bladed Scarf (Greater)": {
-      "name": "阴谋者龙息刃巾（高级） Conspirator Dragonbreath Bladed Scarf (Greater)",
+      "name": "阴谋者龙息刃巾（高等） Conspirator Dragonbreath Bladed Scarf (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神秘, 毒素）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神秘, 毒素）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Dynamic Divine Lance": {
@@ -402,7 +402,7 @@
       "description": "<p>你与你小门关联之力量如此契合，你可以本能地以其回应威胁。你施放一道具备你小门特征、需 2 个动作或更少、且至少比你最高环级法术低 4 环之法术；你必须以触发该效果之生物为目标，或若该法术以区域为目标则将其纳入区域之中。</p>"
     },
     "Howl of Winter (Greater)": {
-      "name": "凛冬之嚎（高级） Howl of Winter (Greater)",
+      "name": "凛冬之嚎（高等） Howl of Winter (Greater)",
       "description": "<p><strong>激活</strong> <span class=\"action-glyph\">2</span> 交互、打击</p><hr /><p>这件法器枪不知何故看似一柄天然形成的冰锥状手枪。激活该法器枪——以一名生物为目标，并自选以法术攻击掷骰或火器攻击掷骰对照该目标之 AC。该法器枪具有 30 尺射程增量。该法器枪喷出彻骨极地寒风，造成 @Damage[12d6[cold]] 伤害，随后融化。</p><p><strong>大成功</strong> 目标承受双倍伤害，且其速度于 1 分钟内承受 -10 尺状态减值。</p><p><strong>成功</strong> 同大成功，但目标承受全额伤害，且其速度于 1 分钟内承受 -5 尺状态减值。</p>"
     },
     "Voracious Drain": {
@@ -418,7 +418,7 @@
       "description": "<p><strong>周期 1</strong> 你不会如精质循环般将精质归零，而是让你的精质从 9 提升至 10。这意味着从下回合起，你便可施放一道 10 环法术。当你如此做时，你的精质降至 0，但不会进行额外的精质循环。</p>"
     },
     "Bloodstained Bandana (Greater)": {
-      "name": "血染头巾（高级） Bloodstained Bandana (Greater)",
+      "name": "血染头巾（高等） Bloodstained Bandana (Greater)",
       "description": "<p>这件深色头巾被鲜血浸染并结成硬痂，已无法分辨它原先是什么颜色或图案。佩戴此头巾会增强你的嗅觉，但仅限于鲜血之气味。你获得 30 尺射程的精确血感。血感让你能察觉正承受持续流血伤害、或处于濒死或受伤状态的生物。你也能察觉新近溅出的血液之独立水洼或液滴。GM 裁定下，无血生物不能被你的血感察觉。</p><p>你忽视以正承受持续流血伤害之生物为目标的平稳检定，并将以正承受持续流血伤害之隐蔽生物为目标的平稳检定减至 5。</p>"
     },
     "Diadic Sacrifice": {
@@ -426,7 +426,7 @@
       "description": "<p><strong>触发</strong> 你的神秘组合搭档受到伤害。</p><p><strong>需求</strong> 你的神秘链结生效。</p><hr /><p>你们的连结已经如此强大，让你能沿其神秘线传递生命力。你将部分伤害通过你的神秘链结转移，使其不伤害你的搭档，转而由你自身承受。你最多可抵消你搭档所受伤害的一半，并将你的生命值减少同等数量。你不能抵消超过你剩余之生命值。你的搭档以你为他们的神秘组合搭档时亦获得此反应及其自身频率与同样限制。</p>"
     },
     "Omen Dragonbreath Scimitar (Major)": {
-      "name": "凶兆龙息弯刀（超级） Omen Dragonbreath Scimitar (Major)",
+      "name": "凶兆龙息弯刀（上等） Omen Dragonbreath Scimitar (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（心灵、神秘）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（心灵、神秘）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Unhelpful Nudge": {
@@ -470,7 +470,7 @@
       "description": "<p>你将魔法之线穿过腐朽与死亡之小门。</p><p><strong>小门特征</strong> 死亡、虚空</p><p><strong>系链魔法</strong> 当你小门之领域区域内一名生命值低于半数的生物被你之死亡或虚空法术作用时，其 @UUID[Compendium.sf2e.conditions.TBSHQspnbcqxsmjL]{惊惧2级}。此为情绪、恐惧与心灵效果。该生物随后 1 分钟内对此效果免疫。@UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.Item.48vlYdnIcd9RwCqW]</p><p><strong>压倒性小门</strong> 当你以「死亡」特征之法术作用于不死生物时，其不会自动免疫该效果，并在通常会死时被毁灭。当你以「虚空」特征且会以不死生物为目标之法术施法时，若该法术造成伤害，你可选择改造为灵魂伤害（替代虚空伤害），如此该法术获得「灵魂」特征替代「虚空」特征。当你将一名生物减至 0 生命值时，你于 1 轮内对心灵效果获得 +2 状态加值。</p><p></p>"
     },
     "Horned Dragonbreath Longspear (Greater)": {
-      "name": "智角龙息长矛（高级） Horned Dragonbreath Longspear (Greater)",
+      "name": "智角龙息长矛（高等） Horned Dragonbreath Longspear (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（原初, 毒素）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（原初, 毒素）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Refract Eidolon's Aspect": {
@@ -506,7 +506,7 @@
       "description": "<p><strong>周期 1</strong> 你于会增加你精质之法术伤害上每环级获得 +1 环境加值（精质法术则每环级 +2 环境加值）。此仅适用于法术施放时之初始伤害。每次施放该法术，每名生物只承受此伤害一次（即便该法术多次伤害同一生物）。</p><p>非伤害法术对受影响之敌人造成等同环境加值之物理伤害（钝击、穿刺或挥砍——由你选择）；若该法术有法术攻击掷骰，则成功时为全额、大成功翻倍、未中无伤害；若该法术有豁免，则伤害如同基础豁免那样依结果而定。</p><p><strong>周期 2</strong> 同周期 1，但精质法术之伤害环境加值提升至 +3。</p><p><strong>周期 3</strong> 同周期 2，但增加你精质之法术之环境加值变为 +2，精质法术之环境加值提升至 +4。</p>"
     },
     "Mirage Dragonbreath Dancer's Spear (Major)": {
-      "name": "蜃景龙息舞者之矛（超级） Mirage Dragonbreath Dancer's Spear (Major)",
+      "name": "蜃景龙息舞者之矛（上等） Mirage Dragonbreath Dancer's Spear (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（奥术、情绪、心灵）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（奥术、情绪、心灵）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Effect: Terminus of Soul": {
@@ -554,7 +554,7 @@
       "description": "<p>这件 <em>+1 击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（奥术、情绪、心灵）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:15] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:23] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（奥术、情绪、心灵）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:23] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Adamantine Dragonbreath Morningstar (Major)": {
-      "name": "精金龙息流星锤（超级） Adamantine Dragonbreath Morningstar (Major)",
+      "name": "精金龙息流星锤（上等） Adamantine Dragonbreath Morningstar (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（原初）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[bludgeoning]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（原初）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[bludgeoning]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Monstrosity Shape+": {
@@ -722,11 +722,11 @@
       "description": "<p>你将一具构装体组装至你身侧。你召唤一只 @UUID[Compendium.pf2e-team-plus-magic.sf2e-journals.2ywfGZz3We3np1MB.JournalEntryPage.VNtyYlVBQoNGAthk]{构装层面}，体型最大可至中型。</p><p>@UUID[Compendium.pf2e-team-plus-magic.sf2e-actors.fbm9MHSnilOoGve6]{构装层面} @UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.vzxNTBV15l6LVfYM]{法术效果：构装变形}</p><p>@UUID[Compendium.pf2e-team-plus-magic.sf2e-macros.j1aJm4O4s2wior3W]{召唤构装层面}</p>"
     },
     "Empyreal Dragonbreath Lance (Greater)": {
-      "name": "天极龙息长枪（高级） Empyreal Dragonbreath Lance (Greater)",
+      "name": "天极龙息长枪（高等） Empyreal Dragonbreath Lance (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神圣、火焰、灵魂）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[spirit]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神圣、火焰、灵魂）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[spirit]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Horned Dragonbreath Light Pick (Major)": {
-      "name": "智角龙息轻钉钩（超级） Horned Dragonbreath Light Pick (Major)",
+      "name": "智角龙息轻型镐（上等） Horned Dragonbreath Light Pick (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（原初, 毒素）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（原初, 毒素）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Adamantine Dragonbreath Maul": {
@@ -734,7 +734,7 @@
       "description": "<p>这件 <em>+1 击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（原初）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:15] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[bludgeoning]] 伤害（@Check[reflex|dc:23] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（原初）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[bludgeoning]] 伤害（@Check[reflex|dc:23] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Diabolic Dragonbreath Greataxe (Greater)": {
-      "name": "魔鬼龙息巨斧（高级） Diabolic Dragonbreath Greataxe (Greater)",
+      "name": "地狱龙息巨斧（高等） Diabolic Dragonbreath Greataxe (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神圣、火焰、邪恶）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[fire]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神圣、火焰、邪恶）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[fire]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Magic Chalice (7th-Rank Essence Spell)": {
@@ -866,7 +866,7 @@
       "description": "<p><strong>触发</strong> 你的回合开始。</p><p><strong>需求</strong> 你处于昏暗光照或黑暗中，且未挥舞你的暗影武器。</p><hr><p>你瞬间从黑暗中拔出暗影武器。你 @UUID[Compendium.sf2e.actions.pvQ5rY2zrtPI614F]{交互} 以拔出你的暗影武器。</p>"
     },
     "Warping (Greater)": {
-      "name": "扭曲（高级） Warping (Greater)",
+      "name": "扭曲（高等） Warping (Greater)",
       "description": "<p>通过具有此符文之指环施放的法术可弯曲并以锐角变向，让你能避开盟友并击中拐角后的敌人。当你施放一道需要法术攻击掷骰之法术时，你可选择 15 尺内最多两个方格作为该法术新的起点。第二个方格须与第一个方格相距 15 尺以内。从该处确定法术之效果线与视野线，并判断生物对该法术是否具备掩蔽。法术目标仍须在所选方格之射程内。</p>"
     },
     "Conspirator Dragonbreath Bladed Scarf": {
@@ -874,7 +874,7 @@
       "description": "<p>这件 <em>+1 击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神秘, 毒素）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:15] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:23] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神秘, 毒素）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:23] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Arcane Duelist's Gloves (Greater)": {
-      "name": "奥术决斗者手套（高级） Arcane Duelist's Gloves (Greater)",
+      "name": "奥术决斗者手套（高等） Arcane Duelist's Gloves (Greater)",
       "description": "<p>这对白色手套之背面绣有一柄决斗手枪，其枪管沿无名指与食指延伸。你可花费 10 分钟将一柄法器枪吸纳入此绣枪，或取出已吸纳的物品，或更换为另一柄法器枪。一对奥术决斗者手套同时最多可容纳两柄法器枪。当你至少有一只手空闲时，你可如同持用之法器枪般激活已吸纳之法器枪——只需以绣枪所在之手指指向目标即可。</p>"
     },
     "Magic Amulet (8th-Rank Essence Spell)": {
@@ -940,7 +940,7 @@
       "description": "<p>你向法术之魔法框架注入少量鲜血以灌注可塑威能。你使用一个单一动作的塑法。当你施放该法术时，你的生命值减少等同于你以该塑法所修饰之法术的环级。此非伤害，因此不能被减少、抵抗或以任何其他方式减弱，否则法术失败。</p><hr /><p><strong>特殊</strong> 若你具备 @UUID[Compendium.pf2e.feats-srd.HASFgAZ7spYleeaq]{血术师入门}，你可改为消耗等同该法术环级的血法生命值。</p>"
     },
     "Diabolic Dragonbreath Spiked Chain": {
-      "name": "魔鬼龙息钉链 Diabolic Dragonbreath Spiked Chain",
+      "name": "地狱龙息钉链 Diabolic Dragonbreath Spiked Chain",
       "description": "<p>这件 <em>+1 击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神圣、火焰、邪恶）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:15] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[fire]] 伤害（@Check[reflex|dc:23] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神圣、火焰、邪恶）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[fire]] 伤害（@Check[reflex|dc:23] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Savior": {
@@ -988,7 +988,7 @@
       "description": "<p>你跨越传统与精质去呼唤不可能之物。从任意法术传统中、你能施放的法术环级中选择一道战斗形态法术。你视该法术为你传统之法术并获得使用权；纵使其并非 1 环法术，你也可以在每日准备期间将其选作你「聚合形态」之用。</p><hr /><p><strong>特殊</strong> 你可多次选取此专长，每次选择一道会赐予战斗形态之新法术。</p>"
     },
     "Horned Dragonbreath Longspear (Major)": {
-      "name": "智角龙息长矛（超级） Horned Dragonbreath Longspear (Major)",
+      "name": "智角龙息长矛（上等） Horned Dragonbreath Longspear (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（原初, 毒素）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（原初, 毒素）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Dragon Shift": {
@@ -1055,11 +1055,11 @@
       "description": "<p><strong>需求</strong> 你正持用你的暗影武器。</p><hr /><p>当你身处黑暗之中时，对暗影精质的掌控让你最为致命。你以暗影武器进行一次打击。若你与目标都处于昏暗光照或黑暗中，则该目标对你的此次打击措手不及。</p>"
     },
     "Immobilizing (Greater)": {
-      "name": "锁定（高级） Immobilizing (Greater)",
+      "name": "锁定（高等） Immobilizing (Greater)",
       "description": "<p>当你从佩戴此指环之手中爆发魔法时，便以魔法冰、石或木将敌人封住。每枚符文专精于冷冻、土、暗影或木之一，并因此获得相应特征。</p><p>当你以一道无持续时间且具该符文特征之法术攻击大成功时，目标除非以 @Check[dc:34|type:fortitude] 豁免成功，否则直至你下一回合结束 @UUID[Compendium.sf2e.conditions.xYTAsEpcJE1Ccni3]{缓慢1级}。</p><p>若你以第二道具备所选特征之法术攻击大成功命中已被「锁定」符文减缓的生物，该生物须再尝试一次 @Check[dc:34|type:fortitude|traits:incapacitation]。失败时，该生物 @UUID[Compendium.sf2e.conditions.xYTAsEpcJE1Ccni3]{缓慢2级}（替代缓慢 1）并将持续时间延长至你下一回合结束。大失败时，目标改为 @UUID[Compendium.sf2e.conditions.dTwPJuKgBQCMxixg]{石化} 1 分钟（此为失能效果）。</p>"
     },
     "Scourging (Greater)": {
-      "name": "鞭笞（高级） Scourging (Greater)",
+      "name": "鞭笞（高等） Scourging (Greater)",
       "description": "<p>以鞭笞指环施放的法术会在目标身上留下持续创伤。每枚符文专精于酸性、电击、火焰或物理伤害，指环获得伤害类型之特征；若伤害类型为物理，则获得「力场」特征。当你以一道无持续时间且造成该符文伤害类型之法术攻击大成功时，目标也承受 @Damage[2d10[@item.flags.sf2e.rulesSelections.scourging.damageType, persistent]] 持续伤害（与该法术伤害类型相同；若该法术造成物理伤害则改为流血伤害）。若该法术本就造成持续伤害，结束该持续伤害的 DC 增加 2。由「真言法术」修饰的法术攻击掷骰所造之伤害忽视目标抗力（包括此符文造成的持续伤害）。</p>"
     },
     "Magic Bell (5th-Rank Essence Spell)": {
@@ -1075,7 +1075,7 @@
       "description": "<p>你对法术内在运作的精通让你能从中分离出潜能小片，并独立指引每一片段。选择三道不同、非戏法、可以以 1 个动作施放的动态精通法术，并施放它们的 1 动作版本。如此做时，你只消耗一个法术位——使用所施法术中最高之环级。</p>"
     },
     "Adamantine Dragonbreath Maul (Greater)": {
-      "name": "精金龙息槌（高级） Adamantine Dragonbreath Maul (Greater)",
+      "name": "精金龙息槌（高等） Adamantine Dragonbreath Maul (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（原初）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[bludgeoning]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（原初）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[bludgeoning]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Advanced Rowdy": {
@@ -1091,7 +1091,7 @@
       "description": "<p>你与幻灵相处之经验让你于驾驭层面上颇为出色。你习得一道能召唤与你幻灵共享一项特征之生物的召唤法术，并将其永久加入你的法术目录而不计入目录之容量；该法术对你而言始终为标志法术。若召唤法术之层面与你幻灵有密切关联（例如你幻灵是野兽幻灵时的「召唤动物层面」之层面），即便其不与你幻灵共享特征，你也可选择之（由 GM 裁定）。</p>"
     },
     "Fortune Dragonbreath Rapier (Major)": {
-      "name": "命运龙息细剑（超级） Fortune Dragonbreath Rapier (Major)",
+      "name": "命运龙息细剑（上等） Fortune Dragonbreath Rapier (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（奥术、力场）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[force]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（奥术、力场）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[force]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Old-Mage's Echo": {
@@ -1143,7 +1143,7 @@
       "description": "<p>这件 <em>+1 击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（原初, 毒素）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:15] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:23] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（原初, 毒素）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:23] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Empyreal Dragonbreath Lance (Major)": {
-      "name": "天极龙息长枪（超级） Empyreal Dragonbreath Lance (Major)",
+      "name": "天极龙息长枪（上等） Empyreal Dragonbreath Lance (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神圣、火焰、灵魂）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[spirit]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神圣、火焰、灵魂）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[spirit]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Omen Dragonbreath Scimitar": {
@@ -1199,7 +1199,7 @@
       "description": "<p>你已修习以你的魔法将自身与盟友相系。当你选取此献身时，选择一名自愿、非仆从的盟友作为你的神秘组合搭档。作为此原型训练的一部分，你训练你的搭档掌握使用你能力之必要习惯与技法，让其能自动赐予效果；你的搭档无须花费自身任何专长。仅当你与你的搭档皆活着且具有意识时，你方可获得你神秘组合搭档原型专长之益处。你与你的搭档总是知晓对方所受任何状态。你获得 @UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.DCGRN0KjuuicApmh]{神秘链结} 自由动作。</p><p>@UUID[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.8LMwQ54HMAmRLLDK]{神秘搭档}</p><hr><p><strong>特殊</strong> 你从此原型获得之动作与活动具有与你用以满足该原型条件之施法传统相符之特征。</p>"
     },
     "Adamantine Dragonbreath Morningstar (Greater)": {
-      "name": "精金龙息流星锤（高级） Adamantine Dragonbreath Morningstar (Greater)",
+      "name": "精金龙息流星锤（高等） Adamantine Dragonbreath Morningstar (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（原初）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[bludgeoning]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（原初）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[bludgeoning]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Scepter of Energy Ablation": {
@@ -1227,7 +1227,7 @@
       "description": "<p>你将魔法之线穿过辉煌与热度之小门。</p><p><strong>小门特征</strong> 火焰、光照</p><p><strong>系链魔法</strong> 你所有的火焰法术均获得「光照」特征。当你以「火焰」特征之法术攻击成功，或一名生物对该法术豁免失败时，该生物承受 @Damage[@item.level[persistent,fire]]{持续火焰伤害}，等同该法术之环级。若该法术本就造成持续火焰伤害，则改为将持续火焰伤害提升此数值。</p><p><strong>压倒性小门</strong> 当你以「火焰」特征之法术造成伤害时，你可选择改造为灵魂伤害（替代火焰伤害）。你也可以以系链魔法将火焰伤害改造为灵魂伤害。当你以「光照」特征且需要豁免之法术时，目标在大失败时 1 轮内 @UUID[Compendium.sf2e.conditions.XgEqL1kFApUbl5Z2]{目盲}。</p>"
     },
     "Horned Dragonbreath Light Pick": {
-      "name": "智角龙息轻钉钩 Horned Dragonbreath Light Pick",
+      "name": "智角龙息轻型镐 Horned Dragonbreath Light Pick",
       "description": "<p>这件 <em>+1 击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（原初, 毒素）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:15] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:23] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（原初, 毒素）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:23] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Magic Tome (8th-Rank Essence Spell)": {
@@ -1275,7 +1275,7 @@
       "description": "<p><strong>触发</strong> 射程内一名生物受到持续流血伤害。</p><hr /><p>当目标的鲜血离开其身体时，你将其攥住并经空气虹吸至你身边。目标的触发流血伤害增加 4d4，且你获得等同他们所受总流血伤害的临时生命值，持续至你下一回合结束。</p><hr /><p><strong>高阶 (+1)</strong> 伤害增加 1d4。</p>"
     },
     "Conspirator Dragonbreath Dagger (Greater)": {
-      "name": "阴谋者龙息匕首（高级） Conspirator Dragonbreath Dagger (Greater)",
+      "name": "阴谋者龙息匕首（高等） Conspirator Dragonbreath Dagger (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神秘, 毒素）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神秘, 毒素）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Rumbustious Robes": {
@@ -1287,7 +1287,7 @@
       "description": "<p>你的魔宠可以以「交互」处置至多 1 体积之物品。当其使用「物品传递」时可以再以一个动作移动后再交付物品；当其使用「随侍」时可多取出一件物品。</p>"
     },
     "Diabolic Dragonbreath Spiked Chain (Major)": {
-      "name": "魔鬼龙息钉链（超级） Diabolic Dragonbreath Spiked Chain (Major)",
+      "name": "地狱龙息钉链（上等） Diabolic Dragonbreath Spiked Chain (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神圣、火焰、邪恶）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[fire]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神圣、火焰、邪恶）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[fire]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Unstable Draw": {
@@ -1299,7 +1299,7 @@
       "description": "<p>这件深色头巾被鲜血浸染并结成硬痂，已无法分辨它原先是什么颜色或图案。佩戴此头巾会增强你的嗅觉，但仅限于鲜血之气味。你获得 30 尺射程的模糊血感。血感让你能察觉正承受持续流血伤害、或处于濒死或受伤状态的生物。你也能察觉新近溅出的血液之独立水洼或液滴。GM 裁定下，无血生物不能被你的血感察觉。</p><p>当你以正承受持续流血伤害的遮蔽或隐蔽生物为目标时，平稳检定 DC 减少。遮蔽生物的平稳检定减至 4，隐蔽生物减至 8。</p>"
     },
     "Fortune Dragonbreath Greatpick (Greater)": {
-      "name": "命运龙息巨钉钩（高级） Fortune Dragonbreath Greatpick (Greater)",
+      "name": "命运龙息巨钉钩（高等） Fortune Dragonbreath Greatpick (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（奥术、力场）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[force]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（奥术、力场）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[force]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Magic Amulet (7th-Rank Essence Spell)": {
@@ -1405,7 +1405,7 @@
       "description": "<p>从 7 级起，当你以咒诵施放一道环级低于你当前精质抽取的法术时，你可将施法时间增加至 1 分钟；如此做且该法术无持续时间时，你不会减少你的精质抽取或精质池。</p><p>此外，你获得 @UUID[Compendium.pf2e-team-plus-magic.sf2e-items.LpUkBQ44fun0a4it]{更新终焉}，让你能在精质循环之后清除你咒诵之效果。请注意，若你的精质抽取被减至 0，你便无法施放精质法术，亦不能完成循环以使用「更新终焉」。</p>"
     },
     "Diabolic Dragonbreath Greataxe": {
-      "name": "魔鬼龙息巨斧 Diabolic Dragonbreath Greataxe",
+      "name": "地狱龙息巨斧 Diabolic Dragonbreath Greataxe",
       "description": "<p>这件 <em>+1 击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神圣、火焰、邪恶）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:15] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[fire]] 伤害（@Check[reflex|dc:23] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神圣、火焰、邪恶）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[fire]] 伤害（@Check[reflex|dc:23] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Gruesome Marionettist": {
@@ -1413,7 +1413,7 @@
       "description": "<p>你暂时夺取目标之鲜血控制权，以特定动作使其依你心意（而非其自身意愿）行动。从该生物可执行、且具备「攻击」、「操作」或「移动」特征之动作或活动中选择两项——其中一项为禁止，另一项为指定。若该生物执行禁止动作或活动，便承受 5d10 持续流血伤害。若该生物执行指定动作或活动，则其至下回合开始前对此法术之流血伤害免疫。</p><p><strong>大成功</strong> 目标不受影响。</p><p><strong>成功</strong> 该生物承受一半持续流血伤害，且法术于你下一回合开始时结束。</p><p><strong>失败</strong> 该生物承受全部持续流血伤害，法术持续整个时长。</p><p><strong>大失败</strong> 同失败，但该生物承受双倍持续流血伤害。</p><hr /><p><strong>高阶 (+1)</strong> 持续流血伤害增加 1d10。</p>"
     },
     "Diabolic Dragonbreath Spiked Chain (Greater)": {
-      "name": "魔鬼龙息钉链（高级） Diabolic Dragonbreath Spiked Chain (Greater)",
+      "name": "地狱龙息钉链（高等） Diabolic Dragonbreath Spiked Chain (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神圣、火焰、邪恶）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[fire]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神圣、火焰、邪恶）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[fire]] 伤害（@Check[reflex|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Advanced Acolyte": {
@@ -1493,7 +1493,7 @@
       "description": "<p>你已学会让被魔法所伤者流血。你获得 @UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.fZntOuJKiFAVWB3h]{流血法术} 塑法。</p>"
     },
     "Horned Dragonbreath Light Pick (Greater)": {
-      "name": "智角龙息轻钉钩（高级） Horned Dragonbreath Light Pick (Greater)",
+      "name": "智角龙息轻型镐（高等） Horned Dragonbreath Light Pick (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（原初, 毒素）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（原初, 毒素）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[poison]] 伤害（@Check[fortitude|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Form Eschar": {
@@ -1505,7 +1505,7 @@
       "description": "<p>义勇指环不知何故唤起昔日英雄与往时传奇人物所佩戴之指环的回响。</p><p><strong>激活——正义伸张</strong> <span class=\"action-glyph\">R</span>（圣洁）</p><p><strong>触发</strong> 你以由「真言法术」修饰的法术成功命中一名邪恶生物。</p><hr><p>你压制敌人之邪行。该生物 @UUID[Compendium.sf2e.conditions.MIRkyAjyBeXivMa7]{力竭2级}，直至你下一回合开始。</p>"
     },
     "Omen Dragonbreath Scimitar (Greater)": {
-      "name": "凶兆龙息弯刀（高级） Omen Dragonbreath Scimitar (Greater)",
+      "name": "凶兆龙息弯刀（高等） Omen Dragonbreath Scimitar (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（心灵、神秘）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（心灵、神秘）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Kinetic Tow": {
@@ -1525,7 +1525,7 @@
       "description": "<p>你可命令你的魔宠花费 2 个动作 @UUID[Compendium.sf2e.actions.EEDElIyin4z60PXx]{演出}，将其结果与一名观察者的意志 DC 比较。若你的魔宠成功，目标对其 @UUID[Compendium.sf2e.conditions.AdPVz7rbaVSRxHFg]{迷魂} 1 轮。若该观察者处于需要立即关注的情境（例如战斗），你的魔宠必须大成功才能令其迷魂，且此表演动作获得「失能」特征。在掷检定前你必须先选择你魔宠试图迷魂的生物；该目标随后于 1 小时内对此暂时免疫。</p>"
     },
     "Diabolic Dragonbreath Greataxe (Major)": {
-      "name": "魔鬼龙息巨斧（超级） Diabolic Dragonbreath Greataxe (Major)",
+      "name": "地狱龙息巨斧（上等） Diabolic Dragonbreath Greataxe (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（神圣、火焰、邪恶）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[fire]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（神圣、火焰、邪恶）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[fire]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Umbral Slayer": {
@@ -1569,7 +1569,7 @@
       "description": "<p>你变形为永恒者、神使、原蛟或冥魂。施放法术时，你可选择任一 @UUID[Compendium.pf2e-team-plus-magic.sf2e-journals.2ywfGZz3We3np1MB.JournalEntryPage.C6JZEcra03J2ysI4]{监督层面} 作为你的层面战斗形态。在此战斗形态中你具有手部，并可执行操作动作。</p><p>@UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.e2a8jTjyee5htlUZ]{法术效果：监督变形}</p><hr><p><strong>高阶</strong> 依 @UUID[Compendium.pf2e-team-plus-magic.sf2e-journals.JournalEntry.2ywfGZz3We3np1MB.JournalEntryPage.s5plpLZzwemVg4RC] 之规则。</p>"
     },
     "Mirage Dragonbreath Bec de Corbin (Major)": {
-      "name": "蜃景龙息长喙锤（超级） Mirage Dragonbreath Bec de Corbin (Major)",
+      "name": "蜃景龙息长喙锤（上等） Mirage Dragonbreath Bec de Corbin (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（奥术、情绪、心灵）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（奥术、情绪、心灵）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Umbral Escape": {
@@ -1625,7 +1625,7 @@
       "description": "<p>你能呼唤与你小门关联之生物，并令其为你而战。你获得一个与你最高环级相同的额外法术位，仅能用于施放一道与你小门关联之法术。你于获得此专长时选择该法术。</p><ul><li><p><strong>热忱</strong> @UUID[Compendium.sf2e.spells.hs7h8f4Z1ZNdUt3s]{召唤精类} 或 @UUID[Compendium.sf2e.spells.29ytKctjg7qSW2ff]{召唤魔族}（仅恶魔）</p></li><li><p><strong>气氛者</strong> @UUID[Compendium.sf2e.spells.lpT6LotUaQPfinjj]{召唤元素}（仅空气）或 @UUID[Compendium.sf2e.spells.lTDixrrNKaCvLKwX]{召唤天族}（仅阿扎塔）</p></li><li><p><strong>毁灭者</strong> @UUID[Compendium.sf2e.spells.lpT6LotUaQPfinjj]{召唤元素}（仅冷冻）或 @UUID[Compendium.sf2e.spells.e9UJoVYUd5kJWUpi]{召唤巨人}（仅霜巨人）</p></li><li><p><strong>侵蚀术</strong> @UUID[Compendium.sf2e.spells.lpT6LotUaQPfinjj]{召唤元素}（仅大地）或 @UUID[Compendium.sf2e.spells.lKcsmeOrgHtK4xQa]{召唤构装体}（仅石质构装体）</p></li><li><p><strong>造物者</strong> @UUID[Compendium.sf2e.spells.f8SBoXiXQjlCKqly]{幻象生物} 或 @UUID[Compendium.sf2e.spells.kghwmH3tQjMIhdH1]{召唤巨龙}（仅幻影龙）</p></li><li><p><strong>辉光者</strong> @UUID[Compendium.sf2e.spells.lpT6LotUaQPfinjj]{召唤元素}（仅火焰）或 @UUID[Compendium.sf2e.spells.lTDixrrNKaCvLKwX]{召唤天族}（仅圣使）</p></li><li><p><strong>磁力者</strong> @UUID[Compendium.sf2e.spells.lpT6LotUaQPfinjj]{召唤元素}（仅金属）或 @UUID[Compendium.sf2e.spells.lKcsmeOrgHtK4xQa]{召唤构装体}（仅金属构装体）</p></li><li><p><strong>死亡之触</strong> @UUID[Compendium.sf2e.spells.9WGeBwIIbbUuWKq0]{召唤亡灵} 或 @UUID[Compendium.sf2e.spells.ZbEHglw5tkJ3grQZ]{召唤监视者}（仅冥魂）</p></li><li><p><strong>推进器</strong> @UUID[Compendium.sf2e.spells.lpT6LotUaQPfinjj]{召唤元素}（仅水）或 @UUID[Compendium.sf2e.spells.kghwmH3tQjMIhdH1]{召唤巨龙}（仅命运龙）</p></li><li><p><strong>救主</strong> @UUID[Compendium.sf2e.spells.lTDixrrNKaCvLKwX]{召唤天族}（仅天使）或 @UUID[Compendium.sf2e.spells.kghwmH3tQjMIhdH1]{召唤巨龙}（仅天界龙）</p></li><li><p><strong>苍翠者</strong> @UUID[Compendium.sf2e.spells.jSRAyd57kd4WZ4yE]{召唤植物与真菌}（仅植物）或 @UUID[Compendium.sf2e.spells.lpT6LotUaQPfinjj]{召唤元素}（仅木）</p></li></ul>"
     },
     "Fortune Dragonbreath Greatpick (Major)": {
-      "name": "命运龙息巨钉钩（超级） Fortune Dragonbreath Greatpick (Major)",
+      "name": "命运龙息巨钉钩（上等） Fortune Dragonbreath Greatpick (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（奥术、力场）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[force]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（奥术、力场）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[force]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Bewilder": {
@@ -1673,11 +1673,11 @@
       "description": "<p>你于知识之深度更上层楼，深入魔法之神圣线索。你于已具备初始领域法术的领域之一中获得一道高阶领域法术。</p><hr /><p><strong>特殊</strong> 你可多次选取此专长。每次须选择一道不同的高阶领域法术。</p>"
     },
     "Adamantine Dragonbreath Maul (Major)": {
-      "name": "精金龙息槌（超级） Adamantine Dragonbreath Maul (Major)",
+      "name": "精金龙息槌（上等） Adamantine Dragonbreath Maul (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（原初）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[bludgeoning]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（原初）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[bludgeoning]] 伤害（@Check[reflex|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Mirage Dragonbreath Dancer's Spear (Greater)": {
-      "name": "蜃景龙息舞者之矛（高级） Mirage Dragonbreath Dancer's Spear (Greater)",
+      "name": "蜃景龙息舞者之矛（高等） Mirage Dragonbreath Dancer's Spear (Greater)",
       "description": "<p>这件 <em>+2 中阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（奥术、情绪、心灵）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:30] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:27] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（奥术、情绪、心灵）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:27] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Channel Essence Leak": {
@@ -1693,7 +1693,7 @@
       "description": "<p>当你成为你魔法精质之导管时，你便从构成你传统魔法之具体精质中获得额外益处。每当你使用 @UUID[Compendium.pf2e-team-plus-magic.sf2e-misc.GMpbfdVHBUaiIwSy]{精质导管} 时，依与你传统对应的两种精质之一（即你终焉动作所属之精质）选择一项益处。</p><p><strong>生命</strong> 你于下一回合结束前获得等同你等级的临时生命值。</p><p><strong>物质</strong> 你以最多速度一半之距离快步或行走（若你具备攀爬、游泳或飞行速度，可改为使用相应移动动作）。</p><p><strong>心智</strong> 你 @UUID[Compendium.sf2e.actions.1OagaWtBpVXExToo]{回忆知识}。</p><p><strong>灵魂</strong> 你 @UUID[Compendium.sf2e.actions.BlAOM2X92SI6HMtJ]{搜索}，并获得 30 尺射程之精魂感作为模糊感官，持续至你下一回合结束。精魂感让你能感知该射程内之生物精魂，包括活物、大多数有心智的不死生物以及灵祟。</p>"
     },
     "Omen Dragonbreath Scythe (Major)": {
-      "name": "凶兆龙息镰（超级） Omen Dragonbreath Scythe (Major)",
+      "name": "凶兆龙息镰（上等） Omen Dragonbreath Scythe (Major)",
       "description": "<p>这件 <em>+3 高阶击斩武器</em> 由经魔法冻结的龙息制成，其握柄由龙鳞缠绕。它们常由巨龙以其自身的喷吐武器与脱落龙鳞为其偏爱仆从锻造。该武器之武器类型、伤害类型，以及其激活的伤害类型、豁免与特征皆取决于其所用龙息之种类。GM 可视巨龙类型增添来自其他龙类、或形态独特（如线形或爆发）的龙息武器。该龙息武器每分钟可激活一次，使用以下激活之一。</p><div class=\"team-plus-statblock\"><p><strong>激活——释放龙息</strong>（心灵、神秘）<span class=\"action-glyph\">2</span></p><p>你以龙息武器划出一道弧形，将冻结的龙息释放至 @Template[cone|distance:60] 内，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:35] 豁免）。</p></div><div class=\"team-plus-statblock\"><p><strong>激活——喷涌</strong>（心灵、神秘）<span class=\"action-glyph\">2</span></p><p>你将龙息武器砸向地面，让龙息于 @Template[emanation|distance:5] 内爆发，造成 @Damage[((@item.system.runes.striking + 1) * 2)d6[mental]] 伤害（@Check[will|dc:35] 豁免）。</p></div><hr /><p><strong>特殊</strong> 若该龙息武器具有中阶击斩符文，激活之伤害提升至 6d6；若具有高阶击斩符文，则提升至 8d6。若该龙息武器具有 +2 威能符文，豁免 DC 提升至 27；若具有 +3 威能符文，则提升至 35。具备龙血多元传承、且其神源者与该龙息武器所用龙类相符的持用者，可选择以其职业 DC 与法术 DC 中较高者作为物品 DC。</p>"
     },
     "Advanced Skulker": {
