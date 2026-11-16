@@ -3153,6 +3153,10 @@
       "name": "鲶鱼 Catfish",
       "description": "<p>鲶鱼因其独特的胡须状须而得名，是垂钓者梦寐以求的渔获。鲶鱼最好用活饵捕捉，不过鲱鱼块和鸡肝也同样能带来成功。在厨师手中，鲶鱼在海鲜料理中大放异彩，无论是油炸至金黄完美，还是配以多种香草与香料煎烙，例如柠檬、莳萝和大蒜。</p>\n<p>Catfish, named for its distinctive whisker-like barbels, is a prized catch among anglers. Catfish are best caught using live bait, though herring chunks and chicken livers also yield success. In the hands of a chef, the catfish shines in seafood dishes, whether deep-fried to golden perfection or pan-seared with a medley of herbs and spices, such as lemon, dill, and garlic.</p>"
     },
+    "Pike": {
+      "name": "狗鱼 Pike",
+      "description": "<p>狗鱼这种独居的猎手，会一动不动地潜伏在水中，或藏身于茂密的水草丛里。当猎物进入触及范围时，它们会以突然、迅捷的猛冲发动攻击，用锋利如刀的牙齿咬住它们的目标。它们不仅会抓鱼，还会叼走水禽，甚至是小型农场动物。狗鱼是一种可怕的捕食者，既贪婪又不知疲倦。凭借其巨大的嘴巴与永不满足的食欲，狗鱼能长到惊人的体型，使大多数其他淡水鱼都相形见绌。</p>\n<p>Pikes, solitary hunters, lie motionless in the water or lurk within dense clusters of aquatic weeds. When prey comes within reach, they strike with a sudden, rapid lunge, seizing their target with razor-sharp teeth. They are known to snatch not just fish but also waterfowl and even small farm animals. The pike is a fearsome predator and is as relentless as they are voracious. With their large mouths and insatiable appetites, pike can grow to astonishing sizes, dwarfing most other freshwater fish.</p>"
+    },
     "Fruit Jam": {
       "name": "水果果酱 Fruit Jam",
       "description": "<p>果酱是通过将压碎或切碎的水果与糖混合制成的。各种类型的水果，包括无花果、葡萄、桃子、李子，甚至柠檬，都可以制成果酱。它的用途非常广泛，可以与乳制品混合，用作面包、饼干或蛋糕的配料，甚至还可以加入沙拉酱中。</p>\n<p>Fruit jam is created by combining crushed or chopped fruits with sugar. Various types of fruits, including figs, grapes, peaches, plums, and even lemons, can be transformed into jam. Its versatility is vast, as it can be mixed with dairy products, used as a topping for bread, biscuits, or cakes, or even incorporated into salad dressings.</p>"
@@ -3396,6 +3400,10 @@
     "Smith's Coin": {
       "name": "铁匠的硬币 Smith's Coin",
       "description": "<p>当顾客在专门商店（例如珠宝店或铁匠铺）下定制订单或委托时，会获得一枚刻有店铺标志的硬币。顾客的名字会被刻在硬币背面，并被要求在账册上签名。一旦物品被制作完成或已购得，持有人便可用该硬币进行交换来取回物品。该硬币的价值等同于所委托物品的费用。若硬币遗失或被盗，它将变得一文不值，并且只有合法所有者才能使用原始硬币取回该物品。</p>\n<p>When a customer places a custom order or commission at a specialty shop, such as a jewelry store or blacksmith, a coin bearing the shop's symbol is provided. The customer's name is etched on the back of the coin, and they are asked to sign a ledger. Once the item has been crafted or procured, the owner can retrieve it by trading in the coin. The value of the coin is equivalent to the cost of the commissioned item. If the coin is lost or stolen, it becomes worthless, and only the rightful owner can retrieve the item using the original coin.</p>"
+    },
+    "Goat": {
+      "name": "山羊 Goat",
+      "description": "<p>在大多数疆域中，山羊一直被用来获取奶、肉、毛皮和皮革。羊奶常被加工成羊奶酪，农民会以高价出售。其皮革与织物非常适合制作手套、鞋子和其他配饰，因此深受皮革工匠喜爱。</p>\n<p>Goats have been utilized for milk, meat, fur, and skins across most of the realms. Goat milk is often processed into goat cheese, and farmers sell it at a premium. The hide and fabric are perfect for making gloves, shoes, and other accessories, making it a favorite for leatherworkers.</p>"
     },
     "Carpet Beetle": {
       "name": "地毯甲虫 Carpet Beetle",
