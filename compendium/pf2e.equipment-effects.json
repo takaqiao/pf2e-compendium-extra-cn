@@ -10,8 +10,8 @@
       "description": "<p>由@UUID[Compendium.pf2e.equipment-srd.Item.53dn4PNE8muEC8Ep]{骨花玫瑰}赋予</p>\n<p>你获得40临时HP。只要其中至少还剩1临时HP，你的打击就对不死生物造成额外2点精魂伤害。</p>"
     },
     "Effect: Commander's Signet": {
-      "name": "效果：指挥官印戒 Effect: Commander's Signet",
-      "description": "<p>由@UUID[Compendium.pf2e.equipment-srd.Item.Mi9zCb0x3M40C0kL]{指挥官印戒}、@UUID[Compendium.pf2e.equipment-srd.Item.SxyhYuj3sl4CIxwJ]{将军印戒}赋予</p>\n<p>你的攻击检定、察觉检定、豁免与技能检定获得状态加值。对抗恐惧效果的豁免所获状态加值翻倍。</p>"
+      "name": "效果：指挥官印章 Effect: Commander's Signet",
+      "description": "<p>由@UUID[Compendium.pf2e.equipment-srd.Item.Mi9zCb0x3M40C0kL]{指挥官印章}、@UUID[Compendium.pf2e.equipment-srd.Item.SxyhYuj3sl4CIxwJ]{将军印章}赋予</p>\n<p>你的攻击检定、察觉检定、豁免与技能检定获得状态加值。对抗恐惧效果的豁免所获状态加值翻倍。</p>"
     },
     "Effect: Kindler Cameo": {
       "name": "效果：金德勒浮雕项坠 Effect: Kindler Cameo",

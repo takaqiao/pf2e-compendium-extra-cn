@@ -2234,7 +2234,7 @@
 		},
 		"Poisonous Cloak Type I": {
 			"name": "I型剧毒披风 Poisonous Cloak Type I",
-			"description": "<p>这件看起来无害的披风与一种毒素相关，具体由披风的创造者设定。在不知情的人看来，它是一件隐秘斗篷或蝙蝠披风。当你使用这件披风时，你会失去任何对毒素抗力，并且在战斗中任何时候你受到穿刺或挥砍伤害时，你都会暴露在与剧毒披风相关的毒素中，并且没有潜伏期，即使它不是伤害毒药也是如此。当诅咒第一次被激活，披风就会纠缠上你。</p>\n<p><strong>毒素</strong> 巨蝎毒</p>"
+			"description": "<p>这件看起来无害的披风与一种毒素相关，具体由披风的创造者设定。在不知情的人看来，它是一件隐秘斗篷或蝙蝠披风。当你使用这件披风时，你会失去任何对毒素抗力，并且在战斗中任何时候你受到穿刺或挥砍伤害时，你都会暴露在与剧毒披风相关的毒素中，并且没有潜伏期，即使它不是伤口毒素也是如此。当诅咒第一次被激活，披风就会纠缠上你。</p>\n<p><strong>毒素</strong> 巨蝎毒</p>"
 		},
 		"Static Snare": {
 			"name": "静电圈套 Static Snare",
@@ -4038,7 +4038,7 @@
 		},
 		"Poisonous Cloak Type II": {
 			"name": "II型剧毒披风 Poisonous Cloak Type II",
-			"description": "<p>这件看起来无害的披风与一种毒素相关，具体由披风的创造者设定。在不知情的人看来，它是一件隐秘斗篷或蝙蝠披风。当你使用这件披风时，你会失去任何对毒素抗力，并且在战斗中任何时候你受到穿刺或挥砍伤害时，你都会暴露在与剧毒披风相关的毒素中，并且没有潜伏期，即使它不是伤害毒药也是如此。当诅咒第一次被激活，披风就会纠缠上你。</p>\n<p><strong>毒素</strong> 狼毒乌头</p>"
+			"description": "<p>这件看起来无害的披风与一种毒素相关，具体由披风的创造者设定。在不知情的人看来，它是一件隐秘斗篷或蝙蝠披风。当你使用这件披风时，你会失去任何对毒素抗力，并且在战斗中任何时候你受到穿刺或挥砍伤害时，你都会暴露在与剧毒披风相关的毒素中，并且没有潜伏期，即使它不是伤口毒素也是如此。当诅咒第一次被激活，披风就会纠缠上你。</p>\n<p><strong>毒素</strong> 狼毒乌头</p>"
 		},
 		"Pocket Stage": {
 			"name": "口袋舞台 Pocket Stage",
@@ -10820,7 +10820,7 @@
 		},
 		"Necrobinding Serum": {
 			"name": "尸魂束缚血清 Necrobinding Serum",
-			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p>\n<hr />\n<p>这种强效的死灵血清是从寻求对其不死随从施加绝对控制的有智能的实体不死生物的尸体中提取出来的。<em>尸魂束缚血清</em>的原材料由创造者自己的肉和血与捣碎的真菌毒素混合而成的糊状物组成。确切的成分各有不同，但酿造尸魂束缚血清的行为通常被视为至少是令人厌恶的，而在许多社会中，被视为邪恶行为。尽管<em>尸魂束缚血清</em>不是毒药，但其传递方法与伤口型毒药相同——它被涂在武器上，然后用来攻击不死目标（活物接触到<em>尸魂束缚血清</em>不会受到额外影响）。当不死生物被一剂<em>尸魂束缚血清</em>作为目标时，必须尝试一次@Check[will|dc:19]豁免。</p>\n<hr />\n<p><strong>大成功</strong> 不死生物不受影响。</p>\n<p><strong>成功</strong> 不死生物短暂地感到迷惘；它对你发起的所有攻击掷骰都有-1状态减值，直到你下一轮开始。</p>\n<p><strong>失败</strong> 不死生物对你产生友好态度。如果它原本就是友好的，它变得乐于帮助。它不能对你采取敌对行动。对于无心智的不死生物，这种效果持续8小时。对于其他不死生物，效果获得心灵特征，并持续10分钟。</p>\n<p><strong>大失败</strong> 不死生物变得乐于帮助，并且不能对你采取敌对行动。对于无心智的不死生物，这种效果持续24小时。对于其他不死生物，效果获得心灵特征，并持续1小时。</p>\n<hr />\n<p><strong>制作需求</strong> 你必须是一个非虚体的不死生物，且血清必须加入你的一些血肉。</p>"
+			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互</p>\n<hr />\n<p>这种强效的死灵血清是从寻求对其不死随从施加绝对控制的有智能的实体不死生物的尸体中提取出来的。<em>尸魂束缚血清</em>的原材料由创造者自己的肉和血与捣碎的真菌毒素混合而成的糊状物组成。确切的成分各有不同，但酿造尸魂束缚血清的行为通常被视为至少是令人厌恶的，而在许多社会中，被视为邪恶行为。尽管<em>尸魂束缚血清</em>不是毒药，但其传递方法与伤口毒素相同——它被涂在武器上，然后用来攻击不死目标（活物接触到<em>尸魂束缚血清</em>不会受到额外影响）。当不死生物被一剂<em>尸魂束缚血清</em>作为目标时，必须尝试一次@Check[will|dc:19]豁免。</p>\n<hr />\n<p><strong>大成功</strong> 不死生物不受影响。</p>\n<p><strong>成功</strong> 不死生物短暂地感到迷惘；它对你发起的所有攻击掷骰都有-1状态减值，直到你下一轮开始。</p>\n<p><strong>失败</strong> 不死生物对你产生友好态度。如果它原本就是友好的，它变得乐于帮助。它不能对你采取敌对行动。对于无心智的不死生物，这种效果持续8小时。对于其他不死生物，效果获得心灵特征，并持续10分钟。</p>\n<p><strong>大失败</strong> 不死生物变得乐于帮助，并且不能对你采取敌对行动。对于无心智的不死生物，这种效果持续24小时。对于其他不死生物，效果获得心灵特征，并持续1小时。</p>\n<hr />\n<p><strong>制作需求</strong> 你必须是一个非虚体的不死生物，且血清必须加入你的一些血肉。</p>"
 		},
 		"Greatsword": {
 			"name": "巨剑 Greatsword",
@@ -12012,7 +12012,7 @@
 		},
 		"Poisonous Cloak Type IV": {
 			"name": "IV型剧毒披风 Poisonous Cloak Type IV",
-			"description": "<p>这件看起来无害的披风与一种毒素相关，具体由披风的创造者设定。在不知情的人看来，它是一件隐秘斗篷或蝙蝠披风。当你使用这件披风时，你会失去任何对毒素抗力，并且在战斗中任何时候你受到穿刺或挥砍伤害时，你都会暴露在与剧毒披风相关的毒素中，并且没有潜伏期，即使它不是伤害毒药也是如此。当诅咒第一次被激活，披风就会纠缠上你。</p>\n<p><strong>毒素</strong> 毒芹 hemlock</p>"
+			"description": "<p>这件看起来无害的披风与一种毒素相关，具体由披风的创造者设定。在不知情的人看来，它是一件隐秘斗篷或蝙蝠披风。当你使用这件披风时，你会失去任何对毒素抗力，并且在战斗中任何时候你受到穿刺或挥砍伤害时，你都会暴露在与剧毒披风相关的毒素中，并且没有潜伏期，即使它不是伤口毒素也是如此。当诅咒第一次被激活，披风就会纠缠上你。</p>\n<p><strong>毒素</strong> 毒芹 hemlock</p>"
 		},
 		"Ghostshot Wrapping": {
 			"name": "鬼灵射击裹布 Ghostshot Wrapping",
@@ -14686,7 +14686,7 @@
 		},
 		"Poisonous Cloak Type III": {
 			"name": "III型剧毒披风 Poisonous Cloak Type III",
-			"description": "<p>这件看起来无害的披风与一种毒素相关，具体由披风的创造者设定。在不知情的人看来，它是一件隐秘斗篷或蝙蝠披风。当你使用这件披风时，你会失去任何对毒素抗力，并且在战斗中任何时候你受到穿刺或挥砍伤害时，你都会暴露在与剧毒披风相关的毒素中，并且没有潜伏期，即使它不是伤害毒药也是如此。当诅咒第一次被激活，披风就会纠缠上你。</p>\n<p><strong>毒素</strong> 紫虫毒 purple worm venom</p>"
+			"description": "<p>这件看起来无害的披风与一种毒素相关，具体由披风的创造者设定。在不知情的人看来，它是一件隐秘斗篷或蝙蝠披风。当你使用这件披风时，你会失去任何对毒素抗力，并且在战斗中任何时候你受到穿刺或挥砍伤害时，你都会暴露在与剧毒披风相关的毒素中，并且没有潜伏期，即使它不是伤口毒素也是如此。当诅咒第一次被激活，披风就会纠缠上你。</p>\n<p><strong>毒素</strong> 紫虫毒 purple worm venom</p>"
 		},
 		"Rune of Sin (Envy)": {
 			"name": "原罪符文（嫉妒） Rune of Sin (Envy)",
@@ -15364,7 +15364,7 @@
 		},
 		"Injection Reservoir": {
 			"name": "注射储液槽 Injection Reservoir",
-			"description": "<p>这个储液槽装有弹簧的针头可以连接到武器上，让它能注入致命的毒药。此外，储液槽内可以装满一剂伤口毒药。在改修后的武器攻击成功命中之后，你能立即以交互动作启动储液槽，将装载的毒药注入目标。使用新的毒药重新装填储液槽需要3个交互动作，并是用两只手。</p>\n<p>在武器上添加储液槽会破坏武器的平衡，导致武器的多重攻击减值比原来多1点（通常第二次攻击-6，第三次攻击-11；灵巧武器的话第二次攻击-5，第三次攻击-10）。</p>"
+			"description": "<p>这个储液槽装有弹簧的针头可以连接到武器上，让它能注入致命的毒药。此外，储液槽内可以装满一剂伤口毒素。在改修后的武器攻击成功命中之后，你能立即以交互动作启动储液槽，将装载的毒药注入目标。使用新的毒药重新装填储液槽需要3个交互动作，并是用两只手。</p>\n<p>在武器上添加储液槽会破坏武器的平衡，导致武器的多重攻击减值比原来多1点（通常第二次攻击-6，第三次攻击-11；灵巧武器的话第二次攻击-5，第三次攻击-10）。</p>"
 		},
 		"Elixir of Life (Minor)": {
 			"name": "下等生命灵药 Elixir of Life (Minor)",
@@ -18614,7 +18614,7 @@
 		},
 		"Umbrella Injector": {
 			"name": "雨伞注射器 Umbrella Injector",
-			"description": "<p>这把伞的伞尖其实是个3到4寸长的中空的刀头，经常被人忽视为一种装饰。伞轴内的容器可以装载一剂伤口毒药（injury poison），并通过滑动的扳机将其注射到受伤目标的体内。加固的伞骨可以让你用雨伞结实的伞面去抵挡或偏转敌人的攻击。</p>"
+			"description": "<p>这把伞的伞尖其实是个3到4寸长的中空的刀头，经常被人忽视为一种装饰。伞轴内的容器可以装载一剂伤口毒素（injury poison），并通过滑动的扳机将其注射到受伤目标的体内。加固的伞骨可以让你用雨伞结实的伞面去抵挡或偏转敌人的攻击。</p>"
 		},
 		"Wand of Overflowing Life (3rd-Rank Spell)": {
 			"name": "3环级满溢生命魔杖 Wand of Overflowing Life (3rd-Rank Spell)",
@@ -21146,7 +21146,7 @@
 		},
 		"Protective Netting": {
 			"name": "防护网 Protective Netting",
-			"description": "<p>在充满蚊虫的区域作战的部队会在一顶宽檐平顶帽的边缘上挂上一张魔法薄纱网，以抵御集群生物的叮咬。当穿戴防护网时，如果你可能因一次攻击而曝露于疾病或伤口型毒素，可以尝试一次@Check[flat|dc:17]。成功时，你不会曝露。</p>\n<p><strong>启动—护网拍动 Flutter Net</strong> <span class=\"action-glyph\">r</span>（操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 集群进入了你的方格</p><hr /><p><strong>效果</strong> 你的防护网飞快地拍动着，驱散着集群。你在对抗来自集群效果的豁免骰上获得+1物品加值，持续1分钟。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.R1qtHjX6esNgNash]{效果：护网拍动 Flutter Net}</p>"
+			"description": "<p>在充满蚊虫的区域作战的部队会在一顶宽檐平顶帽的边缘上挂上一张魔法薄纱网，以抵御集群生物的叮咬。当穿戴防护网时，如果你可能因一次攻击而曝露于疾病或伤口毒素，可以尝试一次@Check[flat|dc:17]。成功时，你不会曝露。</p>\n<p><strong>启动—护网拍动 Flutter Net</strong> <span class=\"action-glyph\">r</span>（操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 集群进入了你的方格</p><hr /><p><strong>效果</strong> 你的防护网飞快地拍动着，驱散着集群。你在对抗来自集群效果的豁免骰上获得+1物品加值，持续1分钟。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.R1qtHjX6esNgNash]{效果：护网拍动 Flutter Net}</p>"
 		},
 		"Meteor Hammer": {
 			"name": "流星锤 Meteor Hammer",
@@ -21757,7 +21757,7 @@
 		},
 		"Darkening Poison": {
 			"name": "渐暗毒 Darkening Poison",
-			"description": "<p>许多卡利尼会随身携带几剂渐暗毒，这是一种罕见伤口毒，由幽暗地域的蜘蛛毒制作而成，可用来让敌人失能。</p>\n<hr />\n<p><strong>豁免检定</strong> @Check[fortitude|dc:16]</p>\n<p><strong>最大持续时间</strong> 6轮</p>\n<hr />\n<p><strong>阶段1</strong> @Damage[1d6[poison]]（1轮）</p>\n<p><strong>阶段2</strong> 1d6毒素，另外你只能用黑暗视觉看到生物且对你来说具有@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]（1轮）</p>\n<p><strong>阶段3</strong> 1d6毒素，另外你只能用黑暗视觉看到生物且对你来说处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]（1轮）.</p>"
+			"description": "<p>许多卡利尼会随身携带几剂渐暗毒，这是一种罕见伤口毒素，由幽暗地域的蜘蛛毒制作而成，可用来让敌人失能。</p>\n<hr />\n<p><strong>豁免检定</strong> @Check[fortitude|dc:16]</p>\n<p><strong>最大持续时间</strong> 6轮</p>\n<hr />\n<p><strong>阶段1</strong> @Damage[1d6[poison]]（1轮）</p>\n<p><strong>阶段2</strong> 1d6毒素，另外你只能用黑暗视觉看到生物且对你来说具有@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]（1轮）</p>\n<p><strong>阶段3</strong> 1d6毒素，另外你只能用黑暗视觉看到生物且对你来说处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]（1轮）.</p>"
 		},
 		"Last Hope": {
 			"name": "希望永延 Last Hope",
@@ -21896,8 +21896,8 @@
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span>（专注、操作）</p><hr /><p><em>骨花玫瑰</em>是一种蓝瓣玫瑰，常生长在法莱斯玛庇护的坟墓中，扎根于被埋葬骷髅的肋骨间。这类消耗品也可以像其他物品一样制作。启动<em>骨花玫瑰</em>时，你深深吸入花瓣的芬芳，同时紧握花茎，让荆棘刺入血肉，带来疼痛但不造成其他伤害。玫瑰随后枯萎、碎成尘埃，你获得40点临时生命值，持续1小时。只要你还剩至少1点这种临时生命值（且未被其他来源的临时生命值取代），你的打击就对亡灵额外造成2点精魂伤害。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.dQfUsEqT87Ib7tpn]{效果：骨花玫瑰}</p>"
 		},
 		"Commander's Signet": {
-			"name": "指挥官印戒 Commander's Signet",
-			"description": "<p><em>指挥官印戒</em>通常是一枚银戒，饰有富裕贵族家族的纹章，或佣兵团的徽记。乌斯塔拉夫闪耀远征期间，士兵常将其作为职务的象征佩戴，因此许多<em>指挥官印戒</em>带有奥罗登、阿拉兹尼或艾奥梅黛的图像；本冒险中找到的印戒则饰有阿鲁多拉家族纹章。印戒为用于@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}的交涉检定或用于@UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{胁迫}的威吓检定提供+1物品加值，并可启动以鼓舞附近目标的士气。</p><hr /><p><strong>启动——鼓舞勇气</strong> <span class=\"action-glyph\">2</span>（专注、操作、心灵）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你使接触的一个生物充满勇气与英雄般的信念，使其攻击检定、察觉检定、豁免检定和技能检定获得+1状态加值，持续1分钟。对抗恐惧效果的豁免所获状态加值翻倍。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.DTflIrRmXIZzaP5Z]{效果：指挥官印戒}</p>"
+			"name": "指挥官印章 Commander's Signet",
+			"description": "<p><em>指挥官印章</em>通常是一枚银戒，饰有富裕贵族家族的纹章，或佣兵团的徽记。乌斯塔拉夫闪耀远征期间，士兵常将其作为职务的象征佩戴，因此许多<em>指挥官印章</em>带有奥罗登、阿拉兹尼或艾奥梅黛的图像；本冒险中找到的印章则饰有阿鲁多拉家族纹章。印章为用于@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}的交涉检定或用于@UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{胁迫}的威吓检定提供+1物品加值，并可启动以鼓舞附近目标的士气。</p><hr /><p><strong>启动——鼓舞勇气</strong> <span class=\"action-glyph\">2</span>（专注、操作、心灵）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你使接触的一个生物充满勇气与英雄般的信念，使其攻击检定、察觉检定、豁免检定和技能检定获得+1状态加值，持续1分钟。对抗恐惧效果的豁免所获状态加值翻倍。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.DTflIrRmXIZzaP5Z]{效果：指挥官印章}</p>"
 		},
 		"Dazerien's Thumbscrew": {
 			"name": "达泽里恩的拇指夹 Dazerien's Thumbscrew",
@@ -21913,8 +21913,8 @@
 			"description": "<p>在冒险生涯中，埃拉盖尔·阿鲁多拉以莎琳神卫的身份声名远扬。他奉行辉煌事业，放弃了莎琳神卫常用的大砍刀，转而磨炼长剑与盾牌的技巧。得到莎琳祝福的是他的盾牌，但当他退隐、开始建造阿鲁多拉城堡时，佩剑<em>斩惧剑</em>或许已经是他最负盛名的宝物。他凭此剑斩杀无数亡灵与魔族，其中包括恐怖的恐亡魔沃明贡杜尔；这怪物曾多年折磨瓦尔诺西南边境的十二个小聚落，最终亡于此剑锋下。</p>\n<p><em>斩惧剑</em>是一柄<em>+2强击星魂命源长剑</em>；将其出鞘携带时，你在对抗恐惧效果的豁免中获得+2物品加值。当你用<em>斩惧剑</em>重击具有邪秽特征的生物时，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p><hr /><p><strong>启动——斩断恐惧</strong> <span class=\"action-glyph\">1</span>（神术、操作）</p>\n<p><strong>频率</strong> 每轮一次</p><hr /><p><strong>效果</strong> 你在一个惊惧生物附近的空中挥舞<em>斩惧剑</em>。使该生物的惊惧值降低1。</p><hr /><p><strong>启动——斩断残酷</strong> <span class=\"action-glyph\">2</span>（神术、操作）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你用力挥举<em>斩惧剑</em>，使剑对范围内一个邪秽目标施放5环@UUID[Compendium.pf2e.spells-srd.Item.3x6eUCm17n6ROzUa]{信念崩塌}（@Check[will|dc:29|options:item:type:spell|traits:concentrate,manipulate,mental]豁免）。</p>"
 		},
 		"General's Signet": {
-			"name": "将军印戒 General's Signet",
-			"description": "<p><em>将军印戒</em>通常是一枚银戒，饰有富裕贵族家族的纹章，或佣兵团的徽记。乌斯塔拉夫闪耀远征期间，士兵常将其作为职务的象征佩戴，因此许多<em>将军印戒</em>带有奥罗登、阿拉兹尼或艾奥梅黛的图像；本冒险中找到的印戒则饰有阿鲁多拉家族纹章。印戒为用于@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}的交涉检定或用于@UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{胁迫}的威吓检定提供+2物品加值，并可启动以鼓舞附近目标的士气。</p><hr /><p><strong>启动——鼓舞勇气</strong> <span class=\"action-glyph\">2</span>（专注、操作、心灵）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你使接触的一个生物充满勇气与英雄般的信念，使其攻击检定、察觉检定、豁免检定和技能检定获得+2状态加值，持续1分钟。对抗恐惧效果的豁免所获状态加值翻倍。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.DTflIrRmXIZzaP5Z]{效果：指挥官印戒}</p>"
+			"name": "将军印章 General's Signet",
+			"description": "<p><em>将军印章</em>通常是一枚银戒，饰有富裕贵族家族的纹章，或佣兵团的徽记。乌斯塔拉夫闪耀远征期间，士兵常将其作为职务的象征佩戴，因此许多<em>将军印章</em>带有奥罗登、阿拉兹尼或艾奥梅黛的图像；本冒险中找到的印章则饰有阿鲁多拉家族纹章。印章为用于@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}的交涉检定或用于@UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{胁迫}的威吓检定提供+2物品加值，并可启动以鼓舞附近目标的士气。</p><hr /><p><strong>启动——鼓舞勇气</strong> <span class=\"action-glyph\">2</span>（专注、操作、心灵）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你使接触的一个生物充满勇气与英雄般的信念，使其攻击检定、察觉检定、豁免检定和技能检定获得+2状态加值，持续1分钟。对抗恐惧效果的豁免所获状态加值翻倍。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.DTflIrRmXIZzaP5Z]{效果：指挥官印章}</p>"
 		},
 		"Graverose Garland": {
 			"name": "墓玫瑰花环 Graverose Garland",
