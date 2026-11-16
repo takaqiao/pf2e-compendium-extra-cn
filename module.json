@@ -41,6 +41,7 @@
     "scripts/journal-label4-compat.js",
     "scripts/basic-bootstrap.mjs",
     "scripts/eldamon-legends-display.js",
+    "scripts/eldamon-legends-gallery.mjs",
     "scripts/team-plus-display.mjs",
     "scripts/bob-compat.mjs",
     "scripts/bob-identity-compat.mjs",

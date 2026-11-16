@@ -306,6 +306,107 @@
     "Effect: Wind Barrier": {
       "name": "效果：风之屏障 Effect: Wind Barrier",
       "description": "<p>在1轮内，以你或30尺弥散范围内的盟友为目标的物理远程攻击，根据远程武器的大小承受环境减值。使用箭矢、弩矢、子弹或类似弹药的攻击承受–4环境减值，使用标枪等较大远程武器的攻击承受–2环境减值。巨型远程武器以及不依赖实体物件的法术效果可以穿过风势，不承受减值。</p>"
+    },
+    "Effect: Living Amber Nexus": {
+      "name": "效果：活琥珀枢纽 Effect: Living Amber Nexus",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.3n8yVb6xMO3Gnti5]{活琥珀枢纽（次等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.5jEwNqDW4uoxd9yy]{活琥珀枢纽（标准）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.6RI0o5cOupK4mEHB]{活琥珀枢纽（高等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.JupXMUDImxoSUwEx]{活琥珀枢纽（上等）}、@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-equipment.Item.80rGqOyBzKkFsP87]{活琥珀枢纽（至高）}授予</p><p>你的威能攻击检定获得物品加值。若来源角色已准备至少1只木爱达梦，而你是木爱达梦，你可以额外在与你已播种空间相邻的空间内播种。若你不是木爱达梦，则改为可以在刷新后使用的第一个威能的区域或目标中，选择一个空间播种。</p><p>若来源角色已准备至少2只木爱达梦，你可以在刷新后的第一个威能中选择两个空间播种。若你是木爱达梦，你获得虹吸元素动作。</p><p>若来源角色已准备至少3只木爱达梦，你可以在刷新后的第一个威能中选择三个空间播种，并获得植物与木抗力15。若你是木爱达梦，你获得强压元素动作。</p><p>若来源角色已准备至少3只木爱达梦，你可以在刷新后的第一个威能中选择四个空间播种。若你是木爱达梦，你获得涌动元素动作。</p>"
+    },
+    "Effect: Yggdrasil": {
+      "name": "效果：世界树 Effect: Yggdrasil",
+      "description": "<p>处于花瓣飘落区域内的盟友，其AC和所有豁免获得+2状态加值。</p>"
+    },
+    "Effect: Enervating Harvest": {
+      "name": "效果：汲力收获 Effect: Enervating Harvest",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-features.Item.6O7rTJGtYThZeNcH]{汲力收获}授予</p><p>你的下一次伤害掷骰承受–2状态减值。若来源角色的威能DC熟练等级为专家，此减值提高至–4；大师为–6；传奇为–8。</p>"
+    },
+    "Effect: Nature's Mantle": {
+      "name": "效果：自然斗篷 Effect: Nature's Mantle",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-features.Item.a06Ms8ggNfaCPIou]{自然斗篷}授予</p><p>你的AC和强韧豁免获得+1状态加值。若来源角色的威能DC熟练等级为传奇，此加值提高至+2。</p>"
+    },
+    "Effect: Inspiring Appearance": {
+      "name": "效果：鼓舞登场 Effect: Inspiring Appearance",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-features.Item.CYzD4yP4GhGrl343]{鼓舞登场}授予</p><p>你获得等同于来源角色等级一半的临时生命值。</p>"
+    },
+    "Effect: Replenishing Refresh": {
+      "name": "效果：滋养刷新 Effect: Replenishing Refresh",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.loqiZG9f4joQitWT]{滋养刷新}授予</p><p>你的豁免获得+1状态加值，各项速度获得+5尺状态加值，并获得等同于来源角色等级的临时生命值。</p><p>若来源角色或一名盟友的所在空间及相邻空间内，有至少四个方格长有来源角色播种的植物，豁免加值提高至+2，速度加值提高至+10尺。</p>"
+    },
+    "Effect: Inescapable Grasp": {
+      "name": "效果：铁攫难逃 Effect: Inescapable Grasp",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.TysbM6cBXXfmvATo]{铁攫难逃}授予</p><p>你的逃脱承受–4环境减值。</p>"
+    },
+    "Effect: Adhesive Flytraps": {
+      "name": "效果：黏性捕蝇草 Effect: Adhesive Flytraps",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.PBCdEnjeDJ2OeYBB]{黏性捕蝇草}授予</p><p>失败时，你的各项速度承受环境减值，直到你逃脱。大失败时，你改为陷入禁足。</p>"
+    },
+    "Effect: Regal Demeanor": {
+      "name": "效果：王者风范 Effect: Regal Demeanor",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-features.Item.ZDL6VzIGBPXFjZ2t]{王者风范}授予</p><p>若你是来源角色，你下一个威能的攻击检定获得加值。若你不是来源角色，你对抗来源角色下一个造成伤害的威能时，豁免承受减值。</p>"
+    },
+    "Effect: Flower Power": {
+      "name": "效果：花之力 Effect: Flower Power",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.fkR5hQ7pFqDtFtrs]{花之力}授予</p><p>你的各项速度承受环境减值。</p>"
+    },
+    "Effect: Vine Infestation": {
+      "name": "效果：藤蔓侵染 Effect: Vine Infestation",
+      "description": "<p>持续伤害存在期间，敌人的各项速度依据其豁免结果承受环境减值：成功为–5尺，失败为–10尺，大失败为–20尺。</p>",
+      "badgeLabels": {
+        "sourceId": "Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.Ze09I0NqNmXbfe6A",
+        "entries": [
+          {
+            "path": [
+              0
+            ],
+            "source": "Success",
+            "translation": "成功"
+          },
+          {
+            "path": [
+              1
+            ],
+            "source": "Failure",
+            "translation": "失败"
+          },
+          {
+            "path": [
+              2
+            ],
+            "source": "Critical Failure",
+            "translation": "大失败"
+          }
+        ]
+      }
+    },
+    "Effect: Harvest Shield": {
+      "name": "效果：收割护盾 Effect: Harvest Shield",
+      "description": "<p>对抗该攻击检定时，你的AC获得+2环境加值，且该加值持续至你下个回合开始。此外，对抗触发攻击时，你获得等于自身等级的钝击和穿刺伤害抗力。</p>",
+      "badgeLabels": {
+        "sourceId": "Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.kOeWHRvqMBA89ilG",
+        "entries": [
+          {
+            "path": [
+              0
+            ],
+            "source": "Harvest Shield",
+            "translation": "收割护盾"
+          },
+          {
+            "path": [
+              1
+            ],
+            "source": "Triggering Attack",
+            "translation": "触发攻击"
+          }
+        ]
+      }
+    },
+    "Effect: All Bark and Bite": {
+      "name": "效果：连皮带咬 Effect: All Bark and Bite",
+      "description": "<p>由@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.6HwtZupIiJ2QXh3R]{连皮带咬}授予</p><p>你某个效果的初始伤害获得环境加值。</p>"
+    },
+    "Effect: Gather Pollen": {
+      "name": "效果：采集花粉 Effect: Gather Pollen",
+      "description": "<p>目标的攻击检定、察觉检定和技能检定承受–1状态减值，持续1轮</p>"
     }
   },
   "folders": {
@@ -313,7 +414,8 @@
     "Conditions": "状态 Conditions",
     "Water": "水 Water",
     "Earth": "土 Earth",
-    "Air": "气 Air"
+    "Air": "气 Air",
+    "Wood": "木 Wood"
   },
   "mapping": {
     "badgeLabels": {

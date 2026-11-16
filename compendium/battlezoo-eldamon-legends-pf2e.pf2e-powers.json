@@ -510,6 +510,131 @@
     "Drifting Slash": {
       "name": "乘风斩击 Drifting Slash",
       "description": "<p>你乘风飘向前方，沿途斩击敌人。你行走一次，在移动途中任意时点对触及内的一个敌人进行@Check[type:eldamon-power-attack|defense:ac]{近战威能攻击}，造成@Damage[(2+@actor.level)d8[slashing]]伤害，结果取决于威能攻击检定。此移动不触发反应打击等因移动而触发的反应。</p><hr /><p><strong>大成功</strong> 你造成双倍挥砍伤害。</p><p><strong>成功</strong> 你造成正常挥砍伤害。</p><p><strong>失败</strong> 斩击落空，但附近气流擦过目标，造成@Damage[(2+@actor.level)[slashing]]伤害。</p><p><strong>大失败</strong> 斩击完全落空，目标不受伤害。</p><p><strong>等级（+1）</strong> 伤害增加1d8，失败时则增加1。</p>"
+    },
+    "Refreshing Field": {
+      "name": "复苏田野 Refreshing Field",
+      "description": "<p>你召引周围的木元素能量，在身边种下一片田地。你刷新威能，然后在自身周围30尺弥漫内播种。</p>"
+    },
+    "Cactus Sentinel": {
+      "name": "仙人掌哨兵 Cactus Sentinel",
+      "description": "<p>你召唤出一株长着简单面孔的巨大仙人掌，它会监视靠近的敌人，并把它们扎满尖刺。选择播种或收获。</p><p><strong>播种：</strong> 你在一处既没有敌人、也不与任何敌人相邻的区域播种一株巨大的仙人掌。仙人掌占据@Template[cube|distance:10]{10尺乘10尺}的空间，高10尺。生物可以穿过并占据仙人掌所在的空间，但该处为高等困难地形。敌人第一次移动到与仙人掌相邻的位置或进入仙人掌所在空间时，仙人掌会向自身周围@Template[emanation|distance:20]射出尖刺，对区域内所有敌人造成@Damage[(1+@actor.level)d8[piercing]|options:area-damage]{1d8穿刺伤害}，你每有一个等级，伤害再增加1d8穿刺伤害。射出尖刺后仙人掌仍会留存，但无法再次射出尖刺。</p><p><strong>收获：</strong> 你收获一处10尺乘10尺区域内的植物，制造一株瞬时的仙人掌哨兵并令其射出尖刺。其效果与播种时仙人掌射出尖刺相同，但会立即发生；只要有足够的植物可供收获，这株仙人掌也可以放在敌人之间。</p>"
+    },
+    "All Bark and Bite": {
+      "name": "连皮带咬 All Bark and Bite",
+      "description": "<p>你如同一副颌骨般张开双臂，使周围的植物长出参差的利齿，撕咬你面前锥形区域内的敌人。@Template[cone|distance:30]内的敌人受到@Damage[(1+@actor.level)d6[piercing]|options:area-damage]{1d6伤害}，你每有一个等级，伤害再增加1d6穿刺伤害，进行@Check[fortitude|against:eldamon|basic|options:area-effect]豁免。选择播种或收获。</p><p><strong>播种：</strong> 你在区域内播种的植物长着可疑的獠牙大嘴。若你为一个造成初始伤害的效果收获这些植物，该效果对位于长有獠牙植物空间内的生物造成的初始伤害（不包括持续伤害、持续造成的伤害或之后才造成的伤害）获得+2环境加值。若你的威能DC熟练等级为专家，此加值提高至+4；大师为+6；传奇为+8。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.oeMQZUqjujvKuUrI]{效果：连皮带咬}</p><p><strong>收获：</strong> 獠牙植物啃咬撕扯你的敌人，造成等于1加上你等级一半的@Damage[(1+floor(@actor.level/2))[persistent,bleed]]{持续流血伤害}，此伤害照常适用该威能的基础@Check[fortitude|against:eldamon|basic|options:area-effects,inflicts:persistent-damage]豁免。</p>"
+    },
+    "Enduring Verdure": {
+      "name": "不凋青翠 Enduring Verdure",
+      "description": "<p>你小心重排周围的木元素能量，不扰乱已播种的植物。你刷新威能，同时维持所有播种出的植物。如果之后以其他方式刷新，例如遭遇结束时自动刷新，这些植物仍会消失。</p>"
+    },
+    "Reaping Refresh": {
+      "name": "收割刷新 Reaping Refresh",
+      "description": "<p>你收割播下的植物，汲取木元素能量以刷新威能。所有位于你播种植物区域内的敌人受到@Damage[(1+@actor.level)[piercing]]伤害，进行@Check[reflex|against:eldamon|basic:true]豁免。然后你刷新威能。</p><hr /><p><strong>等级（+1）</strong>伤害增加1。</p>"
+    },
+    "Grasping Vines": {
+      "name": "攫握藤蔓 Grasping Vines",
+      "description": "<p><strong>触发</strong> 60尺内的一个敌人移动经过你可以收获的区域。</p>\n<hr />\n<p>你收获敌人周围的植物，使其化为攫握藤蔓，阻碍其移动。触发生物必须进行@Check[reflex|against:eldamon]豁免，效果如下。</p>\n<hr />\n<p><strong>大成功</strong> 生物不受影响。</p>\n<p><strong>成功</strong> 该生物正经过的空间变为高等困难地形，持续至其回合结束；其各项速度承受–5尺环境减值，持续至其回合结束，或对抗你的威能DC逃脱，以先发生者为准。</p>\n<p><strong>失败</strong> 如同成功，但你还打断触发的移动。</p>\n<p><strong>大失败</strong> 如同成功，但你还打断触发的移动，并使该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，持续至其回合结束，或对抗你的威能DC逃脱，以先发生者为准。</p>"
+    },
+    "Harvest Shield": {
+      "name": "收割护盾 Harvest Shield",
+      "description": "<p><strong>触发</strong> 一个生物以攻击将你作为目标，你能看见攻击者，且你所在空间或相邻空间内有可收获的植物。</p>\n<hr />\n<p>你收获植物，创造木盾来抵御伤害。你对抗触发攻击检定的AC获得+2环境加值，且该加值持续至你的下个回合开始。此外，对抗触发攻击时，你获得等同于等级的钝击和穿刺伤害抗力，因为植物依然活着，保护你的身体。</p>",
+      "selfEffectName": "效果：收割护盾 Effect: Harvest Shield"
+    },
+    "Retributive Sow": {
+      "name": "报复播种 Retributive Sow",
+      "description": "<p><strong>触发</strong> 一个生物以攻击命中你</p>\n<hr />\n<p>敌人以近战或远程攻击命中你时，你抓住短暂的联结，放出漂浮种子，以植物将其包围。你在该敌人所在空间及所有相邻空间播种。</p>"
+    },
+    "Yggdrasil": {
+      "name": "世界树 Yggdrasil",
+      "description": "<p>你培育出传说中的世界树幼苗，树干为半径20尺、高120尺的圆柱，树干顶部的枝叶延伸至半径最多60尺。如果垂直空间不足，或树干空间被生物或物品占据，幼苗便无法生长；枝叶则可按需要缩小，但半径最小为30尺。树干如常提供掩蔽，枝头绽放各色花朵并结出果实。</p><p>果实足以让至多50个中型生物吃一餐。花朵向枝叶下的所有空间洒落花瓣。世界树花瓣及其木元素能量如此奇妙，你可以在花瓣落下的所有地面空间任意次数地收获，无需先在区域内播种。</p><p>1分钟后，幼苗缩回地下消失。花瓣飘落区域内的盟友获得AC和所有豁免的+2状态加值。</p><hr /><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.42mebRmx1X1RcuCO]{效果：世界树}</p>"
+    },
+    "Demeter": {
+      "name": "得墨忒耳 Demeter",
+      "description": "<p><strong>需求</strong> 你是传奇爱达梦阿尔劳娜</p><hr /><p>你召唤赐予你力量的那件异界金饰中的奇异魔法，释放出一道令人联想到丰收女神的强力冲击。你收获500尺内所有你播种的植物，为金饰注入木元素能量，然后释放一道长1,200尺、宽40尺的线形冲击。你每收获一个方格的植物，区域内的敌人便受到@Damage[1d6[piercing]]伤害，至多@Damage[40d6[piercing]|shortLabel]，进行@Check[reflex|against:eldamon|basic|options:area-effect]豁免。</p>"
+    },
+    "Adhesive Flytraps": {
+      "name": "黏性捕蝇草 Adhesive Flytraps",
+      "description": "<p>你让强力的捕蝇草、茅膏菜和其他能以黏液困住猎物的植物环绕自身，然后放出它们大口吞食敌人。@Template[type:emanation|distance:40]内的敌人受到@Damage[(1+@actor.level)d6[piercing]|options:area-damage]{1d6穿刺伤害}，你每有一个等级，伤害再增加1d6穿刺伤害，进行@Check[reflex|against:eldamon|basic]豁免。选择播种或收获。</p><p><strong>播种：</strong> 你在自身周围播种捕蝇草和茅膏菜。除播种的通常效果外，在该区域内结束回合的生物必须成功通过@Check[reflex|against:eldamon|options:area-effect,inflicts:immobilized]豁免，否则各项速度承受–10尺环境减值，直到其逃脱；大失败时，其陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，直到其逃脱。</p><p><strong>收获：</strong> 你收获区域内的植物。位于有收获植物的空间内、且反射豁免失败的生物，各项速度承受–20尺环境减值，直到其逃脱。大失败时，其陷入禁足，直到其逃脱。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.XGhtwMUnDwKYD1UI]{效果：黏性捕蝇草}</p>"
+    },
+    "Padma": {
+      "name": "莲花 Padma",
+      "description": "<p>你唤出一片神话般的莲花，其近乎无穷的瓣面映照出千万亿种不同的可能，以及纯粹木元素能量的创造之力。@Template[type:emanation|distance:500]内的所有敌人受到@Damage[(1+@actor.level)d6[piercing]]伤害，进行@Check[will|against:eldamon|basic:true]豁免。</p>\n<p>在区域内播种漂浮的莲花，包括空中。这些莲花仅持续至你下个回合开始，但不会妨碍你或盟友的移动。</p>"
+    },
+    "Needle Storm": {
+      "name": "针雨风暴 Needle Storm",
+      "description": "<p>你唤出一场针刺风暴，刺穿敌人，并选择播种仙人掌或进行收获来强化风暴。针雨风暴充满你120尺内的一个@Template[type:burst|distance:20]。进入该区域或在其中开始回合的生物受到@Damage[(ceil(@actor.level/2))d6[piercing]]伤害。风暴持续至你刷新。</p><p>每个生物在其每个回合中只会因针雨风暴受到一次穿刺伤害，即使其在区域内开始回合后又进入该区域也是如此。</p><p>选择播种或收获。</p><ul><li><strong>播种：</strong> 你在区域内播种仙人掌。当你收获仙人掌时，任何位于仙人掌所在方格内或与仙人掌相邻的生物受到@Damage[(1+@actor.level)[piercing]]伤害。无论仙人掌有多少，每个生物每次收获只会受到一次此伤害。</li><li><strong>收获：</strong> 你在区域内进行收获，增加所有收获方格中的针刺数量。针雨风暴每轮在所有收获方格内额外造成@Damage[(@actor.level)[piercing]]伤害，数值等于你的等级。</li></ul><hr /><p><strong>等级（+1）</strong> 播种和收获的伤害增加1。</p><p><strong>等级（+2）</strong> 伤害增加1d6。</p>"
+    },
+    "Inescapable Grasp": {
+      "name": "铁攫难逃 Inescapable Grasp",
+      "description": "<p><strong>触发</strong> 60尺内的一个敌人在你可收获的植物之中或与其相邻时成功逃脱。</p><hr /><p>你收获一株植物，加固困住敌人的束缚，使其几乎不可能挣脱。该敌人必须以–4环境减值重骰这次@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}，并采用两次结果中较差的一个。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.W6mosbtjQ2arvNBV]{效果：铁攫难逃}</p>"
+    },
+    "Nature Overwhelming": {
+      "name": "自然压境 Nature Overwhelming",
+      "description": "<p>你向敌人体内灌注木元素能量，以其威势压倒敌人，并选择播种茂密植被，或收获大量植物压向敌人使其震慑。选择90尺内的一个生物。目标受到@Damage[(1+@actor.level)d6[piercing]]伤害，允许@Check[fortitude|against:eldamon|basic:true]豁免。</p><p>选择播种或收获。</p><ul><li><strong>播种：</strong> 你在该生物周围的@Template[type:emanation|distance:10]内播种，包括其占据空间，创造茂密且色彩鲜艳的植物，大幅阻碍移动。该区域成为高等困难地形，而非普通困难地形。当你收获这些茂密植物时，占据空间内有这些植物的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮。</li><li><strong>收获：</strong> 你收获该生物周围@Template[type:emanation|distance:20]内的植物，包括其占据空间内的植物，以使其震慑。强韧豁免不再是基础强韧豁免，而改为以下效果。</li></ul><hr /><p><strong>大成功</strong> 生物不受影响。</p><p><strong>成功</strong> 该生物受到一半伤害；只要你收获了至少三个方格的植物，它还会陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p><p><strong>失败</strong> 该生物受到全额伤害，并陷入震慑，震慑值为你每收获三个方格的植物获得1点，至多在收获至少九个方格时达到@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑3}。</p><p><strong>大失败</strong> 如同失败，但该生物受到双倍伤害，且震慑值至多可在收获至少十五个方格时达到@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑5}。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Roots of the Ancient Oak": {
+      "name": "远古橡树之根 Roots of the Ancient Oak",
+      "description": "<p>你使大片树根围绕自身，伤害敌人，并选择播种或收获来绊倒敌人。@Template[type:emanation|distance:60]{至多60尺的弥漫}内的敌人受到@Damage[(1+@actor.level)d6[piercing]]伤害，允许@Check[reflex|against:eldamon|basic:true]豁免。</p><p>选择播种或收获。</p><ul><li><strong>播种：</strong> 你在区域内播种。</li><li><strong>收获：</strong> 你在区域内收获。位于收获方格内且反射豁免成功（但非大成功）的敌人陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续至其下个回合开始；失败的敌人@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}；大失败的敌人倒地，并陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，持续1轮或直至其对抗你的威能DC成功@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}。</li></ul><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "1,000 Arboreal Warriors": {
+      "name": "1,000名树木战士 1,000 Arboreal Warriors",
+      "description": "<p>你令无数木质树人战士组成的队伍破土而出，奔腾冲锋并刺穿敌人，随后或扎根化树，或散开攻击更多敌人。战士在一个至多为@Template[type:burst|distance:20]的爆发范围内出现，其中心位于120尺内。区域内的敌人受到@Damage[(1+@actor.level)d6[piercing]]伤害，允许@Check[reflex|against:eldamon|basic:true]豁免。</p><p>选择播种或收获。</p><ul><li><strong>播种：</strong> 战士扎根成为树木。你在区域内播种，种下的树木提供标准掩蔽。</li><li><strong>收获：</strong> 你收获附近植物的能量，让战士冲向远处敌人。伤害提高至@Damage[(1+@actor.level)d8[piercing]]。你在区域内每收获一个有植物的方格，就有一名战士冲向区域外且距离区域200尺内的一个不同敌人；该敌人根据其基础反射豁免受到此威能的伤害。每个敌人只能受到此威能的一次伤害。</li></ul><hr /><p><strong>等级（+1）</strong> 伤害增加1d6，收获时则增加1d8。</p>"
+    },
+    "Imprison in Thorns": {
+      "name": "荆棘禁锢 Imprison in Thorns",
+      "description": "<p>你以活荆棘囚禁敌人。选择60尺内的一个敌人。目标受到的影响取决于其反射豁免。任何用来移除囚笼的交互动作或尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}囚笼的动作，都会使尝试该动作的生物受到@Damage[(ceil(@actor.level/2))[piercing]]伤害。</p><p>选择播种或收获。</p><ul><li><strong>播种：</strong> 你在目标周围的@Template[type:emanation|distance:10]内播种。</li><li><strong>收获：</strong> 你在敌人的占据空间或一个相邻方格内收获，增强荆棘囚笼的效果。用来移除囚笼的交互动作或尝试逃脱囚笼的动作，会使尝试该动作的生物受到等于你等级的穿刺伤害，而非等级的一半。</li></ul><hr /><p><strong>大成功</strong> 目标不受影响。</p><p><strong>成功</strong> 目标仅被稍微困住。目标陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，持续至其自身或另一个相邻生物花费一个交互动作移除囚笼。</p><p><strong>失败</strong> 目标被牢牢囚禁。目标陷入禁足，持续至其自身或另一个相邻生物累计花费两个交互动作移除囚笼，或目标对抗你的威能DC成功逃脱，以先发生者为准。失败的逃脱可抵作移除囚笼所需的一个交互动作。目标唯一能采取的动作，是用来移除囚笼的交互或逃脱动作。</p><p><strong>大失败</strong> 如同失败，但需要四个交互动作或对抗你的威能DC成功逃脱，而非两个交互动作。</p><hr /><p><strong>等级（+2）</strong> 伤害增加1。</p>"
+    },
+    "Debilitating Spore Cloud": {
+      "name": "衰弱孢子云 Debilitating Spore Cloud",
+      "description": "<p>你释放一大团孢子云，在接触生物、物体和地面时长出带刺的衰弱性增生物，伤害敌人并汲取其力量。孢子云飘过一个至多为@Template[type:burst|distance:30]的爆发区域，其中心位于120尺内。区域内的生物受到@Damage[(1+@actor.level)d6[piercing]]伤害，允许@Check[fortitude|against:eldamon|basic:true]豁免。</p><p>选择播种或收获。</p><ul><li><strong>播种：</strong> 你在区域内播种，使播种处的地面长出带刺的增生物。除播种的通常效果外，区域还成为有害地形，每个方格造成@Damage[1[piercing]]伤害。若你收获这些带刺的增生物，位于长有增生物方格内的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}，持续1轮。</li><li><strong>收获：</strong> 你收获附近植物，赋予其孢子汲取力量的能力。位于收获植物所在空间内且强韧豁免成功（但非大成功）的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}，持续1轮。失败时，其陷入力竭2，持续1轮；大失败时，其陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭4}，持续1轮。</li></ul><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Vine Infestation": {
+      "name": "藤蔓侵染 Vine Infestation",
+      "description": "<p>你令荆棘和藤蔓侵入敌人的身体，不断刺穿它，并选择在其周围播种植物，或收获来提高伤害并限制移动。选择60尺内的一个敌人。其受到@Damage[(ceil(@actor.level/2))d4[persistent,piercing]]伤害，允许@Check[fortitude|against:eldamon|basic:true]豁免。</p><p>选择播种或收获。</p><p><strong>播种：</strong> 你现在及目标每次受到持续穿刺伤害时，都在目标周围的@Template[type:emanation|distance:5]内播种，藤蔓从其体内长出，蔓延至周围地面。</p><p><strong>收获：</strong> 你在敌人的占据空间或一个相邻方格内收获，增强侵染效果。你每有两级，持续伤害便增加1（向上取整）；持续伤害存在期间，敌人的各项速度依豁免结果承受环境减值：成功时为–5尺，失败时为–10尺，大失败时为–20尺。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.Ze09I0NqNmXbfe6A]{效果：藤蔓侵染}</p><hr /><p><strong>等级（+2）</strong> 伤害增加1d4。</p>"
+    },
+    "Flower Power": {
+      "name": "花之力 Flower Power",
+      "description": "<p>你令花朵从敌人体内生长出来并刺穿其身体，然后选择播种使花朵留在其体内，或改为收获以缠住敌人。你对30尺内的一个生物造成@Damage[(2+@actor.level)d6[piercing]]{2d6穿刺伤害}，你每有一个等级，伤害再增加1d6穿刺伤害，进行@Check[fortitude|against:eldamon|basic]豁免。选择播种或收获。</p><p><strong>播种：</strong> 你播种花朵，使其留在敌人体内；除非敌人的强韧豁免大成功，否则这些播种的植物会随敌人一同移动。尽管困难地形随敌人移动，它只影响敌人每个移动动作的第一个方格；所有穿过敌人所在方格的生物也照常受其影响。</p><p><strong>收获：</strong> 你从敌人的占据空间内收获；除伤害外，敌人的各项速度依豁免结果承受环境减值：大失败时为–30尺，失败时为–20尺，成功时为–10尺，大成功则无减值。这些效果持续2轮，或直到其逃脱，以先发生者为准。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.YsK2eA2Jxl8uCkId]{效果：花之力}</p>"
+    },
+    "Spray of Rampant Leaves": {
+      "name": "狂叶喷涌 Spray of Rampant Leaves",
+      "description": "<p>你喷出锥形的狂乱飞叶，刺穿敌人，并选择播种新植物或收获植物来制造爆炸。@Template[type:cone|distance:60]内的生物受到@Damage[(1+@actor.level)d6[piercing]]伤害，具体效果取决于其@Check[reflex|against:eldamon]豁免。</p><p>选择播种或收获。</p><ul><li><strong>播种：</strong> 你在区域内播种。</li><li><strong>收获：</strong> 你在区域内收获，引发迸射更多飞叶的小型爆炸。你可以使任意收获方格产生@Template[type:emanation|distance:20]的爆炸。除你之外，任意爆炸区域内的生物依据其反射豁免受到此威能的伤害。每个生物只会受到此威能的一次伤害，即使同时处于主要区域和一次或多次爆炸中也是如此。</li></ul><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Replenishing Refresh": {
+      "name": "滋养刷新 Replenishing Refresh",
+      "description": "<p>你注入自己所播植物的能量，恢复盟友的体力。你和所有位于你播种植物区域内的盟友，豁免获得+1状态加值，各项速度获得+5尺状态加值，并获得等同于你等级的临时生命值；两者均持续1轮。</p><p>若你或一名盟友的所在空间及相邻空间内，有至少四个方格长有你播种的植物，豁免加值提高至+2，速度加值提高至+10尺。你刷新威能。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.VMleWS0HKWKMMqw0]{效果：滋养刷新}</p>"
+    },
+    "Gather Pollen": {
+      "name": "采集花粉 Gather Pollen",
+      "description": "<p>你在敌人周围汇聚尖锐花粉，选择播种能释放隐蔽花粉的花朵，或收获附近植物，以其致敏物质使敌人恶心。选择60尺内的一个敌人。目标受到@Damage[(1+@actor.level)d6[piercing]]伤害，允许@Check[fortitude|against:eldamon|basic:true]豁免。</p><p>选择播种或收获。</p><ul><li><strong>播种：</strong> 你在敌人周围的@Template[type:emanation|distance:10]内播种（包括其占据空间），创造大型花朵，只要花朵仍留在区域内，就会释放花粉云。与你播种的花朵位于同一空间的生物因花粉而@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，区域外的生物对区域内的生物也处于隐蔽状态。无论你在区域内外，这都不会使生物对你隐蔽。</li><li><strong>收获：</strong> 你在敌人的占据空间或一个相邻方格内收获，将植物化为更多致敏花粉，使敌人恶心。强韧豁免成功（但非大成功）时，目标的攻击检定、察觉检定和技能检定承受–1状态减值，持续1轮；失败时，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}；大失败时，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心3}。</li></ul><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.zSmLnnJTRlyS3Gvf]{效果：采集花粉}</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Final Harvest": {
+      "name": "最终收割 Final Harvest",
+      "description": "<p>你收获自己在周围广大区域内播种的植物。你必须收获。收获时，你可以任意选择自己在周围@Template[type:emanation|distance:200]内播种的植物进行收获。此威能无法收获其他植物。收获植物所在区域内的敌人受到@Damage[(1+@actor.level)d8[piercing]]伤害，允许@Check[reflex|against:eldamon|basic:true]豁免。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d8。</p>"
+    },
+    "Enfolding Roots": {
+      "name": "环抱树根 Enfolding Roots",
+      "description": "<p>你以大片树根环绕自身，伤害敌人，并选择播种或收获来提供掩蔽。你造成@Damage[(1+@actor.level)d6[piercing]]伤害，影响@Template[type:emanation|distance:20]内的所有敌人，结果取决于其@Check[reflex|against:eldamon|basic:true]豁免。</p><p>选择播种或收获。</p><ul><li><strong>播种：</strong> 你在区域内播种。</li><li><strong>收获：</strong> 你在区域内收获，将收获的树根和植物化为环抱的屏障，为你和盟友（但不为敌人）提供标准@UUID[Compendium.pf2e.other-effects.Item.I9lfZUiCwMiGogVi]{掩蔽}，持续2轮。</li></ul><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Ambush": {
+      "name": "伏击 Ambush",
+      "description": "<p>你令一丛灌木出其不意地破土刺出，提供对抗敌人的掩蔽，并可能令敌人失衡。120尺内一个15尺乘15尺方形区域内的生物受到@Damage[(1+@actor.level)d6[piercing]]伤害，允许@Check[reflex|against:eldamon|basic:true]豁免。</p><p>选择播种或收获。</p><ul><li><strong>播种：</strong> 你在区域内播种，创造灌木；只要灌木仍存在，就能为你和盟友（但不为敌人）提供次等掩蔽。若你收获这丛灌木的方格，区域内的敌人陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续至你下个回合结束。</li><li><strong>收获：</strong> 你在区域内收获。除非豁免大成功，否则区域内敌人陷入措手不及，持续至你下个回合结束。</li></ul><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Stiffening Pine Shot": {
+      "name": "僵化松针射击 Stiffening Pine Shot",
+      "description": "<p>你向敌人射出松针弹幕，选择在其周围播种，或收获附近植物使其身体僵硬。对60尺内的一个敌人进行@Check[type:eldamon-power-attack|defense:ac]{远程威能攻击检定}，造成@Damage[(2+@actor.level)d6[piercing]]伤害。</p><p>选择播种或收获。</p><ul><li><strong>播种：</strong> 除大失败之外的任何结果，都会让你在敌人占据空间周围的10尺弥漫内播种，包括敌人的占据空间。</li><li><strong>收获：</strong> 你在敌人的占据空间或一个与其相邻的空间内收获。攻击检定失败（但非大失败）时，敌人陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}，持续1轮；成功时，敌人陷入笨拙1，持续2轮；大成功时，敌人陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}，持续2轮。</li></ul><hr /><p><strong>大成功</strong> 你对目标造成双倍穿刺伤害。</p><p><strong>成功</strong> 你对目标造成正常穿刺伤害。</p><p><strong>失败</strong> 你不造成伤害，但射击仍会根据你选择播种或收获而产生效果。</p><p><strong>大失败</strong> 射击完全落空。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d6。</p>"
+    },
+    "Spike Seeds": {
+      "name": "尖刺种子 Spike Seeds",
+      "description": "<p>你沿直线释放带刺的种子，刺穿敌人。你造成@Damage[(1+@actor.level)d4[piercing]]伤害，影响@Template[type:line|distance:30]内的所有生物，具体效果取决于其@Check[reflex|against:eldamon]豁免。</p><p>3级时，你使用尖刺种子时可以选择将线形范围延长至@Template[type:line|distance:35]；此后每2级，线形范围可再延长5尺，至多在19级时达到75尺。</p><p>选择播种或收获。</p><ul><li><strong>播种：</strong> 尖刺种子长成植物。你在区域内所有方格播种。</li><li><strong>收获：</strong> 你收获区域内植物，使其爆裂，喷出大量尖刺种子。占据空间内有收获植物的生物，额外受到等于2加上你等级两倍的穿刺伤害。</li></ul><hr /><p><strong>大成功</strong> 生物不受影响。</p><p><strong>成功</strong> 生物受到一半伤害。</p><p><strong>失败</strong> 该生物受到全额伤害。</p><p><strong>大失败</strong> 该生物受到双倍伤害。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d4。</p>"
+    },
+    "Fungal Growth": {
+      "name": "真菌滋生 Fungal Growth",
+      "description": "<p>你令附近的一个敌人身上爆发出大片带刺的真菌；若附近的其他敌人抵挡不住这场侵染，真菌便会蔓延到它们身上。选择60尺内的一个敌人，造成@Damage[(1+@actor.level)d6[piercing]]{1d6穿刺伤害}，你每有一个等级，伤害再增加1d6穿刺伤害，具体效果取决于其@Check[fortitude|against:eldamon|options:damaging-effect]豁免。选择播种或收获。</p><p><strong>播种：</strong> 你根据目标的强韧豁免结果在区域内播种真菌。占据空间内有这些真菌的敌人，只要仍在区域内，强韧豁免便承受–1环境减值（由于真菌此前尚未出现在其空间内，此减值不适用于其对抗真菌滋生的豁免）。</p><p><strong>收获：</strong> 你收获目标所在空间内的一株植物（目标所在空间内必须有植物才能选择收获），然后根据目标的强韧豁免结果收获区域内的植物。真菌在区域内敌人的体内继续生长，使其受到等于1加上你等级一半的@Damage[(1+floor(@actor.level/2))[persistent,piercing]]{持续穿刺伤害}，此伤害照常适用该威能的@Check[fortitude|against:eldamon|options:damaging-effect,inflicts:persistent-damage]豁免。</p><hr /><p><strong>大成功</strong> 目标不受影响，真菌也不会蔓延。</p><p><strong>成功</strong> 目标受到一半伤害，真菌在其周围@Template[emanation|distance:15]内蔓延，使区域内的敌人受到真菌滋生的伤害，进行@Check[fortitude|against:eldamon|basic|options:area-effect]豁免。</p><p><strong>失败</strong> 如同成功，但目标受到全额伤害，且真菌蔓延至@Template[emanation|distance:30]内。</p><p><strong>大失败</strong> 如同成功，但目标受到双倍伤害，且真菌蔓延至@Template[type:emanation|distance:45]内。</p>"
+    },
+    "Piercing Branch": {
+      "name": "穿刺树枝 Piercing Branch",
+      "description": "<p>你从身体或附近植物中伸出树枝，如木桩般刺穿敌人。对触及内的一个敌人进行@Check[type:eldamon-power-attack|defense:ac]{近战威能攻击检定}，造成@Damage[(2+@actor.level)d8[piercing]]伤害。</p><p>选择播种或收获。</p><ul><li><strong>播种：</strong> 你在目标所在方格或一个与其相邻的方格内播种。</li><li><strong>收获：</strong> 你收获30尺内一个空间的植物，将其化为攻击用的树枝。你改为对收获空间内或与其相邻的敌人进行此近战攻击，而非触及内的目标。</li></ul><hr /><p><strong>大成功</strong> 你造成双倍穿刺伤害。</p><p><strong>成功</strong> 你造成正常穿刺伤害。</p><p><strong>失败</strong> 你仅擦伤目标，造成@Damage[(2+@actor.level)[piercing]]伤害。</p><p><strong>大失败</strong> 树枝完全落空，目标不受伤害。</p><hr /><p><strong>等级（+1）</strong> 伤害增加1d8，失败时则增加1。</p>"
     }
   },
   "folders": {
@@ -517,7 +642,8 @@
     "Water": "水 Water",
     "Fire": "火焰 Fire",
     "Earth": "土 Earth",
-    "Air": "气 Air"
+    "Air": "气 Air",
+    "Wood": "木 Wood"
   },
   "mapping": {
     "selfEffectName": "system.selfEffect.name",

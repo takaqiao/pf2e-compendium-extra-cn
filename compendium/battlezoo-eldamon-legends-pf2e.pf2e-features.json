@@ -252,6 +252,58 @@
     "Windrider": {
       "name": "乘风者 Windrider",
       "description": "<p>驾驭周围的气流，你获得了真正飞行的能力。你获得40尺飞行速度，并在进行@UUID[Compendium.pf2e.actionspf2e.Item.Qf1ylAbdVi1rkc8M]{空中机动}的特技检定上获得+2环境加值。</p>"
+    },
+    "Enervating Harvest": {
+      "name": "汲力收获 Enervating Harvest",
+      "description": "<p>当你收获木元素能量时，你强悍的体魄会令敌人动摇。当你收获的区域内至少有一名敌人时，选择区域内的一名敌人，使其在你的下个回合结束前的下一次伤害掷骰承受–2状态减值。若你的威能DC熟练等级为专家，此减值提高至–4；大师为–6；传奇为–8。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.6rKtU73OJ9YasYxV]{效果：汲力收获}</p>"
+    },
+    "Elegant Decorations": {
+      "name": "优雅装饰 Elegant Decorations",
+      "description": "<p>当你播种植物时，你创造的临时枝叶会闪烁光点，照亮区域内的生物，这份光芒源自你与光元素的联系。你播种的区域充满你所选颜色的昏暗光照。你播种植物时位于区域内的生物陷入辉光状态，直到其离开该区域（若其处于隐形状态，则改为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}；由于光芒随其而行，它们无法借助隐蔽来@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{躲藏}或@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}，并且在没有掩蔽或隐蔽的开阔处以能力进行躲藏或潜行时承受–4环境减值。它们仍可照常借助掩蔽躲藏和潜行）。</p>"
+    },
+    "Can't Stand to Lose": {
+      "name": "不甘落败 Can't Stand to Lose",
+      "description": "<p>你无法接受在激烈的较量中落败，会竭尽全力挤出最后一点体力继续战斗。当你因伤害降至0生命值时，你改为保持1生命值。此后1天内，你无法再从不甘落败中获益。</p>"
+    },
+    "Inspiring Appearance": {
+      "name": "鼓舞登场 Inspiring Appearance",
+      "description": "<p>你的登场能鼓舞他人。当你在遭遇中首次进入相位时，或在遭遇开始时若你已处于相位中，选择10尺内的一名盟友，使其获得等同于你等级一半的临时生命值。这些临时生命值持续1轮。若你的威能DC熟练等级为大师，你可以选择两名盟友获得这些临时生命值；若为传奇，你可以让10尺内的所有盟友获得这些临时生命值。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.EZs473omHy8yyb2O]{效果：鼓舞登场}</p>"
+    },
+    "Sow Spikes": {
+      "name": "播撒尖刺 Sow Spikes",
+      "description": "<p>当你播种植物时，可以让它们长出荆棘。不具有植物或木特征的生物在其回合中第一次行走穿过你以威能播种的区域时，受到@Damage[1[bleed]]伤害。若你的威能DC熟练等级为专家，此伤害提高至@Damage[1d4[bleed]]；大师为@Damage[1d6[bleed]|shortLabel]；传奇为@Damage[1d8[bleed]|shortLabel]。若你播种的植物同时在空中形成困难地形，飞行或攀爬穿过其中的生物也会受到这项持续流血伤害。</p>"
+    },
+    "Bow to Nature": {
+      "name": "礼敬自然 Bow to Nature",
+      "description": "<p>无论你多么高贵，你都明白自然界更加高贵。你可以用一个具有专注特征的单动作向自然鞠躬致意，草木与岩石也会向你回礼。你获得@UUID[Compendium.pf2e.other-effects.Item.I9lfZUiCwMiGogVi]{标准掩蔽}，直到你的下个回合开始，除非你位于没有任何天然地形或地貌的区域；你播种的植物足以让你使用礼敬自然。</p>"
+    },
+    "Regal Demeanor": {
+      "name": "王者风范 Regal Demeanor",
+      "description": "<p>你优雅而庄重的举止，能慑服注视你的人。当你使用@UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{演出}动作时，你可以选择30尺内的一个生物，将你的结果与目标的意志DC比较。成功时，你在本回合结束前使用的下一个造成伤害的威能，其攻击检定获得+1状态加值；若该威能改为要求豁免，则目标的豁免承受–1状态减值。大成功时，加值提高至+2，减值提高至–2。无论结果如何，目标在10分钟内暂时免疫你的王者风范。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.YRedIbE7jmapo9GU]{效果：王者风范}</p>"
+    },
+    "Nature's Mantle": {
+      "name": "自然斗篷 Nature's Mantle",
+      "description": "<p>当你收获木元素能量时，你会分出一部分获得的力量来帮助他人。在你使用威能并选择收获后，位于你收获区域内的盟友，AC和强韧豁免获得+1状态加值，持续1轮。若你的威能DC熟练等级为传奇，你的盟友改为获得+2状态加值。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.BUP0wofPaJRMvw6w]{效果：自然斗篷}</p>"
+    },
+    "Warning Sparks": {
+      "name": "警示火花 Warning Sparks",
+      "description": "<p>你金饰中迸出的刺人火花，警告敌人你能带来怎样的麻烦。你可以用一个具有专注特征的动作放出微弱的火花，持续至你的下个回合开始。在此期间，于你相邻处结束回合的敌人受到等于你等级一半的@Damage[(floor(@actor.level/2))[piercing]|options:area-effect]{穿刺伤害}，对抗你的威能DC进行@Check[will|against:eldamon|basic|options:area-effect,inflicts:frightened]豁免；大失败时，该生物还会陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}，且只要它与你相邻，就无法将此惊惧状态降到1以下。</p>"
+    },
+    "Wood Element": {
+      "name": "木元素 Wood Element",
+      "description": "<p>木元素体现了自然生长，在整个植物界随处可见。因此，木元素专注于生长类威能：在战场上播种植物以逐步积蓄力量，之后再收获这些植物以获得更强的效果。木元素使用者学会顺应生长的自然循环，在播种与收获之间取得平衡，以发挥最大效果。</p>\n<p><strong>关联伤害类型：</strong> 穿刺</p>\n<p><strong>关联特征：</strong> 植物，木</p>\n<h2>木元素关键术语</h2>\n<p>你几乎会在每个木元素威能中看到以下一个或两个术语。木元素威能通常会让你选择播种或收获。</p>\n<p><strong>播种：</strong> 当你选择播种时，你会让临时的枝叶或其他植物萌发，萌发地点为威能中列出的位置，默认则为威能的区域。你在地面上播种植物。长有这些植物的区域总是困难地形，并且可能依威能具有不同效果；这些植物会持续存在，直到你收获它们、它们被摧毁或你刷新，以先发生者为准。范围效果造成的火焰或冰霜伤害会摧毁你在该区域内播种的植物。你可以在本来就长有天然植物的区域播种，但如果你在已经播种过的区域再次播种，则不会产生额外效果；若其中一次或两次播种的植物依威能具有额外效果，你可以在重叠区域选择保留其中一种效果，但不能两者兼得。</p>\n<p><strong>收获：</strong> 你只能在你已播种植物的区域，或天然植被茂密到足以造成困难地形的区域选择收获；否则，你必须在使用威能时选择播种。你不能使用其他生物的法术或能力所播种的植物。若你收获以木元素威能播种的植物，它们会消失；若你从天然植被中收获，植被仍会保留，但由于植物的木元素能量需要恢复，你在24小时内不能再从该处收获。通常，当你为某个威能进行收获时，该威能会因收获而给予你一项特殊增益，但某些威能会注明，以其播种的植物在被收获时具有额外增益。此时，你收获该植物时会同时获得两种增益。</p>\n<h2>其他能力</h2>\n<p>若你的元素是木，你从元素涌动动作、元素护盾动作，以及效果随元素变化的元素化身专长中获得以下能力与效果。</p>\n<p><strong>元素移行</strong> 植物会为你让路，使你能轻松穿行其中。你忽略植物与真菌造成的所有困难地形和高等困难地形，例如灌木、藤蔓和林下植被。即使是受魔法操纵的植物与真菌，也不会阻碍你前进。</p>\n<p><strong>元素操控</strong> 使用元素操控时，你可以对周围不属于生物的植物施加轻微影响，帮助它们健康生长，使花蕾或花朵绽放，让植物枯萎，等等。主持人可以酌情允许你进行其他类似的细微调整。</p>\n<p><strong>元素抗力</strong> 植物攻击你时会有所保留。你对植物生物，以及具有植物或木特征的效应所造成的伤害，获得等于等级一半的抗力。如果你拥有强化抗力专长，智力为–4或–5的植物生物通常不会攻击你，除非受到其他生物的强迫。</p>\n<p><strong>元素塑形师</strong> 使用元素塑形师专长时，你对植物的塑形和位置控制能力比元素操控更强。你可以将区域内的植物塑造成粗略的形状与构造，每次影响20尺内大致一个10尺乘10尺的方形区域；花费更多时间，或许能塑造更大的雕塑。你也可以移动提供困难地形或掩蔽的植物，清出通路或设置障碍，包括你以木元素威能播种的植物。主持人可以酌情允许你对植物进行其他类似调整。</p>\n<p><strong>元素感官</strong> 你获得苍翠视野，能看穿活着的植物（但不能看穿木墙、木门及类似物体），如同它们是半透明的一般，从而看见另一侧的事物。</p>\n<p><strong>元素护盾</strong> 如果你的占据空间内（大型或更大体型时，任一占据空间内）有可收割的植物，当敌人攻击你且结果恰好达到你的护甲等级时，你可以用自由动作收割自身占据空间内的所有植物，将护甲等级环境加值提高至2；如果你是手持元素护盾的元素化身，则提高至3。判定此次触发攻击的结果时，就会将提高后的环境加值计入你的护甲等级，这通常会使攻击未命中。</p>\n<p><strong>元素涌动</strong> 你在5尺弥漫范围内，或30尺内一处5尺爆发区域中播种。</p>\n<p><strong>强化移行</strong> 当你使用威能创造植物后，你可以将自己化为木元素能量，在植物之间穿行。你可以用一个具有移动特征的单动作，暂时化为木元素能量，再出现在你以威能播种的植物所在空间或其相邻空间中；无论选择哪种空间，都必须位于60尺内。你仍须与植物之间具有效应线，并能用精确感官察觉到它，但不必穿过途中各方格，因此可以避开障碍物与有害地形；这次移动也不会触发由移动引发的反应。</p>"
+    },
+    "Gripping Hands": {
+      "name": "紧握之手 Gripping Hands",
+      "description": "<p>你的强韧DC对抗@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}或@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}你的尝试时获得+2环境加值，你的反射DC对抗摔绊你的尝试时也获得此加值。此加值同样适用于对抗试图使你@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}的法术或效果的豁免。此外，若任何效果将迫使你离开所在空间，你可以使用一个反应抵消这次移动。</p>"
+    },
+    "Defensive Quills": {
+      "name": "护身棘刺 Defensive Quills",
+      "description": "<p>以近战无武装打击或不具有触及的近战打击命中你的生物，受到等于你等级一半（至少1）的@Damage[(max(1,(floor(@actor.level / 2))))[piercing]]{穿刺伤害}，对抗你的威能DC进行@Check[reflex|against:eldamon|basic]豁免。</p>"
+    },
+    "Sucker Feet": {
+      "name": "吸盘足 Sucker Feet",
+      "description": "<p>你的脚具有吸附力，能让你攀附在物体表面。你获得等于陆地速度一半的攀爬速度。在进化形态下，你的第二对手臂末端也长有吸盘，使你的攀爬速度提高至等于陆地速度。</p>"
     }
   },
   "folders": {

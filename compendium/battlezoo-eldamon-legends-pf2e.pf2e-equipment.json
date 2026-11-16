@@ -264,19 +264,76 @@
       "name": "飓风权杖（上等） Hurricane Scepter (Major)",
       "description": "<p>这根细长、带有凹槽的权杖仿佛由凝固的云朵构成，受无形之风吹拂。权杖使你以气元素威能进行的威能攻击掷骰获得+3物品加值。</p><p>当你使用气元素威能移动时，你可以额外移动至多15尺。你可以启动权杖，以你的威能DC施放@UUID[Compendium.pf2e.spells-srd.Item.dDiOnjcsBFbAvP6t]{风击术}戏法；若你还拥有《战斗动物园：爱达梦》中的强化法术专长，你会将权杖的物品加值加到该权杖的<em>风击术</em>戏法伤害掷骰上。</p><p>移动期间，你的AC获得+2状态加值，无论该移动是否来自气元素威能。你以尺数表示射程的气元素威能，其射程额外延长50%；此增益可与阿奈尔克斯的气之延展累加，使射程总计变为两倍，但不影响区域大小。</p>",
       "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "Living Amber Nexus (Lesser)": {
+      "name": "活琥珀枢纽（次等） Living Amber Nexus (Lesser)",
+      "description": "<p>这颗挂在项链上的发光琥珀球体内，封存着被认为早已在当今绝迹的古代植物标本。若你是爱达梦训练家，当你绑定枢纽时，你的爱达梦的威能攻击检定获得+1物品加值。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.2dJ8cLP8ZrcTMts5]{效果：活琥珀枢纽}</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "Living Amber Nexus (Standard)": {
+      "name": "活琥珀枢纽（标准） Living Amber Nexus (Standard)",
+      "description": "<p>这颗挂在项链上的发光琥珀球体内，封存着被认为早已在当今绝迹的古代植物标本。若你是爱达梦训练家，当你绑定枢纽时，你的爱达梦的威能攻击检定获得+1物品加值。</p><p>只要你准备的爱达梦中有至少1只木爱达梦，你的木爱达梦就可以额外在一个与其已播种空间相邻的空间内播种，你的非木爱达梦则可以在刷新后使用的第一个威能的区域或目标中，选择一个空间播种。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.2dJ8cLP8ZrcTMts5]{效果：活琥珀枢纽}</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "Living Amber Nexus (Greater)": {
+      "name": "活琥珀枢纽（高等） Living Amber Nexus (Greater)",
+      "description": "<p>这颗挂在项链上的发光琥珀球体内，封存着被认为早已在当今绝迹的古代植物标本。若你是爱达梦训练家，当你绑定枢纽时，你的爱达梦的威能攻击检定获得+2物品加值。</p><p>只要你准备的爱达梦中有至少1只木爱达梦，你的木爱达梦就可以额外在两个与其已播种空间相邻的空间内播种，你的非木爱达梦则可以在刷新后使用的第一个威能的区域或目标中，选择一个空间播种。</p><p>若你准备的爱达梦中有至少两只木爱达梦，你的非木爱达梦可以在刷新后的第一个威能中选择两个空间播种，你的木爱达梦则获得元素化身职业的虹吸元素动作。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.2dJ8cLP8ZrcTMts5]{效果：活琥珀枢纽}</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "Living Amber Nexus (Supreme)": {
+      "name": "活琥珀枢纽（至高） Living Amber Nexus (Supreme)",
+      "description": "<p>这颗挂在项链上的发光琥珀球体内，封存着被认为早已在当今绝迹的古代植物标本。若你是爱达梦训练家，当你绑定枢纽时，你的爱达梦的威能攻击检定获得+3物品加值。</p><p>只要你准备的爱达梦中有至少1只木爱达梦，你的木爱达梦就可以额外在三个与其已播种空间相邻的空间内播种，你的非木爱达梦则可以在刷新后使用的第一个威能的区域或目标中，选择一个空间播种。</p><p>若你准备的爱达梦中有至少两只木爱达梦，你的非木爱达梦可以在刷新后的第一个威能中选择两个空间播种，你的木爱达梦则获得元素化身职业的虹吸元素动作。</p><p>若你准备的爱达梦中有至少三只木爱达梦，你的非木爱达梦可以在刷新后的第一个威能中选择三个空间播种，并获得植物与木抗力15；你的木爱达梦则获得元素化身同名专长的强压元素动作。</p><p>当你绑定枢纽时，你的魅力调整值提升1，或提升至+4，取结果较高者；若你是以智力为关键属性的爱达梦研究者，你可以改为使智力获得这些益处。</p><p>若你准备的爱达梦中有至少四只木爱达梦，你的非木爱达梦可以在刷新后的第一个威能中选择四个空间播种，你的木爱达梦则获得元素化身同名专长的涌动元素动作。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.2dJ8cLP8ZrcTMts5]{效果：活琥珀枢纽}</p><hr /><p><em>Foundry注：若你是爱达梦研究者，且关键属性为智力，你可以前往此物品的详情标签页，将其巅峰属性改为智力。</em></p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "World Tree Scepter (Major)": {
+      "name": "世界树权杖（上等） World Tree Scepter (Major)",
+      "description": "<p>这根坚固的木制权杖由活木长成，取材的树木随类型而愈发古老、愈具魔力；杖身遍布随季节变化的枝叶与花朵。权杖使你以木元素威能进行的威能攻击检定获得+3物品加值。</p><p>当你以木元素威能播种时，可以额外在两个与你已播种空间相邻的空间内播种。你可以启动权杖，以你的威能DC施放@UUID[Compendium.pf2e.spells-srd.Item.9I8mp7RkjeXbkYfx]{倒木术}戏法；若你还拥有《战斗动物园：爱达梦》中的强化法术专长，你会将权杖的物品加值加到该权杖的<em>倒木术</em>戏法伤害掷骰上。</p><p>在收获或刷新后，你的植物残迹会保留到你的下个回合，在此之前仍视为困难地形（但你无法再次收获它们）。</p><p>即使你选择收获且你的植物位于区域内，你也可以选择不收获它们。</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object",
+      "unidentifiedDescription": "这个物体的性质尚不明确。"
+    },
+    "Living Amber Nexus (Major)": {
+      "name": "活琥珀枢纽（上等） Living Amber Nexus (Major)",
+      "description": "<p>这颗挂在项链上的发光琥珀球体内，封存着被认为早已在当今绝迹的古代植物标本。若你是爱达梦训练家，当你绑定枢纽时，你的爱达梦的威能攻击检定获得+3物品加值。</p><p>只要你准备的爱达梦中有至少1只木爱达梦，你的木爱达梦就可以额外在三个与其已播种空间相邻的空间内播种，你的非木爱达梦则可以在刷新后使用的第一个威能的区域或目标中，选择一个空间播种。</p><p>若你准备的爱达梦中有至少两只木爱达梦，你的非木爱达梦可以在刷新后的第一个威能中选择两个空间播种，你的木爱达梦则获得元素化身职业的虹吸元素动作。</p><p>若你准备的爱达梦中有至少三只木爱达梦，你的非木爱达梦可以在刷新后的第一个威能中选择三个空间播种，并获得植物与木抗力15；你的木爱达梦则获得元素化身同名专长的强压元素动作。</p><p>@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.2dJ8cLP8ZrcTMts5]{效果：活琥珀枢纽}</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object"
+    },
+    "World Tree Scepter (Lesser)": {
+      "name": "世界树权杖（次等） World Tree Scepter (Lesser)",
+      "description": "<p>这根坚固的木制权杖由活木长成，取材的树木随类型而愈发古老、愈具魔力；杖身遍布随季节变化的枝叶与花朵。权杖使你以木元素威能进行的威能攻击检定获得+1物品加值。</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object",
+      "unidentifiedDescription": "这个物体的性质尚不明确。"
+    },
+    "World Tree Scepter (Supreme)": {
+      "name": "世界树权杖（至高） World Tree Scepter (Supreme)",
+      "description": "<p>这根坚固的木制权杖由活木长成，取材的树木随类型而愈发古老、愈具魔力；杖身遍布随季节变化的枝叶与花朵。权杖使你以木元素威能进行的威能攻击检定获得+3物品加值。</p><p>当你以木元素威能播种时，可以额外在两个与你已播种空间相邻的空间内播种。你可以启动权杖，以你的威能DC施放@UUID[Compendium.pf2e.spells-srd.Item.9I8mp7RkjeXbkYfx]{倒木术}戏法；若你还拥有《战斗动物园：爱达梦》中的强化法术专长，你会将权杖的物品加值加到该权杖的<em>倒木术</em>戏法伤害掷骰上。</p><p>在收获或刷新后，你的植物残迹会保留到你的下个回合，在此之前仍视为困难地形（但你无法再次收获它们）。</p><p>即使你选择收获且你的植物位于区域内，你也可以选择不收获它们。</p><p>当你绑定权杖时，你的感知调整值提高1，或提高至+4，取结果较高者。你播种的植物成为高等困难地形，而非困难地形。若它们本来就是高等困难地形（例如通过@UUID[Compendium.battlezoo-eldamon-legends-pf2e.pf2e-powers.Item.WpTWruyw0nnaz2Px]{自然压境}威能），则改为需要消耗四个方格的移动，而非高等困难地形通常的三个方格。</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object",
+      "unidentifiedDescription": "这个物体的性质尚不明确。"
+    },
+    "World Tree Scepter (Greater)": {
+      "name": "世界树权杖（高等） World Tree Scepter (Greater)",
+      "description": "<p>这根坚固的木制权杖由活木长成，取材的树木随类型而愈发古老、愈具魔力；杖身遍布随季节变化的枝叶与花朵。权杖使你以木元素威能进行的威能攻击检定获得+2物品加值。</p><p>当你以木元素威能播种时，可以额外在两个与你已播种空间相邻的空间内播种。你可以启动权杖，以你的威能DC施放@UUID[Compendium.pf2e.spells-srd.Item.9I8mp7RkjeXbkYfx]{倒木术}戏法；若你还拥有《战斗动物园：爱达梦》中的强化法术专长，你会将权杖的物品加值加到该权杖的<em>倒木术</em>戏法伤害掷骰上。</p><p>在收获或刷新后，你的植物残迹会保留到你的下个回合，在此之前仍视为困难地形（但你无法再次收获它们）。</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object",
+      "unidentifiedDescription": "这个物体的性质尚不明确。"
+    },
+    "World Tree Scepter (Standard)": {
+      "name": "世界树权杖（标准） World Tree Scepter (Standard)",
+      "description": "<p>这根坚固的木制权杖由活木长成，取材的树木随类型而愈发古老、愈具魔力；杖身遍布随季节变化的枝叶与花朵。权杖使你以木元素威能进行的威能攻击检定获得+1物品加值。</p><p>当你以木元素威能播种时，可以额外在一个与你已播种空间相邻的空间内播种。你可以启动权杖，以你的威能DC施放@UUID[Compendium.pf2e.spells-srd.Item.9I8mp7RkjeXbkYfx]{倒木术}戏法；若你还拥有《战斗动物园：爱达梦》中的强化法术专长，你会将权杖的物品加值加到该权杖的<em>倒木术</em>戏法伤害掷骰上。</p>",
+      "unidentifiedName": "不寻常的物体 Unusual Object",
+      "unidentifiedDescription": "这个物体的性质尚不明确。"
     }
   },
   "folders": {
     "Implements of Water": "水之器具 Implements of Water",
     "Implements of Fire": "火之器具 Implements of Fire",
     "Implements of Earth": "土之器具 Implements of Earth",
-    "Implements of Air": "气之器具 Implements of Air"
+    "Implements of Air": "气之器具 Implements of Air",
+    "Implements of Wood": "木之器具 Implements of Wood"
   },
   "mapping": {
     "unidentifiedName": "system.identification.unidentified.name",
     "ruleTexts": {
       "path": "system.rules",
       "converter": "eldamon-legends-rule-text"
-    }
+    },
+    "unidentifiedDescription": "system.identification.unidentified.data.description.value"
   }
 }

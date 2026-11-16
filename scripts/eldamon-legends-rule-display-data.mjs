@@ -114,6 +114,57 @@ export const ELDAMON_RULE_DISPLAY_BINDINGS = [
     "translation": "海洋洪流"
   },
   {
+    "sourceId": "Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.Ze09I0NqNmXbfe6A",
+    "itemType": "effect",
+    "itemSlug": "effect-vine-infestation",
+    "ruleIndex": 0,
+    "rule": {
+      "key": "FlatModifier",
+      "selector": "speed",
+      "value": -5,
+      "predicate": [
+        "self:effect:vine-infestation:1"
+      ],
+      "type": "circumstance",
+      "label": "Vine Infestation (Success)"
+    },
+    "translation": "藤蔓侵染（成功）"
+  },
+  {
+    "sourceId": "Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.Ze09I0NqNmXbfe6A",
+    "itemType": "effect",
+    "itemSlug": "effect-vine-infestation",
+    "ruleIndex": 1,
+    "rule": {
+      "key": "FlatModifier",
+      "selector": "speed",
+      "value": -10,
+      "predicate": [
+        "self:effect:vine-infestation:2"
+      ],
+      "type": "circumstance",
+      "label": "Vine Infestation (failure)"
+    },
+    "translation": "藤蔓侵染（失败）"
+  },
+  {
+    "sourceId": "Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.Ze09I0NqNmXbfe6A",
+    "itemType": "effect",
+    "itemSlug": "effect-vine-infestation",
+    "ruleIndex": 2,
+    "rule": {
+      "key": "FlatModifier",
+      "selector": "speed",
+      "value": -20,
+      "predicate": [
+        "self:effect:vine-infestation:3"
+      ],
+      "type": "circumstance",
+      "label": "Vine Infestation (Critical Failure)"
+    },
+    "translation": "藤蔓侵染（大失败）"
+  },
+  {
     "sourceId": "Compendium.battlezoo-eldamon-legends-pf2e.pf2e-effects.Item.bIefoFLc8f59bJl6",
     "itemType": "effect",
     "itemSlug": "effect-rushing-current-high-tide",
@@ -210,6 +261,31 @@ export const ELDAMON_RULE_DISPLAY_BINDINGS = [
       "label": "Unrelenting Tide"
     },
     "translation": "不息潮汐"
+  },
+  {
+    "sourceId": "Compendium.battlezoo-eldamon-legends-pf2e.pf2e-eldamon.Item.3eEPlpoDSlZ1OnIa",
+    "itemType": "ancestry",
+    "itemSlug": "sundo",
+    "ruleIndex": 14,
+    "rule": {
+      "category": "unarmed",
+      "damage": {
+        "base": {
+          "damageType": "piercing",
+          "dice": 1,
+          "die": "d4"
+        }
+      },
+      "group": "brawling",
+      "img": "icons/consumables/plants/thorned-curled-vine-green.webp",
+      "key": "Strike",
+      "label": "Bladed Frond",
+      "traits": [
+        "agile",
+        "finesse"
+      ]
+    },
+    "translation": "刃叶"
   },
   {
     "sourceId": "Compendium.battlezoo-eldamon-legends-pf2e.pf2e-eldamon.Item.Kr0e2WlBjWycOJFw",
