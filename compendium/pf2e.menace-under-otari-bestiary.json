@@ -1904,7 +1904,7 @@
 			}
 		},
 		"Horned Dragon (Juvenile, BB)": {
-			"name": "角龙（幼龙） Horned Dragon (Juvenile, BB)",
+			"name": "幼年智角龙 Horned Dragon (Juvenile, BB)",
 			"items": {
 				"Horn": {
 					"name": "角 Horn"
@@ -1935,7 +1935,7 @@
 					"description": "<p>当巨龙以打击大成功时，重新充能其毒液吐息。</p>"
 				}
 			},
-			"prototypeToken": "角龙（幼龙）",
+			"prototypeToken": "幼年智角龙",
 			"data": {
 				"placeHolder": "placeHolder"
 			}
