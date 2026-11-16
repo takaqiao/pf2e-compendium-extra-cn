@@ -18030,10 +18030,6 @@
 			"name": "标记圈套 Marking Snare",
 			"description": "<p>这个圈套能用来标记闯入者，以便接下来的追踪和辨识工作。当你制造这个圈套时，你必须决定使用颜色标记还是气味标记。哪一种标记方法都会为@UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]该生物的检定提供+2环境加值，持续24小时或直到标记物被洗去（洗去标记物需要使用10加仑的水清洗10分钟）。一个进入圈套格子的生物必须进行一次@Check[reflex|showDC:all|dc:17]豁免。</p><hr /><p><strong>成功</strong> 该生物不受影响</p>\n<p><strong>失败</strong> 圈套成功标记该生物</p>\n<p><strong>大失败</strong> 圈套成功标记该生物，而且该生物到它的下个回合结束前都陷入@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]。</p>"
 		},
-		"Grimoire of Unknown Necessities": {
-			"name": "未解要素魔典 Grimoire of Unknown Necessities",
-			"description": "<p>这本魔典的封面用一块奇怪的深红色粗糙皮革装订，通过一次@Check[occultism|dc:40]检定回忆知识后可以辨认出这是来自于遥远冷原位面的稀有怪物皮。魔典的书脊由铜装订而成，一圈变幻的符文在其表面缓慢转动。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 想象 （奥术，预言系）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>需求</strong> 你是一名奥术准备施法者且你已经休整过但还未准备每日法术</p>\n<hr />\n<p><strong>效果</strong> 魔典为你提供了一个你能够施放的最高环级，但没有记录在此魔典或其他任何法术书上的法术的临时知识，由GM基于此次冒险来选择一个在接下来一天对你特别有用的法术。</p>\n<p>这本典籍的奇怪癖好让法术的知识不会在你的脑海中潜入太深。授予的法术在第二天开始时不仅会从魔典上移除，同时也会在其他任何复制有授予法术的卷轴，法术书，或魔典上移除，不过该法术还是可以以其他方式学习或复制。</p>"
-		},
 		"Spellstrike Ammunition (Type VIII)": {
 			"name": "VIII型法袭弹药 Spellstrike Ammunition (Type VIII)",
 			"description": "<p><strong>弹药</strong> 任意</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 施法</p>\n<hr />\n<p>神秘的图纹让这发弹药成为了储存魔法的容器。你通过对<em>法袭弹药</em>进行施法来启动它。该法术的等级必须是弹药可以容纳的，施法动作必须为1个或2个，法术也必须能以施法者以外的一个生物为目标。被启动的<em>法袭弹药</em>命中的生物会成为法术的目标。如果该生物不能成为该法术的目标，则法术丢失。</p>\n<p>该弹药只能影响被命中的生物，即使法术正常情况下能够影响多个生物。如果法术需要一个法术攻击骰，使用发射该弹药的远程攻击骰结果来决定成功度。如果法术需要一个豁免骰，目标需要通过一个豁免，对抗你的法术DC。将打击和法术的伤害合计之后再应用抗力和弱点。</p>\n<p>该弹药能容纳的法术最高环级取决于其等级与价格。</p>\n<p>最高法术环级 8环级</p>"
