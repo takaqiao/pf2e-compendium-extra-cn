@@ -6071,10 +6071,6 @@
 			"name": "中等催吐膏药 Emetic Paste (Moderate)",
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]的生物吞咽困难，所以你启动催吐膏药的时候可以将其涂在你的或者你触及范围内某个恶心生物的喉咙处。膏药可以让恶心的生物能更容易地恢复，让他能立即尝试一次用于结束恶心状态的强韧检定。膏药能赋予目标在本次豁免和之后1小时内所有用于减轻恶心状态的强韧豁免上的+3物品加值。</p>"
 		},
-		"Sweet Hag's Eye": {
-			"name": "蜜鬼婆之眼 Sweet Hag's Eye",
-			"description": "<p>这件物品看似一颗普通——尽管略显瘆人——的硬薄荷糖，大小与形状如人的眼球。这是因为它实际上是一颗蜜鬼婆的眼球，被取出并以魔法与糖果工艺精心替换。它通常被镶嵌在饰品上，或储存在挂于绳上的小袋中。</p>\n<p>该眼睛不为佩戴者提供直接益处，但其原主——蜜鬼婆——可通过它使用 [[/act seek]] 动作进行窥视，并通过它对持有该眼睛的生物施放 @UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{讯息术 Message} 戏法。只要蜜鬼婆处于同一位面，这两种效果均不受距离限制。</p>\n<p>任何对眼睛的伤害都会摧毁它。蜜鬼婆也可以选择用消融薄荷远程摧毁眼睛。眼睛也可被食用，但尝试食用的生物会暴露于令人恶心的甜味之中。</p>\n<p><strong>启动——消融薄荷</strong> <span class=\"action-glyph\">1</span></p><hr /><p><strong>效果</strong> 蜜鬼婆使眼睛在短暂的剧烈高温闪光下消融。若有生物正持有眼睛，必须尝试一次 @Check[reflex|dc:18|options:damaging-effect] 豁免。失败时，由于沸腾的滚烫糖果残渣粘附其皮肤并将其灼伤，他们承受 @Damage[1d4[persistent,fire]] 伤害。</p><hr /><p><strong>令人恶心的甜味</strong>（食入、毒）此毒素引发的恶心状态在毒素效果结束前无法被终止。</p>"
-		},
 		"Spurned Lute": {
 			"name": "弃弦琴 Spurned Lute",
 			"description": "<p><em>弃弦琴</em>由深棕色的红木制成，饰有雕刻的花朵。这把琴看起来像是一把精制品乐器，并具有相应的功能。（其他类型的<em>弃弦乐器</em>也存在，但琴是最常见的。）这把琴具有嫉妒特质，要求其“伴侣”音乐家完全忠诚。当你第一次演奏这把琴后，它会与你纠缠。如果你一天都没有用它来@UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]，你将获得@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 1}，直到你再次用它表演。在此之后，当你尝试使用除琴之外的其他乐器进行表演检定时，你将受到-4环境减值，且你必须成功通过@Check[will|dc:20]豁免，否则你会获得1分钟的呆滞1。</p>"
