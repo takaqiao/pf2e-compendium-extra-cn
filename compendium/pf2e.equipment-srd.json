@@ -9774,10 +9774,6 @@
 			"name": "滴影魔典 Tome of Dripping Shadows",
 			"description": "<p>魔典上不断垂落着转瞬即逝且不断翻卷扭动着的阴影触须。这些触须似乎有着自己的意志，它们遇光退缩，会向着黑暗扭动。当你手持这本魔典时，你会获得黑暗视觉；若你已经具有黑暗视觉，则会改为获得高等黑暗视觉。从这本魔典中准备法术能强化你的阴影魔法，而且还会让你更好地领会向魔典中添加的阴影魔法。当你利用这本魔典准备任意阴影法术，且法术环级比你能够施放的最高环级至少低2级时，那么反制这些法术时会视为其比正常高1级。当你把阴影法术添加到这本魔典中时，则可以准备该法术的升阶版本，至多能够达到你能够施放的最高法术环级。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">R</span> 想象</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>触发</strong> 目标在豁免你从魔典中准备的阴影法术时得到大失败结果</p>\n<hr />\n<p><strong>效果</strong> 你将弥漫于目标周遭的阴影法术的片缕召回到身边，使其像胎膜一样将你包复起来。触发生物的豁免结果变为失败，而非原本的大失败。在接下来1分钟内，你对于所有生物来说都变为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]状态，对于触发生物来说处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]状态，无视其具有的任何精确感官。若你对触发生物使用敌对动作，那么在敌对动作结束时，你对触发生物来说仅被视为隐蔽（而非藏匿）状态。</p>"
 		},
-		"Vagabond's Teapot": {
-			"name": "流浪者的茶壶 Vagabond's Teapot",
-			"description": "<p>这把朴素的茶壶看似毫不起眼，却深得四处漂泊的旅人和远离家乡的冒险者珍爱。<em>流浪者的茶壶</em>能为其使用者提供片刻的舒适与慰藉，仿佛回到家中的炉火旁。</p>\n<p><strong>启动——沏一杯安心茶</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 你启动<em>流浪者的茶壶</em>，从中倒出一杯热气腾腾的茶。任何饮下此茶的生物在 10 分钟内对@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏 Fatigued}状态获得+1状态加值，且暂时摆脱身处异乡的孤寂感——他们在这段时间内对@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained}状态的豁免上获得+1状态加值。茶壶可以服务多达 6 名生物。</p>\n<p><strong>制作需求</strong> 你必须曾在自己家中沏过茶。</p>"
-		},
 		"Crafter's Eyepiece": {
 			"name": "工匠目镜 Crafter's Eyepiece",
 			"description": "<p>这只粗糙的金属目镜上蚀刻着方块形状的图纹，是设计用来单眼佩戴的。旋转镜片能够为你准备制作或修复的物品展现一个模糊的三维轮廓，上面还能为每个部件显示一些有用的标签。。</p>\n<p>穿戴时，这只目镜能在手艺技能检定上为你提供+1物品加值。当你修理一件物品时，将成功时恢复的生命值提升至10+每熟练等级10点，大成功时恢复的生命值提升至15+每熟练等级15点。</p>"
@@ -12693,10 +12689,6 @@
 			"name": "上等快反链甲 Reactive Mail (Major)",
 			"description": "<p>这件<em>+2高等韧性链甲</em>常因使用而布满战痕，通常发给前线士兵。他们的任务是穿越敌人封锁，完成战场上的高价值目标。</p>\n<p><strong>启动–迅捷尖刺（Quick Spike）</strong> <span class=\"action-glyph\">r</span> （操作，金）</p>\n<p><strong>频率</strong> 每小时一次</p>\n<p><strong>触发</strong> 一个15尺内的生物使用了一个操作动作</p><hr /><p><strong>效果</strong> 你的护甲向目标射出一道铁刺，对目标造成@Damage[7d8[piercing]]伤害（@Check[reflex|dc:36|basic]豁免）。如果目标豁免大失败，触发动作会被打断。</p>"
 		},
-		"Hagbane Biscuit": {
-			"name": "鬼婆克星姜饼 Hagbane Biscuit",
-			"description": "<p>这块朴素的饼干由经过祝福的小麦烘焙而成，并加入了多种已知能驱避女妖与精类侵染的草药。在格雷斯地区，达米拉烘焙坊以制作这种饼干闻名，将其分发给那些恐惧落入异界生物魔爪的旅人。<em>鬼婆克星姜饼</em>本身不会造成伤害，但其上的祝福对女妖与某些精类的攻击具有破坏性。</p>\n<p><strong>启动——投掷祝福</strong> <span class=\"action-glyph\">1</span>（操作）</p>\n<p><strong>频率</strong> 不限次数</p><hr /><p><strong>效果</strong> 你向 30 尺内一个生物投掷此饼干，进行一次远程攻击检定（使用简易武器熟练度）以对抗目标的 AC。命中时，<em>鬼婆克星姜饼</em>对女妖、精类或女巫造成 @Damage[1d8[positive]] 伤害；对其他生物造成普通的 @Damage[1[bludgeoning]] 伤害。无论命中与否，此饼干会被消耗。</p>\n<hr />\n<p>食用一块<em>鬼婆克星姜饼</em>使你在 1 小时内对女妖与精类的魅惑及法术造成的法术 DC 上获得+1状态加值。</p>"
-		},
 		"Harpoon Bolt": {
 			"name": "鱼叉矢 Harpoon Bolt",
 			"description": "<p><strong>弹药</strong> 枪弹</p>\n<hr />\n<p>这枚大铁钉可以被人以一个交互动作装进那些没有扩散特征的双手火器的枪管里。长钉和一卷50尺长的绳索相连，绳子卷在一个简单的卷线盘里，卷线盘则可固定在枪管上。由于鱼叉和卷线轴的重量导致枪械不平衡，武器射程减少10尺。被鱼叉矢击中的生物会受到正常伤害，并且必须成功通过@Check[fortitude|dc:18]豁免。如果失败，鱼叉矢会插在它的身体里。</p>\n<p>一旦被鱼叉矢插入，生物可以尝试DC 18@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱 Escape}或@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{破拆 Force Open}检定来移除鱼叉矢，但如果失败，生物还会受到@Damage[1d4[piercing]]伤害。只要鱼叉一直插在生物体内，生物就无法远离你超过50尺距离。你能通过用力拉绳子的方式@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊 Trip}被鱼叉矢拴住的生物，即便它不再你触及范围内，但如果你失败了，鱼叉矢就会松脱，对目标造成@Damage[1d4[piercing]]伤害，然后目标被释放。如果你装填、丢下或再次击发该武器，则该生物的移动不再受到限制。一旦鱼叉矢被从生物身上移除，鱼叉矢、鱼叉上的绳子和卷线轴都会腐朽，被最初赋予这种不同寻常子弹威力的魔法所消耗。</p>"
@@ -14454,10 +14446,6 @@
 		"Barricade Stone (Cube)": {
 			"name": "壁垒石-立方体 Barricade Stone (Cube)",
 			"description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 命令，交互</p>\n<hr />\n<p>古代的血盐城居民制作了这些能快速构建防御的魔法石。从外观上，如果忽略它那不自然的几何形状，<em>壁垒石</em>看起来就像一块普普通通的鹅卵石。</p>\n<p>当你启动<em>壁垒石</em>时，你可以把它放在地上或者扔到最远20尺的范围内，也可以用投石索将它投射出去。</p>\n<p>当它落地后，<em>壁垒石</em>会立即发生永久性的膨胀，直至扩展到最大尺寸。不同类型的壁垒石最终会扩展成不同的形状和尺寸。虽然具有构造物特征的物品通常都可以在内部容纳生物，但壁垒石最终生成的石头是实心的，所以不能放置在有生物的区域。启动后的壁垒石可以像任何正常的石制物一样被摧毁（硬度14，HP56），虽然即便有合适的工具也可能需要一段时间。</p>\n<hr />\n<p><strong>类型：立方体</strong></p>\n<p>这个看似简单的六面体一般用于封堵通道。当这个六面体被启动后，它会生长并填满一个任意一条边都20尺的正方体或长方体空间。虽然即使是超小型的生物也无法通过被填充后的立方体空间，但它远非完美的密封。液体、气体和昆虫等微小生物仍然可以找到绕过它的方法。如果立方体填充的空间并不规则，可能还可以透过它看到或听到另一边。</p>"
-		},
-		"Glacier Hammer": {
-			"name": "冰川巨锤 Glacier Hammer",
-			"description": "<p>这把雕刻精致的战锤的锤头由经魔法强化过的冰雕琢而成，永不融化。<em>冰川巨锤</em>视为<em>+1强击战锤</em>。它在打击中造成额外@Damage[1d6[cold]]伤害。</p>\n<hr />\n<p><strong>启动——冰封打击</strong> <span class=\"action-glyph\">2</span>（操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> 你以<em>冰川巨锤</em>进行一次打击。命中时，目标必须通过一次@Check[fortitude|dc:21]豁免，否则在 1 轮内承受@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}。</p>"
 		},
 		"Arcane Standard (Greater)": {
 			"name": "高等奥法旗帜 Arcane Standard (Greater)",
@@ -18871,10 +18859,6 @@
 		"Elysian Clairglass": {
 			"name": "极乐望远镜 Elysian Clairglass",
 			"description": "<p>在极乐境边境作战的士兵，尤其是古拉姆的神国冲突海岸的士兵们会使用这种青铜望远镜，除了最大的圆柱体上镶嵌着一颗钻石外，它在其他方面显得有些朴素。<em>极乐望远镜</em>和普通望远镜类似，但透过它你能看到20倍远，而非通常的8倍远。它可以为观察远方细节的察觉检定提供+3物品加值。</p><hr /><p><strong>启动—寻找交谈</strong> <span class=\"action-glyph\">2</span> （专注）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> <em>极乐望远镜</em>对你正在观察的区域施放锐耳术和鹰眼术。只要你持握着<em>极乐望远镜</em>，你就能通过它的法术创造的悬浮眼和耳朵说话，你的声音可以是只有法术射程内的某一个人能听到的耳语，或是法术射程内的每个人都能听到的轰鸣声，或者这两个极端之间的任何组合。</p><hr /><p><strong>启动—确知位置</strong> <span class=\"action-glyph\">2</span> （专注，操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> 你施放@UUID[Compendium.pf2e.spells-srd.Item.CeSh8QcVnqP5OlLj]。</p>"
-		},
-		"Restorative Handwraps": {
-			"name": "治疗拳套 Restorative Handwraps",
-			"description": "<p>这些柔软的缠手带带有微弱的治愈魔法，使穿戴者在打击之间恢复元气。<em>治疗拳套</em>视为<em>+1强击重拳缠手带</em>。</p>\n<hr />\n<p><strong>启动——治愈血脉</strong> <span class=\"action-glyph\">2</span>（操作）</p>\n<p><strong>频率</strong> 每日一次</p>\n<p><strong>效果</strong> 你以<em>治疗拳套</em>进行一次成功的打击后，立即恢复@Damage[2d8[healing]]生命值。</p>"
 		},
 		"Air Bladder": {
 			"name": "气囊 Air Bladder",
