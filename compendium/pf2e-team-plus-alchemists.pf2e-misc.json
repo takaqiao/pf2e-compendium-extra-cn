@@ -65,30 +65,30 @@
     },
     "Effect: Antipathic Vial": {
       "name": "效果：相克制剂 Effect: Antipathic Vial",
-      "description": "<p><strong>类型</strong> 次级；等级 1 </p><p>你使该生物对你选择的一种伤害类型获得 1 点弱点，或将它既有的一项弱点提高 2 点。</p><hr /><p><strong>类型</strong> 中级；等级 4 </p><p>你使该生物对你选择的一种伤害类型获得 3 点弱点，或将它既有的一项弱点提高 5 点。</p><hr /><p><strong>类型</strong> 高级；等级 12 </p><p>你使该生物对你选择的一种伤害类型获得 5 点弱点，或将它既有的一项弱点提高 8 点。</p><hr /><p><strong>类型</strong> 超级；等级 18 </p><p>你使该生物对你选择的一种伤害类型获得 8 点弱点，或将它既有的一项弱点提高 12 点。</p>"
+      "description": "<p><strong>类型</strong> 次等；等级 1 </p><p>你使该生物对你选择的一种伤害类型获得 1 点弱点，或将它既有的一项弱点提高 2 点。</p><hr /><p><strong>类型</strong> 中等；等级 4 </p><p>你使该生物对你选择的一种伤害类型获得 3 点弱点，或将它既有的一项弱点提高 5 点。</p><hr /><p><strong>类型</strong> 高等；等级 12 </p><p>你使该生物对你选择的一种伤害类型获得 5 点弱点，或将它既有的一项弱点提高 8 点。</p><hr /><p><strong>类型</strong> 上等；等级 18 </p><p>你使该生物对你选择的一种伤害类型获得 8 点弱点，或将它既有的一项弱点提高 12 点。</p>"
     },
     "Effect: Aromatic Lavender (Greater)": {
-      "name": "效果：芬芳薰衣草（高级） Effect: Aromatic Lavender (Greater)",
+      "name": "效果：芬芳薰衣草（高等） Effect: Aromatic Lavender (Greater)",
       "description": "<p>若你使用自己的生存 DC，你对分神或掩盖行踪的检定获得 +2 物品加值。该薰衣草的生存 DC 为 25。若你的分神检定大成功，目标还会陷入 @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 1}</p>"
     },
     "Effect: Aromatic Lavender (Major)": {
-      "name": "效果：芬芳薰衣草（超级） Effect: Aromatic Lavender (Major)",
+      "name": "效果：芬芳薰衣草（上等） Effect: Aromatic Lavender (Major)",
       "description": "<p>若你使用自己的生存 DC，你对分神或掩盖行踪的检定获得 +3 物品加值。该薰衣草的生存 DC 为 35。若你的分神检定成功，目标还会陷入 @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 1}</p>"
     },
     "Effect: Aromatic Lavender (Moderate)": {
-      "name": "效果：芬芳薰衣草（中级） Effect: Aromatic Lavender (Moderate)",
+      "name": "效果：芬芳薰衣草（中等） Effect: Aromatic Lavender (Moderate)",
       "description": "<p>若你使用自己的生存 DC，你对分神或掩盖行踪的检定获得 +1 物品加值。该薰衣草的生存 DC 为 20。</p>"
     },
     "Effect: Befuddling Irrwurz (Greater)": {
-      "name": "效果：昏乱迷途根（高级） Effect: Befuddling Irrwurz (Greater)",
+      "name": "效果：昏乱迷途根（高等） Effect: Befuddling Irrwurz (Greater)",
       "description": "<p>你对该检定获得 +3 物品加值。只要你的虚招不是大失败，你就可以迫使目标向你选择的方向快步。</p>"
     },
     "Effect: Befuddling Irrwurz (Lesser)": {
-      "name": "效果：昏乱迷途根（次级） Effect: Befuddling Irrwurz (Lesser)",
+      "name": "效果：昏乱迷途根（次等） Effect: Befuddling Irrwurz (Lesser)",
       "description": "<p>你对该检定获得 +1 物品加值。若你的虚招为大成功，你可以迫使目标向你选择的方向快步。</p>"
     },
     "Effect: Befuddling Irrwurz (Moderate)": {
-      "name": "效果：昏乱迷途根（中级） Effect: Befuddling Irrwurz (Moderate)",
+      "name": "效果：昏乱迷途根（中等） Effect: Befuddling Irrwurz (Moderate)",
       "description": "<p>你对该检定获得 +2 物品加值。若你的虚招为成功，你可以迫使目标向你选择的方向快步。</p>"
     },
     "Effect: Bioluminscent Risotto": {
@@ -96,62 +96,62 @@
       "description": "<p>以食用方式启动这份烩饭后，当你处于昏暗光照或黑暗的区域时，你在 5 尺弥漫范围内散发明亮光照，并在其外 5 尺内散发昏暗光照。这些效果持续 24 小时，或直到你进行每日准备为止，以先发生者为准。</p>"
     },
     "Effect: Bramble Knot (Greater)": {
-      "name": "效果：荆棘结（高级） Effect: Bramble Knot (Greater)",
+      "name": "效果：荆棘结（高等） Effect: Bramble Knot (Greater)",
       "description": "<p>该荆棘结的运动调整值为 +27。若你使用自己的运动调整值，你对该检定获得 +3 物品加值。就你的摔绊而言，你可以将体型至多为巨型的生物作为目标。</p>"
     },
     "Effect: Bramble Knot (Lesser)": {
-      "name": "效果：荆棘结（次级） Effect: Bramble Knot (Lesser)",
+      "name": "效果：荆棘结（次等） Effect: Bramble Knot (Lesser)",
       "description": "<p>该荆棘结的运动调整值为 +10。若你使用自己的运动调整值，你对该检定获得 +1 物品加值。就你的摔绊而言，你可以将体型至多为大型的生物作为目标。</p>"
     },
     "Effect: Bramble Knot (Moderate)": {
-      "name": "效果：荆棘结（中级） Effect: Bramble Knot (Moderate)",
+      "name": "效果：荆棘结（中等） Effect: Bramble Knot (Moderate)",
       "description": "<p>该荆棘结的运动调整值为 +16。若你使用自己的运动调整值，你对该检定获得 +2 物品加值。就你的摔绊而言，你可以将体型至多为超大型的生物作为目标。</p>"
     },
     "Effect: Buoyant Hyacinth (Greater)": {
-      "name": "效果：浮力凤眼莲（高级） Effect: Buoyant Hyacinth (Greater)",
+      "name": "效果：浮力凤眼莲（高等） Effect: Buoyant Hyacinth (Greater)",
       "description": "<p>你对游泳检定获得 +2 物品加值，并获得等同于你速度的游泳速度。若你已具有游泳速度，则改为对你的游泳速度获得 +10 尺状态加值。</p>"
     },
     "Effect: Buoyant Hyacinth (Major)": {
-      "name": "效果：浮力凤眼莲（超级） Effect: Buoyant Hyacinth (Major)",
+      "name": "效果：浮力凤眼莲（上等） Effect: Buoyant Hyacinth (Major)",
       "description": "<p>你对游泳检定获得 +3 物品加值，获得等同于你速度的游泳速度，并对你的游泳速度获得 +10 尺状态加值。若你已具有游泳速度，则改为对你的游泳速度获得 +20 尺状态加值。</p>"
     },
     "Effect: Buoyant Hyacinth (Moderate)": {
-      "name": "效果：浮力凤眼莲（中级） Effect: Buoyant Hyacinth (Moderate)",
+      "name": "效果：浮力凤眼莲（中等） Effect: Buoyant Hyacinth (Moderate)",
       "description": "<p>你对游泳检定获得 +1 物品加值，并将你游泳的距离增加 10 尺。</p>"
     },
     "Effect: Captivating Fern Flower (Lesser)": {
-      "name": "效果：魅惑蕨花（次级） Effect: Captivating Fern Flower (Lesser)"
+      "name": "效果：魅惑蕨花（次等） Effect: Captivating Fern Flower (Lesser)"
     },
     "Effect: Captivating Fern Flower (Major)": {
-      "name": "效果：魅惑蕨花（超级） Effect: Captivating Fern Flower (Major)",
+      "name": "效果：魅惑蕨花（上等） Effect: Captivating Fern Flower (Major)",
       "description": "<p>该蕨花的交涉调整值为 +26。若你使用自己的交涉调整值，你对该检定获得 +3 物品加值。你将搜集信息所需的时间缩短至 1 小时，且可以将建立印象作为 3 动作行动执行。</p>"
     },
     "Effect: Captivating Fern Flower (Moderate)": {
-      "name": "效果：魅惑蕨花（中级） Effect: Captivating Fern Flower (Moderate)",
+      "name": "效果：魅惑蕨花（中等） Effect: Captivating Fern Flower (Moderate)",
       "description": "<p>该蕨花的交涉调整值为 +15。若你使用自己的交涉调整值，你对该检定获得 +2 物品加值。你将搜集信息与建立印象所需的时间减半。</p>"
     },
     "Effect: Concealing Puffball (Greater)": {
-      "name": "效果：遮蔽尘菌（高级） Effect: Concealing Puffball (Greater)",
+      "name": "效果：遮蔽尘菌（高等） Effect: Concealing Puffball (Greater)",
       "description": "<p>你对潜行检定获得 +3 物品加值，并可以将启动该炼金植物所需的动作数提高至至多 3 个动作，且可以进行次数等同于启动该炼金植物所花动作数的潜行。</p>"
     },
     "Effect: Concealing Puffball (Lesser)": {
-      "name": "效果：遮蔽尘菌（次级） Effect: Concealing Puffball (Lesser)",
+      "name": "效果：遮蔽尘菌（次等） Effect: Concealing Puffball (Lesser)",
       "description": "<p>你对潜行检定获得 +1 物品加值。</p>"
     },
     "Effect: Concealing Puffball (Moderate)": {
-      "name": "效果：遮蔽尘菌（中级） Effect: Concealing Puffball (Moderate)",
+      "name": "效果：遮蔽尘菌（中等） Effect: Concealing Puffball (Moderate)",
       "description": "<p>你对潜行检定获得 +2 物品加值，并可以将启动该炼金植物所需的动作数提高至 2 个动作，且可以在该次启动中进行两次潜行。</p>"
     },
     "Effect: Conker Flail (Greater)": {
-      "name": "效果：马栗连枷（高级） Effect: Conker Flail (Greater)",
+      "name": "效果：马栗连枷（高等） Effect: Conker Flail (Greater)",
       "description": "<p>该连枷持续生效 3 轮，运动调整值为 +16。若你使用自己的运动调整值，你对该检定或打击获得 +2 物品加值。当你引爆栗子以对物体进行打击时，你无视该物体 8 点硬度。</p>"
     },
     "Effect: Conker Flail (Major)": {
-      "name": "效果：马栗连枷（超级） Effect: Conker Flail (Major)",
+      "name": "效果：马栗连枷（上等） Effect: Conker Flail (Major)",
       "description": "<p>该连枷持续生效 4 轮，运动调整值为 +27。若你使用自己的运动调整值，你对该检定或打击获得 +3 物品加值。当你引爆栗子以对物体进行打击时，你无视该物体 16 点硬度。</p>"
     },
     "Effect: Conker Flail (Moderate)": {
-      "name": "效果：马栗连枷（中级） Effect: Conker Flail (Moderate)",
+      "name": "效果：马栗连枷（中等） Effect: Conker Flail (Moderate)",
       "description": "<p>该连枷持续生效 2 轮，运动调整值为 +10。若你使用自己的运动调整值，你对该检定或打击获得 +1 物品加值。当你引爆栗子以对物体进行打击时，你无视该物体 4 点硬度</p>"
     },
     "Effect: Croque Matron": {
@@ -163,11 +163,11 @@
       "description": "<p>你对异能法术获得 8 点抗力，且当你进行对抗诅咒的豁免时，可以掷两次并取较好的结果，持续 24 小时，或直到你进行每日准备为止，以先发生者为准。</p>"
     },
     "Effect: Dousing Aloe (Greater)": {
-      "name": "效果：灭火芦荟（高级） Effect: Dousing Aloe (Greater)",
+      "name": "效果：灭火芦荟（高等） Effect: Dousing Aloe (Greater)",
       "description": "<p>该生物获得 10 点火焰抗力。</p>"
     },
     "Effect: Dousing Aloe (Lesser)": {
-      "name": "效果：灭火芦荟（次级） Effect: Dousing Aloe (Lesser)",
+      "name": "效果：灭火芦荟（次等） Effect: Dousing Aloe (Lesser)",
       "description": "<p>该生物获得 4 点火焰抗力。</p>"
     },
     "Effect: Energizing Taffy": {
@@ -195,15 +195,15 @@
       "description": "<p>当水蛭附着时，你承受 1 点持续流血伤害，获得对某一种能量类型的抗力，并根据制作该水蛭时所选的添加剂获得一项额外效果。你可以选择让终结该持续流血伤害的纯骰检定失败，以将此效果延长至至多 1 分钟；此后水蛭会脱落并消散。</p><p><strong>胆汁质</strong> 被这条黄色水蛭吸食的病人很快会变得易怒。你对火焰伤害获得 2 点抗力。当你以打击重击命中时，你额外造成 2 点精准伤害。</p><p><strong>抑郁质</strong> 被这条黑色水蛭吸食的病人往往变得专注且目标明确。你对寒冷伤害获得 2 点抗力。当你重击命中一个生物时，你可以立即对该目标生物进行一次回忆知识检定。</p><p><strong>黏液质</strong> 被这条蓝色水蛭吸食的病人往往变得安静而放松。你对精魂伤害获得 2 点抗力。当你重击命中时，你获得 5 点临时生命值，持续 1 轮。</p><p><strong>多血质</strong> 被这条红色水蛭吸食的病人会感到自信而善于社交。你对心灵伤害获得 2 点抗力。当你重击命中时，你将自身的惊惧状态降低 1，或在 1 轮内对基于魅力的技能检定获得 +2 环境加值。</p>"
     },
     "Effect: Hypnotic Reeds (Greater)": {
-      "name": "效果：催眠芦苇（高级） Effect: Hypnotic Reeds (Greater)",
+      "name": "效果：催眠芦苇（高等） Effect: Hypnotic Reeds (Greater)",
       "description": "<p>该催眠芦苇的表演调整值为 +27。若你使用自己的表演调整值，你对该检定获得 +3 物品加值。你可以以任意数量的观察者为目标。若你选择以单一观察者为目标，你的演出不会因处于需要立即关注的情境而获得「失能」特征。</p>"
     },
     "Effect: Hypnotic Reeds (Lesser)": {
-      "name": "效果：催眠芦苇（次级） Effect: Hypnotic Reeds (Lesser)",
+      "name": "效果：催眠芦苇（次等） Effect: Hypnotic Reeds (Lesser)",
       "description": "<p>该催眠芦苇的表演调整值为 +10。若你使用自己的表演调整值，你对该检定获得 +1 物品加值。你最多可以以 4 名观察者为目标。</p>"
     },
     "Effect: Hypnotic Reeds (Moderate)": {
-      "name": "效果：催眠芦苇（中级） Effect: Hypnotic Reeds (Moderate)",
+      "name": "效果：催眠芦苇（中等） Effect: Hypnotic Reeds (Moderate)",
       "description": "<p>该催眠芦苇的表演调整值为 +16。若你使用自己的表演调整值，你对该检定获得 +2 物品加值。你最多可以以 10 名观察者为目标。若你选择以单一观察者为目标，你的演出不会因处于需要立即关注的情境而获得「失能」特征。</p>"
     },
     "Effect: Internal Alchemy Mutagens": {
@@ -223,26 +223,26 @@
     },
     "Effect: Morphic Vial": {
       "name": "效果：塑造制剂 Effect: Morphic Vial",
-      "description": "<p><strong>类型</strong> 次级；等级 1 </p><p>直到你下回合结束前，你对特技与运动获得 +1 状态加值。 </p><hr /><p><strong>类型</strong> 中级；等级 4 </p><p>直到你下回合结束前，你对特技与运动获得 +2 状态加值。 </p><hr /><p><strong>类型</strong> 高级；等级 12 </p><p>直到你下回合结束前，你对特技与运动获得 +3 状态加值。 </p><hr /><p><strong>类型</strong> 超级；等级 18 </p><p>直到你下回合结束前，你对特技与运动获得 +4 状态加值。</p>"
+      "description": "<p><strong>类型</strong> 次等；等级 1 </p><p>直到你下回合结束前，你对特技与运动获得 +1 状态加值。 </p><hr /><p><strong>类型</strong> 中等；等级 4 </p><p>直到你下回合结束前，你对特技与运动获得 +2 状态加值。 </p><hr /><p><strong>类型</strong> 高等；等级 12 </p><p>直到你下回合结束前，你对特技与运动获得 +3 状态加值。 </p><hr /><p><strong>类型</strong> 上等；等级 18 </p><p>直到你下回合结束前，你对特技与运动获得 +4 状态加值。</p>"
     },
     "Effect: Nettle Balm (Greater)": {
-      "name": "效果：荨麻药膏（高级） Effect: Nettle Balm (Greater)",
+      "name": "效果：荨麻药膏（高等） Effect: Nettle Balm (Greater)",
       "description": "<p>该纯骰检定 DC 降低至 @Check[flat|showDC:all|dc:6]，且你对协助恢复过程中所需的任何技能检定获得 +2 物品加值。</p>"
     },
     "Effect: Nettle Balm (Major)": {
-      "name": "效果：荨麻药膏（超级） Effect: Nettle Balm (Major)",
+      "name": "效果：荨麻药膏（上等） Effect: Nettle Balm (Major)",
       "description": "<p>该纯骰检定 DC 降低至 @Check[flat|showDC:all|dc:4]，且你对协助恢复过程中所需的任何技能检定获得 +3 物品加值。</p>"
     },
     "Effect: Nettle Balm (Moderate)": {
-      "name": "效果：荨麻药膏（中级） Effect: Nettle Balm (Moderate)",
+      "name": "效果：荨麻药膏（中等） Effect: Nettle Balm (Moderate)",
       "description": "<p>该纯骰检定 DC 降低至 @Check[flat|showDC:all|dc:8]，且你对协助恢复过程中所需的任何技能检定获得 +1 物品加值。</p>"
     },
     "Effect: Odoriferous Cheese (Lesser)": {
-      "name": "效果：浓臭奶酪（次级） Effect: Odoriferous Cheese (Lesser)",
+      "name": "效果：浓臭奶酪（次等） Effect: Odoriferous Cheese (Lesser)",
       "description": "<p>食用时，这种感受在 1 分钟内极大地提升你的嗅觉。你的灵敏嗅觉成为范围 30 的模糊感官。</p>"
     },
     "Effect: Odoriferous Cheese (Moderate)": {
-      "name": "效果：浓臭奶酪（中级） Effect: Odoriferous Cheese (Moderate)",
+      "name": "效果：浓臭奶酪（中等） Effect: Odoriferous Cheese (Moderate)",
       "description": "<p>食用时，这种感受在 1 分钟内极大地提升你的嗅觉。你的灵敏嗅觉成为范围 30 的精确感官。</p>"
     },
     "Effect: Olobigonde Fugu": {
@@ -255,18 +255,18 @@
     },
     "Effect: Rapid Equations": {
       "name": "效果：快速演算 Effect: Rapid Equations",
-      "description": "<p><strong>大成功</strong> 你算出了针对敌人的完美一击。直到你下回合结束前，你无视目标的隐蔽、标准掩蔽或次级掩蔽，并将因藏匿而进行的纯骰检定 DC 由 11 降至 @Check[flat|dc:5]。你以炼金物品对该目标造成的伤害获得 +4 状态加值。</p><p><strong>成功</strong> 同大成功，但伤害的状态加值为 +2。</p>"
+      "description": "<p><strong>大成功</strong> 你算出了针对敌人的完美一击。直到你下回合结束前，你无视目标的隐蔽、标准掩蔽或次等掩蔽，并将因藏匿而进行的纯骰检定 DC 由 11 降至 @Check[flat|dc:5]。你以炼金物品对该目标造成的伤害获得 +4 状态加值。</p><p><strong>成功</strong> 同大成功，但伤害的状态加值为 +2。</p>"
     },
     "Effect: Ravenous Flytrap (Greater)": {
-      "name": "效果：贪食捕蝇草（高级） Effect: Ravenous Flytrap (Greater)",
+      "name": "效果：贪食捕蝇草（高等） Effect: Ravenous Flytrap (Greater)",
       "description": "<p>该捕蝇草持续生效 3 轮，运动调整值为 +16。若你使用自己的运动调整值，你对该检定获得 +2 物品加值。你的擒拿触及增加 5 尺。</p><p></p>"
     },
     "Effect: Ravenous Flytrap (Major)": {
-      "name": "效果：贪食捕蝇草（超级） Effect: Ravenous Flytrap (Major)",
+      "name": "效果：贪食捕蝇草（上等） Effect: Ravenous Flytrap (Major)",
       "description": "<p>该捕蝇草持续生效 4 轮，运动调整值为 +27。若你使用自己的运动调整值，你对该检定获得 +3 物品加值。你的擒拿触及增加 10 尺。</p>"
     },
     "Effect: Ravenous Flytrap (Moderate)": {
-      "name": "效果：贪食捕蝇草（中级） Effect: Ravenous Flytrap (Moderate)",
+      "name": "效果：贪食捕蝇草（中等） Effect: Ravenous Flytrap (Moderate)",
       "description": "<p>该捕蝇草持续生效 2 轮，运动调整值为 +10。若你使用自己的运动调整值，你对该检定获得 +1 物品加值。</p>"
     },
     "Effect: Recondite Sourdough": {
@@ -277,47 +277,47 @@
       "name": "效果：绘制法阵 Effect: Render Circle"
     },
     "Effect: Spotlight Sunflower (Lesser)": {
-      "name": "效果：聚光向日葵（次级） Effect: Spotlight Sunflower (Lesser)",
+      "name": "效果：聚光向日葵（次等） Effect: Spotlight Sunflower (Lesser)",
       "description": "<p>该聚光灯的范围为 30 尺，且你的盟友对察觉检定获得 +1 物品加值，用于侦测你以聚光灯指出位置的生物。</p>"
     },
     "Effect: Spotlight Sunflower (Major)": {
-      "name": "效果：聚光向日葵（超级） Effect: Spotlight Sunflower (Major)",
+      "name": "效果：聚光向日葵（上等） Effect: Spotlight Sunflower (Major)",
       "description": "<p>该聚光灯的范围为 120 尺，且你的盟友对察觉检定获得 +3 物品加值，用于侦测你以聚光灯指出位置的生物。</p>"
     },
     "Effect: Spotlight Sunflower (Moderate)": {
-      "name": "效果：聚光向日葵（中级） Effect: Spotlight Sunflower (Moderate)",
+      "name": "效果：聚光向日葵（中等） Effect: Spotlight Sunflower (Moderate)",
       "description": "<p>这道聚光的范围为 60 尺；当你以这道聚光指出位置时，你的盟友在用于发现该生物的察觉检定上获得 +2 物品加值。</p>"
     },
     "Effect: Stickyweed Sprig (Greater)": {
-      "name": "效果：黏草嫩枝（高级） Effect: Stickyweed Sprig (Greater)",
+      "name": "效果：黏草嫩枝（高等） Effect: Stickyweed Sprig (Greater)",
       "description": "<p>你的触及范围延长 10 尺，且你的检定获得 +3 物品加值。</p>"
     },
     "Effect: Stickyweed Sprig (Lesser)": {
-      "name": "效果：黏草嫩枝（次级） Effect: Stickyweed Sprig (Lesser)",
+      "name": "效果：黏草嫩枝（次等） Effect: Stickyweed Sprig (Lesser)",
       "description": "<p>你的触及范围延长 5 尺，且你的检定获得 +1 物品加值。</p>"
     },
     "Effect: Stickyweed Sprig (Moderate)": {
-      "name": "效果：黏草嫩枝（中级） Effect: Stickyweed Sprig (Moderate)",
+      "name": "效果：黏草嫩枝（中等） Effect: Stickyweed Sprig (Moderate)",
       "description": "<p>你的触及范围延长 10 尺，且你的检定获得 +2 物品加值。</p>"
     },
     "Effect: Vivisective Vial": {
       "name": "效果：解剖制剂 Effect: Vivisective Vial",
-      "description": "<p><strong>类型</strong> 次级；等级 1 </p><p>该武器在打击时造成 1d4 点精准伤害，持续 1 轮。若你以这件因你的万用制剂而造成精准伤害的武器进行打击并大成功，则目标额外承受 2 点持续流血伤害。 </p><hr /><p><strong>类型</strong> 中级；等级 4 </p><p>该武器在打击时造成 2d4 点精准伤害，持续 1 轮。若你以这件因你的万用制剂而造成精准伤害的武器进行打击并大成功，则目标额外承受 3 点持续流血伤害。 </p><hr /><p><strong>类型</strong> 高级；等级 12 </p><p>该武器在打击时造成 3d6 点精准伤害，持续 1 轮。若你以这件因你的万用制剂而造成精准伤害的武器进行打击并大成功，则目标额外承受 6 点持续流血伤害。 </p><hr /><p><strong>类型</strong> 超级；等级 18 </p><p>该武器在打击时造成 4d6 点精准伤害，持续 1 轮。若你以这件因你的万用制剂而造成精准伤害的武器进行打击并大成功，则目标额外承受 10 点持续流血伤害。</p>"
+      "description": "<p><strong>类型</strong> 次等；等级 1 </p><p>该武器在打击时造成 1d4 点精准伤害，持续 1 轮。若你以这件因你的万用制剂而造成精准伤害的武器进行打击并大成功，则目标额外承受 2 点持续流血伤害。 </p><hr /><p><strong>类型</strong> 中等；等级 4 </p><p>该武器在打击时造成 2d4 点精准伤害，持续 1 轮。若你以这件因你的万用制剂而造成精准伤害的武器进行打击并大成功，则目标额外承受 3 点持续流血伤害。 </p><hr /><p><strong>类型</strong> 高等；等级 12 </p><p>该武器在打击时造成 3d6 点精准伤害，持续 1 轮。若你以这件因你的万用制剂而造成精准伤害的武器进行打击并大成功，则目标额外承受 6 点持续流血伤害。 </p><hr /><p><strong>类型</strong> 上等；等级 18 </p><p>该武器在打击时造成 4d6 点精准伤害，持续 1 轮。若你以这件因你的万用制剂而造成精准伤害的武器进行打击并大成功，则目标额外承受 10 点持续流血伤害。</p>"
     },
     "Effect: Warrior's Chew": {
       "name": "效果：战士肉干 Effect: Warrior's Chew",
       "description": "<p>当你正在咀嚼战士肉干时，至多持续 10 分钟，你使用近战武器的伤害掷骰获得 +1 物品加值</p>"
     },
     "Effect: Wriggling Kudzu (Greater)": {
-      "name": "效果：蠕动葛藤（高级） Effect: Wriggling Kudzu (Greater)",
+      "name": "效果：蠕动葛藤（高等） Effect: Wriggling Kudzu (Greater)",
       "description": "<p>这株葛藤拥有 +15 的贼活调整值。你可以对需要贼活大师熟练度的陷阱进行解除装置。若你使用自己的贼活调整值，则该检定获得 +2 物品加值。</p>"
     },
     "Effect: Wriggling Kudzu (Major)": {
-      "name": "效果：蠕动葛藤（超级） Effect: Wriggling Kudzu (Major)",
+      "name": "效果：蠕动葛藤（上等） Effect: Wriggling Kudzu (Major)",
       "description": "<p>这株葛藤拥有 +26 的贼活调整值。你可以对需要贼活传奇熟练度的陷阱进行解除装置。若你使用自己的贼活调整值，则该检定获得 +3 物品加值。</p>"
     },
     "Effect: Wriggling Kudzu (Moderate)": {
-      "name": "效果：蠕动葛藤（中级） Effect: Wriggling Kudzu (Moderate)",
+      "name": "效果：蠕动葛藤（中等） Effect: Wriggling Kudzu (Moderate)",
       "description": "<p>这株葛藤拥有 +9 的贼活调整值。你可以对需要贼活专家熟练度的陷阱进行解除装置。若你使用自己的贼活调整值，则该检定获得 +1 物品加值。</p>"
     },
     "Effect: Wrought Sirloin": {
