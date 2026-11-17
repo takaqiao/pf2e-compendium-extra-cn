@@ -2,7 +2,7 @@
   "label": "宏（SF2e） Macros",
   "entries": {
     "Summon Celestial Aspect": {
-      "name": "召唤天界层面 Summon Celestial Aspect",
+      "name": "召唤天族层面 Summon Celestial Aspect",
       "aspectMessages": {
         "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.5XcIPo95buZhwrzv"
       }
@@ -14,7 +14,7 @@
       }
     },
     "Summon Fiend Aspect": {
-      "name": "召唤魔类层面 Summon Fiend Aspect",
+      "name": "召唤魔族层面 Summon Fiend Aspect",
       "aspectMessages": {
         "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.BWW9xQ4rGI81L4KI"
       }
@@ -26,13 +26,13 @@
       }
     },
     "Summon Monitor Aspect": {
-      "name": "召唤监督层面 Summon Monitor Aspect",
+      "name": "召唤观察者层面 Summon Monitor Aspect",
       "aspectMessages": {
         "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.IOhLUVDS8YFWn6oS"
       }
     },
     "Summon Ooze Aspect": {
-      "name": "召唤黏液层面 Summon Ooze Aspect",
+      "name": "召唤泥怪层面 Summon Ooze Aspect",
       "aspectMessages": {
         "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.PP7f16PmxFqgNgPM"
       }
@@ -68,7 +68,7 @@
       }
     },
     "Summon Thurse Aspect": {
-      "name": "召唤霜巨层面 Summon Thurse Aspect",
+      "name": "召唤神怪层面 Summon Thurse Aspect",
       "aspectMessages": {
         "sourceUuid": "Compendium.pf2e-team-plus-magic.sf2e-macros.Macro.qZXl8R1poCgLyMUz"
       }
