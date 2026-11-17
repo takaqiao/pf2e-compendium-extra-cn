@@ -1274,7 +1274,7 @@
       ]
     },
     "Howl of Winter (Moderate)": {
-      "name": "凛冬之嚎（中级） Howl of Winter (Moderate)",
+      "name": "凛冬之嚎（中等） Howl of Winter (Moderate)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互、打击</p><hr /><p>这件法器枪不知何故看似一块天然形成的手枪形冰锥。启动该法器枪——以一名生物为目标，并自选以法术攻击掷骰或火器攻击掷骰对照该目标之 AC。该法器枪具有 30 尺射程增量。该法器枪喷出彻骨极地寒风，造成 @Damage[7d6[cold]] 伤害，随后融化。</p><p><strong>大成功</strong> 目标承受双倍伤害，且其速度至你下回合开始前承受 -10 尺状态减值。</p><p><strong>成功</strong> 同大成功，但目标承受全额伤害，且其速度至你下回合开始前承受 -5 尺状态减值。</p>"
     },
     "Shadow Draw": {
@@ -1946,7 +1946,7 @@
       ]
     },
     "Bloodstained Bandana (Moderate)": {
-      "name": "血染头巾（中级） Bloodstained Bandana (Moderate)",
+      "name": "血染头巾（中等） Bloodstained Bandana (Moderate)",
       "description": "<p>这件深色头巾被鲜血浸染并结成硬痂，已无法分辨它原先是什么颜色或图案。佩戴此头巾会增强你的嗅觉，但仅限于鲜血之气味。你获得 30 尺范围的模糊血感。血感让你能察觉正承受持续流血伤害、或处于濒死或受伤状态的活物。你也能察觉新近溅出的积聚成洼或成滴的血液。GM 裁定下，没有血液的活物不能被你的血感察觉。</p><p>当你以正承受持续流血伤害的隐蔽或藏匿生物为目标时，纯骰检定 DC 减少。隐蔽生物的纯骰检定DC减至4，藏匿生物减至8。</p>"
     },
     "Fortune Dragonbreath Greatpick (Greater)": {
@@ -2267,7 +2267,7 @@
       ]
     },
     "Howl of Winter (Lesser)": {
-      "name": "凛冬之嚎（次级） Howl of Winter (Lesser)",
+      "name": "凛冬之嚎（次等） Howl of Winter (Lesser)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">2</span> 交互、打击</p><hr /><p>这件法器枪不知何故看似一柄天然形成的手枪形冰锥。启动该法器枪——以一名生物为目标，并自选以法术攻击掷骰或火器攻击掷骰对照该目标之 AC。该法器枪具有 30 尺射程增量。该法器枪喷出彻骨极地寒风，造成 @Damage[2d6[cold]] 伤害，随后融化。</p><p><strong>大成功</strong> 目标承受双倍伤害，且其速度至目标下回合结束前承受 -10 尺状态减值。</p><p><strong>成功</strong> 同大成功，但目标承受全额伤害，且其速度至目标下回合结束前承受 -5 尺状态减值。</p>"
     },
     "Dynamic Shield": {
