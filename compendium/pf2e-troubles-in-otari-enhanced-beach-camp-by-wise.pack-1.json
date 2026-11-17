@@ -230,8 +230,8 @@
           "prototypeToken": "野猪 Boar"
         },
         "Goblin Commando": {
-          "name": "地精突击兵 Goblin Commando",
-          "tokenName": "地精突击兵 Goblin Commando",
+          "name": "地精突击手 Goblin Commando",
+          "tokenName": "地精突击手 Goblin Commando",
           "items": {
             "Horsechopper": {
               "name": "斩马刀 Horsechopper"
@@ -257,11 +257,11 @@
             }
           },
           "publicNotes": "<p>地精突袭队名义上的首领被称为地精突击队员。实际上，一旦战斗开始，地精突击队员很少会继续率领他们的同伴。大多数都会逃避职责，转而冲入混战之中，从部族同胞那里为自己赢得更多荣耀。</p>\n<hr />\n<p>这些小型类人生物有着绿色或灰色的皮肤，以及长着宽大耳朵的大脑袋。虽然有些地精已经开化，并努力成为类人社区中受人尊敬的一员，但大多数地精都是鲁莽而残忍的生物，以制造浩劫为乐。这些地精毫不在乎屠杀家畜、偷走婴儿，或仅仅为了片刻的快意就烧毁一栋建筑。他们还热衷于对那些更高大的类人生物施展恶毒的恶作剧，并称其为“长腿鬼”。</p>\n<p>地精十分迷信，对魔法怀有强烈的敬畏，并且痴迷于火焰；能够掌握魔法或火焰的地精会赢得同族极高的尊敬。大多数其他类人生物都很难理解地精的思维方式：他们憎恨犬类，却乐于与所谓的“地精狗”共享巢穴；他们会无畏地攻击体型更大的生物，却又对马匹恐惧万分；他们厌恶蔬菜，却把腌黄瓜视为美味佳肴。当然，对地精来说，这些全都是完全合情合理的生活选择。</p>\n<p>The theoretical leaders of goblin raids are called goblin commandos. In practice, goblin commandos rarely continue to lead their comrades once a battle has begun. Most shirk their responsibilities in favor of wading into the fray and claiming more glory from their tribe-mates.</p>\n<hr />\n<p>These small humanoids have green or gray skin and large heads with wide ears. While some goblins are civilized and have worked hard to be considered upstanding members of humanoid communities, most are impetuous and vicious creatures who delight in wreaking havoc. These goblins think nothing of slaughtering livestock, stealing infants, or burning down a building purely for momentary delight. They revel in playing malicious tricks on taller humanoids, whom they call \"longshanks.\"</p>\n<p>Goblins are superstitious, with an intense awe of magic and a fascination with fire; goblins who master magic or fire earn great respect from their kin. Most other humanoids find it difficult to understand goblins' outlook: they hate canines but eagerly share their lairs with so-called \"goblin dogs,\" they fearlessly attack larger creatures but are terrified of horses, and they despise vegetables yet consider pickles a delicacy. To a goblin, of course, these are all perfectly sensible life choices.</p>",
-          "prototypeToken": "地精突击兵 Goblin Commando"
+          "prototypeToken": "地精突击手 Goblin Commando"
         },
         "Goblin Commando (Captain)": {
           "name": "地精突击队员（队长） Goblin Commando (Captain)",
-          "tokenName": "地精突击兵 Goblin Commando",
+          "tokenName": "地精突击手 Goblin Commando",
           "items": {
             "Horsechopper": {
               "name": "斩马钩镰枪 Horsechopper"
@@ -287,7 +287,7 @@
             }
           },
           "publicNotes": "<p>地精袭击队在理论上的领导者被称为地精突击队员。但在实际中，一旦战斗开始，地精突击队员很少会继续带领他们的同伴。大多数都会逃避自己的职责，转而冲入战团，从部族同伴那里为自己赢得更多荣耀。</p>\n<hr />\n<p>这些小型类人生物有着绿色或灰色的皮肤，以及长着宽大耳朵的大脑袋。虽然有些地精已经开化，并努力让自己被视为类人社区中品行端正的一员，但大多数地精都是冲动而凶残的生物，以制造浩劫为乐。这些地精根本不把屠杀牲畜、偷走婴儿，或仅仅为了一时取乐就烧毁一栋建筑当回事。他们热衷于对那些更高大的类人生物耍恶毒的把戏，并称其为“长腿鬼”。</p>\n<p>地精十分迷信，对魔法怀有强烈的敬畏，并痴迷于火焰；掌握魔法或火焰的地精会赢得同族的极大尊敬。大多数其他类人生物都很难理解地精的想法：他们憎恨犬类，却又乐于与所谓的“地精狗”共享巢穴；他们会无畏地攻击体型更大的生物，却又对马匹恐惧万分；他们厌恶蔬菜，却把腌黄瓜视为美味佳肴。当然，对地精而言，这些全都是再合理不过的人生选择。</p>\n<p>The theoretical leaders of goblin raids are called goblin commandos. In practice, goblin commandos rarely continue to lead their comrades once a battle has begun. Most shirk their responsibilities in favor of wading into the fray and claiming more glory from their tribe-mates.</p>\n<hr />\n<p>These small humanoids have green or gray skin and large heads with wide ears. While some goblins are civilized and have worked hard to be considered upstanding members of humanoid communities, most are impetuous and vicious creatures who delight in wreaking havoc. These goblins think nothing of slaughtering livestock, stealing infants, or burning down a building purely for momentary delight. They revel in playing malicious tricks on taller humanoids, whom they call \"longshanks.\"</p>\n<p>Goblins are superstitious, with an intense awe of magic and a fascination with fire; goblins who master magic or fire earn great respect from their kin. Most other humanoids find it difficult to understand goblins' outlook: they hate canines but eagerly share their lairs with so-called \"goblin dogs,\" they fearlessly attack larger creatures but are terrified of horses, and they despise vegetables yet consider pickles a delicacy. To a goblin, of course, these are all perfectly sensible life choices.</p>",
-          "prototypeToken": "地精突击兵 Goblin Commando"
+          "prototypeToken": "地精突击手 Goblin Commando"
         },
         "Goblin Trip Wire - Remaster": {
           "name": "地精绊线 - Remaster Goblin Trip Wire - Remaster",
@@ -1090,8 +1090,8 @@
           "prototypeToken": "野猪 Boar"
         },
         "Goblin Commando (TiO) - Remaster": {
-          "name": "地精突击兵（TiO）- 重制版 Goblin Commando (TiO) - Remaster",
-          "tokenName": "地精突击兵 Goblin Commando",
+          "name": "地精突击手（TiO）- 重制版 Goblin Commando (TiO) - Remaster",
+          "tokenName": "地精突击手 Goblin Commando",
           "items": {
             "Shortbow": {
               "name": "短弓 Shortbow"
@@ -1114,7 +1114,7 @@
             },
             "Goblin Scuttle": {
               "name": "地精飞奔 Goblin Scuttle",
-              "description": "<p>如果一名地精盟友在地精突击兵邻近处结束一个移动动作，该突击兵可以使用其反应动作来【跨步】。</p>\n<p>If a goblin ally ends a move action adjacent to the goblin commando, the commando can use their reaction to Step.</p>"
+              "description": "<p>如果一名地精盟友在地精突击手邻近处结束一个移动动作，该突击手可以使用其反应动作来【跨步】。</p>\n<p>If a goblin ally ends a move action adjacent to the goblin commando, the commando can use their reaction to Step.</p>"
             }
           },
           "publicNotes": "<p>大多数地精社群都处于一种勉强维持控制的混乱状态——这是由一群主要凭直觉行事的生物组成的集体，几乎不会遵循任何明确的指挥。即便是地精首领，往往也冲动、不负责任，而且通常确实不太擅长领导。</p>\n<p>理论上，地精突击队员会率领地精袭击队。可在实际中，一旦战斗开始，地精突击队员很少会继续带领他们的同伴。大多数都会逃避职责，转而冲入混战之中，从他们的族人那里赢取荣耀。</p>\n<p>Most goblin communities teeter in a state of barely controlled disarray-a collective of creatures operating largely on gut instinct rarely follows any clear direction. Even goblin leaders tend to be impulsive, irresponsible, and generally just not that good at actually leading.</p>\n<p>In theory, goblin commandos lead goblin raids. In practice, goblin commandos rarely continue to lead their comrades once a battle has begun. Most shirk their responsibilities in favor of wading into the fray and claiming glory from their kin.</p>",
@@ -1156,7 +1156,7 @@
           "prototypeToken": "地精突击队队长 Goblin Commando Captain"
         },
         "Goblin Commando Toll Collector (TiO) - Remaster": {
-          "name": "地精突击兵收费员（TiO）- Remaster Goblin Commando Toll Collector (TiO) - Remaster",
+          "name": "地精突击手收费员（TiO）- Remaster Goblin Commando Toll Collector (TiO) - Remaster",
           "tokenName": "地精收费员 Goblin Toll Collector",
           "items": {
             "Shortbow": {
@@ -1180,7 +1180,7 @@
             },
             "Goblin Scuttle": {
               "name": "地精疾窜 Goblin Scuttle",
-              "description": "<p>如果一个地精盟友在地精突击兵邻接处结束一个移动动作，突击兵可以使用其反应动作来踏步。</p>\n<p>If a goblin ally ends a move action adjacent to the goblin commando, the commando can use their reaction to Step.</p>"
+              "description": "<p>如果一个地精盟友在地精突击手邻接处结束一个移动动作，突击手可以使用其反应动作来踏步。</p>\n<p>If a goblin ally ends a move action adjacent to the goblin commando, the commando can use their reaction to Step.</p>"
             }
           },
           "publicNotes": "<p>大多数地精社群都摇摇欲坠地处于一种勉强受控的混乱状态——一群主要凭直觉行事的生物，几乎不会遵循任何明确的指挥。即使是地精首领，也往往冲动、不负责任，而且通常并不擅长真正去领导。</p>\n<p>理论上，地精突击队员会领导地精劫掠行动。可在实际中，一旦战斗开始，地精突击队员很少会继续带领他们的同伴。大多数人都会逃避职责，转而冲入混战，从族人那里赢得荣耀。</p>\n<p>Most goblin communities teeter in a state of barely controlled disarray-a collective of creatures operating largely on gut instinct rarely follows any clear direction. Even goblin leaders tend to be impulsive, irresponsible, and generally just not that good at actually leading.</p>\n<p>In theory, goblin commandos lead goblin raids. In practice, goblin commandos rarely continue to lead their comrades once a battle has begun. Most shirk their responsibilities in favor of wading into the fray and claiming glory from their kin.</p>",
