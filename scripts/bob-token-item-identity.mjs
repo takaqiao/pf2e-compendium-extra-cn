@@ -17,12 +17,13 @@ const projection = source => ({
 
 /** Exact token delta authorization. This module never changes source data. */
 export function prepareBobTokenItemIdentity({identities, ActorClass, ActorDeltaClass, TokenDocumentClass, SceneClass}) {
-  const rows = new Map();
+  const rows = new Map(), registeredItems = new Set();
   for (const row of identities.filter(row => row.scope === 'tokenItem')) {
     const key = `${row.sceneId}/${row.tokenId}/${row.actorId}/${row.itemId}`;
     if (rows.has(key)) throw new Error(`Duplicate BoB token Item identity: ${key}`);
     if (!row.itemProjection || !row.sceneProjection || !row.tokenProjection) throw new Error('Missing BoB token Item projection.');
     rows.set(key, row);
+    registeredItems.add(`${row.tokenId}/${row.actorId}/${row.itemId}`);
   }
   let applyOwner = ActorDeltaClass;
   if (rows.size) {
@@ -42,14 +43,37 @@ export function prepareBobTokenItemIdentity({identities, ActorClass, ActorDeltaC
     const token = actor?.token ?? actor?.parent;
     return [contextFor(token)?.delta?._source, concreteDelta(token)?._source, token?._source?.delta];
   };
-  // A delta override is a distinct identity even if it has a base Actor's Item ID.
-  // Never turn a rejected token binding into a looser actorItem authorization.
   const hasOwnDeltaItem = (item, actor) => !!actor?.isToken && deltaSources(actor).some(source =>
     Array.isArray(source?.items) && source.items.some(entry => entry?._id === item.id));
   const uniqueItem = (source, id) => {
     const matches = source?.items?.filter?.(entry => entry?._id === id) ?? [];
     return matches.length === 1 ? matches[0] : null;
   };
+  // A registered delta override is a distinct identity even if it has a base
+  // Actor's Item ID: never turn its rejected binding into an actorItem one.
+  // Scene ids are left out so that an unexpected parent stays on the strict path.
+  const isRegistered = (item, actor) => registeredItems.has(`${(actor?.token ?? actor?.parent)?.id}/${actor?.id}/${item.id}`);
+  const identityFields = source => ({_id: source?._id, type: source?.type, name: source?.name, folder: normalize(source?.folder),
+    sourceUuid: normalize(source?._stats?.compendiumSource), slug: normalize(source?.system?.slug)});
+  // PF2e migrations copy every base Item into a non-empty delta (pf2e.mjs 8.7.1
+  // 6797-6812), and play then toggles rules, locations or flags on the copy.
+  // Such an unregistered copy is still the base Item while every source of it
+  // keeps the base Item's identity fields; the caller then applies the base
+  // actorItem row with its own name, type, folder and source checks.
+  function inheritsBaseIdentity(item, actor) {
+    if (typeof ActorClass !== 'function' || !(actor instanceof ActorClass) || actor.isToken !== true) return false;
+    const token = actor.token ?? actor.parent;
+    const base = contextFor(token)?.baseActor ?? token?.baseActor;
+    if (!(base instanceof ActorClass) || base.isToken || base.id !== actor.id) return false;
+    const baseItem = base.items?.get(item.id)?._source;
+    if (!baseItem) return false;
+    const expected = identityFields(baseItem);
+    const copies = deltaSources(actor).filter(source => Array.isArray(source?.items) && source.items.some(entry => entry?._id === item.id));
+    return copies.length > 0 && copies.every(source => {
+      const copy = uniqueItem(source, item.id);
+      return !!copy && equal(identityFields(copy), expected);
+    }) && equal(identityFields(item._source), expected);
+  }
   function resolve(item, actor) {
     if (!rows.size || !(actor instanceof ActorClass) || actor.isToken !== true) return null;
     const token = actor.token, scene = token?.parent;
@@ -97,5 +121,5 @@ export function prepareBobTokenItemIdentity({identities, ActorClass, ActorDeltaC
       finally { contexts.pop(); } // Deliberately never await or retain async context.
     }});
   }
-  return {hasOwnDeltaItem,resolve,install};
+  return {hasOwnDeltaItem,isRegistered,inheritsBaseIdentity,resolve,install};
 }

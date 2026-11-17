@@ -134,7 +134,13 @@ export function installBobIdentityCompatibility({ItemClass, itemClasses, LoreCla
       if (identity && item.type === identity.itemType && item.name === identity.approvedName
         && (!ruleConsumer || normalized(item.system?.slug) === normalized(identity.itemSlug))) return identity;
     }
-    if (actor && tokenItems.hasOwnDeltaItem(item,actor)) return tokenItems.resolve(item,actor);
+    // A delta copy answers to its own tokenItem row when one is registered.
+    // Otherwise only a copy that kept the base Item's identity continues to the
+    // actorItem row below (PF2e migrations write such copies of every Item).
+    if (actor && tokenItems.hasOwnDeltaItem(item,actor)) {
+      if (tokenItems.isRegistered(item,actor)) return tokenItems.resolve(item,actor);
+      if (!tokenItems.inheritsBaseIdentity(item,actor)) return null;
+    }
     const scope = actor ? 'actorItem' : 'worldItem';
     let matches = (rows.get(`${scope}/${actor?.id ?? ''}/${item.id}`) ?? []).filter(identity => {
       if (item.type !== identity.itemType || item.name !== identity.approvedName
