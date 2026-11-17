@@ -2066,7 +2066,7 @@
           "tokenName": "模板 Template",
           "items": {
             "Healing Potion (Lesser)": {
-              "name": "次级治疗药水",
+              "name": "次等治疗药水 Healing Potion (Lesser)",
               "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span> (操作)</p><hr /><p><em>治疗药水</em>是一小瓶红宝石般鲜红的液体，饮用时会带来一阵刺痛般的酥麻感，随后饮用者的伤口迅速愈合。当你饮用<em>治疗药水</em>时，你恢复 @Damage[(2d8+5)[healing]] 点生命值。</p>"
             }
           },
@@ -2149,7 +2149,7 @@
           "tokenName": "祭司的遗骸 Priest's Remains",
           "items": {
             "Elixir of Life (Minor)": {
-              "name": "生命灵药（次级）",
+              "name": "下等生命灵药 Elixir of Life (Minor)",
               "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>生命灵药会加速活体生物的自然治疗过程与免疫系统。饮用这瓶灵药后，你恢复 @Damage[1d6[healing]] 生命值，并在 10 分钟内对抗疾病和毒素的豁免获得 +1 物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{效果：生命灵药}</p>"
             },
             "Alchemist's Fire (Lesser)": {
@@ -2169,11 +2169,11 @@
               "description": "<p>一卷铺盖。</p>"
             },
             "Antiplague (Lesser)": {
-              "name": "抗疫剂（次级）",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span> (操控)</p><hr /><p>抗疫剂能够强化身体对疾病的防御。饮用一剂抗疫剂后，你在24小时内对抗疾病的强韧豁免获得+2物品加值；这也适用于你对疾病进展进行的每日豁免。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.mVgLCbZgafIylRzh]{效果：抗疫剂}</p>"
+              "name": "次等抗生素 Antiplague (Lesser)",
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span> (操控)</p><hr /><p>抗生素能够强化身体对疾病的防御。饮用一剂抗生素后，你在24小时内对抗疾病的强韧豁免获得+2物品加值；这也适用于你对疾病进展进行的每日豁免。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.mVgLCbZgafIylRzh]{效果：抗生素}</p>"
             },
             "Elixir of Life (Minor)": {
-              "name": "生命灵药（初级）",
+              "name": "下等生命灵药 Elixir of Life (Minor)",
               "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>生命灵药会加速活体生物的自然治疗过程和免疫系统。饮用此灵药后，你恢复 @Damage[1d6[healing]] 点生命值，并在 10 分钟内，对抗疾病和毒素的豁免获得 +1 物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{效果：生命灵药}</p>"
             },
             "Healer's Toolkit": {
@@ -5091,8 +5091,8 @@
           "tokenName": "觅宝精的宝藏 Mirmicettes' Treasure",
           "items": {
             "Thurible of Revelation (Moderate)": {
-              "name": "启示香炉（中等）",
-              "description": "<p>这个黄铜香炉悬挂在一段链条上。大多数<em>启示香炉</em>都饰有盘旋的天界语文字，不过有些则由铁制成，并带有炼狱语或冥界语文字。</p><p><strong>启动—焚香</strong> <span class=\"action-glyph\">2</span>（操纵）</p><p><strong>消耗</strong> 价值至少 5 gp 的香</p><hr /><p><strong>效果</strong> 你点燃香炉中的香，它会燃烧 1 小时。在这段时间内，只要你持握着香炉，你便获得宗教检定的 +2 物品加值，且当你对宗教性质的文书进行解译文书时，任何你掷出的严重失败都会改为失败。</p><p>每天一次，当你启动香炉时，你可以增强其启示。在此次启动期间，你可以用一个交互动作将香炉举到眼前，通过烟雾窥视，从而获得 @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{见不可见} 的效果，持续 1 轮。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.lO95TwgihBdTilAB]{效果：启示香炉}</p>"
+              "name": "中等揭示香炉 Thurible of Revelation (Moderate)",
+              "description": "<p>这个黄铜香炉悬挂在一段链条上。大多数<em>揭示香炉</em>都饰有盘旋的天界语文字，不过有些则由铁制成，并带有炼狱语或冥界语文字。</p><p><strong>启动—焚香</strong> <span class=\"action-glyph\">2</span>（操纵）</p><p><strong>消耗</strong> 价值至少 5 gp 的香</p><hr /><p><strong>效果</strong> 你点燃香炉中的香，它会燃烧 1 小时。在这段时间内，只要你持握着香炉，你便获得宗教检定的 +2 物品加值，且当你对宗教性质的文书进行解译文书时，任何你掷出的严重失败都会改为失败。</p><p>每天一次，当你启动香炉时，你可以增强其启示。在此次启动期间，你可以用一个交互动作将香炉举到眼前，通过烟雾窥视，从而获得 @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{见不可见} 的效果，持续 1 轮。</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.lO95TwgihBdTilAB]{效果：揭示香炉}</p>"
             },
             "Golden Bracelet": {
               "name": "金手镯 Golden Bracelet"
@@ -5127,8 +5127,8 @@
               "name": "勋章、珠宝及其他随葬品 Medals, Jewelry, and Other Grave Goods"
             },
             "Thurible of Revelation (Moderate)": {
-              "name": "启示香炉（中阶）",
-              "description": "<p>这个黄铜香炉悬挂在一段链条上。大多数<em>启示香炉</em>都饰有旋绕的天界语文字，不过也有一些是铁制的，并刻有炼狱语或冥界语文字。</p><p><strong>启动—焚香</strong> <span class=\"action-glyph\">2</span> （操作）</p><p><strong>消耗</strong> 至少价值 5 gp 的香</p><hr /><p><strong>效果</strong> 你点燃香炉内的香，它会燃烧 1 小时。在此期间，只要你持握该香炉，你获得对宗教检定的 +2 物品加值，且当你解译宗教性质的文书时，你掷出的任何大失败都改为失败。</p><p>每天一次，当你启动该香炉时，你可以增强它的启示。在此次启动期间，你可以用一个交互动作将香炉举到眼前，透过烟雾窥视，以获得 @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{见不可见} 的效果，持续 1 轮。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lO95TwgihBdTilAB]{效果：启示香炉}</p>"
+              "name": "中等揭示香炉 Thurible of Revelation (Moderate)",
+              "description": "<p>这个黄铜香炉悬挂在一段链条上。大多数<em>揭示香炉</em>都饰有旋绕的天界语文字，不过也有一些是铁制的，并刻有炼狱语或冥界语文字。</p><p><strong>启动—焚香</strong> <span class=\"action-glyph\">2</span> （操作）</p><p><strong>消耗</strong> 至少价值 5 gp 的香</p><hr /><p><strong>效果</strong> 你点燃香炉内的香，它会燃烧 1 小时。在此期间，只要你持握该香炉，你获得对宗教检定的 +2 物品加值，且当你解译宗教性质的文书时，你掷出的任何大失败都改为失败。</p><p>每天一次，当你启动该香炉时，你可以增强它的启示。在此次启动期间，你可以用一个交互动作将香炉举到眼前，透过烟雾窥视，以获得 @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{见不可见} 的效果，持续 1 轮。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lO95TwgihBdTilAB]{效果：揭示香炉}</p>"
             }
           },
           "hazarddescription": "<div data-visibility=\"gm\">\n<p>@UUID[JournalEntry.kuWZJTVkxDcE2TJW.JournalEntryPage.d5cj1nyqVWsiM8aK]{B9. 追忆室}</p>\n</div>",
@@ -5376,11 +5376,11 @@
               "description": "<p><em>韧性</em>符文为护甲注入额外的防护魔法。这使穿戴者的豁免获得 +3 物品加值。</p>\n<p>你可以使用升级物品和符文的正常流程，升级一套护甲上已经蚀刻的<em>韧性</em>符文。</p>"
             },
             "Striking (Major)": {
-              "name": "强效（特级）",
+              "name": "上等强击 Striking (Major)",
               "description": "<p><em>强击</em>符文将毁灭性的魔法储存在武器中，使该武器造成的武器伤害骰由一个增加为两个。例如，一把<em>+1 强击匕首</em>造成的伤害将是 2d4，而不是 1d4。</p>\n<p>你可以将武器上已经蚀刻的<em>强击</em>符文升级为更强的版本，将现有符文的数值提高到新符文的数值。你必须拥有更强符文的配方才能这样做，而升级的价格是两种符文价格之间的差额。</p>\n<p>该武器造成四个武器伤害骰。</p>"
             },
             "Winged (Greater)": {
-              "name": "飞翼（高阶）",
+              "name": "高等插翅 Winged (Greater)",
               "description": "<p>这枚符文是护甲正面的一道旋动雕纹。一对大型的透明虚幻之翼从护甲背后浮现出来。</p>\n<p><strong>启动—飞向天空</strong> <span class=\"action-glyph\">2</span> （专注，操作）</p>\n<hr />\n<p><strong>效果</strong> 你描摹胸甲正面的符文，护甲上虚幻的双翼变得凝实，使你获得25尺的飞行速度或你的陆地速度，取两者中较低者。</p>\n<p>一经启动，双翼会无限期地保持凝实状态。若你愿意，可以结束该启动，而且你不必等待1小时后才能再次启动这枚符文。效果结束后，双翼会恢复为虚幻形态。</p>"
             }
           },
@@ -5407,7 +5407,7 @@
               "description": "<p><em>不破坚盾</em>是一面<em>高阶强效加固精金盾</em>（硬度 17，HP 136），几乎能够承受任何伤害。它只能被 @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{解离术} 法术所损坏（如同以豁免失败的生物为目标那样掷伤害），或被与毁灭相关的神器所损坏。</p>\n<hr />\n<p><strong>制作需求</strong> 原材料必须至少包含价值 4,400 gp 的精金。</p>"
             },
             "Shadow (Major)": {
-              "name": "阴影（强效）",
+              "name": "上等暗影 Shadow (Major)",
               "description": "<p>刻有此符文的护甲会呈现出朦胧的黑色外观。穿着该护甲时，你获得隐秘检定 +3 物品加值。</p>"
             },
             "Full Plate": {
@@ -5423,7 +5423,7 @@
           "tokenName": "闸门试剂 Portcullis Reagents",
           "items": {
             "Acid Flask (Major)": {
-              "name": "强效酸瓶 Acid Flask (Major)",
+              "name": "上等强酸瓶 Acid Flask (Major)",
               "description": "<p><strong>激活</strong> <span class=\"action-glyph\">A</span> 打击</p>\n<hr />\n<p>这个装满腐蚀性强酸的烧瓶造成1点强酸伤害、4d6持续性强酸伤害，以及4点强酸溅射伤害。你对攻击检定获得+3物品加值。</p>"
             }
           },
@@ -5435,15 +5435,15 @@
           "tokenName": "军需官的柜子 Quartermaster's Cabinet",
           "items": {
             "Antidote (Major)": {
-              "name": "解毒剂（强效）",
+              "name": "上等解毒剂 Antidote (Major)",
               "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span> (操作)</p><hr /><p>解毒剂能保护你免受毒素侵害。饮用解毒剂后，你在对抗毒素的强韧豁免中获得 +4 物品加值，持续 6 小时；并且当你饮用解毒剂时，你可以立即尝试对一个正在影响你的 14 级或以下毒素进行一次豁免。若你成功，该毒素被中和。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.TjBxxlTvb6tJP1jS]{效果：解毒剂}</p>"
             },
             "Antiplague (Major)": {
-              "name": "抗疫剂（强效） Antiplague (Major)",
-              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操纵）</p><hr /><p>抗疫剂可以强化身体对抗疾病的防御。饮用抗疫剂后，你在24小时内对抗疾病的强韧豁免获得+4物品加值；这也适用于你对疾病进展进行的每日豁免。</p>\n<p>当你饮用抗疫剂时，你可以立即针对一个影响你的14级或以下疾病进行一次豁免。如果你成功，则你从该疾病中痊愈。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.mVgLCbZgafIylRzh]{效果：抗疫剂}</p>"
+              "name": "上等抗生素 Antiplague (Major)",
+              "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操纵）</p><hr /><p>抗生素可以强化身体对抗疾病的防御。饮用抗生素后，你在24小时内对抗疾病的强韧豁免获得+4物品加值；这也适用于你对疾病进展进行的每日豁免。</p>\n<p>当你饮用抗生素时，你可以立即针对一个影响你的14级或以下疾病进行一次豁免。如果你成功，则你从该疾病中痊愈。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.mVgLCbZgafIylRzh]{效果：抗生素}</p>"
             },
             "Elixir of Life (Major)": {
-              "name": "生命灵药（强效）",
+              "name": "上等生命灵药 Elixir of Life (Major)",
               "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>生命灵药会加速活体生物的自然治疗过程和免疫系统。饮用这瓶灵药后，你恢复 @Damage[(8d6+21)[healing]] 点生命值，并在 10 分钟内对抗疾病和毒素的豁免获得 +3 物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{效果：生命灵药}</p>"
             },
             "Cold Iron Arrows": {
@@ -5516,7 +5516,7 @@
               "description": "<p><strong>启用</strong> <span class=\"action-glyph\">A</span>（专注）</p>\n<p><strong>需求</strong> 你受训于隐秘</p>\n<hr />\n<p>这个小瓶中装满了由干燥灵浆制成的灰绿色粉末。当你启用这些粉末时，它会对你施放一个4环的@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{隐形术}法术。然后你可以大步移动或调整步伐。如果你拥有对应的速度，也可以改为掘穴、攀爬、飞行或游泳。</p>"
             },
             "Endless Grimoire (True)": {
-              "name": "无尽魔典（真）",
+              "name": "真实无尽魔典 Endless Grimoire (True)",
               "description": "<p>打开时，这本魔典拥有无限页数，而且奇怪的是，这些页似乎几乎迫不及待地想要抄录法术。与大多数魔典不同，它所能容纳的法术数量没有限制。魔典对收录你的法术的渴望，使你在通过将法术抄录进魔典来如此做时，进行@UUID[Compendium.pf2e.actionspf2e.Item.Q5iIYCFdqJFM31GW]{习得法术}的检定获得+3物品加值。如果你在每日准备期间使用这本魔典，并且能够准备相应环阶的法术，魔典的本质会渗入你的思维，使你能够额外准备一个7环法术。</p>"
             }
           },
@@ -5991,7 +5991,7 @@
               "name": "普通贸易品 Mundane Trade Goods"
             },
             "Elixir of Life (Major)": {
-              "name": "生命灵药（强效） Elixir of Life (Major)",
+              "name": "上等生命灵药 Elixir of Life (Major)",
               "description": "<p><strong>启动</strong> <span class=\"action-glyph\">A</span>（操作）</p><hr /><p>生命灵药会加速活体生物的自然治疗过程与免疫系统。饮用此灵药后，你恢复 @Damage[(8d6+21)[healing]] 生命值，并在 10 分钟内对抗疾病和毒素的豁免获得 +3 物品加值。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{效果：生命灵药}</p>"
             },
             "Wand of Create Food (Rank 8)": {
@@ -6134,7 +6134,7 @@
           "tokenName": "掠劫亡龙的宝藏 Ravener's Hoard",
           "items": {
             "Bands of Force (Major)": {
-              "name": "力场束带（强效） Bands of Force (Major)",
+              "name": "上等力场手环 Bands of Force (Major)",
               "description": "<p>这些厚重的金属环带装饰着透明宝石，会在你的身体表面铺展开一层坚不可屈的力场。该力场为你提供 AC 和豁免的 +3 物品加值，并作为护甲给予你 +5 的最高敏捷调整值。你可以像对待轻甲那样将护符系附在这些环带上。</p>\n<p><strong>启动—反弹力场</strong> <span class=\"action-glyph\">R</span>（力场，操作）</p>\n<p><strong>触发</strong> 一个生物以近战打击对你造成严重失手</p>\n<hr />\n<p><strong>效果</strong> 你使用这些环带的运动调整值 [[/r d20+33]]{+33} 来推撞该生物。</p>"
             },
             "Messenger's Ring (Greater)": {
@@ -6566,7 +6566,7 @@
             },
             "A2. Watchtower Roof": {
               "name": "A2. 瞭望塔屋顶 A2. Watchtower Roof",
-              "text": "<section class=\"fvtt\"><header class=\"split\"><p>音频播放列表：</p><p>@UUID[Playlist.xfydfIJsuUUEFiWK]{瞭望塔屋顶（层）}</p></header><p>屋顶上的缚灵龙会周期性地咆哮。将此作为一个声音层添加到 @UUID[Playlist.kxEap7trVTUOzooY]{科拉克要塞周边环境} 之上。</p></section><div class=\"description\"><p>瞭望塔的屋顶视野开阔，能够将周围数英里的乡野风光尽收眼底。建筑每一侧各有一个哨兵平台，从塔身侧面突出。东北侧的平台上散落着大量残骸。</p></div><p>瞭望塔的屋顶由厚实的硬木制成，尽管已有些腐朽并因年代久远而磨损，却依然稳固。东北平台上散落残骸的区域为困难地形。</p><section class=\"encounter\"><aside class=\"right token\"><img class=\"scale200\" src=\"modules/pf2e-claws-of-the-tyrant/assets/actors/tokens/pzo14003_lesser-death.webp\" /><ul><li>@UUID[Actor.NldgVUIHB3asozHm]{缚灵龙}</li><li>@UUID[Actor.WoICHri7raCYv1wU]{次级死神}</li></ul></aside><header class=\"split\"><h3>遭遇</h3><p>低阶 18</p></header><p>塔顶栖息着一对不同寻常的不死生物：一只次级死神和一只缚灵龙。这条龙在多年前科拉克要塞遭受攻击期间死去。次级死神在不久后抵达，想要收割龙的灵魂，但这生物对生命执念太深，最终化作缚灵龙，使它的任务受挫。如今，次级死神守望着缚灵龙，在白昼时分如同守护者一般保护它，等待这条龙迎来最终的死亡。</p><p>次级死神和缚灵龙很少离开高塔附近，但会攻击任何踏上建筑屋顶的生物。战斗中，缚灵龙会使用其命能转移能力，将活力伤害转移给次级死神；随后，次级死神凭借其特殊的虚无治疗能力无害地吸收这些伤害。</p></section><section class=\"treasure\"><p><strong>@UUID[Actor.K0W44nZMkdtcCBLa]{宝藏}：</strong> 缚灵龙偶尔会掳走落单的旅人，并将尸体带回自己的巢穴。英雄们可以在东北平台的残骸中找到其中一些旅人的遗骸。其中一具尸体系着一条腰带，上面饰有一条镶嵌宝石的腰链，价值 1,000 gp。挂在这条腰链上的有一只小手铃，其功能分别等同于一件<em>高等乐师乐器</em>、一把<em>高等骷髅钥匙</em>、一瓶<em>幽灵尘</em>，以及一本微型化的<em>真正无尽魔典</em>，可舒适地置于读者掌心。</p></section>"
+              "text": "<section class=\"fvtt\"><header class=\"split\"><p>音频播放列表：</p><p>@UUID[Playlist.xfydfIJsuUUEFiWK]{瞭望塔屋顶（层）}</p></header><p>屋顶上的缚灵龙会周期性地咆哮。将此作为一个声音层添加到 @UUID[Playlist.kxEap7trVTUOzooY]{科拉克要塞周边环境} 之上。</p></section><div class=\"description\"><p>瞭望塔的屋顶视野开阔，能够将周围数英里的乡野风光尽收眼底。建筑每一侧各有一个哨兵平台，从塔身侧面突出。东北侧的平台上散落着大量残骸。</p></div><p>瞭望塔的屋顶由厚实的硬木制成，尽管已有些腐朽并因年代久远而磨损，却依然稳固。东北平台上散落残骸的区域为困难地形。</p><section class=\"encounter\"><aside class=\"right token\"><img class=\"scale200\" src=\"modules/pf2e-claws-of-the-tyrant/assets/actors/tokens/pzo14003_lesser-death.webp\" /><ul><li>@UUID[Actor.NldgVUIHB3asozHm]{缚灵龙}</li><li>@UUID[Actor.WoICHri7raCYv1wU]{次级死神}</li></ul></aside><header class=\"split\"><h3>遭遇</h3><p>低阶 18</p></header><p>塔顶栖息着一对不同寻常的不死生物：一只次级死神和一只缚灵龙。这条龙在多年前科拉克要塞遭受攻击期间死去。次级死神在不久后抵达，想要收割龙的灵魂，但这生物对生命执念太深，最终化作缚灵龙，使它的任务受挫。如今，次级死神守望着缚灵龙，在白昼时分如同守护者一般保护它，等待这条龙迎来最终的死亡。</p><p>次级死神和缚灵龙很少离开高塔附近，但会攻击任何踏上建筑屋顶的生物。战斗中，缚灵龙会使用其命能转移能力，将活力伤害转移给次级死神；随后，次级死神凭借其特殊的虚无治疗能力无害地吸收这些伤害。</p></section><section class=\"treasure\"><p><strong>@UUID[Actor.K0W44nZMkdtcCBLa]{宝藏}：</strong> 缚灵龙偶尔会掳走落单的旅人，并将尸体带回自己的巢穴。英雄们可以在东北平台的残骸中找到其中一些旅人的遗骸。其中一具尸体系着一条腰带，上面饰有一条镶嵌宝石的腰链，价值 1,000 gp。挂在这条腰链上的有一只小手铃，其功能分别等同于一件<em>高等乐师乐器</em>、一把<em>高等骷髅钥匙</em>、一瓶<em>幽灵尘</em>，以及一本微型化的<em>真实无尽魔典</em>，可舒适地置于读者掌心。</p></section>"
             },
             "A3. Flooded Bridge": {
               "name": "A3. 淹没桥梁 A3. Flooded Bridge",
@@ -6594,11 +6594,11 @@
             },
             "A9. Quartermaster’s Office": {
               "name": "A9. 军需官办公室 A9. Quartermaster’s Office",
-              "text": "<div class=\"description\"><p>一张书桌和几只档案柜塞满了这间狭窄的空间。档案柜中存放着科拉克要塞后勤需求的记录。从谷物运输到奢侈品采购请求，一切都有记载。这些记录为科拉克要塞的日常生活提供了独特的一瞥。查阅这些记录时，生物在对奥泽姆骑士团或科拉克要塞进行回忆知识的技能检定上获得 +1 物品加值。</p></div><p>其中一个档案柜装有精良锁具，而它的钥匙早已湮没于时光之中。生物可以通过一次成功的 @Check[type:athletics|dc:32|traits:action:force-open] 来 @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{强行打开} 这个柜子，或者通过 6 次成功的 @Check[type:thievery|dc:40|traits:action:pick-a-lock,secret] 来 @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{开锁}。</p><section class=\"treasure\"><p><strong>@UUID[Actor.HRuz7S0AZGdoaKDV]{宝藏}: </strong>上锁的柜子里装有 4 瓶上等解毒剂、4 瓶抗疫剂和 4 瓶上等生命灵药，此外还有以下每种各 10 件：精金箭、精金弩矢、寒铁箭、寒铁弩矢、银箭和银弩矢。</p></section>"
+              "text": "<div class=\"description\"><p>一张书桌和几只档案柜塞满了这间狭窄的空间。档案柜中存放着科拉克要塞后勤需求的记录。从谷物运输到奢侈品采购请求，一切都有记载。这些记录为科拉克要塞的日常生活提供了独特的一瞥。查阅这些记录时，生物在对奥泽姆骑士团或科拉克要塞进行回忆知识的技能检定上获得 +1 物品加值。</p></div><p>其中一个档案柜装有精良锁具，而它的钥匙早已湮没于时光之中。生物可以通过一次成功的 @Check[type:athletics|dc:32|traits:action:force-open] 来 @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{强行打开} 这个柜子，或者通过 6 次成功的 @Check[type:thievery|dc:40|traits:action:pick-a-lock,secret] 来 @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{开锁}。</p><section class=\"treasure\"><p><strong>@UUID[Actor.HRuz7S0AZGdoaKDV]{宝藏}: </strong>上锁的柜子里装有 4 瓶上等解毒剂、4 瓶抗生素和 4 瓶上等生命灵药，此外还有以下每种各 10 件：精金箭、精金弩矢、寒铁箭、寒铁弩矢、银箭和银弩矢。</p></section>"
             },
             "A10. Armory": {
               "name": "A10. 军械库 A10. Armory",
-              "text": "<p>这个房间的门装有精良锁。门上的五金件随着时间推移已经锈蚀，使得以 @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{强行打开} 打开这扇门的运动检定降为 @Check[type:athletics|dc:34|traits:action:force-open]。或者，PC可以通过 6 次成功的 @Check[type:thievery|dc:40|traits:action:pick-a-lock,secret] 检定来 @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{开锁}。</p><div class=\"description\"><p>这个房间的墙边排列着摆放武器和护甲的架子，但上面曾经存放的东西如今已空无一物。</p></div><section class=\"encounter\"><header class=\"split\"><h3>@UUID[Actor.dTAKNKC1ALBnWRHK]{攫抓爪}</h3><p>琐碎 18</p></header><p>奥泽姆骑士团在占据这座要塞期间，为这间军械库施加了防盗防护。如果有生物触碰其中一个架子，一只巨大的铁手套便会显现来束缚这个意图行窃者。铁手套会将生物固定在原地，直到该生物挣脱，或持续 1 小时；届时，这个陷阱会重置。</p></section><section class=\"treasure\"><p><strong>@UUID[Actor.XtnnvLBfLbAdzZ2N]{宝藏}</strong>：武器架和护甲架空空如也，但角色若成功进行一次 @Check[type:perception|dc:40|traits:action:search,secret] 检定，以 @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{搜寻} 房间，便会在地板上一块伪装地砖下方发现一个秘密夹层。夹层中装有刻蚀着<em>上等韧性符文</em>、<em>上等强击符文</em>和<em>高等飞翼符文</em>的符文石。</p></section>"
+              "text": "<p>这个房间的门装有精良锁。门上的五金件随着时间推移已经锈蚀，使得以 @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{强行打开} 打开这扇门的运动检定降为 @Check[type:athletics|dc:34|traits:action:force-open]。或者，PC可以通过 6 次成功的 @Check[type:thievery|dc:40|traits:action:pick-a-lock,secret] 检定来 @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{开锁}。</p><div class=\"description\"><p>这个房间的墙边排列着摆放武器和护甲的架子，但上面曾经存放的东西如今已空无一物。</p></div><section class=\"encounter\"><header class=\"split\"><h3>@UUID[Actor.dTAKNKC1ALBnWRHK]{攫抓爪}</h3><p>琐碎 18</p></header><p>奥泽姆骑士团在占据这座要塞期间，为这间军械库施加了防盗防护。如果有生物触碰其中一个架子，一只巨大的铁手套便会显现来束缚这个意图行窃者。铁手套会将生物固定在原地，直到该生物挣脱，或持续 1 小时；届时，这个陷阱会重置。</p></section><section class=\"treasure\"><p><strong>@UUID[Actor.XtnnvLBfLbAdzZ2N]{宝藏}</strong>：武器架和护甲架空空如也，但角色若成功进行一次 @Check[type:perception|dc:40|traits:action:search,secret] 检定，以 @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{搜寻} 房间，便会在地板上一块伪装地砖下方发现一个秘密夹层。夹层中装有刻蚀着<em>上等韧性符文</em>、<em>上等强击符文</em>和<em>高等插翅符文</em>的符文石。</p></section>"
             },
             "A11. Cistern": {
               "name": "A11. 蓄水池 A11. Cistern",
@@ -6861,7 +6861,7 @@
             },
             "B6. Watery Grave": {
               "name": "B6. 积水墓室 B6. Watery Grave",
-              "text": "<section class=\"fvtt\"><header><p>音频播放列表：</p><p>@UUID[Playlist.lViMDyiI80uMpYxh]{积水墓室（层）}</p></header><p>将此作为环境音层，叠加在 @UUID[Playlist.2kJ6x52GEwXyaiRQ]{进入地下墓穴} 的播放列表之上播放。</p></section><div class=\"description\"><p>这间墓室中的空气凉爽而潮湿。地面上覆盖着一滩滩黑水，在房间西端附近汇聚，那里有一尊跪在基座上的骑士雕像。骑士在身前举起一面插满箭矢的盾牌。</p></div><p><strong>破损墙体</strong>：PC若在一次 @Check[type:crafting|dc:23]、@Check[type:survival|dc:23] 或适当的学识检定中成功，便能辨认出水源来自墓室东墙的一道裂缝。该墙体拥有硬度 10、40 HP（BT 20），以及典型的物体免疫。如果墙体的生命值降至低于其损坏阈值，细流就会变成足以威胁淹没要塞的激流。水会开始以每 10 分钟 1 英尺的速度涌入地下墓穴。1 小时后，地下墓穴将被完全淹没。此后不久，要塞地基所受的损害将变得无法修复，整座奥泽姆要塞都会向内坍塌。</p><section class=\"encounter\"><aside class=\"right porthole\"><img class=\"flip\" src=\"modules/pf2e-claws-of-the-tyrant/assets/actors/tokens/pzo14003_mirmicette.webp\" /></aside><header class=\"split\"><h3>@UUID[Actor.OlBw2JqWcb3aBfKf]{3只觅宝精}</h3><p>中等 7</p></header><p>入侵奥泽姆要塞地下墓穴的三只觅宝精正在这个房间里收拢它们偷来的随葬品。除非PC先前在地下墓穴的其他地方遭遇过这些觅宝精，否则他们会发现这些妖精正在这里整理它们的宝藏。觅宝精熟悉地下墓穴的大致布局，并愿意分享它们所知道的信息，除非PC试图夺走它们的宝藏，或明显携带着任何觅宝精曾复制过的物品。在这种情况下，觅宝精会发动攻击。如果角色持有<em>@UUID[JournalEntry.Z2s3SlW4rRfvc75a.JournalEntryPage.sIrKMKRMlXREaO32]{奥泽姆圣杯}</em>（来自 @UUID[JournalEntry.kuWZJTVkxDcE2TJW.JournalEntryPage.d5cj1nyqVWsiM8aK]{区域 B9}），觅宝精也会发动攻击。</p></section><section class=\"treasure\"><p><strong>@UUID[Actor.J8fbOks8YlS6L9pY]{宝藏}</strong>：觅宝精的宝藏包括一只价值 100 gp 的金手镯（其复制品可在 @UUID[JournalEntry.kuWZJTVkxDcE2TJW.JournalEntryPage.U3y7f3tBBucMeWjL]{区域 B1} 找到）和一只价值 150 gp 的红宝石手镯（其复制品位于 @UUID[JournalEntry.kuWZJTVkxDcE2TJW.JournalEntryPage.U3y7f3tBBucMeWjL]{区域 B3}），以及一个中阶<em>启示香炉</em>（其复制品在 @UUID[JournalEntry.kuWZJTVkxDcE2TJW.JournalEntryPage.d5cj1nyqVWsiM8aK]{区域 B9}）。其余宝藏则是一些零散的随葬品，总价值 150 gp。</p></section>"
+              "text": "<section class=\"fvtt\"><header><p>音频播放列表：</p><p>@UUID[Playlist.lViMDyiI80uMpYxh]{积水墓室（层）}</p></header><p>将此作为环境音层，叠加在 @UUID[Playlist.2kJ6x52GEwXyaiRQ]{进入地下墓穴} 的播放列表之上播放。</p></section><div class=\"description\"><p>这间墓室中的空气凉爽而潮湿。地面上覆盖着一滩滩黑水，在房间西端附近汇聚，那里有一尊跪在基座上的骑士雕像。骑士在身前举起一面插满箭矢的盾牌。</p></div><p><strong>破损墙体</strong>：PC若在一次 @Check[type:crafting|dc:23]、@Check[type:survival|dc:23] 或适当的学识检定中成功，便能辨认出水源来自墓室东墙的一道裂缝。该墙体拥有硬度 10、40 HP（BT 20），以及典型的物体免疫。如果墙体的生命值降至低于其损坏阈值，细流就会变成足以威胁淹没要塞的激流。水会开始以每 10 分钟 1 英尺的速度涌入地下墓穴。1 小时后，地下墓穴将被完全淹没。此后不久，要塞地基所受的损害将变得无法修复，整座奥泽姆要塞都会向内坍塌。</p><section class=\"encounter\"><aside class=\"right porthole\"><img class=\"flip\" src=\"modules/pf2e-claws-of-the-tyrant/assets/actors/tokens/pzo14003_mirmicette.webp\" /></aside><header class=\"split\"><h3>@UUID[Actor.OlBw2JqWcb3aBfKf]{3只觅宝精}</h3><p>中等 7</p></header><p>入侵奥泽姆要塞地下墓穴的三只觅宝精正在这个房间里收拢它们偷来的随葬品。除非PC先前在地下墓穴的其他地方遭遇过这些觅宝精，否则他们会发现这些妖精正在这里整理它们的宝藏。觅宝精熟悉地下墓穴的大致布局，并愿意分享它们所知道的信息，除非PC试图夺走它们的宝藏，或明显携带着任何觅宝精曾复制过的物品。在这种情况下，觅宝精会发动攻击。如果角色持有<em>@UUID[JournalEntry.Z2s3SlW4rRfvc75a.JournalEntryPage.sIrKMKRMlXREaO32]{奥泽姆圣杯}</em>（来自 @UUID[JournalEntry.kuWZJTVkxDcE2TJW.JournalEntryPage.d5cj1nyqVWsiM8aK]{区域 B9}），觅宝精也会发动攻击。</p></section><section class=\"treasure\"><p><strong>@UUID[Actor.J8fbOks8YlS6L9pY]{宝藏}</strong>：觅宝精的宝藏包括一只价值 100 gp 的金手镯（其复制品可在 @UUID[JournalEntry.kuWZJTVkxDcE2TJW.JournalEntryPage.U3y7f3tBBucMeWjL]{区域 B1} 找到）和一只价值 150 gp 的红宝石手镯（其复制品位于 @UUID[JournalEntry.kuWZJTVkxDcE2TJW.JournalEntryPage.U3y7f3tBBucMeWjL]{区域 B3}），以及一个中等<em>揭示香炉</em>（其复制品在 @UUID[JournalEntry.kuWZJTVkxDcE2TJW.JournalEntryPage.d5cj1nyqVWsiM8aK]{区域 B9}）。其余宝藏则是一些零散的随葬品，总价值 150 gp。</p></section>"
             },
             "B7. Nirmathas's Pride": {
               "name": "B7. 涅玛萨斯之傲 B7. Nirmathas's Pride",
@@ -6873,7 +6873,7 @@
             },
             "B9. Remembrances": {
               "name": "B9. 追忆室 B9. Remembrances",
-              "text": "<section class=\"fvtt\"><header><p>音频播放列表：</p><p>@UUID[Playlist.mOUJNMZscnVEuN3t]{追忆室}</p></header><p>一份安静、没有音乐的播放列表，适合玩家找到并取得奥泽姆圣杯时那庄严的时刻。</p></section><div class=\"description\"><p>从地板直达天花板的架子沿着这间形状古怪的房间一路排列。大约三分之一的架子是空的，另有三分之一堆放着成堆的骸骨。剩下的架子上则摆放着各式小雕像、奖章以及其他小饰物。</p></div><section class=\"treasure\"><p><strong>@UUID[Actor.jkFsoUKTAJ9lJDtM]{宝藏}：</strong>只要快速搜寻一下，角色们就能在房间中央的架子上找到他们此行的目标——<em>奥泽姆圣杯</em>。其余宝藏中包括一枚<em>铁质徽章</em>、一根4环的<em>粉碎术魔杖</em>，以及价值300 gp的军功章、珠宝和其他陪葬品。这里还有一个中级<em>启示香炉</em>的觅宝精复制品。真正的香炉可以在@UUID[JournalEntry.kuWZJTVkxDcE2TJW.JournalEntryPage.Ccrm0irTCQjnVYjH]{区域 B6}中觅宝精的宝藏堆里找到。</p></section><p><strong>发展：</strong>一旦PC们取得<em>奥泽姆圣杯</em>，他们的任务就完成了，可以自由离开奥泽姆要塞。</p><p>如果PC们还没有击败来自@UUID[JournalEntry.kuWZJTVkxDcE2TJW.JournalEntryPage.Ccrm0irTCQjnVYjH]{区域 B6}的觅宝精，这些妖精会因圣杯被移走而感到不安，主要是因为它们还没弄清楚该如何复制它。愤怒的妖精会在角色离开房间时拦住队伍。</p>"
+              "text": "<section class=\"fvtt\"><header><p>音频播放列表：</p><p>@UUID[Playlist.mOUJNMZscnVEuN3t]{追忆室}</p></header><p>一份安静、没有音乐的播放列表，适合玩家找到并取得奥泽姆圣杯时那庄严的时刻。</p></section><div class=\"description\"><p>从地板直达天花板的架子沿着这间形状古怪的房间一路排列。大约三分之一的架子是空的，另有三分之一堆放着成堆的骸骨。剩下的架子上则摆放着各式小雕像、奖章以及其他小饰物。</p></div><section class=\"treasure\"><p><strong>@UUID[Actor.jkFsoUKTAJ9lJDtM]{宝藏}：</strong>只要快速搜寻一下，角色们就能在房间中央的架子上找到他们此行的目标——<em>奥泽姆圣杯</em>。其余宝藏中包括一枚<em>铁质徽章</em>、一根4环的<em>粉碎术魔杖</em>，以及价值300 gp的军功章、珠宝和其他陪葬品。这里还有一个中等<em>揭示香炉</em>的觅宝精复制品。真正的香炉可以在@UUID[JournalEntry.kuWZJTVkxDcE2TJW.JournalEntryPage.Ccrm0irTCQjnVYjH]{区域 B6}中觅宝精的宝藏堆里找到。</p></section><p><strong>发展：</strong>一旦PC们取得<em>奥泽姆圣杯</em>，他们的任务就完成了，可以自由离开奥泽姆要塞。</p><p>如果PC们还没有击败来自@UUID[JournalEntry.kuWZJTVkxDcE2TJW.JournalEntryPage.Ccrm0irTCQjnVYjH]{区域 B6}的觅宝精，这些妖精会因圣杯被移走而感到不安，主要是因为它们还没弄清楚该如何复制它。愤怒的妖精会在角色离开房间时拦住队伍。</p>"
             },
             "Concluding the Adventure": {
               "name": "冒险结局 Concluding the Adventure",
@@ -6958,11 +6958,11 @@
             },
             "A3. Flatpine's General Goods": {
               "name": "A3. 平松杂货铺 A3. Flatpine's General Goods",
-              "text": "<div class=\"description\"><p>这栋建筑入口上方悬挂着一块招牌，上面写着“平松杂货铺”。褪色的字样下方画着一棵孤零零的松树。穿过店铺入口后，木制货架和柜台都已腐朽坍塌，只剩下石质结构。</p></div><p>平松杂货铺曾是尤娅之望的商业中心，本地商人和工匠都曾在这里兜售他们的货物。</p><section class=\"encounter\"><aside class=\"right porthole\"><img src=\"modules/pf2e-claws-of-the-tyrant/assets/actors/tokens/pzo2110_ghoul.webp\" /></aside><header class=\"split\"><h3>@UUID[Actor.T5w2QpcZ0SFgAYDf]{2名食尸鬼店主}</h3><p>中等 1</p></header><p>店主布利多拉·平松和她的妻子艾斯卡拉米斯曾是深受社区喜爱的成员，人们知道她们会一边倾听孩子们的烦恼，一边给他们零食吃。尤娅之望遭到入侵时，两人躲进了店铺的地窖，直到一群食尸鬼发现了她们。如今，她们受诅咒而饱受食尸鬼般的饥渴折磨，哀叹自己从未尝过那些她们曾服务过的社区成员的血肉。她们打算通过吞食PC来弥补这一点，并从那些她们生前认识的孩子开始。</p><p>任何在尤娅之望长大，或是在孩提时就认识布利多拉和艾斯卡拉米斯的PC，在遭遇平松一家时都必须进行一次 @Check[type:will|dc:13] 豁免。若<strong>失败</strong>，该PC在遭遇开始时陷入 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐慌 1}（若为<strong>大失败</strong>，则为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐慌 2}）。</p></section><section class=\"treasure\"><p><strong>@UUID[Actor.oyaEGePKWPpEThl7]{宝藏}：</strong>PC击败这些食尸鬼后，可以尝试进行一次 @Check[type:perception|dc:13] 以 @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{搜寻}这间店铺。若成功，他们会发现一处藏匿点，里面有两瓶初级生命灵药和四瓶次级炽火胶。</p></section>"
+              "text": "<div class=\"description\"><p>这栋建筑入口上方悬挂着一块招牌，上面写着“平松杂货铺”。褪色的字样下方画着一棵孤零零的松树。穿过店铺入口后，木制货架和柜台都已腐朽坍塌，只剩下石质结构。</p></div><p>平松杂货铺曾是尤娅之望的商业中心，本地商人和工匠都曾在这里兜售他们的货物。</p><section class=\"encounter\"><aside class=\"right porthole\"><img src=\"modules/pf2e-claws-of-the-tyrant/assets/actors/tokens/pzo2110_ghoul.webp\" /></aside><header class=\"split\"><h3>@UUID[Actor.T5w2QpcZ0SFgAYDf]{2名食尸鬼店主}</h3><p>中等 1</p></header><p>店主布利多拉·平松和她的妻子艾斯卡拉米斯曾是深受社区喜爱的成员，人们知道她们会一边倾听孩子们的烦恼，一边给他们零食吃。尤娅之望遭到入侵时，两人躲进了店铺的地窖，直到一群食尸鬼发现了她们。如今，她们受诅咒而饱受食尸鬼般的饥渴折磨，哀叹自己从未尝过那些她们曾服务过的社区成员的血肉。她们打算通过吞食PC来弥补这一点，并从那些她们生前认识的孩子开始。</p><p>任何在尤娅之望长大，或是在孩提时就认识布利多拉和艾斯卡拉米斯的PC，在遭遇平松一家时都必须进行一次 @Check[type:will|dc:13] 豁免。若<strong>失败</strong>，该PC在遭遇开始时陷入 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐慌 1}（若为<strong>大失败</strong>，则为 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐慌 2}）。</p></section><section class=\"treasure\"><p><strong>@UUID[Actor.oyaEGePKWPpEThl7]{宝藏}：</strong>PC击败这些食尸鬼后，可以尝试进行一次 @Check[type:perception|dc:13] 以 @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{搜寻}这间店铺。若成功，他们会发现一处藏匿点，里面有两瓶下等生命灵药和四瓶次级炽火胶。</p></section>"
             },
             "A4. Hope's Breath Inn": {
               "name": "A4. 希望之息旅店 A4. Hope's Breath Inn",
-              "text": "<section class=\"fvtt\"><header><p>音频播放列表：</p><p>@UUID[Playlist.F2GdKzFCH9B6VnvY]{希望之息旅店（层）}</p></header><p>将此作为环境音层播放，覆盖在 @UUID[Playlist.imCEWUX57oOoHlM8]{尤娅之望} 的播放列表之上</p></section><div class=\"description\"><p>这间旅店曾经是个充满笑声与音乐的欢乐之地，但其壁炉中的炉火早已熄灭。这栋建筑的二层几乎已经完全坍塌，木瓦铺满地面，并让内部暴露在风雨之中。</p></div><p>在其鼎盛时期，希望之息旅店里挤满了旅行者与远征军。如今，它的厅堂中再无歌声与欢笑，取而代之的是死亡的空洞寂静。如果赫朵·普索玛随队同行，她会轻易认出这栋建筑，因为在塔-巴丰的军队入侵之前，她曾在这里担任主厨。</p><section class=\"encounter\"><aside class=\"right porthole\"><img src=\"modules/pf2e-claws-of-the-tyrant/assets/actors/tokens/zombie-shambler.webp\" /></aside><header class=\"split\"><h3>@UUID[Actor.Xo4IGzw28hivgMmM]{6 蹒跚丧尸}</h3><p>重度 1</p></header><p>和摩德沙的地穴一样，希望之息旅店曾经也有一处地下室，奥泽姆骑士团曾在其中储备应急补给。然而，塔-巴丰的不死生物很快就发现了这个藏身处，而在那里避难的人无一幸存。当PC们到达时，一群丧尸感知到了活人的存在，便蹒跚而出，想要品尝这五年多以来的第一口鲜活血肉。如果赫朵与PC们同行，她会立刻认出其中两只丧尸分别是她的丈夫赫萨诺托，以及那个他原本计划与之私奔的男人。赫朵一见此景便发出惊恐的尖叫，使这些不死生物的先攻获得+2环境加值。</p><section class=\"treasure\"><p><strong>@UUID[Actor.kfA4VOif5lmHi7Dk]{宝藏}：</strong>地下室里的大多数补给都已毁坏，但如果PC们击败这些丧尸，他们仍可以抢救出10个铺盖卷、两份次级抗疫剂、两瓶初级生命灵药，以及一套治疗者工具包。</p></section></section>"
+              "text": "<section class=\"fvtt\"><header><p>音频播放列表：</p><p>@UUID[Playlist.F2GdKzFCH9B6VnvY]{希望之息旅店（层）}</p></header><p>将此作为环境音层播放，覆盖在 @UUID[Playlist.imCEWUX57oOoHlM8]{尤娅之望} 的播放列表之上</p></section><div class=\"description\"><p>这间旅店曾经是个充满笑声与音乐的欢乐之地，但其壁炉中的炉火早已熄灭。这栋建筑的二层几乎已经完全坍塌，木瓦铺满地面，并让内部暴露在风雨之中。</p></div><p>在其鼎盛时期，希望之息旅店里挤满了旅行者与远征军。如今，它的厅堂中再无歌声与欢笑，取而代之的是死亡的空洞寂静。如果赫朵·普索玛随队同行，她会轻易认出这栋建筑，因为在塔-巴丰的军队入侵之前，她曾在这里担任主厨。</p><section class=\"encounter\"><aside class=\"right porthole\"><img src=\"modules/pf2e-claws-of-the-tyrant/assets/actors/tokens/zombie-shambler.webp\" /></aside><header class=\"split\"><h3>@UUID[Actor.Xo4IGzw28hivgMmM]{6 蹒跚丧尸}</h3><p>重度 1</p></header><p>和摩德沙的地穴一样，希望之息旅店曾经也有一处地下室，奥泽姆骑士团曾在其中储备应急补给。然而，塔-巴丰的不死生物很快就发现了这个藏身处，而在那里避难的人无一幸存。当PC们到达时，一群丧尸感知到了活人的存在，便蹒跚而出，想要品尝这五年多以来的第一口鲜活血肉。如果赫朵与PC们同行，她会立刻认出其中两只丧尸分别是她的丈夫赫萨诺托，以及那个他原本计划与之私奔的男人。赫朵一见此景便发出惊恐的尖叫，使这些不死生物的先攻获得+2环境加值。</p><section class=\"treasure\"><p><strong>@UUID[Actor.kfA4VOif5lmHi7Dk]{宝藏}：</strong>地下室里的大多数补给都已毁坏，但如果PC们击败这些丧尸，他们仍可以抢救出10个铺盖卷、两份次等抗生素、两瓶下等生命灵药，以及一套治疗者工具包。</p></section></section>"
             },
             "A5. Mordesha House Lodge": {
               "name": "A5. 摩德沙会馆 A5. Mordesha House Lodge",
@@ -7055,7 +7055,7 @@
             },
             "Event 10: Grove of Despair": {
               "name": "事件10：绝望林地 Event 10: Grove of Despair",
-              "text": "<p>在继续跋涉的途中，PC们进入了一片树林，这片树林横跨松流河，并一路延伸到远处的乡野。</p><section class=\"fvtt\"><header><p>音频播放列表：</p><p>@UUID[Playlist.MWWewgS3VM0MD8nX]{绝望林地（层）}</p></header><p>将此作为环境音层，叠加在 @UUID[Playlist.RUu3dC3As4xqJTP4]{通往维鲁米斯之路（陆路）}（或 @UUID[Playlist.hrtKCn7HlJBTDalR]{通往维鲁米斯之路（河岸）}）的播放列表上。</p></section><section class=\"encounter\"><header class=\"split\"><h3>@UUID[Actor.KghpiMuMKd0zfGZq]{绝望林地}</h3><p>低阶 2</p></header><p>进入这片林区约几百英尺后，一团浓雾降临到幸存者们身边。阴森诡异的声音从雾气边缘之外回荡而来。</p></section><section class=\"treasure\"><p><strong>@UUID[Actor.ZrB3DSuFMNhTdm2k]{宝藏}：</strong>如果PC们解除这个作祟，迷雾便会散开，显露出一个安放在一棵古树树根之间的箱子。箱子里有两瓶<em>次级治疗药水</em>。</p></section>"
+              "text": "<p>在继续跋涉的途中，PC们进入了一片树林，这片树林横跨松流河，并一路延伸到远处的乡野。</p><section class=\"fvtt\"><header><p>音频播放列表：</p><p>@UUID[Playlist.MWWewgS3VM0MD8nX]{绝望林地（层）}</p></header><p>将此作为环境音层，叠加在 @UUID[Playlist.RUu3dC3As4xqJTP4]{通往维鲁米斯之路（陆路）}（或 @UUID[Playlist.hrtKCn7HlJBTDalR]{通往维鲁米斯之路（河岸）}）的播放列表上。</p></section><section class=\"encounter\"><header class=\"split\"><h3>@UUID[Actor.KghpiMuMKd0zfGZq]{绝望林地}</h3><p>低阶 2</p></header><p>进入这片林区约几百英尺后，一团浓雾降临到幸存者们身边。阴森诡异的声音从雾气边缘之外回荡而来。</p></section><section class=\"treasure\"><p><strong>@UUID[Actor.ZrB3DSuFMNhTdm2k]{宝藏}：</strong>如果PC们解除这个作祟，迷雾便会散开，显露出一个安放在一棵古树树根之间的箱子。箱子里有两瓶<em>次等治疗药水</em>。</p></section>"
             },
             "Event 12: Abandoned Cottage": {
               "name": "事件12：废弃小屋 Event 12: Abandoned Cottage",
