@@ -520,5 +520,7 @@ export function installBobIdentityCompatibility({ItemClass, itemClasses, LoreCla
     } catch (error) { dispose(); throw error; }
   };
   dispose.isActive = () => active;
+  // Lets the generic attack-effect lookup leave BoB's Items to these identities.
+  dispose.approves = item => !!item && !!approved(item);
   return dispose;
 }

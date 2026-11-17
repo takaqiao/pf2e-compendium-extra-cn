@@ -1,12 +1,13 @@
 import {BOB_APPROVED_IDENTITIES} from './bob-approved-identities.mjs';
 import {BOB_CHINESE_LANGS, isBobActive} from './bob-i18n-core.mjs';
 import {installBobIdentityCompatibility} from './bob-identity-core.mjs';
-import {setBobIdentityReadiness} from './bob-runtime-state.mjs';
+import {setBobApprovedItem, setBobIdentityReadiness} from './bob-runtime-state.mjs';
 
 // PF2e exposes its classes and sluggify during init; documents prepare later.
 // The installer validates the native consumers before applying wrappers.
 Hooks.once('i18nInit', () => {
   setBobIdentityReadiness();
+  setBobApprovedItem();
   const isEnabled = () => isBobActive(game) && BOB_CHINESE_LANGS.includes(game.i18n.lang);
   if (!isEnabled()) return;
   const classes = CONFIG.PF2E.Item.documentClasses;
@@ -23,6 +24,8 @@ Hooks.once('i18nInit', () => {
     attackEffectLabels: CONFIG.PF2E.attackEffects,
     sluggify: game.pf2e.system.sluggify, identities: BOB_APPROVED_IDENTITIES, isEnabled
   });
+  // A disposed installation approves nothing, so this needs no reset on rollback.
+  setBobApprovedItem(installation.approves);
   // Foundry materializes queued sheet registrations after setup, before ready.
   // Babele 2.9.1's ready callback necessarily awaits session initialization
   // before applying translations. This synchronous ready callback therefore

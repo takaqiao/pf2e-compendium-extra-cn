@@ -43,6 +43,7 @@
     "scripts/eldamon-legends-display.js",
     "scripts/eldamon-legends-gallery.mjs",
     "scripts/team-plus-display.mjs",
+    "scripts/npc-english-slug-compat.mjs",
     "scripts/bob-compat.mjs",
     "scripts/bob-identity-compat.mjs",
     "scripts/bob-spell-display-compat.mjs",
