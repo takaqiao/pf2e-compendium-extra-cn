@@ -19494,8 +19494,8 @@
 			"description": "<p>此套优雅板甲上的纹章图样永不黯淡褪色。<em>荣光板甲</em>是件<em>+2韧性全身甲</em>。</p>\n<p>在战斗中，<em>荣光板甲</em>会发出半径10尺的强光，这光照在敌人的眼中有会遮蔽除了装备者以外的生物的强大光晕。当敌人看见荣光板甲的装备者时，须进行@Check[will|dc:33]豁免，该敌人随后免疫此豁免一分钟。</p>\n<p><strong>成功</strong> 该敌人不受影响。</p>\n<p><strong>失败</strong> 1分钟内，当装备者的盟友身处荣光板甲的10尺照明范围内时，对该敌人@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。此隐蔽只有身处照明范围时生效，在豁免后才进入照明范围的盟友同样获得隐蔽。</p>\n<p><strong>大失败</strong> 同失败，但改为盟友对该敌人@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]而非隐蔽。</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">D</span> 命令，交互</p>\n<p><strong>效果</strong> 此盔甲向你施放@UUID[Compendium.pf2e.spells-srd.Item.8xRzLhwGL7Dgy3EZ]{庇护术 Sanctuary}。</p>"
 		},
 		"Cantrip Deck (5-pack)": {
-			"name": "戏法套牌（5卡包） Cantrip Deck (5-pack)",
-			"description": "<p>为了尽可能普及魔法知识，内西斯（Nethys）的崇拜者们发明了一种方法，可以将戏法绑定到非施法者也能使用的卡牌上。这副套牌含有一摞厚羊皮纸制成的纸牌，每张牌大约为扑克牌的一半大小。每一张卡牌都以严谨的文字简单描述了它所含有的戏法，根据不同的学派以不同颜色和数字标出。</p>\n<p>该卡包内含5张单一种类的常见戏法（例如光亮术light）</p>\n<hr />\n<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 或更多 （想象，交互）</p>\n<hr />\n<p><strong>效果</strong> 你想象自己需要的戏法，该戏法会自动出现在牌库顶端，然后你抽卡。套牌将该戏法作为1环级法术施放，法术DC为15并且法师攻击调整值为+5。戏法生效后，该卡牌随机化为尘土。启动所需要的动作数量取决于你选择的戏法。</p>"
+			"name": "5卡包戏法套牌 Cantrip Deck (5-pack)",
+			"description": "<p>内希斯的崇拜者发现了一种把戏法封进卡牌的方法，让非施法者也能使用。这副套牌由厚羊皮纸卡牌组成，每张大约是普通扑克牌的一半大小。每张卡牌上都以严谨、简练的字体写明其所含戏法的名称。</p>\n<p>该卡包内含5张同一种常见戏法的卡牌（例如@UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{光亮术}）。</p>\n<p><strong>启动—抽牌</strong> <span class=\"action-glyph\">1</span> 或更多（操作）</p><hr /><p><strong>效果</strong> 你想象自己需要的戏法，使其卡牌升到牌堆顶端，然后抽出这张卡。套牌将该戏法作为1环法术施放，DC为15，法术攻击调整值为+5。戏法生效时，卡牌化为尘土。此启动所需的动作数与你所选戏法的施法动作数相同。</p>"
 		},
 		"Silver and jade censer": {
 			"name": "银玉香炉 Silver and jade censer",
