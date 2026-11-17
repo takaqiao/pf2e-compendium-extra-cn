@@ -5715,10 +5715,6 @@
 			"name": "连击 Flurrying",
 			"description": "<p>当你使用蚀刻的武器进行疾风连击，且你的第一次打击将一个生物降至0 HP时，你可以使用该武器的余波进行你的第二次打击，将这次触及提升至30尺。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span> （专注，力场）</p>\n<p><strong>频率</strong> 每日一次</p><hr /><p><strong>效果</strong> 该武器施展一次@UUID[Compendium.pf2e.spells-srd.Item.WPu3UE3kTXSLqO40]法术。这把幽灵武器的外观和蚀刻武器类似。这把武器使用你正常的攻击加值和伤害，而非法术中列出的伤害，但在决定伤害时使用你的感知调整值而非力量调整值。在<em>灵能武装</em>攻击时，你可以选择以疾风连击替换打击；这仍然算作你在本回合使用的绝技。你可以以和该法术相同的方式维持启动。</p>"
 		},
-		"Horned Dragon Breath Potion": {
-			"name": "智角龙吐息药水 Horned Dragon Breath Potion",
-			"description": "<p>此液体含有幼年智角龙的血液。饮下药水后 1 小时内，你可以释放一团毒云。呼出此龙息使用单一动作。毒云在 @Template[cone|distance:15] 区域内造成 @Damage[2d6[poison]|options:area-damage] 伤害，区域内每个生物必须尝试一次 @Check[fortitude|dc:19|basic|showDC:all|options:area-effect] 豁免。使用此吐息武器后，[[/r 1d4 #rounds]]{1d4 轮} 内不能再次使用。</p>"
-		},
 		"Blast Suit": {
 			"name": "防爆服 Blast Suit",
 			"description": "<p>由重型钢板铆接而成，这套+1韧性@UUID[Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p]专门用于防止突然爆炸。然而，这种额外的安全防护是以牺牲移动力为代价的。</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">r</span> 命令</p>\n<p><strong>触发</strong> 你受到一个需要你尝试反射豁免的区域效果影响，或者你将要受到散射武器的溅射伤害；</p>\n<hr />\n<p><strong>效果</strong> <em>防爆服</em>锁死成为一道坚固的屏障，保护你不受爆炸伤害，但任何情况下都无法离开位置。</p>\n<p>你被@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]，你针对区域效果的反射豁免有+2环境加值，并且你针对区域效果和散射武器的溅射效果获得5点抗力（这不会伤害防爆服）。只要<em>防爆服</em>处于锁定状态，这些效果就会持续生效。你可以使用一个交互动作来解锁它。</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.PFtYVamw7de2cozU]</p>"
