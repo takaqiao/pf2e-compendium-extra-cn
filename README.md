@@ -16,6 +16,14 @@
 - Hero Action Deck：52 张英雄行动牌、52 张中文卡面、29 条界面文字
 - Adventures+：宿主、诡术师、旅行、首领、生物图鉴与房规
 
+## Stylish Shop 补译（v1.0.82）
+
+补上 Stylish Shop 2.1.1 新增的 61 条界面文字：古玩店主题的文字字段、未鉴定物品上架、按物品类型限制出售、窗口模式、显示属性公式和图标选择器。
+
+其余中文来自 zzz_mod_chn（Translation: 中文 [Mod]），Extra 只收它没有的键。Foundry 按模组目录名的顺序合并语言文件，zzz_mod_chn 排在 Extra 之后，两边出现同一个键时以 zzz_mod_chn 为准。语言文件在注册设置前加载，更新 Extra 后需刷新客户端。
+
+回归测试：`node --test tests/stylish-shop-i18n.test.mjs`。
+
 ## PF2e 8.7.0 与 Adventures+ 1.1.2 兼容（v1.0.75）
 
 PF2e 8.7.0 下「创建爱达梦」完成后的聊天提示、Adventures+ 1.1.2 下「X needs N Endurance and not to be fatigued to …」通知重新显示中文。两处原先按上游方法的源码哈希放行，上游每次构建都会改压缩短名，哈希随之失配、显示退回英文。现在改按源码形状比较（`scripts/source-shape.mjs`）：只差压缩短名的构建照常放行，属性名、文字、运算或变量对应关系变了仍不放行，退回上游原文。Adventures+ 的 17 条通知全部改用这种比较。已核对的上游构建：PF2e 8.5.0、8.5.1、8.6.0、8.6.1、8.7.0，Adventures+ 1.0.0、1.0.1、1.0.2、1.1.2。

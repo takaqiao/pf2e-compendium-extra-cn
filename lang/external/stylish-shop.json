@@ -1,0 +1,109 @@
+{
+  "STYLISH_SHOP": {
+    "bankSettlements": {
+      "sourceBank": "银行账户",
+      "sourceWallet": "虚拟钱包",
+      "sourceSheet": "角色卡"
+    },
+    "settings": {
+      "openWindowed": {
+        "name": "以窗口模式打开商店",
+        "hint": "在当前客户端以可移动的窗口打开所有商店。下次打开商店时生效。商店打开期间仍可在窗口和全屏之间切换。"
+      }
+    },
+    "settingsCenter": {
+      "sections": {
+        "world": {
+          "selling": {
+            "title": "玩家可出售的物品类型",
+            "description": "这些规则适用于所有设为「沿用世界设置」的商店。商店默认沿用此设置。各商店可在「交易与定价」中自行选择规则。"
+          }
+        }
+      }
+    },
+    "ui": {
+      "unidentifiedItem": "未鉴定物品",
+      "unidentifiedReveal": "真实身份揭晓"
+    },
+    "config": {
+      "iconPicker": {
+        "title": "选择图标",
+        "search": "搜索图标（例如 sword、potion、coins）",
+        "close": "关闭图标选择器",
+        "clear": "清除图标",
+        "previous": "上一页",
+        "next": "下一页",
+        "empty": "没有匹配的图标，请换个词搜索。",
+        "unavailable": "无法加载图标。你仍可在字段中直接输入图标类名。",
+        "count": "{start}–{end}，共 {total} 个"
+      },
+      "audioTab": {
+        "sfx": {
+          "SHOP_CLOSE": "离店道别"
+        },
+        "noSound": "（静音）"
+      },
+      "identity": {
+        "npcArtHint": "选择一张图片，或一段 WEBM、MP4 视频。视频会静音循环播放。店主语音请在「音频」标签页中设置。"
+      },
+      "themeTab": {
+        "curiosSpecific": "古玩店详情"
+      },
+      "displayStatsDialog": {
+        "modeLabel": "显示方式",
+        "modePath": "单个值",
+        "modeFormula": "公式",
+        "placeholderFormula": "例如 [HR + {system.damage.value}]",
+        "formulaHint": "把物品数据路径写在花括号 {} 里，文字和运算符按原样显示。用 {path|upper} 转为大写，用 {path|sign} 显示带正负号的数字。取不到值时，该物品不显示此属性。",
+        "preview": "预览",
+        "previewNoItem": "在世界或某个角色中加入一件此类型的物品，即可查看预览。",
+        "previewMissing": "已隐藏：请检查路径、花括号和修饰符。",
+        "defaults": {
+          "accuracy": "命中"
+        }
+      },
+      "unidentified": {
+        "enabled": "作为未鉴定物品上架",
+        "hint": "玩家在商店里看到的是这些信息。买家购买后才会得知物品的真实身份。",
+        "name": "显示名称",
+        "image": "显示图片",
+        "description": "显示描述"
+      },
+      "sell": {
+        "itemTypes": "玩家可出售的物品类型",
+        "itemTypesHint": "选择此商店向玩家收购哪些物品类型。被排除的类型不会出现在出售列表中。价格和其他出售条件仍然适用。",
+        "itemTypeModes": {
+          "inherit": "沿用世界设置",
+          "all": "允许所有类型",
+          "allow": "只允许选中的类型",
+          "block": "排除选中的类型"
+        },
+        "allowTypesHint": "只能出售选中的类型。一个都没选时，任何物品都不能出售。",
+        "blockTypesHint": "选中的类型不能出售。一个都没选时，允许出售所有类型。",
+        "inheritTypesHint": "使用「全局设置」里「世界设置」下的现行规则。在此改选其他选项，可为此商店另定规则。",
+        "noItemTypes": "此游戏系统没有可供选择的物品类型。"
+      },
+      "editor": {
+        "labels": {
+          "drawerCountSuffix": "抽屉数量后缀",
+          "provenanceHeading": "档案卡标题",
+          "provenanceHeadingSubtitle": "档案卡副标题",
+          "drawerNumberLabel": "抽屉编号前缀",
+          "askingPriceLabel": "价格标签",
+          "signatureLineLabel": "签名栏标签",
+          "drawerSelectShortcut": "抽屉快捷键：选择",
+          "drawerCloseShortcut": "抽屉快捷键：关闭",
+          "pawnNoticeTitle": "出售模式标牌标题",
+          "pawnNoticeSubtitle": "出售模式标牌副标题",
+          "ledgerHeading": "出售账簿标题",
+          "ledgerHeadingSubtitle": "出售账簿副标题"
+        },
+        "showKeeperShadow": "在墙上显示店主的影子",
+        "keeperShadowHint": "店主图片没有透明背景时，请关闭此项。"
+      }
+    },
+    "sell": {
+      "itemTypeNotAccepted": "此商店不收购这一类型的物品。"
+    }
+  }
+}
