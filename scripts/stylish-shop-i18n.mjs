@@ -3,8 +3,9 @@ const STYLISH_SHOP_ID = 'stylish-shop';
 const languagePath = new URL('../lang/external/stylish-shop.json', import.meta.url).href;
 
 // zzz_mod_chn ships most Stylish Shop Chinese strings. Foundry merges module language files
-// in module directory order, so zzz_mod_chn loads after Extra and keeps its own wording;
-// this file only carries keys zzz_mod_chn does not have.
+// in game.modules order, so zzz_mod_chn loads after Extra and keeps its own wording;
+// this file only carries keys zzz_mod_chn does not have. Rewording a zzz key goes in
+// stylish-shop-overrides.json, which inject-lang.js merges at i18nInit.
 Hooks.once('init', () => {
   const system = game.system?.id;
   const extra = game.modules.get(EXTRA_ID);

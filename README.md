@@ -16,11 +16,13 @@
 - Hero Action Deck：52 张英雄行动牌、52 张中文卡面、29 条界面文字
 - Adventures+：宿主、诡术师、旅行、首领、生物图鉴与房规
 
-## Stylish Shop 补译（v1.0.82）
+## Stylish Shop 补译（v1.0.82、v1.0.83）
 
-补上 Stylish Shop 2.1.1 新增的 61 条界面文字：古玩店主题的文字字段、未鉴定物品上架、按物品类型限制出售、窗口模式、显示属性公式和图标选择器。
+v1.0.82 补上 Stylish Shop 2.1.1 新增的 61 条界面文字：古玩店主题的文字字段、未鉴定物品上架、按物品类型限制出售、窗口模式、显示属性公式和图标选择器。
 
-其余中文来自 zzz_mod_chn（Translation: 中文 [Mod]），Extra 只收它没有的键。Foundry 按模组目录名的顺序合并语言文件，zzz_mod_chn 排在 Extra 之后，两边出现同一个键时以 zzz_mod_chn 为准。语言文件在注册设置前加载，更新 Extra 后需刷新客户端。
+v1.0.83 补齐 zzz_mod_chn 从 2.0.2 起就没有的 382 条：商店设置窗口的导航和分区标题、画面文字字段、预设、装饰商店、背景图片、自动补货、待审结算和物品数量路径。另有 7 条的英文在 2.1 改过，zzz_mod_chn 还是旧译，按新原文重译。
+
+其余中文来自 zzz_mod_chn（Translation: 中文 [Mod]）。Foundry 按 `game.modules` 的顺序（服务器下发的模组列表）合并各模组的语言文件，zzz_mod_chn 排在 Extra 之后，同一个键以 zzz_mod_chn 为准。所以 `lang/external/stylish-shop.json` 只收 zzz_mod_chn 没有的键；那 7 条重译放在 `lang/external/stylish-shop-overrides.json`，到 `i18nInit` 才合并，这时所有语言文件都已加载完，能盖过 zzz_mod_chn。语言文件在注册设置前加载，更新 Extra 后需刷新客户端。
 
 回归测试：`node --test tests/stylish-shop-i18n.test.mjs`。
 

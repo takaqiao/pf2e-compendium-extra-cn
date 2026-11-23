@@ -67,20 +67,29 @@ const EXTERNAL_LANG_SOURCES = [
   'battlezoo-dragons-misfit-dragons-pf2e',
   'battlezoo-eldamon-pf2e',
   'battlezoo-eldamon-legends-pf2e',
+  // zzz_mod_chn carries most Stylish Shop strings and Foundry merges its cn.json after Extra's
+  // own language files (game.modules order). The keys zzz lacks live in stylish-shop.json,
+  // registered by scripts/stylish-shop-i18n.mjs. The few keys whose English changed in 2.1
+  // are merged here instead: i18nInit runs after every language file, so they replace zzz.
+  'stylish-shop',
 ];
+// Sources whose file under lang/external/ is not named after the module.
+const EXTERNAL_LANG_FILES = {'stylish-shop': 'stylish-shop-overrides'};
+const PF2_CHINESE_SOURCES = new Set(['pf2e-team-plus-adventures', 'stylish-shop']);
 
 Hooks.once('i18nInit', async () => {
   let totalKeys = 0;
   let loadedModules = 0;
   for (const sourceModule of EXTERNAL_LANG_SOURCES) {
     if (!game.modules.get(sourceModule)?.active) continue;
-    if (sourceModule === 'pf2e-team-plus-adventures'
+    if (PF2_CHINESE_SOURCES.has(sourceModule)
       && (!['pf2e', 'sf2e'].includes(game.system?.id)
         || !['cn', 'zh-CN', 'zh_Hans', 'zh-Hans'].includes(game.i18n.lang))) continue;
     if (AV_LANG_SOURCES.has(sourceModule)
       && (game.system?.id !== 'pf2e' || !AV_CHINESE_LANGS.has(game.i18n.lang))) continue;
     try {
-      const url = `modules/${MODULE_ID}/lang/external/${sourceModule}.json`;
+      const file = EXTERNAL_LANG_FILES[sourceModule] ?? sourceModule;
+      const url = `modules/${MODULE_ID}/lang/external/${file}.json`;
       const response = await fetch(url);
       if (!response.ok) continue;
       const translations = await response.json();

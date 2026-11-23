@@ -1,0 +1,31 @@
+{
+  "STYLISH_SHOP": {
+    "settingsCenter": {
+      "tabs": {
+        "world": {
+          "description": "商店默认值与出售规则"
+        }
+      },
+      "sections": {
+        "personal": {
+          "interface": {
+            "description": "选择商店窗口和角色卡标题栏按钮的显示方式。"
+          }
+        }
+      }
+    },
+    "config": {
+      "audioTab": {
+        "sfxHint": "为此商店选择音效。留空的项目使用主题音效；离店道别在添加文件之前保持静音。",
+        "sfxOverridesHint": "每行填一个文件路径，或用文件夹按钮添加文件。每次播放音效时，会从中随机选一个文件。",
+        "sfx": {
+          "SHOP_OPEN": "进店问候"
+        }
+      },
+      "identity": {
+        "directoryArtHint": "商店目录卡片的可选图片。留空时，若 NPC 立绘是图片就使用它，否则使用角色头像。"
+      },
+      "npcArt": "店主立绘"
+    }
+  }
+}
