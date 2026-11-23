@@ -95,10 +95,6 @@
       "name": "塔布拉赫 Tablàh",
       "description": "<p>塔布拉鼓（tablàh），通常被称为高脚杯鼓或圣杯鼓，并且根据地区不同有时也称作 dombek 或 tarabuka，其形状类似一个巨大的高脚杯。由木材制成并覆以薄皮革膜，这种打击乐器在许多音乐传统中扮演着至关重要的角色，为其增添了独特的节奏。</p>\n<p>The tablàh, commonly referred to as the goblet drum or chalice drum, and sometimes called dombek or tarabuka depending on the region, has a shape that resembles a large goblet. Made of wood with a thin leather membrane, this percussion instrument plays a vital role in many musical traditions, contributing a unique rhythm to them.</p>"
     },
-    "Paradiso": {
-      "name": "天堂 Paradiso",
-      "description": "<p>Paradiso 是一种稀有且独特的花岗岩颜色，只在诸界的少数地点发现。它需求量很高但供应短缺，常常导致地区价格飙升。其浓郁的紫色调赋予它高端外观，使其成为室内家具（如台面和桌子）的精美之选。</p><p></p>\n<p>Paradiso is a rare and distinct granite color, found only in a few locations throughout the realms. It is in high demand but short supply, often causing regional prices to skyrocket. Its rich purple hue gives it a premium appearance, making it an exquisite choice for indoor furniture such as countertops and tables.</p><p></p>"
-    },
     "Onion Sprout": {
       "name": "洋葱芽 Onion Sprout",
       "description": "<p>发芽的洋葱在当年不会长出更多的洋葱。相反，它最终会开花并开始结籽。之后，这些种子可以在下一年长出洋葱。通过将洋葱层内的芽分开并将其种在肥沃的土壤中，你可以在一个生长季内培育出多个新的洋葱。</p>\n<p>A sprouting onion won't grow more onions in the current year. Instead, it will eventually flower and begin seeding. Afterward, the seeds can grow onions for the following year. By separating the sprouts inside an onion's layers and planting them in good soil, you can produce multiple new onions within a single season.</p>"
@@ -135,10 +131,6 @@
       "name": "绿色夏甲虫 Green Summer Beetle",
       "description": "<p>绿夏甲虫在生长季节会成为问题，危害花园和作物。这些甲虫以无花果、葡萄和浆果等成熟或发酵的水果为目标。每到夏天，许多平民都会尝试在种植周期中加入苦艾，因为它大多表现为一种驱虫剂。</p>\n<p>Green Summer beetles become a problem during the growing season, harming both gardens and crops. These beetles target ripe or fermenting fruits like figs, grapes, and berries. Every summer, many common folk try to include wormwood in their planting cycle as it mostly behaves as an insect repellent.</p>"
     },
-    "Aurichalcum Coin": {
-      "name": "星金硬币 Aurichalcum Coin",
-      "description": "<p>金铜钱币曾在古代广泛流通。然而，在更近的时代，它们只在偏远地区中发现，那里的主要金属如黄金或白银的许可稀缺，在那里它们的价值与金币相近。</p>\n<p>Aurichalcum Coins once saw widespread circulation in ancient times. However, in the more recent era, they are found only in remote regions with scarce access to primary metals such as gold or silver, where they are valued similarly to gold pieces.</p>"
-    },
     "Salmon Steak": {
       "name": "三文鱼排 Salmon Steak",
       "description": "<p>鲑鱼主要产自特定寒冷地区，由于其稀缺性被视为一种稀有且昂贵的餐食。酒馆通常借助神圣或魔法的帮助来保持其新鲜，获取鲑鱼并通常以相当高的溢价出售。</p>\n<p>Salmon, primarily sourced from specific cold regions, is considered a rare and pricey meal due to its scarcity. Taverns, often with divine or magical assistance to keep it fresh, obtain salmon and typically sell it at a substantial premium pricing.</p>"
@@ -171,25 +163,17 @@
       "name": "玛尔赖特 Malrite",
       "description": "<p>一颗黑色宝石，无人知晓它是在哪里开采的或如何找到的，因为它只是出现在集市摊位或珠宝店里。当有人向摊主或店主询问它时，他们对它如何出现在自己的库存里毫无头绪。</p>\n<p>A black gemstone, no one knows where it is mined or how it is located, as it simply appears at market stalls or jeweler stores. When the owner of the stall or store is inquired about it, they have no clue how it ended up their inventory.</p>"
     },
-    "Bone Drinking Glass": {
-      "name": "饮骨玻璃杯 Bone Drinking Glass",
-      "description": "<p>一些更古怪的人会想把他们的橱柜装满由骨头制成的盘子、杯子或玻璃杯，或是带有骨质饰物浮雕的器皿。由于生产厨具所需获取的大多数材料的性质，这些物品的交易价值往往非常高。然而，能够把骨头加工成可用物品的工匠并不多，使其稀有度更加显著。</p>\n<p>Some of the more eccentric folks look to fill their cupboards with plates, cups, or glasses made out of bone, or with bone paraphernalia embossed on them. Due to the nature of most of the materials procured that are needed to produce kitchenware, they tend to come at a very high trade value. Yet, not a lot of crafters can manipulate bone into usable items, making the rarity even more pronounced.</p>"
-    },
-    "Favor Coin": {
-      "name": "偏爱硬币 Favor Coin",
-      "description": "<p><em>“每个恩惠都有价格”</em>用一种被遗忘的语言蚀刻在金币的一侧。通常由邪恶团体交易并制造，用于地下经济。若需要一项服务，就必须支付一枚硬币。所提供的服务范围可以从一件法衣、先进武器、城堡设计图，到迅速处理尸体不等。所有恩惠，都有价格。</p>\n<p><em>\"Each favor has a price”</em> stands etched on the side of the golden coin in a forgotten language. Usually traded and manufactured by nefarious groups for an underground economy. If a service is required, a coin must be paid. The services offered can range from a piece of vestment, advanced weaponry, to castle plans, to the swift disposal of bodies. All favors, all have a price.</p>"
-    },
     "Chrysoberyl": {
-      "name": "金绿宝石 Chrysoberyl",
-      "description": "<p>金绿宝石的所有有色透明变种都会被制成宝石，然而，由于它们很难切割，而且价值有限，因此很少被制成首饰。主要在魔法技艺与草药学中作为材料使用。</p>\n<p>All colored transparent variants of Chrysoberyl are made into gemstones, however, since they are hard to cut and have a limited value to them and they rarely make it into jewelry. Mainly used in magical arts and herbalism as components.</p>"
+      "name": "金绿石 Chrysoberyl",
+      "description": "<p>金绿石的所有有色透明变种都会被制成宝石，然而，由于它们很难切割，而且价值有限，因此很少被制成首饰。主要在魔法技艺与草药学中作为材料使用。</p>\n<p>All colored transparent variants of Chrysoberyl are made into gemstones, however, since they are hard to cut and have a limited value to them and they rarely make it into jewelry. Mainly used in magical arts and herbalism as components.</p>"
     },
     "Zoisite": {
       "name": "黝帘石 Zoisite",
       "description": "<p>这种特殊的宝石有多种颜色可供发现，包括绿色、棕色、粉色和黑色。这些宝石特别受过着隐居生活的人们青睐，因为人们相信它们能抵御负面思想与情绪，无论这些是由魔法还是其他方式引起的。据说佩戴时能促进一种平静感。这些宝石在隐士、僧侣以及生活在偏远地区的普通民众中需求很高。</p>\n<p>This particular gem can be found in a variety of colors, including green, brown, pink, and black. These gems are particularly favored by people who lead secluded lives, as they are believed to ward off negative thoughts and emotions, whether they are caused by magic or other means. They are said to promote a sense of calm when worn. These gems are in high demand among hermits, monks, and common folk who live in remote areas.</p>"
     },
     "Common Pandora": {
-      "name": "常见 潘多拉 Common Pandora",
-      "description": "<p>普通红笛鲷，也被称为“鲷鱼之王”或“红潘多拉”，是一种备受推崇的食用鱼。然而，渔船必须深入风高浪急、海况湍急的海域才能捕获它。尽管条件艰难，这种鱼本身相对容易上钩，会迅速咬住鱿鱼、虫类或虾等天然饵料。</p>\n<p>Common Pandora, also known as the King of the Breams or Red Pandora, is a highly esteemed food fish. However, fishing boats must venture deep into rough seas and turbulent waters to catch one. Despite the challenging conditions, the fish itself is relatively easy to hook, quickly biting on natural baits such as squid, worms, or shrimp.</p>"
+      "name": "红海鲷 Common Pandora",
+      "description": "<p>红海鲷，也被称为“鲷鱼之王”或“红潘多拉”，是一种备受推崇的食用鱼。然而，渔船必须深入风高浪急、海况湍急的海域才能捕获它。尽管条件艰难，这种鱼本身相对容易上钩，会迅速咬住鱿鱼、虫类或虾等天然饵料。</p>\n<p>Common Pandora, also known as the King of the Breams or Red Pandora, is a highly esteemed food fish. However, fishing boats must venture deep into rough seas and turbulent waters to catch one. Despite the challenging conditions, the fish itself is relatively easy to hook, quickly biting on natural baits such as squid, worms, or shrimp.</p>"
     },
     "Jewelry box": {
       "name": "珠宝盒 Jewelry box",
@@ -235,10 +219,6 @@
       "name": "面包籽罂粟 Breadseed Poppy",
       "description": "<p>罂粟是一种常见于花园中的观赏植物。人们种植它以获取其种子、油和药用特性。与烈酒混合时，它可以作为强效止痛剂使用。</p>\n<p>The breadseed poppy is a decorative plant often found in gardens. It is grown for its seeds, oil, and medicinal properties. When combined with strong alcohol, it can be used as a powerful pain reliever.</p>"
     },
-    "Death Cap": {
-      "name": "死亡帽 Death Cap",
-      "description": "<p>最不受欢迎的人最偏爱的蘑菇。食用毒鹅膏通常会致命。在大多数靠近文明的森林里，人们会竖起告示牌，警告人们不要随意食用野生蘑菇，因为毒鹅膏几乎到处都能生长。 </p>\n<p>The most favored mushroom by the most unfavorable people. The consumption of the Death Cap is more often than not fatal. In most forests close to civilization, signs are put up to warn people against eating random mushrooms due to the Death Caps growing almost anywhere. </p>"
-    },
     "Wool": {
       "name": "羊毛 Wool",
       "description": "<p>一种从农场动物（主要是绵羊）身上获得的纺织织物，主要用于制作服装。除此之外，它也用于制作毯子、骑兵用马鞍垫布、地毯，并且在极少数情况下甚至用作土壤肥料。</p>\n<p>A textile fabric that is obtained from farm animals, mainly sheep, and is primarily used for clothing. In addition to that, it is also used for blankets, saddle cloths for cavalry, carpeting, and on rare occasions even a soil fertilizer.</p>"
@@ -271,21 +251,9 @@
       "name": "压力计 Pressure Gauge",
       "description": "<p>压力表是一种测量仪器，用于监测密闭系统内的力，例如蒸汽管道或炼金装置。一些变体专注于奥术机制，使用附魔液体或元素灵体来侦测肉眼无法察觉的力的波动。</p>\n<p>An pressure gauge is a measuring instrument used to monitor the force within contained systems, such as steam conduits or alchemical apparatus. Some variants are focused on arcane mechanisms, using enchanted fluids or elemental spirits to detect fluctuations in force that would be invisible to the naked eye.</p>"
     },
-    "Moldavite": {
-      "name": "陨石玻璃 Moldavite",
-      "description": "<p>绿陨石是最引人入胜的宝石之一。据说这种宝石很久以前从一块巨大的岩石中自天空坠落而来，然而并没有关于这一特定事件的记录被制作出来或历经岁月保存至今以供证实。</p>\n<p>Moldavite is one of the most intriguing gems. It is said that this gem came from the skies long ago from a gigantic rock, yet no records of this specific event were made or survived the ages to confirm.</p>"
-    },
     "Silver Pearl": {
       "name": "银珍珠 Silver Pearl",
       "description": "<p>即使它被称为银，它通常也会根据其采集的生物群系而带有绿色色调。主要供炼金术师用来制作药剂，以提升使用者的专注力与生存技能。</p>\n<p>Even if it's referred to as silver, it usually bears a green tint based on the biome it was harvested from. Mainly used by alchemists to create potions that improve the user's attention and survival skills. </p>"
-    },
-    "Transport Shackles": {
-      "name": "运输至镣铐群岛 Transport Shackles",
-      "description": "<p>这些镣铐由铁或钢制成，与其同类一样，旨在便于大规模生产，其功能类似于枷锁。它们通常被设计为将数副镣铐串成一条链，以便在不同地点之间转运囚犯。</p><p></p>\n<p>These shackles, made from iron or steel, like their counterparts and intended for easy mass production, function similar to pillories. They are typically designed to link several sets of shackles in a daisy chain to facilitate the transport of prisoners between locations.</p><p></p>"
-    },
-    "Bronze Gunmetal": {
-      "name": "青铜枪金属 Bronze Gunmetal",
-      "description": "<p>青铜炮金属是由铜、锡和锌组成的合金，并含有少量其他金属，如铅或镍。它主要用于铸造大炮、火器和各种军事装备，但也用于配件、齿轮、轴承、雕像以及纽扣等小物件。</p>\n<p>Bronze Gunmetal is an alloy of copper, tin, and zinc, with trace amounts of other metals such as lead or nickel, found its primary use in casting cannons, firearms, and various military equipment but also in fittings, gears, bearings, statues, and small objects such as buttons.</p>"
     },
     "Onion": {
       "name": "洋葱 Onion",
@@ -319,10 +287,6 @@
       "name": "蓝柱石 Euclase",
       "description": "<p>硅铍石很容易被切割成刻面宝石，颜色多样，从无色到淡黄色、明黄色、淡绿色以及蓝色不等。其中蓝色的色调拥有最高的价格。有人推测这种特定的宝石对任何形式的奥术技艺都反应不佳，因为当它与之相互作用时，会爆炸成一个由玻璃与弹片构成的小球。</p>\n<p>Euclase was easily cut into faceted gems and came in various colors ranging from colorless to pale yellow, vivid yellow, pale green, and blue. The blue hues commanded the highest price. There's speculation that this specific gem is not reacting well to any form of arcane arts, as when it interacts with them, it explodes into a small ball of glass and shrapnel. </p>"
     },
-    "Tanners’ Bolt": {
-      "name": "制革匠之矢 Tanners’ Bolt",
-      "description": "<p>“鞣革工坊的布卷”确实指的是鞣革厂产出的成品。将兽皮鞣制成皮革涉及一个会永久改变皮肤的过程，使其更耐用，并且不易因年代而分解或变色。成品以巨大的掷骰状形式出现，包含数层皮革，简称为一卷（bolt）。 </p><p></p>\n<p>Tanners' Bolt does refer to the end product that comes from a tannery. Tanning hide into leather involves a process that permanently alters the skin, making it more durable and less susceptible to decomposition and coloring due to age. The end product comes in a huge roll with several layers of leather, simply called a bolt. </p><p></p>"
-    },
     "Bismuth Bronze": {
       "name": "铋青铜 Bismuth Bronze",
       "description": "<p>铋青铜或铋黄铜是一种铜合金，主要用于制造耐腐蚀的螺栓、钉子以及各种其他金属部件。其独特的性质使其成为海洋环境中的首选。</p><p></p>\n<p>Bismuth Bronze or Bismuth Brass is a copper alloy primarily used for manufacturing corrosion-resistant bolts, nails, and various other metal components. Its unique properties make it a favored choice for marine environments.</p><p></p>"
@@ -351,10 +315,6 @@
       "name": "在哪里寻找矿脉——探矿者的寻矿指南 Where to Find Veins - A Prospector's Guide to Ore Finding",
       "description": "<p>关于矿物多样性以及它们如何从周围环境吸收特性的详细指南。本书提供大量信息，说明一旦在洞穴或矿井系统中发现矿物，如何根据颜色快速识别它们。内容包括诸如赤铁矿虽被视为较低等宝石，但可加工以提取铁矿石，以及铝土矿也可类似精炼以产出铝等细节。矿工、炼金术士与工匠也同样研读此指南，以深化对珍贵矿物资源及其实际用途与成分的理解。</p><p></p>\n<p>Detailed guide on the versatility of minerals and how they absorb properties from their surroundings. The book provides extensive information on how to quickly identify minerals by color once found in a cave or mine system. It includes details such as how hematite, while considered a lesser gem, can be processed to extract iron ore, and how bauxite can similarly be refined to produce aluminum. Miners, alchemists, and artisans alike also review this guide to refine their understanding of valuable mineral resources and their practical applications and composition.</p><p></p>"
     },
-    "Dioptase": {
-      "name": "透辉石 Dioptase",
-      "description": "<p>硅孔雀石深受宝石收藏家喜爱，有时会被加工成用于珠宝的小型宝石。这种宝石的另一种用途是也可以被研磨成粉，用作绘画颜料。</p><p></p>\n<p>Dioptase is greatly favored by gem collectors and is sometimes fashioned into small gems for jewelry. Another use for the gemstone is that it can also be pulverized and used as a pigment for painting. </p><p></p>"
-    },
     "Belajurite": {
       "name": "贝拉朱瑞特石 Belajurite",
       "description": "<p>这种宝石早已湮没于历史之中，仅在少数被发现的标本中为人所知。如今无人知晓它的确切外观。古代卷轴中的描述表明，它是一种深海水般的绿色宝石，表面光滑，所有已知标本的体型大约与人类的拳头相当。</p>\n<p>Lost to history, this gem is known from only a handful of discovered specimens. No one alive knows its exact appearance. Descriptions from ancient scrolls suggest it was a deep seawater green gem with a smooth surface, and all known specimens were approximately the size of a human fist.</p>"
@@ -363,10 +323,6 @@
       "name": "啤酒 Beer",
       "description": "<p>大多数酒馆、酒吧和修道院都会酿造自己的啤酒以满足当地需求。由于啤酒可以以低成本大量生产，它始终为这些场所带来稳定的利润。</p>\n<p>Most taverns, pubs, and monasteries brew their own beers to meet local demand. Since beer is inexpensive to produce in large quantities, it consistently provides a steady profit for these establishments.</p>"
     },
-    "Hyalite": {
-      "name": "海蓝石 Hyalite",
-      "description": "<p>乳白石，一种乳白色的石英，主要用于制作水晶球。它尤其受到奥术艺术与神秘学科的新手修习者青睐，促使各学院大量采购乳白石。</p><p></p>\n<p>Hyalite, a milky form of quartz, is mainly utilized for crafting crystal balls. It is particularly favored by novice practitioners of arcane arts and mystical disciplines, leading schools to procure hyalite in large quantities.</p><p></p>"
-    },
     "Bear Hide": {
       "name": "熊皮 Bear Hide",
       "description": "<p>为简化起见通常被概括为熊皮，但它通常不止包含四足生物的常规部分，且通常按体型来称呼。有些传闻提到一种更为古怪的皮毛，与某些人称之为神话动物的存在有关；而另一些人则赌上性命发誓它是真实存在的，那种皮毛里填满了猫头鹰的羽毛。</p><p></p>\n<p>While generalized as a bear hide for simplicity, it usually includes more than just the regular for a legged creature, it is usually referred to by size. Some rumors mention one that is a bit on the weirder territory, a pelt associated with what some call a mythical animal, while others swear on their life it is real, that is filled with owl feathers. </p><p></p>"
@@ -374,10 +330,6 @@
     "Sweet Bread": {
       "name": "甜面包 Sweet Bread",
       "description": "<p>甜面包的味道和外观会因地区而有显著差异。一些地区选择可可，而另一些则偏好以水果为基础的配方。然而，无论点的是哪一种具体类型，无论是在酒馆还是面包店，甜面包都是宗教庆典或活动的热门选择，也深受嗜甜者喜爱。</p>\n<p>Sweet bread varies significantly in taste and appearance depending on the region. Some regions opt for cocoa, while others prefer fruit-based recipes. However, regardless of the specific type ordered, whether in taverns or bakeries, sweet bread is a popular choice for religious celebrations or events, as well as for those with a sweet tooth.</p>"
-    },
-    "Caltabose": {
-      "name": "蒺藜毒菇 Caltabose",
-      "description": "<p>Caltabose 香肠主要由猪肉制成，但与普通香肠不同，它使用多种猪肉部位，包括肝、肾、五花肉、猪皮和脾脏，并搭配米饭、洋葱和香料。</p>\n<p>The Caltabose sausage is primarily made of pork meat, but unlike regular sausages, it uses multiple types of pork cuts, including liver, kidney, pork belly, rind, and spleen, along with rice, onions, and spices.</p>"
     },
     "Aphid": {
       "name": "蚜虫 Aphid",
@@ -391,10 +343,6 @@
       "name": "阳莓 Sunberry",
       "description": "<p>或者奇迹果有时也被称为茄属植物。过去，也曾有传言称有一种生物也共享“茄属植物”这一名称。这些植物属于普遍类型，茄子和番茄是同一茄科家族的一部分，烟草以及颠茄植物也同样如此。然而，当草药师提到茄属植物时，他们主要指一种称为日浆果的特定类型。平民常将其用于家庭偏方。</p>\n<p>Or Wonderberries sometimes referred to as Nightshade. In the past, there had been rumors of a creature sharing the Nightshade name as well. These plants are of a universal type, Eggplants and Tomatoes are part of the same family of nightshade, as well as Tabacco and the Belladonna plant. However, when herbalists refer to Nightshade they mainly refer to a specific type called Sunberries. It is used in home remedies by the common folk. </p>"
     },
-    "Linen": {
-      "name": "亚麻 Linen",
-      "description": "<p>一种非常坚固且吸水性强的材料，在炎热的天气中穿着非常舒适，并被广泛用于纺织品。</p>\n<p>A very strong and absorbent material, that is very comfortable to wear in hot weather and is widely used in textiles. </p>"
-    },
     "Runner Peanut": {
       "name": "奔跑者花生 Runner Peanut",
       "description": "<p>花生可用于制作花生油、花生酱、烤花生、咸甜花生棒和花生酱汁，也可以生吃或加盐食用。</p>\n<p>Peanuts are useful in the making of peanut oil, peanut butter, roasted peanuts, salted and sweet peanut bars, and peanut sauce but they can also be eaten raw or salted.</p>"
@@ -402,10 +350,6 @@
     "Carnation": {
       "name": "康乃馨 Carnation",
       "description": "<p>通常被称为康乃馨或石竹粉，除了它们的观赏性相之外，大多数房屋里都有一盆盆栽花。康乃馨在与蜂蜜调成糊状后，被一些草药师用来治疗诸如皮肤问题、脱发和肌肉紧张等问题。</p><p></p>\n<p>Commonly known as Carnation or Clove Pink, and besides the ornamental aspect of them, where most houses have a potted flower. The Carnations, after turning in a paste with honey, are used by some herbalists to treat issues such as skin problems, hair loss, and muscle tension.</p><p></p>"
-    },
-    "Pollucite": {
-      "name": "方柱石 Pollucite",
-      "description": "<p>铯榴石通常是一种透明、易碎的白色石头。在某些地区，它会被碾碎并与葡萄酒混合后饮用，被认为能带来非凡的好运。尽管有传统信仰，治疗师和草药师警告说，它往往会引起严重的胃痛。</p>\n<p>Pollucite is usually a transparent, brittle white stone. In certain regions, it is crushed and mixed with wine for consumption, believed to bring exceptional good fortune. Despite traditional beliefs, healers and herbalists warn that it often causes severe stomach pain.</p>"
     },
     "Hardtack": {
       "name": "硬饼干 Hardtack",
@@ -455,10 +399,6 @@
       "name": "暗玫瑰 Dark Rose",
       "description": "<p>你不会在任何像样的花园里发现它被采收并精心照料——谢天谢地。我只在古老而被遗忘的战场那灰烬般的土壤里，或在寂静、阴暗而浓密的森林中见过它；在那里，连空气都让人觉得潮湿、陈旧且带着警觉。它的茎与叶呈深紫色，如同一天前的瘀伤，叶脉浸着深到近乎发黑的猩红；而花朵本身，颜色的确酷似鲜血。它没有香气，取而代之的是一种金属般的气味，像随风而来的恐惧，以及被遗忘之物那忧郁的腐朽。</p>\n<p>You won't find this harvested and cared for in any proper garden, and thank the stars for that. I had only ever seen it in ashy soil of old forgotten battlefields or in the silent, dark and thick forests where the very air feels damp, old and watchful. Its stems and leaves are the deep purple of a day old bruise, veined with a crimson so dark it’s nearly black, while the flower itself, does resemble blood in color. It has no scent, instead, it carries a metallic smell, like dread on the wind, and the melancholy decay of the forgotten.</p>"
     },
-    "Hambergite": {
-      "name": "汉堡石 Hambergite",
-      "description": "<p>汉堡石通常无色或呈淡蓝色。尽管被归类为半宝石，但它更因其在照明方面的用途而受到重视。它常被用于灯具中，以增强蜡烛和其他光源的亮度，无论这些光源是传统的还是通过奥术手段产生的。</p>\n<p>Hambergite is typically colorless or faintly blue. Despite being categorized as a semi-precious gem, it is more valued for its applications in lighting. It is commonly used in lamps to enhance the brightness of candles and other light sources, whether they are conventional or by arcane means.</p>"
-    },
     "Blue Sapphire": {
       "name": "蓝宝石 Blue Sapphire",
       "description": "<p>深蓝色且透明度极佳的优质蓝宝石，每颗可达数百钱币。一种在涉及影响心智的魔法法术中最常用的物品之一。在某些地区，它被用于制造像魔像这样的魔法机械构装体。 </p>\n<p>Fine-colored Sapphire with a deep blue color and excellent transparency can reach several hundreds of gold coins per stone. One of the most used items in magical spells that involve affecting the mind. In some regions it is used in creating magical mechanical constructs like golems. </p>"
@@ -502,10 +442,6 @@
     "Basalt Stone": {
       "name": "玄武岩石 Basalt Stone",
       "description": "<p>玄武岩主要呈深灰色，用于建筑施工中的砌块或地基，也用于铺路石，并被著名石匠用来制作雕像。 </p>\n<p>The basalt rock comes mainly in a dark-gray color and is used in construction for building blocks or in the groundwork, or cobblestones and in making statues by famous masons. </p>"
-    },
-    "Undersea Remains": {
-      "name": "海底遗迹 Undersea Remains",
-      "description": "<p>这些骨骼极为稀有，以至于无人能够清楚辨认它们。一些人声称它们属于来自不同位面的不可见恐怖之物，或是一种古老形态的鱼类。由于其复杂的取回过程，这些骨骼受到大多数收藏家的高度重视。</p>\n<p>These bones are so rare, that nobody can identify them clearly. Some state that they belong to unseen horrors from different realms, or of an ancient form of fish. These are highly valued by most collectors due to their complex retrieval process.</p>"
     },
     "Kiwifruit": {
       "name": "猕猴桃 Kiwifruit",
@@ -551,10 +487,6 @@
       "name": "芦笋 Asparagus",
       "description": "<p>它有时也被称为麻雀草，其嫩芽常用作春季蔬菜。它们通常作为开胃菜或蔬菜配菜端上桌。在一些地区，有传言称会为它举办一场节日。  </p>\n<p>It is sometimes also named Sparrow Grass, its young shoots are often used as a spring vegetable. They are usually served as an appetizer or a vegetable side dish. In some regions, there is word of a festival held in its honor.  </p>"
     },
-    "Variscite": {
-      "name": "绿玉髓 Variscite",
-      "description": "<p>绿松石，颜色类似翡翠，常被用作服装上的装饰元素。根据传说，如果通过伤口或被摄入体内，它具有对夜行生物有害的毒性特质。</p><p></p>\n<p>Variscite, resembling Jade in color, is commonly used as a decorative element in clothing. According to belief, it possesses toxic properties harmful to nocturnal creatures if introduced through wounds or ingestion.</p><p></p>"
-    },
     "Detonator": {
       "name": "雷管 Detonator",
       "description": "<p>一种深受矿工青睐的工具，与火药炸药结合后，可迅速开凿孔洞或隧道，以到达地下更有价值的金属。然而，由于爆炸偶尔不稳定，以及罕见的弹片损坏矿井支撑的风险，钻机往往是更受偏好的选择。</p>\n<p>A tool highly favored by miners, its combination with gunpowder explosive facilitates the rapid creation of holes or tunnels to reach the more interesting metals beneath the ground. Nevertheless, due to the occasional instability of the explosions and the rare risk of shrapnel damaging mine supports, drills tend to be the preferred choice.</p>"
@@ -594,10 +526,6 @@
     "Tin": {
       "name": "锡 Tin",
       "description": "<p>由于锡质地柔软，通常会与铜结合，以防止其氧化。除了用于金属的保存之外，没有太多用途。</p>\n<p>Tin is usually combined with Copper, due to it being soft, to prevent its oxidation. Doesn't have many uses besides the preservation of metals.</p>"
-    },
-    "Peach Figs": {
-      "name": "桃子无花果 Peach Figs",
-      "description": "<p>也被称为扁桃或甜甜圈桃，与其姊妹水果非常相似，但外形呈扁圆形。它们往往更为稀有，因为只有极少数地区种植，不过与其常见的对应物——桃子——相比，它们要甜得多。</p>\n<p>Called also the flat peach or doughnut peach, very similar to the sister fruit, but oblate in shape. They tend to be a bit rarer as only very few regions cultivate these, however, compared to their regular counterpart, the peach, they are way sweeter.</p>"
     },
     "Heart": {
       "name": "心脏 Heart",
@@ -684,7 +612,7 @@
       "description": "<p>通常在大多数温暖气候中采收，主要用作烹饪中的香料，为菜肴增添一些“温暖”感。</p>\n<p>Harvested usually in most warm climates, it is used mainly as a spice in cuisines to add some \"warmth\" to the dish.</p>"
     },
     "Tourmaline": {
-      "name": "碧玺 Tourmaline",
+      "name": "电气石 Tourmaline",
       "description": "<p>它是最珍贵的矿物之一，其精美的晶体可以成为矿物王国中最美丽的范例之一。许多优质的电气石晶体不会被切割成刻面，而是因其美丽而被保存下来。人们也相信它们能够吸收施放在其上的任何法术，并将其转化为闪电。&nbsp;</p>\n<p>It is one of the most prized minerals, and its fine crystals can be among the most beautiful examples in the mineral kingdom. Instead of being faceted, many fine Tourmaline crystals are preserved for their beauty. It is also believed that they can absorb any spell cast upon them, and convert it into lightning. </p>"
     },
     "Carved Wooden Toy": {
@@ -808,10 +736,6 @@
       "name": "铁匠戒指 Blacksmith's Ring",
       "description": "<p>在完成最后的训练后，新任命的铁匠还要面对最后一项挑战：打造铁匠之戒。这项任务不仅仅是仪式性的，因为它标志着从新学徒到熟练工匠的转变。戒指本身是一枚坚实的铁制指环，上面镌刻着铁匠家族的印记。所选材料为铁，是刻意为之，因为它难以进行精细塑形与细致雕刻。这也作为最后一课：即便是最顽固的材料，也能被塑造成精准、个人化且经久耐用之物。</p>\n<p>After finalizing their training, newly appointed blacksmiths face one final challenge, the creation of the Blacksmith’s Ring. This task is more than ceremonial, as it marks the transition from a new apprentice to a skilled artisan. The ring itself is a solid iron band, engraved with the blacksmith’s family seal. The material, iron, chosen deliberately for its difficulty in delicate shaping and detailed engraving. It serves as one final lesson, as even the most unyielding material can be shaped into something precise, personal, and enduring.</p>"
     },
-    "Hot Punch": {
-      "name": "热拳 Hot Punch",
-      "description": "<p>这种工具被称为锻造冲头或热冲头，主要用于切割或冲穿金属以进行成形并将其固定。此外，它也适用于压制出印痕或图案，因此更讲究的顾客会选择它。</p>\n<p>Referred to either as a forging punch or hot punch, this tool is primarily utilized for cutting or punching through metal to shape and secure it. Moreover, it lends itself to forming impressions or designs, making it a choice for the more discerning customers.</p>"
-    },
     "Olives": {
       "name": "橄榄 Olives",
       "description": "<p>绿色橄榄与任何其他类型的橄榄之间唯一的区别在于成熟度。除了用作沙拉的点缀或作为小零食之外，橄榄还被制成橄榄油。它们先被烘烤，然后放在阳光下晒干，之后再送到磨坊进行加工。</p>\n<p>The only difference between green and any other type of olives is the ripeness. Aside from being used as a garnish for salads or as a small snack, olives are turned into olive oil. They are first roasted and then left to dry in the sun before being taken to the mill for processing.</p>"
@@ -879,10 +803,6 @@
     "Burger": {
       "name": "汉堡 Burger",
       "description": "<p>汉堡是将一块碎牛肉饼烤熟后，夹在面包胚的上下两半之间制成的。还可以加入生洋葱片、生菜、培根和蛋黄酱等额外配料来提升风味。</p><p></p>\n<p>A burger is made by grilling a patty of ground beef and placing it between two halves of a bun. Additional ingredients like raw onion slices, lettuce, bacon, and mayonnaise can be added to enhance the flavor.</p><p></p>"
-    },
-    "Moonshine": {
-      "name": "月光酒 Moonshine",
-      "description": "<p>私酿酒是一种自制的、未陈年的烈酒。据推测，私酿酒要么能让你拥有完美的视力，要么会导致你彻底失明。然而，所有记录往往都不准确，因为这些信息是在饮用该酒之后才收集到的。</p>\n<p>Moonshine is a homemade, unaged strong liquor. It is speculated that moonshine can either give you perfect eyesight or cause you to lose it entirely. However, all records tend to be inaccurate as this information is gathered after the consumption of the drink.</p>"
     },
     "Maram": {
       "name": "玛拉姆 Maram",
@@ -952,10 +872,6 @@
       "name": "大脑 Brain",
       "description": "<p>据说它们来自……嗯，这就麻烦了。有些商人声称它们是在事故或战斗之后采集的，另一些人则发誓这是某个工匠的骇人手艺，用秘密油料压制并保存。我说不准哪种是真的，但不管怎样，它们都很脆弱。让它远离阳光和粗暴的手。</p>\n<p>They’re said to come from… well, that’s the tricky part. A few merchants claim they’re harvested after accidents or battles, yet others swear it’s some artisan’s grisly craft, pressed and preserved with secret oils. I can’t say which is true, but either way, they’re fragile. Keep it away from sunlight and rough hands.</p>"
     },
-    "Myrica Gale": {
-      "name": "米里卡·盖尔 Myrica Gale",
-      "description": "<p>或更常被称为香桃木。它能在一些最严酷的环境中生存，是一种非常知名且被采收的植物。它的用途范围很广，从当地用于缓解胃痛的家庭疗法和驱虫剂，到制作风味十足的茶，甚至甜艾尔啤酒。</p>\n<p>Or more commonly known as Sweet gale. It can live in some of the most challenging conditions and is a very well-known and harvested plant. Its uses can range from local home remedies for stomach aches, and insect repellent, to creating flavorful teas, or even sweet ales.</p>"
-    },
     "Artichoke": {
       "name": "洋蓟 Artichoke",
       "description": "<p>朝鲜蓟的叶子通常会一片一片地剥下，然后将肥厚的基部蘸着油醋汁、醋、黄油、蛋黄酱、蒜味蛋黄酱、柠檬汁或其他酱汁享用。填馅或水煮的朝鲜蓟有许多不同的变化，常见的馅料包括面包屑、大蒜、牛至、欧芹、磨碎的奶酪和香肠。</p>\n<p>The leaves of the artichoke are typically removed one by one, and the fleshy base is enjoyed with vinaigrette, vinegar, butter, mayonnaise, aioli, lemon juice, or other sauces.  Stuffed or boiled artichokes come in numerous variations, with a common stuffing featuring breadcrumbs, garlic, oregano, parsley, grated cheese, and sausage.</p>"
@@ -983,10 +899,6 @@
     "Chocolate Chip Cookie": {
       "name": "巧克力豆曲奇 Chocolate Chip Cookie",
       "description": "<p>巧克力豆曲奇是一种甜味烘焙点心，以其黄油风味以及加入巧克力豆而闻名；巧克力豆可依个人喜好选用黑巧克力、牛奶巧克力或白巧克力。这是一款适合各个年龄层的经典最爱，并不只受年轻人欢迎，而且常与一杯冰牛奶或一杯热咖啡一同享用。烘焙师也可能尝试不同种类的巧克力或可可粉，加入坚果或其他配料，甚至替换部分原料，为经典配方带来独特变化。</p>\n<p>The chocolate chip cookie is a sweet baked treat that is recognized by its buttery flavor and the inclusion of chocolate chips, which can be dark, milk, or white chocolate depending on personal preference. It's a classic favorite for people of all ages, not just young folk, and is often enjoyed with a cold glass of milk or a warm cup of coffee. Bakers may also experiment with different types of chocolate or cocoa, add nuts or other mix-ins, or even substitute some of the ingredients to create a unique twist on the classic recipe.</p>"
-    },
-    "The Flirt": {
-      "name": "调情 The Flirt",
-      "description": "<p>可食红菇（Russula Vesca），或称“调情者”，是一种可食用的蘑菇；事实上，许多人认为它是最上等的野生蘑菇之一。这种蘑菇本身带有温和的坚果风味，甚至可以生吃；不过，当它与肉类菜肴或炖菜一同端上时，才最能大放异彩。</p>\n<p>Russula Vesca, or The Flirt, is an edible mushroom, in fact, many people consider this to be one of the very finest wild mushrooms. The mushroom itself does come with a mild nutty flavor and could be eaten even raw, however, they do shine when they are served with meat dishes or stews. </p>"
     },
     "Herring": {
       "name": "鲱鱼 Herring",
@@ -1020,10 +932,6 @@
       "name": "巧克力脐橙 Chocolate Navel Orange",
       "description": "<p>巧克力脐橙，也简称为巧克力橙。巧克力橙具有独特而浓郁的香气，常让人联想到香草或蜂蜜，能提升大多数烘焙或烹调菜肴的风味。其独特香气尤其适合搭配深色叶菜、坚果及其他水果，使其成为大多数沙拉中的最爱。它们可以拌入沙拉，作为帕菲和燕麦等早餐菜肴的配料，或混入果汁中。</p><p></p>\n<p>Chocolate Navel Orange, also called simply the chocolate orange. The chocolate orange has a distinctively rich aroma, often reminiscent of vanilla or honey, which enhances most dishes baked or cooked. Its unique aroma goes especially well with dark leafy greens, nuts, and other fruits, making it a favorite in most salads. They can be tossed into salads, used as topping over breakfast dishes such as parfaits and oats or mixed into fruit juices.</p><p></p>"
     },
-    "Aventurine": {
-      "name": "砂金 Aventurine",
-      "description": "<p>虽然绿色是东陵石最常见的颜色，但它也可能呈现橙色、棕色、黄色、蓝色或灰色的色调。东陵石用于多种用途，例如景观与建筑石材、水族箱装饰、纪念碑和珠宝。</p><p></p>\n<p>While green is the most common color of aventurine, it can also appear in shades of orange, brown, yellow, blue, or grey. Aventurine finds use in diverse applications such as landscape and building stones, aquarium decorations, monuments, and jewelry.</p><p></p>"
-    },
     "Hand Cart": {
       "name": "手推车 Hand Cart",
       "description": "<p>用于将物品运送到所需地点的全能工具。它可用于运输动物饲料、木板等大型物件，或从果园搬运水果，同时仍保持轻便，使其成为大多数农场必备的工具。</p>\n<p>The all-round tool for transporting items where they are needed. It can be used to transport feed for animals, large objects like planks, or carry fruits from orchards, all while remaining lightweight, making it a must-have tool on most farms.</p>"
@@ -1052,10 +960,6 @@
       "name": "肉豆炖汤 Bean Stew with Meat",
       "description": "<p>大量的熏肉会提前准备好，因为它们是大多数豆类炖菜中的关键食材。在火上架着的铸铁烤炉里，所有食材（包括熏肉）都会加入并用小火慢慢烹煮，食用时还会配上一种辛辣的辣椒作为配菜。</p>\n<p>Large quantities of smoked meats are prepared in advance, as they are a key ingredient in most bean stews. In a cast iron oven over a fire, all the ingredients, including the smoked meat, are added and cooked over a slow flame, and they are served with a spicy pepper as a side.</p>"
     },
-    "Nephrite": {
-      "name": "碧玉 Nephrite",
-      "description": "<p>软玉在颜色、外形和形状上与硬玉相似，主要用于石雕，并且偶尔在雕塑中作为大理石的替代品。历史上被开采了很长时间，如今常见于古老、废弃的墓穴中。</p><p></p>\n<p>Nephrite, similar in color, form, and shape to Jadeite, is predominantly utilized for stone carving and occasionally serves as a marble substitute in sculptures. Historically mined for ages, it is now frequently discovered in ancient, abandoned tombs.</p><p></p>"
-    },
     "Silver Blue Spinel Ring": {
       "name": "银蓝色尖晶石戒指 Silver Blue Spinel Ring",
       "description": "<p>深蓝色尖晶石是一种美丽的宝石，由技艺娴熟的宝石切割师切割并镶嵌在银或铁戒指中。尽管它镶嵌在更实惠的金属上，尖晶石本身仍将戒指的价值提升到与由更珍贵材料制成的戒指相当的等级。宝石浓郁的色泽使这枚戒指深受贵族追捧。</p>\n<p>Dark blue spinel, a beautiful gem, is cut by skilled gemcutters and embedded into a silver or iron ring. Even though it is set in more affordable metals, the spinel itself elevates the ring's value to a level comparable with those made of more precious materials. Its rich hue of the gem, makes the ring highly desirable by nobility.</p>"
@@ -1075,10 +979,6 @@
     "Wine": {
       "name": "葡萄酒 Wine",
       "description": "<p>尽管葡萄酒仍然是最常见的种类，但也有其他变种可供选择，包括蓝莓、荨麻、苹果、接骨木莓和红醋栗酒。这些酒的价格会因所用水果及其年代而有显著差异。</p>\n<p>While grape wine remains the most common variety, there are also other variants available, including blueberry, nettle, apple, elderberry, and red currant wines. Prices for these wines can vary significantly based on the fruit used and its age.</p>"
-    },
-    "Anorthite": {
-      "name": "灰长石 Anorthite",
-      "description": "<p>尽管灰长石本身通常不被用作宝石，但某些具有迷人色彩或光学特性的品种可能会被切割和抛光，用于珠宝制作，作为其他更昂贵宝石的替代品。只有未经训练的商人才无法看出灰长石与珍贵宝石之间的差异，而购买珍贵石料也只会由经验丰富的商人进行。</p>\n<p>Although anorthite itself is not typically used as a gemstone, some varieties with attractive colors or optical properties may be cut and polished for use in jewelry as a substitute for other, more expensive gemstones. Only the untrained merchant is unable to see the difference between Anorthite and a precious gem, and the purchase of precious rocks is only made by experienced merchants.</p>"
     },
     "Hydrophane": {
       "name": "水蛋白石 Hydrophane",
@@ -1153,8 +1053,8 @@
       "description": "<p>这件镶有祖母绿宝石的耳饰专为希望彰显自己在上流阶层地位的人而设计。它是一件极其昂贵的时尚配饰，尽管许多人觉得佩戴起来不舒适。此饰品必须放置在耳朵的特定部位，对于一些耳形无法适配其特定设计贴合度的人来说，甚至可能会非常疼痛。</p><p></p>\n<p>This emerald-gemmed earpiece is designed for those who wish to convey their place among the upper class. It is an exceptionally expensive fashion accessory, though many find it uncomfortable to wear. The piece must be positioned on specific parts of the ear, which can be outright painful for some individuals whose ear shape does not accommodate its specific design fit.</p><p></p>"
     },
     "Scythe": {
-      "name": "长柄镰刀 Scythe",
-      "description": "<p>长柄镰刀主要是农民用来割草、谷物或其他作物的工具，它由一片长而弯曲的刀刃以一定角度连接在一根加长的柄上。在某些地区，它与死亡有所关联，这种信念尤其为最迷信的平民所持。</p>\n<p>The scythe is a tool predominantly utilized by farmers for mowing grass, grain, or other crops, the scythe consists of a long, curving blade attached at an angle to an extended handle. In certain regions, it carries an association with death, a belief particularly held by the most superstitious commoners.</p>"
+      "name": "巨镰 Scythe",
+      "description": "<p>巨镰主要是农民用来割草、谷物或其他作物的工具，它由一片长而弯曲的刀刃以一定角度连接在一根加长的柄上。在某些地区，它与死亡有所关联，这种信念尤其为最迷信的平民所持。</p>\n<p>The scythe is a tool predominantly utilized by farmers for mowing grass, grain, or other crops, the scythe consists of a long, curving blade attached at an angle to an extended handle. In certain regions, it carries an association with death, a belief particularly held by the most superstitious commoners.</p>"
     },
     "Coal": {
       "name": "煤 Coal",
@@ -1163,10 +1063,6 @@
     "Carambola": {
       "name": "杨桃 Carambola",
       "description": "<p>杨桃果肉厚实、爽脆、多汁，味道略酸、酸性强并带甜味。其外形呈星形、色泽金黄，常用于制作水果沙拉与水果拼盘，也可作为鸡尾酒与饮品的装饰，或榨成果汁作为功能性饮料饮用。</p>\n<p>Carambola is fleshy, crunchy, juicy, slightly tart, acidic, and sweet in taste. It is star-shaped and golden-yellow in appearance and is frequently used in the preparation of fruit salads and fruit platters, as a garnish in cocktails and beverages, or squeezed into a juice and served as a functional beverage.</p>"
-    },
-    "Common Ling": {
-      "name": "通用语言 Common Ling",
-      "description": "<p>普通鳕鱼，或白鳕鱼，是一种稀有美味，仅能在热带岛屿周围纯净的海域中发现。尽管也存在蓝鳕鱼和粉鳕鱼等变种，但捕获它十分困难。其地区专属性与稀有度使其成为令人垂涎的奢侈品，只在国王主持的高等宫廷奢华盛宴与贵族宴会上供应。</p>\n<p>Common Ling, or White Ling, is a rare delicacy found only in the pristine waters surrounding tropical islands. Though variations such as Blue Ling and Pink Ling exist, catching one is a difficult task. Its region exclusivity and rarity make it a coveted luxury, served only at the king-run high court opulent feasts and noble banquets.</p>"
     },
     "Basil": {
       "name": "罗勒 Basil",
@@ -1200,10 +1096,6 @@
       "name": "愚者之金 Fool's Gold",
       "description": "<p><em>“几十年前，当地盗贼公会控制着一座石英矿。某个时候，他们挖到了一条巨大的黄铁矿矿脉，也被称为‘愚人金’。起初，他们和所有人一样，确实以为那是黄金，但区域里的铁匠很快评估后发现并不是。不幸的是，那名铁匠从此再也没有人听到过他的消息。几年后快进，盗贼公会设法替换了该地区所有的珠宝和所有钱币。最终，这事传到了领主那里，他派了一个营前往城镇……我不确定它是否还存在，因为被派去的那个营再也没有回来，那片地区也从未再传出过盗贼公会的消息。”</em></p>\n<p> </p>\n<p>黄铁矿，也被称为愚人金，用途有限，主要用作火器中的点火物，产生小火花以点燃火药。它也可以与燧石一起用作生火的方法。</p>\n<p><em>\"A few decades ago, there was a quartz mine controlled by its local Thieves’ Guild, at a certain point it struck a huge vein of Iron Pyrite, also known as Fool's Gold. Initially, like everyone else, they did believe it to be gold, but a quick assessment by the blacksmith from the area revealed it wasn’t. Unfortunately, that blacksmith was never to be heard from again. Fast-forward a couple of years, The Thieves Guild manages to replace all jewelry and all coins in the region. Eventually, it reached the lordship, and he sent a battalion to the town... I'm unsure if it still exists, as neither the battalion that was sent nor word of the Thieves’ Guild ever came from that region.\"</em></p>\n<p> </p>\n<p>Iron Pyrite also known as the Fool's Gold, has limited uses, it is mainly used as a form of ignition in firearms, creating a small spark to ignite the gunpowder. It can also be used with flint as a method of starting fires.</p>"
     },
-    "Samarskite": {
-      "name": "钐砷钾石 Samarskite",
-      "description": "<p>萨马斯凯石是一种稀有的半宝石，尽管其价格较低，仍备受追捧。它很少被佩戴，传统上仅用于纪念挚爱之人逝去的仪式。</p><p></p>\n<p>Samarskite, a scarce semi-precious gemstone, is sought after despite its lower price. It is rarely worn and traditionally reserved for ceremonies honoring the loss of a loved one.</p><p></p>"
-    },
     "Mallet": {
       "name": "槌子 Mallet",
       "description": "<p>木槌是木工中不可或缺的工具，用于将木制部件敲合在一起、敲入木销、操控凿子以及对接缝施加压力。值得注意的是，它们与大多数金属锤不同，因为它们能够防止金属工具的打击端发生变形。</p>\n<p>Wooden mallets are a staple in carpentry, serving to knock wooden pieces together, drive dowels, manipulate chisels, and apply pressure on joints. Notably, they stand apart from most metal hammers by preventing the deformation of the striking end of a metal tool.</p>"
@@ -1216,10 +1108,6 @@
       "name": "羊肉鲷鱼 Mutton Snapper",
       "description": "<p>捕捉羊肉鲷不只是靠运气，也要有合适的道具。由于它们强劲且突然的爆发力，需要一根耐用的鱼竿，通常会用金属加固。不过总体来说，只要工具得当，它们是很容易钓到的鱼。羊肉鲷可以平底煎、烘烤、裹粉油炸、炙烤、烧烤、烤架烤、烤箱油炸，甚至清蒸，能满足各种口味。渔夫们常常开玩笑说，烹饪羊肉鲷的方法比捕捉它的方法还多。</p>\n<p>Mutton Snapper capture isn’t just about luck, it’s also about having the right gear. Due to their strong, sudden bursts of energy, they require a durable rod, usually reinforced with metal.  However, they are overall easy fish to catch with the proper tools. The Snapper fish can be pan-fried, baked, crumbed, broiled, barbequed, grilled, oven-fried, and even steamed, matching every taste. Fishermen often joke that there are more ways to cook a Mutton Snapper than there are ways to catch one.</p>"
     },
-    "Poplar Lumber": {
-      "name": "白杨木材 Poplar Lumber",
-      "description": "<p>它非常适合托盘、箱子和板条箱等物品，但也适用于工匠碗、木盘以及其他精细木工制品。由于其相对适中的价格，杨木是商业用途的绝佳选择。然而，它很容易凹陷或被刮伤，使其不适合高磨损物品，而且随着时代推移，其颜色会在数月内褪成中等棕色。</p>\n<p>It is perfect for items like pallets, boxes, and crates, but also, artisan bowls, wooden plates, and other fine carpentry. Due to its relatively modest price point, poplar is a great choice for commercial uses. However, it can dent or scratch easily, making it undesirable for high-wear items, as well as, over time its color fades to a medium brown within months.</p>"
-    },
     "Soot": {
       "name": "煤烟 Soot",
       "description": "<p>由燃烧材料产生的深黑色粉末或片状物质。炼金术士和草药师将其用作黏合剂，织工则将其用作多种纺织品的染料。 </p>\n<p>Deep black powder or flaky substance, produced by burning material. Used by alchemists and herbalists as a binding agent, and by the weavers as dyes for a plethora of textiles. </p>"
@@ -1228,17 +1116,9 @@
       "name": "海·达里克 Sea Daric",
       "description": "<p>一枚闪亮的金色圆盘，上面饰有高度精细雕刻的骷髅。这些钱币通常由从各种来源掠夺得来的黄金铸造而成，例如金币、珠宝和金条。钱币本身分量沉重，作为对公海财富与危险的切实提醒。在整个铸造过程中，制作者确保黄金尽可能接近100%纯度，使其成为流通中最有价值的钱币之一。</p>\n<p>A gleaming gold disc, emblazoned with a highly detailed carved skull. These coins are often crafted from pillaged gold obtained from various sources such as gold coins, jewelry, and gold bars. The weight of the coin itself is heavy, serving as a tangible reminder of the riches and dangers of the high seas. Throughout the minting process, the crafter ensures that the gold is as close to 100% pure as possible, making it one of the most valuable coins in circulation.</p>"
     },
-    "Cured Hide": {
-      "name": "治愈兽皮 Cured Hide",
-      "description": "<p>一种普通的鞣制皮革，皮匠通常以批量出售，通常用于其他行业。铁匠通常用它们制作武器的握柄，而裁缝则用它们制作精致的连衣裙或漂亮的包袋，平民则用它们制作各种用途的皮条。</p>\n<p>An regular cured hide that is sold in bulk by the leatherworkers, which is usually used in the other trades. Blacksmiths usually use them for the weapon hilts, while tailors use them for intricate dresses or beautiful bags, and the commoners use them to make leather strips for various uses. </p>"
-    },
     "Lyre": {
       "name": "里拉琴 Lyre",
       "description": "<p>竖琴是最古老的弦乐器之一，其特点是有一个轭架，由两条臂和一根从琴身水平伸出的横梁组成。虽然大多数竖琴是通过拨弦来发声，但也有少数竖琴被设计为用弓拉奏，从而增加了它们在音乐中的多样性。</p>\n<p>The lyre is one of the oldest string instruments, characterized by its yoke, which consists of two arms and a crossbar that projects horizontally from the body. While most lyres are plucked to produce sound, rarely, a number of them are designed to be bowed, adding to their versatility in music.</p>"
-    },
-    "Fae Bon": {
-      "name": "妖精祝福 Fae Bon",
-      "description": "<p>“这是第一次由一个微小的生物向我展示的。它说话有困难，当他把这些特定的骨头呈给我时，我想他本意是想说‘骨头’，但我现在不确定了。”</p>\n</blockquote>\n<p>妖精骨烛来自生活在地下石质洞穴系统中的生物。它们也可以兼作蜡烛，能发出一些光，尽管很有限。它们可以呈现多种色调的光辉，包括红、蓝、青、绿、紫，甚至粉红。尽管名字与奇幻生物有关，它们并不来自任何类似妖精的生物，而是来自地下的怪物。</p>\n<blockquote>\n<p>\"This was first shown to me by a tiny creature. It had difficulty speaking, and when he presented me with these specific bones, I think he meant to say 'bones,' but I am unsure now.\"</p>\n</blockquote>\n<p>Fae Bons come from creatures that live within underground stone cave systems. They can double as candles, emitting some light, albeit limited. They can glow in multiple hues, including red, blue, cyan, green, purple, or even pink. Despite having a name associated with fantastical creatures, they do not come from any Fae-like creatures but from underground monstrosities.</p>"
     },
     "Gold Key": {
       "name": "金钥匙 Gold Key",
@@ -1268,14 +1148,6 @@
       "name": "暮色警告 Dusk Warning",
       "description": "<p>暮色警告是一款散发着职业气质的优质威士忌，口感顺滑却又鲜明，以泥炭藓的浓郁烟熏味为亮点。每一口都展现出层层风味，带着泥土气息、辛香，以及恰到好处的一丝甜味。它是高雅酒馆中的宠儿，常与糖渍水果或奶油浓汤一同供应。</p>\n<p>Dusk Warning is a fine whiskey that exudes class, with a smooth yet pronounced profile highlighted by the rich smokiness of peat moss. Each sip reveals layers of character, earthy, spicy, and just a touch sweet. It's a favorite in refined taverns, often served with glazed fruits or creamy soups.</p>"
     },
-    "Cordovan Cut": {
-      "name": "科多万切割 Cordovan Cut",
-      "description": "<p>最精良的皮革工匠裁制品，以山腰上的一座城市命名；那座城市有数位工匠能够以一种方式鞣制皮革，使其洁净无瑕，因此很快便声名远播。虽然这张皮确实来自牛皮，但其鞣制、晾干与加工的成果使它在诸界之间闻名。</p>\n<p>The finest leatherworker cut, named after a city from the mountainside, which had several crafters that were able to cure the leather in such a way that it was so pristine that it became renowned quite quickly. While the pelt does come from cowhide, the curing, drying, and processing result made it famous among the realms.</p>"
-    },
-    "Rutabaga": {
-      "name": "芜菁 Rutabaga",
-      "description": "<p>芜菁甘蓝常被视为万不得已的食物，与战时的粮食短缺联系在一起。在重大冲突期间，仅用芜菁甘蓝和水煮成的炖菜是一道常见菜肴。芜菁甘蓝的根和叶可作为冬季牲畜饲料的重要饲用作物。</p><p></p>\n<p>Rutabaga is often seen as a food of last resort, linked to food shortages in wartime. Boiled stew made solely from rutabaga and water is a common dish during major conflicts. Rutabaga roots and tops serve as a valuable forage crop for winter livestock feed.</p><p></p>"
-    },
     "Liquid Malachite": {
       "name": "液态孔雀石 Liquid Malachite",
       "description": "<p>液态孔雀石通常储存在木制容器中。当从其容器中取出并接触金属时，它会迅速扩散、附着并硬化，但只会暂时如此。从历史上看，它主要被尚武的部落社群所使用，因为他们通常不穿护甲，而是使用一种薄的编织金属布。然而，不应低估它的潜力，因为即使与锡结合，液态孔雀石也能将材料的强度和耐久性提升到可与钢相当的等级。</p>\n<p>Liquid Malachite is generally stored in a wooden container. When taken out of its container and coming in contact with metal, it quickly spreads, attaches, and hardens, but only temporarily. Historically, it was primarily utilized by militaristic tribal communities, as they didn't typically wear armor but rather used a thin woven metal cloth. However, its potential should not be underestimated, as even when combined with tin, the liquid malachite increases the strength and durability of materials to a level comparable to steel.</p>"
@@ -1295,14 +1167,6 @@
     "Snapping Death Worm": {
       "name": "猝死巨蠕虫 Snapping Death Worm",
       "description": "<p>咬断死亡蠕虫，或简称为博比特，是一种地下小生物，主要在海滩上掘洞生活，然而，关于它的每一段回忆都像是一则恐怖故事。它通过感官察觉地表的震动来伏击猎物，猛然向上扑出，用咬合的颚将生物拖入地下。</p>\n<p>Snapping Death Worm, or simply called Bobbit, is an subterranean critter that burrows mostly on beaches, however, every recolection of him resembles a horror story. It senses vibrations on the surface to ambush prey, launching itself upward to drag creatures underground with its snapping jaws. </p>"
-    },
-    "Pietra Serena": {
-      "name": "宁静石材 Pietra Serena",
-      "description": "<p>Pietra Serena 是一种精炼的大理石品种，以其特有的蓝灰色调而闻名。也存在其他色调，包括深蓝和黑色。它深受艺术家推崇，常用于雕塑和建筑装饰，如壁柱、檐部以及装饰性元素。</p>\n<p>Pietra Serena is a refined marble variety, known for its characteristic blue-gray tones. Other shades, including deep blue and black, also exist. Highly valued by artists, it is commonly used in sculptures and architectural embellishments such as pilasters, entablatures, and decorative elements.</p>"
-    },
-    "Essonite": {
-      "name": "埃索奈特 Essonite",
-      "description": "<p>钙铝榴石，常被称为“肉桂石”，之所以获得这个绰号，是因为它曾经像这种香料一样，比一块金条还要更有价值。然而，与过去备受推崇的地位相比，它的购买力已经下降了。</p><p></p>\n<p>Essonite, often known as the \"Cinnamon Stone\", earned this nickname because, like the spice, it was once more valuable than a bar of gold. However, its purchasing power has diminished compared to its esteemed position in the past.</p><p></p>"
     },
     "Whole Poultry": {
       "name": "整只家禽 Whole Poultry",
@@ -1344,10 +1208,6 @@
       "name": "脚底发凉 Cold Feet",
       "description": "<p>“冷脚”已成为粗犷平民们夏日里的一种常见主打饮品。这是一种由混合葡萄酒与采集来的香料调制而成的有趣混合物，因能在四肢引发一阵寒意而闻名。尽管它的医疗益处值得怀疑，但几乎没人质疑这饮品的烈度，因为它确实能在带来微醺的同时带来一阵凉风。然而，随后袭来的宿醉也令人印象深刻。</p>\n<p>Cold Feet has become a summer staple among the rugged commoners. An interesting concoction of mixed wines and foraged spices, it’s famed for inducing a chilling sensation in the limbs. Though its medical benefits are questionable, few question the strongness of the drink, as it does give a buzz and a cool breeze at the same time. Yet, the hangover that comes after is quite memorable.</p>"
     },
-    "Crimson Noble Slab": {
-      "name": "猩红贵族石板 Crimson Noble Slab",
-      "description": "<p>这些特定的金条由100%纯金制成，重量约为2.2磅，在很长一段时代里，它们仅被称为贵族金条。随着人们开始更频繁地将这些金条用于不法行径，其名称便从贵族金条改为猩红贵族金条。贵族阶层往往用它们来付款，因为它们没有标注家族印玺，以帮助处理各种形式的纷争，从政变、颠覆到暗杀。这些金条被绝大多数商人广泛接受，他们明白这代表一笔已完成的交易。拒收它们可能会让他们以及所爱之人陷入危险。</p>\n<p>These specific slabs are made of 100% pure gold, weighing around 2.2 lbs, and for the longest time, they were simply known as Noble Gold Slabs. As people started using the slabs more frequently for nefarious deeds, they changed the name from Noble Gold Slabs to Crimson Noble Slabs. Nobility tends to use these for payment, as they are not marked with their family seals, to help sort out any forms of rivalry, from coups, and subversions to assassinations. These slabs are widely accepted by the majority merchants, who understand that they represent a completed transaction. Refusing them could potentially put them and their loved ones in danger.</p>"
-    },
     "Fox Hide": {
       "name": "狐皮 Fox Hide",
       "description": "<p>这种兽皮在森林地区相当常见，通常会被鞣制或出售，用于制作服装、配饰或手工艺品；其中红狐、银狐和北极狐等品种因其厚实柔软的毛皮而备受珍视，可用于制作外套、帽子、手套或靴子。通常由平民或贵族在有些闲暇用于娱乐的时代带给皮革工匠，或由专门的猎人送来。</p><p></p>\n<p>Being quite common in the forested areas, the hide is usually tanned or sold for making clothing, accessories, or crafts, with varieties like red, silver, and arctic fox prized for their thick, soft fur used in coats, hats, gloves, or boots. This is usually brought to the leatherworkers by either commoners or nobles, while having some time for recreation, or by dedicated hunters. </p><p></p>"
@@ -1384,24 +1244,16 @@
       "name": "槲寄生 Mistletoe",
       "description": "<p>槲寄生在文化上被称为“接吻植物”，既因为它的生长方式，也因为它与一些冬季节日有关。槲寄生象征浪漫、生育力与生命力。它们附着在寄主树木或灌木上生长，并通过寄主植物汲取水分与养分。世界各地的草药师都会使用它来治疗血液方面的症状，例如关节炎，或用于那些在家中有夫妻房事问题的人。</p><p></p>\n<p>Mistletoe is culturally referred to as the kissing plant, for the way it grows as well as being associated with some winter holidays. Mistletoe represents romance, fertility, and vitality. They grow attached to their host tree or shrub through which they extract water and nutrients from the host plant. Used by herbalists everywhere, for blood conditions, such as arthritis, or for those who have conjugal issues in their homes. </p><p></p>"
     },
-    "Utility Acid": {
-      "name": "实用 酸液 Utility Acid",
-      "description": "<p>一种常见的强酸，强到足以腐蚀铁和青铜，但还不足以溶解更坚硬的金属。它通常是锁匠的必备品，因为它对大多数类型的锁都相当有效，而且从长远来看往往能省下一些钱，毕竟普通的铁钳在反复使用后会受损。</p>\n<p>A regular strong acid, strong enough to corrode iron and bronze, however, not strong enough to dissolve stronger metals. It is usually a must-have for a locksmith, as it is quite efficient against most forms of locks and tends to save some money in the long term, given how regular iron pliers get damaged with repeated use.</p>"
-    },
     "Chrysocolla": {
       "name": "硅孔雀石 Chrysocolla",
       "description": "<p>硅孔雀石比绿松石更容易获得，拥有鲜艳的蓝色与蓝绿色，自古以来便因适用于雕刻与装饰用途而广受欢迎。由于易于塑形并便于与金属加工，它常在银器与金器制作中作为绿松石的多用途替代品。</p>\n<p>Chrysocolla, more readily available than turquoise, boasts vivid blue and blue-green colors that have made it popular for carvings and ornamental purposes since ancient times. It is frequently used in silversmithing and goldsmithing as a versatile substitute for turquoise, thanks to its ease of shaping and working with metals.</p>"
     },
-    "Gong": {
-      "name": "龚 Gong",
-      "description": "<p>锣是一种扁平的圆形金属圆盘，通常用槌敲击。它由青铜、黄铜或铁制成，并悬挂在支架上。锣的体型各不相同，从小到大不等，可以是预先调音的，也可以需要手动调音。作为一种乐器，锣有多种用途，从歌剧演出到在各种场合用作信号装置，例如在斗殴或赛跑等活动中，甚至可作为警报。</p>\n<p>The gong is a flat, circular metal disc typically struck with a mallet. It is prudced out of bronze, brass, or iron and is suspended on a stand. Gongs do vary in size, from small to large, and can either be pre-tuned or require manual tuning. As an instrument, the gong has multiple uses, ranging from opera performances to serving as a signal device in various settings, such as for events like fights or races, or even as alarms.</p>"
-    },
     "Ale": {
-      "name": "艾尔 Ale",
-      "description": "<p>一种与啤酒相似但不含啤酒花的饮料，艾尔酒含有类似的原料。由于艾尔酒的高消费量，酿酒师这一职业备受追捧。一些贵族家族每天购买并饮用近90加仑的艾尔酒，更不用说当地酒馆和旅店的需求了。</p>\n<p>A beverage similar to beer but without hops, ale contains similar ingredients. The profession of brewster is highly sought after due to the high consumption of ale. Some noble houses purchase and consume nearly 90 gallons of ale daily, not to mention the demand from local taverns and inns.</p>"
+      "name": "麦芽酒 Ale",
+      "description": "<p>一种与啤酒相似但不含啤酒花的饮料，麦芽酒含有类似的原料。由于麦芽酒的高消费量，酿酒师这一职业备受追捧。一些贵族家族每天购买并饮用近90加仑的麦芽酒，更不用说当地酒馆和旅店的需求了。</p>\n<p>A beverage similar to beer but without hops, ale contains similar ingredients. The profession of brewster is highly sought after due to the high consumption of ale. Some noble houses purchase and consume nearly 90 gallons of ale daily, not to mention the demand from local taverns and inns.</p>"
     },
     "Red Revenant's Refresher": {
-      "name": "赤红亡灵的提神剂 Red Revenant's Refresher",
+      "name": "红还魂尸提神饮 Red Revenant's Refresher",
       "description": "<p>这种独特混合饮品的基础配方几乎与传统的康波特配方完全相同，但有一项主要原料的变化使其与众不同。它不用水，而是以生物的血液作为替代品。这是为了给夜之生灵提供一些口味上的变化。血液取自各种生物，从小型啮齿动物到大型野兽不等，取决于所需的风味。然而，由于其主要原料的禁忌性质，它通常在秘密且谨慎的情况下制作与饮用。</p>\n<p>The base recipe for this unique concoction is almost identical to the traditional Kompot recipe, with one major ingredient change that sets it apart. Instead of water, the sanguine fluid of creatures is used as a replacement. This is to provide some variation in taste for the night beings. The sanguine fluid is harvested from various creatures, ranging from small rodents to large beasts, depending on the desired flavor. However, due to the taboo nature of its primary ingredient, it is often created and consumed in secrecy and with caution.</p>"
     },
     "Lobster": {
@@ -1532,10 +1384,6 @@
       "name": "琥珀 Amber",
       "description": "<p>石化的松树树脂，可以打磨并用于装饰用途，例如制作珠宝珠子。炼金术士对琥珀的需求很高，因为它可以困住被遗忘的小生物。</p>\n<p>Fossilized pine resin, can be polished and used for ornamental purposes such as jewelry beads. There a is high demand for amber by alchemists as it can trap small forgotten creatures.</p>"
     },
-    "Azurite": {
-      "name": "天蓝石 Azurite",
-      "description": "<p>蓝铜矿是一种非常受欢迎的矿物，呈天蓝色，通常被切割成珠子或装饰品。由于其对火的抗力，大多数时代它被铁匠用作幸运护符，以避免在工作时受伤。</p>\n<p>Azurite is a very popular mineral in an azure-blue color and is usually cut into beads or ornamental objects. Due to its resistance to fire, most of the time it is used by blacksmiths as a lucky charm to avoid injury while working.</p>"
-    },
     "Dumplings": {
       "name": "饺子 Dumplings",
       "description": "<p>饺子通常是将面粉或粗粉与鸡蛋混合，然后将混合物在水中慢炖，直到达到轻盈、松软的蛋糕状口感。为了增添风味，一些食谱会在烹饪前加入各种配料，例如香草、洋葱、磨碎的奶酪，或与面团混合的切碎肉类。</p>\n<p>Dumplings are commonly made by combining flour or meal with egg and then simmering the mixture in water until it reaches a light, cakey texture. To add flavor, some recipes, add various ingredients such as herbs, onions, grated cheese, or chopped meat mixed with the dough before cooking.</p>"
@@ -1556,13 +1404,9 @@
       "name": "鸭子 Duck",
       "description": "<p>鸭主要是为其肉而饲养的，同时也能产出价值更高的鸭蛋，因为它们非常有营养。与普通母鸡相比，平民往往会把它们在家里养更长时间，因为鸭子不需要复杂的棚舍，抗病能力强，并且能高效清除蜗牛或蛞蝓等小型害虫。</p>\n<p>Primarily raised for their meat, ducks also yield eggs of higher value as they are quite nutritious. Commoners often keep them around the house for an extended period compared to regular hens, as ducks don't need elaborate housing, resistant to diseases, and efficiently remove small pests like snails or slugs.</p>"
     },
-    "Satin Spar": {
-      "name": "缎带练习 Satin Spar",
-      "description": "<p>缎光石膏是一种纤维状的石膏变种，以其珍珠般的光泽、闪耀的亮光和丝滑的质地而著称。奔赴战场的战士常常佩戴这些石头，相信它们的光泽能够致盲远处的弓箭手，并保护他们免受投射物的伤害。</p><p></p>\n<p>Satin Spar, a fibrous variety of gypsum, is distinguished by its pearly luster, sparkling sheen, and silky texture. Warriors heading into battle frequently wear these stones, believing their luster can blind far-away archers and shield them from projectiles.</p><p></p>"
-    },
     "Danburite": {
-      "name": "丹布石 Danburite",
-      "description": "<p>丹布拉石是一种透明至半透明的宝石，颜色从无色到浅黄色，或从淡粉色到浅棕色不等。根据其获得的文化或地区不同，人们相信它具有治疗特性；然而，无论是草药师还是任何宗教人士都无法证实这一点。</p>\n<p>Danburite is a transparent to translucent gem that ranges from colorless to light yellow, or pale pink to light brown in color. Depending on the culture or region it is acquired from, it is believed to have healing properties; however, herbalists nor any of the religious folk can confirm it.</p>"
+      "name": "赛黄晶 Danburite",
+      "description": "<p>赛黄晶是一种透明至半透明的宝石，颜色从无色到浅黄色，或从淡粉色到浅棕色不等。根据其获得的文化或地区不同，人们相信它具有治疗特性；然而，无论是草药师还是任何宗教人士都无法证实这一点。</p>\n<p>Danburite is a transparent to translucent gem that ranges from colorless to light yellow, or pale pink to light brown in color. Depending on the culture or region it is acquired from, it is believed to have healing properties; however, herbalists nor any of the religious folk can confirm it.</p>"
     },
     "Star Anise": {
       "name": "八角 Star Anise",
@@ -1608,21 +1452,9 @@
       "name": "豌豆 Peas",
       "description": "<p>青豌豆常被煮熟后加黄油或留兰香调味，作为配菜蔬菜食用。为了保存豌豆，干燥法世代沿用，其制品主要用于豌豆汤。新鲜青豌豆也可以清炒，或根据地区不同包进饺子里。 </p>\n<p>Garden peas are often eaten boiled and flavored with butter or spearmint as a side dish vegetable. To preserve peas, drying has been used for generations and the product is mainly used in pea soups. Fresh green peas can also be stir-fried or depending on the region, put into dumplings. </p>"
     },
-    "Cacoxenite": {
-      "name": "针铁矿 Cacoxenite",
-      "description": "<p>文石英更常与铁矿石相关，而非宝石；然而，由于其不自然的金色、橙色或深红色光泽，它也可被珠宝匠用于制作精致而色彩斑斓的首饰，并被铁匠用于打造制作精美的武装。</p>\n<p>Cacoxenite is more commonly associated with iron ores than with gemstones; however, due to its unnatural shine of gold, orange, or deep red, it can also be used by jewelers for intricate and colorful jewelry, as well as by blacksmiths to create beautifully crafted armaments.</p>"
-    },
-    "Moldavite Ring": {
-      "name": "陨石绿玻陨石戒指 Moldavite Ring",
-      "description": "<p>摩尔达维石，一种被认为起源于天体撞击的石头，具有天然的玻璃质结构，使其易于被塑造成各种器具，如戒指或吊坠。一些迷信的平民宣称佩戴摩尔达维石首饰能显著帮助治疗原本无法治愈的疾病，不过这些说法仍未得到草药师或炼金术师的支持。</p>\n<p>Moldavite, a stone believed to have originated from celestial impacts, possesses a naturally glassy structure that allows it to be easily shaped into various implements such as rings or pendants. Some superstitious commoners claim that wearing moldavite jewelry significantly aids in healing otherwise incurable diseases, though these assertions remain unsupported by herbalists or alchemists.</p>"
-    },
     "Zucchini": {
       "name": "西葫芦 Zucchini",
       "description": "<p>西葫芦通常熟食，可用多种技巧烹制。这些包括蒸、煮、烤架烤、填馅并烘烤、烧烤、油炸，或将其加入舒芙蕾和炒菜中。</p>\n<p>Zucchini is usually served cooked and can be prepared using a variety of techniques. These include steaming, boiling, grilling, stuffing and baking, barbecuing, frying, or incorporating it into soufflés and stir-fries.</p>"
-    },
-    "Kornerupine": {
-      "name": "科纳鲁石 Kornerupine",
-      "description": "<p>Kornerupine 以绿色或棕色的半透明晶体形式存在，其硬度足以被切割成中型（体型）的坚固刻面宝石。绿色品种的 kornerupine 尤其因其奥术能力而闻名，能够记录声音与噪音。</p><p></p>\n<p>Kornerupine is found in green or brown translucent crystals that are sufficiently hard to be cut into solid faceted gems of medium size. The green variety of kornerupine is particularly notable for its arcane ability to record sounds and noises.</p><p></p>"
     },
     "Cherry": {
       "name": "樱桃 Cherry",
@@ -1644,10 +1476,6 @@
       "name": "皇家印戒 Royal Signet",
       "description": "<p>皇家印戒是一件珠宝，通常为贵族量身定制。最负盛名的珠宝匠通常会受托进行这项精密工艺，因为它在蜡上留下的印记必须尽可能细致清晰。戒环通常由黄金制成，而印章本体则由可轻松更换或在需要时重新加工并嵌入戒指的多种合金组合锻造而成。</p><p></p>\n<p>Royal Signet is a piece of jewelry, typically custom-made for the nobility. The most renowned jewelers are usually commissioned for this precise work, as the impression it leaves in wax must be as detailed and clear as possible. The band is generally crafted from gold, while the signet itself is forged from a combination of alloys that can be replaced or reworked into the ring with ease if needed.</p><p></p>"
     },
-    "Pallet": {
-      "name": "托盘 Pallet",
-      "description": "<p>由木匠制作、用于一夜好眠的标准床通常由稻草或干草构成，并覆以一张床单。这种床垫被称为草垫或铺垫，这也是它得名的原因。</p><p></p>\n<p>A standard bed made by carpenters for a good night's sleep usually consists of straw or hay covered with a sheet. This type of mattress is known as a palliasse or pallet, which is how it got its name.</p><p></p>"
-    },
     "Oak Log": {
       "name": "橡木原木 Oak Log",
       "description": "<p>原木通常会被加工成木材，不过，它也常被用作面包房、熔炉或家用壁炉中的引火物。</p>\n<p>The logs are usually processed into lumber, however, it's also commonly used in bakeries, furnaces, or home fireplaces as kindle.</p>"
@@ -1660,17 +1488,9 @@
       "name": "青金石 Lapis Lazuli",
       "description": "<p>一颗蓝色不透明的宝石，通常用作戒指、手镯、吊坠或护身符的装饰。由于其独特的颜色，它有时会被雕刻成艺术造型，例如狮鹫、圣甲虫，甚至独角兽。</p>\n<p>A blue opaque gemstone, it is usually used as ornamentation for rings, bracelets, pendants, or talismans. Due to its specific color sometimes it is carved in artistic shapes, such as griffons, scarabs, or even unicorns.</p>"
     },
-    "Distilation Gear": {
-      "name": "蒸馏道具 Distilation Gear",
-      "description": "<p>许多炼金术士和酒馆都备有一个，因为它可用于提升药水和饮品的品质。制作最上等的药水或最烈的饮料都需要用到它，但由于该过程需要花费大量时代，最终成品往往会变得非常昂贵。</p>\n<p>Many alchemists and taverns keep one because it is used to improve the quality of potions and drinks. Creating the finest potions or strongest beverages require its use, but since the process takes a great deal of time, the final product often becomes very expensive.</p>"
-    },
     "Sailing Mast": {
       "name": "船桅 Sailing Mast",
       "description": "<p>帆桅是一根从船上垂直升起并支撑船帆的杆。较大的帆船通常有不止一根桅杆。桅杆在支撑船帆方面起着关键作用，使风能够推动船只前进。</p><p></p>\n<p>The sailing mast is a pole that rises vertically from a ship and supports the sails. Larger sailboats often have more than one mast. The mast plays a crucial role in supporting the sails, allowing the wind to propel the ship.</p><p></p>"
-    },
-    "Metal Leaves": {
-      "name": "金属叶片 Metal Leaves",
-      "description": "<p>这些被称为试金叶，商人或银行柜员用它们来轻松识别贵金属的种类。叶片本身可以由金、银、铂或琥珀金制成，且纯度各不相同。在测试一个金属物体时，会将叶片与所测试的物体一起在试金石上划擦。根据它们留下的残渣，可以迅速识别金属的纯度，或判断其是否为赝品。</p>\n<p>These are known as touchstone leaves, and are used by merchants or bank tellers to easily identify types of precious metals. The leaves themselves can be made out of gold, silver, platinum, or electrum, with various levels of purity. When testing a metal object, the leaves are scratched on a touchstone along with the object in question. Based on the residue they leave behind, it is possible to quickly identify the metal's purity or determine if it is a counterfeit.</p>"
     },
     "Lentils": {
       "name": "小扁豆 Lentils",
@@ -1724,10 +1544,6 @@
       "name": "虎皮 Tiger Hide",
       "description": "<p>虎皮是一大块来自相当威严野兽的毛皮，这种生物往往能战胜大型狩猎队伍，因此在商人处很罕见。这种生物多见于茂密的常绿森林或幽深的丛林，通常不容易找到。</p>\n<p>Tiger Hide is a large piece of pelt coming from a quite an majestic beast, which has a tendency to be victorious against large hunting parties, making it a rare find at merchants. The creature can be mostly found in dense evergreen forests or deep jungles, finding one is usually not easy. </p>"
     },
-    "Great Forest Rolls": {
-      "name": "巨森掷表 Great Forest Rolls",
-      "description": "<p>它们填充着新鲜卷心菜、咸香蘑菇和芬芳的莳萝的混合物，而面皮则巧妙地混入了酥脆的咸杏仁，以增加口感和风味。此外，对于那些更喜欢甜味变化的人，还有一种版本，使用蜜瓜、清爽的黄瓜，以及芳香的罗勒和薄荷叶，面皮和杏仁还刷上甜蜂蜜上釉，以增添额外风味。</p>\n<p>They are filled with a mixture of fresh cabbage, savory mushrooms, and fragrant dill, while the dough sheet is expertly combined with crunchy salted almonds for added texture and flavor. Additionally, for those who prefer a sweeter twist, a version with honeydew melon, refreshing cucumber, and aromatic basil and mint leaves is available, with the dough sheet and almonds glazed with sweet honey for extra flavor.</p>"
-    },
     "Shark Teeth": {
       "name": "鲨鱼牙齿 Shark Teeth",
       "description": "<p>鲨鱼牙齿非常受欢迎，用于交易、收藏和出售，使其成为一种非常有价值的商品。根据不同地区，鲨鱼牙齿被用作武器或矛头。它们也被用作帮助切割食物、雕刻木材或挖掘的工具。它们还被用来制作首饰，主要是项链和手镯。</p>\n<p>Shark teeth are very popular to trade, collect, and sell, making them a very valuable commodity. Depending on the region the shark's teeth are used as weapons or spearheads. They are also used as tools that help to cut food, carve wood, or dig with. They are also used to make jewelry, mainly necklaces and bracelets.</p>"
@@ -1735,10 +1551,6 @@
     "Myrrh": {
       "name": "没药 Myrrh",
       "description": "<p>草药师会寻找没药树脂，用来制作香水、熏香和药物。据说如果咀嚼没药的叶子，甚至还能帮助改善口臭。在一些文化中，它也会在酿酒过程中被混入。</p>\n<p>Herbalists look for Myrrh resin to use in creating perfume, incense, and medicine. It is believed that if the leaf of the Myrrh is chewed on, it even helps with bad breath. In some cultures, it is also mixed in the process of making wine.</p>"
-    },
-    "Mishanite": {
-      "name": "弥珊尼斯人 Mishanite",
-      "description": "<p>米沙奈特是一种独特而备受追捧的宝石，类似于哈鲁米特。寻求它的人可以将其塑造成任何想要的形状或颜色，而且多种形态可以共存。尽管它对他人而言没有实际价值，米沙奈特却承载着巨大的情感意义。发现这颗宝石会唤起一种深切的个人温暖与亲近感。</p><p></p>\n<p>Mishanite is a uniquely sought-after gem, much like Harumite. Those who seek it can mold it into any desired shape or color, and multiple manifestations can coexist. Despite its lack of tangible value to others, Mishanite holds immense sentimental significance. Finding this gem evokes a profound sense of personal warmth and closeness.</p><p></p>"
     },
     "Obsidian": {
       "name": "黑曜石 Obsidian",
@@ -1756,33 +1568,17 @@
       "name": "阿拉代特 Aradite",
       "description": "<p>阿拉戴特宝石具有在黑暗中发光的独特能力，使其成为许多地下文明常用的光源。与霓虹-隆特并列，由于其丰富的储量而经常被使用。</p><p></p>\n<p>Aradite gemstone has the unique ability to glow in the dark, making it a popular light source for many underground civilizations. Alongside Neon-Ront, it is frequently used due to its abundance.</p><p></p>"
     },
-    "Microlite": {
-      "name": "微光 Microlite",
-      "description": "<p>微光宝石虽小却非常坚硬，适合切割成刻面宝石，用于装饰剑、护甲、盾牌和马具。除了装饰用途外，它们也可作为传统乌贼或章鱼墨汁的实用替代品。</p><p></p>\n<p>Microlite gems are small yet very hard, suitable for cutting into faceted gems used to adorn swords, armor, shields, and horse tack. Beyond their decorative uses, they also serve as a practical substitute for traditional squid or octopus ink.</p><p></p>"
-    },
     "Pineapple": {
       "name": "菠萝 Pineapple",
       "description": "<p>在一些地区，菠萝被视为奢华的重要文化象征，因为它的稀有度在贵族人群中造成了超现实的需求。在各王国的大多数菜肴中，它主要作为水果或果汁供应。它也常用作火腿和肉类的常见装饰配菜。水果块用于水果沙拉、蛋糕、糖果和烘焙食品等甜点。将其与谷物醋混合后，也可以制成一种醋。</p>\n<p>In some regions, the pineapple is considered a significant cultural icon of luxury, as its rarity created a surreal demand with the noble folk. In most cuisines around the realms, it is mainly served as a fruit or as a juice. It is also a common garnish for hams and meats. Chunks of fruit are used in desserts such as fruit salads, cakes, sweets, and baked goods. A form of vinegar can also be created from it after it is combined with grain vinegar.</p>"
-    },
-    "Wolfsbane Retreat": {
-      "name": "狼毒撤退 Wolfsbane Retreat",
-      "description": "<p>这种药剂以能抑制狼人的变身而闻名。狼毒叶必须保持新鲜，并研磨成一团细粉尘云，然后与几颗颠茄果实及其他一些试剂混合。任何不是狼人的人，只要第一滴滴在舌头上就会丧命。若由刚被咬伤的狼人饮用，据推测它可以将其彻底治愈。若在满月之夜的傍晚开始时饮用，它可以将变身延迟到下一个满月。</p>\n<p>This potion is known to keep the Lycanthrope transformation at bay. The Wolf Bane leaves need to be fresh and be ground to a cloud of fine dust, then combined with a couple of Belladonna fruits and some other reagents. Anyone who is not a Lycanthrope will meet his death at the first drop of it on his tongue. If consumed by a Lycanthrope that was just bitten, it is speculated it can fully cure it. When it is consumed at the start of the evening of the full moon it can delay the transformation to the next full moon.</p>"
     },
     "Yam": {
       "name": "山药 Yam",
       "description": "<p>收获山药的过程在体力上要求很高且劳动密集，需要使用木制工具来保护作物。一些农民采用搭架和混作方法，这可能会使收获过程更加复杂。山药可用于多种烹饪准备，例如制成面粉，或将整块蔬菜用于沙拉或炖菜。</p><p></p>\n<p>The process of harvesting yams is physically demanding and labor-intensive, necessitating the use of wooden tools to protect the crop. Some farmers adopt staking and mixed cropping methods, which can complicate the harvesting process. Yams are utilized in diverse culinary preparations, such as flour or whole vegetable pieces for salads or stews.</p><p></p>"
     },
-    "Mahogany Log": {
-      "name": "红木原木 Mahogany Log",
-      "description": "<p>桃花心木是一种纹理笔直、红褐色的木材，主要为取材而采伐，分布于大多数较温暖的气候中，主要见于热带森林，并且极为稀有。一些地区完全禁止进口这种特定木材，因为它需求量也很高，往往会给该地区带来巨大的经济压力。</p><p></p>\n<p>Mahogany is a straight-grained, reddish-brown timber that is mainly harvested for the wood, found in most warmer climates, mainly tropical forests, and extremely rare. Some territories, have this specific wood outright banned for import as it tends to put a high economic pressure on the territory as it is also in high demand. </p><p></p>"
-    },
     "Rubellite": {
       "name": "红宝碧玺 Rubellite",
       "description": "<p>红碧玺，电气石的粉红色变种，是其家族中最稀有的宝石。它偶尔会被误认为红宝石，因此成为无良商人牟利剥削的目标。</p><p></p>\n<p>Rubellite, a pink variant of tourmaline, stands out as the rarest gem in its family. Occasionally mistaken for ruby, it is a target for exploitation by unscrupulous merchants.</p><p></p>"
-    },
-    "Mercury / Cinnabar": {
-      "name": "水星 / 朱砂 Mercury / Cinnabar",
-      "description": "<p>朱砂矿床中含有大量水银，通常也能在与火山活动和温泉相关的地区发现。这种看起来呈银色的金属在室温下会变成液态，使其在其他金属同类中独树一帜。水银主要被炼金术士用来治疗皮肤疾病，不过其效果仍是一个存在争议的话题。</p>\n<p>Mercury is found in large quantities within cinnabar deposits and generally found in areas associated with volcanic activity and hot springs. This silvery-looking metal changes into liquid form at room temperature, making it unique among its metallic counterparts. Mercury is primarily used by alchemists to treat skin ailments, though its effects remain a topic of debate.</p>"
     },
     "Laterite": {
       "name": "红土 Laterite",
@@ -1800,10 +1596,6 @@
       "name": "纯金属青铜锭 Pure-Metal Bronze Ingot",
       "description": "<p>纯金属青铜锭由最精炼的铜块和锡块合金制成，二者等量。著名冶炼厂的熟练铁匠通过精确的冶炼技术精炼金属，确保每一锭都保持均匀的成分。由于没有杂质或缺陷，这些铁匠能够锻造出高于常规品质的工具、武器、护甲，以及建筑材料，如用于地面的装饰瓷砖或精细雕塑。</p>\n<p>Pure-Metal Bronze Ingots are made from an alloy of the most refined chunks of copper and tin, in equal amounts. Skilled blacksmiths at prestigious smelters refine the metals through precise smelting techniques, ensuring that every ingot maintains a uniform composition. Without impurities or flaws, these blacksmiths can forge higher than normal quality tools, weapons, armor, and building materials such as decorative tiles for flooring or detailed sculptures.</p>"
     },
-    "Equipment Order": {
-      "name": "装备顺序 Equipment Order",
-      "description": "<p>一项要求大量道具（包括护甲与武器）的官方典范通常作为战争准备或为支援持续的冲突而颁布。作为回报，铁匠会提交一份材料订单，估算为满足该请求所需的补给数量。</p><p></p>\n<p>An official edict calling for a large quantity of gear, including both armor and weapons, is typically issued as a preparation for war or to support an ongoing conflict. In return, blacksmiths submit a material order, estimating the necessary amounts of supplies to fulfill the request. </p><p></p>"
-    },
     "Platinum Ingot": {
       "name": "铂锭 Platinum Ingot",
       "description": "<p>铂锭极难制造，需要由熔岩或奥术火焰驱动的最炽热熔炉才能将铂矿正确熔化并精炼。一旦净化成锭形，只有最熟练的工匠和精英工坊才会用它来制作高品质物品。然而，这些铂锭主要作为高价值商品的交易商品。</p>\n<p>Platinum Ingots are extremely difficult to manufacture, requiring the hottest smelters fueled by lava or arcane fire to properly melt and refine platinum ore. Once purified into ingot form, only the most skilled craftsmen and elite workshops use it for the creation of high-quality items. However, the ingots are traded mainly as a commodity for high-value goods. </p>"
@@ -1820,9 +1612,9 @@
       "name": "铁锭 Iron Ingot",
       "description": "<p>铁锭可供技艺娴熟的铁匠用来制作钉子、角楔、锁具、燧石、铁剑、镣铐、铲子、鹤嘴锄和斧头。它们还可用于生产铁梁、托架和支撑物，以加固建筑和桥梁，确保其经久耐用。工匠在家具制造中使用铁，而在一些罕见的场合，它也会被用于珠宝制作。</p><p></p>\n<p>Iron Ingots can be used by skilled blacksmiths to craft nails, corner wedges, locks, flint, iron swords, manacles, shovels, pickaxes, and axes. They also produce iron beams, brackets, and supports to reinforce buildings and bridges, ensuring their longevity. Craftsmen use iron in furniture manufacturing, and on some rare occassion it is incorporated in jewlery.</p><p></p>"
     },
-    "Oölite": {
-      "name": "鲕粒岩 Oölite",
-      "description": "<p>鲕石，常被昵称为洞穴珍珠，通常在洞穴中发现，并会因洞穴的特定生物群系而呈现绿色、白色或棕色等不同颜色。它们的主要用途是装饰，可用作饰品，或碾碎后制成鲜艳的墨水。</p><p></p>\n<p>Oölites, often nicknamed Cave Pearls, are typically found in caves and vary in colors such as green, white, or brown, depending on the cave's specific biome. Their primary uses are decorative, used either as ornaments or crushed to create vivid inks.</p><p></p>"
+    "Oolite": {
+      "name": "鲕粒岩 Oolite",
+      "description": "<p>鲕粒岩，常被昵称为洞穴珍珠，通常在洞穴中发现，并会因洞穴的特定生物群系而呈现绿色、白色或棕色等不同颜色。它们的主要用途是装饰，可用作饰品，或碾碎后制成鲜艳的墨水。</p><p></p>\n<p>Oölites, often nicknamed Cave Pearls, are typically found in caves and vary in colors such as green, white, or brown, depending on the cave's specific biome. Their primary uses are decorative, used either as ornaments or crushed to create vivid inks.</p><p></p>"
     },
     "Maple Log": {
       "name": "枫木原木 Maple Log",
@@ -1864,10 +1656,6 @@
       "name": "红曜石 Red Obsidian",
       "description": "<p>红曜石也被称为桃花心木曜石，因为宝石的颜色与木材相似。它是在奥术技艺使熔岩池迅速冷却时形成的。有些戏法师试图以“它具有尚未开发的魔法潜能”为前提，将其作为高级货出售，然而，它们通常的价格接近普通曜石的价格。</p>\n<p>Red Obsidian is also referred to as Mahogany Obsidian, due to the color of the gem resembling the wood. This is formed when the arcane arts cool pools of lava quickly. Some legerdemains try to sell these as a premium under the premise that it has untapped magical potential, however, their usual price is close to the one of the regular obsidian.</p>"
     },
-    "Squash": {
-      "name": "压扁 Squash",
-      "description": "<p>葫芦、南瓜和西葫芦都是南瓜属的类型，它们被用于多种烹饪食谱中，南瓜属植物常被烘烤、煮或蒸。它通常与黄油或橄榄油以及咸味调味料一起食用，它也可作为甜面包的配料。</p>\n<p>Gourds, Pumpkins, and Zucchini are types of squashes, and they are used in multiple culinary recipes, squash is often roasted, boiled, or steamed. It is usually served with butter or olive oil and savory seasonings, it also counts as an ingredient for sweet bread.</p>"
-    },
     "Agave": {
       "name": "龙舌兰 Agave",
       "description": "<p>龙舌兰植物的四个主要可食用部分包括花、叶、茎或基生莲座，以及汁液。饮料可从烘烤过的纤维中挤压出来，而植株的头部可以烘烤或煮熟，捣成薄片，晒干，并储存以备将来使用。烘烤并干燥的头部也会被煮熟并加工成可食用的糊状物，整块食用，或加入汤中。</p>\n<p>The agave plant's four major edible parts include flowers, leaves, stalks or basal rosettes, and sap. A beverage is squeezed from baked fibers, and the heads can be baked or boiled, pounded into flat sheets, sun-dried, and stored for future use. The baked, dried heads are also boiled and processed into an edible paste, eaten whole, or incorporated into soups.</p>"
@@ -1900,10 +1688,6 @@
       "name": "释迦果 Sweetsop",
       "description": "<p>它通常被称为糖苹果，被认为是你能找到的最美味的水果之一，尽管有些罕见。糖苹果有着饱满的绿色鳞片，看起来像一只蜷缩起来的穿山甲。糖苹果通常作为新鲜的甜点水果食用，或用来制作果汁。</p>\n<p>It is commonly referred to as Sugar-Apple and is considered one of the most delicious, if not somewhat rare, fruits you can find. With its plump green scales, the sugar apple looks like a curled up pangolin. The sugar apple is usually consumed as a fresh dessert fruit, or used to make juice.</p>"
     },
-    "Mandarin": {
-      "name": "普通话 Mandarin",
-      "description": "<p>柑橘类果实较小，通常呈红橙色。果皮相当薄，也比较容易剥开。果皮也可以刨皮屑，这一过程会产生细小的果皮条，通常用于为各种糕点和甜食增添风味，例如派、蛋糕、曲奇、饼干、巧克力，以及许许多多其他食品。</p>\n<p>Mandarin orange fruits are small and usually a red-orange color. The skin is quite thin and peels rather easily. The skin can also be zested, a process which creates small strips of peel that are usually used to add flavor to different pastries and sweets such as pies, cakes, cookies, biscuits, chocolate, and many many others.</p>"
-    },
     "Gold Bangle": {
       "name": "金手镯 Gold Bangle",
       "description": "<p>金手镯是一种由纯金打造的手镯，旨在象征最高阶层的贵族身份与社会地位的巅峰。由技艺高超的铁匠使用精密模具锻造而成后，每一件都会交由著名的金匠，以华丽的装饰细节进行精心收尾。这些手镯通常价格高昂，因此常常成为窃贼与骗子觊觎的目标，他们试图从其价值中牟利。</p>\n<p>Gold Bangle is a bracelet crafted from pure gold, designed to symbolize the highest class of nobility and the pinnacle of societal status. Forged by skilled blacksmiths using precise molds, each piece is then handed over to renowned goldsmiths who meticulously finish it with ornate detailing. These bangles are typically priced highly, which makes them frequent targets for thieves and swindlers seeking to profit from their value.</p>"
@@ -1927,10 +1711,6 @@
     "Chisel": {
       "name": "凿子 Chisel",
       "description": "<p>这种切削工具被各类从事较重材料工作的行业所使用，用于修整、塑形或加工木材、石材或金属等坚实材料。通常会用木槌敲击它以确保精确。</p>\n<p>This cutting tool is employed by various trades dealing with heavier materials, serving in dressing, shaping, or working solid materials such as wood, stone, or metal. Typically, it is struck with a mallet to ensure precision.</p>"
-    },
-    "Lead": {
-      "name": "领导 Lead",
-      "description": "<p><em>“我听说过它最离谱的用途是，说来也好笑，化妆品，但我觉得它能有更好的用途。大多数拥有任何管道系统的城市都要感谢铅。”</em></p>\n<p> </p>\n<p>这种特定金属相当沉重，外观呈银色并带有一丝蓝色。它主要用于弹药，因为它又重又耐用；也用于管道与管线，以及钓鱼。</p>\n<p><em>\"The weirdest stuff I’ve heard of it being used for is, funny enough, make-up, but I feel it can have better usage. Most cities that have any plumbing have it thanks to lead.\"</em></p>\n<p> </p>\n<p>This specific metal is quite heavy and has a silvery appearance with a hint of blue. It's mainly used in ammunition due to it being heavy and resistant, plumbing and pipelines, as well as in fishing.</p>"
     },
     "Seeds - Corn": {
       "name": "种子 - 玉米 Seeds - Corn",
@@ -1956,10 +1736,6 @@
       "name": "霓虹-隆特 Neon-Ront",
       "description": "<p>霓虹-隆特蘑菇位于最茂密的林地中，在那里阳光无法穿透浓密的树叶。霓虹-隆特蘑菇因其蓝色光芒而易于被发现。这种特定的真菌在许多生活在地下的文明中需求很高，因为它非常坚固，能很好地与岩石地形和墙壁结合，并且可以被切割成任何形状，因此可用于制作搁板。它也用于室内照明。</p>\n<p>The Neon-Ront mushroom is located in the densest woodlands, where the light of the sun doesn't protrude from the dense foliage. The Neon-Ront mushroom can be located due to its blue light glow. This specific fungus is in high demand for many civilizations that live underground, as it can be used for shelving as it is quite sturdy, binds well with rocky terrain and walls, and can be cut into any shape. It is also used for indoor illumination.</p>"
     },
-    "Archery Target": {
-      "name": "箭术目标 Archery Target",
-      "description": "<p>最初，射箭靶只是简单的土堆，但熟练的弓箭手很快就会因反复命中同一位置而将其磨损。为了解决这个问题，人们开发了木制箭靶，主要由硬木制成，并用粗绳和稻草加固，以承受大量箭矢。更富有的弓箭手还能负担得起贴有彩色纸张的箭靶，用红、蓝、黑标记，打造出著名的靶心设计。</p>\n<p>Originally, archery targets were simple mounds of earth, but skilled archers quickly wore them down by hitting the same spots repeatedly. To solve this, wooden archery targets were developed, made primarily of hardwood and reinforced with heavy rope and straw to handle the high amount of arrows. Wealthier archers could afford targets with colored paper, marked in red, blue, and black to create the famous bullseye design.</p>"
-    },
     "Djembe": {
       "name": "金贝鼓 Djembe",
       "description": "<p>Djembe，有时也简称为Jembe，是一种用绳索调音、用赤手演奏的鼓。在一些地区，它的名字可译为“人人和平地聚集在一起”，体现了团结与社区精神。鼓身由硬木雕刻而成，而鼓面传统上由未经处理的山羊生皮制成，反映了其深厚的文化根源。</p>\n<p>The djembe, sometimes referred to as simply the jembe, is a rope-tuned drum played with bare hands. Its name, in some areas, translates to 'everyone gathers together in peace', embodying unity and community spirit. The drum’s shell is carved from hardwood, while its head is traditionally made from untreated goat rawhide, reflecting its deep cultural roots.</p>"
@@ -1984,21 +1760,9 @@
       "name": "木制人体模型 Wooden Mannequin",
       "description": "<p>木制人体模型，也被称为摆人或人形模型，用途广泛，从艺术家到皮革工匠皆可使用。艺术家将这些人体模型用作雕塑的模具，涂上一层石膏，之后再将其取下以显露最终形态。与此同时，皮革工匠会将皮革围绕这些人形塑形，以制作适合类人形体型的皮甲和其他装备。</p>\n<p>Wooden mannequins, also known as laymen or lay figures, have many uses, ranging from artists to leatherworkers. Artists utilize these mannequins as molds for their sculptures, applying a layer of gypsum that is later removed to reveal the final form. Meanwhile, leatherworkers shape leather around these figures to craft hide armor and other equipment tailored to fit a humanoid form.</p>"
     },
-    "Lantern Jack": {
-      "name": "灯笼杰克 Lantern Jack",
-      "description": "<p>啊，灯笼杰克。红收获节期间，没有一个集市推车或酒馆门阶在没有它对你咧嘴一笑时会显得真正对劲。最简单的情况下，它不过是一只挖空的南瓜，上面刻出眼睛和嘴巴，里面一支蜡烛摇曳欲熄。然而，它们的意义不止于蔬菜与蜡。黄昏时分站在村庄广场上，寒意沉沉降下，那一排排狞笑的面孔看起来几乎活着一般，仿佛一群从黑暗中注视着你的观众。</p>\n<p>Ah, the Lantern Jack. No market cart nor tavern stoop feels quite right during Red Harvest without one grinning back at you. At its simplest, it’s just a hollowed pumpkin with eyes and a mouth carved in, a candle guttering inside. Yet there’s something more to them than vegetables and wax. Stand in a village square at dusk, the chill coming down, and those rows of leering faces look near alive, like a crowd watching you from the dark.</p>"
-    },
     "White Beans": {
       "name": "白豆 White Beans",
       "description": "<p>白豆因其浅色和富含淀粉的质地而闻名。存在多种类型，具有各种形状和体型，并且常常因地区不同而拥有不同名称。尽管在烹饪中通常可互换使用，但每个品种都提供独特的体型、形态和风味。</p>\n<p>White beans are known for their pale color and starchy texture. Multiple types exist in various shapes and sizes, often bearing different names depending on the region. Though commonly used interchangeably in cooking, each variety offers a distinct size, form, and taste.</p>"
-    },
-    "Last Will": {
-      "name": "最后意志 Last Will",
-      "description": "<p>通常作为财富和土地的转让而制定，由附近的领主或王国强制执行，以便资产按指示分配。有些遗嘱并非用于财富分配，而是作为传达临终想法、希望或遗产的方式，有时会在吟游诗人或神职人员的帮助下带有个人的接触。</p>\n<p>Usually made as a transfer of wealth and land, enforced by a nearby lord or kingdom, for the assets to be distributed as instructed. Some wills are not for wealth distribution but serve as a way to communicate final thoughts, hopes, or legacies, sometimes with a personal touch through the aid of a bard or clergy.</p>"
-    },
-    "Laurel": {
-      "name": "劳瑞尔 Laurel",
-      "description": "<p>月桂来自一种常绿灌木或小树，通常以盆栽形式摆放在草药师的店里。月桂的药用特性使其成为所有医药从业者最觊觎的植物之一。它可以用于敷剂、茶饮、擦剂或直接作为药物，用于治疗任何种类的疾病以及任何形式的感染。它也是一种身份地位的象征，在一些地区月桂冠相当常见，或作为胜利或成就的象征。</p><p></p>\n<p>The Laurel comes from an evergreen shrub or small tree, that is usually kept potted at a herbalist's store. The medicinal properties of the Laurel make it one of the most coveted plants by all medicinal practitioners. It can be used in poultices, teas, as a rub, or direct medicine, for any kind of disease to any form of infection. It is also a symbol of status, in some regions laurel crowns are quite common, or a symbol of victory or achievement.</p><p></p>"
     },
     "Grog": {
       "name": "格罗格 Grog",
@@ -2023,10 +1787,6 @@
     "Dung Beetle": {
       "name": "蜣螂 Dung Beetle",
       "description": "<p>蜣螂的出现确实表明一片牧场相当健康，因为它们擅长分解并掩埋动物排泄物，从而改善土壤。虽然有点具争议性，但在一些地区，它们也被用于烹饪。捕获后会将其清洗、烘烤并脱水，有时还会加入调味料。有些食谱会先修剪蜣螂的翅膀和腿，然后用油与罗勒、辣椒和柠檬草一起翻炒至酥脆。</p>\n<p>Dung Beetle their appearance does show that a pasture is quite healthy, as they are perfect in breaking down and burying animal waste, improving the soil. While, a bit controvesial, in some regions, they are used in cooking. After capturing they are cleaned, roasted, and dehydrated, sometimes with added seasonings. Some recipes involve trimming the wings and legs of the beetles, then stir-frying them with oil, basil, chiles, and lemongrass until crispy.</p>"
-    },
-    "Carbuncle": {
-      "name": "红玉兽 Carbuncle",
-      "description": "<p>亦称红榴石，是用于各种类型珠宝中最实惠的宝石之一。人们相信，如果将其镶嵌并附魔在武器上，用该武器的打击将杀死任何敌人。</p>\n<p>Also known as Red Garnet, is one of the most affordable gemstones used in all types of jewelry. It is believed that if its mounted and enchanted on a weapon the strike with the weapon will kill any enemy.</p>"
     },
     "Cymophane": {
       "name": "金绿猫眼石 Cymophane",
@@ -2073,10 +1833,6 @@
       "name": "柚木原木 Teak Log",
       "description": "<p>这些原木通常采自热带地区，并以其耐用性以及对腐烂和腐朽的抗力而闻名。这些原木常用于建造坚固耐用的结构，例如建筑、桥梁和栅栏，也用于制作家具。这种木材还因其对害虫和昆虫的抗力而备受珍视，使其成为家居用品的热门选择。</p>\n<p>The logs are typically harvested from tropical regions and are known for their durability and resistance to rot and decay. The logs are often used to create strong and sturdy structures, such as buildings, bridges, and fences, as well as furniture. The wood is also prized for its resistance to pests and insects, making it a popular choice for use in household items.</p>"
     },
-    "The Sickener": {
-      "name": "作呕者 The Sickener",
-      "description": "<p>致病菇，或称呕吐红菇，是一种游走在危险与烹饪乐趣之间的蘑菇。食用后可能导致恶心和呕吐，因此得了这个阴森的绰号。然而，一些地区将其作为香料用于匈牙利炖牛肉等传统菜肴中，依靠精心处理来中和其令人不适的特性。</p>\n<p>The Sickener, or Vomiting Russula, is a mushroom that walks the line between danger and culinary delight. Its consumption can lead to nausea and vomiting, hence its grim nickname. Yet, some regions use it as a spice in traditional dishes like goulash, relying on careful preparation to neutralize its unpleasant properties.</p>"
-    },
     "Chalk Limestone Ashlar": {
       "name": "白垩石灰岩方石 Chalk Limestone Ashlar",
       "description": "<p>由最优秀的石匠制作，这些瓦片被打造用于建筑外部的装饰风格化，或在少数情况下作为地砖。其浅色使其成为由石材建造的教堂、大教堂或王室庄园装饰的热门选择。尽管如此，作为瓦片其耐久性有限，导致在较近的时代它们被大理石或花岗岩所取代。</p>\n<p>Created by the finest masons, tiles were crafted for the exterior stylization of buildings or, in rare cases, as floor tiles. Their light coloring made them a popular choice for the ornamentation of churches, cathedrals, or royal manors constructed from stone. Despite this, their limited durability as tiles led to their replacement with either marble or granite in more recent times.</p>"
@@ -2084,10 +1840,6 @@
     "Safe Balm": {
       "name": "安全香膏 Safe Balm",
       "description": "<p>炼金术师制造的一种用于缓解疼痛的小型药膏。然而，据推测，如果将其涂抹在皮肤上，它也能治疗发烧以及感冒。这是大多数平民所持的信念，通常用来治疗他们的孩子。</p>\n<p>A small balm created by alchemists to alleviate pain. It is however speculated that, if it is rubbed on the skin, it can also cure fevers, as well, as colds. This is a belief held by most commonfolk and usually used to treat their children. </p>"
-    },
-    "Novaculite": {
-      "name": "诺瓦库莱特石 Novaculite",
-      "description": "<p>诺瓦库石，外观类似石英，承担着高度专门化的用途。它最初用于制作箭头和矛尖，后来因成为制造磨刀石的主要材料而声名鹊起，这在生产磨石时至关重要。</p><p></p>\n<p>Novaculite, resembling quartz, fulfills highly specialized roles. Originally utilized for crafting arrow and spear points, it has since gained prominence as the primary material for manufacturing sharpening stones, essential in the production of whetstones.</p><p></p>"
     },
     "Morning Breeze": {
       "name": "晨风 Morning Breeze",
@@ -2110,8 +1862,8 @@
       "description": "<p>它们只在红色收获期间出现，那时夜晚变得漫长，空气里充斥着烟与苹果酒的臭味。孩子们一整年都在等它们，因为它们被糖果塞得满满当当，手指黏糊糊、嘴唇被染成紫色，在篝火之间穿梭乱跑。成年的商人假装自己不屑于这些东西，尽管我见过不止一位商队领队在营地搭好之前就把整箱都“检查”了一遍。</p>\n<p>They appear only during Red Harvest, when the nights grow long and the air stinks of smoke and cider. Children wait all year for them, as they are filled to the brim with sweets, darting between bonfires with sticky fingers and purple-stained lips. Grown traders pretend they’re above such things, though I’ve seen more than one caravan master “inspect” an entire box before camp is set. </p>"
     },
     "Sanidine": {
-      "name": "圣丁岩 Sanidine",
-      "description": "<p>钠长石是一种宝石，常见于山顶，也零星出现在沙漠地区。沙漠的游牧部族相信将其放入水中有助于净化，尽管若无奥术协助便缺乏确凿证据。</p><p></p>\n<p>Sanidine is a gemstone commonly found on mountaintops and sporadically in desert areas. Nomadic tribes of the desert believe that placing it in water assists in purification, although definitive evidence is absent without arcane assistance.</p><p></p>"
+      "name": "透长石 Sanidine",
+      "description": "<p>透长石是一种宝石，常见于山顶，也零星出现在沙漠地区。沙漠的游牧部族相信将其放入水中有助于净化，尽管若无奥术协助便缺乏确凿证据。</p><p></p>\n<p>Sanidine is a gemstone commonly found on mountaintops and sporadically in desert areas. Nomadic tribes of the desert believe that placing it in water assists in purification, although definitive evidence is absent without arcane assistance.</p><p></p>"
     },
     "Amaranth": {
       "name": "苋菜 Amaranth",
@@ -2157,14 +1909,6 @@
       "name": "纯金属黄铜锭 Pure-Metal Brass Ingot",
       "description": "<p>纯金属黄铜锭由最优质的精选铜与锌制成。它们在制作烛台、大教堂钟和圣髑匣等宗教物品方面日益流行，往往能卖出高价。尽管比青铜略软，但其抗力使其非常适合用于海军与沿海以及海军军用道具。</p><p></p>\n<p>Pure-Metal Brass Ingots are manufactured from the finest curated copper and zinc. They have become increasingly popular for crafting religious objects such as candlesticks, cathedral bells, and reliquaries, often fetching a high price. Though slightly softer than bronze, its corrosion resistance makes it ideal for naval and coastal and naval military gear.</p><p></p>"
     },
-    "Aurichalcum Ore": {
-      "name": "奥利哈刚矿石 Aurichalcum Ore",
-      "description": "<p>在大地的矿脉深处蕴藏着奥里哈钢，一种由锌与铜构成的合金，闪耀如黄铜，却与黄金同等珍贵。在最为罕见的条件下，当压力不断累积、时代无尽延展时，这种合金会结晶为奥里哈方解石。由奥里哈钢铸造的钱币曾被视为价值连城的珍宝，在久远的社会中象征着繁荣与权力。</p><p></p>\n<p>Deep within the veins of the earth lies Aurichalcum, an alloy of zinc and copper, shimmering like brass yet valued as highly as gold. In the rarest of conditions, where pressure mounts and time stretches endlessly, this alloy crystallizes into Aurichalcite. Coins forged from Aurichalcum were considered treasures of great worth, symbolizing prosperity and power in societies long past.</p><p></p>"
-    },
-    "Scarlet": {
-      "name": "猩红色 Scarlet",
-      "description": "<p>最昂贵的羊毛布料材料，通常使用胭脂虫染料染色，由稀有昆虫制成，为织物提供鲜艳的红色，使其成为使用中最昂贵的染料之一。这种材料仅由最优秀的女裁缝或制衣师使用。 </p>\n<p>The most expensive woolen cloth material, often dyed with kermes dye, created from rare insects, which provides a bright red color to the fabric making it one the most expensive dyes in use. This type of material is only used by the finest seamstresses or dressmakers. </p>"
-    },
     "Radish": {
       "name": "萝卜 Radish",
       "description": "<p>萝卜的根通常生吃，尽管更多时候是蒸着吃。它们多用于沙拉，但也会出现在一些地方菜肴中。萝卜的种子可以被压榨以提取萝卜种子油。</p>\n<p>The root of the radish is usually eaten raw, although it is more often than not steamed. They are mostly used in salads but they also appear in some regional dishes. The seeds of radishes can be pressed to extract radish seed oil.</p>"
@@ -2197,10 +1941,6 @@
       "name": "宝石镶嵌多面骰 Gem Encrusted Polyhedral Dice",
       "description": "<p>一套镶嵌的骰子套装，通常包含多种骰子类型。工匠用发光的钠长石雕刻出优雅的骰子套装，并在每颗骰子上嵌入铜质箍条以加固其边缘。这些套装通常与由平民游玩的故事驱动型游戏一同出现。一些更著名的作品包括“探险者”系列，以及目前已推出到第七版的“职责与神祇”的多个版本。</p>\n<p>An encrusted dice set, typically containing multiple die types. Artisans carve elegant dice sets from luminous albite, inlaying each die with copper bindings to fortify its edges. These sets are usually accompanied by story-driven games played by commoners. Some of the more famous titles include the \"Explorer\" series as well as multiple editions of \"Duties and Divinities\" currently sitting at it's seventh edition.</p>"
     },
-    "Corvus Corax": {
-      "name": "科拉克斯乌鸦 Corvus Corax",
-      "description": "<p>Corvus Corax 更常被称为乌鸦头骨。它主要被最迷信的人用作引路护符，或穿在链条或系带上并悬挂作为护身符。对其他人而言，它是智慧、聪慧与洞察力的象征。它也可以代表死亡，并且在不同地区、根源与民间传说中，还是蜕变的象征。</p>\n<p>The Corvus Corax is more commonly referred to as a raven skull. It is mainly used by the most superstitious folk as a guiding talisman or threaded upon a chain or lace and hung as a charm. For others is a symbol of wisdom, intelligence, and insight. It can also represent mortality and is a symbol of transformation, depending on the region, tradition, and folklore.</p>"
-    },
     "Aragonite": {
       "name": "霰石 Aragonite",
       "description": "<p>霰石是最难切割的宝石之一，需要技艺高超的宝石切割师才能将其雕琢成装饰用宝石。有传言说这些宝石在近距离时会干扰魔法物品，但这种说法通常被认为毫无根据。</p><p></p>\n<p>Aragonite is one of the most challenging gemstones to cut, requiring the expertise of a highly skilled gemstone cutter to shape it into ornamental stones. There are rumors that these stones can interfere with magical items when in close proximity, but such claims are generally considered unfounded.</p><p></p>"
@@ -2217,10 +1957,6 @@
       "name": "黑曜石锭 Obsidian Ingot",
       "description": "<p>黑曜石锭是一小块经专家精细凿刻而成的纯黑曜石条。相传它密度与重量都令人难以置信，只能由最娴熟的铁匠打造。这种金属呈现深沉的暗色，仿佛能吸收光线，但当它被敲击时，会以炽烈的内在光芒发亮。</p>\n<p>An obsidian ingot is a small, expertly chiseled bar of pure obsidian. It is said to be incredibly dense and heavy, and can only be crafted by the most skilled blacksmiths. The metal has a deep, dark color that seems to absorb light, but when struck, it glows with a fiery inner light.</p>"
     },
-    "Weakfish": {
-      "name": "弱鱼 Weakfish",
-      "description": "<p>海鳟以其美味的口感和顽强的搏斗而闻名。它们在较温暖的月份洄游至近岸产卵，并在河口与沿海水域繁衍生息。由于易于处理，海鳟主要用于烹饪，常见做法是烘烤或油炸。或者，其细嫩的质地也使其成为制作鱼肉玉米饼或炸鱼薯条的绝佳选择。</p>\n<p>Weakfish are known for their delicious taste and spirited fight. They migrate inshore during the warmer months to spawn and thrive in estuarine and coastal waters. Primarily used in cooking due to its ease of preparation, Weakfish is commonly baked or fried. Alternatively, its delicate texture makes it an excellent option for fish tacos or fish and potato chips.</p>"
-    },
     "Capricia Verde": {
       "name": "卡普里西亚·韦尔德 Capricia Verde",
       "description": "<p>卡普里西亚·维尔德是一种加入朗姆酒的烈性酿饮，通常还会加入橙子、橙叶和肉桂。不论其配料如何，卡普里西亚·维尔德都是友谊的象征。水手们常在庆典、告别之时，或在挺过风暴之后传递它的杯盏，使其成为一种共享团结与情谊的仪式。</p>\n<p>Capricia Verde is a strong brew with rum, and usually, orange, orange leaves, and cinnamon. Regardless of its ingredients, Capricia Verde is a symbol of camaraderie. Sailors often pass around mugs of it during celebrations, farewells, or after surviving storms, placing it as a ritual of shared unity and fellowship.</p>"
@@ -2233,17 +1969,9 @@
       "name": "绿帘石 Epidote",
       "description": "<p>绿帘石是一种在各类矿井中大量出产的装饰性宝石，因其双重用途而备受珍视。它尤其被用作制作旨在驱避不死生物的药水的成分，也被用作书写卷轴的墨水。</p><p></p>\n<p>The Epidote, an ornamental stone abundant in various mines, is prized for its dual utility. It is notably used as an ingredient in potions designed to ward off the unliving and as ink for inscribing scrolls.</p><p></p>"
     },
-    "Moonstone": {
-      "name": "月光石 Moonstone",
-      "description": "<p><em>“有个传说称，狼人在仅仅看到这块石头时，就会被迫变形。确实相当迷人。”<br /><br /></em></p>\n<p>它是流通中最实惠的宝石之一，在某些社会中，人们会将它缝在衣物上作为护身符。</p>\n<p><em>\"There's a legend that lycanthropes, just at the mere sight of this stone, are forced to shape-shift. Quite fascinating, indeed.\"<br /><br /></em></p>\n<p>It is one of the most affordable gemstones in circulation and in some societies it is sewn into garments as a charm.</p>"
-    },
     "Brotherhood of the North": {
       "name": "北境兄弟会 Brotherhood of the North",
       "description": "<p>被辨认为一本历史书，其大部分内容尚未被完全翻译。历史学家们在每次修订时都会尝试用最新的发现来更新这本书，然而，它似乎是用一种早在数千年前就已灭绝的语言写成的。从目前可用的译文来看，文本似乎主要由描写争夺北境领土之战的诗歌构成。然而，即便这些解读也存在巨大争议，因为译文的准确性仍不确定。</p><p></p>\n<p>Identified as a historical book, most of its contents have yet to be fully translated. Historians, with each revision, attempt to update the book with their latest findings, however, it appears to be written in an extinct language from millennia ago. From the currently available translations, the text seems to consist mostly of poems describing battles for Nordic territories. Yet, even these interpretations are heavily debated, as the accuracy of the translations remains uncertain.</p><p></p>"
-    },
-    "Axinite": {
-      "name": "阿克西尼特 Axinite",
-      "description": "<p>斧石宝石不幸呈棕色，这种颜色在宝石中并不吃香。尽管如此，它们仍常被用于戒指，因为它们能够保持锋利的棱边，并能经受酒馆斗殴的磕碰与折腾。这也为它们赢得了“指节石”的绰号。</p>\n<p>Axinite gemstones have the misfortune of being brown, a color not in high demand for gemstones. Despite this, they are often used in rings because they can maintain a sharp edge and endure the rough and tumble of a tavern brawl. This has earned them the nickname \"knuckle stones\".</p>"
     },
     "Shrimp": {
       "name": "虾 Shrimp",
@@ -2285,10 +2013,6 @@
       "name": "石英岩 Quartzite",
       "description": "<p>石英岩是一种装饰性石材，可用于掩蔽墙面，作为屋顶瓦片、地板和台阶；由于其强度，它也用于建造道路、桥梁和水坝。切割并抛光后，这种岩石既相当美观，也很耐用。</p>\n<p>Quartzite is a decorative stone and may be used to cover walls, as roofing tiles, flooring, and stairsteps, due to its strength, it is also used to construct roads, bridges, and dams. When cut and polished, the rock is quite beautiful, as well as durable.</p>"
     },
-    "Cleiophane": {
-      "name": "克莱奥法涅 Cleiophane",
-      "description": "<p>克勒伊欧凡是一种浅色宝石，常见色调为黄色、绿色，有时也无色。除了用于珠宝之外，它也可用于制造黄铜，但其稀缺性和高价格意味着它仅供紧急使用。</p><p></p>\n<p>Cleiophane is a light-colored gemstone, often seen in hues of yellow, green, or sometimes colorless. Besides its use in jewelry, it can also be utilized in the production of brass, its scarcity and high price mean it is for emergency use only.</p><p></p>"
-    },
     "Red Dye": {
       "name": "红色染料 Red Dye",
       "description": "<p>这种红色染料相对稀有，主要来源于特定的昆虫，这些昆虫大多栖息在仙人掌上。根据气候和领土情况，它们可能不易获得。采集后，将昆虫碾碎成细粉，干燥并过滤以去除任何残渣。剩余的材料可用作织物或颜料的染料。</p>\n<p>The red dye is relatively rare and is primarily found in specific insects that are mostly located on cacti. Depending on the climate and territory, they may not be easily accessible. After harvesting, the insects are crushed into a fine powder, dried, and filtered to remove any residue. The remaining material can be used as a dye for fabrics or paints.</p>"
@@ -2316,10 +2040,6 @@
     "Kompot": {
       "name": "蜜饯饮料 Kompot",
       "description": "<p>也更常被称为炖水果，这是一种非常简单的配方，只需要水、糖和水果。把所有材料都丢进锅里，煮沸、装瓶，然后冷饮供应。这种饮料由旅店和面包店一同制作，使用他们剩下的任何水果，因为这种调制品在完成后保质期很长。</p>\n<p>Also more commonly known as stewed fruit, this is a very simple recipe that involves only water, sugar, and fruit. Everything is thrown into a pot, boiled, bottled, and served cold. This beverage is made by inns and bakeries alike, using any leftover fruit they have, as the concoction has a very long shelf life when completed.</p>"
-    },
-    "Drill": {
-      "name": "操练 Drill",
-      "description": "<p>这款手持式机械钻通过齿轮与机油运作，以稳定的圆周运动旋转，将挖掘深入到单一点上。它需要熟练且懂得摆弄机械的矿工，因为岩石地形经常会磨损钻头，因而需要频繁更换。</p><p></p>\n<p>This handheld mechanical drill operates through gears and oil, spinning in a steady circular motion to dig deeper into a single point. It requires skilled miners familiar with tinkering, as the rocky terrain often wears down the drill head, demanding frequent replacement.</p><p></p>"
     },
     "Dragon’s Heart": {
       "name": "巨龙之心 Dragon’s Heart",
@@ -2349,10 +2069,6 @@
       "name": "森林 The Forest",
       "description": "<p>“森林”是一条由铜制成并镶嵌有一枚黝帘石器具的项链。虽然铜是一种相对廉价的材料，但黝帘石的存在平衡了其价值，使得这件饰品的价格出奇地高。然而，由于铜有些脆弱，这些项链常常在拥挤的地方被发现——当铜被腐蚀后，它们便从佩戴者的颈间滑落。</p>\n<p>The Forest is a necklace crafted from copper and set with a zoisite implement. While copper is a relatively inexpensive material, the presence of the zoisite balances the value, resulting in a piece that has a surprisingly high price. Yet, because copper is somewhat fragile, these necklaces are often found in crowded places, having slipped from their wearers' necks after the copper has corroded.</p>"
     },
-    "Hosho": {
-      "name": "保生 Hosho",
-      "description": "<p>霍绍是一种响铃乐器，由一种名为丹巴的野橙制成，用木棍将其绑在一起，并填充霍塔种子或小卵石。其独特的形状能产生尖锐而独特的声音，常常能穿透其他乐器的音乐。</p>\n<p>The hosho is a rattle instrument crafted from a wild orange known as damba, with sticks used to tie it together and filled with hota seeds or pebbles. Its unique shape produces a sharp, distinctive sound that often cuts through the music of other instruments.</p>"
-    },
     "Jasper Ring": {
       "name": "碧玉戒指 Jasper Ring",
       "description": "<p>碧玉戒指由一整块坚实的碧玉制成，由经验丰富、具备卓越技能与精准度的宝石切割师雕琢成形。得益于其美丽的色泽与鲜亮的抛光，它吸引了许多平民的目光，他们在寻找一枚与自己手指相配的戒指。它以适中的价格出售，使来自各行各业的人都能轻松获得。</p><p></p>\n<p>The Jasper Ring is crafted from a single solid piece of jasper, shaped by experienced gemcutters with exceptional skill and precision. Thanks to its beautiful coloring and vibrant polish, it attracts the attention of many commoners seeking a ring that match their fingers. It is offered at a modest price, making it highly accessible to people from all walks of life.</p><p></p>"
@@ -2368,10 +2084,6 @@
     "Gravestone": {
       "name": "墓碑 Gravestone",
       "description": "<p>墓碑——就红收获节的本质而言，奇怪的是——并不只是装饰。我发现，无论这些墓标被立在何处，其下方的土地都有一种古怪的习惯会蠢动，仿佛在感召。不止一位巴考勒泰亚区的看守发誓，一块廉价的石膏墓标与真家伙一样可能藏着一具不安的尸体。一些学者认为这全是巧合，或者红收获节只是把无数战争在城市中残留的死灵学余烬引了出来。</p>\n<p>Gravestones as when it comes with Red Harvest's nature, oddly enough, aren't just decorative. I’ve found that wherever these grave markers are set, the ground beneath has a curious habit of stirring, like it is calling. More than one caretaker in Bacau's Letea District swears that a cheap plaster marker is just as likely to hide a restless corpse as the real thing. Some scholars argue it’s all coincidence or that the Red Harvest festival simply draws out the necromantic residue that lingers in cities from the countless wars.</p>"
-    },
-    "Rake": {
-      "name": "耙击 Rake",
-      "description": "<p>耙子有多种类型，但最常见的两种是花园耙和整地耙。花园耙的设计旨在拾起树叶和其他花园碎屑，而不会对草坪及其下方的土壤造成伤害。另一方面，整地耙用于在种植植物和播撒种子之前将土壤整平和整地。</p>\n<p>Rakes come in various types, but the two most common are garden rakes and soil rakes. Garden rakes are effectively designed to pick up leaves and other garden debris without causing damage to the lawn and the soil beneath. On the other hand, soil rakes are intended for leveling and grading the soil before plants and seeds are planted.</p>"
     },
     "Rhodochrosite": {
       "name": "菱锰矿 Rhodochrosite",
@@ -2405,10 +2117,6 @@
       "name": "榍石 Sphene",
       "description": "<p>榍石以其柔软且脆弱的特性而闻名，颜色从黄色到深绿色不等，其中最受追捧的是珍贵的祖母绿绿色调。其晶体通常被切割成令人目眩的刻面宝石，体积从小到中等。</p><p></p>\n<p>Sphene is known for its soft and brittle nature, found in shades ranging from yellow to deep green, with the prized emerald green hue being the most sought-after. Its crystals are often cut into dazzling faceted gems of small to medium size.</p><p></p>"
     },
-    "Serpentine": {
-      "name": "蛇形 Serpentine",
-      "description": "<p>蛇纹石，有时被称为“穷人的翡翠”，是一种相对常见的宝石。它通常被切割成被称为弧面宝石的圆形或椭圆形，然后用于装饰武器、护甲或珠宝。</p><p></p>\n<p>Serpentine, sometimes referred to as \"Poor man's Jade\", is a relatively common gemstone. It is typically cut into round or oval shapes known as cabochons, which are then used to adorn weapons, armor, or jewelry.</p><p></p>"
-    },
     "Sandalwood Log": {
       "name": "檀香木原木 Sandalwood Log",
       "description": "<p>檀香木主要因其精油而被采收。檀香木森林被认为是诸国度中最昂贵的木材之一。由这种精油可以制作许多物品，如香水、肥皂、蜡烛和熏香；此外，若将其研磨成细粉，还可用于医疗、宗教或文化用途，也可作为食物与饮料的调味。</p>\n<p>Sandalwood is primarily harvested for its oil. The Sandalwood forests are considered one of the most expensive woods within the realms. From the oil, a lot can be crafted such as perfumes, soaps, candles, and incense, as well as, if turned into a fine powder, for medicine, religious or cultural purposes, also, as a flavor for foods and beverages.</p>"
@@ -2430,7 +2138,7 @@
       "description": "<p>切碎的开心果通常会拌入或撒在诸如奶油、蛋糕、松露巧克力和糕点之类的甜点上。在一点面团中，它们可以被揉入快手面包、松饼、纸杯蛋糕或酵母面包中，能带来松脆的口感和黄油般的风味。</p>\n<p>Chopped pistachios are commonly mixed into or sprinkled atop desserts like cream, cake, truffles, and pastries. With a bit of dough they can be folded into quick breads, muffins, cupcakes, or yeast breads, they contribute crunch and buttery flavor.</p>"
     },
     "Jade": {
-      "name": "翡翠 Jade",
+      "name": "玉 Jade",
       "description": "<p>它的主要形态被称为硬玉，经过切割后，主要用于装饰性雕刻和小雕像。各种类型的音乐家都相信，如果他们佩戴玉，会提升他们的音乐造诣</p>\n<p>Its primary form is called Jadeite, after cutting, it's mainly used in ornamental sculptures and figurines. Musicians of all kinds believed that if they wore Jade, they would improve their musical prowess</p>"
     },
     "Fir Log": {
@@ -2440,14 +2148,6 @@
     "Tombak": {
       "name": "通巴克 Tombak",
       "description": "<p>铜锌金是一种由铜和锌制成的合金，用于在廉价首饰中仿制黄金，并用于镀金。它是一种廉价且可锻的合金，主要用于奖章、饰品、装饰以及其他观赏性用途。然而，最为阴险的人往往会大量购买它，并以黄金的名义加价售卖。</p>\n<p>Tombak is an alloy of copper and zinc used to imitate gold in cheap jewelry and for gilding. It is a cheap malleable alloy mainly used for medals, ornament, decoration and other ornamental uses. Yet the most nefarious of folk tend to purchase it in bulk to sell it at a premium as gold.</p>"
-    },
-    "Figworts": {
-      "name": "无花果草 Figworts",
-      "description": "<p>玄参是一种备受追捧的草药，因为许多草药师都在寻找它们，它们可用于治疗皮肤炎症、止痛，甚至可作为温和的泻药。大多数玄参通常生长在肥沃的林地中，当采集者进入森林时，他们会试着留意它们，因为草药师往往愿意为它们支付溢价。</p>\n<p>Figworts are a coveted herb, as a lot of herbalists look for them as they can be of use in curing skin inflammation, pain reliever, or even as a mild laxative. Most Figworts are usually found in rich woodlands, and when the gatherers go into the forest, they attempt to keep an eye out for them, as herbalists tend to pay a premium for them.</p>"
-    },
-    "Orange": {
-      "name": "橙色 Orange",
-      "description": "<p>它主要用于橙汁或烘焙食品或蛋糕的调味，不过也会因地区而异，用果皮制作橙油。果皮也可用于园艺，作为驱赶蛞蝓的驱虫剂。 </p>\n<p>It is mainly used for orange juice or flavoring of baked goods or cakes, however, it is also used depending on the region, to create orange oil made from the peels. The peels can be used in gardening as well in the form of slug repellent. </p>"
     },
     "Butter": {
       "name": "黄油 Butter",
@@ -2489,14 +2189,6 @@
       "name": "蜈蚣 Centipede",
       "description": "<p>蜈蚣和普通人一样，会进入家中寻找食物、水和庇护所，尤其是在潮湿和阴暗的环境中。它们会被地下室、爬行空间和浴室等高湿度区域吸引，并以捕食其他昆虫为食。虽然蜈蚣能够咬人并注入毒液，但通常不被认为会对普通人构成危险。</p>\n<p>Centipedes enter homes seeking food, water, and shelter, same as the common folk, particularly in damp and dark environments. They are attracted to areas with high humidity, such as basements, crawl spaces, and bathrooms, and they hunt other insects for food. While centipedes can bite and inject venom, they are generally not considered dangerous to common folk.</p>"
     },
-    "Samson Fish": {
-      "name": "参孙·菲什 Samson Fish",
-      "description": "<p>军曹鱼因其大型（体型）而很少被称为“王鱼”，但它并不被认为适合烹饪，因为其体内常常含有各种寄生虫。相反，它主要在许多体育钓鱼比赛中作为战利品渔获而备受追捧，而非用于食用。</p><p></p>\n<p>Samson Fish, rarely referred to as the Kingfish due to its large size, is not considered ideal for cooking as it often contains various parasites. Instead, it is primarily sought after as a trophy catch in many sports fishing competitions rather than for consumption.</p><p></p>"
-    },
-    "Creamatory": {
-      "name": "火葬场 Creamatory",
-      "description": "<p>市集上有句说法：如果你第一口喝下去后，奶油留下一个完美的螺旋，你这一年会以财富收尾。可要是它反倒凝结了，那最好别离家太远去旅行，因为厄运在等着。很久以前，我无视了那套迷信，把它当笑话，甚至还嘲弄过，结果在黑暗的沼泽里弄断了一根车轴，困了好几天，直到它修好为止。从那以后，我总会盯着奶油的形状。你可以说我傻，可当你见过奶油只在那一个特定的夜晚结成那种形状，你就会学会对这杯饮料保持敬意。</p>\n<p>There’s a saying on the market, if the cream leaves a perfect spiral after your first sip, your year will end in fortune. If it curdles instead, best not travel far from home, as bad luck awaits. A long time ago, I had ignored that superstition, laughed it off, even mocked it, and ended up breaking an cart axle in the dark swamps, and got stranded for a few days 'till, it got fixed. Since then, I always watch the cream's shape. Call me foolish, but when you’ve seen cream clump into a shapes only on that specific evening, you learn to give the drink its respect.</p>"
-    },
     "Gooseberry": {
       "name": "醋栗 Gooseberry",
       "description": "<p>醋栗植物虽然深受野生动物喜爱，却同时作为食物来源与疾病传播媒介而发挥关键作用。其浆果为许多动物（包括鸟类和熊）提供必需营养，它们在夏季依赖这些果实维持生计。然而，其快速扩散也意味着它常被视为对本地植物群的入侵性威胁，尤其是松树等针叶树——这些树木可能因其携带的疱锈菌而遭受长期伤害。</p>\n<p>The gooseberry plant, while adored by wildlife, plays a critical role as both a food source and a vector for disease. Its berries provide essential nutrients for many animals, including birds and bears, who rely on the fruit for sustenance during the summer months. However, its rapid spread also means that it is often seen as an invasive threat to local flora, particularly coniferous trees like pines, which can suffer long-term damage from the blister rust fungus it harbors.</p>"
@@ -2513,10 +2205,6 @@
       "name": "桦木木板 Birch Plank",
       "description": "<p>木板极其坚固耐用，却又出奇地轻便且易于加工。它是制作从精致珠宝与复杂雕刻到优雅家具和强大奇物等各种物品的完美材料。据推测，大多数交易这种木板的城镇锯木厂中，都有技艺高超的工匠与手艺人。</p>\n<p>The plank is incredibly strong and durable, yet surprisingly light and easy to work with. It is the perfect material for creating everything from delicate jewelry and intricate carvings to elegant furniture and powerful artifacts. Most towns' sawmills that trade in it, are speculated to have highly skilled craftsmen and artisans in their midst.</p>"
     },
-    "Dreamfreezer's Draft": {
-      "name": "无梦冰匣的草稿 Dreamfreezer's Draft",
-      "description": "<p>这种药水通常由牧师、草药师或任何形式的医师使用，用于从皮下取出小生物，或协助进行危及生命的手术。药水会使使用者进入类似昏迷的状态；在其作用期间，人们相信被遗忘的与现今的神祇会前来闲聊，不过这一点从未被证明达到任何准确程度。该药水的缺点在于，不同使用者对其具有不同的抗力；而一旦手术开始，被指派为该情境主治的医师必须迅速行动，因为并不存在恒定而明确的时代范围。根据饮用药水者的不同，可能持续数分钟甚至数小时。森林族对这种药水完全免疫。 </p>\n<p>This potion is normally used by clerics, herbalists, or medics of any form, for under-the-skin extraction of critters, or helping with life-threatening surgeries. The potion causes the user to go into a comatose-like state, and when under it, it is believed that forgotten and current deities come to chitchat, however, this has never been proven to any degree of accuracy. The downside of the potion is that different users have different resistance to it, and once the surgery starts, the lead assigned medic for that situation needs to move quickly, as there is no constant clear time-frame. It can be minutes or even hours depending on who consumed the potion. Forrest folk are fully immune to this potion. </p>"
-    },
     "Certificate Holder Cylinder": {
       "name": "证书持有者圆筒 Certificate Holder Cylinder",
       "description": "<p>用于容纳大量文书的简单圆筒。它通常由税吏或信使携带，用于在旅途中运输大量纸张或文件。在档案馆中，圆筒用于存放记录，帮助占用更少空间并更利于整理。这些圆筒通常由耐用的材料制成，例如厚皮革、金属或加固羊皮纸，以承受磨损并在运输过程中保护重要文件。</p><p></p>\n<p>Simple cylinder designed to hold a large amount of documentation. It is usually carried by tax collectors or couriers to transport a large quantity of papers or documents while traveling. In archives, cylinders are used to store records, helping to occupy less space and be better for organization. These cylinders are often made from durable materials, such as thick leather, metal, or reinforced parchment, to withstand wear and protect important documents during transit.</p><p></p>"
@@ -2529,17 +2217,9 @@
       "name": "胸针 Brooch",
       "description": "<p>胸针是一种装饰性的珠宝物品，设计用于别在衣物上，将其扣合在一起。它通常由金属、银或金或其他材料（如黏土）制成。胸针常以银丝或宝石装饰，可能仅用于点缀，也可以作为衣物扣具发挥功能。</p>\n<p>Brooch is a decorative jewelry item designed to be attached to garments, to fasten them together. It is usually made of metal, silver or gold or some other material, like clay. Brooches are frequently decorated with silver strands or with gemstones and may be solely for ornament and it can also serve a function as a clothes fastener.</p>"
     },
-    "Demontoid": {
-      "name": "恶魔类人 Demontoid",
-      "description": "<p>翠榴石是最稀有的石榴石品种之一，呈现出堪比祖母绿的鲜艳色彩，且闪耀程度甚至超过钻石。翠榴石深受宝石鉴赏家与珠宝爱好者追捧，通常以远高于其所在地区价格的溢价出售。</p>\n<p>Demantoid, one of the scarcest garnet types, exhibits a vivid color comparable to emerald and sparkle that exceeds even diamonds. Highly sought after by both gem connoisseurs and jewelry aficionados, demantoids are typically sold at a premium way above their regional price.</p>"
-    },
     "Fangs Necklace": {
       "name": "獠牙项链 Fangs Necklace",
       "description": "<p>啊，尖牙项链。每年，就在点燃红色收获之火之前，从船坞港到荆棘刺山丘集市的珠宝匠都会开始一打打地切割制作这些。它大多是一件富有戏剧性的装饰品。尖锐、如牙齿般的坠饰从金属丝或链条上垂下，通常由红色玻璃或烟晶制成。有些宝石匠会把真正的石榴石切磨成尖点，但你在市集摊位上看到的那些闪闪发亮的，大多只是用彩色玻璃做出的巧妙工艺。佩戴在火把光下时，这些饰件会捕捉到一抹红色微光，令人不安地像新鲜的血，旨在模仿夜之尖牙。</p>\n<p>Ah, the Fangs Necklace. Every year, just before the Red Harvest fires are lit, jewelers from Dockhaven to the hill markets of Bristlethorn start cutting these out by the dozen. It’s a mostly dramatic piece, for decoration. Quite sharp, toothlike pendants dangling from a wire or chain, usually fashioned from red glass or smoky quartz. Some gemmasters will cut actual garnets into points, but most of what you’ll see glittering in the market stalls is mostly clever work with colored glass. When worn in torchlight, the pieces catch a red glimmer that looks unsettlingly like fresh blood, aimed to resemble the night fangs.</p>"
-    },
-    "Byrne": {
-      "name": "拜恩 Byrne",
-      "description": "<p>这些腰带通常由皮革、编织绳带、刺绣织物或整块金属工艺制成。平民女性更偏爱由皮革或紧密编织的羊毛制成、更结实且更实用的款式，因为她们多将其作为束身衣的替代品。大多数腰带除扣环外保持朴素，而男性则常选择用腰带来展示地位与个人自豪感。</p><p></p>\n<p>These belts were typically made from leather, woven braid, embroidered fabric or solid metalwork. Commoner women favored sturdier and more practical versions made from leather or tightly woven wool, as they mostly used them as a stand-in for a corset. Most belts remained plain apart from the buckle, while men often chose theirs to display status and personal pride.</p><p></p>"
     },
     "Good Luck Potion No. 12": {
       "name": "好运药剂 12号 Good Luck Potion No. 12",
@@ -2553,10 +2233,6 @@
       "name": "椰枣 Date Fruit",
       "description": "<p>它们生长在海枣树上，而不是香蕉树或椰子树，想象一下数百颗海枣。它们可以用于多种菜肴，从饼干到加盐的海枣焦糖。</p>\n<p>They grow on date palm trees, instead of bananas or coconuts, imagine hundreds of dates. They can be used in multiple dishes from cookies to salted date caramel.</p>"
     },
-    "Dragon Scale": {
-      "name": "龙鳞 Dragon Scale",
-      "description": "<p>一片真正的龙鳞，用一根绳子系着，更多是一种象征性的战利品，表明其持有者是屠龙者。然而，由于龙鳞在诸界中十分稀有度——尤其是在不附着于那些龙身上的情况下——收藏家，以及在某些情况下更为阴险的势力，可能会为获取它而支付可观的溢价，具体取决于鳞片的颜色。</p>\n<p>An actual dragon scale, attached to a piece of string, serves more as a symbolic trophy indicating that the owner is a dragon slayer. However, due to the rarity of dragon scales in the realms, not attached to the said dragons, collectors, and in some cases, more nefarious parties, may offer a significant premium to acquire it, depending on the color of the scale.</p>"
-    },
     "Maple Sap": {
       "name": "枫树汁 Maple Sap",
       "description": "<p>作为最甜的树液品种之一，它可以被酿酒师用来酿造艾尔啤酒，或被酒馆老板用来给水增甜，作为糖浆，甚至用来泡茶。炼金术士用它来制造能让你的瞄准更精准的药水。</p>\n<p>Being one of the sweetest variants of sap, it can be used by brewmasters to create ales, or by tavern keeps to sweeten water, as a syrup, or even tea. Alchemists use it to create potions that make your aim true.</p>"
@@ -2568,10 +2244,6 @@
     "Dragon Eyes": {
       "name": "龙之眼 Dragon Eyes",
       "description": "<p>龙之眼是简单却华美的珠宝饰品。这些耳环通常成对制作，与一条项链相配，并且只会赐予王室成员，传统上是在加冕仪式期间。制作这些耳环所需的精湛工艺只会交托给最负盛名的宝石切割师与珠宝匠。当光线恰到好处地照射其上，宝石闪烁的光辉中，有人猜测或许能瞥见一条真正巨龙警惕的眼睛。</p>\n<p>Dragon's Eyes are simple, yet gorgeous pieces of jewelry. These earrings are typically crafted as a pair that accompany a necklace and are bestowed exclusively upon royalty, traditionally during coronation ceremonies. The intricate craftsmanship required for these earrings is entrusted only to the most renowned gem cutters and jewelers. In the glint of the jewels, when light strikes them just so, some speculate that the watchful eye of an actual dragon might be glimpsed.</p>"
-    },
-    "Gear": {
-      "name": "道具 Gear",
-      "description": "<p>一种常规道具部件，可适用于从时钟到门再到压力阀的一切机械装置，它是用于所有机械化物品与结构的专门工具。没有它，它们将无法存在。主要由铜、黄铜或青铜制成，耐锈且可使用数十年。</p>\n<p>An regular gear piece that fits into everything mechanized, from clocks to doors to pressure valves, it is a specialized tool for all mechanized items and structures. Without it, they would not exist. Primarily made out of copper, brass, or bronze, it resists rust and lasts for decades.</p>"
     },
     "Homemade Counteractant": {
       "name": "自制反制剂 Homemade Counteractant",
@@ -2597,14 +2269,6 @@
       "name": "褪色地图 Faded Map",
       "description": "<p>褪色的地图指向一个未知地点，文字过于难以辨认，无法分辨任何城市、地区或森林名称。技艺高超的制图师或许能就地图本身的细节提供一些见解，例如根据所用纸张或墨水判断它的制作时间。</p><p></p><p></p>\n<p>Faded map which points to an unknown location, the text is too indecipherable to distinguish any cities, regions, or forest names. A highly skilled cartographer might provide some insight on the specifics of the map itself, such as when it was made based on the paper or ink used. </p><p></p><p></p>"
     },
-    "Purple Vampire Crab": {
-      "name": "紫色吸血鬼（特征）螃蟹 Purple Vampire Crab",
-      "description": "<p>我从一位老三角洲捕蟹人那里听说过一件令人惊奇的事：它们甲壳上紫色的浓淡可以预示即将到来的冬天有多严酷。紫色越深，霜冻越重。他还发誓说，如果你把一只养在水槽里，只有每个月加入一小撮来自它故乡三角洲的淤泥，它才会茁壮成长。他称之为“思乡病”，我觉得他可能是对的。</p>\n<p>A an amazing thing I have heard, from an old delta crabber, is that the intensity of the purple on their shells predicts the severity of the coming winter. The deeper the purple, the harder the frosts. He also swore that if you keep one in a tank, it will only thrive if you add a pinch of silt from its home delta each month. He called it \"homesickness,\" and I think he might be right.</p>"
-    },
-    "Bolt": {
-      "name": "箭矢 Bolt",
-      "description": "<p>螺栓、螺母和螺钉在生活的各个方面都不可或缺，它们在工具、锁具、时钟、家具的制作中扮演着重要角色，甚至用于将坚固的金属装备部件牢固地固定在一起。贵族人士，尤其是那些身着耐磨重型护甲的人，常常会雇用一名专职护甲匠的服务，让其时刻随行。这位技艺娴熟的护甲匠携带着行当所必需的工具，包括锤子、替换用螺栓、钢丝钳和拔钉器，确保无论旅途将他们带往何处，贵族的护甲都能保持在最佳状态。</p>\n<p>Bolts, nuts, and screws are indispensable in various aspects of life, serving roles in the construction of tools, locks, clocks, furniture, and even in fastening together robust pieces of metal equipment. Noble individuals, particularly those clad in heavy-wearing armor, often retain the services of a dedicated armorer who accompanies them at all times. This skilled armorer carries essential tools of the trade, including a hammer, replacement bolts, wire cutter, and nail puller, ensuring that the noble's armor remains in optimal condition wherever their journey takes them.</p>"
-    },
     "Fish Soup": {
       "name": "鱼汤 Fish Soup",
       "description": "<p>鱼汤的风味和角色取决于当地可获得的鱼类种类。这道菜因其清淡和令人愉悦的味道而成为平民中的热门选择。</p>\n<p>The flavor and character of fish soup are influenced by the type of fish available locally. This dish is a popular choice among commoners for its lightness and delightful taste.</p>"
@@ -2612,10 +2276,6 @@
     "Citrine": {
       "name": "黄水晶 Citrine",
       "description": "<p><em>“这种宝石通常用来代替黄玉，因为它们有着非常相似的光泽。正如你所能想象的那样，没有受过训练的眼睛很容易被蒙骗，这种情况在时代一次又一次地发生”</em></p>\n<p> </p>\n<p>这种石头在色调上与帝国黄玉或黄色蓝宝石非常相似，然而，它的价值要低得多。它主要用于珠宝和艺术装饰。</p>\n<p><em>\"This gem is usually a substitute for Topaz, as they have a very similar shine. As you can imagine someone with an untrained eye could be easily fooled, as it happens time and time again\" </em></p>\n<p> </p>\n<p>This stone bears a close resemblance to an Imperial Topaz or Yellow Sapphire in its hues, however, its value is significantly lower. It is mainly used in jewelry and art ornamentation.</p>"
-    },
-    "Vermilion Snapper": {
-      "name": "朱红咬鱼 Vermilion Snapper",
-      "description": "<p>朱红笛鲷是一种相对较大的鱼，通常使用活饵（如鱿鱼或虾）进行底钓来捕获。捕捉朱红笛鲷的最佳时代是在初夏到深秋之间，此时它们栖息在坚硬的海底和礁区上方。</p>\n<p>Vermilion Snapper is a relatively large fish, typically caught by bottom fishing with live bait, such as squid or shrimp. The best time to catch Vermilion Snapper is between early summer and late fall when they are found over hard bottoms and reefs.</p>"
     },
     "Silver Ring": {
       "name": "银戒指 Silver Ring",
@@ -2637,17 +2297,9 @@
       "name": "菜花 Cauliflower",
       "description": "<p>最常见的花椰菜品种有绿色或白色两种，不过也存在更为奇特的颜色，例如黄色、橙色和紫色。根据地区不同，它们可以生吃、油炸、蒸制，甚至水煮；它是一种非常常见的蔬菜。然而，农民常说它相当难以养护，因此他们会避免种植它。</p>\n<p>The most common Cauliflower types come in either green or white, however, more exotic colors such as yellow, orange, and purple also exist. Depending on the region they can be eaten raw, fried, steamed, or even boiled, it is a very common vegetable, however, farmers often say that it is rather hard to maintain, and so they avoid growing it.</p>"
     },
-    "Spider Silk": {
-      "name": "蜘蛛丝 Spider Silk",
-      "description": "<p>蜘蛛丝尽管相对丰富，却依然备受重视且价格昂贵。由于其中涉及的挑战，很少有人尝试采集。尽管它能以高价格售出，但来自更大型蜘蛛的丝通常会稍微便宜一些。采集过程包括击晕蜘蛛，并使用专门的提取器来收集蛛丝。</p>\n<p>Spider silk is highly valued and expensive, despite being a relatively abundant resource. Few people attempt to gather it due to the challenges involved. Although it sells for a high price, silk from larger spiders is usually a bit less costly. The harvesting process involves stunning the spiders and using a specialized extractor to collect the silk.</p>"
-    },
     "Cashmere wool": {
       "name": "开司米羊毛 Cashmere wool",
       "description": "<p>通常简称为羊绒，它是一种主要从特定品种的山羊身上收获的纤维。羊绒可以用来制作任何形式的服装，不过最常见的是长袍，这种服装开始被中产阶级平民用作地位的象征。</p>\n<p>Simply known as cashmere, it is a fiber harvested mainly from specific breeds of goats. Cashmere can be used to create any form of clothing, however, the most common are frocks, which started to be used by middle-class commoners as a representation of status.</p>"
-    },
-    "Quark Balls": {
-      "name": "夸克球 Quark Balls",
-      "description": "<p>夸克球是一种由奶酪、鸡蛋、面粉、糖、柠檬皮屑和香草精混合制成的糕点，烹制后再撒上肉桂和糖。这些烘焙食品多在大型活动中供应，例如节日、季节集市以及嘉年华会。</p>\n<p>Quark balls are a type of pastry made from a mixture of cheese, eggs, flour, sugar, lemon zest, and vanilla extract and after cooking, sprinkled with cinnamon and sugar. These baked goods are mostly served at major events, like festivals, season markets, as well as, carnivals. </p>"
     },
     "Huni Guitar": {
       "name": "胡尼吉他 Huni Guitar",
@@ -2656,10 +2308,6 @@
     "Ancient Gold": {
       "name": "远古黄金 Ancient Gold",
       "description": "<p>这些金币可以在最深处的陵墓或墓室中找到。国王或皇帝下葬时，会随葬装满这类钱币的罐子。然而，未经训练的冒险者很快会认为它们与普通金币具有相同价值。然而，这些钱币是100%纯金，收藏家愿意为任何数量的已找到的古代金币支付高昂的价格。</p>\n<p>These gold coins can be found in the deepest tombs or burial chambers. Kings or emperors were buried with jars filled with these types of coins. However, untrained adventurers quickly believe that they have the same value as a regular gold coin. Yet, these coins are 100% pure gold, and collectors will pay a high price for any amount of the ancient gold coins located.</p>"
-    },
-    "Dobsonfly": {
-      "name": "石蝇 Dobsonfly",
-      "description": "<p>鱼蛉是一种非常大的昆虫，这种昆虫由一种被称为地狱幼虫的幼虫孵化而成。它以水栖昆虫、花蜜、糖水、蠕虫，甚至小鱼为食。尽管它的超大型（体型）可能令人生畏，但鱼蛉短暂的寿命约为一周以及其夜行习性意味着许多平民可能终其一生都不会遇到一只。</p>\n<p>Dobsonfly is a very large insect, insect that is born from a larva known as the hellgrammite. It feeds on aquatic insects, nectar, sugar water, worms, and even small fish. While the huge size of it, can be intimidating. Dobsonfly’s brief lifespan of about a week and its nocturnal habits mean that many commoners may go their whole lives without encountering one.</p>"
     },
     "Cheese": {
       "name": "奶酪 Cheese",
@@ -2701,14 +2349,6 @@
       "name": "可可-洛可 Coco-Loco",
       "description": "<p>椰子狂饮的制作方法是打开一个新鲜椰子并保留其中的椰汁。在加入几滴利口酒、几滴朗姆酒、菠萝汁和糖之后，将其冷藏后供应。这种热带混合饮品在炎热季节备受喜爱，既甜美又清凉。</p><p></p>\n<p>Coco-loco is made by opening a fresh coconut and preserving the juice within. After adding a few drops of liqueur, a few drops of rum, pineapple juice, and sugar it is served chilled. This tropical blend is loved during hot seasons, being both sweet and cooling.</p><p></p>"
     },
-    "Tektite": {
-      "name": "晶岩石胎 Tektite",
-      "description": "<p>当天外巨石坠落并粉碎群山时，那些被烧焦的小块岩石被称为玻璃陨石。然而，大多数炼金术士对撞击瞬间的整体过程更感兴趣，因为它会将这些小石块变成玻璃。玻璃陨石主要用作家具装饰品，因为其蓝色调相当赏心悦目。</p>\n<p>When rocks fall from the heavens and smash mountains, the small-sized rocks that are charred are called tektites. However, most alchemists are curious about the overall process at the moment of impact, as it turns the small rocks into glass. Tektite is mainly used as furniture ornamentation as its shade of blue is quite pleasant to the eye.</p>"
-    },
-    "Hand Drill": {
-      "name": "手钻 Hand Drill",
-      "description": "<p>手摇钻作为一种手动工具，将曲柄的圆周运动转换并放大为钻夹头的旋转。该工具包含一个用于摇动的手柄，带动主轴上的小齿轮转动，末端的夹头用于固定钻头。这种多用途工具常见于石匠、木匠、皮匠，甚至铁匠使用，便于在木材、硬皮革、石头、软金属，甚至骨头等坚硬材料上钻出细孔。</p>\n<p>Functioning as a manual tool, a hand drill transforms and magnifies the circular motion of the crank into the rotation of a drill chuck. The tool includes a cranking handle that turns pinion gears on the main shaft, with a chuck at the end designed to secure a drill bit. This versatile tool finds common use among masons, carpenters, leatherworkers, and even blacksmiths, facilitating the drilling of fine holes in hard materials such as wood, hard leather, stone, soft metals, or even bones.</p>"
-    },
     "Banana": {
       "name": "香蕉 Banana",
       "description": "<p>一种大多数人都喜爱的水果；草药师建议在你胃部不适时食用，旅店老板会将其捣碎制成甜饮料供应，而平民则常常生吃，因为它相当美味。</p>\n<p>A fruit favored by most folk, herbalists recommend it if your stomach is upset, innkeepers provide it mushed as sweet beverages, and commoners eat it raw as it is quite tasty.</p>"
@@ -2720,10 +2360,6 @@
     "Rock Salt": {
       "name": "岩盐 Rock Salt",
       "description": "<p>盐在烹饪中作为关键成分被广泛使用，并用于腌制多种食物，如猪肉和鱼。采集者会调配盐和水的混合物，用作珍贵作物田地里的除草剂。</p>\n<p>Salt is used extensively in cooking as a key ingredient, and to cure a wide variety of foods such as pork and fish. Gatherers create a mixture of salt and water to use as a weed killer in fields of valuable crops.</p>"
-    },
-    "Invitation": {
-      "name": "邀请 Invitation",
-      "description": "<p>请柬常用于婚礼、官方活动，或用来获得进入伯爵宫廷的许可。它们在风格上差异很大，从极其正式到私人化，从奢华到公文式不等。通常很难在打开请柬之前确切知道将会面对何种活动。</p><p></p>\n<p>Invitations are often used for weddings, official events, or to gain access to the count's court. They vary greatly in style, ranging from highly formal to personal, and from luxurious to official. It’s typically difficult to know exactly what kind of event awaits until the invitation is opened.</p><p></p>"
     },
     "Gauze": {
       "name": "纱布 Gauze",
@@ -2749,10 +2385,6 @@
       "name": "药丸潮虫 Pill Woodlouse",
       "description": "<p>它有许多名称，包括普通球潮虫、石鳖虫、普通球鼠妇、滚滚虫、土豆虫、涂鸦虫和木匠鼠妇。有些农民会在丰收后饲养它们来清理土壤，因为它们以枯死植物为食，并防止杂草蔓延。</p>\n<p>It goes by many names, including common pill-bug, slaters, common pill woodlouse, roly-poly, potato bug, doodle bug, and carpenter woodlouse. Some farmers keep them after a successful harvest to clean the soil, as they feed on dead plants and prevent the spread of weeds.</p>"
     },
-    "Table": {
-      "name": "表 Table",
-      "description": "<p>标准桌子用于为旅店和酒馆的室内与室外空间配置家具。它们通常由木板制成，便于更换与维护，为顾客提供享用饮品与食物的桌面。</p><p></p>\n<p>Standard tables are used to furnish both indoor and outdoor spaces of inns and taverns. They are usually made from planks for easy replacement and maintenance, providing surfaces for patrons to enjoy drinks and food.</p><p></p>"
-    },
     "Copper Ring": {
       "name": "铜戒指 Copper Ring",
       "description": "<p>这个简单的金属戒指由铜制成。由于铜易于塑形、坚固耐用，并拥有独特的红棕色外观，因此是制作珠宝的绝佳金属。与灵性修行相契合的平民常常怀着强烈的信念佩戴它，觉得它能主动引导正能量，并将好运吸引到他们的生活中。</p>\n<p>This simple metal ring is made out of copper. It's a great metal for making jewelry due to its ease of molding, durability, and unique reddish-brown color. Commoners attuned to spiritual practices often wear it with a strong belief, feeling it actively channels positive energy and attracts good fortune into their lives.</p>"
@@ -2768,10 +2400,6 @@
     "Nickel Ingot": {
       "name": "镍锭 Nickel Ingot",
       "description": "<p>镍锭是一小块完美成型的纯镍锭条。据说它密度极高、重量惊人，只有技艺最精湛的铁匠才能锻造出来。这种金属呈闪亮的银色，在光线下熠熠生辉，并且极其坚韧，甚至能够承受最猛烈的打击。许多传说与传奇围绕着这种稀有而珍贵的金属流传，有人声称它蕴含魔法特性，能够赋予物品惊人的强度与耐久性；然而在大多数地区，它的主要用途是用于制造多种类型的货币。</p>\n<p>A nickel ingot is a small, perfectly formed bar of pure nickel. It is said to be incredibly dense and heavy, and can only be forged by the most skilled blacksmiths. The metal has a shiny, silver color that glimmers in the light, and is an incredibly resilient metal, able to withstand even the strongest blows. Many tales and legends surround this rare and valuable metal, with some claiming that it holds magical properties and can bestow objects with incredible strength and durability, however in most regions it’s main purpose is for the creation of multiple types of coinage.</p>"
-    },
-    "Sky Blue": {
-      "name": "天蓝色 Sky Blue",
-      "description": "<p>这种小蘑菇呈现出独特的全蓝色，在一些地方因其与鸻鸫鸟相似的配色而被称为Werewere-kokako。它的美丽具有欺骗性，因为它的毒素会给胆敢食用它的人带来迅速的死亡。对技艺娴熟的工匠而言，它却提供了不同的东西：一种蓝色染料，浓郁而稀有，普通布料也能因之而化作艺术品。</p><p></p>\n<p>The small mushroom is a distinctive all-blue color, in some places called Werewere-kokako, due to its similar coloring to the Kokako bird. Its beauty is deceptive, for its poison brings swift death to those who dare to eat it.  For the skilled artisan, it offers something different, a blue dye so rich and rare to be used for ordinary cloth to transform it into a work of art.</p><p></p>"
     },
     "Rhenium": {
       "name": "铼 Rhenium",
@@ -2801,10 +2429,6 @@
       "name": "片麻岩 Gneiss",
       "description": "<p>片麻岩作为建筑材料有许多用途，例如地板、装饰石、墓碑、建筑物的饰面石，以及工作台面。根据其产地不同，它可能具有美丽的纹理，使其成为装饰性建筑中最受追捧的材料类型之一。</p>\n<p>Gneiss has many uses as a building material such as flooring, ornamental stones, gravestones, facing stones on buildings, and work surfaces. Depending on where is acquired, it can have beautiful patterns making it one of the most sought-after types of materials for ornamental construction.</p>"
     },
-    "Albite": {
-      "name": "阿尔比特 Albite",
-      "description": "<p>钠长石被用作宝石，虽为半宝石，但主要用于制造玻璃器皿。大多数陶工和玻璃匠在制作玻璃或陶瓷时会使用这种特定的宝石。成品随后以溢价出售，因为成品纯白的颜色相当醒目。</p>\n<p>Albite is used as a gemstone, albeit semiprecious, and has mainly been use in the manufacturing of glassware. Most potters and glassblowers use this specific gemstone in the manufacturing of glass or ceramics. The completed product is then sold at a premium, as the pure white color of the completed product is quite eye-catching.</p>"
-    },
     "Green Shadow": {
       "name": "绿影 Green Shadow",
       "description": "<p>一种因错误混合任何提供某种隐形形式的药水而产生的拙劣产物。皮肤开始变得像变色龙一样，改变颜色以匹配其周围环境；然而，该效果生效很慢，需要一点时代才能让你完全与自己的背景“融合”。</p>\n<p>A butchered product of incorrectly mixing any potion that provides a form of invisibility. The skin starts to go chameleonic to a form, changing color to match its suroundings, however, the effect is slow to set in and it takes a bit of time up until you're fully \"blended\" with your background.</p>"
@@ -2826,12 +2450,8 @@
       "description": "<p>这种钱币主要由黄金制成，但其颜色可能会因开采地区而有所不同。它可能呈现红色或绿色，并分别通常被称为红金或绿金。用于铸造这些钱币的黄金主要由地下族民获取，主要用于地表的贸易。这种钱币两面都有精细的蜘蛛雕刻，因此得名“蜘蛛金”或“蜘蛛丝”。</p>\n<p>This coin is predominantly made of gold, but its color may vary depending on the region where it was mined. It can appear either red or green and is commonly known as Red Gold or Green Gold, respectively. The gold used to create these coins is primarily sourced by underground folk and is mainly used for trade on the surface. The coin features intricate spider carvings on both sides, which has led to its nickname, \"Spider Gold\" or \"Spider Silk.\"</p>"
     },
     "Sardonyx": {
-      "name": "红缟玛瑙 Sardonyx",
+      "name": "红玛瑙 Sardonyx",
       "description": "<p>一种玛瑙的形态，价格更高，通常只由两种颜色组合而成，并带有横贯其上的黑色条带。佩戴这种特定宝石作为装饰品被认为能抵御一个法术，然而其细节已随时代流失。</p>\n<p>A form of agate, higher in price, usually only in a combination of two colors with black bands across. Wearing this specific gemstone as an adornment is assumed to ward off a spell, however, the details of it were lost to time.</p>"
-    },
-    "Algae": {
-      "name": "藻类 Algae",
-      "description": "<p>其质地如石英般坚实，光滑如玛瑙，这种宝石是家具最上等的装饰石材之一。据民间传说，人们相信这种宝石能够防止法术的变形属性；在一些边缘信仰中，甚至能防止活体家具。</p><p></p>\n<p>With a consistency similar to quartz and the smoothness of agate, this gem is one of the finest ornamental stones for furniture. According to folklore, it is believed that this gem can prevent the shape-shifting attributes of spells and, in some fringe beliefs, even the living furniture.</p><p></p>"
     },
     "Blueberry": {
       "name": "蓝莓 Blueberry",
@@ -2873,10 +2493,6 @@
       "name": "白蛆 White Grub",
       "description": "<p>白蛴螬是多种甲虫的幼虫形态，通常在土壤表层下方发现。它们以草类和植物的根为食，导致牧场和花园出现枯死斑块。尽管对大多数农场来说是祸害，钓鱼者却将它们视为异常有效的鱼饵。</p>\n<p>White Grubs are the larvae form of multiple beetles, found just beneath the soil. They feed on the roots of grasses and plants, causing dead patches in pastures and gardens. Though a bane to most farms, anglers value them as exceptionally effective bait.</p>"
     },
-    "Drayweight Leather": {
-      "name": "德雷维特皮革 Drayweight Leather",
-      "description": "<p>这块皮革基本上是个骗局，商人出售时会使用“Drayweight”这个名字，因为听起来更具奇幻色彩。然而，皮革本身相当常见，但非常沉重。小贩们往往开玩笑说它值其重量的白银，但对优质道具稍有了解的人很快就会看出，这块皮革并没有什么特别之处。</p><p></p>\n<p>This cut of leather is mostly a scam, and when merchants sell it, they use the name of Drayweight, as it sounds a bit more fantastical, however, the leather itself is rather common, but quite heavy. The peddlers tend to joke around as it is worth its weight in silver, but someone with some familiarity with quality gear will quickly identify that this cut isn't anything special.</p><p></p>"
-    },
     "Crimson Lady": {
       "name": "绯红女士 Crimson Lady",
       "description": "<p>猩红女士是一种鸡尾酒饮品，由伏特加、柠檬和番茄汁制成，并加入辛辣的红辣椒粉以增添些许辣味。它通常会大批量调制并冷藏保存。上面可以加腌制蔬菜、大蒜、辣根、芹菜、橄榄和黑胡椒。通常会大批量制作以便快速供应。</p>\n<p>Crimson Lady is a cocktail drink, made from vodka, lemon, and tomato juice, spicy ground red pepper for a bit of spice. It is usually prepared in large batches and kept cold. It can be topped with pickled vegetables, garlic, horseradish, celery, olives, and black pepper. Usually made in large batches for quick servings.</p>"
@@ -2889,10 +2505,6 @@
       "name": "饮用角杯 Drinking Horn",
       "description": "<p>饮酒角通常由动物角或大型獠牙制成。已知也有由玻璃、木材、陶器制成的变体，甚至由技艺高超的银匠用金属打造。根据地区不同，这些角可能具有仪式用途，用于承认一对新人的婚姻，或纪念一位朋友的逝去。 </p>\n<p>A drinking horn is usually made from either animal horns or large tusks. Variants are known to be made from glass, wood, ceramics, or even metal by skilled silversmiths. Depending on the region, these horns can have ceremonial purposes, either acknowledging two newly-weds marriage, or a friend's passing. </p>"
     },
-    "Bucket": {
-      "name": "桶 Bucket",
-      "description": "<p>虽然水桶通常用于将井水运送到家中或用于清洁任务，但在极端情况下，或在某些无法使用户外厕所的牢房里，它们也可以被改作临时便桶。</p><p></p>\n<p>While buckets are commonly used to transport water from wells to homes or for cleaning tasks, they can also be repurposed as makeshift latrines in extreme situations or certain jail cells where outhouses are not an option.</p><p></p>"
-    },
     "God's Wrath": {
       "name": "神之怒 God's Wrath",
       "description": "<p>有时被称为硫磺石，更常见的名字是硫黄。炼金术士通常使用硫黄块来制造强效酸液，能够烧穿任何东西。它常常是炼金与宗教团体争端的焦点，因为在某些宗教中，人们认为它是神圣的——由于它燃烧时会呈现独特的颜色，火焰带有浓郁的紫色光泽。然而炼金术士建议不要燃烧这些块状硫黄，因为他们认为这样做会对人的健康造成不可修复的伤害。草药师用它来制作多种绿色染料。</p>\n<p>Sometimes called Brimstone, and more commonly known as Sulfur. Alchemists usually use blocks of sulfur in creating potent acids that can burn through anything. It is often at the center of disputes between alchemical and religious groups, as by some religions it is believed to be sacred, given how it burns in a unique color with the flames a rich purple shade. Alchemists however advise against burning the blocks as they believe that doing so can inflict irreparable damage to one's health. Herbalists use it to create multiple types of green dyes.</p>"
@@ -2901,10 +2513,6 @@
       "name": "马蹄铁 Horseshoe",
       "description": "<p>在某些地区，马蹄铁被视为好运的预兆，而在另一些地区，它们象征着先进的工业。通常由钢制成，但材料的选择可能会因特定地区的金属供应情况而有所不同，包括青铜、铜或铁等选项。在极其罕见的情况下，也会考虑使用皮、皮革，甚至木材等材料。</p>\n<p>In certain regions, horseshoes are seen as a harbinger of good luck, while in others, they symbolize advanced industry. Typically crafted from steel, the choice of material may vary depending on metal availability in specific areas, including options like bronze, copper, or iron. In exceptionally uncommon cases, materials such as hide, leather, or even wood are considered.</p>"
     },
-    "Samite": {
-      "name": "细麻布 Samite",
-      "description": "<p>诸界之中最为奢华厚重的丝绸之一，主要用于宗教长袍、礼服、装饰织物与室内装潢。对于皇室血统之人，通常认为其衣着会使用由金线织物与锦缎相结合制成的布料。</p>\n<p>One of the most luxurious and heavy silks throughout the realms, mainly used in ecclesiastical robes, vestments, ornamental fabrics, and interior decoration. For those of royal blood it is assumed that a combination of cloth made out of gold and samite is used for their clothing. </p>"
-    },
     "Latratite": {
       "name": "拉拉特泰特石 Latratite",
       "description": "<p>在最罕见的情况下，它被称为“神圣宝石”，而纵观历史，类似的宝石并未被发现多少。有人推测，若将其吞服，服用者将获得说服其所经之路上所有人的能力。然而，我们对拉托拉特石所掌握的有限知识，并未提供关于其潜在副作用的任何信息。传闻吞服此宝石会使你的皮肤散发出微弱的蓝色光芒，你的眼睛与头发会不断变换色调，直到最终变为纯金色。与吞服拉托拉特石之人接触的任何人，只会说出真相，或很容易被胁迫。然而，当该效果消散后，使用者将不会记得此事，但其他人会记得他们对其所说的话。</p>\n<p>On the rarest of occasions, it is referred to as the \"Gem of the Divines,\" and not many of its kind have been discovered throughout history. It is speculated that, if ingested, the consumer will gain the ability to persuade everyone in their path. However, the limited knowledge we have of Latratite does not provide any information on its potential side effects. Rumor has it that ingesting this gem will make your skin emanate a faint blue glow, your eyes and hair perpetually change shades until they reach a pure gold color. Those coming with contact with someone who has ingested Latratite will only tell the truth or be easily coerced. However, when the effect dissipates, the user will not remember the event, but others will remember what was said to them.</p>"
@@ -2912,10 +2520,6 @@
     "Faction Earrings": {
       "name": "派系耳环 Faction Earrings",
       "description": "<p>作为一种象征性的姿态，当加入某些非常特定且声名显赫的派系时，会提供一枚戒指或一对耳环作为欢迎赋礼，同时还会提供其他带有相同标志的周边物品，例如钢笔或笔记本。这有助于快速识别成员，也会带来最初的归属幻象。</p>\n<p>As a symbolic gesture, when joining very specific and well-renowned factions, a ring or a pair of earrings is provided as a welcome gift, along with other paraphernalia such as pens or notebooks bearing the same symbol. This helps quickly identify members and also gives the initial illusion of belonging.</p>"
-    },
-    "Moleskin": {
-      "name": "鼹鼠皮 Moleskin",
-      "description": "<p>一种厚重的棉织物，因其接触时柔软的触感而得名，与鼹鼠的皮毛相似。鼹鼠皮最常见的用途是制作裤子，不过它通常也是包扎的优质材料。</p>\n<p>A heavy cotton fabric which got its name due to the soft feeling to the touch, which bears similarity to mole's fur. The most common use of moleskin is for creating trousers, however, it is also usually a prime material for bandaging.</p>"
     },
     "Cucumber": {
       "name": "黄瓜 Cucumber",
@@ -2974,8 +2578,8 @@
       "description": "<p>鲉鱼的锐利棘刺中含有极其强效的毒液，使其成为海洋中最具毒性的生物之一。然而，尽管其毒性强烈，它们大多仍被视为美味佳肴，常被称赞为现有最美味的鱼类之一。正确的处理方式至关重要，因为不当处理这类鱼可能导致严重中毒，甚至死亡。草药师常常直接向渔民下单，采集其毒液用于药用与炼金用途。</p>\n<p>Scorpionfish have extremely potent venom in their sharp spines, making them one of the most poisonous creatures in the ocean. However, despite their toxicity, they are mostly considered a delicacy, often praised as one of the most delicious fish available. Proper preparation is crucial, as incorrectly handling the fish can lead to severe poisoning or even fatalities. Herbalists frequently place direct orders with fishermen to harvest the venom for medicinal and alchemical purposes.</p>"
     },
     "Jet": {
-      "name": "喷气 Jet",
-      "description": "<p>煤玉是一种深黑色的宝石，硬度足以被切割成刻面，常用于简洁的吊坠，或作为服装与家具中的组成部分。在各个地区的文化习俗中，穿戴镶有煤玉的服装象征着悲伤与哀悼的主题。</p>\n<p>Jet, a deep black gemstone, is sufficiently hard to be faceted and is often utilized in straightforward pendants or as a component in clothing and furniture. In cultural practices across various regions, wearing Jet-adorned clothing signifies themes of sorrow and mourning.</p>"
+      "name": "煤精 Jet",
+      "description": "<p>煤精是一种深黑色的宝石，硬度足以被切割成刻面，常用于简洁的吊坠，或作为服装与家具中的组成部分。在各个地区的文化习俗中，穿戴镶有煤精的服装象征着悲伤与哀悼的主题。</p>\n<p>Jet, a deep black gemstone, is sufficiently hard to be faceted and is often utilized in straightforward pendants or as a component in clothing and furniture. In cultural practices across various regions, wearing Jet-adorned clothing signifies themes of sorrow and mourning.</p>"
     },
     "Adder Venom": {
       "name": "蝰蛇毒液 Adder Venom",
@@ -3005,17 +2609,13 @@
       "name": "采集背包 Foraging Backpack",
       "description": "<p>由稻草编织并以柳木等轻质木材加固，这只结实的篮子非常适合采集者和草药师。它专为在林地、河畔或开阔田野中觅食而设计，提供一种轻便却耐用的工具，用于收集食物和草药。</p>\n<p>Crafted from straw and reinforced with light wood like willow, this sturdy basket is perfect for gatherers and herbalists. It’s designed for foraging in woodland areas, by the rivers, or across open fields, providing a lightweight yet durable tool for collecting food and herbs.</p>"
     },
-    "Sugar Beet": {
-      "name": "甜菜 Sugar Beet",
-      "description": "<p>这些甜菜品种主要由农民种植，并在草药师的帮助下转化为糖。</p>\n<p>These types of beets are mainly cultivated by farmers, and with the help of herbalists turned into sugar.</p>"
-    },
     "Hickory Log": {
       "name": "山核桃原木 Hickory Log",
       "description": "<p>最受追捧的木材类型之一。用于大多数建筑工程。</p>\n<p>One of the most sought after types of wood. Used in most construction projects.</p>"
     },
     "Witherite": {
-      "name": "枯萎石 Witherite",
-      "description": "<p>凋萎石是一种独特的宝石，以其对特定坐骑的要求而闻名。无论用于珠宝、护甲，还是任何装饰性物品，它都必须镶嵌在一件银金合金（由金与银构成）的饰件上，否则就有脱落的风险。</p><p></p>\n<p>Witherite is a distinctive gemstone known for its requirement of a specific mount.  Whether used in jewelry, armor, or any decorative item, it must be mounted on an electrum piece, a gold and silver alloy, otherwise, it risks becoming dislodged.</p><p></p>"
+      "name": "毒重石 Witherite",
+      "description": "<p>毒重石是一种独特的宝石，以其对特定镶座的要求而闻名。无论用于珠宝、护甲，还是任何装饰性物品，它都必须镶嵌在一件银金合金（由金与银构成）的饰件上，否则就有脱落的风险。</p><p></p>\n<p>Witherite is a distinctive gemstone known for its requirement of a specific mount.  Whether used in jewelry, armor, or any decorative item, it must be mounted on an electrum piece, a gold and silver alloy, otherwise, it risks becoming dislodged.</p><p></p>"
     },
     "Goldilocks": {
       "name": "金发姑娘 Goldilocks",
@@ -3054,8 +2654,8 @@
       "description": "<p>这些派最常出现在秋季集市上，那时面包师既想炫耀他们的技能，也想展示自家果园的丰收。“缝线”越精巧，价格就越高。在我旅行时，前些日子我曾见过一位面包师接受冒险者队伍的委托，把派塑造成带有裂口的样子，与他们的战斗伤疤相呼应。愚蠢吗？当然。但行会成员出手阔绰，每个人都黏着手指、笑容满面地离开。</p>\n<p>These pies show up most often in autumn markets, when bakers want to flaunt their skill as much as their orchard’s bounty. The more intricate the “stitching,” the higher the price. In my travels, a while back, I once saw a baker take commissions from adventuring companies, shaping pies with gashes that matched their battle scars. Silly? Absolutely. But the guildsmen paid handsomely, and everyone left sticky-fingered and grinning.</p>"
     },
     "Pillory": {
-      "name": "枷锁 Pillory",
-      "description": "<p>枷刑架是一种用于公开惩罚惯犯的装置。它由一个带孔的木制框架组成，用于固定头部和双手。</p><p></p>\n<p>The pillory was a device used for publicly punishing repeat offenders. It features a wooden frame with holes to secure the head and hands.</p><p></p>"
+      "name": "颈手枷 Pillory",
+      "description": "<p>颈手枷是一种用于公开惩罚惯犯的装置。它由一个带孔的木制框架组成，用于固定头部和双手。</p><p></p>\n<p>The pillory was a device used for publicly punishing repeat offenders. It features a wooden frame with holes to secure the head and hands.</p><p></p>"
     },
     "Rhubarb": {
       "name": "大黄 Rhubarb",
@@ -3072,10 +2672,6 @@
     "Grapefruit": {
       "name": "西柚 Grapefruit",
       "description": "<p>草药师通常会警告在服用药物时不要食用葡萄柚或饮用葡萄柚汁，因为所提供的药物可能无法按预期发挥作用。葡萄柚也是贵族中一种众所周知的受欢迎早餐水果。 </p>\n<p>Herbalists usually warn against consuming grapefruit or grapefruit juice, when taking medicines, as the medicine provided might not work as intended. The grapefruit is also a known popular breakfast fruit for the nobility. </p>"
-    },
-    "Poplar Log": {
-      "name": "白杨原木 Poplar Log",
-      "description": "<p>杨木是最常见的木材类型之一。由于其易得性带来了较低的价格，它是大多数初学者到中级木工的绝佳选择。它的用途也十分广泛，例如建筑、细木工或雕刻。</p>\n<p>Poplar is one of the most available types of wood. Due to its lower price due to its accessibility, it is an excellent choice for most beginners to intermediate carpenters. It also has a wide range of uses, such as construction, joinery, or carving.</p>"
     },
     "Pomegranate": {
       "name": "石榴 Pomegranate",
@@ -3104,14 +2700,6 @@
     "Darmouth Bass": {
       "name": "达莫斯·巴斯 Darmouth Bass",
       "description": "<p>达特茅斯鲈鱼偏好池塘与湖泊中清澈、浅水的水域，常见于水栖（特征）植被附近、沉没木材或岩石露头周边。学者们专门撰写了整本书来探讨达特茅斯鲈鱼垂钓之道。在更为成熟的领地中，当地渔业部门要求必须持有专门的钓鱼执照才能捕获这种珍贵鱼类。若无执照，任何捕获的达特茅斯鲈鱼都必须放生，否则垂钓者除了承担高额罚款外，甚至可能面临监禁。</p><p></p>\n<p>Dartmouth Bass prefer clear, shallow waters in ponds and lakes, often found near aquatic vegetation, submerged timber, or rocky outcroppings. Scholars have dedicated entire books to the art of Dartmouth Bass fishing. In more established territories, local fisheries require a dedicated fishing license to catch this prized fish. Without one, any captured Dartmouth Bass must be released, or the fisher might even face jail time, on top of a hefty fine.</p><p></p>"
-    },
-    "Geelbeck Croaker": {
-      "name": "吉尔贝克·克罗克尔 Geelbeck Croaker",
-      "description": "<p>吉尔贝克呱呱鱼通常栖息在近海水域，聚集在礁石、沉船残骸以及沙质海底附近。它们很容易用沙丁鱼或鲱鱼等小鱼作饵成群捕获。其肉质温和鲜美，深受厨师喜爱，可采用多种烹饪方式，从烘烤到爆炒皆宜。</p>\n<p>Geelbeck Croakers are commonly found in offshore waters, gathering around reefs, wrecks, and sandy bottoms. They are easy to catch in large numbers using small fish like sardines or herring as bait. Their mild, flavorful meat makes them a favorite by chefs, prepared in various ways from baking to stir-frying.</p>"
-    },
-    "Rockfish": {
-      "name": "石斑鱼 Rockfish",
-      "description": "<p>岩鱼，也被称为岩鳕或岩鲷，栖息于岩礁和海底，从近岸浅水到深海皆有分布。在海面之下，岩鱼悬停在岩石露头附近，它们带刺的背鳍与崎岖的地形融为一体。有些岩鱼栖息在水体中层，而另一些则在巨型海带森林的海带冠层下保持静止不动。</p><p></p>\n<p>Rockfish, also known as Rock Cod or Rock Snapper, inhabit rocky reefs and seafloors, ranging from shallow nearshore waters to the deep ocean. Beneath the ocean’s surface, Rockfish hover near rocky outcrops, their spiny dorsal fins blending well into the rugged terrain. Some Rockfish dwell in the water column, while others remain motionless beneath the kelp canopy in the giant kelp forests. </p><p></p>"
     },
     "Alchemist's Counteractant": {
       "name": "炼金术士的反制剂 Alchemist's Counteractant",
@@ -3145,10 +2733,6 @@
       "name": "大蒜 Garlic",
       "description": "<p>在大多数菜肴中使用最广泛的香料。烹调、切片、切丁、剁碎，甚至水煮，只要是熟食，很可能都会放上一小撮大蒜。</p>\n<p>The most used spice in the majority of dishes. Cooked, sliced, diced, minced, or even boiled, if it is a cooked dish, it most likely has a pinch of garlic in it.</p>"
     },
-    "Fustian": {
-      "name": "粗呢 Fustian",
-      "description": "<p>一种用于制作衣物的厚重织物，通常用于给衣物做衬垫、用于较冷季节，或用于诸如建筑等重体力工作。</p>\n<p>A heavy cloth woven for clothing, usually used for padding clothes, for colder seasons, or heavy-duty work like building. </p>"
-    },
     "Catfish": {
       "name": "鲶鱼 Catfish",
       "description": "<p>鲶鱼因其独特的胡须状须而得名，是垂钓者梦寐以求的渔获。鲶鱼最好用活饵捕捉，不过鲱鱼块和鸡肝也同样能带来成功。在厨师手中，鲶鱼在海鲜料理中大放异彩，无论是油炸至金黄完美，还是配以多种香草与香料煎烙，例如柠檬、莳萝和大蒜。</p>\n<p>Catfish, named for its distinctive whisker-like barbels, is a prized catch among anglers. Catfish are best caught using live bait, though herring chunks and chicken livers also yield success. In the hands of a chef, the catfish shines in seafood dishes, whether deep-fried to golden perfection or pan-seared with a medley of herbs and spices, such as lemon, dill, and garlic.</p>"
@@ -3177,10 +2761,6 @@
       "name": "雪松原木 Cedar Log",
       "description": "<p>它通常采自生长在林区的雪松树，并以其耐用性和对腐朽的抗力而闻名。雪松原木常用于建造坚固耐用的结构，例如建筑物、桥梁和围栏，以及家具和其他木制物品。</p>\n<p>It is typically harvested from cedar trees that grow in forested areas and is known for its durability and resistance to decay. Cedar logs are often used to create strong and sturdy structures, such as buildings, bridges, and fences, as well as furniture and other wooden objects.</p>"
     },
-    "Wulfenite": {
-      "name": "钨铁矿 Wulfenite",
-      "description": "<p>钨铅矿异常柔软，由于其扁平的矩形晶体而容易破裂。尽管如此，其鲜艳的红色与橙色色调仍极具吸引力，使得宝石切割师会制作小巧、闪耀的刻面宝石，适合用于尽量减少触碰的镶嵌环境，例如家具镶嵌与王室陈列品之中。</p><p></p>\n<p>Wulfenite is exceptionally soft and prone to breaking due to its flat, rectangular crystals. Despite this, its vibrant red and orange hues are captivating, leading gem cutters to produce small, sparkling, faceted gems ideal for settings with minimal handling, like inlays on furniture and royal displays.</p><p></p>"
-    },
     "Sygil Scroll": {
       "name": "印记卷轴 Sygil Scroll",
       "description": "<p></p><div style=\"background-image:url('modules/kctg-2e/images/Menu%20Assets/background.webp');background-size:cover;background-repeat:no-repeat;background-position:center;padding:1rem;border:1px solid #eed292;border-radius:25px;color:white\"><img src=\"modules/kctg-2e/images/Image%20Assets/Sygil%20Copy.webp\" style=\"border:none\" /></div>"
@@ -3188,10 +2768,6 @@
     "Grilled Ribs": {
       "name": "烤肋排 Grilled Ribs",
       "description": "<p>骨肉轻易脱落的肋排，裹上甜酸可口的自制酱汁，是大多数酒馆里备受喜爱的经典美食，常在活动或庆典时供应，也总会被刚完成任务或使命、凯旋归来的冒险者们迫不及待地大快朵颐。</p>\n<p>Fall-off-the-bone ribs, coated in sweet and tangy homemade sauces, are a beloved favorite at most taverns, often served for events or celebrations, and eagerly enjoyed by adventurers returning triumphant from their quests or missions.</p>"
-    },
-    "Pandean Pipe": {
-      "name": "潘迪亚笛 Pandean Pipe",
-      "description": "<p>潘笛，通常被称为排箫或排管，由逐渐加长的封闭管子制成。当空气吹入其管中时会产生声音，使其共鸣并发出独特的音色。这种乐器广泛用于音乐和传统表演中。</p>\n<p>The Pandean pipe, often referred to as the pan flute or panpipe, is made from closed tubes of increasing lengths. Sound is produced when air is blown in its tubes, causing them to resonate and produce a unique sound. This instrument is widely used in music and traditional performances.</p>"
     },
     "Chick": {
       "name": "小鸡 Chick",
@@ -3221,17 +2797,9 @@
       "name": "炸鱼 Fried Fish",
       "description": "<p>炸鱼通常是在油炸和上桌之前，将鱼裹上面糊、面包屑、面粉或香草与香料来制作。它通常会搭配一片柠檬或绿叶蔬菜一起享用。</p>\n<p>Fried fish is often prepared by coating the fish in batter, breadcrumbs, flour, or herbs and spices before frying and serving. It is commonly accompanied by a slice of lemon or greens.</p>"
     },
-    "Morion": {
-      "name": "莫里昂 Morion",
-      "description": "<p>也被称为烟晶。石英中较为罕见的形态之一。由于其近乎不透明，它确实具有一些与玫瑰石英相似的性质。它通常被邪恶之人追求，因为它主要用于死灵术。当骨骼被墨璃欧姆灌注后，它们会变得如钢铁般坚硬。</p>\n<p>Also known as Smoky Quartz. One of the rarer forms of quartz. Due to it being almost opaque, it does have some similar proprieties to the Rose Quartz. It's usually sought after by nefarious people as it is mainly used in necromancy. When bones are infused with Moriom they become as hard as steel.</p>"
-    },
     "Ochre Fish": {
       "name": "赭黄鱼 Ochre Fish",
       "description": "<p>赭色鱼是一种透明的鱼类，略带酸性，接触时黏腻，因被捕获时会腐蚀大多数鱼钩而闻名。通常栖息于未受船只航行干扰的海域与海洋中。对更有经验的渔民而言，捕获这种鱼与不祥之兆相关，因为整群赭色鱼往往会把自己黏在渔船船腹上，缓慢腐蚀船体材料并使其沉没。炼金术士已进行实验，试图将其酸性分泌物提炼为强效溶剂，甚至制成武器。</p>\n<p>Ochre Fish is a transparent type of fish, somewhat acidic and sticky to the touch, known to corrode most hooks when captured. Usually found in seas and oceans that are not disturbed by ship traffic. Capturing this fish is associated with bad omens, for more experienced fishermen, as whole schools of the Ochre Fish have a tendency to stick themselves to the belly of fishing boats, slowly corroding the material and sinking them. Experiments have been conducted to refine its acidic secretion into potent solvents or even weapons by alchemists.</p>"
-    },
-    "Hand Truck": {
-      "name": "手推车 Hand Truck",
-      "description": "<p>手推车，也称为手推货车，配有长把手，非常适合搬运桶和家具等重物。它常被旅店、酒馆和面包店使用，以便于从市场进行日常补货。</p><p></p>\n<p>A hand truck, also referred to as a hand cart, comes with long handles is perfect for moving heavy items like barrels and furniture. It is frequently used by inns, taverns, and bakeries to facilitate daily restocking from the market.</p><p></p>"
     },
     "Daer-Kron": {
       "name": "戴尔-克隆 Daer-Kron",
@@ -3257,10 +2825,6 @@
       "name": "碳钢 Carbon Steel",
       "description": "<p>由于颜色相近，这种合金常被误认为是暗钢，但它缺乏暗钢的奥术性质。这种合金是钢的一种非常坚固的变体，但更容易生锈。它主要用于制造切削工具、弹簧、扳手、锤子以及其他用于建筑的各类工具。</p>\n<p>Commonly mistaken for dark steel due to its similar coloring but lacking its arcane properties, this alloy is a very strong variant of steel. However, it is more prone to rusting. It is primarily used to create cutting tools, springs, wrenches, hammers, and other types of tools used in construction.</p>"
     },
-    "Pennyroyal": {
-      "name": "普列尼罗亚尔 Pennyroyal",
-      "description": "<p>草药师正高度警惕地寻找佩尼罗亚尔植物，当它被研磨成油时，可用于可靠的四足或两足伙伴作为跳蚤驱避剂。它也通常用于肥皂和香水的香料中，因为它被压碎时闻起来非常类似绿薄荷。</p>\n<p>Herbalists are on a high lookout for the Pennyroyal plant, when ground down into oils it is used for the trusty four, or two-legged companions as a flea replant. Its also usually used in soaps and fragrances for perfumes as it smells very similar to spearmint when crushed.</p>"
-    },
     "Vial of the Forgotten": {
       "name": "遗忘之瓶 Vial of the Forgotten",
       "description": "<p>据说这种神秘的调合物能在生者与死者之间锻造出强大的联系。饮用后，饮用者获得与已逝亲友互动或从过往的灵体中获取洞见的能力。然而，一旦饮下，这种药水永远不会失效，会缓慢地耗损那些胆敢与来世建立联系之人的理智。从现存的少量关于此药水的记录来看，还有说法称即使仍然活着，你也能看见自己的幽灵（特征），因此无法确定这种药水是否致命。</p>\n<p>This mysterious concoction is said to forge a powerful connection between the living and the dead. When consumed, the drinker gains the ability to interact with loved ones who have passed on or to gain insights from the spirits of the past. However, once consumed, this potion never wears off, slowly draining the sanity of those who dare to connect with the afterlife. From the few records that exist on this potion, it is also stated that you can see your own ghost, even while alive, making it uncertain if the potion is lethal.</p>"
@@ -3272,10 +2836,6 @@
     "Stargazer Lily": {
       "name": "观星百合 Stargazer Lily",
       "description": "<p><em>“当暮色降临，夜空开始变得昏暗时，空气中弥漫着一种期待感。知晓这则传说的人会紧盯天空，等待流星雨最初的征兆。就在那一刻，观星百合开始绽放，花瓣舒展开来，仿佛在回应头顶的天象盛景。甜美的香气充盈四周，携带着星辰的魔法，仿佛这朵花本身已被苍穹所触碰。”</em></p><p>观星百合以其芬芳闻名，在各个地区被种植与采收，用以制作香水。有些人相信，这种花只会在流星雨期间绽放，为其本就迷人的本性增添了一抹神秘色彩。</p>\n<p><em>\"As dusk falls and the night sky begins to darken, there’s a sense of anticipation in the air. Those who know the legend watch the sky closely, waiting for the first signs of a meteor shower. At that very moment, the Stargazer Lily begins to bloom, its petals unfolding as if responding to the celestial display above. The sweet scent fills the air, carrying with it the magic of the stars as if the flower itself has been touched by the heavens.\"</em></p><p>The Stargazer Lily, known for its fragrance, is grown and harvested in various regions to create perfumes. Some believe that the flower blooms only during a meteor shower, adding a mystical element to its already enchanting nature.</p>"
-    },
-    "Screamsickle Shake": {
-      "name": "尖啸镰刀摇晃 Screamsickle Shake",
-      "description": "<p>围绕尖叫冰棒奶昔萦绕着一个小小的迷信：小孩子们被告知，如果你在木地板上洒出一滴，明年的庄稼就会歉收。我觉得这八成是疲惫的母亲们编出来的，她们不想在干净的地板上留下黏糊糊的脚印。不过，我从来不敢在母亲家里把自己那杯洒出来，而我现在也不打算去考验那些精魂的耐心。</p>\n<p>A small superstition clings to the Screamsicle Shake, young children are told that if you spill a drop on the wooden floor, will make next year crop fail. I have a feeling this was invented by tired mothers who didn’t want sticky footprints on their clean floors. Still, I never dared spill my own cup at my mother's house, and I’m not about to test the spirits patience now.</p>"
     },
     "Lover's Embrace": {
       "name": "恋人的拥抱 Lover's Embrace",
@@ -3290,8 +2850,8 @@
       "description": "<p>甘蔗主要种植于热带地区，主要用于生产食糖。糖厂从新鲜收割的甘蔗中提取原糖，而“磨坊白糖”有时会在这些糖厂的初次提取阶段后立即生产，通常供应本地市场。</p><p></p>\n<p>Sugarcane, predominantly grown in tropical regions, is primarily cultivated for sugar production. Sugar mills extract raw sugar from freshly harvested cane, and 'mill-white' sugar is occasionally produced right after the initial extraction phase at these mills, often for local markets.</p><p></p>"
     },
     "Opal Earrings": {
-      "name": "欧泊耳环 Opal Earrings",
-      "description": "<p>由经验丰富的宝石切割师切割，并以银质配件连接的欧泊，作为色彩最为绚丽的宝石之一，当被如此精确地切割以展现出美丽的色彩光谱时，便成为中上阶层市民的心头好。有些奥术施法者通常会佩戴这种耳环，因为它们可以作为其法术库中某些魔法法术的导体。</p><p></p>\n<p>Cut by experienced gemcutters and connected with silver implements, opal, being one of the most colorful gems, when cut so precisely and in such a way that it provides a beautiful array of colors, becomes a favorite among the middle to higher classes of citizens. Some arcane casters usually wear the earrings, as they can be used as a conduit for some magical spells in their repertoire.</p><p></p>"
+      "name": "蛋白石耳环 Opal Earrings",
+      "description": "<p>由经验丰富的宝石切割师切割，并以银质配件连接的蛋白石，作为色彩最为绚丽的宝石之一，当被如此精确地切割以展现出美丽的色彩光谱时，便成为中上阶层市民的心头好。有些奥术施法者通常会佩戴这种耳环，因为它们可以作为其法术库中某些魔法法术的导体。</p><p></p>\n<p>Cut by experienced gemcutters and connected with silver implements, opal, being one of the most colorful gems, when cut so precisely and in such a way that it provides a beautiful array of colors, becomes a favorite among the middle to higher classes of citizens. Some arcane casters usually wear the earrings, as they can be used as a conduit for some magical spells in their repertoire.</p><p></p>"
     },
     "Pink Salmon": {
       "name": "粉红鲑鱼 Pink Salmon",
@@ -3312,10 +2872,6 @@
     "Nettle": {
       "name": "荨麻 Nettle",
       "description": "<p>或者荨麻，它主要被医疗从业者用来帮助治疗疲惫冒险者的肌肉疼痛或老年人的关节疼痛。经验丰富的炼金术师会将它作为基础成分之一用于治疗药水中</p>\n<p>Or Stinging Nettle, it is used mainly by practitioners of medicine to help treat muscle pains of the weary adventurers or the joints of the elderly. Experienced Alchemists use them in potions of healing as one of the base ingredients</p>"
-    },
-    "Wooden Pipes": {
-      "name": "木制管道 Wooden Pipes",
-      "description": "<p>木制烟斗或烟草烟斗专为吸食烟草和草药而设计。它们通常由坚固的硬木制成，如石楠木或玉米芯，每种材料都具有耐用性和独特的吸烟风味等优点。</p>\n<p>Wooden pipes, or tobacco pipes, are specifically designed for smoking tobacco and herbs. They are typically constructed from strong, hardwoods like briar or corn cob, each offering benefits such as durability and a unique smoking flavor.</p>"
     },
     "Apatite": {
       "name": "磷灰石 Apatite",
@@ -3348,10 +2904,6 @@
     "Watcher Cake": {
       "name": "守望者蛋糕 Watcher Cake",
       "description": "<p>以一种既稀有又神秘的配料制成，主要来源于冒险者的探索或任务。据传这种蛋糕会在食用后的接下来一年里将衰老过程减缓一半。然而，这些传闻从未得到证实。</p>\n<p>Crafted with a topping that's as rare as it is enigmatic, sourced mainly from the quests or missions of adventurers. This cake is rumored to slow down the aging process by half for the year following consumption. However, such rumors have never been confirmed.</p>"
-    },
-    "Grinder": {
-      "name": "研磨者 Grinder",
-      "description": "<p>一台木制装置，使用精工打造且耐用的铁制齿轮制成，旨在将材料研磨成细粉。曲柄便于操作。尽管它最初作为传统研钵与杵的替代品，如今主要被酒馆用于快速研磨干胡椒。</p>\n<p>A wooden contraption made with finely crafted and durable iron cogwheels is designed to reduce materials into a fine powder. A crank allows for easy operation. Though it originally served as an alternative to the traditional mortar and pestle, it is now primarily used by taverns to quickly grind dried pepper.</p>"
     },
     "Thyme": {
       "name": "百里香 Thyme",
@@ -3392,10 +2944,6 @@
     "Green Apple": {
       "name": "青苹果 Green Apple",
       "description": "<p>旅店老板会用青苹果来装饰他们的一些饮品，同时也会把它作为一种健康的甜点替代品提供。各地都有用青苹果酿造的著名苹果酒，因此旅店与酒馆老板对青苹果的需求很高。</p>\n<p>Innkeepers use green apples to garnish some of their beverages, as well as, provide it as a healthy desert variant. Famous ciders are made from green apples throughout the realms, therefore inn and tavern keepers have green apples in high demand.</p>"
-    },
-    "Benitoite": {
-      "name": "贝尼托石 Benitoite",
-      "description": "<p>贝尼托石晶体以其相对柔软而闻名，经常以碎片而非完整晶体的形式被发现。它们通常被用作保险箱、装饰盒和小雕像的镶嵌物。</p><p></p>\n<p>Benitoite crystals are known for their relative softness and are often found as fragments rather than intact crystals. They were commonly used as inlays for coffers, ornamental boxes, and statuettes.</p><p></p>"
     },
     "Smith's Coin": {
       "name": "铁匠的硬币 Smith's Coin",
@@ -3490,7 +3038,7 @@
       "description": "<p>根据一些罕见的研究，这种生物的身体会紧紧包裹在面部，而它的尾巴会缠绕在颈部，其目的未知。然而，由于关于它们的记录有限，其目的仍不确定。从未发现过活体标本，只有偶尔出现的外骨骼壳。对这些壳的分析引出了这样一种理论：这种生物的血液具有强酸性，因为它能够溶解大多数物质。</p>\n<p>According to some rare studies, the creature’s body wraps tightly to the face, while its tail coils around the neck, to an unknown purpose. However, due to limited documentation of them, their purpose remains uncertain. No living specimens have ever been discovered, only the ocassional exoskeleton shells. Analysis of these shells has led to the theory that the creature's blood is highly acidic as it is capable of dissolving most substances.</p>"
     },
     "Emerald": {
-      "name": "翡翠 Emerald",
+      "name": "祖母绿 Emerald",
       "description": "<p>半透明祖母绿被切割并抛光成用于珠宝的宝石切工。主要作为礼物赠予王室或贵族。过去它与健康、生育和成长相关，并被用来装饰能提升治疗技艺的魔法物品。</p>\n<p>Translucent Emeralds are cut and polished in gem cuts for jewelry. Mainly provided as gifts for royalty or nobility. In the past it was associated with health, fertility, and growth and used to adorn magical items that improved the healing arts.</p>"
     },
     "Velvet": {
@@ -3548,10 +3096,6 @@
     "Agate Ring": {
       "name": "玛瑙戒指 Agate Ring",
       "description": "<p>玛瑙戒指据传能吸引财富与繁荣。这种信念可能源自德鲁伊传统，其认为玛瑙石与周围大地之间共享着强烈的联系与纽带。然而，在平民之中地位最高的阶层里，关于应将玛瑙宝石戴在哪根手指和哪只手上存在一套严格的行为准则，而且这种做法会随日子而改变。</p>\n<p>The agate ring is rumored to attract wealth and prosperity. This belief may stem from Druidic traditions, which hold that the agate stone shares a strong connection and bond with the surrounding earth. Among the highest class of commoners, however, there exists a strict code of conduct regarding which finger and hand the agate gem should be worn on, a practice that changes depending on the day.</p>"
-    },
-    "Aurichalcum Ingot": {
-      "name": "星铂金锭 Aurichalcum Ingot",
-      "description": "<p>当杂质被去除并产出纯净的锭块时，奥利哈钢锭在齿轮、船舶部件、叶轮、轴承、金属套筒以及其他机械部件等关键组件中有多种用途。奥利哈钢也仍与其古老的根源相连，人们铸造钱币以延续这一悠久的根源。</p>\n<p>When impurities are removed and clear ingots are produced, Aurichalcum Ingots finds several uses in essential components such as gears, ship parts, impellers, bearings, metallic sleeves, and other mechanical parts. Aurichalcum also remains tied to its ancient roots, with coins being minted to continue this long-standing tradition.</p>"
     },
     "Murum": {
       "name": "穆鲁姆 Murum",
