@@ -51,6 +51,18 @@
       "name": "使用 PF2e Toolbelt 自动掩蔽",
       "hint": "启用且已安装 PF2e Toolbelt v3.60 或更高版本时，忽略指示物上的掩蔽状态，改由 PF2e Toolbelt 的自动掩蔽判定每一对指示物之间的掩蔽调整。"
     },
+    "undetectedColor": {
+      "name": "主持人所见无踪光晕颜色",
+      "hint": "视野变通处理向主持人显示无踪指示物时所用的光晕颜色。"
+    },
+    "tickerLineColor": {
+      "name": "指示连线颜色",
+      "hint": "悬停时，两个指示物之间基础连线所用的颜色。"
+    },
+    "tickerSegmentColor": {
+      "name": "指示连线流动段颜色",
+      "hint": "悬停时，两个指示物之间连线上移动线段所用的颜色。"
+    },
     "notifications": {
       "noSocketLib": "PF2e Stealthy 需要启用 socketlib 模组才能平移或缩放至战斗区域。请启用该模组。",
       "target1": "指出位置动作要求恰好选中一个目标指示物。",
